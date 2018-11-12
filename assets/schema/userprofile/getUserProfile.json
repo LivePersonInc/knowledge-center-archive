@@ -1,5 +1,0 @@
-{
-    "type": "string",
-    "description": "The body should contain the queried consumerId string",
-    "default": "consumerId"
-}

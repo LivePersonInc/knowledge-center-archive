@@ -1,9 +1,0 @@
-{
-    "oneOf": [{
-        "title" :"ClientProperties",
-        "$ref": "../infra/clientPropertiesHeader.json"
-    }, {
-        "title" :"ConsumerAuthentication",
-        "$ref": "../infra/consumerAuthenticationHeader.json"
-    }]
-}

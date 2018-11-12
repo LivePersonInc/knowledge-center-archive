@@ -1,49 +1,6 @@
 ## LivePerson Developers' Community
 
-**As of August 2018, please open all Pull Requests DIRECTLY TO THE MASTER BRANCH**
-
-This repository generates LivePerson's Developers' Community, which can be found at https://developers.liveperson.com. The site is generated using [Jekyll](https://jekyllrb.com/). If you find an issue with the documentation, site structure, meta or anything else, please open an issue and we'll respond as soon as possible!
-
-### Updating the Documentation
-
-All pages on the site correspond to a Markdown file (.md) which can be found inside the "pages" folder, under the "documents" folder. To update a file, please branch off of the `master` branch, edit the file in question and create a Pull Request **back to the master branch**. There's no need for the old Development branch, so please don't create pull requests to it.
-
-#### Updating/Creating Headers
-
-Jekyll uses a [front-matter](https://jekyllrb.com/docs/frontmatter/) to arrange and define the various documents in the site. This is the text which appears in between the "---" at the top of each document. It's technically a YAML snippet, so all [YAML formatting](http://www.yamllint.com/) and rules apply to it. Our headers are usually comprised of the following key/value pairs:
-
-* `title`: **DEPRECATED, use `pagename` instead. All other rules apply**. This is the name of the page that will appear at the top of the document. **DEPRECATED, use `pagename` instead. All other rules apply.**
-
-* `keywords`: this replaces the keywords found in the `<meta>` tag of the page. Leave it unpopulated.
-
-* `level1`: **DEPRECATED, use `documentname` instead. All other rules apply**. This key can have either "Documents" or "Solutions". This designates which part of the site the document is under.
-
-* `level2`: **DEPRECATED, use `categoryname` instead. All other rules apply**. This is the category to which the document's API belongs (for example, the "Create Users" method belongs to the Users API which is under Contact Center Management. Therefore, its level2 is "Contact Center Management".
-
-* `level3`: **DEPRECATED, use `documentname` instead. All other rules apply**. This is the API to which the document belongs.
-
-* `level4`: **DEPRECATED, use `subfoldername` instead. All other rules apply**. This is a sub-folder to which the document belongs, if there is one.
-
-* `root-link`: **DEPRECATED. No longer needed as the sidebar is now alphabetically organized and displays all document links**. This key accepts a Boolean value. If set to `true`, the document will be the "top" document for the API and all links to the API from the navigation will lead to it.
-
-* `level-order`: **DEPRECATED. No longer needed as the sidebar is now alphabetically organized**. This key accepts an integer. If `root-link` is set to `true`, this key positions the parent API among its category. It is sequential, so 1 will display before 2 and 2 before 3 and so on. Thus, if the Users API (which is under Contact Center Management) has an "Overview" page that has `root-link` set to `true` and `level-order` set to `1`, it will appear before the Skills API (which is also under Contact Center Management) which has an "Overview" page that has `root-link` set to `true` but a `level-order` set to `2`.
-
-* `order`:  **DEPRECATED. No longer needed as the sidebar is now alphabetically organized and the site hierarchy is determined by a manually updated YAML file. See below for more info**. This value accepts an integer. It arranges the documents inside the API. It is sequential, so 1 will display before 2 and 2 before 3 and so on. Note that it doesn't discriminate between folders, so even if you have `level4` defined for some documents, they are still placed on the same sequence as the rest of the documents.
-
-* `permalink`: this key defines the link at which the document can be found. The format of this value **MUST BE** as follows. Any other value format will cause the sidebar to malfunction:
-
-  * If the page has a `subfoldername` value: documentname - subfoldername - pagename. For example: `mobile-app-messaging-sdk-for-android-advanced-features-audio-messages.html`
-
-  * If the page does not have a `subfoldername` value: documentname - pagename. For example: users-api-overview.html
-
-* `indicator`: this key sets the Chat or Messaging indicator (or both) on a document. It accepts `chat`, `messaging` or `both` as its value.
-
-
-#### Adding New Documents to the Sidebar
-
-Once you've created a new document, you'll need to have it manually added. We chose a manual process for the side for a few reasons. First, it reduces the fragility of the sidebar (the extra, manual step gives us another layer of QA). Secondly, it increases the flexibility of the sidebar (we write code once and then maintain a YAML file, making it easier to add options). Lastly, it decreases site build times (since the `forloops` needed to build a sidebar in a site of our size and complexity are time and resource consuming).
-
-The sidebar's YAML file can be found in the `_data` folder. It's called `documentsupdated.yaml`. **However, only the project's maintainer should edit this file directly. Please do not open Pull Requests with changes to this file but instead contact the project's maintainer directly. As of August 2018, this is Eden Kupermintz, the owner of this repository. You can reach him at edenk [at] liveperson [dot] com.**
+This repository generates LivePerson's Knowledge Center, which can be found at **TBD**. The site is generated using [Jekyll](https://jekyllrb.com/). If you find an issue with the documentation, site structure, meta or anything else, please open an issue and we'll respond as soon as possible!
 
 ### Building the Site Locally
 
@@ -58,8 +15,6 @@ Once you have installed Ruby, clone this repository to your machine. Once done, 
 2. Run `bundle exec jekyll build`. This builds the `_site` folder for the first time on your machine. The `bundle exec` prefix makes sure that bundler "watches" your build and installs any dependencies that might be missing. It's a precaution and is thus not mandatory.
 3. Run `bundle exec jekyll serve`. This builds the site and serves it over localhost:4000 (by default, you can change the `port` parameter in `config.yml` to whatever port you'd prefer).
 4. Navigate to http://localhost:4000/ (or the port you chose) and you'll see the site.
-
-
 
 **Serving the site after the first install**
 

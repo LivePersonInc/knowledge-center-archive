@@ -1,6 +1,0 @@
-{
-    "type": "string",
-    "description": "Optional text description for the response",
-    "default": "Some description",
-    "maxLength": 128
-}

@@ -1,7 +1,7 @@
-topnav_title: LivePerson Developers
+topnav_title: LivePerson Knowledge Center
 # this appears on the top navigation bar next to the home button
 
-site_title: LivePerson Developers
+site_title: LivePerson Knowledge Center
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: LivePerson
@@ -16,16 +16,15 @@ host: 127.0.0.1
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
-google_analytics: UA-96175782-1
+google_analytics:
 
 
-extlinks:
-  attributes: {target: _blank, onclick: "linkclick(event, this)"}
+# extlinks:
+#   attributes: {target: _blank, onclick: "linkclick(event, this)"}
 # This tells the extlinks plugin which attribute to add to links
 
 plugins:
   # - algoliasearch-jekyll
-  - jekyll-redirect-from
 
 
 # algolia:
@@ -65,11 +64,11 @@ defaults:
       comments: true
       search: true
 
-description: "LivePerson Developera is the main repository for documentation of LivePerson APIs and SDKs."
+description: "The LivePerson Knowledge Center is the main repository for product knowledge and support articles."
 # the description is used in the feed.xml file
 
 
-url: https://developers.liveperson.com
+url: https://knowledge.liveperson.com
 # needed for sitemap.xml file only
 
 
