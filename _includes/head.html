@@ -8,6 +8,8 @@
 {% else %}
 <title> {{ page.pagename }} | {{ site.site_title }}</title>
 {% endif %}
+<link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 <link rel="stylesheet" href="{{ "css/default.css" }}">
 <link rel="stylesheet" href="{{ "css/404.css" }}">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -20,9 +22,8 @@
 <script  src="{{ "js/jquery.linkunderanim.min.js" }}"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
 <script  src="{{ "js/jquery-scrolltofixed-min.js" }}"></script>
-<script  src="{{ "js/additionalscripts.js" }}"></script>
+<script  src="{{ "js/scripts.js" }}"></script>
 <script src="{{ "node_modules/jquery-highlight/jquery.highlight.js" }}"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 <script data-pace-options= "{ "elements": { "selectors": {'#defaultcontent', '.documenttitle', '.breadcrumbs'}}}" src="{{ "js/pace.min.js" }}"></script>
-<link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+<script src="https://unpkg.com/scrollreveal"></script>
