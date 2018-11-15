@@ -6,11 +6,10 @@ function scrollReveal () {
 	var homepanelReveal = {
 		reset: true,
 		duration: 2500,
-		delay: 50,
 		origin: 'bottom',
 		distance: '100px'
 	};
-	ScrollReveal().reveal('.homepanel', homepanelReveal);
+	ScrollReveal().reveal('.homepanel span', homepanelReveal);
 };
 
 
