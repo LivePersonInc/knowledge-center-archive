@@ -1,0 +1,42 @@
+---
+label: Knowledge Center
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: pagename
+  label: Title
+  description: The page's title
+  config:
+    required: true
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Category 1
+    - Category 2
+    - Category 3
+  label: category
+  name: categoryname
+  description: The document's category
+- type: select
+  name: documentname
+  config:
+    source:
+      type: simple
+    options:
+    - Document 1
+    - Document 2
+    - Document 3
+  label: document
+  description: The document this page belongs to
+- type: text
+  name: permalink
+  label: Link
+  description: The page's address
+  config:
+    required: true
+pages:
+- pages/a-test-document.md
