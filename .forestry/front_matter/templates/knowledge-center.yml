@@ -6,7 +6,7 @@ fields:
 - type: text
   name: pagename
   label: Title
-  description: The document's title
+  description: The page's title
   config:
     required: true
 - type: select
