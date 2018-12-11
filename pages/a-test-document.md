@@ -8,4 +8,6 @@ permalink: atestpage.html
 published: false
 
 ---
-Hey. I'm a page. I haven't configured page CSS yet so I wonder what happens when I hit preview.
+Hey. I'm a page. This is where you edit rich text. Check out the editor below for stuff like bold, italics, and so on. By the way, keyboard short cuts work!
+
+If you want to see the Markdown itself, simply hit the three dots in the upper right corner and select "Raw Editor". Tables, for example, aren't supported yet so that's one example where you'd need the Raw Editor.
