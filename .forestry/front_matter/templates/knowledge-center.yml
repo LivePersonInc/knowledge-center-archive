@@ -21,3 +21,14 @@ fields:
   label: category
   name: categoryname
   description: The document's category
+- type: select
+  name: documentname
+  config:
+    source:
+      type: simple
+    options:
+    - Document 1
+    - Document 2
+    - Document 3
+  label: document
+  description: The document this page belongs to
