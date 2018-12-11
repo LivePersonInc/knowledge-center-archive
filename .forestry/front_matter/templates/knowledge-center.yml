@@ -32,3 +32,9 @@ fields:
     - Document 3
   label: document
   description: The document this page belongs to
+- type: text
+  name: permalink
+  label: Link
+  description: The page's address
+  config:
+    required: true
