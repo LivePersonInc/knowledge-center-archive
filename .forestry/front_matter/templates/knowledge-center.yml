@@ -2,4 +2,10 @@
 label: Knowledge Center
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The document's title
+  config:
+    required: true
