@@ -21,6 +21,7 @@ fields:
   label: category
   name: categoryname
   description: The document's category
+  default: Category 1
 - type: select
   name: documentname
   config:
