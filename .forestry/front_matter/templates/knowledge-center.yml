@@ -9,3 +9,15 @@ fields:
   description: The document's title
   config:
     required: true
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Category 1
+    - Category 2
+    - Category 3
+  label: category
+  name: categoryname
+  description: The document's category
