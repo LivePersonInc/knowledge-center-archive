@@ -39,3 +39,5 @@ fields:
   description: The page's address
   config:
     required: true
+pages:
+- test-page.md
