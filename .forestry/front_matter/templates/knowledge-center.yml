@@ -9,26 +9,10 @@ fields:
   description: The page's title
   config:
     required: true
-- type: select
-  config:
-    source:
-      type: simple
-    required: true
-    options:
-    - Getting Started
-    - Account Settings
-    - Agent & Manager Experience
-    - Bots & Automation
-    - Contact Center Management
-    - Messaging Channels
-    - Reporting & Data
-    - Security & Regulations
-    - What's New
-    - Release Notes
-  label: Section
-  name: sectionName
-  description: The main site section the document belongs to
-  default: Category 1
+- type: text
+  name: authorName
+  label: Author Name
+  description: The page's author name
 - type: select
   name: categoryName
   config:
@@ -66,6 +50,26 @@ fields:
     - MCS
   label: Category
   description: The category this page belongs to
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Getting Started
+    - Account Settings
+    - Agent & Manager Experience
+    - Bots & Automation
+    - Contact Center Management
+    - Messaging Channels
+    - Reporting & Data
+    - Security & Regulations
+    - What's New
+    - Release Notes
+  label: Section
+  name: sectionName
+  description: The main site section the document belongs to
+  default: Getting Started
 - type: select
   name: documentName
   config:
