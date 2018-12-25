@@ -30,7 +30,7 @@ fields:
   description: The main site section the document belongs to
   default: Category 1
 - type: select
-  name: documentName
+  name: categoryName
   config:
     source:
       type: simple
@@ -66,6 +66,18 @@ fields:
     - MCS
   label: Category
   description: The category this page belongs to
+- type: select
+  name: documentName
+  config:
+    source:
+      type: simple
+    options:
+    - Managing a Conversation
+    - Use Case
+    - Components
+    - Predefined Dashboard
+  label: Document
+  description: The document this page belongs to
 - type: text
   name: permalink
   label: Link
