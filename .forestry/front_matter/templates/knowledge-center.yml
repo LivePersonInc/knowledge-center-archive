@@ -65,12 +65,16 @@ fields:
     - BI (Chat)
     - MCS
   label: Category
-  description: The document this page belongs to
+  description: The category this page belongs to
 - type: text
   name: permalink
   label: Link
   description: The page's address
   config:
     required: true
+- type: select
+  config:
+    source:
+      type: documents
 pages:
 - test-page.md
