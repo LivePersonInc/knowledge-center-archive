@@ -25,9 +25,9 @@ fields:
     - Security & Regulations
     - What's New
     - Release Notes
-  label: category
-  name: categoryname
-  description: The document's category
+  label: Section
+  name: sectionName
+  description: The main site section the document belongs to
   default: Category 1
 - type: select
   name: documentname
