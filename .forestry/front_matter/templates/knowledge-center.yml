@@ -80,6 +80,7 @@ fields:
     - Use Case
     - Components
     - Predefined Dashboard
+    required: true
   label: Document
   description: The document this page belongs to
 - type: text
@@ -89,8 +90,16 @@ fields:
   config:
     required: true
 - type: select
+  name: indicator
   config:
     source:
-      type: documents
+      type: simple
+    options:
+    - chat
+    - messaging
+    - both
+    required: true
+  label: chat/messaging
+  description: Is this page relevant to chat, messaging or both?
 pages:
 - test-page.md
