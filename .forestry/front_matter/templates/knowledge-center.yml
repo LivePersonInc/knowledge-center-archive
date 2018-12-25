@@ -30,15 +30,18 @@ fields:
   description: The main site section the document belongs to
   default: Category 1
 - type: select
-  name: documentname
+  name: documentName
   config:
     source:
       type: simple
     options:
-    - Document 1
-    - Document 2
-    - Document 3
-  label: document
+    - Real Time Dashboards
+    - Accessibility
+    - Secure Forms
+    - Login
+    - Security
+    - Product Newsletter
+  label: Category
   description: The document this page belongs to
 - type: text
   name: permalink
