@@ -85,7 +85,7 @@ fields:
 - type: text
   name: permalink
   label: Link
-  description: The page's address
+  description: The page's address. Format is category-section-document-title.html
   config:
     required: true
 - type: select
