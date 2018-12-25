@@ -15,9 +15,16 @@ fields:
       type: simple
     required: true
     options:
-    - Category 1
-    - Category 2
-    - Category 3
+    - Getting Started
+    - Account Settings
+    - Agent & Manager Experience
+    - Bots & Automation
+    - Contact Center Management
+    - Messaging Channels
+    - Reporting & Data
+    - Security & Regulations
+    - What's New
+    - Release Notes
   label: category
   name: categoryname
   description: The document's category
