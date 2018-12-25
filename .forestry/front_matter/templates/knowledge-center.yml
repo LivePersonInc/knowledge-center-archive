@@ -41,6 +41,29 @@ fields:
     - Login
     - Security
     - Product Newsletter
+    - User Management
+    - Skills & Groups
+    - Permissions
+    - My Account
+    - Support
+    - Agent Tools for Messaging
+    - Agent Workspace
+    - Agent Workspace Configuration
+    - Manager Tools
+    - Messaging Operations
+    - Chat Operations
+    - Campaigns
+    - Surveys
+    - Connectors
+    - In-app Messaging
+    - Web Messaging
+    - Rich Messaging
+    - Engagement Attributes
+    - Data Sources
+    - Audit
+    - Report Builder
+    - BI (Chat)
+    - MCS
   label: Category
   description: The document this page belongs to
 - type: text
