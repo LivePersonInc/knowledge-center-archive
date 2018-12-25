@@ -9,10 +9,6 @@ fields:
   description: The page's title
   config:
     required: true
-- type: text
-  name: authorName
-  label: Author Name
-  description: The page's author name
 - type: select
   name: categoryName
   config:
@@ -83,6 +79,7 @@ fields:
     required: true
   label: Document
   description: The document this page belongs to
+  default: Managing a Conversation
 - type: text
   name: permalink
   label: Link
@@ -101,5 +98,6 @@ fields:
     required: true
   label: chat/messaging
   description: Is this page relevant to chat, messaging or both?
+  default: chat
 pages:
 - test-page.md
