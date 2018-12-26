@@ -9,8 +9,33 @@ fields:
   description: The page's title
   config:
     required: true
+  default: Test
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: A subtitle which will appear below the title
 - type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Getting Started
+    - Account Settings
+    - Agent & Manager Experience
+    - Bots & Automation
+    - Contact Center Management
+    - Messaging Channels
+    - Reporting & Data
+    - Security & Regulations
+    - What's New
+    - Release Notes
+  label: Category
   name: categoryName
+  description: The category to which the document belongs
+  default: Getting Started
+- type: select
+  name: subCategoryName
   config:
     source:
       type: simple
@@ -44,48 +69,21 @@ fields:
     - Report Builder
     - BI (Chat)
     - MCS
-  label: Category
-  description: The category this page belongs to
-- type: select
+  label: L2 Category
+  description: The sub-category to which the document belongs
+  default: Real Time Dashboards
+- type: text
+  name: level3Name
+  label: L3 Category
   config:
-    source:
-      type: simple
-    required: true
-    options:
-    - Getting Started
-    - Account Settings
-    - Agent & Manager Experience
-    - Bots & Automation
-    - Contact Center Management
-    - Messaging Channels
-    - Reporting & Data
-    - Security & Regulations
-    - What's New
-    - Release Notes
-  label: Section
-  name: sectionName
-  description: The main site section the document belongs to
-  default: Getting Started
-- type: select
-  name: documentName
-  config:
-    source:
-      type: simple
-    options:
-    - Managing a Conversation
-    - Use Case
-    - Components
-    - Predefined Dashboard
-    required: true
-  label: Document
-  description: The document this page belongs to
-  default: Managing a Conversation
+    required: false
 - type: text
   name: permalink
-  label: Link
-  description: The page's address. Format is category-section-document-title.html
+  label: Slug
+  description: The page's address. Format is category-L2-L3-title.html
   config:
     required: true
+  default: ''
 - type: select
   name: indicator
   config:
@@ -99,5 +97,10 @@ fields:
   label: chat/messaging
   description: Is this page relevant to chat, messaging or both?
   default: chat
+- type: boolean
+  name: isTutorial
+  label: Video Tutorial
+  description: Does this document have a video tutorial?
+  default: false
 pages:
 - test-page.md
