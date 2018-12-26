@@ -104,3 +104,4 @@ fields:
   default: false
 pages:
 - test-page.md
+- pages/documents/introduction-for-agents.md
