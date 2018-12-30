@@ -5,7 +5,7 @@ categoryName: Getting Started
 subCategoryName: ''
 level3Name: ''
 permalink: template.html
-indicator: chat
+indicator: both
 isTutorial: false
 date: 2018-12-30 10:15:01 +0200
 published: false
