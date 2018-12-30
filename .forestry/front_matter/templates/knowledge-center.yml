@@ -103,6 +103,6 @@ fields:
   description: Does this document have a video tutorial?
   default: false
 pages:
-- pages/documents/Templates/template.md
+- pages/documents/Templates/articletemplate.md
 - test-page.md
 - pages/documents/introduction-for-agents.md
