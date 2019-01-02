@@ -4,7 +4,7 @@ subtitle: This is an example of how an article layout works
 categoryName: Getting Started
 subCategoryName: ''
 level3Name: ''
-permalink: template.html
+permalink: article-template.html
 indicator: both
 isTutorial: false
 date: 2018-12-30 10:15:01 +0200
@@ -36,3 +36,7 @@ Inserting images with Forestry is easy. Simply click on the image icon in the To
 ### Videos
 
 When a video needs to be inserting into a document, simply leave the **full** Vimeo link in the text of the document itself, on its own line. Eden will review these links and embed them. If you have specific directions on how a video should be embedded (a bigger space between it and the text is needed, a specific location within the file that’s not intuitive, and so on) email Eden directly with your directions. **Do not leave these directions in the article itself**.
+
+### A Note About the Slug
+
+Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
