@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	scrollReveal()
+	mainBoxClick()
 });
 
 function scrollReveal () {
@@ -11,6 +12,20 @@ function scrollReveal () {
 	};
 	ScrollReveal().reveal('.homepanel span', homepanelReveal);
 };
+
+
+function mainBoxClick() {
+	$("#boxesrow").on("click", ".mainbox", function (){
+		var hasExpanded = $(this).data("expanded") == "true";
+		if (hasExpanded) {
+			$(this).addClass("closed");
+			$(this).data("expanded", "false");
+		} else {
+			$(this).removeClass("closed");
+			$(this).data("expanded", "true");
+		}
+	});
+}
 
 
 
