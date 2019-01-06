@@ -6,7 +6,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 150px 905px 700px 670px 450px;
+    grid-template-rows: 150px 700px 720px 640px 250px
   }
 
   #homenav {
@@ -30,7 +30,6 @@
   #homepanel {
     width: 100%;
     grid-row: 4 / 5;
-    display: flex;
   }
 
   #homefooter {
@@ -325,6 +324,180 @@ a.mainlink:hover {
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   background-color: #f7f7f7;
   color: #272727;
+  display: flex;
+  flex-direction: column;
+}
+
+#announcementcontainer {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #f66;
+  font-style: italic;
+  display: none;
+  margin-bottom: 120px;
+}
+
+#panelcontentcontainer {
+  display: flex;
+  margin-top: -35px;
+}
+
+#leftcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#paneltitle {
+  font-size: 28px;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+
+#newslettercontainer {
+  background-color: #ffffff;
+  height: 319px;
+  width: 380px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#newslettertitle {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5879da;
+  margin-top: 15px;
+}
+
+#newsletterdate {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #272727;
+}
+
+.panelhr {
+  height: 5px;
+  width: 15px;
+  background-color: #5879da;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.close {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#middlecontainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.newfeaturecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 150px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.newfeaturetitle {
+  font-size: 13px;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5879da;
+  margin-top: 15px;
+}
+
+.newfeaturesubtitle {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #272727;
+  padding-right: 30px;
+}
+
+.newfeaturesummary {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6f6f6f;
+  line-height: 1.57;
+}
+
+.readmore {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 300;
+
+}
+
+#rightcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#secondpaneltitle {
+  font-size: 28px;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 25px;
+  padding-top: 35px;
+}
+
+#releasenotescontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.releasenotesbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 379px;
+  height: 65px;
+  margin-bottom: 20px;
+  padding-left: 20px
+}
+
+.releasenotesbox:last-child {
+  margin-bottom: 0px;
+}
+
+.releasenotestitle {
+  font-size: 13px;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5879da;
+  padding: 10px 28px 10px 0px;
+}
+
+.releasenotesdate {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #272727;
+  padding: 0px 28px 10px 0px;
+}
+
+.seeallbox {
+  flex: 1;
+  width: 260px;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #5879da;
+  padding: 15px 44.5px;
+  border: 1px solid #5879da;
+  text-align: center;
+  align-self: center;
+  margin-top: 40px;
 }
 
 #homefooter {
