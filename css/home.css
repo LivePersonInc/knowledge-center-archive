@@ -6,7 +6,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 150px 700px 720px 640px 250px
+    grid-template-rows: 150px 700px 720px 640px 350px
   }
 
   #homenav {
@@ -148,6 +148,7 @@
   font-weight: 300;
   width: 390px;
   z-index: 2;
+  cursor: pointer;
 }
 
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox.closed {
@@ -159,6 +160,15 @@
   transition: height 0.35s ease-out;
 }
 
+#boxesrow .mainboxwrapper:nth-child(1) .mainbox.closed:hover {
+  background-color: #5879da;
+  height: 370px;
+  -webkit-transition: height 0.5s ease-out;
+  -moz-transition: height 0.5s ease-out;
+  -o-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+}
+
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed {
   background-color: #162036 ;
   height: 390px;
@@ -166,6 +176,15 @@
   -moz-transition: height 0.35s ease-out;
   -o-transition: height 0.35s ease-out;
   transition: height 0.35s ease-out;
+}
+
+#boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed:hover {
+  background-color: #162036 ;
+  height: 370px;
+  -webkit-transition: height 0.5s ease-out;
+  -moz-transition: height 0.5s ease-out;
+  -o-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed {
@@ -176,6 +195,16 @@
   -o-transition: height 0.35s ease-out;
   transition: height 0.35s ease-out;
 }
+
+#boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed:hover {
+  background-color: #f55130 ;
+  height: 370px;
+  -webkit-transition: height 0.5s ease-out;
+  -moz-transition: height 0.5s ease-out;
+  -o-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+}
+
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox {
   background-color: #5879da;
   height: 100px;
@@ -504,7 +533,66 @@ a.mainlink:hover {
   align-items: center;
   justify-content: center;
   background-color: #162036;
+  display: flex;
+  flex-direction: column;
 }
+
+#listrow {
+  display: flex;
+
+}
+
+.footertitle {
+  font-size: 18px;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footerlist {
+  list-style: none;
+  font-size: 14px;
+  font-family: "Open Sans", "Roboto", Helvetica, sans-serif;
+  padding-left: 0;
+  color: #eef0f1;
+  font-weight: 300;
+  margin-right: 55px;
+  margin-top: 15px;
+  line-height: 1.86;
+}
+
+.footerhr {
+  height: 1px;
+  width: 40%;
+  background-color: #eef0f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0px solid #fff;
+}
+
+#footerbottomrow {
+  display: flex;
+}
+
+#footertext {
+  color: #eef0f1;
+}
+
+#footertext a {
+  color: #eef0f1;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+#footericons a {
+  color: #eef0f1;
+  margin-right: 5px;
+}
+
+#footericons a:first-child {
+  margin-left: 15px;
+}
+
 
 /* Search Styling Begins */
 

@@ -25,6 +25,7 @@ google_analytics:
 
 plugins:
   # - algoliasearch-jekyll
+  - jekyll-last-modified-at
 
 
 # algolia:

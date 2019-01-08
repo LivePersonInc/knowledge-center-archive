@@ -1,18 +1,154 @@
 <!DOCTYPE html>
 <head>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ "css/search.css" }}">
+     <meta name="description" content="LivePerson for Developers. Build on LiveEngage with our powerful digital toolbox">
+     <meta name="keywords" content="APIs, SDKs, Mobile development, LiveEngage, Agent workspace, Tag, JSON examples, Click to message, Click to chat, Chat window, Skills, Agent Groups, iOS, Android, Mobile devices, Integrations, Live chat, Agent widget, Reporting, Analytics">
+     <meta name="author" content="LivePerson Inc.">
 </head>
 <body>
-  <div id="defaultcontent" class="defaultcontent" id="defaultcontent">
+<div id="defaultwrapper">
+  <div id="defaultheader"></div>
+  <div id="defaultsidebar">
+    {% include sidebar.html %}
+  </div>
+  <div id="documenttitlecontainer">
+  <div class="documenttitle">
+    {% include nav-breadcrumbs.html %}
+    <div class="titlecontainer">
+      <div class='h1'>{{ page.pagename }}</div>
+      <div id="subtitle">{{ page.subtitle }}</div>
+      <div id="indicatorrow">
+        <div id="lastmodified">{{ page.last_modified_at | date: '%B %d, %Y' }}</div>
+        <div id="indicators">
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
+          <div class="indicator chat">Chat</div>
+          {% endif %}
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "messaging" %}
+          <div class="indicator messaging">Messaging</div>
+          {% endif %}
+    </div>
+  </div>
+</div>
+  <hr class="pagehr" />
+  </div>
+</div>
+  <div id="defaultcontent">
     {{ content | extlinks }}
   </div>
-  <div id="defaultfooter" class="defaultfooter">
-    <span>LivePerson Inc 2018 | <a href="https://www.liveperson.com/policies/copyright">Copyright Control</a> | <a href="https://www.liveperson.com/policies/apitou">API Terms of Use</a>
-    </span>
+  <div id="defaultfooter">
+    <div id="listrow">
+      <div id="categories">
+        <span class="footertitle">Categories</span>
+        <ul class="footerlist">
+          {% for category in site.data.documents %}
+          <li class="categoryitem">{{ category.categoryname }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div id="resources">
+        <span class="footertitle">Resources</span>
+        <ul class="footerlist">
+          <li class="resourcesitem">Customer Success Stories</li>
+          <li class="resourcesitem">Reports</li>
+          <li class="resourcesitem">Videos</li>
+          <li class="resourcesitem">Developers</li>
+          <li class="resourcesitem">Training</li>
+        </ul>
+      </div>
+      <div id="company">
+        <span class="footertitle">Company</span>
+        <ul class="footerlist">
+          <li class="companyitem">Investor Relations</li>
+          <li class="companyitem">Careers</li>
+          <li class="companyitem">Culture</li>
+          <li class="companyitem">News, Awards, Events</li>
+          <li class="companyitem">Blog</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footerhr" />
+    <div id="footerbottomrow">
+      <div id="footertext">
+      <span class="footerbottomspan">Language: English us &copy; 2017 LivePerson Inc. All rights reserved.</span>
+      <a href="https://www.liveperson.com/policies/copyright">Copyright</a>
+      <a href="https://www.liveperson.com/policies/disclaimer">Disclaimer</a>
+      <a href="https://www.liveperson.com/policies/privacy">Privacy Policy</a>
+      <a href="https://www.liveperson.com/policies/terms-of-use">Terms of Use</a>
+    </div>
+    <div id="footericons">
+      <a href="http://twitter.com/liveperson"><i class="fab fa-twitter"></i></a>
+      <a href="http://www.facebook.com/LivePersonInc"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/MyLivePerson"><i class="fab fa-youtube"></i></a>
+      <a href="http://www.linkedin.com/company/164748"><i class="fab fa-linkedin-in"></i></a>
+      <a href="http://www.pinterest.com/liveperson/"><i class="fab fa-pinterest"></i></a>
+    </div>
+  </div>
   </div>
 <!-- /.container -->
 </div>
-<script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript">
+const search = docsearch({
+apiKey: 'e386ebed16c8f70de3c914b3ace55ae6',
+indexName: 'liveperson',
+inputSelector: '.aa-input-search',
+debug: false,
+algoliaOptions: {
+  hitsPerPage: 50
+},
+autocompleteOptions: {
+  openOnFocus: true,
+  templates: {
+     //'suggestion' templating function used to render a single suggestion
+     suggestion: function(suggestion) {
+       if (suggestion._highlightResult.content && suggestion._highlightResult.title) {
+         return '<span>' + '<a  onclick="linkclick(event, this)" class="searchlink" href="' + suggestion.permalink +'">' + suggestion._highlightResult.title.value + '</a> </span>' + '<br />' + '<span>' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + suggestion.permalink +'">' +  suggestion._highlightResult.content.value + '</a> </span>';
+       };
+     }
+ }
+}
+});
+
+search.autocomplete.on({
+  'autocomplete:shown': function() {
+    var content = document.getElementById('defaultcontent');
+    var sidebar = document.getElementById('defaultsidebar');
+    var footer = document.getElementById('defaultfooter');
+    content.classList.add('overlayvisible');
+    sidebar.classList.add('overlayvisible');
+    footer.classList.add('overlayvisible');
+},
+  'autocomplete:closed': function () {
+    var content = document.getElementById('defaultcontent');
+    var sidebar = document.getElementById('defaultsidebar');
+    var footer = document.getElementById('defaultfooter');
+    content.classList.remove('overlayvisible');
+    sidebar.classList.remove('overlayvisible');
+    footer.classList.remove('overlayvisible');
+},
+  'autocomplete:empty': function () {
+    var content = document.getElementById('defaultcontent');
+    var sidebar = document.getElementById('defaultsidebar');
+    var footer = document.getElementById('defaultfooter');
+    content.classList.add('overlayvisible');
+    sidebar.classList.add('overlayvisible');
+    footer.classList.add('overlayvisible');
+},
+  'autocomplete:updated': function () {
+    if (this.value != '') {
+    var input = document.getElementById('aa-search-input');
+    var filter = input.value.toUpperCase();
+    localStorage.setItem('filter', filter);
+    }else {
+      var content = document.getElementById('defaultcontent');
+      var sidebar = document.getElementById('defaultsidebar');
+      var footer = document.getElementById('defaultfooter');
+      content.classList.remove('overlayvisible');
+      sidebar.classList.remove('overlayvisible');
+      footer.classList.remove('overlayvisible');
+}}});
 </script>
 </body>
 {% if site.google_analytics %}

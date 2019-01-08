@@ -1,18 +1,6 @@
 $(document).ready(function () {
-	scrollReveal()
 	mainBoxClick()
 });
-
-function scrollReveal () {
-	var homepanelReveal = {
-		reset: true,
-		duration: 2500,
-		origin: 'bottom',
-		distance: '100px'
-	};
-	ScrollReveal().reveal('.homepanel span', homepanelReveal);
-};
-
 
 function mainBoxClick() {
 	$("#boxesrow").on("click", ".mainbox", function (){
