@@ -7,6 +7,38 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p {
+  margin-bottom: 25px;
+  font-family: "Roboto", "Open Sans", Helvetica;
+  color: 272727;
+}
+
+li p {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Roboto", "Open Sans", Helvetica;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Roboto", "Open Sans", Helvetica;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5879da;
+}
+
+#post-content iframe {
+  width: 100%;
+  height: 500px;
+}
+
 .h1 {
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
@@ -22,8 +54,8 @@ body {
   #defaultwrapper {
     display: grid;
     grid-template-columns: 2fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
-    grid-template-rows: 92px 92px 1fr 1fr auto;
-    height: 100vh;
+    grid-template-rows: 92px 92px 92px 1fr 350px;
+    height: auto;
   }
 
   #defaultheader {
@@ -32,12 +64,11 @@ body {
     grid-template-rows: 1fr 2fr 1fr;
     grid-column: 1 / span 7;
     grid-row: 1 / span 1;
-    background-color: #5879da;
   }
 
   #documenttitlecontainer {
-    grid-column: 4 / span 3;
-    grid-row: 2 / span 1;
+    grid-column: 3 / span 5;
+    grid-row: 2 / span 2;
   }
 
   #searchimage {
@@ -71,10 +102,66 @@ body {
     grid-column: 4 / span 3;
     display: flex;
     margin-bottom: 50px;
-    flex-direction: column;
     -webkit-font-smoothing: antialiased;
-    margin-top: 175px;
+    margin-top: 30px;
+    font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    color: #272727;
+    line-height: 24px;
   }
+
+  .anchorlist {
+    width: 30%;
+    order: 2;
+    margin-top: 55px;
+    margin-left: 190px;
+  }
+
+  .anchorlist ul {
+    position: sticky;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .anchorlist ul li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .anchoritem {
+    text-decoration: none;
+    color: #84a3ea;
+    font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .anchorlist ul li a.active {
+    font-weight: bold;
+    border-left: 4px solid #5879da;
+    color: #5879da
+  }
+
+   #jumptotop a {
+     text-decoration: none;
+     color: #84a3ea;
+     font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     padding-left: 10px;
+     font-weight: bold;
+  }
+/*
+  #jumptotop i {
+    margin-right: 10px;
+    color: #5879da;
+  }
+
+  #jumptotop a {
+    color: #5879da;
+    font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  } */
 
   #post-content {
     width: 60%;
@@ -90,8 +177,20 @@ body {
 
 /* CSS-Grid Ends */
 
+#defaultheader {
+  background-color: #2A3A6B;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
 #documenttitlecontainer {
-  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #dedddd;
+  padding-left: 75px;
 }
 
 #subtitle {
@@ -199,7 +298,6 @@ body {
 
 #indicatorrow {
   display: flex;
-  margin-bottom: 42px;
   align-items: center;
 }
 
@@ -235,15 +333,19 @@ body {
   border-left: solid 2px #162036;
 }
 
+.pagehr {
+  border-bottom: 1px solid #dedddd;
+}
+
 #defaultsidebar {
-  border-right: 1px solid grey;
+  border-right: 1px solid #dedddd;
   height: 100%;
 }
 
 #mysidebar {
   list-style: none;
-  margin-top: 45px;
-  position: fixed;
+  position: sticky;
+  top: 125px;
 }
 
 .categoryfolder {
@@ -316,3 +418,49 @@ body {
 #footericons a:first-child {
   margin-left: 15px;
 }
+
+/*search styling begins */
+
+.algolia-autocomplete {
+  flex: 4;
+  height: 48px;
+}
+
+#aa-search-input {
+  padding-left: 22px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  border-radius: 4px;
+}
+
+.aa-input-search {
+  width: 100%;
+  height: 100%;
+}
+
+#aa-search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+#aa-search-input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#aa-search-input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#aa-search-input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;

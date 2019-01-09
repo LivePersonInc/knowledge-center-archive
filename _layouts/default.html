@@ -8,7 +8,16 @@
 </head>
 <body>
 <div id="defaultwrapper">
-  <div id="defaultheader"></div>
+  <div id="defaultheader">
+    <div id="logocontainer">
+      <img src="img/lp-logo.svg" />
+    </div>
+    <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search our knowledge center..." name="search" autocomplete="on" />
+    <div id="homebuttons">
+      <span id="contact" class="homebutton">Contact Us</span>
+      <span id="login" class="homebutton"><a href="https://liveengage.liveperson.net">Log In</a></span>
+    </div>
+  </div>
   <div id="defaultsidebar">
     {% include sidebar.html %}
   </div>
@@ -30,10 +39,15 @@
     </div>
   </div>
 </div>
-  <hr class="pagehr" />
   </div>
 </div>
   <div id="defaultcontent">
+    <div class="anchorlist">
+      <ul>
+        <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
+      </ul>
+
+    </div>
     {{ content | extlinks }}
   </div>
   <div id="defaultfooter">

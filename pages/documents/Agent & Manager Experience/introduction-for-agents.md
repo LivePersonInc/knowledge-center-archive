@@ -1,6 +1,6 @@
 ---
 pagename: Introduction for Agents
-subtitle: 'Working with asynchronous messaging '
+subtitle: 'Working with asynchronous messaging'
 categoryName: Agent & Manager Experience
 subCategoryName: Agent Tools for Messaging
 level3Name: ''
@@ -9,8 +9,8 @@ indicator: messaging
 isTutorial: false
 date: 2018-12-26 12:16:07 +0200
 published: true
-
 ---
+
 Agents using messaging to make sales or provide service have the full suite of LivePerson tools at your disposal to be successful.
 
 It’s important to understand how messaging is different from live chat. With messaging, interactions with visitors can be ongoing, and visitors have the freedom to respond on their own time. This means that the interaction can last a full shift or a few days, allowing you to pick up pending conversations any time of the day. Another benefit of messaging is that consumers can return to the same agent to continue their journey, creating a continuous and seamless experience.
@@ -18,25 +18,45 @@ It’s important to understand how messaging is different from live chat. With m
 Messaging provides consumers with an experience that is superior to live chat, as it is done on their own time. For agents, these characteristics can bring up the following questions:
 
 * For long term conversations, how do we define an active, or open conversation as opposed to resolved one?
+
 * If a consumer takes hours or days to reply, what should be done with the open conversation?
+
 * What about conversations that are left unresolved? Do they remain open?
+
 * How many concurrent messages can an agent handle?
+
 * How long
 
-### Behind the Scenes: How LivePerson helps agents manage asynchronous conversations
+## Test Title
+
+Lorem ipsum dolor sit amet, everti delectus incorrupte has eu. Affert philosophia ex nec. Cum solum quaerendum ei, mel veniam munere graecis id, ferri munere cum ea. Quot choro fierent nam ex. Cu vidit mnesarchum eum.
+
+Et per consul facilis tacimates, qui cu impedit percipit. Novum graeco molestie duo et. Mandamus scriptorem consequuntur vis an, deleniti qualisque qui ad, officiis elaboraret et eos. In modus civibus prodesset duo. Iuvaret lobortis mei eu, tale suscipiantur conclusionemque ex eos. Porro altera disputationi at vix, mundi posidonium in ius, qui no tale aeterno.
+
+Cu vel erant nullam facilis. Eu equidem consectetuer vituperatoribus eum. Veniam assueverit sed et, et has omnes corpora, id vim dicant consulatu hendrerit. Dolorem assueverit scribentur eam no. An option nonumes corrumpit nec.
+
+Eam ex inani maiorum. Ei nam dicant appetere scriptorem, an his vide idque. Agam wisi et eum. Ex est elitr insolens. Harum dolorum iudicabit id eam, sadipscing philosophia ei eum.
+
+Ridens tincidunt cotidieque usu ad, laudem propriae no usu, et noster sensibus explicari mel. Eos ut eripuit graecis feugait. Viris vocent efficiantur ea ius, nonumy euripidis pri ut. Vix id nihil eirmod perpetua.
+
+## Behind the Scenes
 
 
 To help answer the questions and differences raised by asynchronous messaging, LivePerson has various ‘behind the scenes’ tools that help agents manage their messaging conversations effectively.
 
-#### Smart Capacity: the dynamic concurrency method
+### Smart Capacity: the dynamic concurrency method
 
 Agents who have worked on live chat are accustomed to having a set number of conversations they can handle concurrently. This is straightforward for chat conversations, as they have a distinct end time. However, since messaging conversations can span over a longer period and the end time is not always predictable, the old set concurrency model no longer applies.
 
+## Test Title 1
+
 Smart Capacity takes into account which conversations are active or inactive. For example, if a consumer has not answered your message for 10 minutes, they are likely to answer at a later time, so the conversation is marked ‘inactive’ in the meantime. Smart Capacity knows to automatically mark conversations as inactive and manage your workload dynamically.
 
-To learn more about smart capacity, watch this video [https://vimeo.com/241513074/68f35bc602](https://vimeo.com/241513074/68f35bc602 "https://vimeo.com/241513074/68f35bc602")
+To learn more about smart capacity, watch this video:
 
-#### Queue Prioritization: the management of the order in which agent receive conversations
+<iframe src="https://player.vimeo.com/video/241513074" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### Queue Prioritization: the management of the order in which agent receive conversations
 
 Queues of incoming messages for asynchronous messaging conversations can be long due to the fact that messaging is available to your customers 24/7.
 
@@ -50,8 +70,26 @@ In order to ensure that the most relevant conversations reach agents, automation
 
 To learn more about queue prioritization, watch this 2 min video: [https://vimeo.com/241513020/9200d1ddb0](https://vimeo.com/241513020/9200d1ddb0 "https://vimeo.com/241513020/9200d1ddb0")
 
-#### SLAs: Deadlines and guidelines for response time management
+### SLAs: Deadlines and guidelines for response time management
 
 A Service Level Agreement, or ‘SLA’ is a time commitment for when a brand will respond to incoming conversations. This is determined by the account manager. For example, an SLA of 2 minutes means that incoming conversations should be answered no longer than 2 minutes after they are received. The SLA is assigned to incoming conversations and resets after each consumer reply.
 
+## Test Title 2
+
 Agents will have clear view of conversation SLAs for all conversations in their workspace. In addition, agents can manually adjust the SLA for individual conversations. For example, if you’ve let a customer know you’ll get back to them in 2 hours, you can mark this manually and the conversation will appear in your workspace in 2 hour’s time.
+
+Agents using messaging to make sales or provide service have the full suite of LivePerson tools at your disposal to be successful.
+
+It’s important to understand how messaging is different from live chat. With messaging, interactions with visitors can be ongoing, and visitors have the freedom to respond on their own time. This means that the interaction can last a full shift or a few days, allowing you to pick up pending conversations any time of the day. Another benefit of messaging is that consumers can return to the same agent to continue their journey, creating a continuous and seamless experience.
+
+Messaging provides consumers with an experience that is superior to live chat, as it is done on their own time. For agents, these characteristics can bring up the following questions:
+
+* For long term conversations, how do we define an active, or open conversation as opposed to resolved one?
+
+* If a consumer takes hours or days to reply, what should be done with the open conversation?
+
+* What about conversations that are left unresolved? Do they remain open?
+
+* How many concurrent messages can an agent handle?
+
+* How long
