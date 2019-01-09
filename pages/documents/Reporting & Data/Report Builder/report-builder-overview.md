@@ -19,11 +19,17 @@ Brands with a customer success offering can request customized dashboards with s
 **Report Builder allows brands to:**
 
 * Evaluate and optimize agent efficiency
+
 * Identify opportunities to convert more consumers using funnel dashboards
+
 * Plan ahead for staffing needs through skill supply and demand analysis
+
 * Track every assisted conversion achieved by agents
+
 * Understand how essaging operations can be optimised and track progress as messaging adoption increases
+
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
+
 * Schedule reports in order to receive regular updates by email
 
 Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.

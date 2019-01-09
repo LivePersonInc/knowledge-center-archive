@@ -17,6 +17,10 @@ li p {
   margin-bottom: 10px;
 }
 
+p img {
+  width: 770px;
+}
+
 h2 {
   font-family: "Roboto", "Open Sans", Helvetica;
   margin-bottom: 25px;
