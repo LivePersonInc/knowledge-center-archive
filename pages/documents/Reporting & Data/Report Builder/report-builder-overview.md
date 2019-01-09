@@ -11,11 +11,11 @@ date: 2019-01-09 14:35:11 +0200
 published: false
 
 ---
-![](https://lh5.googleusercontent.com/XSir__oEPFf3NeKk2O3jPtLcZPqsCVxDi5dNRrbm5MQzn5EVq2uV1j6izDL0tILa2TzrttO1e9ufq7xEnspAbEw-MXw-RabWfpHJ4fDJCIqU-_t2nhA7UKIjg1rMkOk2EnQR_jRg =432x234)
-
 The Report Builder offers brands ready made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
 
-Brands with a Customer Success Offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Report Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements and export data to excel or PDF.
+Brands with a customer success offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Report Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements and export data to excel or PDF.
+
+![](/img/Report Builder Overview.png)
 
 **Report Builder allows brands to:**
 
