@@ -30,11 +30,11 @@ Reports are refreshed throughout the day, every eight hours. The first data upda
 
 **Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: \[https://z1.le.liveperson.net/a/19935036/\]
 
-The three farms, and their timezones, are as follows:
+The three farms, and their time zones, are as follows:
 
-* Z1 = Virginia, North America. The timezone for the Virginia farm is EST.
-* Z2 = UK. The timezone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
-* Z3 = Sydney, Australia. The timezone for the Sydney farm is AEST.
+* Z1 = Virginia, North America. The time zone for the Virginia farm is EST.
+* Z2 = UK. The time zone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
+* Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
 
 ## Evolution of LiveEngage BI
 
@@ -44,7 +44,7 @@ With superior performance, an additional layer of messaging KPIs, and the abilit
 
 The following considerations should be taken into account when using Report Builder:
 
-1. Unlike the Agent Manager BI dashboards, Report Builder presents data in the account’s timezone.
+1. Unlike the Agent Manager BI dashboards, Report Builder presents data in the account’s time zone.
 2. Scheduling is performed by LivePerson administrators.
 
 ## Predefined dashboards
@@ -76,5 +76,5 @@ LP are continuously working on enhancing the Report Builder. In 2018/2019, the f
 * The data refresh rate has been enhanced to every eight hours.
 * Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
-* User can change the timezone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
+* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
 * The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
