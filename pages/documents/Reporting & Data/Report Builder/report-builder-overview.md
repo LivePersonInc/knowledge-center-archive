@@ -26,7 +26,7 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
-Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.
+Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s time zone. After each update, the reports display the data collected up to 6 hours earlier.
 
 **Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: \[https://z1.le.liveperson.net/a/19935036/\]
 
