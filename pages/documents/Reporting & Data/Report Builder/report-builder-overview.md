@@ -28,7 +28,7 @@ Brands with a customer success offering can request customized dashboards with s
 
 Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.
 
-**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/]
+**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: \[https://z1.le.liveperson.net/a/19935036/\]
 
 The three farms, and their timezones, are as follows:
 
@@ -69,10 +69,10 @@ LivePerson administrators can schedule reports to run at set times on a recurrin
 
 LP are continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report builder:
 
-* A new set of metrics have been added to the Messaging Performance predefined dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
-* The Messaging Performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
-* Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the messaging performance dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the post conversation survey bot.
+* A new set of metrics have been added to the Messaging Performance Predefined Dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
+* The Messaging Performance Dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
+* Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the Messaging Performance Dashboard to enable comparison between skill queues.
+* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the Post Conversation Survey bot.
 * The data refresh rate has been enhanced to every eight hours.
 * Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
