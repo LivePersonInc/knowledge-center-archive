@@ -68,7 +68,9 @@ In order to ensure that the most relevant conversations reach agents, automation
 
 * Business Priority: Each brand can utilize various parameters to determine which conversations should jump ahead in the queue. For example, retention questions may be more time sensitive or pressing and therefore should be handled first.
 
-To learn more about queue prioritization, watch this 2 min video: [https://vimeo.com/241513020/9200d1ddb0](https://vimeo.com/241513020/9200d1ddb0 "https://vimeo.com/241513020/9200d1ddb0")
+To learn more about queue prioritization, watch this 2 min video:
+
+<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### SLAs: Deadlines and guidelines for response time management
 

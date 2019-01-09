@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	//initialize smooth scroll
-	var scroll = new SmoothScroll('a[href*="#"]', { offset: 150});
+	var scroll = new SmoothScroll('a[href*="#"]', { offset: 120});
 	mainBoxClick()
 	anchors.add('h2');
 	populateAnchors()
@@ -48,7 +48,7 @@ function populateAnchors() {
 
 $(window).scroll(function() {
 	//check the window's position and account for the header
-    var position = $(this).scrollTop() + 150;
+    var position = $(this).scrollTop() + 120;
 		var titles = document.getElementsByTagName('h2');
 
 		//for each h2 in the article
@@ -64,7 +64,7 @@ $(window).scroll(function() {
 				 var current = $('a[href="#' + id + '"]');
 				 //set it to active
 				 current = current.addClass("active");
-		 } else if (position == 150) {
+		 } else if (position == 120) {
 			 $('.anchorlist > ul > li > a').removeClass('active');
 			 $('.anchorlist > ul > #jumptotop > a').addClass('active');
 		 }
