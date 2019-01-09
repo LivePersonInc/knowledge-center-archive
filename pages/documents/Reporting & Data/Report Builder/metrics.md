@@ -10,4 +10,6 @@ isTutorial: false
 date: 2019-01-09 12:53:18 +0000
 
 ---
+The link below outlines all of the data metrics available in the Report Builder, with their definition and location within the different dashboards.
+
 [https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html "https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html")
