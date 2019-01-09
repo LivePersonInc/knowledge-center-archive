@@ -22,7 +22,7 @@ Brands with a customer success offering can request customized dashboards with s
 * Identify opportunities to convert more consumers using funnel dashboards
 * Plan ahead for staffing needs through skill supply and demand analysis
 * Track every assisted conversion achieved by agents
-* Understand how essaging operations can be optimised and track progress as messaging adoption increases
+* Understand how messaging operations can be optimized and track progress as messaging adoption increases
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
