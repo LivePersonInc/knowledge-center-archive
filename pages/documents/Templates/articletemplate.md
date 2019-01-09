@@ -44,3 +44,5 @@ Since this article doesn't have a Category, L2 Category _or_ L3 Category, its sl
 
 {: .notice}
 Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
+
+<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
