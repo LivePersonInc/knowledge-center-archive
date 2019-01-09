@@ -7,7 +7,7 @@ level3Name: ''
 permalink: article-template.html
 indicator: both
 isTutorial: false
-date: 2018-12-30 10:15:01 +0200
+date: 2018-12-30 08:15:01 +0000
 published: false
 
 ---
@@ -39,4 +39,10 @@ When a video needs to be inserting into a document, simply leave the **full** Vi
 
 ### A Note About the Slug
 
+{: .important}
 Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
+
+{: .notice}
+Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
+
+<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
