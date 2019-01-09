@@ -76,10 +76,5 @@ LP are continuously working on enhancing the Report Builder. In 2018/2019, the f
 * The data refresh rate has been enhanced to every eight hours.
 * Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
-<<<<<<< HEAD
-* User can change the timezone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
-* The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
-=======
 * User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
 * The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
->>>>>>> 9c280e843043790873dc447cb8b08bf0a6bb03cf
