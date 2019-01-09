@@ -8,7 +8,6 @@ level3Name: ''
 permalink: Reporting-&-data-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
-published: false
 
 ---
 The Report Builder offers brands ready made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
@@ -74,10 +73,10 @@ LP are continuously working on enhancing the Report Builder. In 2018/2019, the f
 
 * A new set of metrics have been added to the Messaging Performance predefined dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
 * The Messaging Performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
-* Messaging queue length Metrics including actionable and non actionable unassigned conversations have been added to the messaging performance dashboard to enable comparison between skill queues.
+* Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the messaging performance dashboard to enable comparison between skill queues.
 * A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the post conversation survey bot.
 * The data refresh rate has been enhanced to every eight hours.
 * Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
 * User can change the timezone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
-* The field details tab has been redesigned and contains a list of all the available attributes and metrics.
+* The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
