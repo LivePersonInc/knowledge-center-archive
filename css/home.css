@@ -50,12 +50,19 @@ body {
 
 #homeheader {
   align-items: center;
-  background-color: #5879DA;
+  background: center no-repeat url(img/BG.jpg);
+  background-size: cover;
 }
 
 #homenav {
   justify-content: center;
-  background-color: #5879DA;
+  flex-direction: column;
+}
+
+#topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 50px;
 }
 
@@ -84,8 +91,7 @@ body {
 #logocontainer {
   flex: 1;
   display: flex;
-  margin-left: 80px;
-  align-items: baseline;
+  margin-left: 70px;
 }
 
 #hometitle {
@@ -95,6 +101,9 @@ body {
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   color: #fff;
   width: 33%;
+  align-self: center;
+  margin-left: -350px;
+  margin-top: 180px;
 }
 
 #homesubtitle {

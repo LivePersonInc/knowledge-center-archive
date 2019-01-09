@@ -1,7 +1,8 @@
 - categoryname: Getting Started with Messaging
-- categoryname: Designing Customer Experience
+- categoryname: Account Settings
+- categoryname: 'Agent & Manager Experience'
+- categoryname: 'Bots & Automation'
+- categoryname: Contact Center Management
 - categoryname: Messaging Channels
-- categoryname: Effective Operations
-- categoryname: FAQs and Best Practices
-- categoryname: Secure Messaging
-- categoryname: Developing In-app Messaging
+- categoryname: 'Reporting & Data'
+- categoryname: 'Security & Regulations'

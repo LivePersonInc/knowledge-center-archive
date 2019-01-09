@@ -54,7 +54,7 @@ h3 {
   #defaultwrapper {
     display: grid;
     grid-template-columns: 2fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
-    grid-template-rows: 120px 120px 92px 1fr 350px;
+    grid-template-rows: 120px 140px 92px 1fr 350px;
     height: auto;
   }
 
@@ -118,7 +118,7 @@ h3 {
 
   .anchorlist ul {
     position: sticky;
-    top: 153px;
+    top: 155px;
     display: flex;
     flex-direction: column;
   }
@@ -199,6 +199,7 @@ h3 {
   font-weight: 300;
   color: #1e1e1e;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 /* bread-crumbs */
@@ -345,7 +346,7 @@ h3 {
 #mysidebar {
   list-style: none;
   position: sticky;
-  top: 153px;
+  top: 160px;
 }
 
 .categoryfolder {
