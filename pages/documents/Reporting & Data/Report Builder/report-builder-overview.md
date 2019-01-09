@@ -74,10 +74,10 @@ LP are continuously working on enhancing the Report Builder. In 2018/2019, the f
 
 * A new set of metrics have been added to the Messaging Performance predefined dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
 * The Messaging Performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
-* Messaging Queue Length Metrics including actionable and non actionable unassigned conversations have been added to the messaging performance dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” Sheet which contains data collected by the post conversation survey bot.
+* Messaging queue length Metrics including actionable and non actionable unassigned conversations have been added to the messaging performance dashboard to enable comparison between skill queues.
+* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the post conversation survey bot.
 * The data refresh rate has been enhanced to every eight hours.
-* Agent Load KPIs are added to the predefined Messaging Performance Dashboard to reflect how Smart Capacity functions. These KPIs give agent managers a view of how productive their agents have been.
+* Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
 * User can change the timezone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
-* The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
+* The field details tab has been redesigned and contains a list of all the available attributes and metrics.
