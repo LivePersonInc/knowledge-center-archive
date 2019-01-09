@@ -26,7 +26,7 @@ Brands with a customer success offering can request customized dashboards with s
 
 * Track every assisted conversion achieved by agents
 
-* Understand how essaging operations can be optimised and track progress as messaging adoption increases
+* Understand how messaging operations can be optimized and track progress as messaging adoption increases
 
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 
