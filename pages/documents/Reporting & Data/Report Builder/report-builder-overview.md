@@ -8,6 +8,7 @@ level3Name: ''
 permalink: Reporting-&-data-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
+published: false
 
 ---
 The Report Builder offers brands ready made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
@@ -27,8 +28,8 @@ Brands with a customer success offering can request customized dashboards with s
 * Schedule reports in order to receive regular updates by email
 
 Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.
-(: .notice)
-**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/#wa!webagent "https://z1.le.liveperson.net/a/19935036/#wa")
+
+**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/]
 
 The three farms, and their timezones, are as follows:
 
