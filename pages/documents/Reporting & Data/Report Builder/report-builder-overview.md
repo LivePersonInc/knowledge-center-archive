@@ -28,7 +28,7 @@ Brands with a customer success offering can request customized dashboards with s
 
 Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.
 
-**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: \[https://z1.le.liveperson.net/a/19935036/\]
+**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
 
 The three farms, and their timezones, are as follows:
 

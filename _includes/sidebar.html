@@ -1,5 +1,8 @@
 <ul id="mysidebar">
 {% for category in site.data.documents %}
-  <li class="categoryfolder">{{ category.categoryname }}</li>
+  <li class="categoryfolder">
+    <img class="sidebarimage" src="img/{{ category.categoryname }}.svg" />
+    <span>{{ category.categoryname }}</span>
+  </li>
 {% endfor %}
 </ul>

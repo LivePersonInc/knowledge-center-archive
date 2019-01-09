@@ -366,6 +366,12 @@ h3 {
   font-size: 14px;
   color: #5f6368;
   margin-bottom: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarimage {
+  margin-right: 10px;
 }
 
 #defaultfooter {
