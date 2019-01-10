@@ -359,6 +359,9 @@ h3 {
   list-style: none;
   position: sticky;
   top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .categoryfolder {
@@ -367,11 +370,124 @@ h3 {
   color: #5f6368;
   margin-bottom: 34px;
   display: flex;
+  flex-direction: column;
+}
+
+.itemdetails {
+  display: flex;
   align-items: center;
 }
 
 .sidebarimage {
   margin-right: 10px;
+}
+
+.subcategoryfolder {
+  list-style: none;
+  display: none;
+}
+
+.subcategoryitem {
+  font-family: "Roboto", "Roboto Slab", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  margin-bottom: 25px;
+  margin-left: -11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcategoryitem:first-child {
+  margin-top: 25px;
+}
+
+.pagesfolder {
+  display: none;
+}
+
+.pageitem {
+  list-style: none;
+  margin-top: 25px;
+}
+
+.categoryfolder .activeitem, 
+.subcategoryitem .activeitem {
+  font-weight: bold;
+  color: #272727;
+}
+
+.level3folder {
+  list-style: none;
+  line-height: 2.3;
+  padding-left: 0;
+  margin-left: 38px;
+}
+
+.level3item {
+  border-left: 4px solid #dedddd;
+  padding-left: 15px;
+}
+
+.level3item:first-child {
+  margin-top: 25px;
+}
+
+.subcategorycontainer {
+  display: flex;
+  align-items: center;
+}
+
+.subcategorycontainer span:first-of-type {
+  padding-top: 2px;
+}
+
+.sidebarbuttoncontainer {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarbutton {
+  color: #f2f1f2;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  font-size: 1.5em;
+  position: relative;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.sidebarbutton:focus {
+  outline: none;
+}
+
+.sidebarbutton span {
+  position: absolute;
+  transition: .3s;
+  background: #b1b5bc;
+}
+
+.sidebarbutton span:first-of-type {
+  top: 25%;
+  bottom: 25%;
+  width: 10%;
+  left: 45%;
+}
+
+.sidebarbutton span:last-of-type {
+  left: 25%;
+  right: 25%;
+  height: 10%;
+  top: 45%;
+}
+
+.clicked span:first-of-type, .clicked span:last-of-type {
+  transform: rotate(90deg);
+}
+
+.clicked span:last-of-type {
+  left: 50%;
+  right: 50%;
 }
 
 #defaultfooter {

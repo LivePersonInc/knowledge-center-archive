@@ -4,6 +4,7 @@ $(document).ready(function () {
 	mainBoxClick()
 	anchors.add('h2');
 	populateAnchors()
+	sideBarClick ();
 });
 
 
@@ -46,11 +47,33 @@ function populateAnchors() {
 	};
 };
 
+function sideBarClick () {
+	$("#defaultsidebar").on("click", ".canOpen", function (){
+		var hasExpanded = $(this).data("expanded") == "true";
+		var nextGetsOpened = $(this).next(".getsOpened");
+		var childCanOpen = nextGetsOpened.find(".canOpen");
+		if (hasExpanded) {
+			$(this).removeClass("activeitem");
+			childCanOpen.removeClass("activeitem");
+			$(this).data("expanded", "false");
+			nextGetsOpened.slideUp(500);
+			nextGetsOpened.find(".getsOpened").slideUp(500);
+			childCanOpen.data("expanded", "false");
+		} else {
+			$(".itemdetails").removeClass("activeitem");
+			$(this).addClass("activeitem")
+			$(this).data("expanded", "true");
+			$(this).next(".getsOpened").slideDown(500);
+	};
+	return false;
+});
+};
+
+//on scroll
 $(window).scroll(function() {
 	//check the window's position and account for the header
     var position = $(this).scrollTop() + 120;
 		var titles = document.getElementsByTagName('h2');
-
 		//for each h2 in the article
     $.each(titles, function() {
 			// get its position and id

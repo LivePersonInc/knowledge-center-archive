@@ -1,6 +1,24 @@
 - categoryname: Getting Started with Messaging
 - categoryname: Account Settings
 - categoryname: 'Agent & Manager Experience'
+  subcategories:
+    - subcategoryname: Agent Tools for Messaging
+      pages:
+        - pagename: Introduction for Agents
+          level3:
+            - level3name: Lorem ipsum
+            - level3name: Lorem ipsum
+            - level3name: Lorem ipsum
+        - pagename: Lorem ipsum
+        - pagename: Lorem ipsum
+        - pagename: Lorem ipsum
+        - pagename: Lorem ipsum
+    - subcategoryname: Lorem ipsum
+    - subcategoryname: Lorem ipsum
+    - subcategoryname: Lorem ipsum
+    - subcategoryname: Lorem ipsum
+    - subcategoryname: Lorem ipsum
+    - subcategoryname: Lorem ipsum
 - categoryname: 'Bots & Automation'
 - categoryname: Contact Center Management
 - categoryname: Messaging Channels
