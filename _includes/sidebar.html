@@ -16,11 +16,11 @@
         {% for page in subcategory.pages %}
         {% if page.level3 %}
         <li class="pageitem">
-          <div class="sidebarbuttoncontainer">
+          <div class="sidebarbuttoncontainer canOpen">
             <button class="sidebarbutton"><span></span><span></span></button>
             <span>{{ page.pagename }}</span>
           </div>
-          <ul class="level3folder">
+          <ul class="level3folder getsOpened">
             {% for level3 in page.level3 %}
             <li class="level3item">
               <span>{{ level3.level3name }}</span>

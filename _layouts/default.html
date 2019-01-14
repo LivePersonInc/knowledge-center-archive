@@ -108,7 +108,7 @@ const search = docsearch({
 apiKey: 'e386ebed16c8f70de3c914b3ace55ae6',
 indexName: 'liveperson',
 inputSelector: '.aa-input-search',
-debug: false,
+debug: true,
 algoliaOptions: {
   hitsPerPage: 50
 },
@@ -165,7 +165,4 @@ search.autocomplete.on({
 }}});
 </script>
 </body>
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
 </html>

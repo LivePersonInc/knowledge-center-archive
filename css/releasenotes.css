@@ -1,0 +1,5 @@
+/* specific stylesheet for release notes pages, gets conditionally inserted into the head */
+
+h3 {
+  margin-bottom: 10px !important;
+}

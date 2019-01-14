@@ -31,8 +31,10 @@ function mainBoxClick() {
 function populateAnchors() {
 	//remove all previous anchoritems populated in the box
 	$(".anchoritem").remove();
-	//find all h3 titles on the page
+	//find all h2 titles on the page
 	var anchorlinks = document.getElementsByTagName("h2");
+	var lowerlinks = document.getElementsByTagName("h3");
+	var lowestlinks = document.getElementsByTagName("h4");
 	var anchorlist = $('.anchorlist ul');
 	//if there are no anchrolinks, hide the box. Visibility is used instead of display so not to conflict with the scrollToFixed plugin.
 	if (anchorlinks.length == 0) {
@@ -60,7 +62,10 @@ function sideBarClick () {
 			nextGetsOpened.find(".getsOpened").slideUp(500);
 			childCanOpen.data("expanded", "false");
 		} else {
+			if ($(this).hasClass("itemdetails")){
 			$(".itemdetails").removeClass("activeitem");
+			$(".subcategoryfolder").slideUp(500);
+			}
 			$(this).addClass("activeitem")
 			$(this).data("expanded", "true");
 			$(this).next(".getsOpened").slideDown(500);
