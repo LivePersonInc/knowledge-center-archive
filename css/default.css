@@ -442,6 +442,13 @@ h3 {
   flex-direction: column;
 }
 
+.subcategoryitem a {
+  font-family: "Roboto", "Roboto Slab", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  text-decoration: none;
+}
+
 .subcategoryitem:first-child {
   margin-top: 25px;
 }

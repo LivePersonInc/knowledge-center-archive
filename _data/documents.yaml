@@ -1,4 +1,7 @@
-- categoryname: Getting Started with Messaging
+- categoryname: Getting Started
+  subcategories:
+    - subcategoryname: Messaging
+    - subcategoryname: Live chat
 - categoryname: Account Settings
 - categoryname: 'Agent & Manager Experience'
   subcategories:

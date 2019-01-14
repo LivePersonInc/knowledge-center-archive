@@ -5,10 +5,9 @@ subCategoryName: ''
 indicator: messaging
 subtitle: Checklist to get started with messaging
 level3Name: ''
-permalink: getting-started-messaging
+permalink: getting-started-messaging.html
 isTutorial: false
 date: 2019-01-14 13:44:06 +0200
-
 ---
 \[NEED TO UPDATE ALL THE LINKS ONCE PAGES ARE READY\]
 

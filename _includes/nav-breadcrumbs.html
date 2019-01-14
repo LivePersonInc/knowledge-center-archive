@@ -4,7 +4,7 @@
     {% if page.categoryName %}
     <a class="breadcrumb-item">{{ page.categoryName }}</a>
     {% endif %}
-    {% if page.subCategoryName %}
+    {% if page.subCategoryName != '' %}
      <a class="breadcrumb-item">{{ page.subCategoryName }}</a>
     {% endif %}
     {% if page.level3Name != '' %}

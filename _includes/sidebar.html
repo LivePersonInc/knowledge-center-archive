@@ -5,8 +5,9 @@
     <img class="sidebarimage" src="img/{{ category.categoryname }}.svg" />
     <span>{{ category.categoryname }}</span>
   </div>
+  {% for subcategory in category.subcategories %}
+  {% if subcategory.pages %}
     <ul class="subcategoryfolder getsOpened">
-    {% for subcategory in category.subcategories %}
     <li class="subcategoryitem">
       <div class="sidebarbuttoncontainer canOpen">
         <button class="sidebarbutton"><span></span><span></span></button>
@@ -33,9 +34,18 @@
           </li>
           {% endfor %}
         </ul>
-      </li>
+          </li>
+        </ul>
+        {% else %}
+        <ul class="subcategoryfolder getsOpened">
+        <li class="subcategoryitem">
+          <div class="sidebarbuttoncontainer">
+            <a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '/' | append: subcategory.subcategoryname | slugify }}">{{ subcategory.subcategoryname }}</a>
+          </div>
+        </li>
+        </ul>
+      {% endif %}
       {% endfor %}
-    </ul>
-  </li>
+    </li>
   {% endfor %}
 </ul>
