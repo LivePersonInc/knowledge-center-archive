@@ -21,9 +21,7 @@ published: false
 
 ## Main panel: agent performance summary
 
-The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.
-
-![](https://lh6.googleusercontent.com/xJnLY0ssn92QOBrlcsMG2Yd3l-8gci8oPKoQA1A7_TdPHWtxKrdaeKF5DprYSplyscfKoh43fYcHM-ON2Dm_cx8Huus2RuWg80OBHC4phepbv21RxDOGa9EUgbcm0_P3bNolDtgq =624x324)
+The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.![](https://lh6.googleusercontent.com/xJnLY0ssn92QOBrlcsMG2Yd3l-8gci8oPKoQA1A7_TdPHWtxKrdaeKF5DprYSplyscfKoh43fYcHM-ON2Dm_cx8Huus2RuWg80OBHC4phepbv21RxDOGa9EUgbcm0_P3bNolDtgq =624x324)
 
 Table
 
@@ -178,3 +176,8 @@ Export the following grid to create custom visualizations and generate calculati
 ## Messaging metrics attribution to agent and skill
 
 When computing a messaging related metric that should allow filtering by an Agent or Skill, an attribution model is applied. This to resolve the many-to-many relationship which is inherent in the Messaging channel in which conversations may change hands and skills during their lifetime.
+
+
+|Metric Name|Attribution to Agent|Attribution to Skill|
+|-----------|--------------------|--------------------|
+|AVG. RESPONSE TIME BY AGENT| To the responding agent| To the skill assigned to the conversation when the response was given|
