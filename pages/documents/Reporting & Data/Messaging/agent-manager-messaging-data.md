@@ -10,12 +10,11 @@ isTutorial: false
 date: 2019-01-15 13:35:30 +0200
 
 ---
-
 ## Agent manager data bar for messaging
 
-As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance. 
+As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
 
-![](https://lh5.googleusercontent.com/ahDAN5AhKddgJ20DO3-CbwEIuDzVPSq9TJ5zLxH2UYpxT_cNQE_DbNSp94xEsjVzXZh0UFQ1uClQadOEYTns3daGvMCukIKq1dzGfouzOdMpNYudTMff9PTlNeHpVf4NLPQUflUA =624x40)
+![](agent-manager-messaging-date-1.png)
 
 OPEN- displays the total number of current open conversations.
 
@@ -35,6 +34,4 @@ The agent manager real time dashboard for messaging graphically displays real ti
 
 To access the agent manager dashboard for messaging, click the pull-down button (![](https://lh6.googleusercontent.com/S-zsUwXMK7OdyQzvfvBIouRP2nYM9JyjrmQwHFH1cdVLl6QHessRZvFVwf9Zi2m0N344hzkTF-6tJPQKUkEtWdy0b4SbxI8EK8W-o2v6pWMrdfCzBZXkG5zJgSsWkLsIynmDXQnf =38x17)) above the App Connections list.
 
-![](https://lh4.googleusercontent.com/S-QUXjTXHLaQONvVvbaRRGYAgALnG4Y3VhYy6tDfHaCwcQPsi1y3AsZ03WY66lcP4Ym3cuadsrOPILk7XRUdwrASBj_2KOGuCW6dC8BJF_iY_Ok-5AclgoOOGECm6cnq64nbRlDB =624x227)
-
-# 
+![](/img/Agent-manager-messaging-data-2.png)
