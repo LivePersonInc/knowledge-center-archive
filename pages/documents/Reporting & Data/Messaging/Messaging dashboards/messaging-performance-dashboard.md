@@ -25,23 +25,22 @@ The following panel will be presented when accessing the messaging performance p
 
 ![](/img/mpd1.png)
 
-| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes)| Additional functions 
-| ----------------- | -------------------------- | ------------------------------ |---------------------|
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes*|
-| Activity State Breakdown (pie chart) | Away  | away reason| Yes*|
-| Agent Response Times (line chart)| AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE| N/A | No|
-| Agent KPI Trend (line chart)|MCS / CSAT SCORE Date | No |
-| Agent KPI Trend (bar charts)| HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart)| Date | No|
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes* |
+| Activity State Breakdown (pie chart) | Away | away reason | Yes* |
+| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | No |
+| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  |
+| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | No |
 
-
-**Top data bar (Grid)**
+### **Top data bar (Grid)**
 
 **Columns (Metrics):**
 
 1. LOGGED IN TIME
 2. ONLINE / AWAY / BACK SOON (time)
 
-**Overview by Agent (Grid)**
+### **Overview by Agent (Grid)**
 
 **Rows (Attributes):** AGENT
 
@@ -61,11 +60,13 @@ The following panel will be presented when accessing the messaging performance p
 
 The following panel provides an analysis of the consumer demand and agent response. The data is aggregated by day of the week. Selecting a specific day in the week dynamically filters the top data bar high level metrics.
 
-![](https://lh4.googleusercontent.com/IozkyybMSTvj9Cn4g2-EXMXMTIoftzX3hu6wNR7cZtXi3G2Z3NubAHyX47ql7fOPsyhuoPHueu12s2Q5hgj5VGDelFlZ5mOjw0w4yOBascEBXQao-KI5kygsQ_J7O7yu9Di1AVNz =624x308)
+![](/img/mpd2.png)
 
-Image 4.1 - Consumer and Agent Response Activity (panel 2)
+_Image 2: Consumer and Agent Response Activity (panel 2)_
 
-Insert table
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Consumer Responses (Demand) vs Agent Responses (Supply), by Day of Week, by Hour | TOTAL NO. OF AGENT RESPONSES / TOTAL NO. OF CONSUMER RESPONSES | DAY OF WEEK, HOUR OF DAY | No |
 
 **Top data bar (Grid)**
 
