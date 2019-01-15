@@ -65,6 +65,21 @@ fields:
   label: L2 Category
   description: The sub-category to which the document belongs
   default: Real Time Dashboards
+- type: select
+  name: level3
+  config:
+    source:
+      type: simple
+    options:
+    - Getting started
+    - Components
+    - Routing bot
+    - FAQ bot
+    - Messaging Dashboards
+    - BI Dashboards
+    - Chat Dashboards
+  label: Level 3
+  description: The level 3 name of the document
 - type: text
   name: permalink
   label: Slug
@@ -90,21 +105,6 @@ fields:
   label: Video Tutorial
   description: Does this document have a video tutorial?
   default: false
-- type: select
-  name: level3
-  config:
-    source:
-      type: simple
-    options:
-    - Getting started
-    - Components
-    - Routing bot
-    - FAQ bot
-    - Messaging Dashboards
-    - BI Dashboards
-    - Chat Dashboards
-  label: Level 3
-  description: The level 3 name of the document
 pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
