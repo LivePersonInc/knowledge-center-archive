@@ -2,10 +2,10 @@
 pagename: Messaging performance dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: chat
+indicator: messaging
 subtitle: This predefined dashboard includes operational data for all messaging channels.
 level3Name: Messaging dashboards
-permalink: 'data-&-reporting-messaging-messaging-dashboards-messaging-performance-dashboard '
+permalink: data-&-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
 level3: Messaging Dashboards
 date: 2019-01-15 16:29:49 +0200
@@ -20,9 +20,16 @@ date: 2019-01-15 16:29:49 +0200
 
 ## Main panel: agent performance summary
 
-The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.![](https://lh6.googleusercontent.com/xJnLY0ssn92QOBrlcsMG2Yd3l-8gci8oPKoQA1A7_TdPHWtxKrdaeKF5DprYSplyscfKoh43fYcHM-ON2Dm_cx8Huus2RuWg80OBHC4phepbv21RxDOGa9EUgbcm0_P3bNolDtgq =624x324)
+The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.
 
-Table
+![](/img/mpd1.png)
+
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes)| Additional functions 
+| ----------------- | -------------------------- | ------------------------------ |---------------------|
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Hover to view the % contribution of the angle. Dynamically reflects the selected agent from the “Overview by Agent” grid (default: reflect data for all agents)|
+| Away state breakdown (pie chart)| Away | away reason | Hover to view duration in specific away reason and % contribution of the angle. Dynamically reflects the selected agent from the “Overview by Agent” grid (default: reflect data for all agents)|
+ 
+
 
 **Top data bar (Grid)**
 
@@ -176,7 +183,6 @@ Export the following grid to create custom visualizations and generate calculati
 
 When computing a messaging related metric that should allow filtering by an Agent or Skill, an attribution model is applied. This to resolve the many-to-many relationship which is inherent in the Messaging channel in which conversations may change hands and skills during their lifetime.
 
-
-|Metric Name|Attribution to Agent|Attribution to Skill|
-|-----------|--------------------|--------------------|
-|AVG. RESPONSE TIME BY AGENT| To the responding agent| To the skill assigned to the conversation when the response was given|
+| Metric Name | Attribution to Agent | Attribution to Skill |
+| --- | --- | --- |
+| AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
