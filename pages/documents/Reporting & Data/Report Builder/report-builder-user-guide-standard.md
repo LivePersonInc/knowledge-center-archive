@@ -71,7 +71,9 @@ The data currently available in the predefined dashboards are as follows:
 * **Operational & staffing dashboard:** Includes information about skill performance and skill demand.
 * **Survey activity dashboard:** Includes information about responses to surveys in Live chat.
 
-![](https://lh5.googleusercontent.com/zT38kCLeeB1WVUFonYH7NWzzpzac5b2Gq8hDqdhbU1eSn61MXRuP1oC12fMOqZnJuaZKPk3XK9ucAuR39eatjMYGGTprPfFnhrWWoa2UovAclcLMvxQdWiQLZZbqgsBzCLV-7-oX =624x164)_Note: The data included in Report Builder are constantly evolving._
+![](/img/rbug1.png)
+
+_Note: The data included in Report Builder are constantly evolving._
 
 ## Metrics glossary
 
@@ -85,8 +87,11 @@ Click [here](https://developers.liveperson.com/essential-resources-report-builde
 
 Every predefined dashboard includes a sheet titled “field details”. This sheet presents a grid with the definitions of each metric and attribute displayed in the visualizations of the dashboard.
 
-**![](https://lh4.googleusercontent.com/S6ikQq63mzwVelR_SyWzoqLERseKMmrr98apdEnLOhd5qluFZXF1J1ap0aHP-YqC1XxqMcHkvkszX_Cxj7724GZFvWGtJtE6ogohuVqdb_usqaO1P7wMQVRIDbM4yDjcsFLKdwis =624x317)  
-Viewing reports**
+**![](/img/rbug2.png)**
+
+**_Image 2:_** _Field details sheet_
+
+**Viewing reports**
 
 Each report in Report Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
 
