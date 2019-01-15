@@ -20,16 +20,16 @@ fields:
       type: simple
     required: true
     options:
-    - Getting Started
-    - Account Settings
-    - Agent & Manager Experience
-    - Bots & Automation
-    - Contact Center Management
-    - Messaging Channels
-    - Reporting & Data
-    - Security & Regulations
-    - What's New
-    - Release Notes
+    - Getting started
+    - Messaging channels
+    - Bots & automation
+    - Contact center management
+    - Agent & manager workspace
+    - Data & reporting
+    - Admin & settings
+    - Security & regulations
+    - What's new
+    - Release notes
   label: Category
   name: categoryName
   description: The category to which the document belongs
@@ -40,43 +40,31 @@ fields:
     source:
       type: simple
     options:
-    - Real Time Dashboards
-    - Accessibility
-    - Secure Forms
-    - Login
-    - Security
-    - Product Newsletter
-    - User Management
-    - Skills & Groups
-    - Permissions
-    - My Account
-    - Support
-    - Agent Tools for Messaging
-    - Agent Workspace
-    - Agent Workspace Configuration
-    - Manager Tools
-    - Messaging Operations
-    - Chat Operations
+    - Web messaging
+    - Mobile app messaging
+    - SMS
+    - Live chat
+    - Rich messaging
+    - Conversation Builder
+    - Messaging operations
+    - Live chat operations
     - Campaigns
-    - Surveys
-    - Connectors
-    - In-app Messaging
-    - Web Messaging
-    - Rich Messaging
-    - Engagement Attributes
-    - Data Sources
-    - Audit
+    - Agent tools for messaging
+    - Manager tools for messaging
+    - Agent tools for live chat
+    - Workspace configuration
+    - Messaging
+    - Meaningful Connection Score (MCS) - beta
     - Report Builder
-    - BI (Chat)
-    - MCS
+    - Engagement attributes
+    - Skills & groups
+    - Permissions
+    - Support
+    - Security
+    - Secure forms
   label: L2 Category
   description: The sub-category to which the document belongs
   default: Real Time Dashboards
-- type: text
-  name: level3Name
-  label: L3 Category
-  config:
-    required: false
 - type: text
   name: permalink
   label: Slug
@@ -102,6 +90,21 @@ fields:
   label: Video Tutorial
   description: Does this document have a video tutorial?
   default: false
+- type: select
+  name: level3
+  config:
+    source:
+      type: simple
+    options:
+    - Getting started
+    - Components
+    - Routing bot
+    - FAQ bot
+    - Messaging Dashboards
+    - BI Dashboards
+    - Chat Dashboards
+  label: Level 3
+  description: The level 3 name of the document
 pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
