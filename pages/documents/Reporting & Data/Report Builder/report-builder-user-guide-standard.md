@@ -8,10 +8,9 @@ level3Name: ''
 permalink: Reporting-&-data-report-builder-report-builder-user-guide-standard
 isTutorial: false
 date: 2019-01-10 11:10:56 +0200
-published: false
 
 ---
-# Getting Started with Report Builder
+# Getting started with Report Builder
 
 ## Accessing Report Builder
 
@@ -122,8 +121,6 @@ If you do not require any change in view from the account default time zone sett
 ![](https://lh6.googleusercontent.com/EnZpnBpCcLM8akEI3bPo_Fz-8-1zRv5YvtdawnjAsBZr-LopKiLFWh94zuNsWJ2YtA37f-0YbjsojUGq59SrzCUt8omRhe-iouF2rTwC6BUxWoRrrmQbQCBzXFm3TsMi8oDPl5yy =581x146)
 
 Image: Hour offset selector
-
-  
 
 **Dashboard view**
 
