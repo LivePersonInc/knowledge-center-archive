@@ -2,15 +2,20 @@
   margin: 0;
 }
 
+html {
+  width: 100%;
+  height: auto;
+}
+
 body {
-  height: 100vh;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
   margin-bottom: 25px;
   font-family: "Roboto", "Open Sans", Helvetica;
-  color: 272727;
+  color: #272727;
 }
 
 #post-content ul li {
@@ -67,6 +72,16 @@ p {
 
 p img {
   width: 770px;
+}
+
+.sidebyside {
+  display: flex;
+}
+
+.sidebyside img {
+  width: 30%;
+  height: 30%;
+  margin-right: 40px;
 }
 
 h2 {
@@ -144,7 +159,7 @@ h3 {
 
   #defaultsidebar {
     grid-column: 1 / span 2;
-    grid-row: 2 / span 11;
+    grid-row: 2 / span 3;
     background-color: #fff;
     display:flex;
     flex-direction: column;
@@ -186,6 +201,7 @@ h3 {
     font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding-left: 10px;
+    display: block;
   }
 
   .anchorlist ul li a.active {
@@ -201,6 +217,7 @@ h3 {
      font-size: 14px;
      padding-left: 10px;
      font-weight: bold;
+     display: block;
   }
 /*
   #jumptotop i {
@@ -407,6 +424,10 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+}
+
+.itemdetails, .sidebarbuttoncontainer, .pageitem {
+  cursor: pointer;
 }
 
 .categoryfolder {
@@ -792,4 +813,21 @@ h3 {
 
 .ds-suggestion a {
   text-decoration: none;
+}
+
+/* media queries begin, abandon all hope ye who enter here */
+
+@media screen and (max-width:1440px){
+  #homebuttons {
+    flex: unset;
+    margin-left: 50px;
+  }
+
+  #post-content {
+    width: 100%;
+  }
+
+  #anchorlist {
+    margin-left: 90px;
+  }
 }
