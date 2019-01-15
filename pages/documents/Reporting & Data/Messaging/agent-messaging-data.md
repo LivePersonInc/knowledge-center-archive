@@ -8,7 +8,6 @@ level3Name: ''
 permalink: reporting-&-data-web-messaging-agent-manager-messaging-data
 isTutorial: false
 date: 2019-01-15 13:35:30 +0200
-published: false
 
 ---
 
