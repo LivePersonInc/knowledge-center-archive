@@ -67,7 +67,7 @@ The selection of predefined dashboards includes:
 
 LivePerson administrators can schedule reports to run at set times on a recurring basis within saved report parameters, and can be delivered to the requested email inbox.
 
-## Latest Updates to Report Builder
+## Latest updates to Report Builder
 
 LP are continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report builder:
 
