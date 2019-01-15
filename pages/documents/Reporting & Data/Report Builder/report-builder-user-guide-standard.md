@@ -1,13 +1,14 @@
 ---
 pagename: Report Builder User Guide (Standard)
-categoryName: Reporting & Data
+categoryName: Data & reporting
 subCategoryName: Report Builder
-indicator: chat
+indicator: both
 subtitle: 'User guide for users with read only access '
 level3Name: ''
-permalink: Reporting-&-data-report-builder-report-builder-user-guide-standard
+permalink: data-&-reporting-report-builder-report-builder-user-guide-standard.html
 isTutorial: false
 date: 2019-01-10 11:10:56 +0200
+level3: ''
 
 ---
 # Getting started with Report Builder
