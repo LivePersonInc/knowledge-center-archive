@@ -9,7 +9,6 @@ permalink: data-&-reporting-messaging-messaging-dashboards-messaging-performance
 isTutorial: false
 level3: Messaging Dashboards
 date: 2019-01-15 16:29:49 +0200
-published: false
 
 ---
 ## Agent level data sheet
