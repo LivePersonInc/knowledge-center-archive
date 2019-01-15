@@ -26,9 +26,11 @@ The following panel will be presented when accessing the messaging performance p
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes)| Additional functions 
 | ----------------- | -------------------------- | ------------------------------ |---------------------|
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Hover to view the % contribution of the angle. Dynamically reflects the selected agent from the “Overview by Agent” grid (default: reflect data for all agents)|
-| Away state breakdown (pie chart)| Away | away reason | Hover to view duration in specific away reason and % contribution of the angle. Dynamically reflects the selected agent from the “Overview by Agent” grid (default: reflect data for all agents)|
- 
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes*|
+| Activity State Breakdown (pie chart) | Away  | away reason| Yes*|
+| Agent Response Times (line chart)| AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE| N/A | No|
+| Agent KPI Trend (line chart)|MCS / CSAT SCORE Date | No |
+| Agent KPI Trend (bar charts)| HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart)| Date | No|
 
 
 **Top data bar (Grid)**
