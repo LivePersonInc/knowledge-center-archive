@@ -94,7 +94,7 @@ Every predefined dashboard includes a sheet titled “field details”. This she
 
 Each report in Report Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
 
-**To run a report:** Click on the dashboard you wish to open 
+**To run a report:** Click on the dashboard you wish to open
 
 **Time-frame selector**
 
@@ -166,16 +166,14 @@ To export a report:
 
    ![](/img/rbug9.png)
 2. Click the arrow, and then select **export.** The following options are displayed: **Excel**, **PDF**, **data**.
-
-**![export choose.png](https://lh3.googleusercontent.com/SlUbYahZmj2PuJQ1tz0_F7jKYZVizqA-pDaH6EDrVdWCsd_BjAXKG4r_m1rhGS2GLmi2_zP0CbelUHriTcB8RQc6cxQ3MTk7N_P4EgrwC70JENNSjNaSuxQfNZeB--VN6zKiAB_p =276x160)**
-
-1. Select an export option.
+3. Select an export option.
 
 _By default:_
 
 * _Excel will be used when the view is grid._
 * _PDF will be used when the view is widgets._
 * _Data is exported to a CSV file._
+
 
 # LivePerson technical support
 
