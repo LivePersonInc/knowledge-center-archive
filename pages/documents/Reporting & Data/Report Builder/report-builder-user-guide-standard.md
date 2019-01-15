@@ -166,7 +166,7 @@ To export a report:
 1. Hover your mouse cursor over the top right corner of your screen until an arrow is displayed.
 
    ![](/img/rbug9.png)
-2. Click the arrow, and then select **Export.** The following options are displayed: **Excel**, **PDF**, **Data**.
+2. Click the arrow, and then select **export.** The following options are displayed: **Excel**, **PDF**, **data**.
 
 **![export choose.png](https://lh3.googleusercontent.com/SlUbYahZmj2PuJQ1tz0_F7jKYZVizqA-pDaH6EDrVdWCsd_BjAXKG4r_m1rhGS2GLmi2_zP0CbelUHriTcB8RQc6cxQ3MTk7N_P4EgrwC70JENNSjNaSuxQfNZeB--VN6zKiAB_p =276x160)**
 
@@ -178,10 +178,10 @@ _By default:_
 * _PDF will be used when the view is widgets._
 * _Data is exported to a CSV file._
 
-# LivePerson Technical Support
+# LivePerson technical support
 
 LivePerson Technical Support is available 24/7 in the[ Connection Area](https://liveengage.liveperson.net/a/new/#registration!signUp).
 
-Please note that LivePerson Support troubleshoots and resolves issues in Predefined Dashboards officially released by LivePerson as part of the Product.
+Please note that LivePerson support troubleshoots and resolves issues in predefined dashboards officially released by LivePerson as part of the product.
 
-Issues with dashboards residing in the “My Account” or “My Reports” folder should be directed to your Customer Success Manager.
+Issues with dashboards residing in the “my account” or “my reports” folder should be directed to your account manager.
