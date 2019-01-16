@@ -70,12 +70,12 @@ LivePerson administrators can schedule reports to run at set times on a recurrin
 
 LP are continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report builder:
 
-* A new set of metrics have been added to the Messaging Performance Predefined Dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
-* The Messaging Performance Dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
+* A new set of metrics have been added to the messaging performance predefined dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
+* The messaging performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
 * Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the Messaging Performance Dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the Post Conversation Survey bot.
+* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the post conversation survey bot.
 * The data refresh rate has been enhanced to every eight hours.
-* Agent load KPIs are added to the predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
-* New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
-* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two Predefined Dashboards: the Skill Activity and the Messaging Performance.
-* The Field Details tab has been redesigned and contains a list of all the available attributes and metrics.
+* Agent load KPIs are added to the predefined messaging performance dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
+* New conversion metrics have been added to the messaging performance dashboard to allow analysis of sales results together with messaging operations data.
+* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: the skill activity and the messaging performance.
+* The field details tab has been redesigned and contains a list of all the available attributes and metrics.
