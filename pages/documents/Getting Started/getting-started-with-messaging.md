@@ -77,9 +77,6 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 ## Step 4: Design the customer experience
 
-{: .notice} 
-Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
-
 1. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
 * Photo sharing (consumer to agent)
@@ -93,9 +90,14 @@ See the rich messaging comparison grid for detailed information on what is avail
 1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
 3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
-   * Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask them questions that will determine what skill (or another bot) the conversation is routed to.
-   * Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
-4. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+
+* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask them questions that will determine what skill (or another bot) the conversation is routed to.
+* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
+
+1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+
+{: .notice}  
+Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
 
 ## Step 5: Define the  agent experience
 
@@ -116,11 +118,12 @@ See the rich messaging comparison grid for detailed information on what is avail
 * Determine the working hours per skill
 
 {:start="3"}
+
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
 
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
 
 {:start="4"}
-2. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-3. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-4. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+2\. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
+3\. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
+4\. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
