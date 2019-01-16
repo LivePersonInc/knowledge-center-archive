@@ -9,7 +9,6 @@ level3: ''
 permalink: data-&-reporting-messaging-agent-messaging-data.html
 isTutorial: false
 date: 2019-01-16 12:02:31 +0200
-published: false
 
 ---
 ## **Measure agent performance using the real time data bar**
