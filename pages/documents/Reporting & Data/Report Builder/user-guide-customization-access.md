@@ -102,7 +102,7 @@ With every release, new features are added to the predefined dashboards, but not
 
 * New metrics in existing datasets - new metrics added to existing datasets in the predefined dashboards will be available in custom dashboards as well.
 * New attributes in existing datasets -  new attributes will be automatically added to custom dashboards, but will show with only IDs as values. The attribute’s description is part of a new dataset (the dimension dataset) which is not added automatically.
-  * In order to see the attributes’ description, the user must recreate his custom dashboard by creating a new copy of the predefined dashboard.
+* In order to see the attributes’ description, the user must recreate his custom dashboard by creating a new copy of the predefined dashboard.
 * New datasets and visualizations - will not be added to existing custom dashboards.
 * Derived metrics - will not be added to the custom dashboards.
 
@@ -164,20 +164,21 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 
 1. Click the ‘**+**’ sign next to the names of the tabs.
 2. Give the tab a name by double-clicking on the name field.
-   * Note: the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
 
-{: .notice}  
+   Note: the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
+
+**{Tip}**  
 It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 
 ### **Copy an existing tab**
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘Duplicate’.
+2. Select ‘duplicate’.
 
 ### **Remove a tab**
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘**Delete**’.
+2. Select ‘**delete**’.
 
 ### **Add a new panel to an existing tab**
 
@@ -186,7 +187,6 @@ It is recommended to use an existing tab with its filters and modify it, rather 
 3. Give the panel a name by double-clicking on the name field.
 4. Move between panels by clicking on the blue dot at the bottom of each panel.
 
-     
    **Note:** all existing filters on the tab will automatically apply to all panels.
 
 {: .notice}  
@@ -205,7 +205,7 @@ There are two types of filters available:
 * Attribute filter
 * Metric filter
 
-**How-to video:** [**Filters and Dates**](https://bcove.video/2wKACTG)
+**How-to video:** [**Filters and dates**](https://bcove.video/2wKACTG)
 
 ### **Add an attribute filter to the filters panel**
 
@@ -233,12 +233,12 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
 2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
    * To filter data by creating a qualification on a metric, select **Qualification**.
    * To filter data by choosing values on a slider, select **Slider**.
-
-![](https://lh6.googleusercontent.com/4EOTUIrt3f8vWNPUSLO_fSfW5NvZQn_0S9InJzsQKAHF6wUq7VC0Cw0TaMvHjuKLk8UmXKMu-9YcC7gD3hqMeCt-RGv0jhfm56Jm6YGi83Ao7vUVo1pjfpbcCApOFXWF-rTEH-vq =299x203)
-
-1. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
+3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
    * To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
-   * To assign a numeric rank to the metric values and then filter by rank, select **Qualify on** **Rank**. A few options are available:
+   * To assign a numeric rank to the metric values and then filter by rank, select 
+
+     [xxx](xxx "xxx")**  
+     Qualify on** **rank**. A few options are available:
      1. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
      2. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
      3. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
@@ -246,15 +246,19 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
 
 ![](https://lh3.googleusercontent.com/Al2lBJzmp7L3WbylXPJ-mpcmeg65ShFyGNTnlvLpxoCabHyBQqAAU_MUsqZAmc9flcOhENhDZXj_4Bt2GB8Pl2mtta471itImHKENzKZoEHGn242QaE5q1yFhIhyD3EQWUlK9cPf =205x176)
 
-1. There are two options to configure how users will be able to filter the data:
-   * To allow users to filter data by creating a qualification on a metric, perform the following steps:
-     1. Click **Greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
-     2. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
-   * To allow users to filter data by choosing values on a slider, perform the following steps:
-     1. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
-     2. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
-        * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
-        * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
+There are two options to configure how users will be able to filter the data:
+
+To allow users to filter data by creating a qualification on a metric, perform the following steps:
+
+1. Click **Greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
+2. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+
+To allow users to filter data by choosing values on a slider, perform the following steps:
+
+1. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
+2. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
+   * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
+   * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
 
 ### **Remove a filter from the filters panel**
 
@@ -274,12 +278,12 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 
 ### **Add a visualization to a dashboard**
 
-1. Click the ‘Insert Visualization’ ![](https://lh6.googleusercontent.com/3QQM3Fyk7ZIhdyEg32Lxj0KyaqS6umHpVWiwX3wQAVkgPwEgcbWl4qwo0ngQxWDBtY50f7_6vH0p_NzDbBBLK2o5XQlncxyjHpCtBxDOr69xrxrLS_W61Qpflm8eCpDcbgkUhuuX =28x22) icon in the top bar. A new empty visualization is added to the dashboard.
+1. Click the ‘Insert Visualization’ ![](https://lh6.googleusercontent.com/3QQM3Fyk7ZIhdyEg32Lxj0KyaqS6umHpVWiwX3wQAVkgPwEgcbWl4qwo0ngQxWDBtY50f7_6vH0p_NzDbBBLK2o5XQlncxyjHpCtBxDOr69xrxrLS_W61Qpflm8eCpDcbgkUhuuX =28x22)icon in the top bar. A new empty visualization is added to the dashboard.
 2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations]()
 
 ### **Rearrange the visualizations**
 
-1. To quickly rearrange the visualizations in a tab, click and drag the visualization to its new location in the tab. The other visualization will automatically be shifted and resized.
+To quickly rearrange the visualizations in a tab, click and drag the visualization to its new location in the tab. The other visualization will automatically be shifted and resized.
 
 ### **Rename a visualization**
 
@@ -301,7 +305,7 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 3. Select ‘**export**’ and then select the type of file to export: PDF, Excel or Data (CSV).
 
 {: .notice}  
- It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week of data.
+It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week of data.
 
 ## Metrics & attributes
 
@@ -366,7 +370,7 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 ### **{Tips}**
 
 * Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
-* Formulas: Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
+* Formulas: Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
 * More information on using functions in metrics please visit this [website ](https://community.microstrategy.com/s/learning-center)(our 3rd-party provider).
 
 ### **Edit a metric**
@@ -382,12 +386,12 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
 ![](https://lh5.googleusercontent.com/umIejyyAQeMOTdbBqC7ydJdrT9puoOPcRcNlapgWdkcVIu5usDb6inB-6ZwRz0wPff4NX5ff5fVf_DAK23NfcgvI5fbYL5dolkwkIZYDC_zfSFOgkA1KEQ2LEUu42m_m7VP3S7vn =322x349)
 
-1. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
+3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
-{: .notice} 
+{: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-## Visualization Styles
+## Visualization styles
 
 Once a visualization is created with metrics and attributes, you can display it in several ways:
 
@@ -412,7 +416,7 @@ The table below lists the available styles:
 
 ![](https://lh4.googleusercontent.com/pehkL2seRI49l4b9CcE4rokJj7Ez9scKYAMtBrji29uF5TOOuqFK7Sbo677wiSQKbrVHIgxXTBm7xolhPqwZ5lsjq8qoc3JQsbpLp4-Ky3ujpXfPEZnRxJxHOH4R50xy-cr7EfQE =541x345)
 
-### Graphs with more than 1 metric
+## Graphs with more than one metric
 
 ### **Change the axis**
 
@@ -467,47 +471,66 @@ A threshold is made up of two parts: the condition, and the formatting that will
 1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
 2. Select ‘**Thresholds**’. The Thresholds dialog box will open.
 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
-   1. Color-based: to create a threshold to change the background color used to display metric values.
-   2. Image-based: to replace metric values with an image.
-4. From the second drop-down list, select the color or images you want to display:
-   1. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-   2. Images: select the images you would  like to display. The options include:
-      1. Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
-      2. Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
-      3. Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
-      4. And many more
-5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
-6. From the drop-down list that will appear once you have selected the metric, select one of the following:
-   1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-   2. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
-   3. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
-   4. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
-   5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
+
+**Color based**: to create a threshold to change the background color used to display metric values.
+
+**Image based:** to replace metric values with an image.
+
+From the second drop-down list, select the color or images you want to display:
+
+1. **Color:** select a set of colors to apply to the values, such as Orange, Green, Red.
+2. **Images**: select the images you would  like to display. The options include:
+
+   Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
+
+   Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
+
+   Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
+
+   And many more
+
+From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
+
+From the drop-down list that will appear once you have selected the metric, select one of the following:
+
+To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
+
+To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
+
+To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
+
+To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
+
+To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
 
 ![](https://lh3.googleusercontent.com/X2m_G5fhszCbek2fE-MkR4EbEguGo0RjSRhbSPZMsnKiqvqWVB6FqmlIFaM6ZskzzAH3HYb9KWQYXAXDTaCaPoZ8WztwOjuZyIar_iqCGKXbyv9XuBSvswksjk9_Fy7PcoNdgUp4 =113x149)
 
-1. From the ‘Break By’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
-2. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
+From the ‘Break By’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
+
+Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
 
 ![](https://lh5.googleusercontent.com/l0wJ7twuY8-ult4Bhfgw6Icatw_37fBqKjIJ-jXqwAXmlqg6wc7FO2k22DnTdwDQMGTZ6uN53qcIJtPV2b55mCQSs5wY4Au6xQ6ZugDaR4TzTHUPIre162ujXKlD9P0SKfQd3D7o =447x83)
 
-1. Further customizations are available:
-   1. To create a new band, hover the cursor underneath the band and click on the ![](https://lh4.googleusercontent.com/7qoI4gMDE2CRDdMhHPfCIphyNnArBZ4ncN9mMJmKRFAYzo0Yth2VrD1hxRELgJengqhxWzIQ-AbqzpIEcV2LKC0HCkkkCIkFMzZez5sRqnWslmPIBGfA7rKOlDsRauHg-3PmvC2A =19x19) icon that appears to place a new band.
-   2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
-   3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
-2. You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
+Further customizations are available:
+
+1. To create a new band, hover the cursor underneath the band and click on the ![](https://lh4.googleusercontent.com/7qoI4gMDE2CRDdMhHPfCIphyNnArBZ4ncN9mMJmKRFAYzo0Yth2VrD1hxRELgJengqhxWzIQ-AbqzpIEcV2LKC0HCkkkCIkFMzZez5sRqnWslmPIBGfA7rKOlDsRauHg-3PmvC2A =19x19) icon that appears to place a new band.
+2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
+3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
+
+You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
 **Clear all thresholds applied to a metric**
 
-1. On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
-2. Select ‘**Clear Thresholds**’. All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
+On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
+
+Select ‘**clear thresholds**’. All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
 
 ### Formatting the dashboard
 
 #### **Add a title**
 
 1. Click the ‘Insert’  ![](https://lh4.googleusercontent.com/CbDkcPtAXQ6iIcUoaNgRPsummHx6hfEiaS4ylpFyC5FCqS7EIGHZoxJ-m5mekEMDVLYiawO61V23RZnAYc6QY0rYekEljhhkxYUYat5iD6fH9re0ET4WyddtvmTqIRbKCMteNaz0 =31x19) icon in the top bar. A list of options will display.
-2. Select ‘**Text**’. A new title bar will display.
+2. Select ‘**text**’. A new title bar will display.
 3. Click on the text bar and type your desired text.
 4. You can drag and drop the title bar to anywhere in the dashboard.
 5. You can format the text font by selecting the title bar and changing the settings on the ‘PROPERTIES’ panel.
@@ -539,36 +562,50 @@ Once you have added an attribute to the grid, you can perform the following step
 
 # Recommendations for creating custom dashboards
 
-* Dashboards
-  * Users are advised to recreate their dashboards every so often in order to get the latest version of the predefined dashboards.
-* Tabs
-  * It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
-  * It is recommended to create new tabs rather than many panels in a single tab
-* Filters
-  * The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
-* Metrics & Attributes
-  * It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week’s worth of data.
-* Derived metrics
-  * Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
-  * Formulas: Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
-  * Time based derived metrics - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
-* 
+**Dashboards**
 
-# 
+Users are advised to recreate their dashboards every so often in order to get the latest version of the predefined dashboards.
 
-1. Training Videos
-   1. Basic Level
-      1. [Getting started](https://bcove.video/2vj2Sid)
-      2. [Filtering](https://bcove.video/2wwcWD6)
-      3. [Filters and Dates](https://bcove.video/2wKACTG)
-      4. [Creating dashboards](https://bcove.video/2wtZwaH)
-      5. [Working with datasets](https://bcove.video/2wwnQJ0)
-      6. [Working with graphs and visualisations](https://bcove.video/2wKCFY4)
-      7. [Sheets and Panels](https://bcove.video/2wIfhug)
-   2. Intermediate
-      1. [Creating metrics](https://bcove.video/2vPgq6B)
-      2. [Creating and Managing Groups](https://bcove.video/2wFK5MK)
-      3. [Create an Hourly Interval Attribute](https://bcove.video/2wI4DU8)
-   3. Advanced
-      1. [Creating attributes](https://bcove.video/2wFwMMr)
-      2. [Using visualizations as filters](https://bcove.video/2wTZrMV)
+**Tabs**
+
+* It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
+* It is recommended to create new tabs rather than many panels in a single tab
+
+**Filters**
+
+* The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
+
+**Metrics & attributes**
+
+* It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week’s worth of data.
+
+**Derived metrics**
+
+* **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
+* **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
+* Time based derived metrics - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
+
+## Training videos
+
+Training Videos
+
+Basic Level
+
+* [Getting started](https://bcove.video/2vj2Sid)
+* [Filtering](https://bcove.video/2wwcWD6)
+* [Filters and Dates](https://bcove.video/2wKACTG)
+* [Creating dashboards](https://bcove.video/2wtZwaH)
+* [Working with datasets](https://bcove.video/2wwnQJ0)
+* [Working with graphs and visualisations](https://bcove.video/2wKCFY4)
+* [Sheets and Panels](https://bcove.video/2wIfhug)
+
+Intermediate
+
+* [Creating metrics](https://bcove.video/2vPgq6B)
+* [Creating and Managing Groups](https://bcove.video/2wFK5MK)
+* [Create an Hourly Interval Attribute](https://bcove.video/2wI4DU8)
+
+Advanced
+
+* [Creating attributes](https://bcove.video/2wFwMMr)
+* [Using visualizations as filters](https://bcove.video/2wTZrMV)
