@@ -12,7 +12,7 @@ date: 2019-01-16 15:38:44 +0200
 ---
 # Training videos
 
-## Basic Level
+## Basic 
 
 * [Getting started](https://bcove.video/2vj2Sid)
 * [Filtering](https://bcove.video/2wwcWD6)
