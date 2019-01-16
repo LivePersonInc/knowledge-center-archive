@@ -78,8 +78,6 @@ Dashboards in Report Builder are saved in folders. The available folders are as 
 
 In the **my account** and **my reports folders**, users may create sub-folders to organize copies of existing dashboards. Each sub-folder can contain any number of saved dashboard. While any user with access to Report Builder may view sub folders and their content, managing sub-folders is only available to users with the permission to Customize Reports.
 
-![](https://lh4.googleusercontent.com/6RG7a3N6q_RjfGIrnGAcbqFkmLQwWEJUPAcfRIfuRFqHG45NshzicYrfVTC595mZAZfEIpsILxrJFBS1lvzyidmxh4L-WBtuGx2WV2Dvpb4f2wViaY_k6V6lQzOf50cglguA2aXJ =624x115)
-
 **Creating** a folder under “my account” or “my reports” folders
 
 1. Access Report Builder and navigate to one of the above mentioned folders
