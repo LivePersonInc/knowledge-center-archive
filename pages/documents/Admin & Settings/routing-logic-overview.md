@@ -92,7 +92,7 @@ Following the skill selection process, the routing engine will initiate the agen
 
 The agent’s suitability is determined using a set of parameters as set out below. Once the most appropriate agent is identified, the engine will route the incoming conversation to that agent.
 
-**Agent availability**
+### **Agent availability**
 
 An agent is considered available to receive an incoming conversation, when the following criteria are met:
 
@@ -113,25 +113,25 @@ _Maximum number of conversations per agent - Agent level:_
 
 ![](/img/RL 5.png)
 
-**Agent selection preferences**
+### **Agent selection preferences**
 
 The agent selection process is based on parameters outside those around the agent’s skill and availability. This is to ensure the optimal utilization of the agent’s capacity and even distribution of the workload, as well as maintaining high levels of customer satisfaction.
 
 * Agent prioritization - when routing an incoming conversation, the system will prioritize all agents eligible to receive the conversation and will route the conversation to the most suitable prioritized agent. Prioritization is based on three key parameters:
   * The agent’s current utilization state:
     * Smart capacity - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
-    * Default - The ‘least busy’ agent is prefered - the agent that is currently handling fewer active conversations.
+    * Default - The ‘least busy’ agent is preferred - the agent that is currently handling fewer active conversations.
   * The time passed since they last received a new conversation
   * The messaging history between the agent and the consumer
 * Return to queue - if an agent manually returns a conversation to the queue, the system will try to re-route it to a different available agent.
 
-**Queue priority**
+## **Queue priority**
 
 The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
-![](https://lh5.googleusercontent.com/v2Yw0SlZtK3zKfBoAMsaFDN26CldDAP3qFM1x95_aGQo0o9O6vdjbIjsQ_6BV2mcILmCT3J-5n7XpNQLpnNHb_ueEVHCciUS-MTEU2XGfSgeSk580iYYFPpqVgrWVw5q54DRNfBm =431x318)
+![](/img/RL 6.png)
 
 **Routing flow**
 
