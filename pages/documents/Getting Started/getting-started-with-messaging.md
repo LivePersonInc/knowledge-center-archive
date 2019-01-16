@@ -21,7 +21,16 @@ To get the most basic version of messaging up means you have a generic ‘messag
 
 1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, click here.
 2. Create users for the agents that will be taking the conversations.  To learn how to set up users, click here.
-3. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
+3. Create a username and login for the agents that will be answering incoming messages.
+4. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
+
+LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
+
+* **Customer experience:** design what your consumers will see when they interact with you - including the messaging window,  the banners, buttons and automatic text. Add bots and automation to be the first to answer.
+* **Agent experience**: Set up agent experience to ensure your reps are successful including predefined content and custom widgets
+* **Management & Operations**: Cost savings are a product of effective operations: set up all your skills and LOBs, routing, agent capacity, & queue priority
+
+This guide will provide a checklist for actions you can take for each of the above areas.
 
 ## Step 1: Set up data for accurate tracking
 
@@ -51,17 +60,9 @@ Read more about messaging connectors in LivePerson.
 * Connector API (build a connector to any custom messaging channel)
 * Live Chat on your website
 
-## Customize your messaging program
+{: .notice}
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
-
-* **Customer experience:** design what your consumers will see when they interact with you - including the messaging window,  the banners, buttons and automatic text. Add bots and automation to be the first to answer.
-* **Agent experience**: Set up agent experience to ensure your reps are successful including predefined content and custom widgets
-* **Management & Operations**: Cost savings are a product of effective operations: set up all your skills and LOBs, routing, agent capacity, & queue priority
-
-This guide will provide a checklist for actions you can take for each of the above areas.
-
-\*Important note: through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.  For example, after you complete this set up for web messaging, and decide to add Facebook Messenger messaging, all the same settings will apply (except for the specific customer experience design and rich messaging for that channel)
+Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels. 
 
 ## Step 3: Design the customer experience
 
@@ -92,7 +93,7 @@ See the rich messaging comparison grid for detailed information on what is avail
 6. **Agent Guide**: Get your agent trained on how to take messages.  Note that agent training should include your business processes as well as best practices for conducting conversations.  LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, visit the LivePerson University or contact your account team for specialized training.
 7. **SSO Login**: you have the option to connect LivePerson to your company’s secured hub for SSO integration.
 
-## Step 5: Management and operations
+## Step 5: Customize your account settings
 
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
 2. Account Administration:
@@ -104,17 +105,16 @@ See the rich messaging comparison grid for detailed information on what is avail
 * **Timezone**: set up the timezone of your account for timestamp and reporting purposes
 * **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
 
-3\. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
+## Step 6: Manage the operational elements 
 
-4\. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
+1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
+2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
 
 * Set up and shifts worked per skill using the shift scheduler
 * Determine the working hours per skill
-
-5\. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
-
-6\. Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
-
-* **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-* **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-* **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+{:start="3"}
+1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
+2. 6. Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
+3. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
+4. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
+5. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
