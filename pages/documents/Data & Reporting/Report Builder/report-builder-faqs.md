@@ -87,9 +87,7 @@ It is important to note that new datasets added to the predefined dashboards do 
 
 Unfortunately, the default format in Micro strategy for Time based metrics does not carry over 24 hours properly. Therefore, it is advised to use the custom format “\[h\]:mm” instead of the default time format, as shown in the below screenshot:
 
-![](https://lh6.googleusercontent.com/82iU4ATDdK6CNss_pqMt7HlcDDycTghIxKrkS6w3SmCXWzjToqSr0Eo_eYYUEcMLGQdwmo6AJoX5J6s9ZvF7FiqmtDBCZEa07tKlUVMpjfOHzApbTkRAZwPCxQcpgJzIqyQAObYf =624x312)
-
-## Funnel Reports
+## ![](https://lh6.googleusercontent.com/82iU4ATDdK6CNss_pqMt7HlcDDycTghIxKrkS6w3SmCXWzjToqSr0Eo_eYYUEcMLGQdwmo6AJoX5J6s9ZvF7FiqmtDBCZEa07tKlUVMpjfOHzApbTkRAZwPCxQcpgJzIqyQAObYf =624x312)Funnel Reports
 
 ### **Q: How are indirect conversions attributed?**
 
@@ -129,8 +127,8 @@ Example
    4. 21-Feb 00:15 Visitor clicks on chat button (Accepted Offer)
 2. A Campaign Manager sets the date filter to 20-Feb (full day)
 
-| --- | --- | --- | --- |
 |  | Prospects | Exposed | Accepted Offers |
+| --- | --- | --- | --- |
 | Campaign BI | 1 | 0 | 0 |
 | Report Builder | 1 | 1 | 1 |
 
