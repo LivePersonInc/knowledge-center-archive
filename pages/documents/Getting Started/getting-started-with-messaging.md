@@ -94,7 +94,7 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 	* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask 	them questions that will determine what skill (or another bot) the conversation is routed to.
 	* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to 	your consumers asking them customer satisfaction or any other questions you require.
 
-{:start="4"}
+{:start="5"}
 1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
 {: .notice}  
@@ -114,7 +114,6 @@ Instructions for designing customer experience elements such as banners and chat
 
 1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
 2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
-
    * Set up and shifts worked per skill using the shift scheduler
    * Determine the working hours per skill
 
