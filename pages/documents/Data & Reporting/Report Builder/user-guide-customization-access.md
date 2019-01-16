@@ -8,8 +8,7 @@ subtitle: 'This user guide sets out detailed instructions for building your own 
 level3: ''
 permalink: data-&-reporting-report-builder-user-guide-customization-access.html
 isTutorial: false
-date: 2019-01-16 13:37:29 +0200
-published: false
+date: 2019-01-16 11:37:29 +0000
 
 ---
 # Introduction
@@ -233,7 +232,7 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
    * To filter data by choosing values on a slider, select **Slider**.
 3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
    * To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
-   * To assign a numeric rank to the metric values and then filter by rank, select 
+   * To assign a numeric rank to the metric values and then filter by rank, select
 
      [xxx](xxx "xxx")**  
      Qualify on** **rank**. A few options are available:
@@ -384,7 +383,7 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
 ![](https://lh5.googleusercontent.com/umIejyyAQeMOTdbBqC7ydJdrT9puoOPcRcNlapgWdkcVIu5usDb6inB-6ZwRz0wPff4NX5ff5fVf_DAK23NfcgvI5fbYL5dolkwkIZYDC_zfSFOgkA1KEQ2LEUu42m_m7VP3S7vn =322x349)
 
-3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
+1. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
 {: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm

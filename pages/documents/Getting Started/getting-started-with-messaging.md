@@ -47,12 +47,12 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
 2. Account Administration:
 
-* **Skills**: set up or import the list of skills that you’d like conversations routed to
-* **Users**: set up or import the list of all agents, managers or administrators
-* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them
-* **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users
-* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
-* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
+	* **Skills**: set up or import the list of skills that you’d like conversations routed to
+	* **Users**: set up or import the list of all agents, managers or administrators
+	* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  		These will reflect in your reporting, as well as enable filtering for agents and managers to only 		see conversations and data relevant to them
+	* **Permissions**: you can customize what actions your users can take in the system.  For example, 		create a ‘supervisor’ role with permissions to set up and add users
+	* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
+	* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click 		here
 
 ## Step 3: Connect to your channels of choice
 
@@ -72,28 +72,33 @@ Read more about messaging connectors in LivePerson.
 * Connector API (build a connector to any custom messaging channel)
 * Live Chat on your website
 
-{: .notice} Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
+{: .notice}
+Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
 
 ## Step 4: Design the customer experience
 
-{: .notice} Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
-
 1. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
-* Photo sharing (consumer to agent)
-* Structured content (cards, carousels, lists)
-* Time picker
+	* Photo sharing (consumer to agent)
+	* Structured content (cards, carousels, lists)
+	* Time picker
 
-See the rich messaging comparison grid for detailed information on what is available per messaging channel.
+	See the rich messaging comparison grid for detailed information on what is available per messaging 	channel.
 
 {:start="2"}
 
 1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
 3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
-   * Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask them questions that will determine what skill (or another bot) the conversation is routed to.
-   * Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
-4. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+
+	* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask 	them questions that will determine what skill (or another bot) the conversation is routed to.
+	* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to 	your consumers asking them customer satisfaction or any other questions you require.
+
+  {:start="4"}
+1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+
+{: .notice}  
+Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
 
 ## Step 5: Define the  agent experience
 
@@ -110,12 +115,11 @@ See the rich messaging comparison grid for detailed information on what is avail
 1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
 2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
 
-* Set up and shifts worked per skill using the shift scheduler
-* Determine the working hours per skill
+   * Set up and shifts worked per skill using the shift scheduler
+   * Determine the working hours per skill
 
 {:start="3"}
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
-
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
 
 {:start="4"}
