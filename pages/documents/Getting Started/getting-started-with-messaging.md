@@ -94,7 +94,7 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 	* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask 	them questions that will determine what skill (or another bot) the conversation is routed to.
 	* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to 	your consumers asking them customer satisfaction or any other questions you require.
 
-  {:start="4"}
+{:start="4"}
 1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
 {: .notice}  
