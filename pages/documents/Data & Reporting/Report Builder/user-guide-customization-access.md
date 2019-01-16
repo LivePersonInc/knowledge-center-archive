@@ -83,11 +83,11 @@ In the **my account** and **my reports folders**, users may create sub-folders t
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “Folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
-![](https://lh5.googleusercontent.com/z41j7ey3iLrw-lok7OzAu0sxUcC3ZH44ie8NQcO16wS91owvPwW5qA1qbiAdggZVqPBW--1P-663EV18smm5_INBuZxMeSIX8RNeplN0cyTGRteiD79A5EVg4571eIzPjII1sDhL =619x367)
+![](/img/z1.png)
 
 Alternatively, a new folder can be created by copying an existing dashboard (right-click and “Copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon
 
-![](https://lh6.googleusercontent.com/iX_kUZGyGWVbP84vfzwvuNEY8Rz4hBZDNuUd3PAr-IL9kcApQUM-VLcISuzKKuvRLJBKFIDfmMpC7RCjKYNPgx6zY6VFvU_wgBo8wLY9HlmlSJYUYErvFxngQEAOU5M4QruSAo1b =537x525)
+![](/img/c3.png)
 
 **Deleting** and **renaming** an existing dashboard is also available via right-clicking the folder icon.
 
@@ -120,7 +120,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 
 LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
-![](https://lh5.googleusercontent.com/58g-IUwiBU_ZQTdPL-zyIrCyljSrZ9kB5_8h-agT4mLWWOvCnIUrQp-bkeoGOoOZtjJUYLBvjvZ84eHAJM1UD653ZR34sXS9XC2zdoh7A-FnaovGtApv4y-C6jx064Afq2XVdGo7 =548x331)
+![](/img/c4.png)
 
 ### **Customize a predefined dashboard**
 
@@ -234,14 +234,16 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
    * To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
    * To assign a numeric rank to the metric values and then filter by rank, select
 
-     [xxx](xxx "xxx")**  
-     Qualify on** **rank**. A few options are available:
+     ![](/img/c6.png)
+
+       
+     Qualify on **rank**. A few options are available:
      1. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
      2. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
      3. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
      4. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
-![](https://lh3.googleusercontent.com/Al2lBJzmp7L3WbylXPJ-mpcmeg65ShFyGNTnlvLpxoCabHyBQqAAU_MUsqZAmc9flcOhENhDZXj_4Bt2GB8Pl2mtta471itImHKENzKZoEHGn242QaE5q1yFhIhyD3EQWUlK9cPf =205x176)
+![](/img/c7.png)
 
 There are two options to configure how users will be able to filter the data:
 
@@ -362,9 +364,9 @@ Note: Refer to the [Functions Reference](http://www2.microstrategy.com/producthe
 
 How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
-![](https://lh3.googleusercontent.com/C9MKagJ16RvH2ol71fYmFgxDIJPjNA1mtNPr1ggxGs8EemtLp387UDsm6Sw6dcE5FyPh3PfETTR6-E1-atkR9BG4lV8KW7Hg_sknIWqdLSpWh0fUs1DPHRTF3ysO5n_TzpN0uvno =624x399)
+![](/img/c8.png)
 
-### **{Tips}**
+**{Tips}**
 
 * Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * Formulas: Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
@@ -380,10 +382,9 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
 1. Right click on the name of the metric on the Datasets panel.
 2. Select ‘Number format’ and then select the format from the available options (Currency, Date, Time, Percentage and so on).
+3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
-![](https://lh5.googleusercontent.com/umIejyyAQeMOTdbBqC7ydJdrT9puoOPcRcNlapgWdkcVIu5usDb6inB-6ZwRz0wPff4NX5ff5fVf_DAK23NfcgvI5fbYL5dolkwkIZYDC_zfSFOgkA1KEQ2LEUu42m_m7VP3S7vn =322x349)
-
-1. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
+![](/img/c9.png)
 
 {: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
@@ -411,7 +412,7 @@ The table below lists the available styles:
 |  | Combo Chart | 2 or more metrics1 or more attributes |
 |  | Network Chart | 1 or more attributes |
 
-![](https://lh4.googleusercontent.com/pehkL2seRI49l4b9CcE4rokJj7Ez9scKYAMtBrji29uF5TOOuqFK7Sbo677wiSQKbrVHIgxXTBm7xolhPqwZ5lsjq8qoc3JQsbpLp4-Ky3ujpXfPEZnRxJxHOH4R50xy-cr7EfQE =541x345)
+![](/img/c10.png)
 
 ## Graphs with more than one metric
 
@@ -423,24 +424,18 @@ The table below lists the available styles:
 **Change color shapes according to the metric names**
 
 1. On the ‘EDITOR’ panel, click on the ‘**Metric Names**’ rectangle.
-
-![](https://lh3.googleusercontent.com/WjB9F_Sx4dH0Rmexy7P6LLhc3jFr3HEXT9u7utBIuB5HZ0TSmong6T95rD8LL1DgPWeJnYZfK3rGqp17-wHvpVhaSKm7hY0bahEn0peClmafgurZ8m95fK1STpMBQFq8Z8KlZGZ0 =153x29)
-
-1. Drag the rectangle and drop it into the ‘Color By’ section in the panel:
-
-![](https://lh6.googleusercontent.com/BY__8lC4vYCJrdg4gmiAY4upfIvZr-QMKKF6IFPgsX27eeJEYfK_4XdjDqiIDPby_IDpoYMBkPcg3T2Ushr1CoJ279b-opVoCP5Ax1adHli-7wVMOfMgDrGtuQKgFUL7waALBVjg =167x82)
-
-1. The shapes will be colored differently according to the metrics.
+2. Drag the rectangle and drop it into the ‘Color By’ section in the panel:
+3. The shapes will be colored differently according to the metrics.
 
 **Add a legend**
 
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
 2. Click on ‘**Show Legend**’. The legend will display on the right of the visualization.
-3. On hover a few options will be displayed:
-   1. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
-   2. In the top right corner - an ‘X’ button, allowing you to close the legend.
+3. On hover a few options will be displayed.
+4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
+5. In the top right corner - an ‘X’ button, allowing you to close the legend. 
 
-![](https://lh3.googleusercontent.com/I7xZZFtSoZzXOCvMtRSKZnOe-9-Rq0o24yKnuHpnevIGkq9nqutzxLqEDX7ua92ijeoQV9VtYBFCJ2f2odpcQNPRsQsB_GnXg5H-PPBk9HhH6Fnt4X6U_X4Rt2hkX28Ga6vraIY2 =98x146)
+![](/img/c13.png)
 
 ## Formatting
 
@@ -475,16 +470,13 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
 From the second drop-down list, select the color or images you want to display:
 
-1. **Color:** select a set of colors to apply to the values, such as Orange, Green, Red.
-2. **Images**: select the images you would  like to display. The options include:
+* **Color:** select a set of colors to apply to the values, such as Orange, Green, Red.
+* **Images**: select the images you would  like to display. The options include:
 
-   Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
 
-   Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
-
-   Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
-
-   And many more
+* Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
+* Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
+* Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
 
 From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
 
@@ -500,13 +492,13 @@ To create a threshold based on the top x percent of metric values, select **High
 
 To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
 
-![](https://lh3.googleusercontent.com/X2m_G5fhszCbek2fE-MkR4EbEguGo0RjSRhbSPZMsnKiqvqWVB6FqmlIFaM6ZskzzAH3HYb9KWQYXAXDTaCaPoZ8WztwOjuZyIar_iqCGKXbyv9XuBSvswksjk9_Fy7PcoNdgUp4 =113x149)
+![](/img/c14.png)
 
-From the ‘Break By’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
+From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
 
 Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
 
-![](https://lh5.googleusercontent.com/l0wJ7twuY8-ult4Bhfgw6Icatw_37fBqKjIJ-jXqwAXmlqg6wc7FO2k22DnTdwDQMGTZ6uN53qcIJtPV2b55mCQSs5wY4Au6xQ6ZugDaR4TzTHUPIre162ujXKlD9P0SKfQd3D7o =447x83)
+![](/img/c15.png)
 
 Further customizations are available:
 
@@ -553,7 +545,7 @@ Once you have added an attribute to the grid, you can perform the following step
 7. Once you’ve finished creating the groups, click ‘**Save**’.
 8. You can now use the new attribute instead of the original attribute.
 
-## ![](https://lh5.googleusercontent.com/CkCsIRWMqOkIBQb3AMOVwS8Ocvo6dHZJ-XFD-qdcMyyEEcfFlDJCkHXoyvH06fppnsEioXnjCNG-WkLtl6CspL9rYkljbzL7UcTktzRLOIZroTSdqdRWr7zUu7R43-FI7a5Rafjd =413x413)
+![](/img/c16.png)
 
 **How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
 
@@ -593,7 +585,7 @@ Basic Level
 * [Filters and Dates](https://bcove.video/2wKACTG)
 * [Creating dashboards](https://bcove.video/2wtZwaH)
 * [Working with datasets](https://bcove.video/2wwnQJ0)
-* [Working with graphs and visualisations](https://bcove.video/2wKCFY4)
+* [Working with graphs and visualizations](https://bcove.video/2wKCFY4)
 * [Sheets and Panels](https://bcove.video/2wIfhug)
 
 Intermediate
