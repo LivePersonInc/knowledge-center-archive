@@ -11,72 +11,44 @@ date: 2019-01-16 15:47:26 +0200
 published: false
 
 ---
-## Framework inquiries 
+## Framework inquiries
 
 ### **Q: How can I access Report builder?**
 
 **A:** Report Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Report Builder icon on the left of the screen.
 
-### **Q: Can I create my own reports?** 
+### **Q: Can I create my own reports?**
 
 **A:** LiveEngage Report Builder offers users to create custom dashboards that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Report Builder.
 
 ### **Q: What reporting data is available?**
 
-**A:** The data currently available in LiveEngage predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings. 
+**A:** The data currently available in LiveEngage predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
 
-* Agent Activity Dashboard: Includes operational data about agents. 
+* Agent Activity Dashboard: Includes operational data about agents.
 * Skill Activity Dashboard: Includes operational data about skills.
-* Goals Tracker: Includes information about each conversion. 
-* Messaging Performance Dashboard: Includes business and operational data about messaging conversations. 
+* Goals Tracker: Includes information about each conversion.
+* Messaging Performance Dashboard: Includes business and operational data about messaging conversations.
 * Business Activity Dashboard: Includes information about campaigns and engagements performance.
-* Business Activity Grids are also available in Excel export format, in daily and monthly level aggregations. 
-* Operational & Staffing dashboard: Includes information about skill performance and skill demand. 
-* Survey Activity Dashboard: Includes information about responses to surveys presented  in Live Chat. 
+* Business Activity Grids are also available in Excel export format, in daily and monthly level aggregations.
+* Operational & Staffing dashboard: Includes information about skill performance and skill demand.
+* Survey Activity Dashboard: Includes information about responses to surveys presented  in Live Chat.
 
 ### **Q: With regard to data storage, where are the Report Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?**
 
-**A:** Report Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers. 
+**A:** Report Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers.
 
 ### **Q: Is the information stored on Report Builder encrypted?**
 
-**A:** The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption. 
-
-## Data availability & latency
-
-### **Q: How long is data stored for in Report Builder?**
-
-**A:** Operational data is stored for 13 months, while Business (funnel) data is available since March 2017
-
-### **Q: How frequently is the data updated in Report Builder?**
-
-**A:** Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the timezone of the data center timezone* from which your account is operated. After each update, the reports display the data collected up to 6 hours earlier. 
-
-\*Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/9999999/#wa](https://z1.le.liveperson.net/a/9999999/#wa "https://z1.le.liveperson.net/a/9999999/#wa")!webagent. The three data centers, and their timezones, are as follows:
-
-* Z1 = Virginia, North America. The timezone for the Virginia farm is EST.
-* Z2 = UK. The timezone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
-* Z3 = Sydney, Australia. The timezone for the Sydney farm is AEST.
-
-### **Q: How can I change the data’s timezone in Report Builder?**
-
-**A:** The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the **Agent Activity Dashboard**, **Goal Tracker Dashboard, Skill Activity, and Messaging Performance,**  users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
-
-### **Q: How long after changing a setting in my account does the Builder reflect the change?**
-
-**A:** Changes in settings are reflected in Report Builder after the succeeding data load is completed. To read more about Report Builder refresh rate, [click here](https://docs.google.com/document/d/1cRk9fec6KIrGYMXQo1NbzzVhK490Wu07BCSP2EPhPPQ/edit#heading=h.ofyffsva0bbx).
-
-### **Q: Is historical data from deleted attributes (such as agents, surveys, etc.) available in Report Builder?** 
-
-**A:** Yes. There is no deletion process in Report Builder, only the addition of data. The historical data will be available and can be filtered, in most cases, by a deleted indicator, for example - the 'ACTIVE AGENT INDICATOR' attribute cab used to show data of only non-deleted agents.
+**A:** The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption.
 
 ## Performance
 
 ### **Q: Why is the ‘LiveEngage predefined dashboards’ folder empty (no dashboards appear)?**
 
-**A:** There might be a caching issue with the browser. Please try to clear the cache on the browser, close and reopen the browser and login again. 
+**A:** There might be a caching issue with the browser. Please try to clear the cache on the browser, close and reopen the browser and login again.
 
-## Data discrepancies 
+## Data discrepancies
 
 ### **Q: Why do I see different values for metrics in the Report Builder and the BI Dashboards?**
 
@@ -84,15 +56,13 @@ published: false
 
 In Report Builder, the flexibility is higher and there are at least 3 different indicators:
 
-* ACTIVE GROUP IND 
+* ACTIVE GROUP IND
 * ACTIVE AGENT IND
 * IS MANAGER IND
 
 The default values are the same as in the BI, but when customizing a report and adding a new sheet - make sure to add these indicators to the filter panels and set the the same values as in the BI.
 
-**Timezone for data display:** Note that the Agent Manager BI displays data in the user’s local timezone, while the Report Builder dashboards and Campaign BI utilize the account’s timezone.
-
-For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
+**Timezone for data display:** Note that the Agent Manager BI displays data in the user’s local timezone, while the Report Builder dashboards and Campaign BI utilize the account’s timezone. For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
 
 ## Usability
 
@@ -109,7 +79,7 @@ For any other question\\issue not listed above, please contact LivePerson Techni
 **A:** New metrics added to existing datasets will appear as hidden in user copies once added to the predefined dashboard. To locate the new metric click on the arrow icon next to the “DASHBOARDS DATASETS” title line, and choose Show Hidden Objects. Scroll down to locate the new metric and check the box next to the metric.
 
 ![](https://lh4.googleusercontent.com/cg6GfNM6hMMg_gXQhCIpH5gdJs_pOL9GIGG90jro9fE9P5cFYgBZ4y6l2mqk8_LxxXknVEvHleKbglRYYy8vJYjjUSwVjpQkJfbQUirP2UqobLijDKIXh5pX_WPJQ3zmkIIA9_Bk =624x177)  
-Important to note that new datasets added to the predefined dashboards do not get carried over to dashboard user-copies.
+It is important to note that new datasets added to the predefined dashboards do not get carried over to dashboard user-copies.
 
 ### **Q: The format of a time based derived metric I’ve created is wrong. Why?**
 
@@ -143,7 +113,7 @@ The “Last Campaign” attribution in relevant to content banners alone. In thi
 
 ### **Q: Why is the Campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?**
 
-**A:** Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe. 
+**A:** Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe.
 
 The different originates from the methodology funnel metrics are computed:
 
@@ -179,5 +149,3 @@ Report Builder funnel metrics that are included in the above explanation are ava
 * On June 3rd the consumer converted.
 * On June 4th the Campaign Manager wishes to pull a report for all conversions achieved on June 3rd
 * The Campaign Manager needs to set the Date filter in the Goal Tracker to include at least June 1st this cross session conversion
-
- 
