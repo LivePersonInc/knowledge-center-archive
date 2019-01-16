@@ -60,7 +60,7 @@ It is possible to configure a default skill which will be used in case no skill 
 
 In the example below, if a consumer has the engagement attributes customer type = VIP and company branch = US, the conversation will be routed to the VIP_Care_English skill. If the consumer has the engagement attribute company branch = PR, then it will be routed to the General_Care_Spanish skill. If the consumer does not have any engagement attributes that meet a mapping rule, then it will be routed to the default skill, which in this case is General_Care.
 
-![](/img/RL 1.png)
+![](img/RL 1.png)
 
 ## **Offline routing to a fallback skill**
 
