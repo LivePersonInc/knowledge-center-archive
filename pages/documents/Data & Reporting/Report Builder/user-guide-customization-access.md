@@ -502,7 +502,7 @@ Each band displayed in the dialog box represents a different range of values. Yo
 
 Further customizations are available:
 
-1. To create a new band, hover the cursor underneath the band and click on the ![](https://lh4.googleusercontent.com/7qoI4gMDE2CRDdMhHPfCIphyNnArBZ4ncN9mMJmKRFAYzo0Yth2VrD1hxRELgJengqhxWzIQ-AbqzpIEcV2LKC0HCkkkCIkFMzZez5sRqnWslmPIBGfA7rKOlDsRauHg-3PmvC2A =19x19) icon that appears to place a new band.
+1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
 2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
 3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
 
