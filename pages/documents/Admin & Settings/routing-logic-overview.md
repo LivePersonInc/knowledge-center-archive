@@ -12,7 +12,7 @@ date: 2019-01-16 17:08:11 +0200
 published: false
 
 ---
-# Routing logic for messaging conversations
+## Routing logic for messaging conversations
 
 When a consumer is ready to start a messaging conversation with your brand, it’s important to direct them to the agent that will best serve their needs. To facilitate this, the messaging routing engine works behind the scenes to select the most appropriate agent to handle an incoming conversation from a consumer. The engine relies on a few fundamental principles:
 
