@@ -11,7 +11,6 @@ date: 2019-01-14 10:27:58 +0000
 level3: ''
 
 ---
-
 To get started, access LivePerson using this link: Add link to login
 
 ## Bare-bones: get to the first message
@@ -22,7 +21,7 @@ To get the most basic version of messaging up means you have a generic ‘chat�
 2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here]().
 3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
-## Customize your messaging program
+## Customize your chat program
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
 
