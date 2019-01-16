@@ -233,10 +233,10 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
      ![](/img/c6.png)
 
 Qualify on **rank**. A few options are available:
-     1. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-     2. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-     3. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-     4. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+1\. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+2\. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+3\. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+4\. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
 ![](/img/c7.png)
 
@@ -402,7 +402,7 @@ Once a visualization is created with metrics and attributes, you can display it 
 The table below lists the available styles:
 
 | Visualization style | When to use |
-| --- | --- | --- |
+| --- | --- |
 | Grid | Display data in a tabular layout - multiple attributes and metrics |
 | Heat Map | 1 attribute and a metric |
 | Bar Chart | 1 or more metrics |
@@ -434,7 +434,7 @@ The table below lists the available styles:
 2. Click on ‘**Show Legend**’. The legend will display on the right of the visualization.
 3. On hover a few options will be displayed.
 4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
-5. In the top right corner - an ‘X’ button, allowing you to close the legend. 
+5. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
 ![](/img/c13.png)
 
@@ -574,26 +574,3 @@ Users are advised to recreate their dashboards every so often in order to get th
 **DISCLAIMER:**
 
 LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards]() section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
-
-## Training videos
-
-Basic Level
-
-* [Getting started](https://bcove.video/2vj2Sid)
-* [Filtering](https://bcove.video/2wwcWD6)
-* [Filters and Dates](https://bcove.video/2wKACTG)
-* [Creating dashboards](https://bcove.video/2wtZwaH)
-* [Working with datasets](https://bcove.video/2wwnQJ0)
-* [Working with graphs and visualizations](https://bcove.video/2wKCFY4)
-* [Sheets and Panels](https://bcove.video/2wIfhug)
-
-Intermediate
-
-* [Creating metrics](https://bcove.video/2vPgq6B)
-* [Creating and Managing Groups](https://bcove.video/2wFK5MK)
-* [Create an Hourly Interval Attribute](https://bcove.video/2wI4DU8)
-
-Advanced
-
-* [Creating attributes](https://bcove.video/2wFwMMr)
-* [Using visualizations as filters](https://bcove.video/2wTZrMV)
