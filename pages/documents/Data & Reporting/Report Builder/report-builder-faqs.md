@@ -67,17 +67,18 @@ The default values are the same as in the BI, but when customizing a report and 
 
 ### **Q: Can I move a dashboard I’ve created from one folder to another, or into a new folder?**
 
-**A:** You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Report+Builder/Report+Builder+User+Guide.pdf) for additional information about working with folders.
+**A:** You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide]() for additional information about working with folders.
 
 ### **Q: After deleting a campaign in LE, how can I remove the campaign from list of campaign in the filter?**
 
-**A:** Add the “CAMPAIGN DELETED INDICATOR” and “CAMPAIGN NAME” under the List of Campaigns dataset to the filter pane. Right-click the new filter and choose “Select Targets”. Choose the CAMPAIGN NAME attribute from the list. For more information please refer to the [user guide](https://app.getguru.com/#/facts/d5a4d2a3-69ae-4009-83f4-16896afa1356).
+**A:** Add the “CAMPAIGN DELETED INDICATOR” and “CAMPAIGN NAME” under the List of Campaigns dataset to the filter pane. Right-click the new filter and choose “Select Targets”. Choose the CAMPAIGN NAME attribute from the list. For more information please refer to the [user guide.]()
 
 ### **Q: What should I do to see a new metric created in the predefined dashboards in my copy of the dashboard?**
 
 **A:** New metrics added to existing datasets will appear as hidden in user copies once added to the predefined dashboard. To locate the new metric click on the arrow icon next to the “DASHBOARDS DATASETS” title line, and choose Show Hidden Objects. Scroll down to locate the new metric and check the box next to the metric.
 
-![](https://lh4.googleusercontent.com/cg6GfNM6hMMg_gXQhCIpH5gdJs_pOL9GIGG90jro9fE9P5cFYgBZ4y6l2mqk8_LxxXknVEvHleKbglRYYy8vJYjjUSwVjpQkJfbQUirP2UqobLijDKIXh5pX_WPJQ3zmkIIA9_Bk =624x177)  
+![](/img/f1.png)
+
 It is important to note that new datasets added to the predefined dashboards do not get carried over to dashboard user-copies.
 
 ### **Q: The format of a time based derived metric I’ve created is wrong. Why?**
@@ -86,11 +87,13 @@ It is important to note that new datasets added to the predefined dashboards do 
 
 Unfortunately, the default format in Micro strategy for Time based metrics does not carry over 24 hours properly. Therefore, it is advised to use the custom format “\[h\]:mm” instead of the default time format, as shown in the below screenshot:
 
-## ![](https://lh6.googleusercontent.com/82iU4ATDdK6CNss_pqMt7HlcDDycTghIxKrkS6w3SmCXWzjToqSr0Eo_eYYUEcMLGQdwmo6AJoX5J6s9ZvF7FiqmtDBCZEa07tKlUVMpjfOHzApbTkRAZwPCxQcpgJzIqyQAObYf =624x312)Funnel Reports
+![](/img/f2.png)
+
+## Funnel Reports
 
 ### **Q: How are indirect conversions attributed?**
 
-**A:** Before diving into specific scenarios, it is recommended to review [documentation](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=what-made-your) that explains how conversions are attributed to campaigns.
+**A:** Before diving into specific scenarios, it is recommended to review documentation that explains how conversions are attributed to campaigns.
 
 _Consider the following scenario:_
 
