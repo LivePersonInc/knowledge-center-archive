@@ -345,13 +345,19 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 
 ### **Create a new metric**
 
-1. Right click anywhere in the datasets panel and select ‘create metric’.
-2. A new window ‘metric editor’ will open up.
-3. Use objects and functions or operators to create the required formula.
-   1. Objects: the metrics and attributes available in the report.
-      1. To add an attribute or metric, double-click an object from the ‘**objects’** list to the right to add it to the formula field.
-   2. Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
-      1. To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
+Right click anywhere in the datasets panel and select ‘create metric’.
+
+A new window ‘metric editor’ will open up.
+
+Use objects and functions or operators to create the required formula.
+
+Objects: the metrics and attributes available in the report.
+
+To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
+
+Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+
+To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 Note: Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
 
@@ -466,13 +472,11 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
 From the second drop-down list, select the color or images you want to display:
 
-* **Color:** select a set of colors to apply to the values, such as Orange, Green, Red.
-* **Images**: select the images you would  like to display. The options include:
-
-
-* Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
-* Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
-* Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
+* Color: select a set of colors to apply to the values, such as Orange, Green, Red.
+* Images: select the images you would  like to display. The options include:
+* Arrows
+* Regular Pin
+* Rounded Pin
 
 From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
 
@@ -514,13 +518,11 @@ Select ‘**clear thresholds**’. All thresholds defined for the metric are cle
 
 #### **Add a title**
 
-1. Click the ‘Insert’  ![](https://lh4.googleusercontent.com/CbDkcPtAXQ6iIcUoaNgRPsummHx6hfEiaS4ylpFyC5FCqS7EIGHZoxJ-m5mekEMDVLYiawO61V23RZnAYc6QY0rYekEljhhkxYUYat5iD6fH9re0ET4WyddtvmTqIRbKCMteNaz0 =31x19) icon in the top bar. A list of options will display.
+1. Click the ‘Insert’  plus & arrow icon in the top bar. A list of options will display.
 2. Select ‘**text**’. A new title bar will display.
 3. Click on the text bar and type your desired text.
 4. You can drag and drop the title bar to anywhere in the dashboard.
 5. You can format the text font by selecting the title bar and changing the settings on the ‘PROPERTIES’ panel.
-
-![](https://lh6.googleusercontent.com/F44svbxi618BomghoO-NOvnLRdPvam5Y2b2ppNaNw8tEJ6tNEjVApYroCUIktWkUZkK5PLHLd9plMR_yCD_zKWVOcodSCELESJMXXReobFldBb_sSyG4AEbnXe1QEC1iZVx0U4mH =101x26)
 
 ## Groups
 
@@ -528,7 +530,7 @@ When you have a very large dataset within a dashboard, it can be easier to work 
 
 For example, a grid displays requested engagements by campaign. If there are multiple campaigns configured with similar properties (e.g. one for mobile and another for desktop), they can be grouped together in order to display their aggregated data. All the data from the grid is still present, but it is grouped into smaller, more manageable sections.
 
-Once you have added an attribute to the grid, you can perform the following steps to group the data. When you group data in a dashboard, the grouping creates a new attribute, which is marked with the ![](https://lh3.googleusercontent.com/Cce8-ypmPVXqxhYQb7zEXCWr7jB5gyiUGYaNAYJJ9BzkcgeyvuuM36HQAqQPSqXU_c0-marHz7K-Gwbnm7_jW1pdZz7C7kxuAfNGxWZf3R98O83Yw1VMuWj1mwyd3rtCMUY4AYFt =21x22) icon. You can use this new attribute in any of your visualizations.
+Once you have added an attribute to the grid, you can perform the following steps to group the data. When you group data in a dashboard, the grouping creates a new attribute, which is marked with the fx icon. You can use this new attribute in any of your visualizations.
 
 ### **Group or ungroup data**
 
@@ -536,7 +538,7 @@ Once you have added an attribute to the grid, you can perform the following step
 2. Select ‘**Create Groups**’. A new window, the ‘Group Editor’, will open.
 3. Name the new attribute.
 4. Name a group and add values to it by dragging them from the ‘Available’ list on the left of the window and dropping them into the ‘Selected’ section on the right.
-5. Click the ![](https://lh5.googleusercontent.com/NOpVvoRbFqzalWr59YuSUGKbBUk_AkohaA47SRjNlQ91WzHya7uE7mvdk4_p_NgUF_qCnpdVqMMq64QOflhRkGT1oR2ja7GQjzsGPQNcuCPJbL65oThwLWcM9rrQNBVMlsKTt-st =46x26)button once your group is complete.
+5. Click the v button once your group is complete.
 6. Add more groups by clicking in the ‘Add a Group’ link.
 7. Once you’ve finished creating the groups, click ‘**Save**’.
 8. You can now use the new attribute instead of the original attribute.
