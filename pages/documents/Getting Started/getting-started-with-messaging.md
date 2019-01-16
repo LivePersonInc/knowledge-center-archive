@@ -11,7 +11,7 @@ date: 2019-01-14 11:44:06 +0000
 level3: ''
 
 ---
-\[NEED TO UPDATE ALL THE LINKS ONCE PAGES ARE READY\]
+The following checklist represents the steps each brand needs to take to deploy and customize messaging.
 
 To get started, access LivePerson using this link: Add link to login
 
@@ -24,13 +24,13 @@ To get the most basic version of messaging up means you have a generic ‘messag
 3. Create a username and login for the agents that will be answering incoming messages.
 4. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
+**Next: further customize your messaging program**
+
+LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of messaging, develop and set up your preferences in three areas:
 
 * **Customer experience:** design what your consumers will see when they interact with you - including the messaging window,  the banners, buttons and automatic text. Add bots and automation to be the first to answer.
 * **Agent experience**: Set up agent experience to ensure your reps are successful including predefined content and custom widgets
 * **Management & Operations**: Cost savings are a product of effective operations: set up all your skills and LOBs, routing, agent capacity, & queue priority
-
-This guide will provide a checklist for actions you can take for each of the above areas.
 
 ## Step 1: Set up data for accurate tracking
 
@@ -66,9 +66,9 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 ## Step 3: Design the customer experience
 
-1. **Design the buttons** (web and mobile app messaging): you can determine how the messaging buttons will look like, where they will appear on your website and if they will be triggered from a particular visitor behavior.  This configuration is done through the campaigns.
-2. **Design the window** (web and mobile app messaging): customize the look and feel to match your brand - including colors fonts, headers and images. Advanced customization such as add the individual agent icon or make the corners of the window rounded.
-3. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
+{: .notice} Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
+
+1. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
 * Photo sharing (consumer to agent)
 * Structured content (cards, carousels, lists)
@@ -76,7 +76,8 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 See the rich messaging comparison grid for detailed information on what is available per messaging channel.
 
-{:start="4"}
+{:start="2"}
+
 1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
 3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
@@ -114,11 +115,12 @@ See the rich messaging comparison grid for detailed information on what is avail
 * Set up and shifts worked per skill using the shift scheduler
 * Determine the working hours per skill
   {:start="3"}
+
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
 
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
 
 {:start="4"}
-2. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-3. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-4. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+2\. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
+3\. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
+4\. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
