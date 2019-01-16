@@ -16,7 +16,7 @@ Brands can better target their consumers by adding engagements to their website 
 
 For an overview of campaigns in LiveEngage and their terminology, click here.
 
-### 1. Planning & Thought Starters
+## 1. Planning & Thought Starters
 
 (should be done by contact center manager, project manager or program manager)
 
