@@ -112,8 +112,8 @@ See the rich messaging comparison grid for detailed information on what is avail
 
 * Set up and shifts worked per skill using the shift scheduler
 * Determine the working hours per skill
-  {:start="3"}
 
+{:start="3"}
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
 
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
