@@ -94,13 +94,13 @@ There are six stages for creating web engagements: **gallery, settings, studio, 
 
 **![](https://lh3.googleusercontent.com/aZj6ywpNloSo4is-sPSpqtnAUefq0so0HmbcT9mnag8vrZgbxSGwbwWhf8N_0GVcJPiM6ba01gbpSPobN-NzuAGYhZSbqqXhaMqWX8qnyAbNLZQvgvtg8lml4B3zO1q7c-VmAz_P =580x70)**
 
-#### Template gallery
+### Template gallery: select from a default banner or add your own
 
-The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
+The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here. 
 
-#### Engagement settings
+### Adjust your engagement settings
 
-From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
+From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here. 
 
 ![](https://lh6.googleusercontent.com/PuKEIVzjPdtc5i-FVaxyhKl1Aof1JQF1PpONYOvoODoBS5Us2oXbYT8WkS76NZt5TyINibVchOY1MDrb2P8n79nHosX6qEQMfWOcSrMVgnZIQYIFBIv4YD4USYKkMDt--jKTyM-q =624x321)
 
@@ -127,23 +127,23 @@ Select the mode in which the messaging window will be presented to the consumer,
 
 The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
-### Engagement Studio
+### Engagement Studio: customize your buttons
 
 The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, click here.
 
-## Conversation Window
+### Conversation Window: customize the window 
 
 The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design, click here.
 
 Once your settings are complete, click **next**.
 
-### Entry Point
+### Entry Point: where will your messaging button appear?
 
 You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on creating a new entry point, please refer here.
 
 When you are finished defining your entry point, click **next**.
 
-### Visitor Behavior
+### Visitor Behavior: who will the button display to?
 
 Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the[ Target based on your visitors’ behavior](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=track-and-target) documentation.
 
@@ -159,17 +159,17 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 
 **To learn more about publishing and unpublishing campaigns, click here.**
 
-# Displaying Engagements
+## Displaying Engagements
 
-1. Control Groups
+### Control Groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on control groups, click here.
 
-1. Multiple engagements on the same page
+### Multiple engagements on the same page
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, click here.
 
-1. Proactive engagements
+### Proactive engagements
 
 Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
 
@@ -185,13 +185,13 @@ By default, after declining a proactive content engagement, other content engage
 
 ![](https://lh5.googleusercontent.com/YfI7DUz4y0xHM8DqT_OdukxuAItnd44l1dRu-kcEZBFYhojFzGMGT2jliOJ3MIgHVp6KH7HxxnOZUV5rGbhMSdAbpmN-W9dMc0BOL3f-NqmHoU-9zBr0ApFafd1kGE0wyz2yCz19 =258x350)
 
-1. Shift scheduler
+### Shift scheduler
 
 LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, click here.
 
 # 
 
-# Optimizing the Mobile Experience
+## Optimizing the Mobile Experience
 
 To enhance your visitors’ messaging experience on mobile, use the Embedded Engagement window and optimize your website for mobile.
 
