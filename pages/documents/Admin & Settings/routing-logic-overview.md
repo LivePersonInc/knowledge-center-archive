@@ -28,7 +28,7 @@ When a consumer initiates a conversation, the routing engine carries out two key
 
 When agents are not available to handle new conversations, conversations will wait in a prioritized queue until an agent becomes available.
 
-**Skill selection**
+## **Skill selection**
 
 In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process is the first method used by the routing engine to direct the conversation to the right agent.
 
@@ -36,13 +36,13 @@ Using skill selection, an incoming conversation is routed exclusively to an avai
 
 Incoming conversations are automatically assigned to skills based on:
 
-* The consumer’s authenticated profile - the routing engine will evaluate the consumer’s engagement attributes, extracted during the authentication process,and assign the conversation to a relevant skill.
+* The consumer’s authenticated profile - the routing engine will evaluate the consumer’s engagement attributes, extracted during the authentication process, and assign the conversation to a relevant skill.
 * The default setting - a default skill can be assigned to incoming messaging conversations when no skill is configured by their engagement attributes.
 * The agent’s state - if no agents with the conversation’s skill are online, the conversation can be routed to a fallback skill.
 
 LivePerson Consulting Services can configure automatic skill selection; self-service configuration will be available at a later date. Refer to the ‘About Skills’ article for further information.
 
-**Skill selection based on consumer profile**
+### **Skill selection based on consumer profile**
 
 As part of the authentication flow, the authentication server can provide information on the consumer’s authenticated engagement attributes (SDEs). Engagement attributes are layers of information about a consumer that are recorded throughout their consumer journey. These attributes can be used for skill selection (and will also be presented to the assigned Agent once they receive the incoming conversation); the relationship between attributes and skill can be configured by LivePerson Consulting Services. Read more about [engagement attributes](https://ce-sr.s3.amazonaws.com/CA/Campaigns/Engagement%20Attributes%20Overview.pdf) and [authentication](https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html).
 
@@ -54,7 +54,7 @@ The following engagement attributes are currently supported for skill selection:
 
 Once a conversation is initiated, the routing engine will receive a skill notification based on the consumer profile identified during the authentication process. The system will then route the conversation to an appropriate agent assigned to that skill.
 
-**Default skill**
+## **Default skill**
 
 It is possible to configure a default skill which will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
 
@@ -62,7 +62,7 @@ In the example below, if a consumer has the engagement attributes customer type 
 
 ![](/img/RL 1.png)
 
-**Offline routing to a fallback skill**
+## **Offline routing to a fallback skill**
 
 By default, when no agents are available to accept an incoming conversation, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
 
@@ -78,15 +78,15 @@ Fallback skill configuration is particularly useful when different skills in the
 
 Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’.
 
-**Transfer to skill**
+## **Transfer to skill**
 
 Even after a conversation has been assigned to an agent, the agent still has the ability to transfer the conversation to a different skill that is better suited to handle the consumer's inquiry.
 
 In this case, the conversation will be rerouted to an available agent with the selected skill or wait in the select skill’s queue if there are no available agents.
 
-![](https://lh4.googleusercontent.com/-FL25CpzNP4T9EsC8lOSGzSoVD_Mgi90QbHvOY6Asjcc8nPXXWIz2qgiRifDasGJZm6mvt-uUmV4ZgiAhDMn0Fmj0Z6Al_ZOFlJBclTzMGAKCtfmHtIRpvfwfVDCNCGeBqT1jRT0 =317x105)
+![](/img/RL 2.png)
 
-**Agent selection**
+## **Agent selection**
 
 Following the skill selection process, the routing engine will initiate the agent selection process. This involves identifying all available agents with the relevant skill to handle the conversation, and selecting, from those available, the most suitable agent to handle the incoming conversation.
 
@@ -99,18 +99,19 @@ An agent is considered available to receive an incoming conversation, when the f
 * The agent is logged in and ‘online’.  
   No new incoming conversations will be routed to an agent whose state is set to ‘away’ or ‘back soon’.
 
-![](https://lh4.googleusercontent.com/m5oXioIAIx8Ls2RtX3JuDm8OPgWel21TcdHtRyZ3yLjG_9xmNU5exsGN45iN-KXLJGIcrotxwM4kq27SR0q9obSiUyKEXkJVR7DpevvLgADqj-lWd6Q_W9TwEQzR0TgES0lAiCPe =197x215)
+![](/img/RL 3.png)
 
 * The agent has enough capacity to receive an incoming conversation.  
   LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
-  1. Smart capacity - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the ‘Smart Capacity’ article for further information.
-  2. Maximum concurrent conversations - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
+  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the ‘Smart Capacity’ article for further information.
+  2. **Maximum concurrent conversations** - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
 
-_Default maximum number of conversations per agent - Account level  
-_![](https://lh4.googleusercontent.com/dDltosj7E30PlB9Tx9jaFJUO8PEa1IaJKhxDBtgxvAF49EiAqeZty4n-LGLvNQghRLT8GcptDogNOUFzn7e-PjD1vpel9OgUaIfAj7CwVjeIK2ttunV6VJA6UQrprMGwwWi1U8QI =433x57)
+_Default maximum number of conversations per agent - Account level:_  
+![](/img/RL 4.png)
 
-_Maximum number of conversations per agent - Agent level  
-_![](https://lh4.googleusercontent.com/5Z5XMUh0hNzyuJoRVGgxLqoc3ju860J36qbOndROX9dLz26WziaXkKPmkl4_1ZTpznS_v0NMY8LoX5XbhoD1qSeU_HqbHCeV5LA-kXab2y3UZuWGcNObtm-XgQLjoMx7B5aVfb4W =402x437)
+_Maximum number of conversations per agent - Agent level:_
+
+![](/img/RL 5.png)
 
 **Agent selection preferences**
 
