@@ -62,7 +62,7 @@ Read more about messaging connectors in LivePerson.
 
 {: .notice}
 
-Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels. 
+Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
 
 ## Step 3: Design the customer experience
 
@@ -75,6 +75,8 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 * Time picker
 
 See the rich messaging comparison grid for detailed information on what is available per messaging channel.
+
+{:start="4"}
 
 1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
@@ -105,16 +107,20 @@ See the rich messaging comparison grid for detailed information on what is avail
 * **Timezone**: set up the timezone of your account for timestamp and reporting purposes
 * **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
 
-## Step 6: Manage the operational elements 
+## Step 6: Manage the operational elements
 
 1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
 2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
 
 * Set up and shifts worked per skill using the shift scheduler
 * Determine the working hours per skill
-{:start="3"}
+  {:start="3"}
+
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
-2. 6. Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
-3. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-4. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-5. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+
+   Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
+
+   {:start="4"}
+2. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
+3. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
+4. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
