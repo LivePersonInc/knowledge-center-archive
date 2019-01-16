@@ -8,7 +8,6 @@ level3: ''
 permalink: data-&-reporting-report-builder-training-tutorials
 isTutorial: false
 date: 2019-01-16 15:38:44 +0200
-published: false
 
 ---
 # Training videos
