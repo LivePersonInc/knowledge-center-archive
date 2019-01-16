@@ -6,9 +6,9 @@ indicator: messaging
 subtitle: The routing engine selects the most appropriate agent to handle an incoming
   conversation from a consumer using the following logic.
 level3: ''
-permalink: contact-center-management-messaging-operations-routing-logic-overview
+permalink: contact-center-management-messaging-operations-routing-logic-overview.html
 isTutorial: false
-date: 2019-01-16 17:08:11 +0200
+date: 2019-01-16 15:08:11 +0000
 
 ---
 ## Routing logic for messaging conversations
