@@ -52,6 +52,8 @@ function linkclick(event, that) {
 	window.history.pushState({
 		url: url
 	}, '', url);
+	$(".pageitem a").removeClass("activeitem");
+	$(that).addClass("activeitem");
 };
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {

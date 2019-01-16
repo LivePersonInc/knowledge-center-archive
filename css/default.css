@@ -426,6 +426,10 @@ h3 {
   align-items: baseline;
 }
 
+.sidebarbuttoncontainer.canOpen {
+  padding-left: 12px;
+}
+
 .itemdetails, .sidebarbuttoncontainer, .pageitem {
   cursor: pointer;
 }
@@ -437,6 +441,13 @@ h3 {
   margin-bottom: 34px;
   display: flex;
   flex-direction: column;
+  line-height: 2.3;
+}
+
+.categorylist {
+  display: none;
+  padding-inline-start: 0;
+  padding-left: 2px;
 }
 
 .itemdetails {
@@ -451,13 +462,15 @@ h3 {
 .subcategoryfolder {
   list-style: none;
   display: none;
+  padding-inline-start: 0;
+  padding-left: 25px;
+
 }
 
 .subcategoryitem {
   font-family: "Roboto", "Roboto Slab", Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #5f6368;
-  margin-bottom: 25px;
   margin-left: -11px;
   display: flex;
   flex-direction: column;
@@ -470,19 +483,19 @@ h3 {
   text-decoration: none;
 }
 
-.subcategoryitem:first-child {
-  margin-top: 25px;
-}
-
 .pagesfolder {
   display: none;
   padding-inline-start: 0;
-  padding-left: 26px;
+  padding-left: 47px;
+  line-height: 2.8;
 }
 
 .pageitem {
   list-style: none;
-  margin-top: 25px;
+}
+
+.pageitem.nobuttons {
+  padding-left: 42px;
 }
 
 .categoryfolder .activeitem,
@@ -495,17 +508,14 @@ h3 {
   list-style: none;
   line-height: 2.3;
   padding-left: 0;
-  margin-left: 38px;
+  margin-left: 42px;
   display: none;
 }
 
 .level3item {
   border-left: 4px solid #dedddd;
   padding-left: 15px;
-}
-
-.level3item:first-child {
-  margin-top: 25px;
+  list-style: none;
 }
 
 .subcategorycontainer {
@@ -520,7 +530,10 @@ h3 {
 .sidebarbuttoncontainer {
   display: flex;
   align-items: center;
+  padding-left: 45px;
 }
+
+
 
 .sidebarbutton {
   color: #f2f1f2;
