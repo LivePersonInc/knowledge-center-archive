@@ -7,7 +7,7 @@ subtitle: Checklist for set up and configuration to get your live chat program r
 level3Name: ''
 permalink: getting-started-live-chat.html
 isTutorial: false
-date: 2019-01-14 12:27:58 +0200
+date: 2019-01-14 10:27:58 +0000
 
 ---
 \-NEED TO ADD ALL THE LINKS WHEN ALL ARTICLES ARE UP
@@ -18,8 +18,8 @@ To get started, access LivePerson using this link: Add link to login
 
 To get the most basic version of messaging up means you have a generic ‘chat’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
 
-1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, click here.
-2. Create users for the agents that will be taking the conversations.  To learn how to set up users, click here.
+1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, [click here.]()
+2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here]().
 3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
 ## Set up data for accurate tracking
@@ -33,7 +33,6 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 * If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
 
 ## Customize your messaging program
-
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
 
@@ -81,12 +80,11 @@ Read more: detailed instructions for creating chat campaigns.
 2. Account Administration:
 
 * **Skills**: set up or import the list of skills that you’d like conversations routed to
-* **Users**: set up or import the list of all agents, managers or administrators.  
+* **Users**: set up or import the list of all agents, managers or administrators.
 * groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them.
 * **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
 * **Timezone**: set up the timezone of your account for timestamp and reporting purposes.
-* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here.   
-
+* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here.
 
 3\.  Fine tune operations for greater efficiencies:
 
