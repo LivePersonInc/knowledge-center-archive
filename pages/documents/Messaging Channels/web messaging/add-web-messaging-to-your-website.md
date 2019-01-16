@@ -43,7 +43,7 @@ For more information how how to do this, [click here]().
 
 Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to configure your engagement attributes. For more information on individual engagement attributes, you can refer to the developers community.
 
-## 3. Define how long conversations remain in consumers history
+## 3. Conversation history length
 
 (for unauthenticated messaging)
 
@@ -96,11 +96,11 @@ There are six stages for creating web engagements: **gallery, settings, studio, 
 
 ### Template gallery: select from a default banner or add your own
 
-The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here. 
+The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
 
 ### Adjust your engagement settings
 
-From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here. 
+From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
 
 ![](https://lh6.googleusercontent.com/PuKEIVzjPdtc5i-FVaxyhKl1Aof1JQF1PpONYOvoODoBS5Us2oXbYT8WkS76NZt5TyINibVchOY1MDrb2P8n79nHosX6qEQMfWOcSrMVgnZIQYIFBIv4YD4USYKkMDt--jKTyM-q =624x321)
 
@@ -131,7 +131,7 @@ The engagement language selected in this step will only affect items in the Agen
 
 The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, click here.
 
-### Conversation Window: customize the window 
+### Conversation Window: customize the window
 
 The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design, click here.
 
@@ -188,8 +188,6 @@ By default, after declining a proactive content engagement, other content engage
 ### Shift scheduler
 
 LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, click here.
-
-
 
 ## Optimizing the Mobile Experience
 
