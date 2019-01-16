@@ -42,7 +42,19 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 * Determine the attribution model.  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
 * If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
 
-## Step 2: Connect to your channels of choice
+## Step 2: Customize your account settings
+
+1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
+2. Account Administration:
+
+* **Skills**: set up or import the list of skills that you’d like conversations routed to
+* **Users**: set up or import the list of all agents, managers or administrators
+* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them
+* **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users
+* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
+* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
+
+## Step 3: Connect to your channels of choice
 
 Your consumers can begin messaging with you literally from any channel using LivePerson.  Although each channel is set up separately, once you have configured all your channels, all the LivePerson settings and bots will automatically apply to them.
 
@@ -62,7 +74,7 @@ Read more about messaging connectors in LivePerson.
 
 {: .notice} Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
 
-## Step 3: Design the customer experience
+## Step 4: Design the customer experience
 
 {: .notice} Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
 
@@ -83,7 +95,7 @@ See the rich messaging comparison grid for detailed information on what is avail
    * Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
 4. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
-## Step 4: Define the  agent experience
+## Step 5: Define the  agent experience
 
 1. **Predefined answers**: create or import a database of answers that your agents can quickly enter into the conversation, saving them valuable typing time. These can be defined by skill and by language.
 2. **Custom agent tools**: within the agent workspace, ‘widgets’ contain additional tools, webpages or applications that agents can use during the conversation.  The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
@@ -92,18 +104,6 @@ See the rich messaging comparison grid for detailed information on what is avail
 5. **Warm up**: In order for agents to start their shifts smoothly and be able to ‘warm up’ to the flow of conversations, you can configure LivePerson to assign conversations to the agents gradually.
 6. **Agent Guide**: Get your agent trained on how to take messages.  Note that agent training should include your business processes as well as best practices for conducting conversations.  LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, visit the LivePerson University or contact your account team for specialized training.
 7. **SSO Login**: you have the option to connect LivePerson to your company’s secured hub for SSO integration.
-
-## Step 5: Customize your account settings
-
-1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
-2. Account Administration:
-
-* **Skills**: set up or import the list of skills that you’d like conversations routed to
-* **Users**: set up or import the list of all agents, managers or administrators
-* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them
-* **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users
-* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
-* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
 
 ## Step 6: Manage the operational elements
 
