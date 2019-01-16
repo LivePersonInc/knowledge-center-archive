@@ -77,7 +77,6 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 See the rich messaging comparison grid for detailed information on what is available per messaging channel.
 
 {:start="4"}
-
 1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
 3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
@@ -115,7 +114,6 @@ See the rich messaging comparison grid for detailed information on what is avail
 * Set up and shifts worked per skill using the shift scheduler
 * Determine the working hours per skill
   {:start="3"}
-
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
 
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
