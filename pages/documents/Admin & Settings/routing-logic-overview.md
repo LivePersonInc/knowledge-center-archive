@@ -9,7 +9,6 @@ level3: ''
 permalink: contact-center-management-messaging-operations-routing-logic-overview
 isTutorial: false
 date: 2019-01-16 17:08:11 +0200
-published: false
 
 ---
 ## Routing logic for messaging conversations
