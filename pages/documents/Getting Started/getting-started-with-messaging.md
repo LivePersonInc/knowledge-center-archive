@@ -47,12 +47,12 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
 2. Account Administration:
 
-* **Skills**: set up or import the list of skills that you’d like conversations routed to
-* **Users**: set up or import the list of all agents, managers or administrators
-* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them
-* **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users
-* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
-* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here
+	* **Skills**: set up or import the list of skills that you’d like conversations routed to
+	* **Users**: set up or import the list of all agents, managers or administrators
+	* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  		These will reflect in your reporting, as well as enable filtering for agents and managers to only 		see conversations and data relevant to them
+	* **Permissions**: you can customize what actions your users can take in the system.  For example, 		create a ‘supervisor’ role with permissions to set up and add users
+	* **Timezone**: set up the timezone of your account for timestamp and reporting purposes
+	* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click 		here
 
 ## Step 3: Connect to your channels of choice
 
