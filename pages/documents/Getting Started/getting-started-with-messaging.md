@@ -115,6 +115,7 @@ Instructions for designing customer experience elements such as banners and chat
 
 1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
 2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
+
    * Set up and shifts worked per skill using the shift scheduler
    * Determine the working hours per skill
 
