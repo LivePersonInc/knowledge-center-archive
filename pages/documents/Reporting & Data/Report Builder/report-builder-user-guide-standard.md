@@ -20,8 +20,8 @@ Brands can access Report Builder through the LiveEngage UI, from the messaging r
 To access Report Builder:
 
 1. Log into LiveEngage using your campaign manager or agent manager credentials.
-2. Open the dashboard by clicking the drag down icon (![drag-down.png](https://lh3.googleusercontent.com/FJzUSAZRlXUJ0CLLE40iwM-R-n7gkcPXZYXTMZAb5PASBtRWYBDkgJuVgWdfkGQP_t_5_sV3BGFqeFn2h5R_SF2Hl96IO4eDz_cbfBnQC-ici-54BAfBSl_9AQ7vbQDrISXyL_Pv =16x12)).
-3. Click the Report Builder icon (![report builder icon.png](https://lh6.googleusercontent.com/IFfTBqbjNNzr9nPvukZWTSb5dfz-LVS1WzilvDi7ZWArOsXuV5RC4dZ5iqZHd8II0LWoJS177iaa8NtW8OMdD7bma384IN05z6KSIprW9SWR2VnnZ03c3-IWn0mYIj1RaqhDL2by =30x35)) on the left of the screen. A new tab is opened.
+2. Open the dashboard by clicking the drag down icon.
+3. Click the Report Builder icon on the left of the screen. A new tab is opened.
 4. Click **shared reports**. Two folders are displayed:
    * **LE predefined dashboards**: All available predefined LiveEngage dashboards.
    * **My account**: Reports that have been designed specifically for your account.
@@ -148,9 +148,9 @@ To filter a report:
 
 ![](/img/rbug7.png)
 
-3. Click **OK**.
-4. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
-5. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
+1. Click **OK**.
+2. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
+3. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
 
 ![](/img/rbug8.png)
 
@@ -173,7 +173,6 @@ _By default:_
 * _Excel will be used when the view is grid._
 * _PDF will be used when the view is widgets._
 * _Data is exported to a CSV file._
-
 
 # LivePerson technical support
 
