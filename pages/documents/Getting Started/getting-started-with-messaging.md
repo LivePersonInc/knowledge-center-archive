@@ -60,9 +60,7 @@ Read more about messaging connectors in LivePerson.
 * Connector API (build a connector to any custom messaging channel)
 * Live Chat on your website
 
-{: .notice}
-
-Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
+{: .notice} Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
 
 ## Step 3: Design the customer experience
 
