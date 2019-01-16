@@ -45,32 +45,29 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
 2. Account Administration:
-
-* **Skills**: set up or import the list of skills that you’d like conversations routed to
-* **Users**: set up or import the list of all agents, managers or administrators.
-* groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them.
-* **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
-* **Timezone**: set up the timezone of your account for timestamp and reporting purposes.
-* **Languages**: setup the language for Agent Workspace.  For a list of available languages, click here.
+   * **Skills**: set up or import the list of skills that you’d like conversations routed to
+   * **Users**: set up or import the list of all agents, managers or administrators.
+   * groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  		These will reflect in your reporting, as well as enable filtering for agents and managers to only see 		conversations and data relevant to them.
+   * **Permissions**: you can customize what actions your users can take in the system.  For example, 		create a ‘supervisor’ role with permissions to set up and add users.
+   * **Timezone**: set up the timezone of your account for timestamp and reporting purposes.
+   * **Languages**: setup the language for Agent Workspace.  For a list of available languages, click 		here.
 
 ## Step 3: Design the customer experience
 
-1. **Define the look, feel and behaviour or chat buttons and windows:**
+1. **Define the look, feel and behaviour or chat buttons and windows:** LivePerson ‘campaigns’ provide you with granularity to define many aspects of the chat look and feel as well as the behaviour buttons on your website, including:
 
-LivePerson ‘campaigns’ provide you with granularity to define many aspects of the chat look and feel as well as the behaviour buttons on your website, including:
+	* Chat button look and feel
+	* Chat window look and feel
+	* Rules to trigger button appearance on your web pages
+	* Surveys
+	* Proactive invitations
 
-* Chat button look and feel
-* Chat window look and feel
-* Rules to trigger button appearance on your web pages
-* Surveys
-* Proactive invitations
-
-Read more: detailed instructions for creating chat campaigns.
+	Read more: detailed instructions for creating chat campaigns.
 
 **2. Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
-* Photo sharing (consumer to agent)
-* Structured content (cards, carousels, lists)
+	* Photo sharing (consumer to agent)
+	* Structured content (cards, carousels, lists)
 
 **3. Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 
