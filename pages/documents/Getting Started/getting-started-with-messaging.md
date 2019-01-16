@@ -24,7 +24,7 @@ To get the most basic version of messaging up means you have a generic ‘messag
 3. Create a username and login for the agents that will be answering incoming messages.
 4. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
 
-**Next: further customize your messaging program**
+## Customize your messaging program
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of messaging, develop and set up your preferences in three areas:
 
