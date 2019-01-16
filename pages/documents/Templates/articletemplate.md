@@ -1,19 +1,20 @@
 ---
 pagename: Article Template
 subtitle: This is an example of how an article layout works
-categoryName: Getting Started
+categoryName: Getting started
 subCategoryName: ''
 level3Name: ''
 permalink: article-template.html
 indicator: both
 isTutorial: false
 date: 2018-12-30 08:15:01 +0000
+level3: ''
 published: false
 
 ---
-### Titles
+## Titles
 
-The overall title of the article is determined by the front-matter (by using the `title` parameter at its top). You shouldn't include it again inside the article, since this will create a confusing duplicate.
+The overall title of the article is determined by the front-matter (by using the title parameter at its top). You shouldn't include it again inside the article, since this will create a confusing duplicate.
 
 Since the overall title of the article will be [h2](https://www.quackit.com/html/tags/html_h2_tag.cfm), all subsequent titles within the article are h3. You achieve this by typing in `###` in Markdown before what you'd like the title to be and leaving it in a row of its own, like so:
 
