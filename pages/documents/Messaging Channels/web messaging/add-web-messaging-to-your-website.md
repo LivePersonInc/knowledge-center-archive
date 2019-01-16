@@ -78,9 +78,9 @@ To create a new one, simply click “**Add campaign**” at the bottom of the ca
 
 When creating a campaign, you first need to define the following:
 
-1. Business goal
-2. Target audience
-3. Time frame
+* Business goal
+* Target audience
+* Time frame
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
@@ -189,7 +189,7 @@ By default, after declining a proactive content engagement, other content engage
 
 LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, click here.
 
-# 
+
 
 ## Optimizing the Mobile Experience
 
