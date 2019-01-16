@@ -95,8 +95,8 @@ Out of the conversations considered actionable, and an additional mechanism filt
 
 ### **_Time multiplied by variables_ (the attributes discussed above).**
 
-| --- | --- |
 | Time | time when the conversation became actionable |
+| --- | --- |
 |  Data-driven variables | freshness, interactive |
 | Business use case variable | transfer, intent (urgent issue), consumer attributes (VIP), skill and channel |
 
