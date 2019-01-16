@@ -272,7 +272,7 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 
 ### **Add a visualization to a dashboard**
 
-1. Click the ‘Insert Visualization’ ![](https://lh6.googleusercontent.com/3QQM3Fyk7ZIhdyEg32Lxj0KyaqS6umHpVWiwX3wQAVkgPwEgcbWl4qwo0ngQxWDBtY50f7_6vH0p_NzDbBBLK2o5XQlncxyjHpCtBxDOr69xrxrLS_W61Qpflm8eCpDcbgkUhuuX =28x22)icon in the top bar. A new empty visualization is added to the dashboard.
+1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
 2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations]()
 
 ### **Rearrange the visualizations**
@@ -576,8 +576,6 @@ Users are advised to recreate their dashboards every so often in order to get th
 LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards]() section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
 
 ## Training videos
-
-Training Videos
 
 Basic Level
 
