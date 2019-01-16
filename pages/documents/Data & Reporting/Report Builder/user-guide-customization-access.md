@@ -15,10 +15,6 @@ date: 2019-01-16 11:37:29 +0000
 
 This User Guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 
-**DISCLAIMER:**
-
-LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards](https://docs.google.com/document/d/1JE5RT9ebB1gU0WJUO2iB50wSy7ZSJWapvid0RsDkyFU/edit#heading=h.jyq1rsq9ms12) section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
-
 # Getting Started
 
 ## Accessing Report Builder
@@ -573,6 +569,10 @@ Users are advised to recreate their dashboards every so often in order to get th
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
 * Time based derived metrics - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
+
+**DISCLAIMER:**
+
+LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards]() section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
 
 ## Training videos
 
