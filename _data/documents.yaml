@@ -1,29 +1,270 @@
-- categoryname: Getting Started
+- categoryname: Getting started
   subcategories:
-    - subcategoryname: Messaging
-    - subcategoryname: Live chat
-- categoryname: Account Settings
-- categoryname: 'Agent & Manager Experience'
+    - subcategoryname: LivePerson's conversational platform overview
+    - subcategoryname: Getting started with messaging
+    - subcategoryname: Getting started with live chat
+    - subcategoryname: Getting started with bot
+    - subcategoryname: Add the LivePerson tag to your website
+    
+- categoryname: Messaging channels
   subcategories:
-    - subcategoryname: Agent Tools for Messaging
+    - subcategoryname: Web messaging
       pages:
-        - pagename: Introduction for Agents
+        - pagename: Add messaging to your website
+        - pagename: Introducing Web Messaging into your Contact Center
+        - pagename: Web Messaging Configuration Guide
+        - pagename: "Web Messaging: Authenticated Alongside Unauthenticated"
+        - pagename: Add messaging to your mobile app
+    - subcategoryname: "Messaging connectors & LivePerson"
+    - subcategoryname: SMS
+      pages:
+        - pagename: Start messaging over SMS
+        - pagename: How to set up Twilio SMS connector
+        - pagename: Best practices for text message regulations
+    - subcategoryname: Facebook Messenger
+    - subcategoryname: Google RCS Business Messaging
+    - subcategoryname: WhatsApp Business
+    - subcategoryname: Apple Business Chat
+    - subcategoryname: Google My Business
+    - subcategoryname: Line
+    - subcategoryname: Messaging FAQs
+    - subcategoryname: Live chat
+      pages:
+        - pagename: Add live chat to your website
+        - pagename: Displaying chat engagements
+        - pagename: Running campaigns with multiple engagements
+    - subcategoryname: Messaging channels capabilities comparison
+    - subcategoryname: Rich messaging
+      pages:
+        - pagename: Rich messaging overview
+        - pagename: Photo Sharing user guide
+        - pagename: Audio Messaging user guide
+        - pagename: Quick Replies user guide
+        - pagename: Structured content for messaging user guide
+        - pagename: Engagement Window Widgets
+
+- categoryname: "Bots & automation"
+  subcategories:
+    - subcategoryname: How bots work within LivePerson
+    - subcategoryname: Conversation Builder
+      pages:
+        - pagename: Conversation Builder overview
+        - pagename: Getting started
           level3:
-            - level3name: Lorem ipsum
-            - level3name: Lorem ipsum
-            - level3name: Lorem ipsum
-        - pagename: Lorem ipsum
-        - pagename: Lorem ipsum
-        - pagename: Lorem ipsum
-        - pagename: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-    - subcategoryname: Lorem ipsum
-- categoryname: 'Bots & Automation'
-- categoryname: Contact Center Management
-- categoryname: Messaging Channels
-- categoryname: 'Reporting & Data'
-- categoryname: 'Security & Regulations'
+            - level3name: Create a new bot
+            - level3name: "Intents & integrations"
+            - level3name: Connect to LivePerson
+        - pagename: Components
+          level3:
+            - level3name: Conversation Builder
+            - level3name: Interactions
+            - level3name: Conditions
+            - level3name: Conversation Builder assistant
+            - level3name: Intent builder
+            - level3name: Entities
+            - level3name: Knowledge base
+        - pagename: Routing bot
+          level3:
+            - level3name: Introduction
+            - level3name: "Step 1 - Create a router bot"
+            - level3name: "Step 2 - Modify the template"
+            - level3name: "Step 3 - Intents"
+            - level3name: "Step 4 - Escalation"
+        - pagename: FAQ bot
+          level3:
+            - level3name: Introduction
+            - level3name: "Step 1 - Create a knowledge base"
+            - level3name: "Step 2 - Build an FAQ bot"
+        - pagename: Post Conversation Survey bot
+
+- categoryname: Contact center management
+  subcategories:
+    - subcategoryname: Messaging operations
+      pages:
+        - pagename: Managing a contact center that messages
+        - pagename: Routing logic overview
+        - pagename: Configuring response times
+        - pagename: Automatic messages
+        - pagename: Queue prioritization overview
+        - pagename: Queue backlog management
+        - pagename: Auto close for messaging conversations
+        - pagename: Smart Capacity for agent efficiency overview
+        - pagename: Smart Capacity settings guide
+        - pagename: Agent warmup
+        - pagename: Working hours management best practices
+        - pagename: Shift scheduler configuration guide
+        - pagename: Benchmarks to measure messaging success
+    - subcategoryname: Live chat operations
+      pages:
+        - pagename: Queue prioritization for live chat
+        - pagename: Automatic conversation distribution
+        - pagename: Automatic messages
+        - pagename: Workload distribution between agent groups
+        - pagename: Using Ignore Max Wait Time
+        - pagename: Wrap-up time
+        - pagename: Understand the reason a chat ended
+        - pagename: Surveys for live chat
+    - subcategoryname: Campaigns
+      pages:
+        - pagename: Campaigns overview
+        - pagename: Goals
+        - pagename: Target audience
+        - pagename: Time frame
+        - pagename: Designing buttons and banners
+        - pagename: Engagement window
+        - pagename: Entry point
+        - pagename: Visitor behavior
+        - pagename: Managing campaigns
+        - pagename: Campaign options
+        - pagename: Campaign dashboard and databar
+
+- categoryname: "Agent & manager workspace"
+  subcategories:
+    - subcategoryname: Agent tools for messaging
+      pages:
+        - pagename: "Core principles of messaging & operations"
+        - pagename: "Introduction to agents: working with asynchronous messaging"
+        - pagename: Agent workspace for messaging tour
+        - pagename: "The basics: getting acquanited with the agent workspace"
+        - pagename: Managing messaging conversations
+        - pagename: Taking breaks and ending shifts
+        - pagename: Understanding agent performance
+        - pagename: Cobrowse for messaging
+        - pagename: Using Rich Messaging
+        - pagename: Messaging Best Practices for Agents
+        - pagename: Agent workspace icons for messaging
+    - subcategoryname: Manager tools for messaging
+      pages:
+        - pagename: The messaging agent list
+        - pagename: All connections
+    - subcategoryname: Agent tools for live chat
+      pages:
+        - pagename: Agent workspace for live chat
+        - pagename: Cobrosse for live chat
+    - subcategoryname: Manager tools for live chat
+      pages:
+        - pagename: The all agents list
+        - pagename: Web history
+    - subcategoryname: Workspace configuration
+      pages:
+        - pagename: Adding your own Widgets
+        - pagename: Multiple away states
+        - pagename: Predefined Content best practices
+        - pagename: Predefined Content overview
+        - pagename: Importing Predefined Content
+
+- categoryname: "Data & reporting"
+  subcategories:
+    - subcategoryname: Business Reporting Metrics
+    - subcategoryname: Messaging
+      pages:
+        - pagename: Agent messaging data
+        - pagename: Agent manager messaging data
+        - pagename: Messaging Dashboards
+          level3:
+            - level3name: Post conversation survey
+            - level3name: Messaging performance dashboard
+            - level3name: Business activity grid
+            - level3name: Agent Activity dashboard
+            - level3name: Goal tracker report
+            - level3name: Real Time Messaging Dashboard Overview
+    - subcategoryname: Live chat
+      pages:
+        - pagename: Agent chat data
+        - pagename: Agent manager data
+        - pagename: Optimizing contact center performance with Operational Reports
+        - pagename: Chat Dashboards
+          level3:
+            - level3name: Survey activity dashboard
+            - level3name: Business activity grid
+            - level3name: Goal tracker report
+            - level3name: Operational and staffing
+            - level3name: Agent activity dashboard
+            - level3name: Skills activity dashboard
+        - pagename: BI Dashboards
+          level3:
+            - level3name: "Agent Goal Tracker: Detailed Goal and Converstion Report"
+            - level3name: BI Survery Reports
+    - subcategoryname: "How to export 100,000 chats into a dashboard"
+    - subcategoryname: "Meaningful Connection Score (MCS) - beta"
+      pages:
+        - pagename: "Meaningful Connection Score (MCS) Overview"
+        - pagename: "Login & using the toolkit"
+    - subcategoryitem: Report Builder
+      pages:
+        - pagename: Report Builder Overview
+        - pagename: "User Guide (standard)"
+        - pagename: "User Guide (advanced customization)"
+        - pagename: FAQs
+        - pagename: "Data Availability & Latency"
+        - pagename: Training Tutorials
+        - pagename: Terms of use
+        - pagename: Moving from BI to RB
+        - pagename: Conversation outcomes
+    - subcategoryitem: Engagement attributes
+      pages:
+        - pagename: Engagement attributes overview
+        - pagename: Setting up engagement attributes
+        - pagename: Extracting data with no coding
+        - pagename: "How to mine your visitors' transaction information"
+        - pagename: Multi currency
+        - pagename: Identify viewed products
+        - pagename: What made your visitors convert
+
+- categoryname: "Admin & settings"
+  subcategories:
+    - subcategoryname: Create and manage users
+    - subcategoryname: "Skills & groups"
+      pages:
+        - pagename: Set the Agent Groups hierarchy
+        - pagename: Operate business divisions from one account
+        - pagename: Connect visitors to Agents by skills
+    - subcategoryname: Permissions
+      pages:
+        - pagename: Assign permissions
+        - pagename: Customize permissions
+    - subcategoryname: Set the Time Zone
+    - subcategoryname: "System Requirements & Supported Languages"
+    - subcategoryname: Support
+      pages:
+        - pagename: Service Status Dashboard
+        - pagename: Case Management Support
+
+- categoryname: "Security & regulations"
+  subcategories:
+    - subcategoryname: Security
+      pages:
+        - pagename: Account security recommendations
+        - pagename: Validate the identity of a consumer during a conversation
+        - pagename: IP Masking
+        - pagename: Configuring your Firewall
+        - pagename: IP address blocking
+        - pagename: IP restriction
+    - subcategoryname: Secure forms
+      pages:
+        - pagename: Secure form for messaging overview
+        - pagename: Secure form for messaging user guide
+        - pagename: Secure forms for chat user guide
+    - subcategoryname: SSO unified login
+    - subcategoryname: Accessibility policy
+    - subcategoryname: Audit trail
+
+- categoryname: "What's new"
+  subcategories:
+    - subcategoryname: December 2018
+    - subcategoryname: November 2018
+    - subcategoryname: October 2018
+    - subcategoryname: September 2018
+    - subcategoryname: August 2018
+    - subcategoryname: July 2018
+    - subcategoryname: June 2018
+
+- categoryname: Release notes
+  subcategories:
+    - subcategoryname: December 2018
+    - subcategoryname: November 2018
+    - subcategoryname: October 2018
+    - subcategoryname: September 2018
+    - subcategoryname: August 2018
+    - subcategoryname: July 2018
+    - subcategoryname: June 2018

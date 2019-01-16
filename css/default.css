@@ -27,7 +27,7 @@ p {
 }
 
 #post-content table {
-  width: 130%;
+  width: 100%;
   max-width: 130%;
   margin-top: 10px;
   margin-bottom: 45px;
@@ -64,10 +64,10 @@ p {
 #post-content table > thead > tr > th {
   font-family: "Open Sans";
   font-weight: 600;
-  color: #4a4a4a;
+  color: #fff;
   font-size: 14px;
   padding: 14px 22px;
-  background-color: #656e81;
+  background-color: #2A3A6B;
 }
 
 p img {

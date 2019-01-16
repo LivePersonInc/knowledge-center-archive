@@ -8,7 +8,7 @@ level3: ''
 permalink: contact-center-management-messaging-operations-queue-prioritization-overview.html
 isTutorial: true
 date: 2019-01-16 10:25:55 +0200
-published: false
+published: true
 
 ---
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
@@ -101,7 +101,7 @@ Out of the conversations considered actionable, and an additional mechanism filt
 |  Data-driven variables | freshness, interactive |
 | Business use case variable | transfer, intent (urgent issue), consumer attributes (VIP), skill and channel |
 
-### 
+###
 
 ![](https://lh3.googleusercontent.com/A6-xIQTKq-jEvsqmEa0uoVNOO0MnBa8yFFSSJS7_vWdywJIDmDEpbYnKNGEEXb2V5LTHZv5kS7YQvoC7IPVcEqjW1k78StZX0p0-gzPqKNFBXFg8I5IGW0Jr7GM_FlCE2tyLVFFG =624x355)
 
