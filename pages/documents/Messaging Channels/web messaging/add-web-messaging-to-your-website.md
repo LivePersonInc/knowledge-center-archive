@@ -84,7 +84,7 @@ When creating a campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
-## 6. Design Web Engagements
+## 6. Design the buttons & window
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
