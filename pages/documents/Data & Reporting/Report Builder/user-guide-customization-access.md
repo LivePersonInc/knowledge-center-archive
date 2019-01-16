@@ -15,7 +15,7 @@ date: 2019-01-16 11:37:29 +0000
 
 This User Guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 
-# Getting Started
+## Getting Started
 
 ## Accessing Report Builder
 
@@ -79,7 +79,7 @@ In the **my account** and **my reports folders**, users may create sub-folders t
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “Folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
-![](/img/z1.png)
+![](/img/c2.png)
 
 Alternatively, a new folder can be created by copying an existing dashboard (right-click and “Copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon
 
@@ -101,7 +101,7 @@ With every release, new features are added to the predefined dashboards, but not
 
 Users are advised to create new reports often to get the latest version of the predefined dashboards.
 
-# Capabilities
+## Capabilities
 
 A user with edit access can use the builder in a similar manner to the use of a spreadsheet in Google Spreadsheets or Microsoft Excel. These tools as well as the builder have limitations and the following points should help you avoid interruptions to your work on the builder:
 
@@ -232,8 +232,7 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
 
      ![](/img/c6.png)
 
-       
-     Qualify on **rank**. A few options are available:
+Qualify on **rank**. A few options are available:
      1. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
      2. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
      3. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
@@ -402,17 +401,17 @@ Once a visualization is created with metrics and attributes, you can display it 
 
 The table below lists the available styles:
 
-| Icon | Visualization style | When to use |
+| Visualization style | When to use |
 | --- | --- | --- |
-|  | Grid | Display data in a tabular layout - multiple attributes and metrics |
-|  | Heat Map | 1 attribute and a metric |
-|  | Bar Chart | 1 or more metrics |
-|  | Line Chart | 1 or more metrics1 or more attributes |
-|  | Area Chart | 1 or more metrics1 or more attributes |
-|  | Bubble Chart | 1 or more metrics1 or more attributes |
-|  | Pie Chart | 1 or more attributes |
-|  | Combo Chart | 2 or more metrics1 or more attributes |
-|  | Network Chart | 1 or more attributes |
+| Grid | Display data in a tabular layout - multiple attributes and metrics |
+| Heat Map | 1 attribute and a metric |
+| Bar Chart | 1 or more metrics |
+| Line Chart | 1 or more metrics1 or more attributes |
+| Area Chart | 1 or more metrics1 or more attributes |
+| Bubble Chart | 1 or more metrics1 or more attributes |
+| Pie Chart | 1 or more attributes |
+| Combo Chart | 2 or more metrics1 or more attributes |
+| Network Chart | 1 or more attributes |
 
 ![](/img/c10.png)
 
