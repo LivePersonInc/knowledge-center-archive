@@ -15,11 +15,7 @@ date: 2019-01-16 11:37:29 +0000
 
 This User Guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 
-**DISCLAIMER:**
-
-LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards](https://docs.google.com/document/d/1JE5RT9ebB1gU0WJUO2iB50wSy7ZSJWapvid0RsDkyFU/edit#heading=h.jyq1rsq9ms12) section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
-
-# Getting Started
+## Getting Started
 
 ## Accessing Report Builder
 
@@ -83,11 +79,11 @@ In the **my account** and **my reports folders**, users may create sub-folders t
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “Folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
-![](https://lh5.googleusercontent.com/z41j7ey3iLrw-lok7OzAu0sxUcC3ZH44ie8NQcO16wS91owvPwW5qA1qbiAdggZVqPBW--1P-663EV18smm5_INBuZxMeSIX8RNeplN0cyTGRteiD79A5EVg4571eIzPjII1sDhL =619x367)
+![](/img/c2.png)
 
 Alternatively, a new folder can be created by copying an existing dashboard (right-click and “Copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon
 
-![](https://lh6.googleusercontent.com/iX_kUZGyGWVbP84vfzwvuNEY8Rz4hBZDNuUd3PAr-IL9kcApQUM-VLcISuzKKuvRLJBKFIDfmMpC7RCjKYNPgx6zY6VFvU_wgBo8wLY9HlmlSJYUYErvFxngQEAOU5M4QruSAo1b =537x525)
+![](/img/c3.png)
 
 **Deleting** and **renaming** an existing dashboard is also available via right-clicking the folder icon.
 
@@ -105,7 +101,7 @@ With every release, new features are added to the predefined dashboards, but not
 
 Users are advised to create new reports often to get the latest version of the predefined dashboards.
 
-# Capabilities
+## Capabilities
 
 A user with edit access can use the builder in a similar manner to the use of a spreadsheet in Google Spreadsheets or Microsoft Excel. These tools as well as the builder have limitations and the following points should help you avoid interruptions to your work on the builder:
 
@@ -120,7 +116,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 
 LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
-![](https://lh5.googleusercontent.com/58g-IUwiBU_ZQTdPL-zyIrCyljSrZ9kB5_8h-agT4mLWWOvCnIUrQp-bkeoGOoOZtjJUYLBvjvZ84eHAJM1UD653ZR34sXS9XC2zdoh7A-FnaovGtApv4y-C6jx064Afq2XVdGo7 =548x331)
+![](/img/c4.png)
 
 ### **Customize a predefined dashboard**
 
@@ -234,14 +230,15 @@ Note!** The filters of a any dashboard must contain at least one attribute from 
    * To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
    * To assign a numeric rank to the metric values and then filter by rank, select
 
-     [xxx](xxx "xxx")**  
-     Qualify on** **rank**. A few options are available:
-     1. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-     2. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-     3. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-     4. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+     ![](/img/c6.png)
 
-![](https://lh3.googleusercontent.com/Al2lBJzmp7L3WbylXPJ-mpcmeg65ShFyGNTnlvLpxoCabHyBQqAAU_MUsqZAmc9flcOhENhDZXj_4Bt2GB8Pl2mtta471itImHKENzKZoEHGn242QaE5q1yFhIhyD3EQWUlK9cPf =205x176)
+Qualify on **rank**. A few options are available:
+1\. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+2\. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+3\. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+4\. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+
+![](/img/c7.png)
 
 There are two options to configure how users will be able to filter the data:
 
@@ -275,7 +272,7 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 
 ### **Add a visualization to a dashboard**
 
-1. Click the ‘Insert Visualization’ ![](https://lh6.googleusercontent.com/3QQM3Fyk7ZIhdyEg32Lxj0KyaqS6umHpVWiwX3wQAVkgPwEgcbWl4qwo0ngQxWDBtY50f7_6vH0p_NzDbBBLK2o5XQlncxyjHpCtBxDOr69xrxrLS_W61Qpflm8eCpDcbgkUhuuX =28x22)icon in the top bar. A new empty visualization is added to the dashboard.
+1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
 2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations]()
 
 ### **Rearrange the visualizations**
@@ -347,13 +344,19 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 
 ### **Create a new metric**
 
-1. Right click anywhere in the datasets panel and select ‘create metric’.
-2. A new window ‘metric editor’ will open up.
-3. Use objects and functions or operators to create the required formula.
-   1. Objects: the metrics and attributes available in the report.
-      1. To add an attribute or metric, double-click an object from the ‘**objects’** list to the right to add it to the formula field.
-   2. Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
-      1. To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
+Right click anywhere in the datasets panel and select ‘create metric’.
+
+A new window ‘metric editor’ will open up.
+
+Use objects and functions or operators to create the required formula.
+
+Objects: the metrics and attributes available in the report.
+
+To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
+
+Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+
+To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 Note: Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
 
@@ -362,9 +365,9 @@ Note: Refer to the [Functions Reference](http://www2.microstrategy.com/producthe
 
 How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
-![](https://lh3.googleusercontent.com/C9MKagJ16RvH2ol71fYmFgxDIJPjNA1mtNPr1ggxGs8EemtLp387UDsm6Sw6dcE5FyPh3PfETTR6-E1-atkR9BG4lV8KW7Hg_sknIWqdLSpWh0fUs1DPHRTF3ysO5n_TzpN0uvno =624x399)
+![](/img/c8.png)
 
-### **{Tips}**
+**{Tips}**
 
 * Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * Formulas: Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
@@ -380,10 +383,9 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
 1. Right click on the name of the metric on the Datasets panel.
 2. Select ‘Number format’ and then select the format from the available options (Currency, Date, Time, Percentage and so on).
+3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
-![](https://lh5.googleusercontent.com/umIejyyAQeMOTdbBqC7ydJdrT9puoOPcRcNlapgWdkcVIu5usDb6inB-6ZwRz0wPff4NX5ff5fVf_DAK23NfcgvI5fbYL5dolkwkIZYDC_zfSFOgkA1KEQ2LEUu42m_m7VP3S7vn =322x349)
-
-1. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
+![](/img/c9.png)
 
 {: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
@@ -399,19 +401,19 @@ Once a visualization is created with metrics and attributes, you can display it 
 
 The table below lists the available styles:
 
-| Icon | Visualization style | When to use |
-| --- | --- | --- |
-|  | Grid | Display data in a tabular layout - multiple attributes and metrics |
-|  | Heat Map | 1 attribute and a metric |
-|  | Bar Chart | 1 or more metrics |
-|  | Line Chart | 1 or more metrics1 or more attributes |
-|  | Area Chart | 1 or more metrics1 or more attributes |
-|  | Bubble Chart | 1 or more metrics1 or more attributes |
-|  | Pie Chart | 1 or more attributes |
-|  | Combo Chart | 2 or more metrics1 or more attributes |
-|  | Network Chart | 1 or more attributes |
+| Visualization style | When to use |
+| --- | --- |
+| Grid | Display data in a tabular layout - multiple attributes and metrics |
+| Heat Map | 1 attribute and a metric |
+| Bar Chart | 1 or more metrics |
+| Line Chart | 1 or more metrics1 or more attributes |
+| Area Chart | 1 or more metrics1 or more attributes |
+| Bubble Chart | 1 or more metrics1 or more attributes |
+| Pie Chart | 1 or more attributes |
+| Combo Chart | 2 or more metrics1 or more attributes |
+| Network Chart | 1 or more attributes |
 
-![](https://lh4.googleusercontent.com/pehkL2seRI49l4b9CcE4rokJj7Ez9scKYAMtBrji29uF5TOOuqFK7Sbo677wiSQKbrVHIgxXTBm7xolhPqwZ5lsjq8qoc3JQsbpLp4-Ky3ujpXfPEZnRxJxHOH4R50xy-cr7EfQE =541x345)
+![](/img/c10.png)
 
 ## Graphs with more than one metric
 
@@ -423,24 +425,18 @@ The table below lists the available styles:
 **Change color shapes according to the metric names**
 
 1. On the ‘EDITOR’ panel, click on the ‘**Metric Names**’ rectangle.
-
-![](https://lh3.googleusercontent.com/WjB9F_Sx4dH0Rmexy7P6LLhc3jFr3HEXT9u7utBIuB5HZ0TSmong6T95rD8LL1DgPWeJnYZfK3rGqp17-wHvpVhaSKm7hY0bahEn0peClmafgurZ8m95fK1STpMBQFq8Z8KlZGZ0 =153x29)
-
-1. Drag the rectangle and drop it into the ‘Color By’ section in the panel:
-
-![](https://lh6.googleusercontent.com/BY__8lC4vYCJrdg4gmiAY4upfIvZr-QMKKF6IFPgsX27eeJEYfK_4XdjDqiIDPby_IDpoYMBkPcg3T2Ushr1CoJ279b-opVoCP5Ax1adHli-7wVMOfMgDrGtuQKgFUL7waALBVjg =167x82)
-
-1. The shapes will be colored differently according to the metrics.
+2. Drag the rectangle and drop it into the ‘Color By’ section in the panel:
+3. The shapes will be colored differently according to the metrics.
 
 **Add a legend**
 
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
 2. Click on ‘**Show Legend**’. The legend will display on the right of the visualization.
-3. On hover a few options will be displayed:
-   1. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
-   2. In the top right corner - an ‘X’ button, allowing you to close the legend.
+3. On hover a few options will be displayed.
+4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
+5. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
-![](https://lh3.googleusercontent.com/I7xZZFtSoZzXOCvMtRSKZnOe-9-Rq0o24yKnuHpnevIGkq9nqutzxLqEDX7ua92ijeoQV9VtYBFCJ2f2odpcQNPRsQsB_GnXg5H-PPBk9HhH6Fnt4X6U_X4Rt2hkX28Ga6vraIY2 =98x146)
+![](/img/c13.png)
 
 ## Formatting
 
@@ -475,16 +471,11 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
 From the second drop-down list, select the color or images you want to display:
 
-1. **Color:** select a set of colors to apply to the values, such as Orange, Green, Red.
-2. **Images**: select the images you would  like to display. The options include:
-
-   Arrows ![Example of an Arrow threshold image](https://lh4.googleusercontent.com/knQMws-0QixiMB3ZEX5uSn0ecTM18UbVzLRbiUUMsVcYXuLJJu8_YOzaB-mmjSmbd8LQ6hkUiYW_TEzLUIeu5Sp-aIWp1sKUQ2XD7SlC4ND8eENzGSmRlqZuU5hqJDRp9U83vCmy "Example of an Arrow threshold image" =20x25)
-
-   Regular Pin ![Example of a Regular Pin threshold image](https://lh5.googleusercontent.com/DlkblS7RZe6Va2tM4dw8_8juU5Km8tSWGOfHgOGT89ISPyCdwtPqkmLQLDvsjbcj6IuQ04uvGg3jntjLveMrT6GGotwZL5eoE2BLNUJoEcdnFna4WBlTlI8BgQVAeOYtV3aDbDnR "Example of a Regular Pin threshold image" =25x32)
-
-   Rounded Pin ![Example of a Rounded Pin threshold image](https://lh5.googleusercontent.com/dZJTtJTqJVdsUPHoARacK6LQ-mU_PWQRo1Z1WeSyyY4cwUdbOMeW8jIIssV4BTSYKh6JyML4APzVWwIP-3LU1-yjs781z_5fTjvl-6BlXWaYHdkVukjvejZXpJzLEgcPGYwE2-n6 "Example of a Rounded Pin threshold image" =25x29)
-
-   And many more
+* Color: select a set of colors to apply to the values, such as Orange, Green, Red.
+* Images: select the images you would  like to display. The options include:
+* Arrows
+* Regular Pin
+* Rounded Pin
 
 From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
 
@@ -500,17 +491,17 @@ To create a threshold based on the top x percent of metric values, select **High
 
 To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
 
-![](https://lh3.googleusercontent.com/X2m_G5fhszCbek2fE-MkR4EbEguGo0RjSRhbSPZMsnKiqvqWVB6FqmlIFaM6ZskzzAH3HYb9KWQYXAXDTaCaPoZ8WztwOjuZyIar_iqCGKXbyv9XuBSvswksjk9_Fy7PcoNdgUp4 =113x149)
+![](/img/c14.png)
 
-From the ‘Break By’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
+From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
 
 Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
 
-![](https://lh5.googleusercontent.com/l0wJ7twuY8-ult4Bhfgw6Icatw_37fBqKjIJ-jXqwAXmlqg6wc7FO2k22DnTdwDQMGTZ6uN53qcIJtPV2b55mCQSs5wY4Au6xQ6ZugDaR4TzTHUPIre162ujXKlD9P0SKfQd3D7o =447x83)
+![](/img/c15.png)
 
 Further customizations are available:
 
-1. To create a new band, hover the cursor underneath the band and click on the ![](https://lh4.googleusercontent.com/7qoI4gMDE2CRDdMhHPfCIphyNnArBZ4ncN9mMJmKRFAYzo0Yth2VrD1hxRELgJengqhxWzIQ-AbqzpIEcV2LKC0HCkkkCIkFMzZez5sRqnWslmPIBGfA7rKOlDsRauHg-3PmvC2A =19x19) icon that appears to place a new band.
+1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
 2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
 3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
 
@@ -526,13 +517,11 @@ Select ‘**clear thresholds**’. All thresholds defined for the metric are cle
 
 #### **Add a title**
 
-1. Click the ‘Insert’  ![](https://lh4.googleusercontent.com/CbDkcPtAXQ6iIcUoaNgRPsummHx6hfEiaS4ylpFyC5FCqS7EIGHZoxJ-m5mekEMDVLYiawO61V23RZnAYc6QY0rYekEljhhkxYUYat5iD6fH9re0ET4WyddtvmTqIRbKCMteNaz0 =31x19) icon in the top bar. A list of options will display.
+1. Click the ‘Insert’  plus & arrow icon in the top bar. A list of options will display.
 2. Select ‘**text**’. A new title bar will display.
 3. Click on the text bar and type your desired text.
 4. You can drag and drop the title bar to anywhere in the dashboard.
 5. You can format the text font by selecting the title bar and changing the settings on the ‘PROPERTIES’ panel.
-
-![](https://lh6.googleusercontent.com/F44svbxi618BomghoO-NOvnLRdPvam5Y2b2ppNaNw8tEJ6tNEjVApYroCUIktWkUZkK5PLHLd9plMR_yCD_zKWVOcodSCELESJMXXReobFldBb_sSyG4AEbnXe1QEC1iZVx0U4mH =101x26)
 
 ## Groups
 
@@ -540,7 +529,7 @@ When you have a very large dataset within a dashboard, it can be easier to work 
 
 For example, a grid displays requested engagements by campaign. If there are multiple campaigns configured with similar properties (e.g. one for mobile and another for desktop), they can be grouped together in order to display their aggregated data. All the data from the grid is still present, but it is grouped into smaller, more manageable sections.
 
-Once you have added an attribute to the grid, you can perform the following steps to group the data. When you group data in a dashboard, the grouping creates a new attribute, which is marked with the ![](https://lh3.googleusercontent.com/Cce8-ypmPVXqxhYQb7zEXCWr7jB5gyiUGYaNAYJJ9BzkcgeyvuuM36HQAqQPSqXU_c0-marHz7K-Gwbnm7_jW1pdZz7C7kxuAfNGxWZf3R98O83Yw1VMuWj1mwyd3rtCMUY4AYFt =21x22) icon. You can use this new attribute in any of your visualizations.
+Once you have added an attribute to the grid, you can perform the following steps to group the data. When you group data in a dashboard, the grouping creates a new attribute, which is marked with the fx icon. You can use this new attribute in any of your visualizations.
 
 ### **Group or ungroup data**
 
@@ -548,12 +537,12 @@ Once you have added an attribute to the grid, you can perform the following step
 2. Select ‘**Create Groups**’. A new window, the ‘Group Editor’, will open.
 3. Name the new attribute.
 4. Name a group and add values to it by dragging them from the ‘Available’ list on the left of the window and dropping them into the ‘Selected’ section on the right.
-5. Click the ![](https://lh5.googleusercontent.com/NOpVvoRbFqzalWr59YuSUGKbBUk_AkohaA47SRjNlQ91WzHya7uE7mvdk4_p_NgUF_qCnpdVqMMq64QOflhRkGT1oR2ja7GQjzsGPQNcuCPJbL65oThwLWcM9rrQNBVMlsKTt-st =46x26)button once your group is complete.
+5. Click the v button once your group is complete.
 6. Add more groups by clicking in the ‘Add a Group’ link.
 7. Once you’ve finished creating the groups, click ‘**Save**’.
 8. You can now use the new attribute instead of the original attribute.
 
-## ![](https://lh5.googleusercontent.com/CkCsIRWMqOkIBQb3AMOVwS8Ocvo6dHZJ-XFD-qdcMyyEEcfFlDJCkHXoyvH06fppnsEioXnjCNG-WkLtl6CspL9rYkljbzL7UcTktzRLOIZroTSdqdRWr7zUu7R43-FI7a5Rafjd =413x413)
+![](/img/c16.png)
 
 **How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
 
@@ -582,27 +571,6 @@ Users are advised to recreate their dashboards every so often in order to get th
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
 * Time based derived metrics - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-## Training videos
+**DISCLAIMER:**
 
-Training Videos
-
-Basic Level
-
-* [Getting started](https://bcove.video/2vj2Sid)
-* [Filtering](https://bcove.video/2wwcWD6)
-* [Filters and Dates](https://bcove.video/2wKACTG)
-* [Creating dashboards](https://bcove.video/2wtZwaH)
-* [Working with datasets](https://bcove.video/2wwnQJ0)
-* [Working with graphs and visualisations](https://bcove.video/2wKCFY4)
-* [Sheets and Panels](https://bcove.video/2wIfhug)
-
-Intermediate
-
-* [Creating metrics](https://bcove.video/2vPgq6B)
-* [Creating and Managing Groups](https://bcove.video/2wFK5MK)
-* [Create an Hourly Interval Attribute](https://bcove.video/2wI4DU8)
-
-Advanced
-
-* [Creating attributes](https://bcove.video/2wFwMMr)
-* [Using visualizations as filters](https://bcove.video/2wTZrMV)
+LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards]() section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
