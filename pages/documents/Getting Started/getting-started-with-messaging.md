@@ -1,13 +1,15 @@
 ---
-pagename: Messaging
-categoryName: Getting Started
+pagename: Getting started with messaging
+categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
 subtitle: Checklist to get started with messaging
 level3Name: ''
 permalink: getting-started-messaging.html
 isTutorial: false
-date: 2019-01-14 13:44:06 +0200
+date: 2019-01-14 11:44:06 +0000
+level3: ''
+
 ---
 \[NEED TO UPDATE ALL THE LINKS ONCE PAGES ARE READY\]
 
@@ -21,7 +23,7 @@ To get the most basic version of messaging up means you have a generic ‘messag
 2. Create users for the agents that will be taking the conversations.  To learn how to set up users, click here.
 3. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
 
-## Set up data for accurate tracking
+## Step 1: Set up data for accurate tracking
 
 Adding more data will enable you to do three things within LivePerson: better target customers, arm agents with more information, and get more granular and accurate reporting.
 
@@ -31,7 +33,7 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 * Determine the attribution model.  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
 * If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
 
-## Connect to your channels of choice
+## Step 2: Connect to your channels of choice
 
 Your consumers can begin messaging with you literally from any channel using LivePerson.  Although each channel is set up separately, once you have configured all your channels, all the LivePerson settings and bots will automatically apply to them.
 
@@ -61,7 +63,7 @@ This guide will provide a checklist for actions you can take for each of the abo
 
 \*Important note: through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.  For example, after you complete this set up for web messaging, and decide to add Facebook Messenger messaging, all the same settings will apply (except for the specific customer experience design and rich messaging for that channel)
 
-## Design the customer experience
+## Step 3: Design the customer experience
 
 1. **Design the buttons** (web and mobile app messaging): you can determine how the messaging buttons will look like, where they will appear on your website and if they will be triggered from a particular visitor behavior.  This configuration is done through the campaigns.
 2. **Design the window** (web and mobile app messaging): customize the look and feel to match your brand - including colors fonts, headers and images. Advanced customization such as add the individual agent icon or make the corners of the window rounded.
@@ -80,7 +82,7 @@ See the rich messaging comparison grid for detailed information on what is avail
    * Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
 4. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
-## Define the  agent experience
+## Step 4: Define the  agent experience
 
 1. **Predefined answers**: create or import a database of answers that your agents can quickly enter into the conversation, saving them valuable typing time. These can be defined by skill and by language.
 2. **Custom agent tools**: within the agent workspace, ‘widgets’ contain additional tools, webpages or applications that agents can use during the conversation.  The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
@@ -90,7 +92,7 @@ See the rich messaging comparison grid for detailed information on what is avail
 6. **Agent Guide**: Get your agent trained on how to take messages.  Note that agent training should include your business processes as well as best practices for conducting conversations.  LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, visit the LivePerson University or contact your account team for specialized training.
 7. **SSO Login**: you have the option to connect LivePerson to your company’s secured hub for SSO integration.
 
-## Management and operations
+## Step 5: Management and operations
 
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
 2. Account Administration:
