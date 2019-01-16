@@ -1,6 +1,6 @@
 ---
 pagename: Overview
-categoryName: Reporting & Data
+categoryName: Getting started
 subCategoryName: Report Builder
 indicator: both
 subtitle: A high level overview in to the Report Builder
@@ -8,6 +8,7 @@ level3Name: ''
 permalink: Reporting-&-data-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
+level3: ''
 
 ---
 The Report Builder offers brands ready made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
@@ -65,7 +66,7 @@ The selection of predefined dashboards includes:
 
 LivePerson administrators can schedule reports to run at set times on a recurring basis within saved report parameters, and can be delivered to the requested email inbox.
 
-## Latest Updates to Report Builder
+## Latest updates to Report Builder
 
 LP are continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report builder:
 

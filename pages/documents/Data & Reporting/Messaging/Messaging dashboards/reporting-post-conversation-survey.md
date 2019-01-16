@@ -1,14 +1,15 @@
 ---
 pagename: Post conversation survey
-categoryName: Reporting & Data
-subCategoryName: Web Messaging
+categoryName: Getting started
+subCategoryName: Web messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
 level3Name: Messaging dashboards
-permalink: reporting&data-web-messaging-messaging-dashboards-post-conversation-survey
+permalink: reporting&data-web-messaging-messaging-dashboards-post-conversation-survey.html
 isTutorial: false
 date: 2019-01-15 15:14:02 +0200
+level3: ''
 
 ---
 # Reporting for post conversation survey
@@ -56,7 +57,7 @@ The KPIs on the dashboard can be analyzed on two aggregation levels:
 
 In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly.
 
-## **Time Attribution**
+## **Time attribution**
 
 The data is collected for closed surveys (consumer can no longer submit responses) and survey results are associated with the time the survey started / conversation ended.
 
@@ -64,7 +65,7 @@ The data is collected for closed surveys (consumer can no longer submit response
 
 Survey results are attributed to the last agent who was assigned to the conversation prior to the initiation of the survey flow. The skill attributed with the survey results corresponds to the one assigned to the conversation along with the same agent (last assigned). The last agent assigned to the conversation may not have been assigned to the conversation when it was transferred over to the survey bot. For instance, if a manager joined (but not assigned to) the conversation and closed it, consequently triggering the survey flow, the same manager will not​ be attributed with the survey results. The results instead will be attributed to the agent who was assigned to the conversation when the manager joined. In the same manner, the last skill which also helped determine which survey to present, will not necessarily align with skill assigned to the conversation along with the last assigned agent.
 
-## **Primary Filters**
+## **Primary filters**
 
 The survey data can be filtered by - skill, survey name, survey outcome ​(completed, ignored, skipped, …), is answer recognized by bot ​(flag, set by default to “Yes”)
 
@@ -129,7 +130,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
 **Pre-aggregated metrics (agent and skill)**: to view results at agent or skill levels, both the ‘agent’ and ‘skill’ attributes must be added to the grid.
 
-## **New Attributes / Filters**
+## **New Attributes / filters**
 
 **Survey attributes**
 
@@ -187,29 +188,23 @@ Supported values:
 * Closed Survey Rate - The percentage (%) of survey instances closed with a specific outcome. Supported by the “Survey Outcome” attribute (filter).
 
   \* Presents 100% when not filtered / split by outcome.
-
-
 * Avg. Duration of Survey Availability - The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions.
 
-  Measured from the time the survey is offered by the Survey Bot till the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey).  
+  Measured from the time the survey is offered by the Survey Bot till the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey).
 
   Format: \[h\]:mm:ss
 
 **Questions metrics**
 
-* Offered Question - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.). 
+* Offered Question - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.).
 * Answered Question - The number of questions presented to the consumer by the bot and were responded by the consumer with a valid (configured) answer (recognized by the bot as a valid answer).
 
   \* Used to compare with the metric “Offered Question”. When a question is offered multiple times but answered with a valid response less times, there may be an issue with the question text (behavioral or technical).
-
-
 * Answer Rate (Offered Question)
 
   Formula: \[Answered Question\] / \[Offered Question\]
 
   The percentage (%) of questions answered with a valid response by the consumer out of the total questions offered to the consumer by the bot.
-
-
 * Avg. Time to Respond To Survey Question - The time on average taken by the consumer to respond to a question.
 
   Measured from the time the Bot presented a question, to the time the consumer submitted a response to that question (recognized or unrecognized by the Bot).
@@ -223,14 +218,8 @@ Supported values:
 **Answers metrics**
 
 * CSAT (brand) CSAT (agent and skill) - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
-
-
 * FCR (brand) FCR (agent and skill) - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
-
-
 * NPS (brand) & NPS (agent and skill) - The Net Promoter Score, based on a scale of 0 to 10 and derived from the predefined NPS question type.
-
-
 * Answer Count (brand) & Answer Count (agent and skill) - The number of times consumers responded with a valid answer, recognized by the bot as a pre-configured answer.
 
   Additional buckets include:
@@ -240,8 +229,6 @@ Supported values:
   “Unrecognized by bot” for counting how many invalid answers were submitted for a question
 
   Attributed to the time the survey was offered (not close time).
-
-
 * Answer Ratio (brand) and Answer Ratio (agent and skill)
 
   The percentage (%) of times consumers chose a specific valid answer out of all the configured answers on a specific question.

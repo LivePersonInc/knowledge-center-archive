@@ -2,10 +2,10 @@
 pagename: Messaging performance dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: chat
+indicator: messaging
 subtitle: This predefined dashboard includes operational data for all messaging channels.
 level3Name: Messaging dashboards
-permalink: 'data-&-reporting-messaging-messaging-dashboards-messaging-performance-dashboard '
+permalink: data-&-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
 level3: Messaging Dashboards
 date: 2019-01-15 16:29:49 +0200
@@ -20,18 +20,28 @@ date: 2019-01-15 16:29:49 +0200
 
 ## Main panel: agent performance summary
 
-The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.![](https://lh6.googleusercontent.com/xJnLY0ssn92QOBrlcsMG2Yd3l-8gci8oPKoQA1A7_TdPHWtxKrdaeKF5DprYSplyscfKoh43fYcHM-ON2Dm_cx8Huus2RuWg80OBHC4phepbv21RxDOGa9EUgbcm0_P3bNolDtgq =624x324)
+The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.
 
-Table
+![](/img/mpd1.png)
 
-**Top data bar (Grid)**
+_Image 1 - Agent performance summary_
 
-**Columns (Metrics):**
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes* |
+| Activity State Breakdown (pie chart) | Away | away reason | Yes* |
+| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | No |
+| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  |
+| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | No |
+
+### **Top data bar (grid)**
+
+**Columns (metrics):**
 
 1. LOGGED IN TIME
 2. ONLINE / AWAY / BACK SOON (time)
 
-**Overview by Agent (Grid)**
+### **Overview by agent (grid)**
 
 **Rows (Attributes):** AGENT
 
@@ -45,30 +55,32 @@ Table
 6. AGENT RESPONSES PER CLOSED CONVERSATION
 7. AVG. CONVERSATION DURATION
 
-**Additional Function:** This grid dynamically controls the other visualizations on this panel. When clicking on an agent from the list presented in the grid, the data displayed in the other visualizations refreshes to reflect only the selected agent’s activity and performance.
+**Additional function:** This grid dynamically controls the other visualizations on this panel. When clicking on an agent from the list presented in the grid, the data displayed in the other visualizations refreshes to reflect only the selected agent’s activity and performance.
 
-## Panel 2: Consumer and Agent Response Activity by Day of the Week
+## Panel 2: Consumer and agent response activity by day of the week
 
 The following panel provides an analysis of the consumer demand and agent response. The data is aggregated by day of the week. Selecting a specific day in the week dynamically filters the top data bar high level metrics.
 
-![](https://lh4.googleusercontent.com/IozkyybMSTvj9Cn4g2-EXMXMTIoftzX3hu6wNR7cZtXi3G2Z3NubAHyX47ql7fOPsyhuoPHueu12s2Q5hgj5VGDelFlZ5mOjw0w4yOBascEBXQao-KI5kygsQ_J7O7yu9Di1AVNz =624x308)
+![](/img/mpd2.png)
 
-Image 4.1 - Consumer and Agent Response Activity (panel 2)
+_Image 2: Consumer and agent response activity (panel 2)_
 
-Insert table
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Consumer Responses (Demand) vs Agent Responses (Supply), by Day of Week, by Hour | TOTAL NO. OF AGENT RESPONSES / TOTAL NO. OF CONSUMER RESPONSES | DAY OF WEEK, HOUR OF DAY | No |
 
-**Top data bar (Grid)**
+### **Top data bar (grid)**
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
 1. LOGGED IN TIME
 2. ONLINE / AWAY / BACK SOON (time)
 
-**Overview by Agent (Grid)**
+### **Overview by agent (grid)**
 
-**Rows (Attributes):** Day of Week
+**Rows (attributes):** Day of week
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
 1. MCS
 2. CSAT SCORE
@@ -77,19 +89,19 @@ Insert table
 5. TOTAL NO. OF AGENT RESPONSES
 6. TOTAL NO. OF CONSUMER RESPONSES
 
-**Additional Function:** This grid dynamically controls the top data bar. When clicking on a specific day of the week from the list presented in the grid, the performance data displayed will refresh to reflect the selected day.
+**Additional function:** This grid dynamically controls the top data bar. When clicking on a specific day of the week from the list presented in the grid, the performance data displayed will refresh to reflect the selected day.
 
-## Panel 3: Agent Level Data Export
+## Panel 3: agent level data export
 
-The following panel provides an exportable grid which includes agent-related activity and performance metrics.
+The following panel provides an exportable grid which includes agent related activity and performance metrics.
 
-**![](https://lh3.googleusercontent.com/rhXhRmh8RU_i2s1X2aOn_IhtLitx_u3EVzSjrf8HfDJTpLvUFLAtTz90d0JrYaiLK-op3t3aNEVJlL6YnQy2-mOS1_xIm6oBb5IdCOR2uNhMf3S-IZSL-c8q1y5kFJdgiXNVuvC5 =624x356)**
+![](/img/mpd3.png)
 
-Image 4.2 - Agent level data export grid (panel 3)
+_Image 3 - Agent level data export grid (panel 3)_
 
-**Rows (Attributes):** DATE, GROUP, AGENT, SKILL
+**Rows (attributes):** DATE, GROUP, AGENT, SKILL
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
  1. NO. OF CONVERSATIONS OPENED / CLOSED BY AGENT
  2. AVG. RESPONSE TIME BY AGENT
@@ -105,21 +117,26 @@ Image 4.2 - Agent level data export grid (panel 3)
 
 ## Brand level data sheet - main panel
 
-Primary Filters: Skill, Source (App, Web, Agent, SMS, Facebook etc.)
+**Primary Filters:** Skill, source (App, web, agent, SMS, Facebook etc.)
 
 The main panel provides an executive view of the messaging program performance. It summarizes daily activity and allows the user to choose a specific source from which conversations are generated.
 
-![](https://lh3.googleusercontent.com/IoNBuJ_1hIdX6bx8NgU0h0QL_t0EWi-jbQYoANzvWyN7p2PLC4v0W0vAsiM0oM6jcVavwVVy95bXii7ac2-1Ns3AaTYAVYPpwocd9He6__VJu5Qtukn63V26jghgNAugs1PF3uT9 "rand messaging summary main panel" =624x359)
+![](/img/mpd4.png)
 
-table
+Image 4 - Brand messaging summary main panel
 
-**Traffic Source (Grid)**
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Avg. Response Time vs MCS (bar chart) | MCS / AVG RESPONSE TIME BY AGENT | Date | Dynamically filtered by “Traffic Source” selector grid |
+| Login hrs vs Conversations Per Login Hr (bar chart) | HANDLED CONVERSATIONS PER LOGIN HOUR / LOGGED IN TIME | Date | Dynamically filtered by “Traffic Source” selector grid |
+
+### **Traffic source (grid)**
 
 **Rows (Attributes):** Source
 
 **Additional function:** This grid acts as a selector to filter the visualizations in this panel. The user can select a specific source or de-select to return to the general view.
 
-**Top data bar (Grid)**
+### **Top data bar (grid)**
 
 **Columns (Metrics):**
 
@@ -128,37 +145,39 @@ table
 3. MCS
 4. CSAT SCORE
 
-**Brand Performance Detail (Grid)**
+**Brand performance detail (grid)**
 
-**Rows (Attributes):** DATE
+**Rows (attributes):** DATE
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
-1. **Conversation Detail (section header)**
+1. **Conversation detail (section header)**
    1. ACTIVE CONSUMERS
    2. NO. OF OPENED / CLOSED CONVERSATIONS
    3. AVG. CONVERSATION DURATION
-2. **Conversation Operations (section header)**
+2. **Conversation operations (section header)**
    1. AVG. RESPONSE TIME BY AGENT
    2. AVG. CONSUMER RESPONSE TIME
    3. AVG. TIME TO AGENT FIRST RESPONSE
    4. TOTAL NO. OF AGENT / CONSUMER RESPONSES
 3. **Survey (section header)**
    1. MCS / CSAT SCORE
-4. **Agent Activity (section header)**
+4. **Agent activity (section header)**
    1. LOGGED IN TIME
    2. ONLINE / AWAY / BACK SOON (time)
    3. ONLINE / AWAY / BACK SOON RATE
 
-## Panel 2: Brand Level Data Export
+## Panel 2: Brand level data export
 
 Export the following grid to create custom visualizations and generate calculations from the data available in this grid view.
 
-### **![](https://lh3.googleusercontent.com/F6Yco2c2Z9QYkGvLqP3TObgYaqU7ZCGQoy5i7UzYMKLXHs3TjPQvfTveJEVGgEYvRrAMgJ3Q-yIV9rN7G4Uelq9TeRFNu1_L4zcS6fDLbB0_U7q86VHmWkgdApNJJK2M6mv0Ee8U =624x349)**
+![](/img/mpd5.png)
 
-**Rows (Attributes):** DATE, SKILL
+Image 5 - Brand level data export (panel 2)
 
-**Columns (Metrics):**
+**Rows (attributes):** DATE, SKILL
+
+**Columns (metrics):**
 
  1. ACTIVE CONSUMERS
  2. NO. OF OPENED / CLOSED CONVERSATIONS
@@ -174,9 +193,29 @@ Export the following grid to create custom visualizations and generate calculati
 
 ## Messaging metrics attribution to agent and skill
 
-When computing a messaging related metric that should allow filtering by an Agent or Skill, an attribution model is applied. This to resolve the many-to-many relationship which is inherent in the Messaging channel in which conversations may change hands and skills during their lifetime.
+When computing a messaging related metric that should allow filtering by an agent or skill, an attribution model is applied. This is to resolve the inherent issue in messaging channels in which conversations may change hands and skills during their lifetime.
 
-
-|Metric Name|Attribution to Agent|Attribution to Skill|
-|-----------|--------------------|--------------------|
-|AVG. RESPONSE TIME BY AGENT| To the responding agent| To the skill assigned to the conversation when the response was given|
+| Metric Name | Attribution to Agent | Attribution to Skill |
+| --- | --- | --- |
+| AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
+| AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
+| AVG. CONSUMER RESPONSE TIME | Not assigned to an agent | To the skill assigned to the conversation when the response was given |
+| AVG. TIME TO AGENT FIRST RESPONSE | To the responding agent | To the skill assigned to the conversation when the response was given |
+| MCS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+| CSAT SCORE | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+| HANDLED CONVERSATIONS | To the agent who sent a message in the conversation, resumed it, or closed it | Skill assigned to the conversation in at least one of the events this metric calculates |
+| TOTAL NO. OF TRANSFERS | To the agent who transferred the conversation | Skill assigned to the conversation when it was transferred out (origin skill) |
+| AGENT RESPONSES PER CLOSED CONVERSATION | To the responding agent | Numerator - To the skill assigned to the conversation when the response was given / Denominator - To the last skill assigned to the conversation |
+| TOTAL NO. OF AGENT RESPONSES | To the responding agent | To the skill assigned to the conversation when the response was given |
+| TOTAL NO. OF CONSUMER RESPONSES | Not assigned to an agent | To the skill assigned to the conversation when the response was given |
+| TOTAL NO. OF MESSAGES SENT BY AGENT | To the agent who sent the message | To the skill assigned to the conversation when the message was sent |
+| TOTAL NO. OF MESSAGES SENT BY CONSUMER | Not assigned to an agent | To the skill assigned to the conversation when the message was sent |
+| HANDLED CONVERSATIONS PER LOGIN HOUR | Not assigned to an agent | See logic for “NO. OF HANDLED CONVERSATIONS” |
+| ACTIVE CONSUMERS | Not assigned to an agent | Not assigned to a skill |
+| NO. OF OPENED CONVERSATIONS | To the agent who was assigned to the conversation at the time it was opened | To the skill the conversation was assigned to when it was opened |
+| NO. OF CONVERSATIONS OPENED BY AGENT | To the agent who opened (resumed) the conversation | To the skill assigned to the conversation at the time the agent resumed it |
+| NO. OF CONVERSATIONS CLOSED BY AGENT | To the user who closed the conversations (agent or agent manager) | To the skill assigned to the conversation at the time it was closed |
+| NO. OF CONVERSATIONS CLOSED BY CONSUMER | The last agent assigned to the conversation | To the last skill assigned to the conversation |
+| NO. OF CONVERSATIONS CLOSED BY SYSTEM | The last agent assigned to the conversation | To the last skill assigned to the conversation |
+| AVG. CONVERSATION DURATION | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+| INTERACTIVE / NON INTERACTIVE / ABANDONED CONVERSATIONS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
