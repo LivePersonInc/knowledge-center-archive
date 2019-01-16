@@ -79,11 +79,11 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 1. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
-* Photo sharing (consumer to agent)
-* Structured content (cards, carousels, lists)
-* Time picker
+	* Photo sharing (consumer to agent)
+	* Structured content (cards, carousels, lists)
+	* Time picker
 
-See the rich messaging comparison grid for detailed information on what is available per messaging channel.
+	See the rich messaging comparison grid for detailed information on what is available per messaging 	channel.
 
 {:start="2"}
 
@@ -91,11 +91,10 @@ See the rich messaging comparison grid for detailed information on what is avail
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
 3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
 
-* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask them questions that will determine what skill (or another bot) the conversation is routed to.
-* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to your consumers asking them customer satisfaction or any other questions you require.
+	* Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask 	them questions that will determine what skill (or another bot) the conversation is routed to.
+	* Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to 	your consumers asking them customer satisfaction or any other questions you require.
 
   {:start="4"}
-
 1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
 {: .notice}  
