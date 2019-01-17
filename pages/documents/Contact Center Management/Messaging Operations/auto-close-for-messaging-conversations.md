@@ -24,7 +24,7 @@ For example, if a conversation has been idle for ten days, it can be automatical
 * Auto close is scheduled to run at 25 minute intervals, meaning that inactive conversations will be automatically closed up to 25 minutes after their inactivity threshold was reached. For example, if the configured period of inactivity is 2 hours and a conversation was last active at 1pm, the conversation will be auto closed between 3 and 3:25pm.
 * Auto close is supported on web messaging and on mobile from SDK 2.1 and above.
 
-**How to configure auto close**
+## **Configuration**
 
 1. Click the **Night Vision** button at the top of the screen.
 2. Under _Response time_, click **Edit**.
