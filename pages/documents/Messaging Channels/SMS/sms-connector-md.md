@@ -8,7 +8,6 @@ level3: ''
 permalink: sms-connector.html
 isTutorial: false
 date: 2019-01-17 16:40:01 +0200
-published: false
 
 ---
 The addition of SMS to LiveEngage operations, creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family. 
