@@ -13,7 +13,7 @@ published: false
 ---
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
-## **To set up a basic SMS account using Twilio, complete the following steps:**
+## To set up a basic SMS account using Twilio, complete the following steps:
 
 1. Create your own Twilio account here \[[insert link](https://www.twilio.com/try-twilio)\].
 
