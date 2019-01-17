@@ -44,7 +44,7 @@ Before a messaging conversation can be offered, a customer must authenticate.
 * Consumer logs in and receives message button
 * Previous conversations will automatically display if applicable
 
-![](https://lh6.googleusercontent.com/nFaM1QuxWZx-3KFvMiLawn9_gYNFM6Q_avqaB7CHhALTDva4P_tae8LNF0W8-wY9LO_LVIfDVHfCSroSCmq5Iyo_r4DKHxlSXi9hSsL6H3_czJrcqTY_oF-DqXRpymXArlQHG8Ah =536x305)
+![](/img/authweb1.png)
 
 Agent engages consumer in a messaging window, displaying history from previous conversations. For conversations that are continuing, or in the case that the agent pro-actively sends a message, a new message indication will display.
 
@@ -85,19 +85,21 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 1. In LiveEngage, select **Campaigns**.
 2. In the footnote, select **Data sources**.
 
-![](https://lh4.googleusercontent.com/AY1fIfhyuv3Z-U3dXuqzI_lJz0xud61CXQkn7fFAQSHM5SjJgFnJ6fC7zE7I06T-XP4Fe1S5bJMzY3jIvEZA53ZHFzQEyJ9WX3D9EzW5Y_1DPI1DiRayCfhRySD8UkqJ9-rgWllF =624x64)
+   ![](/img/authweb2.png)
 
 {:start="3"}
 
 1. Next to the authentication server, click **Configure**.  The Authentication Server page is displayed.
 
-![](https://lh4.googleusercontent.com/xlSSFhJ3GKF2ThpwdKymgAvEgw86lxORrZcVHJU7qxTTBh1lGfxyq5MTt9ZSTS3u51VjSGvdmjL8-ZN6iE-MD2Vy9G0hPlIFrO41Nb62Qk3QF3FxDC9JjPbKKehJ4pMpnWUzMP7y =624x303)
+   ![](/img/authweb3.png)
 
 {:start="4"}
 
-1. From the dropdown menu, select your preferred authentication method, and complete the required fields![](https://lh3.googleusercontent.com/WepqNzhluwq_EylD-EIvJOr3t14CeeOL4FRIaCOMXQ-as1A-lfxdhnUdsyBQDwJ4v6KigyPY8y685ldCHxIzocepjiO1gULK3RkGErvhnHv1FOo6YCC-qzuh3X2lNd5vh7PyJ7ma =624x304)
+1. From the dropdown menu, select your preferred authentication method, and complete the required fields
 
-Additional information regarding authentication configuration on LivePerson is available [here](https://developers.liveperson.com/guides-authentication-introduction.html).
+   ![](/img/authweb4.png)
+
+   Additional information regarding authentication configuration on LivePerson is available [here](https://developers.liveperson.com/guides-authentication-introduction.html).
 
 ## **Configure the Customer Identity**
 
@@ -174,16 +176,20 @@ To configure authentication in a separate browser window, proceed as follows:
 
 1. Upon clicking on an engagement that is configured to open in a separate browser window, the window will remain open as it redirects the visitor to the brand’s configured login page (Authentication Endpoint).
 
-![](https://lh5.googleusercontent.com/GCXo_sMNjzQo8SjdN9SA0GDPMIN45zmoazeZCDoWbey0JfnPr6-SS80TDZSh_9eJes5ArWO1C3DO_CxGqziMmGYcgJ44aix_8XOGFi7PThOaNxBLZnr-GszmsRd-9q0yGrDAB_Xn =186x297)
+   ![](/img/authweb5.png)
 
 {:start="2"}
 
 1. Once the visitor is logged in and successfully authenticated, they are redirected to the conversation window with the provided authentication code.
 
-   ![](https://lh3.googleusercontent.com/jFsW5Whbgbu152n_WHk6A0Bf6yqgr4gjKIgRBFUUEl1hF6uNcp4nRg8LioTIs5usIbbH4m17a9ELqwFogvjEYVpUVqfl97LhGr7R_b0Lsv4mF2VDBcVpdoOLwf2Lk_8hJr3ttbe- =190x305)
+   ![](/img/authweb6.png)
 
-{:start="3"}
-2\. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.![](https://lh5.googleusercontent.com/qLaNu8JSlJVImfokLG53MrZKSIW2kEJOxZR0Jgn6Ng9sFuId0lOJuxHGBYKSiB6ayg5XK_37W21K8exylwPaHn_NsTuhm7hGctlJVTQoi7DJeuvlZrZ-amuniGRqVF_moUzxSuZc =211x346)
+   {:start="3"}
+   2\. Once authentication expires, a message that prompts the visitor to log in 
+
+   appears, redirecting the visitor back to the login page.
+
+   ![](/img/authweb7.png)
 
 ### **How does separate browser window login work?**
 
