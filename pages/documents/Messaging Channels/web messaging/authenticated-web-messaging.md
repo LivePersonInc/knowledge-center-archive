@@ -88,9 +88,12 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 ![](https://lh4.googleusercontent.com/AY1fIfhyuv3Z-U3dXuqzI_lJz0xud61CXQkn7fFAQSHM5SjJgFnJ6fC7zE7I06T-XP4Fe1S5bJMzY3jIvEZA53ZHFzQEyJ9WX3D9EzW5Y_1DPI1DiRayCfhRySD8UkqJ9-rgWllF =624x64)
 
 {:start="3"}
+
 1. Next to the authentication server, click **Configure**.  The Authentication Server page is displayed.
 
 ![](https://lh4.googleusercontent.com/xlSSFhJ3GKF2ThpwdKymgAvEgw86lxORrZcVHJU7qxTTBh1lGfxyq5MTt9ZSTS3u51VjSGvdmjL8-ZN6iE-MD2Vy9G0hPlIFrO41Nb62Qk3QF3FxDC9JjPbKKehJ4pMpnWUzMP7y =624x303)
+
+{:start="4"}
 
 1. From the dropdown menu, select your preferred authentication method, and complete the required fields![](https://lh3.googleusercontent.com/WepqNzhluwq_EylD-EIvJOr3t14CeeOL4FRIaCOMXQ-as1A-lfxdhnUdsyBQDwJ4v6KigyPY8y685ldCHxIzocepjiO1gULK3RkGErvhnHv1FOo6YCC-qzuh3X2lNd5vh7PyJ7ma =624x304)
 
@@ -102,23 +105,23 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 
 Example:
 
-lpTag.identities=\[\];
-
-lpTag.identities.push(identityFn);
-
-function identityFn(callback) {
-
-callback({
-
-iss: “ **_replace with issuer_** ”,
-
-acr: “loa1”,
-
-sub: “ **_replace with customerID_** ”
-
-});
-
-}
+    lpTag.identities=[];
+    
+    lpTag.identities.push(identityFn);
+    
+    function identityFn(callback) {
+    
+    callback({
+    
+    iss: “ replace with issuer ”,
+    
+    acr: “loa1”,
+    
+    sub: “ replace with customerID ”
+    
+    });
+    
+    }
 
 By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications.
 
@@ -173,14 +176,14 @@ To configure authentication in a separate browser window, proceed as follows:
 
 ![](https://lh5.googleusercontent.com/GCXo_sMNjzQo8SjdN9SA0GDPMIN45zmoazeZCDoWbey0JfnPr6-SS80TDZSh_9eJes5ArWO1C3DO_CxGqziMmGYcgJ44aix_8XOGFi7PThOaNxBLZnr-GszmsRd-9q0yGrDAB_Xn =186x297)
 
+{:start="2"}
+
 1. Once the visitor is logged in and successfully authenticated, they are redirected to the conversation window with the provided authentication code.
 
    ![](https://lh3.googleusercontent.com/jFsW5Whbgbu152n_WHk6A0Bf6yqgr4gjKIgRBFUUEl1hF6uNcp4nRg8LioTIs5usIbbH4m17a9ELqwFogvjEYVpUVqfl97LhGr7R_b0Lsv4mF2VDBcVpdoOLwf2Lk_8hJr3ttbe- =190x305)
-2. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.![](https://lh5.googleusercontent.com/qLaNu8JSlJVImfokLG53MrZKSIW2kEJOxZR0Jgn6Ng9sFuId0lOJuxHGBYKSiB6ayg5XK_37W21K8exylwPaHn_NsTuhm7hGctlJVTQoi7DJeuvlZrZ-amuniGRqVF_moUzxSuZc =211x346)
 
-### ****
-
-### 
+{:start="3"}
+2\. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.![](https://lh5.googleusercontent.com/qLaNu8JSlJVImfokLG53MrZKSIW2kEJOxZR0Jgn6Ng9sFuId0lOJuxHGBYKSiB6ayg5XK_37W21K8exylwPaHn_NsTuhm7hGctlJVTQoi7DJeuvlZrZ-amuniGRqVF_moUzxSuZc =211x346)
 
 ### **How does separate browser window login work?**
 
@@ -205,21 +208,22 @@ The brand needs to register the redirect URL as a valid URL.
 
 Example:
 
-[https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=](https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce= "https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=")\[visitorId\]
+    https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]
 
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 
 Example of code flow response:
 
-| --- |
-|   HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk |
+    | --- |
+    |   HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk |
 
 Example of implicit flow response:
 
-| --- |
-|   HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ |
+    | --- |
+    |   HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ |
 
-**Important:** Clients should ignore unrecognized response parameters.
+{: .important}
+**Important:** ignore unrecognized response parameters.
 
 #### Error Responses
 
