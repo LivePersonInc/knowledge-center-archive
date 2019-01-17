@@ -1,4 +1,5 @@
 - categoryname: Getting started
+  image: getting-started
   subcategories:
     - subcategoryname: LivePerson's conversational platform overview
     - subcategoryname: Getting started with messaging
@@ -8,6 +9,7 @@
 
 
 - categoryname: Messaging channels
+  image: messaging-channels
   subcategories:
     - subcategoryname: Web messaging
       pages:
@@ -45,6 +47,7 @@
         - pagename: Engagement Window Widgets
 
 - categoryname: "Bots & automation"
+  image: bots-automation
   subcategories:
     - subcategoryname: How bots work within LivePerson
     - subcategoryname: Conversation Builder
@@ -79,6 +82,7 @@
         - pagename: Post Conversation Survey bot
 
 - categoryname: Contact center management
+  image: contact-center
   subcategories:
     - subcategoryname: Messaging operations
       pages:
@@ -120,6 +124,7 @@
         - pagename: Campaign dashboard and databar
 
 - categoryname: "Agent & manager workspace"
+  image: agent-manager
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
@@ -155,6 +160,7 @@
         - pagename: Importing Predefined Content
 
 - categoryname: "Data & reporting"
+  image: data-reporting
   subcategories:
     - subcategoryname: Business Reporting Metrics
     - subcategoryname: Messaging
@@ -213,6 +219,7 @@
         - pagename: What made your visitors convert
 
 - categoryname: "Admin & settings"
+  image: admin-settings
   subcategories:
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
@@ -232,6 +239,7 @@
         - pagename: Case Management Support
 
 - categoryname: "Security & regulations"
+  image: security-regulations
   subcategories:
     - subcategoryname: Security
       pages:
@@ -251,6 +259,7 @@
     - subcategoryname: Audit trail
 
 - categoryname: "What's new"
+  image: whats-new
   subcategories:
     - subcategoryname: December 2018
     - subcategoryname: November 2018
@@ -261,6 +270,7 @@
     - subcategoryname: June 2018
 
 - categoryname: Release notes
+  image: release-notes
   subcategories:
     - subcategoryname: 2018
       pages:
