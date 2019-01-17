@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'Manage expectations and keep consumers informed about expected wait times '
 level3: ''
-permalink: configuring-response-times-for-messaging-conversations.html
+permalink: contact-center-management-messaging-operations-configuring-response-times-for-messaging-conversations.html
 isTutorial: false
 date: 2019-01-17 11:53:26 +0200
 
