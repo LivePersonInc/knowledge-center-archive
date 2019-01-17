@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'How to manage long queue accumulation effectively '
 level3: ''
-permalink: queue-backlog-management.html
+permalink: contact-center-management-messaging-operations-queue-backlog-management.html
 isTutorial: false
 date: 2019-01-17 12:09:46 +0200
 
