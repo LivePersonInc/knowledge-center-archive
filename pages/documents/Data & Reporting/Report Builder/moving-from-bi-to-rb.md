@@ -43,7 +43,7 @@ Below are the steps needed in order to reach each of the available reports in th
 
 Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
-![](https://lh4.googleusercontent.com/C_72WLsSBRFuKXW9zFQfriBSwJU_INiG5CcunpMKAJj2JUrW8mQkIsscD6CKW3yBnoJAx_KDYK8j_0_l0L_VbBF_N0FMc1nFOKZikiOHa_ZmLaJ3YMgzFKsBoZUXUViigLQs9kfs =614x349)
+![](/img/RBBI1.png)
 
 ### Agent activity
 
@@ -78,9 +78,9 @@ Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 ### Campaign BI dashboards
 
-Campaign BI dashboards are available through ‘CAMPAIGNS’ tab in LE.
+Campaign BI dashboards are available through ‘CAMPAIGNS’ tab.
 
-![](https://lh5.googleusercontent.com/1y1L3KBXt-eXDU8KnU_gnqouvUSGBKIqKUlkxfTbzSPG-dXXQl7gUAOqlQQZibCVbR5mXJadUPTKXidPpdRgJXDYtziNMGh__WowHzzurQnNwuhkhiqi2S2nGQXZXgmtQ0aReMRF =624x353)
+![](/img/RBBI2.png)
 
 ### Campaign dashboard
 
@@ -113,7 +113,7 @@ Campaign BI dashboards are available through ‘CAMPAIGNS’ tab in LE.
 
 ### Time zone for data display
 
-The agent manager BI displays data in the user’s local timezone, while the Report Builder dashboards and campaign BI utilize the the LiveEngage account level time zone configuration.
+The agent manager BI displays data in the user’s local timezone, while the Report Builder dashboards and campaign BI utilize the account level time zone configuration.
 
 When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the agent activity dashboard​ and the goal tracker dashboard, ​users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. The data in RB is shown according to LiveEngage’s account-level time zone configuration. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
 
@@ -138,10 +138,10 @@ Example
 
 The following session is given
 
-* 20-Feb 23:30 Visitor enters the website
-* 20-Feb 23:35 Visitor becomes eligible for a campaign (prospect)
-* 21-Feb 00:10 Visitor views a chat button (exposure)
-* 21-Feb 00:15 Visitor clicks on chat button (accepted offer)
+* 20-Feb 23:30 visitor enters the website
+* 20-Feb 23:35 visitor becomes eligible for a campaign (prospect)
+* 21-Feb 00:10 visitor views a chat button (exposure)
+* 21-Feb 00:15 visitor clicks on chat button (accepted offer)
 
   A Campaign Manager sets the date filter to 20-Feb (full day)
 
