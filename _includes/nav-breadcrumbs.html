@@ -1,13 +1,13 @@
 
   <nav class="breadcrumbs breadhidden hidden-sm-down">
 
-    {% if page.categoryName %}
+    {% if page.categoryName != '' %}
     <a class="breadcrumb-item">{{ page.categoryName }}</a>
     {% endif %}
     {% if page.subCategoryName != '' %}
      <a class="breadcrumb-item">{{ page.subCategoryName }}</a>
     {% endif %}
-    {% if page.level3Name != '' %}
+    {% if page.level3 != '' %}
     <a class="breadcrumb-item">{{ page.level3Name }}</a>
     {% endif %}
     <a class="breadcrumb-item no-after" >{{ page.pagename }}</a>
