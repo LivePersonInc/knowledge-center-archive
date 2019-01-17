@@ -8,7 +8,6 @@ level3: ''
 permalink: twilio-sms-connector-setup.html
 isTutorial: false
 date: 2019-01-17 17:11:38 +0200
-published: false
 
 ---
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
@@ -68,6 +67,5 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 {: .important}
 **Note:**
-
 * Brands are able to connect multiple Twilio SMS numbers to their account and route each number to a separate skill. If you have more than one SMS number attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.
 * Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharing images outside these regions will not work due to Twilio limitations.
