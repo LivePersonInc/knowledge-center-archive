@@ -57,6 +57,7 @@ Before you can start creating your buttons or banners, you need to set up your c
 To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
+
 * Business goal
 * Target audience
 * Time frame
@@ -155,17 +156,17 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 
 **To learn more about publishing and unpublishing campaigns, click here.**
 
-## Displaying Engagements
+## Advanced banner display settings
 
-### Control Groups
+### Test click rates through control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on control groups, click here.
 
-### Multiple engagements on the same page
+### Display multiple engagements on the same page
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, click here.
 
-### Proactive engagements
+### Fine tune proactive engagements
 
 Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
 
@@ -181,11 +182,11 @@ By default, after declining a proactive content engagement, other content engage
 
 ![](/img/addweb5.png)
 
-### Shift scheduler
+### Display engagements based on a scheduler (using shift scheduler)
 
 LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, click here.
 
-## Optimizing the Mobile Experience
+## Optimize the mobile experience
 
 To enhance your visitors’ messaging experience on mobile, use the Embedded Engagement window and optimize your website for mobile.
 
@@ -194,11 +195,11 @@ To optimize your web experience, tag of all your web pages:
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-<meta name="viewport" content="width=device-width,
+	<meta name="viewport" content="width=device-width,
 
-initial-scale=1.0,
+	initial-scale=1.0,
 
-minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 **Notes**:
 
