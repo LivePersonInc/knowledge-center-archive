@@ -43,8 +43,8 @@ Conversations assigned to an agent can either be pending consumer or pending age
 
 {: .notice}
 Setting a manual SLA for a conversation will not affect its intensity, and therefore will not affect how Smart Capacity treats it.
-{:start="3"}
 
+{:start="3"}
 1. When Smart Capacity detects a conversation with a low intensity, it will assign it with a lower weight. This frees up the agent’s capacity, allowing new conversations to enter the agent’s queue.
 
 {: .notice}
@@ -92,7 +92,6 @@ This means the maximum number of conversations with a high intensity of messages
 
 {:start="3"}
 1. Click **Save**.
-
 ![](/img/smart-capacity-overview-3-1.png)**
 
 {: .notice}
