@@ -41,11 +41,11 @@ For brands, creating a presence on the channels used by their consumers is key t
 * North America accounts: [https://va.msg-gw.liveperson.net/api/](https://va.msg-gw.liveperson.net/api/ "https://va.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
 * APAC accounts: [https://sy.msg-gw.liveperson.net/api/](https://sy.msg-gw.liveperson.net/api/ "https://sy.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
 
-![](https://lh3.googleusercontent.com/09S5labxTbFLJmJG6MspbM7grFY3bMtZ2Hqo_pkGVfxLCDjybRxg2a7n4QUGfim50p7zMXoUfeho9MvlWR2gJ-phEub0BMVD6E8n5tV5xArW_oTXKbTA8rX6mCZUc9rpVla6H01w =433x191)
+![](/img/twilio sms set up 6-1.png)
 
 7\. Navigate to the following page \[[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")\] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
 
-[![](https://lh6.googleusercontent.com/uj2VHDF5dZpM-xnuJ1q_6Uawm56NFpR2qjMYOt4BUzay-7O_Q5qHifjigs0FfU4lE_26iUaCzX2gO9NPxCcRhXR3aICaC8iJv9nYVTphsrKQP4wtJH9FwkU4q1zZWUGbsmQ6EnIM =433x289)](https://www.twilio.com/user/account/settings)
+![](/img/twilio sms set up 7.png)
 
 8\. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.
 
@@ -61,12 +61,13 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 12\. Click Save.
 
-**Note:**
-
-* Brands are able to connect multiple Twilio SMS numbers to their account and route each number to a separate skill. If you have more than one SMS number attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.
-* Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharing images outside these regions will not work due to Twilio limitations.
-
 **To deactivate the SMS connector:**
 
 1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
 2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
+
+{: .important}
+**Note:**
+
+* Brands are able to connect multiple Twilio SMS numbers to their account and route each number to a separate skill. If you have more than one SMS number attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.
+* Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharing images outside these regions will not work due to Twilio limitations.
