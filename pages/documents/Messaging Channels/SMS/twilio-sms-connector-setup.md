@@ -68,8 +68,8 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 **To deactivate the SMS connector:**
 
-1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
-2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
+	1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
+	2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
 
 
 <div class="important">
