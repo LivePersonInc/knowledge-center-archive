@@ -251,7 +251,7 @@ Optional:
 | unsupported_grant_type | The authorization grant type is not supported by the authorization server. |
 | invalid_scope | The requested scope is invalid, unknown, malformed, or exceeds the scope granted by the resource owner. |
 
-## **Showing Unauthenticated Engagement Attributes in the Agent Workspace**
+## **Showing attributes for agents**
 
 Engagement attributes (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace.
 
@@ -284,7 +284,7 @@ This feature allows web messaging users to transition seamlessly between authent
 
 With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
 
-Guidelines:
+**Guidelines:**
 
 * Engagements should show only if the conversation can start. If the engagement requires authentication, it will show only on authenticated pages.
 * Only one conversation can be displayed on each page, either authenticated or unauthenticated.
