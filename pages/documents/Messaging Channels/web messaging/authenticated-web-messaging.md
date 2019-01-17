@@ -214,7 +214,7 @@ Once authenticated, the brand uses the **application/x-www-form-urlencoded** for
 
 Example of code flow response:
 
-    HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk 
+    HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk
 
 Example of implicit flow response:
 
@@ -228,17 +228,20 @@ Example of implicit flow response:
 **QueryParams**
 
 Required:
+
 | Parameter | Description | Type / Value |
 | --- | --- | --- |
 | error | Error code | Invalid_request, invalid_client, invalid_grant, unauthorized_client, unsupported_grant_type, invalid_scope |
 
 Optional:
+
 | Parameter | Description | Type / Value |
 | --- | --- | --- |
 | error _description | Description of the error | text |
 | error_uri | Error URL with additional info | URL |
 
 #### Error Definitions
+
 | Error | Description |
 | --- | --- |
 | invalid_request | The request is missing a required parameter, includes an unsupported parameter value (other than grant type), repeats a parameter, includes multiple credentials, utilizes more than one mechanism for authenticating the client, or is otherwise malformed. |
