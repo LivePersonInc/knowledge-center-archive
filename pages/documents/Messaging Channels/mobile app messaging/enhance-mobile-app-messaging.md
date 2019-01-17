@@ -9,7 +9,6 @@ level3: ''
 permalink: messaging-channels-mobile-app-messaging-enhance-the-customer-experience.html
 isTutorial: false
 date: 2019-01-17 15:12:13 +0200
-published: false
 
 ---
 The LiveEngage in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app available for you to configure.
@@ -20,7 +19,7 @@ By facilitating rich conversations with beyond-text capabilities, our SDK enable
 
 [https://vimeo.com/238914522/c1b594b8a4](https://vimeo.com/238914522/c1b594b8a4 "https://vimeo.com/238914522/c1b594b8a4") \[need edits to video\]
 
-_Allow consumers to create a continuous connection with your brand through a familiar messaging interface._
+Allow consumers to create a continuous connection with your brand through a familiar messaging interface.
 
 * A picture is worth a thousand words. **Photo-sharing** allows consumers to share images with their agent, so they can better describe an item, pinpoint a problem or specify a product or service.
 * Add an in-conversation shortcut to skip straight to new messages and save consumers time while scrolling within a conversation. The shortcut includes a badge displaying the number of unread messages, a message preview. A divider line will distinguish between read and unread messages.
@@ -37,7 +36,7 @@ _Allow consumers to create a continuous connection with your brand through a fam
 
 **Manage consumer expectations**
 
-_Clearly communicated system messages regarding response time create a better service._
+Clearly communicated system messages regarding response time create a better service.
 
 * Prevent frustration by providing automatic immediate notice to consumers of the expected reply time.
 * Allow them to request faster response times by marking messages as urgent.
