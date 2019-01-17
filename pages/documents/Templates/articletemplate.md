@@ -3,7 +3,7 @@ pagename: Article Template
 subtitle: This is an example of how an article layout works
 categoryName: Getting started
 subCategoryName: ''
-level3Name: ''
+level3: ''
 permalink: article-template.html
 indicator: both
 isTutorial: false

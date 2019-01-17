@@ -4,7 +4,7 @@ categoryName: Getting started
 subCategoryName: Report Builder
 indicator: both
 subtitle: A high level overview in to the Report Builder
-level3Name: ''
+level3: ''
 permalink: Reporting-&-data-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000

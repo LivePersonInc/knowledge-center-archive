@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
-level3Name: Messaging dashboards
+level3: Messaging dashboards
 permalink: reporting&data-web-messaging-messaging-dashboards-post-conversation-survey.html
 isTutorial: false
 date: 2019-01-15 15:14:02 +0200

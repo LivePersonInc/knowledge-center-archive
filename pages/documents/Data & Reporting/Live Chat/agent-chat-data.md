@@ -4,7 +4,7 @@ categoryName: Reporting & Data
 subCategoryName: BI (Chat)
 indicator: chat
 subtitle: ''
-level3Name: ''
+level3: ''
 permalink: reporting&data-BI-(chat)-agent-chat-data
 isTutorial: false
 date: 2019-01-15 10:38:14 +0200
