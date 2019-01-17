@@ -7,8 +7,7 @@ subtitle: ''
 level3: ''
 permalink: contact-center-management-messaging-operations-queue-prioritization-overview.html
 isTutorial: true
-date: 2019-01-16 10:25:55 +0200
-published: true
+date: 2019-01-16 08:25:55 +0000
 
 ---
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
@@ -74,9 +73,9 @@ Queue prioritization works in prioritization cycles that run every 2 seconds. In
 * The score calculated based on the prioritization approach that was drawn for the cycle.
 * The conversation velocity which is derived from the configured business rules and serves as a multiplier for the conversation rate of advancement in the queue.
 
-Once the conversations are scored, the top scoring conversations receive an agent assignment and are then pushed to agents for handling.
+![](/img/queue-prior-overview.png)
 
-![](https://lh4.googleusercontent.com/x2bljFrk6K6tXoZKfz0hhJdCmB20MjwTlRQZgI8xSssCYxl8v_ZP8bKIIH7DQJDbbYeNkPJ7nKBat4tsHsPMC_4RNGormWEGKX1rniRKZdd_tFniUWnyMFJqOYei9fMG8YL-BqNC =359x304)
+Once the conversations are scored, the top scoring conversations receive an agent assignment and are then pushed to agents for handling.
 
 ## How does it work?
 
@@ -91,6 +90,8 @@ There are instances where consumers have an urgent, time-sensitive issue that ne
 
 Queues in consists of brand new conversations, as well as those that have been transferred or returned to the queue by an agent. Before routing the messages to individual agents, the system first understands which of them require immediate agent attention by dividing the conversations into ‘actionable’ and ‘non-actionable’.
 
+![](/img/queue-prior-overview-2.png)
+
 Out of the conversations considered actionable, and an additional mechanism filters by urgency and importance, based on settings predetermined by the brand and calculated as:
 
 ### **_Time multiplied by variables_ (the attributes discussed above).**
@@ -100,14 +101,12 @@ Out of the conversations considered actionable, and an additional mechanism filt
 | Data-driven variables | freshness, interactive |
 | Business use case variable | transfer, intent (urgent issue), consumer attributes (VIP), skill and channel |
 
-![](https://lh3.googleusercontent.com/A6-xIQTKq-jEvsqmEa0uoVNOO0MnBa8yFFSSJS7_vWdywJIDmDEpbYnKNGEEXb2V5LTHZv5kS7YQvoC7IPVcEqjW1k78StZX0p0-gzPqKNFBXFg8I5IGW0Jr7GM_FlCE2tyLVFFG =624x355)
-
 ## How queue prioritization in messaging impacts your KPIs
 
 The unique nature of messaging means that companies need to adjust their KPIs accordingly. . Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
 
-| --- | --- | --- | --- |
 | KPI | Value | Impact | Why? |
+| --- | --- | --- | --- |
 | Avg. time to resolve important conversations | Decrease | Positive | Resolution of important conversations will decrease because they will advance in the queue and the average time to resolve will shorten.  |
 | Number of handled conversations | Increase | Positive | If you prioritize, for example, by likeilhood of interactions, you will catch engaged consumers and be able to handle and close more conversations.  |
 | Wait time for high priority skills | Decrease | Positive | With a clear way to focus agents on high priority consumers - defined by attributes - high priority consumers will be answered first.  |
@@ -118,8 +117,8 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 
 **Use cases of queue prioritization**
 
-| --- | --- | --- |
 | Use case | Goal | KPI |
+| --- | --- | --- |
 | Prioritize VIP customers | Better service for VIP customers | CSAT of VIP increasesCSAT of non-VIP decreasesAvg. time to resolve  VIP increases |
 | Prioritize fresh customers- likiehood for interaction  | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
 | Sales - Intent to purchase | Increase conversions | Total conversation increases |
