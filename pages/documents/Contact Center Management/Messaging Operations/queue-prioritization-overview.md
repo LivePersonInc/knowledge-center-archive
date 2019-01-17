@@ -1,5 +1,5 @@
 ---
-pagename: Queue Prioritization Overview
+pagename: Queue prioritization overview
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
