@@ -5,10 +5,9 @@ subCategoryName: Engagement attributes
 indicator: both
 subtitle: ''
 level3: ''
-permalink: data-reporting-engagement-attributes-data-sources-engagement-attributes-overview
+permalink: data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html
 isTutorial: false
 date: 2019-01-17 13:41:05 +0200
-published: false
 
 ---
 Collecting the right information enables you to customize your visitors’ experience and design engagements that will give you the best business results. LivePerson Data Sources makes it possible for you to collect information from multiple sources. By connecting to these sources, you can track key actions and their monetary value, and gain deeper insight into your visitors’ behavior.
