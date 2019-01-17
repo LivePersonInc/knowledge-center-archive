@@ -101,7 +101,7 @@ Out of the conversations considered actionable, and an additional mechanism filt
 | Data-driven variables | freshness, interactive |
 | Business use case variable | transfer, intent (urgent issue), consumer attributes (VIP), skill and channel |
 
-## How queue prioritization in messaging impacts your KPIs
+## How queue prioritization impacts your KPIs
 
 The unique nature of messaging means that companies need to adjust their KPIs accordingly. . Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
 
