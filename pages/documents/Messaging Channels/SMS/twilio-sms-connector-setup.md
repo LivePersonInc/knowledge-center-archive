@@ -8,6 +8,7 @@ level3: ''
 permalink: twilio-sms-connector-setup.html
 isTutorial: false
 date: 2019-01-17 17:11:38 +0200
+published: false
 
 ---
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
@@ -39,8 +40,8 @@ For brands, creating a presence on the channels used by their consumers is key t
 6\. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
    * EMEA accounts: [https://lo.msg-gw.liveperson.net/api/](https://lo.msg-gw.liveperson.net/api/ "https://lo.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
-    * North America accounts: [https://va.msg-gw.liveperson.net/api/](https://va.msg-gw.liveperson.net/api/ "https://va.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
-    * APAC accounts: [https://sy.msg-gw.liveperson.net/api/](https://sy.msg-gw.liveperson.net/api/ "https://sy.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
+   * North America accounts: [https://va.msg-gw.liveperson.net/api/](https://va.msg-gw.liveperson.net/api/ "https://va.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
+   * APAC accounts: [https://sy.msg-gw.liveperson.net/api/](https://sy.msg-gw.liveperson.net/api/ "https://sy.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
 
 ![](/img/twilio sms set up 6-1.png)
 
