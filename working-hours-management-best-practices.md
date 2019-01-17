@@ -9,7 +9,6 @@ level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
 date: 2019-01-17 15:13:10 +0200
-published: false
 
 ---
 The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
