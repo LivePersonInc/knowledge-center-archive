@@ -20,7 +20,6 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio sms set up 1.png)
 
 {:start="2"}
-
 1. Purchase a new number to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
    **Note:** You must select a number with SMS capabilities
@@ -37,7 +36,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio sms set up 4.png)
 
 {:start="6"}
-6\. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
+6. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
    * EMEA accounts: [https://lo.msg-gw.liveperson.net/api/](https://lo.msg-gw.liveperson.net/api/ "https://lo.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
    * North America accounts: [https://va.msg-gw.liveperson.net/api/](https://va.msg-gw.liveperson.net/api/ "https://va.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
@@ -46,12 +45,12 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio sms set up 6-1.png)
 
 {:start="7"}
-7\. Navigate to the following page \[[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")\] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
+7. Navigate to the following page \[[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")\] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
 
 ![](/img/twilio sms set up 7.png)
 
 {:start="8"}
-8\. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.
+8. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.
 9. On the conversation sources tab, click on Connect in the Twilio SMS box.
 10. Toggle the Activate Twilio SMS Source to enabled.
 11. Under Twilio account configuration, enter the following details from your Twilio account:
