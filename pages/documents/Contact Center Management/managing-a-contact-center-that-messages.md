@@ -3,12 +3,13 @@ pagename: Managing a contact center that messages
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: ''
+subtitle: In order for brands to run their contact centers efficiently with messaging,
+  everything from agent best practices to staffing, queuing, routing and KPIs needs
+  to be tailored to messaging operations.
 level3: ''
-permalink: contact-center-management-messaging-operations-managing-a-contact-center-that-messages
+permalink: contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html
 isTutorial: false
-date: 2019-01-16 16:34:32 +0200
-published: false
+date: 2019-01-16 14:34:32 +0000
 
 ---
 # Managing a contact center that messages
