@@ -8,7 +8,6 @@ level3: ''
 permalink: data-&-reporting-report-builder-moving-from-BI-to-report-builder.html
 isTutorial: false
 date: 2019-01-17 11:52:11 +0200
-published: false
 
 ---
 Report Builder is a new and improved version of LiveEngage BI dashboards.  
