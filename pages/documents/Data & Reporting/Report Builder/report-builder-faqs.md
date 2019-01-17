@@ -7,8 +7,7 @@ subtitle: All the questions you want answered about the Report Builder
 level3: ''
 permalink: data-&-reporting-report-builder-report-builder-FAQs.html
 isTutorial: false
-date: 2019-01-16 15:47:26 +0200
-published: false
+date: 2019-01-16 13:47:26 +0000
 
 ---
 ## Framework inquiries

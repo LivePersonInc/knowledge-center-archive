@@ -12,8 +12,6 @@ isTutorial: false
 date: 2019-01-16 14:34:32 +0000
 
 ---
-# Managing a contact center that messages
-
 Messaging is now the preferred mode of communication for both sales and care use cases. Over 90% of people’s day-to-day conversations happen in digital messaging channels like SMS, Facebook and WhatsApp. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are - through messaging. This shift traditional voice calls and live chat to messaging is transforming the way brands and consumers communicate.
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
@@ -42,14 +40,10 @@ Most contact centers today are equipped for session-based interactions, such as 
 **Stage 3 - Measurement**: Many of the traditional KPIs used to measure session-based interactions are no longer applicable to messaging. KPIs and metrics specific messaging to must be used in order to understand the performance and ROI of a messaging program.
 
 ## Handling the influx of conversations from messaging
-
 Since messaging is intuitive to consumers and easily accessible on an array of channels, the number of messages entering the contact center tend to grow. Many brands are uncertain how to handle an increase in conversations and are concerned their agents will be swamped, wait times will increase, and there will be overall inefficiency. LivePerson’s end-to-end conversational platform gives brands the tools and capabilities that focus on automation to scale conversations:
 
 ### Routing
-
 LivePerson [routing engine]() deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a routing bot.
-
-![](https://lh5.googleusercontent.com/6MuKsVgvGjWJu8m6ai_BH6hUEIq8LsyeBKnSsYRTyV0Gx1j5OkmkRhirfMal1zrp2afh3_g4JIZr0jK1pzrdwlhx8n0p1hA9eTy34a26n06s2Hiho-dFi7YqGQDftK-tSjJeBwii =531x375)
 
 ### Queue prioritization
 
@@ -91,8 +85,8 @@ Conversations that are not completed but are inactive may clutter up the agent w
 
 The agent workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the agent workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the agent workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more in the [get acquainted with the agent workspace]().
 
-## Measuring the success of messaging with the right KPIs
+## Measuring messaging with the right KPIs
 
 While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, messaging cannot be measured the same way. That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
 
-LivePerson has developed a set of proprietary data KPIs, such as  Meaningful Connection Score - an automated, real-time measurement of customer satisfaction metric**-** that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging]().
+LivePerson has developed a set of proprietary data KPIs, such as  [Meaningful Connection Score]() - an automated, real-time measurement of customer satisfaction metric that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging]().
