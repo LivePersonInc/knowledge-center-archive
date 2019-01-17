@@ -8,7 +8,6 @@ level3: ''
 permalink: queue-backlog-management.html
 isTutorial: false
 date: 2019-01-17 12:09:46 +0200
-published: false
 
 ---
 When long queues build up, whether overnight or during an outage, consumers often become unavailable once they have sent a message. When an agent is eventually able to reply, smart capacity will still wait for a predefined interval before reducing the intensity of the conversation. This means the agent is kept waiting in vain for the consumer's response.
