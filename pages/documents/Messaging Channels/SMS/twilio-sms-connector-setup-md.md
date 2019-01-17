@@ -65,7 +65,11 @@ For brands, creating a presence on the channels used by their consumers is key t
 1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
 2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
 
-{: .important}
-**Note:**
-* Brands are able to connect multiple Twilio SMS numbers to their account and route each number to a separate skill. If you have more than one SMS number attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.
-* Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharing images outside these regions will not work due to Twilio limitations.
+
+<div class="important">
+<b>Note:</b>
+  <ul>
+    <li>Brands are able to connect multiple Twilio SMS numbers to their account and route each number to a separate skill. If you have more than one SMS number attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.</li>
+    <li>Twilio only supports sharing images (MMS) in the US and Canada. Therefore sharing images outside these regions will not work due to Twilio limitations.</li>
+  </ul>
+</div>
