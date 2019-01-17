@@ -71,7 +71,16 @@ p {
 }
 
 p img {
-  width: 770px;
+  width: 650px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.inlineimage {
+  width: 40px;
+  vertical-align: bottom;
 }
 
 .sidebyside {
@@ -589,7 +598,7 @@ h3 {
 
 #listrow {
   display: flex;
-
+  margin-top: 10px;
 }
 
 .footertitle {
@@ -616,12 +625,13 @@ h3 {
   width: 40%;
   background-color: #eef0f1;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 0px solid #fff;
 }
 
 #footerbottomrow {
   display: flex;
+  margin-bottom: 5px;
 }
 
 #footertext {

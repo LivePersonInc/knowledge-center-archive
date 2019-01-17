@@ -24,7 +24,7 @@
         <ul class="pagesfolder getsOpened">
           {% for level3 in page.level3 %}
           <li class="level3item">
-            <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '/' | append: subcategory.subcategoryname | append: '/' | append: level3.level3name | append: '/'| append: page.pagename | slugify }}">{{ level3.level3name }}</span></a>
+            <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '/' | append: subcategory.subcategoryname | append: '/' | append: page.pagename | append: '/'| append: level3.level3name | slugify }}">{{ level3.level3name }}</span></a>
           </li>
           {% endfor %}
           </ul>

@@ -4,7 +4,6 @@ categoryName: Getting started
 subCategoryName: ''
 indicator: chat
 subtitle: Checklist for set up and configuration to get your live chat program running
-level3Name: ''
 permalink: getting-started-live-chat.html
 isTutorial: false
 date: 2019-01-14 10:27:58 +0000
