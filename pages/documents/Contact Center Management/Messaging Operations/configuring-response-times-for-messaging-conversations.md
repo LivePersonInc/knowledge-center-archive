@@ -37,10 +37,10 @@ When an agent transfers a conversation to a different skill, its response time i
 
 In addition, if it was “pending consumer” since the agent wrote a message before transferring, and therefore did not have a response time, it will become “pending agent” again and will be given a new response time.
 
- {: .notice}
+{: .notice}
 This behavior can be disabled if required. To disable the “pending agent” after transfer feature contact the LivePerson Consulting Services.
 
-For further information, refer to the **About Skills article** in the Related Articles section below.
+For further information, refer to the [About Skills article]() in the Related Articles section below.
 
 **Manual override**
 
@@ -81,7 +81,7 @@ To configure response times for the entire account:
 Note: Auto close for messaging conversations can also be configured here. For further information, refer to the _Auto close_ article in the related articles section. To override the account level configured response times for a specific skill:
 
 1. From the skills management view, click on the skill that you want to edit.
-2. Under _Messaging Response time_ select **Custom setting**s.
+2. Under _Messaging Response time_ select **Custom settings**.
 3. Adjust the response times for each conversation type as required. Time units are available in minutes, hours and days.
 4. Click **Save**.  
    Notes:
