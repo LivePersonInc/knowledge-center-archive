@@ -515,18 +515,15 @@ a.mainlink:hover {
   flex-direction: column;
 }
 
-.releasenotesbox {
+.releasenoteslink {
   display: flex;
   flex-direction: column;
   background-color: #fff;
   width: 379px;
   height: 65px;
   margin-bottom: 20px;
-  padding-left: 20px
-}
-
-.releasenotesbox:last-child {
-  margin-bottom: 0px;
+  padding-left: 20px;
+  text-decoration: none;
 }
 
 .releasenotestitle {

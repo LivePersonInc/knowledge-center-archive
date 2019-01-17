@@ -118,22 +118,14 @@
   <div id="rightcontainer">
     <div id="secondpaneltitle">Release Notes</div>
     <div id="releasenotescontainer">
+      {% for release in site.data.releasenotes limit: 4 %}
+      <a class="releasenoteslink" href="/release-notes-{{ release.yearReleased }}-{{ release.monthReleased }}-{{ release.releasedate }}.html">
       <div class="releasenotesbox">
         <div class="releasenotestitle">WEEK OF</div>
-        <div class="releasenotesdate">December 9th 2018</div>
+        <div class="releasenotesdate">{{ release.releasedate }}</div>
       </div>
-      <div class="releasenotesbox">
-        <div class="releasenotestitle">WEEK OF</div>
-        <div class="releasenotesdate">December 9th 2018</div>
-      </div>
-      <div class="releasenotesbox">
-        <div class="releasenotestitle">WEEK OF</div>
-        <div class="releasenotesdate">December 9th 2018</div>
-      </div>
-      <div class="releasenotesbox">
-        <div class="releasenotestitle">WEEK OF</div>
-        <div class="releasenotesdate">December 9th 2018</div>
-      </div>
+    </a>
+      {% endfor %}
       </div>
       <div class="seeallbox">See all release notes</div>
     </div>
