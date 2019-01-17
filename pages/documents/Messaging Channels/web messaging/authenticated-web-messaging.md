@@ -13,8 +13,8 @@ published: false
 ---
 The following document guides you through creating authenticated web messaging.  To complete your web messaging program, you may also use:
 
-* Getting started with web messaging
-* Adding web messaging to your website
+* [Getting started with web messaging]()
+* [Adding web messaging to your website]()
 
 ## **Why use authentication?**
 
@@ -37,7 +37,7 @@ Watch how web messaging can be seamless across web and mobile using authenticate
 
 [https://vimeo.com/253109875/b4b118ece0](https://vimeo.com/253109875/b4b118ece0 "https://vimeo.com/253109875/b4b118ece0")
 
-### **Authenticated Web Messaging flow:**
+## **Authenticated Web Messaging flow:**
 
 Before a messaging conversation can be offered, a customer must authenticate.
 
@@ -231,7 +231,7 @@ Example of implicit flow response:
 
 #### Error Responses
 
-**QueryParams**
+QueryParams
 
 Required:
 
@@ -282,7 +282,7 @@ In order to enable, turn on the **_le.agent.messaging.sdes_** site setting.
    When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
 7. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
 
-## **Authenticated alongside unauthenticated in your account**
+## **Authenticated alongside unauthenticated** 
 
 You may wish to have both authenticated as well as unauthenticated web messaging on your account.
 
