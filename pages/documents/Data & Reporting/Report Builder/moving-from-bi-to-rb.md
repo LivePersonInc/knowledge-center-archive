@@ -12,137 +12,141 @@ published: false
 
 ---
 Report Builder is a new and improved version of LiveEngage BI dashboards.  
-With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder goes beyond the capabilities available in LE BI.  
-  
-Getting started and Accessing Report Builder
+With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder goes beyond the capabilities available in LE BI.
+
+## Getting started and accessing Report Builder
 
 Brands can access Report Builder through the LiveEngage UI, from the Messaging Real-time Dashboard, Queue Health Dashboard, and Campaign Dashboard.
 
 To access Report Builder:
 
 1. Log into LiveEngage using your Campaign Manager or Agent Manager credentials.
-2. Open the dashboard by clicking the drag down icon (![drag-down.png](https://lh5.googleusercontent.com/DLp_FmrhWKPMkxnvMz20YY9E1ckR0qGtLXSlbJvyh_bntNtG4cy4F8G9X79xHj_VJ0K3iLTvKYoF0dEbuY6l6eqNF0klbqkvRH0DdoRXNi3us5qpgJnLTWNeYbGkhTA3eiUAVu4N =16x12)).
-3. Click the Report Builder icon (![report builder icon.png](https://lh6.googleusercontent.com/t7k_wTby8L_NSUhppvjkPgGAaauaTzqpLoOCCYOro89ZlsD_2FmK7-q0BspFf-l9WDVaRvyJPfSrFLT5-kypJk-wyRjjaoI_bJoITs2nxQXfY70JgoGVK1TAPSYXici-QyMKQJTc =30x35)) on the left of the screen. A new tab is opened.
-4. Click **Shared Reports**. Two folders are displayed:
+2. Open the dashboard by clicking the drag down icon.
+3. Click the Report Builder icon on the left of the screen. A new tab is opened.
+4. Click **shared reports**. Two folders are displayed:
    * **LE predefined dashboards**: All available predefined LiveEngage dashboards.
-   * **My Account**: Reports that have been designed specifically for your account.
+   * **My account**: Reports that have been designed specifically for your account.
 5. Click on a folder to view the available reports inside.
 
-Please see the [Report Builder Overview](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Report+Builder/Report+Builder+Overview.pdf) for detailed instructions and more information.
+Please see the [Report Builder Overview]() for detailed instructions and more information.
 
 ## Available data and dashboards
 
-Report Builder includes all the data that is available in BI and much more (for example, Messaging KPIs are only available through RB). 
+Report Builder includes all the data that is available in BI and much more (for example, messaging KPIs are only available through RB).
 
-Please note that though the visualizations and grids may vary between the BI dashboards and their equivalent in the Report Builder, all the data can be obtained from these dashboards.  
+Please note that though the visualizations and grids may vary between the BI dashboards and their equivalent in the Report Builder, all the data can be obtained from these dashboards.
 
-In case a certain KPI is not available out-of-the-box in a RB dashboard, please reach out to your LP team to ensure it is added to your dashboards. Brands with a Customer Success Offering can also request for customized dashboards with self-defined KPIs and visualizations tailored to their business needs.
+In case a certain KPI is not available out-of-the-box in a RB dashboard, please reach out to your LP team to ensure it is added to your dashboards. Brands with a customer success offering can also request for customized dashboards with self defined KPIs and visualizations tailored to their business needs.
 
 Below are the steps needed in order to reach each of the available reports in the BI, through RB:
 
-# Agent Manager BI dashboards
+### Agent manager BI dashboards
 
-Agent Manager BI dashboards are available through ‘VISITORS’ tab in LE.
+Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 ![](https://lh4.googleusercontent.com/C_72WLsSBRFuKXW9zFQfriBSwJU_INiG5CcunpMKAJj2JUrW8mQkIsscD6CKW3yBnoJAx_KDYK8j_0_l0L_VbBF_N0FMc1nFOKZikiOHa_ZmLaJ3YMgzFKsBoZUXUViigLQs9kfs =614x349)
 
-## Agent activity
+### Agent activity
 
-1. Go to: Shared Reports > LE predefined dashboards > Agent Activity Dashboard 
+1. Go to: Shared reports > LE predefined dashboards > agent activity dashboard
 2. Choose your selectors:
    1. Time frame selector - the time frame included in the report
    2. Hour offset selector - the timezone in which the data is presented
-3. **DASHBOARD**: Agent Activity Dashboard - 1st panel (default panel)
-4. **GRID**: Agent Activity Grid - 2nd panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
+3. **DASHBOARD**: Agent activity dashboard - 1st panel (default panel)
+4. **GRID**: Agent activity grid - 2nd panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
-## Agent Goal Tracker
+### Agent goal tracker
 
-1. Go to: Shared Reports > LE predefined dashboards > Goal Tracker Dashboard 
+1. Go to: Shared reports > LE predefined dashboards > Goal tracker dashboard
 2. Choose your selectors:
-   1. Time frame selector - the time frame included in the report
-   2. Hour offset selector - the timezone in which the data is presented
 
-## Survey Activity
+* Time frame selector - the time frame included in the report
+* Hour offset selector - the timezone in which the data is presented
 
-1. Go to: Shared Reports > LE predefined dashboards > Survey Activity Dashboard 
+### Survey activity
+
+1. Go to: Shared reports > LE predefined dashboards > Survey activity dashboard
 2. Selectors screen: Select the time frame for the report
-3. **DASHBOARD**: Survey Activity Dashboard - 1st tab (default tab)
-4. **GRID**: Survey Activity Grid - 2nd tab (move between panel by clicking on the blue dots at the bottom of the dashboard)
+3. **DASHBOARD**: Survey activity dashboard - 1st tab (default tab)
+4. **GRID**: Survey activity grid - 2nd tab (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
-## Engagement Activity
+### Engagement activity
 
-1. Go to: Shared Reports > LE predefined dashboards > Skill Activity Dashboard 
+1. Go to: Shared reports > LE predefined dashboards > Skill activity dashboard
 2. Selectors screen: Select the time frame for the report
-3. **DASHBOARD**: Skill Activity Dashboard - 1st panel (default panel)
-4. **GRID**: Skill Activity Grid - 2nd panel (move between panel by selecting the 2nd blue dot at the bottom of the dashboard)
+3. **DASHBOARD**: Skill activity dashboard - 1st panel (default panel)
+4. **GRID**: Skill activity grid - 2nd panel (move between panel by selecting the 2nd blue dot at the bottom of the dashboard)
 
-# Campaign BI dashboards
+### Campaign BI dashboards
 
 Campaign BI dashboards are available through ‘CAMPAIGNS’ tab in LE.
 
 ![](https://lh5.googleusercontent.com/1y1L3KBXt-eXDU8KnU_gnqouvUSGBKIqKUlkxfTbzSPG-dXXQl7gUAOqlQQZibCVbR5mXJadUPTKXidPpdRgJXDYtziNMGh__WowHzzurQnNwuhkhiqi2S2nGQXZXgmtQ0aReMRF =624x353)
 
-## Campaign Dashboard 
+### Campaign dashboard
 
-1. Go to: Shared Reports > LE predefined dashboards > Business Activity Dashboard 
+1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 
-## Site Level Grid - Daily
+### Site level grid - daily
 
-1. Go to: Shared Reports > LE predefined dashboards > Business Activity Grid - Daily
+1. Go to: Shared Reports > LE predefined dashboards > business activity grid - daily
 2. Selectors screen: Select the time frame for the report
 
-## Site Level Grid - Monthly
+### Site level grid - monthly
 
-1. Go to: Shared Reports > LE predefined dashboards > Business Activity Grid - Monthly
+1. Go to: Shared Reports > LE predefined dashboards > business activity grid - monthly
 2. Selectors screen: Select the time frame for the report
 
-## Campaign Level Grid 
+### Campaign level grid
 
-1. Go to: Shared Reports > LE predefined dashboards > Business Activity Dashboard 
+1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. Campaign - 3rd panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
-## Engagement Level Grid 
+### Engagement level grid
 
-1. Go to: Shared Reports > LE predefined dashboards > Business Activity Dashboard 
+1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. Engagement- 4th panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
-# Considerations
+## Considerations
 
-## Timezone for data display
+### Time zone for data display
 
-The Agent Manager BI displays data in the user’s local timezone, while the Report Builder dashboards and Campaign BI utilize the the LiveEngage account-level time zone configuration.
+The agent manager BI displays data in the user’s local timezone, while the Report Builder dashboards and campaign BI utilize the the LiveEngage account level time zone configuration.
 
-When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the Agent Activity Dashboard​ and the Goal Tracker Dashboard, ​users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
+When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the agent activity dashboard​ and the goal tracker dashboard, ​users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. The data in RB is shown according to LiveEngage’s account-level time zone configuration. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
 
-## Data Refresh
+### Data refresh
 
-# Currently in RB, data is refreshed once a day, to include data up to the previous day (inclusive). In the August release, the refresh rate will increase to three times a day.
+Currently in RB, data is refreshed once a day, to include data up to the previous day (inclusive). In the August release, the refresh rate will increase to three times a day.
 
-## Data Display
+### Data display
 
-In RB, within each dashboard, data can be displayed for any four month period from over the previous 13 months (the months do not have to be consecutive). However, in the Business Activity Grid - Monthly​, ​users are able to select to display the entire last 13 months of data.
+In Report Builder, within each dashboard, data can be displayed for any four month period from over the previous 13 months (the months do not have to be consecutive). However, in the business activity grid - monthly​, ​users are able to select to display the entire last 13 months of data.
 
 ## Funnel metrics
 
-Funnel metrics, such as prospects and exposures, may show higher numbers in Report Builder predefined dashboards, for the same filtered timeframe. 
+Funnel metrics, such as prospects and exposures, may show higher numbers in Report Builder predefined dashboards, for the same filtered timeframe.
 
 The different originates from the methodology funnel metrics are computed:
 
-* Campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
-* Report Builder uses only the Visit session start time
+* Campaign BI uses both the visit session start time and the event time to match between the date/time filter and the metric results
+* Report Builder uses only the visit session start time
 
 Example
 
 1. The following session is given
-   1. 20-Feb 23:30 Visitor enters the website
-   2. 20-Feb 23:35 Visitor becomes eligible for a campaign (Prospect)
-   3. 21-Feb 00:10 Visitor views a chat button (Exposure)
-   4. 21-Feb 00:15 Visitor clicks on chat button (Accepted Offer)
+
+* 20-Feb 23:30 Visitor enters the website
+* 20-Feb 23:35 Visitor becomes eligible for a campaign (prospect)
+* 21-Feb 00:10 Visitor views a chat button (exposure)
+* 21-Feb 00:15 Visitor clicks on chat button (accepted offer)
+
 2. A Campaign Manager sets the date filter to 20-Feb (full day)
 
+|  | Prospects | Exposed | Accepted Offers |
 | --- | --- | --- | --- |
 |  | Prospects | Exposed | Accepted Offers |
 | Campaign BI | 1 | 0 | 0 |
@@ -152,4 +156,4 @@ The Campaign BI validates that both visit start time and the event time were rec
 
 Report Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Report Builder glossary file](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Report+Builder/Report+Builder+Predefined+Dashboards+Glossary.xlsx) for the full list of available metrics.
 
-For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area. 
+For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
