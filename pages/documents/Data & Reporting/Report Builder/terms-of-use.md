@@ -8,7 +8,6 @@ level3: ''
 permalink: data-&-reporting-report-builder-terms-of-use.html
 isTutorial: false
 date: 2019-01-17 11:43:05 +0200
-published: false
 
 ---
 ## Our Commitment
