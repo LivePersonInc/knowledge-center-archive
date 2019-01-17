@@ -57,7 +57,6 @@ Before you can start creating your buttons or banners, you need to set up your c
 To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
-
 * Business goal
 * Target audience
 * Time frame
