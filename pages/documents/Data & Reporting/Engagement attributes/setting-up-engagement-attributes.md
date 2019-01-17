@@ -8,13 +8,12 @@ level3: ''
 permalink: data-&-reporting-engagement-attributes-setting-up-engagement-attributes.html
 isTutorial: false
 date: 2019-01-17 14:12:28 +0200
-published: false
 
 ---
-LivePerson provides out-of-the-box basic information about your visitors, for example, the visitor’s geolocation, the amount of time they spent on a page, and which pages they viewed.  
-  
-In order to collect more in-depth, specific information such as product viewed, purchase information, errors the visitor encountered, and search results, you can set up engagement attributes.  
-  
+LivePerson provides out-of-the-box basic information about your visitors, for example, the visitor’s geolocation, the amount of time they spent on a page, and which pages they viewed.
+
+In order to collect more in-depth, specific information such as product viewed, purchase information, errors the visitor encountered, and search results, you can set up engagement attributes.
+
 Information collected using engagement attributes can be used to achieve the following:
 
 * Create specific and advanced targeting of visitors
@@ -23,7 +22,7 @@ Information collected using engagement attributes can be used to achieve the fol
 * Receive a comprehensive view of visitor engagement history
 * Measure and track campaign goals
 
-For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) on our Developer Community. 
+For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) on our Developer Community.
 
 **Validating the engagement attributes value**
 
