@@ -8,7 +8,6 @@ level3: ''
 permalink: configuring-response-times-for-messaging-conversations.html
 isTutorial: false
 date: 2019-01-17 11:53:26 +0200
-published: false
 
 ---
 The LivePerson routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
@@ -21,7 +20,8 @@ Response times can be configured at the account level and by skill for three typ
 * Urgent  - where the consumer marked the conversation as urgent
 * First time - where it is the very first time the consumer has initiated a conversation with the brand. A first time consumer will get the first time response time throughout his/her first conversation with the brand and not only on the first message.
 
-{: .notice} Urgent capabilities are available for web and in-app messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
+{: .notice}
+Urgent capabilities are available for web and in-app messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
 
 ![](/img/config-response-time-1.png)
 
@@ -37,7 +37,8 @@ When an agent transfers a conversation to a different skill, its response time i
 
 In addition, if it was “pending consumer” since the agent wrote a message before transferring, and therefore did not have a response time, it will become “pending agent” again and will be given a new response time.
 
-\* This behavior can be disabled if required. To disable the “pending agent” after transfer feature contact the LivePerson Consulting Services.
+ {: .notice}
+This behavior can be disabled if required. To disable the “pending agent” after transfer feature contact the LivePerson Consulting Services.
 
 For further information, refer to the **About Skills article** in the Related Articles section below.
 
@@ -46,8 +47,6 @@ For further information, refer to the **About Skills article** in the Related Ar
 In some instances an agent may need to alter a response time, for example, if they need more time to deal with the consumer’s inquiry. To achieve this they can override the conversation’s given response time, by manually changing it within the conversation window.
 
 Each conversation’s response time is displayed in the Active Connections page in countdown format, so agents have full visibility at all times over which conversations to prioritize with a response.
-
-![](https://lh6.googleusercontent.com/72RamHv-fgOH9LjDaC-kP9RqqxS10vAioTXnOo17YUd9UYuD2bXcmMynbLNRQnBWu-hg5-bqxI7qnMgyHLWgyYBdjR-L97y204Vfm4p60dXeB3EPO8UyUZhVFAX_2A7k4C6PXr-p =315x362)
 
 Note: When agents manually update the response time and subsequently send or receive a message within the configured response time, the updated response time is not affected. This could lead to the conversation becoming overdue, even if correctly handled within the set time. This is explained in the pop-up that appears to agents when manually changing the response time.
 
@@ -71,7 +70,7 @@ Configuration of response times for the different conversation types is availabl
 
 To configure response times for the entire account:
 
-1. Click the **Night Vision** button at the top of the screen. ![](https://lh4.googleusercontent.com/lw4CIxOcvH0oNeBnDVxSPXW-5f99TPSjel75qvX1o6icAeVo2TPBXgxIZPejwJMIdEaUp6ZIc4Rm0HoYGjZRN8wddqcaPs9hOz8uVuhPsoUGMijcs4rHGT-2aTpKTMjlI1qwDme- =29x29)
+1. Click the **Night Vision** button at the top of the screen
 2. Under _Response time_, click **Edit**.
 3. The _Response time_ window opens. Adjust the response times for each conversation type as required. Time units are available in minutes, hours and days.
 
@@ -79,9 +78,7 @@ To configure response times for the entire account:
 
 1. Click **Save**.
 
-Note: Auto close for messaging conversations can also be configured here. For further information, refer to the _Auto close_ article in the related articles section.
-
-To override the account level configured response times for a specific skill:
+Note: Auto close for messaging conversations can also be configured here. For further information, refer to the _Auto close_ article in the related articles section. To override the account level configured response times for a specific skill:
 
 1. From the skills management view, click on the skill that you want to edit.
 2. Under _Messaging Response time_ select **Custom setting**s.
