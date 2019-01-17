@@ -148,3 +148,4 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/Messaging Channels/SMS/sms-connector-md.md
+- pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup-md.md
