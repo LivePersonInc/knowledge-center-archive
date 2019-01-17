@@ -11,7 +11,7 @@ isTutorial: false
 date: 2019-01-17 15:01:22 +0200
 
 ---
-## The agent warmup
+### The agent warmup
 
 In order for agents to start their shifts smoothly and be able to ‘warm up’ to the flow of conversations, brands can configure LivePerson to assign conversations to the agents gradually.
 
@@ -19,7 +19,7 @@ In order for agents to start their shifts smoothly and be able to ‘warm up’ 
 
 When an agent first signs in they will receive one conversation. After a pre-configured time interval a second conversation will be assigned, and so on, until the agent reaches their maximum number of messaging conversations.
 
-**How it works:**
+### How it works
 
 The warm up algorithm incrementally assigns the conversations to the agent in the following way:
 
