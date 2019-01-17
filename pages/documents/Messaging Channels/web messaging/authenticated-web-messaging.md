@@ -182,7 +182,7 @@ To configure authentication in a separate browser window, proceed as follows:
    ![](/img/authweb6.png)
 
 {:start="3"}
-   2\. Once authentication expires, a message that prompts the visitor to log in 
+ 2. Once authentication expires, a message that prompts the visitor to log in 
 
    appears, redirecting the visitor back to the login page.
 
