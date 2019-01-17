@@ -8,7 +8,6 @@ level3: ''
 permalink: data-&-reporting-report-builder-data-availability-and-latency.html
 isTutorial: false
 date: 2019-01-17 11:37:53 +0200
-published: false
 
 ---
 ### **How long is data stored for in Report Builder?**
