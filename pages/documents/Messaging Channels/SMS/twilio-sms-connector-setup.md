@@ -8,7 +8,6 @@ level3: ''
 permalink: twilio-sms-connector-setup.html
 isTutorial: false
 date: 2019-01-17 17:11:38 +0200
-published: false
 
 ---
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
@@ -22,7 +21,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 {:start="2"}
 1. Purchase a new number to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
-**Note:** You must select a number with SMS capabilities
+	**Note:** You must select a number with SMS capabilities
 
 ![](/img/twilio sms set up 2.png)
 
