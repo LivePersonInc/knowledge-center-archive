@@ -119,7 +119,7 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 
 | Use case | Goal | KPI |
 | --- | --- | --- |
-| Prioritize VIP customers | Better service for VIP customers | CSAT of VIP increasesCSAT of non-VIP decreasesAvg. time to resolve  VIP increases |
+| Prioritize VIP customers | Better service for VIP customers | CSAT of VIP increases; CSAT of non-VIP decreases; Avg. time to resolve  VIP increases |
 | Prioritize fresh customers- likiehood for interaction  | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
 | Sales - Intent to purchase | Increase conversions | Total conversation increases |
 
