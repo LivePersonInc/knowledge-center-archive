@@ -262,10 +262,47 @@
 
 - categoryname: Release notes
   subcategories:
-    - subcategoryname: December 2018
-    - subcategoryname: November 2018
-    - subcategoryname: October 2018
-    - subcategoryname: September 2018
-    - subcategoryname: August 2018
-    - subcategoryname: July 2018
-    - subcategoryname: June 2018
+    - subcategoryname: 2018
+      pages:
+        - pagename: December
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: November
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: October
+          level3:
+            - level3name: Week 1
+            - level3name: Week of October 8th 2018
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: September
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: August
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: July
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4
+        - pagename: June
+          level3:
+            - level3name: Week 1
+            - level3name: Week 2
+            - level3name: Week 3
+            - level3name: Week 4

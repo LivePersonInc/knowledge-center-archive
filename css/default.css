@@ -589,10 +589,12 @@ h3 {
 }
 
 .sidebarhr {
-  color: #dedddd;
+  background-color: #dedddd;
   height: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: none;
+  margin-right: 20px;
 }
 
 #defaultfooter {
