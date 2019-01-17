@@ -7,7 +7,7 @@ subtitle: Connect with your consumers on their native messaging app
 level3: ''
 permalink: sms-connector.html
 isTutorial: false
-date: 2019-01-17 16:40:01 +0200
+date: 2019-01-17 14:40:01 +0000
 
 ---
 The addition of SMS to LiveEngage operations, creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family. 
@@ -35,4 +35,4 @@ Our self-serve setup for the SMS connector means brands can quickly and easily a
 
 It's always important to ensure that your SMS operations meet local regulations and guidelines. For more information on compliance, read our best practices for complying with text messaging regulations [here]().
 
-**Please note:** The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000. 
+**Please note:** The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000.
