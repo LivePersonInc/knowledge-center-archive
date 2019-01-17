@@ -9,7 +9,6 @@ level3: ''
 permalink: contact-center-management-messaging-operations-smarty-capacity-overview.html
 isTutorial: false
 date: 2019-01-17 13:53:17 +0200
-published: false
 
 ---
 ## **Messaging's impact on the conversations lifecycle**
@@ -24,7 +23,7 @@ A chat agent with a capacity of three conversations will handle and resolve each
 
 If applied to a messaging conversation, the use of concurrency to determine the number of conversations assigned to an agent can lead to a substantial amount of idle time for the messaging agent. For example, an agent can be at maximum concurrency, with three conversations in progress, but be sitting idle because the agent is awaiting a consumer response in all of them.
 
-![](https://lh3.googleusercontent.com/ktxdKeYwWILC9L68N30pDayMyB0kYR9oOQWfiUsJFKCC01RGdTHd5JuM9w-6U4SKKeisMysC51eopmmkABGdzJ089zfzLY2i43CVUw5MBFtIivcvXBzNRpML_hnriSEm6fTYglR_ =433x161)
+![](/img/smart-capacity-overview-1.png)
 
 This can trigger several possible issues:
 
@@ -45,20 +44,19 @@ Conversations assigned to an agent can either be pending consumer or pending age
 {: .notice}
 Setting a manual SLA for a conversation will not affect its intensity, and therefore will not affect how Smart Capacity treats it.
 
+{:start="3"}
 1. When Smart Capacity detects a conversation with a low intensity, it will assign it with a lower weight. This frees up the agent’s capacity, allowing new conversations to enter the agent’s queue.
 
 {: .notice}
-In the future, smart capacity will use additional factors to calculate intensity, such as source, agent writing pace, conversation stage and so on.
-
 This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than their concurrency.
 
 For example, if an agent has three conversations open, but is only messaging actively in one of them, the algorithm will identify the low intensity of two of the conversations, assign them a low weight and direct additional conversations to that agent to maximize their productivity.
 
 The agent’s load as calculated above is displayed in the Messaging Agents List.
 
-**![](https://lh5.googleusercontent.com/zZJdg9DwlV_sAHsKabmeVEBF3PWdE-88IjCk0REOwo2hsaQYD3i6z10EhfDOxKxPMgDeejEUXPD2VE40leZbZTgZNxBDnW1kxIP_Rp4pmGg1vJJZz98IsASp09mEud_pO2vlTiJB =432x228)**
+![](/img/smart-capacity-overview-2.png)
 
-**An immediate and positive impact**
+### **An immediate and positive impact**
 
 Using smart capacity management, LivePerson will instantly increase the capacity of agents communicating with consumers via messaging. This will have a domino effect on other metrics, ensuring that queue size is kept down and consumer satisfaction is driven upwards.
 
@@ -68,42 +66,43 @@ Smart capacity results include:
 * Queue size is kept down.
 * Consumer satisfaction is increased.
 
-**Extra capacity**
+### **Extra capacity**
 
 Smart Capacity keeps an extra 0.5 slot to enable the assignment of new conversations. This can cause agents to exceed their configured capacity by up to 0.5 slots.
 
 For example:
 
-* **An agent has a configured capacity of 3 slots.**
-* **He currently has 2 'active' conversations which consume a full slot each, and one 'inactive' conversation which consumes 0.1 of a slot. In total he has 2.1 "busy" slots.**
-* **He will still be able to receive an additional incoming 'active' conversation due to the extra 0.5 slot.**
-* **After accepting the incoming conversation his busy slots count will be 3.1 - exceeding the maximum configured number of slots.**
+* An agent has a configured capacity of 3 slots.
+* He currently has 2 'active' conversations which consume a full slot each, and one 'inactive' conversation which consumes 0.1 of a slot. In total he has 2.1 "busy" slots.
+* He will still be able to receive an additional incoming 'active' conversation due to the extra 0.5 slot.
+* After accepting the incoming conversation his busy slots count will be 3.1 - exceeding the maximum configured number of slots.
 
-**Measurement**
+## **KPIs & Measurements**
 
 The agent load, displayed in a column in the Messaging Agent List, is an indication of the agent’s capacity and helps agent managers to understand how the agent is managing their workload.
 
 The load is calculated by dividing the total weight of the assigned conversations by the agent’s maximum number of messaging conversations (which can be configured on the user page). The weight of each conversation is determined using smart capacity.
 
-**To configure agent maximum capacity:**
+### **To configure agent maximum capacity:**
 
 1. On the **Users** list, click the user you would like to edit.
 2. Under ‘Max. no. messaging conversations’, enter the maximum number of **active conversations** the agent can handle.
 
 This means the maximum number of conversations with a high intensity of messages that the agent will be part of at any one time, and does not include conversations that are idle.
 
+{:start="3"}
 1. Click **Save**.
+![](/img/smart-capacity-overview-3-1.png)**
 
-**![](https://lh5.googleusercontent.com/UvnMUGsE3alFeV33sH47CjwDgzPGWpSYqLwgklP6uFichjJLuKEQjk2bbgWl2E5xaYWtD5iImingcwTD8OJ8GukoSMYKogXG7xN78fVEqEvNWo6o21mjTDOOFaIOrKgxIYIEE9IH =282x387)**
+{: .notice}
+To maximize agent capacity and ensure conversation routing is as rapid and efficient as possible, ensure the **Automatic Chat/Conversation Distribution (ACD)** feature is enabled to auto-accept on your account.
 
-Note: To maximize agent capacity and ensure conversation routing is as rapid and efficient as possible, ensure the **Automatic Chat/Conversation Distribution (ACD)** feature is enabled to auto-accept on your account.
+![](/img/smart-capacity-overview-4.png)
 
-![](https://lh3.googleusercontent.com/P1hL9ip_mBAn7PsLfKrDPKiA3aVVO4p3zI4s6zeartcZWjhUXfu4QShMIjcmn7p0oNc8J_YqqHQhMENJzSoi5Zy3ukXAoYN1tI4B74aJaaIptF6vGW9rEDNR8lPvhr9qfRyXarmO =430x254)
+**Auto-accept** means a new messaging conversation will open automatically, without the agent needing to accept it. Instead of lighting up the ‘waiting’ indicator at the bottom of the screen, the message will immediately appear as a new conversation in the agent workspace. Auto-accept does not disrupt the agent’s current conversation; new messages will wait in the conversation bar until the agent clicks on them.
 
-Auto-accept means a new messaging conversation will open automatically, without the agent needing to accept it. Instead of lighting up the ‘waiting’ indicator at the bottom of the screen, the message will immediately appear as a new conversation in the agent workspace. Auto-accept does not disrupt the agent’s current conversation; new messages will wait in the conversation bar until the agent clicks on them.
+![](/img/smart-capacity-overview-5.png)
 
-![](https://lh4.googleusercontent.com/F-uNgKY2ZHQX51VVb5gpYHOfpXrg8QYjTkOT3a759qmDySMYuhBdkIQN0OGqo8g5qyFehFzB7-D78wO1AVCGiIeL2NGIIeI28ELMQmG2fiofTcPWAgKHJr15jNgiPheu05wHax3s =432x300)
+### **Smart Capacity Per Skill**
 
-**Smart Capacity Per Skill**
-
-The Smart Capacity feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see  Smart Capacity Per Skill.
+The Smart Capacity feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Smart Capacity Per Skill]().
