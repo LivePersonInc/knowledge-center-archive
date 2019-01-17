@@ -136,14 +136,14 @@ The different originates from the methodology funnel metrics are computed:
 
 Example
 
-1. The following session is given
+The following session is given
 
 * 20-Feb 23:30 Visitor enters the website
 * 20-Feb 23:35 Visitor becomes eligible for a campaign (prospect)
 * 21-Feb 00:10 Visitor views a chat button (exposure)
 * 21-Feb 00:15 Visitor clicks on chat button (accepted offer)
 
-2. A Campaign Manager sets the date filter to 20-Feb (full day)
+  A Campaign Manager sets the date filter to 20-Feb (full day)
 
 |  | Prospects | Exposed | Accepted Offers |
 | --- | --- | --- | --- |
@@ -153,6 +153,6 @@ Example
 
 The Campaign BI validates that both visit start time and the event time were recorded during 20-Feb, while Report Builder only requires the visit start time to be recorded during 20-Feb.
 
-Report Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Report Builder glossary file](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Report+Builder/Report+Builder+Predefined+Dashboards+Glossary.xlsx) for the full list of available metrics.
+Report Builder funnel metrics that are included in the above explanation are available through the “exposures” and “viewed and "accepted offers” datasets. Please refer to the [Report Builder metrics table]() for the full list of available metrics.
 
-For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
+For any other question\\issue not listed above, please contact LivePerson technical support.
