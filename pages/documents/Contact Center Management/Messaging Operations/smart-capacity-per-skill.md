@@ -9,7 +9,6 @@ level3: ''
 permalink: contact-center-management-messaging-operations-smart-capacity-per-skill.html
 isTutorial: false
 date: 2019-01-17 14:39:54 +0200
-published: false
 
 ---
 ## Introduction 
