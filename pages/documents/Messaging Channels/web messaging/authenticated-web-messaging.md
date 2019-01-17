@@ -87,11 +87,13 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
    ![](/img/authweb2.png)
 
 {:start="3"}
+
 1. Next to the authentication server, click **Configure**.  The Authentication Server page is displayed.
 
    ![](/img/authweb3.png)
 
 {:start="4"}
+
 1. From the dropdown menu, select your preferred authentication method, and complete the required fields
 
    ![](/img/authweb4.png)
@@ -176,14 +178,15 @@ To configure authentication in a separate browser window, proceed as follows:
    ![](/img/authweb5.png)
 
 {:start="2"}
+
 1. Once the visitor is logged in and successfully authenticated, they are redirected to the conversation window with the provided authentication code.
 
    ![](/img/authweb6.png)
 
 {:start="3"}
- 2. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.
+2\. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.
 
-   ![](/img/authweb7.png)
+![](/img/authweb7.png)
 
 ### **How does separate browser window login work?**
 
@@ -260,9 +263,9 @@ Any EAs passed 12 hours before a conversation has started, and 12 hours after a 
 EAs will be presented in the Agent Workspace in several areas:
 
 1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
-2. All Connections - users will be able to search unauthenticated EAs in the All Connections table, as part of the EAs search.
+2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
-In order to enable, turn on the **_le.agent.messaging.sdes_** site setting.
+In order to enable, please contact your LivePerson representative. 
 
 ## **Limitations and Tips**
 
@@ -276,7 +279,7 @@ In order to enable, turn on the **_le.agent.messaging.sdes_** site setting.
    When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
 7. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
 
-## **Authenticated alongside unauthenticated** 
+## **Authenticated alongside unauthenticated**
 
 You may wish to have both authenticated as well as unauthenticated web messaging on your account.
 
