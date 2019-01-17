@@ -230,9 +230,8 @@ Example of implicit flow response:
 **QueryParams**
 
 Required:
-
-| --- | --- | --- |
 | Parameter | Description | Type / Value |
+| --- | --- | --- |
 | error | Error code | Invalid_request, invalid_client, invalid_grant, unauthorized_client, unsupported_grant_type, invalid_scope |
 
 Optional:
