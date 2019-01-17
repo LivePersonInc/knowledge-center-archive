@@ -51,7 +51,7 @@ Each conversation’s response time is displayed in the Active Connections page 
 
 Note: When agents manually update the response time and subsequently send or receive a message within the configured response time, the updated response time is not affected. This could lead to the conversation becoming overdue, even if correctly handled within the set time. This is explained in the pop-up that appears to agents when manually changing the response time.
 
-![](https://lh6.googleusercontent.com/tEXAaYfyMZ_OKi4vhWaxAmnAOUNfsy_BfJ5Bslkk-5brc9yihzDxsnFPxAuZo6Mc8TN2wEYiqY7lsSVG8LtE11Gx1MiD8lVd3xuGNBtAT3OXIeiCP8cEbz99oG9OwtKXpmXJKF7x =276x330)
+![](/img/config-response-time-1.png)
 
 **Offline hours**
 
@@ -59,11 +59,11 @@ LivePerson allows brands to set offline hours - the times during which no agents
 
 For example, if the contact center is offline from 8pm until 8am, and the default response time is 15 minutes, a consumer messaging at midnight will be given a response time of 8 hours and 15 minutes.
 
-![](https://lh5.googleusercontent.com/IM74StmA7myQ6v23ULCTukIM_hh3yAVN7TZrm9RWqIumWQ985rfZgyUW87O759IM1BLDl17Mgwjhlk5Nf1j_TwWDYmCMAiTXFMEa8HMSfgc4MN6OCLL2x8FMTIbv6IUmOG_FoxEP =371x301)
+![](/img/config-response-times-4.png)
 
 The shift status is accessible from the drop down menu which opens from the top right of the screen in LivePerson.
 
-![](https://lh6.googleusercontent.com/6zp03l8K7cGbZuMD7_UC6CbKagWDXms1qI2J2RZSWpAW3IbksJGFWpd2Pj0uXAEemWIyZnOFYIOiKNyGFmuPD68KeCSHUYvNr46cWXupiyfmDRhjbZtqhbPxS-9ZAzJ9pfdgDATG =243x353)
+![](/img/config-response-times-5.png)
 
 **How to configure response times**
 
@@ -75,7 +75,7 @@ To configure response times for the entire account:
 2. Under _Response time_, click **Edit**.
 3. The _Response time_ window opens. Adjust the response times for each conversation type as required. Time units are available in minutes, hours and days.
 
-![](https://lh6.googleusercontent.com/2QJ2MHK3iQwgwAWWGwThMFT7WlXjxVJXJuQGuE7OF0XbNAAjSuP1zNmRtXHGpz4KWJalWYUf4LixKuFIHyYIOMxqK8fs1XqGrUBcl370wXPhQ4rSVVW6U8AYrfD9GOM1QeY6lIEy =309x268)
+![](/img/config-response-times-6.png)
 
 1. Click **Save**.
 
@@ -91,4 +91,4 @@ To override the account level configured response times for a specific skill:
    * Changes in configuration will only apply to new conversations or after the conversation has been transferred to a different skill.
    * For conversations which are are not assigned to a skill, the account level configuration will be applied.
 
-![](https://lh6.googleusercontent.com/LvIjiOMM-TGXiovuCUykG1o3kZLoQTjo0ikPZSecE2ZTaXiTrdqJeLB_JjqaDrGsMqbzH83-0zOj-n7siu5C4snPsKie7LFnZmgQvNQofX6l9-E8fqAEWq9a4mkVaPDXDJFquom9 =435x347)
+![](/img/config-response-times-7.png)
