@@ -8,7 +8,7 @@ subtitle: Buttons and banners on your website make it possible to engage consume
 level3: ''
 permalink: messaging-channels-web-messaging-adding-web-messaging-to-your-website.html
 isTutorial: false
-date: 2019-01-16 19:31:38 +0200
+date: 2019-01-16 17:31:38 +0000
 
 ---
 Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill.
@@ -28,7 +28,7 @@ Answering these questions will help you prepare and streamline your campaign cre
 5. Are you offering service transactions? Will you need to authenticate the conversations?
 6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track  the conversations made over messaging?
 
-## 2. Add Code to your website
+## 2. Add Code & Conversion tracking to your website
 
 ### LiveEngage Tag
 
@@ -42,26 +42,7 @@ For more information how how to do this, [click here]().
 
 Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to configure your engagement attributes. For more information on individual engagement attributes, you can refer to the developers community.
 
-## 3. Conversation history length
-
-(for unauthenticated messaging)
-
-When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of conversations can continue.
-
-While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
-
-When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond.
-
-Idle time should be longer than SLA.
-
-Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
-
-{: .notice}  
-The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
-
-**If you are using web messaging in an authenticated manner, see instructions in the authenticated article.**
-
-## 4. Set up Sales & Conversion Tracking
+### Conversion tracking
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote)
 
@@ -69,7 +50,7 @@ If you are planning to create messaging campaigns tailored for tracking sales an
 2. Cross session period - Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
-## 5. Create a Campaign
+## 3. Create a Campaign
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
@@ -83,7 +64,7 @@ When creating a campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
-## 6. Design the buttons & window
+## 4. Design the buttons & window
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
@@ -136,6 +117,23 @@ The engagement window studio allows you to customize the messaging conversation 
 
 Once your settings are complete, click **next**.
 
+#### Review conversation history length (for unauthenticated messaging)
+
+When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of conversations can continue.
+
+While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
+
+When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond.
+
+Idle time should be longer than SLA.
+
+Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
+
+{: .notice}  
+The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
+
+**If you are using web messaging in an authenticated manner, see instructions in the authenticated article.**
+
 ### Entry Point: where will your messaging button appear?
 
 You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on creating a new entry point, please refer here.
@@ -150,7 +148,7 @@ When selecting the condition, look for a globe icon next to the word “**Suppor
 
 ![](/img/addweb3.png)
 
-## 7. Publish your campaign
+## 5. Publish your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
 
