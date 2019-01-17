@@ -118,6 +118,7 @@ pages:
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
+- pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Data & Reporting/Report Builder/terms-of-use.md
 - pages/documents/Data & Reporting/Report Builder/moving-from-bi-to-rb.md
