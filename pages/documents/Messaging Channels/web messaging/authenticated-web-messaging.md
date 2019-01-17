@@ -88,13 +88,11 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
    ![](/img/authweb2.png)
 
 {:start="3"}
-
 1. Next to the authentication server, click **Configure**.  The Authentication Server page is displayed.
 
    ![](/img/authweb3.png)
 
 {:start="4"}
-
 1. From the dropdown menu, select your preferred authentication method, and complete the required fields
 
    ![](/img/authweb4.png)
@@ -179,12 +177,11 @@ To configure authentication in a separate browser window, proceed as follows:
    ![](/img/authweb5.png)
 
 {:start="2"}
-
 1. Once the visitor is logged in and successfully authenticated, they are redirected to the conversation window with the provided authentication code.
 
    ![](/img/authweb6.png)
 
-   {:start="3"}
+{:start="3"}
    2\. Once authentication expires, a message that prompts the visitor to log in 
 
    appears, redirecting the visitor back to the login page.
