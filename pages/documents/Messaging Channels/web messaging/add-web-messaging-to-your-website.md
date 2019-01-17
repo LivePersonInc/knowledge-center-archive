@@ -92,7 +92,7 @@ You can now begin creating banners or buttons to add to your website. These enga
 
 There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
-**![](https://lh3.googleusercontent.com/aZj6ywpNloSo4is-sPSpqtnAUefq0so0HmbcT9mnag8vrZgbxSGwbwWhf8N_0GVcJPiM6ba01gbpSPobN-NzuAGYhZSbqqXhaMqWX8qnyAbNLZQvgvtg8lml4B3zO1q7c-VmAz_P =580x70)**
+![](/img/addweb1.png)
 
 ### Template gallery: select from a default banner or add your own
 
@@ -102,7 +102,7 @@ The template gallery page allows you to choose the format of your engagement and
 
 From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
 
-![](https://lh6.googleusercontent.com/PuKEIVzjPdtc5i-FVaxyhKl1Aof1JQF1PpONYOvoODoBS5Us2oXbYT8WkS76NZt5TyINibVchOY1MDrb2P8n79nHosX6qEQMfWOcSrMVgnZIQYIFBIv4YD4USYKkMDt--jKTyM-q =624x321)
+![](/img/addweb2.png)
 
 #### Conversation channel
 
@@ -149,13 +149,13 @@ Decide when to display engagements according to your consumers’ behavior by se
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
-![](https://lh6.googleusercontent.com/oXQoeU5OJgXvgH8rGPSv7g5AujtNsNyuKjv6qmeF6MAaRPY9QEZ3OkNHC_GKXaENQAVwntV5igTl6GMD9B3MJGA8ns31SSNgKmooLdQjC7xiUTJV-Bb0oVOTt0U9t3V3qarOUmSb =512x334)
+![](/img/addweb3.png)
 
 ## 7. Publish your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
 
-![](https://lh6.googleusercontent.com/NHh6vjFkTkBCSO3BMGBlVX9A4vREkZukbEnbxzV7rsK6WodFKdh5m4o4m5bg5033CFTUq62HqZ86cw_4keEeUnD7xSJWn1kVwNV6YDyEtaVXeB3RmXy-oWXzEc5IpKdD4MONROPw =446x301)
+![](/img/addweb4.png)
 
 **To learn more about publishing and unpublishing campaigns, click here.**
 
@@ -183,7 +183,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](https://lh5.googleusercontent.com/YfI7DUz4y0xHM8DqT_OdukxuAItnd44l1dRu-kcEZBFYhojFzGMGT2jliOJ3MIgHVp6KH7HxxnOZUV5rGbhMSdAbpmN-W9dMc0BOL3f-NqmHoU-9zBr0ApFafd1kGE0wyz2yCz19 =258x350)
+![](/img/addweb5.png)
 
 ### Shift scheduler
 
