@@ -116,7 +116,7 @@ Instructions for designing customer experience elements such as banners and chat
 {:start="3"}
 
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
-   Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  You can set up the following tools to help manage ongoing conversations:
+   Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  
 
 {:start="4"}
 2. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
