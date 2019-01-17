@@ -11,7 +11,7 @@ date: 2019-01-17 14:48:01 +0200
 published: false
 
 ---
-# Configuring Messaging
+## Configuring Messaging
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
