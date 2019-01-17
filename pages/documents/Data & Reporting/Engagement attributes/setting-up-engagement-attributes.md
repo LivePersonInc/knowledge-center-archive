@@ -3,7 +3,7 @@ pagename: Setting up engagement attributes
 categoryName: Data & reporting
 subCategoryName: Engagement attributes
 indicator: both
-subtitle: 'collect in-depth information by setting up engagement attributes '
+subtitle: 'Collect in-depth information by setting up engagement attributes '
 level3: ''
 permalink: data-&-reporting-engagement-attributes-setting-up-engagement-attributes.html
 isTutorial: false
