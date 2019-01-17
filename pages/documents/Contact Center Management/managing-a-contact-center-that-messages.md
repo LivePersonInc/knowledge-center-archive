@@ -40,14 +40,10 @@ Most contact centers today are equipped for session-based interactions, such as 
 **Stage 3 - Measurement**: Many of the traditional KPIs used to measure session-based interactions are no longer applicable to messaging. KPIs and metrics specific messaging to must be used in order to understand the performance and ROI of a messaging program.
 
 ## Handling the influx of conversations from messaging
-
 Since messaging is intuitive to consumers and easily accessible on an array of channels, the number of messages entering the contact center tend to grow. Many brands are uncertain how to handle an increase in conversations and are concerned their agents will be swamped, wait times will increase, and there will be overall inefficiency. LivePerson’s end-to-end conversational platform gives brands the tools and capabilities that focus on automation to scale conversations:
 
 ### Routing
-
 LivePerson [routing engine]() deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a routing bot.
-
-![](https://lh5.googleusercontent.com/6MuKsVgvGjWJu8m6ai_BH6hUEIq8LsyeBKnSsYRTyV0Gx1j5OkmkRhirfMal1zrp2afh3_g4JIZr0jK1pzrdwlhx8n0p1hA9eTy34a26n06s2Hiho-dFi7YqGQDftK-tSjJeBwii =531x375)
 
 ### Queue prioritization
 
