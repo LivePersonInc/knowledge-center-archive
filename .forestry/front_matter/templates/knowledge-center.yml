@@ -33,7 +33,7 @@ fields:
   label: Category
   name: categoryName
   description: The category to which the document belongs
-  default: Getting Started
+  default: Getting started
 - type: select
   name: subCategoryName
   config:
@@ -62,9 +62,11 @@ fields:
     - Support
     - Security
     - Secure forms
+    - '2018'
+    - '2019'
   label: L2 Category
   description: The sub-category to which the document belongs
-  default: Real Time Dashboards
+  default: Web messaging
 - type: select
   name: level3
   config:
@@ -78,6 +80,18 @@ fields:
     - Messaging Dashboards
     - BI Dashboards
     - Chat Dashboards
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
   label: Level 3
   description: The level 3 name of the document
 - type: text
