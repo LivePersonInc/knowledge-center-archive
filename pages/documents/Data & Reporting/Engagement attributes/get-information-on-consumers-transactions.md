@@ -8,6 +8,7 @@ level3: ''
 permalink: data-reporting-engagement-attributes-get-information-on-consumers-transactions.html
 isTutorial: false
 date: 2019-01-17 15:12:19 +0200
+published: false
 
 ---
 A transaction through LivePerson is the way which the system reports the exchange of money for goods or services. Transactions can be used as an indicator for a certain goal. 
