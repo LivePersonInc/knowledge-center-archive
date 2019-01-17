@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: both
 subtitle: 'Manage expectations and keep consumers informed about expected wait times '
 level3: ''
-permalink: auto-close-for-messaging-conversations
+permalink: auto-close-for-messaging-conversations.html
 isTutorial: false
 date: 2019-01-17 12:28:55 +0200
 published: false
