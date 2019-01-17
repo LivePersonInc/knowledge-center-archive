@@ -15,15 +15,15 @@ When long queues build up, whether overnight or during an outage, consumers ofte
 To avoid this scenario, if an agent responds to the last consumer message after a preconfigured interval (with a default value of 2 hours), then the conversation will automatically be assigned a low intensity value. This will free up the agent's capacity for additional conversations, and help to reduce the queue accumulation more rapidly.
 
 {: .important}
-Please contact your LivePerson account team if you would like to enable this feature. 
+Please contact your LivePerson account team if you would like to enable this feature.
 
 The following example demonstrates how the queue backlog is managed:
 
-* _Time after agent sends message before system considers there to be a backlog: 2 hours_
-* _Time after agent response to a backlog message before smart capacity allocates another conversation to them: 10 seconds_
-* _Agent configured capacity: 3 conversations_
+* Time after agent sends message before system considers there to be a backlog: 2 hours
+* Time after agent response to a backlog message before smart capacity allocates another conversation to them: 10 seconds
+* Agent configured capacity: 3 conversations
 
-Backlog management flow:
+**Backlog management flow**:
 
 1. Conversations 1, 2, 3, 4 and 5 begin
 2. At least two hours pass without an agent response to the conversations
