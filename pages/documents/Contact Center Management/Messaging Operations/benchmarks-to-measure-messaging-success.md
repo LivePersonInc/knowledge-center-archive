@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'Measure agent productivity, customer satisfaction, and ROI in messaging '
 level3: ''
-permalink: benchmarks-to-measure-messaging-success.html
+permalink: " contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html"
 isTutorial: false
 date: 2019-01-20 12:00:57 +0200
 
