@@ -28,6 +28,7 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * Apple Business Chat*
 
 
+
 *For more information on leveraging these channels contact your LivePerson representative
 
 ## Why manage conversations with LivePerson?
@@ -67,6 +68,7 @@ Centralized conversation history and reporting - Connector conversations are inc
 * Agent efficiency metrics
 * Queue length metrics and averages
 * Business outcomes and conversions
+
 
 **Automatic messages** - Automatic or system messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.
 
