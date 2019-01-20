@@ -11,9 +11,9 @@ date: 2019-01-20 14:14:47 +0200
 published: false
 
 ---
-With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale. 
+With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale.
 
-**Please note:** the Google RSC Business Messenger Connector is currently in beta mode. Brands that are interested in participating should speak to their LivePerson account team. 
+**Please note:** the Google RSC Business Messenger Connector is currently in beta mode. Brands that are interested in participating should speak to their LivePerson account team.
 
 ## What is RCS?
 
@@ -23,32 +23,32 @@ RCS, or Rich Communication Services, is a communication protocol between mobile 
 
 * RCS is an enhanced version of SMS with rich messaging capabilities
 * It is built into the default messaging app for Android smartphones - Messages
-* In the future, Android Messages with RCS capabilities will be the native messaging app   
+* In the future, Android Messages with RCS capabilities will be the native messaging app  
   for many other Android devices
 * RCS enables seamless conversations across multiple mobile carriers and phone manufacturers that support RCS
 
 ## What is Google RCS Business Messaging?
 
-Google RCS Business Messaging is built on top of the RCS standard, providing an enhanced messaging experience between brands and consumers. With Google’s RCS Business Messaging, brands can communicate with consumers through Messages, Google’s native messaging app, while using the range of rich media and rich messaging capabilities available with RCS. 
+Google RCS Business Messaging is built on top of the RCS standard, providing an enhanced messaging experience between brands and consumers. With Google’s RCS Business Messaging, brands can communicate with consumers through Messages, Google’s native messaging app, while using the range of rich media and rich messaging capabilities available with RCS.
 
 ## Why use Google RCS Business Messenger to connect with your consumers?
 
 * **Google’s compatibility API** — Google’s API determines if users are eligible to receive proactive notifications via RCS Business Messaging.
-* **Rich Messaging capabilities — High-resolution photos, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.** 
-
-* **No integration** — Google RCS Business Messenger is enabled inside of Android Messages, Google’s default SMS app. 
-
+* **Rich Messaging capabilities** — High-resolution photos, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
+* **No integration** — Google RCS Business Messenger is enabled inside of Android Messages, Google’s default SMS app.
 * **Verification** — Businesses get a checkmark on their profile to show that they are verified, and their full brand name will be displayed.
 * **Custom branding** — Brands can customize the look and feel of the messaging interface to suit their business.
 
- 
+## How conversations start
 
-##  How conversations start
+### IVR deflection: 
 
-1. **IVR deflection:** Brands can deflect consumers from voice call to Google RCS Business Messaging using IVR deflection. Proactive notifications from IVR systems will allow brands to share an alert with the consumer, guiding them to continue the conversation over RCS Business Messaging.
+Brands can deflect consumers from voice call to Google RCS Business Messaging using IVR deflection. Proactive notifications from IVR systems will allow brands to share an alert with the consumer, guiding them to continue the conversation over RCS Business Messaging.
 
 ![](https://lh6.googleusercontent.com/olytM6lixqQxZRfckh2QepTtyocyZ-dRHf_ixKqhX8F-WsFKbB7z6UfylV7oGTMVz9d7badgXp3Zw9X4oc8GQkphRFgn3DycllS_oKcjyvn7zNo6mV2D_5nCRNHQzcw56aopEhVw =207x369)
 
-2. **Business activity alerts:** Brands can integrate their business systems (CRM, marketing automation) and share notifications of real-time business actions with consumers on Google RCS Business Messaging. 
+### Business activity alerts: 
+
+Brands can integrate their business systems (CRM, marketing automation) and share notifications of real-time business actions with consumers on Google RCS Business Messaging.
 
 ![](https://lh4.googleusercontent.com/E4X5eVgdiIYnundyQsyXmkXxxOD5o-rfVrV0ovFs0i4RdvGKnrU3hvBp9Vb_UzZ93ZyGamfsqUJ8dV4_9c3H0tTAXKCaVH-XpFNqsrnGtDYmgYUkUVP5hNJJdUS7UsiDQrhHaqbc =213x378)
