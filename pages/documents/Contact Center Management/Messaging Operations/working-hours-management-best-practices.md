@@ -8,7 +8,7 @@ subtitle: " In-depth information on working hours management limitations, clarif
 level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
-date: 2019-01-17 15:13:10 +0200
+date: 2019-01-17 13:13:10 +0000
 
 ---
 The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
@@ -51,7 +51,6 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
       e.g:  2 special occasions are configured on May 1st: working between 10:00-15:00 and not working all day long.  
       The outcome: May 1st will be a non working day.
   * No aggregation between working hours and special occasion hours on the same day. Special occasions override the working hours configuration.
-
 * For customers who are using the “off hours by number of logged in agents” temporary workaround (to detect working hours according to the number of logged in agents), it is advised to **turn the temporary workaround OFF**, otherwise there is no guarantee that the expected time to response calculation will be accurate in all scenarios. The working hours feature is the permanent solution to the use case this workaround was intended for.
 
 Customers who keep the workaround ON will have the following experience (in most use cases, not 100% sure for edge cases):
@@ -69,15 +68,9 @@ Customers who keep the workaround ON will have the following experience (in most
 This is a list of limitations when using the Working hours functionality both via the API and via the LiveEngage workspace.
 
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond**: When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected.It might not be sent when required or may be sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.
-
-Temp workaround: When using the working hours functionality, disable this specific automatic message for all skills.  
-Planned fix date: October 31, 2018
-
 * **Mark as urgent button in the engagement window will not work as expected:**  
-  When using the workdays/special occasions automatic scheduling feature, the “Mark as urgent” button on the consumer window may be displayed to the consumer  also during off hours when it should not be displayed, or may be unavailable during working hours when it should be displayed.  
-  Temp work around: Remove the mark as urgent button from the engagement window in the window studio.
+  When using the workdays/special occasions automatic scheduling feature, the “Mark as urgent” button on the consumer window may be displayed to the consumer  also during off hours when it should not be displayed, or may be unavailable during working hours when it should be displayed.
 
-Planned fix date: October 31, 2018
 
 * **No audit trail on account level configuration.** Audit trail exists only for skill level assignments. For the skill level working hours - assigning a working hours item will be audited, however, changing an existing item is not audited.
 * The maximum length for a special occasion with shift status set to OFF is 30 days.
@@ -87,9 +80,6 @@ Planned fix date: October 31, 2018
 This is a list of limitations when using the Working hours functionality via the API only.
 
 * **Workdays API:** Start date and its recurrence day must be on the same day of the week. e.g if the start date is May 1st and the recurrence is Wednesday, then you must make sure that May 1st is actually a Wednesday as well, otherwise - an event will be created for the date that was used as the start date (May 1st) and for all Wednesdays that follow.
-* Temp work around: When creating a workday item through the API, make sure the start date day is the same day of the week specified in the recurrence day.
-
-Planned fix date: October 31, 2018
 
 ## Best practices
 
