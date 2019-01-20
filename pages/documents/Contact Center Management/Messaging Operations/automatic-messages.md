@@ -1,11 +1,11 @@
 ---
-pagename: Automatic messages
+pagename: Automatic messages-overview
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: Save your agents time and effort while providing a smoother engagement experience
 level3: ''
-permalink: " contact-center-management-messaging-operations-automatic-messages"
+permalink: " contact-center-management-messaging-operations-automatic-messages-overview"
 isTutorial: true
 date: 2019-01-20 12:39:44 +0200
 published: false
