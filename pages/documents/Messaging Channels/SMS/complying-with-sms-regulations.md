@@ -44,12 +44,14 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 
 ### Sample scenarios
 
-| --- | --- | --- |
+
 | Scenario | Possible regulatory issue(s) | Best practice(s) |
 | Follow up a chat lead by texting the person | Without prior written consent, any such text (or call) could violate local regulations. | Collect prior written consent during the chat conversation using Predefined Content (e.g., “Thanks for chatting with us...may we call or text you at the number provided?”). |
 | Replying to a text lead (initiated by a person who typed your textenabled phone number into their phone) by texting the person. | Consent may be implied because the consumer initiated the conversation via text. Nevertheless, your response should be timely and include opt-out instructions. | Common sense says that a person sending you a texted question probably wants to be contacted in turn. Provided your response is timely, includes opt-out instructions, and is not telemarketing in nature, it is not likely to be an issue. |
 | Follow up a text lead (initiated by a person who filled out an online text form) by texting the person. | The online text form should explicitly call out that the consumer is consenting to receive SMS texts and describe the nature of such texts. | Offer customers an opt-out option at the start of the conversation. Ensure that your initial response is timely. |
 | Initiate an outbound text to a person whose mobile phone number was obtained from a marketing list or some other place. | Without prior written consent, any such text (or call) could violate local regulations. This is one of the riskiest scenarios as you don’t really know how or for what purpose the mobile number was gathered. | Do not contact. |
+| --- | --- | --- |
+
 
 ### 4 Tips to Help Ensure Compliance
 
