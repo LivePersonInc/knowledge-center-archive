@@ -6,7 +6,7 @@ indicator: both
 subtitle: By analyzing the products your visitors viewed you can target customers
   according to their interests
 level3: ''
-permalink: data-&-reporting-engagement-attributes-identify-viewed-products
+permalink: data-&-reporting-engagement-attributes-identify-viewed-products.html
 isTutorial: false
 date: 2019-01-20 09:49:34 +0200
 published: false
