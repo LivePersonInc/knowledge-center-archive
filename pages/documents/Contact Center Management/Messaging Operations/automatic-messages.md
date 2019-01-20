@@ -1,5 +1,5 @@
 ---
-pagename: Automatic messages-overview
+pagename: Automatic messages overview
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
