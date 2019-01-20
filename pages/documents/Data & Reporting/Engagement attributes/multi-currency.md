@@ -47,8 +47,7 @@ No enablement is required for multi currency; it is automatically available to a
 
 For further information on configuring engagement attributes, read the[ Engagement Attributes Overview.]()
 
-{_: ._notice}
-
+{_: ._notice}  
 For brands who do not report the “currency” attribute using engagement attributes, the “default” currency is reported. The existing account default currency will not change when currency attributes are added.
 
 ![](https://lh6.googleusercontent.com/s0HBmrj5XiPevv6nChLYgu250r9Zer_J46Q_QldU3TncyJR8xDoNmI66vw5JQCYopPgaD5J9-ckzsK4bijrONIX0wcRgkFMXtig7uKy6GAqZ9nttseZDoVtT1nbqJmRkhpKVG6g2 =432x295)

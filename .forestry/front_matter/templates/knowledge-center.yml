@@ -122,6 +122,9 @@ fields:
 pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
+- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
+- pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
+- pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
@@ -147,5 +150,5 @@ pages:
 - pages/documents/Messaging Channels/mobile app messaging/enhance-mobile-app-messaging.md
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
-- pages/documents/Messaging Channels/SMS/sms-connector-md.md
-- pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup-md.md
+- pages/documents/Messaging Channels/SMS/sms-connector.md
+- pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
