@@ -9,6 +9,7 @@ level3: ''
 permalink: data-reporting-engagement-attributes-attribution-model.html
 isTutorial: false
 date: 2019-01-20 10:13:30 +0200
+published: false
 
 ---
 Depending on the product or service your consumers are interested in, they have different buying cycles. Some will instantly purchase a product while others will take their time, engage with you, research additional websites, and only then come back to purchase.
