@@ -122,6 +122,7 @@ fields:
 pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
+- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
