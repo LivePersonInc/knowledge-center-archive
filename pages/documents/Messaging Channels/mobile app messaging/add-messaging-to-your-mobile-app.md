@@ -101,7 +101,7 @@ When creating a new campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
-### 1. create a new mobile app engagement
+### Create a new mobile app engagement
 
 Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
