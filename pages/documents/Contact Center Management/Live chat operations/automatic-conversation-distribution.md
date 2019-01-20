@@ -8,7 +8,6 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-conversation-distribution
 isTutorial: false
 date: 2019-01-20 14:33:55 +0200
-published: false
 
 ---
 ### Balancing the agent workload
