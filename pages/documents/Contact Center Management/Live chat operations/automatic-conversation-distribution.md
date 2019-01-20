@@ -11,7 +11,7 @@ date: 2019-01-20 14:33:55 +0200
 published: false
 
 ---
-## Balancing the agent workload
+### Balancing the agent workload
 
 Accepting conversations manually is not always the most efficient way to manage your contact center operations. It has the potential to cause a number issues, such as customers experiencing long wait times, an imbalance of workload between agents and high rates of chat abandonment.
 
@@ -25,9 +25,7 @@ LivePerson’s ACD algorithm routes conversation requests to available agents ac
 
 For routing of live chat conversations, the ACD algorithm uses an Agent Load Ratio which is calculated as follows:
 
-The number of the agent's current chats / The maximum number of chats that an agent is allowed to handle concurrently
-
-The ACD will route the next incoming chat to the agent with the lowest Agent Load Ratio.
+The number of the agent's current chats / The maximum number of chats that an agent is allowed to handle concurrently. The ACD will route the next incoming chat to the agent with the lowest Agent Load Ratio.
 
 As an example, let’s compare two agents:
 
@@ -57,9 +55,8 @@ Incoming chats will ring to all logged in agents, regardless of their state (for
 
 1. Auto-accept: conversations are automatically routed to the most available agent. The conversation window opens automatically, a new incoming conversation notification appears on the bottom of the screen, and an audio alert sounds.
 2. Advanced: conversations are routed to the most available agent (in the live chat example above, this would be Agent B), who can then manually accept the conversation. If the agent has not answered the conversation within a set amount of time, then the visitor is routed back to the queue to wait for the next most available agent (Agent A in the live chat example above).
-
-* In addition, the status of an agent can be set to change to Away automatically when they do not accept a chat. However, incoming chats ring to all logged in agents, regardless of their state, so agents in the Away state will still receive chat notifications.
-* This option is supported for live chat only.
+   * In addition, the status of an agent can be set to change to Away automatically when they do not accept a chat. However, incoming chats ring to all logged in agents, regardless of their state, so agents in the Away state will still receive chat notifications.
+   * This option is supported for live chat only.
 
 {: .notice}
 The * indicator is for a new conversation in auto accept mode that has not yet been interacted with. This indicator cannot be turned on or off. It will happen automatically when the agent is in auto accept mode. This applies to both messaging and chat conversations.
@@ -68,11 +65,11 @@ The * indicator is for a new conversation in auto accept mode that has not yet b
 
 ACD settings can be configured  in the LiveEngage Night Vision overlay, for chat and also for messaging if enabled on the account. Settings are configured once for all the agents and skills in the account:
 
-1. Click the Night Vision button at the top of the screen. 
+1. Click the Night Vision button at the top of the screen.
 2. Click Edit.
 3. The Change queue options window opens. Select one of the queue options. When selecting
 
-Advanced Mode:
+**Advanced Mode:**
 
 1. Select the time interval before the conversation is sent back to the queue.
 2. If you want the agent status to change automatically if the agent doesn’t accept the chat, select change to Away. (optional, live chat only)
