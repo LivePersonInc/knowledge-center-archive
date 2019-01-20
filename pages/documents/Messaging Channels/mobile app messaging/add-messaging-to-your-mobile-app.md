@@ -87,6 +87,7 @@ For information on adding the Mobile App Messaging SDK (v3.1 or higher), please 
 
 * [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
 * [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
+
 {:start="2"}
 1. Determine what information you’ll need to collect and set up your engagement attributes
 
