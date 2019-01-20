@@ -16,7 +16,6 @@ Use automatic messages to manage consumer expectations as they await an agent re
 
 Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
 
-  
 ![](/img/automatic-message.png)
 
 # **Activating automatic messages**
@@ -33,11 +32,10 @@ Auto messages can also be disabled for selected skills.
 
 ![](/img/edit-automatic-message.png)
 
-**Multi language support**
+## **Multi language support**
 
 Automatic messages are supported in all visitor languages. For each message, there is default text for each of the languages, which can be edited. As mentioned above, for each skill the message can also be different for each of the languages.
 
-Automatic messages are available for both chat and messaging. For further information, refer to our documentation:
+For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported per account. This language is the default consumer language (this is defined. Multiple languages will be supported in the future as part of campaigns for messaging for connectors.
 
-* [Automatic messages for messaging configuration guide]()
-* [Automatic messages for chat configuration guide]()
+The language of the conversation (and hence the auto messages) is determined at the beginning of the conversation and does not change mid conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.Automatic messages are available for both chat and messaging. For more information, read [automatic messages for messaging configuration guide](). 
