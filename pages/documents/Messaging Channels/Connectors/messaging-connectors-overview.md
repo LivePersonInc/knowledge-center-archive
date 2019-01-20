@@ -9,7 +9,6 @@ level3: ''
 permalink: messaging-connectors-overview.html
 isTutorial: false
 date: 2019-01-20 10:03:12 +0200
-published: false
 
 ---
 Many popular messaging channels now enable brands to interact with their consumers using their preferred channel. For brands, creating a presence on these channels is key to building connections and creating prospects. LivePerson’s platform gives brands the ability to maintain this presence and effectively manage conversations from a range of channels simultaneously.
@@ -27,6 +26,7 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * CM SMS*
 * Apple Business Chat*
 
+
 \*For more information on leveraging these channels contact your LivePerson representative
 
 ## Why manage conversations with LivePerson?
@@ -37,7 +37,7 @@ The agent workspace is a centralized platform equipped with innovative tools and
 ### Bots that you can use and apply to all channels
 With pre-integrated bot and AI support, brands can create their own bots or apply previously configured bots and manage them all from within the platform. Bots created within LivePerson’s platform will work on any messaging channel the brand has adopted, and will automatically adjust to suit the capabilities of each channel.
 
-### **Advanced metrics and reporting**
+### Advanced metrics and reporting
 LivePerson gives brands access to in-depth reporting and metrics that messaging channels don’t supply. With the ability to measure operational efficiency, agent performance, business outcomes, and more directly from within the platform, they can better monitor and optimize operations.
 
 ### Practical features help you manage messaging at scale
