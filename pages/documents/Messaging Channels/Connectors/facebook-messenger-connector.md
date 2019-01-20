@@ -50,12 +50,12 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 1. On the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote
 2. From the Conversation Sources tab, click **Connect** in the Facebook Messenger box
 
-![](https://lh4.googleusercontent.com/oj4JoMSUAqo3nOnWRDUvEJo8270BheeQrPuyGbiMWxx_TejoMWUeS7ZBCSzqLCaGH9_rKRHvRzn2Op5SlfwnJjVyJpmL4JL-_AbIzEX-RJU6klEzH7mkviV3Egr78-548P1oO4LY =431x221)
+![](/img/FB connector 1.png)
 
 1. Enable the Activate Facebook Source toggle
 2. Click **Next**
 
-![](https://lh5.googleusercontent.com/e1Ox2WPpSJuYdOjVBkaojN3SGV-YF7fnmLgOhbV7i2iCTueCyWDmWoSh-XrUeQb_p3c6_8gpwpKKWkrwYho__dpBjTA511HqkkaSSAxeLuPGkY4eA4CQwSzWAcIevE_WZTtp2f_L =432x221)
+![](/img/FB connector 2.png)
 
 1. Under configuration, click **Log in**
 
@@ -63,7 +63,7 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 1. Select the relevant Facebook page(s) to subscribe the account to
 
-![](https://lh6.googleusercontent.com/0ZTptk9AwcsfKKu7x4rbQeRR_0UoyLhoSOqIvSqTBxz0NVumEdRyZtZRj0iz6-ADbyhWfhSaXVNCNibmLsPORTxqoWgyX9jvy95UX1HYiIteaaX6LjFFSneJcoVq9W5WEyqSIhEu =432x222)
+![](/img/FB connector 3.png)
 
 1. Once selected, click **Done**
 
@@ -73,4 +73,4 @@ In order for messages sent directly from your Facebook Messenger inbox (via a Fa
 
 On the Facebook connector page, under ‘Add a Facebook external user’, simply select the FB External User profile you have just created and click Done.
 
-![](https://lh5.googleusercontent.com/09qatWzCu_0lxXlvr8IcQuteLu3lczVOPAee0gYbPz7i5l0BbF3BhVVs5TQiKwwl4VDKko0p7BYqTddbK0Y83HnruVSWZAt1vKWSCyhb7z6RsZcMMUAuvzq_FEFa9R9D9KBEy8pO =520x267)
+![](/img/FB connector 4.png)
