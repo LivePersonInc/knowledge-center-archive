@@ -53,7 +53,7 @@ You may choose from each of the methods above according to your brand’s needs.
       * LiveEngage will automatically set to “Online” again on the next shift date and time.
    3. Save the page.
 
-## Automatic Scheduler 
+## Automatic Scheduler
 
 ![](/img/shift-scheduler-CG-3.png)
 
@@ -87,8 +87,8 @@ Scheduling items or Special occasion items can be created through the Schedule o
 
 ### Via the Account Shift Scheduler page:
 
-1.  Click the downward arrow next to the user name and click "Shift Scheduler."
-2.  The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
+1. Click the downward arrow next to the user name and click "Shift Scheduler."
+2. The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
 3. Under the “Define shift status configuration,” click the “Set days and hours” button in order to access the Schedule library, or click the “Set special occasions” button to access the Special Occasion library:
 
 ### Via the Skills page:
@@ -220,7 +220,7 @@ In order to generate App Keys to access the API, follow the following steps:
   ![](/img/shift-scheduler-CG-10.png)
 
 {:start="5"}
-5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
+5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
 For additional info on creating API keys - [LiveEngage APIs and SDKs](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=get-started-LE-APIs) documentation.
 
@@ -245,4 +245,4 @@ For additional info on creating API keys - [LiveEngage APIs and SDKs](https://li
 * This permission is available both for Administrator and Agent Manager, and set to ON by default.
 * Users with this permission enabled will be able to edit the account Workdays as well as Special Occasions.
 
-![](https://lh5.googleusercontent.com/h_1KnSuwLl2rtXokLx97u-trvYJQ45eXKMqZEztbXpeIvH_-tFK_Wa13_8_ix_Hec_6kmqm7OOq6uL-c0FaVi1ZbwYQBW1ExTwttDEQJ6ENkuJn9ChiAh75pxrDA0_pfn1hRz-uD =602x293)
+![](/img/shift-scheduler-CG-11.png)
