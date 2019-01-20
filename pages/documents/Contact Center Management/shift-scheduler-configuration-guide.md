@@ -25,8 +25,8 @@ You may choose from each of the methods above according to your brand’s needs.
 ## Terminology
 
 * **SLA** = Service Level Agreement. The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
-    
-  ![](https://lh5.googleusercontent.com/2qqa1WprsW6eniUHGPg3QFrI9-QGAYZe6iyklE6MWPTcT019bfapAlW169DJV2TG8mK22eSwFo-AQKMikf5SfLsLipq1saF7RPcAiw7oc7OX8cOMConfCbxTXu2FTvjuXtf8qgyR =327x183)
+
+  ![](/img/shift-scheduler-CG-1.png)
 * **TTR** = Time To Response. This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
 * **ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the automatic messages mechanism.  
   ETTR = TTR + SLA.
@@ -37,23 +37,25 @@ You may choose from each of the methods above according to your brand’s needs.
 
 ## Manual working hours
 
-1. Click the downward arrow next to the user name and click "Shift Scheduler"  
-   ![](https://lh4.googleusercontent.com/JvQYkDpnn4lnXlKepOF_aiJaUTiqKY3TZJ3o8CwXZ41fOBX2AAOjhSXA0Y1URT2ZyLg4nYwBaYdfQiMji7UXtT4w8sgFBcqcjHdULLr32B_Du5Gkim86057PIWa9CQc9Q154i1Fx =233x329)
+1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
-2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+   ![](/img/shift-scheduler-CG-2.png)
 
-3\. Define your current shift status:
+   {:start="2"}
+2. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+3. Define your current shift status:
+   1. Choose “Online” when your connection center is active.
+      * Consumers will get auto messages with expected time to response equal to the conversation SLA.
+   2. Choose “Off hours” when your connection center is inactive.
+      * Define the next shift start date
+      * Define the next shift start time
+      * Consumers will get auto messages with expected time to response equal to the time until next 			shift time + the conversation SLA.
+      * LiveEngage will automatically set to “Online” again on the next shift date and time.
+   3. Save the page.
 
-1. Choose “Online” when your connection center is active.
-   * Consumers will get auto messages with expected time to response equal to the conversation SLA.
-2. Choose “Off hours” when your connection center is inactive.
-   * Define the next shift start date
-   * Define the next shift start time
-   * Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
-   * LiveEngage will automatically set to “Online” again on the next shift date and time.
-3. Save the page.
+## Automatic Scheduler
 
-## Automatic Scheduler ![](https://lh6.googleusercontent.com/62w3K8t07_dp-tU11r7ZjC8Ou2zaNqWu2WzGquq_2mSjqxAFBeA1KWY0WUdHQfiwi8GF36kBlu_8dIVWEduHgw9QBVCqDbo6WNvxRq-VieMRNd5ETJg7a2z01J7lNYL1v4EwQJ1W =602x119)
+![](/img/shift-scheduler-CG-3.png)
 
 The configuration of scheduled [Workdays](https://developers.liveperson.com/workdays-api-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response message** for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
 
@@ -76,10 +78,6 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 3. In case you are using the “[off hours by number of logged in agents](https://s3-eu-west-1.amazonaws.com/ce-sr/Release+Notes/2018/May+2018+Part+2.pdf)” feature - it is recommended to disable it. The working hours feature is the permanent solution to the use case this workaround was intended for.  
    Contact your account team to disable it.
 4. Customize [Automatic Messages](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=automatic-messages) on your account.
-   * Disable the “Off hours message mid conversation” on your LiveEngage account. Currently this message is not supported together with the working hours feature.  
-     Resolution date: October 31, 2018.
-
-![](https://lh4.googleusercontent.com/RzULpYi1fr82BJBXpG1WG9QL1tVixasyJ91nFimwyz_CFm2wUjUbOOMmk_87T-t5q4hz-84JVzdtx3BjTnYfVkfbwd6gIxDzjjaJHn8PetJ3qh2W9dG22fj_APQXGiRbmC3xsPRc =518x249)
 
 ## Workdays and Special Occasions within LiveEngage
 
@@ -89,11 +87,9 @@ Scheduling items or Special occasion items can be created through the Schedule o
 
 ### Via the Account Shift Scheduler page:
 
-4\. Click the downward arrow next to the user name and click "Shift Scheduler."
-
-5\. The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
-
-6\. Under the “Define shift status configuration,” click the “Set days and hours” button in order to access the Schedule library, or click the “Set special occasions” button to access the Special Occasion library:
+1. Click the downward arrow next to the user name and click "Shift Scheduler."
+2. The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
+3. Under the “Define shift status configuration,” click the “Set days and hours” button in order to access the Schedule library, or click the “Set special occasions” button to access the Special Occasion library:
 
 ### Via the Skills page:
 
@@ -103,11 +99,11 @@ Scheduling items or Special occasion items can be created through the Schedule o
    Click the “Set days and hours” button in order to access the Schedule library (see image)
 4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library:
 
-![](https://lh6.googleusercontent.com/xRxuBmPXOP7jFWmXXAp8x-ACGL14Ai-IIRmVWfxw0ZuZ4qHhn2Imre-4YlOa_Dns8iVdX1j-HZ-kdYh0jTtMA2f4-YAZ9mamkW359JtcXldxKiMQr9GBpgysQKVDl_PvgKgLZMiX =602x357)
+   ![](/img/shift-scheduler-CG-5.png)
 
-The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
+   The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
 
-![](https://lh5.googleusercontent.com/VDjD1rn5xqJWuEzwaszYnMmlX-BhbPqIhQ5ZvoudxHFzbBqJdFwaW7rDmZyM0wifGRIN0fBL2DEMx-AILagWDkh5dMrbPBDvYH-yj7yx09h-BZSU6Qu1Ef-pcKplYIkaxP9saSRx =602x275)
+![](/img/shift-scheduler-CG-6.png)
 
 ### Creating a new workday item
 
@@ -116,7 +112,7 @@ The Schedule library / Special Occasions library will now be displayed on your L
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
 
-. ![](https://lh4.googleusercontent.com/vOmG19IedtOWP7pzs95fkdwJIQlIBC3zmh-Kmk0TRnCrQdTttFodp7u97SLX6nN22zUTrB4iKaY9LBwVYQ8JO73AAeTDbuzcVtZlLsliKaRnUChH4tNhChSdy43kGJfg_bPnx6NC =542x424)
+![](/img/shift-scheduler-CG-7.png)
 
 You may choose between:
 
@@ -180,7 +176,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 4. The Skill page will be displayed, and a summary of the Schedule/Special Occasion item details will be presented on the screen for you to review.
 5. Click “Save” in order to save the skill with it’s new working hours changes.
 
-![](https://lh6.googleusercontent.com/TowZDsgLXnwPow9-BqVMEGha-WX3Ms2AyUhnHRu-qJ-i7I4VYF0qTB-aH5vUsSCCdzLEWUYUVPEFE3hVGVNroUEczsR5hXidV_AJ3AG7biL8nsU1Sv6eUBMi5nL6IAc0OAPohpNB =536x598)
+![](/img/shift-scheduler-CG-8.png)
 
 ## Workdays and Special Occasions using the APIs
 
@@ -215,13 +211,15 @@ In order to generate App Keys to access the API, follow the following steps:
 4. Under Administration, choose the Working Hours API  
    Then, simply choose the permission needed out of:
 
-![](https://lh4.googleusercontent.com/gLOUpqj0NlHmQ79TnQA1qZD2w2gFAmJTYHfPcW9jaNQ8wApfSRyWPujQVXLPr_oNZazDxWUc_o2JaB_cUxOXk3RH3BV9k-4batbIDBjterO3_9adV4JOmTmzcxdAkMTwnBaTFXCl =602x193)
+   ![](/img/shift-scheduler-CG-9.png)
 
 * **Read** - to access (read) all Workdays or Special Occasions defined on your account.
 * **Write** - to create/edit/delete Workdays or Special Occasions defined on your account.
-* **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.  
-  ![](https://lh6.googleusercontent.com/-C6eI5I9z7Djwb_5CmnGsMy9EeqD1QMcSlLV5tf1H73jwl5F3TqQqkPA3vJJE_LWXNOPS-edl-_05S-lV-TE6B4mf56JNqwgbNxpWIaZVSsHFxyYxDHhFF5a19TGITjrHbrdtwau =511x485)
+* **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.
 
+  ![](/img/shift-scheduler-CG-10.png)
+
+{:start="5"}
 5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
 For additional info on creating API keys - [LiveEngage APIs and SDKs](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=get-started-LE-APIs) documentation.
@@ -247,4 +245,4 @@ For additional info on creating API keys - [LiveEngage APIs and SDKs](https://li
 * This permission is available both for Administrator and Agent Manager, and set to ON by default.
 * Users with this permission enabled will be able to edit the account Workdays as well as Special Occasions.
 
-![](https://lh5.googleusercontent.com/h_1KnSuwLl2rtXokLx97u-trvYJQ45eXKMqZEztbXpeIvH_-tFK_Wa13_8_ix_Hec_6kmqm7OOq6uL-c0FaVi1ZbwYQBW1ExTwttDEQJ6ENkuJn9ChiAh75pxrDA0_pfn1hRz-uD =602x293)
+![](/img/shift-scheduler-CG-11.png)
