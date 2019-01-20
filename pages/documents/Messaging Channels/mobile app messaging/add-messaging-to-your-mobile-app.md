@@ -85,7 +85,7 @@ To do this, go to the campaigns area, select Data sources from the campaign foot
 3. Click “**Create.**” The Mobile App will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
 4. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
 
-   ![](/img/addmess1.png)
+![](/img/addmess1.png)
 
 ## 4. Create a campaign
 
@@ -119,7 +119,7 @@ There are three stages for creating mobile engagements: **settings, entry point 
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
-{{{{{{{{ADD SCREEN SHOT!!}}}}}}}}}}}}
+**ADD SCREEN SHOT!!!!!**
 
 Authentication
 
@@ -165,9 +165,9 @@ When you are finished defining your visitor behavior, click **next**.
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
 
-## **![](https://lh4.googleusercontent.com/uQWdJ8fV3eEZWhFdvLpGRfySbWxcIzd_sSaatBMupyq-h1iesp26HzsbfLtFp4kt2blCUIUGUeyYIaTtOpDwhJPdmB8oAfgR-3diPJPjacM6czxmG4ZujLEUO1s6CrnrGrz4RDSv =446x301)**
+![](/img/addmess4.png)
 
-**To learn more about publishing and unpublishing campaigns, click here.**
+To learn more about publishing and unpublishing campaigns, click here.
 
 ## Next steps
 
