@@ -8,7 +8,6 @@ permalink: article-template.html
 indicator: both
 isTutorial: false
 date: 2018-12-30 08:15:01 +0000
-level3: ''
 published: false
 
 ---
@@ -33,17 +32,25 @@ Inserting images with Forestry is easy. Simply click on the image icon in the To
 * All images should be saved in a high resolution. Resizing will happen on the back-end, when the site is generated.
 * When taking screenshots, we always prefer to capture the complete screen (for example, the complete LiveEngage workspace rather than a snippet of it) and highlighting the relevant areas we’d like the user to pay attention to.
 * Coloring of highlights on screenshots (like arrows or boxes) should be either black, red or blue, depending on the color scheme of the screenshot at hand. Maintain consistent coloring as much as possible in the same article.
+* **You have two choices as far as positioning goes:**
+  * If you do nothing, the image will be displayed in the **center** of the document, alone. That means that if you do nothing, you can't display images side by side.
+  * If you want to display images side by side, you'll need to add the "sidebyside" class by adding {: .sidebyside} above the image you want to display. The images must be on the same line in the Markdown, like so:
 
-## Videos
+    {: .sidebyside}
+    ![image alt text](img/image_0.png)![image alt text](img/image_1.png)![image alt text](img/image_2.png)
 
-When a video needs to be inserting into a document, simply leave the **full** Vimeo link in the text of the document itself, on its own line. Eden will review these links and embed them. If you have specific directions on how a video should be embedded (a bigger space between it and the text is needed, a specific location within the file that’s not intuitive, and so on) email Eden directly with your directions. **Do not leave these directions in the article itself**.
-
-## A Note About the Slug
+## Adding Classes
 
 {: .important}
 Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
 
 {: .notice}
 Since this article doesn't have a Category, L2 Category _or_ L3 Category, its slug ends up being just the title. This will rarely happen but it's fine; the format for the slug assumes all those parts exist and if they don't, simply don't include them!
+
+## Videos
+
+You have two ways to add videos to the site. One is simply leaving the link in the document and letting me know that I need to edit and add it.
+
+The other is saving me some time by using the iframe below. Simply copy and paste the code below and make sure to change the video ID number; that's the number after /video! So in the example below, the number is 241513020. You can grab your video's ID from its original Vimeo link, which you should have.
 
 <iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
