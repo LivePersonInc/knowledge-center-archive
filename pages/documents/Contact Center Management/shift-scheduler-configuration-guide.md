@@ -79,8 +79,6 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
    Contact your account team to disable it.
 4. Customize [Automatic Messages](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=automatic-messages) on your account.
 
-![](https://lh4.googleusercontent.com/RzULpYi1fr82BJBXpG1WG9QL1tVixasyJ91nFimwyz_CFm2wUjUbOOMmk_87T-t5q4hz-84JVzdtx3BjTnYfVkfbwd6gIxDzjjaJHn8PetJ3qh2W9dG22fj_APQXGiRbmC3xsPRc =518x249)
-
 ## Workdays and Special Occasions within LiveEngage
 
 ### Accessing the Schedule/Special Occasion libraries
@@ -89,11 +87,9 @@ Scheduling items or Special occasion items can be created through the Schedule o
 
 ### Via the Account Shift Scheduler page:
 
-4\. Click the downward arrow next to the user name and click "Shift Scheduler."
-
-5\. The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
-
-6\. Under the “Define shift status configuration,” click the “Set days and hours” button in order to access the Schedule library, or click the “Set special occasions” button to access the Special Occasion library:
+1.  Click the downward arrow next to the user name and click "Shift Scheduler."
+2.  The Account Shift Scheduler screen will now be displayed. Choose the “Automatic Scheduler” option.
+3. Under the “Define shift status configuration,” click the “Set days and hours” button in order to access the Schedule library, or click the “Set special occasions” button to access the Special Occasion library:
 
 ### Via the Skills page:
 
@@ -103,11 +99,11 @@ Scheduling items or Special occasion items can be created through the Schedule o
    Click the “Set days and hours” button in order to access the Schedule library (see image)
 4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library:
 
-![](https://lh6.googleusercontent.com/xRxuBmPXOP7jFWmXXAp8x-ACGL14Ai-IIRmVWfxw0ZuZ4qHhn2Imre-4YlOa_Dns8iVdX1j-HZ-kdYh0jTtMA2f4-YAZ9mamkW359JtcXldxKiMQr9GBpgysQKVDl_PvgKgLZMiX =602x357)
+   ![](/img/shift-scheduler-CG-5.png)
 
-The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
+   The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
 
-![](https://lh5.googleusercontent.com/VDjD1rn5xqJWuEzwaszYnMmlX-BhbPqIhQ5ZvoudxHFzbBqJdFwaW7rDmZyM0wifGRIN0fBL2DEMx-AILagWDkh5dMrbPBDvYH-yj7yx09h-BZSU6Qu1Ef-pcKplYIkaxP9saSRx =602x275)
+![](/img/shift-scheduler-CG-6.png)
 
 ### Creating a new workday item
 
@@ -116,7 +112,7 @@ The Schedule library / Special Occasions library will now be displayed on your L
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
 
-. ![](https://lh4.googleusercontent.com/vOmG19IedtOWP7pzs95fkdwJIQlIBC3zmh-Kmk0TRnCrQdTttFodp7u97SLX6nN22zUTrB4iKaY9LBwVYQ8JO73AAeTDbuzcVtZlLsliKaRnUChH4tNhChSdy43kGJfg_bPnx6NC =542x424)
+![](/img/shift-scheduler-CG-7.png)
 
 You may choose between:
 
@@ -180,7 +176,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 4. The Skill page will be displayed, and a summary of the Schedule/Special Occasion item details will be presented on the screen for you to review.
 5. Click “Save” in order to save the skill with it’s new working hours changes.
 
-![](https://lh6.googleusercontent.com/TowZDsgLXnwPow9-BqVMEGha-WX3Ms2AyUhnHRu-qJ-i7I4VYF0qTB-aH5vUsSCCdzLEWUYUVPEFE3hVGVNroUEczsR5hXidV_AJ3AG7biL8nsU1Sv6eUBMi5nL6IAc0OAPohpNB =536x598)
+![](/img/shift-scheduler-CG-8.png)
 
 ## Workdays and Special Occasions using the APIs
 
@@ -215,14 +211,16 @@ In order to generate App Keys to access the API, follow the following steps:
 4. Under Administration, choose the Working Hours API  
    Then, simply choose the permission needed out of:
 
-![](https://lh4.googleusercontent.com/gLOUpqj0NlHmQ79TnQA1qZD2w2gFAmJTYHfPcW9jaNQ8wApfSRyWPujQVXLPr_oNZazDxWUc_o2JaB_cUxOXk3RH3BV9k-4batbIDBjterO3_9adV4JOmTmzcxdAkMTwnBaTFXCl =602x193)
+   ![](/img/shift-scheduler-CG-9.png)
 
 * **Read** - to access (read) all Workdays or Special Occasions defined on your account.
 * **Write** - to create/edit/delete Workdays or Special Occasions defined on your account.
-* **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.  
-  ![](https://lh6.googleusercontent.com/-C6eI5I9z7Djwb_5CmnGsMy9EeqD1QMcSlLV5tf1H73jwl5F3TqQqkPA3vJJE_LWXNOPS-edl-_05S-lV-TE6B4mf56JNqwgbNxpWIaZVSsHFxyYxDHhFF5a19TGITjrHbrdtwau =511x485)
+* **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.
 
-5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
+  ![](/img/shift-scheduler-CG-10.png)
+
+{:start="5"}
+5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
 For additional info on creating API keys - [LiveEngage APIs and SDKs](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=get-started-LE-APIs) documentation.
 
