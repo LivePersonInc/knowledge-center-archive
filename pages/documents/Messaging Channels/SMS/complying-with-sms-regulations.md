@@ -21,6 +21,8 @@ Messaging is a two-way communication medium, meaning that both parties—the con
 * If a marketer wishes to initiate communication with a consumer through messaging, it is important to recognize that industry best practices, and in a number of cases a legal mandate, may require that the marketer receive explicit prior consent to send a message to a consumer’s device (also referred to as securing an opt-in).
 * The marketer should provide clear and transparent notice to the consumer as to what they are consenting to receive and a simple way to opt out of receiving future messages.
 
+
+
 **Regulations are often updated to reflect changes in communication technology and use. Listed below are some more recent stipulations:**
 
 * Never send unsolicited phone calls or messages to customers as this violates the TCPA (Telephone Consumer Protection Act).
