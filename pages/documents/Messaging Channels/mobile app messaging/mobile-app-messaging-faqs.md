@@ -7,8 +7,7 @@ subtitle: ''
 level3: ''
 permalink: messaging-channels-web-mobile-app-messaging-faqs.html
 isTutorial: false
-date: 2019-01-17 14:48:01 +0200
-published: false
+date: 2019-01-17 12:48:01 +0000
 
 ---
 ## Configuring Messaging
@@ -157,4 +156,4 @@ LivePerson’s US servers are located at an Equinix data center in Virginia for 
 
 ### Q: How many interactions is the LivePerson infrastructure capable of handling?
 
-The LiveEngage infrastructure handles many different types of interactions. We are constantly upgrading it to meet the demands of new customers, and the growing demands of existing customers who are constantly expanding their partnership with LivePerson. Our infrastructure currently tracks around 2.5 billion consumers globally per month, and facilitates more than 27 million interactions globally per month. 
+The LiveEngage infrastructure handles many different types of interactions. We are constantly upgrading it to meet the demands of new customers, and the growing demands of existing customers who are constantly expanding their partnership with LivePerson. Our infrastructure currently tracks around 2.5 billion consumers globally per month, and facilitates more than 27 million interactions globally per month.
