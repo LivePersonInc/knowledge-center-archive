@@ -202,7 +202,7 @@
         - pagename: "Meaningful Connection Score (MCS) Overview"
         - pagename: "Login & using the toolkit"
         - pagename: "MCS Dashboard - monitor agents"
-    - subcategoryitem: Report Builder
+    - subcategoryname: Report Builder
       pages:
         - pagename: Report Builder Overview
         - pagename: "User Guide (standard)"
@@ -213,7 +213,7 @@
         - pagename: Terms of use
         - pagename: Moving from BI to RB
         - pagename: Conversation outcomes
-    - subcategoryitem: Engagement attributes
+    - subcategoryname: Engagement attributes
       pages:
         - pagename: Data sources and engagement attributes overview
         - pagename: Extracting data with no coding
