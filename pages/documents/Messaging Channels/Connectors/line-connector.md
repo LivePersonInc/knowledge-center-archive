@@ -8,7 +8,6 @@ level3: ''
 permalink: line-connector
 isTutorial: false
 date: 2019-01-20 15:11:55 +0200
-published: false
 
 ---
 LiveEngage is now seamlessly integrated into Line, offering your brand the opportunity to tap into the millions of consumers connecting on it. Set up is easy and allows your agents to create ongoing connections with valuable customers right away; to onboard Line to your account, please contact your LivePerson account team.
