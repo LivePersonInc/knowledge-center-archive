@@ -45,4 +45,4 @@ By messaging an advertised WhatsApp phone number or tapping on the brand’s “
 
 ## Setup
 
-**![](https://lh3.googleusercontent.com/nB3v0IhT7Azd2o3KCeVzicfvSKbAKm0ZfJfHG1UJKW8UkUdOYFybTrhBW2n67Jp9CCCWbiy0XGb1nAaWipDAHCKbUt7ReMJp-78qP6qI1UrD4Z7hNnFxMQnAOVa4FHEsu4174Fh6 =624x349)**
+![](/img/whatsapp connector 1.png)
