@@ -5,10 +5,9 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'Measure agent productivity, customer satisfaction, and ROI in messaging '
 level3: ''
-permalink: benchmarks-to-measure-messaging-success
+permalink: benchmarks-to-measure-messaging-success.html
 isTutorial: false
 date: 2019-01-20 12:00:57 +0200
-published: false
 
 ---
 The most common question contact centers ask after deciding to embrace asynchronous messaging is: how should I measure the success of messaging?  This includes having the ability to measure agent productivity, customer satisfaction, and ROI.
