@@ -6,6 +6,7 @@ $(document).ready(function () {
 	populateAnchors();
 	sideBarClick ();
 	linkload();
+	mobileHamburger()
 });
 
 $(window).on('load', function () {
@@ -168,6 +169,26 @@ function sideBarCollapse () {
 	var currentPageOpener = currentPage.parents().children(".canOpen");
 	currentPage = currentPage.trigger("click");
 	currentPageOpener = currentPageOpener.trigger("click");
+}
+
+//a function to control a click on the mobile hamburger button
+function mobileHamburger() {
+	var $hamburger = $('.hamburger');
+	var sidebar = $('#defaultsidebar');
+	//on click, set data to control the toggle behavior.
+	$hamburger.on('click', function (e) {
+		$hamburger.toggleClass('is-active');
+		var hasExpanded = $(sidebar).data("expanded") == "true";
+		if (hasExpanded) {
+			//if clicked, slide up and set data to unclicked.
+			$(sidebar).slideUp(400);
+			$(sidebar).data("expanded", "false");
+		} else {
+			//if unclicked, slide down and set data to clicked.
+			$(sidebar).slideDown(400);
+			$(sidebar).data("expanded", "true");
+		}
+	});
 }
 
 //on scroll

@@ -870,4 +870,70 @@ h3 {
   .sidebarbuttoncontainer {
     padding-left: 43px;
   }
+
+  .categoryfolder {
+    font-size: 12px;
+  }
+
+  .subcategoryitem {
+    font-size: 12px;
+  }
+
+  .subcategoryitem a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #defaultsidebar {
+    display: none;
+    grid-column: unset;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+  }
+
+  #mysidebar {
+    top: 120px;
+    padding-top: 20px;
+  }
+
+  #documenttitlecontainer {
+    grid-column: 1 / span 5;
+    padding-left: 0;
+    margin-left: 20px;
+  }
+
+  #defaultcontent {
+    grid-column: 1 / span 5;
+    margin-left: 20px;
+  }
+
+  .anchorlist {
+    display: none;
+  }
+
+  #postcontent {
+    width: 150%;
+}
+
+  #logocontainer {
+    margin-left: 20px;
+    order: 1;
+  }
+
+  .algolia-autocomplete {
+    display: none !important;
+  }
+
+  #homebuttons {
+    display: none;
+  }
+
+  .mobileheader {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    order: 2;
+  }
 }
