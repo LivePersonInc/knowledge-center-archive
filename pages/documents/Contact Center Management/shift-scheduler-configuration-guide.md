@@ -25,8 +25,8 @@ You may choose from each of the methods above according to your brand’s needs.
 ## Terminology
 
 * **SLA** = Service Level Agreement. The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
-    
-  ![](https://lh5.googleusercontent.com/2qqa1WprsW6eniUHGPg3QFrI9-QGAYZe6iyklE6MWPTcT019bfapAlW169DJV2TG8mK22eSwFo-AQKMikf5SfLsLipq1saF7RPcAiw7oc7OX8cOMConfCbxTXu2FTvjuXtf8qgyR =327x183)
+
+  ![](/img/shift-scheduler-CG-1.png)
 * **TTR** = Time To Response. This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
 * **ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the automatic messages mechanism.  
   ETTR = TTR + SLA.
@@ -37,23 +37,25 @@ You may choose from each of the methods above according to your brand’s needs.
 
 ## Manual working hours
 
-1. Click the downward arrow next to the user name and click "Shift Scheduler"  
-   ![](https://lh4.googleusercontent.com/JvQYkDpnn4lnXlKepOF_aiJaUTiqKY3TZJ3o8CwXZ41fOBX2AAOjhSXA0Y1URT2ZyLg4nYwBaYdfQiMji7UXtT4w8sgFBcqcjHdULLr32B_Du5Gkim86057PIWa9CQc9Q154i1Fx =233x329)
+1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
-2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+   ![](/img/shift-scheduler-CG-2.png)
 
-3\. Define your current shift status:
+   {:start="2"}
+2. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+3. Define your current shift status:
+   1. Choose “Online” when your connection center is active.
+      * Consumers will get auto messages with expected time to response equal to the conversation SLA.
+   2. Choose “Off hours” when your connection center is inactive.
+      * Define the next shift start date
+      * Define the next shift start time
+      * Consumers will get auto messages with expected time to response equal to the time until next 			shift time + the conversation SLA.
+      * LiveEngage will automatically set to “Online” again on the next shift date and time.
+   3. Save the page.
 
-1. Choose “Online” when your connection center is active.
-   * Consumers will get auto messages with expected time to response equal to the conversation SLA.
-2. Choose “Off hours” when your connection center is inactive.
-   * Define the next shift start date
-   * Define the next shift start time
-   * Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
-   * LiveEngage will automatically set to “Online” again on the next shift date and time.
-3. Save the page.
+## Automatic Scheduler 
 
-## Automatic Scheduler ![](https://lh6.googleusercontent.com/62w3K8t07_dp-tU11r7ZjC8Ou2zaNqWu2WzGquq_2mSjqxAFBeA1KWY0WUdHQfiwi8GF36kBlu_8dIVWEduHgw9QBVCqDbo6WNvxRq-VieMRNd5ETJg7a2z01J7lNYL1v4EwQJ1W =602x119)
+![](/img/shift-scheduler-CG-3.png)
 
 The configuration of scheduled [Workdays](https://developers.liveperson.com/workdays-api-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response message** for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
 
@@ -76,8 +78,6 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 3. In case you are using the “[off hours by number of logged in agents](https://s3-eu-west-1.amazonaws.com/ce-sr/Release+Notes/2018/May+2018+Part+2.pdf)” feature - it is recommended to disable it. The working hours feature is the permanent solution to the use case this workaround was intended for.  
    Contact your account team to disable it.
 4. Customize [Automatic Messages](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=automatic-messages) on your account.
-   * Disable the “Off hours message mid conversation” on your LiveEngage account. Currently this message is not supported together with the working hours feature.  
-     Resolution date: October 31, 2018.
 
 ![](https://lh4.googleusercontent.com/RzULpYi1fr82BJBXpG1WG9QL1tVixasyJ91nFimwyz_CFm2wUjUbOOMmk_87T-t5q4hz-84JVzdtx3BjTnYfVkfbwd6gIxDzjjaJHn8PetJ3qh2W9dG22fj_APQXGiRbmC3xsPRc =518x249)
 
