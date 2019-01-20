@@ -8,14 +8,16 @@ level3: ''
 permalink: " contact-center-management-messaging-operations-automatic-messages-overview"
 isTutorial: true
 date: 2019-01-20 12:39:44 +0200
-published: false
 
 ---
 {Video}
 
 Use automatic messages to manage consumer expectations as they await an agent response, while saving your agents time and effort. Automatic, or system, messages are messages that are triggered automatically during a chat or messaging conversation to inform visitors of the status of the conversation. The messages appear to the consumer in the engagement window and to the agent in their agent workspace. For example, when a visitor is connected to an agent, the following message is displayed to the visitor: “Thank you for messaging us. An agent should reply shortly.”
 
-Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.![](/img/automatic-message.png)
+Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
+
+  
+![](/img/automatic-message.png)
 
 # **Activating automatic messages**
 
