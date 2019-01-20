@@ -8,7 +8,6 @@ level3: ''
 permalink: whatsapp-business.html
 isTutorial: false
 date: 2019-01-20 14:34:09 +0200
-published: false
 
 ---
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
