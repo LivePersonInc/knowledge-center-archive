@@ -9,7 +9,6 @@ level3: ''
 permalink: data-&-reporting-engagement-attributes-identify-viewed-products.html
 isTutorial: false
 date: 2019-01-20 09:49:34 +0200
-published: false
 
 ---
 LivePerson allows you to analyze which products are viewed by your visitors and not being purchased. By analyzing this visitor behavior information (the viewed product) you’ll be able to better target your visitors according to their interests. Moreover, when conversing with visitors, you’ll be able to quickly understand what’s driving them.
