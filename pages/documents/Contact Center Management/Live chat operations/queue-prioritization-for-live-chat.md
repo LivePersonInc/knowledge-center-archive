@@ -8,7 +8,6 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html
 isTutorial: false
 date: 2019-01-20 14:09:13 +0200
-published: false
 
 ---
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance.
