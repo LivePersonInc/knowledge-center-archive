@@ -35,7 +35,7 @@ function navigateContent(url) {
 			}
 		})
 		.fail(function () {
-			url = "http://developers.liveperson.com/404.html";
+			url = "/404.html";
 			navigateContent(url);
 		});
 	};
@@ -52,8 +52,8 @@ function linkclick(event, that) {
 	window.history.pushState({
 		url: url
 	}, '', url);
-	$(".pageitem a").removeClass("activeitem");
-	$(that).addClass("activeitem");
+	// $(".pageitem a").removeClass("activeitem");
+	// $(that).addClass("activeitem");
 };
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {
@@ -144,6 +144,14 @@ function sideBarClick () {
 	};
 	return false;
 });
+	$("#defaultsidebar").on("click", "a", function () {
+		if ($(this).hasClass("activeitem")) {
+			$(this).removeClass("activeitem");
+		} else {
+			$(".categorylist a").removeClass("activeitem");
+			$(this).addClass("activeitem");
+		}
+	});
 };
 
 //on scroll
