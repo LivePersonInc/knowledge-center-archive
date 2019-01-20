@@ -13,27 +13,27 @@ published: false
 
 ---
 LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using Conversation Outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.  
-The tools include:  
+The tools include:
 
-**Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.  
+**Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.
 
-**Conversation outcomes:** Agents can report on a conversation outcome or business activities that occurred during a conversation with a consumer, for example, a lead created, transaction or service activity completed, to help you track your conversions or goals. 
+**Conversation outcomes:** Agents can report on a conversation outcome or business activities that occurred during a conversation with a consumer, for example, a lead created, transaction or service activity completed, to help you track your conversions or goals.
 
-## Why use conversation outcomes? 
+## Why use conversation outcomes?
 
-Improve your conversion reports and goal reached tracking by including agents’ input about the outcome of a conversation. Agents may resolve a service inquiry and/or close a sale during a conversation. With conversation outcomes, agents can then manually record these activities. 
+Improve your conversion reports and goal reached tracking by including agents’ input about the outcome of a conversation. Agents may resolve a service inquiry and/or close a sale during a conversation. With conversation outcomes, agents can then manually record these activities.
 
-Conversion reporting on sales transactions, lead generation and service activities includes both information reported by agents, and information reported by customers. In order to identify whether the information was provided by an agent, along with the name of the reported agent, use the agent goal tracker report. 
+Conversion reporting on sales transactions, lead generation and service activities includes both information reported by agents, and information reported by customers. In order to identify whether the information was provided by an agent, along with the name of the reported agent, use the agent goal tracker report.
 
-## **Setting up conversation outcomes** 
+## Setting up conversation outcomes
 
 There are three types of Engagement Attributes that agents can report on:
 
-| Engagement attributes  | Data category | Available properties |
+| Engagement attributes | Data category | Available properties |
 | --- | --- | --- |
-| Transaction  | eCommerce Info | Order total, Order ID, Lead  |
+| Transaction | eCommerce Info | Order total, Order ID, Lead |
 | Lead | Visitor Journey | Topic Value Lead ID |
-| Service activity  | Visitor Journey | TopicStatusCategoryService ID |
+| Service activity | Visitor Journey | TopicStatusCategoryService ID |
 
 You will need to enable this feature for each of the Engagement Attributes you want your
 
