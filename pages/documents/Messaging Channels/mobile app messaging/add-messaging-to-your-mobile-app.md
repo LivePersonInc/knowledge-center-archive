@@ -89,6 +89,7 @@ For information on adding the Mobile App Messaging SDK (v3.1 or higher), please 
 * [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
 
 {:start="2"}
+
 1. Determine what information you’ll need to collect and set up your engagement attributes
 
 If you’d like your engagement to target specific customers or pages - or even track your sales and transactions - you’ll need to set up engagement attributes. Engagement attributes help you to collect more in-depth information about your visitors. In order to collect this information from your engagements, you first need to set up your engagement attributes through the mobile SDK.
@@ -207,4 +208,4 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 
 ## **![](https://lh4.googleusercontent.com/uQWdJ8fV3eEZWhFdvLpGRfySbWxcIzd_sSaatBMupyq-h1iesp26HzsbfLtFp4kt2blCUIUGUeyYIaTtOpDwhJPdmB8oAfgR-3diPJPjacM6czxmG4ZujLEUO1s6CrnrGrz4RDSv =446x301)**
 
-## **To learn more about publishing and unpublishing campaigns, click here.**
+**To learn more about publishing and unpublishing campaigns, click here.**
