@@ -50,31 +50,31 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 1. On the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote
 2. From the Conversation Sources tab, click **Connect** in the Facebook Messenger box
 
-
-
 {:start="3"}
+
 1. Enable the Activate Facebook Source toggle
 2. Click **Next**
 
-
-
 {:start="5"}
+
 1. Under configuration, click **Log in**
 
 **Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
 
 {:start="6"}
+
 1. Select the relevant Facebook page(s) to subscribe the account to
 
 ![](/img/FB connector 3.png)
 
 {:start="7"}
+
 1. Once selected, click **Done**
 
 ## Adding an Agent Manager user to display third party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an Agent Manager user to whom the messages will be attributed.
 
-On the Facebook connector page, under ‘Add a Facebook external user’, simply select the FB External User profile you have just created and click Done.
+On the Facebook connector page, under ‘Add a Facebook external user’, simply select the FB External User profile you have just created and click **Done**.
 
 ![](/img/FB connector 4.png)
