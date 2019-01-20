@@ -1,14 +1,13 @@
 ---
-pagename: Automatic Conversation Distribution for messaging
+pagename: Automatic Conversation Distribution (ACD)
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: both
-subtitle: Use Automatic Conversation Distribution (ACD) to balance your agents’ workload
+subtitle: Use Automatic Conversation Distribution to balance your agents’ workload
 level3: ''
-permalink: contact-center-management-messaging-operations-automatic-conversation-distribution-for-messaging
+permalink: contact-center-management-messaging-operations-automatic-conversation-distribution-acd.html
 isTutorial: false
 date: 2019-01-20 14:44:56 +0200
-published: false
 
 ---
 ### Balancing the agent workload
