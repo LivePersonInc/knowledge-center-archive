@@ -76,7 +76,7 @@ Before you can create engagements for your mobile app, you must first configure 
 
 To do this, go to the campaigns area, select Data sources from the campaign footnote, and follow these instructions:
 
-{{{{{{{{ADD SCREEN SHOT!!}}}}}}}}}}}}
+**ADD SCREEN SHOT!!!!!!!**
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 2. Edit the Mobile App source details
@@ -87,7 +87,7 @@ To do this, go to the campaigns area, select Data sources from the campaign foot
 
    ![](/img/addmess1.png)
 
-   ## 4. Create a campaign
+## 4. Create a campaign
 
 In LiveEngage, engagements can be added to either new or existing campaigns.
 
