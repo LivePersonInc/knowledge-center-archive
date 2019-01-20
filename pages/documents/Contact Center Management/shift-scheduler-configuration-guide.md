@@ -9,7 +9,6 @@ level3: ''
 permalink: " contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html"
 isTutorial: false
 date: 2019-01-20 11:26:50 +0200
-published: false
 
 ---
 ## Introduction
