@@ -22,8 +22,6 @@ Millions of brands are already using Google My Business to engage with consumers
 * **Quick onboarding process** — Onboarding can be accomplished rapidly as no tagging or coding is required. LivePerson connects Google My Business messages directly to your operations, routing each customer to the best agent available.
 * **Simple to use** — Because consumers already have SMS on their mobiles, no new customer interface or download is needed. With the Google virtual phone, consumers will contact you via the existing SMS application on their mobile.
 
-## 
-
 ## How conversations start
 
 The Google My Business connector enables consumers to message your brand via SMS, directly from a mobile Google My Business brand listing.
