@@ -141,6 +141,8 @@ function sideBarClick () {
 			if ($(this).hasClass("itemdetails")){
 			$(".itemdetails").removeClass("activeitem");
 			$(".subcategoryfolder").slideUp(500);
+			$(".categorylist").slideUp(500);
+			$(".canOpen").data("expanded", "false");
 			}
 			$(this).addClass("activeitem")
 			$(this).data("expanded", "true");
