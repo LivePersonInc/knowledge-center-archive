@@ -14,16 +14,19 @@
     - subcategoryname: Web messaging
       pages:
         - pagename: Add messaging to your website
-        - pagename: Introducing Web Messaging into your Contact Center
-        - pagename: Web Messaging Configuration Guide
-        - pagename: "Web Messaging: Authenticated Alongside Unauthenticated"
+        - pagename: Authenticated messaging
+        - pagename: Upgrading from live chat to messaging
+    - subcategoryname: "Mobile app messaging"
+      pages:
         - pagename: Add messaging to your mobile app
-    - subcategoryname: "Messaging connectors & LivePerson"
+        - pagename: Mobile app messaging FAQs
+        - pagename: Enhance mobile app messaging
+    - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:
-        - pagename: Start messaging over SMS
-        - pagename: How to set up Twilio SMS connector
-        - pagename: Best practices for text message regulations
+        - pagename: SMS connector
+        - pagename: Twilio SMS connector setup
+        - pagename: Complying with SMS regulations
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: WhatsApp Business
@@ -44,6 +47,7 @@
         - pagename: Audio Messaging user guide
         - pagename: Quick Replies user guide
         - pagename: Structured content for messaging user guide
+        - pagename: Structured content for chat user guide
         - pagename: Engagement Window Widgets
 
 - categoryname: "Bots & automation"
@@ -93,8 +97,8 @@
         - pagename: Queue prioritization overview
         - pagename: Queue backlog management
         - pagename: Auto close for messaging conversations
-        - pagename: Smart Capacity for agent efficiency overview
-        - pagename: Smart Capacity settings guide
+        - pagename: Smart Capacity overview
+        - pagename: Smart Capacity per skill
         - pagename: Agent warmup
         - pagename: Working hours management best practices
         - pagename: Shift scheduler configuration guide
@@ -131,7 +135,7 @@
         - pagename: "Core principles of messaging & operations"
         - pagename: "Introduction to agents: working with asynchronous messaging"
         - pagename: Agent workspace for messaging tour
-        - pagename: "The basics: getting acquanited with the agent workspace"
+        - pagename: Agent workspace basics
         - pagename: Managing messaging conversations
         - pagename: Taking breaks and ending shifts
         - pagename: Understanding agent performance
@@ -146,7 +150,7 @@
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent workspace for live chat
-        - pagename: Cobrosse for live chat
+        - pagename: Cobrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
         - pagename: The all agents list
@@ -190,13 +194,14 @@
             - level3name: Skills activity dashboard
         - pagename: BI Dashboards
           level3:
-            - level3name: "Agent Goal Tracker: Detailed Goal and Converstion Report"
-            - level3name: BI Survery Reports
+            - level3name: "Agent Goal Tracker: Detailed Goal and Conversation Report"
+            - level3name: BI Survey Reports
     - subcategoryname: "How to export 100,000 chats into a dashboard"
     - subcategoryname: "Meaningful Connection Score (MCS) - beta"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
         - pagename: "Login & using the toolkit"
+        - pagename: "MCS Dashboard - monitor agents"
     - subcategoryitem: Report Builder
       pages:
         - pagename: Report Builder Overview
@@ -210,13 +215,13 @@
         - pagename: Conversation outcomes
     - subcategoryitem: Engagement attributes
       pages:
-        - pagename: Engagement attributes overview
-        - pagename: Setting up engagement attributes
+        - pagename: Data sources and engagement attributes overview
         - pagename: Extracting data with no coding
-        - pagename: "How to mine your visitors' transaction information"
+        - pagename: Setting up engagement attributes
+        - pagename: "Get information on your consumers' transactions"
         - pagename: Multi currency
         - pagename: Identify viewed products
-        - pagename: What made your visitors convert
+        - pagename: Attribution model
 
 - categoryname: "Admin & settings"
   image: admin-settings

@@ -3,11 +3,14 @@ $(document).ready(function () {
 	var scroll = new SmoothScroll('a[href*="#"]', { offset: 140});
 	mainBoxClick()
 	anchors.add('h2');
-	populateAnchors()
+	populateAnchors();
 	sideBarClick ();
 	linkload();
 });
 
+$(window).on('load', function () {
+	sideBarCollapse ();
+});
 
 function navigateContent(url) {
 	//call ajax with the target url
@@ -123,6 +126,7 @@ function populateAnchors() {
 
 function sideBarClick () {
 	$("#defaultsidebar").on("click", ".canOpen", function (){
+		console.log("clickedtop");
 		var hasExpanded = $(this).data("expanded") == "true";
 		var nextGetsOpened = $(this).nextAll(".getsOpened");
 		var childCanOpen = nextGetsOpened.find(".canOpen");
@@ -145,6 +149,7 @@ function sideBarClick () {
 	return false;
 });
 	$("#defaultsidebar").on("click", "a", function () {
+		console.log("clickedbottom");
 		if ($(this).hasClass("activeitem")) {
 			$(this).removeClass("activeitem");
 		} else {
@@ -153,6 +158,15 @@ function sideBarClick () {
 		}
 	});
 };
+
+function sideBarCollapse () {
+	var url = window.location.href;
+	var modifiedURL = '/' + url.split('/').reverse()[0].replace(/\#.*/, '');
+	var currentPage = $('a[href="' + modifiedURL + '"]');
+	var currentPageOpener = currentPage.parents().children(".canOpen");
+	currentPage = currentPage.trigger("click");
+	currentPageOpener = currentPageOpener.trigger("click");
+}
 
 //on scroll
 $(window).scroll(function() {
