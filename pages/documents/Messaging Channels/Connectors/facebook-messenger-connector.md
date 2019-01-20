@@ -50,13 +50,13 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 1. On the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote
 2. From the Conversation Sources tab, click **Connect** in the Facebook Messenger box
 
-[](/img/FB connector 1.png)
+
 
 {:start="3"}
 1. Enable the Activate Facebook Source toggle
 2. Click **Next**
 
-![](/img/FB connector 2.png)
+
 
 {:start="5"}
 1. Under configuration, click **Log in**
