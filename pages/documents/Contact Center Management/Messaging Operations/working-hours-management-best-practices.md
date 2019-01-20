@@ -65,21 +65,9 @@ Customers who keep the workaround ON will have the following experience (in most
 
 ### Limitations for both API and UI
 
-This is a list of limitations when using the Working hours functionality both via the API and via the LiveEngage workspace.
+Limitations when using the Working hours functionality both via the API and via the LiveEngage workspace:
 
-* **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond**: When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected.It might not be sent when required or may be sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.
-* **Mark as urgent button in the engagement window will not work as expected:**  
-  When using the workdays/special occasions automatic scheduling feature, the “Mark as urgent” button on the consumer window may be displayed to the consumer  also during off hours when it should not be displayed, or may be unavailable during working hours when it should be displayed.
-
-
-* **No audit trail on account level configuration.** Audit trail exists only for skill level assignments. For the skill level working hours - assigning a working hours item will be audited, however, changing an existing item is not audited.
 * The maximum length for a special occasion with shift status set to OFF is 30 days.
-
-### Limitations for the API
-
-This is a list of limitations when using the Working hours functionality via the API only.
-
-* **Workdays API:** Start date and its recurrence day must be on the same day of the week. e.g if the start date is May 1st and the recurrence is Wednesday, then you must make sure that May 1st is actually a Wednesday as well, otherwise - an event will be created for the date that was used as the start date (May 1st) and for all Wednesdays that follow.
 
 ## Best practices
 
