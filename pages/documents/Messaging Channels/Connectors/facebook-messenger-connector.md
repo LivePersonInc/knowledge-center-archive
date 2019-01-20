@@ -75,10 +75,10 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 1. Once selected, click **Done**
 
-## Adding an Agent Manager user to display third party messages
+## Adding an agent manager user to display third party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an Agent Manager user to whom the messages will be attributed.
 
-On the Facebook connector page, under ‘Add a Facebook external user’, simply select the FB External User profile you have just created and click **Done**.
+On the Facebook connector page, under **Add a Facebook external user**, simply select the FB External User profile you have just created and click **Done**.
 
 ![](/img/FB connector 4.png)
