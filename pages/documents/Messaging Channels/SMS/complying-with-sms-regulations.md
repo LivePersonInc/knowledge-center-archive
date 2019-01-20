@@ -8,7 +8,6 @@ level3: ''
 permalink: complying-with-sms-regulations.html
 isTutorial: false
 date: 2019-01-20 10:46:06 +0200
-published: false
 
 ---
 ## Introduction
@@ -69,7 +68,7 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 
 **Consumer:** You can reach me at 555-123- 1234.
 
-**brand’s customer care professional: **Thank you, Bill. May we call or text you back at the phone number you’ve just provided?
+**brand’s customer care professional:**Thank you, Bill. May we call or text you back at the phone number you’ve just provided?
 
 **Consumer:** Yes, of course.
 
