@@ -8,8 +8,7 @@ subtitle: Tap into the millions of consumers connecting over Facebook using the 
 level3: ''
 permalink: facebook-messenger-connector.html
 isTutorial: false
-date: 2019-01-20 11:10:07 +0200
-published: false
+date: 2019-01-20 09:10:07 +0000
 
 ---
 With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
