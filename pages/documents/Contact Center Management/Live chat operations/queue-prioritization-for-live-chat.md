@@ -26,7 +26,7 @@ For example, if you want to give consumers with a high cart value a faster servi
 
 ## Account setup
 
-### **How to enable queue prioritization for chat:**
+**How to enable queue prioritization for chat:**
 
 Enable A/C setting: _Common.LiveChat_Queue_Priority_
 
@@ -39,13 +39,12 @@ Enable A/C setting: _Common.LiveChat_Queue_Priority_
    ![](/img/queue-prior-chat-CG-2.png)
 
 {:start="2"}
-2\. Scroll down to the ‘Set queue priority level’ section.
-3\. Select from 1st to 10th (1st being the highest, 10th being the lowest).
+2. Scroll down to the ‘Set queue priority level’ section.
+3. Select from 1st to 10th (1st being the highest, 10th being the lowest).
+4. Click **Save**. The queue priority will be reflected in the engagement’s details on the campaign page.
 
 {: .notice}
 The 'no priority' setting will be given a lower priority than the 10th priority setting.
-
-Click **Save**. The queue priority will be reflected in the engagement’s details on the campaign page.
 
 ![](/img/queue-prior-chat-CG-3.png)
 
