@@ -9,6 +9,7 @@ level3: ''
 permalink: messaging-connectors-overview.html
 isTutorial: false
 date: 2019-01-20 10:03:12 +0200
+published: false
 
 ---
 Many popular messaging channels now enable brands to interact with their consumers using their preferred channel. For brands, creating a presence on these channels is key to building connections and creating prospects. LivePerson’s platform gives brands the ability to maintain this presence and effectively manage conversations from a range of channels simultaneously.
@@ -31,16 +32,16 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 
 ## Why manage conversations with LivePerson?
 
-### Fully-equipped agent workspace
+**Fully-equipped agent workspace**
 The agent workspace is a centralized platform equipped with innovative tools and resources such as predefined content, CRM integrations, and other capabilities to help agents effectively answer and manage conversations from different channels.
 
-### Bots that you can use and apply to all channels
+**Bots that you can use and apply to all channels**
 With pre-integrated bot and AI support, brands can create their own bots or apply previously configured bots and manage them all from within the platform. Bots created within LivePerson’s platform will work on any messaging channel the brand has adopted, and will automatically adjust to suit the capabilities of each channel.
 
-### Advanced metrics and reporting
+**Advanced metrics and reporting**
 LivePerson gives brands access to in-depth reporting and metrics that messaging channels don’t supply. With the ability to measure operational efficiency, agent performance, business outcomes, and more directly from within the platform, they can better monitor and optimize operations.
 
-### Practical features help you manage messaging at scale
+**Practical features help you manage messaging at scale**
 With built-in features like Smart Capacity and Queue Prioritization, as well as asynchronous reporting tools and dashboards, LivePerson’s platform makes it possible for contact centers to run messaging operations smoothly.
 
 ## Messaging operations at scale
