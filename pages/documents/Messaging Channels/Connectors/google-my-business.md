@@ -8,7 +8,6 @@ level3: ''
 permalink: google-my-business
 isTutorial: false
 date: 2019-01-20 14:52:49 +0200
-published: false
 
 ---
 Millions of brands are already using Google My Business to engage with consumers. By offering click to message, brands enable consumers to connect with them using their native SMS app, meaning they can tap into the wide pool of consumers who prefer to use messaging.
