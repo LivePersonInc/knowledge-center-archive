@@ -101,11 +101,13 @@ When creating a new campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
-### 1. Designing mobile app engagements
+### 1. Design mobile app engagements
 
 Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
 **To create a new engagement, click** “**Add engagemen**t” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the campaign wizard.
+
+**ADD SCREEN SHOT!!!!**
 
 There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 
@@ -137,7 +139,7 @@ The window language displayed within the app (hardcoded texts like button text, 
 
 Once your settings are complete, click **next**.
 
-1. Entry Point
+#### Entry Point
 
 You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
@@ -166,6 +168,16 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 ## **![](https://lh4.googleusercontent.com/uQWdJ8fV3eEZWhFdvLpGRfySbWxcIzd_sSaatBMupyq-h1iesp26HzsbfLtFp4kt2blCUIUGUeyYIaTtOpDwhJPdmB8oAfgR-3diPJPjacM6czxmG4ZujLEUO1s6CrnrGrz4RDSv =446x301)**
 
 **To learn more about publishing and unpublishing campaigns, click here.**
+
+## Next steps
+
+Once you have added the mobile engagements to your app, remember to follow the getting started with messaging article for additional important steps such as:
+
+* Define your working hours to ensure consumers see the actual reply times
+* Customize automatic messages
+* Create pre-defined content for your agents
+* Set up a routing bot
+* Set up the post conversation survey
 
 ### Set expectations based on your actual working hours
 
@@ -198,17 +210,13 @@ As you create campaigns, you can create messages that are specific to that topic
 
 Learn how to customize your predefined content
 
-## 3. Create surveys
-
-Surveys are the perfect tool for collecting feedback from your consumers and improving service. By configuring the Routing Bot and Post Conversation surveys for your mobile engagement, you can learn more about consumer intent and drive customer satisfaction.
-
-1. Routing survey (before the conversation begins)
+### Set up a routing bot 
 
 The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry.
 
 To learn more about the Routing Bot and how it is configured, click here.
 
-1. Post Conversation Survey
+### Set up the post conversation survey 
 
 The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction.
 
