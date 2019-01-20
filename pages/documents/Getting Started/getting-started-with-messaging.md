@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3Name: ''
-permalink: getting-started-getting-started-with-messaging.html
+permalink: getting-started-getting-started-with-messaging
 isTutorial: false
 date: 2019-01-14 11:44:06 +0000
 level3: ''
