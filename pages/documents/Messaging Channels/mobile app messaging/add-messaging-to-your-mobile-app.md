@@ -101,7 +101,7 @@ When creating a new campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
-### 1. Design mobile app engagements
+### 1. create a new mobile app engagement
 
 Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
@@ -115,23 +115,23 @@ There are three stages for creating mobile engagements: **settings, entry point 
 
 **Note:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
-#### Engagement Settings
+### Engagement Settings
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
 **ADD SCREEN SHOT!!!!!**
 
-Authentication
+#### Authentication
 
 Mobile app messaging engagements are currently for **authenticated conversations only.** You will see that Authentication is toggled on by default.
 
-**Routing**
+#### Routing
 
 Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
 
 **Note:** For brands using internal routing rules defined by LivePerson’s internal system, a third option, “System routing”, will be displayed. Selecting this option will route the conversation to an available agent according to the skill selection rules defined. Contact your LivePerson representative for additional details.
 
-**Language**
+#### Language
 
 The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
@@ -139,7 +139,7 @@ The window language displayed within the app (hardcoded texts like button text, 
 
 Once your settings are complete, click **next**.
 
-#### Entry Point
+### Entry Point
 
 You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
@@ -149,7 +149,7 @@ For further information on **creating a new entry point**, please refer here.
 
 When you are finished defining your entry point, click **next**.
 
-#### Visitor Behavior
+### Visitor Behavior
 
 The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
 
@@ -161,7 +161,7 @@ For more information on **creating a new behavior**, click here.
 
 When you are finished defining your visitor behavior, click **next**.
 
-#### Publish your campaign
+### Publish your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
 
