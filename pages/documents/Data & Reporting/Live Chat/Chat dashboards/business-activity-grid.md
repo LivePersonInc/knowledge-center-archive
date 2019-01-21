@@ -2,7 +2,7 @@
 pagename: Business activity grid (daily / monthly)
 categoryName: Data & reporting
 subCategoryName: Live chat
-indicator: chat
+indicator: both
 subtitle: The business activity grid spreads out the funnel metrics in a granular
   view
 level3: Chat Dashboards
