@@ -168,7 +168,6 @@ To initiate a CoBrowse session:
 ![](/img/chataw9.png)
 
 {:start="2"}
-
 1. Choose the session type:
 
 	* CoBrowse - View Only enables you to view the visitor’s screen only.
