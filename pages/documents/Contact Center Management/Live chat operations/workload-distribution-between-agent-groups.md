@@ -1,12 +1,12 @@
 ---
-pagename: 'Agent groups Workload distribution between '
+pagename: 'Agent groups workload distribution '
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
 subtitle: Manage workloads efficiently between agent groups using LivePerson's Advanced
   Workload Distribution
 level3: ''
-permalink: contact-center-management-live-chat-operations-workload-distribution-between-agent-groups.html
+permalink: contact-center-management-live-chat-operations-agent-groups-workload-distribution.html
 isTutorial: false
 date: 2019-01-21 09:37:44 +0000
 
