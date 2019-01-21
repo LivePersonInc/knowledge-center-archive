@@ -29,16 +29,16 @@ It’s also possible for brands to create profiles - customized permissions sets
 
 ![](https://lh5.googleusercontent.com/KJx4VqhmPdqnHMl3o0AT8aCEcUmbQauQDcbBsGaShwNbdsMRxIYAtTuznBIKk5H2qOAEzOBQQ7Lpkog9EMfjlNnIazhKTKjemziLS00Ukp2ca8bPnUis_C6EzJsU7AhygUFjVlb3 =419x164)
 
-{: .Start"5"}   
+{: .Start"5"}  
 5\. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
 ![](https://lh4.googleusercontent.com/ZyWsFN5-2EiNop5sP7YN94vsXsG-Y8y-QapO-r3HfaRHMmLuwlVauYl6dN0tu090UKEF-oFa2wsdHbWLppHFootFUq5RhymVLYcp5JHHhZWJHVxnjMLuHpv4DhLRXSWKz9XSMBnY =375x319)
 
-{: .Start"6"} 
+{: .Start"6"}
 
 1. For users with an Agent profile you’ll need to define additional settings:
    * Set the maximum number of chats that the user can accept at any given moment. Consider your agent’s capabilities, the number of agents available, etc.
-   * If your brand is enabled with the Messaging feature, set the maximum number of messaging conversation.   
+   * If your brand is enabled with the Messaging feature, set the maximum number of messaging conversation.  
      There are 2 options for this setting:
 
      a) You can set it to inherit it from the account level setting that can be configured through the footnote in the Users tab. Any change to the account level setting will impact all agents defined with setting.
@@ -114,6 +114,7 @@ Users can be selected from multiple pages by selecting individual users or all u
 
 {: .notice}  
 The above actions are only if available if all of the selected users have an agent user profile enabled.  
+  
 {: .start"3")
 
 1. Once you have made the changes to the settings, click save. The changes will be applied to all selected users.
