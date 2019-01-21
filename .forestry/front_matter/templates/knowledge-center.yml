@@ -64,6 +64,7 @@ fields:
     - Secure forms
     - '2018'
     - '2019'
+    - Manager tools for live chat
   label: L2 Category
   description: The sub-category to which the document belongs
   default: Web messaging
@@ -159,6 +160,7 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Contact Center Management/Live chat operations/surveys-with-live-chat.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
+- the-all-agents-list.md
 - pages/documents/Getting Started/liveperson-tag.md
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
