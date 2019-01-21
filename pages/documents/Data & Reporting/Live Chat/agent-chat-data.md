@@ -10,8 +10,7 @@ isTutorial: false
 date: 2019-01-15 08:38:14 +0000
 
 ---
-As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
-
+As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.   
 The data bar default view presents aggregated data from all skills (queues) on the account for the last 12 hours.
 
 ## **Agent real time data bar**
