@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
 isTutorial: false
 date: 2019-01-21 13:05:20 +0200
-published: false
 
 ---
 ## Real time agent data bar
