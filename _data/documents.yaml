@@ -102,7 +102,7 @@
         - pagename: Agent warmup
         - pagename: Working hours management best practices
         - pagename: Shift scheduler configuration guide
-        - pagename: Benchmarks to measure messaging success
+        - pagename: Benchmarks to measure messaging
     - subcategoryname: Live chat operations
       pages:
         - pagename: Queue prioritization for live chat

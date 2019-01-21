@@ -123,7 +123,7 @@ function populateAnchors() {
 };
 
 function sideBarClick () {
-	$("#defaultsidebar").on("click", ".canOpen", function (){
+	$("#defaultsidebar").on("click", ".canOpen", function (event){
 		console.log("clickedtop");
 		var hasExpanded = $(this).data("expanded") == "true";
 		var nextGetsOpened = $(this).nextAll(".getsOpened");
@@ -144,7 +144,11 @@ function sideBarClick () {
 			}
 			$(this).addClass("activeitem")
 			$(this).data("expanded", "true");
+			if (event.originalEvent === undefined) {
+				$(this).nextAll(".getsOpened").show();
+			} else {
 			$(this).nextAll(".getsOpened").slideDown(500);
+			}
 	};
 	return false;
 });
