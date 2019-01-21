@@ -147,7 +147,6 @@ pages:
 - pages/documents/Contact Center Management/Live chat operations/workload-distribution-between-agent-groups.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
-- the-all-agents-list.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-activity-grid.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
@@ -164,6 +163,7 @@ pages:
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-1.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
+- the-all-agents-list.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-activity-dashboard.md
 - pages/documents/Getting Started/liveperson-tag.md
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
