@@ -56,7 +56,7 @@ There are three methods to login to the real time dashboard:
 
 ### **Regular Login method:**![](https://lh6.googleusercontent.com/wnzyKkPj38rHbHKtQvZXxi6eNXEpBjaD8VVybRK4jAGX7FkvcpDC8Ro8D93D0Q3KQ7Q8opQAt5YMaLt9qNSHMnJNSyubP1xFnuhK9useUVnPFVNR_nRuHvm8LxJM1cRNWdySmKiM =175x177)
 
-**1.** Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login) 
+**1.** Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
 
 **2.** Before login, select the dashboard type: Messaging or Chat
 
@@ -93,7 +93,7 @@ When in messaging mode, the current section displays metrics on open conversatio
 
 * **OPEN**: the number of open conversations
 * **UNASSIGNED**: The number of unassigned (in queue) conversations
-* **ASSIGNED**: The number of assigned conversations 	
+* **ASSIGNED**: The number of assigned conversations
 * **ACTIVE**: The number of active conversations
 * **LOAD**: The number of active conversations as a percentage of max concurrent conversations of all agents
 * **LOAD - Online**: The number of active conversations as a percentage of max concurrent conversations of agents in the online state
@@ -103,8 +103,8 @@ When in messaging mode, the current section displays metrics on open conversatio
 * __TTFR FROM ALL ASSIGN*__: Average time to all agent responses from assignments including transfers (estimated from sample of OPEN conversations, exc. bots).
 * __TIME TO FIRST RESPONSE (TTFR)*__: Average time to first agent response from consumer message (estimated from sample of OPEN conversations, exc. bots)
 * __TIME TO FIRST RESPONSE (TTFR) - Consumer*__: Average time to first consumer response from agent message (estimated from sample of OPEN conversations)
-* **TTFR FROM FIRST ASSIGN*: Average time to first agent response after first conversation assignment (estimated from sample of OPEN conversations, exc. bots)**
-* **WAIT TIME*: The difference between TTFR and TTFR FROM FIRST ASSIGN**
+* _TTFR FROM FIRST ASSIGN_: Average time to first agent response after first conversation assignment (estimated from sample of OPEN conversations, exc. bots)*
+* _WAIT TIME_: The difference between TTFR and TTFR FROM FIRST ASSIGN*
 * __TIME TO FIRST ASSIGN*__: Average time to first agent assignment from conversation start (estimated from sample of OPEN conversations, exc. bots)
 * **MCS**: the average meaningful connection score of the conversations.
 * **MCS - Positive**: the number of conversations with positive MCS
@@ -138,7 +138,7 @@ _
 In messaging mode, the last 24 (configurable) hours section allows brands to see the data on closed conversations. Brands have two options when it comes to choosing the time frame they would like to view (limit up to 24 hours):
 
 1. A user can select a timeframe from a fixed point in time, such as “**Today, from 9:00 AM**”.
-2. Or, a user can select a rolling timeframe going back an “x” amount of hours, such as the **last 3 hours**. 
+2. Or, a user can select a rolling timeframe going back an “x” amount of hours, such as the **last 3 hours**.
 
 ![](https://lh5.googleusercontent.com/RLHwHU5UJFcmG2HiJazpt-BDAAkdC-sBR_GlXB2zeDrWBUWeII6WYgSDlmGfja7pn7cVcRtAgODGp1OuFO0wQYn_HEWXEt3KA7f_fSEvqydpqvlWqmEeC6d7Qw0IidAQblo_nXyp =624x300)
 
@@ -146,12 +146,12 @@ The metrics available in this section all relate to closed conversations only:
 
 * **Closed conversation graph**: see the distribution of closed conversations regarding how many conversations were closed by the consumer, agent or system
 * **CSAT**: average CSAT of closed conversations including how many CSAT surveys were answered
-* **Average resolution time** 
+* **Average resolution time**
 * **Response** __Time*__: see definition from Current KPI section
 * __Assign to Response Time*__: see definition from Current KPI section
 * __First Response Time*__: see definition from Current KPI section
-* **First Assignment Time*: see definition from Current KPI section**
-* **Wait Time*: see definition from Current KPI section**
+* _First Assignment Time_: see definition from Current KPI section*
+* _Wait Time_: see definition from Current KPI section*
 * **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
 ___*____Note: response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide)._
@@ -164,7 +164,7 @@ _Example of Last 24 Hour section in **chat dashboard** mode:_
 
 ![](https://lh3.googleusercontent.com/C9g_T6UwIV0Jvy1nV6n7_IXPXBcuJcoptKWP0U9scaSmcFo4AF2CKKMGVyXJk5k07QSaexpEP4vQNICTVAQpbY0Kf5TLgLXlvOD6xzsl2rhYD6hMV2yJDYyVXJq6KYywTXwAyOux =624x181)
 
-This section provides data on all the agents that are currently logged in. You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right). 
+This section provides data on all the agents that are currently logged in. You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
 The following metrics are available:
 
@@ -173,7 +173,7 @@ The following metrics are available:
 * **Status time**: the amount of time that the agent has been in that status
 * **Open**: the number of open conversations that are assigned to the agent
 * **Active**: the number of open and assigned conversations are currently active
-* **Load**: the agent’s workload. 
+* **Load**: the agent’s workload.
   * The workload is established by calculating the total weight of the assigned conversations divided by the agent’s configured maximum number of high intensity conversations.
 * **Closed**: the number of conversations that were closed in the time period selected
 * **CSAT**: average CSAT of the conversations that were closed in the time period selected
@@ -191,14 +191,14 @@ The skills section takes metrics from the Current and Closed Conversations secti
 
 * **Open**: the number of open conversations are in that skill
 * **Unassigned:** the number of conversations unassigned and in queue
-* **Assigned:** the number of conversations assigned to agents 
+* **Assigned:** the number of conversations assigned to agents
 * **Load**: the average load of the agents in that skill
 * **Online agents**: the number of “Online” agents in that skill
 * **Away**: the number of “Away” agents in that skill
 * **Back soon agents**: the number of “Back soon” agents are in that skill
 * **Max slots**: the max capacity configured for that skill
 * **Closed**: the number of closed conversation in skill within the last 12 hours
-* **Average resolution time for the time period selected** 
+* **Average resolution time for the time period selected**
 * **CSAT**: the average CSAT of closed conversations in that skill that were closed in last 12 hours
 
 The Skills Section can be exported to a .CSV file.
@@ -212,29 +212,25 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
 1. **Dashboard header filters**: these main filters will impact the entire dashboard and the displayed data.
    1. Two types:
       1. **Skills**
-
-
-1. Can choose skill to see the metrics of that specific skill
-2. Can choose multiple skills and will see aggregated data on those skills.
-3. **Groups**
+2. Can choose skill to see the metrics of that specific skill
+3. Can choose multiple skills and will see aggregated data on those skills.
+4. **Groups**
    1. Choose group to see metrics for that specific group.
    2. Can choose multiple groups and will see aggregated data on those groups.
-4. It is possible to filter for both skills and groups. 
-5. **Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
+5. It is possible to filter for both skills and groups.
+6. **Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
    1. **Today from a specific hour**: choose a specific hour to filter from
-   2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards. 
+   2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
    3. Use the radio buttons or the sliders to change the time frame
 
 ![](https://lh5.googleusercontent.com/bhG5CLSxifP05m5_LSJwXPOXZhoghDKDXnJR0X6giR3muwp5wj1QpuOHAHYgI9fFZjl46NqgzGhJP8sN3frNAhQT4jbEo6b_4oP_fwIOXVIS_i1z5MR9o542AzP-UWnZuTL_ZYsA =334x259)
 
-3. **Agent filters: there is currently only one filter available:**
-   1. **Logged in**: while this is the only filter, you can see numbers based on the agent status: 
+1. **Agent filters: there is currently only one filter available:**
+   1. **Logged in**: while this is the only filter, you can see numbers based on the agent status:
       1. Online
-
-
-1. Back soon
-2. Away 
-3. **Sort**: allows you to sort the information by the following categories:
+2. Back soon
+3. Away
+4. **Sort**: allows you to sort the information by the following categories:
     1. Status
     2. Name
     3. Status time
@@ -244,7 +240,7 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
     7. Closed
     8. Average resolution time (in grid-view only currently)
     9. CSAT
-   10. You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view. 
+   10. You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view.
    11. Also have the ability to export the agent list as a .CSV file
 
 # Customizing the Dashboard
@@ -268,20 +264,20 @@ Two sections are included in the KPI configuration:
 
 You can click on Current, Closed, Agents and Skills
 
-* Choosing Current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs. 
-  * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for Open Conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations. 
+* Choosing Current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
+  * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for Open Conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
 * For Agents and Skills there are no configurations to customize. ![](https://lh3.googleusercontent.com/_Mm4SbVTFopLOyiRehivhBARz1MqXjEGHcdcMEjBZCMJ8hK0pw7ocTMcwxPfJUYWx5N5e4j18Tsw12Bb1XVLY-fAe_c5x8rof1lUFTF20AQt6n-lKKpfHPqnqJHzaN8zgPs_FrT1 =419x487)
-* If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish. 
+* If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.
 
 ![](https://lh4.googleusercontent.com/ZKIABOv1r-INMqcnOA-kLdRR96mbWyOIW6nReBaib0enPaXrs3KTMiiJeS4zLk3kwgLSTamhyuj4IeYD_zj5Vhg5SOU06tRCl61TeS_g6nnGp_0VNPt92NmuoPHzl18ow97xvNDa =501x674)
 
-The reset button on the bottom left resets to the initial configuration. 
+The reset button on the bottom left resets to the initial configuration.
 
 # Additional functions
 
-![](https://docs.google.com/a/liveperson.com/drawings/d/sG71W6V69d4qxi2HDGV-6mw/image?w=624&h=68&rev=28&ac=1&parent=1ojMh05NOdSfTcbSH8yvSledaiZ-ZYH6pGIQhgu6fCNQ =624x68)
+!\[\](https://docs.google.com/a/liveperson.com/drawings/d/sG71W6V69d4qxi2HDGV-6mw/image?w=624&h=68&rev=28&ac=1&parent=1ojMh05NOdSfTcbSH8yvSledaiZ-ZYH6pGIQhgu6fCNQ =624x68)
 
-**The menu on the top right corner:** 
+**The menu on the top right corner:**
 
 * Allows you to logout
 * Review the [Terms of Use](https://www.liveperson.com/policies/analytics-beta-tou)
@@ -295,5 +291,4 @@ _![](https://lh5.googleusercontent.com/s0HIOwaPAMdBs-xd_ODdhy-rdl_2f9SQSgHyUavHe
 
 **_Opened Filter means:_** _the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section._
 
-  
-_***Note:** be aware that some elements and usability may change as we finalize this feature. Customers must agree to the conditions and limitations when logging in to the real time dashboard tool._ 
+_***Note:** be aware that some elements and usability may change as we finalize this feature. Customers must agree to the conditions and limitations when logging in to the real time dashboard tool._
