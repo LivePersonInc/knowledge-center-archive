@@ -8,6 +8,7 @@ level3: ''
 permalink: data-reporting-live-chat-agent-manager-historical-data
 isTutorial: false
 date: 2019-01-21 13:14:09 +0200
+published: false
 
 ---
 ## Agent activity dashboard
