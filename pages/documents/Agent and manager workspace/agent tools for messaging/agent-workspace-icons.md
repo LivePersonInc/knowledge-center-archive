@@ -15,9 +15,9 @@ Agent workspace icons for messaging
 
 ## All connections list
 
-The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents. 
+The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
 
-![](https://lh3.googleusercontent.com/f9x7BI2zvUIGzFdNB7vlUVt_1uBSTtw5T5qFq4Vi5YRD2eWltelYk06LcttKwpiMfa3Sbp5E86NPDUizQyIl7EoqlY-kV5qG3XXbGs4iFkMOt-ojNa_7b57B36Ks8Nnyg83WZ_wA =624x273)
+![](/img/wsicons1.png)
 
 | --- | --- |
 | Icon | Meaning |
@@ -36,9 +36,9 @@ The all connections list displays every one of your brand’s messaging conversa
 
 ## Open Connections
 
-The open connections tab shows all of the conversations assigned to the agent that are currently open and not yet resolved. 
+The open connections tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.
 
-![](https://lh4.googleusercontent.com/nP-svu8Gdrg1XcYjUAU9P88mvnKRMkkNTXl-nJcFM6wfPOh7ck_chGdOAYqhX5L9P7HbSn45r5zPFiGuUGjspgA1ZDC-M_F6DBoMY5im1_KWUF2OXEfd9Qh4yByNE7FKCRE17Inc =624x276)
+![](/img/wsicons2.png)
 
 | --- | --- |
 | Icon | Meaning |
@@ -51,7 +51,9 @@ The open connections tab shows all of the conversations assigned to the agent th
 |  | The response time column tells the agent the SLA, or the amount of time remaining until a response is required. |
 |  |  |
 
-## Conversation view![](https://lh6.googleusercontent.com/5anw80FDS4lz29bJBviDFjkloR1TI8td72go0oA8U6ezyFZMj02fxJgQNf3uWyX_gdEVshPnLvelv2a-mVPNgwt_qp_St61w3ihlJS9kvL8hvlGGr51PAwsGMFVFgMWSaA3O-ACd =624x298)
+## Conversation view
+
+![](/img/wsicons3.png)
 
 | --- | --- |
 | Icon | Meaning |
