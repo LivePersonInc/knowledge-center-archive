@@ -2,7 +2,7 @@
 pagename: Agent manager historical data
 categoryName: Data & reporting
 subCategoryName: Live chat
-indicator: chat
+indicator: both
 subtitle: Agent managers can get historical data on agent activity
 level3: ''
 permalink: data-reporting-live-chat-agent-manager-historical-data.html
