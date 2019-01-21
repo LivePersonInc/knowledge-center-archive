@@ -8,13 +8,14 @@ level3: ''
 permalink: admin-settings- create-manage-users
 isTutorial: false
 date: 2019-01-21 15:55:21 +0200
+published: false
 
 ---
 As an Administrator you can add and manage up to 18,000 users in your account. Users in LivePerson have different permission sets, according to their roles.
 
 It’s also possible for brands to create profiles - customized permissions sets within roles, for additional user management flexibility. For further information on customizing profiles and permissions sets, see [profiles (permissions)]()
 
-![](https://lh6.googleusercontent.com/oCFxB9akKflSpaFcysos-Iw_2EZdb3hm7Era-mvhQRmek8Sjo55PmNmdW68CzI8FPY_3sc-wHSne-NI13JJ6dRrDYOAkMhssGJ7Hxc0Or6ZzzAiFSHotGSMySq5nMRj85H3wyX0u =313x309)
+![](/img/createuser1.png)
 
 **To add a user:**
 
@@ -26,12 +27,12 @@ It’s also possible for brands to create profiles - customized permissions sets
 3. Set a password with a minimum of eight (8) characters. Click **save**.
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 
-![](https://lh5.googleusercontent.com/KJx4VqhmPdqnHMl3o0AT8aCEcUmbQauQDcbBsGaShwNbdsMRxIYAtTuznBIKk5H2qOAEzOBQQ7Lpkog9EMfjlNnIazhKTKjemziLS00Ukp2ca8bPnUis_C6EzJsU7AhygUFjVlb3 =419x164)
+![](/img/createuser2.png)
 
 {: .Start"5"}  
 5\. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
-![](https://lh4.googleusercontent.com/ZyWsFN5-2EiNop5sP7YN94vsXsG-Y8y-QapO-r3HfaRHMmLuwlVauYl6dN0tu090UKEF-oFa2wsdHbWLppHFootFUq5RhymVLYcp5JHHhZWJHVxnjMLuHpv4DhLRXSWKz9XSMBnY =375x319)
+![](/img/createuser3.png)
 
 {: .Start"6"}
 
@@ -112,8 +113,8 @@ Users can be selected from multiple pages by selecting individual users or all u
    b) Assign skills. Note that in cases where the selected users share common skill(s), the shared skill(s) will appear in the skill selection field.
 
 {: .notice}  
-The above actions are only if available if all of the selected users have an agent user profile enabled.  
-  
+The above actions are only if available if all of the selected users have an agent user profile enabled.
+
 {: .start"3")
 
 1. Once you have made the changes to the settings, click save. The changes will be applied to all selected users.
@@ -124,7 +125,7 @@ You can easily search for users and their information according to their name, n
 
 In the following example, the term “agent” was input to the search box and all users with either agent or agent manager permission sets have been returned as the search result.
 
-![](https://lh3.googleusercontent.com/5zOfQ7f_R8-7o1wS__sQQdyc7Wc0HwkB6bY640v3oC4_oLrsXdrBd3ZLYDqeirI83Dz8Tx4rXGMyhjojc2v4TNjvA7mHtlibCk0SOkwNEMGrfXRs_57ijL57zAc1YzKz6tMwe6g8 =434x250)
+![](/img/createuser4.png)
 
 **Change password on next login**
 
