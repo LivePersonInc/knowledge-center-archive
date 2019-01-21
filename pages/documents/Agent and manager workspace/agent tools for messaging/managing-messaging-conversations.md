@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html
 isTutorial: false
 date: 2019-01-21 11:41:06 +0200
-published: false
 
 ---
 Once you start handling conversations, you should move down the conversation list according to priority. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
