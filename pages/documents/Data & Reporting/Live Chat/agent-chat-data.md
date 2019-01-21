@@ -8,7 +8,6 @@ level3: ''
 permalink: reporting-data-BI-(chat)-agent-manager-real-time-data.html
 isTutorial: false
 date: 2019-01-15 08:38:14 +0000
-published: false
 
 ---
 As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
@@ -19,23 +18,23 @@ The data bar default view presents aggregated data from all skills (queues) on t
 
 The agent data bar enables agents to monitor their own performance data in real time. The agent data bar is displayed above the web visitors list.
 
-![](https://lh6.googleusercontent.com/kIeTbzLgrtPkJeatbofhYY7Jv1QRbdmnCONYwUWVavKeHWC9I3lq3FjWXebAZa4S9az9A20_B9kPLU0CcWbduM7hsw_QgzmUXZP293LcshhxNMdU4my65D7WRFMMBzN9bcf9i2go =624x36)
+![](/img/agentchatadata1.png)
 
 ## **Agent real time dashboard**
 
 The agent dashboard provides additional detailed and graphical information about agent performance. To access the agent dashboard, click the pull-down button above the web visitors list.
 
-![](https://lh4.googleusercontent.com/X-0k5T6OR-SzVuBFizAFQabMuXFdY4iM8CfCI6y3nr6ilUPNBUMlKsWTavB17E7AB6vZY6bFx8ISPHuF2aAbyV1d1rNslMHpbE3BYsBiTFd1uoyeoKhpcKEGK7UVMTyp4bJGQpRH =582x261)
+![](/img/agentchatdata2.png)
 
-**Queue health data bar** 
+**Queue health data bar**
 
 The queue health data bar provides a snapshot of the basic information required to track agent efficiency and operational efficiency. The queue health data bar is located above the web visitors list.
 
-![](https://lh5.googleusercontent.com/TBU8wbZS9c7IG5DWVArIJwV7ZNMZrDOtHk-GWFqAJQOzu8SbtKcB_3cJmxWsEyeWC3P-l394omTLE356J_lEax3AcW44n16CZfnbQqeuyjMUOpHshTGnA2dq_l7GNldpMKijCjvP =624x39)
+![](/img/agentchatdata3.png)
 
 The data bar default view presents aggregated data from all skills (queues) on the account for the last 12 hours.
 
-### **Metrics** 
+### **Metrics**
 
 **CONNECTED:** displays the number of connected chats between visitors and agents whether or not they interacted.
 
@@ -53,15 +52,12 @@ According to the data in the data bar, you can offer your agents constructive fe
 
 The queue health dashboard graphically displays real-time and historical data that enables easily evaluation of agent efficiency. To access the queue health dashboard, click the pull-down button above the web visitors list.
 
-  
-![](https://lh4.googleusercontent.com/s95Y5IcY7ImK1-IzrxIVPvg1tntmMHiZclT1HBEsXQQccUwhCoLuXYLuEs391kZV555IoCdWZtpzLQD3y41Bvc2bNZt6_QCzjNwYknl7sIrApJVBfEVINVsQFme117Dti5K21e-C =624x280)
+![](/img/agentchatdata4.png)
 
-**Agent list data bar**
+**Agent list data bar**
 
 The agent list enables agent managers to track agent status in real time, including the availability and concurrency of agents.
 
 The agent list data bar is located above the list of agents.
 
-![](https://lh4.googleusercontent.com/sYjo-l5rfqkzbZvOVVWnT1QWcRowTXRagdYjJ-GnONewh_MSdVgu2ZUaMVfyp-vMyvxMZrv-eL6SSe26u47o4QPx2kNXleGl7plauJ7H2q16-ZU-AX4xoNl24v8V-OYX1RIfTGKb =624x32)
-
-
+![](/img/agentchatdata5.png)
