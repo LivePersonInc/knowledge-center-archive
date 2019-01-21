@@ -9,7 +9,6 @@ level3: Chat Dashboards
 permalink: live-chat-chat-dashboards-agent-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 14:47:20 +0200
-published: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
@@ -45,7 +44,7 @@ Visualizations:
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
 | CROSS SESSION REVENUE |  |  |  |
 
-## Panel 2: Agent Activity Grid
+## Panel 2: Agent activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
