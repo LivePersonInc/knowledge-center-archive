@@ -8,6 +8,7 @@ level3: Chat Dashboards
 permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard
 isTutorial: false
 date: 2019-01-21 14:55:50 +0200
+published: false
 
 ---
 This dashboard includes metrics used to analyze skill queue performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
