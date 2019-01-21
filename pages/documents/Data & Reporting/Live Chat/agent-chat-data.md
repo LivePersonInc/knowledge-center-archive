@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Agent managers can analyze real time data of agent activity
 level3: ''
-permalink: reporting-data-BI-(chat)-agent-manager-real-time-data.html
+permalink: data-reporting-live-chat-agent-manager-real-time-data.html
 isTutorial: false
 date: 2019-01-15 08:38:14 +0000
 published: false
