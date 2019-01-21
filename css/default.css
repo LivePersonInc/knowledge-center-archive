@@ -130,7 +130,7 @@ h3 {
   #defaultwrapper {
     display: grid;
     grid-template-columns: 2fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
-    grid-template-rows: 120px 140px 92px 1fr 350px;
+    grid-template-rows: 120px 140px 92px 1fr 50px;
     height: auto;
   }
 
@@ -435,7 +435,7 @@ h3 {
   position: sticky;
   top: 160px;
   align-items: baseline;
-  height: 83vh;
+  height: 78vh;
   overflow-y: auto;
 }
 

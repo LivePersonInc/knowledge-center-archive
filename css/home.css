@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 150px 730px 720px 640px 350px;
+    grid-template-rows: 150px 730px 720px 640px 50px;
   }
 
   #homenav {
