@@ -54,7 +54,7 @@ Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the scr
 
 ![](/img/chataw3.png)
 
-To send a message, enter text in the lower text entry area, and click the Send (![Send button.png](https://lh4.googleusercontent.com/DO0LJMaEsH44x4pFNt_hH1qB92X9nFps8e7bSzxeGsMZ6PfhYM5p1tZgFcm0zWDDIl2f4hqM8Mfd3-j1MiS3C6ahxA-1br7wH4lpgKKelXVYQ7it8aNe01F39qRSMxrRKBZLeUxh =17x17)) button, or press Enter. The sent text is displayed in the chat display area, along with replies and text sent by the visitor.
+To send a message, enter text in the lower text entry area, and click the Send button, or press Enter. The sent text is displayed in the chat display area, along with replies and text sent by the visitor.
 
 If you do not send a message to the consumer for some time, a default message is sent, apologizing for the delay.
 
@@ -168,10 +168,11 @@ To initiate a CoBrowse session:
 ![](/img/chataw9.png)
 
 {:start="2"}
+
 1. Choose the session type:
 
-* CoBrowse - View Only enables you to view the visitor’s screen only.
-* CoBrowse - Shared gives you full control over the current browser tab.
+	* CoBrowse - View Only enables you to view the visitor’s screen only.
+	* CoBrowse - Shared gives you full control over the current browser tab.
 
 ![](/img/chataw10.png)
 
@@ -180,13 +181,14 @@ The consumer receives a notification asking them to accept the CoBrowse session.
 ![](/img/chataw11.png)
 
 {:start="3"}
+
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
    ![](/img/chataw12.png)
 
 {:start="4"}
-2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the Agent workspace
 
