@@ -8,7 +8,6 @@ level3: Chat Dashboards
 permalink: data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html
 isTutorial: false
 date: 2019-01-21 14:11:34 +0200
-published: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. It provides brands the ability to monitor from both supply and demand perspective, their chat operation at the Line of Business (LOB), skill, campaign and engagement level. 
