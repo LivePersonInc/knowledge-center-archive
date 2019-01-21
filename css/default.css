@@ -264,6 +264,10 @@ h3 {
   z-index: 1;
 }
 
+.mobileheader {
+  display: none;
+}
+
 #documenttitlecontainer {
   display: flex;
   flex-direction: column;

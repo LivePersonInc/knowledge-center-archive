@@ -1,16 +1,13 @@
 $(document).ready(function () {
 	//initialize smooth scroll
+	sideBarClick ();
+	sideBarCollapse ();
 	var scroll = new SmoothScroll('a[href*="#"]', { offset: 140});
 	mainBoxClick()
 	anchors.add('h2');
 	populateAnchors();
-	sideBarClick ();
 	linkload();
 	mobileHamburger()
-});
-
-$(window).on('load', function () {
-	sideBarCollapse ();
 });
 
 function navigateContent(url) {
