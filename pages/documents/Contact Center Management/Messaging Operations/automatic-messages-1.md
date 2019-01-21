@@ -177,17 +177,15 @@ The following list sets out the default automatic messages for messaging in Live
 | The consumer dismisses the conversation urgent state | Conversation no longer urgent | You have marked this conversation as not urgent. An agent should respond within {expectedResponseTime}. | {expectedResponseTime} |
 
 ## Consumer/Agent non-responsive
-
+| Event | Message name in LiveEngage | Default text | Trigger |
 | --- | --- | --- | --- |
-| Event | Message name in LiveEngage | Default text | Timeout? |
 | The consumer has not responded for X seconds/minutes/hours | Consumer non-responsive message | We haven't heard from you in a while. Do you still need help with something? | Yes |
 | The agent did not respond for X seconds/minutes/hours | Agent non-responsive message | Sorry it's taking longer than expected to reply. Your agent will respond shortly.  | Yes |
 | Conversation is in queue for X mins/hours  | Waiting in queue message | Sorry our wait times are longer than expected. You will be connected to an agent shortly. | Yes |
 
 ## Transfers and connection to agents
-
+| Event | Message name in LivePerson | Default text | Trigger |
 | --- | --- | --- | --- |
-| Event | Message name in LivePerson | Default text | Available dynamic text |
 | The conversation is transferred to a different skill | Conversation transferred to a different agent | You are being transferred to another agent |  |
 | The agent returns the conversation to the queue | Conversation returned to queue | Sorry, your agent can't respond right now. Another agent will be with you in {expectedResponseTime}. | {expectedResponseTime} |
 | The consumer is connected to an agent | Agent accepts conversation | You are now connected to {agentNickname}. | {agentNickname} |
