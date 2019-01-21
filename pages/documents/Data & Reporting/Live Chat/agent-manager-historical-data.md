@@ -13,7 +13,7 @@ published: false
 ---
 ## Agent activity dashboard
 
-This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation. 
+This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
 **Primary Datasets:** Agent activity, conversions, engagements, surveys
 
@@ -30,26 +30,27 @@ The following default panel will be presented when accessing the agent activity 
 Image 1 - Agent activity dashboard main panel
 
 Visualizations:
+
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
 | Logged in time(pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
 | Away Time(pie chart) | AWAY | AWAY REASON | Hover to view the duration of a specific away reason and the % contribution of the angle |
 | Engaged duration per state (bar chart) | ENGAGED TIME | DATE | Filter by Agent Status (attribute) |
-| NON ENGAGED TIME |
+| NON ENGAGED TIME |  |  |  |
 | Engagements per hour(bar chart) | INTERACTIVE ENGAGEMENTS PER HOUR | DATE | N/A |
 | Concurrency(line chart) | CONC. ENGAGED | DATE | N/A |
-| CONC. LABOR |
-| CONC. LOGGED IN |
+| CONC. LABOR |  |  |  |
+| CONC. LOGGED IN |  |  |  |
 | Conversions(bar chart) | IN SESSION CONVERSIONS | DATE | N/A |
-| CROSS SESSION CONVERSIONS |
+| CROSS SESSION CONVERSIONS |  |  |  |
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
-| CROSS SESSION REVENUE |
+| CROSS SESSION REVENUE |  |  |  |
 
 ## Panel 2: Agent Activity Grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
-![Cox (31922287) - Agent Activity Grid.png](https://lh5.googleusercontent.com/3vKLIBEEZ5XOu4TkZkU_WhaG8ca69M2FGRjGj1vMJnQpnBSyTXR3qc_nchvxVsWcUFpR40q4FQQVpt1XR9pKwZBwayax3yccZ8JmP5Z8en6g7C3r4Dmh8C1QK2UIjb1CcJ9uZcSP =624x380)
+![](/img/agentactdash2.png)![](/img/agentactdash2.png)![](/img/agentactdash2.png)
 
 Image 2 - agent activity grid (panel 2)
 
