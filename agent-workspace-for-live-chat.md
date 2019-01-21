@@ -168,10 +168,10 @@ To initiate a CoBrowse session:
 ![](/img/chataw9.png)
 
 {:start="2"}
-1. Choose the session type:
 
-	* CoBrowse - View Only enables you to view the visitor’s screen only.
-	* CoBrowse - Shared gives you full control over the current browser tab.
+1. Choose the session type:
+   * CoBrowse - View Only enables you to view the visitor’s screen only.
+   * CoBrowse - Shared gives you full control over the current browser tab.
 
 ![](/img/chataw10.png)
 
@@ -195,8 +195,8 @@ In order to improve agent performance and expedite the transfer of closed chats 
 
 **This process is recommended in order to streamline the agent’s work and can be achieved in two ways:**
 
-1. Clear continuously: The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
-2. Clear upon accumulation: The agent periodically clears all the ‘Closed’ chats they have accumulated.
+* Clear continuously: The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
+* Clear upon accumulation: The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
 All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the Agent workspace without releasing them.
 
