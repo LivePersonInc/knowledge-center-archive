@@ -27,7 +27,8 @@ Based on the configurations selected by you contact center manager, there are tw
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
 * **Conversation history:** For repeat customers, any previous messaging history will display in the Engagement History widget.
-* !\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image002.gif =471x253)
+
+  ![](/img/managemess1.png)
 * **Consumer Info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
@@ -36,19 +37,19 @@ There are several tools in place to help you access the information you’ll nee
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image004.gif =470x251)
+![](/img/managemess2.png)
 
 ## Capture notes within the conversation summary
 
 Conversation Summary is a dedicated widget that enables you write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image006.gif =470x252)
+![](/img/managemess3.png)
 
 ## Conversation Actions
 
 While conducting a conversation, there are a few actions you can take:
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image022.gif =470x252)
+![](/img/managemess11.png)
 
 **Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
 
@@ -62,9 +63,7 @@ Every time a consumer sends a message, the SLA, or your expected time to reply r
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
-### !\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image008.gif =470x253)
-
-### 
+![](/img/managemess4.png)
 
 ## Use Rich Messaging to make your conversations more engaging
 
@@ -94,7 +93,7 @@ There are three options to make your mobile messaging conversations more interac
 
 All three options are triggered from within the messaging conversation window:
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image010.gif =285x310)
+![](/img/managemess5.png)
 
 **App Screen Sharing**
 
@@ -105,33 +104,37 @@ when you initiate a screen sharing session, the audio will automatically be conn
 
 When you initiative a screen sharing session, the consumer will see the following invite:
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image012.gif =122x216)
+![](/img/managemess6.png)
 
 When they accept the invitation, it will be clear that you are sharing their screen:
 
-!\[coApp-v2.1-21.png\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image014.gif =126x221)
+![](/img/managemess7.png)
 
 **Digital Voice Calls**
 
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
-**_*Note:_** _ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations._
+{: .notice}
+
+_Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations._
 
 When you invite a customer to a call, they’ll see an incoming call screen:
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image016.gif =135x241)
+![](/img/managemess8.png)
 
 Connected call screen:
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image018.gif =137x242)
+![](/img/managemess9.png)
 
 **Digital Video**
 
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
-__*_Note___ _- this is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
+{: .notice}
 
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image020.gif =115x203)
+T_his is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
+
+![](/img/managemess10.png)
 
 ## Closing Conversations
 
@@ -143,7 +146,9 @@ The conversations can be marked as resolved or closed, either by the consumer or
 
 As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window.
 
-**_*Note:_** _It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate._
+{: .notice}
+
+_It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate._
 
 **Auto Close for inactive conversations**
 
