@@ -2,14 +2,13 @@
 pagename: Agent activity dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: chat
+indicator: both
 subtitle: This dashboard includes operational metrics used to analyze agent activity
   and performance.
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboard-agent-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 15:17:48 +0200
-published: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
