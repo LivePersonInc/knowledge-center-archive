@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messging-agent-workspace-basics.html
 isTutorial: false
 date: 2019-01-21 11:24:58 +0200
-published: false
 
 ---
 By logging into LiveEngage as an agent, you will automatically be brought to the Agent Workspace.
