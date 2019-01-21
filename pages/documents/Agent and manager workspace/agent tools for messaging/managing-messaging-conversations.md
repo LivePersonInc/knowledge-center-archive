@@ -167,7 +167,6 @@ Select an action by pressing the applicable letter.
 
 
 |    ACTION    |    HOT   KEY    |
-
 | --- | --- |
 |    LOGOUT of the agent   workspace    |    L    |
 |    ACCEPT a new incoming   conversation    |    A    |
@@ -179,5 +178,4 @@ Select an action by pressing the applicable letter.
 |    CLOSE conversation    |    X    |
 
 {: .notice}
-
 _The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
