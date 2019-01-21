@@ -21,7 +21,7 @@ There are three main tabs that you will use as a messaging agent: Open Connectio
 
 1. **My Connections** - This is where all your assigned conversations will appear. In this tab you will see all your conversations organized by priority and sorted by SLA. Conversations that have passed their SLA will be marked in red.
 
-Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
+	Clicking on each conversation will allow you to read the transcript, browse different widgets and 		start engaging with your customers. If you choose to click on a consumer’s name, it will open up the 	 entire conversation and you can begin messaging.
 
 1. **All Connections** - If you have permission to access this tab, this is where you can search for your closed conversations, and view their CSAT scores or read the transcripts for quality assurance purposes. Learn more about the All Connections tab below.
 2. **Messaging Agents** - If you have permission to access this tab, this is where you can see your team’s shift status, everyone's login status, load, number of open conversations, number of closed conversations and more. This is a good indication of how your team is doing.
