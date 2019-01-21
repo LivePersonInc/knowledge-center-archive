@@ -10,6 +10,8 @@ isTutorial: true
 date: 2019-01-16 08:25:55 +0000
 
 ---
+[https://vimeo.com/312481307/544d64aa18](https://vimeo.com/312481307/544d64aa18 "https://vimeo.com/312481307/544d64aa18")
+
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
 
 * Handling more conversations - By prioritizing interactive conversations first you can drive more conversations towards a resolution.
@@ -107,20 +109,20 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 
 | KPI | Value | Impact | Why? |
 | --- | --- | --- | --- |
-| Avg. time to resolve important conversations | Decrease | Positive | Resolution of important conversations will decrease because they will advance in the queue and the average time to resolve will shorten.  |
-| Number of handled conversations | Increase | Positive | If you prioritize, for example, by likeilhood of interactions, you will catch engaged consumers and be able to handle and close more conversations.  |
-| Wait time for high priority skills | Decrease | Positive | With a clear way to focus agents on high priority consumers - defined by attributes - high priority consumers will be answered first.  |
-| Wait time for low priority skills | Increase | Negative | By focusing on higher priority consumers, lower priority ones may wait longer.  |
+| Avg. time to resolve important conversations | Decrease | Positive | Resolution of important conversations will decrease because they will advance in the queue and the average time to resolve will shorten. |
+| Number of handled conversations | Increase | Positive | If you prioritize, for example, by likeilhood of interactions, you will catch engaged consumers and be able to handle and close more conversations. |
+| Wait time for high priority skills | Decrease | Positive | With a clear way to focus agents on high priority consumers - defined by attributes - high priority consumers will be answered first. |
+| Wait time for low priority skills | Increase | Negative | By focusing on higher priority consumers, lower priority ones may wait longer. |
 | CSAT/ MCS of prioritized customers | Increase | Positive | They will handled faster than before |
 | CSAT/ MCS of other customers | Decrease | Negative | They may be handled slower than before |
-| Number of conversations assigned to an agent with no customer response | Decrease | Positive | By prioritizing by likelihood of interaction, you will be able to reach and focus more engaged consumers faster.  |
+| Number of conversations assigned to an agent with no customer response | Decrease | Positive | By prioritizing by likelihood of interaction, you will be able to reach and focus more engaged consumers faster. |
 
 **Use cases of queue prioritization**
 
 | Use case | Goal | KPI |
 | --- | --- | --- |
 | Prioritize VIP customers | Better service for VIP customers | CSAT of VIP increases; CSAT of non-VIP decreases; Avg. time to resolve  VIP increases |
-| Prioritize fresh customers- likiehood for interaction  | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
+| Prioritize fresh customers- likiehood for interaction | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
 | Sales - Intent to purchase | Increase conversions | Total conversation increases |
 
 ### The next era: how queue prioritization works in LivePerson
