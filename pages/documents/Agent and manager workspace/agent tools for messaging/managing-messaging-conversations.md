@@ -22,7 +22,7 @@ Based on the configurations selected by you contact center manager, there are tw
 * **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Manual accept**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
-## Understand the context & history 
+## Understand the context & history
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
@@ -165,17 +165,16 @@ On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
 
 Select an action by pressing the applicable letter.
 
-
-|    ACTION    |    HOT   KEY    |
+| ACTION | HOT   KEY |
 | --- | --- |
-|    LOGOUT of the agent   workspace    |    L    |
-|    ACCEPT a new incoming   conversation    |    A    |
-|    LIST VIEW: open the my   connection list     |    V    |
-|    STATUS: toggle your   status between Online, Back Soon and Away    |    S    |
-|    HIDE conversation from   your current view    |    H    |
-|    Return conversation to QUEUE     |    Q    |
-|    TRANSFER conversation   to another skill    |    T    |
-|    CLOSE conversation    |    X    |
+| LOGOUT of the agent   workspace | L |
+| ACCEPT a new incoming   conversation | A |
+| LIST VIEW: open the my   connection list | V |
+| STATUS: toggle your   status between Online, Back Soon and Away | S |
+| HIDE conversation from   your current view | H |
+| Return conversation to QUEUE | Q |
+| TRANSFER conversation   to another skill | T |
+| CLOSE conversation | X |
 
 {: .notice}
 _The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
