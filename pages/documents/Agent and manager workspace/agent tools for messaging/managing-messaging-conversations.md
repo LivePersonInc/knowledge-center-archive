@@ -33,7 +33,7 @@ There are several tools in place to help you access the information you’ll nee
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
 
-## Replying to consumers
+## Reply to consumers
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
