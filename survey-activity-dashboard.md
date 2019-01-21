@@ -11,13 +11,13 @@ date: 2019-01-21 13:41:23 +0200
 published: false
 
 ---
-Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.  
-  
+Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.
+
 **Primary datasets:** Survey forms and answers
 
 **Minimum timeframe:** Daily
 
-**Primary filters:** 
+**Primary filters:**
 
 1. Survey type / form, and question
 2. Agent, agent group, and skill
@@ -26,7 +26,7 @@ Capture all responses to surveys presented to agents and consumers in your Live 
 
 This panel consists of an interconnected set of visualizations allowing for a drill down form the survey form level down to an analysis of distribution of responses for a specific survey question. Click through from top to bottom to follow the analysis path.
 
-![](https://lh3.googleusercontent.com/yf8wfPn5xGR3qzB8hJkZEjyhZrzMgPrSuI3DNxj4F_z1AI_G9SFz5lXit_ViHyAWPylBJ7fYOytxRhwmfS2pa2v1CR287cVcmrtq1h4NVn27m3QVnsZ8vmVRGi-ClafamTEM1KEp =864x520)
+![](/img/surveyactdash.png)
 
 Image 1: Survey Activity main panel
 
@@ -45,9 +45,9 @@ Visualizations:
 
 ## Second Panel: CSAT Analysis
 
-This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day.
+This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day. 
 
-![](https://lh4.googleusercontent.com/dx3AKpjFhScys0sPNTt9BFE9hWycKn7FgCuSGOSxsn3FLoLZz39datX7Dh7AJ0fTGYd4xVzsJUUQCxC3IMecNqrl95PbIVAVuLMg97MudNRGCgFCoQU6sp1faJ81gp8tn5msV8dt =864x520)
+![](/img/surveyactivitydash2.png)
 
 ### CSAT Grid
 
@@ -64,7 +64,7 @@ This panel displays the trend of CSAT score over the selected time frame. The gr
 
 Columns (Attributes)
 
-1. Date 
+1. Date
 
 ## Survey activity grid
 
@@ -74,7 +74,7 @@ Export daily survey responses with a full distribution of the provided answers. 
 
 **Detailed Analysis (Grid)**
 
-Rows (attributes): 
+Rows (attributes):
 
  1. DATE
  2. DAY OF WEEK
