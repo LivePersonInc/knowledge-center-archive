@@ -7,7 +7,7 @@ subtitle: Capture all responses to surveys presented to agents and consumers
 level3: Chat Dashboards
 permalink: data-reporting-chat-dashboards-live-chat-chat-dashboards.html
 isTutorial: false
-date: 2019-01-21 11:41:23 +0000
+date: 2019-01-21 13:41:23 +0200
 
 ---
 Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.
@@ -44,7 +44,7 @@ Visualizations:
 
 ## Second Panel: CSAT Analysis
 
-This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day. 
+This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day.
 
 ![](/img/surveyactivitydash2.png)
 
@@ -112,3 +112,6 @@ Columns (metrics):
 1. VIEWED SURVEY
 2. COMPLETED SURVEY
 3. SURVEY COMPLETION RATE
+
+{: .notice}  
+The survey activity dashboard is also available in BI
