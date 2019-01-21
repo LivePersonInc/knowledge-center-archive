@@ -11,7 +11,6 @@ date: 2019-01-21 13:18:27 +0200
 published: false
 
 ---
-Agent workspace icons for messaging
 
 ## All connections list
 
