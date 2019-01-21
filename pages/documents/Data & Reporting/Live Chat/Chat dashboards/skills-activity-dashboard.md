@@ -60,3 +60,6 @@ Image 2 - Skill activity grid (panel 2)
 5. AVG. INTERACTIVE CHAT LENGTH
 6. AVG. TIME TO ABANDON / ANSWER CHAT
 7. MAX TIME TO ABANDON / ANSWER CHAT
+
+{: .notice}  
+This dashboard is also available in BI.
