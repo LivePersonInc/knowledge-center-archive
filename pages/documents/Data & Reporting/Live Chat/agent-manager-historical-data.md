@@ -8,10 +8,9 @@ level3: ''
 permalink: data-reporting-live-chat-agent-manager-historical-data.html
 isTutorial: false
 date: 2019-01-21 11:14:09 +0000
+published: false
 
 ---
-## Agent activity dashboard
-
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
 **Primary Datasets:** Agent activity, conversions, engagements, surveys
@@ -20,7 +19,7 @@ This dashboard includes operational metrics used to analyze agent activity and p
 
 **Minimum timeframe:** Hourly
 
-## Main Panel: Agent Activity Dashboard
+## Main Panel: Agent activity dashboard
 
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
