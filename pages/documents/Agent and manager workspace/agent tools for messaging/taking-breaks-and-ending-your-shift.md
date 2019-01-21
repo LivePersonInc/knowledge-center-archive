@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-taking-breaks-ending-shift.html
 isTutorial: false
 date: 2019-01-21 12:06:43 +0200
-published: false
 
 ---
 ## Before taking a break…
