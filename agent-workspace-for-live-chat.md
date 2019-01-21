@@ -63,7 +63,6 @@ You can always return to the visitor list while chatting with a consumer. Simply
 You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window.
 
 {: .notice}
-
 Any user can take a chat from a consumer, providing they have been granted this permission in the User Profile area.
 
 ## Agent widgets and tools
@@ -133,8 +132,7 @@ Select an action by pressing the applicable letter:
 * RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
 
 {: .notice}
-
-_The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
+The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
 
 ### Send a link
 
@@ -170,7 +168,6 @@ To initiate a CoBrowse session:
 ![](/img/chataw9.png)
 
 {:start="2"}
-
 1. Choose the session type:
 
 * CoBrowse - View Only enables you to view the visitor’s screen only.
@@ -183,12 +180,11 @@ The consumer receives a notification asking them to accept the CoBrowse session.
 ![](/img/chataw11.png)
 
 {:start="3"}
-
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
    ![](/img/chataw12.png)
 
-   {:start="4"}
+{:start="4"}
 2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
 3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
