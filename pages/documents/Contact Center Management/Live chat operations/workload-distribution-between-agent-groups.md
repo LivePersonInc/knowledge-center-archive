@@ -1,5 +1,5 @@
 ---
-pagename: Workload distribution between agent groups
+pagename: 'Agent groups Workload distribution between '
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
@@ -8,7 +8,7 @@ subtitle: Manage workloads efficiently between agent groups using LivePerson's A
 level3: ''
 permalink: contact-center-management-live-chat-operations-workload-distribution-between-agent-groups.html
 isTutorial: false
-date: 2019-01-21 11:37:44 +0200
+date: 2019-01-21 09:37:44 +0000
 
 ---
 A priority of any a contact center is to provide a rapid and personalized service at all times. Even when, for example, a brand's billing page goes down, or they are hit by hectic holiday volumes. By effectively distributing conversation traffic between agent groups, LivePerson ensures a brand's consumers will always be answered as quickly and as efficiently as possible - which can be particularly challenging for brands working with large numbers of agent groups, or with groups spread across different locations.
