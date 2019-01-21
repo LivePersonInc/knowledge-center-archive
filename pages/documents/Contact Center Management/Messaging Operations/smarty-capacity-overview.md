@@ -7,13 +7,15 @@ subtitle: A smart algorithm adjusts agent capacity based on availability, rather
   conversation concurrency
 level3: ''
 permalink: contact-center-management-messaging-operations-smarty-capacity-overview.html
-isTutorial: false
-date: 2019-01-17 13:53:17 +0200
+isTutorial: true
+date: 2019-01-17 11:53:17 +0000
 
 ---
 ## **Messaging's impact on the conversations lifecycle**
 
 In the world of messaging, consumers are connected to a brand 24/7. They can pick up a conversation with an agent at any time and from any device, without ever being disconnected. Consequently, the frequency of messages sent by the consumer changes throughout the conversation life cycle. As time passes, the frequency or _intensity_ of the messages drops, meaning the chances of the consumer answering fall, and an agent needs less time to deal with them.
+
+[https://vimeo.com/312486745/acb54c76ca](https://vimeo.com/312486745/acb54c76ca "https://vimeo.com/312486745/acb54c76ca")
 
 ### **Shifting the focus from concurrency to intensity**
 
@@ -45,6 +47,7 @@ Conversations assigned to an agent can either be pending consumer or pending age
 Setting a manual SLA for a conversation will not affect its intensity, and therefore will not affect how Smart Capacity treats it.
 
 {:start="3"}
+
 1. When Smart Capacity detects a conversation with a low intensity, it will assign it with a lower weight. This frees up the agent’s capacity, allowing new conversations to enter the agent’s queue.
 
 {: .notice}
@@ -91,8 +94,9 @@ The load is calculated by dividing the total weight of the assigned conversation
 This means the maximum number of conversations with a high intensity of messages that the agent will be part of at any one time, and does not include conversations that are idle.
 
 {:start="3"}
+
 1. Click **Save**.
-![](/img/smart-capacity-overview-3-1.png)**
+   ![](/img/smart-capacity-overview-3-1.png)**
 
 {: .notice}
 To maximize agent capacity and ensure conversation routing is as rapid and efficient as possible, ensure the **Automatic Chat/Conversation Distribution (ACD)** feature is enabled to auto-accept on your account.
