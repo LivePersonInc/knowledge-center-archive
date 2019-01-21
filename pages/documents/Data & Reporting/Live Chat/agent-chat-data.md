@@ -8,6 +8,7 @@ level3: ''
 permalink: reporting-data-BI-(chat)-agent-manager-real-time-data.html
 isTutorial: false
 date: 2019-01-15 08:38:14 +0000
+published: false
 
 ---
 As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.   
