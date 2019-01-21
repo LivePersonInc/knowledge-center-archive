@@ -643,17 +643,22 @@ h3 {
 
 #footerbottomrow {
   display: flex;
-  margin-bottom: 5px;
 }
 
 #footertext {
   color: #eef0f1;
+  flex:1;
 }
 
 #footertext a {
   color: #eef0f1;
   text-decoration: none;
   margin-right: 5px;
+}
+
+#footericons {
+  display: flex;
+  align-items: center;
 }
 
 #footericons a {
@@ -897,6 +902,12 @@ h3 {
 @media screen and (max-width: 1040px) {
   .anchorlist {
     display: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #footertext {
+    font-size: 13px;
   }
 }
 
