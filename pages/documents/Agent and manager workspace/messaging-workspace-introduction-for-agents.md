@@ -9,7 +9,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-introduction-to-agents.html
 isTutorial: false
 date: 2019-01-21 11:13:27 +0200
-published: false
 
 ---
 It’s important to understand how messaging is different from live chat. With messaging, interactions with visitors can be ongoing, and visitors have the freedom to respond on their own time. This means that the interaction can last a full shift or a few days, allowing you to pick up pending conversations any time of the day. Another benefit of messaging is that consumers can return to the same agent to continue their journey, creating a continuous and seamless experience.
