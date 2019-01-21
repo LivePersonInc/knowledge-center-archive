@@ -49,7 +49,7 @@ Visualizations:
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
-![](/img/agentactdash2.png)![](/img/agentactdash2.png)![](/img/agentactdash2.png)
+![](/img/agentactdash2.png)
 
 Image 2 - agent activity grid (panel 2)
 
@@ -81,13 +81,13 @@ Image 2 - agent activity grid (panel 2)
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
-![Cox (31922287) - Agent Performance.png](https://lh3.googleusercontent.com/Pxf58rsGUYMYsyNdFg3vop1e2KUntatT7tkfJQstneYM-CLaPkN0I2tGWfMGxttBQ4gaq8UpcTU1lZflAtln9DRJJkQFlfwSABMwJ99k9FSECHbbcS9tl_RIyE2hGl6Vpalwn5su =624x380)
+![](/img/agentactdash3.png)
 
-Image 3 - Agent Performance (panel 3)
+Image 3 - Agent performance (panel 3)
 
-**Rows (Attributes):** AGENT
+**Rows (attributes):** AGENT
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
 1. CSAT SCORE
 2. ENGAGED TIME RATE
