@@ -8,7 +8,6 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-wrap-up-time.html
 isTutorial: false
 date: 2019-01-21 13:09:31 +0200
-published: false
 
 ---
 Allocating a ‘wrap up’ period at the end of each chat gives agents time to fill-in surveys and record any important details about the chat. 
