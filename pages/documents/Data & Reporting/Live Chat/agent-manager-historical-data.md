@@ -5,9 +5,9 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Agent managers can get historical data on agent activity
 level3: ''
-permalink: data-reporting-live-chat-agent-manager-historical-data
+permalink: data-reporting-live-chat-agent-manager-historical-data.html
 isTutorial: false
-date: 2019-01-21 13:14:09 +0200
+date: 2019-01-21 11:14:09 +0000
 published: false
 
 ---
