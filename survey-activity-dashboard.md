@@ -8,7 +8,6 @@ level3: Chat Dashboards
 permalink: data-reporting-chat-dashboards-live-chat-chat-dashboards.html
 isTutorial: false
 date: 2019-01-21 13:41:23 +0200
-published: false
 
 ---
 Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.
