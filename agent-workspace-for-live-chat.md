@@ -11,7 +11,6 @@ date: 2019-01-21 14:19:13 +0200
 published: false
 
 ---
-
 ## Login and status
 
 \--need to add section
@@ -26,13 +25,12 @@ The Web Visitors list displays all visitors currently on your website, along wit
 
 You can sort the visitors according to any of the following parameters:
 
-* Meaningful Connection Score 
+* Meaningful Connection Score
 * Country
 * Skill
 * Agent nickname
 * Current page on your website that the visitors are browsing
 
-  
 To sort the visitors, simply click on the relevant parameter header.
 
 ### View more detailed information
@@ -42,7 +40,6 @@ You can view more detailed information about your visitors, including the follow
 * **Visit info:** Which campaign the visitor is currently exposed to, along with the campaign’s main parameters (goal, target audience, and visitor behavior). You can also see more detailed information about the visit, including city and country, organization, operating system, browser, and more.
 * **Page navigation**: What page the visitor is currently browsing, as well as the pages previously visited.
 
-  
 To view more detailed information about a visitor, simply click on the visitor’s name.
 
 ## Handling chats in the agent workspace
@@ -51,7 +48,6 @@ The Agent Workspace is where agents can simultaneously handle conversations with
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
-  
 ![](/img/chataw2.png)
 
 Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the screen. The in-chat screen is then displayed.
@@ -64,25 +60,22 @@ If you do not send a message to the consumer for some time, a default message is
 
 You can always return to the visitor list while chatting with a consumer. Simply click the menu button  in the bottom left-hand corner of the screen.
 
-You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window. 
+You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window.
 
 {: .notice}
 
-Any user can take a chat from a consumer, providing they have been granted this permission in the User Profile area. 
+Any user can take a chat from a consumer, providing they have been granted this permission in the User Profile area.
 
 ## Agent widgets and tools
 
 The Agent Workspace includes several widgets to help agents manage their conversations:
 
 * **Visit info widget**: Indicates who the visitor is, and how they arrived at the website.
-
-
-* **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times. 
+* **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times.
 * **Page navigation widget**: Allows agents to offer assistance to consumers according to their journey on the website.
 * **Agent survey widget**: Allows agents to provide Agent Managers with input about the conversation and its outcome.
 * **Engagement History widget**: Allows agents to read transcripts from previous chats with the visitor and provide better service by understanding their chat history.
 
-  
 Agents also have access to the following tools during their conversations with consumers:
 
 * Copy as plain text
@@ -95,7 +88,7 @@ Agents also have access to the following tools during their conversations with c
 
 ### Copy as plain text
 
-Agents can copy the full chat conversation in plain text and paste it into a different location, for example, into an email or document. 
+Agents can copy the full chat conversation in plain text and paste it into a different location, for example, into an email or document.
 
 ### Private message
 
@@ -139,18 +132,18 @@ Select an action by pressing the applicable letter:
 * TRANSFER ENGAGEMENT (T): to transfer the chat to another agent
 * RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
 
-_Note: The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
+{: .notice}
+
+_The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
 
 ### Send a link
 
 Agents can send a direct link to a page on their website. Create the link by entering a link name and the relevant URL.
 
-  
 ![](/img/chataw6.png)
 
 ### CoBrowse
 
-  
 CoBrowse enables agents and consumers to access and navigate web pages collaboratively. This ensures that complex online tasks and processes can be completed quickly and efficiently. With CoBrowse, chat interactions between agents and consumers are enhanced by a real-time visual layer. This increases consumer engagement by creating a higher degree of co-presence of the agent.  No plugins or downloads are required, ensuring that agents and consumers are connected in an instant.
 
 ![](/img/chataw7.png)
@@ -161,16 +154,14 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 
 ![](/img/chataw8.png)
 
-* Press Ctrl + click the left mouse button to animate the element with a wiggle effect. 
+* Press Ctrl + click the left mouse button to animate the element with a wiggle effect.
 
 Use cases for CoBrowse:
 
 * Offering a concierge service
 * Walking visitors through a process
 * Assisting a visitor in filling out a form
-* Helping visitors to troubleshoot 
-
- 
+* Helping visitors to troubleshoot
 
 To initiate a CoBrowse session:
 
@@ -178,10 +169,12 @@ To initiate a CoBrowse session:
 
 ![](/img/chataw9.png)
 
-2. Choose the session type:
+{:start="2"}
+
+1. Choose the session type:
 
 * CoBrowse - View Only enables you to view the visitor’s screen only.
-* CoBrowse - Shared gives you full control over the current browser tab. 
+* CoBrowse - Shared gives you full control over the current browser tab.
 
 ![](/img/chataw10.png)
 
@@ -189,108 +182,94 @@ The consumer receives a notification asking them to accept the CoBrowse session.
 
 ![](/img/chataw11.png)
 
-3. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
+{:start="3"}
+
+1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
    ![](/img/chataw12.png)
 
-4. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked. 
-5. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+   {:start="4"}
+2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the Agent workspace
 
-In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the Agent workspace. 
+In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the Agent workspace.
 
 **This process is recommended in order to streamline the agent’s work and can be achieved in two ways:**
 
 1. Clear continuously: The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
 2. Clear upon accumulation: The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
-All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the Agent workspace without releasing them. 
-
- 
+All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the Agent workspace without releasing them.
 
 The number of accumulated chats can be seen in the bottom right corner of the page in the closed image. The number indicates how many chats were closed but not yet released. The following image shows that 1 chat has not yet been released.
 
 ![](/img/chataw13.png)
 
- 
-
 ### To clear a single chat:
 
 1. Make sure the chat has ended - this is confirmed in the header of the chat.
 
-  
 ![](/img/chataw14.png)
 
 2\. In the top right corner of the chat window, click the down arrow.
 
-  
 ![](/img/chataw15.png)
 
 3\. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
-
- 
 
 ### To clear all closed chats:
 
 1. Click CLOSED in the bottom right corner of the page. A window will open listing all ended chats.
 2. Click Clear all completed. The chats that you selected will be cleared from the Agent workspace.
 
-  
 ![](/img/chataw16.png)
 
 ## The Agent Data Bar
 
 As an agent, you have goals to meet, such as achieving a specific customer satisfaction rate or a certain number of engagements per hour. The Agent Data Bar allows you to monitor your performance data in real time, and take any necessary action to meet these goals. The Data Bar displays the following metrics.
 
- 
-
 **Engagements**
 
 Engagements represents the number of chats you’ve taken during your current shift. The system counts the chat once you close the Engagement window.
 
- 
-
 **Average Engagement Length**
 
-The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue. 
+The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue.
 
 ![](https://lh5.googleusercontent.com/H6UOEGhJriYDXLwqC0cS0YR98RcGAKYouN6FtQ8F955_UdQTdbuNbknp7K6TbOnm-Y7WlDS5JqgB4jucWHO43QzilVmG-mFPCipIG65FjY2AR5cUWHcWEbipVl8yDcmNTOkPIut1 =398x32)
 
-For example, if you were engaged for a total of 5 hours (including concurrent chats) and in that time took five chats, your average engagement length is:  5 hours / 5 = 1 hour 
+For example, if you were engaged for a total of 5 hours (including concurrent chats) and in that time took five chats, your average engagement length is:  5 hours / 5 = 1 hour
 
 **Engagements per Hour**
 
-The number of engagements per hour reflects how many customers you have served on the average, in a given time period. There is no one perfect number for engagements per hour; you adapt the length of your chat to the needs of your customers. 
+The number of engagements per hour reflects how many customers you have served on the average, in a given time period. There is no one perfect number for engagements per hour; you adapt the length of your chat to the needs of your customers.
 
 ![](https://lh6.googleusercontent.com/GThzPBIl4m0Eecn85xcpLHchpzEdXoYuD7n5KqXJTwApUyF9W59zf0njCqkPXDr77xWwH_dnuDhCyFNqPGc0rArn8fWYc9schtVs0GM-arIBGi8Dx3i3-FO1g9gtNZFYwb8u3V-a =444x27)
 
-For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour = 
+For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour =
 
 ![](https://lh4.googleusercontent.com/XN4o2m6h45YV8lkYpSzaNqnsp9IyyahllOrg3_nGk2b6pbrwBe-MXHyRqCkwlHRczVJnkH-1R9SqZWnDYB9Qy2nbDASIkDcZ8OMA9fHg2E5MuLV4St3QLVwiTkClgulLUk1sgLYU =291x34)
 
 **Utilized Capacity**
 
-Utilized Capacity is calculated as follows:  
+Utilized Capacity is calculated as follows:
 
 ![](https://lh5.googleusercontent.com/K_skeyILqCcghHO7oFf3wyLnk8sBC-ijHUVRTPYdsmtezMxyPH6L_QZCcmUU65fXiqdExnlX_mkLZHjlj8BKt5FMPkeqGzhcxr4DXlPNSb_MWmPqVVRlEKxOd1uffnKazx5R7i3w =427x31)
 
- For example, if your concurrent engaged time is 4.5 hours, you’ve been logged in for 5 hours, and your maximum number of chats is 4, then your utilized capacity is: 
+For example, if your concurrent engaged time is 4.5 hours, you’ve been logged in for 5 hours, and your maximum number of chats is 4, then your utilized capacity is:
 
 ![](https://lh3.googleusercontent.com/roYn1uUq98CofczkTQ13y1MrZ8MxDmIkxQBttcNcgcTm3nORteIM03Ne8Um41U7zwkTeKHNRJZ0ir7YE00xkm5T4qRehnQ1iDhK4x7b7uUZ_smsiCnyeCNFWe7ivJkZ_JNFgNOKP =162x35)
 
-If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased. 
+If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased.
 
- 
-
-If, on the other hand, your utilized capacity is high, you are fully occupied.  
-
- 
+If, on the other hand, your utilized capacity is high, you are fully occupied.
 
 **CSAT**
 
 This score reflects your customers’ rating of your engagement with them. The data is collected from customers in the post-chat survey. By reading your CSAT score, you can see if you need to improve your chatting skills. You can get guidance and help from your manager and your peers.
 
-![](https://lh3.googleusercontent.com/SAgcDU1IVKOoGvWACBhoFxJeN_EDJUrYlaGAckhKsl0yKnFO_vyZ9Qv2vnxW9pHFm1QkRauONs_SA-kwqf5vFNdxEUT8xM-aRjvep--W2hUa0UTy-9TPrCIyUbAJbmRTzP8D14EJ =282x35) 
+![](https://lh3.googleusercontent.com/SAgcDU1IVKOoGvWACBhoFxJeN_EDJUrYlaGAckhKsl0yKnFO_vyZ9Qv2vnxW9pHFm1QkRauONs_SA-kwqf5vFNdxEUT8xM-aRjvep--W2hUa0UTy-9TPrCIyUbAJbmRTzP8D14EJ =282x35)
 
-Monitor your Data Bar, to make sure that you are meeting your goals. If your utilization and CSAT scores are below par, get help from your manager or your peers. 
+Monitor your Data Bar, to make sure that you are meeting your goals. If your utilization and CSAT scores are below par, get help from your manager or your peers.
