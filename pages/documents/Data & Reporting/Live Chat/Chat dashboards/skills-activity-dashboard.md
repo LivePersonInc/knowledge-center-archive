@@ -1,0 +1,62 @@
+---
+pagename: Skills activity dashboard
+categoryName: Data & reporting
+subCategoryName: Live chat
+indicator: chat
+subtitle: 'This dashboard includes metrics used to analyze skill queue performance '
+level3: Chat Dashboards
+permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard
+isTutorial: false
+date: 2019-01-21 14:55:50 +0200
+published: false
+
+---
+This dashboard includes metrics used to analyze skill queue performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
+
+**Primary Datasets:** Queue health, engagements, surveys
+
+**Primary Filters:** Skill, agent group
+
+**Minimum timeframe:** Hourly
+
+## Main panel: Skill activity dashboard
+
+The following panel will be presented when accessing the skill activity predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
+
+![](https://lh3.googleusercontent.com/itnzX_RUl2GfEpEJMmvisVf5W2JMKrINmtldSerUgpYzY64IYVvBLTGRgmvUGTRppinqpLoj01KTSc9j2_br4j3NtGJSEvfUxUVPLEFWOdFeKdXfzIFgiyShsYVhTWU57IFlQyFG =624x332)
+
+Image 1 - Skill activity dashboard main panel
+
+**Visualizations:**
+
+| --- | --- | --- | --- |
+| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
+| Eng. Volume(area chart) | REQUESTED CHATS | DATE | N/A |
+| CONNECTED CHATS |
+| INTERACTIVE CHATS |
+| Average engagement length (bar chart) | CSAT | DATE | N/A |
+| AVG. INTERACTIVE CHAT LENGTH |
+| Abandon Rate (bar chart) | ABANDONED CHAT RATE | DATE | N/A |
+| Average wait time (line chart) | AVG. TIME TO ABANDON CHAT | DATE | N/A |
+| AVG. TIME TO ANSWER CHAT |
+| CSAT |
+
+## Panel two: Skill activity grid
+
+The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by skills, agent groups, and day of the week.
+
+![Cox (31922287) - Skill Activity Grid.png](https://lh3.googleusercontent.com/QRYE5EZxTQXHfk5eTDWX1e13YpgF3DBr0giZHIU-iAHYY4bjM9YLzltXDG0oLh2RyPF2_O_7LgcJLFNx8GnPTZyjvEu_ehqdNUc7dt2TN5fN7bYnimIFeCOeTgB7iDqmNyY6Szq9 =624x451)
+
+Image 2 - Skill activity grid (panel 2)
+
+**Rows (attributes):** Date, day of week, group, skill
+
+**Columns (metrics):**
+
+1. REQUESTED / CONNECTED / INTERACTIVE CHATS
+2. INTERACTIVE CHAT RATE
+3. ABANDONED CHATS
+4. ABANDONED CHAT RATE
+5. AVG. INTERACTIVE CHAT LENGTH
+6. AVG. TIME TO ABANDON / ANSWER CHAT
+7. MAX TIME TO ABANDON / ANSWER CHAT
