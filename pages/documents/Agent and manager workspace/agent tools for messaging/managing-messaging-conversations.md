@@ -100,7 +100,7 @@ All three options are triggered from within the messaging conversation window:
 This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
 
 {: .notice}
-when you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience)._
+When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience)._
 
 When you initiative a screen sharing session, the consumer will see the following invite:
 
@@ -115,8 +115,7 @@ When they accept the invitation, it will be clear that you are sharing their scr
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
 {: .notice}
-
-_Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations._
+Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations._
 
 When you invite a customer to a call, they’ll see an incoming call screen:
 
@@ -131,8 +130,7 @@ Connected call screen:
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
 {: .notice}
-
-T_his is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
+This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
 
 ![](/img/managemess10.png)
 
@@ -147,8 +145,7 @@ The conversations can be marked as resolved or closed, either by the consumer or
 As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window.
 
 {: .notice}
-
-_It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate._
+It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate._
 
 **Auto Close for inactive conversations**
 
