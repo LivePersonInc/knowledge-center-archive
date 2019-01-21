@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-chat-agent-workspace-for-live-chat.html
 isTutorial: false
 date: 2019-01-21 14:19:13 +0200
-published: false
 
 ---
 ## Login and status
