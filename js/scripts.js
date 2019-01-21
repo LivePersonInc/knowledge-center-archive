@@ -226,15 +226,9 @@ function isExplorer() {
 	if (is_ie) {
 		var nav = document.getElementById('homenav');
 		var header = document.getElementById('homeheader');
-		var sidebar = document.getElementById('defaultsidebar');
 		var documenttitlecontainer = document.getElementById('hometitle');
-		var footer = document.getElementById('defaultfooter');
-		var content = document.getElementById('defaultcontent')
 		nav.classList.add('homenavexplorer');
 		header.classList.add('homeheaderexplorer');
-		sidebar.classList.add('defaultsidebarexplorer');
 		documenttitlecontainer.classList.add('hometitleexplorer');
-		footer.classList.add('defaultfooterexplorer');
-		content.classList.add('defaultcontentexplorer');
 	}
 };
