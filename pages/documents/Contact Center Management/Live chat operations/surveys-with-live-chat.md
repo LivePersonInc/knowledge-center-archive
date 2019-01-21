@@ -8,16 +8,15 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-surveys-with-live-chat.html
 isTutorial: false
 date: 2019-01-21 13:55:32 +0200
-published: false
 
 ---
-As a major point of contact with your consumers, chat surveys offer you a unique opportunity to collect a large volume of valuable information about your visitors. They can also provide you with key insights into the performance of your agents. 
+As a major point of contact with your consumers, chat surveys offer you a unique opportunity to collect a large volume of valuable information about your visitors. They can also provide you with key insights into the performance of your agents.
 
 In LivePerson, there are four types of surveys; the **pre-chat** survey, the **post-chat** survey, the **offline** survey and the **agent** survey. Each of these surveys is a short, online form that can be filled filled out at a certain stage of the engagement.
 
 ### Pre-chat survey
 
-The pre-chat survey provides agents with information about the visitor prior to the onset of the chat. The details are displayed in the agent workspace allowing them to better understand the needs of the visitor. 
+The pre-chat survey provides agents with information about the visitor prior to the onset of the chat. The details are displayed in the agent workspace allowing them to better understand the needs of the visitor.
 
 ### Post-chat survey
 
@@ -40,4 +39,4 @@ The agent survey is an important tool that allows you to gather data and insight
 * Limit pre-chat surveys in sales scenarios so you don’t lose a consumer on the way to check-out.
 * Use the same creative design in the surveys that you have used for the chat window.
 
-Surveys can be created and edited in the Engagement window. For guidance on setting up a survey, refer to our Engagement window documentation. 
+Surveys can be created and edited in the Engagement window. For guidance on setting up a survey, refer to our [Engagement window documentation]().
