@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html
 isTutorial: false
 date: 2019-01-21 11:21:27 +0200
-published: false
 
 ---
 Watch this tutorial to learn about the Messaging Agent Workspace
