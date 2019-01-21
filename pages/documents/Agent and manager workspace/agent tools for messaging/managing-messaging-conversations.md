@@ -13,7 +13,7 @@ published: false
 ---
 Once you start handling conversations, you should move down the conversation list according to priority. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-## New incoming conversations: manual vs. auto accept
+## Take incoming conversations
 
 As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer.
 
@@ -22,7 +22,7 @@ Based on the configurations selected by you contact center manager, there are tw
 * **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Manual accept**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
-## Understand the consumer and context of the conversation
+## Understand the context & history 
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
@@ -44,7 +44,19 @@ Conversation Summary is a dedicated widget that enables you write notes and comm
 
 !\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image006.gif =470x252)
 
-## Ensure follow up for a conversation by adjusting the SLA
+## Conversation Actions
+
+While conducting a conversation, there are a few actions you can take:
+
+!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image022.gif =470x252)
+
+**Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
+
+**Hide conversation**: If you have an inactive conversation that doesn’t require your attention, this option allows you to hide the conversation window and send the conversation back to open connections.
+
+**Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
+
+## Adjusting the SLA for follow up
 
 Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your All Connections list.
 
@@ -121,19 +133,7 @@ __*_Note___ _- this is permission-based and depends on your contact center and s
 
 !\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image020.gif =115x203)
 
-### Conversation Actions
-
-While conducting a conversation, there are a few actions you can take:
-
-!\[\](file://localhost/Users/ltabibian/Library/Group%20Containers/UBF8T346G9.Office/msoclip1/01/clip_image022.gif =470x252)
-
-**Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
-
-**Hide conversation**: If you have an inactive conversation that doesn’t require your attention, this option allows you to hide the conversation window and send the conversation back to open connections.
-
-**Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
-
-### Closing Conversations
+## Closing Conversations
 
 The nature of messaging conversations is that they are ongoing and can be resumed at any
 
@@ -165,8 +165,10 @@ On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
 
 Select an action by pressing the applicable letter.
 
-| --- | --- |
+
 |    ACTION    |    HOT   KEY    |
+
+| --- | --- |
 |    LOGOUT of the agent   workspace    |    L    |
 |    ACCEPT a new incoming   conversation    |    A    |
 |    LIST VIEW: open the my   connection list     |    V    |
@@ -176,4 +178,6 @@ Select an action by pressing the applicable letter.
 |    TRANSFER conversation   to another skill    |    T    |
 |    CLOSE conversation    |    X    |
 
-**_*Note:_** _The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
+{: .notice}
+
+_The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
