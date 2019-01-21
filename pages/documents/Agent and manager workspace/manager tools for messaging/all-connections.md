@@ -2,7 +2,7 @@
 pagename: All Connections
 categoryName: Agent & manager workspace
 subCategoryName: Manager tools for messaging
-indicator: chat
+indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.html
