@@ -7,7 +7,8 @@ $(document).ready(function () {
 	anchors.add('h2');
 	populateAnchors();
 	linkload();
-	mobileHamburger()
+	mobileHamburger();
+	isExplorer();
 });
 
 function navigateContent(url) {
@@ -216,3 +217,24 @@ $(window).scroll(function() {
 		 }
     });
 });
+
+//detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
+function isExplorer() {
+	var ua = window.navigator.userAgent;
+	var is_ie = /MSIE|Trident/.test(ua);
+
+	if (is_ie) {
+		var nav = document.getElementById('homenav');
+		var header = document.getElementById('homeheader');
+		var sidebar = document.getElementById('defaultsidebar');
+		var documenttitlecontainer = document.getElementById('hometitle');
+		var footer = document.getElementById('defaultfooter');
+		var content = document.getElementById('defaultcontent')
+		nav.classList.add('homenavexplorer');
+		header.classList.add('homeheaderexplorer');
+		sidebar.classList.add('defaultsidebarexplorer');
+		documenttitlecontainer.classList.add('hometitleexplorer');
+		footer.classList.add('defaultfooterexplorer');
+		content.classList.add('defaultcontentexplorer');
+	}
+};

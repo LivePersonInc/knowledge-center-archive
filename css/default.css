@@ -855,6 +855,22 @@ h3 {
   text-decoration: none;
 }
 
+/* Explorer rules because the internet is fake */
+
+.hometitleexplorer {
+  margin-bottom: 345px;
+}
+
+.homeheaderexplorer {
+  display: flex;
+  justify-content: center;
+}
+
+.homenavexplorer {
+  width: 100%;
+  display: flex;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
