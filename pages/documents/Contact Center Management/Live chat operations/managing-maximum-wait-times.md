@@ -10,7 +10,6 @@ isTutorial: false
 date: 2019-01-21 11:51:22 +0200
 
 ---
-
 When you first configure a skill in LivePerson, you select the maximum wait time after which engagements will not be displayed to visitors. This is to ensure that visitors do not click an engagement and end up waiting for a long time to be answered by an agent.
 
 **How to Use ‘Ignore Max Wait Time’**
