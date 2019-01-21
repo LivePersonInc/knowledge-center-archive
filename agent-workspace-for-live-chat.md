@@ -234,7 +234,7 @@ Engagements represents the number of chats you’ve taken during your current sh
 
 The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue.
 
-![](https://lh5.googleusercontent.com/H6UOEGhJriYDXLwqC0cS0YR98RcGAKYouN6FtQ8F955_UdQTdbuNbknp7K6TbOnm-Y7WlDS5JqgB4jucWHO43QzilVmG-mFPCipIG65FjY2AR5cUWHcWEbipVl8yDcmNTOkPIut1 =398x32)
+_Average engagement length = total concurrent engaged time / number of interactive engagements._
 
 For example, if you were engaged for a total of 5 hours (including concurrent chats) and in that time took five chats, your average engagement length is:  5 hours / 5 = 1 hour
 
@@ -242,21 +242,21 @@ For example, if you were engaged for a total of 5 hours (including concurrent ch
 
 The number of engagements per hour reflects how many customers you have served on the average, in a given time period. There is no one perfect number for engagements per hour; you adapt the length of your chat to the needs of your customers.
 
-![](https://lh6.googleusercontent.com/GThzPBIl4m0Eecn85xcpLHchpzEdXoYuD7n5KqXJTwApUyF9W59zf0njCqkPXDr77xWwH_dnuDhCyFNqPGc0rArn8fWYc9schtVs0GM-arIBGi8Dx3i3-FO1g9gtNZFYwb8u3V-a =444x27)
+_Engagements per hour = the number of interactive engagements / (online time + away time engaged + back soon time engaged)_
 
-For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour =
+For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour will be:
 
-![](https://lh4.googleusercontent.com/XN4o2m6h45YV8lkYpSzaNqnsp9IyyahllOrg3_nGk2b6pbrwBe-MXHyRqCkwlHRczVJnkH-1R9SqZWnDYB9Qy2nbDASIkDcZ8OMA9fHg2E5MuLV4St3QLVwiTkClgulLUk1sgLYU =291x34)
+_6 engagements / 3 hours = 2 engagements per hour_
 
 **Utilized Capacity**
 
 Utilized Capacity is calculated as follows:
 
-![](https://lh5.googleusercontent.com/K_skeyILqCcghHO7oFf3wyLnk8sBC-ijHUVRTPYdsmtezMxyPH6L_QZCcmUU65fXiqdExnlX_mkLZHjlj8BKt5FMPkeqGzhcxr4DXlPNSb_MWmPqVVRlEKxOd1uffnKazx5R7i3w =427x31)
+_utilized capacity = total concurrent engaged time / total logged in time x max allowed concurrent chats_
 
 For example, if your concurrent engaged time is 4.5 hours, you’ve been logged in for 5 hours, and your maximum number of chats is 4, then your utilized capacity is:
 
-![](https://lh3.googleusercontent.com/roYn1uUq98CofczkTQ13y1MrZ8MxDmIkxQBttcNcgcTm3nORteIM03Ne8Um41U7zwkTeKHNRJZ0ir7YE00xkm5T4qRehnQ1iDhK4x7b7uUZ_smsiCnyeCNFWe7ivJkZ_JNFgNOKP =162x35)
+_4.5 / (5 x 4) = 22.5 = >22.5%_
 
 If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased.
 
@@ -266,6 +266,6 @@ If, on the other hand, your utilized capacity is high, you are fully occupied.
 
 This score reflects your customers’ rating of your engagement with them. The data is collected from customers in the post-chat survey. By reading your CSAT score, you can see if you need to improve your chatting skills. You can get guidance and help from your manager and your peers.
 
-![](https://lh3.googleusercontent.com/SAgcDU1IVKOoGvWACBhoFxJeN_EDJUrYlaGAckhKsl0yKnFO_vyZ9Qv2vnxW9pHFm1QkRauONs_SA-kwqf5vFNdxEUT8xM-aRjvep--W2hUa0UTy-9TPrCIyUbAJbmRTzP8D14EJ =282x35)
+_CSAT = total number of positive answers / total number of answers_
 
 Monitor your Data Bar, to make sure that you are meeting your goals. If your utilization and CSAT scores are below par, get help from your manager or your peers.
