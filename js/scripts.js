@@ -227,8 +227,8 @@ function isExplorer() {
 		var nav = document.getElementById('homenav');
 		var header = document.getElementById('homeheader');
 		var documenttitlecontainer = document.getElementById('hometitle');
-		nav.classList.add('homenavexplorer');
-		header.classList.add('homeheaderexplorer');
-		documenttitlecontainer.classList.add('hometitleexplorer');
+		nav.setAttribute('id', 'homenavexplorer');
+		header.setAttribute('id', 'homeheaderexplorer');
+		documenttitlecontainer.setAttribute('id', 'hometitleexplorer');
 	}
 };

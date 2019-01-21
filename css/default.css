@@ -857,16 +857,16 @@ h3 {
 
 /* Explorer rules because the internet is fake */
 
-.hometitleexplorer {
+#hometitleexplorer {
   margin-bottom: 345px;
 }
 
-.homeheaderexplorer {
+#homeheaderexplorer {
   display: flex;
   justify-content: center;
 }
 
-.homenavexplorer {
+#homenavexplorer {
   width: 100%;
   display: flex;
 }
