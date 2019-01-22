@@ -878,6 +878,14 @@ h3 {
   max-width: none;
 }
 
+#featurestable table tr td {
+  text-align: left;
+}
+
+#featurestable td:first-child {
+  min-width: 150px;
+}
+
 #featurestable thead > tr > th {
   padding: 14px 10px;
   text-align: center;
@@ -941,7 +949,11 @@ h3 {
   width: 25.5%;
   padding: 5px;
   padding-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #272727;
+  font-size: 14px;
 }
+
 
 .categoryrow {
   background-color: #162036 !important;

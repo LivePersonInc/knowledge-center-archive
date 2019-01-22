@@ -30,7 +30,9 @@ function navigateContent(url) {
 			//add anchor links to all h3 titles. See respective functions below for what they do.
 			anchors.add('h2');
 			populateAnchors();
-			capabilitiesSearch()
+			capabilitiesSearch();
+			searchFunction();
+			searchHighlight();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a[href*="#"]');
 			//jump to top when page loads
@@ -201,7 +203,7 @@ function mobileHamburger() {
 function searchFunction() {
 	var $title = $('.h1').text();
 	//only run if on the relevant pages
-	if ($title.indexOf('API Data Metrics') > -1 || $title.indexOf('Report Builder Data Metrics') > -1) {
+	if ($title.indexOf('Business Reporting Metrics') > -1) {
 		// Declare variables
 		var input, filter, table, tr, td, i;
 		input = document.getElementById("metricsSearch");
@@ -270,14 +272,13 @@ function searchFunction() {
 function capabilitiesSearch() {
 	var $title = $('.h1').text();
 		// Declare variables
+		if ($title.indexOf('Messaging channels capabilities comparison') > -1) {
 		var input, filter, table, tr, categorytr, td, capabilityName, i;
 		input = document.getElementById("capabilitiesSearch");
 		table = document.getElementById("featurestable");
 		tr = table.getElementsByTagName("tr");
 		td = document.getElementsByTagName("td");
-
 			$('input').on('input', function () {
-			console.log("typing");
 			filter = input.value.toUpperCase();
 			$('td').unhighlight({
 				className: 'metricHighlight'
@@ -305,6 +306,7 @@ function capabilitiesSearch() {
 				};
 			};
 		});
+	};
 };
 
 function searchHighlight() {
