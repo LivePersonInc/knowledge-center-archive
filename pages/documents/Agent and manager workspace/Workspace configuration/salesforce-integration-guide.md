@@ -152,8 +152,8 @@ These settings allow you to choose which fields of each object will be available
 
 * Click “Add Field Mapping” to get started.
 * Fill out the following fields to complete your field mapping:
-* Choose a SF Field Name
-* Choose ‘Editability’ mode
+  * Choose a SF Field Name
+  * Choose ‘Editability’ mode
 
 **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
 
@@ -347,7 +347,7 @@ Now that you’ve configured your LiveEngage App in Salesforce, it’s time to g
 5. Choose “Double Widget” size
 6. Enter the following URL:
 
-[https://liveengage.**XXXX**.visual.force.com/apex/ChatLink](https://liveengage.xxxx.visual.force.com/apex/ChatLink)
+[https://liveengage.**XXXX**.visual.force.com/apex/ChatLink]()
 
 Replace **XXXX** with your SF domain (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “[https://eu2.salesforce.com](https://eu2.salesforce.com "https://eu2.salesforce.com")”).
 
@@ -390,9 +390,9 @@ Below is an overview of the widget capabilities, in this section, we will cover 
 
 This will save the account record in SF and link the existing chat/messaging conversation to this account:
 
-![](https://lh5.googleusercontent.com/d1X_topBbxSjdhVuIeASRl_WI053E0erstHOX39jJZtFTMCPMMnkgqSGadLV1gzanjWG0GcXu1TwyE1hoVOYsxIE8IxmhxgX6Z28pI7v0MORU50P60oNdH-yaXW8yoEmtg2cnY20 =624x375)
+![](/img/sfdc 8.png)
 
-### **Creating a contact from LiveEngage**
+### **Creating a contact** 
 
 1. In case you want to create a new contact record, click the “Actions” button on the Default Search Page (you can also do it when viewing an Account record).
 2. Select “New Contact.”
@@ -419,7 +419,7 @@ This will save the Lead record in SF and link the existing chat/messaging conver
 
 This will save the Opportunity record in SF and link the existing chat/messaging conversation to this Opportunity and Account.
 
-### **Creating a case from LiveEngage**
+### **Creating a case** 
 
 1. In case you want to create a new Case record, click the “Actions” button on the Default Search Page (you can also do it when viewing an Account or a Contact record).
 2. Select “New Case”
@@ -451,16 +451,14 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 2. Click on the info icon next to the relevant Contact, the “Info Bubble” will open and present the data from Salesforce.
 3. Look for the relevant Case/Opportunity in the bubble, click ‘Link Chat’
 
-![](https://lh4.googleusercontent.com/7LfT_X7qRkWyJzJ-v9qkofB176PBBC0limQdd1Uu-fMvbibPztAiH1CUQo3fFnVJg58xq2XKOmADdDZUvP4ybtPJQ8vE_PHuLGeBWYebQI-_qFX4BbJrkFPAkVTQ1sV6QUms0NlR =448x133)
+![](/img/sfdc 9.png)
 
 1. Another option is to view the record in the widget, Click “Actions”, “Link Chat.”
 
-![](https://lh4.googleusercontent.com/rsY0pUI-c6Yd97CwPnIuv-pprEkFTXlIrZjMFZ-DBMbakAdgyF8w7RzZJpD5rYHbMb_Z-uNL7_hRynkq-voE3DJQ9-AypXjUZiOIwoMe65PhSb5Z9tJECMENu1Aqibso5ph32UPq =459x290)
+![](/img/sfdc 10.png)
 
 1. Once the chat/messaging conversation is linked to the record, the ‘Quick Links’ icon  will become Orange. By clicking on it you will be able to view the relevant records the chat/messaging conversation is linked to.
 2. In case you mistakenly linked the chat/messaging conversation to the wrong record, you may always ‘Unlink’, Click on ‘Actions’ menu from the record page and choose ‘Unlink Chat.’
-
-![](https://lh6.googleusercontent.com/J472grM8IRl34iMPE2BW5l0AFVWnx00eGg3QF-qY1GBA7j4QL1rF7FnBqYxkY2qbtERl2au4nThX6ZvDjsHEFCHV2YuTF0_uE6ivzvCY5Ey2Jt2OtyfU60p6zCvILXkfbb5VmrbB =459x282)
 
 ## **Viewing the data in Salesforce**
 
@@ -478,7 +476,7 @@ Now that we created records from LiveEngage, you may view all our Chat Transcrip
 
 In case you are using both chat and messaging within your LiveEngage, the field ‘LivePerson SDK API Type’ identifies the specific type of the record (e.g. chat or messaging).
 
-![](https://lh6.googleusercontent.com/XUUaoXjt6NMJXylEyB1cOo-cfUgsdiTWQ8ELvEnqHXv6KgiZZ16vwlcN-ZyFsLwfjlwtG08tgLY6EBJ5j7U5ZPD2YH15U7TKH9GnrEonIyCywyXAePkF3jvYYFotJj-luTJLUeOt =624x217)
+![](/img/sfdc 12.png)
 
 ### **Reporting on your chat/messaging transcripts**
 
@@ -619,6 +617,8 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 **Q:** Why does the Salesforce Widget not load and the agent only gets a blank screen?
 
 **A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as LiveEngage (the same browser and not in incognito mode).
+
+***
 
 **Q:** Why are the Configuration Settings grayed out?
 
