@@ -8,7 +8,6 @@ level3: ''
 permalink: admin-settings- create-manage-users
 isTutorial: false
 date: 2019-01-21 15:55:21 +0200
-published: false
 
 ---
 As an Administrator you can add and manage up to 18,000 users in your account. Users in LivePerson have different permission sets, according to their roles.
