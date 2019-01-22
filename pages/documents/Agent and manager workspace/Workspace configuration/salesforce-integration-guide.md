@@ -392,7 +392,7 @@ This will save the account record in SF and link the existing chat/messaging con
 
 ![](/img/sfdc 8.png)
 
-### **Creating a contact** 
+### **Creating a contact**
 
 1. In case you want to create a new contact record, click the “Actions” button on the Default Search Page (you can also do it when viewing an Account record).
 2. Select “New Contact.”
@@ -419,7 +419,7 @@ This will save the Lead record in SF and link the existing chat/messaging conver
 
 This will save the Opportunity record in SF and link the existing chat/messaging conversation to this Opportunity and Account.
 
-### **Creating a case** 
+### **Creating a case**
 
 1. In case you want to create a new Case record, click the “Actions” button on the Default Search Page (you can also do it when viewing an Account or a Contact record).
 2. Select “New Case”
@@ -490,7 +490,7 @@ In case you are using both chat and messaging within your LiveEngage, the field 
 
 ### **Objective**
 
-**Notice:** This section is very technical, please assist your AM/CVM/TAM or our Technical Support in case of a problem or if you’re not sure about any step.
+**Note:** This section is very technical, please assist your AM/CVM/TAM or our Technical Support in case of a problem or if you’re not sure about any step.
 
 Using each object’s Field Mapping, you can choose to map LiveEngage fields/parameters to Salesforce Fields, both for Pre-Population of new record forms, or for saving information to the chat transcript record itself.
 
@@ -502,7 +502,7 @@ The equivalent fields needed for messaging are ‘LivePerson Msg SDK Field’ an
 
 The complete structure of the data in the “WebApp SDK” and “Engagement History API” is described in their own documents which update all the time and you can find through the Connection Panel on your LiveEngage Account, or in our Developer Community located at[ ](https://developers.liveperson.com/index.html)[https://developers.liveperson.com/index.html](https://developers.liveperson.com/index.html "https://developers.liveperson.com/index.html").
 
-### **Survey questions (pre chat, post chat, agent)**
+### **Survey questions (pre-chat, post-chat, agent)**
 
 To get one of the standard out-of-the-box pre chat survey questions the access is easy using the list of predefined values, but you need “Other” for any custom questions you have on that type of survey or others, the address you’ll build will use the Display Name of the question. Below are a few examples.
 
@@ -618,8 +618,6 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
 **A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as LiveEngage (the same browser and not in incognito mode).
 
-***
-
 **Q:** Why are the Configuration Settings grayed out?
 
 **A:** Make sure you activate the integration package using the Account Settings tab before you try to use the configuration or the widget itself.
@@ -666,7 +664,9 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
 ### **Known issues**
 
-1. **Issue**: SF widget will not load.![](https://lh4.googleusercontent.com/_j_1uFt1viGYU9T0GmR0eZxwkzU8IYRyhNXGp6zc1Jh3ZzVZlLFTsatheCq4K7Xj1LbK05XbOBRKGCy-BEXDBE5WPwJJlkH2UnLdZEykVEUng7IBrP7wT1JSLwL4gp_hypodcYR2 =624x145)
+1. **Issue**: SF widget will not load.
+
+   ![](/img/sfdc 13.png)
 
 **Possible causes/solutions:**
 
@@ -676,13 +676,15 @@ b. Wrong widget URL in LE: missing “ChatLink” wording.
 
 c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
 
-![](https://lh5.googleusercontent.com/8xSJqcBL_ofAaNnYFPX5qdhdedDPraadNyCQqVjXGxQ5YfDeKrSzpJsME70wDZRf1_5TqgQcqdQw8mfnSbP-jkwRL6ujO4CZTT5RU-Z5QIlWVPNDD9Kpvw3odespPDOjbdPTfOnS =522x450)
+![](/img/sfdc 14.png)
 
 1. Missing SF configuration - Skill is not associated with an object:
 
-![](https://lh4.googleusercontent.com/41OQ-czVsyMpqzVnuu7I7_CjLaFjyxhzIm5IBbLAMPTu4gi4qmPE3HnAILIIXNS3_sgWZa2eInIE_CLom1sQ5vLUFGa2DjBg_8OveLlXy-N0VIwEG8SkUZ_asiP7qg8CVIYcCFL4 =624x436)
+![](/img/sfdc 15.png)
 
-1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.![](https://lh4.googleusercontent.com/o6W6litfECaNd1-ojL078FQMLLvOg3TQoJn-8WVvYTL7QjNGQ5TVy4eRFXKK90TfYTeeODjcd1pdXWZFO-joSeE0VSBzgnzZKVEHTnVuJlyomEvRl-So0pbMY5tKEFoDnfCvIuXx =624x408)
+1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
+
+![](/img/sfdc 16.png)
 
 **Steps for resolving the issue:**
 
