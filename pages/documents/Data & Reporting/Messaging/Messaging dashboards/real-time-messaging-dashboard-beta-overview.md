@@ -96,8 +96,8 @@ When in messaging mode, the current section displays metrics on open conversatio
 * **ASSIGNED**: The number of assigned conversations
 * **ACTIVE**: The number of active conversations
 * **LOAD**: The number of active conversations as a percentage of max concurrent conversations of all agents
-* **LOAD - Online**: The number of active conversations as a percentage of max concurrent conversations of agents in the online state
-* **LOAD - Other: The number of active conversations as a percentage of max concurrent conversations of agents not in the online state**
+* **LOAD - online**: The number of active conversations as a percentage of max concurrent conversations of agents in the online state
+* **LOAD - other: The number of active conversations as a percentage of max concurrent conversations of agents not in the online state**
 * __RESPONSE TIME*__: Average time of all agent responses from consumer messages (estimated from sample of OPEN conversations, exc bots).
 * __RESPONSE TIME - Consumer*__: Average time of all consumer responses from agent messages (estimated from sample of OPEN conversations)
 * __TTFR FROM ALL ASSIGN*__: Average time to all agent responses from assignments including transfers (estimated from sample of OPEN conversations, exc. bots).
@@ -147,14 +147,14 @@ The metrics available in this section all relate to closed conversations only:
 * **Closed conversation graph**: see the distribution of closed conversations regarding how many conversations were closed by the consumer, agent or system
 * **CSAT**: average CSAT of closed conversations including how many CSAT surveys were answered
 * **Average resolution time**
-* **Response** __Time*__: see definition from Current KPI section
-* __Assign to Response Time*__: see definition from Current KPI section
-* __First Response Time*__: see definition from Current KPI section
+* **Response** __time*__: see definition from Current KPI section
+* __Assign to Response time*__: see definition from Current KPI section
+* __First Response time*__: see definition from Current KPI section
 * _First Assignment Time_: see definition from Current KPI section*
 * _Wait Time_: see definition from Current KPI section*
 * **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
-___*____Note: response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide)._
+**_Note:_** _response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide)._
 
 _Example of Last 24 Hour section in **chat dashboard** mode:_
 
@@ -205,32 +205,34 @@ The Skills Section can be exported to a .CSV file.
 
 View up to 100 skills per page. The default is set at 25. In order to see the next or previous section of skills use the arrows to navigate.
 
-## Filtering the sections--------
+## Filtering the sections
 
 ![](https://lh6.googleusercontent.com/9iHlgcy_F6rWGTG8pyhb8tUtxv6xi6KLvaN9QKzjPUfgOVmotZct7Qoa_9LE1fN8r_F-YRFHy20jyUZM4UZserWWbwvJfnyrFDSRLtrCoLhPCjeEcPgdcSiNXni0tmmyuBxFwha1 =624x184)
 
-1. **Dashboard header filters**: these main filters will impact the entire dashboard and the displayed data.
-   1. Two types:
-      1. **Skills**
-2. Can choose skill to see the metrics of that specific skill
-3. Can choose multiple skills and will see aggregated data on those skills.
-4. **Groups**
-   1. Choose group to see metrics for that specific group.
-   2. Can choose multiple groups and will see aggregated data on those groups.
-5. It is possible to filter for both skills and groups.
-6. **Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
+**Dashboard header filters**: These main filters will impact the entire dashboard and the displayed data.
+ Two types:
+1. **Skills**
+	Can choose skill to see the metrics of that specific skill
+	Can choose multiple skills and will see aggregated data on those skills.
+2. **Groups**
+   	Choose group to see metrics for that specific group.
+   Can choose multiple groups and will see aggregated data on those groups.
+It is possible to filter for both skills and groups.
+
+**Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
    1. **Today from a specific hour**: choose a specific hour to filter from
    2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
    3. Use the radio buttons or the sliders to change the time frame
 
 ![](https://lh5.googleusercontent.com/bhG5CLSxifP05m5_LSJwXPOXZhoghDKDXnJR0X6giR3muwp5wj1QpuOHAHYgI9fFZjl46NqgzGhJP8sN3frNAhQT4jbEo6b_4oP_fwIOXVIS_i1z5MR9o542AzP-UWnZuTL_ZYsA =334x259)
 
-1. **Agent filters: there is currently only one filter available:**
-   1. **Logged in**: while this is the only filter, you can see numbers based on the agent status:
-      1. Online
-2. Back soon
-3. Away
-4. **Sort**: allows you to sort the information by the following categories:
+**Agent filters: there is currently only one filter available:**
+1) **Logged in**: while this is the only filter, you can see numbers based on the agent status:
+    Online
+	Back soon
+	Away
+    
+2) **Sort**: allows you to sort the information by the following categories:
     1. Status
     2. Name
     3. Status time
@@ -240,8 +242,7 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
     7. Closed
     8. Average resolution time (in grid-view only currently)
     9. CSAT
-   10. You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view.
-   11. Also have the ability to export the agent list as a .CSV file
+You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view. You also have the ability to export the agent list as a .CSV file
 
 # Customizing the Dashboard
 
