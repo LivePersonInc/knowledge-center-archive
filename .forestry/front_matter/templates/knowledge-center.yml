@@ -174,6 +174,7 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/salesforce-integration-guide.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/real-time-messaging-dashboard-beta-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
+- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-using-the-mcs-toolkit.md
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
