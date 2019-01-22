@@ -470,8 +470,9 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
    `surveys.preChat\[displayName=What is your Account Number?\].value`
 
-{:start="2"}
-2\. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
+{:start="2"} 
+
+1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
     **LivePerson SDK Field:**
     
@@ -481,8 +482,9 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
     
     `surveys.postChat\[displayName=How would you rate us?\].value`
 
-{:start="3"}
-3\. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
+{:start="3"} 
+
+1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
     **LivePerson SDK Field:**
     
@@ -651,7 +653,7 @@ These are just a few examples meant to demonstrate how to write these “address
    **Steps for resolving the problem** (guide the customer to do the following)
    1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
    2. Within SF you must grant access to the relevant objects:
-      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
+      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
 4\. **Issue**: Salesforce widget does not load followed by an error message.
