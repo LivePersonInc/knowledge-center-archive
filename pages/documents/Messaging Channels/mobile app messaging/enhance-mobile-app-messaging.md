@@ -9,6 +9,7 @@ level3: ''
 permalink: messaging-channels-mobile-app-messaging-enhance-the-customer-experience.html
 isTutorial: false
 date: 2019-01-17 13:12:13 +0000
+published: false
 
 ---
 The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app available for you to configure.
@@ -17,7 +18,7 @@ By facilitating rich conversations with beyond-text capabilities, our SDK enable
 
 ## **Deliver messaging basics**
 
-[https://vimeo.com/238914522/c1b594b8a4](https://vimeo.com/238914522/c1b594b8a4 "https://vimeo.com/238914522/c1b594b8a4") \[need edits to video\]
+[https://vimeo.com/312501523/996a5bfc4b](https://vimeo.com/312501523/996a5bfc4b "https://vimeo.com/312501523/996a5bfc4b")
 
 Allow consumers to create a continuous connection with your brand through a familiar messaging interface.
 
@@ -45,7 +46,7 @@ Clearly communicated system messages regarding response time create a better ser
 
 ## Use rich messaging
 
-[https://vimeo.com/305921583/2a85f96937](https://vimeo.com/305921583/2a85f96937 "https://vimeo.com/305921583/2a85f96937") (add the edited version of this video)
+![](/img/Rich messaging Gif.gif)
 
 Rich messaging will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
 
