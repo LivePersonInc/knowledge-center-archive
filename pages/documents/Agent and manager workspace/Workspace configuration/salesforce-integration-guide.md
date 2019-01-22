@@ -581,12 +581,15 @@ These are just a few examples meant to demonstrate how to write these “address
 ### **Basic troubleshooting Q&A**
 
 **Q:** Why does the Salesforce Widget not load and the agent only gets a blank screen?
+
 **A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as LiveEngage (the same browser and not in incognito mode).
 
 **Q:** Why are the Configuration Settings grayed out?
+
 **A:** Make sure you activate the integration package using the Account Settings tab before you try to use the configuration or the widget itself.
 
 **Q:** Why is the Search box not pre-populated with values (Names, Email, etc')?
+
 **A:** Please verify the following:
 
 * On the Customization Settings tab, you chose Selected Skills, and that under Advanced Settings > 		Configure Skills, you selected the parameters you want to prepopulate the search for each of them.
@@ -594,9 +597,11 @@ These are just a few examples meant to demonstrate how to write these “address
 * Check that “Disable On Load Auto Search” is unchecked in the on the top part of the Customization Settings.
 
 **Q:** Why are the creation options missing on the Actions menu for some of my objects?
+
 **A:** While on the widget Search window, the Actions Menu will show creation options for all the allowed objects. This relies on the configuration set on the Configuration Settings Tab in Salesforce (“Allow Account Creation”) and on a user’s profiles permissions. If an agent is not allowed to create an object according to his Salesforce Profile, he won’t be shown the option for that object.
 
 **Q:** Why aren’t I able to use the widget and get an error: “The Skill is missing. Contact your system administrator”
+
 **A:** Please verify the following:
 
 * Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
