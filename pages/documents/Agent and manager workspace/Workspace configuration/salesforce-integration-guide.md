@@ -8,9 +8,13 @@ level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
+<<<<<<< HEAD
 published: true
+=======
+
+>>>>>>> 3c589247e10cc27228d6f90d1b64b5fddf2ab568
 ---
-The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the LiveEngage 2.0 Platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
+The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
 
 **Please note:** The information in this guide refers to both chat and messaging, unless otherwise indicated.
 
@@ -36,7 +40,7 @@ This step will guide you through the activation & configuration of the app in Sa
 
 1. Now that you have installed the LiveEngage app in your Salesforce org, you will want to set it up.
 2. Login to Salesforce – click on the application menu in the top right of your screen.
-3. Make sure you have the “LiveEngage” application selected.
+3. Make sure you have the LiveEngage application selected.
 
 ### **Verifying Clickjack setting is disabled for required Visualforce Pages**
 
@@ -59,7 +63,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 {:start="2"}
 
 1. “Step 1: Account Information” – Enter the relevant Account ID.
-2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account
+2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account.
    1. Go to “Campaigns” Tab and search for the link “Data Sources.”
    2. Go to “API” Tab and click “Manage” and then “New.”
    3. Fill in the App Name: “SFDC Integration,” Developer:“LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement 		History” and “Administrations” > “Skills” and click “Save.”
@@ -69,7 +73,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 3\. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
 4\. “Step 4: Activation” – Click “Activate.”
 
-**Note:** When you click on “Deactivate,” you will disable the use of the widget within the LiveEngage 		2.0 Platform and stop all periodic sync processes with your account.
+**Note:** When you click on “Deactivate,” you will disable the use of the widget within the platform and stop all periodic sync processes with your account.
 
 ## **Configuring the app**
 
@@ -89,7 +93,7 @@ This section sets out the Salesforce objects for which we would like the widget 
 
 1. The LiveEngage Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
 
-   **Note:** You must have Skills in your LiveEngage 		account for this package to work. If you don’t have any 	Skills configured, please create a default one before continuing forward.
+   **Note:** You must have Skills in your LiveEngage account for this package to work. If you don’t have any 	Skills configured, please create a default one before continuing forward.
 
 {:start="2"}
 
@@ -127,11 +131,8 @@ The SFDC package supplied by LivePerson includes an object named “Chat Transcr
    * **_Attachment –_** will insert the full transcript of the chat/messaging conversation as a related File Attachment on the chat transcript record.
    * **_Field and Attachment –_** this will save the transcript by both the above methods to the chat transcript record.
 3. Click on “Configure field mapping” under ‘Advanced Settings’ to determine the values saved into the chat transcript record. Note the following instructions:
-
-* Custom fields need to be added to the Chat Transcript object for them to show up in this list.
-
-  Please **map only to those new custom fields you created**, choosing any other previously existing 		field will not work and might cause errors in both the widget and sync process.
-* Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” 	and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as 	well, however different field types might cause errors.
+   * Custom fields need to be added to the Chat Transcript object for them to show up in this list. Please **map only to those new custom fields you created**, choosing any other previously existing field will not work and might cause errors in both the widget and sync process.
+   * Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as well, however different field types might cause errors.
 
 ## **Enabled object settings**
 
@@ -150,25 +151,17 @@ These settings allow you to choose which fields of each object will be available
 * Click “Add Field Mapping” to get started.
 * Fill out the following fields to complete your field mapping:
   * Choose a SF Field Name
-  * Choose ‘Editability’ mode
-
-    **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
+  * Choose ‘Editability’ mode. **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
   * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (PreChat Survey, PostChat Survey, Extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
-  * Include in Overview - within the Choose this is you want the field to appear in the bubble widget (The bubble appears when clicking ‘i’ next to the Account/Contact from the main Search screen of the widget).
-
-    **Note:** Only the first 5 fields will be shown in the bubble
+  * Include in Overview - within the Choose this is you want the field to appear in the bubble widget (The bubble appears when clicking ‘i’ next to the Account/Contact from the main Search screen of the widget). **Note:** Only the first 5 fields will be shown in the bubble
   * Required - Setting the field as mandatory when creating or editing the record.
   * Default Value - Set up a fixed default text value for a field (will be editable by the agent).
-  * Click “Save.”
-
-    **Note:** You can edit or delete any existing field mapping by clicking on the respective link next to each.
+  * Click “Save.” **Note:** You can edit or delete any existing field mapping by clicking on the respective link next to each.
 
 ### **Related list config**
 
 * Select one of the values in the “Related List Object Name” picklist.
-* Select from a list of fields you would like to include in your related list – do this by selecting any “Available Fields”, click the “Add” button so that they are moved to the “Selected Fields” side.
-
-  **Note:** Only the first 4 fields will be shown on the related list.
+* Select from a list of fields you would like to include in your related list – do this by selecting any “Available Fields”, click the “Add” button so that they are moved to the “Selected Fields” side. **Note:** Only the first 4 fields will be shown on the related list.
 * Select one of the values in the “Field to Sort” picklist
 * Select one of the values in the “Number of Records” picklist.
 * Select one of the values in the “Sort Direction” picklist.
@@ -184,9 +177,7 @@ In this section you can define the search filters for the Widget Search Screen. 
 * Fill out the following fields to create your new search filter:
   * “Field Name” – The field that you want to filter by (for example: Account Type, Case Origin, etc…)
   * Operation – The operator you want to use for filtering (Make sure it fits the field type)
-  * “Value” – The values you want to use.
-
-    **Note:** When filtering by a lookup field (or record type) – you need to put the SF ID of the relevant value. For example, for a record type “012000000000jdT.”
+  * “Value” – The values you want to use. **Note:** When filtering by a lookup field (or record type) – you need to put the SF ID of the relevant value. For example, for a record type “012000000000jdT.”
   * Click “Save.”
 
 ### **Account settings**
@@ -204,65 +195,41 @@ In this section you can define the search filters for the Widget Search Screen. 
 ### **Lead settings**
 
 1. Scroll down to the “Lead Settings” section of your page.
-2. Ensure that the “Use Lead Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** If you have configured Lead assignment rules in your org, then checking this checkbox will uphold those rules when a Lead record is created from within the platform.
-3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in LiveEngage. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
+2. Ensure that the “Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Lead assignment rules in your org, then checking this checkbox will uphold those rules when a Lead record is created from within the platform.
+3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in LiveEngage. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
 4. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Lead object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
 ### **Case settings**
 
 1. Scroll down to the “Case Settings” section of your page.
-2. Ensure that the “Case Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating a Case record from within the widget).
-3. Ensure that the “Case Contact is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require a Contact name to be populated when creating a Case record from within the widget)
-4. Ensure that the “Use Case Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** If you have configured Case assignment rules in your org, then checking this checkbox will uphold those rules when a Case record is created from the widget)
-5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
+2. Ensure that the “Case Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating a Case record from within the widget).
+3. Ensure that the “Case Contact is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require a Contact name to be populated when creating a Case record from within the widget)
+4. Ensure that the “Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Case assignment rules in your org, then checking this checkbox will uphold those rules when a Case record is created from the widget)
+5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
 6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Case object
 
-   (see the above “Enabled Object Settings” section for further explanation on this screen).
-
-   **Note:** The Account and Contact lookup fields have to be included in the Field Mapping list if you want the Cases you create using the widget to be attached to them.
+   (see the above “Enabled Object Settings” section for further explanation on this screen). **Note:** The Account and Contact lookup fields have to be included in the Field Mapping list if you want the Cases you create using the widget to be attached to them.
 
 ### **Opportunity settings**
 
 1. Scroll down to the “Opportunity Settings” section of your page.
-2. Ensure that the “Opportunity Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating an Opportunity record from within the widget.
-3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Opportunity object (see the above “Enabled Object Settings” section for further explanation on this screen).
-
-   **Note:** The Account lookup field has to be included in the Field Mapping list if you want the Opportunity you create using the widget to be attached to it.
+2. Ensure that the “Opportunity Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating an Opportunity record from within the widget.
+3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Opportunity object (see the above “Enabled Object Settings” section for further explanation on this screen). **Note:** The Account lookup field has to be included in the Field Mapping list if you want the Opportunity you create using the widget to be attached to it.
 
 ### **Custom object settings**
 
 1. Scroll down to the “Custom Object” Settings section of your page.
-2. Ensure that the “Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating a Custom Object record from within the widget.
-3. Ensure that the “Contact is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require a Contact name to be populated when creating a Custom Object record from within the widget.
+2. Ensure that the “Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating a Custom Object record from within the widget.
+3. Ensure that the “Contact is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require a Contact name to be populated when creating a Custom Object record from within the widget.
 4. Select from one of the following values in the “Account Field” picklist:
    * Account
    * Any other existing Account Lookup Field(s)
-
-   **Note:** The Account Field list will allow you to choose any of the Account Lookup fields on your custom object, in case there are any.
 5. Select from one of the following values in the “Contact Field” picklist:
    * Contact
    * Any other existing Contact Lookup Field(s)
+6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Custom object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
-   **Note:** The Contact Field list will allow you to choose any of the Contact Lookup fields on your custom object, in case there are any.
-6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Custom object (see the above “Enabled Object Settings” section for further explanation on this screen)
+   **Note:** The Account Field and Contact field lists will  allow you to choose any of the Account or Contact Lookup fields on your custom object, in case there are any.
 
 ## **Step #3: Configuring the app’s sync process settings**
 
@@ -351,13 +318,13 @@ https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 
 Below is an overview of the widget capabilities, in this section, we will cover the following topics:
 
-* Introducing the Salesforce Widget for LiveEngage
-* Creating an Account from LiveEngage
-* Creating a Contact from LiveEngage
-* Creating a Lead from LiveEngage
-* Creating an Opportunity from LiveEngage
-* Creating a Case from LiveEngage
-* Creating a Custom Object record from LiveEngage
+* Introducing the Salesforce widget 
+* Creating an account 
+* Creating a contact from 
+* Creating a lead 
+* Creating an opportunity 
+* Creating a case 
+* Creating a Custom Object record 
 
 ### **Introducing the LiveEngage SFDC widget**
 
@@ -507,8 +474,8 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
    `surveys.preChat\[displayName=What is your Account Number?\].value`
 
 {:start="2"}
-2\. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
+<<<<<<< HEAD
     **LivePerson SDK Field:**
 
     `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
@@ -516,10 +483,21 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
     **LivePerson API Field:**
 
     `surveys.postChat\[displayName=How would you rate us?\].value`
+=======
+1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
+
+   **LivePerson SDK Field:**
+
+   `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
+
+   **LivePerson API Field:**
+
+   `surveys.postChat\[displayName=How would you rate us?\].value`
+>>>>>>> 3c589247e10cc27228d6f90d1b64b5fddf2ab568
 
 {:start="3"}
-3\. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
+<<<<<<< HEAD
     **LivePerson SDK Field:**
 
     `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
@@ -527,6 +505,17 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
     **LivePerson API Field:**
 
     `surveys.operator\[displayName=Was the customer satisfied?\].value`
+=======
+1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
+
+   **LivePerson SDK Field:**
+
+   `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
+
+   **LivePerson API Field:**
+
+   `surveys.operator\[displayName=Was the customer satisfied?\].value`
+>>>>>>> 3c589247e10cc27228d6f90d1b64b5fddf2ab568
 
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
 
@@ -615,12 +604,15 @@ These are just a few examples meant to demonstrate how to write these “address
 ### **Basic troubleshooting Q&A**
 
 **Q:** Why does the Salesforce Widget not load and the agent only gets a blank screen?
+
 **A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as LiveEngage (the same browser and not in incognito mode).
 
 **Q:** Why are the Configuration Settings grayed out?
+
 **A:** Make sure you activate the integration package using the Account Settings tab before you try to use the configuration or the widget itself.
 
 **Q:** Why is the Search box not pre-populated with values (Names, Email, etc')?
+
 **A:** Please verify the following:
 
 * On the Customization Settings tab, you chose Selected Skills, and that under Advanced Settings > 		Configure Skills, you selected the parameters you want to prepopulate the search for each of them.
@@ -628,9 +620,11 @@ These are just a few examples meant to demonstrate how to write these “address
 * Check that “Disable On Load Auto Search” is unchecked in the on the top part of the Customization Settings.
 
 **Q:** Why are the creation options missing on the Actions menu for some of my objects?
+
 **A:** While on the widget Search window, the Actions Menu will show creation options for all the allowed objects. This relies on the configuration set on the Configuration Settings Tab in Salesforce (“Allow Account Creation”) and on a user’s profiles permissions. If an agent is not allowed to create an object according to his Salesforce Profile, he won’t be shown the option for that object.
 
 **Q:** Why aren’t I able to use the widget and get an error: “The Skill is missing. Contact your system administrator”
+
 **A:** Please verify the following:
 
 * Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
@@ -638,18 +632,23 @@ These are just a few examples meant to demonstrate how to write these “address
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
 
 **Q:** I don’t see any Skills in my “Available Skills” list. Why?
+
 **A:** Verify you created Skills on your LiveEngage Account. If you’re sure you have Skills available but don’t see them, turn to your LivePerson Support or Account Manager to make sure your LiveEngage Account is on AC Users.
 
 **Q:** Why don’t I see any of my Salesforce Custom Objects on the “Available Objects” list?
+
 **A:** For a Custom Object to appear in the list, you need to first create a lookup field connecting it to the Chat Transcript object (see Object Settings section).
 
 **Q:** Why can’t I find the field I’m looking for when creating a new field mapping for an object?
+
 **A:** Some field names might appear differently on this list than on Salesforce (for example, Account Name or Contact Name on the Case object, might appear as Account ID or Contact ID, respectively, as well as other lookup fields). There are special fields on Salesforce that Salesforce does not expose outside their standard pages due to complex functionality on them. For example: Campaign field on the Lead object will not be available.
 
 **Q:** I used the widget’s search, chose an Account / Contact and clicked on the Case / Opportunity icon next to it, but after saving the Opportunity / Case I created isn’t linked to them in Salesforce. Why?
+
 **A:** Please verify that the Case / Opportunity settings has the Account and Contact lookup fields included in the field mapping. If you have more than one lookup field to Account / Contact on the object, make sure you include the standard one from Salesforce (they are called “Account ID” and “Contact ID” on the field mapping list).
 
 **Q:** Why does the sync process doesn’t happen on the exact hour I chose for it, but slightly after?
+
 **A:** The daily sync process will happen in an offset of minutes, but within the hour, of the time you chose for it, which might change between different orgs. The periodic sync will happen every 3 hours, but at an offset as well.
 
 ### **Known issues**
@@ -662,32 +661,33 @@ These are just a few examples meant to demonstrate how to write these “address
    1. User was not logged-in to Salesforce with the same browser.
    2. Wrong widget URL in LE: missing “ChatLink” wording.
    3. Wrong widget URL in LE: installed in SandBox but URL refers to production.
+   4. Missing SF configuration - Skill is not associated with an object
 
 ![](/img/sfdc 14.png)
-
-{:start="d"}
-	4. Missing SF configuration - Skill is not associated with an object:
 
 ![](/img/sfdc 15.png)
 
 {:start="2"}
+
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
+
    **Steps for resolving the issue:**
-   a. Make sure that there is a skill already defined in the LE account. If there is no skill, create 		one. There should be at least one skill configured.
+   1. Make sure that there is a skill already defined in the LE account. If there is no skill, create one. There should be at least one skill configured.
+   2. Assign the skill to the engagement via one of the following methods:
+      1. Via the engagement studio: Campaign engagement studio
+      2. Create a pre-chat survey question with a routing based question. (Only valid for the chat engagements)
+      3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
 
    ![](/img/sfdc 16.png)
 
-   {:start="b"}
-   b. Assign the skill to the engagement via one of the following methods:
-   \* Via the engagement studio: Campaign engagement studio
-   \* Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
-   c. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
-2. **Issue**: Salesforce widget does not load followed by an error message.
+{:start="3"}
 
-   **Steps for resolving the problem** (guide the customer to do the following)**:**
-   a. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-   b. Within SF you must grant access to the relevant objects:
-   \* Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
+1. **Issue**: Salesforce widget does not load followed by an error message.
+
+   **Steps for resolving the problem** (guide the customer to do the following)
+   1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+   2. Within SF you must grant access to the relevant objects:
+      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
 4\. **Issue**: Salesforce widget does not load followed by an error message.
@@ -699,8 +699,8 @@ These are just a few examples meant to demonstrate how to write these “address
 1. **Issue**: Chat Transcripts are not synced to SF
 
    **Possible causes:**
-   a. Scheduled sync jobs need to be defined
-   b. Job is defined, but the SF user is inactive
+   1. Scheduled sync jobs need to be defined
+   2. Job is defined, but the SF user is inactive
 
 ![](/img/sfdc 17.png)
 
@@ -711,8 +711,7 @@ These are just a few examples meant to demonstrate how to write these “address
 3. The transcript for converted leads is not accessible.
 4. The widget is not defined as SF Lightning ready.
 
-General Recommendation:
-
-* Verify that the latest SFDC integration package is installed (link in the Connection Area):
+   **General Recommendation:**
+   * Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
 ![](/img/sfdc 18.png)
