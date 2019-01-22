@@ -444,11 +444,13 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 ![](/img/sfdc 9.png)
 
 {:start="4"}
+
 1. Another option is to view the record in the widget, Click “Actions”, “Link Chat.”
 
 ![](/img/sfdc 10.png)
 
 {:start="5"}
+
 1. Once the chat/messaging conversation is linked to the record, the ‘Quick Links’ icon  will become Orange. By clicking on it you will be able to view the relevant records the chat/messaging conversation is linked to.
 2. In case you mistakenly linked the chat/messaging conversation to the wrong record, you may always ‘Unlink’, Click on ‘Actions’ menu from the record page and choose ‘Unlink Chat.’
 
@@ -554,6 +556,7 @@ chatInfo.chatStartTime
 info.startTime
 
 {:start="2"}
+
 1. For a **Customer Type** value:
 
 **LivePerson SDK Field:**
@@ -565,6 +568,7 @@ SDE.customerDetails.type
 sdes.events\[sdeType=CUSTOMER_INFO\].customerInfo.customerInfo.customerType
 
 {:start="3"}
+
 1. For the **Visitor’s** **Name** value:
 
 **LivePerson SDK Field:**
@@ -576,6 +580,7 @@ SDE.personalInfo.name
 sdes.events\[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name
 
 {:start="4"}
+
 1. For the **Goal Name** value:
 
 **LivePerson SDK Field:**
@@ -587,6 +592,7 @@ campaignInfo.goalName
 campaign.goalName
 
 {:start="5"}
+
 1. For the **Visitor Browser** value:
 
 **LivePerson SDK Field:**
@@ -598,6 +604,7 @@ visitorInfo.browser
 visitorInfo.browser
 
 {:start="6"}
+
 1. For the **Marketing** **Affiliate** value:
 
 **LivePerson SDK Field:**
@@ -620,6 +627,7 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
 **Q:** Why is the Search box not pre-populated with values (Names, Email, etc')?
 **A:** Please verify the following:
+
 * On the Customization Settings tab, you chose Selected Skills, and that under Advanced Settings > 		Configure Skills, you selected the parameters you want to prepopulate the search for each of them.
 * The parameters you selected to pre-populate with indeed exist for your chat/messaging conversation (use Visitor Info widget to check).
 * Check that “Disable On Load Auto Search” is unchecked in the on the top part of the Customization Settings.
@@ -629,6 +637,7 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
 **Q:** Why aren’t I able to use the widget and get an error: “The Skill is missing. Contact your system administrator”
 **A:** Please verify the following:
+
 * Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
 * Your chat/messaging conversation is assigned to a Skill (easily check using the “Visitor Info” widget to verify that).
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
@@ -654,50 +663,52 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
    ![](/img/sfdc 13.png)
 
-	**Possible causes/solutions:**
+   **Possible causes/solutions:**
 
-a. User was not logged-in to Salesforce with the same browser.
+   a. User was not logged-in to Salesforce with the same browser.
 
-b. Wrong widget URL in LE: missing “ChatLink” wording.
+   b. Wrong widget URL in LE: missing “ChatLink” wording.
 
-c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
-
-![](/img/sfdc 14.png)
-
-1. Missing SF configuration - Skill is not associated with an object:
-
+   c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
+  
+  ![](/img/sfdc 14.png)
+  
+  {:start="d"}
+   d. Missing SF configuration - Skill is not associated with an object:
+ 
 ![](/img/sfdc 15.png)
 
+{:start="2"}
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
-
-![](/img/sfdc 16.png)
-
-**Steps for resolving the issue:**
-
-1. Make sure that there is a skill already defined in the LE account. If there is no skill, create one. There should be at least one skill configured.
-2. Assign the skill to the engagement via one of the following methods:
-   1. Via the engagement studio: Campaign engagement studio
-   2. Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
-   3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
+	**Steps for resolving the issue:**
+	a. Make sure that there is a skill already defined in the LE account. If there is no skill, create 		one. There should be at least one skill configured.
+    
+   ![](/img/sfdc 16.png) 
+    
+    {:start="b"}
+    b. Assign the skill to the engagement via one of the following methods:
+		* Via the engagement studio: Campaign engagement studio
+		* Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
+    c. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
+    
 3. **Issue**: Salesforce widget does not load followed by an error message.
 
-**Steps for resolving the problem** (guide the customer to do the following)**:**
+	**Steps for resolving the problem** (guide the customer to do the following)**:**
+	a. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+    b. Within SF you must grant access to the relevant objects:
+		* Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
 
-1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-2. Within SF you must grant access to the relevant objects:
+{:start="4"}
+4. **Issue**: Salesforce widget does not load followed by an error message.
 
-i. Create a new ‘modify all’ permission set to the relevant SF object (in this example – Opportunities) and assign it to the user who encountered the problem.
+	**Observation:** missing Salesforce configuration; skill is not associated with an object.
 
-1. **Issue**: Salesforce widget does not load followed by an error message.
-
-**Observation:** missing Salesforce configuration; skill is not associated with an object.
-
+{:start="5"}
 1. **Issue**: Chat Transcripts are not synced to SF
 
-**Possible causes:**
-
-1. Scheduled sync jobs need to be defined
-2. Job is defined, but the SF user is inactive
+	**Possible causes:**
+	a. Scheduled sync jobs need to be defined
+    b. Job is defined, but the SF user is inactive
 
 ![](/img/sfdc 17.png)
 
