@@ -637,6 +637,7 @@ These are just a few examples meant to demonstrate how to write these “address
 {:start="2"}
 
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
+   
    **Steps for resolving the issue:**
    1. Make sure that there is a skill already defined in the LE account. If there is no skill, create one. There should be at least one skill configured.
    2. Assign the skill to the engagement via one of the following methods:
