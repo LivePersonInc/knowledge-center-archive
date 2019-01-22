@@ -9,7 +9,6 @@ level3: ''
 permalink: data-reporting-meaningful-connection-score-(MCS)-beta.html
 isTutorial: false
 date: 2019-01-22 11:35:20 +0200
-published: false
 
 ---
 Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience.
