@@ -102,7 +102,7 @@ This section sets out the Salesforce objects for which we would like the widget 
 
 {:start="4"}
 
-1. In order to configure the skills further and define which Objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
+1. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
 2. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
 
 ![](/img/sfdc 7.png)
@@ -111,7 +111,6 @@ This section sets out the Salesforce objects for which we would like the widget 
 
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
    a. Select which objects the relevant Skill can work with in the SFDC widget.
-
    b. Select the default widget screen: either a Search Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
 
    **Note**: As a best practice, we recommend to use the search option, since that allows the agent to 	verify if the record he’s about to create already exists before creating it.
