@@ -1,5 +1,5 @@
 ---
-pagename: Login in & using the toolkit
+pagename: Accessing and using MCS toolkit
 categoryName: Data & reporting
 subCategoryName: Meaningful Connection Score (MCS) - beta
 indicator: both
