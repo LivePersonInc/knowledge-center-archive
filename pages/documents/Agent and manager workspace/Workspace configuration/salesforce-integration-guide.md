@@ -60,12 +60,12 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 {:start="2"}
 
 1. “Step 1: Account Information” – Enter the relevant Account ID.
-2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account:
-   a. Go to “Campaigns” Tab and search for the link “Data Sources.”
-   b. Go to “API” Tab and click “Manage” and then “New.”
-   c. Fill in the App Name: “SFDC Integration,” Developer: “LivePerson” and then make sure to select 	the following APIs on the list: “Data” > “Engagement History” and “Administrations” > “Skills” and click “Save.”
-   d. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: 		Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
-   {:start="4"}
+2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account 
+	a. Go to “Campaigns” Tab and search for the link “Data Sources.” 
+    b. Go to “API” Tab and click “Manage” and then “New.” 
+    c. Fill in the App Name: “SFDC Integration,” Developer: “LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement History” and “Administrations” > “Skills” and click “Save.” 
+    d. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: 		Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
+    {:start="4"}
 3. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
 4. “Step 4: Activation” – Click “Activate.”
 
