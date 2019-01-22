@@ -648,6 +648,7 @@ h3 {
 #footertext {
   color: #eef0f1;
   flex:1;
+  font-family: "Open Sans";
 }
 
 #footertext a {
