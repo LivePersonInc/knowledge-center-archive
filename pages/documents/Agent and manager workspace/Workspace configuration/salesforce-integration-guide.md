@@ -668,9 +668,9 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
 
 **Possible causes/solutions:**
 
-a. User was not logged-in to Salesforce with the same browser. 
+a. User was not logged-in to Salesforce with the same browser.
 
-b. Wrong widget URL in LE: missing “ChatLink” wording. 
+b. Wrong widget URL in LE: missing “ChatLink” wording.
 
 c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
 
