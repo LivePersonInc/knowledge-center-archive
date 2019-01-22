@@ -10,7 +10,6 @@ level3: ''
 permalink: data-reporting-messaging-messaging-dashboard-real-time-messaging-dashboard.html
 isTutorial: false
 date: 2019-01-21 15:40:12 +0200
-published: false
 
 ---
 ## Introduction
