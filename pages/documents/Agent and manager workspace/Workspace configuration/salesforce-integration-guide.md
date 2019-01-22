@@ -663,32 +663,32 @@ These are just a few examples meant to demonstrate how to write these “address
    1. User was not logged-in to Salesforce with the same browser.
    2. Wrong widget URL in LE: missing “ChatLink” wording.
    3. Wrong widget URL in LE: installed in SandBox but URL refers to production.
+   4. Missing SF configuration - Skill is not associated with an object
 
 ![](/img/sfdc 14.png)
-
-{:start="d"}
-	4. Missing SF configuration - Skill is not associated with an object:
 
 ![](/img/sfdc 15.png)
 
 {:start="2"}
+
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
    **Steps for resolving the issue:**
-   a. Make sure that there is a skill already defined in the LE account. If there is no skill, create 		one. There should be at least one skill configured.
+   1. Make sure that there is a skill already defined in the LE account. If there is no skill, create one. There should be at least one skill configured.
+   2. Assign the skill to the engagement via one of the following methods:
+      1. Via the engagement studio: Campaign engagement studio
+      2. Create a pre-chat survey question with a routing based question. (Only valid for the chat engagements)
+      3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
 
    ![](/img/sfdc 16.png)
 
-   {:start="b"}
-   b. Assign the skill to the engagement via one of the following methods:
-   \* Via the engagement studio: Campaign engagement studio
-   \* Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
-   c. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
-2. **Issue**: Salesforce widget does not load followed by an error message.
+{:start="3"} 
 
-   **Steps for resolving the problem** (guide the customer to do the following)**:**
-   a. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-   b. Within SF you must grant access to the relevant objects:
-   \* Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
+1. **Issue**: Salesforce widget does not load followed by an error message.
+
+   **Steps for resolving the problem** (guide the customer to do the following)
+   1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+   2. Within SF you must grant access to the relevant objects:
+      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
 4\. **Issue**: Salesforce widget does not load followed by an error message.
@@ -699,9 +699,9 @@ These are just a few examples meant to demonstrate how to write these “address
 
 1. **Issue**: Chat Transcripts are not synced to SF
 
-   **Possible causes:**
-   a. Scheduled sync jobs need to be defined
-   b. Job is defined, but the SF user is inactive
+   **Possible causes:** 
+   1. Scheduled sync jobs need to be defined 
+   2. Job is defined, but the SF user is inactive
 
 ![](/img/sfdc 17.png)
 
@@ -712,8 +712,7 @@ These are just a few examples meant to demonstrate how to write these “address
 3. The transcript for converted leads is not accessible.
 4. The widget is not defined as SF Lightning ready.
 
-General Recommendation:
-
-* Verify that the latest SFDC integration package is installed (link in the Connection Area):
+   **General Recommendation:**
+   * Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
 ![](/img/sfdc 18.png)
