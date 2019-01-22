@@ -58,19 +58,20 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 ![](/img/sfdc 3.png)
 
 {:start="2"}
+
 1. “Step 1: Account Information” – Enter the relevant Account ID.
 2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account
-	a. Go to “Campaigns” Tab and search for the link “Data Sources.” 
-    b. Go to “API” Tab and click “Manage” and then “New.” 
-	c. Fill in the App Name: “SFDC Integration,” 			Developer:“LivePerson” and then make sure to select the 	following APIs on the list: “Data” > “Engagement 
-    History” and “Administrations” > “Skills” and click 	“Save.” 
-	d. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret. 
+   a. Go to “Campaigns” Tab and search for the link “Data Sources.”
+   b. Go to “API” Tab and click “Manage” and then “New.”
+   c. Fill in the App Name: “SFDC Integration,” 			Developer:“LivePerson” and then make sure to select the 	following APIs on the list: “Data” > “Engagement
+   History” and “Administrations” > “Skills” and click 	“Save.”
+   d. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
 
 {:start="4"}
-3. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
-4. “Step 4: Activation” – Click “Activate.”
+3\. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
+4\. “Step 4: Activation” – Click “Activate.”
 
-   **Note:** When you click on “Deactivate,” you will disable the use of the widget within the LiveEngage 		2.0 Platform and stop all periodic sync processes with your account.
+**Note:** When you click on “Deactivate,” you will disable the use of the widget within the LiveEngage 		2.0 Platform and stop all periodic sync processes with your account.
 
 ## **Configuring the app**
 
@@ -83,19 +84,14 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 This section sets out the Salesforce objects for which we would like the widget to search, according to data related to the visitor who initiated the chat/messaging conversation.
 
 1. From the list of available objects, select those you would like to see in the widget. Select the relevant “Available Objects” and click “Add” to move them to the “Selected Objects” side or “Remove” to remove them.
-
-![](https://lh6.googleusercontent.com/Vx4_p66LIay1TJFfSpbNAuRSyXCyYE-8kZPVzJttEYqkMZsDW5N7O-5TI_HNLP9hU3Zm3yNC7g2AzyRGpRQ12BM8SMMkH32oOSnaJubmvpQFaYlOC9GJLgZd1oa-sh9SMQiRBJ6T =624x195)
-
-{:start="2"}
-
-1. To enable the automatic search as the widget loads, verify that “Disable On Load Auto Search” checkbox is unchecked.
-2. To pre-populate the search parameters, verify that “Disable Modify Onload Search Params” checkbox is unchecked.
+2. To enable the automatic search as the widget loads, verify that “Disable On Load Auto Search” checkbox is unchecked.
+3. To pre-populate the search parameters, verify that “Disable Modify Onload Search Params” checkbox is unchecked.
 
 ### **Skills settings**
 
 1. The LiveEngage Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
 
-**Note:** You must have Skills in your LiveEngage account for this package to work. If you don’t have any Skills configured, please create a default one before continuing forward.
+	**Note:** You must have Skills in your LiveEngage 		account for this package to work. If you don’t have any 	Skills configured, please create a default one before continuing forward.
 
 {:start="2"}
 
