@@ -158,9 +158,7 @@ These settings allow you to choose which fields of each object will be available
 ### **Related list config**
 
 * Select one of the values in the “Related List Object Name” picklist.
-* Select from a list of fields you would like to include in your related list – do this by selecting any “Available Fields”, click the “Add” button so that they are moved to the “Selected Fields” side.
-
-  **Note:** Only the first 4 fields will be shown on the related list.
+* Select from a list of fields you would like to include in your related list – do this by selecting any “Available Fields”, click the “Add” button so that they are moved to the “Selected Fields” side. **Note:** Only the first 4 fields will be shown on the related list.
 * Select one of the values in the “Field to Sort” picklist
 * Select one of the values in the “Number of Records” picklist.
 * Select one of the values in the “Sort Direction” picklist.
@@ -176,9 +174,7 @@ In this section you can define the search filters for the Widget Search Screen. 
 * Fill out the following fields to create your new search filter:
   * “Field Name” – The field that you want to filter by (for example: Account Type, Case Origin, etc…)
   * Operation – The operator you want to use for filtering (Make sure it fits the field type)
-  * “Value” – The values you want to use.
-
-    **Note:** When filtering by a lookup field (or record type) – you need to put the SF ID of the relevant value. For example, for a record type “012000000000jdT.”
+  * “Value” – The values you want to use. **Note:** When filtering by a lookup field (or record type) – you need to put the SF ID of the relevant value. For example, for a record type “012000000000jdT.”
   * Click “Save.”
 
 ### **Account settings**
@@ -196,65 +192,41 @@ In this section you can define the search filters for the Widget Search Screen. 
 ### **Lead settings**
 
 1. Scroll down to the “Lead Settings” section of your page.
-2. Ensure that the “Use Lead Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** If you have configured Lead assignment rules in your org, then checking this checkbox will uphold those rules when a Lead record is created from within the platform.
-3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in LiveEngage. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
+2. Ensure that the “Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Lead assignment rules in your org, then checking this checkbox will uphold those rules when a Lead record is created from within the platform.
+3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in LiveEngage. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
 4. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Lead object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
 ### **Case settings**
 
 1. Scroll down to the “Case Settings” section of your page.
-2. Ensure that the “Case Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating a Case record from within the widget).
-3. Ensure that the “Case Contact is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require a Contact name to be populated when creating a Case record from within the widget)
-4. Ensure that the “Use Case Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** If you have configured Case assignment rules in your org, then checking this checkbox will uphold those rules when a Case record is created from the widget)
-5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need.
-
-   **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
+2. Ensure that the “Case Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating a Case record from within the widget).
+3. Ensure that the “Case Contact is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require a Contact name to be populated when creating a Case record from within the widget)
+4. Ensure that the “Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Case assignment rules in your org, then checking this checkbox will uphold those rules when a Case record is created from the widget)
+5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
 6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Case object
 
-   (see the above “Enabled Object Settings” section for further explanation on this screen).
-
-   **Note:** The Account and Contact lookup fields have to be included in the Field Mapping list if you want the Cases you create using the widget to be attached to them.
+   (see the above “Enabled Object Settings” section for further explanation on this screen). **Note:** The Account and Contact lookup fields have to be included in the Field Mapping list if you want the Cases you create using the widget to be attached to them.
 
 ### **Opportunity settings**
 
 1. Scroll down to the “Opportunity Settings” section of your page.
-2. Ensure that the “Opportunity Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating an Opportunity record from within the widget.
-3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Opportunity object (see the above “Enabled Object Settings” section for further explanation on this screen).
-
-   **Note:** The Account lookup field has to be included in the Field Mapping list if you want the Opportunity you create using the widget to be attached to it.
+2. Ensure that the “Opportunity Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating an Opportunity record from within the widget.
+3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Opportunity object (see the above “Enabled Object Settings” section for further explanation on this screen). **Note:** The Account lookup field has to be included in the Field Mapping list if you want the Opportunity you create using the widget to be attached to it.
 
 ### **Custom object settings**
 
 1. Scroll down to the “Custom Object” Settings section of your page.
-2. Ensure that the “Account is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require an Account name to be populated when creating a Custom Object record from within the widget.
-3. Ensure that the “Contact is Mandatory” checkbox is checked/unchecked according to your need.
-
-   **Note:** Checking this checkbox will require a Contact name to be populated when creating a Custom Object record from within the widget.
+2. Ensure that the “Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating a Custom Object record from within the widget.
+3. Ensure that the “Contact is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require a Contact name to be populated when creating a Custom Object record from within the widget.
 4. Select from one of the following values in the “Account Field” picklist:
    * Account
    * Any other existing Account Lookup Field(s)
-
-   **Note:** The Account Field list will allow you to choose any of the Account Lookup fields on your custom object, in case there are any.
 5. Select from one of the following values in the “Contact Field” picklist:
    * Contact
    * Any other existing Contact Lookup Field(s)
+6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Custom object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
-   **Note:** The Contact Field list will allow you to choose any of the Contact Lookup fields on your custom object, in case there are any.
-6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Custom object (see the above “Enabled Object Settings” section for further explanation on this screen)
+   **Note:** The Account Field and Contact field lists will  allow you to choose any of the Account or Contact Lookup fields on your custom object, in case there are any.
 
 ## **Step #3: Configuring the app’s sync process settings**
 
