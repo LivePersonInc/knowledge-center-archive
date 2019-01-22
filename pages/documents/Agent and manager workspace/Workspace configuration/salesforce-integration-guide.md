@@ -23,7 +23,6 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
    * Installation on a test Salesforce sandbox account:[ ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J)[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
 
 {:start="3"}
-
 1. Select "Install for All Users”, click "Install". When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 2. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
@@ -58,7 +57,6 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 ![](/img/sfdc 3.png)
 
 {:start="2"}
-
 1. “Step 1: Account Information” – Enter the relevant Account ID.
 2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account
    1. Go to “Campaigns” Tab and search for the link “Data Sources.”
@@ -100,14 +98,12 @@ This section sets out the Salesforce objects for which we would like the widget 
 ![](/img/sfdc 6.png)
 
 {:start="4"}
-
 1. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
 2. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
 
 ![](/img/sfdc 7.png)
 
 {:start="6"}
-
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
    1. Select which objects the relevant Skill can work with in the SFDC widget.
    2. Select the default widget screen: either a Search 	Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
@@ -304,7 +300,6 @@ https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 **Tip:** From the Customization Settings tab, you can copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure you are using the correct link:
 
 {:start="7"}
-
 1. Open the “Advanced settings for LivePerson integration SDK”
    * Define the following URL under ‘In case widget didn't load, display the following link’- ‘[https://login.salesforce.com](https://login.salesforce.com "https://login.salesforce.com")’ (or ‘[https://test.salesforce.com](https://test.salesforce.com "https://test.salesforce.com")’)
    * “Show link after” – Define 30 seconds, this means that if the agent is not logged in to SF, after 30 seconds he will see the message you defined with the link defined above.
@@ -401,13 +396,11 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 ![](/img/sfdc 9.png)
 
 {:start="4"}
-
 1. Another option is to view the record in the widget, Click “Actions”, “Link Chat.”
 
 ![](/img/sfdc 10.png)
 
 {:start="5"}
-
 1. Once the chat/messaging conversation is linked to the record, the ‘Quick Links’ icon  will become Orange. By clicking on it you will be able to view the relevant records the chat/messaging conversation is linked to.
 2. In case you mistakenly linked the chat/messaging conversation to the wrong record, you may always ‘Unlink’, Click on ‘Actions’ menu from the record page and choose ‘Unlink Chat.’
 
@@ -471,7 +464,6 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
    `surveys.preChat\[displayName=What is your Account Number?\].value`
 
 {:start="2"} 
-
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
     **LivePerson SDK Field:**
@@ -483,7 +475,6 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
     `surveys.postChat\[displayName=How would you rate us?\].value`
 
 {:start="3"} 
-
 1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
     **LivePerson SDK Field:**
@@ -517,7 +508,6 @@ These are just a few examples meant to demonstrate how to write these “address
    `info.startTime`
 
 {:start="2"}
-
 1. For a **Customer Type** value:
 
    **LivePerson SDK Field:**
@@ -529,7 +519,6 @@ These are just a few examples meant to demonstrate how to write these “address
    `sdes.events\[sdeType=CUSTOMER_INFO\].customerInfo.customerInfo.customerType`
 
 {:start="3"}
-
 1. For the **Visitor’s** **Name** value:
 
    **LivePerson SDK Field:**
@@ -541,7 +530,6 @@ These are just a few examples meant to demonstrate how to write these “address
    `sdes.events\[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
 {:start="4"}
-
 1. For the **Goal Name** value:
 
    **LivePerson SDK Field:**
@@ -553,7 +541,6 @@ These are just a few examples meant to demonstrate how to write these “address
    `campaign.goalName`
 
 {:start="5"}
-
 1. For the **Visitor Browser** value:
 
    **LivePerson SDK Field:**
@@ -565,7 +552,6 @@ These are just a few examples meant to demonstrate how to write these “address
    `visitorInfo.browser`
 
 {:start="6"}
-
 1. For the **Marketing** **Affiliate** value:
 
    **LivePerson SDK Field:**
@@ -645,7 +631,6 @@ These are just a few examples meant to demonstrate how to write these “address
 ![](/img/sfdc 15.png)
 
 {:start="2"}
-
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
    
    **Steps for resolving the issue:**
@@ -658,7 +643,6 @@ These are just a few examples meant to demonstrate how to write these “address
    ![](/img/sfdc 16.png)
 
 {:start="3"} 
-
 1. **Issue**: Salesforce widget does not load followed by an error message.
 
    **Steps for resolving the problem** (guide the customer to do the following)
@@ -672,7 +656,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
-
 1. **Issue**: Chat Transcripts are not synced to SF
 
    **Possible causes:** 
