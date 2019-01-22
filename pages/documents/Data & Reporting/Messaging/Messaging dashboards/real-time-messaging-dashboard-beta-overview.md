@@ -210,39 +210,42 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
 ![](https://lh6.googleusercontent.com/9iHlgcy_F6rWGTG8pyhb8tUtxv6xi6KLvaN9QKzjPUfgOVmotZct7Qoa_9LE1fN8r_F-YRFHy20jyUZM4UZserWWbwvJfnyrFDSRLtrCoLhPCjeEcPgdcSiNXni0tmmyuBxFwha1 =624x184)
 
 **Dashboard header filters**: These main filters will impact the entire dashboard and the displayed data.
- Two types:
-1. **Skills**
-	Can choose skill to see the metrics of that specific skill
-	Can choose multiple skills and will see aggregated data on those skills.
-2. **Groups**
-   	Choose group to see metrics for that specific group.
-   Can choose multiple groups and will see aggregated data on those groups.
+Two types:
+
+**Skills**
+Can choose skill to see the metrics of that specific skill
+Can choose multiple skills and will see aggregated data on those skills.
+
+**Groups**
+Choose group to see metrics for that specific group.
+Can choose multiple groups and will see aggregated data on those groups.
 It is possible to filter for both skills and groups.
 
 **Last 24 Hour/ “Today, from” filters**: these filters allow you to filter by time range according to the following options:
-   1. **Today from a specific hour**: choose a specific hour to filter from
-   2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
-   3. Use the radio buttons or the sliders to change the time frame
+
+1. **Today from a specific hour**: choose a specific hour to filter from
+2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
+3. Use the radio buttons or the sliders to change the time frame
 
 ![](https://lh5.googleusercontent.com/bhG5CLSxifP05m5_LSJwXPOXZhoghDKDXnJR0X6giR3muwp5wj1QpuOHAHYgI9fFZjl46NqgzGhJP8sN3frNAhQT4jbEo6b_4oP_fwIOXVIS_i1z5MR9o542AzP-UWnZuTL_ZYsA =334x259)
 
 **Agent filters: there is currently only one filter available:**
-1) **Logged in**: while this is the only filter, you can see numbers based on the agent status:
-    Online
-	Back soon
-	Away
-    
-2) **Sort**: allows you to sort the information by the following categories:
-    1. Status
-    2. Name
-    3. Status time
-    4. Open
-    5. Active
-    6. Load
-    7. Closed
-    8. Average resolution time (in grid-view only currently)
-    9. CSAT
-You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view. You also have the ability to export the agent list as a .CSV file
+
+1. **Logged in**: while this is the only filter, you can see numbers based on the agent status: Online Back soon Away
+2. **Sort**: allows you to sort the information by the following categories:
+
+* Status
+* Name
+* Status time
+* Open
+* Active
+* Load
+* Closed
+* Average resolution time (in grid-view only currently)
+* CSAT
+  
+
+  You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view. You also have the ability to export the agent list as a .CSV file
 
 # Customizing the Dashboard
 
@@ -254,20 +257,24 @@ When clicking the three dots next to any of the dashboard sections, the **KPI co
 
 Two sections are included in the KPI configuration:
 
-1. First tab: **Alerts & Thresholds**
-   1. Which KPI appears in the dashboard
-   2. Set threshold to change the color of API to alert managers that the threshold has been exceeded
-2. Second tab: **KPI arrangement**
-   1. Change the order of the sections
-   2. Change the order of the KPIs displayed
+First tab: **Alerts & Thresholds**
 
-\[If asked\] Configuration changes are stored in the browser cookie (per browser)
+* Which KPI appears in the dashboard
+* Set threshold to change the color of API to alert managers that the threshold has been exceeded
 
-You can click on Current, Closed, Agents and Skills
+  Second tab: **KPI arrangement**
 
-* Choosing Current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
-  * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for Open Conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
-* For Agents and Skills there are no configurations to customize. ![](https://lh3.googleusercontent.com/_Mm4SbVTFopLOyiRehivhBARz1MqXjEGHcdcMEjBZCMJ8hK0pw7ocTMcwxPfJUYWx5N5e4j18Tsw12Bb1XVLY-fAe_c5x8rof1lUFTF20AQt6n-lKKpfHPqnqJHzaN8zgPs_FrT1 =419x487)
+
+* Change the order of the sections
+* Change the order of the KPIs displayed
+
+Configuration changes are stored in the browser cookie (per browser)
+
+You can click on current, closed, agents and skills
+
+* Choosing current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
+* For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for open conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
+* For agents and skills there are no configurations to customize. ![](https://lh3.googleusercontent.com/_Mm4SbVTFopLOyiRehivhBARz1MqXjEGHcdcMEjBZCMJ8hK0pw7ocTMcwxPfJUYWx5N5e4j18Tsw12Bb1XVLY-fAe_c5x8rof1lUFTF20AQt6n-lKKpfHPqnqJHzaN8zgPs_FrT1 =419x487)
 * If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.
 
 ![](https://lh4.googleusercontent.com/ZKIABOv1r-INMqcnOA-kLdRR96mbWyOIW6nReBaib0enPaXrs3KTMiiJeS4zLk3kwgLSTamhyuj4IeYD_zj5Vhg5SOU06tRCl61TeS_g6nnGp_0VNPt92NmuoPHzl18ow97xvNDa =501x674)
@@ -276,20 +283,21 @@ The reset button on the bottom left resets to the initial configuration.
 
 # Additional functions
 
-!\[\](https://docs.google.com/a/liveperson.com/drawings/d/sG71W6V69d4qxi2HDGV-6mw/image?w=624&h=68&rev=28&ac=1&parent=1ojMh05NOdSfTcbSH8yvSledaiZ-ZYH6pGIQhgu6fCNQ =624x68)
+![](https://docs.google.com/a/liveperson.com/drawings/d/sG71W6V69d4qxi2HDGV-6mw/image?w=624&h=68&rev=28&ac=1&parent=1ojMh05NOdSfTcbSH8yvSledaiZ-ZYH6pGIQhgu6fCNQ =624x68)
 
 **The menu on the top right corner:**
 
 * Allows you to logout
 * Review the [Terms of Use](https://www.liveperson.com/policies/analytics-beta-tou)
 * Submit feedback button (via Google Form)
-* Allows you to change the mode of the Dashboard (from Messaging to Chat)
-* Allows you to modify the Response Time Sample Size or Opened Filter (see below)
+* Allows you to change the mode of the dashboard (from messaging to chat)
+* Allows you to modify the response time sample size or opened filter (see below)
 
 _![](https://lh5.googleusercontent.com/s0HIOwaPAMdBs-xd_ODdhy-rdl_2f9SQSgHyUavHeiRC6bV9Q5ImYg4LATuUk1ArOqTkpSou8Hp9quNi-_8yluMstBNEfwl6l7oo9xbHNfbslm1EeVV9-OwgSblFKWewSn5GiCdm =386x250)_
 
-**_Sample Size means:_** _the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs)._
+**_Sample size means:_** _the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs)._
 
-**_Opened Filter means:_** _the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section._
+**_Opened filter means:_** _the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section._
 
-_***Note:** be aware that some elements and usability may change as we finalize this feature. Customers must agree to the conditions and limitations when logging in to the real time dashboard tool._
+{: .notice}_  
+Be aware that some elements and usability may change as we finalize this feature. Customers must agree to the conditions and limitations when logging in to the real time dashboard tool._
