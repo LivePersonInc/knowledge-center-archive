@@ -128,11 +128,8 @@ The SFDC package supplied by LivePerson includes an object named “Chat Transcr
    * **_Attachment –_** will insert the full transcript of the chat/messaging conversation as a related File Attachment on the chat transcript record.
    * **_Field and Attachment –_** this will save the transcript by both the above methods to the chat transcript record.
 3. Click on “Configure field mapping” under ‘Advanced Settings’ to determine the values saved into the chat transcript record. Note the following instructions:
-
-* Custom fields need to be added to the Chat Transcript object for them to show up in this list.
-
-  Please **map only to those new custom fields you created**, choosing any other previously existing 		field will not work and might cause errors in both the widget and sync process.
-* Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” 	and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as 	well, however different field types might cause errors.
+   * Custom fields need to be added to the Chat Transcript object for them to show up in this list. Please **map only to those new custom fields you created**, choosing any other previously existing field will not work and might cause errors in both the widget and sync process.
+   * Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as well, however different field types might cause errors.
 
 ## **Enabled object settings**
 
@@ -152,6 +149,8 @@ These settings allow you to choose which fields of each object will be available
 * Fill out the following fields to complete your field mapping:
   * Choose a SF Field Name
   * Choose ‘Editability’ mode
+
+    {: .important}
 
     **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
   * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (PreChat Survey, PostChat Survey, Extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
