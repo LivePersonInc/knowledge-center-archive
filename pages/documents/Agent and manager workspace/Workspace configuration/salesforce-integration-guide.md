@@ -26,13 +26,15 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 1. Select "Install for All Users”, click "Install". When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 2. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
+![](/img/sfdc 1.png)
+
 ## **Step #2: Configuring the LiveEngage app in Salesforce**
 
 This step will guide you through the activation & configuration of the app in Salesforce.
 
 ### **Navigating to the LiveEngage application in Salesforce**
 
-1. Now that you have installed the LiveEngage App in your Salesforce org, you will want to set it up.
+1. Now that you have installed the LiveEngage app in your Salesforce org, you will want to set it up.
 2. Login to Salesforce – click on the application menu in the top right of your screen.
 3. Make sure you have the “LiveEngage” application selected.
 
@@ -46,13 +48,13 @@ Our widget includes our own Clickjacking Protection feature, that makes sure tha
 
 The first three check-boxes can have any value (true/false), however, the 4th “**Enable clickjack protection for customer Visualforce pages with headers disabled**” has to be **disabled**.
 
-![](https://lh5.googleusercontent.com/8hEF7bot6q3W2PYhrw8-ZhtsvfgFipiJD1qtZkDrAotjkCArDIWamxzHKfqKUScYK_gFr69wepf9Ctt5RMz0rXiKjnEf6j4IHzQVRUGrGtlyiDy6kUyYmwLbfCdH4plWl3Yh0WNY =624x153)
+![](/img/sfdc 2.png)
 
 ### **Set up your account settings**
 
 1. Click on the “Account Settings” tab.
 
-![](https://lh5.googleusercontent.com/_r1ce1ZxBlhuK32DW5ZEQAXhfMBbQuL5KFRlRLhES_0sfyzUDD9F5KNlcbomOIYF6pcXViwSL-sVHhZxgFbfh7RjIB_jPBtuKPCQAj91oz1iyls74ic6byYp1hwGaDK_i7E9DvkX =624x332)
+![](/img/sfdc 3.png)
 
 1. “Step 1: Account Information” – Enter the relevant Account ID.
 2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account:
@@ -96,12 +98,12 @@ This section sets out the Salesforce objects for which we would like the widget 
 1. From the “Customization Settings” tab, scroll down to the “Skills” section.
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
 
-![](https://lh3.googleusercontent.com/PtSibURjR7US4W_em6oKgLRiKH8IHOVlW5Vzao49oMFbZbCBhB45xtunotWzdoQ5E-X8dfLNuIfjxFaFdS8RA6fjYwvQuqFlXIC_UA3mlfrDBRmpf7qASV833wSievdKfogd990P =624x149)
+![](/img/sfdc 6.png)
 
 1. In order to configure the skills further and define which Objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
 2. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
 
-![](https://lh4.googleusercontent.com/BnMrq8lz3WvSpKJ7xOD0HDwmVuCjC0mtz-LxqniybhkYjhDFNunWj7QXqBY3s6YS0v94tFmHoSKtEU4NMLOoGgpIyyYASr9MnBCAYzBkihHdmZ2ykO9ytFPlcxI462VJJmSiD7_e =624x125)
+![](/img/sfdc 7.png)
 
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
    1. Select which objects the relevant Skill can work with in the SFDC widget.
