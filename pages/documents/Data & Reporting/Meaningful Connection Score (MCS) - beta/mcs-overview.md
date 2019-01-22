@@ -14,9 +14,9 @@ published: false
 ---
 Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience.
 
-The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.  
-![](https://lh5.googleusercontent.com/S0cNc6OPtOxP4vKVU_XdoSznPjO0BwIpYzOVrsXzkwjlOrxrxCvh8gHjAZ2xXAi-5YWTf4btpwzcAOvD3Af_XSySeutXtQNO26wsmMat3_-ZFkI6WrPnYK54F3e9tykd9KjcGDaA =495x331)
+The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.
 
+![](/img/MSC1.png)  
 **The problem with traditional customer satisfaction metrics**
 
 While commonly used customer satisfaction measurements, such as customer surveys, provide valuable insights into the views of responders, they fall short in offering a complete view of how consumers really feel about a brand.
@@ -68,11 +68,11 @@ For messaging conversations, the MCS score and alerts (smileys) are displayed in
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
-![](https://lh4.googleusercontent.com/4CMYSFESxCBHvRlq3fUpnZNYia7bPoyLnRH9MNGwOnUzqHWBj4XbFGRth3ibDAA7azi3dtwE-5tFS0-FaUB_k9d3HH6aw-LnHupvTs38wYQ7m-XzEWQtY-bxBhkudbYGRFfo48Z0 =429x286)
+![](/img/MCS2.png)
 
 _Chat web history_
 
-![](https://lh3.googleusercontent.com/UR3g5clVWq2jFYaF-_A5VJnR7ali3Zxwy8p8G36HOmLVgvXtK-N0EixuIM7GFXDvoZX_dOEqLKt5nxuo5k1mB5jgCXAeO27woLzaapEekG8RK7Lcf3k77ZOoAtZ3Wa7j6NKEjYbw =354x542)
+![](/img/MCS3.png)
 
 _Chat agent workspace_
 
@@ -80,7 +80,7 @@ _Chat agent workspace_
 
 [MCS Toolkit]() allows brands to identify training opportunities for agents and agent groups, meaning agent performance can be benchmarked and best practices standardized across the account. Conversation MCS offers brands the ability to deep dive into the evolution of consumer sentiment throughout the lifetime of a conversation. This allows agent managers to identify weak points in service, recognize trends and pinpoint areas that require improvement.
 
-![](https://lh3.googleusercontent.com/eFmV7jDDyGAPAG0ZY6VZ3vgJHgeUbn29tpQSgsv8bCtp2ac9hGkMZOIK2Tpo3K42tZ52HGBg1jNQfSKGfFtnRGHwgU_5cmIXd5PyRw4WXlEGoSqmbzKILyEny3tlL4rGeBLEJShQ =429x292)
+![](/img/MCS4.png)
 
 MCS can be viewed in the All Connections list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
 
@@ -92,7 +92,7 @@ Brands can gain an even deeper understanding of consumer sentiment by looking at
 
 * Brand MCS
 * Agent
-* Agent group 
+* Agent group
 * Skill
 
 For these variables, the MCS is calculated using the following method:
@@ -115,9 +115,7 @@ The Report Builder allows brands to build their own reports based on account dat
 
 MCSs for messaging conversations are available in Report Builder for brands to further track and analyze data around consumer sentiment.
 
-![](https://lh5.googleusercontent.com/opSrxMSmBO4eyej4eruP_zerOizj8QflT44ecWnVTduFH1frx3lXCguTO30DRaIF7mIK1dtQAsDPaJfNhPHwplnT52B-G7cQotgzADvIwxY4gPvWlsC0-vb_nZEAgLI6NHjmbFx7 =448x155)
-
-**More about MCS**
+### ![](/img/MSC5.png)More about MCS
 
 * The MCS is available in both the **English and French languages** and **German** to be launched soon.
 * The MCS model can be **customized per account**, ensuring that the score takes into consideration tone, content and other variables specific to each brand, that could impact the calculation of the score. For example, _smell_ might be flagged as negative content for many brands, but for a perfume retailer it should be treated as neutral. For information on configuring MCS specifically for your account, contact your LivePerson account team.
