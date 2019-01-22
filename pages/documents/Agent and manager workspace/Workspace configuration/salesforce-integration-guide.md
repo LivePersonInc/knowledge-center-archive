@@ -692,11 +692,8 @@ c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
 2. Assign the skill to the engagement via one of the following methods:
    1. Via the engagement studio: Campaign engagement studio
    2. Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
-
-![](https://lh6.googleusercontent.com/ExGleSU3h2u0YGexdim3PAt1wYJivIewNLKiUD0lTFIULBQHHDAqSX1XpZhZBPJMw11UzwmVGDga1j-2wSiJ2iw0Z_CYPTOlwgE14DRKNFX6vfyoMRGz6siIr24Ifp15qrXf6MN1 =624x171)
-
-1. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
-2. **Issue**: Salesforce widget does not load followed by an error message.
+   3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
+3. **Issue**: Salesforce widget does not load followed by an error message.
 
 **Steps for resolving the problem** (guide the customer to do the following)**:**
 
@@ -716,7 +713,7 @@ i. Create a new ‘modify all’ permission set to the relevant SF object (in th
 1. Scheduled sync jobs need to be defined
 2. Job is defined, but the SF user is inactive
 
-![](https://lh5.googleusercontent.com/pTT0nHgQqjGd5AljU1PRbTKWKTfTpCjoixtyFMFCH-7h32lr2vcDyLd773ekaNbZJHnUljsrzr1NNLD1MjTerUwU9LiCFPbn903cZ2z3IAhX0u1IpJ3JPBnIxSJ1TuNO_LXSdFdI =624x259)
+![](/img/sfdc 17.png)
 
 ### **Known limitations**
 
@@ -729,4 +726,4 @@ General Recommendation:
 
 * Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
-![](https://lh3.googleusercontent.com/Yf0o7SulCWRQQTlczzRGhIr920RXAzXoPuEX5KkJHtWfgvtXhkObLwzpvm-P4u-Q_AoMF8YzO-Q_Qy576j9evGMb6jwk26dRIc7nArueMk8Ckoly_TZhswdPNhuJZ4DnOqjbcjmm =624x177)
+![](/img/sfdc 18.png)
