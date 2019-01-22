@@ -625,7 +625,7 @@ These are just a few examples meant to demonstrate how to write these “address
 **A:** Please verify that the Case / Opportunity settings has the Account and Contact lookup fields included in the field mapping. If you have more than one lookup field to Account / Contact on the object, make sure you include the standard one from Salesforce (they are called “Account ID” and “Contact ID” on the field mapping list).
 
 **Q:** Why does the sync process doesn’t happen on the exact hour I chose for it, but slightly after?
-
+	
 **A:** The daily sync process will happen in an offset of minutes, but within the hour, of the time you chose for it, which might change between different orgs. The periodic sync will happen every 3 hours, but at an offset as well.
 
 ### **Known issues**
