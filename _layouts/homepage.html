@@ -100,18 +100,17 @@
       <div class="seeallbox">See all videos</div>
   </div>
   <div id="middlecontainer">
+    {% assign newPages = site.pages | where: "isNew", "true" %}
+    {% assign newPagesByDate = newPages | sort: "date" | reverse %}
+    {% for page in newPagesByDate limit: 2 %}
+    <a href="{{ page.permalink }}" class="newfeaturelink">
     <div class="newfeaturecontainer">
-      <span class="newfeaturetitle">NEW FEATURE</span>
+      <span class="newfeaturetitle">{{ page.pagename }}</span>
       <hr class="panelhr close" />
-      <span class="newfeaturesubtitle">See a demo of the new Agent Manager Workspace</span>
-      <span class="newfeaturesummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <a class="readmore" href="developers.liveperson.com">Read more…</a></span>
+      <span class="newfeaturesubtitle">{{ page.subtitle }}</span>
     </div>
-    <div class="newfeaturecontainer">
-      <span class="newfeaturetitle">NEW FEATURE</span>
-      <hr class="panelhr close" />
-      <span class="newfeaturesubtitle">See a demo of the new Agent Manager Workspace</span>
-      <span class="newfeaturesummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <a class="readmore" href="developers.liveperson.com">Read more…</a></span>
-    </div>
+    </a>
+    {% endfor %}
       <div class="seeallbox">See all new features</div>
   </div>
   <div id="rightcontainer">

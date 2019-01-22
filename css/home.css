@@ -404,6 +404,10 @@ a.mainlink:hover {
   flex-direction: column;
 }
 
+#leftcontainer .seeallbox {
+  margin-top: 62px;
+}
+
 #paneltitle {
   font-size: 28px;
   font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
@@ -457,6 +461,14 @@ a.mainlink:hover {
   margin-right: 52px;
 }
 
+#middlecontainer .seeallbox {
+  margin-top: 62px;
+}
+
+.newfeaturelink {
+  text-decoration: none;
+}
+
 .newfeaturecontainer {
   display: flex;
   flex-direction: column;
@@ -472,7 +484,7 @@ a.mainlink:hover {
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-weight: bold;
   color: #5879da;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .newfeaturesubtitle {
@@ -601,6 +613,7 @@ a.mainlink:hover {
 
 #footertext {
   color: #eef0f1;
+  font-family: "Open Sans";
 }
 
 #footertext a {

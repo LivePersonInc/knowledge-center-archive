@@ -9,7 +9,7 @@ level3: ''
 permalink: data-reporting-engagement-attributes-attribution-model.html
 isTutorial: false
 date: 2019-01-20 10:13:30 +0200
-
+isNew: true
 ---
 Depending on the product or service your consumers are interested in, they have different buying cycles. Some will instantly purchase a product while others will take their time, engage with you, research additional websites, and only then come back to purchase.
 
@@ -27,7 +27,7 @@ Conversions are reflected in your reports and are calculated based on the date o
 In addition, LivePerson uses the attribution model, which is a set of rules that determine which agent / campaign gets the credit for the conversion. If the visitor conversed more than once, you can choose which agent gets the credit by setting the attribution model to first or last interaction (see instructions below). By default, the last agent gets the credit for the conversion. Similarly, if a visitor was exposed to more than one content engagement of different campaigns, the last content engagement will get the credit for conversion.
 
 {: .notice}  
-Any change you make to the attribution model or time period takes effect immediately and impacts your current and historical conversion and revenue reports. 
+Any change you make to the attribution model or time period takes effect immediately and impacts your current and historical conversion and revenue reports.
 
 **To configure your account’s cross-session period:**
 

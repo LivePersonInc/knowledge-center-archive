@@ -8,8 +8,7 @@ level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: false
-
+published: true
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the LiveEngage 2.0 Platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
 
@@ -511,22 +510,22 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 2\. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
     **LivePerson SDK Field:**
-    
+
     `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
-    
+
     **LivePerson API Field:**
-    
+
     `surveys.postChat\[displayName=How would you rate us?\].value`
 
 {:start="3"}
 3\. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
     **LivePerson SDK Field:**
-    
+
     `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
-    
+
     **LivePerson API Field:**
-    
+
     `surveys.operator\[displayName=Was the customer satisfied?\].value`
 
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
