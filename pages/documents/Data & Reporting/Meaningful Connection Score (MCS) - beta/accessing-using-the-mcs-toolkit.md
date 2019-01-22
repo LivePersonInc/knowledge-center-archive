@@ -9,12 +9,11 @@ level3: ''
 permalink: data-reporting-meaningful-connection-score-(MCS)-beta-login-using-the-tool-kit
 isTutorial: false
 date: 2019-01-22 14:28:52 +0200
-published: false
 
 ---
 ## **Why use the MCS Toolkit?**
 
-* Evaluate your overall contact center performance as indicated by consumer experience. 
+* Evaluate your overall contact center performance as indicated by consumer experience.
 * Benchmark agents and agent groups against each other, using MCS distribution to compare performance, recognizing weaknesses and strengths in the performance of agents or agent groups.
 * Leverage data to inform performance reviews and coaching sessions with individual agents or groups, and use examples of the highest and lowest ranked conversations for valuable training cases.
 * Drill down to a specific conversation under investigation and jump directly to the point in the conversation where the MCS was negatively affected.
@@ -28,17 +27,17 @@ There are three methods to login to the MCS Toolkit:
 2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
-### **Regular Login method:**![](https://lh3.googleusercontent.com/xjDBxdOt8YXs3rvc8OhgxmC2pfR33_PzsMs4Tu9XFdsfMOKNEX6rRzdS095gka7r2HY62aQeXOYfvJj0EJSanUVLVJQ_9e3DV1rDNdOKW3VpSAsMiHxk0A-oLU6bIA4t1dOi5HOf =169x215)
+![](/img/LoginMCS1.png)
 
-1\. Any valid LiveEngage user may login at: [https://mcs.liveperson.net/login](https://mcs.liveperson.net/login "https://mcs.liveperson.net/login") 
+### **Regular login method**
+
+1\. Any valid LiveEngage user may login at: [https://mcs.liveperson.net/login](https://mcs.liveperson.net/login "https://mcs.liveperson.net/login")
 
 2\. Before login, select the dashboard type: messaging or chat
 
 3\. Login via regular method will terminate any existing LiveEngage sessions
 
-### ****
-
-### **Simultaneous Login method:**![](https://lh4.googleusercontent.com/nRjTJbDd12xDPujhAJVCzSkRN1jbjx2uYsfT3SxI9xKZxAXrhWs_u3RKwnY45bMLjXeZziBJ1cPh6VCzeL3THA0ip0l7g29v8sNntFbw1tzvmODTK48lMdNH78eHTmnRbB9zGkHd =186x173)
+### **Simultaneous Login method**
 
 1\. To enable simultaneous login, please contact your account manager
 
@@ -54,5 +53,5 @@ There are three methods to login to the MCS Toolkit:
 
 In order to access the MCS Toolkit via Agent SSO:
 
-1. Refer to [SSO Guide](https://s3-eu-west-1.amazonaws.com/ce-sr/Support+KB+-+customer-facing/LiveEngage/SSO_Unified_Login.pdf)
+1. Refer to [SSO Guide]()
 2. Ensure that the lpservice URL parameter referred to in the “Configuration on the Customer’s Environment” section of the SSO guide is equal to mcs (e.g. lpservice=mcs)
