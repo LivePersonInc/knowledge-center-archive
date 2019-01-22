@@ -8,6 +8,7 @@ level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
+published: false
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the LiveEngage 2.0 Platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -18,9 +19,8 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 
 1. Log into Salesforce.
 2. Navigate to one of the following URLs that best matches your requirements:
-
-* Installation on a live Salesforce production account: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
-* Installation on a test Salesforce sandbox account:[ ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J)[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
+   * Installation on a live Salesforce production account: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
+   * Installation on a test Salesforce sandbox account:[ ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J)[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
 
 {:start="3"}
 
@@ -75,9 +75,9 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 
 * Click on the “Customization Settings” tab.
 
-![](https://lh5.googleusercontent.com/Ay6irL5Gy0WbTbPF67DOqxTtTYlwlgDujlS2ppmSzxi_ebNTu77c61OAVvWsZo6HOZX8n2EX9NhRXINMk6bOeP5_7yyyoCtxtb5-QvUs5E4b-q1OsdYlONs6xwhTqwwpQ1LlL2pj =624x292)
+![](/img/sfdc 4.png)
 
-### **Object settings**
+### Object settings
 
 This section sets out the Salesforce objects for which we would like the widget to search, according to data related to the visitor who initiated the chat/messaging conversation.
 
@@ -669,45 +669,46 @@ sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCa
    b. Wrong widget URL in LE: missing “ChatLink” wording.
 
    c. Wrong widget URL in LE: installed in SandBox but URL refers to production.
-  
-  ![](/img/sfdc 14.png)
-  
-  {:start="d"}
-   d. Missing SF configuration - Skill is not associated with an object:
- 
+
+![](/img/sfdc 14.png)
+
+{:start="d"}
+d. Missing SF configuration - Skill is not associated with an object:
+
 ![](/img/sfdc 15.png)
 
 {:start="2"}
-1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
-	**Steps for resolving the issue:**
-	a. Make sure that there is a skill already defined in the LE account. If there is no skill, create 		one. There should be at least one skill configured.
-    
-   ![](/img/sfdc 16.png) 
-    
-    {:start="b"}
-    b. Assign the skill to the engagement via one of the following methods:
-		* Via the engagement studio: Campaign engagement studio
-		* Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
-    c. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
-    
-3. **Issue**: Salesforce widget does not load followed by an error message.
 
-	**Steps for resolving the problem** (guide the customer to do the following)**:**
-	a. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-    b. Within SF you must grant access to the relevant objects:
-		* Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
+1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
+   **Steps for resolving the issue:**
+   a. Make sure that there is a skill already defined in the LE account. If there is no skill, create 		one. There should be at least one skill configured.
+
+   ![](/img/sfdc 16.png)
+
+   {:start="b"}
+   b. Assign the skill to the engagement via one of the following methods:
+   \* Via the engagement studio: Campaign engagement studio
+   \* Create a pre chat survey question with a routing based question. (Only valid for the chat engagements)
+   c. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
+2. **Issue**: Salesforce widget does not load followed by an error message.
+
+   **Steps for resolving the problem** (guide the customer to do the following)**:**
+   a. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+   b. Within SF you must grant access to the relevant objects:
+   \* Create a new ‘modify all’ permission set to the relevant SF object (in this example  		Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
-4. **Issue**: Salesforce widget does not load followed by an error message.
+4\. **Issue**: Salesforce widget does not load followed by an error message.
 
-	**Observation:** missing Salesforce configuration; skill is not associated with an object.
+    **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
+
 1. **Issue**: Chat Transcripts are not synced to SF
 
-	**Possible causes:**
-	a. Scheduled sync jobs need to be defined
-    b. Job is defined, but the SF user is inactive
+   **Possible causes:**
+   a. Scheduled sync jobs need to be defined
+   b. Job is defined, but the SF user is inactive
 
 ![](/img/sfdc 17.png)
 
