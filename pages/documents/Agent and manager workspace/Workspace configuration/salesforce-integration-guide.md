@@ -8,7 +8,6 @@ level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: false
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the LiveEngage 2.0 Platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -60,7 +59,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 {:start="2"}
 1. “Step 1: Account Information” – Enter the relevant Account ID.
 2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account
-a. Go to “Campaigns” Tab and search for the link “Data 		Sources.” 
+a. Go to “Campaigns” Tab and search for the link “Data Sources.” 
 b. Go to “API” Tab and click “Manage” and then “New.” 
 c. Fill in the App Name: “SFDC Integration,” 			Developer:“LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement History” and “Administrations” > “Skills” and click “Save.” 
 d. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret. 
