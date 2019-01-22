@@ -871,6 +871,112 @@ h3 {
   display: flex;
 }
 
+/* CSS for the features and metrics tables */
+
+#featurestable {
+  width: 180%;
+  max-width: none;
+}
+
+#featurestable thead > tr > th {
+  padding: 14px 10px;
+  text-align: center;
+}
+
+#featurestable thead > tr > th:first-child {
+  width: 13%;
+}
+
+#featurestable tr td {
+  vertical-align: middle;
+}
+
+#featurestable .green {
+  color: green;
+}
+
+#featurestable .yellow {
+  color: yellow;
+}
+
+#featurestable .red {
+  color: red;
+}
+
+.tooltipicon {
+  font-size: 8px;
+  color: #666;
+  position: absolute;
+  margin-left: 2px;
+}
+
+.tooltipicon:hover .tooltipinfo {
+  display: flex;
+}
+
+.tooltipinfo {
+  display: none;
+  background-color: #162036;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-top: 9px;
+  margin-left: -8.1px;
+}
+
+.tooltipinfo::before {
+  content: " ";
+  position: absolute;
+  bottom: 65%;
+  left: -9px;
+  margin-left: 5.4px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+#capabilitiesSearch {
+  width: 25.5%;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.categoryrow {
+  background-color: #162036 !important;
+}
+
+.categoryrow td {
+  border-right:solid 0px #fff !important;
+  color: #fff !important;
+}
+
+.categoryrow td:first-child {
+  padding: 12px 25.5px 10px 23px;
+}
+
+.tableIcon {
+  width: 24px;
+  margin: 0 20px 0 24px;
+}
+
+
+.metricstable {
+  width: 150% !important;
+  max-width: none !important;
+}
+
+#metrics {
+  width: 109%;
+}
+
+#metricsSearch {
+  width: 30.5%;
+  padding: 5px;
+  padding-left: 10px;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){

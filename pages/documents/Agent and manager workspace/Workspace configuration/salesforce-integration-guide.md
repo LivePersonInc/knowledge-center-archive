@@ -120,9 +120,9 @@ This section sets out the Salesforce objects for which we would like the widget 
 
    **Note**: As a best practices, we recommend to use the search option, since that allows the agent to 	verify if the record he’s about to create already exists before creating it.
 
-If you select a search option as the default page, you can select the relevant search values that 	should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for 		any SFDC Contact record which holds an email address matching to the email address filled by the 		visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
+   If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
 
-If you are using the Salesforce Service Console, select “Use Service Console”.  By selecting this, when you click on the “SF Full View” option within the widget, the Service Console will open with the record’s tab. Otherwise, the standard SF Classic view will open in a new browser tab for each record.
+If you are using the Salesforce Service Console, select “Use Service Console”. By selecting this, when you click on the “SF Full View” option within the widget, the Service Console will open with the record’s tab. Otherwise, the standard SF Classic view will open in a new browser tab for each record.
 
 ## **Chat transcript settings**
 

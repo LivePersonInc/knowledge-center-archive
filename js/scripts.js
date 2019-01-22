@@ -9,6 +9,9 @@ $(document).ready(function () {
 	linkload();
 	mobileHamburger();
 	isExplorer();
+	capabilitiesSearch();
+	searchFunction();
+	searchHighlight();
 });
 
 function navigateContent(url) {
@@ -27,6 +30,7 @@ function navigateContent(url) {
 			//add anchor links to all h3 titles. See respective functions below for what they do.
 			anchors.add('h2');
 			populateAnchors();
+			capabilitiesSearch()
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a[href*="#"]');
 			//jump to top when page loads
@@ -191,6 +195,130 @@ function mobileHamburger() {
 			$(sidebar).data("expanded", "true");
 		}
 	});
+}
+
+//a function which creates and operates the search for the API Metrics and Report Builder Tables
+function searchFunction() {
+	var $title = $('.h1').text();
+	//only run if on the relevant pages
+	if ($title.indexOf('API Data Metrics') > -1 || $title.indexOf('Report Builder Data Metrics') > -1) {
+		// Declare variables
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("metricsSearch");
+		td = document.getElementsByTagName("td");
+		//fixing lack of commas and spaces on source data
+		for (i = 0; i < td.length; i++) {
+			td[i].innerText = td[i].innerText.replace(/,(?=[^\s])/g, ", ");
+		}
+		// Loop through all table rows, and hide those who don't match the search query (represented by the "filter" variable) on input. Both functions do the same thing but are called below on the separate pages.
+		function reportDisplay() {
+			table = document.getElementById("datametricstable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				tdMetric = tr[i].getElementsByTagName("td")[0];
+				tdDashboard = tr[i].getElementsByTagName("td")[4];
+				if (tdMetric || tdDashboard) {
+					if (tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 || tdDashboard.innerHTML.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+						$('td').highlight(filter.toString(), {
+							className: 'metricHighlight'
+						});
+					} else {
+						tr[i].style.display = "none";
+					}
+				}
+			}
+		};
+		function metricsDisplay() {
+			//if this is the API metrics page
+			table = document.getElementById("apimetricstable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				tdMetric = tr[i].getElementsByTagName("td")[0];
+				tdApi = tr[i].getElementsByTagName("td")[2];
+				if (tdMetric || tdApi) {
+					if (tdMetric.innerHTML.toUpperCase().indexOf(filter) > -1 || tdApi.innerHTML.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+						$('td').highlight(filter.toString(), {
+							className: 'metricHighlight'
+						});
+					} else {
+						tr[i].style.display = "none";
+					}
+				}
+			}
+		};
+		$(input).on('input', function () {
+			//get rid of previous highligthing before we highlight anything new
+			$('td').unhighlight({
+				className: 'metricHighlight'
+			});
+			filter = input.value.toUpperCase();
+			//if this is the report builder page
+			if ($(".metricstable").is("#datametricstable")) {
+				//timeout is important because the table is so large and if it tries to load in parallel to the function, it stalls.
+				setTimeout(reportDisplay, 300);
+			} else {
+				metricsDisplay();
+			}
+		});
+	};
+};
+
+
+//very similar to the search function above, just for the capabilities comparison table
+function capabilitiesSearch() {
+	var $title = $('.h1').text();
+		// Declare variables
+		var input, filter, table, tr, categorytr, td, capabilityName, i;
+		input = document.getElementById("capabilitiesSearch");
+		table = document.getElementById("featurestable");
+		tr = table.getElementsByTagName("tr");
+		td = document.getElementsByTagName("td");
+
+			$('input').on('input', function () {
+			console.log("typing");
+			filter = input.value.toUpperCase();
+			$('td').unhighlight({
+				className: 'metricHighlight'
+			});
+			for (i = 0; i < tr.length; i++) {
+				capabilityName = tr[i].getElementsByTagName("td")[0];
+				if (capabilityName) {
+					if (capabilityName.innerHTML.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+						$(capabilityName).highlight(filter.toString(), {
+							className: 'metricHighlight'
+						});
+					} else {
+						tr[i].style.display = "none";
+					};
+				};
+				//if the tr being looped over is one of the blue categoryrows
+				if ($(tr[i]).hasClass("categoryrow")) {
+					//hide it always
+						$(tr[i]).css("display", "none");
+						//except when user has deleted the input
+					if (input.value == "") {
+						$(tr[i]).css("display", "table-row");
+					};
+				};
+			};
+		});
+};
+
+function searchHighlight() {
+	//grab the filter element from local storage. We define this element in the inline script on the default page.
+	var toHighlight = localStorage.getItem('filter');
+	//if the element has been created
+	if (toHighlight) {
+		//find its content within the page and apply the highlight class
+		$('#defaultcontent').highlight(toHighlight, {
+			className: 'searchHighlight'
+		});
+	};
+	//set the filter element to empty so that filtering doesn't "carry over" to future navigation
+	localStorage.setItem('filter', '');
 }
 
 //on scroll
