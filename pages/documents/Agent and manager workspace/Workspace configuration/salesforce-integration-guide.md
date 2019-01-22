@@ -110,8 +110,8 @@ This section sets out the Salesforce objects for which we would like the widget 
 {:start="6"}
 
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
-   a. Select which objects the relevant Skill can work with in the SFDC widget.
-   b. Select the default widget screen: either a Search Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
+	a. Select which objects the relevant Skill can work 	with in the SFDC widget.
+    b. Select the default widget screen: either a Search 	Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
 
    **Note**: As a best practice, we recommend to use the search option, since that allows the agent to 	verify if the record he’s about to create already exists before creating it.
 
