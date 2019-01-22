@@ -604,18 +604,23 @@ These are just a few examples meant to demonstrate how to write these “address
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
 
 **Q:** I don’t see any Skills in my “Available Skills” list. Why?
+
 **A:** Verify you created Skills on your LiveEngage Account. If you’re sure you have Skills available but don’t see them, turn to your LivePerson Support or Account Manager to make sure your LiveEngage Account is on AC Users.
 
 **Q:** Why don’t I see any of my Salesforce Custom Objects on the “Available Objects” list?
+
 **A:** For a Custom Object to appear in the list, you need to first create a lookup field connecting it to the Chat Transcript object (see Object Settings section).
 
 **Q:** Why can’t I find the field I’m looking for when creating a new field mapping for an object?
+
 **A:** Some field names might appear differently on this list than on Salesforce (for example, Account Name or Contact Name on the Case object, might appear as Account ID or Contact ID, respectively, as well as other lookup fields). There are special fields on Salesforce that Salesforce does not expose outside their standard pages due to complex functionality on them. For example: Campaign field on the Lead object will not be available.
 
 **Q:** I used the widget’s search, chose an Account / Contact and clicked on the Case / Opportunity icon next to it, but after saving the Opportunity / Case I created isn’t linked to them in Salesforce. Why?
+
 **A:** Please verify that the Case / Opportunity settings has the Account and Contact lookup fields included in the field mapping. If you have more than one lookup field to Account / Contact on the object, make sure you include the standard one from Salesforce (they are called “Account ID” and “Contact ID” on the field mapping list).
 
 **Q:** Why does the sync process doesn’t happen on the exact hour I chose for it, but slightly after?
+
 **A:** The daily sync process will happen in an offset of minutes, but within the hour, of the time you chose for it, which might change between different orgs. The periodic sync will happen every 3 hours, but at an offset as well.
 
 ### **Known issues**
