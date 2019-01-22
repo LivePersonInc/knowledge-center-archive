@@ -26,6 +26,14 @@ p {
   margin-bottom: 10px;
 }
 
+#post-content ol ol {
+  list-style-type: lower-latin;
+}
+
+#post-content ol ol ol {
+  list-style-type: lower-roman;
+}
+
 #post-content table {
   width: 100%;
   max-width: 130%;
