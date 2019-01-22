@@ -7,7 +7,7 @@ subtitle: ''
 level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
-date: 2019-01-22 10:24:13 +0200
+date: 2019-01-22 08:24:13 +0000
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the LiveEngage 2.0 Platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -113,16 +113,15 @@ This section sets out the Salesforce objects for which we would like the widget 
 {:start="6"}
 
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
-   a. Select which objects the relevant Skill can work with in the SFDC widget.
-   b. Select the default widget screen: either a Search Type or New Record page.
+   a. Select which objects the relevant Skill can work with in the SFDC widget. 
 
-   The default and recommended option is “**People Search**” – the “People Search” shows the agent all 	the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient Tree 		format.
+   b. Select the default widget screen: either a Search Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
 
-   **Note**: As a best practices, we recommend to use the search option, since that allows the agent to 	verify if the record he’s about to create already exists before creating it.
+   **Note**: As a best practice, we recommend to use the search option, since that allows the agent to 	verify if the record he’s about to create already exists before creating it.
 
-   If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
+   c. If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
 
-If you are using the Salesforce Service Console, select “Use Service Console”. By selecting this, when you click on the “SF Full View” option within the widget, the Service Console will open with the record’s tab. Otherwise, the standard SF Classic view will open in a new browser tab for each record.
+If you are using the Salesforce Service Console, select “Use Service Console." By selecting this, when you click on the “SF Full View” option within the widget, the Service Console will open with the record’s tab. Otherwise, the standard SF Classic view will open in a new browser tab for each record.
 
 ## **Chat transcript settings**
 
@@ -130,18 +129,16 @@ The SFDC package supplied by LivePerson includes an object named “Chat Transcr
 
 1. From the “Customization Settings” tab, scroll down to the Chat Transcript Settings section of your page
 2. Select from one of the following values in the “Chat Transcript Save Mode” picklist:
-
-* **_Field –_** will insert the full transcript of the chat/messaging conversation into the ‘Transcript’ field on the chat transcript record.
-* **_Attachment –_** will insert the full transcript of the chat/messaging conversation as a related File Attachment on the chat transcript record.
-* **_Field and Attachment –_** this will save the transcript by both the above methods to the chat transcript record.
-
-1. Click on “Configure field mapping” under ‘Advanced Settings’ to determine the values saved into the chat transcript record. Note the following instructions:
+   * **_Field –_** will insert the full transcript of the chat/messaging conversation into the ‘Transcript’ field on the chat transcript record.
+   * **_Attachment –_** will insert the full transcript of the chat/messaging conversation as a related File Attachment on the chat transcript record.
+   * **_Field and Attachment –_** this will save the transcript by both the above methods to the chat transcript record.
+3. Click on “Configure field mapping” under ‘Advanced Settings’ to determine the values saved into the chat transcript record. Note the following instructions:
 
 * Custom fields need to be added to the Chat Transcript object for them to show up in this list.
 
-Please **map only to those new custom fields you created**, choosing any other previously existing field will not work and might cause errors in both the widget and sync process.
+	Please **map only to those new custom fields you created**, choosing any other previously existing 		field will not work and might cause errors in both the widget and sync process.
 
-* Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as well, however different field types might cause errors.
+* Custom fields created on the Chat Transcript object for mapping purposes, have to be of type “Text” 	and with maximum length of 255. Other text-type fields (Long Text, Rich Text, etc) should work as 	well, however different field types might cause errors.
 
 ## **Enabled object settings**
 
