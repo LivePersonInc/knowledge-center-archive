@@ -249,9 +249,9 @@ To ensure account level KPIs are not deviated from by system activity, the follo
 
 * It is recommended to keep automatic messages short for better readability
 * When messaging on channels such as SMS, Google and Facebook, LivePerson cannot control the look and feel of the messages, and auto messages will appear as agent messages. There are 2 options to solve this:
-  * Create a dedicated skill for these channels and add a prefix for these messages such as “This is an automatic message:”
+ * Create a dedicated skill for these channels and add a prefix for these messages such as “This is an automatic message:”
   * Add wording to the message that will make it clear (e.g. “Info: <auto message>”)
-* Do not use HTML, and line breaks (clicking enter) in auto messages.
+  * Do not use HTML, and line breaks (clicking enter) in auto messages.
 * Messages with overdue times to response (TTRs) are not sent. Hence, it is recommended not to use the TTR macro in the following messages which may trigger when the TTR is overdue:
   * Connection to an agent
   * Transfer
@@ -307,7 +307,8 @@ The _Agent non responsive_ message will be triggered in one of these 2 scenarios
 
 The _Agent non responsive_ message will be sent only if the conversation is assigned to an agent and is not sent during off-hours.
 
-NOTE: The minimum available time frame is 15 seconds.
+{: .notice}
+The minimum available time frame is 15 seconds.
 
 #### Example Scenarios
 
@@ -407,7 +408,8 @@ _Timer set for 15 minutes_
 * This auto message will trigger if the conversation is currently assigned to an agent.
 * Timer does not reset upon transfer.
 
-NOTE: The minimum available time frame is 15 seconds. 
+{: .notice}
+The minimum available time frame is 15 seconds. 
 
 #### Example Scenarios
 
