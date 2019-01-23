@@ -120,6 +120,11 @@ fields:
   label: Video Tutorial
   description: Does this document have a video tutorial?
   default: false
+- type: boolean
+  name: isNew
+  label: New Feature
+  description: Is this a new feature? If on, the featured will be displayed on the
+    homepage
 pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
