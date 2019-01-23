@@ -9,7 +9,6 @@ permalink: best-practices-for-messaging-agents.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 17:06:03 +0200
-published: false
 
 ---
 ## Common questions and LivePerson’s recommendations
