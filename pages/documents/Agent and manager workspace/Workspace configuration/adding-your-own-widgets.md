@@ -29,12 +29,8 @@ The account admin can organize widgets through night vision, including hiding co
 
 ### **To reorder widgets:**
 
-1. From the visitors page, click on the Night Vision icon.
-
-![](/img/Screen Shot 2017-09-11 at 3.04.25 PM.png)
-
-{:start="2"}
-1. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**.
+1. From the visitors page, click on the Night Vision icon.![](/img/Screen Shot 2017-09-11 at 3.04.25 PM.png)
+2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**.
 
 ![](/img/add your own widgets 1.png)
 
