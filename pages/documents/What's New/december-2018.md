@@ -10,7 +10,6 @@ permalink: whats-new-december-2018.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 16:53:53 +0200
-published: false
 
 ---
 [https://vimeo.com/305921583/2a85f96937](https://vimeo.com/305921583/2a85f96937 "https://vimeo.com/305921583/2a85f96937")
