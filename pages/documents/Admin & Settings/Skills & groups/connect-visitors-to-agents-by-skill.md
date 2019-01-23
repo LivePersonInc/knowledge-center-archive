@@ -18,9 +18,9 @@ Start by creating skills according to your business needs. Then assign skills to
 
 ### **Creating skills**
 
-Agent skills are created in the user management area.
-
 ![](/img/connectvis1.png)
+
+Agent skills are created in the user management area.
 
 **To create a skill:**
 
