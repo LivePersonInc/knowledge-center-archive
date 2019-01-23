@@ -15,13 +15,13 @@ published: false
 ---
 Agents often need to access external systems while they are working in the agent workspace, and to do so, they need to open additional tabs or browsers. Now, you can integrate external systems right into the agent workspace, allotting them their own widget next to the standard widgets. Widgets can be set to appear alongside chats associated with a particular skill or skills - agents handling chats assigned only to that skill will be able to view the widget.
 
-To ensure your Agents are focused on the tools most relevant for them, Admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to Agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all Agents handling any chat.
+To ensure your agents are focused on the tools most relevant for them, admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all agents handling any chat.
 
 To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) on the Developer Community. 
 
 ## Organize your widgets to boost agent efficiency
 
-Placing widgets in the right order within the Agent Workspace means you can ensure the most useful widgets are the most easily accessible for agents.
+Placing widgets in the right order within the agent workspace means you can ensure the most useful widgets are the most easily accessible for agents.
 
 Since every contact center is different, widget reordering allows brands to fully customize the order of the widgets on an account level, for both chat and messaging operations.
 
