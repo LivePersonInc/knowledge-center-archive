@@ -31,7 +31,7 @@ Today, customer care is quickly becoming the way brands want to differentiate th
 
 ### Meet consumers needs through the entire journey
 
-From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upsalel and customer care, conversational commerce is crucial throughout the customer journey.
+From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upsale and customer care, conversational commerce is crucial throughout the customer journey.
 
 LivePerson’s conversational commerce platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows **consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities**.
 
@@ -49,7 +49,7 @@ Most contact centers today are only equipped for chat-like interactions that are
 
 ![](/img/lp-cc-3.png)
 
-## How LivePerson’s conversational commerce platform works
+## How LivePerson’s conversational platform works
 
 Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
 
@@ -59,23 +59,31 @@ The crux of the LivePerson platform begins with the consumer endpoints on the fa
 
 These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered conversational commerce platform consists of:
 
-## 1. Conversation Builder - the bot building interface
+## 1. Conversation Builder
+
+### The bot building interface
 
 The Conversation Builder is an easy-to-use bot building interface that is not code based, so both technical and non-technical staff - often the people who understand the brand’s voice the most - can easily build bots. With Conversation Builder, contact center agents and other non-technical staff — the people who best understand a brand’s voice — are able to create, optimize, and improve automated conversational flows. This allows brands to quickly design smart and effective bots that leave users with a productive and pleasurable experience rather than a frustrating one.
 
 Liveperson’s Conversation Builder allows brands to design conversational bots to handle a wide variety of use cases. This includes identifying intent - the users desire to change something from state A to state B - like change a plan type, upgrade a product, pay a bill, learn about a store’s inventory for a certain product set, and more. Prebuilt industry templates are also available, providing the dialogue and integrations necessary for common use cases such as billing.
 
-## 2. Conversation Manager - a set of agent tools to manage conversations at scale
+## 2. Conversation Manager
+
+### A set of agent tools to manage conversations at scale
 
 Offering a agent and manager workspace for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. Smart Capacity, Meaningful Connection Score (MCS), queue prioritization, and other proprietary LivePerson, along with world-class routing, metrics and KPIs gives brands the power to manage messaging conversations at scale.
 
 The Conversation Manager enables brands to connect to popular messaging services and voice assistants, along with a brand's own apps, website, and phone systems. It also integrates the myriad backend systems necessary to fulfill customer intentions, like order status updates or reservation changes.
 
-## 3. Conversation Intelligence **-** real-time intent detection, analytics and reporting
+## 3. Conversation Intelligence
+
+### Real-time intent detection, analytics and reporting
 
 Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
 
-## 4. Maven - the underlying AI engine
+## 4. Maven
+
+### The underlying AI engine
 
 Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. The Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
 
