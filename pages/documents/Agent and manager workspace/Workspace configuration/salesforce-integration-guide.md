@@ -8,11 +8,7 @@ level3: ''
 permalink: salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-<<<<<<< HEAD
 published: true
-=======
-
->>>>>>> 3c589247e10cc27228d6f90d1b64b5fddf2ab568
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
 
@@ -318,13 +314,13 @@ https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 
 Below is an overview of the widget capabilities, in this section, we will cover the following topics:
 
-* Introducing the Salesforce widget 
-* Creating an account 
-* Creating a contact from 
-* Creating a lead 
-* Creating an opportunity 
-* Creating a case 
-* Creating a Custom Object record 
+* Introducing the Salesforce widget
+* Creating an account
+* Creating a contact from
+* Creating a lead
+* Creating an opportunity
+* Creating a case
+* Creating a Custom Object record
 
 ### **Introducing the LiveEngage SFDC widget**
 
