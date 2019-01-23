@@ -36,29 +36,28 @@ The account admin can organize widgets through night vision, including hiding co
 
 ![](/img/add your own widgets 2.png)
 
+{:start="3"}
 1. To reorder the widgets, click **Organize**.
 2. In the Organize widgets configuration screen, you can use the arrows to move the widgets up or down in the order they will appear. There is also an option to move the widget straight to the top.
 
 ![](/img/add your own widgets 3.png)
 
+{:start="5"}
 1. Select the desired width of the new widget; single (the same width as the default widgets), double, triple, or quadruple, so your widget is compatible to the external webpage that you want to display.
-2. 
-   1. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
+2. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
 3. Enter the URL of the webpage or external application that you wish to display within the widget.
 
 ![](/img/add your own widgets 7.png)
 
-
-<div class="notice"> 
-<b>Notes:</b> 
-<ul> 
+<div class="notice">
+<b>Notes:</b>
+<ul>
 <li>The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.</li>
-<li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li> 
-<li>Any reordering is saved at the account level and is not a site setting.</li> 
-<li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li> 
+<li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li>
+<li>Any reordering is saved at the account level and is not a site setting.</li>
+<li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li>
 </ul>
 </div>
-
 
 ## Widget integration framework
 
@@ -68,30 +67,27 @@ The integration of the Engagement Window Widget SDK and Agent Workspace Widget S
 * Faster responses through collaborative conversations between agent and consumer
 * Flexible integrations with a variety of engagement tools
 
-![Widget Integration Framework SDK v3.jpg](https://lh5.googleusercontent.com/1e6w3Tpqml4BDwixR6wAer9PzB4Ec9rPj3otc5XE5sxHazTLempJz-HrIIaLXWmz4CkwtDe8bIjVS-uXDEq0vELBv9Ts_jK0usZwdldCI1DUCGrLAUvB44OHJ5tgwic9r18ty8Fb =388x210)
+![](/img/add your own widgets 5.jpg)
 
 Agents can share a variety of interactive content in the Agent window, such as images, links and forms. This content will immediately be displayed in the consumer’s engagement window, enhancing their conversation experience and their connection with the Agent.
 
-![Engagement window widget SDK v3.jpg](https://lh3.googleusercontent.com/W20ksCa8NwIZVB4Sj9cgNxn8bkOBLDGIEgHkAGAeHUIHS_Kpft3vGy_jVkNVMX5tiAy0K51e0zv_-RzDERUWYDRU-OEaHL2COOfaIG6AE8g_9PrN14XmnkEjPHh3a_ucsNWKifVn =388x226)
+![](/img/add your own widgets 6.jpg)
 
 In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service.
 
 Moreover, the flexibility of this framework opens the door for integrations with other engagement tools, such as live video connection.
 
-## 
-
 ## Why Don’t I See My Customized Widget?
 
-For a successful integration, please note the following:
+**For a successful integration, please note the following:**
 
 * The application must be able to open within an iFrame: Some applications prevent themselves from opening within an iFrame (these are known as ‘Frame Busters’). If you try to integrate such an application within an Agent Workspace widget, you will get a blank widget, or an error message in the widget (depending on your browser).
 * **Internet Explorer support**: Custom widgets are supported on Internet Explorer 10 and higher only.
 * **The application must be hosted over SSL**: **S**ecure **S**ockets **L**ayer is a protocol that provides network security and privacy. SSL uses trusted certificates to perform client and server authentication. This means your application must be hosted on a valid SSL certificate site and, as part of the application, the URL must begin with **https**.
 * **Automatic focus management may be problematic**: Applications with focus stealing can cause issues in the user interface of the Agent Workspace.
 
-**Note**: To integrate with your **Salesforce** application, open a ticket to Salesforce support and request the removal of the X-Frame option from your organization’s Salesforce pages. This will allow you to open Salesforce in the widget. Agents must log into Salesforce in a separate browser tab (or through SSO) prior to accepting chats.
-
-Make sure that the application that you are trying to integrate meets the above requirements and try again.
+{: .notice}
+**Note**: To integrate with your **Salesforce** application, open a ticket to Salesforce support and request the removal of the X-Frame option from your organization’s Salesforce pages. This will allow you to open Salesforce in the widget. Agents must log into Salesforce in a separate browser tab (or through SSO) prior to accepting chats. Make sure that the application that you are trying to integrate meets the above requirements and try again.
 
 ## Widget notifications
 
