@@ -57,15 +57,6 @@ The account admin can organize widgets through night vision, including hiding co
 </div>
 
 
-
-
-**Notes:**
-
-* The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.
-* For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.
-* Any reordering is saved at the account level and is not a site setting.
-* New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.
-
 ## Widget integration framework
 
 The integration of the Engagement Window Widget SDK and Agent Workspace Widget SDK allows rich media to be easily and instantly shared between the consumer and the agent. Using unique session IDs, an external platform facilitates a direct connection between the two SDKs, providing a seamless widget integration framework.
