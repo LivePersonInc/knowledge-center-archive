@@ -3,13 +3,13 @@ pagename: Automatic messages configuration guide
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
-subtitle: Provide contextual information to consumers about the conversation
+subtitle: Provide contextual information to consumers about the conversation during
+  a chat
 level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-messages-configuration-guide
 isTutorial: false
 isNew: false
 date: 2019-01-23 14:22:36 +0200
-published: false
 
 ---
 Automatic messages are messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. For example:
