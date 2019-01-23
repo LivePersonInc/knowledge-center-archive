@@ -25,12 +25,12 @@ Placing widgets in the right order within the agent workspace means you can ensu
 
 Since every contact center is different, widget reordering allows brands to fully customize the order of the widgets on an account level, for both chat and messaging operations.
 
-The account Admin can organize widgets through Night Vision, including hiding core and custom widgets.
+The account admin can organize widgets through night vision, including hiding core and custom widgets.
 
-**To reorder widgets:**
+### **To reorder widgets:**
 
 1. From the visitors page, click on the Night Vision ![](https://lh3.googleusercontent.com/tWNpW9-kiDffEwtrtEFi3VZVAvwrVmfx43HHmTa34uzqGj3j3yVoM464ZOZJ7xQoJ0wS7L8qO6bdUKztYmqZVHPfEGnDRN2F7QwyRIdqxe4SvK8ilAtcfTu9OQglxxYmtTRXX10k =40x34) icon.
-2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the Workspace, by clicking **Hide**. 
+2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**. 
 
 ![](https://lh6.googleusercontent.com/IHtPy83gMRxBLcD2sNKzZNtY1aQ_7K8oaS7mN4F-ETc-HXo1BEDZn9mAanB5Hr-x5WkOitdWNa1lEb-QFJcyk1MkPQ6gZ4M1Jv1tntbkt9ESw-6M8m0mP07FV9ZWhRAXYHeZLJFq =431x241)
 
