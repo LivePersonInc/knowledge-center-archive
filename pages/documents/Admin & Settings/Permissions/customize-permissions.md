@@ -41,7 +41,7 @@ To further empower agent managers, there will be an additional option to grant t
 * Create /edit agent and agent manager’s profiles
 * Create /edit skills
 
-{: .notice}   
+{: .notice}  
 Profiles and users can only be configured by admins and agent managers with special permissions.
 
 **To create or customize a profile:**
@@ -57,7 +57,7 @@ Profiles and users can only be configured by admins and agent managers with spec
 
 **To create a user and assign a profile:**
 
-1\. On the **esers** list, click **add user** at the bottom of the page.
+1\. On the **users** list, click **add user** at the bottom of the page.
 
 2\. Type in the user’s details.
 
@@ -86,8 +86,9 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 ## **Definitions, permission and default states**
 
-*  A **role** defines the scope of the user’s work. Each **role** encompasses a _unique_ set of permissions. **Roles** cannot be created or edited.
-* A **profile** is a set of **permissions**, derived from a LiveEngage role. **Profiles** can be created and edited.
+A **role** defines the scope of the user’s work. Each **role** encompasses a _unique_ set of permissions. **Roles** cannot be created or edited.
+
+A **profile** is a set of **permissions**, derived from a LiveEngage role. **Profiles** can be created and edited.
 
 The tables below list the permissions that can be configured per role, along with their definitions and default state.
 
@@ -99,8 +100,8 @@ The following core permissions are included with the agent role and cannot be di
 * Ability to accept any chat or conversation request, within the Agent’s maximum concurrency limit
 * View information about their individual performance
 
-| --- | --- | --- |
 | Agent permissions | Permission definition | Default State (role) |
+| --- | --- | --- |
 | Join Agents' conversations | Join a conversation handled by another Agent within their Group | Off |
 | View Agents' conversations | View conversations handled by other Agents within their Group | Off |
 | View Agent List | View full list of Agents within their Group | Off |
@@ -119,7 +120,7 @@ The following core permissions are included with the agent role and cannot be di
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Update consumer profile via API | Enables agent to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-###  **Role: Agent Manager**
+### **Role: Agent Manager**
 
 The following core permissions are included with the Agent Manager role and cannot be disabled:
 
@@ -136,13 +137,13 @@ The following core permissions are included with the Agent Manager role and cann
 | View Agent List | View full list of Agents within their Group | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
 | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
-| Edit Agent users | Create, edit or delete users with an Agent role within their Group(s) or Sub-group(s)  | Off |
+| Edit Agent users | Create, edit or delete users with an Agent role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent Manager users | Create, edit or delete users with an Agent Manager role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent profile | Create, edit or delete Agent role profiles | Off |
 | Edit Agent Manager profile | Create, edit or delete Agent Manager role profiles | Off |
 | Agent Groups administration | Create, edit, restructure or delete their Agent Groups or Sub-groups | Off |
 | Edit Skills | Create, edit or delete Skills | Off |
-| Export users | Export the list of Agent or Agent Manager users in their groups or sub-groups; this will also export the list of skills, profiles and the groups and sub-groups managed by the Agent Managers   | Off |
+| Export users | Export the list of Agent or Agent Manager users in their groups or sub-groups; this will also export the list of skills, profiles and the groups and sub-groups managed by the Agent Managers | Off |
 | Set manual SLA | Allows agent managers to manually configure the response time in a conversation | On |
 | View reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows viewing of all reports | Off |
 | Customize reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows agent managers to customize reports | Off |
@@ -155,7 +156,7 @@ The following core permissions are included with the Agent Manager role and cann
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an agent manager to configure the shift status | On |
 | Update consumer profile via API | Enables agent manager to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-###  **Role: Campaign Manager**
+### **Role: Campaign Manager**
 
 The following core permissions are included with the Campaign Manager role and cannot be disabled:
 
@@ -201,11 +202,10 @@ The following core permissions are included with the Admin role and cannot be di
 * Ability to configure monitored domains
 * View the LiveEngage tag page
 
- 
 | Admin permissions | Permission definitions | Default State (role) |
 | --- | --- | --- |
 | User administration | Create, edit and delete users and configure their assignments | On |
-| Profile administration | Create, edit and delete profiles (including customizing permissions)  | On |
+| Profile administration | Create, edit and delete profiles (including customizing permissions) | On |
 | Skill administration | Create, edit and delete Skills | On |
 | Agent Groups administration | Create, edit, restructure or delete Agent Groups | On |
 | API key administration | For brands who have enabled the API key management feature, this permission allows Administrators to create, manage and integrate API keys | On |
