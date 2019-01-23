@@ -12,9 +12,7 @@ date: 2019-01-23 14:20:28 +0200
 published: false
 
 ---
-![](https://lh4.googleusercontent.com/bzSODSj5Ye430TigXE12-FJSJ7bxrgUorT0MDeVBx119aM2VdrEfIH4I3Vm6Hr6lIdvtdpbLR01PUpCOLmMJM8AKrGBZJT8yfnH7qDqjzFmwpEiwEQ142ttBRyIVyeWsVQyW3vN1 =351x221)
-
-At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
+![](https://lh4.googleusercontent.com/bzSODSj5Ye430TigXE12-FJSJ7bxrgUorT0MDeVBx119aM2VdrEfIH4I3Vm6Hr6lIdvtdpbLR01PUpCOLmMJM8AKrGBZJT8yfnH7qDqjzFmwpEiwEQ142ttBRyIVyeWsVQyW3vN1 =351x221)At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
 
 To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four LiveEngage roles:
 
@@ -107,7 +105,7 @@ The following core permissions are included with the agent role and cannot be di
 | View Agents' conversations | View conversations handled by other Agents within their Group | Off |
 | View Agent List | View full list of Agents within their Group | Off |
 | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
-| Initiate CoBrowse view-only session, with scroll control | Invite consumer to join a CoBrowse session, with the ability to view their screen with scroll control  | On |
+| Initiate CoBrowse view-only session, with scroll control | Invite consumer to join a CoBrowse session, with the ability to view their screen with scroll control | On |
 | Initiate CoBrowse view-only session | Invite consumer to join a CoBrowse session, with the ability to view their screen | On |
 | Initiate CoBrowse shared control session | Invite consumer to join a CoBrowse session, with the ability to control actions on their screen | On |
 | Initiate voice conversation | Invite consumer to join a voice conversation | On |
@@ -115,7 +113,7 @@ The following core permissions are included with the agent role and cannot be di
 | Handle messaging conversations | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations | On |
 | Handle messaging conversations and access All Connections List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
 | Set manual SLA | Allows agents to manually configure the response time in a conversation | On |
-| View Connection Area | View relevant content from the Connection Area per journey  | On |
+| View Connection Area | View relevant content from the Connection Area per journey | On |
 | Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
 | View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
