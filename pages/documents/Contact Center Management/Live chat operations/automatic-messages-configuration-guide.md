@@ -6,7 +6,7 @@ indicator: chat
 subtitle: Provide contextual information to consumers about the conversation during
   a chat
 level3: ''
-permalink: contact-center-management-live-chat-operations-automatic-messages-configuration-guide
+permalink: contact-center-management-live-chat-operations-automatic-messages-configuration-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 14:22:36 +0200
