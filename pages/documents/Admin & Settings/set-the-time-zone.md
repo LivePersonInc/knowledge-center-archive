@@ -10,7 +10,6 @@ permalink: admin-settings-set-the-time-zone.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:35:56 +0200
-published: false
 
 ---
 Time zone settings play a key role in the accurate compilation and generation of LivePerson reports. This article sets out everything you need to know about properly setting your time zone,  as well as which reports are affected by the time zone settings.
