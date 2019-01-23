@@ -78,7 +78,7 @@ Default survey data is reported on the relevant skill (after the change). The su
 
 Users are assigned skills by selecting a skill that you have already created, or typing the name of a new skill, and assigning it to a particular user.
 
-### **To assign a skill to a user:**
+**To assign a skill to a user:**
 
 1. In the users list, click the user’s name.
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
