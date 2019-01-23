@@ -16,7 +16,7 @@ For brands, understanding how agents are spending their time is vital for keepin
 
 By seeing how long agents are spending in these more specific modes, such as ‘out to lunch’, ‘in training’ and ‘team meeting’, brands are better able to understand how agents are spending their time. Multiple agent states are available for both chat and messaging.
 
-\*Please ask your LivePerson account team to enable multiple away states for your account.
+**Please ask your LivePerson account team to enable multiple away states for your account.**
 
 ## To create custom away state reasons:
 
@@ -27,22 +27,25 @@ By seeing how long agents are spending in these more specific modes, such as ‘
 
 ![](/img/multi away state 2.png)
 
+{:start="3"}
 1. Next to _Custom Away state reasons_, click **Edit**.
 2. Click on _Add custom Away state reason_.
 
 ![](/img/multi away state 3.png)
 
+{:start="5"}
 1. Enter the text of the away state reason you wish to add, for example ‘Out to lunch’, or ‘In a meeting’.
 
 ![](/img/multi away state 4.png)
 
+{:start="6"}
 1. Click **Save**.
 2. All customized away state reasons will subsequently appear in the configuration menu. You can edit or delete each reason by clicking on the edit or delete icons that appear on hover over.
 3. Click **Done**.
 
 ![](/img/multi away state 5.png)
 
-<div class="important"> 
+<div class="notice"> 
 <b>Note:</b> 
 <ul> 
 <li>You can define up to 10 custom away state reasons.</li> 
@@ -61,15 +64,19 @@ Once new away state reasons have been added, the agent will be able to select fr
 
 ![](/img/multi away state 6.png)
 
-**Note:**
-
-* The default state, “Away (default)”, appears at the bottom of the list.
-* The selected away state will be indicated with a tooltip in the top bar.
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>The default state, “Away (default)”, appears at the bottom of the list.</li> 
+<li>The selected away state will be indicated with a tooltip in the top bar.</li>
+</ul> 
+</div>
 
 ## **The Agent & Messaging Agent Lists**
 
 For brands that have configured additional away state reasons, the _State Duration_ column in both the Agent List and Messaging Agent List will now indicate the time elapsed since the agent set their current away state.
 
+{: .important}
 **Note:** There is no change in the way state duration is indicated for the Online and Back soon states.
 
 ## **Reporting**
@@ -82,8 +89,6 @@ LiveEngage Report Builder provides visibility into the away reasons used by agen
 
 The pie chart titled “Away” reflects the total time spent by agents in the away state, segregated by the time spent in each away Reason.
 
-Notes:
-
 1. Time logged to the away state before it was possible to add multiple away reasons will be represented by an empty slice in the pie chart (AWAY REASON: “ ”).
 2. When combined, the time spent in each custom away state is equal to the total time spent in the away state.
 3. The pie chart reflects the same filters currently applied to the dashboard. For example, data can be viewed by \[AGENT\] or \[GROUP\].
@@ -94,6 +99,7 @@ Additional available agent activity metrics can be filtered by each away state r
 
 The pie chart titled “Away” has also been added to the Messaging Performance Predefined Dashboard and displays the same data as the Agent Activity Dashboard.
 
-Note: Currently, agent messaging activity metrics cannot be filtered by away states, however they can be viewed alongside the time spent in each away reason, per agent, at the hourly level.
+{: .important}
+**Note:** Currently, agent messaging activity metrics cannot be filtered by away states, however they can be viewed alongside the time spent in each away reason, per agent, at the hourly level.
 
 To create a new visualization (either a graph or grid) for data from either dashboard, please contact your administrator or Liveperson Customer Success Manager who will be able to create one upon request.
