@@ -1060,12 +1060,10 @@ h3 {
     display: none;
     grid-column: unset;
     position: absolute;
-    top: 120px;
     width: 100%;
   }
 
   #mysidebar {
-    top: 120px;
     padding-top: 20px;
   }
 
