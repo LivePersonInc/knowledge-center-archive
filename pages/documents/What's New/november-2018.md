@@ -10,7 +10,6 @@ permalink: whats-new-november-2018
 isTutorial: true
 isNew: false
 date: 2019-01-23 17:08:51 +0200
-published: false
 
 ---
 ## Post Conversation Survey bot
