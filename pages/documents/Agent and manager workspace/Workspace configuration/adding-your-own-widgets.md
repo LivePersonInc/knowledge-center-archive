@@ -39,14 +39,26 @@ The account admin can organize widgets through night vision, including hiding co
 1. To reorder the widgets, click **Organize**.
 2. In the Organize widgets configuration screen, you can use the arrows to move the widgets up or down in the order they will appear. There is also an option to move the widget straight to the top.
 
-![](https://lh4.googleusercontent.com/_akLWJ13e2CMjXBslUBNHuZDiW7oF1zIHkLuGUQd2sxRMcjN-wIDF3-PNwM9HfXxGWnfkrCvDoc8uW9Lv8xwELKf_XqXGApjjaL3rQCdjQPt6-qipm_0e5DlgNbsrqkq_OWTe0Zn =283x349)
+![](/img/add your own widgets 3.png)
 
 1. Select the desired width of the new widget; single (the same width as the default widgets), double, triple, or quadruple, so your widget is compatible to the external webpage that you want to display.
 2. 
    1. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
 3. Enter the URL of the webpage or external application that you wish to display within the widget.
 
-**![Widget per skill - upd.png](https://lh3.googleusercontent.com/Q5SDm69GE9tVYX3-OgHa5kl0GKSs44qSfdip4ZOfK1ihd0sRSbZeSK9NZySR-F3SzmRI_GmhIsME7z3vCMMhGDLKG5UP4w7GH01gsrRNapoLSBPDRpJReZnWhw8nlh6ydFKCZXyj =434x546)**
+![](/img/add your own widgets 7.png)
+
+
+<div class="notice"> 
+<b>Notes:</b> 
+<ul> 
+<li>The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.</li> <li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li> <li>Any reordering is saved at the account level and is not a site setting.</li> <li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li> <li>
+
+</ul> 
+</div>
+
+
+
 
 **Notes:**
 
