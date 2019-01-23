@@ -14,7 +14,7 @@ published: false
 ---
 For brands, understanding how agents are spending their time is vital for keeping track of performance and staff management. In addition to the three statuses currently available for agents - online, back soon and away - brands are also able to customize and add their own ‘away’ statuses.
 
-By seeing how long agents are spending in these more specific modes, such as ‘out to lunch,’‘in training’ and ‘team meeting,' brands are better able to understand how agents are spending their time. Multiple agent states are available for both chat and messaging.
+By seeing how long agents are spending in these more specific modes, such as out to lunch, in training and team meeting, brands are better able to understand how agents are spending their time. Multiple agent states are available for both chat and messaging.
 
 **Please ask your LivePerson account team to enable multiple away states for your account.**
 
