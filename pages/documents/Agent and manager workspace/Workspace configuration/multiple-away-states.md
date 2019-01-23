@@ -49,7 +49,7 @@ By seeing how long agents are spending in these more specific modes, such as ‘
 <b>Note:</b> 
 <ul> 
 <li>You can define up to 10 custom away state reasons.</li> 
-  <li>You can define up to 10 custom away state reasons.</li> 
+  <li>A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.</li> 
   <li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li> 
 </ul> 
 </div>
