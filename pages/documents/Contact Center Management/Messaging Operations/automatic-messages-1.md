@@ -513,7 +513,7 @@ _Auto close after 2 hours_
 
 The auto messages appear on the agent side as well as part of the conversation transcript, so he can be aware of what messages the consumer can see. They appear inline with a dedicated look and feel. The auto messages also appear in the conversation’s history.
 
-{image 15}
+![](/img/automatic-messages-messaging-15.png)
 
 ## Reporting
 
