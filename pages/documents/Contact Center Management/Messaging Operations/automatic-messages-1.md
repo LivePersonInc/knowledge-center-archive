@@ -12,9 +12,11 @@ date: 2019-01-21 14:49:33 +0200
 ---
 [https://vimeo.com/312480396/7579cfc4e8](https://vimeo.com/312480396/7579cfc4e8 "https://vimeo.com/312480396/7579cfc4e8")
 
+## Introduction
+
 Automatic, or system, messages are predefined messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. Their purpose is to gain the consumer’s trust in the messaging channel, by setting expectations and giving the consumer visibility over the agent’s availability.
 
-{image 1}
+![](/img/automatic-messages-messaging-1.png)
 
 Auto messages are triggered upon specific events that are detected by the system, for example:
 
@@ -28,21 +30,25 @@ When the auto messages are sent, they are displayed to the consumer and the agen
 
 Automatic messages require enablement. Please contact your LivePerson account team to enable this feature.
 
-Note: When auto messages are enabled, they are all enabled by default and all have the default text. It is advised to review them immediately and modify them to suit your brand needs. Customizing automatic messages LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
+**Note**: When auto messages are enabled, they are all enabled by default and all have the default text. It is advised to review them immediately and modify them to suit your brand needs. 
 
-### **To customize an automatic message:**
+## Customizing automatic messages 
 
-1. Click on the Campaigns tab. The footnote is displayed at the bottom of the page.
+LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
 
-{image 2}
+### To customize an automatic message:
+
+1. Click on the **Campaigns tab**. The footnote is displayed at the bottom of the page.
+
+![](/img/automatic-messages-messaging-2.png)
 
 2\. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
-{image 3}
+![](/img/automatic-messages-messaging-3.png)
 
 3\. Select a message to edit. The Edit Automatic Message page is displayed.
 
-{image 4}
+![](/img/automatic-messages-messaging-4.png)
 
 4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
@@ -50,23 +56,23 @@ Note: When auto messages are enabled, they are all enabled by default and all ha
 
 Note: The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
-{image 5}
+![](/img/automatic-messages-messaging-6.png)
 
 ### To translate a message
 
 1\. On the Edit Automatic Messages page, click the “+” button next to the default language (English (US) in the illustration below). The Engagement languages page is displayed.
 
-{image 6}
-
 2\. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 
 3\. Click Save
+
+![](/img/automatic-messages-messaging-7.png)
 
 ### To customize messages for a specific skill
 
 1\. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
 
-{image 7}
+![](/img/automatic-messages-messaging-8.png)
 
 2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
 
@@ -74,7 +80,7 @@ Note: The automatic message library can also be reached from the messaging setti
 
 Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used. 4. Enter the relevant text to the text field. 5. Click Save. Note: you need to save your changes for each skill separately.
 
-### Adding dynamic text to messages
+## Adding dynamic text to messages
 
 Some of the messages can be customized to include dynamic text. Dynamic text changes based on the current characteristics of the Agent, such as the Agent’s name. The available options are:
 
@@ -82,7 +88,7 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 
 **Agent name** - The nickname of the current operator {agentNickname}.
 
-#### To add dynamic text to an automatic message:
+### To add dynamic text to an automatic message:
 
 1. Go to the Edit Automatic Message window.
 2. Place the cursor where you want to add the dynamic field in the sentence.
@@ -90,9 +96,9 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 4. Click Save
 5. Click Done.
 
-{image 8}
+![](/img/automatic-messages-messaging-9.png)
 
-### Adding a time period setting
+## Adding a time period setting
 
 Some of the messages can be customized to be sent to the consumer after a specific time period elapses, for example if the agent or consumer does not respond for a long time.
 
@@ -104,16 +110,16 @@ The following auto messages have a timer before they are sent:
 
 Brands can set a different timer per skill.
 
-#### To add a time period setting to an automatic message
+### To add a time period setting to an automatic message
 
 1. Go to the **Edit Automatic Message** window.
 2. Under the text field, enter the time after which the message should be sent (the time can be configured in seconds, minutes or hours).
 3. Click Save
 4. Click Done.
 
-{image 9}
+![](/img/automatic-messages-messaging-10.png)
 
-### Editing the look and feel of auto messages
+## Editing the look and feel of auto messages
 
 For web messaging, the font and font color can be edited in the window studio in LivePerson. Click the auto message text to open the configuration dialog.
 
@@ -128,9 +134,9 @@ or in-app messaging this can be configured in the SDK. Disabling an automatic me
 
 Note: if you wish to disable the message for some skills but not for others, select the individual skill tab and change the toggle for each skill as required.
 
-{image 11}
+![](/img/automatic-messages-messaging-11.png)
 
-### Notes
+## Notes
 
 * Messages are supported in all LivePerson languages. For further information, please refer to the LiveEngage System Requirements and Supported Languages documentation. For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported (configurable by the brand). Contact the account team to set the language.
 * The content of each message can be edited by the brand.
@@ -152,37 +158,22 @@ The following list sets out the default automatic messages for messaging in Live
 
 The following list sets out the default automatic messages for messaging in LiveEngage. The list includes the message properties, such as when they will be displayed and the supported dynamic text
 
-### **New conversations** 
-
-| --- | --- | --- | --- |
-| Event | Message name in LiveEngage | Default text | Available dynamic text |
-| A consumer opens a conversation during working hours | Welcome message | Thank you for messaging us. An agent should reply within {expectedResponseTime}. | {expectedResponseTime} |
-| A consumer opens a conversation for the first time ever, during working hours | First time welcome message | Welcome! We're excited to offer you messaging, allowing you to reply to us in your own time. An agent should reply within {expectedResponseTime} | {expectedResponseTime} |
-
 ## Off hours
-
-| --- | --- | --- | --- |
-| Event | Message name in LiveEngage | Default text | Available dynamic text |
-| A consumer opens a conversation during off hours | Off hours welcome message | Thank you for messaging us. Our contact center is currently closed. An agent should reply within {expectedResponseTime}. | {expectedResponseTime} |
-| A consumer opens a conversation for the first time ever, during off hours	 | First time off hours welcome message | Welcome! Although our contact center is currently closed, we're excited to offer you messaging, allowing you to reply in your own time. An agent should reply within {expectedResponseTime} | {expectedResponseTime} |
-| The consumer sends the first message during off hours in an open conversation | Off hours message mid conversation | Sorry, our contact center is currently closed. An agent should reply within {expectedResponseTime}. | {expectedResponseTime} |
 
 ## Time to respond
 
-| --- | --- | --- | --- |
-| Event | Message name in LiveEngage | Default text | Available dynamic text |
-| The response time is updated manually by the agent | Manual response time update | An agent should respond within {expectedResponseTime}. | {expectedResponseTime} |
-| The consumer marks the conversation as urgent | Conversation marked as urgent | You have marked this conversation as urgent. An agent should respond within {expectedResponseTime}. | {expectedResponseTime} |
-| The consumer dismisses the conversation urgent state | Conversation no longer urgent | You have marked this conversation as not urgent. An agent should respond within {expectedResponseTime}. | {expectedResponseTime} |
+|
 
 ## Consumer/Agent non-responsive
+
 | Event | Message name in LiveEngage | Default text | Trigger |
 | --- | --- | --- | --- |
 | The consumer has not responded for X seconds/minutes/hours | Consumer non-responsive message | We haven't heard from you in a while. Do you still need help with something? | Yes |
-| The agent did not respond for X seconds/minutes/hours | Agent non-responsive message | Sorry it's taking longer than expected to reply. Your agent will respond shortly.  | Yes |
-| Conversation is in queue for X mins/hours  | Waiting in queue message | Sorry our wait times are longer than expected. You will be connected to an agent shortly. | Yes |
+| The agent did not respond for X seconds/minutes/hours | Agent non-responsive message | Sorry it's taking longer than expected to reply. Your agent will respond shortly. | Yes |
+| Conversation is in queue for X mins/hours | Waiting in queue message | Sorry our wait times are longer than expected. You will be connected to an agent shortly. | Yes |
 
 ## Transfers and connection to agents
+
 | Event | Message name in LivePerson | Default text | Trigger |
 | --- | --- | --- | --- |
 | The conversation is transferred to a different skill | Conversation transferred to a different agent | You are being transferred to another agent |  |
@@ -190,7 +181,42 @@ The following list sets out the default automatic messages for messaging in Live
 | The consumer is connected to an agent | Agent accepts conversation | You are now connected to {agentNickname}. | {agentNickname} |
 
 ## Conversation participants
+
 | Event | Message name in LiveEngage | Default text | Trigger |
 | --- | --- | --- | --- |
-| Agent manager joins the conversation  | Agent manager joins conversation | {agentNickname} joined the conversation. | {agentNickname}  |
-| The joined agent manager leaves the conversation 	 | Agent manager leaves conversation | {agentNickname} left the conversation. | {agentNickname}  |
+| Agent manager joins the conversation | Agent manager joins conversation | {agentNickname} joined the conversation. | {agentNickname} |
+| The joined agent manager leaves the conversation | Agent manager leaves conversation | {agentNickname} left the conversation. | {agentNickname} |
+
+## Agent Experience 
+
+The auto messages appear on the agent side as well as part of the conversation transcript, so he can be aware of what messages the consumer can see. They appear inline with a dedicated look and feel. The auto messages also appear in the conversation’s history.
+
+{image 15}
+
+## Reporting
+
+LivePerson Report Builder will support analysis of Auto Messages activity. To easily identify activity generated by Auto Messages a “User Type” filter has been added to all relevant Report Builder predefined dashboards.
+
+The User Type filter is set to exclude the “System” user which generates Auto Messages. The “System” user will still appear in the list of Agents presented in the dashboard. Therefore, the activity of Auto Messages is excluded by default.
+
+To view Auto Messages activity, the User Type filter can be set to include the value “System”. By checking this value, all metrics attributed to an agent will reflect the activity generated by the system, which is currently, Auto Messages. This includes metrics available through the Agent Messaging Activity dataset, such as number of messages sent or responses given by the system.
+
+**Important Note!** To ensure account level KPIs are not deviated from by system activity, the following Messaging metrics will always exclude activity generated by the system, regardless of the User Type filter settings:
+
+**Agent Messaging Activity**
+
+1\. AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS
+
+2\. AVG. RESPONSE TIME BY AGENT
+
+3\. AVG. TIME TO AGENT FIRST RESPONSE
+
+4\. INTERACTIVE CONVERSATIONS
+
+5\. NON - INTERACTIVE CONVERSATIONS
+
+6\. ABANDONED CONVERSATIONS 
+
+**Consumer Messaging Activity** 
+
+1\. AVG. CONSUMER RESPONSE TIME
