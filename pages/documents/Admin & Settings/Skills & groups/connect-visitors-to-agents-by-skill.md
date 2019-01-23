@@ -9,7 +9,6 @@ permalink: admin-settings-skills-groups-connect-visitors-to-agents-by-skills.htm
 isTutorial: false
 isNew: false
 date: 2019-01-23 13:39:47 +0200
-published: false
 
 ---
 Your agents are trained to help visitors according to your business needs.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they are routed to the first available sales agent.
