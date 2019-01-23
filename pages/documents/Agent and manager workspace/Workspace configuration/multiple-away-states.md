@@ -72,7 +72,7 @@ Once new away state reasons have been added, the agent will be able to select fr
 </ul> 
 </div>
 
-## **The Agent & Messaging Agent Lists**
+## **The agent & messaging agent lists**
 
 For brands that have configured additional away state reasons, the _State Duration_ column in both the Agent List and Messaging Agent List will now indicate the time elapsed since the agent set their current away state.
 
@@ -95,7 +95,7 @@ The pie chart titled “Away” reflects the total time spent by agents in the a
 
 Additional available agent activity metrics can be filtered by each away state reason, such as: Time Eng., Conc. Engaged, and Engaged Time. These metrics are available only for Live Chat.
 
-## **Messaging Performance Predefined Dashboard**
+## **Messaging performance predefined dashboard**
 
 The pie chart titled “Away” has also been added to the Messaging Performance Predefined Dashboard and displays the same data as the Agent Activity Dashboard.
 
