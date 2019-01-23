@@ -42,11 +42,14 @@ By seeing how long agents are spending in these more specific modes, such as ‘
 
 ![](/img/multi away state 5.png)
 
-**Note:**
-
-* You can define up to 10 custom away state reasons.
-* A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.
-* Deleted/edited reasons will not update in the agent’s view until the agent changes his state.
+<div class="important"> 
+<b>Note:</b> 
+<ul> 
+<li>You can define up to 10 custom away state reasons.</li> 
+  <li>You can define up to 10 custom away state reasons.</li> 
+  <li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li> 
+</ul> 
+</div>
 
 ## **To set a custom away state:**
 
