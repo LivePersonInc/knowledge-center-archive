@@ -183,7 +183,6 @@ The following list sets out the default automatic messages for messaging in Live
 |    The response time is updated manually by the   agent    |    Manual response time update    |    An agent should respond within {expectedResponseTime}.    |    The agent sets a manual SLA     |
 |    The consumer marks the conversation as urgent    |    Conversation marked as urgent    |    You have marked this conversation as urgent.   An agent should respond within {expectedResponseTime}.    |    The consumer clicks ‘mark as urgent’ when the   conversation is pending agent and the SLA is not overdue    |
 |    The consumer dismisses the conversation urgent   state    |    Conversation no longer urgent    |    You have marked this conversation as not   urgent. An agent should respond within {expectedResponseTime}.    |    The consumer clicks dismiss urgent when the   conversation is pending agent and the SLA is not overdue    |
-
  
 
 ### Consumer/Agent non-responsive
