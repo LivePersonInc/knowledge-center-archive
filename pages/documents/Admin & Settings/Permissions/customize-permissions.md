@@ -9,10 +9,9 @@ permalink: admin-settings-permissions-customize-permissions.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 14:20:28 +0200
-published: false
 
 ---
-![](https://lh4.googleusercontent.com/bzSODSj5Ye430TigXE12-FJSJ7bxrgUorT0MDeVBx119aM2VdrEfIH4I3Vm6Hr6lIdvtdpbLR01PUpCOLmMJM8AKrGBZJT8yfnH7qDqjzFmwpEiwEQ142ttBRyIVyeWsVQyW3vN1 =351x221)At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
+At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
 
 To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four LiveEngage roles:
 
@@ -20,6 +19,8 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 * Agent Manager
 * Campaign Manager
 * Admin
+
+![](/img/permissions1.png)
 
 ### **Customized profiles**
 
@@ -52,7 +53,7 @@ Profiles and users can only be configured by admins and agent managers with spec
 5. To return the profile to the default permissions set, click **restore defaults**.
 6. **Save** the profile.
 
-![](https://lh4.googleusercontent.com/bzSODSj5Ye430TigXE12-FJSJ7bxrgUorT0MDeVBx119aM2VdrEfIH4I3Vm6Hr6lIdvtdpbLR01PUpCOLmMJM8AKrGBZJT8yfnH7qDqjzFmwpEiwEQ142ttBRyIVyeWsVQyW3vN1 =600x437)
+![](/img/permissions2.png)
 
 **To create a user and assign a profile:**
 
@@ -81,7 +82,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 6\. Set a password. Click **save**.
 
-**![](https://lh3.googleusercontent.com/W7jVVhJxszbzqxJDPxgiPLx5QuZhK_LcLWzumwwM_V0vCXLgHuTd9CmOW5Y-81abqr1Su6hkOiq8Jz3QBQ2ZSqgPZ0tA8BJ4helbrzasv95FUWKd4zzU7ZfQn0N0IayuxN5zKf8D =624x417)**
+![](/img/permissions3.png)
 
 ## **Definitions, permission and default states**
 
