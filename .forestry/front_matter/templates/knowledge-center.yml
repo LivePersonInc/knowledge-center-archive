@@ -173,7 +173,6 @@ pages:
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Getting Started/liveperson-tag.md
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
-- pages/documents/Agent and manager workspace/Workspace configuration/salesforce-integration-guide.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/real-time-messaging-dashboard-beta-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
@@ -199,3 +198,4 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/Messaging Channels/SMS/sms-connector.md
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
+- adding-your-own-widgets.md
