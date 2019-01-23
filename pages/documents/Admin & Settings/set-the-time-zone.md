@@ -10,7 +10,6 @@ permalink: admin-settings-set-the-time-zone.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:35:56 +0200
-published: false
 
 ---
 Time zone settings play a key role in the accurate compilation and generation of LivePerson reports. This article sets out everything you need to know about properly setting your time zone,  as well as which reports are affected by the time zone settings.
@@ -27,14 +26,14 @@ Operational data (including the web agent and agent manager real time data bars 
 
 ## **Campaign time zone**
 
-Within the LivePerson platform, each campaign has a time zone setting. When a user creates a new campaign, the campaign’s default time zone is set to the primary user level time zone but can be easily modified in order to control when the campaign runs. However, modifying the campaign time zone does not impact the data presented in reports.                                                  
+Within the LivePerson platform, each campaign has a time zone setting. When a user creates a new campaign, the campaign’s default time zone is set to the primary user level time zone but can be easily modified in order to control when the campaign runs. However, modifying the campaign time zone does not impact the data presented in reports.
 
 ### **To modify account-wide time zone:**
 
 1. Log in to LivePerson as a user with admin permissions.
 2. In the users tab, scroll down to the footnote and select a time zone. The account-wide time zone is now set.
 
-![](https://lh4.googleusercontent.com/ofphOwyECNnSxuKVZJF4XTk4C7BA5ldT6NaAJtRjNl5TYoRuE-J8S5lm20SKKr_lf5qWS0RjwjN5A5qor1C_zCgbL30JY27tJycJSdYE7gYmlKvbzl4xhZJvqVOhxURoBf0k7O87 =436x71)
+![](/img/timezone1.png)
 
 ### **To modify user level time zone:**
 
@@ -42,7 +41,7 @@ Within the LivePerson platform, each campaign has a time zone setting. When a us
 2. Click the down arrow to the right of your user name (on the top right of the screen) and select **my details**.
 3. Under regional settings, select a time zone. The time zone for the logged in user is now set.
 
-![](https://lh3.googleusercontent.com/YH8JompjRaxEoUIdcS1-zRtkZN9IcfpyfaQLB3DXT_tOQYICNtka1-0S6fEM7EdB2ZKu_eaQTLP8h63VkWjJyVh4lGBTgVi0lhuFrnlhR9XE4Ds9eSdWisC2JKaO8CwzbqmIvxLA =297x311)
+![](/img/timezone2.png)
 
 ### **To modify a campaign’s time zone:**
 
@@ -51,8 +50,8 @@ Within the LivePerson platform, each campaign has a time zone setting. When a us
 3. Hover over the campaign time frame and click **edit**.
 4. At the bottom of the page, select a time zone and click **save**. The campaign is now saved with the updated setting.
 
-## ![](https://lh5.googleusercontent.com/HR3yqnOyaoEY9BVorkb-R5SateYdYyuVlFJGOLb25nPItLCpllpA0TfnSKWLvgDMvQRCMRubqHJK9Rp4OWVsKsTqdNIKT-ZORtwmTAcsnI6QMrJ3mIBoNMHKAoP4G3FCEwK4nzu9 =435x407)
+![](/img/timezone3.png)
 
 ## **Report Builder time zone**
 
-The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the **operational dashboards,** users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.  
+The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in Report Builder on the next load. In addition, in the **operational dashboards,** users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
