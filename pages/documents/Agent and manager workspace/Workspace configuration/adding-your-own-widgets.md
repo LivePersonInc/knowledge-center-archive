@@ -9,7 +9,7 @@ level3: ''
 permalink: adding-your-own-widgets.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 10:32:26 +0200
+date: 2019-01-23 08:32:26 +0000
 published: false
 
 ---
@@ -17,7 +17,7 @@ Agents often need to access external systems while they are working in the agent
 
 To ensure your agents are focused on the tools most relevant for them, admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all agents handling any chat.
 
-To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) on the Developer Community. 
+To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) on the Developer Community.
 
 ## Organize your widgets to boost agent efficiency
 
@@ -29,30 +29,31 @@ The account admin can organize widgets through night vision, including hiding co
 
 ### **To reorder widgets:**
 
-1. From the visitors page, click on the Night Vision ![](https://lh3.googleusercontent.com/tWNpW9-kiDffEwtrtEFi3VZVAvwrVmfx43HHmTa34uzqGj3j3yVoM464ZOZJ7xQoJ0wS7L8qO6bdUKztYmqZVHPfEGnDRN2F7QwyRIdqxe4SvK8ilAtcfTu9OQglxxYmtTRXX10k =40x34) icon.
-2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**. 
+1. From the visitors page, click on the Night Vision ![](/img/Screen Shot 2017-09-11 at 3.04.25 PM.png)icon.
+2. The Edit Widgets configuration screen will appear. All available agent widgets configured to your account will appear here as icons - to see the name of the widget, hover over the icon. You can also stop the widget from appearing in the workspace, by clicking **Hide**.
 
-![](https://lh6.googleusercontent.com/IHtPy83gMRxBLcD2sNKzZNtY1aQ_7K8oaS7mN4F-ETc-HXo1BEDZn9mAanB5Hr-x5WkOitdWNa1lEb-QFJcyk1MkPQ6gZ4M1Jv1tntbkt9ESw-6M8m0mP07FV9ZWhRAXYHeZLJFq =431x241)
+![](/img/add your own widgets 1.png)
 
-![](https://lh6.googleusercontent.com/oO8q9rf_PWtckXacWelAdvGCaTID0aVm_eoyzlBNQkjhNpGdI-nZ4fqyGPYF1xsBpMjSsinIxTQ9uOuR6t04WUdRI5i9rv1Ri_Fy5VgKG6mpIzsYFJREwnaO0FYHsCixdCJUrvpX =433x78)
+![](/img/add your own widgets 2.png)
 
-3. To reorder the widgets, click **Organize**.
-4. In the Organize widgets configuration screen, you can use the arrows to move the widgets up or down in the order they will appear. There is also an option to move the widget straight to the top. 
+1. To reorder the widgets, click **Organize**.
+2. In the Organize widgets configuration screen, you can use the arrows to move the widgets up or down in the order they will appear. There is also an option to move the widget straight to the top.
 
 ![](https://lh4.googleusercontent.com/_akLWJ13e2CMjXBslUBNHuZDiW7oF1zIHkLuGUQd2sxRMcjN-wIDF3-PNwM9HfXxGWnfkrCvDoc8uW9Lv8xwELKf_XqXGApjjaL3rQCdjQPt6-qipm_0e5DlgNbsrqkq_OWTe0Zn =283x349)
 
-5. Select the desired width of the new widget; single (the same width as the default widgets), double, triple, or quadruple, so your widget is compatible to the external webpage that you want to display. 
-6. 6. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
-7. Enter the URL of the webpage or external application that you wish to display within the widget. 
+1. Select the desired width of the new widget; single (the same width as the default widgets), double, triple, or quadruple, so your widget is compatible to the external webpage that you want to display.
+2. 
+   1. If you would like the widget to appear alongside chats associated with a specific skill or skills, select the relevant option(s) from the Assigned Skills field. If no skill is assigned, the widget will appear to all chats.
+3. Enter the URL of the webpage or external application that you wish to display within the widget.
 
 **![Widget per skill - upd.png](https://lh3.googleusercontent.com/Q5SDm69GE9tVYX3-OgHa5kl0GKSs44qSfdip4ZOfK1ihd0sRSbZeSK9NZySR-F3SzmRI_GmhIsME7z3vCMMhGDLKG5UP4w7GH01gsrRNapoLSBPDRpJReZnWhw8nlh6ydFKCZXyj =434x546)**
 
 **Notes:**
 
 * The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.
-* For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page. 
-* Any reordering is saved at the account level and is not a site setting. 
-* New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed. 
+* For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.
+* Any reordering is saved at the account level and is not a site setting.
+* New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.
 
 ## Widget integration framework
 
@@ -66,13 +67,13 @@ The integration of the Engagement Window Widget SDK and Agent Workspace Widget S
 
 Agents can share a variety of interactive content in the Agent window, such as images, links and forms. This content will immediately be displayed in the consumer’s engagement window, enhancing their conversation experience and their connection with the Agent.
 
- ![Engagement window widget SDK v3.jpg](https://lh3.googleusercontent.com/W20ksCa8NwIZVB4Sj9cgNxn8bkOBLDGIEgHkAGAeHUIHS_Kpft3vGy_jVkNVMX5tiAy0K51e0zv_-RzDERUWYDRU-OEaHL2COOfaIG6AE8g_9PrN14XmnkEjPHh3a_ucsNWKifVn =388x226)
+![Engagement window widget SDK v3.jpg](https://lh3.googleusercontent.com/W20ksCa8NwIZVB4Sj9cgNxn8bkOBLDGIEgHkAGAeHUIHS_Kpft3vGy_jVkNVMX5tiAy0K51e0zv_-RzDERUWYDRU-OEaHL2COOfaIG6AE8g_9PrN14XmnkEjPHh3a_ucsNWKifVn =388x226)
 
-In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service. 
+In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service.
 
 Moreover, the flexibility of this framework opens the door for integrations with other engagement tools, such as live video connection.
 
-##  
+## 
 
 ## Why Don’t I See My Customized Widget?
 
@@ -89,7 +90,6 @@ Make sure that the application that you are trying to integrate meets the above 
 
 ## Widget notifications
 
-It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the agent workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place. 
+It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the agent workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place.
 
-  
-For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html)**.** 
+For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html)**.**
