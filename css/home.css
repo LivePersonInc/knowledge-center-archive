@@ -446,6 +446,7 @@ a.mainlink:hover {
   background-color: #5879da;
   margin-top: 5px;
   margin-bottom: 10px;
+  border: 0;
 }
 
 .close {
@@ -492,6 +493,7 @@ a.mainlink:hover {
   font-size: 16px;
   color: #272727;
   padding-right: 30px;
+  margin-top: 10px;
 }
 
 .newfeaturesummary {

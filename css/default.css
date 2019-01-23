@@ -751,6 +751,7 @@ h3 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 18px;
+  padding-right: 10px;
 }
 
 #aa-search-input:focus {
@@ -834,8 +835,8 @@ h3 {
   font-size: 20px !important;
   border-bottom: unset;
   margin-top: none;
-  width: 9%;
-  border-bottom: 1px solid #4a4a4a !important;
+  width: 23%;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before {
