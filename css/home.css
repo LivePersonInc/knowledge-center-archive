@@ -135,7 +135,7 @@ body {
   align-items: center;
   font-family: "Roboto Slab", "Roboto", Helvetica, sans-serif;
   font-size: 28px;
-  color: #f55130;
+  color: #FF670E;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 50px;
@@ -172,7 +172,7 @@ body {
   align-self: normal;
   font-size: 30px;
   color: #fff;
-  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
   font-weight: 300;
   width: 390px;
   z-index: 2;
@@ -182,82 +182,82 @@ body {
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox.closed {
   background-color: #5879da;
   height: 390px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox.closed:hover {
   background-color: #5879da;
   height: 370px;
-  -webkit-transition: height 0.5s ease-out;
-  -moz-transition: height 0.5s ease-out;
-  -o-transition: height 0.5s ease-out;
-  transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.5s ease;
+  -o-transition: height 0.5s ease;
+  transition: height 0.5s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed {
   background-color: #162036 ;
   height: 390px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox.closed:hover {
   background-color: #162036 ;
   height: 370px;
-  -webkit-transition: height 0.5s ease-out;
-  -moz-transition: height 0.5s ease-out;
-  -o-transition: height 0.5s ease-out;
-  transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.5s ease;
+  -o-transition: height 0.5s ease;
+  transition: height 0.5s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed {
-  background-color: #f55130;
+  background-color: #FF670E;
   height: 390px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox.closed:hover {
-  background-color: #f55130 ;
+  background-color: #FF670E ;
   height: 370px;
-  -webkit-transition: height 0.5s ease-out;
-  -moz-transition: height 0.5s ease-out;
-  -o-transition: height 0.5s ease-out;
-  transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.5s ease;
+  -o-transition: height 0.5s ease;
+  transition: height 0.5s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox {
   background-color: #5879da;
   height: 100px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(2) .mainbox  {
   background-color: #162036 ;
   height: 100px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 #boxesrow .mainboxwrapper:nth-child(3) .mainbox {
-  background-color: #f55130;
+  background-color: #FF670E;
   height: 100px;
-  -webkit-transition: height 0.35s ease-out;
-  -moz-transition: height 0.35s ease-out;
-  -o-transition: height 0.35s ease-out;
-  transition: height 0.35s ease-out;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 
@@ -269,22 +269,39 @@ body {
   padding-left: 50px;
 }
 
+.mainbox img {
+  align-self: flex-end;
+  width: 10%;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease;
+}
+
+.mainbox.closed img {
+  width: 40%;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease;
+}
+
 .closed .bigspan {
   font-size: 50px;
-  margin-top: -56px;
-  -webkit-transition: font-size 0.35s ease-out;
-  -moz-transition: font-size 0.35s ease-out;
-  -o-transition: font-size 0.35s ease-out;
-  transition: font-size 0.35s ease-out;
+  margin-top: -27px;
+  -webkit-transition: font-size 0.35s ease;
+  -moz-transition: font-size 0.35s ease;
+  -o-transition: font-size 0.35s ease;
+  transition: font-size 0.35s ease;
 }
 
 .bigspan {
   font-size: 30px;
-  margin-top: -56px;
-  -webkit-transition: font-size 0.35s ease-out;
-  -moz-transition: font-size 0.35s ease-out;
-  -o-transition: font-size 0.35s ease-out;
-  transition: font-size 0.35s ease-out;
+  margin-top: -27px;
+  -webkit-transition: font-size 0.35s ease;
+  -moz-transition: font-size 0.35s ease;
+  -o-transition: font-size 0.35s ease;
+  transition: font-size 0.35s ease;
 }
 
 .mainboxtext {
@@ -365,12 +382,12 @@ a.mainlink:hover {
   align-items: flex-end;
   font-size: 16px;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-  color: #f55130;
+  color: #FF670E;
 }
 
 #allarticlesbox {
   padding: 15px 72px;
-  border: 1px #f55130 solid;
+  border: 1px #FF670E solid;
   margin-bottom: 60px;
 }
 
