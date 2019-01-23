@@ -9,7 +9,6 @@ permalink: whats-new-january-2019.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 16:34:59 +0200
-published: false
 
 ---
 [https://vimeo.com/311248862/e9af8fcae4](https://vimeo.com/311248862/e9af8fcae4 "https://vimeo.com/311248862/e9af8fcae4")
