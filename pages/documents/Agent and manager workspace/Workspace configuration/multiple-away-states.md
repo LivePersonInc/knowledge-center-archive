@@ -9,7 +9,6 @@ permalink: multiple-away-states.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:55:25 +0200
-published: false
 
 ---
 For brands, understanding how agents are spending their time is vital for keeping track of performance and staff management. In addition to the three statuses currently available for agents - online, back soon and away - brands are also able to customize and add their own ‘away’ statuses.
