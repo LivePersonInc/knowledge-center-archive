@@ -52,8 +52,11 @@ The account admin can organize widgets through night vision, including hiding co
 <div class="notice"> 
 <b>Notes:</b> 
 <ul> 
-<li>The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.</li> <li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li> <li>Any reordering is saved at the account level and is not a site setting.</li> <li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li> <li>
-</ul> 
+<li>The user interface will only allow a maximum of 5 custom widgets (as today) for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.</li>
+<li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li> 
+<li>Any reordering is saved at the account level and is not a site setting.</li> 
+<li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li> 
+</ul>
 </div>
 
 
