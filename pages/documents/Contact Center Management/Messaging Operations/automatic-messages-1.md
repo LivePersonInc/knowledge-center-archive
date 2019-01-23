@@ -287,7 +287,7 @@ iv. LiveEngage will automatically set to “Online” again on the next shift d
 
 1. Save the page.
 
-{: .notice}
+**Note:**
 
 * When off hours are over, the brand needs to set the account back to working hours. This must be completed daily; changing from working to off hours and vice versa.
 * Off hours are set at the account level and not per skill.
