@@ -6,7 +6,7 @@ indicator: both
 subtitle: Conversational commerce lets brands message with their consumers and gain
   the automation capabilities needed to operate messaging at scale.
 level3: ''
-permalink: getting-started-livepersons-conversational-commerce-platform
+permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 15:04:36 +0200
