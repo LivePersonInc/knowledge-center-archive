@@ -1,11 +1,11 @@
 ---
-pagename: Automatic messages
+pagename: Automatic messages configuration guide
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: Provide contextual information to consumers about the conversation
 level3: ''
-permalink: contact-center-management-messaging-operations-automatic-messages.html
+permalink: contact-center-management-messaging-operations-automatic-messages-configuration-guide.html
 isTutorial: true
 date: 2019-01-21 14:49:33 +0200
 isNew: false
@@ -31,7 +31,8 @@ When the auto messages are sent, they are displayed to the consumer and the agen
 
 Automatic messages require enablement. Please contact your LivePerson account team to enable this feature.
 
-**Note**: When auto messages are enabled, they are all enabled by default and all have the default text. It is advised to review them immediately and modify them to suit your brand needs. 
+{: .notice}
+When auto messages are enabled, they are all enabled by default and all have the default text. It is advised to review them immediately and modify them to suit your brand needs. 
 
 ## Customizing automatic messages 
 
@@ -43,17 +44,20 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 ![](/img/automatic-messages-messaging-2.png)
 
-2\. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
+{:start="2"}
+2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 ![](/img/automatic-messages-messaging-3.png)
 
-3\. Select a message to edit. The Edit Automatic Message page is displayed.
+{:start="3"}
+3. Select a message to edit. The Edit Automatic Message page is displayed.
 
 ![](/img/automatic-messages-messaging-4.png)
 
-4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
+{:start="4"}
+4. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
-5\. Click **Save**.
+5. Click **Save**.
 
 Note: The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
@@ -61,23 +65,24 @@ Note: The automatic message library can also be reached from the messaging setti
 
 ### To translate a message
 
-1\. On the Edit Automatic Messages page, click the “+” button next to the default language (English (US) in the illustration below). The Engagement languages page is displayed.
+1. On the Edit Automatic Messages page, click the “+” button next to the default language (English (US) in the illustration below). The Engagement languages page is displayed.
 
-2\. From the “Available languages” list, select the language(s) you would like to translate your messages into.
+2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 
-3\. Click Save
+3. Click Save
 
 ![](/img/automatic-messages-messaging-7.png)
 
 ### To customize messages for a specific skill
 
-1\. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
+1. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
 
 ![](/img/automatic-messages-messaging-8.png)
 
-2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
+{:start="2"}
+2. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
 
-3\. Select a skill tab (for example Escalation or Sales, as shown in the illustration above). The skill’s related fields will appear.
+3. Select a skill tab (for example Escalation or Sales, as shown in the illustration above). The skill’s related fields will appear.
 
 Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used. 4. Enter the relevant text to the text field. 5. Click Save. Note: you need to save your changes for each skill separately.
 
@@ -133,7 +138,8 @@ or in-app messaging this can be configured in the SDK. Disabling an automatic me
 3. Click Save
 4. Click Done.
 
-Note: if you wish to disable the message for some skills but not for others, select the individual skill tab and change the toggle for each skill as required.
+{: .notice}
+If you wish to disable the message for some skills but not for others, select the individual skill tab and change the toggle for each skill as required.
 
 ## Notes
 
@@ -153,17 +159,17 @@ Note: if you wish to disable the message for some skills but not for others, sel
 
 The following list sets out the default automatic messages for messaging in LivePerson. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
 
-### New conversations 
+### New conversations
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    A consumer opens a conversation for the first   time ever, during working hours    |    First time welcome message    |    Welcome! We're excited to offer you messaging,   allowing you to reply to us in your own time. An agent should reply within   {expectedResponseTime}    |    A first time consumer (identified by a new   consumer ID) opens a conversation for the very first time when the contact   center is set to working hours (see APPENDIX A on how to set working   hours)    |
 |    A consumer opens a conversation during working   hours    |    Welcome message    |    Thank you for messaging us. An agent should   reply within {expectedResponseTime}.    |    A returning consumer (identified by an   existing consumer ID) opens a conversation when the contact center is set to   working hours (see APPENDIX A on how to set working hours). See APPENDIX   E for   more information on the behavior of welcome messages after auto close    |
 
 ### Off hours
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    A consumer opens a conversation for the first   time ever, during off hours              |    First time off hours welcome message    |    Welcome! Although our contact center is   currently closed, we're excited to offer you messaging, allowing you to reply   in your own time. An agent should reply within {expectedResponseTime}    |    A first time consumer (identified by a new   consumer ID) opens a conversation for the very first time when the contact   center is set to off  hours (see APPENDIX A on how to set off    hours)    |
 |    A consumer opens a conversation during off   hours    |    Off hours welcome message    |    Thank you for messaging us. Our contact center   is currently closed. An agent should reply within {expectedResponseTime}.    |    A returning consumer (identified by an   existing consumer ID) opens a conversation when the contact center is set to   off hours (see APPENDIX A on how to set off hours). See APPENDIX   E for   more information on the behavior of welcome messages after auto close    |
 |    The consumer sends the first message during   off hours in an open conversation    |    Off hours message mid conversation    |    Sorry, our contact center is currently closed.   An agent should reply within {expectedResponseTime}.    |    In an already open conversation, the consumer   sends a message when the contact center is set to off  hours (see APPENDIX A on how to set off    hours)    |
@@ -172,8 +178,8 @@ The following list sets out the default automatic messages for messaging in Live
 
 ### Time to respond
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    The response time is updated manually by the   agent    |    Manual response time update    |    An agent should respond within {expectedResponseTime}.    |    The agent sets a manual SLA     |
 |    The consumer marks the conversation as urgent    |    Conversation marked as urgent    |    You have marked this conversation as urgent.   An agent should respond within {expectedResponseTime}.    |    The consumer clicks ‘mark as urgent’ when the   conversation is pending agent and the SLA is not overdue    |
 |    The consumer dismisses the conversation urgent   state    |    Conversation no longer urgent    |    You have marked this conversation as not   urgent. An agent should respond within {expectedResponseTime}.    |    The consumer clicks dismiss urgent when the   conversation is pending agent and the SLA is not overdue    |
@@ -182,16 +188,16 @@ The following list sets out the default automatic messages for messaging in Live
 
 ### Consumer/Agent non-responsive
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    The consumer has not responded for X   seconds/minutes/hours    |    Consumer non-responsive message    |    We haven't heard from you in a while. Do you   still need help with something?    |    The consumer has not sent a message for over x   secs/mins/hours since last    Assigned Agent OR Agent OR Manager last wrote   a message.   For more info about the logic see APPENDIX D)       |
 |    The agent did not respond for X   seconds/minutes/hours    |    Agent non-responsive message    |    Sorry it's taking longer than expected to   reply. Your agent will respond shortly.     |    The assigned agent has not replied within X   mins from assignment   OR   Assigned agent / Agent / Manager has not   replied within X minutes from first consumer message, since last Agent(s)   message or assignment    (for more info about the logic see APPENDIX B)    |
 |    Conversation is in queue for X mins/hours     |    Waiting in queue message    |    Sorry our wait times are longer than expected.   You will be connected to an agent shortly.    |    When a conversation enters a queue for any   reason (e.g. new conversation, transfer, back to queue) and is unassigned for   X mins the message is triggered (for more info about the logic see APPENDIX C)    |
 
 ### Transfers and connection to agents
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    The conversation is transferred to a different   skill    |    Conversation transferred to a different agent    |    You are being transferred to another agent    |    Agent transfers the conversation. When using   skill variation for the messages, when agent of skill A transfers to agent of   skill B, the variation of skill B will be used    |
 |    The agent returns the conversation to the   queue    |    Conversation returned to queue    |    Sorry, your agent can't respond right now.   Another agent will be with you in {expectedResponseTime}.    |    Agent returns the conversation to the queue    |
 |    The consumer is connected to an agent    |    Agent accepts conversation    |    You are now connected to {agentNickname}.    |    The conversation is assigned to an agent    |
@@ -200,8 +206,8 @@ The following list sets out the default automatic messages for messaging in Live
 
 ### Conversation participants
 
+|    Event    |    Message name in LivePerson    |    Default text    |    Trigger    |
 | --- | --- | --- | --- |
-|    Event    |    Message name in LiveEngage    |    Default text    |    Trigger    |
 |    Agent manager joins the conversation     |    Agent manager joins conversation    |    {agentNickname} joined the conversation.    |    Agent manager OR another Agent joins the   conversation     |
 |    The joined agent manager leaves the   conversation       |    Agent manager leaves conversation    |    {agentNickname} left the conversation.    |    The joined agent manager or agent leaves the   conversation                |
 
@@ -219,25 +225,26 @@ The User Type filter is set to exclude the “System” user which generates Aut
 
 To view Auto Messages activity, the User Type filter can be set to include the value “System”. By checking this value, all metrics attributed to an agent will reflect the activity generated by the system, which is currently, Auto Messages. This includes metrics available through the Agent Messaging Activity dataset, such as number of messages sent or responses given by the system.
 
-**Note:** To ensure account level KPIs are not deviated from by system activity, the following Messaging metrics will always exclude activity generated by the system, regardless of the User Type filter settings:
+{: .notice}
+To ensure account level KPIs are not deviated from by system activity, the following Messaging metrics will always exclude activity generated by the system, regardless of the User Type filter settings:
 
-#### **Agent Messaging Activity**
+#### Agent Messaging Activity
 
-1\.     AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS
+1.     AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS
 
-2\.     AVG. RESPONSE TIME BY AGENT
+2.     AVG. RESPONSE TIME BY AGENT
 
-3\.     AVG. TIME TO AGENT FIRST RESPONSE
+3.     AVG. TIME TO AGENT FIRST RESPONSE
 
-4\.     INTERACTIVE CONVERSATIONS
+4.     INTERACTIVE CONVERSATIONS
 
-5\.     NON - INTERACTIVE CONVERSATIONS
+5.     NON - INTERACTIVE CONVERSATIONS
 
-6\.     ABANDONED CONVERSATIONS
+6.     ABANDONED CONVERSATIONS
 
 #### **Consumer Messaging Activity**
 
-1\.     AVG. CONSUMER RESPONSE TIME
+1.     AVG. CONSUMER RESPONSE TIME
 
 ## Best practices
 
@@ -251,9 +258,10 @@ To view Auto Messages activity, the User Type filter can be set to include the v
   * Transfer
   * Back to queue
 
-**Note**: If the TTR macro is not used the message will be sent even if the TTR is overdue.
+{: .notice}
+  If the TTR macro is not used the message will be sent even if the TTR is overdue.
 
-# Limitations
+## Limitations
 
 * Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on web messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
 *  There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
@@ -265,13 +273,13 @@ To view Auto Messages activity, the User Type filter can be set to include the v
 
 ## Setting the contact center off hours
 
-1\.     Click the downward arrow next to the user name and click "Shift Scheduler"  
+1.Click the downward arrow next to the user name and click "Shift Scheduler"  
     {image 17}
 
-2\.     The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.  
+2.The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.  
       {image 18}
 
-3\.     Define your current shift status: 
+3.Define your current shift status: 
 
 a. Choose “Off hours” when your connection center is inactive (this is used for the SLA calculation):
 
@@ -285,9 +293,9 @@ iv. LiveEngage will automatically set to “Online” again on the next shift d
 
 4. Save the page. 
 
-**Note:** 
 
-* When off hours are over, the brand needs to set the account back to working hours. This must be completed daily; changing from working to off hours and vice versa.
+{: .notice}
+  * When off hours are over, the brand needs to set the account back to working hours. This must be completed daily; changing from working to off hours and vice versa.
 * Off hours are set at the account level and not per skill.
 * Auto messages for off hours are triggered only when the contact center is set to off hours. 
 
