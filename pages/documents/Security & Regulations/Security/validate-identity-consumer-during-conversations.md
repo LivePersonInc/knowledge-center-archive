@@ -10,6 +10,7 @@ permalink: security-regulations-security-validate-the-identity-of-a-consumer-dur
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:54:57 +0200
+published: false
 
 ---
 The Identification and Verification (ID&V) solution enables customer care professionals (CCPs) to validate the identity of visitors during a chat.  At any time in a conversation, agents can decide to send an ID&V question to the visitor, requesting them to enter two random characters from their PIN or password, or any identifiable number or code, which they can then verify with the CRM system.
