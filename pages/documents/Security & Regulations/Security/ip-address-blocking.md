@@ -12,11 +12,11 @@ date: 2019-01-24 12:06:47 +0200
 published: false
 
 ---
-In order to protect your online security and the safety of your agents, it may become necessary on occasion to block an IP address, or a group of IP addresses. For example, if your platform is being attacked by malicious software or if your agents are having trouble with abusive customers. 
+In order to protect your online security and the safety of your agents, it may become necessary on occasion to block an IP address, or a group of IP addresses. For example, if your platform is being attacked by malicious software or if your agents are having trouble with abusive customers.
 
-By creating a Target Audience excluding a specific IP address or set of addresses, engagements will not be visible to users of those addresses and they will not have the option to chat.
+By creating a target audience excluding a specific IP address or set of addresses, engagements will not be visible to users of those addresses and they will not have the option to chat.
 
-A target audience can also be created with the inclusion of specific IP addresses. For example, if you have created a test environment and want to ensure that only people from within your team have access to the engagement. 
+A target audience can also be created with the inclusion of specific IP addresses. For example, if you have created a test environment and want to ensure that only people from within your team have access to the engagement.
 
 To exclude/include an IP address(es):
 
@@ -29,12 +29,12 @@ To exclude/include an IP address(es):
 
 {: .start="5}
 
-5. Give the Target Audience a name.
-6. On the left-hand side options bar, click on **IP range**.
-7. Here you have the option of including or excluding IP addresses:
+1. Give the Target Audience a name.
+2. On the left-hand side options bar, click on **IP range**.
+3. Here you have the option of including or excluding IP addresses:
    * To include an IP address or range of addresses, click **include IP range** and enter addresses. To include only one address, enter it twice.
    * To exclude an IP address or range of addresses, enter addresses in the **exclude IP range** area. To include only one address, enter it twice.
    * Additional addresses or ranges can be added by clicking **add IP range**.
-8. Click **save**.
+4. Click **save**.
 
 ![](https://lh4.googleusercontent.com/YGNBNO9txIJCMGpJT140JH_iech6DVJbceBIU7Mm0iiIQnHhW2uTdqVcuE5ORtw4iYzHU9b2HgdX6ZZKs9n3on-dwgUTMrKr001iZXNXwvOsUDzauYZ-HzuhW_AcFZ7EepC1o0t9 =624x260)
