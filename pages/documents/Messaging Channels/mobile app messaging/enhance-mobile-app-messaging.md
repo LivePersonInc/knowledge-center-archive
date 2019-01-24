@@ -6,10 +6,10 @@ indicator: messaging
 subtitle: Introduce rich messaging and shortcuts to make your mobile app messaging
   more user friendly
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-enhance-the-customer-experience.html
+permalink: messaging-channels-mobile-app-messaging-enhance-the-consumer-experience.html
 isTutorial: false
 date: 2019-01-17 13:12:13 +0000
-published: false
+published: true
 
 ---
 The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app available for you to configure.

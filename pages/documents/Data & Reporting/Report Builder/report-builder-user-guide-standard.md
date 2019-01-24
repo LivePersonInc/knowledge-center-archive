@@ -5,7 +5,7 @@ subCategoryName: Report Builder
 indicator: both
 subtitle: 'User guide for users with read only access '
 level3: ''
-permalink: data-&-reporting-report-builder-report-builder-user-guide-standard.html
+permalink: data-reporting-report-builder-report-builder-user-guide-(standard).html
 isTutorial: false
 date: 2019-01-10 11:10:56 +0200
 level3: ''

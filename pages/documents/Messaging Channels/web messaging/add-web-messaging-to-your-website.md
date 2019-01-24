@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: Buttons and banners on your website make it possible to engage consumers
   over messaging
 level3: ''
-permalink: messaging-channels-web-messaging-adding-web-messaging-to-your-website.html
+permalink: messaging-channels-web-messaging-add-web-messaging-to-your-website.html
 isTutorial: false
 date: 2019-01-16 17:31:38 +0000
 

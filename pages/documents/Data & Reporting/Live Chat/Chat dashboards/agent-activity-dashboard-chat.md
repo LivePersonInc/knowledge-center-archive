@@ -6,7 +6,7 @@ indicator: both
 subtitle: This dashboard includes operational metrics used to analyze agent activity
   and performance.
 level3: Chat Dashboards
-permalink: live-chat-chat-dashboards-agent-activity-dashboard.html
+permalink: data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 14:47:20 +0200
 

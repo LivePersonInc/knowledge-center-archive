@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: 'Manage conversations from a range of popular channels in one centralized
   location '
 level3: ''
-permalink: messaging-connectors-overview.html
+permalink: messaging-channels-messaging-connectors-overview.html
 isTutorial: false
 date: 2019-01-20 10:03:12 +0200
 

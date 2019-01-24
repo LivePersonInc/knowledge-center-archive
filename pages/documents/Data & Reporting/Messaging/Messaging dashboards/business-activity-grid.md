@@ -6,7 +6,7 @@ indicator: both
 subtitle: The business activity grid spreads out the funnel metrics in a granular
   view
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-dashboard-business-activity-grid.html
+permalink: data-reporting-messaging-messaging-dashboards-business-activity-grid.html
 isTutorial: false
 date: 2019-01-21 15:15:27 +0200
 

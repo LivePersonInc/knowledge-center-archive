@@ -5,12 +5,12 @@ subCategoryName: Engagement attributes
 indicator: both
 subtitle: ''
 level3: ''
-permalink: data-&-reporting-engagement-attributes.html
+permalink: data-reporting-engagement-attributes-extracting-engagement-attributes-with-no-code.html
 isTutorial: false
 date: 2019-01-17 12:57:45 +0000
 
 ---
-LiveEngage can extract information about certain attributes that exist on your web pages, such as cart total, marketing channel source, transaction order ID and lead details. We call these “engagement attributes”, and they can be used to improve your customer satisfaction, to customize your engagement experience and to generate reports. 
+LiveEngage can extract information about certain attributes that exist on your web pages, such as cart total, marketing channel source, transaction order ID and lead details. We call these “engagement attributes”, and they can be used to improve your customer satisfaction, to customize your engagement experience and to generate reports.
 
 1. Decide what attributes you want to extract.
 2. Find the element that holds the data in your web page source. LivePerson can collect data from html element class, ID or Javascript global variable.

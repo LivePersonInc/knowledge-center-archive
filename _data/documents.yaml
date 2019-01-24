@@ -1,10 +1,10 @@
 - categoryname: Getting started
   image: getting-started
   subcategories:
-    - subcategoryname: LivePerson's conversational platform overview
+    - subcategoryname: LivePerson's conversational commerce platform
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
-    - subcategoryname: Getting started with bot
+    - subcategoryname: Getting started with bots
     - subcategoryname: Add the LivePerson tag to your website
 
 
@@ -13,14 +13,14 @@
   subcategories:
     - subcategoryname: Web messaging
       pages:
-        - pagename: Add messaging to your website
+        - pagename: Add web messaging to your website
         - pagename: Authenticated messaging
         - pagename: Upgrading from live chat to messaging
     - subcategoryname: "Mobile app messaging"
       pages:
         - pagename: Add messaging to your mobile app
         - pagename: Mobile app messaging FAQs
-        - pagename: Enhance mobile app messaging
+        - pagename: Enhance the consumer experience
     - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:
@@ -74,16 +74,15 @@
         - pagename: Routing bot
           level3:
             - level3name: Introduction
-            - level3name: "Step 1 - Create a router bot"
-            - level3name: "Step 2 - Modify the template"
-            - level3name: "Step 3 - Intents"
-            - level3name: "Step 4 - Escalation"
+            - level3name: "Step 1: Create a router bot"
+            - level3name: "Step 2: Modify the template"
+            - level3name: "Step 3: Intents"
+            - level3name: "Step 4: Escalation"
         - pagename: FAQ bot
           level3:
             - level3name: Introduction
-            - level3name: "Step 1 - Create a knowledge base"
-            - level3name: "Step 2 - Build an FAQ bot"
-        - pagename: Post Conversation Survey bot
+            - level3name: "Step 1: Create a knowledge base"
+            - level3name: "Step 2: Build an FAQ bot"
 
 - categoryname: Contact center management
   image: contact-center
@@ -92,14 +91,16 @@
       pages:
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
-        - pagename: Configuring response times
-        - pagename: Automatic messages
+        - pagename: Configuring response times for messaging conversations
+        - pagename: Automatic messages overview
+        - pagename: Automatic messages configuration guide
+        - pagename: Automatic Conversation Distribution (ACD)
         - pagename: Queue prioritization overview
         - pagename: Queue backlog management
         - pagename: Auto close for messaging conversations
         - pagename: Smart Capacity overview
         - pagename: Smart Capacity per skill
-        - pagename: Agent warmup
+        - pagename: Preparing agents to start a shift
         - pagename: Working hours management best practices
         - pagename: Shift scheduler configuration guide
         - pagename: Benchmarks to measure messaging
@@ -107,12 +108,12 @@
       pages:
         - pagename: Queue prioritization for live chat
         - pagename: Automatic conversation distribution
-        - pagename: Automatic messages
-        - pagename: Workload distribution between agent groups
-        - pagename: Using Ignore Max Wait Time
+        - pagename: Automatic messages configuration guide
+        - pagename: Agent groups workload distribution
+        - pagename: Managing maximum wait times
         - pagename: Wrap-up time
-        - pagename: Understand the reason a chat ended
-        - pagename: Surveys for live chat
+        - pagename: Understanding the reason a chat ends
+        - pagename: Surveys with live chat
     - subcategoryname: Campaigns
       pages:
         - pagename: Campaigns overview
@@ -137,10 +138,9 @@
         - pagename: Agent workspace for messaging tour
         - pagename: Agent workspace basics
         - pagename: Managing messaging conversations
-        - pagename: Taking breaks and ending shifts
+        - pagename: Taking breaks & ending your shift
         - pagename: Understanding agent performance
         - pagename: Cobrowse for messaging
-        - pagename: Using Rich Messaging
         - pagename: Messaging Best Practices for Agents
         - pagename: Agent workspace icons for messaging
     - subcategoryname: Manager tools for messaging
@@ -158,6 +158,7 @@
     - subcategoryname: Workspace configuration
       pages:
         - pagename: Adding your own Widgets
+        - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined Content best practices
         - pagename: Predefined Content overview
@@ -181,44 +182,42 @@
             - level3name: Real Time Messaging Dashboard Overview
     - subcategoryname: Live chat
       pages:
-        - pagename: Agent chat data
-        - pagename: Agent manager data
-        - pagename: Optimizing contact center performance with Operational Reports
+        - pagename: Agent manager real time data
+        - pagename: Agent manager historical data
         - pagename: Chat Dashboards
           level3:
             - level3name: Survey activity dashboard
             - level3name: Business activity grid
             - level3name: Goal tracker report
-            - level3name: Operational and staffing
+            - level3name: "Operational & staffing"
             - level3name: Agent activity dashboard
             - level3name: Skills activity dashboard
         - pagename: BI Dashboards
           level3:
             - level3name: "Agent Goal Tracker: Detailed Goal and Conversation Report"
-            - level3name: BI Survey Reports
     - subcategoryname: "How to export 100,000 chats into a dashboard"
-    - subcategoryname: "Meaningful Connection Score (MCS) - beta"
+    - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
-        - pagename: "Login & using the toolkit"
-        - pagename: "MCS Dashboard - monitor agents"
+        - pagename: "Accessing the MCS Toolkit"
+        - pagename: "Using the MCS Toolkit"
     - subcategoryname: Report Builder
       pages:
         - pagename: Report Builder Overview
-        - pagename: "User Guide (standard)"
-        - pagename: "User Guide (advanced customization)"
-        - pagename: FAQs
-        - pagename: "Data Availability & Latency"
+        - pagename: "Report Builder user guide (standard)"
+        - pagename: "Report Builder user guide (customization)"
+        - pagename: Report Builder FAQs
+        - pagename: "Data availability and latency"
         - pagename: Training Tutorials
         - pagename: Terms of use
-        - pagename: Moving from BI to RB
+        - pagename: Moving from BI to Report Builder
         - pagename: Conversation outcomes
     - subcategoryname: Engagement attributes
       pages:
-        - pagename: Data sources and engagement attributes overview
-        - pagename: Extracting data with no coding
+        - pagename: "Data sources & engagement attributes overview"
+        - pagename: Extracting engagement attributes with no code
         - pagename: Setting up engagement attributes
-        - pagename: "Get information on your consumers' transactions"
+        - pagename: "Information on consumer's transactions"
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
@@ -229,7 +228,7 @@
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
       pages:
-        - pagename: Set the Agent Groups hierarchy
+        - pagename: Set the Agent Group hierarchy
         - pagename: Operate business divisions from one account
         - pagename: Connect visitors to Agents by skills
     - subcategoryname: Permissions

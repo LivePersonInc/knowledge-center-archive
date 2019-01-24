@@ -5,14 +5,14 @@ subCategoryName: ''
 indicator: both
 subtitle: Recommended three steps for baseline account security
 level3: ''
-permalink: Security-regualtions-security-account-security-recommendations.html
+permalink: security-regualtions-security-account-security-recommendations.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:50:43 +0200
 published: false
 
 ---
-When it comes to doing business on the web, security is always a top priority. In order for the online marketplace to thrive, businesses and consumers alike need to be assured that their sensitive data is well protected. LivePerson offers a secure, reliable and trusted service and platform through which online businesses can safely communicate with their customers. 
+When it comes to doing business on the web, security is always a top priority. In order for the online marketplace to thrive, businesses and consumers alike need to be assured that their sensitive data is well protected. LivePerson offers a secure, reliable and trusted service and platform through which online businesses can safely communicate with their customers.
 
 We recommend a baseline level of protection on your account to ensure the utmost security of your data. For information on the full range of security features offered by LivePerson, please [contact us](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=agent-workspace-overview).
 
@@ -38,11 +38,11 @@ The password policy settings provide more flexibility to define policies that ma
 | Maximum changes per day | The number of times the password can be changed within a single 24-hour period. | Set the value to a maximum of 3. | Contact LivePerson. |
 | Apply policy to current passwords | Applies these rules to existing passwords. If this option is not selected, the password rules will only apply when a user changes the password, or a new user is added to the system.   | Enable. | Contact LivePerson. |
 
- 
+
 
 For further information on LivePerson’s Password Policy, see [Login Policy](https://kb.liveperson.com/portal/app/portlets/results/viewsolution.jsp?solutionid=150526035608476&isguest=true).
 
-## 
+##
 
 ## Step 2: Restrict Your Login Options
 

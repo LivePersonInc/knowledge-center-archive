@@ -5,7 +5,7 @@ subCategoryName: Report Builder
 indicator: both
 subtitle: Terms of use for the Report Builder
 level3: ''
-permalink: data-&-reporting-report-builder-terms-of-use.html
+permalink: data-reporting-report-builder-terms-of-use.html
 isTutorial: false
 date: 2019-01-17 11:43:05 +0200
 
@@ -36,6 +36,6 @@ To ensure your browser and export software are supported for using the builder, 
 
 ## Your Feedback is Welcome!
 
-Please contact us at [rbfeedback-lp@liveperson.com](mailto:rbfeedback-lp@liveperson.com) with any product related feedback from your experience with Report Builder. We are looking forward to continuously enhancing the range of analyses you will be able to perform with the builder. 
+Please contact us at [rbfeedback-lp@liveperson.com](mailto:rbfeedback-lp@liveperson.com) with any product related feedback from your experience with Report Builder. We are looking forward to continuously enhancing the range of analyses you will be able to perform with the builder.
 
 Thank you for your partnership! Hope you find the builder valuable to your business.

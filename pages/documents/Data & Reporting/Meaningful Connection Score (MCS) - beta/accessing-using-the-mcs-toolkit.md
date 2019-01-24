@@ -1,12 +1,12 @@
 ---
 pagename: Accessing the MCS toolkit
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS) - beta
+subCategoryName: Meaningful Connection Score (MCS)
 indicator: both
 subtitle: Knowing what your consumers experience during the service and sales point-of-contact
   provides a unique opportunity to analyze your operations.
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(MCS)-beta-login-using-the-tool-kit
+permalink: data-reporting-meaningful-connection-score-(MCS)-accessing-the-MCS-tool-kit.html
 isTutorial: false
 date: 2019-01-22 14:28:52 +0200
 

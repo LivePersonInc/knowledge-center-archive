@@ -5,7 +5,7 @@ subCategoryName: Mobile app messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: messaging-channels-web-mobile-app-messaging-faqs.html
+permalink: messaging-channels-mobile-app-messaging-mobile-app-messaging-faqs.html
 isTutorial: false
 date: 2019-01-17 12:48:01 +0000
 
@@ -14,7 +14,7 @@ date: 2019-01-17 12:48:01 +0000
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
-The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our[ developer community](https://developers.liveperson.com/products-channels-inapp-messaging.html). 
+The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our[ developer community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
 
 ### Q**: Is there a test environment to explore the set-up before implementing the program?**
 
@@ -22,11 +22,11 @@ The app owner integrates an SDK and uses its APIs to interface with the app. Thi
 
 ### Q: Can the look and feel of the conversation window be customized?
 
-Each messaging client can configure the product to their own individual specifications. Brands can customize the conversation window to match their own branding and customize it to their desired messaging experience. For more details, see the customizable attributes for [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-attributes.html) and [android](https://developers.liveperson.com/android-attributes.html). 
+Each messaging client can configure the product to their own individual specifications. Brands can customize the conversation window to match their own branding and customize it to their desired messaging experience. For more details, see the customizable attributes for [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-attributes.html) and [android](https://developers.liveperson.com/android-attributes.html).
 
 ### Q: Will the SDK affect my app’s performance?
 
-The SDK footprint is very low in terms of memory and CPU usage. While the messaging feature is in the foreground, the SDK consumes and processes data (depending on usage) in order to sync with the servers. After leaving the conversation screen, the SDK actively disconnects any redundant networking activity. 
+The SDK footprint is very low in terms of memory and CPU usage. While the messaging feature is in the foreground, the SDK consumes and processes data (depending on usage) in order to sync with the servers. After leaving the conversation screen, the SDK actively disconnects any redundant networking activity.
 
 ### Q: How does the integration of messaging impact app size?
 
@@ -45,7 +45,7 @@ The Brand ID is the LiveEngage account number. The App ID is the ID of a specifi
 Yes, the SDK can send push notifications. Please refer to the following guides for additional information and instructions**:**
 
 * iOS push notifications [configuration guide](https://developers.liveperson.com/consumer-experience-ios-sdk-pushnotifications.html#configuring-push-notifications).
-* Android  push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations). 
+* Android  push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
 
 ### Q: How does the SDK ensure that sensitive information is transmitted to consumers securely?
 
@@ -53,9 +53,9 @@ Yes, the SDK can send push notifications. Please refer to the following guides f
 
 For more details, please refer to the /LiveEngage-Messaging-Platform-Security-Overview.html
 
-### Q: Does the consumer have to initiate the first conversation? 
+### Q: Does the consumer have to initiate the first conversation?
 
- Yes. In order to start a connection a consumer must initiate the first message.  Once a connection is established, the agent can resume the conversation at any time. 
+ Yes. In order to start a connection a consumer must initiate the first message.  Once a connection is established, the agent can resume the conversation at any time.
 
 ### Q: Are automated messages available?
 
@@ -65,7 +65,7 @@ Yes. Brands can configure automatic messages that display to consumers during a 
 
 Starting with our In-app Messaging SDK v3.1 (March 2018), brands can use LivePerson’s Monitoring API. This API allows brands to report events related to consumers actions in the brand’s app. These reporting events will feed into the campaigns to allow you to control messaging behaviours in the app directly from the LiveEngage UI.
 
-### Q: Can a consumer initiate a conversation if they have not been authenticated? 
+### Q: Can a consumer initiate a conversation if they have not been authenticated?
 
  Yes. You can add messaging to both authenticated as well as unauthenticated areas of your app.
 
@@ -103,9 +103,9 @@ No installation or plug-ins are required as the LiveEngage Platform is HTML/Java
 
 ### Q: What reports are available?
 
- Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports. 
+ Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
 
-### Q: What aspects of customer history are tracked? 
+### Q: What aspects of customer history are tracked?
 
 LiveEngage tracks all customer conversation transcripts. Tracked information includes the customer’s name, device type and source origin (Facebook, app, web). In the case that the customer has passed along any personal data (such as their email or phone number), that information is displayed as well. CSAT score is included and appended directly to the relevant conversation. In the API that will be available in a beta phase by the end of Aug you will be able to retrieve the conversations with all the above customer data.
 
@@ -115,7 +115,7 @@ We strongly recommend using dedicated agents for messaging.  Operationally, mes
 
 ### Q: Can agents mark conversations as “Resolved” if a consumer doesn't respond in a certain amount of time?
 
-Yes. Current practice is to manually resolve the conversation at a set period of time determined by contact center policies. The Auto close feature of LiveEngage enables brands to determine the exact length of time with no customer response that will trigger an automatic closing of a conversation.  Consult with your Account Reps on what is the right auto close time for your account. 
+Yes. Current practice is to manually resolve the conversation at a set period of time determined by contact center policies. The Auto close feature of LiveEngage enables brands to determine the exact length of time with no customer response that will trigger an automatic closing of a conversation.  Consult with your Account Reps on what is the right auto close time for your account.
 
 ## Platform
 
@@ -136,7 +136,7 @@ The following features are implemented as part of the solution:
 
 In both iOS and Android, data generated by the LivePerson SDK and stored on the
 
-User’s mobile device. The encryption is based on 256bit AES. Transcripts and other session variables are stored on the LivePerson DB as well. 
+User’s mobile device. The encryption is based on 256bit AES. Transcripts and other session variables are stored on the LivePerson DB as well.
 
 ### Q: For how long are transcripts stored?
 

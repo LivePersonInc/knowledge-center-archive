@@ -1,5 +1,5 @@
 ---
-pagename: Taking breaks & ending your shift
+pagename: "Taking breaks & ending your shift"
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
@@ -19,7 +19,7 @@ date: 2019-01-21 12:06:43 +0200
 
 ## Before you leave for the day...
 
-* Set your status to away about 10 minutes before you are ready to leave so that you do not receive new incoming conversations (refer to your company’s manual on guidance for the accurate amount of time  in advance) 
+* Set your status to away about 10 minutes before you are ready to leave so that you do not receive new incoming conversations (refer to your company’s manual on guidance for the accurate amount of time  in advance)
 * Review your open conversations and resolve the ones that can be closed
 * Determine which conversations you want to continue servicing the next day, let the customers know, and manually set the SLA for the next day
 * For conversations that should continue immediately - return them to the queue so that another agent will be able to answer the consumer (you can leave notes to help your colleagues in the summary section)

@@ -6,7 +6,7 @@ indicator: chat
 subtitle: 'Conversation outcomes allows agents to add insight about the conversation
   or resolutions that took place '
 level3: ''
-permalink: 'data-reporting-report-builder-conversation-outcomes.html '
+permalink: data-reporting-report-builder-conversation-outcomes.html
 isTutorial: false
 date: 2019-01-20 11:22:45 +0200
 
@@ -38,7 +38,7 @@ You will need to enable this feature for each of the engagement attributes you w
 
 To enable this feature:
 
-1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page. 
+1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page.
 
    ![](/img/convoutcomes1.png)
 
@@ -76,7 +76,7 @@ The conversation summary widget includes the following sections:
 * **Conversation outcomes:** The agent views only the engagement attributes that are enabled for their specific skills.
 
 {: .notice}  
-If no engagement attributes are enabled, the conversation outcomes section is not displayed. 
+If no engagement attributes are enabled, the conversation outcomes section is not displayed.
 
 To report on a business activity or conversation outcome, the agent should enter the data in the relevant engagement attribute properties and click submit. The data reported by the agent can then be used to track conversions / goals.
 

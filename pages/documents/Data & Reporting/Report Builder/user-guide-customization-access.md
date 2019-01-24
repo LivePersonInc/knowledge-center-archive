@@ -6,7 +6,7 @@ indicator: both
 subtitle: 'This user guide sets out detailed instructions for building your own dashboards,
   creating filters and visualizations and more '
 level3: ''
-permalink: data-&-reporting-report-builder-user-guide-customization-access.html
+permalink: data-reporting-report-builder-report-builder-user-guide-(customization).html
 isTutorial: false
 date: 2019-01-16 11:37:29 +0000
 

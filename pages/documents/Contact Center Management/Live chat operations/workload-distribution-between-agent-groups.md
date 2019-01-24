@@ -1,5 +1,5 @@
 ---
-pagename: 'Agent groups workload distribution '
+pagename: Agent groups workload distribution
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
@@ -17,11 +17,11 @@ The LivePerson load balancing feature automatically distributes the incoming wor
 
 ## **Workload distribution between agent groups**
 
-To ensure the optimal division of workload between agents sharing the same skill, conversation volumes can be spread between agent groups. 
+To ensure the optimal division of workload between agents sharing the same skill, conversation volumes can be spread between agent groups.
 
-This allocation method, especially useful for large enterprises that utilize 'agent groups' for separate departments, subcontractor vendors or call centers, ensures that the volume of chats is automatically distributed, preventing long wait times. 
+This allocation method, especially useful for large enterprises that utilize 'agent groups' for separate departments, subcontractor vendors or call centers, ensures that the volume of chats is automatically distributed, preventing long wait times.
 
-For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 50% of the workload and Agent Group B, representing another vendor, can be set to receive the remaining 50%. 
+For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 50% of the workload and Agent Group B, representing another vendor, can be set to receive the remaining 50%.
 
 ![](/img/workload-distribution-between-agent-groups-1.png)
 
@@ -29,7 +29,7 @@ In case either Agent Group becomes unavailable (i.e. the maximum wait time for t
 
 ### **To enable advanced workload distribution:**
 
-Please note: In order for the Advance Workload Distribution feature to appear on the individual skill page, you must have at least two agent groups configured on the account. 
+Please note: In order for the Advance Workload Distribution feature to appear on the individual skill page, you must have at least two agent groups configured on the account.
 
 1. On the **Users** area, in the **Skills** tab, click on the skill you wish to edit.
 2. In the **Advanced Workload Distribution** section, click on the toggle to enable this feature.
@@ -47,7 +47,7 @@ Please note: In order for the Advance Workload Distribution feature to appear on
 
 ## **Workload balancing between agent groups**
 
-In the event of a particularly high flow of chats to one or more agent group, the traffic can be set to transfer, or ‘cascade’, to other specified agent groups. 
+In the event of a particularly high flow of chats to one or more agent group, the traffic can be set to transfer, or ‘cascade’, to other specified agent groups.
 
 For example, consumers normally directed to an agent group speaking their native language can be sent to another language group if the first becomes overloaded. Agent Group A is the primary group assigned to handle the Sales Spanish language Skill. Should this group become unavailable, chats can be set to cascade to Agent Group B - the secondary group assigned to handle that Skill.
 
@@ -59,7 +59,7 @@ In a similar way, should internal agent teams become too busy, consumers can the
 
 **To cascade workload to backup groups:**
 
-1. In the Advanced Workload Distribution section, click **+Add secondary groups**. 
+1. In the Advanced Workload Distribution section, click **+Add secondary groups**.
 2. To cascade the workload between the secondary agent group(s), **select a group** from the dropdown menu and allocate a percentage to that group.
 3. To add another agent group, click **+Add agent group** and complete the allocation.
 

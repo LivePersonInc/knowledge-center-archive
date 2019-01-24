@@ -1,12 +1,12 @@
 ---
-pagename: Agent manager messaging data
+pagename: Agent manager messaging real time data
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
 subtitle: Real time data bar and dashboard for agent managers to track performance
   of agents
 level3: ''
-permalink: data-&-reporting-messaging-agent-messaging-data.html
+permalink: data-reporting-messaging-agent-messaging-real-time-data.html
 isTutorial: false
 date: 2019-01-16 10:02:31 +0000
 

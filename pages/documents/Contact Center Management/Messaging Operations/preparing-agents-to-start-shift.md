@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: 'Assign messaging conversations gradually using an agent warmup at the start
   of an agent’s shift '
 level3: ''
-permalink: contact-center-management-messaging-operations-preparing-agents-to-start-shift
+permalink: contact-center-management-messaging-operations-preparing-agents-to-start-shift.html
 isTutorial: false
 date: 2019-01-17 15:01:22 +0200
 

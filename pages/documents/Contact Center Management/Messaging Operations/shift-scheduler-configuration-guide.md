@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: Define agents working hours and set consumer expectations for response time
   during a messaging conversation
 level3: ''
-permalink: " contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html"
+permalink: contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html
 isTutorial: false
 date: 2019-01-20 11:26:50 +0200
 

@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: A smart algorithm adjusts agent capacity based on availability, rather than
   conversation concurrency
 level3: ''
-permalink: contact-center-management-messaging-operations-smarty-capacity-overview.html
+permalink: contact-center-management-messaging-operations-smart-capacity-overview.html
 isTutorial: true
 date: 2019-01-17 11:53:17 +0000
 

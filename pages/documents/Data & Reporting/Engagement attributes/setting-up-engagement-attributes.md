@@ -5,7 +5,7 @@ subCategoryName: Engagement attributes
 indicator: both
 subtitle: 'Collect in-depth information by setting up engagement attributes '
 level3: ''
-permalink: data-&-reporting-engagement-attributes-setting-up-engagement-attributes.html
+permalink: data-reporting-engagement-attributes-setting-up-engagement-attributes.html
 isTutorial: false
 date: 2019-01-17 14:12:28 +0200
 

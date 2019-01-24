@@ -1,11 +1,11 @@
 ---
-pagename: Agent manager messaging data
+pagename: Agent manager historical data
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: messaging
 subtitle: Keep an eye on the data bar and dashboard to understand operational performance.
 level3: ''
-permalink: reporting-&-data-web-messaging-agent-manager-messaging-data
+permalink: reporting-data-web-messaging-agent-manager-historical-data
 isTutorial: false
 date: 2019-01-15 13:35:30 +0200
 level3: ''

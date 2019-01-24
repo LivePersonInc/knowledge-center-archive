@@ -6,7 +6,7 @@ indicator: both
 subtitle: This dashboard includes operational metrics used to analyze agent activity
   and performance.
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboard-agent-activity-dashboard.html
+permalink: data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 15:17:48 +0200
 

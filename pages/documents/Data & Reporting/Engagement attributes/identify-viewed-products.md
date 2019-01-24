@@ -1,12 +1,12 @@
 ---
-pagename: 'Identify viewed products '
+pagename: Identify viewed products
 categoryName: Data & reporting
 subCategoryName: Engagement attributes
 indicator: both
 subtitle: By analyzing the products your visitors viewed you can target customers
   according to their interests
 level3: ''
-permalink: data-&-reporting-engagement-attributes-identify-viewed-products.html
+permalink: data-reporting-engagement-attributes-identify-viewed-products.html
 isTutorial: false
 date: 2019-01-20 09:49:34 +0200
 isNew: true

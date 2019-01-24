@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: Connect with the millions of consumers actively using Line monthly
 level3: ''
-permalink: line-connector
+permalink: messaging-channels-line-connector
 isTutorial: false
 date: 2019-01-20 15:11:55 +0200
 

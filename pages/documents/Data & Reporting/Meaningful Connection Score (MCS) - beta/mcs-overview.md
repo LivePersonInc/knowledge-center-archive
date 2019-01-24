@@ -1,16 +1,19 @@
 ---
 pagename: Meaningful Connection Score (MCS) overview
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS) - beta
+subCategoryName: Meaningful Connection Score (MCS)
 indicator: both
 subtitle: Measure the quality of your brand’s connection with every consumer over
   time
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(MCS)-beta.html
+permalink: data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html
 isTutorial: false
 date: 2019-01-22 11:35:20 +0200
 
 ---
+
+**(BETA)**
+
 Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience.
 
 The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.

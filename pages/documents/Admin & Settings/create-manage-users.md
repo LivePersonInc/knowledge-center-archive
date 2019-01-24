@@ -3,9 +3,9 @@ pagename: Create and manage users
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle: " Create and manage users and their roles"
+subtitle: "Create and manage users and their roles"
 level3: ''
-permalink: admin-settings- create-manage-users
+permalink: admin-settings-create-manage-users
 isTutorial: false
 date: 2019-01-21 15:55:21 +0200
 

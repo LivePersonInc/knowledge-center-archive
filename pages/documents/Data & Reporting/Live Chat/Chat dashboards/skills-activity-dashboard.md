@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: 'This dashboard includes metrics used to analyze skill queue performance '
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard
+permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 14:55:50 +0200
 published: false

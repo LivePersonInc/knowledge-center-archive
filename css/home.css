@@ -21,6 +21,7 @@ body {
     height: 100%;
     display: grid;
     grid-template-rows: 150px 730px 720px 640px 50px;
+    grid-template-columns: repeat(4, 2fr);
   }
 
   #homenav {
@@ -34,22 +35,26 @@ body {
     flex-direction: column;
     width: 100%;
     grid-row: 1 / 3;
+    grid-column: 1 / span 4;
   }
 
   #homehero {
     width: 100%;
     grid-row: 3 / 4;
+    grid-column: 1 / span 4;
   }
 
   #homepanel {
     width: 100%;
     grid-row: 4 / 5;
+    grid-column: 1 / span 4;
   }
 
   #homefooter {
     width: 100%;
     grid-row: 5 / 6;
     display: flex;
+    grid-column: 1 / span 4;
   }
 }
 
@@ -789,3 +794,66 @@ a.mainlink:hover {
 }
 
 /* Search Styling Ends */
+
+/* Media Queries */
+
+@media screen and (max-width: 450px) {
+  #homewrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #logocontainer {
+    margin-left: 70px;
+    justify-content: center;
+  }
+
+  #homebuttons {
+    display:none;
+  }
+
+  #hometitle {
+    width: 83%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  #homeheader {
+    padding-bottom: 50px;
+    background: right no-repeat url(img/BG.jpg);
+    background-size: 280%;
+  }
+
+  #boxesrow {
+    margin-bottom: 0;
+    flex-direction: column;
+    display: inherit;
+  }
+
+  .mainboxwrapper {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  #allarticlesrow {
+    margin-top: 20px;
+  }
+
+  #homepanel {
+    display: none;
+  }
+
+  #footerbottomrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #footertext {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}

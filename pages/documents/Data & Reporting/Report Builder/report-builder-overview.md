@@ -5,7 +5,7 @@ subCategoryName: Report Builder
 indicator: both
 subtitle: A high level overview in to the Report Builder
 level3: ''
-permalink: Reporting-&-data-report-builder-overview.html
+permalink: Reporting-data-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
 level3: ''

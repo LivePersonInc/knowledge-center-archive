@@ -1,9 +1,9 @@
 ---
-pagename: "Step 3 - Intents"
+pagename: "Step 3: Intents"
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Routing Bot
-permalink: bots-automation-conversation-builder-routing-bot-step-3-intents.html
+permalink: bots-automation-conversation-builder-routing-bot-step-3:-intents.html
 indicator: both
 isTutorial: false
 ---

@@ -6,7 +6,7 @@ indicator: both
 subtitle: This dashboard includes raw data for every goal reached in any of the selected
   account’s campaigns
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboard-goal-tracker-report.html
+permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 isTutorial: false
 date: 2019-01-21 13:20:07 +0000
 

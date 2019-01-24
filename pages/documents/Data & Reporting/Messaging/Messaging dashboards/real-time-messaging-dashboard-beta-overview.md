@@ -1,17 +1,20 @@
 ---
-pagename: Real time messaging dashboard (beta) overview
+pagename: Real time messaging dashboard overview
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: The real time dashboard leverages the power of the real time operational
   and administrative APIs to enable users to monitor the brand’s account health in
   both real time and for the previous 24 hours.
-level3: ''
-permalink: data-reporting-messaging-messaging-dashboard-real-time-messaging-dashboard.html
+level3: 'Messaging Dashboards'
+permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard.html
 isTutorial: false
 date: 2019-01-21 15:40:12 +0200
 
 ---
+
+**(BETA)**
+
 ## Introduction
 
 The LivePerson real time dashboard leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
@@ -269,7 +272,7 @@ You can click on current, closed, agents and skills
 
 * Choosing current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
 * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for open conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
-* For agents and skills there are no configurations to customize. 
+* For agents and skills there are no configurations to customize.
 
   ![](/img/RTMD15.png)
 * If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.

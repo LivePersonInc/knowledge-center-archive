@@ -5,7 +5,7 @@ subCategoryName: SMS
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: complying-with-sms-regulations.html
+permalink: messaging-channels-complying-with-sms-regulations.html
 isTutorial: false
 date: 2019-01-20 10:46:06 +0200
 

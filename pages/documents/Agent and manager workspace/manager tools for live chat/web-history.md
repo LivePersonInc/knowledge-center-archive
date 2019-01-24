@@ -5,7 +5,7 @@ subCategoryName: Manager tools for live chat
 indicator: chat
 subtitle: View and search through all closed chats
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-chat-web-history.html
+permalink: agent-manager-workspace-manager-tools-for-live-chat-web-history.html
 isTutorial: false
 date: 2019-01-21 14:41:14 +0200
 

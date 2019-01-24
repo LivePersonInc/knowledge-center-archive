@@ -6,7 +6,7 @@ indicator: both
 subtitle: Provide access to external systems by adding customized widgets to the agent
   workspace
 level3: ''
-permalink: adding-your-own-widgets.html
+permalink: agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 08:32:26 +0000

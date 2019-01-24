@@ -1,9 +1,9 @@
 ---
-pagename: "Step 2 - Build an FAQ bot"
+pagename: "Step 2: Build an FAQ bot"
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: FAQ bot
-permalink: bots-automation-conversation-builder-faq-bot-step-2-build-an-faq-bot.html
+permalink: bots-automation-conversation-builder-faq-bot-step-2:-build-an-faq-bot.html
 indicator: both
 isTutorial: false
 ---

@@ -5,7 +5,7 @@ subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: 'Manage chat conversations efficiently '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-chat-agent-workspace-for-live-chat.html
+permalink: agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html
 isTutorial: false
 date: 2019-01-21 14:19:13 +0200
 

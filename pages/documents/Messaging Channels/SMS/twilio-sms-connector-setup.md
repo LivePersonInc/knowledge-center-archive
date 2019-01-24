@@ -5,7 +5,7 @@ subCategoryName: SMS
 indicator: messaging
 subtitle: Easily add and manage SMS numbers to expand the reach of your brand
 level3: ''
-permalink: twilio-sms-connector-setup.html
+permalink: messaging-channels-twilio-sms-connector-setup.html
 isTutorial: false
 date: 2019-01-17 17:11:38 +0200
 

@@ -1,11 +1,11 @@
 ---
-pagename: Agent workspace icons
+pagename: Agent workspace icons for messaging
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-icons.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-icons-for-messaging.html
 isTutorial: false
 date: 2019-01-21 13:18:27 +0200
 

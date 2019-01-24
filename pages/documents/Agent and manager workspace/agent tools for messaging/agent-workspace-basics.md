@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messging-agent-workspace-basics.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-basics.html
 isTutorial: false
 date: 2019-01-21 11:24:58 +0200
 
@@ -48,7 +48,7 @@ Make sure you have all your tools ready at hand, your CRM integrations are logge
 
 Some contact centers opt to configure the ‘warm up’ function for agents. If this is enabled, the incoming conversations assigned to you at the beginning of your shift will be slower and build gradually. The warm up feature will send you one message at a time with a defined interval between the first few incoming conversations, allowing you to adjust to your shift and get into the flow of your messaging workload.
 
-## Viewing closed conversations 
+## Viewing closed conversations
 
 ![](/img/workspacebasics1.png)
 

@@ -1,13 +1,13 @@
 ---
 pagename: Using the MCS Toolkit
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS) - beta
+subCategoryName: Meaningful Connection Score (MCS)
 indicator: both
 subtitle: The MCS toolkit provides you with a deep analysis of performance using the
   MCS, at the account level, agent level, conversation level, and even message by
   message
 level3: ''
-permalink: data-reporting-meaningful-connection.html
+permalink: data-reporting-meaningful-connection-score-(mcs)-using-the-mcs-toolkit.html
 isTutorial: false
 date: 2019-01-22 15:45:11 +0200
 isNew: false

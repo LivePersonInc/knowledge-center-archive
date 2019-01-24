@@ -1,5 +1,5 @@
 ---
-pagename: Managing the maximum wait time
+pagename: Managing maximum wait times
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
