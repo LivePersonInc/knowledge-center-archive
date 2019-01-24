@@ -30,19 +30,19 @@ To ensure extra security, only 2 characters are required from the visitor, so th
 
 Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the agent workspace.
 
-![ID&V-agent - final - Copy.png](https://lh4.googleusercontent.com/JLYf4Q7CNWg0yAZ-Y-Qk7ix0NrDeaUyzmfTdV98BPbTZfKaUdivfYSCcn8NHsvjYQJns3QeSyZAg9aECWVzKt0k1cMjdEPwFBMLiUIyFt5SEfPsDl341bW3MaQt8imtGUvuCCOrj =563x319)
+![](/img/IDV1.png)
 
 1\.  The agent clicks the ID&V button in the Agent Workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
 
 {: .notice}  
 The agent must complete all the required fields before the form can be sent to the visitor.
 
-![](https://lh4.googleusercontent.com/kt-G6OrIDVnjSYaaK4BjVXcwQFFx-mWg43w7MOuV74bpsXvOCMnlKzLm88mnRGxMCthsztf_eOGj7C2DlYLeqLnn2EaoZtSWRxHrH1y3EVAJiDZFaOmiCeNr0_MH1X1_1BzP7ZV1 =404x491)
+![](/img/IDV2.png)
 
 {:Start="2"}  
-2\.  A dialog with the message: “Enter characters ___ and ___  from your ___ ” is displayed to the visitor in the chat transcript, along with both Submit and Cancel buttons.
+2\.  A dialog with the message: “Enter characters ___ and ___  from your ___ ” is displayed to the visitor in the chat transcript, along with both submit and cancel buttons.
 
-![](https://lh5.googleusercontent.com/D6w2GfFnZ07MUiGyrDzxzugQnG3r34QOV0prwRTXTmp83Np9dhHW6irA-oEJMdHbodGh2dKp6VH3YRlzPDQnQYEwTNRBGPnsqhIXsUrl8VNnqcI_oF-eV5YFi1h7kvk5rCzIZZT9 =467x415)
+![](/img/IDV3.png)
 
 {:Start="3"}
 
@@ -53,7 +53,7 @@ If the visitor cancels the request, the agent receives a message indicating that
 
 4\.  The agent receives a notification indicating which information was submitted by the visitor, for example, Visitor entered: 2 and 4.
 
-![](https://lh6.googleusercontent.com/LrVJmon9acHfgJcBlH1rCA0ncwe2vc02NDXZKwE94g_MhWR0_sXifSe8JMkmVP5w-ZMrQi3QHBCQjwPio-KzbqMGy63rGn_30tbNAaL3yQHJeVHWFUQkw4jDaVtvjttEi4bJZHUY =624x599)
+![](/img/IDV4.png)
 
 {:Start="5"}  
 5\. The data is displayed as masked in the visitor transcript and in the database.
