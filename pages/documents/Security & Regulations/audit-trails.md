@@ -24,6 +24,8 @@ An audit trail is available for the following elements:
 * Permissions
 * LoBs
 * Post conversation survey
+* Campaign scheduling 
+* Working hours management
 
 Audit data related to user logins to the LiveEngage system is not available.
 
@@ -57,6 +59,8 @@ The audit trail export is limited to 100,000 records. In case more than 100,000 
 
 Audit trails are available on the following features:
 
-* Working hours management 
+* Working hours management
 * Campaign timeframes
 * Post conversation survey
+
+![](/img/audit4.png)
