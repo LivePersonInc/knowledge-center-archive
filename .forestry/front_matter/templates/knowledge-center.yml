@@ -157,7 +157,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
-- pages/documents/Contact Center Management/managing-a-contact-center-that-messages.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
@@ -220,3 +219,4 @@ pages:
 - pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
 - pages/documents/Security & Regulations/Security/ip-address-blocking.md
+- pages/documents/Contact Center Management/managing-a-contact-center-that-messages.md
