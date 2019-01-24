@@ -53,11 +53,11 @@ Please note throughout this document, when referring to the Engagement window, t
 
 Below is the Embedded Engagement window with its various components labelled.
 
-![](https://lh5.googleusercontent.com/PYZdWvaYDzGBRTdECt_6aWdxU5FiwXUTpmrzLyXMztR0LztFIE9nK2I5zw78ouKwIRpzBdxg7kULrR2CVacuaeS-jUr-MdG-Gza-NqcbjQk6d9qOlZx0iOjqv-yAm47behOmcWaD =509x349)
+![](/img/accesspolicy1.png)
 
 _Figure 1: The Embedded Engagement window_
 
-![](https://lh4.googleusercontent.com/Rm17Kt_06ttmqvl9mmUen0Nx5loN2-oG1Fri60MDTwsmKhBmZN5yQ3koXIvsUm1tk9R82SbdzmFUa7944TeCO1OQ0xlm8hUVIspp3I5vY9WwPnfGntWO3E6ylQnq12EygB5VoSEw =379x359)
+![](/img/accesspoli2.png)
 
 _Figure 2: The embedded engagement window, Action menu expanded_
 
@@ -87,14 +87,15 @@ The embedded engagement window supports the following survey types:
 
 There is an option to make survey questions mandatory; in which case a visitor can only submit the survey when all mandatory questions are answered. Below is an example of an offline survey form in the Embedded Engagement window.
 
-![](https://lh6.googleusercontent.com/1qQkO6nwPp3SllnrfW976g616OLaLFPkg2SaeLA5K3j6_q9Q-T0K2_UFI2yEyN6YzijyqIdvFUTPt7FEl2pDTa8mvCq45sSpNsft4Xi8iedHOVz0gx8Fs5fiXehmKKg7XdAtCz9D =241x461)
+![](/img/accesspoli3.png)
 
-_Figure 3: Offline Survey Example_
+_Figure 3: Offline survey example_
 
 **Messaging CAST survey**:
 
-Customer Satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).  
-![](https://lh5.googleusercontent.com/WWUSTeNV-9KhkF42MLwvRrdIGyPaUBUQauw671rxAQSxHyl_V8JWZgZgzeij_-mqJauSctCIXXQbJK_dPQGV4Ydt-aOAmP-wzfRJ9VZdieWaJ3mIP5ZTt6wVnykm97tPSFYAf-2Z =251x359)
+Customer Satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).
+
+![](/img/accesspoli4.png)
 
 ## **Secure form widget**
 
@@ -106,7 +107,7 @@ Our secure form, which is sent by the agent to the visitor, contains various que
 
 The secure form is opened in a widget in the engagement window. On desktop it opens alongside the engagement window, and on mobile it appears on top of the engagement window.
 
-![](https://lh4.googleusercontent.com/xJqixILPRa0XGfxRW9UeDlTPyM7aZiZ6Ut0em-GFdsS2GHJI_HJev5B0I9O5uOMvWoAITBxm5IL94U1ZJ8qKJ6x5se9E0rdJUdyc4g9Zg8NAnDw4gsoCWfscu3AB0N_yx5M1o-Mh =624x352)
+![](/img/accesspoli5.png)
 
 _Figure 4: Secure form widget_
 
@@ -164,7 +165,7 @@ All the information mentioned above in the full keyboard support section is also
 
 All controls that can gain focus in the window, have a visible focus, highlighted in blue, so that the visitor can have a clear indication of what they are currently focused on.
 
-_![](https://lh5.googleusercontent.com/QVyrisl-vohSxbjfjM2rZYVJ4zmijIqeVZ8o0_USwJ7EaX_ATFAnlV1aFnlqzfgHyfs2v22i7R08vkn5miHbBCAkUtjTDPRMbaGzqaWzfdXu40TWtGOd-16vpA52K8IUQJPEwKNd =230x371)_
+![](/img/accesspoli6.png)
 
 _Figure 5: Visible Focus Highlighting_
 
