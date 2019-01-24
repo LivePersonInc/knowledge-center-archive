@@ -9,7 +9,6 @@ permalink: Security-regulations-security-IP-address-blocking.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 12:06:47 +0200
-published: false
 
 ---
 In order to protect your online security and the safety of your agents, it may become necessary on occasion to block an IP address, or a group of IP addresses. For example, if your platform is being attacked by malicious software or if your agents are having trouble with abusive customers.
