@@ -5,12 +5,12 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Capture all responses to surveys presented to agents and consumers
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html
+permalink: data-reporting-chat-dashboards-live-chat-chat-dashboards.html
 isTutorial: false
 date: 2019-01-21 11:41:23 +0000
 
 ---
-Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.  
+Capture all responses to surveys presented to agents and consumers in your Live Chat implementation. This dashboard supports dynamic drilling down into specific survey questions and their respective responses, including a dedicated predefined visualization for analyzing CSAT trends.
 
 **Primary datasets:** Survey forms and answers
 
@@ -112,3 +112,7 @@ Columns (metrics):
 1. VIEWED SURVEY
 2. COMPLETED SURVEY
 3. SURVEY COMPLETION RATE
+
+please note:
+
+this dashboard is also available in BI

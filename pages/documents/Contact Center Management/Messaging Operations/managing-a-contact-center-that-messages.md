@@ -8,8 +8,9 @@ subtitle: In order for brands to run their contact centers efficiently with mess
   to be tailored to messaging operations.
 level3: ''
 permalink: contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html
-isTutorial: false
+isTutorial: true
 date: 2019-01-16 14:34:32 +0000
+isNew: false
 
 ---
 Messaging is now the preferred mode of communication for both sales and care use cases. Over 90% of people’s day-to-day conversations happen in digital messaging channels like SMS, Facebook and WhatsApp. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are - through messaging. This shift traditional voice calls and live chat to messaging is transforming the way brands and consumers communicate.
@@ -17,6 +18,10 @@ Messaging is now the preferred mode of communication for both sales and care use
 ![](/img/managing-cc-that-messages-1.gif)
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
+
+![](/img/lp-cc-3.png)
+
+[https://vimeo.com/302277356/6775161226](https://vimeo.com/302277356/6775161226 "https://vimeo.com/302277356/6775161226")
 
 ## How messaging benefits a contact center
 
