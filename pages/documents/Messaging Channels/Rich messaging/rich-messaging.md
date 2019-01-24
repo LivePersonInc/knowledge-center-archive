@@ -9,7 +9,6 @@ permalink: messaging-channels-rich-messaging-rich-messaging
 isTutorial: false
 isNew: false
 date: 2019-01-24 15:48:11 +0200
-published: false
 
 ---
 **Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Messaging is the key to driving more actions directly within in your messaging conversation.**
