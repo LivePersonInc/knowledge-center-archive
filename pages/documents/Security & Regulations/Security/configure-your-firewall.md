@@ -10,7 +10,6 @@ permalink: security-regulations-security-configuring-your-firewall.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 11:59:09 +0200
-published: false
 
 ---
 This article provides the IP ranges and certificate provider configuration which must be whitelisted in your firewall in order to enable the full functionality of the LivePerson Workspace.
@@ -25,7 +24,7 @@ LiveEngage services are Geo-Located. LiveEngage users will usually get serviced 
 
 Some LiveEngage services rely on the WebSocket technology to provide the best experience. Your firewall must therefore allow these connections. WebSocket technology works over standard port 443, with the only difference being that it is a long-lived connection that should not be closed by the firewall after timeouts or for any other reason.
 
-{: .notice}_  
+{: .notice}  
 LiveEngage comprises many different services, with new IP ranges added from time to time. Please refer back to this article to ensure your firewall settings are up-to-date._
 
 | IPv4 Range | CIDR Block |
@@ -33,8 +32,7 @@ LiveEngage comprises many different services, with new IP ranges added from time
 | 43.251.40.0 - 43.252.43.255103.42.132.0 - 103.42.135.255162.252.72.0 - 162.252.75.255162.252.76.0 - 162.252.79.255178.249.96.0 - 178.249.99.255178.249.100.0 - 178.249.103.255199.187.116.0 - 199.187.119.255208.89.12.0 - 208.89.15.255185.6.224.0 - 185.6.227.255 | 43.251.40.0/22103.42.132.0/22162.252.72.0/22162.252.76.0/22178.249.96.0/22178.249.100.0/22199.187.116.0/22208.89.12.0/22185.6.224.0/22 |
 
 | IPv6 Range | CIDR Block |
-| --- | --- |
-2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff			2a03:6400::/32
+2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff|			2a03:6400::/32
 
 **Domains**
 
