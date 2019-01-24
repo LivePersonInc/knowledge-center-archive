@@ -9,16 +9,15 @@ permalink: Security-regulations-SSO-unified-login
 isTutorial: false
 isNew: false
 date: 2019-01-24 14:23:19 +0200
-published: false
 
 ---
-The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to authenticate once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated. 
+The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to authenticate once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 
 This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation – a regulation which requires multifactor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multifactor authentication with its selected provider, and leverage that authentication when accessing LiveEngage.
 
 This capability includes an architecture based on the SAML protocol, a standard protocol for implementing and supporting Single Sign-On. This architecture ensures both scalability as well as the highest level of security.
 
-![](https://lh3.googleusercontent.com/GywJ3fwMWX7dtKx45UNyclFBal4Z-uiVzjCz73wZsr_91eoPX3pjm1LXmqInfCJIGf6oVMnM5mJBVSLesZGzlPuDvazwK-GY6F_0ReQ3CW2d6SDuJ2ieaAECecRT_mnj1TZxWD-y =579x354)
+![](/img/sso1.png)
 
 Figure 1: Architecture based on SAML Assertion
 
@@ -27,10 +26,9 @@ Prerequisites for LiveEngage:
 * SAML-enabled IdP server
 * Valid X.509 certificate
 
-##   
-**Configuration**
+## **Configuration**
 
-Customers wishing to authenticate agents to LiveEngage based on the SSO Unified Login feature need to complete the following: 
+Customers wishing to authenticate agents to LiveEngage based on the SSO Unified Login feature need to complete the following:
 
 ### **Configuration on LivePerson’s Environment**
 
@@ -38,7 +36,7 @@ The following settings will be handled by LivePerson’s Production department o
 
 The customer needs to provide LivePerson with their X.509 certificate that includes the signature algorithm called: SHA256. The certificate is then stored in the customer’s site configuration and is used for validating the SAML assertions. LivePerson will provide the customer with the certificate and assertion consumer URL.
 
- The customer needs to provide LivePerson with the following three parameters:
+The customer needs to provide LivePerson with the following three parameters:
 
 * **Login page**:  A login page to IdP when trying to access LiveEngage without prior authentication to customer IdP.
 * **Logout page**:  A URL that the user will be redirected to when logging out of LiveEngage.
@@ -65,77 +63,3 @@ The customer needs to provide LivePerson with their X.509 certificate that inclu
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
 * It is advised that once Unified Login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out 2-factor login, IdP and agent definition issues.
 * It is the responsibility of the brand to update LivePerson with the renewed X.509 certificate a month before the current certificate expires.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
