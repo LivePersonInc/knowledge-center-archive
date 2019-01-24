@@ -10,7 +10,6 @@ permalink: security-regulations-accessibility-policy.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 14:47:14 +0200
-published: false
 
 ---
 LivePerson is a leading provider of mobile and online messaging, facilitating a meaningful connection between brands and consumers. LiveEngage, the Company's enterprise-class, cloud-based platform, allows consumers to stop wasting time on hold with impersonal 1-800 numbers, and instead directly message their favorite brands, just as they do with friends and family. More than 18,000 businesses, including Adobe, Citibank, EE, HSBC, IBM, Orbitz, PNC, Home Depot, and Disney rely on the unparalleled intelligence, security and scalability of LiveEngage to reduce costs, increase lifetime value and create meaningful connections with consumers.
