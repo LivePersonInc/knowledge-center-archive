@@ -6,11 +6,10 @@ indicator: both
 subtitle: Queue visibility, queue prioritization, Google My Business and AdWords Connectors,
   mobile app support for post conversation survey and more
 level3: ''
-permalink: whats-new-october-2018
+permalink: whats-new-october-2018.html
 isTutorial: true
 isNew: false
 date: 2019-01-24 11:08:09 +0200
-published: false
 
 ---
 [https://vimeo.com/295148682/4dd1ae3b46](https://vimeo.com/295148682/4dd1ae3b46 "https://vimeo.com/295148682/4dd1ae3b46")
