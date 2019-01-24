@@ -1,0 +1,65 @@
+---
+pagename: Configuring your firewall
+categoryName: Security & regulations
+subCategoryName: Security
+indicator: both
+subtitle: IP ranges and certificate provider configuration which must be whitelisted
+  in your firewall in order to enable the full functionality
+level3: ''
+permalink: security-regulations-security-configuring-your-firewall.html
+isTutorial: false
+isNew: false
+date: 2019-01-24 11:59:09 +0200
+published: false
+
+---
+This article provides the IP ranges and certificate provider configuration which must be whitelisted in your firewall in order to enable the full functionality of the LivePerson Workspace.
+
+## IP ranges for your firewall whitelist
+
+LiveEngage communicates with LivePerson’s servers via ports 80 and 443. Your firewall and other hardware/software protection should be configured to allow outbound traffic from your network to LivePerson servers on these ports. No other ports are required.
+
+Below is a detailed list of the IP ranges that should be whitelisted in your firewall settings to allow communication with LivePerson.
+
+LiveEngage services are Geo-Located. LiveEngage users will usually get serviced from the nearest LivePerson Farm, however, all of the IP addresses below should be whitelisted.
+
+Some LiveEngage services rely on the WebSocket technology to provide the best experience. Your firewall must therefore allow these connections. WebSocket technology works over standard port 443, with the only difference being that it is a long-lived connection that should not be closed by the firewall after timeouts or for any other reason.
+
+{: .notice}_  
+LiveEngage comprises many different services, with new IP ranges added from time to time. Please refer back to this article to ensure your firewall settings are up-to-date._
+
+| IPv4 Range | CIDR Block |
+| --- | --- |
+| 43.251.40.0 - 43.252.43.255103.42.132.0 - 103.42.135.255162.252.72.0 - 162.252.75.255162.252.76.0 - 162.252.79.255178.249.96.0 - 178.249.99.255178.249.100.0 - 178.249.103.255199.187.116.0 - 199.187.119.255208.89.12.0 - 208.89.15.255185.6.224.0 - 185.6.227.255 | 43.251.40.0/22103.42.132.0/22162.252.72.0/22162.252.76.0/22178.249.96.0/22178.249.100.0/22199.187.116.0/22208.89.12.0/22185.6.224.0/22 |
+
+| IPv6 Range | CIDR Block |
+| --- | --- |
+2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff			2a03:6400::/32
+
+**Domains**
+
+Liveperson owns these second level domains:
+
+* [liveperson.com](http://liveperson.com/)
+* [liveperson.net](http://liveperson.net/)
+* [lpsnmedia.net](http://lpsnmedia.net/)
+* [liveengage.net](http://liveengage.net/)
+* [liveengage.com](http://liveengage.com/)
+* [liveper.sn](http://liveper.sn/)
+
+**Certificate Providers**
+
+LiveEngage works with the following certificate providers: VeriSign, thawte, Comodo, GeoTrust, and CyberTrust.
+
+Please make sure that the Certificate Revocation Lists (CRL) and the Online Certificate Status Protocols (OCSP) of the following providers are allowed by your firewall and other hardware/software protection:
+
+* [http://crl.verisign.com](http://crl.verisign.com "http://crl.verisign.com")
+* [http://crl.thawte.com](http://crl.thawte.com "http://crl.thawte.com")
+* [http://crl.comodoca.com](http://crl.comodoca.com "http://crl.comodoca.com")
+* [http://crl.geotrust.com](http://crl.geotrust.com "http://crl.geotrust.com")
+* [http://crl.omniroot.com](http://crl.omniroot.com "http://crl.omniroot.com")
+* [http://ocsp.verisign.com](http://ocsp.verisign.com "http://ocsp.verisign.com")
+* [http://ocsp.thawte.com](http://ocsp.thawte.com "http://ocsp.thawte.com")
+* [http://ocsp.comodoca.com](http://ocsp.comodoca.com "http://ocsp.comodoca.com")
+* [http://ocsp.usertrust.com](http://ocsp.usertrust.com "http://ocsp.usertrust.com")
+* [http://ocsp.geotrust.com](http://ocsp.geotrust.com "http://ocsp.geotrust.com")
