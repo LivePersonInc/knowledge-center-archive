@@ -10,7 +10,6 @@ permalink: whats-new-september-2018.html
 isTutorial: true
 isNew: false
 date: 2019-01-24 11:24:36 +0200
-published: false
 
 ---
 [https://vimeo.com/289680582/867daf2de2](https://vimeo.com/289680582/867daf2de2 "https://vimeo.com/289680582/867daf2de2")
