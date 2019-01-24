@@ -9,7 +9,6 @@ permalink: security-regulations-audit-trails
 isTutorial: false
 isNew: false
 date: 2019-01-24 15:00:44 +0200
-published: false
 
 ---
 A list of all changes made to individual users, profiles, skills, lines of business or agent groups across the whole account is available for view by account administrators in the audit trail for users.
