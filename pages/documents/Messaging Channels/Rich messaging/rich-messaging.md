@@ -27,7 +27,7 @@ The LiveEngage messaging solution allows brands to send messages to customers in
 
 Structured content allows you to show simple cards which include text, images, catalogues, maps and buttons, to enhance the conversation with the consumer. When building your cards, you can have an ‘add to cart’ option, confirmation and deep linking buttons, turning a simple app interaction into conversational commerce. Structured content cards enables an improved and more efficient service opening up thousands of use cases- just what consumers expect from messaging.
 
-![](https://lh5.googleusercontent.com/YB6RZhExCIb6voqJe6CBmQy5mtHbMF3udWmN8U8IP3vJJVXrJENGnQEo_B5-iEs0ILwVWyN-I_nKOz21l32kP8ru6gNOc5pD6cvUttB1unBVhllT1YnJAQAKSHpIyzK4qmM8mume =160x281)![](https://lh3.googleusercontent.com/5bofHRJT1Rlu44w1TWaZpnj7n7VpKS_7veVHxehQoKZrY5qrTVln-x60OtkQKVNJgdcoCm9KwIHXqxgUB4Ef7L4ICtG7yB922d9LTEXNhnITT-lpyuda7nMBtFbJSGtmC06ldBe9 =158x282)
+![](/img/RM1.png)
 
 Currently available for chat and messaging channels
 
@@ -39,7 +39,7 @@ Currently available for In-App messaging, Web-Messaging, and Facebook Connector.
 
 See more in the [structured content user guide.]()
 
-![](https://lh3.googleusercontent.com/867wG1L5fQrnKxvxXWhMYWreQGTLmC0y3pQJ08SuAhuI1j6xoWKdqYftL-UUDH8zXCiGHqI-w0pxDgwvumZwgJvHfkswk3fUbqX_62x_uPXpu6tf4K-UpJy-h72qlPjlEma3NWuz =196x348)
+![](/img/RM2.gif)
 
 **Quick Replies: Create short preformatted instant replies to enable consumers to quickly and accurately state their intent for both bots and agents.**
 
@@ -49,15 +49,15 @@ Currently available for mobile app, Web-Messaging, and Facebook Messenger.
 
 For more information on Quick replies including configuration and set up, please refer to our [Quick Replies User Guide]()
 
-![](https://lh6.googleusercontent.com/aOkLoHUmDFViE_Yd_43CfX0eaIkMfv2XwoaeAuWfie-Njm-KeTO3pfzwj21KaF9wevlU_GBRY8IK-SBLvvZ1biXItdYPgyRB6ADzZkejcqP6TXOTsfMQWV6ofOL_W_06jJYMPRHn =167x296)
+![](/img/RM3.gif)
 
 **Photo sharing: Make messaging a more visual experience, increasing communication efficiency and reducing time to resolution.**
 
-Photo sharing empowers consumers to share images with agents to explain complex issues or requests quicker and more accurately. Photo Sharing is currently in beta version. 
+Photo sharing empowers consumers to share images with agents to explain complex issues or requests quicker and more accurately. Photo Sharing is currently in beta version.
 
 Please refer to Photo Sharing [Photo Sharing User Guide]() for more information.
 
-![](https://lh3.googleusercontent.com/_8uFzaX1bUQ_qIId51cS3iKcLl5xxS5Rm8KFpP-vm5CLqL2sLT62V_V1CKe5n0Fs9kRiFPXouSFruy5w-ZFhSjG11DjPHVhBx0Ap2ab3q7KVXG2-3aK74y3GTzwiUoU5rwnjdaM7 =155x278)
+![](/img/RM4.png)
 
 **Audio messaging**: **Consumers can communicate with brands easier and faster by sending voice recordings**
 
@@ -67,4 +67,4 @@ Currently, it’s only available on mobile App (v2.3) but will be added to addit
 
 For more information on Audio messaging including configuration, please see our[ Audio Messaging User Guide]()
 
-![](https://lh3.googleusercontent.com/ryiB0Dkepzi1lQkc2w-mGvUJsVnnaeLJmdmkQ4VoPpVCLfMdBzPsCiQ3l2yyh5Zh0bgKmDW3WXHz7IjsEshQlOmH6XZQXedgFE3WI5j47vSGrmFJvnobot4-nzYtOlVSFiXronoO =167x296)![](https://lh4.googleusercontent.com/relX96xaEEwMhjT_2tNrRdVzci2A3f_DbGTuPYV1TADOUe7buyc6trzmYFD-exG5f9VHByluRdSx36fxa1ksv3oHHUHOkU9g4-l_pICUAY8cxpDI023SmNPl_vbK7uKS2fcTPXTQ =167x296)
+![](/img/RM5.png)
