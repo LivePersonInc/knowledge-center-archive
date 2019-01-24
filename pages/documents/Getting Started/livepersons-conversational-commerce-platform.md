@@ -9,7 +9,7 @@ level3: ''
 permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
 isNew: false
-date: 2019-01-23 15:04:36 +0200
+date: 2019-01-23 13:04:36 +0000
 
 ---
 Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
@@ -46,11 +46,11 @@ These characteristics raise fundamental questions to contact centers: How to sca
 
 Most contact centers today are only equipped for chat-like interactions that are session based and have organized their operations and measurements around this model. In order to succeed with messaging, LivePerson has developed new tools and capabilities that focus on automation to scale conversations, leveraging machine learning and AI. Automation enables brands to  adopt messaging and still run at massive scale, enabling radical productivity in the contact center by combining the power of machine learning and AI with the insight and experience of brand employees.
 
-![](/img/lp-cc-3.png)
-
 ## How LivePerson’s conversational platform works
 
 Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
+
+[https://vimeo.com/312966468/a98719c6f7](https://vimeo.com/312966468/a98719c6f7 "https://vimeo.com/312966468/a98719c6f7")
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
 
