@@ -141,7 +141,6 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md
 - pages/documents/Messaging Channels/Connectors/google-my-business.md
 - pages/documents/Messaging Channels/mobile app messaging/add-messaging-to-your-mobile-app.md
-- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
@@ -155,11 +154,9 @@ pages:
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
-- pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Contact Center Management/Live chat operations/surveys-with-live-chat.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Admin & Settings/create-manage-users.md
@@ -168,19 +165,15 @@ pages:
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
-- pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-activity-dashboard.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Getting Started/liveperson-tag.md
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/real-time-messaging-dashboard-beta-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-using-the-mcs-toolkit.md
-- pages/documents/Admin & Settings/set-the-agent-group-hierarchy.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
-- pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Data & Reporting/Report Builder/terms-of-use.md
 - pages/documents/Data & Reporting/Report Builder/moving-from-bi-to-rb.md
 - pages/documents/Messaging Channels/web messaging/authenticated-web-messaging.md
@@ -191,10 +184,8 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/smart-capacity-per-skill.md
 - pages/documents/Data & Reporting/Engagement attributes/setting-up-engagement-attributes.md
 - pages/documents/Messaging Channels/mobile app messaging/mobile-app-messaging-faqs.md
-- pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Messaging Channels/mobile app messaging/enhance-mobile-app-messaging.md
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
-- pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/Messaging Channels/SMS/sms-connector.md
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
@@ -205,7 +196,6 @@ pages:
 - pages/documents/Admin & Settings/Skills & groups/operate-business-divisions-from-one-account.md
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
-- pages/documents/What's New/december-2018.md
 - pages/documents/Admin & Settings/set-the-time-zone.md
 - pages/documents/Admin & Settings/Permissions/assign-permissions.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
@@ -217,11 +207,19 @@ pages:
 - pages/documents/What's New/october-2018.md
 - pages/documents/Security & Regulations/sso-unified-login.md
 - pages/documents/What's New/september-2018.md
-- pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
 - pages/documents/Security & Regulations/Security/ip-address-blocking.md
-- pages/documents/Contact Center Management/managing-a-contact-center-that-messages.md
 - pages/documents/Security & Regulations/Security/create-an-ip.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
+- pages/documents/Security & Regulations/Security/ip-masking.md
+- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
+- pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
+- pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
+- pages/documents/What's New/december-2018.md
+- pages/documents/Messaging Channels/Connectors/line-connector.md
+- pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
+- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
+- pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
+- pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-activity-dashboard.md
