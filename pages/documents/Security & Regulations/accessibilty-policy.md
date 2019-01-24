@@ -3,7 +3,8 @@ pagename: 'Accessibility policy '
 categoryName: Security & regulations
 subCategoryName: ''
 indicator: both
-subtitle: ''
+subtitle: LivePerson assists users with vision, hearing or mobility impairments in
+  gaining greater access to the internet.
 level3: ''
 permalink: security-regulations-accessibility-policy.html
 isTutorial: false
@@ -20,7 +21,7 @@ Supporting accessibility within LivePerson products is important from a social s
 
 Moreover, having a messaging and chat option provides a previously unattainable level of relationship with customers, as well as an extra avenue of assistance on top of the usual channels available on the customer's’ website or application. Users with disabilities can get assistance from a live agent who can perform actions for them, such as completing a form or searching for items on a website.
 
-We strive to meet the guidelines for compliance with the most current legislature like, for example, the Americans with Disabilities Act (ADA). By addressing these access standards, LivePerson assists users with vision, hearing or mobility impairments in gaining greater access to the Internet.
+We strive to meet the guidelines for compliance with the most current legislature like, for example, the Americans with Disabilities Act (ADA). By addressing these access standards, LivePerson assists users with vision, hearing or mobility impairments in gaining greater access to the internet.
 
 The regulations in the US and other countries, such as the UK and Canada, require adhering to the Web Content Accessibility guidelines (WCAG (v2.0), Levels A and AA developed by w3.org, particularly.
 
