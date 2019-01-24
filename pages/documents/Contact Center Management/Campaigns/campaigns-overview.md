@@ -8,8 +8,7 @@ level3: ''
 permalink: campaigns-overview.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 17:19:11 +0200
-published: false
+date: 2019-01-23 15:19:11 +0000
 
 ---
 ## What are campaigns?
