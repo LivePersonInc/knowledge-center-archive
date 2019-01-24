@@ -29,7 +29,7 @@ _Group C’s managers can view group C data only._
 
 An Agent Group Manager can be either an Agent Manager or an Administrator. As an **agent group manager**, you can see data and run reports related to users that are assigned to your groups and subgroups. As an **administrator** who is also an Agent Group manager, you can also perform user management tasks such as creating and editing groups, subgroups and resetting passwords. To learn how to create and edit Agent Groups see the procedures below.
 
-{: .notice}   
+{: .notice}  
 Group managers who take conversations (i.e. their concurrency is greater than 0) must also be configured as members of a group.
 
 ### **Viewing the agent group data**
@@ -49,13 +49,11 @@ In the web history and all connections tabs you can view conversations handled b
 * To filter by agent group in **web history,** click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
 * To filter by agent group in **all connections**, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
 
-### **Viewing engagements over time using the agent manager BI dashboard**
+### **Viewing engagements over time using the Report Builder dashboards**
 
-Using the agent manager BI Dashboard you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
+Using the agent manager RB dashboards you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
 
-In some cases, when agent managers are also configured to take conversations, they may impact the group statistics. For example, the agent manager status is usually **away** and will be “online” only when they are needed to take conversations. This might impact the group’s utilization KPIs. If you wish to include or exclude manager activities from the report, check/uncheck the **Include Agent managers** checkbox.
-
-![](https://lh4.googleusercontent.com/3FihZoqVsdcMo_dIe7HOXb19e_C0oL0DLguf-00q0j5NcdfoEWlnxAsIkDgZS3U9wkSZFli-sKgk6vKrvFEvDKgMsbGNrEEgi__bcUMCfCjqOl-mOKvgg2RvYFAPa6KONMURD9jM =434x350)
+In some cases, when agent managers are also configured to take conversations, they may impact the group statistics. For example, the agent manager status is usually **away** and will be “online” only when they are needed to take conversations. This might impact the group’s utilization KPIs. If you wish to include or exclude manager activities from the report, check/uncheck the 'is manager indicator' checkbox.
 
 Groups are an efficient way to logically organize and manage the users in your organization. They save you time performing administrative actions: you have the ability to define, modify and set configurations for a group of agents as a mass instead of defining it many times per each user.
 
