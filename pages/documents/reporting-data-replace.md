@@ -9,7 +9,6 @@ permalink: faqs-reporting-data
 isTutorial: false
 isNew: false
 date: 2019-01-27 14:08:37 +0200
-published: false
 
 ---
 ## How do I find chats that only contain private messages?
