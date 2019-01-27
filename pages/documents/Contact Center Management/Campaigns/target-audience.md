@@ -22,8 +22,8 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 1. From the Campaign tab, select a campaign and access the **target audience library**. Click **add new**.
 2. From the add new target audience page:
-   * Select a name for your target audience and add a description. 
-   * Click **customer info** from the condition list, to add the condition box. 
+   * Select a name for your target audience and add a description.
+   * Click **customer info** from the condition list, to add the condition box.
    * Select **customer type**.
    * Type in a unique name, e.g., Platinum. Press enter and **done** to allow the system to add the new type to your list. Once you add “Platinum” it will be included in your customer type list.
    * To edit your customer types, click **manage**.
@@ -42,26 +42,19 @@ Decide when to display engagements by selecting the conditions you wish to impos
 
 1. **External referral:** Target consumers who arrived at your website from other web pages.The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
 
-**Note:** this attribute is currently only supported for web engagements. 
+**Note:** this attribute is currently only supported for web engagements.
 
-  
-![](https://lh6.googleusercontent.com/ggH0IYQoG1sl2TdSme5TAR6tGLDEsGuIqI5g3iAZWQ_tPFjNUSKKqXx-w2ux6bfmzyATKZVAqRYUCExgaWDdIIL3AWlTWPUW_n82VC5BkFYxzFWLE_fVGPZircqCOlGC38jxPSuw =429x195)
+![](/img/target audience 1.png)
 
-2. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. 
+1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals.
 
-	
+   To learn more about targeting users by keyword, [click here](https://docs.google.com/document/d/1fsYszswd0443EENuL0xEpgEfS-TLrStVZRz1aAmrjOw/edit#heading=h.op0nj124cf72).
 
-	To learn more about targeting users by keyword, [click here](https://docs.google.com/document/d/1fsYszswd0443EENuL0xEpgEfS-TLrStVZRz1aAmrjOw/edit#heading=h.op0nj124cf72). 
-
-  
-  
-  
-  
-![](https://lh3.googleusercontent.com/G9UkK1q7BOttjPkMGjv2W71cGw-2LskChm6C3ukFGeyK2gXWMF1CCW_wfCvr87oQGSVS2ieztv2PrHPjQFDLnrKNGQ4rr8KwLRfkWJrbsV0aehZMdbMN4U7RK-cnT5Aopk2ZDrW1 =431x161)
+![](/img/target audience 2.png)
 
 **3. IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
-![](https://lh5.googleusercontent.com/GKqT3q7FpPoAPjSLR7-6Gzl5TLshgjX4jnqhBMzOCdm12jBhSoCnZcNwXNFusY54zBGdgwFebg_IhhT_vOIRzn0k0is0gEXs2-CODjGHq7D8vDXRl5cwL594ynVHseA5hmzPK1Od =429x184)
+![](/img/target audience 3.png)
 
 **4. Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
 
@@ -69,7 +62,7 @@ Decide when to display engagements by selecting the conditions you wish to impos
 * Mobile tablet
 * Mobile smartphone
 
-![](https://lh4.googleusercontent.com/AkexS1wlN15DECGrNAii3LyRHUQEGy2SBPsA-KelkDUx2t95kxSU62vF6s5gGLorWgtmPIyiXtGnwJqxvDpvXymPH4ErIYyo_ona4jqjFq1tYz7nQszaZTnKu5sAjyjy8niVa7ri =427x160)
+![](/img/target audience 4.png)
 
 **5. Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign.
 
@@ -87,17 +80,17 @@ To target consumers arriving from an affiliate or external campaign, you can man
 
 Marketing source is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh3.googleusercontent.com/za7ZdXYX7JyBCvp1esqW9T34x4LEwuzz23KOt7XJT8QbcoW1n4y5Pd_C_nfi10Qg-nSIirmdVYIDo2Jm99U1fbakf8-ldI3MBD5BQzjzYn9xXWcKC8bKVwvaj9VhQ69GUOjCCtVL =431x179)
+![](/img/target audience 5.png)
 
 **6. Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
 
-![](https://lh3.googleusercontent.com/JZpbTT5U4bLXmCB3ZTRUfFwDmfIdOlZ1bCQRsSfpTdEn6q5wx_XHgZ4Wzd9et0ZmcRMO8o40x92RmZHBo9zvNFSlBNM5EzD6rJrZ80fIY5kwIMpOnN-5cp-0w1KT9Wc6VeOuAItX =429x159)
+![](/img/target audience 6.png)
 
 **7. New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
 **Note:** this attribute is currently only supported for web engagements.
 
-![](https://lh5.googleusercontent.com/m3SkIDjbHYRTH7TjyM51ZkL8UhmqMAK0yzCHufMrWjV_nHrHcnrQWJJNpZroukblf-IBH0aBCDiDh_YHYJJ3nCkp-daI3c-ozWIJINjbwkjR_tBVJhuah1y3PscAYt9ihC8e16mh =429x136)
+![](/img/target audience 7.png)
 
 **8. Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
 
@@ -109,28 +102,27 @@ Once you have added the types and statuses, you can configure this target audien
 
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
 
-Customer info is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community. 
+Customer info is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-  
-![](https://lh5.googleusercontent.com/kntAGINoAIWvJROf-wPjEZcLUIbuzOfr-c06iXefUsGlPi2Cp_o58MECVcn9h6pr1X-e0hrZCt4g_wq6hfai25YBlFUAZHv0WCtShKnr_E7rj7ZcOdscu2wIb4gQENbb82vEA_VS =428x157)
+![](/img/target audience 8.png)
 
 **9. Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range.
 
-Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community. 
+Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh5.googleusercontent.com/jqM9cySqZLm9PIhMRF--WuBlCAHN0r4XMgttmnYTjSBlIjRcttW_ldw_lYxPCKxelLLx2AFgA6TcWj59XPCR9DHEeGh3p7IKQ0P3AE2hHAHHxcy_JX6hR_Mb2PVFrsQB4bRnntmS =428x157)
+![](/img/target audience 9.png)
 
 **10. Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. For example: 30 days since initial registration.
 
 Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh3.googleusercontent.com/diVYHjnzoJ48BSp96__R8dctegXtkx7NdjPDcm_1vTlemsx_5KPb7SeltxgwZF1MvUkiazYNZO9Fu2Qx8xvmzczfpR6Ndtsnp6EUJchYf2Ut38D-iDs9dsrafB0iHsM3tS5cvpUw =431x177)
+![](/img/target audience 10.png)
 
 **11. Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
 
 Company size is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh6.googleusercontent.com/L0tLFwV2F8SxR5ypNrAI2KnOcfcbiOE06JLrAydBGmNz_v0im4KtATZpt_yujfC7CZqonlcD8yjhrG0xSMtlIGO3J0RRzkWqlL0btMw7aD9DyZHKx3H_8Bj-tuU4dA6q7h5ny_ZB =428x155)
+![](/img/target audience 11.png)
 
 **12. Balance:** Target or exclude consumers by their current balance (for example, account balance). Enter minimum and/or maximum currency values to define the range you would like to target.
 
@@ -139,6 +131,8 @@ Company size is reported via the Customer Info Engagement Attribute; for more in
 Balance is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](https://lh5.googleusercontent.com/Fmu5qChX48Rfydm7Vn9zkWcP9ieS3nbIHbvRJSWEMiYf0hAJ4rWHPVbShTYoCO2gukJZEE-xJFCpmRHO5bZgevTD9Dt4eYJLv9Ech232BHyAN98rjpsaE_T3kjyhAMj304Tq8tpH =431x161)
+
+![](/img/target audience 12.png)
 
 **13. Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
@@ -150,7 +144,7 @@ Customer ID is reported via the Customer Info Engagement Attribute; for more inf
 
 Gender is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
- ![](https://lh6.googleusercontent.com/iCCLexZWSbxR-_lAVJzJnXBJyRKHbcLxD_MIqH-WTHNsWxhsiddxLzjECTAG2BNh9pa7jOGg5d67rbytAzZr3Ku3jXBj1nwPISrLM1WLArIb6yEYIaFnljkrFQf-8KTfrEKPnI6B =431x160)
+![](https://lh6.googleusercontent.com/iCCLexZWSbxR-_lAVJzJnXBJyRKHbcLxD_MIqH-WTHNsWxhsiddxLzjECTAG2BNh9pa7jOGg5d67rbytAzZr3Ku3jXBj1nwPISrLM1WLArIb6yEYIaFnljkrFQf-8KTfrEKPnI6B =431x160)
 
 **15. Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
@@ -164,15 +158,13 @@ Store number is reported via the Customer Info Engagement Attribute; for more in
 
 ![](https://lh4.googleusercontent.com/SbTV5_3Jx2p-Degc2tZtanLoRx-63vgeyh6sgVl3YyYDtifLatjDYu0DiziIa1SGo-lrOaIrDjEHWEHPiowpfAMwFCwgWHJ7MrNnGB6zOgqn8qBMxt3tzuD3P-wKL9e3V_yn13YN =429x157)
 
- 
-
-## Target consumers by keyword 
+## Target consumers by keyword
 
 To target consumers that searched for the keywords in Google Search, manually configure the ValueTrack in each ad to send LiveEngage the keywords under the query string parameter name “keyword”. Make sure to use only “keyword” as the parameter name.
 
 1. Log into your Google AdWords account.
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
-3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat. 
+3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat.
 
 ![](https://lh4.googleusercontent.com/xJZUjVuCZakE25AmgqTjBGSG-Wqld0_CfpmSnJpWvme4ZSUww2oG7TyVk9wNe4mwGG-B9CWkRMcgb22FlYyvqZr6v69wA2Z3gltHDh_R_2PbdiS88G39AWjOlZ8dR72VWGW6zlbX =426x188)
 
@@ -181,21 +173,19 @@ To target consumers that searched for the keywords in Google Search, manually co
 Now you can extract keywords from your Google campaigns manually or you can import them automatically by following these steps:
 
 1. Under Data Sources click Connect Analytics. You’ll get a message that you’ve successfully connected.
-2. On the Add new target audience screen, select Search keywords. You’ll get a message saying “We've successfully retrieved data from your Google AdWords account.” 
-3. To import a campaign from Google AdWords, select the relevant profile from the drop-down menu. 
-4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by LiveEngage. 
+2. On the Add new target audience screen, select Search keywords. You’ll get a message saying “We've successfully retrieved data from your Google AdWords account.”
+3. To import a campaign from Google AdWords, select the relevant profile from the drop-down menu.
+4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by LiveEngage.
 
 ![](https://lh3.googleusercontent.com/EswdW-y2uev6yLfoHiB7SDOkkni81jfaZ4k_Ee3qSaQOdYJdP9KJxzEQxsDbIOhyLI0Jkzky9bWRXxs1w79_hxTWGN1W8ilwT1lSrnBbsLPiHdI9S8JvQVYP4A4r5uELhcmb2CaZ =424x215)
 
 The Search Keyword Condition box lets you personalize the message for your customers. Even though Google makes it hard to extract the data, your customers will appreciate it when you serve them with the content they searched for in order to get to your website.
 
- 
-
-# 
+# 
 
 # Target Audience Conditions
 
-Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not. 
+Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
 **Do not create a mobile app engagement assigned to an irrelevant target audience, as this may be result in ineligible mobile engagements.**
 
@@ -218,4 +208,4 @@ Some of the targeting conditions only support web engagements. You can refer to 
 | Store zip code | Web,Mobile |
 | Store number | Web,Mobile |
 
-##  
+## 
