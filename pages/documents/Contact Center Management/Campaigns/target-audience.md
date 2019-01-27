@@ -68,16 +68,17 @@ To learn how to collect information about your visitors, let’s look at an exam
 {:start="5"}
 5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign.
 
-    If you want to specify an originating channel, you can select from the following options:
-    	* Direct
-        * Display
-        * Email
-        * Paid search
-        * Referral
-        * Search
-        * Social
-    
-    To target consumers arriving from an affiliate or external campaign, you can manually enter the 	sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section in the Engagement Attributes guide on the Developer Community.](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) 
+If you want to specify an originating channel, you can select from the following options:
+
+*  Direct 
+* Display     
+* Email     
+* Paid search     
+* Referral     
+* Search     
+* Social  
+
+To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](If you want to specify an originating channel, you can select from the following options: 	* Direct     * Display     * Email     * Paid search     * Referral     * Search     * Social  To target consumers arriving from an affiliate or external campaign, you can manually enter the 	sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section in the Engagement Attributes guide on the Developer Community.\](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) ) in the Engagement Attributes guide on the Developer Community.(https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) 
 
 ![](/img/target audience 5.png)
 
