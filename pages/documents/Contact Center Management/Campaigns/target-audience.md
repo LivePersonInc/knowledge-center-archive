@@ -130,33 +130,31 @@ Company size is reported via the Customer Info Engagement Attribute; for more in
 
 Balance is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh5.googleusercontent.com/Fmu5qChX48Rfydm7Vn9zkWcP9ieS3nbIHbvRJSWEMiYf0hAJ4rWHPVbShTYoCO2gukJZEE-xJFCpmRHO5bZgevTD9Dt4eYJLv9Ech232BHyAN98rjpsaE_T3kjyhAMj304Tq8tpH =431x161)
-
 ![](/img/target audience 12.png)
 
 **13. Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Customer ID is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh5.googleusercontent.com/Ch9WIBSvqAxS14dm-xa0ieeWXXyfhPvEJPS0jWmjNkLb7N_lNUhhWxRBbM4xaRfOwf_5ml-IYF9CsGbR-6eNvTB0v-u0EjUduEbwDHZLMrsvEosPGbqXDCsJS5fpc8rgoPbhsn3O =428x156)
+![](/img/target audience 13.png)
 
 **14. Gender:** Target consumers according to their gender (male, female or other).
 
 Gender is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh6.googleusercontent.com/iCCLexZWSbxR-_lAVJzJnXBJyRKHbcLxD_MIqH-WTHNsWxhsiddxLzjECTAG2BNh9pa7jOGg5d67rbytAzZr3Ku3jXBj1nwPISrLM1WLArIb6yEYIaFnljkrFQf-8KTfrEKPnI6B =431x160)
+![](/img/target audience 14.png)
 
 **15. Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Store ZIP code is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh5.googleusercontent.com/oQW0cxSWhZ9wJcLi_-JonMu2N5HA5P712tevfedC4G9D5eWcZl-VUX7ZOlgUPaXxSpsY3k0nMqHwkHqSDJqJEXnJjpQBsRpjbDp72wDS67FeCoP6d5ZvWSB78kW2IclOY9WBaHPs =429x160)
+![](/img/target audience 15.png)
 
 **16. Store number:** Target or exclude consumers by their association with a store number. Manually enter the list of store numbers you would like to target by (multiple numbers can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Store number is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh4.googleusercontent.com/SbTV5_3Jx2p-Degc2tZtanLoRx-63vgeyh6sgVl3YyYDtifLatjDYu0DiziIa1SGo-lrOaIrDjEHWEHPiowpfAMwFCwgWHJ7MrNnGB6zOgqn8qBMxt3tzuD3P-wKL9e3V_yn13YN =429x157)
+![](/img/target audience 16.png)
 
 ## Target consumers by keyword
 
@@ -166,7 +164,7 @@ To target consumers that searched for the keywords in Google Search, manually co
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
 3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat.
 
-![](https://lh4.googleusercontent.com/xJZUjVuCZakE25AmgqTjBGSG-Wqld0_CfpmSnJpWvme4ZSUww2oG7TyVk9wNe4mwGG-B9CWkRMcgb22FlYyvqZr6v69wA2Z3gltHDh_R_2PbdiS88G39AWjOlZ8dR72VWGW6zlbX =426x188)
+![](/img/target audience 17.png)
 
 **Note:** Google will only share search information from AdWords and not from organic searches.
 
@@ -177,7 +175,7 @@ Now you can extract keywords from your Google campaigns manually or you can impo
 3. To import a campaign from Google AdWords, select the relevant profile from the drop-down menu.
 4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by LiveEngage.
 
-![](https://lh3.googleusercontent.com/EswdW-y2uev6yLfoHiB7SDOkkni81jfaZ4k_Ee3qSaQOdYJdP9KJxzEQxsDbIOhyLI0Jkzky9bWRXxs1w79_hxTWGN1W8ilwT1lSrnBbsLPiHdI9S8JvQVYP4A4r5uELhcmb2CaZ =424x215)
+![](/img/target audience 18.png)
 
 The Search Keyword Condition box lets you personalize the message for your customers. Even though Google makes it hard to extract the data, your customers will appreciate it when you serve them with the content they searched for in order to get to your website.
 
