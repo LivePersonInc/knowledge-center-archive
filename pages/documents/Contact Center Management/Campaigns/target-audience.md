@@ -193,6 +193,7 @@ The Search Keyword Condition box lets you personalize the message for your custo
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
+{: .important}
 **Do not create a mobile app engagement assigned to an irrelevant target audience, as this may be result in ineligible mobile engagements.**
 
 | Condition box | Relevant sources |
