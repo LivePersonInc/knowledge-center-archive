@@ -67,19 +67,18 @@ To learn how to collect information about your visitors, let’s look at an exam
 {:start="5"}
 5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign.
 
-If you want to specify an originating channel, you can select from the following options:
+	If you want to specify an originating channel, you can select from the following options:
+		* Direct
+        * Display
+        * Email
+        * Paid search
+        * Referral
+        * Search
+        * Social
 
-* Direct
-* Display
-* Email
-* Paid search
-* Referral
-* Search
-* Social
+  To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
 
-To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
-
-Marketing source is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) in the Engagement Attributes guide on the Developer Community.
+  Marketing source is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target audience 5.png)
 
@@ -91,23 +90,22 @@ Marketing source is an Engagement Attribute; for more information on reporting t
 {:start="7"}
 7. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
-**Note:** this attribute is currently only supported for web engagements.
+	**Note:** this attribute is currently only supported for web engagements.
 
 ![](/img/target audience 7.png)
 
 {:start="8"}
 8. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
+		* To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
+		* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
+		* Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
-* To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
-* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
-* Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
-
-Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
+  Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
 
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
 
-Customer info is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
+  Customer info is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target audience 8.png)
 
