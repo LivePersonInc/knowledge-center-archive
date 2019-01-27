@@ -76,9 +76,8 @@ To learn how to collect information about your visitors, let’s look at an exam
         * Search
         * Social
 
-  	To target consumers arriving from an affiliate or external campaign, you can manually enter the 		sources (multiple sources can be entered in this section and if the consumer originates from any of 	them this condition will be applicable).
-
- 	Marketing source is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-		engagement-attributes.html) in the Engagement Attributes guide on the Developer Community.
+  	To target consumers arriving from an affiliate or external campaign, you can manually enter the 		sources (multiple sources can be entered in this section and if the consumer originates from any of 	them this condition will be applicable).Marketing source is an Engagement Attribute, for more 			information on reporting this attribute, please refer to the [relevant section]							(https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) 
+    in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target audience 5.png)
 
