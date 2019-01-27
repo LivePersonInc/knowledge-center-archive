@@ -9,10 +9,9 @@ permalink: faqs-reporting-data
 isTutorial: false
 isNew: false
 date: 2019-01-27 13:50:19 +0200
-published: false
 
 ---
-## How do agents login to their LivePerson workspace? 
+## How do agents login to their LivePerson workspace?
 
 Navigating to [http://liveengage.liveperson.net/](http://liveengage.liveperson.net/ "http://liveengage.liveperson.net/") and enter login credentials:
 
@@ -30,7 +29,7 @@ _<a href="www.liveperson.com">This is the link to our site</a>_
 
 Generally HTML elements can be integrated into Predefined Content entries. Chat visitors will receive the content with the HTML formatting.
 
-![](https://lh4.googleusercontent.com/zzuj9W7QQQIbUxnL1tuv8hagqzpjKtMQlLO0p0TWd-r2nTm6-FJdlXDIuixZulSwNa7BGYThb6Fy31tirIQOg_0B45DZG-Ti9PDVW6SdZoSdD6-oltM2wXaaa1dFJr5ArVPEGFPA =456x354)
+![](/img/faqs-reporting-data.png)
 
 ## How do I enable and disable audio notification in MS Internet Explorer?
 
