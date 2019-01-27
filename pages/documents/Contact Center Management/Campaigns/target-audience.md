@@ -103,21 +103,21 @@ To learn how to collect information about your visitors, let’s look at an exam
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
 
-  Customer info is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
+	Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section in the Engagement Attributes guide on the Developer Community (https://developers.liveperson.com/engagment-attributes-types.html#customer-info) 
 
 ![](/img/target audience 8.png)
 
 {:start="9"}
 9. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range.
 
-Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
+	Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target audience 9.png)
 
 {:start="10"}
 10. **Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. For example: 30 days since initial registration.
 
-Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
+	Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section in the Engagement Attributes guide on the Developer Community.](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) 
 
 ![](/img/target audience 10.png)
 
