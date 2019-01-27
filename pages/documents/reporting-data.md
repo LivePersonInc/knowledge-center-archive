@@ -1,71 +1,61 @@
 ---
-pagename: Agent tools
+pagename: Reporting & data
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: faqs-agent-tools
+permalink: faqs-reporting-data
 isTutorial: false
 isNew: false
-date: 2019-01-27 13:50:19 +0200
+date: 2019-01-27 14:08:37 +0200
 
 ---
-## How do agents login to their LivePerson workspace?
+## How do I find chats that only contain private messages?
 
-Navigating to [http://liveengage.liveperson.net/](http://liveengage.liveperson.net/ "http://liveengage.liveperson.net/") and enter login credentials:
+To locate chats that only contain private messages:
 
-* LivePerson Account number
-* Email
-* Password
+* On the Web History page, export your data in JSON format
+* In the JSON file, search all data containing: “subType”:”ONLY_TO_REP”
 
-These credentials can be obtained from the account admin.
+## How do I understand why a chat ended?
 
-## How do I add links to predefined content?
+When a chat ends, the reason for the chat’s termination is displayed in the chat transcript. To view the reason for the chat’s termination:
 
-To add links to predefined content, use the HTML tag for hyperlinks. For example:
+* Log into LivePerson and go to Visitors > Web History tab
+* Locate the chat(s) you’re interested in
+* The reason for chat termination is recorded in the chat end reason column
+* You can export the chat transcript by selecting 'Export to CSV' from the action drop down menu
 
-_<a href="www.liveperson.com">This is the link to our site</a>_
+![](/img/reporting-data-faqs-1.png)
 
-Generally HTML elements can be integrated into Predefined Content entries. Chat visitors will receive the content with the HTML formatting.
+Read more about it in the [understanding the reason a chat ends]().
 
-![](/img/faqs-reporting-data.png)
+## How do I change the email address for scheduled reports?
 
-## How do I enable/disable audio notification in MS Internet Explorer?
+Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](), please chat with [LivePerson Support 24/7](www.liveperson.com).
 
-The agent workspace is pre-configured to play sounds for different activities such as incoming messages for agents.  To turn these sounds on and off, each agent has to adjust their computer settings with the following steps:
+## How do I retrieve data that has been masked?
 
-1. Open control panel: the easiest way to open the control panel is to click on “Start” and then click on “Control Panel.”
-2. Open the internet options: use the search box to find the “Internet Options” section of the Control Panel.
-3. Select the “Advanced” tab: the Advanced Tab is usually on the far-right side of the internet options screen.
-4. Scroll down to multimedia: scroll through the options until you see the section called “Multimedia.”
-5. Deselect the play sounds option: click to uncheck the option called “Play Sounds in Webpages.” This will turn off all sounds in your internet browsers.
-6. Turn sounds on again when you’re ready: If you would like to resume listening to sounds on your internet browser, be sure to follow these steps again and check the “Play Sounds in Webpages” option once again.
+Information that has been masked for security and data protection reasons cannot be unmasked. Masked information will appear as a series of asterisks.
 
-## Do agents need to install software on their computers?
+For example: If “1234” is masked it will be replaced with “****”
 
-No. Installation or plug-ins are required as the LivePerson platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to [LivePerson System Requirements]().
+## Where is deleted user data visible, and for how long is it there?
 
-## Is there a spell check for agents?
+![](/img/reporting-data-faqs-2.png)  
+Deleted user data is stored in LivePerson and visible for **13 months following deletion**.
 
-The browsers supported by LivePerson have built-in spell checking. When the browser’s spell checking is enabled, the spell checker will automatically run in the LivePerson Engagement Window as well as in other browser windows.
+Deleted agents are displayed with a '(deleted)' indicator in the Open Connections, All Connections, Web History lists, and the engagement history widget.
 
-In addition, you can add extensions (for example, Grammarly) to the browser that auto correct spelling and grammar.
+{: .notice}
+Before deleting a user, ensure that the agent doesn’t own any open conversations (if so, these conversations should be transferred to the queue) and that the user is logged out of LivePerson.
 
-## What is an actionable conversation?
+Filter by deleted agents is available in the Open Connections, All Connections, and web history lists.
 
-An actionable conversation can be any one of the following:
+In the visitor conversation window, the name of the deleted agent will be displayed in the window header (with no indication that they have been deleted).
 
-* A conversation in which the last message is from the consumer, and it is pending agent response.
-* A conversation that is set to manual SLA and the account's site setting: 'actionable during manual sla enabled' = true
-* A conversation that is in the process of being transferred (transfer to skill time > last message from agent time) and the account's site setting: 'actionable during transfer enabled' = true
+The LivePerson user limit 'collections.maxElements' will not count the number of deleted users in the total.
 
-### What’s the purpose of labeling a conversation as actionable?
-
-Actionable conversations get higher priority in the[ routing queue]() than non-actionable conversations. This means that if a non-actionable conversation is pending dispatch in the routing queue, and a newer actionable conversation enters the queue, the newer conversation will be dispatched first.
-
-The logic behind this is to [give priority to conversations]() in the following instances:
-
-* A consumer is waiting for an answer from the agent (pending agent response)
-* The conversation requires special treatment (manual SLA).
-* The conversation needs to be handled by another “department” (being transferred)
+{: .important}
+A user who joined a chat and then was deleted won’t be reflected as deleted in the history.
