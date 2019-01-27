@@ -52,11 +52,11 @@ In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell 
 
 ![](/img/goals 6.png)
 
-### Transaction information as an indicator
+#### Transaction information as an indicator
 
 A LiveEngage transaction is the way which the system reports the exchange of money for goods or services. Transactions in LiveEngage can be used as an indicator for a certain goal. For example, if the goal of a campaign is to sell a product or a service, then an approved transaction event verifies the attainment of the goal and each transaction that takes place increases the Goal KPI by 1. For this reason, the transaction data should be collected only for approved transactions. For example, if a user is buying a product, the transaction event should fire on the thank-you page, and not when he clicks to purchase.
 
-**How to define a transaction:**
+#### How to define a transaction:
 
 1. In the Goal Library, add a new sales goal, e.g., “Sell product/service” and give it an appropriate name, such as _Electronics Sales._
 2. Select Transaction as the indicator.
@@ -76,15 +76,15 @@ In the goal indicator settings, Max set his goal as **more than 10,000**, and cl
 
 Max can now create engagements that he believes will target his high spenders. Once the campaign is activated, each time a consumer completes a transaction valued at over 10,000 (in any currency), his conversion will display +1 in the data bar. Max can see if his engagements have been successful, or if he needs to change his strategy, for example by targeting other users, or selecting different entry points to display the engagements.
 
-### 2. Service Activity Complete Goal
+### 2. Service activity complete 
 
 **Use case:** Great Bank
 
 Julia manages the Great Bank mobile app and she is setting up a campaign that will measure the number of times users complete the online journey required to apply for a gold credit card. Each time an app user successfully completes this journey, the conversion will display +1 in the data bar.
 
-Julia chooses a goal type that reflects the user journey in the app: **Service Activity Complete.** She names the goal, adds a short description and selects the particular topic that reflects the activity that she wants the user to complete: **apply for a gold card**. She then clicks **Save**. Now, every time that an app user completes the activity of applying for a gold card, the conversion will display +1 on the data bar.
+Julia chooses a goal type that reflects the user journey in the app: **Service activity complete.** She names the goal, adds a short description and selects the particular topic that reflects the activity that she wants the user to complete: **apply for a gold card**. She then clicks **Save**. Now, every time that an app user completes the activity of applying for a gold card, the conversion will display +1 on the data bar.
 
-#### Set Multiple Statuses for Service Goals
+#### Set multiple statuses for service goals
 
 The visitor journey for any given service activity, or topic, usually consists of multiple stages. To be able to define more than one stage as a success, your developer will map each of the stages in your customer’s journey to the statuses defined in LiveEngage. Then, once the stages are mapped to statuses, you can decide which one or more of the statuses is considered a success, or a conversion.
 
@@ -94,7 +94,7 @@ Furthermore, you can define multiple statuses for more than one topic simultaneo
 
 Each of the boxes relates to one status; Status #1, etc. Within each status box, a topic, or topics, have been selected. Once one of the topics reaches one of its selected status(es), the goal is considered reached. Here’s an example:
 
-### 3. Generate Leads goal
+### 3. Generate leads goal
 
 **Use case:** Learflights
 
@@ -131,12 +131,12 @@ Some of the targeting conditions only support web engagements. You can refer to 
 
 **Do not create a mobile app engagement assigned to an irrelevant business goal, as this may be result in ineligible mobile engagements.**
 
-|  Conditions | Relevant source |
+| Conditions | Relevant source |
 | --- | --- |
-|  Sell product/service (URL) | Web |
-|  Sell product/service (Transaction SDE) | Web, Mobile |
+| Sell product/service (URL) | Web |
+| Sell product/service (Transaction SDE) | Web, Mobile |
 | Generate leads (URL) | Web |
 | Generate leads (Lead SDE) | Web,Mobile |
 | Service activity completed (Service SDE) | Web,Mobile |
 | Increase page views | Web |
-| Other | Web  |
+| Other | Web |
