@@ -31,7 +31,7 @@ Generally HTML elements can be integrated into Predefined Content entries. Chat 
 
 ![](/img/faqs-reporting-data.png)
 
-## How do I enable and disable audio notification in MS Internet Explorer?
+## How do I enable/disable audio notification in MS Internet Explorer?
 
 The agent workspace is pre-configured to play sounds for different activities such as incoming messages for agents.  To turn these sounds on and off, each agent has to adjust their computer settings with the following steps:
 
