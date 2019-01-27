@@ -1,11 +1,11 @@
 ---
-pagename: Reporting & Data
+pagename: Agent tools
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: faqs-reporting-data
+permalink: faqs-agent-tools
 isTutorial: false
 isNew: false
 date: 2019-01-27 13:50:19 +0200
