@@ -40,7 +40,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 1. **External referral:** Target consumers who arrived at your website from other web pages.The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
 
-**Note:** this attribute is currently only supported for web engagements.
+	**Note:** this attribute is currently only supported for web engagements.
 
 ![](/img/target audience 1.png)
 
@@ -58,10 +58,9 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 {:start="4"}
 4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
-
-* Desktop/Laptop
-* Mobile tablet
-* Mobile smartphone
+		* Desktop/Laptop
+		* Mobile tablet
+		* Mobile smartphone
 
 ![](/img/target audience 4.png)
 
