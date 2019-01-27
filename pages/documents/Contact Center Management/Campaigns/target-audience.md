@@ -100,10 +100,10 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 	Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
 
+	Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the relevant section in the Engagement Attributes guide on the Developer Community.
+
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
-
-	Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section in the Engagement Attributes guide on the Developer Community (https://developers.liveperson.com/engagment-attributes-types.html#customer-info) 
 
 ![](/img/target audience 8.png)
 
