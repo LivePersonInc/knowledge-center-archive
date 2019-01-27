@@ -62,9 +62,9 @@ An actionable conversation can be any one of the following:
 
 ### What’s the purpose of labeling a conversation as actionable?
 
-Actionable conversations get higher priority in the routing queue than non-actionable conversations. This means that if a non-actionable conversation is pending dispatch in the routing queue, and a newer actionable conversation enters the queue, the newer conversation will be dispatched first.
+Actionable conversations get higher priority in the[ routing queue]() than non-actionable conversations. This means that if a non-actionable conversation is pending dispatch in the routing queue, and a newer actionable conversation enters the queue, the newer conversation will be dispatched first.
 
-The logic behind this is to give priority to conversations in the following instances:
+The logic behind this is to [give priority to conversations]() in the following instances:
 
 * A consumer is waiting for an answer from the agent (pending agent response)
 * The conversation requires special treatment (manual SLA).
