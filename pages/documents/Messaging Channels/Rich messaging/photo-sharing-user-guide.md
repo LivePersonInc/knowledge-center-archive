@@ -10,16 +10,15 @@ permalink: messaging-channels-rich-messaging-photo-sharing-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 09:47:02 +0200
-published: false
 
 ---
 Photo sharing is available for the following messaging connectors: Google RCS Business Messaging, WhatsApp Business, Apple Business Chat and Twilio SMS (for Twilio, only available in the US and Canada).
 
-# **Configurations**
+## **Configurations**
 
 1. To enable the feature for any channel, please contact you LivePerson representative.
-2. To configure In-App (as part of the SDK): [Android ](https://developers.liveperson.com/android-photo-sharing.html#enable-photo-sharing)| [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-photosharing.html#enable-photo-sharing)
-3. For messaging connectors: - no additional configuration is required
+2. To configure In-App (as part of the SDK): [Android ](https://developers.liveperson.com/android-photo-sharing.html#enable-photo-sharing)& [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-photosharing.html#enable-photo-sharing)
+3. For messaging connectors: no additional configuration is required
 4. Web:
    * In the window studio, click on the “+” sign inside the window to show the list of menu items.
    * Enable the “Send image” option.
@@ -159,25 +158,27 @@ The Agent can preview the image by pressing the image thumbnail.
 
 #### Apple Business Chat
 
-![](https://lh5.googleusercontent.com/_JQJGX8DfFv9WtRUMttsyIimvUTkjDUUW4pshuMJAn6E4d7dnQdKRlkBEEkq3NK85BM2GdGoHHcs8RoS_ohJNQiPEI3Aaa77MSfackr8ZMuOLVAGoXx6pRnZb3PwmqKzXrwo15IC =230x409)
+![](/img/photos25.jpg)
 
 ### Facebook Messenger
 
-![](https://lh5.googleusercontent.com/V7ywFHtaa84zZ4nU1kfpN7dsx4otVUfCOCIoJa0jHsEPJgjPHh6ljS4YcPWk1MmNNzXHYYCdYb4QdJTU4fX6B3n33nC-43n1JBhTG-14zqQYi7-_HGKDxaV15IkidNZaNaouIC55 =277x492)
+![](/img/photos26.png)
 
 ### Twilio SMS
 
-![](https://lh5.googleusercontent.com/D5h6mztF7GYk7qP43JTmQW5f0HvQ-n2Yiwnu9Lcq_SWRVts145508R_oZeAOycDQsDr1VPi_LjcEhpG9A3huNONAbXTqyyDGbl62cCaS58rnOuE3bjHolDcRDEWD9YV6sgcHZRqv =264x471)
+![](/img/photo27.jpg)
 
 ### WhatsApp Business
 
-![](https://lh3.googleusercontent.com/3hHxG_jHW5GlD2FuDy4DINDwd5k6YWY89gU_fsyV0j3PQzw0Tm0yfzh2yWvHubATC4vVqxjHiCDpJaoVmT1hGfEAIJMDczhzQyLRcHQZP3tsfoQi1k2biHainBHMLVrnjpfRxTTM =267x474)
+![](/img/photos28.jpg)
 
 ### Agent flow for messaging connectors
 
 When the agent receives the shared photo, it appears as a thumbnail in the conversation window. The agent can preview the image by pressing the image thumbnail.
 
-### ![](https://lh4.googleusercontent.com/othGXUw7mNoTKGPX2Pt-NbfAu6iP9zYMAV-UjKM5he9w559iSBjuojCNrIf4OFFARbjbQGSx3OQoSJDZvLiXtsb8OaFA9CXzaswrUw-KxxNlgbyP95aK56saXIHobqprZ211sEEz =624x292)**Limitations**
+![](/img/ps30.png)
+
+### **Limitations**
 
 * Only assigned agents can view shared images in a conversation, for both open and closed conversations.
 * **Storage:** In-App storage is up to 20 images (configurable).
