@@ -13,13 +13,13 @@ date: 2019-01-27 13:54:10 +0200
 ---
 Audio messaging allows consumers to send audio messages to brands. The audio is one way, from the consumer to the agent. The agent can listen to the message and reply in a text. Audio messaging provides an enriched conversation experience.
 
-The feature is available starting with SDK v3.2. It is also available for Facebook Messenger and Apple Business Chat connectors. 
+The feature is available starting with SDK v3.2. It is also available for Facebook Messenger and Apple Business Chat connectors.
 
 ![](/img/Screen Shot 2019-01-27 at 1.56.29 PM.png)
 
 ## Use cases
 
-In the short time since phone conversations have been abandoned for text-based communication, we’ve developed a library of ways to add tone and inflection — from emoticon, emojis, stamps & GIFs. Yet it still seems that there’s nothing quite like actual speech. Voice messaging gives you just that, with all the added benefits of asynchronous text exchanges. 
+In the short time since phone conversations have been abandoned for text-based communication, we’ve developed a library of ways to add tone and inflection — from emoticon, emojis, stamps & GIFs. Yet it still seems that there’s nothing quite like actual speech. Voice messaging gives you just that, with all the added benefits of asynchronous text exchanges.
 
 Audio Messaging is ideal for consumers who would prefer to send a voice recording rather than typing a long response on a phone keypad. It is also beneficial for those with accessibility challenges or if they are using a keyboard not in their native language, or languages with a complicated keyboard (e.g. Russian). It is easier to send an Audio message rather than a typed message when both hands are busy (walking, cooking etc.)
 
@@ -27,7 +27,7 @@ Audio Messaging is ideal for consumers who would prefer to send a voice recordin
 
 ### Scope
 
-* Only a consumer can send an audio message to an agent 
+* Only a consumer can send an audio message to an agent
 * Audio messages will appear as part of the messaging history, but will not be transcribed from voice to text. A downloaded transcript will read “audio message”.
 
 ## Audio Messaging Features
@@ -37,14 +37,15 @@ Audio Messaging is ideal for consumers who would prefer to send a voice recordin
 * Record & send a voice message to agents
 * Notified when the message was sent, received & read
 * Listen to audio messages in active & closed conversations
-* Navigate through the audio message 
+* Navigate through the audio message
 * Have a time indication during recording
 * Know the message length (after recording)
 * Cancel a recording without sending the message
-* Resend if upload failed 
+* Resend if upload failed
 
-### ![](/img/Screen Shot 2019-01-27 at 2.00.16 PM.png)  
-Agent
+### ![](/img/Screen Shot 2019-01-27 at 2.00.16 PM.png)
+
+### Agent
 
 * Receive a security-safe (malware scanned) audio messages from supported consumer channels
 * Listen to audio messages in all agent widgets:
@@ -53,7 +54,7 @@ Agent
   * Conversation window preview popup (Spectator)
 * Know what is the message length as soon as it arrives (without having to play it)
 * Navigate through the audio message
-* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections.
+* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections 
 
   ![](/img/audiom3.png)
 
@@ -62,10 +63,10 @@ Agent
 * Consumer long taps on the microphone icon (no need to hold the icon, a consumer can scroll in the conversation screen while recording)
 * Consumer speaks into the phone - recording max length is between 15s and 2m (configurable by brand)
 * Once recorded, the consumer sends audio messages to the agent.
-* To delete the recording prior to sending it, the consumer presses the trashcan icon 
+* To delete the recording prior to sending it, the consumer presses the trashcan icon
 * Once sent, the consumer can listen to the recording by pressing the play icon
 
-# LiveEngage messaging connectors 
+## LiveEngage messaging connectors
 
 Audio Messaging is now available for the Apple Business Chat and Facebook Messenger connectors.
 
@@ -74,7 +75,7 @@ LiveEngage will support the following audio messages flow:
 * A consumer on ABC or FBM records and sends an audio message to an agent on LE
 * An agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
 * An agent can play and replay audio messages sent by consumers for open and closed conversations (the agent cannot record audio messages)
-* A consumer can replay his own audio messages (speaker only) - as supported on each channel  
+* A consumer can replay his own audio messages (speaker only) - as supported on each channel
 
   ![](/img/Screen Shot 2019-01-27 at 2.01.34 PM.png)
 
@@ -85,7 +86,7 @@ LiveEngage will support the following audio messages flow:
 * Adding SDK v3.2 (or above) to the host app.
 * Turn the feature on both the server side (site settings) and client side (SDK)
 
-### Server and messaging connectors (should be configured by LivePerson) 
+### Server and messaging connectors (should be configured by LivePerson)
 
 * Site settings: **messaging.audio.sharing.enabled** - should be turned on
 
@@ -95,10 +96,10 @@ LiveEngage will support the following audio messages flow:
 * Android - set **enable_voice_sharing** to true
 * Additional parameters are configurable on the SDK side. For more information, please refer to the Developer Community ([iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-advanced-audio-ios.html), [Android](https://developers.liveperson.com/consumer-experience-android-sdk-advanced-audio.html))
 
-### Notes 
+### Notes
 
 * The max length of a message can be up to 2 minutes. The max length of a message can be configured on the SDK side between 15 seconds to 2 minutes
-*  By default, the last 20 messages will be saved on the mobile device. This can be configured by the brand on the SDK side
+* By default, the last 20 messages will be saved on the mobile device. This can be configured by the brand on the SDK side
 * An audio message will appear as “\[audio message\]” in the transcript
 * There is no limit on how many audio messages I can send in a conversation
-*  Audio Messages support accessibility and voice instructions may be announced
+* Audio Messages support accessibility and voice instructions may be announced
