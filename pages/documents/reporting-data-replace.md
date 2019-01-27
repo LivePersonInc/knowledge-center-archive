@@ -58,5 +58,5 @@ In the visitor conversation window, the name of the deleted agent will be displa
 
 The LivePerson user limit 'collections.maxElements' will not count the number of deleted users in the total.
 
-{: .notice}
+{: .important}
 A user who joined a chat and then was deleted won’t be reflected as deleted in the history.
