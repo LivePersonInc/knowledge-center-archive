@@ -98,7 +98,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 		* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 		* Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
-  Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
+	Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
 
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
