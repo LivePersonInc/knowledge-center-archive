@@ -24,7 +24,7 @@ This configuration allows you to define several campaigns, each with its own tim
 ![](/img/time frame 1.png)
 
 {:start="3"}
-3. The campaign time frame page will open.
+3\. The campaign time frame page will open.
 
 ## Defining the active time frame
 
@@ -40,25 +40,20 @@ On the campaign time frame page, under **active date range:**
 
 ### Campaign active days and hours
 
-On the campaign time frame page, below **active days and hours (in selected timeframe)**, define the days and hours in which your campaign will be active for within the defined date range. 
+On the campaign time frame page, below **active days and hours (in selected timeframe)**, define the days and hours in which your campaign will be active for within the defined date range.
 
 **You may choose between the following options:**
 
 * **All hours:** The campaign will be active all day (12:00 a.m. - 11:59 p.m.) on all days within the defined date range.
-
 * **Specific hours:** Fill in the specific hours in which your campaign will be active for all days within the defined date range. The time format should be hh:mm, e.g: 05:45 pm
 
-![](/img/time frame 3.png) 
+![](/img/time frame 3.png)
 
-* c. **Custom recurrence:** Use different campaign activation hours for different days of the week.
-
-* Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library.
-
-ii. Click **add new** or edit an existing library item.
-
-iii. Fill in the Schedule item name, description (optional) and timezone
-
-iv. Define the campaign’s hours of operation for each day of the week
+* **Custom recurrence:** Use different campaign activation hours for different days of the week.
+* Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library
+  1. Click **add new** or edit an existing library item.
+  2. Fill in the Schedule item name, description (optional) and timezone
+  3. Define the campaign’s hours of operation for each day of the week
 
 ![](/img/time frame 4.png)
 
@@ -82,9 +77,9 @@ vii. The new scheduling item will now appear in the schedule library. Click it i
 
 viii. Click **done.**
 
-ix. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear. 
+ix. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
-![](/img/time frame 7.png) 
+![](/img/time frame 7.png)
 
 ## Special occasions per campaign
 
@@ -94,10 +89,10 @@ A special occasion is used when there is an exception to the campaign's typical 
 
 ![](/img/time frame 8.png)
 
-2. Click **add new**, or edit an existing library item.
-3. Fill in the special occasion item name, description (optional) and timezone
-4.  In order to add new occasions to the list, click the “Add line” button
-5. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
+1. Click **add new**, or edit an existing library item.
+2. Fill in the special occasion item name, description (optional) and timezone
+3. In order to add new occasions to the list, click the “Add line” button
+4. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
 
 ![](/img/time frame 9.png)
 
@@ -125,6 +120,6 @@ A special occasion is used when there is an exception to the campaign's typical 
 
 ## Saving the campaign with new settings
 
-After defining the campaign’s date range, active days, hours and special occasions, make sure to click **done** (for an unpublished campaign) or **publish** (for a published campaign) in order to save all new settings.   
-  
+After defining the campaign’s date range, active days, hours and special occasions, make sure to click **done** (for an unpublished campaign) or **publish** (for a published campaign) in order to save all new settings.
+
 ![](/img/fjsadjlf.png)
