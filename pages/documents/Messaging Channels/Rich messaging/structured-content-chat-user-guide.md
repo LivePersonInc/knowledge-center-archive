@@ -9,7 +9,7 @@ level3: ''
 permalink: messaging-channels-rich-messaging-structured-content-for-chat.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 14:08:32 +0200
+date: 2019-01-28 12:08:32 +0000
 published: false
 
 ---
