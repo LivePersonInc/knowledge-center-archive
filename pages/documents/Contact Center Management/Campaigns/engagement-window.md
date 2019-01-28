@@ -66,11 +66,11 @@ You can fully customize the chat window to suit your brand by changing the color
 
 ![](/img/engagement window 5.png)
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
 <li>The background color is the same as the chat window background</li> <li>Text is the same color and font as the Automatic Messages</li> <li> Buttons have the same look and feel of the title bar</li>
-</ul> 
+</ul>
 </div>
 
 ### To add a header to the window:
@@ -85,25 +85,26 @@ You can fully customize the chat window to suit your brand by changing the color
 8. Set the position of the header: left, right or middle
 9. Choose between pinning the header to the top of the window, or letting it scroll up during the conversation
 
-![](https://lh5.googleusercontent.com/sh7ng4vzF7qMiowWFVsaNf8WA3cXwNMKGS_TWOvPG5uK_WgeesxpjngwsEiOTz9zHVLqsklP5-TO70MaAIXVyKtCWNlUcwqcFh1m-V5SDMOqPUqaDwtJRJSdyCd-fV0RJ1KEicZc =298x533)
+![](/img/engagement window 6.png)
 
 ### To add an image to the window:
 
-1\. Click the **Add Element** button
+1. Click the **Add Element** button
 
-2\. Click **Select** to add an image
+2. Click **Select** to add an image
 
-3\. Select an image from the Gallery or click **Custom** to add your own image
+3. Select an image from the Gallery or click **Custom** to add your own image
 
-4\. Choose a background color, if you’d like
+4. Choose a background color, if you’d like
 
-**![](https://lh5.googleusercontent.com/XfYPQZltGfNXPJ3kCp-buDhgC2dx_FgK4QYnUtTCZ2SPGH6I8FpJIqwS7B8biXYbummdOwWzJjjrycuy3oRKkVnCXcuYvg-FMoZAKMgyISx5x4argHc2qS3vMB5GB_-5tF7mIf1b =624x465)**
+![](/img/engagement window 7.png)
 
+{: .important} 
 **Please note**: If your header or image is not the full body width of the window, the background color will be displayed on the sides. If you upload images with a height of more than 32 pixels, the system will resize the image to fit the available height (32 pixels), while maintaining the ratio of the image. If the width of the image is greater than the widget of the window, it will align to the right. The recommended width (140 pixels) is mostly for logos.
 
 ### To add additional functionality to your window:
 
-1\. Click the **Action menu** button or click the **+** button in the desktop preview.
+1. Click the **Action menu** button or click the **+** button in the desktop preview.
 
 ![](https://lh4.googleusercontent.com/Og-fkPd2dOOm_S6fz-pzh4Gz-OteyvMXSQYXaxE-lcR3ZDbsyu6E9UKhd573zGJ2pD5BX3RQx_ASlHHq_CFXb0vLBy-qYgws6LPZnuVCvZCGB0gAYBLSWIzaM7hsxqvKShc36vXM =333x388)
 
