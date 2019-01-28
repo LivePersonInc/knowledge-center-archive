@@ -212,42 +212,43 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 
 **To create an HTML engagement in LiveEngage:**
 
-1\. Create or edit a campaign **(Campaigns tab > Add campaign or click an existing campaign).** The campaign edit window opens.
+1. Create or edit a campaign **(Campaigns tab > Add campaign or click an existing campaign).** The campaign edit window opens.
 
-2\. Click **Add engagement.** The LiveEngage Engagement window studio opens.
+2. Click **Add engagement.** The LiveEngage Engagement window studio opens.
 
-3\. Select **Overlay** or **Embed** from the Format list.
+3. Select **Overlay** or **Embed** from the Format list.
 
-4\. Select **Chat** or **Content** from the Type list.
+4. Select **Chat** or **Content** from the Type list.
 
-5\. Click the **HTML engagement** template and click **Next**.
+5. Click the **HTML engagement** template and click **Next**.
 
-6\. Enter your **HTML code** in the HTML code box.
+6. Enter your **HTML code** in the HTML code box.
 
-7\. Add actions such as **Click** and/or **Close** to your engagement, as desired:
+7. Add actions such as **Click** and/or **Close** to your engagement, as desired:
 
-a. Place the cursor in the code at the point where you would like the action to be triggered (to add the onclick event).
+	1. Place the cursor in the code at the point where you would like the action to be triggered (to add the onclick event).
+    2. Select the desired action from the **Add action** list (refer to the table below for the full list of actions). The action code is added to your HTML code.
 
-b. Select the desired action from the **Add action** list (refer to the table below for the full list of actions). The action code is added to your HTML code.
+8. Set the **position** of your engagement:
 
-8\. Set the **position** of your engagement:
+	1. For an **embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
 
-a. For an **embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
+	2. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
 
-b. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
+	{: .notice}
+	**Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
 
-**Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
+9. In the settings menu, select the chat and engagement settings.
 
-9\. In the settings menu, select the chat and engagement settings.
+10. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
 
-10\. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
-
+{: .notice}
 **Note:** When you click **Next** or **Done**, LiveEngage checks whether the HTML code contains any security-vulnerable elements, to ensure that your code can be displayed safely on your website. If unsupported elements are found, you will not be able to save the engagement.
 
 ## Supported Actions
 
-| --- | --- | --- | --- |
 | Action | Supported Formats | Description | LiveEngage Code |
+| --- | --- | --- | --- |
 | Click | Overlay and embedded | Adds a click action to content engagements.  | data-LP-event = "click" |
 | Click to chat | Overlay and embedded | Adds a click action to content engagements. When clicked opens a chat window. | data-LP-event = "click" |
 | Close | Overlay only | Adds a close engagement action to content and chat engagements.  | data-LP-event = "close" |
