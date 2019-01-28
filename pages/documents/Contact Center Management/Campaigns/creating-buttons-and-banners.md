@@ -235,8 +235,8 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 
 	2. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
 
-	{: .notice}
-	**Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
+{: .notice}
+**Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
 
 9. In the settings menu, select the chat and engagement settings.
 
