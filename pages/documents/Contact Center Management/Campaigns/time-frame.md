@@ -42,7 +42,7 @@ On the campaign time frame page, under **active date range:**
 
 On the campaign time frame page, below **active days and hours (in selected timeframe)**, define the days and hours in which your campaign will be active for within the defined date range.
 
-**You may choose between the following options:**
+You may choose between the following options:
 
 * **All hours:** The campaign will be active all day (12:00 a.m. - 11:59 p.m.) on all days within the defined date range.
 * **Specific hours:** Fill in the specific hours in which your campaign will be active for all days within the defined date range. The time format should be hh:mm, e.g: 05:45 pm
@@ -57,7 +57,7 @@ On the campaign time frame page, below **active days and hours (in selected time
 
 ![](/img/time frame 4.png)
 
-**You may choose between:**
+You may choose between:
 
 **1. All hours (default)** - If a campaign is set for all hours it will be considered active on this day from 12:00 a.m. until 11:59 p.m.
 
