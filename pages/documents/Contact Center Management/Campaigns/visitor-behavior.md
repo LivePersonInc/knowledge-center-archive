@@ -164,10 +164,14 @@ How to define a new flow:
 
 4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.3. In order to add a new flow, open the Flow dropdown menu and select “Add new flow”.3. In order to add a new flow, open the Flow dropdown menu and select “Add new flow”.![](/img/behavior 12.png)
 
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.  
-5\. After saving the flow, it will appear in the flows list. 
+4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.
+
+![](/img/behavior 13.png)  
+5\. After saving the flow, it will appear in the flows list.
 
 6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+
+![](/img/behavior 14-1.png)
 
 7\. Click to save visitor behavior.
 
