@@ -90,33 +90,30 @@ You can fully customize the chat window to suit your brand by changing the color
 ### To add an image to the window:
 
 1. Click the **Add Element** button
-
 2. Click **Select** to add an image
-
 3. Select an image from the Gallery or click **Custom** to add your own image
-
 4. Choose a background color, if you’d like
 
 ![](/img/engagement window 7.png)
 
-{: .important} 
+{: .important}
 **Please note**: If your header or image is not the full body width of the window, the background color will be displayed on the sides. If you upload images with a height of more than 32 pixels, the system will resize the image to fit the available height (32 pixels), while maintaining the ratio of the image. If the width of the image is greater than the widget of the window, it will align to the right. The recommended width (140 pixels) is mostly for logos.
 
 ### To add additional functionality to your window:
 
 1. Click the **Action menu** button or click the **+** button in the desktop preview.
 
-![](https://lh4.googleusercontent.com/Og-fkPd2dOOm_S6fz-pzh4Gz-OteyvMXSQYXaxE-lcR3ZDbsyu6E9UKhd573zGJ2pD5BX3RQx_ASlHHq_CFXb0vLBy-qYgws6LPZnuVCvZCGB0gAYBLSWIzaM7hsxqvKShc36vXM =333x388)
+![](/img/engagement window 8.png)
 
 2\. Select the action buttons that you would like to add, e.g., email transcripts. A preview displays on the screen.
 
-![](https://lh4.googleusercontent.com/H-HYiNsepL3aDEdMXRxHlvO45kr0ftwFK1QZyBFSi4q-a8CuJxZmgeDBsL366q5mkm3-CJmP-bH2jZX2y-Ui3ryVR7mlkJB-mB7snqqsSLym9c4E4NCtbPffdWh0qdKs5pXeg_tJ =333x388)
+![](/img/engagement window 20.png)
 
 3\. To change the color of the Action menu, click the actions area in the chat window. The action window will open.
 
 4\. Change the font, background color and/or icon color (dark or bright), as desired.
 
-![](https://lh4.googleusercontent.com/XxmQdxhzVCaaQOBzLRLD_9jx174VeVxOF8VPbKAryJ3V0c92_gXQX31L4JwNhVGEsayA72LV-lifh24wt_O5xvm6JFbHcDxt11maMtDiL5E1zTxq0Ze1ntz_vMqV7ZdDzhgLKP3m =624x488)
+![](/img/engagement window 10.png)
 
 ### To add and edit surveys:
 
@@ -127,7 +124,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 * Click a question to edit or delete it
 * Click **Add Question** to add a new question
 
-![](https://lh4.googleusercontent.com/yl1pIFVakjU4ea_kWh7s0ZFrlLKJg4HmlBwd185t8vXlGhyEkbbtULGFFM5ApjOE4gIsGPfQm9Ix8g0AckiMWbZ5YQyb-W7PYEgzrPO7KdWGFX-ARqjl-qGIulUNUKuULMxDYB9n =333x388)
+![](/img/engagement window 11.png)
 
 **Note**: Surveys and dialogs inherit the main chat window’s colors (see example below.)
 
@@ -135,7 +132,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 * Text is the same color and font as the Automatic Messages.
 * Buttons inherit the look and feel of the title bar.
 
-![](https://lh5.googleusercontent.com/HDiwtOmYx3jxWygyKswZQDzv6caqRMY_9uDLD_UtT2pJTdRBT9IRmmoWMj544NzwedGIIQF43uynpqVSw4vA4kHEkhgOIm6p3kisX0HTLG7oWxGoV1g2Pc8X2H1ObreEwRb4gGd7 =624x417)
+![](/img/engagement window 12.png)
 
 ## Advanced window configuration and customization
 
@@ -144,7 +141,7 @@ In addition to the styling options within the window configuration, you can make
 * **Dialog button styling** - change the style of the primary and secondary dialog buttons in the engagement window to match your brand design guidelines
 * **Window icons** - customize the top bar by choosing from a list of emojis. The 'Send' and 'End chat' are in the style of the window
 
-![Agent picture.gif](https://lh3.googleusercontent.com/HcRyDY1qqDSJ22AtdHJL6lwLwBdNrhhyQad3qEQ1_4osFW1IY-WYvP_nGziqiSlJRXqC1WUEVVeXaVKb_HkvB1-l8HYKOfBXzoC9S8oXjBEz6V821n5DegmlK7OsII3NfvaB1JKV =447x327)
+![](/img/engagement window 13.gif)
 
 Available customizations:
 
@@ -159,7 +156,7 @@ Available customizations:
 2. Click on the row with the relevant agent’s name to edit their information
 3. In the “Picture URL” field, add the URL of the agent’s personal picture
 
-![](https://lh6.googleusercontent.com/oH7KS6n1Ty0oKfpxXfWee23MEEmfVHA6Fwzte6_7gUHS2AO6EYN3nxR35aZeoHb_MnbZIZhEWQdO5w48qVCInleTnq_SBXTWrcqJLzm1QMKFyss99xmSWFxHIjyFNjtynKJ0LkMN =302x339)
+![](/img/engagement window 21.png)
 
 **Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
 
@@ -174,18 +171,18 @@ Agent picture is defined individually per window. If you are using the same wind
 1. Select the desired window from the Engagement window library
 2. In the Engagement window studio select **Open additional window settings**
 
-**![](https://lh5.googleusercontent.com/Iz3B1dm7hpbpSYGz7aBnxh30kEsLO4WFYtsNlxxSRr8wFFL4XoYP0ozUZ2JTTcfgtmrdqNL_qT1LI-vwL-xGr_fMYirReYVtVuj79UkuqwMGcYzWCamT_gIWi2ZG9lMadk2cNF15 =624x255)**
+![](/img/engagement window 16.png)
 
-1. In the engagement window category, find the Agent picture row
+1. In the engagement window category, find the agent picture row
 2. In the value column, select **Yes** from the dropdown menu in order to enable agent picture for the selected engagement window
 
-![](https://lh6.googleusercontent.com/aeoxGidgSTED3i-zkIs8r7CBcP-DujHLrEfx-Z_-eYsRIZeplsM9Xi_PHrNpSKvZF9CaExyy-0t13ZV-9nsQaKOOf-86yzpeNlyyPlvb8KxHErSbPwYi7KiTi8mn_YbvddbRbDbP =624x252)
+![](/img/engagement window 17.png)
 
 1. Click **Save**
 
 Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window:
 
-![](https://lh6.googleusercontent.com/zlSwZdo6prTfC2q7vigBKWvzpPdCj3woWMPVkVgDXa2WvaJlEBQe99kjM_UIQjLRr9A0P_Igdl4RH_dfiQf33ZWo2EWgqrVEcdcddI1ikcW_zG0TDJ3rMg2zafmahv6MxQOlxXya =241x348)
+![](/img/engagement window 22.png)
 
 **Note:** In the case that the agent picture is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.
 
@@ -198,7 +195,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 3. In the Engagement window category, locate the Agent picture default URL row
 4. In the Value column, add the URL of the default picture to be displayed for agents who did not configure their picture
 
-![](https://lh3.googleusercontent.com/5BXNH2qN4dZmWlZjY0DfD7xhB_-ftqQoY1OXoM28vAF4HHT7TKKB2egoEm9XnHzVecS15D4EECBtsxcTaqU367NUPZRY-eSVJDzjTWPWs-eKPZ3wzuLFrXNbrqxDppsv88INEh2j =624x240)
+![](/img/engagement window 24.png)
 
 1. Click “Save”
 
