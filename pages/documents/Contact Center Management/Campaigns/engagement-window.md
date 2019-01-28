@@ -49,7 +49,7 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement window 3.png)
 
-## Customize the Look and Feel
+## Customize the look and feel
 
 ### To select a predefined color scheme for your window:
 
