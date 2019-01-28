@@ -51,7 +51,7 @@ On the campaign time frame page, below **active days and hours (in selected time
 
 * **Custom recurrence:** Use different campaign activation hours for different days of the week.
   1. Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library
-  2. Click **add new** or edit an existing library item.
+  2. Click **add new** or edit an existing library item
   3. Fill in the Schedule item name, description (optional) and timezone
   4. Define the campaign’s hours of operation for each day of the week
 
