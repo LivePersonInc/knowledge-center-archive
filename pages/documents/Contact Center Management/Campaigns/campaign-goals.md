@@ -26,12 +26,12 @@ The list of your campaigns appears on the **Campaigns tab**, and includes a data
 ![](/img/goals 2.png)
 
 {:start="2"}
-2\. To configure a new goal, click Add new. The different types of goals are available on the next screen.
+2. To configure a new goal, click Add new. The different types of goals are available on the next screen.
 
 ![](https://lh5.googleusercontent.com/3owhljH6NtEwT7B9whVydRMo6JB64-BtrbN1tPasb_5cOj0fdH6CeGvcs6P0OrvNafZ6ogiA0V0Q0OM5cHF790Jk-RLELYKtbxuk56xVlVepOgGGgiG_LZvHg59OM8xFOJzelW-R =432x107)
 
 {:start="3"}
-3\. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
+3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
 ![](/img/goals 4.png)
 
@@ -49,6 +49,7 @@ In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell 
 
 ![](/img/goals 5.png)
 
+{: .notice} 
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the e-commerce category.
 
 ![](/img/goals 6.png)
@@ -112,6 +113,7 @@ Consider what your short-term business goals are, and translate them to LiveEnga
 
 ![](https://lh6.googleusercontent.com/uJz4HjkOC09w3r0JGACVMwyzYfBbnmtHi9LFKFGdsLDicL61Wsahy1hFWAl924yJzqSOC-cIOA0iZ-8s8PU-VPXdIE_4gza4ML0ALoa_8U2a-rhWhAGj_DmLCwAkZWZwmwbezgVh =423x43)
 
+{: .important}
 **Note:** On the page for each Goal, a checkbox can be found at the bottom of the page to ‘Count goals’. Checking this box will mean that the goals will only be counted once per visit. For Messaging engagements, the goal can only be counted at the same session, due to the ongoing nature of messaging conversations. For customers visiting the site in different sessions, the goal will be reevaluated.
 
 ## Duplicate goals
