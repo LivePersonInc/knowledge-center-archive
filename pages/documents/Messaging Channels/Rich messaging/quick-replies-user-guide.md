@@ -3,7 +3,8 @@ pagename: 'Quick replies user guide '
 categoryName: Messaging channels
 subCategoryName: Rich messaging
 indicator: messaging
-subtitle: ''
+subtitle: Quick replies are a group actionable items that appear as part of the conversation,
+  making it easier to have automated conversations with consumers.
 level3: ''
 permalink: messaging-channels-rich-messaging-quick-replies-user-guide.html
 isTutorial: false
@@ -18,7 +19,7 @@ The LivePerson messaging solution allows brands to enrich the conversions with t
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
-It creates an easier, faster way for consumer to respond to messages. For bot interactions, Quick Replies provide a direction for the conversation and help set expectations as to what the bot can do. 
+It creates an easier, faster way for consumer to respond to messages. For bot interactions, Quick Replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
 Quick Replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
 
@@ -45,9 +46,9 @@ Break down the traditional survey structure by sending the survey question as a 
 
 ![](https://lh3.googleusercontent.com/b5bev6-_xsd-c8Kfwuuff8vlqcvfbZhcOpO_uJnLKJYkCFajF0RLkDuZHcNB4KzqmFXGGIVTnIVuksh9ObUgvwqCo9T2iRUv8uQdICvJF3KqPYqJ307ZIerElDhZ_oexG3cCYVvo =248x440)
 
-## **Dialogue flow**
+## **Dialogue flow**
 
-Use the Quick Replies for building a dialogue flow with the consumer, allowing the consumer to choose the next option in their messaging journey.  
+Use the quick replies for building a dialogue flow with the consumer, allowing the consumer to choose the next option in their messaging journey.  
 It allows for directing the conversation to a desired path, understanding the intent of the consumer and providing a tailored response to the consumer’s need.
 
 ![](https://lh5.googleusercontent.com/J4hKQM2fsSKV-5tj_i6Of5n5ZV4whgrHMwEF4Sf1-l7k6CZ8FoyW_5gq6cgYPvWoQfoYBGaJdQ7HxLbHtxOFO7CPtpv0er0osWr-pM9zpvCIyC5ZpIjOG6L7fvPfkjszWDNNmCW6 =245x435)
@@ -68,13 +69,13 @@ To enable and build quick replies for use on your messaging channels, we recomme
 1. Integrate the SDK into your brand app
 2. Ensure that the following toggle is enabled within the SDK (for configuration steps see section below):
    1. iOS - enableStructuredContent
-   2. Android - enable_structured_content
+   2. Android - enable_structured_content
 
-### **Implementation**
+## **Implementation**
 
-Define your use cases. Quick Replies can be used for a variety of applications.
+Define your use cases as quick replies can be used for a variety of applications.
 
-### Design quick replies Bundles
+### Design a quick replies bundle
 
 A quick replies bundle does not exist on its own. An agent sends a message to the consumer (a question, a remark or even a [structured content](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html) message followed by a quick replies bundle).  
 When designing the quick replies bundle, you should also design the coupled message assigned to it.
@@ -90,44 +91,43 @@ Build your quick replies bundles using the JSON specification in the [Developers
 
 ### **Usage**
 
-Determine if the Quick Replies should be used for a human or virtual agent journey.
+Determine if the quick replies should be used for a human or virtual agent journey.
 
-### **Human Agent**
+### **Human agent**
 
-**Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).   
+**Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).  
 Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpTag.agentSDK.cmdNames.writeSC) commands with a quickRelies payload. This command sends a JSON that represents a Quick Reply input. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/agent-workspace-sdk-methods.html#command).
 
 ![](https://lh6.googleusercontent.com/XZRf-AD7hPLK_eb8tMoQufNIbgislu6P2z7WWUw4U9Oizk_3GXQux-MDceBmev-is8srJ_3oE9eCaFJV_H6lX8p3YSPrbLfBAilJXJ6FG3cn6fpSmtcmcG3OlCV9CM1BFHtfNzlO =624x443)
 
 ### **Virtual agent**
 
- You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). 
+You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html).
 
 1. For more general information about using the SDK to integrate bots, [please refer to the Solution’s documentation](https://developers.liveperson.com/products-customer-facing-bots-overview.html).
-2. For specific examples of using the SDK to send Quick Replies, please refer to the SDK’s repository: [example 1](https://github.com/LivePersonInc/node-agent-sdk#example-sending-text-with-quick-replies) and [example 2](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies).
+2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository: [example 1](https://github.com/LivePersonInc/node-agent-sdk#example-sending-text-with-quick-replies) and [example 2](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies).
 
 ### **JSON Builder**
 
 Create a JSON builder component to populate your JSON scaffolding. This tool can be constructed using your preferred method of development but needs to adhere to our quick replies schema and model.
 
-Quick replies elements are static and are presented in a JSON model.   
-The JSON schema and dictionary can be found in the [Developers’ Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html). 
+Quick replies elements are static and are presented in a JSON model.  
+The JSON schema and dictionary can be found in the [Developers’ Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html).
 
 ## **Limitations**
 
 1. Quick replies are distributed according to the "Max quick replies per row" and across a maximum of three rows. Any remaining quick replies will fit into the 3rd row.
-2. Each chip title is set to have a maximum of 25 characters. If more characters are set then the first 22 characters will be used with ellipsis. 
+2. Each chip title is set to have a maximum of 25 characters. If more characters are set then the first 22 characters will be used with ellipsis.
 3. If a consumer decides to type the text of the chip, instead of clicking on it, then no click-operation will be executed (no action or metadata will be sent to the server). If your bot depends on such data, consider "teaching" the bot to accept typed-replies, and not just clicked-replies.
 
-## **Best Practice**
+## **Best practice**
 
 1. Use Quick Replies to prompt for specific next steps, or use them as answers for surveys or conversational forms.
 2. Use short texts in the chip's title - be brief and precise.
 3. If you wish the agent to be able to follow on the consumer's clicks, we recommend adding publish text click-event to each chip. The publish-text click-event will add a message to the transcript on behalf of the consumer, which will be available for the agent to follow.
 4. Don't use Quick Replies if you wish to let consumers use them more than once. Quick Replies disappear after a chip was clicked (or consumer made another action in the conversation window). Use [Structured Content templates](http://localhost:4000/rich-messaging-structured-content-card.html) instead as they stay persistent in the conversation.
 
-  
-**FAQS**
+**......FAQS**
 
 **Q: Are Quick Replies agnostic?**
 
@@ -141,7 +141,6 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 
 **A:** You can show between one and twenty-four chips within a Quick Replies bundle.
 
-  
 **Helpful Links**
 
 1. [Developers Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html)
