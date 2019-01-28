@@ -10,7 +10,6 @@ permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:55:35 +0200
-published: false
 
 ---
 ## Choosing your engagement type
