@@ -23,6 +23,7 @@ This configuration allows you to define several campaigns, each with its own tim
 
 ![](/img/time frame 1.png)
 
+{:start="3"}
 3. The campaign time frame page will open.
 
 ## Defining the active time frame
@@ -43,15 +44,15 @@ On the campaign time frame page, below **active days and hours (in selected time
 
 **You may choose between the following options:**
 
-**a. All hours:** The campaign will be active all day (12:00 a.m. - 11:59 p.m.) on all days within the defined date range.
+* **All hours:** The campaign will be active all day (12:00 a.m. - 11:59 p.m.) on all days within the defined date range.
 
-**b. Specific hours:** Fill in the specific hours in which your campaign will be active for all days within the defined date range. The time format should be hh:mm, e.g: 05:45 pm
+* **Specific hours:** Fill in the specific hours in which your campaign will be active for all days within the defined date range. The time format should be hh:mm, e.g: 05:45 pm
 
 ![](/img/time frame 3.png) 
 
-**c. Custom recurrence:** Use different campaign activation hours for different days of the week.
+* c. **Custom recurrence:** Use different campaign activation hours for different days of the week.
 
-i. Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library.
+* Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library.
 
 ii. Click **add new** or edit an existing library item.
 
