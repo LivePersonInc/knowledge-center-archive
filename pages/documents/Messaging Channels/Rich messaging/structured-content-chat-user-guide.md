@@ -9,8 +9,7 @@ level3: ''
 permalink: messaging-channels-rich-messaging-structured-content-for-chat.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 12:08:32 +0000
-published: false
+date: 2019-01-28 14:08:32 +0200
 
 ---
 ## Why use structured content?
@@ -27,7 +26,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Enhanced operational solutions.
 * An overall improved and more efficient service - just what consumers expect from chat.
 
-## Use cases
+## Structured content use cases
 
 * Display product catalog to consumers helping with purchasing decisions
 * Sending instructional videos to consumers helping complicated setup processes
