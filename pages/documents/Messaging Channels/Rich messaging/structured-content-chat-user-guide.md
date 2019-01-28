@@ -6,11 +6,10 @@ indicator: chat
 subtitle: Agents are able to send structured content cards including text, images,
   maps and buttons, to enhance the conversation with the consumer.
 level3: ''
-permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
+permalink: messaging-channels-rich-messaging-structured-content-for-chat.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 14:08:32 +0200
-published: true
 
 ---
 ## Why use structured content?
@@ -27,7 +26,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Enhanced operational solutions.
 * An overall improved and more efficient service - just what consumers expect from chat.
 
-## Use cases
+## Structured content use cases
 
 * Display product catalog to consumers helping with purchasing decisions
 * Sending instructional videos to consumers helping complicated setup processes
@@ -47,25 +46,25 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](https://lh5.googleusercontent.com/wLGj4khjY6f6h5oSf6YXmPhMkc0VnY3_12B5iancoCAL9Y3wqj-YiKbXg1HXSOReREdYWYlXRb-OJaXckMRQsBu5NYs1pcGu0yfYIJnvnqeA6zoFPC08Rcf9BBM_rwTU3pAZAqg- =238x342)
+![](/img/SCC1.png)
 
 ### Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-### ![](https://lh6.googleusercontent.com/lqUFo02gdk-FP-iqqCcYIgZ0Ndl-M-JGq9aB0QtSzZTc-xYEVuLzSpDr9MG-CKZGvYG18LnQP3CC0ZO89RX9FVK3_w6xc8PSOjrl77v1-nRTAXvMZOsD_81BwkLY-C0u43n1_NBi =323x575)
+![](/img/SCC2.png)
 
 ### Geo-Navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-### ![](https://lh5.googleusercontent.com/n9IQ-2u03eEnLWfiXIOc92YXkaUnDRnDirvqNpRf2Xa5JXfdXHVU_zhHMOAXO4kWSNmctdw8uskLOG-XgVKMAZZiayQ8ksmp2kkWgtrYRHqEk4ic4VvlWTw3zsX05P0eEpdqMfWS =237x341)
+![](/img/SCC3.png)
 
 ### Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-# ![](https://lh6.googleusercontent.com/eXqn7j2_NreHAkdNp11YmqzLz9bhnUat-1hfZIDcuB7asXSZIjekYXJw_x6Z3gVoGIyKJ3YBMFheuSkHOxuZIFBezAVgSOklXc0FJt4nGTlnTA0g7vbIToWD0cCSFb8-PuiNYCy2 =238x344)
+![](/img/SCC7.png)
 
 ### Product catalog
 
@@ -93,7 +92,9 @@ In order to enable the feature via AC features and site settings, please contact
 2. Plan and integrate content from your backend systems, such as images, product catalog, pricing, and service list. This will require you to set up communication between either the agent widget and your backend system. For example, you could have your agent send pricing, images and product names from your CMS (Content Management System).
 3. You will need to implement a new agent widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html). For further information, refer to the [Developer Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#agent).
 
-![SCforguide.jpg](https://lh5.googleusercontent.com/sJxm3pvZnS6rp08kY1HNyTuSbICvMaoO1r3t_Bl-0tF0BkxqOdDhW4RRZHU1o3oupgvhk9Ii554fQTlAQq3wc3RYa3w-1WOGC1BY6X7p7FIaihWsaNn6zgVh356q2dIaYERcBVGV =624x599)
+![](/img/SCC6.jpg)
+
+{:Start"5"}
 
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
@@ -108,21 +109,12 @@ In order to enable the feature via AC features and site settings, please contact
 
      Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
-#
+## Notes
 
-# **FAQs**
-
-**Q: Is structured content agnostic?**
-
-**A:** The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
-
-**Q: Do I need to whitelist any additional servers?**
-
-**A:** Yes, the host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on whitelisting.
-
-**Q: How many cards can I show in the carousel?**
-
-**A:** You can show between two and ten cards within the carousel
+* The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
+* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on whitelisting.
+* Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on configuring push notifications.
 
 ## Best practices
 
@@ -136,7 +128,7 @@ In order to enable the feature via AC features and site settings, please contact
 8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
 9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [structured content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
 
-## **Limitations**
+## Limitations
 
 ### Maps
 
