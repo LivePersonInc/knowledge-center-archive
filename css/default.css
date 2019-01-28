@@ -279,9 +279,29 @@ h3 {
 #documenttitlecontainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   border-bottom: 1px solid #dedddd;
   padding-left: 75px;
+}
+
+.documenttitle {
+  margin-top: 65px;
+}
+
+.suggestbutton {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.suggestbutton a {
+  color: #5879da;
+  text-decoration: none;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+}
+
+.suggestbutton a span {
+  margin-left: 5px;
 }
 
 #subtitle {
