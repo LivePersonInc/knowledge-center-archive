@@ -135,6 +135,11 @@ function sideBarClick () {
 		var hasExpanded = $(this).data("expanded") == "true";
 		var nextGetsOpened = $(this).nextAll(".getsOpened");
 		var childCanOpen = nextGetsOpened.find(".canOpen");
+		if (event.originalEvent === undefined) {
+			$(this).nextAll(".getsOpened").show();
+			$(this).addClass("activeitem")
+			$(this).data("expanded", "true");
+		} else {
 		if (hasExpanded) {
 			$(this).removeClass("activeitem");
 			childCanOpen.removeClass("activeitem");
@@ -151,9 +156,6 @@ function sideBarClick () {
 			}
 			$(this).addClass("activeitem")
 			$(this).data("expanded", "true");
-			if (event.originalEvent === undefined) {
-				$(this).nextAll(".getsOpened").show();
-			} else {
 			$(this).nextAll(".getsOpened").slideDown(500);
 			}
 	};
