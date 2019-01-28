@@ -181,23 +181,23 @@ How to define a new flow:
 
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
-Shopping Cart page > CheckOut page > Purchase Confirmation page
+'Shopping Cart page > CheckOut page > Purchase Confirmation page'
 
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
-Shopping Cart page > CheckOut page > Shopping Cart page
+'Shopping Cart page > CheckOut page > Shopping Cart page'
 
 To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
 
 To set up an Engagement for Visitor Back Flow:
 
-1\. Log in to LiveEngage as a Campaign Manager user or Admin user.
+1. Log in to LiveEngage as a Campaign Manager user or Admin user.
 
-2\. Go to the Campaigns tab.
+2. Go to the Campaigns tab.
 
-3\. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
+3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 
-4\. Under the engagement that you want to configure, click Visitor Behavior.
+4. Under the engagement that you want to configure, click Visitor Behavior.
 
 ![back flow 1](https://lh5.googleusercontent.com/weoA2ppNp3E9UwWJ2kS9gnG5105j-9U8ugS6J0jzSLWpQW2z0fHJwEn60i0kvx6aagEjTnfox54YNqFKTimLmTnZSB29k5tTe9TTrAjiTZVPlXW1TNHFd-wF04qKbMiRUAsHOuHC =384x175)
 
@@ -242,4 +242,4 @@ Some of the targeting conditions only support web engagements. You can refer to 
 | Engaged in Session | Web, Mobile |
 | Service Activity SDE | Web, Mobile |
 
-## 
+##
