@@ -10,6 +10,7 @@ permalink: creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:55:35 +0200
+published: false
 
 ---
 ## Choosing your engagement type
@@ -163,10 +164,10 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 1. Create your engagement as you want it to appear on your website. Include any text, images and buttons using the engagement studio. Use simple and clear language for users with cognitive disabilities.
 2. Ensure **text and background color ratio** (for vision impaired visitors): Text and background color contrast ratio should be at least 4.5:1, unless the font is at least 18 point or 14 point bold, in which case contrast ratio should be at least 3:1.  You can use various tools available on the web to verify the contrast ratio.
 3. Add **alternate text** to each **image** in your engagement window graphic:
-		* Click an **image** in the engagement window graphic. A settings window for the image opens.
-        * Under accessibility, in the Alt text box, enter alternate text for the graphic element you selected, as follows:
-				* If the element image conveys information, the alternate text should convey the same information.
-                * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
+		1. Click an **image** in the engagement window graphic. A settings window for the image opens.
+        2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you selected, as follows:
+        	* If the element image conveys information, the alternate text should convey the same information.
+            * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
 
 This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
 
