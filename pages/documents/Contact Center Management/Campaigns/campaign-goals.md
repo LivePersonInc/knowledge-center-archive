@@ -26,12 +26,12 @@ The list of your campaigns appears on the **Campaigns tab**, and includes a data
 ![](/img/goals 2.png)
 
 {:start="2"}
-2. To configure a new goal, click Add new. The different types of goals are available on the next screen.
+2\. To configure a new goal, click Add new. The different types of goals are available on the next screen.
 
 ![](https://lh5.googleusercontent.com/3owhljH6NtEwT7B9whVydRMo6JB64-BtrbN1tPasb_5cOj0fdH6CeGvcs6P0OrvNafZ6ogiA0V0Q0OM5cHF790Jk-RLELYKtbxuk56xVlVepOgGGgiG_LZvHg59OM8xFOJzelW-R =432x107)
 
 {:start="3"}
-3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
+3\. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
 ![](/img/goals 4.png)
 
@@ -77,7 +77,7 @@ In the goal indicator settings, Max set his goal as **more than 10,000**, and cl
 
 Max can now create engagements that he believes will target his high spenders. Once the campaign is activated, each time a consumer completes a transaction valued at over 10,000 (in any currency), his conversion will display +1 in the data bar. Max can see if his engagements have been successful, or if he needs to change his strategy, for example by targeting other users, or selecting different entry points to display the engagements.
 
-### 2. Service activity complete 
+### 2. Service activity complete
 
 **Use case:** Great Bank
 
@@ -125,13 +125,15 @@ In order to avoid compromising the integrity of your data, LiveEngage allows you
 {:start="2"}
 1. By using engagement attributes you can assign a unique ID to the different goal types; Purchase (Order ID), Leads (Lead ID), and Service activities (the combination of Service ID, Topic and Status). When the system recognizes an event with a unique ID as having already been collected in a particular session, metadata, which signals a duplication, is added to the event. This allows the system to filter all duplicates from reports and conversions are counted only once. This kind of deduplicating is enabled by default and cannot be disabled.
 
+{: .notice} 
 **Note:** For the particular goal _Interact with Visitors_, engagements in the same session will be counted multiple times yet be counted as one “Goal reached”. For example, a visitor might chat multiple times within one session, yet it will be counted as only one “Goal reached”. You will then see in your reports more engagements  than “Goals reached”.
 
 ## Goal Conditions
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
-**Do not create a mobile app engagement assigned to an irrelevant business goal, as this may be result in ineligible mobile engagements.**
+{: .important}
+**Note:** Do not create a mobile app engagement assigned to an irrelevant business goal, as this may be result in ineligible mobile engagements.
 
 | Conditions | Relevant source |
 | --- | --- |
