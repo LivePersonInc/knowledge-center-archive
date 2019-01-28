@@ -46,25 +46,25 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](https://lh5.googleusercontent.com/wLGj4khjY6f6h5oSf6YXmPhMkc0VnY3_12B5iancoCAL9Y3wqj-YiKbXg1HXSOReREdYWYlXRb-OJaXckMRQsBu5NYs1pcGu0yfYIJnvnqeA6zoFPC08Rcf9BBM_rwTU3pAZAqg- =238x342)
+![](/img/SCC1.png)
 
 ### Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-### ![](https://lh6.googleusercontent.com/lqUFo02gdk-FP-iqqCcYIgZ0Ndl-M-JGq9aB0QtSzZTc-xYEVuLzSpDr9MG-CKZGvYG18LnQP3CC0ZO89RX9FVK3_w6xc8PSOjrl77v1-nRTAXvMZOsD_81BwkLY-C0u43n1_NBi =323x575)
+![](/img/SCC2.png)
 
 ### Geo-Navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-### ![](https://lh5.googleusercontent.com/n9IQ-2u03eEnLWfiXIOc92YXkaUnDRnDirvqNpRf2Xa5JXfdXHVU_zhHMOAXO4kWSNmctdw8uskLOG-XgVKMAZZiayQ8ksmp2kkWgtrYRHqEk4ic4VvlWTw3zsX05P0eEpdqMfWS =237x341)
+![](/img/SCC3.png)
 
 ### Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-# ![](https://lh6.googleusercontent.com/eXqn7j2_NreHAkdNp11YmqzLz9bhnUat-1hfZIDcuB7asXSZIjekYXJw_x6Z3gVoGIyKJ3YBMFheuSkHOxuZIFBezAVgSOklXc0FJt4nGTlnTA0g7vbIToWD0cCSFb8-PuiNYCy2 =238x344)
+![](/img/SCC7.png)
 
 ### Product catalog
 
@@ -92,7 +92,9 @@ In order to enable the feature via AC features and site settings, please contact
 2. Plan and integrate content from your backend systems, such as images, product catalog, pricing, and service list. This will require you to set up communication between either the agent widget and your backend system. For example, you could have your agent send pricing, images and product names from your CMS (Content Management System).
 3. You will need to implement a new agent widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html). For further information, refer to the [Developer Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#agent).
 
-![SCforguide.jpg](https://lh5.googleusercontent.com/sJxm3pvZnS6rp08kY1HNyTuSbICvMaoO1r3t_Bl-0tF0BkxqOdDhW4RRZHU1o3oupgvhk9Ii554fQTlAQq3wc3RYa3w-1WOGC1BY6X7p7FIaihWsaNn6zgVh356q2dIaYERcBVGV =624x599)
+![](/img/SCC6.jpg)
+
+{:Start"5"}
 
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
