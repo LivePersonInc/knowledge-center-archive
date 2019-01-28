@@ -235,6 +235,7 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 {: .notice}
 **Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
 
+{:start="9"}
 9. In the settings menu, select the chat and engagement settings.
 
 10. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
