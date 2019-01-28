@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Invite consumers to message with digital engagements managed in campaigns
 level3: ''
-permalink: campaigns-overview.html
+permalink: campaign-center-management-campaigns-campaigns-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:19:11 +0000
