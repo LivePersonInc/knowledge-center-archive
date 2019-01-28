@@ -24,9 +24,11 @@ To provide a consistent experience across devices, you can design identical enga
 
 ![](/img/engagement window 1.png)
 
+{:start="2"}
 1. Hover over an existing window design and click **Edit** or click **Add new** to design a new window. Once you have designed the window it will be added to your Engagement window library for future use.
 2. After clicking **Add new__, the Engagement window studio opens__.**
 
+{: .notice}
 **Note**: In the Engagement window library, you can delete window designs that are not in use by clicking the **Action** menu and selecting **Delete**. In addition, you can set a default window design by clicking the **Action** menu and selecting **Set as default**. To see which campaigns are using each window design, hover over the link icon.
 
 The **Engagement window studio** allows you to customize the look and feel of both desktop and mobile windows**.** Any change you perform to the design of the desktop window takes effect in the mobile window as well.
@@ -97,7 +99,7 @@ You can fully customize the chat window to suit your brand by changing the color
 ![](/img/engagement window 7.png)
 
 {: .important}
-**Please note**: If your header or image is not the full body width of the window, the background color will be displayed on the sides. If you upload images with a height of more than 32 pixels, the system will resize the image to fit the available height (32 pixels), while maintaining the ratio of the image. If the width of the image is greater than the widget of the window, it will align to the right. The recommended width (140 pixels) is mostly for logos.
+**Note**: If your header or image is not the full body width of the window, the background color will be displayed on the sides. If you upload images with a height of more than 32 pixels, the system will resize the image to fit the available height (32 pixels), while maintaining the ratio of the image. If the width of the image is greater than the widget of the window, it will align to the right. The recommended width (140 pixels) is mostly for logos.
 
 ### To add additional functionality to your window:
 
@@ -105,13 +107,15 @@ You can fully customize the chat window to suit your brand by changing the color
 
 ![](/img/engagement window 8.png)
 
-2\. Select the action buttons that you would like to add, e.g., email transcripts. A preview displays on the screen.
+{:start="2"}
+2. Select the action buttons that you would like to add, e.g., email transcripts. A preview displays on the screen.
 
 ![](/img/engagement window 20.png)
 
-3\. To change the color of the Action menu, click the actions area in the chat window. The action window will open.
+{:start="3"}
+3. To change the color of the Action menu, click the actions area in the chat window. The action window will open.
 
-4\. Change the font, background color and/or icon color (dark or bright), as desired.
+4. Change the font, background color and/or icon color (dark or bright), as desired.
 
 ![](/img/engagement window 10.png)
 
@@ -126,11 +130,12 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 
 ![](/img/engagement window 11.png)
 
-**Note**: Surveys and dialogs inherit the main chat window’s colors (see example below.)
-
-* The background color is the same as the chat window background.
-* Text is the same color and font as the Automatic Messages.
-* Buttons inherit the look and feel of the title bar.
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>Surveys and dialogs inherit the main chat window’s colors (see example below.)</li> <li>The background color is the same as the chat window background.</li> <li>Text is the same color and font as the Automatic Messages.</li> <li>Buttons inherit the look and feel of the title bar.</li>
+</ul> 
+</div>
 
 ![](/img/engagement window 12.png)
 
