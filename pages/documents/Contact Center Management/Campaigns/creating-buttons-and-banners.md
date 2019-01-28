@@ -10,7 +10,6 @@ permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:55:35 +0200
-published: true
 
 ---
 ## Choosing your engagement type
@@ -125,6 +124,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed. After declining a proactive conversation engagement, conversation engagements **cannot** be displayed.
 
+{: .notice} 
 **Note:** The size and screen placement of all the above engagements are configurable in the engagement studio and the engagement settings page, along with the language, skill and display mode (embedded or separate browser window).
 
 ## Previewing your engagement
@@ -162,14 +162,13 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 **To create an accessible engagement:**
 
 1. Create your engagement as you want it to appear on your website. Include any text, images and buttons using the engagement studio. Use simple and clear language for users with cognitive disabilities.
-
 2. Ensure **text and background color ratio** (for vision impaired visitors): Text and background color contrast ratio should be at least 4.5:1, unless the font is at least 18 point or 14 point bold, in which case contrast ratio should be at least 3:1.  You can use various tools available on the web to verify the contrast ratio.
-
 3. Add **alternate text** to each **image** in your engagement window graphic:
-	1. Click an **image** in the engagement window graphic. A settings window for the image opens.
-	2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you selected, as follows:
-    * If the element image conveys information, the alternate text should convey the same information.
-    * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
+		1. Click an **image** in the engagement window graphic. A settings window for the image opens.
+		2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you
+        selected, as follows:
+        	* If the element image conveys information, the alternate text should convey the same information.
+            * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
 
 	This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
 
@@ -178,7 +177,7 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 {:start="4"}
 1. To ensure that the elements in the engagement are announced in the order you require, define the **announcement order** of **each element**  in your engagement window graphic. Click each element (text, image, button) and fill in the number corresponding to the order in which it should be announced. Use whole numbers. The first element that should be announced should contain 1, the second 2, etc.
 
-{: .important}
+{: .important} 
 **Please note:** If you don’t define the announcement order, elements will be announced in the order they were added to the engagement.
 
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
