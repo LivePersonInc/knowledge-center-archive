@@ -83,9 +83,7 @@ For customers using chat, the embedded engagement will display even if no agents
 
 ### Sticky engagements
 
-Sticky buttons stay in the same place relative to the screen, so even when the user scrolls, the sticky button remains in the same place. Only one sticky engagement can be displayed on each side of the webpage.
-
-Sticky buttons are easy for the visitor to locate no matter where they are on your site, so they are useful.
+Sticky buttons stay in the same place relative to the screen, so even when the user scrolls, the sticky button remains in the same place. Only one sticky engagement can be displayed on each side of the webpage. Sticky buttons are easy for the visitor to locate no matter where they are on your site, so they are useful.
 
 ![](/img/creating buttons 3.png)
 
