@@ -173,8 +173,7 @@ Available customizations:
 
 Agent picture is defined individually per window. If you are using the same window in different engagements/campaigns, visitors will see the agent’s picture in both of them.
 
-**In order to define the agent’s picture in the selected engagement window, follow these steps:**
-
+In order to define the agent’s picture in the selected engagement window, follow these steps:
 1. Select the desired window from the Engagement window library
 2. In the Engagement window studio select **Open additional window settings**
 
