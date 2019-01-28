@@ -148,7 +148,6 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/target-audience.md
 - pages/documents/Messaging Channels/Rich messaging/audio-messaging-user-guide.md
-- pages/documents/reporting-data.md
 - pages/documents/Messaging Channels/Rich messaging/quick-replies-user-guide.md
 - pages/documents/surveys-window.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
@@ -161,7 +160,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
@@ -178,6 +176,9 @@ pages:
 - pages/documents/Messaging Channels/web messaging/add-web-messaging-to-your-website.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-for-messaging-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/time-frame.md
+- pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
+- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
+- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/real-time-messaging-dashboard-beta-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-using-the-mcs-toolkit.md
@@ -225,10 +226,8 @@ pages:
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
-- pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
 - pages/documents/What's New/december-2018.md
-- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
