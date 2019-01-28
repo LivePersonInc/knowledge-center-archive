@@ -72,6 +72,7 @@ In the goal indicator settings, Max set his goal as **more than 10,000**, and cl
 
 ![](/img/goals 7.png)
 
+{: .important}
 **Note:** If Max’s account reports more than one currency, the additional currency amount will also be included in the total purchase value. Targeting will occur for each value that fits the desired range without distinguishing between currencies.
 
 ![](/img/goals 8.png)
