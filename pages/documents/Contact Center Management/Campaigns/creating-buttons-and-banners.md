@@ -182,13 +182,12 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 **Note:** If you don’t define the announcement order, elements will be announced in the order they were added to the engagement.
 
 {:start="5"}
-
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
 
 ![](/img/creating buttons 12.png)
 
 {:start="6"}
-2\. Save the engagement.
+2. Save the engagement.
 
 For more information on accessibility requirements, refer to the [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/).
 
