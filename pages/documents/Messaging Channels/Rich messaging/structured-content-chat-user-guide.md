@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-28 14:08:32 +0200
 
 ---
-## Why Use structured content?
+## Why use structured content?
 
 Conversational commerce allows people to message with businesses anytime from anywhere without having to call or search a website. Structured content plays a big part in making  messaging richer and acts as a one stop shop for brands to drive more actions directly within in your messaging conversation.
 
@@ -86,7 +86,7 @@ To build structured content for use on web chat, we recommend working with your 
 
 In order to enable the feature via AC features and site settings, please contact your LivePerson representative.
 
-## Implementation 
+## Implementation
 
 1. Define your use cases -structured content can be used for a variety of applications, including sales interactions, service provision, and operational solutions (see use cases above)
 2. Plan and integrate content from your backend systems, such as images, product catalog, pricing, and service list. This will require you to set up communication between either the agent widget and your backend system. For example, you could have your agent send pricing, images and product names from your CMS (Content Management System).
@@ -123,15 +123,43 @@ In order to enable the feature via AC features and site settings, please contact
 
 **A:** You can show between two and ten cards within the carousel
 
-# **Best Practices**
+## Best practices
 
-For best practices please visit the [Developers community](https://developers.liveperson.com/structured-content-best-practices.html)
+1. It is recommended that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
+2. When building your cards and actions, it is recommended to ensure that every click will also have a publishText action. This ensures that the click is “recorded” in the transcript and makes it easier for bots and agents to respond to consumer interactions with the card.
+3. It is recommended not to add more than three or four buttons at the maximum per card, to avoid noise for the visitor.
+4. Use high resolution images in your cards, verify them and their quality before you use the card for the first time and make sure your cards are interesting and aesthetically pleasing.
+5. Don’t assign a navigate and a deep-link actions together, as they are mutually exclusive.
+6. Use a carousel when there's a priority order to your content, i.e., the first item is probably the most interesting.
+7. Strive for consistency. All cards within the carousel should have the same look and feel and the same business logic. If one card has an image, include an image in all of them.
+8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
+9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [structured content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
 
-# **Known limitations**
+## **Limitations**
 
-For Known Limitations please visit the [Developer’s Community](https://developers.liveperson.com/structured-content-limitations.html)
+### Maps
 
-# **Helpful Links**
+Both the web window (visitor side) and the workspace (agent side) do not show map by user-specific location but instead shows a static snapshot, the default map view defined.
+
+### Styling
+
+**Mobile:**
+
+Some parameters can be configured in Bubble branding when using the In-App SDK. All other attributes are inherited from the SDK configuration.  
+See documentation: [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-attributes.html#structured-content) and [Android](https://developers.liveperson.com/android-attributes.html#structured-content)
+
+Structured content JSON affects text formatting in the structured content “Text” element. Only the following parameters can be configured for the "Text" element:
+
+1. Font size
+2. Font style (Italic, Bold)
+3. Font color
+4. Background color
+
+**Web (chat)**
+
+You cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
+
+## Helpful links
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 
