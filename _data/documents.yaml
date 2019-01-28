@@ -14,7 +14,7 @@
     - subcategoryname: Web messaging
       pages:
         - pagename: Add web messaging to your website
-        - pagename: Authenticated messaging
+        - pagename: Authenticated web messaging
         - pagename: Upgrading from live chat to messaging
     - subcategoryname: "Mobile app messaging"
       pages:
@@ -27,12 +27,11 @@
         - pagename: SMS connector
         - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
-    - subcategoryname: Facebook Messenger
-    - subcategoryname: Google RCS Business Messaging
+    - subcategoryname: Facebook Messenger connector
+    - subcategoryname: Google RCS Business Messenger
     - subcategoryname: WhatsApp Business
-    - subcategoryname: Apple Business Chat
     - subcategoryname: Google My Business
-    - subcategoryname: Line
+    - subcategoryname: Line connector
     - subcategoryname: Messaging FAQs
     - subcategoryname: Live chat
       pages:
@@ -53,7 +52,7 @@
 - categoryname: "Bots & automation"
   image: bots-automation
   subcategories:
-    - subcategoryname: How bots work within LivePerson
+    - subcategoryname: How bots work with LivePerson
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
@@ -103,7 +102,7 @@
         - pagename: Preparing agents to start a shift
         - pagename: Working hours management best practices
         - pagename: Shift scheduler configuration guide
-        - pagename: Benchmarks to measure messaging
+        - pagename: Benchmarks to measure messaging success
     - subcategoryname: Live chat operations
       pages:
         - pagename: Queue prioritization for live chat
@@ -141,7 +140,7 @@
         - pagename: Taking breaks & ending your shift
         - pagename: Understanding agent performance
         - pagename: Cobrowse for messaging
-        - pagename: Messaging Best Practices for Agents
+        - pagename: Best practices for messaging agents
         - pagename: Agent workspace icons for messaging
     - subcategoryname: Manager tools for messaging
       pages:
@@ -170,8 +169,8 @@
     - subcategoryname: Business Reporting Metrics
     - subcategoryname: Messaging
       pages:
-        - pagename: Agent messaging data
-        - pagename: Agent manager messaging data
+        - pagename: Agent manager messaging real time data
+        - pagename: Agent manager historical messaging data
         - pagename: Messaging Dashboards
           level3:
             - level3name: Post conversation survey

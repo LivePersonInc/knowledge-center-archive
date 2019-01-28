@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''
-permalink: security-regulations-audit-trails
+permalink: security-regulations-audit-trails.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 15:00:44 +0200
@@ -23,7 +23,7 @@ An audit trail is available for the following elements:
 * Permissions
 * LoBs
 * Post conversation survey
-* Campaign scheduling 
+* Campaign scheduling
 * Working hours management
 
 Audit data related to user logins to the LiveEngage system is not available.

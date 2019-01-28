@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Recommended three steps for baseline account security
 level3: ''
-permalink: Security-regualtions-security-account-security-recommendations.html
+permalink: security-regualtions-security-account-security-recommendations.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 13:50:43 +0000

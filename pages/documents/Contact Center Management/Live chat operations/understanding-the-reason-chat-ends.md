@@ -6,7 +6,7 @@ indicator: chat
 subtitle: 'Insight into why chats end is important for agents and agent managers trying
   to gain a full understanding of a consumer’s experience during an engagement. '
 level3: ''
-permalink: contact-center-management-live-chat-operations-understanding-the-reason-chat-ends.html
+permalink: contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html
 isTutorial: false
 date: 2019-01-21 13:38:59 +0200
 

@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-taking-breaks-ending-shift.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-taking-breaks-ending-your-shift.html
 isTutorial: false
 date: 2019-01-21 12:06:43 +0200
 

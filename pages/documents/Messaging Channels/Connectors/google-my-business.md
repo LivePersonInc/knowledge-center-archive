@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: 'Tap into Google''s network to build relationships and develop more prospects '
 level3: ''
-permalink: google-my-business
+permalink: messaging-channels-google-my-business.html
 isTutorial: false
 date: 2019-01-20 14:52:49 +0200
 

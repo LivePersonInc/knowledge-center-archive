@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: both
 subtitle: Use Automatic Conversation Distribution to balance your agents’ workload
 level3: ''
-permalink: contact-center-management-messaging-operations-automatic-conversation-distribution-acd.html
+permalink: contact-center-management-messaging-operations-automatic-conversation-distribution-(acd).html
 isTutorial: false
 date: 2019-01-20 14:44:56 +0200
 
@@ -40,5 +40,5 @@ ACD settings can be configured  in the LiveEngage Night Vision overlay, if enab
 
 1. Click the Night Vision button at the top of the screen.
 2. Click Edit.
-3. The Change queue options window opens. Select one of the queue options. 
+3. The Change queue options window opens. Select one of the queue options.
 4. Select the time interval before the conversation is sent back to the queue.

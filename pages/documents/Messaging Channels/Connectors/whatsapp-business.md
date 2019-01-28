@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: Tap into the most popular consumer messaging channel on Earth
 level3: ''
-permalink: whatsapp-business.html
+permalink: messaging-channels-whatsapp-business.html
 isTutorial: false
 date: 2019-01-20 14:34:09 +0200
 

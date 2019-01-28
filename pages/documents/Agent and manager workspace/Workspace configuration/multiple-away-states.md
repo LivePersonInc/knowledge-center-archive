@@ -5,7 +5,7 @@ subCategoryName: Workspace configuration
 indicator: both
 subtitle: Gain deeper insight into how agents spend their time
 level3: ''
-permalink: multiple-away-states.html
+permalink: agent-manager-workspace-workspace-configuration-multiple-away-states.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:55:25 +0200
@@ -44,13 +44,13 @@ By seeing how long agents are spending in these more specific modes, such as out
 
 ![](/img/multi away state 5.png)
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
-<li>You can define up to 10 custom away state reasons.</li> 
-  <li>A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.</li> 
-  <li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li> 
-</ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
+<li>You can define up to 10 custom away state reasons.</li>
+  <li>A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.</li>
+  <li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li>
+</ul>
 </div>
 
 ## **To set a custom away state:**
@@ -63,12 +63,12 @@ Once new away state reasons have been added, the agent will be able to select fr
 
 ![](/img/multi away state 6.png)
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
-<li>The default state, “Away (default)”, appears at the bottom of the list.</li> 
+<div class="notice">
+<b>Note:</b>
+<ul>
+<li>The default state, “Away (default)”, appears at the bottom of the list.</li>
 <li>The selected away state will be indicated with a tooltip in the top bar.</li>
-</ul> 
+</ul>
 </div>
 
 ## **The agent & messaging agent lists**

@@ -5,7 +5,7 @@ subCategoryName: SMS
 indicator: messaging
 subtitle: Connect with your consumers on their native messaging app
 level3: ''
-permalink: messaging-channels-sms-connector.html
+permalink: messaging-channels-sms-sms-connector.html
 isTutorial: false
 date: 2019-01-17 14:40:01 +0000
 

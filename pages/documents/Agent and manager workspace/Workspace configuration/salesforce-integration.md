@@ -5,7 +5,7 @@ subCategoryName: Workspace configuration
 indicator: both
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-salesforce-integration-guide.html
+permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
 published: true
