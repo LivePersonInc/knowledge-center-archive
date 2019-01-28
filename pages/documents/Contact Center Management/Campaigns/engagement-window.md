@@ -163,8 +163,10 @@ Available customizations:
 
 ![](/img/engagement window 21.png)
 
+{: .important}
 **Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
 
+{:start="4"}
 1. Click **Save**
 
 ### Defining agent picture appearance in the engagement window
@@ -183,12 +185,14 @@ Agent picture is defined individually per window. If you are using the same wind
 
 ![](/img/engagement window 17.png)
 
+{:start="3"}
 1. Click **Save**
 
 Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window:
 
 ![](/img/engagement window 22.png)
 
+{: .notice}
 **Note:** In the case that the agent picture is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.
 
 ### Configuring a default picture
@@ -202,6 +206,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 
 ![](/img/engagement window 24.png)
 
+{:start="5"}
 1. Click “Save”
 
 Visitors will now see the configured default picture beside each line sent by the agent with no configured personal picture.
@@ -210,5 +215,4 @@ Visitors will now see the configured default picture beside each line sent by th
 
 * **Join conversation:** If a second agent joins the conversation for whom a default picture URL is defined, the visitor sees the default picture next to second agent’s lines.
 * **Because each window is configured separately, take into account the following:**
-
 In the case that different default pictures are defined in different engagement windows, when an agent transfers the conversation to an agent that has no assigned picture, the default picture displayed is the default picture defined for the conversation’s original engagement window. This is relevant to accounts using separate engagement windows for different departments.
