@@ -309,11 +309,19 @@ The embedded engagement window and email transcripts sent to consumers support o
 
 The agent workspace supports the following 13 languages:
 
-| --- | --- | --- | --- |
-| English (US) | Chinese (Simplified) | Danish | Finnish |
-| French | German | Italian | Japanese |
-| Korean | Portuguese (Brazil) | Romanian | Spanish |
-| Turkish |  |  |  |
+* English (US) 
+* Chinese (Simplified) 
+* Danish 
+* Finnish 
+* French 
+* German 
+* Italian 
+* Japanese 
+* Korean 
+* Portuguese (Brazil) 
+* Romanian |
+* Spanish 
+* Turkish 
 
 ### Languages supported in CoBrowse
 
@@ -324,14 +332,14 @@ CoBrowse supports the following 13 languages in the Agent Workspace and on the v
 * Chinese (Traditional) 
 * Danish 
 * Finnish 
-*  French 
-*  German 
+* French 
+* German 
 * Italian 
 * Japanese 
-*  Korean 
-*  Portuguese 
+* Korean 
+* Portuguese 
 * Spanish 
-*  Turkish
+* Turkish
 
 ### Languages supported in Report Builder
 
