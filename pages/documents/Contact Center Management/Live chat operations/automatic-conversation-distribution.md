@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: both
 subtitle: Use Automatic Conversation Distribution (ACD) to balance your agents’ workload
 level3: ''
-permalink: contact-center-management-live-chat-operations-automatic-conversation-distribution
+permalink: contact-center-management-live-chat-operations-automatic-conversation-distribution.html
 isTutorial: false
 date: 2019-01-20 14:33:55 +0200
 

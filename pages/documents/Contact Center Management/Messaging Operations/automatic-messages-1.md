@@ -4,8 +4,8 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: Provide contextual information to consumers about the conversation
-level3: ''
-permalink: contact-center-management-messaging-operations-automatic-messages-configuration-guide.html
+level3: Automatic messages
+permalink: contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration-guide.html
 isTutorial: true
 date: 2019-01-21 12:49:33 +0000
 isNew: false

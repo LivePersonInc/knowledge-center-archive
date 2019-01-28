@@ -36,14 +36,12 @@
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
-        - pagename: Displaying chat engagements
-        - pagename: Running campaigns with multiple engagements
     - subcategoryname: Messaging channels capabilities comparison
     - subcategoryname: Rich messaging
       pages:
         - pagename: Rich messaging overview
-        - pagename: Photo sharing guide
-        - pagename: Audio messaging guide
+        - pagename: Photo sharing user guide
+        - pagename: Audio messaging user guide
         - pagename: Quick replies user guide
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
@@ -192,14 +190,14 @@
             - level3name: Survey activity dashboard
             - level3name: Business activity grid
             - level3name: Goal tracker report
-            - level3name: "Operational & staffing"
+            - level3name: "Operational & staffing dashboard"
             - level3name: Agent activity dashboard
             - level3name: Skills activity dashboard
     - subcategoryname: "How to export 100,000 chats into a dashboard"
     - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
-        - pagename: "Accessing the toolkit"
+        - pagename: "Accessing the MCS toolkit"
         - pagename: "Using the MCS toolkit"
     - subcategoryname: Report Builder
       pages:

@@ -1,7 +1,7 @@
 ---
 pagename: Agent manager historical data
 categoryName: Data & reporting
-subCategoryName: Live chat
+subCategoryName: Meaningful Connection Score (MCS)
 indicator: both
 subtitle: Agent managers can get historical data on agent activity
 level3: ''

@@ -7,7 +7,7 @@ subtitle: The real time dashboard leverages the power of the real time operation
   and administrative APIs to enable users to monitor the brand’s account health in
   both real time and for the previous 24 hours.
 level3: 'Messaging Dashboards'
-permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard.html
+permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html
 isTutorial: false
 date: 2019-01-21 15:40:12 +0200
 

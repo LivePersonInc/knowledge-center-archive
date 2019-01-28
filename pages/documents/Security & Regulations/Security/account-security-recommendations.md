@@ -1,11 +1,11 @@
 ---
 pagename: Account security recommendations
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Security
 indicator: both
 subtitle: Recommended three steps for baseline account security
 level3: ''
-permalink: security-regualtions-security-account-security-recommendations.html
+permalink: security-regulations-security-account-security-recommendations.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 13:50:43 +0000

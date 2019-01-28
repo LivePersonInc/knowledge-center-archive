@@ -1,12 +1,12 @@
 ---
-pagename: Automatic messages configuration guide
+pagename: Automatic messages
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
 subtitle: Provide contextual information to consumers about the conversation during
   a chat
 level3: ''
-permalink: contact-center-management-live-chat-operations-automatic-messages-configuration-guide.html
+permalink: contact-center-management-live-chat-operations-automatic-messages.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 14:22:36 +0200
@@ -40,11 +40,11 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="3"}
 3.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
-![](/img/automatic-messages-chat-4.png) 
+![](/img/automatic-messages-chat-4.png)
 
 {:start="4"}
 4.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
-5.    Click **Save**.	
+5.    Click **Save**.
 
 {: .notice}
 The automatic message library can also be reached from the chat settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
@@ -55,7 +55,7 @@ The automatic message library can also be reached from the chat settings in the 
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3.  Click **Save**.
 
-   ![](/img/automatic-messages-chat-5.png) 
+   ![](/img/automatic-messages-chat-5.png)
 
 ### To customize messages for a specific skill
 
@@ -79,7 +79,7 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 * _Queue length_: The number of visitors in the "waiting to chat" queue {QueueLength}
 * _Place in queue_: The visitor's numerical rank in the "waiting to chat" queue {PlaceInQ}.
 * _Agent name_: The nickname of the current operator {name}.
-* _Email address_: The visitor’s email address {email}. 
+* _Email address_: The visitor’s email address {email}.
 
 ![](/img/automatic-messages-chat-8.png)
 
@@ -99,7 +99,7 @@ The following list sets out the default automatic messages in LiveEngage, divide
 
 ### System messages
 
-These messages appear during the conversation to provide visitors contextual information about the conversation. 
+These messages appear during the conversation to provide visitors contextual information about the conversation.
 
 | When the message is displayed? | Message name in LiveEngage | Default text | Available dynamic text |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ These messages appear during the conversation to provide visitors contextual inf
 | This messages is displayed when an agent accepts the chat. | Agent accepts the engagement | You are now chatting with {name}. | {name} |
 | This message is displayed when the chat has been disconnected. | Engagement disconnected | Sorry, our chat session has ended unexpectedly. Come chat with us again for further assistance. |  |
 
-### Non-responsive messages 
+### Non-responsive messages
 
 When the consumer does not respond for a specified amount of time, two messages are displayed sequentially to the visitor. The **Timeout** is the number of seconds that LiveEngage would wait for a response before the first non-responsive message would be sent.
 

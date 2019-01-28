@@ -1,11 +1,11 @@
 ---
-pagename: Information on consumer's transactions
+pagename: Information on your consumers' transactions
 categoryName: Data & reporting
 subCategoryName: Engagement attributes
 indicator: chat
 subtitle: 'See the monetary value that each campaign is driving '
 level3: ''
-permalink: data-reporting-engagement-attributes-information-on-consumers-transactions.html
+permalink: data-reporting-engagement-attributes-information-on-your-consumers-transactions.html
 isTutorial: false
 date: 2019-01-17 15:12:19 +0200
 

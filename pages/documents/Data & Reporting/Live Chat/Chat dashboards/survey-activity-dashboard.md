@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Capture all responses to surveys presented to agents and consumers
 level3: Chat Dashboards
-permalink: data-reporting-chat-dashboards-live-chat-chat-dashboards.html
+permalink: data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html
 isTutorial: false
 date: 2019-01-21 11:41:23 +0000
 

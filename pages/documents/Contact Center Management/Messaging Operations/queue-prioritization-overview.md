@@ -4,8 +4,8 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: ''
-level3: ''
-permalink: contact-center-management-messaging-operations-queue-prioritization-overview.html
+level3: Queue management
+permalink: contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html
 isTutorial: true
 date: 2019-01-16 08:25:55 +0000
 

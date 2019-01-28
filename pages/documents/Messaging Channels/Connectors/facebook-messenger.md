@@ -1,12 +1,12 @@
 ---
-pagename: 'Facebook Messenger connector '
+pagename: Facebook Messenger
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
 subtitle: Tap into the millions of consumers connecting over Facebook using the power
   of LivePerson
 level3: ''
-permalink: messaging-channels-facebook-messenger-connector.html
+permalink: messaging-channels-facebook-messenger.html
 isTutorial: false
 date: 2019-01-20 09:10:07 +0000
 isNew: true

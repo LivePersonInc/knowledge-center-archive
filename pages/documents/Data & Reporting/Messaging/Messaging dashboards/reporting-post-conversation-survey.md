@@ -1,12 +1,12 @@
 ---
 pagename: Post conversation survey
-categoryName: Getting started
-subCategoryName: Web messaging
+categoryName: Data & reporting
+subCategoryName: Messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
 level3: Messaging dashboards
-permalink: reporting-data-web-messaging-messaging-dashboards-post-conversation-survey.html
+permalink: data-reporting-messaging-messaging-dashboards-post-conversation-survey.html
 isTutorial: false
 date: 2019-01-15 15:14:02 +0200
 level3: ''

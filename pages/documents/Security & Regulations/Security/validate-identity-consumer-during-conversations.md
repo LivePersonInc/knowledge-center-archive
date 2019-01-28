@@ -1,12 +1,12 @@
 ---
 pagename: Validate identity of consumers during conversations
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Security
 indicator: chat
 subtitle: Validate the identity of a consumer during a conversation using the ID&V
   widget
 level3: ''
-permalink: security-regulations-security-validate-the-identity-of-a-consumer-during-a-conversation.html
+permalink: security-regulations-security-validate-identity-of-consumers-during-conversations.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 15:54:57 +0200

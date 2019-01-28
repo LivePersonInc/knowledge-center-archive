@@ -1,5 +1,5 @@
 ---
-pagename: Operational & staffing dashboard
+pagename: 'Operational & staffing dashboard'
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: chat

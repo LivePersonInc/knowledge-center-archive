@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: best-practices-for-messaging-agents.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-best-practices-for-messaging-agents.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 17:06:03 +0200
@@ -15,7 +15,7 @@ date: 2019-01-23 17:06:03 +0200
 
 ### **I’ve got a lot of conversations on my screen and I’m finding it difficult to focus. What should I do?**
 
-You can hide conversations when the conversation is no longer active. No longer active refers to the state in which the customer is not messaging you within regular intervals. Hiding the conversation doesn’t close the conversation; it only hides it from your view. It will reappear along your message bar when the customer responds. 
+You can hide conversations when the conversation is no longer active. No longer active refers to the state in which the customer is not messaging you within regular intervals. Hiding the conversation doesn’t close the conversation; it only hides it from your view. It will reappear along your message bar when the customer responds.
 
 ### **I want to go on my break in 10 minutes. What should I tell my customers? And, do I need to do anything with my manual SLA?**
 
@@ -49,7 +49,7 @@ The system will automatically do its best to route the conversation to the last 
 
 ### **What should I do if a customer tells me that they’ll come back in a few hours? Should I change my manual SLA?**
 
-Once you have responded to the customer (the conversation is then no longer pending), you should hide the conversation. It will become inactive and will reactivate when the customer returns and responds. Feel free to ask the customer to respond when they are ready so that the conversation becomes active again. 
+Once you have responded to the customer (the conversation is then no longer pending), you should hide the conversation. It will become inactive and will reactivate when the customer returns and responds. Feel free to ask the customer to respond when they are ready so that the conversation becomes active again.
 
 ### **When should I return a customer to the queue?**
 
@@ -81,7 +81,7 @@ There are other skills available on messaging. Speak to your Team Manager to und
 
 ### **Is there a shortcut for saying hi to my customer?**
 
-There is a predefined content set up with a short cut for you. This differs for first time and existing customers, so make a point of checking this before you choose your hot-key. 
+There is a predefined content set up with a short cut for you. This differs for first time and existing customers, so make a point of checking this before you choose your hot-key.
 
 ### **We’ve been asked to respond to the first customer within a minute. How can I do that when I have so many conversations?**
 
@@ -103,19 +103,19 @@ Once this has been met, you should return to default.
 
 Yes, a conversation summary should be filled out every time.  A summary should include information that stood out about the chat, a quick summary would be really useful for the next person who deals with this customer again. It saves them from having to read the whole transcript. Keep the summary short and concise.
 
- 
+
 
 ### **Should I ask customers to fill in feedback at the end of a conversation?**
 
 The system will automatically send out the exit survey. Sometimes it is good for the customer to know that a survey will be popping up as it may also encourage them to fill it out. Most of the time, it is good to let the customer know.
 
- 
+
 
 ### **When I login, I get lots of messaging conversations straight away. Is that normal?**
 
 This can be normal, depending on the time that you start a shift. If there are a lot of customers in the queue from the night before, you may be busy from when you first login.
 
- 
+
 
 ### **What will the visitor see once I set a new SLA?**
 

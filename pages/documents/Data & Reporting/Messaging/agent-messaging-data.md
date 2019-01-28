@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: Real time data bar and dashboard for agent managers to track performance
   of agents
 level3: ''
-permalink: data-reporting-messaging-agent-messaging-real-time-data.html
+permalink: data-reporting-messaging-agent-manager-messaging-real-time-data.html
 isTutorial: false
 date: 2019-01-16 10:02:31 +0000
 

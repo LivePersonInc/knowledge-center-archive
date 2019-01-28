@@ -1,11 +1,11 @@
 ---
-pagename: Rich messaging
+pagename: Rich messaging overview
 categoryName: Messaging channels
 subCategoryName: Rich messaging
 indicator: both
 subtitle: Enhancing the customer’s messaging experience through rich messaging
 level3: ''
-permalink: messaging-channels-rich-messaging-rich-messaging
+permalink: messaging-channels-rich-messaging-rich-messaging-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 15:48:11 +0200

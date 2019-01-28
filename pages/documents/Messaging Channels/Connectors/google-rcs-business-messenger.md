@@ -1,11 +1,11 @@
 ---
-pagename: Google RCS Business Messenger
+pagename: Google RCS Business Messaging
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
 subtitle: Offer an enriched messaging experience with the capabilities of RCS
 level3: ''
-permalink: messaging-channels-google-rcs-business-messenger.html
+permalink: messaging-channels-google-rcs-business-messaging.html
 isTutorial: false
 date: 2019-01-20 14:14:47 +0200
 

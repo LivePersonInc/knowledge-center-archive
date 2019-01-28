@@ -1,12 +1,12 @@
 ---
-pagename: Enhance the consumer experience
+pagename: Enhance mobile app messaging
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
 subtitle: Introduce rich messaging and shortcuts to make your mobile app messaging
   more user friendly
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-enhance-the-consumer-experience.html
+permalink: messaging-channels-mobile-app-messaging-enhance-mobile-app-messaging.html
 isTutorial: false
 date: 2019-01-17 13:12:13 +0000
 published: true

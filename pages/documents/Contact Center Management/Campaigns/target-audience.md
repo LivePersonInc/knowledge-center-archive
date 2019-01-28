@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Configure your engagements to target the ideal consumer
 level3: ''
-permalink: target-audience.html
+permalink: contact-center-management-campaigns-target-audience.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 12:10:49 +0200
@@ -69,7 +69,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 If you want to specify an originating channel, you can select from the following options:
 
-*  Direct 
+*  Direct
 * Display     
 * Email     
 * Paid search     
@@ -94,10 +94,10 @@ To target consumers arriving from an affiliate or external campaign, you can man
 ![](/img/target audience 7.png)
 
 {:start="8"}
-8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive). 
+8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
 
-* To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses. 
-* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types. 
+* To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
+* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
 Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.

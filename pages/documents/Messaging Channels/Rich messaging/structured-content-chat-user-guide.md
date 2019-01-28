@@ -6,11 +6,11 @@ indicator: chat
 subtitle: Agents are able to send structured content cards including text, images,
   maps and buttons, to enhance the conversation with the consumer.
 level3: ''
-permalink: messaging-channels-rich-messaging-structured-content-for-chat.html
+permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 14:08:32 +0200
-published: false
+published: true
 
 ---
 ## Why use structured content?
@@ -108,7 +108,7 @@ In order to enable the feature via AC features and site settings, please contact
 
      Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
-# 
+#
 
 # **FAQs**
 

@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Measure your success by setting a goal for your campaign
 level3: ''
-permalink: campaign-goals.html
+permalink: contact-center-management-campaigns-campaign-goals.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 10:23:25 +0200
@@ -77,7 +77,7 @@ In the goal indicator settings, Max set his goal as **more than 10,000**, and cl
 
 Max can now create engagements that he believes will target his high spenders. Once the campaign is activated, each time a consumer completes a transaction valued at over 10,000 (in any currency), his conversion will display +1 in the data bar. Max can see if his engagements have been successful, or if he needs to change his strategy, for example by targeting other users, or selecting different entry points to display the engagements.
 
-### 2. Service activity complete 
+### 2. Service activity complete
 
 **Use case:** Great Bank
 

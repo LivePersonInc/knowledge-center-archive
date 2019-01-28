@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Tailor your campaign to suit the hours of your contact center
 level3: ''
-permalink: time-frame.html
+permalink: contact-center-management-campaigns-time-frame.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 10:21:02 +0200
@@ -69,7 +69,7 @@ You may choose between:
 
 #### Defining multiple shifts per day
 
-You can define multiple shifts for a single day of the week by doing the following: 
+You can define multiple shifts for a single day of the week by doing the following:
 
 1. Simply click the **+Add** button in order to split the day’s active hours and add the shift’s hours.
 2. Save the page.
@@ -85,7 +85,7 @@ You can define multiple shifts for a single day of the week by doing the followi
 
 ## Special occasions per campaign
 
-A special occasion is used when there is an exception to the campaign's typical hours of operation. To configure a special occasion, do the following: 
+A special occasion is used when there is an exception to the campaign's typical hours of operation. To configure a special occasion, do the following:
 
 1. Under **special occasions**, click the **set special occasions** button in order to access the special occasion library.
 

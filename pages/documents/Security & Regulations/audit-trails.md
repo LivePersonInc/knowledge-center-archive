@@ -1,11 +1,11 @@
 ---
-pagename: 'Audit trails '
+pagename: Audit trail
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Regulations
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''
-permalink: security-regulations-audit-trails.html
+permalink: security-regulations-audit-trail.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 15:00:44 +0200
