@@ -131,7 +131,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 ![](/img/engagement window 11.png)
 
 <div class="notice"> 
-<b> Note: Surveys and dialogs inherit the main chat window’s colors (see example below.)</b> 
+<b> Note: surveys and dialogs inherit the main chat window’s colors (see example below)</b> 
 <ul> 
 <li>The background color is the same as the chat window background.</li> <li>Text is the same color and font as the Automatic Messages.</li> <li>Buttons inherit the look and feel of the title bar.</li>
 </ul> 
