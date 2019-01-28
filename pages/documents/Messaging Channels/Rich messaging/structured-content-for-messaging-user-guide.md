@@ -10,6 +10,7 @@ permalink: messaging-channels-rich-messaging-structured-content-for-messaging-us
 isTutorial: false
 isNew: false
 date: 2019-01-28 11:19:13 +0200
+published: false
 
 ---
 ## Why use structured content?
@@ -46,33 +47,25 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](/img/SC1.png)
-
-![](https://lh5.googleusercontent.com/Ikk5-33pL5ADgWco1rWuBHLI9kJdbYGK3ymY9fjrHUikKCywD8gaC8aNf94_hKcBnZocEn2blcXyHY-f1S-mvw2numuSs-1SXoK0H0wZbKCXr00FFg0prinuRmixWkCfZGE74inQ =218x388)
-
-### Video link
+### ![](/img/SC1.png)Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-### ![](https://lh3.googleusercontent.com/uQHayrZGf8EjVraPRi2gydj56-bHQ36Y81r7BHkLQ3god_dbXyywmcewITBpKKJHJac253wYef6PCsASNtJsgIAWZpofAus06kpWTEhax5HrspowBgNtdPSiv0MHBE8DkMCEulE_ =323x575)
+![](/img/SC2.png)
 
 ### Geo-navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-![](https://lh3.googleusercontent.com/MugfWzmMQj1E0U_Pgm7HweIXfPXdNZx-5QEc4pvsIvMa2jDb4Ersp7y_v0tkIiQhKfUXhtRLW-3kezZLY5xNwzLWnUL8nwVHotvbvzR0bKn_ihUpdEYhL3axyw58gLrJAEu4oToS =324x577)
-
-### Deep linking
+### ![](/img/SC3.png)Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-![](https://lh4.googleusercontent.com/DrNgxDqaY6QI3M-8ntPJipLEJUjoCGU6iAGmYFnXtNJ9E8yPkHJfjMPBAOogeimB7aqiXbPjcLsSNNbb_n8CLSeN50qCAEckp2WZ6iQYeyG4sBKS4YKC5BWZJfPgMl5fnI5daUMe =323x574)
-
-### Product catalog
+### ![](/img/SC4.png)Product catalog
 
 Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
-![](https://lh5.googleusercontent.com/dR1nrCX0roIBqu2cJE5aKwWMlwNYdA-CawyLrphRucIhVXCNlue5Y9sw1Up9dHfuGC5ywlHB__r3n7sPc4aW-3bIqX1pnfL2PzQsXAKnN19wlYOoIpDxkXOyiZETloF_oBjgP9fG =242x430)
+![](/img/SC5.gif)
 
 ## Enabling structured content
 
@@ -95,9 +88,11 @@ In order to enable the structured content via AC features and site settings, ple
 3. Determine if the structured content should be used for a human or virtual agent journey.
    * **Agent**: you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html). For further information, refer to the [Developer Communi](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#agent)[ty.]()
 
-![SCforguide.jpg](https://lh5.googleusercontent.com/qW5siu8aTJX-Df9kVbnKfjeb9kV3C9_ZzQgub0hoCmcOiOO_x1qJ8PxZg_er9DtLQicLMVOqJGJYrAScljN5rEOVpzl5TUCN66pZhth6g7JjGWT6s9cuBDdYzGXEEjpH473P79Jd =624x599)
+     ![](/img/SC6.jpg)
 
 * **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
+
+
 * Break each of your identified use cases down into the following building elements:
   1. Journey flows - map out the flow for the structured content usage in case of a bot. This determines which cards to send first and the logic for follow-up cards based on consumer responses.
   2. Structured content format: cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
