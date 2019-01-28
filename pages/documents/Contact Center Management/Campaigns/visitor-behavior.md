@@ -181,11 +181,11 @@ How to define a new flow:
 
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
-'Shopping Cart page > CheckOut page > Purchase Confirmation page'
+Shopping Cart page > CheckOut page > Purchase Confirmation page
 
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
-'Shopping Cart page > CheckOut page > Shopping Cart page'
+Shopping Cart page > CheckOut page > Shopping Cart page
 
 To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
 
@@ -201,17 +201,17 @@ To set up an Engagement for Visitor Back Flow:
 
 ![back flow 1](https://lh5.googleusercontent.com/weoA2ppNp3E9UwWJ2kS9gnG5105j-9U8ugS6J0jzSLWpQW2z0fHJwEn60i0kvx6aagEjTnfox54YNqFKTimLmTnZSB29k5tTe9TTrAjiTZVPlXW1TNHFd-wF04qKbMiRUAsHOuHC =384x175)
 
-5\. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+5. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 
-6\. Click Flow.
+6. Click Flow.
 
 ![backflow 2](https://lh6.googleusercontent.com/FUG0pwP32GWGriKnnx8c55aI2QPEULE5lpIsJa05Hb7qCkfF4RcCpZH0fR8tCrwBPFspyI3S12JctixE5gastZFolWiqJcrOJ0znGV4DNXZ3bLIIU1L8e59tIB94eepsGIA1Rgf4 =425x291)
 
-7\. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
+7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 
-8\. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
+8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
 
-9\. Save the changes and publish the campaign.
+9. Save the changes and publish the campaign.
 
 **Note:**
 
@@ -221,16 +221,14 @@ Page 1 > Page 2 > Page 3 > Page 4
 
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
 
-## 
-
 ## Visitor Behavior Conditions
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
 **Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.**
 
-| --- | --- |
 | Conditions | Relevant source |
+| --- | --- |
 | Flow | Web, Mobile |
 | Time on location (entry point) | Web |
 | Visited location (entry point) | Web, Mobile |
@@ -241,5 +239,3 @@ Some of the targeting conditions only support web engagements. You can refer to 
 | Visitor Error SDE | Web, Mobile |
 | Engaged in Session | Web, Mobile |
 | Service Activity SDE | Web, Mobile |
-
-##
