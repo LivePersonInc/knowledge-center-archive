@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-28 11:19:13 +0200
 
 ---
-## **Why use structured content?**
+## Why use structured content?
 
 Conversational commerce allows people to message with businesses anytime from anywhere without having to call or search a website. Structured content plays a big part in making  messaging richer and acts as a one stop shop for brands to drive more actions directly within in your messaging conversation.  
 The LivePerson messaging solution allows brands to send messages in a variety of ways and formats. Agents are able to send structured content as simple cards or as a carousel (a list of cards), including text, images, maps and buttons, to enhance the conversation with the consumer. Our structured messaging templates allow you to build your own structured content, allowing agents to share cards, as well as ‘add to cart’, confirmation and deep linking buttons, turning a simple app interaction into a conversational user experience.
@@ -26,7 +26,7 @@ The LivePerson messaging solution allows brands to send messages in a variety of
 * Enhanced operational solutions.
 * An overall improved and more efficient service - just what consumers expect from messaging.
 
-## **Structured content use cases**
+## Structured content use cases
 
 * Display product catalog to consumers helping with purchasing decisions
 * Sending instructional videos to consumers helping complicated setup processes
@@ -38,35 +38,37 @@ The LivePerson messaging solution allows brands to send messages in a variety of
 
 Structured content is available on our **mobile-app messaging**, **web messaging** and supported web messaging connectors. It is also available for **web chat** - for further information on configuring structured content for chat, please refer to the [documentation]().
 
-## **Capability highlights**
+## Capability highlights
 
 The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Community](https://developers.liveperson.com/structured-content-templates.html).
 
-### **Presenting options**
+### Presenting options
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
+![](/img/SC1.png)
+
 ![](https://lh5.googleusercontent.com/Ikk5-33pL5ADgWco1rWuBHLI9kJdbYGK3ymY9fjrHUikKCywD8gaC8aNf94_hKcBnZocEn2blcXyHY-f1S-mvw2numuSs-1SXoK0H0wZbKCXr00FFg0prinuRmixWkCfZGE74inQ =218x388)
 
-### **Video link**
+### Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
 ### ![](https://lh3.googleusercontent.com/uQHayrZGf8EjVraPRi2gydj56-bHQ36Y81r7BHkLQ3god_dbXyywmcewITBpKKJHJac253wYef6PCsASNtJsgIAWZpofAus06kpWTEhax5HrspowBgNtdPSiv0MHBE8DkMCEulE_ =323x575)
 
-### **Geo-navigation**
+### Geo-navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
 ![](https://lh3.googleusercontent.com/MugfWzmMQj1E0U_Pgm7HweIXfPXdNZx-5QEc4pvsIvMa2jDb4Ersp7y_v0tkIiQhKfUXhtRLW-3kezZLY5xNwzLWnUL8nwVHotvbvzR0bKn_ihUpdEYhL3axyw58gLrJAEu4oToS =324x577)
 
-### **Deep linking**
+### Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
 ![](https://lh4.googleusercontent.com/DrNgxDqaY6QI3M-8ntPJipLEJUjoCGU6iAGmYFnXtNJ9E8yPkHJfjMPBAOogeimB7aqiXbPjcLsSNNbb_n8CLSeN50qCAEckp2WZ6iQYeyG4sBKS4YKC5BWZJfPgMl5fnI5daUMe =323x574)
 
-### **Product catalog**
+### Product catalog
 
 Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
@@ -154,7 +156,7 @@ Structured content JSON affects text formatting in the structured content “Tex
 
 You cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
 
-# **Helpful Links**
+## **Helpful Links**
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 
