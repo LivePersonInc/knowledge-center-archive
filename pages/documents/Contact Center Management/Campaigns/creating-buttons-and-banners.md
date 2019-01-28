@@ -171,12 +171,14 @@ LiveEngage visitors experience meets disability accessibility requirements and f
     * If the element image conveys information, the alternate text should convey the same information.
     * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
 
-This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
+	This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
 
 ![](/img/creating buttons 11.png)
 
+{:start="4"}
 1. To ensure that the elements in the engagement are announced in the order you require, define the **announcement order** of **each element**  in your engagement window graphic. Click each element (text, image, button) and fill in the number corresponding to the order in which it should be announced. Use whole numbers. The first element that should be announced should contain 1, the second 2, etc.
 
+{: .important}
 **Please note:** If you don’t define the announcement order, elements will be announced in the order they were added to the engagement.
 
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
