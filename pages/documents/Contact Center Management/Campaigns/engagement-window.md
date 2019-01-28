@@ -26,7 +26,7 @@ To provide a consistent experience across devices, you can design identical enga
 
 {:start="2"}
 1. Hover over an existing window design and click **Edit** or click **Add new** to design a new window. Once you have designed the window it will be added to your Engagement window library for future use.
-2. After clicking **Add new__, the Engagement window studio opens__.**
+2. After clicking **Add new,** the Engagement window studio opens.
 
 {: .notice}
 **Note**: In the Engagement window library, you can delete window designs that are not in use by clicking the **Action** menu and selecting **Delete**. In addition, you can set a default window design by clicking the **Action** menu and selecting **Set as default**. To see which campaigns are using each window design, hover over the link icon.
