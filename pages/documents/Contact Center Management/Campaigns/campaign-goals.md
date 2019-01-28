@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Measure your success by setting a goal for your campaign
 level3: ''
-permalink: campaign-goals.html
+permalink: contact-center-management-campaigns-campaign-goals.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 08:23:25 +0000
