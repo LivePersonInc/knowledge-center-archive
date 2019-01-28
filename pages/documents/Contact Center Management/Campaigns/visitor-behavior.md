@@ -225,7 +225,8 @@ When a customer visits each of the pages above in the order shown, ending on Pag
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
-**Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.**
+{: .important}
+**Note:** Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.
 
 | Conditions | Relevant source |
 | --- | --- |
