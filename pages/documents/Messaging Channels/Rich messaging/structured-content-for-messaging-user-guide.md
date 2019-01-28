@@ -10,7 +10,6 @@ permalink: messaging-channels-rich-messaging-structured-content-for-messaging-us
 isTutorial: false
 isNew: false
 date: 2019-01-28 11:19:13 +0200
-published: false
 
 ---
 ## Why use structured content?
