@@ -12,7 +12,7 @@ date: 2019-01-28 17:05:01 +0200
 published: false
 
 ---
-The entry point allows you to define where you want your engagement to appear within your website. You can use one of the predefined entry points, such as Entire Website or Entire App, or focus your targeting on a particular page or section. 
+The entry point allows you to define where you want your engagement to appear within your website. You can use one of the predefined entry points, such as Entire Website or Entire App, or focus your targeting on a particular page or section.
 
 ## Assigning an entry point to your engagement
 
@@ -32,8 +32,6 @@ To create or edit the entry point:
 **Note:** Entry points are shared throughout your account, so if you modify an entry point, the change will be applied to any other engagements that use this entry point.
 
 ## Map your site categories using code
-
-Use sections to categorize your web site and display an engagement for each 
 
 You’ve just finished creating an engagement for one of the categories on your website or mobile app. For example, cameras category on your website. You want the engagement to display on all the pages in the camera category. One option is to use a URL define where the engagement should display. However this means that you will need to manually add each camera-related page URL into LiveEngage.
 
@@ -59,20 +57,20 @@ Sections can be used for both web and mobile app engagements. Since website loca
 
 1. Go to the campaigns page, and click **Data Sources** in the footnote.
 
-![](https://lh6.googleusercontent.com/wKJOzL2FlyxOBx-BTk-bCeE_qCuwgYSYeFOQpbmCrv3o6Q2ceMHXzKgQIzQmL__HoMHFMxynkEK2Mg-e95onKMr8mbKr7H5h27QMCWiuPc6xo2tUP2rQtW3q3fm7rFAoS6cDBK_F =431x45)
+![](/img/entry point 2.png)
 
-2. Under **Engagement Attributes** click **Visitor Journey** and use the example code under sections.
-3. Paste the code on the pages where you want to display the engagement. Change the code sample section names according to your category names:
+1. Under **Engagement Attributes** click **Visitor Journey** and use the example code under sections.
+2. Paste the code on the pages where you want to display the engagement. Change the code sample section names according to your category names:
 
-![](https://lh6.googleusercontent.com/eI6EYf15hFxya9XNfIWPTHPgNAcNt-1zXPb0DvKs5yPlbTPatd_IhBHbBRtO4ugXnd4FSJHBbuZdQDYlfbIaQv4aztZlqHbE9oxa2CQwFUw8CC5hZgMZdy-2nHoL-O2ePSgt--LM =366x122)
+![](/img/entry point 3.png)
 
-4. In the campaign view, under the engagement, click **Entry Point**.
+1. In the campaign view, under the engagement, click **Entry Point**.
 
-![](https://lh5.googleusercontent.com/Hx9r3-tFYRdc26h5OgI4cp6QiYKA1aeB-38v8nbbcAgXWAf8cSLfPXlzb7bffBweiMieqeIaCR7hF7vtsAWB0w1VjWwTAqP749A0zzLZg67kQSKF6M1E6M-G-mzFdWvcdhs-tdJJ =431x173)
+![](/img/entry point 4.png)
 
-5. From the Entry Point Library, click **Add new**.
-6. Enter an entry point name (a category, e.g., loans).
-7. Select section and type the names of the sections where you want the engagement to display. Remember you can tag as many sections as you want to one entry point and if you want exact matches, you will need to use quotes.
-8. Click **Save**.
+1. From the Entry Point Library, click **Add new**.
+2. Enter an entry point name (a category, e.g., loans).
+3. Select section and type the names of the sections where you want the engagement to display. Remember you can tag as many sections as you want to one entry point and if you want exact matches, you will need to use quotes.
+4. Click **Save**.
 
-![](https://lh4.googleusercontent.com/LwrzttzKrEGDuXVQfrrie0tkwyHnZFvmal5xgGLIiM795BwJZvO0OSFy792O5GGYyPvEDwP48eyoxgoFQhrVowdXdQF42hPIFU7XCFm16z3Ypz3L5hWZrNPiSXiM8yfZTSt8gUDe =431x249)
+![](/img/entry point 5.png)
