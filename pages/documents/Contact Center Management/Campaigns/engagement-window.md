@@ -69,9 +69,9 @@ You can fully customize the chat window to suit your brand by changing the color
 ![](/img/engagement window 5.png)
 
 <div class="notice">
-<b>Note:</b>
+<b>**Note:** The background color is the same as the chat window background</b>
 <ul>
-<li>The background color is the same as the chat window background</li> <li>Text is the same color and font as the Automatic Messages</li> <li> Buttons have the same look and feel of the title bar</li>
+<li>Text is the same color and font as the Automatic Messages</li> <li> Buttons have the same look and feel of the title bar</li>
 </ul>
 </div>
 
