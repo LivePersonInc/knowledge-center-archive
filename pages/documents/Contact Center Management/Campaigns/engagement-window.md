@@ -179,12 +179,13 @@ In order to define the agent’s picture in the selected engagement window, foll
 
 ![](/img/engagement window 16.png)
 
+{:start="3"}
 1. In the engagement window category, find the agent picture row
 2. In the value column, select **Yes** from the dropdown menu in order to enable agent picture for the selected engagement window
 
 ![](/img/engagement window 17.png)
 
-{:start="3"}
+{:start="5"}
 1. Click **Save**
 
 Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window:
