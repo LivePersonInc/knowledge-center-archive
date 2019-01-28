@@ -192,26 +192,20 @@ To manage such scenarios, you can set LiveEngage to trigger an engagement (Overl
 To set up an Engagement for Visitor Back Flow:
 
 1. Log in to LiveEngage as a Campaign Manager user or Admin user.
-
 2. Go to the Campaigns tab.
-
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
-
 4. Under the engagement that you want to configure, click Visitor Behavior.
 
-![back flow 1](https://lh5.googleusercontent.com/weoA2ppNp3E9UwWJ2kS9gnG5105j-9U8ugS6J0jzSLWpQW2z0fHJwEn60i0kvx6aagEjTnfox54YNqFKTimLmTnZSB29k5tTe9TTrAjiTZVPlXW1TNHFd-wF04qKbMiRUAsHOuHC =384x175)
+![](/img/entry point 4.png)
 
-5. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+2. Click Flow.
 
-6. Click Flow.
+![](/img/behavior 16.gif)
 
-![backflow 2](https://lh6.googleusercontent.com/FUG0pwP32GWGriKnnx8c55aI2QPEULE5lpIsJa05Hb7qCkfF4RcCpZH0fR8tCrwBPFspyI3S12JctixE5gastZFolWiqJcrOJ0znGV4DNXZ3bLIIU1L8e59tIB94eepsGIA1Rgf4 =425x291)
-
-7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
-
-8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
-
-9. Save the changes and publish the campaign.
+1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
+2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
+3. Save the changes and publish the campaign.
 
 **Note:**
 
