@@ -59,7 +59,7 @@ On the campaign time frame page, below **active days and hours (in selected time
 
 **You may choose between:**
 
-**1. All hours (default)** - If a campaign is set for all hour it will be considered active on this day from 12:00 a.m. until 11:59 p.m.
+**1. All hours (default)** - If a campaign is set for all hours it will be considered active on this day from 12:00 a.m. until 11:59 p.m.
 
 **2. Custom** - For custom hours, manually input the active campaign hours for the day. The input must be in the following format: **HH:MM am/pm** and **in 5 minute intervals only.** The only exception is 11:59 pm, which can also be defined in order to define a shift that lasts until midnight.
 
@@ -67,23 +67,23 @@ On the campaign time frame page, below **active days and hours (in selected time
 
 **3. Off** - If set to off, the campaign will be considered inactive on this day from 12:00 am until 11:59 pm.
 
-v. Defining multiple shifts per day: You may also define multiple shifts per single day of the week. Simply click the **+Add** button in order to split the day’s active hours and add the shift’s hours.
+#### Defining multiple shifts per day
 
-vi. Save the page.
+You can define multiple shifts for a single day of the week by doing the following: 
 
-vii. The new scheduling item will now appear in the schedule library. Click it in order to choose it for your current campaign.
+1. Simply click the **+Add** button in order to split the day’s active hours and add the shift’s hours.
+2. Save the page.
+3. The new scheduling item will now appear in the schedule library. Click it in order to choose it for your current campaign.
 
-![](/img/time frame 6.png)
-
-viii. Click **done.**
-
-ix. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
+   ![](/img/time frame 6.png)
+4. Click **done.**
+5. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
 ![](/img/time frame 7.png)
 
 ## Special occasions per campaign
 
-A special occasion is used when there is an exception to the campaign's typical hours of operation.
+A special occasion is used when there is an exception to the campaign's typical hours of operation. To configure a special occasion, do the following: 
 
 1. Under **special occasions**, click the **set special occasions** button in order to access the special occasion library.
 
