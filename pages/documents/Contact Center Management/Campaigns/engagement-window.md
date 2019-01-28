@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-engagement-window.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 15:19:13 +0200
-published: false
 
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
@@ -197,7 +196,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 
 ### Configuring a default picture
 
-**In order to define a default picture to be displayed when no agent picture is defined, follow these steps:**
+In order to define a default picture to be displayed when no agent picture is defined, follow these steps:
 
 1. Select the desired window from the Engagement window library
 2. In the Engagement window studio select **Open additional window settings**
