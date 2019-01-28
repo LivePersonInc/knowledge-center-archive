@@ -165,7 +165,8 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 2. Ensure **text and background color ratio** (for vision impaired visitors): Text and background color contrast ratio should be at least 4.5:1, unless the font is at least 18 point or 14 point bold, in which case contrast ratio should be at least 3:1.  You can use various tools available on the web to verify the contrast ratio.
 3. Add **alternate text** to each **image** in your engagement window graphic:
 		1. Click an **image** in the engagement window graphic. A settings window for the image opens.
-        2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you selected, as follows:
+		2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you
+        selected, as follows:
         	* If the element image conveys information, the alternate text should convey the same information.
             * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
 
@@ -178,8 +179,7 @@ This text will be announced by screen readers for visually impaired visitors. No
 **Please note:** If you don’t define the announcement order, elements will be announced in the order they were added to the engagement.
 
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
-
-1. Save the engagement.
+2. Save the engagement.
 
 For more information on accessibility requirements, refer to the [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/).
 
