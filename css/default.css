@@ -740,6 +740,7 @@ h3 {
 .algolia-autocomplete {
   flex: 4;
   height: 48px;
+  margin-top: 0;
 }
 
 #aa-search-input {

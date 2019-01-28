@@ -20,15 +20,15 @@
       pages:
         - pagename: Add messaging to your mobile app
         - pagename: Mobile app messaging FAQs
-        - pagename: Enhance the consumer experience
+        - pagename: Enhance mobile app messaging
     - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:
         - pagename: SMS connector
         - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
-    - subcategoryname: Facebook Messenger connector
-    - subcategoryname: Google RCS Business Messenger
+    - subcategoryname: Facebook Messenger
+    - subcategoryname: Google RCS Business Messaging
     - subcategoryname: WhatsApp Business
     - subcategoryname: Google My Business
     - subcategoryname: Line connector
@@ -42,9 +42,9 @@
     - subcategoryname: Rich messaging
       pages:
         - pagename: Rich messaging overview
-        - pagename: Photo Sharing user guide
-        - pagename: Audio Messaging user guide
-        - pagename: Quick Replies user guide
+        - pagename: Photo sharing guide
+        - pagename: Audio messaging guide
+        - pagename: Quick replies user guide
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
         - pagename: Engagement Window Widgets
@@ -91,11 +91,15 @@
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
         - pagename: Configuring response times for messaging conversations
-        - pagename: Automatic messages overview
-        - pagename: Automatic messages configuration guide
-        - pagename: Automatic Conversation Distribution (ACD)
-        - pagename: Queue prioritization overview
-        - pagename: Queue backlog management
+        - pagename: Automatic messages
+          level3:
+            - level3name: Automatic messages overview
+            - level3name: Automatic messages configuration guide
+            - level3name: Automatic Conversation Distribution (ACD)
+        - pagename: Queue management
+          level3:
+            - level3name: Queue prioritization overview
+            - level3name: Queue backlog management
         - pagename: Auto close for messaging conversations
         - pagename: Smart Capacity overview
         - pagename: Smart Capacity per skill
@@ -107,7 +111,7 @@
       pages:
         - pagename: Queue prioritization for live chat
         - pagename: Automatic conversation distribution
-        - pagename: Automatic messages configuration guide
+        - pagename: Automatic messages
         - pagename: Agent groups workload distribution
         - pagename: Managing maximum wait times
         - pagename: Wrap-up time
@@ -116,10 +120,10 @@
     - subcategoryname: Campaigns
       pages:
         - pagename: Campaigns overview
-        - pagename: Goals
+        - pagename: Campaign Goals
         - pagename: Target audience
         - pagename: Time frame
-        - pagename: Designing buttons and banners
+        - pagename: Creating buttons and banners
         - pagename: Engagement window
         - pagename: Entry point
         - pagename: Visitor behavior
@@ -191,15 +195,12 @@
             - level3name: "Operational & staffing"
             - level3name: Agent activity dashboard
             - level3name: Skills activity dashboard
-        - pagename: BI Dashboards
-          level3:
-            - level3name: "Agent Goal Tracker: Detailed Goal and Conversation Report"
     - subcategoryname: "How to export 100,000 chats into a dashboard"
     - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
-        - pagename: "Accessing the MCS Toolkit"
-        - pagename: "Using the MCS Toolkit"
+        - pagename: "Accessing the toolkit"
+        - pagename: "Using the MCS toolkit"
     - subcategoryname: Report Builder
       pages:
         - pagename: Report Builder Overview
@@ -216,7 +217,7 @@
         - pagename: "Data sources & engagement attributes overview"
         - pagename: Extracting engagement attributes with no code
         - pagename: Setting up engagement attributes
-        - pagename: "Information on consumer's transactions"
+        - pagename: "Information on your consumers' transactions"
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
@@ -227,7 +228,7 @@
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
       pages:
-        - pagename: Set the Agent Group hierarchy
+        - pagename: Set the agent group hierarchy
         - pagename: Operate business divisions from one account
         - pagename: Connect visitors to Agents by skills
     - subcategoryname: Permissions
@@ -247,8 +248,8 @@
     - subcategoryname: Security
       pages:
         - pagename: Account security recommendations
-        - pagename: Validate the identity of a consumer during a conversation
-        - pagename: IP Masking
+        - pagename: Validate identity of consumers during conversations
+        - pagename: IP masking
         - pagename: Configuring your Firewall
         - pagename: IP address blocking
         - pagename: IP restriction
