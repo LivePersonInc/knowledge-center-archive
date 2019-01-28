@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-entry-point
 isTutorial: false
 isNew: false
 date: 2019-01-28 17:05:01 +0200
-published: false
 
 ---
 The entry point allows you to define where you want your engagement to appear within your website. You can use one of the predefined entry points, such as Entire Website or Entire App, or focus your targeting on a particular page or section.
