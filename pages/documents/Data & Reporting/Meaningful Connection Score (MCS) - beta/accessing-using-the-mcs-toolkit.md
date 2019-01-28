@@ -1,27 +1,28 @@
 ---
 pagename: Accessing the MCS toolkit
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Web messaging
 indicator: both
 subtitle: Knowing what your consumers experience during the service and sales point-of-contact
   provides a unique opportunity to analyze your operations.
 level3: ''
 permalink: data-reporting-meaningful-connection-score-(MCS)-accessing-the-MCS-tool-kit.html
 isTutorial: false
-date: 2019-01-22 14:28:52 +0200
+date: 2019-01-22 12:28:52 +0000
+isNew: false
 
 ---
-## **Why use the MCS Toolkit?**
+## **Why use the MCS toolkit?**
 
 * Evaluate your overall contact center performance as indicated by consumer experience.
 * Benchmark agents and agent groups against each other, using MCS distribution to compare performance, recognizing weaknesses and strengths in the performance of agents or agent groups.
 * Leverage data to inform performance reviews and coaching sessions with individual agents or groups, and use examples of the highest and lowest ranked conversations for valuable training cases.
 * Drill down to a specific conversation under investigation and jump directly to the point in the conversation where the MCS was negatively affected.
-* Perform custom offline analysis by exporting Messaging Interaction or Engagement History API data direct to a CSV file via the the MCS Toolkit data tables.
+* Perform custom offline analysis by exporting messaging interaction or engagement history API data direct to a CSV file via the the MCS toolkit data tables.
 
 ## **How to access the MCS toolkit**
 
-There are three methods to login to the MCS Toolkit:
+There are three methods to login to the MCS toolkit:
 
 1. Regular login (via LiveEngage username/password)
 2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
@@ -51,7 +52,7 @@ There are three methods to login to the MCS Toolkit:
 
 ### **Agent SSO method:**
 
-In order to access the MCS Toolkit via Agent SSO:
+In order to access the MCS toolkit via Agent SSO:
 
 1. Refer to [SSO Guide]()
-2. Ensure that the lpservice URL parameter referred to in the “Configuration on the Customer’s Environment” section of the SSO guide is equal to mcs (e.g. lpservice=mcs)
+2. Ensure that the lpservice URL parameter referred to in the “configuration on the customer’s environment” section of the SSO guide is equal to mcs (e.g. lpservice=mcs)
