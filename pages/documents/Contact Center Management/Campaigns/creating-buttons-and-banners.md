@@ -157,6 +157,7 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 * On mobile web, you can use **gestures** for navigating to and operating an engagement.
 * Engagements are announced by and can be operated using screen readers.
 
+{: .important}
 **Note:** All engagement types are accessible on desktop, and all engagement types are accessible on mobile web (iOS and Android) except for the toaster engagement. It is recommended to use different types of engagements for mobile web and desktop.
 
 **To create an accessible engagement:**
