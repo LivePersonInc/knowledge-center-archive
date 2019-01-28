@@ -197,7 +197,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 
 ### Configuring a default picture
 
-**In order to define a default picture to be displayed when no agent picture is defined, follow these steps:**
+In order to define a default picture to be displayed when no agent picture is defined, follow these steps:
 
 1. Select the desired window from the Engagement window library
 2. In the Engagement window studio select **Open additional window settings**
