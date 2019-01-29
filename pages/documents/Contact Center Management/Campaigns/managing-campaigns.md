@@ -22,7 +22,7 @@ When running multiple campaigns, it is good practice to have campaigns cover a p
 
 From the campaigns page, you can set your campaigns to different priorities (high, medium, or low), by selecting from the options under the priority column. If multiple engagements target a user simultaneously, and in order to ensure that users still have a chance to be exposed to all engagements, the platform will choose which engagement to display according to the following logic:
 
-* The probability that engagements belonging to **High Priority** campaigns will be displayed is 70%
+* The probability that engagements belonging to **High Priority** campaigns will be displayed is **70%**
 * The probability that engagements belonging to **Medium Priority** campaigns will be displayed is **20%**
 * The probability that engagements belonging to **Low Priority** campaigns will be displayed is **10%**
 
@@ -81,20 +81,21 @@ This table provides a summary of the conditions and outcomes of each of the thre
 | ✓ | Disabled | State: Agents available / No capacityOutcome: Chat | State: No agents online / No capacityOutcome: Offline survey |
 | ✓ | State: No capacityOutcome: Chat with long wait time | State: Agents availableOutcome: chat | State: No agents onlineOutcome: Offline survey |
 
+
 1. Default state - busy state disabled 	        	  ![](https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
 
 {:start="2"}
-2\. Busy state enabled
+2. Busy state enabled
 
 ![](https://lh4.googleusercontent.com/MSBgUlQ3TdCg36RrFY7RxiaHaa-Vq6AzbZlvnub3JxdzdvrKkyWl3K90TFQnw1LzbPvhmexkKMshot6vuRkCZMVONBAa7kIhk-6siYc_oebEG3mygSRHqQfrieQxRRFgMfKfzPuW =328x190)
 
 {:start="3"}
-3\. Busy state disabled, ignore max wait time enabled
+3. Busy state disabled, ignore max wait time enabled
 
 ![](https://lh3.googleusercontent.com/mh0GOTIao1D58JJaDF1F-XlA1x57EvCUXAWucu5EwlC5UV2b1Otoxk5epoZZT9hRgWdvrqSoD-m214bicRH8vxHuXPXysXufZdQGKry822_FEyc5zDiAvvyXU8xiviw4XAxBxG4I =333x197)
 
 {:start="4"}
-4\. Busy state enabled, ignore max wait time enabled
+4. Busy state enabled, ignore max wait time enabled
 
 ![](https://lh6.googleusercontent.com/mk7j1BM8G2toW1bkQNX10ugyfZkX7I9GUzX1tHuLpKBTFMo8QYezGdMNLkmzLeE1k5XlTG_TwJ6OeDrta6a2pxwcng4Od_RRKkik6nZ-PdnjzIyAeFMX2D_zZxsyHopIKrxON0h0 =333x195)
 
@@ -191,7 +192,7 @@ Using multiple engagements in a campaign helps you facilitate your consumers’ 
 * **Redirect consumers from chat to content:** You can configure two toaster banners, one for chat and one for content and set both banners to target the same audience, entry point, and behavior. When agents are available, the chat engagement will be displayed, and when no agents are available, the content engagement will be displayed.
 * **A/B testing:** You can configure two different engagements, mapped to the same zone, each belonging to a different campaign (for example, a Sticky Conversation button on the top left and a Slide-out Conversation button on the bottom left). The platform will randomly display one of the engagements in each consumer session. Looking at the campaign reports you will be able to tell which of the two engagements drove better results.
 
-# Inactive engagements
+## Inactive engagements
 
 This setting allows you to choose what consumers will see when interacting with an inactive Offsite engagement. An engagement is inactive when it has been disabled, deleted or its campaign has been unpublished, deleted or expired.
 
@@ -201,9 +202,9 @@ You can choose to display an offline survey, or a landing page.
 
 For further information on configuring offline surveys, refer to the Why You Need an Offline Survey article.
 
-# Troubleshooting
+## Troubleshooting
 
-## Engagement not displaying as expected
+### Engagement not displaying as expected
 
 If the engagement isn’t displaying to a consumer as expected, check the following:
 
