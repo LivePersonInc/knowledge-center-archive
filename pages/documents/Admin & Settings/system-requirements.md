@@ -10,10 +10,9 @@ permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:20:27 +0000
-published: false
 
 ---
-For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
+For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
 
@@ -188,7 +187,7 @@ _Operating systems prior to 10.x are not supported._
 
 ## LivePerson workspace requirements
 
-The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the LiveEngage Workspace.
+The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the LiveEngage workspace.
 
 ### Windows
 
