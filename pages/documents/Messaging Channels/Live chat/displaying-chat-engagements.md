@@ -72,11 +72,11 @@ To optimize your web experience, tag of all your web pages:
 	1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 	2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-*<meta name="viewport" content="width=device-width,
+'<meta name="viewport" content="width=device-width,
 
 initial-scale=1.0,
 
-minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>*
+minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>'
 
 **Notes**:
 
