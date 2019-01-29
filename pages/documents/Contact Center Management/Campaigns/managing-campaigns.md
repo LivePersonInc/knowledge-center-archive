@@ -8,29 +8,27 @@ level3: ''
 permalink: contact-center-management-campaigns-managing-campaigns.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 09:20:16 +0000
+date: 2019-01-29 11:20:16 +0200
 published: false
 
 ---
 You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
 
-## Multiple Campaigns and Priorities
+## Multiple campaigns and priorities
 
 When running multiple campaigns, it is good practice to have campaigns cover a particular topic or initiative. For example, you can have a campaign for ‘sales’ with engagements on the shopping cart or product pages, and a different campaign for ‘service’ with engagements on the account page or login area.
 
-### Setting Campaign Priority
+### Setting campaign priority
 
 From the campaigns page, you can set your campaigns to different priorities (high, medium, or low), by selecting from the options under the priority column. If multiple engagements target a user simultaneously, and in order to ensure that users still have a chance to be exposed to all engagements, the platform will choose which engagement to display according to the following logic: 
 
 * The probability that engagements belonging to **High Priority** campaigns will be displayed is 70%
-* The probability that engagements belonging to **Medium Priority** campaigns will be
-
-  displayed is **20%**
+* The probability that engagements belonging to **Medium Priority** campaigns will be displayed is **20%**
 * The probability that engagements belonging to **Low Priority** campaigns will be displayed is **10%**
 
 ![](https://lh5.googleusercontent.com/nniUx6yXrD2Jm8QrwZYLXahuQt_HC7IOF5oSEa9syQCDaoHWcWFaHG9eGeBdccluH9Aqr2pEjVHzZ2nLWJXOOYipCSRuxxOdFompdhScHMUOpn_c5cpeF7xDHSGZJWGfk4vuG3Oa =654x360)
 
-## Measuring Success Using Control Groups
+## Measuring success using control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up.
 
@@ -50,40 +48,22 @@ Each time you create a campaign, select the size of your control groups to refle
 
 LivePerson’s platform offers a variety of creative engagements to communicate to consumers when no agents are online (during off-hours) and during busy times when they have no capacity and long wait times are expected. This helps to manage consumer expectations and prevent frustration. 
 
- 
-
 For chat, there are three statuses available: online, offline and busy. Each state is related to the status of the agents, as well as the maximum wait time:
 
 * **Offline** - when no agents are online
 * **Online** - agents are online and available; the expected wait time is shorter than the maximum wait time
 * **Busy** -  at least one agent is online but with no capacity to handle consumers as the expected wait time is longer than the maximum wait time for the skill
 
- 
-
-The default setting for the busy state is off. In this case, if ignore max wait time is enabled (now repositioned from engagement settings), consumers will be directed to a survey if agents are offline or offered chat, if agents are online. If the offline state is also disabled, consumers will only see a creative when agents are online.
-
- 
-
-Busy state can be enabled, and its behavior fully configured, in the Engagement Studio.
+The default setting for the busy state is off. In this case, if ignore max wait time is enabled (now repositioned from engagement settings), consumers will be directed to a survey if agents are offline or offered chat, if agents are online. If the offline state is also disabled, consumers will only see a creative when agents are online. Busy state can be enabled, and its behavior fully configured, in the Engagement Studio.
 
 * Once enabled, busy state will mean that when at least one agent is online, but has no capacity, the busy state creative will be displayed to the consumer.
 * By default, this will be the offline creative, but a new creative can be configured by the campaign manager.
 * Clicking on the busy creative will lead to an offline survey by default.
-
-
 * The campaign manager will have the option to change the busy state’s default behavior and allow visitors to enter queue, by selecting ‘ignore max wait time’.
-
- 
 
 Busy state is available for all engagements except overlay, offsite and messaging engagements. The number of busy state exposures is available in the Campaign Manager BI dashboard, in the campaign grid view.
 
- 
-
- 
-
 ### Configuration
-
- 
 
 1. Go to the **Campaigns** page and select an existing Campaign.
 2. Click **Add Engagement**.
@@ -94,10 +74,8 @@ Busy state is available for all engagements except overlay, offsite and messagin
 
 This table provides a summary of the conditions and outcomes of each of the three states:
 
- 
-
-| --- | --- | --- | --- |
 | Ignore Max Wait Time | Busy | Online | Offline |
+| --- | --- | --- | --- |
 | X | Disabled | State: Agents availableOutcome: chat | State: No agents online / No capacityOutcome: Offline survey |
 | X | EnabledState: No capacityOutcome: Offline survey | State: Agents availableOutcome: Chat | State: No agents onlineOutcome: Offline survey |
 | ✓ | Disabled | State: Agents available / No capacityOutcome: Chat | State: No agents online / No capacityOutcome: Offline survey |
@@ -105,44 +83,27 @@ This table provides a summary of the conditions and outcomes of each of the thre
 
  
 
-1. _Default state - busy state disabled 	        	  ![](https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
+1. Default state - busy state disabled 	        	  ![](https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
 
-2. _Busy state enable_
+{:start="2"}
+2. Busy state enabled
 
   
 ![](https://lh4.googleusercontent.com/MSBgUlQ3TdCg36RrFY7RxiaHaa-Vq6AzbZlvnub3JxdzdvrKkyWl3K90TFQnw1LzbPvhmexkKMshot6vuRkCZMVONBAa7kIhk-6siYc_oebEG3mygSRHqQfrieQxRRFgMfKfzPuW =328x190)
 
- 
-
- 
-
- 
-
- 
-
-3. _Busy state disabled, ignore max wait time enabled_
+{:start="3"}
+3. Busy state disabled, ignore max wait time enabled
 
   
 ![](https://lh3.googleusercontent.com/mh0GOTIao1D58JJaDF1F-XlA1x57EvCUXAWucu5EwlC5UV2b1Otoxk5epoZZT9hRgWdvrqSoD-m214bicRH8vxHuXPXysXufZdQGKry822_FEyc5zDiAvvyXU8xiviw4XAxBxG4I =333x197)
 
-4. _Busy state enabled, ignore max wait time enabled_
-
+{:start="4"}
+4. Busy state enabled, ignore max wait time enabled
   
 ![](https://lh6.googleusercontent.com/mk7j1BM8G2toW1bkQNX10ugyfZkX7I9GUzX1tHuLpKBTFMo8QYezGdMNLkmzLeE1k5XlTG_TwJ6OeDrta6a2pxwcng4Od_RRKkik6nZ-PdnjzIyAeFMX2D_zZxsyHopIKrxON0h0 =333x195)
-
  
 
- 
-
- 
-
- 
-
- 
-
- 
-
-## Publishing and Unpublishing Campaigns
+## Publishing and unpublishing campaigns
 
 Turning your campaigns on and off are simple.  When you finish creating your campaign, toggle the ‘publish’ button.  You will clearly see the status of the campaign in your campaigns list: 
 
@@ -154,12 +115,9 @@ A campaign can be active and still not display to your consumers if the campaign
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although the platform may not necessarily display all the engagements to the consumer. In such cases LivePerson uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration:
 
-  
-
-
 * Campaign priority
 * Web engagement zones
-* Agent status [](https://docs.google.com/document/d/1ooC4Kd6Sk2CIFWmJwmWfVuAc5COxZLg14voIgj30-fI/edit#_Toc423017623)
+* Agent status
 
 ### Engagement zones
 
@@ -167,21 +125,21 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 **Engagement types and their zones:**
 
-| --- | --- |
 | Left Zone	 | Engagement Types  |
+| --- | --- |
 |   | Slide-out engagementsSticky engagementsOnly one of these can be displayed simultaneously in this zone. |
 | Right Zone |  |
 |  | Slide-out engagementsSticky engagementsOnly one of these can be displayed simultaneously in this zone. |
 | Proactive Zone |  |
 |  | Proactive engagements:Overlay bannersToaster bannersPeeling corner bannersOnly one proactive engagement can be displayed at any given time.  |
 
-| --- | --- |
 | Embedded Zone | Engagement Types |
+| --- | --- |
 |  | Embedded buttons (created with <div> tags)You can display an unlimited number of embedded buttons on a page, as long as each <div> tag has a unique ID.  |
 
 **Note:** Engagements from different zones can be simultaneously displayed. Therefore you need to make sure that engagements do not overlap or hide one another. For example, you can have an overlay banner on the left side of the page (proactive zone) that hides a sticky banner that is also configured on the left side of the page (Left Zone).     
 
-## Agent Status 
+## Agent status 
 
 When more than one engagement qualifies to display in the same zone at the same time, the platform generally displays an online chat engagement. If agents are not available, the platform generally displays a content engagement. If no content engagements are configured, an offline chat engagement will be displayed. Web messaging engagements will be displayed regardless of the agent status. 
 
