@@ -9,7 +9,6 @@ permalink: admin-settings-languages-supported.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 12:04:15 +0200
-published: false
 
 ---
 ## Languages supported on the visitor side
