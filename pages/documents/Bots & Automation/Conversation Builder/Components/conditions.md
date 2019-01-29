@@ -26,7 +26,7 @@ When a condition is met, the action defined under the Next Step dropdown menu wi
 
 ### Pattern Matching
 
-Patterns are templates which are compared to user input. **A user input is considered a match to a pattern if it fits the pattern exactly**. Therefore, a pattern of "hello" will **only** match with a user input of "hello". However, Patterns can use alternates for specific variations, e.g., "I want a pair of (headphones&#124;head phones&#124;earbuds&#124;earphones)" will match "I want a pair of headphones" or "I want a pair of earphones", etc. Patterns can also include wildcards for looser matches, e.g., "&#42;home&#42;" would match "homes", "home run", "home is where the heart is".
+Patterns are combinations of keywords, wildcards and alternates which are compared to user input. **A user input is considered a match to a pattern if it fits the pattern exactly**. Therefore, a pattern of "hello" will **only** match with a user input of "hello". However, Patterns can use alternates for specific variations, e.g., "I want a pair of (headphones&#124;head phones&#124;earbuds&#124;earphones)" will match "I want a pair of headphones" or "I want a pair of earphones", etc. Patterns can also include wildcards for looser matches, e.g., "&#42;home&#42;" would match "homes", "home run", "home is where the heart is".
 
 You can use wildcards and alternates together like this:
 
@@ -66,7 +66,7 @@ Lastly, decide how long you'd like the slot's data to be kept for. You can set t
 
 * Forever - the slot's data will be saved on our servers forever. It will be accessible via the Conversation Builder for as long as you need it.
 
-`{$botContext.slot.entityName}` is how you can access values in slots and use them in other ways. For example, to have the bot/automation respond with a user's previously stored answer under the assigned entity `animal`, you'd set up a text interaction like so:
+`{$botContext.slot.slotName}` is how you can access values in slots and use them in other ways. For example, to have the bot/automation respond with a user's previously stored answer under the assigned entity `animal`, you'd set up a text interaction like so:
 
 "You answered: {$botContext.slot.animal}!"
 
