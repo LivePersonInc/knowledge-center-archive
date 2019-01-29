@@ -14,7 +14,7 @@ level3: ''
 To get started, access LivePerson using this link: Add link to login
 
 ## Bare-bones: get to the first message
-test
+
 
 To get the most basic version of messaging up means you have a generic ‘message us’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
 
