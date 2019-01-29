@@ -77,7 +77,7 @@ The following diagram shows the process and security layers of a visitor complet
 
 ![](https://lh5.googleusercontent.com/zf6787uhpKPEMCOhHkoetE8qsplxVscHsUq6QbEgaLh3RHClQB7ConvXcPlEumkSPaz4OHe6-Fj4JjSafbersAz18Gk6einCpJu28NO9QD9IOkWHtSfZLEImXx0vTJVNmCkiqjys =624x380)
 
-Secure form visitor to agent flow chart
+_Secure form visitor to agent flow chart_
 
 Below is a detailed explanation of the flow of the diagram above:
 
@@ -117,22 +117,21 @@ Once secure form features have been enabled on your account, your LPA will need 
 
 The account password policy will be configured as follows:
 
-| Setting | Required Configuration |  
-| --- | --- |   
-| Minimum number of characters | Set to minimum 7 | | Alpha character required | Required | | Number character required | Required | | Apply policy to current passwords | Required | | Expires after number of days | Set to 90  | | Prevent using previous number passwords | Set to minimum 4 |
+| Setting | Required Configuration |
+| --- | --- |
+| Minimum number of characters | Set to minimum 7 |
 
 The failed login policy will be configured as follows:
 
-| Setting | Required Configuration |  
-| --- | --- |  
-| Automatically disable operator after number of failed logins | Set to minimum 3 | | Number of minutes before re-enabling disabled operator | Set to blank |
+| Setting | Required Configuration |
+| --- | --- |
+| Automatically disable operator after number of failed logins | Set to minimum 3 |
 
 The idle operator policy will be configured as follows:
 
-| --- | --- |
-| Setting | Required Configuration |
-| Automatic action when operator is logged in but idle | Set to: “Logout the operator” |
-| Logout operator from the account after minutes of inactivity | Set to maximum 15  |
+| Setting | Required Configuration |  
+| --- | --- |  
+ | Automatic action when operator is logged in but idle | Set to: “Logout the operator” | | Logout operator from the account after minutes of inactivity | Set to maximum 15  |
 
 The LPA will also set the account to block credit card patterns.
 
@@ -140,15 +139,15 @@ The LPA will also set the account to block credit card patterns.
 
 The following permissions related to secure forms need to be enabled for an account:
 
-| Role | Permission | Permission definition | Default State (role) |  
-| --- | --- | --- | --- |  
+| Role | Permission | Permission definition | Default State (role) |
+| --- | --- | --- | --- |
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
 {: notice}  
 The following permission for Agent Managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the Engagement History.
 
-| Role | Permission | Permission definition | Default State (role) |  
-| --- | --- | --- | --- |  
+| Role | Permission | Permission definition | Default State (role) |
+| --- | --- | --- | --- |
 | Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
 
 To verify that permissions are enabled:
@@ -272,7 +271,7 @@ The following UI and designable elements for the form are available on the iOS m
 
 The form on the Android mobile-app messaging SDK is as follows (top bar design is inherited from the conversation top bar):
 
-![Screenshot_20170424-113855.png](https://lh3.googleusercontent.com/WisxR6o-bHuRijHUe7NqZFRhInmy_1a1HQKSuNztDxanASfCphFS4impGXBwM6VQNBSRD75kVlrp1i1Guc0LQW3oA4zfvNDe6KcTvE54vnXJ4uzUWSh9qh4k1bA4Ej2LzsCg2HF3 =304x458)
+![Screenshot](https://lh3.googleusercontent.com/WisxR6o-bHuRijHUe7NqZFRhInmy_1a1HQKSuNztDxanASfCphFS4impGXBwM6VQNBSRD75kVlrp1i1Guc0LQW3oA4zfvNDe6KcTvE54vnXJ4uzUWSh9qh4k1bA4Ej2LzsCg2HF3 =304x458)
 
 ## **Messaging connectors**
 
@@ -304,8 +303,6 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 * After form submission by the consumer, a predefined message will be sent, which will be translated automatically per the language that was configured for the connector (the message is not configurable):  
   “The following secure form has been submitted: <Secure form title>”
-
-
 * Brands will be able to configure a language per channel entry point (per SMS number, FB page, Biz ID, WhatsApp number etc)
 
 #### Layout & design
@@ -313,8 +310,6 @@ The connector’s secure form invitation contains the secure form name and a lin
 * The form layout and design will be the same as the web messaging secure form view
 * The form design and colors will be inherited from the default window design elements, which are:
   1. Top bar with the form name:
-
-
 * Form name will be displayed as created
 * Will always be blue background (hex color #0363ad)
 * Will always be set with the font “Arial”, color white
@@ -322,25 +317,17 @@ The connector’s secure form invitation contains the secure form name and a lin
   {:start="2"}
   1. Secure Form Logo will always be shown
   2. Secure Form questions:
-
-
 * Font will always be “Arial”, color gray (hex color #6D6E70)
 
   {:start="4"}
   1. Secure From question placeholder:
-
-
 * Font will always be “Arial”, color gray (hex color #6D6E70)
 
-    
   {:start="5"}
   1. Secure form submit button:
-
-
 * Color will always be blue (hex color #0363ad)
 * font will always be “Arial”, color white
 
-    
   {:start="5"}
 
 1. Secure from header and footer text:
@@ -454,8 +441,6 @@ When using secure forms, bear in mind:
 4. The consumer opens another secure form
 
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
-
-
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
 
 # **Reporting on secure forms**
