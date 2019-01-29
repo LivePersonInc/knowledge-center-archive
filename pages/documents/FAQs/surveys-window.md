@@ -1,6 +1,6 @@
 ---
 pagename: Surveys & window
-categoryName: Getting started
+categoryName: FAQs
 subCategoryName: ''
 indicator: chat
 subtitle: ''

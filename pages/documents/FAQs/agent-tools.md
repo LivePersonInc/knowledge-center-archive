@@ -1,6 +1,6 @@
 ---
 pagename: Agent tools
-categoryName: Getting started
+categoryName: FAQs
 subCategoryName: ''
 indicator: both
 subtitle: ''

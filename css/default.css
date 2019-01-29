@@ -494,6 +494,11 @@ h3 {
 .itemdetails {
   display: flex;
   align-items: center;
+  margin-top: -12px;
+}
+
+.itemdetails:first-of-type {
+  margin-top: 0;
 }
 
 .sidebarimage {
@@ -522,6 +527,9 @@ h3 {
   font-size: 14px;
   color: #5f6368;
   text-decoration: none;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .pagesfolder {
@@ -533,6 +541,9 @@ h3 {
 
 .pageitem {
   list-style: none;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 
