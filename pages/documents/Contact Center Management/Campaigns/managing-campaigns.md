@@ -81,22 +81,22 @@ This table provides a summary of the conditions and outcomes of each of the thre
 | ✓ | Disabled | State: Agents available / No capacityOutcome: Chat | State: No agents online / No capacityOutcome: Offline survey |
 | ✓ | State: No capacityOutcome: Chat with long wait time | State: Agents availableOutcome: chat | State: No agents onlineOutcome: Offline survey |
 
+1. Default state - busy state disabled 
 
-1. Default state - busy state disabled 	        	  
-![(https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
+   ![](/img/mang camp 3-2.png)	
 
 {:start="2"}
-2. Busy state enabled
+2\. Busy state enabled
 
 ![](https://lh4.googleusercontent.com/MSBgUlQ3TdCg36RrFY7RxiaHaa-Vq6AzbZlvnub3JxdzdvrKkyWl3K90TFQnw1LzbPvhmexkKMshot6vuRkCZMVONBAa7kIhk-6siYc_oebEG3mygSRHqQfrieQxRRFgMfKfzPuW =328x190)
 
 {:start="3"}
-3. Busy state disabled, ignore max wait time enabled
+3\. Busy state disabled, ignore max wait time enabled
 
 ![](https://lh3.googleusercontent.com/mh0GOTIao1D58JJaDF1F-XlA1x57EvCUXAWucu5EwlC5UV2b1Otoxk5epoZZT9hRgWdvrqSoD-m214bicRH8vxHuXPXysXufZdQGKry822_FEyc5zDiAvvyXU8xiviw4XAxBxG4I =333x197)
 
 {:start="4"}
-4. Busy state enabled, ignore max wait time enabled
+4\. Busy state enabled, ignore max wait time enabled
 
 ![](https://lh6.googleusercontent.com/mk7j1BM8G2toW1bkQNX10ugyfZkX7I9GUzX1tHuLpKBTFMo8QYezGdMNLkmzLeE1k5XlTG_TwJ6OeDrta6a2pxwcng4Od_RRKkik6nZ-PdnjzIyAeFMX2D_zZxsyHopIKrxON0h0 =333x195)
 
@@ -122,7 +122,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 #### Left zone
 
-**Engagement types:** 
+**Engagement types:**
 
 * Slide-out engagements
 * Sticky engagements
@@ -133,7 +133,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 #### Right zone
 
-**Engagement types:** 
+**Engagement types:**
 
 * Slide-out engagements
 * Sticky engagements
@@ -150,17 +150,17 @@ An engagement zone is a defined area on a web page where engagements can be disp
 * Toaster banners
 * Peeling corner banners
 
-**Note:** Only one proactive engagement can be displayed at any given time. 
+**Note:** Only one proactive engagement can be displayed at any given time.
 
 ![](/img/mang camp 10-2.png)
 
 #### Embedded zone
 
-**Engagement types:** 
+**Engagement types:**
 
 * Embedded buttons (created with <div> tags)
 
-You can display an unlimited number of embedded buttons on a page, as **Note:** long as each <div> tag has a unique ID.   
+You can display an unlimited number of embedded buttons on a page, as **Note:** long as each <div> tag has a unique ID.  
 ![](/img/mang camp 11-2.png)
 
 **Note:** Engagements from different zones can be simultaneously displayed. Therefore you need to make sure that engagements do not overlap or hide one another. For example, you can have an overlay banner on the left side of the page (proactive zone) that hides a sticky banner that is also configured on the left side of the page (Left Zone).
