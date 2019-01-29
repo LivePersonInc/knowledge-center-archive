@@ -12,13 +12,13 @@ date: 2019-01-28 17:31:12 +0200
 published: false
 
 ---
-For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behaviour rules.
+For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
 
-**The default option, All behaviors, means that the button is displayed at all times and displays immediately when the page is loaded.**
+The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
 ## Which users should you target?
 
-Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely; with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
+Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely, with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
 
 ## How can you target these users?
 
@@ -31,14 +31,11 @@ Decide when to display engagements by selecting conditions that will be applied 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
 
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
-
-**Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
-
 * Mobile engagements can be defined by sections (engagement attributes) only
 
-Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow; when a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow).
+  **Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
 
-You can find further information on targeting according to flow below.
+Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
 ![](/img/behavior 1.png)
 
@@ -152,40 +149,46 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 
 This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
 
-How to define a new flow:
+### How to define a new flow:
 
-1\. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
+1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
 
-2\. Under “Navigation” category choose “Flow”.
+2. Under “Navigation” category choose “Flow.”
 
 ![](/img/behavior 11.png)
 
-3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+{:start="3"}
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
 
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.3. In order to add a new flow, open the Flow dropdown menu and select “Add new flow”.3. In order to add a new flow, open the Flow dropdown menu and select “Add new flow”.![](/img/behavior 12.png)
+![](/img/behavior 12.png)
 
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.
+{:start="4"}
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/behavior 13.png)  
-5\. After saving the flow, it will appear in the flows list.
 
-6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+{:start="5"}
+5. After saving the flow, it will appear in the flows list.
+
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
 
 ![](/img/behavior 14-1.png)
 
-7\. Click to save visitor behavior.
+{:start="7"}
+7. Click to save visitor behavior.
 
+{: .important} 
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
 
 ## Configuring engagements for visitor backflow
 
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
-Shopping Cart page > CheckOut page > Purchase Confirmation page
+'Shopping Cart page > CheckOut page > Purchase Confirmation page'
 
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
-Shopping Cart page > CheckOut page > Shopping Cart page
+'Shopping Cart page > CheckOut page > Shopping Cart page'
 
 To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
 
@@ -198,21 +201,26 @@ To set up an Engagement for Visitor Back Flow:
 
 ![](/img/entry point 4.png)
 
+{:start="5"}
 1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 2. Click Flow.
 
 ![](/img/behavior 16.gif)
 
+{:start="7"}
 1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
 3. Save the changes and publish the campaign.
 
+<div class="important"> 
+<b>Note:</b> 
+<li>If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4</li> <li>When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
+</li> 
+</div>
+
 **Note:**
 
-If you define a flow as follows:
-
-Page 1 > Page 2 > Page 3 > Page 4
-
+If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
 
 ## Visitor Behavior Conditions
