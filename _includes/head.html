@@ -3,10 +3,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--<meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">-->
 <!--<meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">-->
-{% if (page.documentname != null) %}
-<title>{{ page.documentname }} - {{ page.pagename }} | {{ site.site_title }}</title>
+{% if (page.pagename != null) %}
+<title>{{ page.pagename }} | {{ site.site_title }}</title>
 {% else %}
-<title> {{ page.pagename }} | {{ site.site_title }}</title>
+<title>{{ site.site_title }}</title>
 {% endif %}
 <link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">

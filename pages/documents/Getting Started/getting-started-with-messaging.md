@@ -40,6 +40,8 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 * Determine the attribution model.  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
 * If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
 
+<img src="img/screentest.png">
+
 ## Step 2: Customize your account settings
 
 1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
