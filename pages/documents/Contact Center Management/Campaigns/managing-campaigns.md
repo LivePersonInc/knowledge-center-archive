@@ -118,16 +118,48 @@ Consumers may be targeted by more than one engagement on the same page, at the s
 
 An engagement zone is a defined area on a web page where engagements can be displayed. Each type of engagement is mapped to a specific zone. Although, only one engagement can be displayed in a specific zone at any given time, multiple engagements can be displayed simultaneously in different zones. Every 10 seconds the platform checks whether there is an engagement to display, and whether the zone the engagement is mapped to is available (in other words, no other engagements are currently displayed in that zone).
 
-Left zone
+#### Left zone
 
 **Engagement types:** 
 
 * Slide-out engagements
 * Sticky engagements
 
-Only one of these can be displayed simultaneously in this zone.
+**Note:** Only one of these can be displayed simultaneously in this zone.
 
-Right zone
+![](/img/mang camp 8-2.png)
+
+#### Right zone
+
+**Engagement types:** 
+
+* Slide-out engagements
+* Sticky engagements
+
+**Note:** Only one of these can be displayed simultaneously in this zone.
+
+#### ![](/img/mang camp 9-2.png)
+
+#### Proactive zone
+
+**Proactive engagements:**
+
+* Overlay banners
+* Toaster banners
+* Peeling corner banners
+
+**Note:** Only one proactive engagement can be displayed at any given time. 
+
+![](/img/mang camp 10-2.png)
+
+#### Embedded zone
+
+**Engagement types:** 
+
+* Embedded buttons (created with <div> tags)
+
+You can display an unlimited number of embedded buttons on a page, as **Note:** long as each <div> tag has a unique ID.   
+![](/img/mang camp 11-2.png)
 
 **Note:** Engagements from different zones can be simultaneously displayed. Therefore you need to make sure that engagements do not overlap or hide one another. For example, you can have an overlay banner on the left side of the page (proactive zone) that hides a sticky banner that is also configured on the left side of the page (Left Zone).
 
