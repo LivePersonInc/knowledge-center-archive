@@ -1,10 +1,9 @@
 ---
 pagename: Secure forms for messaging
-categoryName: Security & regulations
+categoryName: 'Security & regulations'
 subCategoryName: Secure forms
 indicator: both
-subtitle: LivePerson invests heavily in providing the most secure platform possible
-  for our services, customers, and their data
+subtitle: LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data
 level3: ''
 permalink: security-regulations-secure-forms-secure-forms-for-messaging.html
 isTutorial: false
@@ -362,8 +361,8 @@ The following texts are not customizable:
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
 
-1. Invitation: “{{secureFormName}}: {{secure form link}}"
-2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
+1. Invitation: "&#123;&#123;secureFormName&#125;&#125;: &#123;&#123;secure form link&#125;&#125;"
+2. Submission: "The following Secure Form has been submitted: &#123;&#123;secureFormName&#125;&#125;"
 3. The above texts will be automatically translated per the language selected for the connector
 
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
@@ -442,7 +441,7 @@ When using secure forms, bear in mind:
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
 
-# **Reporting on secure forms**
+## **Reporting on secure forms**
 
 The following secure form events are reported in Report Builder:
 
