@@ -82,7 +82,8 @@ This table provides a summary of the conditions and outcomes of each of the thre
 | ✓ | State: No capacityOutcome: Chat with long wait time | State: Agents availableOutcome: chat | State: No agents onlineOutcome: Offline survey |
 
 
-1. Default state - busy state disabled 	        	  ![](https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
+1. Default state - busy state disabled 	        	  
+![(https://lh4.googleusercontent.com/cqwZ9BQS7MSPcAxDjXNduCmSV8aq10bjvRgqSrKDwgLu2cPgWo94ySOIEsFJANsCw5Pq3T9QWBTg08AHha9nl1fqb2eI4ndsuEpicJ7fDZXg4SUHUvInVq0Ab52hxrGCYrS8x8RA =328x192)_
 
 {:start="2"}
 2. Busy state enabled
