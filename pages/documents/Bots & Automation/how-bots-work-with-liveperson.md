@@ -28,12 +28,10 @@ The first part of this bot and human tango takes place through our easy-to-use b
 
 Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. 
 
-##   
-Open platform that works with any bot provider, including BYOB
+## Open platform that works with any bot provider, including BYOB
 
 Brands can use LivePerson's native bots, third-party bots, or integrate their own bot technology. Connectors and APIs give enterprises the ability to leverage the right automation for their use cases. LivePerson includes a comprehensive set of management and reporting capabilities that can be used to manage both LivePerson bots or any third-party bots. Any chat bot, created by you or a 3rd party, can be fully integrated into LivePerson and become a vital component of your customer care team.
 
-![](/img/how-bots-work-1.png)![](/img/how-bots-work-1a.png)![](/img/how-bots-work-1c.png)
 
 ## Build any bot using the Conversation Builder
 
@@ -42,11 +40,11 @@ Bots can be built with the [Conversational Builder](TBD) through an interactive 
 ## Benefits of bots for brands
 
 Bots can have a dramatic impact on contact center operations, helping brands to:
-
+* **Track and monitor bots like any other agent** — A bot’s performance is measured against your KPIs, monitored in real time by Agent Managers and included in centralized reporting. Our detailed and flexible LivePerson reports allow for further analysis and bot performance optimization.
 * **Free up valuable agent time** — Bots can handle mundane and monotonous tasks to give human agents the time to focus on more complex conversations.
 * **Build a strong and integrated contact center team** — Conversations can be passed back and forth between human and bot agents without a hitch, with human agents always available to speak to a consumer when the situation requires.
 * **Reduce your customer care costs** — As a large number of common customer service interactions are highly automated, bots can step in to handle these routine tasks, dramatically cutting your contact center costs.
-* **Track and monitor bots like any other agent** — A bot’s performance is measured against your KPIs, monitored in real time by Agent Managers and included in centralized reporting. Our detailed and flexible LivePerson reports allow for further analysis and bot performance optimization.
+
 
 ![](/img/how-bots-work-2.png)
 
