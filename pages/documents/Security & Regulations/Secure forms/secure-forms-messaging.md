@@ -2,7 +2,7 @@
 pagename: Secure forms for messaging
 categoryName: Security & regulations
 subCategoryName: Secure forms
-indicator: both
+indicator: messaging
 subtitle: LivePerson invests heavily in providing the most secure platform possible
   for our services, customers, and their data
 level3: ''
