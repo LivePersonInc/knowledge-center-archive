@@ -10,6 +10,7 @@ permalink: admin-settings-secure-forms-for-chat.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 13:36:31 +0200
+published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The LiveEngage secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -130,42 +131,35 @@ Once secure form features have been enabled on your account, your LPA will need 
 
 The **account password policy** will be configured as follows:
 
-| --- | --- |
-| Setting | Required Configuration |
-| Minimum number of characters | Set to minimum 7 |
-| Alpha character required | Required |
-| Number character required | Required |
-| Apply policy to current passwords | Required |
-| Expires after number of days | Set to 90 |
-| Prevent using previous number passwords | Set to minimum 4 |
+| Setting | Required Configuration |  
+| --- | --- |  
+ | Minimum number of characters | Set to minimum 7 | | Alpha character required | Required | | Number character required | Required | | Apply policy to current passwords | Required | | Expires after number of days | Set to 90 | | Prevent using previous number passwords | Set to minimum 4 |
 
 The **Failed Login Policy** will be configured as follows:
 
-| --- | --- |
-| Setting | Required Configuration |
-| Automatically disable operator after number of failed logins | Set to minimum 3 |
-| Number of minutes before re-enabling disabled operator | Set to blank |
+| Setting | Required Configuration |  
+| --- | --- |  
+ | Automatically disable operator after number of failed logins | Set to minimum 3 | | Number of minutes before re-enabling disabled operator | Set to blank |
 
 The **idle operator policy** will be configured as follows:
 
-| --- | --- |
-| Setting | Required Configuration |
-| Automatic action when operator is logged in but idle | Set to: “Logout the operator” |
-| Logout operator from the account after minutes of inactivity | Set to maximum 15 |
+| Setting | Required Configuration |  
+| --- | --- |  
+| Automatic action when operator is logged in but idle | Set to: “Logout the operator” | | Logout operator from the account after minutes of inactivity | Set to maximum 15 |
 
 **Permission settings**
 
 The following permissions related to secure forms need to be enabled for an account:
 
-| --- | --- | --- | --- |
-| Role | Permission | Permission definition | Default State (role) |
+| Role | Permission | Permission definition | Default State (role) |  
+| --- | --- | --- | --- |  
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
 {: .notice}  
 The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the engagement history.
 
-| --- | --- | --- | --- |
-| Role | Permission | Permission definition | Default State (role) |
+| Role | Permission | Permission definition | Default State (role) |  
+| --- | --- | --- | --- |  
 | Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
 
 To verify that permissions are enabled:
