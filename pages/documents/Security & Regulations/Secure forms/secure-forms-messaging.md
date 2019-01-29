@@ -1,9 +1,10 @@
 ---
 pagename: Secure forms for messaging
-categoryName: 'Security & regulations'
+categoryName: Security & regulations
 subCategoryName: Secure forms
 indicator: both
-subtitle: LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data
+subtitle: LivePerson invests heavily in providing the most secure platform possible
+  for our services, customers, and their data
 level3: ''
 permalink: security-regulations-secure-forms-secure-forms-for-messaging.html
 isTutorial: false
@@ -192,7 +193,7 @@ When an agent sends a secure form to a consumer, a new rich message displays the
 
 This is how the secure form invitation will display to the consumer on the iOS mobile-app messaging SDK:
 
-![](https://lh4.googleusercontent.com/vMrtg32ZKYhmKYrd8qf6b7P18GFmHE1XWdNqfJcJwEQ6tL-M0VOaPsvm4B_tAEG08-hRP1NyPZkXpoi6kuOO3HbQJLCInJuBg-KfACX78bTwP3oLOQPHOusuLWM-pG9SMETL9T50 =449x238)
+![](/img/SFM3.png)
 
 The following invitation design capabilities are available on the iOS mobile-app messaging SDK:
 
@@ -205,7 +206,7 @@ The following invitation design capabilities are available on the iOS mobile-app
 7. secureFormBubbleFillFormButtonBackgroundColor = UIColor.clear
 8. secureFormBubbleFormImageTintColor = LPColor.LPBlue
 
-![](https://lh5.googleusercontent.com/ZsO8vk0xzYFby6w3O0pIPmZ_kwBdveETuPsuybhdnFw5ztKWYc9zBbg99xCxfqLqqlAljq7NfzWI44ckaCYYacaMMCknFNO9LYuXTCjVQMlRJejo6Zywey2-3MgzYhtjfU9z4Mqj =447x229)
+![](/img/SFM4.png)
 
 Other invitation statuses include:
 
@@ -219,7 +220,7 @@ When there’s no connectivity, the “fill in form” link will be disabled and
 
 This is how the secure form invitation will display to the consumer on the Android mobile-app messaging SDK:
 
-![](https://lh3.googleusercontent.com/Cs2GINldAAVlRxillwwjktcS7qwh5a_v8yCZNXkTBPt3CqfeWOU47L8P5yPZ4tUdtocDc9tNzSNzP_eYRMu2ApI2gL2cbk9Dw9Iys4a7TU_01rEHLvT0COpvMpDH8-54ykogir46 =448x256)
+![](/img/SFM5.png)
 
 The following invitation design capabilities are available on the Android In-App Messaging SDK:
 
@@ -232,7 +233,7 @@ The following invitation design capabilities are available on the Android In-App
 7. <color name="agent_bubble_pci_form_invitation_icon_tint_color">@color/lp_blue</color>
 8. (Bubble border width is inherited from standard bubbles)
 
-![](https://lh3.googleusercontent.com/Z64EiE5SVVuHcqnu0tmskNxPlRC3ydUloYirMgQ_FArSk4NeY86U1m15ywVrU3HF-LcAOwwMG2BAHZ0xrRjPUeTWb0bm-Rm-d006IS2U6CAnaMTVDxz35431WwloCWFoopgj8em4 =456x265)
+![](/img/SFM6.png)
 
 Other invitation statuses include:
 
@@ -246,13 +247,13 @@ Once the consumer has tapped the ”Fill in form” button, a web view overlay i
 
 The form includes :
 
-1. Navigation bar with the form’s name and an option to exit the form.
-2. Header displaying a security statement and the PCI certification logo. The logo can be hidden via configuration in the window studio.
-3. Secure form questions.
-4. Submit button.
-5. Footer displaying a security statement.
+1. Navigation bar with the form’s name and an option to exit the form
+2. Header displaying a security statement and the PCI certification logo. The logo can be hidden via configuration in the window studio
+3. Secure form questions
+4. Submit button
+5. Footer displaying a security statement
 
-![](https://lh5.googleusercontent.com/xO1Y3qtCGhaiAz9LARXARnaZTlgf5Le-2wINLNd7w1UUPV05uhjro5FHKw-EhrEypQLuTFxSbSi4GRsx2ddqVJeaD03ztsvJBBeC6MCDdj7vY9YS3Gfzm2CNHzvKMsUn2skQ176g =321x430)
+![](/img/SFM7.png)
 
 #### iOS
 
@@ -263,13 +264,13 @@ The following UI and designable elements for the form are available on the iOS m
 3. secureFormBackButtonColor = UIColor.black
 4. secureFormUIStatusBarStyleLightContent = true
 
-![](https://lh3.googleusercontent.com/5IOGssWO19wlBaBqxnIKi90eoBvUXcPPllRJsr2Pwya50X3z_izKBMPu1GIQKlOexIZTSlGAKGnp9C9Ig4f_jZmmGs0l9D30aHmIDkPbTcFKrgsFdy6iyNQGTxwupavDVLmeqDpv =370x496)
+![](/img/SFM8.png)
 
 #### Android
 
 The form on the Android mobile-app messaging SDK is as follows (top bar design is inherited from the conversation top bar):
 
-![Screenshot](https://lh3.googleusercontent.com/WisxR6o-bHuRijHUe7NqZFRhInmy_1a1HQKSuNztDxanASfCphFS4impGXBwM6VQNBSRD75kVlrp1i1Guc0LQW3oA4zfvNDe6KcTvE54vnXJ4uzUWSh9qh4k1bA4Ej2LzsCg2HF3 =304x458)
+![](/img/SFM9.png)
 
 ## **Messaging connectors**
 
@@ -284,10 +285,7 @@ The first connector to support secure forms will be Twilio SMS (end of January, 
 
 The connector’s secure form invitation contains the secure form name and a link to the secure form:
 
-![](https://lh6.googleusercontent.com/T45JxeyfqgVTdo2eC5YCWnCIWhEQN4iiXTidyNivtklqjaoAom2ViFaTY_qhlvQeqNoQ61p22dvh9rfsB8u3a30UF7nJGyZ11wLfi7Mj6_f7Nt5drww0sYvxIqG1EeB5cvhnP3G8 =624x347)  
-![](https://lh4.googleusercontent.com/0t3Jk4S2xJAFuS0xRpvUyOnDlIv1vIjBsrQW84RB2Wr_oRIEZzXg0lKu5egbkAgEGfJIuP4M9vQzKVlQ3lZwmUqsN19yslzfA5o1JKRhZZQ0OKowDS-ewhrd3rg6Efmo4TXoZxE2 =624x359)
-
-![](https://lh5.googleusercontent.com/Tsh2hk4EWjnqyjHQ7VAPxDJLaev2ugnrk5UtxUXcep-dGoTeqOZd6WidrP-5T2qufi-XfVQmjd0RNZPNPcIW2ReP9tHd9gSilUtrc_p1u8nOmi3zhDRh8LqprbuvOmQmHtiUOpXR =624x361)
+![](/img/SFM10.png)
 
 ### Form
 
@@ -334,17 +332,17 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 #### User interface (UI)
 
-The following UI shows the connector’s secure form experience on mobile and tablet (the numbers indicate the form design elements as explained above):  
-![](https://lh3.googleusercontent.com/rLKNQz1_i9PLw8BiG5N8P-Gqc39JM_APDZbwFljXnpqI68yLnCYStPhDswOD60GR47kNpmiU4ccbyuAm1FU_d7_CGjvzBNY_pnIE79awGRb_hnVIIA_9gxUENC2_DCyvD3QdMeOd =328x466)
+The following UI shows the connector’s secure form experience on mobile and tablet (the numbers indicate the form design elements as explained above):
+
+![](/img/SFM11.png)
 
 ### Success and error messages
 
 The following error messaging will display when the form fails to load:
 
-![](https://lh5.googleusercontent.com/PViKJjNjUX4ICe0xRxQlQj3KmU6UCTC1cy8-g4baaBTE5NyvfQMx5kXpB2IEBFKCffmpp_ypIkkV9-pYAvPoxbQ0fPf630sz1peQDxC1ZJjPKjz__JYM2NPvDodP8GuV40bNHGzr =301x137)
+![](/img/SFM12.png)
 
-The following message will display after the consumer has successfully submitted the form:  
-![](https://lh3.googleusercontent.com/nfQAEpr4OFbyPiZFtQd6E2LRWvs8YwXbxXSW0yipDcvL6AHaTErjU541_32U06RgF8814ftJP89n8tq9cEN4kD1tdd3IhcLsNU8g2y-1kl6OcNTIVCZOXsM-F0J9j1V2ZFE0r2F_ =264x108)
+The following message will display after the consumer has successfully submitted the form:
 
 ### Configuring the secure form language
 
@@ -361,8 +359,8 @@ The following texts are not customizable:
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
 
-1. Invitation: "&#123;&#123;secureFormName&#125;&#125;: &#123;&#123;secure form link&#125;&#125;"
-2. Submission: "The following Secure Form has been submitted: &#123;&#123;secureFormName&#125;&#125;"
+1. Invitation: "{{secureFormName}}: {{secure form link}}"
+2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
 3. The above texts will be automatically translated per the language selected for the connector
 
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
@@ -387,13 +385,11 @@ Once a secure form has been sent, the conversation transcript will display the f
 * The consumer has viewed the form.
 * The consumer has submitted the form.
 
-When the agent clicks on the “view secure gorm” link, the secure form data will display as follows:
+When the agent clicks on the “view secure form” link, the secure form data will display as follows:
 
-![](https://lh6.googleusercontent.com/J07x8MjgdXpFeHBlbnb4FMxIrQ9C_ARLxb4jYvajKHBS39yglUPnCkWyn89hgP8diJGTKvkXdOauF1KWjEwidwSNe7bi-jJmYLg90NXr1jTHrTIhElZ-fEBCUufbyZHPnmqCkIml =402x294)
+![](/img/SFM14.png)
 
-If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, the following error message will display:
-
-![](https://lh5.googleusercontent.com/Peitswh0JdCw8dg64JuKr_GCpCj0DzXIOdP6B9Fjs1Ha1GJ9piHn8IHdqzOXGi3B6nmgv3lR2lIKL2u12eeIBZN4LyK4PMIJNLq6cQg6GvtfAllRpW7qBOB5AJY5vfv4myRnG_Kz =425x136)
+If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 
 ## **Agent manager**
 
