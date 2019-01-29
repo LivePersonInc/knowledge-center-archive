@@ -56,7 +56,7 @@ The visitor then fills out and submits the secure form back to the agent. The re
 {: .notice}  
 If there are other agents viewing the chat, they will not be able to view the secure form. In addition, agents who receive a transferred or re-assigned chat will not be able to view the secure form. Only the agent who sent the form can access the submitted form.
 
-![](https://lh6.googleusercontent.com/5Xx43v1jYunGd4gFQfPd3sqHXofFGhy0omWTKEC-HmF4shVXotn_pOzN1zeuGnDAxc08w6nmeQVigzOL9zcZBC4kG-j5m2Yj88EDaEz0GJVOlmK0_eUnKHVf0uPS2O7W0-w9rYeK =624x339)
+![](/img/SFM1.png)
 
 _LivePerson secure form within a mobile-app messaging conversation_
 
@@ -74,7 +74,7 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](https://lh5.googleusercontent.com/zf6787uhpKPEMCOhHkoetE8qsplxVscHsUq6QbEgaLh3RHClQB7ConvXcPlEumkSPaz4OHe6-Fj4JjSafbersAz18Gk6einCpJu28NO9QD9IOkWHtSfZLEImXx0vTJVNmCkiqjys =624x380)
+![](/img/SFM2.png)
 
 _Secure form visitor to agent flow chart_
 
@@ -86,7 +86,7 @@ Below is a detailed explanation of the flow of the diagram above:
 4. The data is stored in its tokenized form in a dedicated database and is represented by a Universally Unique Identifier (UUID). This means that the tokenized data is never directly accessible to any client outside of the LivePerson environment. Rather, the client receives the UUID and requests the data from the PCI environment. "Off the Record" data (CVV) is not stored in the database, but is stored in memory for a short period of time. After this time period, the agent will need to resend the form in order to access this information.
 5. The UUID along with another OTK is sent to the agent.
 6. The agent retrieves the form via the OTK and UUID.
-7. The service detokenizes the data and sends it back to the agent.
+7. The service retrieves the data from its tokenized form and sends the data back to the agent in a readable format.
 
 ## **Security measures**
 
@@ -97,7 +97,7 @@ The secure form solution was designed with strict security parameters to help en
 * A unique one-time key (OTK) is utilized for each form initiated by an agent. Each OTK can only be used once and is valid for a very short period of time (seconds).
 * The consumer has a predefined period of time to fill the form. To configure this time period, contact your LivePerson account team.
 * OTKs undergo validation and verification during the data de-tokenization process.
-* The visitor's OTK can only be used for tokenizing the data. The agent's OTK can only be used for detokenizing the data. Moreover, an OTK is specific to one site. This ensures that the OTK cannot be inappropriately manipulated.
+* The visitor's OTK can only be used for tokenizing the data. The agent's OTK can only be used for retrieving the data and sending it back in a readable format. Moreover, an OTK is specific to one site. This ensures that the OTK cannot be inappropriately manipulated.
 * The sensitive data is only accessible during the active session (until the conversation is resolved or the agent logs out). It is not stored in the chat history or transcripts.
 * The tokenized data is securely stored in the LivePerson application database in its tokenized form for a default period of 13 months.
 * The tokenized data can be accessed with specific permissions. Contact your LivePerson account team for more information.
@@ -128,9 +128,9 @@ The failed login policy will be configured as follows:
 
 The idle operator policy will be configured as follows:
 
-| Setting | Required Configuration |  
-| --- | --- |  
- | Automatic action when operator is logged in but idle | Set to: “Logout the operator” | | Logout operator from the account after minutes of inactivity | Set to maximum 15  |
+| Setting | Required Configuration |
+| --- | --- |
+| Automatic action when operator is logged in but idle | Set to: “Logout the operator” |
 
 The LPA will also set the account to block credit card patterns.
 
