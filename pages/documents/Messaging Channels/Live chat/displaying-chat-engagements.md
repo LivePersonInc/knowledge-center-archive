@@ -12,8 +12,6 @@ date: 2019-01-29 17:20:57 +0200
 published: false
 
 ---
-## Displaying chat engagements
-
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
 
 ### 1. Control groups
