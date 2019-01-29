@@ -69,11 +69,11 @@ There are six stages for creating web engagements: **gallery, settings, studio, 
 
 ![](/img/add chat 1.png)
 
-1. Template gallery
+#### I. Template gallery
 
 The template gallery page allows you to choose the format of your engagement and whether you are trying to create a chat button or content banner. Learn more about choosing your engagement format here.
 
-1. Engagement settings
+#### II. Engagement settings
 
 On this page, you can define the **conversation channel**, **authentication**, **routing, window presentation** and **language** settings for your engagement.
 
@@ -150,6 +150,6 @@ When you are finished defining your visitor behavior, click **next**.
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
 
-![](https://lh3.googleusercontent.com/lg_bO4WSSEiRreSq6AdPmrduwtOKPlBsy5KewlPWbK36OGTtfh49mHdUBK9chI-uKDHYZFICasxiXgSSeZB4LE1tbQ4S-jWtTzlIEgHpVrxtF33i3IYrr2g6N3LNIq2eFHD4Bln5 =446x301)
+![](/img/unnamed (4).png)
 
 **To learn more about publishing and unpublishing campaigns, click here.**
