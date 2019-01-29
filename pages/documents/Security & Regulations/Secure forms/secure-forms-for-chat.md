@@ -57,7 +57,7 @@ An agent can send a secure form from the agent workspace at any time during a ch
 
 ![](https://lh3.googleusercontent.com/KxVjdM632DNYROVcT-u8NYWMrWTfhGUv4T7mJlC5ppmxZYzSTa3HV1LLkuTypUx_dLU7WGBwyFJHRaisuvuIi20YSJG9on8i-v8rdWQH_7u-s_cobn9VuueTBHLVPWG6SkW6zSCa =624x299)
 
-Figure 1**:** Secure form within the agent workspace
+Figure 1 Secure form within the agent workspace
 
 The visitor then fills out and submits the secure form back to the agent. The receiving agent is the only one able to view the information sent by the visitor.
 
