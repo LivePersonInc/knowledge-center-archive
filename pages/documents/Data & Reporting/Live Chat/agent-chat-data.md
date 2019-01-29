@@ -1,11 +1,11 @@
 ---
-pagename: 'Agent manager real time data '
+pagename: Real time data for chat
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Live chat
 indicator: chat
 subtitle: Agent managers can analyze real time data of agent activity
 level3: ''
-permalink: data-reporting-live-chat-agent-manager-real-time-data.html
+permalink: data-reporting-live-chat-real-time-data-for-chat.html
 isTutorial: false
 date: 2019-01-15 08:38:14 +0000
 
