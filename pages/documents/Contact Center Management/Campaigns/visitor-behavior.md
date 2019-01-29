@@ -33,7 +33,7 @@ Identify consumers based on a predefined browsing pattern within your website or
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
-  **Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
+**Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
 
 Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
@@ -131,13 +131,13 @@ Target consumers by their service journey topics. A service journey is a series 
 * Pending
 * Resolved
 
-​Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
+Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/behavior 10.png)
 
 Once you’ve selected and configured your conditions, LiveEngage will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI.
 
-Here’s an example of how to target based on the user behavior type: flow.
+Below is an example of how to target based on the user behavior type: flow.
 
 ## Use case: Target users according to journey flow
 
@@ -214,8 +214,9 @@ To set up an Engagement for Visitor Back Flow:
 
 <div class="important"> 
 <b>Note:</b> 
-<li>If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4</li> <li>When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
-</li> 
+If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
+<br>
+When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
 </div>
 
 **Note:**
