@@ -67,7 +67,7 @@ You can now begin creating banners or buttons to add to your website. These enga
 
 There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
-**![](https://lh4.googleusercontent.com/vRN348e5Y0p9CqcdtI7h_WPNKOtHCs3i1O_5rJpiVx4eiBPAOjA4Qejbb2EqaFJG9qYz1eZjhBBElIq-yECYiz7B3urWHvYwvD9XxKyG-12whHETxWDb3I0ikM61HwJq3qrOGm89 =580x70)**
+![](/img/add chat 1.png)
 
 1. Template gallery
 
@@ -75,7 +75,9 @@ The template gallery page allows you to choose the format of your engagement and
 
 1. Engagement settings
 
-On this page, you can define the **conversation channel**, **authentication**, **routing, window presentation** and **language** settings for your engagement.![](https://lh3.googleusercontent.com/wOQEkeT23moOJlunFciRodU1C9McFqhFT9L49cGsZJz4rkyzu1jYsL1uJDutjhe7wqjNhZTY1hO47rE2IRa8N6ATxKHDdWU0CwIbdbRttMnCNjMaLqeW8CdC49h7eVilU-LCiedF =585x301)
+On this page, you can define the **conversation channel**, **authentication**, **routing, window presentation** and **language** settings for your engagement.
+
+![](/img/Screen Shot 2019-01-29 at 3.49.30 PM-1.png)
 
 1. Conversation channel
 
@@ -137,8 +139,6 @@ When you are finished defining your entry point, click **next**.
 1. Visitor behavior
 
 The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
-
-![](https://lh5.googleusercontent.com/5W8VBKioxHae6hB3rlXR6MYpWGuA9FpV2X0r3jc8bRJJneSY4rSjqo207-IWora4x2ICaB1YUorWK2s_S06Rc-DnGW0Qcz9E_yny30cRgHb6ftf7VHngypiTckpdasO-awB1qxDb =512x334)
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
