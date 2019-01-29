@@ -12,9 +12,7 @@ date: 2019-01-29 12:04:15 +0200
 published: false
 
 ---
-## Language support
-
-### Languages supported on the visitor side
+## Languages supported on the visitor side
 
 The embedded engagement window and email transcripts sent to consumers support over 40 languages and dialects:
 
@@ -39,7 +37,7 @@ The embedded engagement window and email transcripts sent to consumers support o
 * Hindi
 * Hungarian
 * Indonesian
-* Italian 
+* Italian
 * Japanese
 * Korean
 * Latin American Spanish
@@ -63,7 +61,7 @@ The embedded engagement window and email transcripts sent to consumers support o
 * Ukrainian
 * Vietnamese
 
-### Languages supported in the LivePerson workspace
+## Languages supported in the LivePerson workspace
 
 The agent workspace supports the following 13 languages:
 
@@ -77,11 +75,11 @@ The agent workspace supports the following 13 languages:
 * Japanese
 * Korean
 * Portuguese (Brazil)
-* Romanian 
+* Romanian
 * Spanish
 * Turkish
 
-### Languages supported in CoBrowse
+## Languages supported in CoBrowse
 
 CoBrowse supports the following 13 languages in the Agent Workspace and on the visitor side:
 
@@ -99,6 +97,6 @@ CoBrowse supports the following 13 languages in the Agent Workspace and on the v
 * Spanish
 * Turkish
 
-### Languages supported in Report Builder
+## Languages supported in Report Builder
 
 The Report Builder supports the English language only.
