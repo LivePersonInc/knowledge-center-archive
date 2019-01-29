@@ -19,6 +19,7 @@ Campaigns for chat allow brands to easily create and manage digital engagements,
 ## Before you begin
 
 ### 1. Planning and thought starts 
+
 	1. Do you want one chat button available on all pages of your website?
 	2. Is there a dedicated place on your website that you’d like the button to display?
 	3. Will you offer chat only to specific audience? How will you target this audience?
