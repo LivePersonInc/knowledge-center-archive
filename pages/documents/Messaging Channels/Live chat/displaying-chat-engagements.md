@@ -69,18 +69,26 @@ To learn more about creating and configuring offsite engagements, [click here](h
 To enhance your visitors’ chat experience on mobile, use the Embedded Engagement window and optimize your website for mobile.
 
 To optimize your web experience, tag of all your web pages:
-	1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
-	2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
+1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
+2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-'<meta name="viewport" content="width=device-width,
-
+<meta name="viewport" content="width=device-width,
 initial-scale=1.0,
+minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>'
+<div class="important"> 
+<b>Note:</b> 
+<ul> 
+<li>If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li> 
+</ul> 
+</div>
+
+
+
 
 **Notes**:
 
-* If the **viewport meta tag** does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
+* If the viewport meta tag does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
 * If the **viewport meta tag** exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.
 
 # Offsite engagements
