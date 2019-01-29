@@ -5,10 +5,10 @@ subCategoryName: ''
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: faqs-surveys-windows
+permalink: faqs-surveys-windows.html
 isTutorial: false
 isNew: false
-date: 2019-01-27 15:04:38 +0200
+date: 2019-01-27 13:04:38 +0000
 
 ---
 ## How long does the CSAT survey remain open while awaiting consumer response?
