@@ -8,7 +8,7 @@ level3: ''
 permalink: contact-center-management-campaigns-managing-campaigns.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 11:20:16 +0200
+date: 2019-01-29 09:20:16 +0000
 published: false
 
 ---
