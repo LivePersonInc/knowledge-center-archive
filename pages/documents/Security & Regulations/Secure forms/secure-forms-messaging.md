@@ -10,7 +10,6 @@ permalink: security-regulations-secure-forms-secure-forms-for-messaging.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 10:27:49 +0200
-published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -388,9 +387,8 @@ Once a secure form has been sent, the conversation transcript will display the f
 
 When the agent clicks on the “view secure form” link, the secure form data will display as follows:
 
-If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, the following error message will display:If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, the following error message will display:
+![](/img/SFM14.png)
 
-  
 If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 
 ## **Agent manager**
