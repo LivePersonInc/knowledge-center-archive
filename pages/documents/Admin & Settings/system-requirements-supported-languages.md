@@ -10,7 +10,6 @@ permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:20:27 +0000
-published: false
 
 ---
 For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
@@ -87,7 +86,7 @@ Listed below are the mobile devices and operating systems that are supported by 
 
 **Supported:** Items highlighted in blue meet the minimum requirements, but have not been individually tested. Any new bugs will be evaluated and resolved on a case by case basis. Devices which are certified on the OS previous to the supported OS (for example, supported on Marshmallow and certified on Lollipop), receive higher priority for certification on newer operating systems.
 
-See [Appendix](https://docs.google.com/document/d/1kG0GW02WNXEhcM2J-5lnYPvqmbqb67OLNZaZwCfXOJo/edit#heading=h.49x2ik5) for information on the new device certification process and devices certified in 2018.
+See information on the [new device certification process]() and devices certified in 2018.
 
 ### Android
 
@@ -280,7 +279,7 @@ The embedded engagement window and email transcripts sent to consumers support o
 * Hindi
 * Hungarian
 * Indonesian
-* Italian |
+* Italian 
 * Japanese
 * Korean
 * Latin American Spanish
@@ -318,7 +317,7 @@ The agent workspace supports the following 13 languages:
 * Japanese
 * Korean
 * Portuguese (Brazil)
-* Romanian |
+* Romanian 
 * Spanish
 * Turkish
 
