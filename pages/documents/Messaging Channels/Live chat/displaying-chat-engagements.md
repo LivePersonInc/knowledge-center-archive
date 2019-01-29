@@ -12,11 +12,11 @@ date: 2019-01-29 17:20:57 +0200
 published: false
 
 ---
-# Displaying chat engagements
+## Displaying chat engagements
 
-Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior, giving your campaign optimal efficiency.
+Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
 
-1. Control groups
+### 1. Control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up.
 
@@ -24,7 +24,7 @@ A control group is a random number of visitors to your website who do not receiv
 
 To learn more about setting up your control groups, click here.
 
-1. Button refresh
+### 2. Button refresh
 
 There are three states for a chat engagement: Online, Busy and Offline. Each state is related to the status of the agents, as well as the maximum wait time.
 
@@ -32,19 +32,19 @@ When consumers are browsing between several windows, pages can remain static for
 
 With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. Read more about button refresh here.
 
-1. Multiple engagements on the same page
+### 3. Multiple engagements on the same page
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**.
 
-    	To learn more about running campaigns with multiple engagements, click here. 
+To learn more about running campaigns with multiple engagements, click here. 
 
-1. Busy State
+### 4. Busy State
 
 LiveEngage offers a variety of creative engagements to communicate to consumers when no agents are online (during off-hours) and during busy times when they have no capacity and long wait times are expected. In this way, consumer expectations are managed and potential frustration is avoided. The busy state indicates that at least one agent is online but with no capacity to handle consumers as the expected wait time is longer than the maximum wait time for the skill.
 
 Click here to learn more about the busy state and how it is configured.
 
-1. Proactive engagement behavior
+### 5. Proactive engagement behavior
 
 Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
 
@@ -60,26 +60,25 @@ By default, after declining a proactive content engagement, other content engage
 
 ![](/img/dis eng 1.png)
 
-1. Offsite engagements
+### 6. Offsite engagements
 
 Offsite engagements give brands the opportunity to offer chat from any location by creating a URL that consumers can click to begin a private chat conversation. This URL can be embedded to offer chat from social media sites, digital advertisements, email and more.
 
 To learn more about creating and configuring offsite engagements, [click here](https://docs.google.com/document/d/1NazebK1DVznRwhDSAFxW4W1vsXoNjFjNJU6daQ_3M5Q/edit#heading=h.oqdpp9siknp4).
 
-1. Optimizing the mobile experience
+### 7. Optimizing the mobile experience
 
 To enhance your visitors’ chat experience on mobile, use the Embedded Engagement window and optimize your website for mobile.
 
 To optimize your web experience, tag of all your web pages:
+	1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
+	2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
-2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
-
-<meta name="viewport" content="width=device-width,
+*<meta name="viewport" content="width=device-width,
 
 initial-scale=1.0,
 
-minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>*
 
 **Notes**:
 
