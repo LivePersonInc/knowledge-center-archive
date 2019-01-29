@@ -31,15 +31,17 @@ Answering these questions will help you prepare and streamline your campaign cre
 * Are you offering service transactions? Will you need to authenticate the conversations?
 * Will you utilize chat for sales? Specific campaigns? Do you expect to track the conversations made over chat?
 
-Engagement attributes
+### 2. Engagement attributes
 
-Engagement attributes help you to collect more in-depth information about your visitors, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to validate your engagement attributes. For more information on individual engagement attributes, you can refer to the developers community.
+Engagement attributes help you to collect more in-depth information about your visitors, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to validate your engagement attributes. For more information on individual engagement attributes, you can [refer to the developers community]().
 
-1. Set up sales & conversion tracking
-   If you are planning to create campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote)
-   1. Define your Currency - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video
-   2. Cross session period - Often your consumers will not purchase on the first visit to your website. You can define how long a ‘cross session’ applies.  For example, a cross session of 2 weeks means that if a consumer visited your site, had a chat conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
-   3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
+### 3. Set up sales & conversion tracking
+
+If you are planning to create campaigns tailored for tracking sales and conversions, ensure you define the following settings:
+
+* **Define your currency** - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video
+* **Cross session period** - Often your consumers will not purchase on the first visit to your website. You can define how long a ‘cross session’ applies.  For example, a cross session of 2 weeks means that if a consumer visited your site, had a chat conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
+* **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
 # Creating a campaign
 
