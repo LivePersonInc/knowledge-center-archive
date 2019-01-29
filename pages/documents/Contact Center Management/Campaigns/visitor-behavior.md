@@ -215,7 +215,8 @@ To set up an Engagement for Visitor Back Flow:
 <div class="important"> 
 <b>Note:</b> 
 If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
-<br>
+<br />
+<br />
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
 </div>
 
