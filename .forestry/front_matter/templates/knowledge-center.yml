@@ -144,12 +144,10 @@ pages:
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Contact Center Management/Campaigns/campaign-goals.md
-- pages/documents/agent-tools.md
 - pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/target-audience.md
 - pages/documents/Messaging Channels/Rich messaging/audio-messaging-user-guide.md
 - pages/documents/Messaging Channels/Rich messaging/quick-replies-user-guide.md
-- pages/documents/surveys-window.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-for-messaging-tour.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-basics.md
@@ -184,7 +182,7 @@ pages:
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Contact Center Management/Campaigns/engagement-window.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-using-the-mcs-toolkit.md
-- pages/documents/Admin & Settings/system-requirements-supported-languages.md
+- pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-1.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
@@ -208,6 +206,11 @@ pages:
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
+- pages/documents/Admin & Settings/languages-supported.md
+- pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
+- pages/documents/Contact Center Management/Campaigns/campaign-settings.md
+- pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
+- pages/documents/Messaging Channels/Live chat/add-chat-to-your-website.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md

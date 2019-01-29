@@ -2,17 +2,20 @@
 pagename: Secure forms for messaging
 categoryName: Security & regulations
 subCategoryName: Secure forms
-indicator: both
+indicator: messaging
 subtitle: LivePerson invests heavily in providing the most secure platform possible
   for our services, customers, and their data
 level3: ''
 permalink: security-regulations-secure-forms-secure-forms-for-messaging.html
-isTutorial: false
+isTutorial: true
 isNew: false
-date: 2019-01-29 10:27:49 +0200
+date: 2019-01-29 08:27:49 +0000
+published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
+
+[https://vimeo.com/238919406/ecf3a94aa4](https://vimeo.com/238919406/ecf3a94aa4 "https://vimeo.com/238919406/ecf3a94aa4")
 
 ## **Secure form benefits**
 

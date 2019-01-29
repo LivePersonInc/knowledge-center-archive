@@ -1,5 +1,5 @@
 ---
-pagename: System requirements & supported languages
+pagename: System requirements
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
@@ -9,16 +9,14 @@ level3: ''
 permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 15:20:27 +0200
+date: 2019-01-28 13:20:27 +0000
 
 ---
-## General guidelines
-
-For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
+For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
 
-**_Notes:_**
+**Notes:**
 
 1. We fully support only the generally available (GA) browser versions.
 2. To benefit from the full functionality of LivePerson, cookies must be enabled.
@@ -29,8 +27,8 @@ We have two primary levels of support for the items listed in the tables below:
 
 **Supported:** Items highlighted in blue meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
 
-{: .notice}_  
-_We recommend using certified systems for the best possible experience while using LiveEngage.
+{: .notice}  
+We recommend using certified systems for the best possible experience while using LiveEngage.
 
 ## Visitor side: mobile web requirements
 
@@ -88,7 +86,7 @@ Listed below are the mobile devices and operating systems that are supported by 
 
 **Supported:** Items highlighted in blue meet the minimum requirements, but have not been individually tested. Any new bugs will be evaluated and resolved on a case by case basis. Devices which are certified on the OS previous to the supported OS (for example, supported on Marshmallow and certified on Lollipop), receive higher priority for certification on newer operating systems.
 
-See [Appendix](https://docs.google.com/document/d/1kG0GW02WNXEhcM2J-5lnYPvqmbqb67OLNZaZwCfXOJo/edit#heading=h.49x2ik5) for information on the new device certification process and devices certified in 2018.
+See information on the [new device certification process]() and devices certified in 2018.
 
 ### Android
 
@@ -133,9 +131,9 @@ See [Appendix](https://docs.google.com/document/d/1kG0GW02WNXEhcM2J-5lnYPvqmbqb6
 | Xperia X | - | - | Certified | Supported | - |  |
 | Xiaomi | Mi6 | - | - | - | - | Certified |
 
-{: .notice}_  
+{: .notice}  
 Operating systems prior to v4.4.x (KitKat) are not supported.  
-_{: .notice}_  
+{: .notice}  
 \* Galaxy s9 - Photo sharing functionality is limited on the device. Only photos which were not taken by the device can be shared_
 
 ### Android – tablets
@@ -189,7 +187,7 @@ _Operating systems prior to 10.x are not supported._
 
 ## LivePerson workspace requirements
 
-The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the LiveEngage Workspace.
+The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the LiveEngage workspace.
 
 ### Windows
 
@@ -226,7 +224,7 @@ While these browsers do support LiveEngage they do not support, and will not sup
 
 ## Bandwidth requirements
 
-## LivePerson workspace
+### LivePerson workspace
 
 * Initial download speed: approximately 6MB GZIPPED for complete agent workspace download (includes scripts, html, CSS and images).
 * Average rate per CCP per second: 10-15KB for data.
@@ -245,7 +243,7 @@ While these browsers do support LiveEngage they do not support, and will not sup
 {: .notice}
 The real-time experience is affected by several applications competing for upstream bandwidth on the consumer’s system._
 
-# Citrix requirements
+## Citrix requirements
 
 LivePerson recommends hosting up to 30 users per server, with the following specifications:
 
@@ -253,97 +251,6 @@ LivePerson recommends hosting up to 30 users per server, with the following spec
 * Memory: 16 GB RAM
 * Xenapp Server 6.5 and above
 * Operating system: Windows Server 2008 R2
-
-## Language support
-
-### Languages supported on the visitor side
-
-The embedded engagement window and email transcripts sent to consumers support over 40 languages and dialects:
-
- 1.  Arabic  
- 2. Bulgarian 
- 3. Chinese (Simplified)  
- 4. Chinese (Traditional Hong Kong) 
- 5. Chinese (Traditional Taiwan) 
- 6. Croatian 
- 7.  Czech 
- 8. Danish 
- 9.  Dutch 
-10.  English (US) 
-11. English (UK) 
-12.  Estonian 
-13. Finnish 
-14. French
-15.  French-Canadian 
-16. German 
-17. Greek 
-18. Hebrew 
-19.  Hindi 
-20. Hungarian 
-21. Indonesian 
-22. Italian |
-23. Japanese 
-24.  Korean 
-25. Latin American Spanish 
-26. Latvian 
-27. Lithuanian 
-28. Macedonian 
-29. Malaysian 
-30. Norwegian 
-31. Polish 
-32. Portuguese (Brazil) 
-33. Portuguese (Portugal) 
-34.  Romanian 
-35. Russian 
-36.  Serbian 
-37.  Slovak 
-38.  Slovenian 
-39. Spanish 
-40.  Swedish 
-41. Thai 
-42.  Turkish 
-43.  Ukrainian 
-44.  Vietnamese 
-
-### Languages supported in the LivePerson workspace
-
-The agent workspace supports the following 13 languages:
-
-* English (US) 
-* Chinese (Simplified) 
-* Danish 
-* Finnish 
-* French 
-* German 
-* Italian 
-* Japanese 
-* Korean 
-* Portuguese (Brazil) 
-* Romanian |
-* Spanish 
-* Turkish 
-
-### Languages supported in CoBrowse
-
-CoBrowse supports the following 13 languages in the Agent Workspace and on the visitor side:
-
-* English (US) 
-* Chinese (Simplified) 
-* Chinese (Traditional) 
-* Danish 
-* Finnish 
-* French 
-* German 
-* Italian 
-* Japanese 
-* Korean 
-* Portuguese 
-* Spanish 
-* Turkish
-
-### Languages supported in Report Builder
-
-The Report Builder supports the English language only.
 
 ## New device certification process
 
