@@ -43,19 +43,18 @@ If you are planning to create campaigns tailored for tracking sales and conversi
 * **Cross session period** - Often your consumers will not purchase on the first visit to your website. You can define how long a ‘cross session’ applies.  For example, a cross session of 2 weeks means that if a consumer visited your site, had a chat conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 * **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
-# Creating a campaign
+## Creating a campaign
 
-1. Campaign set up
+### 4. Campaign set up
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
-To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
+To create a new one, simply click **Add campaign** at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
-
-1. Business goal
-2. Target audience
-3. Time frame
+	1. Business goal
+	2. Target audience
+	3. Time frame
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
