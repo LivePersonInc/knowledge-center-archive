@@ -1,5 +1,5 @@
 ---
-pagename: Secure forms for messaging
+pagename: Secure forms for messaging user guide
 categoryName: Security & regulations
 subCategoryName: Secure forms
 indicator: messaging
