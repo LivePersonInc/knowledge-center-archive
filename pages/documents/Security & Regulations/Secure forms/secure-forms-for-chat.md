@@ -10,7 +10,6 @@ permalink: admin-settings-secure-forms-for-chat.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 13:36:31 +0200
-published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The LiveEngage secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -29,7 +28,7 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 
 LivePerson works hard to ensure that our customers around the world can safely and securely use our platform. There are several different standards for protecting data around the world. LivePerson meets the following international standards for data protection, ensuring that our European customers can safely use our secure forms:
 
-1. **Standard 1: PCI-DSS** 
+1. **Standard 1: PCI-DSS**
    1. LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s secure form Widget and Billing system. To view the certificate, click [here.]()
 2. **Standard 2: GDPR**
    1. LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
@@ -45,7 +44,7 @@ Some of the most common use cases for the secure form include:
 * Visitors need to provide PII to an agent as part of the identity validation process, for example, to answer a secret question.
 * Any other situation requiring the visitor to send sensitive information to the agent.
 
-## PCI-DSS Compliance
+## PCI-DSS compliance
 
 The LivePerson secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
@@ -64,7 +63,7 @@ The visitor then fills out and submits the secure form back to the agent. The re
 {: .notice}  
 If there are other agents viewing the chat, they will not be able to view the secure form. In addition, agents who receive a transferred or reassigned chat will not be able to view the secure form. Only the agent who sent the form can access the submitted form.
 
- Example of a secure form in use:
+Example of a secure form in use:
 
 ![](https://lh3.googleusercontent.com/jREa2lYO8dtJiKOf3wI3oImlq-8z-mpIr7k0p0NCoXKU2CwqpglNIDEplCX3JVh9z8QuFfw3fEEKx3vCBJX_bhTyy_VFmiXnIbpyQlSitvXmRSyQLB_X0nHP6WBD7710pCP2241v =624x331)
 
@@ -127,9 +126,8 @@ secure forms are configured by LivePerson. To enable this feature, please contac
 
 ### Account setup
 
-Once secure form features have been enabled on your account, your LPA will need to setup your account for secure forms. The following parameters will need to be configured in order for secure forms to work on your account; if you require different account settings, please discuss this with your LivePerson account team. 
+Once secure form features have been enabled on your account, your LPA will need to setup your account for secure forms. The following parameters will need to be configured in order for secure forms to work on your account; if you require different account settings, please discuss this with your LivePerson account team.
 
-  
 The **account password policy** will be configured as follows:
 
 | --- | --- |
@@ -148,30 +146,28 @@ The **Failed Login Policy** will be configured as follows:
 | Automatically disable operator after number of failed logins | Set to minimum 3 |
 | Number of minutes before re-enabling disabled operator | Set to blank |
 
- The **idle operator policy** will be configured as follows:
+The **idle operator policy** will be configured as follows:
 
 | --- | --- |
 | Setting | Required Configuration |
 | Automatic action when operator is logged in but idle | Set to: “Logout the operator” |
 | Logout operator from the account after minutes of inactivity | Set to maximum 15 |
 
-  
 **Permission settings**
 
-The following permissions related to secure forms need to be enabled for an account: 
+The following permissions related to secure forms need to be enabled for an account:
 
 | --- | --- | --- | --- |
 | Role | Permission | Permission definition | Default State (role) |
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
- {: .notice}  
+{: .notice}  
 The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the engagement history.
 
 | --- | --- | --- | --- |
 | Role | Permission | Permission definition | Default State (role) |
 | Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
 
-  
 To verify that permissions are enabled:
 
 1\.    In the users tab, click on the profiles page.
@@ -182,5 +178,5 @@ To verify that permissions are enabled:
 
 4\.    Click Save.
 
- {: .notice}  
-If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ Customize user profiles documentation](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Permissions+(profiles).pdf). 
+{: .notice}  
+If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ Customize user profiles documentation](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Permissions+(profiles).pdf).
