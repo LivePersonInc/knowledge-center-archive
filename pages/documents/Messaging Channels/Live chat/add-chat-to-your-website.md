@@ -87,7 +87,8 @@ On this page, you can define the **conversation channel**, **authentication**, *
   4. **Window presentation:** Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
   5. **Language:** The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
-	Once your settings are complete, click **next**.
+	
+   Once your settings are complete, click **next**.
 
 #### III. Engagement studio
 
