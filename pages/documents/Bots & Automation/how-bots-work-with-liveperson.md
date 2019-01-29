@@ -9,16 +9,33 @@ level3: ''
 permalink: bots-automation-how-bots-work-with-liveperson.html
 isTutorial: true
 isNew: false
-date: 2019-01-23 15:49:32 +0200
+date: 2019-01-23 13:49:32 +0000
 
 ---
 [https://vimeo.com/238904916/ca89e9c07f](https://vimeo.com/238904916/ca89e9c07f "https://vimeo.com/238904916/ca89e9c07f")
 
-Bots can carry out a variety of automatic tasks and communicate with your consumers to help take the load off your agents. Any chat bot, created by you or a 3rd party, can be fully integrated into LivePerson and become a vital component of your customer care team.
+Bots and large-scale automations transform how brands interact with consumers, enabling one-to-one interactions that replace the IVR, websites, and apps with conversations. Bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. Since consumers want to build and maintain relationships with brands just as they talk to one another, through natural language and dialogs, bots and agents are key to operating automation at scale.
+
+### Humans and bots work together in LivePerson
+
+In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same agent workspace. This enables conversations to be easily passed between bot and human agent.  
+
+Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better. 
+
+![](/img/how-bots-work-tango-1.png)
+
+The first part of this bot and human tango takes place through our easy-to-use bot builder, the Conversational Builder. The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a set of templates for common use cases based on our conversation data. Brands can deploy out of box automations across the most common workflows tuned for each industry with templated bots libraries.
+
+Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. 
+
+###   
+Open platform that works with any bot provider, including BYOB
+
+Brands can use LivePerson's native bots, third-party bots, or integrate their own bot technology. Connectors and APIs give enterprises the ability to leverage the right automation for their use cases. LivePerson includes a comprehensive set of management and reporting capabilities that can be used to manage both LivePerson bots or any third-party bots. Any chat bot, created by you or a 3rd party, can be fully integrated into LivePerson and become a vital component of your customer care team.
 
 ![](/img/how-bots-work-1.png)![](/img/how-bots-work-1a.png)![](/img/how-bots-work-1c.png)
 
-## Benefits for brands and their contact center operations
+## Benefits of bots for brands
 
 Bots can have a dramatic impact on contact center operations, helping brands to:
 
@@ -29,7 +46,7 @@ Bots can have a dramatic impact on contact center operations, helping brands to:
 
 ![](/img/how-bots-work-2.png)
 
-## Benefits for the consumer experience
+## Benefits of bots for the consumers
 
 * **Give consumers the best of both worlds** — Not only do your consumers get quick and easy answers from bots, but also, when necessary, more personal attention from your human agents.
 * **Boost consumer satisfaction with more rapid response times** — By using automation, brands can supply more consumers with more answers - and at greater speed. With their issues being instantly attended to, consumers enjoy a better overall customer experience.
