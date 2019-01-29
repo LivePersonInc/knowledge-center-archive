@@ -9,40 +9,36 @@ permalink: contact-center-management-campaigns-visitor-behavior.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 17:31:12 +0200
-published: false
 
 ---
-For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behaviour rules.
+For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
 
-**The default option, All behaviors, means that the button is displayed at all times and displays immediately when the page is loaded.**
+The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
-## Which users should you target? 
+## Which users should you target?
 
-Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely; with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
+Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely, with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
 
-## How can you target these users? 
+## How can you target these users?
 
 LiveEngage allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
 
 Decide when to display engagements by selecting conditions that will be applied to your users’ behavior. Here is a list of the currently available conditions:
 
-### 1. Flow: 
+### 1. Flow:
 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
 
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
+* Mobile engagements can be defined by sections (engagement attributes) only
 
 **Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
 
-* Mobile engagements can be defined by sections (engagement attributes) only
+Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
-Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow; when a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow).
+![](/img/behavior 1.png)
 
-You can find further information on targeting according to flow below.
-
-![](https://lh5.googleusercontent.com/RobbaNjEyeqO5UoDHDDDJjgebpzZ1OQjGPHRB_VBS_Jx77ueILP4zb9wkWfIR12mmIY-Amtj8UJDuejSXNwFwp1ui8Vushrd10DVRs6N8plCQJkguIpoGAY9KNy_vTCUZBttxYfP =437x160)
-
-### 2. Time on Entry Point: 
+### 2. Time on Entry Point:
 
 Target consumers who have spent more than the defined time in selected entry point(s) during a single session. An entry point is a location on your website (defined by a page URL or title, or a page section) or a section within your mobile app (defined by engagement attribute).
 
@@ -50,23 +46,23 @@ To define an entry point behavior, you can select from your existing entry point
 
 **Note:** this behavior is currently only supported for web engagements.
 
-![](https://lh5.googleusercontent.com/n7xC8WdY8O9JsDmKlyilFP-CCo612vt2SRM2-fI5bINKAuHj-VJhfT-CdeiGpUuvoWH1yBJychc0i-NM2B-hhZl0DnFhIsQDJ3fnRdLDK1RK4zPNuroD3CQEe-HVbGTJlj78pFrC =437x155)
+![](/img/behavior 2.png)
 
-### 3. Visited Entry Point: 
+### 3. Visited Entry Point:
 
 Target and/or exclude consumers from selected entry points on the website or within the mobile app. To define an entry point (see above) behavior, you can select from your existing entry points (or add a new one); when a consumer lands on this entry point(s), they will be eligible to view an engagement. It is also possible to configure multiple rules for entry points visited; the consumer will only be eligible to view an engagement once they have met all of the rule criteria.
 
-![](https://lh6.googleusercontent.com/ParZxNPkgv3l7ersZSdB3Px9tpTywKbKGTuJh_IQIas8AjnyrG391zJjuul-XsB4_QzZFDgzPrNo6vDiYPV3Ibs0mJOl8RSwjoSCZnfAA-Wgo-eMTkvNsTUr_JFQF-5l2JGjda9J =433x172)
+![](/img/behavior 3.png)
 
-### 4. About to Abandon: 
+### 4. About to Abandon:
 
 Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. For guidance on setup, please refer to the Why Connect to Google Analytics?Article (see related articles).
 
 **Note:** this behavior is currently only supported for web engagements.
 
-![](https://lh6.googleusercontent.com/L0IV1IFCeJLdkVc097n-4ohjoyqYrGu6Ka_uEE_NrmEFISGop_fWiUTf7E_8DpWhvs-UNj9W4qSNx0wM5KXbY6NNWBo1um4olVxx_Z-R4-cdG_SrIvFuPYT788QJ1kQC0vwivSD_ =436x128)
+![](/img/behavior 4.png)
 
-### 5. Cart Value: 
+### 5. Cart Value:
 
 Target consumers according to the value of their shopping cart. Visitors can be targeted by their cart value in three ways:
 
@@ -76,33 +72,33 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 
 Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh3.googleusercontent.com/QKlOO1_dT9KLEA8WLklMl8hESp1xGhw9gUwIOO6-13_u-VfMMNdZHRj3wVGygItpIxlf27SPBFnCq1Cwt1zf2aAUnyJ4Fx4G9XDSVryGCn8mNoA82drdUUYstxPImsNsOpi6RjQO =437x163)
+![](/img/behavior 5.png)
 
-### 6. Products in Cart: 
+### 6. Products in Cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
 Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---cartstatus-cart-update) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh6.googleusercontent.com/Jm1YoJFcwXLRxExPOYfScMBxYxp7DgAW0REq-z41anPz8ML29T3t8TU-A68T1Y3RoOrxLY5krc-0hgD6sTAufT8UwHdSikxSp5oCqCAvhtc0Sg5BDKCSgyvI-iLaLqFyBNibZe8w =435x199)
+![](/img/behavior 6.png)
 
-### 7. Viewed Product: 
+### 7. Viewed Product:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they view a particular product. The product can be defined by name, unique product identifier / stock keeping unit (SKU), category name and product price range. You can also exclude engagements from appearing when they view these products.
 
 Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh3.googleusercontent.com/LH_35cLWllHIeBod5acNAomwgKYpxCMLtdGIXxM2jxTGI47SelAgUW9vqmDlMIUzIJ21jiiaqBO9100suAWmI5USLgz6E45eaahpjrSY9FBKnA-a9ighFdzikV-rJPel7aq5OX6e =436x196)
+![](/img/behavior 7.png)
 
-### 8. Visitor Error: 
+### 8. Visitor Error:
 
 Target consumers who experience specific errors during their time on your site or mobile app. The error can be defined by a specific error message (and from which instance the consumer encounters the error e.g. first, or second) or by error code. You can also exclude engagements from appearing when they encounter a specific error(s).
 
 Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh4.googleusercontent.com/2Y3efBbU9sjtb89CgGlxvamPXe7XhqyoQ4_AHG5Tandis7f6m2t40xVKNABhjrR4Picm4L52jHZ2icbQBy-xHlE5-IqP8b_-UbDo2YGIczjJCdddfmLpI0Q5FJxOlrxFEF062fLy =436x181)
+![](/img/behavior 8.png)
 
-### 9. Engaged in Session: 
+### 9. Engaged in Session:
 
 Target consumers who interacted with engagements according to their status:
 
@@ -113,9 +109,9 @@ Target consumers who interacted with engagements according to their status:
 
 You can also exclude engagements from appearing based on one or more of the above statuses.
 
-![](https://lh4.googleusercontent.com/yy6cQXJtadtO_G4K4vLOlkfalne_aqWZMvbmSrn7gcIEGSdTvbw2eEktSO_gSPTXnwRfTE9Z3nKw-BZeI40DL7-XX4JrK3ZQYN1hh29Wj6kyyQPf-PhxkAgQY_3xBzma6OSMrOH6 =435x207)
+![](/img/behavior 9.png)
 
-### 10. Service Activity: 
+### 10. Service Activity:
 
 Target consumers by their service journey topics. A service journey is a series of key actions taken by a consumer when using your website or mobile app. A service journey, such as ordering a checkbook or software usage, can be measured using a service activity engagement attribute. In order to define the service activity behavior, enter the service topic name e.g. order checkbook, and define the status of the topic from the following:
 
@@ -132,15 +128,15 @@ Target consumers by their service journey topics. A service journey is a series 
 * Waiting for Customer Response
 * Waiting for Response
 * Pending
-* Resolved  
+* Resolved
 
-​Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
+Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
 
-![](https://lh6.googleusercontent.com/KJGpTWc9quHl_NRG97KYMn5TEWw4so9YX7kjlvwIRfqYhnxJmDQSSZHclju3bxZrvBLgONUbhg1Itr9FYM4sSaD7ecnA4ocEheyTpHd4275FoCrxV8uP9uNdqdJETiRDrbtc0GU3 =433x328)
+![](/img/behavior 10.png)
 
 Once you’ve selected and configured your conditions, LiveEngage will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI.
 
-Here’s an example of how to target based on the user behavior type: flow.
+Below is an example of how to target based on the user behavior type: flow.
 
 ## Use case: Target users according to journey flow
 
@@ -152,86 +148,86 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 
 This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
 
-How to define a new flow:
+### How to define a new flow:
 
-1\. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
+1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
 
-2\. Under “Navigation” category choose “Flow”.
+2. Under “Navigation” category choose “Flow.”
 
-![](https://lh6.googleusercontent.com/EBl_S4w4W4E1wQJuF80NAi5kOiQXTW8s_n9GZFD-mu4TT-biFiKXcNFLEZV8XsmQu2MYDAFgejabFv4fdKuUzHYpkBbpYIq2RpM1QPO3f3BgMzaDuMfWOESmMantH0TpqMcJVpwH =624x351)
+![](/img/behavior 11.png)
 
-3\. In order to add a new flow, open the Flow dropdown menu and select “Add new flow”.
+{:start="3"}
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
 
-![](https://lh4.googleusercontent.com/nwugAGCgXWWsFRzsMxjGengzwcogsy1mPzprTq47Utogm8dmhGF4M_bl_RsLGQS8MLdqzkTe-L2BEsixySkdw8BftuDL6KDfDWP_wqvJ2rznJ8a3Yn3NglXn_km2R2vdVVHkRDmy =624x235)
+![](/img/behavior 12.png)
 
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes)”, add your required parameters and click save.
+{:start="4"}
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
-![](https://lh5.googleusercontent.com/YnuJ3t-tp6cKwMx86WK7NWB2UwQDGDPuBOMnkuUnN2koDR6wr-uaXv1xI1ZYM8bVVZzVk4lsK0qKF6HBd1UQ1HVg3BnCGAETN_gVellATdWd7NqEPccuH7iYZW6mAqZbeSSisLtf =432x291)
+![](/img/behavior 13.png)  
 
-5\. After saving the flow, it will appear in the flows list. 
+{:start="5"}
+5. After saving the flow, it will appear in the flows list.
 
-6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
 
-![](https://lh6.googleusercontent.com/OQLdt14UW_uhYqicqyoqNOrAmcy9zh309Yyh64eHAFXBDQ4labGkp-CJO-XID87A3V8MSzfxSzdIz2nMReiIkzGMVgn7i63wea14HYkkQYJ_dBTxuuuonPtFjif9IexECriCdCOC =580x219)
+![](/img/behavior 14-1.png)
 
-7\. Click to save visitor behavior.
+{:start="7"}
+7. Click to save visitor behavior.
 
+{: .important} 
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
 
 ## Configuring engagements for visitor backflow
 
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
-Shopping Cart page > CheckOut page > Purchase Confirmation page
+'Shopping Cart page > CheckOut page > Purchase Confirmation page'
 
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
-Shopping Cart page > CheckOut page > Shopping Cart page
+'Shopping Cart page > CheckOut page > Shopping Cart page'
 
 To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
 
 To set up an Engagement for Visitor Back Flow:
 
-1\. Log in to LiveEngage as a Campaign Manager user or Admin user.
+1. Log in to LiveEngage as a Campaign Manager user or Admin user.
+2. Go to the Campaigns tab.
+3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
+4. Under the engagement that you want to configure, click Visitor Behavior.
 
-2\. Go to the Campaigns tab.
+![](/img/entry point 4.png)
 
-3\. Click the Campaign for which you would like to configure Visitor Backflow Behavior. 
+{:start="5"}
+1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+2. Click Flow.
 
-4\. Under the engagement that you want to configure, click Visitor Behavior.
+![](/img/behavior 16.gif)
 
-![back flow 1](https://lh5.googleusercontent.com/weoA2ppNp3E9UwWJ2kS9gnG5105j-9U8ugS6J0jzSLWpQW2z0fHJwEn60i0kvx6aagEjTnfox54YNqFKTimLmTnZSB29k5tTe9TTrAjiTZVPlXW1TNHFd-wF04qKbMiRUAsHOuHC =384x175)
+{:start="7"}
+1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
+2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
+3. Save the changes and publish the campaign.
 
-5\. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
-
-6\. Click Flow.
-
-![backflow 2](https://lh6.googleusercontent.com/FUG0pwP32GWGriKnnx8c55aI2QPEULE5lpIsJa05Hb7qCkfF4RcCpZH0fR8tCrwBPFspyI3S12JctixE5gastZFolWiqJcrOJ0znGV4DNXZ3bLIIU1L8e59tIB94eepsGIA1Rgf4 =425x291)
-
-7\. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
-
-8\. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
-
-9\. Save the changes and publish the campaign.
-
-**Note:**
-
-If you define a flow as follows:
-
-Page 1 > Page 2 > Page 3 > Page 4
-
+<div class="important"> 
+<b>Note:</b> 
+If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
+<br />
+<br />
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
-
-## 
+</div>
 
 ## Visitor Behavior Conditions
 
-Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not. 
+Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
-**Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.**
+{: .important}
+**Note:** Do not create a mobile app engagement assigned to an irrelevant visitor behavior, as this may be result in ineligible mobile engagements.
 
-| --- | --- |
 | Conditions | Relevant source |
+| --- | --- |
 | Flow | Web, Mobile |
 | Time on location (entry point) | Web |
 | Visited location (entry point) | Web, Mobile |
@@ -242,5 +238,3 @@ Some of the targeting conditions only support web engagements. You can refer to 
 | Visitor Error SDE | Web, Mobile |
 | Engaged in Session | Web, Mobile |
 | Service Activity SDE | Web, Mobile |
-
-##  
