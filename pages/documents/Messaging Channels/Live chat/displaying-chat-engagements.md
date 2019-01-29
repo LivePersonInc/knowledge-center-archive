@@ -83,15 +83,7 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </ul> 
 </div>
 
-
-
-
-**Notes**:
-
-* If the viewport meta tag does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
-* If the **viewport meta tag** exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.
-
-# Offsite engagements
+## Offsite engagements
 
 Offsite engagements offer brands the opportunity to expand their availability to consumers by providing chat from any location and through any media including:
 
@@ -107,38 +99,49 @@ When setting up an offsite engagement, you will create a URL that will refer you
 
 Offsite engagements are also helpful for brands wanting to use an IVR deflection solution, that will send chat invite links to voice callers. For more information, refer to our IVR Engagement API documentation for [chat](https://developers.liveperson.com/products-channels-ivr-deflection-solution-setting-up-ivr.html) and for [SMS](https://developers.liveperson.com/products-channels-sms-ivr.html).
 
-**Enhancing the consumer experience**
+### Enhancing the consumer experience
 
 Offsite engagements allow you to reduce the cost of your contact centers, and increase consumer satisfaction by deflecting calls to chat instead of letting consumers wait on hold. For example, to improve service and offer immediate support, you can add a QR code to the monthly bills you send out and consumers can scan this in order to chat with your agents.
 
 ![](/img/dis eng 2.png)
 
-**Boost sales and revenue**
+### Boost sales and revenue
 
 Offsite engagements allow you to increase sales and create new leads by engaging with consumers via a variety of touchpoints, such as digital advertising, emails and catalogues. For example, you’re promoting your climbing gear this week and you want to bring consumers to chat via your ad in the popular online climbing magazine, climb-extreme.cn. Your agents have been briefed to drive sales for the gear. The same goes for ads in all the locations that you are advertising. You can invite them to engage with your agents even if they’ve never visited your site.
 
-## 
-
-## How to create a new offsite engagement
+### How to create a new offsite engagement
 
 1. Create a Campaign and fill in the campaign details (name, target audience and timeframe).
 2. Click **Add engagement**. From the menu, **select** **“Offsite”** engagement source:
 
    ![](/img/dis eng 3.png)
+   
+{:start="3"}
 3. The engagement settings page will open.
 
 ![](/img/dis eng 4.png)
 
+{:start="4"}
 1. Select the Offsite Source; this is the source from which you want to engage with your consumer (e.g. email, social media).
 
 ![](/img/dis eng 5.png)
 
+{:start="5"}
 1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 ![](/img/dis eng 6.png)
 
-Notes:
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>This page should contain the LiveEngage tag with your account number.</li> <li>If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.</li> 
+</ul> 
+</div>
 
+
+
+
+Notes:
 * This page should contain the LiveEngage tag with your account number.
 * If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.
 
