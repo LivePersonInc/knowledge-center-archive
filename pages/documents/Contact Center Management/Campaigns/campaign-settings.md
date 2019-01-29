@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-campaign-settings.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 14:29:01 +0200
-published: false
 
 ---
 The campaign footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
