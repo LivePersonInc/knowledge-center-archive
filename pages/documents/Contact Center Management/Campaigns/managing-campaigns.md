@@ -107,7 +107,7 @@ Turning your campaigns on and off are simple.  When you finish creating your ca
 
 A campaign can be active and still not display to your consumers if the campaign is no longer within the time frame that you defined.
 
-## Running campaigns with multiple engagements
+## Engagement zones
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although the platform may not necessarily display all the engagements to the consumer. In such cases LivePerson uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration:
 
@@ -115,11 +115,9 @@ Consumers may be targeted by more than one engagement on the same page, at the s
 * Web engagement zones
 * Agent status
 
-### Engagement zones
-
 An engagement zone is a defined area on a web page where engagements can be displayed. Each type of engagement is mapped to a specific zone. Although, only one engagement can be displayed in a specific zone at any given time, multiple engagements can be displayed simultaneously in different zones. Every 10 seconds the platform checks whether there is an engagement to display, and whether the zone the engagement is mapped to is available (in other words, no other engagements are currently displayed in that zone).
 
-#### Left zone
+### Left zone
 
 **Engagement types:**
 
@@ -130,7 +128,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 ![](/img/mang camp 8-2.png)
 
-#### Right zone
+### Right zone
 
 **Engagement types:**
 
@@ -141,7 +139,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 #### ![](/img/mang camp 9-2.png)
 
-#### Proactive zone
+### Proactive zone
 
 **Proactive engagements:**
 
@@ -153,7 +151,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 ![](/img/mang camp 10-2.png)
 
-#### Embedded zone
+### Embedded zone
 
 **Engagement types:**
 
@@ -184,7 +182,7 @@ To provide a rich, yet non- intrusive engagement experience, LivePerson employs 
 * For proactive engagements you can configure an engagement to “follow” a consumer for a certain amount of time or for a specific number of pages, from the engagement settings page. Proactive engagements engagements are always prioritized for display ahead of other engagements mapped to the same zone.
 * If an online chat button is displayed and then 10 seconds later there are no longer any available agents, the button will **not** be replaced with an offline button.
 
-### Use Cases for Multiple Engagements
+## Use Cases for Multiple Engagements
 
 Using multiple engagements in a campaign helps you facilitate your consumers’ journeys and attain your business goals. Here are some examples of how multiple campaigns and engagements can be used:
 
