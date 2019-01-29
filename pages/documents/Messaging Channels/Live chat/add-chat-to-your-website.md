@@ -79,13 +79,13 @@ On this page, you can define the **conversation channel**, **authentication**, *
 
 ![](/img/Screen Shot 2019-01-29 at 3.49.30 PM-1.png)
 
-1. Conversation channel: Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
-2. Authentication: You can select one of two security methods for your conversation.
-	* **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add chat to pages within the logged in area of their website. To ensure your engagement will target authenticated chat conversations, enable the Authentication toggle.
-	* **Unauthenticated** For unauthenticated chat conversations, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
-3. Routing: Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
-4. Window presentation: Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
-5. Language: The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
+  1. **Conversation channel:** Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
+  2. Authentication: You can select one of two security methods for your conversation.
+      * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add chat to pages within the logged in area of their website. To ensure your engagement will target authenticated chat conversations, enable the Authentication toggle.
+          * **Unauthenticated** For unauthenticated chat conversations, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
+  3. Routing: Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
+  4. Window presentation: Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
+  5. Language: The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
 Once your settings are complete, click **next**.
 
