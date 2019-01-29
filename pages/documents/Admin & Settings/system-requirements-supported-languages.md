@@ -1,5 +1,5 @@
 ---
-pagename: System requirements & supported languages
+pagename: System requirements
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
@@ -10,6 +10,7 @@ permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:20:27 +0000
+published: false
 
 ---
 For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
@@ -224,7 +225,7 @@ While these browsers do support LiveEngage they do not support, and will not sup
 
 ## Bandwidth requirements
 
-## LivePerson workspace
+### LivePerson workspace
 
 * Initial download speed: approximately 6MB GZIPPED for complete agent workspace download (includes scripts, html, CSS and images).
 * Average rate per CCP per second: 10-15KB for data.
@@ -243,7 +244,7 @@ While these browsers do support LiveEngage they do not support, and will not sup
 {: .notice}
 The real-time experience is affected by several applications competing for upstream bandwidth on the consumer’s system._
 
-# Citrix requirements
+## Citrix requirements
 
 LivePerson recommends hosting up to 30 users per server, with the following specifications:
 
@@ -251,103 +252,3 @@ LivePerson recommends hosting up to 30 users per server, with the following spec
 * Memory: 16 GB RAM
 * Xenapp Server 6.5 and above
 * Operating system: Windows Server 2008 R2
-
-## Language support
-
-### Languages supported on the visitor side
-
-The embedded engagement window and email transcripts sent to consumers support over 40 languages and dialects:
-
-* Arabic
-* Bulgarian
-* Chinese (Simplified)
-* Chinese (Traditional Hong Kong)
-* Chinese (Traditional Taiwan)
-* Croatian
-* Czech
-* Danish
-* Dutch
-* English (US)
-* English (UK)
-* Estonian
-* Finnish
-* French
-* French-Canadian
-* German
-* Greek
-* Hebrew
-* Hindi
-* Hungarian
-* Indonesian
-* Italian 
-* Japanese
-* Korean
-* Latin American Spanish
-* Latvian
-* Lithuanian
-* Macedonian
-* Malaysian
-* Norwegian
-* Polish
-* Portuguese (Brazil)
-* Portuguese (Portugal)
-* Romanian
-* Russian
-* Serbian
-* Slovak
-* Slovenian
-* Spanish
-* Swedish
-* Thai
-* Turkish
-* Ukrainian
-* Vietnamese
-
-### Languages supported in the LivePerson workspace
-
-The agent workspace supports the following 13 languages:
-
-* English (US)
-* Chinese (Simplified)
-* Danish
-* Finnish
-* French
-* German
-* Italian
-* Japanese
-* Korean
-* Portuguese (Brazil)
-* Romanian 
-* Spanish
-* Turkish
-
-### Languages supported in CoBrowse
-
-CoBrowse supports the following 13 languages in the Agent Workspace and on the visitor side:
-
-* English (US)
-* Chinese (Simplified)
-* Chinese (Traditional)
-* Danish
-* Finnish
-* French
-* German
-* Italian
-* Japanese
-* Korean
-* Portuguese
-* Spanish
-* Turkish
-
-### Languages supported in Report Builder
-
-The Report Builder supports the English language only.
-
-## New device certification process
-
-LivePerson examines new devices and operating systems on a case by case basis, and adds them to our certifications process. The certification cycle of a new device or operating system LOE is approximately two business weeks. Every new device or operating system which enters the certification process removes another device or operating system from the certification list.
-
-Requests by customers for certification of a new device or operating system will be examined by LivePerson’s Product House. If a device or operating system is not in our roadmap, a request should be made to LivePerson using the ER (enhancement request) process. Please contact your account manager for more details.
-
-{: .notice}  
-LivePerson will neither support nor certify any device or operating system that is not currently available in the market or planned to be available within the following 6 months. For up-to-date information on which OS-Device combinations are currently available in the market, refer to [GSMArena.com](http://www.gsmarena.com/).
