@@ -18,7 +18,8 @@ Campaigns for chat allow brands to easily create and manage digital engagements,
 
 ## Before you begin
 
-1. Planning & thought starters (completed by contact center manager, project manager or program manager) 
+1. Planning & thought starters 
+(completed by contact center manager, project manager or program manager) 
 Answering these questions will help you prepare and streamline your campaign creation process:
 
 	1. Do you want one chat button available on all pages of your website?
