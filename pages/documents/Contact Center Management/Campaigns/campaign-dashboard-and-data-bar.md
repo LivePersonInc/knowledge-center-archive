@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-campaign-dashboard-and-data-bar.h
 isTutorial: false
 isNew: false
 date: 2019-01-29 14:42:12 +0200
-published: false
 
 ---
 ## The campaign-level data bar
