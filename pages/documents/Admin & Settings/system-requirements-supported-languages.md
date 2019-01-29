@@ -10,7 +10,6 @@ permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:20:27 +0000
-published: false
 
 ---
 For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
@@ -252,3 +251,12 @@ LivePerson recommends hosting up to 30 users per server, with the following spec
 * Memory: 16 GB RAM
 * Xenapp Server 6.5 and above
 * Operating system: Windows Server 2008 R2
+
+## New device certification process
+
+LivePerson examines new devices and operating systems on a case by case basis, and adds them to our certifications process. The certification cycle of a new device or operating system LOE is approximately two business weeks. Every new device or operating system which enters the certification process removes another device or operating system from the certification list.
+
+Requests by customers for certification of a new device or operating system will be examined by LivePerson’s Product House. If a device or operating system is not in our roadmap, a request should be made to LivePerson using the ER (enhancement request) process. Please contact your account manager for more details.
+
+{: .notice}  
+LivePerson will neither support nor certify any device or operating system that is not currently available in the market or planned to be available within the following 6 months. For up-to-date information on which OS-Device combinations are currently available in the market, refer to [GSMArena.com](http://www.gsmarena.com/).
