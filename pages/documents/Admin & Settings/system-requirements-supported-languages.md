@@ -9,16 +9,15 @@ level3: ''
 permalink: admin-settings-system-requirements-supported-languages.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 15:20:27 +0200
+date: 2019-01-28 13:20:27 +0000
+published: false
 
 ---
-## General guidelines
-
 For the best LiveEngage experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
 
-**_Notes:_**
+**Notes:**
 
 1. We fully support only the generally available (GA) browser versions.
 2. To benefit from the full functionality of LivePerson, cookies must be enabled.
@@ -29,8 +28,8 @@ We have two primary levels of support for the items listed in the tables below:
 
 **Supported:** Items highlighted in blue meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
 
-{: .notice}_  
-_We recommend using certified systems for the best possible experience while using LiveEngage.
+{: .notice}  
+We recommend using certified systems for the best possible experience while using LiveEngage.
 
 ## Visitor side: mobile web requirements
 
@@ -133,9 +132,9 @@ See [Appendix](https://docs.google.com/document/d/1kG0GW02WNXEhcM2J-5lnYPvqmbqb6
 | Xperia X | - | - | Certified | Supported | - |  |
 | Xiaomi | Mi6 | - | - | - | - | Certified |
 
-{: .notice}_  
+{: .notice}  
 Operating systems prior to v4.4.x (KitKat) are not supported.  
-_{: .notice}_  
+{: .notice}  
 \* Galaxy s9 - Photo sharing functionality is limited on the device. Only photos which were not taken by the device can be shared_
 
 ### Android – tablets
@@ -260,85 +259,85 @@ LivePerson recommends hosting up to 30 users per server, with the following spec
 
 The embedded engagement window and email transcripts sent to consumers support over 40 languages and dialects:
 
- 1.  Arabic  
- 2. Bulgarian 
- 3. Chinese (Simplified)  
- 4. Chinese (Traditional Hong Kong) 
- 5. Chinese (Traditional Taiwan) 
- 6. Croatian 
- 7.  Czech 
- 8. Danish 
- 9.  Dutch 
-10.  English (US) 
-11. English (UK) 
-12.  Estonian 
-13. Finnish 
-14. French
-15.  French-Canadian 
-16. German 
-17. Greek 
-18. Hebrew 
-19.  Hindi 
-20. Hungarian 
-21. Indonesian 
-22. Italian |
-23. Japanese 
-24.  Korean 
-25. Latin American Spanish 
-26. Latvian 
-27. Lithuanian 
-28. Macedonian 
-29. Malaysian 
-30. Norwegian 
-31. Polish 
-32. Portuguese (Brazil) 
-33. Portuguese (Portugal) 
-34.  Romanian 
-35. Russian 
-36.  Serbian 
-37.  Slovak 
-38.  Slovenian 
-39. Spanish 
-40.  Swedish 
-41. Thai 
-42.  Turkish 
-43.  Ukrainian 
-44.  Vietnamese 
+* Arabic
+* Bulgarian
+* Chinese (Simplified)
+* Chinese (Traditional Hong Kong)
+* Chinese (Traditional Taiwan)
+* Croatian
+* Czech
+* Danish
+* Dutch
+* English (US)
+* English (UK)
+* Estonian
+* Finnish
+* French
+* French-Canadian
+* German
+* Greek
+* Hebrew
+* Hindi
+* Hungarian
+* Indonesian
+* Italian |
+* Japanese
+* Korean
+* Latin American Spanish
+* Latvian
+* Lithuanian
+* Macedonian
+* Malaysian
+* Norwegian
+* Polish
+* Portuguese (Brazil)
+* Portuguese (Portugal)
+* Romanian
+* Russian
+* Serbian
+* Slovak
+* Slovenian
+* Spanish
+* Swedish
+* Thai
+* Turkish
+* Ukrainian
+* Vietnamese
 
 ### Languages supported in the LivePerson workspace
 
 The agent workspace supports the following 13 languages:
 
-* English (US) 
-* Chinese (Simplified) 
-* Danish 
-* Finnish 
-* French 
-* German 
-* Italian 
-* Japanese 
-* Korean 
-* Portuguese (Brazil) 
+* English (US)
+* Chinese (Simplified)
+* Danish
+* Finnish
+* French
+* German
+* Italian
+* Japanese
+* Korean
+* Portuguese (Brazil)
 * Romanian |
-* Spanish 
-* Turkish 
+* Spanish
+* Turkish
 
 ### Languages supported in CoBrowse
 
 CoBrowse supports the following 13 languages in the Agent Workspace and on the visitor side:
 
-* English (US) 
-* Chinese (Simplified) 
-* Chinese (Traditional) 
-* Danish 
-* Finnish 
-* French 
-* German 
-* Italian 
-* Japanese 
-* Korean 
-* Portuguese 
-* Spanish 
+* English (US)
+* Chinese (Simplified)
+* Chinese (Traditional)
+* Danish
+* Finnish
+* French
+* German
+* Italian
+* Japanese
+* Korean
+* Portuguese
+* Spanish
 * Turkish
 
 ### Languages supported in Report Builder
