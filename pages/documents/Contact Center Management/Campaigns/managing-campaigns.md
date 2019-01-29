@@ -85,17 +85,17 @@ This table provides a summary of the conditions and outcomes of each of the thre
    ![](/img/mang camp 3-2.png)	
 
 {:start="2"}
-2\. Busy state enabled
+2. Busy state enabled
 
 ![](https://lh4.googleusercontent.com/MSBgUlQ3TdCg36RrFY7RxiaHaa-Vq6AzbZlvnub3JxdzdvrKkyWl3K90TFQnw1LzbPvhmexkKMshot6vuRkCZMVONBAa7kIhk-6siYc_oebEG3mygSRHqQfrieQxRRFgMfKfzPuW =328x190)
 
 {:start="3"}
-3\. Busy state disabled, ignore max wait time enabled
+3. Busy state disabled, ignore max wait time enabled
 
 ![](https://lh3.googleusercontent.com/mh0GOTIao1D58JJaDF1F-XlA1x57EvCUXAWucu5EwlC5UV2b1Otoxk5epoZZT9hRgWdvrqSoD-m214bicRH8vxHuXPXysXufZdQGKry822_FEyc5zDiAvvyXU8xiviw4XAxBxG4I =333x197)
 
 {:start="4"}
-4\. Busy state enabled, ignore max wait time enabled
+4. Busy state enabled, ignore max wait time enabled
 
 ![](https://lh6.googleusercontent.com/mk7j1BM8G2toW1bkQNX10ugyfZkX7I9GUzX1tHuLpKBTFMo8QYezGdMNLkmzLeE1k5XlTG_TwJ6OeDrta6a2pxwcng4Od_RRKkik6nZ-PdnjzIyAeFMX2D_zZxsyHopIKrxON0h0 =333x195)
 
@@ -157,9 +157,10 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 * Embedded buttons (created with <div> tags)
 
-You can display an unlimited number of embedded buttons on a page, as **Note:** long as each <div> tag has a unique ID.  
+**Note:** You can display an unlimited number of embedded buttons on a page, as  long as each <div> tag has a unique ID.  
 ![](/img/mang camp 11-2.png)
 
+{: .notice}
 **Note:** Engagements from different zones can be simultaneously displayed. Therefore you need to make sure that engagements do not overlap or hide one another. For example, you can have an overlay banner on the left side of the page (proactive zone) that hides a sticky banner that is also configured on the left side of the page (Left Zone).
 
 ### Agent status
