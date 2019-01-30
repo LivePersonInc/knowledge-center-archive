@@ -135,7 +135,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 ![](/img/dis eng 6.png)
 
 `<meta name="viewport" content="width=device-width,
-initial-scale=1.0,
+<br /> initial-scale=1.0,
 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="notice">
