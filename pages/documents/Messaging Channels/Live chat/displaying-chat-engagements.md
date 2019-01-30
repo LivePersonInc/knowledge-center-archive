@@ -118,7 +118,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
    ![](/img/dis eng 3.png)
 
 {:start="3"}
-3\. The engagement settings page will open.
+3. The engagement settings page will open.
 
 ![](/img/dis eng 4.png)
 
@@ -213,4 +213,3 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 <li>The selection of the offline survey or the landing page is configured at the account level and applies to all campaigns.</li> <li>When your offsite engagement is disabled, it will affect your consumers’ experience. To ensure their experience is always a positive one, even when they click on a disabled engagement, you can redirect them to a page with your contact details, or with information about your online chat hours.</li> <li>When you delete a campaign, the data collected will also be deleted and you will not see it in your reports.</li> 
 </ul> 
 </div>
-
