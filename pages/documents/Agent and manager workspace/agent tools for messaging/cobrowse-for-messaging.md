@@ -80,6 +80,7 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 
 ![](/img/cb messaging 4.png)
 
+{:start="4"}
 1. Set the required CoBrowse configuration and click **Save**. When agents click the CoBrowse button within the message, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ## FAQ
