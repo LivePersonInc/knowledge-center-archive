@@ -159,10 +159,11 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 
 Once you’ve finished creating your engagement, follow these steps to publish it:
 
-1. From the Campaign page, copy the Engagement URL.
+1. From the Campaign page, copy the engagement URL.
 
 ![](/img/dis eng 8.png)
 
+{:start="2"}
 1. Choose how and where you want to publish the URL. You can:
    * Create a shortened URL and publish the link. You can use a website such as [https://bitly.com](https://bitly.com "https://bitly.com") [t](https://bitly.com/)o[ ](https://bitly.com/)s[h](https://bitly.com/)o[r](https://bitly.com/)t[e](https://bitly.com/)n[ ](https://bitly.com/)t[h](https://bitly.com/)e[ ](https://bitly.com/)l[i](https://bitly.com/)n[k](https://bitly.com/)s[.](https://bitly.com/)
    * Create a QR code. Use one of the QR code generator services such as [qrcode-monkey.](http://www.qrcode-monkey.com/)
