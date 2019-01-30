@@ -9,14 +9,15 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messag
 isTutorial: false
 isNew: false
 date: 2019-01-30 16:28:09 +0200
+published: false
 
 ---
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. 
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
 
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors. To focus the visitor, the agent can animate elements on the visitor screen by:
 
 * Double clicking on the element will display a yellow circle around the cursor.
-* Ctrl + Left mouse - will animate the element with a wiggle effect.
+* Ctrl + left mouse - will animate the element with a wiggle effect.
 
 ## Why use CoBrowse?
 
@@ -34,52 +35,50 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * Learning how to set up an account or use online self-service options
 * Following a guided shopping experience which provides store-like assistance online
 
-## Security and Privacy 
+## Security and Privacy
 
 CoBrowse was designed with strict security controls to protect the privacy of both visitors and agents. The following controls can be implemented as part of the solution:
-
- 
 
 * CoBrowse solely builds on standard applications protocols such as HTTP, HTTPS and JavaScript.
 * The agent cannot access the visitor’s local system, or web applications opened in other browser tabs or windows.
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
-* Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy. 
+* Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy.
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
 
-## Configuration 
+## Configuration
 
-**To configure CoBrowse through Night Vision:** 
+**To configure CoBrowse through Night Vision:**
 
-1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon. 
+1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
 
-![](https://lh3.googleusercontent.com/kIZAds5WxRvMk5fHajHv3Fn7JpikDKJ0Xlp9Vbgm61qJXb496YN0Z_kekdnsWNO0nSGfVlTdQGrcz3iUvZUzCkmy78CNxEknmbVrob_tmJXybGEwMWJKd5o-Hst3C00bZXFunBna =430x85)
+![](/img/cb messaging 1.png)
 
-![](https://lh5.googleusercontent.com/1tsnW2urTnrSXrV1DZt4lIa-XAGCFQPDY7M3kXPgc_FNWSrZhuR3xw4bF0UyRHTh9oLQAzRs38F9H6E3KyKSEhdMFrpELyjGu7FMhPFYwCyNROiNeECFBdHRh_pIWPlRYt03V30t =432x311)
+![](/img/cb messaging 2.png)
 
-2. Click Agent Workspace Configuration. 
+1. Click Agent Workspace Configuration.
 
-![](https://lh4.googleusercontent.com/B25zpdp47vBO0bVI7gGjkKv6EcM4RFkxlJjMo1sXBB_VB0zGX0x8yY1mrqMYQngMK0kxmynTpaAkkA3uiouD-YbPXEGBYc-_ZutlzJvWXrnGxeCX63tqCuQnvRJ8tQF8_aA1z4_Q =409x295)
+![](/img/cb messaging 3.png)
 
-3. Click Edit next to the CoBrowse configuration. 
+1. Click Edit next to the CoBrowse configuration.
 
-* **Enable CoBrowse for all agents:** agents can control whether they initiate CoBrowse sessions with the visitors. 
-* **Define the level of control your agents can have over CoBrowse:** configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors. 
+* **Enable CoBrowse for all agents:** agents can control whether they initiate CoBrowse sessions with the visitors.
+* **Define the level of control your agents can have over CoBrowse:** configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
 ### The following CoBrowse elements can also be configured:
 
 * **Border color:** customize the color of the CoBrowse window border shown on the visitor side.
-* **Highlight color:** customize the color of the highlight effect that appears after a mouse click. 
+* **Highlight color:** customize the color of the highlight effect that appears after a mouse click.
 * **Match visitor's viewport:** when active, the agent's viewport will be resized to the size of the visitor's browser window. This is useful for responsive websites.
-* **Field Masking:** In order to protect sensitive data that may be visible to the agent during a CoBrowse session, it is possible to mask certain input fields. To do so, add CSS Selectors to specific form fields on your website that may contain such data and should not be synchronised to the agent’s view.
+* **Field Masking:** In order to protect sensitive data that may be visible to the agent during a CoBrowse session, it is possible to mask certain input fields. To do so, add CSS Selectors to specific form fields on your website that may contain such data and should not be synchronized to the agent’s view.
   * Example for IDs: #cc_number => do not synchronize content of the element with id='cc_number'.
   * Example for class names: .secret => do not synchronize content of elements with class='secret'.
   * Example for more complex selectors: input\[name=\\'secure\\'\] => do not synchronize content of input elements with name='secure'.
 
 **Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](https://lh6.googleusercontent.com/eSZodUBe88RHD6Wbvg80vdFS_P5GfJG534K6KTJaGM7PY_O4kTBJufl8bwRMaZ4fZA3QyGwJJBtoZMOgjBo9zc_Gv-4fOde_qxhRotLO7CsSlG1LzGJJZY8V81cmSCoM_XmeX4DI =418x462)
+![](/img/cb messaging 4.png)
 
-4. Set the required CoBrowse configuration and click **Save**. When agents click the CoBrowse button within the message, they will now see the relevant CoBrowse options based on the configurations you have made. 
+1. Set the required CoBrowse configuration and click **Save**. When agents click the CoBrowse button within the message, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ## FAQ
 
@@ -111,4 +110,4 @@ Password form fields are automatically blocked from transmitting data into the C
 
 **5. Is it possible to have a CoBrowse session on untagged web pages and external domains?**
 
-CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data. 	
+CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
