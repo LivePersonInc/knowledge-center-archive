@@ -55,12 +55,13 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 
 ![](/img/cb messaging 2.png)
 
+{:start="2"}
 1. Click Agent Workspace Configuration.
 
 ![](/img/cb messaging 3.png)
 
+{:start="3"}
 1. Click Edit next to the CoBrowse configuration.
-
 * **Enable CoBrowse for all agents:** agents can control whether they initiate CoBrowse sessions with the visitors.
 * **Define the level of control your agents can have over CoBrowse:** configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
@@ -92,8 +93,8 @@ Agents have the option to choose between "shared” mode and "view only" mode. "
 
 Table 1: CoBrowse features and permissions
 
-| --- | --- | --- | --- |
 | Feature | Description | Available in “shared” mode? | Available in “view only” mode? |
+| --- | --- | --- | --- |
 | Co-Scrolling | The visitor and the agent see the same parts of a web page. | Yes | Yes |
 | Co-Highlighting on Page | The visitor and the agent see each other’s virtual mouse pointer and can highlight elements of a web page. | Yes | Yes |
 | Co-Highlighting on Text Elements | The visitor and the agent can highlight text elements. | Yes | Yes |
