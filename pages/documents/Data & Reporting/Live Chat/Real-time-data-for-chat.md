@@ -1,19 +1,20 @@
 ---
-pagename: 'Agent manager real time data '
+pagename: Real time data for chat
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Live chat
 indicator: chat
 subtitle: Agent managers can analyze real time data of agent activity
 level3: ''
-permalink: data-reporting-live-chat-agent-manager-real-time-data.html
+permalink: data-reporting-live-chat-real-time-data-for-chat.html
 isTutorial: false
 date: 2019-01-15 08:38:14 +0000
+published: false
 
 ---
 As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.  
 The data bar default view presents aggregated data from all skills (queues) on the account for the last 12 hours.
 
-## **Agent real time data bar**
+## Agent real time data bar
 
 The agent data bar enables agents to monitor their own performance data in real time. The agent data bar is displayed above the web visitors list.
 
@@ -27,7 +28,7 @@ The data bar displays the following metrics:
 
 Engagements represents the number of chats you’ve taken during your current shift. The system counts the chat once you close the Engagement window.
 
- **Average engagement length**
+**Average engagement length**
 
 The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue. ![](https://lh3.googleusercontent.com/h_L550531uwijhNzlI47Tp77-QwFQT25O-qYjEUci6kvVofY-zYjprKUlZ2anlsHi_DMlty-8v_1OSeFrtWv6spzx8NQssf3BVrMKVj1e2Z3x7pYzrXxz0lat4jaJVp3-Z2E3vWc =398x32)
 
@@ -43,7 +44,7 @@ For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you
 
 **Utilized Capacity**
 
-Utilized Capacity is calculated as follows:  
+Utilized Capacity is calculated as follows:
 
 ![](https://lh3.googleusercontent.com/VFgRWOXdxWgHAeyRM4CX_-UvG28oMQ_pU54XrT8EZh4TcwbmGMaERnpeNWkFaPV0oEgnDWyUL_ZJPBR0oufZ9P4TcdVkoBMZLJCn5qzXxLT1jbS-Izz1w0wX5i2TNxGkaFZYDK9x =427x31)
 
@@ -70,7 +71,7 @@ The queue health data bar provides a snapshot of the basic information required 
 
 The data bar default view presents aggregated data from all skills (queues) on the account for the last 12 hours.
 
-### **Metrics**
+### Metrics
 
 **CONNECTED:** displays the number of connected chats between visitors and agents whether or not they interacted.
 
