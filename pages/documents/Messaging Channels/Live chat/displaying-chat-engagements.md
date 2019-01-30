@@ -73,9 +73,11 @@ To optimize your web experience, tag of all your web pages:
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0,
-minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+`<meta name="viewport" content="width=device-width,`
+<br />
+`initial-scale=1.0,`
+<br />
+`minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="important">
 <b>Note:</b>
@@ -131,12 +133,6 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 ![](/img/dis eng 6.png)
-
-`<meta name="viewport" content="width=device-width,`
-<br />
-`initial-scale=1.0,`
-<br />
-`minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="notice">
 <b>Note:</b>
