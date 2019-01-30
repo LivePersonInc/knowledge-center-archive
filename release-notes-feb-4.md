@@ -9,7 +9,6 @@ permalink: Release-notes-week-of-Feb-4
 isTutorial: false
 isNew: false
 date: 2019-01-30 15:50:50 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
