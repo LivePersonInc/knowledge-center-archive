@@ -85,12 +85,10 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 
 ## FAQ
 
-**1. How is CoBrowse different to desktop sharing?**
-
+### 1. How is CoBrowse different to desktop sharing?
 CoBrowse differs from desktop sharing in that it is more secure, requires no installation, and is non-intrusive. The agent does not take control of the visitor’s desktop, nor do they have access to the visitor’s local files and applications. This minimizes the risk of agents unknowingly sharing sensitive information. In contrast to desktop sharing, CoBrowse offers a next-generation co-browsing experience with zero setup time.
 
-**2. What is the difference between “shared” mode and “view only” mode?**
-
+### 2. What is the difference between “shared” mode and “view only” mode?
 Agents have the option to choose between "shared” mode and "view only" mode. "Shared" mode provides a full, two-way interactive experience, whereas "view only" mode offers a higher level of privacy for consumers. The table below illustrates the CoBrowse features, along with which CoBrowse features are available in each mode.
 
 Table 1: CoBrowse features and permissions
@@ -103,14 +101,11 @@ Table 1: CoBrowse features and permissions
 | Co-Navigation | The visitor and the agent browse on the same web pages together. | Yes | No |
 | Co-Form filling | The visitor and the agent fill out forms together. | Yes | No |
 
-**3. Is CoBrowse compatible with corporate firewalls etc.?**
-
+### 3. Is CoBrowse compatible with corporate firewalls etc.?
 Yes, CoBrowse is generally compatible with corporate firewalls. It only uses standard web protocols that are deployed and used in typical web applications.
 
-**4. Which options are available to secure form input (e.g. password)?**
-
+### 4. Which options are available to secure form input (e.g. password)?
 Password form fields are automatically blocked from transmitting data into the CoBrowse session of other participants. Other fields have to be identified by using a proprietary HTML attribute or by manually managing a blacklist on a server (e.g., using CSS selectors).
 
-**5. Is it possible to have a CoBrowse session on untagged web pages and external domains?**
-
+### 5. Is it possible to have a CoBrowse session on untagged web pages and external domains?
 CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
