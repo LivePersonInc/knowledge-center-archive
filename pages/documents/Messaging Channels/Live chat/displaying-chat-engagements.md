@@ -123,19 +123,17 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 ![](/img/dis eng 4.png)
 
 {:start="4"}
-
 1. Select the Offsite Source; this is the source from which you want to engage with your consumer (e.g. email, social media).
 
 ![](/img/dis eng 5.png)
 
 {:start="5"}
-
 1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 ![](/img/dis eng 6.png)
 
 `<meta name="viewport" content="width=device-width,
-<br /> initial-scale=1.0,
+<br/> initial-scale=1.0,
 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="notice">
