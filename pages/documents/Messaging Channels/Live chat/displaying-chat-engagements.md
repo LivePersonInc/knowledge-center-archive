@@ -138,12 +138,11 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 <div class="notice">
 <b>Note:</b>
 <ul>
-<li>This page should contain the LiveEngage tag with your account number.</li> <li>If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.</li>
+<li>This page should contain the LiveEngage tag with your account number.</li> <li>If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.</li> <li>If the page is reloaded or redirects to another page before the chat window has opened, the URL parameters must be passed to the new page. This will ensure the window opens as expected on the new page.</li>
 </ul>
 </div>
 
-If the page is reloaded or redirects to another page before the chat window has opened, the URL parameters must be passed to the new page. This will ensure the window opens as expected on the new page.
-
+{:start="6"}
 1. Select the skill the engagement should be routed to. To route to all skills, select ‘All skills’ (selected as default); to select a specific skill, select the ‘Specific skill’ option and choose from the dropdown menu.
 2. Add an agent note if you wish. This is a note regarding the engagement which will be visible to all agents. For example “As part of our summer sale, consumers arriving from this engagement can be given an extra 5% discount”.
 3. Select the Engagement Language.
