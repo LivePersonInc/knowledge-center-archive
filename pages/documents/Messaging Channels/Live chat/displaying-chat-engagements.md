@@ -145,7 +145,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 {:start="6"}
 1. Select the skill the engagement should be routed to. To route to all skills, select ‘All skills’ (selected as default); to select a specific skill, select the ‘Specific skill’ option and choose from the dropdown menu.
 2. Add an agent note if you wish. This is a note regarding the engagement which will be visible to all agents. For example “As part of our summer sale, consumers arriving from this engagement can be given an extra 5% discount."
-3. Select the Engagement Language.
+3. Select the engagement language.
 4. To set the engagement to display as ‘available’ when at least one agent is online, regardless of the duration of the wait time, you can select the ‘Ignore max wait time’ checkbox at the bottom of the page
 5. Click **next.**
 6. The Engagement Window library will open. For guidance on customizing an engagement window, refer to the ‘[Engagement Window Studio](https://ce-sr.s3.amazonaws.com/CA/Campaign%20Manager/Engagement%20window%20design/Engagement%20Window%20Studio.pdf)’ documentation.
