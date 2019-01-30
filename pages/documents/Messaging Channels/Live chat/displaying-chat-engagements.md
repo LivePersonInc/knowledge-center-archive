@@ -197,7 +197,7 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 
 ## How to set up inactive engagement behavior
 
-1. From the Campaigns page footnote, click **Inactive Engagements**.
+1. From the Campaigns page footnote, click **inactive engagements**.
 
 ![](/img/dis eng 10.png)
 
