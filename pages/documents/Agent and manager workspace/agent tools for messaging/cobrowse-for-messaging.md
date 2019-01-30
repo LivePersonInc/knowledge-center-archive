@@ -9,7 +9,6 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messag
 isTutorial: false
 isNew: false
 date: 2019-01-30 16:28:09 +0200
-published: false
 
 ---
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
