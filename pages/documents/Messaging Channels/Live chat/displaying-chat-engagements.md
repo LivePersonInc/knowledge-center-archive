@@ -9,6 +9,7 @@ permalink: messaging-channels-live-chat-displaying-chat-engagements
 isTutorial: false
 isNew: false
 date: 2019-01-29 17:20:57 +0200
+published: false
 
 ---
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
@@ -19,7 +20,7 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
-To learn more about setting up your control groups, click here.
+To learn more about setting up your control groups, [click here]().
 
 ### 2. Button refresh
 
@@ -27,19 +28,19 @@ There are three states for a chat engagement: Online, Busy and Offline. Each sta
 
 When consumers are browsing between several windows, pages can remain static for long periods of time without being refreshed. This can affect the state of your engagements.
 
-With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. Read more about button refresh here.
+With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. Read more about button refresh [here]().
 
 ### 3. Multiple engagements on the same page
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**.
 
-To learn more about running campaigns with multiple engagements, click here. 
+To learn more about running campaigns with multiple engagements, [click here]().
 
 ### 4. Busy State
 
 LiveEngage offers a variety of creative engagements to communicate to consumers when no agents are online (during off-hours) and during busy times when they have no capacity and long wait times are expected. In this way, consumer expectations are managed and potential frustration is avoided. The busy state indicates that at least one agent is online but with no capacity to handle consumers as the expected wait time is longer than the maximum wait time for the skill.
 
-Click here to learn more about the busy state and how it is configured.
+[Click here]() to learn more about the busy state and how it is configured.
 
 ### 5. Proactive engagement behavior
 
@@ -68,6 +69,7 @@ To learn more about creating and configuring offsite engagements, [click here](h
 To enhance your visitors’ chat experience on mobile, use the Embedded Engagement window and optimize your website for mobile.
 
 To optimize your web experience, tag of all your web pages:
+
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
@@ -75,11 +77,11 @@ To optimize your web experience, tag of all your web pages:
 initial-scale=1.0,
 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-<div class="important"> 
-<b>Note:</b> 
-<ul> 
-<li>If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li> 
-</ul> 
+<div class="important">
+<b>Note:</b>
+<ul>
+<li>If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
+</ul>
 </div>
 
 ## Offsite engagements
@@ -114,35 +116,30 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 2. Click **Add engagement**. From the menu, **select** **“Offsite”** engagement source:
 
    ![](/img/dis eng 3.png)
-   
+
 {:start="3"}
-3. The engagement settings page will open.
+3\. The engagement settings page will open.
 
 ![](/img/dis eng 4.png)
 
 {:start="4"}
+
 1. Select the Offsite Source; this is the source from which you want to engage with your consumer (e.g. email, social media).
 
 ![](/img/dis eng 5.png)
 
 {:start="5"}
+
 1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 ![](/img/dis eng 6.png)
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
-<li>This page should contain the LiveEngage tag with your account number.</li> <li>If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.</li> 
-</ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
+<li>This page should contain the LiveEngage tag with your account number.</li> <li>If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.</li>
+</ul>
 </div>
-
-
-
-
-Notes:
-* This page should contain the LiveEngage tag with your account number.
-* If a page is intended to be viewed via a mobile device, it should be mobile optimized. If not, the consumer will be redirected to an empty page with chat.
 
 If the page is reloaded or redirects to another page before the chat window has opened, the URL parameters must be passed to the new page. This will ensure the window opens as expected on the new page.
 
@@ -207,10 +204,13 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 
 ![](/img/dis eng 11.png)
 
+{:start="2"}
 1. Save your selection.
 
-Notes:
+<div class="important"> 
+<b>Note:</b> 
+<ul> 
+<li>The selection of the offline survey or the landing page is configured at the account level and applies to all campaigns.</li> <li>When your offsite engagement is disabled, it will affect your consumers’ experience. To ensure their experience is always a positive one, even when they click on a disabled engagement, you can redirect them to a page with your contact details, or with information about your online chat hours.</li> <li>When you delete a campaign, the data collected will also be deleted and you will not see it in your reports.</li> 
+</ul> 
+</div>
 
-* The selection of the offline survey or the landing page is configured at the account level and applies to all campaigns.
-* When your offsite engagement is disabled, it will affect your consumers’ experience. To ensure their experience is always a positive one, even when they click on a disabled engagement, you can redirect them to a page with your contact details, or with information about your online chat hours.
-* When you delete a campaign, the data collected will also be deleted and you will not see it in your reports.
