@@ -274,6 +274,11 @@
 - categoryname: Release notes
   image: release-notes
   subcategories:
+    - subcategoryname: 2019
+      pages:
+        - pagename: January
+          level3:
+            - level3name: Week of January 7th 2019
     - subcategoryname: 2018
       pages:
         - pagename: December

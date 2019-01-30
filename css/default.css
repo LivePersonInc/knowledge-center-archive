@@ -47,6 +47,14 @@ p {
   max-width: initial;
 }
 
+#post-content table td {
+  border-right: 1px solid #dedddd;
+}
+
+#post-content table td:last-child {
+  border-right: 0;
+}
+
 #post-content table td:first-child {
   width:unset;
   /*max-width: 150px;*/
@@ -55,6 +63,10 @@ p {
 
 #post-content table tbody tr:only-child {
   background-color: #f8f8f8;
+}
+
+#post-content table tr:nth-child(even) {
+  background-color: #F8F8F8;
 }
 
 #post-content table tr td {
@@ -76,7 +88,14 @@ p {
   font-size: 14px;
   padding: 14px 22px;
   background-color: #2A3A6B;
+  border-right: 1px solid #dedddd;
 }
+
+#post-content table > thead > tr > th:last-child {
+  border-right: 0;
+}
+
+
 
 p img {
   width: 650px;
@@ -137,7 +156,7 @@ h3 {
 
   #defaultwrapper {
     display: grid;
-    grid-template-columns: 2fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
+    grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
     grid-template-rows: 120px 140px 92px 1fr 50px;
     height: auto;
     min-height: 100vh;
@@ -466,6 +485,7 @@ h3 {
   align-items: baseline;
   height: 78vh;
   overflow-y: auto;
+  padding-left: 70px;
 }
 
 .sidebarbuttoncontainer.canOpen {
@@ -504,6 +524,7 @@ h3 {
 
 .sidebarimage {
   margin-right: 10px;
+  width: 22px;
 }
 
 .subcategoryfolder {
