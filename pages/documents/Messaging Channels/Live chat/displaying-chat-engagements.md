@@ -121,16 +121,18 @@ Offsite engagements allow you to increase sales and create new leads by engaging
    ![](/img/dis eng 3.png)
 
 {:start="3"}
-3. The engagement settings page will open.
+3\. The engagement settings page will open.
 
 ![](/img/dis eng 4.png)
 
 {:start="4"}
+
 1. Select the Offsite Source; this is the source from which you want to engage with your consumer (e.g. email, social media).
 
 ![](/img/dis eng 5.png)
 
 {:start="5"}
+
 1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 ![](/img/dis eng 6.png)
@@ -143,6 +145,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 </div>
 
 {:start="6"}
+
 1. Select the skill the engagement should be routed to. To route to all skills, select ‘All skills’ (selected as default); to select a specific skill, select the ‘Specific skill’ option and choose from the dropdown menu.
 2. Add an agent note if you wish. This is a note regarding the engagement which will be visible to all agents. For example “As part of our summer sale, consumers arriving from this engagement can be given an extra 5% discount."
 3. Select the engagement language.
@@ -164,8 +167,9 @@ Once you’ve finished creating your engagement, follow these steps to publish i
 ![](/img/dis eng 8.png)
 
 {:start="2"}
+
 1. Choose how and where you want to publish the URL. You can:
-   * Create a shortened URL and publish the link. You can use a website such as [https://bitly.com](https://bitly.com "https://bitly.com") [t](https://bitly.com/)o[ ](https://bitly.com/)s[h](https://bitly.com/)o[r](https://bitly.com/)t[e](https://bitly.com/)n[ ](https://bitly.com/)t[h](https://bitly.com/)e[ ](https://bitly.com/)l[i](https://bitly.com/)n[k](https://bitly.com/)s[.](https://bitly.com/)
+   * Create a shortened URL and publish the link. You can use a website such as [https://bitly.com] shorten the links
    * Create a QR code. Use one of the QR code generator services such as [qrcode-monkey.](http://www.qrcode-monkey.com/)
 2. Enable your engagement and publish the campaign.
 3. Publish the link/QR code where you want to engage with your consumers.
@@ -202,16 +206,18 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 ![](/img/dis eng 10.png)
 
 {:start="2"}
+
 1. Choose a survey from your existing offline surveys or enter a URL to which consumers will be redirected when clicking any inactive engagement. These can include engagements that have been disabled or deleted, and campaigns that have expired, been deleted or unpublished.
 
 ![](/img/dis eng 11.png)
 
 {:start="3"}
+
 1. Save your selection.
 
-<div class="important"> 
-<b>Note:</b> 
-<ul> 
-<li>The selection of the offline survey or the landing page is configured at the account level and applies to all campaigns.</li> <li>When your offsite engagement is disabled, it will affect your consumers’ experience. To ensure their experience is always a positive one, even when they click on a disabled engagement, you can redirect them to a page with your contact details, or with information about your online chat hours.</li> <li>When you delete a campaign, the data collected will also be deleted and you will not see it in your reports.</li> 
-</ul> 
+<div class="important">
+<b>Note:</b>
+<ul>
+<li>The selection of the offline survey or the landing page is configured at the account level and applies to all campaigns.</li> <li>When your offsite engagement is disabled, it will affect your consumers’ experience. To ensure their experience is always a positive one, even when they click on a disabled engagement, you can redirect them to a page with your contact details, or with information about your online chat hours.</li> <li>When you delete a campaign, the data collected will also be deleted and you will not see it in your reports.</li>
+</ul>
 </div>
