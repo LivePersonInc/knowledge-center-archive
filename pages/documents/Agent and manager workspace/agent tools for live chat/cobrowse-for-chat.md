@@ -38,14 +38,14 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * Learning how to set up an account or use online self-service options
 * Following a guided shopping experience which provides store-like assistance online
 
-## Security & privacy 
+## Security & privacy
 
 CoBrowse was designed with strict security controls to protect the privacy of both visitors and agents. The following controls can be implemented as part of the solution:
 
 * CoBrowse solely builds on standard applications protocols such as HTTP, HTTPS and JavaScript.
 * The agent cannot access the visitor’s local system, or web applications opened in other browser tabs or windows.
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
-* Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy. 
+* Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy.
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
 
 ## How CoBrowse works
@@ -58,7 +58,7 @@ CoBrowse technology has an enhanced level of security in comparison to tradition
 
 The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
 
-The CoBrowse service not only shares the webpage view with the agent, but it also monitors the consumer’s actions, for example: mouse movements, mouse clicks, form field input, etc. The consumer’s actions are displayed in the agent’s browser. If the agent selects “Interactive Mode”, the agent’s actions such as mouse clicks are replicated in the consumer’s browser. If the agent selects “View-only mode”, the agent can highlight elements on the page, but not fill in forms or navigate to actively assist the consumer. 
+The CoBrowse service not only shares the webpage view with the agent, but it also monitors the consumer’s actions, for example: mouse movements, mouse clicks, form field input, etc. The consumer’s actions are displayed in the agent’s browser. If the agent selects “Interactive Mode”, the agent’s actions such as mouse clicks are replicated in the consumer’s browser. If the agent selects “View-only mode”, the agent can highlight elements on the page, but not fill in forms or navigate to actively assist the consumer.
 
 ### The CoBrowse process for agents & consumers
 
@@ -71,41 +71,41 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 | In interactive mode, all agent actions are displayed in the consumer’s browser. | If the agent performs actions in Interactive Mode, these are transmitted to the consumer’s browser. |
 | In view-only mode, agent mouse movements and highlights are displayed in the consumer’s browser. | In view-only mode, only mouse movements and highlighting actions are transmitted to the consumer’s browser.   |
 
-## Configuration 
+## Configuration
 
-**To configure CoBrowse through Night Vision:** 
+**To configure CoBrowse through Night Vision:**
 
-1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon. 
+1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
 
 ![](https://lh3.googleusercontent.com/-kz9wSsxLXJOBf_Flx8AhafRLQ75xgsYzgViPGAcN80EouLAIsm0P6zac_DoD9K40NiQNhnW9B-bgHFVUMKjfd5eCEIe7u9XyYp3l4yx0Vx2wv5YVc_61MNsPFznHK_BqViAky_T =430x85)
 
-2. Click Agent Workspace Configuration. 
+1. Click Agent Workspace Configuration.
 
 ![](https://lh3.googleusercontent.com/zbushLFVAi0SU75kErbhdXh-ZdtvhaeK3z6OkqJJTpK4SKK-sTBA5YBJZDSgmcxV1CHKiWP6QNGpigRpgyIJixk9fsyARRt1w-W7Ws7pyhr_s0P5T-4VIndy2QDx8uIaExNRbH2e =432x311)
 
-3. Click Edit next to the CoBrowse configuration. 
+1. Click Edit next to the CoBrowse configuration.
 
-* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat. 
-* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors. 
+* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
+* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
 ![](https://lh6.googleusercontent.com/L1PV-kdVq0kR8ppWCWl33YD9Uv0_VZXHo9XN4uTzmQwWIYQJkLtkTBZpwTyYgyJEN76HmKGLfbA1pupQ7yv1ddvekHXYGJPUOvEb7gJImhRmsLp0hAvruFfsqAIa6O8xT6duJ-JX =409x295)
 
 The following CoBrowse elements can also be configured:
 
 * Border color: customize the color of the CoBrowse window border shown on the visitor side.
-* Highlight color: customize the color of the highlight effect that appears after a mouse click. 
+* Highlight color: customize the color of the highlight effect that appears after a mouse click.
 * Match visitor's viewport: when active, the agent's viewport will be resized to the size of the visitor's browser window. This is useful for responsive websites.
 * Field Masking: in order to protect sensitive data that may be visible to the agent during a CoBrowse session, it is possible to mask certain input fields. To do so, add CSS Selectors to specific form fields on your website that may contain such data and should not be synchronized to the agent’s view.
   * Example for IDs: #cc_number => do not synchronize content of the element with id='cc_number'.
   * Example for class names: .secret => do not synchronize content of elements with class='secret'.
   * Example for more complex selectors: input\[name=\\'secure\\'\] => do not synchronize content of input elements with name='secure'.
 
-**Note:**   
+**Note:**  
 Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
 ![](https://lh5.googleusercontent.com/BosDfp6BFeZ0TGMSdcXjy7mE5McTkJZbeUeBR7Wpv7Yvh9brUsXOkeMQj1sst67uThIMzhcJMG4m-bHtulXYz5uRc2ESiezgODq39lQYYEsVjwpwstIr0_QptCx9Vm7E1fe6CWS6 =418x462)
 
-4. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made. 
+1. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ![](https://lh4.googleusercontent.com/rSGRuSnCkpvdxE8-R8qSEhuOu5JMPhpcbdWdb3lhFsiASbmP7fQrSUMDozgRyID3BjNcq2FEP-oJsaSKxe_EDUPxzgGDK7K2FdQZ7y5pugOR76GI31lIfu7cLDwbHjLHZ86Q_vnX =402x584)
 
@@ -135,8 +135,6 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
-
- 
 
 #### Notes:
 
@@ -176,8 +174,6 @@ Password form fields are automatically blocked from transmitting data into the C
 
 CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
 
-                                      
-
 ## CoBrowse features and permissions
 
 | --- | --- | --- | --- |
@@ -188,11 +184,9 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 | Co-Navigation | The visitor and the agent browse on the same web pages together. | Yes | No |
 | Co-Form filling | The visitor and the agent fill out forms together. | Yes | No |
 
-	
-
 ## Prerequisites & technical requirements
 
-### For LiveEngage  
+### For LiveEngage
 
 The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on LiveEngage 2.0.
 
@@ -212,11 +206,8 @@ Note: Your website should not contain any browser-specific code or overwriting o
 * HTML framesets must not be used
 * iFrames must originate from the same domain. This relates to Same Origin Policy (SOP)
 * iFrames from different domains cannot be synchronized from the consumer to the agent
-
 * Not all third-party iFrames, for example Facebook and Google tracking are relevant to the agent, and are therefore not displayed
-
 * In the situation that the iFrames originate from different subdomains, you can adopt SOP relaxation techniques. This requires you to modify both pages and set the document.domain to the same domain
-
 * Embedded HTML objects and their content, for example an external image in a Canvas element, must originate from the same domain
 * Embedded HTML objects, for example Scalable Vector Graphics (SVG), which have been encoded by the web application, may not be visible to the agent
 
@@ -227,8 +218,8 @@ Note: Encoded web content poses a security risk and is therefore filtered.
 Note: Non-HTML content is not monitored and is not visible to the agent.
 
 * All resources, for example CSS, images and fonts, can be reloaded multiple times without restrictions:
-  *  Example 1: Loading resources is not bound to cookie or other session identifiers
-  *  Example 2: Loading resources is not bound to “Http Basic Authentication”
+  * Example 1: Loading resources is not bound to cookie or other session identifiers
+  * Example 2: Loading resources is not bound to “Http Basic Authentication”
 * Agents and consumers must use a web browser that is listed in the [LivePerson System Requirements](http://tbd)
 * CoBrowse is only supported on regular (not private / incognito) windows
 * For the consumer, the session is active only in the browser tab where it was started. If the consumer switches to another browser tab with the same (or another) website opened, they will no longer be active in the CoBrowse session
