@@ -201,11 +201,12 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 
 ![](/img/dis eng 10.png)
 
+{:start="2"}
 1. Choose a survey from your existing offline surveys or enter a URL to which consumers will be redirected when clicking any inactive engagement. These can include engagements that have been disabled or deleted, and campaigns that have expired, been deleted or unpublished.
 
 ![](/img/dis eng 11.png)
 
-{:start="2"}
+{:start="3"}
 1. Save your selection.
 
 <div class="important"> 
