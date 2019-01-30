@@ -61,9 +61,8 @@ The agent sends an invite to the consumer in the Embedded Engagement Window. If 
 The CoBrowse service not only shares the webpage view with the agent, but it also monitors the consumer’s actions, for example: mouse movements, mouse clicks, form field input, etc. The consumer’s actions are displayed in the agent’s browser. If the agent selects “Interactive Mode”, the agent’s actions such as mouse clicks are replicated in the consumer’s browser. If the agent selects “View-only mode”, the agent can highlight elements on the page, but not fill in forms or navigate to actively assist the consumer.
 
 ### The CoBrowse process for agents & consumers
-
-| --- | --- |
 | Consumer | Agent |
+| --- | --- |
 | The consumer starts a conversation with the agent. | The agent invites the consumer to share a live view of the web page (CoBrowse). |
 | The consumer receives an invite and accepts. The CoBrowse session is started on the visitor side. | A new CoBrowse widget opens in the Agent Workspace. |
 | The webpage is transmitted to the agent’s browser. | The webpage from the visitor’s browser is displayed in the Agent Workspace. |
@@ -79,12 +78,13 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 ![](https://lh3.googleusercontent.com/-kz9wSsxLXJOBf_Flx8AhafRLQ75xgsYzgViPGAcN80EouLAIsm0P6zac_DoD9K40NiQNhnW9B-bgHFVUMKjfd5eCEIe7u9XyYp3l4yx0Vx2wv5YVc_61MNsPFznHK_BqViAky_T =430x85)
 
-1. Click Agent Workspace Configuration.
+{:start="2"}
+2. Click Agent Workspace Configuration.
 
 ![](https://lh3.googleusercontent.com/zbushLFVAi0SU75kErbhdXh-ZdtvhaeK3z6OkqJJTpK4SKK-sTBA5YBJZDSgmcxV1CHKiWP6QNGpigRpgyIJixk9fsyARRt1w-W7Ws7pyhr_s0P5T-4VIndy2QDx8uIaExNRbH2e =432x311)
 
-1. Click Edit next to the CoBrowse configuration.
-
+{:start="3"}
+3. Click Edit next to the CoBrowse configuration.
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
 * Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
@@ -105,34 +105,40 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
 ![](https://lh5.googleusercontent.com/BosDfp6BFeZ0TGMSdcXjy7mE5McTkJZbeUeBR7Wpv7Yvh9brUsXOkeMQj1sst67uThIMzhcJMG4m-bHtulXYz5uRc2ESiezgODq39lQYYEsVjwpwstIr0_QptCx9Vm7E1fe6CWS6 =418x462)
 
-1. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
+{:start="4"}
+4. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ![](https://lh4.googleusercontent.com/rSGRuSnCkpvdxE8-R8qSEhuOu5JMPhpcbdWdb3lhFsiASbmP7fQrSUMDozgRyID3BjNcq2FEP-oJsaSKxe_EDUPxzgGDK7K2FdQZ7y5pugOR76GI31lIfu7cLDwbHjLHZ86Q_vnX =402x584)
 
 ## Initiating CoBrowse
 
-1\. From the chat window, click the CoBrowse icon.
+1. From the chat window, click the CoBrowse icon.
 
 ![](https://lh3.googleusercontent.com/cYwStEn9XoXn1iE3ncvRpTv4kGiVO8CuVCZS5wlvICFcqYj0IBfFyqutkw1N_eEKC3f8VueYNO-NK5GySp8zZgeTJ8lyiLJ-00IhvB1awUVpnMqE62EvAy0q16nnkIX2un3B74-i =379x90)
 
-2\. Choose the session type:
+{:start="2"}
+2. Choose the session type:
 
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
 
-3\. The visitor receives a notification asking them to accept the CoBrowse session.
+{:start="3"}
+3. The visitor receives a notification asking them to accept the CoBrowse session.
 
 ![](https://lh6.googleusercontent.com/m68oeu9qnunXaw3cODGRNGcNXsv8hKJfLyfVzG_1S7F86YnUcbfbmtkWOTKUn4vp1yGExVrbp21HbaCVIGXAZVsthPhARf6wBRb4VSZmJHcLoymQrJjvxseu7b8vAaAmBlaYp6o7 =233x313)
 
-4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
+{:start="4"}
+4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
 **![](https://lh6.googleusercontent.com/tIjf0KxCVEcFsXpq2BE39_shTXh40aoRAE0nn_X6_aBqWlzfPrmM_y6rTMtYiuXd0UHWdKVoeemUsGT8BzoBb-fiWoZGes1I25Qx4pDU90Xjdh9vZrEDaxWsAnz9CEABr1ktGoOD =624x312)**
 
-5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+{:start="5"}
+5. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
 ![](https://lh4.googleusercontent.com/N19JmTdUcKzIFh4hGb6b4y90eLflwjtndLlysdXPNgQ1NRWoPNhdTBzhMRbRa1bKKnFBK1VJ9rbKeynK5OdmkLnOdbPC4cd_zM0J0cbXdd9Mo6UFn6AYHGpGeZeuYwdNLdc2ImYf =624x320)
 
-6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+{:start="6"}
+6. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
@@ -144,9 +150,7 @@ To enable the CoBrowse feature in your LiveEngage account, please contact LivePe
 * Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.
 * CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.
 
-## Impact on Existing Functionality
-
-**The table below illustrates the impact of CoBrowse upon LiveEngage users:**
+## Impact on existing functionality
 
 * **Agent: Agents can conduct only one CoBrowse session at a time**
 * **Agent manager: CoBrowse transcripts only display the wording from the invitation. No other messages or events are included.**
@@ -175,9 +179,8 @@ Password form fields are automatically blocked from transmitting data into the C
 CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
 
 ## CoBrowse features and permissions
-
-| --- | --- | --- | --- |
 | Feature | Description | Available in “shared” mode? | Available in “view only” mode? |
+| --- | --- | --- | --- |
 | Co-Scrolling | The visitor and the agent see the same parts of a web page. | Yes | Yes |
 | Co-Highlighting on Page | The visitor and the agent see each other’s virtual mouse pointer and can highlight elements of a web page. | Yes | Yes |
 | Co-Highlighting on Text Elements | The visitor and the agent can highlight text elements. | Yes | Yes |
@@ -201,7 +204,8 @@ For brand website
 * The tag must be deployed in the topmost frame of the page
 * Your website must adhere to HTML, CSS and JavaScript standards
 
-Note: Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener_._
+{: .notice}
+Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener_._
 
 * HTML framesets must not be used
 * iFrames must originate from the same domain. This relates to Same Origin Policy (SOP)
@@ -211,11 +215,13 @@ Note: Your website should not contain any browser-specific code or overwriting o
 * Embedded HTML objects and their content, for example an external image in a Canvas element, must originate from the same domain
 * Embedded HTML objects, for example Scalable Vector Graphics (SVG), which have been encoded by the web application, may not be visible to the agent
 
-Note: Encoded web content poses a security risk and is therefore filtered.
+{: .notice}
+Encoded web content poses a security risk and is therefore filtered.
 
 * There are no embedded non-HTML objects, for example Flash, Active-X or PDF
 
-Note: Non-HTML content is not monitored and is not visible to the agent.
+{: .notice}
+Non-HTML content is not monitored and is not visible to the agent.
 
 * All resources, for example CSS, images and fonts, can be reloaded multiple times without restrictions:
   * Example 1: Loading resources is not bound to cookie or other session identifiers
@@ -225,7 +231,8 @@ Note: Non-HTML content is not monitored and is not visible to the agent.
 * For the consumer, the session is active only in the browser tab where it was started. If the consumer switches to another browser tab with the same (or another) website opened, they will no longer be active in the CoBrowse session
 * The agent and the consumer must be in a chat conversation before the agent can send a CoBrowse invite
 
-_Note: If the chat session is timed out, this will invalidate the CoBrowse session._
+{: .notice}
+If the chat session is timed out, this will invalidate the CoBrowse session.
 
 * An agent can conduct no more than one CoBrowse session at a time
 * If the CoBrowse session is not ended by either the consumer or the agent pressing the ‘session end’ button, the agent will not be able send a new CoBrowse invite
@@ -234,15 +241,17 @@ _Note: If the chat session is timed out, this will invalidate the CoBrowse sessi
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
 * Third party cookies must be enabled
 
-For network
+#### For network
 
 * Your website must be accessible via port 80 (http) or 443 (https)
 
-_Note: Non-public web sites (intranet, localhost) are not supported._
+{: .notice}
+Non-public web sites (intranet, localhost) are not supported._
 
 * The agent and consumer’s network must allow long-running Http connections, also called ‘long polling’
 
-_Note: This applies to all modern networks. There are rare cases of misconfigured proxy servers or application layer firewalls in company networks._
+{: .notice}
+This applies to all modern networks. There are rare cases of misconfigured proxy servers or application layer firewalls in company networks._
 
 * A company proxy server or application layer firewall must not modify essential, for example, security, http headers of the CoBrowse application.
 * If there is an extremely high network latency or unstable network connection, the CoBrowse session may be dropped.
