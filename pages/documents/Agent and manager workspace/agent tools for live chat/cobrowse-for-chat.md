@@ -9,7 +9,7 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-chat.html
 isTutorial: true
 isNew: false
-date: 2019-01-30 16:43:16 +0200
+date: 2019-01-30 14:43:16 +0000
 published: false
 
 ---
