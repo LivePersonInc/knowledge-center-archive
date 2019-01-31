@@ -9,11 +9,8 @@ permalink: data-reporting-report-builder-report-builder-FAQs.html
 isTutorial: false
 date: 2019-01-16 13:47:26 +0000
 isNew: false
-published: false
 
 ---
-## Framework inquiries
-
 ### **Q: How can I access Report builder?**
 
 **A:** Report Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Report Builder icon on the left of the screen.
