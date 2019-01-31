@@ -59,6 +59,7 @@ Consider that messaging requires short, to the point and conversational response
   * As your team becomes accustomed to predefined responses, you may find it necessary to add more. Consider that the agent needs to remember these short keys and so you don’t want to overload them.
   * It may be useful for new agents to have a printed list of these responses to refer to.
 * Assign hot keys to mirror a process
+  * Hot keys can be very useful if assigned to a commonly used process. 
 
 ## Operational best practices
 
