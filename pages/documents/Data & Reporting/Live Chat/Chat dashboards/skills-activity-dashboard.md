@@ -7,8 +7,9 @@ subtitle: 'This dashboard includes metrics used to analyze skill queue performan
 level3: Chat Dashboards
 permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html
 isTutorial: false
-date: 2019-01-21 14:55:50 +0200
-published: true
+date: 2019-01-21 12:55:50 +0000
+isNew: false
+
 ---
 This dashboard includes metrics used to analyze skill queue performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
@@ -22,23 +23,15 @@ This dashboard includes metrics used to analyze skill queue performance. This da
 
 The following panel will be presented when accessing the skill activity predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
 
-![](/img/skillsact1.png)
+![](/img/skillsact1 (1).png)
 
 Image 1 - Skill activity dashboard main panel
 
 **Visualizations:**
 
-| --- | --- | --- | --- |
-| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
-| Eng. Volume(area chart) | REQUESTED CHATS | DATE | N/A |
-| CONNECTED CHATS |
-| INTERACTIVE CHATS |
-| Average engagement length (bar chart) | CSAT | DATE | N/A |
-| AVG. INTERACTIVE CHAT LENGTH |
-| Abandon Rate (bar chart) | ABANDONED CHAT RATE | DATE | N/A |
-| Average wait time (line chart) | AVG. TIME TO ABANDON CHAT | DATE | N/A |
-| AVG. TIME TO ANSWER CHAT |
-| CSAT |
+| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |  
+| --- | --- | --- | --- |  
+ | Eng. Volume(area chart) | REQUESTED CHATS | DATE | N/A | | CONNECTED CHATS | | INTERACTIVE CHATS | | Average engagement length (bar chart) | CSAT | DATE | N/A | | AVG. INTERACTIVE CHAT LENGTH | | Abandon Rate (bar chart) | ABANDONED CHAT RATE | DATE | N/A | | Average wait time (line chart) | AVG. TIME TO ABANDON CHAT | DATE | N/A | | AVG. TIME TO ANSWER CHAT | | CSAT |
 
 ## Panel two: Skill activity grid
 

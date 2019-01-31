@@ -8,8 +8,7 @@ level3: ''
 permalink: messaging-channels-live-chat-displaying-chat-engagements.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 17:20:57 +0200
-published: false
+date: 2019-01-29 15:20:57 +0000
 
 ---
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
