@@ -19,7 +19,7 @@ In order to import content successfully and avoid import errors, simply follow t
 
 ### **Exporting and editing the file:**
 
-1. Go to the **PreDefined content library**
+1. Go to the **Predefined content library**
 2. **Export your current .CSV file from LiveEngage and work on this file      as your template**
 3. Edit content and translations to the CSV file. We recommend Google Spreadsheet, Numbers, or OpenOffice for this purpose. **UTF 8 encoding** only is supported
 4. While editing the document, keep the following guidelines in mind:
