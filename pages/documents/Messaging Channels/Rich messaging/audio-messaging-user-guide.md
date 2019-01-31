@@ -9,6 +9,7 @@ permalink: messaging-channels-rich-messaging-audio-messaging-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 11:54:10 +0000
+published: false
 
 ---
 Audio messaging allows consumers to send audio messages to brands. The audio is one way, from the consumer to the agent. The agent can listen to the message and reply in a text. Audio messaging provides an enriched conversation experience.
