@@ -10,7 +10,6 @@ permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-chat.h
 isTutorial: true
 isNew: false
 date: 2019-01-30 16:43:16 +0200
-published: false
 
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
@@ -71,7 +70,6 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 | In interactive mode, all agent actions are displayed in the consumer’s browser. | If the agent performs actions in Interactive Mode, these are transmitted to the consumer’s browser. |
 | In view-only mode, agent mouse movements and highlights are displayed in the consumer’s browser. | In view-only mode, only mouse movements and highlighting actions are transmitted to the consumer’s browser. |
 
-
 ## Configuration
 
 **To configure CoBrowse through Night Vision:**
@@ -83,7 +81,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 {:start="2"}
 2\. Click Agent Workspace Configuration.
 
-![](https://lh3.googleusercontent.com/zbushLFVAi0SU75kErbhdXh-ZdtvhaeK3z6OkqJJTpK4SKK-sTBA5YBJZDSgmcxV1CHKiWP6QNGpigRpgyIJixk9fsyARRt1w-W7Ws7pyhr_s0P5T-4VIndy2QDx8uIaExNRbH2e =432x311)
+![](/img/cb for chat 3.png)
 
 {:start="3"}
 3\. Click Edit next to the CoBrowse configuration.
@@ -91,7 +89,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
 * Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
-![](https://lh6.googleusercontent.com/L1PV-kdVq0kR8ppWCWl33YD9Uv0_VZXHo9XN4uTzmQwWIYQJkLtkTBZpwTyYgyJEN76HmKGLfbA1pupQ7yv1ddvekHXYGJPUOvEb7gJImhRmsLp0hAvruFfsqAIa6O8xT6duJ-JX =409x295)
+![](/img/cb for chat 4.png)
 
 The following CoBrowse elements can also be configured:
 
@@ -106,18 +104,18 @@ The following CoBrowse elements can also be configured:
 **Note:**  
 Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](https://lh5.googleusercontent.com/BosDfp6BFeZ0TGMSdcXjy7mE5McTkJZbeUeBR7Wpv7Yvh9brUsXOkeMQj1sst67uThIMzhcJMG4m-bHtulXYz5uRc2ESiezgODq39lQYYEsVjwpwstIr0_QptCx9Vm7E1fe6CWS6 =418x462)
+![](/img/cb for chat 5.png)
 
 {:start="4"}
 4\. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
-![](https://lh4.googleusercontent.com/rSGRuSnCkpvdxE8-R8qSEhuOu5JMPhpcbdWdb3lhFsiASbmP7fQrSUMDozgRyID3BjNcq2FEP-oJsaSKxe_EDUPxzgGDK7K2FdQZ7y5pugOR76GI31lIfu7cLDwbHjLHZ86Q_vnX =402x584)
+![](/img/cb for chat 6.png)
 
 ## Initiating CoBrowse
 
 1. From the chat window, click the CoBrowse icon.
 
-![](https://lh3.googleusercontent.com/cYwStEn9XoXn1iE3ncvRpTv4kGiVO8CuVCZS5wlvICFcqYj0IBfFyqutkw1N_eEKC3f8VueYNO-NK5GySp8zZgeTJ8lyiLJ-00IhvB1awUVpnMqE62EvAy0q16nnkIX2un3B74-i =379x90)
+![](/img/cb for chat 7.png)
 
 {:start="2"}
 2\. Choose the session type:
@@ -128,17 +126,17 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 {:start="3"}
 3\. The visitor receives a notification asking them to accept the CoBrowse session.
 
-![](https://lh6.googleusercontent.com/m68oeu9qnunXaw3cODGRNGcNXsv8hKJfLyfVzG_1S7F86YnUcbfbmtkWOTKUn4vp1yGExVrbp21HbaCVIGXAZVsthPhARf6wBRb4VSZmJHcLoymQrJjvxseu7b8vAaAmBlaYp6o7 =233x313)
+![](/img/cb for chat 8.png)
 
 {:start="4"}
 4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-**![](https://lh6.googleusercontent.com/tIjf0KxCVEcFsXpq2BE39_shTXh40aoRAE0nn_X6_aBqWlzfPrmM_y6rTMtYiuXd0UHWdKVoeemUsGT8BzoBb-fiWoZGes1I25Qx4pDU90Xjdh9vZrEDaxWsAnz9CEABr1ktGoOD =624x312)**
+![](/img/cb for chat 9.png)
 
 {:start="5"}
 5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
-![](https://lh4.googleusercontent.com/N19JmTdUcKzIFh4hGb6b4y90eLflwjtndLlysdXPNgQ1NRWoPNhdTBzhMRbRa1bKKnFBK1VJ9rbKeynK5OdmkLnOdbPC4cd_zM0J0cbXdd9Mo6UFn6AYHGpGeZeuYwdNLdc2ImYf =624x320)
+![](/img/cb for chat 10.png)
 
 {:start="6"}
 6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
