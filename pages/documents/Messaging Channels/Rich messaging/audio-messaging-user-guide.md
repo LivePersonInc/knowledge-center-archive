@@ -8,14 +8,14 @@ level3: ''
 permalink: messaging-channels-rich-messaging-audio-messaging-user-guide.html
 isTutorial: false
 isNew: false
-date: 2019-01-27 13:54:10 +0200
+date: 2019-01-27 11:54:10 +0000
 
 ---
 Audio messaging allows consumers to send audio messages to brands. The audio is one way, from the consumer to the agent. The agent can listen to the message and reply in a text. Audio messaging provides an enriched conversation experience.
 
 The feature is available starting with SDK v3.2. It is also available for Facebook Messenger and Apple Business Chat connectors.
 
-![](/img/Screen Shot 2019-01-27 at 1.56.29 PM.png)
+![](/img/Audio_messaging_Gif-1.gif)
 
 ## Use cases
 
@@ -54,7 +54,7 @@ Audio Messaging is ideal for consumers who would prefer to send a voice recordin
   * Conversation window preview popup (Spectator)
 * Know what is the message length as soon as it arrives (without having to play it)
 * Navigate through the audio message
-* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections 
+* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections
 
   ![](/img/audiom3.png)
 
