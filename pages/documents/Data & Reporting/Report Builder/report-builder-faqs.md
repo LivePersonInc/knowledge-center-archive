@@ -8,6 +8,8 @@ level3: ''
 permalink: data-reporting-report-builder-report-builder-FAQs.html
 isTutorial: false
 date: 2019-01-16 13:47:26 +0000
+isNew: false
+published: false
 
 ---
 ## Framework inquiries
