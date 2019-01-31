@@ -134,6 +134,7 @@ pages:
 - pages/documents/Security & Regulations/hipaa.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/What's New/november-2018.md
+- pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
@@ -191,7 +192,6 @@ pages:
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-1.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
-- pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Contact Center Management/Campaigns/visitor-behavior.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
