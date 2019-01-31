@@ -132,6 +132,8 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
 - pages/documents/Security & Regulations/hipaa.md
+- pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
+- pages/documents/What's New/november-2018.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
@@ -211,7 +213,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
-- pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
 - pages/documents/Admin & Settings/languages-supported.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
@@ -235,7 +236,6 @@ pages:
 - pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
 - pages/documents/What's New/january-2019.md
 - pages/documents/Contact Center Management/Campaigns/campaigns-overview.md
-- pages/documents/What's New/november-2018.md
 - pages/documents/What's New/october-2018.md
 - pages/documents/Security & Regulations/sso-unified-login.md
 - pages/documents/What's New/september-2018.md
