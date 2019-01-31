@@ -58,7 +58,7 @@ Consider that messaging requires short, to the point and conversational response
   * As your team becomes accustomed to predefined responses, you may find it necessary to add more. Consider that the agent needs to remember these short keys and so you don’t want to overload them.
   * It may be useful for new agents to have a printed list of these responses to refer to.
 * Assign hot keys to mirror a process
-  * Hot keys can be very useful if assigned to a commonly used process. 
+  * Hot keys can be very useful if assigned to a commonly used process.
 
 ## Operational best practices
 
@@ -124,12 +124,10 @@ F. Consider adding great responses from transcripts.
 
 **Suggestion:** ask for two to three pieces of information at a time. E.g.: Can I please have your name, date of birth and address?
 
-### 
-
 ### Communicating end of day/closure for brands not available 24/7
 
 * Just to let you know, our messaging service closes in about 20 minutes. We will re-open tomorrow at 8:00 AM. Would you like to pick up again tomorrow or would you prefer a phone number for our call team?
 * If you are willing to wait, I’ll be back at 12:30 PM. We can pick up then or I can assign you to a colleague who can speak with you before then. (Don’t worry, they will have this messaging history). What would you prefer?
 
-{: .notice} 
+{: .notice}
 It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.
