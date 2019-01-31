@@ -36,8 +36,7 @@ In order to import content successfully and avoid import errors, simply follow t
      * **Hot Keys column:*  
     	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
 
-For example:
-
+**For example:**
 
 |    Item ID    |    Language    |    Title    |    Text    |    Categories    |
 | --- | --- | --- | --- | --- |
