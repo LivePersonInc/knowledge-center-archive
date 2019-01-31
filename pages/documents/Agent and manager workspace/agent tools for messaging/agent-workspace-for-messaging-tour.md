@@ -12,5 +12,4 @@ date: 2019-01-21 11:21:27 +0200
 ---
 Watch this tutorial to learn about the Messaging Agent Workspace
 
-  
-[https://vimeo.com/274932469/574b24a525](https://vimeo.com/274932469/574b24a525 "https://vimeo.com/274932469/574b24a525")
+<iframe src="https://player.vimeo.com/video/274932469" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -12,7 +12,8 @@ isNew: false
 date: 2019-01-23 13:49:32 +0000
 
 ---
-[https://vimeo.com/238904916/ca89e9c07f](https://vimeo.com/238904916/ca89e9c07f "https://vimeo.com/238904916/ca89e9c07f")
+
+<iframe src="https://player.vimeo.com/video/238904916" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Bots and large-scale automations transform how brands interact with consumers, enabling one-to-one interactions that replace the IVR, websites, and apps with conversations. Bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. Since consumers want to build and maintain relationships with brands just as they talk to one another, through natural language and dialogs, bots and agents are key to operating automation at scale.
 
@@ -20,13 +21,13 @@ Bots and large-scale automations transform how brands interact with consumers, e
 
 In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same agent workspace. This enables conversations to be easily passed between bot and human agent.  
 
-Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better. 
+Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better.
 
 ![](/img/how-bots-work-tango-1.png)
 
 The first part of this bot and human tango takes place through our easy-to-use bot builder, the Conversational Builder. The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a set of templates for common use cases based on our conversation data. Brands can deploy out of box automations across the most common workflows tuned for each industry with templated bots libraries.
 
-Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. 
+Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too.
 
 ## Open platform that works with any bot provider, including BYOB
 

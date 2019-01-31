@@ -31,7 +31,9 @@ Agents who have worked on live chat are accustomed to having a set number of con
 
 Smart Capacity takes into account which conversations are active or inactive. For example, if a consumer has not answered your message for 10 minutes, they are likely to answer at a later time, so the conversation is marked ‘inactive’ in the meantime. Smart Capacity knows to automatically mark conversations as inactive and manage your workload dynamically.
 
-To learn more about smart capacity, watch this video [https://vimeo.com/241513074/68f35bc602](https://vimeo.com/241513074/68f35bc602 "https://vimeo.com/241513074/68f35bc602")
+To learn more about smart capacity, watch this video:
+
+<iframe src="https://player.vimeo.com/video/241513074" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Queue Prioritization: the management of the order in which agent receive conversations
 
@@ -43,7 +45,9 @@ In order to ensure that the most relevant conversations reach agents, automation
 * _Actionable vs. Not-actionable:_ LivePerson scans conversations to understand which ones are actionalable, meaning pending an action on behalf of agents, versus not actionable, or awaiting a consumer reply. Agents will only receive the actionable conversations.
 * Business Priority: Each brand can utilize various parameters to determine which conversations should jump ahead in the queue. For example, retention questions may be more time sensitive or pressing and therefore should be handled first.
 
-To learn more about queue prioritization, watch this 2 min video: [https://vimeo.com/241513020/9200d1ddb0](https://vimeo.com/241513020/9200d1ddb0 "https://vimeo.com/241513020/9200d1ddb0")
+To learn more about queue prioritization, watch this 2 min video:
+
+<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### SLAs: Deadlines and guidelines for response time management
 
