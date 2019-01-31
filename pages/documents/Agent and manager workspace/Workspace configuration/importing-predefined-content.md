@@ -32,9 +32,10 @@ In order to import content successfully and avoid import errors, simply follow t
        * Simply add any non-existing (new) positive integer item number that not exist.
        * In order to avoid mistakes, it’s recommended to sort the existing item numbers and proceed with the same sequences.
      * **Language column:**
-       * To add a new translation row (to existing predefined content), duplicate the row, keep the existing item ID but change the language code as needed.
-     * **Hot Keys column:*  
-    	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
+            * To add a new translation row (to existing predefined content), duplicate the row, keep the existing item ID but change the language code as needed.
+     * **Hot Keys column:**
+         	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
+
 
 **For example:**
 
