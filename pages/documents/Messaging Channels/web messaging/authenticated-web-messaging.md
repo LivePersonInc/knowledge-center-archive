@@ -34,7 +34,7 @@ Authenticated messaging provides the following benefits:
 
 Watch how web messaging can be seamless across web and mobile using authenticated web messaging:
 
-[https://vimeo.com/253109875/b4b118ece0](https://vimeo.com/253109875/b4b118ece0 "https://vimeo.com/253109875/b4b118ece0")
+<iframe src="https://player.vimeo.com/video/253109875" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## **Authenticated Web Messaging flow:**
 
@@ -107,21 +107,21 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 Example:
 
     lpTag.identities=[];
-    
+
     lpTag.identities.push(identityFn);
-    
+
     function identityFn(callback) {
-    
+
     callback({
-    
+
     iss: “ replace with issuer ”,
-    
+
     acr: “loa1”,
-    
+
     sub: “ replace with customerID ”
-    
+
     });
-    
+
     }
 
 By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications.
@@ -221,7 +221,7 @@ Example of code flow response:
 
 Example of implicit flow response:
 
-      HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ 
+      HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ
 
 {: .important}
 **Important:** ignore unrecognized response parameters.
@@ -265,7 +265,7 @@ EAs will be presented in the Agent Workspace in several areas:
 1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
 2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
-In order to enable, please contact your LivePerson representative. 
+In order to enable, please contact your LivePerson representative.
 
 ## **Limitations and Tips**
 

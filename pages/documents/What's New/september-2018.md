@@ -12,7 +12,8 @@ isNew: false
 date: 2019-01-24 11:24:36 +0200
 
 ---
-[https://vimeo.com/289680582/867daf2de2](https://vimeo.com/289680582/867daf2de2 "https://vimeo.com/289680582/867daf2de2")
+
+<iframe src="https://player.vimeo.com/video/289680582" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson during September 2018 - all designed to help you get more out of our LivePerson platform.
 
@@ -56,7 +57,7 @@ LivePerson’s current campaign timeframe management only supports the option to
 
 ![](/img/sept-newsletter-2.png)
 
-## Sensitive historic data instantly masked for agents 
+## Sensitive historic data instantly masked for agents
 
 LivePerson automatically masks credit card numbers by default and now allows you to define additional sensitive data patterns for masking. Data from conversations will appear masked for the agent from the moment the conversation is closed.
 

@@ -21,7 +21,7 @@ While AI and automation enable this transformation to happen at scale, everythin
 
 ![](/img/lp-cc-3.png)
 
-[https://vimeo.com/302277356/6775161226](https://vimeo.com/302277356/6775161226 "https://vimeo.com/302277356/6775161226")
+<iframe src="https://player.vimeo.com/video/302277356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## How messaging benefits a contact center
 

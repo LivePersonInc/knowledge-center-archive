@@ -13,19 +13,20 @@ isNew: false
 date: 2019-01-23 16:34:59 +0200
 
 ---
-[https://vimeo.com/311248862/e9af8fcae4](https://vimeo.com/311248862/e9af8fcae4 "https://vimeo.com/311248862/e9af8fcae4")
+
+<iframe src="https://player.vimeo.com/video/311248862" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Happy new year and welcome to the LivePerson Product Updates Newsletter for January. Here is a round-up of the latest features, enhancements and enablements that are coming in Jan 2019 - all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
-## Important announcements 
+## Important announcements
 
 Please note this important announcement about Transport Layer Security (TLS). These are the protocols that websites use to secure all communications between their servers and web browsers.
 
 If you are still using TLS 1.0 or 1.1 after Q1 you will not be able to use LivePerson services. The reason for this change is because these versions are two decades old and not sufficiently secure. Most of you will have already upgraded, but make sure to check with your development team that you are using TLS version 1.2 or higher.
 
-## Secure form (PCI) for connectors 
+## Secure form (PCI) for connectors
 
-LivePerson PCI secure form for messaging connectors channels will expand your business use cases on channels that do not have the native secure forms capabilities, allowing you to build a conversational commerce strategy. This means that if for example, a consumer has agreed to make a purchase, an agent can share a secure form to collect personal information directly within the messaging window. 
+LivePerson PCI secure form for messaging connectors channels will expand your business use cases on channels that do not have the native secure forms capabilities, allowing you to build a conversational commerce strategy. This means that if for example, a consumer has agreed to make a purchase, an agent can share a secure form to collect personal information directly within the messaging window.
 
 ## Audit trail for working hours management & campaign timeframes
 
@@ -33,7 +34,7 @@ You can now track changes made by users, monitor schedule changes and rectify an
 
 ![](/img/jan-whats-new-1.png)
 
-Within Campaign Timeframes, if a campaign manager changes a campaign’s time frame in order to meet a new initiative and then the initiative is delayed; using audit trail, an admin will be able to see what the time frame was previously in order to revert back to original state. For Working hours management, admins have the ability to track changes to ensure agents have the right working hours, and consumers see the right ‘estimated time to response. 
+Within Campaign Timeframes, if a campaign manager changes a campaign’s time frame in order to meet a new initiative and then the initiative is delayed; using audit trail, an admin will be able to see what the time frame was previously in order to revert back to original state. For Working hours management, admins have the ability to track changes to ensure agents have the right working hours, and consumers see the right ‘estimated time to response.
 
 Brands that have the audit trail feature will have it on both campaign timeframes and working hours by default and admins will have permissions to access the by default.
 

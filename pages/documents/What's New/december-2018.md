@@ -12,21 +12,22 @@ isNew: false
 date: 2019-01-23 16:53:53 +0200
 
 ---
-[https://vimeo.com/305921583/2a85f96937](https://vimeo.com/305921583/2a85f96937 "https://vimeo.com/305921583/2a85f96937")
 
-In this months Newsletter we have looked at the highlights of 2018 showcasing our top capabilities which we introduced to make brands more conversational. 
+<iframe src="https://player.vimeo.com/video/305921583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+In this months Newsletter we have looked at the highlights of 2018 showcasing our top capabilities which we introduced to make brands more conversational.
 
 This month we also have the following enhancements and features:
 
-## Monitoring SDK for ABC (iOS apps) 
+## Monitoring SDK for ABC (iOS apps)
 
 The ability to track customer activity in all areas of your iMessage app and main app, while reporting information on these interactions and activities to LivePerson.  
 
 With the ABC monitoring SDK, LivePerson can monitor the customer journey within your brand’s iMessage app or main app, passing the information back to LivePerson as engagement attributes. The information will be displayed to the agent or bot, improving operational efficiency with more detailed reporting.
 
-## Monitoring SDK for ABC (iOS apps) 
+## Monitoring SDK for ABC (iOS apps)
 
-The pace of conversations can vary across different skills. LivePerson’s Smart Capacity now has a ‘per skill level’ (in addition to account level configuration) to relay information per skill to improve operations. In addition to the account level settings, you can now configure the parameters of Smart Capacity per skill. 
+The pace of conversations can vary across different skills. LivePerson’s Smart Capacity now has a ‘per skill level’ (in addition to account level configuration) to relay information per skill to improve operations. In addition to the account level settings, you can now configure the parameters of Smart Capacity per skill.
 
 ## Vertical benchmarks in Advanced Messaging Dashboard
 

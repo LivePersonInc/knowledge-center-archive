@@ -10,7 +10,8 @@ isTutorial: true
 date: 2019-01-16 08:25:55 +0000
 
 ---
-[https://vimeo.com/312481307/544d64aa18](https://vimeo.com/312481307/544d64aa18 "https://vimeo.com/312481307/544d64aa18")
+
+<iframe src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
 

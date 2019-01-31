@@ -16,7 +16,7 @@ date: 2019-01-23 17:08:51 +0200
 
 The November newsletter video features the Post Conversation Survey - a feature that helps brands take advantage of increased traffic and get feedback from their customers in a conversational format:
 
-[https://vimeo.com/300977058/10c2ea7c34 ](https://vimeo.com/300977058/10c2ea7c34 )
+<iframe src="https://player.vimeo.com/video/300977058" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 This month the following features were also released:
 

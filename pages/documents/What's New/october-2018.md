@@ -12,7 +12,8 @@ isNew: false
 date: 2019-01-24 11:08:09 +0200
 
 ---
-[https://vimeo.com/295148682/4dd1ae3b46](https://vimeo.com/295148682/4dd1ae3b46 "https://vimeo.com/295148682/4dd1ae3b46")
+
+<iframe src="https://player.vimeo.com/video/295148682" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## New skill-based efficiency metrics in API
 
