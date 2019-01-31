@@ -9,7 +9,6 @@ permalink: agent-manager-workspace-workspace-configuration-predefined-content-be
 isTutorial: false
 isNew: false
 date: 2019-01-31 08:27:46 +0000
-published: false
 
 ---
 Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
