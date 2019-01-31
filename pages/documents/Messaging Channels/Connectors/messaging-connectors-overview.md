@@ -8,7 +8,8 @@ subtitle: 'Manage conversations from a range of popular channels in one centrali
 level3: ''
 permalink: messaging-channels-messaging-connectors-overview.html
 isTutorial: false
-date: 2019-01-20 10:03:12 +0200
+date: 2019-01-20 08:03:12 +0000
+isNew: false
 
 ---
 Many popular messaging channels now enable brands to interact with their consumers using their preferred channel. For brands, creating a presence on these channels is key to building connections and creating prospects. LivePerson’s platform gives brands the ability to maintain this presence and effectively manage conversations from a range of channels simultaneously.
@@ -26,9 +27,9 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 * CM SMS*
 * Apple Business Chat*
 
+\*For more information on leveraging these channels contact your LivePerson representative
 
-
-*For more information on leveraging these channels contact your LivePerson representative
+![](/img/Channel sources gif.gif)
 
 ## Why manage conversations with LivePerson?
 
@@ -67,7 +68,6 @@ Centralized conversation history and reporting - Connector conversations are inc
 * Agent efficiency metrics
 * Queue length metrics and averages
 * Business outcomes and conversions
-
 
 **Automatic messages** - Automatic or system messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.
 
