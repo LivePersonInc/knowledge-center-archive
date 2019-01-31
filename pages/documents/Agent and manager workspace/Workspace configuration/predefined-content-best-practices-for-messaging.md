@@ -63,17 +63,17 @@ Consider that messaging requires short, to the point and conversational response
 
 ## Operational best practices
 
-A.    Predefined content should be regularly reviewed.
+A. Predefined content should be regularly reviewed.
 
-B.    Ensure agents are being coached and trained to use the content from launch.
+B. Ensure agents are being coached and trained to use the content from launch.
 
-C.    Involve your agents in the process of refining responses.
+C. Involve your agents in the process of refining responses.
 
-D.    Delete responses that are not being used.
+D. Delete responses that are not being used.
 
-E.    Allow agents time during training to align themselves with the new responses.
+E. Allow agents time during training to align themselves with the new responses.
 
-F.    Consider adding great responses from transcripts.
+F. Consider adding great responses from transcripts.
 
 ## Predefined content examples
 
@@ -132,4 +132,5 @@ F.    Consider adding great responses from transcripts.
 * Just to let you know, our messaging service closes in about 20 minutes. We will re-open tomorrow at 8:00 AM. Would you like to pick up again tomorrow or would you prefer a phone number for our call team?
 * If you are willing to wait, I’ll be back at 12:30 PM. We can pick up then or I can assign you to a colleague who can speak with you before then. (Don’t worry, they will have this messaging history). What would you prefer?
 
+{: .notice} 
 It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.
