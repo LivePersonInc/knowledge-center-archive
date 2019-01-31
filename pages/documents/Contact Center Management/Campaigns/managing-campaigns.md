@@ -8,7 +8,7 @@ level3: ''
 permalink: contact-center-management-campaigns-managing-campaigns.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 11:20:16 +0200
+date: 2019-01-29 09:20:16 +0000
 
 ---
 You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
@@ -25,13 +25,13 @@ From the campaigns page, you can set your campaigns to different priorities (hig
 * The probability that engagements belonging to **Medium Priority** campaigns will be displayed is **20%**
 * The probability that engagements belonging to **Low Priority** campaigns will be displayed is **10%**
 
-![](https://lh5.googleusercontent.com/nniUx6yXrD2Jm8QrwZYLXahuQt_HC7IOF5oSEa9syQCDaoHWcWFaHG9eGeBdccluH9Aqr2pEjVHzZ2nLWJXOOYipCSRuxxOdFompdhScHMUOpn_c5cpeF7xDHSGZJWGfk4vuG3Oa =654x360)
+![](/img/mang camp 1.png)
 
 ## Measuring success using control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up.
 
-![](https://lh4.googleusercontent.com/UPLcigHY3wHRJpDCpo_ZpGfta8HyNHgwltUKVUvhUkFv9uHuB1klhsnL28gKvvT6kfgieRqxpH3ImbDxFpNB47F9NhGEGyloPkLIB-2ZmqPplnSjza3HxHaLV602FCiL1GZOaTLG =413x303)
+![](/img/mang camp 2.png)
 
 A control group is a random number of visitors to your website who do not receive any type of engagement from a campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
@@ -85,25 +85,25 @@ This table provides a summary of the conditions and outcomes of each of the thre
    ![](/img/mang camp 3-2.png)
 
 {:start="2"}
-2. Busy state enabled
+2\. Busy state enabled
 
-![](https://lh4.googleusercontent.com/MSBgUlQ3TdCg36RrFY7RxiaHaa-Vq6AzbZlvnub3JxdzdvrKkyWl3K90TFQnw1LzbPvhmexkKMshot6vuRkCZMVONBAa7kIhk-6siYc_oebEG3mygSRHqQfrieQxRRFgMfKfzPuW =328x190)
+![](/img/mang camp 4.png)
 
 {:start="3"}
-3. Busy state disabled, ignore max wait time enabled
+3\. Busy state disabled, ignore max wait time enabled
 
-![](https://lh3.googleusercontent.com/mh0GOTIao1D58JJaDF1F-XlA1x57EvCUXAWucu5EwlC5UV2b1Otoxk5epoZZT9hRgWdvrqSoD-m214bicRH8vxHuXPXysXufZdQGKry822_FEyc5zDiAvvyXU8xiviw4XAxBxG4I =333x197)
+![](/img/mang camp 5.png)
 
 {:start="4"}
-4. Busy state enabled, ignore max wait time enabled
+4\. Busy state enabled, ignore max wait time enabled
 
-![](https://lh6.googleusercontent.com/mk7j1BM8G2toW1bkQNX10ugyfZkX7I9GUzX1tHuLpKBTFMo8QYezGdMNLkmzLeE1k5XlTG_TwJ6OeDrta6a2pxwcng4Od_RRKkik6nZ-PdnjzIyAeFMX2D_zZxsyHopIKrxON0h0 =333x195)
+![](/img/mang camp 6.png)
 
 ## Publishing and unpublishing campaigns
 
 Turning your campaigns on and off are simple.  When you finish creating your campaign, toggle the ‘publish’ button.  You will clearly see the status of the campaign in your campaigns list:
 
-![](https://lh4.googleusercontent.com/CCQ6tStkxkEAPmhyRjFoPSWRZjrjpq_yCtU5ayoj2_fmEt9Sl-4nWqpGF6E37bcAOMSkyWMhDuEAWm73MbHm9mPRWq1CBu0IiLdxEh4g9YKdJWqqYwBoeCs_0V7Lb6BYQPZ1DyNJ =450x293)
+![](/img/mang camp 7.png)
 
 A campaign can be active and still not display to your consumers if the campaign is no longer within the time frame that you defined.
 
@@ -178,7 +178,7 @@ To provide a rich, yet non- intrusive engagement experience, LivePerson employs 
 * If a consumer closes an engagement, it will no longer be displayed in the current session.
 * LivePerson’s platform allows you to limit the number of times a proactive engagement (overlay, toaster and peeling corner) is displayed per consumer session. When the limit is reached, no other proactive engagements will be displayed in the session, regardless of engagement priorities.
 
-![](https://lh6.googleusercontent.com/DXpK4nhoXCCAvROIZ8OQsPbODjD-XwIT8KGnwnysFXYzFX4UE6FKg40uimGxOR_nR22qj9Af89XP2Sn-qjzz9qENLidXZa79QueF7njvjGyzIT_hvAeyp3WFrSoTLjSBt9hUDTYz =339x461)
+![](/img/mang camp 12-1.png)
 
 * For proactive engagements you can configure an engagement to “follow” a consumer for a certain amount of time or for a specific number of pages, from the engagement settings page. Proactive engagements engagements are always prioritized for display ahead of other engagements mapped to the same zone.
 * If an online chat button is displayed and then 10 seconds later there are no longer any available agents, the button will **not** be replaced with an offline button.
@@ -193,13 +193,7 @@ Using multiple engagements in a campaign helps you facilitate your consumers’ 
 
 ## Inactive engagements
 
-This setting allows you to choose what consumers will see when interacting with an inactive Offsite engagement. An engagement is inactive when it has been disabled, deleted or its campaign has been unpublished, deleted or expired.
-
-![](https://lh4.googleusercontent.com/fUc5WyjFUY7JT8J77FLVR8gXXdNXOyYTNIYuxVWhbnKqblxT2zOT9eQ7xT6hdAp6ZW0V0TKrRWgbt833UHsbOQrlRc6hOs7wsRziGWyE_hbkgEaZJL3IR53-lzJwJcA8nqR-e_Ep =344x200)
-
-You can choose to display an offline survey, or a landing page.
-
-For further information on configuring offline surveys, refer to the Why You Need an Offline Survey article.
+This setting allows you to choose what consumers will see when interacting with an inactive Offsite engagement. An engagement is inactive when it has been disabled, deleted or its campaign has been unpublished, deleted or expired. You can choose to display an offline survey, or a landing page.
 
 ## Troubleshooting
 
