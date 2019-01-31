@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: LivePerson invests heavily in providing the most secure platform possible
   for our services, customers, and their data
 level3: ''
-permalink: security-regulations-secure-forms-secure-forms-for-messaging.html
+permalink: security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html
 isTutorial: true
 isNew: false
 date: 2019-01-29 08:27:49 +0000

@@ -80,9 +80,9 @@ This table provides a summary of the conditions and outcomes of each of the thre
 | ✓ | Disabled | State: Agents available / No capacityOutcome: Chat | State: No agents online / No capacityOutcome: Offline survey |
 | ✓ | State: No capacityOutcome: Chat with long wait time | State: Agents availableOutcome: chat | State: No agents onlineOutcome: Offline survey |
 
-1. Default state - busy state disabled 
+1. Default state - busy state disabled
 
-   ![](/img/mang camp 3-2.png)	
+   ![](/img/mang camp 3-2.png)
 
 {:start="2"}
 2. Busy state enabled
@@ -137,7 +137,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 **Note:** Only one of these can be displayed simultaneously in this zone.
 
-#### ![](/img/mang camp 9-2.png)
+![](/img/mang camp 9-2.png)
 
 ### Proactive zone
 

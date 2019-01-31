@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Invite your visitors to chat live with an agent
 level3: ''
-permalink: messaging-channels-live-chat-add-chat-to-your-website
+permalink: messaging-channels-live-chat-add-live-chat-to-your-website
 isTutorial: false
 isNew: false
 date: 2019-01-29 15:02:52 +0200
@@ -86,7 +86,7 @@ On this page, you can define the **conversation channel**, **authentication**, *
   4. **Window presentation:** Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
   5. **Language:** The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
-	
+
    Once your settings are complete, click **next**.
 
 #### III. Engagement studio
@@ -121,4 +121,3 @@ When you are finished defining your visitor behavior, click **next**.
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.To learn more about publishing and unpublishing campaigns, click here.
 
 ![](/img/unnamed (4).png)
-

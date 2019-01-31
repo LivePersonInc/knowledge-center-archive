@@ -1,12 +1,12 @@
 ---
-pagename: Structured content for chat
+pagename: Structured content for chat user guide
 categoryName: Messaging channels
 subCategoryName: Rich messaging
 indicator: chat
 subtitle: Agents are able to send structured content cards including text, images,
   maps and buttons, to enhance the conversation with the consumer.
 level3: ''
-permalink: messaging-channels-rich-messaging-structured-content-for-chat.html
+permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 14:08:32 +0200

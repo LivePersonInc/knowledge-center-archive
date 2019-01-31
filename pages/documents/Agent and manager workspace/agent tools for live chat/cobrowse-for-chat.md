@@ -1,16 +1,16 @@
 ---
-pagename: CoBrowse for chat
+pagename: CoBrowse for live chat
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: Give consumers an enhanced customer service experience using CoBrowse video
   chat capabilities
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-chat.html
+permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html
 isTutorial: true
 isNew: false
 date: 2019-01-30 14:43:16 +0000
-published: false
+published: true
 
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.

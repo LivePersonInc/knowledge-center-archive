@@ -11,7 +11,6 @@ isTutorial: false
 date: 2019-01-16 11:37:29 +0000
 
 ---
-# Introduction
 
 This User Guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 

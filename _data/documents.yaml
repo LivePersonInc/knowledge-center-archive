@@ -15,7 +15,6 @@
       pages:
         - pagename: Add web messaging to your website
         - pagename: Authenticated web messaging
-        - pagename: Upgrading from live chat to messaging
     - subcategoryname: "Mobile app messaging"
       pages:
         - pagename: Add messaging to your mobile app
@@ -36,6 +35,7 @@
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
+        - pagename: Displaying chat engagements
     - subcategoryname: Messaging channels capabilities comparison
     - subcategoryname: Rich messaging
       pages:
@@ -45,7 +45,7 @@
         - pagename: Quick replies user guide
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
-        - pagename: Engagement Window Widgets
+        - pagename: Engagement window widgets
 
 - categoryname: "Bots & automation"
   image: bots-automation
@@ -118,7 +118,7 @@
     - subcategoryname: Campaigns
       pages:
         - pagename: Campaigns overview
-        - pagename: Campaign Goals
+        - pagename: Campaign goals
         - pagename: Target audience
         - pagename: Time frame
         - pagename: Creating buttons and banners
@@ -126,22 +126,21 @@
         - pagename: Entry point
         - pagename: Visitor behavior
         - pagename: Managing campaigns
-        - pagename: Campaign options
-        - pagename: Campaign dashboard and databar
+        - pagename: Campaign settings
+        - pagename: Campaign dashboard and data bar
 
 - categoryname: "Agent & manager workspace"
   image: agent-manager
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
-        - pagename: "Core principles of messaging & operations"
         - pagename: "Introduction to agents: working with asynchronous messaging"
         - pagename: Agent workspace for messaging tour
         - pagename: Agent workspace basics
         - pagename: Managing messaging conversations
         - pagename: Taking breaks & ending your shift
         - pagename: Understanding agent performance
-        - pagename: Cobrowse for messaging
+        - pagename: CoBrowse for messaging
         - pagename: Best practices for messaging agents
         - pagename: Agent workspace icons for messaging
     - subcategoryname: Manager tools for messaging
@@ -151,19 +150,19 @@
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent workspace for live chat
-        - pagename: Cobrowse for live chat
+        - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
         - pagename: The all agents list
         - pagename: Web history
     - subcategoryname: Workspace configuration
       pages:
-        - pagename: Adding your own Widgets
+        - pagename: Adding your own widgets
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
-        - pagename: Predefined Content best practices
-        - pagename: Predefined Content overview
-        - pagename: Importing Predefined Content
+        - pagename: Predefined content best practices for messaging
+        - pagename: Predefined content overview
+        - pagename: Importing predefined content
 
 - categoryname: "Data & reporting"
   image: data-reporting
@@ -171,8 +170,7 @@
     - subcategoryname: Business Reporting Metrics
     - subcategoryname: Messaging
       pages:
-        - pagename: Agent manager messaging real time data
-        - pagename: Agent manager historical messaging data
+        - pagename: Real time data for messaging
         - pagename: Messaging Dashboards
           level3:
             - level3name: Post conversation survey
@@ -183,8 +181,7 @@
             - level3name: Real Time Messaging Dashboard Overview
     - subcategoryname: Live chat
       pages:
-        - pagename: Agent manager real time data
-        - pagename: Agent manager historical data
+        - pagename: Real time data for chat
         - pagename: Chat Dashboards
           level3:
             - level3name: Survey activity dashboard
@@ -197,8 +194,8 @@
     - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
-        - pagename: "Accessing the MCS toolkit"
-        - pagename: "Using the MCS toolkit"
+        - pagename: Accessing the toolkit
+        - pagename: Using the MCS toolkit
     - subcategoryname: Report Builder
       pages:
         - pagename: Report Builder Overview
@@ -235,10 +232,6 @@
         - pagename: Customize permissions
     - subcategoryname: Set the Time Zone
     - subcategoryname: "System Requirements & Supported Languages"
-    - subcategoryname: Support
-      pages:
-        - pagename: Service Status Dashboard
-        - pagename: Case Management Support
 
 - categoryname: "Security & regulations"
   image: security-regulations
@@ -251,10 +244,11 @@
         - pagename: Configuring your Firewall
         - pagename: IP address blocking
         - pagename: IP restriction
+    - subcategoryname: LivePerson disaster recovery
+    - subcategoryname: HIPPA compliance
     - subcategoryname: Secure forms
       pages:
-        - pagename: Secure form for messaging overview
-        - pagename: Secure form for messaging user guide
+        - pagename: Secure forms for messaging user guide
         - pagename: Secure forms for chat user guide
     - subcategoryname: SSO unified login
     - subcategoryname: Accessibility policy

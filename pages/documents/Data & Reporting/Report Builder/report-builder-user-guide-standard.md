@@ -11,7 +11,6 @@ date: 2019-01-10 11:10:56 +0200
 level3: ''
 
 ---
-# Getting started with Report Builder
 
 ## Accessing Report Builder
 

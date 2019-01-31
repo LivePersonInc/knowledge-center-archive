@@ -1,12 +1,12 @@
 ---
-pagename: Engagement window widget SDK
+pagename: Engagement window widgets
 categoryName: Messaging channels
 subCategoryName: Rich messaging
 indicator: both
 subtitle: intelligently share product information & rich media during a conversation
   with the visitor in a dedicated area on the engagement window
 level3: ''
-permalink: messaging-channels-rich-messaging-engagement-window-widget-SDK.html
+permalink: messaging-channels-rich-messaging-engagement-window-widgets.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 14:54:28 +0200
@@ -28,4 +28,4 @@ The SDK can also be integrated with the agent workspace widget SDK, allowing ric
 {: .notice}  
 The SDK requires technical deployment by LivePerson professional services.
 
-Further information and technical documentation on the engagement window widget SDK can be found [here](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html). 
+Further information and technical documentation on the engagement window widget SDK can be found [here](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html).
