@@ -39,7 +39,7 @@ function navigateContent(url) {
 			window.scrollTo(0, 0);
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#mysidebar').slideUp(400);
-				$('#mysidebar').data("expanded", "false");
+				$('#mysidebar').data('expanded', 'false');
 			}
 		})
 		.fail(function () {
@@ -53,7 +53,7 @@ function linkclick(event, that) {
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
 	//grab the url to which the link is pointing
-	var url = $(that).attr("href");
+	var url = $(that).attr('href');
 	// call the navigateContent function and pass that url to it
 	navigateContent(url);
 	//make sure the window recognizes this and adds it to the history queue for back and refresh actions
@@ -131,7 +131,6 @@ function populateAnchors() {
 
 function sideBarClick () {
 	$("#defaultsidebar").on("click", ".canOpen", function (event){
-		console.log("clickedtop");
 		var hasExpanded = $(this).data("expanded") == "true";
 		var nextGetsOpened = $(this).nextAll(".getsOpened");
 		var childCanOpen = nextGetsOpened.find(".canOpen");
@@ -162,7 +161,6 @@ function sideBarClick () {
 	return false;
 });
 	$("#defaultsidebar").on("click", "a", function () {
-		console.log("clickedbottom");
 		if ($(this).hasClass("activeitem")) {
 			$(this).removeClass("activeitem");
 		} else {
@@ -342,12 +340,16 @@ $(window).scroll(function() {
 				 //find the matching link in the anchorlist
 				 var current = $('a[href="#' + id + '"]');
 				 //set it to active
-				 current = current.addClass("active");
+				 current = current.addClass('active');
 		 } else if (position == 140) {
 			 $('.anchorlist > ul > li > a').removeClass('active');
 			 $('.anchorlist > ul > #jumptotop > a').addClass('active');
 		 }
     });
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			 $('.anchorlist > ul > li > a').removeClass('active');
+       $('.anchoritem').last().addClass('active');
+   };
 });
 
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special

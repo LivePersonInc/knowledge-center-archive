@@ -543,7 +543,7 @@ a.mainlink:hover {
   font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
   font-weight: 300;
   color: #272727;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   padding-top: 35px;
 }
 
@@ -589,6 +589,12 @@ a.mainlink:hover {
   text-align: center;
   align-self: center;
   margin-top: 40px;
+  max-height: 20px;
+  height: 20px;
+}
+
+.seeallbox:last-child {
+  margin-top: 42px;
 }
 
 #homefooter {
