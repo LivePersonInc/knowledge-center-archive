@@ -23,7 +23,7 @@ This dashboard includes metrics used to analyze skill queue performance. This da
 
 The following panel will be presented when accessing the skill activity predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
 
-![](/img/skillsact1.png)
+![](/img/skillsact1 (1).png)
 
 Image 1 - Skill activity dashboard main panel
 
