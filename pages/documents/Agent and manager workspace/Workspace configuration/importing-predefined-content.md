@@ -46,7 +46,7 @@ In order to import content successfully and avoid import errors, simply follow t
 |    12    |    en-US    |    Chat again    |    Please feel free to contact us at any time.    |    Closing    |
 |    22    |    en-UK    |    Chat again    |    Thank you for your time.    Please do contact us again whenever you need assistance.     |    Closing    |
 
-
+{:start="5"}
 2. Save the edited file. Make sure to save it with a **UTF 8 encoding** only. Other encoding files are not supported.
 
 {: .important}
