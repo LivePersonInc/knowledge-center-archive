@@ -33,6 +33,8 @@ In order to import content successfully and avoid import errors, simply follow t
        * In order to avoid mistakes, it’s recommended to sort the existing item numbers and proceed with the same sequences.
      * **Language column:**
        * To add a new translation row (to existing predefined content), duplicate the row, keep the existing item ID but change the language code as needed.
+     * **Hot Keys column:*  
+    	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
 
 For example:
 
@@ -44,9 +46,8 @@ For example:
 |    12    |    en-US    |    Chat again    |    Please feel free to contact us at any time.    |    Closing    |
 |    22    |    en-UK    |    Chat again    |    Thank you for your time.    Please do contact us again whenever you need assistance.     |    Closing    |
 
-     * **Hot Keys column:*  
-     	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
-2. Save the edited file. Make sure      to save it with a **UTF 8 encoding** only. Other encoding files are not      supported.
+
+2. Save the edited file. Make sure to save it with a **UTF 8 encoding** only. Other encoding files are not supported.
 
 {: .important}
 **Note**: Using the ';' character in the file is not supported - ';' is considered as a new line in the import process and may create undesired behavior. In order to prevent this, avoid using this character in any of the cell values.
