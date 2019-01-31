@@ -54,7 +54,7 @@ CoBrowse technology has an enhanced level of security in comparison to tradition
 
 **The basic CoBrowse process is described in the image below:**
 
-**![](https://lh3.googleusercontent.com/LX_pfbnIPPCFlCJK6aXzmeXRF6_v3N0M4YM3hO0bxk9DeEli59nYrW4BF6o3KBL0XU4-UILpEp8NeXFMEVz00FjSHwqYJuL6BOyrK6V-E5I9ILdFYV6mWqZaeagxDd47-p5YLzzK =624x180)**
+![](/img/cb for chat 1.png)
 
 The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
 
@@ -71,13 +71,14 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 | In interactive mode, all agent actions are displayed in the consumer’s browser. | If the agent performs actions in Interactive Mode, these are transmitted to the consumer’s browser. |
 | In view-only mode, agent mouse movements and highlights are displayed in the consumer’s browser. | In view-only mode, only mouse movements and highlighting actions are transmitted to the consumer’s browser. |
 
+
 ## Configuration
 
 **To configure CoBrowse through Night Vision:**
 
 1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
 
-![](https://lh3.googleusercontent.com/-kz9wSsxLXJOBf_Flx8AhafRLQ75xgsYzgViPGAcN80EouLAIsm0P6zac_DoD9K40NiQNhnW9B-bgHFVUMKjfd5eCEIe7u9XyYp3l4yx0Vx2wv5YVc_61MNsPFznHK_BqViAky_T =430x85)
+![](/img/cb for chat 2.png)
 
 {:start="2"}
 2\. Click Agent Workspace Configuration.
