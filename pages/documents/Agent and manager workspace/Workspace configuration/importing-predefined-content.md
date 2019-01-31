@@ -44,8 +44,8 @@ For example:
 |    12    |    en-US    |    Chat again    |    Please feel free to contact us at any time.    |    Closing    |
 |    22    |    en-UK    |    Chat again    |    Thank you for your time.    Please do contact us again whenever you need assistance.     |    Closing    |
 
-1. Hot Keys column:  
-   The Hot keys combinations are unique, you cannot use the same hot key in        2 different item numbers. You may leave this cell empty if hot key is        not needed.
+     * **Hot Keys column:*  
+     	* The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
 2. Save the edited file. Make sure      to save it with a **UTF 8 encoding** only. Other encoding files are not      supported.
 
 {: .important}
