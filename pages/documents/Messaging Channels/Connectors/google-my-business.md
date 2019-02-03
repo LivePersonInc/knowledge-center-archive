@@ -6,10 +6,13 @@ indicator: messaging
 subtitle: 'Tap into Google''s network to build relationships and develop more prospects '
 level3: ''
 permalink: messaging-channels-google-my-business.html
-isTutorial: false
-date: 2019-01-20 14:52:49 +0200
+isTutorial: true
+date: 2019-01-20 12:52:49 +0000
+isNew: false
 
 ---
+[https://vimeo.com/238914379/076382ea40](https://vimeo.com/238914379/076382ea40 "https://vimeo.com/238914379/076382ea40")
+
 Millions of brands are already using Google My Business to engage with consumers. By offering click to message, brands enable consumers to connect with them using their native SMS app, meaning they can tap into the wide pool of consumers who prefer to use messaging.
 
 ## Why use Google My Business to connect with your consumers?
@@ -32,18 +35,12 @@ The Google My Business connector enables consumers to message your brand via SMS
 3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
 
-   ![](/img/google my business 1.png)
+<div class="important">
 
-<div class="important"> 
-
-<b>Note:</b> 
-
-<ul> 
-
-<li>Due to a Google limitation, the Google My Business connector is **only available to accounts in the US & Canada**.</li> <li>The character limit for messages sent by consumers on the Google My Business channel is 5000.</li> 
-
-</ul> 
-
+<b>Note:</b>
+<ul>
+<li>Due to a Google limitation, the Google My Business connector is only available to accounts in the US & Canada.</li> <li>The character limit for messages sent by consumers on the Google My Business channel is 5000.</li>
+</ul>
 </div>
 
 ## Setup
