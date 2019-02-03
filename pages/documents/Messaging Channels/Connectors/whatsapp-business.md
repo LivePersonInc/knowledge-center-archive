@@ -6,12 +6,16 @@ indicator: messaging
 subtitle: Tap into the most popular consumer messaging channel on Earth
 level3: ''
 permalink: messaging-channels-whatsapp-business.html
-isTutorial: false
-date: 2019-01-20 14:34:09 +0200
+isTutorial: true
+date: 2019-01-20 12:34:09 +0000
+isNew: false
 
 ---
+[https://vimeo.com/310297164/433ee63036](https://vimeo.com/310297164/433ee63036 "https://vimeo.com/310297164/433ee63036")
+
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
 
+{: .notice}
 **Please note:** The WhatsApp Business connector to LiveEngage is being rolled out in a limited beta program! Selective brands that have been approved by WhatsApp and signed a beta agreement can participate. Brands that are interested in participating should contact their LivePerson account team for more information.
 
 ## Why use WhatsApp to connect with your consumers?
