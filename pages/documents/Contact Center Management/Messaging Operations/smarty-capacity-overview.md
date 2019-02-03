@@ -10,7 +10,6 @@ permalink: contact-center-management-messaging-operations-smart-capacity-overvie
 isTutorial: true
 date: 2019-01-17 11:53:17 +0000
 isNew: false
-published: false
 
 ---
 ## **Messaging's impact on the conversations lifecycle**
