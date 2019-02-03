@@ -29,7 +29,7 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 
 \*For more information on leveraging these channels contact your LivePerson representative
 
-![](/img/Channel sources gif.gif)
+![](/img/Channel sources gif-1.gif)
 
 ## Why manage conversations with LivePerson?
 
