@@ -7,10 +7,13 @@ subtitle: Tap into the millions of consumers connecting over Facebook using the 
   of LivePerson
 level3: ''
 permalink: messaging-channels-facebook-messenger.html
-isTutorial: false
+isTutorial: true
 date: 2019-01-20 09:10:07 +0000
 isNew: true
+
 ---
+[https://vimeo.com/238902683/b0028db4f5](https://vimeo.com/238902683/b0028db4f5 "https://vimeo.com/238902683/b0028db4f5")
+
 With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
 
 ## Why use Facebook Messenger to connect with your consumers?
@@ -49,14 +52,14 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 1. On the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote
 2. From the Conversation Sources tab, click **Connect** in the Facebook Messenger box
 
-![](/img/FB connector 1.png)
+![](/img/FB connector 1-1.png)
 
 {:start="3"}
 
 1. Enable the Activate Facebook Source toggle
 2. Click **Next**
 
-![](/img/FB connector 2.png)
+![](/img/FB connector 2-1.png)
 
 {:start="5"}
 
@@ -68,7 +71,7 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 1. Select the relevant Facebook page(s) to subscribe the account to
 
-![](/img/FB connector 3.png)
+![](/img/FB connector 3-1.png)
 
 {:start="7"}
 
@@ -80,4 +83,4 @@ In order for messages sent directly from your Facebook Messenger inbox (via a Fa
 
 On the Facebook connector page, under **Add a Facebook external user**, simply select the FB External User profile you have just created and click **Done**.
 
-![](/img/FB connector 4.png)
+![](/img/FB connector 4-1.png)

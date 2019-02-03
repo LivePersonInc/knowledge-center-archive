@@ -7,14 +7,18 @@ subtitle: Offer an enriched messaging experience with the capabilities of RCS
 level3: ''
 permalink: messaging-channels-google-rcs-business-messaging.html
 isTutorial: false
-date: 2019-01-20 14:14:47 +0200
+date: 2019-01-20 12:14:47 +0000
+isNew: false
 
 ---
 With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale.
 
-**Please note:** the Google RSC Business Messenger Connector is currently in beta mode. Brands that are interested in participating should speak to their LivePerson account team.
+{: .notice}
+**Note:** the Google RSC Business Messenger Connector is currently in beta mode. Brands that are interested in participating should speak to their LivePerson account team.
 
 ## What is RCS?
+
+![](/img/rcs connector 1-3.gif)
 
 RCS, or Rich Communication Services, is a communication protocol between mobile telephone carriers and between phone and carrier, which aims to replace SMS with a text-message system that is richer and supports multimedia.
 
@@ -38,10 +42,14 @@ Google RCS Business Messaging is built on top of the RCS standard, providing an 
 
 ## How conversations start
 
-### IVR deflection:
+### IVR deflection
+
+![](/img/rcs connector 2-1.gif)
 
 Brands can deflect consumers from voice call to Google RCS Business Messaging using IVR deflection. Proactive notifications from IVR systems will allow brands to share an alert with the consumer, guiding them to continue the conversation over RCS Business Messaging.
 
 ### Business activity alerts:
+
+![](/img/rcs connector 3-1.gif)
 
 Brands can integrate their business systems (CRM, marketing automation) and share notifications of real-time business actions with consumers on Google RCS Business Messaging.

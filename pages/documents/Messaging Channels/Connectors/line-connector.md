@@ -7,9 +7,12 @@ subtitle: Connect with the millions of consumers actively using Line monthly
 level3: ''
 permalink: messaging-channels-line-connector.html
 isTutorial: false
-date: 2019-01-20 15:11:55 +0200
+date: 2019-01-20 13:11:55 +0000
+isNew: false
 
 ---
+[https://vimeo.com/251149506/c8e32c4816](https://vimeo.com/251149506/c8e32c4816 "https://vimeo.com/251149506/c8e32c4816")
+
 LiveEngage is now seamlessly integrated into Line, offering your brand the opportunity to tap into the millions of consumers connecting on it. Set up is easy and allows your agents to create ongoing connections with valuable customers right away; to onboard Line to your account, please contact your LivePerson account team.
 
 ## Why use Line to connect with your consumers?
@@ -20,16 +23,14 @@ LiveEngage is now seamlessly integrated into Line, offering your brand the oppor
 * **Easy bot integrations** — Bots can offer service and sales assistance to customers directly through Line, with seamless transition to a human agent available as and when required.
 * **Enriched messaging experience** — Our Sticker web application, combined with a specialized widget in the agent workspace, mean agents can create a friendly and familiar atmosphere in the conversation by sending and receiving stickers.
 
-![](/img/line connector 1.jpg)
+  ![](/img/Image-1 (1).jpg)
 
 ## How conversations start
 
 By adding a QR code to an invoice, email or advertisement, brands can allow consumers to initiate a conversation with an agent via Line right away, ensuring you’re ready to offer support exactly when they need you.
 
-![](/img/line connector 2.png)
+![](/img/line connector 2-1.png)
 
-<div class="important"> 
+<div class="important">
 
-<b>Note:</b> 
-
-<li>Due to a Line limitation, the Line connector is only available to accounts in APAC.</li> </div>
+<b>Note:</b>Due to a Line limitation, the Line connector is only available for accounts in APAC.</div>

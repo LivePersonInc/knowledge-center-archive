@@ -10,6 +10,7 @@ permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 13:04:36 +0000
+published: false
 
 ---
 Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
@@ -50,7 +51,7 @@ Most contact centers today are only equipped for chat-like interactions that are
 
 Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
 
-<iframe src="https://player.vimeo.com/video/312966468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[https://vimeo.com/312966468/a98719c6f7](https://vimeo.com/312966468/a98719c6f7 "https://vimeo.com/312966468/a98719c6f7")
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
 

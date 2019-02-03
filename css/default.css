@@ -185,14 +185,6 @@ h3 {
     align-items: center;
   }
 
-  ul.mysidebar.nav {
-    width: 100%;
-  }
-
-  ul.mysidebar.nav > li:first-of-type {
-    margin-top: 15px;
-  }
-
   #defaultsidebar {
     grid-column: 1 / span 2;
     grid-row: 2 / span 3;
@@ -212,66 +204,6 @@ h3 {
     line-height: 24px;
   }
 
-  .anchorlist {
-    width: 30%;
-    order: 2;
-    margin-top: 55px;
-    margin-left: 190px;
-  }
-
-  .anchorlist ul {
-    position: sticky;
-    top: 155px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .anchorlist ul li {
-    list-style: none;
-    margin-bottom: 10px;
-  }
-
-  .anchoritem {
-    text-decoration: none;
-    color: #84a3ea;
-    font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding-left: 10px;
-    display: block;
-  }
-
-  .anchorlist ul li a.active {
-    font-weight: bold;
-    border-left: 4px solid #5879da;
-    color: #5879da
-  }
-
-   #jumptotop a {
-     text-decoration: none;
-     color: #84a3ea;
-     font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
-     font-size: 14px;
-     padding-left: 10px;
-     font-weight: bold;
-     display: block;
-  }
-/*
-  #jumptotop i {
-    margin-right: 10px;
-    color: #5879da;
-  }
-
-  #jumptotop a {
-    color: #5879da;
-    font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-  } */
-
-  #post-content {
-    width: 60%;
-  }
-
   #defaultfooter {
     grid-row: 5 / span 1;
     grid-column: 1 / span 7;
@@ -281,6 +213,74 @@ h3 {
 
 
 /* CSS-Grid Ends */
+
+ul.mysidebar.nav {
+  width: 100%;
+}
+
+ul.mysidebar.nav > li:first-of-type {
+  margin-top: 15px;
+}
+
+.anchorlist {
+  width: 30%;
+  order: 2;
+  margin-top: 55px;
+  margin-left: 190px;
+}
+
+.anchorlist ul {
+  position: sticky;
+  top: 155px;
+  display: flex;
+  flex-direction: column;
+}
+
+.anchorlist ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.anchoritem {
+  text-decoration: none;
+  color: #84a3ea;
+  font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  display: block;
+}
+
+.anchorlist ul li a.active {
+  font-weight: bold;
+  border-left: 4px solid #5879da;
+  color: #5879da
+}
+
+ #jumptotop a {
+   text-decoration: none;
+   color: #84a3ea;
+   font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   padding-left: 10px;
+   font-weight: bold;
+   display: block;
+}
+/*
+#jumptotop i {
+  margin-right: 10px;
+  color: #5879da;
+}
+
+#jumptotop a {
+  color: #5879da;
+  font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+} */
+
+#post-content {
+  width: 60%;
+}
 
 #defaultheader {
   background-color: #2A3A6B;
@@ -933,6 +933,77 @@ h3 {
   width: 100%;
   display: flex;
 }
+
+.defaultwrapperExplorer {
+ display: -ms-grid;
+ -ms-grid-rows: 120px 140px 92px 1fr 50px;
+ -ms-grid-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
+ height: auto;
+ min-height: 100vh;
+}
+
+.defaultwrapperExplorer #defaultheader {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+}
+
+.defaultwrapperExplorer #documenttitlecontainer {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+}
+
+.defaultwrapperExplorer #defaultsidebar {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+}
+
+.defaultwrapperExplorer #defaultsidebar #mysidebar {
+  margin-top: 50px;
+}
+
+.defaultwrapperExplorer #defaultcontent {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 4;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 30px;
+  font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+  color: #272727;
+  line-height: 24px;
+}
+
+.defaultwrapperExplorer #defaultcontent .anchorlist {
+  right: 0;
+}
+
+.defaultwrapperExplorer   #defaultfooter {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    align-items: stretch
+  }
+
+  .defaultwrapperExplorer #defaultfooter #footerbottomrow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  .defaultwrapperExplorer #defaultfooter #footericons {
+    margin-right: 50px;
+  }
 
 /* CSS for the features and metrics tables */
 

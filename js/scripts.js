@@ -98,11 +98,17 @@ function mainBoxClick() {
 			//close it
 			$(this).addClass("closed");
 			$(this).data("expanded", "false");
+			if (window.navigator.userAgent.indexOf("Edge") > -1) {
+				$(this).removeClass("edgeBox");
+			};
 			//if closed
 		} else {
 			//open it
 			$(this).removeClass("closed");
 			$(this).data("expanded", "true");
+			if (window.navigator.userAgent.indexOf("Edge") > -1) {
+				$(this).addClass("edgeBox");
+			};
 		}
 	});
 }
@@ -352,6 +358,13 @@ $(window).scroll(function() {
    };
 });
 
+function isEdge () {
+		var boxes = document.getElementsByClassName("mainbox");
+		$.each(boxes, function() {
+			$(this).addClass('edgeBox');
+		});
+};
+
 //detect if explorer and then add a bunch of classes with its own CSS because it's oh so special
 function isExplorer() {
 	var ua = window.navigator.userAgent;
@@ -361,8 +374,20 @@ function isExplorer() {
 		var nav = document.getElementById('homenav');
 		var header = document.getElementById('homeheader');
 		var documenttitlecontainer = document.getElementById('hometitle');
+		var boxes = document.getElementsByClassName("mainboxwrapper");
+		var panel = document.getElementById('homepanel');
+		var wrapper = document.getElementById('defaultwrapper');
+		if (nav) {
 		nav.classList.add('homenavexplorer');
 		header.classList.add('homeheaderexplorer');
 		documenttitlecontainer.classList.add('hometitleexplorer');
+		panel.classList.add('homepanelexplorer');
+		};
+		if (wrapper) {
+			wrapper.classList.add('defaultwrapperExplorer');
+		};
+		$.each(boxes, function() {
+			$(this).addClass("mainboxwrapperExplorer");
+		});
 	}
 };

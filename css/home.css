@@ -238,6 +238,8 @@ body {
   transition: height 0.5s ease;
 }
 
+
+
 #boxesrow .mainboxwrapper:nth-child(1) .mainbox {
   background-color: #5879da;
   height: 100px;
@@ -263,6 +265,14 @@ body {
   -moz-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
+}
+
+.edgeBox {
+  height: unset !important;
+}
+
+.edgeBox .linkbox {
+  margin-top: 160px;
 }
 
 
@@ -801,6 +811,41 @@ a.mainlink:hover {
 }
 
 /* Search Styling Ends */
+
+/* explorer nonsense */
+
+.homenavexplorer {
+  display: flex;
+}
+
+.hometitleexplorer {
+  margin-left: 0 !important;
+  margin-bottom: 230px;
+}
+
+.mainboxwrapperExplorer {
+  flex: none;
+}
+
+.mainboxwrapperExplorer .linkbox {
+  margin-top: 0;
+}
+
+.mainboxwrapperExplorer .bigspan {
+  margin-top: -50px;
+}
+
+.mainboxwrapperExplorer img {
+  display: none;
+}
+
+.homepanelexplorer {
+  padding-bottom: 100px;
+}
+
+.homepanelexplorer .seeallbox {
+  flex: auto;
+}
 
 /* Media Queries */
 
