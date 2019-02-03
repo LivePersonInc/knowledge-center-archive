@@ -34,8 +34,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 2. Consumer searches for the business on Google and taps the button.
 3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
-
-   ![](/img/middle phone-1.png)
+5. ![](/img/middle phone-2.png)![](/img/middle phone-1.png)
 
 <div class="important">
 
