@@ -141,6 +141,7 @@ pages:
 - pages/documents/Data & Reporting/Report Builder/conversation-outcomes.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
+- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
@@ -182,7 +183,6 @@ pages:
 - pages/documents/Contact Center Management/Campaigns/time-frame.md
 - pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
-- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-chat-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/real-time-messaging-dashboard-beta-overview.md
