@@ -9,7 +9,6 @@ permalink: messaging-channels-sms-twilio-sms-connector-setup.html
 isTutorial: true
 date: 2019-01-17 15:11:38 +0000
 isNew: false
-published: false
 
 ---
 Vimeo link: [https://vimeo.com/238919599/fea034b4d2](https://vimeo.com/238919599/fea034b4d2 "https://vimeo.com/238919599/fea034b4d2")
