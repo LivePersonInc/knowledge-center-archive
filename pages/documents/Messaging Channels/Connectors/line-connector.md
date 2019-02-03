@@ -29,7 +29,7 @@ LiveEngage is now seamlessly integrated into Line, offering your brand the oppor
 
 By adding a QR code to an invoice, email or advertisement, brands can allow consumers to initiate a conversation with an agent via Line right away, ensuring you’re ready to offer support exactly when they need you.
 
-![](/img/line connector 2.png)
+![](/img/line connector 2-1.png)
 
 <div class="important">
 
