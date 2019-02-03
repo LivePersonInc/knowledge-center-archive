@@ -16,7 +16,7 @@ Predefined content gives your brand the ability to develop canned responses that
 ## Structuring predefined content
 
 * **Name your responses well.**
-  * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. I.e. do not call the response ResponseOption2, or SC4200T.
+  * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
 * **Number your responses.**
   * The system will automatically order the responses alphabetically. Place a number in front of your responses to keep these in your desired order for each category.
 * **Keep categories succinct and specific**, and in the same order as the conversation flow.
