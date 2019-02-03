@@ -46,8 +46,8 @@ Consider that messaging requires short, to the point and conversational response
   * Keep in mind that certain devices have a character limit. Ensure that links do not fall over this limit as they will not work for the customer if incomplete.
 * **Manage expectations**
   * Help support your agent with responses that manage expectations. Instead of, ‘This will take 5 minutes, could you please wait?’, consider ‘I’ll get back to you when this is done.’ Also, have responses ready to set the scene for customer if there is a lot of data or many questions coming their way.
-* **Ensure that you have responses explaining what messaging is**. We suggest a strong opener.
-  * You customers will need an introduction to messaging. We suggest that an opening response explaining messaging is used.
+* **Explain messaging**
+  * You customers will need an introduction to messaging. We suggest that a strong opening response explaining messaging is used.
 * **More than one question at a time**
   * It can be frustrating for your customer to have to answer lots of questions. For messaging, consider asking up to three questions at one time, but no more. For example, “Can I please have you name, phone number and address?”
 
