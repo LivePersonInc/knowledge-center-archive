@@ -10,7 +10,6 @@ permalink: messaging-channels-messaging-connectors-overview.html
 isTutorial: false
 date: 2019-01-20 08:03:12 +0000
 isNew: false
-published: false
 
 ---
 Many popular messaging channels now enable brands to interact with their consumers using their preferred channel. For brands, creating a presence on these channels is key to building connections and creating prospects. LivePerson’s platform gives brands the ability to maintain this presence and effectively manage conversations from a range of channels simultaneously.
