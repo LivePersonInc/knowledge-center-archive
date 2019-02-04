@@ -20,10 +20,10 @@ This configuration allows you to define several campaigns, each with its own tim
 1. From the campaigns list, select a specific campaign.
 2. On the campaign page, hover over **campaign time frame** and click **edit.**
 
-![](/img/time frame 1.png)
+![](/img/time frame 1-8.png)
 
 {:start="3"}
-3. The campaign time frame page will open.
+3\. The campaign time frame page will open.
 
 ## Defining the active time frame
 
@@ -59,13 +59,12 @@ You may choose between the following options:
 You may choose between:
 
 1. **All hours (default)** - If a campaign is set for all hours it will be considered active on this day from 12:00 a.m. until 11:59 p.m.
-
 2. **Custom** - For custom hours, manually input the active campaign hours for the day. The input must be in the following format: **HH:MM am/pm** and **in 5 minute intervals only.** The only exception is 11:59 pm, which can also be defined in order to define a shift that lasts until midnight.
 
 ![](/img/time frame 5.png)
 
 {:start="3"}
-3. **Off** - If set to off, the campaign will be considered inactive on this day from 12:00 am until 11:59 pm.
+3\. **Off** - If set to off, the campaign will be considered inactive on this day from 12:00 am until 11:59 pm.
 
 #### Defining multiple shifts per day
 
@@ -78,8 +77,8 @@ You can define multiple shifts for a single day of the week by doing the followi
    ![](/img/time frame 6.png)
 
 {:start="4"}
-4. Click **done.**
-5. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
+4\. Click **done.**
+5\. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
 ![](/img/time frame 7.png)
 
@@ -92,6 +91,7 @@ A special occasion is used when there is an exception to the campaign's typical 
 ![](/img/time frame 8.png)
 
 {:start="2"}
+
 1. Click **add new**, or edit an existing library item.
 2. Fill in the special occasion item name, description (optional) and timezone
 3. In order to add new occasions to the list, click the “Add line” button
@@ -112,16 +112,16 @@ You may choose between:
 ![](/img/time frame 11.png)
 
 {:start="6"}
-6. Save the page.
+6\. Save the page.
 
-7. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
+1. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
 
 ![](/img/time frame 12.png)
 
 {:start="8"}
-8. Click “**Done**.”
+8\. Click “**Done**.”
 
-9. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
+1. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
 
 ## Saving the campaign with new settings
 
