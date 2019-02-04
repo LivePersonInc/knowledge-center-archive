@@ -15,7 +15,7 @@ Audio messaging allows consumers to send audio messages to brands. The audio is 
 
 The feature is available starting with SDK v3.2. It is also available for Facebook Messenger and Apple Business Chat connectors.
 
-![](/img/Audio_messaging_Gif-1.gif)
+![](/img/Audio messaging Gif-1.gif)
 
 ## Use cases
 
@@ -43,8 +43,6 @@ Audio Messaging is ideal for consumers who would prefer to send a voice recordin
 * Cancel a recording without sending the message
 * Resend if upload failed
 
-### ![](/img/Screen Shot 2019-01-27 at 2.00.16 PM.png)
-
 ### Agent
 
 * Receive a security-safe (malware scanned) audio messages from supported consumer channels
@@ -56,7 +54,7 @@ Audio Messaging is ideal for consumers who would prefer to send a voice recordin
 * Navigate through the audio message
 * Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections
 
-  ![](/img/audiom3.png)
+![](/img/audiom3 (1).png)
 
 ## How to send an audio message (consumer side only)
 
@@ -77,7 +75,7 @@ LiveEngage will support the following audio messages flow:
 * An agent can play and replay audio messages sent by consumers for open and closed conversations (the agent cannot record audio messages)
 * A consumer can replay his own audio messages (speaker only) - as supported on each channel
 
-  ![](/img/Screen Shot 2019-01-27 at 2.01.34 PM.png)
+![](/img/Screen_Shot_2019-01-27_at_2.01.34_PM.png)
 
 ## Configurations
 
