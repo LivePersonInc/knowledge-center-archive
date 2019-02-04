@@ -35,8 +35,6 @@ On the campaign time frame page, under **active date range:**
 2. Choose the campaign end date. You may also define the end date as **no end date**, so that that campaign will stay active until it is manually changed.
 3. Configure the campaign time zone: Choose the time zone from the dropdown list during which you wish your campaign to be active.
 
-![](/img/time frame 2.png)
-
 ### Campaign active days and hours
 
 On the campaign time frame page, below **active days and hours (in selected timeframe)**, define the days and hours in which your campaign will be active for within the defined date range.
@@ -45,26 +43,19 @@ You may choose between the following options:
 
 * **All hours:** The campaign will be active all day (12:00 a.m. - 11:59 p.m.) on all days within the defined date range.
 * **Specific hours:** Fill in the specific hours in which your campaign will be active for all days within the defined date range. The time format should be hh:mm, e.g: 05:45 pm
-
-![](/img/time frame 3.png)
-
 * **Custom recurrence:** Use different campaign activation hours for different days of the week.
   1. Under the **custom recurrence**, click the **set days and hours button** in order to access the schedule library
   2. Click **add new** or edit an existing library item
   3. Fill in the Schedule item name, description (optional) and timezone
   4. Define the campaign’s hours of operation for each day of the week
 
-![](/img/time frame 4.png)
+![](/img/time fram 4-5.png)
 
 You may choose between:
 
 1. **All hours (default)** - If a campaign is set for all hours it will be considered active on this day from 12:00 a.m. until 11:59 p.m.
 2. **Custom** - For custom hours, manually input the active campaign hours for the day. The input must be in the following format: **HH:MM am/pm** and **in 5 minute intervals only.** The only exception is 11:59 pm, which can also be defined in order to define a shift that lasts until midnight.
-
-![](/img/time frame 5.png)
-
-{:start="3"}
-3\. **Off** - If set to off, the campaign will be considered inactive on this day from 12:00 am until 11:59 pm.
+3. **Off** - If set to off, the campaign will be considered inactive on this day from 12:00 am until 11:59 pm.
 
 #### Defining multiple shifts per day
 
