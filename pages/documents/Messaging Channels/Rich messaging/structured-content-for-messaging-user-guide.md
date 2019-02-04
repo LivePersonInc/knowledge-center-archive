@@ -70,7 +70,7 @@ Deep linking allows brands to direct consumers to relevant pages within their ap
 
 Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
-xxx
+![](/img/Carousel.gif)
 
 ## Enabling structured content
 
