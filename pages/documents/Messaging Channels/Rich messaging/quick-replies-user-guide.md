@@ -18,9 +18,9 @@ The LivePerson messaging solution allows brands to enrich the conversions with t
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
-It creates an easier, faster way for consumer to respond to messages. For bot interactions, Quick Replies provide a direction for the conversation and help set expectations as to what the bot can do.
+It creates an easier, faster way for consumer to respond to messages. For bot interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
-Quick Replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
+Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
 
 LiveEngage enables sending 1-24 Quick Reply chips per message. Each chip can have:
 
