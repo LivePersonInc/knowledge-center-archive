@@ -405,6 +405,8 @@ a.mainlink:hover {
   padding: 15px 72px;
   border: 1px #FF670E solid;
   margin-bottom: 60px;
+  text-decoration: none;
+  color: inherit;
 }
 
 #homepanel {
@@ -845,6 +847,10 @@ a.mainlink:hover {
 
 .homepanelexplorer .seeallbox {
   flex: auto;
+}
+
+.homepanelexplorer #panelcontentcontainer {
+  margin-top: 0;
 }
 
 /* Media Queries */

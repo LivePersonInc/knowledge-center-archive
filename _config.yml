@@ -19,9 +19,9 @@ port: 4000
 google_analytics: UA-132314885-1
 
 
-# extlinks:
-#   attributes: {target: _blank, onclick: "linkclick(event, this)"}
-# This tells the extlinks plugin which attribute to add to links
+extlinks:
+  attributes: {target: _blank, onclick: "linkclick(event, this)"}
+#This tells the extlinks plugin which attribute to add to links
 
 plugins:
   # - algoliasearch-jekyll

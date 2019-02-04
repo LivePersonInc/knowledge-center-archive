@@ -10,7 +10,7 @@ permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 13:04:36 +0000
-published: false
+published: true
 
 ---
 Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
