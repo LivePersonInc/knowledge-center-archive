@@ -10,7 +10,7 @@ permalink: messaging-channels-rich-messaging-photo-sharing-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 07:47:02 +0000
-published: true
+published: false
 
 ---
 Photo sharing is available for the following messaging connectors: Google RCS Business Messaging, WhatsApp Business, Apple Business Chat and Twilio SMS (for Twilio, only available in the US and Canada).
@@ -28,7 +28,7 @@ Photo sharing is available for the following messaging connectors: Google RCS Bu
 5. Click save
 6. Publish the campaign
 
-   ![](/img/photosharing1.png)
+![](/img/photosharing1 (1).png)
 
 ## Consumer side: sending a photo
 
