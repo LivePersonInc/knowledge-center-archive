@@ -148,13 +148,13 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 ### **Limitations**
 
 * Only assigned agents can view shared images in a conversation, for both open and closed conversations.
-* **Storage:** In-App storage is up to 20 images (configurable).
+* Storage: In-App storage is up to 20 images (configurable).
 * User cannot remove a single image that they have shared (clear history will clear local device image only).
 * Send button from photo preview is always enabled.
 * No actions on photo (copy/ delete etc.).
-* **Supported image formats:** png, jpg, jpeg and gif (non-animated).
+* Supported image formats: png, jpg, jpeg and gif (non-animated).
 
-  **Behavior**
+  ### Behavior
 
   Photo size reduction:
   * Thumbnail: 30KB
