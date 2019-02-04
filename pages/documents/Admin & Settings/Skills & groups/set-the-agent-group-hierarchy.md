@@ -57,11 +57,11 @@ In some cases, when agent managers are also configured to take conversations, th
 
 Groups are an efficient way to logically organize and manage the users in your organization. They save you time performing administrative actions: you have the ability to define, modify and set configurations for a group of agents as a mass instead of defining it many times per each user.
 
-Adding a new Agent Group
+### Adding a new agent group
 
 The **Add group** button will be enabled once you select a parent group from the list. The new group will be set as the subgroup of the selected group.
 
-### **To add a new group:**
+### To add a new group:
 
 1. On the Users tab go to the Agent Group list.
 2. Select the parent group from the list.
@@ -75,12 +75,12 @@ The **Add group** button will be enabled once you select a parent group from the
 
        
      ![](/img/pasted image 0 (4).png)
-5. Click **Save**. The Edit agent group window closes and the agent group list is displayed.
+5. Click **save**. The Edit agent group window closes and the agent group list is displayed.
 6. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
 
 ![](/img/pasted image 0 (5).png)
 
 ### **To edit an agent group:**
 
-1. Click on the Agent Group you want to edit. The Edit Agent Group page will open.
-2. After making your changes, click **Save**.
+1. Click on the agent group you want to edit. The edit agent group page will open.
+2. After making your changes, click **save**.
