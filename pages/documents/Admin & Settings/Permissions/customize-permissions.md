@@ -53,7 +53,7 @@ Profiles and users can only be configured by admins and agent managers with spec
 5. To return the profile to the default permissions set, click **restore defaults**.
 6. **Save** the profile.
 
-![](/img/permissions2.png)
+![](/img/permissions2 (1).png)
 
 ### **To create a user and assign a profile:**
 
@@ -96,8 +96,8 @@ The tables below list the permissions that can be configured per role, along wit
 
 The following core permissions are included with the agent role and cannot be disabled:
 
-* Ability for Agent to change their name, password, regional settings and so on
-* Ability to accept any chat or conversation request, within the Agent’s maximum concurrency limit
+* Ability for agent to change their name, password, regional settings and so on
+* Ability to accept any chat or conversation request, within the agent’s maximum concurrency limit
 * View information about their individual performance
 
 | Agent permissions | Permission definition | Default State (role) |
@@ -120,9 +120,9 @@ The following core permissions are included with the agent role and cannot be di
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Update consumer profile via API | Enables agent to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Agent Manager**
+### **Role: Agent manager**
 
-The following core permissions are included with the Agent Manager role and cannot be disabled:
+The following core permissions are included with the agent manager role and cannot be disabled:
 
 * Ability for Agent manager to change their name, password, regional settings and so on
 * View the status of the chat queue for all Agents in the queue health dashboard
@@ -156,9 +156,9 @@ The following core permissions are included with the Agent Manager role and cann
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an agent manager to configure the shift status | On |
 | Update consumer profile via API | Enables agent manager to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Campaign Manager**
+### **Role: Campaign manager**
 
-The following core permissions are included with the Campaign Manager role and cannot be disabled:
+The following core permissions are included with the campaign manager role and cannot be disabled:
 
 * Ability for Campaign Manager to change their name, password, regional settings and so on
 * View all Campaigns in the Campaigns tab
