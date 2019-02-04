@@ -82,7 +82,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 6\. Set a password. Click **save**.
 
-![](/img/permissions3.png)
+![](/img/permissions3 (2).png)
 
 ## **Definitions, permission and default states**
 
