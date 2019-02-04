@@ -9,55 +9,56 @@ permalink: agent-manager-workspace-workspace-configuration-predefined-content-be
 isTutorial: false
 isNew: false
 date: 2019-01-31 08:27:46 +0000
+published: false
 
 ---
 Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
 
 ## Structuring predefined content
 
-* Name your responses well
-  * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. I.e. do not call the response ResponseOption2, or SC4200T.
-* Number your responses
+* **Name your responses well.**
+  * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
+* **Number your responses.**
   * The system will automatically order the responses alphabetically. Place a number in front of your responses to keep these in your desired order for each category.
-* Keep categories succinct and specific, and in the same order as the conversation flow.
-* Only create as many categories as is needed. Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
-* Don’t create too many responses
+* **Keep categories succinct and specific**, and in the same order as the conversation flow.
+* **Only create as many categories as is needed.** Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
+* **Don’t create too many responses.**
   * It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
-* Consider if a link may do a better job than the response
+* **Consider if a link may do a better job than the response.**
   * In some cases, the customer experience may be enhanced by sending a link. The website may better support and explain a process/procedure/product than through a predefined response.
-* Allow responses to flow as per your process flow
+* **Allow responses to flow as per your process flow.**
   * If you have a process that needs to be followed, ensure the responses mirror this order.
-* Keep manual input for the agent to a minimum
+* **Keep manual input for the agent to a minimum.**
   * Where possible, create the responses in such a way that the agent does not need to add in personalized extra information. (e.g.: I’ve just looked into that for you ‘insert customer name’).
 
 ## Establishing tone and content
 
 Consider that messaging requires short, to the point and conversational responses.
 
-* Short and to the point
+* **Short and to the point**
   * Keep responses succinct and to the point. It is not good practice to send large responses/paragraphs. Consider the size of the screen the customer will be using to read the response.
-* Mirror the brand tone
+* **Mirror the brand tone**
   * Ensure that the responses are not too process driven, and that these mirror the brand tone. A good ‘go to’ for guidelines for this would be any social brand guidelines within the business, as these are the closest to messaging requirements.
-* Keep the language conversational
+* **Keep the language conversational**
   * You want to ensure that the responses sound natural and that the agents will be comfortable injecting these into their conversations. If these are too robotic or scripted, the customer experience is hampered and the agent is less likely to use responses.
-* Use contractions and everyday language
+* **Use contractions and everyday language**
   * Language use greatly effects the tone of the responses. Keep this to everyday language, and use contractions to help cement this. E.g.: ‘I am happy to assist you with this’ could be: I’ll be happy to help.
-* Use character limit and natural line breaks
+* **Use character limit and natural line breaks**
   * Keep in mind that certain devices have a character limit. Ensure that links do not fall over this limit as they will not work for the customer if incomplete.
-* Manage expectations
+* **Manage expectations**
   * Help support your agent with responses that manage expectations. Instead of, ‘This will take 5 minutes, could you please wait?’, consider ‘I’ll get back to you when this is done.’ Also, have responses ready to set the scene for customer if there is a lot of data or many questions coming their way.
-* Ensure that you have responses explaining what messaging is. We suggest a strong opener.
-  * You customers will need an introduction to messaging. We suggest that an opening response explaining messaging is used.
-* More than one question at a time
+* **Explain messaging**
+  * You customers will need an introduction to messaging. We suggest that a strong opening response explaining messaging is used.
+* **More than one question at a time**
   * It can be frustrating for your customer to have to answer lots of questions. For messaging, consider asking up to three questions at one time, but no more. For example, “Can I please have you name, phone number and address?”
 
 ## How to most effectively use hot keys
 
-* Assign hot keys to the most used responses
+* **Assign hot keys to the most used responses**
   * In order for these short cut keys to be effective, these should only be assigned to a number of responses. Try to ensure that these are assigned to the most likely to be used responses.
   * As your team becomes accustomed to predefined responses, you may find it necessary to add more. Consider that the agent needs to remember these short keys and so you don’t want to overload them.
   * It may be useful for new agents to have a printed list of these responses to refer to.
-* Assign hot keys to mirror a process
+* **Assign hot keys to mirror a process**
   * Hot keys can be very useful if assigned to a commonly used process.
 
 ## Operational best practices

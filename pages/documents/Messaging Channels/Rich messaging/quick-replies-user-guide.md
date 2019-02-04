@@ -14,13 +14,13 @@ date: 2019-01-27 14:16:26 +0200
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
 
-![](/img/QuickR1.gif)
+![](/img/quick-replies.gif)
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
-It creates an easier, faster way for consumer to respond to messages. For bot interactions, Quick Replies provide a direction for the conversation and help set expectations as to what the bot can do.
+It creates an easier, faster way for consumer to respond to messages. For bot interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
-Quick Replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
+Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
 
 LiveEngage enables sending 1-24 Quick Reply chips per message. Each chip can have:
 
@@ -43,7 +43,7 @@ The following examples are a selection of a variety of quick replies flows that 
 Use the quick replies for building a dynamic survey flow.  
 Break down the traditional survey structure by sending the survey question as a regular message, and the survey answers as a quick replies bundle.
 
-![](/img/QuickR2.png)
+![](/img/QuickR2 (1).png)
 
 ## Dialogue flow
 
@@ -95,7 +95,7 @@ Determine if the quick replies should be used for a human or virtual agent journ
 **Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).  
 Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpTag.agentSDK.cmdNames.writeSC) commands with a quickRelies payload. This command sends a JSON that represents a Quick Reply input. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/agent-workspace-sdk-methods.html#command).
 
-![](/img/Quickr3.png)
+![](/img/Quickr3 (1).png)
 
 ### **Virtual agent**
 

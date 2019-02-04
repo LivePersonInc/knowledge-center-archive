@@ -7,7 +7,8 @@ subtitle: ''
 level3: ''
 permalink: messaging-channels-sms-complying-with-sms-regulations.html
 isTutorial: false
-date: 2019-01-20 10:46:06 +0200
+date: 2019-01-20 08:46:06 +0000
+isNew: false
 
 ---
 ## Introduction
@@ -21,8 +22,6 @@ Messaging is a two-way communication medium, meaning that both parties—the con
 * If a marketer wishes to initiate communication with a consumer through messaging, it is important to recognize that industry best practices, and in a number of cases a legal mandate, may require that the marketer receive explicit prior consent to send a message to a consumer’s device (also referred to as securing an opt-in).
 * The marketer should provide clear and transparent notice to the consumer as to what they are consenting to receive and a simple way to opt out of receiving future messages.
 
-
-
 **Regulations are often updated to reflect changes in communication technology and use. Listed below are some more recent stipulations:**
 
 * Never send unsolicited phone calls or messages to customers as this violates the TCPA (Telephone Consumer Protection Act).
@@ -33,6 +32,7 @@ Messaging is a two-way communication medium, meaning that both parties—the con
 ## Regulations for brands
 
 ### Text mass marketing
+
 Regulations may prohibit brands from sending mass SMS advertising messages, using autodialers or otherwise, to consumers without their explicit prior written consent. As this is not a feature of the LiveEngage SMS functionality, this document will focus on one-to-one texting.
 
 ### One-to-one texting
@@ -45,7 +45,6 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 
 ### Sample scenarios
 
-
 | Scenario | Possible regulatory issue(s) | Best practice(s) |
 | --- | --- | --- |
 | Follow up a chat lead by texting the person | Without prior written consent, any such text (or call) could violate local regulations. | Collect prior written consent during the chat conversation using Predefined Content (e.g., “Thanks for chatting with us...may we call or text you at the number provided?”). |
@@ -53,9 +52,7 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 | Follow up a text lead (initiated by a person who filled out an online text form) by texting the person. | The online text form should explicitly call out that the consumer is consenting to receive SMS texts and describe the nature of such texts. | Offer customers an opt-out option at the start of the conversation. Ensure that your initial response is timely. |
 | Initiate an outbound text to a person whose mobile phone number was obtained from a marketing list or some other place. | Without prior written consent, any such text (or call) could violate local regulations. This is one of the riskiest scenarios as you don’t really know how or for what purpose the mobile number was gathered. | Do not contact. |
 
-
-
-### 4 Tips to Help Ensure Compliance
+### 4 tips to help ensure compliance
 
 1. **Gather the appropriate written consent wherever you capture phone numbers, from forms to in-person conversations:** Make it part of the process to ask for a customer’s agreement to be contacted via SMS text message. This includes clearly communicating what the customer can expect to receive when providing their number. You can add this to your customer survey(s), or to your Predefined Content which can be sent to the customer during a conversation.
 2. **Add the “message; data rates may apply” disclaimer:** You should add it on consumer-facing calls to action such as the webpage or ad where the customer sees the number or the invitation to text. You want to ensure customers know what to expect even if they text you a question.
@@ -66,12 +63,12 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 
 **Below is an example of how prior consent can be gathered to text (for a one-to-one communication purpose) during a conversation with a consumer:**
 
-**Brand’s customer care professional:** Bill, what is a good phone number for one of our sales members to reach you with the leasing quote?
+**Agent:** Bill, what is a good phone number for one of our sales members to reach you with the leasing quote?
 
-**Consumer:** You can reach me at 555-123- 1234.
+**Consumer:** You can reach me at 555-123-1234.
 
-**brand’s customer care professional:**Thank you, Bill. May we call or text you back at the phone number you’ve just provided?
+**Agent:** Thank you, Bill. May we call or text you back at the phone number you’ve just provided?
 
 **Consumer:** Yes, of course.
 
-**Brand’s customer care professional:** Thank you. We will be in touch as soon as possible.
+**Agent:** Thank you. We will be in touch as soon as possible.

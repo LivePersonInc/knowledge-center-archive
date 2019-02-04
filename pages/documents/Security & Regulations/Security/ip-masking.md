@@ -8,7 +8,7 @@ level3: ''
 permalink: security-regulations-security-IP-masking.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 11:46:01 +0200
+date: 2019-01-24 09:46:01 +0000
 
 ---
 IP masking disables IP address storage for the purpose of regulatory compliance. National guidelines specify that a visitor’s IP address must not be stored by a vendor.
