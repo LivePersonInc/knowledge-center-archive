@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-23 11:39:47 +0000
 
 ---
-Your agents are trained to help visitors according to your business needs.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they are routed to the first available sales agent.
+our agents are trained to help visitors according to your business needs.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they are routed to the first available sales agent.
 
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
 
@@ -67,39 +67,37 @@ The following survey types are supported:
 ![](/img/connectvis3 (1).png)
 
 {: .notice}  
-In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [Profiles (permissions)]().
-
-{: .notice}  
+In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [Profiles (permissions)]().  
 Default survey data is reported on the relevant skill (after the change). The survey answers are visible in Report Builder.
 
-### **Assigning skills to users**
+## **Assigning skills to users**
 
 Users are assigned skills by selecting a skill that you have already created, or typing the name of a new skill, and assigning it to a particular user.
 
-**To assign a skill to a user:**
+### **To assign a skill to a user:**
 
 1. In the users list, click the user’s name.
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
 3. Click save.
 
-   ![](/img/connectvis4.png)
+![](/img/connectvis4 (1).png)
 
-### **Assigning skills to engagements**
+## **Assigning skills to engagements**
 
-**To assign a skill to an engagement:**
+### **To assign a skill to an engagement:**
 
 Assign skills to engagements in the engagement studio, in the campaigns area.
 
 1. Open a campaign by clicking on it.
 2. Click on the engagement to which you want to assign a skill.
 
-![](/img/connectvis5.png)
+![](/img/connectvis5 (1).png)
 
-{:start="3"}
+{:Start="3"}
 
 1. Navigate to the engagement studio.
 2. Click the gear icon to open the settings menu.
 3. Select the skill that you want to assign to your current engagement.
 4. Click **publish**.
 
-![](/img/connectvis6.png)
+![](/img/connectvis6 (1)-1.png)
