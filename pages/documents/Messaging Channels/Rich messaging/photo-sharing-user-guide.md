@@ -143,7 +143,7 @@ The Agent can preview the image by pressing the image thumbnail.
 
 When the agent receives the shared photo, it appears as a thumbnail in the conversation window. The agent can preview the image by pressing the image thumbnail.
 
-![](/img/ps30 (1).png)
+![](/img/ps30 (1) (1).png)
 
 ### **Limitations**
 
