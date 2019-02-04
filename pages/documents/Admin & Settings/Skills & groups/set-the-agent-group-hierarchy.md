@@ -19,7 +19,7 @@ Groups can be divided into **subgroups**. Any group that has subgroups is consid
 
 Each group can have a manager(s) who is capable of viewing the data of their group members and subgroups only. If no manager is assigned to the group, the manager of the group’s parent group is considered the manager of the subgroup and will be able to see its data. This allows managers to focus on their own responsibilities and better manage their teams. In large organizations, where connection centers are managed by different vendors, groups provide a more secure view, since each vendor can view the data of their own group and subgroups only.
 
-![](https://lh4.googleusercontent.com/pO_JvDnMvARMg1P_8kGYd11hmTh7RaNdUUDcJPPrzH8LB8cqUXzHyumEj3q3TdZQCKJhq0Fx13pGaZDTm81udg2E_VSMvBo-R0GCKqVCJJjUIt6M784ibc_FWPd3lKv5w-xy45xQ =390x249)
+![](/img/pasted image 0.png)
 
 _Group B’s managers can view the data of groups B, D and E only._
 
@@ -38,13 +38,13 @@ The agent manager data bar and dashboard provides you with a snapshot of your ag
 
 Please note: Initially all agents are members of the **main** agent group. Once an agent is moved to a different agent group, data relating to the agent’s conversations from that point onwards are available to the manager(s) of the new group only. Data related to the agent’s conversations from before the move are available to the manager(s) of the main agent group only.
 
-![](https://lh4.googleusercontent.com/KNyyjJffSkODg0a-guAizqUWF6F2fr0kzh_WCanOlnAI2ETLw0kAFciyXi5wBZFSiTqLfimSomsa-b6au7VqNnUk5wSjIbOAsZEdgYF-FdBvEupPcbW4_8agAtYD4nVYv8M_8ruH =432x138)
+![](/img/pasted image 0 (1).png)
 
 ### Viewing conversation transcripts
 
 In the web history and all connections tabs you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
 
-![](https://lh3.googleusercontent.com/htUkOMIUUq4lfUAlCHpgKRth7yLIFxEP5lR1Iz86gMdw-WqG8WUwDYbMF57Ob4ATEVkyuVxZ2prt4-76jkdQjxtHBReJonaOgw7aQRtgBkpxBAoltxdnQewpf1HiQNRPeUfhMQzO =428x111)
+![](/img/pasted image 0 (2).png)
 
 * To filter by agent group in **web history,** click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
 * To filter by agent group in **all connections**, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
@@ -66,20 +66,17 @@ The **Add group** button will be enabled once you select a parent group from the
 1. On the Users tab go to the Agent Group list.
 2. Select the parent group from the list.
 
-![](https://lh5.googleusercontent.com/b4W3kJnGS1oCobS4gL79GtG8CTznAoUmLFmFV2XJ9VIaWMUbZMlvl7V1ib0b5nFeXzupWNfFbVvJ8Fhq_zexX97PsOwKkPq4c4k7yRFJ9XA-FEkJqRTV6U1vzC-mBcZvn4wotLVp =432x113)
-
-1. Click **Add group** or click the **Action** menu, and then click **Add**.
-2. Fill in group details:
+   ![](/img/pasted image 0 (3).png)
+3. Click **Add group** or click the **Action** menu, and then click **Add**.
+4. Fill in group details:
    * Type a group name.
    * Type the name of the user(s) you want to assign as a manager(s).
-   * Add members to the group.
+   * Add members to the group.  
+     ![](/img/pasted image 0 (4).png)
+5. Click **Save**. The Edit agent group window closes and the agent group list is displayed.
+6. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
 
-![](https://lh5.googleusercontent.com/rbStq8-OvsVAL37fezIJICznP8Z8sNhyQLz85Au0RQF_m5IMD_IXYro0L4TbsxalFI5yIEFDd-z7RS2elXWUBNL6z1XIcaMn9c1bunySQW3vyyojIA5RA9HbNt5KqSgQCG4Wi3MR =430x292)
-
-1. Click **Save**. The Edit agent group window closes and the agent group list is displayed.
-2. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
-
-![](https://lh5.googleusercontent.com/GaNQjbWgpEzFNNeOkbrHXmY87EnT8hlsOqUZWr5c797RmY3FXCjqy71d7YxALgQIJkfNEJoDPPaDPAzDpQFK5C2UWs8F_qKPCJFuYOAuKBtigNwrmsLefhGdjnBnhh3amwaY-BYO =431x331)
+![](/img/pasted image 0 (5).png)
 
 **To edit an agent group:**
 
