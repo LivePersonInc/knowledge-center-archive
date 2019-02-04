@@ -9,10 +9,12 @@ level3: ''
 permalink: messaging-channels-rich-messaging-engagement-window-widgets.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 14:54:28 +0200
+date: 2019-01-28 12:54:28 +0000
 
 ---
 The engagement window widget SDK allows brands to intelligently share product information, videos or other rich media during a conversation with the visitor, in a dedicated area on the engagement window.
+
+![](/img/Engagement window widget Gif -1.gif)
 
 ## Use cases
 
