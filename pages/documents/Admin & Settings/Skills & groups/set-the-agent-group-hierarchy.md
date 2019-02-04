@@ -25,14 +25,14 @@ _Group B’s managers can view the data of groups B, D and E only._
 
 _Group C’s managers can view group C data only._
 
-### Managing agent groups
+## Managing agent groups
 
 An Agent Group Manager can be either an Agent Manager or an Administrator. As an **agent group manager**, you can see data and run reports related to users that are assigned to your groups and subgroups. As an **administrator** who is also an Agent Group manager, you can also perform user management tasks such as creating and editing groups, subgroups and resetting passwords. To learn how to create and edit Agent Groups see the procedures below.
 
 {: .notice}  
 Group managers who take conversations (i.e. their concurrency is greater than 0) must also be configured as members of a group.
 
-### **Viewing the agent group data**
+## **Viewing the agent group data**
 
 The agent manager data bar and dashboard provides you with a snapshot of your agents’ efficiency and operational performance at any given time. Reports are configured to display the data related to agents assigned to your groups and subgroups and to your agents’ related skills only. If you manage more than one group, you can apply a filter to view each group’s data separately.
 
@@ -40,7 +40,7 @@ Please note: Initially all agents are members of the **main** agent group. Once 
 
 ![](/img/pasted image 0 (1).png)
 
-### Viewing conversation transcripts
+## Viewing conversation transcripts
 
 In the web history and all connections tabs you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
 
@@ -49,7 +49,7 @@ In the web history and all connections tabs you can view conversations handled b
 * To filter by agent group in **web history,** click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
 * To filter by agent group in **all connections**, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
 
-### **Viewing engagements over time using the Report Builder dashboards**
+## **Viewing engagements over time using the Report Builder dashboards**
 
 Using the agent manager RB dashboards you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
 
@@ -61,7 +61,7 @@ Adding a new Agent Group
 
 The **Add group** button will be enabled once you select a parent group from the list. The new group will be set as the subgroup of the selected group.
 
-**To add a new group:**
+### **To add a new group:**
 
 1. On the Users tab go to the Agent Group list.
 2. Select the parent group from the list.
@@ -78,7 +78,7 @@ The **Add group** button will be enabled once you select a parent group from the
 
 ![](/img/pasted image 0 (5).png)
 
-**To edit an agent group:**
+### **To edit an agent group:**
 
 1. Click on the Agent Group you want to edit. The Edit Agent Group page will open.
 2. After making your changes, click **Save**.
