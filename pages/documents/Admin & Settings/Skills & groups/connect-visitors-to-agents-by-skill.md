@@ -99,5 +99,3 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 2. Click the gear icon to open the settings menu.
 3. Select the skill that you want to assign to your current engagement.
 4. Click **publish**.
-
-![](/img/connectvis6 (1)-1.png)
