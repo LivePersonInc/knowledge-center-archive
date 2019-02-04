@@ -43,7 +43,7 @@ The following examples are a selection of a variety of quick replies flows that 
 Use the quick replies for building a dynamic survey flow.  
 Break down the traditional survey structure by sending the survey question as a regular message, and the survey answers as a quick replies bundle.
 
-![](/img/QuickR2.png)
+![](/img/QuickR2 (1).png)
 
 ## Dialogue flow
 
@@ -95,7 +95,7 @@ Determine if the quick replies should be used for a human or virtual agent journ
 **Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).  
 Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpTag.agentSDK.cmdNames.writeSC) commands with a quickRelies payload. This command sends a JSON that represents a Quick Reply input. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/agent-workspace-sdk-methods.html#command).
 
-![](/img/Quickr3.png)
+![](/img/Quickr3 (1).png)
 
 ### **Virtual agent**
 
