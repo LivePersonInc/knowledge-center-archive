@@ -142,6 +142,7 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
+- pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
@@ -245,7 +246,6 @@ pages:
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
-- pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
 - pages/documents/What's New/december-2018.md
