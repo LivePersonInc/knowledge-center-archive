@@ -93,7 +93,7 @@ In order to enable the structured content via AC features and site settings, ple
 3. Determine if the structured content should be used for a human or virtual agent journey.
    * **Agent**: you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html). For further information, refer to the [Developer Communi](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#agent)[ty.]()
 
-     ![](/img/SC6.jpg)
+![](/img/SC6 (1).jpg)
 
 * **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
 * Break each of your identified use cases down into the following building elements:
