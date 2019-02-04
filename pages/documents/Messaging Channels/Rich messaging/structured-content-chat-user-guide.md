@@ -52,7 +52,7 @@ The following structured content presents the consumer with three options to pur
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-![](/img/SCC2 (1).png)
+![](/img/SCC2__1_.png)
 
 ### Geo-Navigation
 
