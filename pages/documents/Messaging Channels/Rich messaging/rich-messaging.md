@@ -55,7 +55,7 @@ For more information on quick replies including configuration and set up, please
 
 Photo sharing empowers consumers to share images with agents to explain complex issues or requests quicker and more accurately. Photo Sharing is currently in beta version.
 
-Please refer to Photo Sharing [Photo hharing User Guide]() for more information.
+Please refer to Photo Sharing [photo sharing user guide]() for more information.
 
 ![](/img/RM4 (1).png)
 
@@ -65,6 +65,6 @@ Audio messaging is ideal for consumers who want to send a long message and donâ€
 
 Currently, itâ€™s only available on mobile App (v2.3) but will be added to additional channels in August.
 
-For more information on Audio messaging including configuration, please see our[ Audio Messaging User Guide]()
+For more information on audio messaging including configuration, please see our[ audio messaging user guide]()
 
 ![](/img/RM5 (1).png)
