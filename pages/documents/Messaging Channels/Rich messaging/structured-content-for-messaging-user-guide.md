@@ -46,25 +46,31 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-### ![](/img/SC1.png)Video link
+![](/img/SC1 (1).png)
+
+### Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
-![](/img/SC2.png)
+![](/img/SC2 (1).png)
 
 ### Geo-navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
-### ![](/img/SC3.png)Deep linking
+![](/img/SC3 (1).png)
+
+### Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
-### ![](/img/SC4.png)Product catalog
+![](/img/SC4 (1).png)
+
+### Product catalog
 
 Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
-![](/img/SC5.gif)
+xxx
 
 ## Enabling structured content
 
@@ -90,8 +96,6 @@ In order to enable the structured content via AC features and site settings, ple
      ![](/img/SC6.jpg)
 
 * **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
-
-
 * Break each of your identified use cases down into the following building elements:
   1. Journey flows - map out the flow for the structured content usage in case of a bot. This determines which cards to send first and the logic for follow-up cards based on consumer responses.
   2. Structured content format: cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
@@ -116,7 +120,7 @@ For detailed reporting on consumer interactions with structured content on your 
 
 ## **Best practices**
 
-1. It is recommended that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.  
+1. It is recommended that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 2. When building your cards and actions, it is recommended to ensure that every click will also have a publishText action. This ensures that the click is “recorded” in the transcript and makes it easier for bots and agents to respond to consumer interactions with the card.
 3. It is recommended not to add more than three or four buttons at the maximum per card, to avoid noise for the visitor.
 4. Use high resolution images in your cards, verify them and their quality before you use the card for the first time and make sure your cards are interesting and aesthetically pleasing.
@@ -124,7 +128,7 @@ For detailed reporting on consumer interactions with structured content on your 
 6. Use a carousel when there's a priority order to your content, i.e., the first item is probably the most interesting.
 7. Strive for consistency. All cards within the carousel should have the same look and feel and the same business logic. If one card has an image, include an image in all of them.
 8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
-9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [Structured Content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
+9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [structured content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
 
 ## **Limitations**
 
@@ -134,7 +138,7 @@ Both the web window (visitor side) and the workspace (agent side) do not show ma
 
 ### Styling
 
-**Mobile:** 
+**Mobile:**
 
 Some parameters can be configured in Bubble branding when using the In-App SDK. All other attributes are inherited from the SDK configuration.  
 See documentation: [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-attributes.html#structured-content) and [Android](https://developers.liveperson.com/android-attributes.html#structured-content)
