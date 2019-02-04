@@ -14,7 +14,7 @@ date: 2019-01-27 14:16:26 +0200
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
 
-![](/img/QuickR1.gif)
+![](/img/quick-replies.gif)
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
