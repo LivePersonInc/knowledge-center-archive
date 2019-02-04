@@ -138,7 +138,7 @@ Both the web window (visitor side) and the workspace (agent side) do not show ma
 
 ### Styling
 
-**Mobile:**
+#### **Mobile:**
 
 Some parameters can be configured in Bubble branding when using the In-App SDK. All other attributes are inherited from the SDK configuration.  
 See documentation: [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-attributes.html#structured-content) and [Android](https://developers.liveperson.com/android-attributes.html#structured-content)
@@ -150,7 +150,7 @@ Structured content JSON affects text formatting in the structured content “Tex
 3. Font color
 4. Background color
 
-**Web (chat / messaging)**
+#### **Web (chat / messaging):**
 
 You cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
 
