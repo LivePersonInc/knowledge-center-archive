@@ -27,7 +27,7 @@ The list of your campaigns appears on the **Campaigns tab**, and includes a data
 {:start="2"}
 2\. To configure a new goal, click Add new. The different types of goals are available on the next screen.
 
-![](https://lh5.googleusercontent.com/3owhljH6NtEwT7B9whVydRMo6JB64-BtrbN1tPasb_5cOj0fdH6CeGvcs6P0OrvNafZ6ogiA0V0Q0OM5cHF790Jk-RLELYKtbxuk56xVlVepOgGGgiG_LZvHg59OM8xFOJzelW-R =432x107)
+![](/img/goals3-1.png)
 
 {:start="3"}
 3\. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
@@ -44,7 +44,7 @@ There are five goal types to choose from: **generate leads, sell product/service
 
 Max is the owner of an online chain of stores that sells diamond jewelry. His business goal before the holidays is to sell the high-margin pieces (those that sell for over $10,000) that don’t move well during the slack season.
 
-In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.![](/img/goals3-1.png)
+In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
 
 {: .notice}
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the e-commerce category.
@@ -72,8 +72,6 @@ In the goal indicator settings, Max set his goal as **more than 10,000**, and cl
 {: .important}
 **Note:** If Max’s account reports more than one currency, the additional currency amount will also be included in the total purchase value. Targeting will occur for each value that fits the desired range without distinguishing between currencies.
 
-![](/img/goals 8.png)
-
 Max can now create engagements that he believes will target his high spenders. Once the campaign is activated, each time a consumer completes a transaction valued at over 10,000 (in any currency), his conversion will display +1 in the data bar. Max can see if his engagements have been successful, or if he needs to change his strategy, for example by targeting other users, or selecting different entry points to display the engagements.
 
 ### 2. Service activity complete
@@ -100,7 +98,7 @@ Each of the boxes relates to one status; Status #1, etc. Within each status box,
 
 Alex, the Marketing Director at Learflights, wants to generate leads by inviting potential customers to sign up for a monthly newsletter that will include attractive travel deals. To achieve this goal, he has developed an online strategy that targets new consumers to his site when they sign up for the newsletter. Alex chooses the goal type Generate Leads. Every time that a new consumer signs up, he/she is redirected to a “Thank you” page, causing the KPI for this goal (the conversion) to display +1. By tracking the success of the goal, Alex can see if his campaign is generating the leads he expects.
 
-![](/img/goals 9.png)
+![](/img/goals 9-1.png)
 
 There are additional types of goals that you can customize and use to measure the success of your campaigns.
 
@@ -118,7 +116,7 @@ In order to avoid compromising the integrity of your data, LiveEngage allows you
 
 1. By checking “Count goals reached only once per visit” under Count Goals, goals will fire only once per session (per visit). If your page is meant to allow visitors to perform a variety of actions (such as lead and purchase, purchase twice, etc,) then you may wish to leave the checkbox unchecked in order to count what seems to be duplicated events but in reality are not.
 
-![](/img/goals 7.png)
+![](/img/goals 10-1.png)
 
 {:start="2"}
 
