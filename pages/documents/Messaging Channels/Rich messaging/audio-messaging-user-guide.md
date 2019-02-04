@@ -75,8 +75,6 @@ LiveEngage will support the following audio messages flow:
 * An agent can play and replay audio messages sent by consumers for open and closed conversations (the agent cannot record audio messages)
 * A consumer can replay his own audio messages (speaker only) - as supported on each channel
 
-![](/img/Screen_Shot_2019-01-27_at_2.01.34_PM.png)
-
 ## Configurations
 
 ### Prerequisites
