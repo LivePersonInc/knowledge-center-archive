@@ -8,16 +8,16 @@ level3: ''
 permalink: admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 13:39:47 +0200
+date: 2019-01-23 11:39:47 +0000
 
 ---
 Your agents are trained to help visitors according to your business needs.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they are routed to the first available sales agent.
 
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
 
-### **Creating skills**
+## **Creating skills**
 
-![](/img/connectvis1.png)
+![](/img/connectvis1 (1).png)
 
 Agent skills are created in the user management area.
 
@@ -43,8 +43,6 @@ This means that when handling a conversation from a certain skill, the agent wil
 
 For example, messaging skills should only transfer to other messaging skills, chat skills to other chat skills, and there should be limited transfer to bot skills.
 
-![](/img/connectvis2.png)
-
 By default, the checkbox under the section transfer to skills is selected, meaning that the skill will be able to transfer to any other skill defined in the system. By clicking in the box, a dropdown of available skills will appear. These can be selected or deselected to determine whether or not the skill can be transferred on to them.
 
 * A skill can always be transferred to itself and to other available agents assigned to the same skill.
@@ -66,7 +64,7 @@ The following survey types are supported:
 * Post-chat survey
 * Agent survey
 
-![](/img/connectvis3.png)
+![](/img/connectvis3 (1).png)
 
 {: .notice}  
 In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [Profiles (permissions)]().
