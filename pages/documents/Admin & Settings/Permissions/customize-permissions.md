@@ -8,7 +8,7 @@ level3: ''
 permalink: admin-settings-permissions-customize-permissions.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 14:20:28 +0200
+date: 2019-01-23 12:20:28 +0000
 
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
@@ -16,23 +16,23 @@ At LivePerson we recognize that every brand is unique and employs an individual 
 To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four LiveEngage roles:
 
 * Agent
-* Agent Manager
-* Campaign Manager
+* Agent manager
+* Campaign manager
 * Admin
 
-![](/img/permissions1.png)
+![](/img/permissions1 (1)-1.png)
 
-### **Customized profiles**
+## **Customized profiles**
 
 Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, LiveEngage creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
 
 In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the Appendix.
 
-### **Multiple user roles**
+## **Multiple user roles**
 
 To ensure small and medium-sized businesses also have flexibility within their user management capabilities, users can now be assigned more than one role. For example, a manager who also takes chats can be assigned both ‘agent manager’ and ‘agent’ roles and a campaign manager who also manages users and takes care of account administration can be assigned both ‘campaign manager’ and ‘admin’ roles.
 
-### **More control for agent managers**
+## **More control for agent managers**
 
 To further empower agent managers, there will be an additional option to grant this role limited user management permissions, including:
 
@@ -53,9 +53,9 @@ Profiles and users can only be configured by admins and agent managers with spec
 5. To return the profile to the default permissions set, click **restore defaults**.
 6. **Save** the profile.
 
-![](/img/permissions2.png)
+![](/img/permissions2 (1).png)
 
-**To create a user and assign a profile:**
+### **To create a user and assign a profile:**
 
 1\. On the **users** list, click **add user** at the bottom of the page.
 
@@ -68,7 +68,7 @@ Profiles and users can only be configured by admins and agent managers with spec
 
 3\. Under **assignment**, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
-**_Steps 4 and 5 apply to users with an agent role profile only:_**
+### **_Steps 4 and 5 apply to users with an agent role profile only:_**
 
 4\. Set the maximum number of chats that the user can accept at any given moment. Consider your agent’s capabilities, the number of agents available, etc.
 
@@ -82,7 +82,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 6\. Set a password. Click **save**.
 
-![](/img/permissions3.png)
+![](/img/permissions3 (2).png)
 
 ## **Definitions, permission and default states**
 
@@ -96,8 +96,8 @@ The tables below list the permissions that can be configured per role, along wit
 
 The following core permissions are included with the agent role and cannot be disabled:
 
-* Ability for Agent to change their name, password, regional settings and so on
-* Ability to accept any chat or conversation request, within the Agent’s maximum concurrency limit
+* Ability for agent to change their name, password, regional settings and so on
+* Ability to accept any chat or conversation request, within the agent’s maximum concurrency limit
 * View information about their individual performance
 
 | Agent permissions | Permission definition | Default State (role) |
@@ -120,9 +120,9 @@ The following core permissions are included with the agent role and cannot be di
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Update consumer profile via API | Enables agent to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Agent Manager**
+### **Role: Agent manager**
 
-The following core permissions are included with the Agent Manager role and cannot be disabled:
+The following core permissions are included with the agent manager role and cannot be disabled:
 
 * Ability for Agent manager to change their name, password, regional settings and so on
 * View the status of the chat queue for all Agents in the queue health dashboard
@@ -156,9 +156,9 @@ The following core permissions are included with the Agent Manager role and cann
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an agent manager to configure the shift status | On |
 | Update consumer profile via API | Enables agent manager to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Campaign Manager**
+### **Role: Campaign manager**
 
-The following core permissions are included with the Campaign Manager role and cannot be disabled:
+The following core permissions are included with the campaign manager role and cannot be disabled:
 
 * Ability for Campaign Manager to change their name, password, regional settings and so on
 * View all Campaigns in the Campaigns tab

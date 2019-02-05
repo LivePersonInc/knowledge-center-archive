@@ -15,7 +15,7 @@ Each campaign within LiveEngage has a campaign goal, which signifies what the ca
 
 The first step in building your campaign is to decide on one of the possible LiveEngage goals that represents your business goal, for example, _complete a service journey_, _generate leads_, or _sell a product or service_. Choose from a variety of customizable goals that can be used as criteria for success. LiveEngage will track and display each of the goals reached as conversions on the data bar.
 
-![](/img/goals 1.png)
+![](/img/goals 1-2.png)
 
 The list of your campaigns appears on the **Campaigns tab**, and includes a data bar, and the details of your campaigns.
 
@@ -23,17 +23,15 @@ The list of your campaigns appears on the **Campaigns tab**, and includes a data
 
 1. From the Campaign page, click Add goal to access the Goal Library.
 
-![](/img/goals 2.png)
-
 {:start="2"}
-2. To configure a new goal, click Add new. The different types of goals are available on the next screen.
+2\. To configure a new goal, click Add new. The different types of goals are available on the next screen.
 
-![](https://lh5.googleusercontent.com/3owhljH6NtEwT7B9whVydRMo6JB64-BtrbN1tPasb_5cOj0fdH6CeGvcs6P0OrvNafZ6ogiA0V0Q0OM5cHF790Jk-RLELYKtbxuk56xVlVepOgGGgiG_LZvHg59OM8xFOJzelW-R =432x107)
+![](/img/goals3-2.png)
 
 {:start="3"}
-3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
+3\. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
-![](/img/goals 4.png)
+![](/img/goals 4-2.png)
 
 ## What kind of goals can I choose from?
 
@@ -47,12 +45,10 @@ Max is the owner of an online chain of stores that sells diamond jewelry. His bu
 
 In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
 
-![](/img/goals 5.png)
-
-{: .notice} 
+{: .notice}
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the e-commerce category.
 
-![](/img/goals 6.png)
+![](/img/goals 6-2.png)
 
 #### Transaction information as an indicator
 
@@ -70,12 +66,10 @@ Now, LiveEngage will measure success based on the users who performed a transact
 
 In the goal indicator settings, Max set his goal as **more than 10,000**, and clicked **save**.
 
-![](/img/goals 7.png)
+![](/img/goals 7-2.png)
 
 {: .important}
 **Note:** If Max’s account reports more than one currency, the additional currency amount will also be included in the total purchase value. Targeting will occur for each value that fits the desired range without distinguishing between currencies.
-
-![](/img/goals 8.png)
 
 Max can now create engagements that he believes will target his high spenders. Once the campaign is activated, each time a consumer completes a transaction valued at over 10,000 (in any currency), his conversion will display +1 in the data bar. Max can see if his engagements have been successful, or if he needs to change his strategy, for example by targeting other users, or selecting different entry points to display the engagements.
 
@@ -103,7 +97,7 @@ Each of the boxes relates to one status; Status #1, etc. Within each status box,
 
 Alex, the Marketing Director at Learflights, wants to generate leads by inviting potential customers to sign up for a monthly newsletter that will include attractive travel deals. To achieve this goal, he has developed an online strategy that targets new consumers to his site when they sign up for the newsletter. Alex chooses the goal type Generate Leads. Every time that a new consumer signs up, he/she is redirected to a “Thank you” page, causing the KPI for this goal (the conversion) to display +1. By tracking the success of the goal, Alex can see if his campaign is generating the leads he expects.
 
-![](/img/goals 9.png)
+![](/img/goals 9-2.png)
 
 There are additional types of goals that you can customize and use to measure the success of your campaigns.
 
@@ -111,8 +105,6 @@ There are additional types of goals that you can customize and use to measure th
 * _Other_ is a fallback option counts landing on the URL of your choice as a success.
 
 Consider what your short-term business goals are, and translate them to LiveEngage goals. Track the success of your campaigns and tweak your engagements to consistently improve your conversion rates by using appropriate goals.
-
-![](https://lh6.googleusercontent.com/uJz4HjkOC09w3r0JGACVMwyzYfBbnmtHi9LFKFGdsLDicL61Wsahy1hFWAl924yJzqSOC-cIOA0iZ-8s8PU-VPXdIE_4gza4ML0ALoa_8U2a-rhWhAGj_DmLCwAkZWZwmwbezgVh =423x43)
 
 {: .important}
 **Note:** On the page for each Goal, a checkbox can be found at the bottom of the page to ‘Count goals’. Checking this box will mean that the goals will only be counted once per visit. For Messaging engagements, the goal can only be counted at the same session, due to the ongoing nature of messaging conversations. For customers visiting the site in different sessions, the goal will be reevaluated.
@@ -123,12 +115,13 @@ In order to avoid compromising the integrity of your data, LiveEngage allows you
 
 1. By checking “Count goals reached only once per visit” under Count Goals, goals will fire only once per session (per visit). If your page is meant to allow visitors to perform a variety of actions (such as lead and purchase, purchase twice, etc,) then you may wish to leave the checkbox unchecked in order to count what seems to be duplicated events but in reality are not.
 
-![](/img/goals 7.png)
+![](/img/goals 10-2.png)
 
 {:start="2"}
+
 1. By using engagement attributes you can assign a unique ID to the different goal types; Purchase (Order ID), Leads (Lead ID), and Service activities (the combination of Service ID, Topic and Status). When the system recognizes an event with a unique ID as having already been collected in a particular session, metadata, which signals a duplication, is added to the event. This allows the system to filter all duplicates from reports and conversions are counted only once. This kind of deduplicating is enabled by default and cannot be disabled.
 
-{: .notice} 
+{: .notice}
 **Note:** For the particular goal _Interact with Visitors_, engagements in the same session will be counted multiple times yet be counted as one “Goal reached”. For example, a visitor might chat multiple times within one session, yet it will be counted as only one “Goal reached”. You will then see in your reports more engagements  than “Goals reached”.
 
 ## Goal Conditions

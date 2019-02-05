@@ -134,7 +134,6 @@ pages:
 - pages/documents/Security & Regulations/hipaa.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/What's New/november-2018.md
-- pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
@@ -143,6 +142,7 @@ pages:
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
+- pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
