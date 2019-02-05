@@ -15,7 +15,7 @@ To get started, access LivePerson using this link: Add link to login
 
 ## Bare-bones: get to the first message
 
-To get the most basic version of messaging up means you have a generic ‘chat’ button your website and there will be no routing - testall agents will receive all messages. Getting to the first message is simple and can be done through three steps:
+To get the most basic version of messaging up means you have a generic ‘chat’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
 
 1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, [click here.]()
 2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here]().
