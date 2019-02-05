@@ -254,6 +254,23 @@
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 
+- categoryname: Troubleshooting
+  image: client-side
+  subcategories:
+    - subcategoryname: 'Login & password'
+    - subcategoryname: Agent workspace
+    - subcategoryname: Messaging
+      pages:
+        - pagename: Set up and management
+        - pagename: Consumer Experience
+        - pagename: Agent tools
+    - subcategoryname: Live Chat
+    - subcategoryname: Bots
+    - subcategoryname: Reporting & Data
+    - subcategoryname: Support
+      pages:
+        - pagename: Case management support
+
 - categoryname: "What's new"
   image: whats-new
   subcategories:

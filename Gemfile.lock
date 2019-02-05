@@ -8,8 +8,16 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    algolia_html_extractor (2.2.1)
+      awesome_print (~> 1.6)
+      json (~> 2.0)
+      nokogiri (~> 1.8)
+    algoliasearch (1.25.2)
+      httpclient (~> 2.8, >= 2.8.3)
+      json (>= 1.5.1)
     autoprefixer-rails (9.4.4)
       execjs
+    awesome_print (1.8.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
     execjs (2.7.0)
@@ -18,7 +26,9 @@ GEM
     fastimage (2.1.5)
     ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
+    filesize (0.2.0)
     forwardable-extended (2.6.0)
+    httpclient (2.8.3)
     i18n (1.5.1)
       concurrent-ruby (~> 1.0)
     jekyll (3.6.3)
@@ -32,6 +42,14 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-algolia (1.1.5)
+      algolia_html_extractor (~> 2.2)
+      algoliasearch (~> 1.18)
+      filesize (~> 0.1)
+      jekyll (~> 3.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      verbal_expressions (~> 0.1.5)
     jekyll-assets (3.0.12)
       activesupport (~> 5.0)
       execjs (~> 2.7)
@@ -58,6 +76,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
+    json (2.1.0)
     kramdown (1.17.0)
     liquid (4.0.1)
     liquid-tag-parser (1.9.0)
@@ -96,6 +115,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    verbal_expressions (0.1.5)
 
 PLATFORMS
   ruby
@@ -104,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   jekyll (~> 3.6.3)
+  jekyll-algolia (~> 1.0)
   jekyll-assets
   jekyll-feed (~> 0.6)
   jekyll-gzip
