@@ -488,7 +488,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .sidebarbuttoncontainer.canOpen {
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 .itemdetails, .sidebarbuttoncontainer, .pageitem {
@@ -556,7 +556,7 @@ ul.mysidebar.nav > li:first-of-type {
 .pagesfolder {
   display: none;
   padding-inline-start: 0;
-  padding-left: 44px;
+  padding-left: 45px;
   line-height: 2.8;
 }
 
@@ -569,13 +569,17 @@ ul.mysidebar.nav > li:first-of-type {
 
 
 .pageitem.nobuttons {
-  padding-left: 42px;
+  padding-left: 45px;
 }
 
 .categoryfolder .activeitem,
 .subcategoryitem .activeitem {
   font-weight: bold;
   color: #272727;
+}
+
+.pageitem .activeitem {
+  color: #5879da;
 }
 
 .level3folder {
@@ -604,7 +608,7 @@ ul.mysidebar.nav > li:first-of-type {
 .sidebarbuttoncontainer {
   display: flex;
   align-items: center;
-  padding-left: 43px;
+  padding-left: 45px;
 }
 
 .sidebarbutton {

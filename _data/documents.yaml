@@ -289,15 +289,15 @@
       pages:
         - pagename: January
           level3:
-            - level3name: Week of January 7th 2019
+            - level3name: Week of January 7th
     - subcategoryname: 2018
       pages:
         - pagename: December
           level3:
-            - level3name: Week of December 9th 2018
-            - level3name: Week of December 9th 2018
-            - level3name: Week of December 9th 2018
-            - level3name: Week of December 9th 2018
+            - level3name: Week of December 9th
+            - level3name: Week of December 9th
+            - level3name: Week of December 9th
+            - level3name: Week of December 9th
         - pagename: November
           level3:
             - level3name: Week 1
@@ -307,7 +307,7 @@
         - pagename: October
           level3:
             - level3name: Week 1
-            - level3name: Week of October 8th 2018
+            - level3name: Week of October 8th
             - level3name: Week 3
             - level3name: Week 4
         - pagename: September
