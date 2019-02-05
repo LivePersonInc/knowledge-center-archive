@@ -255,7 +255,7 @@
     - subcategoryname: Audit trail
 
 - categoryname: Troubleshooting
-  image: client-side
+  image: admin-settings
   subcategories:
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace

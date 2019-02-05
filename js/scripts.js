@@ -155,6 +155,7 @@ function sideBarClick () {
 		} else {
 			if ($(this).hasClass("itemdetails")){
 				$(".itemdetails").removeClass("activeitem");
+				$(".sidebarbuttoncontainer").removeClass("activeitem");
 				$(".subcategoryfolder").slideUp(500);
 				$(".categorylist").slideUp(500);
 				$(".canOpen").data("expanded", "false");
