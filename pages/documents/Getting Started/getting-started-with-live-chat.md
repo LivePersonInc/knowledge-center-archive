@@ -23,7 +23,7 @@ To get the most basic version of messaging up means you have a generic ‘chat�
 
 ## Customize your chat program
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  testTo ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
+LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of web messaging, develop and set up your preferences in three areas:
 
 * **Customer experience:** design what your consumers will see when they interact with you - including the messaging window,  the banners, buttons and automatic text. Add bots and automation to be the first to answer.
 * **Agent experience**: Set up agent experience to ensure your reps are successful including predefined content and custom widgets
