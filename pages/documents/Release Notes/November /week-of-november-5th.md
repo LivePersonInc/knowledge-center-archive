@@ -20,6 +20,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New Functionality
 
+### Queue prioritization 
+
 Queue prioritization allows you to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in queues based on queue entrance time or time when the consumer responded.
 
 The goal of this feature is to improve agent efficiency and consumer satisfaction KPI’s by driving more conversations towards a resolution.
@@ -31,6 +33,7 @@ The goal of this feature is to improve agent efficiency and consumer satisfactio
 
 <br />
 **The following parameters are taken into consideration in the new queue prioritization:**
+
 * Manual ettr
 * Off Hours
 
