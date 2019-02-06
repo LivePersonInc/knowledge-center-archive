@@ -8,7 +8,7 @@ level3: January
 permalink: release-notes-2019-january-week-of-january-20th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 12:09:11 +0200
+date: 2019-02-06 10:09:11 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Report Builder: Time zone support (90133)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>No</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>N/A</td> <td>No</td> </tr> </tbody> </table>
 
 Enterprise brands often have a global operation with contact centers in different regions. Each contact center is managed locally and by a global team.
 
@@ -78,17 +78,17 @@ The chat center IDs can be retrieved using the [Skills API](https://developers.l
 
 ### Report Builder: Enhanced Field Details tab (68392)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>N/A</td> <td>Yes</td> </tr> </tbody> </table>
 
 The Field Details tab, included in each report in Report Builder has been redesigned.
 
-The new tab contains a list of all the available attributes and metrics in the report, and related data for each. This can be enabled out-of-the-box. 
+The new tab contains a list of all the available attributes and metrics in the report, and related data for each. This can be enabled out-of-the-box.
 
 ## Bug Fixes
 
 ### Report Builder: Answer ratio not shown correctly for modified questions in Messaging Performance in Report Builder (96886)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>No</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>N/A</td> <td>No</td> </tr> </tbody> </table>
 
 When a question in the post conversation survey is modified, the ‘answer ratio’ metrics show incorrect values.
 
@@ -101,7 +101,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 
 ### Report Builder: Brand Level Data tab shows no data when predefined Messaging Performance Dashboard is loaded (93773)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>No</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>N/A</td> <td>No</td> </tr> </tbody> </table>
 
 For brands using only a single source type, the default view of the ‘Brand Level Data’ sheet was empty. This is now fixed is data is visible for all accounts.
 
@@ -109,7 +109,7 @@ For brands using only a single source type, the default view of the ‘Brand Lev
 
 ### Report Builder: Agent activity report incorrect filtering by skill (94844)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>N/A</td> <td>Yes</td> </tr> </tbody> </table>
 
 In the agent activity dashboard, ‘skill’ was part of the default filter panel, however, users are not able to filter by it. This attribute has been removed from the dashboards as it showed incorrect values (there is no direct relation between agent and skill in this dashboard).
 
