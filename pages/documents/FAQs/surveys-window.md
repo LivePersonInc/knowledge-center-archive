@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: faqs-surveys-windows.html
+permalink: faqs-surveys-window.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 13:04:38 +0000

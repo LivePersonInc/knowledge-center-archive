@@ -334,3 +334,10 @@
             - level3name: Week 2
             - level3name: Week 3
             - level3name: Week 4
+
+- categoryname: FAQs
+  image: admin-settings
+  subcategories:
+    - subcategoryname: 'Reporting & Data'
+    - subcategoryname: 'Surveys & window'
+    - subcategoryname: Agent tools
