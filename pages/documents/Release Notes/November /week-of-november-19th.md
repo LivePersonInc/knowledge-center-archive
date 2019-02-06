@@ -9,7 +9,6 @@ permalink: release-notes-2018-november-week-of-november-19th
 isTutorial: false
 isNew: false
 date: 2019-02-06 13:57:44 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during November 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -114,4 +113,9 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 
 When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved. 
 
-Apple Pay ID Incorrect Request Identifier (LE-95465)  
+### Apple Pay ID Incorrect Request Identifier (LE-95465)  
+
+Currently when a brand adds a request Identifier to the Authentication Interactive Message structured content JSON, the connector will create a new request ID. This causes a problem between the outgoing request ID and the authentication response request ID (which for data correction should be the same). 
+
+Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved. 
+
