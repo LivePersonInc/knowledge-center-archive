@@ -138,10 +138,6 @@ Please also refer to the Release notes for [Post Conversation Survey Reporting](
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | WhatsApp | Line | Google My Business | Chat |
-| No | No | No | Yes | Yes | No | No | No | No |
-
 The post conversation survey is now supported for the Facebook Messenger and Apple Business Chat connectors, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
 **It contains:**
@@ -174,10 +170,6 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | WhatsApp | Line | Google My Business | Chat |
-| No | No | No | Yes | Yes | No | No | No | No |
-
 The Apple Business Chat and Facebook Messenger connectors to LiveEngage now support the following audio message flow:
 
 * Consumer on ABC or FBM records and sends an audio message to an agent on LE
@@ -208,10 +200,6 @@ Audio messaging is currently still in beta, due to the fact that the audio files
 ### Messaging Operations
 
 ### Dynamic text (macros) in Predefined Content for messaging (LE-91252)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| yes | yes | yes | yes | yes | yes | yes | yes | yes |
 
 This feature enables users to set up dynamic text, such as agent name or skill name, within the predefined content template for messaging conversations. Predefined Content helps automate some of the agent’s freehand typing, which will result in better agent productivity.
 
@@ -255,10 +243,6 @@ The message after it is sent:
 
 ### Resume conversations without time restrictions (LE-83882)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
-
 Agents and agent managers now have the ability to resume conversations with consumers at any point in time after the conversation is closed. Previously, the time frame limit for resuming a conversation was just 14 days after the conversation closed. Now, the conversation can be resumed for the length of time it remains on the LiveEngage database (13 months).
 
 Following message shall not appear anymore :
@@ -266,10 +250,6 @@ Following message shall not appear anymore :
 ![](https://lh5.googleusercontent.com/TnFokrPgiq-l32DQUNOFjx_T-QagrYebE3RzMarF1d2jxNNa-7V-rDccZLdvraUxMSH_vhz6FJUUDCSuEOSJa2I6NIsYTvCyHYCtLVBfkrBsgH10SafbtaA7TEL_TxONSbbuKkRw =624x291)
 
 ### Remove 'description' from Agent Widget SDK setConsumerProfile (AE-374)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 The ‘description’ property cannot be updated by an agent using the Consumer Profile API as it is reserved for the consumer’s external ID. When an agent updates the 'description', assuming it is used to describe the user, that property populates the 'Consumer ID' field in the consumer info widget. This causes unexpected behavior for the agent.
 
@@ -281,17 +261,9 @@ In order for brands not to misuse it, we need to prevent agents from setting tha
 
 ### Remove interaction content access for LPA users (89500)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
-
 Remove access to interaction content by having the following settings/permissions enforced on LPAs upon login: change LPA user privileges from 8, 10, 33 to 9, 10, 33.
 
 ### Convert Date to Long with insufficient data (93480)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
 
 Some customers send SDEs without last payment date object, that should have a year, month, day fields. When Denver issue a call to IDP it gets LPGWT, without lastPaymentDate.
 
@@ -301,17 +273,9 @@ Solution: If one of the fields is null - don't convert the object to long, but r
 
 ### Adding FaaS PostSurvey Implementation (92041)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
-
 Enabling the usage of FaaS for the Denver PostSurvey Email Transcript notification.
 
 ### GDRS - Ticketing Implementation AppServer (89437,92462,89441,85057)**:**
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
 
 As part of the “Right to be Forgotten” epic, consumer related data needs to be masked from existing tickets via a new dedicated GDRS API, if a RTBF request arrives from a brand’s consumer. This enhancement is applicable only for legacy account customers with Ticketing system.
 
@@ -338,19 +302,11 @@ This is part of the effort for limiting the allowed redirection targets to same-
 
 ### Real time dashboard not refreshing automatically (LE-92947)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
-
 On LiveEngage -> Visitors tab -> Real Time Databar and associated dashboard does not refresh automatically (unless the page has been refreshed manually). This bug is a result of the previous LiveEngage version and is now fixed, so the dashboard will be refreshed automatically every 10 seconds.
 
 ![](https://lh4.googleusercontent.com/dKoJ9YTKT2hRzh1hl25wz0pjLw3mMq-Gsl3AYxFN3oxbySKDrZfHib8NkhrIyRCrZnpu8Z1I70_E8Q5QTLEbAJI6RtgWS4WW_RvVimxfwNB0PpAVqTG9rhn4Fu5jeAhzLMpW-lBY =600x353)
 
 ### Empty data for AOV and revenue widgets (LE-93425)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
 
 On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and “Revenue After Chats” widgets displayed with empty data.
 
@@ -364,29 +320,17 @@ This bug is a result of the previous LiveEngage version and is now fixed, and th
 
 ### lpTag overrides lpTag.identities property (LE-92870)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | No |
-
 With the introduction of the new Identity function, brands can determine the identity of logged-in (authenticated) users on each page, ensuring a smooth transition between authenticated and unauthenticated pages. With this fix, the identity can be added to the page before the lpTag.
 
 The updated lpTag is available for all customers to implement on their webpages. lpTags, which were already implemented before, will not be updated automatically. In order to benefit from the change customers are requested to reimplement the new lpTag on their pages.
 
 ### M[essages sent from agent to consumer are marked as “read” ](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)when agent manager joins the conversation (LE-88929)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-
 On “All connections” > summary view:
 
 M[essages sent from agents are marked as “read](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)” (with two orange check marks) if they were read by the agent manager who joined the conversation. The status should be changed only when the consumer reads the messages. This bug is now resolved.
 
 ### [Conversation engagement attributes shown in chat sometimes if both handled by the same agent](https://globaljira.lpdomain.com/browse/LE-91274) (LE-91274)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 On Visit info > consumer info , Visit info > personal info:
 
@@ -401,10 +345,6 @@ The chat data with the leaked conversation data:
 ![](https://lh5.googleusercontent.com/49yxfzeImtK2hEXKyC_-MxInRTMTHkW2RicOfQ7UT4RUZJmoc-vJhl36ZMCvFfOGQYya0LpyWG3TY6-GQ6YrEnBsAbqYHgtkSdT7e2PYz1D7skhnZLCPJ4uMj7cvDb6BsEJmSwxA =624x541)
 
 ### Wrong wait time behavior for transferred chats (AE-197)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| No | No | No | No | No | No | No | No | Yes |
 
 On Visit info > Visitor info > wait time:
 
