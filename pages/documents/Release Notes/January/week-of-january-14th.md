@@ -13,7 +13,7 @@ date: 2019-02-06 10:51:46 +0200
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
@@ -45,7 +45,7 @@ N/A -> new
 
 old -> N/A
 
-### ![](/img/week-of-january-13th-2.png)
+![](/img/week-of-january-13th-2.png)
 
 Opacity of the embedded window on Mobile Web (campaigns)
 
@@ -100,7 +100,9 @@ As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers shoul
 
 If the ACD setting for chat was configured to “advanced mode” and “agent status changes to **away** if missed accepting the chat,” and then afterwards, the setting was changed to “Auto-accept” mode, the agent state would still change to “away” in some scenarios.
 
-### ![](/img/week-of-january-14th-5.png)Messaging - Automatic Messages - "<br/>" is being shown in conversation
+![](/img/week-of-january-14th-5.png)
+
+### Messaging - Automatic Messages - "<br/>" is being shown in conversation
 
 <table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>No</td> </tr> </tbody> </table>
 
