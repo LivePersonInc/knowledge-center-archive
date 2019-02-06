@@ -33,7 +33,7 @@ The goal of this feature is to improve agent efficiency and consumer satisfactio
 **Enablement:** Please contact your LivePerson account team to enable this feature.
 
 <div class="notice"> 
-<b>Note:</b> 
+<b>Note:</b> The following parameters are taken into consideration in the new queue prioritization:
 <ul> 
 <li>Manual ettr</li> <li>Off Hours</li> 
 </ul> 
