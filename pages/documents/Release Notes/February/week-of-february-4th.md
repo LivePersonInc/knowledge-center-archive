@@ -8,7 +8,7 @@ level3: February
 permalink: release-notes-2019-february-week-of-february-4th.html
 isTutorial: false
 isNew: false
-date: 2019-02-05 14:15:21 +0200
+date: 2019-02-05 12:15:21 +0000
 published: false
 
 ---
@@ -48,6 +48,7 @@ When the “send API” composes the error message it should have a unified form
 
 **WS example:**
 
+```
 {
 
 "kind": "resp",
@@ -69,6 +70,7 @@ When the “send API” composes the error message it should have a unified form
 "type": ".ReqBody$ErrorResp"
 
 }
+```
 
 ### Handle “Send API” request with wrong version (LE-94525)
 
