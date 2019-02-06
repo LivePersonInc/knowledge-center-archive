@@ -106,7 +106,9 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 
 For brands using only a single source type, the default view of the ‘Brand Level Data’ sheet was empty. This is now fixed is data is visible for all accounts.
 
-### ![](/img/week-of-january-20th-3.png)Report Builder: Agent activity report incorrect filtering by skill (94844)
+![](/img/week-of-january-20th-3b.png)
+
+### Report Builder: Agent activity report incorrect filtering by skill (94844)
 
 <table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
 
