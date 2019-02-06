@@ -8,8 +8,7 @@ level3: November
 permalink: release-notes-2018-november-week-of-november-5th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 11:46:13 +0200
-published: false
+date: 2019-02-06 09:46:13 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during November 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.

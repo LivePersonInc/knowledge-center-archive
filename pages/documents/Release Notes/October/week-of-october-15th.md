@@ -47,7 +47,7 @@ Further details are available on the developers site:
 
 This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources.
 
-![](https://lh4.googleusercontent.com/RyX8t1i0mperXUDYSt7Pj_sgxZBoVaWGWynNQHSiKmEchTWBJ3FnZJV9U1gZy4OSPl3wkpIT5AZsi_XNQaeU9DzFSzT8TMrTSYEF4mHxFqVTJ3hRu7dRHelB3UsAUcanqkDPqeOu =624x273)![](https://lh6.googleusercontent.com/TfW1kdbwexuOu0q9e1iOYXMuRBjABomiK3ePppjYrITCztCiAutcyyaXMrYngiF9-_XRa6ZA-RHc59tnhFGXDlJIJeqNo4Vm7jV67Un1sDG3MlqFjqCr-kATbjNYeBkRgfrfSbQM =624x269)
+![](/img/week-of-october-15th-2018-2.png)
 
 ### Predefined Content & Content Categories - Audit Trail (AE-110)
 
@@ -68,9 +68,7 @@ The Audit Trail table was enhanced to show details of changes made to Predefined
 
 \***This feature requires enablement ​- please contact your LivePerson account team.**
 
-![](https://lh6.googleusercontent.com/YDnwl82Yo4sjOyPzP4cukWHUSFb_pDGhSrbLha7dRJMq2FLdKaNSXN3NlUBcyGavq_1py7CAklucsb3tHdN7-Oa3T4hKfi4SCOxU3ASzBf2Ue35fms9BX3EHuBKTlI4MltyDQL0F =624x188)
-
-![](https://lh5.googleusercontent.com/aVBiEvm4zLeqz2FMGcbji0G4DIk6l866TgqwjTPt0xSh4Bf5j_dfXypH625jdnKtUhfXDYb88nca3ot_l-vLHTZFuzfl-cCGz21u9ENZdZim8lJ4neaiKpcYxRZ0gefEnKlMdEvA =624x272)
+![](/img/week-of-october-15th-2018-3.png)
 
 ### Intelligent Routing Queue Delivery (back-end messaging-server)
 
@@ -369,9 +367,7 @@ Use case: The account admin added a new survey to the account or modified an exi
 
 \***This feature requires enablement ​- please contact your LivePerson account team.**
 
-**![](https://lh6.googleusercontent.com/YX7TB7Ll8yowd_Yz8uH_RvfK8qroCz1HmMnNBqNAOgIQP3Cmc8xPvYLkRZ-TPQf8V0x9B7nihcYFtSZtw-joNzN9lxMs6fbKj4Fy-0ol5b_APBzP4QopIEtRIb3mRN1daxYSZpZM =624x269)**
-
-**![](https://lh3.googleusercontent.com/9I-WdcbhWAFPrg78C-n1IcWf7uPBGMF1ZNF-YTgHjl4gfpczTCdMnT3KRH3cquLdFQfYad-uVFO58hP3IgUTbIN6o1Xg3utvua1Z4fd-eyL8C1oUXjWbR5cijM1k7G53RSjK1Kmx =624x265)**
+![](/img/week-of-october-15th-2018-4.png)
 
 ### LOBs External API - Add keys (AE-405)
 
@@ -390,7 +386,7 @@ When advanced options toggle is OFF: * Title: Lines of Business
 * Keys: "ac.lob.read.external" and “ac.lob.write.external"
 * The user gets both read and write permissions
 
-![](https://lh4.googleusercontent.com/lM4jGBscz8BBULiBkowdzkc9Se_UDHzxPTHpiJHOACE7R7Wcn1tpPB6ls1bYPYNUSD3xwsSoG0IWS9ICXoT5bo2IqOYmNuGvVu4QgXR6ofWrrvro-lOXvZYTPbOdlUKmca3kMEZQ =624x523)
+![](/img/week-of-october-15th-2018-5.png)
 
 When advanced options toggle is ON: * Title: Lines of Business
 
@@ -401,9 +397,9 @@ When advanced options toggle is ON: * Title: Lines of Business
 
 This feature is enabled by default to all customers.
 
-![](https://lh5.googleusercontent.com/3R1gIbQE6_gviudX85f6UmFdRx0x5H0CRhN2yP0xISc0l0T1FlxkYUqwKwuBdbaqJXHhsa2cFWrd-cag6Bmk8oa17PCot67P88XFANthQCspidFWxayCF8fkTCHW5K28PcbgF-CM =624x629)
+![](/img/week-of-october-15th-2018-6.png)
 
-### Offline Survey Email Settings (LE-94582)
+### Offline survey email settings (LE-94582)
 
 | Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |   
@@ -416,13 +412,11 @@ This provides the ability to change the offline survey email settings (such as t
 
 This enhancement is enabled by default for all customers.
 
-![](https://lh4.googleusercontent.com/Snp01toScpoGV2sMCaYLp44tIO79mdUKaiMMoe919vVtct8ExTvzeNHlVXfi2kOoF1NZP6qc4UM-3Ng3fttO3U2v1tq1aBhCDUalRIO5XJBRhnvsws4i34q4pZZn5EXcNTBDgEvA =624x273)
+![](/img/week-of-october-15th-2018-7.png)
 
 **Limitations**
 
 The settings are only applicable for a non-default engagement window, i.e. it is not possible to adjust the survey settings for the default engagement window.
-
-![](https://lh6.googleusercontent.com/ehb3vAYDmVUNn_3QAIqhnU8eZYh5ea8z-FAKfdYZM3tizHJB_QLF8MFfNcPs-sqXO6aOkRNhUQF5hUc6E_znk5ICt--Y7KEchOFV05uBuKoutJDo9QuwtLROMGxTV8lfZ6l-FMGz =624x395)
 
 ### Send PDC-id to UMS on publish message (LE-91761)
 
@@ -480,12 +474,6 @@ On Agent widget SDK: bind to chatInfo does not always return "chatInfo.chatSkill
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 In the engagement studio, when a user clicks on the preview button and enters characters in the URL field, a bug results with an error in the console (Chrome Developer Tools). The user can still enter the URL but cannot load it by clicking the enter key. However, clicking the “Go” button will load the URL. This bug has been resolved.
-
-![](https://lh4.googleusercontent.com/COeNrL8fqz3RWqikauwt19_GTiYM3GSY2q9eP9S8ikJ1PZkYF60NirnfU4Lah-zrzb80XKb_i53ezS1iDg11mfX6DywHuAeqL9P3JuWmutZy1i7ZvAY7J3LzXYz1SkN_Zi8u27zv =406x174)
-
-![](https://lh6.googleusercontent.com/BAo6bfwlSB6Ylo-T6HlhwJgYsruGsi4jg8uSNqxWeXKFrdNKu6TOL4iOUbz24h0f8p9YCfLpJuSBUhHDss9YNp4XBYFaMeblyMYKhIysZTp3etN7ODc39P9nQuZxKIl1o48R3xSE =624x36)
-
-![](https://lh6.googleusercontent.com/8O8JqeJLxe3f1i5yFpDhWqJXUHhIA8wQSk_RKybxohO20J4AI5V5ILkwb3u-h3QjXrw8CAlweb-us3ZoDR_UZzAxdMW_XrodBEWqcXrLmQ5e1gy4XHatA-JRDi5CHdzQsETSgOQH =535x182)
 
 ### MS was not being updated intermittently by CM on occasions (91590)
 
