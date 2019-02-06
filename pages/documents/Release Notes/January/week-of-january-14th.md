@@ -1,0 +1,88 @@
+---
+pagename: 'Week of January 14th '
+categoryName: Release notes
+subCategoryName: 2019
+indicator: both
+subtitle: ''
+level3: January
+permalink: release-notes-2019-january-week-of-january-14th.html
+isTutorial: false
+isNew: false
+date: 2019-02-06 10:51:46 +0200
+published: false
+
+---
+These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
+## New functionality
+
+### Audit trail on campaign time frame
+
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
+
+Customers will now be able to track changes made to the campaign time frame in the LiveEngage audit trail.
+
+### Audit trail on shift scheduler (working hours)
+
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
+
+Customers can now do the following in the LiveEngage audit trail:
+
+* Track changes on the shift scheduler
+* Tracking changes to weekdays and special occasion items and their assignment- per account and per skill
+
+![](/img/week-of-january-13th-1.png)
+
+**Limitations**
+
+If you change either the name of the occasion or the time frame, you will see 2 lines:
+
+N/A -> new
+
+old -> N/A
+
+### ![](/img/week-of-january-13th-2.png)
+
+Opacity of the embedded window on Mobile Web (campaigns)
+
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> </tr> </tbody> </table>
+
+When opening the engagement window in embedded mode on a mobile browser, the window will be 5% transparent. This ensures that the engagement window was opened on top of the website, and that the consumer was not redirected to another page.
+
+In some cases, where the design of the underlying website conflicts with the design of the engagement window, the consumer might think that there is something wrong with the engagement window. In this case, the brand can decide to keep the engagement window in embedded mode and it will be solid, not showing the underlying website.
+
+**How to change the opacity?**
+
+1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.
+
+   {: .important}
+
+   This setting is on the window level, and will apply to all the engagements
+
+   ![](/img/week-of-january-14th-3.png)
+2. Click on the relevant window and select “edit.”
+3. In the Engagement window studio, open “Additional window settings” in the top right corner.
+4. Define the window opacity on mobile web.
+5. Click “**Save**”
+
+![](/img/week-of-january-14th-4-1.png)
+
+**Notes:**
+
+* This applies only to the embedded mode, and only for Mobile Web messaging.
+* The default is “No”, which is the current behavior.
+
+### Bot connectors: Support for Google Dialogflow V2 in the LivePerson Bot Platform OOTB Connectors
+
+Support has been added for Google Dialogflow V2 in the LivePerson Bot Platform OOTB Connectors. Google [Dialogflow V2](https://dialogflow.com/docs) integrations require oAuth2 authentication. The connector platform now allows for access to Dialogflow V2 intent APIs VIA oAuth2 credentials. Previously the Bot Platform Connectors supported Dialogflow V2.Customers can self service their Dialogflow V2 bots & configure the required oAuth2 credentials VIA the LivePersons OOTB configuration & management tools rather than build or upgrade their existing connector.
+
+Brands should seek consult with their LivePerson field teams before making a decision.
+
+### Bot Connectors: Support for Google Dialogflow V2 in the LivePerson Bot Platform OOTB Connector Console & Connector service
+
+Support has been added for [Google Dialogflow V2](https://dialogflow.com/docs) in the LivePerson Bot Platform OOTB Connector Console & Connector service. Integration guides can be found in the LivePerson [developer hub](https://developers.liveperson.com/customer-facing-bots-deploying-bots-to-liveengage.html).
