@@ -35,7 +35,7 @@ Customers can now do the following in the LiveEngage audit trail:
 * Track changes on the shift scheduler
 * Tracking changes to weekdays and special occasion items and their assignment- per account and per skill
 
-![](/img/week-of-january-13th-1.png)
+![](/img/week-of-january-14th-1.png)
 
 **Limitations**
 
@@ -45,9 +45,7 @@ N/A -> new
 
 old -> N/A
 
-![](/img/week-of-january-13th-2.png)
-
-Opacity of the embedded window on Mobile Web (campaigns)
+### Opacity of the embedded window on Mobile Web (campaigns)
 
 <table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> </tr> </tbody> </table>
 
@@ -57,19 +55,17 @@ In some cases, where the design of the underlying website conflicts with the des
 
 **How to change the opacity?**
 
-1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.
+1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.![](/img/week-of-january-14th-3b.png)
 
    {: .important}
 
    This setting is on the window level, and will apply to all the engagements
-
-   ![](/img/week-of-january-14th-3.png)
 2. Click on the relevant window and select “edit.”
 3. In the Engagement window studio, open “Additional window settings” in the top right corner.
 4. Define the window opacity on mobile web.
 5. Click “**Save**”
 
-![](/img/week-of-january-14th-4-1.png)
+![](/img/week-of-january-14th-4b.png)
 
 **Notes:**
 
