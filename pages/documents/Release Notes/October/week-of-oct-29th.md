@@ -29,8 +29,6 @@ The Messaging Operations API is being enhanced to include operational data on th
 
 Essentially, segmenting messaging conversations by the skill assigned to a conversation allows you to measure both consumer experience and contact center operational targets, separately, for bots and agents, and the relationships between them while the consumer is navigated through the conversational flow.
 
-![](https://lh4.googleusercontent.com/hTxFwdN46D-GkAyaL-GzYyQ7nfLD0JYDrLO7qaWAO5_2O87D5wQr7PK5ng8IFk4Qnta4k_YwsSaHoXkAOP9bZhNelqjjryV448P6AqGp2d59c8ECHJkQX6ps6jsJPSESOZZI3KXr =486x274)
-
 The API will facilitate the retrieval of information on the queue state, consumer experience and agent performance at the skill or account level, including the number of skill segments assigned during a specific or cumulated time frame, the number of abandonments or non responsive agents and more.
 
 This data will be reported in two ways:
