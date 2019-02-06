@@ -9,7 +9,6 @@ permalink: release-notes-2019-january-week-of-january-20th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 12:09:11 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
