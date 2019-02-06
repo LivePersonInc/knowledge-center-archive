@@ -13,7 +13,7 @@ date: 2019-02-06 12:43:51 +0200
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
@@ -21,11 +21,10 @@ These release notes include new features arriving to LiveEngage during October 2
 
 ### Queue visibility in Realtime Dashboard and in the KPI bar in All connections
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
-  
 Ability to view the number of actionable conversations in queue out of total unassigned conversations directly from the LiveEngage data bar and the Realtime dashboard. Actionable conversations are those that require the agent’s attention. A conversation may also be considered actionable if it meets any of the following conditions:
 
 * The last message was sent by the consumer.
@@ -36,9 +35,9 @@ Actionable conversations metric is also available via Messaging Operations API s
 
 ### Push Notification Proxy - Self Service (LE-89348)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| no | yes | no | no | no | no | no | no | no |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
+| No | Yes | No | No | No | No | No | No | No |
 
 This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment.
 
@@ -48,16 +47,14 @@ Further details are available on the developers site:
 
 This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources.
 
-  
 ![](https://lh4.googleusercontent.com/RyX8t1i0mperXUDYSt7Pj_sgxZBoVaWGWynNQHSiKmEchTWBJ3FnZJV9U1gZy4OSPl3wkpIT5AZsi_XNQaeU9DzFSzT8TMrTSYEF4mHxFqVTJ3hRu7dRHelB3UsAUcanqkDPqeOu =624x273)![](https://lh6.googleusercontent.com/TfW1kdbwexuOu0q9e1iOYXMuRBjABomiK3ePppjYrITCztCiAutcyyaXMrYngiF9-_XRa6ZA-RHc59tnhFGXDlJIJeqNo4Vm7jV67Un1sDG3MlqFjqCr-kATbjNYeBkRgfrfSbQM =624x269)
 
 ### Predefined Content & Content Categories - Audit Trail (AE-110)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| yes | yes | yes | yes | yes | yes | yes | yes | yes |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-  
 An audit trail provides the ability to track changes made to LiveEngage Predefined content. It's needed for several reasons:
 
 * **For customers:** To track changes performed in their LiveEngage account. For Enterprise customers (especially Financial Services), it is required as part of their security regulations.
@@ -69,8 +66,7 @@ Therefore, we added the ability to view details on changes made to the PDC and c
 
 The Audit Trail table was enhanced to show details of changes made to Predefined Content (PDC) and content categories.
 
-  
-***This feature requires enablement ​- please contact your LivePerson account team.**
+\***This feature requires enablement ​- please contact your LivePerson account team.**
 
 ![](https://lh6.googleusercontent.com/YDnwl82Yo4sjOyPzP4cukWHUSFb_pDGhSrbLha7dRJMq2FLdKaNSXN3NlUBcyGavq_1py7CAklucsb3tHdN7-Oa3T4hKfi4SCOxU3ASzBf2Ue35fms9BX3EHuBKTlI4MltyDQL0F =624x188)
 
@@ -78,8 +74,8 @@ The Audit Trail table was enhanced to show details of changes made to Predefined
 
 ### Intelligent Routing Queue Delivery (back-end messaging-server)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 
 **Where Do I define Sorting Business Rules?**
@@ -115,10 +111,9 @@ A conversation is 'During Transfer' if :
 
 #### **Transfer Rules Types Description**
 
-| --- | --- | --- | --- | --- | --- |
-| Transfer Rule Name | Description | Fields | Optional Fields | Mandatory Fields | Valid Values |
-| SourceDestination | Defining a velocity in case a conversation had transferred from 'source' skill to 'destination' skillWe can define either only source, only destination or both. | sourceSkilldestinationSkillvelocity | sourceSkilldestinationSkill | velocity | 'sourceSkill' , 'destinationSkill' : String'velocity' :1 <= Positive Decimal number <= 5 |
-| Threshold | Defining a velocity in case of numbers of transfers.We can define a different velocity for number of transfers | numberOfTransfersvelocity | All Mandatory | numberOfTransfersvelocity | 'numberOfTransfers' : Positive Number => 1'velocity' : 1 <= Positive Decimal number <= 5 |
+| Transfer Rule Name | Description | Fields | Optional Fields | Mandatory Fields | Valid Values |  
+| --- | --- | --- | --- | --- | --- ||  
+| SourceDestination | Defining a velocity in case a conversation had transferred from 'source' skill to 'destination' skillWe can define either only source, only destination or both. | sourceSkilldestinationSkillvelocity | sourceSkilldestinationSkill | velocity | 'sourceSkill' , 'destinationSkill' : String'velocity' :1 <= Positive Decimal number <= 5 | | Threshold | Defining a velocity in case of numbers of transfers.We can define a different velocity for number of transfers | numberOfTransfersvelocity | All Mandatory | numberOfTransfersvelocity | 'numberOfTransfers' : Positive Number => 1'velocity' : 1 <= Positive Decimal number <= 5 |
 
 * In case no rule match is defined on the conversation, default velocity will be 1
 * If inside a rule there are few overlapping conditions, the first condition wins. ( see examples below )
@@ -244,9 +239,9 @@ Json Example :
 
 ### Shift status REST API (91371, 91374, 91373, 91388)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ | Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 
 **Expose Shift Status API:**
 
@@ -291,23 +286,23 @@ Enable the encoded metadata AC feature (contact LP representative) - cannot be e
 Sending and receiving encoded metadata is similar to any metadata transfer, as described in the [Conversation Metadata Guide](https://developers.liveperson.com/messaging-agent-sdk-conversation-metadata-guide.html).
 
 **Sending Encoded Metadata**  
-To send encoded data, use the metadata input filed: “encodedMetadata”.   
+To send encoded data, use the metadata input filed: “encodedMetadata”.  
 For example, sending encoded metadata on a publish-event would look like this:
 
 {  
- "kind": "req",  
- "id": 1,  
- "body": {  
- "dialogId": "2324be55-7f85-41f4-8092-5260cbc45d1a",  
- "eventId": 1,  
- "event": {  
- "type": "ContentEvent",  
- "contentType": "text/plain",  
- "message": "sending encoded metadata!!"  
- }  
- },  
+"kind": "req",  
+"id": 1,  
+"body": {  
+"dialogId": "2324be55-7f85-41f4-8092-5260cbc45d1a",  
+"eventId": 1,  
+"event": {  
+"type": "ContentEvent",  
+"contentType": "text/plain",  
+"message": "sending encoded metadata!!"  
+}  
+},  
 "encodedMetadata":"<base64-encoded string>",  
- "type": "ms.PublishEvent"  
+"type": "ms.PublishEvent"  
 }
 
 **Receiving Encoded Metadata**  
@@ -349,19 +344,19 @@ While the agent workspace UI does some validations on permissions, these should 
 
 ### Add unauthenticated consumerId to Agent widget SDK (AE-463)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
-  
 As part of the Agent Widget SDK, a new "_claimsAndAuthType_" field was exposed. This field will include the “claims” key, replacing the authenticatedData (which is now deprecated) and the “acr” (AuthType) key of the conversation.
 
 This new field will contain all engagement attributes and ACR (authentication level) for both authenticated and unauthenticated conversations. The “claims” key will include the engagement attributes (SDEs) passed from the IDP. The engagement attributes will now hold the consumerId, under the Personal Info SDEs (under the “customerId” key).
 
 ### Post conversation survey - Audit Trail (LE-93260)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
 | Yes | Yes | Yes | Yes | Yes | No | No | No | No |
 
 Changes made to LiveEngage’s post conversation survey are now audited so admins have the ability to track changes and take action if needed.
@@ -372,7 +367,7 @@ Use case: The account admin added a new survey to the account or modified an exi
 * Who activated or deactivated the survey
 * Modifications that were done on the survey questions and logic (see Review Changes screenshot below for the side by side comparison between the old and new survey versions)
 
-***This feature requires enablement ​- please contact your LivePerson account team.**
+\***This feature requires enablement ​- please contact your LivePerson account team.**
 
 **![](https://lh6.googleusercontent.com/YX7TB7Ll8yowd_Yz8uH_RvfK8qroCz1HmMnNBqNAOgIQP3Cmc8xPvYLkRZ-TPQf8V0x9B7nihcYFtSZtw-joNzN9lxMs6fbKj4Fy-0ol5b_APBzP4QopIEtRIb3mRN1daxYSZpZM =624x269)**
 
@@ -380,11 +375,10 @@ Use case: The account admin added a new survey to the account or modified an exi
 
 ### LOBs External API - Add keys (AE-405)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| yes | yes | yes | yes | yes | yes | yes | yes | yes |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+ |Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-  
 Lines of Business have been exposed as an external API for some time. This change exposes it in the LE UI.
 
 We exposed the API under:
@@ -411,13 +405,14 @@ This feature is enabled by default to all customers.
 
 ### Offline Survey Email Settings (LE-94582)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| no | no | no | no | no | no | no | no | yes |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
+| No | No | No | No | No | No | No | No | Yes |
 
 This provides the ability to change the offline survey email settings (such as the recipient, subject and footer) through UI (self-served), instead of contacting LivePerson Support. The survey settings are per survey.
 
-**Please note**: It is recommended to fill out all fields or leave them blank to use the account default settings.
+{: .notice}**  
+**It is recommended to fill out all fields or leave them blank to use the account default settings.
 
 This enhancement is enabled by default for all customers.
 
@@ -431,16 +426,16 @@ The settings are only applicable for a non-default engagement window, i.e. it is
 
 ### Send PDC-id to UMS on publish message (LE-91761)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 In order to support reporting on predefined content usage for messaging (as exists already in chat), we now send the PDC (Predefined Content) **Id**, **Category** and if **it was edited** when publishing a message to UMS from the web agent as part of the metadata.
 
-### Expose unauthenticated consumer ID in consumer profile for back-end messaging server (92875) 
+### Expose unauthenticated consumer ID in consumer profile for back-end messaging server (92875)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
 | Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 
 Expose customerID on unauthenticated flows (LP GUID) in order to allow reporting of SDE's.
@@ -472,17 +467,17 @@ Upgrade Jetty version to latest stable (9.4.10)
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (AE-473)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| no | no | no | no | no | no | no | no | yes |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
+| No | No | No | No | No | No | No | No | Yes |
 
 On Agent widget SDK: bind to chatInfo does not always return "chatInfo.chatSkill". This bug is now resolved.
 
 ### Typing in the studio preview URL field generates errors in the console within campaign manager (LE-83481)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| yes | yes | yes | yes | yes | yes | yes | yes | yes |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 In the engagement studio, when a user clicks on the preview button and enters characters in the URL field, a bug results with an error in the console (Chrome Developer Tools). The user can still enter the URL but cannot load it by clicking the enter key. However, clicking the “Go” button will load the URL. This bug has been resolved.
 
