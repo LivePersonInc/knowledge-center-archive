@@ -21,7 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New Functionalities
 
-Connectors Support Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
+### Connectors Support Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
 
 <table>
 <thead>
