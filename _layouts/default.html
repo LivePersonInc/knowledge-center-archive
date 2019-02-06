@@ -51,13 +51,19 @@
   <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div>
 </div>
   <div id="defaultcontent">
+  <div id="maincontent">
     <div class="anchorlist">
       <ul>
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
       </ul>
-
     </div>
     {{ content | extlinks }}
+  </div>
+    <div id="feedback">
+      <div class="feedbacktitle">Got feedback?</div>
+      <br>
+      <div class="notice">We'd be happy to hear from you. You can <a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank">suggest changes</a> to this document, <a href="#">submit a request for a document you think is missing</a> or <a href="#">chat with our Support team!</a></div>
+    </div>
   </div>
   <div id="defaultfooter">
     <div id="footerbottomrow">

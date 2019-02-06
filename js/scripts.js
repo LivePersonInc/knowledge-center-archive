@@ -359,11 +359,6 @@ $(window).scroll(function() {
    };
 });
 
-function normalLink (event, link) {
-	url = link.href;
-	window.open(url);
-}
-
 function isEdge () {
 		var boxes = document.getElementsByClassName("mainbox");
 		$.each(boxes, function() {
