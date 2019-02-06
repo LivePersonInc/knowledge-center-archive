@@ -30,6 +30,7 @@ The goal of this feature is to improve agent efficiency and consumer satisfactio
   * **Conversation interactiveness** - Give priority to conversations where the consumer has just written a message and therefore is considered more interactive.
 * Brands can now define their own business rules that dictate which conversations to prioritize based on the number of transfers the conversation has been through or by assigning a higher priority to conversations that are being transferred to or from a specific skill.
 
+<br />
 **The following parameters are taken into consideration in the new queue prioritization:**
 * Manual ettr
 * Off Hours
