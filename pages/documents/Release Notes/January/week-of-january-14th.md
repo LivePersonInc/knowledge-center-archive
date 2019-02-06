@@ -9,7 +9,6 @@ permalink: release-notes-2019-january-week-of-january-14th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 10:51:46 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -86,3 +85,23 @@ Brands should seek consult with their LivePerson field teams before making a dec
 ### Bot Connectors: Support for Google Dialogflow V2 in the LivePerson Bot Platform OOTB Connector Console & Connector service
 
 Support has been added for [Google Dialogflow V2](https://dialogflow.com/docs) in the LivePerson Bot Platform OOTB Connector Console & Connector service. Integration guides can be found in the LivePerson [developer hub](https://developers.liveperson.com/customer-facing-bots-deploying-bots-to-liveengage.html).
+
+## Enhancements
+
+### Bot connectors: Deprecation of Google Dialogflow V1
+
+As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers should migrate before this date to V2, see [migration guide](https://dialogflow.com/docs/reference/v1-v2-migration-guide)
+
+## Bug fixes
+
+### Agent status changes to away involuntarily
+
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> </tr> </tbody> </table>
+
+If the ACD setting for chat was configured to “advanced mode” and “agent status changes to **away** if missed accepting the chat,” and then afterwards, the setting was changed to “Auto-accept” mode, the agent state would still change to “away” in some scenarios.
+
+### ![](/img/week-of-january-14th-5.png)Messaging - Automatic Messages - "<br/>" is being shown in conversation
+
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>Yes</td> <td>No</td> </tr> </tbody> </table>
+
+If an automatic message is configured with a break line in it, it displayed as “<br/>” in the agent transcript.
