@@ -9,12 +9,12 @@ permalink: release-notes-2019-february-week-of-february-4th.html
 isTutorial: false
 isNew: false
 date: 2019-02-05 14:15:21 +0200
-published: false
+published: true
 
 ---
 These release notes include new features arriving to LiveEngage during February 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
