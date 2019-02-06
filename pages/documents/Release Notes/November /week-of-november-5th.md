@@ -20,7 +20,36 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New Functionality
 
-### Queue prioritization 
+### Queue prioritization
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
+<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
+<th><img class="tableIcon" src="img/sms.png" /></th>
+<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
+<th><img class="tableIcon" src="img/abc.svg" /></th>
+<th><img class="tableIcon" src="img/line.svg" /></th>
+<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
+<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
+<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Queue prioritization allows you to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in queues based on queue entrance time or time when the consumer responded.
 

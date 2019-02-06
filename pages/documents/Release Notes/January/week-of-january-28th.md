@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Secure form (PCI) support for SMS using Twilio messaging gateway (94882)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>N/A</td> <td>No</td> </tr> </tbody> </table>
 
 There is now support for secure forms for the SMS using Twilio messaging gateway. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
@@ -45,15 +45,13 @@ The design for the form in the messaging connectors experience is inherited from
   * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:
 
   _The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\]._
-
-
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
   * Received by the consumer
   * Submitted by the consumer
 
-**How to enable  
-**To configure this feature, please speak to your LivePerson representative. For more information, please see the [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
+\**How to enable  
+\**To configure this feature, please speak to your LivePerson representative. For more information, please see the [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
 
 **Limitations**
 
