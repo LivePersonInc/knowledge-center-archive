@@ -73,7 +73,45 @@ For a more in depth guide on how to add metadata in structured content templates
 
 **Dependencies:** To create Structured Content templates for any of the supported connector sources, brands must use the Agent Widget SDK or the Agent SDK. For more information please review the Rich Messaging section in the [developer community](https://developers.liveperson.com/)
 
+## Bug Fixes
 
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | RCS Business Messaging | WhatsApp | Line | Google My Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | Yes | Yes | Yes | No | No | No | No |
+### Messaging connectors: Consumer is able to send audio message with field set to false (LE-94809)
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
+<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
+<th><img class="tableIcon" src="img/sms.png" /></th>
+<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
+<th><img class="tableIcon" src="img/abc.svg" /></th>
+<th><img class="tableIcon" src="img/line.svg" /></th>
+<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
+<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
+<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+With the Audio Message setting disabled, if a visitor sends an audio message over supported connector channels (RCS Business Messaging, Apple Business Chat, WhatsApp Business and Facebook Messenger), the message appears to have been sent successfully from the visitor's view. This bug has now been resolved. 
+
+**Fix:** The audio message will not be sent to LiveEngage UI, and an error will be presented to the consumer. The error message that will be sent to Facebook Messenger, WhatsApp Business and RCS Business Messaging if the audio feature is not enabled reads: “Sorry! Unfortunately audio messages cannot be sent via RCS Business Messaging/WhatsApp/Facebook”
+
+### Facebook Messenger - Blank conversations started when deleting and responding to CSAT (LE-95931)
+
+When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved. 
+
+Apple Pay ID Incorrect Request Identifier (LE-95465)  
