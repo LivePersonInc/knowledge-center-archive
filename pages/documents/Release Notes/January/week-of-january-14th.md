@@ -53,7 +53,7 @@ When opening the engagement window in embedded mode on a mobile browser, the win
 
 In some cases, where the design of the underlying website conflicts with the design of the engagement window, the consumer might think that there is something wrong with the engagement window. In this case, the brand can decide to keep the engagement window in embedded mode and it will be solid, not showing the underlying website.
 
-**How to change the opacity?**
+**How to change the opacity**
 
 1. On the Campaign page, click on the “Edit” function next to the “Engagement window” of the relevant engagement.![](/img/week-of-january-14th-3b.png)
 
