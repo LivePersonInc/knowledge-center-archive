@@ -36,7 +36,7 @@ The Skill ID in the Conversation_Info event is now exposed. The event should be 
 
 After the consumer sends an image to an agent, and clicks on the thumbnail, the image will open in the entire window. To close this view, the consumer can click on the entire background, and not just on the “x” on the upper right corner.
 
-![](https://lh3.googleusercontent.com/5_fSCg2JT9goPkjvKYWxsFVQg41uRC4l9v1la7530kwBa9qyMsm1AKu_SKXW21m2afq5sTktkL_GnJ071zLqqMKG_wrzIzJETU9diVpRIH7LHHE3IhHWjOVXh7vZgPLiXCp35fh3 =603x384)
+![](/img/week-of-october-22nd-1.png)
 
 ## Enhancement
 
