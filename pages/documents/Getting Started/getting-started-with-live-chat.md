@@ -8,6 +8,7 @@ permalink: getting-started-getting-started-with-live-chat.html
 isTutorial: false
 date: 2019-01-14 10:27:58 +0000
 level3: ''
+isNew: false
 
 ---
 To get started, access LivePerson using this link: Add link to login
@@ -54,19 +55,18 @@ In addition to adding the LivePerson tag to all your website pages, you can also
 ## Step 3: Design the customer experience
 
 1. **Define the look, feel and behaviour or chat buttons and windows:** LivePerson ‘campaigns’ provide you with granularity to define many aspects of the chat look and feel as well as the behaviour buttons on your website, including:
+   * Chat button look and feel
+   * Chat window look and feel
+   * Rules to trigger button appearance on your web pages
+   * Surveys
+   * Proactive invitations
 
-	* Chat button look and feel
-	* Chat window look and feel
-	* Rules to trigger button appearance on your web pages
-	* Surveys
-	* Proactive invitations
-
-	Read more: detailed instructions for creating chat campaigns.
+   Read more: detailed instructions for creating chat campaigns.
 
 **2. Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
 
-	* Photo sharing (consumer to agent)
-	* Structured content (cards, carousels, lists)
+    * Photo sharing (consumer to agent)
+    * Structured content (cards, carousels, lists)
 
 **3. Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
 

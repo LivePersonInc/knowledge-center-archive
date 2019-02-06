@@ -48,6 +48,7 @@ When the “send API” composes the error message it should have a unified form
 
 **WS example:**
 
+```
 {
 
 "kind": "resp",
@@ -69,6 +70,7 @@ When the “send API” composes the error message it should have a unified form
 "type": ".ReqBody$ErrorResp"
 
 }
+```
 
 ### Handle “Send API” request with wrong version (LE-94525)
 
