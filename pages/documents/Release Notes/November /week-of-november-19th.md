@@ -20,7 +20,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New Functionalities
 
-### Connectors Support Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
+### Connectors support: Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
 
 <table>
 <thead>
@@ -113,9 +113,8 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 
 When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved. 
 
-### Apple Pay ID Incorrect Request Identifier (LE-95465)  
+### Apple Pay ID incorrect request identifier (LE-95465)  
 
 Currently when a brand adds a request Identifier to the Authentication Interactive Message structured content JSON, the connector will create a new request ID. This causes a problem between the outgoing request ID and the authentication response request ID (which for data correction should be the same). 
 
-Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved. 
-
+Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved.
