@@ -57,10 +57,12 @@ LiveEngage allows brands to send structured content messages (by human or bot) i
 The following will be added in order to allow the brands to report on structured content templates in the LiveEngage report builder:
 
 **Tracking click operation in  reports**
+
 * Messaging connectors which support structured content elements (Apple Business Chat, Facebook Messenger, Google RCS Business Messaging, or future connectors) will enable the brand's agents/bots to share "External ID" metadata with the structured content click object
 * This will allow the brand to track in report builder (by the external ID) the number of times each click action was clicked/selected
 
 **Tracking number of times Structured Content event was sent/delivered or viewed in  reports**
+
 * Each connector supports a different type of message indication for the delivered state (delivered to server, delivered to consumer device or viewed by consumer). Per each supported indication, the connector will report back the right message state (as supported today)
 * This will allow the brand to track in the report builder (by the external ID) the number of times each Structured Content message was sent, delivered or viewed by the consumer
 
@@ -70,3 +72,8 @@ For a more in depth guide on how to add metadata in structured content templates
 **Note:** This feature requires enablement, please contact your LivePerson account team for more information.
 
 **Dependencies:** To create Structured Content templates for any of the supported connector sources, brands must use the Agent Widget SDK or the Agent SDK. For more information please review the Rich Messaging section in the [developer community](https://developers.liveperson.com/)
+
+
+| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | RCS Business Messaging | WhatsApp | Line | Google My Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| No | No | No | Yes | Yes | Yes | No | No | No | No |
