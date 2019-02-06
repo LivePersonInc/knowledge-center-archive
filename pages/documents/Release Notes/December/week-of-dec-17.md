@@ -13,7 +13,7 @@ date: 2019-02-06 14:57:08 +0200
 ---
 These release notes include new features arriving to LiveEngage during December 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
@@ -21,8 +21,8 @@ These release notes include new features arriving to LiveEngage during December 
 
 ### Maximum wait time in queue metric in real-time dashboard
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
 
 A new metric is now available in the Current Queue State method of the Chat Operational Realtime API (**currentMaxWaitTimeInQueue**) and is available by skill. It is now exposed by default in the Realtime Dashboard.
@@ -53,8 +53,8 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Abandon Segments Rate (%)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 Addition of new calculated metrics from Skill Segment API**.**
@@ -77,11 +77,10 @@ Only available in the “Today from X” section and “Skills” section. In bo
 
 ### Google website translator
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-  
 Google Translate has been added to data applications
 
 To cater to browsers with default languages other than English, the Google Website Translator service has been added to MCS Toolkit and Realtime Dashboard - this enables full translation of all text, as translated by Google, in a large selection of languages other than English.
@@ -104,8 +103,8 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ## New source filter options (MCS toolkit)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 New filter options are now available.
@@ -134,16 +133,16 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 ### Load calculation issue (Real-time Dashboard)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 The overall Agent Load % in the CURRENT section of the Realtime Dashboard was invalid due to a formula error resulting in the display of a Load rate slightly lower than the overall weighted average of the individual agent Load rates. This issue has now been resolved in the Realtime Dashboard.
 
 ### Admin user permission issue (Real-time Dashboard)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 When an user with profile of admin logs into the Dashboard (messaging mode), some results from Messaging Operations API would not return as expected resulting in failure of the Realtime Dashboard.
