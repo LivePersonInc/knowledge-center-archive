@@ -24,19 +24,23 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The Post Conversation Survey Bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
-  
-![](https://lh6.googleusercontent.com/6XFiYgolPNI6rvdTdp2lNfm_r6A5h3RYvuca42xltxPk2eGqvJmuQ5uN4sIrbquwnsmjZ9TU93AZ_GDh58kYLA5EG8glKzvKREFkMU1NNbAKrj2FvoWG_BmSrj_7RItZVv_3-STM =249x413)
+![](/img/week-of-september-9th-1.png)
 
 The post conversation survey bot is available for Messaging customers on mobile app, web, ABC, Facebook. SMS is coming soon in September.
 
 ### Survey Flow
 
-  
-![](https://lh6.googleusercontent.com/qDWKcxiC2EM6MxeYocQaX5HwCzq2ESMi0BdgRvEfBO33Ol5hW_LfMbHsE47Td_DfBWp7R7WZRbxKnpDoGESaHTcgEd2pqRxtRJVDY-HdregQsB9pxAjmg2yN58GpyR8BKq7sry3M =177x310)![](https://lh6.googleusercontent.com/N03qxBjBOMQhvctu9A9Heip9LMvYHJo6s6NB6lPSbnD6XaSnyNGaxHNbkdloZGS-JtHNhQEWDIjaK6RLzlblyinpvvA7RFn_k48-LlL3wKLlDENA1u0lZABGOgK3hiu8c2Rpqe_y =177x311)![](https://lh3.googleusercontent.com/1u7ZtObSnieNGP1qXXx5n4TIrPxkJ9c3BcLfPyIyRKwkvbQAKIP6cXKsCl05hHtUS0jcmzS1W6qazYOdbb-Ze24DycmMZdVmgpdVEF4tqEX-akyodqlyk-DW1nOJAO94k973hp1S =172x304)
-
 1. Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
-2. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
-3. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message
+
+![](/img/week-of-september-9th-2.png)
+
+1. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
+
+![](/img/week-of-september-9th-3.png)
+
+1. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message
+
+![](/img/week-of-september-9th-4.png)
 
 ## How to create a survey using the Bot Studio
 
@@ -46,20 +50,17 @@ Log in to the Bot Studio using the following link [https://va.routingbot.ext.liv
 
 Make sure to use your account Admin credentials.
 
-![](https://lh6.googleusercontent.com/0PBXW2dEUdzTiZk67iWQfsJOsKjnRU0OYJR4G4_1mx1IEbZ5LU8uSR-QmOYkqzVwNJh5iL7VBlK3K1_-fA_EiDhN8SVH73BmrykfsS8G2raM-tI5XejLe506vf6Md6IcE2XU9W9b =461x439)
+![](/img/week-of-september-9th-5.png)
 
 ### Step 2 - Create a Bot and first survey
 
 Once logged in to the Studio, create a new Bot under the Survey Bots tab.
 
-![](https://lh4.googleusercontent.com/92YHex55zVbfDs_2YpiR5DqKFoMdwx7agSh3Ixu-uCgJhs8Bi3tuOvIMAomq4NlOpg__A4nkqgB6dsBxufyXVC4p0FyLJX5Hm_GxK5PkHKf6Q5GcLlav4UPBITgZcM2jjSZnzboV =563x299)
+![](/img/week-of-september-9th-6.png)
 
 Once the bot is created, Enter the Bot’s Survey gallery and press the “Add Survey” button to create a new survey.
 
-Select the skills on which the survey will be triggered once the conversation is closed.  
-  
-  
-![](https://lh4.googleusercontent.com/dOn-c8lzUeb_M_ubjClsACAIv6pYJQoDkIyD757meNdaNvpddX5mBE06HZybdpMi2VGIFvEF3orFc3CshFOgwa4N3gVKORHeL6P_ERcNawuYdBd9zhirtDuMoS6gTuVYcTw-NTEo =617x178)
+Select the skills on which the survey will be triggered once the conversation is closed.
 
 ### Step 3 - Define the survey flow with Sequences and Brick
 
@@ -103,7 +104,9 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 #### **Survey skip phrases**
 
-In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.![](https://lh4.googleusercontent.com/7L9fWgT9QYG9_fqrOB85K-7fvK_S3fgsDTU_t3unN9j1ZJ25zlHwiKtYFFgieqJXqi_sElWQQz8vKdJCfS8zR_1LSKakAQKeDaGt1HF1_HtdvsWlvxLwUvDv3OWoQS3C6d26Niwu =466x401)
+In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
+
+![](/img/week-of-september-9th-7.png)
 
 ### Step 5 - Reaching a valid survey for Publishing
 
@@ -115,7 +118,7 @@ In the image below there are a few errors that prevent the survey from being pub
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](https://lh4.googleusercontent.com/Zgqnxrv3c-1wb2NfL-JF9AeaelVnFN7xoxZNc267FXGLXNWjRXt5yPdFaTP9FjceJ1_22qjbQ-eFvxQacbYALldKqL7mVkdQOXv9GV8kIumQXada0WAkxVl4Jo4VS92TGjQbBSng =624x337)
+![](/img/week-of-september-9th-8.png)
 
 Attempting to Publish this survey will fail with a Bot Studio error message.
 
@@ -125,13 +128,13 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace would show the caption - “Survey in progress”
 
-![](https://lh3.googleusercontent.com/pjfSphxX4_xTE8wxByQmATXL_Z7oq35O760ff2DsjRyz6t7YBOXcrha4fiVR_uZ4786dvS6USALApT0f20lGCqsIREBnJkq7QU_qX9X4hdhgpfuBCLUwGpaNCz6j5mM4FZ5WJwo6 =535x611)
+![](/img/week-of-september-9th-9.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide](https://s3-eu-west-1.amazonaws.com/ce-sr/botstudio/Conversation+Survey+-+Configuration+Guide.pdf).
+For more information on this feature, please refer to the [User Guide]().
 
-Please also refer to the Release notes for [Post Conversation Survey Reporting](https://s3-eu-west-1.amazonaws.com/ce-sr/Release+Notes/2018/Release+Notes+Week+of+Aug+6th+2018+-+Published+1+Aug+2018.pdf)
+Please also refer to the Release notes for [Post Conversation Survey Reporting]()
 
 # 
 
@@ -161,11 +164,11 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
-**Limitations**
+**Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 
-* Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
+![](/img/week-of-september-9th-10.png)
 
-**![](https://lh6.googleusercontent.com/WE3_O40iyu3MUZtWflHWV4hd5faBye0jA0RTxQvY9YMFW2UC_tClRB18oIYVxHq6UjDK9ItbL0mcUkJiij9lk0dXaSzJD-6JQUIXkD6S_aotIMx3qmyzdWW9dS8QLEcVxhkqmFin =207x355)![](https://lh4.googleusercontent.com/HxAYSm5XVB7FrXYdp4-Z0ueZxaQa_vfLHp7ELiFvUI0-mkVhTsMg6rE45zur3SiQj9ZJynT3PDapE8SBTfrt04AJci9VPyoiSsbIvCPjEK3BwQIhfGsn2A6VPBwVFc-PP9_nUhiw =200x355)**
+![](/img/week-of-september-9th-11.png)
 
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
@@ -192,11 +195,9 @@ Audio messaging is currently still in beta, due to the fact that the audio files
 
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
-**![](https://lh4.googleusercontent.com/NlgBokOfMkG8JhetWi7yZNIVyLgVHOb1TnfgMm8tFVxQntYLkuJfn7BuqlcISha9KZbW3p1P1DJEkWTu4G5steFD7B3yuzX3xkEsoqcZUnD17WmdkLhI9bF4pl9zGupUJ0PsQnnL =167x296)![](https://lh5.googleusercontent.com/tj026IxJk3SXveUuLi1a7BwkJtnnl21d2P0hhGaPCZwmi3157a4v1nkLr2Iabxf1aX_KKdKgC8qKNoATMBFlpXFx-Zphh1tln1tNGbvguW75UF_9pLM0IhdvktVrafwZWCb0qeIf =167x296)**
+![](/img/week-of-september-9th-12.png)
 
-### 
-
-### Messaging Operations
+![](/img/week-of-september-9th-13.png)
 
 ### Dynamic text (macros) in Predefined Content for messaging (LE-91252)
 
@@ -226,16 +227,14 @@ The feature is also supported for rich content and quick replies (accounts can u
 
 Configuration of predefined content:
 
-**![](https://lh4.googleusercontent.com/2PLnAuhLcSChiwPmQeP-Qpo2ayNe4U2523UUZa62n3g7Nd-oEGliDxqKSb6ttWT_1cHAG3yJ2VCCow8KGJG_ddm7yp79KPU94MJL8yQJ3BEAoajA9royEpOOCGkrixhauQGBmgIx =295x426)**
+![](/img/week-of-september-9th-14.png)
 
 The text editor before sending the message:
 
-  
 ![](https://lh5.googleusercontent.com/icyZ-VyWQBiemUMqBBhbOg8qLfKmBairx5dZ4oIIIPY-g7ltpI5iGunQEOPDjd8KF1rqE4qaFCDrUbloen6l-QNUiGJjyNYBGQxhTJcJl4JrHCiaVVnDhYb4Qw0OBK5LmlWjMaqI =316x529)
 
 The message after it is sent:
 
-  
 ![](https://lh3.googleusercontent.com/FbSce4Og71ZlboiDmK65ezba6NAQzpyCLEXr3B6b3lZQYbBmi39K9O8VZRe-uLtqCcyjq1va9TbEO3Z9PYzvFsS6d5XMY_Cck7W8Q91UFZtgU9t0R3Eiif25Iz10yHo9VkilmE-k =324x479)
 
 ### 
@@ -311,8 +310,6 @@ On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and �
 
 This bug is a result of the previous LiveEngage version and is now fixed, and the widgets now display both the AOV and revenue after chat real data.
 
-  
-  
 ![](https://lh6.googleusercontent.com/WJZQoBpBAgS7bUxAh49FiCCZ3Ne9gQ3bqt6N0ourxvA_LcBoWKXfar_x5i07kuIv94IybL9d41Cp3b3omw4os15tlmfFJWfABEZaSkfli9uxMNr7AsoqFYLCsTZQPGWmK5luve3k =589x362)
 
 ### 
