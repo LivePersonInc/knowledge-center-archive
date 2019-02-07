@@ -21,9 +21,36 @@ These release notes include new features arriving to LiveEngage during December 
 
 ### Maximum wait time in queue metric in real-time dashboard
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 A new metric is now available in the Current Queue State method of the Chat Operational Realtime API (**currentMaxWaitTimeInQueue**) and is available by skill. It is now exposed by default in the Realtime Dashboard.
 
@@ -53,9 +80,36 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Abandon Segments Rate (%)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 Addition of new calculated metrics from Skill Segment API**.**
 
@@ -77,9 +131,36 @@ Only available in the “Today from X” section and “Skills” section. In bo
 
 ### Google website translator
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 Google Translate has been added to data applications
 
@@ -103,9 +184,36 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ## New source filter options (MCS toolkit)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 New filter options are now available.
 
@@ -133,17 +241,71 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 ### Load calculation issue (Real-time Dashboard)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 The overall Agent Load % in the CURRENT section of the Realtime Dashboard was invalid due to a formula error resulting in the display of a Load rate slightly lower than the overall weighted average of the individual agent Load rates. This issue has now been resolved in the Realtime Dashboard.
 
 ### Admin user permission issue (Real-time Dashboard)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |   
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 When an user with profile of admin logs into the Dashboard (messaging mode), some results from Messaging Operations API would not return as expected resulting in failure of the Realtime Dashboard.
 
