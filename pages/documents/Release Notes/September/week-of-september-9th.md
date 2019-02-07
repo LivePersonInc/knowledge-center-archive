@@ -29,7 +29,7 @@ The Post Conversation Survey Bot gives brands the ability to collect feedback fr
 
 The post conversation survey bot is available for Messaging customers on mobile app, web, ABC, Facebook. SMS is coming soon in September.
 
-### Survey Flow
+#### Survey Flow
 
 1. Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
 
@@ -43,27 +43,23 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 ![](/img/week-of-september-9th-4.png)
 
-## How to create a survey using the Bot Studio
+#### How to create a survey using the Bot Studio
 
-### Step 1 - Log in to the Bot Studio
+**Step 1 - Log in to the Bot Studio**
 
-Log in to the Bot Studio using the following link [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
+Log in to the Bot Studio using the following link: [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
 
 Make sure to use your account Admin credentials.
 
-![](/img/week-of-september-9th-5.png)
-
-### Step 2 - Create a Bot and first survey
-
-Once logged in to the Studio, create a new Bot under the Survey Bots tab.
+**![](/img/week-of-september-9th-5.png)Step 2 - Create a bot and your first survey**
 
 ![](/img/week-of-september-9th-6.png)
 
-Once the bot is created, Enter the Bot’s Survey gallery and press the “Add Survey” button to create a new survey.
+Once the bot is created, Enter the Bot’s Survey gallery and press the **Add Survey** button to create a new survey.
 
 Select the skills on which the survey will be triggered once the conversation is closed.
 
-### Step 3 - Define the survey flow with Sequences and Brick
+**Step 3 - Define the survey flow with sequences and bricks**
 
 This step will instruct you on how to create a survey flow using the Bot Studio Editor.
 
@@ -95,7 +91,7 @@ The available actions that could be defined for each quick reply or button can p
 * **Continue sequence** - This would tell the Bot Studio UI that another brick should come right after the brick in which this action is defined.
 * **End conversation** - triggers an “end conversation message” that is assigned with the terminate command in the JSON.
 
-### Step 4 - Set the Survey timeout and general settings
+**Step 4 - Set the survey timeout and general settings** 
 
 #### **Survey timeout**
 
@@ -107,9 +103,7 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-![](/img/week-of-september-9th-7.png)
-
-### Step 5 - Reaching a valid survey for Publishing
+**![](/img/week-of-september-9th-7.png)Step 5 - Reaching a valid survey for publishing** 
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
@@ -125,19 +119,13 @@ Attempting to Publish this survey will fail with a Bot Studio error message.
 
 Once the survey contains no warnings, hit the Publish button to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it would already be live for your users.
 
-### Step 6 - Trigger the survey
-
-In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace would show the caption - “Survey in progress”
+**Step 6 - Trigger the survey**
 
 ![](/img/week-of-september-9th-9.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide]().
-
-Please also refer to the Release notes for [Post Conversation Survey Reporting]()
-
-# 
+For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for [Post Conversation Survey Reporting]()
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
@@ -163,9 +151,9 @@ Brands can configure one survey and apply it for all channels or they can config
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-**Please note:** This feature requires enablement - please contact your LivePerson account team.
+**Please note:** This feature requires enablement - please contact your LivePerson account team.Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 
-**Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
+**Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 
 ![](/img/week-of-september-9th-10.png)
 
