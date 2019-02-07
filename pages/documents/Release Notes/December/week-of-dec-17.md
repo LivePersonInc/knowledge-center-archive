@@ -5,7 +5,7 @@ subCategoryName: 2018
 indicator: both
 subtitle: LiveEngage Release Notes
 level3: December
-permalink: 'release-notes-2018-december-week-of-Dec-17.html '
+permalink: release-notes-2018-december-week-of-Dec-17.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 14:57:08 +0200
