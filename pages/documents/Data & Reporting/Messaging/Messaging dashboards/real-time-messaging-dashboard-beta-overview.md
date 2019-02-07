@@ -6,17 +6,13 @@ indicator: both
 subtitle: The real time dashboard leverages the power of the real time operational
   and administrative APIs to enable users to monitor the brand’s account health in
   both real time and for the previous 24 hours.
-level3: 'Messaging Dashboards'
+level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html
 isTutorial: false
-date: 2019-01-21 15:40:12 +0200
+date: 2019-01-21 13:40:12 +0000
+isNew: false
 
 ---
-
-**(BETA)**
-
-## Introduction
-
 The LivePerson real time dashboard leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
 
 The dashboard reflects the current status of several metrics, including the following:
@@ -31,12 +27,11 @@ The dashboard reflects the current status of several metrics, including the foll
 
 * Real time dashboard is currently a beta feature - users must agree to our data application beta terms of use upon login
 * The real time dashboard is available for both messaging and chat
-
-![](/img/RTMD1.png)
-
 * The dashboard is API based and leverages the LivePerson open platform.
 * The dashboard Includes both real time and the past 24 hours of data.
 * The refresh rate is approximately a minute and is not configurable.
+
+![](/img/real-time-messaging-dashboard-overview1.png)
 
 ## Highlights of the capability
 
@@ -89,7 +84,7 @@ Please consider Simultaneous Login method - however, in order to access the Real
 
 ### Current Section - Messaging Mode (Open conversation KPIs)
 
-![](/img/RTMD4.png)
+![](/img/real-time-messaging-dashboard-overview.2.png)
 
 When in messaging mode, the current section displays metrics on open conversations:
 
@@ -112,11 +107,11 @@ When in messaging mode, the current section displays metrics on open conversatio
 * **MCS - Positive**: the number of conversations with positive MCS
 * **MCS - Negative**: the number of conversations with negative MCS
 
-\*Note: _Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample, and the scope of calculation, can be modified via the Menu (see Additional Functions in this guide)._
+**Note:** _Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample, and the scope of calculation, can be modified via the Menu (see Additional Functions in this guide)._
 
-### Current Section - Chat mode (Recently completed chats KPIs)
+### Current Section - chat mode (Recently completed chats KPIs)
 
-![](/img/RTMD5.png)
+![](/img/real-time-messaging-dashboard-overview3.png)
 
 When in chat mode, the current section displays metrics on recently completed chats:
 
@@ -142,7 +137,7 @@ In messaging mode, the last 24 (configurable) hours section allows brands to see
 1. A user can select a timeframe from a fixed point in time, such as “**Today, from 9:00 AM**”.
 2. Or, a user can select a rolling timeframe going back an “x” amount of hours, such as the **last 3 hours**.
 
-![](/img/RTMD7.png)
+![](/img/real-time-messaging-dashboard-overview4.png)
 
 The metrics available in this section all relate to closed conversations only:
 
@@ -160,11 +155,11 @@ The metrics available in this section all relate to closed conversations only:
 
 _Example of Last 24 Hour section in **chat dashboard** mode:_
 
-![](/img/RTMD8.png)
+![](/img/real-time-messaging-dashboard-overview5.png)
 
-### Agents Section
+### Agents section
 
-![](/img/RTMD9.png)
+![](/img/real-time-messaging-dashboard-overview6.png)
 
 This section provides data on all the agents that are currently logged in. You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
@@ -186,7 +181,7 @@ In **chat dashboard** mode, agent summary status (i.e. Current Status) is not av
 
 ### Skills Section
 
-![](/img/RTMD10.png)
+![](/img/real-time-messaging-dashboard-overview7.png)
 
 The skills section takes metrics from the Current and Closed Conversations sections and displays them in a skills table format. It is possible to see the skills next to one another. Compare the skills and see the distribution of the skills metrics.  You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
@@ -208,7 +203,7 @@ View up to 100 skills per page. The default is set at 25. In order to see the ne
 
 ## Filtering the sections
 
-![](/img/RTMD11.png)
+![](/img/real-time-messaging-dashboard-overview8.png)
 
 **Dashboard header filters**: These main filters will impact the entire dashboard and the displayed data.
 Two types:
@@ -228,7 +223,7 @@ It is possible to filter for both skills and groups.
 2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
 3. Use the radio buttons or the sliders to change the time frame
 
-![](/img/RTMD12.png)
+![](/img/real-time-messaging-dashboard-overview9-1.png)
 
 **Agent filters: there is currently only one filter available:**
 
@@ -247,13 +242,11 @@ It is possible to filter for both skills and groups.
 
   You can also sort by ascending or descending. You may also view the agents section as cards (default) or as a table/list view. You also have the ability to export the agent list as a .CSV file
 
-## Customizing the Dashboard
+## Customizing the dashboard
 
-![](/img/RTMD13.png)
+![](/img/real-time-messaging-dashboard-overview10.png)
 
 When clicking the three dots next to any of the dashboard sections, the **KPI configuration** window pops up:
-
-![](/img/RTMD14.png)
 
 Two sections are included in the KPI configuration:
 
@@ -273,17 +266,16 @@ You can click on current, closed, agents and skills
 * Choosing current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
 * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for open conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
 * For agents and skills there are no configurations to customize.
-
-  ![](/img/RTMD15.png)
 * If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.
 
-![](/img/RTMD16.png)
+{: .sidebyside}  
+![](/img/real-time-messaging-dashboard-overview11.png)
+
+![](/img/real-time-messaging-dashboard-overview12.png)
 
 The reset button on the bottom left resets to the initial configuration.
 
 # Additional functions
-
-![](/img/RTMD17.png)
 
 **The menu on the top right corner:**
 
@@ -293,7 +285,7 @@ The reset button on the bottom left resets to the initial configuration.
 * Allows you to change the mode of the dashboard (from messaging to chat)
 * Allows you to modify the response time sample size or opened filter (see below)
 
-  ![](/img/RTMD18.png)
+![](/img/real-time-messaging-dashboard-overview13.png)
 
 **_Sample size means:_** _the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs)._
 

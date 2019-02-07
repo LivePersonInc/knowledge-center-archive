@@ -43,7 +43,7 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 ![](/img/week-of-september-9th-4.png)
 
-#### How to create a survey using the Bot Studio
+#### How to create a survey using the Bot Studio:
 
 **Step 1 - Log in to the Bot Studio**
 
@@ -51,7 +51,9 @@ Log in to the Bot Studio using the following link: [https://va.routingbot.ext.li
 
 Make sure to use your account Admin credentials.
 
-**![](/img/week-of-september-9th-5.png)Step 2 - Create a bot and your first survey**
+![](/img/week-of-september-9th-5.png)
+
+**Step 2 - Create a bot and your first survey**
 
 ![](/img/week-of-september-9th-6.png)
 
@@ -91,7 +93,7 @@ The available actions that could be defined for each quick reply or button can p
 * **Continue sequence** - This would tell the Bot Studio UI that another brick should come right after the brick in which this action is defined.
 * **End conversation** - triggers an “end conversation message” that is assigned with the terminate command in the JSON.
 
-**Step 4 - Set the survey timeout and general settings** 
+**Step 4 - Set the survey timeout and general settings**
 
 #### **Survey timeout**
 
@@ -103,7 +105,9 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-**![](/img/week-of-september-9th-7.png)Step 5 - Reaching a valid survey for publishing** 
+![](/img/week-of-september-9th-7.png)
+
+**Step 5 - Reaching a valid survey for publishing**
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
@@ -132,6 +136,7 @@ For more information on this feature, please refer to the [User Guide](). Please
 The post conversation survey is now supported for the Facebook Messenger and Apple Business Chat connectors, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
 **It contains:**
+
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
 * Free text questions
@@ -141,6 +146,8 @@ The post conversation survey is now supported for the Facebook Messenger and App
 **Survey Experience in Facebook Messenger:**
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
+![](/img/week-of-september-9th-10-1.png)
+
 **Survey Experience in Apple Business Chat:**
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
@@ -148,18 +155,17 @@ Brands can configure one survey and apply it for all channels or they can config
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
+![](/img/week-of-september-9th-11-1.png)
+
 {: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
 
 **Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 
-![](/img/week-of-september-9th-10.png)
-
-![](/img/week-of-september-9th-11.png)
-
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
 The Apple Business Chat and Facebook Messenger connectors to LiveEngage now support the following audio message flow:
+
 * Consumer on ABC or FBM records and sends an audio message to an agent on LE
 * Agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
 * Agent can play and replay audio messages sent by consumers for open and closed conversations (agent cannot record audio messages)
@@ -169,11 +175,13 @@ The Apple Business Chat and Facebook Messenger connectors to LiveEngage now supp
 Audio messaging is currently still in beta, due to the fact that the audio files are not yet going through a sanitation process in LiveEngage (sanitation will be added later in September). Customers that are interested in joining the beta program should contact Or Garmolin to sign the beta agreement.
 
 **Supported formats and sizes:**
+
 * Recording length supported by UMS is 2 minutes (a larger file will be rejected and an error message will be sent to the consumer)
 * File size supported by UMS is up to 5MB
 * Supported formats: connectors will convert the connectors audio file type to MP3
 
 **Limitations:**
+
 * Audio files longer than 2 minutes will be rejected - error will be shared with consumers
 * Audio message will not be converted to text - agent will only be able to play and listen to the the audio file
 
@@ -193,6 +201,7 @@ This feature enables users to set up dynamic text, such as agent name or skill n
 Accounts may now use the dynamic text option in the “Manage Predefined Content” screen (campaign footer) for messaging as well as chat.
 
 The supported dynamic texts are (as available for chat today):
+
 1. Skill Name - $!{skill.name}
 2. Skill Description - $!{skill.description}
 3. Agent Name - $!{operator.displayname}
@@ -202,6 +211,7 @@ The supported dynamic texts are (as available for chat today):
 The feature is also supported for rich content and quick replies (accounts can use the macros within their code).
 
 #### **Agent experience**
+
 1. Agent can choose a Predefined content template containing a dynamic text, or type a dynamic text freehand
 2. Once template with the dynamic text is chosen, its value is inserted within the text editor
 3. The dynamic text value will be shown in the transcript area immediately after the agent sends the message.
@@ -215,11 +225,11 @@ Configuration of predefined content:
 
 The text editor before sending the message:
 
-![](https://lh5.googleusercontent.com/icyZ-VyWQBiemUMqBBhbOg8qLfKmBairx5dZ4oIIIPY-g7ltpI5iGunQEOPDjd8KF1rqE4qaFCDrUbloen6l-QNUiGJjyNYBGQxhTJcJl4JrHCiaVVnDhYb4Qw0OBK5LmlWjMaqI =316x529)
+![](/img/week-of-september-9th-15.png)
 
 The message after it is sent:
 
-![](https://lh3.googleusercontent.com/FbSce4Og71ZlboiDmK65ezba6NAQzpyCLEXr3B6b3lZQYbBmi39K9O8VZRe-uLtqCcyjq1va9TbEO3Z9PYzvFsS6d5XMY_Cck7W8Q91UFZtgU9t0R3Eiif25Iz10yHo9VkilmE-k =324x479)
+![](/img/week-of-september-9th-16.png)
 
 ### Resume conversations without time restrictions (LE-83882)
 

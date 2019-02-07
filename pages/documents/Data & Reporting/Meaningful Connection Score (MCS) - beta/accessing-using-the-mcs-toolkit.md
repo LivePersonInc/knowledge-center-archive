@@ -1,7 +1,7 @@
 ---
 pagename: Accessing the MCS toolkit
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Web messaging
 indicator: both
 subtitle: Knowing what your consumers experience during the service and sales point-of-contact
   provides a unique opportunity to analyze your operations.
@@ -10,7 +10,6 @@ permalink: data-reporting-meaningful-connection-score-(MCS)-accessing-the-MCS-to
 isTutorial: false
 date: 2019-01-22 12:28:52 +0000
 isNew: false
-published: false
 
 ---
 ## **Why use the MCS toolkit?**
