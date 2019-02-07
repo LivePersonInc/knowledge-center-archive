@@ -42,7 +42,7 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 ![](/img/week-of-september-9th-4.png)
 
-#### How to create a survey using the Bot Studio
+#### How to create a survey using the Bot Studio:
 
 **Step 1 - Log in to the Bot Studio**
 
@@ -104,7 +104,9 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-**![](/img/week-of-september-9th-7.png)Step 5 - Reaching a valid survey for publishing**
+![](/img/week-of-september-9th-7.png)
+
+**Step 5 - Reaching a valid survey for publishing**
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
