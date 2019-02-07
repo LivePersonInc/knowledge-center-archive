@@ -132,7 +132,6 @@ For more information on this feature, please refer to the [User Guide](). Please
 The post conversation survey is now supported for the Facebook Messenger and Apple Business Chat connectors, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
 **It contains:**
-
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
 * Free text questions
