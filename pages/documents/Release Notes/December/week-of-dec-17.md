@@ -234,8 +234,9 @@ WeChat source is not currently officially available as a LiveEngage channel - ho
 
 Additionally, only 1 source can be selected at a time (known limitation).
 
-**Screenshots  
-![](/img/Week of Dec 17th-5.png)**
+**Screenshots**
+
+![](/img/Week_of_Dec_17th-6.png)
 
 ## Bug fix
 
