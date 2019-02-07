@@ -5,7 +5,7 @@ subCategoryName: 2018
 indicator: both
 subtitle: ''
 level3: November
-permalink: release-notes-2018-november-week-of-november-19th
+permalink: release-notes-2018-november-week-of-november-19th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 13:57:44 +0200
@@ -25,15 +25,16 @@ The timing and scope of these features or functionalities remain at the sole dis
 <table>
 <thead>
 <tr class="categoryrow">
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-<th><img class="tableIcon" src="img/sms.png" /></th>
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-<th><img class="tableIcon" src="img/line.svg" /></th>
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
 </thead>
 <tbody>
@@ -45,6 +46,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 <td>Yes</td>
 <td>No</td>
 <td>Yes</td>
+<td>No</td>
 <td>No</td>
 <td>No</td>
 </tr>
@@ -79,15 +81,16 @@ For a more in depth guide on how to add metadata in structured content templates
 <table>
 <thead>
 <tr class="categoryrow">
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-<th><img class="tableIcon" src="img/sms.png" /></th>
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-<th><img class="tableIcon" src="img/line.svg" /></th>
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
 </thead>
 <tbody>
@@ -100,21 +103,84 @@ For a more in depth guide on how to add metadata in structured content templates
 <td>No</td>
 <td>Yes</td>
 <td>No</td>
-<td>No</td>
+<td>Yes</td>
+<td>N/A</td>
 </tr>
 </tbody>
 </table>
 
-With the Audio Message setting disabled, if a visitor sends an audio message over supported connector channels (RCS Business Messaging, Apple Business Chat, WhatsApp Business and Facebook Messenger), the message appears to have been sent successfully from the visitor's view. This bug has now been resolved. 
+With the Audio Message setting disabled, if a visitor sends an audio message over supported connector channels (RCS Business Messaging, Apple Business Chat, WhatsApp Business and Facebook Messenger), the message appears to have been sent successfully from the visitor's view. This bug has now been resolved.
 
 **Fix:** The audio message will not be sent to LiveEngage UI, and an error will be presented to the consumer. The error message that will be sent to Facebook Messenger, WhatsApp Business and RCS Business Messaging if the audio feature is not enabled reads: “Sorry! Unfortunately audio messages cannot be sent via RCS Business Messaging/WhatsApp/Facebook”
 
 ### Facebook Messenger - Blank conversations started when deleting and responding to CSAT (LE-95931)
 
-When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved. 
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved.
 
 ### Apple Pay ID incorrect request identifier (LE-95465)  
 
-Currently when a brand adds a request Identifier to the Authentication Interactive Message structured content JSON, the connector will create a new request ID. This causes a problem between the outgoing request ID and the authentication response request ID (which for data correction should be the same). 
+Currently when a brand adds a request Identifier to the Authentication Interactive Message structured content JSON, the connector will create a new request ID. This causes a problem between the outgoing request ID and the authentication response request ID (which for data correction should be the same).
 
 Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved.
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>

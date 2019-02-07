@@ -21,9 +21,36 @@ These release notes include new features arriving to LiveEngage during October 2
 
 ### Queue visibility in Realtime Dashboard and in the KPI bar in All connections
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Ability to view the number of actionable conversations in queue out of total unassigned conversations directly from the LiveEngage data bar and the Realtime dashboard. Actionable conversations are those that require the agent’s attention. A conversation may also be considered actionable if it meets any of the following conditions:
 
@@ -35,9 +62,36 @@ Actionable conversations metric is also available via Messaging Operations API s
 
 ### Push Notification Proxy - Self Service (LE-89348)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| No | Yes | No | No | No | No | No | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment.
 
@@ -51,9 +105,36 @@ This functionality is enabled by default to all customers through the Mobile app
 
 ### Predefined Content & Content Categories - Audit Trail (AE-110)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 An audit trail provides the ability to track changes made to LiveEngage Predefined content. It's needed for several reasons:
 
@@ -72,9 +153,36 @@ The Audit Trail table was enhanced to show details of changes made to Predefined
 
 ### Intelligent Routing Queue Delivery (back-end messaging-server)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 **Where Do I define Sorting Business Rules?**
 
@@ -237,9 +345,36 @@ Json Example :
 
 ### Shift status REST API (91371, 91374, 91373, 91388)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
- | Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 **Expose Shift Status API:**
 
@@ -342,9 +477,36 @@ While the agent workspace UI does some validations on permissions, these should 
 
 ### Add unauthenticated consumerId to Agent widget SDK (AE-463)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 As part of the Agent Widget SDK, a new "_claimsAndAuthType_" field was exposed. This field will include the “claims” key, replacing the authenticatedData (which is now deprecated) and the “acr” (AuthType) key of the conversation.
 
@@ -352,10 +514,37 @@ This new field will contain all engagement attributes and ACR (authentication le
 
 ### Post conversation survey - Audit Trail (LE-93260)
 
-  
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| Yes | Yes | Yes | Yes | Yes | No | No | No | No |
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Changes made to LiveEngage’s post conversation survey are now audited so admins have the ability to track changes and take action if needed.
 
@@ -371,9 +560,36 @@ Use case: The account admin added a new survey to the account or modified an exi
 
 ### LOBs External API - Add keys (AE-405)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
- |Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 Lines of Business have been exposed as an external API for some time. This change exposes it in the LE UI.
 
@@ -401,9 +617,36 @@ This feature is enabled by default to all customers.
 
 ### Offline survey email settings (LE-94582)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| No | No | No | No | No | No | No | No | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 This provides the ability to change the offline survey email settings (such as the recipient, subject and footer) through UI (self-served), instead of contacting LivePerson Support. The survey settings are per survey.
 
@@ -420,17 +663,71 @@ The settings are only applicable for a non-default engagement window, i.e. it is
 
 ### Send PDC-id to UMS on publish message (LE-91761)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 In order to support reporting on predefined content usage for messaging (as exists already in chat), we now send the PDC (Predefined Content) **Id**, **Category** and if **it was edited** when publishing a message to UMS from the web agent as part of the metadata.
 
 ### Expose unauthenticated consumer ID in consumer profile for back-end messaging server (92875)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
 
 Expose customerID on unauthenticated flows (LP GUID) in order to allow reporting of SDE's.
 
@@ -461,17 +758,71 @@ Upgrade Jetty version to latest stable (9.4.10)
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (AE-473)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| No | No | No | No | No | No | No | No | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 On Agent widget SDK: bind to chatInfo does not always return "chatInfo.chatSkill". This bug is now resolved.
 
 ### Typing in the studio preview URL field generates errors in the console within campaign manager (LE-83481)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 In the engagement studio, when a user clicks on the preview button and enters characters in the URL field, a bug results with an error in the console (Chrome Developer Tools). The user can still enter the URL but cannot load it by clicking the enter key. However, clicking the “Go” button will load the URL. This bug has been resolved.
 

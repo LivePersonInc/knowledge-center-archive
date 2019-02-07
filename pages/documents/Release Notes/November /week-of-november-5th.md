@@ -25,15 +25,16 @@ The timing and scope of these features or functionalities remain at the sole dis
 <table>
 <thead>
 <tr class="categoryrow">
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-<th><img class="tableIcon" src="img/sms.png" /></th>
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-<th><img class="tableIcon" src="img/line.svg" /></th>
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
 </thead>
 <tbody>
@@ -44,8 +45,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
+<td>N/A</td>
 <td>Yes</td>
-<td>Yes</td>
+<td>No</td>
 <td>No</td>
 </tr>
 </tbody>

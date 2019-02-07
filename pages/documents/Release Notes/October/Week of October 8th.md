@@ -22,15 +22,16 @@ These release notes include new features arriving to LiveEngage during October 2
 <table>
 <thead>
 <tr class="categoryrow">
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-<th><img class="tableIcon" src="img/sms.png" /></th>
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-<th><img class="tableIcon" src="img/line.svg" /></th>
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
 </thead>
 <tbody>
@@ -40,6 +41,7 @@ These release notes include new features arriving to LiveEngage during October 2
 <td>No</td>
 <td>No</td>
 <td>Yes</td>
+<td>No</td>
 <td>No</td>
 <td>No</td>
 <td>No</td>
@@ -81,59 +83,34 @@ The new Apple Business Chat Authentication Interactive Message enables businesse
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
 <table>
-
 <thead>
-
 <tr class="categoryrow">
-
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-
-<th><img class="tableIcon" src="img/sms.png" /></th>
-
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-
-<th><img class="tableIcon" src="img/line.svg" /></th>
-
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
-
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>Yes</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
+<td>No</td>
 </tr>
-
 </tbody>
-
 </table>
 
 Apple Pay provides an easy and secure way for consumers to buy goods and services within a Business Chat conversation - when a brand asks for payment from a customer who is purchasing goods and services through Business Chat, the consumer can use Apple Pay to make the payment.
@@ -166,59 +143,34 @@ Apple Pay provides an easy and secure way for consumers to buy goods and service
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
 <table>
-
 <thead>
-
 <tr class="categoryrow">
-
-<th><img class="tableIcon" src="img/Web_Messaging.png" /></th>
-
-<th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th>
-
-<th><img class="tableIcon" src="img/sms.png" /></th>
-
-<th><img class="tableIcon" src="img/fb-messenger.svg" /></th>
-
-<th><img class="tableIcon" src="img/abc.svg" /></th>
-
-<th><img class="tableIcon" src="img/line.svg" /></th>
-
-<th><img class="tableIcon" src="img/google-rsc.svg" /></th>
-
-<th><img class="tableIcon" src="img/whatsapp.svg" /></th>
-
-<th><img class="tableIcon" src="img/web-messaging.svg" /></th>
-
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
+<td>No</td>
 <td>Yes</td>
-
 <td>No</td>
-
 <td>No</td>
-
 <td>No</td>
-
 </tr>
-
 </tbody>
-
 </table>
 
 The RCS Business Messaging Connector to LiveEngage allows brands to communicate with consumers via RCS Business Messaging.
@@ -245,7 +197,36 @@ Google RCS Business Messaging is currently in beta mode. If you have brands that
 
 ### RCS Business Messaging Connector - Conversation Attributes (LE-92816)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Mapping RCS Business Messaging information and passing it to LiveEngage Engagement Attributes:
 
@@ -258,7 +239,36 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 
 ### RCS Business Messaging Connector - Skill Routing (LE-92822)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Brands can now configure skill routing per the brand’s Google RCS Agent ID (Google RCS Business ID).
 
@@ -266,7 +276,36 @@ Brands can now configure skill routing per the brand’s Google RCS Agent ID (Go
 
 ### RCS Business Messaging Connector - Card, Carousels and Quick Replies (LE-92997, LE-92998, LE-92823)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 LiveEngage Structured Content is the framework for building conversational UI using various features and elements such as: cards, carousels, quick replies and more.
 
@@ -282,7 +321,37 @@ The RCS Business Messaging templates will support RCS cards, carousels and quick
 
 ### RCS Business Messaging Connector - Consumer to agent image support (LE-92818)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> </tr> </tbody> </table>  
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
 With RCS Business Messaging supported by the Android Messages app, consumers can select images from their device’s image gallery or take a real-time image and share it with agents on LiveEngage.
 
 **Support image formats:**
@@ -295,7 +364,36 @@ Supported images formats: JPG, JPEG, PNG, GIF
 
 ### RCS Business Messaging Connector - Reporting on RCS Business Messaging source in LiveEngage (LE-92819)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 **Agent Workspace:**
 
@@ -305,7 +403,36 @@ Supported images formats: JPG, JPEG, PNG, GIF
 
 ### Post Conversation Survey Support - RCS Business Messaging (LE-94611)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The post conversation survey is now supported for the RCS Business Messaging connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
@@ -329,7 +456,36 @@ For use in Google RCS Business Messaging, you can configure the survey through t
 
 ### \[Twilio\] Post conversation Survey - Twilio Support (LE-90206)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The post conversation survey is now supported for the Twilio SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
@@ -357,7 +513,36 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The Twilio SMS connector now supports image sharing from consumer to agent. Consumers will be able to use the default SMS app on their device (whether it’s an iOS or Android device), choose an image from the phone gallery or take a new image and share it with the brand. The agent on the LiveEngage web console will receive the image and will be able view.
 
@@ -379,7 +564,36 @@ Consumer side:
 
 ### \[Twilio\] Migration of Twilio Connector from messaging gateway to LE connector platform
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The current version of the Twilio Connector has been migrated to the new LiveEngage connectors platform, which supports error handling, a message-retry mechanism and was built to enhance the Twilio connector’s performance.
 
@@ -387,7 +601,36 @@ The current version of the Twilio Connector has been migrated to the new LiveEng
 
 ### \[Twilio\] Failure to send a message to Twilio - isn't reported back to UMS and LE UI (LE-90596, LE-88928, LE-75265)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 If an agent’s message fails to send to Twilio, there's no feedback sent to UMS and LE UI. This causes a error in agent experience, while there’s no error notification sent to the agent to notify him that the message wasn’t delivered.
 
@@ -395,7 +638,36 @@ The current version of theTwilio connector has now been migrated to the new LE c
 
 ### \[Twilio\] Twilio Connector message retry when UMS Socket is Closed (LE-87239)
 
-<table> <thead> <tr class="categoryrow"> <th><img class="tableIcon" src="img/Web_Messaging.png" /></th> <th><img class="tableIcon" src="img/mobileappmessaging.svg" /></th> <th><img class="tableIcon" src="img/sms.png" /></th> <th><img class="tableIcon" src="img/fb-messenger.svg" /></th> <th><img class="tableIcon" src="img/abc.svg" /></th> <th><img class="tableIcon" src="img/line.svg" /></th> <th><img class="tableIcon" src="img/google-rsc.svg" /></th> <th><img class="tableIcon" src="img/whatsapp.svg" /></th> <th><img class="tableIcon" src="img/web-messaging.svg" /></th> </tr> </thead> <tbody> <tr> <td>No</td> <td>No</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When a consumer sends an SMS to a brand using the Twilio connector, messages are not being received by UMS due to a momentary failure to open a websocket between the messaging gateway and UMS. This causes the message to be lost.
 

@@ -21,9 +21,36 @@ These release notes include new features arriving to LiveEngage during October 2
 
 ### Methods for Messaging Skill Segments (messaging operations API)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The Messaging Operations API is being enhanced to include operational data on the state of the queue and agent performance at the Skill level.
 
@@ -44,9 +71,36 @@ Added to the existing Messaging Operations API. No additional enablement needed.
 
 ### WhatsApp Business - Multiple number support per LiveEngage account (LE-95291)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | RCS Business Messaging | WhatsApp Business | Google My Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |   
-| No | No | No | No | No | No | No | Yes | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 This functionality enables brands to route multiple WhatsApp Business numbers into one LiveEngage account, and enables multiple Lines of Business to be facilitated and managed within the LiveEngage account, using LE's operational tools.
 
