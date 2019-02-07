@@ -139,17 +139,16 @@ The post conversation survey is now supported for the Facebook Messenger and App
 * Full reporting & analytics on survey responses, answer distribution and funnel metrics
 
 **Survey Experience in Facebook Messenger:**
-
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
 **Survey Experience in Apple Business Chat:**
-
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
 Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill).
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
+{: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
 
 **Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
@@ -161,7 +160,6 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
 The Apple Business Chat and Facebook Messenger connectors to LiveEngage now support the following audio message flow:
-
 * Consumer on ABC or FBM records and sends an audio message to an agent on LE
 * Agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
 * Agent can play and replay audio messages sent by consumers for open and closed conversations (agent cannot record audio messages)
@@ -171,16 +169,15 @@ The Apple Business Chat and Facebook Messenger connectors to LiveEngage now supp
 Audio messaging is currently still in beta, due to the fact that the audio files are not yet going through a sanitation process in LiveEngage (sanitation will be added later in September). Customers that are interested in joining the beta program should contact Or Garmolin to sign the beta agreement.
 
 **Supported formats and sizes:**
-
 * Recording length supported by UMS is 2 minutes (a larger file will be rejected and an error message will be sent to the consumer)
 * File size supported by UMS is up to 5MB
 * Supported formats: connectors will convert the connectors audio file type to MP3
 
-**Limitations**
-
+**Limitations:**
 * Audio files longer than 2 minutes will be rejected - error will be shared with consumers
 * Audio message will not be converted to text - agent will only be able to play and listen to the the audio file
 
+{: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
 ![](/img/week-of-september-9th-12.png)
@@ -196,7 +193,6 @@ This feature enables users to set up dynamic text, such as agent name or skill n
 Accounts may now use the dynamic text option in the “Manage Predefined Content” screen (campaign footer) for messaging as well as chat.
 
 The supported dynamic texts are (as available for chat today):
-
 1. Skill Name - $!{skill.name}
 2. Skill Description - $!{skill.description}
 3. Agent Name - $!{operator.displayname}
@@ -206,11 +202,11 @@ The supported dynamic texts are (as available for chat today):
 The feature is also supported for rich content and quick replies (accounts can use the macros within their code).
 
 #### **Agent experience**
-
 1. Agent can choose a Predefined content template containing a dynamic text, or type a dynamic text freehand
 2. Once template with the dynamic text is chosen, its value is inserted within the text editor
 3. The dynamic text value will be shown in the transcript area immediately after the agent sends the message.
 
+{: .notice}
 **Please note:** this functionality is available only through the web agent (LE UI) and not directly through the API.
 
 Configuration of predefined content:
@@ -224,8 +220,6 @@ The text editor before sending the message:
 The message after it is sent:
 
 ![](https://lh3.googleusercontent.com/FbSce4Og71ZlboiDmK65ezba6NAQzpyCLEXr3B6b3lZQYbBmi39K9O8VZRe-uLtqCcyjq1va9TbEO3Z9PYzvFsS6d5XMY_Cck7W8Q91UFZtgU9t0R3Eiif25Iz10yHo9VkilmE-k =324x479)
-
-### 
 
 ### Resume conversations without time restrictions (LE-83882)
 
@@ -242,8 +236,6 @@ The ‘description’ property cannot be updated by an agent using the Consumer 
 In order for brands not to misuse it, we need to prevent agents from setting that property when updating the consumer profile. Therefore, the field ‘description’ is removed from the update API. If it is sent as part of the setUserProfile, it will be ignored.
 
 ## Enhancements
-
-## Chat Back-end Server
 
 ### Chat back-end server: Remove interaction content access for LPA users (89500)
 
@@ -271,8 +263,6 @@ As part of the “Right to be Forgotten” epic, consumer related data needs to 
 * Legacy accounts which upgraded to LE (i.e. those who have not created a new site for LE), won't have ticketing ​system available to them. If they moved to a new site, their legacy one will remain live for 13 months and they should be able to mask consumer personal data during that time.
 
 ## Bug Fixes
-
-## Chat Back-end Server
 
 ### Chat back-end server: Password policy - update passwords blacklist in PasswordPatterns.txt (91288)
 
