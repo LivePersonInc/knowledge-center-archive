@@ -223,7 +223,7 @@ It is possible to filter for both skills and groups.
 2. **Last X hours**: shows data from the last X hours of your choice - like looking backwards.
 3. Use the radio buttons or the sliders to change the time frame
 
-![](/img/real-time-messaging-dashboard-overview9.png)
+![](/img/real-time-messaging-dashboard-overview9-1.png)
 
 **Agent filters: there is currently only one filter available:**
 
