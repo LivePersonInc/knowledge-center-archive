@@ -21,8 +21,8 @@ These release notes include new features arriving to LiveEngage during December 
 
 ### Maximum wait time in queue metric in real-time dashboard
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | Yes |
 
 A new metric is now available in the Current Queue State method of the Chat Operational Realtime API (**currentMaxWaitTimeInQueue**) and is available by skill. It is now exposed by default in the Realtime Dashboard.
@@ -53,8 +53,8 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Abandon Segments Rate (%)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 Addition of new calculated metrics from Skill Segment API**.**
@@ -77,8 +77,8 @@ Only available in the “Today from X” section and “Skills” section. In bo
 
 ### Google website translator
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 Google Translate has been added to data applications
@@ -103,8 +103,8 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ## New source filter options (MCS toolkit)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 New filter options are now available.
@@ -126,23 +126,24 @@ WeChat source is not currently officially available as a LiveEngage channel - ho
 
 Additionally, only 1 source can be selected at a time (known limitation).
 
-**Screenshots  
-![](/img/Week of Dec 17th-5.png)**
+**Screenshots**
+
+![](/img/Week_of_Dec_17th-6.png)
 
 ## Bug fix
 
 ### Load calculation issue (Real-time Dashboard)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 The overall Agent Load % in the CURRENT section of the Realtime Dashboard was invalid due to a formula error resulting in the display of a Load rate slightly lower than the overall weighted average of the individual agent Load rates. This issue has now been resolved in the Realtime Dashboard.
 
 ### Admin user permission issue (Real-time Dashboard)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |   
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | WhatsApp Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | N/A |
 
 When an user with profile of admin logs into the Dashboard (messaging mode), some results from Messaging Operations API would not return as expected resulting in failure of the Realtime Dashboard.
