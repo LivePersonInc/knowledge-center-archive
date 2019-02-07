@@ -9,7 +9,6 @@ permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 17:29:42 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -51,7 +50,9 @@ Log in to the Bot Studio using the following link: [https://va.routingbot.ext.li
 
 Make sure to use your account Admin credentials.
 
-**![](/img/week-of-september-9th-5.png)Step 2 - Create a bot and your first survey**
+![](/img/week-of-september-9th-5.png)
+
+**Step 2 - Create a bot and your first survey**
 
 ![](/img/week-of-september-9th-6.png)
 
