@@ -9,6 +9,7 @@ permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 17:29:42 +0200
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -145,6 +146,8 @@ The post conversation survey is now supported for the Facebook Messenger and App
 **Survey Experience in Facebook Messenger:**
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
+![](/img/week-of-september-9th-10-1.png)
+
 **Survey Experience in Apple Business Chat:**
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
@@ -152,14 +155,12 @@ Brands can configure one survey and apply it for all channels or they can config
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
+![](/img/week-of-september-9th-11-1.png)
+
 {: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
 
 **Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
-
-![](/img/week-of-september-9th-10.png)
-
-![](/img/week-of-september-9th-11.png)
 
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
