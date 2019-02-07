@@ -9,6 +9,7 @@ permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 17:29:42 +0200
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -28,7 +29,7 @@ The Post Conversation Survey Bot gives brands the ability to collect feedback fr
 
 The post conversation survey bot is available for Messaging customers on mobile app, web, ABC, Facebook. SMS is coming soon in September.
 
-### Survey Flow
+#### Survey Flow
 
 1. Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
 
@@ -42,27 +43,23 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 ![](/img/week-of-september-9th-4.png)
 
-## How to create a survey using the Bot Studio
+#### How to create a survey using the Bot Studio
 
-### Step 1 - Log in to the Bot Studio
+**Step 1 - Log in to the Bot Studio**
 
-Log in to the Bot Studio using the following link [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
+Log in to the Bot Studio using the following link: [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
 
 Make sure to use your account Admin credentials.
 
-![](/img/week-of-september-9th-5.png)
-
-### Step 2 - Create a Bot and first survey
-
-Once logged in to the Studio, create a new Bot under the Survey Bots tab.
+**![](/img/week-of-september-9th-5.png)Step 2 - Create a bot and your first survey**
 
 ![](/img/week-of-september-9th-6.png)
 
-Once the bot is created, Enter the Bot’s Survey gallery and press the “Add Survey” button to create a new survey.
+Once the bot is created, Enter the Bot’s Survey gallery and press the **Add Survey** button to create a new survey.
 
 Select the skills on which the survey will be triggered once the conversation is closed.
 
-### Step 3 - Define the survey flow with Sequences and Brick
+**Step 3 - Define the survey flow with sequences and bricks**
 
 This step will instruct you on how to create a survey flow using the Bot Studio Editor.
 
@@ -94,7 +91,7 @@ The available actions that could be defined for each quick reply or button can p
 * **Continue sequence** - This would tell the Bot Studio UI that another brick should come right after the brick in which this action is defined.
 * **End conversation** - triggers an “end conversation message” that is assigned with the terminate command in the JSON.
 
-### Step 4 - Set the Survey timeout and general settings
+**Step 4 - Set the survey timeout and general settings** 
 
 #### **Survey timeout**
 
@@ -106,9 +103,7 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-![](/img/week-of-september-9th-7.png)
-
-### Step 5 - Reaching a valid survey for Publishing
+**![](/img/week-of-september-9th-7.png)Step 5 - Reaching a valid survey for publishing** 
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
@@ -124,26 +119,19 @@ Attempting to Publish this survey will fail with a Bot Studio error message.
 
 Once the survey contains no warnings, hit the Publish button to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it would already be live for your users.
 
-### Step 6 - Trigger the survey
-
-In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace would show the caption - “Survey in progress”
+**Step 6 - Trigger the survey**
 
 ![](/img/week-of-september-9th-9.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide]().
-
-Please also refer to the Release notes for [Post Conversation Survey Reporting]()
-
-# 
+For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for [Post Conversation Survey Reporting]()
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
 The post conversation survey is now supported for the Facebook Messenger and Apple Business Chat connectors, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
 **It contains:**
-
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
 * Free text questions
@@ -151,18 +139,17 @@ The post conversation survey is now supported for the Facebook Messenger and App
 * Full reporting & analytics on survey responses, answer distribution and funnel metrics
 
 **Survey Experience in Facebook Messenger:**
-
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
 **Survey Experience in Apple Business Chat:**
-
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
 Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill).
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-**Please note:** This feature requires enablement - please contact your LivePerson account team.
+{: .notice}
+**Please note:** This feature requires enablement - please contact your LivePerson account team.This feature requires enablement - please contact your LivePerson account team.
 
 **Limitations:** Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15 which will only be rolled out in October - this means that in the first version of surveys for ABC, quick replies will not be supported.
 
@@ -173,7 +160,6 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
 The Apple Business Chat and Facebook Messenger connectors to LiveEngage now support the following audio message flow:
-
 * Consumer on ABC or FBM records and sends an audio message to an agent on LE
 * Agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
 * Agent can play and replay audio messages sent by consumers for open and closed conversations (agent cannot record audio messages)
@@ -183,16 +169,15 @@ The Apple Business Chat and Facebook Messenger connectors to LiveEngage now supp
 Audio messaging is currently still in beta, due to the fact that the audio files are not yet going through a sanitation process in LiveEngage (sanitation will be added later in September). Customers that are interested in joining the beta program should contact Or Garmolin to sign the beta agreement.
 
 **Supported formats and sizes:**
-
 * Recording length supported by UMS is 2 minutes (a larger file will be rejected and an error message will be sent to the consumer)
 * File size supported by UMS is up to 5MB
 * Supported formats: connectors will convert the connectors audio file type to MP3
 
-**Limitations**
-
+**Limitations:**
 * Audio files longer than 2 minutes will be rejected - error will be shared with consumers
 * Audio message will not be converted to text - agent will only be able to play and listen to the the audio file
 
+{: .notice}
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
 ![](/img/week-of-september-9th-12.png)
@@ -208,7 +193,6 @@ This feature enables users to set up dynamic text, such as agent name or skill n
 Accounts may now use the dynamic text option in the “Manage Predefined Content” screen (campaign footer) for messaging as well as chat.
 
 The supported dynamic texts are (as available for chat today):
-
 1. Skill Name - $!{skill.name}
 2. Skill Description - $!{skill.description}
 3. Agent Name - $!{operator.displayname}
@@ -218,11 +202,11 @@ The supported dynamic texts are (as available for chat today):
 The feature is also supported for rich content and quick replies (accounts can use the macros within their code).
 
 #### **Agent experience**
-
 1. Agent can choose a Predefined content template containing a dynamic text, or type a dynamic text freehand
 2. Once template with the dynamic text is chosen, its value is inserted within the text editor
 3. The dynamic text value will be shown in the transcript area immediately after the agent sends the message.
 
+{: .notice}
 **Please note:** this functionality is available only through the web agent (LE UI) and not directly through the API.
 
 Configuration of predefined content:
@@ -237,15 +221,13 @@ The message after it is sent:
 
 ![](https://lh3.googleusercontent.com/FbSce4Og71ZlboiDmK65ezba6NAQzpyCLEXr3B6b3lZQYbBmi39K9O8VZRe-uLtqCcyjq1va9TbEO3Z9PYzvFsS6d5XMY_Cck7W8Q91UFZtgU9t0R3Eiif25Iz10yHo9VkilmE-k =324x479)
 
-### 
-
 ### Resume conversations without time restrictions (LE-83882)
 
 Agents and agent managers now have the ability to resume conversations with consumers at any point in time after the conversation is closed. Previously, the time frame limit for resuming a conversation was just 14 days after the conversation closed. Now, the conversation can be resumed for the length of time it remains on the LiveEngage database (13 months).
 
 Following message shall not appear anymore :
 
-![](https://lh5.googleusercontent.com/TnFokrPgiq-l32DQUNOFjx_T-QagrYebE3RzMarF1d2jxNNa-7V-rDccZLdvraUxMSH_vhz6FJUUDCSuEOSJa2I6NIsYTvCyHYCtLVBfkrBsgH10SafbtaA7TEL_TxONSbbuKkRw =624x291)
+![](/img/week-of-september-9th-23.jpg)
 
 ### Remove 'description' from Agent Widget SDK setConsumerProfile (AE-374)
 
@@ -253,15 +235,13 @@ The ‘description’ property cannot be updated by an agent using the Consumer 
 
 In order for brands not to misuse it, we need to prevent agents from setting that property when updating the consumer profile. Therefore, the field ‘description’ is removed from the update API. If it is sent as part of the setUserProfile, it will be ignored.
 
-# Enhancements
+## Enhancements
 
-## Chat Back-end Server
-
-### Remove interaction content access for LPA users (89500)
+### Chat back-end server: Remove interaction content access for LPA users (89500)
 
 Remove access to interaction content by having the following settings/permissions enforced on LPAs upon login: change LPA user privileges from 8, 10, 33 to 9, 10, 33.
 
-### Convert Date to Long with insufficient data (93480)
+### Chat back-end server: Convert Date to Long with insufficient data (93480)
 
 Some customers send SDEs without last payment date object, that should have a year, month, day fields. When Denver issue a call to IDP it gets LPGWT, without lastPaymentDate.
 
@@ -269,11 +249,11 @@ Denver tries to convert to Long and fail.
 
 Solution: If one of the fields is null - don't convert the object to long, but return null.
 
-### Adding FaaS PostSurvey Implementation (92041)
+### Chat back-end server: Adding FaaS PostSurvey Implementation (92041)
 
 Enabling the usage of FaaS for the Denver PostSurvey Email Transcript notification.
 
-### GDRS - Ticketing Implementation AppServer (89437,92462,89441,85057)**:**
+### Chat back-end server: GDRS - Ticketing Implementation AppServer (89437,92462,89441,85057)**:**
 
 As part of the “Right to be Forgotten” epic, consumer related data needs to be masked from existing tickets via a new dedicated GDRS API, if a RTBF request arrives from a brand’s consumer. This enhancement is applicable only for legacy account customers with Ticketing system.
 
@@ -282,51 +262,45 @@ As part of the “Right to be Forgotten” epic, consumer related data needs to 
 * The APIs for masking data will be available only for live accounts.
 * Legacy accounts which upgraded to LE (i.e. those who have not created a new site for LE), won't have ticketing ​system available to them. If they moved to a new site, their legacy one will remain live for 13 months and they should be able to mask consumer personal data during that time.
 
-# Bug Fixes
+## Bug Fixes
 
-## Chat Back-end Server
-
-### Password policy - update passwords blacklist in PasswordPatterns.txt (91288)
+### Chat back-end server: Password policy - update passwords blacklist in PasswordPatterns.txt (91288)
 
 This bug is applicable to the AppServer and enforces by default the prevention of using commonly used password phrases when setting a new password as an authenticated user to LE.
 
-### Open redirect vulnerability - sales/base.liveperson.net (88039)
+### Chat back-end server: Open redirect vulnerability - sales/base.liveperson.net (88039)
 
 Remove the risk that attackers could use this link in order to redirect users for malicious sites.
 
 This is part of the effort for limiting the allowed redirection targets to same-origin resources and white-listed domains if needed.
 
-## Agent Workspace
-
-### Real time dashboard not refreshing automatically (LE-92947)
+### Agent workspace: Real time dashboard not refreshing automatically (LE-92947)
 
 On LiveEngage -> Visitors tab -> Real Time Databar and associated dashboard does not refresh automatically (unless the page has been refreshed manually). This bug is a result of the previous LiveEngage version and is now fixed, so the dashboard will be refreshed automatically every 10 seconds.
 
-![](https://lh4.googleusercontent.com/dKoJ9YTKT2hRzh1hl25wz0pjLw3mMq-Gsl3AYxFN3oxbySKDrZfHib8NkhrIyRCrZnpu8Z1I70_E8Q5QTLEbAJI6RtgWS4WW_RvVimxfwNB0PpAVqTG9rhn4Fu5jeAhzLMpW-lBY =600x353)
+![](/img/week-of-september-9th-18.png)
 
-### Empty data for AOV and revenue widgets (LE-93425)
+### Agent workspace: Empty data for AOV and revenue widgets (LE-93425)
 
 On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and “Revenue After Chats” widgets displayed with empty data.
 
 This bug is a result of the previous LiveEngage version and is now fixed, and the widgets now display both the AOV and revenue after chat real data.
 
-![](https://lh6.googleusercontent.com/WJZQoBpBAgS7bUxAh49FiCCZ3Ne9gQ3bqt6N0ourxvA_LcBoWKXfar_x5i07kuIv94IybL9d41Cp3b3omw4os15tlmfFJWfABEZaSkfli9uxMNr7AsoqFYLCsTZQPGWmK5luve3k =589x362)
+![](/img/week-of-september-9th-19.png)
 
-### 
-
-### lpTag overrides lpTag.identities property (LE-92870)
+### Agent workspace: lpTag overrides lpTag.identities property (LE-92870)
 
 With the introduction of the new Identity function, brands can determine the identity of logged-in (authenticated) users on each page, ensuring a smooth transition between authenticated and unauthenticated pages. With this fix, the identity can be added to the page before the lpTag.
 
 The updated lpTag is available for all customers to implement on their webpages. lpTags, which were already implemented before, will not be updated automatically. In order to benefit from the change customers are requested to reimplement the new lpTag on their pages.
 
-### M[essages sent from agent to consumer are marked as “read” ](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)when agent manager joins the conversation (LE-88929)
+### Messages sent from agent to consumer are marked as “read” when agent manager joins the conversation (LE-88929)
 
 On “All connections” > summary view:
 
-M[essages sent from agents are marked as “read](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)” (with two orange check marks) if they were read by the agent manager who joined the conversation. The status should be changed only when the consumer reads the messages. This bug is now resolved.
+Messages sent from agents are marked as “read” (with two orange check marks) if they were read by the agent manager who joined the conversation. The status should be changed only when the consumer reads the messages. This bug is now resolved.
 
-### [Conversation engagement attributes shown in chat sometimes if both handled by the same agent](https://globaljira.lpdomain.com/browse/LE-91274) (LE-91274)
+### Conversation engagement attributes shown in chat sometimes if both handled by the same agent (LE-91274)
 
 On Visit info > consumer info , Visit info > personal info:
 
@@ -334,11 +308,11 @@ When an agent takes both chats and messaging conversations at the same time, per
 
 The conversation data:
 
-![](https://lh3.googleusercontent.com/4V2eFeq358BIuaVI6olOEpXILPvtwq_kDewUp4r-VNzp-jdELbqz6ZI91a8FIgMAQQesxUou92yJ4uVDwS9D6jiL49tPrdimdQ2QOuyu-ShUTGET19vrJZLcTOFjde9wyCyUqx9l =624x548)
+![](/img/week-of-september-9th-20.png)
 
 The chat data with the leaked conversation data:
 
-![](https://lh5.googleusercontent.com/49yxfzeImtK2hEXKyC_-MxInRTMTHkW2RicOfQ7UT4RUZJmoc-vJhl36ZMCvFfOGQYya0LpyWG3TY6-GQ6YrEnBsAbqYHgtkSdT7e2PYz1D7skhnZLCPJ4uMj7cvDb6BsEJmSwxA =624x541)
+![](/img/week-of-september-9th-21.png)
 
 ### Wrong wait time behavior for transferred chats (AE-197)
 
@@ -348,4 +322,4 @@ When transferring a chat, the wait time should display the duration between the 
 
 After the fix, the wait time is reset (in this case auto accept is on, so the wait time is 0 minutes after the transfer. Before the bug the value would have been the total chat time):
 
-![](https://lh5.googleusercontent.com/mQ2FESre1tSi7jLypKSX3-FRfynP46y90zD1m6iOcVOKBK3yVyZS9wg29uar5X0XFBI_7QYQd3Kk9Y42WM7VvnwCxV_ObdspZqqMvFAuNscUJtytf4nQPHYHD1Jn8svtSWF4L7rW =624x552)
+![](/img/week-of-september-9th-22.png)
