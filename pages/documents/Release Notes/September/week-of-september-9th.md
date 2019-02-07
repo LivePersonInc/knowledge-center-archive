@@ -9,6 +9,7 @@ permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 17:29:42 +0200
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -245,7 +246,7 @@ Agents and agent managers now have the ability to resume conversations with cons
 
 Following message shall not appear anymore :
 
-![](https://lh5.googleusercontent.com/TnFokrPgiq-l32DQUNOFjx_T-QagrYebE3RzMarF1d2jxNNa-7V-rDccZLdvraUxMSH_vhz6FJUUDCSuEOSJa2I6NIsYTvCyHYCtLVBfkrBsgH10SafbtaA7TEL_TxONSbbuKkRw =624x291)
+![](/img/week-of-september-9th-23.jpg)
 
 ### Remove 'description' from Agent Widget SDK setConsumerProfile (AE-374)
 
@@ -302,7 +303,7 @@ This is part of the effort for limiting the allowed redirection targets to same-
 
 On LiveEngage -> Visitors tab -> Real Time Databar and associated dashboard does not refresh automatically (unless the page has been refreshed manually). This bug is a result of the previous LiveEngage version and is now fixed, so the dashboard will be refreshed automatically every 10 seconds.
 
-![](https://lh4.googleusercontent.com/dKoJ9YTKT2hRzh1hl25wz0pjLw3mMq-Gsl3AYxFN3oxbySKDrZfHib8NkhrIyRCrZnpu8Z1I70_E8Q5QTLEbAJI6RtgWS4WW_RvVimxfwNB0PpAVqTG9rhn4Fu5jeAhzLMpW-lBY =600x353)
+![](/img/week-of-september-9th-18.png)
 
 ### Empty data for AOV and revenue widgets (LE-93425)
 
@@ -310,9 +311,7 @@ On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and �
 
 This bug is a result of the previous LiveEngage version and is now fixed, and the widgets now display both the AOV and revenue after chat real data.
 
-![](https://lh6.googleusercontent.com/WJZQoBpBAgS7bUxAh49FiCCZ3Ne9gQ3bqt6N0ourxvA_LcBoWKXfar_x5i07kuIv94IybL9d41Cp3b3omw4os15tlmfFJWfABEZaSkfli9uxMNr7AsoqFYLCsTZQPGWmK5luve3k =589x362)
-
-### 
+![](/img/week-of-september-9th-19.png)
 
 ### lpTag overrides lpTag.identities property (LE-92870)
 
@@ -320,13 +319,13 @@ With the introduction of the new Identity function, brands can determine the ide
 
 The updated lpTag is available for all customers to implement on their webpages. lpTags, which were already implemented before, will not be updated automatically. In order to benefit from the change customers are requested to reimplement the new lpTag on their pages.
 
-### M[essages sent from agent to consumer are marked as “read” ](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)when agent manager joins the conversation (LE-88929)
+### Messages sent from agent to consumer are marked as “read” when agent manager joins the conversation (LE-88929)
 
 On “All connections” > summary view:
 
-M[essages sent from agents are marked as “read](https://globaljira.lpdomain.com/browse/LE-88929?src=confmacro)” (with two orange check marks) if they were read by the agent manager who joined the conversation. The status should be changed only when the consumer reads the messages. This bug is now resolved.
+Messages sent from agents are marked as “read” (with two orange check marks) if they were read by the agent manager who joined the conversation. The status should be changed only when the consumer reads the messages. This bug is now resolved.
 
-### [Conversation engagement attributes shown in chat sometimes if both handled by the same agent](https://globaljira.lpdomain.com/browse/LE-91274) (LE-91274)
+### Conversation engagement attributes shown in chat sometimes if both handled by the same agent (LE-91274)
 
 On Visit info > consumer info , Visit info > personal info:
 
@@ -334,11 +333,11 @@ When an agent takes both chats and messaging conversations at the same time, per
 
 The conversation data:
 
-![](https://lh3.googleusercontent.com/4V2eFeq358BIuaVI6olOEpXILPvtwq_kDewUp4r-VNzp-jdELbqz6ZI91a8FIgMAQQesxUou92yJ4uVDwS9D6jiL49tPrdimdQ2QOuyu-ShUTGET19vrJZLcTOFjde9wyCyUqx9l =624x548)
+![](/img/week-of-september-9th-20.png)
 
 The chat data with the leaked conversation data:
 
-![](https://lh5.googleusercontent.com/49yxfzeImtK2hEXKyC_-MxInRTMTHkW2RicOfQ7UT4RUZJmoc-vJhl36ZMCvFfOGQYya0LpyWG3TY6-GQ6YrEnBsAbqYHgtkSdT7e2PYz1D7skhnZLCPJ4uMj7cvDb6BsEJmSwxA =624x541)
+![](/img/week-of-september-9th-21.png)
 
 ### Wrong wait time behavior for transferred chats (AE-197)
 
@@ -348,4 +347,4 @@ When transferring a chat, the wait time should display the duration between the 
 
 After the fix, the wait time is reset (in this case auto accept is on, so the wait time is 0 minutes after the transfer. Before the bug the value would have been the total chat time):
 
-![](https://lh5.googleusercontent.com/mQ2FESre1tSi7jLypKSX3-FRfynP46y90zD1m6iOcVOKBK3yVyZS9wg29uar5X0XFBI_7QYQd3Kk9Y42WM7VvnwCxV_ObdspZqqMvFAuNscUJtytf4nQPHYHD1Jn8svtSWF4L7rW =624x552)
+![](/img/week-of-september-9th-22.png)
