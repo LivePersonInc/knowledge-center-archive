@@ -242,15 +242,15 @@ The ‘description’ property cannot be updated by an agent using the Consumer 
 
 In order for brands not to misuse it, we need to prevent agents from setting that property when updating the consumer profile. Therefore, the field ‘description’ is removed from the update API. If it is sent as part of the setUserProfile, it will be ignored.
 
-# Enhancements
+## Enhancements
 
 ## Chat Back-end Server
 
-### Remove interaction content access for LPA users (89500)
+### Chat back-end server: Remove interaction content access for LPA users (89500)
 
 Remove access to interaction content by having the following settings/permissions enforced on LPAs upon login: change LPA user privileges from 8, 10, 33 to 9, 10, 33.
 
-### Convert Date to Long with insufficient data (93480)
+### Chat back-end server: Convert Date to Long with insufficient data (93480)
 
 Some customers send SDEs without last payment date object, that should have a year, month, day fields. When Denver issue a call to IDP it gets LPGWT, without lastPaymentDate.
 
@@ -258,11 +258,11 @@ Denver tries to convert to Long and fail.
 
 Solution: If one of the fields is null - don't convert the object to long, but return null.
 
-### Adding FaaS PostSurvey Implementation (92041)
+### Chat back-end server: Adding FaaS PostSurvey Implementation (92041)
 
 Enabling the usage of FaaS for the Denver PostSurvey Email Transcript notification.
 
-### GDRS - Ticketing Implementation AppServer (89437,92462,89441,85057)**:**
+### Chat back-end server: GDRS - Ticketing Implementation AppServer (89437,92462,89441,85057)**:**
 
 As part of the “Right to be Forgotten” epic, consumer related data needs to be masked from existing tickets via a new dedicated GDRS API, if a RTBF request arrives from a brand’s consumer. This enhancement is applicable only for legacy account customers with Ticketing system.
 
@@ -271,29 +271,27 @@ As part of the “Right to be Forgotten” epic, consumer related data needs to 
 * The APIs for masking data will be available only for live accounts.
 * Legacy accounts which upgraded to LE (i.e. those who have not created a new site for LE), won't have ticketing ​system available to them. If they moved to a new site, their legacy one will remain live for 13 months and they should be able to mask consumer personal data during that time.
 
-# Bug Fixes
+## Bug Fixes
 
 ## Chat Back-end Server
 
-### Password policy - update passwords blacklist in PasswordPatterns.txt (91288)
+### Chat back-end server: Password policy - update passwords blacklist in PasswordPatterns.txt (91288)
 
 This bug is applicable to the AppServer and enforces by default the prevention of using commonly used password phrases when setting a new password as an authenticated user to LE.
 
-### Open redirect vulnerability - sales/base.liveperson.net (88039)
+### Chat back-end server: Open redirect vulnerability - sales/base.liveperson.net (88039)
 
 Remove the risk that attackers could use this link in order to redirect users for malicious sites.
 
 This is part of the effort for limiting the allowed redirection targets to same-origin resources and white-listed domains if needed.
 
-## Agent Workspace
-
-### Real time dashboard not refreshing automatically (LE-92947)
+### Agent workspace: Real time dashboard not refreshing automatically (LE-92947)
 
 On LiveEngage -> Visitors tab -> Real Time Databar and associated dashboard does not refresh automatically (unless the page has been refreshed manually). This bug is a result of the previous LiveEngage version and is now fixed, so the dashboard will be refreshed automatically every 10 seconds.
 
 ![](/img/week-of-september-9th-18.png)
 
-### Empty data for AOV and revenue widgets (LE-93425)
+### Agent workspace: Empty data for AOV and revenue widgets (LE-93425)
 
 On LiveEngage -> Campaigns tab -> Dashboard, the “Average Order Value” and “Revenue After Chats” widgets displayed with empty data.
 
@@ -301,7 +299,7 @@ This bug is a result of the previous LiveEngage version and is now fixed, and th
 
 ![](/img/week-of-september-9th-19.png)
 
-### lpTag overrides lpTag.identities property (LE-92870)
+### Agent workspace: lpTag overrides lpTag.identities property (LE-92870)
 
 With the introduction of the new Identity function, brands can determine the identity of logged-in (authenticated) users on each page, ensuring a smooth transition between authenticated and unauthenticated pages. With this fix, the identity can be added to the page before the lpTag.
 
