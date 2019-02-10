@@ -62,16 +62,14 @@ The expected time to respond is also available for the agent, so it is clear to 
 
 The configuration of Special Occasions allows brands to set specific dates in which there is an exception to the hours of operation defined in the work days. For example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as work days.
 
-Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide]().
-
 **Limitations**
-* **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:  
-  When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.**
-* **Mark as urgent button in the engagement window will not work as expected:  
+* **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:**  
+  When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.
+* **Mark as urgent button in the engagement window will not work as expected:**  
   When using the workdays/special occasions automatic scheduling feature, the “Mark as urgent” button on the consumer window may be displayed to the consumer also during off hours when it should not be displayed, or may be unavailable during working hours when it should be displayed.  
   Temp work around: Remove the mark as urgent button from the engagement window in the window studio.**
 * **No audit trail on account level configuration.** Audit trail exists only for skill level assignments. For the skill level working hours - assigning a working hours item will be audited, however, changing an existing item is not audited.
-* The maximum length for a special occasion with shift status set to OFF is 30 days.
+* The maximum length for a special occasion with shift status set to **OFF** is 30 days.
 
 Defining new scheduling item:
 
@@ -244,7 +242,6 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 2. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
    Starting this release, the user can close this error message by clicking on the “x” on the top right corner, **_without having to confirm._**
 3. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
-4. 
 
 ### Photo Sharing in Web Messaging
 
@@ -394,6 +391,4 @@ When the browser blocks 3rd party cookies and the brand has enabled the cross do
 </tbody>
 </table>
 
-Structured Content in Chat did not send the metadata as expected by the backend service.
-
-This bug has been resolved.
+Structured Content in Chat did not send the metadata as expected by the backend service. This bug has been resolved.
