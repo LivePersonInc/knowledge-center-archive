@@ -9,10 +9,9 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-understanding-agent
 isTutorial: false
 date: 2019-01-21 11:05:20 +0000
 isNew: false
-published: false
 
 ---
-## Real time agent data bar
+## Real-time agent data bar
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately.  This will help you keep track of your performance as well as expected workload.
 

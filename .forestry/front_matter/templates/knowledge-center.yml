@@ -160,6 +160,7 @@ pages:
 - pages/documents/Release Notes/December/week-of-december-2nd.md
 - pages/documents/Release Notes/September/week-of-september-17th.md
 - pages/documents/Release Notes/September/week-of-september-24th.md
+- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-prioritization-overview.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-for-messaging-tour.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-basics.md
@@ -167,7 +168,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-activity-grid.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
