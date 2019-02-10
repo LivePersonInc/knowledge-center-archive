@@ -86,9 +86,8 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 {:start="3"}
 3. Click Edit next to the CoBrowse configuration.
-
-* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
-* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
+	* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
+	* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
 ![](/img/cobrowse-for-live-chat-4.png)
 
