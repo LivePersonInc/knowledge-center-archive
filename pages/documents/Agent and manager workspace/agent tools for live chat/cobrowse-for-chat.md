@@ -239,7 +239,7 @@ The following table lists the prerequisites and technical requirements necessary
 {: .notice}
 **Note:** Non-public web sites (intranet, localhost) are not supported.
 
-### Performance best practices
+## Performance best practices
 
 * The recommended upstream bandwidth requirements is 1500 kbit/s
 * Large rendered websites > 2 MB (DOM tree) can lead to a significant delay until the website is fully visible to the agent (waiting time 15 sec. or more to view the page)
