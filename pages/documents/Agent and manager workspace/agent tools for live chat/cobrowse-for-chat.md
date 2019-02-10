@@ -10,6 +10,7 @@ permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-c
 isTutorial: true
 isNew: false
 date: 2019-01-30 14:43:16 +0000
+published: false
 
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
@@ -206,19 +207,6 @@ The following table lists the prerequisites and technical requirements necessary
 * In the situation that the iFrames originate from different subdomains, you can adopt SOP relaxation techniques. This requires you to modify both pages and set the document.domain to the same domain
 * Embedded HTML objects and their content, for example an external image in a Canvas element, must originate from the same domain
 * Embedded HTML objects, for example Scalable Vector Graphics (SVG), which have been encoded by the web application, may not be visible to the agent
-
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
-<li>Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener</li> <li>Encoded web content poses a security risk and is therefore filtered.</li> 
-</ul> 
-</div>
-
-* There are no embedded non-HTML objects, for example Flash, Active-X or PDF
-
-{: .notice}
-Non-HTML content is not monitored and is not visible to the agent.
-
 * All resources, for example CSS, images and fonts, can be reloaded multiple times without restrictions:
   * Example 1: Loading resources is not bound to cookie or other session identifiers
   * Example 2: Loading resources is not bound to “Http Basic Authentication”
@@ -226,16 +214,19 @@ Non-HTML content is not monitored and is not visible to the agent.
 * CoBrowse is only supported on regular (not private / incognito) windows
 * For the consumer, the session is active only in the browser tab where it was started. If the consumer switches to another browser tab with the same (or another) website opened, they will no longer be active in the CoBrowse session
 * The agent and the consumer must be in a chat conversation before the agent can send a CoBrowse invite
-
-{: .notice}
-If the chat session is timed out, this will invalidate the CoBrowse session.
-
 * An agent can conduct no more than one CoBrowse session at a time
 * If the CoBrowse session is not ended by either the consumer or the agent pressing the ‘session end’ button, the agent will not be able send a new CoBrowse invite
 * The consumer must not navigate at the same time as accepting an invite
 * The consumer must not close the browser tab or navigate to an untagged page during a CoBrowse session
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
 * Third party cookies must be enabled
+
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener</li> <li>Encoded web content poses a security risk and is therefore filtered.</li> <li>There are no embedded non-HTML objects, for example Flash, Active-X or PDF</li> <li>Non-HTML content is not monitored and is not visible to the agent.</li> <li>If the chat session is timed out, this will invalidate the CoBrowse session.</li>
+</ul> 
+</div>
 
 #### For network
 
