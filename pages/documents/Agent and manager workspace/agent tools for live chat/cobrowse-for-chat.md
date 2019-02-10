@@ -10,7 +10,6 @@ permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-c
 isTutorial: true
 isNew: false
 date: 2019-01-30 14:43:16 +0000
-published: false
 
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
