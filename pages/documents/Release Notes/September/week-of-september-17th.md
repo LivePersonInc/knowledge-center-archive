@@ -19,7 +19,7 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .notice}
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality 
+## New functionality
 
 ### Working Hours Management
 
@@ -62,9 +62,10 @@ The expected time to respond is also available for the agent, so it is clear to 
 
 The configuration of Special Occasions allows brands to set specific dates in which there is an exception to the hours of operation defined in the work days. For example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as work days.
 
-Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Shift+Scheduler+-+Configuration+Guide.pdf).
+Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide]().
 
 **Limitations**
+
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:  
   When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.**
 * **Mark as urgent button in the engagement window will not work as expected:  
@@ -118,6 +119,7 @@ Until now, LiveEngage’s campaign timeframe management has only supported the o
 Campaign scheduling gives brands maximum flexibility with the option to control the campaign’s availability based on operational hours. Campaign managers will now be able to define different activation hours per different days of the week, for easier control of when new engagements will be displayed to consumers visiting the brand’s website or mobile app.
 
 **Common use cases:**
+
 1. Set different campaign activation hours for different days of the week
 2. Prevent engagements from being displayed on weekends
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
@@ -240,13 +242,11 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </table>
 
 1. Support logout on Single Page Application (LE-93123) - When implementing our service on a Single Page Application, the brand is requested to use newPage(document.location.href) after login and logout.
-With this new feature, newPage will replicate the experience of the web of actual navigation between authenticated and unauthenticated pages.
-
-1. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
-Starting this release, the user can close this error message by clicking on the “x” on the top right corner, **_without having to confirm._**
-
-1. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
-2. 
+   With this new feature, newPage will replicate the experience of the web of actual navigation between authenticated and unauthenticated pages.
+2. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
+   Starting this release, the user can close this error message by clicking on the “x” on the top right corner, **_without having to confirm._**
+3. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
+4. 
 
 ### Photo Sharing in Web Messaging
 
