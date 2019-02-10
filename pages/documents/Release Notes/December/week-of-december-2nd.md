@@ -292,4 +292,36 @@ When using IDNV feature in German or Romanian languages, the “Submit” and �
 When you go to the “Open Connections” tab and open a conversation widget that has no messages within it,
 a loading gif is displayed rather than an empty conversation transcript. After the fix, conversations without messages will display as an empty transcript
 
+### Agent Widget SDK: bind to chatInfo does not always return chat skill (reopened) (AE-473)
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
+On Agent widget SDK: bind to chatInfo does not always update "chatInfo.chatSkill”. This is now resolved. 
