@@ -195,6 +195,7 @@ These metrics are enabled out of the box and are available to all report builder
 </table>
 
 **Some metrics have been renamed in the predefined Messaging Performance Dashboard, as following:**
+
 | Old metric name | New metric name |
 | --- | --- |
 | NO. OF OPENED CONVERSATIONS | OPENED CONVERSATIONS |
