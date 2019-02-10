@@ -9,13 +9,14 @@ permalink: release-notes-2018-september-week-of-september-17th.html
 isTutorial: false
 isNew: false
 date: 2019-02-10 11:56:23 +0200
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during August 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .notice}
+{: .important}
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionality
@@ -55,13 +56,14 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.
 
-The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account. 
+The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account.
 
 Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
 The configuration of Special Occasions allows brands to set specific dates in which there is an exception to the hours of operation defined in the work days. For example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as work days.
 
 **Limitations**
+
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:**  
   When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.
 * **Mark as urgent button in the engagement window will not work as expected:**  
@@ -116,6 +118,7 @@ Until now, LiveEngage’s campaign timeframe management has only supported the o
 Campaign scheduling gives brands maximum flexibility with the option to control the campaign’s availability based on operational hours. Campaign managers will now be able to define different activation hours per different days of the week, for easier control of when new engagements will be displayed to consumers visiting the brand’s website or mobile app.
 
 **Common use cases:**
+
 1. Set different campaign activation hours for different days of the week
 2. Prevent engagements from being displayed on weekends
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
@@ -276,7 +279,6 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </tbody>
 </table>
 
-
 1. Preview image before sending (LE-87380, LE-87381) - After selecting an image to send or taking an image with the device’s camera, the user can preview the image before sending to the agent, to ensure that this is the correct image.
 2. Add caption to image (LE-87382) - In the image preview, the user can add a caption to the image, which will be displayed in the conversation on the same bubble of the image.
 3. Retry sending image on bad connection (LE-87386) - When the user has a bad connection, the window will try to resend the images two additional times (on top of the original send) before showing the user the retry icon to resend manually when the connection is restored.
@@ -317,7 +319,6 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </tr>
 </tbody>
 </table>
-
 
 If a consumer has a bad connection and clicks on an action on a card, the event is not sent from the client and the bot ignores the action (even if a text is published).
 
