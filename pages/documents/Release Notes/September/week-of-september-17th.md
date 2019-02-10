@@ -9,7 +9,6 @@ permalink: release-notes-2018-september-week-of-september-17th.html
 isTutorial: false
 isNew: false
 date: 2019-02-10 11:56:23 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during August 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
