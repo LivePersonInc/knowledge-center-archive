@@ -144,7 +144,8 @@ The metrics are added to the following visalutions:
 * Brand Level data export grid - in the ‘Brand Data Export’ panel
 * Sales Conversion Trend - new visualization in the ‘Brand Summary’ panel
 
-These metrics are enabled out of the box and is available to all report builder enabled customers.
+{: .notice}
+These metrics are enabled out of the box and are available to all report builder enabled customers.
 
 <div class="important">
 <b>Note:</b>
