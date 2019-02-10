@@ -56,9 +56,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.
 
-The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
+The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account. 
 
-The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
+Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
 The configuration of Special Occasions allows brands to set specific dates in which there is an exception to the hours of operation defined in the work days. For example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as work days.
 
