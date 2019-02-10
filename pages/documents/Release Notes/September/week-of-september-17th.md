@@ -12,7 +12,6 @@ date: 2019-02-10 11:56:23 +0200
 published: false
 
 ---
-
 These release notes include new features arriving to LiveEngage during August 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
@@ -20,11 +19,40 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .notice}
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-# New functionality
-
-## Agent Workspace
+## New functionality 
 
 ### Working Hours Management
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.
 
@@ -51,13 +79,9 @@ Defining new scheduling item:
 ![](/img/week-of-september-17th-1.png)
 
 Defining the account level working hours:  
-![](https://lh6.googleusercontent.com/3GHnG2uBBxc5jwAQm8LCCWw617OALPhcKl9OmRXhRUgaNf8RrMK2tsM-RWl8h479p8FXDvKUADYuWqaCVAf6ahFt9W3VHi8V_H0gVEouKQHqXyJQGMoI1e1AoRN0oJszx2x8Y5yi =624x407)
+![](/img/week-of-september-17th-1.png)
 
 ### Campaign Scheduling
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | No | No | No | No | No | No | Yes |
 
 Until now, LiveEngage’s campaign timeframe management has only supported the option to define the campaign’s start date and end date, with no option to change the active hours per each day of the week.
 
