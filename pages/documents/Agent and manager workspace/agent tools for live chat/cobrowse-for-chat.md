@@ -10,7 +10,6 @@ permalink: agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-c
 isTutorial: true
 isNew: false
 date: 2019-01-30 14:43:16 +0000
-published: true
 
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
@@ -54,7 +53,7 @@ CoBrowse technology has an enhanced level of security in comparison to tradition
 
 **The basic CoBrowse process is described in the image below:**
 
-![](/img/cb for chat 1.png)
+![](/img/cobrowse-for-live-chat-1.png)
 
 The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
 
@@ -77,12 +76,12 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
 
-![](/img/cb for chat 2.png)
+![](/img/cobrowse-for-live-chat-2.png)
 
 {:start="2"}
 2\. Click Agent Workspace Configuration.
 
-![](/img/cb for chat 3.png)
+![](/img/cobrowse-for-live-chat-3.png)
 
 {:start="3"}
 3\. Click Edit next to the CoBrowse configuration.
@@ -90,7 +89,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
 * Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
-![](/img/cb for chat 4.png)
+![](/img/cobrowse-for-live-chat-4.png)
 
 The following CoBrowse elements can also be configured:
 
@@ -105,18 +104,18 @@ The following CoBrowse elements can also be configured:
 **Note:**  
 Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](/img/cb for chat 5.png)
+![](/img/cobrowse-for-live-chat-5.png)
 
 {:start="4"}
 4\. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
-![](/img/cb for chat 6.png)
+![](/img/cobrowse-for-live-chat-6.png)
 
 ## Initiating CoBrowse
 
 1. From the chat window, click the CoBrowse icon.
 
-![](/img/cb for chat 7.png)
+![](/img/cobrowse-for-live-chat-7.png)
 
 {:start="2"}
 2\. Choose the session type:
@@ -127,17 +126,17 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 {:start="3"}
 3\. The visitor receives a notification asking them to accept the CoBrowse session.
 
-![](/img/cb for chat 8.png)
+![](/img/cobrowse-for-live-chat-8.png)
 
 {:start="4"}
 4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](/img/cb for chat 9.png)
+![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
 5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
-![](/img/cb for chat 10.png)
+![](/img/cobrowse-for-live-chat-10.png)
 
 {:start="6"}
 6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
