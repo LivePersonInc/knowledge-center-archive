@@ -12,6 +12,7 @@ date: 2019-02-10 11:56:23 +0200
 published: false
 
 ---
+
 These release notes include new features arriving to LiveEngage during August 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
@@ -25,12 +26,12 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Working Hours Management
 
-Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.   
-  
-The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.  
-  
-The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.  
-  
+Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.
+
+The configuration of scheduled work days allows brands to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours auto messages and the expected time to response message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
+
+The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
+
 The configuration of Special Occasions allows brands to set specific dates in which there is an exception to the hours of operation defined in the work days. For example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as work days.
 
 Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Shift+Scheduler+-+Configuration+Guide.pdf).
@@ -39,15 +40,15 @@ Please Note: Configuration of your LiveEngage account is needed. See the [full c
 
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:  
   When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.**
-
-* **Mark as urgent button in the engagement window will not work as expected:   
+* **Mark as urgent button in the engagement window will not work as expected:  
   When using the workdays/special occasions automatic scheduling feature, the “Mark as urgent” button on the consumer window may be displayed to the consumer also during off hours when it should not be displayed, or may be unavailable during working hours when it should be displayed.  
   Temp work around: Remove the mark as urgent button from the engagement window in the window studio.**
-
 * **No audit trail on account level configuration.** Audit trail exists only for skill level assignments. For the skill level working hours - assigning a working hours item will be audited, however, changing an existing item is not audited.
 * The maximum length for a special occasion with shift status set to OFF is 30 days.
 
-Defining new scheduling item:**![](https://lh3.googleusercontent.com/6ws5e-KCTlTcUQ7n_bJZchW7pEGcWJOVSpfSc58rDtTjDhPQwNN89a1qn7VeLi22RQrFUcUei-ojHtD8utJ7qlGXVfUE1G4J3aveXeXzilZrg0pK5fGafIgZcbhE4857m0QutKFf =624x403)**
+Defining new scheduling item:
+
+![](/img/week-of-september-17th-1.png)
 
 Defining the account level working hours:  
 ![](https://lh6.googleusercontent.com/3GHnG2uBBxc5jwAQm8LCCWw617OALPhcKl9OmRXhRUgaNf8RrMK2tsM-RWl8h479p8FXDvKUADYuWqaCVAf6ahFt9W3VHi8V_H0gVEouKQHqXyJQGMoI1e1AoRN0oJszx2x8Y5yi =624x407)
@@ -69,9 +70,9 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
 4. Messaging customers with short SLA experience (synchronous messaging)
 
-**![](https://lh5.googleusercontent.com/LQebDE5sNM_XnKYcmJLCG3OqOui0OqRJGd6kEQj0mg6ghYEnGCCpczkDzcPfF_jRTDgBxks36yiQik-pDA5rDQAJX8RpMPC_hejr2bmiN548yIsKIhzodoWfwDW_U68gC-ntWDPw =485x498)**
+![](/img/week-of-september-17th-3.png)
 
-![](https://lh4.googleusercontent.com/6IIi1d9PacHVTsZb9rBUVcJPYEnxWSC3_X3RtGXznszGvrFCpXk6H89wkjrGREgcCsFIPvNZVM9KOagSubt5Qw5ukDxjkBpuj8C9IoBI6HN198a9UxQ_xAC-8l-mSnjjftj9ZI4j =507x524)
+![](/img/week-of-september-17th-4.png)
 
 ## Unified Window
 
@@ -85,7 +86,7 @@ In order to ensure an optimal experience for consumers when clicking on engageme
 
 With this new configuration, brands can decide whether the window should continue to perform this additional availability check, or skip it and rely only on the first availability check, which was done before showing the engagement button.
 
-***This feature requires enablement** - please contact your LivePerson account team.
+\***This feature requires enablement** - please contact your LivePerson account team.
 
 ### Secure Form (PCI) confirmation screen will show only for 3 seconds (LE-93676)
 
@@ -111,12 +112,12 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 With this new feature, newPage will replicate the experience of the web of actual navigation between authenticated and unauthenticated pages.
 
-2. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
+1. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
 
 Starting this release, the user can close this error message by clicking on the “x” on the top right corner, **_without having to confirm._**
 
-3. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
-4. 
+1. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
+2. 
 
 ### Photo Sharing in Web Messaging
 
