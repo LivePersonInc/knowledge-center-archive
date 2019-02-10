@@ -65,7 +65,6 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Shift+Scheduler+-+Configuration+Guide.pdf).
 
 **Limitations**
-
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:  
   When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.**
 * **Mark as urgent button in the engagement window will not work as expected:  
@@ -83,12 +82,42 @@ Defining the account level working hours:
 
 ### Campaign Scheduling
 
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
 Until now, LiveEngage’s campaign timeframe management has only supported the option to define the campaign’s start date and end date, with no option to change the active hours per each day of the week.
 
 Campaign scheduling gives brands maximum flexibility with the option to control the campaign’s availability based on operational hours. Campaign managers will now be able to define different activation hours per different days of the week, for easier control of when new engagements will be displayed to consumers visiting the brand’s website or mobile app.
 
 **Common use cases:**
-
 1. Set different campaign activation hours for different days of the week
 2. Prevent engagements from being displayed on weekends
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
@@ -98,46 +127,122 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 
 ![](/img/week-of-september-17th-4.png)
 
-## Unified Window
+### Unified Window: Configure availability check when window opens (LE-90428)
 
-### Configure availability check when window opens (LE-90428)
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| No | No | No | No | No | No | No | No | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 In order to ensure an optimal experience for consumers when clicking on engagement buttons, the window performs an additional availability check. This availability check is performed on the main skill defined for the engagement, even if the engagement has a pre-chat survey with a routing question. Due to this behavior, some consumers cannot connect with the requested skill due to lack of availability of the main skill.
 
 With this new configuration, brands can decide whether the window should continue to perform this additional availability check, or skip it and rely only on the first availability check, which was done before showing the engagement button.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .notice}
+**This feature requires enablement** - please contact your LivePerson account team.
 
 ### Secure Form (PCI) confirmation screen will show only for 3 seconds (LE-93676)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 Users who have successfully submitted a Secure Form are presented with a confirmation screen. This screen will display until the user closes it by clicking on the “X” on the widget corner.
 
 On mobile, the confirmation (as the whole secure form) covers the conversation window. To help users return to the conversation more quickly, the confirmation will close automatically after 3 seconds. Clicking on the “X” before that will allow the user to return to the conversation more quickly.
 
-# Enhancements
+## Enhancements
 
-## Unified Window
+### Unauthenticated web messaging alongside authenticated
 
-### Unauthenticated alongside Authenticated
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 1. Support logout on Single Page Application (LE-93123) - When implementing our service on a Single Page Application, the brand is requested to use newPage(document.location.href) after login and logout.
-
 With this new feature, newPage will replicate the experience of the web of actual navigation between authenticated and unauthenticated pages.
 
 1. Remove confirmation when closing auth->unauth error (LE-92065) - When an authenticated user navigates from an authenticated page to an unauthenticated page, the user is presented with an error message.
-
 Starting this release, the user can close this error message by clicking on the “x” on the top right corner, **_without having to confirm._**
 
 1. When closing auth->unauth, error shows until user closes it (LE-91896) - When the window is shown on multiple windows, and the user navigated from an authenticated page to an unauthenticated page, the error is presented to the user only until the user closes it by clicking on the “X”.
