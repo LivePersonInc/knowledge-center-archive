@@ -92,14 +92,13 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 ![](/img/cobrowse-for-live-chat-4.png)
 
 The following CoBrowse elements can also be configured:
-
-* Border color: customize the color of the CoBrowse window border shown on the visitor side.
-* Highlight color: customize the color of the highlight effect that appears after a mouse click.
-* Match visitor's viewport: when active, the agent's viewport will be resized to the size of the visitor's browser window. This is useful for responsive websites.
-* Field Masking: in order to protect sensitive data that may be visible to the agent during a CoBrowse session, it is possible to mask certain input fields. To do so, add CSS Selectors to specific form fields on your website that may contain such data and should not be synchronized to the agent’s view.
-  * Example for IDs: #cc_number => do not synchronize content of the element with id='cc_number'.
-  * Example for class names: .secret => do not synchronize content of elements with class='secret'.
-  * Example for more complex selectors: input\[name=\\'secure\\'\] => do not synchronize content of input elements with name='secure'.
+* **Border color:** customize the color of the CoBrowse window border shown on the visitor side.
+* **Highlight color:** customize the color of the highlight effect that appears after a mouse click.
+* **Match visitor's viewport:** when active, the agent's viewport will be resized to the size of the visitor's browser window. This is useful for responsive websites.
+* **Field Masking:** in order to protect sensitive data that may be visible to the agent during a CoBrowse session, it is possible to mask certain input fields. To do so, add CSS Selectors to specific form fields on your website that may contain such data and should not be synchronized to the agent’s view.
+  * **Example for IDs:** #cc_number => do not synchronize content of the element with id='cc_number'.
+  * **Example for class names:** .secret => do not synchronize content of elements with class='secret'.
+  * **Example for more complex selectors:** input\[name=\\'secure\\'\] => do not synchronize content of input elements with name='secure'.
 
 {: .important}
 **Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
@@ -230,20 +229,15 @@ The following table lists the prerequisites and technical requirements necessary
 #### For network
 
 * Your website must be accessible via port 80 (http) or 443 (https)
-
-{: .notice}
-Non-public web sites (intranet, localhost) are not supported._
-
-* The agent and consumer’s network must allow long-running Http connections, also called ‘long polling’
-
-{: .notice}
-This applies to all modern networks. There are rare cases of misconfigured proxy servers or application layer firewalls in company networks._
-
+* The agent and consumer’s network must allow long-running Http connections, also called ‘long polling’ (This applies to all modern networks, there are rare cases of misconfigured proxy servers or application layer firewalls in company networks)
 * A company proxy server or application layer firewall must not modify essential, for example, security, http headers of the CoBrowse application.
 * If there is an extremely high network latency or unstable network connection, the CoBrowse session may be dropped.
 * The agent and the consumer have an available bandwidth of 10,000 kbit/s in downstream.
 * If your website is using HTTPS, the certificate must be signed by an official certificate authority (self-signed certificates will not be accepted).
 * The minimum upstream bandwidth requirement is 750 kbit/s. The actual requirement depends on a number of factors, such as the size of the rendered website.
+
+{: .notice}
+**Note:** Non-public web sites (intranet, localhost) are not supported.
 
 ### Performance best practices
 
