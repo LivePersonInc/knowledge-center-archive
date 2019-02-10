@@ -35,11 +35,13 @@ The post conversation survey bot is available for Messaging customers on mobile 
 ![](/img/week-of-september-9th-2.png)
 
 {:start="2"}
+
 1. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
 
 ![](/img/week-of-september-9th-3.png)
 
 {:start="3"}
+
 1. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message
 
 ![](/img/week-of-september-9th-4.png)
@@ -130,7 +132,7 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for [Post Conversation Survey Reporting].()
+For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for \[Post Conversation Survey Reporting\].()
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
@@ -165,6 +167,7 @@ Brands can configure one survey and apply it for all channels or they can config
 ### Audio Message - Facebook Messenger and Apple Business Chat Support (LE-89904)
 
 The Apple Business Chat and Facebook Messenger connectors to LiveEngage now support the following audio message flow:
+
 * Consumer on ABC or FBM records and sends an audio message to an agent on LE
 * Agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
 * Agent can play and replay audio messages sent by consumers for open and closed conversations (agent cannot record audio messages)
@@ -174,11 +177,13 @@ The Apple Business Chat and Facebook Messenger connectors to LiveEngage now supp
 Audio messaging is currently still in beta, due to the fact that the audio files are not yet going through a sanitation process in LiveEngage (sanitation will be added later in September). Customers that are interested in joining the beta program should contact Or Garmolin to sign the beta agreement.
 
 **Supported formats and sizes:**
+
 * Recording length supported by UMS is 2 minutes (a larger file will be rejected and an error message will be sent to the consumer)
 * File size supported by UMS is up to 5MB
 * Supported formats: connectors will convert the connectors audio file type to MP3
 
 **Limitations:**
+
 * Audio files longer than 2 minutes will be rejected - error will be shared with consumers
 * Audio message will not be converted to text - agent will only be able to play and listen to the the audio file
 
@@ -198,6 +203,7 @@ This feature enables users to set up dynamic text, such as agent name or skill n
 Accounts may now use the dynamic text option in the “Manage Predefined Content” screen (campaign footer) for messaging as well as chat.
 
 The supported dynamic texts are (as available for chat today):
+
 1. Skill Name - $!{skill.name}
 2. Skill Description - $!{skill.description}
 3. Agent Name - $!{operator.displayname}
