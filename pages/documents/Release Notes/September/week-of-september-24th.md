@@ -142,11 +142,13 @@ The metrics are added to the following visalutions:
 
 These metrics are enabled out of the box and is available to all report builder enabled customers.
 
-**Please note:**
+<div class="important">
+<b>Note:</b>
+<ul>
+<li>Metrics reflect only goal reached of type ‘Sell product/service’. In the future, tracking metrics for the rest of the business goal types will be added.</li> <li>Sales Revenue and Sales AoV metrics include only purchases generated from conversions (“sell product / service” goal reached). Purchases without a conversion are not counted in any of the these metrics.</li> <li>The dashboards only shows goals reached after messaging conversation. Goals reached after Live Chat can be viewed in the Business Activity Dashboard and the Goal Tracker dashboard.</li> 
+</ul>
+</div>
 
-* Metrics reflect only goal reached of type ‘Sell product/service’. In the future, tracking metrics for the rest of the business goal types will be added.
-* Sales Revenue and Sales AoV metrics include only purchases generated from conversions (“sell product / service” goal reached). Purchases without a conversion are not counted in any of the these metrics.
-* The dashboards only shows goals reached after messaging conversation. Goals reached after Live Chat can be viewed in the Business Activity Dashboard and the Goal Tracker dashboard.
 
 **Screenshot**
 
