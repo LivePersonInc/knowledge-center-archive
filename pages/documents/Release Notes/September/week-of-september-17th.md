@@ -71,7 +71,8 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 * **No audit trail on account level configuration.** Audit trail exists only for skill level assignments. For the skill level working hours - assigning a working hours item will be audited, however, changing an existing item is not audited.
 * The maximum length for a special occasion with shift status set to **OFF** is 30 days.
 
-Defining new scheduling item:
+<br/>
+Defining a new scheduling item:
 
 ![](/img/week-of-september-17th-1.png)
 
