@@ -8,7 +8,7 @@ level3: September
 permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 17:29:42 +0200
+date: 2019-02-06 15:29:42 +0000
 published: false
 
 ---
@@ -189,8 +189,6 @@ Audio messaging is currently still in beta, due to the fact that the audio files
 **Please note:** This feature requires enablement - please contact your LivePerson account team.
 
 ![](/img/week-of-september-9th-12.png)
-
-![](/img/week-of-september-9th-13.png)
 
 ### Dynamic text (macros) in Predefined Content for messaging (LE-91252)
 
