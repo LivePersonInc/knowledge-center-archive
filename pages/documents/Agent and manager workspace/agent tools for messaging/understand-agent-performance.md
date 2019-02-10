@@ -7,7 +7,9 @@ subtitle: ''
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
 isTutorial: false
-date: 2019-01-21 13:05:20 +0200
+date: 2019-01-21 11:05:20 +0000
+isNew: false
+published: false
 
 ---
 ## Real time agent data bar
@@ -35,7 +37,7 @@ The data bar in the agent workspace represents the real-time tracking of your cu
 
 You can always search for any previous conversations you’ve had with consumers through the All Connections tab.
 
-![](/img/understandagentperf2.png)
+![](/img/understanding-agent-performance-1.png)
 
 All Connections offers advanced filtering and search capabilities enabling you to search by:
 
