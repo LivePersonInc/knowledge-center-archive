@@ -65,7 +65,6 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 Please Note: Configuration of your LiveEngage account is needed. See the [full configuration guide]().
 
 **Limitations**
-
 * **Off-hours Mid Conversation Automatic Message displays the wrong Expected Time To Respond:  
   When using the workdays/special occasions automatic scheduling, the “Off hours mid conversation” automatic message may not work as expected - it might not be sent when required or sent when shouldn’t be. Moreover, the time to respond displayed to the consumer might be incorrect.**
 * **Mark as urgent button in the engagement window will not work as expected:  
@@ -119,7 +118,6 @@ Until now, LiveEngage’s campaign timeframe management has only supported the o
 Campaign scheduling gives brands maximum flexibility with the option to control the campaign’s availability based on operational hours. Campaign managers will now be able to define different activation hours per different days of the week, for easier control of when new engagements will be displayed to consumers visiting the brand’s website or mobile app.
 
 **Common use cases:**
-
 1. Set different campaign activation hours for different days of the week
 2. Prevent engagements from being displayed on weekends
 3. Stop serving new engagements 15 min before a shift ends, in order to prevent queues from growing (queue cleanup)
@@ -250,9 +248,37 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Photo Sharing in Web Messaging
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
 
 1. Preview image before sending (LE-87380, LE-87381) - After selecting an image to send or taking an image with the device’s camera, the user can preview the image before sending to the agent, to ensure that this is the correct image.
 2. Add caption to image (LE-87382) - In the image preview, the user can add a caption to the image, which will be displayed in the conversation on the same bubble of the image.
@@ -260,15 +286,41 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 4. Drag and drop image to send (LE-88210) - Users on a desktop computer can drag images, and drop them in the window to send to agent. This action replaces the selection of images from the file system.After the image is dropped, the image preview will be shown to the user.
 5. Resize image before sending (LE-91170) - In order to reduce the loading time and storage size, images that are larger than the defined size limit will be automatically resized. The default size limit is 800 pixel of the image’s longer dimension. Brands can change the limit by setting it on the "resizeImage" taglet configuration.
 
-# Bug fixes
-
-## Unified Window
+## Bug fixes
 
 ### Routing bot doesn’t respond to transfer action (LE-93567)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
 
 If a consumer has a bad connection and clicks on an action on a card, the event is not sent from the client and the bot ignores the action (even if a text is published).
 
@@ -276,17 +328,71 @@ To resolve this bug, a retry mechanism was added to the card’s action events, 
 
 ### Engagement doesn’t show when browser blocks 3rd party cookies and Cross Domain is enabled (LE-93572)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | No | No | No | No | No | No | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When the browser blocks 3rd party cookies and the brand has enabled the cross domain feature, engagements aren’t displayed. This bug has been resolved.
 
 ### Structured Content in Chat doesn’t send metadata (LE-93177)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| No | No | No | No | No | No | No | No | Yes |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 Structured Content in Chat did not send the metadata as expected by the backend service.
 
