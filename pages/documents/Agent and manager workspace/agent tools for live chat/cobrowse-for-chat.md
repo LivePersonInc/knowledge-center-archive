@@ -194,15 +194,11 @@ The following table lists the prerequisites and technical requirements necessary
 * The LE Tag must be placed on every webpage that is visited during the CoBrowse session
 * The agent must use an operating system and browser that is listed in the [LivePerson System Requirements](http://tbd)
 
-For brand website
+###For brand website
 
 * All website pages must be tagged. This includes the page from where the session is started, and all pages which are visited during navigation
 * The tag must be deployed in the topmost frame of the page
 * Your website must adhere to HTML, CSS and JavaScript standards
-
-{: .notice}
-Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener_._
-
 * HTML framesets must not be used
 * iFrames must originate from the same domain. This relates to Same Origin Policy (SOP)
 * iFrames from different domains cannot be synchronized from the consumer to the agent
@@ -211,8 +207,12 @@ Your website should not contain any browser-specific code or overwriting of core
 * Embedded HTML objects and their content, for example an external image in a Canvas element, must originate from the same domain
 * Embedded HTML objects, for example Scalable Vector Graphics (SVG), which have been encoded by the web application, may not be visible to the agent
 
-{: .notice}
-Encoded web content poses a security risk and is therefore filtered.
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener</li> <li>Encoded web content poses a security risk and is therefore filtered.</li> 
+</ul> 
+</div>
 
 * There are no embedded non-HTML objects, for example Flash, Active-X or PDF
 
