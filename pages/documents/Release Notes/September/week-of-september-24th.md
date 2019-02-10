@@ -1,5 +1,5 @@
 ---
-pagename: Week of September 24
+pagename: Week of September 24th
 categoryName: Release notes
 subCategoryName: 2018
 indicator: messaging
@@ -61,6 +61,7 @@ These KPIs give agent managers a view of how productive their agents are and hel
 Agent Load metrics can be used for staffing plans - for example; agent managers set the max capacity to X concurrent conversations per agent, and can therefore understand how well agents are being utilized/ if they are meeting their capacity.
 
 **New Attributes / Filters**
+
 | Attribute | Description |
 | --- | --- |
 | Max No. of Messaging Conversations | The maximum capacity an agent is setup to handle. The maximum capacity equals to the total weight of the conversations assigned to the agent. |
