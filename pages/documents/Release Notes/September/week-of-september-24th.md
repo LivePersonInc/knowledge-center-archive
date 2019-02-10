@@ -60,7 +60,7 @@ These KPIs give agent managers a view of how productive their agents are and hel
 
 Agent Load metrics can be used for staffing plans - for example; agent managers set the max capacity to X concurrent conversations per agent, and can therefore understand how well agents are being utilized/ if they are meeting their capacity.
 
-**New Attributes / Filters**
+**New Attributes **
 
 | Attribute | Description |
 | --- | --- |
@@ -123,9 +123,11 @@ As part of the Campaign for Messaging epic, the dashboard is enriched with conve
 
 The attribution model for the conversions follows the same behaviour as in the Business Activity dashboard. Meaning, conversions are either attributed to the first agent of the conversation, or the last. This model is similar to conversions from Live Chat, and is set up via the LiveEngage campaigns settings.
 
-**New Attributes / Filters**
+**New Attributes**
+
+| Attribute | Values |
 | --- | --- |
-| Direct Goal Indicator | Values: Direct; Indirect |
+| Direct Goal Indicator | Direct; Indirect |
 
 The attribute is not added as default to the filter panel. It can be added using drag and drop by any user with edit access.
 
