@@ -67,7 +67,9 @@ Agent Load metrics can be used for staffing plans - for example; agent managers 
 | Max No. of Messaging Conversations | The maximum capacity an agent is setup to handle. The maximum capacity equals to the total weight of the conversations assigned to the agent. |
 
 **New Metrics**
+
 | Metric | Description |
+| --- | --- |
 | Avg. Agent Load | The average conversation load on an agent. The load is determined by the weights assigned to conversations by Smart Capacity. A conversation can have a maximum weight of “1” and a minimum of 0.1. |
 | Max Agent Load | The maximum conversation load on an agent. The load is determined by the weights assigned to conversations by Smart Capacity. A conversation can have a maximum weight of “1” and a minimum of 0.1. |
 | Min Agent Load | The minimum conversation load on an agent. The load is determined by the weights assigned to conversations by Smart Capacity. A conversation can have a maximum weight of “1” and a minimum of 0.1. |
