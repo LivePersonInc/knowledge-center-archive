@@ -101,8 +101,8 @@ The following CoBrowse elements can also be configured:
   * Example for class names: .secret => do not synchronize content of elements with class='secret'.
   * Example for more complex selectors: input\[name=\\'secure\\'\] => do not synchronize content of input elements with name='secure'.
 
-**Note:**  
-Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
+{: .important}
+**Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
 ![](/img/cobrowse-for-live-chat-5.png)
 
@@ -119,7 +119,6 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
 {:start="2"}
 2. Choose the session type:
-
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
 
@@ -143,13 +142,6 @@ Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
-#### Notes:
-* CoBrowse is not supported in IE8.
-* CoBrowse is only available to customers with the embedded engagement window.
-* An agent can run one session of CoBrowse at a time and can send only one invitation at a time.
-* Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.
-* CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.
-
 <div class="notice"> 
 <b>Note:</b> 
 <ul> 
@@ -166,15 +158,12 @@ To enable the CoBrowse feature in your LiveEngage account, please contact LivePe
 ## FAQs
 
 #### 1. How is CoBrowse different to desktop sharing?
-
 CoBrowse differs from desktop sharing in that it is more secure, requires no installation, and is non-intrusive. The agent does not take control of the visitor’s desktop, nor do they have access to the visitor’s local files and applications. This minimizes the risk of agents unknowingly sharing sensitive information. In contrast to desktop sharing, CoBrowse offers a next-generation co-browsing experience with zero setup time.
 
 #### 2. What is the difference between “shared” mode and “view only” mode?
-
 Agents have the option to choose between "shared” mode and "view only" mode. "Shared" mode provides a full, two-way interactive experience, whereas "view only" mode offers a higher level of privacy for consumers. The table below illustrates the CoBrowse features, along with which CoBrowse features are available in each mode.
 
 #### 3. Is CoBrowse compatible with corporate firewalls etc.?
-
 Yes, CoBrowse is generally compatible with corporate firewalls. It only uses standard web protocols that are deployed and used in typical web applications.
 
 #### 4. Which options are available to secure form input (e.g. password)?
@@ -182,7 +171,6 @@ Yes, CoBrowse is generally compatible with corporate firewalls. It only uses sta
 Password form fields are automatically blocked from transmitting data into the CoBrowse session of other participants. Other fields have to be identified by using a proprietary HTML attribute or by manually managing a blacklist on a server (e.g., using CSS selectors).
 
 #### 5. Is it possible to have a CoBrowse session on untagged web pages and external domains?
-
 CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
 
 ## CoBrowse features and permissions
