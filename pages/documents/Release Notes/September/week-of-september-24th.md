@@ -59,7 +59,7 @@ These KPIs give agent managers a view of how productive their agents are and hel
 
 Agent Load metrics can be used for staffing plans - for example; agent managers set the max capacity to X concurrent conversations per agent, and can therefore understand how well agents are being utilized/ if they are meeting their capacity.
 
-**New Attributes **
+**New Attributes**
 
 | Attribute | Description |
 | --- | --- |
