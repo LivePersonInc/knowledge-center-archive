@@ -193,7 +193,7 @@ The following table lists the prerequisites and technical requirements necessary
 * The LE Tag must be placed on every webpage that is visited during the CoBrowse session
 * The agent must use an operating system and browser that is listed in the [LivePerson System Requirements](http://tbd)
 
-###For brand website
+### For brand website
 
 * All website pages must be tagged. This includes the page from where the session is started, and all pages which are visited during navigation
 * The tag must be deployed in the topmost frame of the page
@@ -226,7 +226,7 @@ The following table lists the prerequisites and technical requirements necessary
 </ul> 
 </div>
 
-#### For network
+### For network
 
 * Your website must be accessible via port 80 (http) or 443 (https)
 * The agent and consumer’s network must allow long-running Http connections, also called ‘long polling’ (This applies to all modern networks, there are rare cases of misconfigured proxy servers or application layer firewalls in company networks)
