@@ -36,7 +36,7 @@ The data bar in the agent workspace represents the real-time tracking of your cu
 
 You can always search for any previous conversations you’ve had with consumers through the All Connections tab.
 
-![](/img/understanding-agent-performance-1.png)
+![](/img/understanding-agent-performance-1-1.png)
 
 All Connections offers advanced filtering and search capabilities enabling you to search by:
 
