@@ -72,11 +72,11 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 * The maximum length for a special occasion with shift status set to **OFF** is 30 days.
 
 <br/>
-Defining a new scheduling item:
+**Defining a new scheduling item:**
 
 ![](/img/week-of-september-17th-1.png)
 
-Defining the account level working hours:  
+**Defining the account level working hours:**  
 ![](/img/week-of-september-17th-1.png)
 
 ### Campaign Scheduling
