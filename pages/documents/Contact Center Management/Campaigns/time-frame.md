@@ -20,10 +20,10 @@ This configuration allows you to define several campaigns, each with its own tim
 1. From the campaigns list, select a specific campaign.
 2. On the campaign page, hover over **campaign time frame** and click **edit.**
 
-![](/img/time frame 1-8.png)
+![](/img/time-frame-2.png)
 
 {:start="3"}
-3\. The campaign time frame page will open.
+3. The campaign time frame page will open.
 
 ## Defining the active time frame
 
@@ -49,7 +49,7 @@ You may choose between the following options:
   3. Fill in the Schedule item name, description (optional) and timezone
   4. Define the campaign’s hours of operation for each day of the week
 
-![](/img/time fram 4-5.png)
+![](/img/time-frame-1.png)
 
 You may choose between:
 
@@ -65,57 +65,38 @@ You can define multiple shifts for a single day of the week by doing the followi
 2. Save the page.
 3. The new scheduling item will now appear in the schedule library. Click it in order to choose it for your current campaign.
 
-   ![](/img/time frame 6.png)
+   ![](/img/time-frame-4.png)
 
 {:start="4"}
-4\. Click **done.**
-5\. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
-
-![](/img/time frame 7.png)
+4. Click **done.**
+5. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
 ## Special occasions per campaign
 
 A special occasion is used when there is an exception to the campaign's typical hours of operation. To configure a special occasion, do the following:
 
 1. Under **special occasions**, click the **set special occasions** button in order to access the special occasion library.
-
-![](/img/time frame 8.png)
-
-{:start="2"}
-
-1. Click **add new**, or edit an existing library item.
-2. Fill in the special occasion item name, description (optional) and timezone
-3. In order to add new occasions to the list, click the “Add line” button
-4. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
-
-![](/img/time frame 9.png)
+2. Click **add new**, or edit an existing library item.
+3. Fill in the special occasion item name, description (optional) and timezone
+4. In order to add new occasions to the list, click the “Add line” button
+5. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
 
 You may choose between:
 
 * **Off (default)** - When set to off the occasion will be considered inactive from 12:00 a.m. until 11:59 p.m., in its defined timeframe.
 * **All hours** - If set to all hours, the special occasion will be considered active from 12:00 a.m. until 11:59 p.m., in its defined timeframe.
 * **Custom** - manually type the activation hours of the day. The input must be in the following format: “HH:MM am/pm” and in 5 minute intervals only.
-
-![](/img/time frame 10.png)
-
 * **Multiple shifts per occasion:** You may also define multiple shifts per occasion. Simply hover over the occasion line, then click the **+Add** button in order to split the occasion activation hours, and add the shifts hours.
 
-![](/img/time frame 11.png)
+![](/img/time-frame-5.png)
 
 {:start="6"}
-6\. Save the page.
-
-1. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
-
-![](/img/time frame 12.png)
-
-{:start="8"}
-8\. Click “**Done**.”
-
-1. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
+6. Save the page.
+7. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
+9. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
 
 ## Saving the campaign with new settings
 
 After defining the campaign’s date range, active days, hours and special occasions, make sure to click **done** (for an unpublished campaign) or **publish** (for a published campaign) in order to save all new settings.
 
-![](/img/fjsadjlf.png)
+![](/img/time-frame-6.png)

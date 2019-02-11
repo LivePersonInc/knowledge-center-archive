@@ -8,8 +8,7 @@ level3: September
 permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 17:29:42 +0200
-published: false
+date: 2019-02-06 15:29:42 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -35,9 +34,13 @@ The post conversation survey bot is available for Messaging customers on mobile 
 
 ![](/img/week-of-september-9th-2.png)
 
+{:start="2"}
+
 1. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
 
 ![](/img/week-of-september-9th-3.png)
+
+{:start="3"}
 
 1. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message
 
@@ -119,7 +122,7 @@ In the image below there are a few errors that prevent the survey from being pub
 
 ![](/img/week-of-september-9th-8.png)
 
-Attempting to Publish this survey will fail with a Bot Studio error message.
+Attempting to publish this survey will fail with a Bot Studio error message.
 
 Once the survey contains no warnings, hit the Publish button to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it would already be live for your users.
 
@@ -129,7 +132,7 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for [Post Conversation Survey Reporting]()
+For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for \[Post Conversation Survey Reporting\].()
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
@@ -143,6 +146,7 @@ The post conversation survey is now supported for the Facebook Messenger and App
 * Survey logic based on consumer responses
 * Full reporting & analytics on survey responses, answer distribution and funnel metrics
 
+<br/>
 **Survey Experience in Facebook Messenger:**
 For use in Facebook Messenger, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Facebook’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
@@ -151,9 +155,7 @@ For use in Facebook Messenger, you can configure the survey through the Bot Stud
 **Survey Experience in Apple Business Chat:**
 LiveEngage automatically translates rich surveys into textual surveys for the ABC channel.
 
-Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill).
-
-When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
+Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill). When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
 ![](/img/week-of-september-9th-11-1.png)
 
