@@ -177,7 +177,7 @@ In order to define the agent’s picture in the selected engagement window, foll
 
 ![](/img/engagement-window-11.png)
 
-Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window:
+Now the visitor will see their agent’s picture next to each line sent by the agent in the chat engagement window.
 
 {: .notice}
 **Note:** In the case that the agent picture is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.
