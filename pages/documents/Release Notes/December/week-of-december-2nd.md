@@ -9,7 +9,6 @@ permalink: release-notes-2018-december-week-of-december-2nd.html
 isTutorial: false
 isNew: false
 date: 2019-02-10 11:16:18 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during December 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
