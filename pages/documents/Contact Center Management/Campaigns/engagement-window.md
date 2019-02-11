@@ -151,12 +151,12 @@ Available customizations:
 
 ![](/img/engagement-window-9.png)
 
-{: .important}
-**Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
-
 {:start="4"}
 
 1. Click **Save**
+
+{: .important}
+**Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
 
 ### Defining agent picture appearance in the engagement window
 
