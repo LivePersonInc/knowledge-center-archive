@@ -82,8 +82,6 @@ A special occasion is used when there is an exception to the campaign's typical 
 4. In order to add new occasions to the list, click the “Add line” button
 5. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
 
-![](/img/time frame 9.png)
-
 You may choose between:
 
 * **Off (default)** - When set to off the occasion will be considered inactive from 12:00 a.m. until 11:59 p.m., in its defined timeframe.
@@ -94,13 +92,9 @@ You may choose between:
 ![](/img/time-frame-5.png)
 
 {:start="6"}
-6\. Save the page.
-
-1. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
-
-{:start="7"} 8. Click “**Done**.”
-
-1. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
+6. Save the page.
+7. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
+9. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
 
 ## Saving the campaign with new settings
 
