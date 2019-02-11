@@ -24,7 +24,7 @@ This configuration allows you to define several campaigns, each with its own tim
 ![](/img/time-frame-2.png)
 
 {:start="3"}
-3\. The campaign time frame page will open.
+3. The campaign time frame page will open.
 
 ## Defining the active time frame
 
@@ -69,8 +69,8 @@ You can define multiple shifts for a single day of the week by doing the followi
    ![](/img/time-frame-4.png)
 
 {:start="4"}
-4\. Click **done.**
-5\. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
+4. Click **done.**
+5. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
 ## Special occasions per campaign
 
