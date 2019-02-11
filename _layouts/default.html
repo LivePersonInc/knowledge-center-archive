@@ -53,6 +53,7 @@
   <div id="defaultcontent">
   <div id="maincontent">
     <div class="anchorlist">
+      <span class="anchortitle">Jump to</span>
       <ul>
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
       </ul>
@@ -87,22 +88,6 @@
 </div>
 <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-<script>
-var client = algoliasearch("51CECYVH5R", "c7a71a465b895e34b00ecb5b0f0141fb")
-var knowledgeIndex = client.initIndex('knowledge_BASE');
-
-autocomplete('#aa-search-input', {}, [
-{
-  source: autocomplete.sources.hits(knowledgeIndex, { hitsPerPage: 3 }),
-  displayKey: 'content',
-  templates: {
-     //'suggestion' templating function used to render a single suggestion
-     suggestion: function(suggestion) {
-         return '<span>' + '<a  onclick="linkclick(event, this)" class="searchlink" href="' + suggestion.permalink +'">' + suggestion._highlightResult.pagename.value + '</a> </span>' + '<br />' + '<span>' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + suggestion.permalink +'">' +  suggestion._highlightResult.content.value + '</a> </span>';
-     }
- }
-}
-]);
-</script>
+<script  src="{{ "js/algolia.js" }}"></script>
 </body>
 </html>
