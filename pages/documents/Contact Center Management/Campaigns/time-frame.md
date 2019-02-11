@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-time-frame.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 08:21:02 +0000
-published: false
 
 ---
 Defining your campaign time frame allows you to set the days and hours in which your campaign will be considered active, and the engagements defined on the campaign will be displayed to your consumers as they navigate through your website or mobile app. When a consumer visits your website or mobile app, engagements from campaigns that are defined as active may be displayed to the consumer while engagements from inactive campaigns will not be displayed to the consumer at all.
