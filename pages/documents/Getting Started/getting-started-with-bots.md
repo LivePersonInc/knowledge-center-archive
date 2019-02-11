@@ -14,7 +14,7 @@ date: 2019-02-11 14:56:04 +0200
 ---
 ## The benefits of bots in LivePerson
 
-Check out our in depth article on: [How bots work in LivePerson](http://tbd). Here’s a summary of main concepts
+Check out our in depth article on: [How bots work in LivePerson](how-bots-work-with-liveperson.html). Here’s a summary of main concepts
 
 * **Humans and bots work together in LivePerson**  
   In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to easily manage and take over conversations when needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
@@ -53,7 +53,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
-**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](http://tbd) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
+**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](conversation-builder-overview.html)) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
 **Host:** Hosting / running is done automatically by the Conversation Builder.
 
