@@ -9,6 +9,7 @@ permalink: contact-center-management-campaigns-time-frame.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 08:21:02 +0000
+published: false
 
 ---
 Defining your campaign time frame allows you to set the days and hours in which your campaign will be considered active, and the engagements defined on the campaign will be displayed to your consumers as they navigate through your website or mobile app. When a consumer visits your website or mobile app, engagements from campaigns that are defined as active may be displayed to the consumer while engagements from inactive campaigns will not be displayed to the consumer at all.
@@ -20,7 +21,7 @@ This configuration allows you to define several campaigns, each with its own tim
 1. From the campaigns list, select a specific campaign.
 2. On the campaign page, hover over **campaign time frame** and click **edit.**
 
-![](/img/time frame 1-8.png)
+![](/img/time-frame-2.png)
 
 {:start="3"}
 3\. The campaign time frame page will open.
@@ -49,7 +50,7 @@ You may choose between the following options:
   3. Fill in the Schedule item name, description (optional) and timezone
   4. Define the campaign’s hours of operation for each day of the week
 
-![](/img/time fram 4-5.png)
+![](/img/time-frame-1.png)
 
 You may choose between:
 
@@ -65,7 +66,7 @@ You can define multiple shifts for a single day of the week by doing the followi
 2. Save the page.
 3. The new scheduling item will now appear in the schedule library. Click it in order to choose it for your current campaign.
 
-   ![](/img/time frame 6.png)
+   ![](/img/time-frame-4.png)
 
 {:start="4"}
 4\. Click **done.**
@@ -95,22 +96,16 @@ You may choose between:
 * **Off (default)** - When set to off the occasion will be considered inactive from 12:00 a.m. until 11:59 p.m., in its defined timeframe.
 * **All hours** - If set to all hours, the special occasion will be considered active from 12:00 a.m. until 11:59 p.m., in its defined timeframe.
 * **Custom** - manually type the activation hours of the day. The input must be in the following format: “HH:MM am/pm” and in 5 minute intervals only.
-
-![](/img/time frame 10.png)
-
 * **Multiple shifts per occasion:** You may also define multiple shifts per occasion. Simply hover over the occasion line, then click the **+Add** button in order to split the occasion activation hours, and add the shifts hours.
 
-![](/img/time frame 11.png)
+![](/img/time-frame-5.png)
 
 {:start="6"}
 6\. Save the page.
 
 1. The new special occasion item will now appear in the special occasion library. Select this special occasion in order to choose it for your current campaign.
 
-![](/img/time frame 12.png)
-
-{:start="8"}
-8\. Click “**Done**.”
+{:start="7"} 8. Click “**Done**.”
 
 1. The campaign time frame page will be presented again. Under the “Special occasions”, a summary of the chosen special occasion item will appear.
 
@@ -118,4 +113,4 @@ You may choose between:
 
 After defining the campaign’s date range, active days, hours and special occasions, make sure to click **done** (for an unpublished campaign) or **publish** (for a published campaign) in order to save all new settings.
 
-![](/img/fjsadjlf.png)
+![](/img/time-frame-6.png)
