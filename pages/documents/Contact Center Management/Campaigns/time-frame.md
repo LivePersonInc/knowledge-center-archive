@@ -72,22 +72,15 @@ You can define multiple shifts for a single day of the week by doing the followi
 4\. Click **done.**
 5\. The campaign timeframe page will be presented again. Under **custom recurrence**, a summary of the chosen scheduling item will appear.
 
-![](/img/time frame 7.png)
-
 ## Special occasions per campaign
 
 A special occasion is used when there is an exception to the campaign's typical hours of operation. To configure a special occasion, do the following:
 
 1. Under **special occasions**, click the **set special occasions** button in order to access the special occasion library.
-
-![](/img/time frame 8.png)
-
-{:start="2"}
-
-1. Click **add new**, or edit an existing library item.
-2. Fill in the special occasion item name, description (optional) and timezone
-3. In order to add new occasions to the list, click the “Add line” button
-4. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
+2. Click **add new**, or edit an existing library item.
+3. Fill in the special occasion item name, description (optional) and timezone
+4. In order to add new occasions to the list, click the “Add line” button
+5. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status and shift time.
 
 ![](/img/time frame 9.png)
 
