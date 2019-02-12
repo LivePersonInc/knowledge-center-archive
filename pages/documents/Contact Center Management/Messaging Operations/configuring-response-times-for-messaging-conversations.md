@@ -1,11 +1,11 @@
 ---
-pagename: Configuring response times for messaging conversations
+pagename: 'Configuring response times '
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'Manage expectations and keep consumers informed about expected wait times '
 level3: ''
-permalink: contact-center-management-messaging-operations-configuring-response-times-for-messaging-conversations.html
+permalink: contact-center-management-messaging-operations-configuring-response-times.html
 isTutorial: false
 date: 2019-01-17 09:53:26 +0000
 isNew: false
