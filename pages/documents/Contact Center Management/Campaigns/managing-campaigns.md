@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-managing-campaigns.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 09:20:16 +0000
-published: false
 
 ---
 You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
