@@ -204,7 +204,6 @@ pages:
 - pages/documents/Release Notes/November /week-of-november-5th.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Release Notes/January/week-of-january-20th.md
-- pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/terms-of-use.md
 - pages/documents/Data & Reporting/Report Builder/moving-from-bi-to-rb.md
@@ -232,6 +231,7 @@ pages:
 - pages/documents/Release Notes/December/week-of-dec-17.md
 - pages/documents/Admin & Settings/case-management-support.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
+- pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
