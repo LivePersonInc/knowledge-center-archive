@@ -18,8 +18,6 @@ The messages appear to the consumer in the engagement window and to the agent in
 
 Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
 
-![](/img/automatic-message-overview-1b.png)
-
 ## **Activating automatic messages**
 
 Each of the auto messages can be set to be active or inactive. If an auto message is set to be inactive, it will not be sent, even if the event that is meant to trigger it occurs.
@@ -32,7 +30,7 @@ For example, a visitor on a brand’s clothing pages may be greeted with “Than
 
 Auto messages can also be disabled for selected skills.
 
-![](/img/edit-automatic-message.png)
+![](/img/automatic-message-overview-1b.png)
 
 ## **Multi language support**
 
@@ -40,4 +38,4 @@ Automatic messages are supported in all visitor languages. For each message, the
 
 For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported per account. This language is the default consumer language (this is defined. Multiple languages will be supported in the future as part of campaigns for messaging for connectors.
 
-The language of the conversation (and hence the auto messages) is determined at the beginning of the conversation and does not change mid conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.Automatic messages are available for both chat and messaging. For more information, read [automatic messages for messaging configuration guide]().
+The language of the conversation (and hence the auto messages) is determined at the beginning of the conversation and does not change mid conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.Automatic messages are available for both chat and messaging. For more information, read [automatic messages for messaging configuration guide](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration-guide.html).
