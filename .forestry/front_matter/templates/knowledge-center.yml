@@ -176,7 +176,6 @@ pages:
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Admin & Settings/create-manage-users.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
-- pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
@@ -232,6 +231,7 @@ pages:
 - pages/documents/Admin & Settings/case-management-support.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
+- pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
