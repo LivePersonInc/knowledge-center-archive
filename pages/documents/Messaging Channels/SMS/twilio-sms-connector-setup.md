@@ -30,7 +30,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 ![](/img/twilio-sms-connector-setup-2.png)
 
-![](/img/twilio-sms-connector-setup-3.png)
+![](/img/twilio-sms-connector-setup-3-1.png)
 
 {:start="3"}
 3\. Give your number a name by clicking the ‘setup’ button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
