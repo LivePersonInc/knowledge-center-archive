@@ -21,6 +21,8 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 ![](/img/twilio sms set up 1.png)
 
+![](/img/twilio-sms-connector-setup-1.png)
+
 {:start="2"}
 
 1. Purchase a new number to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
