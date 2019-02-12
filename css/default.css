@@ -876,8 +876,7 @@ ul.mysidebar.nav > li:first-of-type {
 .algolia-autocomplete .aa-dropdown-menu {
   max-width: unset !important;
   min-width: unset !important;
-  width: 99.5%;
-  top: 169% !important;
+  top: 174% !important;
   margin-right: 0 !important;
   height: 80vh !important;
   overflow-y: scroll;
@@ -891,18 +890,37 @@ ul.mysidebar.nav > li:first-of-type {
   transition: opacity .10s ease-in-out;
 }
 
-.algolia-autocomplete .algolia-suggestion--content {
-  font-size: 15px !important;
+.algolia-autocomplete .aa-suggestion {
+  margin: 20px 0 20px 15px;
+}
+
+.algolia-autocomplete .aa-suggestion em {
+  font-weight: bold;
+}
+
+.algolia-autocomplete .aa-suggestion .searchtitle {
+  font-size: 20px;
+  border-bottom: unset;
+  width: 23%;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  text-decoration: none;
+  color: #272727;
+  font-weight: bold;
+}
+
+.algolia-autocomplete .aa-suggestion .searchlinktext {
+  font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #6f6f6f;
+  text-decoration: none;
 }
 
 .algolia-autocomplete .algolia-suggestion--subcategory-column {
-  font-size: 16px !important;
+  font-size: 16px;
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-  color: #5879da !important;;
-  width: 60% !important;
-  text-align: left !important;
+  color: #5879da;;
+  width: 60%;
+  text-align: left;
 }
 
 .algolia-autocomplete .algolia-suggestion--wrapper {
@@ -910,16 +928,8 @@ ul.mysidebar.nav > li:first-of-type {
   flex-direction: column;
 }
 
-.algolia-autocomplete .aa-suggestion {
-  font-size: 20px !important;
-  border-bottom: unset;
-  margin-top: none;
-  width: 23%;
-  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-}
-
 .algolia-autocomplete .algolia-suggestion--subcategory-column:before {
-  background-color: #fff !important;
+  background-color: #fff ;
 }
 
 .algolia-autocomplete .algolia-suggestion--content:before {

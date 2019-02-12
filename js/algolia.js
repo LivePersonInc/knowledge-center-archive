@@ -1,6 +1,5 @@
 var client = algoliasearch("51CECYVH5R", "c7a71a465b895e34b00ecb5b0f0141fb")
 var knowledgeIndex = client.initIndex('knowledge_BASE');
-console.log("included");
 
 autocomplete(
   '.aa-input-search',
@@ -9,7 +8,7 @@ autocomplete(
   },
   [
     {
-      source: autocomplete.sources.hits(knowledgeIndex, {hitsPerPage: 2}),
+      source: autocomplete.sources.hits(knowledgeIndex, {hitsPerPage: 5}),
       displayKey: '',
       name: 'kb', /* class aa-dataset-kb */
       templates: {
@@ -19,12 +18,12 @@ autocomplete(
           const content = suggestion.content;
           const link = suggestion.permalink;
           if (suggestion._highlightResult.pagename && suggestion._highlightResult.content && suggestion._highlightResult.permalink) {
-            value = suggestion._highlightResult.pagename.value;
-            content = suggestion._highlightResult.content.value;
+            value = suggestion._highlightResult.pagename.html;
+            content = suggestion._highlightResult.content.html;
             link = suggestion._highlightResult.permalink.value;
           }
           return (
-            '<span>' + '<a  onclick="linkclick(event, this)" class="searchlink" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<span>' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' +  content + '</a> </span>'
+            '<span class="searchtitlecontainer">' + '<a  onclick="linkclick(event, this)" class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<span class="searchcontentcontainer">' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' +  content + '</a> </span>'
           )
         },
         empty: '<div class="aa-empty">No matching Items</div>',

@@ -10,7 +10,6 @@ permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
 isNew: false
 date: 2019-02-11 14:56:04 +0200
-
 ---
 ## The benefits of bots in LivePerson
 
@@ -43,7 +42,7 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
 {: .notice}
-Only applicable if choosing option A in step 2 below 
+Only applicable if choosing option A in step 2 below
 
 ## Step 2: Implement automation and build a bot
 
