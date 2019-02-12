@@ -59,4 +59,4 @@ The goal tracker is currently unique in the sense that it captures engagement at
 | --- | --- | --- | --- |
 | Service activity complete | Conversion | topic | TOPIC |
 
-To learn more about engagement attributes, [click here]()
+To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
