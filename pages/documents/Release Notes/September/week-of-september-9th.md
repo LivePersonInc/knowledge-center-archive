@@ -9,6 +9,7 @@ permalink: release-notes-2018-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 15:29:42 +0000
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during September 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -120,7 +121,7 @@ In the image below there are a few errors that prevent the survey from being pub
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](/img/week-of-september-9th-8.png)
+![](/img/week-of-september-9th-25.jpg)
 
 Attempting to publish this survey will fail with a Bot Studio error message.
 
