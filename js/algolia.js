@@ -18,8 +18,8 @@ autocomplete(
           const content = suggestion.content;
           const link = suggestion.permalink;
           if (suggestion._highlightResult.pagename && suggestion._highlightResult.content && suggestion._highlightResult.permalink) {
-            value = suggestion._highlightResult.pagename.html;
-            content = suggestion._highlightResult.content.html;
+            value = suggestion._highlightResult.pagename.value;
+            content = suggestion._highlightResult.content.value;
             link = suggestion._highlightResult.permalink.value;
           }
           return (
