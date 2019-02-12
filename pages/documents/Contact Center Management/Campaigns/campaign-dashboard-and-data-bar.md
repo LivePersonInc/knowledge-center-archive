@@ -108,7 +108,7 @@ In other words, the campaign generated an additional $31,000 in revenue for you.
 
 
 |  | Viewed the offer | Control Group | Total |
-|  |  |  |  |
+| --- | --- | --- | --- |
 | Size of Group | 900 customers | 100 customers |  |
 | Visitors that Purchased | 270 customers | 10 customers |  |
 | Conversion Rate | 30% | 10% |  |
