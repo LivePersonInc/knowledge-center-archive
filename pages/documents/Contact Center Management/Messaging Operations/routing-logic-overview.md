@@ -126,7 +126,7 @@ The agent selection process is based on parameters outside those around the agen
 
 ## **Queue priority**
 
-The [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) [prioritizes conversations](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The routing engine [prioritizes conversations](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
