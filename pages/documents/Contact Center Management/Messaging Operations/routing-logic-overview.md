@@ -29,7 +29,7 @@ When agents are not available to handle new conversations, conversations will wa
 
 ## **Skill selection**
 
-In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process is the first method used by the routing engine to direct the conversation to the right agent.
+In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. [The skill selection process ](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)is the first method used by the routing engine to direct the conversation to the right agent.
 
 Using skill selection, an incoming conversation is routed exclusively to an available agent with the conversation’s assigned skill. If no skill is assigned to a conversation, and no default skill has been configured, the conversation will be routed to any available agent in the contact center. In this instance, the most appropriate agent will be chosen based on the Agent Selection process, as set out below.
 
@@ -43,7 +43,7 @@ LivePerson Consulting Services can configure automatic skill selection; self-ser
 
 ### **Skill selection based on consumer profile**
 
-As part of the authentication flow, the authentication server can provide information on the consumer’s authenticated engagement attributes (SDEs). Engagement attributes are layers of information about a consumer that are recorded throughout their consumer journey. These attributes can be used for skill selection (and will also be presented to the assigned Agent once they receive the incoming conversation); the relationship between attributes and skill can be configured by LivePerson Consulting Services. Read more about [engagement attributes](https://ce-sr.s3.amazonaws.com/CA/Campaigns/Engagement%20Attributes%20Overview.pdf) and [authentication](https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html).
+As part of the authentication flow, the authentication server can provide information on the consumer’s authenticated engagement attributes (SDEs). Engagement attributes are layers of information about a consumer that are recorded throughout their consumer journey. These attributes can be used for skill selection (and will also be presented to the assigned Agent once they receive the incoming conversation); the relationship between attributes and skill can be configured by LivePerson Consulting Services. Read more about [engagement attributes](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) and [authentication](https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html).
 
 The following engagement attributes are currently supported for skill selection:
 
@@ -102,7 +102,7 @@ An agent is considered available to receive an incoming conversation, when the f
 
 * The agent has enough capacity to receive an incoming conversation.  
   LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
-  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the ‘Smart Capacity’ article for further information.
+  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Smart Capacity’ article](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) for further information.
   2. **Maximum concurrent conversations** - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
 
 _Default maximum number of conversations per agent - Account level:_  
@@ -118,7 +118,7 @@ The agent selection process is based on parameters outside those around the agen
 
 * Agent prioritization - when routing an incoming conversation, the system will prioritize all agents eligible to receive the conversation and will route the conversation to the most suitable prioritized agent. Prioritization is based on three key parameters:
   * The agent’s current utilization state:
-    * Smart capacity - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
+    * [Smart capacity](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
     * Default - The ‘least busy’ agent is preferred - the agent that is currently handling fewer active conversations.
   * The time passed since they last received a new conversation
   * The messaging history between the agent and the consumer
@@ -126,7 +126,7 @@ The agent selection process is based on parameters outside those around the agen
 
 ## **Queue priority**
 
-The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The routing engine [prioritizes conversations](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 

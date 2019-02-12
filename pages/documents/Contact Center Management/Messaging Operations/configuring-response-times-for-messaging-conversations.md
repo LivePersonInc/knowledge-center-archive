@@ -1,16 +1,17 @@
 ---
-pagename: Configuring response times for messaging conversations
+pagename: 'Configuring response times '
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 'Manage expectations and keep consumers informed about expected wait times '
 level3: ''
-permalink: contact-center-management-messaging-operations-configuring-response-times-for-messaging-conversations.html
+permalink: contact-center-management-messaging-operations-configuring-response-times.html
 isTutorial: false
-date: 2019-01-17 11:53:26 +0200
+date: 2019-01-17 09:53:26 +0000
+isNew: false
 
 ---
-The LivePerson routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) prioritizes conversations that are waiting to be assigned to an agent according to their response time. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 To help manage consumer expectations around the time they should expect to wait for a response, any new conversation pending a response by the agent is given a pre-configured response time. The response time is displayed to the consumer based on how automatic messages have been configured.
 
@@ -40,7 +41,7 @@ In addition, if it was “pending consumer” since the agent wrote a message be
 {: .notice}
 This behavior can be disabled if required. To disable the “pending agent” after transfer feature contact the LivePerson Consulting Services.
 
-For further information, refer to the [About Skills article]() in the Related Articles section below.
+For further information, refer to the [Connect visitors to agents by skill](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html "Connect visitors to agents by skills").
 
 **Manual override**
 

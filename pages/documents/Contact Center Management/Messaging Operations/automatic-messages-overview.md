@@ -4,7 +4,7 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: Save your agents time and effort while providing a smoother engagement experience
-level3: Automatic messages
+level3: Getting started
 permalink: contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html
 isTutorial: true
 date: 2019-01-20 10:39:44 +0000
@@ -12,13 +12,11 @@ date: 2019-01-20 10:39:44 +0000
 ---
 Use automatic messages to manage consumer expectations as they await an agent response, while saving your agents time and effort. Automatic, or system, messages are messages that are triggered automatically during a chat or messaging conversation to inform visitors of the status of the conversation.
 
-<iframe src="https://player.vimeo.com/video/312480396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[https://vimeo.com/312480396/7579cfc4e8](https://vimeo.com/312480396/7579cfc4e8 "https://vimeo.com/312480396/7579cfc4e8")
 
 The messages appear to the consumer in the engagement window and to the agent in their agent workspace. For example, when a visitor is connected to an agent, the following message is displayed to the visitor: “Thank you for messaging us. An agent should reply shortly.”
 
 Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
-
-![](/img/automatic-message.png)
 
 ## **Activating automatic messages**
 
@@ -32,7 +30,7 @@ For example, a visitor on a brand’s clothing pages may be greeted with “Than
 
 Auto messages can also be disabled for selected skills.
 
-![](/img/edit-automatic-message.png)
+![](/img/automatic-message-overview-1b.png)
 
 ## **Multi language support**
 
@@ -40,4 +38,4 @@ Automatic messages are supported in all visitor languages. For each message, the
 
 For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported per account. This language is the default consumer language (this is defined. Multiple languages will be supported in the future as part of campaigns for messaging for connectors.
 
-The language of the conversation (and hence the auto messages) is determined at the beginning of the conversation and does not change mid conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.Automatic messages are available for both chat and messaging. For more information, read [automatic messages for messaging configuration guide]().
+The language of the conversation (and hence the auto messages) is determined at the beginning of the conversation and does not change mid conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.Automatic messages are available for both chat and messaging. For more information, read [automatic messages for messaging configuration guide](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration-guide.html).

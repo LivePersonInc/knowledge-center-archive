@@ -8,26 +8,27 @@ subtitle: This dashboard includes operational metrics used to analyze agent acti
 level3: Chat Dashboards
 permalink: data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html
 isTutorial: false
-date: 2019-01-21 14:47:20 +0200
+date: 2019-01-21 12:47:20 +0000
+isNew: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
-**Primary Datasets:** Agent activity, conversions, engagements, surveys
+**Primary datasets:** Agent activity, conversions, engagements, surveys
 
-**Primary Filters:** Agent, agent group, skill
+**Primary filters:** Agent, agent group, skill
 
 **Minimum timeframe:** Hourly
 
-## Main panel: Agent activity dashboard
+## Main panel: agent activity dashboard
 
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
-![](/img/Agentactdash1.png)
+![](/img/Agent-activity-dashboard-1.png)
 
 Image 1 - Agent activity dashboard main panel
 
-Visualizations:
+**Visualizations:**
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -44,11 +45,11 @@ Visualizations:
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
 | CROSS SESSION REVENUE |  |  |  |
 
-## Panel 2: Agent activity grid
+## Panel two: agent activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
-![](/img/agentactdash2.png)
+![](/img/agent-activity-dashboard-2.png)
 
 Image 2 - agent activity grid (panel 2)
 
@@ -76,11 +77,11 @@ Image 2 - agent activity grid (panel 2)
 18. NO. OF COBROWSE INTERACTIVE SESSIONS (CHAT)
 19. NO. OF SECURE FORM (PCI) SUBMITTED (CHAT)
 
-## Panel 3: Agent performance
+## Panel three: agent performance
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
-![](/img/agentactdash3.png)
+![](/img/agent-activity-dashboard-3.png)
 
 Image 3 - Agent performance (panel 3)
 
