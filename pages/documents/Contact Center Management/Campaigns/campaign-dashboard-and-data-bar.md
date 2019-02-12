@@ -8,14 +8,15 @@ level3: ''
 permalink: contact-center-management-campaigns-campaign-dashboard-and-data-bar.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 14:42:12 +0200
+date: 2019-01-29 12:42:12 +0000
+published: false
 
 ---
 ## The campaign-level data bar
 
 Campaign data is displayed and updated every hour, enabling you to make quick decisions about your campaigns and engagements at any given time. The data bar displays the visitor funnel: total visitors, those exposed to data, those engaged, incremental conversions and incremental revenue.
 
-![](/img/dash and data 1.png)
+![](/img/campaign-dashboard-and-data-bar-1.png)
 
 ### Prospects
 
@@ -38,11 +39,11 @@ Goals are categorized either as _Business_ goals or _Assisting_ goals.
 * _Business_ goals include “sell a product or service” and “generate leads”. These goals will be considered _Conversions_ when they are reached.
 * _Assisting_ goals include “increase page views” and “other goals” and are considered _Goal Reached_ when they are reached.
 
-![](/img/dash and data 2.png)
+![](/img/campaign-dashboard-and-data-bar-2.png)
 
 ## The campaign-level dashboard
 
-![](/img/dash and data 3.png)
+![](/img/campaign-dashboard-and-data-bar-3.png)
 
 ### Performance
 
@@ -111,7 +112,7 @@ In other words, the campaign generated an additional $31,000 in revenue for you.
 | Size of Group | 900 customers | 100 customers |  |
 | Visitors that Purchased | 270 customers | 10 customers |  |
 | Conversion Rate | 30% | 10% |  |
-| Average Order Value | $150 | $100  |  |
+| Average Order Value | $150 | $100 |  |
 | Total Actual Revenue | $40,500 | $1,000 | $41,500 |
 | Total Revenue (without campaign @ 10% conversion) | $9,000 | $1,000 | $10,000 |
 | Difference |  |  | $31,000 |
