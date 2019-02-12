@@ -19,8 +19,6 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 1. Create your own Twilio account here \[[insert link](https://www.twilio.com/try-twilio)\].
 
-![](/img/twilio sms set up 1.png)
-
 ![](/img/twilio-sms-connector-setup-1.png)
 
 {:start="2"}
@@ -29,16 +27,16 @@ For brands, creating a presence on the channels used by their consumers is key t
 
    **Note:** You must select a number with SMS capabilities
 
-![](/img/twilio sms set up 2.png)
+![](/img/twilio-sms-connector-setup-2.png)
 
-![](/img/twilio sms set up 3.png)
+![](/img/twilio-sms-connector-setup-3.png)
 
 {:start="3"}
 3\. Give your number a name by clicking the ‘setup’ button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
 4\. Upgrade from your trial account and purchase credits.
 5\. Configure the request URL, by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming "https://www.twilio.com/user/account/phone-numbers/incoming")
 
-![](/img/twilio sms set up 4.png)
+![](/img/twilio-sms-connector-setup-4.png)
 
 {:start="6"}
 6\. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
@@ -47,12 +45,12 @@ For brands, creating a presence on the channels used by their consumers is key t
 * North America accounts: [https://va.msg-gw.liveperson.net/api/](https://va.msg-gw.liveperson.net/api/ "https://va.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
 * APAC accounts: [https://sy.msg-gw.liveperson.net/api/](https://sy.msg-gw.liveperson.net/api/ "https://sy.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
 
-![](/img/twilio sms set up 6-1.png)
+![](/img/twilio-sms-connector-setup-5.png)
 
 {:start="7"}
 7\. Navigate to the following page \[[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")\] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
 
-![](/img/twilio sms set up 7.png)
+![](/img/twilio-sms-connector-setup-7.png)
 
 {:start="8"}
 8\. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.
