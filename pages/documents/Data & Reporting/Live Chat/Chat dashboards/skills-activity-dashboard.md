@@ -19,7 +19,7 @@ This dashboard includes metrics used to analyze skill queue performance. This da
 
 **Minimum timeframe:** Hourly
 
-## Main panel: Skills activity dashboard
+## Main panel: skills activity dashboard
 
 The following panel will be presented when accessing the skills activity predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
 
@@ -33,7 +33,7 @@ Image 1 - Skill activity dashboard main panel
 | --- | --- | --- | --- |
 | Eng. Volume(area chart) | REQUESTED CHATS | DATE | N/A |
 
-## Panel two: Skills activity grid
+## Panel two: skills activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by skills, agent groups, and day of the week.
 
