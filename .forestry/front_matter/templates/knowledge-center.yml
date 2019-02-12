@@ -172,7 +172,6 @@ pages:
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
-- pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Contact Center Management/Live chat operations/surveys-with-live-chat.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Admin & Settings/create-manage-users.md
@@ -232,6 +231,7 @@ pages:
 - pages/documents/Messaging Channels/Live chat/add-chat-to-your-website.md
 - pages/documents/Release Notes/December/week-of-dec-17.md
 - pages/documents/Admin & Settings/case-management-support.md
+- pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
