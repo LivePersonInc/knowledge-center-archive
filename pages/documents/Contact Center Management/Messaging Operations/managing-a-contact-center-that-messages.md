@@ -19,8 +19,6 @@ Messaging is now the preferred mode of communication for both sales and care use
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
 
-![](/img/contact-center-that-messages-3b.png)
-
 <iframe src="https://player.vimeo.com/video/302277356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## How messaging benefits a contact center
