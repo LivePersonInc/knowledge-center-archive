@@ -50,7 +50,7 @@ Since messaging is intuitive to consumers and easily accessible on an array of c
 
 ### Routing
 
-LivePerson [routing engine]() deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot]().
+LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
 
 ![](/img/managing-cc-that-messages.png)
 
@@ -60,7 +60,7 @@ The ability to filter out and automate conversations that can be resolved via se
 
 Since messaging can be available to consumers around the clock, there are instances where brands will have longer queues, such as overnight or during a special occasion like a promotion or outage. When long queues build up, consumers often become unavailable once they have sent a message and waited several minutes with no response.
 
-LivePerson created [queue prioritization]() tool that combines both importance of conversation with likelihood a consumer will respond. LivePerson’s queue backlog management is built into the platform to handle long queues awaiting agent reply by finding the right conversations (the active ones) and the correct number of conversations to route to agents. That way, agents are utilized and not waiting on inactive conversations.
+LivePerson created [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) tool that combines both importance of conversation with likelihood a consumer will respond. LivePerson’s queue backlog management is built into the platform to handle long queues awaiting agent reply by finding the right conversations (the active ones) and the correct number of conversations to route to agents. That way, agents are utilized and not waiting on inactive conversations.
 
 **How does it work?**
 
@@ -78,7 +78,7 @@ Since messaging conversations can span over a few hours, or even a few days, and
 
 ### Smart Capacity
 
-Based on three optimization points - conversation queue, agent matching, and agent capacity - [Smart Capacity]() is able to prioritize and match conversations to bring messaging efficiency to a new level. Smart Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
+Based on three optimization points - conversation queue, agent matching, and agent capacity - [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Smart Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
 
 Smart Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
 
@@ -88,14 +88,14 @@ LivePerson’s proprietary Smart Capacity algorithm identifies agent availabilit
 
 ### Autoclose - the agent ‘pause’
 
-Conversations that are not completed but are inactive may clutter up the agent workspace - even though they are inactionable. Using ‘[autoclose]()’, LivePerson automatically removes inactive conversations from the agent current workload to a dormant pool. This better focuses agents without ‘hanging up’ on the consumer to maintain a great customer experience.
+Conversations that are not completed but are inactive may clutter up the agent workspace - even though they are inactionable. Using ‘[autoclose](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html)’, LivePerson automatically removes inactive conversations from the agent current workload to a dormant pool. This better focuses agents without ‘hanging up’ on the consumer to maintain a great customer experience.
 
 ### Agent workspace
 
-The agent workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the agent workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the agent workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more in the [get acquainted with the agent workspace]().
+The agent workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the agent workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the agent workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more by seeing a video to [get acquainted with the agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html).
 
 ## Measuring messaging with the right KPIs
 
 While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, messaging cannot be measured the same way. That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
 
-LivePerson has developed a set of proprietary data KPIs, such as  [Meaningful Connection Score]() - an automated, real-time measurement of customer satisfaction metric that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging]().
+LivePerson has developed a set of proprietary data KPIs, such as  [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) - an automated, real-time measurement of customer satisfaction metric that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html).
