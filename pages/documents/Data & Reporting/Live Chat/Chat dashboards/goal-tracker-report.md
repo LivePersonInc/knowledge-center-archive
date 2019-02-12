@@ -19,7 +19,7 @@ This dashboard includes raw data for every goal reached in any of the selected a
 
 This dashboard is loaded with assisted conversion; which occurred after an engagement with an agent. The goal tracker does not include self serve conversion / assisting goals reached.
 
-This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
+It also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
 ## Main panel: agent goals tracker report
 
