@@ -7,7 +7,8 @@ subtitle: Add the LivePerson to your website to enable messaging or chat
 level3: ''
 permalink: getting-started-add-the-liveperson-tag-to-your-website.html
 isTutorial: false
-date: 2019-01-16 18:52:21 +0200
+date: 2019-01-16 16:52:21 +0000
+isNew: false
 
 ---
 To use the LiveEngage web chat or web messaging channels, place the LiveEngage Monitor Tag on your website. The tag will allow you to recognize and monitor visitors as they browse around your site. This enables you to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
@@ -32,12 +33,11 @@ The default functionality offered by dynamically-loaded taglets is described bel
 
 ## Getting your tag
 
-![](/img/LP tag.gif)
-
 To obtain the LivePerson tag for your account, login with admin credentials and pull down the menu under your user name > select LiveEngage tag.
 
-## Deploying your tag
+![](/img/LP tag Gif-1.gif)
 
+## Deploying your tag
 
 The tag will most likely be added to your website by your development team, or someone in charge of updating your web pages.
 
@@ -46,7 +46,6 @@ The tag should be included into the <head> of all web pages.
 If the tag is included via an external javascript file, it should look like the following:
 
 `<script type="text/javascript" src="/le-mtagconfig.js"></script>`
-
 
 Follow these guidelines:
 
@@ -60,12 +59,9 @@ Follow these guidelines:
 
 Tag management systems are incorporated to make smart decisions about when to fire each tag, for example on a visitor’s first visit, or when a specific page is visited. Generally, fewer tags means less load, and therefore a reduction in the chances of an error. Typically today, all tags are fired asynchronously, removing a large part of site load time.
 
-
 While the use of a tag management system is not necessary to enjoy the functionality of LiveEngage, many of our customers have experienced success using tag management Systems.
-
 
 {: .notice}
 Note: Using a tag management system can cause a delay in loading of engagements if the LivePerson Tag is loaded after many other tags. To ensure a short loading time, we recommend placing the LiveEngage Tag as high up in the loading sequence as possible.
-
 
 Fore more technical details on the tag, visit the [developers community](https://developers.liveperson.com/le-tag-overview.html).
