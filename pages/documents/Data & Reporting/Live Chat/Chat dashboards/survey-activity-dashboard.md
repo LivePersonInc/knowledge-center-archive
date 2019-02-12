@@ -29,12 +29,6 @@ This panel consists of an interconnected set of visualizations allowing for a dr
 
 Image 1: survey activity main panel
 
-Visualizations:
-
-| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |  
-| --- | --- | --- | --- |  
-| Daily Survey Completion Rate(combined bar and line chart) | VIEWED SURVEY(bar chart) | DATE | Hover over bars display popup:DATEVIEWED SURVEY or COMPLETED SURVEY | | COMPLETED SURVEY(bar chart) | | SURVEY COMPLETION RATE(line chart - right axis) | | Question Completion Rate(grid) | QUESTION COMPLETION RATE | QUESTION | Dynamically populates the “Answer Analysis” bar chart, and the “CSAT Analysis” line chart (if the question if of type CSAT). | | SURVEY FORM | | Answer Analysis(bar chart) | ANSWER COUNT | ANSWER | Dynamically populates the “Distribution per answer” line chart.Deselecting an answer will show the distribution for all answers of the selected question, side by side. | | Distribution per Answer(line chart) | ANSWER RATE | DATE | Hover over live displays popup:ANSWERDATEANSWER RATE | | ANSWER |
-
 ## Second panel: CSAT analysis
 
 This panel displays the trend of CSAT score over the selected time frame. The grid will drill down to show the CSAT scoring by survey question at the skill level per day.
@@ -54,7 +48,7 @@ This panel displays the trend of CSAT score over the selected time frame. The gr
 2. CSAT Score
 3. Question completion rate
 
-Columns (attributes)
+**Columns (attributes)**
 
 1. Date
 
@@ -100,7 +94,7 @@ Rows (attributes):
 3. SURVEY TYPE
 4. SURVEY FORM
 
-Columns (metrics):
+**Columns (metrics):**
 
 1. VIEWED SURVEY
 2. COMPLETED SURVEY
