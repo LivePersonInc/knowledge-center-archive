@@ -114,5 +114,5 @@ In other words, the campaign generated an additional $31,000 in revenue for you.
 | Conversion Rate | 30% | 10% |  |
 | Average Order Value | $150 | $100 |  |
 | Total Actual Revenue | $40,500 | $1,000 | $41,500 |
-| Total Revenue (without campaign @ 10% conversion) | $9,000 | $1,000 | $10,000 |
+| Total Revenue (without campaign at 10% conversion) | $9,000 | $1,000 | $10,000 |
 | Difference |  |  | $31,000 |
