@@ -1,17 +1,17 @@
 ---
 pagename: Meaningful Connection Score (MCS) overview
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Web messaging
 indicator: both
 subtitle: Measure the quality of your brand’s connection with every consumer over
   time
 level3: ''
 permalink: data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html
 isTutorial: false
-date: 2019-01-22 11:35:20 +0200
+date: 2019-01-22 09:35:20 +0000
+isNew: false
 
 ---
-
 **(BETA)**
 
 Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience.
