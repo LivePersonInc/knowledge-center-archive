@@ -35,7 +35,7 @@ This panel displays the trend of CSAT score over the selected time frame. The gr
 
 ![](/img/survey-activity-dashboard-2.png)
 
-### CSAT Grid
+## CSAT Grid
 
 **Row (attributes)**
 
@@ -52,9 +52,7 @@ This panel displays the trend of CSAT score over the selected time frame. The gr
 
 1. Date
 
-## Survey activity grid
-
-## Main panel: survey question grid
+## Main panel: Survey activity question grid
 
 Export daily survey responses with a full distribution of the provided answers. This ready made grid captures the survey responses per skill and agent to support additional offline manipulations over the available granularity.
 
