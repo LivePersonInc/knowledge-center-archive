@@ -14,7 +14,6 @@ public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_command: bundle exec jekyll serve --drafts --unpublished --future -d _site
     --host 0.0.0.0 --port 8080
