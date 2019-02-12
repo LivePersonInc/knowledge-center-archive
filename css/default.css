@@ -649,7 +649,7 @@ ul.mysidebar.nav > li:first-of-type {
 .sidebarbutton span {
   position: absolute;
   transition: .3s;
-  background: #f2f2f2;
+  background: #afafaf;
 }
 
 .sidebarbutton span:first-of-type {
@@ -811,147 +811,26 @@ ul.mysidebar.nav > li:first-of-type {
   top: 2px;
 }
 
-/*search styling begins */
+/* A few Algolia corrections to contradict home.css */
 
 .algolia-autocomplete {
-  flex: 4;
-  height: 48px;
   margin-top: 0;
-}
-
-#aa-search-input {
-  padding-left: 15px;
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
-  border-radius: 4px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #fff;
-  font-size: 18px;
-  padding-right: 0;
-}
-
-#aa-search-input:focus {
-  outline: none;
 }
 
 .aa-input-search {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  padding-left: 15px;
-}
-
-#aa-search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: italic;
-}
-#aa-search-input::-moz-placeholder { /* Firefox 19+ */
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: italic;
-}
-
-#aa-search-input:-ms-input-placeholder { /* IE 10+ */
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: italic;
-}
-
-#aa-search-input:-moz-placeholder { /* Firefox 18- */
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: italic;
-}
-
-.algolia-autocomplete .aa-dropdown-menu [class^=aa-dataset-] {
-  border: none !important;
+  padding-left: 31px;
 }
 
 .algolia-autocomplete .aa-dropdown-menu {
-  max-width: unset !important;
-  min-width: unset !important;
-  top: 174% !important;
-  margin-right: 0 !important;
-  height: 80vh !important;
-  overflow-y: scroll;
-  background: white;
+  width: 102.8%
 }
 
-
-.overlayvisible {
-  opacity: 0.5;
-  -webkit-transition: opacity .10s ease-in-out;
-  transition: opacity .10s ease-in-out;
+.searchcontentcontainer {
+  line-height: 1.8;
 }
 
-.algolia-autocomplete .aa-suggestion {
-  margin: 20px 0 20px 15px;
-}
-
-.algolia-autocomplete .aa-suggestion em {
-  font-weight: bold;
-}
-
-.algolia-autocomplete .aa-suggestion .searchtitle {
-  font-size: 20px;
-  border-bottom: unset;
-  width: 23%;
-  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-  text-decoration: none;
-  color: #272727;
-  font-weight: bold;
-}
-
-.algolia-autocomplete .aa-suggestion .searchlinktext {
-  font-size: 15px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #6f6f6f;
-  text-decoration: none;
-}
-
-.algolia-autocomplete .algolia-suggestion--subcategory-column {
-  font-size: 16px;
-  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-  color: #5879da;;
-  width: 60%;
-  text-align: left;
-}
-
-.algolia-autocomplete .algolia-suggestion--wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.algolia-autocomplete .algolia-suggestion--subcategory-column:before {
-  background-color: #fff ;
-}
-
-.algolia-autocomplete .algolia-suggestion--content:before {
-  background-color: #fff !important;
-}
-
-.algolia-autocomplete .algolia-suggestion--highlight {
-  background: rgba(0, 119, 255, 0.1) !important;
-  font-weight: bold;
-  color: inherit;
-}
-
-.algolia-autocomplete .algolia-suggestion--title {
-  color: #6f6f6f;
-}
-
-.algolia-autocomplete .algolia-suggestion .algolia-suggestion--subcategory-column:after {
-  content: none !important;
-}
-
-.ds-suggestion a {
-  text-decoration: none;
+.algolia-autocomplete .aa-dropdown-menu {
+  height: 80vh;
 }
 
 /* Explorer rules because the internet is fake */

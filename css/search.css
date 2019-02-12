@@ -1,0 +1,122 @@
+/*search styling begins */
+
+.algolia-autocomplete {
+  flex: 4;
+  height: 48px;
+  margin-top: 0;
+}
+
+#aa-search-input {
+  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  border-radius: 4px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 0;
+}
+
+#aa-search-input:focus {
+  outline: none;
+}
+
+.aa-input-search {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding-left: 15px;
+}
+
+#aa-search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+#aa-search-input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#aa-search-input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#aa-search-input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.algolia-autocomplete .aa-dropdown-menu [class^=aa-dataset-] {
+  border: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu {
+  max-width: unset;
+  min-width: unset;
+  top: 109%;
+  width: 101.4%;
+  margin-right: 0;
+  height: 80vh;
+  overflow-y: auto;
+  background: white;
+  box-shadow:rgba(0, 0, 0, 0.1) 2px 2px 7px 0px;
+}
+
+.overlayvisible {
+  opacity: 0.3;
+  -webkit-transition: opacity .10s ease-in-out;
+  transition: opacity .10s ease-in-out;
+}
+
+.algolia-autocomplete .aa-suggestion {
+  margin: 20px 0 20px 15px;
+}
+
+.algolia-autocomplete .aa-suggestion em {
+  font-style: normal;
+  background: rgba(0, 119, 255, 0.1);
+  font-weight: bold;
+  color: #5879DA;
+}
+
+.algolia-autocomplete .aa-suggestion .searchtitle {
+  font-size: 21px;
+  border-bottom: unset;
+  width: 23%;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
+  text-decoration: none;
+  color: #5879DA ;
+  font-weight: bold;
+}
+
+.searchcontentcontainer {
+  display: block;
+  margin-top: 2px;
+}
+
+.algolia-autocomplete .aa-suggestion .searchlinktext {
+  font-size: 15px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+.aa-empty {
+  font-size: 21px;
+  font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
+  text-decoration: none;
+  color: #5879DA ;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}

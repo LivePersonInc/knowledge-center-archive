@@ -152,29 +152,9 @@
 </div>
 </div>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-<script type="text/javascript">
-const search = docsearch({
-apiKey: 'e386ebed16c8f70de3c914b3ace55ae6',
-indexName: 'liveperson',
-inputSelector: '.aa-input-search',
-debug: true,
-algoliaOptions: {
-  hitsPerPage: 50
-},
-autocompleteOptions: {
-  openOnFocus: true,
-  templates: {
-     //'suggestion' templating function used to render a single suggestion
-     suggestion: function(suggestion) {
-       if (suggestion._highlightResult.content && suggestion._highlightResult.title) {
-         return '<span>' + '<a  onclick="linkclick(event, this)" class="searchlink" href="' + suggestion.permalink +'">' + suggestion._highlightResult.title.value + '</a> </span>' + '<br />' + '<span>' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + suggestion.permalink +'">' +  suggestion._highlightResult.content.value + '</a> </span>';
-       };
-     }
- }
-}
-});
-</script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script  src="{{ "js/algolia.js" }}"></script>
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
