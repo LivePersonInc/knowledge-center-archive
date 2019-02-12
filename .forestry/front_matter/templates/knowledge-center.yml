@@ -233,6 +233,7 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/agent-activity-dashboard-chat.md
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
+- pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-activity-dashboard.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md
@@ -264,6 +265,5 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
-- pages/documents/Data & Reporting/Live Chat/Chat dashboards/skills-activity-dashboard.md
 - pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
 - release-notes-feb-4.md
