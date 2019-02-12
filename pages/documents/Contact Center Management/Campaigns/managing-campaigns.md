@@ -214,4 +214,5 @@ If the engagement isn’t displaying to a consumer as expected, check the follow
 5. **Overlapping Engagements:** Engagements can not physically overlap each other on the webpage. If you've configured overlapping engagements, the visitor will see only one of them.
 6. **LE Tag:** Verify that the tag is deployed on all your web pages.
 
+  <br/>
 **If you’ve checked all the above options and you still don’t see your engagement, contact LP Support.**
