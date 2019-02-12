@@ -20,7 +20,7 @@ This dashboard includes operational metrics used to analyze agent activity and p
 
 **Minimum timeframe:** Hourly
 
-## Main panel: Agent activity dashboard
+## Main panel: agent activity dashboard
 
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
@@ -45,7 +45,7 @@ Image 1 - Agent activity dashboard main panel
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
 | CROSS SESSION REVENUE |  |  |  |
 
-## Panel two: Agent activity grid
+## Panel two: agent activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
@@ -77,7 +77,7 @@ Image 2 - agent activity grid (panel 2)
 18. NO. OF COBROWSE INTERACTIVE SESSIONS (CHAT)
 19. NO. OF SECURE FORM (PCI) SUBMITTED (CHAT)
 
-## Panel three: Agent performance
+## Panel three: agent performance
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
