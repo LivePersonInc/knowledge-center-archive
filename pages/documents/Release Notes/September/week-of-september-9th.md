@@ -120,7 +120,7 @@ In the image below there are a few errors that prevent the survey from being pub
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](/img/week-of-september-9th-8.png)
+![](/img/week-of-september-9th-25.jpg)
 
 Attempting to publish this survey will fail with a Bot Studio error message.
 
