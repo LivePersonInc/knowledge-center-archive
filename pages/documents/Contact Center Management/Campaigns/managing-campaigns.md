@@ -9,6 +9,7 @@ permalink: contact-center-management-campaigns-managing-campaigns.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 09:20:16 +0000
+published: false
 
 ---
 You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
@@ -25,13 +26,13 @@ From the campaigns page, you can set your campaigns to different priorities (hig
 * The probability that engagements belonging to **Medium Priority** campaigns will be displayed is **20%**
 * The probability that engagements belonging to **Low Priority** campaigns will be displayed is **10%**
 
-![](/img/mang camp 1.png)
+![](/img/managing-campaigns-1.png)
 
 ## Measuring success using control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up.
 
-![](/img/mang camp 2.png)
+![](/img/managing-campaigns-2.png)
 
 A control group is a random number of visitors to your website who do not receive any type of engagement from a campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
@@ -82,28 +83,28 @@ This table provides a summary of the conditions and outcomes of each of the thre
 
 1. Default state - busy state disabled
 
-   ![](/img/mang camp 3-2.png)
+![](/img/managing-campaigns-3.png)
 
 {:start="2"}
 2\. Busy state enabled
 
-![](/img/mang camp 4.png)
+![](/img/managing-campaigns-4.png)
 
 {:start="3"}
 3\. Busy state disabled, ignore max wait time enabled
 
-![](/img/mang camp 5.png)
+![](/img/managing-campaigns-5.png)
 
 {:start="4"}
 4\. Busy state enabled, ignore max wait time enabled
 
-![](/img/mang camp 6.png)
+![](/img/managing-campaigns-6.png)
 
 ## Publishing and unpublishing campaigns
 
 Turning your campaigns on and off are simple.  When you finish creating your campaign, toggle the ‘publish’ button.  You will clearly see the status of the campaign in your campaigns list:
 
-![](/img/mang camp 7.png)
+![](/img/managing-campaigns-7.png)
 
 A campaign can be active and still not display to your consumers if the campaign is no longer within the time frame that you defined.
 
@@ -126,7 +127,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 **Note:** Only one of these can be displayed simultaneously in this zone.
 
-![](/img/mang camp 8-2.png)
+![](/img/managing-campaigns-8.png)
 
 ### Right zone
 
@@ -137,7 +138,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 **Note:** Only one of these can be displayed simultaneously in this zone.
 
-![](/img/mang camp 9-2.png)
+![](/img/managing-campaigns-9.png)
 
 ### Proactive zone
 
@@ -149,7 +150,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 **Note:** Only one proactive engagement can be displayed at any given time.
 
-![](/img/mang camp 10-2.png)
+![](/img/managing-campaigns-10.png)
 
 ### Embedded zone
 
@@ -158,7 +159,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 * Embedded buttons (created with <div> tags)
 
 **Note:** You can display an unlimited number of embedded buttons on a page, as  long as each <div> tag has a unique ID.  
-![](/img/mang camp 11-2.png)
+![](/img/managing-campaigns-11.png)
 
 {: .notice}
 **Note:** Engagements from different zones can be simultaneously displayed. Therefore you need to make sure that engagements do not overlap or hide one another. For example, you can have an overlay banner on the left side of the page (proactive zone) that hides a sticky banner that is also configured on the left side of the page (Left Zone).
@@ -178,7 +179,7 @@ To provide a rich, yet non- intrusive engagement experience, LivePerson employs 
 * If a consumer closes an engagement, it will no longer be displayed in the current session.
 * LivePerson’s platform allows you to limit the number of times a proactive engagement (overlay, toaster and peeling corner) is displayed per consumer session. When the limit is reached, no other proactive engagements will be displayed in the session, regardless of engagement priorities.
 
-![](/img/mang camp 12-1.png)
+![](/img/managing-campaigns-12.png)
 
 * For proactive engagements you can configure an engagement to “follow” a consumer for a certain amount of time or for a specific number of pages, from the engagement settings page. Proactive engagements engagements are always prioritized for display ahead of other engagements mapped to the same zone.
 * If an online chat button is displayed and then 10 seconds later there are no longer any available agents, the button will **not** be replaced with an offline button.
