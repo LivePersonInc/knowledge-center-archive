@@ -147,7 +147,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-conversation-distribution.md
-- pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md
 - pages/documents/Messaging Channels/Connectors/google-my-business.md
 - pages/documents/Messaging Channels/mobile app messaging/add-messaging-to-your-mobile-app.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
@@ -267,3 +266,4 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
 - release-notes-feb-4.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-configuration-guide.md
+- pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md

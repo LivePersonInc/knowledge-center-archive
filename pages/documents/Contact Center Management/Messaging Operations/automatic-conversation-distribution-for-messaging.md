@@ -4,10 +4,11 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: both
 subtitle: Use Automatic Conversation Distribution to balance your agents’ workload
-level3: Automatic messages
+level3: Getting started
 permalink: contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution-(acd).html
 isTutorial: false
-date: 2019-01-20 14:44:56 +0200
+date: 2019-01-20 12:44:56 +0000
+isNew: false
 
 ---
 ### Balancing the agent workload
@@ -22,7 +23,7 @@ To avoid these problems, LivePerson’s Automatic Conversation Distribution (ACD
 
 LivePerson’s ACD algorithm routes conversation requests to available agents according to their workload. The ACD algorithm takes into consideration how many conversations an agent is allowed to take, i.e., their maximum concurrency, as well as how many conversations the agent is currently handling. For brands using messaging, ACD also works to distribute conversations intelligently between messaging agents.
 
-For information on the routing of messaging conversations, please refer to the [Routing logic for messaging]() documentation.
+For information on the routing of messaging conversations, please refer to the [Routing logic for messaging](contact-center-management-messaging-operations-routing-logic-overview.html) documentation.
 
 ## Accepting a conversation
 
