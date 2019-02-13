@@ -244,6 +244,8 @@ ul.mysidebar.nav > li:first-of-type {
   font-size: 12px;
   color: #5f6368;
   font-weight: 300;
+  position: sticky;
+  top: 130px;
 }
 
 .anchorlist ul {
