@@ -109,6 +109,6 @@ To maximize agent capacity and ensure conversation routing is as rapid and effic
 
 ![](/img/smart-capacity-overview-5b.png)
 
-### Smart Capacity per skill
+## Smart Capacity per skill
 
 The Smart Capacity feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Smart Capacity per skill](contact-center-management-messaging-operations-smart-capacity-per-skill.html).
