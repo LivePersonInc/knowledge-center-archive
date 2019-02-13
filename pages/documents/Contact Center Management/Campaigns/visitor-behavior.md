@@ -101,6 +101,7 @@ Target consumers who interacted with engagements according to their status:
 * **Clicked** - the consumer has previously clicked on another engagement
 * **Interacted** - the consumer has previously clicked on another engagement and initiated a conversation (Note that for content engagements, the ‘clicked’ and ‘interacted’ statuses are the same)
 
+<br/>
 You can also exclude engagements from appearing based on one or more of the above statuses.
 
 ![](/img/visitor-behavior-5.png)
