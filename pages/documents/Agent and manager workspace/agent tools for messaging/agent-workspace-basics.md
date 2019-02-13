@@ -11,9 +11,7 @@ date: 2019-01-21 09:24:58 +0000
 isNew: false
 
 ---
-By logging into the platform as an agent, you will automatically be brought to the agent workspace.
-
-Your default status will be set according to what your brand has configured. If needed, you can easily switch your status here. The ‘online’ status will enable to you begin receiving conversations.
+By logging into the platform as an agent, you will automatically be brought to the agent workspace. Your default status will be set according to what your brand has configured. If needed, you can easily switch your status here. The ‘online’ status will enable to you begin receiving conversations.
 
 ## Main areas of your workspace
 
