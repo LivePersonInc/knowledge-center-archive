@@ -95,16 +95,17 @@ Agents and agent managers can search/filter conversations with the following par
 <br/>
 **For example:** An agent manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
-![](/img/agent-workspace-basics-3.png)
+![](/img/all-connections-2.png)
 
 Consumer journey: All Connections allows agent managers and agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
 A column displaying the MCS of the conversation helps agent managers to track consumer sentiment (CSAT is also available in the conversation’s consumer info section).
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
 <li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.
-* While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com)”, will search for the words “tester” and “liveperson.com”  in that order.)</li> 
-</ul> 
-</div>
+
+* While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com)”, will search for the words “tester” and “liveperson.com”  in that order.)</li>
+  </ul>
+  </div>
