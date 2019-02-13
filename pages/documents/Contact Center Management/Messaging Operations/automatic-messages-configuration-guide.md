@@ -254,27 +254,27 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 
 ## Setting the contact center off hours
 
-1\.Click the downward arrow next to the user name and click "Shift Scheduler"
+1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
 ![](/img/automatic-messages-messaging-17b.png)
 
-2\.The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
 
 ![](/img/automatic-messages-messaging-18.png)
 
-3\.Define your current shift status:
+3\. Define your current shift status:
 
 a. Choose “Off hours” when your connection center is inactive (this is used for the SLA calculation):
 
-i. Define the next shift start date
+b. Define the next shift start date
 
-ii. Define the next shift start time
+c. Define the next shift start time
 
-iii. Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
+d. Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
 
-iv. LiveEngage will automatically set to “Online” again on the next shift date and time.
+e. LiveEngage will automatically set to “Online” again on the next shift date and time.
 
-1. Save the page.
+f. Save the page.
 
 **Note:**
 
