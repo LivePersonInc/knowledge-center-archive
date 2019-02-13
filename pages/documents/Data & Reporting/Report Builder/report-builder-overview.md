@@ -1,5 +1,5 @@
 ---
-pagename: Report builder overview
+pagename: Report Builder overview
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: both
