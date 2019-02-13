@@ -7,7 +7,8 @@ subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-basics.html
 isTutorial: false
-date: 2019-01-21 11:24:58 +0200
+date: 2019-01-21 09:24:58 +0000
+isNew: false
 
 ---
 By logging into LiveEngage as an agent, you will automatically be brought to the Agent Workspace.
@@ -18,12 +19,9 @@ Your default status will be set according to what your brand has configured. If 
 
 There are three main tabs that you will use as a messaging agent: Open Connections, All Connections and Messaging Agents.
 
-1. **My Connections** - This is where all your assigned conversations will appear. In this tab you will see all your conversations organized by priority and sorted by SLA. Conversations that have passed their SLA will be marked in red.
-
-	Clicking on each conversation will allow you to read the transcript, browse different widgets and 		start engaging with your customers. If you choose to click on a consumer’s name, it will open up the 	 entire conversation and you can begin messaging.
-
-1. **All Connections** - If you have permission to access this tab, this is where you can search for your closed conversations, and view their CSAT scores or read the transcripts for quality assurance purposes. Learn more about the All Connections tab below.
-2. **Messaging Agents** - If you have permission to access this tab, this is where you can see your team’s shift status, everyone's login status, load, number of open conversations, number of closed conversations and more. This is a good indication of how your team is doing.
+1. **My Connections** - This is where all your assigned conversations will appear. In this tab you will see all your conversations organized by priority and sorted by SLA. Conversations that have passed their SLA will be marked in red. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
+2. **All Connections** - If you have permission to access this tab, this is where you can search for your closed conversations, and view their CSAT scores or read the transcripts for quality assurance purposes. Learn more about the All Connections tab below.
+3. **Messaging Agents** - If you have permission to access this tab, this is where you can see your team’s shift status, everyone's login status, load, number of open conversations, number of closed conversations and more. This is a good indication of how your team is doing.
 
 ## Your personal data bar
 
@@ -40,7 +38,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 When you start your shift, you should change your status to online in order to start receiving messages. Once you do that, conversations from the queue will be assigned to you based on their priority.
 
-If there are already existing conversations in your queue, you will see them here, in your Open Connections Table.
+If there are already existing conversations in your queue, you will see them here, in your Open Connections table.
 
 Make sure you have all your tools ready at hand, your CRM integrations are logged in and working, and any external systems being used.
 
@@ -50,12 +48,12 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ## Viewing closed conversations
 
-![](/img/workspacebasics1.png)
+![](/img/agent-workspace-basics-1.png)
 
 All Connections displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
 
 * Advanced filtering and search capabilities lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness
-* Transcripts are available in near real-time, so managers can track and analyse conversations on-the-go
+* Transcripts are available in near real-time, so managers can track and analyze conversations on-the-go
 * Instant insight into the consumer’s voice helps quickly identify the topics that need addressing
 
 **All Connections includes the following information:**
@@ -70,7 +68,7 @@ All Connections displays every one of your brand’s messaging conversations, bo
 * **Start -** The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer
 * **Duration -** The time frame between when the consumer started the conversation until it was ended by either the consumer or the agent. For active conversations, the duration displayed here represents the time from the start of the conversation until the moment this data is viewed.
 
-![](/img/workspacebasics2.png)
+![](/img/agent-workspace-basics-2.png)
 
 #### Pre-filtered connections
 
@@ -97,7 +95,7 @@ Agents and Agent Managers can search/filter conversations with the following par
 
 For example, an Agent Manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
-![](/img/workspacebasics3.png)
+![](/img/agent-workspace-basics-3.png)
 
 Consumer journey: All Connections allows Agent Managers and Agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
