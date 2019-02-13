@@ -332,7 +332,7 @@ _Timer set for 10 minutes_
 
 **The above scenarios also apply to ‘back to queue’.**
 
-**3. Agent non responsive after consumer message**
+**3. Agent non responsive after consumer message** 
 
 10:00 - Conversation is opened and enters the queue
 
