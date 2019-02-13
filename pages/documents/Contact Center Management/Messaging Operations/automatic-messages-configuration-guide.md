@@ -93,8 +93,6 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 4. Click Save
 5. Click Done.
 
-![](/img/automatic-messages-messaging-9b.png)
-
 ## Adding a time period setting
 
 Some of the messages can be customized to be sent to the consumer after a specific time period elapses, for example if the agent or consumer does not respond for a long time.
