@@ -41,21 +41,17 @@ LivePerson has a default set of messages configured at the account level. Messag
 ### To customize an automatic message:
 
 1. Click on the **Campaigns tab**. The footnote is displayed at the bottom of the page.
-
-![](/img/automatic-messages-messaging-2b.png)
-
 {:start="2"}
-2\. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
+2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 ![](/img/automatic-messages-messaging-3b.png)
-
 {:start="3"}
-3\. Select a message to edit. The Edit Automatic Message page is displayed.
+3. Select a message to edit. The Edit Automatic Message page is displayed.
 
 ![](/img/automatic-messages-messaging-4b.png)
 
 {:start="4"}
-4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
+4. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
 1. Click **Save**.
 
@@ -76,7 +72,7 @@ Note: The automatic message library can also be reached from the messaging setti
 ![](/img/automatic-messages-messaging-8b.png)
 
 {:start="2"}
-2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
+2. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
 
 1. Select a skill tab (for example Escalation or Sales, as shown in the illustration above). The skill’s related fields will appear.
 
@@ -86,7 +82,7 @@ Note: if there is no text input for that message, the tab will appear with dashe
 
 Some of the messages can be customized to include dynamic text. Dynamic text changes based on the current characteristics of the Agent, such as the Agent’s name. The available options are:
 
-* **Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes.
+**Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes.
 
 **Agent name** - The nickname of the current operator {agentNickname}.
 
@@ -98,7 +94,7 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 4. Click Save
 5. Click Done.
 
-![](/img/automatic-messages-messaging-9.png)
+![](/img/automatic-messages-messaging-9b.png)
 
 ## Adding a time period setting
 
@@ -249,8 +245,8 @@ To ensure account level KPIs are not deviated from by system activity, the follo
 {: .notice}
 If the TTR macro is not used the message will be sent even if the TTR is overdue.
 
-## Limitations
-
+  
+## Limitations  
 * Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on web messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
 * There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
