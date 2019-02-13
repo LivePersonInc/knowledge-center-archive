@@ -11,9 +11,7 @@ date: 2019-01-21 11:55:32 +0000
 isNew: false
 
 ---
-The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
-
-This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
+The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
 
 ![](/img/all-connections-1.png)
 
@@ -61,13 +59,14 @@ Agents on the other hand are able to view only the conversations for which they 
 * Summary keywords
 * Engagement Attribute keywords*
 
-For example, an agent manager can filter conversations by duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an abnormal length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
+<br/>
+**For example:** An agent manager can filter conversations by duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an abnormal length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
 ![](/img/all-connections-2.png)
 
 <div class="notice"> 
 <b>Note:</b> 
 <ul> 
-<li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order.)</li>
+<li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other. (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order).</li>
 </ul> 
 </div>
