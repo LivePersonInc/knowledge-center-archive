@@ -9,7 +9,7 @@ autocomplete(
   },
   [
     {
-      source: autocomplete.sources.hits(knowledgeIndex, {hitsPerPage: 5}),
+      source: autocomplete.sources.hits(knowledgeIndex, {hitsPerPage: 10}),
       displayKey: '',
       name: 'kb', /* class aa-dataset-kb */
       templates: {
@@ -18,6 +18,8 @@ autocomplete(
           let value = suggestion.pagename;
           let content = suggestion.content;
           let link = suggestion.permalink;
+          let title = $('title');
+          let titletext = title.text();
           if (suggestion._highlightResult.pagename) {
             value = suggestion._highlightResult.pagename.value;
           }
@@ -27,9 +29,15 @@ autocomplete(
           if (suggestion._highlightResult.permalink) {
             suggestion._highlightResult.permalink.value;
           }
+          if (titletext == "Welcome! | LivePerson Knowledge Center") {
+            return (
+              '<span class="searchtitlecontainer">' + '<a class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
+            )
+          } else {
           return (
-            '<span class="searchtitlecontainer">' + '<a  onclick="linkclick(event, this)" class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<span class="searchcontentcontainer">' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' +  content + '</a> </span>'
+            '<span class="searchtitlecontainer">' + '<a  onclick="linkclick(event, this)" class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
           )
+          }
         },
         empty: '<div class="aa-empty">No results found!</div>',
       },

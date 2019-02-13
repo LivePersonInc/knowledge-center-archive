@@ -827,12 +827,9 @@ ul.mysidebar.nav > li:first-of-type {
   width: 102.8%
 }
 
-.searchcontentcontainer {
-  line-height: 1.8;
-}
-
 .algolia-autocomplete .aa-dropdown-menu {
-  height: 80vh;
+  height: auto;
+  max-height: 70vh;
 }
 
 /* Explorer rules because the internet is fake */

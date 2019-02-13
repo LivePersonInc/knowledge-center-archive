@@ -737,7 +737,7 @@ a.mainlink:hover {
 }
 
 .searchcontentcontainer {
-  line-height: 0.8;
+  width: 80%;
 }
 
 .overlayvisible {
