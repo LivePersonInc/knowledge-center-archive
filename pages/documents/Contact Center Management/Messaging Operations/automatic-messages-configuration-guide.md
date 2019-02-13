@@ -57,7 +57,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 Note: The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
-![](/img/automatic-messages-messaging-6b.png)
+![](/img/automatic-messages-messaging-6b-1.png)
 
 ### To translate a message
 
