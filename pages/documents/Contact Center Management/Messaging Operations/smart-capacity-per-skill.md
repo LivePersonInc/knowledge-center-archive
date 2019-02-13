@@ -12,7 +12,7 @@ date: 2019-01-17 12:39:54 +0000
 isNew: false
 
 ---
-## Introduction
+## Overview
 
 The [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive.
 
@@ -44,7 +44,7 @@ Next, the “Agent Load” is calculated based on the agent’s “Max conversat
 
 This is the same formula as it is with the Smart Capacity feature, if the _Agent load_ is nearing the _Max conversations_ setting, the agent may not be able to receive additional conversations.
 
-**Example**
+### Example:
 
 Assume the following settings:
 
