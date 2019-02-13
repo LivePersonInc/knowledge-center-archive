@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-visitor-behavior.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 15:31:12 +0000
-published: false
 
 ---
 For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
@@ -125,11 +124,10 @@ Target consumers by their service journey topics. A service journey is a series 
 * Pending
 * Resolved
 
+<br/>
 Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
 
-Once you’ve selected and configured your conditions, LivePerson will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI.
-
-Below is an example of how to target based on the user behavior type: flow.
+Once you’ve selected and configured your conditions, LivePerson will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI. Below is an example of how to target based on the user behavior type: flow.
 
 ## Use case: Target users according to journey flow
 
