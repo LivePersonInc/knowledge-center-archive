@@ -9,6 +9,7 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.h
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false
+published: false
 
 ---
 The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
