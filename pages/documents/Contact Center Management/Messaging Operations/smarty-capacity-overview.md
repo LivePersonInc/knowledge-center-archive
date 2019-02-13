@@ -58,7 +58,7 @@ For example, if an agent has three conversations open, but is only messaging act
 
 The agent’s load as calculated above is displayed in the Messaging Agents List.
 
-![](/img/smart-capacity-overview-2.png)
+![](/img/smart-capacity-overview-2b.png)
 
 ### An immediate and positive impact
 
