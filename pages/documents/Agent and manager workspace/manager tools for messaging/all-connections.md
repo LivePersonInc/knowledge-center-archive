@@ -7,14 +7,15 @@ subtitle: Oversee all messaging conversations captured in one place
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.html
 isTutorial: false
-date: 2019-01-21 13:55:32 +0200
+date: 2019-01-21 11:55:32 +0000
+isNew: false
 
 ---
 The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
 
 This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
 
-![](/img/allconnections1.png)
+![](/img/all-connections-1.png)
 
 All Connections allows agent managers and agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
@@ -36,8 +37,6 @@ All Connections includes the following information:
 * **Last message time -** the time the last message was sent, by either the agent or consumer, in the conversation
 * **Start -** the time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer
 * **Duration -** the time frame between when the consumer started the conversation until it was ended by either the consumer or the agent; or active conversations, the duration displayed here represents the time from the start of the conversation until the moment this data is viewed
-
-![](/img/allconnections2.png)
 
 ## Search and filter
 
@@ -64,10 +63,11 @@ Agents on the other hand are able to view only the conversations for which they 
 
 For example, an agent manager can filter conversations by duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an abnormal length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
-![](/img/allconnections3.png)
+![](/img/all-connections-2.png)
 
-**Notes:**
-
-* Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.
-* While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.
-* In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com)”, will search for the words “tester” and “liveperson.com”  in that order.)
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order.)</li>
+</ul> 
+</div>
