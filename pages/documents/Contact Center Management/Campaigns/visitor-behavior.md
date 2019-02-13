@@ -165,11 +165,13 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
     Shopping Cart page > CheckOut page > Purchase Confirmation page
+
 <br/>
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
     Shopping Cart page > CheckOut page > Shopping Cart page
 
+<br/>
 To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
 
 To set up an Engagement for Visitor Back Flow:
