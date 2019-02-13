@@ -3,14 +3,15 @@ pagename: Queue prioritization overview
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: ''
-level3: Queue management
+subtitle: 'Learn how LivePerson has developed queue prioritization specifically for
+  brands using messaging '
+level3: Getting started
 permalink: contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html
 isTutorial: true
 date: 2019-01-16 08:25:55 +0000
+isNew: false
 
 ---
-
 <iframe src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
@@ -80,7 +81,7 @@ Queue prioritization works in prioritization cycles that run every 2 seconds. In
 
 Once the conversations are scored, the top scoring conversations receive an agent assignment and are then pushed to agents for handling.
 
-## How does it work?
+### How does it work?
 
 LivePerson takes a data-based approach to queue prioritization by providing a conversational platform that uses AI to queue consumers based on attributes such as **lifetime value, churn risk**, and more. LivePerson also has a parameter of “freshness” so brands can prioritize based on the time from last consumer interaction and likeliness of response in addition to other parameters
 
@@ -97,7 +98,9 @@ Queues in consists of brand new conversations, as well as those that have been t
 
 Out of the conversations considered actionable, and an additional mechanism filters by urgency and importance, based on settings predetermined by the brand and calculated as:
 
-### **_Time multiplied by variables_ (the attributes discussed above).**
+### **Time multiplied by variables** 
+
+#### **(the attributes discussed above)**
 
 | Time | time when the conversation became actionable |
 | --- | --- |
@@ -106,7 +109,7 @@ Out of the conversations considered actionable, and an additional mechanism filt
 
 ## How queue prioritization impacts your KPIs
 
-The unique nature of messaging means that companies need to adjust their KPIs accordingly. . Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
+The unique nature of messaging means that companies need to adjust their KPIs accordingly. Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
 
 | KPI | Value | Impact | Why? |
 | --- | --- | --- | --- |
@@ -125,7 +128,5 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 | Prioritize VIP customers | Better service for VIP customers | CSAT of VIP increases; CSAT of non-VIP decreases; Avg. time to resolve  VIP increases |
 | Prioritize fresh customers- likiehood for interaction | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
 | Sales - Intent to purchase | Increase conversions | Total conversation increases |
-
-### The next era: how queue prioritization works in LivePerson
 
 As more brands struggle to to handle the influx of digital consumer conversations, queue prioritization needs to help brands determine how to allocate resources when everything is ‘priority’. LivePerson solves queue prioritization in messaging by working with data driven parameters, automation, and open to the human touch - allowing brands to customize the queue variable to their specific needs.

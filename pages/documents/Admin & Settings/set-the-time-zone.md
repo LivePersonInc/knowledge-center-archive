@@ -9,7 +9,7 @@ level3: ''
 permalink: admin-settings-set-the-time-zone.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 15:35:56 +0200
+date: 2019-01-23 13:35:56 +0000
 
 ---
 Time zone settings play a key role in the accurate compilation and generation of LivePerson reports. This article sets out everything you need to know about properly setting your time zone,  as well as which reports are affected by the time zone settings.
@@ -33,15 +33,13 @@ Within the LivePerson platform, each campaign has a time zone setting. When a us
 1. Log in to LivePerson as a user with admin permissions.
 2. In the users tab, scroll down to the footnote and select a time zone. The account-wide time zone is now set.
 
-![](/img/timezone1.png)
-
-### **To modify user level time zone:**
+**To modify user level time zone:**
 
 1. Log in to LivePerson.
 2. Click the down arrow to the right of your user name (on the top right of the screen) and select **my details**.
 3. Under regional settings, select a time zone. The time zone for the logged in user is now set.
 
-![](/img/timezone2.png)
+![](/img/Set-the-time-zone2.png)
 
 ### **To modify a campaign’s time zone:**
 
@@ -49,8 +47,6 @@ Within the LivePerson platform, each campaign has a time zone setting. When a us
 2. In the campaigns tab, select a campaign to edit.
 3. Hover over the campaign time frame and click **edit**.
 4. At the bottom of the page, select a time zone and click **save**. The campaign is now saved with the updated setting.
-
-![](/img/timezone3.png)
 
 ## **Report Builder time zone**
 
