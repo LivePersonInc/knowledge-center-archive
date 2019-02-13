@@ -9,6 +9,7 @@ permalink: contact-center-management-campaigns-visitor-behavior.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 15:31:12 +0000
+published: false
 
 ---
 For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
@@ -48,15 +49,13 @@ To define an entry point behavior, you can select from your existing entry point
 
 Target and/or exclude consumers from selected entry points on the website or within the mobile app. To define an entry point (see above) behavior, you can select from your existing entry points (or add a new one); when a consumer lands on this entry point(s), they will be eligible to view an engagement. It is also possible to configure multiple rules for entry points visited; the consumer will only be eligible to view an engagement once they have met all of the rule criteria.
 
-![](/img/behavior 3.png)
+![](/img/visitor-behavior-1.png)
 
 ### 4. About to Abandon:
 
 Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. For guidance on setup, please refer to the Why Connect to Google Analytics?Article (see related articles).
 
 **Note:** this behavior is currently only supported for web engagements.
-
-![](/img/behavior 4.png)
 
 ### 5. Cart Value:
 
@@ -66,9 +65,9 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 * The total value of their cart has decreased
 * The total value of their cart has decreased to 0
 
-Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+![](/img/visitor-behavior-2.png)
 
-![](/img/behavior 5.png)
+Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
 
 ### 6. Products in Cart:
 
@@ -76,23 +75,21 @@ In order to target consumers who are interested in a specific product or type of
 
 Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---cartstatus-cart-update) in the Engagement Attributes guide on the Developer Community.
 
-![](/img/behavior 6.png)
-
 ### 7. Viewed Product:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they view a particular product. The product can be defined by name, unique product identifier / stock keeping unit (SKU), category name and product price range. You can also exclude engagements from appearing when they view these products.
 
-Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
+![](/img/visitor-behavior-3.png)
 
-![](/img/behavior 7.png)
+Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
 
 ### 8. Visitor Error:
 
 Target consumers who experience specific errors during their time on your site or mobile app. The error can be defined by a specific error message (and from which instance the consumer encounters the error e.g. first, or second) or by error code. You can also exclude engagements from appearing when they encounter a specific error(s).
 
-Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+![](/img/visitor-behavior-4.png)
 
-![](/img/behavior 8.png)
+Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
 
 ### 9. Engaged in Session:
 
@@ -105,7 +102,7 @@ Target consumers who interacted with engagements according to their status:
 
 You can also exclude engagements from appearing based on one or more of the above statuses.
 
-![](/img/behavior 9.png)
+![](/img/visitor-behavior-5.png)
 
 ### 10. Service Activity:
 
@@ -128,9 +125,7 @@ Target consumers by their service journey topics. A service journey is a series 
 
 Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
 
-![](/img/behavior 10.png)
-
-Once you’ve selected and configured your conditions, LiveEngage will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI.
+Once you’ve selected and configured your conditions, LivePerson will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI.
 
 Below is an example of how to target based on the user behavior type: flow.
 
@@ -149,27 +144,19 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
 2. Under “Navigation” category choose “Flow.”
 
-![](/img/behavior 11.png)
+![](/img/visitor-behavior-6.png)
 
 {:start="3"}
 3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-
-![](/img/behavior 12.png)
-
-{:start="4"}
 4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
-![](/img/behavior 13.png)
+![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
 5\. After saving the flow, it will appear in the flows list.
 
-1. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-
-![](/img/behavior 14-1.png)
-
-{:start="7"}
-7\. Click to save visitor behavior.
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
@@ -193,14 +180,14 @@ To set up an Engagement for Visitor Back Flow:
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
 
-![](/img/entry point 4.png)
+![](/img/visitor-behavior-8.gif)
 
 {:start="5"}
 
 1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 2. Click Flow.
 
-![](/img/behavior 16.gif)
+![](/img/visitor-behavior-9.gif)
 
 {:start="7"}
 
