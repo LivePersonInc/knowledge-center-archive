@@ -44,14 +44,14 @@ LivePerson has a default set of messages configured at the account level. Messag
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 {:start="3"}
-3. Select a message to edit. The Edit Automatic Message page is displayed.
+3\. Select a message to edit. The Edit Automatic Message page is displayed.
 
 ![](/img/automatic-messages-messaging-4b.png)
 
 {:start="4"}
-4. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
+4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
-5. Click **Save**.
+1. Click **Save**.
 
 Note: The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
@@ -59,7 +59,7 @@ Note: The automatic message library can also be reached from the messaging setti
 
 ### To translate a message
 
-1. On the Edit Automatic Messages page, click the “+” button next to the default language (English (US) in the illustration below). The Engagement languages page is displayed.
+1. On the Edit Automatic Messages page, click the “+” button next to the default language. The Engagement languages page is displayed.
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click Save
 
@@ -131,7 +131,7 @@ If you wish to disable the message for some skills but not for others, select th
 
 ## Notes
 
-* Messages are supported in all LivePerson languages. For further information, please refer to the [LiveEngage System Requirements and Supported Languages]() documentation. For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported (configurable by the brand). Contact the account team to set the language.
+* Messages are supported in all LivePerson languages. For further information, please refer to the [LiveEngage System Requirements and Supported Languages](admin-settings-system-requirements-supported-languages.html) documentation. For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported (configurable by the brand). Contact the account team to set the language.
 * The content of each message can be edited by the brand.
 * Skill variation is supported, including enabling/disabling the messages for each skill.
 * For messages with a timer (agent non-responsive, consumer non-responsive and time in queue), the timer can be configured to X seconds, minutes, hours. The timer can also be configured per skill.
@@ -210,29 +210,29 @@ To ensure account level KPIs are not deviated from by system activity, the follo
 
 #### Agent messaging activity
 
-1.     AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS
+1\.     AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS
 
-2.     AVG. RESPONSE TIME BY AGENT
+2\.     AVG. RESPONSE TIME BY AGENT
 
-3.     AVG. TIME TO AGENT FIRST RESPONSE
+3\.     AVG. TIME TO AGENT FIRST RESPONSE
 
-4.     INTERACTIVE CONVERSATIONS
+4\.     INTERACTIVE CONVERSATIONS
 
-5.     NON - INTERACTIVE CONVERSATIONS
+5\.     NON - INTERACTIVE CONVERSATIONS
 
-6.     ABANDONED CONVERSATIONS
+6\.     ABANDONED CONVERSATIONS
 
 #### **Consumer messaging activity**
 
-1.     AVG. CONSUMER RESPONSE TIME
+1\.     AVG. CONSUMER RESPONSE TIME
 
 ## Best practices
 
 * It is recommended to keep automatic messages short for better readability
 * When messaging on channels such as SMS, Google and Facebook, LivePerson cannot control the look and feel of the messages, and auto messages will appear as agent messages. There are 2 options to solve this:
 * Create a dedicated skill for these channels and add a prefix for these messages such as “This is an automatic message:”
-* Add wording to the message that will make it clear (e.g. “Info: <auto message>”) 
- * Do not use HTML, and line breaks (clicking enter) in auto messages.
+* Add wording to the message that will make it clear (e.g. “Info: <auto message>”)
+* Do not use HTML, and line breaks (clicking enter) in auto messages.
 * Messages with overdue times to response (TTRs) are not sent. Hence, it is recommended not to use the TTR macro in the following messages which may trigger when the TTR is overdue:
   * Connection to an agent
   * Transfer
@@ -244,20 +244,16 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 ## Limitations
 
 * Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on web messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
-  
 * There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
-  
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
-  
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.
 * HTML is not supported in auto messages and should not be used. Do not use the following chars in the auto message: < > \\. Using these characters may cause the message not to be sent.
-  
 * All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. The language needs to be set in Houston. When connectors are supported in campaigns for messaging at a later date, all languages will be supported.
-  
 * A new profile, related to the auto messages, is added to LiveEngage and appears in the UI. This profile should not be deleted/edited.
 
-## Setting the contact center off hours 
-  1. Click the downward arrow next to the user name and click "Shift Scheduler"
+## Setting the contact center off hours
+
+1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
 ![](/img/automatic-messages-messaging-17b.png)
 
