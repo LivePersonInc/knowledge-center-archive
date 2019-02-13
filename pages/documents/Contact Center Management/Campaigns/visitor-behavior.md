@@ -147,14 +147,13 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
-5\. After saving the flow, it will appear in the flows list.
-
+5. After saving the flow, it will appear in the flows list.
 6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
 7. Click to save visitor behavior.
 
@@ -166,7 +165,7 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 On most occasions you expect/desire your web visitors to follow a certain flow/path on your website. For example, if you have an online shopping site, you would like your visitors to complete a purchase by following a flow such as the following:
 
     Shopping Cart page > CheckOut page > Purchase Confirmation page
-
+<br/>
 If the visitor does not complete the desired flow, the visitor exhibits what we call Back Flow Behavior. In the sample flow above, the visitor would exhibit Back Flow Behavior if they begin on the shopping cart page, proceed to the CheckOut page but then do not proceed to the purchase confirmation page. Instead, they either go back to the shopping cart page or to another page on your website, as follows:
 
     Shopping Cart page > CheckOut page > Shopping Cart page
