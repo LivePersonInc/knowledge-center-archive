@@ -98,7 +98,7 @@ This means the maximum number of conversations with a high intensity of messages
 
 1. Click **Save**.
 
-![](/img/smart-capacity-overview-3b.png)**
+![](/img/smart-capacity-overview-3b.png)
 
 {: .notice}
 To maximize agent capacity and ensure conversation routing is as rapid and efficient as possible, ensure the **Automatic Chat/Conversation Distribution (ACD)** feature is enabled to auto-accept on your account.
