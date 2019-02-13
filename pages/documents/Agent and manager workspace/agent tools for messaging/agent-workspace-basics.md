@@ -92,7 +92,8 @@ Agents and agent managers can search/filter conversations with the following par
 * Summary keywords
 * Engagement Attribute keywords*
 
-For example: An agent manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
+<br/>
+**For example:** An agent manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
 ![](/img/agent-workspace-basics-3.png)
 
