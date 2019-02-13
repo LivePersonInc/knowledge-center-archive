@@ -54,6 +54,7 @@ All Connections displays every one of your brand’s messaging conversations, bo
 * Transcripts are available in near real-time, so managers can track and analyze conversations on-the-go
 * Instant insight into the consumer’s voice helps quickly identify the topics that need addressing
 
+<br/>
 **All Connections includes the following information:**
 
 * **Status** - The status of the conversation, whether active or closed
