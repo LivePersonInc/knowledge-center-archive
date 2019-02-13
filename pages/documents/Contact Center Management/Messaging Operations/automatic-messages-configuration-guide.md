@@ -41,7 +41,6 @@ LivePerson has a default set of messages configured at the account level. Messag
 ### To customize an automatic message:
 
 1. Click on the **Campaigns tab**. The footnote is displayed at the bottom of the page.
-{:start="2"}
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 ![](/img/automatic-messages-messaging-3b.png)
