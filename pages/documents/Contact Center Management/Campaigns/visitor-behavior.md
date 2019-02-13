@@ -8,7 +8,7 @@ level3: ''
 permalink: contact-center-management-campaigns-visitor-behavior.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 17:31:12 +0200
+date: 2019-01-28 15:31:12 +0000
 
 ---
 For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
@@ -36,8 +36,6 @@ Identify consumers based on a predefined browsing pattern within your website or
 
 Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
-![](/img/behavior 1.png)
-
 ### 2. Time on Entry Point:
 
 Target consumers who have spent more than the defined time in selected entry point(s) during a single session. An entry point is a location on your website (defined by a page URL or title, or a page section) or a section within your mobile app (defined by engagement attribute).
@@ -45,8 +43,6 @@ Target consumers who have spent more than the defined time in selected entry poi
 To define an entry point behavior, you can select from your existing entry points (or add a new one) and configure the amount of time in seconds that the visitor spends on this entry point after which they will be eligible to view an engagement. It is also possible to configure multiple rules for time on entry point; the engagement will only be displayed to consumers once they have met all of the rule criteria.
 
 **Note:** this behavior is currently only supported for web engagements.
-
-![](/img/behavior 2.png)
 
 ### 3. Visited Entry Point:
 
@@ -151,32 +147,31 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 ### How to define a new flow:
 
 1. When adding a new engagement or editing an existing one, one of the steps you will come across is “Visitor behavior library.” ​
-
 2. Under “Navigation” category choose “Flow.”
 
 ![](/img/behavior 11.png)
 
 {:start="3"}
-3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
 
 ![](/img/behavior 12.png)
 
 {:start="4"}
-4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
-![](/img/behavior 13.png)  
+![](/img/behavior 13.png)
 
 {:start="5"}
-5. After saving the flow, it will appear in the flows list.
+5\. After saving the flow, it will appear in the flows list.
 
-6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+1. Choose the desired visitor behavior from the list (Abandoned or Back flow):
 
 ![](/img/behavior 14-1.png)
 
 {:start="7"}
-7. Click to save visitor behavior.
+7\. Click to save visitor behavior.
 
-{: .important} 
+{: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
 
 ## Configuring engagements for visitor backflow
@@ -201,18 +196,20 @@ To set up an Engagement for Visitor Back Flow:
 ![](/img/entry point 4.png)
 
 {:start="5"}
+
 1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 2. Click Flow.
 
 ![](/img/behavior 16.gif)
 
 {:start="7"}
+
 1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
 3. Save the changes and publish the campaign.
 
-<div class="important"> 
-<b>Note:</b> 
+<div class="important">
+<b>Note:</b>
 If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
 <br />
 <br />
