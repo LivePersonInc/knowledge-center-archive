@@ -9,7 +9,7 @@ level3: ''
 permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 12:55:35 +0200
+date: 2019-01-28 10:55:35 +0000
 
 ---
 ## Choosing your engagement type
@@ -20,7 +20,7 @@ To determine which type of web engagement is appropriate, ask yourself a few que
 
 For example, a content banner can be displayed to offer visitors free shipping on all orders over $100. When visitors click on the banner, they can be redirected to a predetermined URL, where they can make a purchase and enjoy the free shipping offer. They are not invited to initiate a conversation, yet you have moved them further down the funnel towards conversion.
 
-![](/img/creating buttons 1.png)
+![](/img/creating-buttons-and-banners-1.png)
 
 Content banners can also be used to redirect visitors to your community page, to FAQs, to your knowledge base, or to any other URL that you configure.
 
@@ -53,7 +53,7 @@ Browse the engagement template gallery and check out the formats: **embedded**, 
 
 Feel free to use the ready-made templates or to customize them to match the look and feel of your brand. The different-sized templates provide additional designs, so check them out too.
 
-![](/img/creating buttons 2.png)
+![](/img/creating-buttons-and-banners-2.png)
 
 ## What other factors should I consider?
 
@@ -84,13 +84,13 @@ For customers using chat, the embedded engagement will display even if no agents
 
 Sticky buttons stay in the same place relative to the screen, so even when the user scrolls, the sticky button remains in the same place. Only one sticky engagement can be displayed on each side of the webpage. Sticky buttons are easy for the visitor to locate no matter where they are on your site, so they are useful.
 
-![](/img/creating buttons 3.png)
+![](/img/creating-buttons-and-banners-3.png)
 
 ### Slide-out engagements
 
 A slide-out engagement is very similar to a sticky engagement, except for the way it appears on the page. It is configured in two parts: a small sticky engagement is displayed first. When clicked, a larger banner slides out from the side of the screen. This engagement is useful when you want to draw consumers in with an engagement and then offer them more detailed information in the banner.
 
-![](/img/creating buttons 5.gif)
+![](/img/creating-buttons-and-banners-1.gif)
 
 ### Proactive engagements
 
@@ -98,15 +98,15 @@ Proactive engagements offer a rich, hard to miss experience for consumers and ar
 
 Overlay banners appear on top of page content. They’re ideal for messages you don’t want your visitors to miss - like important notifications or messaging/chat invites.
 
-![](/img/creating buttons 6.jpg)
+![](/img/creating-buttons-and-banners-4.jpg)
 
 **Toaster banners** slide out and retract from the bottom or top of the page. They’re a great way to promote special deals or offer support through messaging/chat invites.
 
-![](/img/creating buttons 7.jpg)
+![](/img/creating-buttons-and-banners-5.jpg)
 
 A **peeling corner banner** acts as a teaser triangle that expands when users peel back more to see the whole message. They’re often used to promote offers, especially when there are a lot of images or written content.
 
-![](/img/creating buttons 8.gif)
+![](/img/creating-buttons-and-banners-2.gif)
 
 ## Engagement Settings
 
@@ -129,9 +129,7 @@ By default, after declining a proactive content engagement, other content engage
 
 Once you’ve selected the buttons and banners for your engagement, you can see how each of them looks by clicking **preview** in the engagement studio.
 
-![](/img/creating buttons 9.png)
-
-![](/img/creating buttons 10.png)
+![](/img/creating-buttons-and-banners-6.png)
 
 ### Best practices for mobile engagements
 
@@ -165,13 +163,13 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 3. Add **alternate text** to each **image** in your engagement window graphic:
    1. Click an **image** in the engagement window graphic. A settings window for the image opens.
    2. Under accessibility, in the Alt text box, enter alternate text for the graphic element you
-   selected, as follows:
+      selected, as follows:
    * If the element image conveys information, the alternate text should convey the same information.
    * If the image is for decoration only, the alternate text should be ““ (two double quotes one after another, with no space between them).
 
    This text will be announced by screen readers for visually impaired visitors. Note that if “” is used, it will not be announced.
 
-![](/img/creating buttons 11.png)
+![](/img/creating-buttons-and-banners-8.png)
 
 {:start="4"}
 
@@ -181,12 +179,13 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 **Note:** If you don’t define the announcement order, elements will be announced in the order they were added to the engagement.
 
 {:start="5"}
+
 1. To enable navigation by heading using screen readers, define **headings and heading levels** in the engagement graphic. For example, in the graphic below, “Can’t find what you are looking for?” is a heading, while the remaining text is not. Click the text element and select the heading level from the heading dropdown list. The heading level should suit the hierarchy of headings on your page.
 
-![](/img/creating buttons 12.png)
+![](/img/creating-buttons-and-banners-9.png)
 
 {:start="6"}
-2. Save the engagement.
+2\. Save the engagement.
 
 For more information on accessibility requirements, refer to the [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/).
 
@@ -209,35 +208,25 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 **To create an HTML engagement in LiveEngage:**
 
 1. Create or edit a campaign **(Campaigns tab > Add campaign or click an existing campaign).** The campaign edit window opens.
-
 2. Click **Add engagement.** The LiveEngage Engagement window studio opens.
-
 3. Select **Overlay** or **Embed** from the Format list.
-
 4. Select **Chat** or **Content** from the Type list.
-
 5. Click the **HTML engagement** template and click **Next**.
-
 6. Enter your **HTML code** in the HTML code box.
-
 7. Add actions such as **Click** and/or **Close** to your engagement, as desired:
-
-	1. Place the cursor in the code at the point where you would like the action to be triggered (to add the onclick event).
-    2. Select the desired action from the **Add action** list (refer to the table below for the full list of actions). The action code is added to your HTML code.
-
+   1. Place the cursor in the code at the point where you would like the action to be triggered (to add the onclick event).
+   2. Select the desired action from the **Add action** list (refer to the table below for the full list of actions). The action code is added to your HTML code.
 8. Set the **position** of your engagement:
-
-	1. For an **embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
-
-	2. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
+   1. For an **embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
+   2. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
 
 {: .notice}
 **Note:** The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a **div** in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content.
 
 {:start="9"}
-9. In the settings menu, select the chat and engagement settings.
+9\. In the settings menu, select the chat and engagement settings.
 
-10. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
+1. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
 
 {: .notice}
 **Note:** When you click **Next** or **Done**, LiveEngage checks whether the HTML code contains any security-vulnerable elements, to ensure that your code can be displayed safely on your website. If unsupported elements are found, you will not be able to save the engagement.
@@ -246,6 +235,6 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 
 | Action | Supported Formats | Description | LiveEngage Code |
 | --- | --- | --- | --- |
-| Click | Overlay and embedded | Adds a click action to content engagements.  | data-LP-event = "click" |
+| Click | Overlay and embedded | Adds a click action to content engagements. | data-LP-event = "click" |
 | Click to chat | Overlay and embedded | Adds a click action to content engagements. When clicked opens a chat window. | data-LP-event = "click" |
-| Close | Overlay only | Adds a close engagement action to content and chat engagements.  | data-LP-event = "close" |
+| Close | Overlay only | Adds a close engagement action to content and chat engagements. | data-LP-event = "close" |
