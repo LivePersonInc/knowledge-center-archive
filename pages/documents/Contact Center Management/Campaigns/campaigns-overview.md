@@ -47,4 +47,5 @@ For added efficiency when creating multiple campaigns, libraries save various el
 * Entry Point Library
 * Behavior Library
 
+<br/>
 By utilizing the libraries, when you design a new engagement window or a set of rules to determine target audience they will be saved in their respective libraries and you can select them again when creating or editing additional campaigns or engagements.
