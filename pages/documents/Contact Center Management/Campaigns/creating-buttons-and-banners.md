@@ -226,7 +226,7 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 <div class="notice"> 
 <b>Note:</b> 
 <ul> 
-<li> The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a <b> div <b/> in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content. </li> 
+<li> The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a <b>div<b/> in your code, its size will not necessarily match the size of its content. You can try using _display:inline-block_ to force the HTML size to match size of its content. </li> 
   <li> When you click <b>Next <b/> or <b>Done <b/>, LiveEngage checks whether the HTML code contains any security-vulnerable elements, to ensure that your code can be displayed safely on your website. If unsupported elements are found, you will not be able to save the engagement. </li> 
 </ul> 
 </div>
