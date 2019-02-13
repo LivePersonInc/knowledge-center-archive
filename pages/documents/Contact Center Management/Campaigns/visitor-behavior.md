@@ -33,7 +33,8 @@ Identify consumers based on a predefined browsing pattern within your website or
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
-**Note:** the definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced)
+<br/>
+**Note:** The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced).
 
 Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
