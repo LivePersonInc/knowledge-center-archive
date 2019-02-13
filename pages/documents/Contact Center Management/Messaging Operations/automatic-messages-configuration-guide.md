@@ -247,7 +247,7 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 * There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.
-* HTML is not supported in auto messages and should not be used. Do not use the following chars in the auto message: < > \\. Using these characters may cause the message not to be sent.
+* HTML is not supported in auto messages and should not be used. Do not use the following characters in the auto message: < > \\. Using these characters may cause the message not to be sent.
 * All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. The language needs to be set in Houston. When connectors are supported in campaigns for messaging at a later date, all languages will be supported.
 * A new profile, related to the auto messages, is added to LiveEngage and appears in the UI. This profile should not be deleted/edited.
 
@@ -293,9 +293,9 @@ The _Agent non responsive_ message will be sent only if the conversation is assi
 {: .notice}
 The minimum available time frame is 15 seconds.
 
-#### Example Scenarios
+#### Example scenarios 
 
-_Timer set for 10 minutes_
+Timer set for 10 minutes
 
 **1. Assigned agent did not reply within 10 mins**
 
@@ -354,9 +354,9 @@ _Timer set for 10 minutes_
 
 NOTE: The minimum available time frame is 15 seconds.
 
-#### Example Scenarios
+#### Example scenarios
 
-_Timer set for 15 minutes_
+Timer set for 15 minutes
 
 **Scenario 1**
 
@@ -392,7 +392,7 @@ The minimum available time frame is 15 seconds.
 
 #### Example Scenarios
 
-#### _Timer set for 10 minutes_
+Timer set for 10 minutes
 
 **Scenario 1**
 
