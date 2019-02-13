@@ -8,7 +8,7 @@ level3: November
 permalink: release-notes-2018-november-week-of-november-19th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 13:57:44 +0200
+date: 2019-02-06 11:57:44 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during November 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -60,12 +60,10 @@ The following will be added in order to allow the brands to report on structured
 **Tracking click operation in  reports**
 
 * Messaging connectors which support structured content elements (Apple Business Chat, Facebook Messenger, Google RCS Business Messaging, or future connectors) will enable the brand's agents/bots to share "External ID" metadata with the structured content click object
-* This will allow the brand to track in report builder (by the external ID) the number of times each click action was clicked/selected
 
 **Tracking number of times Structured Content event was sent/delivered or viewed in  reports**
 
 * Each connector supports a different type of message indication for the delivered state (delivered to server, delivered to consumer device or viewed by consumer). Per each supported indication, the connector will report back the right message state (as supported today)
-* This will allow the brand to track in the report builder (by the external ID) the number of times each Structured Content message was sent, delivered or viewed by the consumer
 
 For a more in depth guide on how to add metadata in structured content templates, please refer to the [Conversation Metadata guide](https://developers.liveperson.com/guides-conversation-metadata-guide.html). For more information about the Structured Content templates supported for each channel, please refer to the [developer community](https://developers.liveperson.com/).
 
@@ -148,7 +146,7 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 
 When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved.
 
-### Apple Pay ID incorrect request identifier (LE-95465)  
+### Apple Pay ID incorrect request identifier (LE-95465)
 
 Currently when a brand adds a request Identifier to the Authentication Interactive Message structured content JSON, the connector will create a new request ID. This causes a problem between the outgoing request ID and the authentication response request ID (which for data correction should be the same).
 
