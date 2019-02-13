@@ -293,9 +293,7 @@ The _Agent non responsive_ message will be sent only if the conversation is assi
 {: .notice}
 The minimum available time frame is 15 seconds.
 
-#### Example scenarios 
-
-Timer set for 10 minutes
+#### Example scenarios - Timer set for 10 minutes
 
 **1. Assigned agent did not reply within 10 mins**
 
@@ -352,11 +350,10 @@ Timer set for 10 minutes
 * If the agent transfers/returns to queue - the timer starts again.
 * The message is sent once the conversation is in the queue and is sent during working hours only.
 
-NOTE: The minimum available time frame is 15 seconds.
+{: .notice}
+The minimum available time frame is 15 seconds.
 
-#### Example scenarios
-
-Timer set for 15 minutes
+#### Example scenarios - Timer set for 15 minutes
 
 **Scenario 1**
 
