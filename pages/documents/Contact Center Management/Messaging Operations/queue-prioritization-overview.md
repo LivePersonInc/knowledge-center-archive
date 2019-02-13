@@ -3,14 +3,15 @@ pagename: Queue prioritization overview
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: ''
-level3: Queue management
+subtitle: 'Learn how LivePerson has developed queue prioritization specifically for
+  brands using messaging '
+level3: Getting started
 permalink: contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html
 isTutorial: true
 date: 2019-01-16 08:25:55 +0000
+isNew: false
 
 ---
-
 <iframe src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance. Benefits include:
@@ -97,7 +98,9 @@ Queues in consists of brand new conversations, as well as those that have been t
 
 Out of the conversations considered actionable, and an additional mechanism filters by urgency and importance, based on settings predetermined by the brand and calculated as:
 
-### **_Time multiplied by variables_ (the attributes discussed above).**
+### **Time multiplied by variables** 
+
+#### **(the attributes discussed above)**
 
 | Time | time when the conversation became actionable |
 | --- | --- |
@@ -126,6 +129,6 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 | Prioritize fresh customers- likiehood for interaction | Increase interactivity | CSAT (of fresh customers) increases Interactive rate increases |
 | Sales - Intent to purchase | Increase conversions | Total conversation increases |
 
-### The next era: how queue prioritization works in LivePerson
+## How queue prioritization works in LivePerson
 
 As more brands struggle to to handle the influx of digital consumer conversations, queue prioritization needs to help brands determine how to allocate resources when everything is ‘priority’. LivePerson solves queue prioritization in messaging by working with data driven parameters, automation, and open to the human touch - allowing brands to customize the queue variable to their specific needs.
