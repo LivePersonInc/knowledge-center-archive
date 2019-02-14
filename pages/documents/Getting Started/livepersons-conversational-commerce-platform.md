@@ -72,6 +72,8 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 * Integration with product catalogues, order systems, knowledge bases, and more.
 * The option to leverage pre-existing automation and NLU investments
 
+![](/img/conversation-builder-btest-1.jpg)
+
 ## 2. Conversation Manager
 
 ### Agent tools to manage conversations at scale
