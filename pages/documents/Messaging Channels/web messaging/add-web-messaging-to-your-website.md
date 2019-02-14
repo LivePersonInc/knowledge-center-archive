@@ -9,18 +9,15 @@ level3: ''
 permalink: messaging-channels-web-messaging-add-web-messaging-to-your-website.html
 isTutorial: false
 date: 2019-01-16 17:31:38 +0000
+isNew: false
 
 ---
-Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill.
-
-For an overview of campaigns in LiveEngage and their terminology, click here.
+Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here]().
 
 ## 1. Planning & Thought Starters
-
-(should be done by contact center manager, project manager or program manager)
+_(should be completed by contact center manager, project manager or program manager)_
 
 Answering these questions will help you prepare and streamline your campaign creation process:
-
 1. Do you want one messaging button available on all pages of your website?
 2. Is there a dedicated place on your website that you’d like the button to display?
 3. Will you offer messaging only to specific audience? How will you target this audience?
@@ -34,9 +31,7 @@ Answering these questions will help you prepare and streamline your campaign cre
 
 If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
 
-If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website.
-
-For more information how how to do this, [click here]().
+If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how how to do this, [click here]().
 
 ### Engagement attributes
 
@@ -44,7 +39,7 @@ Engagement attributes help brands to **collect more in-depth information about v
 
 ### Conversion tracking
 
-If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote)
+If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
 1. Define your Currency - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video
 2. Cross session period - Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
@@ -57,7 +52,6 @@ Before you can start creating your buttons or banners, you need to set up your c
 To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
-
 * Business goal
 * Target audience
 * Time frame
@@ -68,11 +62,9 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard.
+**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
-There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
-
-![](/img/addweb1.png)
+![](/img/add-web-messaging-to-your-website-1.png)
 
 ### Template gallery: select from a default banner or add your own
 
@@ -82,7 +74,7 @@ The template gallery page allows you to choose the format of your engagement and
 
 From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
 
-![](/img/addweb2.png)
+![](/img/add-web-messaging-to-your-website-2.png)
 
 #### Conversation channel
 
@@ -91,7 +83,6 @@ Select if you want the engagement to lead to a messaging conversation or to a si
 #### Authentication
 
 You can select one of these security methods for your conversation:
-
 * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add messaging to pages within the logged in area of their website. By configuring your buttons for authenticated pages, they can be fully branded and responsive for both desktop and mobile.
 * **Unauthenticated** For unauthenticated engagements, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
 
@@ -109,11 +100,11 @@ The engagement language selected in this step will only affect items in the Agen
 
 ### Engagement Studio: customize your buttons
 
-The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, click here.
+The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, [click here]().
 
 ### Conversation Window: customize the window
 
-The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design, click here.
+The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design,[ click here]().
 
 Once your settings are complete, click **next**.
 
@@ -123,16 +114,12 @@ When a consumer starts an unauthenticated web messaging conversation, a random t
 
 While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
 
-When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond.
-
-Idle time should be longer than SLA.
+When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond. The idle time should be longer than SLA.
 
 Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
 
 {: .notice}  
 The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
-
-**If you are using web messaging in an authenticated manner, see instructions in the authenticated article.**
 
 ### Entry Point: where will your messaging button appear?
 
@@ -146,15 +133,9 @@ Decide when to display engagements according to your consumers’ behavior by se
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
-![](/img/addweb3.png)
-
 ## 5. Publish your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
-
-![](/img/addweb4.png)
-
-**To learn more about publishing and unpublishing campaigns, click here.**
+Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here]().
 
 ## Advanced banner display settings
 
@@ -164,7 +145,7 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 ### Display multiple engagements on the same page
 
-Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, click here.
+Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here]().
 
 ### Fine tune proactive engagements
 
@@ -180,7 +161,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/addweb5.png)
+![](/img/add-web-messaging-to-your-website-3.png)
 
 ### Display engagements based on a scheduler (using shift scheduler)
 
@@ -195,13 +176,15 @@ To optimize your web experience, tag of all your web pages:
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-	<meta name="viewport" content="width=device-width,
+   <meta name="viewport" content="width=device-width,
 
-	initial-scale=1.0,
+   initial-scale=1.0,
 
-	minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+   minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-**Notes**:
-
-* If the **viewport meta tag** does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
-* If the **viewport meta tag** exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.
+<div class="notice"> 
+<b>Note:</b> 
+<ul> If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
+<li>Manual ettr</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li> 
+</ul> 
+</div>
