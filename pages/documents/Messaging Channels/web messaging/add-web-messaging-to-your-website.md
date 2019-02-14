@@ -17,7 +17,7 @@ Brands can better target their consumers by adding engagements to their website 
 ## 1. Planning & Thought Starters
 _(should be completed by contact center manager, project manager or program manager)_
 
-Answering these questions will help you prepare and streamline your campaign creation process:
+**Answering these questions will help you prepare and streamline your campaign creation process:**
 1. Do you want one messaging button available on all pages of your website?
 2. Is there a dedicated place on your website that you’d like the button to display?
 3. Will you offer messaging only to specific audience? How will you target this audience?
