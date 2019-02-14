@@ -106,7 +106,7 @@ The secure form solution was designed with strict security parameters to help en
 
 ## Supported browsers
 
-Refer to[ system requirements]() for information about supported browsers.
+Refer to[ ]()[system requirements](admin-settings-system-requirements-supported-languages.html) for information about supported browsers.
 
 ## Setting up LivePerson secure forms
 
