@@ -18,9 +18,9 @@ Today, conversations and messaging is the most effective way for brands to inter
 
 Once a brand embraces messaging they need a way to scale their contact center operations in order to support the personalized, accessible, and always-on relationship that messaging enables. LivePerson is leading the industry in the adoption of messaging through a conversational platform that combines bots, automaton and AI to enable this scalable transformation.
 
-The Conversation Builder is a codeless, easy-to-use bot builder that allows non-technical staff such as agents — the people who best understand a brand’s voice and how best to communicate to consumers authentically— to create, tweak and build bots. Using the Conversation Builder, brands can create **bots that combines the power of machine learning with the insight and experience of brand employees - the agents - to scale with messaging**. 
+The Conversation Builder is a codeless, easy-to-use bot builder that allows non-technical staff such as agents — the people who best understand a brand’s voice and how best to communicate to consumers authentically— to create, tweak and build bots. Using the Conversation Builder, brands can create **bots that combines the power of machine learning with the insight and experience of brand employees - the agents - to scale with messaging**.
 
-## Solving major challenges of bot building 
+## Solving major challenges of bot building
 
 The Conversation Builder was created to address a set of challenges that typically comes with building bot:
 
@@ -33,9 +33,9 @@ The Conversation Builder was created to address a set of challenges that typical
 
 **LivePerson built the Conversation Builder as the first codeless, dialogue-based tool for creating automated conversations at scale**. Because brands can leverage non-technical staff, such as contact center and agent, to build, optimize, and improve bots and automated conversation flows, resulting in the creation of bots that are more effective and competent.
 
-Agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question, supervise bots as they work, and intervene to rescue consumers or pick up conversations where bots cannot continue. In this way, agents become bot managers and are instrumental in helping brands create powerful, effective bots. 
+Agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question, supervise bots as they work, and intervene to rescue consumers or pick up conversations where bots cannot continue. In this way, agents become bot managers and are instrumental in helping brands create powerful, effective bots.
 
-![](/img/coversation-builder-overview-1.png)
+![](/img/conversation-builder-1b.jpg)
 
 _Conversation Builder (showing no-code, dialog-based bot building)_
 
@@ -43,14 +43,11 @@ _Conversation Builder (showing no-code, dialog-based bot building)_
 
 ### Brands who want to build bots
 
-Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation. 
+Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
 
-{: .sidebyside}
-![](/img/conversation-builder-overview-2b1.png)![](/img/conversation-builder-overview-2c1.png)
+Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.**
 
-Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.** 
-
-By allowing contact center managers, agents and agents managers to create and manage bots, the Conversation Builder helps brands create bots that forge relationships with brands just as they talk to one another, through natural language and dialogue. 
+By allowing contact center managers, agents and agents managers to create and manage bots, the Conversation Builder helps brands create bots that forge relationships with brands just as they talk to one another, through natural language and dialogue.
 
 ### Brands who want to bring their own bot
 
