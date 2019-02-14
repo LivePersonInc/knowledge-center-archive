@@ -7,7 +7,8 @@ subtitle: ''
 level3: ''
 permalink: messaging-channels-web-messaging-authenticated-web-messaging.html
 isTutorial: false
-date: 2019-01-17 13:31:46 +0200
+date: 2019-01-17 11:31:46 +0000
+isNew: false
 
 ---
 The following document guides you through creating authenticated web messaging.  To complete your web messaging program, you may also use:
@@ -24,19 +25,19 @@ Authenticated Customer Information increases the security of the communication a
 
 Authenticated web messaging can be offered to consumers are authenticated on your website, and their information and conversations are available across channels.
 
-Authenticated messaging provides the following benefits:
-
+### Authenticated messaging provides the following benefits:
 * Always-on, continuous messaging experience for logged-in website visitors
 * Ability to continue a conversation un-interrupted between mobile app messaging and web messaging. This also enable proactive push notifications on a users phone for new incoming messages (using mobile app messaging push)
 * Conversation history remains, providing consumers easy access to previous conversations and content
 * Strong authentication services enable secure and protected conversations for sensitive topics
 * Fully accessible window in compliance with WCAG 2.0 AA Standard
 
+<br/>
 Watch how web messaging can be seamless across web and mobile using authenticated web messaging:
 
 <iframe src="https://player.vimeo.com/video/253109875" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## **Authenticated Web Messaging flow:**
+## **Authenticated web messaging flow:**
 
 Before a messaging conversation can be offered, a customer must authenticate.
 
@@ -47,24 +48,20 @@ Before a messaging conversation can be offered, a customer must authenticate.
 
 Agent engages consumer in a messaging window, displaying history from previous conversations. For conversations that are continuing, or in the case that the agent pro-actively sends a message, a new message indication will display.
 
-With messaging statuses such as ‘read’ and ‘time to respond’, agents and visitors know at a glance where the conversation stands.
+With messaging statuses such as ‘read’ and ‘time to respond’, agents and visitors know at a glance where the conversation stands. Agents can see consumer details such as which device they are using and details about the campaign that initiated the conversation.
 
-Agents can see consumer details such as which device they are using and details about the campaign that initiated the conversation.
-
-LiveEngage enables agents and consumers to ‘end’ a conversation when the issue at hand is resolved. All closed conversations will remain as a connection and can be resumed either by the agent or the consumer.
-
-Agents can use this tool to strengthen and build the connection to the consumers they engaged with.
+LiveEngage enables agents and consumers to ‘end’ a conversation when the issue at hand is resolved. All closed conversations will remain as a connection and can be resumed either by the agent or the consumer. Agents can use this tool to strengthen and build the connection to the consumers they engaged with.
 
 ## **Develop your hosted authentication flow**
 
 The authentication flow is the process by which the user is authenticated against your backend in order to start a continuous conversation. Authentication allows LivePerson to retrieve additional background visitor information such as active conversations, history with the brand, unread messages, etc.
 
 Authentication integration has several flows:
-
 * Issuing visitor token - For this process, the brand’s website needs to connect to the Authentication backend and request a valid token.
 * Token validation - The validation of the token against the brand’s authentication service.
 * Token expiration and renewal.
 
+<br/>
 Additional documentation about authenticated interactions with OAuth 2.0 is available [here](https://developers.liveperson.com/guides-authentication-introduction.html#resultOverlayRecordTemplate).
 
 ## **Configure Authentication Flow**
@@ -79,6 +76,7 @@ The following parameters are defined in the your LivePerson account:
 * OAuth 2.0 Client Secret (when Code Flow is used)
 * JS method name and context (when LiveEngage embedded window is used in Web)
 
+<br/>
 In order to define the OAuth 2.0 authentication on your account, complete the following steps:
 
 1. In LiveEngage, select **Campaigns**.
@@ -100,11 +98,11 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 
    Additional information regarding authentication configuration on LivePerson is available [here](https://developers.liveperson.com/guides-authentication-introduction.html).
 
-## **Configure the Customer Identity**
+## **Configure the customer identity**
 
 In order to enable targeting for messaging engagements (authenticated and unauthenticated web messaging), the identity of the consumer must be passed to the API using the identities array and _identity_ function. The information in this array should match the values assigned to the user when they authenticate on your site. It is not used for visitor authentication, but as a trigger for LivePerson monitoring services to start targeting and sending relevant engagements and/or notifications to the visitor.
 
-Example:
+**Example:**
 
     lpTag.identities=[];
 
