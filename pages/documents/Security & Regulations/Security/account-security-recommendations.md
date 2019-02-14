@@ -167,7 +167,7 @@ The Exclusive LivePerson Administrator policy enables limited access to the acco
 
 Only the administrators that are approved by you will be able to log into your account.
 
-The following applies when the Exclusive LivePerson Administrator Policy is:
+The following applies when the exclusive LivePerson administrator policy is:
 
 * Disabled: All LPA users defined in the system will have access to the account.
 * Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
