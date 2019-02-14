@@ -144,24 +144,22 @@ To set the period of inactivity before a user is logged out.
 
 1. In LiveEngage, open the Users area. The following footnote is displayed.
 2. Select the third dropdown menu.
-
-![](https://lh3.googleusercontent.com/tccXR_Xnb4XliDJn0jU20nu0OFYCUhAdEK2sviZfZQUVoE6UGBYdvVygWC4hHw89JcdO-l5J-wuM3alZ9cWhWdCDRKJ7ZfHMkg277elVrHoX-NGkP3c8RTFhgRm-6EDHHWCi7wk =624x159)
-
 3. Select the required period of inactivity before a user is logged out.
+
+   ![](/img/Security-recconmendatations1.png)
 
 {: .notice} This can be set by an administrator only.
 
-# Administrator Policies
+# Administrator policies
 
 There are currently 2 administrator policies available within an account:
 
-· Exclusive LivePerson Administrator Policy
-
-· LivePerson Local Administrator Policy
+* Exclusive LivePerson Administrator Policy
+* LivePerson Local Administrator Policy
 
 Each of these policies is described below.
 
-## **Exclusive LivePerson Administrator Policy**
+## **Exclusive LivePerson administrator policy**
 
 To assist you with support issues, a LivePerson Technical Support or Account Management representative may need to access your account. Login access enables LivePerson to view your account settings and data, and assist you with troubleshooting and account optimization.
 
@@ -171,16 +169,16 @@ Only the administrators that are approved by you will be able to log into your a
 
 The following applies when the Exclusive LivePerson Administrator Policy is:
 
-· Disabled: All LPA users defined in the system will have access to the account.
+* Disabled: All LPA users defined in the system will have access to the account.
+* Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
 
-· Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
+{: .notice} This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
 
-Note: This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
-
-## **LivePerson Local Administrator Policy**
+## **LivePerson local administrator policy**
 
 This policy enables a LivePerson administrator to have the same access permissions as a local site administrator. This means that the LivePerson administrator will have full access to the account with the ability to add new users and view chat transcripts for the account.
 
 Only approved LivePerson administrators can gain local administrator access to your account.
 
-Note: Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your Account Manager.
+{: .notice}  
+Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your Account Manager.
