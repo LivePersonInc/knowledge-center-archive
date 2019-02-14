@@ -188,24 +188,24 @@ On the brand's website URL, there is a **"redirect_uri"** parameter which contai
 ### **Configuring the login page redirect**
 
 The login page is configurable with the following URL Parameters:
-
 * response_type - code/token. (The login page redirects with the response_type parameter)
 * client_id - As defined in LE
 * redirect_uri - The URL for redirect.
 
+<br/>
 The brand needs to register the redirect URL as a valid URL.
 
-Example:
+**Example:**
+`https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]`
 
-    https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]
-
+<br/>
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 
-Example of code flow response:
+**Example of code flow response:**
 
     HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk
 
-Example of implicit flow response:
+**Example of implicit flow response:**
 
       HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ
 
@@ -216,20 +216,20 @@ Example of implicit flow response:
 
 QueryParams
 
-Required:
+**Required:**
 
 | Parameter | Description | Type / Value |
 | --- | --- | --- |
 | error | Error code | Invalid_request, invalid_client, invalid_grant, unauthorized_client, unsupported_grant_type, invalid_scope |
 
-Optional:
+**Optional:**
 
 | Parameter | Description | Type / Value |
 | --- | --- | --- |
 | error _description | Description of the error | text |
 | error_uri | Error URL with additional info | URL |
 
-#### Error Definitions
+**Error Definitions**
 
 | Error | Description |
 | --- | --- |
@@ -242,15 +242,14 @@ Optional:
 
 ## **Showing attributes for agents**
 
-Engagement attributes (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace.
-
-Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
+Engagement attributes (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace. Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
 
 EAs will be presented in the Agent Workspace in several areas:
 
 1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
 2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
+<br/>
 In order to enable, please contact your LivePerson representative.
 
 ## **Limitations and Tips**
