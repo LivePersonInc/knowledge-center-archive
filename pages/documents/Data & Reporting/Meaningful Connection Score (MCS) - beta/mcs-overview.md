@@ -39,8 +39,7 @@ MCS is a score that is calculated dynamically in multiple dimensions, using a bo
 * **Brand MCS**: The combination of all conversation MCSs.
 
 MCS can also be applied to **skill**, **agent**, **agent group** and **brand** . In this way, brands can get a full picture of any aspect of their operational performance.  
-{: .notice)  
-The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
+{: .notice} The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
 ## **Calculating MCS**
 
@@ -120,7 +119,7 @@ MCSs for messaging conversations are available in Report Builder for brands to f
 * The MCS is available in both the **English and French languages** and **German** to be launched soon.
 * The MCS model can be **customized per account**, ensuring that the score takes into consideration tone, content and other variables specific to each brand, that could impact the calculation of the score. For example, _smell_ might be flagged as negative content for many brands, but for a perfume retailer it should be treated as neutral. For information on configuring MCS specifically for your account, contact your LivePerson account team.
 
-In short, MCS can be:
+In summary, MCS can be:
 
 * Applied to 100% of all digitally-connected consumers - **no survey bias**
 * Calculated seamlessly in the background - **does not disturb consumers**
