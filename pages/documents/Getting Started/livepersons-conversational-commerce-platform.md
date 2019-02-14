@@ -3,8 +3,8 @@ pagename: LivePerson's conversational commerce platform
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
-subtitle: Conversational commerce lets brands message with their consumers and gain
-  the automation capabilities needed to operate messaging at scale.
+subtitle: Engage consumers across all messaging channels, and scale to any number
+  of conversations
 level3: ''
 permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
@@ -18,7 +18,7 @@ Conversational commerce makes it easy for people to communicate with brands to a
 
 The shift from analog to digital is changing every aspect the way people communicate— from mall shopping to online shopping, hailing taxi cabs to Uber, and now phone calls to messaging. Over 90% of people’s day-to-day conversations happen in digital messaging channels like SMS, Facebook and WhatsApp. It’s the way people prefer to communicate with friends and family. With messaging as the channel of choice, businesses have started to connected to their consumers where they already are -through messaging.
 
-![](/img/Conversation Commerce Gif.gif)
+![](/img/lp-cc-1-1.gif)
 
 The goal of conversational commerce is to create a convenient and personalized digital experience for consumers at scale — answering questions, providing information, and completing transactions directly in the messaging channels people already use everyday. Many of the world largest brands — Adobe, T-Mobile, Citibank, IBM, L'Oreal, Orange and The Home Depot — have embraced conversational commerce and are seeing incredible results: sales increasing by 4x, customer care costs decreasing by close to 50% and customer satisfaction peaking at 95%.
 
@@ -30,13 +30,13 @@ Today, customer care is quickly becoming the way brands want to differentiate th
 
 ### Meet consumers needs through their entire journey
 
-From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upsale and customer care, conversational commerce is crucial throughout the customer journey.
+From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upselling and customer care, conversational commerce is crucial throughout the customer journey.
 
 LivePerson’s conversational commerce platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows **consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities**.
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
-![](/img/lp-cc-2.png)
+![](/img/lp-cc-2b.png)
 
 ## Automation is the key to scalability
 
@@ -46,7 +46,7 @@ These characteristics raise fundamental questions to contact centers: How to sca
 
 Most contact centers today are only equipped for chat-like interactions that are session based and have organized their operations and measurements around this model. In order to succeed with messaging, LivePerson has developed new tools and capabilities that focus on automation to scale conversations, leveraging machine learning and AI. Automation enables brands to  adopt messaging and still run at massive scale, enabling radical productivity in the contact center by combining the power of machine learning and AI with the insight and experience of brand employees.
 
-## How LivePerson’s conversational platform works
+## How our conversational platform works
 
 Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
 
@@ -85,6 +85,8 @@ The Conversation Manager enables brands to connect to popular messaging services
 ### Real-time intent detection, analytics and reporting
 
 Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
+
+![](/img/conversational-commerce-3c.png)
 
 ## 4. Maven
 
