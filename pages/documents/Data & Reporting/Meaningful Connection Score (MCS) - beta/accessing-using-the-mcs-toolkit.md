@@ -4,7 +4,7 @@ categoryName: Data & reporting
 subCategoryName: Web messaging
 indicator: both
 subtitle: Knowing what your consumers experience during the service and sales point-of-contact
-  provides a unique opportunity to analyze your operations.
+  provides a unique opportunity to analyze your operations
 level3: ''
 permalink: data-reporting-meaningful-connection-score-(MCS)-accessing-the-MCS-toolkit.html
 isTutorial: false
