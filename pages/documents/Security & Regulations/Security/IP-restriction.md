@@ -8,7 +8,7 @@ level3: ''
 permalink: security-regulations-security-IP-restriction.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 13:51:12 +0200
+date: 2019-01-24 11:51:12 +0000
 
 ---
 To ensure that App keys cannot be utilized by an unauthorized user outside a brand’s internal network, app keys will only be able to be used via the brand’s valid IP addresses.
@@ -17,15 +17,15 @@ When an account administrator creates or modifies an app key, they will be able 
 
 Currently, **only** the following APIs will be supported:
 
-* Operational Realtime API
+* Operational real-time API
 * Engagement History API
 * Users API
 * Skills API
-* Agent Groups API
+* Agent groups API
 * Profiles API
 * LOBs API
-* Messaging Operations API
-* Messaging Interactions API
+* Messaging operations API
+* Messaging interactions API
 
 Additional API support will follow.
 

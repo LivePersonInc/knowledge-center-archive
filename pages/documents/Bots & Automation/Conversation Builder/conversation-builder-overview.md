@@ -3,13 +3,13 @@ pagename: Conversation Builder overview
 categoryName: Bots & automation
 subCategoryName: Conversation Builder
 indicator: messaging
-subtitle: The Conversation Builder LivePerson’s easy-to-use bot builder allows non-technical
-  staff to create, tweak and build bots
+subtitle: LivePerson’s easy-to-use bot builder allows non-technical staff to create,
+  tweak and build bots
 level3: ''
 permalink: bots-automation-conversation-builder-conversation-builder-overview.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 16:03:55 +0200
+date: 2019-01-23 14:03:55 +0000
 
 ---
 ### Why brands need bots, automation and empowered agents
@@ -45,7 +45,8 @@ _Conversation Builder (showing no-code, dialog-based bot building)_
 
 Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation. 
 
-![](/img/conversation-builder-overview-2.png)![](/img/conversation-builder-overview-2b.png)
+{: .sidebyside}
+![](/img/conversation-builder-overview-2b1.png)![](/img/conversation-builder-overview-2c1.png)
 
 Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.** 
 
