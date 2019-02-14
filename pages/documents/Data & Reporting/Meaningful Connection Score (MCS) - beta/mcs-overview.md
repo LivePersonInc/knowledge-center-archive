@@ -40,7 +40,8 @@ MCS is a score that is calculated dynamically in multiple dimensions, using a bo
 * **Brand MCS**: The combination of all conversation MCSs.
 
 MCS can also be applied to **skill**, **agent**, **agent group** and **brand** . In this way, brands can get a full picture of any aspect of their operational performance.  
-{: .notice} The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
+{: .notice}  
+The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
 ## Calculating MCS
 
