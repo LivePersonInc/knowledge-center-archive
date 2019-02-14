@@ -10,7 +10,6 @@ permalink: security-regulations-secure-forms-secure-forms-for-messaging-user-gui
 isTutorial: true
 isNew: false
 date: 2019-01-29 08:27:49 +0000
-published: true
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -59,7 +58,7 @@ The visitor then fills out and submits the secure form back to the agent. The re
 {: .notice}  
 If there are other agents viewing the chat, they will not be able to view the secure form. In addition, agents who receive a transferred or re-assigned chat will not be able to view the secure form. Only the agent who sent the form can access the submitted form.
 
-![](/img/SFM1.png)
+![](/img/Secure_form-messaging-user-guide1.png)
 
 _LivePerson secure form within a mobile-app messaging conversation_
 
@@ -362,8 +361,8 @@ The following texts are not customizable:
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
 
-1. Invitation: "&#123;&#123;secureFormName&#125;&#125;: &#123;&#123;secure form link&#125;&#125;"
-2. Submission: "The following Secure Form has been submitted: &#123;&#123;secureFormName&#125;&#125;"
+1. Invitation: "{{secureFormName}}: {{secure form link}}"
+2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
 3. The above texts will be automatically translated per the language selected for the connector
 
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
