@@ -137,6 +137,7 @@ pages:
 - pages/documents/Admin & Settings/Supported-languages.md
 - pages/documents/Security & Regulations/Security/ip-address-blocking.md
 - pages/documents/Security & Regulations/sso-unified-login.md
+- pages/documents/Security & Regulations/Security/IP-restriction.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
@@ -251,7 +252,6 @@ pages:
 - pages/documents/What's New/october-2018.md
 - pages/documents/What's New/september-2018.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
-- pages/documents/Security & Regulations/Security/create-an-ip.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
