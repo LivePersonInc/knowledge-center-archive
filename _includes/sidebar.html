@@ -1,6 +1,6 @@
 <ul id="mysidebar">
 {% for category in site.data.documents %}
-{% if category.categoryname == "FAQs" %}
+{% if category.categoryname == "Troubleshooting" %}
 <hr class="sidebarhr" />
   <li class="categoryfolder">
     <div class="itemdetails canOpen">
@@ -49,11 +49,6 @@
         {% endfor %}
         </ul>
         </li>
-        <li class="categoryfolder">
-          <div class="itemdetails">
-          <img class="sidebarimage" src="/img/status-dashboard.svg" />
-          <span><a class="normalLink" target="_blank" href="https://status.liveperson.com/">Status Dashboard</a></span>
-        </div>
         {% elsif category.categoryname == "What's new" %}
 <hr class="sidebarhr" />
   <li class="categoryfolder">
@@ -153,6 +148,12 @@
               </li>
         {% endif %}
         {% endfor %}
+        <li class="categoryfolder">
+          <div class="itemdetails">
+          <img class="sidebarimage" src="/img/status-dashboard.svg" />
+          <span><a class="normalLink" target="_blank" href="https://status.liveperson.com/">Status Dashboard</a></span>
+        </div>
+        </li>
         </ul>
       </ul>
     </li>

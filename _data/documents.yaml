@@ -255,23 +255,6 @@
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 
-- categoryname: Troubleshooting
-  image: Troubleshooting
-  subcategories:
-    - subcategoryname: 'Login & password'
-    - subcategoryname: Agent workspace
-    - subcategoryname: Messaging
-      pages:
-        - pagename: Set up and management
-        - pagename: Consumer Experience
-        - pagename: Agent tools
-    - subcategoryname: Live Chat
-    - subcategoryname: Bots
-    - subcategoryname: Reporting & Data
-    - subcategoryname: Case management support
-      pages:
-        - pagename: Case management support
-
 - categoryname: "What's new"
   image: whats-new
   subcategories:
@@ -333,6 +316,23 @@
             - level3name: Week 2
             - level3name: Week 3
             - level3name: Week 4
+            
+- categoryname: Troubleshooting
+  image: Troubleshooting
+  subcategories:
+    - subcategoryname: 'Login & password'
+    - subcategoryname: Agent workspace
+    - subcategoryname: Messaging
+      pages:
+        - pagename: Set up and management
+        - pagename: Consumer Experience
+        - pagename: Agent tools
+    - subcategoryname: Live Chat
+    - subcategoryname: Bots
+    - subcategoryname: Reporting & Data
+    - subcategoryname: Case management support
+      pages:
+        - pagename: Case management support
 
 - categoryname: FAQs
   image: faqs
