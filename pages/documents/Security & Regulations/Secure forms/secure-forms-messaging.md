@@ -104,11 +104,11 @@ The secure form solution was designed with strict security parameters to help en
 * The tokenized data is securely stored in the LivePerson application database in its tokenized form for a default period of 13 months.
 * The tokenized data can be accessed with specific permissions. Contact your LivePerson account team for more information.
 
-## **Supported browsers**
+## Supported browsers
 
 Refer to[ system requirements]() for information about supported browsers.
 
-## **Setting up LivePerson secure forms**
+## Setting up LivePerson secure forms
 
 Secure forms are configured by LivePerson. To enable this feature, please contact LivePerson customer support or your account team. Your LivePerson account team will work with you make the necessary adjustments to your account settings and configurations.
 
