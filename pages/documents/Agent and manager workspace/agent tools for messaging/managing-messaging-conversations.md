@@ -7,12 +7,13 @@ subtitle: ''
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html
 isTutorial: false
-date: 2019-01-21 11:41:06 +0200
+date: 2019-01-21 09:41:06 +0000
+isNew: false
 
 ---
 Once you start handling conversations, you should move down the conversation list according to priority. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-## Take incoming conversations
+## Taking incoming conversations
 
 As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer.
 
@@ -21,7 +22,7 @@ Based on the configurations selected by you contact center manager, there are tw
 * **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Manual accept**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
-## Understand the context & history
+## Understanding the context & history
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
@@ -32,13 +33,13 @@ There are several tools in place to help you access the information you’ll nee
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
 
-## Reply to consumers
+## Replying to consumers
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
 ![](/img/managemess2.png)
 
-## Capture notes within the conversation summary
+## Capturing notes within the conversation summary
 
 Conversation Summary is a dedicated widget that enables you write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 

@@ -135,13 +135,14 @@ pages:
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Security & Regulations/sso-unified-login.md
+- pages/documents/Messaging Channels/Connectors/line-connector.md
+- pages/documents/Admin & Settings/Supported-languages.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Data & Reporting/Report Builder/conversation-outcomes.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
-- pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
@@ -220,7 +221,6 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
 - pages/documents/Release Notes/October/week-of-oct-29th.md
-- pages/documents/Admin & Settings/languages-supported.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Contact Center Management/Campaigns/campaign-settings.md
 - pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md

@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: Connect with the millions of consumers actively using Line monthly
 level3: ''
 permalink: messaging-channels-line-connector.html
-isTutorial: false
+isTutorial: true
 date: 2019-01-20 13:11:55 +0000
 isNew: false
 
