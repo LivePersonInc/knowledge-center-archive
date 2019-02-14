@@ -151,7 +151,8 @@ The following applies when the exclusive LivePerson administrator policy is:
 * Disabled: All LPA users defined in the system will have access to the account.
 * Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
 
-{: .notice} This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
+{: .notice}   
+This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
 
 ## **LivePerson local administrator policy**
 
