@@ -135,6 +135,7 @@ pages:
 - pages/documents/What's New/november-2018.md
 - pages/documents/Security & Regulations/hipaa.md
 - pages/documents/Admin & Settings/Supported-languages.md
+- pages/documents/Security & Regulations/Security/ip-address-blocking.md
 - pages/documents/Security & Regulations/sso-unified-login.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
@@ -250,7 +251,6 @@ pages:
 - pages/documents/What's New/october-2018.md
 - pages/documents/What's New/september-2018.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
-- pages/documents/Security & Regulations/Security/ip-address-blocking.md
 - pages/documents/Security & Regulations/Security/create-an-ip.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/audit-trails.md

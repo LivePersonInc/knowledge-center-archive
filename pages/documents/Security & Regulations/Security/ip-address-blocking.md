@@ -23,17 +23,12 @@ To exclude/include an IP address(es):
 2. Give your campaign a name and add a goal.
 3. Under **target audience**, click edit.
 4. In target audience library, click **add new**.
-
-![](/img/IP_address_blocking1.jpg)
-
-{: .Start="5}
-
-1. Give the target audience a name.
-2. On the left-hand side options bar, click on **IP range**.
-3. Here you have the option of including or excluding IP addresses:
+5. Give the target audience a name.
+6. On the left-hand side options bar, click on **IP range**.
+7. Here you have the option of including or excluding IP addresses:
    * To include an IP address or range of addresses, click **include IP range** and enter addresses. To include only one address, enter it twice.
    * To exclude an IP address or range of addresses, enter addresses in the **exclude IP range** area. To include only one address, enter it twice.
    * Additional addresses or ranges can be added by clicking **add IP range**.
-4. Click **save**.
+8. Click **save**.
 
 ![](/img/IP_address_blocking2.jpg)
