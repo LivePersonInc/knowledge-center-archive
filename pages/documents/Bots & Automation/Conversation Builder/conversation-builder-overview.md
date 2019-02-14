@@ -31,17 +31,22 @@ The Conversation Builder was created to address a set of challenges that typical
 
 ## What is the Conversation Builder
 
-**LivePerson built the Conversation Builder as the first codeless, dialogue-based tool for creating automations and bots at scale**. Because brands can leverage non-technical staff, such as contact center and agent, to build, optimize, and improve bots and automated conversation flows, resulting in the creation of bots that are more effective and competent.This drastically speeds up bot development and optimization.
+**LivePerson built the Conversation Builder as the first codeless, dialogue-based tool for creating automations and bots at scale**. Because brands can leverage non-technical staff, such as contact center and agent, to build, optimize, and improve bots and automated conversation flows, resulting in the creation of bots that are more effective and competent. This drastically speeds up bot development and optimization.
 
-Because agents play a key role in operating automation at scale, LivePerson’s Conversation Builder was built from the ground up to enable agents to become bot editors and managers. 
+### Agent-bot tango
+Additionally, agents can supervise the bots as they work, intervening seamlessly to rescue consumers or pick up conversations where bots cannot continue. We call this the human-bot tango.Agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question, supervise bots as they work, and intervene to rescue consumers or pick up conversations where bots cannot continue. In this way, agents and bots can tango - an instrumental capability in helping brands maintain a positive user experience. 
 
-Using the simple “point and click” UI, agents, developers, and business users can collaborate to perfect the bot’s functionality in the work environment.
+### Pre-built, industry-specific templates
+
+Brands don’t need to start from scratch to build bots - they can leverage the Conversation Builder’s pre-built templates as automation accelerators, including:
+
+Industry-specific templates for common workflows and verticals, such a retail, telecommunications and finance. These templates provide a starting point on which to build, customize and integrate with product, billing, CRM and other business systems.
+
+Integration with product catalogues, order systems, knowledge bases, and more...
+
+And the option to leverage pre-existing automation and NLU investments
 
 
-
-
-
-Agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question, supervise bots as they work, and intervene to rescue consumers or pick up conversations where bots cannot continue. In this way, agents become bot managers and are instrumental in helping brands create powerful, effective bots.
 
 ![](/img/conversation-builder-1b.jpg)
 
