@@ -18,7 +18,7 @@ Today, conversations and messaging is the most effective way for brands to inter
 
 Once a brand embraces messaging they need a way to scale their contact center operations in order to support the personalized, accessible, and always-on relationship that messaging enables. LivePerson is leading the industry in the adoption of messaging through a conversational platform that combines bots, automaton and AI to enable this scalable transformation.
 
-The Conversation Builder is a one-stop shop for bot building - from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce. It is a codeless, easy-to-use bot builder that allows non-technical staff such as agents — the people who best understand a brand’s voice and how best to communicate to consumers authentically— to create, optimize and visualize bots. Using the Conversation Builder, brands can create bots that combines the power of machine learning with the insight and experience of brand employees - the agents - to scale with messaging.
+The Conversation Builder is a one-stop shop for bot building - from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce. It is a codeless, easy-to-use bot builder that allows non-technical staff, often the people who best understand a brand’s voice,  to create, optimize and visualize bots. Using the Conversation Builder, brands can create bots that combines the power of machine learning with the insight and experience of brand employees - agents, business users, designers - to scale with messaging.
 
 ## Solving major challenges of bot building
 
