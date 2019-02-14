@@ -130,11 +130,11 @@ The dashboard can be filtered by the following parameters:
 * Skill
 * Agent
 * MCS
-* CSAT (Messaging mode only)
-* Status (open/closed) (Messaging mode only)
-* Source e.g. app, web, Facebook (Messaging mode only)
-* Device (Messaging mode only)
-* Interactions (Chat mode only)
+* CSAT (messaging mode only)
+* Status (open/closed) (messaging mode only)
+* Source e.g. app, web, Facebook (messaging mode only)
+* Device (messaging mode only)
+* Interactions (chat mode only)
 
 In addition, to find data for a specific conversation, users can search by conversation ID. The dashboard will then display only data for that conversation (if available).
 
