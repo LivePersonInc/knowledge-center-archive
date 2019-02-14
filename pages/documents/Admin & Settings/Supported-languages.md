@@ -8,7 +8,7 @@ level3: ''
 permalink: admin-settings-languages-supported.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 12:04:15 +0200
+date: 2019-01-29 10:04:15 +0000
 
 ---
 ## Languages supported on the visitor side
