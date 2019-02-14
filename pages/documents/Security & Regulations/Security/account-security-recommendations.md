@@ -127,7 +127,8 @@ To set the period of inactivity before a user is logged out.
 
    ![](/img/Security-recconmendatations1-1.png)
 
-   {: .notice} This can be set by an administrator only.
+   {: .notice}  
+   This can be set by an administrator only.
 
 ## Administrator policies
 
