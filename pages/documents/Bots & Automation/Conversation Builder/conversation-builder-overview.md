@@ -45,6 +45,10 @@ _Conversation Builder (showing no-code, dialog-based bot building)_
 
 Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
 
+![](/img/conversation-builder-btest.jpg)
+
+![](/img/conversation-builder-2b.jpg)
+
 Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.**
 
 By allowing contact center managers, agents and agents managers to create and manage bots, the Conversation Builder helps brands create bots that forge relationships with brands just as they talk to one another, through natural language and dialogue.
