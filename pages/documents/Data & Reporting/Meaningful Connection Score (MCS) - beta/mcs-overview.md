@@ -16,7 +16,7 @@ Our mission at LivePerson is to help our clients create meaningful connections. 
 
 The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.
 
-![](/img/MSC1.png)  
+## ![](/img/meaningful-connection-score-(MCS)-overview1.png)  
 **The problem with traditional customer satisfaction metrics**
 
 While commonly used customer satisfaction measurements, such as customer surveys, provide valuable insights into the views of responders, they fall short in offering a complete view of how consumers really feel about a brand.
@@ -26,7 +26,7 @@ While commonly used customer satisfaction measurements, such as customer surveys
 * Actions as a result of survey feedback are taken only retrospectively, **missing real time feedback**
 * Messaging is an **ongoing relationship**; measuring sentiment at the end of a session doesn’t accurately reflect the nature of the messaging connection
 
-### **Why MCS?**
+## **Why MCS?**
 
 MCS does not rely on customers answering surveys, but rather on a deep analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time.
 
@@ -42,7 +42,7 @@ MCS can also be applied to **skill**, **agent**, **agent group** and **brand** .
 {: .notice)  
 The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
-### **Calculating MCS**
+## **Calculating MCS**
 
 The following example shows how MCS is calculated over the course of a messaging conversation. MCS is based on a detected sentiment and is calculated using a specific formula - further explanation of this can be found below. The **MCS range** is between -100 to 100.
 
@@ -58,7 +58,7 @@ Some negative impact of a score remains regardless of the time that has passed, 
 
 The dynamic changes to the MCS can be tracked in the web messaging API.
 
-### MCS applications
+## MCS applications
 
 **1. Real time alerts**
 
@@ -68,19 +68,17 @@ For messaging conversations, the MCS score and alerts (smileys) are displayed in
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
-![](/img/MCS2.png)
+![](/img/meaningful-connection-score-(MCS)-overview2.png)The image above shows the chat web history
 
-_Chat web history_
+![](/img/meaningful-connection-score-(MCS)-overview3.png)
 
-![](/img/MCS3.png)
-
-_Chat agent workspace_
+The image above shows the chat agent workspace
 
 **2. Training opportunities**
 
 [MCS Toolkit]() allows brands to identify training opportunities for agents and agent groups, meaning agent performance can be benchmarked and best practices standardized across the account. Conversation MCS offers brands the ability to deep dive into the evolution of consumer sentiment throughout the lifetime of a conversation. This allows agent managers to identify weak points in service, recognize trends and pinpoint areas that require improvement.
 
-![](/img/MCS4.png)
+![](/img/meaningful-connection-score-(MCS)-overview4.png)
 
 MCS can be viewed in the All Connections list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
 
@@ -109,13 +107,15 @@ For example, a brand wants to evaluate an agent’s MCS from five conversations 
 
 All of these entities can be tracked through Report Builder, where brands can analyze MCS by agent group, skill, line of business or other variables.
 
-**MCS in Report Builder**
+## **MCS in Report Builder**
 
 The Report Builder allows brands to build their own reports based on account data available in LiveEngage. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
 
 MCSs for messaging conversations are available in Report Builder for brands to further track and analyze data around consumer sentiment.
 
-### ![](/img/MSC5.png)More about MCS
+![](/img/meaningful-connection-score-(MCS)-overview5.png)
+
+## More about MCS
 
 * The MCS is available in both the **English and French languages** and **German** to be launched soon.
 * The MCS model can be **customized per account**, ensuring that the score takes into consideration tone, content and other variables specific to each brand, that could impact the calculation of the score. For example, _smell_ might be flagged as negative content for many brands, but for a perfume retailer it should be treated as neutral. For information on configuring MCS specifically for your account, contact your LivePerson account team.
