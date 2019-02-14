@@ -56,9 +56,6 @@ Bots can be built with the Conversational Builder through an interactive dialog 
 
 ![](/img/conversation-builder-btest.jpg)
 
-not test
-
-![](/img/conversation-builder-2b.jpg)
 
 Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.**
 
