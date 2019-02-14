@@ -273,10 +273,10 @@ This feature allows web messaging users to transition seamlessly between authent
 With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
 
 **Guidelines:**
-
 * Engagements should show only if the conversation can start. If the engagement requires authentication, it will show only on authenticated pages.
 * Only one conversation can be displayed on each page, either authenticated or unauthenticated.
 * Open conversations should continue when the consumer navigates to other pages of the same brand. Authenticated conversations will continue only on authenticated pages, while unauthenticated conversations will continue through both page types, and will not be associated with the logged in user.
 * When the consumer returns (after a defined period of time) to the brand page, and there’s an open conversation, the consumer should get a minimized version of the window. If the user has both authenticated and unauthenticated conversations open on that device and both can be resumed, the authenticated conversation will take priority. In that case, the consumer will be able to return to the unauthenticated conversation once the authenticated conversation ends, or the user logs out.
 
+<br/> 
 To configure this feature, please contact your LivePerson Representative.
