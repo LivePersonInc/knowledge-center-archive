@@ -1,11 +1,11 @@
 ---
-pagename: 'Languages supported '
+pagename: 'Supported languages'
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: admin-settings-languages-supported.html
+permalink: admin-settings-supported-languages.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 12:04:15 +0200

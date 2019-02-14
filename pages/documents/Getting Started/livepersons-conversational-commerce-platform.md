@@ -51,7 +51,7 @@ Most contact centers today are only equipped for chat-like interactions that are
 
 Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
 
-[https://vimeo.com/312966468/a98719c6f7](https://vimeo.com/312966468/a98719c6f7 "https://vimeo.com/312966468/a98719c6f7")
+<iframe src="https://player.vimeo.com/video/312966468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
 

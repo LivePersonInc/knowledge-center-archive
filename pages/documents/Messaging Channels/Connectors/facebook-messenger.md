@@ -12,7 +12,8 @@ date: 2019-01-20 09:10:07 +0000
 isNew: true
 
 ---
-[https://vimeo.com/238902683/b0028db4f5](https://vimeo.com/238902683/b0028db4f5 "https://vimeo.com/238902683/b0028db4f5")
+
+<iframe src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
 

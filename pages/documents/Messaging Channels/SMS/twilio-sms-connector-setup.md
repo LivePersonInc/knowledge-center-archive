@@ -11,7 +11,8 @@ date: 2019-01-17 15:11:38 +0000
 isNew: false
 
 ---
-Vimeo link: [https://vimeo.com/238919599/fea034b4d2](https://vimeo.com/238919599/fea034b4d2 "https://vimeo.com/238919599/fea034b4d2")
+
+<iframe src="https://player.vimeo.com/video/238919599" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 

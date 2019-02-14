@@ -11,7 +11,8 @@ date: 2019-01-20 12:52:49 +0000
 isNew: false
 
 ---
-[https://vimeo.com/238914379/076382ea40](https://vimeo.com/238914379/076382ea40 "https://vimeo.com/238914379/076382ea40")
+
+<iframe src="https://player.vimeo.com/video/238914379" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Millions of brands are already using Google My Business to engage with consumers. By offering click to message, brands enable consumers to connect with them using their native SMS app, meaning they can tap into the wide pool of consumers who prefer to use messaging.
 

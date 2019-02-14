@@ -1,15 +1,15 @@
 ---
 pagename: LivePerson’s HIPAA compliance
-categoryName: Getting started
-subCategoryName: Web messaging
-indicator: chat
+categoryName: 'Security & regulations'
+subCategoryName: ''
+indicator: both
 subtitle: ''
 level3: ''
-permalink: LivePerson’s HIPPA compliance
+permalink: security-regulations-hippa-compliance.html
 isTutorial: false
 isNew: false
 date: 2019-01-31 13:44:17 +0200
-published: false
+published: true
 
 ---
 ## What is HIPAA?
@@ -19,14 +19,14 @@ The Health Insurance Portability and Accountability Act (HIPAA) was enacted by C
 HIPAA-HITECH apply to “covered entities”, which include **_doctors, hospitals, health insurance companies and other healthcare providers_**. HIPAA’s Omnibus Rule, which went into effect in 2013, extends the law to include all business associates of covered entities. These include health information organizations, e-prescribing gateways, and **_any other entity that provides data transmission services to a covered entity _**or provides personal health records on behalf of a covered entity and who requires access on a routine basis to PHI. In addition, **_all subcontractors of the business associates and covered entities must comply with HIPAA-HITECH if they access PHI of the covered entity_**. Finally, the Omnibus Rule requires any individual who creates, receives, maintains, or transmits PHI on behalf of a covered entity to comply with HIPAA-HITECH.
 
 The U.S. Department of Health and Human Services (HHS), the entity responsible for HIPAA, does not require or formally recognize any HIPAA certification programs for CSPs.  
-  
+
 What you want is a CSP that has the necessary controls and processes in place to comply with the HIPAA requirements for which it is responsible
 
 LivePerson enters into business associate agreements (BAAs) with HIPAA-covered entities, certifying that LivePerson protects personal health information (PHI) in accordance with HIPAA guidelines.
 
 HIPAA requirements are as follow and each are met by LivePerson:
 
-**Access control:** 
+**Access control:**
 
 1. Unique Identifier required to determine user identity in electronic records
 2.  Emergency procedure required for obtaining electronic PHI (ePHI) during an emergency
@@ -87,9 +87,3 @@ HIPAA requirements are as follow and each are met by LivePerson:
 * Notify the media and public if the breach affects more than 500 patients
 
 LivePerson would notify the Brand its’ providing service to so that the Brand can notify any affected patients. LivePerson would not normally have sufficient details about a patient in order to contact them directly. LiveEngage is not an EMR or CRM system.
-
-  
-  
-  
-  
- 

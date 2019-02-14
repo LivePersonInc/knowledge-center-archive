@@ -6,7 +6,7 @@ indicator: chat
 subtitle: Secure forms is designed to provide an additional security layer that enables
   consumers to provide sensitive information in full confidence
 level3: ''
-permalink: admin-settings-secure-forms-for-chat-user-guide.html
+permalink: security-regulations-secure-forms-for-chat-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 11:36:31 +0000

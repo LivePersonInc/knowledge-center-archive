@@ -11,7 +11,8 @@ date: 2019-01-20 12:34:09 +0000
 isNew: false
 
 ---
-[https://vimeo.com/310297164/433ee63036](https://vimeo.com/310297164/433ee63036 "https://vimeo.com/310297164/433ee63036")
+
+<iframe src="https://player.vimeo.com/video/310297164" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
 

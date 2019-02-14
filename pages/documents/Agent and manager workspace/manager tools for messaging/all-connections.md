@@ -9,7 +9,7 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.h
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false
-published: false
+published: true
 
 ---
 The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
@@ -65,9 +65,9 @@ Agents on the other hand are able to view only the conversations for which they 
 
 ![](/img/all-connections-2.png)
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
 <li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other. (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order).</li>
-</ul> 
+</ul>
 </div>

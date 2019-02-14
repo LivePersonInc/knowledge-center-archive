@@ -88,7 +88,7 @@
       pages:
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
-        - pagename: Configuring response times for messaging conversations
+        - pagename: Configuring response times
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
@@ -136,7 +136,7 @@
       pages:
         - pagename: "Introduction to agents: working with asynchronous messaging"
         - pagename: Agent workspace for messaging tour
-        - pagename: Agent workspace basics
+        - pagename: Workspace basics
         - pagename: Managing messaging conversations
         - pagename: Taking breaks & ending your shift
         - pagename: Understanding agent performance
@@ -231,7 +231,8 @@
         - pagename: Assign permissions
         - pagename: Customize permissions
     - subcategoryname: Set the Time Zone
-    - subcategoryname: "System Requirements & Supported Languages"
+    - subcategoryname: System requirements
+    - subcategoryname: Supported languages
 
 - categoryname: "Security & regulations"
   image: security-regulations
@@ -267,20 +268,18 @@
     - subcategoryname: Live Chat
     - subcategoryname: Bots
     - subcategoryname: Reporting & Data
-    - subcategoryname: Support
+    - subcategoryname: Case management support
       pages:
         - pagename: Case management support
 
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: January 2019
     - subcategoryname: December 2018
     - subcategoryname: November 2018
     - subcategoryname: October 2018
     - subcategoryname: September 2018
-    - subcategoryname: August 2018
-    - subcategoryname: July 2018
-    - subcategoryname: June 2018
 
 - categoryname: Release notes
   image: release-notes

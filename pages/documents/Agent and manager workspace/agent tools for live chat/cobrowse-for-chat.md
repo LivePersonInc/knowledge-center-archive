@@ -14,7 +14,7 @@ date: 2019-01-30 14:43:16 +0000
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
 
-Vimeo: [https://vimeo.com/238900340/29a80294b9](https://vimeo.com/238900340/29a80294b9 "https://vimeo.com/238900340/29a80294b9")
+<iframe src="https://player.vimeo.com/video/238900340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors. To focus the visitor, the agent can animate elements on the visitor screen by:
 
@@ -140,11 +140,11 @@ The following CoBrowse elements can also be configured:
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
-<li>CoBrowse is not supported in IE8.</li> <li>CoBrowse is only available to customers with the embedded engagement window.</li> <li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li> 
-</ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
+<li>CoBrowse is not supported in IE8.</li> <li>CoBrowse is only available to customers with the embedded engagement window.</li> <li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li>
+</ul>
 </div>
 
 ## Impact on existing functionality
@@ -218,11 +218,11 @@ The following table lists the prerequisites and technical requirements necessary
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
 * Third party cookies must be enabled
 
-<div class="notice"> 
-<b>Note:</b> 
-<ul> 
+<div class="notice">
+<b>Note:</b>
+<ul>
 <li>Your website should not contain any browser-specific code or overwriting of core JavaScript functions, for example window.addEventListener</li> <li>Encoded web content poses a security risk and is therefore filtered.</li> <li>There are no embedded non-HTML objects, for example Flash, Active-X or PDF</li> <li>Non-HTML content is not monitored and is not visible to the agent.</li> <li>If the chat session is timed out, this will invalidate the CoBrowse session.</li>
-</ul> 
+</ul>
 </div>
 
 ### For network

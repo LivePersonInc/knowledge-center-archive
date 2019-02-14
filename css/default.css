@@ -156,7 +156,7 @@ h3 {
   #defaultwrapper {
     display: grid;
     grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 0.5fr;
-    grid-template-rows: 120px 110px 92px 1fr 50px;
+    grid-template-rows: 120px auto 92px 1fr 50px;
     height: auto;
     min-height: 100vh;
   }
@@ -240,6 +240,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .anchortitle {
+  display: none;
   margin-left: 54px;
   font-size: 12px;
   color: #5f6368;
@@ -438,6 +439,7 @@ ul.mysidebar.nav > li:first-of-type {
 #indicatorrow {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 #lastmodified {
@@ -1064,6 +1066,11 @@ ul.mysidebar.nav > li:first-of-type {
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
+
+  #documenttitlecontainer {
+    padding-left: 55px;
+  }
+
   #homebuttons {
     flex: unset;
     margin-left: 50px;
@@ -1096,6 +1103,10 @@ ul.mysidebar.nav > li:first-of-type {
 
   .subcategoryitem a {
     font-size: 12px;
+  }
+
+  #feedback {
+    width: 77%;
   }
 }
 
