@@ -122,9 +122,8 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 
     }
 
-By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications.
-
-Once the visitor has received a notification on an ongoing conversation, or has clicked on a messaging engagement, the authentication process will start according to the authentication flow defined during configuration.
+<br/>
+By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications. Once the visitor has received a notification on an ongoing conversation, or has clicked on a messaging engagement, the authentication process will start according to the authentication flow defined during configuration.
 
 It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LE monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
 
@@ -138,13 +137,9 @@ In addition, there additional options for authenticated windows.
 
 ### **Clearing history (consumer side)**
 
-For authenticated conversations, consumers have the option to ‘clear history’ in their window settings.
+For authenticated conversations, consumers have the option to ‘clear history’ in their window settings. This option allows the user to clear the link between this device and the conversation on the LiveEngage platform, which means that the conversation is removed, and cannot be retrieved or resumed (AKA removing continuity).
 
-This option allows the user to clear the link between this device and the conversation on the LiveEngage platform, which means that the conversation is removed, and cannot be retrieved or resumed (AKA removing continuity).
-
-Clicking “Clear history” will also end the conversation.
-
-The next conversation will be considered as a new visitor.
+Clicking “Clear history” will also end the conversation. After the history is cleared, the conversation will be considered a new visitor.
 
 ### **Counter badge and sound**
 
@@ -152,23 +147,19 @@ Upon receiving a new message, if the engagement window is in the minimized state
 
 ### **Separate browser window flow**
 
-Web messaging behaves similarly to mobile app messaging, except for the fact that it runs on a browser.
+Web messaging behaves similarly to mobile app messaging, except for the fact that it runs on a browser. Web messaging can be displayed in an embedded window or opened in a separate browser window to interact with the visitor. When the LiveEngage embedded window is set to separate browser mode, the authentication must take place using a page redirect flow.
 
-Web messaging can be displayed in an embedded window or opened in a separate browser window to interact with the visitor. When the LiveEngage embedded window is set to separate browser mode, the authentication must take place using a page redirect flow.
+### **Authentication in an embedded window vs. separate browser window**
 
-### **Authentication in an Embedded Window vs. Separate Browser Window**
-
-#### Embedded Window
-
+#### Embedded window
 When in **embedded mode**, the window is hosted on the brand's website. JavaScript API code is used to get the **authorization code** that identifies the visitor and continues its messaging engagement without any interruption or required action from the visitor's side.
 
 #### Separate Browser Window
-
 **Separate browser window** mode is configured in LiveEngage Engagement studio. When the engagement appears in a separate browser window, authentication cannot be performed "behind the scenes". Action is required from the visitor for the following two reasons:
-
 * As the engagement window opens immediately after it is clicked, there is not enough time to access an asynchronous JavaScript API simultaneously.
 * The separate browser window is hosted by LivePerson (not the brand’s website), therefore it does not have access to JavaScript code.
 
+<br/>
 To configure authentication in a separate browser window, proceed as follows:
 
 1. Upon clicking on an engagement that is configured to open in a separate browser window, the window will remain open as it redirects the visitor to the brand’s configured login page (Authentication Endpoint).
@@ -182,20 +173,17 @@ To configure authentication in a separate browser window, proceed as follows:
    ![](/img/authweb6.png)
 
 {:start="3"}
-2\. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.
+2. Once authentication expires, a message that prompts the visitor to log in appears, redirecting the visitor back to the login page.
 
 ![](/img/authweb7.png)
 
 ### **How does separate browser window login work?**
 
-On the brand's website URL, there is a **"redirect_uri"** parameter which contains the **Authentication Endpoint** of the website. If the **redirect_uri** parameter was provided, execution of the visitor's authentication process starts by redirecting the visitor to **login page** (in an external window).
+On the brand's website URL, there is a **"redirect_uri"** parameter which contains the **Authentication Endpoint** of the website. If the **redirect_uri** parameter was provided, execution of the visitor's authentication process starts by redirecting the visitor to **login page** (in an external window). Once the **login page** receives authentication, the authentication code is integrated and the page is redirected back to the separate browser window (the URL exists in the URL "redirect_uri" parameter).
 
-Once the **login page** receives authentication, the authentication code is integrated and the page is redirected back to the separate browser window (the URL exists in the URL "redirect_uri" parameter).
-
-Code sample:
-
-| --- |
-|   var urlParams = getUrlParams(window.location.search);window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode; |
+**Code sample:**
+`| --- |
+|   var urlParams = getUrlParams(window.location.search);window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode; |`
 
 ### **Configuring the login page redirect**
 
