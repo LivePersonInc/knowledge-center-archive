@@ -16,7 +16,7 @@ LivePerson invests heavily in providing the most secure platform possible for ou
 
 <iframe src="https://player.vimeo.com/video/238919406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## **Secure form benefits**
+## Secure form benefits
 
 The LivePerson secure form provides brands with an enhanced engagement experience with the following benefits:
 
@@ -35,7 +35,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
 3. Standard 3: US: Privacy Shield certification
    1. LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
 
-## **When to use the LiveEngage secure form**
+## When to use the LiveEngage secure form
 
 Some of the most common use cases for the secure form include:
 
@@ -44,13 +44,13 @@ Some of the most common use cases for the secure form include:
 * Visitors need to provide PII to an agent as part of the identity validation process, for example, to answer a secret question.
 * Any other situation requiring the visitor to send sensitive information to the agent.
 
-## **PCI-DSS compliance**
+## PCI-DSS compliance
 
 The LiveEngage secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
 Following the completion of an onsite assessment, the LiveEngage secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
 
-## **How it works**
+## How it works
 
 An agent can send a secure form from the Agent Workspace at any time during a messaging session by clicking the secure form tab in the Predefined Content widget and selecting a secure form.  
 The visitor then fills out and submits the secure form back to the agent. The receiving agent is the only one able to view the information sent by the visitor.
@@ -62,7 +62,7 @@ If there are other agents viewing the chat, they will not be able to view the se
 
 _LivePerson secure form within a mobile-app messaging conversation_
 
-## **Fully accessible visitor experience**
+## Fully accessible visitor experience
 
 The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both iOS and Android in-app messaging and includes:
 
@@ -70,13 +70,13 @@ The secure form widget complies with ADA and WCAG 2.0 AA disability accessibilit
 * Keyboard operable: secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
 * Improved error handling: Clear error indication and suggested fixes.
 
-## **Data flow**
+## Data flow
 
 Tokenization is a method of substituting data to render it meaningless to anyone gaining unauthorized access. The tokenization processes implemented in the secure form environment is based on a technology manufactured by a leading provider of tokenization solutions. The sensitive data submitted in the secure form is sent from the visitor to the agent via the PCI-DSS certified environment. A dedicated PCI compliant server handles the tokenization of the sensitive information and validates agent authorization before delivering the visitor-submitted secure form.
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](/img/SFM2.png)
+![](/img/Secure-form-messaging-userguide2.png)
 
 _Secure form visitor to agent flow chart_
 
@@ -90,7 +90,7 @@ Below is a detailed explanation of the flow of the diagram above:
 6. The agent retrieves the form via the OTK and UUID.
 7. The service retrieves the data from its tokenized form and sends the data back to the agent in a readable format.
 
-## **Security measures**
+## Security measures
 
 The secure form solution was designed with strict security parameters to help ensure sensitive customer information is sent only to the appropriate, authorized agent (these controls are in addition to the standard controls required by PCI-DSS). The following controls have been implemented as part of the solution:
 
@@ -177,7 +177,7 @@ Your LivePerson account team will create and manage your secure forms. We recomm
 * Each survey can include up to 20 questions.
 * The text field for secure form answers also does not accept the following special characters: < > ( ) \\ ' " &
 
-## **Experience**
+## Experience
 
 ### Mobile-app messaging SDK
 
@@ -195,7 +195,7 @@ When an agent sends a secure form to a consumer, a new rich message displays the
 
 This is how the secure form invitation will display to the consumer on the iOS mobile-app messaging SDK:
 
-![](/img/SFM3.png)
+![](/img/Secure-form-messaging-userguide3.png)
 
 The following invitation design capabilities are available on the iOS mobile-app messaging SDK:
 
@@ -208,7 +208,7 @@ The following invitation design capabilities are available on the iOS mobile-app
 7. secureFormBubbleFillFormButtonBackgroundColor = UIColor.clear
 8. secureFormBubbleFormImageTintColor = LPColor.LPBlue
 
-![](/img/SFM4.png)
+![](/img/Secure-form-messaging-userguide4png.png)
 
 Other invitation statuses include:
 
@@ -222,7 +222,7 @@ When there’s no connectivity, the “fill in form” link will be disabled and
 
 This is how the secure form invitation will display to the consumer on the Android mobile-app messaging SDK:
 
-![](/img/SFM5.png)
+![](/img/Secure-form-messaging-userguide5.png)
 
 The following invitation design capabilities are available on the Android In-App Messaging SDK:
 
@@ -235,7 +235,7 @@ The following invitation design capabilities are available on the Android In-App
 7. <color name="agent_bubble_pci_form_invitation_icon_tint_color">@color/lp_blue</color>
 8. (Bubble border width is inherited from standard bubbles)
 
-![](/img/SFM6.png)
+![](/img/SSecure-form-messaging-userguide6-1.png)
 
 Other invitation statuses include:
 
@@ -255,7 +255,7 @@ The form includes :
 4. Submit button
 5. Footer displaying a security statement
 
-![](/img/SFM7.png)
+![](/img/Secure-form-messaging-userguide7.png)
 
 #### iOS
 
@@ -266,13 +266,13 @@ The following UI and designable elements for the form are available on the iOS m
 3. secureFormBackButtonColor = UIColor.black
 4. secureFormUIStatusBarStyleLightContent = true
 
-![](/img/SFM8.png)
+![](/img/Secure-form-messaging-userguide8.png)
 
 #### Android
 
 The form on the Android mobile-app messaging SDK is as follows (top bar design is inherited from the conversation top bar):
 
-![](/img/SFM9.png)
+![](/img/Secure-form-messaging-userguide9.png)
 
 ## **Messaging connectors**
 
@@ -287,7 +287,7 @@ The first connector to support secure forms will be Twilio SMS (end of January, 
 
 The connector’s secure form invitation contains the secure form name and a link to the secure form:
 
-![](/img/SFM10.png)
+![](/img/Secure-form-messaging-userguide10.png)
 
 ### Form
 
@@ -336,13 +336,13 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 The following UI shows the connector’s secure form experience on mobile and tablet (the numbers indicate the form design elements as explained above):
 
-![](/img/SFM11.png)
+![](/img/Secure-form-messaging-userguide11.png)
 
-### Success and error messages
+## Success and error messages
 
 The following error messaging will display when the form fails to load:
 
-![](/img/SFM12.png)
+![](/img/Secure-form-messaging-userguide12.png)
 
 The following message will display after the consumer has successfully submitted the form:
 
@@ -372,13 +372,13 @@ The following texts are not customizable:
 * If consumer will click on the form after the value of messaging.secure.form.getForm.timeout.sec has passed - they will receive the following error: _The secure form could not be opened. <br>Please contact your agent for assistance."_
 * If the consumer will try to submit the form after the value of messaging.secure.form.submitForm.timeout.sec has passed - they will receive the following error on the form UI: _Your session has expired. Please close the window and start a new conversation in order to resume”._
 
-## **Multi-device continuity**
+## Multi-device continuity
 
 * When an agent sends an invitation to open a secure form, it displays in the conversation thread in all connected devices.
 * The form can only be submitted from the device it was opened from; the consumer will not be able to open the form from another device.
 * Once submitted on one device, all other connected devices will display the following message: “This form has been submitted and cannot be reopened for security reasons”.
 
-## **Agent workspace**
+## Agent workspace
 
 Once a secure form has been sent, the conversation transcript will display the following statuses:
 
@@ -389,7 +389,7 @@ Once a secure form has been sent, the conversation transcript will display the f
 
 When the agent clicks on the “view secure form” link, the secure form data will display as follows:
 
-![](/img/SFM14.png)
+![](/img/Secure-form-messaging-userguide14.png)
 
 If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 
@@ -410,7 +410,7 @@ View Engagement history PCI PII
 
 For guidance on enabling/disabling permissions, please see [permission settings.]()
 
-## **Considerations when using secure forms**
+## Considerations when using secure forms
 
 When using secure forms, bear in mind:
 
@@ -439,7 +439,7 @@ When using secure forms, bear in mind:
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
 
-## **Reporting on secure forms**
+## Reporting on secure forms
 
 The following secure form events are reported in Report Builder:
 
