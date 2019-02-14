@@ -28,7 +28,7 @@ There are three methods to login to the MCS toolkit:
 2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
-![](/img/LoginMCS1.png)
+![](/img/Accessing-MCS-toolkit1.png)
 
 ### **Regular login method**
 
@@ -36,9 +36,9 @@ There are three methods to login to the MCS toolkit:
 
 2\. Before login, select the dashboard type: messaging or chat
 
-3\. Login via regular method will terminate any existing LiveEngage sessions
+3\. Login via regular method will terminate any existing LiveEngage session
 
-### **Simultaneous Login method**
+### **Simultaneous login method**
 
 1\. To enable simultaneous login, please contact your account manager
 
