@@ -14,10 +14,12 @@ isNew: false
 ---
 Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here]().
 
-## 1. Planning & Thought Starters
+## 1. Planning & thought starters
+
 _(should be completed by contact center manager, project manager or program manager)_
 
 **Answering these questions will help you prepare and streamline your campaign creation process:**
+
 1. Do you want one messaging button available on all pages of your website?
 2. Is there a dedicated place on your website that you’d like the button to display?
 3. Will you offer messaging only to specific audience? How will you target this audience?
@@ -25,9 +27,9 @@ _(should be completed by contact center manager, project manager or program mana
 5. Are you offering service transactions? Will you need to authenticate the conversations?
 6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track  the conversations made over messaging?
 
-## 2. Add Code & Conversion tracking to your website
+## 2. Add code & conversion tracking to your website
 
-### LiveEngage Tag
+### LiveEngage tag
 
 If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
 
@@ -45,20 +47,21 @@ If you are planning to create messaging campaigns tailored for tracking sales an
 2. Cross session period - Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
-## 3. Create a Campaign
+## 3. Creating a campaign
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
 To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
+
 * Business goal
 * Target audience
 * Time frame
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
-## 4. Design the buttons & window
+## 4. Designing the buttons & window
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
@@ -66,11 +69,11 @@ You can now begin creating banners or buttons to add to your website. These enga
 
 ![](/img/add-web-messaging-to-your-website-1.png)
 
-### Template gallery: select from a default banner or add your own
+### Template gallery
 
 The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
 
-### Adjust your engagement settings
+### Engagement settings
 
 From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
 
@@ -83,6 +86,7 @@ Select if you want the engagement to lead to a messaging conversation or to a si
 #### Authentication
 
 You can select one of these security methods for your conversation:
+
 * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add messaging to pages within the logged in area of their website. By configuring your buttons for authenticated pages, they can be fully branded and responsive for both desktop and mobile.
 * **Unauthenticated** For unauthenticated engagements, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
 
@@ -98,11 +102,11 @@ Select the mode in which the messaging window will be presented to the consumer,
 
 The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
-### Engagement Studio: customize your buttons
+### Engagement studio 
 
 The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, [click here]().
 
-### Conversation Window: customize the window
+### Conversation window
 
 The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design,[ click here]().
 
@@ -121,13 +125,13 @@ Brands can configure the maximum time a conversation can stay idle, during which
 {: .notice}  
 The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
 
-### Entry Point: where will your messaging button appear?
+### Entry point
 
 You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on creating a new entry point, please refer here.
 
 When you are finished defining your entry point, click **next**.
 
-### Visitor Behavior: who will the button display to?
+### Visitor behavior
 
 Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the[ Target based on your visitors’ behavior](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=track-and-target) documentation.
 
@@ -182,9 +186,9 @@ To optimize your web experience, tag of all your web pages:
 
    minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-<div class="notice"> 
-<b>Note:</b> 
+<div class="notice">
+<b>Note:</b>
 <ul> If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
-<li>Manual ettr</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li> 
-</ul> 
+<li>Manual ettr</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
+</ul>
 </div>
