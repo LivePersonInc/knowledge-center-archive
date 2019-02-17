@@ -95,11 +95,7 @@ Scheduling items or Special occasion items can be created through the Schedule o
 2. Scroll down to the “Working hours” section.
 3. Under the “Working days and hours” section, choose the “Custom settings” radio button.  
    Click the “Set days and hours” button in order to access the Schedule library (see image)
-4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library:
-
-   ![](/img/shift-scheduler-CG-5b.png)
-
-   The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
+4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library. The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
 
 ![](/img/shift-scheduler-CG-6b.png)
 
