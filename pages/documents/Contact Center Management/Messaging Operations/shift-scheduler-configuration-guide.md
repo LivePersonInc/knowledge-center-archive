@@ -53,7 +53,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
 ## Automatic scheduler
 
-![](/img/shift-scheduler-CG-3.png)
+![](/img/shift-scheduler-CG-3b.png)
 
 The configuration of scheduled [Workdays](https://developers.liveperson.com/workdays-api-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response message** for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
 
