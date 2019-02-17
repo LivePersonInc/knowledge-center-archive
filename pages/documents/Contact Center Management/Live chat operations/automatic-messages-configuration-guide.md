@@ -20,19 +20,13 @@ Automatic messages are messages that are presented automatically in the Engageme
 
 ![](/img/automatic-messages-chat-1b.png)
 
-## Configuration
-
-## Customize automatic messages for chat
+## Configuration: Customize automatic messages for chat
 
 LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
 
 ### To customize an automatic message
 
 1.    Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
-
-![](/img/automatic-messages-chat-2b.png)
-
-{:start="2"}
 2.    In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
 ![](/img/automatic-messages-chat-3b.png)
@@ -58,8 +52,6 @@ The automatic message library can also be reached from the chat settings in the 
    ![](/img/automatic-messages-chat-5b.png)
 
 ### To customize messages for a specific skill
-
-![](/img/automatic-messages-chat-6b.png)
 
 1. On the **Edit** **Automatic Messages** page, click the “+” button below the message description next to the default set. A skill selection floating window is displayed.
 2.  Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
