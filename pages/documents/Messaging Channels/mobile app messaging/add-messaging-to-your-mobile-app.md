@@ -81,6 +81,7 @@ To do this, go to the campaigns area, select Data sources from the campaign foot
 
 ![](/img/add-messaging-to-your-mobile-app-4.png)
 
+{:start="2"}
 1. Edit the Mobile App source details
    1. Enter the name of your app (the default is Mobile App) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
