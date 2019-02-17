@@ -7,7 +7,8 @@ subtitle: ''
 level3: ''
 permalink: contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html
 isTutorial: false
-date: 2019-01-20 14:09:13 +0200
+date: 2019-01-20 12:09:13 +0000
+isNew: false
 
 ---
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance.
@@ -16,7 +17,7 @@ Proper queue prioritization holds special weight in the world of contact centers
 
 Brands wanting to provide a faster service to certain customers are able to configure the ranking of the queue, by changing the priority of each engagement. This will allow some consumers to go straight to the top as soon as they arrive in the queue, above regular consumers who will be served based on their arrival time.
 
-![](/img/queue-prior-chat-CG-1.png)
+![](/img/queue-prior-chat-CG-1b.png)
 
 In the ‘Set priority queue level’ section in the engagement settings area, brands can configure the priority level for each engagement. The default state is “no priority”, meaning consumers exposed to the engagement are on the same level, and will be served on a ‘first in first served’ basis.
 
@@ -36,7 +37,7 @@ Enable A/C setting: _Common.LiveChat_Queue_Priority_
 
 1. In the Engagement Studio, click on the Settings icon.
 
-   ![](/img/queue-prior-chat-CG-2.png)
+   ![](/img/queue-prior-chat-CG-2b.png)
 
 {:start="2"}
 2. Scroll down to the ‘Set queue priority level’ section.
@@ -46,7 +47,7 @@ Enable A/C setting: _Common.LiveChat_Queue_Priority_
 {: .notice}
 The 'no priority' setting will be given a lower priority than the 10th priority setting.
 
-![](/img/queue-prior-chat-CG-3.png)
+![](/img/queue-prior-chat-CG-3b.png)
 
 ## Limitations & Notes
 

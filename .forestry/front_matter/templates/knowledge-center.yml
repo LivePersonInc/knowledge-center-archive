@@ -147,7 +147,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
-- pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-conversation-distribution.md
@@ -158,6 +157,7 @@ pages:
 - pages/documents/Contact Center Management/Campaigns/campaign-goals.md
 - pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/target-audience.md
+- pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Messaging Channels/mobile app messaging/enhance-mobile-app-messaging.md
 - pages/documents/Messaging Channels/Rich messaging/audio-messaging-user-guide.md
 - pages/documents/Messaging Channels/Rich messaging/quick-replies-user-guide.md
