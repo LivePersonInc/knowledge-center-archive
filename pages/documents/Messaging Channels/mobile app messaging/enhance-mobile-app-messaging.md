@@ -1,15 +1,15 @@
 ---
-pagename: Enhance mobile app messaging
+pagename: 'Mobile app messaging capabilities '
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
-subtitle: Introduce rich messaging and shortcuts to make your mobile app messaging
-  more user friendly
+subtitle: Introduce rich messaging and shortcuts for an improved mobile app messaging
+  experience
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-enhance-mobile-app-messaging.html
-isTutorial: false
+permalink: messaging-channels-mobile-app-messaging-mobile-app-messaging-capabilities.html
+isTutorial: true
 date: 2019-01-17 13:12:13 +0000
-published: true
+isNew: false
 
 ---
 The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app available for you to configure.
@@ -33,8 +33,6 @@ Allow consumers to create a continuous connection with your brand through a fami
 * Attract consumers to your app by using push notifications to indicate when messages are waiting in-app.
 * Give consumers more control over the conversation with an action menu.
 
-  ![](/img/enahncemobileapp1.png)
-
 **Manage consumer expectations**
 
 Clearly communicated system messages regarding response time create a better service.
@@ -46,9 +44,9 @@ Clearly communicated system messages regarding response time create a better ser
 
 ## Use rich messaging
 
-![](/img/Rich messaging Gif.gif)
-
 Rich messaging will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
+
+![](/img/mobile-app-messaging-capabilities-1.gif)
 
 For mobile app messaging, you can offer the following structured content items:
 
