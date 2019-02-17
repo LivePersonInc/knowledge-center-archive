@@ -1,5 +1,5 @@
 ---
-pagename: Add Messaging to your Mobile App
+pagename: Add messaging to your mobile app
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
@@ -9,6 +9,7 @@ level3: ''
 permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
 isTutorial: false
 date: 2019-01-20 13:01:29 +0000
+isNew: false
 
 ---
 The following article describes the steps you need to take in order to add web messaging buttons and banners to your website.  For additional information on setting up your messaging program as a whole, including agent experience and operations, see [getting started with messaging]().
@@ -27,7 +28,7 @@ _To be completed within LiveEngage by campaign manager, contact center manager, 
 * Install the Mobile App application
 * Create new campaigns and engagements
 
-For an overview of campaigns in LiveEngage and their terminology, click here.
+For an overview of campaigns in LiveEngage and their terminology, [click here]().
 
 ## 1. Planning and thought starters
 
@@ -84,7 +85,7 @@ To do this, go to the campaigns area, select Data sources from the campaign foot
 3. Click “**Create.**” The Mobile App will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
 4. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
 
-![](/img/addmess1.png)
+![](/img/add-messaging-to-your-mobile-app-1.png)
 
 ## 4. Create a campaign
 
@@ -104,13 +105,9 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To create a new engagement, click** “**Add engagemen**t” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the campaign wizard.
+**To create a new engagement, click** “**Add engagemen**t” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the campaign wizard. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 
-**ADD SCREEN SHOT!!!!**
-
-There are three stages for creating mobile engagements: **settings, entry point and behavior.**
-
-![](/img/addmess2.png)
+![](/img/add-messaging-to-your-mobile-app-2.png)
 
 **Note:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
@@ -118,7 +115,7 @@ There are three stages for creating mobile engagements: **settings, entry point 
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
-**ADD SCREEN SHOT!!!!!**
+[**ADD SCREEN SHOT!!!!!**]()
 
 #### Authentication
 
@@ -142,9 +139,7 @@ Once your settings are complete, click **next**.
 
 You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
-**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen.
-
-For further information on **creating a new entry point**, please refer here.
+**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here]().
 
 When you are finished defining your entry point, click **next**.
 
@@ -152,21 +147,15 @@ When you are finished defining your entry point, click **next**.
 
 The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
 
-![](/img/addmess3.png)
+![](/img/add-messaging-to-your-mobile-app-3.png)
 
-When selecting the condition, look for a mobile phone icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for mobile engagements.
-
-For more information on **creating a new behavior**, click here.
+When selecting the condition, look for a mobile phone icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for mobile engagements. For more information on **creating a new behavior**, [click here]().
 
 When you are finished defining your visitor behavior, click **next**.
 
 ### Publish your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.
-
-![](/img/addmess4.png)
-
-To learn more about publishing and unpublishing campaigns, click here.
+Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns,[ click here]().
 
 ## Next steps
 
@@ -182,17 +171,13 @@ Once you have added the mobile engagements to your app, remember to follow the g
 
 Although you have the option to hide your messaging buttons at certain hours of the day, it is best practice to make the button appear at all times - and to set expectations for reply times. For example, if your contact center does not operate at night, you can change the automatic reply during off hours to: “Thank you for your message - we’ll answer you first thing tomorrow morning.”
 
-Through the platform, you can also set different working hours for different skills. For example, if your sales agents works until 7pm and your customer service agents are available 24/7 - you can adjust the automatic replies to reflect an accurate response time for each.
-
-Learn how to set up your working hours here.
+Through the platform, you can also set different working hours for different skills. For example, if your sales agents works until 7pm and your customer service agents are available 24/7 - you can adjust the automatic replies to reflect an accurate response time for each. Learn how to set up your working hours [here]().
 
 ### Customize the Automatic Messages for your Brand
 
 There are various messages that are automatically generated by LivePerson - such as ‘an agent will be right with you”, “your conversation has now ended” etc. By default, there are messages written for various anticipated scenarios, but you can adjust and customize the language and wording to suit your branding or individual skill.
 
-If you are communicating with your customers in multiple languages, you can also create different sets of automatic messages per languages.
-
-Learn how to customize your automatic messages.
+If you are communicating with your customers in multiple languages, you can also create different sets of automatic messages per languages. Learn how to customize your [automatic messages]().
 
 ### Create Predefined Answers for your Agents
 
@@ -205,18 +190,12 @@ You can create different sets of answers for use cases such as:
 * Frequently asked questions
 * Processes for various inquiries
 
-As you create campaigns, you can create messages that are specific to that topic or campaign and assign it based on skill or languages.
+As you create campaigns, you can create messages that are specific to that topic or campaign and assign it based on skill or languages. [Click here]() to learn how to customize your predefined content.
 
-Learn how to customize your predefined content
+### Set up a routing bot
 
-### Set up a routing bot 
+The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry. To learn more about the Routing Bot and how it is configured, [click here]().
 
-The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry.
+### Set up the post conversation survey
 
-To learn more about the Routing Bot and how it is configured, click here.
-
-### Set up the post conversation survey 
-
-The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction.
-
-To learn more about the Post Conversation Survey and how it is configured, click here.
+The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured,[ click here]().
