@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: 'With mobile engagements, consumers can easily start messaging conversations
   directly from your mobile app. '
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
+permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-appadd-messaging-to-your-mobile-app.html
 isTutorial: false
 date: 2019-01-20 13:01:29 +0000
 isNew: false
@@ -119,7 +119,7 @@ Once the app is installed on your LiveEngage account and a new campaign has been
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
-[**ADD SCREEN SHOT!!!!!**]()
+
 
 #### Authentication
 
