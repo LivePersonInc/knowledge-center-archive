@@ -7,7 +7,8 @@ subtitle: Use Automatic Conversation Distribution (ACD) to balance your agents�
 level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-conversation-distribution.html
 isTutorial: false
-date: 2019-01-20 14:33:55 +0200
+date: 2019-01-20 12:33:55 +0000
+isNew: false
 
 ---
 ### Balancing the agent workload
@@ -18,7 +19,7 @@ To avoid these problems, LivePerson’s Automatic Conversation Distribution (ACD
 
 ![](/img/acd-1.png)
 
-## How Automatic Conversation Distribution (ACD) works
+## How ACD works
 
 LivePerson’s ACD algorithm routes conversation requests to available agents according to their workload. The ACD algorithm takes into consideration how many conversations an agent is allowed to take, i.e., their maximum concurrency, as well as how many conversations the agent is currently handling. For brands using messaging, ACD also works to distribute conversations intelligently between messaging agents.
 
@@ -40,7 +41,7 @@ As you can see, Agent B has a lower Agent Load Ratio, so the ACD will route the 
 
 If both agents have the same load ratio, the chat is routed to the agent with the longest idle time. Idle time is determined by the time elapsed since the agent received the last chat
 
-For information on the routing of messaging conversations, please refer to the [Routing logic for messaging]() documentation.
+For information on the routing of messaging conversations, please refer to the [Routing logic for messaging](contact-center-management-messaging-operations-routing-logic-overview.html) documentation.
 
 ## Accepting a conversation
 
@@ -60,7 +61,7 @@ Incoming chats will ring to all logged in agents, regardless of their state (for
 {: .notice}
 The * indicator is for a new conversation in auto accept mode that has not yet been interacted with. This indicator cannot be turned on or off. It will happen automatically when the agent is in auto accept mode. This applies to both messaging and chat conversations.
 
-## How to Configure ACD
+## How to configure ACD
 
 ACD settings can be configured  in the LiveEngage Night Vision overlay, for chat and also for messaging if enabled on the account. Settings are configured once for all the agents and skills in the account:
 
@@ -68,7 +69,7 @@ ACD settings can be configured  in the LiveEngage Night Vision overlay, for cha
 2. Click Edit.
 3. The Change queue options window opens. Select one of the queue options. When selecting
 
-**Advanced Mode:**
+**Advanced mode:**
 
 1. Select the time interval before the conversation is sent back to the queue.
 2. If you want the agent status to change automatically if the agent doesn’t accept the chat, select change to Away. (optional, live chat only)
