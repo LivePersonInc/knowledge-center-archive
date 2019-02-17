@@ -23,6 +23,7 @@ _To be completed within your brand’s app by a mobile developer:_
 * Implement the new SDK
 * Implement the SDK’s Monitoring APIs
 
+<br/>
 _To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
@@ -68,7 +69,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 * [Monitoring API for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-sdk-apis-monitoring-api.html)
 * [Monitoring API for Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-sdk-apis-monitoring-api.html)
 
-## 3. Install the Mobile App Data Source
+## 3. Install the mobile app data source
 
 _(completed by contact center manager, project manager or program manager)_
 
@@ -76,14 +77,15 @@ Before you can create engagements for your mobile app, you must first configure 
 
 To do this, go to the campaigns area, select Data sources from the campaign footnote, and follow these instructions:
 
-**ADD SCREEN SHOT!!!!!!!**
-
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
-2. Edit the Mobile App source details
+
+![](/img/add-messaging-to-your-mobile-app-4.png)
+
+1. Edit the Mobile App source details
    1. Enter the name of your app (the default is Mobile App) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
-3. Click “**Create.**” The Mobile App will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
-4. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
+2. Click “**Create.**” The Mobile App will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
+3. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
 
 ![](/img/add-messaging-to-your-mobile-app-1.png)
 
@@ -99,6 +101,7 @@ When creating a new campaign, you first need to define the following:
 * [Target audience]()
 * [Time frame]()
 
+<br/>
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
 ### Create a new mobile app engagement

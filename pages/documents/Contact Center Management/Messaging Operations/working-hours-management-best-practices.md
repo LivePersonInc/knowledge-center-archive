@@ -2,7 +2,7 @@
 pagename: Working hours management best practices
 categoryName: Contact center management
 subCategoryName: Messaging operations
-indicator: both
+indicator: messaging
 subtitle: " In-depth information on working hours management limitations, clarifications
   and best oractices "
 level3: ''
@@ -11,9 +11,15 @@ isTutorial: false
 date: 2019-01-17 13:13:10 +0000
 
 ---
-The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins.
+### Workdays 
+
+The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. 
+
+During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. See more on shift in our [shift scheduler guide](/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html). 
 
 The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
+
+### Special occasions
 
 The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
 
@@ -53,6 +59,8 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
   * No aggregation between working hours and special occasion hours on the same day. Special occasions override the working hours configuration.
 * For customers who are using the “off hours by number of logged in agents” temporary workaround (to detect working hours according to the number of logged in agents), it is advised to **turn the temporary workaround OFF**, otherwise there is no guarantee that the expected time to response calculation will be accurate in all scenarios. The working hours feature is the permanent solution to the use case this workaround was intended for.
 
+{: .notice}
+
 Customers who keep the workaround ON will have the following experience (in most use cases, not 100% sure for edge cases):
 
 * If the account has a default workdays configuration - this will be the configuration considered in runtime
@@ -65,13 +73,11 @@ Customers who keep the workaround ON will have the following experience (in most
 
 ### Limitations for both API and UI
 
-Limitations when using the Working hours functionality both via the API and via the LiveEngage workspace:
-
-* The maximum length for a special occasion with shift status set to OFF is 30 days.
+The maximum length for a special occasion with shift status set to OFF is 30 days. This limitation applies when using the Working hours functionality both via the API and via the LiveEngage workspace.
 
 ## Best practices
 
-* In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and end at 1:00 am), they must be split into 2 separate shifts (first shift: 9:00 pm to 11:59 pm, second shift 12:00 am to 1:00 am)
+In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and end at 1:00 am), they must be split into 2 separate shifts (first shift: 9:00 pm to 11:59 pm, second shift 12:00 am to 1:00 am)
 
 ## FAQs
 
