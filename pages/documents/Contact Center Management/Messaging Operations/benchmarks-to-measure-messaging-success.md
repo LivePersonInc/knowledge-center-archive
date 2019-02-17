@@ -7,12 +7,13 @@ subtitle: 'Measure agent productivity, customer satisfaction, and ROI in messagi
 level3: ''
 permalink: contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html
 isTutorial: false
-date: 2019-01-20 12:00:57 +0200
+date: 2019-01-20 10:00:57 +0000
+isNew: false
 
 ---
 The most common question contact centers ask after deciding to embrace asynchronous messaging is: how should I measure the success of messaging?  This includes having the ability to measure agent productivity, customer satisfaction, and ROI.
 
-While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, messaging cannot be measured the same way. That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
+While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, [messaging cannot be measured the same way](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html). That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
 
 LivePerson has developed a set of proprietary data KPIs that enable brands to track and monitor the performance and success of their messaging programs.
 
@@ -24,7 +25,7 @@ LivePerson has developed a set of proprietary data KPIs that enable brands to tr
 | --- | --- | --- |
 | MCS | +20 - +30 | Meaningful Connection Score is an automated, real-time measurement of customer satisfaction through the analysis of sentiment that is applied to each message in a conversation. The MCS range is between -100 to 100. |
 
-LivePerson’s proprietary consumer sentiment analysis software that measures the consumer experience in real time is called Meaningful Connection Score (MCS). The MCS technology doesn’t rely on customers answering surveys, but rather automatically conducts an analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real-time.  The **MCS range** is between -100 to 100 where negative words and connotations will result in a negative number, and positive words will result in a positive number.
+LivePerson’s proprietary consumer sentiment analysis software that measures the consumer experience in real time is called [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html). The MCS technology doesn’t rely on customers answering surveys, but rather automatically conducts an analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real-time.  The **MCS range** is between -100 to 100 where negative words and connotations will result in a negative number, and positive words will result in a positive number.
 
 MCS can also be applied to skill, agent, agent group and line of business to get a full picture of any aspect of their operational performance. This allows the following applications:
 
@@ -63,4 +64,4 @@ Through the resolution tab, brands can determine how many login hours their prog
 
 ## Reporting on messaging KPIs
 
-Together with a proprietary customer satisfaction management tools to measure the consumer experience, demand, and overall contact center performance, LivePerson reports are tailored for asynchronous messaging. See the Data & Reporting section for more information on where to see these metrics.
+Together with a proprietary customer satisfaction management tools to measure the consumer experience, demand, and overall contact center performance, LivePerson reports are tailored for asynchronous messaging. See the [Data & Reporting section](data-reporting-business-reporting-metrics.html) for more information on where to see these metrics.
