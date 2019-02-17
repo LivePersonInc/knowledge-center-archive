@@ -102,8 +102,8 @@
         - pagename: Smart Capacity overview
         - pagename: Smart Capacity per skill
         - pagename: Preparing agents to start a shift
-        - pagename: Working hours management best practices
         - pagename: Shift scheduler configuration guide
+        - pagename: Working hours management best practices
         - pagename: Benchmarks to measure messaging success
     - subcategoryname: Live chat operations
       pages:
@@ -160,8 +160,8 @@
         - pagename: Adding your own widgets
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
-        - pagename: Predefined content best practices for messaging
         - pagename: Predefined content overview
+        - pagename: Predefined content best practices for messaging
         - pagename: Importing predefined content
 
 - categoryname: "Data & reporting"
@@ -316,7 +316,7 @@
             - level3name: Week 2
             - level3name: Week 3
             - level3name: Week 4
-            
+
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
