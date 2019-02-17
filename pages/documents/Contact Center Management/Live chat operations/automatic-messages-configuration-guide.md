@@ -16,7 +16,7 @@ Automatic messages are messages that are presented automatically in the Engageme
 
 * When the Engagement Window opens
 * When an agent accepts the conversation
-* When the consumer is transferred to another agent  
+* When the consumer is transferred to another agent
 
 ![](/img/automatic-messages-chat-1b.png)
 
@@ -26,19 +26,19 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 ### To customize an automatic message
 
-1.    Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
-2.    In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
+1. Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
+2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
 ![](/img/automatic-messages-chat-3b.png)
 
 {:start="3"}
-3.    Select a message to edit. The **Edit Automatic Message** page is displayed.
+3\.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
 ![](/img/automatic-messages-chat-4b.png)
 
 {:start="4"}
-4.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
-5.    Click **Save**.
+4\.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
+5\.    Click **Save**.
 
 {: .notice}
 The automatic message library can also be reached from the chat settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
@@ -47,17 +47,17 @@ The automatic message library can also be reached from the chat settings in the 
 
 1. On the **Edit Automatic Messages** page, click the “+” button next to the default language (English in the illustration above). The Engagement Language page is displayed.
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
-3.  Click **Save**.
+3. Click **Save**.
 
-   ![](/img/automatic-messages-chat-5b.png)
+![](/img/automatic-messages-chat-5b.png)
 
 ### To customize messages for a specific skill
 
 1. On the **Edit** **Automatic Messages** page, click the “+” button below the message description next to the default set. A skill selection floating window is displayed.
-2.  Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
-3.  Select a skill tab (for example Billing or Tech support, as shown in the illustration above). The skill’s related fields will appear. Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used.
-4.  Enter the relevant text to the text field. Note: you can dynamic text (see below).
-5.  Click **Save**. Note: you need to save your changes for each skill separately.
+2. Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
+3. Select a skill tab (for example Billing or Tech support, as shown in the illustration above). The skill’s related fields will appear. Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used.
+4. Enter the relevant text to the text field. Note: you can dynamic text (see below).
+5. Click **Save**. Note: you need to save your changes for each skill separately.
 
 ![](/img/automatic-messages-chat-7b.png)
 
@@ -78,12 +78,12 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 ### To add dynamic text to an automatic message
 
 1. Go to the Edit automatic message window. (See instructions in **To edit an automatic message**).
-2.  Place the cursor where you want to add the dynamic field in the sentence.
-3.  Click **Add dynamic text** and choose the text type you want to add.
+2. Place the cursor where you want to add the dynamic field in the sentence.
+3. Click **Add dynamic text** and choose the text type you want to add.
 4. Click **Save**.
 5. Click **Done**.
 
- ![](/img/automatic-messages-chat-9b.png)
+![](/img/automatic-messages-chat-9b.png)
 
 ## Available automatic messages for chat
 
@@ -114,8 +114,9 @@ When the consumer does not respond for a specified amount of time, two messages 
 
 | Message name in LiveEngage | Default text | Available dynamic text | Timeout | Can be disabled? |
 | --- | --- | --- | --- | --- |
-| Non-responsive Fair Warning | We have not heard from you for some time.  Do you wish to continue to chat? |  X | 180 | ✓ |
-| Non-responsive Final Warning | Since we have not heard from you for some time, we will now end this chat. Please contact us again if we can be of further assistance. |  X | 180 | ✓ |
+| Non-responsive Fair Warning | We have not heard from you for some time.  Do you wish to continue to chat? | X | 180 | ✓ |
+| Non-responsive Final Warning | Since we have not heard from you for some time, we will now end this chat. Please contact us again if we can be of further assistance. | X | 180 | ✓ |
+
 
 ### On-hold messages
 
