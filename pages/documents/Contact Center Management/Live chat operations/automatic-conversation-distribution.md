@@ -2,7 +2,7 @@
 pagename: Automatic Conversation Distribution
 categoryName: Contact center management
 subCategoryName: Live chat
-indicator: both
+indicator: chat
 subtitle: Use Automatic Conversation Distribution (ACD) to balance your agents’ workload
 level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-conversation-distribution.html
