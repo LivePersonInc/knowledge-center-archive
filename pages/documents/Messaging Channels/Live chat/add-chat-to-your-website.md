@@ -13,7 +13,7 @@ date: 2019-01-29 13:02:52 +0000
 ---
 Campaigns for chat allow brands to easily create and manage digital engagements, targeting customers based on engagement attributes or entry points and routing them to a desired skill. These buttons or banners can then be placed on your website to offer chat to your visitors.
 
-**For an overview of campaigns in LiveEngage and their terminology,** [**click here**]()**.**
+**For an overview of campaigns in LiveEngage and their terminology,** [**click here**]().
 
 ## 1. Planning and thought starters
 
@@ -95,7 +95,7 @@ You can select one of two security methods for your conversation.
 
   #### Language
 
-  The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
+  The engagement language selected in this step will only affect items in the agent workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
 Once your settings are complete, click **next**.
 
@@ -129,6 +129,6 @@ When selecting the condition, look for a globe icon next to the word “**Suppor
 
 When you are finished defining your visitor behavior, click **next**.
 
-### 5. Publishing your campaign
+## 5. Publishing your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.To learn more about publishing and unpublishing campaigns, [click here]().
