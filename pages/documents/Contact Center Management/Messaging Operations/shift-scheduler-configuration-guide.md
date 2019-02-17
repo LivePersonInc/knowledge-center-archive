@@ -11,8 +11,6 @@ isTutorial: false
 date: 2019-01-20 09:26:50 +0000
 
 ---
-## Introduction
-
 LivePerson enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation.
 
 You may define your account’s working hours in two ways:
@@ -49,7 +47,7 @@ You may choose from each of the methods above according to your brand’s needs.
    2. Choose “Off hours” when your connection center is inactive.
       * Define the next shift start date
       * Define the next shift start time
-      * Consumers will get auto messages with expected time to response equal to the time until next 			shift time + the conversation SLA.
+      * Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
       * LiveEngage will automatically set to “Online” again on the next shift date and time.
    3. Save the page.
 
@@ -64,24 +62,24 @@ The expected time to respond is also available for the agent, so it is clear to 
 The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.  
 **Note**: Special occasions do not modify hours of operation defined by Workdays, but instead override them.
 
-**To view limitations, clarifications and best practices for working hours management, refer to this** [**document**](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Working+hours+management+API+%2B+UI+-+Limitations%2C+Clarifications+%26+Best+Practices.pdf)**.**
+**See limitations, clarifications and best practices for** [**working hours management**](contact-center-management-messaging-operations-working-hours-management-best-practices.html)**.**
 
 ## Configuration
 
 **(Needed for both API + UI)**
 
-1. Configure [Automatic Messages](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=automatic-messages) on your account:
+1. Configure [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration-guide.html) on your account:
    * To enable Automatic Messages on your LiveEngage account, please contact your LivePerson account team.
 2. Mobile App (SDK) customers:
    * Use SDK versions 2.8 or higher.
    * The TTR toaster is no longer supported, even if it’s still enabled. Therefore, it is recommended to turn the TTR toaster message off.
-3. In case you are using the “[off hours by number of logged in agents](https://s3-eu-west-1.amazonaws.com/ce-sr/Release+Notes/2018/May+2018+Part+2.pdf)” feature - it is recommended to disable it. The working hours feature is the permanent solution to the use case this workaround was intended for.  
+3. In case you are using the “off hours by number of logged in agents” feature - it is recommended to disable it. The working hours feature is the permanent solution to the use case this workaround was intended for.  
    Contact your account team to disable it.
-4. Customize [Automatic Messages](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=automatic-messages) on your account.
+4. Customize Automatic Messages on your account.
 
-## Workdays and special occasions within LiveEngage
+## Workdays & special occasions in LiveEngage
 
-### Accessing the Schedule/Special Occasion libraries
+### Accessing schedule/special occasion libraries
 
 Scheduling items or Special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
 
@@ -99,11 +97,11 @@ Scheduling items or Special occasion items can be created through the Schedule o
    Click the “Set days and hours” button in order to access the Schedule library (see image)
 4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library:
 
-   ![](/img/shift-scheduler-CG-5.png)
+   ![](/img/shift-scheduler-CG-5b.png)
 
    The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
 
-![](/img/shift-scheduler-CG-6.png)
+![](/img/shift-scheduler-CG-6b.png)
 
 ### Creating a new workday item
 
@@ -112,7 +110,7 @@ Scheduling items or Special occasion items can be created through the Schedule o
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
 
-![](/img/shift-scheduler-CG-7.png)
+![](/img/shift-scheduler-CG-7b.png)
 
 You may choose between:
 
@@ -176,7 +174,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 4. The Skill page will be displayed, and a summary of the Schedule/Special Occasion item details will be presented on the screen for you to review.
 5. Click “Save” in order to save the skill with it’s new working hours changes.
 
-![](/img/shift-scheduler-CG-8.png)
+![](/img/shift-scheduler-CG-8b.png)
 
 ## Workdays and Special Occasions using the APIs
 
@@ -211,13 +209,13 @@ In order to generate App Keys to access the API, follow the following steps:
 4. Under Administration, choose the Working Hours API  
    Then, simply choose the permission needed out of:
 
-   ![](/img/shift-scheduler-CG-9.png)
+   ![](/img/shift-scheduler-CG-9b.png)
 
 * **Read** - to access (read) all Workdays or Special Occasions defined on your account.
 * **Write** - to create/edit/delete Workdays or Special Occasions defined on your account.
 * **Edit skill working hours** - to create/update/delete skill’s Workdays or Special Occasions field.
 
-  ![](/img/shift-scheduler-CG-10.png)
+  ![](/img/shift-scheduler-CG-10b.png)
 
 {:start="5"}
 5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
