@@ -9,7 +9,7 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-messages.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 14:22:36 +0200
+date: 2019-01-23 12:22:36 +0000
 
 ---
 Automatic messages are messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. For example:
@@ -18,7 +18,7 @@ Automatic messages are messages that are presented automatically in the Engageme
 * When an agent accepts the conversation
 * When the consumer is transferred to another agent  
 
-![](/img/automatic-messages-chat-1.png)
+![](/img/automatic-messages-chat-1b.png)
 
 ## Configuration
 
@@ -30,17 +30,17 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 1.    Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
 
-![](/img/automatic-messages-chat-2.png)
+![](/img/automatic-messages-chat-2b.png)
 
 {:start="2"}
 2.    In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
-![](/img/automatic-messages-chat-3.png)
+![](/img/automatic-messages-chat-3b.png)
 
 {:start="3"}
 3.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
-![](/img/automatic-messages-chat-4.png)
+![](/img/automatic-messages-chat-4b.png)
 
 {:start="4"}
 4.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
@@ -55,11 +55,11 @@ The automatic message library can also be reached from the chat settings in the 
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3.  Click **Save**.
 
-   ![](/img/automatic-messages-chat-5.png)
+   ![](/img/automatic-messages-chat-5b.png)
 
 ### To customize messages for a specific skill
 
-![](/img/automatic-messages-chat-6.png)
+![](/img/automatic-messages-chat-6b.png)
 
 1. On the **Edit** **Automatic Messages** page, click the “+” button below the message description next to the default set. A skill selection floating window is displayed.
 2.  Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
@@ -67,7 +67,7 @@ The automatic message library can also be reached from the chat settings in the 
 4.  Enter the relevant text to the text field. Note: you can dynamic text (see below).
 5.  Click **Save**. Note: you need to save your changes for each skill separately.
 
-![](/img/automatic-messages-chat-7.png)
+![](/img/automatic-messages-chat-7b.png)
 
 ## Adding dynamic text to messages
 
@@ -81,7 +81,7 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 * _Agent name_: The nickname of the current operator {name}.
 * _Email address_: The visitor’s email address {email}.
 
-![](/img/automatic-messages-chat-8.png)
+![](/img/automatic-messages-chat-8b.png)
 
 ### To add dynamic text to an automatic message
 
@@ -91,7 +91,7 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 4. Click **Save**.
 5. Click **Done**.
 
- ![](/img/automatic-messages-chat-9.png)
+ ![](/img/automatic-messages-chat-9b.png)
 
 ## Available automatic messages for chat
 
