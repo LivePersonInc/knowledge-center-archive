@@ -105,7 +105,7 @@ Scheduling items or Special occasion items can be created through the Schedule o
 
 ### Creating a new workday item
 
-1. [Access the Scheduling library](https://docs.google.com/document/d/1dvHvTsVpGLMN0Q4r2PE4ANYKGDPcVDoF_0Nal9BNRpg/edit#heading=h.6ay2hihmcz4s) on your LiveEngage account.
+1. Access the Scheduling library on your LiveEngage account.
 2. Click “Add new”
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
@@ -130,7 +130,7 @@ You may also define multiple shifts per single day of the week. Simply click the
 
 ### **Creating a new special occasion item**
 
-8\. [Access the Special Occasion library](https://docs.google.com/document/d/1dvHvTsVpGLMN0Q4r2PE4ANYKGDPcVDoF_0Nal9BNRpg/edit#heading=h.6ay2hihmcz4s) on your LiveEngage account.
+8\. Access the Special Occasion library on your LiveEngage account.
 
 9\. Click “Add new”
 
@@ -156,9 +156,9 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 
 16\. The new special occasion item will now appear in the special occasion library.
 
-### Assigning workdays/special occasions per account
+### Assigning Workdays/Special Occasions per account
 
-1. [Access the Schedule/Special occasions library via the account Shift Scheduler page](https://docs.google.com/document/d/1dvHvTsVpGLMN0Q4r2PE4ANYKGDPcVDoF_0Nal9BNRpg/edit#heading=h.ya1ndg5bkttd)
+1. Access the Schedule/Special occasions library via the account Shift Scheduler page
 2. Choose the item which you would like to assign as your account default.  
    The item will be marked with an orange border.
 3. Click “Done”:
@@ -167,7 +167,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 
 ### Assigning workdays/special occasions per skill
 
-1. [Access the Schedule/Special occasion library via the account Skills page](https://docs.google.com/document/d/1dvHvTsVpGLMN0Q4r2PE4ANYKGDPcVDoF_0Nal9BNRpg/edit#heading=h.w1eb73h8y3cy)
+1. Access the Schedule/Special occasion library via the account Skills page
 2. Choose the item which you would like to assign as your account default.  
    The item will be marked with an orange border.
 3. Click “Done”:
@@ -190,8 +190,7 @@ See [Special Occasion API -> Create Special Occasion Object](https://developers.
 
 The **“isDefault”** field determines whether a workdays object is the default for the entire account. Only one object can be set as the default for each account.
 
-{: .notice}
-if you create a new workdays object with an isDefault key set to true when there's already a special occasions object set as default for the account, LivePerson validation will set the new object created as the default. Refer to [Update workdays  ](https://developers.liveperson.com/account-configuration-workdays-create.html)
+{: .notice} if you create a new workdays object with an isDefault key set to true when there's already a special occasions object set as default for the account, LivePerson validation will set the new object created as the default. Refer to [Update workdays.](https://developers.liveperson.com/account-configuration-workdays-create.html)
 
 ### Assigning workdays/special occasions per skill
 
@@ -220,7 +219,7 @@ In order to generate App Keys to access the API, follow the following steps:
 {:start="5"}
 5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
-For additional info on creating API keys - [LiveEngage APIs and SDKs](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=get-started-LE-APIs) documentation.
+For additional info on creating API keys - [LiveEngage APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
 
 ## Profiles and permissions
 
