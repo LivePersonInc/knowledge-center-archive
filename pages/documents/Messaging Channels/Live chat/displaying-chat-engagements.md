@@ -55,7 +55,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/dis eng 1.png)
+![](/img/displaying-chat-engagements-1.png)
 
 ### 6. Offsite engagements
 
@@ -106,8 +106,6 @@ Offsite engagements are also helpful for brands wanting to use an IVR deflection
 
 Offsite engagements allow you to reduce the cost of your contact centers, and increase consumer satisfaction by deflecting calls to chat instead of letting consumers wait on hold. For example, to improve service and offer immediate support, you can add a QR code to the monthly bills you send out and consumers can scan this in order to chat with your agents.
 
-![](/img/dis eng 2.png)
-
 ### Boost sales and revenue
 
 Offsite engagements allow you to increase sales and create new leads by engaging with consumers via a variety of touchpoints, such as digital advertising, emails and catalogues. For example, you’re promoting your climbing gear this week and you want to bring consumers to chat via your ad in the popular online climbing magazine, climb-extreme.cn. Your agents have been briefed to drive sales for the gear. The same goes for ads in all the locations that you are advertising. You can invite them to engage with your agents even if they’ve never visited your site.
@@ -117,24 +115,17 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 1. Create a Campaign and fill in the campaign details (name, target audience and timeframe).
 2. Click **Add engagement**. From the menu, **select** **“Offsite”** engagement source:
 
-   ![](/img/dis eng 3.png)
+   ![](/img/displaying-chat-engagements-2.png)
 
 {:start="3"}
 3\. The engagement settings page will open.
 
-![](/img/dis eng 4.png)
+![](/img/displaying-chat-engagements-3.png)
 
 {:start="4"}
 
 1. Select the Offsite Source; this is the source from which you want to engage with your consumer (e.g. email, social media).
-
-![](/img/dis eng 5.png)
-
-{:start="5"}
-
-1. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
-
-![](/img/dis eng 6.png)
+2. Enter the URL of the page where you want to embed the chat window. This is the URL to which your consumers will be redirected when clicking the Engagement URL.
 
 <div class="notice">
 <b>Note:</b>
@@ -155,23 +146,18 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 8. When you’ve finished creating the engagement, enable it and publish its campaign.
 9. Copy the engagement URL and use it in your selected touch point.
 
-![](/img/dis eng 7.png)
+![](/img/displaying-chat-engagements-4.png)
 
 ## Publishing the engagement
 
 Once you’ve finished creating your engagement, follow these steps to publish it:
 
 1. From the Campaign page, copy the engagement URL.
-
-![](/img/dis eng 8.png)
-
-{:start="2"}
-
-1. Choose how and where you want to publish the URL. You can:
-   * Create a shortened URL and publish the link. You can use a website such as [https://bitly.com] shorten the links
+2. Choose how and where you want to publish the URL. You can:
+   * Create a shortened URL and publish the link. You can use a website such as \[https://bitly.com\] shorten the links
    * Create a QR code. Use one of the QR code generator services such as [qrcode-monkey.](http://www.qrcode-monkey.com/)
-2. Enable your engagement and publish the campaign.
-3. Publish the link/QR code where you want to engage with your consumers.
+3. Enable your engagement and publish the campaign.
+4. Publish the link/QR code where you want to engage with your consumers.
 
 ### Target audience for offsite engagements
 
@@ -196,19 +182,17 @@ When an engagement is disabled, consumers will be redirected to a **default** of
 
 If and when you re-enable your engagement, consumers will be directed to the URL you configure on the Engagement Details page.
 
-![](/img/dis eng 9.png)
-
 ## How to set up inactive engagement behavior
 
 1. From the Campaigns page footnote, click **inactive engagements**.
 
-![](/img/dis eng 10.png)
+![](/img/displaying-chat-engagements-5.png)
 
 {:start="2"}
 
 1. Choose a survey from your existing offline surveys or enter a URL to which consumers will be redirected when clicking any inactive engagement. These can include engagements that have been disabled or deleted, and campaigns that have expired, been deleted or unpublished.
 
-![](/img/dis eng 11.png)
+![](/img/displaying-chat-engagements-6.png)
 
 {:start="3"}
 
