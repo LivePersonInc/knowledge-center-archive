@@ -62,9 +62,7 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard.
-
-There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
+**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
 ![](/img/add-chat-to-your-website-1.png)
 
@@ -78,15 +76,28 @@ On this page, you can define the **conversation channel**, **authentication**, *
 
 ![](/img/add-chat-to-your-website-2.png)
 
-1. **Conversation channel:** Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
-2. **Authentication:** You can select one of two security methods for your conversation.
+##### Conversation channel 
+
+Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
+
+##### Authentication
+
+You can select one of two security methods for your conversation.
 
 * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add chat to pages within the logged in area of their website. To ensure your engagement will target authenticated chat conversations, enable the Authentication toggle.
 * **Unauthenticated** For unauthenticated chat conversations, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
 
-1. **Routing:** Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
-2. **Window presentation:** Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
-3. **Language:** The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
+  ##### Routing
+
+  Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
+
+  ##### Window presentation
+
+  Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
+
+  ##### Language
+
+  The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
 Once your settings are complete, click **next**.
 
