@@ -16,7 +16,7 @@ The LivePerson in-app messaging SDK allows brands to build a full-scale consumer
 
 By facilitating rich conversations with beyond-text capabilities, our SDK enables you to enhance the in-app messaging experience for your consumers with a full range of features. Here’s how:
 
-## **Deliver messaging basics**
+## **Mobile messaging basics**
 
 <iframe src="https://player.vimeo.com/video/312501523" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -33,7 +33,7 @@ Allow consumers to create a continuous connection with your brand through a fami
 * Attract consumers to your app by using push notifications to indicate when messages are waiting in-app.
 * Give consumers more control over the conversation with an action menu.
 
-**Manage consumer expectations**
+### **Managing consumer expectations**
 
 Clearly communicated system messages regarding response time create a better service.
 
@@ -42,7 +42,7 @@ Clearly communicated system messages regarding response time create a better ser
 * Keep consumers informed at all times with a longer response time calculated for offline hours.
 * Display read notifications, message timestamps and ‘agent is typing’ status to ensure consumers are always aware of agent activity during a conversation
 
-## Use rich messaging
+## Using rich messaging
 
 Rich messaging will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
 
