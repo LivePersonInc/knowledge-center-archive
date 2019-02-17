@@ -66,7 +66,7 @@ You can now begin creating banners or buttons to add to your website. These enga
 
 There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
-![](/img/add chat 1.png)
+![](/img/add-chat-to-your-website-1.png)
 
 #### I. Template gallery
 
@@ -76,41 +76,43 @@ The template gallery page allows you to choose the format of your engagement and
 
 On this page, you can define the **conversation channel**, **authentication**, **routing, window presentation** and **language** settings for your engagement.
 
-![](/img/Screen Shot 2019-01-29 at 3.49.30 PM-1.png)
+![](/img/add-chat-to-your-website-2.png)
 
-  1. **Conversation channel:** Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
-  2. **Authentication:** You can select one of two security methods for your conversation.
-  * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add chat to pages within the logged in area of their website. To ensure your engagement will target authenticated chat conversations, enable the Authentication toggle.
-  * **Unauthenticated** For unauthenticated chat conversations, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
-  3. **Routing:** Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
-  4. **Window presentation:** Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
-  5. **Language:** The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
+1. **Conversation channel:** Select if you want the engagement to lead to a chat conversation or to a simple link. From the _conversation type_ drop down, select **Live chat**.
+2. **Authentication:** You can select one of two security methods for your conversation.
 
+* **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add chat to pages within the logged in area of their website. To ensure your engagement will target authenticated chat conversations, enable the Authentication toggle.
+* **Unauthenticated** For unauthenticated chat conversations, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
 
-   Once your settings are complete, click **next**.
+1. **Routing:** Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
+2. **Window presentation:** Select the mode in which the conversation window will be presented to the consumer, either embedded in the page or as a separate browser window.
+3. **Language:** The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
+
+Once your settings are complete, click **next**.
 
 #### III. Engagement studio
 
-The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, click here.
+The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements,[ click here]().
 
 #### IV. Conversation window
 
-The engagement window studio allows you to customize the chat conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements like surveys. For more information on the conversation window design, click here.
+The engagement window studio allows you to customize the chat conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements like surveys. For more information on the conversation window design, [click here]().
 
 **Surveys:** Surveys are the perfect tool for collecting feedback from your consumers and improving service. To read more about the types of surveys available for chat and how they can be enabled, click here.
+
 * Pre-chat survey: The pre-chat survey provides agents with information about the visitor prior to the onset of the chat. The details are displayed in the agent workspace allowing them to better understand the needs of the visitor.
 * Post-chat survey: Post-chat surveys boost consumer satisfaction and help you to improve your business. In these surveys, your visitors are asked to rate the service provided in the chat. You can subsequently use this information to evaluate the performance of your agents.
 * Agent survey: The agent survey is an important tool that allows you to gather data and insights from your agents about their conversations with consumers. Gathering data from the agent's perspective helps you determine and analyze the nature of the chat and understand its outcome.
 
 #### V. Entry point
 
-You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on **creating a new entry point**, please refer here.
+You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on **creating a new entry point**, please refer [here]().
 
 When you are finished defining your entry point, click **next**.
 
 #### VI. Visitor behavior
 
-The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior. For more information on **creating a new behavior**, click here.
+The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior. For more information on **creating a new behavior**, [click here]().
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
@@ -118,6 +120,4 @@ When you are finished defining your visitor behavior, click **next**.
 
 ### 7. Publishing your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.To learn more about publishing and unpublishing campaigns, click here.
-
-![](/img/unnamed (4).png)
+Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish.To learn more about publishing and unpublishing campaigns, [click here]().
