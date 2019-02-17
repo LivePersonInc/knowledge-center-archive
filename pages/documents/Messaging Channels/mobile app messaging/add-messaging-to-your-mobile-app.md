@@ -12,9 +12,9 @@ date: 2019-01-20 13:01:29 +0000
 isNew: false
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your website.  For additional information on setting up your messaging program as a whole, including agent experience and operations, see [getting started with messaging]().
+The following article describes the steps you need to take in order to add web messaging buttons and banners to your website. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [getting started with messaging]().
 
-With campaigns for Mobile App Messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
+With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
 ### Mobile app engagements require the following steps to configure:
 
@@ -45,7 +45,7 @@ Answering these questions will help you prepare and streamline your campaign cre
 6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track  the conversations made over messaging?
 7. Prep the right messages for your consumers and agents
 
-## 2. Mobile App Configuration
+## 2. Mobile app configuration
 
 _(completed by mobile developers)_
 
@@ -79,10 +79,10 @@ Before you can create engagements for your mobile app, you must first configure 
 
 {:start="2"}
 
-1. Edit the Mobile App source details
-   1. Enter the name of your app (the default is Mobile App) and add a description if you wish.
+1. Edit the mobile app source details
+   1. Enter the name of your app (the default is mobile app) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
-2. Click “**Create.**” The Mobile App will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
+2. Click “**Create.**” The mobile app will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
 3. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
 
 ![](/img/add-messaging-to-your-mobile-app-1.png)
@@ -112,7 +112,7 @@ Once the app is installed on your LiveEngage account and a new campaign has been
 
 **Note:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
-### Engagement Settings
+### Engagement settings
 
 On this page, you can define **authentication**, **routing** and **language** settings for your engagement.
 
@@ -136,7 +136,7 @@ The window language displayed within the app (hardcoded texts like button text, 
 
 Once your settings are complete, click **next**.
 
-### Entry Point
+### Entry point
 
 You will now reach the entry point library. An entry point is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
@@ -144,7 +144,7 @@ You will now reach the entry point library. An entry point is the section within
 
 When you are finished defining your entry point, click **next**.
 
-### Visitor Behavior
+### Visitor behavior
 
 The next page is the visitor behavior library. Here you can decide when to display engagements according to your consumers’ behavior by selecting the consumer behavior conditions you wish to impose on the target audience. From the visitor behavior library, you can choose the desired behavior from the existing items, or click “**Add new**” to define a new behavior.
 
@@ -154,7 +154,7 @@ When selecting the condition, look for a mobile phone icon next to the word “*
 
 When you are finished defining your visitor behavior, click **next**.
 
-### Publish your campaign
+### Publishing your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns,[ click here]().
 
@@ -174,13 +174,13 @@ Although you have the option to hide your messaging buttons at certain hours of 
 
 Through the platform, you can also set different working hours for different skills. For example, if your sales agents works until 7pm and your customer service agents are available 24/7 - you can adjust the automatic replies to reflect an accurate response time for each. Learn how to set up your working hours [here]().
 
-### Customize the Automatic Messages for your Brand
+### Customize the Automatic Messages for your brand
 
 There are various messages that are automatically generated by LivePerson - such as ‘an agent will be right with you”, “your conversation has now ended” etc. By default, there are messages written for various anticipated scenarios, but you can adjust and customize the language and wording to suit your branding or individual skill.
 
 If you are communicating with your customers in multiple languages, you can also create different sets of automatic messages per languages. Learn how to customize your [automatic messages]().
 
-### Create Predefined Answers for your Agents
+### Create predefined answers for your agents
 
 For increased efficiency in your contact center, you can create predefined sentences and paragraphs that your staff can easily search and enter into conversations.
 
