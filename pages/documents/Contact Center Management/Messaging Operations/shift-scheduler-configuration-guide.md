@@ -176,7 +176,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 
 ![](/img/shift-scheduler-CG-8b.png)
 
-## Workdays and Special Occasions using the APIs
+## Workdays & special occasions using APIs
 
 ### Creating a new workday item
 
