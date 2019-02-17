@@ -11,11 +11,11 @@ isTutorial: false
 date: 2019-01-17 13:13:10 +0000
 
 ---
-### Workdays 
+### Workdays
 
-The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings. 
+The configuration of scheduled [Workdays](https://developers.liveperson.com/account-configuration-workdays-overview.html) allows you to set hours of operation for specific days of the week and assign them as the account's default settings or for each individual skill, which overrides the default settings.
 
-During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. See more on shift in our [shift scheduler guide](/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html). 
+During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. See more on shifts in our [shift scheduler guide](/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
 
 The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
