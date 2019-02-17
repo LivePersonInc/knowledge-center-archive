@@ -51,9 +51,7 @@ _(completed by mobile developers)_
 
 ### Add messaging to your SDK
 
-Work with your developers to build the in-app messaging SDK into your app
-
-For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developer Community:
+Work with your developers to build the in-app messaging SDK into your app. For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developer Community:
 
 * [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
 * [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
@@ -73,9 +71,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 
 _(completed by contact center manager, project manager or program manager)_
 
-Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage.
-
-To do this, go to the campaigns area, select Data sources from the campaign footnote, and follow these instructions:
+Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the campaigns area, select Data sources from the campaign footnote, and follow these instructions:
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
