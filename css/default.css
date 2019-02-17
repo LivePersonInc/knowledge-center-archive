@@ -809,10 +809,9 @@ ul.mysidebar.nav > li:first-of-type {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 18px;
-  font-weight: 900;
   margin-right: 10px;
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 
 /* A few Algolia corrections to contradict home.css */
