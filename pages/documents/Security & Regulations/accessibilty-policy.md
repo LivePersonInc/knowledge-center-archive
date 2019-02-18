@@ -351,7 +351,4 @@ To summarize, these various accessibility services are designed to complement on
 
 # **Recommended reading**
 
-* [Web Content Accessibility Guidelines (WCAG) 2.0]()
-* [JAWS Screen Reader Guidelines]()
-* [Windows Narrator Guide]()
-* [NVDA User Guide]()
+[Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/)
