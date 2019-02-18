@@ -23,7 +23,7 @@ The pre-chat survey provides agents with information about the visitor prior to 
 
 Post-chat surveys boost consumer satisfaction and help you to improve your business. In these surveys, your visitors are asked to rate the service provided in the chat. You can subsequently use this information to evaluate the performance of your agents.
 
-## Offline surveys
+## Offline survey
 
 Offline surveys are presented to visitors when no agents are available to chat, and they can rest assured that you will follow up with them during regular business hours. This ensures a better experience for your visitors and offers you another opportunity to engage with them.
 
