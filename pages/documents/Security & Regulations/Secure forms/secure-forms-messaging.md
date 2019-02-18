@@ -159,7 +159,7 @@ To verify that permissions are enabled:
 4. Click Save.
 
 {: notice}  
-If you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ customize user profiles.]()
+If you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ customize user profiles.](admin-settings-permissions-customize-permissions.html)
 
 ### Creating secure forms
 
