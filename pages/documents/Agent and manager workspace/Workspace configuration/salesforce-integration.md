@@ -1,5 +1,5 @@
 ---
-pagename: 'Salesforce integration guide'
+pagename: Salesforce integration guide
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: both
@@ -8,9 +8,9 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: true
----
+published: false
 
+---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
 
 **Please note:** The information in this guide refers to both chat and messaging, unless otherwise indicated.
