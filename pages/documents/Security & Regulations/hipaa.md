@@ -1,6 +1,6 @@
 ---
 pagename: LivePerson’s HIPAA compliance
-categoryName: 'Security & regulations'
+categoryName: Security & regulations
 subCategoryName: ''
 indicator: both
 subtitle: ''
@@ -8,28 +8,29 @@ level3: ''
 permalink: security-regulations-hippa-compliance.html
 isTutorial: false
 isNew: false
-date: 2019-01-31 13:44:17 +0200
-published: true
+date: 2019-01-31 11:44:17 +0000
 
 ---
 ## What is HIPAA?
 
 The Health Insurance Portability and Accountability Act (HIPAA) was enacted by Congress in 1996. The Health Information Technology for Economic and Clinical Health Act (HITECH Act) was enacted in 2009. Together, the two laws specify requirements for the privacy and security of protected health information (PHI) and apply to all healthcare providers, payers, their business associates, and subcontractors. The laws also establish strict civil and criminal penalties for breaches of PHI and additional steps healthcare organizations must take to respond to breaches.
 
-HIPAA-HITECH apply to “covered entities”, which include **_doctors, hospitals, health insurance companies and other healthcare providers_**. HIPAA’s Omnibus Rule, which went into effect in 2013, extends the law to include all business associates of covered entities. These include health information organizations, e-prescribing gateways, and **_any other entity that provides data transmission services to a covered entity _**or provides personal health records on behalf of a covered entity and who requires access on a routine basis to PHI. In addition, **_all subcontractors of the business associates and covered entities must comply with HIPAA-HITECH if they access PHI of the covered entity_**. Finally, the Omnibus Rule requires any individual who creates, receives, maintains, or transmits PHI on behalf of a covered entity to comply with HIPAA-HITECH.
+HIPAA-HITECH apply to “covered entities”, which include doctors, hospitals, health insurance companies and other healthcare providers. 
 
-The U.S. Department of Health and Human Services (HHS), the entity responsible for HIPAA, does not require or formally recognize any HIPAA certification programs for CSPs.  
+HIPAA’s Omnibus Rule, which went into effect in 2013, extends the law to include all business associates of covered entities. These include health information organizations, e-prescribing gateways, and any other entity that provides data transmission services to a covered entity or provides personal health records on behalf of a covered entity and who requires access on a routine basis to PHI. 
 
-What you want is a CSP that has the necessary controls and processes in place to comply with the HIPAA requirements for which it is responsible
+In addition, all subcontractors of the business associates and covered entities must comply with HIPAA-HITECH if they access PHI of the covered entity. Finally, the Omnibus Rule requires any individual who creates, receives, maintains, or transmits PHI on behalf of a covered entity to comply with HIPAA-HITECH.
+
+The U.S. Department of Health and Human Services (HHS), the entity responsible for HIPAA, does not require or formally recognize any HIPAA certification programs for CSPs. It is necessary to have a CSP that has controls and processes in place to comply with the HIPAA requirements for which it is responsible
 
 LivePerson enters into business associate agreements (BAAs) with HIPAA-covered entities, certifying that LivePerson protects personal health information (PHI) in accordance with HIPAA guidelines.
 
-HIPAA requirements are as follow and each are met by LivePerson:
+HIPAA requirements are as follows and each are met by LivePerson:
 
 **Access control:**
 
 1. Unique Identifier required to determine user identity in electronic records
-2.  Emergency procedure required for obtaining electronic PHI (ePHI) during an emergency
+2. Emergency procedure required for obtaining electronic PHI (ePHI) during an emergency
 3. Automatic Logoff that terminates an electronic session after a time of inactivity
 4. Encryption and Decryption of ePHI
 
@@ -41,7 +42,7 @@ HIPAA requirements are as follow and each are met by LivePerson:
 
 **Transmission security:** Ensure that electronically transmitted ePHI is encrypted and is not improperly modified without detection.
 
-**Facility access control**		
+**Facility access control**
 
 1. Establish procedures to allow facility access in support of restoration of lost data
 2. Establish policies to safeguard the facility from unauthorized physical access, altering, and theft
@@ -58,7 +59,7 @@ HIPAA requirements are as follow and each are met by LivePerson:
 1. Implement secure policies for disposal of devices/media storing ePHI
 2. Implement policies for secure removal of ePHI before device/media can be re-used
 3. Keep a record of movement of devices/media containing ePHI and any person responsible for it
-4.  Backup ePHI, when needed, before movement of equipment
+4. Backup ePHI, when needed, before movement of equipment
 
 ## Admin safeguards
 
@@ -72,7 +73,7 @@ HIPAA requirements are as follow and each are met by LivePerson:
 * **Evaluation:** Periodic evaluation of HIPAA to ensure continued compliance
 * **BAA:** Sign agreements with partners ensuring they follow HIPAA
 
-## HIPAA,Privacy Rule
+## HIPAA privacy rule
 
 * Disallow impermissible use and disclosure of PHI
 * Notify covered entity of breaches
@@ -80,7 +81,7 @@ HIPAA requirements are as follow and each are met by LivePerson:
 * Disclose PHI to Secretary of Health and Human Services (HSS), when asked
 * Document and account for all disclosures of PHI
 
-## HIPAA, Breach Notification
+## HIPAA breach notification
 
 * Notify patients when there is a breach of unsecured PHI
 * Notify HHS if there is any breach of unsecured PHI
