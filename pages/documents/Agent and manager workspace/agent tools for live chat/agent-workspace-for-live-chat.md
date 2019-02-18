@@ -7,12 +7,18 @@ subtitle: 'Manage chat conversations efficiently '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html
 isTutorial: false
-date: 2019-01-21 14:19:13 +0200
+date: 2019-01-21 12:19:13 +0000
 
 ---
 ## Login and status
 
-\--need to add section
+The agent workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
+
+1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](http://oavrxoiy0ht8aq.live.forestry.io:8080/getting-started-getting-started-with-live-chat.html)
+2. Create users for the agents that will be taking the conversations. To learn how to set up users, [click here](http://oavrxoiy0ht8aq.live.forestry.io:8080/getting-started-getting-started-with-live-chat.html).
+3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
+
+[Click here]() to learn more about getting started with chat.
 
 ## The visitors list
 
