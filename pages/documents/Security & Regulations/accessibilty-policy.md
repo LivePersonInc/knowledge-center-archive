@@ -9,7 +9,7 @@ level3: ''
 permalink: security-regulations-accessibility-policy.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 14:47:14 +0200
+date: 2019-01-24 12:47:14 +0000
 
 ---
 LivePerson is a leading provider of mobile and online messaging, facilitating a meaningful connection between brands and consumers. LiveEngage, the Company's enterprise-class, cloud-based platform, allows consumers to stop wasting time on hold with impersonal 1-800 numbers, and instead directly message their favorite brands, just as they do with friends and family. More than 18,000 businesses, including Adobe, Citibank, EE, HSBC, IBM, Orbitz, PNC, Home Depot, and Disney rely on the unparalleled intelligence, security and scalability of LiveEngage to reduce costs, increase lifetime value and create meaningful connections with consumers.
@@ -26,11 +26,11 @@ The regulations in the US and other countries, such as the UK and Canada, requir
 
 In order to incorporate these guidelines, we work with the international accessibility consulting organization - “Deque Systems”. Deque Systems have completed a thorough assessment of LiveEngage accessibility, and have subsequently awarded LivePerson the official accessibility stamp. The assessment included working closely with people with disabilities who reviewed and operated our products. This practice enables us to implement, first-hand, the beneficial suggestions made by impaired individuals who understand our product.
 
-View LivePerson’s [certification of concordance]()
+View LivePerson’s [certification of concordance](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
 
 For more information on Deque Systems, refer to [http://www.deque.com.](http://www.deque.com. "http://www.deque.com.")
 
-## **Technology standards**
+## Technology standards
 
 LivePerson's services are designed to work with assistive technologies, such as text-to-speech readers, by supporting the ARIA standard. More specifically, LivePerson has selected NVDA as the baseline for ensuring optimal user experience for visually impaired users on desktop, VoiceOver for mobile web users over iOS, and TalkBack for mobile web users over Android.
 
@@ -38,17 +38,17 @@ Making messaging and chat accessible proved to be challenging due to its dynamic
 
 LiveEngage has been awarded an official accessibility stamp in the following environments:
 
-* Desktop: Windows 10, Firefox browser, NVDA screen reader
-* IOS: iOS 11, Safari browser, VoiceOver screen reader
-* Android: Android 8, Chrome browser, TalkBack screen reader
+* **Desktop:** Windows 10, Firefox browser, NVDA screen reader
+* **IOS:** iOS 11, Safari browser, VoiceOver screen reader
+* **Android:** Android 8, Chrome browser, TalkBack screen reader
 
-## **Overview of the embedded engagement window**
+## Overview of the embedded engagement window
 
 The embedded engagement window offers a rich, seamless experience that enables brands to drive an overall better customer experience as well as earn customer loyalty. Agents are able to chat with visitors, share various content (including Secure Forms) and display them in an expanded media area located within the visitor's window.
 
 Please note throughout this document, when referring to the Engagement window, this applies for both online chat and web messaging.
 
-### **Embedded engagement window Layout**
+### Embedded engagement window layout
 
 Below is the Embedded Engagement window with its various components labelled.
 
