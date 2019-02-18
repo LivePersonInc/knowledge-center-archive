@@ -197,6 +197,7 @@ pages:
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
 - pages/documents/Release Notes/January/week-of-january-28th.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/Post-conversation-user-guide.md
+- pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Release Notes/October/week-of-october-22nd.md
 - pages/documents/Release Notes/November /week-of-november-19th.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
@@ -243,7 +244,6 @@ pages:
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
 - pages/documents/Admin & Settings/Permissions/assign-permissions.md
-- pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Release Notes/September/week-of-september-9th.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/best-practices-for-messaging-agents.md
 - pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
