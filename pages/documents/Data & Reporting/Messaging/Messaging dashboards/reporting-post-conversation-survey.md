@@ -5,11 +5,10 @@ subCategoryName: Messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
-level3: Messaging dashboards
+level3: ''
 permalink: data-reporting-messaging-messaging-dashboards-post-conversation-survey.html
 isTutorial: false
-date: 2019-01-15 15:14:02 +0200
-level3: ''
+date: 2019-01-15 13:14:02 +0000
 
 ---
 ## Reporting for post conversation survey
@@ -20,7 +19,7 @@ Brands can customize the survey to their needs, including predefined questions (
 
 The results of the surveys can be analyzed in real time using the messaging interactions API or by historical data in Report Builder.
 
-## **Report Builder**
+## Report Builder
 
 The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the Bot Studio.
 
@@ -48,7 +47,7 @@ In addition to the default grid views, Report Builder users with customization p
 
 For more information about customization privileges to the Report Builder, please contact your LivePerson account manager or customer success manager.
 
-## **Aggregation levels**
+## Aggregation levels
 
 The KPIs on the dashboard can be analyzed on two aggregation levels:
 
@@ -57,25 +56,25 @@ The KPIs on the dashboard can be analyzed on two aggregation levels:
 
 In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly.
 
-## **Time attribution**
+## Time attribution
 
 The data is collected for closed surveys (consumer can no longer submit responses) and survey results are associated with the time the survey started / conversation ended.
 
-## **Attribution to agents**
+## Attribution to agents
 
 Survey results are attributed to the last agent who was assigned to the conversation prior to the initiation of the survey flow. The skill attributed with the survey results corresponds to the one assigned to the conversation along with the same agent (last assigned). The last agent assigned to the conversation may not have been assigned to the conversation when it was transferred over to the survey bot. For instance, if a manager joined (but not assigned to) the conversation and closed it, consequently triggering the survey flow, the same manager will not​ be attributed with the survey results. The results instead will be attributed to the agent who was assigned to the conversation when the manager joined. In the same manner, the last skill which also helped determine which survey to present, will not necessarily align with skill assigned to the conversation along with the last assigned agent.
 
-## **Primary filters**
+## Primary filters
 
 The survey data can be filtered by - skill, survey name, survey outcome ​(completed, ignored, skipped, …), is answer recognized by bot ​(flag, set by default to “Yes”)
 
-## **Backward compatibility**
+## Backward compatibility
 
 1. “CSAT SCORE” pre-existing in the dashboard has been renamed to include the suffix “unified”. This metric is computed based on both previous version of the survey and the new survey flows. The new survey predefined KPI metrics include activity from the new survey flows, excluding the old survey activity.
 2. All messaging metrics pre-dating this feature have been completely separated from the survey activity. Therefore, no impact is expected to the metrics used prior to this feature introduction into the dashboard.
 3. The “resolution” metrics, representing the “old” survey’s resolution (yes/no) question, have been hidden from the predefined dashboard (they are still available for LPAs and customization users to unhide in user-copies).
 
-## **Panels**
+## Panels
 
 The sheet contains five panels in a single sheet
 
@@ -83,13 +82,13 @@ The sheet contains five panels in a single sheet
 * Last two panels - analyze survey performance (how is the bot performing?)
 * The data is presented in grid views for easy export
 
-### **Main panel: predefined survey KPIs**
+### Main panel: predefined survey KPIs
 
 The main panel provides a daily summary of survey results with focus on the pre calculated metrics: CSAT, NPS, and FCR. This main view is pre-aggregated by skill and agent, supporting an in depth review of each individual's performance, as reported by consumers.
 
-To add custom metrics for predefined questions, see **_Creating custom metrics in RB for Survey Answers‘’ document_**
+To add custom metrics for predefined questions, see [**_Creating custom metrics in RB for Survey Answers‘’ document_**]()
 
-### **Panel 2: answers distribution (brand)**
+### Panel 2: answers distribution (brand)
 
 The brand level answers distribution includes aggregated count of responses submitted by consumers to each question and for each configured answer option. The results are presented at the brand level, split by configured survey. Leveraging these results, you are able to analyze, for example, how many consumers answered with the value “4” vs. how many answered “5” for a chosen CSAT question.
 
@@ -103,34 +102,34 @@ It is important to note​ that a consumer may elect to skip the entire survey a
 
 Each question includes an additional bucketed answer, supplementing the configured answer-options. This bucket is called “unrecognized by bot”. Each time the bot did not find a match between the consumer’s response to a given question and any of the configured answer-options, the report will count this consumer’s response in the unrecognized by bot bucket. It is important to note that the default filter of “is answer recognized by bot” is set to “yes”, thereby, excluding all unrecognized answers from the report. You may change the filter settings to “no” or to “all” in order to evaluate consumer responses unrecognized by the bot as one of the valid answer options configured in the survey.
 
-### **Panel 3: answers distribution (agent and skill)**
+### Panel 3: answers distribution (agent and skill)
 
 Similar to the brand level answers distribution, this panel lists every configured question and answer-option, including a count of times consumers responded to each option.
 
-### **Panel 4: survey level analysis**
+### Panel 4: survey level analysis
 
 Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey?, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
 I**mportant to note:​** the values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
 
-### **Panel 5: question level analysis**
+### Panel 5: question level analysis
 
 Use this panel to analyze the response rates and time it takes consumers to answer each question individually. Identify opportunities to optimize the question text or change the order of presentation in the survey flow. Correlate the results in this panel with the survey level panel to identify questions which are presented multiple time to consumers in comparison to the number of surveys closed for each configured survey flow.
 
 \* “Question fallback Text” is presented in the report for questions which include a backup text phrase. The backup phrase is presented to consumers in end-points which do not support structured content.
 
-## **Limitations**
+## Limitations
 
 1. Report Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
 2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the Messaging Performance predefined dashboard.
 3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Report Builder but replaced with blank spaces.
 4. Free text questions can not be analyzed.
 
-## **Custom reports**
+## Custom reports
 
 **Pre-aggregated metrics (agent and skill)**: to view results at agent or skill levels, both the ‘agent’ and ‘skill’ attributes must be added to the grid.
 
-## **New Attributes / filters**
+## New Attributes / filters
 
 **Survey attributes**
 
