@@ -28,13 +28,13 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 
 LivePerson works hard to ensure that our customers around the world can safely and securely use our platform. There are several different standards for protecting data around the world. LivePerson meets the following international standards for data protection, ensuring that our European customers can safely use our Secure Forms:
 
-1. Standard 1: PCI-DSS
+1. **Standard 1: PCI-DSS**
 
    LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s Secure Form Widget and Billing system. To view the certificate, click [here](https://securityhub.liveperson.com/support/solutions/articles/5000027697-pci-dss-certificate-).
-2. Standard 2: GDPR
+2. **Standard 2: GDPR**
 
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
-3. Standard 3: US: Privacy Shield certification
+3. **Standard 3: US: Privacy Shield certification**
 
    LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
 
