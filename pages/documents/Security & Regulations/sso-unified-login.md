@@ -47,7 +47,7 @@ The customer needs to provide LivePerson with the following three parameters:
 * Create a SAML assertion with dynamic variables: siteId and loginName. The SAML assertion must be sent to LiveEngage every time a user (admin or agent) wishes to log in.
 
   {: .notice}  
-  If it is not possible to send the siteId, LivePerson can adapt the configuration.
+  If it is not possible to send the siteID, LivePerson can adapt the configuration.
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
 * Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
