@@ -51,13 +51,17 @@ The customer needs to provide LivePerson with the following three parameters:
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
 * Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
-* Use this consumer URL for connecting to LiveEngage: https://<LP Domain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s core domain.
-* Use this consumer URL for connecting to the MCS toolkit: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
+* Use this consumer URL for connecting to LiveEngage: 
+
+  https://<LP Domain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s core domain.
+* Use this consumer URL for connecting to the MCS toolkit: 
+
+  https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 * Use this consumer URL for connecting to the Real Time Dashboard: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=rtDashboard&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 * Use this consumer URL for connecting to the Bot Studio: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=routingBot&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 * Use this consumer URL for connecting to the CoBrowse Admin console: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=coBrowse&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 
-  ## **General notes on using the feature**
+  ## General notes on using the feature
 * HTTPS must be used for communication with the LivePerson servers.
 * Once the SSO Unified Login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the Forgot My Password link.
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
