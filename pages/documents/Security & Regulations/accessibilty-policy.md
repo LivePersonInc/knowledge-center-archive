@@ -349,6 +349,6 @@ If voice over functionality is enabled on a device, the iOS .lib file is able to
 
 To summarize, these various accessibility services are designed to complement one another, so each visitor can find the right combination of features to best accommodate their level of limitation. By using Mobile Web accessibility options, brands can cater to the needs of an extended user audience and increase engagement reach.
 
-# **Recommended reading**
+## Recommended reading
 
 [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/)
