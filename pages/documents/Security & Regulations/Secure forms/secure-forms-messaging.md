@@ -313,21 +313,27 @@ The connector’s secure form invitation contains the secure form name and a lin
   * Will always be set with the font “Arial”, color white
 
 {: .start="2"}
-  1. Secure Form Logo will always be shown
-  2. Secure Form questions:
-  * Font will always be “Arial”, color gray (hex color #6D6E70)
+
+1. Secure Form Logo will always be shown
+2. Secure Form questions:
+
+* Font will always be “Arial”, color gray (hex color #6D6E70)
 
 {: .start="4"}
-   1. Secure From question placeholder:
-   * Font will always be “Arial”, color gray (hex color #6D6E70)
+
+1. Secure From question placeholder:
+
+* Font will always be “Arial”, color gray (hex color #6D6E70)
 
 {: .start="5"}
-   	1. Secure form submit button:
-    * Color will always be blue (hex color #0363ad)
-    * font will always be “Arial”, color white
+1\. Secure form submit button:
+\* Color will always be blue (hex color #0363ad)
+\* font will always be “Arial”, color white
 
 {:start="5"}
+
 1. Secure from header and footer text:
+
 * Will always be set with the font “Arial”
 
 #### User interface (UI)
