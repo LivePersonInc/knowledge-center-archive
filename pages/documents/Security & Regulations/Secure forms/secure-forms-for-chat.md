@@ -172,4 +172,4 @@ To verify that permissions are enabled:
 4\.    Click Save.
 
 {: .notice}  
-If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ ](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Permissions+(profiles).pdf)[Customize user profiles documentation.]()
+If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the [customize user profiles](admin-settings-permissions-customize-permissions.html) documentation.
