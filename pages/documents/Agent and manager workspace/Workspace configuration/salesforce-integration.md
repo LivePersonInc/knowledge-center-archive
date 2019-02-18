@@ -22,11 +22,12 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
    * Installation on a live Salesforce production account: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
    * Installation on a test Salesforce sandbox account:[ ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J)[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
 
+![](/img/salesforce-integration-guide-15.png)
+
 {:start="3"}
+
 1. Select "Install for All Users”, click "Install". When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 2. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
-
-![](/img/sfdc 1.png)
 
 ## **Step #2: Configuring the LiveEngage app in Salesforce**
 
@@ -48,13 +49,13 @@ Our widget includes our own Clickjacking Protection feature, that makes sure tha
 
 The first three check-boxes can have any value (true/false), however, the 4th “**Enable clickjack protection for customer Visualforce pages with headers disabled**” has to be **disabled**.
 
-![](/img/sfdc 2.png)
+![](/img/salesforce-integration-guide-2.png)
 
 ### **Configure your account settings**
 
 1. Click on the “Account Settings” tab.
 
-![](/img/sfdc 3.png)
+![](/img/salesforce-integration-guide-3.png)
 
 {:start="2"}
 
@@ -69,6 +70,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 3\. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
 4\. “Step 4: Activation” – Click “Activate.”
 
+{: .important}
 **Note:** When you click on “Deactivate,” you will disable the use of the widget within the platform and stop all periodic sync processes with your account.
 
 ## **Configuring the app**
@@ -470,12 +472,12 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
    `surveys.preChat\[displayName=What is your Account Number?\].value`
 
 {:start="2"}
-    **LivePerson SDK Field:**
+**LivePerson SDK Field:**
 
     `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
-
+    
     **LivePerson API Field:**
-
+    
     `surveys.postChat\[displayName=How would you rate us?\].value`
 
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
@@ -491,11 +493,11 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 {:start="3"}
 
     **LivePerson SDK Field:**
-
+    
     `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
-
+    
     **LivePerson API Field:**
-
+    
     `surveys.operator\[displayName=Was the customer satisfied?\].value`
 
 1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
