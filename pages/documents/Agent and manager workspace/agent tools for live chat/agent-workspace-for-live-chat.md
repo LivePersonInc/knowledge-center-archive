@@ -24,7 +24,7 @@ The agent workspace acts as a centralized location for agents to manage all of t
 
 The Web Visitors list displays all visitors currently on your website, along with information about each visitor’s geolocation, browser details, and IP address. The visitor’s current location on your website is also displayed.
 
-![](/img/chataw1.png)
+![](/img/agent-workspace-for-chat-1.png)
 
 ### Sort visitors
 
@@ -53,19 +53,23 @@ The Agent Workspace is where agents can simultaneously handle conversations with
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
-![](/img/chataw2.png)
+![](/img/agent-workspace-for-chat-2.jpg)
 
 Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the screen. The in-chat screen is then displayed.
 
-![](/img/chataw3.png)
+![](/img/agent-workspace-for-chat-3.png)
 
 To send a message, enter text in the lower text entry area, and click the Send button, or press Enter. The sent text is displayed in the chat display area, along with replies and text sent by the visitor.
 
 If you do not send a message to the consumer for some time, a default message is sent, apologizing for the delay.
 
-You can always return to the visitor list while chatting with a consumer. Simply click the menu button  in the bottom left-hand corner of the screen.
+You can always return to the visitor list while chatting with a consumer. Simply click the below menu button in the bottom left-hand corner of the screen:
+
+![](/img/agent-workspace-for-chat-17.jpg)
 
 You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window.
+
+![](/img/agent-workspace-for-chat-18.png)
 
 {: .notice}
 Any user can take a chat from a consumer, providing they have been granted this permission in the User Profile area.
@@ -88,7 +92,7 @@ Agents also have access to the following tools during their conversations with c
 * End engagement
 * Predefined Content
 
-![](/img/chataw4.png)
+![](/img/agent-workspace-for-chat-4.png)
 
 ### Copy as plain text
 
@@ -112,7 +116,7 @@ At any given time in your shift as an agent, you are expected to handle multiple
 
 You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
 
-![](/img/chataw5.png)  
+![](/img/agent-workspace-for-chat-5.png)  
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
 * Closing: Thank you for visiting. Please contact us any time.
@@ -143,20 +147,17 @@ The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you 
 
 Agents can send a direct link to a page on their website. Create the link by entering a link name and the relevant URL.
 
-![](/img/chataw6.png)
+![](/img/agent-workspace-for-chat-6.png)
 
 ### CoBrowse
 
 CoBrowse enables agents and consumers to access and navigate web pages collaboratively. This ensures that complex online tasks and processes can be completed quickly and efficiently. With CoBrowse, chat interactions between agents and consumers are enhanced by a real-time visual layer. This increases consumer engagement by creating a higher degree of co-presence of the agent.  No plugins or downloads are required, ensuring that agents and consumers are connected in an instant.
 
-![](/img/chataw7.png)
+![](/img/agent-workspace-for-chat-7.png)
 
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the webpage creates an animation effect.
 
 * Double click on an element to display a yellow circle around the cursor.
-
-![](/img/chataw8.png)
-
 * Press Ctrl + click the left mouse button to animate the element with a wiggle effect.
 
 Use cases for CoBrowse:
@@ -170,7 +171,7 @@ To initiate a CoBrowse session:
 
 1. During a conversation with a consumer, click the CoBrowse icon.
 
-![](/img/chataw9.png)
+![](/img/agent-workspace-for-chat-19.png)
 
 {:start="2"}
 
@@ -178,17 +179,13 @@ To initiate a CoBrowse session:
    * CoBrowse - View Only enables you to view the visitor’s screen only.
    * CoBrowse - Shared gives you full control over the current browser tab.
 
-![](/img/chataw10.png)
-
 The consumer receives a notification asking them to accept the CoBrowse session.
-
-![](/img/chataw11.png)
 
 {:start="3"}
 
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
-   ![](/img/chataw12.png)
+![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
 2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
@@ -207,17 +204,15 @@ All chats will automatically clear once the agent logs out of LiveEngage (by cli
 
 The number of accumulated chats can be seen in the bottom right corner of the page in the closed image. The number indicates how many chats were closed but not yet released. The following image shows that 1 chat has not yet been released.
 
-![](/img/chataw13.png)
+![](/img/agent-workspace-for-chat-9.png)
 
 ### To clear a single chat:
 
 1. Make sure the chat has ended - this is confirmed in the header of the chat.
 
-![](/img/chataw14.png)
+![](/img/agent-workspace-for-chat-10.png)
 
 2\. In the top right corner of the chat window, click the down arrow.
-
-![](/img/chataw15.png)
 
 3\. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
 
@@ -226,7 +221,7 @@ The number of accumulated chats can be seen in the bottom right corner of the pa
 1. Click CLOSED in the bottom right corner of the page. A window will open listing all ended chats.
 2. Click Clear all completed. The chats that you selected will be cleared from the Agent workspace.
 
-![](/img/chataw16.png)
+![](/img/agent-workspace-for-chat-11.png)
 
 ## The Agent Data Bar
 
