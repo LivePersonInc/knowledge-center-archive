@@ -29,11 +29,14 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 LivePerson works hard to ensure that our customers around the world can safely and securely use our platform. There are several different standards for protecting data around the world. LivePerson meets the following international standards for data protection, ensuring that our European customers can safely use our Secure Forms:
 
 1. Standard 1: PCI-DSS
-   1. LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s Secure Form Widget and Billing system. To view the certificate, click [here](https://securityhub.liveperson.com/support/solutions/articles/5000027697-pci-dss-certificate-).
+
+   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s Secure Form Widget and Billing system. To view the certificate, click [here](https://securityhub.liveperson.com/support/solutions/articles/5000027697-pci-dss-certificate-).
 2. Standard 2: GDPR
-   1. LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
+
+   LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
 3. Standard 3: US: Privacy Shield certification
-   1. LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
+
+   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
 
 ## When to use the LiveEngage secure form
 
@@ -167,12 +170,10 @@ Your LivePerson account team will create and manage your secure forms. We recomm
 
 * Each form should be given a clear name that can easily be identified by the agent and is appropriate for display to the consumer.
 * For each new secure form question, the following parameters need to be defined:
-
-    1. Answer type: textual, numeric or CVV;
-    2. Whether or not the answer is required (the form cannot be submitted without it);
-    3. Whether or not the answer is masked (this option will mask the characters in the field on the visitor side for over-the-shoulder situations);
-    4. Whether or not the answer is off the record (meaning that the answer will not be stored anywhere, even in its tokenized form; this is suitable for type CVV).
-
+  1. Answer type: textual, numeric or CVV;
+  2. Whether or not the answer is required (the form cannot be submitted without it);
+  3. Whether or not the answer is masked (this option will mask the characters in the field on the visitor side for over-the-shoulder situations);
+  4. Whether or not the answer is off the record (meaning that the answer will not be stored anywhere, even in its tokenized form; this is suitable for type CVV).
 * The questions entered in the form should be short and clear.
 * Each survey can include up to 20 questions.
 * The text field for secure form answers also does not accept the following special characters: < > ( ) \\ ' " &
@@ -295,9 +296,9 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 * Each channel - SMS, WhatsApp, ABC, Facebook, Google RCS - will have a secure form configuration (configuration is explained further in the below section)  that will set the secure form language, which will automatically translate the following elements:
 
-1. Header with security statement
-2. Submit button
-3. Footer with security statement
+    1. Header with security statement
+    2. Submit button
+    3. Footer with security statement
 
 * After form submission by the consumer, a predefined message will be sent, which will be translated automatically per the language that was configured for the connector (the message is not configurable):  
   “The following secure form has been submitted: <Secure form title>”
