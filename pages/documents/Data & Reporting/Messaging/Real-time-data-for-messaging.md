@@ -15,7 +15,7 @@ date: 2019-01-15 11:35:30 +0000
 
 As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
 
-![](agent-manager-messaging-date-1.png)
+![](/img/agent-manager-messaging-data-1.png)
 
 OPEN- displays the total number of current open conversations.
 
