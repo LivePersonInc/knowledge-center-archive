@@ -303,21 +303,22 @@ The connector’s secure form invitation contains the secure form name and a lin
   “The following secure form has been submitted: <Secure form title>”
 * Brands will be able to configure a language per channel entry point (per SMS number, FB page, Biz ID, WhatsApp number etc)
 
-#### Layout & design
+#### Layout and design
 
-* The form layout and design will be the same as the web messaging secure form view
+* The form layout and design will be the same as the web messaging secure form view.
 * The form design and colors will be inherited from the default window design elements, which are:
-  1. Top bar with the form name:
-    * Form name will be displayed as created
-    * Will always be blue background (hex color #0363ad)
-    * Will always be set with the font “Arial”, color white
-{: .start="2"}
+  
+  Top bar with the form name:
+  * Form name will be displayed as created
+  * Will always be blue background (hex color #0363ad)
+  * Will always be set with the font “Arial”, color white
+    {: .start="2"}
   1. Secure Form Logo will always be shown
   2. Secure Form questions:
-	* Font will always be “Arial”, color gray (hex color #6D6E70)
-{: .start="4"}
-	1. Secure From question placeholder:
-	* Font will always be “Arial”, color gray (hex color #6D6E70)
+  * Font will always be “Arial”, color gray (hex color #6D6E70)
+    {: .start="4"}
+  1. Secure From question placeholder:
+  * Font will always be “Arial”, color gray (hex color #6D6E70)
 
 {: .start="5"}
 1\. Secure form submit button:
@@ -359,9 +360,9 @@ The following texts are not customizable:
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
 
-1. Invitation: "`{{secureFormName}}`: `{{secure form link}}`"
-2. Submission: "The following Secure Form has been submitted: `{{secureFormName}}`"
-3. The above texts will be automatically translated per the language selected for the connector
+    1. Invitation: "`{{secureFormName}}`: `{{secure form link}}`"
+    2. Submission: "The following Secure Form has been submitted: `{{secureFormName}}`"
+    3. The above texts will be automatically translated per the language selected for the connector
 
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
@@ -394,11 +395,10 @@ If the agent closes the conversation or logs out, or if there was an issue and t
 ## **Agent manager**
 
 To ensure secure form data is protected, agent managers cannot view information entered in the secure form either during or after a conversation. By default, agent managers can view the following secure form statuses:
-
-* Sent by the agent
-* Received by the consumer
-* Viewed by the consumer
-* Submitted by the consumer
+  * Sent by the agent
+  * Received by the consumer
+  * Viewed by the consumer
+  * Submitted by the consumer
 
 If required, your LivePerson account team can enable a specific feature that will enable your agent managers to see the secure form results in the conversation history, once the form has been submitted and the conversation closed. Information submitted in response to “Off the record” questions will not be displayed as it is saved for the duration of the conversation only.
 
@@ -421,18 +421,18 @@ When using secure forms, bear in mind:
 * Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
 * The following time limitations apply:
 
-1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until it loads, the secure form will expire. This can occur as the result of a bad network connection or server failure. The 5 minute variable is configurable.
-2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.
-3. Both variables can be set to any time limit between 1 and 86400 seconds.
+    1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until 		it loads, the secure form will expire. This can occur as the result of a bad network connection or 		server failure. The 5 minute variable is configurable.
+    2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 		minute variable is configurable.
+    3. Both variables can be set to any time limit between 1 and 86400 seconds.
 
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
   * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
 
-1. The consumer logs out
-2. The app is closed so its not running in the background
-3. The form expires
-4. The consumer opens another secure form
+    1. The consumer logs out
+    2. The app is closed so its not running in the background
+    3. The form expires
+    4. The consumer opens another secure form
 
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
@@ -441,8 +441,8 @@ When using secure forms, bear in mind:
 
 The following secure form events are reported in Report Builder:
 
-* Agent sent the secure form.
-* Consumer opened the secure form.
-* Consumer submitted the secure form.
+* Agent sent the secure form
+* Consumer opened the secure form
+* Consumer submitted the secure form
 
 Currently, reporting will be carried out on a per-need basis through the LivePerson analytics team - please contact your LivePerson account team for more information.
