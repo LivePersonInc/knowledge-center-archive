@@ -110,19 +110,19 @@ The secure form is opened in a widget in the engagement window. On desktop it op
 
 _Figure 4: Secure form widget_
 
-For more information about the secure form, see[ LiveEngage Secure Form](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/LiveEngage+Secure+Form+External.pdf).
+For more information about the secure form, see[ ](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/LiveEngage+Secure+Form+External.pdf)[LiveEngage Secure Form.](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html)
 
-## **ID&V**
+## ID&V
 
 The Identification and Verification (ID&V) solution enables customer care professionals (CCPs) to validate the identity of visitors during a chat.  At any time in a conversation, agents can decide to send an ID&V question to the visitor, requesting them to enter two random characters from their PIN or password, or any identifiable number or code, which they can then verify with the CRM system. The ID&V solution works seamlessly for both desktop and mobile web.
 
-## **Co-browse**
+## Co-browse
 
 Co-browsing takes conversations beyond text and transforms them into a rich consumer experience, providing a live and personalized service.
 
 The agent can invite the consumer to a co-browse session directly from their workspace. The consumer will receive the invite on the web. After the consumer accepts the invitation, the agent controls the consumer’s browser guiding them to find the right information and to achieve first contact resolutions. Both the consumer and the agent can decide when to end the co-browse session. A record of the interactions remains in the conversation thread and the history stays active for both the consumer and the agent fostering more meaningful connections between brand and consumer.
 
-## **Scope of visitor experience accessibility**
+## Scope of visitor experience accessibility
 
 The LiveEngage visitor experience was created with people with disabilities in mind. LivePerson is committed to making its embedded engagement window and engagements increasingly accessible over time. The scope of the accessibility support includes:
 
@@ -141,11 +141,11 @@ All the above are fully accessible on the following:
 
 Listed below are the current accessibility features:
 
-## **General window accessibility**
+## General window accessibility
 
 The following accessibility capabilities apply to all the engagement window areas, including conversation messages, surveys, Secure Form, Co-Browser and ID&V.
 
-### **Full keyboard support**
+### Full keyboard support
 
 A disabled user may be unable to operate a mouse or a similar pointing device, relying solely on the keyboard for navigation. Providing keyboard functions to replace standard mouse actions, such as access to menus, toolbars, buttons and links, is essential in accommodating users with disabilities.
 
@@ -156,23 +156,15 @@ For visitors who are not able to use a mouse, or prefer to use a keyboard, the e
 * Easy navigation between conversation messages using the up/down arrow keys and scrolling in the conversation area.
 * The tab order of elements matches the order in which the elements visually appear.
 
-### **Accessible navigation on mobile**
+### Accessible navigation on mobile
 
 All the information mentioned above in the full keyboard support section is also supported on mobile web using navigation gestures. Each OS (iOS and Android) supports an accessibility mode in which gestures can be used to perform actions such as page scrolling, tab navigation, etc.
 
-### **Visible Focus**
+### Predictable and logical page layout
 
-All controls that can gain focus in the window, have a visible focus, highlighted in blue, so that the visitor can have a clear indication of what they are currently focused on.
+For people with vision and cognitive impairments, it can be challenging to navigate where they are in the page flow, and what options are available. Providing an embedded engagement window layout that is consistent, predictable and logical creates an intuitive, easy to operate environment. Different information types are kept segregated on separate pages or parts of the page. For example, the conversation messages are separated from the action menu, and surveys are located on different pages.
 
-![](/img/accesspoli6.png)
-
-_Figure 5: Visible Focus Highlighting_
-
-### **Predictable and Logical Page Layout**
-
-For people with vision and cognitive impairments, it can be challenging to navigate where they are in the page flow, and what options are available. Providing an Embedded Engagement window layout that is consistent, predictable and logical creates an intuitive, easy to operate environment. Different information types are kept segregated on separate pages or parts of the page. For example, the conversation messages are separated from the action menu, and surveys are located on different pages.
-
-### **Color and Contrast**
+### Color and contrast
 
 The interface does not rely on color to convey information or prompt actions from the user.
 
@@ -184,11 +176,11 @@ The following standard-compliant accessibility elements have been incorporated:
 {: .notice}  
 If the customer chooses to makes changes to the default window themes, they are responsible for ensuring the window remains accessible.
 
-### **Clear interface elements**
+### Clear interface elements
 
 All interface elements are intuitive so that the user can navigate without requiring an introduction or help menu. Instructions to visitors provide cues that go beyond the shape, size, visual location, orientation, sound, or any other sensory characteristic of a feature.
 
-The following elements have been incorporated within the Embedded Engagement window:
+The following elements have been incorporated within the embedded engagement window:
 
 * Consistent buttons, labels, and names.
 * All interface elements are labeled with tooltips specific to the interface.
@@ -197,7 +189,7 @@ The following elements have been incorporated within the Embedded Engagement win
 * Screen readers follow chronological reading sequence in conversation log.
 * No long passages of text are incorporated within the interface.
 
-### **Alternate text**
+### Alternate text
 
 The goal of embedded engagement window accessibility is to ensure that it is usable and available to the widest possible audience. This requires that all users can perceive and understand what is on the screen and act accordingly.
 
@@ -209,11 +201,11 @@ In the embedded engagement window we provide the following:
 * Any non-textual element has a textual description via tooltips on desktop.
 * All alternate text is announced by the screen reader.
 
-### **Simplified writing**
+### Simplified writing
 
 The interface and all text elements are written clearly, with no reliance on technical terms or jargon.
 
-### **Enhanced screen reader support**
+### Enhanced screen reader support
 
 * Announcement of all textual content on the page, allowing the visitor to navigate the Engagement Window without the use of eyesight.
 * Alternate text is announced for all window elements.
@@ -221,14 +213,14 @@ The interface and all text elements are written clearly, with no reliance on tec
 * Announcement of new messages sent by the agent to the visitor, as well as outgoing messages sent by the visitor to the agent.
 * Sound indication for incoming messages.
 
-### **Supported screen readers on desktop**
+### Supported screen readers on desktop
 
 **NVDA:** Free open source screen reader, supported on Windows.
 
 {: .notice}  
 Not all screen readers support all window functionality. The messages are announced provided the screen reader model is supported.
 
-### **Supported screen readers on mobile**
+### Supported screen readers on mobile
 
 LivePerson’s mobile solution supports the iOS and Android screen readers VoiceOver and TalkBack as the baseline for ensuring the proper experience for visually impaired users.
 
@@ -240,29 +232,29 @@ LivePerson’s mobile solution supports the iOS and Android screen readers Voice
 {: .notice}  
 There are known issues with support for TalkBack and ARIA regions on the default Chrome browser.
 
-### **Read back**
+### Read back
 
 * All user interface controls allows you to navigate through screen readers. All interface components are coded logically, have descriptive names and can be properly operated with assistive technologies.
 * Agent messages are read back to users as soon as the message appears.
 * Outgoing messages are automatically read back. If the user hears an error in the message, they can retype the message with their corrections and resubmit.
 
-### **Native Applications**
+### Native applications
 
 In native applications, the LP Mobile interface includes audio cues ("earcons") to highlight actions in the interface, such as sent and received conversation messages, in addition to system messages like "Agent is typing…”.  On the web, these messages are read with text, rather than an audio alert being played.
 
-### **Keyboard**
+### Keyboard
 
 Using their screen readers, users can navigate LP Mobile interface utilizing the keyboard arrow keys. These move the "focus" used by the screen reader.
 
-### **Program determined language**
+### Program determined language
 
 Language attributes on the HTML element were added for automatic language detection.
 
-## **Conversation Accessibility**
+## Conversation accessibility
 
 The embedded engagement window facilitates conversation accessibility by supported screen readers in the following ways:
 
-### **Screen reader support:**
+### Screen reader support:
 
 * Incoming messages are announced as they arrive, preceded by the sender and time stamp.
 * Outgoing messages are announced as they are sent.
@@ -272,26 +264,25 @@ Messages can be sent using only the keyboard. Press <Enter> to send messages. A 
 
 When the agent is typing a message, before it is sent, the message "Agent is typing" appears in the status bar and is announced.
 
-### **Survey Accessibility**
+### Survey accessibility
 
-The Engagement Window facilitates survey accessibility in the following ways:
+The engagement window facilitates survey accessibility in the following ways:
 
 * Surveys are fully operable by keyboard. All survey questions can be reached via the <tab> /<shift> + <tab> keys and answered via keyboard.
 * Screen reader support: All survey questions, inputs and errors are announced by the supported screen readers.
-
-  Clear error handling in surveys:
+* Clear error handling in surveys:
   * If one or more errors in a survey, which are a result of incorrect input (such as the use of letters in a numeric field or required questions are not answered) a summary message with the number of errors found on the page is displayed at the top of the survey.
   * Under each of the questions that contain an error, there is a specific error message indicating an error in the field and stating how to fix the problem.
   * All error messages are in a red font and accompanied by an icon so that the information is not conveyed via color alone.
   * Survey submissions that contain errors will not be submitted. The focus begins with the first field where the error occurred, so that it is easily located and corrected.
 
-## **Mobile web accessibility**
+## Mobile web accessibility
 
-### **User interface**
+### User interface
 
 The LP team has worked on implementing a number of accessibility features within the mobile web interface. The section below highlights some of the areas in which they have concentrated their efforts to make certain that best practice methods have been implemented.
 
-### **Audio indicators**
+### Audio indicators
 
 For visually impaired users, reliance on audio cues is essential. The following audio accessibility elements have been incorporated within LP Mobile for use with screen readers:
 
@@ -300,8 +291,6 @@ For visually impaired users, reliance on audio cues is essential. The following 
 * System messages are read by the interface as they appear on the screen.
 * On native platforms, audio earcons are sent when the user sends and receives messages.
 * On iOS, some system messages play as audio earcons rather than spoken text. For example the "Agent is typing..." can be configured to be a typing sound.
-
-See [accessibility and sound effects]() for a list of audio files supported by LP Mobile within iOS.
 
 {: .notice}  
 The Android library does not require code changes to support this functionality.
