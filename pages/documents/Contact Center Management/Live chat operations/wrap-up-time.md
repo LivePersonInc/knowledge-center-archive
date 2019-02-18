@@ -12,7 +12,7 @@ date: 2019-01-21 11:09:31 +0000
 ---
 Allocating a ‘wrap up’ period at the end of each chat gives agents time to fill-in surveys and record any important details about the chat.
 
-Once a chat is ended, either by the agent or by the consumer, the wrap up period starts. During this time the agent can complete any post-chat tasks. When the wrap up time expires, a slot is released and the agent is ready to receive a new chat. The agent doesn’t need to use the whole time allocated; the wrap up time also expires automatically when the agent submits the agent survey.
+Once a [chat is ended,](contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html) either by the agent or by the consumer, the wrap up period starts. During this time the agent can complete any post-chat tasks. When the wrap up time expires, a slot is released and the agent is ready to receive a new chat. The agent doesn’t need to use the whole time allocated; the wrap up time also expires automatically when the agent submits the agent survey.
 
 Wrap up time is disabled by default. Once enabled, the default time allocated is 60 seconds; this can be configured by the brand. The time can be configured either at the account or at the skill level.
 
@@ -45,5 +45,5 @@ This value is for display only, it will be the value shown in the skill level by
 1. When enabled, the wrap-up time does not affect reporting, i.e. chat duration does not include the wrap-up time.
 2. An agent can terminate the wrap-up period by submitting an agent survey.
 3. We recommend adjusting the wrap-up time value at the individual skill level, rather than using the admin console or night vision. This is because:
-   * The wrap-up time set in the admin console overrides the value set for individual skills. However, this value will not be reflected in the skill level in LiveEngage.
+   * The wrap-up time set in the admin console overrides the [value set for individual skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html). However, this value will not be reflected in the skill level in LiveEngage.
    * Changing the wrap-up time value in night vision will have no effect on the wrap up time, but the updated value will be displayed in skills that were not set with a specific value.
