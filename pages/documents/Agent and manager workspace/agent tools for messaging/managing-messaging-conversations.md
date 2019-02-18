@@ -28,7 +28,7 @@ There are several tools in place to help you access the information you’ll nee
 
 * **Conversation history:** For repeat customers, any previous messaging history will display in the Engagement History widget.
 
-  ![](/img/managemess1.png)
+  ![](/img/managing-messaging-conversations-1.png)
 * **Consumer Info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
@@ -37,19 +37,19 @@ There are several tools in place to help you access the information you’ll nee
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
-![](/img/managemess2.png)
+![](/img/managing-messaging-conversations-10.png)
 
 ## Capturing notes within the conversation summary
 
 Conversation Summary is a dedicated widget that enables you write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
-![](/img/managemess3.png)
+![](/img/managing-messaging-conversations-2.png)
 
 ## Conversation Actions
 
 While conducting a conversation, there are a few actions you can take:
 
-![](/img/managemess11.png)
+![](/img/managing-messaging-conversations-9.png)
 
 **Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
 
@@ -63,7 +63,7 @@ Every time a consumer sends a message, the SLA, or your expected time to reply r
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
-![](/img/managemess4.png)
+![](/img/managing-messaging-conversations-3.png)
 
 ## Use Rich Messaging to make your conversations more engaging
 
@@ -83,7 +83,7 @@ Refer to guidelines from your manager as to what tools are available to you. For
 
 ### View the customer’s screen using CoBrowse
 
-For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. Click here to learn more about CoBrowse.
+For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. [Click here]() to learn more about CoBrowse.
 
 ### Use Audio or Video Messaging (for mobile app messaging only)
 
@@ -93,7 +93,7 @@ There are three options to make your mobile messaging conversations more interac
 
 All three options are triggered from within the messaging conversation window:
 
-![](/img/managemess5.png)
+![](/img/managing-messaging-conversations-4.png)
 
 **App Screen Sharing**
 
@@ -104,11 +104,9 @@ When you initiate a screen sharing session, the audio will automatically be conn
 
 When you initiative a screen sharing session, the consumer will see the following invite:
 
-![](/img/managemess6.png)
+![](/img/managing-messaging-conversations-5.png)
 
-When they accept the invitation, it will be clear that you are sharing their screen:
-
-![](/img/managemess7.png)
+When they accept the invitation, it will be clear that you are sharing their screen.
 
 **Digital Voice Calls**
 
@@ -119,11 +117,11 @@ Ensure you have the proper audio and headphones connected before suggesting this
 
 When you invite a customer to a call, they’ll see an incoming call screen:
 
-![](/img/managemess8.png)
+![](/img/managing-messaging-conversations-6.png)
 
 Connected call screen:
 
-![](/img/managemess9.png)
+![](/img/managing-messaging-conversations-7.png)
 
 **Digital Video**
 
@@ -132,7 +130,7 @@ If you are providing service or sales where a quicker resolution can be found by
 {: .notice}
 This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
 
-![](/img/managemess10.png)
+![](/img/managing-messaging-conversations-8.png)
 
 ## Closing Conversations
 
