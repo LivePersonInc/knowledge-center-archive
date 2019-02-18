@@ -308,22 +308,16 @@ The connector’s secure form invitation contains the secure form name and a lin
 * The form layout and design will be the same as the web messaging secure form view
 * The form design and colors will be inherited from the default window design elements, which are:
   1. Top bar with the form name:
-  * Form name will be displayed as created
-  * Will always be blue background (hex color #0363ad)
-  * Will always be set with the font “Arial”, color white
-
+    * Form name will be displayed as created
+    * Will always be blue background (hex color #0363ad)
+    * Will always be set with the font “Arial”, color white
 {: .start="2"}
-
-1. Secure Form Logo will always be shown
-2. Secure Form questions:
-
-* Font will always be “Arial”, color gray (hex color #6D6E70)
-
+  1. Secure Form Logo will always be shown
+  2. Secure Form questions:
+	* Font will always be “Arial”, color gray (hex color #6D6E70)
 {: .start="4"}
-
-1. Secure From question placeholder:
-
-* Font will always be “Arial”, color gray (hex color #6D6E70)
+	1. Secure From question placeholder:
+	* Font will always be “Arial”, color gray (hex color #6D6E70)
 
 {: .start="5"}
 1\. Secure form submit button:
