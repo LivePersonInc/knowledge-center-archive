@@ -168,10 +168,10 @@ Your LivePerson account team will create and manage your secure forms. We recomm
 * Each form should be given a clear name that can easily be identified by the agent and is appropriate for display to the consumer.
 * For each new secure form question, the following parameters need to be defined:
 
-1. Answer type: textual, numeric or CVV;
-2. Whether or not the answer is required (the form cannot be submitted without it);
-3. Whether or not the answer is masked (this option will mask the characters in the field on the visitor side for over-the-shoulder situations);
-4. Whether or not the answer is off the record (meaning that the answer will not be stored anywhere, even in its tokenized form; this is suitable for type CVV).
+    1. Answer type: textual, numeric or CVV;
+    2. Whether or not the answer is required (the form cannot be submitted without it);
+    3. Whether or not the answer is masked (this option will mask the characters in the field on the visitor side for over-the-shoulder situations);
+    4. Whether or not the answer is off the record (meaning that the answer will not be stored anywhere, even in its tokenized form; this is suitable for type CVV).
 
 * The questions entered in the form should be short and clear.
 * Each survey can include up to 20 questions.
@@ -307,7 +307,7 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 * The form layout and design will be the same as the web messaging secure form view.
 * The form design and colors will be inherited from the default window design elements, which are:
-  
+
   Top bar with the form name:
   * Form name will be displayed as created
   * Will always be blue background (hex color #0363ad)
@@ -359,11 +359,9 @@ The following texts are not customizable:
 * Footer with security statement
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
-
-    1. Invitation: "`{{secureFormName}}`: `{{secure form link}}`"
-    2. Submission: "The following Secure Form has been submitted: `{{secureFormName}}`"
-    3. The above texts will be automatically translated per the language selected for the connector
-
+  1. Invitation: "`{{secureFormName}}`: `{{secure form link}}`"
+  2. Submission: "The following Secure Form has been submitted: `{{secureFormName}}`"
+  3. The above texts will be automatically translated per the language selected for the connector
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
 * Secure form view indication - for connectors flow, when an agent will send another/additional secure form while the consumer is currently viewing an already open secure form, the agent will automatically see the second secure form status as “viewed.”
@@ -395,10 +393,11 @@ If the agent closes the conversation or logs out, or if there was an issue and t
 ## **Agent manager**
 
 To ensure secure form data is protected, agent managers cannot view information entered in the secure form either during or after a conversation. By default, agent managers can view the following secure form statuses:
-  * Sent by the agent
-  * Received by the consumer
-  * Viewed by the consumer
-  * Submitted by the consumer
+
+* Sent by the agent
+* Received by the consumer
+* Viewed by the consumer
+* Submitted by the consumer
 
 If required, your LivePerson account team can enable a specific feature that will enable your agent managers to see the secure form results in the conversation history, once the form has been submitted and the conversation closed. Information submitted in response to “Off the record” questions will not be displayed as it is saved for the duration of the conversation only.
 
@@ -420,20 +419,16 @@ When using secure forms, bear in mind:
 * Invitations, alerts and consumer texts are customizable on both In-App Messaging SDKs.
 * Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
 * The following time limitations apply:
-
-    1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until 		it loads, the secure form will expire. This can occur as the result of a bad network connection or 		server failure. The 5 minute variable is configurable.
-    2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 		minute variable is configurable.
-    3. Both variables can be set to any time limit between 1 and 86400 seconds.
-
+  1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until 		it loads, the secure form will expire. This can occur as the result of a bad network connection or 		server failure. The 5 minute variable is configurable.
+  2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 		minute variable is configurable.
+  3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
   * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
-
     1. The consumer logs out
     2. The app is closed so its not running in the background
     3. The form expires
     4. The consumer opens another secure form
-
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
 
