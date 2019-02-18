@@ -9,28 +9,27 @@ permalink: Bots-automation-web-messaging-post-conversation-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-02-18 15:54:54 +0200
-published: false
 
 ---
 The Post Conversation Survey Bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
 ![](https://lh6.googleusercontent.com/YWtTrHvFuk03yCLftkgO8gW8CtMoGtmDj_4d7k3Lurqo0q8euC0lTDUaitgZ14ivaIPiIrL01kUH4dHaMJtdE-J-TUsZ9ScWcOhp_ClrpjeqEB4-UHHwXQoNiHx2lBJ6dOi7Q5nK =294x487)
 
-## **Survey Flow**
+## Survey flow
 
-1. Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
+Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
 
 ![](https://lh4.googleusercontent.com/LXc3CedYMzp9WFiK8sQUQLZ4FqUZjVW908M82VVIbS9WIPgyjUhYf2SLF5IHP_2eYF4vXtsv-eFIkxZNzz_DJvKp3-s8U-y1rT-Zkr8uYdNgNzZwzvOF9EyYF2kyqOVu2GrPVn9B =240x420)
 
-2. The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
+The Bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
 
 ![](https://lh3.googleusercontent.com/Om0OP8JLLCKWJ5CKlBqpPe7aV0NCb8NFxcprkvdQsrHw31gTudS2jvB24jz3wHuc1OKzMYbMwewLMPhVxmR9LaN6SoSkKrKODtMgzEyloe4FwQP2TXXyIdJM2nIf6fzf0BdwAwQL =216x379)
 
-3. Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message.
+Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message.
 
 ![](https://lh5.googleusercontent.com/PT6ngHNZT7bRmTgVaU_yvffhm6OgPkjkbBqibamDtxWrkWzBv_b8Et4po3-SZz8kQo7hOKh5-2lq-rY0VrcSV99ZS7vkxHMhzMiwo2SVPTJAGHSU9bJ5KQ9sk0XK9lH-U8QA5LAh =266x469)
 
-## **How it works**
+## How it works
 
 **SURVEY TRIGGERING**
 
@@ -74,11 +73,11 @@ The Post Conversation Survey Bot gives brands the ability to collect feedback fr
 * The brand can configure the closing message that will be sent to the consumer per each of the above survey outcomes.
 * Any message sent by the consumer after the survey has been closed will open a new messaging conversation with the brand.
 
-## **Prerequisites**
+## Prerequisites
 
 Ensure with your Account Manager that Post conversation survey has been provisioned on your account.
 
-### **For In-app Messaging:**
+### For In-app Messaging:
 
 * In-app Messaging SDK supporting PCS (v3.3 or above available for both Android and iOS)
 
@@ -90,7 +89,7 @@ Ensure with your Account Manager that Post conversation survey has been provisio
 * Android - enable_structured_content
 * Structured content needs to be enabled by your LivePerson Account Manager in addition to the above configuration by the client inside the SDK.
 
-### **For web messaging:**
+### For web messaging:
 
 * Structured content needs to be enabled by your LivePerson Account Manager. No further configuration is needed on the client side.
 
@@ -99,11 +98,9 @@ A brand that is looking to add the Survey Bot to its ranks should consider the f
 * The Survey Bot is available for Web messaging and In-app messaging only.
 * SMS, Facebook, LINE and other sources will be supported starting 9.30.18.
 
-# 
+## How to create a survey using the Bot Studio
 
-# **How to create a survey using the Bot Studio**
-
-## **Step 1 - Log in to the Bot Studio**
+### **S**tep 1 - Log in to the Bot Studio
 
 Log in to the Bot Studio using the following link [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
 
@@ -119,9 +116,8 @@ Once logged in to the Studio, create a new Bot under the Survey Bots tab.
 
 Once the bot is created, Enter the Bot’s Survey gallery and press the “Add Survey” button to create a new survey.
 
-Select the skills on which the survey will be triggered once the conversation is closed.  
-  
-  
+Select the skills on which the survey will be triggered once the conversation is closed.
+
 ![](https://lh5.googleusercontent.com/kN3b07Ni4WMm43r5JyoA-YxKkjP0xSpY54XjhJx6qCLMgl1FE203HbK8Nt17km9HwPxMwMznxPeVOJIh4eVi7WAh5anMQtrioq16KY9IupncAd55gz15OAIVoEH-iRx_5GhgufoL =653x178)
 
 ## **Step 3 - Define the survey flow with Sequences and Bricks**
@@ -156,7 +152,7 @@ The available actions that could be defined for each quick reply or button can p
 * **Continue sequence** - This would tell the Bot Studio UI that another brick should come right after the brick in which this action is defined.
 * **End conversation** - triggers an “end conversation message” that is assigned with the terminate command in the JSON.
 
-## **Step 4 - Set the Survey timeout and general settings**
+## Step 4 - Set the Survey timeout and general settings
 
 #### **Survey timeout**
 
@@ -168,7 +164,7 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.![](https://lh4.googleusercontent.com/YGGl7Pyqlm1cUdYbsHN8e0gQcpNqC4ZsVSYtkagRYMAcS9gkRLbXbu2YgloZgBImuRmL2zTrTSzmCPEt0Mv9bCwYZ-mycWL9s5N2-Lo98XRbDk5ANRKoZCW4CGe-_h0NTqk0U2oJ =466x401)
 
-## **Step 5 - Reaching a valid survey for Publishing**
+## Step 5 - Reaching a valid survey for Publishing
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
@@ -184,7 +180,7 @@ Attempting to Publish this survey will fail with a Bot Studio error message.
 
 Once the survey contains no warnings, hit the Publish button to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it would already be live for your users.
 
-## **Step 6 - Trigger the survey**
+## Step 6 - Trigger the survey
 
 In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace would show the caption - “Survey in progress”
 
@@ -192,7 +188,7 @@ In order to trigger the survey, start a conversation on the account and skill on
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-## **Free Text Responses**
+## Free Text Responses
 
 Consumers may choose to type in free text using their keyboard instead of selecting a preconfigured response.  
 It is possible to set up predefined phrases that the bot will recognize and act upon.  
@@ -204,7 +200,7 @@ In the settings under the skip survey section, you can add the phrases which the
 
 ![](https://lh3.googleusercontent.com/1Y1-K9yBiLve0IdCV4Qzs6fMdJxmwRPV_54sd7eeKCFIgF4CtF1esxvHZ202RW9lQ0-dVX1IEec3kgfMyCRgDoOt7QiwSdoJjfkT1EOZPVTQkVe3ChC5gJgi0ijuaGDNzSyiJC_5 =607x248)
 
-**Answer question using free text**   
+**Answer question using free text**  
 Another use for free text could be to enter an answer for a question.  
 In order to add a free text phrase that the bot would recognize to a button or quick reply, go to the button settings, click the “set additional free text answers” and
 
@@ -216,11 +212,11 @@ Please note: the user will need to enter the exact phrase in order for it to mat
 
 ## **Unrecognizable User Response**
 
-When the bot does not recognize user text, a warning message will appear prompting the user to select one of the quick replies or buttons presented.   
-After a configurable amount of times, the bot will automatically end the survey.   
+When the bot does not recognize user text, a warning message will appear prompting the user to select one of the quick replies or buttons presented.  
+After a configurable amount of times, the bot will automatically end the survey.  
 The response to unrecognized user text as well as the number of unrecognizable errors allowed can be configured in the survey settings.
 
-# **Enabling support for textual channels**
+## **Enabling support for textual channels**
 
 Surveys can be configured to run on non-structured content channels such as Apple Business Chat (ABC), SMS etc’.
 
@@ -232,9 +228,7 @@ To enable the support, head to the survey settings and mark the following checkb
 
 Once enabled, make sure to fill in the desired text in the Text Fallback Tab.
 
-# 
-
-# **Reporting**![](https://lh6.googleusercontent.com/aZoP0R3FdNLw9AfwohLstvvqqaRgwEbinsiox42kS-6pdSZVCnxn-Zb--0NyRgyw9YHDWzODyry3gIGdAszkszCkDxLp-v9nD9wenaEGnIvZKNIfaOGgSUF9NGjBMxzVmgkc4Nnm =624x332)
+## **Reporting**![](https://lh6.googleusercontent.com/aZoP0R3FdNLw9AfwohLstvvqqaRgwEbinsiox42kS-6pdSZVCnxn-Zb--0NyRgyw9YHDWzODyry3gIGdAszkszCkDxLp-v9nD9wenaEGnIvZKNIfaOGgSUF9NGjBMxzVmgkc4Nnm =624x332)
 
 The Predefined Messaging Performance Dashboard has been enhanced to include a dedicated “Survey Data Export” sheet containing an in-depth analysis of the new Messaging Post-Conversation Survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
 
@@ -248,7 +242,7 @@ The new sheet contains an additional set of metrics and attributes which support
 
 In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly.
 
-# **Design**
+## **Design**
 
 Each kind of brick has its own design parameters associated with it and some elements are customizable.
 
@@ -257,8 +251,6 @@ The text and quick replies brick has two main design aspects that can be control
 1. The design of the text within the buttons - color may be changed using the hexadecimal code
 2. The buttons layout and colours - the number of Quick Replies per row may be set as well as the buttons background and border colors.
 
-  
-  
 ![](https://lh3.googleusercontent.com/jz1SidYOu-TXwTUVU4h0NyLMK5lBSxGautxdcQAu4R4AU_R8GXjCbm3x4XSR7ufS6wXqjPGaA5Y8vNo1wSED3qCRglYBVhDV5sxVnzxUoCtXulTtsQzh8RwLlCvoe9eDjz8TktiU =268x446)
 
 For survey questions that include a text bubble, for example, a text+quick replies brick - the text bubble will inherit its design from the overall window look and feel which you have already customized for your LiveEngage account.
@@ -269,7 +261,7 @@ For mobile app messaging, the window customization is conducted via parameters w
 
 For more details on this please click the “Learn more” link located at the bottom of the design tab.
 
-## **The new Post Conv. Survey vs the old CSAT Survey**
+## **The new PCS vs the old CSAT Survey**
 
 On channels such as Web Messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new Post Conversation Survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
@@ -277,7 +269,7 @@ On channels such as Web Messaging and In-app messaging there is already an exist
 * If the conversation ends on a device that doesn’t support PCS (for example an app running SDK v3.2 or lower) then the old CSAT question may appear, assuming it was configured to appear.
 * If the conversation ends with a skill on which there is not PCS defined, the old CSAT question may appear, if it was enabled.
 
-# **Tutorials**
+# Tutorials
 
 The Help section which includes tutorials is made available to you after you create the survey bot and add your first survey.
 
