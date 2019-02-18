@@ -1,14 +1,14 @@
 ---
 pagename: Audit trail
 categoryName: Security & regulations
-subCategoryName: Regulations
+subCategoryName: Web messaging
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''
 permalink: security-regulations-audit-trail.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 15:00:44 +0200
+date: 2019-01-24 13:00:44 +0000
 
 ---
 A list of all changes made to individual users, profiles, skills, lines of business or agent groups across the whole account is available for view by account administrators in the audit trail for users.
@@ -48,7 +48,7 @@ The audit trail can be accessed by clicking on the account settings menu to the 
 
 ![](/img/audit2.png)
 
-Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles(Permissions)]()
+Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles.](admin-settings-permissions-customize-permissions.html)
 
 ### **Exporting data**
 
@@ -62,4 +62,4 @@ Audit trails are available on the following features:
 * Campaign timeframes
 * Post conversation survey
 
-![](/img/audit4.png)
+![](/img/Audit-trail4.png)
