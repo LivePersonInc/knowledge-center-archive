@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: false
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -92,14 +91,15 @@ This section sets out the Salesforce objects for which we would like the widget 
 1. The LiveEngage Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
 
 {: .notice}
-   **Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
+**Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
 
 {:start="2"}
+
 1. From the “Customization Settings” tab, scroll down to the “Skills” section.
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
 3. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
 4. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
-1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
+5. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
    1. Select which objects the relevant Skill can work with in the SFDC widget.
    2. Select the default widget screen: either a Search 	Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
    3. If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
@@ -283,7 +283,7 @@ Now that you’ve configured your LiveEngage App in Salesforce, it’s time to g
 5. Choose “Double Widget” size
 6. Enter the following URL:
 
-[https://liveengage.**XXXX**.visual.force.com/apex/ChatLink]()
+[https://liveengage.**XXXX**.visual.force.com/apex/ChatLink]() [CHANGE LINK]()
 
 Replace **XXXX** with your SF domain (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “[https://eu2.salesforce.com](https://eu2.salesforce.com "https://eu2.salesforce.com")”).
 
@@ -328,7 +328,7 @@ Below is an overview of the widget capabilities, in this section, we will cover 
 
 This will save the account record in SF and link the existing chat/messaging conversation to this account:
 
-![](/img/sfdc 8.png)
+![](/img/salesforce-integration-guide-6.png)
 
 ### **Creating a contact**
 
@@ -389,18 +389,20 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 2. Click on the info icon next to the relevant Contact, the “Info Bubble” will open and present the data from Salesforce.
 3. Look for the relevant Case/Opportunity in the bubble, click ‘Link Chat’
 
-![](/img/sfdc 9.png)
+![](/img/salesforce-integration-guide-7.png)
 
 {:start="4"}
 
 1. Another option is to view the record in the widget, Click “Actions”, “Link Chat.”
 
-![](/img/sfdc 10.png)
+![](/img/salesforce-integration-guide-8.png)
 
 {:start="5"}
 
 1. Once the chat/messaging conversation is linked to the record, the ‘Quick Links’ icon  will become Orange. By clicking on it you will be able to view the relevant records the chat/messaging conversation is linked to.
 2. In case you mistakenly linked the chat/messaging conversation to the wrong record, you may always ‘Unlink’, Click on ‘Actions’ menu from the record page and choose ‘Unlink Chat.’
+
+![](/img/salesforce-integration-guide-9.png)
 
 ## **Viewing the data in Salesforce**
 
@@ -418,7 +420,7 @@ Now that we created records from LiveEngage, you may view all our Chat Transcrip
 
 In case you are using both chat and messaging within your LiveEngage, the field ‘LivePerson SDK API Type’ identifies the specific type of the record (e.g. chat or messaging).
 
-![](/img/sfdc 12.png)
+![](/img/salesforce-integration-guide-10.png)
 
 ### **Reporting on your chat/messaging transcripts**
 
@@ -638,17 +640,15 @@ These are just a few examples meant to demonstrate how to write these “address
 
 1. **Issue**: SF widget will not load.
 
-   ![](/img/sfdc 13.png)
-
    **Possible causes/solutions:**
    1. User was not logged-in to Salesforce with the same browser.
    2. Wrong widget URL in LE: missing “ChatLink” wording.
    3. Wrong widget URL in LE: installed in SandBox but URL refers to production.
    4. Missing SF configuration - Skill is not associated with an object
 
-![](/img/sfdc 14.png)
+![](/img/salesforce-integration-guide-11.png)
 
-![](/img/sfdc 15.png)
+![](/img/salesforce-integration-guide-12.png)
 
 {:start="2"}
 
@@ -661,7 +661,7 @@ These are just a few examples meant to demonstrate how to write these “address
       2. Create a pre-chat survey question with a routing based question. (Only valid for the chat engagements)
       3. For messaging engagements, it is possible to pass the SDEs (engagement attributes) parameters in order to successfully load the widget
 
-   ![](/img/sfdc 16.png)
+![](/img/salesforce-integration-guide-13.png)
 
 {:start="3"}
 
@@ -685,8 +685,6 @@ These are just a few examples meant to demonstrate how to write these “address
    1. Scheduled sync jobs need to be defined
    2. Job is defined, but the SF user is inactive
 
-![](/img/sfdc 17.png)
-
 ### **Known limitations**
 
 1. The IE11 browser is not supported.
@@ -697,4 +695,4 @@ These are just a few examples meant to demonstrate how to write these “address
    **General Recommendation:**
    * Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
-![](/img/sfdc 18.png)
+![](/img/salesforce-integration-guide-14.png)
