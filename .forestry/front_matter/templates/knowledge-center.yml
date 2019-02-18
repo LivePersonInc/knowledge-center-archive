@@ -132,7 +132,6 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
-- pages/documents/What's New/november-2018.md
 - pages/documents/Security & Regulations/hipaa.md
 - pages/documents/Admin & Settings/Supported-languages.md
 - pages/documents/Security & Regulations/Security/ip-address-blocking.md
@@ -217,6 +216,7 @@ pages:
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
+- pages/documents/What's New/november-2018.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
