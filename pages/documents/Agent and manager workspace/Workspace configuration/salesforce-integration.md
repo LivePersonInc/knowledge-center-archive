@@ -474,11 +474,11 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
-   **LivePerson SDK Field:**
+   ##### LivePerson SDK Field:
 
    `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
 
-   **LivePerson API Field:**
+   ##### LivePerson API Field:
 
    `surveys.postChat\[displayName=How would you rate us?\].value`
 
