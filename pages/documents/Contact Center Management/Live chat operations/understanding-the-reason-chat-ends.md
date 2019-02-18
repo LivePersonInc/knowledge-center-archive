@@ -3,12 +3,13 @@ pagename: Understanding the reason a chat ends
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
-subtitle: 'Insight into why chats end is important for agents and agent managers trying
-  to gain a full understanding of a consumer’s experience during an engagement. '
+subtitle: Insight into why chats end is important for agents and managers trying to
+  measure the consumer’s experience
 level3: ''
 permalink: contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html
 isTutorial: false
-date: 2019-01-21 13:38:59 +0200
+date: 2019-01-21 11:38:59 +0000
+isNew: false
 
 ---
 When a chat ends, the reason for the chat's termination is displayed in the chat transcript. There are a number of reasons why a chat might end, whether initiated by a consumer or an agent, or as a result of an external event or issue.
@@ -19,7 +20,7 @@ To view the reason for a chat's termination:
 2. In the exported spreadsheet, refer to the ‘chat end reason’ column. The column displays the reason for each engagement ending.
 
 {: .notice}
-This information is also available in the Engagement History API.The table sets out the reasons why a chat might end, along with an explanation for each reason.
+This information is also available in the [Engagement History API](https://developers.liveperson.com/engagement-history-api-overview.html).The table sets out the reasons why a chat might end, along with an explanation for each reason.
 
 | Value | Explanation |
 | --- | --- |
