@@ -38,7 +38,7 @@ The customer needs to provide LivePerson with their X.509 certificate that inclu
 
 The customer needs to provide LivePerson with the following three parameters:
 
-* **Login page**:  A login page to IdP when trying to access LiveEngage without prior authentication to customer IdP.
+* **Login page**:  A login page to IDP when trying to access LiveEngage without prior authentication to customer IDP.
 * **Logout page**:  A URL that the user will be redirected to when logging out of LiveEngage.
 * **Redirect Page Upon Login Error**: A URL that the user will be redirected to when the login to LiveEngage fails.
 
@@ -63,7 +63,7 @@ The customer needs to provide LivePerson with the following three parameters:
 
   ## General notes on using the feature
 * HTTPS must be used for communication with the LivePerson servers.
-* Once the SSO Unified Login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the Forgot My Password link.
+* Once the SSO Unified Login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
-* It is advised that once Unified Login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out 2-factor login, IdP and agent definition issues.
+* It is advised that once Unified Login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out two-factor login, IdP and agent definition issues.
 * It is the responsibility of the brand to update LivePerson with the renewed X.509 certificate a month before the current certificate expires.
