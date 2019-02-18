@@ -59,17 +59,9 @@ Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the scr
 
 ![](/img/agent-workspace-for-chat-3.png)
 
-To send a message, enter text in the lower text entry area, and click the Send button, or press Enter. The sent text is displayed in the chat display area, along with replies and text sent by the visitor.
+To send a message, enter text in the lower text entry area, and click the Send button, or press Enter. The sent text is displayed in the chat display area, along with replies and text sent by the visitor. If you do not send a message to the consumer for some time, a default message is sent, apologizing for the delay.
 
-If you do not send a message to the consumer for some time, a default message is sent, apologizing for the delay.
-
-You can always return to the visitor list while chatting with a consumer. Simply click the below menu button in the bottom left-hand corner of the screen:
-
-![](/img/agent-workspace-for-chat-17.jpg)
-
-You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window.
-
-![](/img/agent-workspace-for-chat-18.png)
+You can always return to the visitor list while chatting with a consumer. Simply click the  menu button in the bottom left-hand corner of the screen. You can terminate a conversation at any time by selecting **End engagement** from the dropdown menu next to the visitor name. The visitor can also terminate the chat session by closing the chat window.
 
 {: .notice}
 Any user can take a chat from a consumer, providing they have been granted this permission in the User Profile area.
