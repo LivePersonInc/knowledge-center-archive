@@ -2,7 +2,7 @@
 pagename: Post conversation survey user guide
 categoryName: Bots & automation
 subCategoryName: Web messaging
-indicator: chat
+indicator: messaging
 subtitle: ''
 level3: ''
 permalink: Bots-automation-web-messaging-post-conversation-user-guide.html
