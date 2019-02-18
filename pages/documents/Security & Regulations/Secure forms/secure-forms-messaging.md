@@ -295,42 +295,24 @@ The connector’s secure form invitation contains the secure form name and a lin
 #### Language
 
 * Each channel - SMS, WhatsApp, ABC, Facebook, Google RCS - will have a secure form configuration (configuration is explained further in the below section)  that will set the secure form language, which will automatically translate the following elements:
-
-    1. Header with security statement
-    2. Submit button
-    3. Footer with security statement
-
+  1. Header with security statement
+  2. Submit button
+  3. Footer with security statement
 * After form submission by the consumer, a predefined message will be sent, which will be translated automatically per the language that was configured for the connector (the message is not configurable):  
   “The following secure form has been submitted: <Secure form title>”
 * Brands will be able to configure a language per channel entry point (per SMS number, FB page, Biz ID, WhatsApp number etc)
 
 #### Layout and design
 
-* The form layout and design will be the same as the web messaging secure form view.
-* The form design and colors will be inherited from the default window design elements, which are:
+The form layout and design will be the same as the web messaging secure form view.
 
-  Top bar with the form name:
-  * Form name will be displayed as created
-  * Will always be blue background (hex color #0363ad)
-  * Will always be set with the font “Arial”, color white
-    {: .start="2"}
-  1. Secure Form Logo will always be shown
-  2. Secure Form questions:
-  * Font will always be “Arial”, color gray (hex color #6D6E70)
-    {: .start="4"}
-  1. Secure From question placeholder:
-  * Font will always be “Arial”, color gray (hex color #6D6E70)
+The form design and colors will be inherited from the default window design elements, which are:
 
-{: .start="5"}
-1\. Secure form submit button:
-\* Color will always be blue (hex color #0363ad)
-\* font will always be “Arial”, color white
-
-{:start="5"}
-
-1. Secure from header and footer text:
-
-* Will always be set with the font “Arial”
+* **Top bar with the form name:** Form name will be displayed as created and will always be blue background (hex color #0363ad). It will always be set with the font “Arial”, color white. Secure form Logo will always be shown
+* **Secure form questions:** Font will always be “Arial”, color gray (hex color #6D6E70) 
+* **Secure From question placeholder:** Font will always be “Arial”, color gray (hex color #6D6E70)
+*  **Secure form submit button:** Color will always be blue (hex color #0363ad) and font will always be “Arial”, color white
+* **Secure from header and footer text:** Text will always be set with the font “Arial”
 
 #### User interface (UI)
 
@@ -420,8 +402,8 @@ When using secure forms, bear in mind:
 * Invitations, alerts and consumer texts are customizable on both In-App Messaging SDKs.
 * Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
 * The following time limitations apply:
-  1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until 		it loads, the secure form will expire. This can occur as the result of a bad network connection or 		server failure. The 5 minute variable is configurable.
-  2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 		minute variable is configurable.
+  1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until it loads, the secure form will expire. This can occur as the result of a bad network connection or server failure. The 5 minute variable is configurable.
+  2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.
   3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
