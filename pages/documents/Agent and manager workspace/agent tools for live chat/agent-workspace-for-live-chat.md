@@ -111,11 +111,11 @@ You can access the predefined phrases while you are chatting and, rather than re
 ![](/img/agent-workspace-for-chat-5.png)  
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
-* Closing: Thank you for visiting. Please contact us any time.
-* Conversational: Thank you for waiting.
-* Greeting: Hello, How may I assist you?
+* **Closing:** Thank you for visiting. Please contact us any time.
+* **Conversational:** Thank you for waiting.
+* **Greeting:** Hello, How may I assist you?
 
-### Hot Keys
+### Hot keys
 
 Hot keys help agents manage multiple, simultaneous tasks, by providing shortcuts to easily move between tasks, such as opening the Visitor List, toggling your status, and transferring chats to other agents.
 
@@ -183,7 +183,7 @@ The consumer receives a notification asking them to accept the CoBrowse session.
 2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
 3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
-## Clearing chats from the Agent workspace
+## Clearing chats from the agent workspace
 
 In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the Agent workspace.
 
@@ -215,7 +215,7 @@ The number of accumulated chats can be seen in the bottom right corner of the pa
 
 ![](/img/agent-workspace-for-chat-11.png)
 
-## The Agent Data Bar
+## The agent data bar
 
 As an agent, you have goals to meet, such as achieving a specific customer satisfaction rate or a certain number of engagements per hour. The Agent Data Bar allows you to monitor your performance data in real time, and take any necessary action to meet these goals. The Data Bar displays the following metrics.
 
@@ -223,7 +223,7 @@ As an agent, you have goals to meet, such as achieving a specific customer satis
 
 Engagements represents the number of chats you’ve taken during your current shift. The system counts the chat once you close the Engagement window.
 
-**Average Engagement Length**
+**Average engagement length**
 
 The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue.
 
@@ -231,7 +231,7 @@ _Average engagement length = total concurrent engaged time / number of interacti
 
 For example, if you were engaged for a total of 5 hours (including concurrent chats) and in that time took five chats, your average engagement length is:  5 hours / 5 = 1 hour
 
-**Engagements per Hour**
+**Engagements per hour**
 
 The number of engagements per hour reflects how many customers you have served on the average, in a given time period. There is no one perfect number for engagements per hour; you adapt the length of your chat to the needs of your customers.
 
@@ -241,9 +241,9 @@ For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you
 
 _6 engagements / 3 hours = 2 engagements per hour_
 
-**Utilized Capacity**
+**Utilized capacity**
 
-Utilized Capacity is calculated as follows:
+Utilized capacity is calculated as follows:
 
 _utilized capacity = total concurrent engaged time / total logged in time x max allowed concurrent chats_
 
