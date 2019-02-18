@@ -7,12 +7,13 @@ subtitle: View and search through all closed chats
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-live-chat-web-history.html
 isTutorial: false
-date: 2019-01-21 14:41:14 +0200
+date: 2019-01-21 12:41:14 +0000
+isNew: false
 
 ---
-The Web History is one of the most powerful analytics tools on LiveEngage providing rich, intelligent layers of data that offer deeper insights into agent performance and customer satisfaction.
+The Web History is one of the most powerful analytics tools on LiveEngage providing rich, intelligent layers of data that offer deeper insight into agent performance and customer satisfaction.
 
-![](/img/webhistory1.png)
+![](/img/web-history-1.png)
 
 * Advanced filtering capabilities lead to meaningful analysis on business topics, customer satisfaction, and operational effectiveness
 * Transcripts become available in minutes, so managers can start their analysis in near-real time
@@ -46,23 +47,25 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 **Survey information** (pre-chat, post-chat and agent) and **engagement attributes** (eCommerce info, visitor info, visitor journey and more) can be viewed by the Agent Manager, with authenticated attributes marked with a blue checkmark.
 
 * Search Fields in visitor info, including country, city, browser, operating system, IP address and device, provide a greater understanding of your consumers requirements and the drivers behind their customer journey.
-* Detailed campaign information, including campaign name, goal name, Line of Business, engagement name and visitor behaviour, is also available.
+* Detailed campaign information, including campaign name, goal name, Line of Business, engagement name and visitor behavior, is also available.
 * In addition, the preview window presents the chat ID, a unique number used to search and locate the chat for troubleshooting and investigation purposes.
 
-![](/img/webhistory2.png)
+![](/img/web-history-2.png)
 
 **Meaningful Connection Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit Meaningful Connection Score value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
 
-![](/img/webhistory3.png)
+![](/img/web-history-3.png)
 
 ## Advanced
 
 **History** for completed, interactive chats is displayed within five minutes of the chat closing and is available for up to 13 months.
 
-Please note:
-
-* Data from engagement attributes will take up to two hours to update and will include pre and during chat data only.
-* When searching by keyword in conversation transcripts or engagement attributes, if a chat has been transferred, only the first chat (before the transfer) will appear in the search results. Even if a specific keyword was part of the second (after transfer) chat, the web history tab will display the first chat only.
+<div class="notice"> 
+<b>Note:</b> 
+<ul> 
+<li>Data from engagement attributes will take up to two hours to update and will include pre and during chat data only.</li> <li>When searching by keyword in conversation transcripts or engagement attributes, if a chat has been transferred, only the first chat (before the transfer) will appear in the search results. Even if a specific keyword was part of the second (after transfer) chat, the web history tab will display the first chat only.</li> 
+</ul> 
+</div>
 
 The **Engagement History API** is available for you to search, filter and keep copies of chat transcripts and related data to later perform further analyzes using third party tools (DWH, CRM systems, etc.). The API enables the development of tailored dashboards, displaying information such as the reasons for chats ending, what time of day most chats occur, chat duration across different devices and so on. The Engagement History API is based on the RESTful architecture, where data is fetched via HTTPS requests; all information is secured using OAuth1.0.
 
