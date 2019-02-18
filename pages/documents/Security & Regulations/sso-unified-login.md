@@ -13,7 +13,7 @@ date: 2019-01-24 12:23:19 +0000
 ---
 The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to authenticate once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 
-This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation – a regulation which requires multifactor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multifactor authentication with its selected provider, and leverage that authentication when accessing LiveEngage.
+This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation- a regulation which requires multi-factor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multi-factor authentication with its selected provider, and leverage that authentication when accessing LiveEngage.
 
 This capability includes an architecture based on the SAML protocol, a standard protocol for implementing and supporting Single Sign-On. This architecture ensures both scalability as well as the highest level of security.
 
@@ -26,11 +26,11 @@ Prerequisites for LiveEngage:
 * SAML-enabled IdP server
 * Valid X.509 certificate
 
-## **Configuration**
+## Configuration
 
 Customers wishing to authenticate agents to LiveEngage based on the SSO Unified Login feature need to complete the following:
 
-### **Configuration on LivePerson’s Environment**
+### Configuration on LivePerson’s Environment
 
 The following settings will be handled by LivePerson’s Production department on behalf of the customer:
 
@@ -50,7 +50,7 @@ The customer needs to provide LivePerson with the following three parameters:
   If it is not possible to send the siteId, LivePerson can adapt the configuration.
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
-* Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html)) and create the linkage in the Customer's User Management system.
+* Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
 * Use this consumer URL for connecting to LiveEngage: https://<LP Domain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s core domain.
 * Use this consumer URL for connecting to the MCS toolkit: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 * Use this consumer URL for connecting to the Real Time Dashboard: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=rtDashboard&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
