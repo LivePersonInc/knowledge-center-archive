@@ -52,11 +52,11 @@ Please note throughout this document, when referring to the Engagement window, t
 
 Below is the Embedded Engagement window with its various components labelled.
 
-![](/img/accesspolicy1.png)
+![](/img/access-policy1.png)
 
 _Figure 1: The Embedded Engagement window_
 
-![](/img/accesspoli2.png)
+![](/img/accessibility-policy2.png)
 
 _Figure 2: The embedded engagement window, Action menu expanded_
 
