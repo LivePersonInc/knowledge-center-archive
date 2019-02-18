@@ -52,7 +52,7 @@ Please note throughout this document, when referring to the Engagement window, t
 
 Below is the Embedded Engagement window with its various components labelled.
 
-![](/img/access-policy1.png)
+![](/img/access-policy1-1.png)
 
 _Figure 1: The Embedded Engagement window_
 
@@ -62,7 +62,7 @@ _Figure 2: The embedded engagement window, Action menu expanded_
 
 The embedded engagement window layout is as follows (described from top to bottom):
 
-**Title bar:** Includes the End Conversation button which, when clicked by the visitor, terminates the chat and triggers the post-chat survey display (if configured). It also includes the Minimize button. When the window is minimized, the title bar appears at the bottom of the page on desktop and on the side of the page on mobile web. In its minimized form, the Minimize button is replaced with a Maximize button for displaying the window in full
+**Title bar:** Includes the end conversation button which, when clicked by the visitor, terminates the chat and triggers the post-chat survey display (if configured). It also includes the Minimize button. When the window is minimized, the title bar appears at the bottom of the page on desktop and on the side of the page on mobile web. In its minimized form, the Minimize button is replaced with a Maximize button for displaying the window in full
 
 **Logo:** Company logo can be added to this area.
 
@@ -74,7 +74,7 @@ The embedded engagement window layout is as follows (described from top to botto
 
 **Action menu:** Opens when the + button is clicked. It includes buttons to mute sound, email or print the conversation transcript, and end the conversation.  Ending the conversation triggers the display of the post-chat survey (if configured). Click X to collapse the action menu.
 
-## **Surveys**
+## Surveys
 
 Surveys are utilized to get information or feedback from visitors before or after a chat. They are configured by the customer in the LiveEngage Workspace. The questions in the surveys and their wording are at the discretion of the customer. Best practice is to keep surveys short, and to use clear and simple language.
 
@@ -86,7 +86,7 @@ The embedded engagement window supports the following survey types:
 
 There is an option to make survey questions mandatory; in which case a visitor can only submit the survey when all mandatory questions are answered. Below is an example of an offline survey form in the Embedded Engagement window.
 
-![](/img/accesspoli3.png)
+_![](/img/accessibility-policy3.png)_
 
 _Figure 3: Offline survey example_
 
@@ -94,9 +94,9 @@ _Figure 3: Offline survey example_
 
 Customer Satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).
 
-![](/img/accesspoli4.png)
+![](/img/accessibility-policy4.png)
 
-## **Secure form widget**
+## Secure form widget
 
 The LivePerson secure form widget was specifically designed to provide an additional security layer that enables visitors to transmit their sensitive information, such as credit card holder data (CHD), social security numbers, and other personal identifiable information (PII), in a highly secure environment.
 
@@ -106,7 +106,7 @@ Our secure form, which is sent by the agent to the visitor, contains various que
 
 The secure form is opened in a widget in the engagement window. On desktop it opens alongside the engagement window, and on mobile it appears on top of the engagement window.
 
-![](/img/accesspoli5.png)
+![](/img/accessibility-policy5.png)
 
 _Figure 4: Secure form widget_
 
