@@ -122,7 +122,7 @@ When using secure forms, bear in mind:
 
 ## Setting up secure forms
 
-secure forms are configured by LivePerson. To enable this feature, please contact LivePerson[ customer support](https://z1-a.le.liveperson.net/a/new/) or your account team. Your LivePerson account team will work with you make the necessary adjustments to your account settings and configurations.
+Secure forms are configured by LivePerson. To enable this feature, please contact LivePerson customer support or your account team. Your LivePerson account team will work with you make the necessary adjustments to your account settings and configurations.
 
 ### Account setup
 
@@ -172,4 +172,4 @@ To verify that permissions are enabled:
 4\.    Click Save.
 
 {: .notice}  
-If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ Customize user profiles documentation](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Permissions+(profiles).pdf).
+If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the[ ](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Permissions+(profiles).pdf)[Customize user profiles documentation.]()
