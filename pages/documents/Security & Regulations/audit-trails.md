@@ -32,8 +32,7 @@ Audit data related to user logins to the LiveEngage system is not available.
 
 The following values are recorded in the audit trail:
 
-**Object Type: the type of object on the platform (as above, Users, Skills, Agent Groups, Permissions, LOBs)**
-
+* **Object Type:** the type of object on the platform (as above, Users, Skills, Agent Groups, Permissions, LOBs)
 * **Object name:** the name of the object that was modified
 * **Action type:** the type of modification (edit, add new, delete)
 * **Element:** the item that was modified (Member of, Password, Profile)
