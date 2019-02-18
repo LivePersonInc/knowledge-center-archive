@@ -77,7 +77,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 
 * Click on the “Customization Settings” tab.
 
-![](/img/sfdc 4.png)
+![](/img/salesforce-integration-guide-4.png)
 
 ### Object settings
 
@@ -91,24 +91,14 @@ This section sets out the Salesforce objects for which we would like the widget 
 
 1. The LiveEngage Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
 
-   **Note:** You must have Skills in your LiveEngage account for this package to work. If you don’t have any 	Skills configured, please create a default one before continuing forward.
+{: .notice}
+   **Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
 
 {:start="2"}
-
 1. From the “Customization Settings” tab, scroll down to the “Skills” section.
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
-
-![](/img/sfdc 6.png)
-
-{:start="4"}
-
-1. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
-2. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
-
-![](/img/sfdc 7.png)
-
-{:start="6"}
-
+3. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
+4. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
 1. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
    1. Select which objects the relevant Skill can work with in the SFDC widget.
    2. Select the default widget screen: either a Search 	Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
