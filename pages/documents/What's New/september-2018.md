@@ -68,8 +68,6 @@ Admins can set up dynamic text (macros), such as agent name or skill name, withi
 
 Using Apple Business Chat you can now increase direct sales and offer more service transactions directly from a conversation. Support for Apple Pay allows agents to directly share Apple Pay requests. Once an Apple Pay request is received by a consumer, they can authenticate and pay.
 
-![](/img/sept-newsletter-3.png)
-
 ## Authenticated Interactive Message
 
 #### Use in-conversation authentication via ABC
