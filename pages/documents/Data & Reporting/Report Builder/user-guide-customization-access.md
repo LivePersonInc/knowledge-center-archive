@@ -545,15 +545,15 @@ Users are advised to recreate their dashboards every so often in order to get th
 * It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 * It is recommended to create new tabs rather than many panels in a single tab
 
-### **Filters**
+### Filters
 
 * The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
 
-### **Metrics & attributes**
+### Metrics & attributes
 
 * It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week’s worth of data.
 
-### **Derived metrics**
+### Derived metrics
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
@@ -561,4 +561,4 @@ Users are advised to recreate their dashboards every so often in order to get th
 
 **DISCLAIMER:**
 
-LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. If you use Report Builder to create or implement custom reports, we suggest that you keep the guidelines outlined in the [customize dashboards]() section in mind. However, please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
