@@ -64,9 +64,8 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Social
 
 <br/>
-To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). 
-
-Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section] in the Engagement Attributes guide on the Developer Community.
+	To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). 
+	Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section] in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
 6. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
@@ -84,9 +83,9 @@ Marketing source is an Engagement Attribute, for more information on reporting t
 * To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
-Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu. 
+	Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu. 
 
-Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
+	Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
