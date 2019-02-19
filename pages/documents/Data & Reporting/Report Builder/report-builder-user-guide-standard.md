@@ -43,12 +43,9 @@ Where there is data that cannot be pre-filtered by agent group, there are also r
 Dashboards in Report Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports -** dashboards saved here are visible to all the users in the account.
-
-  **- Predefined dashboards**: All available predefined dashboards.
-
-  **- My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-
-  **- Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
+* **Predefined dashboards**: All available predefined dashboards.
+* **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
+* **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ## LiveEngage predefined dashboards
