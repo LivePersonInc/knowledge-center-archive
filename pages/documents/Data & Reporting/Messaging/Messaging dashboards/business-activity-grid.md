@@ -50,16 +50,16 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   The following list contains the distinct metrics and their underlying formula (where applicable):
 
   #### Distinct to visit
-  * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account 
+  * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
   * EXPOSED -Number of visits during which the visitor was offered an engagement
-  * ENGAGED - Number of visitors who had at least one engagement during their visit 
+  * ENGAGED - Number of visitors who had at least one engagement during their visit
 
-    #### Distinct to Engagement 
-  * EXPOSURES - Number of times each engagement was offered to a visitor 
-  * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state 
-  *  CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state 
-  * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state 
-  * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor 
+    #### Distinct to Engagement
+  * EXPOSURES - Number of times each engagement was offered to a visitor
+  * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
+  * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
+  * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
+  * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
   * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
 
 ## Reporting on campaigns funnel from messaging engagements
@@ -117,10 +117,10 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 | Prospects(bar chart - main axis) | PROSPECTS | WEEK |
 | Exposed | EXPOSED(bar chart - main axis) | WEEK |
 | EXPOSED RATE(line chart - secondary axis) |  | WEEK |
-| Engaged | ENGAGED(bar chart - main axis) |  WEEK
-| ENGAGED RATE(line chart - secondary axis) |  |WEEK  |
+| Engaged | ENGAGED(bar chart - main axis) | WEEK |
+| ENGAGED RATE(line chart - secondary axis) |  | WEEK |
 | Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) | WEEK |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |    | WEEK |
+| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  | WEEK |
 
 **Trend (Grid)**
 
@@ -166,7 +166,7 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
    5. AVG. TIME TO ANSWER CHAT
    6. MAX. TIME TO ANSWER CHAT
 
-### Common to LoB, Campaign, Entry Point and Engagement panels
+### Common to LoB, campaign, entry point and engagement panels
 
 In order to isolate filtering by a specific object name to a single panel without influencing the other panels, a search box has been added to each panel. Searching and selecting one or more Lines of Business, Campaigns, Engagements, or Entry Points (each in their respective panel), will filter all the visualizations in the panel. This will allow drill down to the performance of a designated group of object (for example: all Sales related LoBs).
 
