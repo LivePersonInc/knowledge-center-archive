@@ -214,7 +214,7 @@ Hover the cursor over the name of the filter you just added, then click the arro
    * To display data in the quick dashboard for all elements except the elements that are selected, select **exclude**.
 
 {: .notice}  
-The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
+The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the **Time dataset include:** DATE, DAY OF WEEK, WEEK, and MONTH.
 
 ### Add a metric filter to the filters panel
 
@@ -222,12 +222,12 @@ From the dataset panel, click the metric you want to use to filter data, and dra
 
 Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
 
-* To filter data by creating a qualification on a metric, select **Qualification**.
-* To filter data by choosing values on a slider, select **Slider**.
+* To filter data by creating a qualification on a metric, select **qualification**.
+* To filter data by choosing values on a slider, select **slider**.
 
 Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
 
-* To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
+* To filter by the metric's values, select **qualify on value**. For example, you can display data only for agents with engagements greater than or equal to 100.
 * To assign a numeric rank to the metric values and then filter by rank, select
 
   **qualify on rank**.
@@ -301,7 +301,7 @@ To quickly rearrange the visualizations in a tab, click and drag the visualizati
 3. Select ‘**export**’ and then select the type of file to export: PDF, Excel or Data (CSV).
 
 {: .notice}  
-It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week of data.
+It is recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week of data.
 
 ## Metrics & attributes
 
@@ -346,11 +346,9 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 
 ### Create a new metric
 
-Right click anywhere in the datasets panel and select ‘create metric’.
-
-A new window ‘metric editor’ will open up.
-
-Use objects and functions or operators to create the required formula.
+* Right click anywhere in the datasets panel and select ‘create metric’.
+* A new window ‘metric editor’ will open up.
+* Use objects and functions or operators to create the required formula.
 
 **Objects:** the metrics and attributes available in the report.
 
@@ -360,14 +358,15 @@ To add an attribute or metric, double-click an object from the ‘objects’ lis
 
 To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
-**Please note:** Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+{: .notice}  
+Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
 
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
 
 How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
-**Recommendations:**
+#### **Recommendations:**
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
@@ -493,7 +492,7 @@ From the ‘break by’ drop-down list, select the attribute level at which you 
 
 Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
 
-**Further customizations are available:**
+#### **Further customizations are available:**
 
 1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
 2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
@@ -501,7 +500,7 @@ Each band displayed in the dialog box represents a different range of values. Yo
 
 You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
-**Clear all thresholds applied to a metric**
+#### **Clear all thresholds applied to a metric**
 
 On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
 
@@ -540,11 +539,11 @@ Once you have added an attribute to the grid, you can perform the following step
 
 ## Recommendations for creating custom dashboards
 
-### **Dashboards**
+### Dashboards
 
 Users are advised to recreate their dashboards every so often in order to get the latest version of the predefined dashboards.
 
-### **Tabs**
+### Tabs
 
 * It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 * It is recommended to create new tabs rather than many panels in a single tab
