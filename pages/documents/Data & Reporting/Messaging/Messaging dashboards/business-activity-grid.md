@@ -115,12 +115,12 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
 | Prospects(bar chart - main axis) | PROSPECTS | WEEK |
-| Exposed | EXPOSED(bar chart - main axis) |  |
-| EXPOSED RATE(line chart - secondary axis) |  |  |
-| Engaged | ENGAGED(bar chart - main axis) |  |
-| ENGAGED RATE(line chart - secondary axis) |  |  |
-| Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) |  |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  |  |
+| Exposed | EXPOSED(bar chart - main axis) | WEEK |
+| EXPOSED RATE(line chart - secondary axis) | WEEK |
+| Engaged | ENGAGED(bar chart - main axis) |  WEEK
+| ENGAGED RATE(line chart - secondary axis) | WEEK  |
+| Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) | WEEK |
+| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  WEEK  |
 
 **Trend (Grid)**
 
