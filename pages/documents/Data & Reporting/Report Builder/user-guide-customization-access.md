@@ -363,27 +363,25 @@ To create a derived metric using a function, select the function, define its arg
 
 How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
-![](/img/c8.png)
-
 **Recommendations:**
 
-* Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
-* Formulas: Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
+* **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
+* **Formulas:** Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
 * More information on using functions in metrics please visit this [website ](https://community.microstrategy.com/s/learning-center)(our 3rd-party provider).
 
-### **Edit a metric**
+### Edit a metric
 
 1. Right click on the metric name on the Dataset panel or Editor panel.
 2. Select ‘**Edit**’.
 3. The ‘Metric Editor’ window will open up allowing you to modify the metric’s formula.
 
-### **Change the format of a metric**
+### Change the format of a metric
 
-1. Right click on the name of the metric on the Datasets panel.
-2. Select ‘Number format’ and then select the format from the available options (Currency, Date, Time, Percentage and so on).
+1. Right click on the name of the metric on the datasets panel.
+2. Select ‘number format’ and then select the format from the available options (Currency, Date, Time, Percentage and so on).
 3. Change the decimal places by clicking the ‘Increase Decimal’ or ‘Decrease Decimal’ icons.
 
-![](/img/c9.png)
+![](/img/customization-user-guide7.png)
 
 {: .notice}
 Due to the platform design, when creating time based derived metrics, it is recommended to user the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
@@ -392,10 +390,10 @@ Due to the platform design, when creating time based derived metrics, it is reco
 
 Once a visualization is created with metrics and attributes, you can display it in several ways:
 
-### **Change widget style using the Visualization Gallery**
+### Change widget style using the visualization gallery
 
 1. Click on the visualization.
-2. Select the desired style from the ‘Visualization Gallery’, on the right of the screen.
+2. Select the desired style from the ‘visualization gallery’, on the right of the screen.
 
 The table below lists the available styles:
 
@@ -411,11 +409,11 @@ The table below lists the available styles:
 | Combo Chart | 2 or more metrics1 or more attributes |
 | Network Chart | 1 or more attributes |
 
-![](/img/c10.png)
+![](/img/customization-user-guide9.png)
 
 ## Graphs with more than one metric
 
-### **Change the axis**
+### Change the axis
 
 1. On the ‘EDITOR’ panel, right click on the name of the metric you’d like to move the axis of. A list of options is displayed.
 2. Select ‘Right Axis’. The metric’s axis will move from the default left axis to a new axis on the right of the graph.
@@ -434,30 +432,28 @@ The table below lists the available styles:
 4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
 5. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
-![](/img/c13.png)
-
 ## Formatting
 
 ### Formatting a graph
 
-#### **Change the color of shapes**
+#### Change the color of shapes
 
 1. Right click on the shape you would like to change the color of. A list of options is displayed.
 2. Click on ‘**Shape Fill Color**’ and select a color of your choice.
 
-#### **Add data labels**
+#### Add data labels
 
 1. Right click on the shape you’d like to add labels to. A list of options is displayed.
 2. Click on ‘**Data Labels**’ and select ‘Only Value’.
 3. Labels will be added to the visualization.
 
-### Thresholds
+#### Thresholds
 
 You can highlight metric data in a visualization by displaying the data in a different font color, or by replacing it with an image. For example, a Grid visualization displays conversions data for different agent groups. You can use thresholds to display conversions values of less than 1,000 in red. Thresholds can make analyzing large amounts of data easier because images are easy to locate and different font colors are quickly identified.
 
 A threshold is made up of two parts: the condition, and the formatting that will be applied to the values that meet the condition. Conditions can vary in complexity depending upon the type of threshold that is created. The data that meets the condition are considered to be data that have passed the threshold of the condition. Once data passes the threshold, formatting is automatically applied to the data.
 
-#### **Create a threshold for a metric**
+#### Create a threshold for a metric
 
 1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
 2. Select ‘**Thresholds**’. The Thresholds dialog box will open.
@@ -489,15 +485,11 @@ To create a threshold based on the top x percent of metric values, select **High
 
 To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
 
-![](/img/c14.png)
-
 From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
 
 Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
 
-![](/img/c15.png)
-
-Further customizations are available:
+**Further customizations are available:**
 
 1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
 2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
@@ -513,7 +505,7 @@ Select ‘**clear thresholds**’. All thresholds defined for the metric are cle
 
 ### Formatting the dashboard
 
-#### **Add a title**
+#### Add a title
 
 1. Click the ‘Insert’  plus & arrow icon in the top bar. A list of options will display.
 2. Select ‘**text**’. A new title bar will display.
@@ -529,10 +521,10 @@ For example, a grid displays requested engagements by campaign. If there are mul
 
 Once you have added an attribute to the grid, you can perform the following steps to group the data. When you group data in a dashboard, the grouping creates a new attribute, which is marked with the fx icon. You can use this new attribute in any of your visualizations.
 
-### **Group or ungroup data**
+### Group or ungroup data
 
-1. Right-click on the name of the attribute you’d like to group, on the EDITOR panel. A list of options will display.
-2. Select ‘**Create Groups**’. A new window, the ‘Group Editor’, will open.
+1. Right-click on the name of the attribute you’d like to group, on the editor panel. A list of options will display.
+2. Select ‘**create groups**’. A new window, the ‘group editor’, will open.
 3. Name the new attribute.
 4. Name a group and add values to it by dragging them from the ‘Available’ list on the left of the window and dropping them into the ‘Selected’ section on the right.
 5. Click the v button once your group is complete.
@@ -540,30 +532,28 @@ Once you have added an attribute to the grid, you can perform the following step
 7. Once you’ve finished creating the groups, click ‘**Save**’.
 8. You can now use the new attribute instead of the original attribute.
 
-![](/img/c16.png)
-
 **How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
 
-# Recommendations for creating custom dashboards
+## Recommendations for creating custom dashboards
 
-**Dashboards**
+### **Dashboards**
 
 Users are advised to recreate their dashboards every so often in order to get the latest version of the predefined dashboards.
 
-**Tabs**
+### **Tabs**
 
 * It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 * It is recommended to create new tabs rather than many panels in a single tab
 
-**Filters**
+### **Filters**
 
 * The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
 
-**Metrics & attributes**
+### **Metrics & attributes**
 
 * It is highly recommended to limit the amount of metrics included in a detailed grid that is based on attributes such as “AGENT” or “HOUR”. When pulling data for long timeframes, the performance of large grids may deteriorate. Therefore, it is recommended to either limit the amount of rows (attributes) or columns (metrics) in grids that present more than a week’s worth of data.
 
-**Derived metrics**
+### **Derived metrics**
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
