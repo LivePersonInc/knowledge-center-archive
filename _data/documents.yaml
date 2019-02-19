@@ -80,6 +80,7 @@
             - level3name: Introduction
             - level3name: "Step 1: Create a knowledge base"
             - level3name: "Step 2: Build an FAQ bot"
+    - subcategoryname: Post conversation survey
 
 - categoryname: Contact center management
   image: contact-center
