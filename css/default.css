@@ -18,6 +18,10 @@ p {
   color: #272727;
 }
 
+p + ul {
+  margin-top: -10px;
+}
+
 #post-content ul li {
   margin-bottom: 10px;
 }
@@ -134,6 +138,11 @@ h3 {
   font-weight: 500;
   font-size: 18px;
   color: #5879da;
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 #post-content iframe {
