@@ -39,7 +39,8 @@ MCS is a score that is calculated dynamically in multiple dimensions, using a bo
 * **Conversation MCS**: The combination of all the message scores added together, this score updates continuously throughout the conversation.
 * **Brand MCS**: The combination of all conversation MCSs.
 
-MCS can also be applied to **skill**, **agent**, **agent group** and **brand** . In this way, brands can get a full picture of any aspect of their operational performance.  
+MCS can also be applied to skill, agent, agent group and brand . In this way, brands can get a full picture of any aspect of their operational performance.  
+  
 {: .notice}  
 The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
@@ -61,7 +62,7 @@ The dynamic changes to the MCS can be tracked in the web messaging API.
 
 ## MCS applications
 
-### **1. Real time alerts**
+### 1. Real time alerts
 
 Real-time alerts on live engagements, displayed on the All Connections list and Web Visitors list, allow difficult interactions to be identified as they happen, enabling timely intervention to rectify the situation. Agents exposed to their ongoing MCS in real time can adjust their current conversations in order to increase their scores.
 
@@ -75,7 +76,7 @@ For chat conversations, the MCS score and smileys are displayed in dedicated col
 
 The image above shows the chat agent workspace
 
-### **2. Training opportunities**
+### 2. Training opportunities
 
 MCS Toolkit allows brands to identify training opportunities for agents and agent groups, meaning agent performance can be benchmarked and best practices standardized across the account. Conversation MCS offers brands the ability to deep dive into the evolution of consumer sentiment throughout the lifetime of a conversation. This allows agent managers to identify weak points in service, recognize trends and pinpoint areas that require improvement.
 
