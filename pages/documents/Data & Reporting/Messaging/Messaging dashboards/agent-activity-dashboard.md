@@ -4,7 +4,7 @@ categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: This dashboard includes operational metrics used to analyze agent activity
-  and performance.
+  and performance
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html
 isTutorial: false
@@ -14,9 +14,9 @@ isNew: false
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
-**Primary Datasets:** Agent activity, conversions, engagements, surveys
+**Primary datasets:** Agent activity, conversions, engagements, surveys
 
-**Primary Filters:** Agent, agent group, skill
+**Primary filters:** Agent, agent group, skill
 
 **Minimum timeframe:** Hourly
 
@@ -25,14 +25,13 @@ This dashboard includes operational metrics used to analyze agent activity and p
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
 ![](/img/agent-activity-dashboard 1.png)
-
 Image 1 - Agent activity dashboard main panel
 
 Visualizations:
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Logged in time(pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
+| Logged in time (pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
 | Away Time(pie chart) | AWAY | AWAY REASON | Hover to view the duration of a specific away reason and the % contribution of the angle |
 | Engaged duration per state (bar chart) | ENGAGED TIME | DATE | Filter by Agent Status (attribute) |
 | NON ENGAGED TIME |  |  |  |
@@ -45,7 +44,7 @@ Visualizations:
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
 | CROSS SESSION REVENUE |  |  |  |
 
-## Panel 2: Agent Activity Grid
+## Panel 2: Agent activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 

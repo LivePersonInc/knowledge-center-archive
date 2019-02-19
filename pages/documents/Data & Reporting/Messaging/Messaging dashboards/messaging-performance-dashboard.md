@@ -4,11 +4,10 @@ categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
 subtitle: This predefined dashboard includes operational data for all messaging channels.
-level3: Messaging dashboards
+level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
-level3: Messaging Dashboards
-date: 2019-01-15 16:29:49 +0200
+date: 2019-01-15 14:29:49 +0000
 
 ---
 ## Agent level data sheet
@@ -16,32 +15,32 @@ date: 2019-01-15 16:29:49 +0200
 * The predefined dashboard includes operational data for all messaging channels.
 * The primary datasets: Agent and consumer messaging activity.
 * Minimum timeframe: Hourly
-* Primary Filters: _agent, agent group, skill, source type_
+* Primary Filters: agent, agent group, skill, source type
 
 ## Main panel: agent performance summary
 
 The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.
 
-![](/img/mpd1.png)
+![](/img/Messaging-performance-dashboard1.png)
 
 _Image 1 - Agent performance summary_
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes* |
-| Activity State Breakdown (pie chart) | Away | away reason | Yes* |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes |
+| Activity State Breakdown (pie chart) | Away | away reason | Yes |
 | Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | No |
 | Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  |
 | Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | No |
 
-### **Top data bar (grid)**
+### Top data bar (grid)
 
 **Columns (metrics):**
 
 1. LOGGED IN TIME
 2. ONLINE / AWAY / BACK SOON (time)
 
-### **Overview by agent (grid)**
+### Overview by agent (grid)
 
 **Rows (Attributes):** AGENT
 
@@ -61,7 +60,7 @@ _Image 1 - Agent performance summary_
 
 The following panel provides an analysis of the consumer demand and agent response. The data is aggregated by day of the week. Selecting a specific day in the week dynamically filters the top data bar high level metrics.
 
-![](/img/mpd2.png)
+![](/img/Messaging-performance-dashboard2.png)
 
 _Image 2: Consumer and agent response activity (panel 2)_
 
@@ -69,14 +68,14 @@ _Image 2: Consumer and agent response activity (panel 2)_
 | --- | --- | --- | --- |
 | Consumer Responses (Demand) vs Agent Responses (Supply), by Day of Week, by Hour | TOTAL NO. OF AGENT RESPONSES / TOTAL NO. OF CONSUMER RESPONSES | DAY OF WEEK, HOUR OF DAY | No |
 
-### **Top data bar (grid)**
+### Top data bar (grid)
 
 **Columns (metrics):**
 
 1. LOGGED IN TIME
 2. ONLINE / AWAY / BACK SOON (time)
 
-### **Overview by agent (grid)**
+### Overview by agent (grid)
 
 **Rows (attributes):** Day of week
 
@@ -95,7 +94,7 @@ _Image 2: Consumer and agent response activity (panel 2)_
 
 The following panel provides an exportable grid which includes agent related activity and performance metrics.
 
-![](/img/mpd3.png)
+![](/img/Messaging-performance-dashboard3-1.png)
 
 _Image 3 - Agent level data export grid (panel 3)_
 
@@ -121,7 +120,7 @@ _Image 3 - Agent level data export grid (panel 3)_
 
 The main panel provides an executive view of the messaging program performance. It summarizes daily activity and allows the user to choose a specific source from which conversations are generated.
 
-![](/img/mpd4.png)
+![](/img/Messaging-performance-dashboard4.png)
 
 Image 4 - Brand messaging summary main panel
 
@@ -130,15 +129,15 @@ Image 4 - Brand messaging summary main panel
 | Avg. Response Time vs MCS (bar chart) | MCS / AVG RESPONSE TIME BY AGENT | Date | Dynamically filtered by “Traffic Source” selector grid |
 | Login hrs vs Conversations Per Login Hr (bar chart) | HANDLED CONVERSATIONS PER LOGIN HOUR / LOGGED IN TIME | Date | Dynamically filtered by “Traffic Source” selector grid |
 
-### **Traffic source (grid)**
+### Traffic source (grid)
 
-**Rows (Attributes):** Source
+**Rows (attributes):** Source
 
 **Additional function:** This grid acts as a selector to filter the visualizations in this panel. The user can select a specific source or de-select to return to the general view.
 
-### **Top data bar (grid)**
+### Top data bar (grid)
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
 1. ACTIVE CONSUMERS
 2. AVG. RESPONSE TIME BY AGENT
@@ -171,7 +170,7 @@ Image 4 - Brand messaging summary main panel
 
 Export the following grid to create custom visualizations and generate calculations from the data available in this grid view.
 
-![](/img/mpd5.png)
+![](/img/Messaging-performance-dashboard5.png)
 
 Image 5 - Brand level data export (panel 2)
 
@@ -219,3 +218,4 @@ When computing a messaging related metric that should allow filtering by an agen
 | NO. OF CONVERSATIONS CLOSED BY SYSTEM | The last agent assigned to the conversation | To the last skill assigned to the conversation |
 | AVG. CONVERSATION DURATION | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
 | INTERACTIVE / NON INTERACTIVE / ABANDONED CONVERSATIONS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+

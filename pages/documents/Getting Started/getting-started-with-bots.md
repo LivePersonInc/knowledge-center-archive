@@ -9,7 +9,8 @@ level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
 isNew: false
-date: 2019-02-11 14:56:04 +0200
+date: 2019-02-11 12:56:04 +0000
+
 ---
 ## The benefits of bots in LivePerson
 
@@ -20,7 +21,7 @@ Check out our in depth article on: [How bots work in LivePerson](how-bots-work-w
 * **Track and monitor bots like any other agent**  
   Bot conversations appear in the agent workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
 * **Set consumer expectations for a better bot experience**
-	In the conversation window, the consumer sees either an agent or a bot as the agent icon in order to manage consumer expectations. This agent icon is updated to a bot icon and automatically switched to the agent icon
+  In the conversation window, the consumer sees either an agent or a bot as the agent icon in order to manage consumer expectations. This agent icon is updated to a bot icon and automatically switched to the agent icon
 
 ## Step 1: Create conversation playbook
 
@@ -36,13 +37,12 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | --- | --- | --- | --- |
 | Standard | Collects information with the intention of handing off to an agent. Examples: form fill, FAQs, light data collection, etc. | Automate simple tasks to save agent time | Create your own dialogue from scratch. |
 | Routing | Collects information and routes to a skill in LE. This could include upfront pre-chat survey questions or a welcome message before routing. | Facilitate / automate tasks | The bot serves routing cards (structured content) with buttons. Each button can be assigned with a different action for example ‘transfer conversation to skill X’ or direct consumers to self-serve assets. |
-| Post Conversation Survey | Collects information post-conversation | Measure customer satisfaction | Customize the survey including: predefined questions (CSAT, NPS and FCR), custom/free text questions, and logic between the questions. |
+| Post Conversation Survey | Collects information post-conversation | Measure customer satisfaction | Currently in the Bot Studio (soon to be integrated with the Conversation Builder). Customize the survey including: predefined questions (CSAT, NPS and FCR), custom/free text questions, and logic between the questions. |
 | FAQ | Answers customer questions free-form | Resolve/contain the conversation | Use the conversation builder - using the Knowledge base bot template. |
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
-{: .notice}
-Only applicable if choosing option A in step 2 below
+{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html). 
 
 ## Step 2: Implement automation and build a bot
 
@@ -52,7 +52,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
-**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](conversation-builder-overview.html)) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
+**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
 **Host:** Hosting / running is done automatically by the Conversation Builder.
 
