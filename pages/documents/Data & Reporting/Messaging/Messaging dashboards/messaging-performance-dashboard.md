@@ -27,8 +27,8 @@ _Image 1 - Agent performance summary_
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes* |
-| Activity State Breakdown (pie chart) | Away | away reason | Yes* |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes |
+| Activity State Breakdown (pie chart) | Away | away reason | Yes |
 | Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | No |
 | Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  |
 | Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | No |
@@ -218,3 +218,4 @@ When computing a messaging related metric that should allow filtering by an agen
 | NO. OF CONVERSATIONS CLOSED BY SYSTEM | The last agent assigned to the conversation | To the last skill assigned to the conversation |
 | AVG. CONVERSATION DURATION | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
 | INTERACTIVE / NON INTERACTIVE / ABANDONED CONVERSATIONS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+
