@@ -14,7 +14,6 @@ published: false
 ---
 These release notes include new features arriving to LiveEngage during Feb 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-  
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important}  
@@ -140,7 +139,8 @@ Consumers can now share a contact (from their contacts list) with a business in 
 
 Consumer opts to share contact during conversation:
 
-![](https://lh6.googleusercontent.com/PpoIU6ruJAuob16g3G9OJCXgBP-j2zH6a5wdZ0j0sLsSm62gCVsqvt8tMdd9OGA6z_-rvdNfoE4hvHNKF-qPlmVoPPW0ZCU8noXZVK7930dKSDOvu9XWX-53I2Mb8njf7z3ibNB_ =130x231) ![](https://lh6.googleusercontent.com/yqvmCF9LkXCxMkAMOFxk4kJX_VlLVLl8X89smW8XvRmLA3BG-L-PLHqyXE0CmQO65ogSjibxV5P1QcozMMD4wYh8v9SsQyvKUR-gJLkBZ_OxOXg1GSEXkYhXIVYbTYFDz_IOizGi =140x230) ![](https://lh5.googleusercontent.com/-0NreDR6nsyw-20VSHzrcKj3EdKZIttU3PL1lL5tXImNe5DJsaJKoUI3IaI2yDpobtEkknScU6Pr1FG1jAf4H2A4tzrPJ6L2qFNtREtJQvUqUG_r6YNkB5Uj05Fn2jMlzBQjV1dE =134x226)
+{: .sidebyside}
+![](/img/week-of-february-18th-1.png) ![](/img/week-of-february-18th-2.png) ![](/img/week-of-february-18th-3.png)
 
 Agent will receive contact sharing info as text:
 
@@ -295,7 +295,6 @@ Now, the patterns are updated properly. The solution proposed is to implement th
 
 If an agent attempts to send certain files via links to a consumer, it causes certain unexpected behavior, like redirecting to another link causing an infinite loop.
 
-  
 **Fix:** The message will be sent to the consumer as text message instead.
 
 ### Bad URLs on WhatsApp Container health check (CX-114)

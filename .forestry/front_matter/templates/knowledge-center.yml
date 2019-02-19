@@ -184,7 +184,7 @@ pages:
 - pages/documents/Getting Started/getting-started-with-bots.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Contact Center Management/Campaigns/engagement-window.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-using-the-mcs-toolkit.md
+- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-the-mcs-toolkit.md
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
 - pages/documents/Contact Center Management/Campaigns/visitor-behavior.md
@@ -246,10 +246,10 @@ pages:
 - pages/documents/What's New/november-2018.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
-- pages/documents/Release Notes/February/week-of-february-18th.md
 - pages/documents/What's New/october-2018.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
+- pages/documents/Release Notes/February/week-of-february-18th.md
 - pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
