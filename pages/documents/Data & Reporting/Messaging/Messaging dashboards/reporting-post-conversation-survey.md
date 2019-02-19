@@ -11,7 +11,7 @@ isTutorial: false
 date: 2019-01-15 13:14:02 +0000
 
 ---
-## Reporting for post conversation survey
+## Reporting for Post Conversation Survey
 
 The post conversation survey enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
 
@@ -262,7 +262,7 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 
 ![](/img/post-conversation-survey3.png)
 
-8. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
+1. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
 
 ### Formulas:
 
@@ -319,14 +319,13 @@ Report Builder offers the option to export the survey results data into a MS Exc
 7. Drag into the visualization the following metrics and attributes:
 
    **![](/img/post-conversation-survey.png)Attributes:**
+   * Date
+   * Skill
+   * Agent
+   * Question Name
+   * Answer value - the submitted answer
 
-    * Date
-    * Skill
-    * Agent
-    * Question Name
-    * Answer value - the submitted answer
-
-  **Metrics:**
-  Answer count (Agent and Skill) - the number of times the answer was submitted
+**Metrics:**
+Answer count (Agent and Skill) - the number of times the answer was submitted
 
 Export the data into excel by clicking on the down arrow at the top right corner of the visualization, selecting ‘Export’ and ‘Excel’. Now you can use your own formula to calculate the percentage of positive answers submitted out of the totals answers submitted
