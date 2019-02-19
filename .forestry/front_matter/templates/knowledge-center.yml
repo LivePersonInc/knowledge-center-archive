@@ -216,7 +216,6 @@ pages:
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
-- pages/documents/What's New/november-2018.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
@@ -247,6 +246,7 @@ pages:
 - pages/documents/What's New/january-2019.md
 - pages/documents/Contact Center Management/Campaigns/campaigns-overview.md
 - pages/documents/Contact Center Management/Campaigns/campaign-settings.md
+- pages/documents/What's New/november-2018.md
 - pages/documents/What's New/october-2018.md
 - pages/documents/What's New/september-2018.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md

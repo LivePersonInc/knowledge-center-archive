@@ -14,7 +14,7 @@ date: 2019-01-23 15:08:51 +0000
 ---
 ## Post Conversation Survey bot
 
-The November newsletter video features the [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html) - a feature that helps brands take advantage of increased traffic and get feedback from their customers in a conversational format:
+The November newsletter video features the [Post Conversation Survey](bots-automation-post-conversation-survey.html) - a feature that helps brands take advantage of increased traffic and get feedback from their customers in a conversational format:
 
 <iframe src="https://player.vimeo.com/video/300977058" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
