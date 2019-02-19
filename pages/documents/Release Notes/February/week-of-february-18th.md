@@ -333,5 +333,4 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 
 The URL pattern was not constructed properly with the location (brand’s phone number). This caused timeouts which caused message delays issue in WhatsApp connector.
 
-  
 **Fix:** The URL pattern is now constructed properly and should not cause an issue.
