@@ -1,6 +1,6 @@
 ---
 pagename: Surveys & window
-categoryName: FAQs
+categoryName: Getting started
 subCategoryName: ''
 indicator: chat
 subtitle: ''
@@ -17,7 +17,7 @@ In SMS messaging the CSAT question remains open until the customer responds. It 
 
 ## Why doesn't the secure form for live chat open automatically for consumers?
 
-Until recently, secure forms over live chat opened automatically for consumers within the chat window. LivePerson has recently introduced [secure form for messagin]()g, where the nature of a continuous conversation does not fit auto open for forms.
+Until recently, secure forms over live chat opened automatically for consumers within the chat window. LivePerson has recently introduced [secure form for messaging](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html), where the nature of a continuous conversation does not fit auto open for forms.
 
 In messaging conversations, a consumer may choose to open the form at a later time or from a different device.  The behavior of secure forms is consistent across channels and will open with a click for live chat conversations as well.
 
@@ -57,12 +57,10 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 1. Log in to LivePerson as a campaign manager.
 2. Go to the **Campaigns** list.
 3. Select the Campaign containing the engagement you want to modify.
-4. Click **Action > Edit** to edit the campaign.  
-   ![](/img/survey-window-faq-1.png):start="5"}
-5. Click **Edit** to the right of the engagement you want to modify.
-
-   ![](/img/surveys-window-faq-2.png)
-   {:start="6"}
+4. Click **Action > Edit** to edit the campaign.
+5. Click **Edit** to the right of the engagement you want to modify.  
+   ![](/img/faqs-surveys-windows-1-1.png)
+{:start="6"}
 6. On the Engagement settings window click **Next**. The Engagement studio opens
 7. Click the **down arrow** next to Online to view the list of States.
 8. Click the **orange checkmark** to the right of Offline to disable the Offline survey.
@@ -72,11 +70,9 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 
 ## How do I add the agent’s photo to the engagement window?
 
-In LivePerson, go to the 'Users tab >' click the row with the agent’s name. The 'Edit user' window opens.
-
-In the picture URL field, add the URL of the agent’s personal picture (must be in https format).
-
-Click “Save”.
+1. In LivePerson, go to the 'Users tab >' click the row with the agent’s name. The 'Edit user' window opens
+2. In the picture URL field, add the URL of the agent’s personal picture (must be in https format)
+3. Click “Save”
 
 ![](/img/surveys-window-faq-4.png)
 

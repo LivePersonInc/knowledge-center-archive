@@ -81,4 +81,4 @@ Sections can be used for both web and mobile app engagements. Since website loca
 3. Select section and type the names of the sections where you want the engagement to display. Remember you can tag as many sections as you want to one entry point and if you want exact matches, you will need to use quotes.
 4. Click **Save**.
 
-![](/img/entry point 5.png)
+![](/img/entry-point-5.png)

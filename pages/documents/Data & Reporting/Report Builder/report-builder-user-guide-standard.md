@@ -1,5 +1,5 @@
 ---
-pagename: Report Builder user guide (standard)
+pagename: User Guide (standard)
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: both
@@ -7,11 +7,9 @@ subtitle: 'User guide for users with read only access '
 level3: ''
 permalink: data-reporting-report-builder-report-builder-user-guide-(standard).html
 isTutorial: false
-date: 2019-01-10 11:10:56 +0200
-level3: ''
+date: 2019-01-10 09:10:56 +0000
 
 ---
-
 ## Accessing Report Builder
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
@@ -45,12 +43,9 @@ Where there is data that cannot be pre-filtered by agent group, there are also r
 Dashboards in Report Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports -** dashboards saved here are visible to all the users in the account.
-
-  **- Predefined dashboards**: All available predefined dashboards.
-
-  **- My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-
-  **- Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
+* **Predefined dashboards**: All available predefined dashboards.
+* **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
+* **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ## LiveEngage predefined dashboards
@@ -61,17 +56,15 @@ If you wish to enrich the predefined dashboards, and customize them to their nee
 
 The data currently available in the predefined dashboards are as follows:
 
-* **Agent activity dashboard**: Includes operational data about agents.
-* **Skill activity dashboard**: Includes operational data about skills.
-* **Goals tracker dashboard**: Includes information about each conversion.
-* **Messaging performance dashboard**: Includes operational and business data about messaging conversations.
-* **Business activity dashboard:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
-* **Operational & staffing dashboard:** Includes information about skill performance and skill demand.
-* **Survey activity dashboard:** Includes information about responses to surveys in Live chat.
+* [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents.
+* [**Skill activity dashboard**:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
+* [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion.
+* [**Messaging performance dashboard**:](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
+* [**Business activity dashboard**](data-reporting-messaging-messaging-dashboards-business-activity-grid.html)**:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* [**Operational & staffing dashboard:**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) Includes information about skill performance and skill demand.
+* [**Survey activity dashboard**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html)**:** Includes information about responses to surveys in Live chat.
 
-![](/img/rbug1.png)
-
-_Note: The data included in Report Builder are constantly evolving._
+{: .notice} The data included in Report Builder is constantly evolving.
 
 ## Metrics glossary
 
@@ -85,17 +78,13 @@ Click [here](https://developers.liveperson.com/essential-resources-report-builde
 
 Every predefined dashboard includes a sheet titled “field details”. This sheet presents a grid with the definitions of each metric and attribute displayed in the visualizations of the dashboard.
 
-**![](/img/rbug2.png)**
-
-**_Image 2:_** _Field details sheet_
-
-**Viewing reports**
+### **Viewing reports**
 
 Each report in Report Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
 
 **To run a report:** Click on the dashboard you wish to open
 
-**Time-frame selector**
+### **Time-frame selector**
 
 When selecting a dashboard to run you will be asked to select a timeframe for the dashboard data. This prompt is the “time frame selector”. The dashboard will only present data from the pre-loaded timeframe. You can always “re-prompt” from within the dashboard’s file menu.
 
@@ -106,29 +95,17 @@ In the selector, you may choose from one of the following time-frame options:
 3. Last 30 days
 4. Filter for months - choose up to four individual months from the past 13 months
 
-**![](/img/rbug3.png)**
+### **Hour offset selector**
 
-**Image 3:** Time frame selector main prompt
-
-**![](/img/rbug4.png)**
-
-**Image 4:** Time frame selector “filter for months” prompt
-
-**Hour offset selector**
-
-When running the **agent activity dashboard** or the **goal tracker dashboard,** another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
+When running the [agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) or the [goal tracker dashboard](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html), another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
 
-**_![](/img/rbug5.png)_**
-
-**_Image 5:_** _Hour offset selector_
-
-**Dashboard view**
+### **Dashboard view**
 
 Data is displayed in a graphical format and/or in grid view. The data is presented to all users according to their LiveEngage account-level time zone, even if their user-level time zone has been configured differently.
 
-![](/img/rbug6.png)
+![](/img/User-guide6.png)
 
 Hover over any report with your mouse to view an explanation of what the report displays. You can customize how the data is displayed by choosing your own color scheme.
 
@@ -143,15 +120,14 @@ To filter a report:
 
    Please note:
    * Data will only display for dates chosen within the timeframe selected when you first ran the report.
-   * _You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date._
+   * You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date.
 
-![](/img/rbug7.png)
+     ![](/img/User-guide-4.png)
+3. Click **OK**.
+4. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
+5. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
 
-1. Click **OK**.
-2. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
-3. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
-
-![](/img/rbug8.png)
+![](/img/User-guide5.png)
 
 **How-to video:** [**Filtering**](https://bcove.video/2wwcWD6)
 
@@ -162,20 +138,18 @@ Exports can be exported in PDF or Excel format.
 To export a report:
 
 1. Hover your mouse cursor over the top right corner of your screen until an arrow is displayed.
-
-   ![](/img/rbug9.png)
 2. Click the arrow, and then select **export.** The following options are displayed: **Excel**, **PDF**, **data**.
 3. Select an export option.
 
-_By default:_
+By default:
 
-* _Excel will be used when the view is grid._
-* _PDF will be used when the view is widgets._
-* _Data is exported to a CSV file._
+* Excel will be used when the view is grid.
+* PDF will be used when the view is widgets.
+* Data is exported to a CSV file.
 
-# LivePerson technical support
+## LivePerson technical support
 
-LivePerson Technical Support is available 24/7 in the[ Connection Area](https://liveengage.liveperson.net/a/new/#registration!signUp).
+LivePerson technical support is available 24/7 in the[ Connection Area](https://liveengage.liveperson.net/a/new/#registration!signUp).
 
 Please note that LivePerson support troubleshoots and resolves issues in predefined dashboards officially released by LivePerson as part of the product.
 

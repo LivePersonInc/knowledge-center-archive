@@ -62,9 +62,9 @@ The data is collected for closed surveys (consumer can no longer submit response
 
 ## Attribution to agents
 
-Survey results are attributed to the last agent who was assigned to the conversation prior to the initiation of the survey flow. The skill attributed with the survey results corresponds to the one assigned to the conversation along with the same agent (last assigned). 
+Survey results are attributed to the last agent who was assigned to the conversation prior to the initiation of the survey flow. The skill attributed with the survey results corresponds to the one assigned to the conversation along with the same agent (last assigned).
 
-The last agent assigned to the conversation may not have been assigned to the conversation when it was transferred over to the survey bot. For instance, if a manager joined (but not assigned to) the conversation and closed it, consequently triggering the survey flow, the same manager will not​ be attributed with the survey results. 
+The last agent assigned to the conversation may not have been assigned to the conversation when it was transferred over to the survey bot. For instance, if a manager joined (but not assigned to) the conversation and closed it, consequently triggering the survey flow, the same manager will not​ be attributed with the survey results.
 
 The results instead will be attributed to the agent who was assigned to the conversation when the manager joined. In the same manner, the last skill which also helped determine which survey to present, will not necessarily align with skill assigned to the conversation along with the last assigned agent.
 
@@ -135,28 +135,28 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
 ## New attributes / filters
 
-**Survey attributes**
+### **Survey attributes**
 
-* **Survey active indicator** - Is the Survey flow configured with a skill (in use) 
+* **Survey active indicator** - Is the Survey flow configured with a skill (in use)
 * **Survey deleted indicator** - Was the Survey flow deleted?
 * **Survey name** - The name of the survey, configured in the Bot Studio.
 * **Survey description**- The description of the survey, configured in the Bot Studio.
 * **Survey outcome** - The outcome of the survey as reported by the Survey bot.
 
-**List of Survey outcome supported values:**
+### **List of Survey outcome supported values**
 
-* “Ignored” when the consumer was offered a survey but didn’t respond
-* “Completed” when the survey reached the end of the configured flow
-* “Partially completed - timed out” when the consumer answered some questions and then abandoned
-* “Partially completed - skipped” when the consumer elected to skip the survey after responding to some of the questions
-* “Skipped” when the consumer elected to skip the entire survey before responding to any question
-* “Closed by consumer”
-* “Consumer unrecognized answer” when the Bot discontinues the survey flow after a max amount of retries
-* “Not Supported” if the consumer’s device does not support the new survey flows (SDK incompatible)
-* “Closed by system”
-* “Error in survey flow” when unexpected errors occur, such as invalid structured content, non-whitelisted images, …
+* **“Ignored”** when the consumer was offered a survey but didn’t respond
+* **“Completed”** when the survey reached the end of the configured flow
+* **“Partially completed - timed out”** when the consumer answered some questions and then abandoned
+* **“Partially completed - skipped”** when the consumer elected to skip the survey after responding to some of the questions
+* **“Skipped”** when the consumer elected to skip the entire survey before responding to any question
+* **“Closed by consumer”**
+* **“Consumer unrecognized answer”** when the Bot discontinues the survey flow after a max amount of retries
+* **“Not Supported”** if the consumer’s device does not support the new survey flows (SDK incompatible)
+* **“Closed by system”**
+* **“Error in survey flow”** when unexpected errors occur, such as invalid structured content, non-whitelisted images.
 
-**Question attributes**
+### **Question attributes**
 
 * **Question name** - The name of the question, configured in the Bot Studio (this is not the question text which is presented in the Question Fallback Text attribute).
 * **Question type** - The type of the question, configured in the Bot Studio. Supported values include: CSAT, NPS, FCR and Custom Questions.
@@ -165,22 +165,22 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 * **Question fallback text** - The text presented to the consumer in case the end-point does not support structured content (such as SMS).
 * **Question format** - The format of the question. Supports the values: “Open” and “Single Selection”. When the Survey flow supports additional format (such as multiple choice), the support values will be adjusted accordingly.
 
-**Answers attribute**
+### **Answers attribute**
 
 * **Answer** - The answers configured in the Bot Studio for each question.
 * **Answer value** - Hidden attribute (available only to Edit-Access users)
 * **Is answer recognized by bot** - Was the response provided by the consumer recognized as a one of the configured answers for a specific question? Use this attribute to include or exclude the “unrecognized by bot” answer type. Default filter: “Yes” only.
 
-## New Metrics
+## New metrics
 
-**Survey metrics**
+### **Survey metrics**
 
 * **Closed survey** - The number of survey dialogs which were closed. A closed dialog is one that none of the participants can send messages in.
 * **Closed survey rate** - The percentage (%) of survey instances closed with a specific outcome. Supported by the “Survey Outcome” attribute (filter).
   \* Presents 100% when not filtered / split by outcome.
 * **Avg. duration of survey availability** - The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions. This is measured from the time the survey is offered until the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey). Format: \[h\]:mm:ss
 
-**Questions metrics**
+### **Questions metrics**
 
 * **Offered question** - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.).
 * **Answered question** - The number of questions presented to the consumer by the bot and were responded by the consumer with a valid (configured) answer (recognized by the bot as a valid answer). Used to compare with the metric “Offered Question”. When a question is offered multiple times but answered with a valid response less times, there may be an issue with the question text (behavioral or technical).
@@ -189,7 +189,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
   If no response was given to the question, the metric will be associated with an empty cell in the dashboard (Null). Format: \[h\]:mm:ss
 
-**Answers metrics**
+### **Answers metrics**
 
 * **CSAT (brand) CSAT (agent and skill)** - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
 * **FCR (brand) FCR (agent and skill)** - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
@@ -234,14 +234,10 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 * Formula: NullToZero(Sum(Case((\[QUESTION TYPE\]@ID=1), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
   #### CSAT_Answer_Count 4_5:
-
-
 * Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
 * Formula: NullToZero(Sum(Case(((\[QUESTION TYPE\]@ID=1)And((\[ANSWER VALUE\]@ID=4)Or(\[ANSWER VALUE\]@ID=5))), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
   #### New_CSAT:
-
-
 * Metric definition: the ratio of times answer 4 and 5 where submitted
 * Formula: \[CSAT_Answer_Count 4_5\]/CSAT_Answer_Count
 

@@ -141,7 +141,6 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
-- pages/documents/Data & Reporting/Report Builder/conversation-outcomes.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
@@ -259,6 +258,7 @@ pages:
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
+- pages/documents/What's New/february-2019.md
 - release-notes-feb-4.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-configuration-guide.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md
