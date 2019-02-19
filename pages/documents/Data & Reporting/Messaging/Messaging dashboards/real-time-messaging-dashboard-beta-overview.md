@@ -287,7 +287,7 @@ The reset button on the bottom left resets to the initial configuration.
 
 ![](/img/real-time-messaging-dashboard-overview13.png)
 
-**Sample size means:** the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs).
+**Sample size means:** the representative sample of conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs).
 
 **Opened filter means:** the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section.
 
