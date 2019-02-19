@@ -1,5 +1,5 @@
 ---
-pagename: Custom metrics for surveys
+pagename: Creating custom metrics in Report Builder for survey answers
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: messaging
@@ -9,12 +9,9 @@ permalink: data-reporting-report-builder.html
 isTutorial: false
 isNew: false
 date: 2019-02-19 12:24:08 +0200
-published: false
 
 ---
-## Creating custom metrics in Report Builder for survey answers
-
-### Custom calculation for predefined questions (CSAT, NPS, FCR)
+## Custom calculation for predefined questions (CSAT, NPS, FCR)
 
 When using a predefined brick for CSAT, NPS, FCR, you have the option of changing the calculation for the score and defining your own metric, using the submitted answers.
 
