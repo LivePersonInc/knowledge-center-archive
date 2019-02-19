@@ -126,7 +126,7 @@ Balance is reported via the Customer Info Engagement Attribute, for more informa
 {:start="13"}
 13\. **Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
-Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the relevant section in the Engagement Attributes guide on the Developer Community.
+Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section ]()in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-6.png)
 
