@@ -100,7 +100,7 @@ In the selector, you may choose from one of the following time-frame options:
 
 ### **Hour offset selector**
 
-When running the **agent activity dashboard** or the **goal tracker dashboard,** another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
+When running the [agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) or the [goal tracker dashboard](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html), another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
 
@@ -123,7 +123,7 @@ To filter a report:
 
    Please note:
    * Data will only display for dates chosen within the timeframe selected when you first ran the report.
-   * _You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date._
+   * You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date.
 
      ![](/img/User-guide-4.png)
 3. Click **OK**.
