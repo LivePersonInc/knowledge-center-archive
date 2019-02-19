@@ -1,5 +1,5 @@
 ---
-pagename: Business activity grid (daily / monthly)
+pagename: Business activity dashboard and grid
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: both
