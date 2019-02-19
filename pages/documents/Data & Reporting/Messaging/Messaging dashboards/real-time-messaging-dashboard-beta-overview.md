@@ -3,9 +3,8 @@ pagename: Real time messaging dashboard overview
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
-subtitle: The real time dashboard leverages the power of the real time operational
-  and administrative APIs to enable users to monitor the brand’s account health in
-  both real time and for the previous 24 hours.
+subtitle: Leverage the power of the real-time operational and administrative APIs
+  to enable users to monitor the brand’s account health
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html
 isTutorial: false
