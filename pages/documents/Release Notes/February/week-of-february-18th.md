@@ -230,7 +230,7 @@ Agent will receive location sharing as text:
 <td>No</td>
 <td>No</td>
 <td>No</td>
-<td>No</td>
+<td>Yes</td>
 <td>No</td>
 <td>Yes</td>
 <td>No</td>
@@ -262,9 +262,36 @@ Now, the patterns are updated properly. The solution proposed is to implement th
 
 ### WhatsApp: Agent sending links to consumer causes an unexpected behavior (CX-21)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | RCS Business Messaging | WhatsApp | Line | Google My Business |
-| No | No | No | No | No | No | Yes | No | No |
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 If an agent attempts to send certain files via links to a consumer, it causes certain unexpected behavior, like redirecting to another link causing an infinite loop.
 
@@ -273,11 +300,36 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 
 ### Bad URLs on WhatsApp Container health check (CX-114)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | RCS Business Messaging | WhatsApp | Line | Google My Business |
-| No | No | No | No | No | No | Yes | No | No |
-
-****
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The URL pattern was not constructed properly with the location (brand’s phone number). This caused timeouts which caused message delays issue in WhatsApp connector.
 
