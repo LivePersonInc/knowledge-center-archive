@@ -54,7 +54,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 </table>
 
-WhatsApp now supports passing the consumer's profile name (if the user permits sharing it in their app's privacy settings), allowing brands that are using the WhatsApp Business Connector to review the name in the open connections list, in the consumer info widget view in the agent workspace, as well as at the top of the agent's messaging conversation window.
+WhatsApp now supports passing the consumer's profile name (if the user permits sharing it in their app's privacy settings), allowing brands that are using the WhatsApp Business connector to review the name in the open connections list, in the consumer info widget view in the agent workspace, as well as at the top of the agent's messaging conversation window.
 
 The connector will expose the consumer’s name (as registered by the users in their WhatsApp app) in the UI, which will be available and displayed as follows:
 
@@ -64,11 +64,13 @@ The connector will expose the consumer’s name (as registered by the users in t
     * Consumer info widget -> consumer name
     * Above the agent's messaging conversation window
 
+<br/>
 **Configuration:** Brands will be able to configure or remove this feature (if for any reason, the contact center agents are not allowed to view the consumer name).
 
 * If the feature is enabled - the consumer’s WhatsApp name will be visible in all the LiveEngage interface locations (Open connections -> Consumer Name, Consumer Info widget -> Consumer Name, above the agent's messaging conversation window)
 * If the feature is disabled - the consumer’s WhatsApp ID (Phone Number) will be presented in the "Consumer name" field - as it is displayed today.
 
+<br/>
 **Note:** To enable this feature, please speak to your LivePerson representative.
 
 ### Secure form (PCI) support for WhatsApp Business and Google RCS (94882) (CX-73, CX-74)
@@ -114,7 +116,7 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
-* Secure form flow for connector channels:
+##### Secure form flow for connector channels:
 * Connector channels that will support secure forms in upcoming releases: Facebook Messenger and Apple Business Chat
 * WhatsApp Business and Google RCS will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
 * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
@@ -122,7 +124,9 @@ The design for the form in the messaging connectors experience is inherited from
 * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message:  
   “The following secure form has been submitted: <Secure form name>”
 * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:  
-  The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
+  * The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
+  
+  <br/>
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
   * Received by the consumer
