@@ -9,6 +9,7 @@ permalink: contact-center-management-campaigns-target-audience.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 10:10:49 +0000
+published: false
 
 ---
 By defining a target audience for your campaign, you can ensure that the campaign will appear only to the consumers you most want to reach, i.e. those that are most likely to benefit from a particular service or those that have the highest chance of converting.
@@ -49,37 +50,33 @@ To learn how to collect information about your visitors, let’s look at an exam
 
    To learn more about targeting users by keyword, [click here](https://docs.google.com/document/d/1fsYszswd0443EENuL0xEpgEfS-TLrStVZRz1aAmrjOw/edit#heading=h.op0nj124cf72).
 
-![](/img/target audience 2.png)
+{:start="3"} 
 
-{:start="3"}
-3\. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
+1. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
 ![](/img/target audience 3.png)
 
 {:start="4"}
-4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
-\* Desktop/Laptop
-\* Mobile tablet
-\* Mobile smartphone
+4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices: 
 
-![](/img/target audience 4.png)
+* Desktop/Laptop 
+* Mobile tablet 
+* Mobile smartphone
 
 {:start="5"}
 5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign.
 
 If you want to specify an originating channel, you can select from the following options:
 
-*  Direct
-* Display     
-* Email     
-* Paid search     
-* Referral     
-* Search     
-* Social  
+* Direct
+* Display
+* Email
+* Paid search
+* Referral
+* Search
+* Social
 
-To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](If you want to specify an originating channel, you can select from the following options: 	* Direct     * Display     * Email     * Paid search     * Referral     * Search     * Social  To target consumers arriving from an affiliate or external campaign, you can manually enter the 	sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section in the Engagement Attributes guide on the Developer Community.\](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) ) in the Engagement Attributes guide on the Developer Community.
-
-![](/img/target audience 5.png)
+To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section\](If you want to specify an originating channel, you can select from the following options: 	* Direct     * Display     * Email     * Paid search     * Referral     * Search     * Social  To target consumers arriving from an affiliate or external campaign, you can manually enter the 	sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section in the Engagement Attributes guide on the Developer Community.\](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) ) in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
 6\. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
@@ -89,9 +86,7 @@ To target consumers arriving from an affiliate or external campaign, you can man
 {:start="7"}
 7\. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
-\**Note:** this attribute is currently only supported for web engagements.
-
-![](/img/target audience 7.png)
+_Note:_ this attribute is currently only supported for web engagements.
 
 {:start="8"}
 8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
