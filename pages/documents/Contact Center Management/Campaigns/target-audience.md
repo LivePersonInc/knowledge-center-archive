@@ -63,8 +63,8 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Search
 * Social
 
-<br/>
 	To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). 
+	
 	Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section] in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
@@ -93,24 +93,24 @@ Now, LiveEngage will track your customers according to their status and type, al
 {:start="9"}
 9. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range. 
 
-Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
+	Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
 {:start="10"}
 10. **Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. **For example:** 30 days since initial registration.
 
-Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
+	Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-4.png)
 
 {:start="11"}
 11. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
 
-Company size n is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
+	Company size n is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {:start="12"}
 12. **Balance:** Target or exclude consumers by their current balance (for example, account balance). Enter minimum and/or maximum currency values to define the range you would like to target.
 
-Balance is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
+	Balance is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
 
 {: .notice}
 **Note:** if you have multiple currencies reported on your account, this rule will target the values you enter regardless of the currency. For example, a range of 20 to 30 will target balances of both USD 25 and EUR 25.
@@ -120,24 +120,24 @@ Balance is reported via the Customer Info Engagement Attribute, for more informa
 {:start="13"}
 13. **Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
-Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section ]()in the Engagement Attributes guide on the Developer Community.
+	Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section ]()in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-6.png)
 
 {:start="14"}
 14. **Gender:** Target consumers according to their gender (male, female or other).
 
-Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) i) in the Engagement Attributes guide on the Developer Community.
+	Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) i) in the Engagement Attributes guide on the Developer Community.
 
 {:start="15"}
 15. **Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
-Store ZIP code is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
+	Store ZIP code is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
 
 {:start="16"}
 16. **Store number:** Target or exclude consumers by their association with a store number. Manually enter the list of store numbers you would like to target by (multiple numbers can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
-Store number is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
+	Store number is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-7.png)
 
