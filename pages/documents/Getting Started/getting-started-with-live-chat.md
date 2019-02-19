@@ -11,14 +11,14 @@ level3: ''
 isNew: false
 
 ---
-To get started, access LivePerson using this link: Add link to login
+To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
 
-## Bare-bones: get to the first message
+## Get to the first message
 
 To get the most basic version of messaging up means you have a generic ‘chat’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
 
-1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, [click here.]()
-2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here]().
+1. Your developers or website administrator need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website.  For instructions on how to get the code, [click here.](getting-started-add-the-liveperson-tag-to-your-website.html)
+2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
 ## Customize your chat program
