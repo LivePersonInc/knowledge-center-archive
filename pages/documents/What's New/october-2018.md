@@ -32,7 +32,7 @@ Conversations within queues will be prioritized based on importance using enhanc
 
 ## Support for Post Conversation Survey via In-app Messaging SDK v3.3
 
-In-app Messaging SDK Version 3.3 was launched this October and supports the Post Conversation Survey on iOS and Android. The post conversation has been a big hit with many of our customers as it allows you to collect feedback from consumers at the end of a conversation, measuring agent and skill performance by delivering surveys in a conversational experience. See the Developers Community for more details on [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html#post-content) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html#post-content).
+In-app Messaging SDK Version 3.3 was launched this October and supports the [Post Conversation Survey](Bots-automation-post-conversation-survey.html) on iOS and Android. The post conversation has been a big hit with many of our customers as it allows you to collect feedback from consumers at the end of a conversation, measuring agent and skill performance by delivering surveys in a conversational experience. See the Developers Community for more details on [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html#post-content) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html#post-content).
 
 ## New Report Builder & messaging dashboard metrics
 
