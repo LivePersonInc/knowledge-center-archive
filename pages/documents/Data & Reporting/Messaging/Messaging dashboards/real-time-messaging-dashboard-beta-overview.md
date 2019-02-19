@@ -50,33 +50,34 @@ There are three methods to login to the real time dashboard:
 2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
-### **Regular login method:**
+### Regular login method:
 
-**1.** Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
+1\. Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
 
-**2.** Before login, select the dashboard type: Messaging or Chat
+2\. Before login, select the dashboard type: Messaging or Chat
 
-**3.** Login via regular method will terminate any existing LiveEngage sessions
+3\. Login via regular method will terminate any existing LiveEngage sessions
 
-### **Simultaneous login method**
+### Simultaneous login method
 
-**1.** To enable simultaneous login, please contact your account manager
+1\. To enable simultaneous login, please contact your account manager
 
-**2.** Once enabled, access the simultaneous login at: [https://real time.liveperson.net/sso](https://realtime.liveperson.net/sso)
+2\. Once enabled, access the simultaneous login at: [https://real time.liveperson.net/sso](https://realtime.liveperson.net/sso)
 
-**3.** Enter your **account number** and select the dashboard **mode**
+3\. Enter your account number and select the dashboard mode
 
-**4.** You will be redirected to a LiveEngage login page and can continue to login as normal
+4\. You will be redirected to a LiveEngage login page and can continue to login as normal
 
-**5.** You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
+5**.** You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
-**6.** Note, if Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
+{: .notice}  
+If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
 
-### **Agent SSO method** (not recommended)**:**
+### Agent SSO method (not recommended):
 
-Please consider Simultaneous Login method - however, in order to access the Real-time Dashboard via Agent SSO:
+Please consider simultaneous login method - however, in order to access the Real time dashboard via Agent SSO:
 
-1. Refer to [SSO Guide](https://s3-eu-west-1.amazonaws.com/ce-sr/Support+KB+-+customer-facing/LiveEngage/SSO_Unified_Login.pdf)
+1. Refer to [SSO Guide](Security-regulations-SSO-unified-login.html)
 2. Ensure that the **lpservice** URL parameter referred to in the “Configuration on the Customer’s Environment” section of the SSO guide is equal to **rtDashboard** (e.g. lpservice=rtDashboard)
 
 ## Exploring the real time dashboard
@@ -108,7 +109,7 @@ When in messaging mode, the current section displays metrics on open conversatio
 
 **Note:** _Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample, and the scope of calculation, can be modified via the Menu (see Additional Functions in this guide)._
 
-### Current Section - chat mode (Recently completed chats KPIs)
+### Current Section - chat mode (recently completed chats KPIs)
 
 ![](/img/real-time-messaging-dashboard-overview3.png)
 
@@ -150,9 +151,9 @@ The metrics available in this section all relate to closed conversations only:
 * _Wait Time_: see definition from Current KPI section*
 * **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
-**_Note:_** _response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide)._
+**Note:** Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide).
 
-_Example of Last 24 Hour section in **chat dashboard** mode:_
+Example of Last 24 Hour section in chat dashboard mode:
 
 ![](/img/real-time-messaging-dashboard-overview5.png)
 
@@ -176,7 +177,7 @@ The following metrics are available:
 It is possible to view up to 30 agents per page. The default is set at 18. In order to see the next or previous section of agents use the arrows to navigate.
 
 {: .notice}  
-In **chat dashboard** mode, agent summary status (i.e. Current Status) is not available.
+In chat dashboard mode, agent summary status (i.e. Current Status) is not available.
 
 ### Skills Section
 
@@ -286,9 +287,9 @@ The reset button on the bottom left resets to the initial configuration.
 
 ![](/img/real-time-messaging-dashboard-overview13.png)
 
-**_Sample size means:_** _the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs)._
+**Sample size means:** the representative sample of Conversations to calculate Response Time metrics - a smaller sample will produce quicker results (recommended for large volume programs) - a larger sample will produce slower, but more accurate, results (not recommended for large volume programs).
 
-**_Opened filter means:_** _the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section._
+**Opened filter means:** the scope of conversations to include in the calculation of Response Time metrics - by limiting conversations to those that Opened in the last 30 minutes (for example), you can see more recent trends within the CURRENT KPI section.
 
 {: .notice}  
 Be aware that some elements and usability may change as we finalize this feature. Customers must agree to the conditions and limitations when logging in to the real time dashboard tool.
