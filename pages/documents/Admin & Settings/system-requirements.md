@@ -6,7 +6,7 @@ indicator: both
 subtitle: LivePerson is constantly expanding its matrix of supported operating systems
   and browser versions.
 level3: ''
-permalink: admin-settings-system-requirements-supported-languages.html
+permalink: admin-settings-system-requirements.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:20:27 +0000
