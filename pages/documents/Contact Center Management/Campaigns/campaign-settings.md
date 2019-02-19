@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-campaign-settings.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 12:29:01 +0000
-published: false
 
 ---
 The campaign footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
@@ -24,7 +23,7 @@ LiveEngage data sources make it possible for you to collect valuable information
 
 A control group is a random number of visitors to your website who are not exposed to any type of engagement from a LiveEngage campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
 
-The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, refer here.
+The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, [refer here]().
 
 ## Proactive engagement behavior
 
