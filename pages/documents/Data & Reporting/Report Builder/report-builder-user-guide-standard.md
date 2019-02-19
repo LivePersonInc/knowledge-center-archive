@@ -169,9 +169,9 @@ _By default:_
 * _PDF will be used when the view is widgets._
 * _Data is exported to a CSV file._
 
-# LivePerson technical support
+## LivePerson technical support
 
-LivePerson Technical Support is available 24/7 in the[ Connection Area](https://liveengage.liveperson.net/a/new/#registration!signUp).
+LivePerson technical support is available 24/7 in the[ Connection Area](https://liveengage.liveperson.net/a/new/#registration!signUp).
 
 Please note that LivePerson support troubleshoots and resolves issues in predefined dashboards officially released by LivePerson as part of the product.
 
