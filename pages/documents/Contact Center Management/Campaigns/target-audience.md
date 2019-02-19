@@ -9,6 +9,7 @@ permalink: contact-center-management-campaigns-target-audience.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 10:10:49 +0000
+published: false
 
 ---
 By defining a target audience for your campaign, you can ensure that the campaign will appear only to the consumers you most want to reach, i.e. those that are most likely to benefit from a particular service or those that have the highest chance of converting.
@@ -49,17 +50,17 @@ To learn how to collect information about your visitors, let’s look at an exam
 
    To learn more about targeting users by keyword, [click here](https://docs.google.com/document/d/1fsYszswd0443EENuL0xEpgEfS-TLrStVZRz1aAmrjOw/edit#heading=h.op0nj124cf72).
 
-{:start="3"} 
+{:start="3"}
 
 1. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
 ![](/img/target audience 3.png)
 
 {:start="4"}
-4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices: 
+4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
 
-* Desktop/Laptop 
-* Mobile tablet 
+* Desktop/Laptop
+* Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
@@ -85,7 +86,7 @@ To target consumers arriving from an affiliate or external campaign, you can man
 {:start="7"}
 7\. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
-_Note:_ this attribute is currently only supported for web engagements.
+**Note:** this attribute is currently only supported for web engagements.
 
 {:start="8"}
 8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
@@ -101,14 +102,10 @@ Customer info is an Engagement Attribute, for more information on reporting this
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
 
-![](/img/target audience 8.png)
-
 {:start="9"}
 9\. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range.
 
     Consumer age is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
-
-![](/img/target audience 9.png)
 
 {:start="10"}
 10\. **Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. For example: 30 days since initial registration.
@@ -121,8 +118,6 @@ Time since registration is reported via the Customer Info Engagement Attribute, 
 11\. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
 
 Company size n is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
-
-![](/img/target audience 11.png)
 
 {:start="12"}
 12\. **Balance:** Target or exclude consumers by their current balance (for example, account balance). Enter minimum and/or maximum currency values to define the range you would like to target.
@@ -146,14 +141,10 @@ Customer ID is reported via the Customer Info Engagement Attribute, for more inf
 
 Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section\]([https://developers.liveperson.com/engagment-attributes-types.html#personal-info](https://developers.liveperson.com/engagment-attributes-types.html#personal-info "https://developers.liveperson.com/engagment-attributes-types.html#personal-info")) in the Engagement Attributes guide on the Developer Community.
 
-![](/img/target audience 14.png)
-
 {:start="15"}
 15\. **Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Store ZIP code is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the relevant section in the Engagement Attributes guide on the Developer Community.
-
-![](/img/target audience 15.png)
 
 {:start="16"}
 16\. **Store number:** Target or exclude consumers by their association with a store number. Manually enter the list of store numbers you would like to target by (multiple numbers can be entered in this section and if any of them apply to the consumer this condition will be applicable).
@@ -169,8 +160,6 @@ To target consumers that searched for the keywords in Google Search, manually co
 1. Log into your Google AdWords account.
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
 3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat.
-
-![](/img/target audience 17.png)
 
 **Note:** Google will only share search information from AdWords and not from organic searches.
 
