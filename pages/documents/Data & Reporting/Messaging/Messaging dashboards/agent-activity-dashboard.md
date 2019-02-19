@@ -14,9 +14,9 @@ isNew: false
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
-**Primary Datasets:** Agent activity, conversions, engagements, surveys
+**Primary datasets:** Agent activity, conversions, engagements, surveys
 
-**Primary Filters:** Agent, agent group, skill
+**Primary filters:** Agent, agent group, skill
 
 **Minimum timeframe:** Hourly
 
@@ -25,7 +25,6 @@ This dashboard includes operational metrics used to analyze agent activity and p
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
 ![](/img/agent-activity-dashboard 1.png)
-
 Image 1 - Agent activity dashboard main panel
 
 Visualizations:
