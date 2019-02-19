@@ -9,7 +9,6 @@ permalink: release-notes-2019-february-week-of-february-11th.html
 isTutorial: false
 isNew: false
 date: 2019-02-19 15:01:46 +0200
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during February 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -117,13 +116,14 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
 **Secure form flow for connector channels:**
+
 * Connector channels that will support secure forms in upcoming releases: Facebook Messenger and Apple Business Chat
 * WhatsApp Business and Google RCS will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
 * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
 * Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
 * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message:  
   “The following secure form has been submitted: <Secure form name>”
-* Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:  
+* Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:
   * The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
@@ -133,9 +133,11 @@ The design for the form in the messaging connectors experience is inherited from
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
 
 For more information, please see the following documents:
+
 * [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
 
 #### Limitations
+
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
@@ -150,10 +152,10 @@ For more information, please see the following documents:
 
 #### **Screenshots**
 
-**![](https://lh3.googleusercontent.com/BK9dgc6QxcaxyZN6UYptyMLzVms2yKjSr7et0S91XsmfzvGIynLWDaWEk3YKScniPWKsWkP20smj-pBUnacm0SLmC_N5jnD6G0jaSwVgfLuBemvdQ9mLX8LWDv65JmaFy4FG84R3 =624x348)**
+![](/img/week-of-february-11th-1.png)
 
-![](https://lh3.googleusercontent.com/vyhmXxqxx0RRX6cOqiuCsTk_NZ7dHjF-sRdft6Y4HkYiEQLvDtTwaVpU_dAxiSnm2tnWZsjrwzDjnh6CvESAywQ0-6MkvdP-9hi55M0ZkavCgwjH3g3tt5ylyLqQZP6Fa2fgZyBq =624x347)
+![](/img/week-of-february-11th-2.png)
 
-![](https://lh4.googleusercontent.com/cI_A9MMLdiEkskntrmxbOqy9rXuwJop9Mlnq5qG3Ifox5TandpU0e8_DhzClt83_Ll5BPDF2xSFXqHZ8j0bWgkrJaUZRVe9tn2t7IGlBsuMU-nJpUcYSJ2cwtcmjshv-BZFWNuF8 =624x356)
+![](/img/week-of-february-11th-3.png)
 
-![](https://lh4.googleusercontent.com/rYdhGb1kqejnmroTbsCp_FKiZ5_GD7Ui6JcN_1sCb-dG4ZuaIn51QPhVeGrqssyrtoHl4FUJr3HiG6FdIbN7lsvLcACJhQdqglD_0WYX1NEeRu1802Ld79kZwv--H-_To72xvnij =624x351)
+![](/img/week-of-february-11th-4.png)

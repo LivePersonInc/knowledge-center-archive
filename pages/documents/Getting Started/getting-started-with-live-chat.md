@@ -33,19 +33,19 @@ This guide will provide a checklist for actions you can take for each of the abo
 
 ## Step 1: Set up data for accurate tracking
 
-Adding more data will enable you to do three things within LivePerson: better target customers, arm agents with more information, and get more granular and accurate reporting.
+Adding more data will enable you to do several things within LivePerson: better target customers, arm agents with more information, and get more granular and accurate reporting.
 
-In addition to adding the LivePerson tag to all your website pages, you can also do the following:
+In addition to [adding the LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) to all your website pages, you can also do the following:
 
-* Send LivePerson information about your consumers such as items added to their shopping cart, account status and more. We call these engagement attributes.  Developers can add engagement attribute tracking directly into the LivePerson tag. Another way to send attributes to LivePerson is by a method called scraping.
-* Determine the attribution model.  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
+* Send LivePerson information about your consumers such as items added to their shopping cart, account status and more. We call these engagement attributes.  Developers can [add engagement attribute](data-reporting-engagement-attributes-setting-up-engagement-attributes.html) tracking directly into the LivePerson tag. Another way to send attributes to LivePerson is by a method called scraping.
+* Determine the [attribution model](data-reporting-engagement-attributes-attribution-model.html).  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
 * If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
 
 ## Step 2: Add users and account settings
 
-1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
+1. **Account security settings**: review the [security recommendations](security-regulations-security-account-security-recommendations.html) and apply standards based on your brands requirements.
 2. Account Administration:
-   * **Skills**: set up or import the list of skills that you’d like conversations routed to
+   * **Skills**: [set up or import the list of skill](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)s that you’d like conversations routed to
    * **Users**: set up or import the list of all agents, managers or administrators.
    * groups/LOB: set up groups or lines of business to reflect how your contact center is organized. These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them.
    * **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.

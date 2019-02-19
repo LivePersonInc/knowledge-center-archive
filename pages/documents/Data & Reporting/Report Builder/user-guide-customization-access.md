@@ -271,7 +271,7 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 ### Add a visualization to a dashboard
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
-2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations]()
+2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
 
 ### Rearrange the visualizations
 
@@ -348,15 +348,15 @@ A new window ‘metric editor’ will open up.
 
 Use objects and functions or operators to create the required formula.
 
-Objects: the metrics and attributes available in the report.
+**Objects:** the metrics and attributes available in the report.
 
 To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
 
-Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+**Functions:** when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
 
 To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
-Note: Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+**Please note:** Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
 
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
