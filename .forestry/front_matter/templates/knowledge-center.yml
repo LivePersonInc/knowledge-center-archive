@@ -149,7 +149,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
 - pages/documents/Messaging Channels/Connectors/google-my-business.md
 - pages/documents/Messaging Channels/mobile app messaging/add-messaging-to-your-mobile-app.md
-- pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Contact Center Management/Campaigns/campaign-goals.md
 - pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
@@ -166,7 +165,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-for-messaging-tour.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-basics.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
-- pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-activity-grid.md
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Data & Reporting/Report Builder/training-tutorials.md
@@ -216,6 +214,7 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
+- pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
 - pages/documents/Release Notes/October/week-of-oct-29th.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
@@ -242,6 +241,8 @@ pages:
 - pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
 - pages/documents/What's New/january-2019.md
 - pages/documents/Contact Center Management/Campaigns/campaigns-overview.md
+- pages/documents/Release Notes/February/week-of-february-18th.md
+- pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Contact Center Management/Campaigns/campaign-settings.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
@@ -258,6 +259,7 @@ pages:
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
+- pages/documents/Release Notes/February/week-of-february-11th.md
 - pages/documents/What's New/february-2019.md
 - release-notes-feb-4.md
 - pages/documents/Contact Center Management/Messaging Operations/automatic-messages-configuration-guide.md
