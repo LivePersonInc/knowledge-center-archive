@@ -33,7 +33,8 @@ In order for agent managers and campaign managers to be able to view, customize 
 * Customize reports in Report Builder - allows users to customize reports and save them within the 'My Reports' folder.
 * Share reports in Report Builder - allows users to share reports with other account users by saving them in the my account folder
 
-  {: .notice} These permissions are disabled for both agent manager and campaign manager roles by default.
+  {: .notice}  
+  These permissions are disabled for both agent manager and campaign manager roles by default.
 
 To enable permissions:
 
