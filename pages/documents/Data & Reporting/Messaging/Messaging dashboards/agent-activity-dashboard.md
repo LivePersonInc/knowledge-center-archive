@@ -31,7 +31,7 @@ Visualizations:
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Logged in time(pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
+| Logged in time (pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
 | Away Time(pie chart) | AWAY | AWAY REASON | Hover to view the duration of a specific away reason and the % contribution of the angle |
 | Engaged duration per state (bar chart) | ENGAGED TIME | DATE | Filter by Agent Status (attribute) |
 | NON ENGAGED TIME |  |  |  |
