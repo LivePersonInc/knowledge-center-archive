@@ -58,7 +58,9 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 2. Go to the **Campaigns** list.
 3. Select the Campaign containing the engagement you want to modify.
 4. Click **Action > Edit** to edit the campaign.
-5. Click **Edit** to the right of the engagement you want to modify.
+5. Click **Edit** to the right of the engagement you want to modify.  
+   ![](/img/faqs-surveys-windows-1-1.png)
+{:start="6"}
 6. On the Engagement settings window click **Next**. The Engagement studio opens
 7. Click the **down arrow** next to Online to view the list of States.
 8. Click the **orange checkmark** to the right of Offline to disable the Offline survey.

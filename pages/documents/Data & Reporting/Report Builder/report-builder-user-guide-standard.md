@@ -120,7 +120,7 @@ If you do not require any change in view from the account default time zone sett
 
 Data is displayed in a graphical format and/or in grid view. The data is presented to all users according to their LiveEngage account-level time zone, even if their user-level time zone has been configured differently.
 
-![](/img/rbug6.png)
+![](/img/User-guide6.png)
 
 Hover over any report with your mouse to view an explanation of what the report displays. You can customize how the data is displayed by choosing your own color scheme.
 
@@ -137,13 +137,12 @@ To filter a report:
    * Data will only display for dates chosen within the timeframe selected when you first ran the report.
    * _You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date._
 
-![](/img/rbug7.png)
+     ![](/img/User-guide-4.png)
+3. Click **OK**.
+4. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
+5. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
 
-1. Click **OK**.
-2. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
-3. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
-
-![](/img/rbug8.png)
+![](/img/User-guide5.png)
 
 **How-to video:** [**Filtering**](https://bcove.video/2wwcWD6)
 
@@ -157,11 +156,11 @@ To export a report:
 2. Click the arrow, and then select **export.** The following options are displayed: **Excel**, **PDF**, **data**.
 3. Select an export option.
 
-_By default:_
+By default:
 
-* _Excel will be used when the view is grid._
-* _PDF will be used when the view is widgets._
-* _Data is exported to a CSV file._
+* Excel will be used when the view is grid.
+* PDF will be used when the view is widgets.
+* Data is exported to a CSV file.
 
 ## LivePerson technical support
 
