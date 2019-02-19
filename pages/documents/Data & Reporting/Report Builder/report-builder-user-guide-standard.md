@@ -98,23 +98,11 @@ In the selector, you may choose from one of the following time-frame options:
 3. Last 30 days
 4. Filter for months - choose up to four individual months from the past 13 months
 
-![](/img/User-Guide-(standard)3.png)
-
-**Image 3:** Time frame selector main prompt
-
-**![](/img/rbug4.png)**
-
-**Image 4:** Time frame selector “filter for months” prompt
-
 **Hour offset selector**
 
 When running the **agent activity dashboard** or the **goal tracker dashboard,** another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
-
-**_![](/img/rbug5.png)_**
-
-**_Image 5:_** _Hour offset selector_
 
 **Dashboard view**
 
