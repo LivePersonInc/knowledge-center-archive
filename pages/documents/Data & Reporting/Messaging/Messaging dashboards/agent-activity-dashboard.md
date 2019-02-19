@@ -4,7 +4,7 @@ categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: This dashboard includes operational metrics used to analyze agent activity
-  and performance.
+  and performance
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html
 isTutorial: false
