@@ -185,23 +185,19 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 * **Offered question** - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.).
 * **Answered question** - The number of questions presented to the consumer by the bot and were responded by the consumer with a valid (configured) answer (recognized by the bot as a valid answer). Used to compare with the metric “Offered Question”. When a question is offered multiple times but answered with a valid response less times, there may be an issue with the question text (behavioral or technical).
 * **Answer rate** (offered question) Formula: \[Answered Question\] / \[Offered Question\]. The percentage (%) of questions answered with a valid response by the consumer out of the total questions offered to the consumer by the bot.
-* **Avg. Time to Respond To Survey Question** - The time on average taken by the consumer to respond to a question. Measured from the time the Bot presented a question, to the time the consumer submitted a response to that question (recognized or unrecognized by the Bot). This is attributed to the time the question was offered (not response time).
+* **Avg. time to respond to survey question** - The time on average taken by the consumer to respond to a question. Measured from the time the Bot presented a question, to the time the consumer submitted a response to that question (recognized or unrecognized by the Bot). This is attributed to the time the question was offered (not response time).
 
   If no response was given to the question, the metric will be associated with an empty cell in the dashboard (Null). Format: \[h\]:mm:ss
 
 **Answers metrics**
 
-* CSAT (brand) CSAT (agent and skill) - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
-* FCR (brand) FCR (agent and skill) - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
-* NPS (brand) & NPS (agent and skill) - The Net Promoter Score, based on a scale of 0 to 10 and derived from the predefined NPS question type.
-* Answer Count (brand) & Answer Count (agent and skill) - The number of times consumers responded with a valid answer, recognized by the bot as a pre-configured answer. Additional buckets include: “Skipped” for questions with configured Skip option and “Unrecognized by bot” for counting how many invalid answers were submitted for a question. This is attributed to the time the survey was offered (not close time).
-* Answer ratio (brand) and answer ratio (agent and skill)
+* **CSAT (brand) CSAT (agent and skill)** - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
+* **FCR (brand) FCR (agent and skill)** - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
+* **NPS (brand) & NPS (agent and skill)** - The Net Promoter Score, based on a scale of 0 to 10 and derived from the predefined NPS question type.
+* **Answer count (brand) & answer count (agent and skill)** - The number of times consumers responded with a valid answer, recognized by the bot as a pre-configured answer. Additional buckets include: “Skipped” for questions with configured Skip option and “Unrecognized by bot” for counting how many invalid answers were submitted for a question. This is attributed to the time the survey was offered (not close time).
+* **Answer ratio (brand) and answer ratio (agent and skill)-** The percentage (%) of times consumers chose a specific valid answer out of all the configured answers on a specific question. This may be adjusted to include unrecognized answers by the bot with the filter “Is answer recognized by bot“.
 
-  The percentage (%) of times consumers chose a specific valid answer out of all the configured answers on a specific question.
-
-  May be adjusted to include unrecognized answers by the bot with the filter “Is answer recognized by bot“.
-
-## Custom survey answers
+## Customized survey answers
 
 ### Custom calculation for predefined questions (CSAT, NPS, FCR)
 
@@ -226,24 +222,25 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 5. Click on ‘Validate’ and make sure you receive a green message ‘Valid metric formula’.
 6. Click ‘Save’. The formula will be added to the dataset and is ready to use.
 7. Follow these steps for each of the three formulas listed below.
+8. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
 
 ![](/img/post-conversation-survey3.png)
 
-1. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
-
 ### Formulas:
 
-1. CSAT_Answer_Count:
+#### CSAT_Answer_Count:
 
 * Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
 * Formula: NullToZero(Sum(Case((\[QUESTION TYPE\]@ID=1), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
-1. CSAT_Answer_Count 4_5:
+  #### CSAT_Answer_Count 4_5:
+
 
 * Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
 * Formula: NullToZero(Sum(Case(((\[QUESTION TYPE\]@ID=1)And((\[ANSWER VALUE\]@ID=4)Or(\[ANSWER VALUE\]@ID=5))), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
-1. New_CSAT:
+  #### New_CSAT:
+
 
 * Metric definition: the ratio of times answer 4 and 5 where submitted
 * Formula: \[CSAT_Answer_Count 4_5\]/CSAT_Answer_Count
