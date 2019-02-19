@@ -21,8 +21,7 @@ Here is a round-up of the latest features, enhancements and enablements that are
 
 The [Conversation Builder](bots-automation-conversation-builder-conversation-builder-overview.html) is a world-class automation platform and bot builder that enables you to seamlessly create new automations, or connect an existing automation. It’s simple UI and unique capabilities allows you to easily build and design conversational bots. With automatic matches from response to intents and a rich library of pre-built conversation templates, even your non technical staff can design bots. More information on the conversation builder will be coming soon!
 
-##   
-WhatsApp Business Connector enhancements
+##   WhatsApp Business Connector enhancements
 
 WhatsApp have introduced new enhancements to their WhatsApp Business APIs that will allow you to utilize new and enhanced WhatsApp conversational capabilities using LiveEngage. You will now be able to see the consumer profile name (as listed on the user’s WhatsApp settings), receive message status indicators (sent, delivered, read), as well as receive consumer messages that includes contacts and locations.
 
