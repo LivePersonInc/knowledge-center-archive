@@ -53,13 +53,13 @@ LiveEngage comes with a set of predefined dashboards which offer ready made repo
 
 The selection of predefined dashboards includes:
 
-1. Agent Activity - focused on agent productivity, utilization, and performance.
-2. Skill Activity - learn about the queues consumers are entering to reach an agent.
-3. Goal Tracker - list of every in-session and cross-session conversion that was achieved.
-4. Business Activity - a daily view into campaign funnel performance.
-5. Operational & Staffing - the relationship between agent activity and campaign performance, offers a robust set of combined KPIs linked together by skills.
-6. Messaging Performance - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
-7. Survey Activity - Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
+1. [Agent Activity](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) - focused on agent productivity, utilization, and performance.
+2. [Skill Activity](data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html) - learn about the queues consumers are entering to reach an agent.
+3. [Goal Tracker](pages-documents-data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-beta-overview-md/) - list of every in-session and cross-session conversion that was achieved.
+4. [Business Activity](data-reporting-messaging-messaging-dashboards-business-activity-grid.html) - a daily view into campaign funnel performance.
+5. [Operational & Staffing](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) - the relationship between agent activity and campaign performance, offers a robust set of combined KPIs linked together by skills.
+6. [Messaging Performance](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
+7. [Survey Activity ](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html)- Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
 
 ## Scheduling
 
