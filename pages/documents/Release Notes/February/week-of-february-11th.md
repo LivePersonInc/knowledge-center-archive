@@ -129,8 +129,7 @@ The design for the form in the messaging connectors experience is inherited from
   * Received by the consumer
   * Submitted by the consumer
 
-#### How to enable:
-To configure this feature, please speak to your LivePerson representative.
+**How to enable:** To configure this feature, please speak to your LivePerson representative.
 
 For more information, please see the following documents:
 * [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
