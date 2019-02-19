@@ -11,16 +11,13 @@ isTutorial: false
 date: 2019-01-16 11:37:29 +0000
 
 ---
+This user guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 
-This User Guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
-
-## Getting Started
-
-## Accessing Report Builder
+## Getting Started 
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
-**How to access the Report Builder**
+### **How to access the Report Builder**
 
 1. Log into LiveEngage using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon
@@ -36,11 +33,11 @@ In order for agent managers and campaign managers to be able to view, customize 
 * Customize reports in Report Builder - allows users to customize reports and save them within the 'My Reports' folder.
 * Share reports in Report Builder - allows users to share reports with other account users by saving them in the my account folder
 
-  **Note:** These permissions are disabled for both agent manager and campaign manager roles by default.
+  {: .notice} These permissions are disabled for both agent manager and campaign manager roles by default.
 
 To enable permissions:
 
-1. In the Users tab, click on the profiles page.
+1. In the users tab, click on the profiles page.
 2. Click on the ‘agent manager’ or ‘campaign manager’ profile. The edit profile page will open.
 3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
