@@ -11,15 +11,15 @@ date: 2019-01-16 13:47:26 +0000
 isNew: false
 
 ---
-## How can I access Report Builder?
+### How can I access Report Builder?
 
 Report Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Report Builder icon on the left of the screen.
 
-## Can I create my own reports?
+### Can I create my own reports?
 
 LiveEngage Report Builder offers users to [create custom dashboards](data-reporting-report-builder-report-builder-user-guide-(customization).html) that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Report Builder.
 
-## What reporting data is available?
+### What reporting data is available?
 
 The data currently available in LiveEngage predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
 
@@ -89,7 +89,7 @@ Unfortunately, the default format in Micro strategy for Time based metrics does 
 
 ## ![](/img/FAQ2RB-2-1.png)Funnel Reports
 
-## **How are indirect conversions attributed?**
+## How are indirect conversions attributed?
 
 Before diving into specific scenarios, it is recommended to review documentation that explains how conversions are attributed to campaigns.
 
