@@ -1,6 +1,6 @@
 ---
 pagename: Agent tools
-categoryName: FAQs
+categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: ''
@@ -8,7 +8,7 @@ level3: ''
 permalink: faqs-agent-tools
 isTutorial: false
 isNew: false
-date: 2019-01-27 13:50:19 +0200
+date: 2019-01-27 11:50:19 +0000
 
 ---
 ## How do agents login to their LivePerson workspace?
@@ -25,11 +25,9 @@ These credentials can be obtained from the account admin.
 
 To add links to predefined content, use the HTML tag for hyperlinks. For example:
 
-_<a href="www.liveperson.com">This is the link to our site</a>_
+![](/img/faqs-reporting-data.png)
 
 Generally HTML elements can be integrated into Predefined Content entries. Chat visitors will receive the content with the HTML formatting.
-
-![](/img/faqs-reporting-data.png)
 
 ## How do I enable/disable audio notification in MS Internet Explorer?
 
@@ -44,13 +42,13 @@ The agent workspace is pre-configured to play sounds for different activities su
 
 ## Do agents need to install software on their computers?
 
-No. Installation or plug-ins are required as the LivePerson platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to [LivePerson System Requirements]().
+No. Installation or plug-ins are required as the LivePerson platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to [LivePerson System Requirements](admin-settings-system-requirements.html).
 
 ## Is there a spell check for agents?
 
 The browsers supported by LivePerson have built-in spell checking. When the browser’s spell checking is enabled, the spell checker will automatically run in the LivePerson Engagement Window as well as in other browser windows.
 
-In addition, you can add extensions (for example, Grammarly) to the browser that auto correct spelling and grammar.
+In addition, you can add extensions (for example, _Grammarly_) to the browser that auto correct spelling and grammar.
 
 ## What is an actionable conversation?
 
