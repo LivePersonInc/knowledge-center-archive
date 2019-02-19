@@ -200,11 +200,12 @@ In the settings under the skip survey section, you can add the phrases which the
 Another use for free text could be to enter an answer for a question.  
 In order to add a free text phrase that the bot would recognize to a button or quick reply, go to the button settings, click the “set additional free text answers” and
 
-enter the phrases using a comma to separate the answers. For example, the user can type in ‘yeah’ or ‘Ya’ and the bot will recognise this as a valid response.
+enter the phrases using a comma to separate the answers. For example, the user can type in ‘yeah’ or ‘Ya’ and the bot will recognize this as a valid response.
 
-![](https://lh6.googleusercontent.com/q63H35wdCDRaD8QiuGWVDL1F1XDrYYyoJx6QSnuBdjihhd9ojmjHyMfvESAilcx5213js4QYLJOMoE5AjLfJzQVXi9ldOUvn5NwAeR0ES2GWIyBjh5dWZFyEGvpgJEP1tnEvepmz =348x257)
+![](/img/post-conversation-survey-user-guide8.png)
 
-Please note: the user will need to enter the exact phrase in order for it to match, however, it is not case sensitive.
+{: .notice}  
+The user will need to enter the exact phrase in order for it to match, however, it is not case sensitive.
 
 ## Unrecognizable user response
 
@@ -220,11 +221,13 @@ The way that it works is that once the setting is enabled, every Brick within th
 
 To enable the support, head to the survey settings and mark the following checkbox - “Enable survey for channels that are not compatible with LiveEngage rich content”
 
-![](https://lh6.googleusercontent.com/1CSDp3BG2w9jIS1B5UhpoxGO9oox4RCRtYToN8rcHYiE4Oj0WxlFB5kFQwhdY85xn9ZJMkiWGaxPKGyLCq2sIhZdT3IPi_w_p0NUBEbmj1pHtHb2OxfKtB559Z4SEtotYpCRE28Y =454x383)
-
 Once enabled, make sure to fill in the desired text in the Text Fallback Tab.
 
-## Reporting![](https://lh6.googleusercontent.com/aZoP0R3FdNLw9AfwohLstvvqqaRgwEbinsiox42kS-6pdSZVCnxn-Zb--0NyRgyw9YHDWzODyry3gIGdAszkszCkDxLp-v9nD9wenaEGnIvZKNIfaOGgSUF9NGjBMxzVmgkc4Nnm =624x332)
+![](/img/post-conversation-survey-user-guide9.png)
+
+## Reporting
+
+![](/img/post-conversation-survey-user-guide10.png)
 
 The Predefined Messaging Performance Dashboard has been enhanced to include a dedicated “Survey Data Export” sheet containing an in-depth analysis of the new Messaging Post-Conversation Survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
 
@@ -236,7 +239,7 @@ The new sheet contains an additional set of metrics and attributes which support
 * Survey activity and performance, allowing to monitor the response rates for example
 * Question level performance, allowing to monitor the avg. time to respond for example
 
-In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly.
+In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey]() messaging dashboards for more information.
 
 ## Design
 
