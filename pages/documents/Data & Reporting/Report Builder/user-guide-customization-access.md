@@ -17,7 +17,7 @@ This user guide sets out detailed instructions for building your own dashboards,
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
-### **How to access the Report Builder**
+### How to access the Report Builder
 
 1. Log into LiveEngage using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon
@@ -42,7 +42,7 @@ To enable permissions:
 3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
 
-**Note:** If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation]().
+**Note:** If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
 
 ## Data view restrictions
 
@@ -55,7 +55,7 @@ Where there are data that cannot be pre-filtered by agent group, there are also 
 * No restrictions apply for campaign managers.
 * Agent managers required to view business data available on the Business Activity Dashboard will need to be assigned the role of campaign manager as well.
 
-## Report Builder Folders
+## Report Builder folders
 
 Dashboards in Report Builder are saved in folders. The available folders are as follows:
 
@@ -65,7 +65,7 @@ Dashboards in Report Builder are saved in folders. The available folders are as 
 * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
-### Creating and managing Sub folders
+### Creating and managing sub folders
 
 In the **my account** and **my reports folders**, users may create sub-folders to organize copies of existing dashboards. Each sub-folder can contain any number of saved dashboard. While any user with access to Report Builder may view sub folders and their content, managing sub-folders is only available to users with the permission to Customize Reports.
 
@@ -75,11 +75,9 @@ In the **my account** and **my reports folders**, users may create sub-folders t
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “Folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
-![](/img/c2.png)
+![](/img/Customization-user-guide1.png)
 
-Alternatively, a new folder can be created by copying an existing dashboard (right-click and “Copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon
-
-![](/img/c3.png)
+Alternatively, a new folder can be created by copying an existing dashboard (right-click and “copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon.
 
 **Deleting** and **renaming** an existing dashboard is also available via right-clicking the folder icon.
 
@@ -112,11 +110,11 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 
 LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
-![](/img/c4.png)
+![](/img/customization-user-guide3.png)
 
-### **Customize a predefined dashboard**
+### Customize a predefined dashboard
 
-1. Open any dashboard from the ‘LE predefined dashboards’ folder.
+1. Open any dashboard from the ‘[LE predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html)’ folder.
 2. Click the ‘**save as**’ option under the ‘File’ drop-down menu.
 3. Save a copy of the predefined dashboard under the ‘My Reports’ folder.
 4. Select the ‘**run newly saved dashboard**’ option.
@@ -124,24 +122,24 @@ LiveEngage comes with a set of predefined dashboards which offer ready made repo
 
 **How-to video:** [**Creating dashboards**](https://bcove.video/2wtZwaH)
 
-### **Saving changes**
+### Saving changes
 
 Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto save function at this time, and it is recommended to save your work after every bulk of changes.
 
-### **Share a custom dashboard**
+### Share a custom dashboard
 
 1. Open the desired dashboard.
 2. Click the ‘**save as**’ option under the ‘file’ drop-down menu.
 3. Save a copy of the desired dashboard under the ‘my accounts’ folder.
 4. The dashboard will be available to all the users in the account.
 
-### **Export a dashboard to PDF**
+### Export a dashboard to PDF
 
 1. Open the desired dashboard.
 2. Click the ‘**export to PDF**’ option under the ‘file’ drop-down menu.
 3. In the export option window select ‘current sheet’ to export only the selected sheet, or ‘All Sheets’ to export every sheet, and click **OK**.
 
-### **Create subscriptions (scheduling)**
+### Create subscriptions (scheduling)
 
 Scheduling dashboards to email is currently available via you LivePerson account team.
 
@@ -151,12 +149,10 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 
 ### **Add a new tab**
 
-1. Click the ‘**+**’ sign next to the names of the tabs.
-2. Give the tab a name by double-clicking on the name field.
+Click the ‘**+**’ sign next to the names of the tabs.
 
-   Note: the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
+Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
 
-**{Tip}**  
 It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 
 ### **Copy an existing tab**
@@ -164,12 +160,12 @@ It is recommended to use an existing tab with its filters and modify it, rather 
 1. Click on the down-arrow next to the tab’s name.
 2. Select ‘duplicate’.
 
-### **Remove a tab**
+### Remove a tab
 
 1. Click on the down-arrow next to the tab’s name.
 2. Select ‘**delete**’.
 
-### **Add a new panel to an existing tab**
+### Add a new panel to an existing tab
 
 1. Click on the down-arrow next to the tab’s name.
 2. Select ‘**insert panel**’.
@@ -196,51 +192,57 @@ There are two types of filters available:
 
 **How-to video:** [**Filters and dates**](https://bcove.video/2wKACTG)
 
-### **Add an attribute filter to the filters panel**
+### Add an attribute filter to the filters panel
 
-1. From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.
+From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.
 
 You can place the attribute above or below the filters already displayed in the panel.
 
-1. Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
-2. Click on display style, then select the style you want to use to display the filter. The options are:
+Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
+
+1. Click on display style, then select the style you want to use to display the filter. The options are:
    * Check boxes
    * Search box
    * Slider
    * Radio buttons
    * Drop down
-3. You can choose to include or exclude data using elements selected in the filter, as follows:
+2. You can choose to include or exclude data using elements selected in the filter, as follows:
    * To display data in the dashboard only for selected elements, select **include**.
    * To display data in the quick dashboard for all elements except the elements that are selected, select **exclude**.
 
-{: .notice}**  
-Note!** The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
+{: .notice}The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
 
-### **Add a metric filter to the filters panel**
+### Add a metric filter to the filters panel
 
-1. From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
-2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
-   * To filter data by creating a qualification on a metric, select **Qualification**.
-   * To filter data by choosing values on a slider, select **Slider**.
-3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-   * To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
-   * To assign a numeric rank to the metric values and then filter by rank, select
+From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
 
-     ![](/img/c6.png)
+Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
 
-Qualify on **rank**. A few options are available:
-1\. To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-2\. To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-3\. To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-4\. To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+* To filter data by creating a qualification on a metric, select **Qualification**.
+* To filter data by choosing values on a slider, select **Slider**.
 
-![](/img/c7.png)
+Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
+
+* To filter by the metric's values, select **Qualify on Value**. For example, you can display data only for agents with engagements greater than or equal to 100.
+* To assign a numeric rank to the metric values and then filter by rank, select
+
+  **qualify on rank**.
+
+To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score. 
+
+To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time. 
+
+To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items. 
+
+To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+
+![](/img/customization-user-guide5.png)
 
 There are two options to configure how users will be able to filter the data:
 
 To allow users to filter data by creating a qualification on a metric, perform the following steps:
 
-1. Click **Greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
+1. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
 2. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
 
 To allow users to filter data by choosing values on a slider, perform the following steps:
@@ -250,12 +252,12 @@ To allow users to filter data by choosing values on a slider, perform the follow
    * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
    * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
 
-### **Remove a filter from the filters panel**
+### Remove a filter from the filters panel
 
 1. Hover the cursor over the name of the filter you wish to remove, then click the arrow icon. A list of options is displayed.
 2. Select **delete**.
 
-### **Use a filter as a filter to another**
+### Use a filter as a filter to another
 
 You can choose to show only a subgroup of values in a filter by using a second filter to sort the options. For example, filter AGENT attribute by GROUP - once a specific group is selected, only agents assigned to this group will be visible in the filter.
 
@@ -266,29 +268,29 @@ You can choose to show only a subgroup of values in a filter by using a second f
 
 Once the dashboard is ready, you can quickly add visual representations of the data (called visualizations) to the dashboard to make the data easier to interpret.
 
-### **Add a visualization to a dashboard**
+### Add a visualization to a dashboard
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
 2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations]()
 
-### **Rearrange the visualizations**
+### Rearrange the visualizations
 
 To quickly rearrange the visualizations in a tab, click and drag the visualization to its new location in the tab. The other visualization will automatically be shifted and resized.
 
-### **Rename a visualization**
+### Rename a visualization
 
 1. Click on the visualization.
 2. Click the down-arrow icon on the top-right corner of the visualization. A list of options is displayed.
 3. Select ‘**rename**’, then type a new name for the visualization in the field.
 4. Press **enter**. The visualization is renamed.
 
-### **Delete a visualization**
+### Delete a visualization
 
 1. Click on the visualization.
 2. Click the down-arrow icon on the top-right corner of the visualization. A list of options is displayed.
 3. Select ‘**Delete**’.
 
-### **Export a visualization**
+### Export a visualization
 
 1. Click on the visualization.
 2. Click the down arrow icon on the top right corner of the visualization. A list of options is displayed.
@@ -311,7 +313,7 @@ For example, you have a report containing the Week, Month, and Group attributes,
 
 Metrics are objects that represent business measures and key performance indicators. They are similar to formulas in spreadsheet software. It is not an overstatement to say that the focus of almost any report is its metrics. Most of the decisions you make about the other objects to include on a report depend on the metrics you use on the report. Questions such as ”How many engagements were handled by agents during the fourth quarter?” can easily be answered by metrics.
 
-### **Add attributes and metrics to a visualization**
+### Add attributes and metrics to a visualization
 
 1. From the Dataset panel on the left, select attributes and metrics, and drag them onto the ‘editor’ panel.
 2. Attributes can be added to:
@@ -323,7 +325,7 @@ Metrics are objects that represent business measures and key performance indicat
 
 **How-to video:** [**Create an Hourly Interval Attribute**](https://bcove.video/2wI4DU8)
 
-### **Remove a metric or attribute from a visualization**
+### Remove a metric or attribute from a visualization
 
 1. Click on the metric or attribute. A list of options is displayed.
 2. Select ‘**remove**’.
@@ -338,7 +340,7 @@ Custom metrics are named ‘Derived metrics’. These are metrics that a report 
 
 Derived metrics are not metric objects that can be re-used in other reports and documents. They are metrics that are saved and displayed only on the specific report on which they are created. You can only use metrics already existing in a report to create a derived metric.
 
-### **Create a new metric**
+### Create a new metric
 
 Right click anywhere in the datasets panel and select ‘create metric’.
 
@@ -363,7 +365,7 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 
 ![](/img/c8.png)
 
-**{Tips}**
+**Recommendations:**
 
 * Quantity: Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * Formulas: Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
