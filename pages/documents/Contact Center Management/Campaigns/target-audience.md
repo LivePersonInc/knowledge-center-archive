@@ -43,10 +43,7 @@ Now, LiveEngage will track your customers according to their status and type, al
 {:start="2"}
 
 1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. To learn more about targeting users by keyword, [click here](https://docs.google.com/document/d/1fsYszswd0443EENuL0xEpgEfS-TLrStVZRz1aAmrjOw/edit#heading=h.op0nj124cf72).
-
-{:start="3"}
-
-1. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
+2. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
 ![](/img/target-audience-2.png)
 
@@ -67,6 +64,8 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Referral
 * Search
 * Social
+
+<br/>
 
 To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). 
 
@@ -133,7 +132,7 @@ Customer ID is reported via the Customer Info Engagement Attribute, for more inf
 {:start="14"}
 14\. **Gender:** Target consumers according to their gender (male, female or other).
 
-Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section\]([https://developers.liveperson.com/engagment-attributes-types.html#personal-info](https://developers.liveperson.com/engagment-attributes-types.html#personal-info "https://developers.liveperson.com/engagment-attributes-types.html#personal-info")) in the Engagement Attributes guide on the Developer Community.
+Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) i) in the Engagement Attributes guide on the Developer Community.
 
 {:start="15"}
 15\. **Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
@@ -154,6 +153,8 @@ To target consumers that searched for the keywords in Google Search, manually co
 1. Log into your Google AdWords account.
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
 3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat.
+
+<br/>
 
 **Note:** Google will only share search information from AdWords and not from organic searches.
 
