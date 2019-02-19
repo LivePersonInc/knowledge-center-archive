@@ -33,7 +33,7 @@ LiveEngage comprises many different services, with new IP ranges added from time
 
 | IPv6 Range | CIDR Block |
 | --- | --- |
-2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff|			2a03:6400::/32
+| 2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff|			2a03:6400::/32|
 
 **Domains**
 
