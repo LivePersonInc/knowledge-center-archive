@@ -67,7 +67,7 @@ The data currently available in the predefined dashboards are as follows:
 * [**Operational & staffing dashboard:**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) Includes information about skill performance and skill demand.
 * [**Survey activity dashboard**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html)**:** Includes information about responses to surveys in Live chat.
 
-{: .notice} The data included in Report Builder are constantly evolving.
+{: .notice} The data included in Report Builder is constantly evolving.
 
 ## Metrics glossary
 
@@ -80,10 +80,6 @@ Click [here](https://developers.liveperson.com/essential-resources-report-builde
 ## Field details sheet
 
 Every predefined dashboard includes a sheet titled “field details”. This sheet presents a grid with the definitions of each metric and attribute displayed in the visualizations of the dashboard.
-
-![](/img/User-Guide-(standard)2-1.png)
-
-**_Image 2:_** _Field details sheet_
 
 **Viewing reports**
 
