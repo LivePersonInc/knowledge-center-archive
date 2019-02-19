@@ -45,7 +45,7 @@ Visualizations:
 | Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
 | CROSS SESSION REVENUE |  |  |  |
 
-## Panel 2: Agent Activity Grid
+## Panel 2: Agent activity grid
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
