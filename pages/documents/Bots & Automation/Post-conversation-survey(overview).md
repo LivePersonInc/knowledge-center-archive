@@ -7,7 +7,7 @@ subtitle: The Post Conversation Survey gives brands the ability to collect feedb
   from consumers at the end of a conversation without utilizing the time of a human
   agent
 level3: ''
-permalink: Bots-automation-post-conversation-survey.html
+permalink: bots-automation-post-conversation-survey.html
 isTutorial: false
 isNew: false
 date: 2019-02-18 13:54:54 +0000
