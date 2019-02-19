@@ -115,7 +115,7 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
-##### Secure form flow for connector channels:
+**Secure form flow for connector channels:**
 * Connector channels that will support secure forms in upcoming releases: Facebook Messenger and Apple Business Chat
 * WhatsApp Business and Google RCS will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
 * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
@@ -124,7 +124,6 @@ The design for the form in the messaging connectors experience is inherited from
   “The following secure form has been submitted: <Secure form name>”
 * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:  
   * The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
-  
   <br/>
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
