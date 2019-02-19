@@ -8,17 +8,17 @@ level3: ''
 permalink: contact-center-management-campaigns-campaign-settings.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 14:29:01 +0200
+date: 2019-01-29 12:29:01 +0000
+published: false
 
 ---
 The campaign footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
 
-
-![](/img/footnote 1.png)
+![](/img/campaign-settings-1.png)
 
 ## **Data sources**
 
-LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here ]()to read more about data sources.
+LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here]() to read more about data sources.
 
 ## **Control groups**
 
@@ -30,7 +30,7 @@ The value represents the percentage of visitors who will not be exposed to any e
 
 Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
 
-### Number of displays       
+### Number of displays
 
 This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
 
@@ -40,7 +40,7 @@ This setting allows you define the behavior after a consumer declines a proactiv
 
 By default, after declining a proactive content engagement, other content engagements can be displayed; after declining a proactive conversation engagement, conversation engagements cannot be displayed.
 
-![](/img/footnote 2.png)
+![](/img/campaign-settings-2.png)
 
 ## **Currency**
 
@@ -48,7 +48,7 @@ This setting allows you to define the default currency for your account. This va
 
 The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage. For further information on tracking multiple currencies, [click here]().
 
-![](/img/footnote 3.png)
+![](/img/campaign-settings-3.png)
 
 ## **Cross session period**
 
@@ -74,4 +74,4 @@ Within the automatic messages library, you can add and edit messages that will b
 
 This setting allows you to choose what consumers will see when interacting with an inactive Offsite engagement. An engagement is inactive when it has been disabled, deleted or its campaign has been unpublished, deleted or expired. You can choose to display an offline survey, or a landing page.
 
-![](/img/footnote 4.png)
+![](/img/campaign-settings-4.png)
