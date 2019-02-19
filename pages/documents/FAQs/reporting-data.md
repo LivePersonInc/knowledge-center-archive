@@ -1,6 +1,6 @@
 ---
 pagename: Reporting & data
-categoryName: FAQs
+categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: ''
@@ -8,7 +8,7 @@ level3: ''
 permalink: faqs-reporting-data.html
 isTutorial: false
 isNew: false
-date: 2019-01-27 14:08:37 +0200
+date: 2019-01-27 12:08:37 +0000
 
 ---
 ## How do I find chats that only contain private messages?
@@ -29,11 +29,11 @@ When a chat ends, the reason for the chat’s termination is displayed in the ch
 
 ![](/img/reporting-data-faqs-1.png)
 
-Read more about it in the [understanding the reason a chat ends]().
+Read more about it in the [understanding the reason a chat ends](contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html).
 
 ## How do I change the email address for scheduled reports?
 
-Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](), please chat with [LivePerson Support 24/7](www.liveperson.com).
+Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](data-reporting-report-builder-report-builder-overview.html).
 
 ## How do I retrieve data that has been masked?
 
