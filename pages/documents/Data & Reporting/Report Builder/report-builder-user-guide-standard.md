@@ -81,13 +81,13 @@ Click [here](https://developers.liveperson.com/essential-resources-report-builde
 
 Every predefined dashboard includes a sheet titled “field details”. This sheet presents a grid with the definitions of each metric and attribute displayed in the visualizations of the dashboard.
 
-**Viewing reports**
+### **Viewing reports**
 
 Each report in Report Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
 
 **To run a report:** Click on the dashboard you wish to open
 
-**Time-frame selector**
+### **Time-frame selector**
 
 When selecting a dashboard to run you will be asked to select a timeframe for the dashboard data. This prompt is the “time frame selector”. The dashboard will only present data from the pre-loaded timeframe. You can always “re-prompt” from within the dashboard’s file menu.
 
@@ -98,13 +98,13 @@ In the selector, you may choose from one of the following time-frame options:
 3. Last 30 days
 4. Filter for months - choose up to four individual months from the past 13 months
 
-**Hour offset selector**
+### **Hour offset selector**
 
 When running the **agent activity dashboard** or the **goal tracker dashboard,** another prompt will be shown - “hour offset selector”. This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
 
-**Dashboard view**
+### **Dashboard view**
 
 Data is displayed in a graphical format and/or in grid view. The data is presented to all users according to their LiveEngage account-level time zone, even if their user-level time zone has been configured differently.
 
