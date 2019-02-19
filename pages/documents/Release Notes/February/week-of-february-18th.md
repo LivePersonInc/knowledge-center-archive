@@ -141,11 +141,7 @@ Consumer opts to share contact during conversation:
 
 {: .sidebyside}
 
-![](/img/week-of-february-18th-1.png)
-
-![](/img/week-of-february-18th-2.png)
-
-![](/img/week-of-february-18th-3.png)
+![](/img/week-of-february-18th-1.png) ![](/img/week-of-february-18th-2.png) ![](/img/week-of-february-18th-3.png)
 
 Agent will receive contact sharing info as text:
 
