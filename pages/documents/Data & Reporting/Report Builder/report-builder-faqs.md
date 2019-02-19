@@ -32,21 +32,21 @@ The data currently available in LiveEngage predefined dashboards is detailed bel
 * [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html): Includes information about skill performance and skill demand.
 * [Survey activity dashboard:](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys presented  in Live Chat.
 
-## With regard to data storage, where are the Report Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
+### With regard to data storage, where are the Report Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
 
 Report Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers.
 
-## Is the information stored on Report Builder encrypted?
+### Is the information stored on Report Builder encrypted?
 
 **A:** The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption.
 
 ## Performance
 
-## Why is the ‘LiveEngage predefined dashboards’ folder empty (no dashboards appear)?
+### Why is the ‘LiveEngage predefined dashboards’ folder empty (no dashboards appear)?
 
 There might be a caching issue with the browser. Please try to clear the cache on the browser, close and reopen the browser and login again.
 
-## Data discrepancies
+### Data discrepancies
 
 ### Why do I see different values for metrics in the Report Builder and the BI Dashboards?
 
@@ -64,15 +64,15 @@ The default values are the same as in the BI, but when customizing a report and 
 
 ## Usability
 
-## Can I move a dashboard I’ve created from one folder to another, or into a new folder?
+### Can I move a dashboard I’ve created from one folder to another, or into a new folder?
 
  You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide](data-reporting-report-builder-report-builder-user-guide-(standard).html) for additional information about working with folders.
 
-## After deleting a campaign in LE, how can I remove the campaign from list of campaign in the filter?
+### After deleting a campaign in LE, how can I remove the campaign from list of campaign in the filter?
 
 Add the “CAMPAIGN DELETED INDICATOR” and “CAMPAIGN NAME” under the List of Campaigns dataset to the filter pane. Right-click the new filter and choose “Select Targets”. Choose the CAMPAIGN NAME attribute from the list. For more information please refer to the [user guide.](data-reporting-report-builder-report-builder-user-guide-(standard).html)
 
-## What should I do to see a new metric created in the predefined dashboards in my copy of the dashboard?
+### What should I do to see a new metric created in the predefined dashboards in my copy of the dashboard?
 
 New metrics added to existing datasets will appear as hidden in user copies once added to the predefined dashboard. To locate the new metric click on the arrow icon next to the “DASHBOARDS DATASETS” title line, and choose Show Hidden Objects. Scroll down to locate the new metric and check the box next to the metric.
 
@@ -81,7 +81,7 @@ New metrics added to existing datasets will appear as hidden in user copies once
 {: .notice}  
 New datasets added to the predefined dashboards do not get carried over to dashboard user-copies.
 
-## The format of a time based derived metric I’ve created is wrong. Why?
+### The format of a time based derived metric I’ve created is wrong. Why?
 
 After creating a time based derived metric such as ONLINE NOT ENGAGED = ONLINE - \[ONLINE TIME ENGAGED\], you’ve probably adjusted the “Number format” for the metric to “Time” in order to display the time values for the agents in a grid visualization.
 
@@ -89,7 +89,7 @@ Unfortunately, the default format in Micro strategy for Time based metrics does 
 
 ## ![](/img/FAQ2RB-2-1.png)Funnel Reports
 
-## How are indirect conversions attributed?
+### How are indirect conversions attributed?
 
 Before diving into specific scenarios, it is recommended to review documentation that explains how conversions are attributed to campaigns.
 
@@ -99,17 +99,17 @@ _Consider the following scenario:_
 2. Agent transfers visitor to a sales skill
 3. Visitor proceeds to purchase a product associated with a Conversion goal from a sales campaign
 
-## What is the attribution flow here if last agent / last campaign is configured on the account?
+### What is the attribution flow here if last agent / last campaign is configured on the account?
 
 The last agent would be attributed with the conversion of this visitor. In this scenario, it is the sales agent.
 
 The “last campaign” attribution in relevant to content banners alone. In this use case, this setting is irrelevant.
 
-## Will this conversion be counted as an Indirect conversion towards the sales campaign?
+### Will this conversion be counted as an Indirect conversion towards the sales campaign?
 
 The conversion will be counted as an Indirect conversion towards the Service campaign. The condition in question is: does the goal that was reached match the goal associated with campaign the visitor engaged in? In this example, the answer is NO. The goal achieved was a sales goal, while the goal configured on the campaign the visitor engaged through is a service goal. Therefore, the campaign the visitor engaged through will be attributed with an indirect conversion.
 
-## Why is the campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?
+### Why is the campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?
 
 Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe.
 
@@ -138,7 +138,7 @@ Report Builder funnel metrics that are included in the above explanation are ava
 
 ## Goal Tracker
 
-## How cab one capture cross-session conversions when running the dashboard?
+### How cab one capture cross-session conversions when running the dashboard?
 
 The date filter of the goal tracker is applied to the engagement start time. Therefore, a cross-session conversion will be logged under the date on which the chat started. The following example aims to clarify on the expected behavior:
 
