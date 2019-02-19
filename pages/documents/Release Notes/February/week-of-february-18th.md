@@ -257,15 +257,13 @@ Every time the visitor sends a message, the countdown is reset so potentially if
 
 Now, when a visitor sends the last message, the countdown timer starts the countdown from the last message until the agent sends a message, regardless of whether the visitor sent any further messages. The solution proposed is to remove the reset logic for the Staller timeout implementation.
 
-### Updates to data masking configuration are not taking effect (LE-89023)
+### Back-end chat: Updates to data masking configuration are not taking effect (LE-89023)
 
 The configuration of data masking is performed in the Admin Area in Security > Data Masking.
 
 There you can choose which Masking Patterns to use. However, although the options you choose are saved in the UI, the actual patterns used for masking the chat are not updated.
 
 Now, the patterns are updated properly. The solution proposed is to implement the logic where data masking can be changed without having to restart the servers.
-
-## Messaging connectors
 
 ### WhatsApp: Agent sending links to consumer causes an unexpected behavior (CX-21)
 
@@ -304,7 +302,7 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 
 **Fix:** The message will be sent to the consumer as text message instead.
 
-### Bad URLs on WhatsApp Container health check (CX-114)
+### WhatsApp: Bad URLs on container health check (CX-114)
 
 <table>
 <thead>
