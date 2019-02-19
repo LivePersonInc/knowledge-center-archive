@@ -48,15 +48,13 @@ Now, LiveEngage will track your customers according to their status and type, al
 ![](/img/target-audience-2.png)
 
 {:start="4"}
-4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
-
+4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
 * Desktop/Laptop
 * Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
-5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
-
+5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
 * Direct
 * Display
 * Email
@@ -66,24 +64,22 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Social
 
 <br/>
-
 To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). 
 
-Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](http://oavrxoiy0ht8aq.live.forestry.io:8080/If%20you%20want%20to%20specify%20an%20originating%20channel,%20you%20can%20select%20from%20the%20following%20options:%20%09*%20Direct%20%20%20%20%20*%20Display%20%20%20%20%20*%20Email%20%20%20%20%20*%20Paid%20search%20%20%20%20%20*%20Referral%20%20%20%20%20*%20Search%20%20%20%20%20*%20Social%20%20To%20target%20consumers%20arriving%20from%20an%20affiliate%20or%20external%20campaign,%20you%20can%20manually%20enter%20the%20%09sources%20(multiple%20sources%20can%20be%20entered%20in%20this%20section%20and%20if%20the%20consumer%20originates%20from%20any%20of%20them%20this%20condition%20will%20be%20applicable).Marketing%20source%20is%20an%20Engagement%20Attribute,%20for%20more%20information%20on%20reporting%20this%20attribute,%20please%20refer%20to%20the%20%5C%5Brelevant%20section%20in%20the%20Engagement%20Attributes%20guide%20on%20the%20Developer%20Community.%5C%5D(https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html)) in the Engagement Attributes guide on the Developer Community.
+Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section] in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
-6\. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
+6. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
 
 ![](/img/target-audience-3.png)
 
 {:start="7"}
-7\. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
+7. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
-**Note:** this attribute is currently only supported for web engagements.
+	**Note:** this attribute is currently only supported for web engagements.
 
 {:start="8"}
-8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
-
+8. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
 * To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
 * To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
@@ -96,24 +92,24 @@ Customer info is an Engagement Attribute, for more information on reporting this
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
 
 {:start="9"}
-9\. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range. 
+9. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range. 
 
 Consumer age is reported via the Personal Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) in the Engagement Attributes guide on the Developer Community.
 
 {:start="10"}
-10\. **Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. **For example:** 30 days since initial registration.
+10. **Time since registration:** Target or exclude consumers based on the amount of time that has passed since they became one of your customers (based on your own definition of customer registration). Selecting the time unit and entering a value defines the length of time you wish to base your targeting on. **For example:** 30 days since initial registration.
 
 Time since registration is reported via the Customer Info Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#customer-info) in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-4.png)
 
 {:start="11"}
-11\. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
+11. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
 
 Company size n is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {:start="12"}
-12\. **Balance:** Target or exclude consumers by their current balance (for example, account balance). Enter minimum and/or maximum currency values to define the range you would like to target.
+12. **Balance:** Target or exclude consumers by their current balance (for example, account balance). Enter minimum and/or maximum currency values to define the range you would like to target.
 
 Balance is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
 
@@ -123,24 +119,24 @@ Balance is reported via the Customer Info Engagement Attribute, for more informa
 ![](/img/target-audience-5.png)
 
 {:start="13"}
-13\. **Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
+13. **Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section ]()in the Engagement Attributes guide on the Developer Community.
 
 ![](/img/target-audience-6.png)
 
 {:start="14"}
-14\. **Gender:** Target consumers according to their gender (male, female or other).
+14. **Gender:** Target consumers according to their gender (male, female or other).
 
 Gender is reported via the Personal Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagment-attributes-types.html#personal-info) i) in the Engagement Attributes guide on the Developer Community.
 
 {:start="15"}
-15\. **Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
+15. **Store ZIP code:** Target or exclude consumers by their association with a store ZIP code. Manually enter the list of ZIP codes you would like to target by (multiple ZIPs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Store ZIP code is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section]() in the Engagement Attributes guide on the Developer Community.
 
 {:start="16"}
-16\. **Store number:** Target or exclude consumers by their association with a store number. Manually enter the list of store numbers you would like to target by (multiple numbers can be entered in this section and if any of them apply to the consumer this condition will be applicable).
+16. **Store number:** Target or exclude consumers by their association with a store number. Manually enter the list of store numbers you would like to target by (multiple numbers can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Store number is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
@@ -149,13 +145,11 @@ Store number is reported via the Customer Info Engagement Attribute, for more in
 ## Target consumers by keyword
 
 To target consumers that searched for the keywords in Google Search, manually configure the ValueTrack in each ad to send LiveEngage the keywords under the query string parameter name “keyword”. Make sure to use only “keyword” as the parameter name.
-
 1. Log into your Google AdWords account.
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
 3. Make sure you select keyword as the parameter name for transferring keywords. Save the ad and repeat.
 
 <br/>
-
 **Note:** Google will only share search information from AdWords and not from organic searches.
 
 Now you can extract keywords from your Google campaigns manually or you can import them automatically by following these steps:

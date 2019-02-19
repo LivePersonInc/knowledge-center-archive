@@ -15,7 +15,7 @@ date: 2019-01-15 14:29:49 +0000
 * The predefined dashboard includes operational data for all messaging channels.
 * The primary datasets: Agent and consumer messaging activity.
 * Minimum timeframe: Hourly
-* Primary Filters: _agent, agent group, skill, source type_
+* Primary Filters: agent, agent group, skill, source type
 
 ## Main panel: agent performance summary
 
@@ -94,7 +94,7 @@ _Image 2: Consumer and agent response activity (panel 2)_
 
 The following panel provides an exportable grid which includes agent related activity and performance metrics.
 
-![](/img/Messaging-performance-dashboard3.png)
+![](/img/Messaging-performance-dashboard3-1.png)
 
 _Image 3 - Agent level data export grid (panel 3)_
 
@@ -196,7 +196,7 @@ When computing a messaging related metric that should allow filtering by an agen
 
 | Metric Name | Attribution to Agent | Attribution to Skill |
 | --- | --- | --- |
-|AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
+| AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
 | AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
 | AVG. CONSUMER RESPONSE TIME | Not assigned to an agent | To the skill assigned to the conversation when the response was given |
 | AVG. TIME TO AGENT FIRST RESPONSE | To the responding agent | To the skill assigned to the conversation when the response was given |
