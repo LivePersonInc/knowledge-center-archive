@@ -192,11 +192,9 @@ Consumers can now share a static location with a business on a WhatsApp conversa
 
 Consumer opts to share his current static location during a conversation:
 
-![](/img/week-of-february-18th-5.png)
+{: .sidebyside}
 
-![](/img/week-of-february-18th-6.png)
-
-![](/img/week-of-february-18th-7.png)
+![](/img/week-of-february-18th-5.png) ![](/img/week-of-february-18th-6.png) ![](/img/week-of-february-18th-7.png)
 
 Agent will receive static location sharing as text:
 
@@ -204,11 +202,9 @@ Agent will receive static location sharing as text:
 
 Consumer opts to share a location/address during a conversation:
 
-![](/img/week-of-february-18th-9.png)
+{: .sidebyside}
 
-![](/img/week-of-february-18th-10.png)
-
-![](/img/week-of-february-18th-11.png)
+![](/img/week-of-february-18th-9.png) ![](/img/week-of-february-18th-10.png) ![](/img/week-of-february-18th-11.png)
 
 Agent will receive location sharing as text:
 
