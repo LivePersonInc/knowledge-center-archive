@@ -15,7 +15,7 @@ The Business Activity predefined dashboard provides a daily snapshot of campaign
 
 Operational metrics for agent productivity and utilization have been added to compliment the funnel metrics. These operational metrics can be viewed alongside the funnel data but cannot be streamlined into one filterable view, as the dashboard does not include skill level analysis.
 
-{: .notice}   
+{: .notice}  
 Metrics with the term “chat” in their title only include data for live chat engagements, not for web messaging or other sources.
 
 **Primary datasets:** engagement exposures, viewed and accepted engagement offers, conversions
@@ -48,58 +48,19 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 * Distinct per engagement will add 1 to the metric results when a visitor was exposed to a specific engagement.
 
   The following list contains the distinct metrics and their underlying formula (where applicable):
-| Distinct to Visit |
-| --- |
-| PROSPECTS | Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account |
-| EXPOSED | Number of visits during which the visitor was offered an engagement |
-| ENGAGED | Number of visitors who had at least one engagement during their visit |
-| Distinct to Engagement |
-| EXPOSURES | Number of times each engagement was offered to a visitor |
-| CHAT BUSY EXPOSURES | Number of times each engagement was offered to a visitor in busy state |
-| CHAT OFFLINE EXPOSURES | Number of times each engagement was offered to a visitor in offline state |
-| CHAT ONLINE EXPOSURES | Number of times each engagement was offered to a visitor in online state |
-| CONTENT EXPOSURES | Number of times each content engagement was offered to a visitor |
-| MESSAGING EXPOSURES | Number of times each web messaging engagement was offered to a visitor |
 
-**For example:**
+  #### Distinct to visit
+  * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account 
+  * EXPOSED -Number of visits during which the visitor was offered an engagement
+  * ENGAGED - Number of visitors who had at least one engagement during their visit 
 
-The following campaign setup is given:
-
-![](/img/Business-activity-dashboard1.png)  
-The visitor is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
-
-* Offline “MainPage” button
-* Online “MainPage” button after moving to another page in the same section
-* Online “ProductPage” button
-
-The visitor clicked the “ProductPage” button and conversed with an agent.
-
-Another visitor is a prospect for the “Lead Gen” and “Service” campaign during the same visit. She sees the following:
-
-* Online “MyAccount” button
-* Offline “MainPage” button
-
-That visitor self served (meaning she did not converse with an agent during her visit).
-
-Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level:
-
-| Distinct Metric | Aggregation level | Entity Name | Values | Analysis inquiry |
-| --- | --- | --- | --- | --- |
-| PROSPECTS | Site | - | 2 | Q: Over the course of how many visits did the visitor become a prospect?A: Two - Alex and Rachel |
-| Campaign | Lead Gen | 2 | Q: Over the course of how many visits did the visitor become a prospect of the Lead Gen campaign?A: Two - Alex and Rachel |
-| Service | 1 | Q: Over the course of how many visits did the visitor become a prospect of the Service campaign?A: One - Rachel |
-| Engagement | MainPage | 2 | Q: Over the course of how many visits did the visitor become a prospect to the Lead Gen campaign and match the Main Page engagement’s Visitor Behavior and Entry Point requirements (regardless of whether the button was shown to the visitor)?A: Two - Alex and Rachel |
-| ProductPage | 1 | Q: Similar to the previous question but with the Lead Gen campaign and ProductPage engagement.A: One - Alex |
-| MyAccount | 1 | Q: Similar to the previous question but with the Service campaign and My Account engagement.A: One - Rachel |
-| Similar to the PROSPECTS logic, the following metrics count according to the same distinction and aggregation levels, however flag a different type of event |
-| EXPOSED | Q: Over the course of how many visits was the visitor exposed to an engagement offer at least once (in any state - offline, busy, or online)? |
-| ENGAGED | Q: Over the course of how many visits did the visitor accept an engagement offer and as a result, connected to an agent at least once? |
-| EXPOSURES | Site | - | 4 | Q: For each engagement, over the course of how many visits was the visitor exposed to an engagement offer (regardless of the engagement state)?A: Alex was exposed to “MainPage” and “ProductPage”, and Rachel was exposed to “MyAccount” and “MainPage”. |
-| Campaign | Lead Gen | 3 | Q: For each engagement setup in campaign “Lead Gen”, over the course of how many visits was the visitor exposed to an engagement offer (regardless of the engagement state)?A: Alex was exposed to “MainPage” and “ProductPage”, and Rachel was exposed to “MainPage” |
-| Service | 1 | Q: Similar to the previous question but with “Service” campaignA: Rachel was exposed to “MyAccount” |
-| Engagement | MainPage | At the engagement level, EXPOSURES = EXPOSED |
-| ProductPage |
-| MyAccount |
+    #### Distinct to Engagement 
+  * EXPOSURES - Number of times each engagement was offered to a visitor 
+  * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state 
+  *  CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state 
+  * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state 
+  * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor 
+  * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
 
 ## Reporting on campaigns funnel from messaging engagements
 
@@ -154,12 +115,12 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
 | Prospects(bar chart - main axis) | PROSPECTS | WEEK |
-| Exposed | EXPOSED(bar chart - main axis) |
-| EXPOSED RATE(line chart - secondary axis) |
-| Engaged | ENGAGED(bar chart - main axis) |
-| ENGAGED RATE(line chart - secondary axis) |
-| Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |
+| Exposed | EXPOSED(bar chart - main axis) |  |
+| EXPOSED RATE(line chart - secondary axis) |  |  |
+| Engaged | ENGAGED(bar chart - main axis) |  |
+| ENGAGED RATE(line chart - secondary axis) |  |  |
+| Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) |  |
+| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  |  |
 
 **Trend (Grid)**
 
@@ -197,8 +158,7 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 5. TOTAL CONVERSION RATE AFTER EXPOSURE NOT ENGAGEMENT
 6. INCREMENTAL CONVERSIONS
 7. INCREMENTAL CONVERSION RATIO
-
-1. Operation metrics
+8. Operation metrics
    1. CUMULATIVE ENGAGED CHAT TIME
    2. AVG. CHAT LENGTH
    3. AVG. INTERACTIVE CHAT LENGTH
@@ -216,11 +176,12 @@ Each panel, in the bottom area, includes the general volume generated by each Lo
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
 | \[Object\] Name(bar chart) | PROSPECTS | LINE OF BUSINESS / CAMPAIGN / ENGAGEMENT |
-| ENGAGEMENTS |
+| ENGAGEMENTS |  |  |
 
 ### Site panel
 
 The site level analysis adds to the top of the funnel an overview of web-traffic including the following additions.
+
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
 | Prospects | PROSPECT RATE(line chart - secondary axis) | WEEK |
@@ -275,7 +236,7 @@ The Entry Point is a section on your website or mobile app. On each entry point,
 
 Use the Business Activity by Entry Point to analyze the traffic on each website section or mobile app section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
 
-##   Business activity grid
+## Business activity grid
 
 The business activity grid spreads out all the funnel metrics in a granular view so any member on the account may receive scheduled copies to their email.
 
