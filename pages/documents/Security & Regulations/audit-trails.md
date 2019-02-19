@@ -1,14 +1,14 @@
 ---
 pagename: Audit trail
 categoryName: Security & regulations
-subCategoryName: Regulations
+subCategoryName: Web messaging
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''
 permalink: security-regulations-audit-trail.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 15:00:44 +0200
+date: 2019-01-24 13:00:44 +0000
 
 ---
 A list of all changes made to individual users, profiles, skills, lines of business or agent groups across the whole account is available for view by account administrators in the audit trail for users.
@@ -32,8 +32,7 @@ Audit data related to user logins to the LiveEngage system is not available.
 
 The following values are recorded in the audit trail:
 
-**Object Type: the type of object on the platform (as above, Users, Skills, Agent Groups, Permissions, LOBs)**
-
+* **Object Type:** the type of object on the platform (as above, Users, Skills, Agent Groups, Permissions, LOBs)
 * **Object name:** the name of the object that was modified
 * **Action type:** the type of modification (edit, add new, delete)
 * **Element:** the item that was modified (Member of, Password, Profile)
@@ -48,7 +47,7 @@ The audit trail can be accessed by clicking on the account settings menu to the 
 
 ![](/img/audit2.png)
 
-Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles(Permissions)]()
+Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles.](admin-settings-permissions-customize-permissions.html)
 
 ### **Exporting data**
 
@@ -62,4 +61,4 @@ Audit trails are available on the following features:
 * Campaign timeframes
 * Post conversation survey
 
-![](/img/audit4.png)
+![](/img/Audit-trail4.png)

@@ -8,7 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-multiple-away-states.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 15:55:25 +0200
+date: 2019-01-23 13:55:25 +0000
 
 ---
 For brands, understanding how agents are spending their time is vital for keeping track of performance and staff management. In addition to the three statuses currently available for agents - online, back soon and away - brands are also able to customize and add their own ‘away’ statuses.
@@ -21,35 +21,41 @@ By seeing how long agents are spending in these more specific modes, such as out
 
 1. Access the Night Vision settings by clicking on the **Night Vision icon** to the top right of the screen.
 
-   ![](/img/multi away state 1.png)
-2. A dropdown ‘Agent state’ menu will appear.
+![](/img/multiple-away-states-1.png)
 
-![](/img/multi away state 2.png)
+{:start="2"}
+
+1. A dropdown ‘Agent state’ menu will appear.
+
+![](/img/multiple-away-states-2.png)
 
 {:start="3"}
+
 1. Next to _Custom Away state reasons_, click **Edit**.
 2. Click on _Add custom Away state reason_.
 
-![](/img/multi away state 3.png)
+![](/img/multiple-away-states-3.png)
 
 {:start="5"}
+
 1. Enter the text of the away state reason you wish to add, for example ‘Out to lunch’, or ‘In a meeting’.
 
-![](/img/multi away state 4.png)
+![](/img/multiple-away-states-4.png)
 
 {:start="6"}
+
 1. Click **Save**.
 2. All customized away state reasons will subsequently appear in the configuration menu. You can edit or delete each reason by clicking on the edit or delete icons that appear on hover over.
 3. Click **Done**.
 
-![](/img/multi away state 5.png)
+![](/img/multiple-away-states-5.png)
 
 <div class="notice">
 <b>Note:</b>
 <ul>
 <li>You can define up to 10 custom away state reasons.</li>
-  <li>A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.</li>
-  <li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li>
+<li>A default system state will be added at the bottom of the list - away (default). This default state will also appear in the agent view.</li>
+<li>Deleted/edited reasons will not update in the agent’s view until the agent changes his state.</li>
 </ul>
 </div>
 
@@ -61,7 +67,7 @@ Once new away state reasons have been added, the agent will be able to select fr
 2. Open the away drop down menu.
 3. Select the appropriate away state reason.
 
-![](/img/multi away state 6.png)
+![](/img/multiple-away-states-6.png)
 
 <div class="notice">
 <b>Note:</b>
@@ -84,7 +90,7 @@ LiveEngage Report Builder provides visibility into the away reasons used by agen
 
 ## **Agent activity predefined dashboard**
 
-![](/img/multi away state 7.png)
+![](/img/multiple-away-states-7.png)
 
 The pie chart titled “Away” reflects the total time spent by agents in the away state, segregated by the time spent in each away Reason.
 

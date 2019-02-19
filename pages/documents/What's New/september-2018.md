@@ -9,10 +9,9 @@ level3: ''
 permalink: whats-new-september-2018.html
 isTutorial: true
 isNew: false
-date: 2019-01-24 11:24:36 +0200
+date: 2019-01-24 09:24:36 +0000
 
 ---
-
 <iframe src="https://player.vimeo.com/video/289680582" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson during September 2018 - all designed to help you get more out of our LivePerson platform.
@@ -25,7 +24,7 @@ This month we are excited to introduce the Resume conversation feature which ena
 
 #### Collect customer feedback after the conversation ends
 
-The Post Conversation Survey was officially launched this month and delivers surveys in a conversational experience to drive higher completion rates. The PCS enables you to measure agent and skill performance and to identify opportunities to improve on quality targets. The survey is automatically triggered at the end of a conversation with a consumer, without utilizing the time of a human agent. The bot can ask specialized questions and is designed to provide CSAT, FCR and NPS metrics as well as Open ended questions.
+The [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html) was officially launched this month and delivers surveys in a conversational experience to drive higher completion rates. The PCS enables you to measure agent and skill performance and to identify opportunities to improve on quality targets. The survey is automatically triggered at the end of a conversation with a consumer, without utilizing the time of a human agent. The bot can ask specialized questions and is designed to provide CSAT, FCR and NPS metrics as well as Open ended questions.
 
 ![](/img/sept-newsletter-1.gif)
 

@@ -15,19 +15,19 @@ date: 2019-01-15 11:35:30 +0000
 
 As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
 
-![](agent-manager-messaging-date-1.png)
+![](/img/agent-manager-messaging-data-1.png)
 
-OPEN- displays the total number of current open conversations.
+**OPEN -** displays the total number of current open conversations.
 
-PENDING- displays the total number of conversations pending agent response.
+**PENDING** - displays the total number of conversations pending agent response.
 
-OVERDUE - displays the total number of conversations that exceeded the target response time.
+**OVERDUE** - displays the total number of conversations that exceeded the target response time.
 
-SOON TO BE OVERDUE - displays the total number of conversations about to exceed the target response time in 5 minutes.
+**SOON TO BE OVERDUE** - displays the total number of conversations about to exceed the target response time in 5 minutes.
 
-UNASSIGNED - displays the total number of conversations that are waiting to be assigned to an agent.
+**UNASSIGNED** - displays the total number of conversations that are waiting to be assigned to an agent.
 
-CSAT- displays the customer satisfaction score, based on surveys that were completed in the last 12 hours.
+**CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours.
 
 ## Real time dashboard for messaging
 

@@ -5,11 +5,10 @@ subCategoryName: Messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
-level3: Messaging dashboards
+level3: ''
 permalink: data-reporting-messaging-messaging-dashboards-post-conversation-survey.html
 isTutorial: false
-date: 2019-01-15 15:14:02 +0200
-level3: ''
+date: 2019-01-15 13:14:02 +0000
 
 ---
 ## Reporting for post conversation survey
@@ -20,7 +19,7 @@ Brands can customize the survey to their needs, including predefined questions (
 
 The results of the surveys can be analyzed in real time using the messaging interactions API or by historical data in Report Builder.
 
-## **Report Builder**
+## Report Builder
 
 The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the Bot Studio.
 
@@ -48,7 +47,7 @@ In addition to the default grid views, Report Builder users with customization p
 
 For more information about customization privileges to the Report Builder, please contact your LivePerson account manager or customer success manager.
 
-## **Aggregation levels**
+## Aggregation levels
 
 The KPIs on the dashboard can be analyzed on two aggregation levels:
 
@@ -57,25 +56,25 @@ The KPIs on the dashboard can be analyzed on two aggregation levels:
 
 In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly.
 
-## **Time attribution**
+## Time attribution
 
 The data is collected for closed surveys (consumer can no longer submit responses) and survey results are associated with the time the survey started / conversation ended.
 
-## **Attribution to agents**
+## Attribution to agents
 
 Survey results are attributed to the last agent who was assigned to the conversation prior to the initiation of the survey flow. The skill attributed with the survey results corresponds to the one assigned to the conversation along with the same agent (last assigned). The last agent assigned to the conversation may not have been assigned to the conversation when it was transferred over to the survey bot. For instance, if a manager joined (but not assigned to) the conversation and closed it, consequently triggering the survey flow, the same manager will not​ be attributed with the survey results. The results instead will be attributed to the agent who was assigned to the conversation when the manager joined. In the same manner, the last skill which also helped determine which survey to present, will not necessarily align with skill assigned to the conversation along with the last assigned agent.
 
-## **Primary filters**
+## Primary filters
 
 The survey data can be filtered by - skill, survey name, survey outcome ​(completed, ignored, skipped, …), is answer recognized by bot ​(flag, set by default to “Yes”)
 
-## **Backward compatibility**
+## Backward compatibility
 
 1. “CSAT SCORE” pre-existing in the dashboard has been renamed to include the suffix “unified”. This metric is computed based on both previous version of the survey and the new survey flows. The new survey predefined KPI metrics include activity from the new survey flows, excluding the old survey activity.
 2. All messaging metrics pre-dating this feature have been completely separated from the survey activity. Therefore, no impact is expected to the metrics used prior to this feature introduction into the dashboard.
 3. The “resolution” metrics, representing the “old” survey’s resolution (yes/no) question, have been hidden from the predefined dashboard (they are still available for LPAs and customization users to unhide in user-copies).
 
-## **Panels**
+## Panels
 
 The sheet contains five panels in a single sheet
 
@@ -83,13 +82,13 @@ The sheet contains five panels in a single sheet
 * Last two panels - analyze survey performance (how is the bot performing?)
 * The data is presented in grid views for easy export
 
-### **Main panel: predefined survey KPIs**
+### Main panel: predefined survey KPIs
 
-The main panel provides a daily summary of survey results with focus on the pre calculated metrics: CSAT, NPS, and FCR. This main view is pre-aggregated by skill and agent, supporting an in depth review of each individual's performance, as reported by consumers.
+The main panel provides a daily summary of survey results with focus on the pre calculated metrics: CSAT, NPS, and FCR. This main view is pre-aggregated by skill and agent, supporting an in depth review of each individual's performance, as reported by consumers.z
 
-To add custom metrics for predefined questions, see **_Creating custom metrics in RB for Survey Answers‘’ document_**
+To add custom metrics for predefined questions, see _creating custom metrics section at the end of this article_
 
-### **Panel 2: answers distribution (brand)**
+### Panel 2: answers distribution (brand)
 
 The brand level answers distribution includes aggregated count of responses submitted by consumers to each question and for each configured answer option. The results are presented at the brand level, split by configured survey. Leveraging these results, you are able to analyze, for example, how many consumers answered with the value “4” vs. how many answered “5” for a chosen CSAT question.
 
@@ -103,34 +102,34 @@ It is important to note​ that a consumer may elect to skip the entire survey a
 
 Each question includes an additional bucketed answer, supplementing the configured answer-options. This bucket is called “unrecognized by bot”. Each time the bot did not find a match between the consumer’s response to a given question and any of the configured answer-options, the report will count this consumer’s response in the unrecognized by bot bucket. It is important to note that the default filter of “is answer recognized by bot” is set to “yes”, thereby, excluding all unrecognized answers from the report. You may change the filter settings to “no” or to “all” in order to evaluate consumer responses unrecognized by the bot as one of the valid answer options configured in the survey.
 
-### **Panel 3: answers distribution (agent and skill)**
+### Panel 3: answers distribution (agent and skill)
 
 Similar to the brand level answers distribution, this panel lists every configured question and answer-option, including a count of times consumers responded to each option.
 
-### **Panel 4: survey level analysis**
+### Panel 4: survey level analysis
 
 Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey?, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
 I**mportant to note:​** the values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
 
-### **Panel 5: question level analysis**
+### Panel 5: question level analysis
 
 Use this panel to analyze the response rates and time it takes consumers to answer each question individually. Identify opportunities to optimize the question text or change the order of presentation in the survey flow. Correlate the results in this panel with the survey level panel to identify questions which are presented multiple time to consumers in comparison to the number of surveys closed for each configured survey flow.
 
 \* “Question fallback Text” is presented in the report for questions which include a backup text phrase. The backup phrase is presented to consumers in end-points which do not support structured content.
 
-## **Limitations**
+## Limitations
 
 1. Report Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
 2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the Messaging Performance predefined dashboard.
 3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Report Builder but replaced with blank spaces.
 4. Free text questions can not be analyzed.
 
-## **Custom reports**
+## Custom reports
 
 **Pre-aggregated metrics (agent and skill)**: to view results at agent or skill levels, both the ‘agent’ and ‘skill’ attributes must be added to the grid.
 
-## **New Attributes / filters**
+## New Attributes / filters
 
 **Survey attributes**
 
@@ -234,3 +233,100 @@ Supported values:
   The percentage (%) of times consumers chose a specific valid answer out of all the configured answers on a specific question.
 
   May be adjusted to include unrecognized answers by the bot with the filter “Is answer recognized by bot“.
+
+## Creating custom metrics in Report Builder for survey answers
+
+### Custom calculation for predefined questions (CSAT, NPS, FCR)
+
+When using a predefined brick for CSAT, NPS, FCR, you have the option of changing the calculation for the score and defining your own metric, using the submitted answers.
+
+Below is an example for creating a custom formula for CSAT, instead of the precalculated ‘CSAT (Agent & Skill)’ metric. You can use the same syntax and modify it to your needs (use it for the other questions (NPS,PCS) or using a different arithmetic calculation).
+
+### **Custom metric for CSAT calculation:**
+
+In order to recalculate the CSAT score, 3 metrics need to be created (see formulas below). The last metric is the one that should be used in grids and visualization (the first two metrics are only for the calculation purposes).
+
+#### Steps for creating a custom metric:
+
+1. On the DASHBOARD DATASETS panel at the left side of the screen, right click on ‘Survey Answers (Agent and Skill)’ and select ‘Create Metric...’.
+
+   ![](/img/post-conversation-survey1.png)
+2. A new pop-up screen ‘Metric Editor - New Metric’ will open up
+
+   ![](/img/post-conversation-survey2.png)
+3. Use the ‘Metric Name’ field to give a meaningful name to the metric
+4. Paste the formula (copied from the ‘Formulas’ section below) into white box at the right.
+5. Click on ‘Validate’ and make sure you receive a green message ‘Valid metric formula’.
+6. Click ‘Save’. The formula will be added to the dataset and is ready to use.
+7. Follow these steps for each of the three formulas listed below.
+
+![](/img/post-conversation-survey3.png)
+
+8. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
+
+### Formulas:
+
+1. CSAT_Answer_Count:
+   1. Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
+   2. Formula: NullToZero(Sum(Case((\[QUESTION TYPE\]@ID=1), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+2. CSAT_Answer_Count 4_5:
+   1. Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
+   2. Formula: NullToZero(Sum(Case(((\[QUESTION TYPE\]@ID=1)And((\[ANSWER VALUE\]@ID=4)Or(\[ANSWER VALUE\]@ID=5))), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+3. New_CSAT:
+   1. Metric definition: the ratio of times answer 4 and 5 where submitted
+   2. Formula: \[CSAT_Answer_Count 4_5\]/CSAT_Answer_Count
+
+## Calculated metrics for custom questions
+
+When using custom bricks in the Post Conversation Survey, you have an option to define your own metric for calculating the results score. The calculation is done using the Question ID (see explanation below), the submitted answer’s text and arithmetic calculations.
+
+Below is an example for creating a custom metric for any type of question with configured answers. The final formula will provide the rate of answers to a specific question (based on the answer’s text) out of the total answers to that question. Follow the steps detailed above, in the predefined questions section, for creating the metrics - this time with the formulas listed below. You can use the formulas syntax and modify it to your needs.
+
+### Retrieving question IDs
+
+The IDs of the survey’s questions are mapped between Bot Studio and Report Builder.
+
+To In the retrieve the Question ID, head over to Bot Studio and click on the 3 dots next to the question name. Copy the ID and use it in the following formulas.
+
+![](/img/post-conversation-survey4-1.png)
+
+**Formulas:**
+
+1. Total_submitted_answers
+   1. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
+   2. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+2. Total_submissions_of_specific_answer
+   1. Metric definition: number of times a specific answer was submitted for a specific Question
+      1. Answers: Answer’s text contains the words ‘Extremely’ and ‘Satisfied’
+      2. Question ID: 52d95264-87d4-453a-bbe0-7b9c12c72bb8
+   2. Formula: NullToZero(Sum(Case(((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8")And(ANSWER@DESCLike"%Extremely%Satisfied%")), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+3. Answer’s rate
+   1. Metric definition: number of times a specific answer was submitted out of the total answers of a specific Question
+   2. Formula: \[Total_submissions_of_specific_answer\]/\[Total_submitted_answers\]
+
+## Exporting data for survey answers calculations
+
+Report Builder offers the option to export the survey results data into a MS Excel file. You can use this option to create your own calculations using Excel.
+
+### Steps for exporting a grid:
+
+1. Open Messaging Performance dashboard
+2. Unhide 'Answer count' attribute:
+3. On the DASHBOARD DATASETS panel at the left side of the screen, click on the down arrow on the right corner of the panel
+4. Select ‘Show Hidden Objects’
+5. Under ‘Survey Answers (agent and Skill)’, check the checkbox next to ‘ANSWER VALUE’ and click OK
+6. On the ‘Survey Data Export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
+7. Drag into the visualization the following metrics and attributes:
+
+   **![](/img/post-conversation-survey.png)Attributes:**
+
+    * Date
+    * Skill
+    * Agent
+    * Question Name
+    * Answer value - the submitted answer
+
+  **Metrics:**
+  Answer count (Agent and Skill) - the number of times the answer was submitted
+
+Export the data into excel by clicking on the down arrow at the top right corner of the visualization, selecting ‘Export’ and ‘Excel’. Now you can use your own formula to calculate the percentage of positive answers submitted out of the totals answers submitted
