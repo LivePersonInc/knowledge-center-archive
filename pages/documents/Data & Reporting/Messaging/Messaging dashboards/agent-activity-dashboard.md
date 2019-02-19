@@ -27,7 +27,7 @@ The following default panel will be presented when accessing the agent activity 
 ![](/img/agent-activity-dashboard 1.png)
 Image 1 - Agent activity dashboard main panel
 
-Visualizations:
+**Visualizations:**
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
