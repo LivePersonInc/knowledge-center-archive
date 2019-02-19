@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-target-audience.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 10:10:49 +0000
-published: false
 
 ---
 By defining a target audience for your campaign, you can ensure that the campaign will appear only to the consumers you most want to reach, i.e. those that are most likely to benefit from a particular service or those that have the highest chance of converting.
