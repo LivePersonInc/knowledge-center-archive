@@ -99,33 +99,33 @@ _Consider the following scenario:_
 2. Agent transfers visitor to a sales skill
 3. Visitor proceeds to purchase a product associated with a Conversion goal from a sales campaign
 
-## What is the attribution flow here if last agent / last Campaign is configured on the account?
+## What is the attribution flow here if last agent / last campaign is configured on the account?
 
 The last agent would be attributed with the conversion of this visitor. In this scenario, it is the sales agent.
 
 The “last campaign” attribution in relevant to content banners alone. In this use case, this setting is irrelevant.
 
-### **Q: Will this conversion be counted as an Indirect Conversion towards the Sales Campaign?**
+## Will this conversion be counted as an Indirect conversion towards the sales campaign?
 
-**A:** The conversion will be counted as an Indirect conversion towards the Service campaign. The condition in question is: does the goal that was reached match the goal associated with campaign the visitor engaged in? In this example, the answer is NO. The goal achieved was a sales goal, while the goal configured on the campaign the visitor engaged through is a service goal. Therefore, the campaign the visitor engaged through will be attributed with an indirect conversion.
+The conversion will be counted as an Indirect conversion towards the Service campaign. The condition in question is: does the goal that was reached match the goal associated with campaign the visitor engaged in? In this example, the answer is NO. The goal achieved was a sales goal, while the goal configured on the campaign the visitor engaged through is a service goal. Therefore, the campaign the visitor engaged through will be attributed with an indirect conversion.
 
-### **Q: Why is the Campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?**
+## Why is the campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?
 
-**A:** Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe.
+Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe.
 
 The different originates from the methodology funnel metrics are computed:
 
-* LiveEngage Campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
+* LiveEngage campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
 * Report Builder uses only the Visit session start time
 
-Example
+#### Example
 
 1. The following session is given
    1. 20-Feb 23:30 Visitor enters the website
    2. 20-Feb 23:35 Visitor becomes eligible for a campaign (Prospect)
    3. 21-Feb 00:10 Visitor views a chat button (Exposure)
    4. 21-Feb 00:15 Visitor clicks on chat button (Accepted Offer)
-2. A Campaign Manager sets the date filter to 20-Feb (full day)
+2. A campaign manager sets the date filter to 20-Feb (full day)
 
 |  | Prospects | Exposed | Accepted Offers |
 | --- | --- | --- | --- |
@@ -134,16 +134,16 @@ Example
 
 The Campaign BI validates that both visit start time and the event time were recorded during 20-Feb, while Report Builder only requires the visit start time to be recorded during 20-Feb.
 
-Report Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Report Builder glossary file](https://app.getguru.com/#/facts/e1be28cc-cfc9-4f4d-82df-f9fcc0b3d8aa) for the full list of available metrics.
+Report Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Report Builder metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) for the full list of available metrics.
 
 ## Goal Tracker
 
-### **Q: How could one capture cross session conversions when running the dashboard?**
+## How cab one capture cross-session conversions when running the dashboard?
 
-**A:** The Date filter of the Goal Tracker is applies to the Engagement start time. Therefore, a cross session conversion will be logged under the date on which the chat started. The following example aims to clarify on the expected behavior:
+The date filter of the goal tracker is applied to the engagement start time. Therefore, a cross-session conversion will be logged under the date on which the chat started. The following example aims to clarify on the expected behavior:
 
 * The account’s conversion window is set to 3 days.
-* On June 1st a Chat engagement took place.
+* On June 1st a chat engagement took place.
 * On June 3rd the consumer converted.
-* On June 4th the Campaign Manager wishes to pull a report for all conversions achieved on June 3rd
-* The Campaign Manager needs to set the Date filter in the Goal Tracker to include at least June 1st this cross session conversion
+* On June 4th the campaign manager wishes to pull a report for all conversions achieved on June 3rd
+* The campaign manager needs to set the date filter in the goal tracker to include at least June 1st this cross session conversion
