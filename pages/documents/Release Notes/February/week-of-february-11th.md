@@ -124,22 +124,18 @@ The design for the form in the messaging connectors experience is inherited from
   “The following secure form has been submitted: <Secure form name>”
 * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:  
   * The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
-  <br/>
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
   * Received by the consumer
   * Submitted by the consumer
 
 #### How to enable:
-
 To configure this feature, please speak to your LivePerson representative.
 
 For more information, please see the following documents:
-
 * [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
 
 #### Limitations
-
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
