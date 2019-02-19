@@ -138,6 +138,7 @@ Consumers can now share a contact (from their contacts list) with a business in 
 **Screenshots**
 
 Consumer opts to share contact during conversation:
+
 {: .sidebyside}
 ![](/img/week-of-february-18th-1.png) ![](/img/week-of-february-18th-2.png) ![](/img/week-of-february-18th-3.png)
 
