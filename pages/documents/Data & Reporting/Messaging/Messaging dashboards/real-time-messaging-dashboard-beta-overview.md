@@ -1,5 +1,5 @@
 ---
-pagename: Real time messaging dashboard overview
+pagename: Real time messaging dashboard overview (beta)
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
