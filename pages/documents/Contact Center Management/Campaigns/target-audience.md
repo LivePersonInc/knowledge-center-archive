@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-target-audience.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 10:10:49 +0000
-published: false
 
 ---
 By defining a target audience for your campaign, you can ensure that the campaign will appear only to the consumers you most want to reach, i.e. those that are most likely to benefit from a particular service or those that have the highest chance of converting.
@@ -64,9 +63,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 * Mobile smartphone
 
 {:start="5"}
-5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign.
-
-If you want to specify an originating channel, you can select from the following options:
+5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
 
 * Direct
 * Display
@@ -76,7 +73,7 @@ If you want to specify an originating channel, you can select from the following
 * Search
 * Social
 
-To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section\](If you want to specify an originating channel, you can select from the following options: 	* Direct     * Display     * Email     * Paid search     * Referral     * Search     * Social  To target consumers arriving from an affiliate or external campaign, you can manually enter the 	sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the \[relevant section in the Engagement Attributes guide on the Developer Community.\](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) ) in the Engagement Attributes guide on the Developer Community.
+To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable). Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](http://oavrxoiy0ht8aq.live.forestry.io:8080/If%20you%20want%20to%20specify%20an%20originating%20channel,%20you%20can%20select%20from%20the%20following%20options:%20%09*%20Direct%20%20%20%20%20*%20Display%20%20%20%20%20*%20Email%20%20%20%20%20*%20Paid%20search%20%20%20%20%20*%20Referral%20%20%20%20%20*%20Search%20%20%20%20%20*%20Social%20%20To%20target%20consumers%20arriving%20from%20an%20affiliate%20or%20external%20campaign,%20you%20can%20manually%20enter%20the%20%09sources%20(multiple%20sources%20can%20be%20entered%20in%20this%20section%20and%20if%20the%20consumer%20originates%20from%20any%20of%20them%20this%20condition%20will%20be%20applicable).Marketing%20source%20is%20an%20Engagement%20Attribute,%20for%20more%20information%20on%20reporting%20this%20attribute,%20please%20refer%20to%20the%20%5C%5Brelevant%20section%20in%20the%20Engagement%20Attributes%20guide%20on%20the%20Developer%20Community.%5C%5D(https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html)) in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
 6\. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
@@ -95,9 +92,7 @@ To target consumers arriving from an affiliate or external campaign, you can man
 * To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
-Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
-
-Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
+Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu. Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {: .notice}
 **Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
@@ -179,7 +174,7 @@ The Search Keyword Condition box lets you personalize the message for your custo
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 
 {: .important}
-**Do not create a mobile app engagement assigned to an irrelevant target audience, as this may be result in ineligible mobile engagements.**
+Do not create a mobile app engagement assigned to an irrelevant target audience, as this may be result in ineligible mobile engagements.
 
 | Condition box | Relevant sources |
 | --- | --- |
