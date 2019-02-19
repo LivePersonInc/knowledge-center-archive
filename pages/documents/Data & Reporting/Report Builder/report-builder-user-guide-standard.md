@@ -102,7 +102,7 @@ In the selector, you may choose from one of the following time-frame options:
 3. Last 30 days
 4. Filter for months - choose up to four individual months from the past 13 months
 
-**![](/img/rbug3.png)**
+![](/img/User-Guide-(standard)3.png)
 
 **Image 3:** Time frame selector main prompt
 
