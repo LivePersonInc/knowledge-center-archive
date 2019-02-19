@@ -9,6 +9,7 @@ level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 isTutorial: false
 date: 2019-01-21 13:20:07 +0000
+isNew: false
 
 ---
 This dashboard includes raw data for every goal reached in any of the selected account’s campaigns. The goal achieved event, which serves as the data source for this report, includes all goal types:
@@ -26,7 +27,7 @@ The following panel will be presented when accessing the goal tracker predefined
 
 ![Cox (31922287) - Agent Goals Tracker Report.png](https://lh6.googleusercontent.com/5pXFgmCYIVH19XzG5sbqObrhaSE93qCIOES8hUm49K3VBqPI9-jJQNgprQX0sMT1XECmARLHodCHP66bRqhFA1dAWi9JDg316gHnbgPh6zkggtoJq7zKczLT77gzOKU6lrlxE3iL =624x389)Image 1- Agent goals tracker report main panel
 
-Visualizations:
+**Visualizations:**
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -56,4 +57,4 @@ The goal tracker is currently unique in the sense that it captures engagement at
 | --- | --- | --- | --- |
 | Service activity complete | Conversion | topic | TOPIC |
 
-To learn more about engagement attributes, [click here]()
+To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
