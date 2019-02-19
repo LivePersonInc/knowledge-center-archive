@@ -1,5 +1,5 @@
 ---
-pagename: Report Builder user guide (standard)
+pagename: User Guide (standard)
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: both
@@ -7,11 +7,9 @@ subtitle: 'User guide for users with read only access '
 level3: ''
 permalink: data-reporting-report-builder-report-builder-user-guide-(standard).html
 isTutorial: false
-date: 2019-01-10 11:10:56 +0200
-level3: ''
+date: 2019-01-10 09:10:56 +0000
 
 ---
-
 ## Accessing Report Builder
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
@@ -69,9 +67,7 @@ The data currently available in the predefined dashboards are as follows:
 * **Operational & staffing dashboard:** Includes information about skill performance and skill demand.
 * **Survey activity dashboard:** Includes information about responses to surveys in Live chat.
 
-![](/img/rbug1.png)
-
-_Note: The data included in Report Builder are constantly evolving._
+{: .notice} The data included in Report Builder are constantly evolving.
 
 ## Metrics glossary
 
@@ -85,7 +81,7 @@ Click [here](https://developers.liveperson.com/essential-resources-report-builde
 
 Every predefined dashboard includes a sheet titled “field details”. This sheet presents a grid with the definitions of each metric and attribute displayed in the visualizations of the dashboard.
 
-**![](/img/rbug2.png)**
+![](/img/User-Guide-(standard)2-1.png)
 
 **_Image 2:_** _Field details sheet_
 
