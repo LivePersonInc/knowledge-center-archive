@@ -15,57 +15,51 @@ date: 2019-02-18 15:54:54 +0200
 ---
 The Post Conversation Survey Bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
-![](https://lh6.googleusercontent.com/YWtTrHvFuk03yCLftkgO8gW8CtMoGtmDj_4d7k3Lurqo0q8euC0lTDUaitgZ14ivaIPiIrL01kUH4dHaMJtdE-J-TUsZ9ScWcOhp_ClrpjeqEB4-UHHwXQoNiHx2lBJ6dOi7Q5nK =294x487)
+![](/img/post-conversation-survey.gif)
 
 ## Survey flow
 
 Once the conversation ends the survey is automatically triggered and Bot sends the greeting message
 
-![](https://lh4.googleusercontent.com/LXc3CedYMzp9WFiK8sQUQLZ4FqUZjVW908M82VVIbS9WIPgyjUhYf2SLF5IHP_2eYF4vXtsv-eFIkxZNzz_DJvKp3-s8U-y1rT-Zkr8uYdNgNzZwzvOF9EyYF2kyqOVu2GrPVn9B =240x420)
-
 The bot starts to send the questions one by one based on the brand configuration. Questions can be quick replies, structured content or simple text.
-
-![](https://lh3.googleusercontent.com/Om0OP8JLLCKWJ5CKlBqpPe7aV0NCb8NFxcprkvdQsrHw31gTudS2jvB24jz3wHuc1OKzMYbMwewLMPhVxmR9LaN6SoSkKrKODtMgzEyloe4FwQP2TXXyIdJM2nIf6fzf0BdwAwQL =216x379)
 
 Once the consumer finished answering the questions or upon survey timeout, the survey will be closed with a closing message.
 
-![](https://lh5.googleusercontent.com/PT6ngHNZT7bRmTgVaU_yvffhm6OgPkjkbBqibamDtxWrkWzBv_b8Et4po3-SZz8kQo7hOKh5-2lq-rY0VrcSV99ZS7vkxHMhzMiwo2SVPTJAGHSU9bJ5KQ9sk0XK9lH-U8QA5LAh =266x469)
-
 ## How it works
 
-**SURVEY TRIGGERING**
+#### **Survey triggering**
 
 * Once the messaging conversation has ended (either by consumer or agent) the survey will be automatically triggered (no need to transfer)
 * A survey is not triggered upon auto close
 * A survey is triggered based on the last skill of the conversation
 * NOTE: only conversations with assigned skill to them will be able to trigger a survey. If a conversation is “unassigned” no survey will be triggered.
 
-**CONVERSATIONAL**
+#### **Conversational**
 
 * The bot will start to send the questions one by one as configured by the brand
 * Upon each consumer response, the bot will send the next question based on the logic defined
 * The survey questions and answers are based on structured content, quick replies and regular text messages - all fully customizable by the brand
 
-**SKIPPING THE SURVEY**
+#### **Skipping the survey**
 
 * Brands will be able to configure specific phrases that, if typed by the consumer, will skip and close the whole survey
 * Per each specific question the brand can add a ‘skip’ button to make it optional
 
-**SURVEY TIMEOUT**
+#### **Survey timeout**
 
 * If the consumer didn’t respond for X time from the last bot message, the bot will close the survey and report on it accordingly
 
-**TYPING FREE TEXT**
+#### **Typing free text**
 
 * For questions that are not ‘free text’ questions, the consumer will be asked to choose from a list of answers (either shown in quick replies or in the card buttons).
 * For each button or quick reply, the brand can also configure phrases which if typed by the consumer would be recognized by the bot as a valid answer.
 
-**CONSUMER ERRORS**
+#### **Consumer errors**
 
 * In case the consumer types in free text that is not recognized as a valid answer, the bot will send an error message and resend the last question again
 * After X times which the user got this error, the bot will automatically close the dialog.
 
-**SURVEY OUTCOMES**
+#### **Survey outcomes**
 
 * The survey can be closed in a number of different scenarios-
   * Survey completed
@@ -102,51 +96,49 @@ A brand that is looking to add the Survey Bot to its ranks should consider the f
 
 ## How to create a survey using the Bot Studio
 
-### **S**tep 1 - Log in to the Bot Studio
+### Step 1 - Log in to the Bot Studio
 
 Log in to the Bot Studio using the following link [https://va.routingbot.ext.liveperson.net/login](https://va.routingbot.ext.liveperson.net/login "https://va.routingbot.ext.liveperson.net/login")
 
-Make sure to use your account Admin credentials.
+Make sure to use your account admin credentials.
 
-![](https://lh4.googleusercontent.com/e-hZ4BdzzdMBw7_JtJGDTTjDIefOkSScfx1qtTqZuAVF-AQmdKvTRqaEYswK4KKeQnvRNsDp41ABrDdaMTNdz0cbB9X_EbxSWjTfCZ-9yl2RsFiWsJ3IU1RogIIE-xwzJyUAyJje =461x439)
+![](/img/Post-conversation-survey-2.png)
 
 ## Step 2 - Create a bot and first survey
 
 Once logged in to the Studio, create a new Bot under the Survey Bots tab.
 
-![](https://lh6.googleusercontent.com/imtWtftTCsn7Qt7bPCmaxcBr8hHeAeM4fV8N8V84tjoWhD9H8-SMam_TrBfMW0bztLvX4_s4OerAUqPck79iqL_ebTbRJNG1Ze_WFGXlKYJoR3LGdxzqMS0zqKGoEKJG8mhql9We =624x332)
+![](/img/post-conversation-survey-user-guide3.png)
 
-Once the bot is created, Enter the Bot’s Survey gallery and press the “Add Survey” button to create a new survey.
+Once the bot is created, enter the bot’s survey gallery and press the “add survey” button to create a new survey.
 
 Select the skills on which the survey will be triggered once the conversation is closed.
 
-![](https://lh5.googleusercontent.com/kN3b07Ni4WMm43r5JyoA-YxKkjP0xSpY54XjhJx6qCLMgl1FE203HbK8Nt17km9HwPxMwMznxPeVOJIh4eVi7WAh5anMQtrioq16KY9IupncAd55gz15OAIVoEH-iRx_5GhgufoL =653x178)
-
-## Step 3 - Define the survey flow with Sequences and Bricks
+## Step 3 - Define the survey flow with sequences and bricks
 
 This step will instruct you on how to create a survey flow using the Bot Studio Editor.
 
-#### **What is a survey?**
+#### What is a survey?
 
 A survey is a collection of sequences where each sequence is built out of bricks (questions).
 
-#### **What is a sequence?**
+#### What is a sequence?
 
 A sequence is essentially a business flow. For example, If I would like to collect the user’s name and age at the beginning of the survey, I would create a sequence and would name it “Personal info”. I would then go and define a few Bricks under my “Personal info” sequence for collecting the required user information.
 
-#### **What are bricks?**
+#### What are bricks?
 
 Bricks are visual elements such as Text bubbles, Structured content with Images and buttons and Text bubbles with quick replies.
 
-#### **What are Predefined bricks?**
+#### What are predefined bricks?
 
 Predefined bricks are the NPS, CSAT and FCR bricks. They are called predefined since the bot designer can’t edit their structure (for example number of quick replies) but can only edit their content (for example question text or quick reply names). By definition, a survey can have only one predefined of each type in a single survey. (One CSAT, One NPS & One FCR question per a single survey)
 
-#### **What is an Unassigned Sequence?**
+#### What is an unassigned Sequence?
 
 An unassigned sequence is a sequence that is not referenced by the main tree of the survey (Orphan sequence). It would appear at the bottom of the Sequence List in the Unassigned Sequences section.
 
-#### **Which actions are available?**
+#### Which actions are available?
 
 The available actions that could be defined for each quick reply or button can perform one of the following activities:
 
@@ -154,7 +146,7 @@ The available actions that could be defined for each quick reply or button can p
 * **Continue sequence** - This would tell the Bot Studio UI that another brick should come right after the brick in which this action is defined.
 * **End conversation** - triggers an “end conversation message” that is assigned with the terminate command in the JSON.
 
-## Step 4 - Set the Survey timeout and general settings
+## Step 4 - Set the survey timeout and general settings
 
 #### Survey timeout
 
@@ -164,9 +156,11 @@ The survey timeout is calculated from the moment the survey starts until it reac
 
 #### Survey skip phrases
 
-In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.![](https://lh4.googleusercontent.com/YGGl7Pyqlm1cUdYbsHN8e0gQcpNqC4ZsVSYtkagRYMAcS9gkRLbXbu2YgloZgBImuRmL2zTrTSzmCPEt0Mv9bCwYZ-mycWL9s5N2-Lo98XRbDk5ANRKoZCW4CGe-_h0NTqk0U2oJ =466x401)
+In the settings, you can set the phrases that could help the consumer to skip the survey. If the consumer would enter one of the set phrases (exact phrase, not case sensitive) the survey skip message would be written to the conversation and the bot would end the survey.
 
-## Step 5 - Reaching a valid survey for Publishing
+![](/img/post-conversation-survey-user-guide4.png)
+
+## Step 5 - Reaching a valid survey for publishing
 
 If you wish to know that your survey is valid for publishing, make sure that the survey has no warning icons on bricks and has no Unassigned Sequences.
 
@@ -176,9 +170,9 @@ In the image below there are a few errors that prevent the survey from being pub
 2. Some of the bricks are missing essential information such as the question text.
 3. The survey has an unassigned sequence.
 
-![](https://lh5.googleusercontent.com/XhC3j4IYvsfvtz4kcjA-1wiz3rAQh5R-okl_P-YJOC3GqSD1dHb9pTfBARa-CT4jTivBZYc2LgyVIz09VvPqKhxEXYlUIAhRsfw9JYFCWTn21PsC21yeLacEZhFhrHwFcimI9Lel =757x409)
+![](/img/post-conversation-survey-user-guide5.png)
 
-Attempting to Publish this survey will fail with a Bot Studio error message.
+Attempting to publish this survey will fail with a Bot Studio error message.
 
 Once the survey contains no warnings, hit the Publish button to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it would already be live for your users.
 
@@ -186,7 +180,7 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace would show the caption - “Survey in progress”
 
-![](https://lh6.googleusercontent.com/no5A5N0CGvQYBFOsYoQy0eJAVolpD3BtdN1YXf6bPMgJnRCyxqTNE-PPnEwt7o4eSrf7iZbqfti6hhUYVVyE5krlVf5neVMRxInl35o7LeC3sKEoEOfJeyvNOhR4C8b4jQlvDjOv =535x611)
+![](/img/post-conversation-survey-user-guide6-1.png)
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
@@ -200,7 +194,7 @@ Predefined phrases can be used either to allow the user to skip the survey, skip
 
 In the settings under the skip survey section, you can add the phrases which the user can type to trigger the end of the survey.
 
-![](https://lh3.googleusercontent.com/1Y1-K9yBiLve0IdCV4Qzs6fMdJxmwRPV_54sd7eeKCFIgF4CtF1esxvHZ202RW9lQ0-dVX1IEec3kgfMyCRgDoOt7QiwSdoJjfkT1EOZPVTQkVe3ChC5gJgi0ijuaGDNzSyiJC_5 =607x248)
+![](/img/post-conversation-survey-user-guide7.png)
 
 **Answer question using free text**  
 Another use for free text could be to enter an answer for a question.  
@@ -251,7 +245,7 @@ Each kind of brick has its own design parameters associated with it and some ele
 The text and quick replies brick has two main design aspects that can be controlled through the Bot Studio:
 
 1. The design of the text within the buttons - color may be changed using the hexadecimal code
-2. The buttons layout and colours - the number of Quick Replies per row may be set as well as the buttons background and border colors.
+2. The buttons layout and colors - the number of Quick Replies per row may be set as well as the buttons background and border colors.
 
 ![](https://lh3.googleusercontent.com/jz1SidYOu-TXwTUVU4h0NyLMK5lBSxGautxdcQAu4R4AU_R8GXjCbm3x4XSR7ufS6wXqjPGaA5Y8vNo1wSED3qCRglYBVhDV5sxVnzxUoCtXulTtsQzh8RwLlCvoe9eDjz8TktiU =268x446)
 
