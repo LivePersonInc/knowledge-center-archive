@@ -559,8 +559,8 @@ Users are advised to recreate their dashboards every so often in order to get th
 ### Derived metrics
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
-* **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “Distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
-* Time based derived metrics - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
+* **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
+* T**ime based derived metrics** - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
 **DISCLAIMER:**
 
