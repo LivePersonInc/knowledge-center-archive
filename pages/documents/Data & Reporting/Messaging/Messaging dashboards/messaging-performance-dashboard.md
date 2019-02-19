@@ -196,7 +196,7 @@ When computing a messaging related metric that should allow filtering by an agen
 
 | Metric Name | Attribution to Agent | Attribution to Skill |
 | --- | --- | --- |
-| AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
+|AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
 | AVG. RESPONSE TIME BY AGENT | To the responding agent | To the skill assigned to the conversation when the response was given |
 | AVG. CONSUMER RESPONSE TIME | Not assigned to an agent | To the skill assigned to the conversation when the response was given |
 | AVG. TIME TO AGENT FIRST RESPONSE | To the responding agent | To the skill assigned to the conversation when the response was given |
