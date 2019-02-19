@@ -62,8 +62,8 @@ The data currently available in the predefined dashboards are as follows:
 * **Agent activity dashboard**: Includes operational data about agents.
 * **Skill activity dashboard**: Includes operational data about skills.
 * **Goals tracker dashboard**: Includes information about each conversion.
-* **Messaging performance dashboard**: Includes operational and business data about messaging conversations.
-* **Business activity dashboard:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* [**Messaging performance dashboard**:](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
+* [**Business activity dashboard**](data-reporting-messaging-messaging-dashboards-business-activity-grid.html)**:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
 * **Operational & staffing dashboard:** Includes information about skill performance and skill demand.
 * **Survey activity dashboard:** Includes information about responses to surveys in Live chat.
 
@@ -158,8 +158,6 @@ Exports can be exported in PDF or Excel format.
 To export a report:
 
 1. Hover your mouse cursor over the top right corner of your screen until an arrow is displayed.
-
-   ![](/img/rbug9.png)
 2. Click the arrow, and then select **export.** The following options are displayed: **Excel**, **PDF**, **data**.
 3. Select an export option.
 
