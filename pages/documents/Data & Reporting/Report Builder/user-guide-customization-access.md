@@ -36,14 +36,15 @@ In order for agent managers and campaign managers to be able to view, customize 
   {: .notice}  
   These permissions are disabled for both agent manager and campaign manager roles by default.
 
-To enable permissions:
+**To enable permissions:**
 
 1. In the users tab, click on the profiles page.
 2. Click on the ‘agent manager’ or ‘campaign manager’ profile. The edit profile page will open.
 3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
 
-**Note:** If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
+   {: .notice}   
+   If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
 
 ## Data view restrictions
 
@@ -70,19 +71,20 @@ Dashboards in Report Builder are saved in folders. The available folders are as 
 
 In the **my account** and **my reports folders**, users may create sub-folders to organize copies of existing dashboards. Each sub-folder can contain any number of saved dashboard. While any user with access to Report Builder may view sub folders and their content, managing sub-folders is only available to users with the permission to Customize Reports.
 
-**Creating** a folder under “my account” or “my reports” folders
+Creating a folder under “my account” or “my reports” folders
 
 1. Access Report Builder and navigate to one of the above mentioned folders
-2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “Folder”
+2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
 ![](/img/Customization-user-guide1.png)
 
 Alternatively, a new folder can be created by copying an existing dashboard (right-click and “copy”), or by selecting the Save As menu option from within an opened dashboard. In both options, to the right of the folder selection-box, click on the create folder icon.
 
-**Deleting** and **renaming** an existing dashboard is also available via right-clicking the folder icon.
+Deleting and renaming an existing dashboard is also available via right-clicking the folder icon.
 
-**Important note:** When deleting a folder, its content is deleted as well, and cannot be recovered.
+{: .notice}  
+When deleting a folder, its content is deleted as well, and cannot be recovered.
 
 **Feature Releases**
 
@@ -109,13 +111,13 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ![](/img/customization-user-guide3.png)
 
 ### Customize a predefined dashboard
 
-1. Open any dashboard from the ‘[LE predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html)’ folder.
+1. Open any dashboard from the ‘LE predefined dashboards’ folder.
 2. Click the ‘**save as**’ option under the ‘File’ drop-down menu.
 3. Save a copy of the predefined dashboard under the ‘My Reports’ folder.
 4. Select the ‘**run newly saved dashboard**’ option.
@@ -148,7 +150,7 @@ Scheduling dashboards to email is currently available via you LivePerson account
 
 A dashboard contains multiple layouts. To switch between the pages of data in the dashboard, or tabs, click the name of a layout tab. Each tab can contain multiple panels of content, all using the same tab filters. You can switch between panels by clicking the blue dot at the bottom of each panel.
 
-### **Add a new tab**
+### Add a new tab
 
 Click the ‘**+**’ sign next to the names of the tabs.
 
@@ -211,7 +213,8 @@ Hover the cursor over the name of the filter you just added, then click the arro
    * To display data in the dashboard only for selected elements, select **include**.
    * To display data in the quick dashboard for all elements except the elements that are selected, select **exclude**.
 
-{: .notice}The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
+{: .notice}  
+The filters of a any dashboard must contain at least one attribute from the “Time” dataset which appears at the top of the DASHBOARD DATASETS list. Attributes of the Time dataset include: DATE, DAY OF WEEK, WEEK, and MONTH.
 
 ### Add a metric filter to the filters panel
 
