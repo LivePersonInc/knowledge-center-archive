@@ -3,9 +3,8 @@ pagename: Using the MCS Toolkit
 categoryName: Data & reporting
 subCategoryName: Web messaging
 indicator: both
-subtitle: The MCS toolkit provides you with a deep analysis of performance using the
-  MCS, at the account level, agent level, conversation level, and even message by
-  message
+subtitle: Analysis of performance at the account level, agent level, conversation
+  level, and even message by message
 level3: ''
 permalink: data-reporting-meaningful-connection-score-(mcs)-using-the-mcs-toolkit.html
 isTutorial: false
