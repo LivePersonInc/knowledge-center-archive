@@ -192,19 +192,27 @@ Consumers can now share a static location with a business on a WhatsApp conversa
 
 Consumer opts to share his current static location during a conversation:
 
-![](https://lh5.googleusercontent.com/N_hC_IFoU4Bj5MN2y998j5-BHbHrXZ1iWO0TQa6ES96SeYRtzdfaB81UZZJKG1Mb0zJRT7jrwhlJ8Oht6CCOykKKbk_4C3iGcCRI7IFivBKzJAkUq3zlu_SZw7cFbNTl_c9wIREK =166x254) ![](https://lh5.googleusercontent.com/oHJh2nfa_3dIQ9kTUE7J0XnL0Qjf3uM-lxX3bHfawFPLDaz7hkaEjiMVU10rtbNDx-B49osvIwMN8DIz0GL1LW1XBWkljnFYJjMMYXsFMBWazmUuOJp5zdEvsRKkK2ZZs4ERokBb =163x258) ![](https://lh4.googleusercontent.com/SMDizJPt4vujCR19r0_7bYtbXHzPJ2VYoak___1BBg1SVUyx5fvoXDyI61mMB_hbnd7RoXMIUnl8T44UJ_mPlzCxHyaigo-h4X_F5icEPC52Fs8ctxAvslldFkP8idh99TvqdsyU =154x261)
+![](/img/week-of-february-18th-5.png)
+
+![](/img/week-of-february-18th-6.png)
+
+![](/img/week-of-february-18th-7.png)
 
 Agent will receive static location sharing as text:
 
-## ![](https://lh3.googleusercontent.com/foxKp8TVLwRiTEWsSnTl7R7WudKGPXv1SbE2Ypcgsuz5HJxfXdtcmMYB_6ZUfnjy3Xj24FOxsLOEoyKUlSxgeYuuV2sMIZ7XkWzDVsdD9ZOGAt-iBgvXEbfdL5Qv3B9kbazz_3eK =197x353)
+![](/img/week-of-february-18th-8.png)
 
 Consumer opts to share a location/address during a conversation:
 
-![](https://lh5.googleusercontent.com/N_hC_IFoU4Bj5MN2y998j5-BHbHrXZ1iWO0TQa6ES96SeYRtzdfaB81UZZJKG1Mb0zJRT7jrwhlJ8Oht6CCOykKKbk_4C3iGcCRI7IFivBKzJAkUq3zlu_SZw7cFbNTl_c9wIREK =166x254) ![](https://lh6.googleusercontent.com/FR_22qADdgdjn2OJZ1Tejvs4h10ieR9e2ZCDqg0n_UZVSyGLdtg_PWQiSRbsStTIO6SNFHtSGYoXiN2L977lUH9xfEIgUGTLvjmjG5WUuGGIqJ1I-ZFCYIzu4aRxWo4TKyOp04Aa =147x254) ![](https://lh5.googleusercontent.com/vlnrkyDchw-hBPcYBVAUBdMJYeItMyMCZyM1JMc3zAQCXWcV4CFsStay04ISbwJS7T8479vhMG1qXt0YuRw5CUHRM_Z9Hi2Nn0U8At_wAdNgUbwrLmzz_x2pKaIYlT5Blc1_rzhb =161x260)
+![](/img/week-of-february-18th-9.png)
+
+![](/img/week-of-february-18th-10.png)
+
+![](/img/week-of-february-18th-11.png)
 
 Agent will receive location sharing as text:
 
-![](https://lh6.googleusercontent.com/vzgrBupTiAgQfkit-zqmtSFDUNPuREINIcm1YEtW-oGV_3jyK3G8XcWiifm0onLyUbvlAsjyNBjnVAIWe_sBlGKJdZhwaH7wnWllY9hA4eb2pRGkXXS2tm8ErEy13EfHgGKVq2uJ =319x439)
+![](/img/week-of-february-18th-12.png)
 
 ### Google RCS: Change the default media height in Card elements to "TALL" (CX-18)
 
@@ -241,11 +249,9 @@ Agent will receive location sharing as text:
 
 For Google RCS Business Messaging, the default media height in card elements has changed from "MEDIUM" to "TALL."
 
-Bug Fixes
+## Bug Fixes
 
-## Back-end chat
-
-### Automatic message timing is misbehaving (LE-89122)
+### Back-end chat: Automatic message timing is misbehaving (LE-89122)
 
 Every time the visitor sends a message, the countdown is reset so potentially if a visitor sends a message every 2 minutes and the countdown is set to 3 minutes, the visitor will never receive the on-hold message.
 
