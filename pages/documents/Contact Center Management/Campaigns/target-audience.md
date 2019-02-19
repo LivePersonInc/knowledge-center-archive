@@ -42,7 +42,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 
    **Note:** this attribute is currently only supported for web engagements.
 
-![](/img/target audience 1.png)
+![](/img/target-audience-1.png)
 
 {:start="2"}
 
@@ -54,7 +54,7 @@ To learn how to collect information about your visitors, let’s look at an exam
 
 1. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
-![](/img/target audience 3.png)
+![](/img/target-audience-2.png)
 
 {:start="4"}
 4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
@@ -81,7 +81,7 @@ To target consumers arriving from an affiliate or external campaign, you can man
 {:start="6"}
 6\. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
 
-![](/img/target audience 6.png)
+![](/img/target-audience-3.png)
 
 {:start="7"}
 7\. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
@@ -112,7 +112,7 @@ Customer info is an Engagement Attribute, for more information on reporting this
 
 Time since registration is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
-![](/img/target audience 10.png)
+![](/img/target-audience-4.png)
 
 {:start="11"}
 11\. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
@@ -127,14 +127,14 @@ Balance is reported via the Customer Info Engagement Attribute, for more informa
 {: .notice}
 **Note:** if you have multiple currencies reported on your account, this rule will target the values you enter regardless of the currency. For example, a range of 20 to 30 will target balances of both USD 25 and EUR 25.
 
-![](/img/target audience 12.png)
+![](/img/target-audience-5.png)
 
 {:start="13"}
 13\. **Customer ID:** Target or exclude consumers by their current customer ID. Manually enter the list of IDs you would like to target by (multiple IDs can be entered in this section and if any of them apply to the consumer this condition will be applicable).
 
 Customer ID is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the relevant section in the Engagement Attributes guide on the Developer Community.
 
-![](/img/target audience 13.png)
+![](/img/target-audience-6.png)
 
 {:start="14"}
 14\. **Gender:** Target consumers according to their gender (male, female or other).
@@ -151,7 +151,7 @@ Store ZIP code is reported via the Customer Info Engagement Attribute, for more 
 
 Store number is reported via the Customer Info Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
-![](/img/target audience 16.png)
+![](/img/target-audience-7.png)
 
 ## Target consumers by keyword
 
@@ -170,7 +170,7 @@ Now you can extract keywords from your Google campaigns manually or you can impo
 3. To import a campaign from Google AdWords, select the relevant profile from the drop-down menu.
 4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by LiveEngage.
 
-![](/img/target audience 18.png)
+![](/img/target-audience-8.png)
 
 The Search Keyword Condition box lets you personalize the message for your customers. Even though Google makes it hard to extract the data, your customers will appreciate it when you serve them with the content they searched for in order to get to your website.
 
