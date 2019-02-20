@@ -40,8 +40,8 @@ LivePerson offers the following settings for restricting login options:
 
 LivePerson offers a number of security-related policies for the LiveEngage platform. This includes the ability to control each user’s password, and to enable restriction of user access to the system due to instances such as account inactivity, failed login attempts, IP address, and idle time.
 
-{: .notice} **  
-**Settings for security-related policies can be accessed and set by LivePerson employees only. 
+{: .notice}  
+Settings for security-related policies can be accessed and set by LivePerson employees only.
 
 ## Password policies
 
@@ -49,7 +49,7 @@ The password policy settings provide more flexibility to define policies that ma
 
 The following password policy options are available:
 
-### **Password length and formation**
+### Password length and formation
 
 * **Minimum number of characters**: The minimum number of characters allowed for a password. LiveEngage enforces a minimum number of 8 characters for each password.
 * **Maximum sequential characters**: The maximum number of characters with numerically or alphabetically ascending or descending character codes that can be used in consecutive order in the password. This restricts users from entering easily-guessed character sequences such as "abcd1234" in a password, even if it might satisfy other password policies. The range is from Unlimited to 9. If the Unlimited option is selected, the system will not validate the password for sequential character codes. LivePerson recommends setting the value of this option to 2.
@@ -58,13 +58,13 @@ The following password policy options are available:
 * **Number character required:** Defines whether the password must contain a number character.
 * **Special character required:** Defines whether the password must contain at least one character that is commonly referred to as a special character. Any of the following characters can be used as a special character: ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ \[ \\ \] ^ _ \` { | } \~.
 
-{: .notice} **  
-**LivePerson recommends setting a policy that enforces the use of at least two out of the three options mentioned above (e.g., Alpha character required + Number character required, or Alpha character required + Special character, etc.)
+{: .notice}  
+LivePerson recommends setting a policy that enforces the use of at least two out of the three options mentioned above (e.g., Alpha character required + Number character required, or Alpha character required + Special character, etc.)
 
 * **Allow username in password:** Enables users to enter passwords that are the same as or include the username. By default, this check box is selected, but LivePerson recommends that this check box should be cleared so that the system will not allow users to include the username in the password.
 * **Restrict commonly used password phrases:** Restricts passwords that include commonly used password phrases. LivePerson recommends that this option should be enabled.
 
-### **Password Duration**
+### Password duration
 
 * **Expires after number of days:** This forces users to change their passwords at regular intervals. The range is from Never to 120. If the Never option is selected, user passwords will never expire. By default, this value is set to 90 days. LivePerson recommends to change users’ passwords at least every 60 days.
 * **Notify users prior to expiration:** Notifies users via email that their password will expire in a specific number of days. You must select a number in the **Expires after number of days** parameter_._ The range is from Never to 14. If the Never option is selected, users will not be notified before their passwords expire.
@@ -72,7 +72,7 @@ The following password policy options are available:
 {: .notice}  
 Email notifications will be sent to users when their passwords are approaching the selected expiration dates. You can send notifications to the user’s registered email address as well as to a specific email address.
 
-* **Prevent using previous number of passwords:** The number of previous passwords which the system will prohibit the user from reusing as a new password. The range is from Never to 20. If the Never option is selected, then previous passwords can be reused. LivePerson recommends setting the value of this option to a minimum of 12.
+* **Prevent using previous number of passwords:** The number of previous passwords which the system will prohibit the user from reusing as a new password. The range is from never to 20. If the Never option is selected, then previous passwords can be reused. LivePerson recommends setting the value of this option to a minimum of 12.
 * **Maximum changes per day:** The number of times the password can be changed within a single 24-hour period. If the Unlimited option is selected, then there is no limit for the number of password changes per day. LivePerson recommends setting the value of this option to a maximum of 3.
 * **Apply policy to current passwords:** An option to apply these rules to existing passwords. If this option is not selected, the password rules will only apply when a user changes the password, or a new user is added to the system.
 
@@ -106,13 +106,13 @@ To modify the default email address, contact your Account Manager or LivePerson 
 
 ## Auto-disable agent policy
 
-Any agent that has not logged into LiveEngage within the number of days specified by the account's Auto-disable operator policy will be automatically disabled. If an account is disabled, all the agent's access privileges are revoked, but the agent is not removed from system, and the administrator can manually enable the account when required.
+Any agent that has not logged into LiveEngage within the number of days specified by the account's auto-disable operator policy will be automatically disabled. If an account is disabled, all the agent's access privileges are revoked, but the agent is not removed from system, and the administrator can manually enable the account when required.
 
 This policy is enabled by default, with the number of inactive days after which the agent will be disabled set to 180. This can be changed to any number between 1 and 365. LivePerson recommends setting the value of this option to 60.
 
 ## Idle user policy
 
-The idle user policy monitors user activity in the Agent Workspace and will, after a predetermined period of inactivity, log the user out of LiveEngage. If this policy is enabled, it will prevent an unauthorized user from using the Agent Workspace of an absent agent.
+The idle user policy monitors user activity in the agent workspace and will, after a predetermined period of inactivity, log the user out of LiveEngage. If this policy is enabled, it will prevent an unauthorized user from using the Agent Workspace of an absent agent.
 
 User activity is any mouse movement, mouse click or any keyboard activity in LiveEngage. Agent activity is limited to agent interaction with the computer only, and does not extend to the status of active chats. Any consumer-related actions are not considered as agent activity, for example if a consumer sends a message to the agent.
 
@@ -152,7 +152,7 @@ The following applies when the exclusive LivePerson administrator policy is:
 * Disabled: All LPA users defined in the system will have access to the account.
 * Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
 
-{: .notice}   
+{: .notice}  
 This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
 
 ## **LivePerson local administrator policy**
