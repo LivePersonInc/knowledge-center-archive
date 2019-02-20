@@ -11,23 +11,22 @@ date: 2019-01-22 13:58:55 +0000
 isNew: false
 
 ---
-Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in LiveEngage, we’ve created the **agent groups** capability.
+Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in LiveEngage, we’ve created the "agent groups" capability.
 
-LiveEngage includes a default group, called the **main group** that consists of all the users in LiveEngage configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
+LiveEngage includes a default group, called the "main group" that consists of all the users in LiveEngage configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
 
-Groups can be divided into **subgroups**. Any group that has subgroups is considered a parent group and the Main Group is always the highest parent group in the hierarchy.
+Groups can be divided into "subgroups." Any group that has subgroups is considered a parent group and the Main Group is always the highest parent group in the hierarchy.
 
 Each group can have a manager(s) who is capable of viewing the data of their group members and subgroups only. If no manager is assigned to the group, the manager of the group’s parent group is considered the manager of the subgroup and will be able to see its data. This allows managers to focus on their own responsibilities and better manage their teams. In large organizations, where connection centers are managed by different vendors, groups provide a more secure view, since each vendor can view the data of their own group and subgroups only.
 
 ![](/img/pasted image 0.png)
 
-_Group B’s managers can view the data of groups B, D and E only._
-
-_Group C’s managers can view group C data only._
+* Group B’s managers can view the data of groups B, D and E only.
+* Group C’s managers can view group C data only.
 
 ## Managing agent groups
 
-An Agent Group Manager can be either an Agent Manager or an Administrator. As an **agent group manager**, you can see data and run reports related to users that are assigned to your groups and subgroups. As an **administrator** who is also an Agent Group manager, you can also perform user management tasks such as creating and editing groups, subgroups and resetting passwords. To learn how to create and edit Agent Groups see the procedures below.
+An agent group manager can be either an Agent Manager or an administrator. As an agent group manager, you can see data and run reports related to users that are assigned to your groups and subgroups. As an administrator who is also an agent group manager, you can also perform user management tasks such as creating and editing groups, subgroups and resetting passwords. To learn how to create and edit agent groups see the procedures below.
 
 {: .notice}  
 Group managers who take conversations (i.e. their concurrency is greater than 0) must also be configured as members of a group.
@@ -73,7 +72,6 @@ The **Add group** button will be enabled once you select a parent group from the
    * Type the name of the user(s) you want to assign as a manager(s).
    * Add members to the group.
 
-       
      ![](/img/pasted image 0 (4).png)
 5. Click **save**. The Edit agent group window closes and the agent group list is displayed.
 6. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
