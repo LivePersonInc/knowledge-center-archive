@@ -26,30 +26,26 @@ It’s also possible for brands to create profiles - customized permissions sets
    * The nickname is the name that will be displayed to the visitors in the chat.
 3. Set a password with a minimum of eight (8) characters. Click **save**.
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
-
-   ![](/img/create-manage-users2.png)
-
-{: .Start"5"}  
-5\. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
-
-![](/img/ create-manage-users3.png)
+5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
+{; .sidebyside}
+![](/img/create-manage-users2.png)![](/img/ create-manage-users3.png)
 
 ### For users with an agent profile you’ll need to define additional settings:
 
 * Set the maximum number of chats that the user can accept at any given moment. Consider your agent’s capabilities, the number of agents available, etc.
 * If your brand is enabled with the messaging feature, set the maximum number of messaging conversation.
 
-  #### There are 2 options for this setting:
+#### There are 2 options for this setting:
 
-  a) You can set it to inherit it from the account level setting that can be configured through the footnote in the Users tab. Any change to the account level setting will impact all agents defined with setting.
+a) You can set it to inherit it from the account level setting that can be configured through the footnote in the Users tab. Any change to the account level setting will impact all agents defined with setting.
 
-  b) You can custom set it, meaning any change to the account level setting won’t change it for users set with the custom setting.
+b) You can custom set it, meaning any change to the account level setting won’t change it for users set with the custom setting.
 
-  For visitors to be routed to the appropriate agent when they initiate a chat, assign the user a skill:
+For visitors to be routed to the appropriate agent when they initiate a chat, assign the user a skill:
 
-  a) Select a skill from the menu by clicking the **skills** field and selecting an existing skill, or
+a) Select a skill from the menu by clicking the skills field and selecting an existing skill, or
 
-  b) Create a new skill by typing in the name of the skill in the **skills** field.
+b) Create a new skill by typing in the name of the skill in the skills field.
 
 {: .notice}  
 Agents who are not assigned to skills can only accept chats originated by engagements that are not assigned to skills.
