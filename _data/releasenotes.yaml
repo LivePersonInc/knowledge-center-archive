@@ -23,22 +23,12 @@
     - yearReleased: 2019
     - monthReleased: January
 
-- releasedate: January 13th 2019
+- releasedate: January 14th 2019
   details:
     - yearReleased: 2019
     - monthReleased: January
 
-- releasedate: December 23rd 2018
-  details:
-    - yearReleased: 2018
-    - monthReleased: December
-
 - releasedate: December 17th 2018
-  details:
-    - yearReleased: 2018
-    - monthReleased: December
-
-- releasedate: December 9th 2018
   details:
     - yearReleased: 2018
     - monthReleased: December
@@ -48,22 +38,47 @@
     - yearReleased: 2018
     - monthReleased: December
 
-- releasedate: November 23rd 2018
+- releasedate: November 29th 2018
   details:
     - yearReleased: 2018
     - monthReleased: November
-
-- releasedate: November 17th 2018
-  details:
-    - yearReleased: 2018
-    - monthReleased: November
-
-- releasedate: November 12th 2018
-  details:
-    - yearReleased: 2018
-    - monthReleased: November
-
+    
 - releasedate: November 5th 2018
   details:
     - yearReleased: 2018
     - monthReleased: November
+
+- releasedate: October 29th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: October
+
+- releasedate: October 22nd 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: October
+
+- releasedate: October 15th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: October
+
+- releasedate: October 8th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: October
+    
+- releasedate: September 24th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: September
+    
+- releasedate: September 17th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: September
+   
+- releasedate: September 9th 2018
+  details:
+    - yearReleased: 2018
+    - monthReleased: September
