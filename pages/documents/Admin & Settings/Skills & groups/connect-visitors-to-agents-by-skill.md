@@ -30,12 +30,12 @@ Agent skills are created in the user management area.
 5. Set the maximum wait time (in seconds) that you’re allowing your visitors to wait for agents with this skill. This ensures that your agents are fully occupied, yet not overextended, and that visitors won't wait longer than the maximum wait time.
 6. Click save.
 
-For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the pre-chat survey until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
+For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the [pre-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#pre-chat-survey) until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
 
 {: .notice}  
-You can also create a new skill within each user profile. See the section, [assigning skills to users.]()
+You can also create a new skill within each user profile. See the section, [assigning skills to users.](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#assigning-skills-to-users)
 
-### **Skill transfer list**
+## Skill transfer list
 
 Creating a transfer list per skill helps brands to define, for each skill, a list of other skills that the conversation can be transferred to.
 
@@ -48,7 +48,7 @@ By default, the checkbox under the section transfer to skills is selected, meani
 * A skill can always be transferred to itself and to other available agents assigned to the same skill.
 * Unchecking the checkbox will mean that conversations assigned to this skill will not be transferable to other skills (apart from the skill itself).
 
-### **Default surveys for skill change \[chat only\]**
+## Default surveys for skill change \[chat only\]
 
 Once an engagement has been clicked, a skill change may occur as a result of one of the following:
 
@@ -61,20 +61,20 @@ To avoid this situation, brands can configure the “default surveys - skill cha
 
 The following survey types are supported:
 
-* Post-chat survey
-* Agent survey
+* [Post-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#post-chat-survey)
+* [Agent survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#agent-survey)
 
 ![](/img/connectvis3 (1).png)
 
 {: .notice}  
-In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [Profiles (permissions)]().  
+In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)  
 Default survey data is reported on the relevant skill (after the change). The survey answers are visible in Report Builder.
 
 ## Assigning skills to users
 
 Users are assigned skills by selecting a skill that you have already created, or typing the name of a new skill, and assigning it to a particular user.
 
-### **To assign a skill to a user:**
+### To assign a skill to a user:
 
 1. In the users list, click the user’s name.
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
@@ -82,9 +82,9 @@ Users are assigned skills by selecting a skill that you have already created, or
 
 ![](/img/connectvis4 (1).png)
 
-## **Assigning skills to engagements**
+## Assigning skills to engagements
 
-### **To assign a skill to an engagement:**
+### To assign a skill to an engagement:
 
 Assign skills to engagements in the engagement studio, in the campaigns area.
 
@@ -93,7 +93,7 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 
 ![](/img/connectvis5 (1).png)
 
-{:Start="3"}
+{: .start="3"}
 
 1. Navigate to the engagement studio.
 2. Click the gear icon to open the settings menu.
