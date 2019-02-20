@@ -19,15 +19,15 @@ The dashboard reflects the current status of several metrics, including the foll
 * Queue health
 * Agent load and status
 * CSAT
-* [MCS]()
+* [MCS](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html)
 * Average response time
 
-**Please note:**
+Please note that the real time dashboard is:
 
-* Real time dashboard is currently a beta feature - users must agree to our data application beta terms of use upon login
-* The real time dashboard is available for both messaging and chat
-* The dashboard is API based and leverages the LivePerson open platform
-* The dashboard Includes both real time and the past 24 hours of data
+* Currently a beta feature - users must agree to our data application beta terms of use upon login
+* Available for both messaging and chat
+* API based and leverages the LivePerson open platform
+* Includes both real time and the past 24 hours of data
 * The refresh rate is approximately a minute and is not configurable
 
 ![](/img/real-time-messaging-dashboard-overview1.png)
@@ -68,7 +68,7 @@ There are three methods to login to the real time dashboard:
 
 4\. You will be redirected to a LiveEngage login page and can continue to login as normal
 
-5**.** You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
+5. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
 {: .notice}  
 If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
@@ -107,7 +107,8 @@ When in messaging mode, the current section displays metrics on open conversatio
 * **MCS - Positive**: the number of conversations with positive MCS
 * **MCS - Negative**: the number of conversations with negative MCS
 
-**Note:** _Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample, and the scope of calculation, can be modified via the Menu (see Additional Functions in this guide)._
+{: .notice}  
+Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample, and the scope of calculation, can be modified via the Menu (see Additional Functions in this guide).
 
 ### Current Section - chat mode (recently completed chats KPIs)
 
@@ -121,14 +122,13 @@ When in chat mode, the current section displays metrics on recently completed ch
 * **ABANDON RATE**: The number of visitors that abandoned the queue as a percentage of the total visitors that entered the queue (all Groups)
 * **AVG. TIME TO ABANDON**: The average time visitors spend in queue before abandon (all Groups)
 * **CONNECTED**: The number of visitors that were connected to an agent (all Groups)
-* __SERVICE LEVEL*__: Percentage of chats answered within SLA Threshold (set in main menu) (all Groups)
+* **SERVICE LEVEL**: Percentage of chats answered within SLA Threshold (set in main menu) (all Groups)
 * **OCCUPANCY**: Percentage of time spent actively engaged whilst in the online state
 * **AVG. TIME TO ANSWER**: The average time that a visitor spent in the queue before being connected to an agent (all Groups)
 * **AHT**: The average time spent handling the recently interactive chats
 
-_*Service Level threshold may be modified via the menu (see additional functions in this guide)  
-_  
-“Last hours” / “today from” section - messaging (closed conversations)
+{: .notice}  
+Service level threshold may be modified via the menu (see additional functions in this guide)
 
 ![](/img/RTMD6.png)
 
@@ -144,11 +144,11 @@ The metrics available in this section all relate to closed conversations only:
 * **Closed conversation graph**: see the distribution of closed conversations regarding how many conversations were closed by the consumer, agent or system
 * **CSAT**: average CSAT of closed conversations including how many CSAT surveys were answered
 * **Average resolution time**
-* **Response** __time*__: see definition from Current KPI section
-* __Assign to Response time*__: see definition from Current KPI section
-* __First Response time*__: see definition from Current KPI section
-* _First Assignment Time_: see definition from Current KPI section*
-* _Wait Time_: see definition from Current KPI section*
+* **Response** **time**: see definition from Current KPI section
+* **Assign to response time**: see definition from Current KPI section
+* **First response time**: see definition from Current KPI section
+* **First assignment time:** see definition from Current KPI section
+* **Wait time:__ see definition from Current KPI section*
 * **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
 **Note:** Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide).
@@ -165,8 +165,8 @@ This section provides data on all the agents that are currently logged in. You c
 
 The following metrics are available:
 
-* **Name**
-* **Image**
+* Name
+* Image
 * **Status time**: the amount of time that the agent has been in that status
 * **Open**: the number of open conversations that are assigned to the agent
 * **Active**: the number of open and assigned conversations are currently active
@@ -179,11 +179,11 @@ It is possible to view up to 30 agents per page. The default is set at 18. In or
 {: .notice}  
 In chat dashboard mode, agent summary status (i.e. Current Status) is not available.
 
-### Skills Section
+### Skills section
 
 ![](/img/real-time-messaging-dashboard-overview7.png)
 
-The skills section takes metrics from the Current and Closed Conversations sections and displays them in a skills table format. It is possible to see the skills next to one another. Compare the skills and see the distribution of the skills metrics.  You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
+The [skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html) section takes metrics from the current and closed conversations sections and displays them in a skills table format. It is possible to see the skills next to one another. Compare the skills and see the distribution of the skills metrics.  You can choose to view in either grid or card view, or export a snapshot to CSV (icons on the right).
 
 * **Open**: the number of open conversations are in that skill
 * **Unassigned:** the number of conversations unassigned and in queue
