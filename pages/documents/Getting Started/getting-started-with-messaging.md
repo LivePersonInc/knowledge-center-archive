@@ -18,9 +18,9 @@ To get started, access LivePerson using this link: [https://va-a.authentication.
 
 To get the most basic version of messaging up and running, brands need to insert a generic ‘message us’ button their website. Getting to the first message is simple and can be done through three steps:
 
-1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear.  See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
+1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear. See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
 2. Create users for the agents that will be taking the conversations. See how to [set up users](admin-settings-create-and-manage-users.html).
-3. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
+3. Once the code is up and an agent is logged into the system, they can begin to answer incoming conversations.
 
 {: .notice}
 The basic set up means there will be no routing - every agent will receive all messages
