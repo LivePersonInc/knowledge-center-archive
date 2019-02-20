@@ -188,15 +188,15 @@ Once authenticated, the brand uses the **application/x-www-form-urlencoded** for
 
 **Example of implicit flow response:**
 
-    	HTTP/1.1 302 Found  
+        HTTP/1.1 302 Found  
     	Location: https://client.example.org/cb#  
         	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
             cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4
             ........    
             4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
             6cQQWNiDpWOl_lxXjQEvQ
-            
-    
+		
+        
     {: .important}
     **Important:** ignore unrecognized response parameters.
     
