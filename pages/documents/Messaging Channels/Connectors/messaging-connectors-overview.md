@@ -59,7 +59,7 @@ With built-in features like Smart Capacity and Queue Prioritization, as well as 
 
 **Agent messaging tools** - Agents are empowered to handle interactions with a range of LiveEngage tools that both complement and enhance messaging operations, such as being able to proactively open a conversation, configure auto-accept for new messages and set conversations to auto-close after a configured time period.
 
-Centralized conversation history and reporting - Connector conversations are included in the All Connections list, meaning transcripts can be filtered and analyzed, and reporting and metrics easily evaluated. This makes it simple to report on all messaging channels together and compare results.
+**Centralized conversation history and reporting** - Connector conversations are included in the All Connections list, meaning transcripts can be filtered and analyzed, and reporting and metrics easily evaluated. This makes it simple to report on all messaging channels together and compare results.
 
 ### LivePerson provides reports that allow the brand to measure:
 
