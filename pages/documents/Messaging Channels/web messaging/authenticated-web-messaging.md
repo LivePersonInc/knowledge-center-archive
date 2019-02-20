@@ -165,8 +165,7 @@ On the brand's website URL, there is a **"redirect_uri"** parameter which contai
 
 **Code sample:**
 <br/>
-  `var urlParams = getUrlParams(window.location.search);
-window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode;`
+`var urlParams = getUrlParams(window.location.search); window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode;`
 
 ### **Configuring the login page redirect**
 
@@ -179,95 +178,93 @@ The login page is configurable with the following URL Parameters:
 <br/>
 The brand needs to register the redirect URL as a valid URL.
 
-**Example:** https://www.brand.com/authorize/client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]
+**Example:** https://www.brand.com/authorize/client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=\[visitorId\]
 
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 
 **Example of code flow response:**
 
-`	HTTP/1.1 302 Found  
-	Location: https://client.example.org/cb?    
-    	code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk`
+`HTTP/1.1 302 Found   	Location: https://client.example.org/cb?     	code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk`
 
 **Example of implicit flow response:**
 
-`	HTTP/1.1 302 Found  
-	Location: https://client.example.org/cb#  
-    	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
-        cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4
-        <br/>
-        ........    
-        4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
-        6cQQWNiDpWOl_lxXjQEvQ`
-
-{: .important}
-**Important:** ignore unrecognized response parameters.
-
-#### Error Responses
-
-QueryParams
-
-**Required:**
-
-| Parameter | Description | Type / Value |
-| --- | --- | --- |
-| error | Error code | Invalid_request, invalid_client, invalid_grant, unauthorized_client, unsupported_grant_type, invalid_scope |
-
-**Optional:**
-
-| Parameter | Description | Type / Value |
-| --- | --- | --- |
-| error _description | Description of the error | text |
-| error_uri | Error URL with additional info | URL |
-
-**Error Definitions**
-
-| Error | Description |
-| --- | --- |
-| invalid_request | The request is missing a required parameter, includes an unsupported parameter value (other than grant type), repeats a parameter, includes multiple credentials, utilizes more than one mechanism for authenticating the client, or is otherwise malformed. |
-| invalid_client | Client authentication failed (e.g., unknown client, no client authentication included, or unsupported authentication method). The authorization server MAY return an HTTP 401 (Unauthorized) status code to indicate which HTTP authentication schemes are supported. If the client attempted to authenticate via the "Authorization" request header field, the authorization server MUST respond with an HTTP 401 (Unauthorized) status code and include the "WWW-Authenticate" response header field matching the authentication scheme used by the client. |
-| invalid_grant | The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. |
-| unauthorized_client | The authenticated client is not authorized to use this authorization grant type. |
-| unsupported_grant_type | The authorization grant type is not supported by the authorization server. |
-| invalid_scope | The requested scope is invalid, unknown, malformed, or exceeds the scope granted by the resource owner. |
-
-## **Showing attributes for agents**
-
-[Engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace. Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
-
-EAs will be presented in the Agent Workspace in several areas:
-
-1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
-2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
-
-{: .notice} 
-
-To enable, please contact your LivePerson representative.
-
-## **Limitations and Tips**
-
-1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), LiveEngage will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
-2. If a user crosses between authenticated and unauthenticated pages within a single session, in some cases the wrong engagements may be displayed. This might cause the the user to click the wrong engagement and receive an error message saying “You are no longer logged in.”
-3. If the agent resumes the conversation when the consumer returns to the page, then the user will see the normal engagement for a new conversation rather than the minimized version of the window, which indicates that there are unread messages.
-4. If a separate browser window is required (e.g. if the browser blocks 3rd party cookies), when the user returns to the brand’s website and there is an open conversation, LE will attempt to open the previous conversation in a separate window, which will be blocked by the browser.
-5. If the JWT expires or if the consumer cleared their history, the agent will not be made aware and will still be able to answer or resume the conversation.
-6. When the user has an open authenticated conversation and then moves to an unauthenticated page, an error message will be shown, indicating to the user that the conversation can be resumed on the authenticated page.
-7. When the unauth page replaces the auth page (navigation on the same tab), the error message will show until the user clicks on “X”. When the user navigates back to the authenticated page, the window will show in the minimized mode.
-8. When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
-9. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
-
-## **Authenticated alongside unauthenticated**
-
-You may wish to have both authenticated as well as unauthenticated web messaging on your account. This allows web messaging users to transition seamlessly between authenticated and unauthenticated pages. This allows brands to service more use cases for web messaging.
-
-With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
-
-**Guidelines:**
-
-* Engagements should show only if the conversation can start. If the engagement requires authentication, it will show only on authenticated pages.
-* Only one conversation can be displayed on each page, either authenticated or unauthenticated.
-* Open conversations should continue when the consumer navigates to other pages of the same brand. Authenticated conversations will continue only on authenticated pages, while unauthenticated conversations will continue through both page types, and will not be associated with the logged in user.
-* When the consumer returns (after a defined period of time) to the brand page, and there’s an open conversation, the consumer should get a minimized version of the window. If the user has both authenticated and unauthenticated conversations open on that device and both can be resumed, the authenticated conversation will take priority. In that case, the consumer will be able to return to the unauthenticated conversation once the authenticated conversation ends, or the user logs out.
-
-<br/>
-To configure this feature, please contact your LivePerson Representative.
+    	HTTP/1.1 302 Found  
+    	Location: https://client.example.org/cb#  
+        	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
+            cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4
+            ........    
+            4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
+            6cQQWNiDpWOl_lxXjQEvQ
+            
+    
+    {: .important}
+    **Important:** ignore unrecognized response parameters.
+    
+    #### Error Responses
+    
+    QueryParams
+    
+    **Required:**
+    
+    | Parameter | Description | Type / Value |
+    | --- | --- | --- |
+    | error | Error code | Invalid_request, invalid_client, invalid_grant, unauthorized_client, unsupported_grant_type, invalid_scope |
+    
+    **Optional:**
+    
+    | Parameter | Description | Type / Value |
+    | --- | --- | --- |
+    | error _description | Description of the error | text |
+    | error_uri | Error URL with additional info | URL |
+    
+    **Error Definitions**
+    
+    | Error | Description |
+    | --- | --- |
+    | invalid_request | The request is missing a required parameter, includes an unsupported parameter value (other than grant type), repeats a parameter, includes multiple credentials, utilizes more than one mechanism for authenticating the client, or is otherwise malformed. |
+    | invalid_client | Client authentication failed (e.g., unknown client, no client authentication included, or unsupported authentication method). The authorization server MAY return an HTTP 401 (Unauthorized) status code to indicate which HTTP authentication schemes are supported. If the client attempted to authenticate via the "Authorization" request header field, the authorization server MUST respond with an HTTP 401 (Unauthorized) status code and include the "WWW-Authenticate" response header field matching the authentication scheme used by the client. |
+    | invalid_grant | The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. |
+    | unauthorized_client | The authenticated client is not authorized to use this authorization grant type. |
+    | unsupported_grant_type | The authorization grant type is not supported by the authorization server. |
+    | invalid_scope | The requested scope is invalid, unknown, malformed, or exceeds the scope granted by the resource owner. |
+    
+    ## **Showing attributes for agents**
+    
+    [Engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace. Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
+    
+    EAs will be presented in the Agent Workspace in several areas:
+    
+    1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
+    2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
+    
+    {: .notice} 
+    
+    To enable, please contact your LivePerson representative.
+    
+    ## **Limitations and Tips**
+    
+    1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), LiveEngage will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
+    2. If a user crosses between authenticated and unauthenticated pages within a single session, in some cases the wrong engagements may be displayed. This might cause the the user to click the wrong engagement and receive an error message saying “You are no longer logged in.”
+    3. If the agent resumes the conversation when the consumer returns to the page, then the user will see the normal engagement for a new conversation rather than the minimized version of the window, which indicates that there are unread messages.
+    4. If a separate browser window is required (e.g. if the browser blocks 3rd party cookies), when the user returns to the brand’s website and there is an open conversation, LE will attempt to open the previous conversation in a separate window, which will be blocked by the browser.
+    5. If the JWT expires or if the consumer cleared their history, the agent will not be made aware and will still be able to answer or resume the conversation.
+    6. When the user has an open authenticated conversation and then moves to an unauthenticated page, an error message will be shown, indicating to the user that the conversation can be resumed on the authenticated page.
+    7. When the unauth page replaces the auth page (navigation on the same tab), the error message will show until the user clicks on “X”. When the user navigates back to the authenticated page, the window will show in the minimized mode.
+    8. When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
+    9. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
+    
+    ## **Authenticated alongside unauthenticated**
+    
+    You may wish to have both authenticated as well as unauthenticated web messaging on your account. This allows web messaging users to transition seamlessly between authenticated and unauthenticated pages. This allows brands to service more use cases for web messaging.
+    
+    With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
+    
+    **Guidelines:**
+    
+    * Engagements should show only if the conversation can start. If the engagement requires authentication, it will show only on authenticated pages.
+    * Only one conversation can be displayed on each page, either authenticated or unauthenticated.
+    * Open conversations should continue when the consumer navigates to other pages of the same brand. Authenticated conversations will continue only on authenticated pages, while unauthenticated conversations will continue through both page types, and will not be associated with the logged in user.
+    * When the consumer returns (after a defined period of time) to the brand page, and there’s an open conversation, the consumer should get a minimized version of the window. If the user has both authenticated and unauthenticated conversations open on that device and both can be resumed, the authenticated conversation will take priority. In that case, the consumer will be able to return to the unauthenticated conversation once the authenticated conversation ends, or the user logs out.
+    
+    <br/>
+    To configure this feature, please contact your LivePerson Representative.
