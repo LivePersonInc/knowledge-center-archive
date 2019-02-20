@@ -17,7 +17,7 @@ Agents are trained to help visitors according to the business need.  An agent�
 
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
 
-Agent skills are created in the user management area.
+Agent skills are created in the user management area:
 ![](/img/connectvis1 (1).png)
 
 ## How to create a skill
