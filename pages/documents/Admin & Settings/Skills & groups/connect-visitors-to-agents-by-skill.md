@@ -33,7 +33,7 @@ Agent skills are created in the user management area.
 For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the [pre-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#pre-chat-survey) until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
 
 {: .notice}  
-You can also create a new skill within each user profile. See the section, [assigning skills to users.](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#assigning-skills-to-users)
+You can also create a new skill within each user profile.
 
 ## Skill transfer list
 
@@ -80,7 +80,7 @@ Users are assigned skills by selecting a skill that you have already created, or
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
 3. Click save.
 
-![](/img/connectvis4 (1).png)
+![](/img/connect-visitors-to-agents4-1.png)
 
 ## Assigning skills to engagements
 
@@ -94,8 +94,7 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 ![](/img/connectvis5 (1).png)
 
 {: .start="3"}
-
 1. Navigate to the engagement studio.
 2. Click the gear icon to open the settings menu.
 3. Select the skill that you want to assign to your current engagement.
-4. Click **publish**.
+4. Click publish.
