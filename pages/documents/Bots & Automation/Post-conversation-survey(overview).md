@@ -12,7 +12,7 @@ isNew: false
 date: 2019-02-18 13:54:54 +0000
 
 ---
-The post conversation survey Bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
+The post conversation survey bot (PCS) gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
 ![](/img/post-conversation-survey.gif)
 
@@ -251,7 +251,7 @@ Each kind of brick has its own design parameters associated with it and some ele
 The text and quick replies brick has two main design aspects that can be controlled through the Bot Studio:
 
 1. The design of the text within the buttons - color may be changed using the hexadecimal code
-2. The buttons layout and colors - the number of Quick Replies per row may be set as well as the buttons background and border colors.
+2. The buttons layout and colors - the number of quick replies per row may be set as well as the buttons background and border colors.
 
 ![](/img/post-conversation-survey11.png)
 
@@ -265,7 +265,7 @@ For more details on this please click the “Learn more” link located at the b
 
 ## The new PCS vs the old CSAT Survey
 
-On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new Post Conversation Survey, it is possible to keep both types of surveys working simultaneously with the following logic:
+On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
 * If both PCS and Old CSAT are enabled, PCS gets the priority and the old CSAT question won’t be displayed.
 * If the conversation ends on a device that doesn’t support PCS (for example an app running SDK v3.2 or lower) then the old CSAT question may appear, assuming it was configured to appear.
@@ -313,4 +313,4 @@ A: Unfortunately, Facebook doesn’t support sending structured content that has
 
 ### Q: Something has changed in my survey and I’m not sure who made the change. How can I find this out?
 
-A: The post conversation survey is tracked by Audit Trail. Go the Audit Trail section within LiveEngage and filter for “Post Conversation Survey”.
+A: The post conversation survey is tracked by Audit Trail. Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.
