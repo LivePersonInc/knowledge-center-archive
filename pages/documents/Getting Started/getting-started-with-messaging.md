@@ -27,11 +27,11 @@ The basic set up means there will be no routing - every agent will receive all m
 
 ## Customize your messaging program
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities. To ensure you are getting the most out of messaging, develop and set up your preferences in three areas:
+LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities. To ensure you are getting the most out of messaging, review how to [manage a contact center that messages](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html), and develop and set up your preferences in three areas:
 
 * **Customer experience:** design what consumers will see when they interact with your brand by customizing the [engagement window](contact-center-management-campaigns-engagement-window.html), including the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to receive and respond to incoming conversations.
-* **Agent experience**: Set up [agent experience](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) to ensure your reps are successful including [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-best-practices-for-messaging.html) and [custom widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html)
-* **Management & Operations**: Cost savings are a product of effective operations: set up all your skills and LOBs, routing, agent capacity, & queue priority
+* **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) to ensure your reps can easily and successfully communicate with consumers, including [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-best-practices-for-messaging.html) and [custom widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html).
+* **Management & operations**: set up [agent skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) and LOBs, [routing](contact-center-management-messaging-operations-routing-logic-overview.html), [agent capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), & [queue priority](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html).
 
 ## Step 1: Set up data for accurate tracking
 
