@@ -22,7 +22,8 @@ To get the most basic version of messaging up means you have to insert a generic
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
 
-{: .notice} The basic set up means there will be no routing - every agent will receive all messages
+{: .notice}
+The basic set up means there will be no routing - every agent will receive all messages
 
 ## Customize your messaging program
 
