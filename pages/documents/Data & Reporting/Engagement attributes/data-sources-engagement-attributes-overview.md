@@ -24,16 +24,20 @@ For brands operating in multiple currencies, a currency attribute can also be re
 * **Transaction:** The details of any exchange of money for goods or services including the products themselves and their details.
 
 {: .notice}
- For brands operating in multiple currencies, a currency attribute can also be reported for order total.
+
+For brands operating in multiple currencies, a currency attribute can also be reported for order total.
 * **Viewed product:** Use viewed product attributes to learn more about products that interest your visitor. Discover which products were viewed, their name, category, price, and SKU.
 
 {: .notice}
+
 For brands operating in multiple currencies, a currency attribute can also be reported for the viewed product price.
 
 Visitor information attributes track more details about where your visitors came from, the campaign that brought them to your website, or the affiliate they are associated with.
 
 * **Customer information:** Collect data about your registered visitors and their life-cycle status.  
+
 {: .notice}
+
 For brands operating in multiple currencies, a currency attribute can also be reported for the customer’s balance.
 * **Marketing source:** Get more details about the marketing source of your visitors. See which channel or campaign brought visitors to your site and identify which affiliates they are associated with.
 * **Personal info:** Allows you to collect personal information about visitors. You can pass login information from cookies or from questions you ask in your forms.
