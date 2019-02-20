@@ -3,9 +3,8 @@ pagename: Post conversation survey
 categoryName: Bots & automation
 subCategoryName: ''
 indicator: messaging
-subtitle: The Post Conversation Survey gives brands the ability to collect feedback
-  from consumers at the end of a conversation without utilizing the time of a human
-  agent
+subtitle: Collect feedback from consumers at the end of a conversation without utilizing
+  the time of a human agent
 level3: ''
 permalink: bots-automation-post-conversation-survey.html
 isTutorial: false
