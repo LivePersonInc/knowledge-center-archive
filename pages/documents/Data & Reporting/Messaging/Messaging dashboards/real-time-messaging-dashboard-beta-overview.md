@@ -19,16 +19,16 @@ The dashboard reflects the current status of several metrics, including the foll
 * Queue health
 * Agent load and status
 * CSAT
-* MCS
+* [MCS]()
 * Average response time
 
 **Please note:**
 
 * Real time dashboard is currently a beta feature - users must agree to our data application beta terms of use upon login
 * The real time dashboard is available for both messaging and chat
-* The dashboard is API based and leverages the LivePerson open platform.
-* The dashboard Includes both real time and the past 24 hours of data.
-* The refresh rate is approximately a minute and is not configurable.
+* The dashboard is API based and leverages the LivePerson open platform
+* The dashboard Includes both real time and the past 24 hours of data
+* The refresh rate is approximately a minute and is not configurable
 
 ![](/img/real-time-messaging-dashboard-overview1.png)
 
