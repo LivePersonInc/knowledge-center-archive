@@ -9,7 +9,6 @@ permalink: messaging-channels-web-messaging-authenticated-web-messaging.html
 isTutorial: false
 date: 2019-01-17 11:31:46 +0000
 isNew: false
-published: false
 
 ---
 The following document guides you through creating authenticated web messaging.  To complete your web messaging program, you may also use:
