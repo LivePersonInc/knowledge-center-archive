@@ -70,14 +70,14 @@ Read more about [creating buttons and banners](contact-center-management-campaig
     * Photo sharing (consumer to agent)
     * Structured content (cards, carousels, lists)
 
-**3. Add bots**:  Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. [Learn how you can easily create bots](getting-started-getting-started-with-bots.html).
+**3. Add bots**:  Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
 
 **4. Secure forms**: you can take payments or verify secure identities of customers using  PCI compliant [secure forms](security-regulations-secure-forms-secure-forms-for-chat-user-guide.html) within the conversation window.
 
 ## Step 4: Define the agent experience
 
-1. **Predefined answers**: create or import a database of answers that your agents can quickly enter into the conversation, saving them valuable typing time. These can be defined by skill and by language.
-2. **Custom agent tools**: within the agent workspace, ‘widgets’ contain additional tools, webpages or applications that agents can use during the conversation.  The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
+1. **Predefined answers**: create or import a database of [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
+2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [**widgets**](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
 3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’.  These status affect the flow of new incoming conversations to the agents.  You can customize the states agents can choose from to get better granularity on agent time reporting - e.g. create an away state for training.
 4. **Configure Cobrowse**: For high touch conversations, agents can connect to customers screens and conduct a Cobrowse session.  Administrators can define and determine which agents have this capability.
 5. **Agent guide**: Get your agent trained on how to take messages.  Note that agent training should include your business processes as well as best practices for conducting conversations.  LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, visit the LivePerson University or contact your account team for specialized training.
