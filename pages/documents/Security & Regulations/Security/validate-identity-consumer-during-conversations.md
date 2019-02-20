@@ -37,27 +37,21 @@ The agent clicks the ID&V button in the agent workspace, and then completes the 
 {: .notice}  
 The agent must complete all the required fields before the form can be sent to the visitor.
 
-![](/img/Validate-identity-consumers-during-conversations2.png)
-
-{:Start="2"}  
-2\.  A dialog with the message: “Enter characters ___ and ___  from your ___ ” is displayed to the visitor in the chat transcript, along with both submit and cancel buttons.
+A dialog with the message: “Enter characters ___ and ___  from your ___ ” is displayed to the visitor in the chat transcript, along with both submit and cancel buttons.
 
 ![](/img/Validate-identity-consumers-during-conversations3.png)
 
-{:Start="3"}
-
-3\.  Once the visitor clicks Submit, the data is sent to the agent. If the visitor clicks Cancel, they are returned to the chat and no data is sent.
+Once the visitor clicks submit, the data is sent to the agent. If the visitor clicks cancel, they are returned to the chat and no data is sent.
 
 {: .notice}  
 If the visitor cancels the request, the agent receives a message indicating that the visitor closed the dialog and that an answer should not be expected. To get the ID&V information, the agent must resend the ID&V question.
 
-4\.  The agent receives a notification indicating which information was submitted by the visitor, for example, Visitor entered: 2 and 4.
+The agent receives a notification indicating which information was submitted by the visitor, for example, visitor entered: 2 and 4.
 
 ![](/img/Validate-identity-consumers-during-conversations4-1.png)
 
-{:Start="5"}  
-5\. The data is displayed as masked in the visitor transcript and in the database.
+The data is displayed as masked in the visitor transcript and in the database.
 
 ### Setting up the ID&V Solution
 
-To set up the ID&V solution on your account, please contact LivePerson Support.
+To set up the ID&V solution on your account, please contact LivePerson support.
