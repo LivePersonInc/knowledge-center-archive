@@ -58,9 +58,9 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 1. **Define the look, feel and behavior of chat buttons and windows:** LivePerson [campaigns](contact-center-management-campaigns-campaigns-overview.html) provide brands with ability to define many aspects of the chat's look and feel, as well as the behavior of website buttons, including:
    * Chat button look and feel
-   * Chat window look and fee
+   * Chat window look and feel
    * Rules to trigger button appearance on web pages
-   * Surveys
+   * [Surveys](contact-center-management-live-chat-operations-surveys-with-live-chat.html)
    * Proactive invitations
 
 Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in campaigns.
@@ -72,9 +72,9 @@ Read more about [creating buttons and banners](contact-center-management-campaig
 
 **3. Add bots**:  Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. [Learn how you can easily create bots](getting-started-getting-started-with-bots.html).
 
-**4. Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+**4. Secure forms**: you can take payments or verify secure identities of customers using  PCI compliant [secure forms](security-regulations-secure-forms-secure-forms-for-chat-user-guide.html) within the conversation window.
 
-## Step 4: Define the  agent experience
+## Step 4: Define the agent experience
 
 1. **Predefined answers**: create or import a database of answers that your agents can quickly enter into the conversation, saving them valuable typing time. These can be defined by skill and by language.
 2. **Custom agent tools**: within the agent workspace, ‘widgets’ contain additional tools, webpages or applications that agents can use during the conversation.  The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
