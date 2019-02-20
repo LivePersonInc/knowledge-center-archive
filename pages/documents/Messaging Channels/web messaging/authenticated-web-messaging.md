@@ -188,16 +188,13 @@ Once authenticated, the brand uses the **application/x-www-form-urlencoded** for
 
 **Example of implicit flow response:**
 
-```
-HTTP/1.1 302 Found  
-Location: https://client.example.org/cb#  
-  	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
-      cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4
-      ........    
-      4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
-      6cQQWNiDpWOl_lxXjQEvQ
-```
-
+    HTTP/1.1 302 Found  
+    Location: https://client.example.org/cb#  
+      	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
+          cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4
+          ........    
+          4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
+          6cQQWNiDpWOl_lxXjQEvQ
 
 {: .important}
 **Important:** ignore unrecognized response parameters.
@@ -268,5 +265,4 @@ With the new Identity function, LiveEngage Monitoring Services will decide on ea
 * Open conversations should continue when the consumer navigates to other pages of the same brand. Authenticated conversations will continue only on authenticated pages, while unauthenticated conversations will continue through both page types, and will not be associated with the logged in user.
 * When the consumer returns (after a defined period of time) to the brand page, and there’s an open conversation, the consumer should get a minimized version of the window. If the user has both authenticated and unauthenticated conversations open on that device and both can be resumed, the authenticated conversation will take priority. In that case, the consumer will be able to return to the unauthenticated conversation once the authenticated conversation ends, or the user logs out.
 
-<br/>
-To configure this feature, please contact your LivePerson Representative.
+<br/> To configure this feature, please contact your LivePerson representative.
