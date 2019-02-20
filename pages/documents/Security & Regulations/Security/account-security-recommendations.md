@@ -45,7 +45,7 @@ Settings for security-related policies can be accessed and set by LivePerson emp
 
 ## Password policies
 
-The password policy settings provide more flexibility to define policies that match your corporate security requirements. Your Account Manager can help you set policy rules for passwords that apply to all users on LiveEngage. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals.
+The password policy settings provide more flexibility to define policies that match your corporate security requirements. Your account manager can help you set policy rules for passwords that apply to all users on LiveEngage. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals.
 
 The following password policy options are available:
 
@@ -56,8 +56,8 @@ The following password policy options are available:
 * **Maximum occurrences of same character**: The maximum number of times that the same character can be used in a password. The range is from Unlimited to 9. If the Unlimited option is selected, the system will _not_ validate the password for how many times any specific character is used. LivePerson recommends setting the value of this option to 2.
 * **Alpha character required:** Defines whether the password must contain an alphabetic character.
 * **Number character required:** Defines whether the password must contain a number character.
-* **Special character required:** Defines whether the password must contain at least one character that is commonly referred to as a special character. Any of the following characters can be used as a special character: 
-'! " # $ % & ' ( ) * + , - . / : ; < = > ? @  \\ ^ _ \` { | } \~\'
+* **Special character required:** Defines whether the password must contain at least one character that is commonly referred to as a special character. Any of the following characters can be used as a special character:
+  '! " # $ % & ' ( ) * + , - . / : ; < = > ? @  \\ ^ _ \` { | } \~'
 
 {: .notice}  
 LivePerson recommends setting a policy that enforces the use of at least two out of the three options mentioned above (e.g., Alpha character required + Number character required, or Alpha character required + Special character, etc.)
@@ -79,7 +79,7 @@ Email notifications will be sent to users when their passwords are approaching t
 
 ## IP policy
 
-The IP policy restricts login access to LiveEngage, providing enhanced security and control. Login access is restricted to a specified list of IP addresses. If the user’s IP address does not belong to the IP address list, then the user will not be able to log in, and a message is displayed. You can request for your LivePerson Account Manager to enable or disable the IP policy.
+The IP policy restricts login access to LiveEngage, providing enhanced security and control. Login access is restricted to a specified list of IP addresses. If the user’s IP address does not belong to the IP address list, then the user will not be able to log in, and a message is displayed. You can request for your LivePerson account manager to enable or disable the IP policy.
 
 Please note:
 
@@ -103,7 +103,7 @@ If a user’s account is already disabled for any reason other than failed login
 When a password is reset through the Secure Password Reset feature, a notification email is sent indicating the login name of the user and the date and time that the password was changed. This notification will be sent to the default email address.
 
 {: .notice}  
-To modify the default email address, contact your Account Manager or LivePerson Technical Support.
+To modify the default email address, contact your account manager or LivePerson technical support.
 
 ## Auto-disable agent policy
 
@@ -154,7 +154,7 @@ The following applies when the exclusive LivePerson administrator policy is:
 * **Enabled:** Only LPA users that have been personally selected, qualified and approved will have access to your account.
 
 {: .notice}  
-This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
+This is an optional feature that is available on request and can be set by your account manager or LivePerson technical support.
 
 ## LivePerson local administrator policy
 
@@ -163,4 +163,4 @@ This policy enables a LivePerson administrator to have the same access permissio
 Only approved LivePerson administrators can gain local administrator access to your account.
 
 {: .notice}  
-Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your account Manager.
+Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your account manager.
