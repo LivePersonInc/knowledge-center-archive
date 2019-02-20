@@ -11,24 +11,24 @@ isNew: false
 date: 2019-01-23 11:39:47 +0000
 
 ---
-our agents are trained to help visitors according to your business needs.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they are routed to the first available sales agent.
+Agents are trained to help visitors according to the business need.  An agent’s area of expertise is referred to as a skill. For example, you can create the skill "sales" for agents who are sales representatives. When visitors click an engagement assigned to sales, they will then be routed to the first available sales agent.
+
+## Creating and assigning skills
 
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
-
-## **Creating skills**
 
 ![](/img/connectvis1 (1).png)
 
 Agent skills are created in the user management area.
 
-**To create a skill:**
+## How to create a skill
 
 1. From the users page, click on the skills tab to view the skills list.
-2. Click **add skill.**
+2. Click add skill.
 3. The add skill dialog box will be open.
 4. Name the new skill and type in a description.
 5. Set the maximum wait time (in seconds) that you’re allowing your visitors to wait for agents with this skill. This ensures that your agents are fully occupied, yet not overextended, and that visitors won't wait longer than the maximum wait time.
-6. Click **Save**.
+6. Click save.
 
 For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the pre-chat survey until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
 

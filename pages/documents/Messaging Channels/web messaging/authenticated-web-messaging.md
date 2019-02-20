@@ -182,16 +182,21 @@ The brand needs to register the redirect URL as a valid URL.
 
 **Example:** https://www.brand.com/authorize/client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]
 
-<br/>
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 
 **Example of code flow response:**
-
-    HTTP/1.1 302 Found  Location: https://client.example.org/cb?    code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk
+`	HTTP/1.1 302 Found  
+	Location: https://client.example.org/cb?    
+    	code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk`
 
 **Example of implicit flow response:**
-
-      HTTP/1.1 302 Found  Location: https://client.example.org/cb#    id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz    cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4    ........    4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    6cQQWNiDpWOl_lxXjQEvQ
+`	HTTP/1.1 302 Found  
+	Location: https://client.example.org/cb#  
+    	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
+        cyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4 
+        ........    
+        4XB1CKKumZvCedgHHF3IAK4dVEDSUoGlH9z4pP_eWYNXvqQOjGs-rDaQzUHl    
+        6cQQWNiDpWOl_lxXjQEvQ`
 
 {: .important}
 **Important:** ignore unrecognized response parameters.
