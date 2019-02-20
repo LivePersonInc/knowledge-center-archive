@@ -8,10 +8,10 @@ subtitle: 'Conversation outcomes allows agents to add insight about the conversa
 level3: ''
 permalink: data-reporting-report-builder-conversation-outcomes.html
 isTutorial: false
-date: 2019-01-20 11:22:45 +0200
+date: 2019-01-20 09:22:45 +0000
 
 ---
-LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using Conversation Outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.  
+LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.  
 The tools include:
 
 **Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.
@@ -26,7 +26,7 @@ Conversion reporting on sales transactions, lead generation and service activiti
 
 ## Setting up conversation outcomes
 
-There are three types of engagement attributes that agents can report on:
+There are three types of [engagement attributes]() that agents can report on:
 
 | Engagement attributes | Data category | Available properties |
 | --- | --- | --- |
@@ -40,19 +40,19 @@ To enable this feature:
 
 1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page.
 
-   ![](/img/convoutcomes1.png)
+   ![](/img/conversation-outcomes1.png)
 
    {:start="2"}
-2.  In the footnote, click Data Sources. The Data Sources page is displayed.
+2. In the footnote, click Data Sources. The Data Sources page is displayed.
 
-![](/img/convoutcomes2.png)
+   ![](/img/conversation-outcomes2.png)
 
 {:start="3"}  
 3\. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
 
 4\. Click submit by agent.
 
-![](/img/convoutcomes3.png)
+![](/img/conversation-outcomes3.png)
 
 {:start="5"}  
 5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
@@ -78,8 +78,6 @@ The conversation summary widget includes the following sections:
 {: .notice}  
 If no engagement attributes are enabled, the conversation outcomes section is not displayed.
 
-To report on a business activity or conversation outcome, the agent should enter the data in the relevant engagement attribute properties and click submit. The data reported by the agent can then be used to track conversions / goals.
+To report on a business activity or conversation outcome, the agent should enter the data in the relevant engagement attribute properties and click submit. The data reported by the agent can then be used to track conversions / goals. Information can be submitted up to half an hour after the chat is closed.
 
-{: .notice}  
-Information can be submitted up to half an hour after the chat is closed.  
-![](/img/convoutcomes4.png)
+![](/img/conversation-outcomes4.png)

@@ -15,19 +15,21 @@ To get started, access LivePerson using this link: [https://va-a.authentication.
 
 ## Get to the first live chat message
 
-To get the most basic version of live chat up means you have a generic ‘chat’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
+To get the most basic version of live chat up means you have to insert a generic ‘chat’ button into your website. Getting to the first message is simple and can be done in three steps:
 
-1. Your developers or website administrator need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website.  For instructions on how to get the code, [click here.](getting-started-add-the-liveperson-tag-to-your-website.html)
-2. Create users for the agents that will be taking the conversations.  To learn how to set up users, [click here](admin-settings-create-and-manage-users.html).
-3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
+1. Your website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like chat to appear.  See instructions on how to[ insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
+2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
+3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
+
+{: .notice} The basic set up means there will be no routing - every agent will receive all messages
 
 ## Customize your chat program
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
 
-* **Customer experience:** design what your consumers will see when they interact with when [adding live chat window](messaging-channels-live-chat-add-live-chat-to-your-website.html) to your website, including designing the banners, buttons and automatic text. [Add bots and automation](getting-started-getting-started-with-bots.html) to be the first to answer.
-* **Agent experience**: Set up [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps are successful including predefined content and custom widgets.
-* **Management & operations**: Cost savings are a product of effective operations: set up all your [skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) and LOBs, routing, agent capacity, and [queue priority](contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html).
+* **Customer experience:** design what your consumers will see when they interact with your brand by [adding a live chat window](messaging-channels-live-chat-add-live-chat-to-your-website.html) to your website. Customize the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to be the first to respond to incoming conversations.
+* **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including predefined content and custom widgets.
+* **Management & operations**: set up all agents [skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) and LOBs, routing, agent capacity, and [queue priority](contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html).
 
 This guide will provide a checklist for actions you can take for each of the above areas.
 
@@ -50,7 +52,7 @@ In addition to [adding the LivePerson tag](getting-started-add-the-liveperson-ta
    * **Groups/LOB**: [set up groups or lines of business](contact-center-management-campaigns-campaign-settings.html) to reflect how your contact center is organized. These will reflect in your reporting, as well as enable filtering for agents and managers to only see conversations and data relevant to them.
    * **Permissions**: [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone**: [set up the timezone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
-   * **Languages**: [setup the language](admin-settings-supported-languages.html) for Agent Workspace.  
+   * **Languages**: [setup the language](admin-settings-supported-languages.html) for Agent Workspace.
 
 ## Step 3: Design the customer experience
 
