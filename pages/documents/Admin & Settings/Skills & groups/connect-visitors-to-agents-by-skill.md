@@ -32,9 +32,9 @@ Agent skills are created in the user management area:
 For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the [pre-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#pre-chat-survey) until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
 
 {: .notice}  
-You can also create a new skill within each user profile.
+You can also create a new skill within each user profile. See assigning skills to users
 
-## Skill transfer list
+## Skills transfer list
 
 Creating a transfer list per skill helps brands to define, for each skill, a list of other skills that the conversation can be transferred to.
 
