@@ -11,13 +11,13 @@ isTutorial: false
 date: 2019-01-15 13:14:02 +0000
 
 ---
-## Reporting for Post Conversation Survey
+## Reporting for post conversation survey
 
 The post conversation survey enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
 
 Brands can customize the survey to their needs, including predefined questions (CSAT, NPS and FCR), custom questions and free text, as well as the ability to determine the logic between the questions.
 
-The results of the surveys can be analyzed in real time using the messaging interactions API or by historical data in Report Builder.
+The results of the surveys can be analyzed in real time using the [messaging interactions API ](https://developers.liveperson.com/messaging-interactions-api-overview.html)or by historical data in [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
 
 ## Report Builder
 
