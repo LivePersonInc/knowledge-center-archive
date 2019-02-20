@@ -74,12 +74,12 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 ## Step 4: Design the customer experience
 
-1. **Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over messaging. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
-   * Photo sharing (consumer to agent)
-   * Structured content (cards, carousels, lists)
-   * Time picker
+1. **Rich Messaging**: enhancing the conversation is crucial to enable agents to handle more types of inquiries and actions over messaging. Beyond regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
+   * [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html) (consumer to agent)
+   * [Structured conten](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html)t (cards, carousels, lists)
+   * Time picker [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html)
 
-   See the rich messaging comparison grid for detailed information on what is available per messaging 	channel.
+     See the rich messaging comparison grid for detailed information on what is available per messaging channel.
 
 {:start="2"}
 
