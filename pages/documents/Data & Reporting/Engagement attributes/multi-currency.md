@@ -31,13 +31,11 @@ When reporting on revenue and transactions, LiveEngage checks whether an account
 
 ![](/img/multi-currency1.png)
 
-A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the Report Builder.
+A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
 
 ![](/img/Multi-currency2.png)
 
-For further information on the Report Builder, read[ Report Builder overview](data-reporting-report-builder-report-builder-overview.html)
-
-### How to report multi currency on your account
+## How to report multi currency on your account
 
 No enablement is required for multi currency; it is automatically available to all accounts.
 
@@ -46,12 +44,12 @@ No enablement is required for multi currency; it is automatically available to a
 
 For further information on configuring engagement attributes, read the[ Engagement Attributes Overview.](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
 
-{_: ._notice}  
+{: .notice}  
 For brands who do not report the “currency” attribute using engagement attributes, the “default” currency is reported. The existing account default currency will not change when currency attributes are added.
 
 ![](/img/multi-currency3.png)
 
-### How to change your default currency
+## How to change your default currency
 
 1. In the campaigns footnote, next to default currency, **click edit.**
 2. Find the default currency you wish to use on the account.
