@@ -1,4 +1,29 @@
-- releasedate: January 7th 2019
+- releasedate: February 18th 2019
+  details:
+    - yearReleased: 2019
+    - monthReleased: February
+
+- releasedate: February 11th 2019
+  details:
+    - yearReleased: 2019
+    - monthReleased: February
+
+- releasedate: February 4th 2019
+  details:
+    - yearReleased: 2019
+    - monthReleased: February
+
+- releasedate: January 28th 2019
+  details:
+    - yearReleased: 2019
+    - monthReleased: January
+
+- releasedate: January 20th 2019
+  details:
+    - yearReleased: 2019
+    - monthReleased: January
+
+- releasedate: January 13th 2019
   details:
     - yearReleased: 2019
     - monthReleased: January
@@ -8,7 +33,7 @@
     - yearReleased: 2018
     - monthReleased: December
 
-- releasedate: December 16th 2018
+- releasedate: December 17th 2018
   details:
     - yearReleased: 2018
     - monthReleased: December
