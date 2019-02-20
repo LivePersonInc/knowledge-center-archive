@@ -114,7 +114,7 @@ Similar to the brand level answers distribution, this panel lists every configur
 
 ### Panel 4: survey level analysis
 
-Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey?, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
+Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
 {: .notice}   
 The values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
@@ -282,8 +282,8 @@ Report Builder offers the option to export the survey results data into a MS Exc
 2. Unhide 'answer count' attribute:
 3. On the DASHBOARD DATASETS panel at the left side of the screen, click on the down arrow on the right corner of the panel
 4. Select ‘show hidden objects’
-5. Under ‘survey answers (agent and Skill)’, check the checkbox next to ‘ANSWER VALUE’ and click OK
-6. On the ‘Survey Data Export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
+5. Under ‘survey answers (agent and skill)’, check the checkbox next to ‘ANSWER VALUE’ and click OK
+6. On the ‘survey data export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
 7. Drag into the visualization the following metrics and attributes:
 
    **![](/img/post-conversation-survey.png)Attributes:**
@@ -293,6 +293,6 @@ Report Builder offers the option to export the survey results data into a MS Exc
    * Question Name
    * Answer value - the submitted answer
 
-**Metrics:** Answer count (Agent and Skill) - the number of times the answer was submitted
+**Metrics:** Answer count (agent and skill) - the number of times the answer was submitted
 
 Export the data into excel by clicking on the down arrow at the top right corner of the visualization, selecting ‘Export’ and ‘Excel’. Now you can use your own formula to calculate the percentage of positive answers submitted out of the totals answers submitted
