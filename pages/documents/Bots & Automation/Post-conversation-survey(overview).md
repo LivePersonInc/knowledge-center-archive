@@ -263,7 +263,7 @@ For mobile app messaging, the window customization is conducted via parameters w
 
 For more details on this please click the “Learn more” link located at the bottom of the design tab.
 
-## The new PCS vs the old CSAT Survey
+## The new PCS vs the old CSAT survey
 
 On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
