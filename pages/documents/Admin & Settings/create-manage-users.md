@@ -27,6 +27,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 3. Set a password with a minimum of eight (8) characters. Click **save**.
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
+
 {; .sidebyside}
 ![](/img/create-manage-users2.png)![](/img/ create-manage-users3.png)
 
@@ -83,8 +84,8 @@ When duplicating a user, the administrator will still need to complete the follo
 2. Click the action menu and select delete.
 3. Click delete to confirm.
 
-   {: .notice}  
-   Before deleting a user, we recommend first ensuring that the agent doesn't own any open conversations (if so, these conversations should be transferred to the queue) and that they are not logged in.
+{: .notice}  
+Before deleting a user, we recommend first ensuring that the agent doesn't own any open conversations (if so, these conversations should be transferred to the queue) and that they are not logged in.
 
 Once a user has been deleted, it will still be possible to view their conversations in the conversations list (Open Connections, All Connections and Web History).
 
@@ -101,13 +102,14 @@ Users can make the following configurations in bulk (up to 1,000 users at a time
 
 1. Select the users you wish to make the changes to. You can select users individually, or you can select the checkbox in the top left corner to select all users on a page.
 
-   {: .notice}  
-   Users can be selected from multiple pages by selecting individual users or all users from each page.
+{: .notice}  
+Users can be selected from multiple pages by selecting individual users or all users from each page.
 2. From the action menu, you can select one of the following actions to apply changes to all selected users:
 
-   a) Set concurrency - leaving a field blank in the concurrency settings box will mean the current settings will be retained.
+a) Set concurrency - leaving a field blank in the concurrency settings box will mean the current settings will be retained.
 
-   b) Assign skills - in cases where the selected users share common skill(s), the shared skill(s) will appear in the skill selection field.
+b) Assign skills - in cases where the selected users share common skill(s), the shared skill(s) will appear in the skill selection field.
+
 3. Once you have made the changes to the settings, click save. The changes will be applied to all selected users.
 
 {: .notice}  
