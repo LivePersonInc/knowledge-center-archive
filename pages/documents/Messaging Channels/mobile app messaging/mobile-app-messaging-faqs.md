@@ -8,17 +8,18 @@ level3: ''
 permalink: messaging-channels-mobile-app-messaging-mobile-app-messaging-faqs.html
 isTutorial: false
 date: 2019-01-17 12:48:01 +0000
+isNew: false
 
 ---
 ## Configuring Messaging
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
-The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our[ developer community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
+The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
 
-### Q**: Is there a test environment to explore the set-up before implementing the program?**
+### Q: Is there a test environment to explore the set-up before implementing the program?
 
- LivePerson can provide sample apps (iOS + Android) which can be used for code samples and to explore our features. In order to get the sample apps, please contact your account team.
+LivePerson can provide sample apps (iOS + Android) which can be used for code samples and to explore our features. In order to get the sample apps, please contact your account team.
 
 ### Q: Can the look and feel of the conversation window be customized?
 
@@ -49,13 +50,13 @@ Yes, the SDK can send push notifications. Please refer to the following guides f
 
 ### Q: How does the SDK ensure that sensitive information is transmitted to consumers securely?
 
- Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the LiveEngage messaging SDK was designed with the strictest security measures.
+Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the LiveEngage messaging SDK was designed with the strictest security measures.
 
 For more details, please refer to the /LiveEngage-Messaging-Platform-Security-Overview.html
 
 ### Q: Does the consumer have to initiate the first conversation?
 
- Yes. In order to start a connection a consumer must initiate the first message.  Once a connection is established, the agent can resume the conversation at any time.
+Yes. In order to start a connection a consumer must initiate the first message.  Once a connection is established, the agent can resume the conversation at any time.
 
 ### Q: Are automated messages available?
 
@@ -67,7 +68,7 @@ Starting with our In-app Messaging SDK v3.1 (March 2018), brands can use LivePer
 
 ### Q: Can a consumer initiate a conversation if they have not been authenticated?
 
- Yes. You can add messaging to both authenticated as well as unauthenticated areas of your app.
+Yes. You can add messaging to both authenticated as well as unauthenticated areas of your app.
 
 ### Q: What is the _maximum supported message length_ a consumer or an agent can send? Can these limits be configured?
 
@@ -81,7 +82,7 @@ Limits for message length cannot be configured. The maximum supported length of 
 
 ### Q: For how long can a customer access the history of a conversation?
 
-By default consumers can load upto 13 months of conversations history. (starting with SDK v3.1) Each brand can choose which conversations to present to the consumer in the conversation window by date and\\or by status.  
+By default consumers can load upto 13 months of conversations history. (starting with SDK v3.1) Each brand can choose which conversations to present to the consumer in the conversation window by date and\\or by status.
 
 ### Q: How does the communication work?
 
@@ -89,9 +90,9 @@ Brands customize and deploy LiveEngage messaging SDK within their app and choose
 
 ### Q: Can brands control the circumstances in which the messaging button is available for consumers based on active open conversations in queue?
 
- The SDK does not control the availability of UI elements inside the brand’s app. The brand needs to decide when to present engagement buttons.
+The SDK does not control the availability of UI elements inside the brand’s app. The brand needs to decide when to present engagement buttons.
 
-###  Q: Can agents automatically mark conversations as “Resolved” without notifying the consumer of the conversation’s status?
+### Q: Can agents automatically mark conversations as “Resolved” without notifying the consumer of the conversation’s status?
 
 The customer survey can be disabled, but the “Message has been closed.” notification will still appear in the consumer’s messaging window.  The consumer can resume the conversation at any time by simply sending their agent a new message.
 
@@ -103,7 +104,7 @@ No installation or plug-ins are required as the LiveEngage Platform is HTML/Java
 
 ### Q: What reports are available?
 
- Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
+Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
 
 ### Q: What aspects of customer history are tracked?
 
@@ -111,7 +112,7 @@ LiveEngage tracks all customer conversation transcripts. Tracked information inc
 
 ### Q: Can agents take messaging conversations and live chats at the same time?
 
-We strongly recommend using dedicated agents for messaging.  Operationally, messaging is a unique entity.  Jumping between live chats and messaging can be confusing and can result in a higher risk of consumers (both live chats and messaging) having a poor experience. Additionally, the agent capacity mechanism is not integrated - meaning the agents can reach capacity on both live chats and messaging at the same time - causing unrealistic amounts of load for the agents.  
+We strongly recommend using dedicated agents for messaging.  Operationally, messaging is a unique entity.  Jumping between live chats and messaging can be confusing and can result in a higher risk of consumers (both live chats and messaging) having a poor experience. Additionally, the agent capacity mechanism is not integrated - meaning the agents can reach capacity on both live chats and messaging at the same time - causing unrealistic amounts of load for the agents.
 
 ### Q: Can agents mark conversations as “Resolved” if a consumer doesn't respond in a certain amount of time?
 
@@ -126,8 +127,6 @@ Security is an integral part of the software development processes at LivePerson
 The following features are implemented as part of the solution:
 
 * LivePerson utilizes the oAuth 2.0 and gets access as a 3rd party to the customer’s personal information. This process begins by accepting a unique and secure customer identifier from the app, relaying it (through the SDK when using app messaging) to the LivePerson backend and decrypting it to allow the agent access to the enclosed personal information. There is no need to expose the customer’s login credentials.
-
-
 * Authenticated conversations are available only inside the authenticated area and only after receiving an updated token from the brand’s server confirming successful login. This ensures that only the consumer can view the conversation with the brand.
 * The entire communication is delivered on top of secured https and wss connections.
 * Push notifications can be masked, or configured to exclude the actual message, and instead present only an indication that a new message is available to the consumer’s secure mailbox. This ensures that the data is available only to the consumer. Similarly, masking can be configured to hide inputted credit card numbers provided by the consumer from the agent, the consumer, or both.
