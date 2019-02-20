@@ -299,24 +299,6 @@
             - level3name: Week 2
             - level3name: Week 3
             - level3name: Week 4
-        - pagename: August
-          level3:
-            - level3name: Week 1
-            - level3name: Week 2
-            - level3name: Week 3
-            - level3name: Week 4
-        - pagename: July
-          level3:
-            - level3name: Week 1
-            - level3name: Week 2
-            - level3name: Week 3
-            - level3name: Week 4
-        - pagename: June
-          level3:
-            - level3name: Week 1
-            - level3name: Week 2
-            - level3name: Week 3
-            - level3name: Week 4
 
 - categoryname: Troubleshooting
   image: Troubleshooting
