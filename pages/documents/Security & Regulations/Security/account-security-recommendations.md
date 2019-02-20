@@ -22,7 +22,7 @@ The recommended three steps for baseline account security are as follows:
 
 ## Step 1: Set your password policy
 
-The password policy settings provide more flexibility to define policies that match your corporate security requirements. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals. See details below for password policies.
+The password policy settings provide more flexibility to define policies that match your corporate security requirements. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals. See details below for [password policies.](security-regulations-security-account-security-recommendations.html#password-policies)
 
 ## Step 2: Restrict your login options
 
@@ -56,7 +56,9 @@ The following password policy options are available:
 * **Maximum occurrences of same character**: The maximum number of times that the same character can be used in a password. The range is from Unlimited to 9. If the Unlimited option is selected, the system will _not_ validate the password for how many times any specific character is used. LivePerson recommends setting the value of this option to 2.
 * **Alpha character required:** Defines whether the password must contain an alphabetic character.
 * **Number character required:** Defines whether the password must contain a number character.
-* **Special character required:** Defines whether the password must contain at least one character that is commonly referred to as a special character. Any of the following characters can be used as a special character: ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ \[ \\ \] ^ _ \` { | } \~.
+* **Special character required:** Defines whether the password must contain at least one character that is commonly referred to as a special character. Any of the following characters can be used as a special character: 
+
+  \[! " # $ % & ' ( ) * + , - . / : ; < = > ? @  \\ ^ _ \` { | } \~\]
 
 {: .notice}  
 LivePerson recommends setting a policy that enforces the use of at least two out of the three options mentioned above (e.g., Alpha character required + Number character required, or Alpha character required + Special character, etc.)
