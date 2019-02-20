@@ -188,7 +188,6 @@ pages:
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
 - pages/documents/Contact Center Management/Campaigns/visitor-behavior.md
-- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Release Notes/January/week-of-january-28th.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Release Notes/October/week-of-october-22nd.md
@@ -206,7 +205,6 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/smart-capacity-per-skill.md
 - pages/documents/Data & Reporting/Engagement attributes/setting-up-engagement-attributes.md
 - pages/documents/Messaging Channels/mobile app messaging/mobile-app-messaging-faqs.md
-- pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Messaging Channels/SMS/sms-connector.md
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
@@ -266,3 +264,5 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/automatic-conversation-distribution-for-messaging.md
 - pages/documents/Admin & Settings/set-the-time-zone.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
+- pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
+- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md

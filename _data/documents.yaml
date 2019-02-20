@@ -270,35 +270,38 @@
   subcategories:
     - subcategoryname: 2019
       pages:
+        - pagename: February
+          level3:
+            - level3name: Week of February 25th
+            - level3name: Week of February 18th
+            - level3name: Week of February 11th
+            - level3name: Week of February 4th
         - pagename: January
           level3:
-            - level3name: Week of January 7th
+            - level3name: Week of January 28th
+            - level3name: Week of January 20th
+            - level3name: Week of January 14th
     - subcategoryname: 2018
       pages:
         - pagename: December
           level3:
-            - level3name: Week of December 9th
-            - level3name: Week of December 9th
-            - level3name: Week of December 9th
-            - level3name: Week of December 9th
+            - level3name: Week of December 17th
+            - level3name: Week of December 2nd
         - pagename: November
           level3:
-            - level3name: Week 1
-            - level3name: Week 2
-            - level3name: Week 3
-            - level3name: Week 4
+            - level3name: Week of November 19th
+            - level3name: Week of November 5th
         - pagename: October
           level3:
-            - level3name: Week 1
+            - level3name: Week of October 29th 
+            - level3name: Week of October 22nd
+            - level3name: Week of October 15th
             - level3name: Week of October 8th
-            - level3name: Week 3
-            - level3name: Week 4
         - pagename: September
           level3:
-            - level3name: Week 1
-            - level3name: Week 2
-            - level3name: Week 3
-            - level3name: Week 4
+            - level3name: Week of September 24th 
+            - level3name: Week of September 17th 
+            - level3name: Week of September 9th 
 
 - categoryname: Troubleshooting
   image: Troubleshooting
