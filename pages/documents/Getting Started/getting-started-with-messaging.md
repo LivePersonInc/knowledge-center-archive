@@ -56,7 +56,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 ## Step 3: Connect to your channels of choice
 
-Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately, once you have configured all your channels, all the LivePerson settings and bots will automatically apply to them.
+Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately, once you have configured all your channels, the LivePerson settings and bots will automatically apply to them.
 
 Read more about messaging connectors in LivePerson.
 
