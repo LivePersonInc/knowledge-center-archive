@@ -144,7 +144,7 @@ Consumer opts to share contact during conversation:
 
 Agent will receive contact sharing info as text:
 
-
+![](/img/week-of-february-18th-4.png)
 
 ### WhatsApp: sharing location during a conversation (CX-86)
 
