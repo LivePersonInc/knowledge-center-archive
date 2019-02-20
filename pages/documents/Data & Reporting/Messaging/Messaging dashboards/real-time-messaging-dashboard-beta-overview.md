@@ -197,7 +197,8 @@ The [skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.h
 * **Average resolution time for the time period selected**
 * **CSAT**: the average CSAT of closed conversations in that skill that were closed in last 12 hours
 
-The Skills Section can be exported to a .CSV file.
+{: .notice}  
+The Skills section can be exported to a .CSV file
 
 View up to 100 skills per page. The default is set at 25. In order to see the next or previous section of skills use the arrows to navigate.
 
@@ -259,9 +260,10 @@ First tab: **Alerts & Thresholds**
 * Change the order of the sections
 * Change the order of the KPIs displayed
 
+{: .notice}  
 Configuration changes are stored in the browser cookie (per browser)
 
-You can click on current, closed, agents and skills
+You can click on current, closed, agents and skills:
 
 * Choosing current allows you to choose from the list of KPIs defined in the **Current** section. You can choose whether to display assigned, unassigned and other various KPIs.
 * For each of the KPIs you can choose the threshold that you would like to receive an alert for. To choose, either write the number manually or use the + and - buttons to choose. For example, if you assign 250 as your threshold for open conversation, you will receive a red notification once the number of conversations has been reached and goes beyond that threshold. The same applies for Closed Conversations.
