@@ -1,9 +1,9 @@
 ---
-pagename: 'Supported languages'
+pagename: Supported languages
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle: ''
+subtitle: List of languages supported within LivePerson
 level3: ''
 permalink: admin-settings-supported-languages.html
 isTutorial: false
