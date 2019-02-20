@@ -179,8 +179,7 @@ The login page is configurable with the following URL Parameters:
 <br/>
 The brand needs to register the redirect URL as a valid URL.
 
-**Example:**
-`https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]`
+**Example:** https://www.brand.com/authorize/client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=[visitorId]
 
 <br/>
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
