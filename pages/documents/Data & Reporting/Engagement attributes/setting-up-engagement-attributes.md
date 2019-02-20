@@ -25,11 +25,11 @@ Information collected using engagement attributes can be used to achieve the fol
 
 For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developer Community.
 
-**Validating the engagement attributes value**
+## **Validating the engagement attributes value**
 
 Verifying the implementation of the engagement attributes values can be done via the LivePerson interface (after an hour) or directly from your website:
 
-**Validation via LivePerson interface**
+### **Validation via LivePerson interface**
 
 1. From the campaigns footnote, click data sources.
 2. On the integrations tab, scroll down to the engagement attributes section.
@@ -40,7 +40,7 @@ Verifying the implementation of the engagement attributes values can be done via
 
 If the engagement attribute has not been reported on, a grey ‘i’ symbol will be displayed instead of the data indicator which has a green check.
 
-**Validation directly from the website:**
+### **Validation directly from the website**
 
 1\. Add an item to the cart on your site.
 
