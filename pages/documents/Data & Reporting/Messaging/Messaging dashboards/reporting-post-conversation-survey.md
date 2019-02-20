@@ -21,7 +21,7 @@ The results of the surveys can be analyzed in real time using the [messaging int
 
 ## Report Builder
 
-Please see the reporting tutorial
+Please see the reporting [tutorial](https://vimeo.com/311200786/08a7eff0a9)
 
 The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the Bot Studio.
 
