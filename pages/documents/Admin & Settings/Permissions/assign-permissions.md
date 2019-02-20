@@ -44,10 +44,6 @@ For additional information on customizing user profiles, see [customize permissi
 3. Click save and log out of the account in order for the permissions to refresh.
 4. After logging in again, on the profiles tab click the night vision icon.
 5. Under LPA permission, click edit.
-
-   ![](/img/assignperm4.png)
-
-   {:start="6"}
 6. In the edit screen, the permission can be enabled or disabled (by default the permission will be disabled).
 7. When the permission is enabled, profiles can be assigned to the LPA user, by selecting from the dropdown menu.
 8. Click save.
