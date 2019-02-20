@@ -103,21 +103,13 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 **Example:**
 
     lpTag.identities=[];
-    
     lpTag.identities.push(identityFn);
-    
     function identityFn(callback) {
-    
-    callback({
-    
-    iss: “ replace with issuer ”,
-    
-    acr: “loa1”,
-    
-    sub: “ replace with customerID ”
-    
-    });
-    
+    	callback({
+    		iss: “ replace with issuer ”,
+    		acr: “loa1”,
+    		sub: “ replace with customerID ”
+    	});
     }
 
 <br/>
