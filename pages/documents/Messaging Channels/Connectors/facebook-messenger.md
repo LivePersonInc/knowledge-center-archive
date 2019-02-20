@@ -12,7 +12,6 @@ date: 2019-01-20 09:10:07 +0000
 isNew: true
 
 ---
-
 <iframe src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
@@ -82,4 +81,4 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an Agent Manager user to whom the messages will be attributed.
 
-On the Facebook connector page, under **Add a Facebook external user**, simply select the FB External User profile you have just created and click **Done**.![](/img/facebook-messenger-3.png)
+On the Facebook connector page, under **Add a Facebook external user**, simply select the Facebook External User profile you have just created and click **Done**.![](/img/facebook-messenger-3.png)
