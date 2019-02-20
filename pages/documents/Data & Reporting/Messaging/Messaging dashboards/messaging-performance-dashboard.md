@@ -3,7 +3,7 @@ pagename: Messaging performance dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
-subtitle: This predefined dashboard includes operational data for all messaging channels.
+subtitle: This predefined dashboard includes operational data for all messaging channels
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
@@ -12,9 +12,9 @@ date: 2019-01-15 14:29:49 +0000
 ---
 ## Agent level data sheet
 
-* The predefined dashboard includes operational data for all messaging channels.
-* The primary datasets: Agent and consumer messaging activity.
-* Minimum timeframe: Hourly
+* The predefined dashboard includes operational data for all messaging channels
+* The primary datasets: agent and consumer messaging activity
+* Minimum timeframe: hourly
 * Primary Filters: agent, agent group, skill, source type
 
 ## Main panel: agent performance summary
@@ -166,7 +166,7 @@ Image 4 - Brand messaging summary main panel
    2. ONLINE / AWAY / BACK SOON (time)
    3. ONLINE / AWAY / BACK SOON RATE
 
-## Panel 2: Brand level data export
+## Brand level data export
 
 Export the following grid to create custom visualizations and generate calculations from the data available in this grid view.
 
