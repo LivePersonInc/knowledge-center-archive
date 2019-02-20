@@ -4,7 +4,7 @@ categoryName: Security & regulations
 subCategoryName: ''
 indicator: both
 subtitle: LivePerson assists users with vision, hearing or mobility impairments in
-  gaining greater access to the internet.
+  gaining greater access to the internet
 level3: ''
 permalink: security-regulations-accessibility-policy.html
 isTutorial: false
@@ -52,11 +52,11 @@ Please note throughout this document, when referring to the Engagement window, t
 
 Below is the Embedded Engagement window with its various components labelled.
 
-![](/img/access-policy1-1.png)
+![](/img/access-policy1-2.png)
 
 _Figure 1: The Embedded Engagement window_
 
-![](/img/accessibility-policy2.png)
+![](/img/accessibility-policy2-1.png)
 
 _Figure 2: The embedded engagement window, Action menu expanded_
 
