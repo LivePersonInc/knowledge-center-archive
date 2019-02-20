@@ -42,9 +42,9 @@ _Image 1 - Agent performance summary_
 
 ### Overview by agent (grid)
 
-**Rows (Attributes):** AGENT
+**Rows (attributes):** AGENT
 
-**Columns (Metrics):**
+**Columns (metrics):**
 
 1. HANDLED CONVERSATIONS
 2. MCS
@@ -218,4 +218,3 @@ When computing a messaging related metric that should allow filtering by an agen
 | NO. OF CONVERSATIONS CLOSED BY SYSTEM | The last agent assigned to the conversation | To the last skill assigned to the conversation |
 | AVG. CONVERSATION DURATION | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
 | INTERACTIVE / NON INTERACTIVE / ABANDONED CONVERSATIONS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
-
