@@ -76,8 +76,8 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 1. **Rich Messaging**: enhancing the conversation is crucial to enable agents to handle more types of inquiries and actions over messaging. Beyond regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html) (consumer to agent)
-   * [Structured conten](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html)t (cards, carousels, lists)
-   * [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html)
+   * [Structured content](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html) (cards, carousels, lists)
+   * [Quick replies](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 
 See the [messaging channels capabilities comparison matrix](messaging-channels-messaging-channels-capabilities-comparison.html) for detailed information on what is available per messaging channel.
 
@@ -108,10 +108,10 @@ Additional instructions for designing customer experience elements such as [bann
 
 ## Step 6: Manage the operational elements
 
-1. **Routing**: decision factors on routing of your conversation are done based on various smart factors.  You can control the routing further by creating a routing bot.
-2. **Determine schedules and working hours.**  The days and times of your agents and skills availability will affect the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
-   * Set up and shifts worked per skill using the shift scheduler
-   * Determine the working hours per skill
+1. **Routing**: [routing conversations](contact-center-management-messaging-operations-routing-logic-overview.html) are configured based on a variety of smart factors brands can control. Brands can also leverage LivePerson's [routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook).
+2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
+   *  [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html) - set up and shifts worked per skill using
+   *  [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 
 {:start="3"}
 
