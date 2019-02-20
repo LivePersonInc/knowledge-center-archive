@@ -227,7 +227,7 @@ To enable the support, head to the survey settings and mark the following checkb
 
 Once enabled, make sure to fill in the desired text in the Text Fallback Tab.
 
-![](/img/post-conversation-survey-user-guide9.png)
+![](/img/post-conversation-survey-user-guide9 (1).png)
 
 ## Reporting
 
