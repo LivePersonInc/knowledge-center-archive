@@ -134,7 +134,7 @@ Consumers can now share a contact (from their contacts list) with a business in 
 * Agents or bots will be able to see the contact information name, phone numbers, organization (company, department, title), email, birthday, address, and contact URL
 * The contact info mentioned above will be displayed as a text message in the conversation, on behalf of the consumer lines.
 
-**Screenshots**
+#### Screenshots
 
 Consumer opts to share contact during conversation:
 
@@ -187,7 +187,7 @@ Consumers can now share a static location with a business on a WhatsApp conversa
   * Name
   * URL
 
-**Screenshots**
+#### Screenshots
 
 Consumer opts to share his current static location during a conversation:
 
