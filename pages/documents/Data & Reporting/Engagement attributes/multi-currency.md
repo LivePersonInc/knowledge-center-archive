@@ -25,19 +25,15 @@ LiveEngage multi currency offers brands the ability to report a “currency” a
 
 Brands reporting the above engagement attributes using currency will now be able to see a full breakdown of these currencies in LiveEngage Report Builder. The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage.
 
-### **Reporting**
+## **Reporting**
 
 When reporting on revenue and transactions, LiveEngage checks whether an account used single currency or multiple currencies during the timeframe defined by the report. As multiple currencies cannot be summarized, the Data Bar and Dashboard widgets display data for the account’s default currency only. However, the multi currency icon will display when multiple currencies were recorded.
 
-![](/img/multicurrency1.png)
+![](/img/multi-currency1.png)
 
-![](https://lh5.googleusercontent.com/6XiWi3SENpXGnuOiAsU4Zzg-RXYWa0byUTiOBi9OrOpTTYoZ3wwcnsuFHPgzI5-cyiL9p7FsYHv6aiS9YN3GCC3BwEqtFVBH53tMmWh21qmxzd1-MwtnHeL-xlMTpDz-TmD9k3uB =428x191)
+A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the Report Builder.
 
-A partial breakdown by currency can be found in the Agent Goal Tracker report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the Report Builder.
-
-![](https://lh6.googleusercontent.com/342BOq9vj3TDWm6ZOrR0Fy-0raBFH-W6GZG19JzhBSRK0sBcPTfag1c-Xl-fXkqDiWyhDr_W1YdFv15k2NC9or8FVb1cwYdaYy8mmp68W7zdniqOw9m7c4E1SxzBAGxkcjfmXl3_ =433x208)
-
-For further information on how multi currency is displayed in the Agent Goal Tracker, read Agent Goal Tracker: Detailed Goal and Conversion Report.
+![](/img/Multi-currency2.png)
 
 For further information on the Report Builder, read[ Report Builder overview]()
 
