@@ -56,21 +56,18 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 ## Step 3: Connect to your channels of choice
 
-Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately, once you have configured all your channels, the LivePerson settings and bots will automatically apply to them.
+Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately using [messaging connectors](messaging-channels-messaging-connectors-overview.html), once you have configured all relevant channels, LivePerson's settings and bots automatically apply. See our [messaging channels capabilities matrix](messaging-channels-messaging-channels-capabilities-comparison.html), or drill down on specific connectors. 
 
-Read more about messaging connectors in LivePerson.
-
-* Web messaging on your website
-* Mobile app messaging
-* IVR deflection
-* SMS
-* Facebook
-* Apple Business Chat
-* Google Rich Messaging
-* Whatsapp
-* Line
-* Connector API (build a connector to any custom messaging channel)
-* Live Chat on your website
+* [Web messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
+* [Mobile app messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
+* [SMS](messaging-channels-sms-sms-connector.html) (Twilio, Google My Business)
+* [Facebook](messaging-channels-facebook-messenger.html)
+* [Apple Business Chat](messaging-channels-messaging-connectors-overview.html)
+* [Google Rich Messaging](messaging-channels-google-rcs-business-messaging.html)
+* [WhatsApp Business](messaging-channels-whatsapp-business.html)
+* [Line](messaging-channels-line-connector.html)
+* [Connector API](https://developers.liveperson.com/connector-api-first-steps-overview.html) (build a connector to any custom messaging channel)
+* [Live Chat](messaging-channels-live-chat-add-live-chat-to-your-website.html) on your website
 
 {: .notice}
 Through LivePerson, you can serve your consumers through multiple messaging channels on the same platform.  This means that if you create any settings for other channels such as bots, surveys, agent tools, and operative elements - you only have to create them once and they will apply to all channels.
@@ -105,7 +102,7 @@ Instructions for designing customer experience elements such as banners and mess
 2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [**widgets**](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
 3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.
 4. **Configure CoBrowse**: For high touch conversations, agents can connect to customers screens and conduct a [CoBrowse session](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).  Administrators can define which agents have this capability.
-5. **Warm up**: In order for agents to [prepare to start shifts smoothly](contact-center-management-messaging-operations-preparing-agents-to-start-a-shift.html), LivePerson can be configured to assign conversations to the agents gradually giving agent the proper warm up’ to the flow of messaging conversations, you can configure 
+5. **Warm up**: In order for agents to [prepare to start shifts smoothly](contact-center-management-messaging-operations-preparing-agents-to-start-a-shift.html), LivePerson can be configured to assign conversations to the agents gradually giving agent the proper warm up’ to the flow of messaging conversations, you can configure
 6. **Agent guide**: Agent training should include your business processes as well as best practices for conducting messaging conversations. LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, ask account team for specialized training and the LivePerson University.
 7. **SSO Login**: brands have the option to connect LivePerson to their company’s secured hub for [SSO integration](Security-regulations-SSO-unified-login.html).
 
