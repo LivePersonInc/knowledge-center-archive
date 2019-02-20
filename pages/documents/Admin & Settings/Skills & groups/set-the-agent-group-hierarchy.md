@@ -31,11 +31,11 @@ An agent group manager can be either an Agent Manager or an administrator. As an
 {: .notice}  
 Group managers who take conversations (i.e. their concurrency is greater than 0) must also be configured as members of a group.
 
-## **Viewing the agent group data**
+## Viewing the agent group data
 
 The agent manager data bar and dashboard provides you with a snapshot of your agents’ efficiency and operational performance at any given time. Reports are configured to display the data related to agents assigned to your groups and subgroups and to your agents’ related skills only. If you manage more than one group, you can apply a filter to view each group’s data separately.
 
-Please note: Initially all agents are members of the **main** agent group. Once an agent is moved to a different agent group, data relating to the agent’s conversations from that point onwards are available to the manager(s) of the new group only. Data related to the agent’s conversations from before the move are available to the manager(s) of the main agent group only.
+Initially all agents are members of the main agent group. Once an agent is moved to a different agent group, data relating to the agent’s conversations from that point onwards are available to the manager(s) of the new group only. Data related to the agent’s conversations from before the move are available to the manager(s) of the main agent group only.
 
 ![](/img/pasted image 0 (1).png)
 
