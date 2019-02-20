@@ -41,7 +41,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 * Send [engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html) - information about consumers, such as items added to their shopping cart, account status and more - to LivePerson for reporting. Engagement attributes, such as conversions, can be tracked across different sessions or customer visits. Developers can add engagement attribute tracking directly into the LivePerson tag or by scraping. 
 * Determine the [attribution model](data-reporting-engagement-attributes-attribution-model.html) to enables brands to select how to attribute cross session conversions to agents who handled the conversation.  
-* Set up LivePerson to track [multiple currencies](data-reporting-engagement-attributes-multi-currency.html) if needed for accurate conversion tracking and reporting even across multiple countries .
+* Set up LivePerson to track [multiple currencies](data-reporting-engagement-attributes-multi-currency.html) if needed for accurate conversion tracking and reporting even across multiple countries.
 
 ## Step 2: Add users and account settings
 
@@ -50,27 +50,27 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * **Skills** - set up or import the [list of skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) that you’d like conversations routed to.
    * **Users** - set up or import the [list of agents](admin-settings-create-and-manage-users.html), managers or administrators.
    * **Groups/LOB** - [set up groups or lines of business](contact-center-management-campaigns-campaign-settings.html) to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
-   * **Permissions**: [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
-   * **Timezone**: [set up the timezone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
-   * **Languages**: [setup the language](admin-settings-supported-languages.html) for agent workspace.
+   * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
+   * **Timezone** - [set up the timezone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
+   * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
 
 ## Step 3: Design the customer experience
 
-1. **Define the look, feel and behavior or chat buttons and windows:** LivePerson ‘campaigns’ provide you with granularity to define many aspects of the chat look and feel as well as the behavior buttons on your website, including:
+1. **Define the look, feel and behavior of chat buttons and windows:** LivePerson [campaigns](contact-center-management-campaigns-campaigns-overview.html) provide brands with ability to define many aspects of the chat's look and feel, as well as the behavior of website buttons, including:
    * Chat button look and feel
-   * Chat window look and feel
-   * Rules to trigger button appearance on your web pages
+   * Chat window look and fee
+   * Rules to trigger button appearance on web pages
    * Surveys
    * Proactive invitations
 
-   Read more: detailed instructions for creating chat campaigns.
+Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in campaigns.
 
-**2. Rich Messaging**: enhancing the conversation is crucial to enable you to handle more types of inquiries and actions over live chat. Beyond the regular text, LivePerson enables you to set up the following rich messaging capabilities:
+**2. Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
 
     * Photo sharing (consumer to agent)
     * Structured content (cards, carousels, lists)
 
-**3. Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
+**3. Add bots**:  Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. [Learn how you can easily create bots](getting-started-getting-started-with-bots.html).
 
 **4. Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 

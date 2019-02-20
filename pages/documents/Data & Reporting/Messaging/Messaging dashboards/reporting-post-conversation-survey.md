@@ -13,7 +13,7 @@ date: 2019-01-15 13:14:02 +0000
 ---
 ## Reporting for post conversation survey
 
-The post conversation survey enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
+The [post conversation survey](bots-automation-post-conversation-survey.html) enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
 
 Brands can customize the survey to their needs, including predefined questions (CSAT, NPS and FCR), custom questions and free text, as well as the ability to determine the logic between the questions.
 
@@ -98,13 +98,13 @@ To add custom metrics for predefined questions, see _creating custom metrics sec
 
 The brand level answers distribution includes aggregated count of responses submitted by consumers to each question and for each configured answer option. The results are presented at the brand level, split by configured survey. Leveraging these results, you are able to analyze, for example, how many consumers answered with the value “4” vs. how many answered “5” for a chosen CSAT question.
 
-**Skipping a question vs. skipping the entire survey**
+#### Skipping a question vs. skipping the entire survey
 
 Should you choose to configure a “skip” answer-option for the question, the answer “skip” along with the number of times consumers chose this option, will appear in the report next to the corresponding question.
 
 It is important to note​ that a consumer may elect to skip the entire survey after every question asked. Counting how many times consumers skipped the survey entirely is reflected through the CLOSED SURVEY metric filtered by the SURVEY OUTCOME attribute (visible in the survey level panel). The response a consumer has given and triggered the skip of the entire survey will not be counted as an answer to a specific question (not visible in the answer distribution panels).
 
-**Responses unrecognized by the survey bot as valid answers**
+#### Responses unrecognized by the survey bot as valid answers
 
 Each question includes an additional bucketed answer, supplementing the configured answer-options. This bucket is called “unrecognized by bot”. Each time the bot did not find a match between the consumer’s response to a given question and any of the configured answer-options, the report will count this consumer’s response in the unrecognized by bot bucket. It is important to note that the default filter of “is answer recognized by bot” is set to “yes”, thereby, excluding all unrecognized answers from the report. You may change the filter settings to “no” or to “all” in order to evaluate consumer responses unrecognized by the bot as one of the valid answer options configured in the survey.
 
@@ -116,18 +116,19 @@ Similar to the brand level answers distribution, this panel lists every configur
 
 Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey?, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
-I**mportant to note:​** the values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
+{: .notice}   
+The values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
 
 ### Panel 5: question level analysis
 
 Use this panel to analyze the response rates and time it takes consumers to answer each question individually. Identify opportunities to optimize the question text or change the order of presentation in the survey flow. Correlate the results in this panel with the survey level panel to identify questions which are presented multiple time to consumers in comparison to the number of surveys closed for each configured survey flow.
 
-\* “Question fallback Text” is presented in the report for questions which include a backup text phrase. The backup phrase is presented to consumers in end-points which do not support structured content.
+Question fallback text is presented in the report for questions which include a backup text phrase. The backup phrase is presented to consumers in end-points which do not support structured content.
 
 ## Limitations
 
 1. Report Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
-2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the Messaging Performance predefined dashboard.
+2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
 3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Report Builder but replaced with blank spaces.
 4. Free text questions can not be analyzed.
 
@@ -137,7 +138,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
 ## New attributes / filters
 
-### **Survey attributes**
+### Survey attributes
 
 * **Survey active indicator** - Is the Survey flow configured with a skill (in use)
 * **Survey deleted indicator** - Was the Survey flow deleted?
@@ -145,7 +146,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 * **Survey description**- The description of the survey, configured in the Bot Studio.
 * **Survey outcome** - The outcome of the survey as reported by the Survey bot.
 
-### **List of Survey outcome supported values**
+### List of Survey outcome supported values
 
 * **“Ignored”** when the consumer was offered a survey but didn’t respond
 * **“Completed”** when the survey reached the end of the configured flow
@@ -158,7 +159,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 * **“Closed by system”**
 * **“Error in survey flow”** when unexpected errors occur, such as invalid structured content, non-whitelisted images.
 
-### **Question attributes**
+### Question attributes
 
 * **Question name** - The name of the question, configured in the Bot Studio (this is not the question text which is presented in the Question Fallback Text attribute).
 * **Question type** - The type of the question, configured in the Bot Studio. Supported values include: CSAT, NPS, FCR and Custom Questions.
@@ -167,7 +168,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 * **Question fallback text** - The text presented to the consumer in case the end-point does not support structured content (such as SMS).
 * **Question format** - The format of the question. Supports the values: “Open” and “Single Selection”. When the Survey flow supports additional format (such as multiple choice), the support values will be adjusted accordingly.
 
-### **Answers attribute**
+### Answers attribute
 
 * **Answer** - The answers configured in the Bot Studio for each question.
 * **Answer value** - Hidden attribute (available only to Edit-Access users)
@@ -175,14 +176,14 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
 ## New metrics
 
-### **Survey metrics**
+### Survey metrics
 
 * **Closed survey** - The number of survey dialogs which were closed. A closed dialog is one that none of the participants can send messages in.
 * **Closed survey rate** - The percentage (%) of survey instances closed with a specific outcome. Supported by the “Survey Outcome” attribute (filter).
   \* Presents 100% when not filtered / split by outcome.
 * **Avg. duration of survey availability** - The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions. This is measured from the time the survey is offered until the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey). Format: \[h\]:mm:ss
 
-### **Questions metrics**
+### Questions metrics
 
 * **Offered question** - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.).
 * **Answered question** - The number of questions presented to the consumer by the bot and were responded by the consumer with a valid (configured) answer (recognized by the bot as a valid answer). Used to compare with the metric “Offered Question”. When a question is offered multiple times but answered with a valid response less times, there may be an issue with the question text (behavioral or technical).
@@ -191,7 +192,7 @@ Use this panel to analyze the response rates and time it takes consumers to answ
 
   If no response was given to the question, the metric will be associated with an empty cell in the dashboard (Null). Format: \[h\]:mm:ss
 
-### **Answers metrics**
+### Answers metrics
 
 * **CSAT (brand) CSAT (agent and skill)** - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
 * **FCR (brand) FCR (agent and skill)** - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
@@ -207,24 +208,24 @@ When using a predefined brick for CSAT, NPS, FCR, you have the option of changin
 
 Below is an example for creating a custom formula for CSAT, instead of the precalculated ‘CSAT (Agent & Skill)’ metric. You can use the same syntax and modify it to your needs (use it for the other questions (NPS,PCS) or using a different arithmetic calculation).
 
-### **Custom metric for CSAT calculation:**
+### Custom metric for CSAT calculation
 
 In order to recalculate the CSAT score, 3 metrics need to be created (see formulas below). The last metric is the one that should be used in grids and visualization (the first two metrics are only for the calculation purposes).
 
 #### Steps for creating a custom metric:
 
-1. On the DASHBOARD DATASETS panel at the left side of the screen, right click on ‘Survey Answers (Agent and Skill)’ and select ‘Create Metric...’.
+1. On the DASHBOARD DATASETS panel at the left side of the screen, right click on ‘survey answers (agent and skill)’ and select ‘create metric.’
 
    ![](/img/post-conversation-survey1.png)
-2. A new pop-up screen ‘Metric Editor - New Metric’ will open up
+2. A new pop-up screen ‘metric editor - new metric’ will open up
 
    ![](/img/post-conversation-survey2.png)
-3. Use the ‘Metric Name’ field to give a meaningful name to the metric
-4. Paste the formula (copied from the ‘Formulas’ section below) into white box at the right.
-5. Click on ‘Validate’ and make sure you receive a green message ‘Valid metric formula’.
-6. Click ‘Save’. The formula will be added to the dataset and is ready to use.
+3. Use the ‘metric name’ field to give a meaningful name to the metric
+4. Paste the formula (copied from the ‘formulas’ section below) into white box at the right.
+5. Click on ‘validate’ and make sure you receive a green message ‘valid metric formula’.
+6. Click ‘save’. The formula will be added to the dataset and is ready to use.
 7. Follow these steps for each of the three formulas listed below.
-8. Drag the New_CSAT metric into a grid containing ‘Agent’ and ‘Skill’ attributes, you’ll be able to see the calculated CSAT score.
+8. Drag the New_CSAT metric into a grid containing ‘agent’ and ‘skill’ attributes, you’ll be able to see the calculated CSAT score.
 
 ![](/img/post-conversation-survey3.png)
 
@@ -277,11 +278,11 @@ Report Builder offers the option to export the survey results data into a MS Exc
 
 ### Steps for exporting a grid:
 
-1. Open Messaging Performance dashboard
-2. Unhide 'Answer count' attribute:
+1. Open messaging performance dashboard
+2. Unhide 'answer count' attribute:
 3. On the DASHBOARD DATASETS panel at the left side of the screen, click on the down arrow on the right corner of the panel
-4. Select ‘Show Hidden Objects’
-5. Under ‘Survey Answers (agent and Skill)’, check the checkbox next to ‘ANSWER VALUE’ and click OK
+4. Select ‘show hidden objects’
+5. Under ‘survey answers (agent and Skill)’, check the checkbox next to ‘ANSWER VALUE’ and click OK
 6. On the ‘Survey Data Export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
 7. Drag into the visualization the following metrics and attributes:
 
