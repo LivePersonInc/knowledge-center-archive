@@ -27,10 +27,10 @@ The basic set up means there will be no routing - every agent will receive all m
 
 ## Customize your messaging program
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of messaging, develop and set up your preferences in three areas:
+LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities. To ensure you are getting the most out of messaging, develop and set up your preferences in three areas:
 
-* **Customer experience:** design what your consumers will see when they interact with you - including the messaging window,  the banners, buttons and automatic text. Add bots and automation to be the first to answer.
-* **Agent experience**: Set up agent experience to ensure your reps are successful including predefined content and custom widgets
+* **Customer experience:** design what consumers will see when they interact with your brand by customizing the [engagement window](contact-center-management-campaigns-engagement-window.html), including the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to receive and respond to incoming conversations.
+* **Agent experience**: Set up [agent experience](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) to ensure your reps are successful including [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-best-practices-for-messaging.html) and [custom widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html)
 * **Management & Operations**: Cost savings are a product of effective operations: set up all your skills and LOBs, routing, agent capacity, & queue priority
 
 ## Step 1: Set up data for accurate tracking
