@@ -83,15 +83,15 @@ See the [messaging channels capabilities comparison matrix](messaging-channels-m
 
 {:start="2"}
 
-1. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
-2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
-3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
+2. **Add bots**: create a better customer experience by greeting your consumers with a great bot that can immediately answer some of their questions, or route the conversation accordingly.  You can create bots easily using the LivePerson Conversation Builder.
+3. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’).  You can customize the text of these messages so that they match your brand guide.
+4. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
    * Pre conversation survey for routing: you can set up a routing bot to greet your consumers and ask 	them questions that will determine what skill (or another bot) the conversation is routed to.
    * Post conversation survey: when a conversation is closed, or resolved, a survey can be sent out to 	your consumers asking them customer satisfaction or any other questions you require.
 
 {:start="5"}
 
-1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
+5. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
 {: .notice}  
 Instructions for designing customer experience elements such as banners and messaging window UI can be found within each of the channel set up guides (linked above).
