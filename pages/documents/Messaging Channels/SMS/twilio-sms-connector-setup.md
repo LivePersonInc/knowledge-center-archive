@@ -11,14 +11,13 @@ date: 2019-01-17 15:11:38 +0000
 isNew: false
 
 ---
-
 <iframe src="https://player.vimeo.com/video/238919599" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
 ## To set up a basic SMS account using Twilio, complete the following steps:
 
-1. Create your own Twilio account here \[[insert link](https://www.twilio.com/try-twilio)\].
+1. Create your own Twilio account [here](https://www.twilio.com/try-twilio).
 
 ![](/img/twilio-sms-connector-setup-1.png)
 
@@ -69,7 +68,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 ## To deactivate the SMS connector:
 
-1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
+1. On LiveEngage, on the Campaigns page, click on [Data Sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) in the footnote.
 2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
 
 <div class="important">
