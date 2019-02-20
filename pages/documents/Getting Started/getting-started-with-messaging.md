@@ -9,19 +9,20 @@ permalink: getting-started-getting-started-with-messaging.html
 isTutorial: false
 date: 2019-01-14 11:44:06 +0000
 level3: ''
+isNew: false
 
 ---
-To get started, access LivePerson using this link: Add link to login
+To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
 
-## Bare-bones: get to the first message
+## Get to the first message
 
+To get the most basic version of messaging up means you have to insert a generic ‘message us’ button your website. Getting to the first message is simple and can be done through three steps:
 
-To get the most basic version of messaging up means you have a generic ‘message us’ button your website and there will be no routing - all agents will receive all messages. Getting to the first message is simple and can be done through three steps:
+1. Your website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear.  See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
+2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
+3. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
 
-1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website.  For instructions on how to get the code, click here.
-2. Create users for the agents that will be taking the conversations.  To learn how to set up users, click here.
-3. Create a username and login for the agents that will be answering incoming messages.
-4. Once the code is up and an agent is logged into the system, they can begin to take and answer incoming conversations.
+{: .notice} The basic set up means there will be no routing - every agent will receive all messages
 
 ## Customize your messaging program
 
@@ -48,7 +49,7 @@ In addition to adding the LivePerson tag to all your website pages, you can also
    * **Skills**: set up or import the list of skills that you’d like conversations routed to
    * **Users**: set up or import the list of all agents, managers or administrators
    * groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  		These will reflect in your reporting, as well as enable filtering for agents and managers to only 		see conversations and data relevant to them
-   * **Permissions**: you can customize what actions your users can take in the system.  For example, 		create a ‘supervisor’ role with permissions to set up and add users
+   * **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone**: set up the timezone of your account for timestamp and reporting purposes
    * **Languages**: setup the language for Agent Workspace.  For a list of available languages, click 		here
 
@@ -117,9 +118,9 @@ Instructions for designing customer experience elements such as banners and chat
 {:start="3"}
 
 1. **Set up queue prioritization** rules to guide LivePerson engine on which conversations should be answered first.
-   Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.  
+   Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.
 
 {:start="4"}
-2. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-3. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-4. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+2\. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
+3\. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
+4\. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
