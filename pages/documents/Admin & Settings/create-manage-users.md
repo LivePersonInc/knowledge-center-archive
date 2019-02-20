@@ -19,7 +19,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 
 ## Adding a user
 
-1. On the **users** list, click **add user** at the bottom of the page.
+1. On the users list, click add user at the bottom of the page.
 2. Type in the user’s details.
    * The login name can be entered in English, numbers or special characters only. Once entered, the login name cannot be changed.
    * The name as it appears in LiveEngage.
@@ -28,8 +28,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
-{; .sidebyside}
-![](/img/create-manage-users2.png)![](/img/ create-manage-users3.png)
+![](/img/ create-manage-users3.png)
 
 ### For users with an agent profile you’ll need to define additional settings:
 
@@ -104,13 +103,13 @@ Users can make the following configurations in bulk (up to 1,000 users at a time
 
 {: .notice}  
 Users can be selected from multiple pages by selecting individual users or all users from each page.
-2. From the action menu, you can select one of the following actions to apply changes to all selected users:
+2\. From the action menu, you can select one of the following actions to apply changes to all selected users:
 
 a) Set concurrency - leaving a field blank in the concurrency settings box will mean the current settings will be retained.
 
 b) Assign skills - in cases where the selected users share common skill(s), the shared skill(s) will appear in the skill selection field.
 
-3. Once you have made the changes to the settings, click save. The changes will be applied to all selected users.
+1. Once you have made the changes to the settings, click save. The changes will be applied to all selected users.
 
 {: .notice}  
 The above actions are only available if all of the selected users have an agent user profile enabled.
