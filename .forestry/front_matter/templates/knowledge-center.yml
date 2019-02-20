@@ -232,7 +232,6 @@ pages:
 - pages/documents/Admin & Settings/Skills & groups/operate-business-divisions-from-one-account.md
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
-- pages/documents/Admin & Settings/Permissions/assign-permissions.md
 - pages/documents/Release Notes/September/week-of-september-9th.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/best-practices-for-messaging-agents.md
 - pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
@@ -266,3 +265,4 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
+- pages/documents/Admin & Settings/Permissions/assign-permissions.md
