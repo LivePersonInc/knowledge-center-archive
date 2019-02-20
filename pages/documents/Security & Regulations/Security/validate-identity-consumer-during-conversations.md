@@ -16,7 +16,7 @@ The Identification and Verification (ID&V) solution enables customer care profes
 
 The ID&V solution works seamlessly for both desktop and mobile web.
 
-## **Benefits of using ID&V during chat**
+## Benefits of using ID&V during chat
 
 The ID&V widget provides brands with an extra security and validation layer when providing services regarding sensitive or financial information.
 
@@ -24,15 +24,15 @@ This extra verification can complement an automatic authentication process to en
 
 For cases where a chat is deployed in a non-authenticated space, using the ID&V widget will provide agents with a form of verification.
 
-To ensure extra security, only 2 characters are required from the visitor, so the agent is not exposed to the entire number and code. Moreover, The data is masked on the visitor side, to offer an additional protection layer.
+To ensure extra security, only two characters are required from the visitor, so the agent is not exposed to the entire number and code. Moreover, The data is masked on the visitor side, to offer an additional protection layer.
 
-## **How the ID&V solution works**
+## How the ID&V solution works
 
-Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the agent workspace.
+Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html).
 
 ![](/img/Validate-identity-consumers-during-conversations1.png)
 
-1. The agent clicks the ID&V button in the Agent Workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
+The agent clicks the ID&V button in the agent workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
 
 {: .notice}  
 The agent must complete all the required fields before the form can be sent to the visitor.
