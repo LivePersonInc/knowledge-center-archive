@@ -70,7 +70,7 @@ The following survey types are supported:
 In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [Profiles (permissions)]().  
 Default survey data is reported on the relevant skill (after the change). The survey answers are visible in Report Builder.
 
-## **Assigning skills to users**
+## Assigning skills to users
 
 Users are assigned skills by selecting a skill that you have already created, or typing the name of a new skill, and assigning it to a particular user.
 

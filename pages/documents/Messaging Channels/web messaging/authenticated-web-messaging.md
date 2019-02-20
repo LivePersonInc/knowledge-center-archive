@@ -184,11 +184,13 @@ The brand needs to register the redirect URL as a valid URL.
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 
 **Example of code flow response:**
+
 `	HTTP/1.1 302 Found  
 	Location: https://client.example.org/cb?    
     	code=Qcb0Orv1zh30vL1MPRsbm-diHiMwcLyZvn1arpZv-Jxf_11jnpEX3Tgfvk`
 
 **Example of implicit flow response:**
+
 `	HTTP/1.1 302 Found  
 	Location: https://client.example.org/cb#  
     	id_token=eyJraWQiOiIxZTlnZGs3IiwiYWxnIjoiUlMyNTYifQ.ewogImlz
