@@ -141,27 +141,27 @@ There are currently 2 administrator policies available within an account:
 
 Each of these policies is described below.
 
-## **Exclusive LivePerson administrator policy**
+## Exclusive LivePerson administrator policy
 
-To assist you with support issues, a LivePerson Technical Support or Account Management representative may need to access your account. Login access enables LivePerson to view your account settings and data, and assist you with troubleshooting and account optimization.
+To assist you with support issues, a LivePerson technical support or account management representative may need to access your account. Login access enables LivePerson to view your account settings and data, and assist you with troubleshooting and account optimization.
 
-The Exclusive LivePerson Administrator policy enables limited access to the account only for specific LivePerson administrators.
+The exclusive LivePerson administrator policy enables limited access to the account only for specific LivePerson administrators.
 
 Only the administrators that are approved by you will be able to log into your account.
 
 The following applies when the exclusive LivePerson administrator policy is:
 
-* Disabled: All LPA users defined in the system will have access to the account.
-* Enabled: Only LPA users that have been personally selected, qualified and approved will have access to your account.
+* **Disabled:** All LPA users defined in the system will have access to the account.
+* **Enabled:** Only LPA users that have been personally selected, qualified and approved will have access to your account.
 
 {: .notice}  
 This is an optional feature that is available on request and can be set by your Account Manager or LivePerson Technical Support.
 
-## **LivePerson local administrator policy**
+## LivePerson local administrator policy
 
 This policy enables a LivePerson administrator to have the same access permissions as a local site administrator. This means that the LivePerson administrator will have full access to the account with the ability to add new users and view chat transcripts for the account.
 
 Only approved LivePerson administrators can gain local administrator access to your account.
 
 {: .notice}  
-Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your Account Manager.
+Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your account Manager.
