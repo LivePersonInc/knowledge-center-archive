@@ -10,9 +10,10 @@ permalink: messaging-channels-web-messaging-add-web-messaging-to-your-website.ht
 isTutorial: false
 date: 2019-01-16 17:31:38 +0000
 isNew: false
+published: false
 
 ---
-Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here]().
+Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](messaging-channels-messaging-connectors-overview.html).
 
 ## 1. Planning & thought starters
 
@@ -33,17 +34,17 @@ _(should be completed by contact center manager, project manager or program mana
 
 If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
 
-If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how how to do this, [click here]().
+If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
 
 ### Engagement attributes
 
-Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to configure your engagement attributes. For more information on individual engagement attributes, you can refer to the developers community.
+Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developers Community](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
 ### Conversion tracking
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
-1. Define your Currency - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video
+1. Define your Currency - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video. 
 2. Cross session period - Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
@@ -102,7 +103,7 @@ Select the mode in which the messaging window will be presented to the consumer,
 
 The engagement language selected in this step will only affect items in the Agent Workspace - namely Automatic Messages and Predefined Content - during an active conversation.
 
-### Engagement studio 
+### Engagement studio
 
 The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, [click here]().
 
