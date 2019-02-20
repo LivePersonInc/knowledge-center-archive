@@ -271,9 +271,7 @@ You can click on current, closed, agents and skills:
 * If you choose the KPI arrangement tab, you can play with how you display the **KPI section** and the KPIs inside of them. The first arrows on the right side allow you to move the sections around. If you click the left hand arrow, you can arrange the KPIs within that specific section as you wish.
 
 {: .sidebyside}  
-![](/img/real-time-messaging-dashboard-overview11.png)
-
-![](/img/real-time-messaging-dashboard-overview12.png)
+![](/img/real-time-messaging-dashboard-overview11.png) ![](/img/real-time-messaging-dashboard-overview12.png)
 
 The reset button on the bottom left resets to the initial configuration.
 
