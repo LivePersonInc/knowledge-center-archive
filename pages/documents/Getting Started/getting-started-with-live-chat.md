@@ -65,7 +65,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in campaigns.
 
-**2. Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
+2\. **Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
 
     * Photo sharing (consumer to agent)
     * Structured content (cards, carousels, lists)

@@ -75,9 +75,7 @@ The add group button will be enabled once you select a parent group from the lis
 
      ![](/img/pasted image 0 (4).png)
 5. Click save. The edit agent group window closes and the agent group list is displayed.
-6. Click the group you edited. The edit agent group window now shows the group members that you added in the Member’s Name table.
-
-![](/img/pasted image 0 (5).png)
+6. Click the group you edited. The edit agent group window now shows the group members that you added in the member’s name table.
 
 ### To edit an agent group:
 

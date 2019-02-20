@@ -165,8 +165,9 @@ On the brand's website URL, there is a **"redirect_uri"** parameter which contai
 
 **Code sample:**
 <br/>
-`  var urlParams = getUrlParams(window.location.search);
-window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode;`
+
+' var urlParams = getUrlParams(window.location.search);
+window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode;
 
 ### **Configuring the login page redirect**
 
