@@ -19,7 +19,7 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
-To learn more about setting up your control groups, [click here]().
+To learn more about setting up your control groups, [click here](contact-center-management-campaigns-managing-campaigns.html#measuring-success-using-control-groups).
 
 ### 2. Button refresh
 
@@ -33,13 +33,13 @@ With button refresh, brands have the ability to refresh the state of the engagem
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**.
 
-To learn more about running campaigns with multiple engagements, [click here]().
+To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html).
 
 ### 4. Busy State
 
 LiveEngage offers a variety of creative engagements to communicate to consumers when no agents are online (during off-hours) and during busy times when they have no capacity and long wait times are expected. In this way, consumer expectations are managed and potential frustration is avoided. The busy state indicates that at least one agent is online but with no capacity to handle consumers as the expected wait time is longer than the maximum wait time for the skill.
 
-[Click here]() to learn more about the busy state and how it is configured.
+[Click here](contact-center-management-campaigns-managing-campaigns.html#busy-state) to learn more about the busy state and how it is configured.
 
 ### 5. Proactive engagement behavior
 
@@ -59,9 +59,7 @@ By default, after declining a proactive content engagement, other content engage
 
 ### 6. Offsite engagements
 
-Offsite engagements give brands the opportunity to offer chat from any location by creating a URL that consumers can click to begin a private chat conversation. This URL can be embedded to offer chat from social media sites, digital advertisements, email and more.
-
-To learn more about creating and configuring offsite engagements, [click here](https://docs.google.com/document/d/1NazebK1DVznRwhDSAFxW4W1vsXoNjFjNJU6daQ_3M5Q/edit#heading=h.oqdpp9siknp4).
+Offsite engagements give brands the opportunity to offer chat from any location by creating a URL that consumers can click to begin a private chat conversation. This URL can be embedded to offer chat from social media sites, digital advertisements, email and more. Learn more about offsite engagements [below](messaging-channels-live-chat-displaying-chat-engagements.html#offsite-engagements). 
 
 ### 7. Optimizing the mobile experience
 
@@ -161,9 +159,7 @@ Once you’ve finished creating your engagement, follow these steps to publish i
 
 ### Target audience for offsite engagements
 
-As opposed to onsite engagements in which LivePerson servers evaluate consumer eligibility for an engagement before the engagement is displayed, for offsite engagements, eligibility evaluation is performed after consumers click the engagement URL.
-
-If consumers are not eligible, they will receive the Offline Survey configured in the Engagement Window.
+As opposed to onsite engagements in which LivePerson servers evaluate consumer eligibility for an engagement before the engagement is displayed, for offsite engagements, eligibility evaluation is performed after consumers click the engagement URL. If consumers are not eligible, they will receive the Offline Survey configured in the Engagement Window.
 
 For example, if you have set up a campaign targeting UK consumers only and a consumer from France clicks the Engagement URL, they will be redirected to the offline survey you configured in the Engagement Window.
 
