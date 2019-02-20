@@ -68,7 +68,7 @@ There are three methods to login to the real time dashboard:
 
 4\. You will be redirected to a LiveEngage login page and can continue to login as normal
 
-5. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
+1. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
 {: .notice}  
 If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
@@ -148,7 +148,7 @@ The metrics available in this section all relate to closed conversations only:
 * **Assign to response time**: see definition from Current KPI section
 * **First response time**: see definition from Current KPI section
 * **First assignment time:** see definition from Current KPI section
-* **Wait time:__ see definition from Current KPI section*
+* *_Wait time:__ see definition from Current KPI section_
 * **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
 **Note:** Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide).
@@ -275,7 +275,7 @@ You can click on current, closed, agents and skills:
 
 The reset button on the bottom left resets to the initial configuration.
 
-# Additional functions
+## Additional functions
 
 **The menu on the top right corner:**
 
