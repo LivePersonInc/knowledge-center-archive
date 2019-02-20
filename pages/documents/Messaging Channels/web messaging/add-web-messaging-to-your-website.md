@@ -40,15 +40,28 @@ If you’re adding web messaging for the first time, you’ll need to grab the L
 
 Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developers Community](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
-### Sales & conversion tracking
+## 3. Review conversation history length (for unauthenticated messaging)
+
+When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of conversations can continue.
+
+While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
+
+When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond. The idle time should be longer than SLA.
+
+Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
+
+{: .notice}  
+The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
+
+## 4. Sales & conversion tracking
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
-1. Define your Currency: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video. 
-2. Cross session period: Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
-3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
+1. **Define your currency**: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html). 
+2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
+3. **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
-## 3. Creating a campaign
+## 5. Creating a campaign
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
@@ -56,15 +69,15 @@ To create a new one, simply click “**Add campaign**” at the bottom of the ca
 
 When creating a campaign, you first need to define the following:
 
-* Business goal
-* Target audience
-* Time frame
+* [Business goal](contact-center-management-campaigns-campaign-goals.html)
+* [Target audience](contact-center-management-campaigns-target-audience.html)
+* [Time frame](contact-center-management-campaigns-time-frame.html)
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
-## 4. Designing the buttons & window
+## 5. Designing the buttons & window
 
-You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
+You can now begin [creating banners or buttons](contact-center-management-campaigns-creating-buttons-and-banners.html) to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
 **To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
@@ -112,19 +125,6 @@ The engagement studio page is where you **design your button or banner to suit t
 The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design,[ click here]().
 
 Once your settings are complete, click **next**.
-
-#### Review conversation history length (for unauthenticated messaging)
-
-When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of conversations can continue.
-
-While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
-
-When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond. The idle time should be longer than SLA.
-
-Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
-
-{: .notice}  
-The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
 
 ### Entry point
 
