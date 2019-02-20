@@ -51,15 +51,15 @@ To filter by agent group in all connections, click on the filter icon next to th
 
 ## Viewing engagements over time using the Report Builder dashboards
 
-Using the agent manager [Report Builder dashboards]() you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
+Using the agent manager [Report Builder dashboards](data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
 
 In some cases, when agent managers are also configured to take conversations, they may impact the group statistics. For example, the agent manager status is usually **away** and will be “online” only when they are needed to take conversations. This might impact the group’s utilization KPIs. If you wish to include or exclude manager activities from the report, check/uncheck the 'is manager indicator' checkbox.
 
 Groups are an efficient way to logically organize and manage the users in your organization. They save you time performing administrative actions: you have the ability to define, modify and set configurations for a group of agents as a mass instead of defining it many times per each user.
 
-### Adding a new agent group
+## Adding a new agent group
 
-The **Add group** button will be enabled once you select a parent group from the list. The new group will be set as the subgroup of the selected group.
+The add group button will be enabled once you select a parent group from the list. The new group will be set as the subgroup of the selected group.
 
 ### To add a new group:
 
@@ -74,8 +74,8 @@ The **Add group** button will be enabled once you select a parent group from the
    * Add members to the group
 
      ![](/img/pasted image 0 (4).png)
-5. Click save. The Edit agent group window closes and the agent group list is displayed.
-6. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
+5. Click save. The edit agent group window closes and the agent group list is displayed.
+6. Click the group you edited. The edit agent group window now shows the group members that you added in the Member’s Name table.
 
 ![](/img/pasted image 0 (5).png)
 

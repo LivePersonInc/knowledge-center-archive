@@ -164,7 +164,8 @@ To configure authentication in a separate browser window, proceed as follows:
 On the brand's website URL, there is a **"redirect_uri"** parameter which contains the **Authentication Endpoint** of the website. If the **redirect_uri** parameter was provided, execution of the visitor's authentication process starts by redirecting the visitor to **login page** (in an external window). Once the **login page** receives authentication, the authentication code is integrated and the page is redirected back to the separate browser window (the URL exists in the URL "redirect_uri" parameter).
 
 **Code sample:**
-`| --- | |  var urlParams = getUrlParams(window.location.search);window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode; |`
+window.location.href = urlParams.redirect_uri + "&" + urlParams.response_type + "=" + authCode;
+``
 
 ### **Configuring the login page redirect**
 

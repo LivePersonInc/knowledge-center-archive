@@ -85,8 +85,8 @@ Read more about [creating buttons and banners](contact-center-management-campaig
 
 ## Step 5: Fine tune operations for greater efficiencies
 
-* Queue Prioritization: rank the order in which oncoming conversations come into the agent queue
-* Automatic Conversation Distribution: how incoming chats are distributed amongst your agents
-* Workload distribution between agent groups
-* How to Use 'Ignore Max Wait Time
-* Wrap-up time for chat
+* [Queue prioritization](contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html) to rank the order in which conversations enter the agent queue
+* [Automatic Conversation Distribution](contact-center-management-live-chat-operations-automatic-conversation-distribution.html) to distribute incoming chats amongst agents
+* [Workload distribution](contact-center-management-live-chat-operations-agent-groups-workload-distribution.html) between agent groups for better efficiency 
+* [Managing the maximum wait times](contact-center-management-live-chat-operations-managing-maximum-wait-times.html)
+* [Wrap-up time for chat](contact-center-management-live-chat-operations-wrap-up-time.html)
