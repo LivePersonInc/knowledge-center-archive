@@ -35,24 +35,24 @@ LivePerson is the most advanced platform for any size organization, offering a s
 
 ## Step 1: Set up data for accurate tracking
 
-Adding more data will enable you to do three things within LivePerson: better target customers, arm agents with more information, and get more granular and accurate reporting.
+Adding more data will enable you to better target customers, arm agents with more information, and get more granular and accurate reporting.
 
-In addition to adding the LivePerson tag to all your website pages, you can also do the following:
+In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) to website pages, brands can also:
 
-* Send LivePerson information about your consumers such as items added to their shopping cart, account status and more. We call these engagement attributes.  Developers can add engagement attribute tracking directly into the LivePerson tag. Another way to send attributes to LivePerson is by a method called scraping.
-* Determine the attribution model.  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
-* If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
+* Send [engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html) - information about consumers, such as items added to a shopping cart, account status and more - to LivePerson for reporting purposes. Engagement attributes, such as conversions, can be tracked across different sessions or customer visits. Developers can add engagement attribute tracking directly into the LivePerson tag or by scraping.
+* Determine the [attribution model](data-reporting-engagement-attributes-attribution-model.html) to enables brands to select how to attribute cross session conversions to agents who handled the conversation.
+* Set up LivePerson to track [multiple currencies](data-reporting-engagement-attributes-multi-currency.html) if needed for accurate conversion tracking and reporting even across multiple countries.
 
 ## Step 2: Customize your account settings
 
-1. **Account security settings**: review the security recommendations and apply standards based on your brands requirements.
-2. Account Administration:
-   * **Skills**: set up or import the list of skills that you’d like conversations routed to
-   * **Users**: set up or import the list of all agents, managers or administrators
-   * groups/LOB: set up groups or lines of business to reflect how your contact center is organized.  		These will reflect in your reporting, as well as enable filtering for agents and managers to only 		see conversations and data relevant to them
-   * **Permissions**: you can customize what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
-   * **Timezone**: set up the timezone of your account for timestamp and reporting purposes
-   * **Languages**: setup the language for Agent Workspace.  For a list of available languages, click 		here
+1. **Account security settings**: review the [security recommendations](security-regulations-security-account-security-recommendations.html) and apply standards based on your brands requirements.
+2. **Account Administration:**
+   * **Skills** - set up or import the [list of skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) that you’d like conversations routed to.
+   * **Users** - set up or import the [list of agents](admin-settings-create-and-manage-users.html), managers or administrators.
+   * **Groups/LOB** - [set up groups or lines of business](contact-center-management-campaigns-campaign-settings.html) to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
+   * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
+   * **Timezone** - [set up the time zone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
+   * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
 
 ## Step 3: Connect to your channels of choice
 
@@ -97,17 +97,17 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 1. **Secure forms**: you can take payments or verify secured identify of customers using the pci-compliant secure form within the conversation window.
 
 {: .notice}  
-Instructions for designing customer experience elements such as banners and chat window UI can be found within each of the channel set up guides (linked above).
+Instructions for designing customer experience elements such as banners and messaging window UI can be found within each of the channel set up guides (linked above).
 
-## Step 5: Define the  agent experience
+## Step 5: Define the agent experience
 
-1. **Predefined answers**: create or import a database of answers that your agents can quickly enter into the conversation, saving them valuable typing time. These can be defined by skill and by language.
-2. **Custom agent tools**: within the agent workspace, ‘widgets’ contain additional tools, webpages or applications that agents can use during the conversation.  The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.
-3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’.  These status affect the flow of new incoming conversations to the agents.  You can customize the states agents can choose from to get better granularity on agent tiem reporting - e.g. create an away state for training.
-4. **Configure cobrowse**: For high touch conversations, agents can connect to customers screens and conduct a cobrowse session.  Administrators can define and determine which agents have this capability.
-5. **Warm up**: In order for agents to start their shifts smoothly and be able to ‘warm up’ to the flow of conversations, you can configure LivePerson to assign conversations to the agents gradually.
-6. **Agent Guide**: Get your agent trained on how to take messages.  Note that agent training should include your business processes as well as best practices for conducting conversations.  LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, visit the LivePerson University or contact your account team for specialized training.
-7. **SSO Login**: you have the option to connect LivePerson to your company’s secured hub for SSO integration.
+1. **Predefined answers**: create or import a database of [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
+2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [**widgets**](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
+3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.
+4. **Configure CoBrowse**: For high touch conversations, agents can connect to customers screens and conduct a [CoBrowse session](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).  Administrators can define which agents have this capability.
+5. **Warm up**: In order for agents to [prepare to start shifts smoothly](contact-center-management-messaging-operations-preparing-agents-to-start-a-shift.html), LivePerson can be configured to assign conversations to the agents gradually giving agent the proper warm up’ to the flow of messaging conversations, you can configure 
+6. **Agent guide**: Agent training should include your business processes as well as best practices for conducting messaging conversations. LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, ask account team for specialized training and the LivePerson University.
+7. **SSO Login**: brands have the option to connect LivePerson to their company’s secured hub for [SSO integration](Security-regulations-SSO-unified-login.html).
 
 ## Step 6: Manage the operational elements
 
