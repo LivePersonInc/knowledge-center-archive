@@ -24,7 +24,7 @@ It’s also possible for brands to create profiles - customized permissions sets
    * The login name can be entered in English, numbers or special characters only. Once entered, the login name cannot be changed.
    * The name as it appears in LiveEngage.
    * The nickname is the name that will be displayed to the visitors in the chat.
-3. Set a password with a minimum of eight (8) characters. Click **save**.
+3. Set a password with a minimum of eight (8) characters. Click save.
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
@@ -35,13 +35,13 @@ It’s also possible for brands to create profiles - customized permissions sets
 * Set the maximum number of chats that the user can accept at any given moment. Consider your agent’s capabilities, the number of agents available, etc.
 * If your brand is enabled with the messaging feature, set the maximum number of messaging conversation.
 
-#### There are 2 options for this setting:
+#### There are two options for this setting:
 
 a) You can set it to inherit it from the account level setting that can be configured through the footnote in the Users tab. Any change to the account level setting will impact all agents defined with setting.
 
 b) You can custom set it, meaning any change to the account level setting won’t change it for users set with the custom setting.
 
-For visitors to be routed to the appropriate agent when they initiate a chat, assign the user a skill:
+For visitors to be routed to the appropriate agent when they initiate a chat, assign the user a [skill](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html):
 
 a) Select a skill from the menu by clicking the skills field and selecting an existing skill, or
 
@@ -71,9 +71,9 @@ Agents who are not assigned to skills can only accept chats originated by engage
 {: .notice}  
 When duplicating a user, the administrator will still need to complete the following fields: login name, email, name, nickname, employee ID and password.
 
-### To enable\\disable a user
+### To enable \\ disable a user
 
-1. On the Users list, click the user.
+1. On the users list, click the user.
 2. Click the enable button.
 3. Click save.
 
