@@ -119,6 +119,9 @@ Additional instructions for designing customer experience elements such as [bann
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.
 
 {:start="4"}
-2\. **Smart capacity**: this replaces the traditional utilization rate, and dynamically fills agent workload with conversations, taking active and inactive states into consideration.
-3\. **Response time**: you can determine the SLA, or how quickly each skill should respond to incoming messages.  These metrics will help to route conversations, manage agents queues as well as in reporting.
-4\. **Auto close:** for conversation that are inactive, you can enable and configure the ‘automatic close’ capability.  This will help to clear agent workspaces as well as focus your resources on active conversations.
+2\. **Smart capacity**: LivePerson's proprietary [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) replaces the traditional agent capacity rate, and dynamically fills agent workload with conversations by taking active and inactive states into consideration. 
+
+3\. **Response time**: determine the SLA or how quickly each skill should respond to incoming messages by [configuring response times](contact-center-management-messaging-operations-configuring-response-times.html).  These metrics help route conversations and manage agents queues, including in reporting.
+
+
+4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear agent workspaces as well as focus resources on active conversations.
