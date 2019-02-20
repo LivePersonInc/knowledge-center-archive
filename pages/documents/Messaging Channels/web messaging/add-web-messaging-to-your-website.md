@@ -10,6 +10,7 @@ permalink: messaging-channels-web-messaging-add-web-messaging-to-your-website.ht
 isTutorial: false
 date: 2019-01-16 17:31:38 +0000
 isNew: false
+published: false
 
 ---
 Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](messaging-channels-messaging-connectors-overview.html).
@@ -101,11 +102,11 @@ Select if you want the engagement to lead to a messaging conversation or to a si
 You can select one of these security methods for your conversation:
 
 * **Authenticated**: Conversations can have a layer of security, or authentication, for brands looking to add messaging to pages within the logged in area of their website. By configuring your buttons for authenticated pages, they can be fully branded and responsive for both desktop and mobile.
-* **Unauthenticated** For unauthenticated engagements, disable the toggle. Unauthenticated engagements will display on both authenticated and unauthenticated pages.
+* **Unauthenticated** For unauthenticated engagements, disable the toggle. Unauthenticated engagements will display on both [authenticated](messaging-channels-web-messaging-authenticated-web-messaging.html) and unauthenticated pages.
 
 #### Routing
 
-Under routing, you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
+Under [routing](contact-center-management-messaging-operations-routing-logic-overview.html), you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
 
 #### Window presentation
 
