@@ -31,7 +31,7 @@ LivePerson is the most advanced platform for any size organization, offering a s
 * **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including predefined content and custom widgets.
 * **Management & operations**: set up all agents [skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) and LOBs, routing, agent capacity, and [queue priority](contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html).
 
-This guide will provide a checklist for actions you can take for each of the above areas.
+Now, go through this checklist to ensure you take for each of the above areas.
 
 ## Step 1: Set up data for accurate tracking
 
