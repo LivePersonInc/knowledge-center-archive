@@ -19,7 +19,7 @@ At the bottom of the campaign screen click to open the data sources link
 
 eCommerce info attributes allow you to track the eCommerce activities of your visitors:
 
-* **Cart update:** Use cart update attributes to get the status of the visitor’s shopping cart before they make a purchase - the products within the cart, and its total monetary value.  
+**Cart update:** Use cart update attributes to get the status of the visitor’s shopping cart before they make a purchase - the products within the cart, and its total monetary value.  
   {: .notice}
 
 For brands operating in multiple currencies, a currency attribute can also be reported for cart total.
