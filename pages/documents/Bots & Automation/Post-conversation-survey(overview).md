@@ -232,13 +232,13 @@ Once enabled, make sure to fill in the desired text in the Text Fallback Tab.
 
 ![](/img/post-conversation-survey-user-guide10.png)
 
-The Predefined Messaging Performance Dashboard has been enhanced to include a dedicated “Survey Data Export” sheet containing an in-depth analysis of the new Messaging Post-Conversation Survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
+The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in [Report Builder](data-reporting-report-builder-report-builder-overview.html) are based on the ones configured in the LiveEngage Bot Studio.
 
 The new sheet contains an additional set of metrics and attributes which support the following analysis:
 
-* Predefined KPIs at the Agent & Skill level: CSAT, NPS, and FCR (precalculated)
-* Detailed Brand-level answer distribution per each configured question and answer
-* Detailed “Agent and Skill”-level answer distribution per each question and answer
+* Predefined KPIs at the Agent & Skill level: CSAT, NPS, and FCR (pre-calculated)
+* Detailed brand-level answer distribution per each configured question and answer
+* Detailed “agent and skill”-level answer distribution per each question and answer
 * Survey activity and performance, allowing to monitor the response rates for example
 * Question level performance, allowing to monitor the avg. time to respond for example
 
@@ -267,7 +267,7 @@ For more details on this please click the “Learn more” link located at the b
 
 On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
-* If both PCS and Old CSAT are enabled, PCS gets the priority and the old CSAT question won’t be displayed.
+* If both PCS and old CSAT are enabled, PCS gets the priority and the old CSAT question won’t be displayed.
 * If the conversation ends on a device that doesn’t support PCS (for example an app running SDK v3.2 or lower) then the old CSAT question may appear, assuming it was configured to appear.
 * If the conversation ends with a skill on which there is not PCS defined, the old CSAT question may appear, if it was enabled.
 
@@ -279,7 +279,7 @@ The help section which includes tutorials is made available to you after you cre
 
 ### Q: I see that I have missing info in bricks but I’m not sure what it means.
 
-A: Make sure that:
+Make sure that:
 
 * All actions are populated and make sense. If you chose a ‘Continue sequence’ action for a brick, make sure that there is another brick that follows it in the sequence.
 * Also, make sure that the “Text Fallback” Tab has some text defined in it. Without it (assuming the “supported on textual channel is enabled in the settings) you won’t be able to publish to AC.
@@ -287,30 +287,28 @@ A: Make sure that:
 
 ### Q: I configured the post conversation survey but when the conversation ends I get the old CSAT question survey? Why?
 
-A: Make sure that the conversation ends with a skill that is mapped to the survey you’ve created. The survey mapping is done when you create the survey and it could also be edited by pressing the “Edit survey details” within the survey gallery.
+Make sure that the conversation ends with a skill that is mapped to the survey you’ve created. The survey mapping is done when you create the survey and it could also be edited by pressing the “Edit survey details” within the survey gallery.
 
 ### Q: I don’t see the latest changes I have made to the survey when I end the conversation. Why is that?
 
-A: In order for the changes you make in the Bot Studio to take effect in realtime you need to first publish those changes. Make sure that your survey is fully
-
-published by pressing the Publish button in the Survey Editor screen and start a new conversation for it to take effect.
+In order for the changes you make in the Bot Studio to take effect in realtime you need to first publish those changes. Make sure that your survey is fully published by pressing the Publish button in the Survey Editor screen and start a new conversation for it to take effect.
 
 ### Q: I elevated my LPA user to have Admin permissions, but I keep getting an error when trying to add the Bot.
 
-A: Please contact NOC and ask to move your LPA to the “LPA Product” group or to add the “view messaging survey” & “edit messaging survey” permissions to your existing LPA group.
+Please contact NOC and ask to move your LPA to the “LPA Product” group or to add the “view messaging survey” & “edit messaging survey” permissions to your existing LPA group.
 
 ### Q: I created a bot that was assigned with the “Survey bot” profile using the LiveEngage user creation UI. Why can’t I add it in the Bot Studio?
 
-A: The survey bot user is actually added automatically by the Bot Studio when you press the “Add survey bot” in the Bot Studio UI. This means that the Admin doesn’t need to create a bot user before going to the Bot Studio. To resolve the issue, delete any bot user that was assigned with the “Survey bot” profile and try to add the bot again using the Bot Studio.
+The survey bot user is actually added automatically by the Bot Studio when you press the “Add survey bot” in the Bot Studio UI. This means that the Admin doesn’t need to create a bot user before going to the Bot Studio. To resolve the issue, delete any bot user that was assigned with the “Survey bot” profile and try to add the bot again using the Bot Studio.
 
 ### Q: I added a survey bot using the Bot Studio but I can’t see its user in the LiveEngage UI. Why is that?
 
-A: When the Bot Studio create the survey bot user it is created as a system user. This means that the survey bot user doesn’t appear as an Agent in LiveEngage.
+When the Bot Studio create the survey bot user it is created as a system user. This means that the survey bot user doesn’t appear as an agent in LiveEngage.
 
 ### Q: On Facebook, whenever I send out an NPS question in which the skip button was added, the conversation ends abruptly. why?
 
-A: Unfortunately, Facebook doesn’t support sending structured content that has more than 11 quick replies. NPS question + skip is 12 quick replies.
+Unfortunately, Facebook doesn’t support sending structured content that has more than 11 quick replies. NPS question + skip is 12 quick replies.
 
 ### Q: Something has changed in my survey and I’m not sure who made the change. How can I find this out?
 
-A: The post conversation survey is tracked by Audit Trail. Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.
+The post conversation survey is tracked by [Audit Trai](security-regulations-audit-trail.html)l. Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.
