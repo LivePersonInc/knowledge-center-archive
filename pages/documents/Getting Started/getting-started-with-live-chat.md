@@ -41,7 +41,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 * Send LivePerson information about your consumers such as items added to their shopping cart, account status and more. We call these engagement attributes.  Developers can add [engagement attribute](data-reporting-engagement-attributes-setting-up-engagement-attributes.html) tracking directly into the LivePerson tag. Another way to send attributes to LivePerson is by a method called scraping.
 * Determine the [attribution model](data-reporting-engagement-attributes-attribution-model.html).  Often times, consumers don’t purchase something on their first visit to your site.  Engagement attributes such as conversions can be tracked across different sessions, or customer visits. The attribution model enables you to select how you want to attribute cross session conversions to agents who handled the conversation.
-* If you sell into multiple countries and enable various currencies, you can set up LivePerson to track multiple currencies for purposes of accurate conversion tracking and reporting.
+* Set up LivePerson to track [multiple currencie](data-reporting-engagement-attributes-multi-currency.html)s if needed for purposes of accurate conversion tracking and reporting.
 
 ## Step 2: Add users and account settings
 
