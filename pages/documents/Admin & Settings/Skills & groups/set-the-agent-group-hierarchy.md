@@ -66,14 +66,14 @@ The add group button will be enabled once you select a parent group from the lis
 1. On the Users tab go to the Agent Group list.
 2. Select the parent group from the list.
 
-   ![](/img/pasted image 0 (3).png)
+![](/img/pasted image 0 (3).png)
 3. Click add group or click the action menu, and then click add.
 4. Fill in group details:
    * Type a group name
    * Type the name of the user(s) you want to assign as a manager(s)
    * Add members to the group
 
-     ![](/img/pasted image 0 (4).png)
+![](/img/pasted image 0 (4).png)
 5. Click save. The edit agent group window closes and the agent group list is displayed.
 6. Click the group you edited. The edit agent group window now shows the group members that you added in the member’s name table.
 
