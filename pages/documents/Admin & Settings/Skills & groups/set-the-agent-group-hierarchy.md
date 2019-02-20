@@ -41,12 +41,13 @@ Initially all agents are members of the main agent group. Once an agent is moved
 
 ## Viewing conversation transcripts
 
-In the web history and all connections tabs you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
+In the [web history](agent-manager-workspace-manager-tools-for-live-chat-web-history.html) and [all connections tabs](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
 
 ![](/img/pasted image 0 (2).png)
 
-* To filter by agent group in **web history,** click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
-* To filter by agent group in **all connections**, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click **filter**. The page will now refresh to show data only from the agent group(s) selected.
+To filter by agent group in web history, click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
+
+To filter by agent group in all connections, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
 ## **Viewing engagements over time using the Report Builder dashboards**
 
@@ -66,19 +67,19 @@ The **Add group** button will be enabled once you select a parent group from the
 2. Select the parent group from the list.
 
    ![](/img/pasted image 0 (3).png)
-3. Click **Add group** or click the **Action** menu, and then click **Add**.
+3. Click add group or click the action menu, and then click add.
 4. Fill in group details:
-   * Type a group name.
-   * Type the name of the user(s) you want to assign as a manager(s).
-   * Add members to the group.
+   * Type a group name
+   * Type the name of the user(s) you want to assign as a manager(s)
+   * Add members to the group
 
      ![](/img/pasted image 0 (4).png)
-5. Click **save**. The Edit agent group window closes and the agent group list is displayed.
+5. Click save. The Edit agent group window closes and the agent group list is displayed.
 6. Click the group you edited. The Edit agent group window now shows the group members that you added in the Member’s Name table.
 
 ![](/img/pasted image 0 (5).png)
 
-### **To edit an agent group:**
+### To edit an agent group:
 
 1. Click on the agent group you want to edit. The edit agent group page will open.
-2. After making your changes, click **save**.
+2. After making your changes, click save.
