@@ -40,12 +40,12 @@ If you’re adding web messaging for the first time, you’ll need to grab the L
 
 Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developers Community](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
-### Conversion tracking
+### Sales & conversion tracking
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
-1. Define your Currency - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video. 
-2. Cross session period - Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
+1. Define your Currency: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, watch this video. 
+2. Cross session period: Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. Conversion Attribution model: In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
 ## 3. Creating a campaign
