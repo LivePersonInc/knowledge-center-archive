@@ -76,7 +76,7 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 ## 5. Designing the buttons & window
 
-You can now begin [creating banners or buttons](contact-center-management-campaigns-creating-buttons-and-banners.html) to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
+You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
 **To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
@@ -84,11 +84,11 @@ You can now begin [creating banners or buttons](contact-center-management-campai
 
 ### Template gallery
 
-The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
+The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format [here](contact-center-management-campaigns-creating-buttons-and-banners.html).
 
 ### Engagement settings
 
-From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content here.
+From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
 
 ![](/img/add-web-messaging-to-your-website-2.png)
 
