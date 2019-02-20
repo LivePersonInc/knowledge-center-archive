@@ -21,8 +21,8 @@ Each group can have a manager(s) who is capable of viewing the data of their gro
 
 ![](/img/pasted image 0.png)
 
-* Group B’s managers can view the data of groups B, D and E only.
-* Group C’s managers can view group C data only.
+{: .notice}  
+Group B’s managers can view the data of groups B, D and E only and Group C’s managers can view group C's data only.
 
 ## Managing agent groups
 

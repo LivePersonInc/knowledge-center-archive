@@ -18,7 +18,7 @@ The following document guides you through creating authenticated web messaging. 
 
 ## **Why use authentication?**
 
-Authenticated Customer Information increases the security of the communication as the customer’s identity is verified. It also increases the efficiency of agents and ensures that each consumer receives a personalized service. Finally, it enables brands to expand the types of services they offer to consumers during conversations, for example:
+Authenticated customer information increases the security of the communication as the customer’s identity is verified. It also increases the efficiency of agents and ensures that each consumer receives a personalized service. Finally, it enables brands to expand the types of services they offer to consumers during conversations, for example:
 
 * **Making purchases easier for existing consumers:** Once the consumer has logged into the brand's website, LiveEngage automatically brings the consumer's PII to the Agent Workspace, including the account number, package details, billing history, and other relevant account info. The conversation can immediately proceed to the new purchase, without the consumer having to identify themselves or make explanations about their account. The agent can manage the inquiry quickly as they don’t have to open another application to get the information they need.
 * **Facilitating billing and payment conversations**: Once the consumer has logged into the brand’s website and started a conversation with an agent, the agent can quickly identify the most cost-effective way for the consumer to pay, according to the PII exposed during the authenticated chat.
@@ -51,7 +51,7 @@ Agent engages consumer in a messaging window, displaying history from previous c
 
 With messaging statuses such as ‘read’ and ‘time to respond’, agents and visitors know at a glance where the conversation stands. Agents can see consumer details such as which device they are using and details about the campaign that initiated the conversation.
 
-LiveEngage enables agents and consumers to ‘end’ a conversation when the issue at hand is resolved. All closed conversations will remain as a connection and can be resumed either by the agent or the consumer. Agents can use this tool to strengthen and build the connection to the consumers they engaged with.
+LivePerson enables agents and consumers to ‘end’ a conversation when the issue at hand is resolved. All closed conversations will remain as a connection and can be resumed either by the agent or the consumer. Agents can use this tool to strengthen and build the connection to the consumers they engaged with.
 
 ## **Develop your hosted authentication flow**
 
@@ -59,7 +59,7 @@ The authentication flow is the process by which the user is authenticated agains
 
 Authentication integration has several flows:
 
-* Issuing visitor token - For this process, the brand’s website needs to connect to the Authentication backend and request a valid token.
+* Issuing visitor token - For this process, the brand’s website needs to connect to the authentication backend and request a valid token.
 * Token validation - The validation of the token against the brand’s authentication service.
 * Token expiration and renewal.
 
@@ -88,7 +88,7 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 
 {:start="3"}
 
-1. Next to the authentication server, click **Configure**.  The Authentication Server page is displayed.
+1. Next to the authentication server, click **configure**.  The Authentication Server page is displayed.
 
 ![](/img/authenticated-web-messaging-3.png)
 
@@ -131,7 +131,7 @@ For more information regarding the Monitoring API, please refer to the [Monitori
 
 The engagement window can be created and customized like all other messaging windows in LivePerson.
 
-In addition, there additional options for authenticated windows.
+In addition, there additional options for authenticated windows:
 
 ### **Clearing history (consumer side)**
 
@@ -232,15 +232,16 @@ QueryParams
 
 ## **Showing attributes for agents**
 
-Engagement attributes (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace. Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
+[Engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) (EAs) passed by the brand can include important information that the agent should consider in real time, while engaging with customers. This feature will display unauthenticated EAs passed in a conversation within the Agent Workspace. Any EAs passed 12 hours before a conversation has started, and 12 hours after a conversation has ended, will be attributed to the conversation.
 
 EAs will be presented in the Agent Workspace in several areas:
 
 1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
 2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
-{: .notice}
-In order to enable, please contact your LivePerson representative.
+{: .notice} 
+
+To enable, please contact your LivePerson representative.
 
 ## **Limitations and Tips**
 
