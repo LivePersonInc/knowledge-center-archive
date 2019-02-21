@@ -13,7 +13,7 @@ date: 2019-02-06 11:56:51 +0000
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
 {: .important}
 
@@ -171,7 +171,7 @@ In the Engagement Window Action Menu the word ‘Transcript’ in Dutch is spell
 * The text that shows: ‘Transscript per e-mail’ and ‘Transscript afdrukken’.
 * The text that should show: ‘Transcript per e-mail’ and ‘Transcript afdrukken’.
 
-This issue has now been resolved.
+**This issue has now been resolved.**
 
 ### French abbreviations for date/month in visitor chat window are incorrect (LE-93926)
 
@@ -276,4 +276,4 @@ A conflict was discovered in code between the window and the customer’s page, 
 </tbody>
 </table>
 
-In IE11, if you attempt to type a message in the Unified Window, the placeholder text continues to show, and it doesn't clear when the consumer attempts to type their message. This bug is now resolved.
+In IE11, if you attempt to type a message in the Unified Window, the placeholder text continues to show, and it doesn't clear when the consumer attempts to type their message. **This bug is now resolved.**
