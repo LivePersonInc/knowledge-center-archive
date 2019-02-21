@@ -7,12 +7,12 @@ subtitle: Track your agents’ status in real time
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-live-chat-the-all-agents-list.html
 isTutorial: false
-date: 2019-01-21 14:36:22 +0200
+date: 2019-01-21 12:36:22 +0000
 
 ---
 The agent list enables the agent manager to keep up to date with the agents’ work and to adjust their workload according to the availability and concurrency of agents, even if they work in different locations.
 
-The Agent List appears in the Visitor tab and provides agent managers with the ability to track the statuses of agents in real time; every 10 seconds the data refreshes. The data bar provides an overview of the agent’s status and performance, and the columns provide the following detailed information:
+The agent list appears in the Visitor tab and provides agent managers with the ability to track the statuses of agents in real time; every 10 seconds the data refreshes. The data bar provides an overview of the agent’s status and performance, and the columns provide the following detailed information:
 
 * **Agent Status -** online/away/back soon
 * **State duration -** time elapsed since agent entered current state
