@@ -95,7 +95,6 @@ In order to enable the feature via AC features and site settings, please contact
 ![](/img/SCC6 (1).jpg)
 
 {: .start="4"}
-
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
    * **JSON scaffolding**  
