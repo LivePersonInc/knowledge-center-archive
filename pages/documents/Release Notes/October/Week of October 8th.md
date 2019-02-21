@@ -80,6 +80,7 @@ This feature requires enablement - please contact your LivePerson account team
 {: .sidebyside}
 ![](/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](/img/week-of-october-8th-2.png)
 
+
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
 <table>
