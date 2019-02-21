@@ -50,15 +50,15 @@ Please note throughout this document, when referring to the Engagement window, t
 
 ### Embedded engagement window layout
 
-Below is the Embedded Engagement window with its various components labelled.
+Below is the embedded engagement window with its various components labelled.
 
 ![](/img/access-policy1-2.png)
 
-_Figure 1: The Embedded Engagement window_
+_Figure 1: The embedded engagement window_
 
 ![](/img/accessibility-policy2-1.png)
 
-_Figure 2: The embedded engagement window, Action menu expanded_
+_Figure 2: The embedded engagement window, action menu expanded_
 
 The embedded engagement window layout is as follows (described from top to bottom):
 
