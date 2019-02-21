@@ -134,7 +134,7 @@ This functionality enables the configuration of a push notification proxy throug
 </tbody>
 </table>
 
-An audit trail provides the ability to track changes made to LiveEngage Predefined content. It's needed for several reasons:
+An audit trail provides the ability to track changes made to LiveEngage predefined content. It's needed for several reasons:
 
 * **For customers:** To track changes performed in their LiveEngage account. For Enterprise customers (especially Financial Services), it is required as part of their security regulations.
 * **For Support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
@@ -184,19 +184,13 @@ This feature requires enablement ​- please contact your LivePerson account tea
 </tbody>
 </table>
 
-**Where Do I define Sorting Business Rules?**
+**Where do I define sorting business rules?**
 
-Sorting business rules are defined in site settings under property in site settings:
+Sorting business rules are defined in site settings under property in site settings: messaging.routing.sorting.queue.definitions - definition is JSON based rules
 
-**messaging.routing.sorting.queue.definitions**
+**What is the outcome of defining business rules?** 
 
-The definition is JSON based rules
-
-**What is the outcome of defining business rules?**
-
-Every rule is producing a 'velocity' for conversation.
-
-Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
+Every rule is producing a 'velocity' for conversation. Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
 
 ### Rules Description
 
@@ -413,7 +407,7 @@ Enable the encoded metadata AC feature (contact LP representative) - cannot be e
 
 Sending and receiving encoded metadata is similar to any metadata transfer, as described in the [Conversation Metadata Guide](https://developers.liveperson.com/messaging-agent-sdk-conversation-metadata-guide.html).
 
-**Sending Encoded Metadata**  
+**Sending encoded metadata**  
 To send encoded data, use the metadata input filed: “encodedMetadata”.  
 For example, sending encoded metadata on a publish-event would look like this:
 
@@ -433,7 +427,7 @@ For example, sending encoded metadata on a publish-event would look like this:
 "type": "ms.PublishEvent"  
 }
 
-**Receiving Encoded Metadata**  
+**Receiving encoded metadata**  
 To receive encoded metadata, use the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html) (on Agent side) or [Messaging Window API](https://developers.liveperson.com/messaging-window-api-overview.html) (on Consumer side).
 
 **Data validation**
