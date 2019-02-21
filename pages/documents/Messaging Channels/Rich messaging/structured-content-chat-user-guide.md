@@ -95,7 +95,6 @@ In order to enable the feature via AC features and site settings, please contact
 ![](/img/SCC6 (1).jpg)
 
 {: .start="4"}
-
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
    * **JSON scaffolding**  
@@ -107,7 +106,7 @@ In order to enable the feature via AC features and site settings, please contact
    * Define the metadata ExternalID that will be returned to LiveEngage when an element in the Structured Content is clicked. This is important for reporting on consumer interaction with the Structured Content element. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-getting-started.html#metadata).
    * Integrate your data model to benefit from full and detailed reporting, enabling you to assess the impact of structured content usage.
 
-     Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
+Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
 ## Notes
 
