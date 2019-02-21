@@ -70,15 +70,15 @@ Example of a secure form in use:
 
 ![](https://lh3.googleusercontent.com/jREa2lYO8dtJiKOf3wI3oImlq-8z-mpIr7k0p0NCoXKU2CwqpglNIDEplCX3JVh9z8QuFfw3fEEKx3vCBJX_bhTyy_VFmiXnIbpyQlSitvXmRSyQLB_X0nHP6WBD7710pCP2241v =624x331)
 
-Figure 2: LivePerson secure form within an engagement window interaction
+_Figure 2: LivePerson secure form within an engagement window interaction_
 
 ## Fully Accessible visitor experience
 
 The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both the desktop and mobile web (iOS and Android) and includes:
 
-* Screen reader support: secure forms can be filled out using screen readers for visually impaired visitors.
-* Keyboard operable: secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
-* Improved error handling: Clear error indication and suggested fixes.
+* **Screen reader support:** secure forms can be filled out using screen readers for visually impaired visitors.
+* **Keyboard operable:** secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
+* **Improved error handling**: Clear error indication and suggested fixes.
 
 ## Data flow
 
@@ -86,7 +86,7 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](https://lh5.googleusercontent.com/KzEe2pW7z3DRLqT84XoiF0s8_mXN0r13T2ev89LFWke8uyox3crZy-2UR_z-YYT3whcb38pz-hy2uMe86QIdchJS_nubBKH8xx-Wol8Se4BUk8xWOTqHXO2fEWNzUQeIy0an_-ov =624x380)Figure 3: Secure form visitor to agent flow chart
+![](https://lh5.googleusercontent.com/KzEe2pW7z3DRLqT84XoiF0s8_mXN0r13T2ev89LFWke8uyox3crZy-2UR_z-YYT3whcb38pz-hy2uMe86QIdchJS_nubBKH8xx-Wol8Se4BUk8xWOTqHXO2fEWNzUQeIy0an_-ov =624x380)_Figure 3: Secure form visitor to agent flow chart_
 
 Below is a detailed explanation of the flow of the diagram above:
 
@@ -112,7 +112,7 @@ The secure form solution was designed with strict security parameters to help en
 
 ## Supported browsers
 
-Refer to [system requirements](admin-settings-system-requirements-supported-languages.html) for information about supported browsers.
+Refer to [system requirements](admin-settings-system-requirements.html) for information about supported browsers.
 
 ## Considerations when using secure forms
 
