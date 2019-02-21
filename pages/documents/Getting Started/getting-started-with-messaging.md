@@ -22,6 +22,8 @@ To get the most basic version of messaging up and running, brands need to insert
 2. Create users for the agents that will be taking the conversations. See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, they can begin to answer incoming conversations.
 
+![](/img/getting-started-with-messaging-1-2.png)
+
 {: .notice}
 The basic set up means there will be no routing - every agent will receive all messages
 
@@ -110,8 +112,8 @@ Additional instructions for designing customer experience elements such as [bann
 
 1. **Routing**: [routing conversations](contact-center-management-messaging-operations-routing-logic-overview.html) are configured based on a variety of smart factors brands can control. Brands can also leverage LivePerson's [routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook).
 2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
-   *  [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html) - set up and shifts worked per skill using
-   *  [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
+   * [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html) - set up and shifts worked per skill using
+   * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 
 {:start="3"}
 
@@ -119,9 +121,8 @@ Additional instructions for designing customer experience elements such as [bann
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.
 
 {:start="4"}
-2\. **Smart capacity**: LivePerson's proprietary [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) replaces the traditional agent capacity rate, and dynamically fills agent workload with conversations by taking active and inactive states into consideration. 
+2\. **Smart capacity**: LivePerson's proprietary [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) replaces the traditional agent capacity rate, and dynamically fills agent workload with conversations by taking active and inactive states into consideration.
 
 3\. **Response time**: determine the SLA or how quickly each skill should respond to incoming messages by [configuring response times](contact-center-management-messaging-operations-configuring-response-times.html).  These metrics help route conversations and manage agents queues, including in reporting.
-
 
 4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear agent workspaces as well as focus resources on active conversations.
