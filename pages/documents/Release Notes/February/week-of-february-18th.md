@@ -8,7 +8,7 @@ level3: February
 permalink: release-notes-2019-february-week-of-february-18th.html
 isTutorial: false
 isNew: false
-date: 2019-02-19 15:51:35 +0200
+date: 2019-02-19 13:51:35 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during Feb 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -19,6 +19,42 @@ These release notes include new features arriving to LiveEngage during Feb 2019.
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New Functionality
+
+
+### Messaging interactions API: New intent section in the response and intent filters
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+When accessing the API with "intents" keyword on “ContentToRetrieve” Parameter, the list of conversations will now be retrieved with the addition of 'intents' section, as a data visualization tool. Intent related filters will also be available to filter specific conversations. 
 
 ### Back-end chat: Adding New FaaS Permissions (LE-98895)
 

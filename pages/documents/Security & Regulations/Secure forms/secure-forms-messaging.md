@@ -109,7 +109,7 @@ The secure form solution was designed with strict security parameters to help en
 
 ## Supported browsers
 
-Refer to[ ]()[system requirements](admin-settings-system-requirements-supported-languages.html) for information about supported browsers.
+Refer to[ ]()[system requirements](admin-settings-system-requirements.html) for information about supported browsers.
 
 ## Setting up LivePerson secure forms
 
@@ -309,9 +309,9 @@ The form layout and design will be the same as the web messaging secure form vie
 The form design and colors will be inherited from the default window design elements, which are:
 
 * **Top bar with the form name:** Form name will be displayed as created and will always be blue background (hex color #0363ad). It will always be set with the font “Arial”, color white. Secure form Logo will always be shown
-* **Secure form questions:** Font will always be “Arial”, color gray (hex color #6D6E70) 
+* **Secure form questions:** Font will always be “Arial”, color gray (hex color #6D6E70)
 * **Secure From question placeholder:** Font will always be “Arial”, color gray (hex color #6D6E70)
-*  **Secure form submit button:** Color will always be blue (hex color #0363ad) and font will always be “Arial”, color white
+* **Secure form submit button:** Color will always be blue (hex color #0363ad) and font will always be “Arial”, color white
 * **Secure from header and footer text:** Text will always be set with the font “Arial”
 
 #### User interface (UI)
