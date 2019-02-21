@@ -26,11 +26,11 @@ Agents have the ability to intervene or pick up conversations where needed - wha
 
 The first part of this bot and human tango takes place through our easy-to-use bot builder, the [Conversational Builder](bots-automation-conversation-builder-conversation-builder-overview.html). The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a pre-defined set of templates for common use cases based on our conversation data. Brands can then deploy these out-of-box automations across the most common workflows for each industry with templated bots libraries.
 
-Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too.
+Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. Read more about bot setup and capabilities in the [getting started with bots](getting-started-getting-started-with-bots.html) guide. 
 
 ## Open platform connects to any bot provider (BYOB)
 
-Brands can use LivePerson's native bots, third-party bots, or integrate their own bot technology to 'bring your own bot' (BYOB). Connectors and APIs give enterprises the ability to leverage the right automation for their use cases. LivePerson includes a comprehensive set of management and reporting capabilities that can be used to manage both LivePerson bots or any third-party bots. Any chat bot, created by you or a 3rd party, can be fully integrated into LivePerson and become a vital component of your customer care team.
+Brands can use LivePerson's native bots, third-party bots, or integrate their own bot technology to 'bring your own bot' (BYOB). [Connectors and APIs](getting-started-getting-started-with-bots.html#step-2-implement-automation-and-build-a-bot) give enterprises the ability to leverage the right automation for their use cases. LivePerson includes a comprehensive set of management and reporting capabilities that can be used to manage both LivePerson bots or any third-party bots. Any chat bot, created by you or a 3rd party, can be fully integrated into LivePerson and become a vital component of your customer care team.
 
 ## Build a bot using the Conversation Builder
 
