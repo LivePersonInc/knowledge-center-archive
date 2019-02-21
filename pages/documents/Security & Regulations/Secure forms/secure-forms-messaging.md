@@ -407,7 +407,7 @@ When using secure forms, bear in mind:
   3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
-  * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
+* On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
     1. The consumer logs out
     2. The app is closed so its not running in the background
     3. The form expires
@@ -417,7 +417,7 @@ When using secure forms, bear in mind:
 
 ## Reporting on secure forms
 
-The following secure form events are reported in Report Builder:
+The following secure form events are reported in [Report Builder](data-reporting-report-builder-report-builder-overview.html):
 
 * Agent sent the secure form
 * Consumer opened the secure form
