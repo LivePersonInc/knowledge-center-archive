@@ -164,11 +164,9 @@ Today, brands use a single time interval definition to determine how long after 
 
 **Screenshots**
 
-### Post Conversational Survey - Adding Search capability
+![](/img/week-of-february-11th-5.png)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google My Business | WhatsApp Business | Chat |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+### Post Conversational Survey - Adding Search capability
 
 Enable brands to gain new insight from conversations in which the post conversation survey was configured by adding a new filtering capability to the All Connections tab in LiveEngage.
 
@@ -182,7 +180,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 
 **Screenshots**
 
-![](https://lh6.googleusercontent.com/Mrpr616iDtfaVQ6d6BFRD9v1Vnl61v5qKooUUEXn0ImaX_ZIPFvBGIE8MU_BY5FjoI_MvOKu9FovZUTbBTvzg1YstRcIS3WSrmZ16NgrSGfqlOK2rSi848h7gswmxaakzSp2evGN =624x311)
+![](/img/week-of-february-11th-6.png)
 
 ### 
 
@@ -199,7 +197,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 
 **Screenshots**
 
-![](https://lh3.googleusercontent.com/2f-rFK3UoHRz-P9wbrdvI4pm_EgjRX-Qn0O31FpS_0xnC-hmJVelcdybHBY2gRaWRtF2U_nZPGVdmQjSW3TNhTUvY4unZnlY1zcm-s0_3C3hRqbtpuOMhE4VZUyxtIREeHoVrBCE =238x227) ![](https://lh4.googleusercontent.com/UOjIf8wUmwIVocZvG5bBFkZaVst7XMk5uSyd1_Php3XzYRPLlgN6IQrFFVxKsUrZKHciLz5VWOjJPKgV6DVIkxkHkoQnVKgtEzx-jDtgVKgtlvSahhTjEH_T24TCb9x4L3u1VP1c =248x179)
+![](/img/week-of-february-11th-7.png)![](/img/week-of-february-11th-8.png)
 
 ### Step Up
 
