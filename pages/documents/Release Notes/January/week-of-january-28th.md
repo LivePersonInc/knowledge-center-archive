@@ -96,9 +96,3 @@ To configure this feature, please speak to your LivePerson representative. For m
 * Secure forms for connectors will not be available to consumers to open and fill on desktop.
 * Currently, reporting will be carried out on a per-need basis through the analytics team.
 * Additional, smaller limitations for connector channels are shared in the configuration guide.
-
-![](/img/week-of-january-28th-1.png)
-
-or
-
-![](/img/week-of-january-28th-1b.png)
