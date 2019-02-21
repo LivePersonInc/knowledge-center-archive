@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-27 07:47:02 +0000
 
 ---
-Photo sharing is available for the following messaging connectors: Google RCS Business Messaging, WhatsApp Business, Apple Business Chat and Twilio SMS (for Twilio, only available in the US and Canada).
+Photo sharing is available for the following [messaging connectors](messaging-channels-messaging-connectors-overview.html): Google RCS Business Messaging, WhatsApp Business, Apple Business Chat and Twilio SMS (for Twilio, only available in the US and Canada).
 
 ![](/img/Photo sharing Gif-1.gif)
 
@@ -157,6 +157,7 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
   ### Behavior
 
 Photo size reduction:
+
 * Thumbnail: 30KB
 * Preview: 3MB
 * Photo preview screen is basic.
