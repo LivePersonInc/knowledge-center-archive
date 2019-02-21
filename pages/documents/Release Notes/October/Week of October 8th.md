@@ -13,7 +13,9 @@ These release notes include new features arriving to LiveEngage during October 2
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+{: .important}
+
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionality
 
@@ -67,7 +69,9 @@ The new Apple Business Chat Authentication Interactive Message enables businesse
 * Agents and bots on LiveEngage will get real-time updates upon a consumer’s response
 * Upon successful or failed authentication, LiveEngage will support passing the authentication status and token back to LiveEngage Conversational Metadata, in order to allow the brand to perform validation on the authentication information
 
-**_This feature requires enablement_** _- please contact your LivePerson account team._***
+{: .important}
+
+This feature requires enablement - please contact your LivePerson account team
 
 **Limitations**
 
