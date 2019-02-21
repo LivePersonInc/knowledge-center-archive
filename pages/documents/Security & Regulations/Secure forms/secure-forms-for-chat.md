@@ -137,7 +137,7 @@ The **account password policy** will be configured as follows:
 | --- | --- |
 | Minimum number of characters | Set to minimum 7 |
 
-The **Failed Login Policy** will be configured as follows:
+The **Failed login policy** will be configured as follows:
 
 | Setting | Required Configuration |
 | --- | --- |
