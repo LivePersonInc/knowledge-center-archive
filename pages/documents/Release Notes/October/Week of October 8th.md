@@ -271,7 +271,7 @@ Brands can now configure skill routing per the brand’s Google RCS Agent ID (Go
 {: .important}
 This feature requires enablement** - please contact your LivePerson account team
 
-### RCS Business Messaging Connector - Card, Carousels and Quick Replies (LE-92997, LE-92998, LE-92823)
+### RCS Business Messaging Connector - Card, Carousels & Quick Replies (LE-92997, LE-92998, LE-92823)
 
 <table>
 <thead>
@@ -312,7 +312,8 @@ Structured content support for RCS Business Messaging templates will allow brand
 
 The RCS Business Messaging templates will support RCS cards, carousels and quick replies using LE’s structured content.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 ![](/img/week-of-october-8th-8-2.jpg)
 
@@ -351,11 +352,11 @@ The RCS Business Messaging templates will support RCS cards, carousels and quick
 
 With RCS Business Messaging supported by the Android Messages app, consumers can select images from their device’s image gallery or take a real-time image and share it with agents on LiveEngage.
 
-**Support image formats:**
+**Supported image formats:** 
+JPG, JPEG, PNG, GIF
 
-Supported images formats: JPG, JPEG, PNG, GIF
-
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 ![](/img/week-of-october-8th-9-2.jpg)
 
@@ -445,7 +446,8 @@ The post conversation survey is now supported for the RCS Business Messaging con
 
 For use in Google RCS Business Messaging, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Google RCS’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 **Limitations**
 
