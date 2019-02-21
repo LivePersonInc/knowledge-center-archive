@@ -20,15 +20,15 @@ An audit trail is available for the following elements:
 * Users
 * Skills
 * Agent groups
-* Permissions
-* LoBs
-* Post conversation survey
-* Campaign scheduling
-* Working hours management
+* [Permissions](admin-settings-permissions-assign-permissions.html)
+* [LoBs](admin-settings-skills-groups-operate-business-divisions-from-one-account.html)
+* [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html)
+* [Campaign scheduling](contact-center-management-campaigns-time-frame.html)
+* [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 
 Audit data related to user logins to the LiveEngage system is not available.
 
-### **Audit trail table**
+### Audit trail table
 
 The following values are recorded in the audit trail:
 
