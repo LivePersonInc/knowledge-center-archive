@@ -15,9 +15,7 @@ Once you start handling conversations, you should move down the conversation lis
 
 ## Taking incoming conversations
 
-As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer.
-
-Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
+As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
 
 * **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Manual accept**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
@@ -59,7 +57,7 @@ While conducting a conversation, there are a few actions you can take:
 
 ## Adjusting the SLA for follow up
 
-Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your All Connections list.
+Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your [All Connections](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) list.
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
@@ -71,25 +69,21 @@ There are many tools at your disposal that can be used to foster relationships a
 
 ### Emojis
 
-Both you and the consumers can utilize emojis within the conversation. While consumers have the full array of emojis available, the ones at the agents disposal are more selective. The emojis available to you are ones that can be construed as professional and relevant to business conversations.
-
-Please refer to your brand guidelines and language to determine which emojis are appropriate and how often and when to use them.
+Both you and the consumers can utilize emojis within the conversation. While consumers have the full array of emojis available, the ones at the agents disposal are more selective. The emojis available to you are ones that can be construed as professional and relevant to business conversations. Please refer to your brand guidelines and language to determine which emojis are appropriate and how often and when to use them.
 
 ### Rich Messaging
 
 For most channels, Rich Messaging such as carousels and quick replies are available. Based on your contact center set up, you may have custom widgets are your disposal that enable you to send product catalogues, images or other rich content.
 
-Refer to guidelines from your manager as to what tools are available to you. For a reference list of the Rich Messaging capabilities that are available by messaging channel, [click here](https://developers.liveperson.com/messaging-channels-capabilities-comparison.html).
+Refer to guidelines from your manager as to what tools are available to you. For a reference list of the Rich Messaging capabilities that are available by messaging channel, [click here](messaging-channels-messaging-channels-capabilities-comparison.html).
 
 ### View the customer’s screen using CoBrowse
 
-For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. [Click here]() to learn more about CoBrowse.
+For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. [Click here](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) to learn more about CoBrowse.
 
 ### Use Audio or Video Messaging (for mobile app messaging only)
 
-If your brand is offering customers messaging from within your mobile app, you may have the option to advance the messaging conversation to digital voice call or video conference.
-
-There are three options to make your mobile messaging conversations more interactive: screen sharing mode (CoApp), Digital Voice or Digital Video.
+If your brand is offering customers messaging from within your mobile app, you may have the option to advance the messaging conversation to digital voice call or video conference. There are three options to make your mobile messaging conversations more interactive: screen sharing mode (CoApp), Digital Voice or Digital Video.
 
 All three options are triggered from within the messaging conversation window:
 
@@ -99,8 +93,7 @@ All three options are triggered from within the messaging conversation window:
 
 This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
 
-{: .notice}
-When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience)._
+{: .notice} When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience).
 
 When you initiative a screen sharing session, the consumer will see the following invite:
 
@@ -112,8 +105,7 @@ When they accept the invitation, it will be clear that you are sharing their scr
 
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
-{: .notice}
-Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations._
+{: .notice} Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations.
 
 When you invite a customer to a call, they’ll see an incoming call screen:
 
@@ -127,16 +119,13 @@ Connected call screen:
 
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
-{: .notice}
-This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming._
+{: .notice} This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming.
 
 ![](/img/managing-messaging-conversations-8.png)
 
 ## Closing Conversations
 
-The nature of messaging conversations is that they are ongoing and can be resumed at any
-
-time. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
+The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
 
 The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have ‘options’, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed.
 
@@ -147,11 +136,11 @@ It is important that you close conversations as soon as you are confident that t
 
 **Auto Close for inactive conversations**
 
-For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA.
+For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA. Learn more about auto close for messaging [here](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html). 
 
 **What happens when a conversation is closed?**
 
-Upon the closing of a conversation (whether done by the customer, the agent or automatically) the post conversation survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions.
+Upon the closing of a conversation (whether done by the customer, the agent or automatically) the [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html) will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions.
 
 The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the post-conversation survey.
 
