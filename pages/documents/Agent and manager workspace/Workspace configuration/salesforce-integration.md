@@ -65,7 +65,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
    3. Fill in the App Name: “SFDC Integration,” Developer:“LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement 		History” and “Administrations” > “Skills” and click “Save.”
    4. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
 
-{:start="4"}
+{:start="3"}
 3. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
 4. “Step 4: Activation” – Click “Activate.”
 
