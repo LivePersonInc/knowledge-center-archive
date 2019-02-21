@@ -11,25 +11,25 @@ date: 2019-01-16 16:52:21 +0000
 isNew: false
 
 ---
-To use the LivePerson's web live chat or web messaging, you must first place the Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
+To use the LivePerson's web live chat or web messaging, you must first place the LiveEngage Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
 
-The LiveEngage Tag consists of a small, lightweight piece of code that opens the door for all of the built-in functionality of the web chat and web messaging communication channels. The tag loads asynchronously, so it will not affect initial page load.
+The LiveEngage Tag consists of a small, lightweight piece of code that opens the door for the built-in functionalities of the web live chat and web messaging communication channels. The tag loads asynchronously, so it will not affect initial page loading time.
 
-The LiveEngage Tag should be embedded in each page of your website. If it is not, conversations can end without warning and targeted invites may not trigger.
+The LiveEngage Tag should be embedded in each page of your website. If it is not, conversations can end without warning as visitors browse to different pages and targeted invites may not trigger.
 
-## Included Functionality
+## Functionality
 
 The default functionality offered by dynamically-loaded taglets is described below:
 
-* Monitoring taglet: Monitors your visitors in order to offer them campaigns and collect data about their journey.
-* Engagements taglet: Draws your engagements on the pages, allowing you to connect with visitors or help point them to relevant parts of your site.
-* Unified Chat Window bootstrap: Our embedded engagement window allows your visitors to connect with agents
+* Monitoring taglet: Monitors your visitors in order to offer them relevant campaigns and collect data about their journey.
+* Engagement taglet: Records and relays the engagements on each page, allowing agents to connect with visitors or help point them to relevant parts of your site.
+* Unified chat window bootstrap: An embedded engagement window that allows visitors to connect with agents
 
 **Notes:**
 
-* Taglets are small programs, managed by LivePerson, that are used to add functionality to your website. The specific taglets brought to the page on your website depend on your LivePerson account and the version of LiveEngage you use.
-* All of the above taglets contain the minimum code needed to start the applications.
-* Code is loaded dynamically afterwards, based on user actions.
+* Taglets are small programs, managed by LivePerson, that are used to add functionality to a brand's website. The specific taglets brought to the page on your website depend on your LivePerson account and the LiveEngage version in use.
+* Taglets contain the minimum code needed to start the applications
+* Code is loaded dynamically afterwards, based on user actions
 
 ## Getting your tag
 
