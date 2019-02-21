@@ -130,6 +130,7 @@ pages:
 - pages/documents/Templates/articletemplate.md
 - test-page.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
+- pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
@@ -207,7 +208,6 @@ pages:
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
-- pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
