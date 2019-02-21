@@ -225,7 +225,7 @@ Transfer rule is made in order to give higher priority to conversations that are
 * If inside a rule there are few overlapping conditions, the first condition wins. ( see examples below )
 * Every rule will produce a velocity, a conversation will have an aggregation of velocities from all rules
 
-### Transfer rules examples
+#### Transfer rules examples
 
 #### **EXAMPLE 1 - Number of transfers**
 
