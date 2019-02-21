@@ -172,7 +172,7 @@ To verify that permissions are enabled:
 
 3\.    Under permissions, scroll down to confirm that the ‘use secure form within a conversation’ permission is enabled.
 
-4\.    Click Save.
+4\.    Click save.
 
 {: .notice}  
 If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the [customize user profiles](admin-settings-permissions-customize-permissions.html) documentation.
