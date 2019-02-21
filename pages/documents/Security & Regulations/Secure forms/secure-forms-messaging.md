@@ -277,7 +277,7 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 
 ## **Messaging connectors**
 
-For messaging connectors (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
+For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
@@ -373,7 +373,7 @@ When the agent clicks on the “view secure form” link, the secure form data w
 
 If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 
-## **Agent manager**
+## Agent manager
 
 To ensure secure form data is protected, agent managers cannot view information entered in the secure form either during or after a conversation. By default, agent managers can view the following secure form statuses:
 
