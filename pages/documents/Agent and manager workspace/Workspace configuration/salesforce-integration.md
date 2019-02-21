@@ -74,9 +74,7 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 
 ## **Configuring the app**
 
-* Click on the “Customization Settings” tab.
-
-![](/img/salesforce-integration-guide-4.png)
+Click on the “Customization Settings” tab.
 
 ### Object settings
 
@@ -129,7 +127,7 @@ The SFDC package supplied by LivePerson includes an object named “Chat Transcr
 In order to add a Custom Object to the list of “Available Objects,” you will first need to create a Lookup field for your Custom Object on the “Chat Transcript” object. Only once you create this Lookup field will your Custom Object appear under the “Available Objects” section of this page (The “Chat Transcript” object can be found under the Setup menu, “Create” > “Objects” among all custom objects in your Salesforce org).
 
 1. After you enabled a standard or custom object in the Customization Settings, the following should be defined (not all are mandatory, define according to your needs: Field Mapping, Related Lists, and Search Filters).
-2. **Exposing the chat/messaging conversation transcript for an object in Salesforce** - For each object you want to use, and choose to enable for the widget, if you would like to see the related Chat Transcript on that object’s records in Salesforce, you need to add the chat/messaging conversation transcript related list using Salesforce layout editor for all the Salesforce layouts you want to include it on.
+2. Exposing the chat/messaging conversation transcript for an object in Salesforce - For each object you want to use, and choose to enable for the widget, if you would like to see the related Chat Transcript on that object’s records in Salesforce, you need to add the chat/messaging conversation transcript related list using Salesforce layout editor for all the Salesforce layouts you want to include it on.
 3. Each enabled object will have a link titled “Configure Field Mapping, Related Lists, and Search Filters” – clicking this link will direct you to a page where you can define these settings.
 
 ### **Field mapping**
