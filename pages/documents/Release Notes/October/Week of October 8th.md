@@ -435,7 +435,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 The post conversation survey is now supported for the RCS Business Messaging connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
-**It contains:**
+**Contents:**
 
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
@@ -489,7 +489,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 The post conversation survey is now supported for the Twilio SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
-**It contains:**
+**Contents:**
 
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
@@ -503,13 +503,15 @@ LiveEngage automatically translates rich surveys into textual surveys for the Tw
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 **Limitations**
 
-* Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
+Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
 
 ![](/img/week-of-october-8th-10-1.png)
+
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
@@ -546,7 +548,8 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 
 The Twilio SMS connector now supports image sharing from consumer to agent. Consumers will be able to use the default SMS app on their device (whether it’s an iOS or Android device), choose an image from the phone gallery or take a new image and share it with the brand. The agent on the LiveEngage web console will receive the image and will be able view.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team.
 
 **Limitations**
 
@@ -597,7 +600,7 @@ Consumer side:
 
 The current version of the Twilio Connector has been migrated to the new LiveEngage connectors platform, which supports error handling, a message-retry mechanism and was built to enhance the Twilio connector’s performance.
 
-## Bug Fixes
+## Bug fixes
 
 ### \[Twilio\] Failure to send a message to Twilio - isn't reported back to UMS and LE UI (LE-90596, LE-88928, LE-75265)
 
