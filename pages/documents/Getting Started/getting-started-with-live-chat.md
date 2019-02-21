@@ -21,6 +21,8 @@ To get the most basic version of messaging up and running, brands need to insert
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
+   ![](/img/getting-started-with-chat-1-2.png)
+
 {: .notice}
 The basic set up means there will be no routing - every agent will receive all messages
 
@@ -69,8 +71,8 @@ Read more about [creating buttons and banners](contact-center-management-campaig
 1. **Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * Photo sharing (consumer to agent)
    * Structured content (cards, carousels, lists)
-2. **Add bots**:  Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
-3. **Secure forms**: you can take payments or verify secure identities of customers using  PCI compliant [secure forms](security-regulations-secure-forms-secure-forms-for-chat-user-guide.html) within the conversation window.
+2. **Add bots**:  automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
+3. **Secure forms**: take payments or verify secure identities of customers using  PCI compliant [secure forms](security-regulations-secure-forms-secure-forms-for-chat-user-guide.html) within the conversation window.
 
 ## Step 4: Define the agent experience
 
