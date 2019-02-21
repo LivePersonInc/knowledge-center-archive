@@ -63,7 +63,7 @@ The customer needs to provide LivePerson with the following three parameters:
 
   ## General notes on using the feature
 * HTTPS must be used for communication with the LivePerson servers.
-* Once the SSO Unified login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
+* Once the SSO unified login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
 * It is advised that once unified login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out two-factor login, IdP and agent definition issues.
 * It is the responsibility of the brand to update LivePerson with the renewed X.509 certificate a month before the current certificate expires.
