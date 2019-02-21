@@ -129,9 +129,9 @@ pages:
 - pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Templates/articletemplate.md
 - test-page.md
+- pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
-- pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
