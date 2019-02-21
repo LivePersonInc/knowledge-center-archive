@@ -95,13 +95,9 @@ Actionable conversations metric is also available via Messaging Operations API s
 </tbody>
 </table>
 
-This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment.
+{: .note}
 
-Further details are available on the developers site:
-
-[https://developers.liveperson.com/push-notification-service-overview.html](https://developers.liveperson.com/push-notification-service-overview.html "https://developers.liveperson.com/push-notification-service-overview.html")
-
-This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources.
+This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment. This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources. Further details are available on the developers site: [https://developers.liveperson.com/push-notification-service-overview.html](https://developers.liveperson.com/push-notification-service-overview.html "https://developers.liveperson.com/push-notification-service-overview.html")
 
 ![](/img/week-of-october-15th-2018-2.png)
 
@@ -149,7 +145,9 @@ Therefore, we added the ability to view details on changes made to the PDC and c
 
 The Audit Trail table was enhanced to show details of changes made to Predefined Content (PDC) and content categories.
 
-\***This feature requires enablement ​- please contact your LivePerson account team.**
+{: .important}
+
+This feature requires enablement ​- please contact your LivePerson account team.
 
 ![](/img/week-of-october-15th-2018-3.png)
 
