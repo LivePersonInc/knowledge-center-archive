@@ -13,7 +13,7 @@ date: 2019-02-06 10:43:51 +0000
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
 {: .important}
 
