@@ -8,7 +8,7 @@ level3: February
 permalink: release-notes-2019-february-week-of-february-11th.html
 isTutorial: false
 isNew: false
-date: 2019-02-19 15:01:46 +0200
+date: 2019-02-19 13:01:46 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during February 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -105,7 +105,7 @@ The connector will expose the consumer’s name (as registered by the users in t
 </tbody>
 </table>
 
-There is now support for secure forms for the WhatsApp Business and Google RCS connectors. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
+There is now support for [secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html) for the WhatsApp Business and Google RCS connectors. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
 PCI secure form for messaging connector channels will expand brands’ business use cases on channels that do not have the native secure form capabilities, allowing them to build a conversational commerce strategy with LiveEngage.
 
@@ -132,9 +132,7 @@ The design for the form in the messaging connectors experience is inherited from
 
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
 
-For more information, please see the following documents:
-
-* [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
+For more information, please see the [secure form configuration guide](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html)
 
 #### Limitations
 
