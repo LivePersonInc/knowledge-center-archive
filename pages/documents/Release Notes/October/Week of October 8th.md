@@ -131,9 +131,12 @@ Apple Pay provides an easy and secure way for consumers to buy goods and service
 * Consumers will receive the Apple Pay Interactive Message and will be able to tap to pay using their Apple Pay user on their iOS device.
 * Agents and bots on LiveEngage will get real-time updates upon a consumer payment response
 * Upon successful or failed payment, LiveEngage will support passing the payment details back to LiveEngage Conversational Metadata in order to allow the brand to perform validation on the payment information against their Apple Pay account
-* ***This feature requires enablement** - please contact your LivePerson account team.
 
-  **Limitations**
+  {: .important}
+
+  This feature requires enablement - please contact your LivePerson account team
+
+  #### Limitations
 * In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
