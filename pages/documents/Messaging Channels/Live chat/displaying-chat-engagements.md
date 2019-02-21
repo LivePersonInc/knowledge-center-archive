@@ -59,7 +59,7 @@ By default, after declining a proactive content engagement, other content engage
 
 ### 6. Offsite engagements
 
-Offsite engagements give brands the opportunity to offer chat from any location by creating a URL that consumers can click to begin a private chat conversation. This URL can be embedded to offer chat from social media sites, digital advertisements, email and more. Learn more about offsite engagements [below](messaging-channels-live-chat-displaying-chat-engagements.html#offsite-engagements). 
+Offsite engagements give brands the opportunity to offer chat from any location by creating a URL that consumers can click to begin a private chat conversation. This URL can be embedded to offer chat from social media sites, digital advertisements, email and more. Learn more about offsite engagements [below](messaging-channels-live-chat-displaying-chat-engagements.html#offsite-engagements).
 
 ### 7. Optimizing the mobile experience
 
@@ -139,7 +139,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 3. Select the engagement language.
 4. To set the engagement to display as ‘available’ when at least one agent is online, regardless of the duration of the wait time, you can select the ‘Ignore max wait time’ checkbox at the bottom of the page
 5. Click **next.**
-6. The Engagement Window library will open. For guidance on customizing an engagement window, refer to the ‘[Engagement Window Studio](https://ce-sr.s3.amazonaws.com/CA/Campaign%20Manager/Engagement%20window%20design/Engagement%20Window%20Studio.pdf)’ documentation.
+6. The Engagement Window library will open. For guidance on customizing an engagement window, click here.
 7. Click **done.**
 8. When you’ve finished creating the engagement, enable it and publish its campaign.
 9. Copy the engagement URL and use it in your selected touch point.
