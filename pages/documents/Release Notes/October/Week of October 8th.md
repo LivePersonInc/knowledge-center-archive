@@ -130,7 +130,7 @@ Brands need to first register a Merchant Identifier (Merchant ID) in their Apple
 {: .important}
 This feature requires enablement - please contact your LivePerson account team
 
-  #### Limitations
+#### Limitations
 In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
@@ -268,7 +268,8 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 
 Brands can now configure skill routing per the brand’s Google RCS Agent ID (Google RCS Business ID).
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Card, Carousels and Quick Replies (LE-92997, LE-92998, LE-92823)
 
