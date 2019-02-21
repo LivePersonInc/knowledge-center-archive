@@ -81,15 +81,15 @@ Refer to guidelines from your manager as to what tools are available to you. For
 
 For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. [Click here](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) to learn more about CoBrowse.
 
-### Use Audio or Video Messaging (for mobile app messaging only)
+### Use audio or video messaging (for mobile app messaging only)
 
-If your brand is offering customers messaging from within your mobile app, you may have the option to advance the messaging conversation to digital voice call or video conference. There are three options to make your mobile messaging conversations more interactive: screen sharing mode (CoApp), Digital Voice or Digital Video.
+If your brand is offering customers messaging from within your mobile app, you may have the option to advance the messaging conversation to digital voice call or video conference. There are three options to make your mobile messaging conversations more interactive: **screen sharing mode (CoApp)**, **digital voice** or **digital video**.
 
 All three options are triggered from within the messaging conversation window:
 
 ![](/img/managing-messaging-conversations-4.png)
 
-**App Screen Sharing**
+**App screen sharing**
 
 This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
 
@@ -101,7 +101,7 @@ When you initiative a screen sharing session, the consumer will see the followin
 
 When they accept the invitation, it will be clear that you are sharing their screen.
 
-**Digital Voice Calls**
+**Digital voice calls**
 
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
@@ -115,7 +115,7 @@ Connected call screen:
 
 ![](/img/managing-messaging-conversations-7.png)
 
-**Digital Video**
+**Digital video**
 
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
@@ -123,7 +123,7 @@ If you are providing service or sales where a quicker resolution can be found by
 
 ![](/img/managing-messaging-conversations-8.png)
 
-## Closing Conversations
+## Closing conversations
 
 The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
 
@@ -144,7 +144,7 @@ Upon the closing of a conversation (whether done by the customer, the agent or a
 
 The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the post-conversation survey.
 
-## Shortcuts & Hotkeys
+## Shortcuts & hotkeys
 
 To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
 
