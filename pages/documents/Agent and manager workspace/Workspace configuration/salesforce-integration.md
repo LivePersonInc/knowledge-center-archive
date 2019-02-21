@@ -451,7 +451,6 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
 
-<br/>
 **LivePerson SDK Field:** 
 
 ```surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value```
