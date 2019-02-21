@@ -52,8 +52,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 </table>
 
-### \[ABC\] Authentication Interactive Message - LiveEngage Support (LE-89160)
-
 The new Apple Business Chat Authentication Interactive Message enables businesses to authenticate consumers using OAuth2 protocol via the Business Chat conversation.
 
 **Main capabilities:**
@@ -78,11 +76,9 @@ This feature requires enablement - please contact your LivePerson account team
 * Currently the Authentication Interactive Message will only enable brands to perform authentication validation against their OAuth service, and will not enable them to automatically push authenticated engagement attributes to the conversation - supporting engagement attributes is planned for H1, 2018.
 * In the current solution, only a bot (using the Agent SDK) can receive the authentication response from the consumer (after the consumer submits authentication on Business Chat) - In the next phase, we will add a user interface indication on LiveEngage which will allow a live agent to see authentication status as well.
 
+
 {: .sidebyside}
-
-![](/img/release-notes-2018-october-week-of-october-8th-2018.png)
-
-![](/img/week-of-october-8th-2.png)
+![](/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](/img/week-of-october-8th-2.png)
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
@@ -124,28 +120,21 @@ Apple Pay provides an easy and secure way for consumers to buy goods and service
 * Business Chat will support a new OOTB Interactive Message that allows brands to submit payment requests to consumers using Apple Pay
 * Brands will use their private Apple Pay accounts (or will create new accounts) and will supply their Apple Pay Merchant ID on their Apple management area (register.apple.com).
 
-  {: .notice}
-
-  Brands need to first register a Merchant Identifier (Merchant ID) in their Apple Developer Account to enable Apple Pay payments in Messages. For information on creating your merchant ID, see [Configuring Your Environment.](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html#//apple_ref/doc/uid/TP40014764-CH2)
+ {: .notice}
+Brands need to first register a Merchant Identifier (Merchant ID) in their Apple Developer Account to enable Apple Pay payments in Messages. For information on creating your merchant ID, see [Configuring Your Environment.](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html#//apple_ref/doc/uid/TP40014764-CH2)
 * LiveEngage will support agent/bot generation of the Apple Pay Interactive Message using the Structured Content framework and configuration (similar to list and time picker)
 * Consumers will receive the Apple Pay Interactive Message and will be able to tap to pay using their Apple Pay user on their iOS device.
 * Agents and bots on LiveEngage will get real-time updates upon a consumer payment response
 * Upon successful or failed payment, LiveEngage will support passing the payment details back to LiveEngage Conversational Metadata in order to allow the brand to perform validation on the payment information against their Apple Pay account
 
-  {: .important}
-
-  This feature requires enablement - please contact your LivePerson account team
+{: .important}
+This feature requires enablement - please contact your LivePerson account team
 
   #### Limitations
-* In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
+In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
-
-![](/img/week-of-october-8th-4.png)
-
-![](/img/week-of-october-8th-5.png)
-
-![](/img/week-of-october-8th-6.png)
+![](/img/week-of-october-8th-4.png) ![](/img/week-of-october-8th-5.png) ![](/img/week-of-october-8th-6.png)
 
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
