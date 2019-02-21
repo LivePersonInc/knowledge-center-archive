@@ -131,6 +131,7 @@ pages:
 - test-page.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
+- pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
@@ -213,7 +214,6 @@ pages:
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
 - pages/documents/Release Notes/October/week-of-oct-29th.md
-- pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
 - pages/documents/Messaging Channels/Live chat/add-chat-to-your-website.md
 - pages/documents/Release Notes/December/week-of-dec-17.md
