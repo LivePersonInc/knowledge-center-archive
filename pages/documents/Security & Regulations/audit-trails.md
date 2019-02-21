@@ -18,8 +18,8 @@ An activity log will display which element has been changed, when and by whom, a
 An audit trail is available for the following elements:
 
 * Users
-* Skills
-* Agent groups
+* [Skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
+* [Agent groups](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)
 * [Permissions](admin-settings-permissions-assign-permissions.html)
 * [LoBs](admin-settings-skills-groups-operate-business-divisions-from-one-account.html)
 * [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html)
