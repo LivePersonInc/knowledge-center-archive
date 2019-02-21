@@ -70,7 +70,7 @@ The embedded engagement window layout is as follows (described from top to botto
 
 **Conversation area**: Below the image is a log of all the incoming and outgoing conversation messages. Sender and time sent are indicated on each message. New messages are added as they come in, at the bottom of the log. All older messages can easily be accessed by the visitor by simply scrolling up. Below the conversation log there is a status area, where the visitor can see an indication of the agent actively responding, in real-time.
 
-**Text area:** In the text area, the visitor enters text for the conversation messages. Messages can be sent via the send button ( ) or by pressing Enter on the keyboard. Click + to expand the action menu.
+**Text area:** In the text area, the visitor enters text for the conversation messages. Messages can be sent via the send button or by pressing Enter on the keyboard. Click + to expand the action menu.
 
 **Action menu:** Opens when the + button is clicked. It includes buttons to mute sound, email or print the conversation transcript, and end the conversation.  Ending the conversation triggers the display of the post-chat survey (if configured). Click X to collapse the action menu.
 
