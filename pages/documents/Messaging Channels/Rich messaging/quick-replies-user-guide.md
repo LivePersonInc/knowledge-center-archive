@@ -9,7 +9,7 @@ level3: ''
 permalink: messaging-channels-rich-messaging-quick-replies-user-guide.html
 isTutorial: false
 isNew: false
-date: 2019-01-27 14:16:26 +0200
+date: 2019-01-27 12:16:26 +0000
 
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
@@ -18,11 +18,11 @@ The LivePerson messaging solution allows brands to enrich the conversions with t
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
-It creates an easier, faster way for consumer to respond to messages. For bot interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
+It creates an easier, faster way for consumer to respond to messages. For [bot ](getting-started-getting-started-with-bots.html)interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
 Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
 
-LiveEngage enables sending 1-24 Quick Reply chips per message. Each chip can have:
+LiveEngage enables sending 1-24 quick reply chips per message. Each chip can have:
 
 * **Title:** up to 25 characters (use ellipsis)
 * **Click operation:** with actions and metadata
@@ -32,7 +32,7 @@ When a quick reply chip is tapped, the items are dismissed.
 
 The agent can see the quick replies group at all times, even if it is no longer visible to the consumer.
 
-Quick replies are available on our **mobile app** and **web messaging** channels, as well as the **Facebook** connector.
+Quick replies are available on our mobile app and web messaging channels, as well as the Facebook connector.
 
 ## Use cases
 
