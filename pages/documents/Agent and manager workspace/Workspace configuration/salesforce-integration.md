@@ -279,9 +279,7 @@ Now that you’ve configured your LiveEngage App in Salesforce, it’s time to g
 3. Click on the “+” next to the existing widget labels (**Note:** The limit is 5 widgets)
 4. Choose a name for the Widget (you can use “SF.Widget” to have “SF” as the widget’s label).
 5. Choose “Double Widget” size
-6. Enter the following URL:
-
-[https://liveengage.**XXXX**.visual.force.com/apex/ChatLink]() [CHANGE LINK]()
+6. Enter the following URL: [https://liveengage.**XXXX**.visual.force.com/apex/ChatLink]() [CHANGE LINK]()
 
 Replace **XXXX** with your SF domain (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “[https://eu2.salesforce.com](https://eu2.salesforce.com "https://eu2.salesforce.com")”).
 
