@@ -8,7 +8,7 @@ level3: January
 permalink: release-notes-2019-january-week-of-january-14th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 10:51:46 +0200
+date: 2019-02-06 08:51:46 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -214,7 +214,7 @@ If the ACD setting for chat was configured to “advanced mode” and “agent s
 
 ![](/img/week-of-january-14th-5.png)
 
-### Messaging - Automatic Messages - "<br/>" is being shown in conversation
+### Messaging - Automatic Messages - line break is being shown in conversation
 
 <table>
 <thead>
@@ -247,4 +247,4 @@ If the ACD setting for chat was configured to “advanced mode” and “agent s
 </tbody>
 </table>
 
-If an automatic message is configured with a break line in it, it displayed as “<br/>” in the agent transcript.
+If an automatic message is configured with a break line in it, it displayed as “< br / >” in the agent transcript.
