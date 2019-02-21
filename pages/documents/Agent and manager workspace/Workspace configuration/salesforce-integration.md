@@ -66,8 +66,8 @@ The first three check-boxes can have any value (true/false), however, the 4th �
    4. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
 
 {:start="4"}
-3\. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
-4\. “Step 4: Activation” – Click “Activate.”
+3. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
+4. “Step 4: Activation” – Click “Activate.”
 
 {: .important}
 **Note:** When you click on “Deactivate,” you will disable the use of the widget within the platform and stop all periodic sync processes with your account.
@@ -451,7 +451,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
 
-**LivePerson SDK Field:**
+	**LivePerson SDK Field:**
 
 `surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value`
 
