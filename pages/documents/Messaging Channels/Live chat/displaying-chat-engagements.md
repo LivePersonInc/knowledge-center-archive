@@ -139,7 +139,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 3. Select the engagement language.
 4. To set the engagement to display as ‘available’ when at least one agent is online, regardless of the duration of the wait time, you can select the ‘Ignore max wait time’ checkbox at the bottom of the page
 5. Click **next.**
-6. The Engagement Window library will open. For guidance on customizing an engagement window, click here.
+6. The Engagement Window library will open. For guidance on customizing an engagement window, [click here](contact-center-management-campaigns-engagement-window.html).
 7. Click **done.**
 8. When you’ve finished creating the engagement, enable it and publish its campaign.
 9. Copy the engagement URL and use it in your selected touch point.

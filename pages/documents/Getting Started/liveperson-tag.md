@@ -11,7 +11,7 @@ date: 2019-01-16 16:52:21 +0000
 isNew: false
 
 ---
-To use the LiveEngage web chat or web messaging channels, place the LiveEngage Monitor Tag on your website. The tag will allow you to recognize and monitor visitors as they browse around your site. This enables you to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
+To use the LivePerson's web live chat or web messaging, you must first place the Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
 
 The LiveEngage Tag consists of a small, lightweight piece of code that opens the door for all of the built-in functionality of the web chat and web messaging communication channels. The tag loads asynchronously, so it will not affect initial page load.
 
