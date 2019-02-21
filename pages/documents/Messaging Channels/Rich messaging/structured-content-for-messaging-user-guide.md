@@ -116,9 +116,9 @@ For detailed reporting on consumer interactions with structured content on your 
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
 * The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. 
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on configuring push notifications.
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. 
 
-## **Best practices**
+## Best practices
 
 1. It is recommended that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 2. When building your cards and actions, it is recommended to ensure that every click will also have a publishText action. This ensures that the click is “recorded” in the transcript and makes it easier for bots and agents to respond to consumer interactions with the card.
@@ -130,7 +130,7 @@ For detailed reporting on consumer interactions with structured content on your 
 8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
 9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end -consider creating a lList instead.
 
-## **Limitations**
+## Limitations
 
 ### Maps
 
@@ -150,11 +150,11 @@ Structured content JSON affects text formatting in the structured content “Tex
 3. Font color
 4. Background color
 
-#### **Web (chat / messaging):**
+#### Web (chat / messaging):
 
 You cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
 
-## **Helpful Links**
+## Helpful links
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 
