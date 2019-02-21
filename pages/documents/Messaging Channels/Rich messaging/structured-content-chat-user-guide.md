@@ -36,7 +36,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-chat surveys based on a collection of cards.
 
-Structured content is available on our **web-chat channel**. It is also available for web messaging and in-app messaging.
+Structured content is available on our web-chat channel. It is also available for web messaging and in-app messaging.
 
 ## Capability highlights
 
@@ -95,6 +95,7 @@ In order to enable the feature via AC features and site settings, please contact
 ![](/img/SCC6 (1).jpg)
 
 {: .start="4"}
+
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
    * **JSON scaffolding**  
@@ -113,7 +114,7 @@ Note: For detailed reporting on consumer interactions with structured content on
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
 * The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. 
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification.
 
 ## Best practices
 
