@@ -453,11 +453,11 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 **LivePerson SDK Field:**
 
-   `surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value`
+`surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value`
 
 **LivePerson API Field:**
 
-   `surveys.preChat\[displayName=What is your Account Number?\].value`
+`surveys.preChat\[displayName=What is your Account Number?\].value`
 
 {:start="2"}
 **LivePerson SDK Field:**
@@ -469,35 +469,37 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
     `surveys.postChat\[displayName=How would you rate us?\].value`
 
 {:start="2"}
+
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 
 **LivePerson SDK Field:**
 
-   `surveyQuestions.postChat\[displayName=How would you rate us?\].value`
+`surveyQuestions.postChat\[displayName=How would you rate us?\].value`
 
 **LivePerson API Field:**
 
-   `surveys.postChat\[displayName=How would you rate us?\].value`
+`surveys.postChat\[displayName=How would you rate us?\].value`
 
 {:start="3"}
 **LivePerson SDK Field:**
-    
+
     `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
-    
+
 **LivePerson API Field:**
-    
+
     `surveys.operator\[displayName=Was the customer satisfied?\].value`
 
 {:start="4"}
+
 1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
 **LivePerson SDK Field:**
 
-   `surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
+`surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value`
 
 **LivePerson API Field:**
 
-   `surveys.operator\[displayName=Was the customer satisfied?\].value`
+`surveys.operator\[displayName=Was the customer satisfied?\].value`
 
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
 
