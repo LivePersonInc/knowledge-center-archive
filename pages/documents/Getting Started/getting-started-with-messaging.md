@@ -102,6 +102,10 @@ Additional instructions for designing customer experience elements such as [bann
 
 1. **Predefined answers**: create or import a database of [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
 2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
+
+![](/img/getting-started-with-messaging-2-2.png) 
+
+{:start="3"}
 3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.
 4. **Configure CoBrowse**: For high touch conversations, agents can connect to customers screens and conduct a [CoBrowse session](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).  Administrators can define which agents have this capability.
 5. **Warm up**: In order for agents to [prepare to start shifts smoothly](contact-center-management-messaging-operations-preparing-agents-to-start-a-shift.html), LivePerson can be configured to assign conversations to the agents gradually giving agent the proper warm up’ to the flow of messaging conversations, you can configure
