@@ -16,7 +16,7 @@ Photo sharing is available for the following messaging connectors: Google RCS Bu
 
 ![](/img/Photo sharing Gif-1.gif)
 
-## **Configurations**
+## Configurations
 
 1. To enable the feature for any channel, please contact you LivePerson representative.
 2. To configure mobile-app (as part of the SDK): [Android ](https://developers.liveperson.com/android-photo-sharing.html#enable-photo-sharing)& [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-photosharing.html#enable-photo-sharing)
@@ -145,7 +145,7 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 
 ![](/img/ps30 (1) (1).png)
 
-### **Limitations**
+### Limitations
 
 * Only assigned agents can view shared images in a conversation, for both open and closed conversations.
 * Storage: In-App storage is up to 20 images (configurable).
@@ -156,8 +156,8 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 
   ### Behavior
 
-  Photo size reduction:
-  * Thumbnail: 30KB
-  * Preview: 3MB
-  * Photo preview screen is basic.
-  * Square thumbnail for both landscape and portrait modes.
+Photo size reduction:
+* Thumbnail: 30KB
+* Preview: 3MB
+* Photo preview screen is basic.
+* Square thumbnail for both landscape and portrait modes.
