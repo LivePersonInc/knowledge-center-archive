@@ -129,6 +129,7 @@ pages:
 - pages/documents/Messaging Channels/Connectors/line-connector.md
 - pages/documents/Templates/articletemplate.md
 - test-page.md
+- pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-best-practices-for-messaging.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md
@@ -191,7 +192,6 @@ pages:
 - pages/documents/Release Notes/October/week-of-october-22nd.md
 - pages/documents/Release Notes/November /week-of-november-19th.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
-- pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Release Notes/January/week-of-january-20th.md
 - pages/documents/Contact Center Management/Messaging Operations/auto-close-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Report Builder/terms-of-use.md
