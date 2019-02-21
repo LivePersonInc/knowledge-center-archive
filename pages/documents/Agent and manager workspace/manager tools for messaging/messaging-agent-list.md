@@ -7,10 +7,9 @@ subtitle: ''
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-the-messaging-agent-list.html
 isTutorial: false
-date: 2019-01-21 13:35:54 +0200
+date: 2019-01-21 11:35:54 +0000
 
 ---
-
 ## Real time list of agents
 
 Agent managers have tools at their disposal to monitor agents and ongoing conversations in real time.
@@ -21,7 +20,7 @@ Managers that are defined in this role (during their user set up), are able to s
 
 The Messaging Agents List gives agent managers full visibility over the performance of their agents in real time, enabling them to effectively manage each shift and identify issues as they happen. Agents with permission to access this list are also able to keep track of their status, capacity and load, as well as those of other agents, helping them to optimize the way they work together as a team.
 
-The list is available in the Visitors tab alongside the All Agents List and displays the status and metrics of every logged in messaging agent with at least one open conversation or configured with a maximum open conversation of one or more. The data bar provides an overview of the status and performance of all messaging agents, with data being refreshed every minute.
+The list is available in the Visitors tab alongside the [All Agents List](agent-manager-workspace-manager-tools-for-live-chat-the-all-agents-list.html), and displays the status and metrics of every logged in messaging agent with at least one open conversation or configured with a maximum open conversation of one or more. The data bar provides an overview of the status and performance of all messaging agents, with data being refreshed every minute.
 
 **The columns provide the following detailed information:**
 
