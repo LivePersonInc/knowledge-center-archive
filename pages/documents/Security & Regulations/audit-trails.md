@@ -17,7 +17,7 @@ An activity log will display which element has been changed, when and by whom, a
 
 An audit trail is available for the following elements:
 
-* Users
+* [Users](admin-settings-permissions-assign-permissions.html#creating-custom-lpa-user-profiles)
 * [Skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
 * [Agent groups](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)
 * [Permissions](admin-settings-permissions-assign-permissions.html)
