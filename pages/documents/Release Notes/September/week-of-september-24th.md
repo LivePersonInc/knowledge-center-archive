@@ -200,7 +200,7 @@ These metrics are enabled out of the box and are available to all report builder
 | NO. OF OPENED CONVERSATIONS | OPENED CONVERSATIONS |
 | NO. OF CLOSED CONVERSATIONS | CLOSED CONVERSATIONS |
 
-## Bug Fixes
+## Bug fixes
 
 ### Agent Activity & Business Activity dashboard default view doesn't show data (93128)
 
