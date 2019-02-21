@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-24 12:23:19 +0000
 
 ---
-The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to authenticate once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
+The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to [authenticate]( https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html) once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 
 This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation- a regulation which requires multi-factor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multi-factor authentication with its selected provider, and leverage that authentication when accessing LiveEngage.
 
@@ -42,7 +42,7 @@ The customer needs to provide LivePerson with the following three parameters:
 * **Logout page**:  A URL that the user will be redirected to when logging out of LiveEngage.
 * **Redirect Page Upon Login Error**: A URL that the user will be redirected to when the login to LiveEngage fails.
 
-### **Configuration on the customer’s environment**
+### Configuration on the customer’s environment
 
 * Create a SAML assertion with dynamic variables: siteId and loginName. The SAML assertion must be sent to LiveEngage every time a user (admin or agent) wishes to log in.
 
@@ -51,10 +51,10 @@ The customer needs to provide LivePerson with the following three parameters:
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
 * Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
-* Use this consumer URL for connecting to LiveEngage: 
+* Use this consumer URL for connecting to LiveEngage:
 
   https://<LP Domain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s core domain.
-* Use this consumer URL for connecting to the MCS toolkit: 
+* Use this consumer URL for connecting to the MCS toolkit:
 
   https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
 * Use this consumer URL for connecting to the Real Time Dashboard: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=rtDashboard&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
@@ -63,7 +63,7 @@ The customer needs to provide LivePerson with the following three parameters:
 
   ## General notes on using the feature
 * HTTPS must be used for communication with the LivePerson servers.
-* Once the SSO Unified Login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
+* Once the SSO Unified login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
-* It is advised that once Unified Login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out two-factor login, IdP and agent definition issues.
+* It is advised that once unified login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out two-factor login, IdP and agent definition issues.
 * It is the responsibility of the brand to update LivePerson with the renewed X.509 certificate a month before the current certificate expires.
