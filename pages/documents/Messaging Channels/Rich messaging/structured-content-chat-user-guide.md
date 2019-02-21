@@ -36,7 +36,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-chat surveys based on a collection of cards.
 
-Structured content is available on our **web-chat channel**. It is also available for web messaging and in-app messaging - for further information on configuring structured content for messaging, please refer to the[ documentation](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/User+guides/Structured+Content/Structured+Content+for+Messaging.pdf).
+Structured content is available on our **web-chat channel**. It is also available for web messaging and in-app messaging.
 
 ## Capability highlights
 
@@ -112,9 +112,9 @@ In order to enable the feature via AC features and site settings, please contact
 ## Notes
 
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
-* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on whitelisting.
+* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on configuring push notifications.
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. 
 
 ## Best practices
 
