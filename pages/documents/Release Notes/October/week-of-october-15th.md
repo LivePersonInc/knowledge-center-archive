@@ -137,7 +137,7 @@ This functionality enables the configuration of a push notification proxy throug
 An audit trail provides the ability to track changes made to LiveEngage predefined content. It's needed for several reasons:
 
 * **For customers:** To track changes performed in their LiveEngage account. For Enterprise customers (especially Financial Services), it is required as part of their security regulations.
-* **For Support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
+* **For support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
 
 Today, LiveEngage offers a partial solution for auditing: Changes done on specific administration components can be tracked in the audit trail, while predefined content and category changes cannot be tracked.
 
