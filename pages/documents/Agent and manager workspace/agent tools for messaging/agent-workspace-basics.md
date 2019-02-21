@@ -46,7 +46,7 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ![](/img/agent-workspace-basics-1.png)
 
-All Connections displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
+[All Connections](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
 
 * Advanced filtering and search capabilities lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness
 * Transcripts are available in near real-time, so managers can track and analyze conversations on-the-go
@@ -103,11 +103,6 @@ All Connections allows agent managers and agents to view the entire flow of a co
 
 A column displaying the MCS of the conversation helps agent managers to track consumer sentiment (CSAT is also available in the conversation’s consumer info section).
 
-<div class="notice">
-<b>Note:</b>
-<ul>
-<li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.
-
-* While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com)”, will search for the words “tester” and “liveperson.com”  in that order.)</li>
-  </ul>
-  </div>
+<div class="notice"> <b>Note:</b> <ul> <li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for. </li> <li> While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other.  (For example: “[tester@liveperson.com](mailto:tester@liveperson.com)”, will search for the words “tester” and “liveperson.com”  in that order.)</li>
+</ul>
+</div>
