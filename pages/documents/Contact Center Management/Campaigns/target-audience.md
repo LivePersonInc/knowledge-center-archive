@@ -49,14 +49,12 @@ Now, LiveEngage will track your customers according to their status and type, al
 
 {:start="4"}
 4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
-
 * Desktop/Laptop
 * Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
 5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
-
 * Direct
 * Display
 * Email
@@ -83,7 +81,6 @@ Now, LiveEngage will track your customers according to their status and type, al
 
 {:start="8"}
 8. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
-
 * To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
 * To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
