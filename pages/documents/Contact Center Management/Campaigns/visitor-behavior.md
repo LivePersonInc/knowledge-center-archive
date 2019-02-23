@@ -53,7 +53,7 @@ Target and/or exclude consumers from selected entry points on the website or wit
 
 ### 4. About to Abandon:
 
-Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. For guidance on setup, please refer to the Why Connect to Google Analytics?Article (see related articles).
+Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. 
 
 **Note:** this behavior is currently only supported for web engagements.
 
@@ -147,15 +147,15 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
-5. After saving the flow, it will appear in the flows list.
-6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7. Click to save visitor behavior.
+5\. After saving the flow, it will appear in the flows list.
+6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7\. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
