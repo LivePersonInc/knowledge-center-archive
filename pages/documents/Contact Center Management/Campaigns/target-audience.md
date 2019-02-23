@@ -77,7 +77,9 @@ Now, LiveEngage will track your customers according to their status and type, al
 {:start="7"}
 7\. **New or returning:** Select consumers who have either visited your website for the first time or who have visited your website before (returning consumers), based on their local browser data storage.
 
-    **Note:** this attribute is currently only supported for web engagements.
+{: .important}
+
+\**Note:** this attribute is currently only supported for web engagements.
 
 {:start="8"}
 8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
