@@ -42,7 +42,7 @@ Now, LiveEngage will track your customers according to their status and type, al
 
 {:start="2"}
 
-1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. To learn more about targeting users by keyword, [click here](contact-center-management-campaigns-target-audience.html).
+1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. To learn more about targeting users by keyword, [click here](contact-center-management-campaigns-target-audience.html#target-consumers-by-keyword).
 2. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
 ![](/img/target-audience-2.png)
