@@ -147,15 +147,15 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
-5\. After saving the flow, it will appear in the flows list.
-6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7\. Click to save visitor behavior.
+5. After saving the flow, it will appear in the flows list.
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
