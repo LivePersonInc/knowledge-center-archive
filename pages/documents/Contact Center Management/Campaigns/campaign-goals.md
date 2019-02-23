@@ -43,7 +43,7 @@ There are five goal types to choose from: **generate leads, sell product/service
 
 Max is the owner of an online chain of stores that sells diamond jewelry. His business goal before the holidays is to sell the high-margin pieces (those that sell for over $10,000) that don’t move well during the slack season.
 
-In LiveEngage, Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
+Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
 
 {: .notice}
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the e-commerce category.
