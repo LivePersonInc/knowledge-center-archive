@@ -67,13 +67,13 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 
 ![](/img/visitor-behavior-2.png)
 
-Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
 ### 6. Products in Cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
-Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---cartstatus-cart-update) in the Engagement Attributes guide on the Developer Community.
+Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
 ### 7. Viewed Product:
 
