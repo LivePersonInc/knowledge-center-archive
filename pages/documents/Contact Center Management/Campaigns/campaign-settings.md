@@ -17,13 +17,13 @@ The campaign footnote includes account level settings that allow you to configur
 
 ## **Data sources**
 
-LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here]() to read more about data sources.
+LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) to read more about data sources.
 
 ## **Control groups**
 
 A control group is a random number of visitors to your website who are not exposed to any type of engagement from a LiveEngage campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
 
-The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, [refer here]().
+The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, [refer here](contact-center-management-campaigns-managing-campaigns.html#measuring-success-using-control-groups).
 
 ## Proactive engagement behavior
 
@@ -45,7 +45,7 @@ By default, after declining a proactive content engagement, other content engage
 
 This setting allows you to define the default currency for your account. This value will be used should you choose not to report the currency of transactions or other monetary values such as cart value and customer balance. The data is then displayed in related reports.
 
-The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage. For further information on tracking multiple currencies, [click here]().
+The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
 
 ![](/img/campaign-settings-3.png)
 
@@ -59,15 +59,15 @@ The cross session period is used to determine the window of influence in which y
 
 The attribution model is a set of rules that determines which agent or campaign gets the credit for a conversion. This setting defines if the first or last agent who chatted with the same visitor will receive the credit for a conversion. By default, the last agent gets the credit for the conversion.
 
-In the case of campaigns with content banners, the first or last banner will receive the credit for the conversion. By default, the last content engagement will get the credit. For more information, [click here]().
+In the case of campaigns with content banners, the first or last banner will receive the credit for the conversion. By default, the last content engagement will get the credit. For more information, [click here](data-reporting-engagement-attributes-attribution-model.html).
 
 ## **Predefined content**
 
-Within the predefined content library, you can add and edit phrases that will help to improve the efficiency of your agents when they are corresponding with your visitors. Creating predefined content not only equips agents with a tool which saves them time and energy, but ensures they are using a consistent company “voice” while communicating. Learn more about predefined content [here]().
+Within the predefined content library, you can add and edit phrases that will help to improve the efficiency of your agents when they are corresponding with your visitors. Creating predefined content not only equips agents with a tool which saves them time and energy, but ensures they are using a consistent company “voice” while communicating. Learn more about predefined content [here](agent-manager-workspace-workspace-configuration-predefined-content-overview).
 
 ## **Automatic messages**
 
-Within the automatic messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ]()to learn more about automatic messages.
+Within the automatic messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ](contact-center-management-live-chat-operations-automatic-messages.html)to learn more about automatic messages.
 
 ## **Inactive engagements**
 
