@@ -83,7 +83,6 @@ Now, LiveEngage will track your customers according to their status and type, al
 * To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
 * To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
-<br/>
 
 	Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
 
