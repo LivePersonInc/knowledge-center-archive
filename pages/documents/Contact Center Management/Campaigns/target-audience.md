@@ -48,14 +48,12 @@ Now, LiveEngage will track your customers according to their status and type, al
 
 {:start="4"}
 4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
-
 * Desktop/Laptop
 * Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
 5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
-
 * Direct
 * Display
 * Email
