@@ -79,7 +79,7 @@ Now, LiveEngage will track your customers according to their status and type, al
 
 {: .important}
 
-\**Note:** this attribute is currently only supported for web engagements.
+**Note:** This attribute is currently only supported for web engagements.
 
 {:start="8"}
 8\. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
