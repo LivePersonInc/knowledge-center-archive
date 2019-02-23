@@ -41,21 +41,20 @@ Now, LiveEngage will track your customers according to their status and type, al
 ![](/img/target-audience-1.png)
 
 {:start="2"}
-
 1. **Search keywords:** Target and/or exclude consumers who enter your website by searching for keywords within a search engine. The keywords used can either be manually entered (multiple keywords can be entered in this section and if any of them are used by the consumer this condition will be applicable) or imported from a Google AdWords campaign. Keywords passed from Google only apply to paid search referrals. To learn more about targeting users by keyword, [click here](contact-center-management-campaigns-target-audience.html#target-consumers-by-keyword).
 2. **IP range:** Target and/or exclude consumers within sets of defined IP range(s). It is possible to add multiple IP ranges.
 
 ![](/img/target-audience-2.png)
 
 {:start="4"}
-4\. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
+4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
 
 * Desktop/Laptop
 * Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
-5\. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
+5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
 
 * Direct
 * Display
@@ -65,9 +64,9 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Search
 * Social
 
-  To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
+To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
 
-  Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---marketingcampaigninfo-marketing-source) in the Engagement Attributes guide on the Developer Community.
+Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---marketingcampaigninfo-marketing-source) in the Engagement Attributes guide on the Developer Community.
 
 {:start="6"}
 6\. **Geo location:** Include or exclude consumers who are browsing your website or mobile app from specified countries, states, or cities as identified by their IP address. Start typing a location and then select from the displayed list.
