@@ -8,7 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-best-practices-for-messaging-agents.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 17:06:03 +0200
+date: 2019-01-23 15:06:03 +0000
 
 ---
 ## Common questions and LivePerson’s recommendations
@@ -103,19 +103,13 @@ Once this has been met, you should return to default.
 
 Yes, a conversation summary should be filled out every time.  A summary should include information that stood out about the chat, a quick summary would be really useful for the next person who deals with this customer again. It saves them from having to read the whole transcript. Keep the summary short and concise.
 
-
-
 ### **Should I ask customers to fill in feedback at the end of a conversation?**
 
 The system will automatically send out the exit survey. Sometimes it is good for the customer to know that a survey will be popping up as it may also encourage them to fill it out. Most of the time, it is good to let the customer know.
 
-
-
 ### **When I login, I get lots of messaging conversations straight away. Is that normal?**
 
 This can be normal, depending on the time that you start a shift. If there are a lot of customers in the queue from the night before, you may be busy from when you first login.
-
-
 
 ### **What will the visitor see once I set a new SLA?**
 
