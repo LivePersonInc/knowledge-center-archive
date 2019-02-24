@@ -141,8 +141,6 @@ When selecting the condition, look for a globe icon next to the word “**Suppor
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
 
-<br/>
-
 ## Displaying your engagements
 
 ### Advanced banner display settings
