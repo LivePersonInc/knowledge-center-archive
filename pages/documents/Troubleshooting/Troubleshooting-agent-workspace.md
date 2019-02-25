@@ -9,7 +9,6 @@ permalink: troubleshooting-agent-workspace.html
 isTutorial: false
 isNew: false
 date: 2019-02-25 15:14:06 +0200
-published: false
 
 ---
 ### Why don’t I get audio notifications for incoming conversations?
@@ -117,7 +116,7 @@ A LiveEngage agent can no longer see their predefined content in the predefined 
 
 * Do not modify IDs of predefined content items.
 
-For more information, see [Importing Predefined Content]().
+For more information, see [Importing Predefined Content.](agent-manager-workspace-workspace-configuration-importing-predefined-content.html)
 
 ![](/img/agent-workspace- troubleshooting3.jpg)
 
