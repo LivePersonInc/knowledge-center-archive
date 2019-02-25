@@ -51,7 +51,7 @@ Assign the agents one of the skills configured for Visitor Journey leads.
 7. For each of the selected properties, enter a **display name**. This name will be displayed to the agent in the Agent Workspace.
 8. Click **Save**.
 
-For more information on Conversation Outcomes and the Conversation summary widget, see Conversation Outcomes.
+For more information on Conversation Outcomes and the Conversation summary widget, see [Conversation Outcomes](data-reporting-report-builder-conversation-outcomes.html).
 
 ### Why is there a delay in the delivery of agent messages?
 
