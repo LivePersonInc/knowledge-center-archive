@@ -26,25 +26,19 @@ published: false
    – For Internet explorer, see [How to enable and disable audio notification in MS Internet Explorer](https://support.liveperson.com/enabling-disabling-audio-notification-in-ms-internet-explorer/) .  
    – For other browsers, search the browser’s Help for instructions on turning on audio.
 
-### Why don’t some agents see the Conversation summary widget?
+### Why don’t some agents see the conversation summary widget?
 
-#### **Problem**:
+Some agents don’t see the conversation summary widget in their workspace.
 
-Some agents don’t see the Conversation summary widget in their workspace.
+![](/img/agent-workspace-troubleshooting1.png)
 
-![](https://lh6.googleusercontent.com/krlPN_esWuNW-RDdXR0R93qP9Au8aFc46IOf2j0Z3s3jZ02edJVdvDHM2thoK_ECafyhtJsR0FYwDEGsKvhaWucbk5EQl5AyaeiuLFyeU-0ntZoiSXoEb_SLZakjSfqLaSBfk0ek =624x271)
+#### Cause:
 
-#### **Cause:**
+The conversation summary widget is configured via Engagement Attributes on the Skill level. The account had set their **Visitor Journey** engagement attribute to track **Lead** information for agents with certain skills. The agents who did not see the conversation summary widget were not assigned to any skills in that list.
 
-The Conversation summary widget is configured via Engagement Attributes on the Skill level.
-
-The account had set their **Visitor Journey** engagement attribute to track **Lead** information for agents with certain skills. The agents who did not see the Conversation summary widget were not assigned to any skills in that list.
-
-#### **Solution**:
+#### Solution:
 
 Assign the agents one of the skills configured for Visitor Journey leads.
-
-![](https://lh4.googleusercontent.com/tvFkkNb-uXbsi-whSujmS8GQp8CKYBE-uWUmCZU2o6BllgxmFfmMfHvr0uzLzq2gxGm5PN7vpxIOGSrCp3UPBJDNY7r-fQZQttaf9-KfKga3nlNHNGbi6nbBvvreUhnecwHkPDU9 =624x264)
 
 **To edit the Visitor Journey** **engagement attribute:**
 
