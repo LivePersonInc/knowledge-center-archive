@@ -41,7 +41,7 @@ One-to-one texting is a real conversation between two people. Although the major
 
 ## Best practices for texting customers
 
-LiveEngage SMS functionality was created to help brands facilitate one-to-one text conversations. Your team can receive and respond to SMS text messages from customers. Texts are sent and received through the LiveEngage platform, while transcripts are recorded and stored. You can achieve better control and send automatic opt-out messages through creation of custom Predefined Content via the Agent Workspace.
+LiveEngage SMS functionality was created to help brands facilitate one-to-one text conversations. Your team can receive and respond to SMS text messages from customers. Texts are sent and received through the LiveEngage platform, while transcripts are recorded and stored. You can achieve better control and send automatic opt-out messages through creation of custom Predefined Content via the agent workspace.
 
 ### Sample scenarios
 
@@ -57,7 +57,7 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 1. **Gather the appropriate written consent wherever you capture phone numbers, from forms to in-person conversations:** Make it part of the process to ask for a customer’s agreement to be contacted via SMS text message. This includes clearly communicating what the customer can expect to receive when providing their number. You can add this to your customer survey(s), or to your Predefined Content which can be sent to the customer during a conversation.
 2. **Add the “message; data rates may apply” disclaimer:** You should add it on consumer-facing calls to action such as the webpage or ad where the customer sees the number or the invitation to text. You want to ensure customers know what to expect even if they text you a question.
 3. **Send an initial confirmation text message with opt-out instructions:** Include opt-out instructions, which can be as simple as “text STOP to cancel,” even if the customer texted you first. Often called a “double opt-in message,” it may be smart to ask the customer for permission to text back and forth with them, even if they texted you first as well.
-4. **Honor the opt-outs:** Where a customer has opted-out, it may be a good idea to make a note of this in the Agent Summary in the Agent Workspace.
+4. **Honor the opt-outs:** Where a customer has opted-out, it may be a good idea to make a note of this in the Agent Summary in the agent workspace.
 
 ### Sample use of predefined content
 
