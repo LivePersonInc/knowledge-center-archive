@@ -15,7 +15,7 @@ date: 2019-02-25 15:14:06 +0200
 
 **Issue:** An agent is not getting audio notifications for incoming conversations.
 
-#### **Possible causes and solutions:**
+#### Possible causes and solutions:
 
 1. In the agent work space in LiveEngage audio notification is muted. Go to your agent status bar and unmute sound, as shown in the image below.
 
@@ -91,13 +91,13 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 
 A LiveEngage agent received a chat notification while they are in Away state.
 
-**The reason this happens is**:
+#### Cause: 
 
-* The ACD setting of the agent’s LiveEngage account is Manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
+The ACD setting of the agent’s LiveEngage account is Manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
 
 When the ACD setting is Manual, this is expected behavior. (This allows agent managers to get notifications and take chats when they feel their agents are overwhelmed.)
 
-**Note**:
+**Note:**
 
 * Chats cannot be transferred from other agents to an agent who is in Away state.
 * Agents in Away state do NOT count toward the current available chat slots of a specific skill.
@@ -108,13 +108,13 @@ When the ACD setting is Manual, this is expected behavior. (This allows agent ma
 
 A LiveEngage agent can no longer see their predefined content in the predefined content widget.
 
-**The reason this happens is**:
+#### Cause:
 
-* The account’s admin/agent manager exported the predefined content, modified all the predefined content IDs in the exported file and then imported the predefined content from the modified file. During the import process all the predefined content items in the account were deleted because it could not locate them in the import file. The import process identifies items by their IDs and the IDs in the import file had been changed.
+The account’s admin/agent manager exported the predefined content, modified all the predefined content IDs in the exported file and then imported the predefined content from the modified file. During the import process all the predefined content items in the account were deleted because it could not locate them in the import file. The import process identifies items by their IDs and the IDs in the import file had been changed.
 
-**To resolve this issue you should**:
+#### Solution:
 
-* Do not modify IDs of predefined content items.
+Do not modify IDs of predefined content items.
 
 For more information, see [Importing Predefined Content.](agent-manager-workspace-workspace-configuration-importing-predefined-content.html)
 
@@ -124,11 +124,11 @@ For more information, see [Importing Predefined Content.](agent-manager-workspac
 
 An agent manager reported that on the Web History tab, he is only able to see and export chat transcripts for his call center in India. He doesn’t see chats from his other call center in the USA and he’s not able to choose the USA group in the Agent Group filter.
 
-**The reason this happens is**:
+#### Cause:
 
 The agent manager is defined as the manager of the India call center group but not of the USA agent group.
 
-**To resolve this issue**:
+#### Solution:
 
 A user on the account who has permissions to modify user settings, should change the agent manager’s permissions as follows:
 
