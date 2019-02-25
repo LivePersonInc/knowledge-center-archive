@@ -30,6 +30,7 @@ fields:
     - Security & regulations
     - What's new
     - Release notes
+    - Troubleshooting
   label: Category
   name: categoryName
   description: The category to which the document belongs
@@ -65,6 +66,13 @@ fields:
     - '2018'
     - '2019'
     - Manager tools for live chat
+    - Login & Password
+    - Agent workspace
+    - Messaging
+    - Live Chat
+    - Bots
+    - Reporting & Data
+    - Case management support
   label: L2 Category
   description: The sub-category to which the document belongs
   default: Web messaging
