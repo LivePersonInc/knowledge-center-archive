@@ -67,11 +67,9 @@ Update agent browser version. For a list of supported browsers, see system requi
 
 ### Why isn’t CoBrowse available to chat agents?
 
-**Issue**:
-
 Agents in chat do not have the CoBrowse icon available to them and therefore cannot initiate a CoBrowse session.
 
-**Possible Causes**:
+#### Possible causes:
 
 * The CoBrowse function for the account is not switched on in Night Vision.
 * The agents are not assigned to a profile that includes CoBrowse permissions.
@@ -80,11 +78,9 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 
 ### Why isn’t the scroll bar showing in the predefined content widget?
 
-C
+#### Possible cause: 
 
-M
-
-This is caused by a setting that is configurable in the Mac OS X.
+#### A setting that is configurable in the Mac OS X.
 
 **To modify the setting**:
 
@@ -92,7 +88,7 @@ This is caused by a setting that is configurable in the Mac OS X.
 2. Click the **General preferences** pane (first one at the top).
 3. Under Show scroll bars select **Always**. The scroll bar will now display in the predefined content widget.
 
-### An Agent’s Status is AWAY yet he is still Receiving Chats
+### An Agent’s status is AWAY yet he is still Receiving Chats
 
 A LiveEngage agent received a chat notification while they are in Away state.
 
@@ -107,9 +103,7 @@ When the ACD setting is Manual, this is expected behavior. (This allows agent ma
 * Chats cannot be transferred from other agents to an agent who is in Away state.
 * Agents in Away state do NOT count toward the current available chat slots of a specific skill.
 
-More Information: Balance Your Agent Workload
-
-#### ![](https://lh5.googleusercontent.com/4kelgLO9jgitr15lGQhC8yU7u8cb4thv8IS3kBWPDgwaHK6swr46QSJygrvSS7BfBtYZCPMFIxzg3rjGdraodSQWP7Wak3CdgVsVuowwHhaq2TcqHByxyd44wB8UdTh7goda7uso =323x400)
+![](/img/Agent-workspace-troubleshooting.png)
 
 ### Why don’t agents see their Predefined Content?
 
@@ -123,9 +117,9 @@ A LiveEngage agent can no longer see their predefined content in the predefined 
 
 * Do not modify IDs of predefined content items.
 
-For more information, see [Importing Predefined Content](https://ce-sr.s3.amazonaws.com/CA/AM/Canned_importExport/49_ImportPredefined%20Content.pdf).
+For more information, see [Importing Predefined Content]().
 
-![](https://lh6.googleusercontent.com/X8-OF93KGdMymfaTMxRsun5rFG9ZEg8wAGIbd272f1-H_wezKZhNEvDSCv-KCl1APxf_0f6EbJxqNAwnuWr4ZQbEozwefWbG46AHO6gaprhavyE0jR52S_PZlZ48JCKIn7ftnDEF =295x304)
+![](/img/agent-workspace- troubleshooting3.jpg)
 
 ### Why doesn’t our agent manager see all his groups?
 
