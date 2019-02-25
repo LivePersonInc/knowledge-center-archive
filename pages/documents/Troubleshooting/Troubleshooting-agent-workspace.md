@@ -55,15 +55,13 @@ For more information on Conversation Outcomes and the Conversation summary widge
 
 ### Why is there a delay in the delivery of agent messages?
 
-##### **Problem**:
+Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.
 
-We are experiencing latency issues, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.
-
-##### **Possible Cause:**
+#### Cause:
 
 The affected agents were working in unsupported browser versions.
 
-##### **Solution**:
+#### Solution:
 
 Update agent browser version. For a list of supported browsers, see system requirements and supported languages.
 
