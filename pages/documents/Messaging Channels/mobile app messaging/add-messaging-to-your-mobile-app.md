@@ -110,7 +110,7 @@ Once the app is installed on your LiveEngage account and a new campaign has been
 
 ![](/img/add-messaging-to-your-mobile-app-2.png)
 
-{: .important} 
+{: .important}
 
 **Important:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
@@ -168,7 +168,7 @@ Once you have added the mobile engagements to your app, remember to follow the g
 * Customize automatic messages
 * Create pre-defined content for your agents
 * Set up a routing bot
-* Set up the post conversation survey
+* Set up the Post Conversation Survey
 
 ### Set expectations based on your actual working hours
 
@@ -199,6 +199,6 @@ As you create campaigns, you can create messages that are specific to that topic
 
 The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry. To learn more about the Routing Bot and how it is configured, [click here]().
 
-### Set up the post conversation survey
+### Set up the Post Conversation Survey
 
 The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured, [click here](bots-automation-post-conversation-survey.html).
