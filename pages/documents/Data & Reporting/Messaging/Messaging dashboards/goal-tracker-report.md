@@ -25,7 +25,9 @@ This dashboard also entails hour offset capabilities allowing users to show the 
 
 The following panel will be presented when accessing the goal tracker predefined dashboard. It provides an overview of all goals reached (including conversions), by skill and by agent, and a list of all goals reached events within the selected timeframe.
 
-![Cox (31922287) - Agent Goals Tracker Report.png](https://lh6.googleusercontent.com/5pXFgmCYIVH19XzG5sbqObrhaSE93qCIOES8hUm49K3VBqPI9-jJQNgprQX0sMT1XECmARLHodCHP66bRqhFA1dAWi9JDg316gHnbgPh6zkggtoJq7zKczLT77gzOKU6lrlxE3iL =624x389)Image 1- Agent goals tracker report main panel
+![](/img/Goal-tracker-report2.png)
+
+_Image 1- Agent goals tracker report main panel_
 
 **Visualizations:**
 
