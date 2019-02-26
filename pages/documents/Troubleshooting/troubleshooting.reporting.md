@@ -70,7 +70,7 @@ This is expected behavior.
 3. Add the sum of the values in the two “transfer” metrics to the value of the NO. OF CONVERSATIONS HANDLED metric on the Messaging Performance Dashboard.
 4. The result should equal the total number in the Excel report.
 
-### [Why aren’t Report Builder dashboard filters working?](https://support.liveperson.com/report-builder-dashboard-filters-are-not-affecting-data/)
+### Why aren’t Report Builder dashboard filters working?
 
 When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
 
@@ -84,21 +84,15 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
 3. Run the dashboard again to refresh the data.
 
-### [Why do chat transcript export files display incorrect customer IDs?](https://support.liveperson.com/why-do-chat-transcript-export-files-display-incorrect-customer-ids/)
+### Why do chat transcript export files display incorrect customer IDs?
 
-C
-
-April 12, 2018
-
-![1 Star](https://lh3.googleusercontent.com/Vc15zpqaNUCjGFsLZkkFCvhaPVYfF777vVp3TKB0cdBUb0CUjVSZGD5ixV9r39Qe3nY6jGT5ZRVBbQtARYX2iqMpf5q6uAh1LDIsxJ47bD0S3ymAfOM1tJFvG7aVOTcinwZRh4OE "1 Star" =12x12)![2 Stars](https://lh5.googleusercontent.com/-VB9yKv7XVaUu722IEAPz33P_TFvRRHBcg52WEE3EXCPhxUBLNZWi9XjwQcIWSHevfuMoTy5UToshTsY-g_r5xwB0Wu4JCSjtucIaBNeC6KT_gtom7rDJLa0mQ2hG3f6zJZ9MWTv "2 Stars" =12x12)![3 Stars](https://lh4.googleusercontent.com/UTVbiK3kjDm929lU6b2J7orBf1JLyLrBTQJ5eh4CQPPtrnnn-PPmSPPnFNW2yGrMgFJebhpR-lKzn6nAScuQZx5iMX1LlzA-vI8FFTN-c41vF-tfzPsGr4QY7_nXBOS6u5fEOTg- "3 Stars" =12x12)![4 Stars](https://lh4.googleusercontent.com/BKQk_4Et8jKOU_ESEnO6qJFpGNJddBs6ePYfPIQ-8fNB7dDul30aChFBQ6yijYPcQqXpE8SNR-lq1WEkIrr3kUqZvXmHya58DfMmPfQx1LrasVHRzQlprL7XfKt_M8hR8oQBYl6k "4 Stars" =12x12)![5 Stars](https://lh6.googleusercontent.com/IxL5fni3jL68ZRRk7nuUIOEfpoB0AuHm_kZ7YvRGa2rbONMS8CDSaJh4AvX2xfvCmZtqZ88HHoh9B8EI6dCvXMoSAC9j-qeM91YyWkAABaEaoi0XxAmKvs06PVJ_MRxh5dmIyOSj "5 Stars" =12x12) (No Ratings Yet)
-
-##### **Problem**
+#### Problem
 
 When we export chat transcripts to a CSV file, the customer IDs are displayed in scientific format. Then we convert the IDs back to decimal format. But the converted ID does not match the original ID.
 
 For example, one of our customer’s IDs is 5121079781289563. In the export file it is displalyed as 5.12108E+15, and when we convert it back to decimal, it comes out as 5121079781289560.
 
-##### **Cause**
+#### Cause
 
 This is an MS Excel limitation. Excel displays numbers containing 15 or more digits in scientific format even though it has saved them in decimal format.
 
@@ -106,7 +100,7 @@ When you open the CSV file as a text file, you can see the Customer ID in decima
 
 LiveEngage does not convert these long numbers to text before the Chat Transcript Export because the CSV files may be used by some LiveEngage customers with other applications, parsers, or macros and not just with MS Excel.
 
-##### **Solution**
+#### Solution
 
 You can use this workaround to “fix” the MS Excel display:
 
@@ -116,17 +110,10 @@ You can use this workaround to “fix” the MS Excel display:
 4. Download the Google Sheet (File -> Download as) to a Microsoft Excel file (.xlsx).
 5. Open the new file in MS Excel. The Customer IDs are now displayed correctly.
 
-**Note**: Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
+{: .notice}**  
+**Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
 
-### [Why is the Agent Goal Tracker “missing” transactions reported in Web History?](https://support.liveperson.com/agent-goal-tracker-is-missing-transactions-reported-by-the-web-history/)
-
-C
-
-M
-
-February 12, 2018
-
-![1 Star](https://lh5.googleusercontent.com/Z6hMvFoBJ3xR1-napvXKlHR6oijkWH-y3vkMGInGW9g9_vD8UlChRNyo1pNxQeovWsmRwgchaXISPvwTsoNSEEmUKcGla503Nz4IuEZubGSkw53OCI8wMevz7xuYNAi-5bpwNBiV "1 Star" =12x12)![2 Stars](https://lh6.googleusercontent.com/0ljfHVwfnWTMW2ALRxQEaxLUu80VVdK-ei9C6CaJ8P9OV_1MzvdyLN5MzCiD0BJcA_KFB9gjYYCVsYlDbWG636Vl3JhtN25Ni5ajtoPDz8z7g_eGM3kJ-0EiB1twCqwnvg-GKPk8 "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/p4QGoRcXUuB8ytVuwoyieXMZRyPKSncGsiXveVoiLO2ihoe3l6RPSb2NGwFXGYiHbFHrrSrxvim1_Vvq3GUOYg69OtsU0I2CUhCxgJiPa1PqnDOdxoVTcdfAlH88rfnGKWuzkh2l "3 Stars" =12x12)![4 Stars](https://lh5.googleusercontent.com/XKoIlQWC--gYxkbVQir7KrRGI88bGPVo2XPk9cL1IYnK0Y7eRHa1dIyUMP6LyZOU4syB6XnFBM1OogcRHOKrr15lmAFE5gBShSbr7Dk7JVJa4SPkHZzXGWehHsB-jl5JtvEIBfJ8 "4 Stars" =12x12)![5 Stars](https://lh4.googleusercontent.com/zuVx_zChmSCJGGgjpq0pEDRlI4frkQZBse8RJhDxfYBPZ1IvXRAlCOXWSOift-M23KEZkGuwxPgaWOdmsq5QvyRSnshUqB45OrgaV_GCziC30-H5Vp0V6yPKqlI6tXckWShkbNXu "5 Stars" =12x12) (No Ratings Yet)
+### Why is the Agent Goal Tracker “missing” transactions reported in Web History?
 
 Some order ID’s (sales transactions) reported in Web History are not reported by the Agent Goal Tracker (on the Agent Manager BI Dashboard).
 
