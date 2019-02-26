@@ -14,21 +14,23 @@ published: false
 ---
 ### Why isn’t CoBrowse / CoBrowse-for-Voice opening on the visitor side?
 
-#### **Problem**: 
+#### Problem:
 
 When agents initiate a CoBrowse session and visitors click Accept, the session does not launch.
 
 When agents initiate **CoBrowse for Voice** session and visitors enter the required code/service ID, nothing happens.
 
-#### **Possible Cause:** 
+![](/img/Troubleshooting-chat2.png)
+
+#### Possible cause:
 
 3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require Third Party Cookies to initiate a session.
 
-#### **Solution**: 
+#### Solution:
 
 Visitors should enable 3rd-party cookies in their browsers.
 
-For more information on CoBrowse and CoBrowse for Voice see the [CoBrowse ](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=collaborative-connections-with)article in the LiveEngage Connection area
+For more information on CoBrowse and CoBrowse for Voice see [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html). 
 
 ### The Pre-Chat survey routing question looks strange on iPhone devices
 
@@ -43,13 +45,13 @@ This is expected behavior.
 
 ### Why doesn’t the chat window follow our visitors to other web pages?
 
-#### **Problem:**
+#### Problem:
 
 1. A visitor is in chat on one of our web pages.
 2. The visitor, who is still in chat, navigates to another one of our web pages.
 3. The chat window doesn’t follow the visitor to the page.
 
-#### **Cause:**
+#### Cause:
 
 The URLs of the two pages the visitor moved between belong to **different domains** and the monitoring domains/cross domains was not enabled on the account.
 
@@ -58,7 +60,7 @@ The URLs of the two pages the visitor moved between belong to **different domain
 1. A visitor is chatting on a page whose URL ends with .com.
 2. The visitor then navigates to another page whose URL ends with .com.au.
 
-#### **Solution:**
+#### Solution:
 
 The brand should enable monitored domains/cross domains on their account ( (from the LiveEngage Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
 
