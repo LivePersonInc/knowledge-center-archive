@@ -105,7 +105,7 @@ When they accept the invitation, it will be clear that you are sharing their scr
 
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
-{: .notice} 
+{: .notice}
 Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations.
 
 When you invite a customer to a call, they’ll see an incoming call screen:
