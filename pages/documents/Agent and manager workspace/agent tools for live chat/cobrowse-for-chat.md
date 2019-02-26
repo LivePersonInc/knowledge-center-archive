@@ -17,7 +17,6 @@ date: 2019-01-30 14:43:16 +0000
 <iframe src="https://player.vimeo.com/video/238900340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors. To focus the visitor, the agent can animate elements on the visitor screen by:
-
 * Double clicking on the element will display a yellow circle around the cursor.
 * Ctrl + Left mouse - will animate the element with a wiggle effect.
 
@@ -40,7 +39,6 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 ## Security & privacy
 
 CoBrowse was designed with strict security controls to protect the privacy of both visitors and agents. The following controls can be implemented as part of the solution:
-
 * CoBrowse solely builds on standard applications protocols such as HTTP, HTTPS and JavaScript.
 * The agent cannot access the visitor’s local system, or web applications opened in other browser tabs or windows.
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
@@ -79,14 +77,14 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 ![](/img/cobrowse-for-live-chat-2.png)
 
 {:start="2"}
-2\. Click Agent Workspace Configuration.
+2. Click Agent Workspace Configuration.
 
 ![](/img/cobrowse-for-live-chat-3.png)
 
 {:start="3"}
-3\. Click Edit next to the CoBrowse configuration.
-\* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
-\* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
+3. Click Edit next to the CoBrowse configuration.
+* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
+* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
 ![](/img/cobrowse-for-live-chat-4.png)
 
@@ -106,7 +104,7 @@ The following CoBrowse elements can also be configured:
 ![](/img/cobrowse-for-messaging-4.png)
 
 {:start="4"}
-4\. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
+4. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ![](/img/cobrowse-for-live-chat-6.png)
 
@@ -117,28 +115,28 @@ The following CoBrowse elements can also be configured:
 ![](/img/cobrowse-for-live-chat-7.png)
 
 {:start="2"}
-2\. Choose the session type:
+2. Choose the session type:
 
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
 
 {:start="3"}
-3\. The visitor receives a notification asking them to accept the CoBrowse session.
+3. The visitor receives a notification asking them to accept the CoBrowse session.
 
 ![](/img/cobrowse-for-live-chat-8.png)
 
 {:start="4"}
-4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
+4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
 ![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
-5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+5. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
 ![](/img/cobrowse-for-live-chat-10.png)
 
 {:start="6"}
-6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+6. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
