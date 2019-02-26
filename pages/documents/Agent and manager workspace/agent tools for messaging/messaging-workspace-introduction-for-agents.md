@@ -19,7 +19,6 @@ Messaging provides consumers with an experience that is superior to live chat, a
 * If a consumer takes hours or days to reply, what should be done with the open conversation?
 * What about conversations that are left unresolved? Do they remain open?
 * How many concurrent messages can an agent handle?
-* How long
 
 ## Behind the scenes: how LivePerson helps agents manage asynchronous conversations
 
