@@ -460,26 +460,6 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 * **LivePerson SDK Field:** ```surveyQuestions.agentSurvey[displayName=Was the customer satisfied?].value```
 * **LivePerson API Field:** ```surveys.operator[displayName=Was the customer satisfied?].value```
 
-{:start="3"}
-3. **LivePerson SDK Field:**
-
-```surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value```
-
-**LivePerson API Field:**
-
-```surveys.operator\[displayName=Was the customer satisfied?\].value```
-
-{:start="4"}
-1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
-
-**LivePerson SDK Field:**
-
-```surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value```
-
-**LivePerson API Field:**
-
-```surveys.operator\[displayName=Was the customer satisfied?\].value```
-
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
 
 LiveEngage has a wide (and constantly growing) list of parameters for different uses, which our customers can use for to transfer information about the visitor and his journey on their website, and into LiveEngage.
@@ -493,36 +473,16 @@ Some of those are actually arrays of objects, which you can either turn to by a 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
 1. For a the **Chat Start Time** value:
+* **LivePerson SDK Field:** ```chatInfo.chatStartTime```
+* **LivePerson API Field:** ```info.startTime```
 
-**LivePerson SDK Field:**
+2. For a **Customer Type** value:
+* **LivePerson SDK Field:** ```SDE.customerDetails.type```
+* **LivePerson API Field:** ```sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType```
 
-```chatInfo.chatStartTime```
-
-**LivePerson API Field:**
-
-```info.startTime```
-
-{:start="2"}
-1. For a **Customer Type** value:
-
-**LivePerson SDK Field:**
-
-```SDE.customerDetails.type```
-
-**LivePerson API Field:**
-
-```sdes.events\[sdeType=CUSTOMER_INFO\].customerInfo.customerInfo.customerType```
-
-{:start="3"}
-1. For the **Visitor’s** **Name** value:
-
-**LivePerson SDK Field:**
-
-```SDE.personalInfo.name```
-
-**LivePerson API Field:**
-
-```sdes.events\[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
+3. For the **Visitor’s** **Name** value:
+* **LivePerson SDK Field:** ```SDE.personalInfo.name```
+* **LivePerson API Field:** ```sdes.events\[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
 
 {:start="4"}
 1. For the **Goal Name** value:
