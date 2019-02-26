@@ -93,7 +93,8 @@ All three options are triggered from within the messaging conversation window:
 
 This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
 
-{: .notice} When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience).
+{: .notice} 
+When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience).
 
 When you initiative a screen sharing session, the consumer will see the following invite:
 
@@ -120,7 +121,8 @@ Connected call screen:
 
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
-{: .notice} This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming.
+{: .notice} 
+This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming.
 
 ![](/img/managing-messaging-conversations-8.png)
 
