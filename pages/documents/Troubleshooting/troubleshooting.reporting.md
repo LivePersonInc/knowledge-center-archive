@@ -1,0 +1,160 @@
+---
+pagename: Reporting
+categoryName: Troubleshooting
+subCategoryName: ''
+indicator: both
+subtitle: Troubleshooting for all questions in Reporting
+level3: ''
+permalink: troubleshooting-reporting.html
+isTutorial: false
+isNew: false
+date: 2019-02-26 14:03:37 +0200
+published: false
+
+---
+### Missing Excel export button in Report Builder
+
+The client is unable to export Report Builder reports from any of the Report Builder dashboards.
+
+**The reason this happens is:**
+
+The user does not see the visualization headers that contain the Export options menu (at the top right corner).
+
+For users who do not have “Edit” access in Report Builder, the visualization headers are hidden and these users cannot change the header settings.
+
+**Note**: Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
+
+**To resolve this issue you should**:
+
+Set visualization headers to visible as follows:
+
+1. Log in to the account with an LPA user or any user that has Edit access in Report Builder.
+2. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
+3. Set visualization headers to visible as follows:  
+   a. Check the box next to **Show title bar** in order to unhide the header.  
+   b. Log in to the account with an LPA user or any user that has **Edit** access in Report Builder.  
+   c. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
+4. Save a copy of the dashboard. Now the Export option will be visible.
+
+### [Report Builder – Total No. of Conversations Handled not adding up](https://support.liveperson.com/report-builder-total-no-of-conversations-handled-not-adding-up/)
+
+M
+
+February 8, 2018
+
+![1 Star](https://lh4.googleusercontent.com/VPIVwP0MYsv_ACMwoN78sQkgqJrqjEOpiXprn0diJfFVmMOBLzT_0MNcMANhLFJe5laFTFOMkCqAZYKcJ1OYEuasdmwd8LntHsxVt4cvpiJ-m8y8DgcX8j3FHZ0NkLUxz5zv4Ul5 "1 Star" =12x12)![2 Stars](https://lh4.googleusercontent.com/8u8y-X08bMgqk9levESHT6aX16OoeUmVOuyEjEdX8eTBrAbVYEATD5ORsfrSMhx_p9VXzLHaYY2SQIHExGE7RRdGgYhQ8gQXQvfAXPIbDT7MqfP1CQRlsy6aIPz8jOxpHauYYsGB "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/347YCcIKFZu1YXiqg6KgUP6HYeNrg4jRYGukIiOkUdwKEDizBPEgwUGEpWAT_dzu0Iff8F2zUf_xqVxWkZobTMBPJVIPSeWH-sLS_9OfiE_MBLtl_S3gD8qeYs3ZRYbaW8qYKKjr "3 Stars" =12x12)![4 Stars](https://lh3.googleusercontent.com/arouysrDp3dbtbJezhKFSPR95G5pZj928PczoWhK-i1VvNz3E7AHTxau7lWid5jWPfkA6i2fUo4FWrk5MFZf5ENSeN9Bi8ho7VmyHv4r8burWqLS-xJFBgD7TJ6WZCP_XhoO-EQe "4 Stars" =12x12)![5 Stars](https://lh3.googleusercontent.com/ELWKIe9x-olV_iHRQSvkpXtVBK9OBPZU3Q4PnZuDdENvwvWXPnOnrcBtaid7R4z0Ea09YJQ1iNtgycaYiAjpdSebFY7VohQ4vYnRX9VzGrEHnYdqQfMTIyWxbnTsqAtSTfEFhi9i "5 Stars" =12x12) (No Ratings Yet)
+
+The totals that are displayed on the Messaging Performance dashboard (highlighted in red in image below) are not the same as the totals reported in the exported Excel file.
+
+For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file is higher than the total NO. OF CONVERSATIONS HANDLED (for the same time period) reported on the Messaging Performance dashboard.
+
+**Report Builder report**
+
+**![](https://lh4.googleusercontent.com/8I6iFKGmTJ8yj8onwuWBx9ArH-L0xlJ2qtT01derkCKMLWXxIVYNmFH42DPQVOCSC2qTirfHMqcHPKA-vAbgNdq3qvFQPfkxGwW4LcgSJE26mCCE052amQInkrtil33GmmheafCj =624x159)**
+
+**Exported report totals**
+
+**![](https://lh3.googleusercontent.com/IplCTGLg6-zCkWp_DhC0U7dOlYqM09n-1FCMHDDlFc_l6pQSpG13CIQtH6TKQhCOqKS5mQw2Pk6EWUzUHAsbYz1Y1BMVePNaRIu39hFl9_sUndjJGt5ldoGvY_ziwPGYo-El5rsA =624x56)**
+
+**The reason this happens is**:
+
+In messaging, an Agent can transfer a conversation to a skill or queue (but not to another agent). The conversation will then be assigned to another agent. The transferred conversation is counted both as the first agent’s conversation and as the second agent’s conversation.
+
+The Excel report displays the sum of all agents’ NO. OF CONVERSATIONS HANDLED in the Totals field. Since a transferred conversation is counted toward two different agents, it is counted twice in the Excel report.
+
+The Messaging Performance dashboard displays the total number of distinct conversations (distinct conversation IDs) in NO. OF CONVERSATIONS HANDLED Totals field. In other words, a conversation that was handled by two different agents (due to transfers) is only counted once in the dashboard.
+
+This is the reason for a smaller value in Total NO. OF CONVERSATIONS HANDLED on the dashboard than in the Excel report.
+
+This is expected behavior.
+
+**To verify that the totals add up in both reports:**
+
+1. Search for the word transfer (in the report in question).
+2. If there were transferred conversations during the report period, the search results will include the metrics NO. OF TRANSFERS – SKILL and/or NO. OF TRANSFERS – BACK TO QUEUE.
+3. Add the sum of the values in the two “transfer” metrics to the value of the NO. OF CONVERSATIONS HANDLED metric on the Messaging Performance Dashboard.
+4. The result should equal the total number in the Excel report.
+
+### [Why aren’t Report Builder dashboard filters working?](https://support.liveperson.com/report-builder-dashboard-filters-are-not-affecting-data/)
+
+C
+
+M
+
+February 8, 2018
+
+![1 Star](https://lh3.googleusercontent.com/Cx5cqB_l6ebmhfUq8yNfqGD-7VwpWhlbaFIwUrlJ0KHESoY0V3j7y7inqHgP-jBi5yDD8JP9khaXW-iKBvvB1WBMh3K_KgySLSXmZeFGtspCaF4bpzuJJgAu030wl7fICrG06r0G "1 Star" =12x12)![2 Stars](https://lh6.googleusercontent.com/LzdcO71dfTcRLWf6j7nVwD1wcAremyfE0Ux6-9yKBT9Y6fzcxI82RB6t2HI0nmmqE5lSRohR20GmY3Mv-FqBtRC5OQd-U3ZDYiFRZmWQ9477OM_BlpTgVt0awjCkn0i4yMpTgh-p "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/2pX5fHqpDMXSbih4NbLQUesZrqt7SN7wFAZQezbyr8RjJu5isCI34sW9eQqE_glJCjAnXMtvGTYPQ92nqomRNHx3PISMlMwBvmz4p2IFW1wPH3SCx7pGpaWJcBgqm7qqx7IMkV3W "3 Stars" =12x12)![4 Stars](https://lh3.googleusercontent.com/tkahcsIHxr4jIouo1KTjBUm9FzodsUt65yxD2xSCLdlPM5jD9LLenN8p-Rf7VUqqOnKIBlJ49ee-pl6FTR68fCpa7kALeg5Wu7IK_4d2riT2J8hMgAtKPU8bqw7yN5gnjvKqmg5x "4 Stars" =12x12)![5 Stars](https://lh6.googleusercontent.com/4WozjHJUG_qiCrshPJ48Fkli66um-ShjuSxKnxIUWymfwjnVv-FiWuLNANunWHOKIimZ5Xk6wMGWhRqZdNcP_v5Vnusvph5dlc-36t4Dc49SVaXuhpH-BciPU_bl_mvsQXlIDWj9 "5 Stars" =12x12) (No Ratings Yet)
+
+When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
+
+**The reason this happens is**:
+
+The dashboard is not refreshing due to a caching mechanism managed by the user’s browser.
+
+**To resolve this issue you should**:
+
+1. If you are a LiveEngage Administrator or a user with Report Builder “Edit” access, click the Refresh button at the top of the dashboard.
+2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
+3. Run the dashboard again to refresh the data.
+
+### [Why do chat transcript export files display incorrect customer IDs?](https://support.liveperson.com/why-do-chat-transcript-export-files-display-incorrect-customer-ids/)
+
+C
+
+April 12, 2018
+
+![1 Star](https://lh3.googleusercontent.com/Vc15zpqaNUCjGFsLZkkFCvhaPVYfF777vVp3TKB0cdBUb0CUjVSZGD5ixV9r39Qe3nY6jGT5ZRVBbQtARYX2iqMpf5q6uAh1LDIsxJ47bD0S3ymAfOM1tJFvG7aVOTcinwZRh4OE "1 Star" =12x12)![2 Stars](https://lh5.googleusercontent.com/-VB9yKv7XVaUu722IEAPz33P_TFvRRHBcg52WEE3EXCPhxUBLNZWi9XjwQcIWSHevfuMoTy5UToshTsY-g_r5xwB0Wu4JCSjtucIaBNeC6KT_gtom7rDJLa0mQ2hG3f6zJZ9MWTv "2 Stars" =12x12)![3 Stars](https://lh4.googleusercontent.com/UTVbiK3kjDm929lU6b2J7orBf1JLyLrBTQJ5eh4CQPPtrnnn-PPmSPPnFNW2yGrMgFJebhpR-lKzn6nAScuQZx5iMX1LlzA-vI8FFTN-c41vF-tfzPsGr4QY7_nXBOS6u5fEOTg- "3 Stars" =12x12)![4 Stars](https://lh4.googleusercontent.com/BKQk_4Et8jKOU_ESEnO6qJFpGNJddBs6ePYfPIQ-8fNB7dDul30aChFBQ6yijYPcQqXpE8SNR-lq1WEkIrr3kUqZvXmHya58DfMmPfQx1LrasVHRzQlprL7XfKt_M8hR8oQBYl6k "4 Stars" =12x12)![5 Stars](https://lh6.googleusercontent.com/IxL5fni3jL68ZRRk7nuUIOEfpoB0AuHm_kZ7YvRGa2rbONMS8CDSaJh4AvX2xfvCmZtqZ88HHoh9B8EI6dCvXMoSAC9j-qeM91YyWkAABaEaoi0XxAmKvs06PVJ_MRxh5dmIyOSj "5 Stars" =12x12) (No Ratings Yet)
+
+##### **Problem**
+
+When we export chat transcripts to a CSV file, the customer IDs are displayed in scientific format. Then we convert the IDs back to decimal format. But the converted ID does not match the original ID.
+
+For example, one of our customer’s IDs is 5121079781289563. In the export file it is displalyed as 5.12108E+15, and when we convert it back to decimal, it comes out as 5121079781289560.
+
+##### **Cause**
+
+This is an MS Excel limitation. Excel displays numbers containing 15 or more digits in scientific format even though it has saved them in decimal format.
+
+When you open the CSV file as a text file, you can see the Customer ID in decimal format and it is correct and matches the original ID.
+
+LiveEngage does not convert these long numbers to text before the Chat Transcript Export because the CSV files may be used by some LiveEngage customers with other applications, parsers, or macros and not just with MS Excel.
+
+##### **Solution**
+
+You can use this workaround to “fix” the MS Excel display:
+
+1. After exporting to CSV, do not open the CSV file. (If you already opened it, close it without saving.)
+2. Upload the CSV file to a Google Sheet.
+3. Open the CSV file in Google Sheets. You will see that all the Customer IDs are displayed correctly.
+4. Download the Google Sheet (File -> Download as) to a Microsoft Excel file (.xlsx).
+5. Open the new file in MS Excel. The Customer IDs are now displayed correctly.
+
+**Note**: Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
+
+### [Why is the Agent Goal Tracker “missing” transactions reported in Web History?](https://support.liveperson.com/agent-goal-tracker-is-missing-transactions-reported-by-the-web-history/)
+
+C
+
+M
+
+February 12, 2018
+
+![1 Star](https://lh5.googleusercontent.com/Z6hMvFoBJ3xR1-napvXKlHR6oijkWH-y3vkMGInGW9g9_vD8UlChRNyo1pNxQeovWsmRwgchaXISPvwTsoNSEEmUKcGla503Nz4IuEZubGSkw53OCI8wMevz7xuYNAi-5bpwNBiV "1 Star" =12x12)![2 Stars](https://lh6.googleusercontent.com/0ljfHVwfnWTMW2ALRxQEaxLUu80VVdK-ei9C6CaJ8P9OV_1MzvdyLN5MzCiD0BJcA_KFB9gjYYCVsYlDbWG636Vl3JhtN25Ni5ajtoPDz8z7g_eGM3kJ-0EiB1twCqwnvg-GKPk8 "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/p4QGoRcXUuB8ytVuwoyieXMZRyPKSncGsiXveVoiLO2ihoe3l6RPSb2NGwFXGYiHbFHrrSrxvim1_Vvq3GUOYg69OtsU0I2CUhCxgJiPa1PqnDOdxoVTcdfAlH88rfnGKWuzkh2l "3 Stars" =12x12)![4 Stars](https://lh5.googleusercontent.com/XKoIlQWC--gYxkbVQir7KrRGI88bGPVo2XPk9cL1IYnK0Y7eRHa1dIyUMP6LyZOU4syB6XnFBM1OogcRHOKrr15lmAFE5gBShSbr7Dk7JVJa4SPkHZzXGWehHsB-jl5JtvEIBfJ8 "4 Stars" =12x12)![5 Stars](https://lh4.googleusercontent.com/zuVx_zChmSCJGGgjpq0pEDRlI4frkQZBse8RJhDxfYBPZ1IvXRAlCOXWSOift-M23KEZkGuwxPgaWOdmsq5QvyRSnshUqB45OrgaV_GCziC30-H5Vp0V6yPKqlI6tXckWShkbNXu "5 Stars" =12x12) (No Ratings Yet)
+
+Some order ID’s (sales transactions) reported in Web History are not reported by the Agent Goal Tracker (on the Agent Manager BI Dashboard).
+
+Why is the Agent Goal Tracker missing these order IDs?
+
+**The reason this happens is**:
+
+The “missing” orders took place before the visitors began to chat. Conversions that take place before chat, cannot be allocated to a specific agent and do not count as goals reached.
+
+The Agent Goal Tracker only tracks goals reached (transactions, orders, etc.) during or after chats, and allocates them to the agents who conducted the chats.
+
+Web History contains the transaction details of orders that took place in the same visitor session even if the transaction took place before chat. Therefore you cannot use transaction data in Web History to track conversions and goals reached.
+
+**To resolve this issue you should**:
+
+Use BI reports or Report Builder for reporting and tracking SALES (conversions).
+
+Do not use Web History to track conversions – it is not designed for this purpose.
