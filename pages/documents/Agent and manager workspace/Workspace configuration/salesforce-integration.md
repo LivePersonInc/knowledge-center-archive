@@ -462,7 +462,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 	**LivePerson SDK Field:**
 
 ```surveyQuestions.postChat\[displayName=How would you rate us?\].value```
-    
+
 	**LivePerson API Field:**
     
 ```surveys.postChat\[displayName=How would you rate us?\].value```
