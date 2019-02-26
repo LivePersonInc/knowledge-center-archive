@@ -43,7 +43,7 @@ Conversation Summary is a dedicated widget that enables you write notes and comm
 
 ![](/img/managing-messaging-conversations-2.png)
 
-## Conversation Actions
+## Conversation actions
 
 While conducting a conversation, there are a few actions you can take:
 
@@ -105,7 +105,8 @@ When they accept the invitation, it will be clear that you are sharing their scr
 
 Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
 
-{: .notice} Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations.
+{: .notice} 
+Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations.
 
 When you invite a customer to a call, they’ll see an incoming call screen:
 
@@ -136,7 +137,7 @@ It is important that you close conversations as soon as you are confident that t
 
 **Auto Close for inactive conversations**
 
-For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA. Learn more about auto close for messaging [here](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html). 
+For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA. Learn more about auto close for messaging [here](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html).
 
 **What happens when a conversation is closed?**
 
