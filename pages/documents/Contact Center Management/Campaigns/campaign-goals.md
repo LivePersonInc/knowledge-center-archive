@@ -24,12 +24,12 @@ The list of your campaigns appears on the **Campaigns tab**, and includes a data
 1. From the Campaign page, click Add goal to access the Goal Library.
 
 {:start="2"}
-2\. To configure a new goal, click Add new. The different types of goals are available on the next screen.
+2. To configure a new goal, click Add new. The different types of goals are available on the next screen.
 
 ![](/img/campaign-goals-2.png)
 
 {:start="3"}
-3\. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
+3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
 ![](/img/campaign-goals-3.png)
 
