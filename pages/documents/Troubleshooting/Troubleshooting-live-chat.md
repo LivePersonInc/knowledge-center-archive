@@ -16,17 +16,17 @@ published: false
 
 #### **Problem**: 
 
-#### When agents initiate a CoBrowse session and visitors click Accept, the session does not launch.
+When agents initiate a CoBrowse session and visitors click Accept, the session does not launch.
 
 When agents initiate **CoBrowse for Voice** session and visitors enter the required code/service ID, nothing happens.
 
 #### **Possible Cause:** 
 
-#### 3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require Third Party Cookies to initiate a session.
+3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require Third Party Cookies to initiate a session.
 
 #### **Solution**: 
 
-#### Visitors should enable 3rd-party cookies in their browsers.
+Visitors should enable 3rd-party cookies in their browsers.
 
 For more information on CoBrowse and CoBrowse for Voice see the [CoBrowse ](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=collaborative-connections-with)article in the LiveEngage Connection area
 
