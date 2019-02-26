@@ -22,7 +22,8 @@ The user does not see the visualization headers that contain the Export options 
 
 For users who do not have “Edit” access in Report Builder, the visualization headers are hidden and these users cannot change the header settings.
 
-**Note**: Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
+{: .notice}**  
+**Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
 
 **To resolve this issue you should**:
 
@@ -36,13 +37,7 @@ Set visualization headers to visible as follows:
    c. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
 4. Save a copy of the dashboard. Now the Export option will be visible.
 
-### [Report Builder – Total No. of Conversations Handled not adding up](https://support.liveperson.com/report-builder-total-no-of-conversations-handled-not-adding-up/)
-
-M
-
-February 8, 2018
-
-![1 Star](https://lh4.googleusercontent.com/VPIVwP0MYsv_ACMwoN78sQkgqJrqjEOpiXprn0diJfFVmMOBLzT_0MNcMANhLFJe5laFTFOMkCqAZYKcJ1OYEuasdmwd8LntHsxVt4cvpiJ-m8y8DgcX8j3FHZ0NkLUxz5zv4Ul5 "1 Star" =12x12)![2 Stars](https://lh4.googleusercontent.com/8u8y-X08bMgqk9levESHT6aX16OoeUmVOuyEjEdX8eTBrAbVYEATD5ORsfrSMhx_p9VXzLHaYY2SQIHExGE7RRdGgYhQ8gQXQvfAXPIbDT7MqfP1CQRlsy6aIPz8jOxpHauYYsGB "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/347YCcIKFZu1YXiqg6KgUP6HYeNrg4jRYGukIiOkUdwKEDizBPEgwUGEpWAT_dzu0Iff8F2zUf_xqVxWkZobTMBPJVIPSeWH-sLS_9OfiE_MBLtl_S3gD8qeYs3ZRYbaW8qYKKjr "3 Stars" =12x12)![4 Stars](https://lh3.googleusercontent.com/arouysrDp3dbtbJezhKFSPR95G5pZj928PczoWhK-i1VvNz3E7AHTxau7lWid5jWPfkA6i2fUo4FWrk5MFZf5ENSeN9Bi8ho7VmyHv4r8burWqLS-xJFBgD7TJ6WZCP_XhoO-EQe "4 Stars" =12x12)![5 Stars](https://lh3.googleusercontent.com/ELWKIe9x-olV_iHRQSvkpXtVBK9OBPZU3Q4PnZuDdENvwvWXPnOnrcBtaid7R4z0Ea09YJQ1iNtgycaYiAjpdSebFY7VohQ4vYnRX9VzGrEHnYdqQfMTIyWxbnTsqAtSTfEFhi9i "5 Stars" =12x12) (No Ratings Yet)
+### In the Report Builder, the Total No. of Conversations Handled are not adding up
 
 The totals that are displayed on the Messaging Performance dashboard (highlighted in red in image below) are not the same as the totals reported in the exported Excel file.
 
@@ -58,7 +53,7 @@ For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file i
 
 **The reason this happens is**:
 
-In messaging, an Agent can transfer a conversation to a skill or queue (but not to another agent). The conversation will then be assigned to another agent. The transferred conversation is counted both as the first agent’s conversation and as the second agent’s conversation.
+In messaging, an agent can transfer a conversation to a skill or queue (but not to another agent). The conversation will then be assigned to another agent. The transferred conversation is counted both as the first agent’s conversation and as the second agent’s conversation.
 
 The Excel report displays the sum of all agents’ NO. OF CONVERSATIONS HANDLED in the Totals field. Since a transferred conversation is counted toward two different agents, it is counted twice in the Excel report.
 
@@ -76,14 +71,6 @@ This is expected behavior.
 4. The result should equal the total number in the Excel report.
 
 ### [Why aren’t Report Builder dashboard filters working?](https://support.liveperson.com/report-builder-dashboard-filters-are-not-affecting-data/)
-
-C
-
-M
-
-February 8, 2018
-
-![1 Star](https://lh3.googleusercontent.com/Cx5cqB_l6ebmhfUq8yNfqGD-7VwpWhlbaFIwUrlJ0KHESoY0V3j7y7inqHgP-jBi5yDD8JP9khaXW-iKBvvB1WBMh3K_KgySLSXmZeFGtspCaF4bpzuJJgAu030wl7fICrG06r0G "1 Star" =12x12)![2 Stars](https://lh6.googleusercontent.com/LzdcO71dfTcRLWf6j7nVwD1wcAremyfE0Ux6-9yKBT9Y6fzcxI82RB6t2HI0nmmqE5lSRohR20GmY3Mv-FqBtRC5OQd-U3ZDYiFRZmWQ9477OM_BlpTgVt0awjCkn0i4yMpTgh-p "2 Stars" =12x12)![3 Stars](https://lh5.googleusercontent.com/2pX5fHqpDMXSbih4NbLQUesZrqt7SN7wFAZQezbyr8RjJu5isCI34sW9eQqE_glJCjAnXMtvGTYPQ92nqomRNHx3PISMlMwBvmz4p2IFW1wPH3SCx7pGpaWJcBgqm7qqx7IMkV3W "3 Stars" =12x12)![4 Stars](https://lh3.googleusercontent.com/tkahcsIHxr4jIouo1KTjBUm9FzodsUt65yxD2xSCLdlPM5jD9LLenN8p-Rf7VUqqOnKIBlJ49ee-pl6FTR68fCpa7kALeg5Wu7IK_4d2riT2J8hMgAtKPU8bqw7yN5gnjvKqmg5x "4 Stars" =12x12)![5 Stars](https://lh6.googleusercontent.com/4WozjHJUG_qiCrshPJ48Fkli66um-ShjuSxKnxIUWymfwjnVv-FiWuLNANunWHOKIimZ5Xk6wMGWhRqZdNcP_v5Vnusvph5dlc-36t4Dc49SVaXuhpH-BciPU_bl_mvsQXlIDWj9 "5 Stars" =12x12) (No Ratings Yet)
 
 When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
 
