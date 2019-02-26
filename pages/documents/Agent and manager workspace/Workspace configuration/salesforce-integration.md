@@ -478,32 +478,26 @@ Some of those are actually arrays of objects, which you can either turn to by a 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
 1. For a the **Chat Start Time** value:
-
 * **LivePerson SDK Field:** `chatInfo.chatStartTime`
 * **LivePerson API Field:** `info.startTime`
 
-1. For a **Customer Type** value:
-
+2. For a **Customer Type** value:
 * **LivePerson SDK Field:** `SDE.customerDetails.type`
 * **LivePerson API Field:** `sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType`
 
-1. For the **Visitor’s** **Name** value:
-
+3. For the **Visitor’s** **Name** value:
 * **LivePerson SDK Field:** `SDE.personalInfo.name`
 * **LivePerson API Field:** `sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
-1. For the **Goal Name** value:
-
+4. For the **Goal Name** value:
 * **LivePerson SDK Field:** `campaignInfo.goalName`
 * **LivePerson API Field:** `campaign.goalName`
 
-1. For the **Visitor Browser** value:
-
+5. For the **Visitor Browser** value:
 * **LivePerson SDK Field:** `visitorInfo.browser`
 * **LivePerson API Field:** `visitorInfo.browser`
 
-1. For the **Marketing** **Affiliate** value:
-
+6. For the **Marketing** **Affiliate** value:
 * **LivePerson SDK Field:** `SDE.marketingSource.affiliate`
 * **LivePerson API Field:** `sdes.events[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate`
 
