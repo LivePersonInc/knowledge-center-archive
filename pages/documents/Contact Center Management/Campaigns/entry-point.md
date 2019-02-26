@@ -15,7 +15,7 @@ The entry point allows you to define where you want your engagement to appear wi
 
 ## Assigning an entry point to your engagement
 
-To create a new entry point, simply name the entry point and copy its URL into the field “Contains/Exact/Advance.” To define where the engagement cannot take place, copy the excluded page URL into the applicable field.
+To create a new entry point, simply name the entry point and copy its URL into the field “Contains/Exact/Advance.” To define where the engagement cannot display, copy the excluded page URL into the applicable field.
 
 **To create or edit the entry point:**
 
@@ -29,7 +29,7 @@ To create a new entry point, simply name the entry point and copy its URL into t
 ![](/img/entry-point-1.png)
 
 {: .important}
-**Note:** Entry points are shared throughout your account, so if you modify an entry point, the change will be applied to any other engagements that use this entry point.
+**Note:** Entry points are shared throughout your account, so if yfou modify an entry point, the change will be applied to any other engagements that use this entry point.
 
 ## Map your site categories using code
 
