@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
 - pages/documents/Troubleshooting/troubleshooting-login-password.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
