@@ -598,7 +598,7 @@ These are just a few examples meant to demonstrate how to write these “address
 {:start="4"}
 4\. **Issue**: Salesforce widget does not load followed by an error message.
 
-    **Observation:** missing Salesforce configuration; skill is not associated with an object.
+**Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
 
