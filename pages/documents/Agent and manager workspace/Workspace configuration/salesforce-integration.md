@@ -479,7 +479,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 ```surveys.postChat\[displayName=How would you rate us?\].value```
 
 {:start="3"}
-**LivePerson SDK Field:**
+3. **LivePerson SDK Field:**
 
 ```surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value```
 
