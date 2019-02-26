@@ -482,7 +482,7 @@ These are just a few examples meant to demonstrate how to write these “address
 
 3. For the **Visitor’s** **Name** value:
 * **LivePerson SDK Field:** ```SDE.personalInfo.name```
-* **LivePerson API Field:** ```sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
+* **LivePerson API Field:**```sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
 
 {:start="4"}
 1. For the **Goal Name** value:
