@@ -1,0 +1,10 @@
+.botcontent {
+  flex-direction: column;
+}
+
+.caseyText {
+  width: 60%;
+  background-color: #090809;
+  color: #D3D0CB;
+  border-radius: 21px;
+}

@@ -1,4 +1,4 @@
-https://developers.liveperson.com:
+https://knowledge.liveperson.com:
   type: upstream
   upstream: jekyll_app:http
   cache:

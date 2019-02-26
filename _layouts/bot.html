@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "css/default.css" }}">
+    <link rel="stylesheet" href="{{ "css/bot.css" }}">
+     <meta name="description" content="LivePerson for Developers. Build on LiveEngage with our powerful digital toolbox">
+     <meta name="keywords" content="APIs, SDKs, Mobile development, LiveEngage, Agent workspace, Tag, JSON examples, Click to message, Click to chat, Chat window, Skills, Agent Groups, iOS, Android, Mobile devices, Integrations, Live chat, Agent widget, Reporting, Analytics">
+     <meta name="author" content="LivePerson Inc.">
+</head>
+<body>
+<div id="defaultwrapper">
+  <div id="defaultheader">
+    <div class="mobileheader">
+      <button class="hamburger hamburger--slider" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="placeholder"></div>
+    </div>
+    <div id="logocontainer">
+      <a href="/index.html"><img src="img/lp-logo.svg" /></a>
+    </div>
+    <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search our knowledge center..." name="search" autocomplete="on" />
+    <div id="homebuttons">
+      <span id="contact" class="homebutton">Contact Us</span>
+      <span id="login" class="homebutton"><a href="https://liveengage.liveperson.net">Log In</a></span>
+    </div>
+  </div>
+  <div id="defaultsidebar">
+    {% include sidebar.html %}
+  </div>
+  <div id="defaultcontent">
+  <div id="maincontent" class="botcontent">
+    <div class="anchorlist">
+      <span class="anchortitle">Jump to</span>
+      <ul>
+        <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
+      </ul>
+    </div>
+    {{ content | extlinks }}
+  </div>
+  </div>
+<!-- /.container -->
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script  src="{{ "js/algolia.js" }}"></script>
+{% include tag.html %}
+</body>
+</html>
