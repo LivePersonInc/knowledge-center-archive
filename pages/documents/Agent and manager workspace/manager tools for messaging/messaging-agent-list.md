@@ -12,9 +12,7 @@ date: 2019-01-21 11:35:54 +0000
 ---
 ## Real-time list of agents
 
-Agent managers have tools at their disposal to monitor agents and ongoing conversations in real time.
-
-Managers that are defined in this role (during their user set up), are able to see the messaging agents list.
+Agent managers have tools at their disposal to monitor agents and ongoing conversations in real time. Managers that are defined in this role (during their user set up), are able to see the messaging agents list.
 
 ![](/img/messagentlist1.png)
 
