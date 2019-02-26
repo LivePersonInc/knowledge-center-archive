@@ -13,9 +13,11 @@ date: 2019-02-06 10:43:51 +0000
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
-{: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+{: .important}
+
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New Functionality
 
@@ -93,13 +95,9 @@ Actionable conversations metric is also available via Messaging Operations API s
 </tbody>
 </table>
 
-This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment.
+{: .notice}
 
-Further details are available on the developers site:
-
-[https://developers.liveperson.com/push-notification-service-overview.html](https://developers.liveperson.com/push-notification-service-overview.html "https://developers.liveperson.com/push-notification-service-overview.html")
-
-This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources.
+This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment. This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources. Further details are available on the [LivePerson's Developers Community site](https://developers.liveperson.com/push-notification-service-overview.html). 
 
 ![](/img/week-of-october-15th-2018-2.png)
 
@@ -136,10 +134,10 @@ This functionality is enabled by default to all customers through the Mobile app
 </tbody>
 </table>
 
-An audit trail provides the ability to track changes made to LiveEngage Predefined content. It's needed for several reasons:
+An audit trail provides the ability to track changes made to LiveEngage predefined content. It's needed for several reasons:
 
 * **For customers:** To track changes performed in their LiveEngage account. For Enterprise customers (especially Financial Services), it is required as part of their security regulations.
-* **For Support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
+* **For support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
 
 Today, LiveEngage offers a partial solution for auditing: Changes done on specific administration components can be tracked in the audit trail, while predefined content and category changes cannot be tracked.
 
@@ -147,7 +145,9 @@ Therefore, we added the ability to view details on changes made to the PDC and c
 
 The Audit Trail table was enhanced to show details of changes made to Predefined Content (PDC) and content categories.
 
-\***This feature requires enablement ​- please contact your LivePerson account team.**
+{: .important}
+
+This feature requires enablement ​- please contact your LivePerson account team.
 
 ![](/img/week-of-october-15th-2018-3.png)
 
@@ -184,33 +184,25 @@ The Audit Trail table was enhanced to show details of changes made to Predefined
 </tbody>
 </table>
 
-**Where Do I define Sorting Business Rules?**
+**Where do I define sorting business rules?**
 
-Sorting business rules are defined in site settings under property in site settings:
+Sorting business rules are defined in site settings under property in site settings: messaging.routing.sorting.queue.definitions - definition is JSON based rules
 
-**messaging.routing.sorting.queue.definitions**
+**What is the outcome of defining business rules?** 
 
-The definition is JSON based rules
+Every rule is producing a 'velocity' for conversation. Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
 
-**What is the outcome of defining business rules?**
+### Rules Description
 
-Every rule is producing a 'velocity' for conversation.
+#### Transfer Rule
 
-Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
-
-**Rules Description**
-
-**Transfer Rule**
-
-Transfer rule is made in order to give higher priority to conversations that are 'During Transfer'.
-
-A conversation is 'During Transfer' if :
+Transfer rule is made in order to give higher priority to conversations that are 'During Transfer'. A conversation is 'During Transfer' if :
 
 1. The last message before the transfer is from an Agent
 2. A transfer was made from Skill1 to Skill2 ( Skill1 can be equal to Skill 2 or different)
 3. After the transfer action, no message was written on the conversation (No message from Agent or No message From Consumer)
 
-#### **Transfer Rules Types :**
+#### **Transfer Rules Types:**
 
 1. 'SourceDestination' skill rule
 2. 'Threshold' rule
@@ -225,9 +217,9 @@ A conversation is 'During Transfer' if :
 * If inside a rule there are few overlapping conditions, the first condition wins. ( see examples below )
 * Every rule will produce a velocity, a conversation will have an aggregation of velocities from all rules
 
-**Transfer Rules Examples**
+#### Transfer rules examples
 
-**EXAMPLE 1 - Number of transfers**
+#### **EXAMPLE 1 - Number of transfers**
 
 Expected outcome : A conversation that had at least 1 transfer will have velocity 4, a conversation that had at least 3 transfers will have velocity 5
 
@@ -261,15 +253,12 @@ Json Example :
 
 In this example:
 
-if the conversation had 1 transfer - velocity will be 4
+* if the conversation had 1 transfer - velocity will be 4
+* if the conversation had 2 transfers - velocity will be 4
+* if the conversation had 3 transfers - velocity will be 5
+* if the conversation had above 3 transfers - velocity will be 5
 
-if the conversation had 2 transfers - velocity will be 4
-
-if the conversation had 3 transfers - velocity will be 5
-
-if the conversation had above 3 transfers - velocity will be 5
-
-**EXAMPLE 2 - Velocity Based On Source Destination Skill**
+#### EXAMPLE 2 - Velocity Based On Source Destination Skill
 
 Expected outcome :
 
@@ -277,7 +266,7 @@ Expected outcome :
 2. Give **higher priority especially** for conversations that were transferred **to destination skill "RETENTION-SKILL-ID"** and arrived **from source skill "VIP-SKILL-ID"**
 3. **Ignore velocity** and give no priority if the **bot** did the transfer , i.e **source transfer skill is "BOT-SKILL-ID"**
 
-**In this case condition, 1,2 are overlapping so if we want that condition 2 will win, we need to put it first in the JSON definition**
+In this case condition, 1,2 are overlapping so if we want that condition 2 will win, we need to put it first in the JSON definition
 
 Json Example :
 
@@ -418,7 +407,7 @@ Enable the encoded metadata AC feature (contact LP representative) - cannot be e
 
 Sending and receiving encoded metadata is similar to any metadata transfer, as described in the [Conversation Metadata Guide](https://developers.liveperson.com/messaging-agent-sdk-conversation-metadata-guide.html).
 
-**Sending Encoded Metadata**  
+**Sending encoded metadata**  
 To send encoded data, use the metadata input filed: “encodedMetadata”.  
 For example, sending encoded metadata on a publish-event would look like this:
 
@@ -438,10 +427,10 @@ For example, sending encoded metadata on a publish-event would look like this:
 "type": "ms.PublishEvent"  
 }
 
-**Receiving Encoded Metadata**  
+**Receiving encoded metadata**  
 To receive encoded metadata, use the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html) (on Agent side) or [Messaging Window API](https://developers.liveperson.com/messaging-window-api-overview.html) (on Consumer side).
 
-**Data Validation**
+**Data validation**
 
 LiveEngage will validate the following points on every request containing the encoded metadata input field:
 
@@ -514,7 +503,6 @@ This new field will contain all engagement attributes and ACR (authentication le
 
 ### Post conversation survey - Audit Trail (LE-93260)
 
-
 <table>
 <thead>
 <tr class="categoryrow">
@@ -554,7 +542,9 @@ Use case: The account admin added a new survey to the account or modified an exi
 * Who activated or deactivated the survey
 * Modifications that were done on the survey questions and logic (see Review Changes screenshot below for the side by side comparison between the old and new survey versions)
 
-\***This feature requires enablement ​- please contact your LivePerson account team.**
+{: .important}
+
+This feature requires enablement ​- please contact your LivePerson account team
 
 ![](/img/week-of-october-15th-2018-4.png)
 
@@ -591,9 +581,7 @@ Use case: The account admin added a new survey to the account or modified an exi
 </tbody>
 </table>
 
-Lines of Business have been exposed as an external API for some time. This change exposes it in the LE UI.
-
-We exposed the API under:
+Lines of Business have been exposed as an external API for some time. This change exposes it in the LE UI. We exposed the API under:
 
 **Campaigns -> Data sources -> API -> "Add new API key" -> Select APIs -> Administration**
 
@@ -650,14 +638,13 @@ This feature is enabled by default to all customers.
 
 This provides the ability to change the offline survey email settings (such as the recipient, subject and footer) through UI (self-served), instead of contacting LivePerson Support. The survey settings are per survey.
 
-{: .notice}**  
-**It is recommended to fill out all fields or leave them blank to use the account default settings.
+{: .notice}
 
-This enhancement is enabled by default for all customers.
+It is recommended to fill out all fields or leave them blank to use the account default settings. This enhancement is enabled by default for all customers.
 
 ![](/img/week-of-october-15th-2018-7.png)
 
-**Limitations**
+#### **Limitations**
 
 The settings are only applicable for a non-default engagement window, i.e. it is not possible to adjust the survey settings for the default engagement window.
 
@@ -735,9 +722,7 @@ Expose customerID on unauthenticated flows (LP GUID) in order to allow reporting
 
 A new optional field named ‘alt’ was added to the publish event API. The purpose of this field is to provide a simple text fallback message when the clients do not know how to display the original message.
 
-Example:
-
-A published event message with quick replies:
+Example: A published event message with quick replies:
 
 * Message: “What bundle would you like?”
 * Quick Replies: button: “1GB”, button “10GB”, button “40GB”
@@ -754,7 +739,7 @@ The skill is not needed for the window itself, but for the integration with othe
 
 Upgrade Jetty version to latest stable (9.4.10)
 
-## Bug Fixes
+## Bug fixes
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (AE-473)
 

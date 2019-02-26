@@ -17,13 +17,13 @@ The LiveEngage messaging solution allows brands to send messages to customers in
 
 **Rich messaging includes:**
 
-* Structured content cards
-* Structured content carousel
-* Quick replies
-* Photo sharing
-* Audio messaging
+* [Structured content cards](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html#why-use-structured-content)
+* [Structured content carousel](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#capability-highlights)
+* [Quick replies](messaging-channels-rich-messaging-quick-replies-user-guide.html)
+* [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html)
+* [Audio messaging](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
 
-**Structured content cards: build cards with buttons and images to turn a messaging experience in to a ‘_one stop shop’_ for customers.**
+#### Structured content cards: build cards with buttons and images to turn a messaging experience in to a ‘one stop shop’ for customers.
 
 Structured content allows you to show simple cards which include text, images, catalogues, maps and buttons, to enhance the conversation with the consumer. When building your cards, you can have an ‘add to cart’ option, confirmation and deep linking buttons, turning a simple app interaction into conversational commerce. Structured content cards enables an improved and more efficient service opening up thousands of use cases- just what consumers expect from messaging.
 
@@ -37,7 +37,7 @@ The structured content carousel enables you to display several offerings on mult
 
 Currently available for In-App messaging, Web-Messaging, and Facebook Connector.
 
-See more in the [structured content user guide.]()
+See more in the [structured content user guide.](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html)
 
 ![](/img/Carousel.gif)
 
@@ -47,7 +47,7 @@ Quick replies allows you to create short instant replies that consumers can sele
 
 Currently available for mobile app, web messaging, and Facebook Messenger.
 
-For more information on quick replies including configuration and set up, please refer to our [quick replies user guide]()
+For more information on quick replies including configuration and set up, please refer to our [quick replies user guide](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 
 ![](/img/quick-replies (1).gif)
 
@@ -55,7 +55,7 @@ For more information on quick replies including configuration and set up, please
 
 Photo sharing empowers consumers to share images with agents to explain complex issues or requests quicker and more accurately. Photo Sharing is currently in beta version.
 
-Please refer to Photo Sharing [photo sharing user guide]() for more information.
+Please refer to photo sharing [photo sharing user guide](messaging-channels-rich-messaging-photo-sharing-user-guide.html) for more information.
 
 ![](/img/RM4 (1).png)
 
@@ -65,6 +65,6 @@ Audio messaging is ideal for consumers who want to send a long message and don�
 
 Currently, it’s only available on mobile App (v2.3) but will be added to additional channels in August.
 
-For more information on audio messaging including configuration, please see our[ audio messaging user guide]()
+For more information on audio messaging including configuration, please see our[ audio messaging user guide](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
 
 ![](/img/RM5 (1).png)

@@ -17,9 +17,9 @@ A campaign is a library of your chat or messaging buttons, also known as engagem
 
 ### Campaigns enable you to:
 
-* Add Web Messaging buttons or banners to your website (desktop or mobile)
-* Add Messaging buttons to your app
-* Add Live Chat buttons or banners to your websites
+* Add messaging buttons or banners to your website (desktop or mobile)
+* Add messaging buttons to your mobile app
+* Add live chat buttons or banners to your websites
 * Control settings such as routing, look and feel, and behavior for all of these
 
 ## Why use campaigns?

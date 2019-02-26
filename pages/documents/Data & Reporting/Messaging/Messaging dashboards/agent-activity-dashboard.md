@@ -14,11 +14,11 @@ isNew: false
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
 
-**Primary datasets:** Agent activity, conversions, engagements, surveys
+**Primary datasets:** agent activity, conversions, engagements, surveys
 
-**Primary filters:** Agent, agent group, skill
+**Primary filters:** agent, agent group, skill
 
-**Minimum timeframe:** Hourly
+**Minimum timeframe:** hourly
 
 ## Main panel: agent activity dashboard
 

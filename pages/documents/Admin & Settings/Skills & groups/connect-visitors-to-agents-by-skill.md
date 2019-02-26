@@ -17,9 +17,8 @@ Agents are trained to help visitors according to the business need.  An agent�
 
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
 
+Agent skills are created in the user management area:
 ![](/img/connectvis1 (1).png)
-
-Agent skills are created in the user management area.
 
 ## How to create a skill
 
@@ -33,9 +32,9 @@ Agent skills are created in the user management area.
 For chat, maximum wait time is defined as the length of time from the moment that the visitor completes the [pre-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#pre-chat-survey) until the moment he is connected to an agent. If there’s no pre-chat survey configured for the engagement, and for messaging conversations, the maximum wait time starts when the visitor clicks the engagement.
 
 {: .notice}  
-You can also create a new skill within each user profile. See the section, [assigning skills to users.](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#assigning-skills-to-users)
+You can also create a new skill within each user profile. See section [assigning skills to users](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#assigning-skills-to-users).
 
-## Skill transfer list
+## Skills transfer list
 
 Creating a transfer list per skill helps brands to define, for each skill, a list of other skills that the conversation can be transferred to.
 
@@ -67,8 +66,9 @@ The following survey types are supported:
 ![](/img/connectvis3 (1).png)
 
 {: .notice}  
-In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)  
-Default survey data is reported on the relevant skill (after the change). The survey answers are visible in Report Builder.
+In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)
+
+Default survey data is reported on the relevant skill (after the change). The survey answers are visible in [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
 
 ## Assigning skills to users
 
@@ -80,7 +80,7 @@ Users are assigned skills by selecting a skill that you have already created, or
 2. In the skills field, select an existing skill or type the name of a new skill that you wish to assign to this user (for example, if you type ‘sales’, an option will dropdown ‘create skill ‘sales’).
 3. Click save.
 
-![](/img/connectvis4 (1).png)
+![](/img/connect-visitors-to-agents4-1.png)
 
 ## Assigning skills to engagements
 
@@ -90,12 +90,9 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 
 1. Open a campaign by clicking on it.
 2. Click on the engagement to which you want to assign a skill.
+3. Navigate to the engagement studio.
+4. Click the gear icon to open the settings menu.
+5. Select the skill that you want to assign to your current engagement.
+6. Click publish.
 
 ![](/img/connectvis5 (1).png)
-
-{: .start="3"}
-
-1. Navigate to the engagement studio.
-2. Click the gear icon to open the settings menu.
-3. Select the skill that you want to assign to your current engagement.
-4. Click **publish**.

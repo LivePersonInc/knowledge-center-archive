@@ -9,7 +9,7 @@ level3: ''
 permalink: messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 11:19:13 +0200
+date: 2019-01-28 09:19:13 +0000
 
 ---
 ## Why use structured content?
@@ -36,11 +36,11 @@ The LivePerson messaging solution allows brands to send messages in a variety of
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-conversation surveys based on a collection of cards.
 
-Structured content is available on our **mobile-app messaging**, **web messaging** and supported web messaging connectors. It is also available for **web chat** - for further information on configuring structured content for chat, please refer to the [documentation]().
+Structured content is available on our mobile-app messaging, web messaging and supported web messaging connectors. It is also available for web chat - for further information on configuring structured content for chat, please refer to the [documentation]().
 
 ## Capability highlights
 
-The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Community](https://developers.liveperson.com/structured-content-templates.html).
+The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. 
 
 ### Presenting options
 
@@ -88,10 +88,10 @@ In order to enable the structured content via AC features and site settings, ple
 
 ## Implementation guide
 
-1. Define your use cases - structured content can be used for a variety of applications, including sales interactions, service provision, and operational solutions ([see use cases above]())
+1. Define your use cases - structured content can be used for a variety of applications, including sales interactions, service provision, and operational solutions.
 2. Plan and integrate content from your backend systems, such as images, product catalog, pricing, and service list. This will require you to set up communication between either the bot or an agent widget and your backend system. For example, you could have your bot draw pricing, images and product names from your CMS (content management system).
 3. Determine if the structured content should be used for a human or virtual agent journey.
-   * **Agent**: you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html). For further information, refer to the [Developer Communi](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#agent)[ty.]()
+   * **Agent**: you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html)
 
 ![](/img/SC6 (1).jpg)
 
@@ -114,11 +114,11 @@ For detailed reporting on consumer interactions with structured content on your 
 ## Notes
 
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
-* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on whitelisting.
+* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. 
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on configuring push notifications.
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. 
 
-## **Best practices**
+## Best practices
 
 1. It is recommended that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 2. When building your cards and actions, it is recommended to ensure that every click will also have a publishText action. This ensures that the click is “recorded” in the transcript and makes it easier for bots and agents to respond to consumer interactions with the card.
@@ -128,9 +128,9 @@ For detailed reporting on consumer interactions with structured content on your 
 6. Use a carousel when there's a priority order to your content, i.e., the first item is probably the most interesting.
 7. Strive for consistency. All cards within the carousel should have the same look and feel and the same business logic. If one card has an image, include an image in all of them.
 8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
-9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [structured content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
+9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end -consider creating a lList instead.
 
-## **Limitations**
+## Limitations
 
 ### Maps
 
@@ -150,11 +150,11 @@ Structured content JSON affects text formatting in the structured content “Tex
 3. Font color
 4. Background color
 
-#### **Web (chat / messaging):**
+#### Web (chat / messaging):
 
 You cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
 
-## **Helpful Links**
+## Helpful links
 
 Structured content JSON playground - [https://livepersoninc.github.io/json-pollock/editor/](https://livepersoninc.github.io/json-pollock/editor/ "https://livepersoninc.github.io/json-pollock/editor/")
 

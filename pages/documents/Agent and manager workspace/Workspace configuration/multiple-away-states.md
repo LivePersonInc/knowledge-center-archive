@@ -77,22 +77,22 @@ Once new away state reasons have been added, the agent will be able to select fr
 </ul>
 </div>
 
-## **The agent & messaging agent lists**
+## **The all agent & messaging agent lists**
 
-For brands that have configured additional away state reasons, the _State Duration_ column in both the Agent List and Messaging Agent List will now indicate the time elapsed since the agent set their current away state.
+For brands that have configured additional away state reasons, the _State Duration_ column in both the [all agent list](agent-manager-workspace-manager-tools-for-live-chat-the-all-agents-list.html) and [messaging agent list](agent-manager-workspace-manager-tools-for-messaging-the-messaging-agent-list.html) will now indicate the time elapsed since the agent set their current away state.
 
 {: .important}
 **Note:** There is no change in the way state duration is indicated for the Online and Back soon states.
 
 ## **Reporting**
 
-LiveEngage Report Builder provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
+LiveEngage [Report Builder](data-reporting-report-builder-report-builder-overview.html) provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
 
-## **Agent activity predefined dashboard**
+## **Agent Activity Predefined Dashboard**
 
 ![](/img/multiple-away-states-7.png)
 
-The pie chart titled “Away” reflects the total time spent by agents in the away state, segregated by the time spent in each away Reason.
+This [dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) features a pie chart titled “Away,” reflecting the total time spent by agents in the away state, segregated by the time spent in each away reason.
 
 1. Time logged to the away state before it was possible to add multiple away reasons will be represented by an empty slice in the pie chart (AWAY REASON: “ ”).
 2. When combined, the time spent in each custom away state is equal to the total time spent in the away state.
@@ -100,9 +100,9 @@ The pie chart titled “Away” reflects the total time spent by agents in the a
 
 Additional available agent activity metrics can be filtered by each away state reason, such as: Time Eng., Conc. Engaged, and Engaged Time. These metrics are available only for Live Chat.
 
-## **Messaging performance predefined dashboard**
+## **Messaging Performance Predefined Dashboard**
 
-The pie chart titled “Away” has also been added to the Messaging Performance Predefined Dashboard and displays the same data as the Agent Activity Dashboard.
+The pie chart titled “Away” has also been added to the [Messaging Performance Predefined Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) and displays the same data as the Agent Activity Dashboard.
 
 {: .important}
 **Note:** Currently, agent messaging activity metrics cannot be filtered by away states, however they can be viewed alongside the time spent in each away reason, per agent, at the hourly level.

@@ -14,11 +14,9 @@ date: 2019-01-21 12:19:13 +0000
 
 The agent workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
 
-1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](http://oavrxoiy0ht8aq.live.forestry.io:8080/getting-started-getting-started-with-live-chat.html)
-2. Create users for the agents that will be taking the conversations. To learn how to set up users, [click here](http://oavrxoiy0ht8aq.live.forestry.io:8080/getting-started-getting-started-with-live-chat.html).
+1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](getting-started-getting-started-with-live-chat.html)
+2. Create users for the agents that will be taking the conversations. To learn how to set up users, [click here](getting-started-getting-started-with-live-chat.html).
 3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
-
-[Click here]() to learn more about getting started with chat.
 
 ## The visitors list
 
@@ -49,7 +47,7 @@ To view more detailed information about a visitor, simply click on the visitor�
 
 ## Handling chats in the agent workspace
 
-The Agent Workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
+The agent workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
@@ -102,9 +100,9 @@ Agents can transfer the chat session to another agent or skill group, for exampl
 
 The conversation is ended and the visitor receives a message in the chat window indicating that the chat session has been terminated by the agent. The state of the visitor in the Visitor List changes to Chat ended.
 
-### Predefined Content
+### Predefined content
 
-At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of predefined content saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
+At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of [predefined content ](agent-manager-workspace-workspace-configuration-predefined-content-overview)saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
 
 You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
 
@@ -143,7 +141,7 @@ Agents can send a direct link to a page on their website. Create the link by ent
 
 ### CoBrowse
 
-CoBrowse enables agents and consumers to access and navigate web pages collaboratively. This ensures that complex online tasks and processes can be completed quickly and efficiently. With CoBrowse, chat interactions between agents and consumers are enhanced by a real-time visual layer. This increases consumer engagement by creating a higher degree of co-presence of the agent.  No plugins or downloads are required, ensuring that agents and consumers are connected in an instant.
+CoBrowse enables agents and consumers to access and navigate web pages collaboratively. This ensures that complex online tasks and processes can be completed quickly and efficiently. With [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html), chat interactions between agents and consumers are enhanced by a real-time visual layer. This increases consumer engagement by creating a higher degree of co-presence of the agent.  No plugins or downloads are required, ensuring that agents and consumers are connected in an instant.
 
 ![](/img/agent-workspace-for-chat-7.png)
 
@@ -152,47 +150,44 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * Double click on an element to display a yellow circle around the cursor.
 * Press Ctrl + click the left mouse button to animate the element with a wiggle effect.
 
-Use cases for CoBrowse:
+#### Use cases for CoBrowse:
 
 * Offering a concierge service
 * Walking visitors through a process
 * Assisting a visitor in filling out a form
 * Helping visitors to troubleshoot
 
-To initiate a CoBrowse session:
+#### To initiate a CoBrowse session:
 
 1. During a conversation with a consumer, click the CoBrowse icon.
 
 ![](/img/agent-workspace-for-chat-19.png)
 
 {:start="2"}
-
 1. Choose the session type:
    * CoBrowse - View Only enables you to view the visitor’s screen only.
    * CoBrowse - Shared gives you full control over the current browser tab.
 
-The consumer receives a notification asking them to accept the CoBrowse session.
+	The consumer receives a notification asking them to accept the CoBrowse session.
 
 {:start="3"}
-
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
 ![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
-2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the agent workspace
 
-In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the Agent workspace.
+In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the agent workspace.
 
-**This process is recommended in order to streamline the agent’s work and can be achieved in two ways:**
+This process is recommended in order to streamline the agent’s work and can be achieved in two ways:
+* **Clear continuously:** The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
+* **Clear upon accumulation:** The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
-* Clear continuously: The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
-* Clear upon accumulation: The agent periodically clears all the ‘Closed’ chats they have accumulated.
-
-All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the Agent workspace without releasing them.
+All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the agent workspace without releasing them.
 
 The number of accumulated chats can be seen in the bottom right corner of the page in the closed image. The number indicates how many chats were closed but not yet released. The following image shows that 1 chat has not yet been released.
 
@@ -204,9 +199,9 @@ The number of accumulated chats can be seen in the bottom right corner of the pa
 
 ![](/img/agent-workspace-for-chat-10.png)
 
-2\. In the top right corner of the chat window, click the down arrow.
+2. In the top right corner of the chat window, click the down arrow.
 
-3\. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
+3. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
 
 ### To clear all closed chats:
 
@@ -251,9 +246,7 @@ For example, if your concurrent engaged time is 4.5 hours, you’ve been logged 
 
 _4.5 / (5 x 4) = 22.5 = >22.5%_
 
-If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased.
-
-If, on the other hand, your utilized capacity is high, you are fully occupied.
+If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased. If, on the other hand, your utilized capacity is high, you are fully occupied.
 
 **CSAT**
 

@@ -11,7 +11,6 @@ date: 2019-01-20 12:52:49 +0000
 isNew: false
 
 ---
-
 <iframe src="https://player.vimeo.com/video/238914379" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Millions of brands are already using Google My Business to engage with consumers. By offering click to message, brands enable consumers to connect with them using their native SMS app, meaning they can tap into the wide pool of consumers who prefer to use messaging.
@@ -36,7 +35,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
 
-![](/img/middle phone-2.png)
+   ![](/img/middle phone-2.png)
 
 <div class="important">
 <b>Note:</b>

@@ -50,15 +50,15 @@ Please note throughout this document, when referring to the Engagement window, t
 
 ### Embedded engagement window layout
 
-Below is the Embedded Engagement window with its various components labelled.
+Below is the embedded engagement window with its various components labelled.
 
 ![](/img/access-policy1-2.png)
 
-_Figure 1: The Embedded Engagement window_
+_Figure 1: The embedded engagement window_
 
 ![](/img/accessibility-policy2-1.png)
 
-_Figure 2: The embedded engagement window, Action menu expanded_
+_Figure 2: The embedded engagement window, action menu expanded_
 
 The embedded engagement window layout is as follows (described from top to bottom):
 
@@ -70,7 +70,7 @@ The embedded engagement window layout is as follows (described from top to botto
 
 **Conversation area**: Below the image is a log of all the incoming and outgoing conversation messages. Sender and time sent are indicated on each message. New messages are added as they come in, at the bottom of the log. All older messages can easily be accessed by the visitor by simply scrolling up. Below the conversation log there is a status area, where the visitor can see an indication of the agent actively responding, in real-time.
 
-**Text area:** In the text area, the visitor enters text for the conversation messages. Messages can be sent via the send button ( ) or by pressing Enter on the keyboard. Click + to expand the action menu.
+**Text area:** In the text area, the visitor enters text for the conversation messages. Messages can be sent via the send button or by pressing enter on the keyboard. Click + to expand the action menu.
 
 **Action menu:** Opens when the + button is clicked. It includes buttons to mute sound, email or print the conversation transcript, and end the conversation.  Ending the conversation triggers the display of the post-chat survey (if configured). Click X to collapse the action menu.
 
@@ -80,9 +80,9 @@ Surveys are utilized to get information or feedback from visitors before or afte
 
 The embedded engagement window supports the following survey types:
 
-* **Pre-chat survey:** Survey can be presented to the visitor in the time between when they click on the engagement and the time they enter the queue, provided there is an agent available. The information the visitor adds to this survey provides preliminary information to the agent about the visitor, such as the visitor’s name or the purpose of the inquiry.
-* **Post-chat survey:** Survey can be presented to the visitor once their chat has ended. The information the visitor adds to this survey can be used to get feedback on the chat and measure customer satisfaction. An example for a post-chat survey question is a CSAT (Customer Satisfaction) question, such as, "How happy are you with the service you received in your last chat?"
-* **Offline survey**: Survey may be triggered when there are no available agents, for example, outside of the contact center operating hours. The information the visitor provides in this survey allows them to leave a message, understand what they are inquiring about, and/or collect their contact’s information so they can be reached during regular business hours.
+* [**Pre-chat survey**](contact-center-management-live-chat-operations-surveys-with-live-chat.html#pre-chat-survey)**:** Survey can be presented to the visitor in the time between when they click on the engagement and the time they enter the queue, provided there is an agent available. The information the visitor adds to this survey provides preliminary information to the agent about the visitor, such as the visitor’s name or the purpose of the inquiry.
+* [**Post-chat survey**](contact-center-management-live-chat-operations-surveys-with-live-chat.html#post-chat-survey)**:** Survey can be presented to the visitor once their chat has ended. The information the visitor adds to this survey can be used to get feedback on the chat and measure customer satisfaction. An example for a post-chat survey question is a CSAT (Customer Satisfaction) question, such as, "How happy are you with the service you received in your last chat?"
+* [**Offline survey**](contact-center-management-live-chat-operations-surveys-with-live-chat.html#offline-survey): Survey may be triggered when there are no available agents, for example, outside of the contact center operating hours. The information the visitor provides in this survey allows them to leave a message, understand what they are inquiring about, and/or collect their contact’s information so they can be reached during regular business hours.
 
 There is an option to make survey questions mandatory; in which case a visitor can only submit the survey when all mandatory questions are answered. Below is an example of an offline survey form in the Embedded Engagement window.
 
@@ -92,7 +92,7 @@ _Figure 3: Offline survey example_
 
 **Messaging CAST survey**:
 
-Customer Satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).
+Customer satisfaction survey is sent to the consumer when the conversation is manually ended by either the agent or the consumer. The consumer is asked a single question, e.g. how would you rate the service that you received with a display of 5 stars ranking the experience from poor to excellent (1 star to 5 stars).
 
 ![](/img/accessibility-policy4.png)
 
@@ -114,7 +114,7 @@ For more information about the secure form, see[ ](https://s3-eu-west-1.amazonaw
 
 ## ID&V
 
-The Identification and Verification (ID&V) solution enables customer care professionals (CCPs) to validate the identity of visitors during a chat.  At any time in a conversation, agents can decide to send an ID&V question to the visitor, requesting them to enter two random characters from their PIN or password, or any identifiable number or code, which they can then verify with the CRM system. The ID&V solution works seamlessly for both desktop and mobile web.
+[The Identification and Verification (ID&V)](security-regulations-security-validate-identity-of-consumers-during-conversations.html) solution enables customer care professionals (CCPs) to validate the identity of visitors during a chat.  At any time in a conversation, agents can decide to send an ID&V question to the visitor, requesting them to enter two random characters from their PIN or password, or any identifiable number or code, which they can then verify with the CRM system. The ID&V solution works seamlessly for both desktop and mobile web.
 
 ## Co-browse
 
@@ -308,14 +308,14 @@ The following accessibility elements have been incorporated within the engagemen
 * Whenever possible, information entered by our customer is validated.
 * Decorative images used for customer branding do not contain any information related to usability.
 
-### **Timing**
+### Timing
 
 The following accessibility elements have been incorporated within mobile web:
 
 * No timed responses or time limits are required of the visitor in the interface.
 * No deliberate interruptions are incorporated as part of mobile web experience.
 
-### **Minimized dynamic content**
+### Minimized dynamic content
 
 In order to make the visitor experience as unobtrusive as possible, the amount of dynamic content has been minimized.
 
@@ -328,7 +328,7 @@ The following accessibility elements have been incorporated within mobile web:
 * Before they perform an action, visitors are notified of when and/or where an "extreme" change will occur. For example: moving to a new window, submitting a form, or the opening a modal dialog.
 * When a new item is focused upon, no automatic changes occur.
 
-## **Accessibility and sound effects**
+## Accessibility and sound effects
 
 If voice over functionality is enabled on a device, the iOS .lib file is able to play custom sound effects (if the files are present) within the iOS project. Visitors require the exact file names and extension listed below.
 
@@ -345,7 +345,7 @@ If voice over functionality is enabled on a device, the iOS .lib file is able to
 * LIOAccessibilitySoundTyping.aiff: Played while the agent is typing a message in the Agent Console.
 * LIOAccessibilitySoundLoading.aiff: Played when a chat is loading or queued, while the loading screen is still open.
 
-## **Mobile web summary**
+## Mobile web summary
 
 To summarize, these various accessibility services are designed to complement one another, so each visitor can find the right combination of features to best accommodate their level of limitation. By using Mobile Web accessibility options, brands can cater to the needs of an extended user audience and increase engagement reach.
 

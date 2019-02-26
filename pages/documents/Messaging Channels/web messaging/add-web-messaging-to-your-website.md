@@ -56,7 +56,7 @@ The default idle time is 30 days. To configure a different idle time please cont
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
-1. **Define your currency**: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html). 
+1. **Define your currency**: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
 2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
@@ -74,7 +74,7 @@ When creating a campaign, you first need to define the following:
 
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your web engagement.
 
-## 5. Designing the buttons & window
+## 6. Designing the buttons & window
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
@@ -137,29 +137,31 @@ Decide when to display engagements according to your consumers’ behavior by se
 
 When selecting the condition, look for a globe icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for web engagements.
 
-## 5. Publish your campaign
+## 7. Publishing your campaign
 
 Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
 
-## Advanced banner display settings
+## Displaying your engagements
 
-### Test click rates through control groups
+### Advanced banner display settings
+
+#### Test click rates through control groups
 
 In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on [control groups](contact-center-management-campaigns-campaign-settings.html#control-groups), click here.
 
-### Display multiple engagements on the same page
+#### Display multiple engagements on the same page
 
 Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html#top).
 
-### Fine tune proactive engagements
+#### Fine tune proactive engagements
 
 Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
 
-#### Number of displays
+**Number of displays**
 
 This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
 
-#### Invite after decline
+**Invite after decline**
 
 This setting allows you define the behavior after a consumer declines a proactive engagement, by selecting whether or not other proactive engagements can thereafter be displayed. For example, you can decide to display a proactive conversation engagement for one Line of Business, even if a proactive conversation engagement for a different Line of Business was previously declined.
 
@@ -167,11 +169,11 @@ By default, after declining a proactive content engagement, other content engage
 
 ![](/img/add-web-messaging-to-your-website-3.png)
 
-### Display engagements based on a scheduler (using shift scheduler)
+#### Display engagements based on a scheduler (using shift scheduler)
 
 LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, [click here](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
 
-## Optimize the mobile experience
+### Optimize the mobile experience
 
 To enhance your visitors’ messaging experience on mobile, use the embedded engagement window and optimize your website for mobile.
 

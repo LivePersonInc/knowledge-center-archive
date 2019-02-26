@@ -79,18 +79,20 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 ![](/img/cobrowse-for-live-chat-2.png)
 
 {:start="2"}
-2. Click Agent Workspace Configuration.
+2\. Click Agent Workspace Configuration.
 
 ![](/img/cobrowse-for-live-chat-3.png)
 
 {:start="3"}
-3. Click Edit next to the CoBrowse configuration.
-	* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
-	* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
+3\. Click Edit next to the CoBrowse configuration.
+
+* Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
+* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
 
 ![](/img/cobrowse-for-live-chat-4.png)
 
 The following CoBrowse elements can also be configured:
+
 * **Border color:** customize the color of the CoBrowse window border shown on the visitor side.
 * **Highlight color:** customize the color of the highlight effect that appears after a mouse click.
 * **Match visitor's viewport:** when active, the agent's viewport will be resized to the size of the visitor's browser window. This is useful for responsive websites.
@@ -102,12 +104,12 @@ The following CoBrowse elements can also be configured:
 {: .important}
 **Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](/img/cobrowse-for-live-chat-5.png)
+![](/img/cobrowse-for-messaging-4.png)
 
 {:start="4"}
-4. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
+4\. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
-![](/img/cobrowse-for-live-chat-6.png)
+![](/img/cobrowse-chat-6.png)
 
 ## Initiating CoBrowse
 
@@ -116,27 +118,28 @@ The following CoBrowse elements can also be configured:
 ![](/img/cobrowse-for-live-chat-7.png)
 
 {:start="2"}
-2. Choose the session type:
+2\. Choose the session type:
+
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
 
 {:start="3"}
-3. The visitor receives a notification asking them to accept the CoBrowse session.
+3\. The visitor receives a notification asking them to accept the CoBrowse session.
 
 ![](/img/cobrowse-for-live-chat-8.png)
 
 {:start="4"}
-4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
+4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
 ![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
-5. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
 ![](/img/cobrowse-for-live-chat-10.png)
 
 {:start="6"}
-6. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
@@ -156,12 +159,15 @@ To enable the CoBrowse feature in your LiveEngage account, please contact LivePe
 ## FAQs
 
 #### 1. How is CoBrowse different to desktop sharing?
+
 CoBrowse differs from desktop sharing in that it is more secure, requires no installation, and is non-intrusive. The agent does not take control of the visitor’s desktop, nor do they have access to the visitor’s local files and applications. This minimizes the risk of agents unknowingly sharing sensitive information. In contrast to desktop sharing, CoBrowse offers a next-generation co-browsing experience with zero setup time.
 
 #### 2. What is the difference between “shared” mode and “view only” mode?
+
 Agents have the option to choose between "shared” mode and "view only" mode. "Shared" mode provides a full, two-way interactive experience, whereas "view only" mode offers a higher level of privacy for consumers. The table below illustrates the CoBrowse features, along with which CoBrowse features are available in each mode.
 
 #### 3. Is CoBrowse compatible with corporate firewalls etc.?
+
 Yes, CoBrowse is generally compatible with corporate firewalls. It only uses standard web protocols that are deployed and used in typical web applications.
 
 #### 4. Which options are available to secure form input (e.g. password)?
@@ -169,6 +175,7 @@ Yes, CoBrowse is generally compatible with corporate firewalls. It only uses sta
 Password form fields are automatically blocked from transmitting data into the CoBrowse session of other participants. Other fields have to be identified by using a proprietary HTML attribute or by manually managing a blacklist on a server (e.g., using CSS selectors).
 
 #### 5. Is it possible to have a CoBrowse session on untagged web pages and external domains?
+
 CoBrowse works on tagged pages only. This is to ensure a secure co-browsing session, and also to enable the transfer of the session state (e.g. shopping cart), along with the last visited page and form data.
 
 ## CoBrowse features and permissions

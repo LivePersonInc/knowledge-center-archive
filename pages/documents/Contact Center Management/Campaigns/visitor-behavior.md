@@ -28,7 +28,6 @@ Decide when to display engagements by selecting conditions that will be applied 
 ### 1. Flow:
 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
-
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
@@ -53,27 +52,26 @@ Target and/or exclude consumers from selected entry points on the website or wit
 
 ### 4. About to Abandon:
 
-Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. For guidance on setup, please refer to the Why Connect to Google Analytics?Article (see related articles).
+Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
 
 **Note:** this behavior is currently only supported for web engagements.
 
 ### 5. Cart Value:
 
 Target consumers according to the value of their shopping cart. Visitors can be targeted by their cart value in three ways:
-
 * Their cart value is between two defined parameters (in any currency) - for example, ‘Cart value is 50 to 100’
 * The total value of their cart has decreased
 * The total value of their cart has decreased to 0
 
 ![](/img/visitor-behavior-2.png)
 
-Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
 ### 6. Products in Cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
-Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---cartstatus-cart-update) in the Engagement Attributes guide on the Developer Community.
+Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
 ### 7. Viewed Product:
 
@@ -94,7 +92,6 @@ Visitor Error is an Engagement Attribute; for more information on reporting this
 ### 9. Engaged in Session:
 
 Target consumers who interacted with engagements according to their status:
-
 * **Exposed** - the consumer has previously viewed another engagement
 * **Declined** - the consumer has previously closed another engagement
 * **Clicked** - the consumer has previously clicked on another engagement
@@ -108,7 +105,6 @@ You can also exclude engagements from appearing based on one or more of the abov
 ### 10. Service Activity:
 
 Target consumers by their service journey topics. A service journey is a series of key actions taken by a consumer when using your website or mobile app. A service journey, such as ordering a checkbook or software usage, can be measured using a service activity engagement attribute. In order to define the service activity behavior, enter the service topic name e.g. order checkbook, and define the status of the topic from the following:
-
 * Complete
 * In Progress
 * Approved
@@ -135,9 +131,7 @@ Defining an accurate flow - the sequence of steps a consumer takes on their jour
 
 For example, a consumer may start the checkout process but decide to abandon their shopping cart. Or a user going through a defined process for registering for your newsletter or requesting a loan may give up halfway through. Once you have defined the expected flow for these journeys, you can target consumers who did not browse through all the required steps in the flow, those who browsed to a page or section outside the flow, and/or those who browsed from a later step to an earlier one. This gives you an opportunity to engage consumers and help them complete that process.
 
-Flows can be defined either using sections (for all engagement sources) or individual URLs (for web). This allows brands to choose whether to target consumers on specific website pages or app sections.
-
-This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
+Flows can be defined either using sections (for all engagement sources) or individual URLs (for web). This allows brands to choose whether to target consumers on specific website pages or app sections. This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
 
 ### How to define a new flow:
 

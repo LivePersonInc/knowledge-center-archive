@@ -11,7 +11,6 @@ date: 2019-01-20 12:34:09 +0000
 isNew: false
 
 ---
-
 <iframe src="https://player.vimeo.com/video/310297164" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
@@ -22,7 +21,7 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 ## Why use WhatsApp to connect with your consumers?
 
 * **Consumer-preferred channel** — With 1.3 billion users globally, WhatsApp is the most popular consumer-to-consumer messaging app in the world.
-* **Rich Messaging capabilities** — Rich Messaging capabilities like consumer-to-agent audio and image sharing provide an enhanced messaging experience with more flexibility.
+* **Rich messaging capabilities** — Rich messaging capabilities like consumer-to-agent audio and image sharing provide an enhanced messaging experience with more flexibility.
 * **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and verified brand name will also appear in the chat list, contact view and chat screens.
 * **Free and easy to use** — WhatsApp is free to use and works on Wi-Fi or cellular data for added accessibility.
 * **Enhanced security** — End-to-end encryption provides an additional layer of security, giving consumers added peace of mind.
@@ -41,7 +40,7 @@ Brands can deflect consumers who are eligible to message via WhatsApp from voice
 
 Brands can integrate their business systems (CRM, marketing automation, etc.) and share notifications of real-time business actions with consumers on WhatsApp. Brands must send these notifications as a WhatsApp Message Template
 
-For example:
+**For example:**
 
 * Order shipment or confirmation
 * Service appointment

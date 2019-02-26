@@ -1,9 +1,9 @@
 ---
-pagename: 'Supported languages'
+pagename: Supported languages
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle: ''
+subtitle: List of languages supported within LivePerson
 level3: ''
 permalink: admin-settings-supported-languages.html
 isTutorial: false
@@ -13,7 +13,7 @@ date: 2019-01-29 10:04:15 +0000
 ---
 ## Languages supported on the visitor side
 
-The embedded engagement window and email transcripts sent to consumers support over 40 languages and dialects:
+The embedded [engagement window](contact-center-management-campaigns-engagement-window.html) and email transcripts sent to consumers support over 40 languages and dialects:
 
 * Arabic
 * Bulgarian
@@ -62,7 +62,7 @@ The embedded engagement window and email transcripts sent to consumers support o
 
 ## Languages supported in the LivePerson workspace
 
-The agent workspace supports the following 13 languages:
+The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) supports the following 13 languages:
 
 * English (US)
 * Chinese (Simplified)
@@ -80,7 +80,7 @@ The agent workspace supports the following 13 languages:
 
 ## Languages supported in CoBrowse
 
-CoBrowse supports the following 13 languages in the Agent Workspace and on the visitor side:
+[CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html) supports the following 13 languages in the Agent Workspace and on the visitor side:
 
 * English (US)
 * Chinese (Simplified)
@@ -98,4 +98,4 @@ CoBrowse supports the following 13 languages in the Agent Workspace and on the v
 
 ## Languages supported in Report Builder
 
-The Report Builder supports the English language only.
+The [Report Builder](data-reporting-report-builder-report-builder-overview.html) supports the English language only.

@@ -15,9 +15,9 @@ date: 2019-01-31 11:44:17 +0000
 
 The Health Insurance Portability and Accountability Act (HIPAA) was enacted by Congress in 1996. The Health Information Technology for Economic and Clinical Health Act (HITECH Act) was enacted in 2009. Together, the two laws specify requirements for the privacy and security of protected health information (PHI) and apply to all healthcare providers, payers, their business associates, and subcontractors. The laws also establish strict civil and criminal penalties for breaches of PHI and additional steps healthcare organizations must take to respond to breaches.
 
-HIPAA-HITECH apply to “covered entities”, which include doctors, hospitals, health insurance companies and other healthcare providers. 
+HIPAA-HITECH apply to “covered entities”, which include doctors, hospitals, health insurance companies and other healthcare providers.
 
-HIPAA’s Omnibus Rule, which went into effect in 2013, extends the law to include all business associates of covered entities. These include health information organizations, e-prescribing gateways, and any other entity that provides data transmission services to a covered entity or provides personal health records on behalf of a covered entity and who requires access on a routine basis to PHI. 
+HIPAA’s Omnibus Rule, which went into effect in 2013, extends the law to include all business associates of covered entities. These include health information organizations, e-prescribing gateways, and any other entity that provides data transmission services to a covered entity or provides personal health records on behalf of a covered entity and who requires access on a routine basis to PHI.
 
 In addition, all subcontractors of the business associates and covered entities must comply with HIPAA-HITECH if they access PHI of the covered entity. Finally, the Omnibus Rule requires any individual who creates, receives, maintains, or transmits PHI on behalf of a covered entity to comply with HIPAA-HITECH.
 
@@ -87,4 +87,4 @@ HIPAA requirements are as follows and each are met by LivePerson:
 * Notify HHS if there is any breach of unsecured PHI
 * Notify the media and public if the breach affects more than 500 patients
 
-LivePerson would notify the Brand its’ providing service to so that the Brand can notify any affected patients. LivePerson would not normally have sufficient details about a patient in order to contact them directly. LiveEngage is not an EMR or CRM system.
+LivePerson would notify the brand its’ providing service to so that the brand can notify any affected patients. LivePerson would not normally have sufficient details about a patient in order to contact them directly. LiveEngage is not an EMR or CRM system.

@@ -8,7 +8,7 @@ level3: December
 permalink: release-notes-2018-december-week-of-december-2nd.html
 isTutorial: false
 isNew: false
-date: 2019-02-10 11:16:18 +0200
+date: 2019-02-10 09:16:18 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during December 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -148,7 +148,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 If a consumer sends the agent multiple photos, the agent can now navigate between the photos using their mouse. We have added the ability to navigate via arrow keys on the keyboard as well.
 
-## Bug Fixes
+## Bug fixes
 
 ### Multiple agent survey's “Submit Requests” come from Web Agent unexpectedly (AE-858)
 
@@ -292,6 +292,7 @@ When you go to the “Open Connections” tab and open a conversation widget tha
 a loading gif is displayed rather than an empty conversation transcript. After the fix, conversations without messages will display as an empty transcript
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (reopened) (AE-473)
+
 <table>
 <thead>
 <tr class="categoryrow">
@@ -323,4 +324,4 @@ a loading gif is displayed rather than an empty conversation transcript. After t
 </tbody>
 </table>
 
-On Agent widget SDK: bind to chatInfo does not always update "chatInfo.chatSkill”. This is now resolved. 
+On Agent widget SDK: bind to chatInfo does not always update "chatInfo.chatSkill”. This is now resolved.

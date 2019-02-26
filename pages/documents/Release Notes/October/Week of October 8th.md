@@ -13,7 +13,9 @@ These release notes include new features arriving to LiveEngage during October 2
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+{: .important}
+
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionality
 
@@ -50,8 +52,6 @@ These release notes include new features arriving to LiveEngage during October 2
 </tbody>
 </table>
 
-### \[ABC\] Authentication Interactive Message - LiveEngage Support (LE-89160)
-
 The new Apple Business Chat Authentication Interactive Message enables businesses to authenticate consumers using OAuth2 protocol via the Business Chat conversation.
 
 **Main capabilities:**
@@ -67,18 +67,19 @@ The new Apple Business Chat Authentication Interactive Message enables businesse
 * Agents and bots on LiveEngage will get real-time updates upon a consumer’s response
 * Upon successful or failed authentication, LiveEngage will support passing the authentication status and token back to LiveEngage Conversational Metadata, in order to allow the brand to perform validation on the authentication information
 
-**_This feature requires enablement_** _- please contact your LivePerson account team._***
+{: .important}
+
+This feature requires enablement - please contact your LivePerson account team
 
 **Limitations**
 
 * Currently the Authentication Interactive Message will only enable brands to perform authentication validation against their OAuth service, and will not enable them to automatically push authenticated engagement attributes to the conversation - supporting engagement attributes is planned for H1, 2018.
 * In the current solution, only a bot (using the Agent SDK) can receive the authentication response from the consumer (after the consumer submits authentication on Business Chat) - In the next phase, we will add a user interface indication on LiveEngage which will allow a live agent to see authentication status as well.
 
+
 {: .sidebyside}
+![](/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](/img/week-of-october-8th-2.png)
 
-![](/img/release-notes-2018-october-week-of-october-8th-2018.png)
-
-![](/img/week-of-october-8th-2.png)
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
@@ -120,25 +121,21 @@ Apple Pay provides an easy and secure way for consumers to buy goods and service
 * Business Chat will support a new OOTB Interactive Message that allows brands to submit payment requests to consumers using Apple Pay
 * Brands will use their private Apple Pay accounts (or will create new accounts) and will supply their Apple Pay Merchant ID on their Apple management area (register.apple.com).
 
-  {: .notice}
-
-  Brands need to first register a Merchant Identifier (Merchant ID) in their Apple Developer Account to enable Apple Pay payments in Messages. For information on creating your merchant ID, see [Configuring Your Environment.](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html#//apple_ref/doc/uid/TP40014764-CH2)
+ {: .notice}
+Brands need to first register a Merchant Identifier (Merchant ID) in their Apple Developer Account to enable Apple Pay payments in Messages. For information on creating your merchant ID, see [Configuring Your Environment.](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html#//apple_ref/doc/uid/TP40014764-CH2)
 * LiveEngage will support agent/bot generation of the Apple Pay Interactive Message using the Structured Content framework and configuration (similar to list and time picker)
 * Consumers will receive the Apple Pay Interactive Message and will be able to tap to pay using their Apple Pay user on their iOS device.
 * Agents and bots on LiveEngage will get real-time updates upon a consumer payment response
 * Upon successful or failed payment, LiveEngage will support passing the payment details back to LiveEngage Conversational Metadata in order to allow the brand to perform validation on the payment information against their Apple Pay account
-* ***This feature requires enablement** - please contact your LivePerson account team.
 
-  **Limitations**
-* In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
+{: .important}
+This feature requires enablement - please contact your LivePerson account team
+
+#### Limitations
+In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
-
-![](/img/week-of-october-8th-4.png)
-
-![](/img/week-of-october-8th-5.png)
-
-![](/img/week-of-october-8th-6.png)
+![](/img/week-of-october-8th-4.png) ![](/img/week-of-october-8th-5.png) ![](/img/week-of-october-8th-6.png)
 
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
@@ -272,9 +269,10 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 
 Brands can now configure skill routing per the brand’s Google RCS Agent ID (Google RCS Business ID).
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
-### RCS Business Messaging Connector - Card, Carousels and Quick Replies (LE-92997, LE-92998, LE-92823)
+### RCS Business Messaging Connector - Card, Carousels & Quick Replies (LE-92997, LE-92998, LE-92823)
 
 <table>
 <thead>
@@ -315,7 +313,8 @@ Structured content support for RCS Business Messaging templates will allow brand
 
 The RCS Business Messaging templates will support RCS cards, carousels and quick replies using LE’s structured content.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 ![](/img/week-of-october-8th-8-2.jpg)
 
@@ -354,11 +353,11 @@ The RCS Business Messaging templates will support RCS cards, carousels and quick
 
 With RCS Business Messaging supported by the Android Messages app, consumers can select images from their device’s image gallery or take a real-time image and share it with agents on LiveEngage.
 
-**Support image formats:**
+**Supported image formats:** 
+JPG, JPEG, PNG, GIF
 
-Supported images formats: JPG, JPEG, PNG, GIF
-
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 ![](/img/week-of-october-8th-9-2.jpg)
 
@@ -436,7 +435,7 @@ Supported images formats: JPG, JPEG, PNG, GIF
 
 The post conversation survey is now supported for the RCS Business Messaging connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
-**It contains:**
+**Contents:**
 
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
@@ -448,7 +447,8 @@ The post conversation survey is now supported for the RCS Business Messaging con
 
 For use in Google RCS Business Messaging, you can configure the survey through the Bot Studio using LE structured content and it will be seamlessly translated into Google RCS’s templates (quick replies, cards etc.) Brands can configure one survey and apply it to all channels, or they can configure separate surveys per channel (each channel should have a separate skill).
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 **Limitations**
 
@@ -489,7 +489,7 @@ For use in Google RCS Business Messaging, you can configure the survey through t
 
 The post conversation survey is now supported for the Twilio SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
-**It contains:**
+**Contents:**
 
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
@@ -503,13 +503,15 @@ LiveEngage automatically translates rich surveys into textual surveys for the Tw
 
 When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team
 
 **Limitations**
 
-* Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
+Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
 
 ![](/img/week-of-october-8th-10-1.png)
+
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
@@ -546,7 +548,8 @@ When configuring the survey in the Bot Studio, the brand must configure the ‘f
 
 The Twilio SMS connector now supports image sharing from consumer to agent. Consumers will be able to use the default SMS app on their device (whether it’s an iOS or Android device), choose an image from the phone gallery or take a new image and share it with the brand. The agent on the LiveEngage web console will receive the image and will be able view.
 
-\***This feature requires enablement** - please contact your LivePerson account team.
+{: .important}
+This feature requires enablement** - please contact your LivePerson account team.
 
 **Limitations**
 
@@ -597,7 +600,7 @@ Consumer side:
 
 The current version of the Twilio Connector has been migrated to the new LiveEngage connectors platform, which supports error handling, a message-retry mechanism and was built to enhance the Twilio connector’s performance.
 
-## Bug Fixes
+## Bug fixes
 
 ### \[Twilio\] Failure to send a message to Twilio - isn't reported back to UMS and LE UI (LE-90596, LE-88928, LE-75265)
 

@@ -8,7 +8,7 @@ level3: January
 permalink: release-notes-2019-january-week-of-january-28th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 13:51:46 +0200
+date: 2019-02-06 11:51:46 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -62,8 +62,6 @@ PCI secure form for messaging connector channels will expand brands’ business 
 
 For messaging connectors, secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
-The design for the form in the messaging connectors experience is inherited from the engagement window default design.
-
 * Secure form flow for connector channels:
   * Connector channels that will support secure forms in upcoming releases: WhatsApp Business, Facebook Messenger, Apple Business Chat and Google RCS Business Messaging
   * SMS over Twilio will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
@@ -71,16 +69,15 @@ The design for the form in the messaging connectors experience is inherited from
   * Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
   * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message:  
     “The following secure form has been submitted: <Secure form name>”
-  * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent:
-
-  _The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\]._
+  * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: _The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\]._
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
   * Received by the consumer
   * Submitted by the consumer
 
-\**How to enable  
-\**To configure this feature, please speak to your LivePerson representative. For more information, please see the [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
+#### How to enable
+
+To configure this feature, please speak to your LivePerson representative. For more information, please see the [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
 
 **Limitations**
 
@@ -95,9 +92,3 @@ The design for the form in the messaging connectors experience is inherited from
 * Secure forms for connectors will not be available to consumers to open and fill on desktop.
 * Currently, reporting will be carried out on a per-need basis through the analytics team.
 * Additional, smaller limitations for connector channels are shared in the configuration guide.
-
-![](/img/week-of-january-28th-1.png)
-
-or
-
-![](/img/week-of-january-28th-1b.png)

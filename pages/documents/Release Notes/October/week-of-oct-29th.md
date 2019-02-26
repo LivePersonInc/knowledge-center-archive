@@ -8,14 +8,16 @@ level3: October
 permalink: Release-notes-2018-october-week-of-October-29th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 14:15:16 +0200
+date: 2019-02-06 12:15:16 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .important} _The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change._
+{: .important}
+
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New Functionality
 
@@ -63,9 +65,9 @@ This data will be reported in two ways:
 1. Accumulated in intervals over the last 24 hours. The interval size is in minutes and can be configured, for example in buckets of 5 or 10 minutes.
 2. The current state - the state of the operational KPIs at the moment that the API is called. The API exposes information about interactivity during conversations and wait times of current open conversations (unassigned / in-queue).
 
-Full documentation, including a list of the newly exposed metrics, can be found in the [LivePerson Developers Community](https://developers.liveperson.com/messaging-operations-api-overview.html) and the [user guide.](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/User+guides/User+Guide_+Skill-based+messaging+operations+efficiency.pdf)
+Full documentation, including a list of the newly exposed metrics, can be found in the [LivePerson Developers Community](https://developers.liveperson.com/messaging-operations-api-overview.html) 
 
-**How to enable**
+#### How to enable
 
 Added to the existing Messaging Operations API. No additional enablement needed.
 
@@ -104,8 +106,8 @@ Added to the existing Messaging Operations API. No additional enablement needed.
 
 This functionality enables brands to route multiple WhatsApp Business numbers into one LiveEngage account, and enables multiple Lines of Business to be facilitated and managed within the LiveEngage account, using LE's operational tools.
 
-The WhatsApp Business connector is currently in Beta mode. Only brands that meet the requirements and have been approved by WhatsApp may participate.
+The [WhatsApp Business connector](messaging-channels-live-chat-add-live-chat-to-your-website.html) is currently in Beta mode. Only brands that meet the requirements and have been approved by WhatsApp may participate.
 
-**Please note:**
+{: .notice}
 
 Busy Message - since LiveEngage does not support multiple consumer conversations in real time, if a consumer starts a second conversation with a WhatsApp business number connected to the same account, they will receive a configurable busy message to the WhatsApp conversation thread.

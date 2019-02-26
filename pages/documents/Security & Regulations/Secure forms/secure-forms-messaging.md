@@ -109,7 +109,7 @@ The secure form solution was designed with strict security parameters to help en
 
 ## Supported browsers
 
-Refer to[ ]()[system requirements](admin-settings-system-requirements-supported-languages.html) for information about supported browsers.
+Refer to[ ]()[system requirements](admin-settings-system-requirements.html) for information about supported browsers.
 
 ## Setting up LivePerson secure forms
 
@@ -277,7 +277,7 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 
 ## **Messaging connectors**
 
-For messaging connectors (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
+For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
@@ -309,9 +309,9 @@ The form layout and design will be the same as the web messaging secure form vie
 The form design and colors will be inherited from the default window design elements, which are:
 
 * **Top bar with the form name:** Form name will be displayed as created and will always be blue background (hex color #0363ad). It will always be set with the font “Arial”, color white. Secure form Logo will always be shown
-* **Secure form questions:** Font will always be “Arial”, color gray (hex color #6D6E70) 
+* **Secure form questions:** Font will always be “Arial”, color gray (hex color #6D6E70)
 * **Secure From question placeholder:** Font will always be “Arial”, color gray (hex color #6D6E70)
-*  **Secure form submit button:** Color will always be blue (hex color #0363ad) and font will always be “Arial”, color white
+* **Secure form submit button:** Color will always be blue (hex color #0363ad) and font will always be “Arial”, color white
 * **Secure from header and footer text:** Text will always be set with the font “Arial”
 
 #### User interface (UI)
@@ -373,7 +373,7 @@ When the agent clicks on the “view secure form” link, the secure form data w
 
 If the agent closes the conversation or logs out, or if there was an issue and the secure form results are no longer available, an error message will display saying "could not load secure form"
 
-## **Agent manager**
+## Agent manager
 
 To ensure secure form data is protected, agent managers cannot view information entered in the secure form either during or after a conversation. By default, agent managers can view the following secure form statuses:
 
@@ -407,7 +407,7 @@ When using secure forms, bear in mind:
   3. Both variables can be set to any time limit between 1 and 86400 seconds.
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
-  * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
+* On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
     1. The consumer logs out
     2. The app is closed so its not running in the background
     3. The form expires
@@ -417,7 +417,7 @@ When using secure forms, bear in mind:
 
 ## Reporting on secure forms
 
-The following secure form events are reported in Report Builder:
+The following secure form events are reported in [Report Builder](data-reporting-report-builder-report-builder-overview.html):
 
 * Agent sent the secure form
 * Consumer opened the secure form

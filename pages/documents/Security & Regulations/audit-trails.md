@@ -17,18 +17,18 @@ An activity log will display which element has been changed, when and by whom, a
 
 An audit trail is available for the following elements:
 
-* Users
-* Skills
-* Agent groups
-* Permissions
-* LoBs
-* Post conversation survey
-* Campaign scheduling
-* Working hours management
+* [Users](admin-settings-permissions-assign-permissions.html#creating-custom-lpa-user-profiles)
+* [Skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
+* [Agent groups](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)
+* [Permissions](admin-settings-permissions-assign-permissions.html)
+* [LoBs](admin-settings-skills-groups-operate-business-divisions-from-one-account.html)
+* [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html)
+* [Campaign scheduling](contact-center-management-campaigns-time-frame.html)
+* [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 
 Audit data related to user logins to the LiveEngage system is not available.
 
-### **Audit trail table**
+### Audit trail table
 
 The following values are recorded in the audit trail:
 
@@ -41,7 +41,7 @@ The following values are recorded in the audit trail:
 * **Date:** the date the object was modified
 * **Originator:** the user responsible for change
 
-### **Audit trail permission**
+### Audit trail permission
 
 The audit trail can be accessed by clicking on the account settings menu to the top right of the LiveEngage workspace.
 
@@ -49,7 +49,7 @@ The audit trail can be accessed by clicking on the account settings menu to the 
 
 Account administrators have access to audit trail reports by default. If a brand would like to enable the audit trail permission for some administrators, but not for others, this can be achieved by creating a new custom profile within the admin role. For further information, refer to the [customize user profiles.](admin-settings-permissions-customize-permissions.html)
 
-### **Exporting data**
+### Exporting data
 
 Data for the last 13 months are available and can also be exported to excel. However, data will only be recorded in the log from the point at which the feature is enabled; historical information will not be displayed retroactively.
 
@@ -59,6 +59,6 @@ Audit trails are available on the following features:
 
 * Working hours management
 * Campaign timeframes
-* Post conversation survey
+* Post Conversation Survey
 
 ![](/img/Audit-trail4.png)

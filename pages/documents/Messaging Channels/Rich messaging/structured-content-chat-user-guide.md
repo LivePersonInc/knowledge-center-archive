@@ -36,7 +36,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-chat surveys based on a collection of cards.
 
-Structured content is available on our **web-chat channel**. It is also available for web messaging and in-app messaging - for further information on configuring structured content for messaging, please refer to the[ documentation](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/User+guides/Structured+Content/Structured+Content+for+Messaging.pdf).
+Structured content is available on our web-chat channel. It is also available for web messaging and in-app messaging.
 
 ## Capability highlights
 
@@ -94,7 +94,7 @@ In order to enable the feature via AC features and site settings, please contact
 
 ![](/img/SCC6 (1).jpg)
 
-{:Start="4"}
+{: .start="4"}
 
 1. Break each of your identified use cases down into the following building elements:
    * **Structured content format:** cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
@@ -107,14 +107,14 @@ In order to enable the feature via AC features and site settings, please contact
    * Define the metadata ExternalID that will be returned to LiveEngage when an element in the Structured Content is clicked. This is important for reporting on consumer interaction with the Structured Content element. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-getting-started.html#metadata).
    * Integrate your data model to benefit from full and detailed reporting, enabling you to assess the impact of structured content usage.
 
-     Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
+Note: For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. 
 
 ## Notes
 
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
-* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on whitelisting.
+* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. Refer to the [configuration section](https://docs.google.com/document/d/16nsnuXBqXlPuGrOcX33mFwu05mGqZPkG_yw7DBvxm1Y/edit#heading=h.nh00pfcnfp7i) for guidance on configuring push notifications.
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification.
 
 ## Best practices
 
@@ -126,7 +126,7 @@ In order to enable the feature via AC features and site settings, please contact
 6. Use a carousel when there's a priority order to your content, i.e., the first item is probably the most interesting.
 7. Strive for consistency. All cards within the carousel should have the same look and feel and the same business logic. If one card has an image, include an image in all of them.
 8. Don't mix types of content. If you include an article next to a list of products, your experience could cause confusion.
-9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end. Consider creating a List instead (a [structured content card](http://localhost:4000/rich-messaging-structured-content-card.html) with vertical elements and click operations).
+9. Don't use a carousel when it's important that people see everything in the list. They may not scroll to the end - consider creating a list instead.
 
 ## Limitations
 

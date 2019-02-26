@@ -8,7 +8,7 @@ level3: February
 permalink: release-notes-2019-february-week-of-february-11th.html
 isTutorial: false
 isNew: false
-date: 2019-02-19 15:01:46 +0200
+date: 2019-02-19 13:01:46 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during February 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -105,7 +105,7 @@ The connector will expose the consumer’s name (as registered by the users in t
 </tbody>
 </table>
 
-There is now support for secure forms for the WhatsApp Business and Google RCS connectors. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
+There is now support for [secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html) for the WhatsApp Business and Google RCS connectors. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
 PCI secure form for messaging connector channels will expand brands’ business use cases on channels that do not have the native secure form capabilities, allowing them to build a conversational commerce strategy with LiveEngage.
 
@@ -132,9 +132,7 @@ The design for the form in the messaging connectors experience is inherited from
 
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
 
-For more information, please see the following documents:
-
-* [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
+For more information, please see the [secure form configuration guide](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html)
 
 #### Limitations
 
@@ -159,3 +157,246 @@ For more information, please see the following documents:
 ![](/img/week-of-february-11th-3.png)
 
 ![](/img/week-of-february-11th-4.png)
+
+### Auto close per skill
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+  
+Today, brands use a single time interval definition to determine how long after a conversation becomes inactive it should be closed. This single definition doesn’t take into account the fact that different skills have a different conversation pace and therefore should have different time intervals for auto close. Having such a capability will give brands a higher level of flexibility to determine when a conversation should be closed and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill, and thereby improve the consumer experience as well as their operational parameters.
+
+**Screenshots**
+
+![](/img/week-of-february-11th-5.png)
+
+### Post Conversational Survey - Adding Search capability
+  
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+Enable brands to gain new insight from conversations in which the post conversation survey was configured by adding a new filtering capability to the All Connections tab in LiveEngage.
+
+This new capability will allow brands to filter out and view specific conversations based on their survey outcomes, word match in transcripts and CSAT, NPS and FCR answers.
+
+This capability enables brands to track post conversation results more easily and to train their agents to improve in specific areas.
+
+**Limitations**
+
+For Text based channels such as SMS and ABC the new filter can display only conversations in which a post conversation survey took place, however, filtering for specific questions / answers is not available.
+
+**Screenshots**
+
+![](/img/week-of-february-11th-6.png)
+
+### Agent Assist with Maven
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+Agent Assist is a widget within the LiveEngage UI that provides suggestions for relevant automations (bot users) that the conversation can be transferred to. This feature provides a single button for agents to transfer to suggested bot and provide feedback on the suggestion. Suggestions are provided for each incoming consumer message.
+
+**Limitations**  
+Setup and configuration is currently not open to brands, must be done by LP internally. New conversations must have a default skill/engagement with skill that is assigned only to human agents, otherwise bots may answer incoming conversations themselves.
+
+**Screenshots**
+
+![](/img/week-of-february-11th-7.png)![](/img/week-of-february-11th-8.png)
+
+### Step Up
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+This feature is to support the step up process in the agent workspace (LE UI). When an unauthenticated messaging conversation is stepped up, the agent workspace will refresh the conversation in the UI, so that the authenticated information about the conversation and the consumer will be available for the agent.
+
+**Limitations**
+
+Refreshing the conversation will create a new ‘orb’ for it, and will place it at the end of list (left most position).
+
+## Bug fixes
+
+### Unselectable element on customized overlay engagement (AE-1676)
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+When creating a customized overlay engagement in the engagement studio,
+
+dragging an element to the top left corner (for example, a text field) makes the element unselectable in some scenarios. This issue is now resolved.
+
+### UI Auto Messages - The dynamic text for 'Agent Nickname' displays wrong name (AE-1866)
+
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+When setting the dynamic text for the “Agent Nickname” in Auto Messages for messaging, the dynamic text in the drop down menu actually states “Agent Name”.
+
+Name and Nickname are two different fields in LiveEngage - there should be a consistency between the options for the ‘Dynamic field’ menu vs. the actual parameter that is used.

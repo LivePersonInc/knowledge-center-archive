@@ -29,11 +29,14 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 LivePerson works hard to ensure that our customers around the world can safely and securely use our platform. There are several different standards for protecting data around the world. LivePerson meets the following international standards for data protection, ensuring that our European customers can safely use our secure forms:
 
 1. **Standard 1: PCI-DSS**
-   1. LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s secure form Widget and Billing system. To view the certificate, click [here.]()
+
+   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s secure form Widget and Billing system. To view the certificate, click[ here.](https://securityhub.liveperson.com/support/solutions/articles/5000027697)
 2. **Standard 2: GDPR**
-   1. LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
+
+   LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
 3. **Standard 3: US: Privacy Shield certification**
-   1. LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
+
+   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
 
 ## When to use secure forms?
 
@@ -52,11 +55,11 @@ Following the completion of an onsite assessment, the LiveEngage secure form env
 
 ## How it works
 
-An agent can send a secure form from the agent workspace at any time during a chat session by clicking the secure form tab in the Predefined content widget and selecting a secure form.
+An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview) widget and selecting a secure form.
 
 ![](https://lh3.googleusercontent.com/KxVjdM632DNYROVcT-u8NYWMrWTfhGUv4T7mJlC5ppmxZYzSTa3HV1LLkuTypUx_dLU7WGBwyFJHRaisuvuIi20YSJG9on8i-v8rdWQH_7u-s_cobn9VuueTBHLVPWG6SkW6zSCa =624x299)
 
-Figure 1 Secure form within the agent workspace
+_Figure 1 Secure form within the agent workspace_
 
 The visitor then fills out and submits the secure form back to the agent. The receiving agent is the only one able to view the information sent by the visitor.
 
@@ -67,15 +70,15 @@ Example of a secure form in use:
 
 ![](https://lh3.googleusercontent.com/jREa2lYO8dtJiKOf3wI3oImlq-8z-mpIr7k0p0NCoXKU2CwqpglNIDEplCX3JVh9z8QuFfw3fEEKx3vCBJX_bhTyy_VFmiXnIbpyQlSitvXmRSyQLB_X0nHP6WBD7710pCP2241v =624x331)
 
-Figure 2: LivePerson secure form within an engagement window interaction
+_Figure 2: LivePerson secure form within an engagement window interaction_
 
 ## Fully Accessible visitor experience
 
 The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both the desktop and mobile web (iOS and Android) and includes:
 
-* Screen reader support: secure forms can be filled out using screen readers for visually impaired visitors.
-* Keyboard operable: secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
-* Improved error handling: Clear error indication and suggested fixes.
+* **Screen reader support:** secure forms can be filled out using screen readers for visually impaired visitors.
+* **Keyboard operable:** secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
+* **Improved error handling**: Clear error indication and suggested fixes.
 
 ## Data flow
 
@@ -83,7 +86,7 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](https://lh5.googleusercontent.com/KzEe2pW7z3DRLqT84XoiF0s8_mXN0r13T2ev89LFWke8uyox3crZy-2UR_z-YYT3whcb38pz-hy2uMe86QIdchJS_nubBKH8xx-Wol8Se4BUk8xWOTqHXO2fEWNzUQeIy0an_-ov =624x380)Figure 3: Secure form visitor to agent flow chart
+![](https://lh5.googleusercontent.com/KzEe2pW7z3DRLqT84XoiF0s8_mXN0r13T2ev89LFWke8uyox3crZy-2UR_z-YYT3whcb38pz-hy2uMe86QIdchJS_nubBKH8xx-Wol8Se4BUk8xWOTqHXO2fEWNzUQeIy0an_-ov =624x380)_Figure 3: Secure form visitor to agent flow chart_
 
 Below is a detailed explanation of the flow of the diagram above:
 
@@ -109,7 +112,7 @@ The secure form solution was designed with strict security parameters to help en
 
 ## Supported browsers
 
-Refer to [system requirements](admin-settings-system-requirements-supported-languages.html) for information about supported browsers.
+Refer to [system requirements](admin-settings-system-requirements.html) for information about supported browsers.
 
 ## Considerations when using secure forms
 
@@ -134,7 +137,7 @@ The **account password policy** will be configured as follows:
 | --- | --- |
 | Minimum number of characters | Set to minimum 7 |
 
-The **Failed Login Policy** will be configured as follows:
+The **Failed login policy** will be configured as follows:
 
 | Setting | Required Configuration |
 | --- | --- |
@@ -169,7 +172,7 @@ To verify that permissions are enabled:
 
 3\.    Under permissions, scroll down to confirm that the ‘use secure form within a conversation’ permission is enabled.
 
-4\.    Click Save.
+4\.    Click save.
 
 {: .notice}  
 If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the [customize user profiles](admin-settings-permissions-customize-permissions.html) documentation.

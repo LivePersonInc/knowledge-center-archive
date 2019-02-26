@@ -8,9 +8,10 @@ level3: ''
 permalink: messaging-channels-sms-sms-connector.html
 isTutorial: false
 date: 2019-01-17 14:40:01 +0000
+isNew: false
 
 ---
-The addition of SMS to LiveEngage operations, creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family.
+The addition of SMS to LivePerson operations creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family.
 
 ## Why use SMS to connect with your consumers?
 
@@ -31,8 +32,8 @@ The addition of SMS to LiveEngage operations, creates another gateway for messag
 
 ## Setting up the SMS connector
 
-Our self-serve setup for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place. For guidance on setting up the Twilio SMS connector for your brand, [click here]().
+Our self-serve setup for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place. For guidance on setting up the Twilio SMS connector for your brand, [click here](messaging-channels-sms-twilio-sms-connector-setup.html).
 
-It's always important to ensure that your SMS operations meet local regulations and guidelines. For more information on compliance, read our best practices for complying with text messaging regulations [here]().
+It's always important to ensure that your SMS operations meet local regulations and guidelines. For more information on compliance, read our best practices for complying with text messaging regulations [here](messaging-channels-sms-complying-with-sms-regulations.html).
 
 **Please note:** The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000.
