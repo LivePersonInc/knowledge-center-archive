@@ -25,11 +25,10 @@ Note: due to the SLA and general demand, transferring to another agent may inclu
 
 ### **I want to go on a lunch break, which is a 45-minute break. Should I tell my customer?**
 
-For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent.
+For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent. It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
 
-It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
-
-Note: due to the SLA and general demand, reassigning the customer to the queue may mean a longer wait time before the customer is served.
+{: .notice}
+**Note:** due to the SLA and general demand, reassigning the customer to the queue may mean a longer wait time before the customer is served.
 
 ### **It feels like my active conversations are more than I should have. Should I change my status to away?**
 
@@ -37,9 +36,7 @@ Please do not change your status to away. This will confuse the system that is w
 
 Messaging is designed to have you handle multiple conversations at once. There is a smart algorithm working in the background to try and ensure that you are not overloaded. You’ll have a mixture of active and inactive conversations.
 
-It can feel like you are taking on too many conversations at one time, especially because it is new. It is normal to have a large amount of conversations throughout the day, and this will take some getting used to.
-
-You should go on away for lunch and breaks only, not to control the queue.
+It can feel like you are taking on too many conversations at one time, especially because it is new. It is normal to have a large amount of conversations throughout the day, and this will take some getting used to. You should go on away for lunch and breaks only, not to control the queue.
 
 ### **What do I do if I get a conversation in my queue that my colleague handled yesterday? Do I transfer it to them?**
 
@@ -69,7 +66,8 @@ When a customer confirms a resolution, or when you have waited the appropriate a
 
 Remember, they can always restart the conversation. You won’t always have a customer confirm a resolution, and you may have customers who call in and complete the query with another channel. If you have an unresponsive customer over a certain period of time, the system will close this for you.
 
-Note: In-app customers may have a slightly different behavior. If push notifications are enabled, the customer might not need to be in the app to see your response.
+{: .notice}
+**Note:** In-app customers may have a slightly different behavior. If push notifications are enabled, the customer might not need to be in the app to see your response.
 
 ### **Do we close a conversation if the customer comes back in over 12 hours?**
 
