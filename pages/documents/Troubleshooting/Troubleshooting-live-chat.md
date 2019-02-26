@@ -9,7 +9,6 @@ permalink: troubleshooting-live-chat.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 11:02:24 +0200
-published: false
 
 ---
 ### Why isn’t CoBrowse / CoBrowse-for-Voice opening on the visitor side?
@@ -128,21 +127,20 @@ The user has two different LiveEngage accounts. On one of the accounts the user 
 
 Web visitor names are displayed as “Visitor” in the Web Visitors list even when visitors start chatting. Why aren’t their real names displayed? And why aren’t their real names displayed in the Web History list?
 
-![](https://lh6.googleusercontent.com/THr6PqGOWwrS3-y9P-pYjfgqPvl9mLvFPokb9h8_u0x5Im3ZYh5nf8FYXDzOHRjCkwdmAWk1diMMUhRVRWEi-UBP0nWZ7UXgwi0seDS0cMt3rXquAwmm3kU3DOxXS2kou9xtSURy =624x343)
+![](/img/troubleshooting-web-visitors-list.png)
 
 #### Cause:
 
 The engagements for which a visitor name is not displayed are NOT configured to display pre-chat surveys. The pre-chat survey is the only way to collect/display the visitor name in the Web Visitors and Web History lists.
 
-**Note**: Engagement attributes cannot be used to for this purpose either as they do not affect the display of the Web Visitors and Web History lists.
+{: .notice}  
+Engagement attributes cannot be used to for this purpose either as they do not affect the display of the Web Visitors and Web History lists.
 
 #### Solution:
 
 Set up pre-chat surveys with name fields for engagements if you want to record/display visitor names.
 
 ### Why is the toaster close (X) button displaying outside the toaster?
-
-C
 
 When we build toaster engagements with the Design Your Own option in the Engagement studio the images appear correctly, with the X/Close button appearing within the Toaster itself.
 
@@ -160,11 +158,11 @@ It is recommended to use the Overlay content in these cases.
 
 ### Why aren’t chats transferring? Why are they returning to the agent after he transfers them?
 
-#### **Problem:**
+#### Problem:
 
 When a chat is transferred, the chat returned back to the original skill/agent rather than remaining in the destination queue.
 
-#### **Cause and Solution:**
+#### Cause and Solution:
 
 Transfer-to-agent returns chats to the origin after about 4 minutes, if no other agent has taken the chat.
 
