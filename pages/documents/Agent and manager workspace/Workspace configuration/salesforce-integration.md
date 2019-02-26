@@ -591,8 +591,8 @@ These are just a few examples meant to demonstrate how to write these “address
 1. **Issue**: Chat Transcripts are not synced to SF
 
 	**Possible causes:**
-1. Scheduled sync jobs need to be defined
-2. Job is defined, but the SF user is inactive
+* Scheduled sync jobs need to be defined
+* Job is defined, but the SF user is inactive
 
 ### **Known limitations**
 
