@@ -116,7 +116,6 @@ The following CoBrowse elements can also be configured:
 
 {:start="2"}
 2. Choose the session type:
-
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
 
