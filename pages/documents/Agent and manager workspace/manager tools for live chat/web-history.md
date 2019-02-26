@@ -41,7 +41,6 @@ The web history includes the following information:
 * Filtering by start page helps brands to recognize which pages generate more chats and how to tag their pages more effectively.
 
 **Search on encrypted transcripts**
-
 Encrypted transcripts can also be searched for keywords. It is possible to search for chats by a specific keyword or phrase and find the relevant conversations easily. This capability allows you to store your transcripts in a secured format and still have the ability to search on them.
 
 [Survey information](contact-center-management-live-chat-operations-surveys-with-live-chat.html) (pre-chat, post-chat and agent) and [engagement attributes](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#marketing-source) (eCommerce info, visitor info, visitor journey and more) can be viewed by the agent manager, with authenticated attributes marked with a blue checkmark.
