@@ -3,7 +3,7 @@ pagename: Live chat
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: chat
-subtitle: ''
+subtitle: Troubleshooting for all issues to do with Live chat
 level3: ''
 permalink: troubleshooting-live-chat.html
 isTutorial: false
