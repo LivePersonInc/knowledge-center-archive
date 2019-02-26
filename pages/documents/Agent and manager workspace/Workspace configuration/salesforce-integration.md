@@ -586,10 +586,12 @@ These are just a few examples meant to demonstrate how to write these “address
 
 {:start="4"}
 4. **Issue**: Salesforce widget does not load followed by an error message.
-	**Observation:** missing Salesforce configuration; skill is not associated with an object.
+	
+    **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
 1. **Issue**: Chat Transcripts are not synced to SF
+   
    **Possible causes:**
    * Scheduled sync jobs need to be defined
    * Job is defined, but the SF user is inactive
