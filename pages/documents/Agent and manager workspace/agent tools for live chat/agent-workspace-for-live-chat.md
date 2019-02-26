@@ -150,14 +150,14 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * Double click on an element to display a yellow circle around the cursor.
 * Press Ctrl + click the left mouse button to animate the element with a wiggle effect.
 
-Use cases for CoBrowse:
+#### Use cases for CoBrowse:
 
 * Offering a concierge service
 * Walking visitors through a process
 * Assisting a visitor in filling out a form
 * Helping visitors to troubleshoot
 
-To initiate a CoBrowse session:
+#### To initiate a CoBrowse session:
 
 1. During a conversation with a consumer, click the CoBrowse icon.
 
