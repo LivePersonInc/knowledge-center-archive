@@ -90,23 +90,24 @@ Offline engagements are not displayed to visitors when agents are offline.
 
 There are many reasons this can happen, for example Target Audience, Location, Campaign Time Frame settings, etc.
 
-**Cause 1**: An account set their campaign’s Campaign time frame > Operation hours. The Offline Engagements weren’t displaying outside those operation hours because they had set the Operation hours.
+#### Cause: 
 
-**Solution**: Change Campaign time frame > Operation hours to All hours. Do not set Operation hours when using Offline engagements.
+An account set their campaign’s Campaign time frame > Operation hours. The Offline Engagements weren’t displaying outside those operation hours because they had set the Operation hours.
+
+#### Solution:
+
+Change Campaign time frame > Operation hours to All hours. Do not set Operation hours when using Offline engagements.
 
 ### Why is an authenticated chat returning an offline survey?
 
-**Question**:
-
 Why does an offline survey display to visitor when they click to start an authenticated chat?
-
-**Answer**:
 
 Authenticated chat engagements send a request to your authentication server. The authentication server verifies the request, and the chat process begins to load.
 
 If your authentication server returns a message stating that the request is not accepted/authenticated, LiveEngage displays an offline survey to the visitor.
 
-**Note**: You set up the authentication server on Campaigns page > Data Sources > Authentication Server > Edit.
+{: .notice}  
+You set up the authentication server on Campaigns page > Data Sources > Authentication Server > Edit.
 
 ### Why isn’t our campaign manager/admin user able to delete predefined content?
 
