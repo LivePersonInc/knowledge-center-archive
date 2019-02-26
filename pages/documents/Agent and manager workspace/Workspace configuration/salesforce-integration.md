@@ -92,7 +92,6 @@ This section sets out the Salesforce objects for which we would like the widget 
 **Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
 
 {:start="2"}
-
 1. From the “Customization Settings” tab, scroll down to the “Skills” section.
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
 3. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
@@ -301,7 +300,6 @@ https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 ## **User guide**
 
 Below is an overview of the widget capabilities, in this section, we will cover the following topics:
-
 * Introducing the Salesforce widget
 * Creating an account
 * Creating a contact from
