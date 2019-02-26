@@ -67,7 +67,7 @@ Within the predefined content library, you can add and edit phrases that will he
 
 ## **Automatic messages**
 
-Within the automatic messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ](contact-center-management-live-chat-operations-automatic-messages.html)to learn more about automatic messages.
+Within the automatic messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html)to learn more about automatic messages.
 
 ## **Inactive engagements**
 

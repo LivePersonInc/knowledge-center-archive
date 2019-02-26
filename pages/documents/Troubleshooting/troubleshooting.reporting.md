@@ -1,9 +1,9 @@
 ---
-pagename: Reporting & data
+pagename: Reporting & Data
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
-subtitle: Troubleshooting for all questions in reporting & data
+subtitle: Troubleshooting for all questions in Reporting & Data
 level3: ''
 permalink: troubleshooting-reporting.html
 isTutorial: false
