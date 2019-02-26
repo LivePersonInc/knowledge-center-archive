@@ -452,13 +452,13 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 	**LivePerson SDK Field:** ```surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value```
 
-	**LivePerson API Field:** surveys.preChat[displayName=What is your Account Number?].value
+	**LivePerson API Field:** ```surveys.preChat[displayName=What is your Account Number?].value```
 
 2. For a **custom post chat survey question** with the text “How would you rate us?” use the following:
 
-	**LivePerson SDK Field:** surveyQuestions.postChat[displayName=How would you rate us?].value
+	**LivePerson SDK Field:** ```surveyQuestions.postChat[displayName=How would you rate``` us?].value
     
-    **LivePerson API Field:** surveys.postChat[displayName=How would you rate us?].value
+    **LivePerson API Field:** ```surveys.postChat[displayName=How would you rate us?].value```
 
 3. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
 
