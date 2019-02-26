@@ -282,14 +282,12 @@ Now that you’ve configured your LiveEngage App in Salesforce, it’s time to g
 Replace **XXXX** with your SF domain (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “[https://eu2.salesforce.com](https://eu2.salesforce.com "https://eu2.salesforce.com")”).
 
 **Note:** If your Salesforce org has **My Domain** feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
-
 https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 
 {: .notice}
 **Tip:** From the Customization Settings tab, you can copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure you are using the correct link:
 
 {:start="7"}
-
 1. Open the “Advanced settings for LivePerson integration SDK”
    * Define the following URL under ‘In case widget didn't load, display the following link’- ‘[https://login.salesforce.com](https://login.salesforce.com "https://login.salesforce.com")’ (or ‘[https://test.salesforce.com](https://test.salesforce.com "https://test.salesforce.com")’)
    * “Show link after” – Define 30 seconds, this means that if the agent is not logged in to SF, after 30 seconds he will see the message you defined with the link defined above.
