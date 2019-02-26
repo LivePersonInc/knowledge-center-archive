@@ -588,7 +588,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
-
 1. **Issue**: Chat Transcripts are not synced to SF
 
    **Possible causes:**
@@ -602,7 +601,6 @@ These are just a few examples meant to demonstrate how to write these “address
 3. The transcript for converted leads is not accessible.
 4. The widget is not defined as SF Lightning ready.
 
-   **General Recommendation:**
-   * Verify that the latest SFDC integration package is installed (link in the Connection Area):
+   **General Recommendation:** Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
 ![](/img/salesforce-integration-guide-14.png)
