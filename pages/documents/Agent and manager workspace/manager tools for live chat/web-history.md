@@ -21,7 +21,7 @@ The web history is one of the most powerful analytics tools LivePerson has to of
 
 ## Definitions
 
-The Web History includes the following information:
+The web history includes the following information:
 
 * **Start** - The time when the visitor was first connected to the agent (displayed in the visitor’s local time).
 * **MCS** - The Meaningful Connection Score, available for English language analysis.
@@ -34,13 +34,11 @@ The Web History includes the following information:
 
 ## Filter & search
 
-**Filtering** by keywords allows you to locate specific items within the Web History list. Keywords search includes transcript lines, survey questions and answers, engagement attributes, visitor information, MCS and engagement ID. For example:
+**Filtering** by keywords allows you to locate specific items within the web history list. Keywords search includes transcript lines, survey questions and answers, engagement attributes, visitor information, MCS and engagement ID. For example:
 
 * To search for a chat that closed with poor CSAT, you could filter by surveys, and search for the keywords ‘very dissatisfied’.
 * To return to a chat you previously searched, you could use the engagement ID as your keyword and filter by engagement ID.
 * Filtering by start page helps brands to recognize which pages generate more chats and how to tag their pages more effectively.
-
-<br/>
 
 **Search on encrypted transcripts**
 
