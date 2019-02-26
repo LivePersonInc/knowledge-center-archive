@@ -45,7 +45,7 @@ For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file i
 
 **Report Builder report**
 
-**![](https://lh4.googleusercontent.com/8I6iFKGmTJ8yj8onwuWBx9ArH-L0xlJ2qtT01derkCKMLWXxIVYNmFH42DPQVOCSC2qTirfHMqcHPKA-vAbgNdq3qvFQPfkxGwW4LcgSJE26mCCE052amQInkrtil33GmmheafCj =624x159)**
+![](/img/troubleshooting-Reporting1-2.png)
 
 **Exported report totals**
 
