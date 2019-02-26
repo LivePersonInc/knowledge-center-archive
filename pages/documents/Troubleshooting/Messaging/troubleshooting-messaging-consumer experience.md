@@ -23,7 +23,7 @@ This is expected behavior.
 
 ### Mobile app messaging: Number of unread messages isn’t displayed
 
-#### **Issue:
+#### Issue:
 
 The red badge containing the number of unread messages doesn’t always display to in-app messaging consumers using Android devices..
 
@@ -37,7 +37,7 @@ Let’s say you’re a consumer using your Android phone to message with a LiveP
 
 **Scroll down indicator with red badge**
 
-![IMG](https://lh5.googleusercontent.com/lKCHCcTYg0Qju3ULJjbywMpNyQhzpbhGTrfYay7Say3rKkcTEtmDzrI2HCgX1iR2orxHWuvfR9mIdZSgPM7bhnqd2klHLp-W7r-5GYDVW4xwh52Ziiz9ddygP5w0zkXUWUDEzthr =232x411)
+![](/img/troubleshooting-consumer-experience1.png)
 
 #### Cause and solution:
 
@@ -54,7 +54,7 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 **Text visible below UNREAD MESSAGES LINE**
 
-![IMG](https://lh5.googleusercontent.com/Pa0M-rvfRjX225qPWFsDPSxZknobkIgWpVe82oTkyI0TISzdrkKvtOj-8lOG-STf25yZSaQddKVJueQr5rHIbMuFWrQkTuIb0icNZCOGZC7SVvyI0pQECVs2HXr2yYq11gJhRVN1 =241x427)
+![](/img/troubleshooting-consumer-experience2.png)
 
 ### Mobile app messaging: link preview not working on Android
 
@@ -64,13 +64,13 @@ A messaging agent sent a link to a consumer who is using In-app messaging on an 
 
 #### Cause:
 
-The agent sent the URL without the **http://** prefix ([www.mysite.com](http://www.mysite.com) rather than [http://www.mysite.com](http://www.mysite.com "http://www.mysite.com")).
-
-### Our Android SDK requires the the **http://** prefix in order to be able to display the Link Preview.
+The agent sent the URL without the **http://** prefix ([www.mysite.com](http://www.mysite.com) rather than [http://www.mysite.com](http://www.mysite.com "http://www.mysite.com")). Our Android SDK requires the the **http://** prefix in order to be able to display the Link Preview.
 
 #### Solution:
 
 Always include the the **http:// prefix** in URLs that you send when messaging.
+
+![](/img/troubleshooting-consumer-experience3.png)
 
 ### Mobile app messaging: double click doesn’t scroll to last message
 
@@ -86,15 +86,15 @@ How the New Message Mechanism Works
 
 * When there are unread messages the SDK "groups" them into chunks by adding an "X unread messages" notification below the last message read and immediately above the new messages in the flow, just like Whatsapp does.
 * You receive one or more new messages and a red badge with the number of unread messages is displayed on the scroll down indicator.
-* **Scroll down indicator with red badge**
 
-![IMG](https://lh5.googleusercontent.com/rVSz2jFeKd6hO5QBLSEFQfgBkDv2bdrlcZTHgOS621A5mDmlPJoIxOEDopGeRQ9-R31Pzj-wZlBLWmV-TBMb2Wq69pwj9ls8U77-BE1zLaIIQBBXRfHw5kTc2GkIRLRtJ29HWhrG =205x244)
+  **Scroll down indicator with red badge**
 
+  ![](/img/troubleshooting-consumer-experience4.png)
 * You click the scroll down indicator once and it takes you to the “X unread messages' label (displayed immediately above the unread messages).
-* **UNREAD MESSAGES LINE**
 
-![IMG](https://lh3.googleusercontent.com/fS5DE8NvrCWHrp91LhMlIxkn0QvcZLZpaJtaNxgmcBS36_o1pYRbZWzx1ixNchC5DWhH4o-dl1Gkwn6z2Y2Gd201O0bO2jbttu8hxGMos6UyiymjSW2LwYYDYCp9IlOqD1_p-zHV =241x427)
+  **UNREAD MESSAGES LINE**
 
+  ![](/img/troubleshooting-consumer-experience5.png)
 * You click the scroll down indicator (that no longer has the red badge) a second time, its functionality changes, and it takes you to the last message.
 
 ### Why are messages disappearing from a consumer’s messaging window?
