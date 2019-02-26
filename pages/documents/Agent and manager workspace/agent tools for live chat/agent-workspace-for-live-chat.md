@@ -47,7 +47,7 @@ To view more detailed information about a visitor, simply click on the visitor�
 
 ## Handling chats in the agent workspace
 
-The Agent Workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
+The agent workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
@@ -164,22 +164,20 @@ To initiate a CoBrowse session:
 ![](/img/agent-workspace-for-chat-19.png)
 
 {:start="2"}
-
 1. Choose the session type:
    * CoBrowse - View Only enables you to view the visitor’s screen only.
    * CoBrowse - Shared gives you full control over the current browser tab.
 
-The consumer receives a notification asking them to accept the CoBrowse session.
+	The consumer receives a notification asking them to accept the CoBrowse session.
 
 {:start="3"}
-
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
 ![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
-2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the agent workspace
 
@@ -202,9 +200,9 @@ The number of accumulated chats can be seen in the bottom right corner of the pa
 
 ![](/img/agent-workspace-for-chat-10.png)
 
-2\. In the top right corner of the chat window, click the down arrow.
+2. In the top right corner of the chat window, click the down arrow.
 
-3\. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
+3. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
 
 ### To clear all closed chats:
 

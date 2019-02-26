@@ -14,7 +14,7 @@ date: 2019-01-21 11:35:54 +0000
 
 Agent managers have tools at their disposal to monitor agents and ongoing conversations in real time. Managers that are defined in this role (during their user set up), are able to see the messaging agents list.
 
-![](/img/messagentlist1.png)
+![](/img/the-messaging-agents-list-1.png)
 
 The Messaging Agents List gives agent managers full visibility over the performance of their agents in real time, enabling them to effectively manage each shift and identify issues as they happen. Agents with permission to access this list are also able to keep track of their status, capacity and load, as well as those of other agents, helping them to optimize the way they work together as a team.
 
@@ -40,6 +40,6 @@ The list is available in the Visitors tab alongside the [All Agents List](agent-
 
 The columns can be filtered by a number of parameters, including status, agent group, agent name and skill, and sorted by agent name, status, maximum number of open conversations, number of open conversations and load.
 
-![](/img/messagentlist2.png)
+![](/img/the-messaging-agents-list-2.png)
 
-![](/img/messagentlist3.png)
+![](/img/the-messaging-agents-list-3.png)
