@@ -11,7 +11,7 @@ date: 2019-01-21 12:41:14 +0000
 isNew: false
 
 ---
-The Web History is one of the most powerful analytics tools on LiveEngage providing rich, intelligent layers of data that offer deeper insight into agent performance and customer satisfaction.
+The web history is one of the most powerful analytics tools LivePerson has to offer, providing rich, intelligent layers of data that offer deeper insight into agent performance and customer satisfaction.
 
 ![](/img/web-history-1.png)
 

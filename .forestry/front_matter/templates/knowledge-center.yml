@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
@@ -250,7 +251,6 @@ pages:
 - pages/documents/Admin & Settings/create-manage-users.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
-- pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-activity-grid.md
 - pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
