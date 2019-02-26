@@ -183,10 +183,9 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 
 In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the agent workspace.
 
-**This process is recommended in order to streamline the agent’s work and can be achieved in two ways:**
-
-* Clear continuously: The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
-* Clear upon accumulation: The agent periodically clears all the ‘Closed’ chats they have accumulated.
+This process is recommended in order to streamline the agent’s work and can be achieved in two ways:
+* **Clear continuously:** The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
+* **Clear upon accumulation:** The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
 All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the agent workspace without releasing them.
 
