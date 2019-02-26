@@ -579,10 +579,10 @@ These are just a few examples meant to demonstrate how to write these “address
 {:start="3"}
 1. **Issue**: Salesforce widget does not load followed by an error message.
 
-   **Steps for resolving the problem** (guide the customer to do the following)
-   1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-   2. Within SF you must grant access to the relevant objects:
-      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
+   **Steps for resolving the problem** (guide the customer to do the following):
+   	1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+   	2. Within SF you must grant access to the relevant objects:
+      	1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
 4. **Issue**: Salesforce widget does not load followed by an error message.
