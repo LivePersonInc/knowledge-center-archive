@@ -484,16 +484,9 @@ These are just a few examples meant to demonstrate how to write these “address
 * **LivePerson SDK Field:** ```SDE.personalInfo.name```
 * **LivePerson API Field:**```sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
 
-{:start="4"}
-1. For the **Goal Name** value:
-
-**LivePerson SDK Field:**
-
-```campaignInfo.goalName```
-
-**LivePerson API Field:**
-
-```campaign.goalName```
+4. For the **Goal Name** value:
+* **LivePerson SDK Field:** ```campaignInfo.goalName```
+* **LivePerson API Field:** ```campaign.goalName```
 
 {:start="5"}
 1. For the **Visitor Browser** value:
