@@ -156,6 +156,6 @@ Problem:
 
 When attempting to respond to a customer’s message via Apple Business Chat, the agent received the error “Message could not be delivered to the consumer”.
 
-#### Cause and Solution:
+#### Cause and solution:
 
 The consumer had closed (deleted) the iMessage thread on their device; therefore message could not be delivered.
