@@ -1,15 +1,14 @@
 ---
-pagename: Reporting
+pagename: Reporting & data
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
-subtitle: Troubleshooting for all questions in Reporting
+subtitle: Troubleshooting for all questions in reporting & data
 level3: ''
 permalink: troubleshooting-reporting.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 14:03:37 +0200
-published: false
 
 ---
 ### Missing Excel export button in Report Builder
@@ -49,7 +48,7 @@ For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file i
 
 **Exported report totals**
 
-**![](https://lh3.googleusercontent.com/IplCTGLg6-zCkWp_DhC0U7dOlYqM09n-1FCMHDDlFc_l6pQSpG13CIQtH6TKQhCOqKS5mQw2Pk6EWUzUHAsbYz1Y1BMVePNaRIu39hFl9_sUndjJGt5ldoGvY_ziwPGYo-El5rsA =624x56)**
+![](/img/troubleshooting-reporting2.png)
 
 **The reason this happens is**:
 
@@ -129,6 +128,5 @@ Web History contains the transaction details of orders that took place in the sa
 
 **To resolve this issue you should**:
 
-Use BI reports or Report Builder for reporting and tracking SALES (conversions).
-
-Do not use Web History to track conversions – it is not designed for this purpose.
+* Use BI reports or Report Builder for reporting and tracking SALES (conversions).
+* Do not use Web History to track conversions – it is not designed for this purpose.
