@@ -17,8 +17,8 @@ You can access the predefined phrases while you are chatting and, rather than re
 
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are a some examples of categorized predefined responses:
 
-* Closing: Thank you for visiting. Please contact us any time.
-* Conversational: Thank you for waiting.
-* Greeting: Hello, How may I assist you?
+* **Closing:** Thank you for visiting. Please contact us any time.
+* **Conversational:** Thank you for waiting.
+* **Greeting:** Hello, How may I assist you?
 
 ![](/img/pdc overview 1.png)
