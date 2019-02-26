@@ -22,9 +22,7 @@ To add and integrate new widgets, refer to our [adding widgets documentation](ht
 
 Placing widgets in the right order within the agent workspace means you can ensure the most useful widgets are the most easily accessible for agents.
 
-Since every contact center is different, widget reordering allows brands to fully customize the order of the widgets on an account level, for both chat and messaging operations.
-
-The account admin can organize widgets through night vision, including hiding core and custom widgets.
+Since every contact center is different, widget reordering allows brands to fully customize the order of the widgets on an account level, for both chat and messaging operations. The account admin can organize widgets through night vision, including hiding core and custom widgets.
 
 ### **To reorder widgets:**
 
@@ -80,7 +78,7 @@ In the same way, consumers can upload content - such as a product’s web page, 
 
 **For a successful integration, please note the following:**
 
-* The application must be able to open within an iFrame: Some applications prevent themselves from opening within an iFrame (these are known as ‘Frame Busters’). If you try to integrate such an application within an Agent Workspace widget, you will get a blank widget, or an error message in the widget (depending on your browser).
+* **The application must be able to open within an iFrame:** Some applications prevent themselves from opening within an iFrame (these are known as ‘Frame Busters’). If you try to integrate such an application within an Agent Workspace widget, you will get a blank widget, or an error message in the widget (depending on your browser).
 * **Internet Explorer support**: Custom widgets are supported on Internet Explorer 10 and higher only.
 * **The application must be hosted over SSL**: **S**ecure **S**ockets **L**ayer is a protocol that provides network security and privacy. SSL uses trusted certificates to perform client and server authentication. This means your application must be hosted on a valid SSL certificate site and, as part of the application, the URL must begin with **https**.
 * **Automatic focus management may be problematic**: Applications with focus stealing can cause issues in the user interface of the Agent Workspace.
@@ -92,4 +90,4 @@ In the same way, consumers can upload content - such as a product’s web page, 
 
 It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the agent workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place.
 
-For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html)**.**
+For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html) in the Developers Community**.**
