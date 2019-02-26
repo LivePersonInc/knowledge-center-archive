@@ -448,11 +448,12 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 {: .notice}
 **Note:** If you ever change the text in the Display Name of a survey question in LiveEngage – you have to update this mapping too, otherwise the mapping will stop working.
 
-For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
+1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
 
-| LivePerson SDK field | LivePerson API field |
-| --- | --- |
-| surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value | surveys.preChat[displayName=What is your Account Number?].value |
+	**LivePerson SDK Field:** surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value
+
+	**LivePerson API Field:** surveys.preChat[displayName=What is your Account Number?].value
+
 
 **LivePerson SDK Field:** 
 

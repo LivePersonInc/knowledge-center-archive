@@ -134,6 +134,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
+- pages/documents/Troubleshooting/Troubleshooting-live-chat.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
@@ -143,8 +145,6 @@ pages:
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
 - pages/documents/Troubleshooting/troubleshooting.reporting.md
 - pages/documents/Troubleshooting/Troubleshooting-bots.md
-- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
-- pages/documents/Troubleshooting/Troubleshooting-live-chat.md
 - pages/documents/Troubleshooting/Troubleshooting-agent-workspace.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
