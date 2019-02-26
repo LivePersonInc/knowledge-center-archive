@@ -454,8 +454,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 	**LivePerson SDK Field:** 
 
 ```surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value```
-
-	**LivePerson API Field:**
+		**LivePerson API Field:**
 
 ```surveys.preChat\[displayName=What is your Account Number?\].value```
 
