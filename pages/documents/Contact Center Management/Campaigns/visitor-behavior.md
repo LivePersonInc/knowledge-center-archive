@@ -53,7 +53,7 @@ Target and/or exclude consumers from selected entry points on the website or wit
 
 ### 4. About to Abandon:
 
-Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile. 
+Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
 
 **Note:** this behavior is currently only supported for web engagements.
 
@@ -135,9 +135,7 @@ Defining an accurate flow - the sequence of steps a consumer takes on their jour
 
 For example, a consumer may start the checkout process but decide to abandon their shopping cart. Or a user going through a defined process for registering for your newsletter or requesting a loan may give up halfway through. Once you have defined the expected flow for these journeys, you can target consumers who did not browse through all the required steps in the flow, those who browsed to a page or section outside the flow, and/or those who browsed from a later step to an earlier one. This gives you an opportunity to engage consumers and help them complete that process.
 
-Flows can be defined either using sections (for all engagement sources) or individual URLs (for web). This allows brands to choose whether to target consumers on specific website pages or app sections.
-
-This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
+Flows can be defined either using sections (for all engagement sources) or individual URLs (for web). This allows brands to choose whether to target consumers on specific website pages or app sections. This ability to pinpoint steps in the consumer journey and guide consumers through the process means even more effective engagement and improved outcomes for the brand.
 
 ### How to define a new flow:
 
@@ -147,15 +145,15 @@ This ability to pinpoint steps in the consumer journey and guide consumers throu
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
-5. After saving the flow, it will appear in the flows list.
-6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7. Click to save visitor behavior.
+5\. After saving the flow, it will appear in the flows list.
+6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7\. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
