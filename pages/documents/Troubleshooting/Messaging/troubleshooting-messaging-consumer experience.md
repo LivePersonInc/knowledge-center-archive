@@ -9,7 +9,6 @@ permalink: troubleshooting-web-messaging -consumer experience.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 14:39:36 +0200
-published: false
 
 ---
 ### Agent icon not aligned with first line of message on consumer iOS devices
@@ -24,7 +23,7 @@ This is expected behavior.
 
 ### Mobile app messaging: Number of unread messages isn’t displayed
 
-#### **Iss**ue:
+#### **Issue:
 
 The red badge containing the number of unread messages doesn’t always display to in-app messaging consumers using Android devices..
 
@@ -61,7 +60,7 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 #### Issue:
 
-### A messaging agent sent a link to a consumer who is using In-app messaging on an Android phone. The consumer receives the URL but the link preview (preview of the web page) doesn’t display on the consumer’s device.
+A messaging agent sent a link to a consumer who is using In-app messaging on an Android phone. The consumer receives the URL but the link preview (preview of the web page) doesn’t display on the consumer’s device.
 
 #### Cause:
 
@@ -77,7 +76,7 @@ Always include the the **http:// prefix** in URLs that you send when messaging.
 
 #### Issue:
 
-### When there is an unread message counter (red badge) on the scroll down indicator /shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
+When there is an unread message counter (red badge) on the scroll down indicator /shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
 
 #### Cause and solution:
 
@@ -135,7 +134,7 @@ The brand was sending the customerId SDE with a value from an unauthenticated pa
 
 #### Solution:
 
-#### When a visitor logs out (or moves to an unauthenticated page) in the middle of a conversation, the customerId SDE attribute should be reset to null ("").
+When a visitor logs out (or moves to an unauthenticated page) in the middle of a conversation, the customerId SDE attribute should be reset to null ("").
 
 **Why aren’t some of our messaging agents receiving messages?**
 
@@ -159,4 +158,4 @@ When attempting to respond to a customer’s message via Apple Business Chat, th
 
 #### Cause and Solution:
 
-#### The consumer had closed (deleted) the iMessage thread on their device; therefore message could not be delivered.
+The consumer had closed (deleted) the iMessage thread on their device; therefore message could not be delivered.
