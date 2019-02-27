@@ -134,7 +134,8 @@ These settings allow you to choose which fields of each object will be available
 * Click “Add Field Mapping” to get started.
 * Fill out the following fields to complete your field mapping:
   * Choose a SF Field Name
-  * Choose ‘Editability’ mode. **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
+  * Choose ‘Editability’ mode. 
+  **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
   * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (PreChat Survey, PostChat Survey, Extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
   * Include in Overview - within the Choose this is you want the field to appear in the bubble widget (The bubble appears when clicking ‘i’ next to the Account/Contact from the main Search screen of the widget). **Note:** Only the first 5 fields will be shown in the bubble
   * Required - Setting the field as mandatory when creating or editing the record.
