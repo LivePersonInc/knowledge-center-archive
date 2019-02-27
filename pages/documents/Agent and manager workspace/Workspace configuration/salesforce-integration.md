@@ -463,9 +463,7 @@ LiveEngage has a wide (and constantly growing) list of parameters for different 
 
 Those fields are arranged in a hierarchical structure described on both WebApp SDK and Engagement History API documents (there are slight differences in those structures but most of the content is similar).
 
-Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account id from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the WebApp SDK.
-
-Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
+Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account id from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the WebApp SDK. Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
@@ -508,7 +506,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Q:** Why is the Search box not pre-populated with values (Names, Email, etc')?
 
 **A:** Please verify the following:
-
 * On the Customization Settings tab, you chose Selected Skills, and that under Advanced Settings > 		Configure Skills, you selected the parameters you want to prepopulate the search for each of them.
 * The parameters you selected to pre-populate with indeed exist for your chat/messaging conversation (use Visitor Info widget to check).
 * Check that “Disable On Load Auto Search” is unchecked in the on the top part of the Customization Settings.
@@ -520,7 +517,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Q:** Why aren’t I able to use the widget and get an error: “The Skill is missing. Contact your system administrator”
 
 **A:** Please verify the following:
-
 * Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
 * Your chat/messaging conversation is assigned to a Skill (easily check using the “Visitor Info” widget to verify that).
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
