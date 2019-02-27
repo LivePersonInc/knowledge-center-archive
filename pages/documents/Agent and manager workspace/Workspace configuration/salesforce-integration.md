@@ -136,7 +136,7 @@ These settings allow you to choose which fields of each object will be available
   * Choose a SF Field Name
   * Choose ‘Editability’ mode. 
   **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
-  * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (PreChat Survey, PostChat Survey, Extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
+  * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (pre-chat survey, post-chat survey, extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
   * Include in Overview - within the Choose this is you want the field to appear in the bubble widget (The bubble appears when clicking ‘i’ next to the Account/Contact from the main Search screen of the widget). **Note:** Only the first 5 fields will be shown in the bubble
   * Required - Setting the field as mandatory when creating or editing the record.
   * Default Value - Set up a fixed default text value for a field (will be editable by the agent).
@@ -431,7 +431,7 @@ In case you are using both chat and messaging within your LiveEngage, the field 
 
 Using each object’s Field Mapping, you can choose to map LiveEngage fields/parameters to Salesforce Fields, both for Pre-Population of new record forms, or for saving information to the chat transcript record itself.
 
-When adding a Field Mapping, you can choose to use one of LiveEngage predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the PreChat Survey Custom Questions, PostChat Survey Questions, Agent Survey or different engagement attributes.
+When adding a Field Mapping, you can choose to use one of LiveEngage predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the pre-chat survey custom questions, post-chat survey questions, agent survey or different engagement attributes.
 
 To use “Other,” you need to manually populate two fields: one is the address of your parameter in our LivePerson SDK Field (The API used on the widget/client side of our package) and one is our LivePerson API Field (The API used on the back-end sync process of our package).
 
@@ -450,7 +450,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 * **LivePerson SDK Field:** `surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value`
 * **LivePerson API Field:** `surveys.preChat[displayName=What is your Account Number?].value`
 
-2. For a **custom post chat survey question** with the text “How would you rate us?” use the following:
+2. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 * **LivePerson SDK Field:** `surveyQuestions.postChat[displayName=How would you rateus?].value`
 * **LivePerson API Field:** `surveys.postChat[displayName=How would you rate us?].value`
 
