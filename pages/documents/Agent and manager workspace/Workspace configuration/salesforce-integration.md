@@ -8,6 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
+published: false
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -57,15 +58,12 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 ![](/img/salesforce-integration-guide-3.png)
 
 {:start="2"}
-
 1. “Step 1: Account Information” – Enter the relevant Account ID.
 2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account.
    1. Go to “Campaigns” Tab and search for the link “Data Sources.”
    2. Go to “API” Tab and click “Manage” and then “New.”
    3. Fill in the App Name: “SFDC Integration,” Developer:“LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement 		History” and “Administrations” > “Skills” and click “Save.”
    4. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
-
-{:start="3"}
 3. “Step 3: Legal Disclaimer” – Read the terms of use and check the “I have read and agree to these terms.”
 4. “Step 4: Activation” – Click “Activate.”
 
@@ -92,6 +90,7 @@ This section sets out the Salesforce objects for which we would like the widget 
 **Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
 
 {:start="2"}
+
 1. From the “Customization Settings” tab, scroll down to the “Skills” section.
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
 3. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
@@ -283,14 +282,12 @@ Now that you’ve configured your LiveEngage App in Salesforce, it’s time to g
 Replace **XXXX** with your SF domain (for example: “na3”, “ap02”, “eu01” or “cs23” for a sandbox – the farm and instance is the same as the one you see on your domain when using salesforce: “[https://eu2.salesforce.com](https://eu2.salesforce.com "https://eu2.salesforce.com")”).
 
 **Note:** If your Salesforce org has **My Domain** feature activated, the URL for the widget should include it same as your regular URL does, and should look like this:
-
 https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 
 {: .notice}
 **Tip:** From the Customization Settings tab, you can copy the first part of the URL and add to it the “ChatLink” suffix in order to ensure you are using the correct link:
 
 {:start="7"}
-
 1. Open the “Advanced settings for LivePerson integration SDK”
    * Define the following URL under ‘In case widget didn't load, display the following link’- ‘[https://login.salesforce.com](https://login.salesforce.com "https://login.salesforce.com")’ (or ‘[https://test.salesforce.com](https://test.salesforce.com "https://test.salesforce.com")’)
    * “Show link after” – Define 30 seconds, this means that if the agent is not logged in to SF, after 30 seconds he will see the message you defined with the link defined above.
@@ -300,6 +297,7 @@ https://mydomain--liveengage.**XXXX**.visual.force.com/apex/ChatLink
 ## **User guide**
 
 Below is an overview of the widget capabilities, in this section, we will cover the following topics:
+
 * Introducing the Salesforce widget
 * Creating an account
 * Creating a contact from
@@ -449,58 +447,16 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 **Note:** If you ever change the text in the Display Name of a survey question in LiveEngage – you have to update this mapping too, otherwise the mapping will stop working.
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
+* **LivePerson SDK Field:** `surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value`
+* **LivePerson API Field:** `surveys.preChat[displayName=What is your Account Number?].value`
 
-	**LivePerson SDK Field:** surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value
+2. For a **custom post chat survey question** with the text “How would you rate us?” use the following:
+* **LivePerson SDK Field:** `surveyQuestions.postChat[displayName=How would you rateus?].value`
+* **LivePerson API Field:** `surveys.postChat[displayName=How would you rate us?].value`
 
-	**LivePerson API Field:** surveys.preChat[displayName=What is your Account Number?].value
-
-
-**LivePerson SDK Field:** 
-
-```surveyQuestions.preChat.customizedQuestions\[displayName=What is your Account Number?\].value```
-
-**LivePerson API Field:**
-
-```surveys.preChat\[displayName=What is your Account Number?\].value```
-
-**LivePerson SDK Field:**
-
-```surveyQuestions.postChat\[displayName=How would you rate us?\].value```
-
-**LivePerson API Field:**
-    
-```surveys.postChat\[displayName=How would you rate us?\].value```
-
-{:start="2"}
-1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
-
-**LivePerson SDK Field:**
-
-```surveyQuestions.postChat\[displayName=How would you rate us?\].value```
-
-**LivePerson API Field:**
-
-```surveys.postChat\[displayName=How would you rate us?\].value```
-
-{:start="3"}
-3. **LivePerson SDK Field:**
-
-```surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value```
-
-**LivePerson API Field:**
-
-```surveys.operator\[displayName=Was the customer satisfied?\].value```
-
-{:start="4"}
-1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
-
-**LivePerson SDK Field:**
-
-```surveyQuestions.agentSurvey\[displayName=Was the customer satisfied?\].value```
-
-**LivePerson API Field:**
-
-```surveys.operator\[displayName=Was the customer satisfied?\].value```
+3. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
+* **LivePerson SDK Field:** `surveyQuestions.agentSurvey[displayName=Was the customer satisfied?].value`
+* **LivePerson API Field:** `surveys.operator[displayName=Was the customer satisfied?].value`
 
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
 
@@ -515,69 +471,28 @@ Some of those are actually arrays of objects, which you can either turn to by a 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
 1. For a the **Chat Start Time** value:
+* **LivePerson SDK Field:** `chatInfo.chatStartTime`
+* **LivePerson API Field:** `info.startTime`
 
-**LivePerson SDK Field:**
+2. For a **Customer Type** value:
+* **LivePerson SDK Field:** `SDE.customerDetails.type`
+* **LivePerson API Field:** `sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType`
 
-```chatInfo.chatStartTime```
+3. For the **Visitor’s** **Name** value:
+* **LivePerson SDK Field:** `SDE.personalInfo.name`
+* **LivePerson API Field:** `sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
-**LivePerson API Field:**
+4. For the **Goal Name** value:
+* **LivePerson SDK Field:** `campaignInfo.goalName`
+* **LivePerson API Field:** `campaign.goalName`
 
-```info.startTime```
+5. For the **Visitor Browser** value:
+* **LivePerson SDK Field:** `visitorInfo.browser`
+* **LivePerson API Field:** `visitorInfo.browser`
 
-{:start="2"}
-1. For a **Customer Type** value:
-
-**LivePerson SDK Field:**
-
-```SDE.customerDetails.type```
-
-**LivePerson API Field:**
-
-```sdes.events\[sdeType=CUSTOMER_INFO\].customerInfo.customerInfo.customerType```
-
-{:start="3"}
-1. For the **Visitor’s** **Name** value:
-
-**LivePerson SDK Field:**
-
-```SDE.personalInfo.name```
-
-**LivePerson API Field:**
-
-```sdes.events\[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name```
-
-{:start="4"}
-1. For the **Goal Name** value:
-
-**LivePerson SDK Field:**
-
-```campaignInfo.goalName```
-
-**LivePerson API Field:**
-
-```campaign.goalName```
-
-{:start="5"}
-1. For the **Visitor Browser** value:
-
-**LivePerson SDK Field:**
-
-```visitorInfo.browser```
-
-**LivePerson API Field:**
-
-```visitorInfo.browser```
-
-{:start="6"}
-1. For the **Marketing** **Affiliate** value:
-
-**LivePerson SDK Field:**
-
-```SDE.marketingSource.affiliate```
-
-**LivePerson API Field:**
-
-```sdes.events\[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate```
+6. For the **Marketing** **Affiliate** value:
+* **LivePerson SDK Field:** `SDE.marketingSource.affiliate`
+* **LivePerson API Field:** `sdes.events[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate`
 
 ## **Appendix #2: Troubleshooting**
 
@@ -660,23 +575,22 @@ These are just a few examples meant to demonstrate how to write these “address
 {:start="3"}
 1. **Issue**: Salesforce widget does not load followed by an error message.
 
-   **Steps for resolving the problem** (guide the customer to do the following)
-   1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
-   2. Within SF you must grant access to the relevant objects:
-      1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
+   **Steps for resolving the problem** (guide the customer to do the following):
+	1. Login using a SF admin user. If this works, that means a permission is missing for the SF user profile.
+	2. Within SF you must grant access to the relevant objects:
+		1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
 4. **Issue**: Salesforce widget does not load followed by an error message.
-
-**Observation:** missing Salesforce configuration; skill is not associated with an object.
+	
+    **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
-
 1. **Issue**: Chat Transcripts are not synced to SF
-
+   
    **Possible causes:**
-   1. Scheduled sync jobs need to be defined
-   2. Job is defined, but the SF user is inactive
+   * Scheduled sync jobs need to be defined
+   * Job is defined, but the SF user is inactive
 
 ### **Known limitations**
 
@@ -685,7 +599,6 @@ These are just a few examples meant to demonstrate how to write these “address
 3. The transcript for converted leads is not accessible.
 4. The widget is not defined as SF Lightning ready.
 
-   **General Recommendation:**
-   * Verify that the latest SFDC integration package is installed (link in the Connection Area):
+   **General Recommendation:** Verify that the latest SFDC integration package is installed (link in the Connection Area):
 
 ![](/img/salesforce-integration-guide-14.png)
