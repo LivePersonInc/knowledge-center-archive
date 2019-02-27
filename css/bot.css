@@ -3,11 +3,46 @@
 }
 
 .caseyText {
-  width: 60%;
+  width: 40%;
   background-color: #090809;
   color: #D3D0CB;
   border-radius: 21px;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.lp-json-pollock {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lp-json-pollock-layout {
+  border-radius: 4px;
+  display: flex;
+  max-width: unset !important;
+  border: none;
+  flex-wrap: wrap;
+  border: none !important;
+  width: 60% !important;
+}
+
+.lp-json-pollock-element-button {
+  border: solid 1px #d4d4d5;
+  width: 40% !important;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.lp-json-pollock-element-text {
+  border: none !important;
+  width: 100%;
+}
+
+
+.lp-json-pollock .lp-json-pollock-element-button button {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 16px;
+  font-family: Open Sans;
 }

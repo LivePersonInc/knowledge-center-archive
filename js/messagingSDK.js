@@ -14,6 +14,10 @@ windowKit.onAgentRichContentEvent(function(content) {
   var structuredText = JsonPollock.render(content);
 	$('#caseyContainer').append(structuredText);
 	console.log('Agent: ', structuredText);
+	$('.lp-json-pollock-element-button').on('click', function () {
+		var scText = $(this).text();
+		windowKit.sendMessage(scText);
+	});
 });
 
 windowKit.onVisitorTextEvent(function(text){
@@ -22,14 +26,5 @@ windowKit.onVisitorTextEvent(function(text){
 });
 
 $(document).ready(function () {
-  // var currentMessages = document.getElementByClassName
-  var messageInput = document.getElementById('messageInput');
-  $('#messageInput').keydown(function (e) {
-    if (e.which == 13) {
-      var messageText = messageInput.value;
-      windowKit.sendMessage(messageText);
-      console.log('enter');
-      console.log(messageText);
-    }
-  });
+
 });
