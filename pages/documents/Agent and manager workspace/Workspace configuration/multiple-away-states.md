@@ -19,9 +19,7 @@ By seeing how long agents are spending in these more specific modes, such as out
 
 ## To create custom away state reasons:
 
-1. Access the Night Vision settings by clicking on the **Night Vision icon** to the top right of the screen.
-
-![](/img/multiple-away-states-1.png)
+1. Access the Night Vision settings by clicking on the **Night Vision icon** to the top right of the screen.![](/img/multiple-away-states-1.png)
 
 {:start="2"}
 
