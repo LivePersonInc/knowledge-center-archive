@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-28 13:55:33 +0200
 
 ---
-### Visitors aren’t receiving messages from our agents; on the agent-side, sent messages in red
+### Visitors aren’t receiving messages from our agents; on the agent-side, sent messages are in red
 
 #### Issue:
 
@@ -140,7 +140,7 @@ Do not exceed the supported length of messages, as detailed below:
 * SMS: maximum 1600 characters for agent or consumer messages
 * Facebook: maximum 640 characters for an agent message and 5000 characters for a Facebook user message
 
-### Value of AWAY and ONLINE are identical for some Messaging Agents in the reports
+### The value of AWAY and ONLINE are identical for some Messaging Agents in the reports
 
 #### Issue:
 
