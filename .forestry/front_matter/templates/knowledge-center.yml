@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Troubleshooting/Troubleshooting-live-chat.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
