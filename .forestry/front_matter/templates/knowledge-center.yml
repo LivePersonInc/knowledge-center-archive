@@ -134,6 +134,10 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
+- pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
+- pages/documents/Troubleshooting/Support/Case-management-support.md
+- pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Troubleshooting/Troubleshooting-live-chat.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
@@ -141,7 +145,6 @@ pages:
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
 - pages/documents/Troubleshooting/troubleshooting-login-password.md
-- pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Contact Center Management/Campaigns/entry-point.md
 - pages/documents/Troubleshooting/troubleshooting.reporting.md
 - pages/documents/Troubleshooting/Troubleshooting-bots.md
@@ -164,7 +167,6 @@ pages:
 - pages/documents/What's New/february-2019.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Contact Center Management/Campaigns/campaign-settings.md
-- pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
 - pages/documents/Contact Center Management/Live chat operations/agent-groups-workload-distribution.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-conversation-distribution.md

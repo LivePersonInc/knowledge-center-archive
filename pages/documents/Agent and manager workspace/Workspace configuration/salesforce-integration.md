@@ -8,7 +8,6 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: false
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
@@ -135,8 +134,9 @@ These settings allow you to choose which fields of each object will be available
 * Click “Add Field Mapping” to get started.
 * Fill out the following fields to complete your field mapping:
   * Choose a SF Field Name
-  * Choose ‘Editability’ mode. **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
-  * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (PreChat Survey, PostChat Survey, Extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
+  * Choose ‘Editability’ mode. 
+  **Note:** Editability mode may sometimes be enforced according to your SF settings and permissions.
+  * LivePerson Field Name - Choose a LP value only if you want this field to be prepopulated with one. Choose “Other" to manually configure a specific LP Value not included in the list (pre-chat survey, post-chat survey, extra SDEs, etc…) – See Appendix #1 for advanced instructions on how to set this.
   * Include in Overview - within the Choose this is you want the field to appear in the bubble widget (The bubble appears when clicking ‘i’ next to the Account/Contact from the main Search screen of the widget). **Note:** Only the first 5 fields will be shown in the bubble
   * Required - Setting the field as mandatory when creating or editing the record.
   * Default Value - Set up a fixed default text value for a field (will be editable by the agent).
@@ -431,7 +431,7 @@ In case you are using both chat and messaging within your LiveEngage, the field 
 
 Using each object’s Field Mapping, you can choose to map LiveEngage fields/parameters to Salesforce Fields, both for Pre-Population of new record forms, or for saving information to the chat transcript record itself.
 
-When adding a Field Mapping, you can choose to use one of LiveEngage predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the PreChat Survey Custom Questions, PostChat Survey Questions, Agent Survey or different engagement attributes.
+When adding a Field Mapping, you can choose to use one of LiveEngage predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the pre-chat survey custom questions, post-chat survey questions, agent survey or different engagement attributes.
 
 To use “Other,” you need to manually populate two fields: one is the address of your parameter in our LivePerson SDK Field (The API used on the widget/client side of our package) and one is our LivePerson API Field (The API used on the back-end sync process of our package).
 
@@ -450,7 +450,7 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 * **LivePerson SDK Field:** `surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value`
 * **LivePerson API Field:** `surveys.preChat[displayName=What is your Account Number?].value`
 
-2. For a **custom post chat survey question** with the text “How would you rate us?” use the following:
+2. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
 * **LivePerson SDK Field:** `surveyQuestions.postChat[displayName=How would you rateus?].value`
 * **LivePerson API Field:** `surveys.postChat[displayName=How would you rate us?].value`
 
@@ -464,9 +464,7 @@ LiveEngage has a wide (and constantly growing) list of parameters for different 
 
 Those fields are arranged in a hierarchical structure described on both WebApp SDK and Engagement History API documents (there are slight differences in those structures but most of the content is similar).
 
-Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account id from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the WebApp SDK.
-
-Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
+Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account id from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the WebApp SDK. Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
@@ -509,7 +507,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Q:** Why is the Search box not pre-populated with values (Names, Email, etc')?
 
 **A:** Please verify the following:
-
 * On the Customization Settings tab, you chose Selected Skills, and that under Advanced Settings > 		Configure Skills, you selected the parameters you want to prepopulate the search for each of them.
 * The parameters you selected to pre-populate with indeed exist for your chat/messaging conversation (use Visitor Info widget to check).
 * Check that “Disable On Load Auto Search” is unchecked in the on the top part of the Customization Settings.
@@ -521,7 +518,6 @@ These are just a few examples meant to demonstrate how to write these “address
 **Q:** Why aren’t I able to use the widget and get an error: “The Skill is missing. Contact your system administrator”
 
 **A:** Please verify the following:
-
 * Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
 * Your chat/messaging conversation is assigned to a Skill (easily check using the “Visitor Info” widget to verify that).
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
