@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 html {
@@ -1069,6 +1070,11 @@ ul.mysidebar.nav > li:first-of-type {
 #feedback .notice::before {
   content: "\f059";
   color: black;
+}
+
+a.solitary {
+  text-decoration: none;
+  color: #5f6368;
 }
 
 /* media queries begin, abandon all hope ye who enter here */
