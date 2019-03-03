@@ -42,7 +42,7 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
-{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html). 
+{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html).
 
 ## Step 2: Implement automation and build a bot
 
@@ -74,10 +74,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 Once your bot is hosted, running, and connected in the Conversation Manager, the next step is to assign conversations to the bot.
 
-There are two ways to do this.
-
-1. **Maven - LivePerson’s AI engine**. Route consumers to one or two skills and let LivePerson’s AI engine, Maven, automatically determine which bot is applicable to the conversation at hand. Skills are more generic and they are assigned to human agents. Maven then determines the applicability of a bot based upon conversational context. The human agent uses Maven’s recommendations to bring in a bot.
-2. **Assign bots to specific skills** - Create skills for different uses cases. All conversations routed to a specific bot skill will automatically be assigned to that bot first, and routed to a human after if needed.
+**How to assign bots to specific skills** - Create skills for different uses cases. All conversations routed to a specific bot skill will automatically be assigned to that bot first, and routed to a human after if needed.
 
 ## Step 4: Monitor and report bot performance
 
