@@ -223,7 +223,7 @@
         - pagename: IP restriction
         - pagename: Whitelist your domains for LP monitoring
     - subcategoryname: LivePerson disaster recovery
-    - subcategoryname: HIPPA compliance
+    - subcategoryname: HIPAA compliance
     - subcategoryname: Secure forms
       pages:
         - pagename: Secure forms for messaging user guide
@@ -235,6 +235,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: February 2019
     - subcategoryname: January 2019
     - subcategoryname: December 2018
     - subcategoryname: November 2018
