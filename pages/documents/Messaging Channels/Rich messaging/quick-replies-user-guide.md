@@ -97,14 +97,14 @@ Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpT
 
 ![](/img/Quickr3 (1).png)
 
-### **Virtual agent**
+### Virtual agent
 
 You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html).
 
 1. For more general information about using the SDK to integrate bots, [please refer to the Solution’s documentation](https://developers.liveperson.com/products-customer-facing-bots-overview.html).
 2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository:  [Example](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies)
 
-### **JSON builder**
+### JSON builder
 
 Create a JSON builder component to populate your JSON scaffolding. This tool can be constructed using your preferred method of development but needs to adhere to our quick replies schema and model.
 
@@ -122,7 +122,7 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 1. Use quick replies to prompt for specific next steps, or use them as answers for surveys or conversational forms.
 2. Use short texts in the chip's title - be brief and precise.
 3. If you wish the agent to be able to follow on the consumer's clicks, we recommend adding publish text click-event to each chip. The publish-text click-event will add a message to the transcript on behalf of the consumer, which will be available for the agent to follow.
-4. Don't use quick replies if you wish to let consumers use them more than once. Quick Replies disappear after a chip was clicked (or consumer made another action in the conversation window). Use [Structured Content templates](http://localhost:4000/rich-messaging-structured-content-card.html) instead as they stay persistent in the conversation.
+4. Don't use quick replies if you wish to let consumers use them more than once. Quick Replies disappear after a chip was clicked (or consumer made another action in the conversation window). Use Structured Content templates instead as they stay persistent in the conversation.
 
 ## Notes
 
