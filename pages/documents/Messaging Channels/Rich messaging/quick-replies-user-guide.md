@@ -84,7 +84,7 @@ Each quick replies chip is based on a structured content button which means it c
 1. Click Operation: with actions (link, navigate and publish text) and metadata.
 2. Styling and Branding Elements
 
-Build your quick replies bundles using the JSON specification in the [Developers’ Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html).
+Build your quick replies bundles using the JSON specification in the [Developers’ Community.](https://developers.liveperson.com/quick-replies-introduction-to-quick-replies.html#quick-reply-templates)
 
 ### Usage
 
