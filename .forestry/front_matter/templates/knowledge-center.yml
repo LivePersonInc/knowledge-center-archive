@@ -134,9 +134,10 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Getting Started/getting-started-with-bots.md
+- pages/documents/Troubleshooting/Support/Case-management-support.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
-- pages/documents/Troubleshooting/Support/Case-management-support.md
 - pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Troubleshooting/Troubleshooting-live-chat.md
@@ -174,7 +175,7 @@ pages:
 - pages/documents/Contact Center Management/Live chat operations/queue-prioritization-for-live-chat.md
 - pages/documents/Security & Regulations/Security/IP-restriction.md
 - pages/documents/Security & Regulations/Security/ip-address-blocking.md
-- pages/documents/Security & Regulations/hipaa.md
+- pages/documents/Security & Regulations/HIPAA.md
 - pages/documents/Security & Regulations/sso-unified-login.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/all-connections.md
 - pages/documents/Admin & Settings/set-the-time-zone.md
@@ -185,7 +186,6 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Contact Center Management/Campaigns/engagement-window.md
-- pages/documents/Getting Started/getting-started-with-bots.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Release Notes/September/week-of-september-24th.md
 - pages/documents/Release Notes/September/week-of-september-17th.md

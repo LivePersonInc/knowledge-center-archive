@@ -73,10 +73,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 Once your bot is hosted, running, and connected in the Conversation Manager, the next step is to assign conversations to the bot.
 
-There are two ways to do this.
-
-1. **Maven - LivePerson’s AI engine**. Route consumers to one or two skills and let LivePerson’s AI engine, Maven, automatically determine which bot is applicable to the conversation at hand. Skills are more generic and they are assigned to human agents. Maven then determines the applicability of a bot based upon conversational context. The human agent uses Maven’s recommendations to bring in a bot.
-2. **Assign bots to specific skills** - Create skills for different uses cases. All conversations routed to a specific bot skill will automatically be assigned to that bot first, and routed to a human after if needed.
+**How to assign bots to specific skills** - Create skills for different uses cases. All conversations routed to a specific bot skill will automatically be assigned to that bot first, and routed to a human after if needed.
 
 ## Step 4: Monitor and report bot performance
 
