@@ -102,7 +102,7 @@ Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpT
 You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html).
 
 1. For more general information about using the SDK to integrate bots, [please refer to the Solution’s documentation](https://developers.liveperson.com/products-customer-facing-bots-overview.html).
-2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository: [example 1](https://github.com/LivePersonInc/node-agent-sdk#example-sending-text-with-quick-replies) and [example 2](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies).
+2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository:  [Example](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies)
 
 ### **JSON builder**
 
