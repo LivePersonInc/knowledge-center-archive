@@ -21,7 +21,7 @@ These release notes include new features arriving to LiveEngage during December 
 
 ### Maximum wait time in queue metric in real-time dashboard
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -80,7 +80,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Abandon Segments Rate (%)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -131,7 +131,7 @@ Only available in the “Today from X” section and “Skills” section. In bo
 
 ### Google website translator
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -184,7 +184,7 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ## New source filter options (MCS toolkit)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -242,7 +242,7 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 ### Load calculation issue (Real-time Dashboard)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -277,7 +277,7 @@ The overall Agent Load % in the CURRENT section of the Realtime Dashboard was in
 
 ### Admin user permission issue (Real-time Dashboard)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

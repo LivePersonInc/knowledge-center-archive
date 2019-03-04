@@ -4,10 +4,6 @@
   width: 40%;
 }
 
-.botcontent {
-  flex-direction: column;
-}
-
 .caseyText {
   width: 87%;
   background-color: #090809;
@@ -22,6 +18,14 @@
 }
 
 .caseyText + .caseyText {
+  margin-top: 30px;
+}
+
+.consumerText + .caseyText {
+  margin-top: 30px;
+}
+
+.caseyText + .consumerText {
   margin-top: 30px;
 }
 
@@ -80,10 +84,40 @@
   color: #fff !important;
 }
 
+.lp-json-pollock-layout-carousel .lp-json-pollock-layout {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-image {
+  grid-column: 1 / span 2;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-button {
+  grid-column: 1 / span 2;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-text {
+  text-align: center;
+}
+
 .consumerText {
   align-self: flex-end;
   background-color: #C8D0E9;
   color: #442261;
   border-radius: 21px;
   padding: 10px 20px 10px 20px;
+}
+
+#bottomLink {
+  cursor: pointer;
+}
+
+#messageInput {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#messageInputUsed {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

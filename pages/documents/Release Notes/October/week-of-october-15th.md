@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Queue visibility in Realtime Dashboard and in the KPI bar in All connections
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -64,7 +64,7 @@ Actionable conversations metric is also available via Messaging Operations API s
 
 ### Push Notification Proxy - Self Service (LE-89348)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -97,13 +97,13 @@ Actionable conversations metric is also available via Messaging Operations API s
 
 {: .notice}
 
-This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment. This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources. Further details are available on the [LivePerson's Developers Community site](https://developers.liveperson.com/push-notification-service-overview.html). 
+This functionality enables the configuration of a push notification proxy through the LiveEngage UI, which was previously configured through R&D and required a service deployment. This functionality is enabled by default to all customers through the Mobile app management section, under Data Sources. Further details are available on the [LivePerson's Developers Community site](https://developers.liveperson.com/push-notification-service-overview.html).
 
 ![](/img/week-of-october-15th-2018-2.png)
 
 ### Predefined Content & Content Categories - Audit Trail (AE-110)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -153,7 +153,7 @@ This feature requires enablement ​- please contact your LivePerson account tea
 
 ### Intelligent Routing Queue Delivery (back-end messaging-server)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -188,7 +188,7 @@ This feature requires enablement ​- please contact your LivePerson account tea
 
 Sorting business rules are defined in site settings under property in site settings: messaging.routing.sorting.queue.definitions - definition is JSON based rules
 
-**What is the outcome of defining business rules?** 
+**What is the outcome of defining business rules?**
 
 Every rule is producing a 'velocity' for conversation. Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
 
@@ -334,7 +334,7 @@ Json Example :
 
 ### Shift status REST API (91371, 91374, 91373, 91388)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -466,7 +466,7 @@ While the agent workspace UI does some validations on permissions, these should 
 
 ### Add unauthenticated consumerId to Agent widget SDK (AE-463)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -503,7 +503,7 @@ This new field will contain all engagement attributes and ACR (authentication le
 
 ### Post conversation survey - Audit Trail (LE-93260)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -550,7 +550,7 @@ This feature requires enablement ​- please contact your LivePerson account tea
 
 ### LOBs External API - Add keys (AE-405)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -605,7 +605,7 @@ This feature is enabled by default to all customers.
 
 ### Offline survey email settings (LE-94582)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -650,7 +650,7 @@ The settings are only applicable for a non-default engagement window, i.e. it is
 
 ### Send PDC-id to UMS on publish message (LE-91761)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -685,7 +685,7 @@ In order to support reporting on predefined content usage for messaging (as exis
 
 ### Expose unauthenticated consumer ID in consumer profile for back-end messaging server (92875)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -743,7 +743,7 @@ Upgrade Jetty version to latest stable (9.4.10)
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (AE-473)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -778,7 +778,7 @@ On Agent widget SDK: bind to chatInfo does not always return "chatInfo.chatSkill
 
 ### Typing in the studio preview URL field generates errors in the console within campaign manager (LE-83481)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

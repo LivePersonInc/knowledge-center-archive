@@ -39,6 +39,8 @@ p + ul {
   list-style-type: lower-roman;
 }
 
+
+
 #post-content table {
   width: 100%;
   max-width: 130%;
@@ -100,7 +102,23 @@ p + ul {
   border-right: 0;
 }
 
+table.releasenotes {
+  table-layout: fixed;
+}
 
+#post-content table.releasenotes > thead > tr > th {
+  width: 80px;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+#post-content table.releasenotes > thead > tr > td {
+  padding: 13px 25.5px 13px 23px;
+}
+
+#post-content table.releasenotes > thead > tr > td:first-child {
+  font-weight: normal;
+}
 
 p img {
   margin: 0 auto;

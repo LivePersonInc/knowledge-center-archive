@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Secure form (PCI) support for SMS using Twilio messaging gateway (94882)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

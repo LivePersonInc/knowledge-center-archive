@@ -3,8 +3,7 @@ pagename: Getting started with bots
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
-subtitle: Learn how to get started building a bot with everything from creating a
-  use case, choosing a host and connecting conversations.
+subtitle: Learn how to get started building a bot with everything from creating a use case, choosing a host and connecting conversations.
 level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
@@ -42,7 +41,7 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
-{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html). 
+{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html).
 
 ## Step 2: Implement automation and build a bot
 

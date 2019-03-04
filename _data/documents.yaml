@@ -19,7 +19,7 @@
       pages:
         - pagename: Add messaging to your mobile app
         - pagename: Mobile app messaging FAQs
-        - pagename: Enhance mobile app messaging
+        - pagename: Mobile app messaging capabilities
     - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:
@@ -54,32 +54,6 @@
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
-        - pagename: Getting started
-          level3:
-            - level3name: Create a new bot
-            - level3name: "Intents & integrations"
-            - level3name: Connect to LivePerson
-        - pagename: Components
-          level3:
-            - level3name: Conversation Builder
-            - level3name: Interactions
-            - level3name: Conditions
-            - level3name: Conversation Builder assistant
-            - level3name: Intent builder
-            - level3name: Entities
-            - level3name: Knowledge base
-        - pagename: Routing bot
-          level3:
-            - level3name: Introduction
-            - level3name: "Step 1: Create a router bot"
-            - level3name: "Step 2: Modify the template"
-            - level3name: "Step 3: Intents"
-            - level3name: "Step 4: Escalation"
-        - pagename: FAQ bot
-          level3:
-            - level3name: Introduction
-            - level3name: "Step 1: Create a knowledge base"
-            - level3name: "Step 2: Build an FAQ bot"
     - subcategoryname: Post conversation survey
 
 - categoryname: Contact center management
@@ -135,7 +109,7 @@
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
-        - pagename: "Introduction to agents: working with asynchronous messaging"
+        - pagename: Working with asynchronous messaging
         - pagename: Agent workspace for messaging tour
         - pagename: Workspace basics
         - pagename: Managing messaging conversations
@@ -146,7 +120,7 @@
         - pagename: Agent workspace icons for messaging
     - subcategoryname: Manager tools for messaging
       pages:
-        - pagename: The messaging agent list
+        - pagename: The messaging agents list
         - pagename: All connections
     - subcategoryname: Agent tools for live chat
       pages:
@@ -168,25 +142,25 @@
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
-    - subcategoryname: Business Reporting Metrics
+    - subcategoryname: Business reporting metrics
     - subcategoryname: Messaging
       pages:
         - pagename: Real time data for messaging
         - pagename: Messaging Dashboards
           level3:
-            - level3name: Post conversation survey
+            - level3name: Post conversation survey dashboard
             - level3name: Messaging performance dashboard
-            - level3name: Business activity grid
-            - level3name: Agent Activity dashboard
+            - level3name: "Business activity dashboard & grid"
+            - level3name: Agent activity dashboard
             - level3name: Goal tracker report
-            - level3name: Real Time Messaging Dashboard Overview
+            - level3name: Real time messaging dashboard overview (beta)
     - subcategoryname: Live chat
       pages:
         - pagename: Real time data for chat
         - pagename: Chat Dashboards
           level3:
             - level3name: Survey activity dashboard
-            - level3name: Business activity grid
+            - level3name: "Business activity dashboard & grid"
             - level3name: Goal tracker report
             - level3name: "Operational & staffing dashboard"
             - level3name: Agent activity dashboard
@@ -203,8 +177,8 @@
         - pagename: "Report Builder user guide (standard)"
         - pagename: "Report Builder user guide (customization)"
         - pagename: Report Builder FAQs
-        - pagename: "Data availability and latency"
-        - pagename: Training Tutorials
+        - pagename: "Data availablity & latency"
+        - pagename: Training tutorials
         - pagename: Terms of use
         - pagename: Moving from BI to Report Builder
         - pagename: Conversation outcomes
@@ -232,8 +206,9 @@
         - pagename: Assign permissions
         - pagename: Customize permissions
     - subcategoryname: Set the Time Zone
-    - subcategoryname: System requirements
     - subcategoryname: Supported languages
+    - subcategoryname: System requirements
+
 
 - categoryname: "Security & regulations"
   image: security-regulations
@@ -246,6 +221,7 @@
         - pagename: Configuring your Firewall
         - pagename: IP address blocking
         - pagename: IP restriction
+        - pagename: Whitelist your domains for LP monitoring
     - subcategoryname: LivePerson disaster recovery
     - subcategoryname: HIPPA compliance
     - subcategoryname: Secure forms
@@ -293,15 +269,15 @@
             - level3name: Week of November 5th
         - pagename: October
           level3:
-            - level3name: Week of October 29th 
+            - level3name: Week of October 29th
             - level3name: Week of October 22nd
             - level3name: Week of October 15th
             - level3name: Week of October 8th
         - pagename: September
           level3:
-            - level3name: Week of September 24th 
-            - level3name: Week of September 17th 
-            - level3name: Week of September 9th 
+            - level3name: Week of September 24th
+            - level3name: Week of September 17th
+            - level3name: Week of September 9th
 
 - categoryname: Troubleshooting
   image: Troubleshooting

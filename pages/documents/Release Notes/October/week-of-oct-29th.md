@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Methods for Messaging Skill Segments (messaging operations API)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -65,7 +65,7 @@ This data will be reported in two ways:
 1. Accumulated in intervals over the last 24 hours. The interval size is in minutes and can be configured, for example in buckets of 5 or 10 minutes.
 2. The current state - the state of the operational KPIs at the moment that the API is called. The API exposes information about interactivity during conversations and wait times of current open conversations (unassigned / in-queue).
 
-Full documentation, including a list of the newly exposed metrics, can be found in the [LivePerson Developers Community](https://developers.liveperson.com/messaging-operations-api-overview.html) 
+Full documentation, including a list of the newly exposed metrics, can be found in the [LivePerson Developers Community](https://developers.liveperson.com/messaging-operations-api-overview.html)
 
 #### How to enable
 
@@ -73,7 +73,7 @@ Added to the existing Messaging Operations API. No additional enablement needed.
 
 ### WhatsApp Business - Multiple number support per LiveEngage account (LE-95291)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

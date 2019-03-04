@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Report Builder: Agent Load KPIs (85669)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -85,7 +85,7 @@ Agent Load metrics can be used for staffing plans - for example; agent managers 
 
 ### Conversion rate in Messaging Performance Dashboard (84175)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -162,7 +162,7 @@ These metrics are enabled out of the box and are available to all report builder
 
 ### Report Builder: Rename of messaging metrics
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

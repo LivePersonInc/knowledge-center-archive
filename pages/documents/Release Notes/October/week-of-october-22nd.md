@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Skill ID on Conversation Info event (LE-94149)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -58,7 +58,7 @@ The Skill ID in the Conversation_Info event is now exposed. The event should be 
 
 ### Photo Sharing - When viewing image on the entire screen, click the background to dismiss (LE-94140)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -97,7 +97,7 @@ After the consumer sends an image to an agent, and clicks on the thumbnail, the 
 
 ### Messaging - Automatic Messages - adding support of "\\n" (LE-93733)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -134,7 +134,7 @@ Unified Window needs to align the code to support "\\n" in Messaging Automatic M
 
 ### Dutch Translation - Email and Print Transcript (LE-92669)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -175,7 +175,7 @@ In the Engagement Window Action Menu the word ‘Transcript’ in Dutch is spell
 
 ### French abbreviations for date/month in visitor chat window are incorrect (LE-93926)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -210,7 +210,7 @@ August is displaying as Aoû in the engagement window, which is not a valid abbr
 
 ### Window goes blank in conversation when refreshing page (LE-94606)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -245,7 +245,7 @@ A conflict was discovered in code between the window and the customer’s page, 
 
 ### IE11 Placeholder Text continues to show Once Consumer Selects the Field (LE-94424)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

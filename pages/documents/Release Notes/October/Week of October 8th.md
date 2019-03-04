@@ -21,7 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[ABC\] Authentication Interactive Message - LiveEngage Support (LE-89160)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -83,7 +83,7 @@ This feature requires enablement - please contact your LivePerson account team
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -139,7 +139,7 @@ In the current solution, only a bot (using the Agent SDK) can receive the paymen
 
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -194,7 +194,7 @@ Google RCS Business Messaging is currently in beta mode. If you have brands that
 
 ### RCS Business Messaging Connector - Conversation Attributes (LE-92816)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -236,7 +236,7 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 
 ### RCS Business Messaging Connector - Skill Routing (LE-92822)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -274,7 +274,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Card, Carousels & Quick Replies (LE-92997, LE-92998, LE-92823)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -320,7 +320,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Consumer to agent image support (LE-92818)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -353,7 +353,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 With RCS Business Messaging supported by the Android Messages app, consumers can select images from their device’s image gallery or take a real-time image and share it with agents on LiveEngage.
 
-**Supported image formats:** 
+**Supported image formats:**
 JPG, JPEG, PNG, GIF
 
 {: .important}
@@ -363,7 +363,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Reporting on RCS Business Messaging source in LiveEngage (LE-92819)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -402,7 +402,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### Post Conversation Survey Support - RCS Business Messaging (LE-94611)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -456,7 +456,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### \[Twilio\] Post conversation Survey - Twilio Support (LE-90206)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -515,7 +515,7 @@ Quick replies will have the 'alt' property (for text fallback) defined in UMS ve
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -567,7 +567,7 @@ Consumer side:
 
 ### \[Twilio\] Migration of Twilio Connector from messaging gateway to LE connector platform
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -604,7 +604,7 @@ The current version of the Twilio Connector has been migrated to the new LiveEng
 
 ### \[Twilio\] Failure to send a message to Twilio - isn't reported back to UMS and LE UI (LE-90596, LE-88928, LE-75265)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -641,7 +641,7 @@ The current version of theTwilio connector has now been migrated to the new LE c
 
 ### \[Twilio\] Twilio Connector message retry when UMS Socket is Closed (LE-87239)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

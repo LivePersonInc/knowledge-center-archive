@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Audit trail on campaign time frame
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -57,7 +57,7 @@ Customers will now be able to track changes made to the campaign time frame in t
 
 ### Audit trail on shift scheduler (working hours)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -105,7 +105,7 @@ old -> N/A
 
 ### Opacity of the embedded window on Mobile Web (campaigns)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -179,7 +179,7 @@ As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers shoul
 
 ### Agent status changes to away involuntarily
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -216,7 +216,7 @@ If the ACD setting for chat was configured to “advanced mode” and “agent s
 
 ### Messaging - Automatic Messages - line break is being shown in conversation
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

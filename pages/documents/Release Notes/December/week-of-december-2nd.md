@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Smart Capacity Per Skill (AE-492)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -58,7 +58,7 @@ Controlling the feature is available through Houston only. Contact you LP repres
 
 ### Maximum Wait Time In Queue (Chat Operational Realtime API)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -115,7 +115,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Agent Navigation in Photo Sharing (AE-379)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -152,7 +152,7 @@ If a consumer sends the agent multiple photos, the agent can now navigate betwee
 
 ### Multiple agent survey's “Submit Requests” come from Web Agent unexpectedly (AE-858)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -187,7 +187,7 @@ In some cases, web agent UI bombards the back-end server with dozens of agent su
 
 ### User with Agent and Admin profiles unable to see their conversations on “All connections” tab (AE-827)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -222,7 +222,7 @@ Users who were assigned both Agent and Admin profiles were unable to see convers
 
 ### For some languages (German and Romanian) buttons are overlapping within the Identification Verification Window (AE-191)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -257,7 +257,7 @@ When using IDNV feature in German or Romanian languages, the “Submit” and �
 
 ### Conversation widget opens with continuous loading gif instead of empty window for empty conversations (AE-179)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -293,7 +293,7 @@ a loading gif is displayed rather than an empty conversation transcript. After t
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (reopened) (AE-473)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

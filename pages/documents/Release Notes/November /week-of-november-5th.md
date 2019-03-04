@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Queue prioritization
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

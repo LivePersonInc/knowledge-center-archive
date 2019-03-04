@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Connectors support: Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -76,7 +76,7 @@ For a more in depth guide on how to add metadata in structured content templates
 
 ### Messaging connectors: Consumer is able to send audio message with field set to false (LE-94809)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -113,7 +113,7 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 
 ### Facebook Messenger - Blank conversations started when deleting and responding to CSAT (LE-95931)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -152,7 +152,7 @@ Currently when a brand adds a request Identifier to the Authentication Interacti
 
 Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved.
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

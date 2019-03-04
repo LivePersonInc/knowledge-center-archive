@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Working Hours Management
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -81,7 +81,7 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 
 ### Campaign Scheduling
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -129,7 +129,7 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 
 ### Unified Window: Configure availability check when window opens (LE-90428)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -169,7 +169,7 @@ With this new configuration, brands can decide whether the window should continu
 
 ### Secure Form (PCI) confirmation screen will show only for 3 seconds (LE-93676)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -208,7 +208,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Unauthenticated web messaging alongside authenticated
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -247,7 +247,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Photo Sharing in Web Messaging
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -288,7 +288,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Routing bot doesn’t respond to transfer action (LE-93567)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -325,7 +325,7 @@ To resolve this bug, a retry mechanism was added to the card’s action events, 
 
 ### Engagement doesn’t show when browser blocks 3rd party cookies and Cross Domain is enabled (LE-93572)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -360,7 +360,7 @@ When the browser blocks 3rd party cookies and the brand has enabled the cross do
 
 ### Structured Content in Chat doesn’t send metadata (LE-93177)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

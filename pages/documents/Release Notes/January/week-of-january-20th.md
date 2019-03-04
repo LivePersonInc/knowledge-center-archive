@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Report Builder: Time zone support (90133)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -77,7 +77,7 @@ Users that do not require any change in view from the account default time zone 
 
 ### Queue health metrics by chat center (Operational Realtime API)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -136,7 +136,7 @@ The chat center IDs can be retrieved using the [Skills API](https://developers.l
 
 ### Report Builder: Enhanced Field Details tab (68392)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -175,7 +175,7 @@ The new tab contains a list of all the available attributes and metrics in the r
 
 ### Report Builder: Answer ratio not shown correctly for modified questions in Messaging Performance in Report Builder (96886)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -217,7 +217,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 
 ### Report Builder: Brand Level Data tab shows no data when predefined Messaging Performance Dashboard is loaded (93773)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -254,7 +254,7 @@ For brands using only a single source type, the default view of the ‘Brand Lev
 
 ### Report Builder: Agent activity report incorrect filtering by skill (94844)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -291,7 +291,7 @@ To analyze the contact center’s performance by skill - please use Skill Activi
 
 ### Report Builder: Deleted agent’s groups appear in the filter but the ‘group active’ filter does not work with it (93707)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

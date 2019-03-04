@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Messaging interactions API: New intent section in the response and intent filters
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -54,11 +54,11 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 </table>
 
-When accessing the API with "intents" keyword on “ContentToRetrieve” Parameter, the list of conversations will now be retrieved with the addition of 'intents' section, as a data visualization tool. Intent related filters will also be available to filter specific conversations. 
+When accessing the API with "intents" keyword on “ContentToRetrieve” Parameter, the list of conversations will now be retrieved with the addition of 'intents' section, as a data visualization tool. Intent related filters will also be available to filter specific conversations.
 
 ### Back-end chat: Adding New FaaS Permissions (LE-98895)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -97,7 +97,7 @@ The new permissions added are:
 
 ## Edit Rights in bot integration permission (LE-98301)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -134,7 +134,7 @@ This permission will allow brands to choose who has access to the service. ie. a
 
 ### WhatsApp: sharing contacts during a conversation (CX-85)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -184,7 +184,7 @@ Agent will receive contact sharing info as text:
 
 ### WhatsApp: sharing location during a conversation (CX-86)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -247,7 +247,7 @@ Agent will receive location sharing as text:
 
 ### Google RCS: Change the default media height in Card elements to "TALL" (CX-18)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -298,7 +298,7 @@ Now, the patterns are updated properly. The solution proposed is to implement th
 
 ### WhatsApp: Agent sending links to consumer causes an unexpected behavior (CX-21)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -335,7 +335,7 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 
 ### WhatsApp: Bad URLs on container health check (CX-114)
 
-<table>
+<table class="releasenotes">
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
