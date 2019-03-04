@@ -79,7 +79,7 @@ When designing the quick replies bundle, you should also design the coupled mess
 
 Quick replies are based on a JSON structure. You can define 1-24 chips per bundle and determine the maximum number of chips per row (up to 8 chips per row). The chips will be distributed evenly across 1-3 rows, based on the defined total number of chips and max chips per row.
 
-Each quick replies chip is based on a structured content [button ](https://developers.liveperson.com/rich-messaging-basic-elements-button.html)which means it can hold:
+Each quick replies chip is based on a structured content button which means it can hold:
 
 1. Click Operation: with actions (link, navigate and publish text) and metadata.
 2. Styling and Branding Elements
