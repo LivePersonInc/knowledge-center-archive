@@ -74,7 +74,7 @@ Define your use cases as quick replies can be used for a variety of applications
 
 ### Design a quick replies bundle
 
-A quick replies bundle does not exist on its own. An agent sends a message to the consumer (a question, a remark or even a [structured content](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html) message followed by a quick replies bundle).  
+A quick replies bundle does not exist on its own. An agent sends a message to the consumer (a question, a remark or even a [structured content](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html#what-is-structured-content) message followed by a quick replies bundle).  
 When designing the quick replies bundle, you should also design the coupled message assigned to it.
 
 Quick replies are based on a JSON structure. You can define 1-24 chips per bundle and determine the maximum number of chips per row (up to 8 chips per row). The chips will be distributed evenly across 1-3 rows, based on the defined total number of chips and max chips per row.
