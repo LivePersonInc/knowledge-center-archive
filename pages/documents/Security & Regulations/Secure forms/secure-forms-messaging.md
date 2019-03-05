@@ -342,8 +342,8 @@ The following texts are not customizable:
 * Footer with security statement
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
-  1. Invitation: "&#123;&#123;secureFormName}}: &#123;&#123;secure form link&#125;&#125;"
-  2. Submission: "The following Secure Form has been submitted: &#123;&#123;secureFormName&#125;&#125;"
+  1. Invitation: "{{secureFormName}}: {{secure form link}}"
+  2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
   3. The above texts will be automatically translated per the language selected for the connector
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
@@ -388,7 +388,7 @@ In order for the agent manager to be able to view the secure form data, they wil
 
 View Engagement history PCI PII
 
-For guidance on enabling/disabling permissions, please see [permission settings.]()
+For guidance on enabling/disabling permissions, please see [permission settings.](/admin-settings-permissions-customize-permissions.html)
 
 ## Considerations when using secure forms
 
@@ -408,10 +408,10 @@ When using secure forms, bear in mind:
 * The consumer can submit each form only once.
 * Accessing the same form multiple times:
 * On iOS, the consumer can open and close the form multiple times. the form will still be accessible to the consumer until:
-    1. The consumer logs out
-    2. The app is closed so its not running in the background
-    3. The form expires
-    4. The consumer opens another secure form
+  1. The consumer logs out
+  2. The app is closed so its not running in the background
+  3. The form expires
+  4. The consumer opens another secure form
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
 
