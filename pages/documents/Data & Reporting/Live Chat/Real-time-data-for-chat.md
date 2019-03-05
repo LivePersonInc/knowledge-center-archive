@@ -49,9 +49,9 @@ For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you
 
 Utilized Capacity is calculated as follows:
 
-![](https://lh3.googleusercontent.com/VFgRWOXdxWgHAeyRM4CX_-UvG28oMQ_pU54XrT8EZh4TcwbmGMaERnpeNWkFaPV0oEgnDWyUL_ZJPBR0oufZ9P4TcdVkoBMZLJCn5qzXxLT1jbS-Izz1w0wX5i2TNxGkaFZYDK9x =427x31)
+Utilized capacity = total concurrent engaged time / total logged in the X maximum allowed concurrent chats
 
-![](https://lh3.googleusercontent.com/LGwiZ4xFBsbrtVqSSx0ZHPEh9tqB1obNWCWR9gGD_RdDuAu6irXtqPcXgdC6qIpEhNfjbhGMijNoDmnzKq8xjJaeRnTuzQuv_r1lAk9KcXo0vOQt-1SDdUl6mAt_YUyc5McJOF3y =162x35)
+4\.5 / 5x4 = 22.5 => 22.5%
 
 If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased. If, on the other hand, your utilized capacity is high, you are fully occupied.
 
