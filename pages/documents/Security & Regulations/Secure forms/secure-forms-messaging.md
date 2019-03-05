@@ -398,7 +398,7 @@ When using secure forms, bear in mind:
 * Submitting CVV (Card Verification Value) or CVC (Code Verification Certificate) data should only be performed in CVV question type or questions that are marked as "Off the Record".
 * Data submitted in the secure form is only retrievable for the duration of the session it was submitted in.
 * Agent workstations utilized for viewing secure forms are in scope of PCI-DSS certification.
-* LivePerson accounts password and login policy must be enabled and configured according to PCI-DSS requirements (see [account setup](https://docs.google.com/document/d/1heZhoYhTO3HS-tFRL3lUgcTg0g7Lxsp0yth_ub0pvVs/edit#heading=h.ygcffa15u4qp) above).
+* LivePerson accounts password and login policy must be enabled and configured according to PCI-DSS requirements (see account setup above).
 * Invitations, alerts and consumer texts are customizable on both In-App Messaging SDKs.
 * Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
 * The following time limitations apply:
