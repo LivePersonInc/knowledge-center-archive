@@ -1,12 +1,12 @@
 ---
 pagename: Conversation outcomes
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Engagement attributes
 indicator: chat
 subtitle: 'Conversation outcomes allows agents to add insight about the conversation
   or resolutions that took place '
 level3: ''
-permalink: data-reporting-report-builder-conversation-outcomes.html
+permalink: data-reporting-engagement-attributes-conversation-outcomes.html
 isTutorial: false
 date: 2019-01-20 09:22:45 +0000
 
