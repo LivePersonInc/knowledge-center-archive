@@ -3,7 +3,8 @@ pagename: Messaging performance dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
-subtitle: This predefined dashboard includes operational data for all messaging channels
+subtitle: This predefined dashboard includes operational and business data for all
+  messaging channels
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
