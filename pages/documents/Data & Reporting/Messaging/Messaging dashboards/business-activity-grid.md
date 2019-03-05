@@ -54,7 +54,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * EXPOSED -Number of visits during which the visitor was offered an engagement
   * ENGAGED - Number of visitors who had at least one engagement during their visit
 
-    #### Distinct to Engagement
+   #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
   * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
   * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
