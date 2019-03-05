@@ -5,7 +5,7 @@ subCategoryName: Report Builder
 indicator: both
 subtitle: An overview in to data availability and latency within Report Builder
 level3: ''
-permalink: data-reporting-report-builder-data-availability-and-latency.html
+permalink: data-reporting-report-builder-data-availability-latency.html
 isTutorial: false
 date: 2019-01-17 09:37:53 +0000
 isNew: false
