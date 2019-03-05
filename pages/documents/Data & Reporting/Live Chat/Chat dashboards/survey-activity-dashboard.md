@@ -27,6 +27,15 @@ This panel consists of an interconnected set of visualizations allowing for a dr
 
 ![](/img/survey-activity-dashboard1.png)
 
+| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Daily Survey Completion Rate(combined bar and line chart) | VIEWED SURVEY(bar chart),COMPLETED SURVEY(bar chart),SURVEY COMPLETION RATE(line chart - right axis) | DATE | Hover over bars display popup:DATEVIEWED SURVEY or COMPLETED SURVEY |
+
+| Question Completion Rate(grid) | QUESTION COMPLETION RATE | QUESTION, SURVEY FORM | Dynamically populates the “Answer Analysis” bar chart, and the “CSAT Analysis” line chart (if the question if of type CSAT). |
+| Answer Analysis(bar chart) | ANSWER COUNT | ANSWER | Dynamically populates the “Distribution per answer” line chart.Deselecting an answer will show the distribution for all answers of the selected question, side by side. |
+| Distribution per Answer(line chart) | ANSWER RATE | DATE, ANSWER | Hover over live displays popup:ANSWERDATEANSWER RATE |
+
+
 Image 1: survey activity main panel
 
 ## Second panel: CSAT analysis
@@ -98,4 +107,5 @@ Rows (attributes):
 2. COMPLETED SURVEY
 3. SURVEY COMPLETION RATE
 
-{: .notice} This dashboard is also available in BI
+{: .notice}
+This dashboard is also available in BI
