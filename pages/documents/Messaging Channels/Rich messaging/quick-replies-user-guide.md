@@ -110,7 +110,9 @@ You will need to implement a bot integration using the [Messaging Agent SDK](htt
 
 Create a JSON builder component to populate your JSON scaffolding. This tool can be constructed using your preferred method of development but needs to adhere to our quick replies schema and model.
 
-Quick replies elements are static and are presented in a JSON model.  
+Quick replies elements are static and are presented in a JSON model.
+
+  
 The JSON schema and dictionary can be found in the [Developers’ Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html).
 
 ## Limitations
