@@ -259,7 +259,7 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 
 2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
 
-![](/img/automatic-messages-messaging-18.png)
+![](/img/automatic-messages-messaging-18b.png)
 
 3\. Define your current shift status:
 
