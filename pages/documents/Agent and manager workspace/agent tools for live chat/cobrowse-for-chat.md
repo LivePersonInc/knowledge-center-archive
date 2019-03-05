@@ -195,9 +195,9 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on LiveEngage 2.0.
 
 * The Embedded Engagement Window must be deployed in the popped in state
-* LE Tag must be deployed. For more information, see [LE Tag](http://tbd)
+* LE Tag must be deployed. For more information, see [LE Tag](getting-started-add-the-liveperson-tag-to-your-website.html)
 * The LE Tag must be placed on every webpage that is visited during the CoBrowse session
-* The agent must use an operating system and browser that is listed in the [LivePerson System Requirements](http://tbd)
+* The agent must use an operating system and browser that is listed in the [LivePerson System Requirements](admin-settings-system-requirements.html)
 
 ### For brand website
 
@@ -214,7 +214,7 @@ The following table lists the prerequisites and technical requirements necessary
 * All resources, for example CSS, images and fonts, can be reloaded multiple times without restrictions:
   * Example 1: Loading resources is not bound to cookie or other session identifiers
   * Example 2: Loading resources is not bound to “Http Basic Authentication”
-* Agents and consumers must use a web browser that is listed in the [LivePerson System Requirements](http://tbd)
+* Agents and consumers must use a web browser that is listed in the [LivePerson System Requirements](admin-settings-system-requirements.html)
 * CoBrowse is only supported on regular (not private / incognito) windows
 * For the consumer, the session is active only in the browser tab where it was started. If the consumer switches to another browser tab with the same (or another) website opened, they will no longer be active in the CoBrowse session
 * The agent and the consumer must be in a chat conversation before the agent can send a CoBrowse invite
