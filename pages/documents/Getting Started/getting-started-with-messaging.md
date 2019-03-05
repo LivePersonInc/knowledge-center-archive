@@ -106,10 +106,14 @@ Additional instructions for designing customer experience elements such as [bann
 ![](/img/getting-started-with-messaging-2-2.png)
 
 {:start="3"}
-3\. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.
+3\. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.  
+
 4\. **Configure CoBrowse**: For high touch conversations, agents can connect to customers screens and conduct a [CoBrowse session](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).  Administrators can define which agents have this capability.
+  
 5\. **Warm up**: In order for agents to [prepare to start shifts smoothly](contact-center-management-messaging-operations-preparing-agents-to-start-a-shift.html), LivePerson can be configured to assign conversations to the agents gradually giving agent the proper warm up’ to the flow of messaging conversations, you can configure
+  
 6\. **Agent guide**: Agent training should include your business processes as well as best practices for conducting messaging conversations. LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, ask account team for specialized training and the LivePerson University.
+  
 7\. **SSO Login**: brands have the option to connect LivePerson to their company’s secured hub for [SSO integration](Security-regulations-SSO-unified-login.html).
 
 ## Step 6: Manage the operational elements
