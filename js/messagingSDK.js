@@ -6,6 +6,11 @@ var userinput = '<input type="text" id="messageInput"/>'
 
 windowKit.connect();
 
+windowKit.onReady( function () {
+	console.log("ready");
+	scrollBottom();
+});
+
 windowKit.onAgentTextEvent(function(text) {
 	$('#caseyContainer').append('<div class="caseyText">' + text + '</div>');
 	if (text.indexOf("search") > -1) {
@@ -68,4 +73,9 @@ function displayInput () {
 		 }
 	 });
 }, 2000);
-}
+};
+
+function scrollBottom () {
+	var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
+		$('body, html').animate({ scrollTop: bottom }, 1000);
+};
