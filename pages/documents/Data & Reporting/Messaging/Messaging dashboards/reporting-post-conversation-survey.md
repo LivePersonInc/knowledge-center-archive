@@ -1,12 +1,12 @@
 ---
-pagename: Post conversation survey
+pagename: Messaging survey dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
 level3: ''
-permalink: data-reporting-messaging-messaging-dashboards-post-conversation-survey.html
+permalink: data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html
 isTutorial: false
 date: 2019-01-15 13:14:02 +0000
 
@@ -116,7 +116,7 @@ Similar to the brand level answers distribution, this panel lists every configur
 
 Use this panel to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
-{: .notice}   
+{: .notice}  
 The values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
 
 ### Panel 5: question level analysis
