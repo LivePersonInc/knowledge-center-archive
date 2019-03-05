@@ -42,7 +42,8 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
-{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html).
+{: .notice}  
+Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey](bots-automation-post-conversation-survey.html) bot.
 
 ## Step 2: Implement automation and build a bot
 
