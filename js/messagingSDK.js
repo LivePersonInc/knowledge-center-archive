@@ -19,11 +19,15 @@ windowKit.onVisitorTextEvent(function(text) {
 	var consumerTexts = document.getElementsByClassName('consumerText');
 	var latestConsumerText = consumerTexts[consumerTexts.length - 1];
 	$('body, html').animate({ scrollTop: $(latestConsumerText).offset().top }, 1000);
+	console.log('visitortext');
 });
 
 windowKit.onAgentRichContentEvent(function(content) {
   var structuredText = JsonPollock.render(content);
 	$('#caseyContainer').append(structuredText);
+	var scTexts = document.getElementsByClassName('lp-json-pollock');
+	var latestScText = scTexts[scTexts.length - 1];
+	$('body, html').animate({ scrollTop: $(latestScText).offset().top }, 1000);
 	console.log('Agent: ', structuredText);
 	JsonPollock.registerAction('link', function (linkObject) {
 		var rawLink = linkObject.actionData.uri;
@@ -43,7 +47,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 });
 
 windowKit.onMessageSent(function(text) {
-	console.log("received");
+	console.log('Visitor: ', text);
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	var consumerTexts = document.getElementsByClassName('consumerText');
 	var latestConsumerText = consumerTexts[consumerTexts.length - 1];

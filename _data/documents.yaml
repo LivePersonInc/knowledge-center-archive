@@ -142,11 +142,11 @@
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
-    - subcategoryname: Business reporting metrics
+    - subcategoryname: Reporting metrics
     - subcategoryname: Messaging
       pages:
         - pagename: Real time data for messaging
-        - pagename: Messaging Dashboards
+        - pagename: Messaging survey dashboard
           level3:
             - level3name: Post conversation survey dashboard
             - level3name: Messaging performance dashboard
@@ -218,7 +218,7 @@
         - pagename: Account security recommendations
         - pagename: Validate identity of consumers during conversations
         - pagename: IP masking
-        - pagename: Configuring your Firewall
+        - pagename: Configuring your firewall
         - pagename: IP address blocking
         - pagename: IP restriction
         - pagename: Whitelist your domains for LP monitoring
