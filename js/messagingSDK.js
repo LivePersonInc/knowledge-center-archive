@@ -23,7 +23,7 @@ windowKit.onVisitorTextEvent(function(text) {
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	var consumerTexts = document.getElementsByClassName('consumerText');
 	var latestConsumerText = consumerTexts[consumerTexts.length - 1];
-	$('body, html').animate({ scrollTop: $(latestConsumerText).offset().top }, 1000);
+	scrollBottom();
 	console.log('visitortext');
 });
 
@@ -32,7 +32,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 	$('#caseyContainer').append(structuredText);
 	var scTexts = document.getElementsByClassName('lp-json-pollock');
 	var latestScText = scTexts[scTexts.length - 1];
-	$('body, html').animate({ scrollTop: $(latestScText).offset().top }, 1000);
+	scrollBottom();
 	console.log('Agent: ', structuredText);
 	JsonPollock.registerAction('link', function (linkObject) {
 		var rawLink = linkObject.actionData.uri;
@@ -56,7 +56,7 @@ windowKit.onMessageSent(function(text) {
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	var consumerTexts = document.getElementsByClassName('consumerText');
 	var latestConsumerText = consumerTexts[consumerTexts.length - 1];
-	$('body, html').animate({ scrollTop: $(latestConsumerText).offset().top }, 1000);
+	scrollBottom();
 });
 
 function displayInput () {
@@ -74,8 +74,11 @@ function displayInput () {
 	 });
 }, 2000);
 };
-
+let isScrolling;
 function scrollBottom () {
+	if (!isScrolling) {
+		isScrolling = true;
 	var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
-		$('body, html').animate({ scrollTop: bottom }, 1000);
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
+	}
 };

@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Create and manage users and their roles
 level3: ''
-permalink: admin-settings-create-and-manage-users
+permalink: admin-settings-create-and-manage-users.html
 isTutorial: false
 date: 2019-01-21 13:55:21 +0000
 isNew: false
