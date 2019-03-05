@@ -6,7 +6,7 @@ indicator: both
 subtitle: Measure the quality of your brand’s connection with every consumer over
   time
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html
+permalink: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
 isTutorial: false
 date: 2019-01-22 09:35:20 +0000
 isNew: false
