@@ -55,7 +55,7 @@ Following the completion of an onsite assessment, the LiveEngage secure form env
 
 ## How it works
 
-An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview) widget and selecting a secure form.
+An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
 
 ![](https://lh3.googleusercontent.com/KxVjdM632DNYROVcT-u8NYWMrWTfhGUv4T7mJlC5ppmxZYzSTa3HV1LLkuTypUx_dLU7WGBwyFJHRaisuvuIi20YSJG9on8i-v8rdWQH_7u-s_cobn9VuueTBHLVPWG6SkW6zSCa =624x299)
 
