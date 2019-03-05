@@ -23,27 +23,29 @@ As an agent, you have goals to meet, such as achieving a specific customer satis
 
 The data bar displays the following metrics:
 
-### **Engagements**
+### Engagements
 
 Engagements represents the number of chats you’ve taken during your current shift. The system counts the chat once you close the Engagement window.
 
 ### Average engagement length
 
-The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue
+The length of your chats varies depending on the type of inquiries you receive. Your chats should be only as long as they need to be to ensure successful resolution of your customer’s issue: 
 
- ![](/img/agent-chat-data2.png)
+{: .notice}  
+Average engagement length = Total concurrent engaged time / number of interactive engagements
 
 For example, if you were engaged for a total of 5 hours (including concurrent chats) and in that time took five chats, your average engagement length is:  5 hours / 5 = 1 hour
 
 ### Engagements per hour
 
-![](/img/agent-chat-data3.png)
+{: .notice}  
+Engagements per hour = The number of interactive engagements / online time + away time engaged + back soon time engaged
 
-For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour =
+For example, if you took six (6) engagements between 8 a.m. and 11 a.m. (and you were online during this period of time), your engagements per hour:
 
-![](https://lh6.googleusercontent.com/uAQUc0i_5YnCT3kPMzNQXR12nbmJx64CAu_W8y1efNygUGS2ityxo6zwDTJBfr2uGguDuTjIvSepjIJzbRKjttxMCpg1r0jG-aGarqpAwZky67rtW7GrpDjFXcG3o0LGOymBi_lJ =291x34)
+6 engagements / 3 hours = 2 engagements per hour
 
-### Utilized Capacity
+### Utilized capacity
 
 Utilized Capacity is calculated as follows:
 
@@ -51,7 +53,7 @@ Utilized Capacity is calculated as follows:
 
 ![](https://lh3.googleusercontent.com/LGwiZ4xFBsbrtVqSSx0ZHPEh9tqB1obNWCWR9gGD_RdDuAu6irXtqPcXgdC6qIpEhNfjbhGMijNoDmnzKq8xjJaeRnTuzQuv_r1lAk9KcXo0vOQt-1SDdUl6mAt_YUyc5McJOF3y =162x35)
 
-If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased. If, on the other hand, your utilized capacity is high, you are fully occupied.  
+If your utilized capacity is low, then either you are not busy enough, or the volume of chats has decreased. If, on the other hand, your utilized capacity is high, you are fully occupied.
 
 ### CSAT
 
