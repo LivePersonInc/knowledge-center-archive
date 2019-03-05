@@ -40,12 +40,12 @@ To enable this feature:
 
 1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page.
 
-   ![](/img/conversation-outcomes1.png)
+![](/img/conversation-outcomes1.png)
 
    {:start="2"}
 2. In the footnote, click Data Sources. The Data Sources page is displayed.
 
-   ![](/img/conversation-outcomes2.png)
+![](/img/conversation-outcomes2.png)
 
 {:start="3"}  
 3. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
