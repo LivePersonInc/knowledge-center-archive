@@ -30,4 +30,4 @@ The SDK can also be integrated with the agent workspace widget SDK, allowing ric
 {: .notice}  
 The SDK requires technical deployment by LivePerson professional services.
 
-Further information and technical documentation on the engagement window widget SDK can be found [here](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html).
+Further information and technical documentation on the engagement window widget SDK can be found in the [Developer Community](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html). 
