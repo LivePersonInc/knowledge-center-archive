@@ -23,17 +23,17 @@ The predefined dashboard includes operational and business data for all messagin
 
 The following panel will be presented when accessing the messaging performance predefined dashboard. It consists of an analysis of every messaging agent’s activity and performance. The default view summarizes the data for all agents, and offers dynamic filtering with the ability to select any of the agents on the list to show only their individual performance.
 
+_Agent performance summary_
+
 ![](/img/Messaging-performance-dashboard1.png)
 
-_Image 1 - Agent performance summary_
-
-| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | 
-| --- | --- | --- | --- |
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | 
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) |
+| --- | --- | --- |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A |
 | Activity State Breakdown (pie chart) | Away | away reason |
-| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | 
-| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  
-| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | 
+| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A |
+| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |
+| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date |
 
 ### Top data bar (grid)
 
@@ -62,9 +62,9 @@ _Image 1 - Agent performance summary_
 
 The following panel provides an analysis of the consumer demand and agent response. The data is aggregated by day of the week. Selecting a specific day in the week dynamically filters the top data bar high level metrics.
 
-![](/img/Messaging-performance-dashboard2.png)
+_Consumer and agent response activity (panel 2)_
 
-_Image 2: Consumer and agent response activity (panel 2)_
+![](/img/Messaging-performance-dashboard2.png)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -96,9 +96,9 @@ _Image 2: Consumer and agent response activity (panel 2)_
 
 The following panel provides an exportable grid which includes agent related activity and performance metrics.
 
-![](/img/Messaging-performance-dashboard3-1.png)
+_Agent level data export grid (panel 3)_
 
-_Image 3 - Agent level data export grid (panel 3)_
+![](/img/Messaging-performance-dashboard3-1.png)
 
 **Rows (attributes):** DATE, GROUP, AGENT, SKILL
 
@@ -122,9 +122,9 @@ _Image 3 - Agent level data export grid (panel 3)_
 
 The main panel provides an executive view of the messaging program performance. It summarizes daily activity and allows the user to choose a specific source from which conversations are generated.
 
-![](/img/Messaging-performance-dashboard4.png)
+_Brand messaging summary main panel_
 
-_Image 4 - Brand messaging summary main panel_
+![](/img/Messaging-performance-dashboard4.png)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -172,9 +172,9 @@ _Image 4 - Brand messaging summary main panel_
 
 Export the following grid to create custom visualizations and generate calculations from the data available in this grid view.
 
-![](/img/Messaging-performance-dashboard5.png)
+Brand level data export (panel 2)
 
-Image 5 - Brand level data export (panel 2)
+![](/img/Messaging-performance-dashboard5.png)
 
 **Rows (attributes):** DATE, SKILL
 
