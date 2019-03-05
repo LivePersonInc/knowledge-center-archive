@@ -51,14 +51,6 @@ windowKit.onAgentRichContentEvent(function(content) {
 	});
 });
 
-windowKit.onMessageSent(function(text) {
-	console.log('Visitor: ', text);
-	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
-	var consumerTexts = document.getElementsByClassName('consumerText');
-	var latestConsumerText = consumerTexts[consumerTexts.length - 1];
-	scrollBottom();
-});
-
 function displayInput () {
 	setTimeout (function () {
 	$('#caseyContainer:last').append(userinput);
@@ -74,11 +66,16 @@ function displayInput () {
 	 });
 }, 2000);
 };
+
 let isScrolling;
+
 function scrollBottom () {
 	if (!isScrolling) {
 		isScrolling = true;
 	var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
 		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
 	}
+	setTimeout (function () {
+		var isScrolling = true;
+	}, 5000);
 };

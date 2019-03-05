@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Troubleshooting for all questions in Reporting & Data
 level3: ''
-permalink: troubleshooting-reporting.html
+permalink: troubleshooting-reporting-data.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 14:03:37 +0200

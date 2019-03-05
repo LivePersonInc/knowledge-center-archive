@@ -332,7 +332,7 @@ function windowKit(options) {
                                 break;
                         }
                         break;
-                    case 'text':
+                    case 'sent':
                         switch (change_detail.event.type) {
                             case 'ContentEvent':
                                 _this.console('onVisitorTextEvent', change_detail);
