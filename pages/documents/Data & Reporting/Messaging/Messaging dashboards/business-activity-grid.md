@@ -122,7 +122,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 ![](/img/business-activity-dashboard3.png)
 
-There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement. For all metrics available within this dashboard please search the [Report Builder Data Metrics by Business Activity in the Developers Community  ]()
+There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement. For all metrics available within this dashboard please search the [Report Builder Data Metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) by Business Activity in the Developers Community. 
 
 **Top data bar (Grid)**
 
