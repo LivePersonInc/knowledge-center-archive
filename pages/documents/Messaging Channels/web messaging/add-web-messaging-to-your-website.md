@@ -12,7 +12,7 @@ date: 2019-01-16 17:31:38 +0000
 isNew: false
 
 ---
-Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](messaging-channels-messaging-connectors-overview.html).
+Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
 ## 1. Planning & thought starters
 
@@ -33,7 +33,7 @@ _(should be completed by contact center manager, project manager or program mana
 
 If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
 
-If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
+If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
 
 ### Engagement attributes
 
@@ -113,7 +113,7 @@ Select the mode in which the messaging window will be presented to the consumer,
 
 #### Language
 
-The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview) - during an active conversation.
+The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
 ### Engagement studio
 

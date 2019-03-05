@@ -59,6 +59,7 @@ If the tag is included via an external javascript file, it should look this:
 
 Tag management systems are incorporated to make smart decisions about when to fire each tag, for example on a visitor’s first visit, or when a specific page is visited. Generally, fewer tags means less load time, and therefore a reduction in the chances of an error. Typically today, all tags are fired asynchronously, removing a large part of site load time.
 
-{: .notice} Using a tag management system can cause a delay in loading of engagements if the LivePerson Tag is loaded after many other tags. To reduce load time, we recommend placing the LiveEngage Tag as high up in the loading sequence as possible.
+{: .notice}  
+Using a tag management system can cause a delay in loading of engagements if the LivePerson Tag is loaded after many other tags. To reduce load time, we recommend placing the LiveEngage Tag as high up in the loading sequence as possible.
 
 Fore more technical details on the tag, visit the [developers community](https://developers.liveperson.com/le-tag-overview.html).

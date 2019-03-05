@@ -3,7 +3,8 @@ pagename: Getting started with bots
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
-subtitle: Learn how to get started building a bot with everything from creating a use case, choosing a host and connecting conversations.
+subtitle: Learn how to get started building a bot with everything from creating a
+  use case, choosing a host and connecting conversations.
 level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
@@ -13,7 +14,7 @@ date: 2019-02-11 12:56:04 +0000
 ---
 ## The benefits of bots in LivePerson
 
-Check out our in depth article on: [How bots work in LivePerson](how-bots-work-with-liveperson.html). Here’s a summary of main concepts
+Check out our in depth article on: [How bots work in LivePerson](bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
 
 * **Humans and bots work together in LivePerson**  
   In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to easily manage and take over conversations when needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
@@ -41,7 +42,8 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
 | Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
-{: .notice} Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey bot](Bots-automation-post-conversation-survey.html).
+{: .notice}  
+Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey](bots-automation-post-conversation-survey.html) bot.
 
 ## Step 2: Implement automation and build a bot
 
@@ -51,7 +53,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
-**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
+**Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](bots-automation-conversation-builder-conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
 **Host:** Hosting / running is done automatically by the Conversation Builder.
 
@@ -65,8 +67,8 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 **Connection:** Brands need to connect the bot to LivePerson using our bot connectors. Follow the guides on specific bot connectors here:
 
-* [Google dialogue flow](http://tba)
-* [IBM Watson assistant](http://tba)
+* [Google dialogue flow](https://developers.liveperson.com/bot-connectors-google-dialog-flow.html)
+* [IBM Watson assistant](https://developers.liveperson.com/bot-connectors-ibm-watson-assistant.html)
 * Custom bot ([Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html))
 
 ## Step 3: Connect conversations to your bots

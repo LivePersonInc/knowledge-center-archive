@@ -26,7 +26,7 @@ The regulations in the US and other countries, such as the UK and Canada, requir
 
 In order to incorporate these guidelines, we work with the international accessibility consulting organization - “Deque Systems”. Deque Systems have completed a thorough assessment of LiveEngage accessibility, and have subsequently awarded LivePerson the official accessibility stamp. The assessment included working closely with people with disabilities who reviewed and operated our products. This practice enables us to implement, first-hand, the beneficial suggestions made by impaired individuals who understand our product.
 
-View LivePerson’s [certification of concordance](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
+View LivePerson’s [certification of conformance](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
 
 For more information on Deque Systems, refer to [http://www.deque.com.](http://www.deque.com. "http://www.deque.com.")
 

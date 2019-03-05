@@ -1,11 +1,11 @@
 ---
-pagename: LivePerson’s HIPAA compliance
+pagename: HIPAA compliance
 categoryName: Security & regulations
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: security-regulations-hippa-compliance.html
+permalink: security-regulations-hipaa-compliance.html
 isTutorial: false
 isNew: false
 date: 2019-01-31 11:44:17 +0000
