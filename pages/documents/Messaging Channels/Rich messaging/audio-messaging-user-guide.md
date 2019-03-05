@@ -13,11 +13,11 @@ date: 2019-01-27 11:54:10 +0000
 ---
 Audio messaging allows consumers to send audio messages to brands. The audio is one way, from the consumer to the agent. The agent can listen to the message and reply in a text. Audio messaging provides an enriched conversation experience.
 
-The feature is available starting with SDK v3.2. It is also available for Facebook Messenger and Apple Business Chat [connectors](messaging-channels-messaging-connectors-overview.html).
+**To see what messaging channels support audio messaging please see the** [**messaging channels capabilities comparison**](messaging-channels-messaging-channels-capabilities-comparison.html) **chart.**
 
 ![](/img/Audio messaging Gif-1.gif)
 
-## Use cases
+## Why use audio messaging?
 
 In the short time since phone conversations have been abandoned for text-based communication, we’ve developed a library of ways to add tone and inflection — from emoticon, emojis, stamps & GIFs. Yet it still seems that there’s nothing quite like actual speech. Voice messaging gives you just that, with all the added benefits of asynchronous text exchanges.
 

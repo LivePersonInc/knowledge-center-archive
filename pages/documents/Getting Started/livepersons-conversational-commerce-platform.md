@@ -36,7 +36,7 @@ LivePerson’s conversational commerce platform smartly brings together the myri
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
-![](/img/lp-cc-4b.png)
+![](/img/lp-cc-2b-1.png)
 
 ## Automation is the key to scalability
 
@@ -54,7 +54,7 @@ Automation and AI underpins LivePerson’s conversational commerce. Bots and AI 
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
 
-![](/img/lp-cc-4.png)
+![](/img/lp-cc-4b-1.png)
 
 These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered conversational commerce platform consists of:
 
