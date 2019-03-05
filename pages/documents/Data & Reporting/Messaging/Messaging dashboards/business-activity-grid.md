@@ -110,7 +110,8 @@ The LiveEngage campaign funnel ends with a successful assisted conversion. An as
 
 **In-session vs. Cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
 
-Note! A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
+{: .notice}
+A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
 
 **Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
 
@@ -250,7 +251,8 @@ Included in this panel is an engagement formats selector, allowing the filtering
 5. Slide-out
 6. Peeling corner
 
-![](/img/business-activity-dashboard5.png) _Business activity engagement analysis_
+![](/img/business-activity-dashboard5.png) 
+Business activity engagement analysis_
 
 ### Entry point panel
 
