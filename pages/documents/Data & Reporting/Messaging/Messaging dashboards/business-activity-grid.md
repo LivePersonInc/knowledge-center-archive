@@ -267,6 +267,6 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ![](/img/Business-activity-grid1.png)
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by Business Activity in the Developers Community.
+For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html)
 
 ![](/img/General-Data-metrics-table.png)
