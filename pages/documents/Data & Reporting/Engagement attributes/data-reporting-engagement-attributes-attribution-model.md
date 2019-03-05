@@ -46,4 +46,4 @@ Any change you make to the attribution model or time period takes effect immedia
 1. Go to the campaign list.
 2. From the footnote, set the conversion attribution model to first or last. This is to determine which agent will get the credit for the conversion, or in case of content banners, the first or last banner the visitor was exposed to.
 
-![](/img/attribution-model4.png)
+![](/img/attribution-model4-1.png)
