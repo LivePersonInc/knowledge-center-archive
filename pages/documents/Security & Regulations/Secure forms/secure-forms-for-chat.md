@@ -57,7 +57,7 @@ Following the completion of an onsite assessment, the LiveEngage secure form env
 
 An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
 
-![](https://lh3.googleusercontent.com/KxVjdM632DNYROVcT-u8NYWMrWTfhGUv4T7mJlC5ppmxZYzSTa3HV1LLkuTypUx_dLU7WGBwyFJHRaisuvuIi20YSJG9on8i-v8rdWQH_7u-s_cobn9VuueTBHLVPWG6SkW6zSCa =624x299)
+![](/img/Secure-forms-chat1.png)
 
 _Figure 1 Secure form within the agent workspace_
 
@@ -68,7 +68,7 @@ If there are other agents viewing the chat, they will not be able to view the se
 
 Example of a secure form in use:
 
-![](https://lh3.googleusercontent.com/jREa2lYO8dtJiKOf3wI3oImlq-8z-mpIr7k0p0NCoXKU2CwqpglNIDEplCX3JVh9z8QuFfw3fEEKx3vCBJX_bhTyy_VFmiXnIbpyQlSitvXmRSyQLB_X0nHP6WBD7710pCP2241v =624x331)
+![](/img/secure-form-chat2.png)
 
 _Figure 2: LivePerson secure form within an engagement window interaction_
 
@@ -86,7 +86,9 @@ Tokenization is a method of substituting data to render it meaningless to anyone
 
 The following diagram shows the process and security layers of a visitor completing a secure form and sending it to an agent.
 
-![](https://lh5.googleusercontent.com/KzEe2pW7z3DRLqT84XoiF0s8_mXN0r13T2ev89LFWke8uyox3crZy-2UR_z-YYT3whcb38pz-hy2uMe86QIdchJS_nubBKH8xx-Wol8Se4BUk8xWOTqHXO2fEWNzUQeIy0an_-ov =624x380)_Figure 3: Secure form visitor to agent flow chart_
+![](/img/secure-form-chat3.png)
+
+_Figure 3: Secure form visitor to agent flow chart_
 
 Below is a detailed explanation of the flow of the diagram above:
 
