@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
@@ -233,7 +234,6 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/What's New/december-2018.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
-- pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
 - pages/documents/What's New/october-2018.md
