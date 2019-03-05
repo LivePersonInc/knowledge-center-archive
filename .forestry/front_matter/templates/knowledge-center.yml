@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
 - pages/documents/Release Notes/February/week-of-february-18th.md
@@ -217,7 +218,6 @@ pages:
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-chat-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-for-messaging-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/time-frame.md
