@@ -13,7 +13,7 @@ isNew: false
 ---
 As an administrator you can add and manage up to 18,000 users in your account. Users in LivePerson have different permission sets, according to their roles.
 
-It’s also possible for brands to create profiles - customized permissions sets within roles, for additional user management flexibility. For further information on customizing profiles and permissions sets, see [profiles (permissions)]()
+It’s also possible for brands to create profiles - customized permissions sets within roles, for additional user management flexibility. For further information on customizing profiles and permissions sets, see [profiles (permissions)](admin-settings-permissions-customize-permissions.html)
 
 ![](/img/create-manage-users1.png)
 

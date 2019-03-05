@@ -32,11 +32,11 @@ Today, customer care is quickly becoming the way brands want to differentiate th
 
 From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upselling and customer care, conversational commerce is crucial throughout the customer journey.
 
-LivePerson’s conversational commerce platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows **consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities**.
+LivePerson’s conversational commerce platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities.
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
-![](/img/lp-cc-2b.png)
+![](/img/lp-cc-2b-1.png)
 
 ## Automation is the key to scalability
 
@@ -54,7 +54,7 @@ Automation and AI underpins LivePerson’s conversational commerce. Bots and AI 
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
 
-![](/img/lp-cc-4.png)
+![](/img/lp-cc-4b-1.png)
 
 These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered conversational commerce platform consists of:
 
@@ -78,7 +78,7 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 ### Agent tools to manage conversations at scale
 
-Offering a [agent and manager workspace](agent-manager-workspace-agent-tools-for-messaging-introduction-to-agents:-working-with-asynchronous-messaging.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
+Offering a agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
 
 The Conversation Manager enables brands to connect to popular messaging services and voice assistants, along with a brand's own apps, website, and phone systems. It also integrates the myriad backend systems necessary to fulfill customer intentions, like order status updates or reservation changes.
 

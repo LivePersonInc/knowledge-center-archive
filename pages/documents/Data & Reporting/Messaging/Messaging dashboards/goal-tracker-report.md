@@ -33,7 +33,8 @@ _Image 1- Agent goals tracker report main panel_
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Conversion/Goal by Agents (bar chart) | CROSS SESSION CONVERSION/GOAL | AGENT | N/A |
+| Conversion/Goal by Agents (bar chart) | CROSS SESSION CONVERSION/GOAL, IN SESSION CONVERSION/GOAL | AGENT | N/A |
+| Conversion/Goal by skill (bar chart) | CROSS SESSION CONVERSION/GOAL, IN SESSION CONVERSION/GOAL | SKILL | N/A |
 
 **Campaign goals by skill and agent (grid)**
 
@@ -55,8 +56,9 @@ The following metrics and attributes may be added to the predefined dashboard vi
 
 The goal tracker is currently unique in the sense that it captures engagement attributes sent to LivePerson from the brand’s website. The data source feeding the goal tracker includes all events indicating that a campaign goal was achieved. Each event contains relevant meta data per goal type. The following is a categorized list of goal types and their corresponding attributes that are included in the meta data:
 
-| Goal Type | Goal grouping | *Engagement Attribute | Goal Tracker Attribute/Metric Name |
-| --- | --- | --- | --- |
-| Service activity complete | Conversion | topic | TOPIC |
+EDEN - PLEASE ADD TABLE
 
-To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
+
+*To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
+
+** The “PRODUCT LIST” attribute is a delimited list of the Products included in the Cart Engagement attribute. The cart is included in the Transaction Engagement attribute which is intended to be passed upon a completion of purchase. The list of values includes: name, category, sku, price, and quantity.

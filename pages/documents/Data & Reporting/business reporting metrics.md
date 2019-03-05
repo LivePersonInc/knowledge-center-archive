@@ -1,11 +1,11 @@
 ---
-pagename: Business reporting metrics
+pagename: Reporting metrics
 categoryName: Data & reporting
 subCategoryName: ''
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: data-reporting-business-reporting-metrics.html
+permalink: data-reporting-reporting-metrics.html
 isTutorial: false
 
 ---

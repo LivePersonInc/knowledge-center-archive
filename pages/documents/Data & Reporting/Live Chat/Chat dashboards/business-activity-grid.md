@@ -55,13 +55,36 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * EXPOSED -Number of visits during which the visitor was offered an engagement
   * ENGAGED - Number of visitors who had at least one engagement during their visit
 
-    #### Distinct to Engagement
+  #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
   * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
   * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
   * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
   * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
   * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
+  
+  For example:
+
+The following campaign setup is given:
+
+![](/img/Example-Bus-activity-grid.png)
+
+Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
+
+* Offline “MainPage” button
+* Online “MainPage” button after moving to another page in the same section
+* Online “ProductPage” button
+
+Alex clicked the “ProductPage” button and conversed with an agent.
+
+Visitor **Rachel** is a prospect for the “Lead Gen” and “Service” campaign during the same visit. She sees the following:
+
+* Online “MyAccount” button
+* Offline “MainPage” button
+
+Rachel self served (meaning she did not converse with an agent during her visit).
+
+Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level.
 
 ## Reporting on campaigns funnel from messaging engagements
 
@@ -72,25 +95,6 @@ The LivePerson monitoring code present on your website pages automatically trans
 The following diagram outlines how funnel metrics are calculated for Messaging Engagements which do not originate from a monitored web source:
 
 ![](/img/business-activity-grid2.png)
-
-### Counting “sessions” from the Mobile App
-
-The LiveEngage platform manages consumer activity through “sessions”. A visitor (aka “consumer”) session on a website begins when the visitor enters a webpage monitored by LiveEngage Tag. In most cases, a session ends when the visitor navigates out of the website or closes the browser completely.
-
-Throughout the session, funnel events are transmitted to LiveEngage from the tag present on the web pages.  
-Similar to the activity on the website, LiveEngage will initiate a session when the mobile app requests a Campaign and Engagement in order to start the in-app conversational experience. This will result in an increase in the SESSIONS metric.
-
-### Conversions from the Mobile App
-
-The Business Activity dashboard offers a significant number of metrics which track conversions.
-
-The LiveEngage campaign funnel ends with a successful assisted conversion. An assisted conversion is achieved during or after a conversation with an agent. The mobile app, similar to the website, should report an Engagement Attribute which triggers a campaign goal.
-
-**In-session vs. Cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
-
-Note! A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
-
-**Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
 
 ## Main sheet: Business activity analysis
 
@@ -117,17 +121,17 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 | --- | --- | --- |
 | Prospects(bar chart - main axis) | PROSPECTS | WEEK |
 | Exposed | EXPOSED(bar chart - main axis) | WEEK |
-| EXPOSED RATE(line chart - secondary axis) |  | WEEK |
+| EXPOSED RATE(line chart - secondary axis) | N/A | WEEK |
 | Engaged | ENGAGED(bar chart - main axis) | WEEK |
-| ENGAGED RATE(line chart - secondary axis) |  | WEEK |
+| ENGAGED RATE(line chart - secondary axis) | N/A | WEEK |
 | Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) | WEEK |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  | WEEK |
+| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) | N/A | WEEK |
 
 **Trend (Grid)**
 
 **Rows (Attributes):** WEEK, Total, Average
 
-### **Columns (Metrics):**
+### Columns (Metrics):
 
 #### Funnel metrics
 
@@ -176,8 +180,7 @@ Each panel, in the bottom area, includes the general volume generated by each Lo
 
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
-| \[Object\] Name(bar chart) | PROSPECTS | LINE OF BUSINESS / CAMPAIGN / ENGAGEMENT |
-| ENGAGEMENTS |  |  |
+| \[Object\] Name(bar chart) | PROSPECTS, ENGAGENENTS| LINE OF BUSINESS / CAMPAIGN / ENGAGEMENT |
 
 ### Site panel
 
@@ -246,3 +249,7 @@ Perform the analysis and customization you need using an offline copy, in excel 
 ![](/img/Business-activity-grid1.png)
 
 ![](/img/Business-activity-dashboard2.png)
+
+For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html)
+
+![](/img/General-Data-metrics-table.png)

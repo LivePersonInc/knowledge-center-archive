@@ -33,16 +33,11 @@ Image 1 - Agent activity dashboard main panel
 | --- | --- | --- | --- |
 | Logged in time (pie chart) | LOGGED IN TIME | AGENT STATUS | Hover to view the % contribution of the angle |
 | Away Time(pie chart) | AWAY | AWAY REASON | Hover to view the duration of a specific away reason and the % contribution of the angle |
-| Engaged duration per state (bar chart) | ENGAGED TIME | DATE | Filter by Agent Status (attribute) |
-| NON ENGAGED TIME |  |  |  |
+| Engaged duration per state (bar chart) | ENGAGED TIME, NON ENGAGED TIME | DATE | Filter by Agent Status (attribute) |
 | Engagements per hour(bar chart) | INTERACTIVE ENGAGEMENTS PER HOUR | DATE | N/A |
-| Concurrency(line chart) | CONC. ENGAGED | DATE | N/A |
-| CONC. LABOR |  |  |  |
-| CONC. LOGGED IN |  |  |  |
-| Conversions(bar chart) | IN SESSION CONVERSIONS | DATE | N/A |
-| CROSS SESSION CONVERSIONS |  |  |  |
-| Revenue(bar chart) | IN SESSION REVENUE | DATE | N/A |
-| CROSS SESSION REVENUE |  |  |  |
+| Concurrency(line chart) | CONC. ENGAGED, CONC. LABOR, CONC. LOGGED IN | DATE | N/A |
+| Conversions(bar chart) | IN SESSION CONVERSIONS, CROSS SESSION CONVERSIONS | DATE | N/A |
+| Revenue(bar chart) | IN SESSION REVENUE, CROSS SESSION REVENUE | DATE | N/A |
 
 ## Panel 2: Agent activity grid
 

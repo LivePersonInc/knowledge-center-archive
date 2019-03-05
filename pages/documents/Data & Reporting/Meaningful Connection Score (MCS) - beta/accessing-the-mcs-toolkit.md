@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: both
 subtitle: Instructions on how to access the MCS toolkit
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(MCS)-accessing-the-toolkit.html
+permalink: data-reporting-meaningful-connection-score-(mcs)-accessing-the-toolkit.html
 isTutorial: false
 date: 2019-01-22 12:28:52 +0000
 isNew: false

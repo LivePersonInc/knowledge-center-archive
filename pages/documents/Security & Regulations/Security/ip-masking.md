@@ -5,7 +5,7 @@ subCategoryName: Security
 indicator: both
 subtitle: IP masking disables IP address storage for the purpose of regulatory compliance.
 level3: ''
-permalink: security-regulations-security-IP-masking.html
+permalink: security-regulations-security-ip-masking.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 09:46:01 +0000

@@ -77,7 +77,7 @@ Once new away state reasons have been added, the agent will be able to select fr
 
 ## **The all agent & messaging agent lists**
 
-For brands that have configured additional away state reasons, the _State Duration_ column in both the [all agent list](agent-manager-workspace-manager-tools-for-live-chat-the-all-agents-list.html) and [messaging agent list](agent-manager-workspace-manager-tools-for-messaging-the-messaging-agent-list.html) will now indicate the time elapsed since the agent set their current away state.
+For brands that have configured additional away state reasons, the _State Duration_ column in both the [all agent list](agent-manager-workspace-manager-tools-for-live-chat-the-all-agents-list.html) and [messaging agent list](agent-manager-workspace-manager-tools-for-messaging-the-messaging-agents-list.html) will now indicate the time elapsed since the agent set their current away state.
 
 {: .important}
 **Note:** There is no change in the way state duration is indicated for the Online and Back soon states.

@@ -9,7 +9,6 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.h
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false
-published: true
 
 ---
 The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
@@ -29,7 +28,7 @@ All Connections includes the following information:
 
 * **Status** - the status of the conversation, whether active or closed
 * **Consumer name -** the consumer’s name as recorded in the pre-chat survey
-* **MCS -** the Meaningful Connection Score and smiley, available for English language text analysis
+* **MCS -** the [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) with a smiley, available for English language text analysis
 * **Skill -** the skill assigned to the conversation
 * **Agent name -** the name of the agent(s) assigned to the conversation; due to the continuous nature of messaging conversations, it is likely that more than one agent will have been active in conversation with the consumer over time
 * **Agent group -** the agent group that the agent(s) assigned to the conversation belong to

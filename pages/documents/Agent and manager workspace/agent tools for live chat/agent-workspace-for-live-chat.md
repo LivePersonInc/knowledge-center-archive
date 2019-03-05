@@ -164,26 +164,29 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 ![](/img/agent-workspace-for-chat-19.png)
 
 {:start="2"}
+
 1. Choose the session type:
    * CoBrowse - View Only enables you to view the visitor’s screen only.
    * CoBrowse - Shared gives you full control over the current browser tab.
 
-	The consumer receives a notification asking them to accept the CoBrowse session.
+   The consumer receives a notification asking them to accept the CoBrowse session.
 
 {:start="3"}
+
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
 ![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
-2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the agent workspace
 
 In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the agent workspace.
 
 This process is recommended in order to streamline the agent’s work and can be achieved in two ways:
+
 * **Clear continuously:** The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
 * **Clear upon accumulation:** The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
@@ -199,9 +202,8 @@ The number of accumulated chats can be seen in the bottom right corner of the pa
 
 ![](/img/agent-workspace-for-chat-10.png)
 
-2. In the top right corner of the chat window, click the down arrow.
-
-3. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
+1. In the top right corner of the chat window, click the down arrow.
+2. From the drop-down menu choose Hide conversation. The chat is now cleared and is available in the Web History. It will no longer be displayed in the Agent workspace.
 
 ### To clear all closed chats:
 
