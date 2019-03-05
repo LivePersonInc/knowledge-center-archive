@@ -66,7 +66,7 @@ For example:
 
 The following campaign setup is given:
 
-![](https://docs.google.com/a/liveperson.com/drawings/d/seTm3zDalD3wgPJcdAoxPLw/image?w=682&h=148&rev=1&ac=1&parent=1ivv-8cJ4fn7637UZqkAA0ZNP3uXcT1afiZ-MUZgnRzE =682x148)
+!\[\](https://docs.google.com/a/liveperson.com/drawings/d/seTm3zDalD3wgPJcdAoxPLw/image?w=682&h=148&rev=1&ac=1&parent=1ivv-8cJ4fn7637UZqkAA0ZNP3uXcT1afiZ-MUZgnRzE =682x148)
 
 Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
 
@@ -122,7 +122,9 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 ![](/img/business-activity-dashboard3.png)
 
-There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement. In each panel, the following visualizations are in common.
+There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement. For all metrics available within this dashboard please search the [Report Builder Data Metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) by Business Activity in the Developers Community. 
+
+![](/img/Business -activit-dashboard-data-table.png)
 
 **Top data bar (Grid)**
 

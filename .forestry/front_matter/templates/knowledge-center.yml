@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
@@ -188,7 +189,6 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/configuring-response-times-for-messaging-conversations.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/goal-tracker-report.md
 - pages/documents/Contact Center Management/Campaigns/engagement-window.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Release Notes/September/week-of-september-24th.md
 - pages/documents/Release Notes/September/week-of-september-17th.md
 - pages/documents/Release Notes/December/week-of-december-2nd.md
