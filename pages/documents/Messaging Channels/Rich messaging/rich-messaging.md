@@ -23,19 +23,17 @@ The LiveEngage messaging solution allows brands to send messages to customers in
 * [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html)
 * [Audio messaging](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
 
+To see what structured content is available per messaging channel, please see the [messaging channels capabilities comparison](messaging-channels-messaging-channels-capabilities-comparison.html) chart.
+
 #### Structured content cards: build cards with buttons and images to turn a messaging experience in to a ‘one stop shop’ for customers.
 
 Structured content allows you to show simple cards which include text, images, catalogues, maps and buttons, to enhance the conversation with the consumer. When building your cards, you can have an ‘add to cart’ option, confirmation and deep linking buttons, turning a simple app interaction into conversational commerce. Structured content cards enables an improved and more efficient service opening up thousands of use cases- just what consumers expect from messaging.
 
 ![](/img/RM1 (1).png)
 
-Currently available for chat and messaging channels
-
 **Structured content carousel: display product catalogues or service offerings directly within the conversation.**
 
 The structured content carousel enables you to display several offerings on multiple cards directly within the conversation window. The carousel displays images along with direct action buttons which can help you drive sales without directing your consumers away from the messaging window.
-
-Currently available for In-App messaging, Web-Messaging, and Facebook Connector.
 
 See more in the [structured content user guide.](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html)
 
@@ -62,8 +60,6 @@ Please refer to photo sharing [photo sharing user guide](messaging-channels-rich
 **Audio messaging**: **Consumers can communicate with brands easier and faster by sending voice recordings**
 
 Audio messaging is ideal for consumers who want to send a long message and don’t want to type it on a small keypad and also mirrors the popular form of messaging amongst Generation Z. Consumers can tap, speak and send the audio message to an agent.
-
-Currently, it’s only available on mobile App (v2.3) but will be added to additional channels in August.
 
 For more information on audio messaging including configuration, please see our[ audio messaging user guide](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
 
