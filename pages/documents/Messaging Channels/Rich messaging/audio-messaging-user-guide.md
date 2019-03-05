@@ -23,9 +23,7 @@ In the short time since phone conversations have been abandoned for text-based c
 
 Audio messaging is ideal for consumers who would prefer to send a voice recording rather than typing a long response on a phone keypad. It is also beneficial for those with accessibility challenges or if they are using a keyboard not in their native language, or languages with a complicated keyboard (e.g. Russian). It is easier to send an Audio message rather than a typed message when both hands are busy (walking, cooking etc.)
 
-## Using audio messaging
-
-### Scope
+## Scope
 
 * Only a consumer can send an audio message to an agent
 * Audio messages will appear as part of the messaging history, but will not be transcribed from voice to text. A downloaded transcript will read “audio message”.
