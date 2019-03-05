@@ -3,7 +3,8 @@ pagename: Messaging performance dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
-subtitle: This predefined dashboard includes operational data for all messaging channels
+subtitle: This predefined dashboard includes operational and business data for all
+  messaging channels
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html
 isTutorial: false
@@ -12,7 +13,8 @@ date: 2019-01-15 14:29:49 +0000
 ---
 ## Agent level data sheet
 
-* The predefined dashboard includes operational data for all messaging channels
+The predefined dashboard includes operational and business data for all messaging channels
+
 * The primary datasets: agent and consumer messaging activity
 * Minimum timeframe: hourly
 * Primary Filters: agent, agent group, skill, source type
@@ -25,13 +27,13 @@ The following panel will be presented when accessing the messaging performance p
 
 _Image 1 - Agent performance summary_
 
-| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
+| Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | 
 | --- | --- | --- | --- |
-| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | Yes |
-| Activity State Breakdown (pie chart) | Away | away reason | Yes |
-| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | No |
-| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  |
-| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | No |
+| Agent State Activity (pie chart) | Away rate / back soon rate / online rate | N/A | 
+| Activity State Breakdown (pie chart) | Away | away reason |
+| Agent Response Times (line chart) | AVG. RESPONSE TIME BY AGENT / AVG. TIME TO AGENT FIRST RESPONSE | N/A | 
+| Agent KPI Trend (line chart) | MCS / CSAT SCORE Date | No |  
+| Agent KPI Trend (bar charts) | HANDLED CONVERSATIONS (bar chart) / AVG. CONVERSATION DURATION (line chart - secondary axis) / TOTAL NO. OF TRANSFERS (bar chart) | Date | 
 
 ### Top data bar (grid)
 

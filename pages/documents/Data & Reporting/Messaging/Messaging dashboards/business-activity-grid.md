@@ -54,13 +54,36 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * EXPOSED -Number of visits during which the visitor was offered an engagement
   * ENGAGED - Number of visitors who had at least one engagement during their visit
 
-    #### Distinct to Engagement
+  #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
   * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
   * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
   * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
   * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
   * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
+
+For example:
+
+The following campaign setup is given:
+
+![](https://docs.google.com/a/liveperson.com/drawings/d/seTm3zDalD3wgPJcdAoxPLw/image?w=682&h=148&rev=1&ac=1&parent=1ivv-8cJ4fn7637UZqkAA0ZNP3uXcT1afiZ-MUZgnRzE =682x148)
+
+Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
+
+* Offline “MainPage” button
+* Online “MainPage” button after moving to another page in the same section
+* Online “ProductPage” button
+
+Alex clicked the “ProductPage” button and conversed with an agent.
+
+Visitor **Rachel** is a prospect for the “Lead Gen” and “Service” campaign during the same visit. She sees the following:
+
+* Online “MyAccount” button
+* Offline “MainPage” button
+
+Rachel self served (meaning she did not converse with an agent during her visit).
+
+Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level
 
 ## Reporting on campaigns funnel from messaging engagements
 
@@ -116,11 +139,11 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 | --- | --- | --- |
 | Prospects(bar chart - main axis) | PROSPECTS | WEEK |
 | Exposed | EXPOSED(bar chart - main axis) | WEEK |
-| EXPOSED RATE(line chart - secondary axis) |  | WEEK |
+| EXPOSED RATE(line chart - secondary axis) | N/A | WEEK |
 | Engaged | ENGAGED(bar chart - main axis) | WEEK |
-| ENGAGED RATE(line chart - secondary axis) |  | WEEK |
+| ENGAGED RATE(line chart - secondary axis) | N/A | WEEK |
 | Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) | WEEK |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) |  | WEEK |
+| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) | N/A | WEEK |
 
 **Trend (Grid)**
 

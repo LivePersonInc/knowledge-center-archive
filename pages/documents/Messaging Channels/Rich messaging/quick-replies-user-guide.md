@@ -74,17 +74,17 @@ Define your use cases as quick replies can be used for a variety of applications
 
 ### Design a quick replies bundle
 
-A quick replies bundle does not exist on its own. An agent sends a message to the consumer (a question, a remark or even a [structured content](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html) message followed by a quick replies bundle).  
+A quick replies bundle does not exist on its own. An agent sends a message to the consumer (a question, a remark or even a [structured content](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html#what-is-structured-content) message followed by a quick replies bundle).  
 When designing the quick replies bundle, you should also design the coupled message assigned to it.
 
 Quick replies are based on a JSON structure. You can define 1-24 chips per bundle and determine the maximum number of chips per row (up to 8 chips per row). The chips will be distributed evenly across 1-3 rows, based on the defined total number of chips and max chips per row.
 
-Each quick replies chip is based on a structured content [button ](https://developers.liveperson.com/rich-messaging-basic-elements-button.html)which means it can hold:
+Each quick replies chip is based on a structured content button which means it can hold:
 
 1. Click Operation: with actions (link, navigate and publish text) and metadata.
 2. Styling and Branding Elements
 
-Build your quick replies bundles using the JSON specification in the [Developers’ Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html).
+Build your quick replies bundles using the JSON specification in the [Developers’ Community.](https://developers.liveperson.com/quick-replies-introduction-to-quick-replies.html#quick-reply-templates)
 
 ### Usage
 
@@ -97,14 +97,14 @@ Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpT
 
 ![](/img/Quickr3 (1).png)
 
-### **Virtual agent**
+### Virtual agent
 
 You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html).
 
 1. For more general information about using the SDK to integrate bots, [please refer to the Solution’s documentation](https://developers.liveperson.com/products-customer-facing-bots-overview.html).
-2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository: [example 1](https://github.com/LivePersonInc/node-agent-sdk#example-sending-text-with-quick-replies) and [example 2](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies).
+2. For specific examples of using the SDK to send quick replies, please refer to the SDK’s repository:  [Example](https://github.com/LivePersonInc/node-agent-sdk#example-sending-rich-content-structured-content-with-quick-replies)
 
-### **JSON builder**
+### JSON builder
 
 Create a JSON builder component to populate your JSON scaffolding. This tool can be constructed using your preferred method of development but needs to adhere to our quick replies schema and model.
 
@@ -122,15 +122,10 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 1. Use quick replies to prompt for specific next steps, or use them as answers for surveys or conversational forms.
 2. Use short texts in the chip's title - be brief and precise.
 3. If you wish the agent to be able to follow on the consumer's clicks, we recommend adding publish text click-event to each chip. The publish-text click-event will add a message to the transcript on behalf of the consumer, which will be available for the agent to follow.
-4. Don't use quick replies if you wish to let consumers use them more than once. Quick Replies disappear after a chip was clicked (or consumer made another action in the conversation window). Use [Structured Content templates](http://localhost:4000/rich-messaging-structured-content-card.html) instead as they stay persistent in the conversation.
+4. Don't use quick replies if you wish to let consumers use them more than once. Quick Replies disappear after a chip was clicked (or consumer made another action in the conversation window). Use [Structured Content](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html) templates instead as they stay persistent in the conversation.
 
 ## Notes
 
 * The configured quick replies responses available in the agent workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (web messaging and in-app messaging, as well as Facebook).
 * When an agent sends a quick replies message to a consumer, it will trigger a push notification. The push notification will show the Agent’s message which preceded the Quick Replies bundle.
 * You can show between one and twenty-four chips within a quick replies bundle.
-
-## Helpful Links
-
-1. [Developers Community](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html)
-2. [Code samples](https://developers.liveperson.com/rich-messaging-quick-replies-overview.html#example)

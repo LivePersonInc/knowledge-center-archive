@@ -134,6 +134,10 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
+- pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
+- pages/documents/Release Notes/November /week-of-november-5th.md
+- pages/documents/Release Notes/February/week-of-february-18th.md
 - pages/documents/Getting Started/getting-started-with-bots.md
 - pages/documents/Troubleshooting/Support/Case-management-support.md
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
@@ -159,9 +163,7 @@ pages:
 - pages/documents/Getting Started/getting-started-with-messaging.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
-- pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
-- pages/documents/Release Notes/February/week-of-february-18th.md
 - pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
 - pages/documents/Release Notes/February/week-of-february-11th.md
@@ -197,7 +199,6 @@ pages:
 - pages/documents/Release Notes/October/week-of-october-22nd.md
 - pages/documents/Release Notes/January/week-of-january-28th.md
 - pages/documents/Release Notes/January/week-of-january-20th.md
-- pages/documents/Release Notes/November /week-of-november-5th.md
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
@@ -217,7 +218,6 @@ pages:
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-chat-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-for-messaging-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/time-frame.md
