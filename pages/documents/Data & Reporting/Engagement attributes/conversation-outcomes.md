@@ -48,20 +48,20 @@ To enable this feature:
    ![](/img/conversation-outcomes2.png)
 
 {:start="3"}  
-3\. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
+3. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
 
-4\. Click submit by agent.
+4. Click submit by agent.
 
 ![](/img/conversation-outcomes3.png)
 
 {:start="5"}  
-5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
+5. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
 
-6\. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
+6. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
 
-7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
+7. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
 
-8\. Click save.
+8. Click save.
 
 ## Using conversation outcomes
 
