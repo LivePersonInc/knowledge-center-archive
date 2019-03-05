@@ -59,4 +59,6 @@ The goal tracker is currently unique in the sense that it captures engagement at
 EDEN - PLEASE ADD TABLE
 
 
-To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
+*To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
+
+** The “PRODUCT LIST” attribute is a delimited list of the Products included in the Cart Engagement attribute. The cart is included in the Transaction Engagement attribute which is intended to be passed upon a completion of purchase. The list of values includes: name, category, sku, price, and quantity.
