@@ -57,9 +57,13 @@ If your utilized capacity is low, then either you are not busy enough, or the vo
 
 ### CSAT
 
-![](https://lh3.googleusercontent.com/u5HYcclrm2o8U5hqMY8_018phiSXdzaGVaaEWsVe95Gp-vHmubaTopOD7xKIZyRL3Lxmyovm40gsMuQsbKIm0cZP7UZZE33Sa2rneTntvzwlV4JHxsD3ijup57qV9rrf5IjRvLTF =282x35)
+This score reflects your customers’ rating of your engagement with them. The data is collected from customers in the post-chat survey. By reading your CSAT score, you can see if you need to improve your chatting skills. You can get guidance and help from your manager and your peers.
 
-Monitor your Data Bar, to make sure that you are meeting your goals. If your utilization and CSAT scores are below par, get help from your manager or your peers.
+CSAT = Total number of positive answers / total number of answers
+
+Monitor your data bar, to make sure that you are meeting your goals. If your utilization and CSAT scores are below par, get help from your manager or your peers.
+
+You can also monitor performance with the Agent Dashboard.
 
 ## Agent real time dashboard
 
