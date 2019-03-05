@@ -88,7 +88,7 @@ The first line of your CSV has to include the field headers described below, in 
 * **Skills** (mandatory) – the list of skills that are associated      with the predefined content item. Only predefined content that is      associated with the current engagement's skill will be displayed in the      Agent Workspace. This field can contain multiple skills separated by semicolons.
 * **LOBs** (Lines of Business - an      optional value) – the list of Lines of Business that were associated with the      predefined content item. This field can contain multiple LOBs separated by      semicolons.
 
-![](/img/importing pdc.png)
+![](/img/importing-predefined-content-1b.png)
 
 {: .notice}
 **Note**: If you have different translations for the same predefined content, you will need to have one line per language. Besides the “Language” and “Title” and “Text” all values should be the same.
