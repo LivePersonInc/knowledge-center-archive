@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
@@ -228,7 +229,6 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/photo-sharing-user-guide.md
 - pages/documents/Messaging Channels/Rich messaging/rich-messaging.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/What's New/december-2018.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
