@@ -17,7 +17,8 @@ As you go about your shift, your own agent data bar will display on the top of y
 
 The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
 
-![](/img/undertandagentperf1.png)  
+![](/img/understanding-agent-performance-1b.png)
+
 **OPEN:** number of current open conversations
 
 **PENDING:** number of conversations pending agent response
