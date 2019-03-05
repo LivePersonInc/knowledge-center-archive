@@ -65,13 +65,3 @@ function displayInput () {
 	 });
 }, 2000);
 }
-
-// $(document).ready(function () {
-// 	$('.fa-arrow-down').on('click', function () {
-// 		var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
-// 		$('body, html').animate({ scrollTop: bottom }, 1000);
-// 		$(this).css({
-// 			transform: 'translateY(' + bottom +'px)',
-// 			transform: 'rotate(180deg)'});
-// 	});
-// });

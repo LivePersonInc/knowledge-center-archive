@@ -6,7 +6,7 @@ indicator: both
 subtitle: Analysis of performance at the account level, agent level, conversation
   level, and even message by message
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(mcs)-using-the-mcs-toolkit.html
+permalink: data-reporting-meaningful-connection-score-(MCS)-using-the-mcs-toolkit.html
 isTutorial: false
 date: 2019-01-22 13:45:11 +0000
 isNew: false
