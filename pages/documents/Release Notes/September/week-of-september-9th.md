@@ -132,7 +132,7 @@ Once the survey contains no warnings, hit the Publish button to have the survey 
 
 While the survey is active the agent won’t be able to write in the conversation. The survey would end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
 
-For more information on this feature, please refer to the [User Guide](). Please also refer to the release notes for \[Post Conversation Survey Reporting\].()
+For more information on this feature, please refer to the [User Guide](bots-automation-post-conversation-survey.html). 
 
 ### Facebook Messenger and Apple Business Chat support for Post Conversation Survey (LE-90206, LE-89069)
 
