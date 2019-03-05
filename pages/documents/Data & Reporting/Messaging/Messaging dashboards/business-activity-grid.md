@@ -122,9 +122,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 ![](/img/business-activity-dashboard3.png)
 
-There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement. For all metrics available within this dashboard please search the [Report Builder Data Metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) by Business Activity in the Developers Community. 
-
-![](/img/Business -activit-dashboard-data-table.png)
+There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement.
 
 **Top data bar (Grid)**
 
@@ -268,3 +266,7 @@ The business activity grid spreads out all the funnel metrics in a granular view
 Perform the analysis and customization you need using an offline copy, in excel using the complete business activity grid. You can choose the document type (daily/monthly) based on your needed timeframe. The daily grid gives daily aggregations for all the [metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer) while the monthly grid offers the corresponding aggregations at the monthly level. The data is presented at the brand, campaign and engagement level.
 
 ![](/img/Business-activity-grid1.png)
+
+For all metrics available within this dashboard please search the Report Builder Data Metrics by Business Activity in the Developers Community.
+
+![](/img/General-Data-metrics-table.png)

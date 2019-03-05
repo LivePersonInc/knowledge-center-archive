@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
@@ -231,7 +232,6 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/get-information-on-consumers-transactions.md
 - pages/documents/What's New/december-2018.md
 - pages/documents/Contact Center Management/Live chat operations/managing-maximum-wait-times.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Security & Regulations/audit-trails.md
 - pages/documents/Security & Regulations/accessibilty-policy.md
 - pages/documents/Security & Regulations/Security/configure-your-firewall.md
