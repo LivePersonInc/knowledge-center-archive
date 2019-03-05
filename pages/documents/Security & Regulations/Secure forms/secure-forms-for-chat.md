@@ -10,6 +10,7 @@ permalink: security-regulations-secure-forms-secure-forms-for-chat-user-guide.ht
 isTutorial: false
 isNew: false
 date: 2019-01-29 11:36:31 +0000
+published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The LiveEngage secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -168,10 +169,10 @@ The following permission for agent managers also relates to secure forms, but do
 
 To verify that permissions are enabled:
 
-1.    In the users tab, click on the profiles page.
-2.    Click on the ‘agent’ profile. The edit profile page will open.
-3.    Under permissions, scroll down to confirm that the ‘use secure form within a conversation’ permission is enabled.
-4.    Click save.
+1. In the users tab, click on the profiles page.
+2. Click on the ‘agent’ profile. The edit profile page will open.
+3. Under permissions, scroll down to confirm that the ‘use secure form within a conversation’ permission is enabled.
+4. Click save.
 
 {: .notice}  
 If a you would like to enable the secure forms permission for some agents, but not for others, this can be achieved by creating a new custom profile within the agent role. For further information, refer to the [customize user profiles](admin-settings-permissions-customize-permissions.html) documentation.
