@@ -1,12 +1,12 @@
 ---
-pagename: Real time messaging dashboard overview (beta)
+pagename: Real time messaging dashboard (beta)
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: Leverage the power of the real-time operational and administrative APIs
   to enable users to monitor the brand’s account health
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html
+permalink: data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-beta.html
 isTutorial: false
 date: 2019-01-21 13:40:12 +0000
 isNew: false
