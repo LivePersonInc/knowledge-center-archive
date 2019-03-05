@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
@@ -255,7 +256,6 @@ pages:
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/business-activity-grid.md
-- pages/documents/Data & Reporting/Live Chat/agent-manager-historical-data.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-basics.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-for-messaging-tour.md

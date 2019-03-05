@@ -1,13 +1,14 @@
 ---
 pagename: Agent manager historical data
 categoryName: Data & reporting
-subCategoryName: Meaningful Connection Score (MCS)
+subCategoryName: Web messaging
 indicator: both
 subtitle: Agent managers can get historical data on agent activity
 level3: ''
 permalink: data-reporting-live-chat-agent-manager-historical-data.html
 isTutorial: false
 date: 2019-01-21 11:14:09 +0000
+isNew: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
