@@ -66,7 +66,7 @@ For example:
 
 The following campaign setup is given:
 
-!\[\](https://docs.google.com/a/liveperson.com/drawings/d/seTm3zDalD3wgPJcdAoxPLw/image?w=682&h=148&rev=1&ac=1&parent=1ivv-8cJ4fn7637UZqkAA0ZNP3uXcT1afiZ-MUZgnRzE =682x148)
+![](/img/Example-Bus-activity-grid.png)
 
 Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
 
