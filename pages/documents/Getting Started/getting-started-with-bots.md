@@ -3,7 +3,8 @@ pagename: Getting started with bots
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
-subtitle: Learn how to get started building a bot with everything from creating a use case, choosing a host and connecting conversations.
+subtitle: Learn how to get started building a bot with everything from creating a
+  use case, choosing a host and connecting conversations.
 level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
@@ -13,7 +14,7 @@ date: 2019-02-11 12:56:04 +0000
 ---
 ## The benefits of bots in LivePerson
 
-Check out our in depth article on: [How bots work in LivePerson](how-bots-work-with-liveperson.html). Here’s a summary of main concepts
+Check out our in depth article on: [How bots work in LivePerson](bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
 
 * **Humans and bots work together in LivePerson**  
   In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to easily manage and take over conversations when needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
