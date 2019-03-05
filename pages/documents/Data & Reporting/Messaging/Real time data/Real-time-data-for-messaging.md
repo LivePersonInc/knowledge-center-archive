@@ -5,8 +5,8 @@ subCategoryName: Messaging
 indicator: messaging
 subtitle: Keep an eye on the data bar and dashboard to understand operational performance
   as well as agent performance
-level3: ''
-permalink: data-reporting-messaging-real-time-data-for-messaging.html
+level3: Real time data
+permalink: data-reporting-messaging-real-time-data-real-time-data-for-messaging.html
 isTutorial: false
 date: 2019-01-15 11:35:30 +0000
 
