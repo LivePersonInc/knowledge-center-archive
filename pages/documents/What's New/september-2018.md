@@ -26,7 +26,7 @@ This month we are excited to introduce the Resume conversation feature which ena
 
 #### Collect customer feedback after the conversation ends
 
-The [Post Conversation Survey](Bots-automation-post-conversation-survey.html) was officially launched this month and delivers surveys in a conversational experience to drive higher completion rates. The PCS enables you to measure agent and skill performance and to identify opportunities to improve on quality targets. The survey is automatically triggered at the end of a conversation with a consumer, without utilizing the time of a human agent. The bot can ask specialized questions and is designed to provide CSAT, FCR and NPS metrics as well as Open ended questions.
+The [Post Conversation Survey](bots-automation-post-conversation-survey.html) was officially launched this month and delivers surveys in a conversational experience to drive higher completion rates. The PCS enables you to measure agent and skill performance and to identify opportunities to improve on quality targets. The survey is automatically triggered at the end of a conversation with a consumer, without utilizing the time of a human agent. The bot can ask specialized questions and is designed to provide CSAT, FCR and NPS metrics as well as Open ended questions.
 
 ![](/img/post-conversation-survey (2).gif)
 
@@ -72,7 +72,7 @@ Using Apple Business Chat you can now increase direct sales and offer more servi
 
 #### Use in-conversation authentication via ABC
 
-The new Apple Business Chat [authenticated interactive message](messaging-channels-web-messaging-authenticated-web-messaging.html) enables you to authenticate consumers within the conversation window. The authentication messages can be shared by agents via the structured content framework, and will be out of the box and supported for consumers in iOS 12 release.
+The new Apple Business Chat authenticated interactive message enables you to authenticate consumers within the conversation window. The authentication messages can be shared by agents via the structured content framework, and will be out of the box and supported for consumers in iOS 12 release.
 
 ![](/img/sept-newsletter-5.png)
 
