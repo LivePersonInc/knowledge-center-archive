@@ -1,11 +1,11 @@
 ---
-pagename: 'Set up and management '
+pagename: Set up and management
 categoryName: Troubleshooting
 subCategoryName: Web messaging
 indicator: messaging
-subtitle: 'Troubleshooting for all questions relating to set up and management '
+subtitle: Troubleshooting for all questions relating to set up and management
 level3: ''
-permalink: 'troubleshooting-web-messaging-set-up-and-management.html '
+permalink: troubleshooting-web-messaging-set-up-and-management.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 15:16:26 +0200
@@ -70,7 +70,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 
 ### Why doesn’t the CSAT survey display to all consumers once their conversations are closed?
 
-#### Issue: 
+#### Issue:
 
 When some conversations are closed, the CSAT survey doesn’t display to the consumer. Why isn’t it consistent?
 
