@@ -16,7 +16,7 @@ Depending on the product or service your consumers are interested in, every cons
 
 As a campaign manager, you want to identify which engagement made your visitor convert; was it due to a chat, message or content engagement? Was the engagement in the current session or a previous one? LivePerson uses a cross session period and an attribution model to do this.
 
-The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. Following the engagement, visitors may require time to decide which product or service is right for them, or may wish to involve others in the purchasing decision. 
+The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. Following the engagement, visitors may require time to decide which product or service is right for them, or may wish to involve others in the purchasing decision.
 
 When the customer returns to your site to complete their goal, if the event occurs within the window of influence (the time you deem as an appropriate period to allow the customer to reflect on your engagement), the conversion will be credited to either a [campaign](contact-center-management-campaigns-campaigns-overview.html) or agent in LivePerson. In the case of a visitor being exposed to a content banner as well as participating in a chat or web messaging conversation, the conversation will always get the credit for the conversion.
 
@@ -39,11 +39,11 @@ Any change you make to the attribution model or time period takes effect immedia
 1. Go to the campaign list.
 2. From the footnote, set the cross session period. This is the number of days you want to track visitors who return after a campaign exposure.
 
-![](/img/attribution-model2.png)
+![](/img/attribution-model3.png)
 
 ## Configure your account’s attribution model
 
 1. Go to the campaign list.
 2. From the footnote, set the conversion attribution model to first or last. This is to determine which agent will get the credit for the conversion, or in case of content banners, the first or last banner the visitor was exposed to.
 
-![](/img/attribution-model3.png)
+![](/img/attribution-model4.png)
