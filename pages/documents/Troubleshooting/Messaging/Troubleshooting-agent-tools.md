@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: both
 subtitle: Troubleshooting on questions relating to agent tools
 level3: ''
-permalink: troubleshooting-web-messging-agent-tools.html
+permalink: troubleshooting-web-messaging-agent-issues.html
 isTutorial: false
 isNew: false
 date: 2019-02-28 13:55:33 +0200
