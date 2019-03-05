@@ -6,7 +6,7 @@ indicator: both
 subtitle: The business activity grid spreads out the funnel metrics in a granular
   view
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-business-activity-grid
+permalink: data-reporting-live-chat-chat-dashboards-business-activity-dashboard-and-grid.html
 isTutorial: false
 date: 2019-01-21 11:51:07 +0000
 isNew: false
