@@ -20,7 +20,7 @@ The LivePerson messaging solution allows brands to enrich the conversions with t
 
 Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers.
 
-It creates an easier, faster way for consumer to respond to messages. For [bot ](getting-started-getting-started-with-bots.html)interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
+It creates an easier, faster way for consumer to respond to messages. For bot interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
 Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
 
@@ -40,19 +40,19 @@ Quick replies are available on our mobile app and web messaging channels, as wel
 
 The following examples are a selection of a variety of quick replies flows that can be customized to bring richness to conversations.
 
-## Dynamic survey flow
+### Dynamic survey flow
 
 Use the quick replies for building a dynamic survey flow.  
 Break down the traditional survey structure by sending the survey question as a regular message, and the survey answers as a quick replies bundle.
 
 ![](/img/QuickR2 (1).png)
 
-## Dialogue flow
+### Dialogue flow
 
 Use the quick replies for building a dialogue flow with the consumer, allowing the consumer to choose the next option in their messaging journey.  
 It allows for directing the conversation to a desired path, understanding the intent of the consumer and providing a tailored response to the consumer’s need.
 
-## Configurations
+## Configuration
 
 To enable and build quick replies for use on your messaging channels, we recommend working with your LivePerson representative on the steps below.
 
