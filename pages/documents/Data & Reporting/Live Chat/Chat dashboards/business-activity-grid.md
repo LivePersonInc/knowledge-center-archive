@@ -73,25 +73,6 @@ The following diagram outlines how funnel metrics are calculated for Messaging E
 
 ![](/img/business-activity-grid2.png)
 
-### Counting “sessions” from the Mobile App
-
-The LiveEngage platform manages consumer activity through “sessions”. A visitor (aka “consumer”) session on a website begins when the visitor enters a webpage monitored by LiveEngage Tag. In most cases, a session ends when the visitor navigates out of the website or closes the browser completely.
-
-Throughout the session, funnel events are transmitted to LiveEngage from the tag present on the web pages.  
-Similar to the activity on the website, LiveEngage will initiate a session when the mobile app requests a Campaign and Engagement in order to start the in-app conversational experience. This will result in an increase in the SESSIONS metric.
-
-### Conversions from the Mobile App
-
-The Business Activity dashboard offers a significant number of metrics which track conversions.
-
-The LiveEngage campaign funnel ends with a successful assisted conversion. An assisted conversion is achieved during or after a conversation with an agent. The mobile app, similar to the website, should report an Engagement Attribute which triggers a campaign goal.
-
-**In-session vs. Cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
-
-Note! A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
-
-**Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
-
 ## Main sheet: Business activity analysis
 
 Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. Since the panels are identical in metrics and attributes, the following section outlines the common list of metrics, followed by the additional functionality at the relevant level.
@@ -127,7 +108,7 @@ There are four available panels in this dashboard: Site, LoB, Campaign, and Enga
 
 **Rows (Attributes):** WEEK, Total, Average
 
-### **Columns (Metrics):**
+### Columns (Metrics):
 
 #### Funnel metrics
 
