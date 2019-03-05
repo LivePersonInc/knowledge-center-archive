@@ -92,14 +92,14 @@ Build your quick replies bundles using the JSON specification in the [Developers
 
 Determine if the quick replies should be used for a human or virtual agent journey.
 
-### Human agent
+### Human agent setup
 
 **Agent:** you will need to implement a new widget based on the [Agent Workspace Widget SDK](https://developers.liveperson.com/agent-workspace-sdk-overview.html).  
 Use the ‘Write ChatLine’ or the 'Write StructuredContent' (var cmdName = lpTag.agentSDK.cmdNames.writeSC) commands with a quickRelies payload. This command sends a JSON that represents a Quick Reply input. For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/agent-workspace-sdk-methods.html#command).
 
 ![](/img/Quickr3 (1).png)
 
-### Virtual agent
+### Virtual agent setup
 
 You will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html).
 
@@ -119,7 +119,7 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 2. Each chip title is set to have a maximum of 25 characters. If more characters are set then the first 22 characters will be used with ellipsis.
 3. If a consumer decides to type the text of the chip, instead of clicking on it, then no click-operation will be executed (no action or metadata will be sent to the server). If your bot depends on such data, consider "teaching" the bot to accept typed-replies, and not just clicked-replies.
 
-## Best practice
+## Best practices
 
 1. Use quick replies to prompt for specific next steps, or use them as answers for surveys or conversational forms.
 2. Use short texts in the chip's title - be brief and precise.
