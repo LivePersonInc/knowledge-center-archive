@@ -56,8 +56,7 @@ The following metrics and attributes may be added to the predefined dashboard vi
 
 The goal tracker is currently unique in the sense that it captures engagement attributes sent to LivePerson from the brand’s website. The data source feeding the goal tracker includes all events indicating that a campaign goal was achieved. Each event contains relevant meta data per goal type. The following is a categorized list of goal types and their corresponding attributes that are included in the meta data:
 
-| Goal Type | Goal grouping | *Engagement Attribute | Goal Tracker Attribute/Metric Name |
-| --- | --- | --- | --- |
-| Service activity complete | Conversion | topic | TOPIC |
+EDEN - PLEASE ADD TABLE
+
 
 To learn more about engagement attributes, [click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)
