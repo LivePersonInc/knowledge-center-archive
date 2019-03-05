@@ -22,7 +22,7 @@ The agent workspace acts as a centralized location for agents to manage all of t
 
 The Web Visitors list displays all visitors currently on your website, along with information about each visitor’s geolocation, browser details, and IP address. The visitor’s current location on your website is also displayed.
 
-![](/img/agent-workspace-for-chat-1b.png)
+![](/img/agent-workspace-for-chat-1.png)
 
 ### Sort visitors
 
