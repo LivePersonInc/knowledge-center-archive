@@ -129,7 +129,7 @@ This panel presents a deep dive into missed opportunity as it pertains to actual
 
 ## Microstrategy terminology
 
-Microstrategy sources: [Link ](http://www2.microstrategy.com/producthelp/10.2/MobileServer/WebHelp/Lang_1033/Content/MobileDesignAndAdmin/Glossary.htm)
+Microstrategy sources: [Link ](https://community.microstrategy.com/s/learning-center?language=en_US)
 
 | Term | Description |
 | --- | --- |
