@@ -12,13 +12,17 @@ isNew: false
 date: 2019-01-27 07:47:02 +0000
 
 ---
-Photo sharing is available for the following [messaging connectors](messaging-channels-messaging-connectors-overview.html): Google RCS Business Messaging, WhatsApp Business, Apple Business Chat and Twilio SMS (for Twilio, only available in the US and Canada).
+Photo sharing makes messaging a more visual experience, increasing communication efficiency and reducing time to resolution.
+
+Photo sharing empowers consumers to share images with agents to explain complex issues or requests quicker and more accurately. Photo Sharing is currently in beta version
+
+**To see what messaging channels support photo sharing, please see the** [**messaging channels capabilities comparison**](messaging-channels-messaging-channels-capabilities-comparison.html) **chart.**
 
 ![](/img/Photo sharing Gif-1.gif)
 
-## Configurations
+## Configuration
 
-1. To enable the feature for any channel, please contact you LivePerson representative.
+1. To enable the feature for any channel, please contact your LivePerson representative.
 2. To configure mobile-app (as part of the SDK): [Android ](https://developers.liveperson.com/android-photo-sharing.html#enable-photo-sharing)& [iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-photosharing.html#enable-photo-sharing)
 3. For messaging connectors: no additional configuration is required
 4. Web:
@@ -31,7 +35,7 @@ Photo sharing is available for the following [messaging connectors](messaging-ch
 
 ## Consumer side: sending a photo
 
-Consumers can share photos from two sources :
+Consumers can share photos from two sources:
 
 1. Take a photo using the device’s camera and share it
 2. Share a photo from their device’s Photo Library
@@ -154,7 +158,7 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 * No actions on photo (copy/ delete etc.).
 * Supported image formats: png, jpg, jpeg and gif (non-animated).
 
-  ### Behavior
+### Behavior
 
 Photo size reduction:
 
