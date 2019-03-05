@@ -80,7 +80,7 @@ The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 
 ## Languages supported in CoBrowse
 
-[CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html) supports the following 13 languages in the Agent Workspace and on the visitor side:
+[CoBrowse](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) supports the following 13 languages in the Agent Workspace and on the visitor side:
 
 * English (US)
 * Chinese (Simplified)
