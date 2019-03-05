@@ -33,7 +33,8 @@ _Image 1- Agent goals tracker report main panel_
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Conversion/Goal by Agents (bar chart) | CROSS SESSION CONVERSION/GOAL | AGENT | N/A |
+| Conversion/Goal by Agents (bar chart) | CROSS SESSION CONVERSION/GOAL, IN SESSION CONVERSION/GOAL | AGENT | N/A |
+| Conversion/Goal by skill (bar chart) | CROSS SESSION CONVERSION/GOAL, IN SESSION CONVERSION/GOAL | SKILL | N/A |
 
 **Campaign goals by skill and agent (grid)**
 
