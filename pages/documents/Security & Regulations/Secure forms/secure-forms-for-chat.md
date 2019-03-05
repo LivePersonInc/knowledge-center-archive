@@ -10,7 +10,6 @@ permalink: security-regulations-secure-forms-secure-forms-for-chat-user-guide.ht
 isTutorial: false
 isNew: false
 date: 2019-01-29 11:36:31 +0000
-published: false
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The LiveEngage secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
