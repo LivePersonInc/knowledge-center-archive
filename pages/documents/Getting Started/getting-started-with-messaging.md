@@ -93,7 +93,7 @@ See the [messaging channels capabilities comparison matrix](messaging-channels-m
 
 {:start="5"}
 
-1. **Secure forms**: take payments or verify secure identities of customers using  PCI compliant [secure forms](security-regulations-secure-forms-secure-forms-for-chat-user-guide.html) within the conversation window.
+1. **Secure forms**: take payments or verify secure identities of customers using  PCI compliant[ secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html) within the conversation window.
 
 {: .notice}  
 Additional instructions for designing customer experience elements such as [banners](contact-center-management-campaigns-creating-buttons-and-banners.html) and [messaging window UI](contact-center-management-campaigns-engagement-window.html) can be found within each of the connector set up guides (linked above).
