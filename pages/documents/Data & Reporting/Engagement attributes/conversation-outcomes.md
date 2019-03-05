@@ -26,7 +26,7 @@ Conversion reporting on sales transactions, lead generation and service activiti
 
 ## Setting up conversation outcomes
 
-There are three types of [engagement attributes]() that agents can report on:
+There are three types of [engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) that agents can report on:
 
 | Engagement attributes | Data category | Available properties |
 | --- | --- | --- |
