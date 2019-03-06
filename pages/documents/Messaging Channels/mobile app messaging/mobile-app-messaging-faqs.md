@@ -11,7 +11,7 @@ date: 2019-01-17 12:48:01 +0000
 isNew: false
 
 ---
-## Configuring essaging
+## Configuring Messaging
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
