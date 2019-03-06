@@ -98,7 +98,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: Do agents need to install software on their computers?
 
-**A:** No installation or plug-ins are required as the LiveEngage Platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to LiveEngage [System Requirements](admin-settings-system-requirements-supported-languages.html).
+**A:** No installation or plug-ins are required as the LiveEngage Platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to LiveEngage [System Requirements](admin-settings-system-requirements.html).
 
 ### Q: What reports are available?
 
