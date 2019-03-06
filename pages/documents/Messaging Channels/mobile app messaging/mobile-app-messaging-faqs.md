@@ -141,7 +141,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: What are the supported operating systems and browsers?
 
-**A:** Refer to [LiveEngage System Requirements](admin-settings-system-requirements-supported-languages.html) for information on supported operating systems and browsers.
+**A:** Refer to [LiveEngage System Requirements](admin-settings-system-requirements.html) for information on supported operating systems and browsers.
 
 ### Q: Where is LivePerson hosted?
 
