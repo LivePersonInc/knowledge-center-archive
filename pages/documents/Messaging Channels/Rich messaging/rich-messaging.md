@@ -18,7 +18,7 @@ The LiveEngage messaging solution allows brands to send messages to customers in
 **Rich messaging includes:**
 
 * [Structured content cards](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html#why-use-structured-content)
-* [Structured content carousel](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#capability-highlights)
+* [Structured content carousel](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#carousel)
 * [Quick replies](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 * [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html)
 * [Audio messaging](messaging-channels-rich-messaging-audio-messaging-user-guide.html)
