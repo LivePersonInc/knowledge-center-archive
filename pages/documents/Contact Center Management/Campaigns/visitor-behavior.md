@@ -23,11 +23,14 @@ Consumers who show intent to purchase higher-value products or services are know
 
 LiveEngage allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
 
-Decide when to display engagements by selecting conditions that will be applied to your users’ behavior. Here is a list of the currently available conditions:
+Decide when to display engagements by selecting conditions that will be applied to your users’ behavior. 
+
+Here is a list of the currently available conditions:
 
 ### 1. Flow:
 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
+
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
@@ -59,6 +62,7 @@ Engage consumers that are about to abandon your site or app. Based on data from 
 ### 5. Cart Value:
 
 Target consumers according to the value of their shopping cart. Visitors can be targeted by their cart value in three ways:
+
 * Their cart value is between two defined parameters (in any currency) - for example, ‘Cart value is 50 to 100’
 * The total value of their cart has decreased
 * The total value of their cart has decreased to 0
@@ -92,6 +96,7 @@ Visitor Error is an Engagement Attribute; for more information on reporting this
 ### 9. Engaged in Session:
 
 Target consumers who interacted with engagements according to their status:
+
 * **Exposed** - the consumer has previously viewed another engagement
 * **Declined** - the consumer has previously closed another engagement
 * **Clicked** - the consumer has previously clicked on another engagement
@@ -105,6 +110,7 @@ You can also exclude engagements from appearing based on one or more of the abov
 ### 10. Service Activity:
 
 Target consumers by their service journey topics. A service journey is a series of key actions taken by a consumer when using your website or mobile app. A service journey, such as ordering a checkbook or software usage, can be measured using a service activity engagement attribute. In order to define the service activity behavior, enter the service topic name e.g. order checkbook, and define the status of the topic from the following:
+
 * Complete
 * In Progress
 * Approved
@@ -141,15 +147,15 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
+3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 ![](/img/visitor-behavior-9.gif)
 
 {:start="5"}
-5. After saving the flow, it will appear in the flows list.
-6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7. Click to save visitor behavior.
+5\. After saving the flow, it will appear in the flows list.
+6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7\. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
