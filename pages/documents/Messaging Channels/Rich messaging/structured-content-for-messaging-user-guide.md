@@ -40,7 +40,7 @@ Structured content is available on our mobile-app messaging, web messaging and s
 
 ## Capability highlights
 
-The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. 
+The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations.
 
 ### Presenting options
 
@@ -66,9 +66,9 @@ Deep linking allows brands to direct consumers to relevant pages within their ap
 
 ![](/img/SC4 (1).png)
 
-### Product catalog
+## Carousel
 
-Product catalog allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
+A carousel allows brands to showcase specific products that a brand can provide service for or sell. It is possible to show between two and ten cards within the carousel.
 
 ![](/img/Carousel.gif)
 
@@ -114,9 +114,9 @@ For detailed reporting on consumer interactions with structured content on your 
 ## Notes
 
 * The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
-* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send. 
+* The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
-* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification. 
+* When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification.
 
 ## Best practices
 
