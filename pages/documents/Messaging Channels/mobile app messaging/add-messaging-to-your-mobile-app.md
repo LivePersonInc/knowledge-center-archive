@@ -132,7 +132,7 @@ Under [routing](contact-center-management-messaging-operations-routing-logic-ove
 
 #### Language
 
-The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview) - during an active conversation.
+The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
 The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developers Community, for the full string localization keys.
 
