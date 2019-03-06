@@ -73,9 +73,9 @@ function scrollBottom () {
 	if (!isScrolling) {
 		isScrolling = true;
 	var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
 	}
 	setTimeout (function () {
-		var isScrolling = true;
-	}, 5000);
+		isScrolling = false;
+	}, 2000);
 };

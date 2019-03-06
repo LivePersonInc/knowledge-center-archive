@@ -1,12 +1,12 @@
 $(document).ready(function () {
+	console.log('loadrun');
 	//initialize smooth scroll
 	sideBarClick ();
 	sideBarCollapse ();
-	var scroll = new SmoothScroll('a[href*="#"]', { offset: 140});
+	var scroll = new SmoothScroll('a', {offset: 140});
 	mainBoxClick()
 	anchors.add('h2');
 	populateAnchors();
-	linkload();
 	mobileHamburger();
 	isExplorer();
 	capabilitiesSearch();
@@ -15,6 +15,7 @@ $(document).ready(function () {
 });
 
 function navigateContent(url) {
+	console.log('run');
 	//call ajax with the target url
 	$.ajax(url)
 		.done(function (content) {
@@ -33,10 +34,22 @@ function navigateContent(url) {
 			capabilitiesSearch();
 			searchFunction();
 			searchHighlight();
+			sideBarCollapse();
 			//call smoothscrolling on all anchors
-			var scroll = new SmoothScroll('a[href*="#"]');
+			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads
 			window.scrollTo(0, 0);
+			setTimeout(function () {
+				if (window.location.hash) {
+		    var hash = window.location.hash;
+				console.log(hash);
+		    window.location.hash = "";
+		    window.location.hash = hash;
+				var linkScroll = $('a[href*="' + hash + '"]');
+				var linkOffset = $(linkScroll).offset().top -350;
+				window.scrollTo(0, linkOffset);
+				}
+		  }, 300);
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#mysidebar').slideUp(400);
 				$('#mysidebar').data('expanded', 'false');
@@ -50,6 +63,11 @@ function navigateContent(url) {
 
 //a function to control a click on internal links
 function linkclick(event, that) {
+	if (event.isTrigger == 3) {
+		console.log('nontrigger');
+		return false;
+	} else {
+		console.log('clickrun');
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
 	//grab the url to which the link is pointing
@@ -62,6 +80,7 @@ function linkclick(event, that) {
 	}, '', url);
 	// $(".pageitem a").removeClass("activeitem");
 	// $(that).addClass("activeitem");
+}
 };
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {
