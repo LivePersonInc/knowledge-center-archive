@@ -15,19 +15,20 @@ Predefined content gives your brand the ability to develop canned responses that
 
 ## Structuring predefined content
 
-* **Name your responses well.**
+* **Name your responses well**
   * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
-* **Number your responses.**
+* **Number your responses**
   * The system will automatically order the responses alphabetically. Place a number in front of your responses to keep these in your desired order for each category.
 * **Keep categories succinct and specific**, and in the same order as the conversation flow.
-* **Only create as many categories as is needed.** Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
-* **Don’t create too many responses.**
-  * It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
-* **Consider if a link may do a better job than the response.**
+* **Only create as many categories as is needed**
+  * Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
+* **Don’t create too many responses**
+  *  It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
+* **Consider if a link may do a better job than the response**
   * In some cases, the customer experience may be enhanced by sending a link. The website may better support and explain a process/procedure/product than through a predefined response.
-* **Allow responses to flow as per your process flow.**
+* **Allow responses to flow as per your process flow**
   * If you have a process that needs to be followed, ensure the responses mirror this order.
-* **Keep manual input for the agent to a minimum.**
+* **Keep manual input for the agent to a minimum**
   * Where possible, create the responses in such a way that the agent does not need to add in personalized extra information. (e.g.: I’ve just looked into that for you ‘insert customer name’).
 
 ## Establishing tone and content
