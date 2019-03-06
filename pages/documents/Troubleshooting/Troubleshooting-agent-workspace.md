@@ -8,7 +8,7 @@ level3: ''
 permalink: troubleshooting-agent-workspace.html
 isTutorial: false
 isNew: false
-date: 2019-02-25 15:14:06 +0200
+date: 2019-02-25 13:14:06 +0000
 
 ---
 ### Why don’t I get audio notifications for incoming conversations?
@@ -50,7 +50,7 @@ Assign the agents one of the skills configured for Visitor Journey leads.
 7. For each of the selected properties, enter a **display name**. This name will be displayed to the agent in the Agent Workspace.
 8. Click **Save**.
 
-For more information on Conversation Outcomes and the Conversation summary widget, see [Conversation Outcomes](data-reporting-report-builder-conversation-outcomes.html).
+For more information on Conversation Outcomes and the Conversation summary widget, see [Conversation Outcomes](data-reporting-engagement-attributes-conversation-outcomes.html).
 
 ### Why is there a delay in the delivery of agent messages?
 
@@ -77,7 +77,7 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 
 ### Why isn’t the scroll bar showing in the predefined content widget?
 
-#### Possible cause: 
+#### Possible cause:
 
 #### A setting that is configurable in the Mac OS X.
 
@@ -91,7 +91,7 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 
 A LiveEngage agent received a chat notification while they are in Away state.
 
-#### Cause: 
+#### Cause:
 
 The ACD setting of the agent’s LiveEngage account is Manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
 
