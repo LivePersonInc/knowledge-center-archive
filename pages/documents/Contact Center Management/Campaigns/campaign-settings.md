@@ -63,7 +63,7 @@ In the case of campaigns with content banners, the first or last banner will rec
 
 ## **Predefined content**
 
-Within the predefined content library, you can add and edit phrases that will help to improve the efficiency of your agents when they are corresponding with your visitors. Creating predefined content not only equips agents with a tool which saves them time and energy, but ensures they are using a consistent company “voice” while communicating. Learn more about predefined content [here](agent-manager-workspace-workspace-configuration-predefined-content-overview).
+Within the predefined content library, you can add and edit phrases that will help to improve the efficiency of your agents when they are corresponding with your visitors. Creating predefined content not only equips agents with a tool which saves them time and energy, but ensures they are using a consistent company “voice” while communicating. Learn more about predefined content [here](agent-manager-workspace-workspace-configuration-predefined-content-overview.html).
 
 ## **Automatic messages**
 
