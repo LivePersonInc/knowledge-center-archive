@@ -16,7 +16,7 @@ The following document guides you through creating authenticated web messaging. 
 * [Getting started with web messaging](getting-started-getting-started-with-messaging.html)
 * [Adding web messaging to your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
 
-## **Why use authentication?**
+## Why use authentication?
 
 Authenticated customer information increases the security of the communication as the customer’s identity is verified. It also increases the efficiency of agents and ensures that each consumer receives a personalized service. Finally, it enables brands to expand the types of services they offer to consumers during conversations, for example:
 
