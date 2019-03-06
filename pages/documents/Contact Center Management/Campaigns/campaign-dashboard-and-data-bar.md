@@ -11,6 +11,8 @@ isNew: false
 date: 2019-01-29 12:42:12 +0000
 
 ---
+The campaign data bar and dashboards described below will provide you with high level information to assist you in measuring your campaigns.  For more detailed reports and dashboards, please visit the data and reporting section.
+
 ## The campaign-level data bar
 
 Campaign data is displayed and updated every hour, enabling you to make quick decisions about your campaigns and engagements at any given time. The data bar displays the visitor funnel: total visitors, those exposed to data, those engaged, incremental conversions and incremental revenue.
@@ -106,8 +108,8 @@ $41,500 - $10,000 = $31,000
 
 In other words, the campaign generated an additional $31,000 in revenue for you.
 
-| | Viewed the offer | Control Group | Total |
-|---|---|---|---|
+|  | Viewed the offer | Control Group | Total |
+| --- | --- | --- | --- |
 | Size of Group | 900 customers | 100 customers |  |
 | Visitors that Purchased | 270 customers | 10 customers |  |
 | Conversion Rate | 30% | 10% |  |

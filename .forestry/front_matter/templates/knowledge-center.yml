@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
@@ -218,7 +219,6 @@ pages:
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
 - pages/documents/Admin & Settings/case-management-support.md
 - pages/documents/Messaging Channels/Live chat/add-chat-to-your-website.md
-- pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
 - pages/documents/Contact Center Management/Campaigns/managing-campaigns.md
 - pages/documents/Contact Center Management/Campaigns/visitor-behavior.md
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
