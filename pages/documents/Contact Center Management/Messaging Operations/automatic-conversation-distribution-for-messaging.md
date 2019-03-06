@@ -1,11 +1,11 @@
 ---
-pagename: Automatic Conversation Distribution (ACD)
+pagename: Automatic Conversation Distribution
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: both
 subtitle: Use Automatic Conversation Distribution to balance your agents’ workload
 level3: Getting started
-permalink: contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution-(acd).html
+permalink: contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution.html
 isTutorial: false
 date: 2019-01-20 12:44:56 +0000
 isNew: false
@@ -15,7 +15,7 @@ isNew: false
 
 Accepting conversations manually is not always the most efficient way to manage your contact center operations. It has the potential to cause a number issues, such as customers experiencing long wait times, an imbalance of workload between agents and high rates of conversation abandonment.
 
-To avoid these problems, LivePerson’s Automatic Conversation Distribution (ACD) helps brands manage agent workload more effectively by intelligently routing conversation requests and balancing the workload among the pool of available agents. For brands using messaging, ACD also works to distribute conversations intelligently between messaging agents.
+To avoid these problems, LivePerson’s **Automatic Conversation Distribution (ACD**) helps brands manage agent workload more effectively by intelligently routing conversation requests and balancing the workload among the pool of available agents. For brands using messaging, ACD also works to distribute conversations intelligently between messaging agents.
 
 ![](/img/acd-1.png)
 
