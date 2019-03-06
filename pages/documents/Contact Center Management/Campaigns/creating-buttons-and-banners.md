@@ -93,7 +93,7 @@ Once you’ve selected the buttons and banners for your engagement, you can see 
 
 ![](/img/creating-buttons-and-banners-6.png)
 
-### Best practices for mobile engagements
+## Best practices for mobile engagements
 
 As web engagements can be accessed from desktop or mobile devices, when creating an engagement for your website, it is important to remember that it applies to both the desktop and mobile versions (unless you set your target audience to mobile or desktop only).
 
