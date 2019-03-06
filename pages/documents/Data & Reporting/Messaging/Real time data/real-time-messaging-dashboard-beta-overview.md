@@ -1,18 +1,18 @@
 ---
-pagename: Real time messaging dashboard (beta)
+pagename: Real time messaging dashboard
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: Leverage the power of the real-time operational and administrative APIs
   to enable users to monitor the brand’s account health
 level3: Real time data
-permalink: data-reporting-messaging-real-time-data-real-time-messaging-dashboard-beta.html
+permalink: data-reporting-messaging-real-time-data-real-time-messaging-dashboard.html
 isTutorial: false
 date: 2019-01-21 13:40:12 +0000
 isNew: false
 
 ---
-The LivePerson real time dashboard leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
+**The LivePerson real time dashboard (Beta)** leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
 
 The dashboard reflects the current status of several metrics, including the following:
 
