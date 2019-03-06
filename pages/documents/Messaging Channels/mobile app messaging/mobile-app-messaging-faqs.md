@@ -43,7 +43,7 @@ isNew: false
 
 ### Q: Can the SDK integrate into the app’s push notifications?
 
-**A:__ Yes, the SDK can send push notifications. Please refer to the following guides for additional information and instructions**:**
+A: Yes, the SDK can send push notifications. Please refer to the following guides for additional information and instructions:
 
 * iOS push notifications [configuration guide](https://developers.liveperson.com/consumer-experience-ios-sdk-pushnotifications.html#configuring-push-notifications).
 * Android  push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
