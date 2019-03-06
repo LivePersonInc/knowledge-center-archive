@@ -36,31 +36,31 @@ The LivePerson messaging solution allows brands to send messages in a variety of
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-conversation surveys based on a collection of cards.
 
-Structured content is available on our mobile-app messaging, web messaging and supported web messaging connectors. It is also available for web chat - for further information on configuring structured content for chat, please refer to the [documentation]().
+Structured content is available on our mobile-app messaging, web messaging and supported web messaging connectors. It is also available for web chat - for further information on configuring structured content for chat, please refer to the [documentation](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html).
 
 ## Capability highlights
 
 The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations.
 
-### Presenting options
+## Presenting options
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
 ![](/img/SC1 (1).png)
 
-### Video link
+## Video link
 
 Agents can share videos with consumers as structured content, to easily bring rich content to the conversation.
 
 ![](/img/SC2 (1).png)
 
-### Geo-navigation
+## Geo-navigation
 
 To help direct consumers to the right location - a local store, business or service - agents can send maps as structured content and include a link to navigate the consumer to the intended place. This example also uses the publishText action, allowing text to appear in the transcript when a button is clicked.
 
 ![](/img/SC3 (1).png)
 
-### Deep linking
+## Deep linking
 
 Deep linking allows brands to direct consumers to relevant pages within their app, meaning they can add items to cart, view their account page and navigate to specific services.
 
