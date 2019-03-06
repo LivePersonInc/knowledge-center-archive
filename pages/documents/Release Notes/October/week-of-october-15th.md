@@ -5,7 +5,7 @@ subCategoryName: 2018
 indicator: chat
 subtitle: LivePerson Release Notes
 level3: October
-permalink: Release-notes-2018-october-week-of-october-15th-2018.html
+permalink: Release-notes-2018-october-week-of-october-15th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 10:43:51 +0000

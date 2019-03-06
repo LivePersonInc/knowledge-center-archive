@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: chat
 subtitle: Troubleshooting for questions relating to the consumer experience
 level3: ''
-permalink: troubleshooting-web-messaging-consumer experience.html
+permalink: troubleshooting-messaging-consumer-experience.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 14:39:36 +0200

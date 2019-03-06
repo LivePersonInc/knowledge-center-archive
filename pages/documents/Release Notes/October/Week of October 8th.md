@@ -4,7 +4,7 @@ subtitle: LivePerson Release Notes
 categoryName: Release notes
 subCategoryName: 2018
 level3: October
-permalink: release-notes-2018-october-week-of-october-8th-2018.html
+permalink: release-notes-2018-october-week-of-october-8th.html
 indicator: both
 isTutorial: false
 

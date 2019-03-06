@@ -1,12 +1,12 @@
 ---
-pagename: Business activity dashboard and grid
+pagename: Business activity dashboard & grid
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: both
 subtitle: The business activity grid spreads out the funnel metrics in a granular
   view
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-business-activity-dashboard-and-grid.html
+permalink: data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html
 isTutorial: false
 date: 2019-01-21 11:51:07 +0000
 isNew: false
@@ -62,7 +62,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
   * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
   * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
-  
+
   For example:
 
 The following campaign setup is given:

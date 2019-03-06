@@ -1,12 +1,12 @@
 ---
-pagename: Whitelist your domains
+pagename: Whitelist your domains for LP monitoring
 categoryName: Security & regulations
 subCategoryName: ''
 indicator: both
 subtitle: Prevent attackers from using the LivePerson Monitor Tag in unauthorized
   domains
 level3: ''
-permalink: security-regulations-whitelist-your-domains.html
+permalink: security-regulations-security-whitelist-your-domains-for-lp-monitoring.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 11:27:51 +0200
@@ -26,7 +26,7 @@ To include multiple subdomains, you can use wildcards (*.) at the beginning of t
 
 To include domains and subdomains you should add both domain name and subdomains separately. For example, to include customer.com and www.customer.com and subdomain.customer.com add both customer.com and *.customer.com to the whitelist.
 
-It is important to add Liveperson's domains ("_._[_liveperson.net_](http://liveperson.net/)_", "_.[liveperson.com](http://liveperson.com/)", "_._[_lprnd.net_](http://lprnd.net/)_", "_.[lpsnmedia.net](http://lpsnmedia.net/)") to the list of monitored domains, to ensure your service works efficiently.
+It is important to add Liveperson's domains (".liveperson.net", ".liveperson.com", ".lprnd.net", ".lpsnmedia.net") to the list of monitored domains, to ensure your service works efficiently.
 
 To enable monitored domains:
 
@@ -34,7 +34,7 @@ On the LiveEngage Tag page, click **Manage Domains**.
 
 ![](/img/whitelist-domains1.png)
 
-Type in the domain names in the relevant fields. Ensure you include the LivePerson domain names: "_._[_liveperson.net_](http://liveperson.net/)_", "_.[liveperson.com](http://liveperson.com/)", "_._[_lprnd.net_](http://lprnd.net/)_" and "_.[lpsnmedia.net](http://lpsnmedia.net/)".
+Type in the domain names in the relevant fields. Ensure you include the LivePerson domain names: ".liveperson.net", ".liveperson.com", ".lprnd.net" and ".lpsnmedia.net".
 
 ![](/img/whitelist-domains2.png)
 

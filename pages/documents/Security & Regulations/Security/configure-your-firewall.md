@@ -39,12 +39,12 @@ LiveEngage comprises many different services, with new IP ranges added from time
 
 Liveperson owns these second level domains:
 
-* [liveperson.com](http://liveperson.com/)
-* [liveperson.net](http://liveperson.net/)
-* [lpsnmedia.net](http://lpsnmedia.net/)
-* [liveengage.net](http://liveengage.net/)
-* [liveengage.com](http://liveengage.com/)
-* [liveper.sn](http://liveper.sn/)
+* liveperson.com
+* liveperson.net
+* lpsnmedia.net
+* liveengage.net
+* liveengage.com
+* liveper.sn
 
 ## Certificate providers
 
@@ -52,13 +52,13 @@ LiveEngage works with the following certificate providers: VeriSign, thawte, Com
 
 Please make sure that the Certificate Revocation Lists (CRL) and the Online Certificate Status Protocols (OCSP) of the following providers are allowed by your firewall and other hardware/software protection:
 
-* [http://crl.verisign.com](http://crl.verisign.com "http://crl.verisign.com")
-* [http://crl.thawte.com](http://crl.thawte.com "http://crl.thawte.com")
-* [http://crl.comodoca.com](http://crl.comodoca.com "http://crl.comodoca.com")
-* [http://crl.geotrust.com](http://crl.geotrust.com "http://crl.geotrust.com")
-* [http://crl.omniroot.com](http://crl.omniroot.com "http://crl.omniroot.com")
-* [http://ocsp.verisign.com](http://ocsp.verisign.com "http://ocsp.verisign.com")
-* [http://ocsp.thawte.com](http://ocsp.thawte.com "http://ocsp.thawte.com")
-* [http://ocsp.comodoca.com](http://ocsp.comodoca.com "http://ocsp.comodoca.com")
-* [http://ocsp.usertrust.com](http://ocsp.usertrust.com "http://ocsp.usertrust.com")
-* [http://ocsp.geotrust.com](http://ocsp.geotrust.com "http://ocsp.geotrust.com")
+* http://crl.verisign.com
+* http://crl.thawte.com
+* http://crl.comodoca.com
+* http://crl.geotrust.com
+* http://crl.omniroot.com
+* http://ocsp.verisign.com
+* http://ocsp.thawte.com
+* http://ocsp.comodoca.com
+* http://ocsp.usertrust.com
+* http://ocsp.geotrust.com

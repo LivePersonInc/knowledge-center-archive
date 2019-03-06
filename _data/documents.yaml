@@ -51,9 +51,7 @@
   image: bots-automation
   subcategories:
     - subcategoryname: How bots work with LivePerson
-    - subcategoryname: Conversation Builder
-      pages:
-        - pagename: Conversation Builder overview
+    - subcategoryname: Conversation Builder overview
     - subcategoryname: Post conversation survey
 
 - categoryname: Contact center management
@@ -148,7 +146,7 @@
         - pagename: Real time data
           level3:
             - level3name: Real time data for messaging
-            - level3name: Real time messaging dashboard (beta)
+            - level3name: Real time messaging dashboard
         - pagename: Messaging dashboards
           level3:
             - level3name: Messaging survey dashboard
@@ -187,7 +185,7 @@
     - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
-        - pagename: Extracting engagement attributes with no code
+        - pagename: Conversation outcomes
         - pagename: Setting up engagement attributes
         - pagename: "Information on your consumers' transactions"
         - pagename: Multi currency
@@ -251,7 +249,6 @@
       pages:
         - pagename: February
           level3:
-            - level3name: Week of February 25th
             - level3name: Week of February 18th
             - level3name: Week of February 11th
             - level3name: Week of February 4th
@@ -296,8 +293,6 @@
     - subcategoryname: Bots
     - subcategoryname: Reporting & Data
     - subcategoryname: Case management support
-      pages:
-        - pagename: Case management support
 
 - categoryname: FAQs
   image: faqs

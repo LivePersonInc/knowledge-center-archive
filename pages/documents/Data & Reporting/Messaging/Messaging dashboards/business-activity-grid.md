@@ -1,11 +1,11 @@
 ---
-pagename: Business activity dashboard and grid
+pagename: Business activity dashboard & grid
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
 subtitle: The business activity dashboard provides a daily snapshot of campaign performance
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-business-activity-dashboard-and-grid.html
+permalink: data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html
 isTutorial: false
 date: 2019-01-21 13:15:27 +0000
 isNew: false
@@ -251,7 +251,7 @@ Included in this panel is an engagement formats selector, allowing the filtering
 5. Slide-out
 6. Peeling corner
 
-![](/img/business-activity-dashboard5.png) 
+![](/img/business-activity-dashboard5.png)
 Business activity engagement analysis_
 
 ### Entry point panel

@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: messaging
 subtitle: Troubleshooting for all questions relating to set up and management
 level3: ''
-permalink: troubleshooting-web-messaging-set-up-and-management.html
+permalink: troubleshooting-messaging-set-up-and-management.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 15:16:26 +0200

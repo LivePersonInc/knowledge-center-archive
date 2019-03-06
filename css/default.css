@@ -953,6 +953,11 @@ ul.mysidebar.nav > li:first-of-type {
 #featurestable {
   width: 180%;
   max-width: none;
+  margin-left: -20px;
+}
+
+.mobilefeaturestable {
+  display: none;
 }
 
 #featurestable table tr td {
@@ -1113,9 +1118,11 @@ a.solitary {
   }
 
   .anchorlist {
-    margin-left: 0px;
-    max-height: 90vh;
+    margin-left: -40px;
+    max-height: 50vh;
     overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: -145px;
   }
 
   #mysidebar {
@@ -1211,5 +1218,9 @@ a.solitary {
     align-items: center;
     margin-right: 20px;
     order: 2;
+  }
+
+  .mobilefeaturestable {
+    display: block;
   }
 }

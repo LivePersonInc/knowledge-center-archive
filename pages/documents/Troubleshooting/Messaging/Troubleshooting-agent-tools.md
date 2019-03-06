@@ -1,11 +1,11 @@
 ---
-pagename: Agent issues
+pagename: Agent tools
 categoryName: Troubleshooting
 subCategoryName: Web messaging
 indicator: both
 subtitle: Troubleshooting on questions relating to agent tools
 level3: ''
-permalink: troubleshooting-web-messaging-agent-issues.html
+permalink: troubleshooting-messaging-agent-tools.html
 isTutorial: false
 isNew: false
 date: 2019-02-28 13:55:33 +0200

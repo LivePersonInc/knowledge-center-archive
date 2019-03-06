@@ -68,7 +68,7 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 
 **(Needed for both API + UI)**
 
-1. Configure [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration-guide.html) on your account:
+1. Configure [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html) on your account:
    * To enable Automatic Messages on your LiveEngage account, please contact your LivePerson account team.
 2. Mobile App (SDK) customers:
    * Use SDK versions 2.8 or higher.
