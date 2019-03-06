@@ -13,8 +13,8 @@ isNew: false
 ---
 The following document guides you through creating authenticated web messaging.  To complete your web messaging program, you may also use:
 
-* [Getting started with web messaging]()
-* [Adding web messaging to your website]()
+* [Getting started with web messaging](getting-started-getting-started-with-messaging.html)
+* [Adding web messaging to your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
 
 ## **Why use authentication?**
 
