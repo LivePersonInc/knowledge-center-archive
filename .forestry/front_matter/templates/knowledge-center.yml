@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Security & Regulations/audit-trails.md
@@ -223,7 +224,6 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/queue-backlog-management.md
 - pages/documents/Admin & Settings/system-requirements.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-chat-user-guide.md
-- pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
 - pages/documents/Contact Center Management/Messaging Operations/preparing-agents-to-start-shift.md
 - pages/documents/Messaging Channels/Rich messaging/structured-content-for-messaging-user-guide.md
 - pages/documents/Contact Center Management/Campaigns/time-frame.md
