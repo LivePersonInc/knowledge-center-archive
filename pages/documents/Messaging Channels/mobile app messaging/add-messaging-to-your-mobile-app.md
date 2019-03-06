@@ -142,7 +142,7 @@ Once your settings are complete, click **next**.
 
 You will now reach the entry point library. An [entry point](contact-center-management-campaigns-entry-point.html) is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
-**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here]().
+**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
 
 When you are finished defining your entry point, click **next**.
 
