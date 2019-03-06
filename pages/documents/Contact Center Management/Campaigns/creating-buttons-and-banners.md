@@ -34,23 +34,6 @@ Feel free to use the ready-made templates or to customize them to match the look
 
 ![](/img/creating-buttons-and-banners-2.png)
 
-## What other factors should I consider?
-
-You want to take into consideration a number of factors when you select the engagement type, format and settings.
-
-### **For content engagements, you might want to think about:**
-
-* How long after the visitor lands on a page do you want the banner to appear?
-* For what duration do you want to display the banner?
-* Do you want the banner to follow the visitor from page to page for any specific number of pages or for a specific duration of time?
-
-### **For conversation engagements, you might want to think about:**
-
-* Which skill should the engagement be routed to?
-* Should the conversation window be embedded within the page or a separate browser window?
-
-These options are available for configuration from the Engagement Settings page and will override any other prioritization.
-
 ## Format Options
 
 ### Embedded engagements
