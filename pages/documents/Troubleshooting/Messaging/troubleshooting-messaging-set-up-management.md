@@ -8,7 +8,7 @@ level3: ''
 permalink: troubleshooting-messaging-set-up-and-management.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 15:16:26 +0200
+date: 2019-02-26 13:16:26 +0000
 
 ---
 ### Why isn’t AutoClose closing conversations?
@@ -31,7 +31,7 @@ LiveEngage logs showed that the specific agent had been “visiting” the conve
 #### Solution:
 
 Ask the agent not to open conversations pending visitor response for a while and verify that AutoClose then closes the conversations in under 145 minutes.  
-For more information, see [Auto close for messaging conversations](https://liveengage.liveperson.net/a/new/?connectionOpenArticle=auto-close.).
+For more information, see [auto close for messaging conversations](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html).
 
 ### A consumer is no longer receiving messages from our agents. What happened?
 
