@@ -40,7 +40,6 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio-sms-connector-setup-4.png)
 
 {:start="6"}
-
 6\. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
 * EMEA accounts: [https://lo.msg-gw.liveperson.net/api/](https://lo.msg-gw.liveperson.net/api/ "https://lo.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio
