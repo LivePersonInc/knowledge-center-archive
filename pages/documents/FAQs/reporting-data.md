@@ -29,7 +29,7 @@ When a chat ends, the reason for the chat’s termination is displayed in the ch
 
 ![](/img/reporting-data-faqs-1.png)
 
-Read more about it in the [understanding the reason a chat ends](contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html).
+Read more about it in [understanding the reason a chat ends](contact-center-management-live-chat-operations-understanding-the-reason-a-chat-ends.html).
 
 ## How do I change the email address for scheduled reports?
 
