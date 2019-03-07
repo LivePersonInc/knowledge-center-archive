@@ -33,7 +33,7 @@ Read more about it in [understanding the reason a chat ends](contact-center-mana
 
 ## How do I change the email address for scheduled reports?
 
-Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](data-reporting-report-builder-report-builder-overview.html).
+Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](data-reporting-report-builder-report-builder-overview.html#scheduling).
 
 ## How do I retrieve data that has been masked?
 
