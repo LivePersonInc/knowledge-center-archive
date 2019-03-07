@@ -8,7 +8,7 @@ level3: ''
 permalink: troubleshooting-reporting-data.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 14:03:37 +0200
+date: 2019-02-26 12:03:37 +0000
 
 ---
 ### Missing Excel export button in Report Builder
@@ -21,8 +21,8 @@ The user does not see the visualization headers that contain the Export options 
 
 For users who do not have “Edit” access in Report Builder, the visualization headers are hidden and these users cannot change the header settings.
 
-{: .notice}**  
-**Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
+{: .notice}  
+Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
 
 **To resolve this issue you should**:
 
@@ -109,8 +109,8 @@ You can use this workaround to “fix” the MS Excel display:
 4. Download the Google Sheet (File -> Download as) to a Microsoft Excel file (.xlsx).
 5. Open the new file in MS Excel. The Customer IDs are now displayed correctly.
 
-{: .notice}**  
-**Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
+{: .notice}  
+Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
 
 ### Why is the Agent Goal Tracker “missing” transactions reported in Web History?
 
