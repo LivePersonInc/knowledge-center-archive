@@ -32,6 +32,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio-sms-connector-setup-3-1.png)
 
 {:start="3"}
+
 3\. Give your number a name by clicking the ‘setup’ button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
 4\. Upgrade from your trial account and purchase credits.
 5\. Configure the request URL, by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming "https://www.twilio.com/user/account/phone-numbers/incoming")
@@ -39,6 +40,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 ![](/img/twilio-sms-connector-setup-4.png)
 
 {:start="6"}
+
 6\. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
 * EMEA accounts: [https://lo.msg-gw.liveperson.net/api/](https://lo.msg-gw.liveperson.net/api/ "https://lo.msg-gw.liveperson.net/api/")ACCOUNT#/default/twilio

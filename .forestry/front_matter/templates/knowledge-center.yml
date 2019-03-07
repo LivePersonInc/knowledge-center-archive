@@ -144,7 +144,6 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
@@ -249,8 +248,6 @@ pages:
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Admin & Settings/Skills & groups/connect-visitors-to-agents-by-skill.md
 - pages/documents/Admin & Settings/Skills & groups/operate-business-divisions-from-one-account.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-the-mcs-toolkit.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Admin & Settings/create-manage-users.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
