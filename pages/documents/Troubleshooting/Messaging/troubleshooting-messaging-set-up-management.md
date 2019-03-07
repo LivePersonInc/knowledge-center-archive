@@ -193,7 +193,7 @@ Automatic Offline Messages are not triggering during “off shift” hours.
 #### Possible causes and solutions:
 
 1. The customer disabled automatic messages for a period of time, either in the past or currently.
-2. The agent manager set the LiveEngage account’s Off hours in the Shift status to the wrong time period. For more information about shift settings, see [Configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html)
+2. The agent manager set the LiveEngage account’s Off hours in the Shift status to the wrong time period. For more information about shift settings, see [configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html)
 
    {: .notice}  
    Off hours are set according to the timezone of the browser you’re in when you set Off hours – not according to the account’s timezone.
