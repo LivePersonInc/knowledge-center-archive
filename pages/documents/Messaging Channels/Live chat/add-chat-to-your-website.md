@@ -36,7 +36,7 @@ Engagement attributes help you to collect more in-depth information about your v
 
 If you are planning to create campaigns tailored for tracking sales and conversions, ensure you define the following settings:
 
-* **Define your currency** - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html). 
+* **Define your currency** - you can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
 * **Cross session period** - Often your consumers will not purchase on the first visit to your website. You can define how long a ‘cross session’ applies.  For example, a cross session of 2 weeks means that if a consumer visited your site, had a chat conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 * **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
@@ -93,7 +93,7 @@ You can select one of two security methods for your conversation.
 
   #### Language
 
-  The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview) - during an active conversation.
+  The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
 Once your settings are complete, click **next**.
 
