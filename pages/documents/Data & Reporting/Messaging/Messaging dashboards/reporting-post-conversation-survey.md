@@ -261,8 +261,10 @@ To In the retrieve the Question ID, head over to Bot Studio and click on the 3 d
 **Formulas:**
 
 1. Total_submitted_answers
-   1. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
-   2. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+
+   a. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
+
+   b. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 2. Total_submissions_of_specific_answer
    1. Metric definition: number of times a specific answer was submitted for a specific Question
       1. Answers: Answer’s text contains the words ‘Extremely’ and ‘Satisfied’
@@ -286,7 +288,9 @@ Report Builder offers the option to export the survey results data into a MS Exc
 6. On the ‘survey data export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
 7. Drag into the visualization the following metrics and attributes:
 
-   **![](/img/post-conversation-survey.png)Attributes:**
+   ![](/img/messaging-survey-dashboard5.png)
+
+   **Attributes:**
    * Date
    * Skill
    * Agent
