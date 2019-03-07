@@ -85,6 +85,8 @@ Rachel self served (meaning she did not converse with an agent during her visit)
 
 Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level.
 
+![](/img/Screen Shot 2019-03-07 at 3.02.41 PM.png)
+
 ![](/img/Business-activity-dashboard4b.png)
 
 ## Reporting on campaigns funnel from messaging engagements
