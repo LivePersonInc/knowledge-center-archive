@@ -15,7 +15,7 @@ isNew: false
 
 Mobile messaging is one of the most widely used means of consumer communication ever created. The simplicity and ubiquity of mobile messaging has enabled it to flourish as a consumer-to-consumer communication channel that offers unique benefits to brands looking to engage their customers on their mobile devices.
 
-Messaging is a two-way communication medium, meaning that both parties—the consumer and the brand—can use it to engage and communicate with each other. Some local telecommunication and privacy regulations are aimed at restricting unsolicited telemarketing phone calls and text messaging from brands to consumers.
+Messaging is a two-way communication medium, meaning that both parties - the consumer and the brand can use it to engage and communicate with each other. Some local telecommunication and privacy regulations are aimed at restricting unsolicited telemarketing phone calls and text messaging from brands to consumers.
 
 ## Overview of telecommunication and privacy regulations
 

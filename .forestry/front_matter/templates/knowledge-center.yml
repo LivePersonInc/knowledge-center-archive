@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
@@ -164,7 +165,6 @@ pages:
 - pages/documents/Troubleshooting/troubleshooting.reporting.md
 - pages/documents/Troubleshooting/Troubleshooting-bots.md
 - pages/documents/Troubleshooting/Troubleshooting-agent-workspace.md
-- pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
