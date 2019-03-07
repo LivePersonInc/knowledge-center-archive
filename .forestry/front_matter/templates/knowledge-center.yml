@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
@@ -260,7 +261,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
-- pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Messaging Channels/SMS/sms-connector.md
