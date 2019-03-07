@@ -17,9 +17,22 @@ For example, if a conversation has been idle for ten days, it can be automatical
 
 ![](/img/auto-close-1.png)
 
+## Auto-close per skill
+
+Today brands use a single time interval definition to determine how long after the conversation becomes inactive should it be closed. This single definition doesn’t take into account the fact that different skills have different conversation pace and therefore should have different time intervals to auto close. 
+
+Having such a capability will give brands a higher level of flexibility to determine when a conversation should close and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill and thereby improve the consumer experience as well as their operational parameters.
+
+![](/img/auto-close-conversations-3b.png)
+
+**Dependencies for auto close per skill**
+
+* Need to be using LE UI 10.3
+* Need to be using ac-users 4.8 or 5.0
+
 **Notes:**
 
-* Brands can configure auto close for any time period between one hour and 90 days; the default setting is 90 days.
+* Brands can configure auto close for any time period between 25 minutes and 90 days; the default setting is 90 days.
 * A conversation will only auto close if it is pending a consumer response; for conversations pending an agent response, auto close will not apply.
 * By default a conversation where the agent has set a manual response time will not be auto closed. This logic can be disabled in the backend by your LivePerson account team.
 * Auto close is scheduled to run at 25 minute intervals, meaning that inactive conversations will be automatically closed up to 25 minutes after their inactivity threshold was reached. For example, if the configured period of inactivity is 2 hours and a conversation was last active at 1pm, the conversation will be auto closed between 3 and 3:25pm.

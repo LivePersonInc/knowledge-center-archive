@@ -15,7 +15,7 @@ isNew: false
 
 Mobile messaging is one of the most widely used means of consumer communication ever created. The simplicity and ubiquity of mobile messaging has enabled it to flourish as a consumer-to-consumer communication channel that offers unique benefits to brands looking to engage their customers on their mobile devices.
 
-Messaging is a two-way communication medium, meaning that both parties—the consumer and the brand—can use it to engage and communicate with each other. Some local telecommunication and privacy regulations are aimed at restricting unsolicited telemarketing phone calls and text messaging from brands to consumers.
+Messaging is a two-way communication medium, meaning that both parties - the consumer and the brand can use it to engage and communicate with each other. Some local telecommunication and privacy regulations are aimed at restricting unsolicited telemarketing phone calls and text messaging from brands to consumers.
 
 ## Overview of telecommunication and privacy regulations
 
@@ -52,7 +52,7 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 | Follow up a text lead (initiated by a person who filled out an online text form) by texting the person. | The online text form should explicitly call out that the consumer is consenting to receive SMS texts and describe the nature of such texts. | Offer customers an opt-out option at the start of the conversation. Ensure that your initial response is timely. |
 | Initiate an outbound text to a person whose mobile phone number was obtained from a marketing list or some other place. | Without prior written consent, any such text (or call) could violate local regulations. This is one of the riskiest scenarios as you don’t really know how or for what purpose the mobile number was gathered. | Do not contact. |
 
-### 4 tips to help ensure compliance
+### Four tips to help ensure compliance
 
 1. **Gather the appropriate written consent wherever you capture phone numbers, from forms to in-person conversations:** Make it part of the process to ask for a customer’s agreement to be contacted via SMS text message. This includes clearly communicating what the customer can expect to receive when providing their number. You can add this to your customer survey(s), or to your Predefined Content which can be sent to the customer during a conversation.
 2. **Add the “message; data rates may apply” disclaimer:** You should add it on consumer-facing calls to action such as the webpage or ad where the customer sees the number or the invitation to text. You want to ensure customers know what to expect even if they text you a question.

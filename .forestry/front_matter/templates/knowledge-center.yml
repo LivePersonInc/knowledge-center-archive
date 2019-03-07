@@ -134,6 +134,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Messaging Channels/Connectors/facebook-messenger.md
+- pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
@@ -144,7 +146,6 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/using-mcs-toolkit.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
@@ -165,7 +166,6 @@ pages:
 - pages/documents/Troubleshooting/troubleshooting.reporting.md
 - pages/documents/Troubleshooting/Troubleshooting-bots.md
 - pages/documents/Troubleshooting/Troubleshooting-agent-workspace.md
-- pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-for-chat.md
 - pages/documents/Release Notes/October/week-of-october-15th.md
 - pages/documents/Messaging Channels/Connectors/line-connector.md
@@ -249,8 +249,6 @@ pages:
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Admin & Settings/Skills & groups/connect-visitors-to-agents-by-skill.md
 - pages/documents/Admin & Settings/Skills & groups/operate-business-divisions-from-one-account.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/accessing-the-mcs-toolkit.md
-- pages/documents/Data & Reporting/Meaningful Connection Score (MCS) - beta/mcs-overview.md
 - pages/documents/Admin & Settings/create-manage-users.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/goal-tracker-report.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/agent-activity-dashboard.md
@@ -263,7 +261,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/whatsapp-business.md
 - pages/documents/Messaging Channels/Connectors/google-rcs-business-messenger.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
-- pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Data & Reporting/Engagement attributes/data-reporting-engagement-attributes-attribution-model.md
 - pages/documents/Messaging Channels/SMS/twilio-sms-connector-setup.md
 - pages/documents/Messaging Channels/SMS/sms-connector.md

@@ -19,7 +19,7 @@ With over a billion messages being sent between people and businesses per month 
 ## Why use Facebook Messenger to connect with your consumers?
 
 * **Meet consumers where they are** — Consumers can stay and use one popular app - Facebook Messenger - to connect to friends, families and now businesses.
-* **Rich Messaging capabilities** — Rich Messaging capabilities like quick replies and consumer-to-agent audio messaging provide an enhanced messaging experience with more flexibility.
+* [**Rich Messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Messaging capabilities like quick replies and consumer-to-agent audio messaging provide an enhanced messaging experience with more flexibility.
 * **Enhanced indicators** — Read receipts and typing indication tell the consumer when agent is actively answering. The agent also benefits from knowing when the consumer receives the message.
 * **Simple bot integrations** — Brands can plug their own bots into Facebook Messenger. Bots can then offer service and sales assistance to customers, with seamless transition to a human agent when required.
 * **In-depth reporting** — Track and report on all Facebook Messenger interactions with detailed performance metrics within LivePerson’s platform.

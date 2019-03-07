@@ -216,10 +216,10 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 
 1. On the DASHBOARD DATASETS panel at the left side of the screen, right click on ‘survey answers (agent and skill)’ and select ‘create metric.’
 
-   ![](/img/post-conversation-survey1.png)
+   ![](/img/Messaging-survey-dashboard1.png)
 2. A new pop-up screen ‘metric editor - new metric’ will open up
 
-   ![](/img/post-conversation-survey2.png)
+   ![](/img/messaging-survey-dashboard2.png)
 3. Use the ‘metric name’ field to give a meaningful name to the metric
 4. Paste the formula (copied from the ‘formulas’ section below) into white box at the right.
 5. Click on ‘validate’ and make sure you receive a green message ‘valid metric formula’.
@@ -227,7 +227,7 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 7. Follow these steps for each of the three formulas listed below.
 8. Drag the New_CSAT metric into a grid containing ‘agent’ and ‘skill’ attributes, you’ll be able to see the calculated CSAT score.
 
-![](/img/post-conversation-survey3.png)
+![](/img/messaging-survey-dashboard3.png)
 
 ### Formulas:
 
@@ -256,13 +256,15 @@ The IDs of the survey’s questions are mapped between Bot Studio and Report Bui
 
 To In the retrieve the Question ID, head over to Bot Studio and click on the 3 dots next to the question name. Copy the ID and use it in the following formulas.
 
-![](/img/post-conversation-survey4-1.png)
+![](/img/messaging-survey-dashboard4.png)
 
 **Formulas:**
 
 1. Total_submitted_answers
-   1. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
-   2. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+
+   a. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
+
+   b. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 2. Total_submissions_of_specific_answer
    1. Metric definition: number of times a specific answer was submitted for a specific Question
       1. Answers: Answer’s text contains the words ‘Extremely’ and ‘Satisfied’
@@ -286,7 +288,9 @@ Report Builder offers the option to export the survey results data into a MS Exc
 6. On the ‘survey data export’ tab, create a new panel by clicking the ‘+’ sign at the bottom right corner of the tab
 7. Drag into the visualization the following metrics and attributes:
 
-   **![](/img/post-conversation-survey.png)Attributes:**
+   ![](/img/messaging-survey-dashboard5.png)
+
+   **Attributes:**
    * Date
    * Skill
    * Agent
