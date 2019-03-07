@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	var url = window.location.href;
 	console.log('loadrun');
 	//initialize smooth scroll
 	sideBarClick ();
@@ -12,6 +13,9 @@ $(document).ready(function () {
 	capabilitiesSearch();
 	searchFunction();
 	searchHighlight();
+	if (url.indexOf('casey') > -1) {
+		$('#defaultfooter').addClass('botfooter');
+	}
 });
 
 function navigateContent(url) {
@@ -35,6 +39,7 @@ function navigateContent(url) {
 			searchFunction();
 			searchHighlight();
 			sideBarCollapse();
+			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads
@@ -53,6 +58,11 @@ function navigateContent(url) {
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#mysidebar').slideUp(400);
 				$('#mysidebar').data('expanded', 'false');
+			}
+			if ($('#defaultfooter').hasClass('botfooter')) {
+				$('#defaultfooter').removeClass('botfooter');
+			} else {
+				$('#defaultfooter').addClass('botfooter');
 			}
 		})
 		.fail(function () {
@@ -377,6 +387,23 @@ $(window).scroll(function() {
        $('.anchoritem').last().addClass('active');
    };
 });
+
+//a function to make sure the page's title is updated on load
+function replaceTitle() {
+	//grab the page's current title
+	var originalTitle = document.title;
+	var newDocument = document.getElementsByClassName("no-after");
+	if (newDocument) {
+		var newDocumentText = $(newDocument).text();
+		//lay out the new title
+		var newTitleText = newDocumentText + " |";
+		//then set it as the document's title so it shows up properly in the tab
+		var newTitle = originalTitle.replace(/^.*\|/, newTitleText);
+	} else {
+		var newTitle = originalTitle.replace(/^.*\-.*\|/, "Welcome! |");
+	}
+	document.title = newTitle;
+};
 
 function isEdge () {
 		var boxes = document.getElementsByClassName("mainbox");

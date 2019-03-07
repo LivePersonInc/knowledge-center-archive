@@ -26,7 +26,7 @@ Using the structured content framework, messaging connector channels that are en
 
 ## Skill Segment Metrics in Real-time Dashboard (RTD)
 
-You can now take advantage of new skill-based metrics within the [real-time dashboard](data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html) to better manage and optimize messaging performance - made available from our Open Platform APIs. This includes the addition of several new metrics into the Current, Closed and Skill sections of the Real-time Dashboard.
+You can now take advantage of new skill-based metrics within the [real-time dashboard](data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) to better manage and optimize messaging performance - made available from our Open Platform APIs. This includes the addition of several new metrics into the Current, Closed and Skill sections of the Real-time Dashboard.
 
 ## Demo App - Connector API
 
@@ -34,4 +34,4 @@ The Demo App provides an interface that demonstrates the consumer experience usi
 
 The demo app runs as a standalone application. LivePerson open sources the code and deploys a version on Amazon so that interested customers get an impression how a connecter will appear similar to a demo.
 
-[l](https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html "https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html")
+[Demo app](https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html "https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html").

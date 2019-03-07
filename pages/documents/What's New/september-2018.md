@@ -80,4 +80,4 @@ We have some new updates the to [MCS Toolkit](data-reporting-meaningful-connecti
 
 ## Real time dashboard enhancements
 
-Your [real time dashboard](data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html) has been improved with alerts and threshold settings. When configuring Thresholds in the RTD settings for a given section, a new option will allow the brand to select between “more than” or “less than” a given input target (instead of just the single option “more than”). You can also use your dashboard alongside LivePerson with the same login.
+Your [real time dashboard](data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) has been improved with alerts and threshold settings. When configuring Thresholds in the RTD settings for a given section, a new option will allow the brand to select between “more than” or “less than” a given input target (instead of just the single option “more than”). You can also use your dashboard alongside LivePerson with the same login.

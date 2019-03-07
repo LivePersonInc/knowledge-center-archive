@@ -3,6 +3,8 @@ var windowKit = new windowKit({
 	//skillId: 12341234 - optional skill ID
 });
 var userinput = '<input type="text" id="messageInput"/>'
+let isScrolling;
+let agentFirstText;
 
 windowKit.connect();
 
@@ -17,6 +19,10 @@ windowKit.onAgentTextEvent(function(text) {
 		displayInput();
 	}
 	console.log('Agent: ' + text);
+	if (!agentFirstText) {
+		agentFirstText = true;
+		$("#botLoader").css('display', 'none');
+	}
 });
 
 windowKit.onVisitorTextEvent(function(text) {
@@ -66,8 +72,6 @@ function displayInput () {
 	 });
 }, 2000);
 };
-
-let isScrolling;
 
 function scrollBottom () {
 	if (!isScrolling) {

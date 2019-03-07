@@ -162,4 +162,6 @@ Structured content taglet - [https://agents-lp.github.io/strcutured-content-widg
 
 Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore](https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore "https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore")
 
-[Structured Content Developer Community](messaging-channels-messaging-channels-capabilities-comparison.html)
+[Messaging channels capabilities comparison table](messaging-channels-messaging-channels-capabilities-comparison.html)
+
+[Structured Content in the Developers' Community](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)
