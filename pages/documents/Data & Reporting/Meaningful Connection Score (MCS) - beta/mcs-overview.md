@@ -6,7 +6,7 @@ indicator: both
 subtitle: Measure the quality of your brand’s connection with every consumer over
   time
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
+permalink: data-reporting-meaningful-connection-score-(mcs)-overview.html
 isTutorial: false
 date: 2019-01-22 09:35:20 +0000
 isNew: false
@@ -39,8 +39,8 @@ MCS is a score that is calculated dynamically in multiple dimensions, using a bo
 * **Conversation MCS**: The combination of all the message scores added together, this score updates continuously throughout the conversation.
 * **Brand MCS**: The combination of all conversation MCSs.
 
-MCS can also be applied to skill, agent, agent group and brand . In this way, brands can get a full picture of any aspect of their operational performance.  
-  
+MCS can also be applied to skill, agent, agent group and brand . In this way, brands can get a full picture of any aspect of their operational performance.
+
 {: .notice}  
 The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
