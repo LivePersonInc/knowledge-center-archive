@@ -73,10 +73,10 @@ function navigateContent(url) {
 
 //a function to control a click on internal links
 function linkclick(event, that) {
-	if (event.isTrigger == 3) {
+	if (event.isTrigger) {
 		console.log('nontrigger');
 		return false;
-	} else {
+	} else if (!event.isTrigger ) {
 		console.log('clickrun');
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
@@ -211,7 +211,7 @@ function sideBarCollapse () {
 	var modifiedURL = '/' + url.split('/').reverse()[0].replace(/\#.*/, '');
 	var currentPage = $('a[href="' + modifiedURL + '"]');
 	var currentPageOpener = currentPage.parents().children(".canOpen");
-	currentPage = currentPage.trigger("click");
+	currentPage = currentPage.addClass("activeitem");
 	currentPageOpener = currentPageOpener.trigger("click");
 }
 
