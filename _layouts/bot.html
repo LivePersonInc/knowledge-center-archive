@@ -32,9 +32,30 @@
   <div id="defaultsidebar">
     {% include sidebar.html %}
   </div>
+  <div id="documenttitlecontainer" class="botTitle">
+  <div class="documenttitle">
+    {% include nav-breadcrumbs.html %}
+    <div class="titlecontainer">
+      <div class='h1'>{{ page.pagename }}</div>
+      <div id="subtitle">{{ page.subtitle }}</div>
+      <div id="indicatorrow">
+        <div id="lastmodified">Last modified: {{ page.last_modified_at | date: '%B %d, %Y' }}</div>
+        <div id="indicators">
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
+          <div class="indicator chat">Chat</div>
+          {% endif %}
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "messaging" %}
+          <div class="indicator messaging">Messaging</div>
+          {% endif %}
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div> -->
+</div>
   <div id="defaultcontent">
   <div id="maincontent" class="botcontent">
-    <div class="anchorlist">
+    <div class="anchorlist botAnchors">
       <span class="anchortitle">Jump to</span>
       <ul>
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>

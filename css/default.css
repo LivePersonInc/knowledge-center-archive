@@ -367,6 +367,7 @@ ul.mysidebar.nav > li:first-of-type {
   color: #1e1e1e;
   margin-bottom: 15px;
   margin-top: 15px;
+  width: 50%;
 }
 
 /* bread-crumbs */
@@ -1118,7 +1119,7 @@ a.solitary {
   }
 
   .anchorlist {
-    margin-left: -40px;
+    margin-left: -20px;
     max-height: 50vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -1126,7 +1127,7 @@ a.solitary {
 
   #mysidebar {
     padding-inline-start: 0;
-    padding-left: 20px;
+    padding-left: 50px;
   }
 
   .sidebarbuttoncontainer {
