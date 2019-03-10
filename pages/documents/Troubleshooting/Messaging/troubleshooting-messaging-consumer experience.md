@@ -8,7 +8,7 @@ level3: ''
 permalink: troubleshooting-messaging-consumer-experience.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 14:39:36 +0200
+date: 2019-02-26 12:39:36 +0000
 
 ---
 ### Agent icon not aligned with first line of message on consumer iOS devices
@@ -46,7 +46,8 @@ It is expected behavior for the red badge to be removed when the scroll down ind
 * When you click the scroll down indicator once, you will be scrolled down to the "X new messages" section.
 * When you click the scroll indicator again, you’ll be scrolled down to the last new message.
 
-**Note**: If you manually scroll down to the new messages, the badge remains on the scroll down indicator. The red badge is removed ONLY if you click the scroll down indicator to reach new messages.
+{: .notice}
+If you manually scroll down to the new messages, the badge remains on the scroll down indicator. The red badge is removed ONLY if you click the scroll down indicator to reach new messages.
 
 In addition, if the focus is on items below the 'X unread messages' label when a consumer receives new messages, the badge will not display on the scroll down indicator.
 
