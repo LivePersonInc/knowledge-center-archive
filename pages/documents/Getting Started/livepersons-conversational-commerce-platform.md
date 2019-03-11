@@ -90,7 +90,7 @@ The Conversation Manager enables brands to connect to popular messaging services
 
 Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
 
-![](/img/conversational-commerce-intelligence-c.png)
+![](/img/conversational-commerce-intelligence-d.png)
 
 ## 4. Maven
 
