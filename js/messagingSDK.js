@@ -15,7 +15,7 @@ windowKit.onReady( function () {
 
 windowKit.onAgentTextEvent(function(text) {
 	$('#caseyContainer').append('<div class="caseyText">' + text + '</div>');
-	if (text.indexOf("search") > -1) {
+	if (text.indexOf("whatever you'd like to search for") > -1) {
 		displayInput();
 	}
 	console.log('Agent: ' + text);
@@ -51,7 +51,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 		if (scText.indexOf("View result") == -1) {
 		windowKit.sendMessage(scText);
 		}
-		if (scText == "Something else") {
+		if (scText == "Search for something else") {
 			displayInput();
 		}
 	});

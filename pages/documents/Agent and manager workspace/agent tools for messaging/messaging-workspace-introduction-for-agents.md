@@ -1,12 +1,12 @@
 ---
-pagename: 'Working with asynchronous messaging '
+pagename: Working with asynchronous messaging
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: Agents using messaging to make sales or provide service have the full suite
   of LivePerson tools at your disposal to be successful
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-introduction-to-agents-working-with-asynchronous-messaging.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-working-with-asynchronous-messaging.html
 isTutorial: false
 date: 2019-01-21 09:13:27 +0000
 
@@ -52,4 +52,4 @@ To learn more about queue prioritization, watch this 2 min video:
 
 A Service Level Agreement, or ‘SLA’ is a time commitment for when a brand will respond to incoming conversations. This is determined by the account manager. For example, an SLA of 2 minutes means that incoming conversations should be answered no longer than 2 minutes after they are received. The SLA is assigned to incoming conversations and resets after each consumer reply.
 
-Agents will have clear view of conversation SLAs for all conversations in their workspace. In addition, agents can manually adjust the SLA for individual conversations. For example, if you’ve let a customer know you’ll get back to them in 2 hours, you can mark this deadline manually and the conversation will appear in your workspace in 2 hour’s time. Learn more about shift management in out [shift scheduler guide](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html). 
+Agents will have clear view of conversation SLAs for all conversations in their workspace. In addition, agents can manually adjust the SLA for individual conversations. For example, if you’ve let a customer know you’ll get back to them in 2 hours, you can mark this deadline manually and the conversation will appear in your workspace in 2 hour’s time. Learn more about shift management in out [shift scheduler guide](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
