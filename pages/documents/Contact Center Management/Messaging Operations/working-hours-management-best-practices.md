@@ -18,7 +18,7 @@ The configuration of scheduled [Workdays](https://developers.liveperson.com/acco
 
 During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. See more on shifts in our [shift scheduler guide](/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
 
-The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
+The expected time to response is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
 ### Special occasions
 
