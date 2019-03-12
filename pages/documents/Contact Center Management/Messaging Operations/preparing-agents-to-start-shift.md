@@ -37,4 +37,4 @@ Messaging warm up applies from the moment an agent logs in. It is also applied i
 * If the agent logs in again at 9:55 AM (55 minutes after last receiving a conversation), warm up does not apply.
 * If the agent logs in again at 10:05 AM (65 minutes after last receiving a conversation), warm up is applied.
 
-To enable messaging warm up on your account, contact your LivePerson account team.
+To enable the messaging warm up on your account, contact your LivePerson account team.
