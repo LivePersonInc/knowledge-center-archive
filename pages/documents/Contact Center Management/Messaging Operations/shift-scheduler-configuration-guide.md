@@ -147,6 +147,7 @@ You may also define multiple shifts per single day of the week. Simply click the
 
 The only exception is 11:59 pm, which can also be defined for a shift that lasts until midnight.
 
+{:start="14"}
 14. Defining multiple shifts per occasion:
 
 You may also define multiple shifts per occasion. Simply hover the occasion line, then click the “+Add” button in order to split the occasion activation hours, and add the shifts hours.
@@ -216,7 +217,7 @@ In order to generate App Keys to access the API, follow the following steps:
   ![](/img/shift-scheduler-CG-10b.png)
 
 {:start="5"}
-5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
+5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
 For additional info on creating API keys - [LiveEngage APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
 
