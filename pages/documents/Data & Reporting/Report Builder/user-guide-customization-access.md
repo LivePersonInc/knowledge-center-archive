@@ -161,17 +161,17 @@ It is recommended to use an existing tab with its filters and modify it, rather 
 ### **Copy an existing tab**
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘duplicate’.
+2. Select ‘duplicate.’
 
 ### Remove a tab
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘**delete**’.
+2. Select ‘**delete.**’
 
 ### Add a new panel to an existing tab
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘**insert panel**’.
+2. Select ‘**insert panel.**’
 3. Give the panel a name by double-clicking on the name field.
 4. Move between panels by clicking on the blue dot at the bottom of each panel.
 
@@ -375,7 +375,7 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 ### Edit a metric
 
 1. Right click on the metric name on the Dataset panel or Editor panel.
-2. Select ‘**Edit**’.
+2. Select ‘**Edit.**’
 3. The ‘Metric Editor’ window will open up allowing you to modify the metric’s formula.
 
 ### Change the format of a metric
@@ -430,7 +430,7 @@ The table below lists the available styles:
 **Add a legend**
 
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
-2. Click on ‘**Show Legend**’. The legend will display on the right of the visualization.
+2. Click on ‘**Show Legend.**’ The legend will display on the right of the visualization.
 3. On hover a few options will be displayed.
 4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
 5. In the top right corner - an ‘X’ button, allowing you to close the legend.
@@ -459,7 +459,7 @@ A threshold is made up of two parts: the condition, and the formatting that will
 #### Create a threshold for a metric
 
 1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
-2. Select ‘**Thresholds**’. The Thresholds dialog box will open.
+2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
 
 **Color based**: to create a threshold to change the background color used to display metric values.
@@ -504,14 +504,14 @@ You can preview your changes by clicking **Apply**. Once you have finished defin
 
 On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
 
-Select ‘**clear thresholds**’. All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
+Select ‘**clear thresholds.**’ All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
 
 ### Formatting the dashboard
 
 #### Add a title
 
 1. Click the ‘Insert’  plus & arrow icon in the top bar. A list of options will display.
-2. Select ‘**text**’. A new title bar will display.
+2. Select ‘**text.**’ A new title bar will display.
 3. Click on the text bar and type your desired text.
 4. You can drag and drop the title bar to anywhere in the dashboard.
 5. You can format the text font by selecting the title bar and changing the settings on the ‘PROPERTIES’ panel.
@@ -527,12 +527,12 @@ Once you have added an attribute to the grid, you can perform the following step
 ### Group or ungroup data
 
 1. Right-click on the name of the attribute you’d like to group, on the editor panel. A list of options will display.
-2. Select ‘**create groups**’. A new window, the ‘group editor’, will open.
+2. Select ‘**create groups.**’ A new window, the ‘group editor’, will open.
 3. Name the new attribute.
 4. Name a group and add values to it by dragging them from the ‘Available’ list on the left of the window and dropping them into the ‘Selected’ section on the right.
 5. Click the v button once your group is complete.
 6. Add more groups by clicking in the ‘Add a Group’ link.
-7. Once you’ve finished creating the groups, click ‘**Save**’.
+7. Once you’ve finished creating the groups, click ‘**Save.**’
 8. You can now use the new attribute instead of the original attribute.
 
 **How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
