@@ -85,6 +85,7 @@ In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and 
 ## FAQs
 
 **Q:** What happens when agent managers manually set off-hours while automatic scheduling rules exist?  
+
 **A:** When automatic scheduling rules exist, but the brand decides to go back to manual mode, the ETTR changes according to the manual configuration.
 
 In the example above: If the agent manager manually changed to off hours in the middle of a conversation, the ETTR displayed to consumers will be according to the off hours configuration.
