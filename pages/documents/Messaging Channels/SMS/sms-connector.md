@@ -37,3 +37,12 @@ Our self-serve setup for the SMS connector means brands can quickly and easily a
 It's always important to ensure that your SMS operations meet local regulations and guidelines. For more information on compliance, read our best practices for complying with text messaging regulations [here](messaging-channels-sms-complying-with-sms-regulations.html).
 
 **Please note:** The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000.
+
+## **How does LiveEngage treat multi-segmented SMS messages?**
+
+Multi-segmented SMS messages are messages that are counted as multiple SMS messages at the time they are sent because they contain a large number of characters.
+
+LiveEngage does not consolidate or separate SMS multi-segment messages. Consolidation depends on the 3rd party SMS providers.
+
+* **Twilio** consolidates multi-segment SMS messages before sending them to LiveEngage. So the entire multi-segment SMS is treated as a single message in LiveEngage.
+* **Open Market** sends LiveEngage each of the segments of a multi-segment SMS separately. Therefore each segment is treated as a separate message in LiveEngage.
