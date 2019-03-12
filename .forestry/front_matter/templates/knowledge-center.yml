@@ -134,6 +134,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/LivePerson-Cookies.md
+- pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
@@ -244,7 +246,6 @@ pages:
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md
 - pages/documents/Bots & Automation/how-bots-work-with-liveperson.md
-- pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md
 - pages/documents/Admin & Settings/Skills & groups/connect-visitors-to-agents-by-skill.md
