@@ -52,7 +52,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 2. **Account Administration:**
    * **Skills** - set up or import the [list of skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#creating-and-assigning-skills.html) that you’d like conversations routed to.
    * **Users** - set up or import the [list of agents](admin-settings-create-and-manage-users.html), managers or administrators.
-   * **Groups/LOB** - [set up groups or lines of business](contact-center-management-campaigns-campaign-settings.html) to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
+   * **Groups/LOB** - [set up groups or lines of business ](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
    * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone** - [set up the time zone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
    * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
