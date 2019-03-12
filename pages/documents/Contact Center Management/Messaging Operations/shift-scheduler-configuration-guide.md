@@ -128,6 +128,7 @@ You may also define multiple shifts per single day of the week. Simply click the
 
 ### **Creating a new special occasion item**
 
+{:start="8"}
 8. Access the Special Occasion library on your LiveEngage account.
 
 9. Click “Add new”
