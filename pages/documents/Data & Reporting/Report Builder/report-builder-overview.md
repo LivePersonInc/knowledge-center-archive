@@ -3,7 +3,7 @@ pagename: Report Builder overview
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: both
-subtitle: A high level overview in to the Report Builder
+subtitle: A high-level overview of the Report Builder
 level3: ''
 permalink: data-reporting-report-builder-report-builder-overview.html
 isTutorial: false
