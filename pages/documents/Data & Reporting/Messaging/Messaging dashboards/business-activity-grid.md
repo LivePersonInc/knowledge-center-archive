@@ -66,7 +66,7 @@ For example:
 
 The following campaign setup is given:
 
-![](/img/Example-Bus-activity-grid.png)
+![](/img/Business-activity-grid-image2.png)
 
 Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
 
@@ -95,7 +95,7 @@ The LivePerson monitoring code present on your website pages automatically trans
 
 The following diagram outlines how funnel metrics are calculated for Messaging Engagements which do not originate from a monitored web source:
 
-![](/img/business-activity-grid2.png)
+![](/img/Business-activity-grid-image1.png)
 
 ### Counting “sessions” from the Mobile App
 
