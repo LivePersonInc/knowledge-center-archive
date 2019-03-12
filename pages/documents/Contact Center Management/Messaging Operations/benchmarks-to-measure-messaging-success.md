@@ -13,13 +13,13 @@ isNew: false
 ---
 The most common question contact centers ask after deciding to embrace asynchronous messaging is: how should I measure the success of messaging?  This includes having the ability to measure agent productivity, customer satisfaction, and ROI.
 
-While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, [messaging cannot be measured the same way](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html). That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
+While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, [messaging cannot be measured the same way](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html). That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers can jump back in the conversation at any time. Meaning, messaging does not always have a clear start or end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
 
 LivePerson has developed a set of proprietary data KPIs that enable brands to track and monitor the performance and success of their messaging programs.
 
-### 4 Baseline KPIs & metrics for messaging
+## 4 Baseline KPIs & metrics for messaging
 
-## 1. Measuring Consumer Experience (MCS) score
+### 1. Measuring Consumer Experience (MCS) score
 
 | Metric | Benchmark | Definition |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ MCS can also be applied to skill, agent, agent group and line of business to get
 
 MCS is superior to traditional customer satisfaction methods because it uses text analytics and NLP, which does not require any action from consumers. Once action is required by a consumer, bias often clouds the data: Consumers who fill in CSAT tend to be more satisfied than the ones who don't. Additionally, only 15%-30% of brand's consumers fill in CSAT rendering it as an unreliable measurement of satisfaction of the entire consumer population.
 
-## 2. Customer Satisfaction Score (CSAT)
+### 2. Customer Satisfaction Score (CSAT)
 
 | Metric | Benchmark | Definition |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ MCS is superior to traditional customer satisfaction methods because it uses tex
 
 Similarly to MCS, CSAT provides a high-level diagnostics of customer experience. Using LivePerson’s Post Conversation Survey bot brands can setup a Q&A experience triggered after a conversation between a consumer and an agent concludes. Through this conversational experience, between the Survey Bot and the consumer, qualitative KPIs should be captured.
 
-## 3. Closed conversations per login hour (CCPLH)
+### 3. Closed conversations per login hour (CCPLH)
 
 | Metric | Benchmark | Definition |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Similarly to MCS, CSAT provides a high-level diagnostics of customer experience.
 {: .notice}
 Closed conversations per login hour measure the amount of conversations an agent closes that are not followed by a repeat consumer contact to the same skill. Brands should leverage their current CCPLH as a baseline, with the ultimate goal of achieving at least two times voice calls per hours. Be sure ‘Skill and Group’ filters are set correctly when reviewing CCPLH.
 
-## 4. Resolution rate
+### 4. Resolution rate
 
 | Metric | Benchmark | Definition |
 | --- | --- | --- |
@@ -62,6 +62,6 @@ The resolution rate is a program efficiency metric that gives brands an indicati
 
 Through the resolution tab, brands can determine how many login hours their program is spending on unresolved conversations. Using the supplemental analyses - automation, transfer, agent effectiveness and resolution, brands can pinpoint reasons for returning consumers.
 
-## Reporting on messaging KPIs
+### Reporting on messaging KPIs
 
 Together with a proprietary customer satisfaction management tools to measure the consumer experience, demand, and overall contact center performance, LivePerson reports are tailored for asynchronous messaging. See the [Data & Reporting section](data-reporting-business-reporting-metrics.html) for more information on where to see these metrics.
