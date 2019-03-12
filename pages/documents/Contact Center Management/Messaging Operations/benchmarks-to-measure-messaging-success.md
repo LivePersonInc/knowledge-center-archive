@@ -41,7 +41,7 @@ MCS is superior to traditional customer satisfaction methods because it uses tex
 | --- | --- | --- |
 | CSAT (%) | 85%; or, higher than voice channel | Survey-based customer satisfaction measurements that can be compared to voice. |
 
-Similarly to MCS, CSAT provides a high-level diagnostics of customer experience. Using LivePerson’s Post Conversation Survey bot brands can setup a Q&A experience triggered after a conversation between a consumer and an agent concludes. Through this conversational experience, between the Survey Bot and the consumer, qualitative KPIs should be captured.
+Similarly to MCS, CSAT provides high-level diagnostics of customer experience. Using LivePerson’s Post Conversation Survey bot, brands can setup a Q&A experience triggered after a conversation between a consumer and an agent concludes. Through this conversational experience, between the Survey Bot and the consumer, qualitative KPIs should be captured.
 
 ### 3. Closed conversations per login hour (CCPLH)
 
@@ -58,7 +58,7 @@ Closed conversations per login hour measure the amount of conversations an agent
 | --- | --- | --- |
 | Resolution rate (%) | ± 80% | Percentage of total messaging conversations that were closed and the consumer did not return within 0-3 days. Standard measurement of “resolved” cases to determine program efficiency. |
 
-The resolution rate is a program efficiency metric that gives brands an indication of if they have created the right messaging program to meet their consumers needs (are you engaging consumers at the right time? Are agents resolving conversations on time?). LivePerson has set the standard of three days as the cut off metrics for conversation resolution, meaning if a consumer doesn’t return with the same issue after three days, the conversation is considered to be resolved.
+The resolution rate is a program efficiency metric that gives brands an indication if they have created the right messaging program to meet their consumers needs (are you engaging consumers at the right time? Are agents resolving conversations on time?). LivePerson has set the standard of three days as the cut off metrics for conversation resolution, meaning if a consumer doesn’t return with the same issue after three days, the conversation is considered to be resolved.
 
 Through the resolution tab, brands can determine how many login hours their program is spending on unresolved conversations. Using the supplemental analyses - automation, transfer, agent effectiveness and resolution, brands can pinpoint reasons for returning consumers.
 
