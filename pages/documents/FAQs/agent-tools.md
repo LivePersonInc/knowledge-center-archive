@@ -120,3 +120,24 @@ b. Click a box to return to an ongoing conversation.
 ## Where can I see the list of all consumers who are connected via the LiveEngage Messaging App (not just my connections)? 
 
 a. Immediately after login, on the first window displayed - the App Connections list on the VISITORS tab. Once you’ve navigated away from the App Connections list, you can return to it as follows: b. On the VISITORS tab, click App Connections. The list of all consumers connected to your LiveEngage account via messaging is displayed. c. From inside the conversation window, click the small three stripes (lower left side).
+
+## how do I transfer a connection?
+
+You can send a conversation back to the queue where it will be redirected to another online agent. You cannot transfer a conversation directly to a specific agent. 
+
+a. Open the conversation window, click the small arrow (top right corner), and choose Return to queue. 
+
+b. Once “re-queued”, the conversation is redirected to another online Agent (or Agents, depending on the account settings). 
+
+{: .notice}  
+You may need to change your status to Back Soon in order to “re-queue” a conversation, depending on the account’s settings. 
+
+## How do I resolve a conversation?
+
+Once you’ve finished handling a client’s inquiry, and the client confirms that their inquiry is resolved, close and hide the conversation as follows: 
+
+a. In the conversation window, click the small arrow (top right corner), and choose Close conversation. The conversation ends but the connection remains open (and is still accessible on the My Connections tab, App Connections tab, and in the bottom bar). 
+
+b. Open the Summary widget and type in the conversation summary. The summary is saved automatically when you type it. 
+
+c. In the conversation window, click the small arrow (top right corner) and choose Hide conversation. The conversation is now resolved and no longer displayed on the My Connections tab or on the App Connections tab.
