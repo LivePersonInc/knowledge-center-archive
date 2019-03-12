@@ -25,11 +25,11 @@ LivePerson has developed a set of proprietary data KPIs that enable brands to tr
 | --- | --- | --- |
 | MCS | +20 - +30 | Meaningful Connection Score is an automated, real-time measurement of customer satisfaction through the analysis of sentiment that is applied to each message in a conversation. The MCS range is between -100 to 100. |
 
-LivePerson’s proprietary consumer sentiment analysis software that measures the consumer experience in real time is called [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html). The MCS technology doesn’t rely on customers answering surveys, but rather automatically conducts an analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real-time.  The **MCS range** is between -100 to 100 where negative words and connotations will result in a negative number, and positive words will result in a positive number.
+LivePerson’s proprietary consumer sentiment analysis software that measures the consumer experience in real time is called [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html). The MCS technology doesn’t rely on customers answering surveys, but rather automatically conducts an analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time. The **MCS range** is between -100 to 100 where negative words and connotations will result in a negative number, and positive words will result in a positive number.
 
 MCS can also be applied to skill, agent, agent group and line of business to get a full picture of any aspect of their operational performance. This allows the following applications:
 
-* Real time alerts
+* Real-time alerts
 * Training opportunities
 * Tracking broader Brand performance
 
