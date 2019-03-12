@@ -220,3 +220,13 @@ When computing a messaging related metric that should allow filtering by an agen
 | NO. OF CONVERSATIONS CLOSED BY SYSTEM | The last agent assigned to the conversation | To the last skill assigned to the conversation |
 | AVG. CONVERSATION DURATION | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
 | INTERACTIVE / NON INTERACTIVE / ABANDONED CONVERSATIONS | To the last agent assigned to the conversation | To the last skill assigned to the conversation |
+
+## Predefined grid
+
+The grid spreads out all the relevant metrics in a granular view so any member on the account may easily download the grid or receive scheduled copies to their email.
+
+Perform the analysis and customization you need using an offline copy, in excel using the complete grid. You can choose the document type (daily/monthly) based on your needed timeframe. The daily grid gives daily aggregations for all the [metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer) while the monthly grid offers the corresponding aggregations at the monthly level. The data is presented at the brand, campaign and engagement level.
+
+## Metrics
+
+For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the[ Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
