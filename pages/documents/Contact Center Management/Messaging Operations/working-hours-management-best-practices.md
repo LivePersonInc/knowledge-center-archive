@@ -22,7 +22,7 @@ The expected time to response is also available for the agent, so it is clear to
 
 ### Special occasions
 
-The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
+The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI. For example: working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
 
 {: .notice}
 Special occasions do not modify hours of operation defined by Workdays, but instead override them.
@@ -42,7 +42,9 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 ## Clarifications
 
-* If _Workdays_ or _Special Occasions_ are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified. This means:
+* If Workdays or Special Occasions are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified. 
+
+  This means:
   * If you wish to have a skill without special occasions, for example, you’ll need to set the skill’s special occasions field with a new special occasion item to override the account level configuration. This item should have an empty list of occasions.
   * Same goes for workdays - in order to override a skill’s workdays, you’ll need to set the skill’s workdays field with a new workdays item to override the account level configuration. This item should state the skill’s working hours.
 * Time to respond is presented to the consumer in some of the automatic messages (e.g. welcome message), if the brand decides to add the time to respond dynamic text. If the calculated time to respond is due after the next shift’s end time: _The calculation of the time to respond =  time until the next next shift + (response time per skill - response time per skill that already passed in the current shift)_
