@@ -17,12 +17,12 @@ An activity log will display which element has been changed, when and by whom, a
 
 An audit trail is available for the following elements:
 
-* [Users](admin-settings-permissions-assign-permissions.html#creating-custom-lpa-user-profiles)
+* [Users](admin-settings-create-and-manage-users.html)
 * [Skills](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)
 * [Agent groups](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)
 * [Permissions](admin-settings-permissions-assign-permissions.html)
 * [LoBs](admin-settings-skills-groups-operate-business-divisions-from-one-account.html)
-* [Post Conversation Survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html)
+* [Post Conversation Survey](bots-automation-post-conversation-survey.html)
 * [Campaign scheduling](contact-center-management-campaigns-time-frame.html)
 * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 

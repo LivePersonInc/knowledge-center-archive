@@ -81,7 +81,7 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 
 ### Accessing schedule/special occasion libraries
 
-Scheduling items or Special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
+Scheduling items or special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
 
 ### Via the Account Shift Scheduler page:
 
@@ -117,26 +117,29 @@ The only exception is 11:59 pm, which can also be defined in order to define a s
 
 * **Off** - this day will be considered inactive from 12:00 am until 11:59 pm.
 
+{:start="5"}
 1. Defining multiple shifts per day.
 
 You may also define multiple shifts per single day of the week. Simply click the “+Add” button in order to split the day’s activation hours and add the shifts hours.
 
+{:start="6"}
 1. Save the page.
 2. The new scheduling item will now appear in the schedule library.
 
 ### **Creating a new special occasion item**
 
-8\. Access the Special Occasion library on your LiveEngage account.
+{:start="8"}
+8. Access the Special Occasion library on your LiveEngage account.
 
-9\. Click “Add new”
+9. Click “Add new”
 
-10\. Fill in the Special Occasion item name, description (optional) and timezone
+10. Fill in the Special Occasion item name, description (optional) and timezone
 
-11\. In order to add new occasions to the list, click the “Add line” button
+11. In order to add new occasions to the list, click the “Add line” button
 
-12\. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status, and shift time
+12. A new occasion line will be added to the table. Fill in the occasion name, timeframe, shift status, and shift time
 
-13\. For the shift status, you may choose between:
+13. For the shift status, you may choose between:
 
 * **Off (default)** - this occasion will be considered inactive from 12:00 am until 11:59 pm, in its defined timeframe.
 * **All hours** - this occasion will be considered active from 12:00 am until 11:59 pm, in its defined timeframe.
@@ -144,13 +147,14 @@ You may also define multiple shifts per single day of the week. Simply click the
 
 The only exception is 11:59 pm, which can also be defined for a shift that lasts until midnight.
 
-14\. Defining multiple shifts per occasion:
+{:start="14"}
+14. Defining multiple shifts per occasion:
 
 You may also define multiple shifts per occasion. Simply hover the occasion line, then click the “+Add” button in order to split the occasion activation hours, and add the shifts hours.
 
-15\. Save the page.
+15. Save the page.
 
-16\. The new special occasion item will now appear in the special occasion library.
+16. The new special occasion item will now appear in the special occasion library.
 
 ### Assigning Workdays/Special Occasions per account
 
@@ -213,7 +217,7 @@ In order to generate App Keys to access the API, follow the following steps:
   ![](/img/shift-scheduler-CG-10b.png)
 
 {:start="5"}
-5\. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
+5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
 For additional info on creating API keys - [LiveEngage APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
 

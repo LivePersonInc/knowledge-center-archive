@@ -14,17 +14,17 @@ isNew: false
 ---
 ## Overview
 
-The [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive.
+The [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) feature enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize the Smart Capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
 
 ## Calculating the agent load
 
-The Smart capacity setting revolves around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain capacity in the agents overall capacity to handle conversations simultaneously.
+The Smart Capacity setting revolves around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain weight in the agents overall capacity to handle conversations simultaneously.
 
 A **non-actionable conversation** (one that waits for the consumer to act upon) is considered an inactive conversation, and as such, it can take up less weight in the agent’s overall capacity to allow the agent to handle additional conversations.
 
-The first definition sets the ground for managing the agent capacity is the _Max conversations_ setting that can be defined per user within LiveEngage.
+The first definition that sets the ground for managing the agent capacity is the _Max conversations_ setting that can be defined per user within the platform.
 
-If the agent is set to have _Max conversations_ of 4 conversations, it means that the agent will be able to handle 4 active conversations at the same time. That is the agent’s Max capacity or Max load.
+If the agent is set to have _Max conversations_ of 4 conversations, it means that the agent will be able to handle 4 active conversations at the same time. That is the agent’s max capacity or max load.
 
 ### Settings:
 
@@ -57,11 +57,11 @@ The agent can now have:
 * Three active conversations with a total weight of 3
 * Ten inactive conversations with a total weight of 1
 
-If the agent has multiple skills assigned to it, Smart Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill smart capacity settings. Please note:  the Max conversations setting defines the hard limit for the number of conversations an agent can handle.
+If the agent has multiple skills assigned to it, Smart Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill smart capacity settings. **Please note:** the max conversations setting defines the hard limit for the number of conversations an agent can handle.
 
 ## Smart Capacity recommended values
 
-In order to come up with the most relevant smart capacity values for a specific brand, an analysis can be carried out by LivePerson’s Analytics and Data Science teams. They will generate a list of recommended Smart Capacity values per the brands' skills based on an analysis of the consumer response times to messages from agents, per skill. Please contact your LivePerson account team to set this up. Please contact your LivePerson account team to set up Smart Capacity Per Skill.
+In order to come up with the most relevant smart capacity values for a specific brand, an analysis can be carried out by LivePerson’s Analytics and Data Science teams. They will generate a list of recommended Smart Capacity values per the brands' skills based on an analysis of the consumer response times to messages from agents, per skill. Please contact your LivePerson account team to set up Smart Capacity Per Skill.
 
 ## Tracking in real time
 
