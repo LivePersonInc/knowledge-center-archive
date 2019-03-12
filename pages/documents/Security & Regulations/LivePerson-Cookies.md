@@ -6,6 +6,10 @@ subtitle: LivePerson uses information stored in cookies to maintain session data
   to identify returning visitors
 permalink: Security-regulations-LivePerson-cookies.html
 date: 2019-03-12 13:24:55 +0200
+subCategoryName: ''
+level3: ''
+isTutorial: false
+isNew: false
 published: false
 
 ---
@@ -13,13 +17,11 @@ A cookie is a small piece of data sent from a website and stored in the visitors
 
 LivePerson uses information stored in cookies to maintain session data and to identify returning visitors by saving LivePerson-specific data such as visitor ID and last chat date. It is important to note that the cookies do not contain any private customer data, or any data that can be accessible or useful outside of LivePerson.
 
-**Cookie Solution Types**
+## Cookie Solution Types
 
 By default, LivePerson uses the third-party cookie solution type for visitors. However if this is not your preferred option, please contact your Success Manager.
 
 The following table lists the cookie solution types offered by LivePerson:
-
-**Cookie Type Description Items to Note **
 
 **Third-party**
 
@@ -51,11 +53,7 @@ Browsing cookies under your website domain will be set by LivePerson as persiste
 
 Secure cookies with **first-party cookie** solution types are not supported.
 
-Secure cookies with **first-party cookie** solution types are not supported. 
-
-**2 Data Sheet LivePerson Cookies**
-
-**Cookie Type Description Items to Note **
+Secure cookies with **first-party cookie** solution types are not supported.
 
 **First-party persistent**
 
@@ -71,43 +69,38 @@ be deleted when the visitor closes their browser. As a result, with this setting
 
 Secure cookies with **first-party cookie** solution types are not supported.
 
-**Considerations **
+## Considerations
 
 The following issues should be considered when working with LivePerson Cookies.
 
-**Note:** _For any further clarification on instructions with any of the issues discussed below, please contact_
+{: .notice}**  
+**For any further clarification on instructions with any of the issues discussed below, please contact _LivePerson Technical Support._
 
-_LivePerson Technical Support._
-
-**Secure Cookies**
+### Secure Cookies
 
 LivePerson supports secure cookies, but require the Monitor Tag to be deployed using HTTPS.
 
-**HttpOnly Attribute**
+### HttpOnly Attribute
 
 LivePerson is unable to support the HttpOnly attribute because it does not operate through JavaScript, which facilitates the Monitor Tag to collect cookies.
 
-**Third Party Cookies - Default**
+### Third Party Cookies - Default
 
 By default, LivePerson uses third-party session and visitor cookies in order to save visitor's tracking information. This is due to the fact that while visitors are browsing your site, the LivePerson cookies are set by the LivePerson domain and not by your website domain.
 
-**Chat Button Tags**
+### Chat Button Tags
 
 If you decide to use a first-party cookie solution, you must ensure that all the static button tags on your account are first-party cookie compatible.
-
-**3 Data Sheet LivePerson Cookies**
 
 **LivePerson Cookies - Content**
 
 The table below lists all specific cookie configuration types used by LivePerson.
 
-**Cookie Name Description Cookie Type**
+### Cookie Name Description Cookie Type
 
-**Monitor Related Cookies **
+**Monitor Related Cookies**
 
-LivePersonID__*__ Used in conjunction with the HumanClickKEY cookie to gather
-
-usage data related to a visitor's visit to a LivePerson customer's website. The information gathered is essential for determining whether LivePerson's hosted services should launch on the visitor's browser. This cookie is set when LivePerson's services initiate monitoring.
+LivePersonID__*__ Used in conjunction with the HumanClickKEY cookie to gather usage data related to a visitor's visit to a LivePerson customer's website. The information gathered is essential for determining whether LivePerson's hosted services should launch on the visitor's browser. This cookie is set when LivePerson's services initiate monitoring.
 
 Disabling or blocking this cookie may limit or prevent the visitor from receiving assistance or offers from the customer's website via LivePerson's services.
 
@@ -141,11 +134,7 @@ _-_ LivePerson VisitorID
 
 Persistent
 
-(Expires after 1 year) 
-
-**4 Data Sheet LivePerson Cookies**
-
-**Cookie Name Description Cookie Type**
+(Expires after 1 year)
 
 HumanClickKEY The session key of a visit.
 
@@ -177,7 +166,9 @@ Persistent
 
 (Expires after 1 day)
 
-HumanClickSiteContainer ID_<SITEID> Used to allow LivePerson to distribute usage of its services across a
+HumanClickSiteContainer ID_<SITEID> 
+
+Used to allow LivePerson to distribute usage of its services across a
 
 cluster of servers (for load balancing purposes). This cookie is set when LivePerson's services initiate monitoring on the applicable customer's website.
 
@@ -195,9 +186,7 @@ The browser creates the cookie name, path and domain:
 
 Session
 
-**5 Data Sheet LivePerson Cookies**
-
-**Cookie Name Description Cookie Type **
+\**Cookie Name Description Cookie Type **
 
 lpCloseInvite Added in order to prevent the rare situation of repeat invitations
 
@@ -235,9 +224,7 @@ Session
 
 __*__ LivePersonID cookie is set twice with different content.
 
-The cookie name is not the sole unique identifier. __**__ LivePerson chat does not require cookies in order to operate. 
-
-**6 Data Sheet LivePerson Cookies**
+The cookie name is not the sole unique identifier. __**__ LivePerson chat does not require cookies in order to operate.
 
 This document, materials or presentation, whether offered online or presented in hard copy ("LivePerson Informational Tools") is for informational purposes only. LIVEPERSON, INC. PROVIDES THESE LIVEPERSON INFORMATIONAL TOOLS "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
