@@ -467,10 +467,12 @@ A threshold is made up of two parts: the condition, and the formatting that will
 From the second drop-down list, select the color or images you want to display:
 
 * Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-* Images: select the images you would  like to display. The options include:
-* Arrows
-* Regular Pin
-* Rounded Pin
+* Images: select the images you would  like to display. 
+
+  The options include:
+  * Arrows
+  * Regular Pin
+  * Rounded Pin
 
 From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
 
