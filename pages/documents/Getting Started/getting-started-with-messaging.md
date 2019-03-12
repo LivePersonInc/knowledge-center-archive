@@ -65,7 +65,7 @@ Using LivePerson, consumers can begin messaging with your brand from any channel
 * [SMS](messaging-channels-sms-sms-connector.html) (Twilio, Google My Business)
 * [Facebook](messaging-channels-facebook-messenger.html)
 * [Apple Business Chat](messaging-channels-messaging-connectors-overview.html)
-* [Google Rich Messaging](messaging-channels-google-rcs-business-messaging.html)
+* [Google RCB Business Messaging](messaging-channels-google-rcs-business-messaging.html)
 * [WhatsApp Business](messaging-channels-whatsapp-business.html)
 * [Line](messaging-channels-line-connector.html)
 * [Connector API](https://developers.liveperson.com/connector-api-first-steps-overview.html) (build a connector to any custom messaging channel)
