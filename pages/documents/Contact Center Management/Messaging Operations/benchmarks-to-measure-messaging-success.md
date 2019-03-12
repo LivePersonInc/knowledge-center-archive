@@ -31,9 +31,9 @@ MCS can also be applied to skill, agent, agent group and line of business to get
 
 * Real-time alerts
 * Training opportunities
-* Tracking broader Brand performance
+* Tracking broader brand performance
 
-MCS is superior to traditional customer satisfaction methods because it uses text analytics and NLP, which does not require any action from consumers. Once action is required by a consumer, bias often clouds the data: Consumers who fill in CSAT tend to be more satisfied than the ones who don't. Additionally, only 15%-30% of brand's consumers fill in CSAT rendering it as an unreliable measurement of satisfaction of the entire consumer population.
+MCS is superior to traditional customer satisfaction methods because it uses text analytics and NLP, which does not require any action from consumers. Once action is required by a consumer, bias often clouds the data: Consumers who fill in CSAT tend to be more satisfied than the ones who don't. Additionally, only 15%-30% of brand's consumers fill in CSAT rendering it an unreliable measurement of satisfaction of the entire consumer population.
 
 ### 2. Customer Satisfaction Score (CSAT)
 
