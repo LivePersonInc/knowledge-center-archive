@@ -189,3 +189,9 @@ body {
 @keyframes dots{
   50% {transform: translateX(-31px)}
 }
+
+#resetcontainer {
+  position: sticky;
+  top: 140px;
+  height: 20px;
+}

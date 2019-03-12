@@ -83,3 +83,10 @@ function scrollBottom () {
 		isScrolling = false;
 	}, 2000);
 };
+
+$(document).ready(function () {
+	$('#bottomLink').click(function() {
+		window.localStorage.clear();
+    window.location.reload(true);
+});
+})

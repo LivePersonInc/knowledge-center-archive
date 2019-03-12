@@ -17,4 +17,4 @@ permalink: index.html
 </div>
 </div>
 </div>
-<!-- <i id="bottomLink" class="fas fa-arrow-down"></i> -->
+<div id="resetcontainer"><i id="bottomLink" class="fas fa-redo"></i></div>
