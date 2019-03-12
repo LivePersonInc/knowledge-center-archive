@@ -4,11 +4,12 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: " In-depth information on working hours management limitations, clarifications
-  and best oractices "
+  and best practices "
 level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
 date: 2019-01-17 13:13:10 +0000
+published: false
 
 ---
 ### Workdays
