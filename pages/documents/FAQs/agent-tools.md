@@ -141,3 +141,11 @@ a. In the conversation window, click the small arrow (top right corner), and cho
 b. Open the Summary widget and type in the conversation summary. The summary is saved automatically when you type it. 
 
 c. In the conversation window, click the small arrow (top right corner) and choose Hide conversation. The conversation is now resolved and no longer displayed on the My Connections tab or on the App Connections tab.
+
+## Where can I view summaries of resolved conversations? 
+
+On the Engagement history tab, click an engagement to see its summary. 
+
+## Why don’t I see any agents in the agents list? 
+
+Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your LiveEngage account administrator.
