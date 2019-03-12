@@ -46,7 +46,7 @@ When building a survey, the bot studio has been enhanced so you can move each br
 
 Overdue conversations will provided in the Messaging Operations API available as three metrics: Overdue while in queue, Overdue while assigned, and Total overdue.
 
-Overdue conversations KPI will be added to the [real time dashboard](data-reporting-messaging-messaging-dashboards-real-time-messaging-dashboard-overview.html) using the API, allowing you to directly use the API to show data wherever they want.
+Overdue conversations KPI will be added to the [real time dashboard](data-reporting-messaging-real-time-data-real-time-messaging-dashboard.html) using the API, allowing you to directly use the API to show data wherever they want.
 
 ## Audit trail on working hours
 

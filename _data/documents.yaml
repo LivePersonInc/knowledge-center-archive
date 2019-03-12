@@ -65,8 +65,8 @@
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
-            - level3name: Automatic messages configuration guide
-            - level3name: Automatic Conversation Distribution (ACD)
+            - level3name: Automatic messages configuration
+            - level3name: Automatic Conversation Distribution
         - pagename: Queue management
           level3:
             - level3name: Queue prioritization overview
@@ -134,7 +134,7 @@
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined content overview
-        - pagename: Predefined content best practices for messaging
+        - pagename: Predefined content best practices
         - pagename: Importing predefined content
 
 - categoryname: "Data & reporting"
@@ -165,7 +165,7 @@
             - level3name: "Operational & staffing dashboard"
             - level3name: Agent activity dashboard
             - level3name: Skills activity dashboard
-    - subcategoryname: "How to export 100,000 chats into a dashboard"
+        - pagename: "How to export 100,000 chats into a dashboard"
     - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
         - pagename: "Meaningful Connection Score (MCS) Overview"
