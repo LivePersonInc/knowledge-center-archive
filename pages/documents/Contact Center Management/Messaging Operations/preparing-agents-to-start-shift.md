@@ -27,7 +27,7 @@ The warm up algorithm incrementally assigns the conversations to the agent in th
 1. Once an agent logs in, the first conversation will be assigned to them immediately.
 2. After a predefined time interval the agent will receive the next conversation (regardless of whether they accepted the previous one or not). The predefined time interval can be configured by the brand, with a default value of 90 seconds.
 3. The warm up process continues, with conversations being assigned to the agent at the same predefined time intervals, until the number of assigned conversations reaches the agent’s **max # of messaging conversations.** The conversations are assigned regardless of the conversation’s weight, i.e., whether they are active or inactive).
-4. Additional conversations will be assigned based on available capacity, according to the smart capacity calculation. For further information on how smart capacity is calculated, refer to the [Smart Capacity documentation.](contact-center-management-messaging-operations-smart-capacity-overview.html)
+4. Additional conversations will be assigned based on available capacity, according to the Smart Capacity calculation. For further information on how Smart Capacity is calculated, refer to the [Smart Capacity documentation.](contact-center-management-messaging-operations-smart-capacity-overview.html)
 
 {: .notice}
 Messaging warm up applies from the moment an agent logs in. It is also applied if at least one hour has passed since they last received a conversation from the queue. For example, an agent logs in at 8:45 AM, receives a new incoming conversation at 9:00 AM and then logs out. The maximum warm up period is set by default to 20 minutes.
