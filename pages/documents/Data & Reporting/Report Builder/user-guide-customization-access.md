@@ -13,7 +13,7 @@ date: 2019-01-16 11:37:29 +0000
 ---
 This user guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
 
-## Getting started 
+## Getting started
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
@@ -43,7 +43,7 @@ In order for agent managers and campaign managers to be able to view, customize 
 3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
 
-   {: .notice}   
+   {: .notice}  
    If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
 
 ## Data view restrictions
@@ -127,7 +127,7 @@ LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-
 
 ### Saving changes
 
-Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto save function at this time, and it is recommended to save your work after every bulk of changes.
+Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
 
 ### Share a custom dashboard
 
@@ -232,11 +232,11 @@ Hover the cursor over the name of the metric you just added, then click the arro
 
   **qualify on rank**.
 
-To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score. 
+To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
 
-To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time. 
+To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
 
-To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items. 
+To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
 
 To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
@@ -560,8 +560,7 @@ Users are advised to recreate their dashboards every so often in order to get th
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
-* T**ime based derived metrics** - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
+* T**ime based derived metrics** - It is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-**DISCLAIMER:**
-
-LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+{: .important}
+**DISCLAIMER:** LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
