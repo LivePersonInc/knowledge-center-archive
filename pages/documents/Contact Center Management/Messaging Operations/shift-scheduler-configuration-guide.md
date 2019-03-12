@@ -81,7 +81,7 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 
 ### Accessing schedule/special occasion libraries
 
-Scheduling items or Special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
+Scheduling items or special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
 
 ### Via the Account Shift Scheduler page:
 
