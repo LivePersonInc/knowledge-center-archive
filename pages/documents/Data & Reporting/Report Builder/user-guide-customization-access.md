@@ -11,8 +11,6 @@ isTutorial: false
 date: 2019-01-16 11:37:29 +0000
 
 ---
-This user guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
-
 ## Getting started
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
