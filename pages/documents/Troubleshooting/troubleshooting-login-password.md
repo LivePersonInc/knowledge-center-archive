@@ -50,14 +50,10 @@ I received the password reset email but when I click the **password reset button
 
 ![](/img/troubleshooting-password4.png)
 
-#### Cause:
-
-Your company’s mail service security settings are most likely modifying links in your emails, including the **Reset Password** link.
+The reason for this error is your company’s mail service security settings are most likely modifying links in your emails, including the **Reset Password** link.
 
 Mail security services (such as Office 365 ATP Safe Links) often send an organization’s clicked links via their own services to check if the link is safe. You can identify this by a change in the URL of the **Reset Password** button within the email (not the URL in the address bar after the redirect).
 
-#### Solution:
-
-Please contact your local system administrator and ask them to add *.liveperson.net and *.liveperson.com to the your company’s security mechanism **Safe List**.
+Please contact your local system administrator and ask them to add .liveperson.net and .liveperson.com to the your company’s security mechanism **Safe List**.
 
 For more information on Office 365 ATP Safe Links, your admin can refer to [Office 365 ATP Safe Links](https://docs.microsoft.com/en-us/office365/securitycompliance/atp-safe-links) and Set up a custom do-not-rewrite URLs list using Office 365 ATP Safe Links on the Microsoft web site.
