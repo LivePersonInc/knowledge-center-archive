@@ -4,7 +4,7 @@ categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: Learn how to get started building a bot with everything from creating a
-  use case, choosing a host and connecting conversations.
+  use case, choosing a host and connecting conversations
 level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
