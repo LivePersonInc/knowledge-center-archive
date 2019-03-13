@@ -184,4 +184,3 @@ Only approved LivePerson administrators can gain local administrator access to y
 
 {: .notice}  
 Please be advised that by granting administrator permissions to the listed LivePerson employees, full access to your account will be granted. To set this feature please contact your account manager.
-
