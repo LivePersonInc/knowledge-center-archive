@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-26 12:03:37 +0000
 
 ---
-### Missing Excel export button in Report Builder
+## Missing Excel export button in Report Builder
 
 The client is unable to export Report Builder reports from any of the Report Builder dashboards.
 
@@ -36,7 +36,7 @@ Set visualization headers to visible as follows:
    c. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
 4. Save a copy of the dashboard. Now the Export option will be visible.
 
-### In the Report Builder, the Total No. of Conversations Handled are not adding up
+## In the Report Builder, the Total No. of Conversations Handled are not adding up
 
 The totals that are displayed on the Messaging Performance dashboard (highlighted in red in image below) are not the same as the totals reported in the exported Excel file.
 
@@ -69,7 +69,7 @@ This is expected behavior.
 3. Add the sum of the values in the two “transfer” metrics to the value of the NO. OF CONVERSATIONS HANDLED metric on the Messaging Performance Dashboard.
 4. The result should equal the total number in the Excel report.
 
-### Why aren’t Report Builder dashboard filters working?
+## Why aren’t Report Builder dashboard filters working?
 
 When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
 
@@ -83,7 +83,7 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
 3. Run the dashboard again to refresh the data.
 
-### Why do chat transcript export files display incorrect customer IDs?
+## Why do chat transcript export files display incorrect customer IDs?
 
 #### Problem
 
@@ -112,7 +112,7 @@ You can use this workaround to “fix” the MS Excel display:
 {: .notice}  
 Don’t change the scientific numbers the CSV file to decimal format because MS Excel will corrupt them again when you save the CSV file.
 
-### Why is the Agent Goal Tracker “missing” transactions reported in Web History?
+## Why is the Agent Goal Tracker “missing” transactions reported in Web History?
 
 Some order ID’s (sales transactions) reported in Web History are not reported by the Agent Goal Tracker (on the Agent Manager BI Dashboard).
 
