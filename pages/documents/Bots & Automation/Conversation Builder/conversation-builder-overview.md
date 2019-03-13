@@ -40,9 +40,11 @@ As part of LivePerson’s conversational commerce platform, bots and automations
 
 ### **Agents as collaborators in training & optimization**
 
-The best people to train bots are human agents who are experts in conversations. Typically, agents are disconnected from the development and optimization process conducted by data scientists, developers or product managers. The Conversation Builder replaces the code-based programming required by most automation platform, and allows non-technical staff, like bot managers, agent managers and even qualified agents, to be hands-on building and training bots.
+The best people to train bots are human agents who are experts in conversations. Typically, agents are disconnected from the development and optimization process conducted by data scientists, developers or product managers. 
 
-The integraiton also allows for seamless back and forth escalation with human agents who can supervise bots as they work. Agents can intervene seamlessly to pick up conversations where bots cannot continue. We call this the human-bot tango. Bot managers or qualified agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question, supervise bots as they work, and intervene to rescue consumers or pick up conversations where bots cannot continue. In this way, agents and bots can tango - an instrumental capability in helping brands maintain a positive user experience.
+The Conversation Builder replaces the code-based programming required by most automation platform, and allows non-technical staff, like bot managers, agent managers and even qualified agents, to be hands-on building and training bots.
+
+Together with integration to LivePerson's conversational commerce platform, there exists a seamless back and forth escalation with human agents who can supervise bots as they work. Agents can intervene to pick up conversations where bots cannot continue - what we call the human-bot tango. Bot managers or qualified agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question. In this way, agents and bots can tango - an instrumental capability in helping brands maintain a positive user experience.
 
 ### **Out-of-the-box automations for common workflows and verticals**
 
