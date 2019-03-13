@@ -27,7 +27,10 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * **Two-way interactivity:** User actions are captured and replicated without the need to manually hand over input control.
 
 <br />
-**CoBrowse enables agents to assist visitors with complicated online tasks and processes, for example:**
+
+## Use cases
+
+CoBrowse enables agents to assist visitors with complicated online tasks and processes, for example:
 
 * Purchasing complex products such as customized travel packages
 * Completing application forms for banking services or insurance
