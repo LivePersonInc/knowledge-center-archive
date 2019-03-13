@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/Security/account-security-recommendations.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
@@ -246,7 +247,6 @@ pages:
 - pages/documents/What's New/january-2019.md
 - pages/documents/Bots & Automation/Conversation Builder/conversation-builder-overview.md
 - pages/documents/Security & Regulations/Security/validate-identity-consumer-during-conversations.md
-- pages/documents/Security & Regulations/Security/account-security-recommendations.md
 - pages/documents/Bots & Automation/how-bots-work-with-liveperson.md
 - pages/documents/Contact Center Management/Live chat operations/automatic-messages-configuration-guide.md
 - pages/documents/Admin & Settings/Permissions/customize-permissions.md

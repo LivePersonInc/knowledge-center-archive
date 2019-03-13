@@ -216,29 +216,23 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 1. From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
 2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
-
-* To filter data by creating a qualification on a metric, select **qualification**.
-* To filter data by choosing values on a slider, select **slider**.
-
-{:start="3"}  
+   * To filter data by creating a qualification on a metric, select **qualification**.
+   * To filter data by choosing values on a slider, select **slider**.
 3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-
-* To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
-* To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
-  A few options are available:
-  * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-  * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-  * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-  * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+   * To filter by the metric's values, select **qualify on value**. For example, you can display data only for agents with engagements greater than or equal to 100.
+   * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**. A few options are available:
+     * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+     * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+     * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+     * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
 ![](/img/customization-user-guide5.png)
 
+{:start="4"}
 1. There are two options to configure how users will be able to filter the data:
-   * To allow users to filter data by creating a qualification on a metric, perform the following steps:
-
-   a. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
-
-   b. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+	* To allow users to filter data by creating a qualification on a metric, perform the following steps:
+	1. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
+b. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
 
 * To allow users to filter data by choosing values on a slider, perform the following steps:
 

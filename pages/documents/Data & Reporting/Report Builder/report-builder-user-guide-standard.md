@@ -60,7 +60,7 @@ The data currently available in the predefined dashboards are as follows:
 * [**Skill activity dashboard**:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
 * [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion.
 * [**Messaging performance dashboard**:](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
-* [**Business activity dashboard**](data-reporting-messaging-messaging-dashboards-business-activity-grid.html)**:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* [**Business activity dashboard**](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html)**:** Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
 * [**Operational & staffing dashboard:**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) Includes information about skill performance and skill demand.
 * [**Survey activity dashboard**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html)**:** Includes information about responses to surveys in Live chat.
 
