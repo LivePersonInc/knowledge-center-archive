@@ -55,14 +55,18 @@ For further information on LivePerson’s Password Policy, see Login Policy.
 
 ## Step 3: Mask your sensitive data
 
+LivePerson offers the ability to remove sensitive data patterns from the chat transcripts prior to storing the transcript in the LivePerson database:	
+
 | Setting | Description | LivePerson recommendation | How to enable |
 | --- | --- | --- | --- |
 | Dating masking | Identifies specific sensitive data patterns and removes them from the chat transcripts, prior to storing the transcript in the database. The masking is based on a RegEx mechanism that identifies the sensitive pattern and replaces it with asterisks (*). By using the data masking capability, sensitive data is not stored on LivePerson’s database servers. | Enable - Mask at least credit card data information. | Contact LivePerson. |
 
-LivePerson offers a number of security-related policies for the LiveEngage platform. This includes the ability to control each user’s password, and to enable restriction of user access to the system due to instances such as account inactivity, failed login attempts, IP address, and idle time.
+## Step 4: Encrypt your data
 
-{: .notice}  
-Settings for security-related policies can be accessed and set by LivePerson employees only.
+LivePerson offers the ability to store chat transcripts and other session variables in an encrypted format in the LivePerson database: 
+
+| Setting | Description | LivePerson recommendation | How to enable |
+| Chat - Transcripts | Chat transcripts and other session variables can be stored on the LivePerson storage in an encrypted format. Note: When encryption is enabled, the following capabilities will malfunction: hot-topics, Data Access API - data will be pulled masked unless the customer will provide LivePerson with a PGP key, Analytics reports: Predefined Content, topics toolkit, Escalation Risk Predictor | Enable | Contact LivePerson. |
 
 ## Password policies
 
