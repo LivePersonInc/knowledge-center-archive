@@ -229,18 +229,18 @@ The filters of a any dashboard must contain at least one attribute from the “T
 ![](/img/customization-user-guide5.png)
 
 {:start="4"}
+
 1. There are two options to configure how users will be able to filter the data:
-	* To allow users to filter data by creating a qualification on a metric, perform the following steps:
-	1. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
-b. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+   * To allow users to filter data by creating a qualification on a metric, perform the following steps:
+     * Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals. 
+     * In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+   * To allow users to filter data by choosing values on a slider, perform the following steps:
 
-* To allow users to filter data by choosing values on a slider, perform the following steps:
+     a. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
 
-  a. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
-
-  b. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
-  * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
-  * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
+     b. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
+     * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
+     * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
 
 ### Remove a filter from the filters panel
 
