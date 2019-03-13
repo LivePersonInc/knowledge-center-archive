@@ -55,13 +55,15 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 {:start="8"}
 8\. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.  
-9\. On the conversation sources tab, click on Connect in the Twilio SMS box. 10. Toggle the Activate Twilio SMS Source to enabled. 11. Under Twilio account configuration, enter the following details from your Twilio account:
+9\. On the conversation sources tab, click on Connect in the Twilio SMS box. 10. Toggle the Activate Twilio SMS Source to enabled. 
+
+11\. Under Twilio account configuration, enter the following details from your Twilio account:
 
 * SID
 * Auth Token
 * Phone number
 
-{:start="11"}
+{:start="12"}
 
 1. Click Save.
 
