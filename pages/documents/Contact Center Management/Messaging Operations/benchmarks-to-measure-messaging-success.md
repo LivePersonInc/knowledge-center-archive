@@ -64,4 +64,4 @@ Through the resolution tab, brands can determine how many login hours their prog
 
 ### Reporting on messaging KPIs
 
-Together with a proprietary customer satisfaction management tools to measure the consumer experience, demand, and overall contact center performance, LivePerson reports are tailored for asynchronous messaging. See the [Data & Reporting section](data-reporting-business-reporting-metrics.html) for more information on where to see these metrics.
+Together with a proprietary customer satisfaction management tools to measure the consumer experience, demand, and overall contact center performance, LivePerson reports are tailored for asynchronous messaging. See the [Data & Reporting section](data-reporting-reporting-metrics.html) for more information on where to see these metrics.
