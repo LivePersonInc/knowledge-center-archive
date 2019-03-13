@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-28 12:08:32 +0000
 
 ---
-## Why use structured content?
+## Why chat needs structured content?
 
 Conversational commerce allows people to message with businesses anytime from anywhere without having to call or search a website. Structured content plays a big part in making  messaging richer and acts as a one stop shop for brands to drive more actions directly within in your messaging conversation.
 
