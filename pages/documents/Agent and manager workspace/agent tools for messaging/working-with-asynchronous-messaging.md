@@ -11,18 +11,18 @@ isTutorial: false
 date: 2019-01-21 09:13:27 +0000
 
 ---
-It’s important to understand how messaging is different from live chat. With messaging, interactions with visitors can be ongoing, and visitors have the freedom to respond on their own time. This means that the interaction can last a full shift or a few days, allowing you to pick up pending conversations any time of the day. Another benefit of messaging is that consumers can return to the same agent to continue their journey, creating a continuous and seamless experience.
+It’s important to understand how messaging is different from live chat. With messaging, interactions with visitors can be ongoing, and visitors have the freedom to respond on their own time. This means that the interaction can last a full shift or a few days, allowing agents to pick up pending conversations any time of the day. Another benefit of messaging is that consumers can return to the same agent and seamlessly continue their journey, creating a better, more continuous user experience.
 
-Messaging provides consumers with an experience that is superior to live chat, as it is done on their own time. For agents, these characteristics can bring up the following questions:
+Yet, for contact centers, these characteristics present the following questions:
 
-* For long term conversations, how do we define an active, or open conversation as opposed to resolved one?
-* If a consumer takes hours or days to reply, what should be done with the open conversation?
-* What about conversations that are left unresolved? Do they remain open?
+* For long term conversations, how do we define an active or open conversation as opposed to a resolved conversation?
+* If a consumer takes hours or days to reply, what should be done with that pending and open conversation?
+* What about conversations that are left unresolved? Should they remain open?
 * How many concurrent messages can an agent handle?
 
 ## How LivePerson helps agents manage asynchronous conversations
 
-To help answer the questions and differences raised by asynchronous messaging, LivePerson has various ‘behind the scenes’ tools that help agents manage their messaging conversations effectively.
+To help answer the questions and differences raised by asynchronous messaging, LivePerson has various ‘behind the scenes’ tools and capabilities that help agents manage their messaging conversations effectively.
 
 ### Smart Capacity: the dynamic concurrency method
 
