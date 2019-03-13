@@ -18,17 +18,16 @@ Today, conversations and messaging is the most effective way for brands to inter
 
 Once a brand embraces messaging they need a way to scale their contact center operations in order to support the personalized, accessible, and always-on relationship that messaging enables. LivePerson is leading the industry in the adoption of messaging through a conversational platform that combines bots, automaton and AI to enable this scalable transformation.
 
-Our Conversation Builder is an all-in-one platform for easily building automations and bots that are tailor-made to be effective in conversational commerce. From creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce, the Conversation Builder provides brands with an easy-to-use bot builder that allows non-technical staff, often the people who best understand a brand’s voice,  to create, optimize and visualize bots.
-
-## Top capabilities of the Conversation Builder
-
-LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. Brands can leverage non-technical staff to build, optimize, and improve bots and automated conversation flows. The result is bots that are more effective and competent, and drastically speeds up bot development and optimization.
-
-**The result is bots that are more effective and competent, and drastically speeds up bot development and optimization.**
-
 ![](/img/conversation-builder-1b.jpg)
 
-_Conversation Builder (showing no-code, dialog-based bot building)_
+_Conversation Builder (dialog-based bot building)_
+
+### Unique benefits of the Conversation Builder
+Our Conversation Builder is an all-in-one platform for easily building automations and bots that are tailor-made to be effective in conversational commerce. From creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce, the Conversation Builder provides brands with an easy-to-use bot builder that allows non-technical staff, often the people who best understand a brand’s voice,  to create, optimize and visualize bots.
+
+LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. This allows brands to leverage non-technical staff to build, optimize, and improve bots and automated conversation flows - creating bots that are more effective and competent, and drastically speeding up bot development and optimization.**The result is bots that are more effective and competent, and drastically speeds up bot development and optimization.**
+
+## Top capabilities of the Conversation Builder
 
 ### **One-stop-shop to build and visualize bots**
 
@@ -57,8 +56,6 @@ Brands don’t need to start from scratch to build bots - they can leverage the 
 This allows brands to, for example, quickly connect their product catalogue.
 
 ## How the Conversation Builder works
-
-### Brands who want to build bots
 
 Leverage LivePerson’s Conversation Builder with native bots:
 Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
