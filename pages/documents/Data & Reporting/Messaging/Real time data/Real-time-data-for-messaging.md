@@ -17,6 +17,8 @@ As an agent manager, you want to have an overall picture of how your agents are 
 
 ![](/img/agent-manager-messaging-data-1.png)
 
+![](/img/Real-time-data-bar-CSAT.png)
+
 **OPEN -** displays the total number of current open conversations.
 
 **PENDING** - displays the total number of conversations pending agent response.
