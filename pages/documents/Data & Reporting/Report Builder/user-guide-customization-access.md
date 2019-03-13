@@ -223,8 +223,6 @@ The filters of a any dashboard must contain at least one attribute from the “T
   {start="3"}
 
   Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-
-
 * To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
 * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
   A few options are available:
@@ -360,7 +358,7 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 * To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 {: .notice}  
-Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.11/Dossier_Authoring/WebHelp/Lang_1033/Content/CreatingNewObjects.htm) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
 
 {:start="4"}
 
@@ -435,8 +433,8 @@ The table below lists the available styles:
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
 2. Click on ‘**Show Legend.**’ The legend will display on the right of the visualization.
 3. On hover a few options will be displayed.
-	a. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
-	b. In the top right corner - an ‘X’ button, allowing you to close the legend.
+   a. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
+   b. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
 ## Formatting
 
@@ -470,14 +468,14 @@ A threshold is made up of two parts: the condition, and the formatting that will
     a. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
     b. Images: select the images you would  like to display.
 
-       The options include:
-       * Arrows
-       * Regular Pin
-       * Rounded Pin
+    The options include:
+    * Arrows
+    * Regular Pin
+    * Rounded Pin
  5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
  6. From the drop-down list that will appear once you have selected the metric, select one of the following:
-	a.  To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-   	b. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
+    a.  To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
+    b. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
     c. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
     d. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
     e. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
