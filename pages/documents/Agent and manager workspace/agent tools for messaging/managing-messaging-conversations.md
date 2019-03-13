@@ -3,8 +3,8 @@ pagename: Managing messaging conversations
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: There tools in place to help agents receive, reply, and access important
-  information during messaging conversations
+subtitle: 'Learn the tools in place to help agents receive, reply, and access important
+  information during messaging '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html
 isTutorial: false
