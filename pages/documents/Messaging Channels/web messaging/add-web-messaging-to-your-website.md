@@ -121,9 +121,7 @@ The engagement studio page is where you **design your button or banner to suit t
 
 ### Conversation window
 
-The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
-
-Once your settings are complete, click **next**.
+The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. Once your settings are complete, click **next**. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
 
 ### Entry point
 
