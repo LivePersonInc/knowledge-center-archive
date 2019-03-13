@@ -131,7 +131,7 @@ If you wish to disable the message for some skills but not for others, select th
 
 ## Notes
 
-* Messages are supported in all LivePerson languages. For further information, please refer to the [LiveEngage System Requirements and Supported Languages](admin-settings-system-requirements-supported-languages.html) documentation. For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported (configurable by the brand). Contact the account team to set the language.
+* Messages are supported in all LivePerson languages. For further information, please refer to the [Supported Languages](admin-settings-supported-languages.html) documentation. For the connectors (SMS, Facebook, Google My Business, Line, etc.) only one language can be supported (configurable by the brand). Contact the account team to set the language.
 * The content of each message can be edited by the brand.
 * Skill variation is supported, including enabling/disabling the messages for each skill.
 * For messages with a timer (agent non-responsive, consumer non-responsive and time in queue), the timer can be configured to X seconds, minutes, hours. The timer can also be configured per skill.

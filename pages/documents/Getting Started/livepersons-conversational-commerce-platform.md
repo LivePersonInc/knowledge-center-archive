@@ -62,7 +62,7 @@ These new powerful solutions can be leveraged on our open platform - that is NLU
 
 ### Bot building interface
 
-The [Conversation Builder](/bots-automation-conversation-builder-conversation-builder-overview.html) is a one-stop shop for bot building, offering a single place to build, test, and visualize  chatbots. From creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce.
+The [Conversation Builder](/bots-automation-conversation-builder-overview.html) is a one-stop shop for bot building, offering a single place to build, test, and visualize  chatbots. From creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce.
 
 The Conversation Builder has an easy-to-use, drag-and-drop interface that is not code based, so both technical and non-technical staff - often the people who understand the brand’s voice the most like agents, business users, and designers - can easily build bots. This drastically speeds up the development and optimization of bots. Additionally, it allows agents, developers, and business users to collaborate and perfect the bot’s functionality in the work environment, essentially serving as bot editors and managers.
 

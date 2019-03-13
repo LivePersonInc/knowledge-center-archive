@@ -19,7 +19,7 @@ The dashboard reflects the current status of several metrics, including the foll
 * Queue health
 * Agent load and status
 * CSAT
-* [MCS](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html)
+* [MCS](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)
 * Average response time
 
 Please note that the real time dashboard is:
