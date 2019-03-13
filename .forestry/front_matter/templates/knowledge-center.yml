@@ -134,6 +134,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
+- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Release Notes/February/week-of-february-11th.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
@@ -154,7 +156,6 @@ pages:
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
@@ -164,7 +165,6 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
 - pages/documents/Troubleshooting/Troubleshooting-live-chat.md
-- pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
