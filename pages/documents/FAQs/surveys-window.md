@@ -52,15 +52,17 @@ Offline surveys are presented to visitors when there are no agents available to 
 
 Offline surveys are enabled by default for each engagement. You can disable offline surveys if you don’t want to present anything to visitors when agents are not available. This is done for each engagement individually.
 
-#### To disable an offline survey:
+### To disable an offline survey:
 
 1. Log in to LivePerson as a campaign manager.
 2. Go to the **Campaigns** list.
 3. Select the Campaign containing the engagement you want to modify.
 4. Click **Action > Edit** to edit the campaign.
-5. Click **Edit** to the right of the engagement you want to modify.  
+5. Click **Edit** to the right of the engagement you want to modify.
+
+     
    ![](/img/faqs-surveys-windows-1-1.png)
-{:start="6"}
+   {:start="6"}
 6. On the Engagement settings window click **Next**. The Engagement studio opens
 7. Click the **down arrow** next to Online to view the list of States.
 8. Click the **orange checkmark** to the right of Offline to disable the Offline survey.
