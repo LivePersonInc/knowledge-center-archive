@@ -46,7 +46,7 @@ isNew: false
 A: Yes, the SDK can send push notifications. Please refer to the following guides for additional information and instructions:
 
 * iOS push notifications [configuration guide](https://developers.liveperson.com/consumer-experience-ios-sdk-pushnotifications.html#configuring-push-notifications).
-* Android  push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
+* Android push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
 
 ### Q: How does the SDK ensure that sensitive information is transmitted to consumers securely?
 
