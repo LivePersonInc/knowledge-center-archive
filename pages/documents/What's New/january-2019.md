@@ -3,9 +3,8 @@ pagename: January 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: TLS announcement, Secure Form (PCI) for connectors, audit trails work hours
-  and campaign timeframes, queue health metrics by chat center, and new metrics in
-  the report builder
+subtitle: TLS announcement, Secure Form (PCI) for connectors, queue health metrics
+  by chat center, and more
 level3: ''
 permalink: whats-new-january-2019.html
 isTutorial: true
