@@ -115,7 +115,7 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 <br/>
 By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications. Once the visitor has received a notification on an ongoing conversation, or has clicked on a messaging engagement, the authentication process will start according to the authentication flow defined during configuration.
 
-It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LE monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
+It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LiveEngage monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
 
 For more information regarding the Monitoring API, please refer to the [Monitoring API section on the developers community](https://developers.liveperson.com/rt-interactions-monitoring-overview.html).
 
