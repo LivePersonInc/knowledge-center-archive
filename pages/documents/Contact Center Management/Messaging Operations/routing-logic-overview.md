@@ -118,7 +118,7 @@ The agent selection process is based on parameters outside those around the agen
 
 * Agent prioritization - when routing an incoming conversation, the system will prioritize all agents eligible to receive the conversation and will route the conversation to the most suitable prioritized agent. Prioritization is based on three key parameters:
   * The agent’s current utilization state:
-    * [Smart capacity](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
+    * [Smart capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
     * Default - The ‘least busy’ agent is preferred - the agent that is currently handling fewer active conversations.
   * The time passed since they last received a new conversation
   * The messaging history between the agent and the consumer
