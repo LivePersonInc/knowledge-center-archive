@@ -38,7 +38,7 @@ Report Builder data is all stored internally - on the same LivePerson servers as
 
 ### Is the information stored on Report Builder encrypted?
 
-**A:** The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption.
+The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption.
 
 ## Performance
 

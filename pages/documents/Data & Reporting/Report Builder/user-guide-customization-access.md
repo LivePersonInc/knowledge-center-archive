@@ -371,7 +371,7 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
-* More information on using functions in metrics please visit this [website ](https://community.microstrategy.com/s/learning-center)(our 3rd-party provider).
+* More information on using functions in metrics please visit this [website ](http://www2.microstrategy.com/producthelp/10.11/Dossier_Authoring/WebHelp/Lang_1033/Content/CreatingNewObjects.htm)(our 3rd-party provider).
 
 ### Edit a metric
 
