@@ -34,7 +34,9 @@ function navigateContent(url) {
 			$content.html($newData.find('#defaultcontent').html());
 			//add anchor links to all h3 titles. See respective functions below for what they do.
 			if ($titlecontainer.html().indexOf('Welcome' == -1)) {
-				$('#documenttitlecontainer').removeClass('botTitle');
+				$('#documenttitlecontainer').removeClass('botTitle')
+				$('#defaultwrapper').removeClass('botwrapper');
+				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2');
 			populateAnchors();
