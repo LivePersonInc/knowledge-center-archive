@@ -15,8 +15,6 @@ date: 2019-02-26 12:34:43 +0000
 
 If your user is disabled, you will get a “Process failed” error when trying to reset your password. Before you can reset your password, your user must be re-enabled.
 
-![](/img/troubleshooting-password1.png)
-
 ## The Captcha on the forgot password window isn’t working.
 
 If after selecting the **Captcha** checkbox (to the left of **I’m not a robot**) and clicking the **Submit** button, you are returned to the **Forgot password window** or you receive the error “**Captcha error There is a problem with the Captcha service.**”:
