@@ -281,9 +281,6 @@ For [messaging connectors](messaging-channels-messaging-connectors-overview.html
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
-{: .notice}  
-The first connector to support secure forms will be Twilio SMS (end of January, 2019 release). Other connectors will follow during February and March.
-
 ### Invitation
 
 The connector’s secure form invitation contains the secure form name and a link to the secure form:
