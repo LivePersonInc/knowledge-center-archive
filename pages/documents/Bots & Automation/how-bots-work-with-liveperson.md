@@ -24,9 +24,9 @@ Agents have the ability to intervene or pick up conversations where needed - wha
 
 ![](/img/how-bots-work-tango-1.png)
 
-The first part of this bot and human tango takes place through our easy-to-use bot builder, the [Conversational Builder](bots-automation-conversation-builder-conversation-builder-overview.html). The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a pre-defined set of templates for common use cases based on our conversation data. Brands can then deploy these out-of-box automations across the most common workflows for each industry with templated bots libraries.
+The first part of this bot and human tango takes place through our easy-to-use bot builder, the [Conversational Builder](bots-automation-conversation-builder-overview.html). The Conversation Builder makes it easy for agents and other non-technical team members to participate in creating bots, including a pre-defined set of templates for common use cases based on our conversation data. Brands can then deploy these out-of-box automations across the most common workflows for each industry with templated bots libraries.
 
-Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. Read more about bot setup and capabilities in the [getting started with bots](getting-started-getting-started-with-bots.html) guide. 
+Additionally, LivePerson’s AI powered console allows agents to become bot managers to manage and train the bots. As agents do their everyday work, tweaking conversations for better outcomes, it automatically makes the bots better, too. Read more about bot setup and capabilities in the [getting started with bots](getting-started-getting-started-with-bots.html) guide.
 
 ## Open platform connects to any bot provider (BYOB)
 
