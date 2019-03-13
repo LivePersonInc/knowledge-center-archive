@@ -232,8 +232,7 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 ![](/img/customization-user-guide5.png)
 
-1. {start="4"}  
-   There are two options to configure how users will be able to filter the data:
+4. There are two options to configure how users will be able to filter the data:
    * To allow users to filter data by creating a qualification on a metric, perform the following steps:
 
    a. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
