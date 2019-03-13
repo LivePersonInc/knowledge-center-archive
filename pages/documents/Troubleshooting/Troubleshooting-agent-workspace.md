@@ -20,11 +20,13 @@ date: 2019-02-25 13:14:06 +0000
 1. In the agent work space in LiveEngage audio notification is muted. Go to your agent status bar and unmute sound, as shown in the image below.
 
    ![](/img/troubleshooting-agentworkspace.png)
-2. The agent’s browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.  
-   – For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.  
-   – For other browsers, search the browser’s Help for instructions on turning on audio.
+2. The agent’s browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
 
-   – For Internet explorer, follow these steps:
+   For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
+
+   For other browsers, search the browser’s Help for instructions on turning on audio.
+
+   For Internet Explorer, follow these steps:
 
 * Open Your Control Panel: The easiest way to open the Control Panel is to click on “Start” and then click on “Control Panel.”
 * Open the Internet Options: Use the search box to find the “Internet Options” section of the Control Panel.
