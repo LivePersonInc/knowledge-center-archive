@@ -86,7 +86,7 @@ body {
 .lp-json-pollock-element-button {
   display: flex;
   border-top: 0 !important;
-  width: 69% !important;
+  width: 70% !important;
   margin-bottom: 5px;
   margin-right: 20px;
   padding: 10px 20px 10px 20px;
@@ -114,20 +114,50 @@ body {
   color: #fff !important;
 }
 
+.lp-json-pollock-layout-carousel {
+  display: flex !important;
+}
+
 .lp-json-pollock-layout-carousel .lp-json-pollock-layout {
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex !important;
+  flex-direction: column;
+  flex: 1;
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-image {
-  grid-column: 1 / span 2;
+
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-button {
-  grid-column: 1 / span 2;
+  margin-right: 22px;
+  padding: 15px 16px 14px 16px !important;
+  display: flex;
+  flex: 1;
+  width: 85% !important;
+  margin-top: 5px;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-button button {
+  align-self: center;
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-text {
-  text-align: center;
+  text-align: left;
+  margin-bottom: 0;
+  border-radius: 0;
+  flex: 5;
+  font-size: 14px !important;
+  width: 85%;
+  display: flex;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child span {
+  align-self: flex-end;
 }
 
 .consumerText {
@@ -253,6 +283,7 @@ body {
   margin-left: -35px;
   margin-right: 10px;
   margin-bottom: 5px;
+  align-self: flex-end;
 }
 
 .gooey {
