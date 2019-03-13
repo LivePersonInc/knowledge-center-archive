@@ -83,8 +83,6 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 * The CoBrowse function for the account is not switched on in Night Vision.
 * The agents are not assigned to a profile that includes CoBrowse permissions.
 
-![](https://lh3.googleusercontent.com/AiWCbCSyaOeAdlNFZ9iWgyPKGBULEHXtm2c5NHIQgwVcxKVEOiDHrWSuPrqcXw5YItYNXH7wVOBsDceygA50vDV13QN7AxKCp2mKMIFfYgrG43whEAu95csuUjmA3u6HCvDHpMbv =399x224)
-
 ### Why isn’t the scroll bar showing in the predefined content widget?
 
 #### Possible cause:
