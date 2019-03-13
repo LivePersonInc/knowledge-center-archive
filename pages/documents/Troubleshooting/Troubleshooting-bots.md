@@ -8,10 +8,10 @@ level3: ''
 permalink: troubleshooting-bots.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 12:10:05 +0200
+date: 2019-02-26 10:10:05 +0000
 
 ---
-### Bot not responding to first message of conversation (for customer bots created with Node Agent SDK)
+## Bot not responding to first message of conversation (for customer bots created with Node Agent SDK)
 
 When a consumer initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in LiveEngage without responding.
 
@@ -29,7 +29,7 @@ Explicitly subscribe to the messaging events for each conversation that you want
 
 This approach is demonstrated in this [bot example](https://github.com/LivePersonInc/node-agent-sdk/blob/master/examples/agent-bot/MyCoolAgent.js).
 
-### Bot stopped responding to ongoing chats after a server restart
+## Bot stopped responding to ongoing chats after a server restart
 
 After a server restart, our bot did not respond to ongoing chats that had begun before the restart.
 
@@ -43,7 +43,7 @@ After the restart the Bot didn’t continue to try to respond. This caused the v
 
 Developers should add a retry mechanism to their Bot. The mechanism should take restarts into account. For details, see [Retry Policy and KeepAlive Best Practices](https://developers.liveperson.com/guides-retry-policy.html) in the LivePerson Developers Community.
 
-### Why are two out of four of our bot agents being disabled automatically?
+## Why are two out of four of our bot agents being disabled automatically?
 
 * Two out of four of our bot agent users are being disabled by the system shortly after logging in.
 * All four bots have the same setup.
@@ -53,11 +53,11 @@ Why is the system disabling these two bots and not the other two which are conne
 
 **The reason this happens**:
 
-1) The bot user exceeded the allowed login attempts.
+1. The bot user exceeded the allowed login attempts.
 
 Each account has a login policy that determines after how many login attempts a user will be disabled. The bot user in this case had exceeded the number of login attempts allowed by his account, causing his user profile to be disabled.
 
-2) Login failure due to login policy
+1. Login failure due to login policy
 
 * The cause of the bot user login failures was due to the account login policy which prevented users from logging in from unauthorized (non-whitelisted) IP addresses.
 * The server from which the bots were ‘logging in’ have a dynamic IP. Due to the account’s login policy the generated IPs were often not in the customer’s whitelist.
@@ -74,7 +74,7 @@ OR
 1. Within the Login Policy, whitelist the full IP range used by the servers running bot services. Please contact your LivePerson account team to help you with this.
 2. If you are using dynamic IPs, you can place an alert on your side to notify you immediately when IPs of the host (where bots are running) change. This way you can take relevant steps, if required.
 
-### Why is our bot agent initiating conversations with consumers?
+## Why is our bot agent initiating conversations with consumers?
 
 It looks like our bot messaging agent is initiating conversations with consumers even though bot agents are not supposed to be able to initiate conversations. Only consumers should be able to initiate messaging conversations.
 
@@ -97,7 +97,7 @@ In the issue described above, the request to open a conversation was sent, and, 
 
 The system is working properly.
 
-### Why is our bot agent receiving empty messages from consumers?
+## Why is our bot agent receiving empty messages from consumers?
 
 Why is our bot agent receiving blank messages from consumers?
 
@@ -118,7 +118,7 @@ Starting a conversation consists of two separate requests (both sent from the co
 3. The bot is configured to reply to a consumer only after receiving the consumer’s first message.
 4. The consumer typed too long a message (over 5000 characters). Therefore the consumer side failed to send the message content to the LiveEngage server and the bot received an empty message.
 
-### Why isn’t our agent manager able to join bot chats?
+## Why isn’t our agent manager able to join bot chats?
 
 Our agent manager who has join agent conversations permissions is not able to see the option to join our bot’s chats. He goes to the Agents list and opens an active bot conversation. But he does not see the **join** option.
 
