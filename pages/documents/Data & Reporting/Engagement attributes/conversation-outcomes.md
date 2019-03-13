@@ -43,12 +43,11 @@ To enable this feature:
 ![](/img/conversation-outcomes1.png)
 
 {:start="2"}
-2. In the footnote, click Data Sources. The Data Sources page is displayed.
+2\. In the footnote, click Data Sources. The Data Sources page is displayed.
 
 ![](/img/conversation-outcomes2.png)
- 
-3. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
 
+3. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
 4. Click submit by agent.
 
 ![](/img/conversation-outcomes3.png)
