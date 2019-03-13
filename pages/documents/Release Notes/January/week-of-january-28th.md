@@ -77,7 +77,7 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
 
 #### How to enable
 
-To configure this feature, please speak to your LivePerson representative. For more information, please see the [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
+To configure this feature, please speak to your LivePerson representative. For more information, please see the [Configuration guide](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html).
 
 **Limitations**
 
