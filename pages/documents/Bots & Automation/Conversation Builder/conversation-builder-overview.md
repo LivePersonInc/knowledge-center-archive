@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: LivePerson’s easy-to-use bot builder allows non-technical staff to build,
   test and visualize bots
 level3: ''
-permalink: bots-automation-conversation-builder-conversation-builder-overview.html
+permalink: bots-automation-conversation-builder-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 14:03:55 +0000
