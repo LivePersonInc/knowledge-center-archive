@@ -27,8 +27,8 @@ The data currently available in LiveEngage predefined dashboards is detailed bel
 * [Skill activity dashboard:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
 * [Goals Tracker:](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) Includes information about each conversion.
 * [Messaging Performance Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html): Includes business and operational data about messaging conversations.
-* [Business Activity Dashboard:](data-reporting-messaging-messaging-dashboards-business-activity-grid.html) Includes information about campaigns and engagements performance.
-* [Business Activity Grids](data-reporting-live-chat-chat-dashboards-business-activity-grid) are also available in Excel export format, in daily and monthly level aggregations.
+* [Business Activity Dashboard:](data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance.
+* [Business Activity Grids](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) are also available in Excel export format, in daily and monthly level aggregations.
 * [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html): Includes information about skill performance and skill demand.
 * [Survey activity dashboard:](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys presented  in Live Chat.
 
@@ -66,7 +66,7 @@ The default values are the same as in the BI, but when customizing a report and 
 
 ### Can I move a dashboard I’ve created from one folder to another, or into a new folder?
 
- You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide](data-reporting-report-builder-report-builder-user-guide-(standard).html) for additional information about working with folders.
+You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide](data-reporting-report-builder-report-builder-user-guide-(standard).html) for additional information about working with folders.
 
 ### After deleting a campaign in LE, how can I remove the campaign from list of campaign in the filter?
 
