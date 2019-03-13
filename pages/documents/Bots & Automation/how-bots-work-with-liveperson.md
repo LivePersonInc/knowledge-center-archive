@@ -34,7 +34,7 @@ Brands can use LivePerson's native bots, third-party bots, or integrate their ow
 
 ## Build a bot using the Conversation Builder
 
-Bots can be built with the [Conversational Builder](bots-automation-conversation-builder-conversation-builder-overview.html) through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
+Bots can be built with the [Conversational Builder](bots-automation-conversation-builder-overview.html) through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
 
 ## Benefits of bots for brands
 
