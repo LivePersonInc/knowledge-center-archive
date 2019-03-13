@@ -60,9 +60,9 @@ Where there are data that cannot be pre-filtered by agent group, there are also 
 Dashboards in Report Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports** - dashboards saved here are visible to all the users in the account.
-* **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
-* **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-* **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
+  * **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
+  * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
+  * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ### Creating and managing sub folders
@@ -150,13 +150,15 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 
 ### Add a new tab
 
-Click the ‘**+**’ sign next to the names of the tabs.
+1. Click the ‘**+**’ sign next to the names of the tabs.
+2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. 
 
-Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
+{: .notice}  
+To apply filters to the new tab, please refer to the instructions regarding adding filters below.
 
 It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 
-### **Copy an existing tab**
+### Copy an existing tab
 
 1. Click on the down-arrow next to the tab’s name.
 2. Select ‘duplicate.’
@@ -195,19 +197,15 @@ There are two types of filters available:
 
 ### Add an attribute filter to the filters panel
 
-From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.
-
-You can place the attribute above or below the filters already displayed in the panel.
-
-Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
-
-1. Click on display style, then select the style you want to use to display the filter. The options are:
+1. From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.You can place the attribute above or below the filters already displayed in the panel.
+2. Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
+3. Click on display style, then select the style you want to use to display the filter. The options are:
    * Check boxes
    * Search box
    * Slider
    * Radio buttons
    * Drop down
-2. You can choose to include or exclude data using elements selected in the filter, as follows:
+4. You can choose to include or exclude data using elements selected in the filter, as follows:
    * To display data in the dashboard only for selected elements, select **include**.
    * To display data in the quick dashboard for all elements except the elements that are selected, select **exclude**.
 
@@ -262,7 +260,7 @@ To allow users to filter data by choosing values on a slider, perform the follow
 You can choose to show only a subgroup of values in a filter by using a second filter to sort the options. For example, filter AGENT attribute by GROUP - once a specific group is selected, only agents assigned to this group will be visible in the filter.
 
 1. Hover the cursor over the name of the filter, then click the arrow icon. A list of options is displayed.
-2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter. 
+2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter.
 
    **How-to video:** [Using visualizations as filters](https://bcove.video/2wTZrMV)
 
@@ -273,7 +271,7 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 ### Add a visualization to a dashboard
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
-2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). 
+2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid).
 
    **How-to video:** [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
 
