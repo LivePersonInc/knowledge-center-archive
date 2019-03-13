@@ -240,7 +240,7 @@ EAs will be presented in the Agent Workspace in several areas:
 
 To enable, please contact your LivePerson representative.
 
-## **Limitations and Tips**
+## Limitations and Tips
 
 1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), LiveEngage will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
 2. If a user crosses between authenticated and unauthenticated pages within a single session, in some cases the wrong engagements may be displayed. This might cause the the user to click the wrong engagement and receive an error message saying “You are no longer logged in.”
@@ -252,11 +252,11 @@ To enable, please contact your LivePerson representative.
 8. When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
 9. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
 
-## **Authenticated alongside unauthenticated**
+## Authenticated alongside unauthenticated
 
 You may wish to have both authenticated as well as unauthenticated web messaging on your account. This allows web messaging users to transition seamlessly between authenticated and unauthenticated pages. This allows brands to service more use cases for web messaging.
 
-With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
+With the new identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
 
 **Guidelines:**
 
