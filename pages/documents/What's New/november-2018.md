@@ -32,6 +32,4 @@ You can now take advantage of new skill-based metrics within the [real-time dash
 
 The Demo App provides an interface that demonstrates the consumer experience using the [Connector API](https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html) so developers can test their connector prior to having a live consumer interface.
 
-The demo app runs as a standalone application. LivePerson open sources the code and deploys a version on Amazon so that interested customers get an impression how a connecter will appear similar to a demo.
-
-[Demo app](https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html "https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html").
+The demo app runs as a standalone application. LivePerson open sources the code and deploys a version on Amazon so that interested customers get an impression how a connecter will appear similar to a [demo app](https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html "https://developers.liveperson.com/connector-api-sample-code-connector-sample-app.html").
