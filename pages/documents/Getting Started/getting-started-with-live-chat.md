@@ -28,7 +28,7 @@ The basic set up means there will be no routing - every agent will receive all m
 
 ## Customize your chat program
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
+LivePerson is the most advanced platform for any size organization, offering a range of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
 
 * **Customer experience:** design what your consumers will see when they interact with your brand by [adding a live chat window](messaging-channels-live-chat-add-live-chat-to-your-website.html) to your website. Customize the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to be the first to respond to incoming conversations.
 * **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including predefined content and custom widgets.
