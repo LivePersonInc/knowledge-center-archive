@@ -21,7 +21,7 @@ Brands can access Report Builder through the LiveEngage UI, from the messaging r
 2. Open the dashboard by clicking the drag down icon
 3. Click the Report Builder icon on the left of the screen. A new tab will open.
 
-**How to video:** [**Getting started**](https://bcove.video/2vj2Sid)
+**How-to video:** [**Getting started**](https://bcove.video/2vj2Sid)
 
 ## Permissions
 
@@ -109,7 +109,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ![](/img/customization-user-guide3.png)
 
@@ -264,7 +264,9 @@ To allow users to filter data by choosing values on a slider, perform the follow
 You can choose to show only a subgroup of values in a filter by using a second filter to sort the options. For example, filter AGENT attribute by GROUP - once a specific group is selected, only agents assigned to this group will be visible in the filter.
 
 1. Hover the cursor over the name of the filter, then click the arrow icon. A list of options is displayed.
-2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter. How to video: [Using visualizations as filters](https://bcove.video/2wTZrMV)
+2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter. 
+
+   **How-to video:** [Using visualizations as filters](https://bcove.video/2wTZrMV)
 
 ### Visualizations
 
@@ -273,7 +275,9 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 ### Add a visualization to a dashboard
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
-2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
+2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). 
+
+   **How-to video:** [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
 
 ### Rearrange the visualizations
 
@@ -467,7 +471,7 @@ A threshold is made up of two parts: the condition, and the formatting that will
 From the second drop-down list, select the color or images you want to display:
 
 * Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-* Images: select the images you would  like to display. 
+* Images: select the images you would  like to display.
 
   The options include:
   * Arrows
