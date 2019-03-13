@@ -15,7 +15,7 @@ isNew: false
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
-**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
+**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The documentation can be found in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
 
 ### Q: Is there a test environment to explore the set-up before implementing the program?
 
