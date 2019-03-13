@@ -219,7 +219,6 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 * To filter data by creating a qualification on a metric, select **qualification**.
 * To filter data by choosing values on a slider, select **slider**.
-
   {:start="3"}
 3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
 * To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
