@@ -233,7 +233,7 @@ QueryParams
 
 EAs will be presented in the Agent Workspace in several areas:
 
-1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
+1. Consumer Info Widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
 2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
 {: .notice}
