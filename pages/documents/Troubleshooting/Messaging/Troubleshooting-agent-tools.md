@@ -8,10 +8,10 @@ level3: ''
 permalink: troubleshooting-messaging-agent-tools.html
 isTutorial: false
 isNew: false
-date: 2019-02-28 13:55:33 +0200
+date: 2019-02-28 11:55:33 +0000
 
 ---
-### Visitors aren’t receiving messages from our agents; on the agent-side, sent messages are in red
+## Visitors aren’t receiving messages from our agents; on the agent-side, sent messages are in red
 
 #### Issue:
 
@@ -33,7 +33,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
    2. If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
 3. Check the status of your LivePerson account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
 
-### Why aren’t agents receiving messages?
+## Why aren’t agents receiving messages?
 
 #### Issue:
 
@@ -50,7 +50,7 @@ Agents assigned to the Sales skill are not receiving messages although agents as
 * Configure user settings and skill routing properly.
 * Make sure to set the fallback skill and default skill according to your account’s needs.
 
-### Agent concurrency isn't changing to the “Default max number of conversations per agent.”
+## Agent concurrency isn't changing to the “Default max number of conversations per agent.”
 
 #### Problem:
 
@@ -85,7 +85,7 @@ The system doesn't check if a change was ever done to an agent’s max. number o
 
 This is expected behavior.
 
-### When I transfer messages, some of them return to me with an unassigned skill
+## When I transfer messages, some of them return to me with an unassigned skill
 
 #### Issue:
 
@@ -101,7 +101,7 @@ Why is it that when I transfer conversations to a different skill some of them r
 
 This is expected behavior.
 
-### Why are conversations pending consumer response shown as “overdue” in the agent console?
+## Why are conversations pending consumer response shown as “overdue” in the agent console?
 
 #### Issue:
 
@@ -122,7 +122,7 @@ This is the expected behavior.
 1. Agents who set a Manual SLA, should monitor these SLAs and reset them once they've responded to the consumer.
 2. Only set a Manual SLA if you are expecting to take a long time to respond or if a process is in place that requires an extended time frame. Otherwise, avoid using Manual SLA.
 
-### Why are agents getting error messages when they send long messages?
+## Why are agents getting error messages when they send long messages?
 
 #### Issue:
 
@@ -140,7 +140,7 @@ Do not exceed the supported length of messages, as detailed below:
 * SMS: maximum 1600 characters for agent or consumer messages
 * Facebook: maximum 640 characters for an agent message and 5000 characters for a Facebook user message
 
-### The value of AWAY and ONLINE are identical for some Messaging Agents in the reports
+## The value of AWAY and ONLINE are identical for some Messaging Agents in the reports
 
 #### Issue:
 
