@@ -45,15 +45,15 @@ body {
 }
 
 .caseyText + .caseyText {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .consumerText + .caseyText {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .caseyText + .consumerText {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .caseyText a {
@@ -69,8 +69,8 @@ body {
 }
 
 .lp-json-pollock {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .lp-json-pollock-layout {
@@ -85,7 +85,7 @@ body {
 .lp-json-pollock-element-button {
   display: flex;
   border-top: 0 !important;
-  width: 75% !important;
+  width: 69% !important;
   margin-bottom: 5px;
   margin-right: 20px;
   padding: 10px 20px 10px 20px;
@@ -94,25 +94,16 @@ body {
 
 
 .lp-json-pollock-element-text {
-  grid-column: 1 / span 2;
-  border: none !important;
-  width: 100%;
-  color: #5f6368 !important;
-  font-weight: 300;
-  padding: 0 !important;
-  margin-bottom: 15px;
-}
-
-.lp-json-pollock-element-text span {
   background: #465684;
+  border: none !important;
   border-radius: 10px 10px 10px 0;
-  font-size: 17px;
-  color: #fff;
-  padding: 10px 16px 14px 16px;
+  width: 70%;
   font-family: "Roboto", "Open Sans", Helvetica;
-  font-weight: normal !important;
+  font-size: 17px !important;
+  color: #fff !important;
+  padding: 10px 16px 14px 16px !important;
+  margin-bottom: 5px;
 }
-
 
 .lp-json-pollock .lp-json-pollock-element-button button {
   padding: 0 !important;
@@ -141,7 +132,7 @@ body {
 .consumerText {
   align-self: flex-end;
   background-color: transparent;
-  color: #442261;
+  color: #fff;
   border: solid 2px #b1b5bc;
   border-radius: 10px 10px 0 10px;
   padding: 10px 20px 10px 20px;
@@ -155,13 +146,13 @@ body {
 }
 
 #messageInput {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #messageInputUsed {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .gooey {
@@ -171,7 +162,7 @@ body {
   width: 142px;
   height: 40px;
   margin: -20px 0 0 -71px;
-  background: white;
+  background: transparent;
   filter: contrast(20);
 }
 
@@ -182,7 +173,7 @@ body {
     top: 12px;
     left: 15px;
     filter: blur(4px);
-    background: #000;
+    background: #fff;
     border-radius: 50%;
     transform: translateX(0);
     animation: dot 1.8s infinite;
@@ -202,7 +193,7 @@ body {
       height: 16px;
       margin-left: 16px;
       filter: blur(4px);
-      background: #000;
+      background: #fff;
       border-radius: 50%;
 }
 

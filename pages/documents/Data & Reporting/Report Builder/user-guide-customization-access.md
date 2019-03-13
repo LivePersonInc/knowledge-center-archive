@@ -151,7 +151,7 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 ### Add a new tab
 
 1. Click the ‘**+**’ sign next to the names of the tabs.
-2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. 
+2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab.
 
 {: .notice}  
 To apply filters to the new tab, please refer to the instructions regarding adding filters below.
@@ -215,17 +215,27 @@ The filters of a any dashboard must contain at least one attribute from the “T
 ### Add a metric filter to the filters panel
 
 1. From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
+
 2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
+
   * To filter data by creating a qualification on a metric, select **qualification**.
+
   * To filter data by choosing values on a slider, select **slider**.
+
+{:start="3"}
 3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-  * To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
-  * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
-A few options are available:
-  * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-  * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-  * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-  * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+
+  * To filter by the metric's values, select **qualify on value**. For example, you can display data only for agents with engagements greater than or equal to 100.
+
+  * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**. A few options are available:
+
+    * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+
+    * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+
+    * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+
+    * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
 ![](/img/customization-user-guide5.png)
 
