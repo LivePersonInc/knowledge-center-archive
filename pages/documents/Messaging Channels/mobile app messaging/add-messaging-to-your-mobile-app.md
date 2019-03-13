@@ -4,7 +4,7 @@ categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
 subtitle: 'With mobile engagements, consumers can easily start messaging conversations
-  directly from your mobile app. '
+  directly from your mobile app '
 level3: ''
 permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
 isTutorial: false
