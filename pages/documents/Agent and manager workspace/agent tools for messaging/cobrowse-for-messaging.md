@@ -3,7 +3,7 @@ pagename: CoBrowse for messaging
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: Offer an enhanced consumer experience for messaging
+subtitle: Offer an enhanced, visual consumer experience for messaging
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html
 isTutorial: false
