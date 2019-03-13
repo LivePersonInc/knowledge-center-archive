@@ -151,7 +151,7 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 ### Add a new tab
 
 1. Click the ‘**+**’ sign next to the names of the tabs.
-2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. 
+2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab.
 
 {: .notice}  
 To apply filters to the new tab, please refer to the instructions regarding adding filters below.
@@ -216,32 +216,40 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 1. From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
 2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
-  * To filter data by creating a qualification on a metric, select **qualification**.
-  * To filter data by choosing values on a slider, select **slider**.
-3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-  * To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
-  * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
-A few options are available:
-  * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
-  * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
-  * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
-  * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+
+* To filter data by creating a qualification on a metric, select **qualification**.
+* To filter data by choosing values on a slider, select **slider**.
+
+  {start="3"}
+
+  Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
+
+
+* To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
+* To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
+  A few options are available:
+* To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+* To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+* To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+* To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
 ![](/img/customization-user-guide5.png)
 
-There are two options to configure how users will be able to filter the data:
+1. {start="4"}  
+   There are two options to configure how users will be able to filter the data:
+   * To allow users to filter data by creating a qualification on a metric, perform the following steps:
 
-To allow users to filter data by creating a qualification on a metric, perform the following steps:
+   a. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
 
-1. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
-2. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+   b. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
 
-To allow users to filter data by choosing values on a slider, perform the following steps:
+* To allow users to filter data by choosing values on a slider, perform the following steps:
 
-1. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
-2. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
-   * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
-   * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
+  a. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
+
+  b. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
+  * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
+  * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
 
 ### Remove a filter from the filters panel
 
@@ -312,8 +320,10 @@ Metrics are objects that represent business measures and key performance indicat
 
 1. From the Dataset panel on the left, select attributes and metrics, and drag them onto the ‘editor’ panel.
 2. Attributes can be added to:
-   1. ‘Rows’ - the attribute’s values will be displayed on the rows of the grid.
-   2. ‘Columns’- the attribute’s values will be displayed on the columns of the grid.
+
+   a. ‘Rows’ - the attribute’s values will be displayed on the rows of the grid.
+
+   b. ‘Columns’- the attribute’s values will be displayed on the columns of the grid.
 3. Metrics can only be added to the ‘metrics’ to show data.
 
 **How-to video:** [**Creating attributes**](https://bcove.video/2wFwMMr)
@@ -337,20 +347,22 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 
 ### Create a new metric
 
-* Right click anywhere in the datasets panel and select ‘create metric’.
-* A new window ‘metric editor’ will open up.
-* Use objects and functions or operators to create the required formula.
+1. Right click anywhere in the datasets panel and select ‘create metric’.
+2. A new window ‘metric editor’ will open up.
+3. Use objects and functions or operators to create the required formula.
 
-**Objects:** the metrics and attributes available in the report.
+**a. Objects:** the metrics and attributes available in the report.
 
-To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
+* To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
 
-**Functions:** when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+**b. Functions:** when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
 
-To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
+* To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 {: .notice}  
 Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+
+{:start="4"}
 
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
