@@ -26,8 +26,6 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 * **Secure:** A multi-stage and customizable security architecture systematically protects sensitive information and meets individual security requirements.
 * **Two-way interactivity:** User actions are captured and replicated without the need to manually hand over input control.
 
-<br />
-
 ## Use cases
 
 CoBrowse enables agents to assist visitors with complicated online tasks and processes, for example:
