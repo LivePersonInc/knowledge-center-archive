@@ -3,7 +3,7 @@ pagename: Getting started with messaging
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
-subtitle: ''
+subtitle: Checklist for set up and configuration to get your messaging program running
 level3Name: ''
 permalink: getting-started-getting-started-with-messaging.html
 isTutorial: false
