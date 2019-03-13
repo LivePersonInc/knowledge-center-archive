@@ -20,10 +20,20 @@ date: 2019-02-25 13:14:06 +0000
 1. In the agent work space in LiveEngage audio notification is muted. Go to your agent status bar and unmute sound, as shown in the image below.
 
    ![](/img/troubleshooting-agentworkspace.png)
-2. The agent’s browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.  
-   – For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.  
-   – For Internet explorer, see [How to enable and disable audio notification in MS Internet Explorer](https://support.liveperson.com/enabling-disabling-audio-notification-in-ms-internet-explorer/) .  
-   – For other browsers, search the browser’s Help for instructions on turning on audio.
+2. The agent’s browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
+
+   For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
+
+   For other browsers, search the browser’s Help for instructions on turning on audio.
+
+   For Internet Explorer, follow these steps:
+
+* Open Your Control Panel: The easiest way to open the Control Panel is to click on “Start” and then click on “Control Panel.”
+* Open the Internet Options: Use the search box to find the “Internet Options” section of the Control Panel.
+* Select the “Advanced” Tab: The Advanced Tab is usually on the far-right side of the Internet Options screen.
+* Scroll Down to Multimedia: Scroll through the options until you see the section called “Multimedia.”
+* Deselect the Play Sounds Option: Click to uncheck the option called “Play Sounds in Webpages.” This will turn off all sounds in your internet browsers.
+* Turn Sounds On Again When You’re Ready: If you would like to resume listening to sounds on your internet browser, be sure to follow these steps again and check the “Play Sounds in Webpages” option once again.
 
 ### Why don’t some agents see the conversation summary widget?
 

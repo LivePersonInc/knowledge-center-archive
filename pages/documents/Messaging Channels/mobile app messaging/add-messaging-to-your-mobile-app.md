@@ -168,7 +168,7 @@ Once you have added the mobile engagements to your app, remember to follow the g
 * Customize automatic messages
 * Create pre-defined content for your agents
 * Set up a routing bot
-* Set up the Post Conversation Survey
+* Set up the [Post Conversation Survey](bots-automation-post-conversation-survey.html)
 
 ### Set expectations based on your actual working hours
 

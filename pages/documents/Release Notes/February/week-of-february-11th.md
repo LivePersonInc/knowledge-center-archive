@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### WhatsApp Business: Adding the consumer name in the agent workspace (LE-97122)
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -74,7 +74,7 @@ The connector will expose the consumer’s name (as registered by the users in t
 
 ### Secure form (PCI) support for WhatsApp Business and Google RCS (94882) (CX-73, CX-74)
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -160,7 +160,7 @@ For more information, please see the [secure form configuration guide](security-
 
 ### Auto close per skill
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -190,7 +190,7 @@ For more information, please see the [secure form configuration guide](security-
 </tr>
 </tbody>
 </table>
-
+  
 Today, brands use a single time interval definition to determine how long after a conversation becomes inactive it should be closed. This single definition doesn’t take into account the fact that different skills have a different conversation pace and therefore should have different time intervals for auto close. Having such a capability will give brands a higher level of flexibility to determine when a conversation should be closed and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill, and thereby improve the consumer experience as well as their operational parameters.
 
 **Screenshots**
@@ -198,8 +198,8 @@ Today, brands use a single time interval definition to determine how long after 
 ![](/img/week-of-february-11th-5.png)
 
 ### Post Conversational Survey - Adding Search capability
-
-<table class="releasenotes">
+  
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -246,7 +246,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 
 ### Agent Assist with Maven
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -288,7 +288,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 
 ### Step Up
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -329,7 +329,7 @@ Refreshing the conversation will create a new ‘orb’ for it, and will place i
 
 ### Unselectable element on customized overlay engagement (AE-1676)
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>
@@ -366,7 +366,7 @@ dragging an element to the top left corner (for example, a text field) makes the
 
 ### UI Auto Messages - The dynamic text for 'Agent Nickname' displays wrong name (AE-1866)
 
-<table class="releasenotes">
+<table>
 <thead>
 <tr class="categoryrow">
 <th>Web Messaging</th>

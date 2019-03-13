@@ -15,7 +15,7 @@ isNew: false
 
 ### Q: How is LiveEngage messaging deployed on my app?
 
-**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The SDK and documentation can be found at[ ](https://github.com/LP-Messaging/)in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
+**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The documentation can be found in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
 
 ### Q: Is there a test environment to explore the set-up before implementing the program?
 
@@ -46,7 +46,7 @@ isNew: false
 A: Yes, the SDK can send push notifications. Please refer to the following guides for additional information and instructions:
 
 * iOS push notifications [configuration guide](https://developers.liveperson.com/consumer-experience-ios-sdk-pushnotifications.html#configuring-push-notifications).
-* Android  push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
+* Android push notifications [configuration guide](https://developers.liveperson.com/android-push-notifications.html#configuring-push-notifcations).
 
 ### Q: How does the SDK ensure that sensitive information is transmitted to consumers securely?
 

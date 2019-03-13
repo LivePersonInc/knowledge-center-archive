@@ -20,7 +20,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New Functionality
 
-
 ### Messaging interactions API: New intent section in the response and intent filters
 
 <table class="releasenotes">
@@ -95,7 +94,7 @@ The new permissions added are:
 * **FaaS Admin User:** Permission for admins to adjust whitelisting + secrets.
 * **FaaS Developer User:** Permission to develop new lambdas.
 
-## Edit Rights in bot integration permission (LE-98301)
+### Edit Rights in bot integration permission (LE-98301)
 
 <table class="releasenotes">
 <thead>
