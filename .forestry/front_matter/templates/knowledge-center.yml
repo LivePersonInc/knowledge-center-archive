@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
@@ -148,7 +149,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
-- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md

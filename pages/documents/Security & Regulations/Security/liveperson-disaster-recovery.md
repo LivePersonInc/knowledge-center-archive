@@ -5,7 +5,7 @@ subCategoryName: Security
 indicator: both
 subtitle: ''
 level3: ''
-permalink: Security-regulations-security-LivePerson-disaster-recovery.html
+permalink: security-regulations-security-liveperson-disaster-recovery.html
 isTutorial: false
 isNew: false
 date: 2019-01-31 08:38:33 +0000
