@@ -2,8 +2,9 @@ body {
   overflow-y: scroll;
 }
 
-#defaultwrapper {
+.botwrapper {
   background: linear-gradient(143deg, #161147, #23538a);
+  grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px;
 }
 
 #maincontent {
@@ -69,7 +70,7 @@ body {
 }
 
 .lp-json-pollock {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -141,10 +142,6 @@ body {
   margin-right: 25px;
 }
 
-#bottomLink {
-  cursor: pointer;
-}
-
 #messageInput {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -209,4 +206,11 @@ body {
   position: sticky;
   top: 140px;
   height: 20px;
+  color: #fff;
+  font-family: "Roboto", "Open Sans", Helvetica;
+  font-size: 16px;
+  background-color: #5879da;
+  border-radius: 100px 0px 0px 100px;
+  padding: 10px 5px 10px 20px;
+  cursor: pointer;
 }

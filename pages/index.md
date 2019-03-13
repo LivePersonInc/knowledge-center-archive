@@ -17,4 +17,3 @@ permalink: index.html
 </div>
 </div>
 </div>
-<div id="resetcontainer"><i id="bottomLink" class="fas fa-redo"></i></div>

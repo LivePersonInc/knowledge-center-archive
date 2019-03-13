@@ -119,7 +119,7 @@ function scrollBottom () {
 
 $(document).ready(function () {
 	//when the reset button is clicked
-	$('#bottomLink').click(function() {
+	$('#resetcontainer').click(function() {
 		//clear localStorage, killing the JWT
 		window.localStorage.clear();
 		//refresh he page. Since there's no JWT stored, a new conversation will be created
