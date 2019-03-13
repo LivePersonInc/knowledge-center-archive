@@ -364,7 +364,7 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
 
-How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
+**How-to video:** [Creating metrics](https://bcove.video/2vPgq6B)
 
 #### **Recommendations:**
 
@@ -458,55 +458,38 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
 #### Create a threshold for a metric
 
-1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
-2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
-3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
+ 1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
+ 2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
+ 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
+    1. **Color based**: to create a threshold to change the background color used to display metric values.
+    2. **Image based:** to replace metric values with an image.
+ 4. From the second drop-down list, select the color or images you want to display:
+    1. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
+    2. Images: select the images you would  like to display.
 
-**Color based**: to create a threshold to change the background color used to display metric values.
-
-**Image based:** to replace metric values with an image.
-
-From the second drop-down list, select the color or images you want to display:
-
-* Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-* Images: select the images you would  like to display.
-
-  The options include:
-  * Arrows
-  * Regular Pin
-  * Rounded Pin
-
-From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
-
-From the drop-down list that will appear once you have selected the metric, select one of the following:
-
-To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-
-To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
-
-To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
-
-To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
-
-To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
-
-From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
-
-Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
-
-#### **Further customizations are available:**
-
-1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
-2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
-3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
-
-You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
+       The options include:
+       * Arrows
+       * Regular Pin
+       * Rounded Pin
+ 5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
+ 6. From the drop-down list that will appear once you have selected the metric, select one of the following:
+    1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
+    2. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
+    3. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
+    4. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
+    5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
+ 7. From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
+ 8. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
+ 9. Further customizations are available:
+    1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
+    2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
+    3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
+10. You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
 #### **Clear all thresholds applied to a metric**
 
-On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
-
-Select ‘**clear thresholds.**’ All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
+1. On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
+2. Select ‘**clear thresholds.**’ All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
 
 ### Formatting the dashboard
 
@@ -564,5 +547,4 @@ Users are advised to recreate their dashboards every so often in order to get th
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
 * **Time based derived metrics** - It is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-{: .important}
-**DISCLAIMER:** LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+{: .important} **Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
