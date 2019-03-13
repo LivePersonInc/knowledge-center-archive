@@ -25,11 +25,11 @@ As outlined in the ‘behind the scenes’ section , conversations that reach yo
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
 * **Conversation history:** For repeat customers, any previous messaging history will display in the Engagement History widget.
-
-  ![](/img/managing-messaging-conversations-1.png)
 * **Consumer Info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
+
+![](/img/managing-messaging-conversations-1.png)
 
 ## Replying to consumers
 
@@ -47,13 +47,13 @@ Conversation Summary is a dedicated widget that enables you write notes and comm
 
 While conducting a conversation, there are a few actions you can take:
 
-![](/img/managing-messaging-conversations-9.png)
-
 **Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
 
 **Hide conversation**: If you have an inactive conversation that doesn’t require your attention, this option allows you to hide the conversation window and send the conversation back to open connections.
 
 **Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
+
+![](/img/managing-messaging-conversations-9.png)
 
 ## Adjusting the SLA for follow up
 
@@ -93,14 +93,12 @@ All three options are triggered from within the messaging conversation window:
 
 This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
 
-{: .notice} 
+{: .notice}
 When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience).
 
-When you initiative a screen sharing session, the consumer will see the following invite:
+When they accept the invitation, it will be clear that you are sharing their screen. When you initiative a screen sharing session, the consumer will see the following invite:
 
 ![](/img/managing-messaging-conversations-5.png)
-
-When they accept the invitation, it will be clear that you are sharing their screen.
 
 **Digital voice calls**
 
@@ -121,7 +119,7 @@ Connected call screen:
 
 If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
 
-{: .notice} 
+{: .notice}
 This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming.
 
 ![](/img/managing-messaging-conversations-8.png)
