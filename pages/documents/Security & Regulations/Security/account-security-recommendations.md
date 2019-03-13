@@ -22,7 +22,7 @@ The recommended three steps for baseline account security are as follows:
 
 ## Step 1: Set your password policy
 
-The password policy settings provide more flexibility to define policies that match your corporate security requirements. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals. 
+The password policy settings provide more flexibility to define policies that match your corporate security requirements. Password policies enhance your system security by forcing users to create more complex passwords, or to change their passwords at regular intervals.
 
 | Setting | Description | LivePerson recommendation | How to enable |
 | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ For further information on LivePerson’s Password Policy, see Login Policy.
 
 ## Step 3: Mask your sensitive data
 
-LivePerson offers the ability to remove sensitive data patterns from the chat transcripts prior to storing the transcript in the LivePerson database:	
+LivePerson offers the ability to remove sensitive data patterns from the chat transcripts prior to storing the transcript in the LivePerson database:
 
 | Setting | Description | LivePerson recommendation | How to enable |
 | --- | --- | --- | --- |
@@ -63,15 +63,14 @@ LivePerson offers the ability to remove sensitive data patterns from the chat tr
 
 ## Step 4: Encrypt your data
 
-LivePerson offers the ability to store chat transcripts and other session variables in an encrypted format in the LivePerson database: 
+LivePerson offers the ability to store chat transcripts and other session variables in an encrypted format in the LivePerson database:
 
 | Setting | Description | LivePerson recommendation | How to enable |
+|---------|-------------|---------------------------|---------------|
 | Chat - Transcripts | Chat transcripts and other session variables can be stored on the LivePerson storage in an encrypted format. Note: When encryption is enabled, the following capabilities will malfunction: hot-topics, Data Access API (data will be pulled masked unless the customer will provide LivePerson with a PGP key), Analytics reports (Predefined Content, topics toolkit, Escalation Risk Predictor, bot reporting) | Enable | Contact LivePerson. |
 | Chat – Authenticated SDEs and Unauthenticated SDEs | Chat transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following information will not be available in the Goal Tracker report: Customer name, Customer type, Customer status. | Enable | Contact LivePerson. |
 | Messaging – Transcripts | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following capabilities will malfunction: Messaging Connectors API, Intent Portal | Analytics reports (Predefined Content, Topics toolkit, Escalation Risk Predictor, bot reporting) | Enable | Contact LivePerson. |
 | Messaging – Authenticated SDEs and Unauthenticated SDEs | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following capabilities will not be available in the Goal Tracker report: Customer name, Customer type, Customer status | Enable | Contact LivePerson. |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
 
 ## Password policies
 
