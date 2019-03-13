@@ -139,7 +139,7 @@ Upon receiving a new message, if the engagement window is in the minimized state
 
 Web messaging behaves similarly to mobile app messaging, except for the fact that it runs on a browser. Web messaging can be displayed in an embedded window or opened in a separate browser window to interact with the visitor. When the LiveEngage embedded window is set to separate browser mode, the authentication must take place using a page redirect flow.
 
-### **Authentication in embedded window vs. separate browser window**
+### Authentication in embedded window vs. separate browser window
 
 #### Embedded window
 
@@ -147,7 +147,7 @@ When in **embedded mode**, the window is hosted on the brand's website. JavaScri
 
 #### Separate browser window
 
-**Separate browser window** mode is configured in LiveEngage Engagement studio. When the engagement appears in a separate browser window, authentication cannot be performed "behind the scenes". Action is required from the visitor for the following two reasons:
+Separate browser window mode is configured in LiveEngage Engagement studio. When the engagement appears in a separate browser window, authentication cannot be performed "behind the scenes". Action is required from the visitor for the following two reasons:
 
 * As the engagement window opens immediately after it is clicked, there is not enough time to access an asynchronous JavaScript API simultaneously.
 * The separate browser window is hosted by LivePerson (not the brand’s website), therefore it does not have access to JavaScript code.
