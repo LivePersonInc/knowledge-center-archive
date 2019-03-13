@@ -34,13 +34,23 @@ The password policy settings provide more flexibility to define policies that ma
 | Restrict commonly used password phrases | Restricts passwords that include commonly used password phrases. | Enable. | Contact LivePerson. |
 | Expire after number of days | Forces users to change their passwords at regular intervals. | Change users’ passwords at least once every 90 days. | Contact LivePerson. |
 | Prevent using previous number of passwords | The number of previous passwords which the system will prohibit the user from reusing as a new password. | Set the value to a minimum of 12. | Contact LivePerson. |
-| Maximum changes per day | The number of times the password can be changed within a single 24-hour period. | Set the value to a maximum of 3. | --- |
-| --- | --- | --- | --- |
+| Maximum changes per day | The number of times the password can be changed within a single 24-hour period. | Set the value to a maximum of 3. | Contact LivePerson. |
+| Apply policy to current passwords | Applies these rules to existing passwords. If this option is not selected, the password rules will only apply when a user changes the password, or a new user is added to the system.  | Enable. | Contact LivePerson. |
+
+For further information on LivePerson’s Password Policy, see Login Policy.
+
+
+## Step 2: Restrict your login options
+
+LivePerson offers the following settings for restricting login options:
 
 | Setting | Description | LivePerson recommendation | How to enable |
 | --- | --- | --- | --- |
-
-## Step 2: Restrict your login options
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
 
 ## Step 3: Mask your sensitive data
 
