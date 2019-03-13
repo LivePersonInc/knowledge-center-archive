@@ -66,7 +66,13 @@ LivePerson offers the ability to remove sensitive data patterns from the chat tr
 LivePerson offers the ability to store chat transcripts and other session variables in an encrypted format in the LivePerson database: 
 
 | Setting | Description | LivePerson recommendation | How to enable |
-| Chat - Transcripts | Chat transcripts and other session variables can be stored on the LivePerson storage in an encrypted format. Note: When encryption is enabled, the following capabilities will malfunction: hot-topics, Data Access API - data will be pulled masked unless the customer will provide LivePerson with a PGP key, Analytics reports: Predefined Content, topics toolkit, Escalation Risk Predictor | Enable | Contact LivePerson. |
+| Chat - Transcripts | Chat transcripts and other session variables can be stored on the LivePerson storage in an encrypted format. Note: When encryption is enabled, the following capabilities will malfunction: hot-topics, Data Access API (data will be pulled masked unless the customer will provide LivePerson with a PGP key), Analytics reports (Predefined Content, topics toolkit, Escalation Risk Predictor) | Enable | Contact LivePerson. |
+| Chat – Authenticated SDEs and Unauthenticated SDEs | Chat transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following information will not be available in the Goal Tracker report: Customer name, Customer type, Customer status. | Enable | Contact LivePerson. |
+| Messaging – Transcripts | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. 
+Note: When encryption is enabled, the following capabilities will malfunction: Messaging Connectors API, Intent Portal | Analytics reports (Predefined Cotnent  | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
 
 ## Password policies
 
