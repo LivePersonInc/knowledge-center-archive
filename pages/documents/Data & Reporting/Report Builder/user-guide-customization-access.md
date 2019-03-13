@@ -226,9 +226,7 @@ Hover the cursor over the name of the metric you just added, then click the arro
 Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
 
 * To filter by the metric's values, select **qualify on value**. For example, you can display data only for agents with engagements greater than or equal to 100.
-* To assign a numeric rank to the metric values and then filter by rank, select
-
-  **qualify on rank**.
+* To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
 
 To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
 
