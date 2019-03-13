@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-26 13:16:26 +0000
 
 ---
-### Why isn’t AutoClose closing conversations?
+## Why isn’t AutoClose closing conversations?
 
 #### Issue:
 
@@ -33,7 +33,7 @@ LiveEngage logs showed that the specific agent had been “visiting” the conve
 Ask the agent not to open conversations pending visitor response for a while and verify that AutoClose then closes the conversations in under 145 minutes.  
 For more information, see [auto close for messaging conversations](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html).
 
-### A consumer is no longer receiving messages from our agents. What happened?
+## A consumer is no longer receiving messages from our agents. What happened?
 
 #### Issue:
 
@@ -52,7 +52,7 @@ This is expected behavior.
 2. As a best practice, if agents have permissions to do so, they should verify that agents are available before transferring conversations to a skill or returning them to the queue.
 3. Alternatively, agents can ask an agent manager to join the conversation and transfer the conversation to a skill with available agents.
 
-### **Why is the wrong conversation response time (SLA) displayed in the message window?**
+## **Why is the wrong conversation response time (SLA) displayed in the message window?**
 
 #### Issue:
 
@@ -68,7 +68,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 * During offline hours, the response time displayed takes into account both the account’s response time settings and the Shift Status settings.
 * For more information about the Shift Status feature, please see [Configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html).
 
-### Why doesn’t the CSAT survey display to all consumers once their conversations are closed?
+## Why doesn’t the CSAT survey display to all consumers once their conversations are closed?
 
 #### Issue:
 
@@ -87,7 +87,7 @@ The CSAT survey is presented to a consumer (assuming that CSAT survey is configu
 * The CSAT survey is displayed regardless of the assigned agent's state (Online, Back, Away).
 * The CSAT survey is displayed regardless of whether the conversation was interactive (message sent from both the agent and the consumer) or not.
 
-### Why can’t we change the order of macros in iOS strings in predefined content or auto messages?
+## Why can’t we change the order of macros in iOS strings in predefined content or auto messages?
 
 ### Issue:
 
@@ -106,7 +106,7 @@ The order of the order of macros in strings In iOS are determined by their posit
 
 This is expected behavior. The order of macros in iOS strings is predetermined.
 
-### Why isn’t dynamic text in predefined content working?
+## Why isn’t dynamic text in predefined content working?
 
 #### Issue:
 
@@ -130,7 +130,7 @@ Best practice: Use a naming convention that helps easily identify predefined con
 
 For example, the content item mentioned above could be named How may I help? (chat only).
 
-### Why are new SMS conversations created when a visitor replies to CSAT questions?
+## Why are new SMS conversations created when a visitor replies to CSAT questions?
 
 #### Issue:
 
@@ -144,7 +144,7 @@ The consumer answered the CSAT question with text and not just a number (for exa
 
 This is a known limitation of the LiveEngage SMS interface.
 
-### Why aren’t we receiving SMS messages in LiveEngage from some of our clients?
+## Why aren’t we receiving SMS messages in LiveEngage from some of our clients?
 
 #### Problem:
 
@@ -165,7 +165,7 @@ If the SMS messages that are not received or are partially received have been se
 1. Check whether those numbers support SMS messages (see [Twilio international phone number availability and their capabilities](https://support.twilio.com/hc/en-us/articles/223183068-Twilio-international-phone-number-availability-and-their-capabilities)).
 2. If your local Twilio numbers do not support SMS,and your mobile numbers do, use mobile lines instead.
 
-### A LiveEngage account’s Facebook messages are no longer being routed to LiveEngage.
+## A LiveEngage account’s Facebook messages are no longer being routed to LiveEngage.
 
 #### Issue:
 
@@ -184,7 +184,7 @@ Possible Facebook bug.
 * LivePerson Support unsubscribed and resubscribed the account’s mobile application to the Liveperson Facebook connector and routing began working again immediately.
 * LivePerson reported this to Facebook.
 
-### Why aren’t automatic offline messages triggering during “off shift” hours?
+## Why aren’t automatic offline messages triggering during “off shift” hours?
 
 #### Issue:
 
