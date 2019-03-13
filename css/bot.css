@@ -4,7 +4,7 @@ body {
 
 .botwrapper {
   background: linear-gradient(143deg, #161147, #23538a);
-  grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px;
+  grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px !important;
 }
 
 #maincontent {
@@ -30,6 +30,12 @@ body {
   width: 40%;
 }
 
+.caseyTextContainer {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .caseyText {
   width: 70%;
   background-color: #465684;
@@ -43,18 +49,6 @@ body {
   -moz-transition: opacity 0.35s ease;
   -o-transition: opacity 0.35s ease;
   transition: opacity 0.35s ease;
-}
-
-.caseyText + .caseyText {
-  margin-top: 20px;
-}
-
-.consumerText + .caseyText {
-  margin-top: 20px;
-}
-
-.caseyText + .consumerText {
-  margin-top: 20px;
 }
 
 .caseyText a {
@@ -72,6 +66,7 @@ body {
 .lp-json-pollock {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .lp-json-pollock-layout {
@@ -81,6 +76,7 @@ body {
   flex-wrap: wrap;
   border: none !important;
   background: transparent !important;
+  order: 1;
 }
 
 .lp-json-pollock-element-button {
@@ -174,7 +170,7 @@ body {
 
 .inputcontainer {
   display: flex;
-  margin-top: 20px;
+  margin-top: -10px;
   margin-bottom: 20px;
 }
 

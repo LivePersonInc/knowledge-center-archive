@@ -4,7 +4,7 @@ var windowKit = new windowKit({
 	//skillId: 12341234 - optional skill ID
 });
 //declaring variables
-var userinput = '<div class="inputcontainer"><img class="caseyAvatar" src="img/fill-avatar.png"/><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div>'
+var userinput = '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div>'
 let isScrolling;
 let agentFirstText;
 
@@ -20,7 +20,7 @@ windowKit.onReady( function () {
 //when an agent (the bot) sends a text
 windowKit.onAgentTextEvent(function(text) {
 	//apnend the text's contents to the conversation
-	$('#caseyContainer').append('<div class="caseyText">' + text + '</div>');
+	$('#caseyContainer').append('<div class="caseyTextContainer"><img class="caseyAvatar" src="img/fill-avatar.png"/><div class="caseyText">' + text + '</div></div>');
 	//a rule to check if the user asked for a search and if so, show the input field
 	if (text.indexOf("whatever you'd like to search for") > -1) {
 		displayInput();
@@ -48,6 +48,7 @@ windowKit.onAgentRichContentEvent(function(content) {
   var structuredText = JsonPollock.render(content);
 	//append that variable to the conversation
 	$('#caseyContainer').append(structuredText);
+	$('.lp-json-pollock').append('<img class="caseyAvatar" src="img/fill-avatar.png"/>')
 	//scroll to the bottom using the scrollBottom function
 	scrollBottom();
 	//when you print the text, print the rich content as an object not a string
