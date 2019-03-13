@@ -94,7 +94,7 @@ From the settings page, you can define the conversation channel, authentication 
 
 #### Conversation channel
 
-Select if you want the engagement to lead to a messaging conversation or to a simple link. From the _conversation type_ drop down, select **messaging**.
+Select if you want the engagement to lead to a messaging conversation or to a simple link. From the **conversation type** drop down, select **messaging**.
 
 #### Authentication
 
