@@ -13,9 +13,8 @@ isNew: false
 ---
 ## All connections list
 
-The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
-
-=![](/img/agent-workspace-icons-messaging-1.png)
+The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.  
+![](/img/agent-workspace-icons-messaging-1.png)
 
 | Icon | Meaning |
 | --- | --- |
@@ -36,7 +35,6 @@ The all connections list displays every one of your brand’s messaging conversa
 
 The open connections tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.  
 ![](/img/agent-workspace-icons-messaging-2b.png)
-
 
 | Icon | Meaning |
 | --- | --- |

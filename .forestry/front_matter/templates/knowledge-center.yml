@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
@@ -159,7 +160,6 @@ pages:
 - pages/documents/Messaging Channels/Rich messaging/engagement-window-widget-sdk.md
 - pages/documents/Data & Reporting/Report Builder/data-availability-latency.md
 - pages/documents/Agent and manager workspace/Workspace configuration/multiple-away-states.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/taking-breaks-and-ending-your-shift.md
 - pages/documents/Data & Reporting/Messaging/Messaging dashboards/business-activity-grid.md
 - pages/documents/Release Notes/November /week-of-november-5th.md
