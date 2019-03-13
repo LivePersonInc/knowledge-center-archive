@@ -44,7 +44,7 @@ Answering these questions will help you prepare and streamline your campaign cre
 3. Will you hard-code the button into your app? Or do you want it to dynamically display based on different criteria?
 4. What skills will be answering your messaging? How will you do the routing? Based on the location of the app? The type of customer?
 5. Are you offering service transactions? Will you need to authenticate the conversations?
-6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track  the conversations made over messaging?
+6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track the conversations made over messaging?
 7. Prep the right messages for your consumers and agents
 
 ## 2. Mobile app configuration
