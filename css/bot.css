@@ -216,6 +216,39 @@ body {
   font-style: italic;
 }
 
+#messageInputUsed::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInputUsed::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInputUsed:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInputUsed:-moz-placeholder { /* Firefox 18- */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+
 .caseyAvatar {
   margin-left: -35px;
   margin-right: 10px;
