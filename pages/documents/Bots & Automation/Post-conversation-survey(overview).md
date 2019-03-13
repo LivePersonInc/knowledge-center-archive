@@ -232,7 +232,7 @@ Once enabled, make sure to fill in the desired text in the Text Fallback Tab.
 
 ![](/img/post-conversation-survey-user-guide10.png)
 
-The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in [Report Builder](data-reporting-report-builder-report-builder-overview.html) are based on the ones configured in the LiveEngage Bot Studio.
+The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
 
 The new sheet contains an additional set of metrics and attributes which support the following analysis:
 
@@ -242,7 +242,7 @@ The new sheet contains an additional set of metrics and attributes which support
 * Survey activity and performance, allowing to monitor the response rates for example
 * Question level performance, allowing to monitor the avg. time to respond for example
 
-In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-post-conversation-survey.html) messaging dashboards for more information.
+In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html) messaging dashboards for more information.
 
 ## Design
 
@@ -311,4 +311,4 @@ Unfortunately, Facebook doesn’t support sending structured content that has mo
 
 ### Q: Something has changed in my survey and I’m not sure who made the change. How can I find this out?
 
-The post conversation survey is tracked by [Audit Trai](security-regulations-audit-trail.html)l. Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.
+The post conversation survey is tracked by [Audit Trail](security-regulations-audit-trail.html). Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.

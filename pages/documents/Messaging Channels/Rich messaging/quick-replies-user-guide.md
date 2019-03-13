@@ -14,7 +14,7 @@ date: 2019-01-27 12:16:26 +0000
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
 
-To see what messaging channels support quick replies please see the [messaging channels capabilities comparison](https://knowledge.liveperson.com.master-7rqtwti-znm3eqs6brhzq.us.platform.sh/messaging-channels-messaging-channels-capabilities-comparison.html) chart
+**To see what messaging channels support quick replies please see the** [**messaging channels capabilities comparison**](https://knowledge.liveperson.com.master-7rqtwti-znm3eqs6brhzq.us.platform.sh/messaging-channels-messaging-channels-capabilities-comparison.html) **chart**
 
 ![](/img/quick-replies.gif)
 

@@ -3,16 +3,16 @@ pagename: Report Builder overview
 categoryName: Data & reporting
 subCategoryName: Report Builder
 indicator: both
-subtitle: A high level overview in to the Report Builder
+subtitle: A high-level overview of the Report Builder
 level3: ''
 permalink: data-reporting-report-builder-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
 
 ---
-The Report Builder offers brands ready made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
+The Report Builder offers brands ready-made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data-driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
 
-Brands with a customer success offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Report Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements and export data to excel or PDF.
+Brands with a customer success offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Report Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements, and export data to excel or PDF.
 
 ![](/img/Report_Builder_Overview.png)
 
@@ -26,7 +26,7 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
-Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s time zone. After each update, the reports display the data collected up to 6 hours earlier.
+Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 and 08:00 in the farm’s time zone. After each update, the reports display the data collected up to 6 hours earlier.
 
 **Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
 
@@ -67,14 +67,14 @@ LivePerson administrators can schedule reports to run at set times on a recurrin
 
 ## Latest updates to Report Builder
 
-LP are continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report builder:
+LivePerson is continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report Builder:
 
-* A new set of metrics have been added to the messaging performance predefined dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
+* A new set of metrics have been added to the Messaging Performance Predefined Dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
 * The messaging performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
 * Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the Messaging Performance Dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the post conversation survey bot.
+* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the Post Conversation Survey bot.
 * The data refresh rate has been enhanced to every eight hours.
-* Agent load KPIs are added to the predefined messaging performance dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
-* New conversion metrics have been added to the messaging performance dashboard to allow analysis of sales results together with messaging operations data.
-* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: the skill activity and the messaging performance.
+* Agent load KPIs are added to the Predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
+* New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
+* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: skill activity and messaging performance.
 * The field details tab has been redesigned and contains a list of all the available attributes and metrics.

@@ -4,7 +4,7 @@ categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
 subtitle: " In-depth information on working hours management limitations, clarifications
-  and best oractices "
+  and best practices "
 level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
@@ -17,11 +17,11 @@ The configuration of scheduled [Workdays](https://developers.liveperson.com/acco
 
 During the specified hours of operation, consumers will receive working hours **auto messages** and the **expected time to response** message for the skill as defined in the account. Outside of the specified hours of operation, consumers will receive off hours auto messages and the expected time to response including the time until the next shift begins. See more on shifts in our [shift scheduler guide](/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
 
-The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
+The expected time to response is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
 ### Special occasions
 
-The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
+The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI. For example: working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
 
 {: .notice}
 Special occasions do not modify hours of operation defined by Workdays, but instead override them.
@@ -41,7 +41,9 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 ## Clarifications
 
-* If _Workdays_ or _Special Occasions_ are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified. This means:
+* If Workdays or Special Occasions are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified. 
+
+  This means:
   * If you wish to have a skill without special occasions, for example, you’ll need to set the skill’s special occasions field with a new special occasion item to override the account level configuration. This item should have an empty list of occasions.
   * Same goes for workdays - in order to override a skill’s workdays, you’ll need to set the skill’s workdays field with a new workdays item to override the account level configuration. This item should state the skill’s working hours.
 * Time to respond is presented to the consumer in some of the automatic messages (e.g. welcome message), if the brand decides to add the time to respond dynamic text. If the calculated time to respond is due after the next shift’s end time: _The calculation of the time to respond =  time until the next next shift + (response time per skill - response time per skill that already passed in the current shift)_
@@ -82,6 +84,7 @@ In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and 
 ## FAQs
 
 **Q:** What happens when agent managers manually set off-hours while automatic scheduling rules exist?  
+
 **A:** When automatic scheduling rules exist, but the brand decides to go back to manual mode, the ETTR changes according to the manual configuration.
 
 In the example above: If the agent manager manually changed to off hours in the middle of a conversation, the ETTR displayed to consumers will be according to the off hours configuration.

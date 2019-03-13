@@ -102,7 +102,7 @@ An agent is considered available to receive an incoming conversation, when the f
 
 * The agent has enough capacity to receive an incoming conversation.  
   LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
-  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Smart Capacity’ article](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) for further information.
+  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Smart Capacity’ article](contact-center-management-messaging-operations-smart-capacity-overview.html) for further information.
   2. **Maximum concurrent conversations** - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
 
 _Default maximum number of conversations per agent - Account level:_  
@@ -118,7 +118,7 @@ The agent selection process is based on parameters outside those around the agen
 
 * Agent prioritization - when routing an incoming conversation, the system will prioritize all agents eligible to receive the conversation and will route the conversation to the most suitable prioritized agent. Prioritization is based on three key parameters:
   * The agent’s current utilization state:
-    * [Smart capacity](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
+    * [Smart capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
     * Default - The ‘least busy’ agent is preferred - the agent that is currently handling fewer active conversations.
   * The time passed since they last received a new conversation
   * The messaging history between the agent and the consumer

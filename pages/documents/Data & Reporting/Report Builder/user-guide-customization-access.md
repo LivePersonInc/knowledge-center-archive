@@ -11,9 +11,7 @@ isTutorial: false
 date: 2019-01-16 11:37:29 +0000
 
 ---
-This user guide sets out detailed instructions for building your own dashboards, creating filters and visualizations and more.
-
-## Getting started 
+## Getting started
 
 Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
@@ -23,7 +21,7 @@ Brands can access Report Builder through the LiveEngage UI, from the messaging r
 2. Open the dashboard by clicking the drag down icon
 3. Click the Report Builder icon on the left of the screen. A new tab will open.
 
-**How to video:** [**Getting started**](https://bcove.video/2vj2Sid)
+**How-to video:** [**Getting started**](https://bcove.video/2vj2Sid)
 
 ## Permissions
 
@@ -43,7 +41,7 @@ In order for agent managers and campaign managers to be able to view, customize 
 3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
 
-   {: .notice}   
+   {: .notice}  
    If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
 
 ## Data view restrictions
@@ -62,9 +60,9 @@ Where there are data that cannot be pre-filtered by agent group, there are also 
 Dashboards in Report Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports** - dashboards saved here are visible to all the users in the account.
-* **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
-* **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-* **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
+  * **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
+  * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
+  * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ### Creating and managing sub folders
@@ -111,7 +109,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ![](/img/customization-user-guide3.png)
 
@@ -127,7 +125,7 @@ LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-
 
 ### Saving changes
 
-Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto save function at this time, and it is recommended to save your work after every bulk of changes.
+Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
 
 ### Share a custom dashboard
 
@@ -152,26 +150,28 @@ A dashboard contains multiple layouts. To switch between the pages of data in th
 
 ### Add a new tab
 
-Click the ‘**+**’ sign next to the names of the tabs.
+1. Click the ‘**+**’ sign next to the names of the tabs.
+2. Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. 
 
-Give the tab a name by double-clicking on the name field.  the existing filters will not apply to the new tab. To apply filters to the new tab, please refer to the instructions regarding adding filters below.
+{: .notice}  
+To apply filters to the new tab, please refer to the instructions regarding adding filters below.
 
 It is recommended to use an existing tab with its filters and modify it, rather than adding a new empty tab. The predefined tabs include all the filters needed in order to see the data properly. Copy a predefined tab and delete the irrelevant visualizations or modify them to fit your needs.
 
-### **Copy an existing tab**
+### Copy an existing tab
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘duplicate’.
+2. Select ‘duplicate.’
 
 ### Remove a tab
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘**delete**’.
+2. Select ‘**delete.**’
 
 ### Add a new panel to an existing tab
 
 1. Click on the down-arrow next to the tab’s name.
-2. Select ‘**insert panel**’.
+2. Select ‘**insert panel.**’
 3. Give the panel a name by double-clicking on the name field.
 4. Move between panels by clicking on the blue dot at the bottom of each panel.
 
@@ -197,19 +197,15 @@ There are two types of filters available:
 
 ### Add an attribute filter to the filters panel
 
-From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.
-
-You can place the attribute above or below the filters already displayed in the panel.
-
-Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
-
-1. Click on display style, then select the style you want to use to display the filter. The options are:
+1. From the dataset panel, select the attribute you want to use to filter your data, and drag it onto the Filters panel.You can place the attribute above or below the filters already displayed in the panel.
+2. Hover the cursor over the name of the filter you just added, then click the arrow icon. A list of options will display.
+3. Click on display style, then select the style you want to use to display the filter. The options are:
    * Check boxes
    * Search box
    * Slider
    * Radio buttons
    * Drop down
-2. You can choose to include or exclude data using elements selected in the filter, as follows:
+4. You can choose to include or exclude data using elements selected in the filter, as follows:
    * To display data in the dashboard only for selected elements, select **include**.
    * To display data in the quick dashboard for all elements except the elements that are selected, select **exclude**.
 
@@ -218,27 +214,18 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 ### Add a metric filter to the filters panel
 
-From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
-
-Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
-
-* To filter data by creating a qualification on a metric, select **qualification**.
-* To filter data by choosing values on a slider, select **slider**.
-
-Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
-
-* To filter by the metric's values, select **qualify on value**. For example, you can display data only for agents with engagements greater than or equal to 100.
-* To assign a numeric rank to the metric values and then filter by rank, select
-
-  **qualify on rank**.
-
-To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score. 
-
-To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time. 
-
-To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items. 
-
-To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
+1. From the dataset panel, click the metric you want to use to filter data, and drag it onto the filters panel. You can place the metric above or below the filters already displayed in the panel.
+2. Hover the cursor over the name of the metric you just added, then click the arrow icon. Click on display style and select one of the following:
+  * To filter data by creating a qualification on a metric, select **qualification**.
+  * To filter data by choosing values on a slider, select **slider**.
+3. Hover the cursor over the name of the metric you just added, then click the arrow icon and select one of the following:
+  * To filter by the metric's values, select **qualify on value**. For example, you can display data 		only for agents with engagements greater than or equal to 100.
+  * To assign a numeric rank to the metric values and then filter by rank, select **qualify on rank**.
+A few options are available:
+  * To assign a numeric rank to the metric values, where 1 is the highest metric value, and then filter by rank, select **Highest** in the drop-down list. For example, you can display data for the ten agents with the highest MCS score.
+  * To assign a numeric rank to the metric values, where 1 is the lowest metric value, and then filter by rank, select **Lowest** in the drop-down list. For example, you can display data for the ten agent groups stores with the lowest login time.
+  * To filter by the top n% of metric values, select **% Highest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Highest = 25 displays the top two items.
+  * To filter by the bottom n% of metric values, select **% Lowest** in the drop-down list. For example, if eight items are displayed in a visualization, Rank % Lowest = 25 displays the bottom two items.
 
 ![](/img/customization-user-guide5.png)
 
@@ -266,7 +253,9 @@ To allow users to filter data by choosing values on a slider, perform the follow
 You can choose to show only a subgroup of values in a filter by using a second filter to sort the options. For example, filter AGENT attribute by GROUP - once a specific group is selected, only agents assigned to this group will be visible in the filter.
 
 1. Hover the cursor over the name of the filter, then click the arrow icon. A list of options is displayed.
-2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter. How to video: [Using visualizations as filters](https://bcove.video/2wTZrMV)
+2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter.
+
+   **How-to video:** [Using visualizations as filters](https://bcove.video/2wTZrMV)
 
 ### Visualizations
 
@@ -275,7 +264,9 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 ### Add a visualization to a dashboard
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
-2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid). How to video: [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
+2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid).
+
+   **How-to video:** [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
 
 ### Rearrange the visualizations
 
@@ -364,7 +355,7 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
 
-How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
+**How-to video:** [Creating metrics](https://bcove.video/2vPgq6B)
 
 #### **Recommendations:**
 
@@ -375,7 +366,7 @@ How-to video: [Creating metrics](https://bcove.video/2vPgq6B)
 ### Edit a metric
 
 1. Right click on the metric name on the Dataset panel or Editor panel.
-2. Select ‘**Edit**’.
+2. Select ‘**Edit.**’
 3. The ‘Metric Editor’ window will open up allowing you to modify the metric’s formula.
 
 ### Change the format of a metric
@@ -430,7 +421,7 @@ The table below lists the available styles:
 **Add a legend**
 
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
-2. Click on ‘**Show Legend**’. The legend will display on the right of the visualization.
+2. Click on ‘**Show Legend.**’ The legend will display on the right of the visualization.
 3. On hover a few options will be displayed.
 4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
 5. In the top right corner - an ‘X’ button, allowing you to close the legend.
@@ -458,60 +449,45 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
 #### Create a threshold for a metric
 
-1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
-2. Select ‘**Thresholds**’. The Thresholds dialog box will open.
-3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
+ 1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
+ 2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
+ 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
+    1. **Color based**: to create a threshold to change the background color used to display metric values.
+    2. **Image based:** to replace metric values with an image.
+ 4. From the second drop-down list, select the color or images you want to display:
+    1. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
+    2. Images: select the images you would  like to display.
 
-**Color based**: to create a threshold to change the background color used to display metric values.
-
-**Image based:** to replace metric values with an image.
-
-From the second drop-down list, select the color or images you want to display:
-
-* Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-* Images: select the images you would  like to display. The options include:
-* Arrows
-* Regular Pin
-* Rounded Pin
-
-From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
-
-From the drop-down list that will appear once you have selected the metric, select one of the following:
-
-To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-
-To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
-
-To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
-
-To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
-
-To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
-
-From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
-
-Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
-
-#### **Further customizations are available:**
-
-1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
-2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
-3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
-
-You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
+       The options include:
+       * Arrows
+       * Regular Pin
+       * Rounded Pin
+ 5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
+ 6. From the drop-down list that will appear once you have selected the metric, select one of the following:
+    1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
+    2. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
+    3. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
+    4. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
+    5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
+ 7. From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
+ 8. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
+ 9. Further customizations are available:
+    1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
+    2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
+    3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
+10. You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
 #### **Clear all thresholds applied to a metric**
 
-On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
-
-Select ‘**clear thresholds**’. All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
+1. On the selected grid, right click on the name of the metric you’d like to clear thresholds for. A list of options will display.
+2. Select ‘**clear thresholds.**’ All thresholds defined for the metric are cleared, and no longer affect the display of data in the visualization.
 
 ### Formatting the dashboard
 
 #### Add a title
 
 1. Click the ‘Insert’  plus & arrow icon in the top bar. A list of options will display.
-2. Select ‘**text**’. A new title bar will display.
+2. Select ‘**text.**’ A new title bar will display.
 3. Click on the text bar and type your desired text.
 4. You can drag and drop the title bar to anywhere in the dashboard.
 5. You can format the text font by selecting the title bar and changing the settings on the ‘PROPERTIES’ panel.
@@ -527,12 +503,12 @@ Once you have added an attribute to the grid, you can perform the following step
 ### Group or ungroup data
 
 1. Right-click on the name of the attribute you’d like to group, on the editor panel. A list of options will display.
-2. Select ‘**create groups**’. A new window, the ‘group editor’, will open.
+2. Select ‘**create groups.**’ A new window, the ‘group editor’, will open.
 3. Name the new attribute.
 4. Name a group and add values to it by dragging them from the ‘Available’ list on the left of the window and dropping them into the ‘Selected’ section on the right.
 5. Click the v button once your group is complete.
 6. Add more groups by clicking in the ‘Add a Group’ link.
-7. Once you’ve finished creating the groups, click ‘**Save**’.
+7. Once you’ve finished creating the groups, click ‘**Save.**’
 8. You can now use the new attribute instead of the original attribute.
 
 **How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
@@ -560,8 +536,6 @@ Users are advised to recreate their dashboards every so often in order to get th
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
-* T**ime based derived metrics** - it is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
+* **Time based derived metrics** - It is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-**DISCLAIMER:**
-
-LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+{: .important} **Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.

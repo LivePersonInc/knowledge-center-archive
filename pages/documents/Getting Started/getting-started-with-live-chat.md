@@ -17,7 +17,7 @@ To get started, access LivePerson using this link: [https://va-a.authentication.
 
 To get the most basic version of messaging up and running, brands need to insert a generic ‘chat’ button their website. Getting to the first message is simple and can be done through three steps:
 
-1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like chat to appear. See instructions on how to[ insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
+1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like chat to appear. 
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
@@ -28,7 +28,7 @@ The basic set up means there will be no routing - every agent will receive all m
 
 ## Customize your chat program
 
-LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
+LivePerson is the most advanced platform for any size organization, offering a range of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
 
 * **Customer experience:** design what your consumers will see when they interact with your brand by [adding a live chat window](messaging-channels-live-chat-add-live-chat-to-your-website.html) to your website. Customize the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to be the first to respond to incoming conversations.
 * **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including predefined content and custom widgets.
@@ -66,7 +66,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * [Surveys](contact-center-management-live-chat-operations-surveys-with-live-chat.html)
    * Proactive invitations
 
-Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in campaigns.
+Read more about [creating buttons and banners](contact-center-	management-campaigns-creating-buttons-and-banners.html) in campaigns.
 
 1. **Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * Photo sharing (consumer to agent)

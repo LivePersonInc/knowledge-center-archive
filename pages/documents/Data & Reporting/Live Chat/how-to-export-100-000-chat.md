@@ -3,15 +3,16 @@ pagename: How to export 100,000 chats into a dashboard
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: chat
-subtitle: Chats are easy to read when they are exported in a CSV file.
+subtitle: Chats are easy to read when they are exported in a CSV file
 level3: ''
 permalink: data-reporting-how-to-export-100000-chats-into-a-dashboard.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:34:47 +0000
+published: false
 
 ---
-Now you can export chats in two formats; as a JSON or as easier-to-read CSV files, directly from the Web History page. The JSON  has the same format as the output retrieved by the Web History API.  To export more than 100,000 chats, continue to use the API.
+Now you can export chats in two formats: as a JSON or as easier-to-read CSV files, directly from the Web History page. The JSON  has the same format as the output retrieved by the Web History API.  To export more than 100,000 chats, continue to use the API.
 
 Chats are easy to read when they are exported in a CSV file. All of the relevant information is displayed, including the chat transcript.  
 Many of the [engagement attributes](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) have more than one value per session. When this is the case, the latest value is the value that is exported with the chat.  

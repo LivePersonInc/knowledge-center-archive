@@ -24,8 +24,8 @@ While commonly used customer satisfaction measurements, such as customer surveys
 
 * Only a small proportion of consumers submit surveys. They generally have a very **low response rate**
 * The customers most likely to respond to surveys are usually the happiest, meaning the responses are **biased** and can be misleading
-* Actions as a result of survey feedback are taken only retrospectively, **missing real time feedback**
-* Messaging is an **ongoing relationship**; measuring sentiment at the end of a session doesn’t accurately reflect the nature of the messaging connection
+* Actions as a result of survey feedback are taken only retrospectively, **missing real-time feedback**
+* Messaging is an **ongoing relationship**, so measuring sentiment at the end of a session doesn’t accurately reflect the nature of the messaging connection
 
 ## Why MCS?
 
@@ -42,7 +42,7 @@ MCS is a score that is calculated dynamically in multiple dimensions, using a bo
 MCS can also be applied to skill, agent, agent group and brand . In this way, brands can get a full picture of any aspect of their operational performance.
 
 {: .notice}  
-The MCS is calculated in realtime. As a result, it is not guaranteed that MCS will be calculated for every conversation.
+The MCS is calculated in real time. As a result, it is not guaranteed that MCS will be calculated for every conversation.
 
 ## Calculating MCS
 

@@ -105,7 +105,7 @@ In order to enable the structured content via AC features and site settings, ple
 * We recommend that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 * Plan your data model:
   1. When creating your data model, recommended best practice is to include a card ID in the metadata of each card. The metadata, ExternalID, can be passed in the header of each sent message. These IDs should 	be recorded in an external CMS. This is currently only possible when a bot is sending the structured 	content, it is not yet supported on the Agent Widget SDK.
-  2. Define the metadata ExternalID that will be returned to LiveEngage when an element in the structured content is clicked. This is important for reporting on consumer interaction with the structured content element, as well as for bot activity. For further information, refer to the [Developer Community](https://developers.liveperson.com/rich-messaging-getting-started.html#metadata).
+  2. Define the metadata ExternalID that will be returned to LiveEngage when an element in the structured content is clicked. This is important for reporting on consumer interaction with the structured content element, as well as for bot activity. 
   3. Integrate your data model to benefit from full and detailed reporting, enabling you to assess the impact of structured content usage.
 
 {: .notice}  
