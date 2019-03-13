@@ -239,19 +239,20 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 ![](/img/customization-user-guide5.png)
 
-There are two options to configure how users will be able to filter the data:
+1. There are two options to configure how users will be able to filter the data:
+   * To allow users to filter data by creating a qualification on a metric, perform the following steps:
 
-To allow users to filter data by creating a qualification on a metric, perform the following steps:
+   a. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
 
-1. Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
-2. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+   b. In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
 
-To allow users to filter data by choosing values on a slider, perform the following steps:
+* To allow users to filter data by choosing values on a slider, perform the following steps:
 
-1. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
-2. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
-   * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
-   * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
+  a. Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
+
+  b. You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
+  * To display data in the quick dashboard only for metric values selected in the slider, select **include**.
+  * To display data in the quick dashboard for all metric values except the values selected in the slider, select **exclude**.
 
 ### Remove a filter from the filters panel
 
@@ -322,8 +323,10 @@ Metrics are objects that represent business measures and key performance indicat
 
 1. From the Dataset panel on the left, select attributes and metrics, and drag them onto the ‘editor’ panel.
 2. Attributes can be added to:
-   1. ‘Rows’ - the attribute’s values will be displayed on the rows of the grid.
-   2. ‘Columns’- the attribute’s values will be displayed on the columns of the grid.
+
+   a. ‘Rows’ - the attribute’s values will be displayed on the rows of the grid.
+
+   b. ‘Columns’- the attribute’s values will be displayed on the columns of the grid.
 3. Metrics can only be added to the ‘metrics’ to show data.
 
 **How-to video:** [**Creating attributes**](https://bcove.video/2wFwMMr)
@@ -347,20 +350,22 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 
 ### Create a new metric
 
-* Right click anywhere in the datasets panel and select ‘create metric’.
-* A new window ‘metric editor’ will open up.
-* Use objects and functions or operators to create the required formula.
+1. Right click anywhere in the datasets panel and select ‘create metric’.
+2. A new window ‘metric editor’ will open up.
+3. Use objects and functions or operators to create the required formula.
 
-**Objects:** the metrics and attributes available in the report.
+**a. Objects:** the metrics and attributes available in the report.
 
-To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
+* To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
 
-**Functions:** when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+**b. Functions:** when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
 
-To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
+* To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 {: .notice}  
-Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5/manuals/en/FunctionsReference.pdf) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.11/Dossier_Authoring/WebHelp/Lang_1033/Content/CreatingNewObjects.htm) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
+
+{:start="4"}
 
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
@@ -371,7 +376,7 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/9.5
 
 * **Quantity:** Adding more than 3 derived metrics to a single dataset may ultimately harm the performance of your dashboard to the extent that it may be virtually unusable. We encourage you to use the existing metrics available in the builder and minimize the number of additional derived metrics you create on your own.
 * **Formulas:** Functions which parse values stored in attributes are known to impact processing time. Similarly, adding “sistinct” counting to built in functions would also have a relatively higher impact to the processing and ultimately load time of any dashboard.
-* More information on using functions in metrics please visit this [website ](https://community.microstrategy.com/s/learning-center)(our 3rd-party provider).
+* More information on using functions in metrics please visit this [website ](http://www2.microstrategy.com/producthelp/10.11/Dossier_Authoring/WebHelp/Lang_1033/Content/CreatingNewObjects.htm)(our 3rd-party provider).
 
 ### Edit a metric
 
@@ -433,8 +438,8 @@ The table below lists the available styles:
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
 2. Click on ‘**Show Legend.**’ The legend will display on the right of the visualization.
 3. On hover a few options will be displayed.
-4. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
-5. In the top right corner - an ‘X’ button, allowing you to close the legend.
+   a. In the top left corner - an arrow, allowing you to minimize\\maximize the legend.
+   b. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
 ## Formatting
 
@@ -462,29 +467,29 @@ A threshold is made up of two parts: the condition, and the formatting that will
  1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
  2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
  3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
-    1. **Color based**: to create a threshold to change the background color used to display metric values.
-    2. **Image based:** to replace metric values with an image.
+    a.  **Color based**: to create a threshold to change the background color used to display metric 			values.
+    b. **Image based:** to replace metric values with an image.
  4. From the second drop-down list, select the color or images you want to display:
-    1. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-    2. Images: select the images you would  like to display.
+    a. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
+    b. Images: select the images you would  like to display.
 
-       The options include:
-       * Arrows
-       * Regular Pin
-       * Rounded Pin
+    The options include:
+    * Arrows
+    * Regular Pin
+    * Rounded Pin
  5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
  6. From the drop-down list that will appear once you have selected the metric, select one of the following:
-    1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-    2. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
-    3. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
-    4. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
-    5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
+    a.  To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
+    b. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
+    c. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
+    d. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
+    e. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
  7. From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
  8. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
  9. Further customizations are available:
-    1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
-    2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
-    3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
+    a. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
+    b. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
+    c. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
 10. You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
 #### **Clear all thresholds applied to a metric**
