@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/February/week-of-february-11th.md
 - pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
@@ -181,7 +182,6 @@ pages:
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md
-- pages/documents/Release Notes/February/week-of-february-11th.md
 - pages/documents/What's New/february-2019.md
 - pages/documents/Contact Center Management/Campaigns/campaign-settings.md
 - pages/documents/Contact Center Management/Live chat operations/understanding-the-reason-chat-ends.md
