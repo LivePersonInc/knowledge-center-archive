@@ -20,7 +20,7 @@ The following document guides you through creating authenticated web messaging. 
 
 Authenticated customer information increases the security of the communication as the customer’s identity is verified. It also increases the efficiency of agents and ensures that each consumer receives a personalized service. Finally, it enables brands to expand the types of services they offer to consumers during conversations, for example:
 
-* **Making purchases easier for existing consumers:** Once the consumer has logged into the brand's website, LiveEngage automatically brings the consumer's PII to the Agent Workspace, including the account number, package details, billing history, and other relevant account info. The conversation can immediately proceed to the new purchase, without the consumer having to identify themselves or make explanations about their account. The agent can manage the inquiry quickly as they don’t have to open another application to get the information they need.
+* **Making purchases easier for existing consumers:** Once the consumer has logged into the brand's website, LiveEngage automatically brings the consumer's Personally Identifiable Information (PII) to the Agent Workspace, including the account number, package details, billing history, and other relevant account info. The conversation can immediately proceed to the new purchase, without the consumer having to identify themselves or make explanations about their account. The agent can manage the inquiry quickly as they don’t have to open another application to get the information they need.
 * **Facilitating billing and payment conversations**: Once the consumer has logged into the brand’s website and started a conversation with an agent, the agent can quickly identify the most cost-effective way for the consumer to pay, according to the PII exposed during the authenticated chat.
 
 Authenticated web messaging can be offered to consumers are authenticated on your website, and their information and conversations are available across channels.
@@ -28,7 +28,7 @@ Authenticated web messaging can be offered to consumers are authenticated on you
 ### Authenticated messaging provides the following benefits:
 
 * Always-on, continuous messaging experience for logged-in website visitors
-* Ability to continue a conversation un-interrupted between mobile app messaging and web messaging. This also enable proactive push notifications on a users phone for new incoming messages (using mobile app messaging push)
+* Ability to continue a conversation un-interrupted between mobile app messaging and web messaging. This also enables proactive push notifications on a users phone for new incoming messages (using mobile app messaging push)
 * Conversation history remains, providing consumers easy access to previous conversations and content
 * Strong authentication services enable secure and protected conversations for sensitive topics
 * Fully accessible window in compliance with WCAG 2.0 AA Standard
@@ -98,7 +98,7 @@ In order to define the OAuth 2.0 authentication on your account, complete the fo
 
 ## **Configure the customer identity**
 
-In order to enable targeting for messaging engagements (authenticated and unauthenticated web messaging), the identity of the consumer must be passed to the API using the identities array and _identity_ function. The information in this array should match the values assigned to the user when they authenticate on your site. It is not used for visitor authentication, but as a trigger for LivePerson monitoring services to start targeting and sending relevant engagements and/or notifications to the visitor.
+In order to enable targeting for messaging engagements (authenticated and unauthenticated web messaging), the identity of the consumer must be passed to the API using the **identities array** and **identity function**. The information in this array should match the values assigned to the user when they authenticate on your site. It is not used for visitor authentication, but as a trigger for LivePerson monitoring services to start targeting and sending relevant engagements and/or notifications to the visitor.
 
 **Example:**
 
@@ -115,7 +115,7 @@ In order to enable targeting for messaging engagements (authenticated and unauth
 <br/>
 By attributing the conversation to the customer’s identity, new incoming messages will be delivered and displayed as a minimized window with new message notifications. Once the visitor has received a notification on an ongoing conversation, or has clicked on a messaging engagement, the authentication process will start according to the authentication flow defined during configuration.
 
-It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LE monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
+It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LiveEngage monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
 
 For more information regarding the Monitoring API, please refer to the [Monitoring API section on the developers community](https://developers.liveperson.com/rt-interactions-monitoring-overview.html).
 
@@ -139,7 +139,7 @@ Upon receiving a new message, if the engagement window is in the minimized state
 
 Web messaging behaves similarly to mobile app messaging, except for the fact that it runs on a browser. Web messaging can be displayed in an embedded window or opened in a separate browser window to interact with the visitor. When the LiveEngage embedded window is set to separate browser mode, the authentication must take place using a page redirect flow.
 
-### **Authentication in embedded window vs. separate browser window**
+### Authentication in embedded window vs. separate browser window
 
 #### Embedded window
 
@@ -147,7 +147,7 @@ When in **embedded mode**, the window is hosted on the brand's website. JavaScri
 
 #### Separate browser window
 
-**Separate browser window** mode is configured in LiveEngage Engagement studio. When the engagement appears in a separate browser window, authentication cannot be performed "behind the scenes". Action is required from the visitor for the following two reasons:
+Separate browser window mode is configured in LiveEngage Engagement studio. When the engagement appears in a separate browser window, authentication cannot be performed "behind the scenes". Action is required from the visitor for the following two reasons:
 
 * As the engagement window opens immediately after it is clicked, there is not enough time to access an asynchronous JavaScript API simultaneously.
 * The separate browser window is hosted by LivePerson (not the brand’s website), therefore it does not have access to JavaScript code.
@@ -233,14 +233,14 @@ QueryParams
 
 EAs will be presented in the Agent Workspace in several areas:
 
-1. Consumer Info widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
+1. Consumer Info Widget - each EA will be presented in its own section, much like for chat conversations today. They will be available in both Open Connections & All Connections, as well as in Engagement History widget.
 2. All Connections - users will be able to search EAs in the All Connections table, as part of the EAs search.
 
 {: .notice}
 
 To enable, please contact your LivePerson representative.
 
-## **Limitations and Tips**
+## Limitations and Tips
 
 1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), LiveEngage will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
 2. If a user crosses between authenticated and unauthenticated pages within a single session, in some cases the wrong engagements may be displayed. This might cause the the user to click the wrong engagement and receive an error message saying “You are no longer logged in.”
@@ -252,11 +252,11 @@ To enable, please contact your LivePerson representative.
 8. When the unauthenticated page is opened in a new tab (the authenticated page still lives in the previous tab), the error message will show on all unauthenticated pages, even if the user clicks on “X” to dismiss the error. The window on the authenticated tab will remain intact.
 9. In rare cases, users can simultaneously open authenticated and unauthenticated conversations in the same browser, one in the embedded window, while the other is in a separate browser window.
 
-## **Authenticated alongside unauthenticated**
+## Authenticated alongside unauthenticated
 
 You may wish to have both authenticated as well as unauthenticated web messaging on your account. This allows web messaging users to transition seamlessly between authenticated and unauthenticated pages. This allows brands to service more use cases for web messaging.
 
-With the new Identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
+With the new identity function, LiveEngage Monitoring Services will decide on each page what engagements or conversations should be served to that page, as opposed to the previous way, which was per session. This new function allows brands to notify LiveEngage on each page if the user is authenticated or not regardless of the authentication status of the session.
 
 **Guidelines:**
 

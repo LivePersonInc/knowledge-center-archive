@@ -13,7 +13,7 @@ isNew: false
 ---
 ## Our commitment
 
-LivePerson is committed to the highest standards of quality and availability, including the builder. Accordingly, LivePerson technical teams run periodic performance tests and thorough and professional quality assurance processes to minimize the chance of defects impacting the builder. Every predefined dashboard is carefully designed and constructed to run with high response times and at its maximum efficiency. This to ensure the user can derive data driven decisions without delays.
+LivePerson is committed to the highest standards of quality and availability, including the Report Builder. Accordingly, LivePerson technical teams run periodic performance tests and thorough and professional quality assurance processes to minimize the chance of defects impacting the builder. Every predefined dashboard is carefully designed and constructed to run with high response times and at its maximum efficiency. This to ensure the user can derive data driven decisions without delays.
 
 In order to maintain service availability to all platform users, LivePerson may apply system protection measures that limit the resources a custom dashboard consumes. This includes enforcing size and run-time limitations built into the platform. The system will alert you when a threshold has been reached. We strongly advise you to follow the recommendations detailed in this document.
 
@@ -37,6 +37,6 @@ To ensure your browser and export software are supported for using the builder, 
 
 ## Your feedback is welcome
 
-Please contact us at [rbfeedback-lp@liveperson.com](mailto:rbfeedback-lp@liveperson.com) with any product related feedback from your experience with Report Builder. We are looking forward to continuously enhancing the range of analyses you will be able to perform with the builder.
+Please contact us at [rbfeedback-lp@liveperson.com](mailto:rbfeedback-lp@liveperson.com) with any product-related feedback from your experience with Report Builder. We are looking forward to continuously enhancing the range of analyses you will be able to perform with the builder.
 
 Thank you for your partnership! Hope you find the builder valuable to your business.

@@ -16,8 +16,8 @@ LivePerson allows you to analyze which products are viewed by your visitors and 
 
 ## How to configure
 
-1. Create a new visitor behavior and give it a suitable name such as “Visitors interested in women’s fashion”.
-2. Click on viewed product condition in the menu and type unique product identifiers for each product. In this example, select targeting by “product category” and type in “women’s fashion”. (This option depends on the data arriving from your viewed product [engagement attribute](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html)).
+1. Create a new visitor behavior and give it a suitable name such as “Visitors interested in women’s fashion."
+2. Click on viewed product condition in the menu and type unique product identifiers for each product. In this example, select targeting by “product category” and type in “women’s fashion.” (This option depends on the data arriving from your viewed product [engagement attribute](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html))
 3. If you haven’t yet configured tracking, do so now, by clicking the configure tracking button. You can also configure the transactions attribute under engagement attributes in the product purchased and viewed category.
 
 LiveEngage will now track visitors who viewed the products that you defined and customize their experience.

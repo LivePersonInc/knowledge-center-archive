@@ -94,7 +94,7 @@ From the settings page, you can define the conversation channel, authentication 
 
 #### Conversation channel
 
-Select if you want the engagement to lead to a messaging conversation or to a simple link. From the _conversation type_ drop down, select **messaging**.
+Select if you want the engagement to lead to a messaging conversation or to a simple link. From the **conversation type** drop down, select **messaging**.
 
 #### Authentication
 
@@ -121,15 +121,11 @@ The engagement studio page is where you **design your button or banner to suit t
 
 ### Conversation window
 
-The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
-
-Once your settings are complete, click **next**.
+The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. Once your settings are complete, click **next**. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
 
 ### Entry point
 
-You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. For further information on creating a new entry point, please [refer here](contact-center-management-campaigns-entry-point.html).
-
-When you are finished defining your entry point, click **next**.
+You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. When you are finished defining your entry point, click **next**. For further information on creating a new entry point, please [refer here](contact-center-management-campaigns-entry-point.html).
 
 ### Visitor behavior
 

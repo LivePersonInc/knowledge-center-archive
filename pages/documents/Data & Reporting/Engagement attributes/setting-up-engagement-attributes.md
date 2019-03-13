@@ -13,7 +13,7 @@ isNew: false
 ---
 LivePerson provides out-of-the-box basic information about your visitors, for example, the visitor’s geolocation, the amount of time they spent on a page, and which pages they viewed.
 
-In order to collect more in-depth, specific information such as product viewed, purchase information, errors the visitor encountered, and search results, you can set up engagement attributes.
+In order to collect more in-depth, specific information such as products viewed, purchase information, errors the visitor encountered, and search results, you can set up engagement attributes.
 
 Information collected using engagement attributes can be used to achieve the following:
 
@@ -23,7 +23,7 @@ Information collected using engagement attributes can be used to achieve the fol
 * Receive a comprehensive view of visitor engagement history
 * Measure and track campaign goals
 
-For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developer Community.
+For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developers' Community.
 
 ## Validating the engagement attributes value
 

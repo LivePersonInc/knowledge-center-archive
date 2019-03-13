@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Getting Started/livepersons-conversational-commerce-platform.md
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
@@ -177,7 +178,6 @@ pages:
 - pages/documents/Admin & Settings/Supported-languages.md
 - pages/documents/Admin & Settings/Permissions/assign-permissions.md
 - pages/documents/Getting Started/getting-started-with-messaging.md
-- pages/documents/Data & Reporting/Engagement attributes/identify-viewed-products.md
 - pages/documents/Data & Reporting/Engagement attributes/multi-currency.md
 - pages/documents/Data & Reporting/Report Builder/report-builder-faqs.md
 - pages/documents/Getting Started/getting-started-with-live-chat.md

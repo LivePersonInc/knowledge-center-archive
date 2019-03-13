@@ -13,11 +13,14 @@ isNew: false
 ---
 To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
 
+{: .notice}  
+LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using LiveEngage, brands can start [messaging](getting-started-getting-started-with-messaging.html) very quickly with minimal set up using our out of the box connectors.
+
 ## Get to the first live chat message
 
-To get the most basic version of messaging up and running, brands need to insert a generic ‘chat’ button their website. Getting to the first message is simple and can be done through three steps:
+To get the most basic version of chat up and running, brands need to insert a generic ‘chat’ button their website. Getting to the first chat is simple and can be done through three steps:
 
-1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like chat to appear. 
+1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like chat to appear.
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
@@ -66,7 +69,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * [Surveys](contact-center-management-live-chat-operations-surveys-with-live-chat.html)
    * Proactive invitations
 
-Read more about [creating buttons and banners](contact-center-	management-campaigns-creating-buttons-and-banners.html) in campaigns.
+Read more about \[creating buttons and banners\](contact-center-	management-campaigns-creating-buttons-and-banners.html) in campaigns.
 
 1. **Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * Photo sharing (consumer to agent)

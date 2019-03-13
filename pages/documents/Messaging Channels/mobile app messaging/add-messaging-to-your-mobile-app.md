@@ -4,7 +4,7 @@ categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
 subtitle: 'With mobile engagements, consumers can easily start messaging conversations
-  directly from your mobile app. '
+  directly from your mobile app '
 level3: ''
 permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
 isTutorial: false
@@ -12,7 +12,7 @@ date: 2019-01-20 13:01:29 +0000
 isNew: false
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your website. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html).
+The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html).
 
 With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
