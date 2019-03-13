@@ -61,4 +61,4 @@ Audit trails are available on the following features:
 * Campaign timeframes
 * Post Conversation Survey
 
-![](/img/Audit-trail4.png)
+![](/img/Screen Shot 2019-03-13 at 9.33.54 PM.png)
