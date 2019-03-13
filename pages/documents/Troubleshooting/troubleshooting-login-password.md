@@ -8,16 +8,16 @@ level3: ''
 permalink: troubleshooting-login-password.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 14:34:43 +0200
+date: 2019-02-26 12:34:43 +0000
 
 ---
-### Why am I getting a “process failed” error when I try to reset my password?
+## Why am I getting a “process failed” error when I try to reset my password?
 
 If your user is disabled, you will get a “Process failed” error when trying to reset your password. Before you can reset your password, your user must be re-enabled.
 
 ![](/img/troubleshooting-password1.png)
 
-### The Captcha on the forgot password window isn’t working.
+## The Captcha on the forgot password window isn’t working.
 
 If after selecting the **Captcha** checkbox (to the left of **I’m not a robot**) and clicking the **Submit** button, you are returned to the **Forgot password window** or you receive the error “**Captcha error There is a problem with the Captcha service.**”:
 
@@ -27,7 +27,7 @@ If after selecting the **Captcha** checkbox (to the left of **I’m not a robot*
 
    ![](/img/troubleshooting-password2.png)
 
-### I didn’t receive the password reset email. How can I reset my password?
+## I didn’t receive the password reset email. How can I reset my password?
 
 ![](/img/troubleshooting-password3.png)
 
@@ -44,7 +44,7 @@ If after submitting the **Forgot password** form, you received the **Request sub
    – Contact your LiveEngage **account team** for help.  
    – Contact LivePerson Support and ask them to **open a case** for your account team, requesting that they contact you regarding your login problems. Your account manager will validate your request and help you enable your user.
 
-### The reset password button in the email doesn’t work; it takes me back to the “forgot password” page.
+## The reset password button in the email doesn’t work; it takes me back to the “forgot password” page.
 
 I received the password reset email but when I click the **password reset button** in the email, it just takes me back to the Forgot Password page. If I click **Forgot Password** again, I am taken back to the **Forgot Password** page. It seems to be a continuous loop.
 
