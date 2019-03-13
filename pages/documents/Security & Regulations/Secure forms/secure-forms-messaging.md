@@ -36,7 +36,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
 3. **Standard 3: US: Privacy Shield certification**
 
-   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
+   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
 ## When to use the LiveEngage secure form
 
@@ -280,9 +280,6 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
 The design for the form in the messaging connectors experience is inherited from the engagement window default design.
-
-{: .notice}  
-The first connector to support secure forms will be Twilio SMS (end of January, 2019 release). Other connectors will follow during February and March.
 
 ### Invitation
 

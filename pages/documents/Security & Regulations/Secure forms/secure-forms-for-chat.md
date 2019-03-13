@@ -36,7 +36,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
 3. **Standard 3: US: Privacy Shield certification**
 
-   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt0000000TO5eAAG&status=Active).
+   LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
 ## When to use secure forms?
 

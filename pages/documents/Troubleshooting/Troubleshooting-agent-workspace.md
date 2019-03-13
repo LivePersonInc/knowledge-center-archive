@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-25 13:14:06 +0000
 
 ---
-### Why don’t I get audio notifications for incoming conversations?
+## Why don’t I get audio notifications for incoming conversations?
 
 **Issue:** An agent is not getting audio notifications for incoming conversations.
 
@@ -35,7 +35,7 @@ date: 2019-02-25 13:14:06 +0000
 * Deselect the Play Sounds Option: Click to uncheck the option called “Play Sounds in Webpages.” This will turn off all sounds in your internet browsers.
 * Turn Sounds On Again When You’re Ready: If you would like to resume listening to sounds on your internet browser, be sure to follow these steps again and check the “Play Sounds in Webpages” option once again.
 
-### Why don’t some agents see the conversation summary widget?
+## Why don’t some agents see the conversation summary widget?
 
 Some agents don’t see the conversation summary widget in their workspace.
 
@@ -62,7 +62,7 @@ Assign the agents one of the skills configured for Visitor Journey leads.
 
 For more information on Conversation Outcomes and the Conversation summary widget, see [Conversation Outcomes](data-reporting-engagement-attributes-conversation-outcomes.html).
 
-### Why is there a delay in the delivery of agent messages?
+## Why is there a delay in the delivery of agent messages?
 
 Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.
 
@@ -74,7 +74,7 @@ The affected agents were working in unsupported browser versions.
 
 Update agent browser version. For a list of supported browsers, see system requirements and supported languages.
 
-### Why isn’t CoBrowse available to chat agents?
+## Why isn’t CoBrowse available to chat agents?
 
 Agents in chat do not have the CoBrowse icon available to them and therefore cannot initiate a CoBrowse session.
 
@@ -83,13 +83,11 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 * The CoBrowse function for the account is not switched on in Night Vision.
 * The agents are not assigned to a profile that includes CoBrowse permissions.
 
-![](https://lh3.googleusercontent.com/AiWCbCSyaOeAdlNFZ9iWgyPKGBULEHXtm2c5NHIQgwVcxKVEOiDHrWSuPrqcXw5YItYNXH7wVOBsDceygA50vDV13QN7AxKCp2mKMIFfYgrG43whEAu95csuUjmA3u6HCvDHpMbv =399x224)
-
-### Why isn’t the scroll bar showing in the predefined content widget?
+## Why isn’t the scroll bar showing in the predefined content widget?
 
 #### Possible cause:
 
-#### A setting that is configurable in the Mac OS X.
+A setting that is configurable in the Mac OS X.
 
 **To modify the setting**:
 
@@ -97,7 +95,7 @@ Agents in chat do not have the CoBrowse icon available to them and therefore can
 2. Click the **General preferences** pane (first one at the top).
 3. Under Show scroll bars select **Always**. The scroll bar will now display in the predefined content widget.
 
-### An Agent’s status is AWAY yet he is still Receiving Chats
+## An Agent’s status is AWAY yet he is still Receiving Chats
 
 A LiveEngage agent received a chat notification while they are in Away state.
 
@@ -114,7 +112,7 @@ When the ACD setting is Manual, this is expected behavior. (This allows agent ma
 
 ![](/img/Agent-workspace-troubleshooting.png)
 
-### Why don’t agents see their Predefined Content?
+## Why don’t agents see their Predefined Content?
 
 A LiveEngage agent can no longer see their predefined content in the predefined content widget.
 
@@ -130,7 +128,7 @@ For more information, see [Importing Predefined Content.](agent-manager-workspac
 
 ![](/img/agent-workspace- troubleshooting3.jpg)
 
-### Why doesn’t our agent manager see all his groups?
+## Why doesn’t our agent manager see all his groups?
 
 An agent manager reported that on the Web History tab, he is only able to see and export chat transcripts for his call center in India. He doesn’t see chats from his other call center in the USA and he’s not able to choose the USA group in the Agent Group filter.
 

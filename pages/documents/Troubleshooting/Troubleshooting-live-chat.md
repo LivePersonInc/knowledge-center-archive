@@ -8,10 +8,10 @@ level3: ''
 permalink: troubleshooting-live-chat.html
 isTutorial: false
 isNew: false
-date: 2019-02-26 11:02:24 +0200
+date: 2019-02-26 09:02:24 +0000
 
 ---
-### Why isn’t CoBrowse / CoBrowse-for-Voice opening on the visitor side?
+## Why isn’t CoBrowse / CoBrowse-for-Voice opening on the visitor side?
 
 #### Problem:
 
@@ -29,9 +29,9 @@ When agents initiate **CoBrowse for Voice** session and visitors enter the requi
 
 Visitors should enable 3rd-party cookies in their browsers.
 
-For more information on CoBrowse and CoBrowse for Voice see [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html). 
+For more information on CoBrowse and CoBrowse for Voice see [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).
 
-### The Pre-Chat survey routing question looks strange on iPhone devices
+## The Pre-Chat survey routing question looks strange on iPhone devices
 
 When a customer clicks to chat from an iPhone, the pre-chat survey routing question looks strange. It looks fine on iPhone emulators and other mobile devices.
 
@@ -42,7 +42,7 @@ When a customer clicks to chat from an iPhone, the pre-chat survey routing quest
 
 This is expected behavior.
 
-### Why doesn’t the chat window follow our visitors to other web pages?
+## Why doesn’t the chat window follow our visitors to other web pages?
 
 #### Problem:
 
@@ -63,7 +63,7 @@ The URLs of the two pages the visitor moved between belong to **different domain
 
 The brand should enable monitored domains/cross domains on their account ( (from the LiveEngage Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
 
-### Chat tab is displayed incorrectly on iPhones using Safari
+## Chat tab is displayed incorrectly on iPhones using Safari
 
 The size of the minimized chat tab on consumer iPhones varies in size depending on the length of the page:
 
@@ -81,7 +81,7 @@ This is expected behavior.
 
 It is recommended not to use framesets on websites.
 
-### Why aren’t offline engagements displayed to visitors?
+## Why aren’t offline engagements displayed to visitors?
 
 Offline engagements are not displayed to visitors when agents are offline.
 
@@ -89,7 +89,7 @@ Offline engagements are not displayed to visitors when agents are offline.
 
 There are many reasons this can happen, for example Target Audience, Location, Campaign Time Frame settings, etc.
 
-#### Cause: 
+#### Cause:
 
 An account set their campaign’s Campaign time frame > Operation hours. The Offline Engagements weren’t displaying outside those operation hours because they had set the Operation hours.
 
@@ -97,7 +97,7 @@ An account set their campaign’s Campaign time frame > Operation hours. The Off
 
 Change Campaign time frame > Operation hours to All hours. Do not set Operation hours when using Offline engagements.
 
-### Why is an authenticated chat returning an offline survey?
+## Why is an authenticated chat returning an offline survey?
 
 Why does an offline survey display to visitor when they click to start an authenticated chat?
 
@@ -108,7 +108,7 @@ If your authentication server returns a message stating that the request is not 
 {: .notice}  
 You set up the authentication server on Campaigns page > Data Sources > Authentication Server > Edit.
 
-### Why isn’t our campaign manager/admin user able to delete predefined content?
+## Why isn’t our campaign manager/admin user able to delete predefined content?
 
 A campaign manager/admin user is unable to delete or manage predefined content categories. When the user tries to do so, they get the error “You do not have permission to perform the requested action.”
 
@@ -121,7 +121,7 @@ The user has two different LiveEngage accounts. On one of the accounts the user 
 1. Log in to the LiveEngage account where the user needs more permissions.
 2. Go to the Users tab and change the user’s profile to one that has the Configure Predefined Content option.
 
-### Why aren’t visitor names displayed in the Web Visitors and Web History list?
+## Why aren’t visitor names displayed in the Web Visitors and Web History list?
 
 #### Problem:
 
@@ -140,7 +140,7 @@ Engagement attributes cannot be used to for this purpose either as they do not a
 
 Set up pre-chat surveys with name fields for engagements if you want to record/display visitor names.
 
-### Why is the toaster close (X) button displaying outside the toaster?
+## Why is the toaster close (X) button displaying outside the toaster?
 
 When we build toaster engagements with the Design Your Own option in the Engagement studio the images appear correctly, with the X/Close button appearing within the Toaster itself.
 
@@ -156,7 +156,7 @@ The is expected behavior.
 
 It is recommended to use the Overlay content in these cases.
 
-### Why aren’t chats transferring? Why are they returning to the agent after he transfers them?
+## Why aren’t chats transferring? Why are they returning to the agent after he transfers them?
 
 #### Problem:
 
@@ -168,7 +168,7 @@ Transfer-to-agent returns chats to the origin after about 4 minutes, if no other
 
 However, transfer-to-skill does not return to the origin.
 
-### Why are engagement windows opening blank? Why don’t embedded buttons display in Internet Explorer?
+## Why are engagement windows opening blank? Why don’t embedded buttons display in Internet Explorer?
 
 When using a **supported** version of Internet Explorer, one or more of the following takes place:
 

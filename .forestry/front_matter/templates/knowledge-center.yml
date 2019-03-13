@@ -134,6 +134,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
+- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/understand-agent-performance.md
@@ -148,7 +150,6 @@ pages:
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
-- pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Data & Reporting/Live Chat/Chat dashboards/operational-staffing-dashboard.md
 - pages/documents/Contact Center Management/Campaigns/campaign-dashboard-and-data-bar.md
 - pages/documents/Contact Center Management/Campaigns/creating-buttons-and-banners.md
@@ -166,7 +167,6 @@ pages:
 - pages/documents/Agent and manager workspace/Workspace configuration/predefined-content-overview.md
 - pages/documents/Troubleshooting/Messaging/Troubleshooting-agent-tools.md
 - pages/documents/Troubleshooting/Troubleshooting-live-chat.md
-- pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Agent and manager workspace/agent tools for live chat/cobrowse-for-chat.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-consumer experience.md
 - pages/documents/Troubleshooting/troubleshooting-login-password.md

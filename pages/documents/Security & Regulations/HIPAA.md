@@ -87,4 +87,4 @@ HIPAA requirements are as follows and each are met by LivePerson:
 * Notify HHS if there is any breach of unsecured PHI
 * Notify the media and public if the breach affects more than 500 patients
 
-LivePerson would notify the brand its’ providing service to so that the brand can notify any affected patients. LivePerson would not normally have sufficient details about a patient in order to contact them directly. LiveEngage is not an EMR or CRM system.
+LivePerson would notify the brand its providing service to so that the brand can notify any affected patients. LivePerson would not normally have sufficient details about a patient in order to contact them directly. LiveEngage is not an EMR or CRM system.

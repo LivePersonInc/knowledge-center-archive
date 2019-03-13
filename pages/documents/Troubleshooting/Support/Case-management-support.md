@@ -5,10 +5,10 @@ subCategoryName: ''
 indicator: both
 subtitle: View a full list of support cases and their status in the Connection Area
 level3: ''
-permalink: Troubleshooting-case-management-support.html
+permalink: troubleshooting-case-management-support.html
 isTutorial: false
 isNew: false
-date: 2019-02-28 14:45:09 +0200
+date: 2019-02-28 12:45:09 +0000
 
 ---
 At LiveEngage, we pride ourselves on providing rapid and efficient support to our customers at all times. While we hope that you will rarely, if ever, encounter any issues on our platform, we want to ensure that the support process is as smooth as possible for you if you do.
