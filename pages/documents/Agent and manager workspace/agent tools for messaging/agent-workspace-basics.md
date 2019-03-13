@@ -57,7 +57,7 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 * **Status** - The status of the conversation, whether active or closed
 * **Consumer name -** The consumer’s name as recorded in the pre-chat survey
-* **MCS -** The [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) and smiley, available for English language text analysis
+* **MCS -** The [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) and smiley, available for English language text analysis
 * **Skill -** The skill assigned to the conversation
 * **Agent name -** The name of the agent(s) assigned to the conversation, due to the continuous nature of messaging conversations, it is likely that more than one agent will have been active in a conversation with the consumer over time
 * **Agent group -** The Agent Group that the agent(s) assigned to the conversation belong to
@@ -75,7 +75,7 @@ Agents on the other hand are able to view only the conversations for which they 
 
 ### Search and filter
 
-All Connections offers advanced filtering and search capabilities that can provide in-depth, meaningful analysis on key topics for your business, consumer sentiment and the operational effectiveness of your contact center. See [benchmarks for measuring success](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html). 
+All Connections offers advanced filtering and search capabilities that can provide in-depth, meaningful analysis on key topics for your business, consumer sentiment and the operational effectiveness of your contact center. See [benchmarks for measuring success](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html).
 
 Agents and agent managers can search/filter conversations with the following parameters:
 
@@ -86,7 +86,7 @@ Agents and agent managers can search/filter conversations with the following par
 * Skill
 * Start time
 * Status (open and closed)
-* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) (MCS)
+* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

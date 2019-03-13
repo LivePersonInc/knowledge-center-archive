@@ -48,7 +48,7 @@ All Connections offers advanced filtering and search capabilities enabling you t
 * Skill
 * Start time
 * Status (open and closed)
-* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) (MCS)
+* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

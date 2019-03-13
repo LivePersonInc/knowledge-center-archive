@@ -142,14 +142,83 @@ body {
   margin-right: 25px;
 }
 
-#messageInput {
+.inputcontainer {
+  display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+#messageInput {
+  width: 65%;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  border: solid 1px #90a6e6;
+  background-color: rgba(227, 233, 249, 0.08);
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.magGlass {
+  height: 17px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #5879da;
+  padding: 14px 8px 14px 8px;
+  border-radius: 0 6px 6px 0;
+  margin-left: -1px;
+}
+
 #messageInputUsed {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 65%;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  border: solid 1px #90a6e6;
+  background-color: rgba(227, 233, 249, 0.08);
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+#messageInput::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInput::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInput:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#messageInput:-moz-placeholder { /* Firefox 18- */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.caseyAvatar {
+  margin-left: -35px;
+  margin-right: 10px;
 }
 
 .gooey {

@@ -51,7 +51,7 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 
 ![](/img/web-history-2.png)
 
-**Meaningful Connection Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Connection Score ](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
+**Meaningful Connection Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Connection Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
 
 ![](/img/web-history-3.png)
 

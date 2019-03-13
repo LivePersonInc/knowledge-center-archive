@@ -4,7 +4,7 @@ var windowKit = new windowKit({
 	//skillId: 12341234 - optional skill ID
 });
 //declaring variables
-var userinput = '<input type="text" id="messageInput"/>'
+var userinput = '<div class="inputcontainer"><img class="caseyAvatar" src="img/fill-avatar.svg"/><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div>'
 let isScrolling;
 let agentFirstText;
 
@@ -84,7 +84,6 @@ function displayInput () {
 	//find the last child, which will always be the response message, and append the input beneath it
 	$('#caseyContainer:last').append(userinput);
 	//a listener to recognize whether enter was pressed on the search input
-	var messageInput = document.getElementById('messageInput');
 	 $('#messageInput').keydown(function (e) {
 		 if (e.which == 13) {
 			 //when enter was pressed, grab the text from the input field

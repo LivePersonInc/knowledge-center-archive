@@ -28,7 +28,7 @@ All Connections includes the following information:
 
 * **Status** - the status of the conversation, whether active or closed
 * **Consumer name -** the consumer’s name as recorded in the pre-chat survey
-* **MCS -** the [Meaningful Connection Score](data-reporting-meaningful-connection-score-(MCS)-meaningful-connection-score-(MCS)-overview.html) with a smiley, available for English language text analysis
+* **MCS -** the [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) with a smiley, available for English language text analysis
 * **Skill -** the skill assigned to the conversation
 * **Agent name -** the name of the agent(s) assigned to the conversation; due to the continuous nature of messaging conversations, it is likely that more than one agent will have been active in conversation with the consumer over time
 * **Agent group -** the agent group that the agent(s) assigned to the conversation belong to
