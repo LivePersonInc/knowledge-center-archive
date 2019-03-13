@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-26 12:39:36 +0000
 
 ---
-### Agent icon not aligned with first line of message on consumer iOS devices
+## Agent icon not aligned with first line of message on consumer iOS devices
 
 #### Issue:
 
@@ -21,7 +21,7 @@ The Agent icons are not aligned with first line of messages on consumer iOS devi
 
 This is expected behavior.
 
-### Mobile app messaging: Number of unread messages isn’t displayed
+## Mobile app messaging: Number of unread messages isn’t displayed
 
 #### Issue:
 
@@ -57,7 +57,7 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 ![](/img/troubleshooting-consumer-experience2.png)
 
-### Mobile app messaging: link preview not working on Android
+## Mobile app messaging: link preview not working on Android
 
 #### Issue:
 
@@ -73,7 +73,7 @@ Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ![](/img/troubleshooting-consumer-experience3.png)
 
-### Mobile app messaging: double click doesn’t scroll to last message
+## Mobile app messaging: double click doesn’t scroll to last message
 
 #### Issue:
 
@@ -98,7 +98,7 @@ How the New Message Mechanism Works
   ![](/img/troubleshooting-consumer-experience5.png)
 * You click the scroll down indicator (that no longer has the red badge) a second time, its functionality changes, and it takes you to the last message.
 
-### Why are messages disappearing from a consumer’s messaging window?
+## Why are messages disappearing from a consumer’s messaging window?
 
 #### Problem:
 
@@ -121,7 +121,7 @@ The conversation had been ongoing for almost a year! and consisted of more than 
 
 Best Practice: Once an agent resolves a specific topic for the customer, they should make sure the conversation is closed.
 
-### Consumer’s web messaging window is stuck
+## Consumer’s web messaging window is stuck
 
 #### Problem:
 
