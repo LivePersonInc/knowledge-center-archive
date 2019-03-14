@@ -16,7 +16,7 @@ Time zone settings play a key role in the accurate compilation and generation of
 
 ## Agent manager / operational reports
 
-Operational data (including the web agent and agent manager [real time data bars and dashboards](data-reporting-messaging-real-time-data-for-messaging.html), and agent manager BI dashboards are presented according to the user's local time zone setting. This setting cannot be changed in LiveEngage.
+Operational data (including the web agent and agent manager [real time data bars and dashboards](data-reporting-messaging-real-time-data-real-time-data-for-messaging.html ), and agent manager BI dashboards are presented according to the user's local time zone setting. This setting cannot be changed in LiveEngage.
 
 ## Campaign manager reports
 
