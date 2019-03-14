@@ -232,7 +232,7 @@ The filters of a any dashboard must contain at least one attribute from the “T
 
 1. There are two options to configure how users will be able to filter the data:
    * To allow users to filter data by creating a qualification on a metric, perform the following steps:
-     * Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals. 
+     * Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
      * In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
    * To allow users to filter data by choosing values on a slider, perform the following steps:
      * Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
@@ -464,12 +464,12 @@ A threshold is made up of two parts: the condition, and the formatting that will
     * Regular Pin
     * Rounded Pin
  5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
- 6. From the drop-down list that will appear once you have selected the metric, select one of the following:
-    a.  To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue.
-    b. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red.
-    c. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green.
-    d. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag.
-    e. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
+ 6. From the drop-down list that will appear once you have selected the metric, select one of the following: 
+    1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue. 
+    2. To create a threshold based on the top x metric values, select **Highest**. For example, you can display the top 5 metric values in red. 
+    3. To create a threshold based on the bottom x metric values, select **Lowest**. For example, you can display the bottom 5 metric values in green. 
+    4. To create a threshold based on the top x percent of metric values, select **Highest %**. For example, you can display the top 10% of metric values with a green flag. 
+    5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
  7. From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
  8. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
  9. Further customizations are available:
