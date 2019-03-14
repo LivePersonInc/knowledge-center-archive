@@ -53,4 +53,4 @@ You have two ways to add videos to the site. One is simply leaving the link in t
 
 The other is saving me some time by using the iframe below. Simply copy and paste the code below and make sure to change the video ID number; that's the number after /video! So in the example below, the number is 241513020. You can grab your video's ID from its original Vimeo link, which you should have.
 
-<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -14,7 +14,7 @@ windowKit.connect();
 //when the conversation has been loaded and is ready (displayed), call the scrollBottom function
 windowKit.onReady( function () {
 	console.log("ready");
-	scrollBottom();
+
 });
 
 //when an agent (the bot) sends a text
@@ -37,8 +37,6 @@ windowKit.onAgentTextEvent(function(text) {
 windowKit.onVisitorTextEvent(function(text) {
 	//grab that text's contents and append it to the conversation
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
-	//scroll to the bottom using the scrollBottom function
-	scrollBottom();
 	console.log('visitortext');
 });
 
@@ -48,9 +46,9 @@ windowKit.onAgentRichContentEvent(function(content) {
   var structuredText = JsonPollock.render(content);
 	//append that variable to the conversation
 	$('#caseyContainer').append(structuredText);
-	$('.lp-json-pollock').append('<img class="caseyAvatar" src="img/fill-avatar.png"/>')
-	//scroll to the bottom using the scrollBottom function
-	scrollBottom();
+	var scTexts = document.getElementsByClassName('lp-json-pollock');
+	var latestScText = scTexts[scTexts.length - 1];
+	$(latestScText).append('<img class="caseyAvatar" src="img/fill-avatar.png"/>')
 	//when you print the text, print the rich content as an object not a string
 	console.log('Agent: ', structuredText);
 	//Pollock code used to navigate to the links the bot sends, effectively registering the buttons to be links to them

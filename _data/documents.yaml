@@ -31,7 +31,6 @@
     - subcategoryname: WhatsApp Business
     - subcategoryname: Google My Business
     - subcategoryname: Line connector
-    - subcategoryname: Messaging FAQs
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website

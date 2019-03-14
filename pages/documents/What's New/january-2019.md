@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-23 14:34:59 +0000
 
 ---
-<iframe src="https://player.vimeo.com/video/311248862" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/311248862" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Happy new year and welcome to the LivePerson Product Updates Newsletter for January. Here is a round-up of the latest features, enhancements and enablements that are coming in Jan 2019 - all designed to help you make even more meaningful connections. We hope you enjoy using them!
 

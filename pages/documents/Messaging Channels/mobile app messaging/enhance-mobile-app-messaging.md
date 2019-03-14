@@ -18,7 +18,7 @@ By facilitating rich conversations with beyond-text capabilities, our SDK enable
 
 ## Mobile messaging basics
 
-<iframe src="https://player.vimeo.com/video/312501523" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312501523" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Allow consumers to create a continuous connection with your brand through a familiar messaging interface.
 

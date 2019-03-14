@@ -11,7 +11,7 @@ date: 2019-01-20 13:11:55 +0000
 isNew: false
 
 ---
-<iframe src="https://player.vimeo.com/video/251149506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/251149506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 LiveEngage is now seamlessly integrated into Line, offering your brand the opportunity to tap into the millions of consumers connecting on it. Set up is easy and allows your agents to create ongoing connections with valuable customers right away; to onboard Line to your account, please contact your LivePerson account team.
 

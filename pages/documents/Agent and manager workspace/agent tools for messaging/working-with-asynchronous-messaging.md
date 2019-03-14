@@ -32,7 +32,7 @@ Agents who have worked on live chat are accustomed to having a set number of con
 
 To learn more about smart capacity, watch this video:
 
-<iframe src="https://player.vimeo.com/video/241513074" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/241513074" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Queue Prioritization: manage the order in which agents receive conversations
 
@@ -46,7 +46,7 @@ In order to ensure that the most relevant conversations reach agents, automation
 
 To learn more about queue prioritization, watch this 2 min video:
 
-<iframe src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/241513020" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### SLAs: guidelines for response time management
 

@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-24 09:24:36 +0000
 
 ---
-<iframe src="https://player.vimeo.com/video/289680582" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/289680582" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson September 2018.
 

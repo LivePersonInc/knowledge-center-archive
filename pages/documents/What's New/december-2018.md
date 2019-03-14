@@ -13,7 +13,7 @@ date: 2019-01-23 16:53:53 +0200
 
 ---
 
-<iframe src="https://player.vimeo.com/video/305921583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/305921583" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 In this months Newsletter we have looked at the highlights of 2018 showcasing our top capabilities which we introduced to make brands more conversational.
 

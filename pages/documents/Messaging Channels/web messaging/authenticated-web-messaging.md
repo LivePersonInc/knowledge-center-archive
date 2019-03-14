@@ -36,7 +36,7 @@ Authenticated web messaging can be offered to consumers are authenticated on you
 <br/>
 Watch how web messaging can be seamless across web and mobile using authenticated web messaging:
 
-<iframe src="https://player.vimeo.com/video/253109875" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/253109875" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## **Authenticated web messaging flow:**
 
@@ -178,7 +178,9 @@ The login page is configurable with the following URL Parameters:
 <br/>
 The brand needs to register the redirect URL as a valid URL.
 
-**Example:** https://www.brand.com/authorize/client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=\[visitorId\]
+**Example:**
+
+`https://www.brand.com/authorize/?client_id=123123&response_type=token&redirect_uri=https%3A%2F%2Fliveperson%2Enet&nonce=\[visitorId\]`
 
 Once authenticated, the brand uses the **application/x-www-form-urlencoded** format.
 

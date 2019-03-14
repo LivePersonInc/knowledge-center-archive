@@ -13,4 +13,4 @@ isNew: false
 ---
 Watch this tutorial to learn about the messaging agent workspace
 
-<iframe src="https://player.vimeo.com/video/274932469" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/274932469" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

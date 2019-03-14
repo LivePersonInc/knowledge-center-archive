@@ -12,7 +12,7 @@ isNew: false
 date: 2019-02-19 12:36:04 +0000
 
 ---
-<iframe src="https://player.vimeo.com/video/317231543" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/317231543" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in February 2019 - all designed to help you make even more meaningful connections.
 

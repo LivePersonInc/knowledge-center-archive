@@ -27,11 +27,11 @@ LivePerson’s Maven is a continuously-learning AI engine that orchestrates all 
 
 ## How it works
 
-![](/img/recommended-actions-with-maven-2.png)
-
 ### Intent recognition
 
 Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow.
+
+![](/img/recommended-actions-with-maven-2.png)
 
 ### Best actions recommended in real time
 
@@ -45,7 +45,8 @@ Agents are able to rate the relevance and usefulness of the recommended automati
 
 ![](/img/recommended-actions-with-maven-4.png)
 
-### Plug in any automations/bots
+
+## Plug in any automation or bot
 
 Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/bots-automation-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html) to learn how to get started.
 

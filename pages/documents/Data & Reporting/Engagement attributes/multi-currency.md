@@ -13,7 +13,7 @@ isNew: false
 ---
 Brands providing a service to consumers in more than one country must often handle bookings and revenues in multiple currencies. In order to accurately track the amount of each currency being generated, LiveEngage can record each currency transaction and provides a full breakdown of the currency data available in Report Builder.
 
-<iframe src="https://player.vimeo.com/video/238919233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 LiveEngage multi currency offers brands the ability to report a “currency” attribute for the following value-related engagement attributes for live chat conversations:
 
