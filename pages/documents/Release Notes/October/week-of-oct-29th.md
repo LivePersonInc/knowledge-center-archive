@@ -5,7 +5,7 @@ subCategoryName: 2018
 indicator: both
 subtitle: LiveEngage Release Notes
 level3: October
-permalink: Release-notes-2018-october-week-of-October-29th.html
+permalink: release-notes-2018-october-week-of-october-29th.html
 isTutorial: false
 isNew: false
 date: 2019-02-06 12:15:16 +0000
