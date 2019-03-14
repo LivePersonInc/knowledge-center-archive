@@ -1,5 +1,5 @@
 ---
-pagename: Week of October 15th 2018
+pagename: 'Week of October 15th '
 categoryName: Release notes
 subCategoryName: 2018
 indicator: chat

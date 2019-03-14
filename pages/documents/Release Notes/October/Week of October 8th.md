@@ -1,5 +1,5 @@
 ---
-pagename: Week of October 8th 2018
+pagename: 'Week of October 8th '
 subtitle: LivePerson Release Notes
 categoryName: Release notes
 subCategoryName: 2018
