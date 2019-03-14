@@ -134,11 +134,13 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
+- pages/documents/Security & Regulations/Security/ip-masking.md
+- pages/documents/Security & Regulations/LivePerson-Cookies.md
 - pages/documents/Bots & Automation/recommended-actions-with-maven.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/What's New/january-2019.md
-- pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
@@ -151,7 +153,6 @@ pages:
 - pages/documents/Data & Reporting/Live Chat/how-to-export-100-000-chat.md
 - pages/documents/Contact Center Management/Messaging Operations/benchmarks-to-measure-messaging-success.md
 - pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
-- pages/documents/Security & Regulations/LivePerson-Cookies.md
 - pages/documents/Messaging Channels/Connectors/facebook-messenger.md
 - pages/documents/Messaging Channels/SMS/complying-with-sms-regulations.md
 - pages/documents/Messaging Channels/Connectors/messaging-connectors-overview.md
@@ -217,7 +218,6 @@ pages:
 - pages/documents/Release Notes/October/week-of-october-22nd.md
 - pages/documents/Release Notes/January/week-of-january-28th.md
 - pages/documents/Release Notes/January/week-of-january-20th.md
-- pages/documents/Security & Regulations/Security/ip-masking.md
 - pages/documents/Security & Regulations/Secure forms/secure-forms-messaging.md
 - pages/documents/Agent and manager workspace/Workspace configuration/importing-predefined-content.md
 - pages/documents/Security & Regulations/Security/liveperson-disaster-recovery.md

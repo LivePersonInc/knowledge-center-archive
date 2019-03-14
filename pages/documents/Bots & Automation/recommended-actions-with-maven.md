@@ -9,7 +9,7 @@ level3: ''
 permalink: bots-automation-recommended-actions-with-maven.html
 isTutorial: false
 isNew: false
-date: 2019-03-14 13:31:44 +0200
+date: 2019-03-14 11:31:44 +0000
 published: false
 
 ---
@@ -27,11 +27,11 @@ LivePerson’s Maven is a continuously-learning AI engine that orchestrates all 
 
 ## How it works
 
-![](/img/recommended-actions-with-maven-2.png)
-
 ### Intent recognition
 
 Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow.
+
+![](/img/recommended-actions-with-maven-2.png)
 
 ### Best actions recommended in real time
 
@@ -44,6 +44,7 @@ Maven analyzes all available bots and automations to match the identified intent
 Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
 
 ![](/img/recommended-actions-with-maven-4.png)
+
 
 ### Plug in any automations/bots
 
