@@ -46,15 +46,11 @@ This is expected behavior.
 
 ## Why is the wrong conversation response time (SLA) displayed in the message window?
 
-#### Issue:
-
-How come when a consumer opens a new messaging conversation, and there aren’t any agents online, the response time (SLA) displayed in the conversation window doesn’t factor in agent availability?
-
-#### Cause:
+### Cause:
 
 The SLA in messaging is designed to correspond to the account's Response time configuration only. In messaging, unlike chat, agent availability and status are not calculated because messaging allows agents more flexibility in handling conversations.
 
-#### Solution:
+### Solution:
 
 * In order to provide consumers with a more accurate estimation of the response time when the call center is not operational, we have a feature called Shift Status. This feature enables you to set offline hours for your account.
 * During offline hours, the response time displayed takes into account both the account’s response time settings and the Shift Status settings.
