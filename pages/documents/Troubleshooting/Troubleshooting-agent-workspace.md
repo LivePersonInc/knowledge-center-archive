@@ -16,11 +16,11 @@ date: 2019-02-25 13:14:06 +0000
 ### Cause
 
 1. In the agent work space in LiveEngage audio notification is muted.
-
-   ![](/img/troubleshooting-agentworkspace.png)
 2. The agent’s browser is not set to “Play Sounds in Webpages”. 
 
 ### Solution:
+
+![](/img/troubleshooting-agentworkspace.png)
 
 1. Firstly check your agent status bar and unmute sound, as per the image above
 2. If the agents browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
