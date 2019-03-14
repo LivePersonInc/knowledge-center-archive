@@ -41,6 +41,7 @@ Use hotkeys to display a category of predefined content to choose from:
 * Then click an item from the list to enter it in the conversation text box. For example, pressing W + right arrow displays the Greeting category’s predefined content.
 
 Use hotkeys to enter a predefined content item in a conversation:
+
 * Place your cursor in the conversation text box,
 * Press a letter + right arrow + number (the number of the item in the category’s list). For example, press W + right arrow + 1 to enter the first item in the Greeting category.
 
@@ -120,7 +121,7 @@ b. Click a box to return to an ongoing conversation.
 
 a. Immediately after login, on the first window displayed - the App Connections list on the VISITORS tab. Once you’ve navigated away from the App Connections list, you can return to it as follows: b. On the VISITORS tab, click App Connections. The list of all consumers connected to your LiveEngage account via messaging is displayed. c. From inside the conversation window, click the small three stripes (lower left side).
 
-## how do I transfer a connection?
+## How do I transfer a connection?
 
 You can send a conversation back to the queue where it will be redirected to another online agent. You cannot transfer a conversation directly to a specific agent.
 
