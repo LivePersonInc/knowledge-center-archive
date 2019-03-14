@@ -145,4 +145,4 @@ When attempting to respond to a customer’s message via Apple Business Chat, th
 
 ### Solution:
 
-consumer having closed (deleted) the iMessage thread on their device;
+Consumer should not delete the iMessage thread on their device.
