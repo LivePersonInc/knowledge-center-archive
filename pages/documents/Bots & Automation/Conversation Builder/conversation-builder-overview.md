@@ -58,12 +58,12 @@ Brands don’t need to start from scratch to build bots - they can leverage the 
 {: .notice}
 For example, a brand can use a prebuilt retail template from the automation library, edit the script to customize it according to their brand lingo, and immediately integrate to Shopify or connect their product catalogue.
 
+![](/img/conversation-builder-btest.jpg)
+
 ## How the Conversation Builder works
 
 Leverage LivePerson’s Conversation Builder with native bots:
 Bots can be built with the Conversational Builder through an interactive dialog builder, or by selecting from a library of pre-built, industry-specific automations. The pre-built set of industry vertical bots allows brands to deploy out-of-box automations across the most common workflows tuned for each industry, e.g. templated bots libraries by industry and out of the box automation for top intents in retail, telco and others-- enabling rapid adoption of automation.
-
-![](/img/conversation-builder-btest.jpg)
 
 Using inputs and prompts and a point-and-click interface, bots are built based on simple dialog, not complicated coding algorithms. Brands can then **easily design, build, and optimize high-impact conversations at scale.**
 
