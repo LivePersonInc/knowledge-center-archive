@@ -44,16 +44,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 
 ## Agent concurrency isn't changing to the “Default max number of conversations per agent.”
 
-#### Problem:
-
-* A LiveEngage account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
-* But they notice that some users are still being assigned more than 10 conversations.
-* They check the settings for the users who are still being assigned more than 10 conversations and find that the value of their Max no. messaging conversations (on the Edit user window) is 15.
-* Why didn’t the user’s’ Max no. messaging conversations change to 10?
-
 #### Cause:
-
-The account’s Admin user had changed those users’ Max no. messaging conversations value from 20 to 15 two weeks earlier.
 
 When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
 
@@ -73,23 +64,20 @@ Agent B’s max. number of conversations value will not change because it is dif
 
 The system doesn't check if a change was ever done to an agent’s max. number of conversations. It just checks the current value and if it's the same as the default value, it changes the agent’s value.
 
-#### Solution:
+### Solution:
 
-This is expected behavior.
+* A LiveEngage account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
+* If some users are still being assigned more than 10 conversations, check the settings for that user.
 
 ## When I transfer messages, some of them return to me with an unassigned skill
 
-#### Issue:
-
-Why is it that when I transfer conversations to a different skill some of them return to me with an unassigned skill?
-
-#### Cause:
+### Cause:
 
 * This is done to prevent agents from accidentally sending consumers to a queue where they'll be stuck forever.
 * The messages were transferred to a skill that had no agents assigned to it.
 * When a conversation is transferred to a skill with no agents assigned to it, LiveEngage changes the conversation's skill to Unassigned and returns it to the original agent.
 
-#### Solution:
+### Solution:
 
 This is expected behavior.
 
