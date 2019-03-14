@@ -422,8 +422,8 @@ The table below lists the available styles:
 1. Right Click anywhere inside the visualization (but not on the shape itself). A list of options is displayed.
 2. Click on ‘**Show Legend.**’ The legend will display on the right of the visualization.
 3. On hover a few options will be displayed. 
-   1. In the top left corner - an arrow, allowing you to minimize/maximize the legend. 
-   2. In the top right corner - an ‘X’ button, allowing you to close the legend.
+   	1. In the top left corner - an arrow, allowing you to minimize/maximize the legend. 
+   	2. In the top right corner - an ‘X’ button, allowing you to close the legend.
 
 ## Formatting
 
