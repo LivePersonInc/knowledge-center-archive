@@ -190,7 +190,7 @@ For more information, please see the [secure form configuration guide](security-
 </tr>
 </tbody>
 </table>
-  
+
 Today, brands use a single time interval definition to determine how long after a conversation becomes inactive it should be closed. This single definition doesn’t take into account the fact that different skills have a different conversation pace and therefore should have different time intervals for auto close. Having such a capability will give brands a higher level of flexibility to determine when a conversation should be closed and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill, and thereby improve the consumer experience as well as their operational parameters.
 
 **Screenshots**
@@ -198,7 +198,7 @@ Today, brands use a single time interval definition to determine how long after 
 ![](/img/week-of-february-11th-5.png)
 
 ### Post Conversational Survey - Adding Search capability
-  
+
 <table>
 <thead>
 <tr class="categoryrow">
@@ -244,7 +244,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 
 ![](/img/week-of-february-11th-6.png)
 
-### Agent Assist with Maven
+### Recommended Actions with Maven
 
 <table>
 <thead>
