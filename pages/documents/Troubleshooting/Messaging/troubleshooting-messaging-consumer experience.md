@@ -113,40 +113,36 @@ The conversation had been ongoing for a very long time and consisted of more tha
 
 ## Consumer’s web messaging window is stuck
 
-#### Problem:
+#### Cause:
+
+The brand was sending the customerId SDE with a value from an unauthenticated page and therefor experienced the following issues:
 
 1. A visitor has a web messaging window open on an authenticated web page.
 2. In the middle of the conversation (without closing the messaging window), the visitor logs out and is taken to the logout page (an unauthenticated page).
 3. The engagement window opens on the logout page but a spinning circle displays in the window indefinitely.
 
-#### Cause:
-
-The brand was sending the customerId SDE with a value from an unauthenticated page.
-
-#### Solution:
+### Solution:
 
 When a visitor logs out (or moves to an unauthenticated page) in the middle of a conversation, the customerId SDE attribute should be reset to null ("").
 
-**Why aren’t some of our messaging agents receiving messages?**
+## Why aren’t some of our messaging agents receiving messages?
 
-Agents assigned to the Sales skill are not receiving messages although agents assigned to other skills are receiving messages.
-
-**Reasons this can happen**:
+### Cause:
 
 * No pages (Facebook) / phone numbers (SMS) / SDEs (in-app) are set to route conversations to that skill.
 * Agents are not set to accept conversations (max conversation = 0). If this was changed while they were logged in they need to logout and login again.
 * Conversations entered the queue while Sales agents weren’t online/available and the skill for these conversations was changed to the fallback skill.
 
-**To resolve this issue you should**:
+### Solution:
 
 Configure user settings and skill routing properly. Make sure to set the fallback skill and default skill according to your account’s needs.
 
-**Apple Business Chat – Message could not be delivered to a customer**
+## Apple Business Chat – Message could not be delivered to a customer
 
-Problem:
+### Cause
 
-When attempting to respond to a customer’s message via Apple Business Chat, the agent received the error “Message could not be delivered to the consumer”.
+When attempting to respond to a customer’s message via Apple Business Chat, the agent received the error “Message could not be delivered to the consumer”. This could be due to the consumer having closed (deleted) the iMessage thread on their device; therefore message could not be delivered.
 
-#### Cause and solution:
+### Solution:
 
-The consumer had closed (deleted) the iMessage thread on their device; therefore message could not be delivered.
+consumer having closed (deleted) the iMessage thread on their device;
