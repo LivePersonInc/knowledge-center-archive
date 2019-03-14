@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: " Authenticate once to seamlessly access the LivePerson platform"
 level3: ''
-permalink: Security-regulations-SSO-unified-login.html
+permalink: security-regulations-sso-unified-login.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 12:23:19 +0000

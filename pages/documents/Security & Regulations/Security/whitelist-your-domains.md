@@ -6,7 +6,7 @@ indicator: both
 subtitle: Prevent attackers from using the LivePerson Monitor Tag in unauthorized
   domains
 level3: ''
-permalink: security-regulations-whitelist-your-domains-for-lp-monitoring.html
+permalink: security-regulations-security-whitelist-your-domains-for-lp-monitoring.html
 isTutorial: false
 isNew: false
 date: 2019-02-26 09:27:51 +0000

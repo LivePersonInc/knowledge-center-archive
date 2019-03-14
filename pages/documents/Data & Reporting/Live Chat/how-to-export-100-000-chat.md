@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Chats are easy to read when they are exported in a CSV file
 level3: ''
-permalink: data-reporting-how-to-export-100000-chats-into-a-dashboard.html
+permalink: data-reporting-how-to-export-100,000-chats-into-a-dashboard.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:34:47 +0000

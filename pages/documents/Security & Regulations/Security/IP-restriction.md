@@ -5,7 +5,7 @@ subCategoryName: Security
 indicator: both
 subtitle: Create an IP whitelist to ensure secure use of app keys
 level3: ''
-permalink: security-regulations-security-IP-restriction.html
+permalink: security-regulations-security-ip-restriction.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 11:51:12 +0000

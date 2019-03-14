@@ -5,7 +5,7 @@ subCategoryName: Security
 indicator: both
 subtitle: Protect your platform and your agents by blocking unwanted addresses
 level3: ''
-permalink: security-regulations-security-IP-address-blocking.html
+permalink:  security-regulations-security-ip-address-blocking.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 10:06:47 +0000

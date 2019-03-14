@@ -4,7 +4,7 @@ indicator: both
 pagename: LivePerson Cookies
 subtitle: LivePerson uses information stored in cookies to maintain session data and
   to identify returning visitors
-permalink: Security-regulations-LivePerson-cookies.html
+permalink: security-regulations-liveperson-cookies.html
 date: 2019-03-12 13:24:55 +0200
 subCategoryName: ''
 level3: ''
@@ -32,7 +32,7 @@ All browsing and chatting cookies will be set with the LivePerson domain. Some w
 
 \- This is the default cookie setting.
 
-### Third-party session 
+### Third-party session
 
 All browsing and chatting cookies will be session cookies set with the LivePerson domain. With this option the ability to identify repeat visitors will be disabled.
 
@@ -54,7 +54,7 @@ Browsing cookies under your website domain will be set by LivePerson as persiste
 {: .notice}  
 Secure cookies with **first-party cookie** solution types are not supported.
 
-### First-party session 
+### First-party session
 
 Cookies are session cookies and will therefore be deleted when the visitor closes their browser. As a result, with this setting you will not see browsing history for returning visitors.
 
@@ -123,7 +123,7 @@ It includes the following information:
 
 **Cookie Type:** Persistent and expires after 1 year
 
-#### HumanClickKEY 
+#### HumanClickKEY
 
 The session key of a visit.
 
@@ -139,7 +139,7 @@ The browser creates the cookie name, path and domain:
 
 **Cookie type:** Session
 
-#### **HumanClickACTIVE** 
+#### **HumanClickACTIVE**
 
 Acceptance test cookie.
 
@@ -155,7 +155,7 @@ The browser creates the cookie name, path and domain:
 
 **Cookie type:** Persistent (Expires after 1 day)
 
-#### HumanClickSiteContainer ID_<SITEID> 
+#### HumanClickSiteContainer ID_<SITEID>
 
 Used to allow LivePerson to distribute usage of its services across a cluster of servers (for load balancing purposes). This cookie is set when LivePerson's services initiate monitoring on the applicable customer's website.
 
@@ -174,7 +174,7 @@ The browser creates the cookie name, path and domain:
 
 **Cookie type:** Session
 
-#### lpCloseInvite 
+#### lpCloseInvite
 
 Added in order to prevent the rare situation of repeat invitations
 
@@ -182,7 +182,7 @@ occurring. The cookie is dropped to avoid an invitation being displayed twice.
 
 **Cookie type:** Session
 
-#### OpenX 
+#### OpenX
 
 This cookie is used in conjunction with LivePerson's LP Marketer service. This cookie manages and optimizes the delivery of offers and other content via the websites of customers who have implemented LP Marketer. It is set when a visitor visits the website of a customer who has implemented LP Marketer provided that the anonymous usage data related to such visitor matches a current marketing campaign run by the customer.
 
@@ -195,7 +195,7 @@ This cookie is used in conjunction with LivePerson's LP Marketer service. This c
 {: .notice}  
 LivePerson chat does not require cookies in order to operate.
 
-#### HumanClickCHATKEY 
+#### HumanClickCHATKEY
 
 Creates a unique key to identify each chat session. Used for security purposes to identify each LivePerson chat and voice communication session. This cookie is set when the visitor to the customer's website requests an engagement within a chat or voice session with the customer.
 

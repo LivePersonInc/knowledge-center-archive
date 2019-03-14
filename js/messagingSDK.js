@@ -57,10 +57,8 @@ windowKit.onAgentRichContentEvent(function(content) {
 	JsonPollock.registerAction('link', function (linkObject) {
 		//grab the link passed with the object
 		var rawLink = linkObject.actionData.uri;
-		//temp code, will be removed
-		var cleanLink = rawLink.replace('s.bcbot.io/r', 'knowledge.liveperson.com');
 		//open the link in a new tab
-		window.open(cleanLink, "_blank");
+		window.open(rawLink, "_blank");
 		console.log(linkObject);
 	});
 	//when a user click on a strucuted content button
@@ -93,7 +91,7 @@ function displayInput () {
 			 windowKit.sendMessage(messageText);
 			 console.log('enter');
 			 console.log(messageText);
-			 //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can be only one!
+			 //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
 			 $(this).attr('id', 'messageInputUsed');
 		 }
 	 });
@@ -112,7 +110,7 @@ function scrollBottom () {
 		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
 	}
 	setTimeout (function () {
-		//akkow other scrolls in the future, like those which happen when a new text is sent
+		//allow other scrolls in the future, like those which happen when a new text is sent
 		isScrolling = false;
 	}, 2000);
 };
@@ -122,7 +120,7 @@ $(document).ready(function () {
 	$('#resetcontainer').click(function() {
 		//clear localStorage, killing the JWT
 		window.localStorage.clear();
-		//refresh he page. Since there's no JWT stored, a new conversation will be created
+		//refresh the page. Since there's no JWT stored, a new conversation will be created
     window.location.reload(true);
 });
 })

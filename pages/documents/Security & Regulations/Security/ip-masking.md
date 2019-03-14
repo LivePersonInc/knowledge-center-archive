@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-24 09:46:01 +0000
 
 ---
-IP masking disables [IP address](security-regulations-security-IP-address-blocking.html) storage for the purpose of regulatory compliance. National guidelines specify that a visitor’s IP address must not be stored by a vendor.
+IP masking disables [IP address]( security-regulations-security-ip-address-blocking.html) storage for the purpose of regulatory compliance. National guidelines specify that a visitor’s IP address must not be stored by a vendor.
 
 To ensure that brands are able to comply with these regulations if required to do so, LivePerson offers brands the ability to mask IP addresses, so they are neither stored nor displayed to the agent. They can however still be used for targeting purposes.
 

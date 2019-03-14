@@ -53,6 +53,7 @@
     - subcategoryname: How bots work with LivePerson
     - subcategoryname: Conversation Builder overview
     - subcategoryname: Post conversation survey
+    - subcategoryname: Recommended actions with Maven
 
 - categoryname: Contact center management
   image: contact-center
@@ -223,6 +224,7 @@
         - pagename: IP restriction
         - pagename: Whitelist your domains for LP monitoring
     - subcategoryname: LivePerson disaster recovery
+    - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
     - subcategoryname: Secure forms
       pages:
