@@ -13,17 +13,15 @@ date: 2019-02-26 09:02:24 +0000
 ---
 ## Why isn’t CoBrowse / CoBrowse-for-Voice opening on the visitor side?
 
-#### Problem:
+### Cause:
 
 When agents initiate a CoBrowse session and visitors click Accept, the session does not launch.
 
-When agents initiate **CoBrowse for Voice** session and visitors enter the required code/service ID, nothing happens.
+When agents initiate **CoBrowse for Voice** session and visitors enter the required code/service ID, nothing happens. This is because 3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require 3rd-party cookies to initiate a session.
 
 ![](/img/Troubleshooting-chat2.png)
 
-#### Possible cause:
-
-3rd-party cookies are disabled. CoBrowse and CoBrowse-for-Voice require Third Party Cookies to initiate a session.
+#### Cause:
 
 #### Solution:
 
