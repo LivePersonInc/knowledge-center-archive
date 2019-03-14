@@ -472,10 +472,10 @@ A threshold is made up of two parts: the condition, and the formatting that will
     5. To create a threshold based on the bottom x percent of metric values, select **Lowest %**. For example, you can display the bottom 50% of metric values with a red flag.
  7. From the ‘break by’ drop-down list, select the attribute level at which you want to restart counting rank or percent values for the metric. This option is only available for thresholds based on rank or percent values.
  8. Each band displayed in the dialog box represents a different range of values. You can click and drag a thumb left or right along the slider to increase or decrease the range of values covered by the band.
- 9. Further customizations are available:
-    a. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band.
-    b. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette.
-    c. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
+ 9. Further customizations are available: 
+    1. To create a new band, hover the cursor underneath the band and click on the + icon that appears to place a new band. 
+    2. To change the color applied to the range of values covered by a band, hover on the band, the band will be highlighted. Click on the band, a palette of colors will be opened. Select the new color from the palette. 
+    3. To delete a band, hover the cursor over the band, then right-click and select ‘Delete’. The band is deleted.
 10. You can preview your changes by clicking **Apply**. Once you have finished defining the threshold, click **OK**. The threshold is created.
 
 #### **Clear all thresholds applied to a metric**

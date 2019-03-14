@@ -29,19 +29,15 @@ By design, agent messages that visitors didn’t receive are displayed in red te
    * If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
 3. Check the status of your LivePerson account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
 
-## Why aren’t agents receiving messages?
+## Agents assigned to the Sales skill are not receiving messages (agents assigned to other skills are receiving messages)
 
-#### Issue:
-
-Agents assigned to the Sales skill are not receiving messages although agents assigned to other skills are receiving messages.
-
-#### Possible causes:
+### Cause:
 
 * No pages (Facebook) / phone numbers (SMS) / SDEs (In App) are set to route conversations to that skill.
 * Agents are not set to accept conversations (max conversation = 0). If this was changed while they were logged in they need to logout and login again.
 * Conversations entered the queue while Sales agents weren't online/available and the skill for these conversations was changed to the fallback skill.
 
-#### Solutions:
+### Solutions:
 
 * Configure user settings and skill routing properly.
 * Make sure to set the fallback skill and default skill according to your account’s needs.
