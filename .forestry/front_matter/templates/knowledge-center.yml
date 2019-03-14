@@ -134,12 +134,12 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/What's New/january-2019.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/agent-workspace-icons.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/cobrowse-for-messaging.md
 - pages/documents/Security & Regulations/Security/account-security-recommendations.md
-- pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/Security & Regulations/Security/whitelist-your-domains.md
 - pages/documents/Agent and manager workspace/agent tools for messaging/managing-messaging-conversations.md
 - pages/documents/Agent and manager workspace/manager tools for live chat/web-history.md

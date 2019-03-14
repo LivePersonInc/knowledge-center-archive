@@ -13,11 +13,7 @@ date: 2019-02-26 13:16:26 +0000
 ---
 ## Why isn’t AutoClose closing conversations?
 
-#### Issue:
-
-Our conversations aren’t closing even 3 hours after the last agent message was sent. This is occurring for a specific agent, not for all agents and our account’s AutoClose is set to 2 hours.
-
-#### Cause:
+### Cause:
 
 * The AutoClose process runs every 25 minutes.
 * If the account’s AutoClose is configured to 2 hours, the conversation automatically closes within 120-145 minutes.
@@ -28,7 +24,7 @@ Our conversations aren’t closing even 3 hours after the last agent message was
 
 LiveEngage logs showed that the specific agent had been “visiting” the conversations from time to time as an agent (spectating or opening conversations from the list of conversations) and this was resetting the AutoClose timer.
 
-#### Solution:
+### Solution:
 
 Ask the agent not to open conversations pending visitor response for a while and verify that AutoClose then closes the conversations in under 145 minutes.  
 For more information, see [auto close for messaging conversations](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html).
@@ -52,7 +48,7 @@ This is expected behavior.
 2. As a best practice, if agents have permissions to do so, they should verify that agents are available before transferring conversations to a skill or returning them to the queue.
 3. Alternatively, agents can ask an agent manager to join the conversation and transfer the conversation to a skill with available agents.
 
-## **Why is the wrong conversation response time (SLA) displayed in the message window?**
+## Why is the wrong conversation response time (SLA) displayed in the message window?
 
 #### Issue:
 
