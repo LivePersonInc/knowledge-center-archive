@@ -131,20 +131,16 @@ If the SMS messages that are not received or are partially received have been se
 ## A LiveEngage account’s Facebook messages are no longer being routed to LiveEngage.
 
 ### Cause:
+If the following conditions are met then there could be a bug with Facebook.
 
-### If the following conditions are met then there could be a bug with Facebook.
+Conditions:
 
-#### Conditions:
-
-* If Facebook messages were coming into the account previously but are no longer being routed to LiveEngage and the account has not made any changes to their configuration.
+* If Facebook messages were coming into the account previously but are no longer being routed to LiveEngage.
+* The account has not made any changes to their configuration.
 * LivePerson Support verified that the account’s messaging gateway configuration and page tokens are valid.
 * Support is able to log into the account with the messaging gateway user.
 
-#### Cause:
-
-Possible Facebook bug.
-
-#### Solution:
+### Solution:
 
 * LivePerson Support unsubscribed and resubscribed the account’s mobile application to the Liveperson Facebook connector and routing began working again immediately.
 * LivePerson reported this to Facebook.
