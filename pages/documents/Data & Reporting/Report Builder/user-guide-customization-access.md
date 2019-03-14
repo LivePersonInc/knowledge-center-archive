@@ -234,6 +234,8 @@ The filters of a any dashboard must contain at least one attribute from the “T
    * To allow users to filter data by creating a qualification on a metric, perform the following steps:
      * Click **greater than or equal to**. From the drop down list, select the operator you want to use to compare data, such as less than or equals.
      * In the field, type the value you want to use to filter data, then press ENTER. The qualification is created.
+
+       To allow users to filter data by choosing values on a slider, perform the following steps:
    * To allow users to filter data by choosing values on a slider, perform the following steps:
      * Click and drag the endpoints of the slider to cover the range of values for which you want to filter data.
      * You can choose to include or exclude data using the values selected in the slider. Hover the cursor over the metric name and click the arrow icon, then do one of the following:
