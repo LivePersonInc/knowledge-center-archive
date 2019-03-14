@@ -58,11 +58,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 
 ## Why doesn’t the CSAT survey display to all consumers once their conversations are closed?
 
-#### Issue:
-
-When some conversations are closed, the CSAT survey doesn’t display to the consumer. Why isn’t it consistent?
-
-#### Cause**:**
+### Cause
 
 * A CSAT survey is not displayed if the conversation is not associated with an agent (indicated in All Connections by Agent Name = N/A) when it is closed.
 * This can happen if an Agent Manager joins a conversation that is not assigned to an agent (it is in queue) and then closes the conversation without interacting with the consumer.
@@ -70,47 +66,34 @@ When some conversations are closed, the CSAT survey doesn’t display to the con
 
 ### Solution:
 
-The CSAT survey is presented to a consumer (assuming that CSAT survey is configured) when either the LiveEngage agent or the consumer closes the conversation.
+* The CSAT survey is presented to a consumer (assuming that CSAT survey is configured) when either the LiveEngage agent or the consumer closes the conversation.
+
 
 * The CSAT survey is displayed regardless of the assigned agent's state (Online, Back, Away).
 * The CSAT survey is displayed regardless of whether the conversation was interactive (message sent from both the agent and the consumer) or not.
 
 ## Why can’t we change the order of macros in iOS strings in predefined content or auto messages?
 
-### Issue:
-
-We are not able to change the order of macros in iOS strings although in Android we can do so.
-
-In Android the order of the macros can be changed. For example, the message stating when the conversation was resolved and by what agent can be either of these:
-
-* agent name first and time second: %1$s - agent name %2$s - time
-* time first and agent second: Conversation was resolved at %2$s by %1$s
-
 ### Cause:
 
 The order of the order of macros in strings In iOS are determined by their position. The macros are not numbered as in Android (%1$s and %2$s). They are resolved by %@ .
 
-#### Solution:
+However, in Android the order of the macros can be changed. For example, the message stating when the conversation was resolved and by what agent can be either of these:
+
+* agent name first and time second: %1$s - agent name %2$s - time
+* time first and agent second: Conversation was resolved at %2$s by %1$s
+
+### Solution:
 
 This is expected behavior. The order of macros in iOS strings is predetermined.
 
 ## Why isn’t dynamic text in predefined content working?
 
-#### Issue:
+### Cause:
 
-When messaging agents use a predefined content item that contains dynamic text, when the content item is displayed to a consumer, the dynamic text is not being replaced with a value.
+When messaging agents use a predefined content item that contains dynamic text, when the content item is displayed to a consumer, the dynamic text is not being replaced with a value. This is because dynamic Text in predefined content is not  supported for Messaging. It is supported in chat only.
 
-For example, the following predefined content string, is displayed to the consumer like this:
-
-“Hello, you're chatting with $!{operator.nickname}. How may I help you?”
-
-Why isn’t LiveEngage replacing $!{operator.nickname} with the actual nickname?
-
-#### Cause:
-
-Dynamic Text in predefined content is not not supported for Messaging. It is supported in chat only.
-
-#### Solution:
+### Solution:
 
 Messaging agents should not use predefined content items that contains dynamic text.
 
@@ -120,25 +103,17 @@ For example, the content item mentioned above could be named How may I help? (ch
 
 ## Why are new SMS conversations created when a visitor replies to CSAT questions?
 
-#### Issue:
-
-Each time a consumer using the LiveEngage SMS interface closes a conversation and replies to the CSAT questions, a new conversation is automatically opened.
-
-**Cause:**
+### Cause:
 
 The consumer answered the CSAT question with text and not just a number (for example: “5 superb person”). In the LiveEngage SMS interface, CSAT answers should be numeric only (even though the UI does not prevent a consumer from entering text). It is a known issue that answers containing text create new SMS conversations.
 
-**Solution**:
+### Solution:
 
 This is a known limitation of the LiveEngage SMS interface.
 
 ## Why aren’t we receiving SMS messages in LiveEngage from some of our clients?
 
-#### Problem:
-
-We are not receiving SMS messages from some of our clients. This happens inconsistently and sometime we receive only parts of those messages from the clients.
-
-#### Cause:
+### Cause:
 
 Not all LOCAL Twilio numbers (depends on country) support sending SMS messages. The ability of consumers to send SMS messages via these numbers will be partial at best.
 
@@ -146,7 +121,7 @@ Therefore if there are multiple Twilio 30008 errors (or similar) and it looks li
 
 This can be confirmed by opening a case with Twilio.
 
-#### Solution:
+### Solution:
 
 If the SMS messages that are not received or are partially received have been sent from LOCAL Twilio numbers:
 
