@@ -98,4 +98,4 @@ Conversation Intelligence provides a set of dashboards and reporting with action
 
 Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. The Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
 
-Continuously learning from the agents interacting with it, the Maven's Agent Assist capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome, making human agents more efficient and orchestrating bots across an enterprise.
+Continuously learning from the agents interacting with it, the Maven's [Recommended Actions](bots-automation-recommended-actions-with-maven.html) capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome, making human agents more efficient and orchestrating bots across an enterprise.
