@@ -341,10 +341,10 @@ Derived metrics are not metric objects that can be re-used in other reports and 
 1. Right click anywhere in the datasets panel and select ‘create metric’.
 2. A new window ‘metric editor’ will open up.
 3. Use objects and functions or operators to create the required formula.
-   	1. Objects: the metrics and attributes available in the report.
-      	1. To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
-   	2. Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
-      	1. To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
+   1. Objects: the metrics and attributes available in the report.
+      1. To add an attribute or metric, double-click an object from the ‘objects’ list to the right to add it to the formula field.
+   2. Functions: when you create a derived metric, you can define it using a function, which allows you to create a more complex derived metric. For example, you can choose a RunningSum function to create a RunningSum of Revenue (RunningSum(Revenue)) metric.
+      1. To create a derived metric using a function, select the function, define its arguments and parameters, and then specify the metrics on which to base the new metric.
 
 {: .notice}  
 Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.11/Dossier_Authoring/WebHelp/Lang_1033/Content/CreatingNewObjects.htm) for information on the types of functions available, what each function calculates, the correct syntax to use for each, and examples.
