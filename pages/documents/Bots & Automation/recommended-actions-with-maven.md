@@ -46,7 +46,7 @@ Agents are able to rate the relevance and usefulness of the recommended automati
 ![](/img/recommended-actions-with-maven-4.png)
 
 
-### Plug in any automations/bots
+## Plug in any automations/bots
 
 Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/bots-automation-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html) to learn how to get started.
 
