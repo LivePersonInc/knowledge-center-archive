@@ -69,5 +69,4 @@ LivePerson offers the ability to store chat transcripts and other session variab
 | Messaging – Authenticated SDEs and Unauthenticated SDEs | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following capabilities will not be available in the Goal Tracker report: Customer name, Customer type, Customer status | Enable |
 | Messaging – Data elements within the Personal Info and Customer Info Engagement Attributes, Authenticated Engagement Attributes, Non-authenticated Engagement Attributes, Messaging Transcripts, Messaging Summary, Messaging User Profile | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. Note: When encryption is enabled, the following capabilities will not be available: Analytics reports - Predefined Content, Topics toolkit, Deflection and Escalation Risk Predictor. Goal Tracker report - Customer name, Customer type, Customer status | Enable |
 
-{: .notice}
-To enable the settings in tables above, please contact your LP representative.
+{: .notice} To enable the settings in the tables above, please contact your LP representative.
