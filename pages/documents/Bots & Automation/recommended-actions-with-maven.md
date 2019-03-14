@@ -38,9 +38,13 @@ Maven intercepts each message and leverages all the bots registered to assess th
 
 Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
+![](/img/recommended-actions-with-maven-3-1.png)
+
 ### Closed-loop training for optimization
 
 Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
+
+![](/img/recommended-actions-with-maven-4.png)
 
 ### Plug in any automations/bots
 
