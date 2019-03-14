@@ -22,7 +22,7 @@ date: 2019-02-25 13:14:06 +0000
 
 ![](/img/troubleshooting-agentworkspace.png)
 
-1. Firstly check your agent status bar and unmute sound, as per the image above
+1. Firstly check your agent status bar and un-mute sound, as per the image above
 2. If the agents browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
 3. For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
 4. For other browsers, search the browser’s Help for instructions on turning on audio.
@@ -67,7 +67,7 @@ For more information on Conversation Outcomes and the Conversation summary widge
 
 Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.The affected agents were working in unsupported browser versions.
 
-#### Solution:
+### Solution:
 
 Update agent browser version. For a list of supported browsers, see system requirements and supported languages.
 
