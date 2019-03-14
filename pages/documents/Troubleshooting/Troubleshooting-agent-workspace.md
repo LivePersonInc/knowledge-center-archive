@@ -27,8 +27,7 @@ date: 2019-02-25 13:14:06 +0000
 3. For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
 4. For other browsers, search the browser’s Help for instructions on turning on audio.
 
-   For Internet Explorer, follow these steps:
-
+For Internet Explorer, follow these steps:
 * Open Your Control Panel: The easiest way to open the Control Panel is to click on “Start” and then click on “Control Panel.”
 * Open the Internet Options: Use the search box to find the “Internet Options” section of the Control Panel.
 * Select the “Advanced” Tab: The Advanced Tab is usually on the far-right side of the Internet Options screen.
