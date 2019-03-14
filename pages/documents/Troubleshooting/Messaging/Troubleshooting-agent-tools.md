@@ -13,11 +13,7 @@ date: 2019-02-28 11:55:33 +0000
 ---
 ## Visitors aren’t receiving messages from our agents; on the agent-side, sent messages are in red
 
-#### Issue:
-
-Messaging agents are sending messages to visitors but visitors do not seem to be receiving these messages. In addition, the agent’s sent messages are displayed in red text rather than black in the agent workspace.
-
-#### Cause:
+### Cause:
 
 By design, agent messages that visitors didn’t receive are displayed in red text in the agent’s messaging window. Generally this is caused by network connectivity issues, as follows:
 
@@ -25,12 +21,12 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 * Network errors on the visitor’s side - once a visitor loses connection to the network, he will not be able to receive new messages.
 * Server issues on LivePerson’s side.
 
-#### Possible solutions:
+### Solution:
 
 1. Have the agent refresh their LiveEngage console.
 2. Check whether there are network connectivity errors on the agent side:
-   1. Open the Developer Tools > Network tab in the agent’s browser and check for failed requests (displayed in red in the Developer tool).
-   2. If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
+   * Open the Developer Tools > Network tab in the agent’s browser and check for failed requests (displayed in red in the Developer tool).
+   * If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
 3. Check the status of your LivePerson account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
 
 ## Why aren’t agents receiving messages?
