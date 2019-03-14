@@ -15,10 +15,8 @@ When it comes to doing business on the web, security is always a top priority. I
 
 We recommend a baseline level of protection on your account to ensure the utmost security of your data. For information on the full range of security features offered by LivePerson, please contact your LP account team.
 
-{: .notice}  
-To implement these settings, or to receive further information on LivePerson security options, please contact your account manager or LivePerson technical support.
+Below are the recommended three steps for baseline account security. To implement these settings, or to receive further information on LivePerson security options, please contact your account manager or LivePerson technical support.
 
-The recommended three steps for baseline account security are as follows:
 
 ## Step 1: Set your password policy
 
