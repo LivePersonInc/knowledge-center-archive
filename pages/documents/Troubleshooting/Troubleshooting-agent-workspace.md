@@ -13,7 +13,7 @@ date: 2019-02-25 13:14:06 +0000
 ---
 ## Agent is not getting audio notifications for incoming conversations.
 
-### Cause
+### Cause:
 
 1. In the agent work space in LiveEngage audio notification is muted.
 2. The agent’s browser is not set to “Play Sounds in Webpages”. 
