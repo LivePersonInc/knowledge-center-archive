@@ -5,7 +5,7 @@ pagename: LivePerson Cookies
 subtitle: LivePerson uses information stored in cookies to maintain session data and
   to identify returning visitors
 permalink: security-regulations-liveperson-cookies.html
-date: 2019-03-12 13:24:55 +0200
+date: 2019-03-12 11:24:55 +0000
 subCategoryName: ''
 level3: ''
 isTutorial: false
@@ -65,8 +65,8 @@ Secure cookies with **first-party cookie** solution types are not supported.
 
 The following issues should be considered when working with LivePerson Cookies:
 
-{: .notice}**  
-**For any further clarification on instructions with any of the issues discussed below, please contact _LivePerson Technical Support._
+{: .notice}  
+For any further clarification on instructions with any of the issues discussed below, please contact _LivePerson Technical Support._
 
 ### Secure Cookies
 
@@ -93,7 +93,7 @@ See below all specific cookie configuration types used by LivePerson.
 #### **LivePersonID**
 
 {: .notice}  
-__*__ LivePersonID cookie is set twice with different content. The cookie name is not the sole unique identifier.
+LivePersonID cookie is set twice with different content. The cookie name is not the sole unique identifier.
 
 Used in conjunction with the HumanClickKEY cookie to gather usage data related to a visitor's visit to a LivePerson customer's website. The information gathered is essential for determining whether LivePerson's hosted services should launch on the visitor's browser. This cookie is set when LivePerson's services initiate monitoring.
 
@@ -109,9 +109,10 @@ Disabling or blocking this cookie may limit or prevent the visitor from receivin
 
 #### LivePersonID
 
-{: .notice}* LivePersonID cookie is set twice with different content. The cookie name is not the sole unique identifier.
+{: .notice}  
+LivePersonID cookie is set twice with different content. The cookie name is not the sole unique identifier.
 
-**Structure:**The browser creates the cookie name, path and domain:
+**Structure**: The browser creates the cookie name, path and domain:
 
 "/hc/{SITEID}" for example: sales.liveperson.net
 
@@ -139,7 +140,7 @@ The browser creates the cookie name, path and domain:
 
 **Cookie type:** Session
 
-#### **HumanClickACTIVE**
+#### HumanClickACTIVE
 
 Acceptance test cookie.
 
@@ -169,8 +170,8 @@ The browser creates the cookie name, path and domain:
 
 "/hc/{SITEID}" for example: sales.liveperson.net
 
-{: .notice}**  
-**This can only be viewed in the federation server.
+{: .notice}  
+This can only be viewed in the federation server.
 
 **Cookie type:** Session
 
