@@ -11,11 +11,9 @@ isNew: false
 date: 2019-02-26 12:03:37 +0000
 
 ---
-## Missing Excel export button in Report Builder
+## Missing Excel export button in Report Builder and cannot export dashboards
 
-The client is unable to export Report Builder reports from any of the Report Builder dashboards.
-
-**The reason this happens is:**
+### Cause:
 
 The user does not see the visualization headers that contain the Export options menu (at the top right corner).
 
@@ -24,7 +22,7 @@ For users who do not have “Edit” access in Report Builder, the visualization
 {: .notice}  
 Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
 
-**To resolve this issue you should**:
+### Solution:
 
 Set visualization headers to visible as follows:
 
@@ -50,7 +48,7 @@ For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file i
 
 ![](/img/troubleshooting-reporting2.png)
 
-**The reason this happens is**:
+### Cause:
 
 In messaging, an agent can transfer a conversation to a skill or queue (but not to another agent). The conversation will then be assigned to another agent. The transferred conversation is counted both as the first agent’s conversation and as the second agent’s conversation.
 
@@ -59,6 +57,8 @@ The Excel report displays the sum of all agents’ NO. OF CONVERSATIONS HANDLED 
 The Messaging Performance dashboard displays the total number of distinct conversations (distinct conversation IDs) in NO. OF CONVERSATIONS HANDLED Totals field. In other words, a conversation that was handled by two different agents (due to transfers) is only counted once in the dashboard.
 
 This is the reason for a smaller value in Total NO. OF CONVERSATIONS HANDLED on the dashboard than in the Excel report.
+
+### Solution:
 
 This is expected behavior.
 
@@ -73,11 +73,11 @@ This is expected behavior.
 
 When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
 
-**The reason this happens is**:
+### Cause:
 
 The dashboard is not refreshing due to a caching mechanism managed by the user’s browser.
 
-**To resolve this issue you should**:
+### Solution:
 
 1. If you are a LiveEngage Administrator or a user with Report Builder “Edit” access, click the Refresh button at the top of the dashboard.
 2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
@@ -85,13 +85,11 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 
 ## Why do chat transcript export files display incorrect customer IDs?
 
-#### Problem
+### Cause:
 
 When we export chat transcripts to a CSV file, the customer IDs are displayed in scientific format. Then we convert the IDs back to decimal format. But the converted ID does not match the original ID.
 
 For example, one of our customer’s IDs is 5121079781289563. In the export file it is displalyed as 5.12108E+15, and when we convert it back to decimal, it comes out as 5121079781289560.
-
-#### Cause
 
 This is an MS Excel limitation. Excel displays numbers containing 15 or more digits in scientific format even though it has saved them in decimal format.
 
@@ -99,7 +97,7 @@ When you open the CSV file as a text file, you can see the Customer ID in decima
 
 LiveEngage does not convert these long numbers to text before the Chat Transcript Export because the CSV files may be used by some LiveEngage customers with other applications, parsers, or macros and not just with MS Excel.
 
-#### Solution
+### Solution
 
 You can use this workaround to “fix” the MS Excel display:
 
@@ -114,11 +112,9 @@ Don’t change the scientific numbers the CSV file to decimal format because MS 
 
 ## Why is the Agent Goal Tracker “missing” transactions reported in Web History?
 
-Some order ID’s (sales transactions) reported in Web History are not reported by the Agent Goal Tracker (on the Agent Manager BI Dashboard).
+### Cause:
 
-Why is the Agent Goal Tracker missing these order IDs?
-
-**The reason this happens is**:
+Some order ID’s (sales transactions) reported in Web History are not reported by the Agent Goal Tracker (on the Agent Manager BI Dashboard). 
 
 The “missing” orders took place before the visitors began to chat. Conversions that take place before chat, cannot be allocated to a specific agent and do not count as goals reached.
 
@@ -126,7 +122,7 @@ The Agent Goal Tracker only tracks goals reached (transactions, orders, etc.) du
 
 Web History contains the transaction details of orders that took place in the same visitor session even if the transaction took place before chat. Therefore you cannot use transaction data in Web History to track conversions and goals reached.
 
-**To resolve this issue you should**:
+### Solution
 
 * Use BI reports or Report Builder for reporting and tracking SALES (conversions).
 * Do not use Web History to track conversions – it is not designed for this purpose.

@@ -9,6 +9,7 @@ level3: ''
 permalink: data-reporting-report-builder-report-builder-user-guide-(customization).html
 isTutorial: false
 date: 2019-01-16 11:37:29 +0000
+published: false
 
 ---
 ## Getting started
