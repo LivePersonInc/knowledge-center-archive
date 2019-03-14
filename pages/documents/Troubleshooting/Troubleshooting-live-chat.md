@@ -153,7 +153,7 @@ Transfer-to-agent returns chats to the origin after about 4 minutes, if no other
 
 This is expected behaviour
 
-## Why are engagement windows opening blank? Why don’t embedded buttons display in Internet Explorer?
+## Why are engagement windows opening blank and embedded buttons are not displaying in Internet Explorer?
 
 ### Cause:
 
