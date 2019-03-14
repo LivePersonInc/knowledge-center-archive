@@ -11,7 +11,7 @@ isNew: false
 date: 2019-02-25 13:14:06 +0000
 
 ---
-## Agent is not getting audio notifications for incoming conversations.
+## Agent is not getting audio notifications for incoming conversations
 
 ### Cause:
 
