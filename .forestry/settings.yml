@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: jekyll-pages
+- type: directory
+  path: pages/documents
   label: Pages
   create: all
+  match: "**/*.md"
   templates:
   - knowledge-center
 upload_dir: img
