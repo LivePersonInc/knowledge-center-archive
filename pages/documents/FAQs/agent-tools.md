@@ -40,7 +40,7 @@ Use hotkeys to display a category of predefined content to choose from:
 * Press a letter + right arrow to display the category’s items,
 * Then click an item from the list to enter it in the conversation text box. For example, pressing W + right arrow displays the Greeting category’s predefined content.
 
-  Use hotkeys to enter a predefined content item in a conversation:
+Use hotkeys to enter a predefined content item in a conversation:
 * Place your cursor in the conversation text box,
 * Press a letter + right arrow + number (the number of the item in the category’s list). For example, press W + right arrow + 1 to enter the first item in the Greeting category.
 
