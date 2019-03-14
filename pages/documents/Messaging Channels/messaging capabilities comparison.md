@@ -12,7 +12,7 @@ published: true
 
 <div class="mobilefeaturestable">This table contains all of LiveEngage's Messaging capabilities compared over several channels. As such, it is too complex to navigate and view on a tablet or a mobile device. Please open it on your laptop of desktop computer to view it properly.</div>
 
-<input id="capabilitiesSearch" type="text" placeholder="Search by Capability Name" />
+<input id="capabilitiesSearch" type="text" placeholder="Search by capability name" />
 <table id="featurestable">
   <thead>
   <tr id="featuresheader">
