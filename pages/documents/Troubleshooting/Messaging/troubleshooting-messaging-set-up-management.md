@@ -29,15 +29,11 @@ LiveEngage logs showed that the specific agent had been “visiting” the conve
 Ask the agent not to open conversations pending visitor response for a while and verify that AutoClose then closes the conversations in under 145 minutes.  
 For more information, see [auto close for messaging conversations](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html).
 
-## A consumer is no longer receiving messages from our agents. What happened?
+## A consumer is messaging an agent and is no longer getting a response from the agent
 
-#### Issue:
+### Cause
 
-A consumer using messaging began a conversation with us and received an initial reply from one of our agents at 08:09 on Sunday, 18th. The consumer replied at 08:10 and again at 5:31 but did not receive any responses from our agents since the initial agent reply.
-
-#### Possible causes:
-
-1. The agent transferred the conversation to a different skill and no agents assigned to that skill have been available since the transfer,
+1. The agent transferred the conversation to a different skill and no agents assigned to that skill have been available since the transfer.
 2. The agent returned the conversation to the queue and then logged out of LiveEngage. No other messaging agents have been available since the conversation was returned to queue.
 
 ### Solution:
