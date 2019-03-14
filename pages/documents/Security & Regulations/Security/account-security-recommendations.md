@@ -37,7 +37,7 @@ The password policy settings provide more flexibility to define policies that ma
 | Maximum changes per day | The number of times the password can be changed within a single 24-hour period. | Set the value to a maximum of 3. | 
 | Apply policy to current passwords | Applies these rules to existing passwords. If this option is not selected, the password rules will only apply when a user changes the password, or a new user is added to the system.  | Enable. |
 
-For further information on LivePerson’s Password Policy, see Login Policy. To enable these settings, please cotact your LP representative.
+For further information on LivePerson’s Password Policy, see Login Policy. 
 
 ## Step 2: Restrict your login options
 
@@ -74,4 +74,4 @@ LivePerson offers the ability to store chat transcripts and other session variab
 | Messaging – Data elements within the Personal Info and Customer Info Engagement Attributes, Authenticated Engagement Attributes, Non-authenticated Engagement Attributes, Messaging Transcripts, Messaging Summary, Messaging User Profile | Messaging transcripts and other session variables can be stored on the LivePerson DB servers in an encrypted format. **Note:** When encryption is enabled, the following capabilities will not be available: Analytics reports - Predefined Content, Topics toolkit, Deflection and Escalation Risk Predictor. Goal Tracker report - Customer name, Customer type, Customer status | Enable | 
 
 {: .notice}
-To enable these settings, please cotact your LP representative.
+To enable the settings in tables above, please contact your LP representative.
