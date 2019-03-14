@@ -119,19 +119,17 @@ For more information, see [Importing Predefined Content.](agent-manager-workspac
 
 ![](/img/agent-workspace- troubleshooting3.jpg)
 
-## Why doesn’t our agent manager see all his groups?
+## Why doesn’t our agent manager see all his groups on the Web History tab?
 
-An agent manager reported that on the Web History tab, he is only able to see and export chat transcripts for his call center in India. He doesn’t see chats from his other call center in the USA and he’s not able to choose the USA group in the Agent Group filter.
-
-#### Cause:
+### Cause:
 
 The agent manager is defined as the manager of the India call center group but not of the USA agent group.
 
-#### Solution:
+### Solution:
 
 A user on the account who has permissions to modify user settings, should change the agent manager’s permissions as follows:
 
 1. Go to the Users tab.
 2. Click the Agent Manager user in the list. The Edit user window opens.
 3. In the Manage groups field select the group you want the agent manager to manage.
-4. Click Save. After logging out of LiveEngage and then logging in again, the agent manager will see both groups in the Web History
+4. Click Save. After logging out of LiveEngage and then logging in again, the agent manager will see both groups in the Web History.
