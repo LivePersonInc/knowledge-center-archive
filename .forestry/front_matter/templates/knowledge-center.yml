@@ -134,6 +134,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Bots & Automation/recommended-actions-with-maven.md
 - pages/documents/Troubleshooting/Messaging/troubleshooting-messaging-set-up-management.md
 - pages/documents/What's New/november-2018.md
 - pages/documents/What's New/january-2019.md
