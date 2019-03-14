@@ -67,8 +67,6 @@ The SLA in messaging is designed to correspond to the account's Response time co
 ### Solution:
 
 * The CSAT survey is presented to a consumer (assuming that CSAT survey is configured) when either the LiveEngage agent or the consumer closes the conversation.
-
-
 * The CSAT survey is displayed regardless of the assigned agent's state (Online, Back, Away).
 * The CSAT survey is displayed regardless of whether the conversation was interactive (message sent from both the agent and the consumer) or not.
 
@@ -131,6 +129,7 @@ If the SMS messages that are not received or are partially received have been se
 ## A LiveEngage account’s Facebook messages are no longer being routed to LiveEngage.
 
 ### Cause:
+
 If the following conditions are met then there could be a bug with Facebook.
 
 Conditions:
@@ -147,14 +146,18 @@ Conditions:
 
 ## Why aren’t automatic offline messages triggering during “off shift” hours?
 
-#### Issue:
-
-Automatic Offline Messages are not triggering during “off shift” hours.
-
-#### Possible causes and solutions:
+### Cause 
 
 1. The customer disabled automatic messages for a period of time, either in the past or currently.
-2. The agent manager set the LiveEngage account’s Off hours in the Shift status to the wrong time period. For more information about shift settings, see [configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html)
+2. The agent manager set the LiveEngage account’s Off hours in the Shift status to the wrong time period. 
+
+   {: .notice}  
+   Off hours are set according to the timezone of the browser you’re in when you set Off hours – not according to the account’s timezone.
+
+### Solution
+
+1. Ensure that automatic messages are not disabled 
+2. For more information about shift settings, see [configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html)
 
    {: .notice}  
    Off hours are set according to the timezone of the browser you’re in when you set Off hours – not according to the account’s timezone.
