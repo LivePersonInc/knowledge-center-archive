@@ -13,17 +13,17 @@ date: 2019-02-26 12:39:36 +0000
 ---
 ## Agent icon not aligned with first line of message on consumer iOS devices
 
-#### Issue:
+### Cause:
 
 The Agent icons are not aligned with first line of messages on consumer iOS devices. Instead the icons are located at/aligned with the bottom line of the messages.This issue occurs on iOS devices only. On Android devices the agents icons are aligned with the first line of the messages.
 
-#### Solution:
+### Solution:
 
 This is expected behavior.
 
 ## Mobile app messaging: Number of unread messages isn’t displayed
 
-#### Issue:
+### Cause
 
 The red badge containing the number of unread messages doesn’t always display to in-app messaging consumers using Android devices..
 
@@ -39,7 +39,7 @@ Let’s say you’re a consumer using your Android phone to message with a LiveP
 
 ![](/img/troubleshooting-consumer-experience1.png)
 
-#### Cause and solution:
+### Solution:
 
 It is expected behavior for the red badge to be removed when the scroll down indicator is clicked.
 
@@ -59,15 +59,11 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 ## Mobile app messaging: link preview not working on Android
 
-#### Issue:
-
-A messaging agent sent a link to a consumer who is using In-app messaging on an Android phone. The consumer receives the URL but the link preview (preview of the web page) doesn’t display on the consumer’s device.
-
-#### Cause:
+### Cause:
 
 The agent sent the URL without the **http://** prefix ([www.mysite.com](http://www.mysite.com) rather than [http://www.mysite.com](http://www.mysite.com "http://www.mysite.com")). Our Android SDK requires the the **http://** prefix in order to be able to display the Link Preview.
 
-#### Solution:
+### Solution:
 
 Always include the the **http:// prefix** in URLs that you send when messaging.
 
@@ -75,13 +71,13 @@ Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ## Mobile app messaging: double click doesn’t scroll to last message
 
-#### Issue:
+### Cause:
 
-When there is an unread message counter (red badge) on the scroll down indicator /shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
+This is expected behavior on Android devices. When there is an unread message counter (red badge) on the scroll down indicator /shortcut in the Messaging window, the consumer needs to tap on the indicator twice to reach the latest message. They should be able to tap once to reach the latest message.
 
-#### Cause and solution:
+### Solution:
 
-This is expected behavior on Android devices. The first click takes you to the "X unread messages" notification. It is NOT supposed to take you to the last message.
+ he first click takes you to the "X unread messages" notification. It is NOT supposed to take you to the last message.
 
 How the New Message Mechanism Works
 
@@ -98,28 +94,22 @@ How the New Message Mechanism Works
   ![](/img/troubleshooting-consumer-experience5.png)
 * You click the scroll down indicator (that no longer has the red badge) a second time, its functionality changes, and it takes you to the last message.
 
-## Why are messages disappearing from a consumer’s messaging window?
+## Why are messages disappearing from a consumer’s messaging window whilst agent can see all messages?
 
-#### Problem:
+### Cause:
 
-A consumer has reported that suddenly he is unable to see some of the previous messages in his ongoing conversation. The messages seem to disappear and each time he goes back into the conversation more messages disappear.
-
-On the agent side, the agent is able to see all messages.
-
-#### Cause:
-
-The conversation had been ongoing for almost a year! and consisted of more than 1000 conversation events.
+The conversation had been ongoing for a very long time and consisted of more than 1000 conversation events.
 
 * Each time a consumer goes back into an existing conversation, LiveEngage fetches all the conversation history and events from the time the conversation began and attempts to display all the messages to the consumer.
 * The LiveEngage process can fetch a maximum of 1000 conversation events. If there are more than 1000 events, the process randomly fetches and displays messages from the conversation. (The messages exist in the LiveEngage database but cannot all be retrieved by the consumer side’s end point)
 * An average conversation consists of 17 messages. Therefore this issue is very rare and only likely to occur when a conversation has been ongoing for a long time.
 
-#### Solution:
+### Solution:
 
 * "Resolve" conversations periodically (try not to continue a single conversation for more than a few weeks)
 * Set Autoclose to close conversations automatically after a set period of time, if it is not already set.
 
-Best Practice: Once an agent resolves a specific topic for the customer, they should make sure the conversation is closed.
+**Best Practice:** Once an agent resolves a specific topic for the customer, they should make sure the conversation is closed.
 
 ## Consumer’s web messaging window is stuck
 
