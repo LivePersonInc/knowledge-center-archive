@@ -43,13 +43,13 @@ For further information on LivePerson’s Password Policy, see Login Policy. To 
 
 LivePerson offers the following settings for restricting login options:
 
-| Setting | Description | LivePerson recommendation | How to enable |
-| --- | --- | --- | --- |
-| Failed login policy | Number of consecutive failed login attempts after which the system will automatically and immediately disable that user's account. The account will remain disabled until either an administrator manually enables the account, or the specified number of minutes has passed from when the account was initially disabled. | Set the number of failed logins value to 10, and the number of minutes before enabling value to 30. | Contact LivePerson. |
-| Reset Password Policy | When a password is reset through the Secure Password Reset feature, a notification email is sent indicating the login name of the user and the date and time that the password was changed. | Add the administrator’s email address. | Contact LivePerson. |
-| Auto-disable Agent Policy | Any agent that has not logged into LiveEngage within the number of days specified will be automatically disabled. | Set this value to 60. | Contact LivePerson. |
+| Setting | Description | LivePerson recommendation |
+| --- | --- | --- | 
+| Failed login policy | Number of consecutive failed login attempts after which the system will automatically and immediately disable that user's account. The account will remain disabled until either an administrator manually enables the account, or the specified number of minutes has passed from when the account was initially disabled. | Set the number of failed logins value to 10, and the number of minutes before enabling value to 30. | 
+| Reset Password Policy | When a password is reset through the Secure Password Reset feature, a notification email is sent indicating the login name of the user and the date and time that the password was changed. | Add the administrator’s email address. | 
+| Auto-disable Agent Policy | Any agent that has not logged into LiveEngage within the number of days specified will be automatically disabled. | Set this value to 60. | 
 | Idle User Policy | Monitors user activity in the Agent Workspace and will, after a predetermined period of inactivity, log the user out of LiveEngage. | Log the user out of the Agent Workspace after 15 minutes of inactivity. | In the Users tab footnote, select the third dropdown menu. Select the required period of inactivity before a user is logged out. This setting can be activated by an administrator only. |
-| IP restriction policy | Restricts login access to the Agent Workspace, providing enhanced security and control. Login access is restricted to a specified list of IP addresses. If the user's IP address does not belong to the IP address list, then the user will not be able to log in and a message is displayed.  | Enable. | Contact LivePerson. |
+| IP restriction policy | Restricts login access to the Agent Workspace, providing enhanced security and control. Login access is restricted to a specified list of IP addresses. If the user's IP address does not belong to the IP address list, then the user will not be able to log in and a message is displayed.  | Enable. | 
 
 For further information on LivePerson’s Password Policy, see Login Policy.
 
