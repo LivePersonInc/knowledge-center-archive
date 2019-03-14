@@ -23,6 +23,7 @@ Once a brand embraces messaging they need a way to scale their contact center op
 _Conversation Builder (dialog-based bot building)_
 
 ### Unique benefits of the Conversation Builder
+
 Our Conversation Builder is an all-in-one platform for easily building automations and bots that are tailor-made to be effective in conversational commerce. From creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce, the Conversation Builder provides brands with an easy-to-use bot builder that allows non-technical staff, often the people who best understand a brand’s voice,  to create, optimize and visualize bots.
 
 LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. This allows brands to leverage non-technical staff to build, optimize, and improve bots and automated conversation flows - creating bots that are more effective and competent, and drastically speeding up bot development and optimization.**The result is bots that are more effective and competent, and drastically speeds up bot development and optimization.**
@@ -39,7 +40,7 @@ As part of LivePerson’s conversational commerce platform, bots and automations
 
 ### **Agents as collaborators in training & optimization**
 
-The best people to train bots are human agents who are experts in conversations. Typically, agents are disconnected from the development and optimization process conducted by data scientists, developers or product managers. 
+The best people to train bots are human agents who are experts in conversations. Typically, agents are disconnected from the development and optimization process conducted by data scientists, developers or product managers.
 
 The Conversation Builder replaces the code-based programming required by most automation platform, and allows non-technical staff, like bot managers, agent managers and even qualified agents, to be hands-on building and training bots.
 
@@ -49,11 +50,13 @@ Together with integration to LivePerson's conversational commerce platform, ther
 
 Brands don’t need to start from scratch to build bots - they can leverage the Conversation Builder’s built-in automation templates for common workflows and channels as accelerators including:
 
-* Industry-specific templates for common workflows and verticals, such a retail, telecommunications and finance. These templates provide a starting point on which to build, customize and integrate with product, billing, CRM and other business systems like Shopify, Salesforce, Timetrade, Hybris.
+* Automation libraries with industry-specific templates for common workflows and verticals, such a retail, telecommunications and finance.
+* Industry specific templates provide a starting point on which to build, customize and integrate with product, billing, CRM and other business systems like Shopify, Salesforce, Timetrade, Hybris.
 * Integration with product catalogues, order systems, knowledge bases, and more.
 * And the option to leverage pre-existing automation and NLU investments including DialogFlow, Watson, Lex and other NLU providers.
 
-This allows brands to, for example, quickly connect their product catalogue.
+{: .notice}
+For example, a brand can use a prebuilt retail template from the automation library, edit the script to customize it according to their brand lingo, and immediately integrate to Shopify or connect their product catalogue.
 
 ## How the Conversation Builder works
 

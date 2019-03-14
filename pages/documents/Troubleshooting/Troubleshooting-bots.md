@@ -115,12 +115,12 @@ Note: Starting a conversation consists of two separate requests (both sent from 
 
 ## Why isn’t our agent manager able to join bot chats?
 
-Our agent manager who has join agent conversations permissions is not able to see the option to join our bot’s chats. He goes to the Agents list and opens an active bot conversation. But he does not see the **join** option.
+### Cause:
 
-**The reason this is happening is**:
+Our agent manager who has join agent conversations permissions is not able to see the option to join our bot’s chats. He goes to the Agents list and opens an active bot conversation. But he does not see the **join** option. This is because the **join** option is not available for bot chats. It is available for messaging conversations only.
 
-The join option is not available for bot chats. It is available for messaging conversations only.
+### Solution:
 
-Join conversation button on bottom of messaging window.
+See the join conversation button on the bottom of messaging window.
 
 ![](/img/Troubleshooting-bots1.png)
