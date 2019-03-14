@@ -452,17 +452,17 @@ A threshold is made up of two parts: the condition, and the formatting that will
 
  1. On the selected grid, right click on the name of the metric you’d like to define a threshold for. A list of options will display.
  2. Select ‘**Thresholds.**’ The Thresholds dialog box will open.
- 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows:
-    a.  **Color based**: to create a threshold to change the background color used to display metric 			values.
-    b. **Image based:** to replace metric values with an image.
- 4. From the second drop-down list, select the color or images you want to display:
-    a. Color: select a set of colors to apply to the values, such as Orange, Green, Red.
-    b. Images: select the images you would  like to display.
+ 3. From the ‘Thresholds Type’ options, select the type of formatting you want to apply to the metric values that meet the threshold condition, as follows: 
+    1. **Color based**: to create a threshold to change the background color used to display metric values. 
+    2. **Image based:** to replace metric values with an image.
+ 4. From the second drop-down list, select the color or images you want to display:  
+    1. Color: select a set of colors to apply to the values, such as Orange, Green, Red. 
+    2. Images: select the images you would  like to display.
 
-    The options include:
-    * Arrows
-    * Regular Pin
-    * Rounded Pin
+       The options include:
+       * Arrows
+       * Regular Pin
+       * Rounded Pin
  5. From the ‘Based on’ drop-down list, select the metric to use to define the threshold.
  6. From the drop-down list that will appear once you have selected the metric, select one of the following: 
     1. To create a threshold based on the value of the metric, select **Value**. For example, you can display metric values greater than 5 million in blue. 
