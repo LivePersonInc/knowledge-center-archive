@@ -31,7 +31,7 @@ For example, if you want to give consumers with a high cart value a faster servi
 
 **How to enable queue prioritization for chat:**
 
-Enable A/C setting: _Common.LiveChat_Queue_Priority_
+Contact your LivePerson representative to enable this feature. 
 
 **To prioritize an engagement:**
 
@@ -49,7 +49,7 @@ The 'no priority' setting will be given a lower priority than the 10th priority 
 
 ![](/img/queue-prior-chat-CG-3b.png)
 
-## Limitations 
+## Limitations
 
 * When automatic chat distribution (ACD) is enabled on your account **with auto accept**, the first consumer to enter the queue will automatically remain first in the queue and will not be prioritized according to the configured ranking. All subsequent consumers entering the queue will be prioritized correctly according to the configured priority level.
 * When ACD is disabled, or is enabled but with manual mode, the configured priority level will apply to all consumers.
