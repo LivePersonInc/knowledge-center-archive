@@ -21,13 +21,10 @@ When agents initiate **CoBrowse for Voice** session and visitors enter the requi
 
 ![](/img/Troubleshooting-chat2.png)
 
-#### Cause:
+### Solution:
 
-#### Solution:
-
-Visitors should enable 3rd-party cookies in their browsers.
-
-For more information on CoBrowse and CoBrowse for Voice see [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).
+* Visitors should enable 3rd-party cookies in their browsers.
+* For more information on CoBrowse and CoBrowse for Voice see [CoBrowse](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).
 
 ## The Pre-Chat survey routing question looks strange on iPhone devices
 
