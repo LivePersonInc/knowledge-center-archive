@@ -11,20 +11,21 @@ isNew: false
 date: 2019-02-25 13:14:06 +0000
 
 ---
-## Why don’t I get audio notifications for incoming conversations?
+## Agent is not getting audio notifications for incoming conversations.
 
-**Issue:** An agent is not getting audio notifications for incoming conversations.
+### Cause
 
-#### Possible causes and solutions:
-
-1. In the agent work space in LiveEngage audio notification is muted. Go to your agent status bar and unmute sound, as shown in the image below.
+1. In the agent work space in LiveEngage audio notification is muted.
 
    ![](/img/troubleshooting-agentworkspace.png)
-2. The agent’s browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
+2. The agent’s browser is not set to “Play Sounds in Webpages”. 
 
-   For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
+### Solution:
 
-   For other browsers, search the browser’s Help for instructions on turning on audio.
+1. Firstly check your agent status bar and unmute sound, as per the image above
+2. If the agents browser is not set to “Play Sounds in Webpages”. The agent should turn audio on in their browser.
+3. For Chrome browsers, see [Turn notifications on or off](https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en) in Google Chrome Help.
+4. For other browsers, search the browser’s Help for instructions on turning on audio.
 
    For Internet Explorer, follow these steps:
 
