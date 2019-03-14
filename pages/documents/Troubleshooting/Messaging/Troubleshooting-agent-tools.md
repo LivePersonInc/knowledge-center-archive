@@ -83,17 +83,13 @@ This is expected behavior.
 
 ## Why are conversations pending consumer response shown as “overdue” in the agent console?
 
-#### Issue:
-
-The last message in a conversation was sent by an agent at 3:37 p.m. The conversation is pending the consumer's response but on the Open Connections list it's shown as overdue 5+ hours (the value in the Response Time column is -5h 34m).
-
-#### Cause:
+### Cause:
 
 * The agent had manually placed an SLA of 24 hours on the conversation.
 * The agent responded before the 24 hours were up.
 * However, manual response times can only be removed manually so the time to respond counter was not changed and showed the conversation as overdue.
 
-#### Solution:
+### Solution:
 
 This is the expected behavior.
 
@@ -104,15 +100,13 @@ This is the expected behavior.
 
 ## Why are agents getting error messages when they send long messages?
 
-#### Issue:
+### Cause:
 
 When an agent tries to send a Facebook message with more than 800 characters, a red warning triangle displays and the message “Message format is not supported by the consumer's application” is displayed.
 
-#### Cause:
-
 Due to the Facebook integration limitation, messages sent by Agents cannot exceed 640 characters.
 
-#### Solution:
+### Solution:
 
 Do not exceed the supported length of messages, as detailed below:
 
@@ -122,15 +116,13 @@ Do not exceed the supported length of messages, as detailed below:
 
 ## The value of AWAY and ONLINE are identical for some Messaging Agents in the reports
 
-#### Issue:
+### Cause:
 
 When running the Messaging Performance Dashboard in Report Builder, the ONLINE metric presents 0 time for Messaging only agents.
 
-#### Cause:
-
 Messaging Agents must have Chat concurrency set (greater than 0) in order for the system to populate this metric's value. For Messaging Agents with Chat concurrency 0 (no chats), Online Time displays as 0.
 
-#### Solution:
+### Solution:
 
 1. Set all Messaging Users to Max no. live chats to 1 instead of 0.
 2. The day after you update these settings, the correct values will display for Online starting from the time you applied the update.
