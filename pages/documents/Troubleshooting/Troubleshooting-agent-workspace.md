@@ -63,11 +63,9 @@ For more information on Conversation Outcomes and the Conversation summary widge
 
 ## Why is there a delay in the delivery of agent messages?
 
-Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.
+### Cause:
 
-#### Cause:
-
-The affected agents were working in unsupported browser versions.
+Sometimes latency issues are experienced by users, such as agent statuses switching to away automatically, delayed delivery of agent messages to customers, etc.The affected agents were working in unsupported browser versions.
 
 #### Solution:
 
@@ -75,51 +73,45 @@ Update agent browser version. For a list of supported browsers, see system requi
 
 ## Why isn’t CoBrowse available to chat agents?
 
-Agents in chat do not have the CoBrowse icon available to them and therefore cannot initiate a CoBrowse session.
+### Cause:
 
-#### Possible causes:
-
+* Agents in chat do not have the CoBrowse icon available to them and therefore cannot initiate a CoBrowse session.
 * The CoBrowse function for the account is not switched on in Night Vision.
 * The agents are not assigned to a profile that includes CoBrowse permissions.
 
 ## Why isn’t the scroll bar showing in the predefined content widget?
 
-#### Possible cause:
+### Cause:
 
 A setting that is configurable in the Mac OS X.
 
-**To modify the setting**:
+### Solution: 
 
 1. Click the **Apple** menu at the top-left of the screen and select **System Preferences**.
 2. Click the **General preferences** pane (first one at the top).
 3. Under Show scroll bars select **Always**. The scroll bar will now display in the predefined content widget.
 
-## An Agent’s status is AWAY yet he is still Receiving Chats
+## An agent’s status is AWAY yet he is still receiving chats
 
-A LiveEngage agent received a chat notification while they are in Away state.
+### Cause:
 
-#### Cause:
+The ACD setting of the agent’s LiveEngage account is manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
 
-The ACD setting of the agent’s LiveEngage account is Manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
+### Solution:
 
-When the ACD setting is Manual, this is expected behavior. (This allows agent managers to get notifications and take chats when they feel their agents are overwhelmed.)
+When the ACD setting is manual, this is expected behavior. (This allows agent managers to get notifications and take chats when they feel their agents are overwhelmed.)
 
-**Note:**
-
-* Chats cannot be transferred from other agents to an agent who is in Away state.
-* Agents in Away state do NOT count toward the current available chat slots of a specific skill.
-
-![](/img/Agent-workspace-troubleshooting.png)
+{: .notice}  
+Note: Chats cannot be transferred from other agents to an agent who is in Away state.  
+Agents in Away state do NOT count toward the current available chat slots of a specific skill.
 
 ## Why don’t agents see their Predefined Content?
 
-A LiveEngage agent can no longer see their predefined content in the predefined content widget.
-
-#### Cause:
+### Cause:
 
 The account’s admin/agent manager exported the predefined content, modified all the predefined content IDs in the exported file and then imported the predefined content from the modified file. During the import process all the predefined content items in the account were deleted because it could not locate them in the import file. The import process identifies items by their IDs and the IDs in the import file had been changed.
 
-#### Solution:
+### Solution:
 
 Do not modify IDs of predefined content items.
 
