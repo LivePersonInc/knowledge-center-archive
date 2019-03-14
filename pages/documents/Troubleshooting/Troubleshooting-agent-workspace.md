@@ -36,17 +36,15 @@ date: 2019-02-25 13:14:06 +0000
 * Deselect the Play Sounds Option: Click to uncheck the option called “Play Sounds in Webpages.” This will turn off all sounds in your internet browsers.
 * Turn Sounds On Again When You’re Ready: If you would like to resume listening to sounds on your internet browser, be sure to follow these steps again and check the “Play Sounds in Webpages” option once again.
 
-## Why don’t some agents see the conversation summary widget?
-
-Some agents don’t see the conversation summary widget in their workspace.
+## Some agents can't see the conversation summary widget in their workspace
 
 ![](/img/agent-workspace-troubleshooting1.png)
 
-#### Cause:
+### Cause:
 
 The conversation summary widget is configured via Engagement Attributes on the Skill level. The account had set their **Visitor Journey** engagement attribute to track **Lead** information for agents with certain skills. The agents who did not see the conversation summary widget were not assigned to any skills in that list.
 
-#### Solution:
+### Solution:
 
 Assign the agents one of the skills configured for Visitor Journey leads.
 
