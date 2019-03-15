@@ -5,8 +5,8 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: Manage the Smart Capacity settings per skill to better control the time
   it takes a conversation to become inactive
-level3: ''
-permalink: contact-center-management-messaging-operations-smart-capacity-per-skill.html
+level3: Smart Capacity
+permalink: contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html
 isTutorial: false
 date: 2019-01-17 12:39:54 +0000
 isNew: false

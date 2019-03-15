@@ -72,8 +72,10 @@
             - level3name: Queue prioritization overview
             - level3name: Queue backlog management
         - pagename: Auto close for messaging conversations
-        - pagename: Smart Capacity overview
-        - pagename: Smart Capacity per skill
+        - pagename: Smart Capacity
+          level3:
+            - level3name: Smart Capacity overview
+            - level3name: Smart Capacity per skill
         - pagename: Preparing agents to start a shift
         - pagename: Shift scheduler configuration guide
         - pagename: Working hours management best practices
