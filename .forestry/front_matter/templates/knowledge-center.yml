@@ -101,6 +101,7 @@ fields:
     - November
     - December
     - Real time data
+    - Smart Capacity
   label: Level 3
   description: The level 3 name of the document
 - type: text
