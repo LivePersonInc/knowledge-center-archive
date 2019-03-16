@@ -169,10 +169,6 @@ body {
   font-weight: 500;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child span {
-  align-self: flex-end;
-}
-
 .consumerText {
   align-self: flex-end;
   background-color: transparent;

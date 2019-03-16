@@ -98,6 +98,11 @@ p + ul {
   border-right: 1px solid #dedddd;
 }
 
+#featurestable table > thead > tr > th {
+  padding: 14px 10px;
+  text-align: center;
+}
+
 #post-content table > thead > tr > th:last-child {
   border-right: 0;
 }
@@ -969,10 +974,7 @@ ul.mysidebar.nav > li:first-of-type {
   min-width: 150px;
 }
 
-#featurestable thead > tr > th {
-  padding: 14px 10px;
-  text-align: center;
-}
+
 
 #featurestable thead > tr > th:first-child {
   width: 13%;
@@ -1171,6 +1173,20 @@ w-div a:last-child {
 
   #feedback {
     width: 77%;
+  }
+
+  #post-content table#featurestable {
+    table-layout: fixed;
+    width: 135%;
+    max-width: none;
+  }
+
+  #post-content table#featurestable > thead > tr > th {
+    padding: 0;
+  }
+
+  #post-content table#featurestable tr td {
+    padding: 5px;
   }
 }
 
