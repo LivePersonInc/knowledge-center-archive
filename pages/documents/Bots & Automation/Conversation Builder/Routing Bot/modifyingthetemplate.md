@@ -3,7 +3,7 @@ pagename: "Step 2: Modify the template"
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Routing Bot
-permalink: bots-automation-conversation-builder-routing-bot-step-2:-modify-the-template.html
+permalink: ai-bots-automation-conversation-builder-routing-bot-step-2:-modify-the-template.html
 indicator: both
 isTutorial: false
 ---

@@ -3,7 +3,7 @@ pagename: Create a new bot
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Getting Started
-permalink: bots-automation-conversation-builder-getting-started-create-a-new-bot.html
+permalink: ai-bots-automation-conversation-builder-getting-started-create-a-new-bot.html
 indicator: both
 isTutorial: false
 ---

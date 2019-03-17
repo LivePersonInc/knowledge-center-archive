@@ -1,12 +1,12 @@
 ---
 pagename: Recommended Actions with Maven
-categoryName: Bots & automation
+categoryName: AI, Bots & automation
 subCategoryName: ''
 indicator: both
 subtitle: A continuously-learning platform that orchestrates all conversational interactions
   to recommend the best outcomes
-level3: ''
-permalink: bots-automation-recommended-actions-with-maven.html
+level3: MavenTM
+permalink: ai-bots-automation-maventm-recommended-actions-with-maven.html
 isTutorial: false
 isNew: false
 date: 2019-03-14 13:31:44 +0200
@@ -48,6 +48,6 @@ Agents are able to rate the relevance and usefulness of the recommended automati
 
 ## Plug in any automation or bot
 
-Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/bots-automation-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html) to learn how to get started.
+Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html) to learn how to get started.
 
 To get the bigger picture or learn more about how Maven fits into, check out the [LivePerson’s Conversational Commerce platform](https://knowledge.liveperson.com/getting-started-livepersons-conversational-commerce-platform.html#how-our-conversational-platform-works).

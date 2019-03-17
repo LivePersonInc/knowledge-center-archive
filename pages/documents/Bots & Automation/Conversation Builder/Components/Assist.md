@@ -3,7 +3,7 @@ pagename: Conversation Builder assistant
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Components
-permalink: bots-automation-conversation-builder-components-conversation-builder-assistant.html
+permalink: ai-bots-automation-conversation-builder-components-conversation-builder-assistant.html
 indicator: both
 isTutorial: false
 ---

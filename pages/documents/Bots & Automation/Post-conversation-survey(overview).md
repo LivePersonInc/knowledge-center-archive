@@ -1,12 +1,12 @@
 ---
 pagename: Post conversation survey bot
-categoryName: Bots & automation
+categoryName: AI, Bots & automation
 subCategoryName: ''
 indicator: messaging
 subtitle: Collect feedback from consumers at the end of a conversation without utilizing
   the time of a human agent
 level3: ''
-permalink: bots-automation-post-conversation-survey-bot.html
+permalink: ai-bots-automation-post-conversation-survey-bot.html
 isTutorial: false
 isNew: false
 date: 2019-02-18 13:54:54 +0000

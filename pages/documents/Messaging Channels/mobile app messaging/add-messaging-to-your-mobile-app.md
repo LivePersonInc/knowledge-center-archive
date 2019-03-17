@@ -168,7 +168,7 @@ Once you have added the mobile engagements to your app, remember to follow the g
 * Customize automatic messages
 * Create pre-defined content for your agents
 * Set up a routing bot
-* Set up the [Post Conversation Survey](bots-automation-post-conversation-survey.html)
+* Set up the [Post Conversation Survey](ai-bots-automation-post-conversation-survey-bot.html)
 
 ### Set expectations based on your actual working hours
 
@@ -201,4 +201,4 @@ The Routing Bot enables brands to easily identify the intent of the consumer and
 
 ### Set up the Post Conversation Survey
 
-The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured, [click here](bots-automation-post-conversation-survey.html).
+The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured, [click here](ai-bots-automation-post-conversation-survey-bot.html).

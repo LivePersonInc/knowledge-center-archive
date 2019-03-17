@@ -3,7 +3,7 @@ pagename: Entities
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Components
-permalink: bots-automation-conversation-builder-components-entities.html
+permalink: ai-bots-automation-conversation-builder-components-entities.html
 indicator: both
 isTutorial: false
 ---

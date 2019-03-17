@@ -3,7 +3,7 @@ pagename: Intent Builder
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Components
-permalink: bots-automation-conversation-builder-components-intent-builder.html
+permalink: ai-bots-automation-conversation-builder-components-intent-builder.html
 indicator: both
 isTutorial: false
 ---

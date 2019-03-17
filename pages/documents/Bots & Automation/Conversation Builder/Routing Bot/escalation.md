@@ -3,7 +3,7 @@ pagename: "Step 4: Escalation"
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Routing Bot
-permalink: bots-automation-conversation-builder-routing-bot-step-4:-escalation.html
+permalink: ai-bots-automation-conversation-builder-routing-bot-step-4:-escalation.html
 indicator: both
 isTutorial: false
 ---

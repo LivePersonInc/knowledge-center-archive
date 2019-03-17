@@ -1,10 +1,10 @@
 ---
-pagename: Conversation Builder How To
-categoryName: Bots & automation
+pagename: Getting started tutorials
+categoryName: AI, Bots & automation
 subCategoryName: Conversation Builder
 indicator: messaging
-level3: ''
-permalink: bots-automation-conversation-builder-how-to.html
+level3: Conversation Builder
+permalink: ai-bots-automation-conversation-builder-getting-started-tutorials.html
 isTutorial: false
 isNew: false
 date: 2019-03-17 14:03:55 +0000

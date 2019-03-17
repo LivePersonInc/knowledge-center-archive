@@ -18,7 +18,7 @@ Here is a round-up of the latest features, enhancements and enablements that are
 
 ## Conversation Builder
 
-The [Conversation Builder](bots-automation-conversation-builder-overview.html) is a world-class automation platform and bot builder that enables you to seamlessly create new automations, or connect an existing automation. It’s simple UI and unique capabilities allows you to easily build and design conversational bots. With automatic matches from response to intents and a rich library of pre-built conversation templates, even your non technical staff can design bots. More information on the conversation builder will be coming soon!
+The [Conversation Builder](ai-bots-automation-conversation-builder-conversation-builder-overview.html) is a world-class automation platform and bot builder that enables you to seamlessly create new automations, or connect an existing automation. It’s simple UI and unique capabilities allows you to easily build and design conversational bots. With automatic matches from response to intents and a rich library of pre-built conversation templates, even your non technical staff can design bots. More information on the conversation builder will be coming soon!
 
 ## WhatsApp Business Connector enhancements
 
@@ -32,7 +32,7 @@ Voice and video calls are already available for mobile app messaging using the C
 
 ### Search survey data in ‘All Connections’
 
-Agent and managers can filter within ‘All Connections’ historical conversations based on defined survey criteria from the [post conversation survey](bots-automation-post-conversation-survey.html). This is ideal for training agents by reading transcripts that have negative CSAT scores to highlight where improvement is needed.
+Agent and managers can filter within ‘All Connections’ historical conversations based on defined survey criteria from the [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html). This is ideal for training agents by reading transcripts that have negative CSAT scores to highlight where improvement is needed.
 
 ### Messaging interactions API enhancements
 

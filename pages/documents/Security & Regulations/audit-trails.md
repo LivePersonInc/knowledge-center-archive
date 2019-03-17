@@ -22,7 +22,7 @@ An audit trail is available for the following elements:
 * [Agent groups](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)
 * [Permissions](admin-settings-permissions-assign-permissions.html)
 * [LoBs](admin-settings-skills-groups-operate-business-divisions-from-one-account.html)
-* [Post Conversation Survey](bots-automation-post-conversation-survey.html)
+* [Post Conversation Survey](ai-bots-automation-post-conversation-survey-bot.html)
 * [Campaign scheduling](contact-center-management-campaigns-time-frame.html)
 * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 

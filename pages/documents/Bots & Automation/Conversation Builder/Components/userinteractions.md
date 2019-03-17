@@ -3,7 +3,7 @@ pagename: Interactions
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Components
-permalink: bots-automation-conversation-builder-components-interactions.html
+permalink: ai-bots-automation-conversation-builder-components-interactions.html
 indicator: both
 isTutorial: false
 ---

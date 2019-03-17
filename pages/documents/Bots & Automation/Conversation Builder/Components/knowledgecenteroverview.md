@@ -3,7 +3,7 @@ pagename: Knowledge base
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Components
-permalink: bots-automation-conversation-builder-components-knowledge-base.html
+permalink: ai-bots-automation-conversation-builder-components-knowledge-base.html
 indicator: both
 isTutorial: false
 ---

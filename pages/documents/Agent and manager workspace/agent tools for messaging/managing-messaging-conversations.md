@@ -142,7 +142,7 @@ For conversations that are awaiting a consumer response, the auto close mechanis
 
 **What happens when a conversation is closed?**
 
-Upon the closing of a conversation (whether done by the customer, the agent or automatically) the [Post Conversation Survey](bots-automation-post-conversation-survey.html) will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions.
+Upon the closing of a conversation (whether done by the customer, the agent or automatically) the [Post Conversation Survey](ai-bots-automation-post-conversation-survey-bot.html) will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions.
 
 The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the post-conversation survey.
 

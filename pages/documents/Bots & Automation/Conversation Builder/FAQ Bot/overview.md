@@ -3,7 +3,7 @@ pagename: Introduction
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: FAQ bot
-permalink: bots-automation-conversation-builder-faq-bot-introduction.html
+permalink: ai-bots-automation-conversation-builder-faq-bot-introduction.html
 indicator: both
 isTutorial: false
 ---

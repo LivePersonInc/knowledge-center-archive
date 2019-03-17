@@ -3,7 +3,7 @@ pagename: Connect to LivePerson
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Getting Started
-permalink: bots-automation-conversation-builder-getting-started-connect-to-liveperson.html
+permalink: ai-bots-automation-conversation-builder-getting-started-connect-to-liveperson.html
 indicator: both
 isTutorial: false
 ---

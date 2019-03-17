@@ -3,7 +3,7 @@ pagename: "Step 1: Create a knowledge base"
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: FAQ bot
-permalink: bots-automation-conversation-builder-faq-bot-step-1:-create-a-knowledge-base.html
+permalink: ai-bots-automation-conversation-builder-faq-bot-step-1:-create-a-knowledge-base.html
 indicator: both
 isTutorial: false
 ---

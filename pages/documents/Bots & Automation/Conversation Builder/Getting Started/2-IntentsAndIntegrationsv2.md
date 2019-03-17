@@ -3,7 +3,7 @@ pagename: 'Intents & integrations'
 categoryName: "Bots & automation"
 subCategoryName: Conversation Builder
 level3: Getting Started
-permalink: bots-automation-conversation-builder-getting-started-intents-integrations.html
+permalink: ai-bots-automation-conversation-builder-getting-started-intents-integrations.html
 indicator: both
 isTutorial: false
 ---
