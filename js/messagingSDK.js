@@ -68,10 +68,13 @@ windowKit.onAgentRichContentEvent(function(content) {
 		//send it to the conversation, it will get appended in onVisitorTextEvent
 		windowKit.sendMessage(scText);
 		var buttons = $('.lp-json-pollock-layout').children('.lp-json-pollock-element-button');
-		}
+		$(this).addClass('keep')
 		$.each (buttons, function() {
-			$(this).css('display','none');
-		})
+			if (!$(this).hasClass('keep')) {
+			$(this).addClass('fadeout');
+		}
+	});
+	}
 		//if the user wants to search, show the input field
 		if (scText == "Search for something else") {
 			displayInput();

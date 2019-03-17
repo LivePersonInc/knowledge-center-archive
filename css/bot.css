@@ -104,6 +104,15 @@ body {
   margin-right: 20px;
   padding: 10px 20px 10px 20px;
   background-color: #4a61a9;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
+}
+
+.fadeout {
+  opacity: 0.3;
 }
 
 
