@@ -2,14 +2,13 @@
 pagename: Proactive engagements for web messaging
 categoryName: Messaging channels
 subCategoryName: Web messaging
-indicator: chat
-subtitle: ''
+indicator: messaging
+subtitle: Effectively target your customers based on behavior insights
 level3: ''
 permalink: messaging-channels-web-messaging-proactive-engagements-for-web-messaging.html
 isTutorial: false
 isNew: false
 date: 2019-03-17 16:27:32 +0200
-published: false
 
 ---
 ## Introduction
