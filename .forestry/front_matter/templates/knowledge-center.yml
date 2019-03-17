@@ -134,3 +134,6 @@ fields:
   label: New Feature
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
+pages:
+- pages/documents/Messaging Channels/web messaging/proactive-engagements-for-web-messaging.md
+- pages/documents/Messaging Channels/Live chat/displaying-chat-engagements.md
