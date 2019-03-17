@@ -410,6 +410,12 @@ function replaceTitle() {
 	document.title = newTitle;
 };
 
+function agreeButton () {
+	var banner = document.getElementsByTagName('w-div');
+	$(banner).css('bottom', '-62px');
+	console.log('I agree');
+}
+
 function isEdge () {
 		var boxes = document.getElementsByClassName("mainbox");
 		$.each(boxes, function() {

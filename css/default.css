@@ -1110,6 +1110,7 @@ w-div {
   display: flex !important;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto", "Open Sans", Helvetica;
 }
 
 w-div span {
@@ -1137,6 +1138,11 @@ w-div a:last-child {
   #homebuttons {
     flex: unset;
     margin-left: 50px;
+    margin-right: -60px;
+  }
+
+  #contact {
+    margin-right: 14px;
   }
 
   #post-content {
@@ -1187,6 +1193,10 @@ w-div a:last-child {
 
   #post-content table#featurestable tr td {
     padding: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 104.2%;
   }
 }
 
