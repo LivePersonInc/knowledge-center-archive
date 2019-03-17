@@ -1155,6 +1155,7 @@ w-div a:last-child {
     max-height: 50vh;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-top: -150px;
   }
 
   #mysidebar {
