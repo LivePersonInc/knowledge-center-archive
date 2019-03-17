@@ -14,6 +14,8 @@ date: 2019-01-23 13:49:32 +0000
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238904916" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<iframe style="max-width: 750px;" src="[https://vimeo.com/312512034/ebee68ceda](https://vimeo.com/312512034/ebee68ceda "https://vimeo.com/312512034/ebee68ceda")" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Bots and large-scale automations transform how brands interact with consumers, enabling one-to-one interactions that replace the IVR, websites, and apps with conversations. Bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. Since consumers want to build and maintain relationships with brands just as they talk to one another, through natural language and dialogs, bots and agents are key to operating automation at scale.
 
 ## Humans and bots work together in LivePerson
