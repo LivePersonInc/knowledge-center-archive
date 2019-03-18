@@ -36,6 +36,7 @@ Maven monitors all conversations, looking for opportunities to accelerate outcom
 
 * **Agent workspace** - Agent assistance features such as [Recommended Actions](ai-bots-automation-maven-recommended-actions.html) allows agents to join bots to conversations or share knowledge base content
 * **Developer focused APIs** - Integrate conversational context signals into your websites or applications, or have brand developers  plug-in (extend or customize) capabilities relative to NLU
+* **AI Maven hub** - Configure and define rules that drive key business outcomes and present opportunities for improvement (i.e, routing of inbound conversations to automations or humans based on intent without building routing bots)
 
   
 To get the bigger picture or learn more about how Maven fits into, check out the [LivePerson’s Conversational Commerce platform](https://knowledge.liveperson.com/getting-started-livepersons-conversational-commerce-platform.html#how-our-conversational-platform-works).
