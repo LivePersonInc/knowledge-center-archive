@@ -32,7 +32,7 @@ Through efficient use of humans, bots and automations, Maven exposes areas for i
 
 Maven monitors all conversations, looking for opportunities to accelerate outcomes for conversations by assisting agents. Maven ‘s capabilities will expand to include actively intercepting every conversation, and orchestrating through a learning life-cycle described below:
 
-## Accessing Maven
+## Accessing and using Maven
 
 * **Agent workspace** - Agent assistance features such as [Recommended Actions](ai-bots-automation-maven-recommended-actions.html) allows agents to join bots to conversations or share knowledge base content
 * **Developer focused APIs** - Integrate conversational context signals into your websites or applications, or have brand developers  plug-in (extend or customize) capabilities relative to NLU
