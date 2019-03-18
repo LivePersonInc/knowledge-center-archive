@@ -63,8 +63,7 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 {:start="4"}
 
-1. Under configuration, click **Log in**
-   **Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
+1. Under configuration, click **Log in**. **Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
 
 {:start="5"}
 2. **If you are already logged in to Facebook:** A new smaller window pops-up asking if you would like to _"Continue as _________?"_ and you click on _"Continue as _________"_
