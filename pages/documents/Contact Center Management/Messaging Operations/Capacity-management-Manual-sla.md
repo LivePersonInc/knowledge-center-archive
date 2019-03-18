@@ -1,9 +1,9 @@
 ---
-pagename: 'Capacity Management for Manual SLA '
+pagename: 'Capacity management for manual SLA '
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: ''
+subtitle: Smart capacity reacts to manual SLA settings and improves the operation
 level3: Smart Capacity
 permalink: contact-center-management-messaging-operations-smart-capacity-capacity-management-for-manual-sla.html
 isTutorial: false
