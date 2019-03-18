@@ -12,14 +12,13 @@ isNew: false
 date: 2019-03-14 11:31:44 +0000
 
 ---
-LivePerson’s Maven is a continuously-learning AI engine that orchestrates all conversational interactions to ensure the best outcomes. Maven consists of suite of features from smart routing to bots and agents, intelligent handoffs, trend detection and reaction, analytics, recommendations and much more.
+LivePerson’s [Maven](ai-bots-automation-maven-maven-overview.html) is a continuously-learning AI engine that orchestrates all conversational interactions to ensure the best outcomes - the  brain inside LivePerson’s conversational commerce platform.
 
 **Recommended Actions** is Maven’s agent assistance feature that actively recommends or executes hand-offs to bots based on the conversation. It scans each conversation turn for intent, and then determines and presents the next best action to the agent. By incorporating automations mid-conversation, Recommended Actions frees up agent capacity to handle other messages, making agents significantly more efficient.
 
-
 ## Key benefits of Recommended Actions
 
-* Examines each conversational turn to assess consumer intent, historical context, personalized info, available agents and more
+* Examines each conversational turn to assess consumer intent
 * Recommends or executes the next action for the best outcome
 * Makes human agents more efficient by enabling them to hand off menial tasks to automations
 * Accelerates utilization of existing automations by improving contextual discovery
@@ -28,11 +27,9 @@ LivePerson’s Maven is a continuously-learning AI engine that orchestrates all 
 
 ### Intent recognition
 
-Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow.
+[Maven](ai-bots-automation-maven-maven-overview.html) intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
 
-![](/img/recommended-actions-with-maven-2.png)
-
-### Best actions recommended in real time
+### Actions recommended in real time
 
 Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
@@ -44,9 +41,6 @@ Agents are able to rate the relevance and usefulness of the recommended automati
 
 ![](/img/recommended-actions-with-maven-4.png)
 
-
 ## Plug in any automation or bot
 
-Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html) to learn how to get started.
-
-To get the bigger picture or learn more about how Maven fits into, check out the [LivePerson’s Conversational Commerce platform](https://knowledge.liveperson.com/getting-started-livepersons-conversational-commerce-platform.html#how-our-conversational-platform-works).
+Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the [tutorials and guides on the Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html) to learn how to get started.
