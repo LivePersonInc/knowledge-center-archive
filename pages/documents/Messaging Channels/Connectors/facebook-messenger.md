@@ -32,7 +32,6 @@ With over a billion messages being sent between people and businesses per month 
 * **Offline response:** lets customers know you are offline but will respond soon e.g. _Hi, we’re away right now but we’ll get back to you shortly_.
 
 {: .notice}
-
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
 ## How conversations start
@@ -57,17 +56,16 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 ![](/img/facebook-messenger-1.png)
 
 {:start="3"}
-
 1. Enable the Activate Facebook Source toggle, then click **Next.**
 
 ![](/img/facebook-messenger-2.png)
 
 {:start="4"}
-
 1. Under configuration, click **Log in**
 
-**Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
+	**Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
 
+{:start="5"}
 2. **If you are already logged in to Facebook:** A new smaller window pops-up asking if you would like to _"Continue as _________?"_ and you click on _"Continue as _________"_
 3. **If you have Admin rights to a Facebook page:** it will ask you "What Pages do you want to use with LP on Messenger (VA1)?", you select the page(s) and click "Next". **If you are not Admin of a Facebook Page it will skip to the next step**
 4. It will now ask you "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done"
