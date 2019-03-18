@@ -51,10 +51,10 @@
   image: bots-automation
   subcategories:
     - subcategoryname: How bots work with LivePerson
-    - subcategoryname: MavenTM
+    - subcategoryname: Maven
       pages:
         - pagename: Maven overview
-        - pagename: Recommended actions with Maven
+        - pagename: Recommended Actions
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
