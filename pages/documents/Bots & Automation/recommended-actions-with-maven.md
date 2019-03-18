@@ -1,16 +1,15 @@
 ---
-pagename: Recommended Actions with Maven
-categoryName: AI, Bots & automation
+pagename: 'Recommended Actions '
+categoryName: Bots & automation
 subCategoryName: ''
 indicator: both
 subtitle: A continuously-learning platform that orchestrates all conversational interactions
   to recommend the best outcomes
-level3: MavenTM
-permalink: ai-bots-automation-maventm-recommended-actions-with-maven.html
+level3: Getting started
+permalink: ai-bots-automation-maven-recommended-actions.html
 isTutorial: false
 isNew: false
-date: 2019-03-14 13:31:44 +0200
-published: true
+date: 2019-03-14 11:31:44 +0000
 
 ---
 LivePerson’s Maven is a continuously-learning AI engine that orchestrates all conversational interactions to ensure the best outcomes. Maven consists of suite of features from smart routing to bots and agents, intelligent handoffs, trend detection and reaction, analytics, recommendations and much more.
