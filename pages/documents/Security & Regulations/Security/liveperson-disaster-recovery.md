@@ -73,3 +73,11 @@ The disaster recovery test strategy consists of detailed evaluation, planning an
 ## Monitoring
 
 Beyond the ongoing system monitoring done in the DR sites, we implemented an end to end mechanism that constantly tests our services. The tests are based on our end to end scenarios running on our active sites. This monitoring mechanism gives us a high confidence level that all is ready to go when the time arrives and that nothing was broken between our scheduled DR tests above.
+
+## Recovery Times
+
+LivePerson recovery time objective (RTO) it 2 hours and recovery point objective (RPO) is 24 hours.
+
+## Additional information
+
+Further data center wide failure scenarios and mitigation procedures are discussed in LivePerson Business Continuity Plan (BCP) documentation.
