@@ -12,7 +12,9 @@ isNew: false
 date: 2019-03-14 11:31:44 +0000
 
 ---
-LivePerson’s Maven is a AI-powered continuously-learning platform that orchestrates all conversational interactions to ensure the best outcomes. Maven serves as the brain inside LivePerson’s conversational commerce platform, powering optimal decisions on when to use automations and humans to elegantly resolve consumer contacts, accelerating the efficiency of human agents managing conversations, and providing an extensible framework for brands & developers to customize & extend our platform.
+LivePerson’s Maven is a AI-powered continuously-learning platform that orchestrates all conversational interactions to ensure the best outcomes. 
+
+Maven serves as the brain inside LivePerson’s conversational commerce platform, powering optimal decisions on when to use automations and humans to elegantly resolve consumer contacts. The result is an increased agent efficiency, and access to an extensible framework for brands and developers to customize and extend LivePerson's platform.
 
 ## Key capabilities
 
