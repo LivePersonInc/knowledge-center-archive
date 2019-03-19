@@ -15,6 +15,7 @@
       pages:
         - pagename: Add web messaging to your website
         - pagename: Authenticated web messaging
+        - pagename: Proactive engagements for web messaging
     - subcategoryname: "Mobile app messaging"
       pages:
         - pagename: Add messaging to your mobile app
@@ -45,7 +46,6 @@
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
         - pagename: Engagement window widgets
-    - subcategoryname: Proactive engagements for web messaging
 
 - categoryname: "AI, bots & automation"
   image: bots-automation
