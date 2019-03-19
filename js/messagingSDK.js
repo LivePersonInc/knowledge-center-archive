@@ -73,6 +73,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 			if (!$(this).hasClass('keep')) {
 			$(this).addClass('fadeout');
 		}
+			$(this).css('pointer-events', 'none');
 	});
 	}
 		//if the user wants to search, show the input field

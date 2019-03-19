@@ -104,6 +104,7 @@ body {
   margin-right: 20px;
   padding: 10px 20px 10px 20px;
   background-color: #4a61a9;
+  cursor: pointer;
   opacity: 1;
   -webkit-transition: opacity 0.35s ease;
   -moz-transition: opacity 0.35s ease;
@@ -134,6 +135,7 @@ body {
   font-size: 17px;
   font-family: "Roboto", "Open Sans", Helvetica;
   color: #fff !important;
+  cursor: pointer;
 }
 
 .lp-json-pollock-layout-carousel {
