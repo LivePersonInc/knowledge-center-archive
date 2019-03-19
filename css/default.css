@@ -1238,6 +1238,7 @@ w-div a:last-child {
     padding-top: 20px;
     position: absolute;
     width: 90%;
+    height: 100vh;
   }
 
   #documenttitlecontainer {
