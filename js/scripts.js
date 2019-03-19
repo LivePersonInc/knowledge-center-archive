@@ -10,6 +10,9 @@ $(document).ready(function () {
 	populateAnchors();
 	mobileHamburger();
 	isExplorer();
+	setTimeout(function() {
+		agreeButton();
+	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
 	searchHighlight();
@@ -411,9 +414,13 @@ function replaceTitle() {
 };
 
 function agreeButton () {
-	var banner = document.getElementsByTagName('w-div');
-	$(banner).css('bottom', '-62px');
-	console.log('I agree');
+	var agreeButton = document.querySelector('w-div > a');
+	$(agreeButton).on('click', function(event) {
+		event.preventDefault();
+		var banner = document.getElementsByTagName('w-div');
+		$(banner).css('bottom', '-62px');
+		console.log('I agree');
+	})
 }
 
 function isEdge () {
