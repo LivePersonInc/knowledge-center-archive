@@ -5,7 +5,7 @@ subCategoryName: Live chat
 indicator: chat
 subtitle: Invite your visitors to chat live with an agent
 level3: ''
-permalink: messaging-channels-live-chat-add-live-chat-to-your-website
+permalink: messaging-channels-live-chat-add-live-chat-to-your-website.html
 isTutorial: false
 isNew: false
 date: 2019-01-29 13:02:52 +0000

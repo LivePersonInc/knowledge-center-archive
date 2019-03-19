@@ -1221,11 +1221,16 @@ w-div a:last-child {
 }
 
 @media screen and (max-width: 450px) {
+  #defaultheader {
+    z-index: 3;
+  }
+
   #defaultsidebar {
     display: none;
     grid-column: unset;
     position: absolute;
     width: 100%;
+    z-index: 2;
   }
 
   #mysidebar {
