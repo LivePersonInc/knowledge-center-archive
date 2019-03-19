@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: both
 subtitle: Define where your engagement should display
 level3: ''
-permalink: contact-center-management-campaigns-entry-point
+permalink: contact-center-management-campaigns-entry-point.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 15:05:01 +0000
