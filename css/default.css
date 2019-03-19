@@ -1236,6 +1236,8 @@ w-div a:last-child {
 
   #mysidebar {
     padding-top: 20px;
+    position: absolute;
+    width: 90%;
   }
 
   #documenttitlecontainer {
