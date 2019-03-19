@@ -64,8 +64,8 @@ function navigateContent(url) {
 				}
 		  }, 300);
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
-				$('#mysidebar').slideUp(400);
-				$('#mysidebar').data('expanded', 'false');
+				$('#defaultsidebar').slideUp(400);
+				$('#defaultsidebar').data('expanded', 'false');
 			}
 			if ($('#defaultfooter').hasClass('botfooter')) {
 				$('#defaultfooter').removeClass('botfooter');
