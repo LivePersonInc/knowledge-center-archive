@@ -1239,6 +1239,7 @@ w-div a:last-child {
     position: absolute;
     width: 90%;
     height: auto;
+    background-color: #fff;
   }
 
   #documenttitlecontainer {
