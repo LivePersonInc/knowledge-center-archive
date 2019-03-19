@@ -679,6 +679,7 @@ ul.mysidebar.nav > li:first-of-type {
   position: relative;
   align-self: center;
   margin-right: 13px;
+  background-color: transparent;
 }
 
 .sidebarbutton:focus {
