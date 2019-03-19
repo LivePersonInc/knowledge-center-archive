@@ -1274,13 +1274,4 @@ w-div a:last-child {
   .mobilefeaturestable {
     display: block;
   }
-
-  #caseyContainer {
-    width: 100%;
-    margin-left: 30px;
-  }
-
-  #resetcontainer {
-    grid-column: 7;
-  }
 }
