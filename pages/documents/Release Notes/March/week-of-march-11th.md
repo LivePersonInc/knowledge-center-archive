@@ -28,7 +28,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The response time metrics in the Messaging Performance dashboard are enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
 
-The existing metrics for Time to Response and Time to First Response reflect the average time measured from the moment the consumer sent a message to the moment when the agent send his response. These metrics can be be used for analyzing the consumer's experience in messaging (i.e., how much time consumers are waiting for a response?), hence have been renamed to ‘Avg Wait Time’.
+The existing metrics for Time to Response and Time to First Response reflect the average time measured from the moment the consumer sent a message to the moment when the agent send his response. These metrics can be used for analyzing the consumer's experience in messaging (i.e., how much time consumers are waiting for a response?), hence have been renamed to ‘Avg Wait Time’.
 
 New metrics, reflecting agents’ efficiency, have been added, helping agent managers to answer questions such as - how efficient is the agent in responding to conversations? how long does it take the agent to respond? These metrics are measured from the moment the conversation was assigned to the agent to the moment the agent sent his response.
 
