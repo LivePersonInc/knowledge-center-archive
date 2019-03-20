@@ -8,7 +8,7 @@ level3: March
 permalink: release-notes-2019-march-week-of-march-11th.html
 isTutorial: false
 isNew: false
-date: 2019-03-20 18:34:40 +0200
+date: 2019-03-20 16:34:40 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during Feb 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -21,7 +21,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## New functionality
 
 ### \[Report Builder\] Response Time metrics (LE-95919)
-
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -41,7 +40,7 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 | AVG. Wait Time For First Agent Response - First Time Conversations | The time on average a consumer who messaged the brand for the first time waits for a response from the brand. Measured from the time the first message was sent by the consumer, to the first response provided by an agent in the conversation. | AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS |
 | AVG. Wait Time For First Human Agent Response | The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation. Measured from the first message sent by the consumer in the conversation, to the first response provided by a human agent. | AVG. TIME TO FIRST HUMAN AGENT RESPONSE |
 | AVG. Wait Time For First Human Agent Response - From Bot Escalation | The time on average a consumer waits for the first response in a conversation by a human agent. Measured from the time a bot escalates a conversation to another skill-queue to the first response give by the human agent. | AVG. TIME TO FIRST HUMAN AGENT RESPONSE FROM BOT ESCALATION |
-| AVG. Wait time to first human agent response - After transfer | The time on average a consumer waits for a response from the first agent assigned to the conversation after it was transferred.Measured from the time the conversation was transferred (including skill-to-skill transfer, agent-to-agent transfer or takeover) until a response is given by the agent. | *New metric* |
+| AVG. Wait time to first human agent response - After transfer | The time on average a consumer waits for a response from the first agent assigned to the conversation after it was transferred.Measured from the time the conversation was transferred (including skill-to-skill transfer, agent-to-agent transfer or takeover) until a response is given by the agent. | New metric |
 
 #### Agent Responsiveness metrics
 
@@ -75,33 +74,28 @@ The documents come in two version; Daily and Monthly.
 
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
-
 | Predefined grid in RB | Same data is also available in - |
 | --- | --- |
 | BI grid | RB dashboard |
-| Agent Activity Grid - DailyAgent Activity Grid - Monthly | Operational BI:Agent Activity Grid | Agent Activity Dashboard:Agent Activity Grid (2nd panel) |
-| Skill Activity Grid - DailySkill Activity Grid - Monthly | Operational BI:Engagement Activity | Skill Activity Dashboard:Skill Activity Grid (2nd sheet) |
-| Survey Activity Grid - Daily Survey Activity Grid - Monthly | Operational BI:Survey Activity | Survey Activity Dashboard:Survey Activity Grid (2nd sheet) |
-| Goal Tracker Grid | Operational BI:Agent Goal Tracker | Goal Tracker Dashboard |
-| Business Activity Grid - Daily*Business Activity Grid - Monthly* | Campaign BI:Brand (Site), Campaign and Engagement level | Business Activity Dashboard |
+| Agent Activity Grid - DailyAgent Activity Grid - Monthly | Operational BI:Agent Activity Grid |
+| Skill Activity Grid - DailySkill Activity Grid - Monthly | Operational BI:Engagement Activity |
+| Survey Activity Grid - Daily Survey Activity Grid - Monthly | Operational BI:Survey Activity |
+| Goal Tracker Grid | Operational BI:Agent Goal Tracker |
+| Business Activity Grid - DailyBusiness Activity Grid - Monthly | Campaign BI:Brand (Site), Campaign and Engagement level |
 
-\* The Business Activity Grids are available in Report Builder since May 2018 (RB2.3). The grids have been moved into the predefined grids folder.
+{: .notice}
+The Business Activity Grids are available in Report Builder since May 2018 (RB2.3). The grids have been moved into the predefined grids folder.
 
-All the grids (new and existing) share the same look-and-feel, which is different from the RB dashabbords - they grids have white background while the dashboards have a dark theme.
+All the grids (new and existing) share the same look-and-feel, which is different from the RB dashabbords - they grids have white background while the dashboards have a dark theme. The white background allow easier to use grids in Excel.
 
-The white background allow easier to use grids in Excel.
+**How to enable:** To enable, please contact you LivePerson account team.
 
-**How to enable**
-
-To enable, please contact you LivePerson account team.
-
-**Please note:**
-
+{: .notice}
 Users that wish to make changes to these documents can only alter the filter settings and save this as a user copy. There is not an option to alter the attributes and metrics nor change the sequence of the columns.
 
 ## Enhancements
 
-### [Report Builder] Subscription expiration increase to 6 Months
+### \[Report Builder\] Subscription expiration increase to 6 Months
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -111,18 +105,17 @@ LivePerson has made an enhancement to Report Builder subscriptions that increase
 
 **How to enable**: Automatic for all subscriptions moving forward.
 
-**Limitations**
-
+**Limitations:**
 * For existing subscriptions, the “Do Not Deliver After” expiration date will need to be updated manually if applicable.
 * The current process for renewing or modifying the subscription expiration date is not included in this enhancement.
 
-![](https://lh5.googleusercontent.com/Fb404Syl1fpTQP3uKo_GiS7R-AHkY0tjSyFjBvQlMKDo1WpVyMXfH3LSAWIUjS9hVWyjZGMdF6_6ITHm7JDx8M8abEu8uUZjLEYRP6FXhUVx5zswt4Cb4xkIEB-pSPn4J1ncC7fN =624x159)
+![](/img/week-of-march-11th-4.png)
 
 When setting up a new subscription, the default “Do Not Deliver After” date will be set 6 months in the future from the date the subscription is created.
 
 ## Agent Workspace
 
-### [Conversation Builder] Enabling Automation.Conversation_Builder feature flag
+### \[Conversation Builder\] Enabling Automation.Conversation_Builder feature flag
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -138,10 +131,10 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 
 **Screenshots:**
 
-**Administrator role(it has an extra privilege)**
+**Administrator role(it has an extra privilege):**
 
-**![](https://lh6.googleusercontent.com/Pnj4QTponnb3cIRdJjVUM2egiNzT7FXwzaFmlexpZoNBdy3vjcLJZvFeWd98HHhD2ugxmqGJIiF_TRJ4j_3quFlZZKu5LPuLDkhoQHoZfsp-P9Epl-b7uT1ASHl2d4kh6PkHX9U4 =614x149)**
+![](/img/week-of-march-11th-5.png)
 
-**Other roles (No admin privilege)**
+**Other roles (No admin privilege):**
 
-![](https://lh3.googleusercontent.com/4_dlraqWgVTD2-hE5w0X0KpKjXRlsVY2_22Tx_G7aCDk_QCyseqJy1k6WYhwKfVjdHVQA6hy5CFXQ86dw5JqBoDyHoLHNswG06kc1hR8sV73B4lcv3f0y0KTonw28CU9dTKzNohl =624x154)
+![](/img/week-of-march-11th-6.png)
