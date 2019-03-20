@@ -74,15 +74,6 @@ The documents come in two version; Daily and Monthly.
 
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
-| Predefined grid in RB | Same data is also available in - |
-| --- | --- |
-| BI grid | RB dashboard |
-| Agent Activity Grid - DailyAgent Activity Grid - Monthly | Operational BI:Agent Activity Grid |
-| Skill Activity Grid - DailySkill Activity Grid - Monthly | Operational BI:Engagement Activity |
-| Survey Activity Grid - Daily Survey Activity Grid - Monthly | Operational BI:Survey Activity |
-| Goal Tracker Grid | Operational BI:Agent Goal Tracker |
-| Business Activity Grid - DailyBusiness Activity Grid - Monthly | Campaign BI:Brand (Site), Campaign and Engagement level |
-
 {: .notice}
 The Business Activity Grids are available in Report Builder since May 2018 (RB2.3). The grids have been moved into the predefined grids folder.
 
