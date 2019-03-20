@@ -14,7 +14,7 @@ date: 2019-03-14 11:31:44 +0000
 ---
 LivePerson’s [Maven](ai-bots-automation-maven-maven-overview.html) is a continuously-learning AI engine that orchestrates all conversational interactions to ensure the best outcomes - the  brain inside LivePerson’s conversational commerce platform.
 
-**Recommended Actions** is Maven’s agent assistance feature that actively recommends or executes hand-offs to bots based on the conversation. It scans each conversation turn for intent, and then determines and presents the next best action to the agent. By incorporating automations mid-conversation, Recommended Actions frees up agent capacity to handle other messages, making agents significantly more efficient.
+**Recommended Actions** is Maven’s agent assistance feature that actively recommends hand-offs to bots based on the conversation. It scans each conversation turn for intent, and then determines and presents the next best action to the agent. By incorporating automations mid-conversation, Recommended Actions frees up agent capacity to handle other messages, making agents significantly more efficient.
 
 ## Key benefits of Recommended Actions
 
