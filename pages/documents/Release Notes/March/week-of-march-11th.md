@@ -66,6 +66,7 @@ The documents come in two version; Daily and Monthly.
 * The daily version has the ability to retrieve data for maximum of 4 months with data availability dating back to 13 months.
 * The monthly version provides monthly aggregations of the metrics and can range from a single month to 13 months of data availability.
 
+<br/>
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
 ![](/img/week-of-march-11th-3.png)
