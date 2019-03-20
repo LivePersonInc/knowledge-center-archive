@@ -114,7 +114,7 @@ function scrollBottom () {
 		//change the var so this doesn't repeat
 		isScrolling = true;
 		//find the bottom of the conversation window by adding the top attribute and the height of the div
-	var bottom = $('#caseyContainer :last').position().top;
+	var bottom = $('#caseyContainer div:last').position().top;
 	//now that we have bottom, animate the body and html to simulate a scroll
 		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
 	}

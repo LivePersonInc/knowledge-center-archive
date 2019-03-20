@@ -142,6 +142,10 @@ body {
   cursor: pointer;
 }
 
+.lp-json-pollock .lp-json-pollock-element-button button:focus {
+  outline: none;
+}
+
 .lp-json-pollock-layout-carousel {
   display: flex !important;
 }

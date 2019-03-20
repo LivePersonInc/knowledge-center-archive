@@ -9,7 +9,7 @@ permalink: release-notes-2019-march-week-of-march-4th.html
 isTutorial: false
 isNew: false
 date: 2019-03-20 18:19:40 +0200
-published: false
+published: true
 
 ---
 These release notes include new features arriving to LiveEngage during Feb 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -36,16 +36,16 @@ PCI secure form for messaging connector channels will expand brands’ business 
 For messaging connectors, secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit. The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
 * Secure form flow for connector channels:
-  	* Facebook Messenger and Apple Business Chat will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
-  	* Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
-  	* Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
- 	 * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message: “The following secure form has been submitted: <Secure form name>”
-  	* Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
+  * Facebook Messenger and Apple Business Chat will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
+  * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
+  * Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
+  * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message: “The following secure form has been submitted: <Secure form name>”
+  * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: The Secure Form \[secure form name\] has been submitted. View secure form [contains clickable link to view secure form content].
 
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
-	* Sent by the agent
-  	* Received by the consumer
- 	 * Submitted by the consumer
+  * Sent by the agent
+  * Received by the consumer
+  * Submitted by the consumer
 
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
 
@@ -57,7 +57,7 @@ For more information, please see the following documents:
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
-  * Connectors text is currently fixed to: “<secure form name>: <secure form link>”
+  * Connectors text is currently fixed to: `<secure form name>: <secure form link>`
 * Secure forms are created by the LivePerson account team.
 * Data submitted in the secure form is only retrievable by the agent for the duration of the messaging session it was submitted in (until the conversation is closed by the agent or auto closed), and only to the agent that sent the form.
 * Secure forms cannot be shared by bots.
@@ -68,8 +68,8 @@ For more information, please see the following documents:
 
 ![](/img/week-of-march-4th-1.png)
 
-![](/img/week-of-march-4th-2.png) 
-  
+![](/img/week-of-march-4th-2.png)
+
 ![](/img/week-of-march-4th-3.png)
 
 ![](/img/week-of-march-4th-4.png)
