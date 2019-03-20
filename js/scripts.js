@@ -66,6 +66,7 @@ function navigateContent(url) {
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#defaultsidebar').slideUp(400);
 				$('#defaultsidebar').data('expanded', 'false');
+				$('#defaultcontent').removeClass('fadeout');
 			}
 			if ($('#defaultfooter').hasClass('botfooter')) {
 				$('#defaultfooter').removeClass('botfooter');
@@ -235,10 +236,12 @@ function mobileHamburger() {
 			//if clicked, slide up and set data to unclicked.
 			$(sidebar).slideUp(400);
 			$(sidebar).data("expanded", "false");
+			$('#defaultcontent').removeClass('fadeout');
 		} else {
 			//if unclicked, slide down and set data to clicked.
 			$(sidebar).slideDown(400);
 			$(sidebar).data("expanded", "true");
+			$('#defaultcontent').addClass('fadeout');
 		}
 	});
 }

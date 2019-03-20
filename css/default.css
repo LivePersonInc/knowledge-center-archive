@@ -24,6 +24,10 @@ p + ul {
   margin-top: -10px;
 }
 
+.fadeout {
+  opacity: 0.3;
+}
+
 #post-content ul li {
   margin-bottom: 10px;
 }
@@ -1237,9 +1241,11 @@ w-div a:last-child {
   #mysidebar {
     padding-top: 20px;
     position: absolute;
+    top: 120px;
     width: 90%;
     height: auto;
     background-color: #fff;
+    box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.07);
   }
 
   #documenttitlecontainer {
