@@ -59,12 +59,6 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-**Type:** Feature
-
-**Available to all customers?** Yes
-
-**Description**
-
 As part of the ongoing effort to aid the adoption of Report Builder by Brands, and to allow Liveperson to progress towards sunsetting the BI reporting interface, liveperson is offering additional predefined documents intended for easy download and subscriptions. The content of these document replaces the grids that are available in the the Operational BI.
 
 The documents come in two version; Daily and Monthly.
