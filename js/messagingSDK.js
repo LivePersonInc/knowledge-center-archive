@@ -31,6 +31,7 @@ windowKit.onAgentTextEvent(function(text) {
 		agentFirstText = true;
 		$("#botLoader").css('display', 'none');
 	}
+	scrollBottom();
 });
 
 //when a user sends a text
@@ -38,6 +39,7 @@ windowKit.onVisitorTextEvent(function(text) {
 	//grab that text's contents and append it to the conversation
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	console.log('visitortext');
+	scrollBottom();
 });
 
 //when an agent (the bot) sends a rich content message
@@ -81,6 +83,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 			displayInput();
 		}
 	});
+	scrollBottom();
 });
 
 function displayInput () {
@@ -111,9 +114,9 @@ function scrollBottom () {
 		//change the var so this doesn't repeat
 		isScrolling = true;
 		//find the bottom of the conversation window by adding the top attribute and the height of the div
-	var bottom = $('#caseyContainer').position().top + $('#caseyContainer').outerHeight(true);
+	var bottom = $('#caseyContainer :last').position().top;
 	//now that we have bottom, animate the body and html to simulate a scroll
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
 	}
 	setTimeout (function () {
 		//allow other scrolls in the future, like those which happen when a new text is sent

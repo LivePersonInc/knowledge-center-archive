@@ -336,6 +336,7 @@ ul.mysidebar.nav > li:first-of-type {
   display: flex;
   align-items: center;
   z-index: 1;
+  box-shadow: 445px 1rem 5rem -0.5rem #18124b;
 }
 
 .mobileheader {
@@ -541,7 +542,7 @@ ul.mysidebar.nav > li:first-of-type {
   position: sticky;
   top: 160px;
   align-items: baseline;
-  height: 78vh;
+  height: 80vh;
   overflow-y: auto;
   padding-left: 70px;
 }
