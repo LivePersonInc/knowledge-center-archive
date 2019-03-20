@@ -74,6 +74,8 @@ The documents come in two version; Daily and Monthly.
 
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
+![](/img/week-of-march-11th-3.png)
+
 {: .notice}
 The Business Activity Grids are available in Report Builder since May 2018 (RB2.3). The grids have been moved into the predefined grids folder.
 
@@ -97,6 +99,7 @@ LivePerson has made an enhancement to Report Builder subscriptions that increase
 **How to enable**: Automatic for all subscriptions moving forward.
 
 **Limitations:**
+
 * For existing subscriptions, the “Do Not Deliver After” expiration date will need to be updated manually if applicable.
 * The current process for renewing or modifying the subscription expiration date is not included in this enhancement.
 
