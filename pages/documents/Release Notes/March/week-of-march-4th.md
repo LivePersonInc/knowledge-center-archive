@@ -39,14 +39,13 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
   * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
   * Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
   * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message: “The following secure form has been submitted: <Secure form name>”
-  * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: The Secure Form \[secure form name\] has been submitted. View secure form [contains clickable link to view secure form content].
-
+  * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].
 * Agent conversation transcript indicators for connectors secure forms will show the following status:
   * Sent by the agent
   * Received by the consumer
   * Submitted by the consumer
 
-  <br/>
+<br/>  
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
 
 For more information, please see the following documents:
@@ -54,6 +53,7 @@ For more information, please see the following documents:
 * [External Configuration guide](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/Secure+form+for+messaging.pdf)
 
 **Limitations**
+
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
@@ -118,6 +118,7 @@ The definition of the overdue_Conversations metric is the number of conversation
 Brands are rapidly expanding their conversational commerce capabilities, reaching customers through popular messaging services like SMS, Facebook Messenger, Apple Business Chat, WhatsApp and more.
 
 AI and automation, including bots, are critical to delivering high-quality brand-to-consumer interactions through messaging. Yet, there are many challenges that come with building bots and automations:
+
 * The development is complex and requires developers
 * Consumer intents are difficult to understand, especially using different NLU systems and entities
 * The training and optimization of bots is best conducted by agents - conversation and brand experts- but is conducted by the people who understand code, mainly developers and data scientists.
@@ -147,7 +148,6 @@ For detailed documentation on the Conversation Builder including an overview, sc
 ## Bug Fixes
 
 ### \[ABC\] List picker does not send response when there’s no button (CX-150)
-
 
 | Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
