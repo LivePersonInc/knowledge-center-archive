@@ -39,23 +39,15 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 #### How it works
 
-**Intent recognition**
+**Intent recognition:** Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
 
-Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
-
-**Actions recommended in real time**
-
-Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
+**Actions recommended in real time:** Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
 ![](/img/week-of-march-25th-1.png)
 
-**Closed-loop training for optimization**
+**Closed-loop training for optimization:** Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
 
-Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
-
-**Plug in any automation or bot**
-
-Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
+**Plug in any automation or bot:** Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
 
 #### \[Web messaging\] Welcome message with Quick Replies
 
@@ -103,7 +95,6 @@ Under Engagement Window Studio => Add Elements
 ![](/img/week-of-march-25th-7.png)
 
 **Limitations:**
-
 * Preview in the studio is not supported
 * Up to 24 quick replies
 * 8 quick replies will be presented per row - fixed value
@@ -123,6 +114,7 @@ Today, brands that are looking to authenticate their consumer via the Apple Busi
 * Brands that currently are not using a bot with their messaging operations will not be able to use this service unless they involve a new bot deployment, which raises a lot of difficulties for them: deployment pricing, operational changes etc.
 * Brands that are using a bot will need to change their deployments to support the metadata response while integrating the reopens with the brand's backend system only in order to then display the authentication information in a customized agent widget. This causes unnecessary complexity, where it can all be integrated via the agent widget SDK only.
 
+<br/>
 **The solution:**
 
 * The ABC Authentication Interactive response can include two different types of responses:
@@ -134,8 +126,7 @@ Today, brands that are looking to authenticate their consumer via the Apple Busi
 * Brands will be able to expose the ABC failed response via the agent widget SDK method to their auth services, while validating the error type and status
 * Brands will be able to then present the auth error response to the agent on LE via an agent customized widget, while allowing the agent to help the consumer to sign in successfully or help identify where the issue in signing in is.
 
-{: .notice} 
-
+{: .notice}
 **Note:** Brands will be able to leverage this feature only if they provide their own public key for the authentication. Otherwise, the widget window will not display the details.
 
 ### \[CM connector\] Outbound campaigns - CM integration
@@ -201,6 +192,7 @@ The brand will provide the encrypted JWT (aka - JWE) in a new attribute of consu
       });
     }
 
+<br/>
 **Limitation:** This enhancement is currently supported only for authentication flow type “oAuth 2.0 authentication (code)”. Flow type “oAuth 2.0 authentication (implicit)” will be supported in future releases.
 
 ### \[Messaging history API\] Consumer Step-Up Authentication (LE-98860)
@@ -295,7 +287,7 @@ When consumer engages in a chat that has a pre-chat survey, he has to click the 
 
 Browser IE11 doesn’t support css style background:initial causing it to not render the <br> tag correctly.
 
-**Fix:** Added css style for <br> tag with background:transparent.
+**Fix:** Added css style for `<br/>` tag with background:transparent.
 
 ### \[Web experiences\] Unnecessary space below header image in engagement window (CX-171)
 
