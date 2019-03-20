@@ -39,21 +39,21 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 #### How it works
 
-##### Intent recognition
+**Intent recognition**
 
 Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
 
-##### Actions recommended in real time
+**Actions recommended in real time**
 
 Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
 ![](https://lh5.googleusercontent.com/Fbvge0pxGA92x5rwgFSN2YxmIqdKwny3mhxQ_3K5EeJn2BKZWF0M9YKYwRAGYVYE-Il20wkgFifjruBM0QKqeeBpAWS4ogbTAZHZbECK8H6bQcJb9kXpf0nSn0-YKfsshtHVJyGV =624x548)
 
-##### Closed-loop training for optimization
+**Closed-loop training for optimization**
 
 Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
 
-##### Plug in any automation or bot
+**Plug in any automation or bot**
 
 Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
 
@@ -189,21 +189,16 @@ When configuring authenticated web messaging, brands must send the consumer’s 
 
 The brand will provide the encrypted JWT (aka - JWE) in a new attribute of consumer “identity” json:
 
-`lpTag.identities.push(identityFn);
-
-function identityFn(callback) {
-
-callback({
-
-iss: “replace with issuer”,
-
-acr: “loa1”,
-
-tkn: “replace with encrypted jwt (jwe)”
-
-});
-
-}`
+```
+lpTag.identities.push(identityFn);
+  function identityFn(callback) {
+    callback({
+      iss: “replace with issuer”,
+      acr: “loa1”,
+      tkn: “replace with encrypted jwt (jwe)”
+  });
+}
+```
 
 **Limitation:** This enhancement is currently supported only for authentication flow type “oAuth 2.0 authentication (code)”. Flow type “oAuth 2.0 authentication (implicit)” will be supported in future releases.
 
