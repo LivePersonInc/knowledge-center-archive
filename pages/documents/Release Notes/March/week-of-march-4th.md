@@ -9,7 +9,6 @@ permalink: release-notes-2019-march-week-of-march-4th.html
 isTutorial: false
 isNew: false
 date: 2019-03-20 18:19:40 +0200
-published: true
 
 ---
 These release notes include new features arriving to LiveEngage during Feb 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
