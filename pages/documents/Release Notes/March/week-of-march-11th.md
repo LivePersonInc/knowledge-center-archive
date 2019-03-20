@@ -61,7 +61,7 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 
 As part of the ongoing effort to aid the adoption of Report Builder by Brands, and to allow Liveperson to progress towards sunsetting the BI reporting interface, liveperson is offering additional predefined documents intended for easy download and subscriptions. The content of these document replaces the grids that are available in the the Operational BI.
 
-The documents come in two version; Daily and Monthly.
+The documents come in two versions: Daily and Monthly
 
 * The daily version has the ability to retrieve data for maximum of 4 months with data availability dating back to 13 months.
 * The monthly version provides monthly aggregations of the metrics and can range from a single month to 13 months of data availability.
@@ -110,15 +110,7 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | Yes | No | No | No | No | No |
 
-**Type:** Enhancement
-
-**Available to all customers?** No, only the ones with the Automation.Conversation_Builder feature flag enabled(in AC features)
-
-**Description:** New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage.
-
-**Dependencies:** Appserver, Denver, AC Users, UI, LE_UI 10.4
-
-**Screenshots:**
+New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage. This feature is only available for those with the Automation.Conversation_Builder feature flag enabled (in AC features).
 
 **Administrator role(it has an extra privilege):**
 
