@@ -336,7 +336,6 @@ ul.mysidebar.nav > li:first-of-type {
   display: flex;
   align-items: center;
   z-index: 1;
-  box-shadow: 445px 1rem 5rem -0.5rem #18124b;
 }
 
 .mobileheader {
@@ -1162,6 +1161,10 @@ w-div a:last-child {
     overflow-y: auto;
     overflow-x: hidden;
     margin-top: -150px;
+  }
+
+  .anchorlist ul {
+    position: inherit;
   }
 
   #mysidebar {

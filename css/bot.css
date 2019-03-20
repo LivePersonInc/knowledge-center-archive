@@ -16,6 +16,10 @@ body {
   color: black;
 }
 
+.botwrapper #defaultheader {
+  box-shadow: 445px 1rem 5rem -0.5rem #18124b;
+}
+
 #maincontent {
   justify-content: center;
 }
