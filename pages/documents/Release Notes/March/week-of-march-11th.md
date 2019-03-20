@@ -83,7 +83,7 @@ Users that wish to make changes to these documents can only alter the filter set
 
 ## Enhancements
 
-### \[Report Builder\] Subscription expiration increase to 6 Months
+### \[Report Builder\] Subscription expiration increase to 6 months
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
