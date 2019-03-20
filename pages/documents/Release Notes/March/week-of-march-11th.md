@@ -22,8 +22,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[Report Builder\] Response Time metrics (LE-95919)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 The response time metrics in the Messaging Performance dashboard are enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
@@ -34,18 +35,18 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 
 #### Consumer Experience metrics
 
-| --- | --- | --- |
 | Metric Name | Description | OLD Metric Name |
+| --- | --- | --- |
 | AVG. Wait Time For First Agent Response | The time on average a consumer waits for a response to the first message the consumer sent in a conversation. Measured from the time the first message was sent by the consumer, to the first response provided by an agent in the conversation. | AVG. TIME TO AGENT FIRST RESPONSE |
 | AVG. Wait Time For First Agent Response - First Time Conversations | The time on average a consumer who messaged the brand for the first time waits for a response from the brand. Measured from the time the first message was sent by the consumer, to the first response provided by an agent in the conversation. | AVG. AGENT FIRST RESPONSE TIME TO FIRST TIME CONVERSATIONS |
 | AVG. Wait Time For First Human Agent Response | The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric's calculation. Measured from the first message sent by the consumer in the conversation, to the first response provided by a human agent. | AVG. TIME TO FIRST HUMAN AGENT RESPONSE |
 | AVG. Wait Time For First Human Agent Response - From Bot Escalation | The time on average a consumer waits for the first response in a conversation by a human agent. Measured from the time a bot escalates a conversation to another skill-queue to the first response give by the human agent. | AVG. TIME TO FIRST HUMAN AGENT RESPONSE FROM BOT ESCALATION |
 | AVG. Wait time to first human agent response - After transfer | The time on average a consumer waits for a response from the first agent assigned to the conversation after it was transferred.Measured from the time the conversation was transferred (including skill-to-skill transfer, agent-to-agent transfer or takeover) until a response is given by the agent. | *New metric* |
 
-Agent Responsiveness metrics
+#### Agent Responsiveness metrics
 
-| --- | --- |
 | Metric Name | Description |
+| --- | --- |
 | AVG. Time to Response from Agent Assignment | The average time taken by an agent to send a message to the consumer from the time the agent was assigned to a conversation.Measured for the all agent message sent in a conversation |
 | AVG. Time to First Response from Agent Assignment | The average time taken by an agent to respond to the first message a consumer sent in a conversation from the time the agent was assigned to the conversation.Measured for the first agent message sent in a new conversation and after the conversation was transferred. |
 | AVG. Time to First Response from Agent Assignment - After Transfer | The average time taken by an agent to respond for the first time after the conversation was transferred. Measured from the time the agent was assigned after the transfer. |
@@ -55,8 +56,8 @@ Agent Responsiveness metrics
 
 ### Predefined Grid Documents for Operational Reports (LE-98559)
 
+| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 **Type:** Feature
@@ -74,8 +75,9 @@ The documents come in two version; Daily and Monthly.
 
 A new folder named ‘LE Predefined Grids’ is now available within the predefined dashboards folder containing the following documents:
 
-| --- | --- |
+
 | Predefined grid in RB | Same data is also available in - |
+| --- | --- |
 | BI grid | RB dashboard |
 | Agent Activity Grid - DailyAgent Activity Grid - Monthly | Operational BI:Agent Activity Grid | Agent Activity Dashboard:Agent Activity Grid (2nd panel) |
 | Skill Activity Grid - DailySkill Activity Grid - Monthly | Operational BI:Engagement Activity | Skill Activity Dashboard:Skill Activity Grid (2nd sheet) |
@@ -99,10 +101,10 @@ Users that wish to make changes to these documents can only alter the filter set
 
 ## Enhancements
 
-### \[Report Builder\] Subscription expiration increase to 6 Months
+### [Report Builder] Subscription expiration increase to 6 Months
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 LivePerson has made an enhancement to Report Builder subscriptions that increases the automatic “Do Not Deliver After” default expiration setting for a subscription from 3 months to 6 months. Users will continue to have the ability to remove this default expiration time frame as they do today.
@@ -120,10 +122,10 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 
 ## Agent Workspace
 
-### \[Conversation Builder\] Enabling Automation.Conversation_Builder feature flag
+### [Conversation Builder] Enabling Automation.Conversation_Builder feature flag
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | Yes | No | No | No | No | No |
 
 **Type:** Enhancement
