@@ -8,7 +8,7 @@ level3: December
 permalink: release-notes-2018-december-week-of-december-17th.html
 isTutorial: false
 isNew: false
-date: 2019-02-06 14:57:08 +0200
+date: 2019-02-06 12:57:08 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during December 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -17,7 +17,7 @@ These release notes include new features arriving to LiveEngage during December 
 
 {: .important} The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality
+## New functionalities
 
 ### Maximum wait time in queue metric in real-time dashboard
 
@@ -61,10 +61,6 @@ The time shown in the Realtime Dashboard is the maximum time across visitors in 
 **How to enable**
 
 Enabled by default in the Realtime Dashboard
-
-**Dependencies**
-
-None
 
 **Please note:**
 
@@ -182,7 +178,7 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ![](/img/Week-of-Dec-17th-4.png)
 
-## New source filter options (MCS toolkit)
+### New source filter options (MCS toolkit)
 
 <table class="releasenotes">
 <thead>
@@ -238,7 +234,7 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 ![](/img/Week_of_Dec_17th-6.png)
 
-## Bug fix
+## Bug fixes
 
 ### Load calculation issue (Real-time Dashboard)
 
