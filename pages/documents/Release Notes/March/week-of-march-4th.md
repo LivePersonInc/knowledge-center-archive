@@ -145,7 +145,7 @@ The Conversation Builder sits on top of our AI engine, Maven, which orchestrates
 
 For detailed documentation on the Conversation Builder including an overview, scripting functions, interactions and conditions, please see the [Developers Community.](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html)
 
-## Bug Fixes
+## Bug fixes
 
 ### \[ABC\] List picker does not send response when there’s no button (CX-150)
 
