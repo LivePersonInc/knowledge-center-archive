@@ -29,7 +29,7 @@ When agents are not available to handle new conversations, conversations will wa
 
 ## **Skill selection**
 
-In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. [The skill selection process ](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)is the first method used by the routing engine to direct the conversation to the right agent.
+In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process[ ](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)is the first method used by the routing engine to direct the conversation to the right agent.
 
 Using skill selection, an incoming conversation is routed exclusively to an available agent with the conversation’s assigned skill. If no skill is assigned to a conversation, and no default skill has been configured, the conversation will be routed to any available agent in the contact center. In this instance, the most appropriate agent will be chosen based on the Agent Selection process, as set out below.
 
