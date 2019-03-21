@@ -13,7 +13,7 @@ date: 2019-02-06 10:43:51 +0000
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-Please contact your LivePerson account team for the exact dates on which you will have access to the features.
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .important}
 
@@ -197,11 +197,13 @@ Every rule is producing a 'velocity' for conversation. Conversations with higher
 **Transfer Rule**
 
 Transfer rule is made in order to give higher priority to conversations that are 'During Transfer'. A conversation is 'During Transfer' if :
+
 1. The last message before the transfer is from an Agent
 2. A transfer was made from Skill1 to Skill2 ( Skill1 can be equal to Skill 2 or different)
 3. After the transfer action, no message was written on the conversation (No message from Agent or No message From Consumer)
 
 **Transfer Rule Types:**
+
 1. 'SourceDestination' skill rule
 2. 'Threshold' rule
 
@@ -217,7 +219,7 @@ Transfer rule is made in order to give higher priority to conversations that are
 
 **Transfer rules examples**
 
-**EXAMPLE 1 - Number of transfers
+\**EXAMPLE 1 - Number of transfers
 
 Expected outcome : A conversation that had at least 1 transfer will have velocity 4, a conversation that had at least 3 transfers will have velocity 5
 
@@ -259,6 +261,7 @@ In this example:
 EXAMPLE 2 - Velocity Based On Source Destination Skill
 
 Expected outcome :
+
 1. Give higher priority to conversations that were transferred **to destination skill "RETENTION-SKILL-ID"**
 2. Give **higher priority especially** for conversations that were transferred **to destination skill "RETENTION-SKILL-ID"** and arrived **from source skill "VIP-SKILL-ID"**
 3. **Ignore velocity** and give no priority if the **bot** did the transfer , i.e **source transfer skill is "BOT-SKILL-ID"**
@@ -363,6 +366,7 @@ Json Example :
 </table>
 
 **Expose Shift Status API:**
+
 * A new module was created in async (not part of aam or cm\\ms)
 * Rest API exposed
 * Rest API advocates WorkdaysManager in common to get shift status
@@ -371,6 +375,7 @@ Json Example :
 **Rate limit:** default rate limit 300r/s per IP
 
 **Cache the result:**
+
 * added Map<BrandId, Map<Skill, ShiftData>>
 * use caching and recalculate when:
   * time > Min(nextOn, nextOff) - recalculate
