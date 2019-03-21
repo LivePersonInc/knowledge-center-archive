@@ -17,7 +17,7 @@ These release notes include new features arriving to LiveEngage during October 2
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality
+## New functionalities
 
 ### \[ABC\] Authentication Interactive Message - LiveEngage Support (LE-89160)
 
@@ -76,10 +76,8 @@ This feature requires enablement - please contact your LivePerson account team
 * Currently the Authentication Interactive Message will only enable brands to perform authentication validation against their OAuth service, and will not enable them to automatically push authenticated engagement attributes to the conversation - supporting engagement attributes is planned for H1, 2018.
 * In the current solution, only a bot (using the Agent SDK) can receive the authentication response from the consumer (after the consumer submits authentication on Business Chat) - In the next phase, we will add a user interface indication on LiveEngage which will allow a live agent to see authentication status as well.
 
-
 {: .sidebyside}
 ![](/img/release-notes-2018-october-week-of-october-8th-2018.png) ![](/img/week-of-october-8th-2.png)
-
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
@@ -121,8 +119,9 @@ Apple Pay provides an easy and secure way for consumers to buy goods and service
 * Business Chat will support a new OOTB Interactive Message that allows brands to submit payment requests to consumers using Apple Pay
 * Brands will use their private Apple Pay accounts (or will create new accounts) and will supply their Apple Pay Merchant ID on their Apple management area (register.apple.com).
 
- {: .notice}
+{: .notice}
 Brands need to first register a Merchant Identifier (Merchant ID) in their Apple Developer Account to enable Apple Pay payments in Messages. For information on creating your merchant ID, see [Configuring Your Environment.](https://developer.apple.com/library/content/ApplePay_Guide/Configuration.html#//apple_ref/doc/uid/TP40014764-CH2)
+
 * LiveEngage will support agent/bot generation of the Apple Pay Interactive Message using the Structured Content framework and configuration (similar to list and time picker)
 * Consumers will receive the Apple Pay Interactive Message and will be able to tap to pay using their Apple Pay user on their iOS device.
 * Agents and bots on LiveEngage will get real-time updates upon a consumer payment response
@@ -132,6 +131,7 @@ Brands need to first register a Merchant Identifier (Merchant ID) in their Apple
 This feature requires enablement - please contact your LivePerson account team
 
 #### Limitations
+
 In the current solution, only a bot (using the Agent SDK) can receive the payment response from the consumer (after the consumer submits payment on Business Chat) - In the next phase we will add a user interface indication on LiveEngage which will allow a live agent to see payment details as well.
 
 {: .sidebyside}
@@ -188,7 +188,7 @@ Delivered Indication
 * Consumer to agent
 
 {: .notice}  
-Google RCS Business Messaging is currently in beta mode. If you have brands that are interested in participating in the beta program, please contact Or Garmolin.
+Google RCS Business Messaging is currently in beta mode. If you have brands that are interested in participating in the beta program, please contact Galit Hoffer.
 
 ![](/img/week-of-october-8th-7-1.jpg)
 
@@ -511,7 +511,6 @@ This feature requires enablement** - please contact your LivePerson account team
 Quick replies will have the 'alt' property (for text fallback) defined in UMS version 3.15, which will only be rolled out in October - this means that in the first version of surveys for SMS, quick replies will not be supported.
 
 ![](/img/week-of-october-8th-10-1.png)
-
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 

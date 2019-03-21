@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionality
+## New Functionalities
 
 ### Queue visibility in Realtime Dashboard and in the KPI bar in All connections
 
