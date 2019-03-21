@@ -95,6 +95,7 @@ Under Engagement Window Studio => Add Elements
 ![](/img/week-of-march-25th-7.png)
 
 **Limitations:**
+
 * Preview in the studio is not supported
 * Up to 24 quick replies
 * 8 quick replies will be presented per row - fixed value
@@ -309,7 +310,7 @@ When third party cookies are blocked (disabled) in latest version of Chrome and 
 
 **Fix:** When the consumer clicks on the engagement, it will open up as an external window.
 
-### \[Web experiences\] United Airlines - JWT sent twice causing session to close (CX-189)
+### \[Web experiences\] - JWT sent twice causing session to close (CX-189)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
