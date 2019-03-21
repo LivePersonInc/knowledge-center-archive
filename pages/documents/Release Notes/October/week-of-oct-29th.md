@@ -19,7 +19,7 @@ These release notes include new features arriving to LiveEngage during October 2
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionalities
+## New functionalities
 
 ### Methods for Messaging Skill Segments (messaging operations API)
 
