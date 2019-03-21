@@ -1,6 +1,6 @@
 ---
 pagename: 'Week of October 8th '
-subtitle: LivePerson Release Notes
+subtitle: ''
 categoryName: Release notes
 subCategoryName: 2018
 level3: October
