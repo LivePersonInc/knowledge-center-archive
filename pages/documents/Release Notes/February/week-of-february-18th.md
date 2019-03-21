@@ -18,7 +18,7 @@ These release notes include new features arriving to LiveEngage during Feb 2019.
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionality
+## New functionalities
 
 ### Messaging interactions API: New intent section in the response and intent filters
 
@@ -55,7 +55,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 When accessing the API with "intents" keyword on “ContentToRetrieve” Parameter, the list of conversations will now be retrieved with the addition of 'intents' section, as a data visualization tool. Intent related filters will also be available to filter specific conversations.
 
-### Back-end chat: Adding New FaaS Permissions (LE-98895)
+### Back-end chat: Adding new FaaS permissions (LE-98895)
 
 <table class="releasenotes">
 <thead>
@@ -128,8 +128,6 @@ The new permissions added are:
 </table>
 
 This permission will allow brands to choose who has access to the service. ie. admins, agent managers, campaign managers.
-
-## Messaging connectors
 
 ### WhatsApp: sharing contacts during a conversation (CX-85)
 
@@ -279,7 +277,7 @@ Agent will receive location sharing as text:
 
 For Google RCS Business Messaging, the default media height in card elements has changed from "MEDIUM" to "TALL."
 
-## Bug Fixes
+## Bug fixes
 
 ### Back-end chat: Automatic message timing is misbehaving (LE-89122)
 
