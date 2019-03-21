@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionalities
+## New functionalities
 
 ### Queue visibility in Realtime Dashboard and in the KPI bar in All connections
 
@@ -151,7 +151,7 @@ This feature requires enablement ​- please contact your LivePerson account tea
 
 ![](/img/week-of-october-15th-2018-3.png)
 
-### Intelligent Routing Queue Delivery (back-end messaging-server)
+### Intelligent routing queue delivery (back-end messaging-server)
 
 <table class="releasenotes">
 <thead>
@@ -192,22 +192,20 @@ Sorting business rules are defined in site settings under property in site setti
 
 Every rule is producing a 'velocity' for conversation. Conversations with higher 'velocity' will have higher priority in routing unassigned conversations in queues.
 
-### Rules Description
+#### Rules Description
 
-#### Transfer Rule
+**Transfer Rule**
 
 Transfer rule is made in order to give higher priority to conversations that are 'During Transfer'. A conversation is 'During Transfer' if :
-
 1. The last message before the transfer is from an Agent
 2. A transfer was made from Skill1 to Skill2 ( Skill1 can be equal to Skill 2 or different)
 3. After the transfer action, no message was written on the conversation (No message from Agent or No message From Consumer)
 
-#### **Transfer Rules Types:**
-
+**Transfer Rule Types:**
 1. 'SourceDestination' skill rule
 2. 'Threshold' rule
 
-#### **Transfer Rules Types Description**
+**Transfer Rules Types Description**
 
 | Transfer Rule Name | Description | Fields | Optional Fields | Mandatory Fields | Valid Values |  
 | --- | --- | --- | --- | --- | --- ||  
@@ -217,9 +215,9 @@ Transfer rule is made in order to give higher priority to conversations that are
 * If inside a rule there are few overlapping conditions, the first condition wins. ( see examples below )
 * Every rule will produce a velocity, a conversation will have an aggregation of velocities from all rules
 
-#### Transfer rules examples
+**Transfer rules examples**
 
-#### **EXAMPLE 1 - Number of transfers**
+**EXAMPLE 1 - Number of transfers
 
 Expected outcome : A conversation that had at least 1 transfer will have velocity 4, a conversation that had at least 3 transfers will have velocity 5
 
@@ -258,10 +256,9 @@ In this example:
 * if the conversation had 3 transfers - velocity will be 5
 * if the conversation had above 3 transfers - velocity will be 5
 
-#### EXAMPLE 2 - Velocity Based On Source Destination Skill
+EXAMPLE 2 - Velocity Based On Source Destination Skill
 
 Expected outcome :
-
 1. Give higher priority to conversations that were transferred **to destination skill "RETENTION-SKILL-ID"**
 2. Give **higher priority especially** for conversations that were transferred **to destination skill "RETENTION-SKILL-ID"** and arrived **from source skill "VIP-SKILL-ID"**
 3. **Ignore velocity** and give no priority if the **bot** did the transfer , i.e **source transfer skill is "BOT-SKILL-ID"**
@@ -352,21 +349,20 @@ Json Example :
 <tbody>
 <tr>
 <td>Yes</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
 
 **Expose Shift Status API:**
-
 * A new module was created in async (not part of aam or cm\\ms)
 * Rest API exposed
 * Rest API advocates WorkdaysManager in common to get shift status
@@ -375,7 +371,6 @@ Json Example :
 **Rate limit:** default rate limit 300r/s per IP
 
 **Cache the result:**
-
 * added Map<BrandId, Map<Skill, ShiftData>>
 * use caching and recalculate when:
   * time > Min(nextOn, nextOff) - recalculate
