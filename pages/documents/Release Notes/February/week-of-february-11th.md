@@ -197,7 +197,7 @@ Today, brands use a single time interval definition to determine how long after 
 
 ![](/img/week-of-february-11th-5.png)
 
-### Post Conversational Survey - Adding Search capability
+### Post Conversational Survey - Added search capability
 
 <table class="releasenotes">
 <thead>
