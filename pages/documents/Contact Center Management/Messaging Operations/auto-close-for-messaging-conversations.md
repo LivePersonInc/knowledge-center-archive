@@ -19,16 +19,11 @@ For example, if a conversation has been idle for ten days, it can be automatical
 
 ## Auto-close per skill
 
-Today brands use a single time interval definition to determine how long after the conversation becomes inactive should it be closed. This single definition doesn’t take into account the fact that different skills have different conversation pace and therefore should have different time intervals to auto close. 
+Today brands use a single time interval definition to determine how long after the conversation becomes inactive should it be closed. This single definition doesn’t take into account the fact that different skills have different conversation pace and therefore should have different time intervals to auto close.
 
 Having such a capability will give brands a higher level of flexibility to determine when a conversation should close and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill and thereby improve the consumer experience as well as their operational parameters.
 
 ![](/img/auto-close-conversations-3b.png)
-
-**Dependencies for auto close per skill**
-
-* Need to be using LE UI 10.3
-* Need to be using ac-users 4.8 or 5.0
 
 **Notes:**
 
