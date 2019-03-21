@@ -49,7 +49,7 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 **Plug in any automation or bot:** Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
 
-#### \[Web messaging\] Welcome message with Quick Replies
+### \[Web messaging\] Welcome message with Quick Replies
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
