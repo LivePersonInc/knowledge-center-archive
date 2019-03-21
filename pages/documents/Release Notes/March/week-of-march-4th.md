@@ -132,7 +132,8 @@ The Conversation Builder is a code-free, dialogue based tool, for creating autom
 1. **There is no need for code**. Because the Conversation Builder doesn’t require coding to create a bot’s conversation, agents, who are closest to consumers, can directly participate in the conversational design, optimization and training of bots and automations.
 2. **Brands don’t need to start from scratch for building bots**: The Conversation Builder provides an out-of-the-box automation library with templates for common workflows and verticals, such as retail and telco. These automation templates are plug and play with a simple, one-time plug-in to APIs and brands can take advantage of pre-packaged dialogues. Templates include: Concierge, Lead Generation, Product Promotion, Schedule Appointments, Product Search and Shopping, Checkout, Order Status, Off Business Hours, FAQ’s and Gift Guide.
 3. With **full integration to our conversational platform**, brands have all of the same processes, such as reporting and real time monitoring, built in to the same environment agents are already working in. Brands can leverage pre-built API Integrations to easily connect to systems like Shopify, Salesforce, Timetrade, Hybris and more.
-
+  
+<br/>  
 **How it works**
 
 Bots are easy to create in Conversation Builder. For example, a brand can use a prebuilt retail template from the automation library, edit the script to customize it according to their brand lingo, and immediately integrate to Shopify or their product catalogue.
