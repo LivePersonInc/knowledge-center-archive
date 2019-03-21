@@ -8,8 +8,7 @@ level3: February
 permalink: release-notes-2019-february-week-of-february-4th.html
 isTutorial: false
 isNew: false
-date: 2019-02-05 14:15:21 +0200
-published: true
+date: 2019-02-05 12:15:21 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during February 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -19,7 +18,7 @@ These release notes include new features arriving to LiveEngage during February 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Feature
+## New functionalities
 
 ### Auto close per skill (AE-1358)
 
@@ -69,37 +68,31 @@ Enabling this feature is available through Houston only. Contact you LP represen
 
 ### Align error responses to unified style (LE-94214)
 
-**Available to all customers?** yes
-
-**Description:**
-
 When the “send API” composes the error message it should have a unified format and the error message should contain the request ID
 
 **WS example:**
 
-```
-{
-
-"kind": "resp",
-
-"reqId": "39ca8b7a-4b4f-49ec-84be-a7eb74f2fa382-24350",
-
-"code": 502,
-
-"body": {
-
-"title": "Unable to access resource",
-
-"details": "Failed to connect to AC for setting delay",
-
-"errorCode": 50201
-
-},
-
-"type": ".ReqBody$ErrorResp"
-
-}
-```
+    {
+    
+    "kind": "resp",
+    
+    "reqId": "39ca8b7a-4b4f-49ec-84be-a7eb74f2fa382-24350",
+    
+    "code": 502,
+    
+    "body": {
+    
+    "title": "Unable to access resource",
+    
+    "details": "Failed to connect to AC for setting delay",
+    
+    "errorCode": 50201
+    
+    },
+    
+    "type": ".ReqBody$ErrorResp"
+    
+    }
 
 ### Handle “Send API” request with wrong version (LE-94525)
 
@@ -109,11 +102,11 @@ When the “send API” composes the error message it should have a unified form
 
 If there is a “Send API request” using a version that is not currently supported (only version 3 is supported) then the client/caller should receive a status code 404.
 
-## Bug Fixes
+## Bug fixes
 
-### Post conversation survey - no ExConversationChangeNotification for messages on survey dialog (LE-95168)
+### Post Conversation Survey - no ExConversationChangeNotification for messages on survey dialog (LE-95168)
 
-In post conversation survey flow - UMS does not send ExConversationChangeNotification for messages on post survey dialog which potentially caused message loss in the connector flows.
+In the Post Conversation Survey flow - UMS does not send ExConversationChangeNotification for messages on post survey dialog which potentially caused message loss in the connector flows.
 
 The solution is that on-going MS notification on Post Conversation Survey dialog are built as normal ExConvNotifications and sent only to the connectors. This means that the connectors can keep their current implementation without the need to be modified.
 
