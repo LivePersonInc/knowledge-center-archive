@@ -242,7 +242,7 @@ Secure Forms alert notifications using popup window that does not show up for Fa
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | No | No | No | No | No | No | No | No | No | Yes |
 
-In Web Messaging, when a consumer minimizes the window and the agent sends a message, once the consumer maximizes the window again, it does not scroll down to the bottom of the conversation.
+In web messaging, when a consumer minimizes the window and the agent sends a message, once the consumer maximizes the window again, it does not scroll down to the bottom of the conversation.
 
 **Fix:** Brands have the option to set whether they want the window when maximized to scroll down to the bottom of the conversation automatically or stay on the last position of the conversation in case the agent sends messages while the window is minimized.
 
