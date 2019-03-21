@@ -39,23 +39,15 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 #### How it works
 
-**Intent recognition**
+**Intent recognition:** Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
 
-Maven intercepts each message and leverages all the bots registered to assess their understanding of customer’s intent. Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow
+**Actions recommended in real time:** Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
 
-**Actions recommended in real time**
+![](/img/week-of-march-25th-1.png)
 
-Maven analyzes all available bots and automations to match the identified intent, and recommends the best automation in real time to the agent. Recommendations are done by choosing the highest ranked bot by score, after calibrating the score using a machine learning based on historical performance of the bot. Agents can then easily opt to manually transfer the conversation to the recommended automation.
+**Closed-loop training for optimization:** Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
 
-![](https://lh5.googleusercontent.com/Fbvge0pxGA92x5rwgFSN2YxmIqdKwny3mhxQ_3K5EeJn2BKZWF0M9YKYwRAGYVYE-Il20wkgFifjruBM0QKqeeBpAWS4ogbTAZHZbECK8H6bQcJb9kXpf0nSn0-YKfsshtHVJyGV =624x548)
-
-**Closed-loop training for optimization**
-
-Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
-
-**Plug in any automation or bot**
-
-Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
+**Plug in any automation or bot:** Build automations or bots using LivePerson’s [Conversation Builder](https://developers.liveperson.com/conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the tutorials and guides in the Conversation Builder to learn how to get started.
 
 #### \[Web messaging\] Welcome message with Quick Replies
 
@@ -78,29 +70,29 @@ The new welcome message feature allows brands to set the first message (after a 
 
 Under Engagement Window Studio => Add Elements
 
-Image 1: configuration location
+**Image 1: configuration location**
 
-![](https://lh3.googleusercontent.com/UGqZmv3VvC3Hm6njC1IG5jZM9ufAQFSWVXFL8bari04OqC-8EKapm9Ro0tgtfo59DiVv6iwaMEvWFSiAhlqPlSzInzvxtPlbncSNjqOL9s6bKtkRPwMtfQw8o-fciYUJX7R-K7rR =591x508)
+![](/img/week-of-march-25th-2.png)
 
-Image 2: default settings
+**Image 2: default settings**
 
-![](https://lh5.googleusercontent.com/yOZy-eUKiKuNKDCsJ3yNDNz6AIej_XrAGBOv95hdewMYiTSzLzDAu1luQLlrkHy83AE2inbJ3QyGi7q_ho3iKoqK1D96xSN_M4Gq4GgvBTszvYq453cvk9Il4kArYdw1K4VeAy58 =231x355)
+![](/img/week-of-march-25th-3.png)
 
-Image 4: Ability to add Quick Replies
+**Image 3: Ability to change the message text and to have it for every new conversation**
 
-Image 3: Ability to change the message text and to have it for every new conversation
+![](/img/week-of-march-25th-3.png)
 
-![](https://lh3.googleusercontent.com/kjpBUwtlChzb9rBoltftoSNOcu9qv3ylWYUk2JYgFdfsSd4fmjBBs1W5qoFWBuKbBbaESEAAQ75du_sptAeoH8FZ91xayP2czUGIrM_7GsIZS_GFyJG1h6TRScFOmz4mmEsQ7Uy1 =238x371)
+**Image 4: Ability to add Quick Replies**
 
-![](https://lh5.googleusercontent.com/lHz9u_DAp3XMFSwUUcigQGrpHmUnKcs_7O76oNUPh8SoCZlW9mRSKrOFSJOmHdkz70neNvliTS1SUyph8ySxr5OTMh9xc-d-26TDSvpjutxz8gFqce2bI-2dzMFHcZ0GY03FBIsu =210x371)
+![](/img/week-of-march-25th-3.png)
 
-Image 5: Welcome Message with Quick Replies In the window
+**Image 5: Welcome Message with Quick Replies In the window**
 
-**![](https://lh5.googleusercontent.com/3YMWHFOZ5uJ1kFyhuMNJi2Dbc6Ba-u8eXdAMHvN8x8z1YtSKAVqz9jsXLU1YOKsSf22343uf2HPSyg5qVcla5Hd7O7yeYHhvM4JevxLQiM_FsjebWFI1QCnw0NriR9WOreKGLiZS =272x384)**
+![](/img/week-of-march-25th-6.png)
 
-Image 6: Consumer selected one of the Quick Replies options and conversation started
+**Image 6: Consumer selected one of the Quick Replies options and conversation started**
 
-![](https://lh3.googleusercontent.com/65plyjkLR-axzTNd8iHYjvoQZzLf3kDTH8iZbkj7-PmE5cIG9JRVL-ZbkyNmg6NVJ0N3U_sC-fBUmk02oR8E6i9t2hdZGCz5hFE9wXTXwTTkZtIk8lDUqWl7WCmOcPGNDSA5eY2e =271x385)
+![](/img/week-of-march-25th-7.png)
 
 **Limitations:**
 
@@ -119,10 +111,13 @@ Image 6: Consumer selected one of the Quick Replies options and conversation sta
 | No | No | No | No | Yes | No | No | No | No | No | No |
 
 Today, brands that are looking to authenticate their consumer via the Apple Business Chat authentication message must have a bot added to the LE conversation (via the Agent SDK). This causes a couple of complexities for brands:
+
 * Brands that currently are not using a bot with their messaging operations will not be able to use this service unless they involve a new bot deployment, which raises a lot of difficulties for them: deployment pricing, operational changes etc.
 * Brands that are using a bot will need to change their deployments to support the metadata response while integrating the reopens with the brand's backend system only in order to then display the authentication information in a customized agent widget. This causes unnecessary complexity, where it can all be integrated via the agent widget SDK only.
 
+<br/>
 **The solution:**
+
 * The ABC Authentication Interactive response can include two different types of responses:
   * Successful: will include token string
   * Failure: will include the error code
@@ -163,7 +158,7 @@ WhatsApp has added read indications for messages sent by agent to consumer. This
 
 **Please note:** This status is in addition to the already supported indicators (Sent, Delivered, and Failed to deliver).
 
-![](https://lh4.googleusercontent.com/b9RjIk1FbaR4QNKG1IvDDYLjqBHkgioRcZ5_QxWfZWtZDURtvgIvb2gPVKF-cIFBtfErr3hkFAmYyqUfza_M4tLbjo-h3wzrUsXdwzHtSYuudkC_GfgbXY_MB7k6ekT9JjxZevcj =624x297)
+![](/img/week-of-march-25th-8.png)
 
 ### \[Web experiences\] Consumer step up authentication (CX-91)
 
@@ -177,6 +172,12 @@ This prevents brands to be unable to handle returning consumers effectively and 
 
 Once a consumer authenticates, no new conversations will be created for the same consumer. Instead, unauthenticated consumer will be switched with authenticated consumer and the agent will be able to see unauthenticated conversation history maintaining the continuity of the conversation. Agent will also be able to see the consumer’s PII information reflected in the live conversation. The feature will support either consumer or agent initiating the step up from unauthenticated state to authenticated state during the conversation.
 
+**Limitations**
+
+* Step up is not supported in single page applications (SPA). When user authenticates the page has to be refreshed.
+* The identity of the consumer must be passed using the identities array and identity function and not using SDEs.
+* Step up is not supported in external window mode.
+
 ### \[Web experiences\] Added support for authorized consumer identity (CX-177)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
@@ -189,17 +190,16 @@ When configuring authenticated web messaging, brands must send the consumer’s 
 
 The brand will provide the encrypted JWT (aka - JWE) in a new attribute of consumer “identity” json:
 
-```
-lpTag.identities.push(identityFn);
-  function identityFn(callback) {
-    callback({
-      iss: “replace with issuer”,
-      acr: “loa1”,
-      tkn: “replace with encrypted jwt (jwe)”
-  });
-}
-```
+    lpTag.identities.push(identityFn);
+      function identityFn(callback) {
+        callback({
+          iss: “replace with issuer”,
+          acr: “loa1”,
+          tkn: “replace with encrypted jwt (jwe)”
+      });
+    }
 
+<br/>
 **Limitation:** This enhancement is currently supported only for authentication flow type “oAuth 2.0 authentication (code)”. Flow type “oAuth 2.0 authentication (implicit)” will be supported in future releases.
 
 ### \[Messaging history API\] Consumer Step-Up Authentication (LE-98860)
@@ -234,7 +234,7 @@ Secure Forms alert notifications using popup window that does not show up for Fa
 
 **Fix:** Changed the alert notifications as text message embedded within the page instead of popup style.
 
-![](https://lh4.googleusercontent.com/BwHCX4lAIuVtHMNh7IAqFGa5FPqkfWsZeCGgSYf1x6Dw6ABU4D_sKKmkwqCnOqEVdido8FdMwTfOfRL6IbG_oKTTKqNTYjixhMdsy-wPnm2qgftxAtOxnT7aEfA-kZIR8HOOx4vd =170x324)
+![](/img/week-of-march-25th-9.png)
 
 ### \[Web experiences\] Scroll should be at the bottom to display latest messages (CX-56)
 
@@ -294,7 +294,7 @@ When consumer engages in a chat that has a pre-chat survey, he has to click the 
 
 Browser IE11 doesn’t support css style background:initial causing it to not render the <br> tag correctly.
 
-**Fix:** Added css style for <br> tag with background:transparent.
+**Fix:** Added css style for `<br/>` tag with background:transparent.
 
 ### \[Web experiences\] Unnecessary space below header image in engagement window (CX-171)
 
@@ -304,7 +304,7 @@ Browser IE11 doesn’t support css style background:initial causing it to not re
 
 There’s an unnecessary space below the header image on the engagement window. The margin size has been decreased to eliminate the space below the header image.
 
-![](https://lh5.googleusercontent.com/gzVNb2f-cPbC5NkXeHZPWoKun3Lqaehz01HpCQFLj4noT76IeEhnuNwva5Z86dN8VYbwB2f0Jsf3iuCAmoQHCWfWqjWoxLRo_sAq-DLlA3w46etfzJw_7_EOeaFy-Bjv8ogh2q1U =252x360)
+![](/img/week-of-march-25th-10.png)
 
 ### \[Web experiences\] Engagements not shown when 3rd party cookies blocked in Chrome (CX-190)
 
@@ -316,7 +316,7 @@ When third party cookies are blocked (disabled) in latest version of Chrome and 
 
 **Fix:** When the consumer clicks on the engagement, it will open up as an external window.
 
-### \[Web experiences\] United Airlines - JWT sent twice causing session to close (CX-189)
+### \[Web experiences\] - JWT sent twice causing session to close (CX-189)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

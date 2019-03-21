@@ -28,7 +28,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 The response time metrics in the Messaging Performance dashboard are enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
 
-The existing metrics for Time to Response and Time to First Response reflect the average time measured from the moment the consumer sent a message to the moment when the agent send his response. These metrics can be be used for analyzing the consumer's experience in messaging (i.e., how much time consumers are waiting for a response?), hence have been renamed to ‘Avg Wait Time’.
+The existing metrics for Time to Response and Time to First Response reflect the average time measured from the moment the consumer sent a message to the moment when the agent send his response. These metrics can be used for analyzing the consumer's experience in messaging (i.e., how much time consumers are waiting for a response?), hence have been renamed to ‘Avg Wait Time’.
 
 New metrics, reflecting agents’ efficiency, have been added, helping agent managers to answer questions such as - how efficient is the agent in responding to conversations? how long does it take the agent to respond? These metrics are measured from the moment the conversation was assigned to the agent to the moment the agent sent his response.
 
@@ -61,7 +61,7 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 
 As part of the ongoing effort to aid the adoption of Report Builder by Brands, and to allow Liveperson to progress towards sunsetting the BI reporting interface, liveperson is offering additional predefined documents intended for easy download and subscriptions. The content of these document replaces the grids that are available in the the Operational BI.
 
-The documents come in two version; Daily and Monthly.
+The documents come in two versions: Daily and Monthly
 
 * The daily version has the ability to retrieve data for maximum of 4 months with data availability dating back to 13 months.
 * The monthly version provides monthly aggregations of the metrics and can range from a single month to 13 months of data availability.
@@ -83,7 +83,7 @@ Users that wish to make changes to these documents can only alter the filter set
 
 ## Enhancements
 
-### \[Report Builder\] Subscription expiration increase to 6 Months
+### \[Report Builder\] Subscription expiration increase to 6 months
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -110,15 +110,7 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | Yes | No | No | No | No | No |
 
-**Type:** Enhancement
-
-**Available to all customers?** No, only the ones with the Automation.Conversation_Builder feature flag enabled(in AC features)
-
-**Description:** New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage.
-
-**Dependencies:** Appserver, Denver, AC Users, UI, LE_UI 10.4
-
-**Screenshots:**
+New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage. This feature is only available for those with the Automation.Conversation_Builder feature flag enabled (in AC features).
 
 **Administrator role(it has an extra privilege):**
 
