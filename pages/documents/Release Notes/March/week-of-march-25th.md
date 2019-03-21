@@ -172,6 +172,12 @@ This prevents brands to be unable to handle returning consumers effectively and 
 
 Once a consumer authenticates, no new conversations will be created for the same consumer. Instead, unauthenticated consumer will be switched with authenticated consumer and the agent will be able to see unauthenticated conversation history maintaining the continuity of the conversation. Agent will also be able to see the consumer’s PII information reflected in the live conversation. The feature will support either consumer or agent initiating the step up from unauthenticated state to authenticated state during the conversation.
 
+**Limitations**
+
+* Step up is not supported in single page applications (SPA). When user authenticates the page has to be refreshed
+* The identity of the consumer must be passed using the identities array and identity function and not using SDEs
+* Step up is not supported in external window mode
+
 ### \[Web experiences\] Added support for authorized consumer identity (CX-177)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
