@@ -18,7 +18,7 @@ These release notes include new features arriving to LiveEngage during February 
 {: .important}
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality
+## New functionalities
 
 ### WhatsApp Business: Adding the consumer name in the agent workspace (LE-97122)
 
@@ -238,13 +238,13 @@ This capability enables brands to track post conversation results more easily an
 
 **Limitations**
 
-For Text based channels such as SMS and ABC the new filter can display only conversations in which a post conversation survey took place, however, filtering for specific questions / answers is not available.
+For Text based channels such as SMS and ABC the new filter can display only conversations in which a Post Conversation Survey took place, however, filtering for specific questions/answers is not available.
 
 **Screenshots**
 
 ![](/img/week-of-february-11th-6.png)
 
-### Recommended Actions with Maven
+### Recommended Actions widget with Maven
 
 <table class="releasenotes">
 <thead>
@@ -286,7 +286,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 
 ![](/img/week-of-february-11th-7.png)![](/img/week-of-february-11th-8.png)
 
-### Step Up
+### Step up
 
 <table class="releasenotes">
 <thead>
