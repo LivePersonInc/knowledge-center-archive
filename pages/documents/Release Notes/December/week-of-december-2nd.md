@@ -18,7 +18,7 @@ These release notes include new features arriving to LiveEngage during December 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality
+## New functionalities
 
 ### Smart Capacity Per Skill (AE-492)
 
@@ -56,7 +56,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 Enable the Smart Capacity feature to be applied for specific skills. A brand can choose if the selected skills in the account would use the Smart Capacity default setting or custom settings.
 Controlling the feature is available through Houston only. Contact you LP representative to configure Smart Capacity parameters.
 
-### Maximum Wait Time In Queue (Chat Operational Realtime API)
+### Maximum wait time in queue (Chat Operational Realtime API)
 
 <table class="releasenotes">
 <thead>
@@ -220,7 +220,7 @@ In some cases, web agent UI bombards the back-end server with dozens of agent su
 
 Users who were assigned both Agent and Admin profiles were unable to see conversations handled and closed by them in the “All Connections” tab. This issue is now resolved.
 
-### For some languages (German and Romanian) buttons are overlapping within the Identification Verification Window (AE-191)
+### For some languages (German and Romanian) buttons are overlapping in  Identification Verification Window (AE-191)
 
 <table class="releasenotes">
 <thead>
