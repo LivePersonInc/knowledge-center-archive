@@ -71,7 +71,7 @@ Full documentation, including a list of the newly exposed metrics, can be found 
 
 Added to the existing Messaging Operations API. No additional enablement needed.
 
-### WhatsApp Business - Multiple number support per LiveEngage account (LE-95291)
+### WhatsApp Business - Multiple number support per account (LE-95291)
 
 <table class="releasenotes">
 <thead>
