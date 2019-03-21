@@ -1,6 +1,6 @@
 ---
 pagename: Reporting & data
-categoryName: Getting started
+categoryName: FAQs
 subCategoryName: ''
 indicator: both
 subtitle: ''

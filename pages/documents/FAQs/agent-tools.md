@@ -1,11 +1,11 @@
 ---
 pagename: Agent tools
-categoryName: Getting started
+categoryName: FAQs
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: faqs-agent-tools
+permalink: faqs-agent-tools.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 11:50:19 +0000

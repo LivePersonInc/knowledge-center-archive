@@ -1,8 +1,8 @@
 ---
 pagename: Surveys & window
-categoryName: Getting started
+categoryName: FAQs
 subCategoryName: ''
-indicator: chat
+indicator: both
 subtitle: ''
 level3: ''
 permalink: faqs-surveys-window.html
