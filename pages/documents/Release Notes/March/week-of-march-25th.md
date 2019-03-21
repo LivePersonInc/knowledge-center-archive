@@ -174,9 +174,9 @@ Once a consumer authenticates, no new conversations will be created for the same
 
 **Limitations**
 
-* Step up is not supported in single page applications (SPA). When user authenticates the page has to be refreshed
-* The identity of the consumer must be passed using the identities array and identity function and not using SDEs
-* Step up is not supported in external window mode
+* Step up is not supported in single page applications (SPA). When user authenticates the page has to be refreshed.
+* The identity of the consumer must be passed using the identities array and identity function and not using SDEs.
+* Step up is not supported in external window mode.
 
 ### \[Web experiences\] Added support for authorized consumer identity (CX-177)
 
