@@ -109,7 +109,7 @@ The definition of the overdue_Conversations metric is the number of conversation
 
 ![](/img/week-of-march-4th-6.png)
 
-## Conversation Builder
+### Conversation Builder
 
 | Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,11 +123,11 @@ AI and automation, including bots, are critical to delivering high-quality brand
 * Consumer intents are difficult to understand, especially using different NLU systems and entities
 * The training and optimization of bots is best conducted by agents - conversation and brand experts- but is conducted by the people who understand code, mainly developers and data scientists.
 
-### **Key features of the Conversation Builder**
+#### **Key features of the Conversation Builder**
 
 The Conversation Builder is part of the new AI capabilities from LivePerson that helps brands deliver high-impact conversational experiences at scale.
 
-The Conversation builder is a code-free, dialogue based tool, for creating automated conversations. It is built from the ground up to enable anyone to build bots using simple UI and includes some unique capabilities:
+The Conversation Builder is a code-free, dialogue based tool, for creating automated conversations. It is built from the ground up to enable anyone to build bots using simple UI and includes some unique capabilities:
 
 1. **There is no need for code**. Because the Conversation Builder doesn’t require coding to create a bot’s conversation, agents, who are closest to consumers, can directly participate in the conversational design, optimization and training of bots and automations.
 2. **Brands don’t need to start from scratch for building bots**: The Conversation Builder provides an out-of-the-box automation library with templates for common workflows and verticals, such as retail and telco. These automation templates are plug and play with a simple, one-time plug-in to APIs and brands can take advantage of pre-packaged dialogues. Templates include: Concierge, Lead Generation, Product Promotion, Schedule Appointments, Product Search and Shopping, Checkout, Order Status, Off Business Hours, FAQ’s and Gift Guide.
