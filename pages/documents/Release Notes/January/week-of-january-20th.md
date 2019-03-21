@@ -19,7 +19,7 @@ These release notes include new features arriving to LiveEngage during January 2
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New functionality
+## New functionalities
 
 ### Report Builder: Time zone support (90133)
 
