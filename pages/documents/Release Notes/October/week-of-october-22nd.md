@@ -243,7 +243,7 @@ August is displaying as Aoû in the engagement window, which is not a valid abbr
 
 A conflict was discovered in code between the window and the customer’s page, causing the window to show as blank after a new page loaded (e.g. refresh), and to show only new messages from the consumer. This issue has been resolved.
 
-### IE11 Placeholder Text continues to show Once Consumer Selects the Field (LE-94424)
+### IE11 Placeholder text continues to show once consumer selects the field (LE-94424)
 
 <table class="releasenotes">
 <thead>
