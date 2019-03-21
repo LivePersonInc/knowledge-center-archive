@@ -2,8 +2,8 @@
 pagename: 'Week of October 15th '
 categoryName: Release notes
 subCategoryName: 2018
-indicator: chat
-subtitle: LivePerson Release Notes
+indicator: both
+subtitle: ''
 level3: October
 permalink: release-notes-2018-october-week-of-october-15th.html
 isTutorial: false
