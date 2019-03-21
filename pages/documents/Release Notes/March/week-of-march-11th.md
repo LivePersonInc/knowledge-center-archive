@@ -102,8 +102,6 @@ LivePerson has made an enhancement to Report Builder subscriptions that increase
 
 When setting up a new subscription, the default “Do Not Deliver After” date will be set 6 months in the future from the date the subscription is created.
 
-## Agent Workspace
-
 ### \[Conversation Builder\] Enabling Automation.Conversation_Builder feature flag
 
 | Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
