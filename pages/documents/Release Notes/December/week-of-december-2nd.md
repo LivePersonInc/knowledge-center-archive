@@ -20,7 +20,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## New functionalities
 
-### Smart Capacity Per Skill (AE-492)
+### Smart Capacity per skill (AE-492)
 
 <table class="releasenotes">
 <thead>
@@ -150,7 +150,7 @@ If a consumer sends the agent multiple photos, the agent can now navigate betwee
 
 ## Bug fixes
 
-### Multiple agent survey's “Submit Requests” come from Web Agent unexpectedly (AE-858)
+### Multiple agent survey's “Submit Requests” come from web agent unexpectedly (AE-858)
 
 <table class="releasenotes">
 <thead>
