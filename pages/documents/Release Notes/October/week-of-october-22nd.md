@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionalities
+## New functionalities
 
 ### Skill ID on Conversation Info event (LE-94149)
 
@@ -93,7 +93,7 @@ After the consumer sends an image to an agent, and clicks on the thumbnail, the 
 
 ![](/img/week-of-october-22nd-1.png)
 
-## Enhancement
+## Enhancements
 
 ### Messaging - Automatic Messages - adding support of "\\n" (LE-93733)
 
@@ -130,9 +130,9 @@ After the consumer sends an image to an agent, and clicks on the thumbnail, the 
 
 Unified Window needs to align the code to support "\\n" in Messaging Automatic Messages. Backward compatibility should be taken into account for cases of brands that are already using "\\n" inside their predefined content/automatic messages.
 
-## Bug Fixes
+## Bug fixes
 
-### Dutch Translation - Email and Print Transcript (LE-92669)
+### Dutch Translation - email and print transcript (LE-92669)
 
 <table class="releasenotes">
 <thead>
