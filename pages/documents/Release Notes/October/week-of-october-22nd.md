@@ -2,7 +2,7 @@
 pagename: 'Week of October 22nd '
 categoryName: Release notes
 subCategoryName: 2018
-indicator: chat
+indicator: both
 subtitle: ''
 level3: October
 permalink: release-notes-2018-october-week-of-october-22nd.html
