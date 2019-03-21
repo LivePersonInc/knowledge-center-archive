@@ -18,7 +18,7 @@ These release notes include new features arriving to LiveEngage during November 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionalities
+## New functionalities
 
 ### Connectors support: Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
 
@@ -72,7 +72,7 @@ For a more in depth guide on how to add metadata in structured content templates
 
 **Dependencies:** To create Structured Content templates for any of the supported connector sources, brands must use the Agent Widget SDK or the Agent SDK. For more information please review the Rich Messaging section in the [developer community](https://developers.liveperson.com/)
 
-## Bug Fixes
+## Bug fixes
 
 ### Messaging connectors: Consumer is able to send audio message with field set to false (LE-94809)
 
