@@ -3,7 +3,7 @@ pagename: 'Week of October 22nd '
 categoryName: Release notes
 subCategoryName: 2018
 indicator: chat
-subtitle: LiveEngage Release Notes
+subtitle: ''
 level3: October
 permalink: release-notes-2018-october-week-of-october-22nd.html
 isTutorial: false
@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionality
+## New Functionalities
 
 ### Skill ID on Conversation Info event (LE-94149)
 

@@ -3,7 +3,7 @@ pagename: 'Week of October 29th '
 categoryName: Release notes
 subCategoryName: 2018
 indicator: both
-subtitle: LiveEngage Release Notes
+subtitle: ''
 level3: October
 permalink: release-notes-2018-october-week-of-october-29th.html
 isTutorial: false
@@ -19,7 +19,7 @@ These release notes include new features arriving to LiveEngage during October 2
 
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## New Functionality
+## New Functionalities
 
 ### Methods for Messaging Skill Segments (messaging operations API)
 
