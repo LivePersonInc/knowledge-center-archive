@@ -16,7 +16,7 @@ Our mission at LivePerson is to help our clients create meaningful connections. 
 
 The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.
 
-
+![](/img/MCS (2)-1.gif)
 
 ## The problem with traditional customer satisfaction metrics
 
