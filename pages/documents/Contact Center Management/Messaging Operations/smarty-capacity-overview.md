@@ -16,7 +16,7 @@ isNew: false
 
 In the world of messaging, consumers are connected to a brand 24/7. They can pick up a conversation with an agent at any time and from any device, without ever being disconnected. Consequently, the frequency of messages sent by the consumer changes throughout the conversation life cycle. As time passes, the frequency or _intensity_ of the messages drops, meaning the chances of the consumer answering fall, and an agent needs less time to deal with them.
 
-https://vimeo.com/312486745/acb54c76ca 
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312486745" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Shifting the focus from concurrency to intensity
 
