@@ -451,17 +451,16 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 **Note:** If you ever change the text in the Display Name of a survey question in LiveEngage – you have to update this mapping too, otherwise the mapping will stop working.
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
-
 * **LivePerson SDK Field:** `surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value`
 * **LivePerson API Field:** `surveys.preChat[displayName=What is your Account Number?].value`
 
+{:start="2"}
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
-
 * **LivePerson SDK Field:** `surveyQuestions.postChat[displayName=How would you rateus?].value`
 * **LivePerson API Field:** `surveys.postChat[displayName=How would you rate us?].value`
 
+{:start="3"}
 1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
-
 * **LivePerson SDK Field:** `surveyQuestions.agentSurvey[displayName=Was the customer satisfied?].value`
 * **LivePerson API Field:** `surveys.operator[displayName=Was the customer satisfied?].value`
 
