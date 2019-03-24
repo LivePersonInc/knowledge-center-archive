@@ -52,7 +52,7 @@ Automation and AI underpins LivePerson’s conversational commerce. Bots and AI 
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312966468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - the Maven.
+The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - Maven.
 
 ![](/img/lp-cc-4b-1.png)
 
