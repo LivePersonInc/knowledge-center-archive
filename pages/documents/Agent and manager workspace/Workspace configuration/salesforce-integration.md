@@ -8,10 +8,9 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
 date: 2019-01-22 08:24:13 +0000
-published: true
 
 ---
-The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage App for Salesforce.
+The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage app for Salesforce.
 
 **Please note:** The information in this guide refers to both chat and messaging, unless otherwise indicated.
 
@@ -484,18 +483,22 @@ These are just a few examples meant to demonstrate how to write these “address
 * **LivePerson SDK Field:** `SDE.customerDetails.type`
 * **LivePerson API Field:** `sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType`
 
+{:start="3"}
 1. For the **Visitor’s** **Name** value:
 * **LivePerson SDK Field:** `SDE.personalInfo.name`
 * **LivePerson API Field:** `sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
+{:start="4"}
 1. For the **Goal Name** value:
 * **LivePerson SDK Field:** `campaignInfo.goalName`
 * **LivePerson API Field:** `campaign.goalName`
 
+{:start="5"}
 1. For the **Visitor Browser** value:
 * **LivePerson SDK Field:** `visitorInfo.browser`
 * **LivePerson API Field:** `visitorInfo.browser`
 
+{:start="6"}
 1. For the **Marketing** **Affiliate** value:
 * **LivePerson SDK Field:** `SDE.marketingSource.affiliate`
 * **LivePerson API Field:** `sdes.events[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate`
