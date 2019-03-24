@@ -146,6 +146,10 @@ body {
   outline: none;
 }
 
+.lp-json-pollock-layout-carousel-wrapper + .caseyAvatar {
+  display: none;
+}
+
 .lp-json-pollock-layout-carousel {
   display: flex !important;
 }
@@ -154,10 +158,6 @@ body {
   display: flex !important;
   flex-direction: column;
   flex: 1;
-}
-
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-image {
-
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-button {

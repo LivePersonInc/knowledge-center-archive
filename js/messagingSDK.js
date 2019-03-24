@@ -4,7 +4,7 @@ var windowKit = new windowKit({
 	//skillId: 12341234 - optional skill ID
 });
 //declaring variables
-var userinput = '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div>'
+var userinput = '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>'
 let isScrolling;
 let agentFirstText;
 
@@ -30,8 +30,9 @@ windowKit.onAgentTextEvent(function(text) {
 	if (!agentFirstText) {
 		agentFirstText = true;
 		$("#botLoader").css('display', 'none');
+		scrollBottom(0);
 	}
-	scrollBottom();
+	scrollBottom(150);
 });
 
 //when a user sends a text
@@ -39,7 +40,7 @@ windowKit.onVisitorTextEvent(function(text) {
 	//grab that text's contents and append it to the conversation
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	console.log('visitortext');
-	scrollBottom();
+	scrollBottom(150);
 });
 
 //when an agent (the bot) sends a rich content message
@@ -61,6 +62,51 @@ windowKit.onAgentRichContentEvent(function(content) {
 		window.open(rawLink, "_blank");
 		console.log(linkObject);
 	});
+	jsonButton();
+	scrollBottom(150);
+});
+
+function displayInput () {
+	//timeout needed to make sure the input gets displayed after the response message
+	$('#messageInput').attr('id', 'messageInputUsed');
+	setTimeout (function () {
+	//find the last child, which will always be the response message, and append the input beneath it
+	$('#caseyContainer:last').append(userinput);
+	jsonButton();
+	//a listener to recognize whether enter was pressed on the search input
+	 $('#messageInput').keydown(function (e) {
+		 if (e.which == 13) {
+			 //when enter was pressed, grab the text from the input field
+			 var messageText = messageInput.value;
+			 //send that text to the conversation, where it will get appended
+			 windowKit.sendMessage(messageText);
+			 console.log('enter');
+			 console.log(messageText);
+			 //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
+			 $(this).attr('id', 'messageInputUsed');
+		 }
+	 });
+}, 1000);
+};
+
+//a function to scroll to the bottom of the conversation
+function scrollBottom (offset) {
+	//only scroll if we haven't scrolled before
+	if (!isScrolling) {
+		//change the var so this doesn't repeat
+		isScrolling = true;
+		//find the bottom of the conversation window by adding the top attribute and the height of the div
+	var bottom = $('#caseyContainer div:last').position().top - offset;
+	//now that we have bottom, animate the body and html to simulate a scroll
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
+	}
+	setTimeout (function () {
+		//allow other scrolls in the future, like those which happen when a new text is sent
+		isScrolling = false;
+	}, 2000);
+};
+
+function jsonButton () {
 	//when a user click on a strucuted content button
 	$('.lp-json-pollock-element-button').on('click', function () {
 		//grab the text of the button
@@ -79,50 +125,11 @@ windowKit.onAgentRichContentEvent(function(content) {
 	});
 	}
 		//if the user wants to search, show the input field
-		if (scText == "Search for something else") {
+		if (scText == "Search for something else" || scText == "Take me back to the search") {
 			displayInput();
 		}
 	});
-	scrollBottom();
-});
-
-function displayInput () {
-	//timeout needed to make sure the input gets displayed after the response message
-	setTimeout (function () {
-	//find the last child, which will always be the response message, and append the input beneath it
-	$('#caseyContainer:last').append(userinput);
-	//a listener to recognize whether enter was pressed on the search input
-	 $('#messageInput').keydown(function (e) {
-		 if (e.which == 13) {
-			 //when enter was pressed, grab the text from the input field
-			 var messageText = messageInput.value;
-			 //send that text to the conversation, where it will get appended
-			 windowKit.sendMessage(messageText);
-			 console.log('enter');
-			 console.log(messageText);
-			 //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
-			 $(this).attr('id', 'messageInputUsed');
-		 }
-	 });
-}, 2000);
-};
-
-//a function to scroll to the bottom of the conversation
-function scrollBottom () {
-	//only scroll if we haven't scrolled before
-	if (!isScrolling) {
-		//change the var so this doesn't repeat
-		isScrolling = true;
-		//find the bottom of the conversation window by adding the top attribute and the height of the div
-	var bottom = $('#caseyContainer div:last').position().top;
-	//now that we have bottom, animate the body and html to simulate a scroll
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
-	}
-	setTimeout (function () {
-		//allow other scrolls in the future, like those which happen when a new text is sent
-		isScrolling = false;
-	}, 2000);
-};
+}
 
 $(document).ready(function () {
 	//when the reset button is clicked
