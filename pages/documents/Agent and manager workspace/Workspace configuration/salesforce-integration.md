@@ -17,16 +17,12 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 ## **Step #1: Installing the LiveEngage app for Salesforce**
 
 1. Log into Salesforce.
-2. Navigate to one of the following URLs that best matches your requirements:
-   * Installation on a live Salesforce production account: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
-   * Installation on a test Salesforce sandbox account:[ ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J)[https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J "https://test.salesforce.com/packaging/installPackage.apexp?p0=04t15000000pN6J")
 
 ![](/img/salesforce-integration-guide-15.png)
 
 {:start="3"}
 
-1. Select "Install for All Users”, click "Install". When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
-2. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
+1. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
 ## **Step #2: Configuring the LiveEngage app in Salesforce**
 
@@ -439,7 +435,16 @@ To use “Other,” you need to manually populate two fields: one is the address
 
 The equivalent fields needed for messaging are ‘LivePerson Msg SDK Field’ and ‘LivePerson Msg API Field’.
 
-The complete structure of the data in the “WebApp SDK” and “Engagement History API” is described in their own documents which update all the time and you can find through the Connection Panel on your LiveEngage Account, or in our [Developers' Community](https://developers.liveperson.com/index.html).
+The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LiveEngage Account, or in our Developer Community:
+
+**Agent Widget SDK Public Data Model** -   
+[https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
+
+**Engagement History API - Engagement Attributes** -   
+[https://developers.liveperson.com/engagement-history-api-engagement-attributes.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
+
+**Messaging Interactions API - Engagement Attributes** -   
+[https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
 
 ### **Survey questions (pre-chat, post-chat, agent)**
 
@@ -467,9 +472,9 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 LiveEngage has a wide (and constantly growing) list of parameters for different uses, which our customers can use for to transfer information about the visitor and his journey on their website, and into LiveEngage.
 
-Those fields are arranged in a hierarchical structure described on both WebApp SDK and Engagement History API documents (there are slight differences in those structures but most of the content is similar).
+Those fields are arranged in a hierarchical structure described on both Agent Widget SDK and Engagement History API documents (there are slight differences in those structures but most of the content is similar).
 
-Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account id from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the WebApp SDK. Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
+Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account ID from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the Agent Widget SDK. Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
 
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
