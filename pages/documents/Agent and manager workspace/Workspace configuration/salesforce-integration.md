@@ -17,7 +17,7 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 ## **Step #1: Installing the LiveEngage app for Salesforce**
 
 1. Log into Salesforce.
-2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3 "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3")
+2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela")
    1. Select "Install for All Users,” click "Install." (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 3. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
@@ -434,13 +434,13 @@ The equivalent fields needed for messaging are ‘LivePerson Msg SDK Field’ an
 
 The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LiveEngage Account, or in our Developer Community:
 
-**Agent Widget SDK Public Data Model** -   
+**Agent Widget SDK Public Data Model** -  
 [https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
 
-**Engagement History API - Engagement Attributes** -   
+**Engagement History API - Engagement Attributes** -  
 [https://developers.liveperson.com/engagement-history-api-engagement-attributes.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
 
-**Messaging Interactions API - Engagement Attributes** -   
+**Messaging Interactions API - Engagement Attributes** -  
 [https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
 
 ### **Survey questions (pre-chat, post-chat, agent)**
