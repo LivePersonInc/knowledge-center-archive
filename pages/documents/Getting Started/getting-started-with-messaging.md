@@ -12,7 +12,7 @@ level3: ''
 isNew: false
 
 ---
-To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
+To get started, access LivePerson using this link: [https://authentication.liveperson.net/login.html](https://authentication.liveperson.net/login.html)
 
 ## Get to the first message
 
