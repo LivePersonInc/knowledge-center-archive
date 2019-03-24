@@ -190,7 +190,6 @@
         - pagename: Training tutorials
         - pagename: Terms of use
         - pagename: Moving from BI to Report Builder
-        - pagename: Conversation outcomes
     - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
