@@ -42,6 +42,7 @@ function navigateContent(url) {
 				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2');
+			$('#mysidebar .activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
@@ -219,9 +220,11 @@ function sideBarCollapse () {
 	var url = window.location.href;
 	var modifiedURL = '/' + url.split('/').reverse()[0].replace(/\#.*/, '');
 	var currentPage = $('a[href="' + modifiedURL + '"]');
+	var currentPagePosition = currentPage.position().top + 50;
 	var currentPageOpener = currentPage.parents().children(".canOpen");
 	currentPage = currentPage.addClass("activeitem");
 	currentPageOpener = currentPageOpener.trigger("click");
+	$('#mysidebar').animate({scrollTop: currentPagePosition}, 2000);
 }
 
 //a function to control a click on the mobile hamburger button
