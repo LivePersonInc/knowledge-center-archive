@@ -483,18 +483,22 @@ These are just a few examples meant to demonstrate how to write these “address
 * **LivePerson SDK Field:** `SDE.customerDetails.type`
 * **LivePerson API Field:** `sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType`
 
+{:start="3"}
 1. For the **Visitor’s** **Name** value:
 * **LivePerson SDK Field:** `SDE.personalInfo.name`
 * **LivePerson API Field:** `sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
+{:start="4"}
 1. For the **Goal Name** value:
 * **LivePerson SDK Field:** `campaignInfo.goalName`
 * **LivePerson API Field:** `campaign.goalName`
 
+{:start="5"}
 1. For the **Visitor Browser** value:
 * **LivePerson SDK Field:** `visitorInfo.browser`
 * **LivePerson API Field:** `visitorInfo.browser`
 
+{:start="6"}
 1. For the **Marketing** **Affiliate** value:
 * **LivePerson SDK Field:** `SDE.marketingSource.affiliate`
 * **LivePerson API Field:** `sdes.events[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate`
