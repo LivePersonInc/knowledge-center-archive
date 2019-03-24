@@ -17,12 +17,9 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 ## **Step #1: Installing the LiveEngage app for Salesforce**
 
 1. Log into Salesforce.
-
-![](/img/salesforce-integration-guide-15.png)
-
-{:start="3"}
-
-1. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
+2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3 "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000L5t3")
+   1. Select "Install for All Users”, click "Install". (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management)).
+3. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
 ## **Step #2: Configuring the LiveEngage app in Salesforce**
 
