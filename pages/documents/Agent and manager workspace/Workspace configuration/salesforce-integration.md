@@ -566,7 +566,6 @@ These are just a few examples meant to demonstrate how to write these “address
 ![](/img/salesforce-integration-guide-12.png)
 
 {:start="2"}
-
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
 
    **Steps for resolving the issue:**
@@ -579,7 +578,6 @@ These are just a few examples meant to demonstrate how to write these “address
 ![](/img/salesforce-integration-guide-13.png)
 
 {:start="3"}
-
 1. **Issue**: Salesforce widget does not load followed by an error message.
 
    **Steps for resolving the problem** (guide the customer to do the following):
@@ -588,9 +586,9 @@ These are just a few examples meant to demonstrate how to write these “address
       1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
-4\. **Issue**: Salesforce widget does not load followed by an error message.
+4. **Issue**: Salesforce widget does not load followed by an error message.
 
-    **Observation:** missing Salesforce configuration; skill is not associated with an object.
+	**Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
 
