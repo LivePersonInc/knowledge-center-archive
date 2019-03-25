@@ -102,6 +102,7 @@ This panel presents a summary of the staffing related metrics as they pertain to
 8. BACK SOON TIME ENG.
 
 **Visualizations:**
+
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
 | Queue Times (Bar Chart) | AVG. TIME TO ANSWER | HOUR | None |
@@ -124,15 +125,8 @@ This panel presents a deep dive into missed opportunity as it pertains to actual
 ![](/img/operational-staffing-dashboard4.png)
 
 **Visualizations:**
-
-| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
-| --- | --- | --- | --- |
-| Missed Opportunity Weekly (Stacked Combo Bar & Line Chart) | CHAT EXPOSED (SKILL)MISSED EXPOSED (SKILL)EXPOSED RATE (SKILL) | DATE |  |
-
-## Microstrategy terminology
-
-Microstrategy sources: [Link ](https://community.microstrategy.com/s/learning-center?language=en_US)
-
-| Term | Description |
-| --- | --- |
-| Dashboard | A visually intuitive display of data that summarizes key business indicators for a quick status check. A special type of document, dashboards usually provide interactive features that let users change how they view the dashboard’s data. |
+| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) |
+| --- | --- | --- |
+| Missed Opportunity Weekly (Stacked Combo Bar & Line Chart) | CHAT EXPOSED (SKILL)/ MISSED EXPOSED (SKILL) / EXPOSED RATE (SKILL) | DATE |
+| Total vs Actual Volume (Stacked Area Chart) | POTENTIAL ENGAGEMENTS (SKILL)/ ENGAGEDPOTENTIAL EXPOSED (SKILL)/ CHAT EXPOSED (SKILL) | DATE |
+| Missed Opp. by Day of Week by Hour (Area Chart) | MISSED OPPORTUNITIES (SKILL) | DAY OF THE WEEK& HOUR |
