@@ -12,7 +12,7 @@ date: 2019-01-21 11:51:07 +0000
 isNew: false
 
 ---
-The Business Activity predefined dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel, including both chat and web messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand website, mobile app, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+The Business Activity predefined dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel, including both chat and web messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand website, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
 Operational metrics for agent productivity and utilization have been added to compliment the funnel metrics. These operational metrics can be viewed alongside the funnel data but cannot be streamlined into one filterable view, as the dashboard does not include skill level analysis.
 
@@ -228,9 +228,9 @@ Included in this panel is an engagement formats selector, allowing the filtering
 
 ### Entry point panel
 
-The Entry Point is a section on your website or mobile app. On each entry point, setup in a LiveEngage Campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
+The Entry Point is a section on your website. On each entry point, setup in a LiveEngage Campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
 
-Use the Business Activity by Entry Point to analyze the traffic on each website section or mobile app section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
+Use the Business Activity by Entry Point to analyze the traffic on each website section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
 
 ## Business activity grid
 
