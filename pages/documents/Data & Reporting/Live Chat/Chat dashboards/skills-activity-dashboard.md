@@ -28,6 +28,14 @@ The following panel will be presented when accessing the skills activity predefi
 Image 1 - Skill activity dashboard main panel
 
 **Visualizations:**
+| Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
+| --- | --- | --- | --- |
+| Eng. Volume(area chart) | REQUESTED CHATS / CONNECTED CHATS / INTERACTIVE CHATS | DATE | N/A |
+| Average engagement length (bar chart) | CSAT / AVG. INTERACTIVE CHAT LENGTH | DATE | N/A |
+| Abandon Rate (bar chart) | ABANDONED CHAT RATE | DATE | N/A |
+| Average wait time (line chart) | AVG. TIME TO ABANDON CHAT / AVG. TIME TO ANSWER CHAT / CSAT | DATE | N/A |
+
+## Panel 2: Skill Activity Grid
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
