@@ -1261,6 +1261,10 @@ w-div a:last-child {
     margin-left: 20px;
   }
 
+  #subtitle {
+    width: 90%;
+  }
+
   #defaultcontent {
     grid-column: 1 / span 5;
     margin-left: 20px;
@@ -1287,6 +1291,25 @@ w-div a:last-child {
     display: none;
   }
 
+  #post-content table {
+    width: 110%;
+  }
+
+  #post-content table > thead > tr > th {
+    padding: 14px 0px;
+  }
+
+  #post-content table td:first-child {
+    max-width: none;
+  }
+
+  #post-content table tr td {
+    font-size: 10px;
+    max-width: none;
+    text-align: left;
+    padding: 21px 1.5px 21px 8px;
+  }
+
   .mobileheader {
     display: flex;
     align-items: center;
@@ -1297,4 +1320,13 @@ w-div a:last-child {
   .mobilefeaturestable {
     display: block;
   }
+
+  #feedback {
+    width: 107%;
+  }
+
+  #footericons {
+    display: none;
+  }
+
 }

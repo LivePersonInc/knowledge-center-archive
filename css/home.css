@@ -847,7 +847,8 @@ a.mainlink:hover {
   }
 
   #footertext {
-    width: 70%;
-    margin-bottom: 20px;
+    width: 100%;
+    font-size: 12px;
+    margin-top: -13px;
   }
 }
