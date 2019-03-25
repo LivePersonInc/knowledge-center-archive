@@ -13,6 +13,8 @@ date: 2019-03-25 15:41:24 +0200
 ---
 Welcome to the LivePerson Product Updates Newsletter for March
 
+![](/img/Newsletter March GIF(1).gif)
+
 Here is a round-up of the latest features, enhancements and enablements that are coming in March 2019 - all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
 ## Configuring welcome message using Quick Replies
