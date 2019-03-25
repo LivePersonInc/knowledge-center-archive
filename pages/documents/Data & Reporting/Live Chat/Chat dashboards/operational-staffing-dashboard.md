@@ -75,7 +75,7 @@ Visualizations:
 
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Historical Volume (Combe Chart) | INTERACTIVE CHAT RATE INTERACTIVE CHATS | DATE | Dynamically reflects the aggregated data of the selected Campaign from the Campaign Grid (left). Click on a Campaign name and see the relevant data in the visualization. |
+| Historical Volume (Combe Chart) | INTERACTIVE CHAT RATE / INTERACTIVE CHATS | DATE | Dynamically reflects the aggregated data of the selected Campaign from the Campaign Grid (left). Click on a Campaign name and see the relevant data in the visualization. |
 
 ## Staffing analysis sheet
 
