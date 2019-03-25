@@ -11,7 +11,7 @@ isTutorial: false
 date: 2019-01-15 13:14:02 +0000
 
 ---
-## Reporting for post conversation survey
+This dashboard will be coming soon to the Report Builder. It will provide results for all available surveys for messaging namely the Post Conversation Survey.
 
 The [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
 
