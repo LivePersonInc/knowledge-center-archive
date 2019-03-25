@@ -42,6 +42,7 @@ The following panel will be presented when accessing the operational & staffing 
 9. INTERACTIVE CHAT RATE
 
 **Visualizations:**
+
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
 | Prospects vs. Exposure by day (Area Chart) | CHAT PROSPECTS (SKILL) For Fx / CHAT EXPOSED (SKILL) For Fx | DAY OF THE WEEK = A | Hover to view the data points per hour of the dayDynamically reflects the aggregated selected skill’s data as chosen in the filter. |
@@ -101,10 +102,11 @@ This panel presents a summary of the staffing related metrics as they pertain to
 8. BACK SOON TIME ENG.
 
 **Visualizations:**
-
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Queue Times (Bar Chart) | AVG. TIME TO ANSWER | HOUR |  |
+| Queue Times (Bar Chart) | AVG. TIME TO ANSWER | HOUR | None |
+| Abandonment (Bar Chart) | ABANDONED CHAT RATE | HOUR | None |
+| Missed Opportunity by skill (Pie Chart) | MISSED OPPORTUNITIES (SKILL) | SKILL | None |
 
 **Bottom data table (grid) “Survey”**
 
