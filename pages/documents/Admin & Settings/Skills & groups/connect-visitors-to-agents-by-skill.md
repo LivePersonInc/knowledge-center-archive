@@ -18,7 +18,8 @@ Agents are trained to help visitors according to the business need.  An agent�
 Start by creating skills according to your business needs. Then assign skills to your agents. Finally, assign a skill to each engagement, so that when visitors click on the invitation to chat or message, they are routed to the agent most able to answer the visitor’s question.
 
 Agent skills are created in the user management area:
-![](/img/connectvis1 (1).png)
+
+![](/img/Transfer to skills_UI-04.png)
 
 ## How to create a skill
 
@@ -42,6 +43,8 @@ This means that when handling a conversation from a certain skill, the agent wil
 
 For example, messaging skills should only transfer to other messaging skills, chat skills to other chat skills, and there should be limited transfer to bot skills.
 
+![](/img/Connect-visitors-by-agent-skills2.png)
+
 By default, the checkbox under the section transfer to skills is selected, meaning that the skill will be able to transfer to any other skill defined in the system. By clicking in the box, a dropdown of available skills will appear. These can be selected or deselected to determine whether or not the skill can be transferred on to them.
 
 * A skill can always be transferred to itself and to other available agents assigned to the same skill.
@@ -63,7 +66,7 @@ The following survey types are supported:
 * [Post-chat survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#post-chat-survey)
 * [Agent survey](contact-center-management-live-chat-operations-surveys-with-live-chat.html#agent-survey)
 
-![](/img/connectvis3 (1).png)
+![](/img/connect-visitors-agent-skills3.png)
 
 {: .notice}  
 In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)
@@ -94,5 +97,3 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 4. Click the gear icon to open the settings menu.
 5. Select the skill that you want to assign to your current engagement.
 6. Click publish.
-
-![](/img/connectvis5 (1).png)
