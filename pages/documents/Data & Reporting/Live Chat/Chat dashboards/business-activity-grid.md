@@ -88,16 +88,6 @@ Here are the results observed in the Business Activity dashboard per each distin
 
 ![](/img/business-activity-dashboard-table.png)
 
-## Reporting on campaigns funnel from messaging engagements
-
-The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Live Chat or Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
-
-The LivePerson monitoring code present on your website pages automatically transmits to LiveEngage each step in the consumer’s journey. This translates into metrics included in the Business Activity dashboard. In order to integrate consumer journeys taking place in the mobile app into Campaign Funnel metrics, the use of an SDK is required (read more on how to integrate your app with LiveEngage Campaigns).
-
-The following diagram outlines how funnel metrics are calculated for Messaging Engagements which do not originate from a monitored web source:
-
-![](/img/Business-activity-grid-image1.png)
-
 ## Main sheet: Business activity analysis
 
 Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. Since the panels are identical in metrics and attributes, the following section outlines the common list of metrics, followed by the additional functionality at the relevant level.
