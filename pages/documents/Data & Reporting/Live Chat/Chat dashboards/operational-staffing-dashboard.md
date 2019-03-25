@@ -42,10 +42,10 @@ The following panel will be presented when accessing the operational & staffing 
 9. INTERACTIVE CHAT RATE
 
 **Visualizations:**
-
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) | Additional functions |
 | --- | --- | --- | --- |
-| Prospects vs. Exposure by day (Area Chart) | CHAT PROSPECTS (SKILL) For FxCHAT EXPOSED (SKILL) For Fx | DAY OF THE WEEK = A | Hover to view the data points per hour of the dayDynamically reflects the aggregated selected skill’s data as chosen in the filter. |
+| Prospects vs. Exposure by day (Area Chart) | CHAT PROSPECTS (SKILL) For Fx / CHAT EXPOSED (SKILL) For Fx | DAY OF THE WEEK = A | Hover to view the data points per hour of the dayDynamically reflects the aggregated selected skill’s data as chosen in the filter. |
+| Chat Funnel {Requested, Interactive, Connected} (Area Chart) | REQUESTED CHATS / INTERACTIVE CHATS / CONNECTED CHATS | DAY OF THE WEEK | Hover to view the data points per hour of the dayDynamically reflects the aggregated selected skill’s data as chosen in the filter. |
 
 ### Panel two: demand processing
 
