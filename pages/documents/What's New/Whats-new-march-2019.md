@@ -27,7 +27,10 @@ The quick replies run through a bot flow, allowing the bot to respond with relev
 
 ![](/img/Whats-new-march2.png)![](/img/Whats-new-march3.png)
 
-## Photo sharing - agent to consumer (web messaging)
+## Photo sharing - agent to consumer (web messaging) 
+
+{: .notice}  
+This feature is coming in early April.
 
 Agents and bots can send photos to consumers to explain issues or requests quicker and more accurately. For example, a screenshot for tech support, or a product photo making messaging conversations a more visual experience and reduce time to resolution. All photos will appear in conversation transcripts.
 
