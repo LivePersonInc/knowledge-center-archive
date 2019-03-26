@@ -38,9 +38,8 @@ Each user should have at least one of the above permissions in order to be able 
 
 When transferring a conversation to a specific agent, only agents in a state for which the transferring agent has permissions will show up. For example, if the transferring agent has only the “online” or “back soon” states configured, away or offline agents will not appear in the list.
 
-  
-![](https://lh4.googleusercontent.com/3gX_PrG8ZYUcFMii9VzxwZmtUoEVry3N8WQwlVtDSBWoYqpVVFfYcRNB-KBG-MtsSaQ2JkWo0S2NP3QV3_I7weSg5YzDPze0qgVj-YkXRV3o2bQTmdd9hOD-MJ2DHZnMNMiNiU4n =624x360)  
-![](https://lh6.googleusercontent.com/UKBTBpr4SO-yTSDvma9SEzGSaBvzBoZi5RY2CaQ4IWm85Upx2lv5IV8yIfQsHLCToBiEQ2gdQDSnQG_Q2y87P3VL2QPli9UtyLr10t95hzOaqRDAUnSuQA0aIYdqohJlEA3-lh1c =710x411)
+![](/img/transfer-to-agent-1.png)  
+![](/img/transfer-to-agent-2.png)
 
 ## **Transferring agent experience**
 
@@ -48,12 +47,9 @@ Agents with appropriate permissions to transfer to a specific agent (at least on
 
 Once they click on the tab, a list of optional destination agents will be shown. Transferring agents will be able to use a dynamic search for the agent name.
 
-**![](https://lh6.googleusercontent.com/wgsUDC9iZc0bv9BP05ZTDGVyG1fHusd7cPbLoyRiwaBhu3xoXCW-rFyr4H5TN6e-e0CUHOyPRXrP7_FY-biBHHumNJNbIvKXaDI5bIUDxWiDvFpfoq0tgHFXoZRSVy-YDut__RKj =334x596)**
+![](/img/transfer-to-agent-3.png)
 
-  
-  
-  
-![](https://lh4.googleusercontent.com/hJLnP37Vl-K6_5bPm8CDQcsR2VzIitnO_PfR86BTsgg31iEc5iqz2NLx39JEl7-Tvx8EL8bJ9V_VrIdpIXdTS7vyzLTZAPBuPgzPRZPSn7SomKuSoq5GyzeGSeWOu5XFMGq6cz4w =716x415)
+![](/img/transfer-to-agent-4.png)
 
 ## **Destination agents list**
 
@@ -61,7 +57,7 @@ Only agents in states for which the transferring agent has permissions will appe
 
 In addition, the list will only contain agents who are assigned to skills that the current skill of the conversation is set to transfer to, according to the following existing setting:
 
-![](https://lh6.googleusercontent.com/VXV3Uq7TvLhaLbo_CVaXMOCXLKnPzLELLjcZrwMAYqUpaEdJxEJyPwkBpTyMiSUqK3XyvbTqSRJC2ySo1QMoaFKCPXQiaMmbR586xDZ8IK4OH3vDvviwjUTsV9A9bVp4F73ZIxpp =624x361)
+![](/img/transfer-to-agent-5.png)
 
 | --- | --- |
 | Transfer to skills setting | Agents appearing in the Destination agents list |
@@ -87,8 +83,7 @@ These limitations and conditions apply:
 
 Once selecting a destination agent, a list of optional skills will be presented:
 
-  
-![](https://lh6.googleusercontent.com/UKBTBpr4SO-yTSDvma9SEzGSaBvzBoZi5RY2CaQ4IWm85Upx2lv5IV8yIfQsHLCToBiEQ2gdQDSnQG_Q2y87P3VL2QPli9UtyLr10t95hzOaqRDAUnSuQA0aIYdqohJlEA3-lh1c =710x411)
+![](/img/transfer-to-agent-6.png)
 
 ## **Queue behavior**
 
@@ -116,15 +111,15 @@ Brands will be able to define how long conversations will wait for the destinati
 
 The default setting will be set to **two hours.** The configuration is set for **both** auto-accept mode or advanced mode.
 
-![](https://lh4.googleusercontent.com/CPny1fewVv2GQnziI1A_wP1qTqUOgXlZHgx8HyEk6Br9GVYMZ1tghuRPki2b8s5Ej3EyyJTqIDa5NvvuSSGCK-PAJTS1Y2bYCvWVilTeaFAG6m4JeRE5xVPwNFu1-RvjgwAaOGh_ =624x360)
+![](/img/transfer-to-agent-7.png)
 
-![](https://lh6.googleusercontent.com/TioCjZXSPJI4py7B3c6toHhhH3lZWqLpLruaD_nw4FpgMhlBwdLcsC0t6AuYkKFmtL4wL_kr7X5JK0BahF0HRjAgSa2oUPwyF7WiY57dTIitjU8pzi5hKoZxuNIxMm_S1EZ_vMyn =624x328)
+![](/img/transfer-to-agent-8.png)
 
 ### **Skill level configuration**
 
-**![](https://lh4.googleusercontent.com/zamuMT2htpZ79E0DwjdJY308QQDJT9QOjlMcpFUGeB1hWy2gkG5liiQ2lP0zp4YDlHBYnvZ9599tlPek5e3Nj_Mf-rkm-0KUwBOXgIG80Q-HFaI3ZrBtMFkEF7C29iJNcJ9UmEYN =624x360)**
+![](/img/transfer-to-agent-9.png)
 
-**![](https://lh4.googleusercontent.com/g5cD9KzP2lBGJXwjRI1jn3lEcqqp5qQedJ3dUy4HZwu9S1CtR5g0b7nLUhDiSo6leg0sCSOfWUY3ABqUzSdSV07r-R-1JG8qC_ZOeZwxGZ2KoBOUNGudsIC7DaAowa_f6xRhDTDA =624x156)**
+![](/img/transfer-to-agent-10.png)
 
 ## **Destination agent experience**
 
@@ -138,7 +133,7 @@ Conversations which are transferred to a specific agent will reach the queue as 
 
 When the agent accepts the conversation, the conversation will appear as any other assigned conversation. If the agent did not accept the conversation and timeout was reached, the conversation will appear as any other conversation in-queue.
 
-![](https://lh5.googleusercontent.com/ThDnF80H_wnGQhTgd62OmIctJ3F6ggmkO3L1zyPoIGgukn79VRF6rM_lex2TYUXrAvFIyZ5fTk2Le9k_kyEaM-VhKup2jL_CRpiLakB8vqDHlNBlK3xy4tYCSlT8AUm2VCG4vWVm =624x360)
+![](/img/transfer-to-agent-11.png)
 
 ## **Response time (SLA)**
 
@@ -157,9 +152,11 @@ Brands will be able to configure the message sent to consumers once they were tr
 
 No dynamic texts are currently available when transfer to agent was used.
 
-**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR). ![](https://lh3.googleusercontent.com/IAEUEvucI2rAVGWg-L_71AP7cVhWxG_v5XWRoqHhUmYdNfc9p0-j_Uh0v_Vb_pUpdUlKezfCCJuB_gDuRJDDiyj8w9usvIHqWQHQKwIbPa8pkw1XyZj2Fe_3ft5HXHeavd6tbdjf =624x361)
+**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR). 
 
-# **![](https://lh4.googleusercontent.com/H6Xl4WzxL51j08jzSddi-2y4eE7LHQNE_AJ1HAXbCFFAjq2keOzyOKGSb53Xa88MYfdQslaAsAxfBL9t-gafnpR442EKJwG9PmRc1RLVTRqAK7MJLrl3EqNYobOWmOuPulQu_u_X =624x363)**
+![](/img/transfer-to-agent-12.png)
+
+![](/img/transfer-to-agent-13.png)
 
 ## **Reporting**
 
