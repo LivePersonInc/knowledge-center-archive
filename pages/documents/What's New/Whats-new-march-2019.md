@@ -8,7 +8,7 @@ level3: ''
 permalink: whats-new-march-2019.html
 isTutorial: false
 isNew: true
-date: 2019-03-25 15:41:24 +0200
+date: 2019-03-25 13:41:24 +0000
 
 ---
 Welcome to the LivePerson Product Updates Newsletter for March
@@ -22,6 +22,8 @@ Here is a round-up of the latest features, enhancements and enablements that are
 Allows brands to send the first message (after a consumer has opened conversation window) with a list of quick replies of common intents to be addressed over messaging.
 
 The quick replies run through a bot flow, allowing the bot to respond with relevant and accurate answers to the consumer. This feature only applies to Web Messaging.
+
+{: .sidebyside}
 
 ![](/img/Whats-new-march2.png)![](/img/Whats-new-march3.png)
 
