@@ -34,7 +34,10 @@ This feature is coming in early April.
 
 Agents and bots can send photos to consumers to explain issues or requests quicker and more accurately. For example, a screenshot for tech support, or a product photo making messaging conversations a more visual experience and reduce time to resolution. All photos will appear in conversation transcripts.
 
-## Transfer to agent
+## Transfer to agent 
+
+{: .notice}  
+This feature is coming in early April.
 
 Increase customer satisfaction by enabling agent-to-agent transfer. This gives agents, agent managers and bots the ability to transfer a conversation not just to a skill, but to a specific agent with expertise on the subject, or an agent that has previously been involved in the case.
 
