@@ -41,6 +41,7 @@ Each user should have at least one of the above permissions in order to be able 
 When transferring a conversation to a specific agent, only agents in a state for which the transferring agent has permissions will show up. For example, if the transferring agent has only the “online” or “back soon” states configured, away or offline agents will not appear in the list.
 
 ![](/img/transfer-to-agent-1.png)  
+
 ![](/img/transfer-to-agent-2.png)
 
 ## Transferring agent experience
@@ -94,7 +95,7 @@ Once the conversation had been transferred to the destination agent and skill, i
 
 The conversation will ring at the destination agent or will be auto accepted (according to the account ACD configuration) only when they are online and have free capacity. If not, the conversation will wait in the queue for the destination agent to be online and to have free capacity.
 
-## Queue prioritization
+### Queue prioritization
 
 Brands have the capability to configure their queue so that transfer-to-agent conversations will be given a higher score and will advance in the queue faster than other conversations. In order to achieve this, brands must adopt the queue prioritization feature.
 
