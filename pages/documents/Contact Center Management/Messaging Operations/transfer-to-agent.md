@@ -178,7 +178,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 
 [Changes in updateConversationField](https://github.com/LivePersonInc/node-agent-sdk#example-transfer-conversation-to-a-new-agent)
 
-[Subscribing to AgentExConversationChangeNotification with Transfer to](https://github.com/LivePersonInc/node-agent-sdk/blob/master/README.md#subscribing-to-change-notifications-with-transfer-to-agent)
+[Subscribing to AgentExConversationChangeNotification with Transfer to agent](https://github.com/LivePersonInc/node-agent-sdk/blob/master/README.md#subscribing-to-change-notifications-with-transfer-to-agent)
 
 **Messaging Interactions API:**
 
