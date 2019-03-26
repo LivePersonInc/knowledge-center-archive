@@ -20,7 +20,7 @@ windowKit.onReady( function () {
 //when an agent (the bot) sends a text
 windowKit.onAgentTextEvent(function(text) {
 	//apnend the text's contents to the conversation
-	$('#caseyContainer').append('<div class="caseyTextContainer"><img class="caseyAvatar" src="img/fill-avatar.png"/><div class="caseyText">' + text + '</div></div>');
+	$('#caseyContainer').append('<div class="caseyTextContainer"><img class="caseyAvatar" src="img/avatar-casey.svg"/><div class="caseyText">' + text + '</div></div>');
 	//a rule to check if the user asked for a search and if so, show the input field
 	if (text.indexOf("Sorry that's not something I recognize") > -1) {
 		displayInput();
@@ -47,7 +47,7 @@ windowKit.onVisitorTextEvent(function(text) {
 windowKit.onAgentRichContentEvent(function(content) {
 	//grab the content of the message, render them using LP's Pollock tool and set them as a variable
   var structuredText = JsonPollock.render(content);
-	var caseyImage = '<img class="caseyAvatar scAvatar" src="img/fill-avatar.png"/>'
+	var caseyImage = '<img class="caseyAvatar scAvatar" src="img/avatar-casey.svg"/>'
 	//append that variable to the conversation
 	$('#caseyContainer').append(structuredText, caseyImage);
 	// var scTexts = document.getElementsByClassName('lp-json-pollock');

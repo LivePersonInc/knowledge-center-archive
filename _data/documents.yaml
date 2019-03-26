@@ -78,6 +78,7 @@
           level3:
             - level3name: Queue prioritization overview
             - level3name: Queue backlog management
+        - pagename: Transfer to agent
         - pagename: Auto close for messaging conversations
         - pagename: Smart Capacity
           level3:

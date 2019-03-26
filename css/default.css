@@ -350,10 +350,11 @@ ul.mysidebar.nav > li:first-of-type {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  align-items: center;
 }
 
 .casey img {
-  width: 100%;
+  width: 150%;
   margin-top: 10px;
 }
 
