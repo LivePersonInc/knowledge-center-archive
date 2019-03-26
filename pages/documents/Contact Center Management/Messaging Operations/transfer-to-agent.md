@@ -11,8 +11,8 @@ isNew: false
 date: 2019-03-26 16:17:05 +0200
 
 ---
-{: .important} 
-**Please note:** This feature is not yet live. Transfer to agent will be rolled out in early April 2019. 
+{: .important}
+**Please note:** This feature is not yet live. Transfer to agent will be rolled out in early April 2019.
 
 ## Introduction
 
@@ -40,7 +40,7 @@ Each user should have at least one of the above permissions in order to be able 
 
 When transferring a conversation to a specific agent, only agents in a state for which the transferring agent has permissions will show up. For example, if the transferring agent has only the “online” or “back soon” states configured, away or offline agents will not appear in the list.
 
-![](/img/transfer-to-agent-1.png)  
+![](/img/transfer-to-agent-1.png)
 
 ![](/img/transfer-to-agent-2.png)
 
@@ -77,6 +77,7 @@ The destination agent may not necessarily be assigned to the current skill of th
 In order to make sure agents handle conversations associated only with skills they are assigned to and within the right context (like SLA, auto messages, predefined content, custom widgets and so on) the transferring agent will have to choose the new skill of the conversation as well.
 
 These limitations and conditions apply:
+
 * If the destination agent is assigned to only one skill, the skill selection list will not be displayed, i.e., the conversation will be transferred to that skill.
 * If the destination agent has no skills assigned to them, the skill selection list will not be displayed and the conversation skill will be changed to “N\\A.”
 * If the destination agent is assigned to multiple skills:
@@ -143,6 +144,7 @@ When the agent accepts the conversation, the conversation will appear as any oth
 In case the skill has been changed, the response time will be reset and then counting will resume according to the destination skill response time setting.
 
 In case the skill has not been changed:
+
 * If the consumer was the last to message, the response time countdown will keep running.
 * If the agent was the last to message, response time is irrelevant, hence will be empty.
 
@@ -155,7 +157,7 @@ Brands will be able to configure the message sent to consumers once they were tr
 No dynamic texts are currently available when transfer to agent was used.
 
 {: .notice}
-**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR). 
+**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR).
 
 ![](/img/transfer-to-agent-12.png)
 
@@ -166,6 +168,7 @@ No dynamic texts are currently available when transfer to agent was used.
 In order to analyze “transfer-to-agent” operation, you may refer to the Report Builder.
 
 On “Messaging Advanced Dashboard”> “Agent Messaging Activity” dataset the following metrics are available for use:
+
 * **“AGENT TO AGENT TRANSFER”** - counts the total number of transfers to specific agent. The metric is attributed to the transferring agent and the skill from which the transfer was initiated.
 * **“TOTAL NO.OF TRANSFERS”** - this metric will now include the transfer-to-agent population as well.
 
@@ -193,11 +196,11 @@ In some business flows, brands would like to have the ability to transfer a conv
 ### Configuration steps summary
 
 1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team.
-2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ] section.
-3. Define who can perform the transfer-to-agent operation as described in the [Permissions] section.
-4. Define consumer experience as described in the [Auto Messages] section.
-5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization] section.To configure this please contact your LivePerson representative.
-6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API] section.
+2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ](contact-center-management-messaging-operations-transfer-to-agent.html#fallback-to-skill)section.
+3. Define who can perform the transfer-to-agent operation as described in the [Permissions](contact-center-management-messaging-operations-transfer-to-agent.html#permissions) section.
+4. Define consumer experience as described in the [Auto Messages](contact-center-management-messaging-operations-transfer-to-agent.html#auto-messages) section.
+5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization](contact-center-management-messaging-operations-transfer-to-agent.html#queue-prioritization) section.To configure this please contact your LivePerson representative.
+6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API](contact-center-management-messaging-operations-transfer-to-agent.html#implementing-transfer-to-agent-bot-logic-using-apis) section.
 
 ### Limitations:
 
