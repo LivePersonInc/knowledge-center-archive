@@ -61,8 +61,8 @@ In addition, the list will only contain agents who are assigned to skills that t
 
 ![](/img/transfer-to-agent-5.png)
 
-| --- | --- |
 | Transfer to skills setting | Agents appearing in the Destination agents list |
+| --- | --- |
 | The skill cannot transfer to any other skills | The list will present only agents which are assigned to the current skill of the conversation. |
 | The skill can transfer to all skills | The list will present all agents, including agents without skills assigned to them |
 | The skill can transfer only to specific skills | The list will present agents who are assigned to the current skill of the conversation or to the specific set skills |
@@ -192,11 +192,11 @@ In some business flows, brands would like to have the ability to transfer a conv
 **Configuration steps summary**
 
 1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team.
-2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ](https://docs.google.com/document/d/14jtHCAXd5i9YyffbvgUbjyV4P9Lj16pSCXu3zqO2kcE/edit?disco=AAAACqc2qU8&ts=5c99fed8&usp_dm=false#heading=h.8b4fwvu9v858)section.
-3. Define who can perform the transfer-to-agent operation as described in the [Permissions](https://docs.google.com/document/d/14jtHCAXd5i9YyffbvgUbjyV4P9Lj16pSCXu3zqO2kcE/edit?disco=AAAACqc2qU8&ts=5c99fed8&usp_dm=false#heading=h.nms10uaraoyn) section.
-4. Define consumer experience as described in the [Auto Messages](https://docs.google.com/document/d/14jtHCAXd5i9YyffbvgUbjyV4P9Lj16pSCXu3zqO2kcE/edit?disco=AAAACqc2qU8&ts=5c99fed8&usp_dm=false#heading=h.a5rayamecbtk) section.
-5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization](https://docs.google.com/document/d/14jtHCAXd5i9YyffbvgUbjyV4P9Lj16pSCXu3zqO2kcE/edit?disco=AAAACqc2qU8&ts=5c99fed8&usp_dm=false#heading=h.5mhen2azw60x) section.To configure this please contact your LivePerson representative.
-6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API](https://docs.google.com/document/d/14jtHCAXd5i9YyffbvgUbjyV4P9Lj16pSCXu3zqO2kcE/edit?disco=AAAACqc2qU8&ts=5c99fed8&usp_dm=false#heading=h.70g9rqiutyuz) section.
+2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ] section.
+3. Define who can perform the transfer-to-agent operation as described in the [Permissions] section.
+4. Define consumer experience as described in the [Auto Messages] section.
+5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization] section.To configure this please contact your LivePerson representative.
+6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API] section.
 
 **Limitations**
 
