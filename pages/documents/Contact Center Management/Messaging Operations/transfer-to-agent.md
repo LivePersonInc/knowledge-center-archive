@@ -62,7 +62,7 @@ In addition, the list will only contain agents who are assigned to skills that t
 
 ![](/img/transfer-to-agent-5.png)
 
-| Transfer to skills setting | Agents appearing in the Destination agents list |
+| Transfer to skills setting | Agents appearing in the destination agents list |
 | --- | --- |
 | The skill cannot transfer to any other skills | The list will present only agents which are assigned to the current skill of the conversation. |
 | The skill can transfer to all skills | The list will present all agents, including agents without skills assigned to them |
@@ -77,7 +77,6 @@ The destination agent may not necessarily be assigned to the current skill of th
 In order to make sure agents handle conversations associated only with skills they are assigned to and within the right context (like SLA, auto messages, predefined content, custom widgets and so on) the transferring agent will have to choose the new skill of the conversation as well.
 
 These limitations and conditions apply:
-
 * If the destination agent is assigned to only one skill, the skill selection list will not be displayed, i.e., the conversation will be transferred to that skill.
 * If the destination agent has no skills assigned to them, the skill selection list will not be displayed and the conversation skill will be changed to “N\\A.”
 * If the destination agent is assigned to multiple skills:
