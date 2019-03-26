@@ -206,4 +206,4 @@ In some business flows, brands would like to have the ability to transfer a conv
 * Destination agents list size limitation in LiveEngage will show up to 5000 agents.
 * Offline agents (logged out) are agents who were connected at least once in the past 3 weeks.
 * Agent will not be able to transfer to another agent or manager that is currently participating in the conversation. For example agent cannot transfer the conversation to his manager if she is currently joined to the conversation.
-* Suggested (detinatination) agent will not be able to join a conversation that had been transferred to them.
+* Suggested (destination) agent will not be able to join a conversation that had been transferred to them.
