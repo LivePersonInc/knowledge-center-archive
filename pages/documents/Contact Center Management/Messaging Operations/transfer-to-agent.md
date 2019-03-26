@@ -18,7 +18,7 @@ date: 2019-03-26 16:17:05 +0200
 
 The transfer to agent capability enables agents, agent managers and bots to transfer a messaging conversation to a specific agent, chosen by the transferring agent. Brands will be able to configure the skills, states, and overall behavior of the transferred conversation.
 
-Once the conversation is transferred, it will reach the queue and will advance in it according to the queue policy defined for the account. It will ring for the destination agent or be auto accepted, according to the brand’s Automatic Conversation Distribution (ACD) configuration. This will only occur when the agent is online and has free capacity to accept the conversation.
+Once the conversation is transferred, it will reach the queue and will advance according to the queue policy defined for the account. It will ring for the destination agent or be auto accepted, according to the brand’s Automatic Conversation Distribution (ACD) configuration. This will only occur when the agent is online and has free capacity to accept the conversation.
 
 Brands will also be able to set the fallback time after which the conversation will be re-routed to any available agent assigned to the destination to which the conversation was transferred. In addition, adopting the queue prioritization feature will enable brands to impact the velocity by which transfer-to-agent conversations advance in the queue.
 
