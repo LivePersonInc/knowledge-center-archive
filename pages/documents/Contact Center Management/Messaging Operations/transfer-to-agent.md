@@ -117,8 +117,6 @@ The default setting will be set to **two hours.** The configuration is set for *
 
 ![](/img/transfer-to-agent-7.png)
 
-![](/img/transfer-to-agent-8.png)
-
 ### Skill level configuration
 
 ![](/img/transfer-to-agent-9.png)
