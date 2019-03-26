@@ -2,7 +2,7 @@ var client = algoliasearch("51CECYVH5R", "c7a71a465b895e34b00ecb5b0f0141fb")
 var knowledgeIndex = client.initIndex('knowledge_BASE');
 var search = document.getElementById('aa-search-input');
 
-autocomplete(
+const searchInstance = autocomplete(
   '#aa-search-input',
   {
     debug: true
@@ -45,7 +45,7 @@ autocomplete(
   ]
 );
 
-$('#aa-search-input').on({
+searchInstance.on({
   'autocomplete:shown': function() {
     var content = document.getElementById('defaultcontent');
     var sidebar = document.getElementById('defaultsidebar');
@@ -69,6 +69,10 @@ $('#aa-search-input').on({
     content.classList.add('overlayvisible');
     sidebar.classList.add('overlayvisible');
     footer.classList.add('overlayvisible');
+},
+  'autocomplete:selected': function (event, suggestion, dataset, context) {
+    var target = suggestion.url;
+    navigateContent(target);
 },
   'autocomplete:updated': function () {
     if (this.value != '') {

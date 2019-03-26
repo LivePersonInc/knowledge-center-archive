@@ -1,3 +1,18 @@
+GIT
+  remote: https://github.com/algolia/jekyll-algolia
+  revision: b6b1828201949cdd00e814c64ec424d954e1e479
+  branch: feat/SETTINGS
+  specs:
+    jekyll-algolia (1.4.9)
+      algolia_html_extractor (~> 2.6)
+      algoliasearch (= 1.24)
+      filesize (~> 0.1)
+      jekyll (~> 3.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      progressbar (~> 1.9)
+      verbal_expressions (~> 0.1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,7 +26,7 @@ GEM
     algolia_html_extractor (2.6.1)
       json (~> 2.0)
       nokogiri (~> 1.8.2)
-    algoliasearch (1.26.0)
+    algoliasearch (1.24.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     autoprefixer-rails (9.5.0)
@@ -40,15 +55,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.4.11)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (~> 1.25)
-      filesize (~> 0.1)
-      jekyll (~> 3.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
     jekyll-assets (3.0.12)
       activesupport (~> 5.0)
       execjs (~> 2.7)
@@ -67,8 +73,8 @@ GEM
     jekyll-last-modified-at (1.0.1)
       jekyll (~> 3.3)
       posix-spawn (~> 0.3.9)
-    jekyll-redirect-from (0.14.0)
-      jekyll (~> 3.3)
+    jekyll-redirect-from (0.15.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sanity (1.2.0)
       jekyll (~> 3.1)
     jekyll-sass-converter (1.5.2)
@@ -124,7 +130,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   jekyll (~> 3.6.3)
-  jekyll-algolia
+  jekyll-algolia!
   jekyll-assets
   jekyll-feed (~> 0.6)
   jekyll-gzip

@@ -1,11 +1,11 @@
 ---
-pagename: Reporting & data
+pagename: Data & reporting
 categoryName: FAQs
 subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: ''
-permalink: faqs-reporting-data.html
+permalink: faqs-data-reporting.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 12:08:37 +0000

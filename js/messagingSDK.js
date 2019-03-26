@@ -32,7 +32,7 @@ windowKit.onAgentTextEvent(function(text) {
 		$("#botLoader").css('display', 'none');
 		scrollBottom(0);
 	}
-	scrollBottom(150);
+	scrollBottom(0);
 });
 
 //when a user sends a text
@@ -40,18 +40,19 @@ windowKit.onVisitorTextEvent(function(text) {
 	//grab that text's contents and append it to the conversation
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	console.log('visitortext');
-	scrollBottom(150);
+	scrollBottom(0);
 });
 
 //when an agent (the bot) sends a rich content message
 windowKit.onAgentRichContentEvent(function(content) {
 	//grab the content of the message, render them using LP's Pollock tool and set them as a variable
   var structuredText = JsonPollock.render(content);
+	var caseyImage = '<img class="caseyAvatar scAvatar" src="img/fill-avatar.png"/>'
 	//append that variable to the conversation
-	$('#caseyContainer').append(structuredText);
-	var scTexts = document.getElementsByClassName('lp-json-pollock');
-	var latestScText = scTexts[scTexts.length - 1];
-	$(latestScText).append('<img class="caseyAvatar" src="img/fill-avatar.png"/>')
+	$('#caseyContainer').append(structuredText, caseyImage);
+	// var scTexts = document.getElementsByClassName('lp-json-pollock');
+	// var latestScText = scTexts[scTexts.length - 1];
+	// $(latestScText).append('')
 	//when you print the text, print the rich content as an object not a string
 	console.log('Agent: ', structuredText);
 	//Pollock code used to navigate to the links the bot sends, effectively registering the buttons to be links to them
@@ -63,7 +64,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 		console.log(linkObject);
 	});
 	jsonButton();
-	scrollBottom(150);
+	scrollBottom(0);
 });
 
 function displayInput () {
@@ -95,10 +96,15 @@ function scrollBottom (offset) {
 	if (!isScrolling) {
 		//change the var so this doesn't repeat
 		isScrolling = true;
+	//now that we have bottom, animate the body and html to simulate a scroll. Don't scroll on mobile.
+	setTimeout (function () {
 		//find the bottom of the conversation window by adding the top attribute and the height of the div
-	var bottom = $('#caseyContainer div:last').position().top - offset;
-	//now that we have bottom, animate the body and html to simulate a scroll
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 2000);
+	var bottom = $(document).height() + offset;
+	var children = $('#caseyContainer').children();
+	if (children.length > 3) {
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1500);
+		}
+	}, 500);
 	}
 	setTimeout (function () {
 		//allow other scrolls in the future, like those which happen when a new text is sent

@@ -314,6 +314,14 @@ body {
   align-self: flex-end;
 }
 
+.scAvatar {
+  margin-left: -35px;
+  margin-right: 0;
+  align-self: flex-start;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
 .gooey {
   position: absolute;
   top: 50%;
@@ -366,7 +374,7 @@ body {
 
 #resetcontainer {
   position: sticky;
-  top: 140px;
+  top: 160px;
   height: 20px;
   color: #fff;
   font-family: "Roboto", "Open Sans", Helvetica;

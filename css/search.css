@@ -1,7 +1,7 @@
 /*search styling begins */
 
 .algolia-autocomplete {
-  flex: 4;
+  flex: 3;
   height: 48px;
   margin-top: 0;
 }
@@ -79,7 +79,7 @@
 }
 
 .algolia-autocomplete .aa-suggestion {
-  margin: 20px 0 20px 15px;
+  padding: 20px 0 20px 15px;
 }
 
 .algolia-autocomplete .aa-suggestion em {
@@ -111,6 +111,10 @@
   text-decoration: none;
 }
 
+.aa-cursor {
+  background-color: rgba(0, 119, 255, 0.1);;
+}
+
 .aa-empty {
   font-size: 21px;
   font-family: "Roboto Slab", "Open Sans", Helvetica, sans-serif;
@@ -119,4 +123,5 @@
   font-weight: bold;
   margin-left: 20px;
   margin-top: 20px;
+  marginb-bottom: 20px;
 }

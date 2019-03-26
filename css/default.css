@@ -334,12 +334,34 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 #defaultheader {
-  background-color: #2A3A6B;
+  background-color: #324D8A;
   position: sticky;
   top: 0;
   display: flex;
   align-items: center;
   z-index: 1;
+}
+
+.casey {
+  padding: 22px 43px;
+  margin-bottom: 12px;
+  background-color: #16134a;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.casey img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.casey span {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
 }
 
 .mobileheader {
@@ -621,6 +643,7 @@ ul.mysidebar.nav > li:first-of-type {
   padding-inline-start: 0;
   padding-left: 45px;
   line-height: 2.2;
+  margin-top: 10px;
 }
 
 .pageitem {
@@ -1233,6 +1256,10 @@ w-div a:last-child {
 }
 
 @media screen and (max-width: 450px) {
+  p img {
+    width: 100%;
+  }
+
   #defaultheader {
     z-index: 3;
   }
@@ -1281,6 +1308,7 @@ w-div a:last-child {
   #logocontainer {
     margin-left: 20px;
     order: 1;
+    margin-right: 100px;
   }
 
   .algolia-autocomplete {
@@ -1310,6 +1338,18 @@ w-div a:last-child {
     padding: 21px 1.5px 21px 8px;
   }
 
+  .categoryfolder {
+    font-size: 16px;
+  }
+
+  .subcategoryitem {
+    font-size: 14px;
+  }
+
+  .subcategoryitem a {
+    font-size: 14px;
+  }
+
   .mobileheader {
     display: flex;
     align-items: center;
@@ -1327,6 +1367,15 @@ w-div a:last-child {
 
   #footericons {
     display: none;
+  }
+
+  .documenttitle {
+    margin-top: 20px;
+  }
+
+  .breadcrumbs {
+    margin-bottom: 10px;
+    opacity: 0.7;
   }
 
 }
