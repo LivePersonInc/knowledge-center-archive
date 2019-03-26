@@ -189,7 +189,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 
 [Return to the same agent - sample app](https://developers.liveperson.com/messaging-agent-sdk-examples.html#return-to-same-agent-bot-example)
 
-**Configuration steps summary**
+### Configuration steps summary
 
 1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team.
 2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ] section.
@@ -198,7 +198,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 5. Consider - Assigning a priority for transfer-to-agent conversations as described in the [Queue prioritization] section.To configure this please contact your LivePerson representative.
 6. To use the transfer-to-agent API, upgrade to UMS connection version 2.1. Details described in the [Transfer to agent API] section.
 
-**Limitations**
+### Limitations:
 
 * The destination agent list refresh time will be up to 40 seconds at most. During this time changes in agent status or skill will not be reflected.
 * Destination agents list size limitation in LiveEngage will show up to 5000 agents.
