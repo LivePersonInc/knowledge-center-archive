@@ -8,7 +8,7 @@ level3: ''
 permalink: whats-new-march-2019.html
 isTutorial: false
 isNew: true
-date: 2019-03-25 15:41:24 +0200
+date: 2019-03-25 13:41:24 +0000
 
 ---
 Welcome to the LivePerson Product Updates Newsletter for March
@@ -23,13 +23,21 @@ Allows brands to send the first message (after a consumer has opened conversatio
 
 The quick replies run through a bot flow, allowing the bot to respond with relevant and accurate answers to the consumer. This feature only applies to Web Messaging.
 
+{: .sidebyside}
+
 ![](/img/Whats-new-march2.png)![](/img/Whats-new-march3.png)
 
-## Photo sharing - agent to consumer (web messaging)
+## Photo sharing - agent to consumer (web messaging) 
+
+{: .notice}  
+This feature is coming in early April.
 
 Agents and bots can send photos to consumers to explain issues or requests quicker and more accurately. For example, a screenshot for tech support, or a product photo making messaging conversations a more visual experience and reduce time to resolution. All photos will appear in conversation transcripts.
 
-## Transfer to agent
+## Transfer to agent 
+
+{: .notice}  
+This feature is coming in early April.
 
 Increase customer satisfaction by enabling agent-to-agent transfer. This gives agents, agent managers and bots the ability to transfer a conversation not just to a skill, but to a specific agent with expertise on the subject, or an agent that has previously been involved in the case.
 
