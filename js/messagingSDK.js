@@ -4,7 +4,7 @@ var windowKit = new windowKit({
 	//skillId: 12341234 - optional skill ID
 });
 //declaring variables
-var userinput = '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>'
+var userinput = '<div class="searchcontainer"><div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button"><button title="Go back" aria-label"Go back">Go back</button></div></div></div></div>'
 let isScrolling;
 let agentFirstText;
 

@@ -102,6 +102,7 @@ body {
   flex: 1;
   display: flex;
   margin-left: 70px;
+  margin-right: 100px;
 }
 
 #hometitle {
