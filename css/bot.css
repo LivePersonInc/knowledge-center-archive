@@ -425,7 +425,7 @@ body {
 }
 
 .searchButton button {
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0.8;
   text-align: left !important;
 }
@@ -433,11 +433,11 @@ body {
 .searchButton button::before {
   content: "<";
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   opacity: 0.8;
   margin-right: 5px;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 
 .searchButton:hover {
