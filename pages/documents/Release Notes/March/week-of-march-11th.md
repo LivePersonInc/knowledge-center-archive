@@ -22,9 +22,36 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[Report Builder\] Response Time metrics (LE-95919)
 
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The response time metrics in the Messaging Performance dashboard are enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
 
@@ -55,9 +82,36 @@ New metrics, reflecting agents’ efficiency, have been added, helping agent man
 
 ### Predefined Grid Documents for Operational Reports (LE-98559)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 As part of the ongoing effort to aid the adoption of Report Builder by Brands, and to allow Liveperson to progress towards sunsetting the BI reporting interface, liveperson is offering additional predefined documents intended for easy download and subscriptions. The content of these document replaces the grids that are available in the the Operational BI.
 
@@ -85,9 +139,36 @@ Users that wish to make changes to these documents can only alter the filter set
 
 ### \[Report Builder\] Subscription expiration increase to 6 months
 
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 LivePerson has made an enhancement to Report Builder subscriptions that increases the automatic “Do Not Deliver After” default expiration setting for a subscription from 3 months to 6 months. Users will continue to have the ability to remove this default expiration time frame as they do today.
 
@@ -104,9 +185,36 @@ When setting up a new subscription, the default “Do Not Deliver After” date 
 
 ### \[Conversation Builder\] Enabling Automation.Conversation_Builder feature flag
 
-| Web Messaging | Mobile App Messaging | SMS (Twilio) | Facebook | ABC | WhatsApp | Line | RCS Business Messaging | Google My Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | Yes | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 New privileges that will map to the roles that the LiveEngage user will have when logging in to Conversation Builder with SSO from LiveEngage. This feature is only available for those with the Automation.Conversation_Builder feature flag enabled (in AC features).
 

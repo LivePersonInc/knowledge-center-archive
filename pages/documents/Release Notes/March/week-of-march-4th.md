@@ -22,9 +22,36 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[Messaging connectors\] Secure form support for Facebook Messenger and Apple Business Chat (CX-125, CX-126)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | Yes | Yes | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 There is now support for secure forms for the Facebook Messenger and Apple Business Chat connectors. This feature allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
@@ -76,9 +103,36 @@ For more information, please see the following documents:
 
 ### Realtime Dashboard - Overdue Conversations KPI & API
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Addition of new metrics within the Messaging Queue Health API that are exposed within the Realtime Dashboard. This feature is available to all customers.
 
@@ -111,9 +165,36 @@ The definition of the overdue_Conversations metric is the number of conversation
 
 ### Conversation Builder
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 Brands are rapidly expanding their conversational commerce capabilities, reaching customers through popular messaging services like SMS, Facebook Messenger, Apple Business Chat, WhatsApp and more.
 
@@ -150,8 +231,35 @@ For detailed documentation on the Conversation Builder including an overview, sc
 
 ### \[ABC\] List picker does not send response when there’s no button (CX-150)
 
-| Web Messaging | Mobile App Messaging | SMS | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | Yes | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When an agent sends list picker type structured content without metadata payload, the response from consumer does not send to agent. This issue has been resolved.

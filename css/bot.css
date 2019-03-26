@@ -116,6 +116,10 @@ body {
   transition: opacity 0.35s ease;
 }
 
+.lp-json-pollock-element-button:hover {
+  background-color: #334b94;
+}
+
 .fadeout {
   opacity: 0.3;
 }
@@ -144,6 +148,7 @@ body {
 
 .lp-json-pollock .lp-json-pollock-element-button button:focus {
   outline: none;
+  background: transparent;
 }
 
 .lp-json-pollock-layout-carousel-wrapper + .caseyAvatar {
@@ -411,6 +416,32 @@ body {
   background-color: #e3f4f0;
   display: block;
   border-radius: 50%;
+}
+
+.searchButton {
+  background: transparent;
+  margin-top: -30px;
+  margin-left: -5px;
+}
+
+.searchButton button {
+  font-size: 15px;
+  opacity: 0.8;
+  text-align: left !important;
+}
+
+.searchButton button::before {
+  content: "<";
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  margin-right: 5px;
+  margin-left: -30px;
+}
+
+.searchButton:hover {
+  background: transparent;
 }
 
 /* bot specific media queries */

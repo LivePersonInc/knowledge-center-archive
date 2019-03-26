@@ -22,9 +22,38 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[Maven\] Recommended Actions powered by Maven
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Maven is LivePerson’s continuously-learning AI engine that orchestrates all conversational interactions to ensure the best outcomes - the brain inside our conversational commerce platform.
 
@@ -51,9 +80,38 @@ Recommended Actions is Maven’s agent assistance feature that actively recommen
 
 ### \[Web messaging\] Welcome message with Quick Replies
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 The new welcome message feature allows brands to set the first message (after a consumer has opened the conversation window) with a list of quick replies of common intents to be addressed over messaging. The consumer’s quick reply selection will be considered the first message to open the conversation in the agent workspace, allowing the brand to configure the bot with a very specific and accurate logic/decision tree.
 
@@ -106,9 +164,38 @@ Under Engagement Window Studio => Add Elements
 
 ### \[ABC\] Adding Authentication Interactive Message response to the agent widget SDK (CX-149)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | Yes | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Today, brands that are looking to authenticate their consumer via the Apple Business Chat authentication message must have a bot added to the LE conversation (via the Agent SDK). This causes a couple of complexities for brands:
 
@@ -132,9 +219,38 @@ Today, brands that are looking to authenticate their consumer via the Apple Busi
 
 ### \[CM connector\] Outbound campaigns - CM integration
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | No | No | No | No | No | Yes | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Today brands are using push notifications and SMS campaigns to their customers for the following use cases: increase in revenues, improve their service and retention. The new outbound campaigns integration allows brands the ability to connect CM to our conversational platform, benefiting from the following capabilities:
 
@@ -148,9 +264,38 @@ The CM SMS connector will not be immediately available upon this release. The fi
 
 ### \[WhatsApp\] New messages status indications (CX-118)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | No | No | No | No | Yes | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 WhatsApp has added read indications for messages sent by agent to consumer. This capability is now supported for the WhatsApp Business connector.
 
@@ -162,9 +307,38 @@ WhatsApp has added read indications for messages sent by agent to consumer. This
 
 ### \[Web experiences\] Consumer step up authentication (CX-91)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Step up authentication is being released for **early adopters**. Today, when a registered consumer engages a brand in an unauthenticated conversation, then during conversation the consumer logs in and authenticates with the brand, the conversation will continue as unauthenticated. An unauthenticated conversation will not be linked to the previously authenticated conversation. Two different conversations exist for the same consumer. Potentially the new conversation may go to a different agent. The conversation continuity/context is lost on a new conversation since the agent is unable to see the unauthenticated conversation history.
 
@@ -180,9 +354,38 @@ Once a consumer authenticates, no new conversations will be created for the same
 
 ### \[Web experiences\] Added support for authorized consumer identity (CX-177)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When configuring authenticated web messaging, brands must send the consumer’s ID through javascript on the web page. The consumer’s ID might be considered as sensitive data. The problem with this is that this data is sent as plain text.
 
@@ -216,9 +419,38 @@ This new capability will allow brands to filter out and view specific conversati
 
 ### \[WhatsApp\] Consumer name displayed on agent side if consumer profile name feature is disabled (CX-120)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | No | No | No | No | Yes | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When an account enables "User Profile" to allow the consumer’s name to be displayed in the agent conversation window, and then disables it, the last name doesn't clear from previously enabled state.
 
@@ -226,9 +458,38 @@ When an account enables "User Profile" to allow the consumer’s name to be disp
 
 ### \[Facebook\] Secure Form error message not shown in in-app browser (CX-192)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | Yes | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Secure Forms alert notifications using popup window that does not show up for Facebook in-app browser. This causes consumers not to get the notifications.
 
@@ -238,9 +499,38 @@ Secure Forms alert notifications using popup window that does not show up for Fa
 
 ### \[Web experiences\] Scroll should be at the bottom to display latest messages (CX-56)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 In web messaging, when a consumer minimizes the window and the agent sends a message, once the consumer maximizes the window again, it does not scroll down to the bottom of the conversation.
 
@@ -250,9 +540,38 @@ In web messaging, when a consumer minimizes the window and the agent sends a mes
 
 ### \[Web experiences\] Quick reply message doesn't show in the visitor window (CX-112)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Quick reply message disappears right after displaying in the visitor window.
 
@@ -260,9 +579,38 @@ Quick reply message disappears right after displaying in the visitor window.
 
 ### \[Web experiences\] iOS web visitor cannot send messages when conversation auto closed in background (CX-159)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 On accounts with “Show history for closed messaging conversations ” flag in LE-UI is “NO, a consumer starts an unauthenticated conversation from an iphone/ipad using Chrome/Safari, while messaging with the agent, and then exits the messaging window, but the agent closes out the conversation or the conversation is closed out by auto-closed. When the consumer goes back to the browser and continues the conversation by typing a new message, the messages are not sent displaying the red error indication. The consumer is unable to close the window unless the page is reloaded.
 
@@ -270,9 +618,38 @@ On accounts with “Show history for closed messaging conversations ” flag in 
 
 ### \[Web experiences\] Web messaging structured content card sent twice via routing bot (CX-162)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When a consumer starts a conversation in a web messaging window, and the routing bot replies with a structured content card with a specific action that redirects to a URL, the URL gets redirected when the consumer clicks on the action and the routing bot shows the next card configured on the link button twice. Both the consumer and agent receive the message twice.
 
@@ -280,17 +657,75 @@ When a consumer starts a conversation in a web messaging window, and the routing
 
 ### \[Web experiences\] Customers must click Next button twice in pre-chat survey (CX-50)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No | No | No | No | No | No | No | No | No | No | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 When consumer engages in a chat that has a pre-chat survey, he has to click the Next button twice.
 
 **Fix:** This is fixed and consumer should click the Next button once.\[Web experiences\] Background:initial in IE11 causes <br> tag not to be parsed (CX-158)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 Browser IE11 doesn’t support css style background:initial causing it to not render the <br> tag correctly.
 
@@ -298,9 +733,38 @@ Browser IE11 doesn’t support css style background:initial causing it to not re
 
 ### \[Web experiences\] Unnecessary space below header image in engagement window (CX-171)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 There’s an unnecessary space below the header image on the engagement window. The margin size has been decreased to eliminate the space below the header image.
 
@@ -308,9 +772,38 @@ There’s an unnecessary space below the header image on the engagement window. 
 
 ### \[Web experiences\] Engagements not shown when 3rd party cookies blocked in Chrome (CX-190)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | Yes |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 When third party cookies are blocked (disabled) in latest version of Chrome and Edge, the secure storage fails to instantiate because it doesn't have access to localStorage or sessionStorage causes the engagement window to not show.
 
@@ -318,9 +811,38 @@ When third party cookies are blocked (disabled) in latest version of Chrome and 
 
 ### \[Web experiences\] - JWT sent twice causing session to close (CX-189)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 When a consumer starts an unauthenticated web messaging conversation, then navigates between pages while the conversation is open. After some navigation, the window clears out and the conversation is no longer showing within the engagement window.
 
@@ -328,9 +850,38 @@ When a consumer starts an unauthenticated web messaging conversation, then navig
 
 ### \[Web experiences\] Consumer returned to thread does not see previous conversation's history (CX-49)
 
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | No | No | No | No | No | No | No |
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>SMS</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 If a consumer engages in a unauthenticated messaging conversation and returns to the thread after 1.5-3 days, the consumer will not see the previous conversations, even when the token idle time is set at 30 days.
 

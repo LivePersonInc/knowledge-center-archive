@@ -118,8 +118,9 @@ table.releasenotes {
 
 #post-content table.releasenotes > thead > tr > th {
   width: 80px;
-  padding: 4px 0;
-  font-size: 12px;
+  padding: 4px 4px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 #post-content table.releasenotes > thead > tr > td {
