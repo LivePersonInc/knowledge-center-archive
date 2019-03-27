@@ -196,6 +196,10 @@ body {
   margin-bottom: 5px;
 }
 
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
+  background-image: url(https://raw.githubusercontent.com/EdenKupe/knowledge-center/master/img/right-arrow.svg) !important;
+}
+
 .consumerText {
   align-self: flex-end;
   background-color: transparent;
