@@ -289,11 +289,13 @@ ul.mysidebar.nav > li:first-of-type {
   color: #5f6368;
   font-weight: 300;
   position: sticky;
+  position: -webkit-sticky;
   top: 130px;
 }
 
 .anchorlist ul {
   position: sticky;
+  position: -webkit-sticky;
   top: 155px;
   display: flex;
   flex-direction: column;
@@ -337,6 +339,7 @@ ul.mysidebar.nav > li:first-of-type {
 #defaultheader {
   background-color: #324D8A;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   display: flex;
   align-items: center;
@@ -567,6 +570,7 @@ ul.mysidebar.nav > li:first-of-type {
 #mysidebar {
   list-style: none;
   position: sticky;
+  position: -webkit-sticky;
   top: 160px;
   align-items: baseline;
   height: 80vh;
