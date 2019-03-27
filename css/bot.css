@@ -163,6 +163,8 @@ body {
   display: flex !important;
   flex-direction: column;
   flex: 1;
+  margin-left: 0 !important;
+  margin-right: 10px !important;
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-button {
@@ -191,6 +193,7 @@ body {
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
   font-size: 15px !important;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .consumerText {
@@ -321,7 +324,7 @@ body {
 }
 
 .scAvatar {
-  margin-left: -45px;
+  margin-left: -48px;
   margin-right: 0;
   align-self: flex-start;
   margin-top: -45px;
@@ -422,7 +425,7 @@ body {
 
 .searchButton {
   background: transparent;
-  margin-top: -30px;
+  margin-top: -50px;
   margin-left: -5px;
 }
 
