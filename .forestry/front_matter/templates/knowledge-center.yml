@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/Week of April 1st.md
 - pages/documents/Data & Reporting/Data Transporter/data-transporter.md
 - pages/documents/Contact Center Management/Messaging Operations/transfer-to-agent.md
 - pages/documents/What's New/Whats-new-march-2019.md
