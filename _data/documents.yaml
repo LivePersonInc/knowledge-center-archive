@@ -258,6 +258,9 @@
   subcategories:
     - subcategoryname: 2019
       pages:
+        - pagename: April
+          level3:
+            - level3name: Week of April 1st
         - pagename: March
           level3:
             - level3name: Week of March 25th

@@ -40,6 +40,12 @@ windowKit.onVisitorTextEvent(function(text) {
 	//grab that text's contents and append it to the conversation
 	$('#caseyContainer').append('<div class="consumerText">' + text + '</div>');
 	console.log('visitortext');
+	var previousContainer = $('#caseyContainer:last').closest('div.lp-json-pollock-layout');
+	var previousButtons = $(previousContainer).children('.lp-json-pollock-element-button');
+	$.each (previousButtons, function() {
+		$(this).addClass('fadeout');
+		$(this).css('pointer-events', 'none');
+});
 	scrollBottom(0);
 });
 
