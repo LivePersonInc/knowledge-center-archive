@@ -1249,6 +1249,12 @@ w-div a:last-child {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #logocontainer {
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .anchorlist {
     display: none;
@@ -1268,6 +1274,7 @@ w-div a:last-child {
 
   #defaultheader {
     z-index: 3;
+    justify-content: flex-end;
   }
 
   #defaultsidebar {
@@ -1314,7 +1321,11 @@ w-div a:last-child {
   #logocontainer {
     margin-left: 20px;
     order: 1;
-    margin-right: 100px;
+    margin-right: -20px;
+  }
+
+  .casey {
+    order: 3;
   }
 
   .algolia-autocomplete {
