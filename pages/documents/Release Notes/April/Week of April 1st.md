@@ -5,7 +5,7 @@ subCategoryName: 2019
 indicator: both
 subtitle: ''
 level3: April
-permalink: release-notes-2019-april-week-of-april-1.html
+permalink: release-notes-2019-april-week-of-april-1st.html
 isTutorial: false
 isNew: false
 date: 2019-03-27 11:59:09 +0000
