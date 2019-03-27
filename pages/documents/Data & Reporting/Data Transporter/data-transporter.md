@@ -9,7 +9,7 @@ permalink: data-reporting-data-transporter-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-03-27 13:28:04 +0200
-published: false
+published: true
 
 ---
 The Data Transporter application connects you with LiveEngage report exports from the suite of LiveEngage Data APIs, enabling users to benefit from the power and agility of the LiveEngage open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.

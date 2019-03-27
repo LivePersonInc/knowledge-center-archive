@@ -200,6 +200,7 @@
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
+    - subcategoryname: Data Transporter user guide
 
 - categoryname: "Admin & settings"
   image: admin-settings
