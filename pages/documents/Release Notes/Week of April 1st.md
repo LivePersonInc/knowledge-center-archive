@@ -24,38 +24,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Data Transporter - Release of Data Transporter to GA Environment
 
-<table>
-<thead>
-<tr class="categoryrow">
-<th>Web messaging</th>
-<th>Mobile app messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<td>CM</td>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
+| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 **Available to all customers?** Y (subject to pricing and Beta agreement)
 
@@ -112,7 +83,7 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 ### Agent File Sharing (Phase I - Photos)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
 | Yes | No | No | No | Yes | No | No | No | No | No | No |
 
 **Available to all customers -** Yes
