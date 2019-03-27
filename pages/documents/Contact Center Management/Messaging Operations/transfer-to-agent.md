@@ -77,6 +77,7 @@ The destination agent may not necessarily be assigned to the current skill of th
 In order to make sure agents handle conversations associated only with skills they are assigned to and within the right context (like SLA, auto messages, predefined content, custom widgets and so on) the transferring agent will have to choose the new skill of the conversation as well.
 
 These limitations and conditions apply:
+
 * If the destination agent is assigned to only one skill, the skill selection list will not be displayed, i.e., the conversation will be transferred to that skill.
 * If the destination agent has no skills assigned to them, the skill selection list will not be displayed and the conversation skill will be changed to “N\\A.”
 * If the destination agent is assigned to multiple skills:
@@ -118,8 +119,6 @@ The default setting will be set to **two hours.** The configuration is set for *
 
 ### Skill level configuration
 
-![](/img/transfer-to-agent-9.png)
-
 ![](/img/transfer-to-agent-10.png)
 
 ## Destination agent experience
@@ -128,7 +127,7 @@ Conversations transferred directly to an agent will appear as any other conversa
 
 The only way the target agent will know the conversation has been sent directly to them is by concluding it from reading the transcript (since it will include the transferring agent’s conversation).
 
-## Viewing transferred conversations in the “All connections” and “Open Connections” tabs
+## Viewing transferred conversations in the All connections and Open connections tabs
 
 Conversations which are transferred to a specific agent will reach the queue as normal. Hence, they will appear in the “All connections” and “Open connections” tabs in the “in queue” state. However, while agent name is “N/A” for regular in-queue conversations, for transfer-to-agent conversations, the agent name column will be populated with the destination agent name. The box containing the agent name in this case will be dashed to differentiate it from regular conversations. The Agent Group column will be populated with “N/A.”
 
