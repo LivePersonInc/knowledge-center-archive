@@ -112,7 +112,7 @@ There are a few dependencies for this feature. Please contact your LivePerson ac
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | Yes |
 
 **Available to all customers?** Yes
 
