@@ -164,13 +164,13 @@ Admin type reports can provide a recurrent list of Skills, Agents and Agent Grou
 
 In the future, additional reports will be added - have an idea for a report? [Let us know](http://goo.gl/forms/KA8TzlnEktOuhH372)
 
-![](https://lh5.googleusercontent.com/PcNFCSB0xor7i7scILNhpDC2_2sqHZBUt9Z0RpczdG86uHGNoDD2dz1jdpN_ke_x9AG3z-XDFOiI8xxFIxYR9dxKqPvTLSBnO4SaQgAXwx41otFvFQoVbyO2tmM067BCsIE6rlnc =464x209)
+![](/img/data-transporter6.png)
 
 ### Report Catalogue
 
 For detailed information about the report data sources, visitor our [Developer Community](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
 
-![](https://lh4.googleusercontent.com/XJagRC0rT_MAErUTvaQFxgGEwXE3S19cYs8QB8-wyXL_KJ-UXc7em5K3i8a8L2EDL05cvUVmsWoknRFrI0OjR0b6bPsebKbFkXlJGgxOQ14cpkHXPB9H-vfwdjL09ai_v158evAq =624x123)
+![](/img/data-transporter7.png)
 
 ### Create Report Options![](https://lh6.googleusercontent.com/3F8jAjDvnhpEyNxM9hb_7MaGrXpR4x64lMKUZGhfLQyS7L6jqNhzgomDN-L0gNq89iMILXNshW_Gp3m7UMz5mKOy2CNZBtLcNd5R2JkZ_um1h3p-fyGVxlwKyycPhIxFsxh4IGlk =624x216)
 
