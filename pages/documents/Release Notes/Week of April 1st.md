@@ -15,7 +15,7 @@ LiveEngage release notes: week of April 1st 2019
 
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
 {: .notice}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
