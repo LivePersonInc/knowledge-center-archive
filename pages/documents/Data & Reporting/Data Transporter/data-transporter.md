@@ -9,7 +9,6 @@ permalink: data-reporting-data-transporter-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-03-27 13:28:04 +0200
-published: true
 
 ---
 The Data Transporter application connects you with LiveEngage report exports from the suite of LiveEngage Data APIs, enabling users to benefit from the power and agility of the LiveEngage open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
@@ -172,7 +171,7 @@ For detailed information about the report data sources, visitor our [Developer C
 
 ![](/img/data-transporter7.png)
 
-### Create Report Options
+### Create Report Options![](https://lh6.googleusercontent.com/3F8jAjDvnhpEyNxM9hb_7MaGrXpR4x64lMKUZGhfLQyS7L6jqNhzgomDN-L0gNq89iMILXNshW_Gp3m7UMz5mKOy2CNZBtLcNd5R2JkZ_um1h3p-fyGVxlwKyycPhIxFsxh4IGlk =624x216)
 
 After selecting a report, you will need to configure the following report options and then click Create Task.
 
@@ -226,7 +225,7 @@ The interface will show that you are currently editing the task - update any of 
 * Select many tasks and disable or delete them
 * Find that tasks history via the history icon
 
-![](/img/data-transporter8.png)
+![](https://lh5.googleusercontent.com/IMCfrlEoYes8zf2FtKmFlylOleV2Dpiubt9553hC6gQ91TbwgiRLyExRwNcFbxnPIrSWAUoSgPkRkDYeuT4gDiIydA1mTuQ7Ygvm857uS9Vre_l5TwPcMl4_s4HtrG8TUnGlcayF =428x249)
 
 ## Task History
 
@@ -241,7 +240,7 @@ The HISTORY is also the location where you can find and retrieve reports deliver
 {: .notice}**_  
 _**If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
 
-![](/img/data-transporter9.png)
+![](https://lh4.googleusercontent.com/EQzRFrnzjyimuRCiRrnTQTilro1g7HEtuQEPHSlpoJYn65gAIXyYtJIH7LYLXRCNKdgrAiD61d4O5cGEK127j9k00fSM3RUMRH3sEkLcK4bX1Qg4c77oILOEhRGtTTFg-GReksDp =524x132)
 
 ## Limitations
 

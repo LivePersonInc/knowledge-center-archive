@@ -32,8 +32,6 @@ The Data Transporter enable brands to schedule raw and formatted data report exp
 
 Some reports come pre-formatted in flat-file tables, such as Messaging and Engagement History, to be easily consumed by your chosen BI solution, making the process of having conversation data scheduled for delivery quick and simple.
 
-[**Link to user-guide**]()
-
 **How to enable**
 
 Contact your account manager who can provide details on pricing and enablement.
