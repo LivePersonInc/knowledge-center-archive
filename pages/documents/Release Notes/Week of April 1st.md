@@ -9,17 +9,16 @@ permalink: release-notes-2019-april-week-of-april-1.html
 isTutorial: false
 isNew: false
 date: 2019-03-27 13:59:09 +0200
-published: false
 
 ---
 LiveEngage release notes: week of April 1st 2019
 
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
-***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+\***Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .notice}_  
-_The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+{: .notice}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionality
 
@@ -66,7 +65,6 @@ Some reports come pre-formatted in flat-file tables, such as Messaging and Engag
 
 [**Link to user-guide**]()
 
-  
 **How to enable**
 
 Contact your account manager who can provide details on pricing and enablement.
@@ -81,5 +79,3 @@ Contact your account manager who can provide details on pricing and enablement.
 * Reports can only be sent from the time the task is created (historically is not supported)
 * Single Sign-on enabled accounts not currently supported
 * Only 1 type of report can be configured by LiveEngage source
-
-**Screenshots**
