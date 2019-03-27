@@ -8,7 +8,7 @@ level3: April
 permalink: release-notes-2019-april-week-of-april-1.html
 isTutorial: false
 isNew: false
-date: 2019-03-27 13:59:09 +0200
+date: 2019-03-27 11:59:09 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -24,7 +24,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | Yes |
 
 **Available to all customers?** Y (subject to pricing and Beta agreement)
 
@@ -53,7 +53,7 @@ Contact your account manager who can provide details on pricing and enablement.
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** yes
 
@@ -71,7 +71,7 @@ This feature may only be configured by LivePerson account team
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** yes
 
@@ -81,7 +81,7 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | No | No | No | Yes | No | No | No | No | No | No |
+| Yes | No | No | No | Yes | No | No | No | No | - | No |
 
 **Available to all customers -** Yes
 
@@ -96,7 +96,7 @@ To enable “Agent file sharing” capability on your LiveEngage account, please
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers:** Yes (Customers using async messaging supported by consumer journey driven engagements)
 
@@ -114,7 +114,7 @@ There are a few dependencies for this feature. Please contact your LivePerson ac
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** Yes
 
@@ -136,7 +136,7 @@ Custom lexicon per account is not supported in Japanese language. Japanese lexic
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** Yes
 
@@ -158,7 +158,7 @@ Full documentation, including the definition of the newly exposed metric, can be
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** Yes
 
@@ -188,7 +188,7 @@ In order to filter the API response by the new parameter, it has to be included 
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** yes
 
@@ -206,7 +206,7 @@ This feature may only be configured by LivePerson account team
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | - | No |
 
 **Available to all customers?** yes
 
