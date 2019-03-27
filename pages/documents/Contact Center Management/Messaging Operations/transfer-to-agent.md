@@ -8,11 +8,11 @@ level3: ''
 permalink: contact-center-management-messaging-operations-transfer-to-agent.html
 isTutorial: false
 isNew: false
-date: 2019-03-26 16:17:05 +0200
+date: 2019-03-26 14:17:05 +0000
 
 ---
 {: .important}
-**Please note:** This feature is not yet live. Transfer to agent will be rolled out in early April 2019.
+**Please note:** Transfer to agent will be available in early April 2019.
 
 ## Introduction
 
