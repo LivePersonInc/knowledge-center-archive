@@ -21,7 +21,7 @@ Data Transporter allows you to:
 * Schedule exports from each LiveEngage data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
 
-![](https://lh3.googleusercontent.com/02R5Rxgw8SUVGElHNILIo-k94N46-5Bl8sa5eKO6ODPmgSWfsEhOLPlme8o2su34ELFDJVeYrIlB12f7wOwjlhIqLhw_ec7he0dT8-GsbL-NuK-0bDJ4XMQLrdzYBjrW_VC2WK7s =434x225)
+![](/img/data-transporter1.png)
 
 **Notes:**
 
@@ -44,7 +44,7 @@ Access to Data Transporter is strictly by request - speak to your account manage
 
 Once your account is enabled, you can begin by logging into the Alpha environment via [https://transporter.liveperson.net](https://transporter.liveperson.net "https://transporter.liveperson.net")
 
-### Login Page![](https://lh4.googleusercontent.com/ADALH_ljBSZCa7NzHY3tqDAtJmTvSrnPiztvd2TjkcdYrzjX_20qxpkz620po27uarST34LRAoSt2JIdwkJUyoug9bfZT0Myso23uRzPFJlTCsZCRFf5aeLfgKx_5tY2O0R7xWRK =169x172)
+### Login Page
 
 1\. Enter your Account Number (click Sign in)
 
@@ -59,7 +59,7 @@ Note that logging into Data Transporter will terminate any existing LiveEngage s
 
 For security reasons and to protect your data privacy, Data Transporter also requires mandatory login verification via Two-factor Authentication
 
-![](https://lh5.googleusercontent.com/Bsbx0z17uZIgUiuLepc8gS8AKCc_VMZZXgolHAgaeAH3DWdJgbxNyyakNi9eY2n5VpSusgVT6cVXvhlNP_nsM-ZwKwkyKBmFwiEUQkm9nSHveEK1iXQ9a5ZPkUV0uQziQ1fvw71l =161x214)
+![](/img/data-transporter2.png)
 
 If this is the first time you are logging in, you will need to enroll - simply download an Authenticator application, such as:
 
@@ -72,9 +72,11 @@ If this is the first time you are logging in, you will need to enroll - simply d
 
 Once you have scanned your unique QR code with your device, enter the 6 digit verification code to continue. On subsequent logins, you will be prompted to enter a new 6 digit code as shown on your devices Authenticator Application - _do not lose your 2FA token._
 
-## Getting Started in Data Transporter![](https://lh5.googleusercontent.com/-fT3-uI_dR6Q0MLdQWFKfAF4YdAx0yAodhJOjATndJtAeMQjJHWt8Qa2kDuHpu_cMkn9TJjyVbufU6T5OrFGATxJrNnpP18wQQ0yET4sgi3N0cM9NXnRES8VKvvNw4qJQxzEsxBP =334x224)
+## Getting Started in Data Transporter
 
-### Task Manager
+![](/img/data-transporter3.png)
+
+## Task Manager
 
 The TASKS page will show each task you have configured in Transporter - if this is your first time logging in, no tasks will have yet been configured.
 
@@ -121,7 +123,7 @@ Once your keys are generated, your Public Key will be saved to your account, and
   * GPG Tools / GPG Suite (Mac OSX) (free)
   * GPG4Win (Windows) (free)
 
-![](https://lh4.googleusercontent.com/nt0Xouof7o-kOG9o89v3SBW4wpFkr0W8pl-USDJMzvYmNVSmeMpaihdY671dcjVJ6XzWd5ceQC0XEeAFyhJ2ES1-PT9RIgJo_h83jgufcJj4VXKmXh4bsswh0gl8bqCq4RicP4HC =452x257)
+![](/img/data-transporter4.png)
 
 ## Connecting to LiveEngage
 
@@ -140,7 +142,7 @@ Once you have created your keys, enter them into Transporter via the LIVEENGAGE 
 
 After verifying your keys are valid, you will see the LiveEngage setting appear in the table below - it is now ready for use as your source when you configure your first report.
 
-![](https://lh4.googleusercontent.com/lsHrmb4xiVLWQfyfR_fEFWPziR0gSvu2Ys0VuqvbZBPvGdKVsgg-LhmrjfQbrQkG9p9V-4ZzoGxQy8Ocxg5BO6h6RBE4haVNuXjSiSyIjgQL-PCxilyx3sAqWyB-1tuDkjJ8Is02 =540x309)
+![](/img/data-transporter5.png)
 
 ## Report Tasks
 
@@ -162,13 +164,13 @@ Admin type reports can provide a recurrent list of Skills, Agents and Agent Grou
 
 In the future, additional reports will be added - have an idea for a report? [Let us know](http://goo.gl/forms/KA8TzlnEktOuhH372)
 
-![](https://lh5.googleusercontent.com/PcNFCSB0xor7i7scILNhpDC2_2sqHZBUt9Z0RpczdG86uHGNoDD2dz1jdpN_ke_x9AG3z-XDFOiI8xxFIxYR9dxKqPvTLSBnO4SaQgAXwx41otFvFQoVbyO2tmM067BCsIE6rlnc =464x209)
+![](/img/data-transporter6.png)
 
 ### Report Catalogue
 
 For detailed information about the report data sources, visitor our [Developer Community](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
 
-![](https://lh4.googleusercontent.com/XJagRC0rT_MAErUTvaQFxgGEwXE3S19cYs8QB8-wyXL_KJ-UXc7em5K3i8a8L2EDL05cvUVmsWoknRFrI0OjR0b6bPsebKbFkXlJGgxOQ14cpkHXPB9H-vfwdjL09ai_v158evAq =624x123)
+![](/img/data-transporter7.png)
 
 ### Create Report Options![](https://lh6.googleusercontent.com/3F8jAjDvnhpEyNxM9hb_7MaGrXpR4x64lMKUZGhfLQyS7L6jqNhzgomDN-L0gNq89iMILXNshW_Gp3m7UMz5mKOy2CNZBtLcNd5R2JkZ_um1h3p-fyGVxlwKyycPhIxFsxh4IGlk =624x216)
 
