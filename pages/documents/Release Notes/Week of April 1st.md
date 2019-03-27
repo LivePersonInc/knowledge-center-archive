@@ -11,8 +11,6 @@ isNew: false
 date: 2019-03-27 13:59:09 +0200
 
 ---
-LiveEngage release notes: week of April 1st 2019
-
 These release notes include new features arriving to LiveEngage during January 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
@@ -25,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Data Transporter - Release of Data Transporter to GA Environment
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 **Available to all customers?** Y (subject to pricing and Beta agreement)
@@ -54,7 +52,7 @@ Contact your account manager who can provide details on pricing and enablement.
 ### Capacity management for manual SLA (AE-1875)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** yes
@@ -72,10 +70,9 @@ This feature may only be configured by LivePerson account team
 ### Transfer to Agent (AE-555)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
-  
 **Available to all customers?** yes
 
 The transfer to agent capability enables agents, agent managers and bots to transfer a messaging conversation to a specific agent, chosen by the transferring agent. Brands will be able to configure the skills, states, and overall behavior of the transferred conversation.
@@ -83,14 +80,14 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 ### Agent File Sharing (Phase I - Photos)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | No | No | No | Yes | No | No | No | No | No | No |
 
 **Available to all customers -** Yes
 
 **Description**  
-Agent file sharing enables agents and bots to share files with consumers.At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.  
-  
+Agent file sharing enables agents and bots to share files with consumers.At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
+
 Agents will now be able to share photos with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 
 To enable “Agent file sharing” capability on your LiveEngage account, please contact your LivePerson account team.
@@ -98,7 +95,7 @@ To enable “Agent file sharing” capability on your LiveEngage account, please
 ### Consumer Step Up (CO-183)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers:** Yes (Customers using async messaging supported by consumer journey driven engagements)
@@ -116,7 +113,7 @@ There are a few dependencies for this feature. Please contact your LivePerson ac
 ### Language support for an existing feature (MCS) - Italian and Japanese
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** Yes
@@ -138,7 +135,7 @@ Custom lexicon per account is not supported in Japanese language. Japanese lexic
 ### Messaging Queue Health - New metric for Time in Queue for brands using routing bot (LE-99210)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** Yes
@@ -160,7 +157,7 @@ Full documentation, including the definition of the newly exposed metric, can be
 ### Messaging Skill Segments - Filtering skill-segments metrics by user type: bot\\human (LE-97744)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** Yes
@@ -190,7 +187,7 @@ In order to filter the API response by the new parameter, it has to be included 
 ### Advance high-priority skills in the queue (AE-492)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** yes
@@ -208,7 +205,7 @@ This feature may only be configured by LivePerson account team
 ### Send Messaging Queue State event on rings (AE-2560)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | Google RCS | Google My Business | WhatsApp Business | CM | Chat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 **Available to all customers?** yes
