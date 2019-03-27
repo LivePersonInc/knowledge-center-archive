@@ -689,7 +689,7 @@ ul.mysidebar.nav > li:first-of-type {
   border-left: 4px solid #dedddd;
   padding-left: 15px;
   list-style: none;
-  height: 30px;
+  height: auto;
 }
 
 .subcategorycontainer {
