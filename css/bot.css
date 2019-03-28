@@ -173,7 +173,7 @@ body {
   display: flex;
   flex: 1;
   width: 85% !important;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-button button {
@@ -199,6 +199,10 @@ body {
 .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
   background-image: url(https://s3-eu-west-1.amazonaws.com/ce-sr/CA/right-arrow.png) !important;
   z-index: 0;
+}
+
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-element-text {
+  padding: 10px 16px 5px 16px !important;
 }
 
 .consumerText {
