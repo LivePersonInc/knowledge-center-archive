@@ -215,6 +215,7 @@ body {
   font-family: "Roboto", "Open Sans", Helvetica;
   font-size: 17px;
   margin-right: 25px;
+  max-width: 50%;
 }
 
 .inputcontainer {

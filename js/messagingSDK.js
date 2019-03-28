@@ -30,9 +30,13 @@ windowKit.onAgentTextEvent(function(text) {
 	if (!agentFirstText) {
 		agentFirstText = true;
 		$("#botLoader").css('display', 'none');
-		scrollBottom(0);
 	}
 	scrollBottom(0);
+	$('.caseyText a').on('click', function (event) {
+		event.preventDefault();
+		var url = $(this).attr('href');
+		window.open(url, "_blank");
+	});
 });
 
 //when a user sends a text
