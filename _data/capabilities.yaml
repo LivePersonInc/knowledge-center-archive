@@ -222,6 +222,42 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
+  - featureName: Photo Sharing - agent to consumer
+    channels:
+    - mobileAppMessaging: "N/A in Channel"
+    - webMessaging: "Supported"
+    - appleBusinessChat: "Coming Q3"
+    - sms: "Coming Q3"
+    - facebook: "Coming Q3"
+    - whatsapp: "Coming Q3"
+    - googleRCS: "Coming Q3"
+    - line: "N/A in Channel"
+    - messagingWindowAPI: "N/A in Channel"
+    - connectorAPI: "N/A in Channel"
+  - featureName: File sharing
+    channels:
+    - mobileAppMessaging: "N/A in Channel"
+    - webMessaging: "Coming Q2"
+    - appleBusinessChat: "Coming Q2"
+    - sms: "N/A in Channel"
+    - facebook: "N/A in Channel"
+    - whatsapp: "Coming Q2"
+    - googleRCS: "N/A in Channel"
+    - line: "N/A in Channel"
+    - messagingWindowAPI: "N/A in Channel"
+    - connectorAPI: "N/A in Channel"
+  - featureName: Voice/video calls
+    channels:
+    - mobileAppMessaging: "N/A in Channel"
+    - webMessaging: "Coming Q2"
+    - appleBusinessChat: "N/A in Channel"
+    - sms: "N/A in Channel"
+    - facebook: "N/A in Channel"
+    - whatsapp: "N/A in Channel"
+    - googleRCS: "N/A in Channel"
+    - line: "N/A in Channel"
+    - messagingWindowAPI: "N/A in Channel"
+    - connectorAPI: "N/A in Channel"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
