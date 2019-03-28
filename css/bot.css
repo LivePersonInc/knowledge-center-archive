@@ -326,7 +326,7 @@ body {
 
 
 .caseyAvatar {
-  margin-left: -48px;
+  margin-left: -45px;
   margin-right: 10px;
   margin-bottom: -10px;
   align-self: flex-end;
@@ -334,7 +334,7 @@ body {
 }
 
 .scAvatar {
-  margin-left: -48px;
+  margin-left: -45px;
   margin-right: 0;
   align-self: flex-start;
   margin-top: -45px;
