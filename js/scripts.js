@@ -31,10 +31,12 @@ function navigateContent(url) {
 			var $content = $('#defaultcontent');
 			var $titlecontainer = $('.documenttitle');
 			var $breadcrumbs = $('.breadcrumbs');
+			var $header = $('#defaultheader');
 			//exchange the content of those parts with the new parts loaded via ajax
 			$breadcrumbs.html($newData.find('.breadcrumbs').html());
 			$titlecontainer.html($newData.find('.documenttitle').html());
 			$content.html($newData.find('#defaultcontent').html());
+			$header.html($newData.find('#defaultheader').html());
 			//add anchor links to all h3 titles. See respective functions below for what they do.
 			if ($titlecontainer.html().indexOf('Welcome' == -1)) {
 				$('#documenttitlecontainer').removeClass('botTitle')

@@ -347,7 +347,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .casey {
-  padding: 22px 43px;
+  padding: 25px 43px;
   margin-bottom: 12px;
   background-color: #16134a;
   display: flex;
@@ -357,7 +357,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .casey img {
-  width: 150%;
+  width: 135%;
   margin-top: 10px;
 }
 
