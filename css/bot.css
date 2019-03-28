@@ -193,7 +193,7 @@ body {
 .lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
   font-size: 15px !important;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
