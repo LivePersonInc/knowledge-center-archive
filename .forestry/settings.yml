@@ -6,9 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: pages/documents
-  label: Pages
+  label: pages
   create: all
-  match: "**/*.md"
+  match: "**/*"
   templates:
   - knowledge-center
 upload_dir: img
@@ -16,15 +16,17 @@ public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+instant_preview: true
 build:
   preview_command: bundle exec jekyll serve --drafts --unpublished --future -d _site
     --host 0.0.0.0 --port 8080
   publish_command: bundle exec jekyll build -d _site
   preview_env:
   - JEKYLL_ENV=staging
+  - RUBY_VERSION=2.6.1
   publish_env:
   - JEKYLL_ENV=production
   preview_output_directory: _site
   output_directory: _site
-  instant_preview_command: bundle exec jekyll serve --incremental --drafts --unpublished
-    --future --port 8080 --host 0.0.0.0 -d _site
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site
