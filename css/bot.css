@@ -50,7 +50,7 @@ body {
 }
 
 .caseyText {
-  width: 85%;
+  width: 83%;
   background-color: #465684;
   color: #fff;
   border-radius: 10px 10px 10px 0;
@@ -330,7 +330,7 @@ body {
   margin-right: 10px;
   margin-bottom: -10px;
   align-self: flex-end;
-  width: 34px;
+  width: 31px;
 }
 
 .scAvatar {
@@ -339,7 +339,7 @@ body {
   align-self: flex-start;
   margin-top: -45px;
   margin-bottom: 10px;
-  width: 34px;
+  width: 31px;
 }
 
 .gooey {
@@ -495,14 +495,17 @@ body {
 }
 
   #resetcontainer {
-    grid-column: 7;
-  }
-
-  .caseyAvatar {
-    width: 12%;
-  }
-
-  .scAvatar {
-    width: 12%;
+    /* grid-row: 1 / span 1; */
+    /* grid-column: 7; */
+    position: absolute;
+    top: 90px;
+    border-radius: 0px;
+    width: 100%;
+    /* text-align: center; */
+    padding: 0;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

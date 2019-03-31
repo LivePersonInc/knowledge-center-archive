@@ -1275,6 +1275,16 @@ w-div a:last-child {
   #defaultheader {
     z-index: 3;
     justify-content: flex-end;
+    max-height: 80px;
+    padding-top: 10px;
+  }
+
+  #logocontainer {
+    margin-right: 0;
+  }
+
+  #logocontainer img {
+    width: 80%;
   }
 
   #defaultsidebar {
@@ -1288,7 +1298,7 @@ w-div a:last-child {
   #mysidebar {
     padding-top: 20px;
     position: absolute;
-    top: 120px;
+    top: 80px;
     width: 90%;
     height: auto;
     background-color: #fff;
@@ -1306,7 +1316,7 @@ w-div a:last-child {
   }
 
   #defaultcontent {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 7;
     margin-left: 20px;
   }
 
@@ -1322,10 +1332,27 @@ w-div a:last-child {
     margin-left: 20px;
     order: 1;
     margin-right: -20px;
+    justify-content: flex-start;
   }
 
   .casey {
-    order: 3;
+    order: 1;
+    padding: 0;
+    border-right: 1px solid #979797;
+    background-color: transparent;
+    margin-right: 15px;
+  }
+
+  .casey img {
+    width: 75%;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    /*padding-top: 9px; */
+  }
+
+  .casey span {
+    display: none;
   }
 
   .algolia-autocomplete {
@@ -1372,6 +1399,7 @@ w-div a:last-child {
     align-items: center;
     margin-right: 20px;
     order: 2;
+    margin-top: -5px;
   }
 
   .mobilefeaturestable {
@@ -1393,6 +1421,14 @@ w-div a:last-child {
   .breadcrumbs {
     margin-bottom: 10px;
     opacity: 0.7;
+  }
+
+  .caseyAvatar {
+    width: 28px;
+  }
+
+  .scAvatar {
+    width: 28px;
   }
 
 }
