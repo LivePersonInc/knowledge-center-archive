@@ -12,8 +12,8 @@ sections:
   templates:
   - knowledge-center
 - type: directory
-  path: pages/documents
-  label: Pages
+  path: pages/documents/Getting Started
+  label: Getting Started
   create: all
   match: "**/*.md"
   templates:
