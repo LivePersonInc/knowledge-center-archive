@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+  match: "**/*"
+  templates:
+  - knowledge-center
 - type: directory
   path: pages/document/Admin & Settings
   label: Admin & Settings
