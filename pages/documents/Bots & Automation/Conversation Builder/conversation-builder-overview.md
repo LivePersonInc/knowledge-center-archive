@@ -1,11 +1,11 @@
 ---
 pagename: Conversation Builder overview
-categoryName: AI, Bots & automation
+categoryName: Getting started
 subCategoryName: Conversation Builder
 indicator: messaging
 subtitle: LivePerson’s easy-to-use bot builder allows non-technical staff to build,
   test and visualize bots
-level3: Conversation Builder
+level3: Getting started
 permalink: ai-bots-automation-conversation-builder-conversation-builder-overview.html
 isTutorial: false
 isNew: false
@@ -46,13 +46,14 @@ The Conversation Builder replaces the code-based programming required by most au
 
 Together with integration to LivePerson's conversational commerce platform, there exists a seamless back and forth escalation with human agents who can supervise bots as they work. Agents can intervene to pick up conversations where bots cannot continue - what we call the human-bot tango. Bot managers or qualified agents have the tools to teach bots to deliver a great consumer experience by changing the introduction text or question. In this way, agents and bots can tango - an instrumental capability in helping brands maintain a positive user experience.
 
-### **Out-of-the-box automations for common workflows and verticals**
+### **Predefined, industry vertical templates**
 
-Brands don’t need to start from scratch to build bots - they can leverage the Conversation Builder’s built-in automation templates for common workflows and channels as accelerators including:
+Brands don’t need to start from scratch to build bots. Conversation Builder has a set of predefined, industry vertical templates (e.g., retail, telecommunications, and finance) that enable rapid adoption of automation. Each conversational template consists of the following capabilities:
 
-* Automation libraries with industry-specific templates for common workflows and verticals, such a retail, telecommunications and finance.
-* Industry specific templates provide a starting point on which to build, customize and integrate with product, billing, CRM and other business systems like Shopify, Salesforce, Timetrade, Hybris.
-* Integration with product catalogues, order systems, knowledge bases, and more.
+* Intents associated with the use case
+* Conversational dialogs with appropriate interactions for the respective channels or end points (e.g. Web, Apple Business Chat, SMS etc.)
+* API integrations with industry leading services (e.g. Shopify, Salesforce, Timetrade, Hybris) as well as brand-specific services
+*  Integration with product catalogues, order systems, knowledge bases, and more.
 * And the option to leverage pre-existing automation and NLU investments including DialogFlow, Watson, Lex and other NLU providers.
 
 {: .notice}
