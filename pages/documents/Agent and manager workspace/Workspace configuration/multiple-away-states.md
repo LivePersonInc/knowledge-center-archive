@@ -9,6 +9,8 @@ permalink: agent-manager-workspace-workspace-configuration-multiple-away-states.
 isTutorial: false
 isNew: false
 date: 2019-01-23 13:55:25 +0000
+redirect_from:
+  - busy-state.html
 
 ---
 For brands, understanding how agents are spending their time is vital for keeping track of performance and staff management. In addition to the three statuses currently available for agents - online, back soon and away - brands are also able to customize and add their own ‘away’ statuses.
