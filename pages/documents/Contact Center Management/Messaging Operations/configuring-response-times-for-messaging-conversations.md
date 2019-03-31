@@ -9,6 +9,8 @@ permalink: contact-center-management-messaging-operations-configuring-response-t
 isTutorial: false
 date: 2019-01-17 09:53:26 +0000
 isNew: false
+redirect_from:
+  - configuring-response-times.html
 
 ---
 The LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) prioritizes conversations that are waiting to be assigned to an agent according to their response time. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.

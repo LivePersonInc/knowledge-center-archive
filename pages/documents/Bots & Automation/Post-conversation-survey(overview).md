@@ -10,6 +10,8 @@ permalink: ai-bots-automation-post-conversation-survey-bot.html
 isTutorial: false
 isNew: false
 date: 2019-02-18 13:54:54 +0000
+redirect_from:
+  - using-forms.html
 
 ---
 The post conversation survey bot (PCS) gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.

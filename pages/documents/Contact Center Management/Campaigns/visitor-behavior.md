@@ -9,6 +9,10 @@ permalink: contact-center-management-campaigns-visitor-behavior.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 15:31:12 +0000
+redirect_from:
+  - track-and-target.html
+  - target-visitors.html
+  - sections.html
 
 ---
 For each engagement in your campaign, you can determine if a particular visitor action, or behavior will cause the messaging or chat button to display. For messaging, it is a best practice is to have the buttons displayed at all times. However, you can decide who sees your engagement by creating visitor behavior rules.
@@ -23,7 +27,7 @@ Consumers who show intent to purchase higher-value products or services are know
 
 LiveEngage allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
 
-Decide when to display engagements by selecting conditions that will be applied to your users’ behavior. 
+Decide when to display engagements by selecting conditions that will be applied to your users’ behavior.
 
 Here is a list of the currently available conditions:
 

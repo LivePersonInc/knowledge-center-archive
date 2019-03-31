@@ -10,6 +10,8 @@ permalink: messaging-channels-web-messaging-add-web-messaging-to-your-website.ht
 isTutorial: false
 date: 2019-01-16 17:31:38 +0000
 isNew: false
+redirect_from:
+  - how-to-mark.html
 
 ---
 Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).

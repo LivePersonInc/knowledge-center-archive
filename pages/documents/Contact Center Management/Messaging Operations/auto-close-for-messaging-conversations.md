@@ -9,6 +9,8 @@ permalink: contact-center-management-messaging-operations-auto-close-for-messagi
 isTutorial: false
 date: 2019-01-17 10:28:55 +0000
 isNew: false
+redirect_from:
+  - auto-close.html
 
 ---
 To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time. Auto close provides a seamless experience for consumers; they will not receive an exit survey, nor see a separator within the conversation thread.

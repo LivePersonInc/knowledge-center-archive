@@ -9,6 +9,8 @@ isTutorial: false
 date: 2019-01-14 10:27:58 +0000
 level3: ''
 isNew: false
+redirect_from:
+  - setup-authchat.html
 
 ---
 To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")

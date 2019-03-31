@@ -9,6 +9,8 @@ permalink: admin-settings-skills-groups-operate-business-divisions-from-one-acco
 isTutorial: false
 isNew: false
 date: 2019-01-23 09:46:18 +0000
+redirect_from:
+  - manage-lines-of-business.html
 
 ---
 The LivePerson platform is designed to reflect and support your brand goals and business structure as closely as possible. By creating individual Lines of Business (LoBs) within one single account, each with its own campaigns and engagements, brands are better able to track campaign success and engagement impact on each area of their business.

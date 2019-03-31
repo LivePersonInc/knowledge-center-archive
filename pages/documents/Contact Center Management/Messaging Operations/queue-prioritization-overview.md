@@ -98,7 +98,7 @@ Queues in consists of brand new conversations, as well as those that have been t
 
 Out of the conversations considered actionable, and an additional mechanism filters by urgency and importance, based on settings predetermined by the brand and calculated as:
 
-### **Time multiplied by variables** 
+### **Time multiplied by variables**
 
 #### **(the attributes discussed above)**
 

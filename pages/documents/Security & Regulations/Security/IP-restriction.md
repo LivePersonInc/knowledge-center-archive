@@ -9,6 +9,8 @@ permalink: security-regulations-security-ip-restriction.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 11:51:12 +0000
+redirect_from:
+  - ip-restriction.html
 
 ---
 To ensure that App keys cannot be utilized by an unauthorized user outside a brand’s internal network, app keys will only be able to be used via the brand’s valid IP addresses.

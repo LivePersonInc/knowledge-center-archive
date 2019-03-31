@@ -10,6 +10,8 @@ permalink: security-regulations-security-whitelist-your-domains-for-lp-monitorin
 isTutorial: false
 isNew: false
 date: 2019-02-26 09:27:51 +0000
+redirect_from:
+  - manage-domains.html
 
 ---
 You can prevent attackers from using the LivePerson Monitor Tag in unauthorized domains, and visitors from luring agents to download malicious content.

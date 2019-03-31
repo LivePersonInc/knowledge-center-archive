@@ -10,6 +10,8 @@ permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 10:55:35 +0000
+redirect_from:
+  - html-engagement-unsupported-elements.html
 
 ---
 ## Choosing your engagement type

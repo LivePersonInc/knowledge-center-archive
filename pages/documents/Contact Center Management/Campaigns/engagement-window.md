@@ -9,6 +9,8 @@ permalink: contact-center-management-campaigns-engagement-window.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 13:19:13 +0000
+redirect_from:
+  - customized-chat-windows.html
 
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.

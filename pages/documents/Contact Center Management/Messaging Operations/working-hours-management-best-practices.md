@@ -9,6 +9,8 @@ level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
 date: 2019-01-17 13:13:10 +0000
+redirect_from:
+  - shift-scheduler-limitations.html
 
 ---
 ### Workdays
@@ -41,7 +43,7 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 ## Clarifications
 
-* If Workdays or Special Occasions are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified. 
+* If Workdays or Special Occasions are configured on the account level (as default), all the account’s skills will be working according to the account configuration, unless otherwise specified.
 
   This means:
   * If you wish to have a skill without special occasions, for example, you’ll need to set the skill’s special occasions field with a new special occasion item to override the account level configuration. This item should have an empty list of occasions.

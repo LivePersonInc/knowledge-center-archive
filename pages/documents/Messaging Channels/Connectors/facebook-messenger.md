@@ -10,6 +10,8 @@ permalink: messaging-channels-facebook-messenger.html
 isTutorial: true
 date: 2019-01-20 09:10:07 +0000
 isNew: true
+redirect_from:
+  - facebook-connector.html
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -70,7 +72,7 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 3. **If you have Admin rights to a Facebook page:** it will ask you "What Pages do you want to use with LP on Messenger (VA1)?", you select the page(s) and click "Next". **If you are not Admin of a Facebook Page it will skip to the next step**
 4. It will now ask you "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done"
 5. It will tell you _"You’ve now linked LP on Messenger (VA1) to Facebook"_ and give you an _"OK"_ button that will close this smaller window.
-6. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed, You _"Subscribe"_ and click on **Done**_._ 
+6. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed, You _"Subscribe"_ and click on **Done**_._
 7. Click on **Done** on the lower right corner.
 
 ![](/img/facebook-messenger-4.png)

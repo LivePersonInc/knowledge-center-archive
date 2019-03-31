@@ -9,6 +9,8 @@ level3: ''
 permalink: contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html
 isTutorial: false
 date: 2019-01-20 09:26:50 +0000
+redirect_from:
+  - shift-scheduler.html
 
 ---
 LivePerson enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation.
