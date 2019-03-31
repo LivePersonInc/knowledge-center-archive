@@ -117,7 +117,7 @@ function scrollBottom (offset, interval) {
 	if (children.length > 4) {
 		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
 		}
-	}, 1500);
+	}, 1200);
 	}
 	setTimeout (function () {
 		//allow other scrolls in the future, like those which happen when a new text is sent
