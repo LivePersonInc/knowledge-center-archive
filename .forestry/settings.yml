@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: pages/document/Admin\ \&\ Settings
+  path: pages/document/Admin & Settings
   label: Admin & Settings
   create: all
   match: "**/*"
