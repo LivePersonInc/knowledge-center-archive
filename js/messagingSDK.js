@@ -30,8 +30,10 @@ windowKit.onAgentTextEvent(function(text) {
 	if (!agentFirstText) {
 		agentFirstText = true;
 		$("#botLoader").css('display', 'none');
+		scrollBottom(0);
+	} else {
+		scrollBottom(850, 1500);
 	}
-	scrollBottom(450)
 	$('.caseyText a').on('click', function (event) {
 		event.preventDefault();
 		var url = $(this).attr('href');
@@ -52,7 +54,6 @@ windowKit.onVisitorTextEvent(function(text) {
 		$(this).css('pointer-events', 'none');
 	}
 });
-	scrollBottom(450)
 });
 
 //when an agent (the bot) sends a rich content message
@@ -76,6 +77,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 		console.log(linkObject);
 	});
 	jsonButton();
+	scrollBottom(850, 1500);
 });
 
 function displayInput () {
@@ -102,7 +104,7 @@ function displayInput () {
 };
 
 //a function to scroll to the bottom of the conversation
-function scrollBottom (offset) {
+function scrollBottom (offset, interval) {
 	//only scroll if we haven't scrolled before
 	if (!isScrolling) {
 		//change the var so this doesn't repeat
@@ -112,8 +114,8 @@ function scrollBottom (offset) {
 		//find the bottom of the conversation window by adding the top attribute and the height of the div
 	var bottom = $(document).height() - offset;
 	var children = $('#caseyContainer').children();
-	if (children.length > 3) {
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1500);
+	if (children.length > 4) {
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
 		}
 	}, 1500);
 	}
