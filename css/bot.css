@@ -80,6 +80,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
+  margin-left: -3px;
 }
 
 .caseyTextContainer + .lp-json-pollock {
@@ -489,8 +490,8 @@ body {
   }
 
   #caseyContainer {
-  width: 100%;
-  margin-left: 35px;
+  width: 95%;
+  margin-left: 50px;
   z-index: 1;
 }
 
@@ -507,5 +508,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper {
+    width: 90%;
   }
 }

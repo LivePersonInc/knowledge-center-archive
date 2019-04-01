@@ -3,6 +3,10 @@
   text-rendering: optimizeLegibility;
 }
 
+*:focus {
+  outline: none;
+}
+
 html {
   width: 100%;
   height: auto;
@@ -354,6 +358,7 @@ ul.mysidebar.nav > li:first-of-type {
   flex-direction: column;
   text-decoration: none;
   align-items: center;
+  max-height: 120px;
 }
 
 .casey img {
@@ -1176,8 +1181,8 @@ w-div a:last-child {
 
   #homebuttons {
     flex: unset;
-    margin-left: 50px;
-    margin-right: -60px;
+    margin-left: 100px;
+    margin-right: 0px;
   }
 
   #contact {
@@ -1239,7 +1244,11 @@ w-div a:last-child {
   }
 
   .algolia-autocomplete .aa-dropdown-menu {
-    width: 104.2%;
+    width: 105.5%;
+  }
+
+  #logocontainer {
+    margin-right: 50px;
   }
 }
 
