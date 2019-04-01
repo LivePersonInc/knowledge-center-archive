@@ -218,6 +218,8 @@ body {
 
 .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-element-text {
   padding: 10px 16px 5px 16px !important;
+  width: 85%;
+  max-width: 85%;
 }
 
 .consumerText {

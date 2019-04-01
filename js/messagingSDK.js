@@ -94,6 +94,9 @@ windowKit.onAgentChatState(function (state) {
 });
 
 function displayInput () {
+	let inputDisplayed;
+	if (!inputDisplayed) {
+	inputDisplayed = true;
 	//timeout needed to make sure the input gets displayed after the response message
 	$('#messageInput').attr('id', 'messageInputUsed');
 	setTimeout (function () {
@@ -114,6 +117,11 @@ function displayInput () {
 		 }
 	 });
 }, 1000);
+}
+setTimeout (function () {
+	//allow other scrolls in the future, like those which happen when a new text is sent
+	inputDisplayed = false;
+}, 2000);
 };
 
 //a function to scroll to the bottom of the conversation
