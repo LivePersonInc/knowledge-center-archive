@@ -27,6 +27,7 @@ body {
 
 #botLoader {
   margin-top: 50px;
+  align-self: center;
 }
 
 .botTitle {
@@ -55,7 +56,8 @@ body {
 }
 
 .caseyText {
-  width: 83%;
+  width: auto;
+  max-width: 83%;
   background-color: #465684;
   color: #fff;
   border-radius: 10px 10px 10px 0;
@@ -135,7 +137,8 @@ body {
   background: #465684;
   border: none !important;
   border-radius: 10px 10px 10px 0;
-  width: 70%;
+  width: auto;
+  max-width: 70%;
   font-family: "Roboto", "Open Sans", Helvetica;
   font-size: 17px !important;
   color: #fff !important;
@@ -517,5 +520,9 @@ body {
 
   .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper {
     width: 90%;
+  }
+
+  #botLoader {
+    margin-left: 40px;
   }
 }

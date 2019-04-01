@@ -19,6 +19,7 @@ $(document).ready(function () {
 	if (url.indexOf('casey') > -1) {
 		$('#defaultfooter').addClass('botfooter');
 	}
+
 });
 
 function navigateContent(url) {
@@ -70,6 +71,8 @@ function navigateContent(url) {
 				$('#defaultsidebar').slideUp(400);
 				$('#defaultsidebar').data('expanded', 'false');
 				$('#defaultcontent').removeClass('fadeout');
+				var $hamburger = $('.hamburger');
+				$hamburger.toggleClass('is-active');
 			}
 			if ($('#defaultfooter').hasClass('botfooter')) {
 				$('#defaultfooter').removeClass('botfooter');
@@ -229,8 +232,8 @@ function sideBarCollapse () {
 
 //a function to control a click on the mobile hamburger button
 function mobileHamburger() {
-	var $hamburger = $('.hamburger');
 	var sidebar = $('#defaultsidebar');
+	var $hamburger = $('.hamburger');
 	//on click, set data to control the toggle behavior.
 	$hamburger.on('click', function (e) {
 		$hamburger.toggleClass('is-active');
