@@ -43,7 +43,7 @@ The tag will most likely be added to your website by your development team, or s
 
 The tag should be included into the <head> of all web pages.
 
-If the tag is included via an external javascript file, it should look this:
+If the tag is included via an external javascript file, it should look this: 
 
 `<script type="text/javascript" src="/le-mtagconfig.js"></script>`
 
