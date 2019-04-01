@@ -135,4 +135,5 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Security & Regulations/Liveperson-support-policy.md
 - pages/documents/Troubleshooting/Support/generate-har-files-alayze-web-requests.md
