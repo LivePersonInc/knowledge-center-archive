@@ -54,6 +54,7 @@ windowKit.onVisitorTextEvent(function(text) {
 		$(this).css('pointer-events', 'none');
 	}
 });
+	scrollBottom(850, 1500);
 });
 
 //when an agent (the bot) sends a rich content message
@@ -106,19 +107,19 @@ function displayInput () {
 //a function to scroll to the bottom of the conversation
 function scrollBottom (offset, interval) {
 	//only scroll if we haven't scrolled before
-	if (!isScrolling) {
-		//change the var so this doesn't repeat
-		isScrolling = true;
+	// if (!isScrolling) {
+	// 	//change the var so this doesn't repeat
+	// 	isScrolling = true;
 	//now that we have bottom, animate the body and html to simulate a scroll. Don't scroll on mobile.
 	setTimeout (function () {
 		//find the bottom of the conversation window by adding the top attribute and the height of the div
 	var bottom = $(document).height() - offset;
 	var children = $('#caseyContainer').children();
 	if (children.length > 4) {
-		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 1000);
+		$('body, html').animate({ scrollTop: bottom, complete: function() { isScrolling = false; } }, 600, 'linear');
 		}
-	}, 1200);
-	}
+	}, 100);
+	// }
 	setTimeout (function () {
 		//allow other scrolls in the future, like those which happen when a new text is sent
 		isScrolling = false;
