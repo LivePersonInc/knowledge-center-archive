@@ -81,6 +81,18 @@ windowKit.onAgentRichContentEvent(function(content) {
 	scrollBottom(850, 1500);
 });
 
+windowKit.onAgentChatState(function (state) {
+	if (state == 'COMPOSING' && agentFirstText == true) {
+		agentFirstText = true;
+		$('#typing').css('display', 'flex');
+		//show your agent is typing element
+} else {
+	$('#typing').css('display', 'none');
+	//agent has stopped typing so
+	//hide your agent is typing element
+}
+});
+
 function displayInput () {
 	//timeout needed to make sure the input gets displayed after the response message
 	$('#messageInput').attr('id', 'messageInputUsed');

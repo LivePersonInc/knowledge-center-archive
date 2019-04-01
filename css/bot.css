@@ -30,6 +30,12 @@ body {
   align-self: center;
 }
 
+#typing {
+  display: none;
+  color: #fff;
+  order: 2;
+}
+
 .botTitle {
   display: none !important;
 }
@@ -352,53 +358,46 @@ body {
 }
 
 .gooey {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 142px;
-  height: 40px;
-  margin: -20px 0 0 -71px;
-  background: transparent;
-  filter: contrast(20);
-}
-
-.dot {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 12px;
-    left: 15px;
-    filter: blur(4px);
-    background: #fff;
-    border-radius: 50%;
-    transform: translateX(0);
-    animation: dot 1.8s infinite;
+  position: relative;
+  width: auto;
+  height: 45px;
+  background: #465684;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .dots {
-    transform: translateX(0);
-    margin-top: 12px;
-    margin-left: 31px;
-    animation: dots 1.8s infinite;
+    display: flex;
+    margin-right: 15px;
 }
 
 .dots span {
-      display: block;
-      float: left;
-      width: 16px;
-      height: 16px;
-      margin-left: 16px;
-      filter: blur(4px);
-      background: #fff;
-      border-radius: 50%;
+  display: block;
+  /* float: left; */
+  width: 8px;
+  height: 8px;
+  margin-left: 4px;
+  background: #fff;
+  border-radius: 50%;
+  animation: dots 0.9s infinite;
 }
 
-@keyframes dot {
-  50% {transform: translateX(96px)}
+.dots span:nth-child(1) {
+  margin-left: 16px;
+}
+
+.dots span:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.dots span:nth-child(3) {
+  animation-delay: .4s;
 }
 
 @keyframes dots{
-  50% {transform: translateX(-31px)}
+  50% {transform: translateY(-5px)}
 }
 
 #resetcontainer {
