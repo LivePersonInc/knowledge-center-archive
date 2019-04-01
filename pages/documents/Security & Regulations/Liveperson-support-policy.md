@@ -1,5 +1,5 @@
 ---
-pagename: LivePerson Support policy
+pagename: LivePerson support policy
 categoryName: Security & regulations
 subCategoryName: ''
 indicator: chat
