@@ -54,4 +54,11 @@ Mail security services (such as Office 365 ATP Safe Links) often send an organiz
 
 Please contact your local system administrator and ask them to add .liveperson.net and .liveperson.com to the your company’s security mechanism **Safe List**.
 
-For more information on Office 365 ATP Safe Links, your admin can refer to [Office 365 ATP Safe Links](https://docs.microsoft.com/en-us/office365/securitycompliance/atp-safe-links) and Set up a custom do-not-rewrite URLs list using Office 365 ATP Safe Links on the Microsoft web site.
+For more information on Office 365 ATP Safe Links, your admin can refer to [Office 365 ATP Safe Links](https://docs.microsoft.com/en-us/office365/securitycompliance/atp-safe-links) and set up a custom do-not-rewrite URLs list using Office 365 ATP Safe Links on the Microsoft web site.
+
+## Why can’t I log in to LiveEngage from Chrome?
+
+Your Chrome browser may have an unsupported extension installed (e.g. Ghostery) that is known to block cookies and other functionality. You must disable the extension and sign in to LiveEngage.
+
+{: .notice}  
+Unsupported extensions can cause issues on all browsers.
