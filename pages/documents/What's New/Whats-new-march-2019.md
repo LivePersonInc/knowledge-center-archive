@@ -13,8 +13,6 @@ date: 2019-03-25 13:41:24 +0000
 ---
 Welcome to the LivePerson Product Updates Newsletter for March
 
-![](img/newsletter-march-gif.gif)
-
 Here is a round-up of the latest features, enhancements and enablements that are coming in March 2019 - all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
 ## Configuring welcome message using Quick Replies
@@ -27,14 +25,14 @@ The quick replies run through a bot flow, allowing the bot to respond with relev
 
 ![](/img/Whats-new-march2.png)![](/img/Whats-new-march3.png)
 
-## Photo sharing - agent to consumer (web messaging) 
+## Photo sharing - agent to consumer (web messaging)
 
 {: .notice}  
 This feature is coming in early April.
 
 Agents and bots can send photos to consumers to explain issues or requests quicker and more accurately. For example, a screenshot for tech support, or a product photo making messaging conversations a more visual experience and reduce time to resolution. All photos will appear in conversation transcripts.
 
-## Transfer to agent 
+## Transfer to agent
 
 {: .notice}  
 This feature is coming in early April.
@@ -55,6 +53,9 @@ To assist brands with the adoption of Report Builder, LivePerson is offering pre
 * Goal Tracker Grid
 
 ## Smart capacity metrics
+
+{: .notice}  
+This feature is coming in April.
 
 The Advanced Messaging dashboard in the Report Builder has been enriched with smart capacity metrics to indicate whether you are over or under-staffed enabling and assessment of whether your contact center is being optimized.
 
