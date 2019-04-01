@@ -126,3 +126,23 @@ Messaging Agents must have Chat concurrency set (greater than 0) in order for th
 
 1. Set all Messaging Users to Max no. live chats to 1 instead of 0.
 2. The day after you update these settings, the correct values will display for Online starting from the time you applied the update.
+
+## Agent concurrency isn’t changing to “Default max number of conversations per agent”
+
+A LiveEngage customer changes the maximum number of conversations for all their agents to 10 by changing the value of default max number of conversations per agent from 20 to 10.  But they notice that some users are still being assigned more than 10 conversations.
+
+They check the settings for the users who are still being assigned more than 10 conversations and find that the value of their max no. messaging conversations (on the Edit user window) is 15. Why didn’t their setting change to 10?
+
+### Cause:
+
+In our logs we found that two weeks earlier the Admin user had changed the max no. messaging conversations value from 20 to 15 for the affected users.
+
+When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
+
+Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
+
+The system does not change the max. number of conversations value for users whose value is different than the current  Default maximum number of conversations per agent before the change.
+
+### Solution:
+
+This is expected behavior.
