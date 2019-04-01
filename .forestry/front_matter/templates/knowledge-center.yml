@@ -136,4 +136,4 @@ fields:
     homepage
 pages:
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
-- pages/documents/Troubleshooting/Support/generate-har-files-alayze-web-requests.md
+- pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
