@@ -22,7 +22,7 @@ windowKit.onAgentTextEvent(function(text) {
 	//apnend the text's contents to the conversation
 	$('#caseyContainer').append('<div class="caseyTextContainer"><img class="caseyAvatar" src="img/avatar-casey.svg"/><div class="caseyText">' + text + '</div></div>');
 	//a rule to check if the user asked for a search and if so, show the input field
-	if (text.indexOf("Sorry that's not something I recognize") > -1 || text.indexOf("Would you like to search for something else") > -1 || text.indexOf("Sorry, I could not find anything for that") > -1) {
+	if (text.indexOf("Sorry that's not something I recognize") > -1 || text.indexOf("Would you like to search for something else") > -1 || text.indexOf("Sorry, I could not find anything for that") > -1 || text.indexOf("What would you like to search for?") > -1) {
 		displayInput();
 	}
 	console.log('Agent: ' + text);
@@ -144,7 +144,7 @@ function jsonButton () {
 	});
 	}
 		//if the user wants to search, show the input field
-		if (scText == "Search for something else" || scText == "Take me back to the search") {
+		if (scText == "Take me back to the search") {
 			setTimeout (function () {
 				displayInput();
 			}, 1000);
