@@ -43,17 +43,17 @@ The tag will most likely be added to your website by your development team, or s
 
 The tag should be included into the <head> of all web pages.
 
-If the tag is included via an external javascript file, it should look this: 
+If the tag is included via an external javascript file, it should look this:
 
 `<script type="text/javascript" src="/le-mtagconfig.js"></script>`
 
 ### Follow these guidelines:
 
 * Add tag to every page of your website (this does not mean that the button will display on every page, but it is important for integrity of the user experience)
-* The code should be included as high up in the <head> element as possible.
-* If the tag is included a javascript file, be sure to omit the <script> tag and <!-- HTML comments -->
-* For mobile compatibility, ensure that the <head> of your web pages includes the following meta tag: <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  * The minimum tag required is the following: <meta name="viewport" content="width=device-width>
+* The code should be included as high up in the `<head>` element as possible.
+* If the tag is included a javascript file, be sure to omit the `<script> tag and <!-- HTML comments -->`
+* For mobile compatibility, ensure that the <head> of your web pages includes the following meta tag: `<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>``
+  * The minimum tag required is the following: `<meta name="viewport" content="width=device-width>`
 
 ## Using the LivePerson Tag with a tag management system
 
