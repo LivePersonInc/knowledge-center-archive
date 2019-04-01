@@ -12,7 +12,7 @@ $(document).ready(function () {
 	isExplorer();
 	setTimeout(function() {
 		agreeButton();
-	}, 2000)
+	}, 1000)
 	capabilitiesSearch();
 	searchFunction();
 	searchHighlight();
