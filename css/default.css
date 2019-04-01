@@ -1155,6 +1155,7 @@ w-div {
   align-items: center;
   justify-content: center;
   font-family: "Roboto", "Open Sans", Helvetica !important;
+  bottom: -65px;
 }
 
 w-div span {

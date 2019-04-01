@@ -24,6 +24,11 @@ body {
   justify-content: center;
 }
 
+
+#botLoader {
+  margin-top: 50px;
+}
+
 .botTitle {
   display: none !important;
 }

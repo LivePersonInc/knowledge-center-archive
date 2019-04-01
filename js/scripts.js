@@ -12,7 +12,7 @@ $(document).ready(function () {
 	isExplorer();
 	setTimeout(function() {
 		agreeButton();
-	}, 4000)
+	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
 	searchHighlight();
@@ -421,7 +421,7 @@ function replaceTitle() {
 
 function agreeButton () {
 	var agreeButton = document.querySelector('w-div > a');
-	$(agreeButton).on('click', function(event) {
+	$('w-div > a').on('click', function(event) {
 		event.preventDefault();
 		var banner = document.getElementsByTagName('w-div');
 		$(banner).css('bottom', '-62px');
