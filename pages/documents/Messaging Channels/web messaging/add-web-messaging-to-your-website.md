@@ -11,7 +11,7 @@ isTutorial: false
 date: 2019-01-16 17:31:38 +0000
 isNew: false
 redirect_from:
-  - how-to-mark.html
+- how-to-mark.html
 
 ---
 Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
@@ -49,10 +49,10 @@ While the engagement window is open, the token is automatically refreshed. Once 
 
 When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond. The idle time should be longer than SLA.
 
-Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side.
+Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side. Your LivePerson Account Team will help you with setting the right idle timeframe from your needs. Learn more about setting timeframes in [Smart Capacity skill settings](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
 
 {: .notice}  
-The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team
+**The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team**. 
 
 ## 4. Sales & conversion tracking
 
