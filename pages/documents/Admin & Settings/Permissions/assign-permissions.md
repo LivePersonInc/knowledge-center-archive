@@ -12,6 +12,7 @@ isNew: false
 date: 2019-01-23 12:01:13 +0000
 redirect_from:
   - lpa-permissions-assignment.html
+  - working-with-profiles.html
 
 ---
 Brands wanting to configure specific permissions for LPA users on their account have the ability to create customized profiles within each user role (agent, agent manager, campaign manager and admin). Permissions can be enabled or disabled within each profile as required, to create a custom profile suitable for the LPA user.

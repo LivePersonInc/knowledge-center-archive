@@ -9,6 +9,8 @@ permalink: admin-settings-skills-groups-set-the-agent-group-hierarchy.html
 isTutorial: false
 date: 2019-01-22 13:58:55 +0000
 isNew: false
+redirect-from:
+  - working-with-agent-groups.html
 
 ---
 Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in LiveEngage, we’ve created the "agent groups" capability.
