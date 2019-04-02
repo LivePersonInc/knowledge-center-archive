@@ -1,6 +1,6 @@
 ---
 pagename: Post conversation survey bot
-categoryName: AI, Bots & automation
+categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
 subtitle: Collect feedback from consumers at the end of a conversation without utilizing
@@ -11,12 +11,10 @@ isTutorial: false
 isNew: false
 date: 2019-02-18 13:54:54 +0000
 redirect_from:
-  - using-forms.html
+- using-forms.html
 
 ---
 The post conversation survey bot (PCS) gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
-
-![](/img/post-conversation-survey.gif)
 
 ## Survey flow
 
@@ -94,10 +92,9 @@ Ensure with your account manager that post conversation survey has been provisio
 
 Structured content needs to be enabled by your LivePerson Account Manager. No further configuration is needed on the client side.
 
-A brand that is looking to add the Survey Bot to its ranks should consider the following:
+Post conversation survey bot is available on the following channels:
 
-* The Survey Bot is available for Web messaging and In-app messaging only.
-* SMS, Facebook, LINE and other sources will be supported starting 9.30.18.
+Web messaging and in-app messaging, Twilio SMS, Facebook and LINE 
 
 ## How to create a survey using the Bot Studio
 
