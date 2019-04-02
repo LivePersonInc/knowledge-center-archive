@@ -1,5 +1,5 @@
 ---
-pagename: HAR files and Web requests
+pagename: HAR files and web requests
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: chat
@@ -50,38 +50,38 @@ Firefox can generate HAR files using the Chrome Developer Tools. To learn more a
 6. Complete the steps that trigger or demonstrate your issue.
 7. Right click the Development Tool on one of the requests on the left and select “Save all as HAR with content”.
 8. Check the HAR file:
-   1. Open another Firefox instance
-   2. Enable its Developer Tools
-   3. Select the Network tab
-   4. Drag and drop the HAR file to check that Chrome has saved it correctly
-9. Zip and send the file to the Support case.
 
-**Generating a NetXML File from Internet Explorer**
+* Open another Firefox instance
+* Enable its Developer Tools
+* Select the Network tab
+* Drag and drop the HAR file to check that Chrome has saved it correctly
+
+  9\. Zip and send the file to the Support case.
+
+## Generating a NetXML File from Internet Explorer
 
 Internet Explorer supports the NetXML file format which is similar to HAR.
 
-**Network Issues**
+## Network Issues
 
 Microsoft's[ Using Windows Internet Explorer Developer Tools Network Capture](http://msdn.microsoft.com/en-us/library/gg130952(v=vs.85).aspx) KB can be used to identify how to diagnose network issues.
 
-**Providing Information to Support**
+## Providing Information to Support
 
 1. Open IE and enable the Developer Tools by pressing F12 or from the Cog menu icon
 2. Select the Network tab.
-3. **To persist the logs through page refreshes make sure this button is set to OFF:**
-4. **![](https://lh5.googleusercontent.com/a0zjahF8ZL-OR2lHZm1gFT2RAK42dg2ZiyHIlR-dTFiRxOdfhG7rBQDEgHhKxSY4DucWPYdHpRmgebfLhKKMIb6rYT8RScV-AFHpr5-KPAJHK5ATC9JmFqvFCvtdONSxQctun5ui =624x401)**
+3. To persist the logs through page refreshes make sure this button is set to OFF
+4. Press the green triangle to start recording network traffic
+5. Load the page with the issue.
+6. Please capture a full page load so we can see the requests made prior to the problem we're analyzing.
+7. Complete the steps that trigger or demonstrate your issue.
+8. Click on the floppy disk icon to save
+9. Zip and send the file to the Support case.
 
- 5. Press the green triangle to start recording network traffic
- 6. Load the page with the issue.
- 7. Please capture a full page load so we can see the requests made prior to the problem we're analyzing.
- 8. Complete the steps that trigger or demonstrate your issue.
- 9. Click on the floppy disk icon to save
-10. Zip and send the file to the Support case.
-
-**Generating a HAR File from Safari**
+## Generating a HAR File from Safari
 
 Safari comes with its own[ Safari Web Development Tools](https://developer.apple.com/technologies/safari/developer-tools.html) .
 
-**Network Issues**
+## Network Issues
 
 Take a look through the[ Safari Web Inspector Guide](https://developer.apple.com/library/IOS/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Instruments/Instruments.html#//apple_ref/doc/uid/TP40007874-CH4-SW1) documentation and follow the details there to look for any network errors.
