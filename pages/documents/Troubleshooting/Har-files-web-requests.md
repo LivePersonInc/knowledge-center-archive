@@ -80,7 +80,3 @@ Microsoft's[ Using Windows Internet Explorer Developer Tools Network Capture](ht
 ## Generating a HAR File from Safari
 
 Safari comes with its own[ Safari Web Development Tools](https://developer.apple.com/technologies/safari/developer-tools.html) .
-
-## Network Issues
-
-Take a look through the[ Safari Web Inspector Guide](https://developer.apple.com/library/IOS/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Instruments/Instruments.html#//apple_ref/doc/uid/TP40007874-CH4-SW1) documentation and follow the details there to look for any network errors.
