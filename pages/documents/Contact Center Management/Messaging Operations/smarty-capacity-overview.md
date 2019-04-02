@@ -11,7 +11,7 @@ isTutorial: true
 date: 2019-01-17 11:53:17 +0000
 isNew: false
 redirect_from:
-  - change-queue-options.html
+- change-queue-options.html
 
 ---
 ## How messaging impacts a conversation's lifecycle
@@ -113,4 +113,4 @@ To maximize agent capacity and ensure conversation routing is as rapid and effic
 
 ## Smart Capacity per skill
 
-The Smart Capacity feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Smart Capacity per skill](contact-center-management-messaging-operations-smart-capacity-per-skill.html).
+The Smart Capacity feature enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Smart Capacity Per Skill, brands can now customize the smart capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Smart Capacity per skill](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
