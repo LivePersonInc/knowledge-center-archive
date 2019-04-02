@@ -63,6 +63,6 @@ To configure this feature, please contact your LivePerson account team.
 
 Your account team will ask you for the following information in order to configure this feature:
 
-* What is the manual SLA threshold (time) that you would like to set for the feature so that if an agent sets a manual SLA which is higher than the threshold, the conversation would immediately be set with an inactive conversation weight.
+What is the manual SLA threshold (time) that you would like to set for the feature so that if an agent sets a manual SLA which is higher than the threshold, the conversation would immediately be set with an inactive conversation weight.
 
-  **Example:** Threshold is 30 minutes so that if my agent sets a manual SLA of 45 minutes the conversation will receive an inactive weight.
+**Example:** Threshold is 30 minutes so that if my agent sets a manual SLA of 45 minutes the conversation will receive an inactive weight.
