@@ -307,6 +307,7 @@
     - subcategoryname: Bots
     - subcategoryname: 'Data & Reporting'
     - subcategoryname: Case management support
+    - subcategoryname: HAR files and web requests
 
 - categoryname: FAQs
   image: faqs

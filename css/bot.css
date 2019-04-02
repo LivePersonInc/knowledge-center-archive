@@ -61,6 +61,12 @@ body {
   margin-top: 20px;
 }
 
+.caseyCode {
+  max-height: 200px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
 .caseyText {
   width: auto;
   max-width: 83%;
@@ -209,6 +215,7 @@ body {
   font-size: 15px !important;
   font-weight: 500;
   margin-bottom: 1px;
+  min-height: 62px;
 }
 
 .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
@@ -241,7 +248,25 @@ body {
   margin-bottom: 20px;
 }
 
+.taginputcontainer {
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
 #messageInput {
+  width: 65%;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  border: solid 1px #90a6e6;
+  background-color: rgba(227, 233, 249, 0.08);
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+#tagInput {
   width: 65%;
   height: 40px;
   border-radius: 6px 0 0 6px;
@@ -266,6 +291,18 @@ body {
 }
 
 #messageInputUsed {
+  width: 65%;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  border: solid 1px #90a6e6;
+  background-color: rgba(227, 233, 249, 0.08);
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+#tagInputUsed {
   width: 65%;
   height: 40px;
   border-radius: 6px 0 0 6px;
@@ -334,6 +371,70 @@ body {
 }
 
 #messageInputUsed:-moz-placeholder { /* Firefox 18- */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInput::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInput::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInput:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInput:-moz-placeholder { /* Firefox 18- */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInputUsed::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInputUsed::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInputUsed:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dadd;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#tagInputUsed:-moz-placeholder { /* Firefox 18- */
   color: #d8dadd;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
