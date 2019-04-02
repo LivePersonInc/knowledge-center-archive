@@ -120,7 +120,10 @@ MCSs for messaging conversations are available in Report Builder for brands to f
 ## More about MCS
 
 * The MCS is available in **English, French, Italian and Japanese** and **German** to be launched soon.
-* The MCS model can be **customized per account**, ensuring that the score takes into consideration tone, content and other variables specific to each brand, that could impact the calculation of the score. For example, _smell_ might be flagged as negative content for many brands, but for a perfume retailer it should be treated as neutral. For information on configuring MCS specifically for your account, contact your LivePerson account team.
+* The MCS model can be **customized per account**, ensuring that the score takes into consideration tone, content and other variables specific to each brand, that could impact the calculation of the score. For example, _smell_ might be flagged as negative content for many brands, but for a perfume retailer it should be treated as neutral. For information on configuring MCS specifically for your account, contact your LivePerson account team. 
+
+  {: .notice}  
+  Custom lexicon per account is not supported in Japanese language. Japanese lexicon can only be updated via code change & rollout of the service
 
 In summary, MCS can be:
 
