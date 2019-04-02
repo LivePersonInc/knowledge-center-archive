@@ -92,9 +92,7 @@ Ensure with your account manager that post conversation survey has been provisio
 
 Structured content needs to be enabled by your LivePerson Account Manager. No further configuration is needed on the client side.
 
-Post conversation survey bot is available on the following channels:
-
-Web messaging and in-app messaging, Twilio SMS, Facebook and LINE 
+Post conversation survey bot is available on all messaging channels including web messaging, in-app messaging, Twilio SMS, Facebook and LINE. 
 
 ## How to create a survey using the Bot Studio
 
