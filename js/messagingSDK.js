@@ -35,11 +35,6 @@ windowKit.onAgentTextEvent(function(text) {
   ) {
     displayInput();
   }
-  if (text.indexOf("I'm on it, what's your account number?") > -1) {
-    setTimeout(function() {
-      getTag();
-    }, 500);
-  }
   console.log("Agent: " + text);
   //a rule to get rid of the loader, but only one the first agent text sent to prevent errors
   if (!agentFirstText) {
@@ -251,6 +246,11 @@ function jsonButton() {
     if (scText == "Take me back to the search") {
       setTimeout(function() {
         displayInput();
+      }, 1000);
+    }
+    if (scText.indexOf("Yes, let's do it") > -1) {
+      setTimeout(function() {
+        getTag();
       }, 1000);
     }
   });
