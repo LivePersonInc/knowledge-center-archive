@@ -52,7 +52,7 @@ For more information, please see the following documents:
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
-  * Connectors text is currently fixed to: <secure form name>: <secure form link>
+  * Connectors text is currently fixed to: \`\`\`<secure form name>: <secure form link>\`\`\`
 * Secure forms are created by the LivePerson account team.
 * Data submitted in the secure form is only retrievable by the agent for the duration of the messaging session it was submitted in (until the conversation is closed by the agent or auto closed), and only to the agent that sent the form.
 * Secure forms cannot be shared by bots.
@@ -71,18 +71,16 @@ For more information, please see the following documents:
 
 When an account has file sharing disabled and the consumer sends an image, it looks like the image was sent to the agent. But since the account has file sharing disabled, nothing is sent to the agent and there's no notification to the consumer that the feature is supported.
 
-  
 **Fix:** When an account has file sharing disabled, a message is displayed saying, "Sorry! Unfortunately files cannot be sent via SMS." This message should be sent to the consumer when the consumer tries to send images during a conversation with an agent.
 
 ### \[Twilio\] Handle based64ed text messages (CX-147)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | Yes | No | No | No | No | No | No | No | No |
 
 Long messages sent from consumer to agent via Twilio as MMS messages are displayed in LE UI as a base 64 encoded message.
 
-  
 **Fix:** Since messages are getting decoded intermittently on Twilio, LivePerson is adding this feature as an optional toggle for brands to configure whether they want to decode the messages before displaying in LE UI. When enabling this feature, only messages that are at least 100 characters long and in base64 format will be decoded to plain text. Default is disabled.
 
 **How to enable:** To configure this feature, please speak to your LivePerson representative.
@@ -90,7 +88,7 @@ Long messages sent from consumer to agent via Twilio as MMS messages are display
 ### \[ABC\] Engagement attribute isn't passed and old values are kept (CX-176)
 
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | Yes | No | No | No | No | No | No |
 
 When a user opens an Apple Business Chat link with engagement attribute parameters that are made of non-Latin characters, engagement attribute information in LiveEngage is not correctly updated when they already have non-Latin characters as engagement attributes from previous conversations.
