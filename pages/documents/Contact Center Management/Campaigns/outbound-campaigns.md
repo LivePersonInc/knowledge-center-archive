@@ -9,7 +9,6 @@ permalink: contact-center-management-campaigns-outbound-campaigns.html
 isTutorial: false
 isNew: false
 date: 2019-04-03 11:39:38 +0300
-published: false
 
 ---
 Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in LiveEngage. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
