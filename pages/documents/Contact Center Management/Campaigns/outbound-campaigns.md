@@ -23,8 +23,6 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
   **For example:** Campaign timeframe is set from March 24th, 2019 to March 25th, 2019
 * **The consumer replied within the above timeframe:** The conversation will be assigned to a relevant engagement in the campaign (per the entry point).
 * **The consumer replied prior to the start date or after the end date:** The conversation will start with no engagement linked.
-
-
 * **Notes to agent** - It is suggested to copy the text of the message to the ‘notes to agent’ section, so that the agent will have an indication of what the consumer is replying to.
 * **Entry Point** - This is where you decide which external outbound campaign will be assigned to the engagement. It is recommended to use the CM campaign ID (taken from the URL in CM’s platform). However, you can also enter the phone number used to send the outbound messages.
 
@@ -32,24 +30,27 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 
 1. Ask your LivePerson contact to enable the CM connector on your account
 2. Make sure the CM app is enabled in Data Sources
+
+   ![](/img/outbound-campaigns-1.png)
 3. Define a new campaign in the 3rd party platform you are using (CM Telecom)
 4. Log into LivePerson’s platform
 5. Navigate to the ‘Campaigns’ tab and then the ‘Outbound’ tab, click ‘add campaign’
 
-![](https://lh3.googleusercontent.com/PWGTzCptJn_Or2xPQIXL7Q6DXFgcItcV4J56tK3nlS32kN_vP64Y_aZsxb75y22Km-rmXKV54k8hWhlI8-zUV7iMaz-eaCK_Uc6iZLNAHaqEvu23CJctrJt31TivzOWzvVHni7G0 =624x349)
+![](/img/outbound-campaigns-2.png)
 
-6. Define the campaign goal
-7. Set the campaign’s timeframe
-8. Click ‘add new’ to add a new engagement
+1. Define the campaign goal
+2. Set the campaign’s timeframe
+3. Click ‘add new’ to add a new engagement
    1. Select conversation source: CM
       1. Authentication - On by default and cannot be changed
       2. Choose the skill routing
       3. Choose the engagement language
-      4. Add notes to agent (recommended)![](https://lh4.googleusercontent.com/ossd84fAxs_LAChh1CzWSpvj7iRl_uuomHqiP2q9hFElfHTQwbrWEnHX4K9wjFoUR7bDvEQePVDpLdQ9APqPyWM-ofP7cce8FGBMbxvp24R5htqZX-F_ujApD57bLIlui8BujKyq =474x301)
+      4. Add notes to agent (recommended)
+
+         ![](/img/outbound-campaigns-3.png)
       5. Choose an entry point from the entry point library
 
-  
-![](https://lh5.googleusercontent.com/MmyyKcwyUK0yph1bNvG4F-1trFunP84CiSQPM1NtHvjd9OMoO9ECt_fD4QHNYHl9CBtV07L_iCYkY9qI6eq7HXinLnungwXE5AsV532gprcm_5IJTZDnd1BPho1EESjFcagqtNRm =549x299)
+![](/img/outbound-campaigns-4.png)
 
 ## Notes
 
