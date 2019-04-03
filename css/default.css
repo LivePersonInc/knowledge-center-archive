@@ -351,8 +351,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .casey {
-  padding: 25px 43px;
-  margin-bottom: 12px;
+  padding: 20px 43px;
   background-color: #16134a;
   display: flex;
   flex-direction: column;
