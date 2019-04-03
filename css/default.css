@@ -1250,6 +1250,11 @@ w-div a:last-child {
   #logocontainer {
     margin-right: 50px;
   }
+
+  #post-content table.releasenotes > thead > tr > th {
+    width: 67px;
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1610px) {
