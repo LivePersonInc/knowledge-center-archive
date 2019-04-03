@@ -94,3 +94,5 @@ When a user opens an Apple Business Chat link with engagement attribute paramete
 **Fix:** LiveEngage UI now can handle any characters passed through engagement attribute parameters. Information is displayed in LE UI under the Customer info section.
 
 **Screenshots**
+
+![](/img/week-of-april-8th-1.png)
