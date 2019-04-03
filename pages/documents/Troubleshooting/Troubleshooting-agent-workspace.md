@@ -3,7 +3,7 @@ pagename: Agent workspace
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
-subtitle: Troubleshooting for all questions relating to the agent workspace
+subtitle: Troubleshooting for questions relating to the agent workspace
 level3: ''
 permalink: troubleshooting-agent-workspace.html
 isTutorial: false
