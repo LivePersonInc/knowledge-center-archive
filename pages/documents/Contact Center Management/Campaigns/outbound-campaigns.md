@@ -17,7 +17,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 
 ## Terminology
 
-* **Campaign timeframe** - The campaign timeframe dictates if a new conversation, starting from a visitor who replied to an outbound campaign, will be assigned to this campaign and engagement.
+* **Campaign time frame** - The campaign time frame dictates if a new conversation, starting from a visitor who replied to an outbound campaign, will be assigned to this campaign and engagement.
 
   **For example:** Campaign timeframe is set from March 24th, 2019 to March 25th, 2019
 * **The consumer replied within the above timeframe:** The conversation will be assigned to a relevant engagement in the campaign (per the entry point).
