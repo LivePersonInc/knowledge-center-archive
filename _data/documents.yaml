@@ -112,6 +112,7 @@
         - pagename: Managing campaigns
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
+        - pagename: Outbound campaigns
 
 - categoryname: "Agent & manager workspace"
   image: agent-manager
@@ -262,6 +263,7 @@
       pages:
         - pagename: April
           level3:
+            - level3name: Week of April 8th
             - level3name: Week of April 1st
         - pagename: March
           level3:
