@@ -262,6 +262,7 @@
       pages:
         - pagename: April
           level3:
+            - level3name: Week of April 8th
             - level3name: Week of April 1st
         - pagename: March
           level3:
