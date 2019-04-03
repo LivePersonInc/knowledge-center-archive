@@ -39,7 +39,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 ![](/img/outbound-campaigns-2.png)
 
 1. Define the campaign goal
-2. Set the campaign’s timeframe
+2. Set the campaign’s time frame
 3. Click ‘add new’ to add a new engagement
    1. Select conversation source: CM
       1. Authentication - On by default and cannot be changed
