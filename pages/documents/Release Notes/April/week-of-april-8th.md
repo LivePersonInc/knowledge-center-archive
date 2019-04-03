@@ -22,8 +22,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Secure forms for CM connector (CX-124)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | No | No | No | No | No | Yes | No |
 
 There is now support for secure forms for the CM SMS connector. This feature allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment. PCI secure form for messaging connector channels will expand brands’ business use cases on channels that do not have the native secure form capabilities, allowing them to build a conversational commerce strategy with LiveEngage.
@@ -65,8 +65,8 @@ For more information, please see the following documents:
 
 ### \[Twilio\] When “messaging.file.sharing.enabled” is set to false, unsupported message is not sent (CX-146)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | Yes | No | No | No | No | No | No | No | No |
 
 When an account has file sharing disabled and the consumer sends an image, it looks like the image was sent to the agent. But since the account has file sharing disabled, nothing is sent to the agent and there's no notification to the consumer that the feature is supported.
@@ -76,8 +76,8 @@ When an account has file sharing disabled and the consumer sends an image, it lo
 
 ### \[Twilio\] Handle based64ed text messages (CX-147)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
+  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | Yes | No | No | No | No | No | No | No | No |
 
 Long messages sent from consumer to agent via Twilio as MMS messages are displayed in LE UI as a base 64 encoded message.
@@ -89,13 +89,12 @@ Long messages sent from consumer to agent via Twilio as MMS messages are display
 
 ### \[ABC\] Engagement attribute isn't passed and old values are kept (CX-176)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
+  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | No | No | No | No | Yes | No | No | No | No | No | No |
 
 When a user opens an Apple Business Chat link with engagement attribute parameters that are made of non-Latin characters, engagement attribute information in LiveEngage is not correctly updated when they already have non-Latin characters as engagement attributes from previous conversations.
 
-  
 **Fix:** LiveEngage UI now can handle any characters passed through engagement attribute parameters. Information is displayed in LE UI under the Customer info section.
 
 **Screenshots**
