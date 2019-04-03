@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
 - pages/documents/Troubleshooting/Har-files-web-requests.md
 - pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
