@@ -50,7 +50,7 @@ Read more about secure forms [here](https://knowledge.liveperson.com/security-re
 * Secure form enablement is account-wide.
 * Secure forms are general (not specific per skill).
 * Invitation text can be customized on the In-App SDK only.
-  * Connectors text is currently fixed to: `<secure form name>: <secure form link>`
+  * Connectors text is currently fixed to: ```<secure form name>: <secure form link>```
 * Secure forms are created by the LivePerson account team.
 * Data submitted in the secure form is only retrievable by the agent for the duration of the messaging session it was submitted in (until the conversation is closed by the agent or auto closed), and only to the agent that sent the form.
 * Secure forms cannot be shared by bots.
