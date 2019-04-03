@@ -8,8 +8,7 @@ level3: ''
 permalink: contact-center-management-campaigns-outbound-campaigns.html
 isTutorial: false
 isNew: false
-date: 2019-04-03 11:39:38 +0300
-published: false
+date: 2019-04-03 08:39:38 +0000
 
 ---
 Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in LiveEngage. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
@@ -33,6 +32,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 ![](/img/outbound-campaigns-1.png)
 
 {:start="3"}
+
 1. Define a new campaign in the 3rd party platform you are using (CM Telecom)
 2. Log into LivePerson’s platform
 3. Navigate to the ‘Campaigns’ tab and then the ‘Outbound’ tab, click ‘add campaign’
@@ -40,6 +40,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 ![](/img/outbound-campaigns-2.png)
 
 {:start="6"}
+
 1. Define the campaign goal
 2. Set the campaign’s time frame
 3. Click ‘add new’ to add a new engagement
@@ -65,7 +66,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 * The conversation will be assigned to the engagement’s skill
 * Opt out (the option to stop receiving messages) is managed by the SMS provider (in this case CM)
 
-## Consumer Experience
+## Consumer experience
 
 * Once the consumer receives the SMS, they will be able to reply to the message and start a conversation, even if the campaign time frame has expired
 
