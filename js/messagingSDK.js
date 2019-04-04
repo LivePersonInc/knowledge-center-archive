@@ -28,10 +28,11 @@ windowKit.onAgentTextEvent(function(text) {
       "</div></div>"
   );
   //a rule to check if the user asked for a search and if so, show the input field
+  var inputShown = document.getElementById('messageInput')
   if (
-    text.indexOf("Would you like to search for something else") > -1 ||
+    (!inputShown) && (text.indexOf("Would you like to search for something else") > -1 ||
     text.indexOf("Sorry, I could not find anything for that") > -1 ||
-    text.indexOf("What would you like to search for?") > -1
+    text.indexOf("What would you like to search for?") > -1)
   ) {
     displayInput();
   }
