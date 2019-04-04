@@ -14,7 +14,7 @@ let agentFirstText;
 //connecting to a conversation, the JWT is created here
 windowKit.connect();
 
-//when the conversation has been loaded and is ready (displayed), call the scrollBottom function
+//when the conversation has been loaded and is ready (displayed), log "ready". This helps monitor how long it takes to connect to LE.
 windowKit.onReady(function() {
   console.log("ready");
 });
@@ -35,15 +35,17 @@ windowKit.onAgentTextEvent(function(text) {
   ) {
     displayInput();
   }
+  //log the agent's message. Helps with debugging.
   console.log("Agent: " + text);
   //a rule to get rid of the loader, but only one the first agent text sent to prevent errors
   if (!agentFirstText) {
     agentFirstText = true;
     $("#botLoader").css("display", "none");
-    scrollBottom(0);
+    //if this isn't the agent's first text, we need to scroll.
   } else {
     scrollBottom(850, 1500);
   }
+  //open all links in a new tab
   $(".caseyText a").on("click", function(event) {
     event.preventDefault();
     var url = $(this).attr("href");
@@ -56,6 +58,7 @@ windowKit.onVisitorTextEvent(function(text) {
   //grab that text's contents and append it to the conversation
   $("#caseyContainer").append('<div class="consumerText">' + text + "</div>");
   console.log("visitortext");
+  //grey out all the buttons that weren't used and make them non-clickable.
   var previousContainer = $(".lp-json-pollock-layout:last");
   var previousButtons = $(previousContainer).children(
     ".lp-json-pollock-element-button"
@@ -71,16 +74,13 @@ windowKit.onVisitorTextEvent(function(text) {
 
 //when an agent (the bot) sends a rich content message
 windowKit.onAgentRichContentEvent(function(content) {
-  //grab the content of the message, render them using LP's Pollock tool and set them as a variable
+  //grab the contents of the message, render them using LP's Pollock tool and set them as a variable
   var structuredText = JsonPollock.render(content);
   var caseyImage =
     '<img class="caseyAvatar scAvatar" src="img/avatar-casey.svg"/>';
   //append that variable to the conversation
   $("#caseyContainer").append(structuredText, caseyImage);
-  // var scTexts = document.getElementsByClassName('lp-json-pollock');
-  // var latestScText = scTexts[scTexts.length - 1];
-  // $(latestScText).append('')
-  //when you print the text, print the rich content as an object not a string
+  //when you log the text, log the rich content as an object not a string
   console.log("Agent: ", structuredText);
   //Pollock code used to navigate to the links the bot sends, effectively registering the buttons to be links to them
   JsonPollock.registerAction("link", function(linkObject) {
@@ -88,17 +88,19 @@ windowKit.onAgentRichContentEvent(function(content) {
     var rawLink = linkObject.actionData.uri;
     //open the link in a new tab
     window.open(rawLink, "_blank");
-    console.log(linkObject);
   });
+  // a function to control clicks on the structured buttons
   jsonButton();
   scrollBottom(850, 1500);
 });
 
+//when the agent changes states
 windowKit.onAgentChatState(function(state) {
+  //if the agent is typing
   if (state == "COMPOSING" && agentFirstText == true) {
     agentFirstText = true;
     $("#typing").css("display", "flex");
-    //show your agent is typing element
+    //show the agent is typing element
   } else {
     $("#typing").css("display", "none");
     //agent has stopped typing so
@@ -106,6 +108,8 @@ windowKit.onAgentChatState(function(state) {
   }
 });
 
+
+//a function to display the search input field
 function displayInput() {
   let inputDisplayed;
   if (!inputDisplayed) {
@@ -132,11 +136,12 @@ function displayInput() {
     }, 1000);
   }
   setTimeout(function() {
-    //allow other scrolls in the future, like those which happen when a new text is sent
+    //allow other inputs to be displayed in the future
     inputDisplayed = false;
   }, 2000);
 }
 
+//very similar to above, a function to show the input to enter an account number for the tag, also grabs the account number and renders the tag
 function getTag() {
   let tagDisplayed;
   if (!tagDisplayed) {
@@ -154,6 +159,7 @@ function getTag() {
           var tagText = tagInput.value;
           //send that text to the conversation, where it will get appended
           windowKit.sendMessage(tagText);
+          //defining the tag
           var tagMessage =
             "<!-- BEGIN LivePerson Monitor. -->" +
             "<script type='text/javascript'>" +
@@ -162,12 +168,14 @@ function getTag() {
             "'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;" +
             "</script>" +
             "<!-- END LivePerson Monitor. -->";
+            //making sure HTML characters are maintained in the string
           var tagMessageString = tagMessage.replace(
             /[\u00A0-\u9999<>\&]/gim,
             function(i) {
               return "&#" + i.charCodeAt(0) + ";";
             }
           );
+          //append the tag plus the account number
           setTimeout(function() {
             $("#caseyContainer").append(
               "<div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText'>Here's your code snippet. <a class='copylink' data-clipboard-target='.caseyCode' href=''>Copy it</a> and add to your website, for more info <a href='https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html'>click here</a>.</div></div><div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText caseyCode'><code class='highlighter-rouge language-javascript'>" +
@@ -176,9 +184,6 @@ function getTag() {
             );
             copyLink();
           }, 1000);
-
-          console.log("enter");
-          console.log(tagText);
           //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
           $(this).attr("id", "tagInputUsed");
         }
@@ -186,17 +191,13 @@ function getTag() {
     }, 1000);
   }
   setTimeout(function() {
-    //allow other scrolls in the future, like those which happen when a new text is sent
+    //allow other tag inputs in the future
     tagDisplayed = false;
   }, 2000);
 }
 
 //a function to scroll to the bottom of the conversation
 function scrollBottom(offset, interval) {
-  //only scroll if we haven't scrolled before
-  // if (!isScrolling) {
-  // 	//change the var so this doesn't repeat
-  // 	isScrolling = true;
   //now that we have bottom, animate the body and html to simulate a scroll. Don't scroll on mobile.
   setTimeout(function() {
     //find the bottom of the conversation window by adding the top attribute and the height of the div
@@ -215,11 +216,6 @@ function scrollBottom(offset, interval) {
       );
     }
   }, 100);
-  // }
-  setTimeout(function() {
-    //allow other scrolls in the future, like those which happen when a new text is sent
-    isScrolling = false;
-  }, 2000);
 }
 
 function jsonButton() {
@@ -256,6 +252,7 @@ function jsonButton() {
   });
 }
 
+// a simple function to make sure the copy link doesn't actually act link a link
 function copyLink() {
   $(".copylink").on("click", function(event) {
     event.preventDefault();
@@ -263,6 +260,7 @@ function copyLink() {
 }
 
 $(document).ready(function() {
+  //initialize the clipboardJS plugin which copies text from an element on click
   new ClipboardJS(".copylink");
   //when the reset button is clicked
   $("#resetcontainer").click(function() {
