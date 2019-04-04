@@ -156,6 +156,17 @@ function getTag() {
       //allow only number input
       $("#tagInput").on("input", function(e) {
         e.target.value = e.target.value.replace(/[^0-9]/g, "");
+        var accountNumber = e.target.value;
+        if (accountNumber && accountNumber.length == "8") {
+        var urlVerify = "https://lptag.liveperson.net/lptag/api/account/" + accountNumber + "/configuration/applications/taglets/.jsonp?v=2.0&df=0&b=1"
+        $.get(urlVerify, function (data) {
+          if (data.indexOf("serviceMap") == -1) {
+            console.log("badaccountnumber")
+          } else {
+            console.log("goodaccountnumber")
+          }
+        }, 'jsonp')
+        }
       });
       //a listener to recognize whether enter was pressed on the search input
       $("#tagInput").keydown(function(e) {

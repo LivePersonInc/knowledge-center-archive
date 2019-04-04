@@ -248,7 +248,7 @@
     - connectorAPI: "N/A in Channel"
   - featureName: Voice/video calls
     channels:
-    - mobileAppMessaging: "N/A in Channel"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Coming Q2"
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
