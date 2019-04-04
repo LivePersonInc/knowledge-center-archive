@@ -27,7 +27,7 @@ windowKit.onAgentTextEvent(function(text) {
       text +
       "</div></div>"
   );
-  //a rule to check if the user asked for a search and if so, show the input field
+  //a rule to check if the user asked for a search and if so, show the input field unless an input field was already shown.
   var inputShown = document.getElementById('messageInput')
   if (
     (!inputShown) && (text.indexOf("Would you like to search for something else") > -1 ||
