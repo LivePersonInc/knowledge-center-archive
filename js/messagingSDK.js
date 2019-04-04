@@ -28,11 +28,12 @@ windowKit.onAgentTextEvent(function(text) {
       "</div></div>"
   );
   //a rule to check if the user asked for a search and if so, show the input field unless an input field was already shown.
-  var inputShown = document.getElementById('messageInput')
+  var inputShown = document.getElementById("messageInput");
   if (
-    (!inputShown) && (text.indexOf("Would you like to search for something else") > -1 ||
-    text.indexOf("Sorry, I could not find anything for that") > -1 ||
-    text.indexOf("What would you like to search for?") > -1)
+    !inputShown &&
+    (text.indexOf("Would you like to search for something else") > -1 ||
+      text.indexOf("Sorry, I could not find anything for that") > -1 ||
+      text.indexOf("What would you like to search for?") > -1)
   ) {
     displayInput();
   }
@@ -109,7 +110,6 @@ windowKit.onAgentChatState(function(state) {
   }
 });
 
-
 //a function to display the search input field
 function displayInput() {
   let inputDisplayed;
@@ -153,6 +153,10 @@ function getTag() {
       //find the last child, which will always be the response message, and append the input beneath it
       $("#caseyContainer:last").append(taginput);
       jsonButton();
+      //allow only number input
+      $("#tagInput").on("input", function(e) {
+        e.target.value = e.target.value.replace(/[^0-9]/g, "");
+      });
       //a listener to recognize whether enter was pressed on the search input
       $("#tagInput").keydown(function(e) {
         if (e.which == 13) {
@@ -169,7 +173,7 @@ function getTag() {
             "'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;" +
             "</script>" +
             "<!-- END LivePerson Monitor. -->";
-            //making sure HTML characters are maintained in the string
+          //making sure HTML characters are maintained in the string
           var tagMessageString = tagMessage.replace(
             /[\u00A0-\u9999<>\&]/gim,
             function(i) {

@@ -134,4 +134,4 @@ DEPENDENCIES
   sprockets (~> 4.00.beta8)
 
 BUNDLED WITH
-   1.17.1
+   2.0.1
