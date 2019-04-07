@@ -9,7 +9,7 @@ permalink: data-reporting-report-builder-report-builder-overview.html
 isTutorial: false
 date: 2019-01-09 12:35:11 +0000
 redirect_from:
-  - report-builder.html
+- report-builder.html
 
 ---
 The Report Builder offers brands ready-made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to  monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data-driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in Report Builder.
@@ -80,3 +80,9 @@ LivePerson is continuously working on enhancing the Report Builder. In 2018/2019
 * New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
 * User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: skill activity and messaging performance.
 * The field details tab has been redesigned and contains a list of all the available attributes and metrics.
+* The response time metrics in the Messaging Performance dashboard will be enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
+* LivePerson is offering predefined documents intended for easy download and subscriptions. The content of these documents replace the grids that are available in the Operational BI. The following reports will be created as standalone documents:
+  1. Agent Activity Grid - Daily & Monthly
+  2. Skill Activity Grid - Daily & Monthly
+  3. Survey Activity Grid - Daily & Monthly
+  4. Goal Tracker Grid
