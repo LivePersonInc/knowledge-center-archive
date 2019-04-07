@@ -351,18 +351,20 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 .casey {
-  padding: 20px 43px;
+  /* padding: 20px 43px; */
   background-color: #16134a;
   display: flex;
   flex-direction: column;
   text-decoration: none;
   align-items: center;
   max-height: 120px;
+  height: 120px;
+  width: 120px;
 }
 
 .casey img {
-  width: 135%;
-  margin-top: 10px;
+  width: 55%;
+  margin-top: 20px;
 }
 
 .casey span {
