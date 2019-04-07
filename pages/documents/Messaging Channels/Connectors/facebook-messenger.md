@@ -11,7 +11,7 @@ isTutorial: true
 date: 2019-01-20 09:10:07 +0000
 isNew: true
 redirect_from:
-  - facebook-connector.html
+- facebook-connector.html
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -20,7 +20,7 @@ With over a billion messages being sent between people and businesses per month 
 
 ## Why use Facebook Messenger to connect with your consumers?
 
-* **Meet consumers where they are** — Consumers can stay and use one popular app - Facebook Messenger - to connect to friends, families and now businesses.
+* **Meet consumers where they are** — Consumers can continue using one popular app - Facebook Messenger - to connect to friends, families and now businesses.
 * [**Rich Messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Messaging capabilities like quick replies and consumer-to-agent audio messaging provide an enhanced messaging experience with more flexibility.
 * **Enhanced indicators** — Read receipts and typing indication tell the consumer when agent is actively answering. The agent also benefits from knowing when the consumer receives the message.
 * **Simple bot integrations** — Brands can plug their own bots into Facebook Messenger. Bots can then offer service and sales assistance to customers, with seamless transition to a human agent when required.
@@ -68,12 +68,12 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 1. Under configuration, click **Log in**. **Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
 
 {:start="5"}
-2. **If you are already logged in to Facebook:** A new smaller window pops-up asking if you would like to _"Continue as _________?"_ and you click on _"Continue as _________"_
-3. **If you have Admin rights to a Facebook page:** it will ask you "What Pages do you want to use with LP on Messenger (VA1)?", you select the page(s) and click "Next". **If you are not Admin of a Facebook Page it will skip to the next step**
-4. It will now ask you "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done"
-5. It will tell you _"You’ve now linked LP on Messenger (VA1) to Facebook"_ and give you an _"OK"_ button that will close this smaller window.
-6. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed, You _"Subscribe"_ and click on **Done**_._
-7. Click on **Done** on the lower right corner.
+2\. **If you are already logged in to Facebook:** A new smaller window pops-up asking if you would like to _"Continue as _________?"_ and you click on _"Continue as _______"_
+3\. **If you have Admin rights to a Facebook page:** it will ask you "What Pages do you want to use with LP on Messenger (VA1)?", you select the page(s) and click "Next". **If you are not Admin of a Facebook Page it will skip to the next step**
+4\. It will now ask you "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done"
+5\. It will tell you _"You’ve now linked LP on Messenger (VA1) to Facebook"_ and give you an _"OK"_ button that will close this smaller window.
+6\. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed, You _"Subscribe"_ and click on **Done**.
+7\. Click on **Done** on the lower right corner.
 
 ![](/img/facebook-messenger-4.png)
 
