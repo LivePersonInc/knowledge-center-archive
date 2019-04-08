@@ -7,7 +7,7 @@ var windowKit = new windowKit({
 var userinput =
   '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>';
 var taginput =
-  '<div class="taginputcontainer"><input type="text" id="tagInput" placeholder="Enter your account number here"/></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>';
+  '<div class="taginputcontainer"><input type="text" id="tagInput" placeholder="Enter your 8 digit account number here"/><div class="submitContainer"><img src="https://www.liveperson.com/sites/default/files/conv_page/send.png" class="tagSubmit"/></div><div class="spinner spinner-1"></div><i class="fas fa-times"></i><i class="fas fa-check"></i></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>';
 let isScrolling;
 let agentFirstText;
 
@@ -157,17 +157,42 @@ function getTag() {
       $("#tagInput").on("input", function(e) {
         e.target.value = e.target.value.replace(/[^0-9]/g, "");
         var accountNumber = e.target.value;
-        if (accountNumber && accountNumber.length == "8") {
-        var urlVerify = "https://lptag.liveperson.net/lptag/api/account/" + accountNumber + "/configuration/applications/taglets/.jsonp?v=2.0&df=0&b=1"
-        $.get(urlVerify, function (data) {
-          if (data.indexOf("serviceMap") == -1) {
-            console.log("badaccountnumber")
-          } else {
-            console.log("goodaccountnumber")
-          }
-        }, 'jsonp')
+        if ($(this).text() == '') {
+          $('.fa-times').css('display', 'none');
+          $('.fa-check').css('display', 'none');
+          $('.spinner').css('display', 'none');
         }
+        if (accountNumber && accountNumber.length >= "1") {
+        $('.fa-times').css('display', 'none');
+        $('.fa-check').css('display', 'none');
+        $('.spinner').css('display', 'block');
+        }
+        if (accountNumber && accountNumber.length >= "8") {
+        var urlVerify = "https://adminlogin.liveperson.net/csdr/account/" + accountNumber + "/service/adminArea/baseURI.lpCsds?version=1.0"
+        $.ajax({
+          url: urlVerify,
+          jsonp: "cb",
+          dataType:"jsonp",
+          success: function (data) {
+          if (data.ResultSet.lpCallError) {
+            $('.spinner').css('display', 'none');
+            $('.fa-times').css('display', 'block');
+            console.log('error');
+          } else {
+            $('.spinner').css('display', 'none');
+            $('.fa-check').css('display', 'block');
+            console.log('good');
+          }
+          console.log(data);
+          }
+        });
+      }
       });
+      var enterEvent = jQuery.Event("keydown");
+      enterEvent.which = 13;
+      $('.submitContainer').on('click', function () {
+        $("#tagInput").trigger(enterEvent);
+      })
       //a listener to recognize whether enter was pressed on the search input
       $("#tagInput").keydown(function(e) {
         if (e.which == 13) {
