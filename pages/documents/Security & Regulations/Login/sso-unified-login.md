@@ -1,7 +1,7 @@
 ---
 pagename: SSO unified login
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Login
 indicator: both
 subtitle: " Authenticate once to seamlessly access the LivePerson platform"
 level3: ''
