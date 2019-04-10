@@ -48,7 +48,7 @@ There are three items under this tab:
 
 Enables Facebook self-serve onboarding page to support the subscription to more than 25 Facebook pages.
 
-## Bugs Fixes
+## Bug fixes
 
 ### \[WhatsApp\] Connector sends repeated irrelevant MTM (CX-146)
 
