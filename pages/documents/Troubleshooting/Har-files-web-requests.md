@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: chat
 subtitle: How to generate HAR Files and analyze web requests for troubleshooting
 level3: ''
-permalink: Troubleshooting-har-files-and-web-requests.html
+permalink: troubleshooting-har-files-and-web-requests.html
 isTutorial: false
 isNew: false
 date: 2019-04-02 14:01:50 +0300
