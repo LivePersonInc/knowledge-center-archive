@@ -15,7 +15,7 @@ These release notes include new features arriving to LiveEngage during April 201
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
-{: .important} 
+{: .important}
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionality
@@ -38,9 +38,9 @@ There are three items under this tab:
 
 1. **Overview of bots & AI in LivePerson:** This page is informative only and will be viewable by all users.
 2. **Conversation Builder (build and manage bots)**: The Conversation Builder will be embedded directly into this tab, enabling users to access bot building directly from the LiveEngage UI.
-	**Note:** This tab will be available to accounts that have the Conversation Builder enabled.
+   **Note:** This tab will be available to accounts that have the Conversation Builder enabled.
 3. **Bot Connectors**: This area will display all the 3rd party bots created and on-boarded into the account from DialogueFlow or Watson and enable brands to connect to additional instances quickly and easily. Additional AI vendors will be added to this offering in the future (view[ documentation](https://developers.liveperson.com/bot-connectors-getting-started.html) on the Developers Community).
-	**Note:** This tab will be available to accounts that have the Bot Connectors enabled. Contact your account team to get your account enabled. 
+   **Note:** This tab will be available to accounts that have the Bot Connectors enabled. Contact your account team to get your account enabled.
 
 ![](/img/week-of-april-15th-2.png)
 
