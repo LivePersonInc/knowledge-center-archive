@@ -12,19 +12,19 @@ date:
 ---
 ## Overview
 
-Brand’s can leverage LivePerson’s Multi-factor authentication capability to provide an additional layer of security for their agents’ (that’s also includes others LE-Users such as admins etc...) login flows.
+Brand’s can leverage LivePerson’s Multi-factor authentication capability to provide an additional layer of security for their agents’ login flows (that’s also includes others LE-Users such as admins etc...).
 
 The Multi-factor authentication adds an extra layer of protection on top of Login name and password as a prerequisite for each login attempt.
 
-Agents that will be having issues with their MFA login (locked/lost device/etc…) will be able to get their administrator with resetting their MFA configuration.
+Agents that will be having issues with their MFA login (locked/lost device/etc…) will be able to approach their administrator with a request to reset their MFA configuration.
 
 
 **Glossary**
 
 * MFA - Multi-factor authentication (sometime can be referred as 2-factor authentication)
-* Authenticator apps - Apps (Usually for personal devices) which generates MFA codes (OTP).
 * OTP/Token - one-time password (or one-time key)
-* Time-based One-time (TOTP) - this is the support password algorithm on LiveEngage MFA.
+* Time-based One-time Password (TOTP) - this is the support password algorithm on LiveEngage MFA.
+* Authenticator apps - Apps (Usually for personal devices) which generates MFA codes (OTP).
 
 ## Flow
 
