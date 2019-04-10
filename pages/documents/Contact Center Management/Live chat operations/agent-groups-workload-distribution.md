@@ -11,7 +11,7 @@ isTutorial: false
 date: 2019-01-21 09:37:44 +0000
 isNew: false
 redirect_from:
-  - workload-allocation-between.html
+- workload-allocation-between.html
 
 ---
 A priority of any a contact center is to provide a rapid and personalized service at all times. Even when, for example, a brand's billing page goes down, or they are hit by hectic holiday volumes. By effectively distributing conversation traffic between agent groups, LivePerson ensures a brand's consumers will always be answered as quickly and as efficiently as possible - which can be particularly challenging for brands working with large numbers of agent groups, or with groups spread across different locations.
@@ -32,7 +32,9 @@ In case either Agent Group becomes unavailable (i.e. the maximum wait time for t
 
 ### **To enable advanced workload distribution:**
 
-Please note: In order for the Advance Workload Distribution feature to appear on the individual skill page, you must have at least two agent groups configured on the account.
+{: .notice}
+
+Advanced workload distribution needs to be activated through your LivePerson Account Team. In order for the Advance Workload Distribution feature to appear on the individual skill page, you must have at least two agent groups configured on the account.
 
 1. On the **Users** area, in the **Skills** tab, click on the skill you wish to edit.
 2. In the **Advanced Workload Distribution** section, click on the toggle to enable this feature.

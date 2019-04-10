@@ -263,6 +263,7 @@
       pages:
         - pagename: April
           level3:
+            - level3name: Week of April 15th          
             - level3name: Week of April 8th
             - level3name: Week of April 1st
         - pagename: March
@@ -290,12 +291,7 @@
           level3:
             - level3name: Week of November 19th
             - level3name: Week of November 5th
-        - pagename: October
-          level3:
-            - level3name: Week of October 29th
-            - level3name: Week of October 22nd
-            - level3name: Week of October 15th
-            - level3name: Week of October 8th
+
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
