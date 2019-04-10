@@ -164,9 +164,9 @@ function getTag() {
           $(".spinner").css("display", "none");
         }
         if (accountNumber && accountNumber.length >= "1") {
-          $(".fa-times").css("display", "none");
+          $(".fa-times").css("display", "block");
           $(".fa-check").css("display", "none");
-          $(".spinner").css("display", "block");
+          $(".spinner").css("display", "none");
           errorStatus = true;
         }
         if (accountNumber && accountNumber.length >= "8") {
@@ -186,6 +186,7 @@ function getTag() {
                 console.log(errorStatus);
               } else {
                 $(".spinner").css("display", "none");
+                $(".fa-times").css("display", "none");
                 $(".fa-check").css("display", "block");
                 errorStatus = false;
                 console.log(errorStatus);
