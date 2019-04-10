@@ -35,7 +35,7 @@ The new Automation Module has been added to LiveEngage.
 
 There are three items under this tab:
 
-1. **Overview of bots & AI in LivePerson: **This page is informative only and will be viewable by all users.
+1. **Overview of bots & AI in LivePerson:** This page is informative only and will be viewable by all users.
 2. **Conversation Builder (build and manage bots)**: The Conversation Builder will be embedded directly into this tab, enabling users to access bot building directly from the LiveEngage UI.
 3. **Bot Connectors**: This area will display all the 3rd party bots created and on-boarded into the account from DialogueFlow or Watson and enable brands to connect to additional instances quickly and easily. Additional AI vendors will be added to this offering in the future (view[ documentation](https://developers.liveperson.com/bot-connectors-getting-started.html) on the Developers Community).
 
