@@ -12,7 +12,7 @@ date: 2019-01-21 13:40:12 +0000
 isNew: false
 
 ---
-**The LivePerson real time dashboard (Beta)** leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
+**The LivePerson real time dashboard** leverages the power of the real time operational and administrative APIs to enable users to monitor, in detail, the brand’s account health in both real time and for the previous 24 hours.
 
 The dashboard reflects the current status of several metrics, including the following:
 
@@ -24,7 +24,6 @@ The dashboard reflects the current status of several metrics, including the foll
 
 Please note that the real time dashboard is:
 
-* Currently a beta feature - users must agree to our data application beta terms of use upon login
 * Available for both messaging and chat
 * API based and leverages the LivePerson open platform
 * Includes both real time and the past 24 hours of data
