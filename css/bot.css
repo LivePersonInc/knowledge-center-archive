@@ -102,6 +102,10 @@ body {
   margin-left: -3px;
 }
 
+.statusRow .lp-json-pollock {
+  margin-top: 35px;
+}
+
 .caseyTextContainer + .lp-json-pollock {
   margin-top: 0;
 }
@@ -250,6 +254,7 @@ body {
 
 .taginputcontainer {
   display: flex;
+  flex-direction: column;
   margin-top: -10px;
   margin-bottom: 20px;
 }
@@ -274,6 +279,10 @@ body {
   margin-left: 5px;
 }
 
+.inputArea {
+  display: flex;
+}
+
 #messageInput {
   width: 65%;
   height: 40px;
@@ -296,6 +305,19 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 15px;
   padding-left: 20px;
+}
+
+#tagInput::after {
+  height: 17px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #5879da;
+  padding: 14px 8px 14px 8px;
+  border-radius: 0 6px 6px 0;
+  margin-left: -1px;
+  background-image: url(https://www.liveperson.com/sites/default/files/conv_page/send.png);
 }
 
 .magGlass {
@@ -325,6 +347,7 @@ body {
 .submitContainer img {
   width: 30px;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 #messageInputUsed {
@@ -349,6 +372,21 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 15px;
   padding-left: 20px;
+}
+
+.statusRow {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  width: 77%;
+}
+
+.statusRow span {
+  display: none;
+  order: 2;
+  font-family: "Roboto", "Open Sans", Helvetica;
+  font-size: 14px;
+  font-style: italic;
 }
 
 #messageInput::-webkit-input-placeholder { /* Chrome/Opera/Safari */

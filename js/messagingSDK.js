@@ -7,7 +7,7 @@ var windowKit = new windowKit({
 var userinput =
   '<div class="inputcontainer"><input type="text" id="messageInput" placeholder="Type your query here"/><div class="magGlass"><i class="fas fa-search"></i></div></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>';
 var taginput =
-  '<div class="taginputcontainer"><input type="text" id="tagInput" placeholder="Enter your 8 digit account number here"/><div class="submitContainer"><img src="https://www.liveperson.com/sites/default/files/conv_page/send.png" class="tagSubmit"/></div><div class="spinner spinner-1"></div><i class="fas fa-times"></i><i class="fas fa-check"></i></div><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div>';
+  '<div class="taginputcontainer"><div class="inputArea"><input type="text" id="tagInput" placeholder="Enter your 8 digit account number here"/><div class="submitContainer"><img src="https://www.liveperson.com/sites/default/files/conv_page/send.png" class="tagSubmit"/></div></div><div class="statusRow"><span class="errorShort">Too short!</span><span class="accountSuccess">Perfect!</span><span class="errorLong">Too long!</span><span class="errorInvalid">Wrong account number!</span><div class="lp-json-pollock"><div class="lp-json-pollock-layout lp-json-pollock-layout-vertical"><div class="lp-json-pollock-element-button searchButton"><button title="Go back" aria-label"Go back">Go back</button></div></div></div></div></div>';
 let isScrolling;
 let agentFirstText;
 
@@ -159,17 +159,29 @@ function getTag() {
         e.target.value = e.target.value.replace(/[^0-9]/g, "");
         var accountNumber = e.target.value;
         if ($(this).text() == "") {
-          $(".fa-times").css("display", "none");
-          $(".fa-check").css("display", "none");
-          $(".spinner").css("display", "none");
+          $(".errorLong").css("display", "none");
+          $(".errorShort").css("display", "none");
+          $(".errorInvalid").css("display", "none");
+          $(".accountSuccess").css("display", "none");
+          $(".submitContainer img").css("opacity", "0.3");
         }
-        if (accountNumber && accountNumber.length >= "1") {
-          $(".fa-times").css("display", "block");
-          $(".fa-check").css("display", "none");
-          $(".spinner").css("display", "none");
+        if (accountNumber && accountNumber.length >= "1" && accountNumber.length != "8") {
+          $(".errorLong").css("display", "none");
+          $(".errorShort").css("display", "block");
+          $(".errorInvalid").css("display", "none");
+          $(".accountSuccess").css("display", "none");
+          $(".submitContainer img").css("opacity", "0.3");
           errorStatus = true;
         }
-        if (accountNumber && accountNumber.length >= "8") {
+        if (accountNumber && accountNumber.length > "8") {
+          $(".errorLong").css("display", "block");
+          $(".errorShort").css("display", "none");
+          $(".errorInvalid").css("display", "none");
+          $(".accountSuccess").css("display", "none");
+          $(".submitContainer img").css("opacity", "0.3");
+          errorStatus = true;
+        }
+        if (accountNumber && accountNumber.length == "8") {
           var urlVerify =
             "https://adminlogin.liveperson.net/csdr/account/" +
             accountNumber +
@@ -180,14 +192,19 @@ function getTag() {
             dataType: "jsonp",
             success: function(data) {
               if (data.ResultSet.lpCallError) {
-                $(".spinner").css("display", "none");
-                $(".fa-times").css("display", "block");
+                $(".errorLong").css("display", "none");
+                $(".errorShort").css("display", "none");
+                $(".errorInvalid").css("display", "block");
+                $(".accountSuccess").css("display", "none");
+                $(".submitContainer img").css("opacity", "0.3");
                 errorStatus = true;
                 console.log(errorStatus);
               } else {
-                $(".spinner").css("display", "none");
-                $(".fa-times").css("display", "none");
-                $(".fa-check").css("display", "block");
+                $(".errorLong").css("display", "none");
+                $(".errorShort").css("display", "none");
+                $(".errorInvalid").css("display", "none");
+                $(".accountSuccess").css("display", "block");
+                $(".submitContainer img").css("opacity", "1");
                 errorStatus = false;
                 console.log(errorStatus);
               }
