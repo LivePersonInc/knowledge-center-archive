@@ -145,6 +145,7 @@ function displayInput() {
 //very similar to above, a function to show the input to enter an account number for the tag, also grabs the account number and renders the tag
 function getTag() {
   let tagDisplayed;
+  let errorStatus;
   if (!tagDisplayed) {
     tagDisplayed = true;
     //timeout needed to make sure the input gets displayed after the response message
@@ -157,76 +158,86 @@ function getTag() {
       $("#tagInput").on("input", function(e) {
         e.target.value = e.target.value.replace(/[^0-9]/g, "");
         var accountNumber = e.target.value;
-        if ($(this).text() == '') {
-          $('.fa-times').css('display', 'none');
-          $('.fa-check').css('display', 'none');
-          $('.spinner').css('display', 'none');
+        if ($(this).text() == "") {
+          $(".fa-times").css("display", "none");
+          $(".fa-check").css("display", "none");
+          $(".spinner").css("display", "none");
         }
         if (accountNumber && accountNumber.length >= "1") {
-        $('.fa-times').css('display', 'none');
-        $('.fa-check').css('display', 'none');
-        $('.spinner').css('display', 'block');
+          $(".fa-times").css("display", "none");
+          $(".fa-check").css("display", "none");
+          $(".spinner").css("display", "block");
+          errorStatus = true;
         }
         if (accountNumber && accountNumber.length >= "8") {
-        var urlVerify = "https://adminlogin.liveperson.net/csdr/account/" + accountNumber + "/service/adminArea/baseURI.lpCsds?version=1.0"
-        $.ajax({
-          url: urlVerify,
-          jsonp: "cb",
-          dataType:"jsonp",
-          success: function (data) {
-          if (data.ResultSet.lpCallError) {
-            $('.spinner').css('display', 'none');
-            $('.fa-times').css('display', 'block');
-            console.log('error');
-          } else {
-            $('.spinner').css('display', 'none');
-            $('.fa-check').css('display', 'block');
-            console.log('good');
-          }
-          console.log(data);
-          }
-        });
-      }
+          var urlVerify =
+            "https://adminlogin.liveperson.net/csdr/account/" +
+            accountNumber +
+            "/service/adminArea/baseURI.lpCsds?version=1.0";
+          $.ajax({
+            url: urlVerify,
+            jsonp: "cb",
+            dataType: "jsonp",
+            success: function(data) {
+              if (data.ResultSet.lpCallError) {
+                $(".spinner").css("display", "none");
+                $(".fa-times").css("display", "block");
+                errorStatus = true;
+                console.log(errorStatus);
+              } else {
+                $(".spinner").css("display", "none");
+                $(".fa-check").css("display", "block");
+                errorStatus = false;
+                console.log(errorStatus);
+              }
+              console.log(data);
+            }
+          });
+        }
       });
       var enterEvent = jQuery.Event("keydown");
       enterEvent.which = 13;
-      $('.submitContainer').on('click', function () {
+      $(".submitContainer").on("click", function() {
         $("#tagInput").trigger(enterEvent);
-      })
+      });
       //a listener to recognize whether enter was pressed on the search input
       $("#tagInput").keydown(function(e) {
         if (e.which == 13) {
-          //when enter was pressed, grab the text from the input field
-          var tagText = tagInput.value;
-          //send that text to the conversation, where it will get appended
-          windowKit.sendMessage(tagText);
-          //defining the tag
-          var tagMessage =
-            "<!-- BEGIN LivePerson Monitor. -->" +
-            "<script type='text/javascript'>" +
-            "window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'" +
-            tagText +
-            "'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;" +
-            "</script>" +
-            "<!-- END LivePerson Monitor. -->";
-          //making sure HTML characters are maintained in the string
-          var tagMessageString = tagMessage.replace(
-            /[\u00A0-\u9999<>\&]/gim,
-            function(i) {
-              return "&#" + i.charCodeAt(0) + ";";
-            }
-          );
-          //append the tag plus the account number
-          setTimeout(function() {
-            $("#caseyContainer").append(
-              "<div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText'>Here's your code snippet. <a class='copylink' data-clipboard-target='.caseyCode' href=''>Copy it</a> and add to your website, for more info <a href='https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html'>click here</a>.</div></div><div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText caseyCode'><code class='highlighter-rouge language-javascript'>" +
-                tagMessageString +
-                "</code></div></div>"
+          if (errorStatus) {
+            e.preventDefault();
+          } else {
+            //when enter was pressed, grab the text from the input field
+            var tagText = tagInput.value;
+            //send that text to the conversation, where it will get appended
+            windowKit.sendMessage(tagText);
+            //defining the tag
+            var tagMessage =
+              "<!-- BEGIN LivePerson Monitor. -->" +
+              "<script type='text/javascript'>" +
+              "window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'" +
+              tagText +
+              "'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;" +
+              "</script>" +
+              "<!-- END LivePerson Monitor. -->";
+            //making sure HTML characters are maintained in the string
+            var tagMessageString = tagMessage.replace(
+              /[\u00A0-\u9999<>\&]/gim,
+              function(i) {
+                return "&#" + i.charCodeAt(0) + ";";
+              }
             );
-            copyLink();
-          }, 1000);
-          //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
-          $(this).attr("id", "tagInputUsed");
+            //append the tag plus the account number
+            setTimeout(function() {
+              $("#caseyContainer").append(
+                "<div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText'>Here's your code snippet. <a class='copylink' data-clipboard-target='.caseyCode' href=''>Copy it</a> and add to your website, for more info <a href='https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html'>click here</a>.</div></div><div class='caseyTextContainer'><img class='caseyAvatar' src='img/avatar-casey.svg'/><div class='caseyText caseyCode'><code class='highlighter-rouge language-javascript'>" +
+                  tagMessageString +
+                  "</code></div></div>"
+              );
+              copyLink();
+            }, 1000);
+            //change the id of the input field used to make sure it doesn't get picked up when this function runs again - there can only be one!
+            $(this).attr("id", "tagInputUsed");
+          }
         }
       });
     }, 1000);
