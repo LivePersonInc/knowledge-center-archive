@@ -33,19 +33,9 @@ When a LiveEngage user logs in from LivePerson’s login page (after providing t
 
 ### Step 1 - Configuring multi-factor authentication (first time login)
 
-A user goes which through the MFA flow for the first time, will see the following page. This page includes a QR code which should be scanned using the authenticator app (see below) for first time configuration (after finishing this on-boarding process once, the user will not see this page again).
+A user goes which through the MFA flow for the first time, will see the following page. This page includes a QR code which should be scanned using the authenticator app (see [this section](#totp-mobile-authenticator-app)) for first time configuration (after finishing this on-boarding process once, the user will not see this page again).
 
 ![](/img/Scan QR MFA.png)
-
-#### TOTP mobile authenticator app
-
-A time-based one-time password (TOTP) application automatically generates an authentication code that changes after a certain period of time. We recommend using cloud-based TOTP apps such as:
-
-* Google Authenticator [Apple App Store](https://itunes.apple.com/app/google-authenticator/id388497605?mt=8), [Google Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
-
-* [Authy](https://authy.com/download/)
-
-* [Okta Verify](https://help.okta.com/en/prod/Content/Topics/Mobile/Okta_Verify_Using.htm)
 
 ### Step 2 - Retrieve code
 
@@ -58,6 +48,16 @@ Now the user should use one of the authenticator mobile apps listed above and sc
 LiveEngage will provide the user with an input area where they should submit the six-digit code they received from the authenticator app and submit. This page will be presented to an agent on every login attempt right after they submit their login credentials (login name & password).
 
 ![](/img/Submit OTK.png)
+
+## TOTP mobile authenticator app
+
+A time-based one-time password (TOTP) application automatically generates an authentication code that changes after a certain period of time. We recommend using cloud-based TOTP apps such as:
+
+* Google Authenticator [Apple App Store](https://itunes.apple.com/app/google-authenticator/id388497605?mt=8), [Google Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+
+* [Authy](https://authy.com/download/)
+
+* [Okta Verify](https://help.okta.com/en/prod/Content/Topics/Mobile/Okta_Verify_Using.htm)
 
 ## FAQs
 
