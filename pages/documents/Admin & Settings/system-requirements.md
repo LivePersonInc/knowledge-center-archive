@@ -96,7 +96,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | --- | --- | --- | --- |
 | Safari | 6x | 7x* | 8x* |
 | Chrome | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 |
-| Mozilla Firefox | Latest available version (N),  Version N-1, ESR (N and N-1) | Latest available version (N),  Version N-1, ESR (N and N-1) | Latest available version (N),  Version N-1, ESR (N and N-1) |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
 
 ## Desktop notifications
 
