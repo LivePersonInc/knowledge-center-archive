@@ -23,7 +23,7 @@ We have two primary levels of support for the items listed in the tables below:
 
 **Certified:** Items highlighted in orange are tested thoroughly by LivePerson. We are committed to resolving any bugs or issues based on the SLAs defined across LiveEngage.
 
-**Supported:** Items highlighted in blue meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
+**Supported:** Items marked with an asterisk ( * ) meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
 
 {: .notice}  
 We recommend using certified systems for the best possible experience while using LiveEngage.
@@ -36,14 +36,14 @@ The tables below list the browsers LivePerson supports for visitors on mobile we
 
 |  | v5.X (Lollipop) | v6.X (Marshmallow) | V7.X(Nougat) |
 | --- | --- | --- | --- |
-| Chrome | Latest available version | Latest available version (N), Version N-1 |  |
+| Chrome | Latest available version |  | Latest available version (N) * , Version N-1 |
 
 ### iOS
 
 |  | iOS 9 | iOS 10 | iOS11 |
 | --- | --- | --- | --- |
-| Safari | Latest available version | Latest available version (N), Version N-1 |  |
-| Chrome | Latest available version | Latest available version (N), Version N-1 |  |
+| Safari | Latest available version |  | Latest available version (N), Version N-1 |
+| Chrome | Latest available version |  | Latest available version (N), Version N-1 |
 
 ## Visitor side: desktop requirements
 
