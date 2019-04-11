@@ -87,7 +87,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | --- | --- | --- | --- |
 | Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
 | Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* | 11x*, Edge* |
+| Internet Explorer | 11x* | 11x* | 11x*, Edge * |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
 
