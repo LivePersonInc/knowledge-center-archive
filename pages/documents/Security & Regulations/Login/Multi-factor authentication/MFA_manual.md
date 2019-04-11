@@ -1,23 +1,19 @@
 ---
-pagename: Multi-factor authentication
+pagename: Multi-factor authentication user manual
 categoryName: Security & regulations
 subCategoryName: Login
 indicator: both
-subtitle: "Authenticate once to seamlessly access the LivePerson platform"
-level3: ''
-permalink: security-regulations-login-multi-factor-authentication.html
+subtitle: "Configure MFA for your user login"
+level3: Multi-factor authentication
+permalink: security-regulations-login-multi-factor-authentication-user-manual.html
 isTutorial: false
 isNew: false
 date:
 ---
-## Overview
 
-Brands can leverage LivePerson’s multi-factor authentication capability in order to provide an additional layer of security for their LiveEngage logins. This includes both agent and admin login flows, for example. Multi-factor authentication adds an extra layer of protection to a simple request for a login name and password. This can be set as a prerequisite for each login attempt, making sure the extra layer of protection is always present.
+Multi-factor authentication is an additional step of verification which take place by a code which provided on the individual personal device (smartphone) on a dedicated authenticator app and being entered by him on the second login step (right after entering his credentials) in LiveEngage login process.
 
-Agents that will encounter issues with their MFA login (locked or lost device, deleted or missing app, etc.) will be able to approach their administrator with a request to reset their MFA configuration.
-
-
-**Glossary**
+## Glossary
 
 * MFA - Multi-factor authentication (can sometimes be referred to as "two factor authentication")
 
