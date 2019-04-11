@@ -36,14 +36,14 @@ The tables below list the browsers LivePerson supports for visitors on mobile we
 
 |  | v5.X (Lollipop) | v6.X (Marshmallow) | V7.X(Nougat) |
 | --- | --- | --- | --- |
-| Chrome | Latest available version |  | Latest available version (N) * , Version N-1 |
+| Chrome | Latest available version | Latest available version | Latest available version (N)* , Version N-1 |
 
 ### iOS
 
 |  | iOS 9 | iOS 10 | iOS11 |
 | --- | --- | --- | --- |
-| Safari | Latest available version |  | Latest available version (N), Version N-1 |
-| Chrome | Latest available version |  | Latest available version (N), Version N-1 |
+| Safari | Latest available version | Latest available version | Latest available version (N)* , Version N-1 |
+| Chrome | Latest available version | Latest available version | Latest available version (N)* , Version N-1 |
 
 ## Visitor side: desktop requirements
 
@@ -53,11 +53,11 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 |  | Windows 7 | Windows 8.1 | Windows 10 |
 | --- | --- | --- | --- |
-| Chrome | Latest available version (N), Version N-1 |  |  |
-| Mozilla Firefox | Latest available version (N),  Version N-1 |  |  |
-| Internet Explorer | 11x | 11x | 11x |
-| Microsoft Edge | N/A | Latest available version (N), Version N-1 |  |
-| Safari | Not supported |  |  |
+| Chrome |  | Latest available version (N)* , Version N-1 |  |
+| Mozilla Firefox |  | Latest available version (N)* , Version N-1 |  |
+| Internet Explorer | 11x* | 11x* | 11x* |
+| Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
+| Safari |  | Not supported |  |
 
 ### Mac
 
