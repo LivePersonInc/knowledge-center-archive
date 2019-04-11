@@ -19,6 +19,7 @@ LivePerson is constantly expanding its matrix of supported operating systems and
 1. We fully support only the generally available (GA) browser versions.
 2. To benefit from the full functionality of LivePerson, cookies must be enabled.
 
+<br/>
 We have two primary levels of support for the items listed in the tables below:
 
 **Supported:** Items marked with an asterisk ( * ) meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
