@@ -31,8 +31,32 @@ When a consumer first messages the brand, you can use functions to send a messag
 
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
-| --- |
-| //Welcome Message exports.handler = function(context, event, callback) { let twiml = new Twilio.twiml.MessagingResponse(); const client = context.getTwilioClient(); const got = require('got'); let tdiff = new Date().getTimezoneOffset() let off = 600 - tdiff /_offset hours x 60 mins_/ let now = new Date().setHours(new Date().getHours() + (off/60)); let h = new Date(now).getHours(); let d = new Date(now).getDay(); let welcomeMessage = 'WELCOME_MESSAGE_TEXT'; let filterDate = new Date(); filterDate.setDate(filterDate.getDate()-1); client.messages.list({ dateSentAfter: filterDate.toISOString(), from: event.From }).then((messages) => { if(messages.length > 1) { twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/api/25638322/default/twilio'); } else { twiml.message(welcomeMessage); twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio'); } callback(null,twiml); }); }; |
+//Welcome Message  
+ exports.handler = function(context, event, callback) {  
+ let twiml = new Twilio.twiml.MessagingResponse();  
+ const client = context.getTwilioClient();  
+ const got = require('got');  
+ let tdiff = new Date().getTimezoneOffset()  
+ let off = 600 - tdiff /*offset hours x 60 mins*/  
+ let now = new Date().setHours(new Date().getHours() + (off/60));  
+ let h = new Date(now).getHours();  
+ let d = new Date(now).getDay();  
+ let welcomeMessage = 'WELCOME_MESSAGE_TEXT';  
+ let filterDate = new Date();  
+ filterDate.setDate(filterDate.getDate()-1);  
+ client.messages.list({  
+ dateSentAfter: filterDate.toISOString(),  
+ from: event.From  
+ }).then((messages) => {  
+ if(messages.length > 1) {  
+twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/api/25638322/default/twilio');  
+ } else {  
+ twiml.message(welcomeMessage);  
+ twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio');  
+ }  
+ callback(null,twiml);  
+ });  
+ };
 
 ## Blacklisting
 
@@ -40,8 +64,24 @@ Many brands have policies around blocking consumers who use offensive or abusive
 
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console, the agent will only see messages the consumer types and messages they type themselves.
 
-| --- |
-| This is a code snippet. Copy and paste me; don’t try to replicate me. If you want to highlight something, use this color. //Blacklisting exports.handler = function(context, event, callback) { let twiml = new Twilio.twiml.MessagingResponse(); const msggwDomain = 'https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio'; const blacklistMessage = 'BLACK_LIST_MESSAGE'; const blacklist = \[ '+1855XXXXXXX', '+1855XXXXXXX', '+1855XXXXXXX' \];  if (blacklist.includes(event.From)) { twiml.message(blacklistMessage); } else { twiml.redirect(msggwDomain); } callback(null, twiml); }; |
+_//Blacklisting_  
+ exports.handler = **function**(context, event, callback) {  
+ **let** twiml = **new** Twilio.twiml.MessagingResponse();  
+ **const** msggwDomain = 'https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio';  
+ **const** blacklistMessage = 'BLACK_LIST_MESSAGE';  
+ **const** blacklist = \[  
+ '+1855XXXXXXX',  
+ '+1855XXXXXXX',  
+ '+1855XXXXXXX'  
+ \];  
+   
+ **if** (blacklist.includes(event.From)) {  
+ twiml.message(blacklistMessage);  
+ } **else** {  
+ twiml.redirect(msggwDomain);  
+ }  
+ callback(**null**, twiml);  
+ };
 
 ## Regular expression masking
 
@@ -49,5 +89,31 @@ Many brands choose to mask specific data patterns to prevent consumers from inad
 
 **Note:** Since auto-response messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
-| --- |
-| This is a code snippet. Copy and paste me; don’t try to replicate me. If you want to highlight something, use this color. //Regex Masking exports.handler = function(context, event, callback) { let twiml = new Twilio.twiml.MessagingResponse(); const got = require('got'); const msggwDomain = 'https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio'; const maskSensitiveDataMessage = 'MASK_DATA_MESSAGE'; let ccRegex = /(?!000|666)\[0-9\]{3}(\[ -\]?)(?!00)\[0-9\]{2}\\1(?!0000)\[0-9\]{4}$/ig;  if (event.Body.match(ccRegex)) { var redactedMessage = event.Body.replace(ccRegex, "XXX-XX-XXXX"); got.post(msggwDomain, { json: true, body: { Body: redactedMessage, From: event.From, To: event.To } }).then(function(response) { twiml.message(maskSensitiveDataMessage); callback(null, twiml); }).catch(function(error) { callback(error); }); } else { twiml.redirect(msggwDomain); callback(null, twiml); } }; |
+_//Regex Masking_  
+ exports.handler = **function**(context, event, callback) {  
+ **let** twiml = **new** Twilio.twiml.MessagingResponse();  
+ **const** got = require('got');  
+ **const** msggwDomain = 'https://MSGGW_DOMAIN/api/ACCOUNT_NUM/default/twilio';  
+ **const** maskSensitiveDataMessage = 'MASK_DATA_MESSAGE';  
+ **let** ccRegex = /(?!000|666)\[0-9\]{3}(\[ -\]?)(?!00)\[0-9\]{2}\\1(?!0000)\[0-9\]{4}$/ig;  
+   
+ **if** (event.Body.match(ccRegex)) {  
+ **var** redactedMessage = event.Body.replace(ccRegex, "XXX-XX-XXXX");  
+ got.post(msggwDomain, {  
+ json: **true**,  
+ body: {  
+ Body: redactedMessage,  
+ From: event.From,  
+ To: event.To  
+ }  
+ }).then(**function**(response) {  
+ twiml.message(maskSensitiveDataMessage);  
+ callback(**null**, twiml);  
+ }).**catch**(**function**(error) {  
+ callback(error);  
+ });  
+ } **else** {  
+ twiml.redirect(msggwDomain);  
+ callback(**null**, twiml);  
+ }  
+ };
