@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/What's New/What's New April 2019.md
 - pages/documents/Messaging Channels/SMS/enhancing-the-sms-experience-with-twilio.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
 - pages/documents/Messaging Channels/SMS/sms-best-practices.md
