@@ -94,6 +94,7 @@ _//Blacklisting_
 
 Many brands choose to mask specific data patterns to prevent consumers from inadvertently sharing data such as account or credit card information in plain text within the body of the conversation. A Twilio function can therefore be created to handle regex masking and regex auto-response. The below example searches for a specific pattern and blanks the pattern within the conversation body. The code can also be used to send an auto-response back to the consumer letting them know that their message has been redacted.
 
+{: .notice}
 **Note:** Since auto-response messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
 ```
