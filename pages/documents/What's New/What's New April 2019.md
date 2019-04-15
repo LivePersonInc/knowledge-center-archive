@@ -73,7 +73,7 @@ Increase customer satisfaction by enabling agent-to-agent transfer. This gives a
 
 The pace of conversations can vary across different skills. LivePerson’s auto close now has a ‘per skill level’ (in addition to account level configuration) to finetune when a conversation closes per skill - improving agent efficiency and operations. For example, brands may want to keep a sales-related conversation open for longer than a standard support request.
 
-## Smart Capacity Metrics
+## Smart capacity metrics
 
 The Advanced Messaging dashboard in the Report Builder has been enriched with smart capacity metrics to indicate whether you are over or under-staffed enabling and assessment of whether your contact center is being optimized.
 
