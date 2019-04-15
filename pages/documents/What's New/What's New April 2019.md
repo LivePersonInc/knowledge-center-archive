@@ -3,7 +3,7 @@ pagename: April 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include agent groups pre-filter
+subtitle: Top features include agent groups pre-filter and secure forms for desktop
 level3: ''
 permalink: whats-new-april-2019.html
 isTutorial: false
