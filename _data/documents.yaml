@@ -251,6 +251,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
     - subcategoryname: January 2019
