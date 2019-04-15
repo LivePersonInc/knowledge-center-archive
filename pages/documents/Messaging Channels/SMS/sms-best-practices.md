@@ -15,7 +15,7 @@ date: 2019-04-11 14:38:05 +0000
 
 Brands in North America will need to purchase short-codes instead of regular long-code phone numbers if sending outbound SMS from an IVR or partner tool. This is to prevent 'Carrier Filtering' (a process where networks block long-code numbers if they are used as an outbound channel for 200 or more messages a day).
 
-## Friendly names / Vanity short codes
+## Friendly names / vanity short codes
 
 Friendly names such as _'1(800) New Home_' and vanity short codes such as '_Realty_' are not ideal for SMS since most handsets do not display the 10-digit keypad when setting the recipient of a text message. Instead, the consumer sees a regular keyboard so it best to use and advertize regular format numbers.
 
@@ -44,16 +44,14 @@ To find out more about ID&V and how you can leverage it to enhance and extend yo
 
 ## Data masking
 
-While the LiveEngage custom ID&V solution provides a means for exchanging such data securely, it doesn't prevent consumers from unintentionally sharing such data in the body of their conversation. The LiveEngage integration with the Twilio framework provides a solution: there are Twilio functions which can be used to mask sensitive data from the conversation. 
+While the LiveEngage custom ID&V solution provides a means for exchanging such data securely, it doesn't prevent consumers from unintentionally sharing such data in the body of their conversation. The LiveEngage integration with the Twilio framework provides a solution: there are Twilio functions which can be used to mask sensitive data from the conversation.
 
 ## System messages
 
 Business requirements for many brands include the ability to send automated responses to consumers for a variety of reasons:
 
 1. TCPA compliance agreement
-
 2. Off-hours notifications
-
 3. Expectation setting for SLA's (first time consumers), and more.
 
 Although system messages are not yet available as features within LiveEngage, all of the above can be achieved with Twilio functions. Click [here](messaging-channels-sms-twilio-sms-connector-setup.html) to learn more about enhancing SMS with Twilio.
