@@ -27,6 +27,7 @@
         - pagename: SMS connector
         - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
+        - pagename: SMS best practices
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: WhatsApp Business
