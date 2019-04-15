@@ -9,6 +9,7 @@ permalink: messaging-channels-sms-enhancing-the-sms-experience-with-twilio.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 14:31:45 +0300
+published: false
 
 ---
 ## Introduction
@@ -31,6 +32,7 @@ When a consumer first messages the brand, you can use functions to send a messag
 
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
+```
 //Welcome Message  
  exports.handler = function(context, event, callback) {  
  let twiml = new Twilio.twiml.MessagingResponse();  
@@ -57,6 +59,7 @@ twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/api/25638322/default/twilio
  callback(null,twiml);  
  });  
  };
+```
 
 ## Blacklisting
 
@@ -64,6 +67,7 @@ Many brands have policies around blocking consumers who use offensive or abusive
 
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console, the agent will only see messages the consumer types and messages they type themselves.
 
+```
 _//Blacklisting_  
  exports.handler = **function**(context, event, callback) {  
  **let** twiml = **new** Twilio.twiml.MessagingResponse();  
@@ -82,6 +86,7 @@ _//Blacklisting_
  }  
  callback(**null**, twiml);  
  };
+```
 
 ## Regular expression masking
 
@@ -89,6 +94,7 @@ Many brands choose to mask specific data patterns to prevent consumers from inad
 
 **Note:** Since auto-response messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
+```
 _//Regex Masking_  
  exports.handler = **function**(context, event, callback) {  
  **let** twiml = **new** Twilio.twiml.MessagingResponse();  
@@ -117,3 +123,4 @@ _//Regex Masking_
  callback(**null**, twiml);  
  }  
  };
+ ```
