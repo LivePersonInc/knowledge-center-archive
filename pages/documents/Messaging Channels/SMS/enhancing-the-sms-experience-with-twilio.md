@@ -9,7 +9,6 @@ permalink: messaging-channels-sms-enhancing-the-sms-experience-with-twilio.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 14:31:45 +0300
-published: false
 
 ---
 ## Introduction
@@ -24,12 +23,14 @@ LiveEngage leverages Twilio SMS as one of its out of the box messaging connector
 
 This function has been designed to send an auto response to consumers if their message arrives during off hours. You can create the code to define hours that your agents will be working and check whether an inbound message arrives within those hours. If it arrives during scheduled hours, then the message will be received in LiveEngage. If not, an auto response will be sent back advising the customer that they have messaged during off hours and the consumer’s original message will be forwarded into LiveEngage and placed in queue, ready for the next shift.
 
+{: .notice} 
 **Note:** Since the off-hours message is sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
 ## TCPA or SLA message on first inbound conversation
 
 When a consumer first messages the brand, you can use functions to send a message stating the SLA for the phone number/skill they are texting into and/or to provide instructions regarding ‘Stop’ functionality to assist brands in meeting their TCPA requirements. You can modify the below code to include verbiage that is applicable to your brands policies and standards. This type of message can be combined with off hours messaging, if required.
 
+{: .notice}
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console. The agent will only see messages the consumer types and messages they type themselves.
 
 ```
@@ -65,6 +66,7 @@ twiml.redirect('https://MSGGW_DOMAIN/api/ACCOUNT_NUM/api/25638322/default/twilio
 
 Many brands have policies around blocking consumers who use offensive or abusive language when talking with agents. The code below shows a basic example of a hard-coded function with the ability to check for blacklisted numbers (those added into the code) and return an auto message to the consumer if they are have been added to the 'black-list'. A more scalable method for ‘Blacklisting’ would be to modify this code further to check a list of numbers in a csv file on your servers or a cloud server.
 
+{: .notice}
 **Note:** Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console, the agent will only see messages the consumer types and messages they type themselves.
 
 ```
