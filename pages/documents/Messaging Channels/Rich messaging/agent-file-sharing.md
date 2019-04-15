@@ -12,7 +12,7 @@ date: 2019-04-15 11:03:29 +0300
 
 ---
 {: .important}
-Please note: Agent file sharing is currently in phase 1. At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
+**Please note:** Agent file sharing is currently in phase 1. At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
 
 ## **Introduction**
 
@@ -134,7 +134,7 @@ Bots will have the capability to send files as well. For further details and exa
 
 ## **Configuration steps summary**
 
-1. [Enable the feature](https://docs.google.com/document/d/1HBpGncgbhYX8l6I5Ojl0uo-FgcICdogEaoTBjCPRcAA/edit#heading=h.7t874zt0s8a2)
-2. [Enable the "file sharing capability" on night vision](https://docs.google.com/document/d/1e_Yh-Ftw3QuxRrtRkwVOhkQEwsnIu6RrfDpzDK9hYZ0/edit#)
-3. [Set Permissions](https://docs.google.com/document/d/1HBpGncgbhYX8l6I5Ojl0uo-FgcICdogEaoTBjCPRcAA/edit#heading=h.iah9yn2enkvn)
-4. Optional: [Changing the image resolution](https://docs.google.com/document/d/1e_Yh-Ftw3QuxRrtRkwVOhkQEwsnIu6RrfDpzDK9hYZ0/edit#)
+1. [Enable the feature](messaging-channels-rich-messaging-agent-file-sharing.html#enabling-the-feature)
+2. [Enable the "file sharing capability"](messaging-channels-rich-messaging-agent-file-sharing.html#night-vision-setting) on night vision
+3. [Set permissions](messaging-channels-rich-messaging-agent-file-sharing.html#permissions)
+4. Optional: [Changing the image resolution](messaging-channels-rich-messaging-agent-file-sharing.html#photo-resizing)
