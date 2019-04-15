@@ -250,13 +250,13 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
     - subcategoryname: January 2019
     - subcategoryname: December 2018
     - subcategoryname: November 2018
     - subcategoryname: October 2018
-    - subcategoryname: September 2018
 
 - categoryname: Release notes
   image: release-notes
