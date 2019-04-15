@@ -8,7 +8,7 @@ level3: April
 permalink: release-notes-2019-april-week-of-april-15th.html
 isTutorial: false
 isNew: false
-date: 2019-04-10 14:31:58 +0300
+date: 2019-04-10 11:31:58 +0000
 
 ---
 These release notes include new features arriving to LiveEngage during April 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -19,16 +19,6 @@ These release notes include new features arriving to LiveEngage during April 201
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## New functionalities
-
-### Application infrastructure
-
-To allow for future development and align with industry standards, we enhanced our UI application infrastructure and frameworks.
-
-### Knowledge Center button
-
-LivePerson’s new knowledge base can now be accessed from a link in the Connection Area as well as a button in the LiveEngage UI. The Knowledge Center can be reached by clicking the link in the connection panel or selecting the question mark icon in the top right corner and clicking ‘Knowledge Center.’
-
-![](/img/week-of-april-15th-1.png)
 
 ### Automation tab
 
@@ -43,10 +33,6 @@ There are three items under this tab:
    **Note:** This tab will be available to accounts that have the Bot Connectors enabled. Contact your account team to get your account enabled.
 
 ![](/img/week-of-april-15th-2.png)
-
-### \[Facebook\] Self serve on-boarding should enable adding more than 25 pages to an account (LE-97225)
-
-Enables Facebook self-serve onboarding page to support the subscription to more than 25 Facebook pages.
 
 ## Bug fixes
 
