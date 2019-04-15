@@ -41,6 +41,7 @@
       pages:
         - pagename: Rich messaging overview
         - pagename: Photo sharing user guide
+        - pagename: Agent file sharing overview
         - pagename: Audio messaging user guide
         - pagename: Quick replies user guide
         - pagename: Structured content for messaging user guide
