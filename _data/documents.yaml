@@ -258,8 +258,7 @@
     - subcategoryname: December 2018
     - subcategoryname: November 2018
     - subcategoryname: October 2018
-    - subcategoryname: September 2018
-
+    
 - categoryname: Release notes
   image: release-notes
   subcategories:
