@@ -5,7 +5,7 @@ subCategoryName: Rich messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: messaging-channels-rich-messaging-agent-file-sharing.html
+permalink: messaging-channels-rich-messaging-agent-file-sharing-overview.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 11:03:29 +0300
