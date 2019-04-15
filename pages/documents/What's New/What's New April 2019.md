@@ -11,13 +11,13 @@ isNew: false
 date: 2019-04-15 14:51:19 +0300
 
 ---
-Welcome to the LivePerson Product Updates Newsletter
+Welcome to the LivePerson Product Updates Newsletter for April
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
 ## The Knowledge Center has officially launched!
 
-As you are aware the Knowledge Center is the new hub for all product documentation which will help you understand and take advantage of more capabilities that are available on your account. Check out our bot Casey who will guide you through whatever you’re looking for (Casey was built using the [Conversation Builder!](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html))
+As you are aware the Knowledge Center is the new hub for all product documentation which will help you understand and take advantage of more capabilities that are available on your account. Check out our home page featuring our bot Casey who will guide you! You should know that Casey was built using the [Conversation Builder!](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html)
 
 ## Automation tab
 
@@ -45,9 +45,9 @@ Once deployed, secure forms via rich links will become the default behaviour for
 
 ![](https://lh3.googleusercontent.com/vn19g8ZPpJYsdZbaZrtwXiIkb3xCORgSQX1CYzpUt3_oZABhfxYXr3t6o3YQNUn8UttOTDM8iKyHA84wRZ2ZREQKr7usNwfn9m-g_eKKEd5p694fmhKOAMm7Jrpb_j0XDUvMTigj =339x72)
 
-## File sharing 
+## File sharing
 
-**(consumer to agent & agent to consumer) - web messaging** 
+**(consumer to agent & agent to consumer) - web messaging**
 
 For web messaging, both consumers and agents can share files such as PDFs directly within the conversation, enabling additional use cases such as sending and receiving forms or personalized contracts.
 
@@ -81,11 +81,9 @@ Metrics for staffing analysis:
 * Available conversations slots ratio - indicates overstaffing
 * Avg. Time to Assignment - indicates understaffing
 
-  
 Metrics for measuring the impact of Smart Capacity and agents' performance:
 
 * Time to response & TTFR while fully loaded
 * Idle time while fully loaded.
 
-  
 For all the features listed above please check the weekly release notes for exact rollout dates as delivery dates may vary and are subject to change.
