@@ -40,8 +40,6 @@ While ID&V does not physically secure the conversation or authenticate the consu
 
 To find out more about ID&V and how you can leverage it to enhance and extend your use-cases, please contact your account team.
 
-## 
-
 ## Data masking
 
 While the LiveEngage custom ID&V solution provides a means for exchanging such data securely, it doesn't prevent consumers from unintentionally sharing such data in the body of their conversation. The LiveEngage integration with the Twilio framework provides a solution: there are Twilio functions which can be used to mask sensitive data from the conversation.
