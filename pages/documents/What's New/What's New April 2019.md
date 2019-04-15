@@ -8,16 +8,12 @@ level3: ''
 permalink: whats-new-april-2019.html
 isTutorial: false
 isNew: false
-date: 2019-04-15 14:51:19 +0300
+date: 2019-04-15 11:51:19 +0000
 
 ---
 Welcome to the LivePerson Product Updates Newsletter for April
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. We hope you enjoy using them!
-
-## The Knowledge Center has officially launched!
-
-As you are aware the Knowledge Center is the new hub for all product documentation which will help you understand and take advantage of more capabilities that are available on your account. Check out our home page featuring our bot Casey who will guide you! You should know that Casey was built using the [Conversation Builder!](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html)
 
 ## Automation tab
 
