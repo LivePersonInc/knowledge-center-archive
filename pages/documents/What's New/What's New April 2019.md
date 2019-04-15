@@ -3,8 +3,7 @@ pagename: April 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include the New Knowledge Center, Automation tab and Agent
-  groups pre-filter
+subtitle: Top features include agent groups pre-filter
 level3: ''
 permalink: whats-new-april-2019.html
 isTutorial: false
