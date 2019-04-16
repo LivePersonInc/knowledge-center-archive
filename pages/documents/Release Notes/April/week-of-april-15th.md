@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Automation tab
 
-The new Automation Module has been added to LiveEngage.
+The new Automation Module has been added to LiveEngage. Visibility is controlled by the AC Feature Automation.Automation_Area.
 
 There are three items under this tab:
 
