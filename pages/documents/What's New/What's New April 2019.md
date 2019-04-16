@@ -15,6 +15,8 @@ Welcome to the LivePerson Product Updates Newsletter for April
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
+Watch this 2 minute video:  [https://vimeo.com/330464670/b6eae19d30](https://vimeo.com/330464670/b6eae19d30 "https://vimeo.com/330464670/b6eae19d30")
+
 ## Automation tab
 
 In mid-April, the new Automation tab will be displayed to all brands and users by default.
