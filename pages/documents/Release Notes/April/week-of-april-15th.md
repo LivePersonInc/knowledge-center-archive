@@ -34,6 +34,14 @@ There are three items under this tab:
 
 ![](/img/week-of-april-15th-2.png)
 
+### About permissions:
+
+New items added to ‘profiles’ to enable brands to control who can view and utilize these tools:
+
+* Automation area (on/off) - enables the entire automation tab for this profile
+* Edit Bot Integrations (on/off) - enables viewing and editing of bot connectors. Note: the account must also be provisioned for this capability as part of the Early Adopters program.
+* Conversation Builder permissions (coming soon) - Note: the Conversation Builder will be added to ‘permissions’ in May. Until that date, it will be available to all roles and users of accounts with the Conversation Builder enabled.
+
 ## Bug fixes
 
 ### \[WhatsApp\] Connector sends repeated irrelevant MTM (CX-146)
