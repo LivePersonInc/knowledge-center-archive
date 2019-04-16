@@ -34,7 +34,7 @@ There are three items under this tab:
 
 ![](/img/week-of-april-15th-2.png)
 
-### About permissions:
+#### About permissions:
 
 New items added to ‘profiles’ to enable brands to control who can view and utilize these tools:
 
