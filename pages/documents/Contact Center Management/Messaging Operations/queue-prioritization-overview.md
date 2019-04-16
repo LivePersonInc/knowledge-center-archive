@@ -10,6 +10,7 @@ permalink: contact-center-management-messaging-operations-queue-management-queue
 isTutorial: true
 date: 2019-01-16 08:25:55 +0000
 isNew: false
+published: false
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -22,6 +23,25 @@ Queue prioritization focuses agent resources on the conversations that matter mo
 * Increasing the customer satisfaction for the VIP consumers - lower wait times on high priority skills.
 
 Proper queue prioritization holds special weight in the world of contact centers since it sets the foundation for good customer service, agent efficiency and the ability to scale contact center’s operations. Learn how LivePerson has developed queue prioritization specifically for messaging to help brands overcome challenges and effectively manage one of the most central operations in a contact centers.
+
+## Benefits of queue prioritization
+
+**Handling more conversations** - By prioritizing interactive conversations first you can drive more conversations towards a resolution.
+
+**Allocate staff efficiently -** Efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in queues based on importance.
+
+**Aligning business strategy and reflect on which consumers you answer first** - Use business rules and select the most suitable prioritization approach according to your brands needs and strategy.
+
+**Increasing the customer satisfaction for the consumers that matter most to you** - Increase the customer satisfaction by lowering wait times on high priority skills.
+
+## What does queue prioritization do?
+
+The new prioritization algorithm allows brands to choose a custom blend of prioritization approaches for driving more actionable conversations towards a resolution. The approaches are:
+
+* Queue entrance time - Give priority to conversations according to their entrance time into the queue.
+* Conversation interactiveness - Give priority to conversations where the consumer has just written a message and therefore is considered more interactive.	
+
+Brands can also define their own business rules that dictate which conversations to prioritize based on the number of transfers the conversation has been through or by assigning a higher priority to conversations that are being transferred to or from a specific skill.
 
 ## Why queue prioritization is more important than ever
 
@@ -98,7 +118,7 @@ Queues in consists of brand new conversations, as well as those that have been t
 
 Out of the conversations considered actionable, and an additional mechanism filters by urgency and importance, based on settings predetermined by the brand and calculated as:
 
-### **Time multiplied by variables**
+### Time multiplied by variables
 
 #### **(the attributes discussed above)**
 
