@@ -42,7 +42,7 @@ This issue has now been resolved and when the conversation is closed, the welcom
 
 **Screenshots**
 
-**![](https://lh6.googleusercontent.com/pL3CfS5goPKTNAc7e1vr4T6Kdfb9T6tSbjWqMfE_vDxkjDkl-GtlUcCtHpypKAgPQp9obq7wyloPLga82mxhApSKN-oGWDgglfm9PFMCNdbJAwbxv6sC3UnemBp10GzS7xrttJ-4 =293x418)**
+![](/img/Webex2.png)
 
 ### Agent avatar appears next to visitor’s message when visitor sent an image (CX-169)
 
