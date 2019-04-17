@@ -8,7 +8,7 @@ level3: ''
 permalink: data-reporting-data-transporter-user-guide.html
 isTutorial: false
 isNew: false
-date: 2019-03-27 13:28:04 +0200
+date: 2019-03-27 11:28:04 +0000
 
 ---
 The Data Transporter application connects you with LiveEngage report exports from the suite of LiveEngage Data APIs, enabling users to benefit from the power and agility of the LiveEngage open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
@@ -34,8 +34,8 @@ Data Transporter allows you to:
 * Amount of scheduled tasks are limited per account
 * Single sign-on not currently supported
 
-{: .notice}_  
-_Be aware that some elements and usability may change as we finalize this feature. Customers must agree to the terms of use after login.
+{: .notice}  
+Be aware that some elements and usability may change as we finalize this feature. Customers must agree to the terms of use after login.
 
 ## How to access Data Transporter
 
@@ -179,8 +179,6 @@ After selecting a report, you will need to configure the following report option
 * Format: the output file format (from a list of available options)
 * Frequency: Weekly, Daily or Interval
   * For weekly, also choose the day and time to run _(timeframe = last 7 days)_
-
-
   * For daily, also choose the time of day to run _(timeframe = last 24 hours)_
   * For interval, also choose the time frequency to run _(timeframe will include the same amount of time as the time frequency selected)_
 * Delay: in some cases, API source data may be delayed in its completeness - where data completeness is strictly important, choose an option to delay the report from executing. For example, you may select:
@@ -211,7 +209,7 @@ This option allows you to securely save files to our existing LP servers - to re
 
 Securely upload files to your AWS S3 or Google Cloud Storage bucket -
 
-**_Important:_** _for these destinations, when providing your authorisation credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorisation keys._
+**_Important:_** _for these destinations, when providing your authorization credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorization keys._
 
 ### Editing Report Tasks
 
@@ -237,8 +235,8 @@ To download the report to your browser, just click the download icon.
 
 The HISTORY is also the location where you can find and retrieve reports delivered to LP Cloud - note that files saved to LP Cloud will automatically be removed within 28 days.
 
-{: .notice}**_  
-_**If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
+{: .notice}  
+If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
 
 ![](https://lh4.googleusercontent.com/EQzRFrnzjyimuRCiRrnTQTilro1g7HEtuQEPHSlpoJYn65gAIXyYtJIH7LYLXRCNKdgrAiD61d4O5cGEK127j9k00fSM3RUMRH3sEkLcK4bX1Qg4c77oILOEhRGtTTFg-GReksDp =524x132)
 
