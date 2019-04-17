@@ -9,12 +9,11 @@ permalink: release-notes-2019-april-week-of-april-22nd.html
 isTutorial: false
 isNew: false
 date: 2019-04-17 10:38:13 +0300
-published: false
 
 ---
 ## Bugs Fixes
 
-### Welcome message is sent in PCS (CX-320)
+### Welcome message is sent in Post Conversation Survey (CX-320)
 
 <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>SMS</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
 
@@ -23,6 +22,8 @@ When the welcome message is configured for “Every new conversation” and a Po
 This issue has now been resolved and when the conversation is closed, the welcome message will not be shown when the PCS is configured, even when the welcome message is configured for “Every new conversation”.
 
 **Screenshots**
+
+![](/img/Webex2.png)
 
 ### Agent avatar appears next to visitor’s message when visitor sent an image (CX-169)
 
