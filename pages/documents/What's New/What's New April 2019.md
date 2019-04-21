@@ -15,7 +15,9 @@ Welcome to the LivePerson Product Updates Newsletter for April
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
-Watch this 2 minute video:  [https://vimeo.com/330464670/b6eae19d30](https://vimeo.com/330464670/b6eae19d30 "https://vimeo.com/330464670/b6eae19d30")
+Watch this 2 minute video:
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/330464670" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Automation tab
 
