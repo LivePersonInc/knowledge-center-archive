@@ -1,9 +1,8 @@
 $(document).ready(function () {
 	var url = window.location.href;
-	console.log('loadrun');
-	//initialize smooth scroll
 	sideBarClick ();
 	sideBarCollapse ();
+	//initialize smooth scroll
 	var scroll = new SmoothScroll('a', {offset: 140});
 	mainBoxClick()
 	anchors.add('h2');
@@ -16,6 +15,9 @@ $(document).ready(function () {
 	capabilitiesSearch();
 	searchFunction();
 	searchHighlight();
+	$(document).ready(function () {
+	scrollToHash();
+	});
 	if (url.indexOf('casey') > -1) {
 		$('#defaultfooter').addClass('botfooter');
 	}
@@ -56,17 +58,6 @@ function navigateContent(url) {
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads
 			window.scrollTo(0, 0);
-			setTimeout(function () {
-				if (window.location.hash) {
-		    var hash = window.location.hash;
-				console.log(hash);
-		    window.location.hash = "";
-		    window.location.hash = hash;
-				var linkScroll = $('a[href*="' + hash + '"]');
-				var linkOffset = $(linkScroll).offset().top -350;
-				window.scrollTo(0, linkOffset);
-				}
-		  }, 300);
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#defaultsidebar').slideUp(400);
 				$('#defaultsidebar').data('expanded', 'false');
@@ -430,6 +421,20 @@ function agreeButton () {
 		$(banner).css('bottom', '-62px');
 		console.log('I agree');
 	})
+}
+
+function scrollToHash () {
+	setTimeout(function () {
+		if (window.location.hash && window.location.hash != "#top") {
+		var hash = window.location.hash;
+		console.log(hash);
+		window.location.hash = "";
+		window.location.hash = hash;
+		var linkScroll = $('a[href*="' + hash + '"]');
+		var linkOffset = $(linkScroll).offset().top - 380;
+		window.scrollTo(0, linkOffset);
+		}
+	}, 1000);
 }
 
 function isEdge () {
