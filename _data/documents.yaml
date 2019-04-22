@@ -237,6 +237,7 @@
         - pagename: IP address blocking
         - pagename: IP restriction
         - pagename: Whitelist your domains for LP monitoring
+        - pagename: Historic data masking 
     - subcategoryname: LivePerson disaster recovery
     - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
