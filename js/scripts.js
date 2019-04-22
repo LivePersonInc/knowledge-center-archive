@@ -54,6 +54,7 @@ function navigateContent(url) {
 			searchHighlight();
 			sideBarCollapse();
 			replaceTitle();
+			scrollToHash();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads
@@ -431,7 +432,7 @@ function scrollToHash () {
 		window.location.hash = "";
 		window.location.hash = hash;
 		var linkScroll = $('a[href*="' + hash + '"]');
-		var linkOffset = $(linkScroll).offset().top - 380;
+		var linkOffset = $(linkScroll).offset().top - 370;
 		window.scrollTo(0, linkOffset);
 		}
 	}, 1000);
