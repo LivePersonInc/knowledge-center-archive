@@ -16,10 +16,6 @@ published: false
 
 ### Reporting for Smart Capacity (LE-95785)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| Yes | No | No | No | No | No | No | No | No | No | Yes |
-
 **Available to all customers?** No (for Report Builder-enabled customers with CSO)
 
 Report Builder Advanced Messaging Performance, powered by the Analytics Group, now offers new metrics designed by Product indicating if Smart Capacity feature is well configured for the brand and how it impacts the brand’s efficiency.
@@ -64,7 +60,7 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 
 ## Bug fix
 
-### AC-Campaign - Interaction-history API [LE-99600](https://globaljira.liveperson.com/browse/LE-99600) 
+### AC-Campaign - Interaction-history API [LE-99600](https://globaljira.liveperson.com/browse/LE-99600)
 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
