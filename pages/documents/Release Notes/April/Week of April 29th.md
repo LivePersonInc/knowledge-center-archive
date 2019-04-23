@@ -99,23 +99,132 @@ With the new metrics, you can assess whether your contact center is staffed corr
 
 We have included the following metrics (all available at the agent, agent-group and skill levels):
 
-| --- |
-| Staffing related metrics |
-| Analysis Question | Metric | Definition |
-| - How much of the agent’s capacity is wasted?- Is the contact center overstaffed? | Available conversation slots ratio - Online | The percentage of the agent’s capacity which remains available (and unused) while online out of the configured logged-in capacity. Higher values for this metric can indicate of overstaffing.Formula:Cumulative Logged In & Online Available Capacity \\ Cumulative Logged In & Online Capacity |
-| Available conversation slots ratio | The percentage of the agent’s capacity which remains available (and unused) while online out of the total logged-in capacity. Higher values for this metric can indicate of overstaffing.Formula:Cumulative Logged In & Online Available Capacity \\ Cumulative Logged In Capacity |
-| How much time an actionable conversation waits in queue until being assigned?- Is the contact center understaffed? | AVG. time to assignment - actionable | The time on average a conversation remains in queue until assigned to an agent. Measured from the time the conversation entered the queue (including: new conversation, transfer to skill/back-to-queue, fallback from unsuccessful transfer-to-agent) until the time is was assigned to an agent. Calculated only for actionable conversations. |
-| Median Time to assignment - actionable | The median time a conversation remains in queue until assigned to an agent. Measured from the time the conversation entered the queue (including: new conversation, transfer to skill/back-to-queue, fallback from unsuccessful transfer-to-agent) until the time is was assigned to an agent. Calculated only for actionable conversations. |
-| Smart Capacity related metrics |
-| Analysis Question | Metric | Definition |
-| How much time does it take the agent to respond for the first time when his loaded with work?Is the agent correctly loaded with work? | AVG. Time to First Response from agent assignment - while fully loaded | The average time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned. |
-| Time to First Response from agent assignment - while fully loaded - 50th Percentile | The median time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned. |
-| Time to First Response from agent assignment - while fully loaded - 90th Percentile | The 90th percentile of time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned. |
-| How much time does it take the agent to respond when his loaded with work? | AVG. Time to Response from agent assignment - while fully loaded | The average time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation. |
-| Time to Response from agent assignment while fully loaded - 50th Percentile | The median time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation. |
-| Time to Response from agent assignment - while fully loaded - 90th Percentile | The 90th percentile of time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation. |
-| How much time does an agent spend idle in the peak hours (when he’s loaded with work)?Are there underutilized agents in the shift?Which part of the shift is wasted? | Ratio of Idle time while fully loaded | The percentage of time the agent is idle - spends time in between messages or delays to respond to a consumer message (over 120 sec). Measured for an agent while being online and fully loaded with conversations. |
-| How many conversations are agents resolving per hour? | Repeat corrected CCPLH | The number of conversations that were closed and the consumer didn’t reach back to the contact center within 1/3/7 days, per login-in hour.Formula: CCPLH * (1-RCR) |
+### Metrics definitions
+
+#### Staffing related metrics
+
+**Analysis questions:**
+
+* How much of the agent’s capacity is wasted?
+* Is the contact center overstaffed?
+
+##### Metric: Available conversation slots ratio - Online
+
+The percentage of the agent’s capacity which remains available (and unused) while online out of the configured logged-in capacity. Higher values for this metric can indicate of overstaffing.
+
+**Formula**:
+
+Cumulative Logged In & **Online** Available Capacity \\ Cumulative Logged In & **Online** Capacity
+
+**Metric: Available conversation slots ratio**
+
+The percentage of the agent’s capacity which remains available (and unused) while online out of the total logged-in capacity. Higher values for this metric can indicate of overstaffing.
+
+**Formula**:
+
+Cumulative Logged In & **Online** Available Capacity \\ Cumulative Logged In Capacity
+
+**Analysis Questions:**
+
+* How much time an actionable conversation waits in queue until being assigned?
+* Is the contact center understaffed?
+
+**Metric: AVG. time to assignment - actionable**
+
+The time on average a conversation remains in queue until assigned to an agent. Measured from the time the conversation entered the queue (including: new conversation, transfer to skill/back-to-queue, fallback from unsuccessful transfer-to-agent) until the time is was assigned to an agent. Calculated only for actionable conversations.
+
+**Metric: Median Time to assignment - actionable**
+
+The median time a conversation remains in queue until assigned to an agent. Measured from the time the conversation entered the queue (including: new conversation, transfer to skill/back-to-queue, fallback from unsuccessful transfer-to-agent) until the time is was assigned to an agent. Calculated only for actionable conversations.
+
+#### Smart Capacity related metrics
+
+**Analysis Question**
+
+* How much time does it take the agent to respond for the first time when his loaded with work?
+* Is the agent correctly loaded with work?
+
+**Metrics: AVG. Time to First Response from agent assignment - while fully loaded**
+
+The average time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned.
+
+**Metric: Time to First Response from agent assignment - while fully loaded - 50th Percentile**
+
+The median time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned.
+
+**Metric:Time to First Response from agent assignment - while fully loaded - 90th Percentile**
+
+The 90th percentile of time taken by an agent, while being fully loaded with conversations, to respond to the first message a consumer sent. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for the first agent message sent in a new conversation and after the conversation was transferred, from the time the agent was assigned.
+
+**Analysis question:**
+
+* How much time does it take the agent to respond when he loaded with work?
+
+  **Metric: AVG. Time to Response from agent assignment - while fully loaded**
+
+The average time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Metric: Time to Response from agent assignment while fully loaded - 50th Percentile**
+
+The median time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Metric: Time to Response from agent assignment - while fully loaded - 90th Percentile**
+
+The 90th percentile of time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Analysis question:**
+
+* How much time does it take the agent to respond when he is loaded with work?
+
+**Metric: AVG. Time to Response from agent assignment - while fully loaded**
+
+The average time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Metric: Time to Response from agent assignment while fully loaded - 50th Percentile**
+
+The median time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Metric: Time to Response from agent assignment - while fully loaded - 90th Percentile**
+
+The 90th percentile of time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
+
+Measured for all the agent messages sent in a conversation excluding the first response, from the time the agent was assigned to the conversation.
+
+**Analysis question:**
+
+* How much time does an agent spend idle in the peak hours (when he’s loaded with work)?
+* Are there underutilized agents in the shift?
+* Which part of the shift is wasted?
+
+**Metric: Ratio of Idle time while fully loaded**
+
+The percentage of time the agent is idle - spends time in between messages or delays to respond to a consumer message (over 120 sec). Measured for an agent while being online and fully loaded with conversations.
+
+**Analysis question:**
+
+* How many conversations are agents resolving per hour?
+
+  **Metric: Repeat corrected CCPLH**
+
+The number of conversations that were closed and the consumer didn’t reach back to the contact center within 1/3/7 days, per login-in hour.
+
+Formula: CCPLH * (1-RCR)
 
 **How to enable**
 
