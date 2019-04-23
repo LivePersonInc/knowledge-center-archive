@@ -5,7 +5,7 @@ $(document).ready(function () {
 	//initialize smooth scroll
 	var scroll = new SmoothScroll('a', {offset: 140});
 	mainBoxClick()
-	anchors.add('h2');
+	anchors.add('h2, h3');
 	populateAnchors();
 	mobileHamburger();
 	isExplorer();
@@ -54,7 +54,6 @@ function navigateContent(url) {
 			searchHighlight();
 			sideBarCollapse();
 			replaceTitle();
-			scrollToHash();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
 			//jump to top when page loads
