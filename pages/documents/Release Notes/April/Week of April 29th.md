@@ -9,7 +9,6 @@ permalink: release-notes-2019-april-week-of-april-29th.html
 isTutorial: false
 isNew: false
 date: 2019-04-23 19:29:39 +0300
-published: false
 
 ---
 ## New functionality
