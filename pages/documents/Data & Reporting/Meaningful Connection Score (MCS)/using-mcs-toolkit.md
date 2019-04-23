@@ -12,6 +12,9 @@ date: 2019-01-22 13:45:11 +0000
 isNew: false
 
 ---
+
+<div class="important">Please <a href="https://knowledge.liveperson.com/data-reporting-meaningful-connection-score-(mcs)-accessing-the-toolkit.html">see this page</a> for updated information on how to access the MCS Toolkit</div>
+
 ## Main dashboard
 
 The main dashboard displays key MCS data for each agent via the Agent Scorecard, as well as additional insights from various widgets. The burger menu to the top right allows the user to switch between chat and messaging data.
