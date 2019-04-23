@@ -16,6 +16,70 @@ published: false
 
 ### Reporting for Smart Capacity (LE-95785)
 
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
 **Available to all customers?** No (for Report Builder-enabled customers with CSO)
 
 Report Builder Advanced Messaging Performance, powered by the Analytics Group, now offers new metrics designed by Product indicating if Smart Capacity feature is well configured for the brand and how it impacts the brand’s efficiency.
@@ -60,11 +124,71 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 
 ## Bug fix
 
-### AC-Campaign - Interaction-history API [LE-99600](https://globaljira.liveperson.com/browse/LE-99600)
+### AC-Campaign - Interaction-history API (LE99600)
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Web Messaging | Mobile App Messaging | Twilio | Facebook | ABC | Line | RCS Business Messaging | Google My Business | WhatsApp | CM | Chat |
-| No | No | No | No | No | No | No | No | No | No | Yes |
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>SMS</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 In interaction-history api the ac-client for fetching campaign gets all the relevant information of the campaign.
 
