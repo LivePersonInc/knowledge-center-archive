@@ -220,7 +220,7 @@ The percentage of time the agent is idle - spends time in between messages or de
 
 * How many conversations are agents resolving per hour?
 
- **Metric: Repeat corrected CCPLH**
+**Metric: Repeat corrected CCPLH**
 
 The number of conversations that were closed and the consumer didn’t reach back to the contact center within 1/3/7 days, per login-in hour.
 
