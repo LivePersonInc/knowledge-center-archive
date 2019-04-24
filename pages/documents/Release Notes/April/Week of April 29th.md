@@ -166,7 +166,7 @@ Measured for the first agent message sent in a new conversation and after the co
 
 * How much time does it take the agent to respond when he loaded with work?
 
-  **Metric: AVG. Time to Response from agent assignment - while fully loaded**
+**Metric: AVG. Time to Response from agent assignment - while fully loaded**
 
 The average time taken by an agent, while being fully loaded with conversations, to respond to the consumer during the conversation. The agent is defined as fully loaded when there is no more free capacity for conversation to be assigned.
 
