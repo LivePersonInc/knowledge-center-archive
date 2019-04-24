@@ -108,7 +108,7 @@ We have included the following metrics (all available at the agent, agent-group 
 * How much of the agent’s capacity is wasted?
 * Is the contact center overstaffed?
 
-##### Metric: Available conversation slots ratio - Online
+**Metric: Available conversation slots ratio - Online**
 
 The percentage of the agent’s capacity which remains available (and unused) while online out of the configured logged-in capacity. Higher values for this metric can indicate of overstaffing.
 
@@ -220,13 +220,13 @@ The percentage of time the agent is idle - spends time in between messages or de
 
 * How many conversations are agents resolving per hour?
 
-  **Metric: Repeat corrected CCPLH**
+ **Metric: Repeat corrected CCPLH**
 
 The number of conversations that were closed and the consumer didn’t reach back to the contact center within 1/3/7 days, per login-in hour.
 
 Formula: CCPLH * (1-RCR)
 
-**How to enable**
+#### How to enable 
 
 An updated copy of the Advanced Messaging Performance Dashboard may be requested from [Analytics@liveperson.com](mailto:Analytics@liveperson.com)
 
