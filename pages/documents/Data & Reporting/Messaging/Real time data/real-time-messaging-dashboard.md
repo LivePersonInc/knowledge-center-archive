@@ -76,7 +76,7 @@ If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage
 
 Please consider simultaneous login method - however, in order to access the Real time dashboard via Agent SSO:
 
-1. Refer to [SSO Guide](Security-regulations-SSO-unified-login.html)
+1. Refer to [SSO Guide](security-regulations-sso-unified-login.html)
 2. Ensure that the **lpservice** URL parameter referred to in the “Configuration on the Customer’s Environment” section of the SSO guide is equal to **rtDashboard** (e.g. lpservice=rtDashboard)
 
 ## Exploring the real time dashboard
