@@ -206,53 +206,6 @@ Agents will now be able to share photos with consumers in order to answer questi
 
 To enable “Agent file sharing” capability on your LiveEngage account, please contact your LivePerson account team.
 
-### Consumer Step Up (CO-183)
-
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>SMS</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>N/A</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-
-**Available to all customers:** Yes (Customers using async messaging supported by consumer journey driven engagements)
-
-The Step Up Authentication feature will allow consumers to authenticate in the middle of the conversation. No new conversation will be created for the same consumer. Instead, authenticated user will be added to the existing conversation and agent will be able to see unauthenticated conversation history maintaining the continuity of the conversation. Agent will also able to see consumer PII information reflected in the live conversation. The feature will support either consumer or agent initiating the step up from unauthenticated state to authenticated state during the conversation. The authenticated conversation history will not be visible in the consumer window when the consumer has logged out. Consumer can log back in to see the complete conversation history.
-
-**How to configure?**
-
-To enable Step Up feature please contact you LivePerson account team
-
-**Dependencies**
-
-There are a few dependencies for this feature. Please contact your LivePerson account manager to check you have all the latest versions.
-
 ### Language support for an existing feature (MCS) - Italian and Japanese
 
 <table class="releasenotes">
