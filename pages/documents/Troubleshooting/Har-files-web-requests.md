@@ -1,14 +1,14 @@
 ---
-pagename: HAR files and web requests
+pagename: HAR files web requests and web traffic
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: chat
 subtitle: How to generate HAR Files and analyze web requests for troubleshooting
 level3: ''
-permalink: troubleshooting-har-files-and-web-requests.html
+permalink: troubleshooting-har-files-web-requests-and-web-traffic.html
 isTutorial: false
 isNew: false
-date: 2019-04-02 14:01:50 +0300
+date: 2019-04-02 11:01:50 +0000
 
 ---
 When troubleshooting complex issues, it's sometimes necessary for our support agents to get some additional information from you in order to troubleshoot the issue further. For example, when we receive a report of performance trouble when using LiveEngage there are a lot of different factors that may contribute to the problem. To narrow down the cause of the performance problem, we need more data.
@@ -79,4 +79,42 @@ Microsoft's[ Using Windows Internet Explorer Developer Tools Network Capture](ht
 
 ## Generating a HAR File from Safari
 
-Safari comes with its own[ Safari Web Development Tools](https://developer.apple.com/technologies/safari/developer-tools.html) .
+Safari comes with its own[ Safari Web Development Tools](https://developer.apple.com/technologies/safari/developer-tools.html).
+
+## Recording web traffic with Fiddler
+
+{: .notice}  
+Fiddler is not part of LivePerson's product set. Although we recommend using it, LivePerson does not provide support for Fiddler.
+
+### Instructions: 
+
+The two main steps required to record web traffic with Fiddler are:
+
+* Setting Up Fiddler
+* Recording a Session
+
+### How to set up fiddler
+
+Before recording a session, make sure the HTTPS option is checked as follows:
+
+1\. Download Fiddler (free software) from [Download Fiddler Web Debugging Tool for Free by Telerik.](https://www.telerik.com/download/fiddler)
+
+2\. Open Fiddler and click Tools  -> Fiddler Options.
+
+ 3. Click the HTTPS tab.
+
+ 4. Select the options Capture HTTPS CONNECTS and Decrypt HTTPS traffic; then click OK to complete the setup.
+
+ 5. On the WARNING: Sharp Edges window that opens, click Yes to trust the Fiddler Root Certificate.
+
+ 6. On the Security Warning window, click Yes to install the Fiddler Root Certificate.
+
+### Recording a session
+
+1\. Click File -> Capture Traffic to begin capturing traffic.
+
+2\. Once you've finished recording, click File -> Save -> All Sessions.
+
+ 3. If a Privacy Notice displays, click OK to approve. (A notice may display, the first time you save a session.)
+
+ 4. Enter a name for the recording file and click Save. The session is saved to the file you specified.
