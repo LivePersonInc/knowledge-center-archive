@@ -11,8 +11,6 @@ isNew: false
 date: 2019-03-26 14:17:05 +0000
 
 ---
-{: .important}
-**Please note:** Transfer to agent will be available in early April 2019.
 
 ## Introduction
 
