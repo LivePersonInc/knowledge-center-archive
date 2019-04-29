@@ -313,7 +313,7 @@
     - subcategoryname: Bots
     - subcategoryname: 'Data & Reporting'
     - subcategoryname: Case management support
-    - subcategoryname: HAR files and web requests
+    - subcategoryname: HAR files web requests and web traffic
 
 - categoryname: FAQs
   image: faqs
