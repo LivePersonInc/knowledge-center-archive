@@ -141,7 +141,8 @@ The following is an example of a candidate interview guide to be modified as app
 20. What skill or behavior will your manager need to spend the most time coaching you on? 
 21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel? 
 22. In your previous sales jobs, how often have you achieved established sales goals? 
-23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified? 24. What personal characteristics are needed for successful eSales? Which ones do you possess?
+23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified
+24. What personal characteristics are needed for successful eSales? Which ones do you possess?
 
 ### Career orientation
 
