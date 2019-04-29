@@ -18,7 +18,7 @@ Today, conversations and messaging is the most effective way for brands to inter
 
 Once a brand embraces messaging they need a way to scale their contact center operations in order to support the personalized, accessible, and always-on relationship that messaging enables. LivePerson is leading the industry in the adoption of messaging through a conversational platform that combines bots, automaton and AI to enable this scalable transformation.
 
-https://vimeo.com/330745951/ea9c3828c6
+ <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/330745951" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Unique benefits of the Conversation Builder
 
