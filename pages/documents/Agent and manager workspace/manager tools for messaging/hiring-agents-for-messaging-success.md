@@ -39,7 +39,7 @@ Recommended adaptations to the current hiring and screening process include:
 1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage messaging.
 2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using web messaging, Hangouts, Facebook Messenger or similar. Look for:
    1. Ability to interpret your questions through the messaging medium
-   2. Crisp, Clear, understandable responses.
+   2. Crisp, clear, understandable responses
    3. Grammar, punctuation, and spelling
    4. Appropriate paraphrasing or questioning
 3. After this brief exercise, finish the interview over the phone to test the candidate’s speaking and listening skills.
@@ -105,51 +105,51 @@ The following is an example of a candidate interview guide to be modified as app
 ### Logic & problem solving
 
 {:start="3"}
-3. Describe a recent problem you experienced and explain how you resolved the issue.
-4. Tell me about your most challenging job that required you to be a problem solver.
-5. Some people like to plan their day in advance - How do you do this? (Look for orderliness, ability to strategize/plan)
-6. Tell me about instances when you have had to work under pressure to complete a task on time.
+3\. Describe a recent problem you experienced and explain how you resolved the issue.
+4\. Tell me about your most challenging job that required you to be a problem solver.
+5\. Some people like to plan their day in advance - How do you do this? (Look for orderliness, ability to strategize/plan)
+6\. Tell me about instances when you have had to work under pressure to complete a task on time.
 
 ### Innovation
 
-{:start="7"} 
-7. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome. 
-8. There can be a lot rejection and stress associated with sales. What do you do to relieve the tension and stress?
+{:start="7"}
+7\. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome.
+8\. There can be a lot rejection and stress associated with sales. What do you do to relieve the tension and stress?
 
 ### Technology literacy
 
 {:start="9"}
-9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
-10. What do you use the internet for? Tell me about your experiences looking for information on the net.
-11. What is e-Commerce? Have you ever used it? Give examples.
-12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
+9\. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
+10\. What do you use the internet for? Tell me about your experiences looking for information on the net.
+11\. What is e-Commerce? Have you ever used it? Give examples.
+12\. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
 
 ### Competitive team environment
 
 {:start="13"}
-13. In your opinion, what are the major characteristics of a successful work team? Which characteristic do you feel is most important? How have you displayed it?
-14. When have you had to work with a team of people? - What didn't you like about it? How did you resolve differences of opinion?
+13\. In your opinion, what are the major characteristics of a successful work team? Which characteristic do you feel is most important? How have you displayed it?
+14\. When have you had to work with a team of people? - What didn't you like about it? How did you resolve differences of opinion?
 
 ### Sales experience
 
 {:start="15"}
-15. Tell me about your work experience. How much of it has been sales oriented? 
-16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive. 
-17. What personal characteristics do you have that would make you successful in messaging sales or service? 
-18. What type of goals do you set for yourself? What has been your track record in sales achievement? 
-19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging? 
-20. What skill or behavior will your manager need to spend the most time coaching you on? 
-21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel? 
-22. In your previous sales jobs, how often have you achieved established sales goals? 
-23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified
-24. What personal characteristics are needed for successful eSales? Which ones do you possess?
+15\. Tell me about your work experience. How much of it has been sales oriented?
+16\. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive.
+17\. What personal characteristics do you have that would make you successful in messaging sales or service?
+18\. What type of goals do you set for yourself? What has been your track record in sales achievement?
+19\. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging?
+20\. What skill or behavior will your manager need to spend the most time coaching you on?
+21\. What's the biggest challenge you foresee in lead generation/sales in a messaging channel?
+22\. In your previous sales jobs, how often have you achieved established sales goals?
+23\. What was it about the advertisement that enticed you to apply? Why did you think you were qualified
+24\. What personal characteristics are needed for successful eSales? Which ones do you possess?
 
 ### Career orientation
 
 {:start="25"}
-25. What would be your key decision-making criteria if you had two job offers?
-26. What's been your most successful endeavor in your personal or professional life?
-27. What strengths do you possess that would make the company want to hire you?
-28. What's the longest period you've been employed by the same company? Why did you stay that long?
-29. What is the shortest period you've been employed by the same company? Why did you leave so soon?
-30. What personal or professional goals have you set for yourself?
+25\. What would be your key decision-making criteria if you had two job offers?
+26\. What's been your most successful endeavor in your personal or professional life?
+27\. What strengths do you possess that would make the company want to hire you?
+28\. What's the longest period you've been employed by the same company? Why did you stay that long?
+29\. What is the shortest period you've been employed by the same company? Why did you leave so soon?
+30\. What personal or professional goals have you set for yourself?
