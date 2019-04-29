@@ -49,7 +49,7 @@ Recommended adaptations to the current hiring and screening process include:
 
 Below is an example. Adjust in accordance with your goals and hiring policies.
 
-### Position Overview
+### Position overview
 
 The messaging agent is chartered to maintain a healthy brand-to-consumer relationship that benefits the consumer while protecting and growing our revenue. As an agent, you’ll communicate with consumers in your Book of Business primarily through messaging. Brand-to-consumer messaging creates an experience similar to consumer-consumer messaging (i.e., SMS, Hangouts, Facebook Messenger., WhatsApp, etc.).
 
@@ -91,7 +91,7 @@ Unlike other forms of communication, messaging grants both you and the consumer 
 * Actively participate in scheduled coaching, mentoring and training meetings.
 * Fully cooperate with all monitoring and coaching activities to improve personal skills and performance results.
 
-## Candidate interview questions/ exercises
+## Candidate interview questions/exercises
 
 ### Overview
 
