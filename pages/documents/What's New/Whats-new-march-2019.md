@@ -15,10 +15,8 @@ Welcome to the LivePerson Product Updates Newsletter for March
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in March 2019 - all designed to help you make even more meaningful connections. We hope you enjoy using them!
 
-Click [here](https://vimeo.com/325195511/93108c2cf8) to watch our 2 minute video
-
-![](/img/02_EmailThumbnail (3)-1.jpg)
-
+ <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/325195511" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ 
 ## Configuring welcome message using Quick Replies
 
 Allows brands to send the first message (after a consumer has opened conversation window) with a list of quick replies of common intents to be addressed over messaging.
