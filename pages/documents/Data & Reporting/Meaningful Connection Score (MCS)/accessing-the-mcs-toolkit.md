@@ -45,7 +45,7 @@ There are three methods to login to the MCS toolkit:
 
 In order to access the MCS toolkit via Agent SSO:
 
-1. Refer to [SSO Guide](Security-regulations-SSO-unified-login.html)
+1. Refer to [SSO Guide](security-regulations-sso-unified-login.html)
 2. Ensure that the lpservice URL parameter referred to in the “configuration on the customer’s environment” section of the SSO guide is equal to mcs (e.g. lpservice=mcs)
 
 ### Once you are logged in you will be able to:

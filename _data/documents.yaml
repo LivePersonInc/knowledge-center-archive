@@ -135,6 +135,7 @@
       pages:
         - pagename: The messaging agents list
         - pagename: All connections
+        - pagename: Hiring agents for messaging success 
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent workspace for live chat

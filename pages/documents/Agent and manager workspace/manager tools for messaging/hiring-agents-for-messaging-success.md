@@ -8,52 +8,52 @@ level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-hiring-agents-for-messaging-success.html
 isTutorial: false
 isNew: false
-date: 2019-04-15 15:17:36 +0300
+date: 2019-04-15 12:17:36 +0000
 
 ---
 ## Introduction
 
-LiveEngage equips Agents with the best tools possible to create meaningful connections with consumers. The workspace is designed to drive efficiency and, at the same time, is conducive to longer term, more personalized conversations.
+LiveEngage equips agents with the best tools possible to create meaningful connections with consumers. The workspace is designed to drive efficiency and, at the same time, is conducive to longer term, more personalized conversations.
 
 ## Hiring considerations
 
-Messaging Agents should possess the following traits:
+Messaging agents should possess the following traits:
 
-* Written communication skills. Agents must have the ability to communicate online in a conversational manner that promotes dialogue and establishes rapport. Agents must avoid poor grammar, misstatements or lengthy explanation. Online writing necessitates that Agents have an aptitude for knowing when to apply the “do’s and don’ts” of online communication. (LivePerson can help in this area by providing your Agents with training in our “SURA” methodology).
-* Typing Skills - The ability to type at a reasonable pace, 38-40 words a minute (WPM). Interestingly, Messaging allows for more time flexibility than traditional Chat, so typing speed is less important. For comparison, 65-75 WPM is often preferred for Chat Agents.
-* Multi-tasking. Agents need to be able to simultaneously provide product information, use sales and service engagement skills, and efficiently use traditional sales and service resources, such as marketing collateral or CRM systems.
-* Technology comfort and know-how. Agents must be adept at using LiveEngage, other technology and automation tools.
-* App, Web-Site, SMS and Facebook Portal (if applicable) savvy. Consumers who accept an engagement will have high expectations of the Agent’s knowledge. Agents should maintain a high level of familiarity with the digital property the Consumer is using
-* Analytical and judgment skills. Agents need to “read between the lines”. Visitors don’t necessarily have good writing skills and Agents may have to interpret what the visitor is really asking by responding with a clarifying question or statement.
-* Proven sales ability - even if the Agent is Service focused, the ability to encourage the Consumer to take action is beneficial.
-* Flexibility. Agents need to be able to adapt to continual change as the department fine-tunes the Messaging program.
+* **Written communication skills:** Agents must have the ability to communicate online in a conversational manner that promotes dialogue and establishes rapport. Agents must avoid poor grammar, misstatements or lengthy explanation. Online writing necessitates that agents have an aptitude for knowing when to apply the “do’s and don’ts” of online communication. (LivePerson can help in this area by providing your agents with training in our “SURA” methodology).
+* **Typing skills:** The ability to type at a reasonable pace, 38-40 words a minute (WPM). Interestingly, messaging allows for more time flexibility than traditional chat, so typing speed is less important. For comparison, 65-75 WPM is often preferred for chat agents.
+* **Multi-tasking:** Agents need to be able to simultaneously provide product information, use sales and service engagement skills, and efficiently use traditional sales and service resources, such as marketing collateral or CRM systems.
+* **Technology comfort and know-how:** Agents must be adept at using LiveEngage, other technology and automation tools.
+* **App, Web-Site, SMS and Facebook Portal (if applicable) savvy:** Consumers who accept an engagement will have high expectations of the agent’s knowledge. Agents should maintain a high level of familiarity with the digital property the consumer is using
+* **Analytical and judgment skills:** Agents need to “read between the lines." Visitors don’t necessarily have good writing skills and agents may have to interpret what the visitor is really asking by responding with a clarifying question or statement.
+* **Proven sales ability:** Even if the agent is service focused, the ability to encourage the consumer to take action is beneficial.
+* **Flexibility:** Agents need to be able to adapt to continual change as the department fine-tunes the messaging program.
 
 ## Applicant screening process
 
 ### Overview
 
-LivePerson recommends screening for agents that demonstrate the traits above, which may require modification to the established hiring and screening process. Note that the recommended adaptations are intended for use with current phone/email employees as well as new hires. Not all successful phone or email agents will automatically make successful Messaging Agents; some of the traits mentioned earlier are not required for success in Phone or Email interactions.
+LivePerson recommends screening for agents that demonstrate the traits above, which may require modification to the established hiring and screening process. Note that the recommended adaptations are intended for use with current phone/email employees as well as new hires. Not all successful phone or email agents will automatically make successful messaging agents; some of the traits mentioned earlier are not required for success in phone or email interactions.
 
 Recommended adaptations to the current hiring and screening process include:
 
-1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage Messaging.
-2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using Messaging conducting the initial “interview” using Web Messaging, Hangouts, Facebook Messenger or similar. Look for:
-3. Ability to interpret your questions through the Messaging medium
-4. Crisp, Clear, understandable responses.
-5. Grammar, punctuation, and spelling
-6. Appropriate paraphrasing or questioning
-7. After this brief exercise, finish the interview over the phone to test the candidate’s speaking and listening skills.
-8. Perform face-to-face interviews with candidates who pass the screening interview to determine whether or not the applicant appears to be a good fit in your organization. During the onsite interview, hiring managers should again screen for the applicant’s ability to demonstrate the requisite skill sets. A final role-play will help solidify your hiring decision.
+1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage messaging.
+2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using web messaging, Hangouts, Facebook Messenger or similar. Look for:
+   1. Ability to interpret your questions through the messaging medium
+   2. Crisp, Clear, understandable responses.
+   3. Grammar, punctuation, and spelling
+   4. Appropriate paraphrasing or questioning
+3. After this brief exercise, finish the interview over the phone to test the candidate’s speaking and listening skills.
+4. Perform face-to-face interviews with candidates who pass the screening interview to determine whether or not the applicant appears to be a good fit in your organization. During the onsite interview, hiring managers should again screen for the applicant’s ability to demonstrate the requisite skill sets. A final role-play will help solidify your hiring decision.
 
 ## Agent position description
 
 Below is an example. Adjust in accordance with your goals and hiring policies.
 
-### Position Overview
+### Position overview
 
-The Messaging Agent is chartered to maintain a healthy Brand-to-Consumer relationship that benefits the Consumer while protecting and growing our revenue. As an Agent, you’ll communicate with Consumers in your Book of Business primarily through Messaging. Brand-to-Consumer Messaging creates an experience similar to Consumer-Consumer Messaging (i.e., SMS, Hangouts, Facebook Messenger., WhatsApp, etc.).
+The messaging agent is chartered to maintain a healthy brand-to-consumer relationship that benefits the consumer while protecting and growing our revenue. As an agent, you’ll communicate with consumers in your Book of Business primarily through messaging. Brand-to-consumer messaging creates an experience similar to consumer-consumer messaging (i.e., SMS, Hangouts, Facebook Messenger., WhatsApp, etc.).
 
-Unlike other forms of communication, Messaging grants both you and the Consumer time flexibility, and keeps you connected even after the immediate question has been answered. The result is a superior customer service experience for the Consumer, and a superior professional experience for you - where you can personalize your interactions and have a meaningful impact on our business.
+Unlike other forms of communication, messaging grants both you and the consumer time flexibility, and keeps you connected even after the immediate question has been answered. The result is a superior customer service experience for the consumer, and a superior professional experience for you - where you can personalize your interactions and have a meaningful impact on our business.
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ Unlike other forms of communication, Messaging grants both you and the Consumer 
 * General knowledge of computers and business operations
 * Proven ability to communicate articulately and credibly
 * Solid keyboard skills and experience using helpdesk, ordering or CRM software
-* Demonstrated ability to achieve Sales/Service goals
+* Demonstrated ability to achieve sales/service goals
 * Success in highly automated environment
 * Proven lead qualification skills with a strong sales aptitude
 * Lead generation/selling skills training from a previous employment situation
@@ -83,7 +83,7 @@ Unlike other forms of communication, Messaging grants both you and the Consumer 
 ### Agents tasks
 
 * Establish and nurture prospect relationships to satisfy service inquiries, or to sell products and services.
-* Consistently use LiveEngage and other systems to keep accurate records of all completed and scheduled Consumer activity.
+* Consistently use LiveEngage and other systems to keep accurate records of all completed and scheduled consumer activity.
 * Make every effort to use effective lead qualification skills to improve personal performance.
 * Strive to meet and exceed assigned performance goals (individual).
 * Coordinate, as needed, with other service/sales personnel to ensure the most expeditious completion of the service/sales process.
@@ -91,11 +91,11 @@ Unlike other forms of communication, Messaging grants both you and the Consumer 
 * Actively participate in scheduled coaching, mentoring and training meetings.
 * Fully cooperate with all monitoring and coaching activities to improve personal skills and performance results.
 
-## Candidate interview questions/ exercises
+## Candidate interview questions/exercises
 
 ### Overview
 
-The following is an example of a Candidate Interview Guide to be modified as appropriate. The point rating system will need to be determined and weighted to your environment. The Interview Guide questions assume the candidate has successfully passed the online interview. Sample questions include:
+The following is an example of a candidate interview guide to be modified as appropriate. The point-rating system will need to be determined and weighted to your environment. The interview guide questions assume the candidate has successfully passed the online interview. Sample questions include:
 
 ### Business knowledge
 
@@ -112,15 +112,15 @@ The following is an example of a Candidate Interview Guide to be modified as app
 
 ### Innovation
 
-{:start="7"}
-7. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome.
-8. There can be a lot rejection and stress associated with Sales. What do you do to relieve the tension and stress?
+{:start="7"} 
+7. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome. 
+8. There can be a lot rejection and stress associated with sales. What do you do to relieve the tension and stress?
 
 ### Technology literacy
 
 {:start="9"}
 9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
-10. What do you use the Internet for? Tell me about your experiences looking for information on the net.
+10. What do you use the internet for? Tell me about your experiences looking for information on the net.
 11. What is e-Commerce? Have you ever used it? Give examples.
 12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
 
@@ -133,15 +133,15 @@ The following is an example of a Candidate Interview Guide to be modified as app
 ### Sales experience
 
 {:start="15"}
-15. Tell me about your work experience. How much of it has been sales oriented?
-16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive.
-17. What personal characteristics do you have that would make you successful in Messaging Sales or Service?
-18. What type of goals do you set for yourself? What has been your track record in sales achievement?
-19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into Messaging?
-20. What skill or behavior will your manager need to spend the most time coaching you on?
-21. What's the biggest challenge you foresee in lead generation/sales in a Messaging channel?
-22. In your previous sales jobs, how often have you achieved established sales goals?
-23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified?
+15. Tell me about your work experience. How much of it has been sales oriented? 
+16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive. 
+17. What personal characteristics do you have that would make you successful in messaging sales or service? 
+18. What type of goals do you set for yourself? What has been your track record in sales achievement? 
+19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging? 
+20. What skill or behavior will your manager need to spend the most time coaching you on? 
+21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel? 
+22. In your previous sales jobs, how often have you achieved established sales goals? 
+23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified
 24. What personal characteristics are needed for successful eSales? Which ones do you possess?
 
 ### Career orientation
