@@ -1,4 +1,4 @@
-.highlight  { background: #f5f5f5; margin-top: 10px; padding-left: 5px;}
+.highlight  { background: #f5f5f5; margin-top: 10px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px;}
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #808080 } /* Comment */
 .highlight .err { color: #F00000; background-color: #F0A0A0 } /* Error */
