@@ -39,7 +39,7 @@ Recommended adaptations to the current hiring and screening process include:
 1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage messaging.
 2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using web messaging, Hangouts, Facebook Messenger or similar. Look for:
    1. Ability to interpret your questions through the messaging medium
-   2. Crisp, Clear, understandable responses.
+   2. Crisp, clear, understandable responses
    3. Grammar, punctuation, and spelling
    4. Appropriate paraphrasing or questioning
 3. After this brief exercise, finish the interview over the phone to test the candidate’s speaking and listening skills.
@@ -57,7 +57,7 @@ Unlike other forms of communication, messaging grants both you and the consumer 
 
 ### Prerequisites
 
-* 2 - 3 years proven experience in a contact center environment
+* 2-3 years proven experience in a contact center environment
 * College degree or equivalent experience
 * General knowledge of computers and business operations
 * Proven ability to communicate articulately and credibly
@@ -112,17 +112,16 @@ The following is an example of a candidate interview guide to be modified as app
 
 ### Innovation
 
-{:start="7"} 
-7. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome. 
+{:start="7"}
+7. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome.
 8. There can be a lot rejection and stress associated with sales. What do you do to relieve the tension and stress?
 
 ### Technology literacy
 
-{:start="9"}
-9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
-10. What do you use the internet for? Tell me about your experiences looking for information on the net.
-11. What is e-Commerce? Have you ever used it? Give examples.
-12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
+{:start="9"} 
+9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications? 
+10. What do you use the internet for? Tell me about your experiences looking for information on the net. 
+11. What is e-commerce? Have you ever used it? Give examples. 12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
 
 ### Competitive team environment
 
@@ -133,14 +132,14 @@ The following is an example of a candidate interview guide to be modified as app
 ### Sales experience
 
 {:start="15"}
-15. Tell me about your work experience. How much of it has been sales oriented? 
-16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive. 
-17. What personal characteristics do you have that would make you successful in messaging sales or service? 
-18. What type of goals do you set for yourself? What has been your track record in sales achievement? 
-19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging? 
-20. What skill or behavior will your manager need to spend the most time coaching you on? 
-21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel? 
-22. In your previous sales jobs, how often have you achieved established sales goals? 
+15. Tell me about your work experience. How much of it has been sales oriented?
+16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive.
+17. What personal characteristics do you have that would make you successful in messaging sales or service?
+18. What type of goals do you set for yourself? What has been your track record in sales achievement?
+19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging?
+20. What skill or behavior will your manager need to spend the most time coaching you on?
+21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel?
+22. In your previous sales jobs, how often have you achieved established sales goals?
 23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified
 24. What personal characteristics are needed for successful eSales? Which ones do you possess?
 
