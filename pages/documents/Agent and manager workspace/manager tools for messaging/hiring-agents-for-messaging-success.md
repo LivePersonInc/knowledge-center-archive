@@ -120,7 +120,7 @@ The following is an example of a candidate interview guide to be modified as app
 
 {:start="9"}
 9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
-10. What do you use the Internet for? Tell me about your experiences looking for information on the net.
+10. What do you use the internet for? Tell me about your experiences looking for information on the net.
 11. What is e-Commerce? Have you ever used it? Give examples.
 12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
 
