@@ -57,7 +57,7 @@ Unlike other forms of communication, messaging grants both you and the consumer 
 
 ### Prerequisites
 
-* 2 - 3 years proven experience in a contact center environment
+* 2-3 years proven experience in a contact center environment
 * College degree or equivalent experience
 * General knowledge of computers and business operations
 * Proven ability to communicate articulately and credibly
