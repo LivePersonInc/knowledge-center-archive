@@ -113,9 +113,11 @@ The following is an example of a candidate interview guide to be modified as app
 
 ### Innovation
 
-{:start="7"}
-7\. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome.
-8\. There can be a lot rejection and stress associated with Sales. What do you do to relieve the tension and stress?
+{:start="7"} 
+
+7\. Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome. 
+
+8\. There can be a lot rejection and stress associated with sales. What do you do to relieve the tension and stress?
 
 ### Technology literacy
 
@@ -133,17 +135,7 @@ The following is an example of a candidate interview guide to be modified as app
 
 ### Sales experience
 
-{:start="15"}
-15\. Tell me about your work experience. How much of it has been sales oriented?
-16\. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive.
-17\. What personal characteristics do you have that would make you successful in Messaging Sales or Service?
-18\. What type of goals do you set for yourself? What has been your track record in sales achievement?
-19\. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into Messaging?
-20\. What skill or behavior will your manager need to spend the most time coaching you on?
-21\. What's the biggest challenge you foresee in lead generation/sales in a Messaging channel?
-22\. In your previous sales jobs, how often have you achieved established sales goals?
-23\. What was it about the advertisement that enticed you to apply? Why did you think you were qualified?
-24\. What personal characteristics are needed for successful eSales? Which ones do you possess?
+{:start="15"} 15. Tell me about your work experience. How much of it has been sales oriented? 16. Being proactive in a sales environment is key to success. Give three examples that demonstrate your ability to be proactive. 17. What personal characteristics do you have that would make you successful in messaging sales or service? 18. What type of goals do you set for yourself? What has been your track record in sales achievement? 19. Which is more important in selling - listening or a good presentation? (Listening) How would these skills translate into messaging? 20. What skill or behavior will your manager need to spend the most time coaching you on? 21. What's the biggest challenge you foresee in lead generation/sales in a messaging channel? 22. In your previous sales jobs, how often have you achieved established sales goals? 23. What was it about the advertisement that enticed you to apply? Why did you think you were qualified? 24. What personal characteristics are needed for successful eSales? Which ones do you possess?
 
 ### Career orientation
 
