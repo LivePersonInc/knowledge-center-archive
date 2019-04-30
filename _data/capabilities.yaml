@@ -237,7 +237,7 @@
   - featureName: File sharing
     channels:
     - mobileAppMessaging: "N/A in Channel"
-    - webMessaging: "Coming Q2"
+    - webMessaging: "Supported"
     - appleBusinessChat: "Coming Q2"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
