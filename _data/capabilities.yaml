@@ -509,7 +509,7 @@
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
-    - appleBusinessChat: "Coming Soon"
+    - appleBusinessChat: "Supported"
     - sms: "Coming Soon"
     - facebook: "Coming Soon"
     - whatsapp: "Coming Soon"
