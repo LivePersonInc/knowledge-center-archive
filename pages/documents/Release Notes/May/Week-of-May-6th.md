@@ -210,9 +210,9 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 **Screenshots**
 
-![](https://lh3.googleusercontent.com/tzuWrn78u7J7VImENIq6bPn5LXQszDcivN9BbqSktk3D_s4nM58-lTpSHUoBOa10oHBBoFSClOXVL1XM0WGd0PZx8uJesk7UKdGmopi_FuEL_IXk4U0flmPsdAOEGESdtglUerU- =624x787)
+![](/img/week-of-may-6th-1.png)
 
-## \[ABC\] Add support for augmented reality (AR) file (CX-260)
+### \[ABC\] Add support for augmented reality (AR) file (CX-260)
 
 <table class="releasenotes">
 <thead>
@@ -251,17 +251,17 @@ LivePerson now supports Apple’s augmented reality (AR) file which allows agent
 
 **Screenshots**
 
-**![](https://lh4.googleusercontent.com/CVPP1LCRJo6PKpqugVJB0AGAg4ZwPa5fW8WVOUivBPz7c4ShEGOfpkafMNJhXjgkClAa0gXum9cn2z1BvY8SRCJWDpG8almKr0Wj0-SVtB4B-ueHlqx2bQH0NtyOZ0sx1cxwczxu =624x325)**
+![](/img/week-of-may-6th-2.png)
 
 Object Mode:
 
-**![](https://lh6.googleusercontent.com/0FS5XvPkfJvbLcztAKXxIPxunrjYMQo3r62AfzyyqUxHIKBtuH4ooQT3F-ZeHM80a2qufyro1iwxCWapBAcZCXbao138WLOfBfNOAaPZ4ei0n3rYXWEZTShwHzyybBixdHOpuZ-q =134x219)**
+![](/img/week-of-may-6th-3.png)
 
 AR Mode:
 
-**![](https://lh5.googleusercontent.com/Oqepd9R8ov2O6jQ7sbDtOkbDmBxFwhzsVAF4WBv-v3F_v12c0H1uEPtR57fMH8OFCh0m4XdLspykvwYTU9mJW99OlccRmiidPgXrq_MsdG8oLpyseIovy2lMRE1drI38bBDwlzWB =138x242)**
+![](/img/week-of-may-6th-4.png)
 
-## \[ABC\] Enhance Secure forms via rich link (CX-327)
+### \[ABC\] Enhance Secure forms via rich link (CX-327)
 
 <table class="releasenotes">
 <thead>
@@ -304,13 +304,13 @@ Once deployed, secure forms via rich links will become the default behavior for 
 
 Current Experience:
 
-![](https://lh5.googleusercontent.com/usRJv_Bcger_z4fP5RURnu6j6ytA3ZQ8233Jg0jWFDmWg0OyBDZ_YPUSgb63-y_RJhmZFpS7piXwRi9KxGmhSq73YAWxmlR_jXk7d8EoobCWHJmsehi8Yyyin4VCtKM9Z_AYLKnU =171x165)
+![](/img/week-of-may-6th-5.png)
 
 Improved experience with rich link:
 
-![](https://lh5.googleusercontent.com/cY7K5hSNPAkNLxuMdP7-pmouXfxNrVTw7eL0NMWeBbcOhlu7gnpiZ-RmXwWozN3GUWL9U-JL9oDpXBUM0H8rT9Hg-Wz8-Fw_0MVCgG5Q8HwEGPNAs_PI8fgyL2xTobL0qhg7Pb2L =241x62)
+![](/img/week-of-may-6th-6.png)
 
-## Connectors Vanity URL support for Secure Forms (CX-183)
+### Connectors Vanity URL support for Secure Forms (CX-183)
 
 <table class="releasenotes">
 <thead>
@@ -352,4 +352,3 @@ In order to enable Vanity URL for secure forms for connectors, brands need to fo
 **To enable/disable vanity url please visit this document:**
 
 [https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0](https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0 "https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0")
-
