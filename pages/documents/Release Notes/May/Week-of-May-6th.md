@@ -24,7 +24,7 @@ isNew: false
 
 <th>Mobile App Messaging</th>
 
-<th>SMS</th>
+<th>Twilio</th>
 
 <th>Facebook Messenger</th>
 
@@ -108,7 +108,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 
 <th>Mobile App Messaging</th>
 
-<th>SMS</th>
+<th>Twilio</th>
 
 <th>Facebook Messenger</th>
 
@@ -170,3 +170,186 @@ Secrets can be maintained via the **Settings** tab as a key/value storage. Each 
 **Screenshots**
 
 ![](/img/FaaS-secret-storage.png)
+
+### \[WhatsApp\]\[FB\] Desktop support for Secure Forms (CX-279)
+
+Secure forms are now supported on desktop versions of WhatsApp and Facebook Messenger.
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+**Screenshots**
+
+![](https://lh3.googleusercontent.com/tzuWrn78u7J7VImENIq6bPn5LXQszDcivN9BbqSktk3D_s4nM58-lTpSHUoBOa10oHBBoFSClOXVL1XM0WGd0PZx8uJesk7UKdGmopi_FuEL_IXk4U0flmPsdAOEGESdtglUerU- =624x787)
+
+## \[ABC\] Add support for augmented reality (AR) file (CX-260)
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+LivePerson now supports Apple’s augmented reality (AR) file which allows agents to send augmented reality (AR) file types to consumers via a link. This ability allows agents to deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world. Currently, agents can send AR files up to 10MB.
+
+**Screenshots**
+
+**![](https://lh4.googleusercontent.com/CVPP1LCRJo6PKpqugVJB0AGAg4ZwPa5fW8WVOUivBPz7c4ShEGOfpkafMNJhXjgkClAa0gXum9cn2z1BvY8SRCJWDpG8almKr0Wj0-SVtB4B-ueHlqx2bQH0NtyOZ0sx1cxwczxu =624x325)**
+
+Object Mode:
+
+**![](https://lh6.googleusercontent.com/0FS5XvPkfJvbLcztAKXxIPxunrjYMQo3r62AfzyyqUxHIKBtuH4ooQT3F-ZeHM80a2qufyro1iwxCWapBAcZCXbao138WLOfBfNOAaPZ4ei0n3rYXWEZTShwHzyybBixdHOpuZ-q =134x219)**
+
+AR Mode:
+
+**![](https://lh5.googleusercontent.com/Oqepd9R8ov2O6jQ7sbDtOkbDmBxFwhzsVAF4WBv-v3F_v12c0H1uEPtR57fMH8OFCh0m4XdLspykvwYTU9mJW99OlccRmiidPgXrq_MsdG8oLpyseIovy2lMRE1drI38bBDwlzWB =138x242)**
+
+## \[ABC\] Enhance Secure forms via rich link (CX-327)
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+Currently, once a secure form is sent by the agent to the consumer, the consumer has to click twice in order to open the form. In order to improve the consumer experience, secure forms will be shown as rich links. The link will include the secure form name and will require only one tap to be opened.
+
+Once deployed, secure forms via rich links will become the default behavior for secure forms in ABC. No configuration is required. No changes are needed from the agent side.
+
+**Screenshots**
+
+Current Experience:
+
+![](https://lh5.googleusercontent.com/usRJv_Bcger_z4fP5RURnu6j6ytA3ZQ8233Jg0jWFDmWg0OyBDZ_YPUSgb63-y_RJhmZFpS7piXwRi9KxGmhSq73YAWxmlR_jXk7d8EoobCWHJmsehi8Yyyin4VCtKM9Z_AYLKnU =171x165)
+
+Improved experience with rich link:
+
+![](https://lh5.googleusercontent.com/cY7K5hSNPAkNLxuMdP7-pmouXfxNrVTw7eL0NMWeBbcOhlu7gnpiZ-RmXwWozN3GUWL9U-JL9oDpXBUM0H8rT9Hg-Wz8-Fw_0MVCgG5Q8HwEGPNAs_PI8fgyL2xTobL0qhg7Pb2L =241x62)
+
+## Connectors Vanity URL support for Secure Forms (CX-183)
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+Currently, the secure form link includes a domain owned by LivePerson. Consumers might not trust a domain that is different than the brand they are communicating with and therefore might avoid using it. Using a vanity URL solution, the secure forms links will be sent with the brand domain/certificate instead of a LivePerson domain.
+
+In order to enable Vanity URL for secure forms for connectors, brands need to follow the standard LiveEngage process of vanity URL enablement, in this case for LE CDN (leCdnDomain). For brands that already have Vanity URL enabled for their website, this will take effect automatically on the secure form, no additional configuration is needed.
+
+**To enable/disable vanity url please visit this document:**
+
+[https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0](https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0 "https://docs.google.com/document/d/15FlhMsDPVaKiai13hLCD9fzUtp1O_N87zgi3CMSuxG0")
+
