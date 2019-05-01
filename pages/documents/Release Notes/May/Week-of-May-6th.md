@@ -171,7 +171,7 @@ Secrets can be maintained via the **Settings** tab as a key/value storage. Each 
 
 ![](/img/FaaS-secret-storage.png)
 
-### \[WhatsApp\]\[FB\] Desktop support for Secure Forms (CX-279)
+### \[WhatsApp and Facebook\] Desktop support for Secure Forms (CX-279)
 
 Secure forms are now supported on desktop versions of WhatsApp and Facebook Messenger.
 
@@ -212,7 +212,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 ![](/img/week-of-may-6th-1.png)
 
-### \[ABC\] Add support for augmented reality (AR) file (CX-260)
+### \[Apple Business Chat\] Add support for augmented reality (AR) file (CX-260)
 
 <table class="releasenotes">
 <thead>
@@ -261,7 +261,7 @@ AR Mode:
 
 ![](/img/week-of-may-6th-4.png)
 
-### \[ABC\] Enhance Secure forms via rich link (CX-327)
+### \[Apple Business Chat\] Enhance Secure forms via rich link (CX-327)
 
 <table class="releasenotes">
 <thead>
