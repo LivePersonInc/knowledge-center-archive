@@ -349,4 +349,4 @@ Currently, the secure form link includes a domain owned by LivePerson. Consumers
 
 In order to enable Vanity URL for secure forms for connectors, brands need to follow the standard LiveEngage process of vanity URL enablement, in this case for LE CDN (leCdnDomain). For brands that already have Vanity URL enabled for their website, this will take effect automatically on the secure form, no additional configuration is needed.
 
-**To enable/disable vanity url please speak to your LivePerson account team.** 
+**To enable/disable vanity url please speak to your LivePerson account team.**
