@@ -8,7 +8,6 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-6th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## New functionality
@@ -97,7 +96,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 
 ![](/img/FaaS-external-UI.png)
 
-FaaS Secret Storage
+### FaaS Secret Storage
 
 <table class="releasenotes">
 
@@ -169,3 +168,5 @@ The FaaS Secrets Storage allows you to centrally store, access and distribute se
 Secrets can be maintained via the **Settings** tab as a key/value storage. Each value can be of type number, string or JSON. For more information, please see the [Developers community. ](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html)
 
 **Screenshots**
+
+![](/img/FaaS-secret-storage.png)
