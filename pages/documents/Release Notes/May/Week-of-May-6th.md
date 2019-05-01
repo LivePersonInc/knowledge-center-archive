@@ -212,7 +212,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 ![](/img/week-of-may-6th-1.png)
 
-### \[Apple Business Chat\] Add support for augmented reality (AR) file (CX-260)
+### \[Apple Business Chat\] Added support for augmented reality (AR) file (CX-260)
 
 <table class="releasenotes">
 <thead>
@@ -261,7 +261,7 @@ AR Mode:
 
 ![](/img/week-of-may-6th-4.png)
 
-### \[Apple Business Chat\] Enhance Secure forms via rich link (CX-327)
+### \[Apple Business Chat\] Enhanced Secure Forms via rich link (CX-327)
 
 <table class="releasenotes">
 <thead>
