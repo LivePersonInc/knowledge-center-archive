@@ -2,7 +2,7 @@
 pagename: Week of May 6th
 categoryName: Release notes
 subCategoryName: 2019
-indicator: messaging
+indicator: both
 subtitle: Release Notes
 level3: May
 permalink: release-notes-2019-may-week-of-may-6th.html
