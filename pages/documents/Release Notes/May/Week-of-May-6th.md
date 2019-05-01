@@ -94,3 +94,5 @@ To get access to this page, you'll need to ask your LivePerson account team to e
 AC Feature FaaS.FaaS needs to be enabled for the account.
 
 **Screenshots**
+
+![](/img/FaaS-external-UI.png)
