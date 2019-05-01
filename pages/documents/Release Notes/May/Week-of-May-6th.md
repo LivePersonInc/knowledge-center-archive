@@ -165,7 +165,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 The FaaS Secrets Storage allows you to centrally store, access and distribute secrets across your lambdas. Thereby, lambdas can use available access tokens, certificates and encryption keys to establish a connection to external systems.
 
 **How to enable**
-Secrets can be maintained via the **Settings** tab as a key/value storage. Each value can be of type number, string or JSON. For more information, please see the [Developers community. ](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html)
+Secrets can be maintained via the **Settings** tab as a key/value storage. Each value can be of type number, string or JSON. For more information, please see the [Developers Community](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html). 
 
 **Screenshots**
 
