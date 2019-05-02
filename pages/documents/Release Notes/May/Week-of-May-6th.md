@@ -80,7 +80,7 @@ isNew: false
 
 Function as a Service (FaaS) is a LivePerson feature which enables brands to develop custom behaviors within the LiveEngage platform, to better tailor the system to their specific needs. By offering these capabilities, FaaS enables developers to write a simple function, deploy it to LivePerson's infrastructure and make it available to their LivePerson account in minutes. This allows you to create custom logic inside our conversational platform
 
-FaaS is ready to be accessed via [https://faas.liveperson.com](https://faas.liveperson.com "https://faas.liveperson.com") for all customers.
+FaaS is ready to be accessed via [https://faas.liveperson.net](https://faas.liveperson.com "https://faas.liveperson.com") for all customers.
 
 **How to enable**
 
@@ -165,7 +165,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 The FaaS Secrets Storage allows you to centrally store, access and distribute secrets across your lambdas. Thereby, lambdas can use available access tokens, certificates and encryption keys to establish a connection to external systems.
 
 **How to enable**
-Secrets can be maintained via the **Settings** tab as a key/value storage. Each value can be of type number, string or JSON. For more information, please see the [Developers Community](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html). 
+Secrets can be maintained via the **Settings** tab as a key/value storage. Each value can be of type number, string or JSON. For more information, please see the [Developers Community](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html).
 
 **Screenshots**
 
