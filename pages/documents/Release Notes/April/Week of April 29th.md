@@ -8,7 +8,7 @@ level3: April
 permalink: release-notes-2019-april-week-of-april-29th.html
 isTutorial: false
 isNew: false
-date: 2019-04-23 19:29:39 +0300
+date: '2019-04-23T16:29:39.000+00:00'
 
 ---
 ## New functionality
@@ -25,7 +25,7 @@ date: 2019-04-23 19:29:39 +0300
 
 <th>Mobile App Messaging</th>
 
-<th>SMS</th>
+<th>Twillio</th>
 
 <th>Facebook Messenger</th>
 
@@ -226,9 +226,87 @@ The number of conversations that were closed and the consumer didn’t reach bac
 
 Formula: CCPLH * (1-RCR)
 
-#### How to enable 
+#### How to enable
 
 An updated copy of the Advanced Messaging Performance Dashboard may be requested from [Analytics@liveperson.com](mailto:Analytics@liveperson.com)
+
+### FaaS - MSG Post conversation survey Invocation
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twillio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+Brands are able to invoke functions following a Post Messaging Survey. Invocation will be possible at the start or upon completion of a survey. Brands can react to the content of the survey in real time, like for example, to trigger alerts in a call center dashboard.
+
+Brands can choose from an invocation point at the beginning or after the submission of a Post Messaging Survey. Along with the invocation event, a payload of data will be passed to the function allowing Brands to react in real time to the content of the survey. Brands can create functions with custom logic that address the desired reaction to the survey. 
+
+The hook in the survey to invoke the function is not expecting a response
+
+The payloads at start and end of the survey are not similar. Completion of additional information needed in the function should be obtained with LP APIs.
+
+**Dependencies**
+
+Post Conversation Survey needs to be deployed
 
 ## Bug fix
 
@@ -244,7 +322,7 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 
 <th>Mobile App Messaging</th>
 
-<th>SMS</th>
+<th>Twillio</th>
 
 <th>Facebook Messenger</th>
 
