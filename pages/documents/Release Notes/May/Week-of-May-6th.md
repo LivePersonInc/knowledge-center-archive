@@ -350,3 +350,11 @@ Currently, the secure form link includes a domain owned by LivePerson. Consumers
 In order to enable vanity URL for secure forms for connectors, brands need to follow the standard LiveEngage process of vanity URL enablement, in this case for LE CDN (leCdnDomain). For brands that already have vanity URL enabled for their website, this will take effect automatically on the secure form, no additional configuration is needed.
 
 **To enable/disable vanity URL please speak to your LivePerson account team.**
+
+## Enhancements
+
+### Queue prioritization by day of the week 
+
+ Support defining a different prioritization strategy based not only the time of the day (available) but also which day is it. For example, on Monday, between 8 AM and 10:59 AM prioritize the queue based on queue entrance time only 20% of the time. However, during the rest of the week prioritize based queue entrance time 50% of the time.
+
+This enhancement is available to customers that have previously configured queue prioritization by an LPA.
