@@ -8,7 +8,7 @@ level3: March
 permalink: release-notes-2019-march-week-of-march-25th.html
 isTutorial: false
 isNew: false
-date: 2019-03-20 16:39:21 +0000
+date: 2019-03-20T16:39:21.000+00:00
 
 ---
 These release notes include new features arriving to LiveEngage during March 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -259,8 +259,7 @@ Today brands are using push notifications and SMS campaigns to their customers f
 * Routing to bot
 * Reporting
 
-{: .notice}
-The CM SMS connector will not be immediately available upon this release. The final release date will be communicated when available.
+For more information on outbound campaigns and how they are configured, [click here](https://knowledge.liveperson.com/contact-center-management-campaigns-outbound-campaigns.html#configuration). 
 
 ### \[WhatsApp\] New messages status indications (CX-118)
 
