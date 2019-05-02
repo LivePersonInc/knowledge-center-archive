@@ -80,7 +80,7 @@ isNew: false
 
 Function as a Service (FaaS) is a LivePerson feature which enables brands to develop custom behaviors within the LiveEngage platform, to better tailor the system to their specific needs. By offering these capabilities, FaaS enables developers to write a simple function, deploy it to LivePerson's infrastructure and make it available to their LivePerson account in minutes. This allows you to create custom logic inside our conversational platform
 
-FaaS is ready to be accessed via [https://faas.liveperson.net](https://faas.liveperson.com "https://faas.liveperson.com") for all customers.
+FaaS is ready to be accessed via [https://faas.liveperson.net](https://faas.liveperson.net "https://faas.liveperson.com") for all customers.
 
 **How to enable**
 
@@ -353,8 +353,8 @@ In order to enable vanity URL for secure forms for connectors, brands need to fo
 
 ## Enhancements
 
-### Queue prioritization by day of the week 
+### Queue prioritization by day of the week
 
- Support defining a different prioritization strategy based not only the time of the day (available) but also which day is it. For example, on Monday, between 8 AM and 10:59 AM prioritize the queue based on queue entrance time only 20% of the time. However, during the rest of the week prioritize based queue entrance time 50% of the time.
+Support defining a different prioritization strategy based not only the time of the day (available) but also which day is it. For example, on Monday, between 8 AM and 10:59 AM prioritize the queue based on queue entrance time only 20% of the time. However, during the rest of the week prioritize based queue entrance time 50% of the time.
 
 This enhancement is available to customers that have previously configured queue prioritization by an LPA.
