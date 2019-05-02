@@ -645,9 +645,7 @@ ul.mysidebar.nav > li:first-of-type {
   font-size: 14px;
   color: #5f6368;
   text-decoration: none;
-  line-height: 1.2;
-  margin-bottom: 12px;
-  margin-top: 12px;
+  line-height: 2.3;
 }
 
 .pagesfolder {
@@ -663,6 +661,10 @@ ul.mysidebar.nav > li:first-of-type {
   line-height: 1.5;
   margin-bottom: 12px;
   margin-top: 12px;
+}
+
+.pageitem a {
+  line-height: inherit;
 }
 
 
