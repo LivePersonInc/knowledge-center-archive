@@ -9,6 +9,8 @@ permalink: getting-started-add-the-liveperson-tag-to-your-website.html
 isTutorial: false
 date: 2019-01-16 16:52:21 +0000
 isNew: false
+redirect_from:
+  - placing-the-liveengage.html
 
 ---
 To use the LivePerson's web live chat or web messaging, you must first place the LiveEngage Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
