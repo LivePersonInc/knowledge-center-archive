@@ -26,7 +26,7 @@ Here is a round-up of the latest features, enhancements and enablements that are
 * Client access to FaaS UI
 * Queue prioritization by days of the week
 * Offsite engagement for web messaging
-* Whatsapp conversations enhancements
+* WhatsApp conversations enhancements
 * Report Builder: New Business Dashboard for Messaging
 * New Survey Dashboard for Messaging
 
