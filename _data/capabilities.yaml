@@ -224,13 +224,13 @@
     - connectorAPI: "Supported"
   - featureName: Photo Sharing - agent to consumer
     channels:
-    - mobileAppMessaging: "N/A in Channel"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Coming Q2"
-    - sms: "Coming Q2"
-    - facebook: "Coming Q2"
+    - sms: "N/A in channel"
+    - facebook: "Not Supported"
     - whatsapp: "Coming Q2"
-    - googleRCS: "Coming Q2"
+    - googleRCS: "N/A in channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
@@ -248,8 +248,8 @@
     - connectorAPI: "N/A in Channel"
   - featureName: Voice/video calls
     channels:
-    - mobileAppMessaging: "Supported"
-    - webMessaging: "Coming Q2"
+    - mobileAppMessaging: "Coming in Q3"
+    - webMessaging: "Coming Q3"
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
