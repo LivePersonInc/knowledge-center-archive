@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/What's New/Whats-new-may-2019.md
 - pages/documents/Release Notes/May/Week-of-May-6th.md
 - pages/documents/Release Notes/April/week-of-april-22.md
 - pages/documents/Release Notes/April/Week of April 29th.md
