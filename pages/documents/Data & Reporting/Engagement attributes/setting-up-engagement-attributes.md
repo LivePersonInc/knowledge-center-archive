@@ -48,5 +48,5 @@ If the engagement attribute has not been reported on, a grey ‘i’ symbol will
 
 ![](/img/ea3.png)
 
-{: .notice) 
+{: .notice}
 **Note:** To start using Engagement Attributes for web messaging, this functionality needs to be enabled. Please contact your LivePerson account team for more information.
