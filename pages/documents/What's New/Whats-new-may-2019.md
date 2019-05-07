@@ -48,49 +48,26 @@ For ABC and WhatsApp, agents can share files such as PDFs directly within the co
 
 Queue prioritization focuses agent resources on the conversations that matter most. This feature has been enhanced to increase flexibility by allowing you to configure the queue priority engine by days of the week rather than just times of the day. For example, you can opt to handle conversations that come in during the Monday morning rush before taking care of conversations that came in during the weekend. For more information on queue prioritization, [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html).
 
-## Engagement window enhancements
-
-New UI elements will be added to the engagement window UI including additional style for the minimize window icon. These enhancements are optional, available for both chat and web messaging and will be configurable via the engagement window studio.
-
 ## Agent widget SDK: Configure sandbox attribute
 
 The iframe sandbox attribute used in the Agent widgets enforces restrictions on content hosted in the iframe to protect LiveEngage application from several malicious actions. LiveEngage has set a number of sandbox flags to relax these restrictions and allow required functionalities.
 
-Report Builder has a number of enhancements:
+We also have updates to data and reporting:
 
-## New Business Dashboard for Messaging
+## Report Builder: New Business Dashboard for Messaging
 
 The Business Dashboard for messaging allows you to analyze the consumer journey in messaging. You will have the ability to:
 
 * View funnel metrics, conversions, and revenue data
 * Analyze campaign data at the level of: brand, line of business, campaign, entry point and engagement
 
-## Survey Dashboard for messaging
+## Report Builder: Survey Dashboard for messaging
 
 To improve the performance and loading time of the [Performance Dashboard for Messaging ](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html)(Report Builder), the[ Post Conversation Survey](https://knowledge.liveperson.com/ai-bots-automation-post-conversation-survey-bot.html) data will be presented in a new dedicated dashboard called “Survey Dashboard for Messaging” including new visualizations. The Performance Dashboard for Messaging will continue to include results of the predefined questions (CSAT, NPS and FCR) and MCS. The rest of the data about Post Conversation Survey results are moved to the new Survey Dashboard for Messaging.
 
 ## Conversation segments metrics (by agent/ by skill)
 
 In situations where multiple skills or agents are assigned to each conversation, measuring the performance (e.g. time to first response) requires segmenting the conversation. LivePerson has introduced a new segmentation model to measure each individual skill performance and present accurate KPIs per skill and per agent. New metrics and new skill/agent segment level visualizations will be available in Report Builder’s Performance Dashboard for messaging and the Messaging Operations API.
-
-## Audit Trail API
-
-You will have the ability to track the access that is performed by users to the each brands transcripts. Messaging Interaction, Engagement History, and Transcripts exports APIs will now write a log for every valid API request and response.  
-The Audit Trail API will provide the ability to:
-
-* Identify users who exported transcripts, when exports occured and to which transcripts
-* Mask if the agent viewed the data
-
-## Conversation Builder enhancements
-
-We also have some updates to the Conversation Builder:
-
-* Support for 3rd Party NLU Integration
-* Support WhatsApp as a channel
-* Central Reporting Integration
-* Language support: Japanese
-* Additional verticals & templates in Conversation Library
-* Integration of any bot into LivePerson
 
 ## Enhancements to Recommended Actions (Maven) widget in Agent Workspace
 
