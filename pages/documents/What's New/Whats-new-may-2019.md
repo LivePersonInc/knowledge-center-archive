@@ -15,8 +15,6 @@ Welcome to the LivePerson Product Updates Newsletter for May
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
-INSERT VIDEO
-
 ## WeChat
 
 We are launching a new connector to WeChat this month. WeChat serves 1 billion monthly active users, mostly in China, and you can now use LivePerson to manage WeChat conversations alongside other messaging channels. LiveEngage WeChat Connector enables brands to use LiveEngage as their messaging platform to manage their WeChat Official accounts at scale, powered by human or automation. It is designed to support the familiar user experience WeChat has to offer, while tying it with the operational and rich conversational capabilities that are built into LiveEngage.
