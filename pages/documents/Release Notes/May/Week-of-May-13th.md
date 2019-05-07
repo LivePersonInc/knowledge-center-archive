@@ -144,11 +144,139 @@ The time on average taken by an agent to respond to consumer message from the ti
 
 ### Type: New functionality
 
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
  LivePerson is deprecating support for old TLS versions 1.0 and 1.1 for all our services. In this version, we are enabling support for TLS 1.2 and removing support for TLS 1.0 and TLS 1.1.
 
 ## Agent-Group pre filter
 
 ### Type: New functionality
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 Prefilter the open connections list by agent group, allowing agent managers to only see conversations of agent groups they manage instead of all agents.
 
