@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-## Messaging Agent Segments
+## Messaging agent segments
 
 ### Type: Enhancement
 
