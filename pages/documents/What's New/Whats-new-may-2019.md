@@ -9,26 +9,11 @@ level3: ''
 permalink: whats-new-may-2019.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 Welcome to the LivePerson Product Updates Newsletter for May
 
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
-
-**Contents**
-
-* WeChat Connector
-* FaaS
-* FaaS Secret storage vault
-* \[FaaS\] - MSG Post conversation survey invocation
-* Engagement window enhancements
-* Client access to FaaS UI
-* Queue prioritization by days of the week
-* Offsite engagement for web messaging
-* WhatsApp conversations enhancements
-* Report Builder: New Business Dashboard for Messaging
-* New Survey Dashboard for Messaging
 
 INSERT VIDEO
 
@@ -52,7 +37,7 @@ You can choose from an invocation point at the beginning or after the submission
 
 ## WhatsApp Business enhancements
 
-We have some enhancements to whatApp
+We have some enhancements to WhatsApp
 
 The agent name will be added in the beginning of the agent message in bold. A consumer can also send a message replying / referring to a previous message. A new indicator will be added to such messages in the agent workspace to acknowledge the agent about that. This feature will need to be enabled.
 
