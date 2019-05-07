@@ -25,14 +25,6 @@ We are excited to announce that Function as a Service, otherwise known as FaaS, 
 
 FaaS enables your developers to create custom behaviors within the LivePerson platform, allowing you to better tailor the system to your business, without the need for APIs or hosting. See the [developers community](https://developers.liveperson.com/function-as-a-service-overview.html#function) for more information.
 
-## FaaS Secret Storage
-
-For most FaaS use cases storing the credentials to external systems within the scope of a lambda is crucial. You will be able to utilize an API to store and manage the sensitive data inside the secure storage and reference the content during the execution of FaaS functions. See [release notes.](https://knowledge.liveperson.com/release-notes-2019-may-week-of-may-6th.html)
-
-## \[FaaS\] - MSG Post conversation survey invocation
-
-You can choose from an invocation point at the beginning or after the submission of a Post Conversation Survey. Along with the invocation event, a payload of data will be passed to the function allowing you to react in real time to the content of the survey. You can create functions with custom logic that address the desired reaction to the survey. See [release notes](https://knowledge.liveperson.com/release-notes-2019-may-week-of-may-6th.html) for details.
-
 ## WhatsApp Business enhancements
 
 We have some enhancements to WhatsApp
@@ -41,9 +33,9 @@ The agent name will be added in the beginning of the agent message in bold. A co
 
 ![](https://lh3.googleusercontent.com/7f_5C5KV5BaqNO6ntyoD_HjyBWfPbQZ7zntm218EP93pdeaApqe6xVC0Um9wj0jIeaXVYnHDPE92gm8RWoWJp6psyFfV67tPXj-VaC2--XHNOTU47o4Wi0xn2R91rjpoL61ete7F =214x348)
 
-## Photo sharing - agent to consumer (web messaging, ABC and WhatsApp)
+## File sharing - agent to consumer (ABC and WhatsApp)
 
-For web messaging, both consumers and agents can share files such as PDFs directly within the conversation, enabling additional use cases such as sending and receiving forms or personalized contracts. Files are hosted by LP and stored for 13 months. Supported file types include:
+For ABC and WhatsApp, agents can share files such as PDFs directly within the conversation, enabling additional use cases such as sending and receiving forms or personalized contracts. Files are hosted by LP and stored for 13 months. Supported file types include:
 
 * PDF
 * DOC(X)
