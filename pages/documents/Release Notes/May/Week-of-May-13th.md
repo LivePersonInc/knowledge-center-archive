@@ -68,7 +68,7 @@ isNew: false
 
 <td>Yes</td>
 
-<td>N/A</td>
+<td>Yes</td>
 
 <td>No</td>
 
