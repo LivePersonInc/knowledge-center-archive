@@ -11,9 +11,9 @@ isTutorial: false
 isNew: false
 
 ---
-Welcome to the LivePerson Product Updates Newsletter for May
-
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
+
+![](/img/03_VimeoThumbnail_Mai19.jpg)
 
 ## WeChat
 
