@@ -56,10 +56,6 @@ For web messaging, both consumers and agents can share files such as PDFs direct
 
 Queue prioritization focuses agent resources on the conversations that matter most. This feature has been enhanced to increase flexibility by allowing you to configure the queue priority engine by days of the week rather than just times of the day. For example, you can opt to handle conversations that come in during the Monday morning rush before taking care of conversations that came in during the weekend. For more information on queue prioritization, [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html).
 
-## Offsite engagement for web messaging (coming in June)
-
-To expand the availability of web messaging to your customers, you can now embed a link to launch web messaging from any location and through any media including, email, digital advertising or social media sites. You just create a URL, plug it anywhere and consumers can click to start messaging.
-
 ## Engagement window enhancements
 
 New UI elements will be added to the engagement window UI including additional style for the minimize window icon. These enhancements are optional, available for both chat and web messaging and will be configurable via the engagement window studio.
@@ -77,7 +73,7 @@ The Business Dashboard for messaging allows you to analyze the consumer journey 
 * View funnel metrics, conversions, and revenue data
 * Analyze campaign data at the level of: brand, line of business, campaign, entry point and engagement
 
-## Survey Dashboard for messaging:
+## Survey Dashboard for messaging
 
 To improve the performance and loading time of the [Performance Dashboard for Messaging ](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html)(Report Builder), the[ Post Conversation Survey](https://knowledge.liveperson.com/ai-bots-automation-post-conversation-survey-bot.html) data will be presented in a new dedicated dashboard called “Survey Dashboard for Messaging” including new visualizations. The Performance Dashboard for Messaging will continue to include results of the predefined questions (CSAT, NPS and FCR) and MCS. The rest of the data about Post Conversation Survey results are moved to the new Survey Dashboard for Messaging.
 
