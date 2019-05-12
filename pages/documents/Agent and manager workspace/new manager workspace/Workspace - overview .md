@@ -45,6 +45,8 @@ Agent managers will have real time visibility into their KPIs and aggregated per
 
 To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
 
+![](img/newworkspacepermissions.png)
+
 ## Filters
 
 Users will only be exposed to data related to the groups they manage. For example, an agent manager of the group "Sales" will only be able to view data and metrics which are driven from:
@@ -59,10 +61,12 @@ The following filters can be applied to the sections listed above:
 
 1. **Time filter** - by default, the workspace will show data from the last hour. Users will be able to change the time range to view data from the past X hours. The maximum supported time range is 24 hours.
 
-
+![](img/timefilter.png)
 
 {:start='2'}
 2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
+
+![](img/groupfilter.png)
 
 
 
@@ -95,6 +99,8 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
+
+![](img/metricswidget.png)
 
 ### *Agents* widget
 
