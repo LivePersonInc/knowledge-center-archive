@@ -7,7 +7,7 @@ subtitle: 'Collect in-depth information by setting up engagement attributes '
 level3: ''
 permalink: data-reporting-engagement-attributes-setting-up-engagement-attributes.html
 isTutorial: false
-date: 2019-01-17 12:12:28 +0000
+date: 2019-01-17T12:12:28.000+00:00
 isNew: false
 
 ---
@@ -42,10 +42,11 @@ If the engagement attribute has not been reported on, a grey ‘i’ symbol will
 
 ### Validation directly from the website
 
-1\. Add an item to the cart on your site.
-
-2\. Using Firefox or Chrome, open the dev tools (press F12) and type:lpTag.sdes.get('cart');
-
-3\. Verify that the values are correct.
+1. Add an item to the cart on your site.
+2. Using Firefox or Chrome, open the dev tools (press F12) and type:lpTag.sdes.get('cart');
+3. Verify that the values are correct.
 
 ![](/img/ea3.png)
+
+{: .notice}
+**Note:** To start using Engagement Attributes for web messaging, this functionality needs to be enabled. Please contact your LivePerson account team for more information.

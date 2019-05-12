@@ -8,7 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-best-practices-for-messaging-agents.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 15:06:03 +0000
+date: 2019-01-23T15:06:03.000+00:00
 
 ---
 ## Common questions and LivePerson’s recommendations
@@ -75,7 +75,7 @@ You can allow this conversation to become inactive. If you plan to pick up the c
 
 ### **Can I transfer a chat to another messaging department?**
 
-There are other skills available on messaging. Speak to your Team Manager to understand when and to which skills you should transfer a customer.
+There are other skills available on messaging. Speak to your team manager to understand when and to which skills you should transfer a customer.
 
 ### **Is there a shortcut for saying hi to my customer?**
 
