@@ -59,7 +59,12 @@ The following filters can be applied to the sections listed above:
 
 1. **Time filter** - by default, the workspace will show data from the last hour. Users will be able to change the time range to view data from the past X hours. The maximum supported time range is 24 hours.
 
+
+
+{:start='2'}
 2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
+
+
 
 ## Widgets
 
@@ -74,6 +79,10 @@ The "in queue" widget presents the number of conversations currently waiting for
 * A breakdown of "in-queue" conversations by skill is shown.
 
 * Conversations assigned to the "UNASSIGNED" skill will also be included in the in queue conversations value.
+
+![](img/inqueue1.png)
+
+![](img/inqueue2.png)
 
 ### *Metrics* widget
 
@@ -102,6 +111,8 @@ The agent widget shows all agents under the manager which are currently logged i
 * **LOAD** - Total weight of the assigned conversations divided by the agent’s configured maximum number of high-intensity conversations. **Note**: This metric is not affected by the time filter.
 
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe. Attributed to the last assigned agent of the conversation.
+
+![](img/agentswidget.png)
 
 ### *Conversations* widget
 
@@ -142,6 +153,8 @@ The list will include following columns:
 #### Navigating to the conversation
 
 Clicking on the consumer name will open the conversation window. Only open conversations ("in-queue", “assigned” statuses) will be clickable.
+
+![](img/conversationswidget.png)
 
 #### Filtering the list
 
