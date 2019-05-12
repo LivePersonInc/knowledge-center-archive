@@ -50,20 +50,27 @@ The customer needs to provide LivePerson with the following three parameters:
   If it is not possible to send the siteID, LivePerson can adapt the configuration.
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
+
 * Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
-* Use this consumer URL for connecting to LiveEngage:
 
-  https://<LP Domain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s core domain.
-* Use this consumer URL for connecting to the MCS toolkit:
+* **Use this consumer URL for connecting to LiveEngage**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
 
-  https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
-* Use this consumer URL for connecting to the Real Time Dashboard: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=rtDashboard&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
-* Use this consumer URL for connecting to the Bot Studio: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=routingBot&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
-* Use this consumer URL for connecting to the CoBrowse Admin console: https://<LPDomain>/hc/s-xxxxxx/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=coBrowse&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~, where xxxxxx is the LivePerson account number and LP Domain is the account’s domain.
+* **Use this consumer URL for connecting to the MCS toolkit**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
 
-  ## General notes on using the feature
+* **Use this consumer URL for connecting to the Real Time Dashboard**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=rtDashboard&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
+
+* **Use this consumer URL for connecting to the Bot Studio**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=routingBot&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
+
+* **Use this consumer URL for connecting to the CoBrowse Admin console**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=coBrowse&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
+
+## General notes on using the feature
+
 * HTTPS must be used for communication with the LivePerson servers.
+
 * Once the SSO unified login feature is turned on, users cannot log in using their previous credentials, even if they regenerate the password by clicking the 'forgot my password' link.
+
 * Password reset is still possible and will send a new password to the defined email in login policy tab, but the password will no longer be of use.
+
 * It is advised that once unified login is turned on, any issues with agent login should first be checked by the various technical teams on the customer’s side in order to rule out two-factor login, IdP and agent definition issues.
+
 * It is the responsibility of the brand to update LivePerson with the renewed X.509 certificate a month before the current certificate expires.
