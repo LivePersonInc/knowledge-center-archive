@@ -9,7 +9,6 @@ permalink: index.html
   <img src="img/botLoader.gif" />
 </div>
 <div id="typing">
-<img class="caseyAvatar" src="img/avatar-casey.svg"/>
 <!-- Credit: https://dribbble.com/shots/5092176-Newton-Loader -->
 <div class="gooey">
 <div class="dots">

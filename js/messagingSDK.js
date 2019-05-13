@@ -104,12 +104,16 @@ windowKit.onAgentRichContentEvent(function(content) {
 //when the agent changes states
 windowKit.onAgentChatState(function(state) {
   //if the agent is typing
-  if (state == "COMPOSING" && agentFirstText == true) {
-    agentFirstText = true;
+  let agentHasTyped
+  if (state == "COMPOSING" && agentFirstText == true && !agentHasTyped) {
     $("#typing").css("display", "flex");
+    agentHasTyped = true;
     //show the agent is typing element
   } else {
-    $("#typing").css("display", "none");
+    $("typing").css("opacity", "0");
+    setTimeout (function () {
+      $("#typing").css("display", "none");
+    }, 100);
     //agent has stopped typing so
     //hide your agent is typing element
   }

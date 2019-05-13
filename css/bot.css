@@ -34,6 +34,11 @@ body {
   display: none;
   color: #fff;
   order: 2;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .botTitle {
