@@ -34,6 +34,11 @@ body {
   display: none;
   color: #fff;
   order: 2;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .botTitle {
@@ -59,6 +64,11 @@ body {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .caseyCode {
@@ -100,6 +110,11 @@ body {
   margin-bottom: 20px;
   display: flex;
   margin-left: -3px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .statusRow .lp-json-pollock {
@@ -524,6 +539,11 @@ body {
   margin-bottom: -10px;
   align-self: flex-end;
   width: 31px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
 .scAvatar {

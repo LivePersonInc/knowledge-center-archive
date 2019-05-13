@@ -22,11 +22,12 @@ windowKit.onReady(function() {
 //when an agent (the bot) sends a text
 windowKit.onAgentTextEvent(function(text) {
   //apnend the text's contents to the conversation
-  $("#caseyContainer").append(
-    '<div class="caseyTextContainer"><img class="caseyAvatar" src="img/avatar-casey.svg"/><div class="caseyText">' +
-      text +
-      "</div></div>"
-  );
+  var appendedText = '<div class="caseyTextContainer"><img class="caseyAvatar" src="img/avatar-casey.svg"/><div class="caseyText"><span class="caseyInnerText">' + text + '</span></div></div>';
+  $("#caseyContainer").append(appendedText);
+  setTimeout(function() {
+    $('.caseyTextContainer').css('opacity', '1');
+    $('.caseyAvatar').css('opacity', '1');
+  }, 300);
   //a rule to check if the user asked for a search and if so, show the input field unless an input field was already shown.
   var inputShown = document.getElementById("messageInput");
   if (
@@ -79,9 +80,13 @@ windowKit.onAgentRichContentEvent(function(content) {
   //grab the contents of the message, render them using LP's Pollock tool and set them as a variable
   var structuredText = JsonPollock.render(content);
   var caseyImage =
-    '<img class="caseyAvatar scAvatar" src="img/avatar-casey.svg"/>';
+    $('<img class="caseyAvatar scAvatar" src="img/avatar-casey.svg"/>');
   //append that variable to the conversation
   $("#caseyContainer").append(structuredText, caseyImage);
+  setTimeout(function() {
+    $(caseyImage).css('opacity', '1');
+    $('.lp-json-pollock').css('opacity', '1');
+  }, 300 );
   //when you log the text, log the rich content as an object not a string
   console.log("Agent: ", structuredText);
   //Pollock code used to navigate to the links the bot sends, effectively registering the buttons to be links to them
@@ -99,12 +104,16 @@ windowKit.onAgentRichContentEvent(function(content) {
 //when the agent changes states
 windowKit.onAgentChatState(function(state) {
   //if the agent is typing
-  if (state == "COMPOSING" && agentFirstText == true) {
-    agentFirstText = true;
+  let agentHasTyped
+  if (state == "COMPOSING" && agentFirstText == true && !agentHasTyped) {
     $("#typing").css("display", "flex");
+    agentHasTyped = true;
     //show the agent is typing element
   } else {
-    $("#typing").css("display", "none");
+    $("typing").css("opacity", "0");
+    setTimeout (function () {
+      $("#typing").css("display", "none");
+    }, 100);
     //agent has stopped typing so
     //hide your agent is typing element
   }
