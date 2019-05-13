@@ -8,7 +8,7 @@ level3: April
 permalink: release-notes-2019-april-week-of-april-15th.html
 isTutorial: false
 isNew: false
-date: 2019-04-10 11:31:58 +0000
+date: '2019-04-10T11:31:58.000+00:00'
 
 ---
 These release notes include new features arriving to LiveEngage during April 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -41,6 +41,12 @@ New items added to ‘profiles’ to enable brands to control who can view and u
 * Automation area (on/off) - enables the entire automation tab for this profile
 * Edit Bot Integrations (on/off) - enables viewing and editing of bot connectors. Note: the account must also be provisioned for this capability as part of the Early Adopters program.
 * Conversation Builder permissions (coming soon) - Note: the Conversation Builder will be added to ‘permissions’ in May. Until that date, it will be available to all roles and users of accounts with the Conversation Builder enabled.
+
+### Knowledge Center button and removal of Connection Area articles
+
+LivePerson’s new knowledge base can now be accessed from a link in the Connection Area as well as a button in the LiveEngage UI. The Knowledge Center can be reached by clicking the link in the connection panel or selecting the question mark icon in the top right corner and clicking ‘Knowledge Center.’ This replaces the content that was previously housed in the Connection Area. All relevant articles and new documentation previously found in the Connection Area can now be viewed in the Knowledge Center.
+
+![](/img/week-of-april-15th-1.png)
 
 ## Bug fixes
 

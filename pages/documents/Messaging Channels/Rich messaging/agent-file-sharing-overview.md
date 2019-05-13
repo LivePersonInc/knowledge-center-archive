@@ -8,11 +8,11 @@ level3: ''
 permalink: messaging-channels-rich-messaging-agent-file-sharing-overview.html
 isTutorial: false
 isNew: false
-date: 2019-04-15 08:03:29 +0000
+date: '2019-04-15T08:03:29.000+00:00'
 
 ---
 {: .important}
-**Please note:** Agent file sharing is currently in phase 1. At this phase, only photos can be shared via web-messaging. In the future, more file formats will be supported.
+**Please note:** Agent file sharing is currently in phase 1. At this phase, only photos can be shared via web messaging. In the future, more file formats will be supported.
 
 ## **Introduction**
 
@@ -117,7 +117,7 @@ Bots will have the capability to send files as well. For further details and exa
 * File size will be limited to 5MB.
 * Authenticated consumers who receive a photo from an agent over the web will see an empty line in the native app if the photo was sent without a caption, or only the caption.
 
-**Web experience:** 
+**Web experience:**
 
 ![](/img/agent-file-sharing-12.png)
 
