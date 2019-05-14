@@ -22,7 +22,7 @@ Recommended Actions encourages agents to leverage existing bots and content, and
 
 **Benefits include:**
 
-* Leverages the Maven's identification of consumer intent
+* Leverages Maven's identification of consumer intent
 * Recommends or executes the next action for the best outcome
 * Makes human agents more efficient by enabling them to hand off menial tasks to automations
 * Accelerates utilization of existing automations by improving contextual discovery
