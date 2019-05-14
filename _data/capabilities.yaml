@@ -383,16 +383,16 @@
     - connectorAPI: "Supported"
   - featureName: Engagement Attributes
     channels:
-    - mobileAppMessaging: "Supported"
-    - webMessaging: "Supported"
+    - mobileAppMessaging: "Not Supported"
+    - webMessaging: "Not Supported"
     - appleBusinessChat: "Supported"
-    - sms: Q1, 2019
-    - facebook: Q1, 2019
-    - whatsapp: Q1, 2019
-    - googleRCS: Q1, 2019
-    - line: Q1, 2019
-    - messagingWindowAPI: "Supported"
-    - connectorAPI: "Supported"
+    - sms: "Not Supported"
+    - facebook: "Not Supported"
+    - whatsapp: "Not Supported"
+    - googleRCS: "Not Supported"
+    - line: "Not Supported"
+    - messagingWindowAPI: "Not Supported"
+    - connectorAPI: "Not Supported"
   - featureName: Automatic Messages
     channels:
     - mobileAppMessaging: "Supported"
