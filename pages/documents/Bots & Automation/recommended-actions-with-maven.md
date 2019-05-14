@@ -43,13 +43,17 @@ After matching the intent to the best action, the Recommended Action widget disp
 
 The agent has the ability to initiate the action - such as joining a bot or inserting an article into the conversation - to immediately start handling the consumer’s request. 
 
+Maven's Recommended Actions continues to make recommendations as the conversation evolves. For example, the agent can join a bot to the conversation, stay in the conversation or jump in to activity monitor it, as well as remove the bot from the conversation if needed. 
+
 ![](/img/recommended-actions-with-maven-3-1.png)
 
 ### Optimization with closed-loop training
 
-Recommendations are made by choosing the highest ranked bot, article or other action by score, after calibrating the score using a machine learning based on historical performance. 
+Recommendations are made based on the relevant and high confidence score of the intent, after calibrating the score using a machine learning based on historical performance. 
 
-Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. Maven then registers and utilizes the feedback to train the model for all future recommendations.
+Agents are able to rate the relevance and usefulness of the recommended automation using a simple thumbs-up or down button. 
+
+In the background, Maven is learning from the conversations and improves the model for all future recommendations over time.
 
 ![](/img/recommended-actions-with-maven-4.png)
 
