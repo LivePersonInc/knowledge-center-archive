@@ -13,6 +13,8 @@ published: false
 ---
 ## \[ABC\] Enhance List Picker multi selection option
 
+### Type: enhancement
+
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
