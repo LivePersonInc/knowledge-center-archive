@@ -8,7 +8,6 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-20th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## \[ABC\] Enhance List Picker multi selection option
@@ -49,7 +48,7 @@ published: false
 </table>
 
 **Multiple selection control at the section level**
-
+<br/>
 The List Picker feature enables agents or bots to share a list of items and information about them, while allowing the consumer to select item(s) and reply back with their selection. The brand can set the List Picker with sections to divide the list of items into product categories and set whether multiple selections are allowed. Today the parameter to enable/disable the multi-selection option is set at the List Picker level and applies to all its sections.
 
 The List Picker template was enhanced to allow setting the multiple selection support at the section level. This way, brands can have a section that allows multiple selections of items and another section that does not, all for the same List Picker.
