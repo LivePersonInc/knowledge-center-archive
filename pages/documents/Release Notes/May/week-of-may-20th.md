@@ -8,7 +8,7 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-20th.html
 isTutorial: false
 isNew: false
-published: false
+published: true
 
 ---
 ## \[ABC\] Enhance List Picker multi selection option
@@ -111,7 +111,7 @@ Metadata property for setting multiple selections for each section:
 <br/>
 For brands that choose to enable the multi-selection option, a new feature is now available, allowing them to configure whether the consumer selections will be received as one aggregated reply or multiple replies. By default this feature is disabled and the agent/bot will receive multiple selection reply as multiple replies. When enabling this feature, the multiple section reply will be aggregated into one message, making it easier for a bot to analyze.
 
-{: .notice} 
+{: .notice}
 **Please note:** This feature requires enablement. Please contact your LivePerson account team for more information.
 
 **Screenshots**
