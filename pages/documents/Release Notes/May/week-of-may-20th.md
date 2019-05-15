@@ -56,6 +56,7 @@ The List Picker template was enhanced to allow setting the multiple selection su
 Use the List Picker template and set “multipleSelection” of the metadata property to be an array of boolean with value true/false, comma delimited to set each section. A boolean value should be set for each section in the List Picker. In case you choose to use an area and not all values are listed for all sections, the default value for these sections will be set to false (which means single selection). If this property is set to single boolean instead of an array of boolean, as today, then the multiple selections setting will be applied to all sections (default).
 
 **Example:**
+
 Metadata property for setting same multiple selection for all sections (default):
 
     [
@@ -78,6 +79,7 @@ Metadata property for setting same multiple selection for all sections (default)
         }
       }
     ]
+
 
 Metadata property for setting multiple selections for each section:
 
