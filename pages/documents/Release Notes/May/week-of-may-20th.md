@@ -166,10 +166,10 @@ For brands that choose to enable the multi-selection option, a new feature is no
 The agent and consumer file sharing capability has been expanded for document sharing (in the previous phase only photos could be shared). 
 
 The following file types are supported: 
-PDF
-DOC(X)
-XLS(X)
-PPT(x)
+* PDF
+* DOC(X)
+* XLS(X)
+* PPT(x)
 
 All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities, limitations remain similar to definitions described in photo sharing scope (view here). 
 
