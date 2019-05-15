@@ -12,6 +12,7 @@ isNew: false
 date: 2019-01-28 10:55:35 +0000
 redirect_from:
   - html-engagement-unsupported-elements.html
+  - html_engagement.html
 
 ---
 ## Choosing your engagement type
