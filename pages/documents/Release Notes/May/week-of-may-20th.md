@@ -125,3 +125,54 @@ For brands that choose to enable the multi-selection option, a new feature is no
 **Image 4: agent getting the consumer selected replies as individual message**
 
 ![](/img/week-of-may-20th-4.png)
+
+## File Sharing (Phase II)
+
+### Type: new functionality
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+The agent and consumer file sharing capability has been expanded for document sharing (in the previous phase only photos could be shared). 
+
+The following file types are supported: 
+PDF
+DOC(X)
+XLS(X)
+PPT(x)
+
+All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities, limitations remain similar to definitions described in photo sharing scope (view here). 
+
+**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information. 
+
+**Limitations:** To allow an agent to send files, you will need to enable the site setting. In addition, you will need to configure the consumer side site setting (messaging.file.sharing.enabled). 
