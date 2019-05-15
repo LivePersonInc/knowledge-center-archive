@@ -54,6 +54,7 @@ The List Picker feature enables agents or bots to share a list of items and info
 The List Picker template was enhanced to allow setting the multiple selection support at the section level. This way, brands can have a section that allows multiple selections of items and another section that does not, all for the same List Picker.
 
 **To enable multiple selections per section:**
+<br/>
 Use the List Picker template and set “multipleSelection” of the metadata property to be an array of boolean with value true/false, comma delimited to set each section. A boolean value should be set for each section in the List Picker. In case you choose to use an area and not all values are listed for all sections, the default value for these sections will be set to false (which means single selection). If this property is set to single boolean instead of an array of boolean, as today, then the multiple selections setting will be applied to all sections (default).
 
 **Example:**
@@ -81,7 +82,7 @@ Metadata property for setting same multiple selection for all sections (default)
       }
     ]
 
-
+<br/>
 Metadata property for setting multiple selections for each section:
 
     [
@@ -106,8 +107,10 @@ Metadata property for setting multiple selections for each section:
     ]
 
 **Multiple selection replies from consumer**
+<br/>
 For brands that choose to enable the multi-selection option, a new feature is now available, allowing them to configure whether the consumer selections will be received as one aggregated reply or multiple replies. By default this feature is disabled and the agent/bot will receive multiple selection reply as multiple replies. When enabling this feature, the multiple section reply will be aggregated into one message, making it easier for a bot to analyze.
 
+{: .notice} 
 **Please note:** This feature requires enablement. Please contact your LivePerson account team for more information.
 
 **Screenshots**
@@ -176,6 +179,7 @@ The following file types are supported:
 
 All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities, limitations remain similar to definitions described in photo sharing scope (view here).
 
+{: .notice}
 **Please note:** This feature requires enablement. Please contact your LivePerson account team for more information.
 
 **Limitations:** To allow an agent to send files, you will need to enable the site setting. In addition, you will need to configure the consumer side site setting (messaging.file.sharing.enabled).
