@@ -9,7 +9,7 @@ level3: ''
 permalink: security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html
 isTutorial: true
 isNew: false
-date: 2019-01-29 08:27:49 +0000
+date: 2019-01-29T08:27:49.000+00:00
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -339,8 +339,8 @@ The following texts are not customizable:
 * Footer with security statement
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
-  1. Invitation: "&#123;&#123;secureFormName&#125;&#125;: &#123;&#123;secure form link&#125;&#125;"
-  2. Submission: "The following Secure Form has been submitted: &#123;&#123;secureFormName&#125;&#125;"
+  1. Invitation: "{{secureFormName}}: {{secure form link}}"
+  2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
   3. The above texts will be automatically translated per the language selected for the connector
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
@@ -411,13 +411,3 @@ When using secure forms, bear in mind:
   4. The consumer opens another secure form
 * On Android, the consumer is currently only able to open the form once. If the consumer tries to exit the form on Android, an alert message will appear.
 * For further information, refer to the [iOS In-App Messaging SDK](https://developers.liveperson.com/consumer-experience-ios-sdk-overview.html) and [Android In-App Messaging SDK](https://developers.liveperson.com/android-overview.html) documentation.
-
-## Reporting on secure forms
-
-The following secure form events are reported in [Report Builder](data-reporting-report-builder-report-builder-overview.html):
-
-* Agent sent the secure form
-* Consumer opened the secure form
-* Consumer submitted the secure form
-
-Currently, reporting will be carried out on a per-need basis through the LivePerson analytics team - please contact your LivePerson account team for more information.
