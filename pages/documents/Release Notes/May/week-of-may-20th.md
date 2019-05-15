@@ -47,7 +47,7 @@ published: false
 </table>
 
 **Multiple selection control at the section level**
-The List Picker feature enables agents or bots to share a list of items and information about them, while allowing the consumer to select item(s) and reply back with their selection. The brand can set the List Picker with sections to divide the list of items into product categories and set whether multiple selections are allowed. Today the parameter to enable/disable the multi-selection option is set at the List Picker level and applies to all its sections. 
+The List Picker feature enables agents or bots to share a list of items and information about them, while allowing the consumer to select item(s) and reply back with their selection. The brand can set the List Picker with sections to divide the list of items into product categories and set whether multiple selections are allowed. Today the parameter to enable/disable the multi-selection option is set at the List Picker level and applies to all its sections.
 
 The List Picker template was enhanced to allow setting the multiple selection support at the section level. This way, brands can have a section that allows multiple selections of items and another section that does not, all for the same List Picker.
 
@@ -57,57 +57,61 @@ Use the List Picker template and set “multipleSelection” of the metadata pro
 **Example:**
 Metadata property for setting same multiple selection for all sections (default):
 
-```
-[
-  {
-    "type": "BusinessChatMessage",
-    "multipleSelection": TRUE/FALSE,
-    "receivedMessage": {
-      "style": "icon",
-      "subtitle": "THIS IS THE SUBTITLE",
-      "title": "THIS IS THE TITLE",
-      "secondarySubtitle": "SECONDARY SUBTITLE",
-      "tertiarySubtitle": "TERTIARY SUBTITLE"
-    },
-    "replyMessage": {
-      "style": "icon",
-      "subtitle": "THIS IS THE SUBTITLE",
-      "title": "THIS IS THE TITLE",
-      "secondarySubtitle": "SECONDARY SUBTITLE",
-      "tertiarySubtitle": "TERTIARY SUBTITLE"
-    }
-  }
-]
-```
+    [
+      {
+        "type": "BusinessChatMessage",
+        "multipleSelection": TRUE/FALSE,
+        "receivedMessage": {
+          "style": "icon",
+          "subtitle": "THIS IS THE SUBTITLE",
+          "title": "THIS IS THE TITLE",
+          "secondarySubtitle": "SECONDARY SUBTITLE",
+          "tertiarySubtitle": "TERTIARY SUBTITLE"
+        },
+        "replyMessage": {
+          "style": "icon",
+          "subtitle": "THIS IS THE SUBTITLE",
+          "title": "THIS IS THE TITLE",
+          "secondarySubtitle": "SECONDARY SUBTITLE",
+          "tertiarySubtitle": "TERTIARY SUBTITLE"
+        }
+      }
+    ]
 
 Metadata property for setting multiple selections for each section:
-```
-[
-  {
-    "type": "BusinessChatMessage",
-    "multipleSelection": [TRUE/FALSE, TRUE/FALSE],
-    "receivedMessage": {
-      "style": "icon",
-      "subtitle": "THIS IS THE SUBTITLE",
-      "title": "THIS IS THE TITLE",
-      "secondarySubtitle": "SECONDARY SUBTITLE",
-      "tertiarySubtitle": "TERTIARY SUBTITLE"
-    },
-    "replyMessage": {
-      "style": "icon",
-      "subtitle": "THIS IS THE SUBTITLE",
-      "title": "THIS IS THE TITLE",
-      "secondarySubtitle": "SECONDARY SUBTITLE",
-      "tertiarySubtitle": "TERTIARY SUBTITLE"
-    }
-  }
-]
-```
+
+    [
+      {
+        "type": "BusinessChatMessage",
+        "multipleSelection": [TRUE/FALSE, TRUE/FALSE],
+        "receivedMessage": {
+          "style": "icon",
+          "subtitle": "THIS IS THE SUBTITLE",
+          "title": "THIS IS THE TITLE",
+          "secondarySubtitle": "SECONDARY SUBTITLE",
+          "tertiarySubtitle": "TERTIARY SUBTITLE"
+        },
+        "replyMessage": {
+          "style": "icon",
+          "subtitle": "THIS IS THE SUBTITLE",
+          "title": "THIS IS THE TITLE",
+          "secondarySubtitle": "SECONDARY SUBTITLE",
+          "tertiarySubtitle": "TERTIARY SUBTITLE"
+        }
+      }
+    ]
 
 **Multiple selection replies from consumer**
 For brands that choose to enable the multi-selection option, a new feature is now available, allowing them to configure whether the consumer selections will be received as one aggregated reply or multiple replies. By default this feature is disabled and the agent/bot will receive multiple selection reply as multiple replies. When enabling this feature, the multiple section reply will be aggregated into one message, making it easier for a bot to analyze.
 
-**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information. 
+**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information.
 
 **Screenshots**
 
+**Image 1: enable merging the list picker replies**
+
+**Image 2: agent getting the consumer selected replies merged as one message**
+
+**Image 3: disable merging the list picker replies**
+
+**Image 4: agent getting the consumer selected replies as individual message**
