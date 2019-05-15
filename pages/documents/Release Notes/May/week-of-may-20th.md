@@ -110,8 +110,16 @@ For brands that choose to enable the multi-selection option, a new feature is no
 
 **Image 1: enable merging the list picker replies**
 
+![](/img/week-of-may-20th-1.png)
+
 **Image 2: agent getting the consumer selected replies merged as one message**
 
-**Image 3: disable merging the list picker replies**
+![](/img/week-of-may-20th-2.png)
+
+**Image 3: disable merging the List Picker replies**
+
+![](/img/week-of-may-20th-3.png)
 
 **Image 4: agent getting the consumer selected replies as individual message**
+
+![](/img/week-of-may-20th-4.png)
