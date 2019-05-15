@@ -8,7 +8,6 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-20th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## \[ABC\] Enhance List Picker multi selection option
@@ -318,7 +317,7 @@ When adding a header image with Alt text within the engagement window studio con
 
 ## Data Transporter email on task failure/success
 
-### Type: new functionality 
+### Type: new functionality
 
 <table class="releasenotes">
 <thead>
@@ -408,4 +407,4 @@ All users of Data Transporter may now login via Single Sign-on instead of using 
 {: .notice}
 **Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team.
 
-
+![](/img/week-of-may-20th-10.png)
