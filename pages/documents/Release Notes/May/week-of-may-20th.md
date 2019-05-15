@@ -8,6 +8,7 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-20th.html
 isTutorial: false
 isNew: false
+published: false
 
 ---
 ## \[ABC\] Enhance List Picker multi selection option
