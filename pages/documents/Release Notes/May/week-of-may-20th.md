@@ -223,3 +223,86 @@ Brands who sign the security waiver will be able to configure the sandbox attrib
 * Brands who want to remove the sandbox attribute, will have to sign a security waiver
 * site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
 
+## New Minimize window icon (CX-286)
+
+### Type: enhancement
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+We added an additional style for the minimize window icon. Campaign managers and admin users are able to choose the icon to minimize the window. This is configurable via the engagement window studio under the “title bar” section. This feature is available for desktop only.
+
+**To configure the minimize window icon:**
+
+Default icon:
+
+Chevron icon: 
+
+## “Alt text” on header of engagement window does not disappear even after deleting from settings (CX-194)
+
+### Type: bug fix
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+When adding a header image with Alt text within the engagement window studio configuration, Alt text appears when the visitor hoovers over the header image. However, when you delete “Alt text” within the engagement window studio, “Alt text” still appears on the visitor side when the visitor hoovers over the header image. Alt text should no longer appear when deleted and saved in the engagement window studio.
