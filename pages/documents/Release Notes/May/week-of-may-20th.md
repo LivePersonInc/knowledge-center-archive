@@ -318,6 +318,8 @@ When adding a header image with Alt text within the engagement window studio con
 
 ## Data Transporter email on task failure/success
 
+### Type: new functionality 
+
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -356,5 +358,54 @@ To improve notification to brands when task failures occur, a new feature is now
 **How to enable:** Navigate to the account section in the Data Transporter application, enter an email/distribution list, and opt in to emails on Task Failure, or Task Failure + Task Success.
 
 {: .notice}
-**Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team. 
+**Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team.
+
+**Screenshots**
+
+![](/img/week-of-may-20th-9.png)
+
+## Data Transporter global Single Sign-on
+
+### Type: new functionality
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+All users of Data Transporter may now login via Single Sign-on instead of using their regular username and password. This provides accounts with agent SSO enabled to also utilize the Data Transporter. In addition, non-agent SSO users can take advantage of the simultaneous login feature this provides when using the SSO option.
+
+**How to enable:** From the main login page (https://transporter.liveperson.net/login), simply enter your account number and then click “Single Sign-on” link below the regular “Sign in” button. Alternatively, use the following shortcut: https://transporter.liveperson.net/sso/YOUR_ACCOUNT_NUMBER
+
+{: .notice}
+**Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team.
+
 
