@@ -216,10 +216,11 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 </table>
 
 The iframe sandbox attribute used in the agent widgets enforces restrictions on content hosted in the iframe to protect the LiveEngage application from several malicious actions. LiveEngage has set a number of sandbox flags to relax these restrictions and allow required functionalities.
-  
+
 Brands who sign the security waiver will be able to configure the sandbox attribute, giving them more flexibility to customize the Agent Widget SDK.
 
 **Dependencies:**
+
 * Brands who want to remove the sandbox attribute, will have to sign a security waiver
 * site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
 
@@ -266,7 +267,15 @@ We added an additional style for the minimize window icon. Campaign managers and
 
 Default icon:
 
-Chevron icon: 
+![](/img/week-of-may-20th-5.png)
+
+![](/img/week-of-may-20th-6.png)
+
+Chevron icon:
+
+![](/img/week-of-may-20th-7.png)
+
+![](/img/week-of-may-20th-8.png)
 
 ## “Alt text” on header of engagement window does not disappear even after deleting from settings (CX-194)
 
@@ -306,3 +315,46 @@ Chevron icon:
 </table>
 
 When adding a header image with Alt text within the engagement window studio configuration, Alt text appears when the visitor hoovers over the header image. However, when you delete “Alt text” within the engagement window studio, “Alt text” still appears on the visitor side when the visitor hoovers over the header image. Alt text should no longer appear when deleted and saved in the engagement window studio.
+
+## Data Transporter email on task failure/success
+
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+To improve notification to brands when task failures occur, a new feature is now available to allow for an email to be sent.
+
+**How to enable:** Navigate to the account section in the Data Transporter application, enter an email/distribution list, and opt in to emails on Task Failure, or Task Failure + Task Success.
+
+{: .notice}
+**Note:** This feature is available to existing and new Data Transporter customers. For more information, please contact your LivePerson account team. 
+
