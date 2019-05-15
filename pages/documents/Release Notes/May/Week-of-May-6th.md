@@ -99,67 +99,36 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 ### FaaS Secret Storage
 
 <table class="releasenotes">
-
 <thead>
-
 <tr class="categoryrow">
-
 <th>Web Messaging</th>
-
 <th>Mobile App Messaging</th>
-
 <th>Twilio</th>
-
 <th>Facebook Messenger</th>
-
 <th>ABC</th>
-
 <th>Line</th>
-
 <th>Google RCS</th>
-
 <th>Google My Business</th>
-
 <th>WhatsApp Business</th>
-
 <th>CM</th>
-
 <th>Chat</th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>N/A</td>
-
 <td>Yes</td>
-
 </tr>
-
 </tbody>
-
 </table>
 
 The FaaS Secrets Storage allows you to centrally store, access and distribute secrets across your lambdas. Thereby, lambdas can use available access tokens, certificates and encryption keys to establish a connection to external systems.
