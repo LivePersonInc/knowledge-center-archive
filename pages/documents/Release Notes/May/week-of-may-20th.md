@@ -163,16 +163,31 @@ For brands that choose to enable the multi-selection option, a new feature is no
 </tbody>
 </table>
 
-The agent and consumer file sharing capability has been expanded for document sharing (in the previous phase only photos could be shared). 
+The agent and consumer file sharing capability has been expanded for document sharing (in the previous phase only photos could be shared).
 
-The following file types are supported: 
+The following file types are supported:
+
 * PDF
 * DOC(X)
 * XLS(X)
 * PPT(x)
 
-All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities, limitations remain similar to definitions described in photo sharing scope (view here). 
+All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities, limitations remain similar to definitions described in photo sharing scope (view here).
 
-**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information. 
+**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information.
 
-**Limitations:** To allow an agent to send files, you will need to enable the site setting. In addition, you will need to configure the consumer side site setting (messaging.file.sharing.enabled). 
+**Limitations:** To allow an agent to send files, you will need to enable the site setting. In addition, you will need to configure the consumer side site setting (messaging.file.sharing.enabled).
+
+## Agent widget SDK: Configure sandbox attribute
+
+### Type: enhancement
+
+The iframe sandbox attribute used in the agent widgets enforces restrictions on content hosted in the iframe to protect the LiveEngage application from several malicious actions. LiveEngage has set a number of sandbox flags to relax these restrictions and allow required functionalities.
+
+  
+Brands who sign the security waiver will be able to configure the sandbox attribute, giving them more flexibility to customize the Agent Widget SDK.
+
+**Dependencies:**
+
+* Brands who want to remove the sandbox attribute, will have to sign a security waiver
+* site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
