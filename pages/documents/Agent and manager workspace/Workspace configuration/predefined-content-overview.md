@@ -5,7 +5,7 @@ subCategoryName: Workspace configuration
 indicator: both
 subtitle: 'Save time and energy by using Predefined Content '
 level3: ''
-permalink: agent-manager-workspace-workspace-configuration-predefined-content-overview
+permalink: agent-manager-workspace-workspace-configuration-predefined-content-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-30 15:18:32 +0000
