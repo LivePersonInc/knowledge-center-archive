@@ -10,6 +10,8 @@ permalink: ai-bots-automation-conversation-builder-conversation-builder-overview
 isTutorial: true
 isNew: false
 date: 2019-01-23 14:03:55 +0000
+redirect_from:
+  - bots-automation-conversation-builder-components-knowledge-base.html
 
 ---
 ### Why brands need bots, automation and empowered agents

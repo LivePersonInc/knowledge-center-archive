@@ -9,9 +9,8 @@ permalink: contact-center-management-campaigns-campaign-goals.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 08:23:25 +0000
-redirect-from:
+redirect_from:
   - about-goals.html
-
 ---
 Each campaign within LiveEngage has a campaign goal, which signifies what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can re-use it in future campaigns.
 

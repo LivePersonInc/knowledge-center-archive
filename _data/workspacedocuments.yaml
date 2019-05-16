@@ -1,0 +1,30 @@
+- categoryname: Welcome
+  image: getting-started
+
+- categoryname: User Guide
+  image: getting-started
+  subcategories:
+    - subcategoryname: Working with asynchronous messaging
+    - subcategoryname: Agent workspace for messaging tour
+    - subcategoryname: Workspace basics
+    - subcategoryname: Managing messaging conversations
+    - subcategoryname: Taking breaks & ending your shift
+    - subcategoryname: Understanding agent performance
+    - subcategoryname: CoBrowse for messaging
+    - subcategoryname: Best practices for messaging agents
+    - subcategoryname: Agent workspace icons for messaging
+
+- categoryname: Training Deck
+  image: getting-started
+
+- categoryname: Tutorial
+  image: getting-started
+
+- categoryname: Roadmap
+  image: getting-started
+
+- categoryname: Change management plan
+  image: getting-started
+
+- categoryname: Release notes
+  image: getting-started

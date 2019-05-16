@@ -122,11 +122,11 @@ The number of agent-segments which where closed with no response from the consum
 
 **Agent Segments With Non Responsive Agents**
 
-The number of agent-segments which ended in a transfer to another skill or closed by an agent or system (“auto close”), with no message from an agent.	
+The number of agent-segments which ended in a transfer to another skill or closed by an agent or system (“auto close”), with no message from an agent.
 
 **Avg. Time to First Agent Message from Agent Assignment**
 
-The time on average taken by an agent to respond to a consumer from the time the agent is assigned to the conversation. Calculated only for the first agent message sent in a new conversation or after transfer.	
+The time on average taken by an agent to respond to a consumer from the time the agent is assigned to the conversation. Calculated only for the first agent message sent in a new conversation or after transfer.
 
 **Avg. Time to First Agent Message from Agent Assignment - after Transfer**
 
@@ -134,13 +134,13 @@ The time on average taken by an agent to respond to a consumer from the time the
 
 **Avg. Time to First Agent Message from Agent Assignment -New Conversation**
 
-The time on average taken by an agent to respond to a consumer from the time the agent is assigned to the conversation. Calculated only for the first agent message sent after the conversation started.	
+The time on average taken by an agent to respond to a consumer from the time the agent is assigned to the conversation. Calculated only for the first agent message sent after the conversation started.
 
 **Avg. Time to Response From Agent Assignment**
 
 The time on average taken by an agent to respond to consumer message from the time the agent is assigned to the conversation.
 
-## Support for TLS 1.2 
+## Support for TLS 1.2
 
 ### Type: New functionality
 
@@ -208,102 +208,4 @@ The time on average taken by an agent to respond to consumer message from the ti
 
 </table>
 
- LivePerson is deprecating support for old TLS versions 1.0 and 1.1 for all our services. In this version, we are enabling support for TLS 1.2 and removing support for TLS 1.0 and TLS 1.1.
-
-## Agent-Group pre filter
-
-### Type: New functionality
-
-<table class="releasenotes">
-
-<thead>
-
-<tr class="categoryrow">
-
-<th>Web Messaging</th>
-
-<th>Mobile App Messaging</th>
-
-<th>Twilio</th>
-
-<th>Facebook Messenger</th>
-
-<th>ABC</th>
-
-<th>Line</th>
-
-<th>Google RCS</th>
-
-<th>Google My Business</th>
-
-<th>WhatsApp Business</th>
-
-<th>CM</th>
-
-<th>Chat</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>Yes</td>
-
-<td>No</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-Prefilter the open connections list by agent group, allowing agent managers to only see conversations of agent groups they manage instead of all agents.
-
-This feature needs to be enabled.  
-The scope is relevant to the following user profiles:  
-**Agent Manager:**
-
-LiveEngage Open Connections Tab: Agent group pre-filtered conversations including queued conversations
-
-Data bar: Stats only on agent group pre-filtered conversations
-
-Notifications: Notification sent for new conversations, or updates to existing conversations that are assigned to agents in the agent manager groups will become visible in LiveEngage.
-
-Users can apply a filter on agent-groups through LE UI.  
-  
-**Agent with view permission enabled**
-
-Open Connection: all conversations from the agent’s group including queued conversations
-
-Data Bar: matches with open connection conversation data on the initial request  
-  
-**Administrator and Agent-Manager:**
-
-Open Connections Tab: Agent group pre-filtered conversations including queued conversations
-
-Data bar: Stats only on agent group pre filtered conversations
-
-Notifications: Notification sent for new conversations, or updates to existing conversations that are assigned to agents in the agent manager groups will be visible in LiveEngage. User can apply filter on agent-groups through LE UI.
-
-Note: Brands that have not enabled this feature, or users as agents, bot, bot manager, admin only, and campaign managers will not see any difference from previous versions.
+LivePerson is deprecating support for old TLS versions 1.0 and 1.1 for all our services. In this version, we are enabling support for TLS 1.2 and removing support for TLS 1.0 and TLS 1.1.
