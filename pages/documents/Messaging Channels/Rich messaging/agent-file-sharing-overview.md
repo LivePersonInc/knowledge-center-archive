@@ -69,7 +69,7 @@ When the agent chooses a photo, a preview of the photo will be presented and the
 
 ![](/img/agent-file-sharing-7.png)
 
-The file will appear in the transcript :
+The file will appear in the transcript:
 
 ![](/img/agent-file-sharing-8.png)
 
