@@ -9,7 +9,7 @@ permalink: data-reporting-live-chat-how-to-export-100000-chats-into-a-dashboard.
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:34:47 +0000
-published: false
+published: true
 
 ---
 Now you can export chats in two formats: as a JSON or as easier-to-read CSV files, directly from the Web History page. The JSON  has the same format as the output retrieved by the Web History API.  To export more than 100,000 chats, continue to use the API.
