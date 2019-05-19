@@ -1177,7 +1177,8 @@ w-div a:last-child {
 
 div#cookie-law {
   display: flex;
-  position: absolute;
+  position: fixed;
+  bottom: 15px;
   margin-top: -50px;
   z-index: 10000;
   width: 100%;
