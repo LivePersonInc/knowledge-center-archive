@@ -11,18 +11,17 @@ isNew: false
 date: '2019-04-15T08:03:29.000+00:00'
 
 ---
-{: .important}
-**Please note:** Agent file sharing is currently in phase 1. At this phase, only photos can be shared via web messaging. In the future, more file formats will be supported.
+## Introduction
 
-## **Introduction**
+Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **web messaging.** In the future, more file formats will be supported.
 
-Agent file sharing enables agents and bots to share files with consumers. Agents will now be able to share photos with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
+Agents will now be able to share files with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 
-## **Enabling the feature**
+## Enabling the feature
 
 To enable “Agent file sharing” capability on your LiveEngage account, please contact your LivePerson account team.
 
-## **Night Vision setting**
+## Night Vision setting
 
 In order to enable the agent file sharing capability, brands have to enable the feature via Night Vision. Click on the Night Vision icon in the top right corner (the blue icon). From there, Go to the visitors tab > Agent Workspace configuration > File Sharing:
 
@@ -32,7 +31,15 @@ Click on file sharing and enable the feature:
 
 ![](/img/agent-file-sharing-2.png)
 
-## **Permissions**
+## Consumer-side configuration
+
+In order to display the attachment icon in the consumer window, select the ‘Menu elements’ dropdown in the Engagement window studio, and check the box that says ‘Send image (Messaging only). The campaign **must be republished** in order for the icon to be displayed.
+
+![](/img/agent-file-sharing-15.png)
+
+![](/img/agent-file-sharing-16.png)
+
+## Permissions
 
 The agent file sharing capability is permission based. New permissions have been added to both agent and agent manager profiles: “Send files to consumers from local file browser.”
 
@@ -48,7 +55,7 @@ A new attachment icon has been added above the agent’s input message area:
 
 The icon will be visible only to users with the appropriate permission.
 
-In case the channel from which the conversation was initiated does not support receiving files, the icon will be greyed out and will not be clickable. In this phase, the icon will be visible only in web messaging conversations.
+If the channel from which the conversation was initiated does not support receiving files, the icon will be greyed out and will not be clickable. In this phase, the icon will be visible only in web messaging conversations.
 
 ![](/img/agent-file-sharing-5.png)
 
@@ -56,27 +63,31 @@ Clicking on the attachment icon will open the agent local file browser dialog:
 
 ![](/img/agent-file-sharing-6.png)
 
-The list of files presented will be filtered to present only supported file types (“Custom files”): jpeg, jpg, png, gif.
+The list of files presented will be filtered to present only supported file types (“Custom files”): JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
 
-Once the agent chooses a photo, a preview of the photo will be presented and the agent will be able to add a caption and send the photo.
+When the agent chooses a photo, a preview of the photo will be presented and the agent will be able to add a caption and send the photo.
 
 ![](/img/agent-file-sharing-7.png)
 
-The photo will appear in the transcript :
+The file will appear in the transcript :
 
 ![](/img/agent-file-sharing-8.png)
 
-Agents will be able to download the photo from the transcript.
+There is no preview available for files, only photos.
+
+![](/img/agent-file-sharing-17.png)
+
+Agents will be able to download the file from the transcript.
 
 ![](/img/agent-file-sharing-9.png)
 
-Once clicking on the photo it will be opened in full page mode:
+Once clicking on the file it will be opened in full page mode:
 
 ![](/img/agent-file-sharing-10.png)
 
 Agents will be able to keep writing in the input area while the file browser dialog is open, and navigate to other conversations. While the image is being loaded, the agent will be able to send additional messages. They will also be able to move to another conversation window while the loading process continues.
 
-The consumer will receive the photo as part of the conversation. When the consumer clicks on the photo, it will pop up for a full screen view.
+The consumer will receive the file as part of the conversation. When the consumer clicks on the file, it will pop up for a full screen view.
 
 ![](/img/agent-file-sharing-11.png)
 
@@ -112,7 +123,7 @@ Bots will have the capability to send files as well. For further details and exa
 
 ## **Limitations and clarifications**
 
-* Supported file types: jpeg, jpg, png, gif.
+* Supported file types: JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, PPTx.
 * The capability is currently supported only on web messaging.
 * File size will be limited to 5MB.
 * Authenticated consumers who receive a photo from an agent over the web will see an empty line in the native app if the photo was sent without a caption, or only the caption.
