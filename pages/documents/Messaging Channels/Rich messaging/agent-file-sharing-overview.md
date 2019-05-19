@@ -126,7 +126,7 @@ Bots will have the capability to send files as well. For further details and exa
 * Supported file types: JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, PPTx.
 * The capability is currently supported only on web messaging.
 * File size will be limited to 5MB.
-* Authenticated consumers who receive a photo from an agent over the web will see an empty line in the native app if the photo was sent without a caption, or only the caption.
+* Authenticated consumers who receive a file from an agent over the web will see an empty line in the native app if the file was sent without a caption, or only the caption.
 
 **Web experience:**
 
@@ -139,7 +139,7 @@ Bots will have the capability to send files as well. For further details and exa
 ![](/img/agent-file-sharing-14.jpg)
 
 * The permissions to use the feature will be presented once the feature has been enabled by the account team. However, the feature will only be usable after it has been turned on in the account settings.
-* If a conversation was resumed and then closed, photo sharing will be disabled as a way to resume the conversation again (the agent will not be able to send a photo to the conversation).
+* If a conversation was resumed and then closed, file sharing will be disabled as a way to resume the conversation again (the agent will not be able to send a file to the conversation).
 * Custom widgets cannot send a file as a way to resume a conversation.
 * Animated gifs are not supported (will be sent as static gif).
 
