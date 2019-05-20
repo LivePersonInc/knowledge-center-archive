@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: This predefined dashboard includes operational and business data for all
   messaging channels
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-performance-dashboard-messaging.html
+permalink: data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html
 isTutorial: false
 date: '2019-01-15T14:29:49.000+00:00'
 
