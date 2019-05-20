@@ -1,5 +1,5 @@
 ---
-pagename: Business dashboard & grid for Live chat
+pagename: Business dashboard and grid for live chat
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: both
