@@ -9,7 +9,7 @@ level3: ''
 permalink: security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html
 isTutorial: true
 isNew: false
-date: 2019-01-29T08:27:49.000+00:00
+date: '2019-01-29T08:27:49.000+00:00'
 
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
@@ -277,9 +277,9 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 
 ## **Messaging connectors**
 
-For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
+For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit. 
 
-The design for the form in the messaging connectors experience is inherited from the engagement window default design.
+Secure forms are also now supported on desktop versions of WhatsApp and Facebook Messenger. The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
 ### Invitation
 
