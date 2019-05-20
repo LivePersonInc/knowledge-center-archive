@@ -317,6 +317,10 @@ The following UI shows the connector’s secure form experience on mobile and ta
 
 ![](/img/Secure-form-messaging-userguide11.png)
 
+#### Rich links
+
+For Apple Business Chat, rich links are the default behavior for secure forms. This means that consumers only need to tap once on the form to open it. 
+
 ## Success and error messages
 
 The following error messaging will display when the form fails to load:
