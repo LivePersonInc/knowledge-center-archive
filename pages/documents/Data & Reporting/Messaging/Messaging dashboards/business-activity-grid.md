@@ -1,5 +1,5 @@
 ---
-pagename: Business activity dashboard & grid
+pagename: Business dashboard for messaging
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
@@ -7,16 +7,13 @@ subtitle: The business activity dashboard provides a daily snapshot of campaign 
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html
 isTutorial: false
-date: 2019-01-21 13:15:27 +0000
+date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The Business Activity predefined dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel, including both chat and web messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand website, mobile app, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+The predefined business dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel for messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
 Operational metrics for agent productivity and utilization have been added to compliment the funnel metrics. These operational metrics can be viewed alongside the funnel data but cannot be streamlined into one filterable view, as the dashboard does not include skill level analysis.
-
-{: .notice}  
-Metrics with the term “chat” in their title only include data for live chat engagements, not for web messaging or other sources.
 
 **Primary datasets:** engagement exposures, viewed and accepted engagement offers, conversions
 
@@ -25,7 +22,6 @@ Metrics with the term “chat” in their title only include data for live chat 
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
 * Goal type: based on campaign goals, such as “Sell product/service”
 * Goal: set up on the account’s campaigns
-* Conversation type: chat or messaging
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
 
 **Minimum time frame:** Daily
@@ -56,36 +52,6 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 
   #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
-  * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
-  * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
-  * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
-  * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
-  * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
-
-For example:
-
-The following campaign setup is given:
-
-![](/img/Business-activity-grid-image2.png)
-
-Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
-
-* Offline “MainPage” button
-* Online “MainPage” button after moving to another page in the same section
-* Online “ProductPage” button
-
-Alex clicked the “ProductPage” button and conversed with an agent.
-
-Visitor **Rachel** is a prospect for the “Lead Gen” and “Service” campaign during the same visit. She sees the following:
-
-* Online “MyAccount” button
-* Offline “MainPage” button
-
-Rachel self served (meaning she did not converse with an agent during her visit).
-
-Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level.
-
-![](/img/Screen Shot 2019-03-07 at 3.05.25 PM.png)
 
 ## Reporting on campaigns funnel from messaging engagements
 
