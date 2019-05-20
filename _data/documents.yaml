@@ -176,11 +176,11 @@
         - pagename: Chat Dashboards
           level3:
             - level3name: Agent activity dashboard
-            - level3name: Survey dashboard for Live chat
-            - level3name: Business dashboard and grid for Live chat
+            - level3name: Survey dashboard for live chat
+            - level3name: Business dashboard and grid for live chat
             - level3name: Goal tracker report
             - level3name: "Operational & staffing dashboard"
-            - level3name: Skills dashboard for Live chat
+            - level3name: Skills dashboard for live chat
         - pagename: "How to export 100,000 chats into a dashboard"
     - subcategoryname: "Meaningful Connection Score (MCS)"
       pages:
