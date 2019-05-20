@@ -55,7 +55,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 
 ## Reporting on campaigns funnel from messaging engagements
 
-The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Live Chat or Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
+The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
 
 The LivePerson monitoring code present on your website pages automatically transmits to LiveEngage each step in the consumer’s journey. This translates into metrics included in the Business Activity dashboard. In order to integrate consumer journeys taking place in the mobile app into Campaign Funnel metrics, the use of an SDK is required (read more on how to integrate your app with LiveEngage Campaigns).
 
