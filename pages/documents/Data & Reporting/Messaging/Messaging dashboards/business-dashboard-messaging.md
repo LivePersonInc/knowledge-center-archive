@@ -5,7 +5,7 @@ subCategoryName: Messaging
 indicator: both
 subtitle: The business activity dashboard provides a daily snapshot of campaign performance
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html
+permalink: data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html
 isTutorial: false
 date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
