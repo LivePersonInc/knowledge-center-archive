@@ -1,14 +1,14 @@
 ---
-pagename: Business activity dashboard & grid
+pagename: Business dashboard and grid for live chat
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: both
 subtitle: The business activity grid spreads out the funnel metrics in a granular
   view
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html
+permalink: data-reporting-live-chat-chat-dashboards-business-dashboard-and-grid-for-live-chat.html
 isTutorial: false
-date: 2019-01-21 11:51:07 +0000
+date: '2019-01-21T11:51:07.000+00:00'
 isNew: false
 
 ---

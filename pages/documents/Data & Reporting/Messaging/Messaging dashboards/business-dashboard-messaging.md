@@ -1,32 +1,55 @@
 ---
-pagename: Business activity dashboard & grid
+pagename: Business dashboard for messaging
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
-subtitle: The business activity dashboard provides a daily snapshot of campaign performance
+subtitle: The business activity dashboard for messaging provides a daily snapshot
+  of campaign performance
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html
+permalink: data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html
 isTutorial: false
-date: 2019-01-21 13:15:27 +0000
+date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The Business Activity predefined dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel, including both chat and web messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand website, mobile app, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+The predefined business dashboard provides a quick view of the the daily current day, previous 7 calendar days, average as well as the totals for the messaging business activity level messaging engagement metrics. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics. 
 
-Operational metrics for agent productivity and utilization have been added to compliment the funnel metrics. These operational metrics can be viewed alongside the funnel data but cannot be streamlined into one filterable view, as the dashboard does not include skill level analysis.
+Using this dashboard, you gain the ability to view funnel data as well as conversion, revenue, efficiency and experience data at the Brand Engagement and Campaign level. Brands can analyze the funnel data snapshot of for the Line of Business and Entry campaign performance, allowing brands to analyze the customer journey for messaging engagements.
 
-{: .notice}  
-Metrics with the term “chat” in their title only include data for live chat engagements, not for web messaging or other sources.
+Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
-**Primary datasets:** engagement exposures, viewed and accepted engagement offers, conversions
+The Business activity for messaging predefined dashboard does not include agent or survey question response data.
+
+**Primary datasets:**
+
+* New aggregation model (currently known as Agent Messaging Activity)
+* Conversion Daily 
+* Conversion Daily- Brand 
+* Visits Daily
+* Exposures Daily | Brand Distinct
+* Exposures Daily  LOB Distinct
+* Exposures Daily | Campaign Distinct
+* Exposures Daily | Engagement Distinct
+* Exposures Daily | Entry Point Distinct 
+* View and Accepted Offers Daily 
+* Consumer Messaging Activity 
+* Agent Activity Hourly
 
 **Primary filters:**
 
+* Date
+* Group
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
 * Goal type: based on campaign goals, such as “Sell product/service”
 * Goal: set up on the account’s campaigns
-* Conversation type: chat or messaging
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
+
+**Manual filter by Panel:**
+
+* Campaign 
+* LOB 
+* Entry Point 
+* Engagement
 
 **Minimum time frame:** Daily
 
@@ -56,40 +79,10 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 
   #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
-  * CHAT BUSY EXPOSURES - Number of times each engagement was offered to a visitor in busy state
-  * CHAT OFFLINE EXPOSURES - Number of times each engagement was offered to a visitor in offline state
-  * CHAT ONLINE EXPOSURES - Number of times each engagement was offered to a visitor in online state
-  * CONTENT EXPOSURES - Number of times each content engagement was offered to a visitor
-  * MESSAGING EXPOSURES - Number of times each web messaging engagement was offered to a visitor
-
-For example:
-
-The following campaign setup is given:
-
-![](/img/Business-activity-grid-image2.png)
-
-Visitor **Alex** is a prospect for the “Lead Gen” campaign, and during his visit, he sees the following:
-
-* Offline “MainPage” button
-* Online “MainPage” button after moving to another page in the same section
-* Online “ProductPage” button
-
-Alex clicked the “ProductPage” button and conversed with an agent.
-
-Visitor **Rachel** is a prospect for the “Lead Gen” and “Service” campaign during the same visit. She sees the following:
-
-* Online “MyAccount” button
-* Offline “MainPage” button
-
-Rachel self served (meaning she did not converse with an agent during her visit).
-
-Here are the results observed in the Business Activity dashboard per each distinct metric in each pre-aggregated level.
-
-![](/img/Screen Shot 2019-03-07 at 3.05.25 PM.png)
 
 ## Reporting on campaigns funnel from messaging engagements
 
-The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Live Chat or Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
+The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
 
 The LivePerson monitoring code present on your website pages automatically transmits to LiveEngage each step in the consumer’s journey. This translates into metrics included in the Business Activity dashboard. In order to integrate consumer journeys taking place in the mobile app into Campaign Funnel metrics, the use of an SDK is required (read more on how to integrate your app with LiveEngage Campaigns).
 
@@ -119,13 +112,13 @@ A mobile app messaging conversation may continue beyond 6 hours and is not coupl
 
 ## Main sheet: Business activity analysis
 
-Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. Since the panels are identical in metrics and attributes, the following section outlines the common list of metrics, followed by the additional functionality at the relevant level.
+Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
 ### Common to all panels
 
 ![](/img/business-activity-dashboard3.png)
 
-There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement.
+There are four available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
 **Top data bar (Grid)**
 

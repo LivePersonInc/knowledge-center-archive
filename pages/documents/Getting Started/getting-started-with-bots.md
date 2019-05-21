@@ -69,6 +69,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 * [Google dialogue flow](https://developers.liveperson.com/bot-connectors-google-dialog-flow.html)
 * [IBM Watson assistant](https://developers.liveperson.com/bot-connectors-ibm-watson-assistant.html)
+* [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
 * Custom bot ([Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html))
 
 ## Step 3: Connect conversations to your bots
