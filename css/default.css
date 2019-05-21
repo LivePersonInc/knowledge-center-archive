@@ -1175,6 +1175,10 @@ w-div a:last-child {
   top: 12px !important;
 }
 
+.LPMimage {
+  left: 15px !important;
+}
+
 div#cookie-law {
   display: flex;
   position: fixed;

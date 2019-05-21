@@ -2,7 +2,7 @@
 pagename: Auto close for messaging conversations
 categoryName: Contact center management
 subCategoryName: Messaging operations
-indicator: both
+indicator: messaging
 subtitle: 'Manage expectations and keep consumers informed about expected wait times '
 level3: ''
 permalink: contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html
@@ -13,7 +13,7 @@ redirect_from:
   - auto-close.html
 
 ---
-To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time. Auto close provides a seamless experience for consumers; they will not receive an exit survey, nor see a separator within the conversation thread.
+To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time. Auto close provides a seamless experience for consumers; they will not receive a post conversation survey, nor see a separator within the conversation thread.
 
 For example, if a conversation has been idle for ten days, it can be automatically closed and moved to the closed conversations list. If the consumer sends a message after this time, it will be treated as a new incoming conversation.
 
@@ -45,7 +45,7 @@ Having such a capability will give brands a higher level of flexibility to deter
 ## Limitations
 
 1. **No ability to turn off auto close feature**: The messaging backend servers have a system protection mechanism that closes conversations after 90 days of inactivity in order to control the load on the server. Due to this, auto close is enabled for all accounts with a default value of 90 days which is also the maximum allowed configuration.
-2. **SDK backward compatibility**: Elimination of the exit survey and close message on mobile app is supported only from SDK version 2.1 and above. Consumers messaging from an app implementing an older SDK will see the survey and a close message “Conversation resolved by you” (depending on SDK configuration) following auto close.
+2. **SDK backward compatibility**: Elimination of the post conversation survey and close message on mobile app is supported only from SDK version 2.1 and above. Consumers messaging from an app implementing an older SDK will see the survey and a close message “Conversation resolved by you” (depending on SDK configuration) following auto close.
 3. **Auto close process frequency:** Inactive conversations should be automatically closed up to 25 minutes after their inactivity threshold was reached.  
    For example:
    * Configured inactivity threshold is 2 hours.
