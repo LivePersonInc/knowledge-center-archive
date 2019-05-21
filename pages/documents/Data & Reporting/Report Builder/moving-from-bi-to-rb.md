@@ -7,7 +7,7 @@ subtitle: 'Report Builder is a new and improved version of LiveEngage BI dashboa
 level3: ''
 permalink: data-reporting-report-builder-moving-from-bi-to-report-builder.html
 isTutorial: false
-date: 2019-01-17 09:52:11 +0000
+date: '2019-01-17T09:52:11.000+00:00'
 isNew: false
 
 ---
@@ -90,12 +90,12 @@ Campaign BI dashboards are available through ‘CAMPAIGNS’ tab.
 
 ### Site level grid - daily
 
-1. Go to: Shared Reports > LE predefined dashboards > business activity grid - daily
+1. Go to: Shared Reports > LE predefined dashboards > Predefined grids > Business Activity Grid - Daily
 2. Selectors screen: Select the time frame for the report
 
 ### Site level grid - monthly
 
-1. Go to: Shared Reports > LE predefined dashboards > business activity grid - monthly
+1. Go to: Shared Reports > LE predefined dashboards > Predefined grids > Business Activity Grid - Monthly
 2. Selectors screen: Select the time frame for the report
 
 ### Campaign level grid
@@ -120,11 +120,11 @@ When changing the account-level timezone, the change will take place in Report B
 
 ### Data refresh
 
-Currently in RB, data is refreshed once a day, to include data up to the previous day (inclusive). In the August release, the refresh rate will increase to three times a day.
+Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the farm’s timezone. After each update, the reports display the data collected up to 6 hours earlier.
 
 ### Data display
 
-In Report Builder, within each dashboard, data can be displayed for any four month period from over the previous 13 months (the months do not have to be consecutive). However, in the business activity grid - monthly​, ​users are able to select to display the entire last 13 months of data.
+Report Builder stores data of the last 13 months. The dashboards can be altered to display data for any four month period from over the previous 13 months (the months do not have to be consecutive). The monthly predefined grids can display the entire last 13 months of data.
 
 ## Funnel metrics
 
