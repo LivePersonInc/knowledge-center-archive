@@ -1,14 +1,14 @@
 ---
-pagename: Messaging survey dashboard
+pagename: Survey dashboard for messaging
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
 subtitle: Reporting on the feedback collected from consumers after conversations have
   taken place
 level3: ''
-permalink: data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html
+permalink: data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html
 isTutorial: false
-date: 2019-01-15 13:14:02 +0000
+date: '2019-01-15T13:14:02.000+00:00'
 
 ---
 This dashboard will be coming soon to the Report Builder. It will provide results for all available surveys for messaging namely the Post Conversation Survey.

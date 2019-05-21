@@ -1,13 +1,13 @@
 ---
-pagename: Skills activity dashboard
+pagename: Skills dashboard for live chat
 categoryName: Data & reporting
 subCategoryName: Live chat
 indicator: chat
 subtitle: 'This dashboard includes metrics used to analyze skill queue performance '
 level3: Chat Dashboards
-permalink: data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html
+permalink: data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html
 isTutorial: false
-date: 2019-01-21 12:55:50 +0000
+date: '2019-01-21T12:55:50.000+00:00'
 isNew: false
 
 ---
@@ -19,9 +19,9 @@ This dashboard includes metrics used to analyze skill queue performance. This da
 
 **Minimum timeframe:** Hourly
 
-## Main panel: skills activity dashboard
+## Main panel: skills dashboard
 
-The following panel will be presented when accessing the skills activity predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
+The following panel will be presented when accessing the skills predefined dashboard. It provides an overview of the performance of all skills associated with active agents on the account.
 
 ![](/img/skillsact1 (1).png)
 

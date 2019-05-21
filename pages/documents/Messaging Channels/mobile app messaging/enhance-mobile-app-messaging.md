@@ -12,9 +12,11 @@ date: 2019-01-17 13:12:13 +0000
 isNew: false
 
 ---
-The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app available for you to configure.
 
-By facilitating rich conversations with beyond-text capabilities, our SDK enables you to enhance the in-app messaging experience for your consumers with a full range of features. Here’s how:
+The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their app. The SDK is customizable, with all the capabilities your consumers expect from a messaging app.
+
+By facilitating rich conversations with beyond-text capabilities, our SDK enables you to enhance the in-app messaging experience for your consumers with a full range of features.
+
 
 ## Mobile messaging basics
 
@@ -22,6 +24,7 @@ By facilitating rich conversations with beyond-text capabilities, our SDK enable
 
 Allow consumers to create a continuous connection with your brand through a familiar messaging interface.
 
+* When a consumer starts a new conversation, or a new customer visits the site, brands can send the first message with a list of quick replies of common intents. **You can configure the Welcome message as a simple text message with or without quick replies.**  
 * A picture is worth a thousand words. **Photo-sharing** allows consumers to share images with their agent, so they can better describe an item, pinpoint a problem or specify a product or service.
 * Add an in-conversation shortcut to skip straight to new messages and save consumers time while scrolling within a conversation. The shortcut includes a badge displaying the number of unread messages, a message preview. A divider line will distinguish between read and unread messages.
 * Deliver a personal touch by displaying the send icon used by the consumer’s operating system (such as the paper plane or arrow) on your message ‘send’ button and customize it to match your brand colors.
