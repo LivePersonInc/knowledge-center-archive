@@ -3,7 +3,8 @@ pagename: Business dashboard for messaging
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: both
-subtitle: The business activity dashboard provides a daily snapshot of campaign performance
+subtitle: The business activity dashboard for messaging provides a daily snapshot
+  of campaign performance
 level3: Messaging Dashboards
 permalink: data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html
 isTutorial: false
@@ -11,9 +12,9 @@ date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The predefined business dashboard provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel for messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+The predefined business dashboard provides a quick view of the the daily current day, previous 7 calendar days, average as well as the totals for the messaging business activity level messaging engagement metrics. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics. Using this dashboard, you gain the ability to view funnel data as well as conversion, revenue, efficiency and experience data at the Brand Engagement and Campaign level. Brands can analyze the funnel data snapshot of for the Line of Business and Entry campaign performance, allowing brands to analyze the customer journey for messaging engagements. Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
-Operational metrics for agent productivity and utilization have been added to compliment the funnel metrics. These operational metrics can be viewed alongside the funnel data but cannot be streamlined into one filterable view, as the dashboard does not include skill level analysis.
+The Business activity for messaging predefined dashboard does not include agent or survey question response data.
 
 **Primary datasets:** engagement exposures, viewed and accepted engagement offers, conversions
 
@@ -85,13 +86,13 @@ A mobile app messaging conversation may continue beyond 6 hours and is not coupl
 
 ## Main sheet: Business activity analysis
 
-Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. Since the panels are identical in metrics and attributes, the following section outlines the common list of metrics, followed by the additional functionality at the relevant level.
+Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
 ### Common to all panels
 
 ![](/img/business-activity-dashboard3.png)
 
-There are four available panels in this dashboard: Site, LoB, Campaign, and Engagement.
+There are four available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
 **Top data bar (Grid)**
 
