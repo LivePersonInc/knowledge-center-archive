@@ -19,6 +19,43 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## WeChat Business Connector - Messaging Capabilities for early adopters
 
+<div class="tablecontainer">
+<table>
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ### Type: New functionality
 
 The WeChat Business connector is now available for early adopters. WeChat serves 1 billion monthly active users, mostly in China, and is one of the world's most powerful apps. WeChat provides brands the ability to register as an official account, which enables them to interact with subscribers and provide them with services.
@@ -160,7 +197,7 @@ A new field will be introduced for each SDE within "SDEs" section in the JSON re
 
 Added the ability for Rollover Agents for a given account to have access to specific conversation endpoints so that they can retrieve previous conversations and transcripts of those conversations. This is accomplished by inspecting the request to see if the requesting user has the Rollover Agent Privilege. If the user has this privilege, we then verify that the account they are requesting information for has \`Common.Answering_Service\` enabled and the \`messaging.brand.rollover.config\` enabled with the set accountId matching that of the requesting rollover agent. If all these conditions are met the request is allowed to continue.
 
-## Add support to capping on specific conversation flow 
+## Add support to capping on specific conversation flow
 
 ### Type: Enhancement
 
