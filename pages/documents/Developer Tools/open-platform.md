@@ -13,7 +13,7 @@ isNew: false
 ---
 Leverage the power of the open platform to integrate with third-party technologies, including any NLU provider, as well as integrate conversational data with enterprise systems for insights and decision-making across the enterprise
 
-The LiveEngage platform offers a messaging solution that you can harness and enhance by:
+The LiveEngage platform offers a messaging solution that you can enhance by:
 
 * Integrating LiveEngage with your native app
 * Customizing LiveEngage reports or creating new reports
