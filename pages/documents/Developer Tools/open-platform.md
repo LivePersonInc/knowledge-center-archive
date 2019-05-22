@@ -9,10 +9,8 @@ level3: ''
 permalink: developer-tools-open-platform.html
 isTutorial: false
 isNew: false
-published: true
 
 ---
-
 The LiveEngage platform offers a messaging solution that you can harness and enhance by integrating LiveEngage with your native app, customizing LiveEngage reports or creating new reports, and building or integrating workspace widgets. This can be achieved using our [various APIs and SDKs](https://developers.liveperson.com/index.html).
 
 Our APIs configure and manipulate LiveEngage features and capabilities. To use these APIs, you must make sure to configure your LiveEngage account to access these features. For example, if you want to use the Agent Messaging SDK to connect a bot, then your account must support bot users. It's best to contact your account team or LivePerson Support to check that the prerequisite features are enabled for your account. For more information and detailed documentation, visit our dedicated [Developers' Community](https://developers.liveperson.com/index.html).
