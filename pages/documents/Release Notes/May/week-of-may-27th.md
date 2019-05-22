@@ -121,3 +121,9 @@ Secure forms are now enabled for the WeChat connector. Secure forms allow brands
 ### Type: New functionality
 
 Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability. For more information on configuring automatic messages, please [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
+
+## Mobile app SDK 3.8 
+
+### Type: New functionality
+
+The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380). 
