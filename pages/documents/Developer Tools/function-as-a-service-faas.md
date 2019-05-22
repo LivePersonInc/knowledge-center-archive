@@ -1,15 +1,15 @@
 ---
 pagename: Function as a Service (FaaS)
-categoryName: Getting started
-subCategoryName: Web messaging
+categoryName: Developer tools
+subCategoryName: ''
 indicator: both
 subtitle: FaaS enables brands to quickly and easily customize how the LivePerson platform
   behaves.
 level3: ''
-permalink: function-as-a-service-faas.html
+permalink: developer-tools-function-as-a-service-(faas).html
 isTutorial: false
 isNew: true
-published: false
+published: true
 
 ---
 LivePerson’s open platform new initiative, offers Function as a Service (FaaS) - a service that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
@@ -29,8 +29,6 @@ FaaS does not require brands to spin up a new service, create new APIs, set up a
 ### Eliminate the need for storage and code security
 
 Since all functions are saved within the LivePerson cloud, brands do not have to spend resources on hosting the custom code. In addition, all strengths of the LivePerson platform including security and scalability will apply to your code.
-
-image 1
 
 ## What is FaaS?
 

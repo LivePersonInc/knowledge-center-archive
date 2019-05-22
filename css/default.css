@@ -638,6 +638,7 @@ ul.mysidebar.nav > li:first-of-type {
   margin-left: -11px;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .subcategoryitem a {
@@ -713,6 +714,7 @@ ul.mysidebar.nav > li:first-of-type {
   display: flex;
   align-items: center;
   padding-left: 45px;
+  height: 20px;
 }
 
 .sidebarbutton {
@@ -1173,6 +1175,10 @@ w-div span:last-of-type {
 
 w-div a:last-child {
   top: 12px !important;
+}
+
+.highlighter-rouge {
+  margin-bottom: 30px;
 }
 
 /* media queries begin, abandon all hope ye who enter here */

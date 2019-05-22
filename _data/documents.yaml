@@ -135,7 +135,7 @@
       pages:
         - pagename: The messaging agents list
         - pagename: All connections
-        - pagename: Hiring agents for messaging success 
+        - pagename: Hiring agents for messaging success
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent workspace for live chat
@@ -152,6 +152,12 @@
         - pagename: Predefined content overview
         - pagename: Predefined content best practices
         - pagename: Importing predefined content
+
+- categoryname: Developer tools
+  image: developer-tools
+  subcategories:
+    - subcategoryname: Open platform
+    - subcategoryname: Function as a Service (FaaS)
 
 - categoryname: "Data & reporting"
   image: data-reporting
@@ -238,7 +244,7 @@
         - pagename: IP address blocking
         - pagename: IP restriction
         - pagename: Whitelist your domains for LP monitoring
-        - pagename: Historic data masking 
+        - pagename: Historic data masking
     - subcategoryname: LivePerson disaster recovery
     - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
@@ -259,7 +265,7 @@
     - subcategoryname: February 2019
     - subcategoryname: January 2019
     - subcategoryname: December 2018
-    
+
 - categoryname: Release notes
   image: release-notes
   subcategories:
@@ -267,14 +273,14 @@
       pages:
         - pagename: May
           level3:
-            - level3name: Week of May 20th 
-            - level3name: Week of May 13th 
-            - level3name: Week of May 6th 
+            - level3name: Week of May 20th
+            - level3name: Week of May 13th
+            - level3name: Week of May 6th
         - pagename: April
           level3:
-            - level3name: Week of April 29th           
-            - level3name: Week of April 22nd  
-            - level3name: Week of April 15th          
+            - level3name: Week of April 29th
+            - level3name: Week of April 22nd
+            - level3name: Week of April 15th
             - level3name: Week of April 8th
             - level3name: Week of April 1st
         - pagename: March
