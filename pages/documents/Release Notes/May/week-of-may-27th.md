@@ -32,7 +32,11 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 
 **Image 1:** Consumer side
 
+![](/img/week-of-may-27th-1.png)
+
 **Image 2:** Agent side
+
+![](/img/week-of-may-27th-2.png)
 
 ## WeChat Business Connector - Conversation attributes
 
@@ -49,6 +53,10 @@ Support has been adding for mapping WeChat Business information and passing it t
 **Screenshots**
 
 **Image 1:** Consumer Info and Customer Info as shown in LiveEngage
+
+![](/img/week-of-may-27th-3.png)
+
+![](/img/week-of-may-27th-4.png)
 
 ## WeChat Business Connector - Skill routing
 
@@ -74,7 +82,11 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 
 **Image 1:** consumer sees survey questions with the fallback text
 
+![](/img/week-of-may-27th-6.png)
+
 **Image 2:** agent sees the survey in progress
+
+![](/img/week-of-may-27th-7.png)
 
 ## WeChat Business Connector - Consumer to agent image support
 
@@ -94,7 +106,11 @@ With WeChat Business’ conversational interface, consumers can select images fr
 
 **Image 1:** consumer sends an image to agent
 
+![](/img/week-of-may-27th-8.png)
+
 **Image 2:** agent sees the image consumer sends
+
+![](/img/week-of-may-27th-9.png)
 
 ## WeChat Business Connector - Consumer to agent audio message
 
@@ -108,7 +124,11 @@ With WeChat Business’s conversational interface, consumers can share an audio 
 
 **Image 1:** consumer sends an audio message to agent
 
+![](/img/week-of-may-27th-10.png)
+
 **Image 2:** agent sees an audio message consumer sends
+
+![](/img/week-of-may-27th-11.png)
 
 ## WeChat Business Connector - Secure forms support
 
@@ -122,8 +142,8 @@ Secure forms are now enabled for the WeChat connector. Secure forms allow brands
 
 Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability. For more information on configuring automatic messages, please [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
 
-## Mobile app SDK 3.8 
+## Mobile app SDK 3.8
 
 ### Type: New functionality
 
-The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380). 
+The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380).
