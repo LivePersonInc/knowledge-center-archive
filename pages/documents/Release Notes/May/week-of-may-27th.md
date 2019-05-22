@@ -164,6 +164,4 @@ Added the ability for Rollover Agents for a given account to have access to spec
 
 ### Type: Enhancement
 
-The API now allows sending costume capping configuration in the request body, also on
-
-specific conversation flow (search by conversation id).
+The API now allows sending costume capping configuration in the request body, also on specific conversation flow (search by conversation id).
