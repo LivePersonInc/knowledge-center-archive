@@ -1,12 +1,12 @@
 ---
-pagename: Developer tools overview
+pagename: Open platform
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: both
 subtitle: Enhance, customize and integrate LivePerson's messaging using APIs, SDKs,
   FaaS, and other powerful developer tools
 level3: ''
-permalink: developers-tools-overview.html
+permalink: open-platform.html
 isTutorial: false
 isNew: false
 published: false
