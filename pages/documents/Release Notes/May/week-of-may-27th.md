@@ -8,7 +8,6 @@ level3: May
 permalink: release-notes-2019-may-week-of-may-27th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during May 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
