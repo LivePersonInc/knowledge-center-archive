@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/April/Week of April 29th.md
 - pages/documents/function-as-a-service-faas.md
 - pages/documents/developer-tools-overview.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
@@ -151,7 +152,6 @@ pages:
 - pages/documents/Release Notes/April/week-of-april-22.md
 - pages/documents/Release Notes/April/week-of-april-8th.md
 - pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
-- pages/documents/Release Notes/April/Week of April 29th.md
 - pages/documents/Troubleshooting/Har-files-web-requests.md
 - pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
