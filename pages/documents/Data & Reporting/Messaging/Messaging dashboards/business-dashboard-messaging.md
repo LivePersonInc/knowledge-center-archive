@@ -12,13 +12,15 @@ date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The predefined business dashboard provides a quick view of the the daily current day, previous 7 calendar days, average as well as the totals for the messaging business activity level messaging engagement metrics. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
+The predefined business dashboard provides a quick view of the the current day, previous 7 calendar days, average as well as the totals for the messaging business activity. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
 
 Using this dashboard, you gain the ability to view funnel data as well as conversion, revenue, efficiency and experience data at the Brand Engagement and Campaign level. Brands can analyze the funnel data snapshot of for the Line of Business and Entry campaign performance, allowing brands to analyze the customer journey for messaging engagements.
 
-Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. 
 
-The Business activity for messaging predefined dashboard does not include agent or survey question response data.
+This dashboard also reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+
+The business dashboard for messaging does not include agent or survey question response data.
 
 **Primary datasets:**
 
