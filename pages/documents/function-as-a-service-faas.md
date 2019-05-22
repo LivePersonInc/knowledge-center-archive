@@ -12,7 +12,6 @@ isNew: true
 published: false
 
 ---
-
 LivePerson’s open platform new initiative, offers Function as a Service (FaaS) - a service that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
 
 ### Rapidly build, test and deploy new conversational experiences
@@ -39,7 +38,7 @@ FaaS is a service allows brands to write their own custom behavior - through cod
 
 Brands can deploy the code as a **function** and have the custom behavior become a part of their conversational commerce platform. A **function** is the canvas, where brands can put in the code they want, to ultimately invoke a desired action or outcome.
 
-image 2
+![](/img/faas-ui-1.png)
 
 The full picture of an event invoking a function can be: an account is tailored to send an alert to an agent manager (function) every time a customer gives an agent negative feedback (event).
 
@@ -51,13 +50,13 @@ Since FaaS allows brands to write custom, the number and variety of use cases ar
 
 If the contact center is able to recognize intent (using [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
 
-image 3
+![](/img/faas-use-case-agent-retention-offers-1.png)
 
 ## Use case 2: Customize routing
 
 When a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
 
-image 4
+![](/img/faas-use-case-routing-1.png)
 
 Fall back decisions mean, if the agent isn’t online, the fallback action can be customized to pass it to the group the agent is apart of, or the same skill as the last agent. The sophistication of the conditioning a brand can choose to incorporate into this routing logic is limitless. For example, if a brand wants to condition the “last agent” as one that had more than a 5 minute encounter with the customer, that is possible.
 
@@ -65,7 +64,7 @@ Fall back decisions mean, if the agent isn’t online, the fallback action can b
 
 A function can be developed to automatically send a conversation’s transcript to the agent manager. That function can be further customized by a brand to include only conversations that have a negative CSAT or are with VIP customers.
 
-image 5
+![](/img/faas-use-case-csat-1.png)
 
 ### Use case 4: Integrate with a ticketing system with much greater flexibility
 
