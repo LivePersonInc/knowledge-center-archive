@@ -147,3 +147,9 @@ Automatic Messages (AKA System Messages) are predefined messages about events th
 ### Type: New functionality
 
 The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380).
+
+## New timestamp field of original event time (History Interaction API)
+
+### Type: New functionality
+
+A new field will be introduced for each SDE within "SDEs" section in the JSON response: originalTimeStamp. The field will contain the original creation time of the SDE, along (and in the same section) with the existing field, serverTimeStamp, which contains the enrichment time of the SDE. This change is backward compatible. Please refer to the attached screenshot for reference to the current JSON response.
