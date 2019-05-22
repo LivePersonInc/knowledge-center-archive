@@ -1399,6 +1399,8 @@ w-div a:last-child {
     border-right: 1px solid #979797;
     background-color: transparent;
     margin-right: 15px;
+    height: 80px;
+    margin-bottom: 10px;
   }
 
   .casey img {
