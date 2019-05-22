@@ -30,6 +30,8 @@ FaaS does not require brands to spin up a new service, create new APIs, set up a
 
 Since all functions are saved within the LivePerson cloud, brands do not have to spend resources on hosting the custom code. In addition, all strengths of the LivePerson platform including security and scalability will apply to your code.
 
+![](img/FaaS.gif)
+
 ## What is FaaS?
 
 FaaS is a service allows brands to write their own custom behavior - through code - that is triggered by events. **Events,** include external innovations and internal LivePerson platform events, such as the start of a conversation, keyword recognition, off-hours detection and even custom bot events.
