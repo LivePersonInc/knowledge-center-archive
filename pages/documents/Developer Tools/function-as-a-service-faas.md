@@ -1,6 +1,6 @@
 ---
 pagename: Function as a Service (FaaS)
-categoryName: Developer tools
+categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: FaaS enables brands to quickly and easily customize how the LivePerson platform
@@ -9,7 +9,6 @@ level3: ''
 permalink: developer-tools-function-as-a-service-(faas).html
 isTutorial: false
 isNew: true
-published: true
 
 ---
 LivePerson’s open platform new initiative, offers Function as a Service (FaaS) - a service that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
@@ -54,7 +53,7 @@ If the contact center is able to recognize intent (using [Maven](https://knowled
 
 ## Use case 2: Customize routing
 
-When a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
+In collaboration with a routing Bot or with Maven, when a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
 
 ![](/img/faas-use-case-routing-1.png)
 
