@@ -45,3 +45,78 @@ Support has been adding for mapping WeChat Business information and passing it t
 * **Consumer Name -** The consumer name will be mapped to “Consumer Info”:”Consumer name”, “Profile Name”, and “Consumer Name” under “Open Connections” and “All Connections”.
 
 **How to enable:** This feature is enabled by default once WeChat has been enabled. 
+
+**Screenshots**
+
+**Image 1:** Consumer Info and Customer Info as shown in LiveEngage
+
+## WeChat Business Connector - Skill routing
+
+### Type: New functionality
+
+Brands can configure skill routing per the brand’s business WeChat ID. Please note that only one WeChat official accounts can be connected to a LiveEngage account.
+
+{: .notice} 
+**Please note:** This feature requires enablement. For more information please contact your LivePerson account team. 
+
+## WeChat Business Connector - Post Conversation Survey
+
+### Type: New functionality
+
+The Post Conversation Survey enables brands to gather feedback from consumers and measure their success. Once the messaging conversation is ended by the agent, the survey will be automatically triggered. The bot will start to send the questions one by one as configured by the brand. Upon each consumer response, the bot will send the next question based on the logic defined. The survey questions and answers are based on regular text messages - all customized by the brand.
+
+The survey can be closed in a number of different scenarios: Survey completed, survey timeout or survey skipped. Each outcome is tracked and reported on as part of the Report Builder to allow brands to fully analyze the results. Full configuration of surveys is done through the LiveEngage Bot Studio. Please click here for more information.
+
+{: .notice}
+**Please note:** Structured content is not supported by the WeChat business connector, therefore a fallback text option should be configured. More information about these settings can be found here.
+
+**Screenshots**
+
+**Image 1:** consumer sees survey questions with the fallback text
+
+**Image 2:** agent sees the survey in progress
+
+## WeChat Business Connector - Consumer to agent image support
+
+### Type: New functionality
+
+With WeChat Business’ conversational interface, consumers can select images from their device’s album or use the camera to take a real-time image and share it with agents on LiveEngage.
+
+**Supported formats and sizes**
+* Supported image types: jpeg/jpg, png
+* Supported image size: there’s no limit but WeChat will autoscale in order to send the image
+
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information. 
+
+**Screenshots** 
+
+**Image 1:** consumer sends an image to agent
+
+**Image 2:** agent sees the image consumer sends
+
+## WeChat Business Connector - Consumer to agent audio message
+
+### Type: New functionality
+
+With WeChat Business’s conversational interface, consumers can share an audio with an agent by clicking the voice icon and holding down the Hold to Talk button. They can then record a voice message, release the Hold to Talk button, and send.
+
+**Please note:** This feature requires enablement. Please contact your LivePerson account team for more information. 
+
+**Screenshots**
+
+**Image 1:** consumer sends an audio message to agent
+
+**Image 2:** agent sees an audio message consumer sends
+
+## WeChat Business Connector - Secure forms support
+
+### Type: New functionality
+
+Secure forms are now enabled for the WeChat connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment. Click here for more information on configuring secure forms. 
+
+## WeChat Business Connector - Automatic message support
+
+### Type: New functionality
+
+Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability. For more information on configuring automatic messages, please click here. 
