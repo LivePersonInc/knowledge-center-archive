@@ -1229,6 +1229,14 @@ w-div a:last-child {
     width: 100%;
   }
 
+  table.releasenotes {
+    table-layout: auto;
+  }
+
+  .tablecontainer {
+    width: 85%;
+  }
+
   .anchorlist {
     margin-left: -20px;
     max-height: 50vh;
