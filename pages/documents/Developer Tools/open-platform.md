@@ -1,6 +1,6 @@
 ---
 pagename: Open platform
-categoryName: Developer tools
+categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: Enhance, customize and integrate LivePerson's messaging using APIs, SDKs,
@@ -11,7 +11,14 @@ isTutorial: false
 isNew: false
 
 ---
-The LiveEngage platform offers a messaging solution that you can harness and enhance by integrating LiveEngage with your native app, customizing LiveEngage reports or creating new reports, and building or integrating workspace widgets. This can be achieved using our [various APIs and SDKs](https://developers.liveperson.com/index.html).
+Leverage the power of the open platform to integrate with third-party technologies, including any NLU provider, as well as integrate conversational data with enterprise systems for insights and decision-making across the enterprise
+
+The LiveEngage platform offers a messaging solution that you can harness and enhance by:
+
+* Integrating LiveEngage with your native app
+* Customizing LiveEngage reports or creating new reports
+* Building or integrating workspace widgets using our [various APIs and SDKs](https://developers.liveperson.com/index.html)
+* Developing custom behaviors within the LiveEngage platform through [Function as a Service (FaaS)](https://developers.liveperson.com/function-as-a-service-overview.html)
 
 Our APIs configure and manipulate LiveEngage features and capabilities. To use these APIs, you must make sure to configure your LiveEngage account to access these features. For example, if you want to use the Agent Messaging SDK to connect a bot, then your account must support bot users. It's best to contact your account team or LivePerson Support to check that the prerequisite features are enabled for your account. For more information and detailed documentation, visit our dedicated [Developers' Community](https://developers.liveperson.com/index.html).
 
