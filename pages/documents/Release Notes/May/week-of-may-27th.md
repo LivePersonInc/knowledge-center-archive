@@ -448,7 +448,7 @@ The mobile app SDK 3.8 release notes are now in the Developers Community. Please
 
 ### Type: New functionality
 
-A new field will be introduced for each SDE within "SDEs" section in the JSON response: originalTimeStamp. The field will contain the original creation time of the SDE, along (and in the same section) with the existing field, serverTimeStamp, which contains the enrichment time of the SDE. This change is backward compatible. Please refer to the attached screenshot for reference to the current JSON response.
+A new field will be introduced for each SDE within "SDEs" section in the JSON response: originalTimeStamp. The field will contain the original creation time of the SDE, along (and in the same section) with the existing field, serverTimeStamp, which contains the enrichment time of the SDE. This change is backward compatible. 
 
 ## Extend user authorization of Interaction History API to support rollover agent
 
