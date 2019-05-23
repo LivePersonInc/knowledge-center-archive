@@ -153,12 +153,6 @@
         - pagename: Predefined content best practices
         - pagename: Importing predefined content
 
-- categoryname: Developer tools
-  image: developer-tools
-  subcategories:
-    - subcategoryname: Open platform
-    - subcategoryname: Function as a Service (FaaS)
-
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -255,6 +249,12 @@
     - subcategoryname: SSO unified login
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
+
+- categoryname: Developer tools
+  image: developer-tools
+  subcategories:
+    - subcategoryname: Open platform
+    - subcategoryname: Function as a Service (FaaS)
 
 - categoryname: "What's new"
   image: whats-new
