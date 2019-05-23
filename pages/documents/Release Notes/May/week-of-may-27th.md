@@ -442,7 +442,7 @@ Automatic Messages (AKA System Messages) are predefined messages about events th
 
 ### Type: New functionality
 
-The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380).
+The mobile app SDK 3.8 release notes are now in the Developers Community. Please see release notes for [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-latest-release-notes.html) and [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-release-notes.html#android-messaging-sdk---version-380).
 
 ## New timestamp field of original event time (History Interaction API & Messaging Interaction API)
 
