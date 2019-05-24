@@ -27,7 +27,7 @@ As an agent manager, you want to have an overall picture of how your agents are 
 
 **UNASSIGNED** - displays the total number of conversations that are waiting to be assigned to an agent.
 
-**CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours.
+**CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours. The calculation is (Total number of positive answers) / (Total number of answers). The data comes from Messaging Operations API.
 
 ## Real time dashboard
 
