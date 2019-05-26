@@ -11,6 +11,13 @@ isNew: false
 date: '2019-04-23T16:29:39.000+00:00'
 
 ---
+These release notes include new features arriving to LiveEngage during April 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
 ## New functionality
 
 ### Reporting for Smart Capacity (LE-95785)
@@ -298,7 +305,7 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 
 Brands are able to invoke functions following a Post Messaging Survey. Invocation will be possible at the start or upon completion of a survey. Brands can react to the content of the survey in real time, like for example, to trigger alerts in a call center dashboard.
 
-Brands can choose from an invocation point at the beginning or after the submission of a Post Messaging Survey. Along with the invocation event, a payload of data will be passed to the function allowing Brands to react in real time to the content of the survey. Brands can create functions with custom logic that address the desired reaction to the survey. 
+Brands can choose from an invocation point at the beginning or after the submission of a Post Messaging Survey. Along with the invocation event, a payload of data will be passed to the function allowing Brands to react in real time to the content of the survey. Brands can create functions with custom logic that address the desired reaction to the survey.
 
 The hook in the survey to invoke the function is not expecting a response
 
