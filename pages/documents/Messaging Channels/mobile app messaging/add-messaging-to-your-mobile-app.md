@@ -10,6 +10,8 @@ permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-
 isTutorial: false
 date: 2019-01-20 13:01:29 +0000
 isNew: false
+redirect_from:
+  - liveengage-mobile-sdk.html
 
 ---
 The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html).

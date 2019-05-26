@@ -12,27 +12,29 @@ date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The predefined business dashboard provides a quick view of the the daily current day, previous 7 calendar days, average as well as the totals for the messaging business activity level messaging engagement metrics. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics. 
+The predefined business dashboard provides a quick view of the the current day, previous 7 calendar days, average as well as the totals for the messaging business activity. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
 
 Using this dashboard, you gain the ability to view funnel data as well as conversion, revenue, efficiency and experience data at the Brand Engagement and Campaign level. Brands can analyze the funnel data snapshot of for the Line of Business and Entry campaign performance, allowing brands to analyze the customer journey for messaging engagements.
 
-Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. 
 
-The Business activity for messaging predefined dashboard does not include agent or survey question response data.
+This dashboard also reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+
+The business dashboard for messaging does not include agent or survey question response data.
 
 **Primary datasets:**
 
 * New aggregation model (currently known as Agent Messaging Activity)
-* Conversion Daily 
-* Conversion Daily- Brand 
+* Conversion Daily
+* Conversion Daily- Brand
 * Visits Daily
 * Exposures Daily | Brand Distinct
 * Exposures Daily  LOB Distinct
 * Exposures Daily | Campaign Distinct
 * Exposures Daily | Engagement Distinct
-* Exposures Daily | Entry Point Distinct 
-* View and Accepted Offers Daily 
-* Consumer Messaging Activity 
+* Exposures Daily | Entry Point Distinct
+* View and Accepted Offers Daily
+* Consumer Messaging Activity
 * Agent Activity Hourly
 
 **Primary filters:**
@@ -46,9 +48,9 @@ The Business activity for messaging predefined dashboard does not include agent 
 
 **Manual filter by Panel:**
 
-* Campaign 
-* LOB 
-* Entry Point 
+* Campaign
+* LOB
+* Entry Point
 * Engagement
 
 **Minimum time frame:** Daily
@@ -116,7 +118,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 ### Common to all panels
 
-![](/img/business-activity-dashboard3.png)
+![](/img/New_Bus_Messaging Dash1.png)
 
 There are four available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
@@ -149,24 +151,57 @@ There are four available panels in this dashboard: Brand, LoB, Campaign, Engagem
 
 #### Funnel metrics
 
- 1. PROSPECTS
- 2. EXPOSED
- 3. EXPOSED RATE
- 4. EXPOSURES
- 5. AVG. EXPOSURES
- 6. CHAT ONLINE EXPOSURES
- 7. CHAT ONLINE EXPOSURE RATE
- 8. ENGAGEMENT VIEWS
- 9. ACCEPTED OFFERS
-10. CHAT ACCEPTED RATE (ENG)
-11. REQUESTED CHATS
-12. CONNECTED CHATS
-13. CONNECTED CHAT RATE (REQUESTED)
-14. CONNECTED ENG. RATE (ACCEPTED)
-15. ENGAGED
-16. ENGAGED RATE
-17. ENGAGEMENTS
-18. INTERACTIVE CHAT RATE
+* ABANDONED CONVERSATIONS
+* ABANDONED RATE
+* ACCEPTED OFFERS
+* ACCEPTED RATE (BRAND)
+* AVG. CONSUMER RESPONSE TIME
+* AVG. CONVERSATION DURATION AVG. EXPOSURES (BRAND)
+* AWAY
+* AWAY RATE
+* BACK SOON
+* BACK SOON RATE
+* BACK TO QUEUE TRANSFERS
+* CLOSED BY AGENT RATE
+* CLOSED BY CONSUMER RATE
+* CLOSED BY SYSTEM RATE
+* CLOSED CONVERSATIONS
+* CLOSED CONVERSATIONS PER LOGIN HOUR
+
+  (Metric name for graphs is ""CCPLH"".  Metric name for grids is ""CLOSED CONVERSATIONS PER LOGIN HOUR"")"
+* CLOSED CONVERSATIONS PER ONLINE HOUR
+* (Metric name for graphs is ""CCPOH"".  Metric name for grids is ""CLOSED CONVERSATIONS PER ONLINE HOUR"")
+* CONVERSATION OPEN RATE
+* TOTAL CONVERSIONS PER ONLINE HOUR
+* CSAT SCORE (UNIFIED)
+* MESSAGING ENGAGEMENT VIEWS
+* EXPOSED (BRAND)
+* EXPOSED RATE (BRAND)
+* EXPOSURES (BRAND)
+* HANDLED CONVERSATIONS
+* INCREMENTAL CONVERSION RATIO (BRAND)
+* INCREMENTAL CONVERSIONS (BRAND)
+* INTERACTIVE CONVERSATIONS
+* INTERACTIVE RATE LOGGED IN TIME
+* MCS
+* NO. OF CONVERSATIONS CLOSED BY AGENT
+* NO. OF CONVERSATIONS CLOSED BY CONSUMER
+* NO. OF CONVERSATIONS CLOSED BY SYSTEM
+* NO. OF OPENED CONVERSATIONS ONLINE ONLINE EXPOSURE RATE (BRAND)
+* ONLINE EXPOSURES (BRAND)
+* ONLINE RATE PROSPECTS (BRAND)
+* PROSPECTS RATE (BRAND)
+* TOTAL DIRECT REVENUE PER ONLINE HOUR SESSIONS
+* SKILL TO SKILL TRANSFERS
+* TOTAL CONVERSION RATE AFTER ENGAGEMENT
+* TOTAL CONVERSIONS AFTER ENGAGEMENT
+* TOTAL DIRECT AOV AFTER ENGAGEMENT
+* TOTAL DIRECT AOV AFTER EXPOSURE
+* TOTAL DIRECT AOV AFTER EXPOSURE NOT ENGAGEMENT
+* TOTAL DIRECT REVENUE AFTER ENGAGEMENT
+* TOTAL DIRECT REVENUE AFTER EXPOSURE
+* TOTAL DIRECT REVENUE AFTER EXPOSURE NOT ENGAGEMENT
+* TOTAL NO. OF TRANSFERS
 
 #### Goals metrics
 
@@ -177,13 +212,6 @@ There are four available panels in this dashboard: Brand, LoB, Campaign, Engagem
 5. TOTAL CONVERSION RATE AFTER EXPOSURE NOT ENGAGEMENT
 6. INCREMENTAL CONVERSIONS
 7. INCREMENTAL CONVERSION RATIO
-8. Operation metrics
-   1. CUMULATIVE ENGAGED CHAT TIME
-   2. AVG. CHAT LENGTH
-   3. AVG. INTERACTIVE CHAT LENGTH
-   4. AVG. NON - INTERACTIVE CHAT LENGTH
-   5. AVG. TIME TO ANSWER CHAT
-   6. MAX. TIME TO ANSWER CHAT
 
 ### Common to LoB, campaign, entry point and engagement panels
 

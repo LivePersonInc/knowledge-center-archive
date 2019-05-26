@@ -8,9 +8,16 @@ level3: April
 permalink: release-notes-2019-april-week-of-april-22nd.html
 isTutorial: false
 isNew: false
-date: 2019-04-17 10:38:13 +0300
+date: '2019-04-17T07:38:13.000+00:00'
 
 ---
+These release notes include new features arriving to LiveEngage during April 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
 ## Bugs Fixes
 
 ### Welcome message is sent in Post Conversation Survey (CX-320)
