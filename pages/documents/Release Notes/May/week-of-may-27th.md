@@ -448,7 +448,7 @@ The mobile app SDK 3.8 release notes are now in the Developers Community. Please
 
 ### Type: New functionality
 
-A new field will be introduced for each SDE within "SDEs" section in the JSON response: originalTimeStamp. The field will contain the original creation time of the SDE, along (and in the same section) with the existing field, serverTimeStamp, which contains the enrichment time of the SDE. This change is backward compatible. 
+A new field will be introduced for each SDE within "SDEs" section in the JSON response: originalTimeStamp. The field will contain the original creation time of the SDE, along (and in the same section) with the existing field, serverTimeStamp, which contains the enrichment time of the SDE. This change is backward compatible.
 
 ## Extend user authorization of Interaction History API to support rollover agent
 
@@ -461,3 +461,21 @@ Added the ability for Rollover Agents for a given account to have access to spec
 ### Type: Enhancement
 
 The API now allows sending costume capping configuration in the request body, also on specific conversation flow (search by conversation id).
+
+## Messaging API - Post Conversation Survey (PCS) not filtering correctly by NPS 
+
+### Type: Bug Fix
+
+There was missing indication that it requires to filter by child filters if the NPS is the only child filter. This bug is fixed.
+
+## PCS: NPS filter return surveys with invalid answers
+
+### Type: Bug Fix
+
+NPS filter returned surveys with invalid answers when the search range included “0”. This bug is fixed.
+
+## AC-Campaign - unable to read delta of Engagement 
+
+### Type: Bug Fix
+
+In messaging-history api the ac-client for fetching campaign gets all the relevant information of the campaign. If however, the engagement is modified at a later date, the ac-client will identify it has some delta to fetch and when it will attempt to fetch this delta, it will catch an exception and the response of the modified field will be empty value. This bug is fixed by the adoption of new ac-campaign version.
