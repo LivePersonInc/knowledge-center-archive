@@ -1,8 +1,8 @@
-- categoryname: Welcome
+- categoryname: The new Agent Workspace
   image: getting-started
 
 - categoryname: User Guide
-  image: getting-started
+  image: user-guide
   subcategories:
     - subcategoryname: Working with asynchronous messaging
     - subcategoryname: Agent workspace for messaging tour
@@ -15,16 +15,16 @@
     - subcategoryname: Agent workspace icons for messaging
 
 - categoryname: Training Deck
-  image: getting-started
+  image: agent-manager
 
 - categoryname: Tutorial
   image: getting-started
 
 - categoryname: Roadmap
-  image: getting-started
+  image: whats-new
 
 - categoryname: Change management plan
-  image: getting-started
+  image: admin-settings
 
 - categoryname: Release notes
-  image: getting-started
+  image: release-notes

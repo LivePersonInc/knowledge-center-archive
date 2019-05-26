@@ -30,6 +30,13 @@
     {% include newAgentWorkspacesidebar.html %}
   </div>
   <div id="documenttitlecontainer">
+  {% if page.pagename == "Welcome to the new Agent Workspace!" %}
+  <div class="documenttitle">
+    <div class="titlecontainer">
+      <div class='h1'>{{ page.pagename }}</div>
+</div>
+  </div>
+  {% else %}
   <div class="documenttitle">
     {% include nav-breadcrumbs.html %}
     <div class="titlecontainer">
@@ -49,6 +56,7 @@
 </div>
   </div>
   <!-- <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div> -->
+{% endif %}
 </div>
   <div id="defaultcontent">
   <div id="maincontent">
