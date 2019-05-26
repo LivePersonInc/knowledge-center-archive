@@ -1236,6 +1236,7 @@ div#cookie-law {
 
 #cookie-law > p > span:nth-child(1) {
   flex: 7;
+
 }
 
 #cookie-law p span:nth-child(2) {
@@ -1256,6 +1257,10 @@ div#cookie-law {
   justify-content: center;
   margin-bottom: 10px;
   margin-right: 100px;
+}
+
+#cookie-law a.close-cookie-banner-mobile {
+  display: none;
 }
 
 /* media queries begin, abandon all hope ye who enter here */
@@ -1349,6 +1354,17 @@ div#cookie-law {
   #post-content table.releasenotes > thead > tr > th {
     width: 67px;
     font-size: 12px;
+  }
+
+  #cookie-law a.close-cookie-banner {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: -5px;
+  }
+
+  #cookie-law > p > span:nth-child(1) {
+    margin-top: -10px;
   }
 }
 
@@ -1542,4 +1558,28 @@ div#cookie-law {
     width: 28px;
   }
 
+  div#cookie-law {
+    height: 150px;
+  }
+
+  #cookie-law p {
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    overflow: hidden;
+  }
+
+  #cookie-law > p > span:nth-child(1) {
+    margin-right: 0;
+  }
+
+  #cookie-law p span:nth-child(2) {
+    display: none;
+  }
+
+  #cookie-law a.close-cookie-banner-mobile {
+    display: flex;
+    flex: 1;
+    color: #fff;
+  }
 }

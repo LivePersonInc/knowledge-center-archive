@@ -477,7 +477,7 @@ function isExplorer() {
 // Creare's 'Implied Consent' EU Cookie Law Banner v:2.4.1
 // Conceived by Robert Kent, James Bavington & Tom Foyster
 
-var dropCookie = false;                      // false disables the Cookie, allowing you to style the banner
+var dropCookie = true;                      // false disables the Cookie, allowing you to style the banner
 var cookieDuration = 14;                    // Number of days before the cookie expires, and the banner reappears
 var cookieName = 'complianceCookie';        // Name of our cookie
 var cookieValue = 'on';                     // Value of cookie
@@ -486,7 +486,7 @@ function createDiv(){
     var bodytag = document.getElementsByTagName('body')[0];
     var div = document.createElement('div');
     div.setAttribute('id','cookie-law');
-    div.innerHTML = '<p><span>This website uses cookies to ensure you get the best browsing experience. By continuing to use this website, you consent to our use of these cookies. This website contains proprietary content that belongs to LivePerson and that is intended for educational use by our customers and prospects.  Your use of this site is subject to our <a href="https://www.liveperson.com/policies/terms-of-use">Terms of Use</a>, which include restrictions on any use of our information for unauthorized purposes.</span><span><a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><span>I agree</span></a></span></p>';
+    div.innerHTML = '<p><span>This website uses cookies to ensure you get the best browsing experience. By continuing to use this website, you consent to our use of these cookies. This website contains proprietary content that belongs to LivePerson and that is intended for educational use by our customers and prospects.  Your use of this site is subject to our <a href="https://www.liveperson.com/policies/terms-of-use">Terms of Use</a>, which include restrictions on any use of our information for unauthorized purposes.</span><span><a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><span>I agree</span></a><a class="close-cookie-banner-mobile" href="javascript:void(0);" onclick="removeMe();"><span>X</span></a></span></p>';
  // Be advised the Close Banner 'X' link requires jQuery
 
     bodytag.appendChild(div); // Adds the Cookie Law Banner just before the closing </body> tag
@@ -530,4 +530,10 @@ function removeMe(){
 	// then close the window/
 	var element = document.getElementById('cookie-law');
 	element.parentNode.removeChild(element);
+}
+
+if (/Mobi|Android/i.test(navigator.userAgent) == true) {
+	setTimeout(function() {
+		removeMe();
+	}, 6000)
 }
