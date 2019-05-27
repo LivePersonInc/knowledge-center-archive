@@ -8,7 +8,7 @@ level3: ''
 permalink: contact-center-management-campaigns-entry-point.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 15:05:01 +0000
+date: '2019-01-28T15:05:01.000+00:00'
 
 ---
 The entry point allows you to define where you want your engagement to appear within your website. You can use one of the predefined entry points, such as Entire Website or Entire App, or focus your targeting on a particular page or section.
@@ -29,7 +29,7 @@ To create a new entry point, simply name the entry point and copy its URL into t
 ![](/img/entry-point-1.png)
 
 {: .important}
-**Note:** Entry points are shared throughout your account, so if yfou modify an entry point, the change will be applied to any other engagements that use this entry point.
+**Note:** Entry points are shared throughout your account, so if you modify an entry point, the change will be applied to any other engagements that use this entry point.
 
 ## Map your site categories using code
 
