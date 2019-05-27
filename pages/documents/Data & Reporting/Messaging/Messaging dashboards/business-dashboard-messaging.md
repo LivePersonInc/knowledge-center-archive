@@ -36,8 +36,8 @@ Brands are able to view messaging data at the Brand, Line of Business, Campaign,
 * Date
 * Group
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
-* Goal type: based on campaign goals, such as “Sell product/service”
-* Goal: set up on the account’s campaigns
+* Campaign's goal
+* Campaign goal type
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
 
 **Manual filter by Panel:**
@@ -95,20 +95,20 @@ Similar to the activity on the website, LiveEngage will initiate a session when 
 
 ### Conversions from the Mobile App
 
-The Business Activity dashboard offers a significant number of metrics which track conversions.
+The Business dashboard offers a significant number of metrics which track conversions.
 
 The LiveEngage campaign funnel ends with a successful assisted conversion. An assisted conversion is achieved during or after a conversation with an agent. The mobile app, similar to the website, should report an Engagement Attribute which triggers a campaign goal.
 
-**In-session vs. Cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
+**In-session vs. cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
 
 {: .notice}
 A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
 
 **Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
 
-## Main sheet: Business activity analysis
+## Main sheet: Business Activity analysis
 
-Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
+Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
 ### Common to all panels
 
@@ -139,7 +139,7 @@ There are four available panels in this dashboard: Brand, LoB, Campaign, Engagem
 
 **Trend (Grid)**
 
-**Rows (Attributes):** WEEK, Total, Average
+**Rows (Attributes):** Date, Total, Average
 
 ### **Columns (Metrics):**
 
@@ -241,7 +241,7 @@ Columns (Metrics):
 
 1. SESSIONS
 
-#### Operation metrics
+#### Operational metrics
 
  1. LOGGED IN TIME
  2. AWAY TOTAL NOT ENG.
@@ -269,7 +269,7 @@ Included in this panel is an engagement formats selector, allowing the filtering
 6. Peeling corner
 
 ![](/img/business-activity-dashboard5.png)
-Business activity engagement analysis_
+Business activity engagement analysis
 
 ### Entry point panel
 
