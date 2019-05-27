@@ -11,7 +11,6 @@ isNew: false
 date: '2019-01-29T09:20:16.000+00:00'
 redirect_from:
 - using-control-groups.html
-published: false
 
 ---
 You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
