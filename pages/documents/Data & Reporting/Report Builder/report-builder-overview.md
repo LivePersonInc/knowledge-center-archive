@@ -55,13 +55,19 @@ LiveEngage comes with a set of predefined dashboards which offer ready made repo
 
 The selection of predefined dashboards includes:
 
-1. [Agent Activity](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) - focused on agent productivity, utilization, and performance.
-2. [Skill Activity](data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html) - learn about the queues consumers are entering to reach an agent.
-3. [Goal Tracker](data-reporting-live-chat-chat-dashboards-goal-tracker-report.html) - list of every in-session and cross-session conversion that was achieved.
-4. [Business dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html) - a daily view into campaign funnel performance.
-5. [Operational & Staffing](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) - the relationship between agent activity and campaign performance, offers a robust set of combined KPIs linked together by skills.
-6. [Performance dashboard for messaging](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html) - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
-7. [Survey dashboard ](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)- Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
+1. [Agent Activity](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html)* - focused on agent productivity, utilization, and performance.
+2. [Skill Activity](data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html)** - learn about the queues consumers are entering to reach an agent.
+3. [Goal Tracker](data-reporting-live-chat-chat-dashboards-goal-tracker-report.html)* - list of every in-session and cross-session conversion that was achieved.
+4. [Business dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html)* - a daily view into campaign funnel performance.
+5. [Operational & Staffing](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html)** - the relationship between agent activity and campaign performance, offers a robust set of combined KPIs linked together by skills.
+6. [Performance dashboard for messaging](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)* - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
+7. [Survey dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)* - Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
+
+Key: 
+
+'* - available dashboards for chat and messaging 
+
+\** - only available for chat
 
 ## Scheduling
 
