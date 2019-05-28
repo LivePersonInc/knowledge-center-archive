@@ -45,9 +45,6 @@ In addition, the following dashboards and reports will now reflect LoBs:
 
 ![](/img/LoB2.png)
 
-
-![](/img/LoB3.png)
-
 ## To assign a campaign to a Line of Business:
 
 1. In the Campaigns tab, click Add Campaign.
