@@ -1,5 +1,5 @@
 ---
-pagename: Creating predefined content
+pagename: Creating Predefined Content
 categoryName: Getting started
 subCategoryName: ''
 indicator: chat
