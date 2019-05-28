@@ -9,8 +9,6 @@ permalink: agent-manager-workspace-workspace-configuration-importing-predefined-
 isTutorial: false
 isNew: false
 date: 2019-01-31 08:52:22 +0000
-redirect_from:
-  - manage-languages-predefined.html
 ---
 In order to import content successfully and avoid import errors, simply follow the best practice steps below.
 
