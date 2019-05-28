@@ -7,7 +7,7 @@ subtitle: ''
 level3: ''
 permalink: messaging-channels-web-messaging-authenticated-web-messaging.html
 isTutorial: false
-date: 2019-01-17 11:31:46 +0000
+date: '2019-01-17T11:31:46.000+00:00'
 isNew: false
 
 ---
@@ -23,7 +23,7 @@ Authenticated customer information increases the security of the communication a
 * **Making purchases easier for existing consumers:** Once the consumer has logged into the brand's website, LiveEngage automatically brings the consumer's Personally Identifiable Information (PII) to the Agent Workspace, including the account number, package details, billing history, and other relevant account info. The conversation can immediately proceed to the new purchase, without the consumer having to identify themselves or make explanations about their account. The agent can manage the inquiry quickly as they don’t have to open another application to get the information they need.
 * **Facilitating billing and payment conversations**: Once the consumer has logged into the brand’s website and started a conversation with an agent, the agent can quickly identify the most cost-effective way for the consumer to pay, according to the PII exposed during the authenticated chat.
 
-Authenticated web messaging can be offered to consumers are authenticated on your website, and their information and conversations are available across channels.
+Authenticated web messaging can be offered to consumers that are authenticated on your website, and their information and conversations will be available across channels.
 
 ### Authenticated messaging provides the following benefits:
 
