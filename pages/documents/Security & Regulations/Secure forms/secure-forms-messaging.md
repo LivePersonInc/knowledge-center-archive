@@ -186,7 +186,7 @@ Secure forms are an integrated part of the mobile-app messaging SDK.
 
 ### Push notifications
 
-If your app is running in the background, when an agent sends a secure form, the consumer will receive the following push notification: “<Agent Name>:<Secure form name>”. Tapping the push notification will navigate the consumer to the conversation.
+If your app is running in the background, when an agent sends a secure form, the consumer will receive a push notification. Tapping the push notification will navigate the consumer to the conversation.
 
 ### Invitation
 
