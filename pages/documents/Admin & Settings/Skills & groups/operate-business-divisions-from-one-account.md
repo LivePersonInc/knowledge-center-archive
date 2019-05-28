@@ -1,11 +1,11 @@
 ---
-pagename: Lines of business
+pagename: Lines of business (LoB)
 categoryName: Admin & settings
 subCategoryName: Skills & groups
 indicator: both
 subtitle: Operate business divisions from one account
 level3: ''
-permalink: admin-settings-skills-groups-lines-of-business.html
+permalink: admin-settings-skills-groups-lines-of-business-(lob).html
 isTutorial: false
 isNew: false
 date: '2019-01-23T09:46:18.000+00:00'
