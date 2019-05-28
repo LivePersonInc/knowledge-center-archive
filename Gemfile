@@ -4,7 +4,7 @@ gem 'jekyll', '~> 3.6.3'
 
 group :jekyll_plugins do
    gem 'jekyll-feed', '~> 0.6'
-   gem 'jekyll-algolia',
+   gem 'jekyll-algolia'
    gem 'jekyll-redirect-from'
    gem 'jekyll-gzip'
    gem 'autoprefixer-rails'
