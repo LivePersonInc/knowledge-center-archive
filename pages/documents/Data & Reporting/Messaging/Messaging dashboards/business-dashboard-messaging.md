@@ -189,78 +189,11 @@ See example below
 
 ![](/img/business-activity-dashboard4.png)
 
+## Graphs relevant to Brand, Engagement & Campaigns
+
 | Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
 | --- | --- | --- |
 | \[Object\] Name(bar chart) | PROSPECTS, ENGAGENENTS | LINE OF BUSINESS / CAMPAIGN / ENGAGEMENT |
-
-### Site panel
-
-The site level analysis adds to the top of the funnel an overview of web-traffic including the following additions.
-
-| Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
-| --- | --- | --- |
-| Prospects | PROSPECT RATE(line chart - secondary axis) | WEEK |
-
-**Top data bar (Grid)**
-
-Columns (Metrics):
-
-1. SESSIONS
-2. LOGGED IN TIME
-
-**Site Trend (Grid)**
-
-### Columns (Metrics):
-
-#### Funnel metrics
-
-1. SESSIONS
-
-#### Operational metrics
-
- 1. LOGGED IN TIME
- 2. AWAY TOTAL NOT ENG.
- 3. AWAT TOTAL NO ENG. RATE
- 4. LABOR TIME
- 5. AWAY TOTAL ENG.
- 6. AWAY TOTAL ENG. RATE
- 7. ENGAGED TIME
- 8. ENGAGED TIME RATE
- 9. OCCUPANCY RATE
-10. CONC. ENGAGED
-11. CONC. LABOR
-
-### Engagement panel
-
-Included in this panel is an engagement formats selector, allowing the filtering of all data presented in this panel by the format as set up in the engagement entity in the LiveEngage campaign module.
-
-#### Supported formats include:
-
-1. Embedded
-2. Sticky
-3. Overlay
-4. Toaster
-5. Slide-out
-6. Peeling corner
-
-![](/img/business-activity-dashboard5.png)
-Business activity engagement analysis
-
-### Entry point panel
-
-The Entry Point is a section on your website or mobile app. On each entry point, setup in a LiveEngage Campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
-
-Use the Business Activity by Entry Point to analyze the traffic on each website section or mobile app section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
-
-## Business activity grid
-
-The business activity grid spreads out all the funnel metrics in a granular view so any member on the account may receive scheduled copies to their email.
-
-Perform the analysis and customization you need using an offline copy, in excel using the complete business activity grid. You can choose the document type (daily/monthly) based on your needed timeframe. The daily grid gives daily aggregations for all the [metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer) while the monthly grid offers the corresponding aggregations at the monthly level. The data is presented at the brand, campaign and engagement level.
-
-![](/img/Business-activity-grid1.png)
-
-Please note: The business dashboard for messaging does not include agent level data or responses to surveys.
 
 For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html)
 
