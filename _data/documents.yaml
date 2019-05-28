@@ -150,8 +150,9 @@
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined content overview
-        - pagename: Predefined content best practices
+        - pagename: Creating Predefined Content 
         - pagename: Importing predefined content
+        - pagename: Predefined content best practices
 
 - categoryname: "Data & reporting"
   image: data-reporting
