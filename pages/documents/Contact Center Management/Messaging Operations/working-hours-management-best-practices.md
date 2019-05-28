@@ -8,9 +8,9 @@ subtitle: " In-depth information on working hours management limitations, clarif
 level3: ''
 permalink: contact-center-management-messaging-operations-working-hours-management-best-practices.html
 isTutorial: false
-date: 2019-01-17 13:13:10 +0000
+date: '2019-01-17T13:13:10.000+00:00'
 redirect_from:
-  - shift-scheduler-limitations.html
+- shift-scheduler-limitations.html
 
 ---
 ### Workdays
@@ -30,7 +30,7 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 ## Terminology
 
-**SLA = Service Level Agreement:** The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
+**SLA = Service Level Agreement:** The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill. To enable SLA per skill, please contact your account manager.
 
 ![](/img/working-hours-1.png)
 
@@ -85,7 +85,7 @@ In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and 
 
 ## FAQs
 
-**Q:** What happens when agent managers manually set off-hours while automatic scheduling rules exist?  
+**Q:** What happens when agent managers manually set off-hours while automatic scheduling rules exist?
 
 **A:** When automatic scheduling rules exist, but the brand decides to go back to manual mode, the ETTR changes according to the manual configuration.
 
