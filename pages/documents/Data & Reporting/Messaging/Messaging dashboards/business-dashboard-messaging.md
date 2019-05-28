@@ -71,7 +71,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
   * EXPOSED -Number of visits during which the visitor was offered an engagement
   * ENGAGED - Number of visitors who had at least one engagement during their visit
-  * SESSIONS - Total number of web sessions on the monitored wed sessions 
+  * SESSIONS - Total number of web sessions on the monitored wed sessions
 
   #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
@@ -112,24 +112,22 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
-**First Columns (Metrics): (common to all panels)**
+### First Columns (Metrics): (common to all panels)
 
-* PROSPECTS 
-* PROSPECT RATE  
+* PROSPECTS
+* PROSPECT RATE
 * EXPOSED RATE
-* EXPOSURES 
-* AVG. EXPOSURES 
-* ONLINE EXPOSURES 
-* ONLINE EXPOSURE RATE 
-* ENGAGEMENT VIEWS 
-* ACCEPTED OFFERS 
+* EXPOSURES
+* AVG. EXPOSURES
+* ONLINE EXPOSURES
+* ONLINE EXPOSURE RATE
+* ENGAGEMENT VIEWS
+* ACCEPTED OFFERS
 * ENGAGEMENTS
 
-**Trend (Grid)**
+**Rows (Attributes):** Date, Total, Average, Week
 
-**Rows (Attributes):** Date, Total, Average
-
-### **Columns (Metrics):**
+### Metrics (Brand level):
 
 #### Funnel metrics
 
