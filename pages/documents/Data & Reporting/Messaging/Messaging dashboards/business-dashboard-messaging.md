@@ -191,7 +191,7 @@ See example below
 
 ## Graphs relevant to Brand, Engagement & Campaigns
 
-| Measure | Attributes | Graph type |
+| Measurement | Attributes | Graph type |
 | --- | --- | --- |
 | Efficiency | Closed Conversations- Y Axis left / CCPLH- metric- y axis right / CCPOH- metric - y axis right / Date - attribute - x axis | Closed Conversations- Bar / CCPLH- Line / CCPOH- Line |
 | Conversion | Conversions - Y axis left / Conversion Rate - y axis right / DATE- X AXIS | Conversions - Bar / Conv. Rate - Line |
