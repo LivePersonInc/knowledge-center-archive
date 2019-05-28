@@ -65,16 +65,16 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 * Distinct per visitor session will add 1 to the metric results when a defined event occurred during the visit.
 * Distinct per engagement will add 1 to the metric results when a visitor was exposed to a specific engagement.
 
-  The following list contains the distinct metrics and their underlying formula (where applicable):
+The following list contains the distinct metrics and their underlying formula (where applicable):
 
-  #### Distinct to visit
-  * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
-  * EXPOSED -Number of visits during which the visitor was offered an engagement
-  * ENGAGED - Number of visitors who had at least one engagement during their visit
-  * SESSIONS - Total number of web sessions on the monitored wed sessions
+### Distinct to visit
+* PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
+* EXPOSED -Number of visits during which the visitor was offered an engagement
+* ENGAGED - Number of visitors who had at least one engagement during their visit
+* SESSIONS - Total number of web sessions on the monitored wed sessions
 
-  #### Distinct to Engagement
-  * EXPOSURES - Number of times each engagement was offered to a visitor
+### Distinct to Engagement
+* EXPOSURES - Number of times each engagement was offered to a visitor
 
 ## Reporting on campaigns funnel from messaging engagements
 
@@ -93,7 +93,7 @@ The LiveEngage platform manages consumer activity through “sessions”. A visi
 Throughout the session, funnel events are transmitted to LiveEngage from the tag present on the web pages.  
 Similar to the activity on the website, LiveEngage will initiate a session when the mobile app requests a Campaign and Engagement in order to start the in-app conversational experience. This will result in an increase in the SESSIONS metric.
 
-### Conversions from the Mobile App
+## Conversions from the Mobile App
 
 The Business activity for messaging dashboard offers a significant number of metrics which track conversions.
 
@@ -112,7 +112,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
-FUNNEL DATA - Common to All Panels
+FUNNEL DATA - Common to all panels
 
 * SESSIONS (only at Brand Level)
 * PROSPECTS
@@ -169,6 +169,7 @@ EFFICIENCY-Common to Brand, Engagement, Campaign Panels
 * REVENUE PER ONLINE HOUR
 
 OPERATIONS-Common to Brand, Engagement, Campaign Panels
+
 * CSAT SCORE (UNIFIED)
 * MCS
 * LOGGED IN TIME
