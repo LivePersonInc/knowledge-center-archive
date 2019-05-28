@@ -110,13 +110,7 @@ A mobile app messaging conversation may continue beyond 6 hours and is not coupl
 
 Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business activity for messaging dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
-### Common to all panels
-
-![](/img/New_Bus_Messaging Dash1.png)
-
-There are four available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
-
-**Top data bar (Grid)**
+There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
 **Columns (Metrics):**
 
