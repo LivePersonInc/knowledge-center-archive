@@ -22,11 +22,11 @@ Brands are able to view messaging data at the Brand, Line of Business, Campaign,
 * Conversion Daily
 * Conversion Daily- Brand
 * Visits Daily
-* Exposures Daily | Brand Distinct
-* Exposures Daily  LOB Distinct
-* Exposures Daily | Campaign Distinct
-* Exposures Daily | Engagement Distinct
-* Exposures Daily | Entry Point Distinct
+* Exposures Daily - Brand Distinct
+* Exposures Daily  - LOB Distinct
+* Exposures Daily - Campaign Distinct
+* Exposures Daily - Engagement Distinct
+* Exposures Daily - Entry Point Distinct
 * View and Accepted Offers Daily
 * Consumer Messaging Activity
 * Agent Activity Hourly
