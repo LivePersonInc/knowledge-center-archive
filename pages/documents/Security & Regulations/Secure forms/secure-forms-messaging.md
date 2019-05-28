@@ -343,8 +343,8 @@ The following texts are not customizable:
 * Footer with security statement
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
-  1. Invitation: ```{{secureFormName}}: {{secure form link}}```
-  2. Submission: The following Secure Form has been submitted: ```{{secureFormName}}```
+  1. Invitation: [[secureFormName]], [[secure form link]]
+  2. Submission: The following Secure Form has been submitted: [[secureFormName]]
   3. The above texts will be automatically translated per the language selected for the connector
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
