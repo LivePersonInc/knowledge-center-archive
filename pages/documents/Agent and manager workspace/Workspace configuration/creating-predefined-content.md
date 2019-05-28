@@ -31,7 +31,7 @@ To add a new item to your predefined content library:
 2. Enter the title and text for the predefined response. You can also add dynamic text to your predefined response, including skill name, skill description, agent name, agent nickname and agent email.
 3. Select the category for the predefined response. This will affect the category where the response is displayed in the Agent Workspace.
 4. Select the Hot Key combination that agents can use to send the predefined response during a conversation with a consumer.
-5. Ensure that the predefined response is set to active (![Active.png](https://lh5.googleusercontent.com/6OTZDU1gWIGgkorxDAs-5JDqFUFxHCfCbQ73X-ouMmUjaK9UItlV6ZXjjJGyASZtb_c6uCIT4ehWlzXy0R06-BNxQXzq6tZ8CLricxyrtgnhZET47adcHHRKrXqRe-NfKlscYH18 =45x20)).
+5. Ensure that the predefined response is toggled on.
 6. Click **Save**, or click **Save & add another** if you want to add additional items. The predefined response is now displayed in the Predefined Content library.
 
 To edit an existing predefined content response:
@@ -40,12 +40,12 @@ To edit an existing predefined content response:
 
 ![](/img/creating-predefined-content-4.png)
 
-1. In the Campaigns footnote, click **Predefined Content**. The Predefined Content library is displayed.
+1. In the Campaigns footnote, click **Predefined Content**. The predefined content library is displayed.
 
 ![](/img/creating-predefined-content-5.png)
 
-1. Click on the predefined response that you want to edit. The Manage predefined content screen is displayed.
+1. Click on the predefined response that you want to edit. The manage predefined content screen is displayed.
 
 ![](/img/creating-predefined-content-6.png)
 
-Edit the predefined response as required, and then click **Save**. The updated predefined response is now displayed in the Predefined Content library.
+Edit the predefined response as required, and then click **Save**. The updated predefined response is now displayed in the predefined content library.
