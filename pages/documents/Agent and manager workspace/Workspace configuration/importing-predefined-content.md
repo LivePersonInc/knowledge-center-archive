@@ -1,5 +1,5 @@
 ---
-pagename: 'Importing predefined content '
+pagename: 'Importing Predefined Content '
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: both
@@ -55,9 +55,9 @@ In order to import content successfully and avoid import errors, simply follow t
 3. Click the **Import** button at the bottom of the page.  
    The import process will only perform actions on rows that have been      changed, as follows:
    * In case the item ID cell was left empty or an unsupported format was entered -> **ERROR** will display on LiveEngage system.
-   * In case the item ID already existed in the file and an additional attribute in the row is changed -> This predefined content will be **UPDATED** on LiveEngage.
-   * In case the item ID already existed in the file and no other attribute in this row is changed -> This predefined content will remain as it is on LiveEngage (**no operation** will be carried out).
-   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as a new predefined content on LiveEngage.
+   * In case the item ID already existed in the file and an additional attribute in the row is changed -> This Predefined Content will be **UPDATED** on LiveEngage.
+   * In case the item ID already existed in the file and no other attribute in this row is changed -> This Predefined Content will remain as it is on LiveEngage (**no operation** will be carried out).
+   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as a new Predefined Content on LiveEngage.
    * In case one item ID is deleted from the file -> The item will be **DELETED** from LiveEngage as well.
 4. While in progress, you can click the **Run in Background** button to continue working in the system. An icon will be added to the top bar and will notify you when the upload is complete. Pressing the notification will take you back to the import related page.
 5. A CSV file with your current items will be automatically downloaded as a      backup.
@@ -76,18 +76,18 @@ A CSV (comma-separated values) file stores tabular data (numbers and text) in pl
 
 The first line of your CSV has to include the field headers described below, in the same order, with each separated by a comma. Subsequent lines in the file should contain data for your content using those same fields in that exact same order. Here's a description of each field:
 
-* **Item ID** (mandatory) – the predefined content      identifier. If you have different translations for the same predefined      content, it will be presented in different lines with the same Item ID.
-* **Language ID** (mandatory) – a language into which the      predefined content is translated. The expected value is a language code,      for example: en-UK for British English.
+* **Item ID** (mandatory) – the Predefined Content      identifier. If you have different translations for the same predefined      content, it will be presented in different lines with the same Item ID.
+* **Language ID** (mandatory) – a language into which the      Predefined Content is translated. The expected value is a language code,      for example: en-UK for British English.
 * **Title ID** (mandatory) – the Predefined content      name/title. This string is limited to 75 characters.
-* **Text ID** (mandatory) – the predefined content in the      language noted in the “Language” field. This string is limited to 8000      characters.
+* **Text ID** (mandatory) – the Predefined Content in the      language noted in the “Language” field. This string is limited to 8000      characters.
 * **Categories** (an optional value) – a categorization of the      predefined content, for example, all welcome messages will be grouped      under the “Greetings” category. This field can contain multiple categories      separated by semicolons.
-* **Status ID** (mandatory) – The predefined status indicates      whether the predefined content is available for use. The expected values      are:
+* **Status ID** (mandatory) – The predefined status indicates      whether the Predefined Content is available for use. The expected values      are:
   * Active
   * Inactive
 * **Hot Key Letter** (an optional value) – a letter (a-z) that, combined      with the “Hot Key Number”, is a shortcut to the predefined content.
 * **Hot Key Number** (an optional value) – a number (0-9) that, combined      with the “Hot Key Letter”, is a shortcut to the predefined content.
-* **Skills** (mandatory) – the list of skills that are associated      with the predefined content item. Only predefined content that is      associated with the current engagement's skill will be displayed in the      Agent Workspace. This field can contain multiple skills separated by semicolons.
-* **LOBs** (Lines of Business - an      optional value) – the list of Lines of Business that were associated with the      predefined content item. This field can contain multiple LOBs separated by      semicolons.
+* **Skills** (mandatory) – the list of skills that are associated      with the Predefined Content item. Only Predefined Content that is      associated with the current engagement's skill will be displayed in the      Agent Workspace. This field can contain multiple skills separated by semicolons.
+* **LOBs** (Lines of Business - an      optional value) – the list of Lines of Business that were associated with the      Predefined Content item. This field can contain multiple LOBs separated by      semicolons.
 
 ![](/img/importing-predefined-content-1b.png)
 

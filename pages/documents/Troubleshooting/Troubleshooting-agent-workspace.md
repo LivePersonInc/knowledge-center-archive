@@ -78,7 +78,7 @@ Update agent browser version. For a list of supported browsers, see system requi
 * The CoBrowse function for the account is not switched on in Night Vision.
 * The agents are not assigned to a profile that includes CoBrowse permissions.
 
-## Why isn’t the scroll bar showing in the predefined content widget?
+## Why isn’t the scroll bar showing in the Predefined Content widget?
 
 ### Cause:
 
@@ -88,7 +88,7 @@ A setting that is configurable in the Mac OS X.
 
 1. Click the **Apple** menu at the top-left of the screen and select **System Preferences**.
 2. Click the **General preferences** pane (first one at the top).
-3. Under Show scroll bars select **Always**. The scroll bar will now display in the predefined content widget.
+3. Under Show scroll bars select **Always**. The scroll bar will now display in the Predefined Content widget.
 
 ## An agent’s status is AWAY yet he is still receiving chats
 
@@ -108,11 +108,11 @@ Agents in Away state do NOT count toward the current available chat slots of a s
 
 ### Cause:
 
-The account’s admin/agent manager exported the predefined content, modified all the predefined content IDs in the exported file and then imported the predefined content from the modified file. During the import process all the predefined content items in the account were deleted because it could not locate them in the import file. The import process identifies items by their IDs and the IDs in the import file had been changed.
+The account’s admin/agent manager exported the predefined content, modified all the Predefined Content IDs in the exported file and then imported the Predefined Content from the modified file. During the import process all the Predefined Content items in the account were deleted because it could not locate them in the import file. The import process identifies items by their IDs and the IDs in the import file had been changed.
 
 ### Solution:
 
-Do not modify IDs of predefined content items.
+Do not modify IDs of Predefined Content items.
 
 For more information, see [Importing Predefined Content.](agent-manager-workspace-workspace-configuration-importing-predefined-content.html)
 
