@@ -12,7 +12,7 @@ isNew: false
 ---
 When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the campaigns tab. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
 
-To add a new item to your predefined content library:
+## To add a new item to your predefined content library:
 
 1. Open the Campaigns area.
 
@@ -37,7 +37,7 @@ To add a new item to your predefined content library:
 6. Click **Save**, or click **Save & add another** if you want to add additional items. The predefined response is now displayed in the Predefined Content library.
 <br/>
 
-To edit an existing predefined content response:
+## To edit an existing predefined content response:
 
 1. Open the Campaigns area.
 
