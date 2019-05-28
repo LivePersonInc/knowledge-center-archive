@@ -168,7 +168,7 @@ EFFICIENCY-Common to Brand, Engagement, Campaign Panels
 * CONVERSIONS PER ONLINE HOUR
 * REVENUE PER ONLINE HOUR
 
-  OPERATIONS-Common to Brand, Engagement, Campaign Panels
+OPERATIONS-Common to Brand, Engagement, Campaign Panels
 * CSAT SCORE (UNIFIED)
 * MCS
 * LOGGED IN TIME
@@ -181,7 +181,7 @@ EFFICIENCY-Common to Brand, Engagement, Campaign Panels
 * AVG CONSUMER RESPONSE TIME
 * AVG CONVERSATION DURATION
 
-**In panel search functionality**
+## In panel search functionality
 
 In order to isolate filtering by a specific object name to a single panel without influencing the other panels, a search box has been added to each panel. Searching and selecting one or more Lines of Business, Campaigns, Engagements, or Entry Points (each in their respective panel), will filter all the visualizations in the panel. This will allow drill down to the performance of a designated group of object (for example: all Sales related LoBs).
 
@@ -191,9 +191,11 @@ See example below
 
 ## Graphs relevant to Brand, Engagement & Campaigns
 
-| Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
+| Measure | Attributes | Graph type |
 | --- | --- | --- |
-| \[Object\] Name(bar chart) | PROSPECTS, ENGAGENENTS | LINE OF BUSINESS / CAMPAIGN / ENGAGEMENT |
+| Efficiency | Closed Conversations- Y Axis left / CCPLH- metric- y axis right / CCPOH- metric - y axis right / Date - attribute - x axis | Closed Conversations- Bar / CCPLH- Line / CCPOH- Line |
+| Conversion | Conversions - Y axis left / Conversion Rate - y axis right / DATE- X AXIS | Conversions - Bar / Conv. Rate - Line |
+| Consumer experience | CCSAT-Y AXIS LEFT / MCS - Y AXIS RIGHT / DATE- ATTRIBUTE X AXIS | CSAT-Line / MCS- Line |
 
 For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html)
 
