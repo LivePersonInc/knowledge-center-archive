@@ -12,6 +12,7 @@ isNew: false
 date: 2019-01-23 08:32:26 +0000
 redirect_from:
   - webagent-integration.html
+  - iframe-integration.html
 
 ---
 Agents often need to access external systems while they are working in the agent workspace, and to do so, they need to open additional tabs or browsers. Now, you can integrate external systems right into the agent workspace, allotting them their own widget next to the standard widgets. Widgets can be set to appear alongside chats associated with a particular skill or skills - agents handling chats assigned only to that skill will be able to view the widget.
