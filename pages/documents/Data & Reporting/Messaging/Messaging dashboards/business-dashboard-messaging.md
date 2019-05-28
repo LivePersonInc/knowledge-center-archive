@@ -95,7 +95,7 @@ Similar to the activity on the website, LiveEngage will initiate a session when 
 
 ### Conversions from the Mobile App
 
-The Business dashboard offers a significant number of metrics which track conversions.
+The Business activity for messaging dashboard offers a significant number of metrics which track conversions.
 
 The LiveEngage campaign funnel ends with a successful assisted conversion. An assisted conversion is achieved during or after a conversation with an agent. The mobile app, similar to the website, should report an Engagement Attribute which triggers a campaign goal.
 
@@ -106,9 +106,9 @@ A mobile app messaging conversation may continue beyond 6 hours and is not coupl
 
 **Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
 
-## Main sheet: Business Activity analysis
+## Main sheet: Business Activity for messaging analysis
 
-Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
+Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business activity for messaging dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
 ### Common to all panels
 
