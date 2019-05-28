@@ -1,16 +1,16 @@
 ---
-pagename: 'Predefined Content overview '
+pagename: 'Predefined content overview '
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: both
-subtitle: 'Save time and energy by using Predefined Content '
+subtitle: 'Save time and energy by using predefined content '
 level3: ''
 permalink: agent-manager-workspace-workspace-configuration-predefined-content-overview.html
 isTutorial: false
 isNew: false
-date: 2019-01-30 15:18:32 +0000
+date: '2019-01-30T15:18:32.000+00:00'
 redirect_from:
-  - predefined-content-managing.html
+- predefined-content-managing.html
 
 ---
 At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using the predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals and maintain your high standards. The use of predefined content saves time, and can ensure consistent, error-free responses and a professional tone of voice.
