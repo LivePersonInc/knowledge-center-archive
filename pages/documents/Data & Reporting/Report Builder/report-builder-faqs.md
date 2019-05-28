@@ -5,9 +5,9 @@ subCategoryName: Report Builder
 indicator: both
 subtitle: All the questions you want answered about the Report Builder
 level3: ''
-permalink: data-reporting-report-builder-report-builder-faqs.html
+permalink: data-reporting-report-builder-report-builder-FAQs.html
 isTutorial: false
-date: 2019-01-16 13:47:26 +0000
+date: '2019-01-16T13:47:26.000+00:00'
 isNew: false
 
 ---

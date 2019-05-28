@@ -12,15 +12,9 @@ date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The predefined business dashboard provides a quick view of the the current day, previous 7 calendar days, average as well as the totals for the messaging business activity. Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
+The Business dashboard for messaging provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel for messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brands website, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
-Using this dashboard, you gain the ability to view funnel data as well as conversion, revenue, efficiency and experience data at the Brand Engagement and Campaign level. Brands can analyze the funnel data snapshot of for the Line of Business and Entry campaign performance, allowing brands to analyze the customer journey for messaging engagements.
-
-Using this dashboard, you can identify opportunities to increase conversion, revenue, grow your reach, and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brand's website & mobile app. 
-
-This dashboard also reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
-
-The business dashboard for messaging does not include agent or survey question response data.
+Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
 
 **Primary datasets:**
 
@@ -42,8 +36,8 @@ The business dashboard for messaging does not include agent or survey question r
 * Date
 * Group
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
-* Goal type: based on campaign goals, such as “Sell product/service”
-* Goal: set up on the account’s campaigns
+* Campaign's goal
+* Campaign goal type
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
 
 **Manual filter by Panel:**
@@ -101,20 +95,20 @@ Similar to the activity on the website, LiveEngage will initiate a session when 
 
 ### Conversions from the Mobile App
 
-The Business Activity dashboard offers a significant number of metrics which track conversions.
+The Business dashboard offers a significant number of metrics which track conversions.
 
 The LiveEngage campaign funnel ends with a successful assisted conversion. An assisted conversion is achieved during or after a conversation with an agent. The mobile app, similar to the website, should report an Engagement Attribute which triggers a campaign goal.
 
-**In-session vs. Cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
+**In-session vs. cross-session conversions:** A campaign goal achieved during an ongoing session (as explained in the previous section here) is considered an in-session conversion. In order for an in-session conversion to be registered, the mobile app should report on the corresponding Engagement Attribute within 6 hours of the conversation initiation. Beyond 6 hours and with respect to the cross-session window setup in LiveEngage, the conversion will be considered cross-session.
 
 {: .notice}
 A mobile app messaging conversation may continue beyond 6 hours and is not coupled with the monitored session managed by LiveEngage.
 
 **Attribution of conversions to agents:** Conversions from the mobile app are either attributed to the first agent of the conversation, or the last. This model is similar to conversions tracked on your website, and is set up via the LiveEngage campaigns settings.
 
-## Main sheet: Business activity analysis
+## Main sheet: Business Activity analysis
 
-Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business Activity predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
+Corresponding to the aggregation levels presented in the above section, the predefined main sheet of the Business predefined dashboard contains a panel for each aggregation level. The metrics are not identical across all panels. Brand, Campaign, Engagements have the same funnel at their aggregated level. LOB and Entry Point do not contain any information following an opened conversation.
 
 ### Common to all panels
 
@@ -145,7 +139,7 @@ There are four available panels in this dashboard: Brand, LoB, Campaign, Engagem
 
 **Trend (Grid)**
 
-**Rows (Attributes):** WEEK, Total, Average
+**Rows (Attributes):** Date, Total, Average
 
 ### **Columns (Metrics):**
 
@@ -247,7 +241,7 @@ Columns (Metrics):
 
 1. SESSIONS
 
-#### Operation metrics
+#### Operational metrics
 
  1. LOGGED IN TIME
  2. AWAY TOTAL NOT ENG.
@@ -275,7 +269,7 @@ Included in this panel is an engagement formats selector, allowing the filtering
 6. Peeling corner
 
 ![](/img/business-activity-dashboard5.png)
-Business activity engagement analysis_
+Business activity engagement analysis
 
 ### Entry point panel
 
@@ -290,6 +284,8 @@ The business activity grid spreads out all the funnel metrics in a granular view
 Perform the analysis and customization you need using an offline copy, in excel using the complete business activity grid. You can choose the document type (daily/monthly) based on your needed timeframe. The daily grid gives daily aggregations for all the [metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer) while the monthly grid offers the corresponding aggregations at the monthly level. The data is presented at the brand, campaign and engagement level.
 
 ![](/img/Business-activity-grid1.png)
+
+Please note: The business dashboard for messaging does not include agent level data or responses to surveys.
 
 For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html)
 

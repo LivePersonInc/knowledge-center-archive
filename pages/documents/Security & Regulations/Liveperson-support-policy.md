@@ -8,8 +8,7 @@ level3: ''
 permalink: security-regulations-liveperson-support-policy.html
 isTutorial: false
 isNew: false
-date: 2019-04-01 10:50:38 +0000
-published: false
+date: '2019-04-01T10:50:38.000+00:00'
 
 ---
 The LivePerson customer support policy is designed to provide assistance with maximizing the value of your LivePerson products. LivePerson customer support provides 24x7 coverage via chat, messaging and email. This document outlines LivePerson support features and processes, and procedures for engaging with the LivePerson customer Ssupport team.

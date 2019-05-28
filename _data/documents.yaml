@@ -233,6 +233,7 @@
       pages:
         - pagename: Account security recommendations
         - pagename: Validate identity of consumers during conversations
+        - pagename: LivePerson support policy
         - pagename: IP masking
         - pagename: Configuring your firewall
         - pagename: IP address blocking

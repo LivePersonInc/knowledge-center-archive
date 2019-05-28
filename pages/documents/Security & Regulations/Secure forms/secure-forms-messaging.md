@@ -21,7 +21,7 @@ LivePerson invests heavily in providing the most secure platform possible for ou
 The LivePerson secure form provides brands with an enhanced engagement experience with the following benefits:
 
 * Extra secure interaction: The secure form dedicates a "secure tunnel" within the standard chat for exchanging Personal Identifiable Information (PII), Cardholder Data (CHD), and other sensitive identity validation data like answers to verification questions and PINs. Agents continue to operate in the same Agent Workspace environment as data is sent from the visitor to the agent in a safe, PCI compliant interaction.
-* No storage of sensitive data in chat transcripts: Data processed by the secure form is not stored as part of the standard chat transcripts and cannot be retrieved through the application after the chat session has ended. The data is securely stored in its tokenized form in a dedicated database.
+* No storage of sensitive data in transcripts: Data processed by the secure form is not stored as part of the standard chat transcripts and cannot be retrieved through the application after the chat session has ended. The data is securely stored in its tokenized form in a dedicated database.
 * Off the record questions (CVV): The LivePerson secure form offers the option of "Off the Record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
 
 ## **European security standards**
@@ -186,7 +186,7 @@ Secure forms are an integrated part of the mobile-app messaging SDK.
 
 ### Push notifications
 
-If the your app is running in the background, when an agent sends a secure form, the consumer will receive the following push notification: “<Agent Name>:<Secure form name>”. Tapping the push notification will navigate the consumer to the conversation.
+If your app is running in the background, when an agent sends a secure form, the consumer will receive a push notification. Tapping the push notification will navigate the consumer to the conversation.
 
 ### Invitation
 
@@ -277,7 +277,7 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 
 ## **Messaging connectors**
 
-For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit. 
+For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
 Secure forms are also now supported on desktop versions of WhatsApp and Facebook Messenger. The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
@@ -319,7 +319,7 @@ The following UI shows the connector’s secure form experience on mobile and ta
 
 #### Rich links
 
-For Apple Business Chat, rich links are the default behavior for secure forms. This means that consumers only need to tap once on the form to open it. 
+For Apple Business Chat, rich links are the default behavior for secure forms. This means that consumers only need to tap once on the form to open it.
 
 ## Success and error messages
 
@@ -343,12 +343,12 @@ The following texts are not customizable:
 * Footer with security statement
 * The texts above will automatically be translated to the language selected for each connector in Houston. Please review the above section on connector’s secure forms language configuration to edit the language per connector.
 * The secure form invitation and submission texts for consumers via connectors channels are as follows:
-  1. Invitation: "{{secureFormName}}: {{secure form link}}"
-  2. Submission: "The following Secure Form has been submitted: {{secureFormName}}"
+  1. Invitation: [[secureFormName]], [[secure form link]]
+  2. Submission: The following Secure Form has been submitted: [[secureFormName]]
   3. The above texts will be automatically translated per the language selected for the connector
 * Secure forms for connector will not be available of desktop. When a consumer tries to click on a secure form link from one of the connector channel’s web apps/websites, he/she will receive the following error message:  
   “You’ll need a mobile or tablet device to perform this operation. Open this message on your mobile or tablet to continue.”
-* Secure form view indication - for connectors flow, when an agent will send another/additional secure form while the consumer is currently viewing an already open secure form, the agent will automatically see the second secure form status as “viewed.”
+* Secure form view indication - for connectors flow, when an agent sends another/additional secure form while the consumer is currently viewing an already open secure form, the agent will automatically see the second secure form status as “viewed.”
 * If a consumer clicks the secure form link and closes it before submitting (or will leave the form open but will not submit the answers yet), and then tries to click on the link and open it again, they will receive an error message and will not be able to see the form (on both open forms). The error message is: _The secure form could not be opened. <br>Please contact your agent for assistance."_
 * If consumer will click on the form after the value of messaging.secure.form.getForm.timeout.sec has passed - they will receive the following error: _The secure form could not be opened. <br>Please contact your agent for assistance."_
 * If the consumer will try to submit the form after the value of messaging.secure.form.submitForm.timeout.sec has passed - they will receive the following error on the form UI: _Your session has expired. Please close the window and start a new conversation in order to resume”._
