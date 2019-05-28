@@ -109,3 +109,19 @@ Please note:
 * If no filters are added, the page will display all account level data, including both assigned and unassigned Campaigns.
   3. Click **Filter**.
   4. The page will now display the Campaigns assigned to the LoB you selected; the dashboard will reflect the data for these Campaigns.
+
+![](/img/LoB7.png)  
+  
+**To filter entities by LOB:**
+
+On accounts with a large number of entities (such as users, skills, etc.), it can be very easy for users to accidentally edit the wrong entity. The ability to filter entities by LOB means users can only view and edit those entities designated to the LOBs already assigned to them.  
+For example, users assigned to the Sportswear LOB will only be able to view and edit the skills, predefined content etc, of that LOB. They will not be able to view or edit entities of other LOBs, such as the Homeware LOB, unless those LOBs are also assigned to them.
+
+The following entities can be assigned to LOBs:
+
+* Users (multiple LOBs per user)
+* Skills (multiple LOBs per skill)
+* Predefined content (multiple LOBs per predefined content)
+* Campaigns (one LOB per campaign)
+
+Once a user assigned to a specific LOB logs in to LiveEngage, the relevant tables will be pre filtered according to his assigned LOBs.
