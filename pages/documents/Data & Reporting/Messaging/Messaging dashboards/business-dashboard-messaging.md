@@ -183,16 +183,6 @@ There are five available panels in this dashboard: Brand, LoB, Campaign, Engagem
 * TOTAL DIRECT REVENUE AFTER EXPOSURE NOT ENGAGEMENT
 * TOTAL NO. OF TRANSFERS
 
-#### Goals metrics
-
-1. TOTAL GOALS REACHED AFTER ENGAGEMENT
-2. TOTAL GOAL REACHED RATE AFTER ENGAGEMENT
-3. TOTAL CONVERSIONS AFTER ENGAGEMENT
-4. TOTAL CONVERSION RATE AFTER ENGAGEMENT
-5. TOTAL CONVERSION RATE AFTER EXPOSURE NOT ENGAGEMENT
-6. INCREMENTAL CONVERSIONS
-7. INCREMENTAL CONVERSION RATIO
-
 ### Common to LoB, campaign, entry point and engagement panels
 
 In order to isolate filtering by a specific object name to a single panel without influencing the other panels, a search box has been added to each panel. Searching and selecting one or more Lines of Business, Campaigns, Engagements, or Entry Points (each in their respective panel), will filter all the visualizations in the panel. This will allow drill down to the performance of a designated group of object (for example: all Sales related LoBs).
