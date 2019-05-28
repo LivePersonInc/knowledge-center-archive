@@ -127,11 +127,11 @@ There are five available panels in this dashboard: Brand, LoB, Campaign, Engagem
 
 **Rows (Attributes):** Date, Total, Average, Week
 
-### Metrics (Brand level):
+### Metrics:
 
-#### Funnel metrics
+#### Funnel metrics are available for all panels
 
-* ABANDONED CONVERSATIONS
+* ABANDONED CONVERSATIONS 
 * ABANDONED RATE
 * ACCEPTED OFFERS
 * ACCEPTED RATE (BRAND)
