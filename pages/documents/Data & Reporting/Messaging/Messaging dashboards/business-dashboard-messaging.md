@@ -68,12 +68,14 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 The following list contains the distinct metrics and their underlying formula (where applicable):
 
 ### Distinct to visit
+
 * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
 * EXPOSED -Number of visits during which the visitor was offered an engagement
 * ENGAGED - Number of visitors who had at least one engagement during their visit
 * SESSIONS - Total number of web sessions on the monitored wed sessions
 
 ### Distinct to Engagement
+
 * EXPOSURES - Number of times each engagement was offered to a visitor
 
 ## Reporting on campaigns funnel from messaging engagements
@@ -112,7 +114,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
-FUNNEL DATA - Common to all panels
+**FUNNEL DATA - Common to all panels**
 
 * SESSIONS (only at Brand Level)
 * PROSPECTS
@@ -127,7 +129,7 @@ FUNNEL DATA - Common to all panels
 * ACCEPTED OFFERS
 * ACCEPTED RATE
 
-CONVERSATION DATA - Common to Brand, Engagement, Campaign Panels
+**CONVERSATION DATA - Common to Brand, Engagement, Campaign Panels**
 
 * NO. OF OPENED CONVERSATIONS
 * CONVERSATION OPEN RATE
@@ -147,7 +149,7 @@ CONVERSATION DATA - Common to Brand, Engagement, Campaign Panels
 * BACK TO QUEUE TRANSFERS
 * HANDLED CONVERSATIONS
 
-CONVERSION & REVENUE DATA - Common to Brand, Engagement, Campaign Panels
+**CONVERSION & REVENUE DATA - Common to Brand, Engagement, Campaign Panels**
 
 * TOTAL CONVERSIONS AFTER ENGAGEMENT
 * TOTAL CONVERSION RATE AFTER ENGAGEMENT
@@ -161,14 +163,14 @@ CONVERSION & REVENUE DATA - Common to Brand, Engagement, Campaign Panels
 * TOTAL AOV AFTER ENGAGEMENT
 * TOTAL AOV AFTER EXPOSURE NOT ENGAGEMENT
 
-EFFICIENCY-Common to Brand, Engagement, Campaign Panels
+**EFFICIENCY- Common to Brand, Engagement, Campaign Panels**
 
 * CLOSED CONVERSATIONS PER LOGIN HOUR
 * CLOSED CONVERSATIONS PER ONLINE HOUR
 * CONVERSIONS PER ONLINE HOUR
 * REVENUE PER ONLINE HOUR
 
-OPERATIONS-Common to Brand, Engagement, Campaign Panels
+**OPERATIONS - Common to Brand, Engagement, Campaign Panels**
 
 * CSAT SCORE (UNIFIED)
 * MCS
