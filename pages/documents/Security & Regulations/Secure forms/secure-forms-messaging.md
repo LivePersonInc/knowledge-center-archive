@@ -186,7 +186,7 @@ Secure forms are an integrated part of the mobile-app messaging SDK.
 
 ### Push notifications
 
-If the your app is running in the background, when an agent sends a secure form, the consumer will receive the following push notification: “<Agent Name>:<Secure form name>”. Tapping the push notification will navigate the consumer to the conversation.
+If your app is running in the background, when an agent sends a secure form, the consumer will receive the following push notification: “<Agent Name>:<Secure form name>”. Tapping the push notification will navigate the consumer to the conversation.
 
 ### Invitation
 
@@ -277,7 +277,7 @@ The form on the Android mobile-app messaging SDK is as follows (top bar design i
 
 ## **Messaging connectors**
 
-For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit. 
+For [messaging connectors](messaging-channels-messaging-connectors-overview.html) (SMS, WhatsApp Business, Facebook, Apple Business Chat, Google RCS Business Messaging) secure forms will be sent to the relevant channel via an external link. The consumer will be able to tap on the link, which will navigate them to the device default browser, where they will be able to see the form, fill it and submit.
 
 Secure forms are also now supported on desktop versions of WhatsApp and Facebook Messenger. The design for the form in the messaging connectors experience is inherited from the engagement window default design.
 
@@ -319,7 +319,7 @@ The following UI shows the connector’s secure form experience on mobile and ta
 
 #### Rich links
 
-For Apple Business Chat, rich links are the default behavior for secure forms. This means that consumers only need to tap once on the form to open it. 
+For Apple Business Chat, rich links are the default behavior for secure forms. This means that consumers only need to tap once on the form to open it.
 
 ## Success and error messages
 
