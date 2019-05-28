@@ -1,16 +1,16 @@
 ---
-pagename: Operate business divisions from one account
+pagename: Lines of business
 categoryName: Admin & settings
 subCategoryName: Skills & groups
 indicator: both
-subtitle: 'Consolidate multiple siloed business divisions into one single account '
+subtitle: Operate business divisions from one account
 level3: ''
-permalink: admin-settings-skills-groups-operate-business-divisions-from-one-account.html
+permalink: admin-settings-skills-groups-lines-of-business.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 09:46:18 +0000
+date: '2019-01-23T09:46:18.000+00:00'
 redirect_from:
-  - manage-lines-of-business.html
+- manage-lines-of-business.html
 
 ---
 The LivePerson platform is designed to reflect and support your brand goals and business structure as closely as possible. By creating individual Lines of Business (LoBs) within one single account, each with its own campaigns and engagements, brands are better able to track campaign success and engagement impact on each area of their business.
