@@ -215,7 +215,7 @@
     - subcategoryname: "Skills & groups"
       pages:
         - pagename: Set the agent group hierarchy
-        - pagename: Operate business divisions from one account
+        - pagename: Lines of Business (LoB)
         - pagename: Connect visitors to Agents by skills
     - subcategoryname: Permissions
       pages:
