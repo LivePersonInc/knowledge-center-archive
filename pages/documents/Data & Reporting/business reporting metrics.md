@@ -17,6 +17,6 @@ We also have real-time data to give you an overall picture of how your contract 
 
 More information on the Report Builder can be found [here](data-reporting-report-builder-report-builder-overview.html).
 
-More information on the Messaging dashboards can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html).
+More information on the Messaging dashboards can be found [here](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html).
 
 More information on the Live Chat dashboards can be found [here](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html).

@@ -23,7 +23,7 @@ This policy does not cover third party services, products or technology, which a
 
 **LivePerson Network Operations Center (NOC):** The team that monitors our networks and provides alerts about service interruptions. NOC is responsible for updating LivePerson Support should any of the above events occur.
 
-**Resolution:** An issue is considered resolved when the customer&#39;s service needs have been met.
+**Resolution:** An issue is considered resolved when the customer's service needs have been met.
 
 **LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson accounts and maintenance activity updates. The Service Status Dashboard is accessible to
 
@@ -31,7 +31,7 @@ LivePerson customers at [http://status.liveperson.com.](http://status.liveperson
 
 ## Scope of support
 
-LivePerson customer support is provided to help you resolve issues that arise when using LivePerson products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson customer support team. 
+LivePerson customer support is provided to help you resolve issues that arise when using LivePerson products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson customer support team.
 
 The following items are generally not supported:
 
@@ -39,22 +39,22 @@ The following items are generally not supported:
 * Alterations or revisions to the LivePerson code by the customer.
 * Continued support of issues for which LivePerson has provided a solution that has not been implemented by the customer, or for which data requested from the customer has not been provided.
 * Writing or debugging custom applications without following LivePerson integration guidelines.
-* Dashboards and derived metrics/attributes created by the customer in LiveEngage [Report Builder.](data-reporting-report-builder-report-builder-overview.html) 
+* Dashboards and derived metrics/attributes created by the customer in LiveEngage [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
 * Third party services, products or technology. Please let us know if you have questions about a third party tool and we will endeavor to help obtain additional information for you.
 
 ## Engagement channels
 
-Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID&#39;s, access to Customer’s mobile application etc.).
+Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to Customer’s mobile application etc).
 
 Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays.
 
 * Severity
-* level
+* Level
 * Contact
-* method
+* Method
 * Description Response
-* time
+* Time
 * Periodic
-* updates
+* Updates
 * Root cause
-* analysis (RCA)
+* Analysis (RCA)
