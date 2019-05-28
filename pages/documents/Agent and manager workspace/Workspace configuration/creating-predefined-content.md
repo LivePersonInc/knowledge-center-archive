@@ -8,6 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-creating-predefined-content.html
 isTutorial: false
 isNew: false
+published: false
 
 ---
 When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the campaigns tab. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
