@@ -112,7 +112,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
-### First Columns (Metrics): (common to all panels)
+### First Column (metrics- common to all panels)
 
 * PROSPECTS
 * PROSPECT RATE
@@ -126,8 +126,6 @@ There are five available panels in this dashboard: Brand, LoB, Campaign, Engagem
 * ENGAGEMENTS
 
 **Rows (Attributes):** Date, Total, Average, Week
-
-### Metrics:
 
 #### Funnel metrics are available for all panels
 
