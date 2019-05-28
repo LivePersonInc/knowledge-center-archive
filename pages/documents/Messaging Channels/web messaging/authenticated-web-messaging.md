@@ -123,7 +123,7 @@ For more information regarding the Monitoring API, please refer to the [Monitori
 
 The engagement window can be created and customized like all other messaging windows in LivePerson.
 
-In addition, there additional options for authenticated windows:
+In addition, there are additional options for authenticated windows:
 
 ### **Clearing history (consumer side)**
 
