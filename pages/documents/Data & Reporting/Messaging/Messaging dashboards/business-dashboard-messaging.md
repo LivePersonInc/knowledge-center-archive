@@ -36,7 +36,7 @@ Brands are able to view messaging data at the Brand, Line of Business, Campaign,
 * Date
 * Group
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
-* Campaign goal type
+* Goal type
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
 
 **Manual filter by Panel:**
@@ -52,11 +52,11 @@ Brands are able to view messaging data at the Brand, Line of Business, Campaign,
 
 ### Aggregation Levels
 
-The business funnel can be analyzed from several different aspects. The Business Activity dashboard offers a view into 4 of these: Site, Line of Business, Campaign, and Engagement. At each level, the metrics included in the business funnel are pre-aggregated to reflect the corresponding aspect.
+The business funnel can be analyzed from several different aspects. The Business activity for messaging dashboard offers a view into 4 of these: Brand, Line of Business, Campaign, Entry Point and Engagement. At each level, the metrics included in the business funnel are pre-aggregated to reflect the corresponding aspect.
 
 A suffix has been added to each metric name to allow users to identify the level to which the metric is pre-aggregated. For example: “PROSPECTS (CAMP)” and “EXPOSED (LOB)”.
 
-Important to note that the funnel is aligned to the Visit session start time. This means that the date filter set on the dashboard applies to all visits starting within the selected range, including the events which occurred for the entire duration of the retrieved visit sessions.
+Important to note that the funnel is aligned to the visit session start time. This means that the date filter set on the dashboard applies to all visits starting within the selected range, including the events which occurred for the entire duration of the retrieved visit sessions.
 
 ### Distinct metrics
 
@@ -71,6 +71,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
   * PROSPECTS - Number of visits that were eligible to receive at least one engagement. Includes control group visitors if defined in the account
   * EXPOSED -Number of visits during which the visitor was offered an engagement
   * ENGAGED - Number of visitors who had at least one engagement during their visit
+  * SESSIONS - Total number of web sessions on the monitored wed sessions 
 
   #### Distinct to Engagement
   * EXPOSURES - Number of times each engagement was offered to a visitor
