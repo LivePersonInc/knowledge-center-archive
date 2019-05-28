@@ -36,7 +36,6 @@ Brands are able to view messaging data at the Brand, Line of Business, Campaign,
 * Date
 * Group
 * Initial device: desktop/laptop, mobile smartphone, mobile tablet
-* Campaign's goal
 * Campaign goal type
 * Source Type: Web, Brand App, Twilio SMS, Facebook, Apple business chat, Google, Line
 
