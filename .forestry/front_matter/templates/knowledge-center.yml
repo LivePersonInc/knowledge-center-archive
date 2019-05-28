@@ -142,6 +142,7 @@ pages:
 - pages/documents/Release Notes/May/week-of-may-27th.md
 - pages/documents/Release Notes/May/Week-of-May-13th.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- pages/documents/Security & Regulations/Liveperson-support-policy.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
 - pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
 - pages/documents/Troubleshooting/Har-files-web-requests.md
@@ -150,7 +151,6 @@ pages:
 - pages/documents/Security & Regulations/Historic-data-masking.md
 - pages/documents/What's New/Whats-new-may-2019.md
 - pages/documents/Release Notes/May/Week-of-May-6th.md
-- pages/documents/Security & Regulations/Liveperson-support-policy.md
 - pages/documents/Messaging Channels/SMS/sms-best-practices.md
 - pages/documents/Messaging Channels/SMS/enhancing-the-sms-experience-with-twilio.md
 - pages/documents/What's New/What's New April 2019.md
