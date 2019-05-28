@@ -114,22 +114,16 @@ There are five available panels in this dashboard: Brand, LoB, Campaign, Engagem
 
 **First Columns (Metrics): (common to all panels)**
 
-1. PROSPECTS
-2. EXPOSED
-3. ENGAGED
-4. ENGAGEMENTS
-5. TOTAL GOALS REACHED AFTER ENGAGEMENT
-6. TOTAL CONVERSIONS AFTER ENGAGEMENT
-
-| Graph Name (Type) | Vertical (Metrics) | Horizontal (Attributes) |
-| --- | --- | --- |
-| Prospects(bar chart - main axis) | PROSPECTS | WEEK |
-| Exposed | EXPOSED(bar chart - main axis) | WEEK |
-| EXPOSED RATE(line chart - secondary axis) | N/A | WEEK |
-| Engaged | ENGAGED(bar chart - main axis) | WEEK |
-| ENGAGED RATE(line chart - secondary axis) | N/A | WEEK |
-| Conversions | TOTAL CONVERSIONS AFTER ENGAGEMENT(bar chart - main axis) | WEEK |
-| INCREMENTAL CONVERSION RATIO(line chart - secondary axis) | N/A | WEEK |
+* PROSPECTS 
+* PROSPECT RATE  
+* EXPOSED RATE
+* EXPOSURES 
+* AVG. EXPOSURES 
+* ONLINE EXPOSURES 
+* ONLINE EXPOSURE RATE 
+* ENGAGEMENT VIEWS 
+* ACCEPTED OFFERS 
+* ENGAGEMENTS
 
 **Trend (Grid)**
 
