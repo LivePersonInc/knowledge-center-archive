@@ -112,7 +112,7 @@ Corresponding to the aggregation levels presented in the above section, the pred
 
 There are five available panels in this dashboard: Brand, LoB, Campaign, Engagement and entry point.
 
-**Columns (Metrics):**
+**First Columns (Metrics): (common to all panels)**
 
 1. PROSPECTS
 2. EXPOSED
