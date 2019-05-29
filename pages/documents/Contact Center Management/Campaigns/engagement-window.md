@@ -8,9 +8,9 @@ level3: ''
 permalink: contact-center-management-campaigns-engagement-window.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 13:19:13 +0000
+date: '2019-01-28T13:19:13.000+00:00'
 redirect_from:
-  - customized-chat-windows.html
+- customized-chat-windows.html
 
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
@@ -104,7 +104,7 @@ You can fully customize the chat window to suit your brand by changing the color
 ### To add additional functionality to your window:
 
 1. Click the **Action menu** button or click the **+** button in the desktop preview.
-2.  Select the action buttons that you would like to add, e.g., email transcripts. A preview displays on the screen.
+2. Select the action buttons that you would like to add, e.g., email transcripts. A preview displays on the screen.
 3. To change the color of the Action menu, click the actions area in the chat window. The action window will open.
 4. Change the font, background color and/or icon color (dark or bright), as desired.
 
@@ -127,6 +127,34 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 <li>The background color is the same as the chat window background.</li> <li>Text is the same color and font as the Automatic Messages.</li> <li>Buttons inherit the look and feel of the title bar.</li>
 </ul>
 </div>
+
+## Unsupported elements and attributes
+
+The following are not supported for survey headings:
+
+**HTML tags:**
+* script
+* iframe
+* object 
+* embed
+* style 
+* line
+
+**Attributes/events:**
+* HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
+* dirname 
+* srcdoc 
+* begin 
+* to
+
+**Attribute values containing:**
+* “javascript:” 
+* data URIs (i.e., “data:”) 
+* “mhtml:” 
+* <% %> 
+* \[\\S+\] 
+* Mask property (i.e., “mask:”) 
+* Dynamic expressions (i.e., expression(...))
 
 ## Advanced window configuration and customization
 
