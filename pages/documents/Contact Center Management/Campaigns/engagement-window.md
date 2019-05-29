@@ -15,11 +15,11 @@ redirect_from:
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
 
-## The Engagement window studio
+## Engagement window studio
 
 To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a chat window once and use it across any number of engagements.
 
-### To access the Engagement window studio:
+### To access the engagement window studio:
 
 1. Open the **Engagement window library**
 
@@ -133,27 +133,30 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 The following are not supported for survey headings:
 
 **HTML tags:**
+
 * script
 * iframe
-* object 
+* object
 * embed
-* style 
+* style
 * line
 
 **Attributes/events:**
-* HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
-* dirname 
-* srcdoc 
-* begin 
+
+* HTML DOM Events such as onClick, onFocus, onKeyDown, etc.
+* dirname
+* srcdoc
+* begin
 * to
 
 **Attribute values containing:**
-* “javascript:” 
-* data URIs (i.e., “data:”) 
-* “mhtml:” 
-* <% %> 
-* \[\\S+\] 
-* Mask property (i.e., “mask:”) 
+
+* “javascript:”
+* data URIs (i.e., “data:”)
+* “mhtml:”
+* <% %>
+* \[\\S+\]
+* Mask property (i.e., “mask:”)
 * Dynamic expressions (i.e., expression(...))
 
 ## Advanced window configuration and customization
