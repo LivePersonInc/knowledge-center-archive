@@ -207,26 +207,29 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 
 The following are not supported for HTML engagements:
 
-**Tags:**
+**HTML tags:**
+
 * script
 * iframe
-* object 
+* object
 * embed
-* style 
+* style
 * line
 
 **Attributes/events:**
-* HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
-* dirname 
-* srcdoc 
-* begin 
+
+* HTML DOM Events such as onClick, onFocus, onKeyDown, etc.
+* dirname
+* srcdoc
+* begin
 * to
 
 **Attribute values containing:**
-* “javascript:” 
-* data URIs (i.e., “data:”) 
-* “mhtml:” 
-* <% %> 
-* \[\\S+\] 
-* Mask property (i.e., “mask:”) 
+
+* “javascript:”
+* data URIs (i.e., “data:”)
+* “mhtml:”
+* <% %>
+* \[\\S+\]
+* Mask property (i.e., “mask:”)
 * Dynamic expressions (i.e., expression(...))
