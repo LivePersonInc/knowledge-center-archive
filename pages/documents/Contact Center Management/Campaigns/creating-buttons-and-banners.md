@@ -208,12 +208,12 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 The following are not supported for HTML engagements:
 
 **Tags:**
-* /<script>/
-* /<iframe>/
-* /<object>/ 
-* /<embed>/ 
-* /<style>/ 
-* /<line>/
+* script
+* iframe
+* object 
+* embed
+* style 
+* line
 
 **Attributes/events:**
 * HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
