@@ -319,7 +319,7 @@ Here’s a mapping of the dashboards by topic:
 | Survey Results | Live Chat | Survey Dashboard for Live Chat | Business Activity Dashboard |
 | Survey Results | Messaging | Survey Dashboard for Messaging | New |
 
-## Max \\ Min Agent Load metrics show incorrect value
+## Max/Min Agent Load metrics show incorrect value
 
 ### Type: Bug fix
 
@@ -362,9 +362,9 @@ Here’s a mapping of the dashboards by topic:
 
 The maximum and minimum agent load metrics in the predefined Performance dashboard for Messaging were showing incorrect values (the numbers were divided by 100 to show the value in decimal number instead of percentage). The calculation is now fixed and the values are shown as percentage.
 
-## [WhatsApp][ABC] Support for reply indication on consumer messages 
+## \[WhatsApp\]\[ABC\] Support for reply indication on consumer messages
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -409,11 +409,15 @@ Screenshots
 
 **Image 1:** Consumer replying to previous message
 
+![](/img/week-of-june-3rd-1.png)![](/img/week-of-june-3rd-2.png)
+
 **Image 2:** Agent sees the reply message consumer sends
 
-## [WhatsApp] Add agent name as a prefix to agent messages
+![](/img/week-of-june-3rd-3.png)
 
-### Type: New functionality 
+## \[WhatsApp\] Add agent name as a prefix to agent messages
+
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -452,20 +456,17 @@ Screenshots
 </table>
 </div>
 
-
 Brands now have the ability to choose whether to add the agent’s nickname as a prefix to each message sent to consumers. When enabled, the agent’s nickname will be prefixed in bold with a line break followed by the message when sent to consumer. This feature is disabled by default.
 Please note that once enabled, agent nickname will be presented for both human and bot agents, but won’t be presented for built-in bots such as the auto messages bot and the Post Conversation Survey bot.
 
-{: .notice} 
-**Please note:** This features requires enablement. Please speak to your LivePerson account team for more information. 
+{: .notice}
+**Please note:** This features requires enablement. Please speak to your LivePerson account team for more information.
 
 Screenshots
 
-**Image 1:** Enable agent nickname to be added to agent messages
+**![](/img/week-of-june-3rd-5.png)**
 
-**Image 2:** Agent nickname added as a prefix to agent message
-
-## [ABC][WhatsApp] Add support for consumer to share documents with agent
+## \[ABC\]\[WhatsApp\] Add support for consumer to share documents with agent
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -505,6 +506,7 @@ Screenshots
 </div>
 
 This feature enables consumers to share files with agents beyond the supported audio and image file types. The following file types are supported:
+
 * PDF
 * DOC(X)
 * PPT(X)
@@ -513,17 +515,21 @@ This feature enables consumers to share files with agents beyond the supported a
 The maximum document size is 15MB.
 If consumers share a file that is not one of the supported file types, they will get a notification message saying “Sorry! This brand cannot receive the above message type.”
 
-{: .notice} 
-**Please note:** This features requires enablement. Please speak to your LivePerson account team for more information. 
+{: .notice}
+**Please note:** This features requires enablement. Please speak to your LivePerson account team for more information.
 
 Screenshots
 
 **Image 1:** Consumer shares a file
 
+![](/img/week-of-june-3rd-6.png)![](/img/week-of-june-3rd-7.png)
+
 **Image 2:** Agent receives a file consumer shared
 
-## [ABC] Media files send as text URL when unable to download instead of displaying an error 
+![](/img/week-of-june-3rd-8.png)
 
-### Type: Enhancment 
+## \[ABC\] Media files send as text URL when unable to download instead of displaying an error
+
+### Type: Enhancment
 
 When agent sends consumer media file types such as AR, PNG, JPG/JPEG, etc., the Apple Business Chat Connector will try to download the file and send it to the consumer as an attachment. If there are any issues while sending that as an attachment (i.e. file reaches size limit or network issues), the connector will send the consumer the actual URL as text. This will enable the agent to continue sending the URL to the consumer, allowing the consumer to download the media directly from the URL source.
