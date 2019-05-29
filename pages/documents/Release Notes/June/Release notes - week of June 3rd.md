@@ -120,4 +120,112 @@ Enabled OOTB.
 
 **![](https://lh3.googleusercontent.com/XSAP2wYQW9pXX7_ESqiDp6jx153IshWEt_6bNzfd7hCBWkj0YxxQYkel3x4LssSaAf-xXTBPyIza824zrD6a9hOhFsxi5Cdj-t_PqwBRa6wBLCBCzTv_onIGNfxNr4csTpyN0zdk =507x297)**
 
-### 
+## New Business dashboard for Messaging 
+
+  
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+## Type: New functionality
+
+**Available to all customers?** Y (Report Builder enabled)
+
+The Business dashboard for Messaging allows brands to analyze the consumer journey through messaging campaigns.
+
+Report Builder will now maintain two Business dashboards: Business for Messaging & Business for Live Chat.
+
+In the new dashboard, brands will have the ability to:
+
+* View funnel metrics, conversions and revenue data as they do in the current Business Activity for Live Chat
+* Analyze campaign data at the level of: brand, line of business, campaign, entry point and engagement
+* View out of the box visualizations for conversion, consumer experience and efficiency.
+
+  
+**New Metrics**
+
+| --- | --- |
+| Metric Name | Description |
+| Closed by Consumer Rate | The percentage (%) of conversations closed by the system compared to the total number of closed conversations |
+| Closed by Agent Rate | The percentage (%) of conversations closed by the agent compared to the total number of closed conversations |
+| Closed by System Rate | The percentage (%) of conversations closed by the consumer compared to the total number of closed conversations |
+| Closed Conversations by Online Hour (CCPOH) | CLOSED CONVERSATIONS / ONLINE HOURS |
+| Conversions by Online Hour | The percentage (%) of total conversions after engagement by online hour |
+| Total Direct Revenue Per Online Hour | TOTAL DIRECT REVENUE / ONLINE grouped at the daily hour |
+
+**How to enable :** Enabled OOTB
+
+**Limitations**
+
+* Brand must be actively using web messaging platform
+* Agent and Survey level data is not available within the Business Activity dashboard. This information continues to be available within the Messaging Performance and Agent Activity dashboards.
+
+**Screenshot**
