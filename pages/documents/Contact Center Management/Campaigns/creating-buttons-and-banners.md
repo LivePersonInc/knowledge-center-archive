@@ -209,11 +209,11 @@ The following are not supported for HTML engagements:
 
 **Tags:**
 * <script>
-* <iframe>
-* <object> 
-* <embed> 
-* <style> 
-* <line>
+* /<iframe>
+* /<object> 
+* /<embed> 
+* /<style> 
+* /<line>
 
 **Attributes/events:**
 * HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
