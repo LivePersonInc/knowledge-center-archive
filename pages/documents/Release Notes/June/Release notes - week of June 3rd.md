@@ -120,9 +120,10 @@ Enabled OOTB.
 
 **![](https://lh3.googleusercontent.com/XSAP2wYQW9pXX7_ESqiDp6jx153IshWEt_6bNzfd7hCBWkj0YxxQYkel3x4LssSaAf-xXTBPyIza824zrD6a9hOhFsxi5Cdj-t_PqwBRa6wBLCBCzTv_onIGNfxNr4csTpyN0zdk =507x297)**
 
-## New Business dashboard for Messaging 
+## New Business dashboard for Messaging
 
-  
+### Type: New functionality
+
 <div class="tablecontainer">
 
 <table class="releasenotes">
@@ -195,8 +196,6 @@ Enabled OOTB.
 
 </div>
 
-## Type: New functionality
-
 **Available to all customers?** Y (Report Builder enabled)
 
 The Business dashboard for Messaging allows brands to analyze the consumer journey through messaging campaigns.
@@ -209,8 +208,8 @@ In the new dashboard, brands will have the ability to:
 * Analyze campaign data at the level of: brand, line of business, campaign, entry point and engagement
 * View out of the box visualizations for conversion, consumer experience and efficiency.
 
-  
 **New Metrics**
+
 | Metric Name | Description |
 | --- | --- |
 | Closed by Consumer Rate | The percentage (%) of conversations closed by the system compared to the total number of closed conversations |
@@ -228,3 +227,5 @@ In the new dashboard, brands will have the ability to:
 * Agent and Survey level data is not available within the Business Activity dashboard. This information continues to be available within the Messaging Performance and Agent Activity dashboards.
 
 **Screenshot**
+
+![](/img/RB3.2-2.png)
