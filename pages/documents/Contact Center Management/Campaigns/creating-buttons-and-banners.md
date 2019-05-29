@@ -9,10 +9,10 @@ level3: ''
 permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 10:55:35 +0000
+date: '2019-01-28T10:55:35.000+00:00'
 redirect_from:
-  - html-engagement-unsupported-elements.html
-  - html_engagement.html
+- html-engagement-unsupported-elements.html
+- html_engagement.html
 
 ---
 ## Choosing your engagement type
@@ -195,10 +195,41 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 </ul>
 </div>
 
-## Supported Actions
+## Supported actions
 
 | Action | Supported Formats | Description | LiveEngage Code |
 | --- | --- | --- | --- |
 | Click | Overlay and embedded | Adds a click action to content engagements. | data-LP-event = "click" |
 | Click to chat | Overlay and embedded | Adds a click action to content engagements. When clicked opens a chat window. | data-LP-event = "click" |
 | Close | Overlay only | Adds a close engagement action to content and chat engagements. | data-LP-event = "close" |
+
+## Unsupported elements and attributes
+
+The following are not supported for HTML engagements:
+
+**Tags:**
+
+* <script>
+* <iframe>
+* <object> 
+* <embed> 
+* <style> 
+* <line>
+
+**Attributes/events:**
+
+* HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
+* dirname 
+* srcdoc 
+* begin 
+* to
+
+**Attribute values containing:**
+
+* “javascript:” 
+* data URIs (i.e., “data:”) 
+* “mhtml:” 
+* <% %> 
+* \[\\S+\] 
+* Mask property (i.e., “mask:”) 
+* Dynamic expressions (i.e., expression(...))
