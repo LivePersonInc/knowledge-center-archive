@@ -33,6 +33,7 @@ With button refresh, brands have the ability to refresh the state of the engagem
 ![](/img/refresh.jpg)
 
 **Limitations:**
+
 1. Refresh engagement is not available for proactive/offsite/messaging engagements.
 2. The refresh process will never remove engagements from a page. It will only change its state, e.g., offline to online and vice versa.
 3. As this feature is constantly checking the availability of the engagement, when the availability changes, this could cause the engagement to flicker.
