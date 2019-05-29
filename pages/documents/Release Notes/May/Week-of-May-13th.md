@@ -147,6 +147,9 @@ The time on average taken by an agent to respond to a consumer from the time the
 
 The time on average taken by an agent to respond to consumer message from the time the agent is assigned to the conversation.
 
+{: .notice}  
+Agent group pre filter needs to be enabled by LivePerson
+
 ## Support for TLS 1.2
 
 ### Type: New functionality
