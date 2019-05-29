@@ -8,10 +8,9 @@ level3: ''
 permalink: contact-center-management-messaging-operations-transfer-to-agent.html
 isTutorial: false
 isNew: false
-date: 2019-03-26 14:17:05 +0000
+date: '2019-03-26T14:17:05.000+00:00'
 
 ---
-
 ## Introduction
 
 The transfer to agent capability enables agents, agent managers and bots to transfer a messaging conversation to a specific agent, chosen by the transferring agent. Brands will be able to configure the skills, states, and overall behavior of the transferred conversation.
@@ -107,7 +106,7 @@ To configure this feature please contact your LivePerson representative.
 
 ## Fallback to skill
 
-Brands will be able to define how long conversations will wait for the destination agent to accept them (whether manually accepting them or by auto accept) before the conversation will be routed to any other available agent on the destination skill. The wait time is measured from the moment of transfer. This setting will be available on the account and skill level.
+Brands will be able to define how long conversations will wait for the destination agent to accept them (whether manually accepting them or by auto accept) before the conversation will be routed to any other available agent on the destination skill. The wait time is measured from the moment of transfer and limited to a maximum of 21 days. This setting will be available on the account and skill level.
 
 ### Account level configuration
 
