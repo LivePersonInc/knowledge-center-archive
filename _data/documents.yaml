@@ -261,18 +261,21 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
     - subcategoryname: January 2019
-    - subcategoryname: December 2018
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: 2019
       pages:
+        - pagename: June
+          level3:
+            - level3name: Week of June 3rd
         - pagename: May
           level3:
             - level3name: Week of May 27th
@@ -301,12 +304,6 @@
             - level3name: Week of January 28th
             - level3name: Week of January 20th
             - level3name: Week of January 14th
-    - subcategoryname: 2018
-      pages:
-        - pagename: December
-          level3:
-            - level3name: Week of December 17th
-            - level3name: Week of December 2nd
 
 
 - categoryname: Troubleshooting
