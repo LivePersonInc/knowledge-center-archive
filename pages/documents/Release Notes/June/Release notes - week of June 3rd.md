@@ -8,6 +8,7 @@ level3: ''
 permalink: release-notes-2019-june-week-of-june-3rd.html
 isTutorial: false
 isNew: false
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during May 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -409,6 +410,7 @@ Screenshots
 
 **Image 1:** Consumer replying to previous message
 
+{: .sidebyside}
 ![](/img/week-of-june-3rd-1.png)![](/img/week-of-june-3rd-2.png)
 
 **Image 2:** Agent sees the reply message consumer sends
@@ -522,6 +524,7 @@ Screenshots
 
 **Image 1:** Consumer shares a file
 
+{: .sidebyside}
 ![](/img/week-of-june-3rd-6.png)![](/img/week-of-june-3rd-7.png)
 
 **Image 2:** Agent receives a file consumer shared
