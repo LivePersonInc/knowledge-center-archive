@@ -406,7 +406,7 @@ The maximum and minimum agent load metrics in the predefined Performance dashboa
 
 This feature enables agents to identify whether a message from a consumer is a reply from a previous message. Consumer can send a message replying to a previous message with a text, an image, an audio message or any of the supported documents. If a message from a consumer is a reply to a previous message, the reply message will have a UI reply indication icon showing in the agent workspace. Please note that the agent will only see the reply indicator icon. There is no reference to the actual message that the consumer refers to.
 
-Screenshots
+**Screenshots**
 
 **Image 1:** Consumer replying to previous message
 
@@ -464,7 +464,7 @@ Please note that once enabled, agent nickname will be presented for both human a
 {: .notice}
 **Please note:** This features requires enablement. Please speak to your LivePerson account team for more information.
 
-Screenshots
+**Screenshots**
 
 **![](/img/week-of-june-3rd-5.png)**
 
@@ -520,7 +520,7 @@ If consumers share a file that is not one of the supported file types, they will
 {: .notice}
 **Please note:** This features requires enablement. Please speak to your LivePerson account team for more information.
 
-Screenshots
+**Screenshots**
 
 **Image 1:** Consumer shares a file
 
