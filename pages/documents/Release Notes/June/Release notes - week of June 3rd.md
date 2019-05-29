@@ -311,14 +311,95 @@ In the new dashboard, brands will have the ability to:
 Report Builder predefined dashboards have been enriched and renamed to distinguish between reports containing Messaging data and Live Chat.
 
 Here’s a mapping of the dashboards by topic:
+
 | Topic | Live Chat \\ Messaging | Dashboard Name | OLD name |
 | --- | --- | --- | --- |
 | Campaigns Performance | Live Chat | Business Dashboard for Live Chat | Business Activity Dashboard |
-| Campaigns Performance | Messaging | Business Dashboard for Messaging | **New** |
+| Campaigns Performance | Messaging | Business Dashboard for Messaging | New |
 | Agent Efficiency | Live Chat + Messaging | Agent Activity Dashboard | Not changed |
 | Agent Efficiency | Messaging | Performance Dashboard for Messaging | Messaging Performance Dashboard |
 | Skills Activity | Live Chat | Skill Dashboard for Live Chat | Skill Activity Dashboard |
 | Skills Activity | Live Chat | Operational & Staffing Dashboard for Live Chat | Operational & Staffing Dashboard |
 | Goals tracking | Live Chat + Messaging | Goals Tracker Dashboard | Goals Tracker Dashboard |
 | Survey Results | Live Chat | Survey Dashboard for Live Chat | Business Activity Dashboard |
-| Survey Results | Messaging | Survey Dashboard for Messaging | **New** |
+| Survey Results | Messaging | Survey Dashboard for Messaging | New |
+
+## Max \\ Min Agent Load metrics show incorrect value 
+
+### Type: Bug fix
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers?** Y
+
+The maximum and minimum agent load metrics in the predefined Performance dashboard for Messaging were showing incorrect values (the numbers were divided by 100 to show the value in decimal number instead of percentage). The calculation is now fixed and the values are shown as percentage.
