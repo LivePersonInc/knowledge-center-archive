@@ -1,7 +1,7 @@
 ---
 pagename: Week of May 13th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: Release Notes
 level3: May
