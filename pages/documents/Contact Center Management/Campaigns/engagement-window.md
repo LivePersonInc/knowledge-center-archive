@@ -128,7 +128,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 </ul>
 </div>
 
-## Unsupported elements and attributes
+### Unsupported elements and attributes
 
 The following are not supported for survey headings:
 
