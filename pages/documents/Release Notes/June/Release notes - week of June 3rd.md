@@ -229,3 +229,96 @@ In the new dashboard, brands will have the ability to:
 **Screenshot**
 
 ![](/img/RB3.2-2.png)
+
+## Renaming of predefined dashboards
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers?** Y (Report Builder enabled)
+
+Report Builder predefined dashboards have been enriched and renamed to distinguish between reports containing Messaging data and Live Chat.
+
+Here’s a mapping of the dashboards by topic:
+| Topic | Live Chat \\ Messaging | Dashboard Name | OLD name |
+| --- | --- | --- | --- |
+| Campaigns Performance | Live Chat | Business Dashboard for Live Chat | Business Activity Dashboard |
+| Messaging | Business Dashboard for Messaging | **New** |
+| Agent Efficiency | Live Chat + Messaging | Agent Activity Dashboard | Not changed |
+| Messaging | Performance Dashboard for Messaging | Messaging Performance Dashboard |
+| Skills Activity | Live Chat | Skill Dashboard for Live Chat | Skill Activity Dashboard |
+| Live Chat | Operational & Staffing Dashboard for Live Chat | Operational & Staffing Dashboard |
+| Goals tracking | Live Chat + Messaging | Goals Tracker Dashboard | Goals Tracker Dashboard |
+| Survey Results | Live Chat | Survey Dashboard for Live Chat | Business Activity Dashboard |
+| Messaging | Survey Dashboard for Messaging | **New** |
