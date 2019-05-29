@@ -211,9 +211,8 @@ In the new dashboard, brands will have the ability to:
 
   
 **New Metrics**
-
-| --- | --- |
 | Metric Name | Description |
+| --- | --- |
 | Closed by Consumer Rate | The percentage (%) of conversations closed by the system compared to the total number of closed conversations |
 | Closed by Agent Rate | The percentage (%) of conversations closed by the agent compared to the total number of closed conversations |
 | Closed by System Rate | The percentage (%) of conversations closed by the consumer compared to the total number of closed conversations |
