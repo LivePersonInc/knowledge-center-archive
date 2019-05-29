@@ -314,11 +314,11 @@ Here’s a mapping of the dashboards by topic:
 | Topic | Live Chat \\ Messaging | Dashboard Name | OLD name |
 | --- | --- | --- | --- |
 | Campaigns Performance | Live Chat | Business Dashboard for Live Chat | Business Activity Dashboard |
-| Messaging | Business Dashboard for Messaging | **New** |
+| Campaigns Performance | Messaging | Business Dashboard for Messaging | **New** |
 | Agent Efficiency | Live Chat + Messaging | Agent Activity Dashboard | Not changed |
-| Messaging | Performance Dashboard for Messaging | Messaging Performance Dashboard |
+| Agent Efficiency | Messaging | Performance Dashboard for Messaging | Messaging Performance Dashboard |
 | Skills Activity | Live Chat | Skill Dashboard for Live Chat | Skill Activity Dashboard |
-| Live Chat | Operational & Staffing Dashboard for Live Chat | Operational & Staffing Dashboard |
+| Skills Activity | Live Chat | Operational & Staffing Dashboard for Live Chat | Operational & Staffing Dashboard |
 | Goals tracking | Live Chat + Messaging | Goals Tracker Dashboard | Goals Tracker Dashboard |
 | Survey Results | Live Chat | Survey Dashboard for Live Chat | Business Activity Dashboard |
-| Messaging | Survey Dashboard for Messaging | **New** |
+| Survey Results | Messaging | Survey Dashboard for Messaging | **New** |
