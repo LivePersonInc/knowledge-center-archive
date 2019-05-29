@@ -1,10 +1,10 @@
 ---
 pagename: Week of June 3rd
-categoryName: Getting started
+categoryName: Release notes
 subCategoryName: ''
-indicator: chat
+indicator: both
 subtitle: ''
-level3: ''
+level3: June
 permalink: release-notes-2019-june-week-of-june-3rd.html
 isTutorial: false
 isNew: false
