@@ -1,5 +1,5 @@
 ---
-pagename: 'Predefined content overview '
+pagename: 'Predefined Content overview '
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: both
