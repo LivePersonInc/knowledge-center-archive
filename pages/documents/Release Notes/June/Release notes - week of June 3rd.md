@@ -8,7 +8,6 @@ level3: ''
 permalink: release-notes-2019-june-week-of-june-3rd.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during May 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -18,9 +17,9 @@ These release notes include new features arriving to LiveEngage during May 2019.
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-### New dashboard for analyzing survey results for Messaging in Report Builder
+## New dashboard for analyzing survey results for Messaging in Report Builder
 
-### Type: New functionality
+## Type: New functionality
 
 <div class="tablecontainer">
 
@@ -110,15 +109,17 @@ The new dashboard contains a tab named ‘Survey Data Export’ including 5 pane
 
 The removal of the survey data from the Messaging Performance dashboard will allow to improve the loading time and optimize performance of this dashboard.
 
+**Please note:**
+
+The predefined metrics (CSAT, FCR, NPS and also MCS) will continue to be available in the predefined Performance dashboard for Messaging.
+
+This change will not impact user copies of the Performance dashboard for Messaging created before the removal of the survey data. User copies will continue to work and hold the survey metrics after change the predefined dashboard. Users who made changes to the predefined will be able to continue to use their copy and in parallel use the predefined dashboards for new metrics (such as segments, coming out next month).
+
 More info on reporting on PCS can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html).
 
 **How to enable**
 
 Enabled OOTB.
-
-**Screenshots**
-
-**![](https://lh3.googleusercontent.com/XSAP2wYQW9pXX7_ESqiDp6jx153IshWEt_6bNzfd7hCBWkj0YxxQYkel3x4LssSaAf-xXTBPyIza824zrD6a9hOhFsxi5Cdj-t_PqwBRa6wBLCBCzTv_onIGNfxNr4csTpyN0zdk =507x297)**
 
 ## New Business dashboard for Messaging
 
