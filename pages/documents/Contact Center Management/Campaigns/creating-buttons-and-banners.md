@@ -208,7 +208,6 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 The following are not supported for HTML engagements:
 
 **Tags:**
-
 * <script>
 * <iframe>
 * <object> 
@@ -217,7 +216,6 @@ The following are not supported for HTML engagements:
 * <line>
 
 **Attributes/events:**
-
 * HTML DOM Events such as onClick, onFocus, onKeyDown, etc. 
 * dirname 
 * srcdoc 
@@ -225,7 +223,6 @@ The following are not supported for HTML engagements:
 * to
 
 **Attribute values containing:**
-
 * “javascript:” 
 * data URIs (i.e., “data:”) 
 * “mhtml:” 
