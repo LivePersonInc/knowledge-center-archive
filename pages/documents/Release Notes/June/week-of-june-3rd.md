@@ -362,7 +362,7 @@ Here’s a mapping of the dashboards by topic:
 
 The maximum and minimum agent load metrics in the predefined Performance dashboard for Messaging were showing incorrect values (the numbers were divided by 100 to show the value in decimal number instead of percentage). The calculation is now fixed and the values are shown as percentage.
 
-## \[WhatsApp\]\[ABC\] Support for reply indication on consumer messages
+## \[WhatsApp\] Support for reply indication on consumer messages
 
 ### Type: New functionality
 
@@ -390,7 +390,7 @@ The maximum and minimum agent load metrics in the predefined Performance dashboa
 <td>No</td>
 <td>No</td>
 <td>No</td>
-<td>Yes</td>
+<td>No</td>
 <td>No</td>
 <td>No</td>
 <td>No</td>
