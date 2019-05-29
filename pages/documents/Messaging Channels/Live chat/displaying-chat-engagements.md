@@ -8,12 +8,13 @@ level3: ''
 permalink: messaging-channels-live-chat-displaying-chat-engagements.html
 isTutorial: false
 isNew: false
-date: 2019-01-29 15:20:57 +0000
+date: '2019-01-29T15:20:57.000+00:00'
 redirect_from:
-  - deleting-offsite.html
-  - disable-offsite-engagement.html
-  - unpublish-offsite-campaign.html
-  - offline-site-survey.html
+- deleting-offsite.html
+- disable-offsite-engagement.html
+- unpublish-offsite-campaign.html
+- offline-site-survey.html
+
 ---
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
 
@@ -29,12 +30,16 @@ There are three states for a chat engagement: Online, Busy and Offline. Each sta
 
 With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. The default setting for this feature is disabled. When enabled, the default setting is 120 seconds. Brands can configure the engagement to refresh at the following interval settings: 30, 60, 90, 120, 150, 180, 240 and 300 seconds.
 
-**Note:**
+![](/img/refresh.jpg)
 
+**Limitations:**
 1. Refresh engagement is not available for proactive/offsite/messaging engagements.
 2. The refresh process will never remove engagements from a page. It will only change its state, e.g., offline to online and vice versa.
 3. As this feature is constantly checking the availability of the engagement, when the availability changes, this could cause the engagement to flicker.
 4. This feature does not apply if the engagement does not have an offline or busy state.
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information please contact your LivePerson account team.
 
 ### 3. Multiple engagements on the same page
 
