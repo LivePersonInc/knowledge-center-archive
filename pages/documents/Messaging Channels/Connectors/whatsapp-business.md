@@ -26,6 +26,8 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 * **Free and easy to use** — WhatsApp is free to use and works on Wi-Fi or cellular data for added accessibility.
 * **Enhanced security** — End-to-end encryption provides an additional layer of security, giving consumers added peace of mind.
 
+[Click here](messaging-channels-messaging-channels-capabilities-comparison.html) to see which capabilities are supported for WhatsApp Business. 
+
 ## How conversations start
 
 ### IVR deflection:
