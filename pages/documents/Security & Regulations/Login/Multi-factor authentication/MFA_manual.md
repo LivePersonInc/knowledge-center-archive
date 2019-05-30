@@ -49,11 +49,11 @@ LiveEngage will provide the user with an input area where they should submit the
 
 A time-based one-time password (TOTP) application automatically generates an authentication code that changes after a certain period of time. We recommend using cloud-based TOTP apps such as:
 
-* Google Authenticator [Apple App Store](https://itunes.apple.com/app/google-authenticator/id388497605?mt=8), [Google Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+* Google Authenticator ([App Store](https://itunes.apple.com/app/google-authenticator/id388497605?mt=8) / [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2))
 
-* [Authy](https://authy.com/download/)
+* Authy ([App Store](https://itunes.apple.com/us/app/authy/id494168017) / [Google Play](https://play.google.com/store/apps/details?id=com.authy.authy))
 
-* [Okta Verify](https://help.okta.com/en/prod/Content/Topics/Mobile/Okta_Verify_Using.htm)
+* Okta Verify ([App Store](https://itunes.apple.com/us/app/okta-verify/id490179405?mt=8) / [Google Play](https://play.google.com/store/apps/details?id=com.okta.android.auth&hl=en))
 
 ## FAQs
 
