@@ -411,8 +411,7 @@ This feature enables agents to identify whether a message from a consumer is a r
 
 {: .sidebyside}
 
-
-![](/img/week-of-june-3rd-2.png)
+![](/img/week-of-june-3rd-1.png)![](/img/week-of-june-3rd-2.png)
 
 **Image 2:** Agent sees the reply message consumer sends
 
@@ -467,7 +466,7 @@ Please note that once enabled, agent nickname will be presented for both human a
 
 **Screenshots**
 
-**![](/img/week-of-june-3rd-5.png)**
+![](/img/week-of-june-3rd-1.png)
 
 ## \[ABC\]\[WhatsApp\] Add support for consumer to share documents with agent
 
