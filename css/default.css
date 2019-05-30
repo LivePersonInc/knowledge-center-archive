@@ -625,7 +625,6 @@ ul.mysidebar.nav > li:first-of-type {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  line-height: 2.3;
 }
 
 .categorylist {
