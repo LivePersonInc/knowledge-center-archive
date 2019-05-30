@@ -246,7 +246,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-      - featureName: File sharing - agent to consumer
+    - featureName: File sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Coming Q2"
     - webMessaging: "Supported"
