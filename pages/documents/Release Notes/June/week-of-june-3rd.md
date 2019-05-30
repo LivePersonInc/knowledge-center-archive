@@ -410,7 +410,9 @@ This feature enables agents to identify whether a message from a consumer is a r
 **Image 1:** Consumer replying to previous message
 
 {: .sidebyside}
-![](/img/week-of-june-3rd-1.png)![](/img/week-of-june-3rd-2.png)
+
+
+![](/img/week-of-june-3rd-2.png)
 
 **Image 2:** Agent sees the reply message consumer sends
 
