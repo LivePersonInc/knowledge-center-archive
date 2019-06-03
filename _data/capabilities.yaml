@@ -145,7 +145,7 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-  - featureName: Accessbility
+  - featureName: Accessibility
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
@@ -226,10 +226,10 @@
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
-    - appleBusinessChat: "Coming Q2"
+    - appleBusinessChat: "Supported"
     - sms: "N/A in channel"
     - facebook: "Not Supported"
-    - whatsapp: "Coming Q2"
+    - whatsapp: "Supported"
     - googleRCS: "N/A in channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
@@ -248,12 +248,12 @@
     - connectorAPI: "N/A in Channel"
   - featureName: File sharing - agent to consumer
     channels:
-    - mobileAppMessaging: "Coming Q2"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
-    - appleBusinessChat: "Coming Q2"
+    - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
-    - whatsapp: "Coming Q2"
+    - whatsapp: "Supported"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
