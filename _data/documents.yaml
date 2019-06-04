@@ -217,7 +217,7 @@
       pages:
         - pagename: Set the agent group hierarchy
         - pagename: Lines of Business (LoB)
-        - pagename: Connect visitors to Agents by skills
+        - pagename: Connect visitors to agents by skills
     - subcategoryname: Permissions
       pages:
         - pagename: Assign permissions
