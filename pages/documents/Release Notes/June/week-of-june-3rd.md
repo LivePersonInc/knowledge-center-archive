@@ -113,7 +113,7 @@ The predefined metrics (CSAT, FCR, NPS and also MCS) will continue to be availab
 
 This change will not impact user copies of the Performance dashboard for Messaging created before the removal of the survey data. User copies will continue to work and hold the survey metrics after change the predefined dashboard. Users who made changes to the predefined will be able to continue to use their copy and in parallel use the predefined dashboards for new metrics (such as segments, coming out next month).
 
-More info on reporting on PCS can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html).
+More info on reporting on PCS can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html).
 
 **How to enable**
 
