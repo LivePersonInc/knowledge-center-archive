@@ -150,7 +150,7 @@
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined content overview
-        - pagename: Creating Predefined Content 
+        - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
 
@@ -261,7 +261,6 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
-    - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
