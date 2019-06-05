@@ -9,6 +9,7 @@ permalink: contact-center-management-messaging-operations-transfer-to-agent.html
 isTutorial: false
 isNew: false
 date: '2019-03-26T14:17:05.000+00:00'
+published: false
 
 ---
 ## Introduction
