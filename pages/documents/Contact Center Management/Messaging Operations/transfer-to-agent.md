@@ -53,7 +53,7 @@ Once they click on the tab, a list of optional destination agents will be shown.
 
 ## Destination agents list
 
-Only agents in states for which the transferring agent has permissions will appear in the destination agents list.
+Only agents in states for which the transferring agent has permissions will appear in the destination agents list. The destination user must be assigned the agent role in order to appear in the destination agents list. Additionally, they must have messaging concurrency configured (with max no. of messaging conversations set to >0). 
 
 In addition, the list will only contain agents who are assigned to skills that the current skill of the conversation is set to transfer to, according to the following existing setting:
 
