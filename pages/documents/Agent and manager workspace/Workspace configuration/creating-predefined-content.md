@@ -1,8 +1,8 @@
 ---
 pagename: Creating Predefined Content
-categoryName: Getting started
-subCategoryName: ''
-indicator: chat
+categoryName: Agent & manager workspace
+subCategoryName: Workspace configuration
+indicator: both
 subtitle: ''
 level3: ''
 permalink: agent-manager-workspace-workspace-configuration-creating-predefined-content.html
