@@ -274,6 +274,7 @@
       pages:
         - pagename: June
           level3:
+            - level3name: Week of June 9th          
             - level3name: Week of June 3rd
         - pagename: May
           level3:
