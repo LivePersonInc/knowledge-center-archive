@@ -15,7 +15,7 @@ WeChat serves 1 billion monthly active users, mostly in China, making it one of 
 
 ## Why use WeChat Business to connect with your consumers?
 
-* **Official business account** — Brands can register for an official business account, allowing them to interact with and provide service to subscribers.
+* **Official business account** — Brands can register for an Official Service Account, allowing them to interact with and provide service to subscribers. 
 * **Rich messaging** — Features like consumer-to-agent image and audio messaging provide an enriched messaging experience for consumers.
 * **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
 * **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
@@ -25,7 +25,7 @@ WeChat serves 1 billion monthly active users, mostly in China, making it one of 
 
 ## How conversations start
 
-Brands must apply for an Official Account through WeChat and wait for approval. If your brand does not already have an Official Service Account they will need to reach out to an agency to start the process of acquiring one.
+Brands can communicate with consumers through an Official Service Account. If your brand does not already have an Official Service Account they will need to reach out to an agency to start the process of acquiring one. 
 
 Official Accounts can receive and send messages only with followers of their account. LivePerson supports WeChat customer service messages. These are messages sent by consumers to an Official Service Account, initiating a conversation. Users can begin messaging Official Accounts from multiple entry points, including QR codes and through the WeChat contact search. Brands can reply within 48 hours of the last consumer interaction.
 
