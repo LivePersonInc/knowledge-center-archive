@@ -9,7 +9,7 @@ level3: ''
 permalink: ai-bots-automation-how-bots-work-with-liveperson.html
 isTutorial: true
 isNew: false
-date: 2019-01-23T13:49:32.000+00:00
+date: '2019-01-23T13:49:32.000+00:00'
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312512034" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -54,4 +54,8 @@ Bots can have a dramatic impact on contact center operations, helping brands to:
 * **Enrich the consumer experience with structured content** — Pre-built templates and content make bots friendly and efficient for consumers. They provide clear communication with bots, so commands are more easily understood and responses are more accurate.
 * **Meet consumer expectations for an always-on service** — Your consumers are connected 24/7 and expect your brand to be the same. Bots can step in at any time of day to field questions and offer round-the-clock assistance whenever your consumers need it.
 
-Read [Forrester report: Use Automation, AI and Chatbots to Improve Customer Engagements ](https://liveperson.docsend.com/view/i7c2a2m)to see how bots help companies meet high consumer demands while gaining powerful insights on interactions. 
+Read [Forrester report: Use Automation, AI and Chatbots to Improve Customer Engagements ](https://liveperson.docsend.com/view/i7c2a2m)to see how bots help companies meet high consumer demands while gaining powerful insights on interactions.
+
+## Bot connectors
+
+External bot frameworks and bot builders can be enabled and managed through LiveEngage just like a normal human agent. Using the Bot connector dashboard, you can  provision a bot connector for IBM Watson, Google Dialogflow, and Amazon Lex. For more details on bot connectors, please visit the [developers community.](https://developers.liveperson.com/bot-connectors-getting-started.html#provision-connector-in-the-bot-connector-dashboard)
