@@ -19,6 +19,8 @@ WeChat serves 1 billion monthly active users, mostly in China, making it one of 
 * **Rich messaging** — Features like consumer-to-agent image and audio messaging provide an enriched messaging experience for consumers.
 * **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
 * **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
+* **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey. 
+
 
 {: .sidebyside}
 ![](/img/wechat-1.jpg)![](/img/wechat-2.jpg)![](/img/wechat-3.jpg)
