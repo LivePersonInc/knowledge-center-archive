@@ -13,7 +13,7 @@ date: 2019-01-15 11:35:30 +0000
 ---
 ## Real time data bar
 
-As an agent manager, you want to have an overall picture of how your agents are performing at any given time. The data bar provides you with a snapshot of the basic information you need to track agent efficiency and operational performance.
+The data bar provides you with a snapshot of the basic information that agent and agent manager needs to track for efficiency and operational performance. Agents see their own data and agent managers see data for their team. "Actionable" and "In Queue" (formerly Unassigned) are visible to agent managers only.
 
 ![](/img/Real-time-data-bar-CSAT.png)
 
@@ -25,7 +25,9 @@ As an agent manager, you want to have an overall picture of how your agents are 
 
 **SOON TO BE OVERDUE** - displays the total number of conversations about to exceed the target response time in 5 minutes.
 
-**UNASSIGNED** - displays the total number of conversations that are waiting to be assigned to an agent.
+**ACTIONABLE** - the actionable conversations are those in the queue that are pending immediate agent response.
+
+**IN QUEUE** - displays the total number of conversations that are waiting to be assigned to an agent.
 
 **CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours. The calculation is (Total number of positive answers) / (Total number of answers). The data is retrieved from LivePerson's [Messaging Operations API](https://developers.liveperson.com/messaging-operations-api-overview.html).
 
