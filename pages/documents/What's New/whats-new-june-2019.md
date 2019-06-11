@@ -9,10 +9,11 @@ level3: ''
 permalink: whats-new-june-2019.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
+
+![](/img/02_EmailThumbnail_Mai19-1.jpg)
 
 **Engagement window enhancements**
 
