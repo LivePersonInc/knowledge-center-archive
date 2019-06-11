@@ -13,7 +13,7 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
-![vimeo.com/341551856/c6cdbb685a](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/GIFs+for+Newsletters/Newsletter+June+GIF+.gif)
+![https://vimeo.com/341551856/c6cdbb685a](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/GIFs+for+Newsletters/Newsletter+June+GIF+.gif)
 
 ## Engagement window enhancements
 
