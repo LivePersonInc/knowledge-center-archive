@@ -135,6 +135,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/June/Week-of-june-17th.md
 - pages/documents/What's New/whats-new-june-2019.md
 - pages/documents/Messaging Channels/Connectors/wechat-business.md
 - pages/documents/Release Notes/June/Release-notes--week-of-june-9th.md
