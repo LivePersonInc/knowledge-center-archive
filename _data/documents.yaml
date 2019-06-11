@@ -252,7 +252,10 @@
     - subcategoryname: Login
       pages:
         - pagename: SSO unified login
-        - pagename: Multi-factor authentication
+        - pagename: "Multi-factor authentication"
+          level3:
+          - level3name: Overview
+          - level3name: User manual
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 

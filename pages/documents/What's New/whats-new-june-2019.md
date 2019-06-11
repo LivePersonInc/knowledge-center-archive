@@ -27,7 +27,7 @@ You will be able to tailor your queue prioritization business rules based on aut
 
 To expand the availability of web messaging to your customers, you will be able to embed a link to launch web messaging from any location and through any media including, email, digital advertising or social media sites. All you need to do is create a URL or QR code, plug it anywhere and consumers can click to start messaging.
 
-## Conversation Builder: Third party NLU
+## Third party NLU with the Conversation Builder
 
 The Conversation Builder has been enhanced allowing you to build conversations using third party NLU engines such as Watson or Dialog Flow. This means that you will be able to utilize the Conversation Builder and all its design tools to create bots in different languages.
 
@@ -41,7 +41,7 @@ You can create an interaction through Bot Automation that enables visitors to au
 
 Agents assisting consumers using coBrowse, will now have better visibility through the ‘full screen mode’. This mode enables agents to expand the view of their consumers screen. In this mode, agents will continue to receive notifications for ongoing conversations.
 
-## Report Builder: New Business Dashboard for Messaging
+## New Business Dashboard for Messaging in the Report Builder
 
 This new dashboard will appear as a new predefined dashboard in Report Builder called “Business Dashboard for Messaging”
 
@@ -68,21 +68,19 @@ Data Transporter will provide you with the ability to choose a custom filename t
 
 ![](/img/WNJune Data transporter.png)
 
-## \[FaaS\] Scheduled Function Execution
+## Scheduled Function Execution in FaaS
 
 Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance. Until now, functions could only be triggered by the occurrence of defined LiveEngage event.
 
-## Embedded secure form - Apple Business Chat
+## Embedded secure form for Apple Business Chat 
 
 Brands who use LivePerson’s ABC SDK will now have the secure forms embedded into the Messages thread instead of being opened in a browser.
 
 The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image, image subtitle and image title.
 
-## File sharing (consumer to agent & agent to consumer) - ABC, WhatsApp
+## File sharing (consumer to agent & agent to consumer) for Apple Business Chat & WhatsApp
 
-Empowers consumers and agents to share files with each other to complete business flows end-to-end within ABC and WhatsApp conversations, reducing time to resolution.
-
-Files are hosted by LP and stored for 13 months.
+Empowers consumers and agents to share files with each other to complete business flows end-to-end within Apple Business Chat (ABC) & WhatsApp conversations, reducing time to resolution. By sharing files such as PDFs, you can serve more use cases such as sending and receiving forms, signing contracts and more - directly within WhatsApp or ABC conversations.
 
 ![](https://lh6.googleusercontent.com/phvdoVT7QeoBm4ZB5dBe4o01hq0X-MReML7BfDkCF3feXtFqywy2Lsu6bIHL1bQO1c3AoJWzfp7a0Al0-lYgeBUnD4UETm2Wvvq7Mo4QRg6PSK39uUmzfHJaP7zSiqNXb2COhWqJ =169x331)
 
@@ -96,8 +94,6 @@ Facebook Handover Protocol enables two or more apps to participate in a conversa
 
 This feature makes it possible to simultaneously use a 3rd party bot, outside of LiveEngage, for handling automated responses, and use LiveEngage for customer service with human agents.
 
-## Sunset of BI reporting
+## Mutual TLS Proxy self service using API
 
-Please note, in August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
-
-Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. For an overview of Report Builder, please [click here.](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html)
+Mutual TLS Proxy self service allows admins to upload and manage MTLS certificates for multiple services through self-service, using an API. Mutual TLS self service helps decrease the response time, and reduce the LivePerson support time spent on configuration.
