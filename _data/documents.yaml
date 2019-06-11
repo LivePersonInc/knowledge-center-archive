@@ -34,6 +34,7 @@
     - subcategoryname: WhatsApp Business
     - subcategoryname: Google My Business
     - subcategoryname: Line connector
+    - subcategoryname: WeChat Business
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
@@ -264,6 +265,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
@@ -277,6 +279,7 @@
       pages:
         - pagename: June
           level3:
+            - level3name: Week of June 9th          
             - level3name: Week of June 3rd
         - pagename: May
           level3:
