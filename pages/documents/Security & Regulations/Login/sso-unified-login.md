@@ -1,15 +1,14 @@
 ---
 pagename: SSO unified login
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Login
 indicator: both
 subtitle: " Authenticate once to seamlessly access the LivePerson platform"
 level3: ''
-permalink: security-regulations-sso-unified-login.html
+permalink: security-regulations-login-sso-unified-login.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 12:23:19 +0000
-
 ---
 The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to [authenticate]( https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html) once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 

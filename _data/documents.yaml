@@ -248,7 +248,10 @@
       pages:
         - pagename: Secure forms for messaging user guide
         - pagename: Secure forms for chat user guide
-    - subcategoryname: SSO unified login
+    - subcategoryname: Login
+      pages:
+        - pagename: SSO unified login
+        - pagename: Multi-factor authentication
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 
