@@ -1,7 +1,7 @@
 ---
 pagename: Week of June 9th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: June
