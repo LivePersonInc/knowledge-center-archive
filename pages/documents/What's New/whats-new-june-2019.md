@@ -72,7 +72,7 @@ Data Transporter will provide you with the ability to choose a custom filename t
 
 Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance. Until now, functions could only be triggered by the occurrence of defined LiveEngage event.
 
-## Embedded secure form for Apple Business Chat 
+## Embedded secure form for Apple Business Chat
 
 Brands who use LivePerson’s ABC SDK will now have the secure forms embedded into the Messages thread instead of being opened in a browser.
 
@@ -97,3 +97,9 @@ This feature makes it possible to simultaneously use a 3rd party bot, outside of
 ## Mutual TLS Proxy self service using API
 
 Mutual TLS Proxy self service allows admins to upload and manage MTLS certificates for multiple services through self-service, using an API. Mutual TLS self service helps decrease the response time, and reduce the LivePerson support time spent on configuration.
+
+## Sunset of BI Reporting
+
+In August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
+
+Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. For an overview of Report Builder, please [click here.](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html) If you have questions, please send an email to [bi-eol-questions-lp@liveperson.com](mailto:bi-eol-questions-lp@liveperson.com)![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
