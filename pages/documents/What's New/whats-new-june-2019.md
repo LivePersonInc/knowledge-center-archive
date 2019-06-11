@@ -62,3 +62,43 @@ The new metrics and new skill/agent segment level visualizations will be availab
 **Time zone support for Survey dashboard in live chat (chat only)**
 
 Report Builder users can change the time zone of the Survey predefined dashboard to analyze performance in their local time.
+
+**Data Transporter for custom formats**
+
+Data Transporter will provide you with the ability to choose a custom filename that can be made up of static text or dynamic elements. Additionally, Data Transporter will provide alternative options to remove the limitations of two strings that are concatenated for certain reports (i.e. instead of "::", a brand could choose "||", for example)
+
+![](https://lh6.googleusercontent.com/NCyfv12q8ZjbyZlnvofZnIRnCGW2Ls-tSwLx4E2uLh8a_Jd5dQrSofHYZ8l8SFD-vio2YvHMnxM3-FqyyiFNQF5vH2ixyT0rzM_l8b4NBdSOu3sKjbJ20rObhmVwXel4ja-jL065 =393x296)
+
+**\[FaaS\] Scheduled Function Execution**
+
+Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance. Until now, functions could only be triggered by the occurrence of defined LiveEngage event.
+
+**Embedded secure form - Apple Business Chat**
+
+Brands who use LivePerson’s ABC SDK will now have the secure forms embedded into the Messages thread instead of being opened in a browser.
+
+The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image, image subtitle and image title.
+
+**File sharing (consumer to agent & agent to consumer) - ABC, WhatsApp**
+
+Empowers consumers and agents to share files with each other to complete business flows end-to-end within ABC and WhatsApp conversations, reducing time to resolution.
+
+Files are hosted by LP and stored for 13 months.
+
+![](https://lh6.googleusercontent.com/phvdoVT7QeoBm4ZB5dBe4o01hq0X-MReML7BfDkCF3feXtFqywy2Lsu6bIHL1bQO1c3AoJWzfp7a0Al0-lYgeBUnD4UETm2Wvvq7Mo4QRg6PSK39uUmzfHJaP7zSiqNXb2COhWqJ =169x331)
+
+**Apple Pay enhancements: Response as part of agent widget SDK and Security enhancement**
+
+Currently to use Apple Pay you must have a bot added to the LiveEngage conversation via the Agent SDK. To reduce implementation effort, the ABC Payment response will be added to the Agent Widget SDK. In terms of security, the new flow will provide a way for brands to sign the payload, which will be verified by the connector before sending out to Apple.
+
+**Support for Facebook Handover Protocol**
+
+Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them.
+
+This feature makes it possible to simultaneously use a 3rd party bot, outside of LiveEngage, for handling automated responses, and use LiveEngage for customer service with human agents.
+
+**Sunset of BI reporting**
+
+Please note, in August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
+
+Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. For an overview of Report Builder, please [click here.](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html)
