@@ -3,7 +3,7 @@ pagename: June 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include Queue Prioritization for authenticated consumer attributes
+subtitle: Top features include queue prioritization for authenticated consumer attributes
   and more
 level3: ''
 permalink: whats-new-june-2019.html
@@ -18,6 +18,8 @@ Here is a round-up of the latest features, enhancements and enablements that are
 ## Engagement window enhancements
 
 New elements will be added to the engagement window to give you more flexibility and control over your user experience. This month you will be able to customize your web messaging window further with the ability to set the window size, use customized fonts to align with your website and choose different styles for the minimized window icon. There will also be additional messaging bubbles styles, modern read indication symbols and ability to close the conversation window automatically once the conversation ends.
+
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/GIFs+for+Newsletters/Messaging+window+Gif.gif)
 
 ## Queue prioritization based on authenticated consumer attributes
 
