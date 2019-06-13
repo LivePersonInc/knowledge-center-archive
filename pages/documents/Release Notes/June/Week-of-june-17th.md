@@ -685,7 +685,7 @@ Will be available if MFA is enabled. (Multi-factor authentication section will n
 
 ## Queue prioritization - Priority based on consumer attributes
 
-## Type: Enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 <table class="releasenotes">
