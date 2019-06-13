@@ -17,9 +17,19 @@ These release notes include new features arriving to LiveEngage during June 2019
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Offsite engagements for messaging
+
+### Type: New functionality 
+
+Offsite engagements were available for web chat only until now, and will now be supported for web messaging as well. Brands can offer web messaging by adding an engagement link from any location and through media including: social media sites, email, digital advertising, and more. Brands can use this link anywhere they want to engage with their consumers. When setting up an offsite engagement, brands create a URL that will refer consumers to web messaging. 
+
+Screenshots
+Image 1: Messaging engagement is available from the engagement type dropdown
+
+
 ## Fallback skill per skill
 
-### Type: New feature
+### Type: New functionality
 
 <div class="tablecontainer">
 
