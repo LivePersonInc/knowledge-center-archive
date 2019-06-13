@@ -3,7 +3,7 @@ pagename: June 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include Queue Prioritization for authenticated consumer attributes
+subtitle: Top features include queue prioritization for authenticated consumer attributes
   and more
 level3: ''
 permalink: whats-new-june-2019.html
@@ -13,11 +13,15 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
-![](/img/02_EmailThumbnail_Mai19-1.jpg)
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/GIFs+for+Newsletters/Newsletter+June+GIF+.gif)
+
+Click [here](https://vimeo.com/341551856/c6cdbb685a) to watch the 1 minute video
 
 ## Engagement window enhancements
 
 New elements will be added to the engagement window to give you more flexibility and control over your user experience. This month you will be able to customize your web messaging window further with the ability to set the window size, use customized fonts to align with your website and choose different styles for the minimized window icon. There will also be additional messaging bubbles styles, modern read indication symbols and ability to close the conversation window automatically once the conversation ends.
+
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/GIFs+for+Newsletters/Messaging+window+Gif+(2).gif)
 
 ## Queue prioritization based on authenticated consumer attributes
 
@@ -72,7 +76,7 @@ Data Transporter will provide you with the ability to choose a custom filename t
 
 Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance. Until now, functions could only be triggered by the occurrence of defined LiveEngage event.
 
-## Embedded secure form for Apple Business Chat 
+## Embedded secure form for Apple Business Chat
 
 Brands who use LivePerson’s ABC SDK will now have the secure forms embedded into the Messages thread instead of being opened in a browser.
 
@@ -97,3 +101,9 @@ This feature makes it possible to simultaneously use a 3rd party bot, outside of
 ## Mutual TLS Proxy self service using API
 
 Mutual TLS Proxy self service allows admins to upload and manage MTLS certificates for multiple services through self-service, using an API. Mutual TLS self service helps decrease the response time, and reduce the LivePerson support time spent on configuration.
+
+## Sunset of BI Reporting
+
+In August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
+
+Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. For an overview of Report Builder, please [click here.](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html) If you have questions, please send an email to [bi-eol-questions-lp@liveperson.com](mailto:bi-eol-questions-lp@liveperson.com)![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
