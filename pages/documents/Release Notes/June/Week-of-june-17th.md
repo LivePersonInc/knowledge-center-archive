@@ -8,7 +8,6 @@ level3: June
 permalink: release-notes-2019-june-week-of-june-17th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during June 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
