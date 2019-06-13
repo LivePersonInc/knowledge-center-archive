@@ -419,8 +419,8 @@ Brands can choose from the following options in the “Read Indication” dropdo
 
 **Image 2: Read indication is set to Text/Visual**
 
-![](/img/week-of-june-17th-14.png)
-![](/img/week-of-june-17th-15.png)
+{: .sidebyside}
+![](/img/week-of-june-17th-14.png)![](/img/week-of-june-17th-15.png)
 
 **Image 3:** Visual read indication icons
 
