@@ -9,6 +9,7 @@ permalink: security-regulations-liveperson-support-policy.html
 isTutorial: false
 isNew: false
 date: '2019-04-01T10:50:38.000+00:00'
+published: false
 
 ---
 The LivePerson Customer Support Policy is designed to provide assistance with maximizing the value of your LivePerson products. LivePerson Customer Support provides 24x7 coverage via chat and e-mail, as well as a wealth of self-service resources in the LivePerson Knowledge Center. This document outlines LivePerson support features and processes, and procedures for engaging with the LivePerson Customer Support team.
@@ -90,3 +91,7 @@ The following is a description of LivePerson’s maintenance activities.
 | North America (z1.le.liveperson.net) | Sunday from 3 a.m. to 7 a.m. ET |
 | Europe (z2.le.liveperson.net) | Sunday from 6 a.m. to 10 a.m. GMT |
 | APAC (z3.le.liveperson.net) | Sunday from 9 p.m. to 2 a.m. AEST |
+
+### Unscheduled Maintenance
+On rare occasions, it may be necessary to conduct emergency or unscheduled maintenance activities. In these cases, we will
+give as much advance notice as possible through the Emergency Contact distribution list provided by the customer.
