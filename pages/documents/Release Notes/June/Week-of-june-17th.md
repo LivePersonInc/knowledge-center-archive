@@ -25,14 +25,14 @@ Offsite engagements were available for web chat only until now, and will now be 
 
 **Screenshots**
 
-
 **Image 1:** Messaging engagement is available from the engagement type dropdown
 
 ![](/img/week-of-june-17th-1.png)
 
 **Image 2:** Set up landing page when messaging engagement is inactive
 
-## ![](/img/week-of-june-17th-2.png)  
+## ![](/img/week-of-june-17th-2.png)
+
 Ability to close the window once conversation is closed
 
 ### Type: Enhancement
@@ -41,7 +41,7 @@ Today, once consumers decide to close a conversation, the conversation is closed
 
 This feature provides brands with the ability to set the window behavior so that once the consumers closes the conversation, the window will be either closed automatically or kept open. The default behavior is to keep the window open.
 
-**To enable:** 
+**To enable:**
 
 * Log into [LiveEngage](https://authentication.liveperson.net/)
 * Go to Engagement Window Studio
@@ -63,7 +63,8 @@ This feature provides brands with the ability to set the window behavior so that
 ![](/img/week-of-june-17th-3.png)  
 **Image 2:** Choose “Close window upon end of conversation” behavior
 
-## ![](/img/week-of-june-17th-4.png)  
+## ![](/img/week-of-june-17th-4.png)
+
 Ability to use the webpage font as the window elements font
 
 ### Type: New functionality
@@ -105,7 +106,8 @@ This configuration is available for both chat and web messaging and applies for 
 ![](/img/week-of-june-17th-6.png)  
 **Image 3:** Engagement window inheriting font from webpage with different font than settings
 
-## ![](/img/week-of-june-17th-7.png)  
+## ![](/img/week-of-june-17th-7.png)
+
 New style for agent and consumer bubbles
 
 ### Type: New functionality
@@ -133,7 +135,8 @@ This configuration is available for both chat and web messaging, and for both de
 ![](/img/week-of-june-17th-8.png)  
 **Image 2:** Engagement window with three corner rounded style for visitor bubble and side arrow style for agent bubble
 
-## ![](/img/week-of-june-17th-9.png)  
+## ![](/img/week-of-june-17th-9.png)
+
 Ability to choose the embedded window size
 
 ### Type: New functionality
@@ -166,8 +169,9 @@ This configuration is available for both chat and web messaging, on desktop, and
 ![](/img/week-of-june-17th-10.png)  
 **Image 2:** Small/Large window sizes
 
-## ![](/img/week-of-june-17th-11.png)![](/img/week-of-june-17th-12.png)  
-New read indication style
+## ![](/img/week-of-june-17th-11.png)![](/img/week-of-june-17th-12.png)
+
+## New read indication style
 
 ### Type: New functionality
 
@@ -195,7 +199,12 @@ Brands can choose from the following options in the “Read Indication” dropdo
 ![](/img/week-of-june-17th-13.png)  
 **Image 2: Read indication is set to Text/Visual**
 
-## ![](/img/week-of-june-17th-14.png)![](/img/week-of-june-17th-15.png)  
+## ![](/img/week-of-june-17th-14.png)![](/img/week-of-june-17th-15.png)
+
+**Image 3:** Visual read indication icons
+
+![](/img/Screen Shot 2019-06-13 at 1.09.28 PM.png)
+
 \[ABC\] ApplePay Enhancement Widget
 
 ### Type: Enhancement
@@ -208,7 +217,8 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
-##   
+## 
+
 Facebook Handover Protocol
 
 ### Type: New functionality
@@ -252,10 +262,13 @@ This feature is not available for Internet Explorer 11 users on Windows 7 or 8. 
 
 **Screenshots**
 
+![](/img/CoBrowseFullScreen.gif)
+
 ## Multi-factor authentication - Add ‘reset mfa configuration’ toggle to ‘Edit user’ page
 
-###   
-Type: New functionality 
+### 
+
+Type: New functionality
 
 Self service ability for LE users with the ‘Edit Users’ permission, to activate ‘reset mfa token’ option.
 
