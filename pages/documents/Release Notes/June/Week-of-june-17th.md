@@ -60,7 +60,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 Offsite engagements were available for web chat only until now, and will now be supported for web messaging as well. Brands can offer web messaging by adding an engagement link from any location and through media including: social media sites, email, digital advertising, and more. Brands can use this link anywhere they want to engage with their consumers. When setting up an offsite engagement, brands create a URL that will refer consumers to web messaging.
 
-For more information on offsite engagements and how they are configured, click [here](<div class="tablecontainer"> <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>Twilio</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>WeChat</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> </tr> </tbody> </table> </div>).
+For more information on offsite engagements and how they are configured, click \[here\](<div class="tablecontainer"> <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>Twilio</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>WeChat</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> </tr> </tbody> </table> </div>).
 
 **Screenshots**
 
@@ -639,7 +639,7 @@ This feature is not available for Internet Explorer 11 users on Windows 7 or 8. 
 
 **Screenshots**
 
-![](/img/CoBrowseFullScreen.gif)
+![](/img/CoBrowseFullScreen-1.gif)
 
 ## Multi-factor authentication - Add ‘reset mfa configuration’ toggle to ‘Edit user’ page
 
