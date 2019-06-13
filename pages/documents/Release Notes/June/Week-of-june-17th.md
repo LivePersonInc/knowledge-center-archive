@@ -326,7 +326,6 @@ This configuration is available for both chat and web messaging, and for both de
 </table>
 </div>
 
-
 This feature allows brands to configure the window size of the engagement window.
 
 Brands can select from one of the following options:
@@ -350,10 +349,12 @@ This configuration is available for both chat and web messaging, on desktop, and
 **Image 1:** Configuring window size in Engagement window studio
 
 ![](/img/week-of-june-17th-10.png)  
+
 **Image 2:** Small/Large window sizes
 
-{: .sidebyside}
-![](/img/week-of-june-17th-11.png)![](/img/week-of-june-17th-12.png)
+![](/img/week-of-june-17th-11.png)
+
+![](/img/week-of-june-17th-12.png)
 
 ## New read indication style
 
@@ -418,7 +419,8 @@ Brands can choose from the following options in the “Read Indication” dropdo
 
 **Image 2: Read indication is set to Text/Visual**
 
-![](/img/week-of-june-17th-14.png)![](/img/week-of-june-17th-15.png)
+![](/img/week-of-june-17th-14.png)
+![](/img/week-of-june-17th-15.png)
 
 **Image 3:** Visual read indication icons
 
@@ -561,7 +563,6 @@ Facebook Handover Protocol enables two or more apps to participate in a conversa
 </tbody>
 </table>
 </div>
-
 
 We are adding a WhatsApp Business connector into the self-service Data Source-->Conversations Sources area, to accompany Facebook Messenger, Twilio, CM, etc.
 
