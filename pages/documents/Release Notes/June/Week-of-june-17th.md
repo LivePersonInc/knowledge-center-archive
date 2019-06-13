@@ -769,6 +769,24 @@ Currently brands that are looking to use Apple Pay must have a bot added to the 
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
+## Minimize icon changes showing in wrong place
+
+### Type: Bug fix
+
+Removed the “Minimize icon” from “Text area” in the engagement window studio.
+
+## Removed the “Minimize icon” from “Text area” in the engagement window studio.
+
+### Type: Bug fix
+
+Offline survey email settings don’t know how to handle special characters. This has been resolved.
+
+## Fix reply indication with audio and tooltip for consumer messages on WhatsApp
+
+### Type: Bug fix
+
+When consumer replies to a message and his reply message is an audio message, the reply icon is missing. Fixed the tooltip alignment for reply icon.
+
 ## Post conversation survey
 
 ### Type: Bug fix
