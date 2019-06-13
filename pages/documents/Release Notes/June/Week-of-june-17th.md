@@ -639,6 +639,8 @@ This feature is not available for Internet Explorer 11 users on Windows 7 or 8. 
 
 **Screenshots**
 
+![](/img/CoBrowseFullScreen-2.gif)
+
 ## Multi-factor authentication - Add ‘reset mfa configuration’ toggle to ‘Edit user’ page
 
 ### Type: New functionality
