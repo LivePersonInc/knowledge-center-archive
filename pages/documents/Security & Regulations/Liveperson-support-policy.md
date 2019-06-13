@@ -44,17 +44,12 @@ The following items are generally not supported:
 
 ## Engagement channels
 
-Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to Customer’s mobile application etc).
+LivePerson Customer Support provides 24x7 chatsupport. Chat is accessible from the LiveEngage Connection Area.
 
-Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays.
+## Severity Definitions and Service Levels
 
-* Severity
-* Level
-* Contact
-* Method
-* Description Response
-* Time
-* Periodic
-* Updates
-* Root cause
-* Analysis (RCA)
+Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to Customer’s mobile application etc.). Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays.
+
+| Severity level | Contact method | Description | Response time | Periodic updates | Preliminary root cause analysis |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Chat | LivePerson Products/Services are unavailable or severely degraded and have a significant impact on the customer's business functions and practices. A workaround is not available. Security incidents(availability of service due to DOS/DDOS attack,suspected/actual data compromise) are included in this severity level. | 1 hr | 2hr | 3 business days |
