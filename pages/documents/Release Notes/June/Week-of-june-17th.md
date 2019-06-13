@@ -568,9 +568,9 @@ All apps that do not have control of the conversation may continue to listen to 
 
 <td>No</td>
 
-<td>No</td>
-
 <td>Yes</td>
+
+<td>No</td>
 
 <td>No</td>
 
