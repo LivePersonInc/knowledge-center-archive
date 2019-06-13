@@ -14,7 +14,7 @@ date: '2019-01-31T08:27:46.000+00:00'
 Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
 
 {: .notice}
-Predefined content accepts standard HTML syntax. Therefore, you can use anchors, bold elements, create links and the such using HTML.
+Predefined content accepts standard HTML syntax. Therefore, you can use anchors, bold elements, add line breaks and the such using HTML.
 
 ## Structuring Predefined Content
 
