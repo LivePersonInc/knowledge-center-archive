@@ -19,7 +19,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## Fallback skill per skill
 
-### Type: new feature
+### Type: New feature
 
 <div class="tablecontainer">
 
@@ -191,7 +191,7 @@ To set up please contact your LivePerson account team.
 
 ## Rollover - support skill change/transfer and agent transfers for Answering Service
 
-### Type: new feature
+### Type: New feature
 
 <div class="tablecontainer">
 
@@ -269,7 +269,7 @@ As part of the answering service this feature has been added with the ability to
 
 ## Agent manager conversations filter
 
-### Type: enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 
@@ -347,7 +347,7 @@ This enhancement allows agent managers to get conversations from their managing 
 
 ## Agent change group
 
-### Type: enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 
@@ -425,7 +425,7 @@ Agents will see conversations that are assigned to them. When an agent changes g
 
 ## Facebook Handover protocol support
 
-### Type: enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 
@@ -520,7 +520,7 @@ All apps that do not have control of the conversation may continue to listen to 
 
 ## Add Error to Apple Pay Response
 
-### Type: enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 
