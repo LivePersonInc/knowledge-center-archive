@@ -27,6 +27,7 @@ published: true
     <th>Line</th>
     <th>Messaging Window API</th>
     <th>Connector API</th>
+    <th>WeChat</th>
   </tr>
   </thead>
   <tbody>
@@ -43,6 +44,7 @@ published: true
         <td><img class="tableIcon" src="img/line.svg" /></td>
         <td><img class="tableIcon" src="img/messaging-window-api.svg" /></td>
         <td><img class="tableIcon" src="img/connector-api.svg" /></td>
+        <td><img class="tableIcon" src="img/wechat.svg" /></td>
       </tr>
       {% for feature in category.features %}
       <tr>
@@ -120,6 +122,13 @@ published: true
         <td class="green">{{ channel.connectorAPI }}</td>
         {% else %}
         <td>{{ channel.connectorAPI }}</td>
+        {% endif %}
+        {% endif %}
+        {% if forloop.index == 11 %}
+        {% if channel.weChat == "Supported" %}
+        <td class="green">{{ channel.weChat }}</td>
+        {% else %}
+        <td>{{ channel.weChat }}</td>
         {% endif %}
         {% endif %}
         {% endfor %}

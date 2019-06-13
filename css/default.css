@@ -92,7 +92,7 @@ p + ul {
    line-height: 1.8;
    max-width: 160px;
    hyphens: none;
-   padding: 21px 25.5px 21px 23px;
+   padding: 21px 25.5px 21px 15px;
    vertical-align: inherit;
    text-align: center;
 }
@@ -1044,7 +1044,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 #featurestable td:first-child {
-  min-width: 150px;
+  min-width: 130px;
 }
 
 
