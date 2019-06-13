@@ -135,7 +135,8 @@ This feature provides brands with the ability to set the window behavior so that
 
 **Image 1:** “Open additional window settings” button in Engagement window studio
 
-![](/img/week-of-june-17th-3.png)  
+![](/img/week-of-june-17th-3.png) 
+
 **Image 2:** Choose “Close window upon end of conversation” behavior
 
 ![](/img/week-of-june-17th-4.png)
@@ -210,9 +211,11 @@ This configuration is available for both chat and web messaging and applies for 
 **Image 1:** Configuring font style for Title bar with a specific font (default) in Engagement window studio
 
 ![](/img/week-of-june-17th-5.png)  
+
 **Image 2:** Configuring font style for Title bar using inherited font from the webpage in Engagement window studio.
 
-![](/img/week-of-june-17th-6.png)  
+![](/img/week-of-june-17th-6.png) 
+
 **Image 3:** Engagement window inheriting font from webpage with different font than settings
 
 ![](/img/week-of-june-17th-7.png)
@@ -277,6 +280,7 @@ This configuration is available for both chat and web messaging, and for both de
 **Image 1:** Configuring style for visitor and agent bubbles in Engagement window studio
 
 ![](/img/week-of-june-17th-8.png)  
+
 **Image 2:** Engagement window with three corner rounded style for visitor bubble and side arrow style for agent bubble
 
 ![](/img/week-of-june-17th-9.png)
