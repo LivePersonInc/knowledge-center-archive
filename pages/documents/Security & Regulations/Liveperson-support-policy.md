@@ -11,7 +11,7 @@ isNew: false
 date: '2019-04-01T10:50:38.000+00:00'
 
 ---
-The LivePerson customer support policy is designed to provide assistance with maximizing the value of your LivePerson products. LivePerson customer support provides 24x7 coverage via chat, messaging and email. This document outlines LivePerson support features and processes, and procedures for engaging with the LivePerson customer Ssupport team.
+The LivePerson Customer Support Policy is designed to provide assistance with maximizing the value of your LivePerson products. LivePerson Customer Support provides 24x7 coverage via chat and e-mail, as well as a wealth of self-service resources in the LivePerson Knowledge Center. This document outlines LivePerson support features and processes, and procedures for engaging with the LivePerson Customer Support team.
 
 This policy does not cover third party services, products or technology, which are subject to the support commitments offered by the applicable third party provider.
 
@@ -19,19 +19,19 @@ This policy does not cover third party services, products or technology, which a
 
 **Customer Support Channel:** Channels customers can use to engage with LivePerson Customer Support, including messaging, chat, community site, customer center and more, as further defined in this Policy.
 
+**LivePerson Knowledge Center:** The hub for all product documentation, including troubleshooting content and technical FAQs. Visitors can access the Knowledge Center (no authentication required) where they can search for content and/or initiate chats with LivePerson Support.
+
 **DOS/DDOS attack:** A Distributed Denial of Service Attack is a malicious attempt to make a server or a network resource unavailable to users, usually by temporarily interrupting or suspending the services of a host connected to the Internet.
 
 **LivePerson Network Operations Center (NOC):** The team that monitors our networks and provides alerts about service interruptions. NOC is responsible for updating LivePerson Support should any of the above events occur.
 
 **Resolution:** An issue is considered resolved when the customer's service needs have been met.
 
-**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson accounts and maintenance activity updates. The Service Status Dashboard is accessible to
-
-LivePerson customers at [http://status.liveperson.com.](http://status.liveperson.com. "http://status.liveperson.com.")
+**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson accounts and maintenance activity updates. The Service Status Dashboard is accessible to LivePerson customers at [http://status.liveperson.com.](http://status.liveperson.com. "http://status.liveperson.com.")
 
 ## Scope of support
 
-LivePerson customer support is provided to help you resolve issues that arise when using LivePerson products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson customer support team.
+LivePerson customer support is provided to help you resolve issues that arise when using LivePerson products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson customer support team. **All issues and inquiries should be reported through the LivePerson Customer Support channels.**
 
 The following items are generally not supported:
 
