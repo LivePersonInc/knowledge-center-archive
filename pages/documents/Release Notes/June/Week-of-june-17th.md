@@ -602,7 +602,7 @@ Currently brands that are looking to use Apple Pay must have a bot added to the 
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
-### Post conversation survey 
+## Post conversation survey 
 
 ### Type: Bug fix
 
