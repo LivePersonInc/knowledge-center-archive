@@ -19,7 +19,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## Offsite engagements for messaging
 
-### Type: Enhancement
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -1229,44 +1229,6 @@ Offline survey email settings don’t know how to handle special characters. Thi
 ## Fix reply indication with audio and tooltip for consumer messages on WhatsApp
 
 ### Type: Bug fix
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-</div>
-
 
 When consumer replies to a message and his reply message is an audio message, the reply icon is missing. Fixed the tooltip alignment for reply icon.
 
