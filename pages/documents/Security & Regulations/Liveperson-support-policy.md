@@ -53,3 +53,5 @@ Each issue that is identified by the LivePerson Network Operations Center or rep
 | Severity level | Contact method | Description | Response time | Periodic updates | Preliminary root cause analysis |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Chat | LivePerson Products/Services are unavailable or severely degraded and have a significant impact on the customer's business functions and practices. A workaround is not available. Security incidents(availability of service due to DOS/DDOS attack,suspected/actual data compromise) are included in this severity level. | 1 hr | 2hr | 3 business days |
+| 2 | Chat | LivePerson Products/Services are available but degraded and the impact on customer's business functions and practices is moderate. A workaround may be available. | 3 hrs | 1 business day | N/A |
+| 3 | Chat | System performance issues or bugs affecting some but not all users/website visitors. Shortterm workaround is available, but not scalable. | 3 business days | 3 business days | N/A |
