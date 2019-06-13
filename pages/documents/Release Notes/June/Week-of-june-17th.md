@@ -60,7 +60,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 Offsite engagements were available for web chat only until now, and will now be supported for web messaging as well. Brands can offer web messaging by adding an engagement link from any location and through media including: social media sites, email, digital advertising, and more. Brands can use this link anywhere they want to engage with their consumers. When setting up an offsite engagement, brands create a URL that will refer consumers to web messaging.
 
-For more information on offsite engagements and how they are enabled, click here. 
+For more information on offsite engagements and how they are configured, click [here](<div class="tablecontainer"> <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>Twilio</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>WeChat</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>Yes</td> </tr> </tbody> </table> </div>).
 
 **Screenshots**
 
@@ -113,7 +113,6 @@ For more information on offsite engagements and how they are enabled, click here
 </table>
 </div>
 
-
 Today, once consumers decide to close a conversation, the conversation is closed but the window remains open. So consumers still need to click on the x button in order to close the window.
 
 This feature provides brands with the ability to set the window behavior so that once the consumers closes the conversation, the window will be either closed automatically or kept open. The default behavior is to keep the window open.
@@ -137,7 +136,7 @@ This feature provides brands with the ability to set the window behavior so that
 
 **Image 1:** “Open additional window settings” button in Engagement window studio
 
-![](/img/week-of-june-17th-3.png) 
+![](/img/week-of-june-17th-3.png)
 
 **Image 2:** Choose “Close window upon end of conversation” behavior
 
@@ -189,6 +188,7 @@ Brands would like the engagement window to have the same look and feel as their 
 This feature allows brands the ability to configure whether to inherit the font style from their webpage for the different engagement window UI elements, without needing to specify the exact font. When brands choose to inherit the font from their website (checkbox is checked), the fonts within the window will be automatically inherited from the webpage the window is launched from that has the most frequently used fonts for the selected window elements. If the webpage font cannot be retrieved, the font that is configured as one of the standard out-of-the-box fonts will be used as a fallback (as shown in the preview). The default behavior would be to use the specified font configured for each element (checkbox is unchecked).
 
 This configuration will be available for the following elements that have font configuration in the engagement window studio:
+
 * Title bar
 * Message info
 * Automatic messages
@@ -200,23 +200,25 @@ This configuration will be available for the following elements that have font c
 This configuration is available for both chat and web messaging and applies for desktop and mobile. Please note that the pre-chat survey and offline survey font will be inherited, as today, from the automatic messages font settings and post-chat survey font will be inherited from the agent bubble’s font, as it is today.
 
 **To enable:**
+
 * Log into [LiveEngage](https://authentication.liveperson.net/)
 * Go to Engagement Window Studio
 * Select the relevant element, as listed above
 * Click the “Inherit font from webpage” checkboxFallback skill per skill
 
 **Limitations**
+
 * Desktop pop-out engagement window will not be supported
 
 **Screenshots**
 
 **Image 1:** Configuring font style for Title bar with a specific font (default) in Engagement window studio
 
-![](/img/week-of-june-17th-5.png)  
+![](/img/week-of-june-17th-5.png)
 
 **Image 2:** Configuring font style for Title bar using inherited font from the webpage in Engagement window studio.
 
-![](/img/week-of-june-17th-6.png) 
+![](/img/week-of-june-17th-6.png)
 
 **Image 3:** Engagement window inheriting font from webpage with different font than settings
 
@@ -266,12 +268,14 @@ This configuration is available for both chat and web messaging and applies for 
 This feature allows brands to configure the style for the agent and visitor bubbles of the engagement window.
 
 Brands can select from one of the following options:
+
 * Side Arrow - this is the current style and is the default
 * Three Corner Rounded
 
 This configuration is available for both chat and web messaging, and for both desktop and mobile.
 
 **How to enable:**
+
 * Log into [LiveEngage](https://authentication.liveperson.net/)
 * Go to Engagement Window Studio
 * Click on Agent/Visitor bubble
@@ -281,7 +285,7 @@ This configuration is available for both chat and web messaging, and for both de
 
 **Image 1:** Configuring style for visitor and agent bubbles in Engagement window studio
 
-![](/img/week-of-june-17th-8.png)  
+![](/img/week-of-june-17th-8.png)
 
 **Image 2:** Engagement window with three corner rounded style for visitor bubble and side arrow style for agent bubble
 
@@ -331,18 +335,21 @@ This configuration is available for both chat and web messaging, and for both de
 This feature allows brands to configure the window size of the engagement window.
 
 Brands can select from one of the following options:
+
 * Small - this is the current size (height: 400px, width: 280px) which is also the default
 * Large - (max 580px, width: 340px)
 
 This configuration is available for both chat and web messaging, on desktop, and applied also for chat pre, post and offline surveys.
 
 **How to enable:**
+
 * Log into [LiveEngage](https://authentication.liveperson.net/)
 * Go to Engagement Window Studio
 * Go to “Look and feel customization” section
 * Select the window size from the dropdown list
 
 **Limitations**
+
 * The large window size is not supported for desktop pop-out engagement window.
 * The engagement window studio preview is not supported.
 
@@ -350,7 +357,7 @@ This configuration is available for both chat and web messaging, on desktop, and
 
 **Image 1:** Configuring window size in Engagement window studio
 
-![](/img/week-of-june-17th-10.png)  
+![](/img/week-of-june-17th-10.png)
 
 **Image 2:** Small/Large window sizes
 
@@ -400,24 +407,27 @@ This configuration is available for both chat and web messaging, on desktop, and
 </div>
 
 Brands can choose from the following options in the “Read Indication” dropdown list:
+
 * Text - this is the current style and is the default
 * Visual
 * None
 
 **How to enable:**
+
 * Log into [LiveEngage](https://authentication.liveperson.net/)
 * Go to Engagement Window Studio
 * Click on the visitor bubble
 * Select read indication style from the dropdown
 
 **Limitations**
+
 * Read indication is available for web messaging only.
 
 **Screenshots**
 
 **Image 1:** Configuring read indication in Engagement window studio
 
-![](/img/week-of-june-17th-13.png)  
+![](/img/week-of-june-17th-13.png)
 
 **Image 2: Read indication is set to Text/Visual**
 
@@ -727,6 +737,7 @@ Will be available if MFA is enabled. (Multi-factor authentication section will n
 </div>
 
 Enable brands to define business rules that would assign extra priority to specific conversations based on the consumer engagement attributes. The supported consumer attributes according to which the new business rules can be defined are listed in this link under:
+
 * Consumer Info
 * Personal Info
 
