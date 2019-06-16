@@ -9,7 +9,7 @@ level3: ''
 permalink: messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 09:19:13 +0000
+date: '2019-01-28T09:19:13.000+00:00'
 
 ---
 ## Why use structured content?
@@ -46,7 +46,8 @@ The following examples are just a small selection of the huge variety of structu
 
 The following structured content presents the consumer with three options to purchase an iPhone, including an image, free text element, and buttons.
 
-![](/img/SC1 (1).png)
+{: .sidebyside}
+![](/img/SC1 (1).png)![](/img/structured-content-inapp-list.png)
 
 ## Video link
 
