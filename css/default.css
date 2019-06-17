@@ -125,6 +125,10 @@ p + ul {
 .tablecontainer {
   margin-bottom: 45px;
   overflow-x: scroll;
+  width: 100%;
+}
+
+.flipped {
   transform:rotateX(180deg);
   width: 155%;
 }
