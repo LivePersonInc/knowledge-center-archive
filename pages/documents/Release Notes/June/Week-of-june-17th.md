@@ -8,6 +8,7 @@ level3: June
 permalink: release-notes-2019-june-week-of-june-17th.html
 isTutorial: false
 isNew: false
+published: false
 
 ---
 These release notes include new features arriving to LiveEngage during June 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -984,6 +985,90 @@ Currently brands that are looking to use Apple Pay must have a bot added to the 
 * Brands will be able to fetch user's payment information from their auth services after validating the token, while exposing the data to the agent on LE via a Customized Agent Widget
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
+
+## Recommended actions Join & KB integration
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Join Bots to Conversations:** Recommended Actions widget can now recommend bots that can be joined to conversations. With join, Agents can monitor the conversation between a bot and human in real time, jump in anytime, or remove the bot from the conversation if needed. Maven supports joining bots created in Conversation Builder, Google DialogFlow, and Watson.
+
+**Knowledge Base Integration:** Recommended Actions widget can be connected to Knowledge base articles authored in Conversation Builder. The widget can recommend these articles to agents in real time, and agents can use these articles to provide quick answers to consumers’ questions. For example, what is the refund policy?
+
+Please note: Integration with Conversation Builder (joining bots, or KB suggestions) are not available in Zone 3. This is because CB is currently not available in Zone 3.
+
+To enable this feature, please contact your LivePerson account team.
 
 ## Minimize icon changes showing in wrong place
 
