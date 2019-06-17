@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 date: 2019-01-24 12:23:19 +0000
 redirect-from:
-- security-regulations-sso-unified-login.html
+  - security-regulations-sso-unified-login.html
 ---
 The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to [authenticate]( https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html) once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 
