@@ -99,9 +99,3 @@ Assign skills to engagements in the engagement studio, in the campaigns area.
 4. Click the gear icon to open the settings menu.
 5. Select the skill that you want to assign to your current engagement.
 6. Click publish.
-
-## Fall back skill per skill
-
-While assigning conversations to agents, it is possible that certain skills would have no online agents that could receive the conversations. In such cases, brands need to be able to define a secondary fallback skill to which the conversation will be assigned.
-
-Fallback skill per skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
