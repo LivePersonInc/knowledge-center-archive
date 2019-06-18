@@ -6,6 +6,8 @@ indicator: both
 subtitle: "Provide an additional layer of security for your LiveEngage's users' login flows"
 level3: Multi-factor authentication
 permalink: security-regulations-login-multi-factor-authentication-overview.html
+redirect_from:
+  - security-regulations-login-multi-factor-authentication.html
 isTutorial: false
 isNew: false
 date:
