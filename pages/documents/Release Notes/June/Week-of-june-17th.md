@@ -1194,3 +1194,20 @@ In the All Connection page within LiveEngage, all consumers whose conversation w
 ### Type: Bug fix
 
 Intermittently when conversations get transferred or returned to queue, routing service throws an exception on an "undefined" agent name. Following this exception the conversations doesn't get routed to an agent and remains stuck in the destination queue. This bug has now been resolved.
+
+## Photo and file sharing (agent-to-consumer) on mobile devices
+
+### Type: New feature
+
+Mobile Messaging SDK v3.9 introduces a feature for agents within LiveEngage to share photos or files with the consumers.    
+
+Agents can share:
+
+- **Photos:** Reference photos or photos of any product to visually guide consumers with product awareness, steps on how to use the product, or review comments of a product. The agent can also share photos in a resolved conversation to resume the conversation with the consumer.  Consumers can tap on the photo to view it full screen or share it through the default app on their device.   
+
+- **Files:** Agents can also share files to provide consumers with information such as mortgage documents, product catalog, or transaction details as requested by consumers. They can also share files in a resolved conversation to resume the conversation with the consumer. Consumers can download files through the picker application to a location on their device (internal or external).
+
+**Note:** The Android SDK supports opening any file types other than images through the picker application. The consumer can either long click on the thumbnail or open the file through picker application to share and save the file.  The iOS SDK supports previewing all the supported file types on the device as per the iOS operating system by double-clicking on the thumbnail image.
+
+
+When the agent shares any supported file type from the LE, if the consumer isn't within the conversation view, they get a notification from the customer app only if the push notification is enabled. Otherwise, when the consumer returns to the conversation screen, a thumbnail for the photo or file appears in the conversation window.
