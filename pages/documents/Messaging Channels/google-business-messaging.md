@@ -12,6 +12,7 @@ isNew: false
 ---
 Google Business Messaging allows consumers to start a messaging thread with a business directly from popular mobile search interfaces, such as Google search results, Google Business Profiles and Google Maps.
 
+{: .sidebyside}
 ![](/img/google-business-messaging-1.png)![](/img/google-business-messaging-2.png)
 
 ## Why use Google Business Messaging to connect with your consumers?
