@@ -62,4 +62,4 @@ The Google My Business connector enables consumers to message your brand via SMS
 6. Once selected, click **Done**.
 
 {: .notice)
-Please note: This is a deprecated solution. To learn more about the next iteration please click here.  
+Please note: This is a deprecated solution. To learn more about the next iteration please [click here](https://knowledge.liveperson.com/messaging-channels-google-business-messaging.html).
