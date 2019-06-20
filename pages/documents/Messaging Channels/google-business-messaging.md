@@ -13,8 +13,6 @@ published: false
 ---
 Google Business Messaging allows consumers to start a messaging thread with a business directly from popular mobile search interfaces, such as Google search results, Google Business Profiles and Google Maps.
 
-![](https://lh3.googleusercontent.com/FrbbDhdl5cbgKwL9oySyjp7mPtQ7_MaB374W3EossxlgVhZIzt2ABJS-gdGRZZj_jJkqGhliFxgJNSUBxQpnrHchTKiegI0rzKgmKNy2h3hbH6zR0Lw1rKDbVrvnbVGNhyrv8AC8 =189x379)![](https://lh6.googleusercontent.com/x4JpmWb2cZQZMBeobchs2pZmXvpymRoZZMaO_Yv8OoMM3MYgsJX0zDZ0B7-rIjNHhvfDY_0yDKaUiHyMxLWJnO2fcZ9NkwJzMpBJVK1pPQkwEiN9ElV_Vis57IqbTp3v4kmi-QB1 =189x378)
-
 ## Why use Google Business Messaging to connect with your consumers?
 
 * **Greater discoverability** — Internet users search Google 3.5 billion times per day. Harness the power of your Google presence and put messaging at the fingertips of online consumers.
