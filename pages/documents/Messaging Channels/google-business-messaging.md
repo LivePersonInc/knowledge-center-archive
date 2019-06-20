@@ -1,7 +1,7 @@
 ---
 pagename: 'Google Business Messaging '
 categoryName: Messaging channels
-subCategoryName: Web messaging
+subCategoryName: ''
 indicator: messaging
 subtitle: 'Tap into Google''s network to build relationships and develop more prospects '
 level3: ''
