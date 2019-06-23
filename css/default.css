@@ -1272,6 +1272,10 @@ div#cookie-law {
   display: none;
 }
 
+.LPMcontainer {
+  z-index: 600;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
