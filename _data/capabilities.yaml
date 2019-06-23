@@ -373,7 +373,7 @@
   - featureName: Structured content time picker
     channels:
     - mobileAppMessaging: "Supported"
-    - webMessaging: "Supported"
+    - webMessaging: "N/A in Channel"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
