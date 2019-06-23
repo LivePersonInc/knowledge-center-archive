@@ -31,8 +31,9 @@
         - pagename: Enhancing the SMS experience with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: WhatsApp Business
+    - subcategoryname: Google Business Messaging
     - subcategoryname: Google My Business
+    - subcategoryname: WhatsApp Business
     - subcategoryname: Line connector
     - subcategoryname: WeChat Business
     - subcategoryname: Live chat
