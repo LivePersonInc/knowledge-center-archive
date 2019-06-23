@@ -6,14 +6,14 @@ indicator: chat
 subtitle: Checklist for set up and configuration to get your live chat program running
 permalink: getting-started-getting-started-with-live-chat.html
 isTutorial: false
-date: 2019-01-14 10:27:58 +0000
+date: '2019-01-14T10:27:58.000+00:00'
 level3: ''
 isNew: false
 redirect_from:
-  - setup-authchat.html
+- setup-authchat.html
 
 ---
-To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
+To get started, access LivePerson using this link: [https://authentication.liveperson.net/](https://authentication.liveperson.net/ "https://authentication.liveperson.net/")
 
 {: .notice}  
 LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using LiveEngage, brands can start [messaging](getting-started-getting-started-with-messaging.html) very quickly with minimal set up using our out of the box connectors.
