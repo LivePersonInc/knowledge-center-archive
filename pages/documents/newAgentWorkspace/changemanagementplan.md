@@ -9,4 +9,4 @@ permalink: agent-manager-workspace-new-agent-workspace-change-management-plan.ht
 layout: newAgentWorkspace
 ---
 
-Details on change management here.
+Coming soon.
