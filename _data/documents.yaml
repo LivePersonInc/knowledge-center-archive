@@ -31,11 +31,9 @@
         - pagename: Enhancing the SMS experience with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google Business Messaging
-    - subcategoryname: Google My Business
     - subcategoryname: WhatsApp Business
+    - subcategoryname: Google My Business
     - subcategoryname: Line connector
-    - subcategoryname: WeChat Business
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
@@ -152,9 +150,8 @@
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined content overview
-        - pagename: Creating Predefined Content
-        - pagename: Importing predefined content
         - pagename: Predefined content best practices
+        - pagename: Importing predefined content
 
 - categoryname: "Data & reporting"
   image: data-reporting
@@ -218,8 +215,8 @@
     - subcategoryname: "Skills & groups"
       pages:
         - pagename: Set the agent group hierarchy
-        - pagename: Lines of Business (LoB)
-        - pagename: Connect visitors to agents by skills
+        - pagename: Operate business divisions from one account
+        - pagename: Connect visitors to Agents by skills
     - subcategoryname: Permissions
       pages:
         - pagename: Assign permissions
@@ -250,13 +247,7 @@
       pages:
         - pagename: Secure forms for messaging user guide
         - pagename: Secure forms for chat user guide
-    - subcategoryname: Login
-      pages:
-        - pagename: SSO unified login
-        - pagename: "Multi-factor authentication"
-          level3:
-          - level3name: Overview
-          - level3name: User manual
+    - subcategoryname: SSO unified login
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 
@@ -269,23 +260,18 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
-    - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
     - subcategoryname: January 2019
+    - subcategoryname: December 2018
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: 2019
       pages:
-        - pagename: June
-          level3:
-            - level3name: Week of June 17th
-            - level3name: Week of June 9th          
-            - level3name: Week of June 3rd
         - pagename: May
           level3:
             - level3name: Week of May 27th
@@ -314,6 +300,12 @@
             - level3name: Week of January 28th
             - level3name: Week of January 20th
             - level3name: Week of January 14th
+    - subcategoryname: 2018
+      pages:
+        - pagename: December
+          level3:
+            - level3name: Week of December 17th
+            - level3name: Week of December 2nd
 
 
 - categoryname: Troubleshooting

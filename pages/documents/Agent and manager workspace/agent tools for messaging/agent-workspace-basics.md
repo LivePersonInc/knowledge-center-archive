@@ -25,15 +25,12 @@ There are three main tabs that you will use as a messaging agent: **Open Connect
 
 The data bar in your workspace will represent the queue data that is relevant only to you and your conversations for the current shift. Here you will see real-time data including:
 
-**OPEN -** displays the total number of current open conversations.
-
-**PENDING** - displays the total number of conversations pending your response.
-
-**OVERDUE** - displays the total number of conversations that exceeded your target response time.
-
-**SOON TO BE OVERDUE** - displays the total number of conversations about to exceed the target response time in 5 minutes.
-
-**CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours. The calculation is (Total number of positive answers) / (Total number of answers).
+* **Number of open conversations** - These are the open conversations you still need to handle
+* **Pending action** - The number of conversations that are pending your immediate reply
+* **Unassigned** - Conversations in the queue that are not yet assigned an agent, this figure will provide visibility into upcoming workloads
+* **Overdue** - Number of conversations that have passed the SLA deadline for reply
+* **Soon to be overdue** - Number of conversations that are within 5 min of surpassing the SLA deadline
+* **CSAT** - Average [CSAT](http://oavrxoiy0ht8aq.instant.forestry.io/contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat) assigned to you from all the conversations conducted in the current shift
 
 ## Beginning your shift
 
