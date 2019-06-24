@@ -64,7 +64,7 @@ The open connections tab shows all of the conversations assigned to the agent th
 | <img src="img/wsicons/two check marks.png" /> | Two grey check marks next to a message indicate that it was delivered to the consumer. |
 | <img src="img/wsicons/accept.png" /> | When auto-accept is turned off, this icon will appear at the bottom of the screen when the agent has an incoming conversation. |
 | <img src="img/wsicons/toolbox.png" /> | The toolbox icon opens the consumer info widget. |
-| <img src="img/wsicons/predefined content.png" /> | This icon opens the Predefined Content widget. |
+| <img src="img/wsicons/predefined content.png" /> | This icon opens the predefined content widget. |
 | <img src="img/wsicons/conversation summary.png" /> | This icon opens the conversation summary widget. |
 | <img src="img/wsicons/history.png" /> | This icon opens the engagement history widget. |
 | <img src="img/wsicons/refresh.png" /> | This icon can be pressed to refresh any widget. |

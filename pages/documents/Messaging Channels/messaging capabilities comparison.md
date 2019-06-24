@@ -13,7 +13,6 @@ published: true
 <div class="mobilefeaturestable">This table contains all of LiveEngage's Messaging capabilities compared over several channels. As such, it is too complex to navigate and view on a tablet or a mobile device. Please open it on your laptop of desktop computer to view it properly.</div>
 
 <input id="capabilitiesSearch" type="text" placeholder="Search by capability name" />
-<div class="tablecontainer flipped">
 <table id="featurestable">
   <thead>
   <tr id="featuresheader">
@@ -28,7 +27,6 @@ published: true
     <th>Line</th>
     <th>Messaging Window API</th>
     <th>Connector API</th>
-    <th>WeChat</th>
   </tr>
   </thead>
   <tbody>
@@ -45,7 +43,6 @@ published: true
         <td><img class="tableIcon" src="img/line.svg" /></td>
         <td><img class="tableIcon" src="img/messaging-window-api.svg" /></td>
         <td><img class="tableIcon" src="img/connector-api.svg" /></td>
-        <td><img class="tableIcon" src="img/wechat.svg" /></td>
       </tr>
       {% for feature in category.features %}
       <tr>
@@ -125,17 +122,9 @@ published: true
         <td>{{ channel.connectorAPI }}</td>
         {% endif %}
         {% endif %}
-        {% if forloop.index == 11 %}
-        {% if channel.weChat == "Supported" %}
-        <td class="green">{{ channel.weChat }}</td>
-        {% else %}
-        <td>{{ channel.weChat }}</td>
-        {% endif %}
-        {% endif %}
         {% endfor %}
       </tr>
       {% endfor %}
     {% endfor %}
     </tbody>
   </table>
-  </div>

@@ -61,7 +61,7 @@ For messaging connectors, secure forms will be sent to the relevant channel via 
 
 * Secure form flow for connector channels:
   * CM will support secure forms via an external clickable link - all future channels will be supported in the same manner, and will only present the link to the consumer which will allow him to tap and open the secure form on the device browser
-  * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the Predefined Content widget
+  * Agents will be able to send the secure form in the same manner that they send it in web messaging or in-app conversations - via the predefined content widget
   * Consumer will receive the secure form sent by the agent on the relevant channel via a link (view the user flow in the below screenshots)
   * Consumer will be able to submit the form, and will receive a push notification via the connector channel he/she is conversing from, indicating the form was received by the agent, with the following message: “The following secure form has been submitted: ”
   * Agent will be able to view the secure form answers in the same manner that he/she does today for in-app and web messaging. This text and view will appear to the agent: The Secure Form \[secure form name\] has been submitted. View secure form \[contains clickable link to view secure form content\].

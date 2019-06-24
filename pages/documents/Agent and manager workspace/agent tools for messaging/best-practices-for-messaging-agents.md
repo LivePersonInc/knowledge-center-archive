@@ -79,7 +79,7 @@ There are other skills available on messaging. Speak to your team manager to und
 
 ### **Is there a shortcut for saying hi to my customer?**
 
-There is a Predefined Content set up with a short cut for you. This differs for first time and existing customers, so make a point of checking this before you choose your hot-key.
+There is a predefined content set up with a short cut for you. This differs for first time and existing customers, so make a point of checking this before you choose your hot-key.
 
 ### **We’ve been asked to respond to the first customer within a minute. How can I do that when I have so many conversations?**
 
