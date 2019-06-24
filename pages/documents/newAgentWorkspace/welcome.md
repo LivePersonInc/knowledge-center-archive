@@ -3,7 +3,7 @@ pagename: Welcome to the enhanced agent workspace
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Learn more about the new Agent Workspace
+subtitle: Learn more about the updated agent workspace
 level3: ''
 permalink: agent-manager-workspace-new-agent-workspace-welcome.html
 layout: newAgentWorkspace
@@ -11,7 +11,7 @@ layout: newAgentWorkspace
 
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. 
 
-![](/img/new-agent-workspace-1.png)
+![alt text](/img/new-agent-workspace-1.png)
 
 ## What’s new?
 
