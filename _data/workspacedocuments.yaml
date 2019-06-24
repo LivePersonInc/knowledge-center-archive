@@ -4,15 +4,11 @@
 - categoryname: User Guide
   image: user-guide
   subcategories:
-    - subcategoryname: Working with asynchronous messaging
-    - subcategoryname: Agent workspace for messaging tour
-    - subcategoryname: Workspace basics
+    - subcategoryname: Introducing the new agent workspace
+    - subcategoryname: New workspace basics
     - subcategoryname: Managing messaging conversations
     - subcategoryname: Taking breaks & ending your shift
-    - subcategoryname: Understanding agent performance
-    - subcategoryname: CoBrowse for messaging
-    - subcategoryname: Best practices for messaging agents
-    - subcategoryname: Agent workspace icons for messaging
+    - subcategoryname: FAQs
 
 - categoryname: Training Deck
   image: agent-manager

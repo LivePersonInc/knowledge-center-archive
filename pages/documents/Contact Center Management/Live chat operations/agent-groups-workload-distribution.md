@@ -12,6 +12,9 @@ date: 2019-01-21 09:37:44 +0000
 isNew: false
 redirect_from:
 - workload-allocation-between.html
+- agentGroups.html
+- agent-groups.html
+- working-with-agent-groups.html
 
 ---
 A priority of any a contact center is to provide a rapid and personalized service at all times. Even when, for example, a brand's billing page goes down, or they are hit by hectic holiday volumes. By effectively distributing conversation traffic between agent groups, LivePerson ensures a brand's consumers will always be answered as quickly and as efficiently as possible - which can be particularly challenging for brands working with large numbers of agent groups, or with groups spread across different locations.
