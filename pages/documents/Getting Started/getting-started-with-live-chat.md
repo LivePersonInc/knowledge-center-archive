@@ -6,14 +6,14 @@ indicator: chat
 subtitle: Checklist for set up and configuration to get your live chat program running
 permalink: getting-started-getting-started-with-live-chat.html
 isTutorial: false
-date: 2019-01-14 10:27:58 +0000
+date: '2019-01-14T10:27:58.000+00:00'
 level3: ''
 isNew: false
 redirect_from:
-  - setup-authchat.html
+- setup-authchat.html
 
 ---
-To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
+To get started, access LivePerson using this link: [https://authentication.liveperson.net/](https://authentication.liveperson.net/ "https://authentication.liveperson.net/")
 
 {: .notice}  
 LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using LiveEngage, brands can start [messaging](getting-started-getting-started-with-messaging.html) very quickly with minimal set up using our out of the box connectors.
@@ -36,7 +36,7 @@ The basic set up means there will be no routing - every agent will receive all m
 LivePerson is the most advanced platform for any size organization, offering a range of customization capabilities.  To ensure you are getting the most out of live chat, develop and set up your preferences in three areas:
 
 * **Customer experience:** design what your consumers will see when they interact with your brand by [adding a live chat window](messaging-channels-live-chat-add-live-chat-to-your-website.html) to your website. Customize the banners, buttons and automatic text. You can also start to [add bots and automation](getting-started-getting-started-with-bots.html) to be the first to respond to incoming conversations.
-* **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including predefined content and custom widgets.
+* **Agent experience**: set up the [agent experience](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) to ensure your reps can easily communicate with consumers, including Predefined Content and custom widgets.
 * **Management & operations**: set up all agents [skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html) and LOBs, [routing](/contact-center-management-live-chat-operations-automatic-conversation-distribution.html), [agent workload](contact-center-management-live-chat-operations-agent-groups-workload-distribution.html), and [queue priority](contact-center-management-live-chat-operations-queue-prioritization-for-live-chat.html).
 
 Now, go through this checklist to ensure you take for each of the above areas.

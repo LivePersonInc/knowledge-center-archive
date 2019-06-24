@@ -1,7 +1,7 @@
 ---
 pagename: Week of May 20th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: May
@@ -237,7 +237,7 @@ Brands who sign the security waiver will be able to configure the sandbox attrib
 * Brands who want to remove the sandbox attribute, will have to sign a security waiver
 * site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
 
-## New minimize window icon (CX-286)
+## New minimize window icon
 
 ### Type: enhancement
 

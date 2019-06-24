@@ -1,16 +1,16 @@
 ---
 pagename: New agent manager workspace overview
 categoryName: Agent & manager workspace
-subCategoryName: manager tools for messaging
+subCategoryName: ''
 indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-agent-workspace-overview.html
 isTutorial: false
-date: 2019-05-12 11:55:32 +0000
+date: '2019-05-12T11:55:32.000+00:00'
 isNew: false
----
 
+---
 <div class="important">LivePerson's new agent manager workspace is currently available only to <strong>Early Adopters</strong>. If you'd like to become one and have the new workspace enabled for you, please contact your account team</div>
 
 ## Introduction

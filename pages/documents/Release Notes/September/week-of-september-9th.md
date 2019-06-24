@@ -196,7 +196,7 @@ Audio messaging is currently still in beta, due to the fact that the audio files
 
 ### Dynamic text (macros) in Predefined Content for messaging (LE-91252)
 
-This feature enables users to set up dynamic text, such as agent name or skill name, within the predefined content template for messaging conversations. Predefined Content helps automate some of the agent’s freehand typing, which will result in better agent productivity.
+This feature enables users to set up dynamic text, such as agent name or skill name, within the Predefined Content template for messaging conversations. Predefined Content helps automate some of the agent’s freehand typing, which will result in better agent productivity.
 
 #### **Setting**
 

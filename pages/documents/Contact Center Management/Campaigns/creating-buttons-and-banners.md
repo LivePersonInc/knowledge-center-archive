@@ -9,10 +9,10 @@ level3: ''
 permalink: contact-center-management-campaigns-creating-buttons-and-banners.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 10:55:35 +0000
+date: '2019-01-28T10:55:35.000+00:00'
 redirect_from:
-  - html-engagement-unsupported-elements.html
-  - html_engagement.html
+- html-engagement-unsupported-elements.html
+- html_engagement.html
 
 ---
 ## Choosing your engagement type
@@ -31,13 +31,13 @@ Content banners can also be used to redirect visitors to your community page, to
 
 Browse the engagement template gallery and check out the formats: **embedded**, **sticky**, **overlay**, **toaster**, **slide-out** and **peeling corner** banners and buttons.
 
-### Available Use-Case Designs
+### Available use-case designs
 
 Feel free to use the ready-made templates or to customize them to match the look and feel of your brand. The different-sized templates provide additional designs, so check them out too.
 
 ![](/img/creating-buttons-and-banners-2.png)
 
-## Format Options
+## Format options
 
 ### Embedded engagements
 
@@ -73,7 +73,7 @@ A **peeling corner banner** acts as a teaser triangle that expands when users pe
 
 ![](/img/creating-buttons-and-banners-2.gif)
 
-## Engagement Settings
+## Engagement settings
 
 **To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:**
 
@@ -154,11 +154,11 @@ LiveEngage visitors experience meets disability accessibility requirements and f
 
 For more information on accessibility requirements, refer to the [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/).
 
-## Customizing Engagements Using HTML Code
+## Customizing engagements using HTML code
 
 LiveEngage provides you with an HTML engagement type that gives you granular control over the look, feel and behavior of your engagements. By implementing your own HTML code, you can design your engagements according to your needs.
 
-### Prepare Your HTML Engagement Code
+### Prepare your HTML engagement code
 
 **When writing HTML code for your engagements, take into consideration the following:**
 
@@ -166,7 +166,7 @@ LiveEngage provides you with an HTML engagement type that gives you granular con
 * **Test Your Code:** It is recommended that you test your HTML code before using it in LiveEngage. If your code depends on resources on your website, such as CSS, you should test it on your website first. If it is not dependent on resources on your website, you can use online code editors such as [https://jsfiddle.net/.](https://jsfiddle.net/. "https://jsfiddle.net/.")
 * **Accessibility:** Verify that your code is compliant with the Web Content Accessibility Guidelines.
 
-## Set up an HTML Engagement in LiveEngage
+## Set up an HTML engagement in LiveEngage
 
 Once you’ve prepared HTML code for your engagement, set up your engagement in LiveEngage.
 
@@ -195,10 +195,41 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 </ul>
 </div>
 
-## Supported Actions
+## Supported actions
 
 | Action | Supported Formats | Description | LiveEngage Code |
 | --- | --- | --- | --- |
 | Click | Overlay and embedded | Adds a click action to content engagements. | data-LP-event = "click" |
 | Click to chat | Overlay and embedded | Adds a click action to content engagements. When clicked opens a chat window. | data-LP-event = "click" |
 | Close | Overlay only | Adds a close engagement action to content and chat engagements. | data-LP-event = "close" |
+
+## Unsupported elements and attributes
+
+The following are not supported for HTML engagements:
+
+**HTML tags:**
+
+* script
+* iframe
+* object
+* embed
+* style
+* line
+
+**Attributes/events:**
+
+* HTML DOM Events such as onClick, onFocus, onKeyDown, etc.
+* dirname
+* srcdoc
+* begin
+* to
+
+**Attribute values containing:**
+
+* “javascript:”
+* data URIs (i.e., “data:”)
+* “mhtml:”
+* <% %>
+* \[\\S+\]
+* Mask property (i.e., “mask:”)
+* Dynamic expressions (i.e., expression(...))

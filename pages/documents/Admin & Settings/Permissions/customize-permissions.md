@@ -170,11 +170,11 @@ The following core permissions are included with the campaign manager role and c
 | --- | --- | --- |
 | Edit campaigns | Create and modify campaigns | On |
 | Publish campaigns | Control the publishing of campaigns | On |
-| Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
+| Configure Predefined Content | Add and edit Predefined Content in the Agent Workspace | On |
 | Configure automatic messages | Add and edit Automatic Messages in the Agent Workspace | On |
 | Configure engagement attributes | Add and edit Engagement Attributes used in Campaigns | On |
-| Import and export predefined content | Import and export Predefined Content to and from LiveEngage | On |
-| Export predefined content | Export Predefined Content from LiveEngage | On |
+| Import and export Predefined Content | Import and export Predefined Content to and from LiveEngage | On |
+| Export Predefined Content | Export Predefined Content from LiveEngage | On |
 | View API keys | For brands who have enabled the API key management feature, this permission allows viewing of API keys used by the brand | On |
 | Edit conversation source | Configure consumer entry points to engage with your brand | On |
 | Edit skills | Edit skills and configure default survey for skill change | On |

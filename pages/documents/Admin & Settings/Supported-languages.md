@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-29 10:04:15 +0000
 redirect_from:
   - change-the-interface.html
-
+  - manage-languages-predefined.html
 ---
 ## Languages supported on the visitor side
 
