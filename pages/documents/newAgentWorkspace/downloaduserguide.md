@@ -9,4 +9,4 @@ permalink: agent-manager-workspace-new-agent-workspace-training-deck.html
 layout: newAgentWorkspace
 ---
 
-Download the user guide here.
+Coming soon.
