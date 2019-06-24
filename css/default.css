@@ -1275,6 +1275,14 @@ div#cookie-law {
   width: 910px;
 }
 
+.noborder {
+  border: 0 !important;
+}
+
+.noborder .h1 {
+  font-size: 44px;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
