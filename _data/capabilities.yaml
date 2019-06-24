@@ -12,7 +12,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Typing indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -25,7 +24,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Read indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -38,7 +36,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Read indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -51,7 +48,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Delivered indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -64,7 +60,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Delivered indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -77,7 +72,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: In-thread new messages notification
     channels:
     - mobileAppMessaging: "Supported"
@@ -90,7 +84,6 @@
     - line: "Supported"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: Hyperlinked regular expressions
     tooltip: 'For auto-linking of phone numbers, dates, url, etc.'
     channels:
@@ -104,7 +97,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: Desktop application support
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -117,7 +109,6 @@
     - line: "Supported"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: Continuity across devices
     channels:
     - mobileAppMessaging: "Supported (authenticated only)"
@@ -130,7 +121,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Consumer resolve conversation
     channels:
     - mobileAppMessaging: "Supported"
@@ -143,7 +133,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Window branding and customization
     channels:
     - mobileAppMessaging: "Supported"
@@ -156,8 +145,7 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
-  - featureName: Accessibility
+  - featureName: Accessbility
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
@@ -169,7 +157,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
 
 
 - categoryName: Rich Messaging
@@ -187,7 +174,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Enlarged emojis
     channels:
     - mobileAppMessaging: "Supported"
@@ -200,7 +186,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Stickers - consumer to agent
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -213,7 +198,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Stickers - agent to consumer
     channels:
     - mobileAppMessaging: "N/A in Channel"
@@ -226,7 +210,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Photo Sharing - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -239,50 +222,34 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Supported"
   - featureName: Photo Sharing - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
-    - appleBusinessChat: "Supported"
+    - appleBusinessChat: "Coming Q2"
     - sms: "N/A in channel"
     - facebook: "Not Supported"
-    - whatsapp: "Supported"
+    - whatsapp: "Coming Q2"
     - googleRCS: "N/A in channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
-  - featureName: File sharing - consumer to agent
+  - featureName: File sharing
     channels:
     - mobileAppMessaging: "N/A in Channel"
     - webMessaging: "Supported"
-    - appleBusinessChat: "Supported"
+    - appleBusinessChat: "Coming Q2"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
-    - whatsapp: "Supported"
+    - whatsapp: "Coming Q2"
     - googleRCS: "N/A in Channel"
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
-  - featureName: File sharing - agent to consumer
-    channels:
-    - mobileAppMessaging: "Supported"
-    - webMessaging: "Supported"
-    - appleBusinessChat: "Supported"
-    - sms: "N/A in Channel"
-    - facebook: "N/A in Channel"
-    - whatsapp: "Supported"
-    - googleRCS: "N/A in Channel"
-    - line: "N/A in Channel"
-    - messagingWindowAPI: "N/A in Channel"
-    - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: Voice/video calls
     channels:
-    - mobileAppMessaging: "Coming in Q2"
-    - webMessaging: "Coming Q2"
+    - mobileAppMessaging: "Coming in Q3"
+    - webMessaging: "Coming Q3"
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
     - facebook: "N/A in Channel"
@@ -291,7 +258,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -304,7 +270,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Link previews
     channels:
     - mobileAppMessaging: "Supported"
@@ -317,7 +282,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Quick Replies
     channels:
     - mobileAppMessaging: "Supported"
@@ -330,7 +294,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Structured content cards
     channels:
     - mobileAppMessaging: "Supported"
@@ -343,7 +306,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Structured content carousel
     channels:
     - mobileAppMessaging: "Supported"
@@ -356,7 +318,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Structured content list
     channels:
     - mobileAppMessaging: "Supported"
@@ -369,11 +330,10 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Structured content time picker
     channels:
     - mobileAppMessaging: "Supported"
-    - webMessaging: "N/A in Channel"
+    - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
@@ -382,7 +342,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Audio Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -395,7 +354,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Supported"
   - featureName: Payment
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -408,7 +366,6 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
 
 - categoryName: Operations
   features:
@@ -424,7 +381,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Engagement Attributes
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -437,7 +393,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Automatic Messages
     channels:
     - mobileAppMessaging: "Supported"
@@ -450,7 +405,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Supported"
   - featureName: CSAT question
     channels:
     - mobileAppMessaging: "Supported"
@@ -463,7 +417,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Agent surveys
     channels:
     - mobileAppMessaging: "Not Supported"
@@ -476,7 +429,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: LiveDeflect support
     tooltip: 'Brand initiated conversation.'
     channels:
@@ -490,7 +442,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Encryption
     tooltip: 'As conversation is in transit.'
     channels:
@@ -504,7 +455,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Encryption at rest
     channels:
     - mobileAppMessaging: "Supported"
@@ -517,7 +467,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Authentication
     tooltip: 'Channel natively supports a way to verify that the consumer is "trusted."'
     channels:
@@ -531,7 +480,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
   - featureName: Client side data masking
     channels:
     - mobileAppMessaging: "Supported"
@@ -544,7 +492,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "N/A in Channel"
     - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
   - featureName: Agent side historical data masking
     tooltip: 'For example, a credit card number.'
     channels:
@@ -558,20 +505,18 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Secure form
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
-    - sms: "Supported"
-    - facebook: "Supported"
-    - whatsapp: "Supported"
-    - googleRCS: "Supported"
+    - sms: "Coming Soon"
+    - facebook: "Coming Soon"
+    - whatsapp: "Coming Soon"
+    - googleRCS: "Coming Soon"
     - line: "Coming Soon"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Supported"
 
 - categoryName: Automation
   features:
@@ -587,7 +532,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Routing bot
     channels:
     - mobileAppMessaging: "Supported"
@@ -600,7 +544,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Post conversation survey bot
     channels:
     - mobileAppMessaging: "Supported"
@@ -613,7 +556,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: After hours bot
     channels:
     - mobileAppMessaging: "Supported"
@@ -626,7 +568,6 @@
     - line: "Not Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
 
 - categoryName: Consumer Profile
   features:
@@ -642,7 +583,6 @@
     - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
     - featureName: Consumer unique identifier
       channels:
       - mobileAppMessaging: "Supported"
@@ -655,7 +595,6 @@
       - line: "Supported"
       - messagingWindowAPI: "Supported"
       - connectorAPI: "Supported"
-    - weChat: "Not Supported"
   - featureName: Consumer image
     channels:
     - mobileAppMessaging: "Supported"
@@ -668,4 +607,3 @@
     - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"

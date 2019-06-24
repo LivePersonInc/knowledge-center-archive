@@ -27,7 +27,7 @@ As an agent, you can access Predefined Content when inside a conversation, using
 
 From the conversation window,
 
-* Click the Predefined Content widget to display a list of Predefined Content categories (Greeting, Conversational, etc.),
+* Click the Predefined Content widget to display a list of predefined content categories (Greeting, Conversational, etc.),
 * Click a category to display its list of predefined content.
 
 From the conversation window,
@@ -35,18 +35,18 @@ From the conversation window,
 * Open the Predefined Content widget
 * Enter a string in the search box.
 
-Use hotkeys to display a category of Predefined Content to choose from:
+Use hotkeys to display a category of predefined content to choose from:
 
 * Press a letter + right arrow to display the category’s items,
 * Then click an item from the list to enter it in the conversation text box. For example, pressing W + right arrow displays the Greeting category’s predefined content.
 
-Use hotkeys to enter a Predefined Content item in a conversation:
+Use hotkeys to enter a predefined content item in a conversation:
 
 * Place your cursor in the conversation text box,
 * Press a letter + right arrow + number (the number of the item in the category’s list). For example, press W + right arrow + 1 to enter the first item in the Greeting category.
 
   {: .notice}  
-  Your administrator can provide you with the list of Predefined Content and hotkeys defined in your account.
+  Your administrator can provide you with the list of predefined content and hotkeys defined in your account.
 
 ## How do I add links to predefined content?
 

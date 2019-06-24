@@ -2,13 +2,13 @@
 pagename: Consumer experience
 categoryName: Troubleshooting
 subCategoryName: Web messaging
-indicator: both
+indicator: chat
 subtitle: Troubleshooting for questions relating to the consumer experience
 level3: ''
 permalink: troubleshooting-messaging-consumer-experience.html
 isTutorial: false
 isNew: false
-date: '2019-02-26T12:39:36.000+00:00'
+date: 2019-02-26 12:39:36 +0000
 
 ---
 ## Agent icon not aligned with first line of message on consumer iOS devices

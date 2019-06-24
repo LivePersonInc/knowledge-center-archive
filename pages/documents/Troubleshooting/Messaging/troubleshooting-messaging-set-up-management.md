@@ -70,7 +70,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 * The CSAT survey is displayed regardless of the assigned agent's state (Online, Back, Away).
 * The CSAT survey is displayed regardless of whether the conversation was interactive (message sent from both the agent and the consumer) or not.
 
-## Why can’t we change the order of macros in iOS strings in Predefined Content or auto messages?
+## Why can’t we change the order of macros in iOS strings in predefined content or auto messages?
 
 ### Cause:
 
@@ -85,17 +85,17 @@ However, in Android the order of the macros can be changed. For example, the mes
 
 This is expected behavior. The order of macros in iOS strings is predetermined.
 
-## Why isn’t dynamic text in Predefined Content working?
+## Why isn’t dynamic text in predefined content working?
 
 ### Cause:
 
-When messaging agents use a Predefined Content item that contains dynamic text, when the content item is displayed to a consumer, the dynamic text is not being replaced with a value. This is because dynamic Text in Predefined Content is not  supported for Messaging. It is supported in chat only.
+When messaging agents use a predefined content item that contains dynamic text, when the content item is displayed to a consumer, the dynamic text is not being replaced with a value. This is because dynamic Text in predefined content is not  supported for Messaging. It is supported in chat only.
 
 ### Solution:
 
-Messaging agents should not use Predefined Content items that contains dynamic text.
+Messaging agents should not use predefined content items that contains dynamic text.
 
-Best practice: Use a naming convention that helps easily identify Predefined Content items that contain dynamic text. This will help messaging agents easily avoid using those items.
+Best practice: Use a naming convention that helps easily identify predefined content items that contain dynamic text. This will help messaging agents easily avoid using those items.
 
 For example, the content item mentioned above could be named How may I help? (chat only).
 
