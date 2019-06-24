@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: welcome-to-the-enhanced-agent-workspace-taking-breaks-ending-your-shift.html
+permalink: user-guide-taking-breaks-ending-your-shift.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false

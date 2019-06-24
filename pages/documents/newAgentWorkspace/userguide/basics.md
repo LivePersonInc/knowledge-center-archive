@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: welcome-to-the-enhanced-agent-workspace-new-workspace-basics.html
+permalink: user-guide-new-workspace-basics.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
@@ -26,7 +26,7 @@ Icons - what do the status on the list mean?
 
  over due conversation.
 
-![image alt text](image_1.png)
+![image alt text](img/agentlist.jpg){:class="newagent"}
 
 ## Status filters
 
@@ -56,13 +56,13 @@ Agents can filter conversations in the list by the following statuses:
 
     * *How to use*: filter these conversations at the end of your shift, or if you have down time.  This will help you to review that you have taken all the necessary wrap up steps and documentation for each one.  You can also use this filter if you are planning to proactively follow up with conversations.
 
-![image alt text](image_2.png)
+![image alt text](img/filters.jpg){:class="newagent"}
 
 ## Your personal data bar
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
 
-![image alt text](image_3.png)
+![image alt text](img/databar.jpg){:class="newagent"}
 
 The data bar in your workspace will represent the queue data that is relevant only to you and your conversations for the current shift. Here you will see real-time data tracking the following:
 

@@ -1,7 +1,7 @@
 - categoryname: The enhanced agent workspace
   image: getting-started
 
-- categoryname: Welcome to the enhanced agent workspace
+- categoryname: User guide
   image: user-guide
   subcategories:
     - subcategoryname: Introducing the new agent workspace

@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: welcome-to-the-enhanced-agent-workspace-faqs.html
+permalink: user-guide-faqs.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
@@ -13,7 +13,7 @@ layout: newAgentWorkspace
 ---
 Common questions and LivePerson’s recommendations
 
-## **I**** want to go on my break in 10 minutes. What should I tell my customers? And, do I need to do anything with my manual SLA?**
+## **I want to go on my break in 10 minutes. What should I tell my customers? And, do I need to do anything with my manual SLA?**
 
 If there is a very active conversation, you can tell the customer you are taking a break. You can give them the option to wait, or to be transferred to another agent.
 

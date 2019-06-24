@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: welcome-to-the-enhanced-agent-workspace-managing-messaging-conversations.html
+permalink: user-guide-managing-messaging-conversations.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
@@ -32,11 +32,12 @@ Conversations that reach your workplace have already undergone detailed analysis
 
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
-![image alt text](image_4.png)
+![image alt text](img/autoaccept.jpg){:class="newagent"}
+
 
 (Auto accept)
 
-![image alt text](image_5.png)
+![image alt text](img/advancedaccept.jpg){:class="newagent"}
 
 (Advanced mode)
 
@@ -46,15 +47,15 @@ There are several tools in place to help you access the information you’ll nee
 
 * **Conversation summary**: this dedicated widget enables multiple agents to write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
-![image alt text](image_6.png)
+![image alt text](img/summary.png)
 
 * **Conversation history**: For repeat customers, any previous messaging history will display directly in the conversation transcript. This way agents can simply scroll up to review previous conversations.
 
-![image alt text](image_7.png)
+![image alt text](img/convohistory.jpg){:class="newagent"}
 
 * **Consumer info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 
-![image alt text](image_8.png)
+![image alt text](img/consumerinfo.jpg){:class="newagent"}
 
 * **Custom widgets**: Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
 
@@ -62,7 +63,7 @@ There are several tools in place to help you access the information you’ll nee
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
-![image alt text](image_9.png)
+![image alt text](img/predefinedcontent.png)
 
 While conducting a conversation, there are a few actions you can take:
 
@@ -78,6 +79,6 @@ Every time a consumer sends a message, the SLA, or your expected time to reply r
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
-![image alt text](image_10.png)
+![image alt text](img/sla.jpg){:class="newagent"}
 
 ## Add new section: closing conversations
