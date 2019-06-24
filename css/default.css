@@ -1267,6 +1267,10 @@ div#cookie-law {
   display: none;
 }
 
+.newAgentHide {
+  display: none !important;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){

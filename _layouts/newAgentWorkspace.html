@@ -24,7 +24,7 @@
     <div id="homebuttons">
       <span id="login" class="homebutton"><a target="_blank" href="https://liveengage.liveperson.net">LivePerson login</a></span>
     </div>
-    <a href="https://knowledge.liveperson.com/" class="casey"><img class="caseyPortrait" src="img/open-casey-header.svg" /><span>CASEY</span></a>
+    <a href="https://knowledge.liveperson.com/" class="casey newAgentHide"><img class="caseyPortrait" src="img/open-casey-header.svg" /><span>CASEY</span></a>
   </div>
   <div id="defaultsidebar">
     {% include newAgentWorkspacesidebar.html %}
@@ -44,7 +44,7 @@
       <div id="subtitle">{{ page.subtitle }}</div>
       <div id="indicatorrow">
         <div id="lastmodified">Last modified: {{ page.last_modified_at | date: '%D' }}</div>
-        <div id="indicators">
+        <div id="indicators" class="newAgentHide">
           {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
           <div class="indicator chat">Chat</div>
           {% endif %}
@@ -70,7 +70,7 @@
     {{ content | extlinks }}
   </div>
   </div>
-    <div id="feedback">
+    <div id="feedback" class="newAgentHide">
       <div class="feedbacktitle">Missing something?</div>
       <br>
       <div class="notice">We'd be happy to hear from you. You can <a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank">suggest</a> changes to this document, <a href="https://github.com/EdenKupe/knowledge-center/issues/new" target="_blank">open</a> an issue if you find anything that needs correcting or <a href="https://lpproduct.typeform.com/to/ffxrtD" target="_blank">submit</a> a request for a document you think is missing. You might also want to <a href="https://developers.liveperson.com" target="_blank">check our Developers' Community</a> for more in depth documentation.</div>

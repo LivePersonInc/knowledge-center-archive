@@ -1,11 +1,11 @@
 <ul id="mysidebar">
 {% for category in site.data.workspacedocuments %}
-{% if category.categoryname == "The new Agent Workspace" %}
+{% if category.categoryname == "Welcome to the enhanced agent workspace" %}
 <hr class="sidebarhr" />
   <li class="categoryfolder">
     <div class="itemdetails canOpen">
-    <img class="sidebarimage" src="/img/{{ category.image }}.png" />
-    <a class="normalLink" onclick="linkclick(event,this)" href="/agent-manager-workspace-new-agent-workspace-welcome.html">{{ category.categoryname }}</a>
+    <img class="sidebarimage" src="/img/user-guide.svg" />
+    <span>{{ category.categoryname }}</span>
   </div>
   <ul class="categorylist getsOpened">
   {% for subcategory in category.subcategories %}

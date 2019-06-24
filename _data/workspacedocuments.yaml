@@ -1,7 +1,7 @@
-- categoryname: The new Agent Workspace
+- categoryname: The enhanced agent workspace
   image: getting-started
 
-- categoryname: User Guide
+- categoryname: Welcome to the enhanced agent workspace
   image: user-guide
   subcategories:
     - subcategoryname: Introducing the new agent workspace
@@ -19,7 +19,7 @@
 - categoryname: Roadmap
   image: whats-new
 
-- categoryname: Change management plan
+- categoryname: Rollout steps
   image: admin-settings
 
 - categoryname: Release notes
