@@ -8,10 +8,10 @@ level3: ''
 permalink: contact-center-management-messaging-operations-transfer-to-agent.html
 isTutorial: false
 isNew: false
-date: 2019-03-26 14:17:05 +0000
+date: '2019-03-26T14:17:05.000+00:00'
+published: true
 
 ---
-
 ## Introduction
 
 The transfer to agent capability enables agents, agent managers and bots to transfer a messaging conversation to a specific agent, chosen by the transferring agent. Brands will be able to configure the skills, states, and overall behavior of the transferred conversation.
@@ -54,7 +54,7 @@ Once they click on the tab, a list of optional destination agents will be shown.
 
 ## Destination agents list
 
-Only agents in states for which the transferring agent has permissions will appear in the destination agents list.
+Only agents in states for which the transferring agent has permissions will appear in the destination agents list. The destination user must be assigned the agent role in order to appear in the destination agents list. Additionally, they must have messaging concurrency configured (with max no. of messaging conversations set to >0).
 
 In addition, the list will only contain agents who are assigned to skills that the current skill of the conversation is set to transfer to, according to the following existing setting:
 
@@ -107,7 +107,7 @@ To configure this feature please contact your LivePerson representative.
 
 ## Fallback to skill
 
-Brands will be able to define how long conversations will wait for the destination agent to accept them (whether manually accepting them or by auto accept) before the conversation will be routed to any other available agent on the destination skill. The wait time is measured from the moment of transfer. This setting will be available on the account and skill level.
+Brands will be able to define how long conversations will wait for the destination agent to accept them (whether manually accepting them or by auto accept) before the conversation will be routed to any other available agent on the destination skill. The wait time is measured from the moment of transfer and limited to a maximum of 21 days. This setting will be available on the account and skill level.
 
 ### Account level configuration
 

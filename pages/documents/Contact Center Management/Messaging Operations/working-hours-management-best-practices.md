@@ -40,6 +40,10 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
 
 * If the default SLA is 1 hour and the account is currently on an active shift, the ETTR = SLA = 1 hour.
 * If the default SLA is 1 hour and the account is currently offline, and the next shift will begin in 12 hours from now, the ETTR = 12 + 1 = 13 hours.
+* If the SLA is greater than the remaining shift time, (i.e, the SLA is 2 hours but the shift ends in just 1 hour), and the next shift begins in 12 hours, then the ETTR = 12 - 1 = 11 hours. Use the equation:  
+  ETTR = time to next shift - (SLA - SLA that has already passed during original shift)
+
+Head to [Shift Scheduler configuration guide](https://knowledge.liveperson.com/contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html#configuration) to learn more on how to configure automated ETTR messages settings. 
 
 ## Clarifications
 

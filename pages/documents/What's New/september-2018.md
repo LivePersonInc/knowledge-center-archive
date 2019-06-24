@@ -62,7 +62,7 @@ LivePerson automatically masks credit card numbers by default and now allows you
 
 ## Automate dynamic tex in predefined content
 
-Admins can set up dynamic text (macros), such as agent name or skill name, within predefined content templates for messaging conversations. This increases agent productivity and minimizes errors as agents can automate text that they use time and time again.
+Admins can set up dynamic text (macros), such as agent name or skill name, within Predefined Content templates for messaging conversations. This increases agent productivity and minimizes errors as agents can automate text that they use time and time again.
 
 ## Use Apple Pay directly from within a conversation
 
