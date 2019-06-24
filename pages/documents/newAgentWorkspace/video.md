@@ -9,4 +9,4 @@ permalink: agent-manager-workspace-new-agent-workspace-tutorial.html
 layout: newAgentWorkspace
 ---
 
-Video here.
+Coming soon.
