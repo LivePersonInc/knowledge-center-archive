@@ -372,8 +372,8 @@
     - weChat: "Not Supported"
   - featureName: Structured content time picker
     channels:
-    - mobileAppMessaging: "Supported"
-    - webMessaging: "Supported"
+    - mobileAppMessaging: "N/A in Channel"
+    - webMessaging: "N/A in Channel"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
     - facebook: "Supported"
