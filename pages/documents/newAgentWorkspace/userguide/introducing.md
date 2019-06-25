@@ -11,25 +11,17 @@ date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
 ---
+The main enhancements to the agent workspace include: 
 
-Enhanced by automation and featuring an upgraded design, the agent workspace has been updated to boost agent efficiency and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for the agent. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
+**New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease. 
 
-![alt text](/img/new-agent-workspace-5.jpg){:class="newagent"}
+**Recommendation of next conversation to answer:** Dynamic conversation list features built-in automation that tells you which conversation to answer next, removing the need for decision making that can be time consuming and prone to human error. 
+New idle status filter: The addition of the new ‘idle’ status filter allows agents to determine which conversations have been pending a consumer response for over five minutes.
 
-## What’s new?
+**Enhanced conversation summary:** The conversation summary widget has been enhanced to support the entering of multiple notes by several agents. When handling conversations that have been transferred and owned by several agents, this will allow you to see a log of comments for context. 
 
-The main enhancements to the agent workspace include:
+**History in transcript:** The conversation history now appears directly in the transcript so that you can easily access past conversations, rather than needing to navigate to a dedicated widget. 
 
-* **Dynamic conversation list**: Built-in automation sorts conversations by SLA for the agent, saving them valuable time by calculating variables, including SLAs and consumer replies, and focusing agents’ attention.
+**Closed conversation status filter:** Closed conversations can be filtered into the conversation list by status, allowing agents to ensure that all their documentation is in place when wrapping up their shift. 
 
-* **Recommendation of next conversation to answer**: Built-in automation tells agents which conversation to answer next, removing the need for decision making that can be time consuming and prone to human error.
-
-* **Recommended next action (coming September)**: Recommended actions powered by Maven are interwoven into the conversation within the newly designed workspace. Recommended actions include adding a bot to the conversation, recommending a Knowledge Center article, and suggesting the next response.
-
-* **New idle filter** :The addition of the new ‘idle’ status filter allows agents to determine which conversations have been pending a consumer response for over five minutes.
-
-* **Enhanced conversation summary**: The conversation summary widget has been enhanced to support the entering of multiple notes by several agents, allowing them to see a log of comments for context.
-
-* **History in transcript**: The conversation history now appears directly in the transcript so that it can be easily accessed, rather than in a dedicated widget.
-
-* Closed conversations
+**Custom widgets:** The enhanced workspace supports the addition of up to 10 custom widgets. This allows brands to supply agents with convenient access to the custom tools necessary for handling messaging conversations. 
