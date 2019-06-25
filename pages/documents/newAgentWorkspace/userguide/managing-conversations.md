@@ -22,15 +22,15 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ## Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations for the agent. This means that conversations are automatically ordered by importance for you, so you don’t waste valuable time determining who to help next.
+The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations. 
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
 Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
 
-* **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
+* **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
 
-* **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your conversation list, sorted by SLA. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
 ![image alt text](img/autoaccept.jpg){:class="newagent"}
 
@@ -45,11 +45,11 @@ Conversations that reach your workplace have already undergone detailed analysis
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
-* **Conversation summary**: this dedicated widget enables multiple agents to write notes and comments about the conversation. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
+* **Conversation summary**: This dedicated widget enables agents to write notes and comments about the conversation. It has been enhanced to support the entering of multiple notes by several agents, allowing you to see a log of comments for context. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
 ![image alt text](img/summary.png)
 
-* **Conversation history**: For repeat customers, any previous messaging history will display directly in the conversation transcript. This way agents can simply scroll up to review previous conversations.
+* **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way agents can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM. 
 
 ![image alt text](img/convohistory.jpg){:class="newagent"}
 
@@ -57,21 +57,54 @@ There are several tools in place to help you access the information you’ll nee
 
 ![image alt text](img/consumerinfo.jpg){:class="newagent"}
 
-* **Custom widgets**: Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
+* **Custom widgets**: Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. The enhanced workspace allows brands to add up to 10 custom widgets, giving you convenient access to all your tools. 
 
 ## Replying to consumers
+
+### Predefined Content
 
 You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
 
 ![image alt text](img/predefinedcontent.png)
 
+### Rich messaging 
+
+There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich messaging enhances the consumer experience by providing a richer, more engaging channel of communication.
+
+The following types of rich messaging are being supported for the enhanced agent workspace: 
+* Structured content cards and carousels 
+* Consumer to agent photo sharing (coming September)
+* Consumer to agent audio sharing (coming September)
+* Agent to consumer file sharing (coming September)
+
+## Next steps 
+
 While conducting a conversation, there are a few actions you can take:
 
-**Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
+**Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
+**Transfer conversation (coming September):** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
 
-Add file sharing
+**Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer. 
+
+## Closing conversations
+
+The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
+
+The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have ‘options’, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed. As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window.
+
+{: .notice}
+**Please note:** It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate.
+
+### Surveys (coming September) 
+
+**Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, the agent or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
+
+**Agent survey:** The agent survey allows brands to gather data and insights from their agents about their conversations with consumers. Gathering data from the agent's perspective helps them to determine and analyze the nature of conversations and understand their outcomes.
+
+### Auto Close for inactive conversations
+
+For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA. Learn more about auto close for messaging here.
 
 ### Adjusting the SLA for follow up
 
@@ -81,4 +114,4 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 ![image alt text](img/sla.jpg){:class="newagent"}
 
-## Add new section: closing conversations
+
