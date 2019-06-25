@@ -5,8 +5,8 @@ subCategoryName: New Agent Workspace
 indicator: both
 subtitle: Learn more about the new Agent Workspace
 level3: ''
-permalink: agent-manager-workspace-new-agent-workspace-change-management-plan.html
+permalink: agent-manager-workspace-new-agent-workspace-rollout.html
 layout: newAgentWorkspace
 ---
 
-Details on change management here.
+Coming soon.
