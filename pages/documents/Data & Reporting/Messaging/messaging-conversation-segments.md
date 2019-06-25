@@ -53,9 +53,9 @@ System messages (Controller Bot) - are ignored in the calculation of skill-segme
 Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-Queue - returning a conversation to the same skill-queue
-* Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill
+* Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
 
-### Metrics
+## Metrics
 
 | Manager Question | Answer (Metric) | Action |  
 | --- | --- | --- |  
@@ -117,7 +117,7 @@ Please note:
 * Joined agent\\reader leaving a conversation does not end an agent-segment.
 * Time in Queue is not ‘owned’ by any agent, therefore is not be part of any agent-segment.
 
-### Metrics
+## Metrics
 
 | Manager Question | Answer (Metric) | Action |  
 | --- | --- | --- |   
