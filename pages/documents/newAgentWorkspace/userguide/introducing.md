@@ -1,11 +1,11 @@
 ---
-pagename: Introducing the new agent workspace
+pagename: Enhancement summary
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: user-guide-introducing-the-new-agent-workspace.html
+permalink: user-guide-enhancement-summary.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
