@@ -1,5 +1,5 @@
 ---
-pagename: 'Messaging Conversation Segments '
+pagename: 'Messaging conversation segments'
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
