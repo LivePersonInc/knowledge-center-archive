@@ -21,7 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: New functionality
 
-<div class="tablecontainer">
+
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -57,7 +57,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 The WeChat Business connector is now available for early adopters. WeChat serves 1 billion monthly active users, mostly in China, and is one of the world's most powerful apps. WeChat provides brands the ability to register as an official account, which enables them to interact with subscribers and provide them with services.
@@ -82,7 +81,6 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -117,7 +115,6 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 Support has been adding for mapping WeChat Business information and passing it to LiveEngage Engagement Attributes.
@@ -141,7 +138,6 @@ Support has been adding for mapping WeChat Business information and passing it t
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -176,7 +172,6 @@ Support has been adding for mapping WeChat Business information and passing it t
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 Brands can configure skill routing per the brand’s business WeChat ID. Please note that only one WeChat official accounts can be connected to a LiveEngage account.
@@ -189,7 +184,6 @@ Brands can configure skill routing per the brand’s business WeChat ID. Please 
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -224,7 +218,6 @@ Brands can configure skill routing per the brand’s business WeChat ID. Please 
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 The Post Conversation Survey enables brands to gather feedback from consumers and measure their success. Once the messaging conversation is ended by the agent, the survey will be automatically triggered. The bot will start to send the questions one by one as configured by the brand. Upon each consumer response, the bot will send the next question based on the logic defined. The survey questions and answers are based on regular text messages - all customized by the brand.
@@ -249,7 +242,6 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -284,7 +276,6 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 With WeChat Business’ conversational interface, consumers can select images from their device’s album or use the camera to take a real-time image and share it with agents on LiveEngage.
@@ -312,7 +303,6 @@ With WeChat Business’ conversational interface, consumers can select images fr
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -347,7 +337,6 @@ With WeChat Business’ conversational interface, consumers can select images fr
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 With WeChat Business’s conversational interface, consumers can share an audio with an agent by clicking the voice icon and holding down the Hold to Talk button. They can then record a voice message, release the Hold to Talk button, and send.
@@ -369,7 +358,6 @@ With WeChat Business’s conversational interface, consumers can share an audio 
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -404,7 +392,6 @@ With WeChat Business’s conversational interface, consumers can share an audio 
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 Secure forms are now enabled for the WeChat connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment. [Click here](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html#setting-up-liveperson-secure-forms) for more information on configuring secure forms.
@@ -414,7 +401,6 @@ Secure forms are now enabled for the WeChat connector. Secure forms allow brands
 ### Type: New functionality
 
 <div class="tablecontainer">
-<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -449,7 +435,6 @@ Secure forms are now enabled for the WeChat connector. Secure forms allow brands
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 
 Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability. For more information on configuring automatic messages, please [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
@@ -478,7 +463,7 @@ Added the ability for Rollover Agents for a given account to have access to spec
 
 The API now allows sending costume capping configuration in the request body, also on specific conversation flow (search by conversation id).
 
-## Messaging API - Post Conversation Survey (PCS) not filtering correctly by NPS 
+## Messaging API - Post Conversation Survey (PCS) not filtering correctly by NPS
 
 ### Type: Bug Fix
 
@@ -490,7 +475,7 @@ There was missing indication that it requires to filter by child filters if the 
 
 NPS filter returned surveys with invalid answers when the search range included “0”. This bug is fixed.
 
-## AC-Campaign - unable to read delta of Engagement 
+## AC-Campaign - unable to read delta of Engagement
 
 ### Type: Bug Fix
 
