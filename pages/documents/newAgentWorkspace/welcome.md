@@ -9,7 +9,7 @@ permalink: agent-manager-workspace-new-agent-workspace-the-enhanced-agent-worksp
 layout: newAgentWorkspaceHomepage
 ---
 {: .sidebyside}
-![alt text](welcome-page-1.png) ![alt text](welcome-page-2.png) ![alt text](welcome-page-3.png)  
+![alt text](img/welcome-page-1.png) ![alt text](img/welcome-page-2.png) ![alt text](img/welcome-page-3.png)  
 
 
 
