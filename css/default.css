@@ -1283,6 +1283,28 @@ div#cookie-law {
   font-size: 44px;
 }
 
+.homeRow {
+  display: flex;
+  width: 110%;
+  margin-bottom: 20px;
+}
+
+.homeBox {
+  background-color: #5879DA;
+  color: #fff;
+  font-family: "Roboto";
+  margin-right: 35px;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.homeBox span {
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
