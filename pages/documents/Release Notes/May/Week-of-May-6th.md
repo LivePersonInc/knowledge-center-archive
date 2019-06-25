@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### FaaS accessible to customers
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -84,6 +85,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 
 </table>
+</div>
 
 Function as a Service (FaaS) is a LivePerson feature which enables brands to develop custom behaviors within the LiveEngage platform, to better tailor the system to their specific needs. By offering these capabilities, FaaS enables developers to write a simple function, deploy it to LivePerson's infrastructure and make it available to their LivePerson account in minutes. This allows you to create custom logic inside our conversational platform
 
@@ -105,6 +107,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 
 ### FaaS Secret Storage
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -151,6 +154,7 @@ Secrets can be maintained via the **Settings** tab as a key/value storage. Each 
 
 Secure forms are now supported on desktop versions of WhatsApp and Facebook Messenger.
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -190,6 +194,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 ### \[Apple Business Chat\] Added support for augmented reality (AR) file (CX-260)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -239,6 +244,7 @@ AR Mode:
 
 ### \[Apple Business Chat\] Enhanced Secure Forms via rich link (CX-327)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -288,6 +294,7 @@ Improved experience with rich link:
 
 ### Connectors vanity URL support for Secure Forms (CX-183)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">

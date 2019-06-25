@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[ABC\] Authentication Interactive Message - LiveEngage Support (LE-89160)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -51,6 +52,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 The new Apple Business Chat Authentication Interactive Message enables businesses to authenticate consumers using OAuth2 protocol via the Business Chat conversation.
 
@@ -81,6 +83,7 @@ This feature requires enablement - please contact your LivePerson account team
 
 ### \[ABC\] Apply Pay Interactive Message - LiveEngage Support (LE-89070)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -111,6 +114,7 @@ This feature requires enablement - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 Apple Pay provides an easy and secure way for consumers to buy goods and services within a Business Chat conversation - when a brand asks for payment from a customer who is purchasing goods and services through Business Chat, the consumer can use Apple Pay to make the payment.
 
@@ -139,6 +143,7 @@ In the current solution, only a bot (using the Agent SDK) can receive the paymen
 
 ### RCS Business Messaging Connector - Messaging Capabilities (LE-92815)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -169,6 +174,7 @@ In the current solution, only a bot (using the Agent SDK) can receive the paymen
 </tr>
 </tbody>
 </table>
+</div>
 
 The RCS Business Messaging Connector to LiveEngage allows brands to communicate with consumers via RCS Business Messaging.
 
@@ -194,6 +200,7 @@ Google RCS Business Messaging is currently in beta mode. If you have brands that
 
 ### RCS Business Messaging Connector - Conversation Attributes (LE-92816)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -224,6 +231,7 @@ Google RCS Business Messaging is currently in beta mode. If you have brands that
 </tr>
 </tbody>
 </table>
+</div>
 
 Mapping RCS Business Messaging information and passing it to LiveEngage Engagement Attributes:
 
@@ -236,6 +244,7 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 
 ### RCS Business Messaging Connector - Skill Routing (LE-92822)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -266,6 +275,7 @@ The brand’s RCS Agent ID will be mapped to the “Customer Info” - "companyB
 </tr>
 </tbody>
 </table>
+</div>
 
 Brands can now configure skill routing per the brand’s Google RCS Agent ID (Google RCS Business ID).
 
@@ -274,6 +284,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Card, Carousels & Quick Replies (LE-92997, LE-92998, LE-92823)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -304,6 +315,7 @@ This feature requires enablement** - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 LiveEngage Structured Content is the framework for building conversational UI using various features and elements such as: cards, carousels, quick replies and more.
 
@@ -320,6 +332,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Consumer to agent image support (LE-92818)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -350,6 +363,7 @@ This feature requires enablement** - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 With RCS Business Messaging supported by the Android Messages app, consumers can select images from their device’s image gallery or take a real-time image and share it with agents on LiveEngage.
 
@@ -363,6 +377,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### RCS Business Messaging Connector - Reporting on RCS Business Messaging source in LiveEngage (LE-92819)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -393,6 +408,7 @@ This feature requires enablement** - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 **Agent Workspace:**
 
@@ -402,6 +418,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### Post Conversation Survey Support - RCS Business Messaging (LE-94611)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -432,6 +449,7 @@ This feature requires enablement** - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 The post conversation survey is now supported for the RCS Business Messaging connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
@@ -456,6 +474,7 @@ This feature requires enablement** - please contact your LivePerson account team
 
 ### \[Twilio\] Post conversation Survey - Twilio Support (LE-90206)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -486,6 +505,7 @@ This feature requires enablement** - please contact your LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 The post conversation survey is now supported for the Twilio SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
@@ -514,6 +534,7 @@ Quick replies will have the 'alt' property (for text fallback) defined in UMS ve
 
 ### \[Twilio\] Connectors Image Share Support (Consumer -> Agent): Twilio SMS (LE-80986)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -544,6 +565,7 @@ Quick replies will have the 'alt' property (for text fallback) defined in UMS ve
 </tr>
 </tbody>
 </table>
+</div>
 
 The Twilio SMS connector now supports image sharing from consumer to agent. Consumers will be able to use the default SMS app on their device (whether it’s an iOS or Android device), choose an image from the phone gallery or take a new image and share it with the brand. The agent on the LiveEngage web console will receive the image and will be able view.
 
@@ -566,6 +588,7 @@ Consumer side:
 
 ### \[Twilio\] Migration of Twilio Connector from messaging gateway to LE connector platform
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -596,6 +619,7 @@ Consumer side:
 </tr>
 </tbody>
 </table>
+</div>
 
 The current version of the Twilio Connector has been migrated to the new LiveEngage connectors platform, which supports error handling, a message-retry mechanism and was built to enhance the Twilio connector’s performance.
 
@@ -603,6 +627,7 @@ The current version of the Twilio Connector has been migrated to the new LiveEng
 
 ### \[Twilio\] Failure to send a message to Twilio - isn't reported back to UMS and LE UI (LE-90596, LE-88928, LE-75265)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -633,6 +658,7 @@ The current version of the Twilio Connector has been migrated to the new LiveEng
 </tr>
 </tbody>
 </table>
+</div>
 
 If an agent’s message fails to send to Twilio, there's no feedback sent to UMS and LE UI. This causes a error in agent experience, while there’s no error notification sent to the agent to notify him that the message wasn’t delivered.
 
@@ -640,6 +666,7 @@ The current version of theTwilio connector has now been migrated to the new LE c
 
 ### \[Twilio\] Twilio Connector message retry when UMS Socket is Closed (LE-87239)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -670,6 +697,7 @@ The current version of theTwilio connector has now been migrated to the new LE c
 </tr>
 </tbody>
 </table>
+</div>
 
 When a consumer sends an SMS to a brand using the Twilio connector, messages are not being received by UMS due to a momentary failure to open a websocket between the messaging gateway and UMS. This causes the message to be lost.
 

@@ -22,7 +22,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: New functionality
 
 <div class="tablecontainer">
-
 <table class="releasenotes">
 
 <thead>
@@ -90,7 +89,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 
 </table>
-
 </div>
 
 A new dashboard is now introduced, dedicated for reviewing and analyzing survey results in messaging conversations.
@@ -125,6 +123,7 @@ Enabled OOTB.
 
 <div class="tablecontainer">
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -192,6 +191,7 @@ Enabled OOTB.
 </tbody>
 
 </table>
+</div>
 
 </div>
 
@@ -233,6 +233,7 @@ In the new dashboard, brands will have the ability to:
 
 <div class="tablecontainer">
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -300,6 +301,7 @@ In the new dashboard, brands will have the ability to:
 </tbody>
 
 </table>
+</div>
 
 </div>
 
@@ -324,6 +326,7 @@ Here’s a mapping of the dashboards by topic:
 ### Type: Bug fix
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -359,6 +362,7 @@ Here’s a mapping of the dashboards by topic:
 </tbody>
 </table>
 </div>
+</div>
 
 The maximum and minimum agent load metrics in the predefined Performance dashboard for Messaging were showing incorrect values (the numbers were divided by 100 to show the value in decimal number instead of percentage). The calculation is now fixed and the values are shown as percentage.
 
@@ -366,6 +370,7 @@ The maximum and minimum agent load metrics in the predefined Performance dashboa
 
 ### Type: New functionality
 
+<div class="tablecontainer">
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -401,6 +406,7 @@ The maximum and minimum agent load metrics in the predefined Performance dashboa
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 This feature enables agents to identify whether a message from a consumer is a reply from a previous message. Consumer can send a message replying to a previous message with a text, an image, an audio message or any of the supported documents. If a message from a consumer is a reply to a previous message, the reply message will have a UI reply indication icon showing in the agent workspace. Please note that the agent will only see the reply indicator icon. There is no reference to the actual message that the consumer refers to.
@@ -422,6 +428,7 @@ This feature enables agents to identify whether a message from a consumer is a r
 ### Type: New functionality
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -457,6 +464,7 @@ This feature enables agents to identify whether a message from a consumer is a r
 </tbody>
 </table>
 </div>
+</div>
 
 Brands now have the ability to choose whether to add the agent’s nickname as a prefix to each message sent to consumers. When enabled, the agent’s nickname will be prefixed in bold with a line break followed by the message when sent to consumer. This feature is disabled by default.
 Please note that once enabled, agent nickname will be presented for both human and bot agents, but won’t be presented for built-in bots such as the auto messages bot and the Post Conversation Survey bot.
@@ -470,6 +478,7 @@ Please note that once enabled, agent nickname will be presented for both human a
 
 ## \[ABC\]\[WhatsApp\] Add support for consumer to share documents with agent
 
+<div class="tablecontainer">
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -505,6 +514,7 @@ Please note that once enabled, agent nickname will be presented for both human a
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 This feature enables consumers to share files with agents beyond the supported audio and image file types. The following file types are supported:

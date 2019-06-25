@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: Enhancement
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -84,6 +85,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 
 </table>
+</div>
 
 As part of the Messaging Operational API, a new method will be introduced to allow retrieval of operational data on the efficiency of agents.
 
@@ -151,6 +153,7 @@ The time on average taken by an agent to respond to consumer message from the ti
 
 ### Type: New functionality
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -214,5 +217,6 @@ The time on average taken by an agent to respond to consumer message from the ti
 </tbody>
 
 </table>
+</div>
 
 LivePerson is deprecating support for old TLS versions 1.0 and 1.1 for all our services. In this version, we are enabling support for TLS 1.2 and removing support for TLS 1.0 and TLS 1.1.

@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: enhancement
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -53,6 +54,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 **Multiple selection control at the section level**
 <br/>

@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: New functionality
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -56,6 +57,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 The WeChat Business connector is now available for early adopters. WeChat serves 1 billion monthly active users, mostly in China, and is one of the world's most powerful apps. WeChat provides brands the ability to register as an official account, which enables them to interact with subscribers and provide them with services.
@@ -80,6 +82,7 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 ### Type: New functionality
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -114,6 +117,7 @@ The WeChat Business connector enables brands to use LiveEngage as their messagin
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 Support has been adding for mapping WeChat Business information and passing it to LiveEngage Engagement Attributes.
@@ -137,51 +141,6 @@ Support has been adding for mapping WeChat Business information and passing it t
 ### Type: New functionality
 
 <div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Brands can configure skill routing per the brand’s business WeChat ID. Please note that only one WeChat official accounts can be connected to a LiveEngage account.
-
-{: .notice}
-**Please note:** This feature requires enablement. For more information please contact your LivePerson account team.
-
-## WeChat Business Connector - Post Conversation Survey
-
-### Type: New functionality
-
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -217,6 +176,55 @@ Brands can configure skill routing per the brand’s business WeChat ID. Please 
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+
+Brands can configure skill routing per the brand’s business WeChat ID. Please note that only one WeChat official accounts can be connected to a LiveEngage account.
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information please contact your LivePerson account team.
+
+## WeChat Business Connector - Post Conversation Survey
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 The Post Conversation Survey enables brands to gather feedback from consumers and measure their success. Once the messaging conversation is ended by the agent, the survey will be automatically triggered. The bot will start to send the questions one by one as configured by the brand. Upon each consumer response, the bot will send the next question based on the logic defined. The survey questions and answers are based on regular text messages - all customized by the brand.
@@ -241,6 +249,7 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 ### Type: New functionality
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -275,6 +284,7 @@ The survey can be closed in a number of different scenarios: Survey completed, s
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 With WeChat Business’ conversational interface, consumers can select images from their device’s album or use the camera to take a real-time image and share it with agents on LiveEngage.
@@ -302,6 +312,7 @@ With WeChat Business’ conversational interface, consumers can select images fr
 ### Type: New functionality
 
 <div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -336,6 +347,7 @@ With WeChat Business’ conversational interface, consumers can select images fr
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 
 With WeChat Business’s conversational interface, consumers can share an audio with an agent by clicking the voice icon and holding down the Hold to Talk button. They can then record a voice message, release the Hold to Talk button, and send.
@@ -357,48 +369,6 @@ With WeChat Business’s conversational interface, consumers can share an audio 
 ### Type: New functionality
 
 <div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Secure forms are now enabled for the WeChat connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment. [Click here](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html#setting-up-liveperson-secure-forms) for more information on configuring secure forms.
-
-## WeChat Business Connector - Automatic message support
-
-### Type: New functionality
-
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -434,6 +404,52 @@ Secure forms are now enabled for the WeChat connector. Secure forms allow brands
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+
+Secure forms are now enabled for the WeChat connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment. [Click here](https://knowledge.liveperson.com/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html#setting-up-liveperson-secure-forms) for more information on configuring secure forms.
+
+## WeChat Business Connector - Automatic message support
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability. For more information on configuring automatic messages, please [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).

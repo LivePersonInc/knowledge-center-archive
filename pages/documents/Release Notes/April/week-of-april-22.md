@@ -22,7 +22,9 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Welcome message is sent in Post Conversation Survey (CX-320)
 
+<div class="tablecontainer">
 <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>SMS</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+</div>
 
 When the welcome message is configured for “Every new conversation” and a Post Conversation Survey is configured for the window, the welcome message is displayed after the conversation is closed and before the survey is displayed.
 
@@ -34,7 +36,9 @@ This issue has now been resolved and when the conversation is closed, the welcom
 
 ### Agent avatar appears next to visitor’s message when visitor sent an image (CX-169)
 
+<div class="tablecontainer">
 <table class="releasenotes"> <thead> <tr class="categoryrow"> <th>Web Messaging</th> <th>Mobile App Messaging</th> <th>SMS</th> <th>Facebook Messenger</th> <th>ABC</th> <th>Line</th> <th>Google RCS</th> <th>Google My Business</th> <th>WhatsApp Business</th> <th>CM</th> <th>Chat</th> </tr> </thead> <tbody> <tr> <td>Yes</td> <td>Yes</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> <td>No</td> </tr> </tbody> </table>
+</div>
 
 When a brand is using web messaging and has the agent avatar enabled, the agent avatar appears next to the visitor’s message when the visitor sends an image to the agent.
 

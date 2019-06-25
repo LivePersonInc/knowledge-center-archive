@@ -23,6 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Secure form (PCI) support for SMS using Twilio messaging gateway (94882)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -53,6 +54,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 There is now support for secure forms for the SMS using Twilio messaging gateway. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 

@@ -23,6 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 <div class="tablecontainer">
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -90,6 +91,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 
 </table>
+</div>
 
 </div>
 
@@ -113,6 +115,7 @@ Data Transporter Custom Concatenation Delimiter
 
 <div class="tablecontainer">
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -180,6 +183,7 @@ Data Transporter Custom Concatenation Delimiter
 </tbody>
 
 </table>
+</div>
 
 </div>
 

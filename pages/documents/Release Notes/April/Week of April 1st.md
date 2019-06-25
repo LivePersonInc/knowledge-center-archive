@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Data Transporter - Release of Data Transporter to GA Environment
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -54,6 +55,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** Y (subject to pricing and Beta agreement)
 
@@ -78,6 +80,7 @@ Contact your account manager who can provide details on pricing and enablement.
 
 ### Capacity management for manual SLA (AE-1875)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -110,6 +113,7 @@ Contact your account manager who can provide details on pricing and enablement.
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** yes
 
@@ -125,6 +129,7 @@ This feature may only be configured by LivePerson account team
 
 ### Transfer to Agent (AE-555)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -157,6 +162,7 @@ This feature may only be configured by LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** yes
 
@@ -164,6 +170,7 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 
 ### Agent File Sharing (Phase I - Photos)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -196,6 +203,7 @@ The transfer to agent capability enables agents, agent managers and bots to tran
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers -** Yes
 
@@ -208,6 +216,7 @@ To enable “Agent file sharing” capability on your LiveEngage account, please
 
 ### Language support for an existing feature (MCS) - Italian and Japanese
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -240,6 +249,7 @@ To enable “Agent file sharing” capability on your LiveEngage account, please
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** Yes
 
@@ -259,6 +269,7 @@ Custom lexicon per account is not supported in Japanese language. Japanese lexic
 
 ### Messaging Queue Health - New metric for Time in Queue for brands using routing bot (LE-99210)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -291,6 +302,7 @@ Custom lexicon per account is not supported in Japanese language. Japanese lexic
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** Yes
 
@@ -310,6 +322,7 @@ Full documentation, including the definition of the newly exposed metric, can be
 
 ### Messaging Skill Segments - Filtering skill-segments metrics by user type: bot\\human (LE-97744)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -342,6 +355,7 @@ Full documentation, including the definition of the newly exposed metric, can be
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** Yes
 
@@ -369,6 +383,7 @@ In order to filter the API response by the new parameter, it has to be included 
 
 ### Advance high-priority skills in the queue (AE-492)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -401,6 +416,7 @@ In order to filter the API response by the new parameter, it has to be included 
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** yes
 
@@ -416,6 +432,7 @@ This feature may only be configured by LivePerson account team
 
 ### Send Messaging Queue State event on rings (AE-2560)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -448,6 +465,7 @@ This feature may only be configured by LivePerson account team
 </tr>
 </tbody>
 </table>
+</div>
 
 **Available to all customers?** yes
 

@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: New functionality
 
+
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>

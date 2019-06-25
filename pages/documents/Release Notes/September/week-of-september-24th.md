@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Report Builder: Agent Load KPIs (85669)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Agent Load KPIs have been added to the predefined Messaging Performance Dashboard to reflect how Smart Capacity functions.
 
@@ -85,6 +87,7 @@ Agent Load metrics can be used for staffing plans - for example; agent managers 
 
 ### Conversion rate in Messaging Performance Dashboard (84175)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -115,6 +118,7 @@ Agent Load metrics can be used for staffing plans - for example; agent managers 
 </tr>
 </tbody>
 </table>
+</div>
 
 New conversion metrics are added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
 
@@ -162,6 +166,7 @@ These metrics are enabled out of the box and are available to all report builder
 
 ### Report Builder: Rename of messaging metrics
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -192,6 +197,7 @@ These metrics are enabled out of the box and are available to all report builder
 </tr>
 </tbody>
 </table>
+</div>
 
 **Some metrics have been renamed in the predefined Messaging Performance Dashboard, as following:**
 
