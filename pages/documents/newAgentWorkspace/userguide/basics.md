@@ -14,47 +14,41 @@ layout: newAgentWorkspace
 
 ## Dynamic conversation list
 
-[GIF of list]
+All conversations that were assigned to you or that you are participating in will appear in your workspace. The new dynamic conversation list is sorted by SLA, using automation to stay continually updated and prioritize the most urgent conversations. The list is automatically sorted after every agent action or incoming conversation.This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining which conversation to prioritize. 
 
-Add an ‘always answer the ones on top’ and when you do it will drop down, brining the next conversation you should answer to the top
-
-All conversations that were assigned to you or that you are participating in will appear in your workspace. The new dynamic conversation list utilizes automation to stay continually updated and prioritize the most urgent conversations. This allows agents to efficiently work through the conversation list from top to bottom, rather than manually determining which conversations to prioritize. This list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status.
-
-Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
-
-Icons - what do the status on the list mean?
-
- over due conversation.
+This conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
 ![image alt text](img/agentlist.jpg){:class="newagent"}
 
 ## Status filters
 
+The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. 
+
 Agents can filter conversations in the list by the following statuses:
 
 * **Ongoing**
 
-    * *Definition*: Ongoing conversations are conversations that are currently active and being handled by the agent.
+    * *Definition:* Ongoing conversations are open conversations that are currently active, overdue, or idle.
 
-    * *How to use*: During a daily shift, use this filter to display the conversations you should be handling.
+    * *How to use*: During a daily shift these conversations appear in your conversation list, telling which you should handle.
 
 * **Overdue**
 
-    * *Definition*: Conversations that have not been answered before the SLA has expired.  Each brand can define how quickly they want to commit to a reply (SLA).  
+    * *Definition*: Conversations that have not been answered before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). 
 
-    * *How to use*: Ensure these conversations are always showing during your shift to ensure your KPIs are met.
+    * *How to use*: These conversations are visible during your shift to ensure that the consumers are helped and your KPIs are being met.
 
 * **Idle**
 
-    * *Definition*: These are conversations that are pending a consumer response for over 5 minutes and do not require an active response from the agent.
+    * *Definition*: These are conversations in which the consumer hasn’t replied for 5 minutes or longer, they are defined as inactive. 
 
-    * *How to use*: filter these conversations OUT in order to have a focused and succinct list of conversations that you should focus on.  This filter will help you to keep a close eye on all your active conversations and focus your energies where most needed.
+    * *How to use*: Filter these conversations OUT in order to have a more succinct and organized list of conversations that require urgent action. When the consumer responds they will be filtered back into the list. 
 
 * **Closed**
 
-    * *Definition*: Conversations that have been marked as ‘closed’ by you, by consumers, or automatically closed by the system due to timeout.
+    * *Definition*: Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. Closed conversations are stored for between 48 hours and 14 days, depending on your contact center’s configuration. 
 
-    * *How to use*: filter these conversations at the end of your shift, or if you have down time.  This will help you to review that you have taken all the necessary wrap up steps and documentation for each one.  You can also use this filter if you are planning to proactively follow up with conversations.
+    * *How to use*: Filter these conversations into the list at the end of your shift, or if you have down time. This will allow you to proactively follow up with conversations or to review that you have taken all the necessary steps to wrap up and document each one. 
 
 ![image alt text](img/filters.jpg){:class="newagent"}
 
