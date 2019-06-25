@@ -1276,6 +1276,10 @@ div#cookie-law {
   z-index: 600;
 }
 
+#LP_LogoViewController_1 {
+  display: none !important;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
