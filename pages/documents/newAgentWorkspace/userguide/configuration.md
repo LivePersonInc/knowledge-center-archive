@@ -14,7 +14,7 @@ layout: newAgentWorkspace
 
 Brands can configure the following aspects of the agent experience.
 
-## Configuration from your LivePerson workspace:
+## Configuration from your LivePerson workspace
 
 ### Auto accept
 
@@ -30,21 +30,27 @@ Contact your LivePerson representative to customize the following parameters per
 
 ### Timeframe for closed conversations 
 In the workspace, agents can use the filter in their conversation list to view only ‘closed’ conversations.  This setting will determine the time frame to display the closed conversations, or how far back to display conversations.  
-Default: 2 days
-Min: 1 day
-Max: 14 days
 
+Default: 2 days
+
+Min: 1 day
+
+Max: 14 days
 
 ### Time format
 Determine the format of the time that is displayed to agents within the workspace and within conversations.
+
 Default: 12 hour clock (e.g. 08:59pm)
+
 Option: 24 hour clock (e.g.  = 20:59)
 
 ### Disable emojis
 Brands can elect to remove the option for agents to send emojis during a conversation. 
+
 Default: emojis are enabled 
 
 ### Hide unauthenticated consumer attributes
 The ‘consumer info’ widget displayed consumer attributes to the agents.  This setting enables brands to hide any unauthenticated attributes from the agents. 
+
 Default: agent can view all attributes
 
