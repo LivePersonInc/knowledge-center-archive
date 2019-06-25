@@ -3,7 +3,7 @@ pagename: Enhancement summary
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the Agent Workspace '
+subtitle: 'Get acquainted with the agent workspace '
 level3: ''
 permalink: user-guide-enhancement-summary.html
 isTutorial: false
