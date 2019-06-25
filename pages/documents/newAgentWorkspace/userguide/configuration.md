@@ -24,6 +24,8 @@ Set up:
 1. Login to LivePerson as an admin and access the Night Vision settings by clicking on the Night Vision icon to the top right of the screen.
 2. Select ‘auto accept’ or ‘advanced’ mode.
 
+![alt text](img/workspace-configuration-1.png)
+
 ## Additional custom configuration options 
 
 Contact your LivePerson representative to customize the following parameters per your requirements.
