@@ -12,7 +12,7 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-### Before you take a break
+## Before you take a break
 
 * Set your status to away so that you do not have new incoming conversations assigned to you. If there are multiple away states displayed in your status menu, select the most appropriate one.
 
@@ -22,7 +22,7 @@ layout: newAgentWorkspace
 
     * Return conversations to queue so that another agent will be able to answer the consumer (you can leave notes to help your colleagues in the summary section)
 
-### Before you leave for the day
+## Before you leave for the day
 
 * Set your status to away about 10 minutes before you are ready to leave so that you do not receive new incoming conversations (refer to your company’s manual on guidance for the accurate amount of time  in advance)
 
