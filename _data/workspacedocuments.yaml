@@ -4,8 +4,8 @@
 - categoryname: User Guide
   image: user-guide
   subcategories:
-    - subcategoryname: Introducing the new agent workspace
-    - subcategoryname: New workspace basics
+    - subcategoryname: Enhancement summary
+    - subcategoryname: Workspace basics
     - subcategoryname: Managing messaging conversations
     - subcategoryname: Taking breaks & ending your shift
     - subcategoryname: FAQs
