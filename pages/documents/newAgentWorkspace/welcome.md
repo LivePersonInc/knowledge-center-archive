@@ -28,11 +28,11 @@ What you’ll see upfront is that the colors and style have changed, but more im
 
 ### Guided decision making will save agents tons of time
 
-The new dynamic conversation list with built-in automation sorts conversations by SLA and tells the agent which conversation to handle next, removing the need for decision making that can be time consuming and prone to human error.
+The new dynamic conversation list with built-in automation sorts conversations by the response time, telling agents which conversation to handle next and removing the need for decision making that can be time consuming and prone to human error.
 
 ### Reduced noise and increased agent focus
 
-With asynchronous messaging, the conversation list for agents can sometimes become long while agents are awaiting consumer replies. By filtering our the ‘idle’ conversations, or those that do not require immediate attention, agents can easily tackle a shorter, more focused conversation list.  
+With asynchronous messaging, the conversation list for agents can sometimes become long while agents are awaiting consumer replies. By filtering out the ‘idle’ conversations, or those that do not require immediate attention, agents can easily tackle a shorter, more focused conversation list.  
 
 ### Faster shift wrap up with a quick view of closed conversations
 
