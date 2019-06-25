@@ -8,10 +8,9 @@ level3: ''
 permalink: agent-manager-workspace-new-agent-workspace-the-enhanced-agent-workspace.html
 layout: newAgentWorkspaceHomepage
 ---
+
 {: .sidebyside}
 ![alt text](img/welcome-page-1.png) ![alt text](img/welcome-page-2.png) ![alt text](img/welcome-page-3.png)  
-
-
 
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
 
