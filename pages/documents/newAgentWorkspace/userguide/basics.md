@@ -3,7 +3,7 @@ pagename: Workspace basics
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the Agent Workspace '
+subtitle: 'Get acquainted with the agent workspace '
 level3: ''
 permalink: user-guide-workspace-basics.html
 isTutorial: false
@@ -11,6 +11,8 @@ date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
 ---
+
+As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations. 
 
 ## Dynamic conversation list
 
