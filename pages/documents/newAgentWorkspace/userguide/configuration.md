@@ -12,7 +12,13 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-Brands can configure the following aspects of the agent experience.
+The agent workspace is tailored for messaging agents and is designed using feedback and requests from hundreds of messaging agents.  It is developed for easy plug-and play approach and requires little to no configuration.  
+
+There are few configurations that brands and elect to control for the agent experience as outlined below.  
+
+Note that if you have set up these configurations for the existing agent worksapce, you do not need to set them again - they will automatically apply.
+
+
 
 ## Configuration from your LivePerson workspace
 
