@@ -16,9 +16,8 @@ The agent workspace is tailored for messaging agents and is designed using feedb
 
 There are few configurations that brands and elect to control for the agent experience as outlined below.  
 
-Note that if you have set up these configurations for the existing agent worksapce, you do not need to set them again - they will automatically apply.
-
-
+{: .notice}
+**Please note:** If you have set up these configurations for the existing agent worksapce, you do not need to set them again - they will automatically apply.
 
 ## Configuration from your LivePerson workspace
 
@@ -30,7 +29,7 @@ Set up:
 1. Login to LivePerson as an admin and access the Night Vision settings by clicking on the Night Vision icon to the top right of the screen.
 2. Select ‘auto accept’ or ‘advanced’ mode.
 
-![alt text](img/workspace-configuration-1.png)
+![alt text](img/new-workspace-configuration.png)
 
 ## Additional custom configuration options 
 
