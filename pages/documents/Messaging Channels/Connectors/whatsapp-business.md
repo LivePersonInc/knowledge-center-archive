@@ -7,7 +7,7 @@ subtitle: Tap into the most popular consumer messaging channel on Earth
 level3: ''
 permalink: messaging-channels-whatsapp-business.html
 isTutorial: true
-date: '2019-01-20T12:34:09.000+00:00'
+date: 2019-01-20 12:34:09 +0000
 isNew: false
 
 ---
@@ -21,12 +21,10 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 ## Why use WhatsApp to connect with your consumers?
 
 * **Consumer-preferred channel** — With 1.3 billion users globally, WhatsApp is the most popular consumer-to-consumer messaging app in the world.
-* [**Rich messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich messaging capabilities like consumer-to-agent audio, image, and file sharing, rich links, automatic messages, and read receipts provide an enhanced messaging experience with more flexibility.
+* [**Rich messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich messaging capabilities like consumer-to-agent audio and image sharing, rich links, automatic messages, and read receipts provide an enhanced messaging experience with more flexibility.
 * **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and verified brand name will also appear in the chat list, contact view and chat screens.
 * **Free and easy to use** — WhatsApp is free to use and works on Wi-Fi or cellular data for added accessibility.
 * **Enhanced security** — End-to-end encryption provides an additional layer of security, giving consumers added peace of mind.
-
-[Click here](messaging-channels-messaging-channels-capabilities-comparison.html) to see which capabilities are supported for WhatsApp Business. 
 
 ## How conversations start
 

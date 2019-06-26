@@ -1,13 +1,14 @@
-- categoryname: The new Agent Workspace
-  image: getting-started
+- categoryname: The enhanced agent workspace
+  image: web
 
-- categoryname: User Guide
+- categoryname: User guide
   image: user-guide
   subcategories:
-    - subcategoryname: Enhancement summary
+    - subcategoryname: Summary of enhancements
     - subcategoryname: Workspace basics
     - subcategoryname: Managing messaging conversations
     - subcategoryname: Taking breaks & ending your shift
+    - subcategoryname: Configuration
     - subcategoryname: FAQs
 
 - categoryname: Training Deck
@@ -19,7 +20,7 @@
 - categoryname: Roadmap
   image: whats-new
 
-- categoryname: Change management plan
+- categoryname: Rollout
   image: admin-settings
 
 - categoryname: Release notes

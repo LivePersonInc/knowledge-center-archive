@@ -101,7 +101,7 @@ You set up the authentication server on Campaigns page > Data Sources > Authenti
 
 ### Cause:
 
-A campaign manager/admin user is unable to delete or manage Predefined Content categories. When the user tries to do so, they get the error “You do not have permission to perform the requested action.”
+A campaign manager/admin user is unable to delete or manage predefined content categories. When the user tries to do so, they get the error “You do not have permission to perform the requested action.”
 
 The user has two different LiveEngage accounts. On one of the accounts the user doesn’t have the Configure Predefined Content permission.
 

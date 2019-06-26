@@ -1,5 +1,5 @@
 ---
-pagename: Predefined Content best practices
+pagename: Predefined content best practices
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: messaging
@@ -8,15 +8,12 @@ level3: ''
 permalink: agent-manager-workspace-workspace-configuration-predefined-content-best-practices.html
 isTutorial: false
 isNew: false
-date: '2019-01-31T08:27:46.000+00:00'
+date: 2019-01-31 08:27:46 +0000
 
 ---
 Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
 
-{: .notice}
-Predefined content accepts standard HTML syntax. Therefore, you can use anchors, bold elements, add line breaks and the such using HTML.
-
-## Structuring Predefined Content
+## Structuring predefined content
 
 * **Name your responses well**
   * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
@@ -26,7 +23,7 @@ Predefined content accepts standard HTML syntax. Therefore, you can use anchors,
 * **Only create as many categories as is needed**
   * Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
 * **Don’t create too many responses**
-  * It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
+  *  It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
 * **Consider if a link may do a better job than the response**
   * In some cases, the customer experience may be enhanced by sending a link. The website may better support and explain a process/procedure/product than through a predefined response.
 * **Allow responses to flow as per your process flow**

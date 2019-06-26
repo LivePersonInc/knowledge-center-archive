@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "css/default.css" }}">
+     <meta name="description" content="LivePerson Knowledge Center">
+     <meta name="keywords" content="APIs, SDKs, Mobile development, LiveEngage, Agent workspace, Tag, JSON examples, Click to message, Click to chat, Chat window, Skills, Agent Groups, iOS, Android, Mobile devices, Integrations, Live chat, Agent widget, Reporting, Analytics">
+     <meta name="author" content="LivePerson Inc.">
+</head>
+<body>
+<div id="defaultwrapper">
+  <div id="defaultheader">
+    <div class="mobileheader">
+      <button class="hamburger hamburger--slider" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="placeholder"></div>
+    </div>
+    <div id="logocontainer">
+      <a href="/index.html"><img src="img/lp-logo.svg" /></a>
+    </div>
+    <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search our knowledge center..." name="search" autocomplete="on" />
+    <div id="homebuttons">
+      <span id="login" class="homebutton"><a target="_blank" href="https://liveengage.liveperson.net">LivePerson login</a></span>
+    </div>
+    <a href="https://knowledge.liveperson.com/" class="casey newAgentHide"><img class="caseyPortrait" src="img/open-casey-header.svg" /><span>CASEY</span></a>
+  </div>
+  <div id="defaultsidebar">
+    {% include newAgentWorkspacesidebar.html %}
+  </div>
+  <div id="documenttitlecontainer" class="noborder">
+  {% if page.pagename == "Welcome to the new Agent Workspace!" %}
+  <div class="documenttitle">
+    <div class="titlecontainer welcometitle">
+      <div class='h1'>{{ page.pagename }}</div>
+</div>
+  </div>
+  {% else %}
+  <div class="documenttitle">
+    <div class="titlecontainer">
+      <div class='h1'>{{ page.pagename }}</div>
+      <div id="indicatorrow">
+        <div id="indicators" class="newAgentHide">
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
+          <div class="indicator chat">Chat</div>
+          {% endif %}
+          {% if page.indicator != null and page.indicator == "both" or page.indicator == "messaging" %}
+          <div class="indicator messaging">Messaging</div>
+          {% endif %}
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div> -->
+{% endif %}
+</div>
+  <div id="defaultcontent">
+  <div id="maincontent">
+    <div class="anchorlist newAgentHide">
+      <span class="anchortitle">Jump to</span>
+      <ul>
+        <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
+      </ul>
+    </div>
+    <div id="post-content" class="post-content">
+    {{ content | extlinks }}
+  </div>
+  </div>
+    <div id="feedback" class="newAgentHide">
+      <div class="feedbacktitle">Missing something?</div>
+      <br>
+      <div class="notice">We'd be happy to hear from you. You can <a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank">suggest</a> changes to this document, <a href="https://github.com/EdenKupe/knowledge-center/issues/new" target="_blank">open</a> an issue if you find anything that needs correcting or <a href="https://lpproduct.typeform.com/to/ffxrtD" target="_blank">submit</a> a request for a document you think is missing. You might also want to <a href="https://developers.liveperson.com" target="_blank">check our Developers' Community</a> for more in depth documentation.</div>
+    </div>
+  </div>
+  <div id="defaultfooter">
+    <div id="footerbottomrow">
+      <div id="footertext">
+      <span class="footerbottomspan">&copy; 2019 LivePerson Inc. All rights reserved.</span>
+      <a href="https://www.liveperson.com/policies/copyright">Copyright</a>
+      <a href="https://www.liveperson.com/policies/privacy">Privacy Policy</a>
+      <a href="https://www.liveperson.com/policies/terms-of-use">Terms of Use</a>
+    </div>
+    <div id="footericons">
+      <a href="http://twitter.com/liveperson"><i class="fab fa-twitter"></i></a>
+      <a href="http://www.facebook.com/LivePersonInc"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/MyLivePerson"><i class="fab fa-youtube"></i></a>
+      <a href="http://www.linkedin.com/company/164748"><i class="fab fa-linkedin-in"></i></a>
+      <a href="http://www.pinterest.com/liveperson/"><i class="fab fa-pinterest"></i></a>
+    </div>
+  </div>
+  </div>
+<!-- /.container -->
+</div>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script  src="{{ "js/algolia.js" }}"></script>
+{% include tag.html %}
+{% include getsitecontrol.html %}
+<script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/176473/script.js');
+</script>
+</body>
+</html>

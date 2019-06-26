@@ -145,7 +145,7 @@ An audit trail provides the ability to track changes made to LiveEngage predefin
 * **For customers:** To track changes performed in their LiveEngage account. For Enterprise customers (especially Financial Services), it is required as part of their security regulations.
 * **For support:** When troubleshooting an issue, tracking changes performed in the account will assist the support personnel with narrowing down the reasons for an issue.
 
-Today, LiveEngage offers a partial solution for auditing: Changes done on specific administration components can be tracked in the audit trail, while Predefined Content and category changes cannot be tracked.
+Today, LiveEngage offers a partial solution for auditing: Changes done on specific administration components can be tracked in the audit trail, while predefined content and category changes cannot be tracked.
 
 Therefore, we added the ability to view details on changes made to the PDC and content categories in the audit trail in LE UI.
 
@@ -701,7 +701,7 @@ The settings are only applicable for a non-default engagement window, i.e. it is
 </table>
 </div>
 
-In order to support reporting on Predefined Content usage for messaging (as exists already in chat), we now send the PDC (Predefined Content) **Id**, **Category** and if **it was edited** when publishing a message to UMS from the web agent as part of the metadata.
+In order to support reporting on predefined content usage for messaging (as exists already in chat), we now send the PDC (Predefined Content) **Id**, **Category** and if **it was edited** when publishing a message to UMS from the web agent as part of the metadata.
 
 ### Expose unauthenticated consumer ID in consumer profile for back-end messaging server (92875)
 

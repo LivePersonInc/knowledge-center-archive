@@ -7,7 +7,7 @@ subtitle: 'Tap into Google''s network to build relationships and develop more pr
 level3: ''
 permalink: messaging-channels-google-my-business.html
 isTutorial: true
-date: '2019-01-20T12:52:49.000+00:00'
+date: 2019-01-20 12:52:49 +0000
 isNew: false
 
 ---
@@ -17,7 +17,7 @@ Millions of brands are already using Google My Business to engage with consumers
 
 ## Why use Google My Business to connect with your consumers?
 
-* **Free and easy to set up** — With Google My Business there’s no need to purchase numbers from external SMS gateways. Google provides a free virtual number and LiveEngage provides the platform.
+* **Free and easy to set up** — With Google My Business there’s no need purchase numbers from external SMS gateways. Google provides a free virtual number and LiveEngage provides the platform.
 * **Access to millions of consumers** — Internet users search Google 3.5 billion times per day. Harness the power of your Google presence and put messaging at the fingertips of online consumers.
 * **Proactive notifications** — Brands can initiate conversations with consumers by sending proactive push notifications.
 * **Greater consumer accessibility** — Brands can capitalize on their existing Google My Business presence, without needing to purchase or add any additional resources.
@@ -60,6 +60,3 @@ The Google My Business connector enables consumers to message your brand via SMS
 4. Enable the Activate Google My Business Source toggle.
 5. Enter the relevant Google My Business ID to subscribe the account to.
 6. Once selected, click **Done**.
-
-{: .notice}
-**Please note:** This is a deprecated solution. To learn more about the next iteration please [click here](https://knowledge.liveperson.com/messaging-channels-google-business-messaging.html).
