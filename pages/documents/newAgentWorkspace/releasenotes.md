@@ -1,5 +1,5 @@
 ---
-pagename: New agent workspace release notes
+pagename: Release notes
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
