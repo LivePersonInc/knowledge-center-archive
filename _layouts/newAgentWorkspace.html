@@ -29,7 +29,7 @@
   <div id="defaultsidebar">
     {% include newAgentWorkspacesidebar.html %}
   </div>
-  <div id="documenttitlecontainer">
+  <div id="documenttitlecontainer" class="noborder">
   {% if page.pagename == "Welcome to the new Agent Workspace!" %}
   <div class="documenttitle">
     <div class="titlecontainer welcometitle">
@@ -41,9 +41,9 @@
     {% include nav-breadcrumbs.html %}
     <div class="titlecontainer">
       <div class='h1'>{{ page.pagename }}</div>
-      <div id="subtitle">{{ page.subtitle }}</div>
+      <div id="subtitle" class="newAgentHide">{{ page.subtitle }}</div>
       <div id="indicatorrow">
-        <div id="lastmodified">Last modified: {{ page.last_modified_at | date: '%D' }}</div>
+        <div id="lastmodified" class="newAgentHide">Last modified: {{ page.last_modified_at | date: '%D' }}</div>
         <div id="indicators" class="newAgentHide">
           {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
           <div class="indicator chat">Chat</div>
