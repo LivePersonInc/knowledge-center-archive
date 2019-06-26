@@ -104,20 +104,20 @@ The following metrics and attributes are added to a new panel named ‘Skill seg
 
 | Metric | Definition |
 | --- | --- |
-| Skill Segments | The number of times conversations were assigned to a skill.Measured for conversations that were opened to the skill or transferred to it.A conversation may be assigned more than once to a given skill. |
+| Skill Segments | The number of times conversations were assigned to a skill. Measured for conversations that were opened to the skill or transferred to it. A conversation may be assigned more than once to a given skill. |
 | Abandoned Segments (Skill) | The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. |
-| Abandoned Segments Rate (Skill) | The percentage of abandoned segments out of the total segments assigned to the skill.Formula: Abandoned Segments (Skill) / Skill Segments |
+| Abandoned Segments Rate (Skill) | The percentage of abandoned segments out of the total segments assigned to the skill. Formula: Abandoned Segments (Skill) / Skill Segments |
 | Abandoned Segments - In Queue (Skill) | The number of conversations closed by a consumer which included no agent message since no agent was assigned. Measured during the last skill-segment of the conversation, and is unaffected by the agent activity from previous skill-segments. |
 | Segments with Non Responsive Consumers (Skill) | The number of skill-segments which ended in a transfer to another skill or closed with no response from the consumer to an agent’s message. |
 | Segments with Non Responsive Agents (Skill) | The number of skill-segments which ended in a transfer to another skill or closed by agent/system with no message from an agent. |
-| Interactive Segments (Skill) | The number of skill-segments with at least one response from a consumer to a skilled-agent’s message.Measured from the first message sent by an agent in a new skill-segment. |
-| Interactive Segments Rate (Skill) | The percentage of interactive segments out of all the segments assigned to the skill.Formula: Interactive Segments (Skill) / Skill Segments |
+| Interactive Segments (Skill) | The number of skill-segments with at least one response from a consumer to a skilled-agent’s message. Measured from the first message sent by an agent in a new skill-segment. |
+| Interactive Segments Rate (Skill) | The percentage of interactive segments out of all the segments assigned to the skill. Formula: Interactive Segments (Skill) / Skill Segments |
 | Avg. Segment Duration (Skill) | Average duration of skill-segments. Measured from the time the conversation was assigned to the skill until it was closed or transferred to another skill. |
 
 | Attribute | Definition |
 | --- | --- |
-| Skill Segment start reason | Possible values:New conversationSkill transferAgent transfer from another skillResume |
-| Skill Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemSkill transferAgent transfer to another skill |
+| Skill Segment start reason | Possible values: New conversation, Skill transfer, Agent transfer from another skill, Resume |
+| Skill Segment end reason | Possible values: Closed by agent, Closed by consumer, Closed by system, Skill transfer, Agent transfer to another skill |
 
 ### Agent Segments
 
