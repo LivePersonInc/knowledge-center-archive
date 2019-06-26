@@ -409,7 +409,7 @@ The minimum available time frame is 15 seconds.
 
 ## Logic of “Consumer non-responsive” message
 
-* When the consumer did not send a message for over x seconds/minutes/hours since last assigned agent OR agent OR agent manager last wrote a message, the auto message is triggered
+* When the consumer does not send a message for over x seconds/minutes/hours since last assigned agent OR agent manager last wrote a message, the auto message is triggered
 * When the consumer answers the agent, the timer is stopped. The timer will be reset when the agent sends another message.
 * This auto message will trigger only if the conversation is currently assigned to an agent
 * When a conversation is transferred, the timer is reset and re-counting begins upon first message from the agent after the assignment
