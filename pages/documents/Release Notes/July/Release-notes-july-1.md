@@ -236,7 +236,7 @@ Before running a dashboard, the user is presented with a selection of time offse
 
 This new feature is enabled OOTB and is available for all Report Builder enabled customers.
 
-**Please note:** 
+**Please note:**
 
 * Time offset is only possible for full hours. This means that users that are in time zones that are variations of half hours from GMT (such as certain places in India), will need to choose the full hour before or after. Half hour or quarter hour increments will not be supported.
 * The drop down window displaying the time offsets available for the user to choose from, can only display 30 entries. Since there are 48 variations from GMT, there are two ‘pages’ of the dropdown.
@@ -247,9 +247,9 @@ This new feature is enabled OOTB and is available for all Report Builder enabled
 
 ![](/img/RB3.3-2.png)
 
-## Third Party NLU support 
+## Third Party NLU support
 
-### Type: New feature
+### Type: New functionality
 
 <div class="tablecontainer">
 
@@ -341,8 +341,6 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 **3rd Party NLU limitations**
 
 * Third Party NLU Domain - Entity length should not exceed 64 characters. (Watson limitation)
-
-
 * Each domain can only support one language and it is available in the settings page.
 
 **Fire API-CB limitations:**
@@ -353,3 +351,61 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 **Please note:**
 
 * Meta intents are not working for Watson
+
+## Fallback skill per skill
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+While assigning conversations to agents, it is possible that certain skills would have no online agents that could receive the conversations. In such cases, brands need to be able to define a secondary fallback skill to which the conversation will be assigned.
+
+Fallback skill per skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
+
+![](/img/rn-week-of-july-1.png)
+
+**Configuration**
+
+LP Account manager to enable the feature - “_Messaging.FallbackSkillPerSkill_”
+
+Configuring a fallback skill per a specific skill is then made available through the Skills settings screen in LiveEngage.
+
+**Dependencies**
+
+* UMS 3.21
+* AC_users 5.2
