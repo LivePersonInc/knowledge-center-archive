@@ -1,11 +1,11 @@
 ---
-pagename: Enhancement summary
+pagename: Summary of enhancements
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: user-guide-enhancement-summary.html
+permalink: user-guide-summary-of-enhancements.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
