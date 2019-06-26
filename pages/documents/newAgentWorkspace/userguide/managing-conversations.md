@@ -84,6 +84,14 @@ While conducting a conversation, there are a few actions you can take:
 
 **Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer. 
 
+### Adjusting the SLA for follow up
+
+Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your conversation.
+
+As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
+
+![image alt text](img/sla.jpg){:class="newagent"}
+
 ## Closing conversations
 
 The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
@@ -103,12 +111,5 @@ The conversations can be marked as resolved or closed, either by the consumer or
 
 For conversations that are awaiting a consumer response, the auto close mechanism will automatically close these conversations after a length of time that has been defined by your contact center manager. Conversations will not be subject to auto close if they are pending an agent’s reply or if you have set up a manual SLA. Learn more about auto close for messaging here.
 
-### Adjusting the SLA for follow up
-
-Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your conversation.
-
-As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
-
-![image alt text](img/sla.jpg){:class="newagent"}
 
 
