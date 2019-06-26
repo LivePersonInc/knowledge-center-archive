@@ -24,7 +24,7 @@ This conversation list is comprehensive, including ongoing, overdue, idle, and c
 
 ## Status filters
 
-The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. 
+The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Ongoing and overdue conversations cannot be filtered out of the conversation list. 
 
 Agents can filter conversations in the list by the following statuses:
 
@@ -66,4 +66,4 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 **IN QUEUE:** overall number of conversations in the queue, including actionable and not actionable. A not actionable conversation is one that is still open but awaiting a consumer reply. Only the actionable conversations are routed to agents
 
-**CSAT:** displays the [customer satisfaction score](http://oavrxoiy0ht8aq.instant.forestry.io/contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat), based on the post conversation surveys that were completed in the last 12 hours.
+**CSAT:** displays the customer satisfaction score based on the Post Conversation Surveys that were completed in the last 12 hours.
