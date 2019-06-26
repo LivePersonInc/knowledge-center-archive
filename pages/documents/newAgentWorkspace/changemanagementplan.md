@@ -1,5 +1,5 @@
 ---
-pagename: Change management plan
+pagename: Rollout
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
