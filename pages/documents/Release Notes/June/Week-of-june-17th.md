@@ -487,6 +487,9 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
+
 ## Facebook Handover Protocol
 
 ### Type: New functionality
@@ -528,12 +531,15 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 </table>
 </div>
 
-Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible to simultaneously use a 3rd party bot, outside of LiveEngage, for handling automated responses, and use LiveEngage for customer service with human agents.
+Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible for a Page to simultaneously use one Facebook app to build a 3rd party bot, outside of LiveEngage, for handling automated responses, and use another Facebook app (LiveEngage) for customer service with human agents.
 
-* By default, all messages are sent to the Primary Receiver app.
+* By default, all messages are sent to the Primary Receiver app
 * When control of the conversation is passed to another, the Facebook Messenger Platform will send messages from the conversation to it instead.
 * Only one app may control the conversation at a time.
-* All apps that do not have control of the conversation may continue to listen to the conversation by subscribing to the standby webhook event.
+* All apps that do not have control of the conversation will continue to listen to the conversation by subscribing to the standby webhook event.
+
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
 
 ## WhatsApp Business source
 
