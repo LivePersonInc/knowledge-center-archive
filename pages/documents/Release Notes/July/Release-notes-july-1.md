@@ -1,7 +1,7 @@
 ---
 pagename: Week of July 1st
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: July
