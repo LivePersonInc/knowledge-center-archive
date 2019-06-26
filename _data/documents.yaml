@@ -282,6 +282,9 @@
   subcategories:
     - subcategoryname: 2019
       pages:
+      - pagename: July
+          level3:
+            - level3name: Week of July 1st
         - pagename: June
           level3:
             - level3name: Week of June 17th
