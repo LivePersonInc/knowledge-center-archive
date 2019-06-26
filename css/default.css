@@ -1285,7 +1285,7 @@ div#cookie-law {
 
 .homeRow {
   display: flex;
-  width: 110%;
+  width: 120%;
   margin-bottom: 20px;
 }
 
@@ -1297,6 +1297,7 @@ div#cookie-law {
   text-align: center;
   height: 250px;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
 }
 

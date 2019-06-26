@@ -10,9 +10,9 @@ layout: newAgentWorkspaceHomepage
 ---
 
 <div class="homeRow">
-  <div class="homeBox"><span>Guide agents through decision making</span></div>
-  <div class="homeBox"><span>Focus agents on active conversations</span></div>
-  <div class="homeBox"><span>Simple to use UI designed for scale</span></div>
+  <div class="homeBox"><img src="img/puzzle.svg"><span>Guide agents through decision making</span></div>
+  <div class="homeBox"><img src="img/web.svg"><span>Simple to use UI designed for scale</span></div>
+  <div class="homeBox"><img src="img/bubble.svg"><span>Focus agents on active conversations</span></div>
 </div>
 
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
