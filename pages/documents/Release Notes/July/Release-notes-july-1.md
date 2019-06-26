@@ -410,9 +410,46 @@ Configuring a fallback skill per a specific skill is then made available through
 * UMS 3.21
 * AC_users 5.2
 
-### \[ABC\]\[WhatsApp\] Add support for agent to share photos and documents with consumer
+## \[ABC\]\[WhatsApp\] Add support for agent to share photos and documents with consumer
 
 ### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 This feature enables agents to share photos and documents with consumers via Apple Business Chat and WhatsApp Business. Files will be shared from local file dialog.
 
