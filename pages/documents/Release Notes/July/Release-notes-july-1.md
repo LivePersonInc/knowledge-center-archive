@@ -8,12 +8,83 @@ level3: July
 permalink: release-notes-2019-july-week-of-july-1st.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## Messaging Conversation Segments
 
 ### Type: New functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
 
 The reality of messaging conversations today is that about 50% of interactions are transferred between skills. Many of the brands are also experiencing transfers between human agents.
 
@@ -24,3 +95,57 @@ LiveEngage introduces a new segmentation model to measure each individual skill\
 These new measurements and metrics are added to the Performance dashboard for Messaging in Report Builder.
 
 Full information can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-conversation-segments.html).
+
+This new feature is enabled OOTB and is available for all Report Builder enabled customers.
+
+### Skill segments
+
+The following metrics and attributes are added to a new panel named ‘Skill segment’ under the ‘Brand Data’ sheet
+
+| Metric | Definition |
+| --- | --- |
+| Skill Segments | The number of times conversations were assigned to a skill.Measured for conversations that were opened to the skill or transferred to it.A conversation may be assigned more than once to a given skill. |
+| Abandoned Segments (Skill) | The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. |
+| Abandoned Segments Rate (Skill) | The percentage of abandoned segments out of the total segments assigned to the skill.Formula: Abandoned Segments (Skill) / Skill Segments |
+| Abandoned Segments - In Queue (Skill) | The number of conversations closed by a consumer which included no agent message since no agent was assigned. Measured during the last skill-segment of the conversation, and is unaffected by the agent activity from previous skill-segments. |
+| Segments with Non Responsive Consumers (Skill) | The number of skill-segments which ended in a transfer to another skill or closed with no response from the consumer to an agent’s message. |
+| Segments with Non Responsive Agents (Skill) | The number of skill-segments which ended in a transfer to another skill or closed by agent/system with no message from an agent. |
+| Interactive Segments (Skill) | The number of skill-segments with at least one response from a consumer to a skilled-agent’s message.Measured from the first message sent by an agent in a new skill-segment. |
+| Interactive Segments Rate (Skill) | The percentage of interactive segments out of all the segments assigned to the skill.Formula: Interactive Segments (Skill) / Skill Segments |
+| Avg. Segment Duration (Skill) | Average duration of skill-segments. Measured from the time the conversation was assigned to the skill until it was closed or transferred to another skill. |
+
+| Attribute | Definition |
+| --- | --- |
+| Skill Segment start reason | Possible values:New conversationSkill transferAgent transfer from another skillResume |
+| Skill Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemSkill transferAgent transfer to another skill |
+
+### Agent Segments
+
+The following metrics and attributes are added to a new panel named ‘Agent segment’ under the ‘Agent Data’ sheet:
+| Metric | Definition |
+| --- | --- |
+| Agent Segments | The number of times conversations were assigned to an agent.A conversation may be assigned more than once to a given agent. |
+| Agent Assignment Rate | The percentage of assignments to agent out of the total assignments to the agent’s skill.Formula: Agent Segments / Assignments to Skill |
+| AVG. No. of Agent Responses in Segment (Agent) | Average number of responses provided by agent during an agent-segment |
+| AVG. No. of Consumer Responses in Segment (Agent) | Average number of responses provided by consumers to an agent's message during an agent-segment |
+| Avg. Segment Duration (Agent) | Average duration of an agent-segment. Measured from the time the conversation was assigned to the agent until it was closed or transferred. Attributed to the assigned agent, group and skill. |
+| Interactive Segments (Agent) | The number of agent-segments which included at least one response from the consumer to an agent’s message. |
+| Interactive Segments Rate (Agent) | The percentage of interactive segments out of the total segments assigned to the agent.Formula: Interactive Segments (Agent) / Agent Segments |
+| Abandoned Segments (Agent) | The number of conversations closed by a consumer which included no agent message. Measured during the last agent-segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent assigned to the conversation. |
+| Abandoned Segments Rate (Agent) | The percentage of abandoned segments out of the total segments assigned to the agent.Formula:Abandoned Segments (Agent) / Agent Segments |
+| Segments with Non Responsive Consumers (Agent) | The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation. |
+| Segments with Non Responsive Agents (Agent) | The number of agent-segments which ended in a transfer or closed by agent or system with no message from an agent. |
+| Avg. Time to Response in Segment | The average time taken by an agent to respond to the consumer in an agent-segment (an agent segment is defined as the part of the conversation in which the agent was assigned. Measured from the time the agent is assigned until s\\he is not longer assigned). |
+| Avg. Time to First Response in Segment | The average time taken by an agent to respond for the first time to the consumer in an agent-segment (an agent segment is defined as the part of the conversation in which the agent was assigned. Measured from the time the agent is assigned until s\\he is not longer assigned). |
+
+| Attribute | Definition |
+| --- | --- |
+| Agent Segment start reason | Possible values:New conversationAgent transferSkill transferTaken from QueueTakeoverResume |
+| Agent Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemAgent transferSkill transferBack to QueueTakeover from agent |
+
+Please note:
+
+* Metrics include only actions of the assigned agents - responses given to the consumer by participating agents who are not the assigned agent are omitted from the calculations.
+* Messages provided by the Controller Bot (system messages) are omitted from the calculations.
+* In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
+* Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages
