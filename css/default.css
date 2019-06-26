@@ -1314,6 +1314,9 @@ div#cookie-law {
 
 @media screen and (max-width:1440px){
 
+  .homeRow {
+    width: unset;
+  }
   #documenttitlecontainer {
     padding-left: 55px;
   }
@@ -1442,6 +1445,21 @@ div#cookie-law {
 @media screen and (max-width: 450px) {
   p img {
     width: 100%;
+  }
+
+  .newagent {
+    width: 100%;
+  }
+
+  .homeRow {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .homeBox {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #defaultheader {
