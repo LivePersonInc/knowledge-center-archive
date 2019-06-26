@@ -21,7 +21,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: New functionality
 
-
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -439,7 +438,7 @@ Brands can choose from the following options in the “Read Indication” dropdo
 
 ![](/img/Screen Shot 2019-06-13 at 1.09.28 PM.png)
 
-## \[ABC\] ApplePay Enhancement Widget
+## \[ABC\] Apple Pay Enhancement Flow
 
 ### Type: Enhancement
 
@@ -1200,15 +1199,13 @@ Intermittently when conversations get transferred or returned to queue, routing 
 
 ### Type: New feature
 
-Mobile Messaging SDK v3.9 introduces a feature for agents within LiveEngage to share photos or files with the consumers.    
+Mobile Messaging SDK v3.9 introduces a feature for agents within LiveEngage to share photos or files with the consumers.
 
 Agents can share:
 
-- **Photos:** Reference photos or photos of any product to visually guide consumers with product awareness, steps on how to use the product, or review comments of a product. The agent can also share photos in a resolved conversation to resume the conversation with the consumer.  Consumers can tap on the photo to view it full screen or share it through the default app on their device.   
-
-- **Files:** Agents can also share files to provide consumers with information such as mortgage documents, product catalog, or transaction details as requested by consumers. They can also share files in a resolved conversation to resume the conversation with the consumer. Consumers can download files through the picker application to a location on their device (internal or external).
+* **Photos:** Reference photos or photos of any product to visually guide consumers with product awareness, steps on how to use the product, or review comments of a product. The agent can also share photos in a resolved conversation to resume the conversation with the consumer.  Consumers can tap on the photo to view it full screen or share it through the default app on their device.
+* **Files:** Agents can also share files to provide consumers with information such as mortgage documents, product catalog, or transaction details as requested by consumers. They can also share files in a resolved conversation to resume the conversation with the consumer. Consumers can download files through the picker application to a location on their device (internal or external).
 
 **Note:** The Android SDK supports opening any file types other than images through the picker application. The consumer can either long click on the thumbnail or open the file through picker application to share and save the file.  The iOS SDK supports previewing all the supported file types on the device as per the iOS operating system by double-clicking on the thumbnail image.
-
 
 When the agent shares any supported file type from the LE, if the consumer isn't within the conversation view, they get a notification from the customer app only if the push notification is enabled. Otherwise, when the consumer returns to the conversation screen, a thumbnail for the photo or file appears in the conversation window.
