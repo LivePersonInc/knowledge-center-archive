@@ -32,10 +32,10 @@ Conversations that reach your workplace have already undergone detailed analysis
 
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your conversation list, sorted by SLA. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 
-**Auto accept**
+**Auto accept:**
 ![image alt text](img/autoaccept.jpg){:class="newagent"}
 
-**Advanced mode**
+**Advanced mode:**
 ![image alt text](img/advancedaccept.jpg){:class="newagent"}
 
 ## Understanding the context & history
