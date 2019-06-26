@@ -1,5 +1,5 @@
 ---
-pagename: New agent workspace tutorial
+pagename: Enhanced agent workspace tutorial
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
