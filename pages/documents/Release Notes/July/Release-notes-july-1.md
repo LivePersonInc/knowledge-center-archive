@@ -354,7 +354,7 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 ## Fallback skill per skill
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -409,3 +409,19 @@ Configuring a fallback skill per a specific skill is then made available through
 
 * UMS 3.21
 * AC_users 5.2
+
+### \[ABC\]\[WhatsApp\] Add support for agent to share photos and documents with consumer
+
+### Type: New functionality 
+
+This feature enables agents to share photos and documents with consumers via Apple Business Chat and WhatsApp Business. Files will be shared from local file dialog.
+
+The following file types are supported:
+
+* PDF
+* DOCX
+* PPTX
+* XLSX
+* JPG,GIF,JPEG,PNG
+
+All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in photo sharing scope ([view here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-agent-file-sharing-overview.html)).
