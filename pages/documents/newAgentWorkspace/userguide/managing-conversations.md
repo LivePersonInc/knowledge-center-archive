@@ -74,7 +74,7 @@ The following types of rich messaging are being supported for the enhanced agent
 * Consumer to agent audio sharing (coming September)
 * Agent to consumer file sharing (coming September)
 
-## Next steps 
+## Additional actions 
 
 While conducting a conversation, there are a few actions you can take:
 
