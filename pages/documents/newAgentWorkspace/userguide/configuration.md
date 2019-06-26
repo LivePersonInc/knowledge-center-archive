@@ -12,9 +12,9 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-The agent workspace is tailored for messaging agents and is designed using feedback and requests from hundreds of messaging agents.  It is developed for easy plug-and play approach and requires little to no configuration.  
+The agent workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
 
-There are few configurations that brands and elect to control for the agent experience as outlined below.  
+There are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
 {: .notice}
 **Please note:** If you have set up these configurations for the existing agent worksapce, you do not need to set them again - they will automatically apply.
