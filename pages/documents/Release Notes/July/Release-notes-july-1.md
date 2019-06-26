@@ -246,3 +246,38 @@ This new feature is enabled OOTB and is available for all Report Builder enabled
 * There should be no impact or change to existing user copies. User copies created prior to this release will not display the offset functionality and therefore will not have the changes to the attributes mentioned in the note above.
 
 ![](/img/RB3.3-2.png)
+
+## Third Party NLU support 
+
+### Type: New feature
+
+Conversation Builder is integrated with Fire API for supporting 3rd party NLU engines like Google Dialog Flow and IBM Watson. This feature helps our customers to build intents and train them on Watson and Dialog Flow, in addition to Conversation Builder’s native NLU.
+
+The intent building and training is generally available for intents in English language and we are looking for early adopters for non English language based intents.
+
+**How to enable**
+
+In order to enable this feature for the customers, Super Admin users in Conversation Builder can go to customer accounts and enable the NLU providers; Watson and Google DialogFlow.
+
+![](https://lh3.googleusercontent.com/1_2xJm8sUou672Qd01Xu_7rWfIomCcunD0wsVE5b8TdC1OZzbzthgr-xKwyoTl6VfqXl2LqLNB498HkMoTFCxtWq8itlsFzpg46e45rK8S3YFRu8MGMo-XdTTeO7KohDCK4Q8fVZ =503x372)
+
+**Dependencies**
+
+* Fire API support from Austin team on US, UK and APAC regions
+* Customers are expected to create Watson and DialogFlow accounts and use the API keys
+
+**3rd Party NLU limitations**
+
+* Third Party NLU Domain - Entity length should not exceed 64 characters. (Watson limitation)
+
+
+* Each domain can only support one language and it is available in the settings page.
+
+**Fire API-CB limitations:**
+
+* KB does not support 3rd party NLU right now.
+* CB Builder does not support pulling existing models from IBM Watson and Google Dialogflow into Intent Builder, only model push is supported.
+
+**Please note:**
+
+* Meta intents are not working for Watson
