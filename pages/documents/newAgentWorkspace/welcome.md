@@ -5,7 +5,7 @@ subCategoryName: New Agent Workspace
 indicator: both
 subtitle: Learn more about the updated agent workspace
 level3: ''
-permalink: agent-manager-workspace-new-agent-workspace-the-enhanced-agent-workspace.html
+permalink: the-enhanced-agent-workspace.html
 layout: newAgentWorkspaceHomepage
 ---
 
