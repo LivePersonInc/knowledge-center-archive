@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Smart Capacity per skill (AE-492)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,12 +53,14 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Enable the Smart Capacity feature to be applied for specific skills. A brand can choose if the selected skills in the account would use the Smart Capacity default setting or custom settings.
 Controlling the feature is available through Houston only. Contact you LP representative to configure Smart Capacity parameters.
 
 ### Maximum wait time in queue (Chat Operational Realtime API)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -88,6 +91,7 @@ Controlling the feature is available through Houston only. Contact you LP repres
 </tr>
 </tbody>
 </table>
+</div>
 
 This feature is an enhancement to Current Queue State method of Operational Realtime API and is available to all customers
 
@@ -115,6 +119,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Agent Navigation in Photo Sharing (AE-379)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -145,6 +150,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 </tr>
 </tbody>
 </table>
+</div>
 
 If a consumer sends the agent multiple photos, the agent can now navigate between the photos using their mouse. We have added the ability to navigate via arrow keys on the keyboard as well.
 
@@ -152,6 +158,7 @@ If a consumer sends the agent multiple photos, the agent can now navigate betwee
 
 ### Multiple agent survey's “Submit Requests” come from web agent unexpectedly (AE-858)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -182,11 +189,13 @@ If a consumer sends the agent multiple photos, the agent can now navigate betwee
 </tr>
 </tbody>
 </table>
+</div>
 
 In some cases, web agent UI bombards the back-end server with dozens of agent survey submissions.  What should happen is that once an agent submits the survey, only one submission should be sent to the server. We are now actively blocking submissions of surveys if they are identical to the last submitted survey (for the same chat).
 
 ### User with Agent and Admin profiles unable to see their conversations on “All connections” tab (AE-827)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -217,11 +226,13 @@ In some cases, web agent UI bombards the back-end server with dozens of agent su
 </tr>
 </tbody>
 </table>
+</div>
 
 Users who were assigned both Agent and Admin profiles were unable to see conversations handled and closed by them in the “All Connections” tab. This issue is now resolved.
 
 ### For some languages (German and Romanian) buttons are overlapping in  Identification Verification Window (AE-191)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -252,11 +263,13 @@ Users who were assigned both Agent and Admin profiles were unable to see convers
 </tr>
 </tbody>
 </table>
+</div>
 
 When using IDNV feature in German or Romanian languages, the “Submit” and “Cancel” buttons are overlapping one another. This issue has been resolved.
 
 ### Conversation widget opens with continuous loading gif instead of empty window for empty conversations (AE-179)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -287,12 +300,14 @@ When using IDNV feature in German or Romanian languages, the “Submit” and �
 </tr>
 </tbody>
 </table>
+</div>
 
 When you go to the “Open Connections” tab and open a conversation widget that has no messages within it,
 a loading gif is displayed rather than an empty conversation transcript. After the fix, conversations without messages will display as an empty transcript
 
 ### Agent Widget SDK: bind to chatInfo does not always return chat skill (reopened) (AE-473)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -323,5 +338,6 @@ a loading gif is displayed rather than an empty conversation transcript. After t
 </tr>
 </tbody>
 </table>
+</div>
 
 On Agent widget SDK: bind to chatInfo does not always update "chatInfo.chatSkill”. This is now resolved.

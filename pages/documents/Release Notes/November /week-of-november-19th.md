@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Connectors support: Structured Content "External ID" metadata for message tracking and click operations (LE-94788)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 LiveEngage allows brands to send structured content messages (by human or bot) in a variety of ways and formats, per each messaging connector source. Every messaging source features a different set of templates, which is supported by the structured content framework, allowing the agent or bot to enrich the messaging conversation on every channel.
 
@@ -76,6 +78,7 @@ For a more in depth guide on how to add metadata in structured content templates
 
 ### Messaging connectors: Consumer is able to send audio message with field set to false (LE-94809)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -106,6 +109,7 @@ For a more in depth guide on how to add metadata in structured content templates
 </tr>
 </tbody>
 </table>
+</div>
 
 With the Audio Message setting disabled, if a visitor sends an audio message over supported connector channels (RCS Business Messaging, Apple Business Chat, WhatsApp Business and Facebook Messenger), the message appears to have been sent successfully from the visitor's view. This bug has now been resolved.
 
@@ -113,6 +117,7 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 
 ### Facebook Messenger - Blank conversations started when deleting and responding to CSAT (LE-95931)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -143,6 +148,7 @@ With the Audio Message setting disabled, if a visitor sends an audio message ove
 </tr>
 </tbody>
 </table>
+</div>
 
 When a consumer sends a CSAT response in Facebook Messenger, they then have the option to delete the response from within the Facebook Messenger window, which causes the CSAT questions to be sent again. When the CSAT response is chosen a second time, this opens a blank conversation. This bug has been resolved.
 
@@ -152,6 +158,7 @@ Currently when a brand adds a request Identifier to the Authentication Interacti
 
 Fix: The connector will not create a new request identifier when the brand adds one to the Authentication Interactive Message structured content JSON (the connector will only create a request identifier when the brand does not add a request identifier to the structured content JSON). This bug has now been resolved.
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -182,3 +189,4 @@ Fix: The connector will not create a new request identifier when the brand adds 
 </tr>
 </tbody>
 </table>
+</div>

@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Queue prioritization
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Queue prioritization allows you to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in queues based on queue entrance time or time when the consumer responded.
 

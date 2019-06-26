@@ -21,6 +21,7 @@ These release notes include new features arriving to LiveEngage during December 
 
 ### Maximum wait time in queue metric in real-time dashboard
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -51,6 +52,7 @@ These release notes include new features arriving to LiveEngage during December 
 </tr>
 </tbody>
 </table>
+</div>
 
 A new metric is now available in the Current Queue State method of the Chat Operational Realtime API (**currentMaxWaitTimeInQueue**) and is available by skill. It is now exposed by default in the Realtime Dashboard.
 
@@ -76,6 +78,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 
 ### Abandon Segments Rate (%)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -106,6 +109,7 @@ Additionally, only chats that started within the last 24 hours will be included 
 </tr>
 </tbody>
 </table>
+</div>
 
 Addition of new calculated metrics from Skill Segment API**.**
 
@@ -127,6 +131,7 @@ Only available in the “Today from X” section and “Skills” section. In bo
 
 ### Google website translator
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -157,6 +162,7 @@ Only available in the “Today from X” section and “Skills” section. In bo
 </tr>
 </tbody>
 </table>
+</div>
 
 Google Translate has been added to data applications
 
@@ -180,6 +186,7 @@ Translation quality is subject to that of the Google Translate service and may n
 
 ### New source filter options (MCS toolkit)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -210,6 +217,7 @@ Translation quality is subject to that of the Google Translate service and may n
 </tr>
 </tbody>
 </table>
+</div>
 
 New filter options are now available.
 
@@ -238,6 +246,7 @@ Additionally, only 1 source can be selected at a time (known limitation).
 
 ### Load calculation issue (Real-time Dashboard)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -268,11 +277,13 @@ Additionally, only 1 source can be selected at a time (known limitation).
 </tr>
 </tbody>
 </table>
+</div>
 
 The overall Agent Load % in the CURRENT section of the Realtime Dashboard was invalid due to a formula error resulting in the display of a Load rate slightly lower than the overall weighted average of the individual agent Load rates. This issue has now been resolved in the Realtime Dashboard.
 
 ### Admin user permission issue (Real-time Dashboard)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -303,6 +314,7 @@ The overall Agent Load % in the CURRENT section of the Realtime Dashboard was in
 </tr>
 </tbody>
 </table>
+</div>
 
 When an user with profile of admin logs into the Dashboard (messaging mode), some results from Messaging Operations API would not return as expected resulting in failure of the Realtime Dashboard.
 

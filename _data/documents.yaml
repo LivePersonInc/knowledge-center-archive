@@ -31,9 +31,11 @@
         - pagename: Enhancing the SMS experience with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: WhatsApp Business
+    - subcategoryname: Google Business Messaging
     - subcategoryname: Google My Business
+    - subcategoryname: WhatsApp Business
     - subcategoryname: Line connector
+    - subcategoryname: WeChat Business
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
@@ -150,8 +152,9 @@
         - pagename: Salesforce integration guide
         - pagename: Multiple away states
         - pagename: Predefined content overview
-        - pagename: Predefined content best practices
+        - pagename: Creating Predefined Content
         - pagename: Importing predefined content
+        - pagename: Predefined content best practices
 
 - categoryname: "Data & reporting"
   image: data-reporting
@@ -170,6 +173,7 @@
             - level3name: Business dashboard for messaging
             - level3name: Agent activity dashboard
             - level3name: Goal tracker report
+        - pagename: Messaging conversation segments
     - subcategoryname: Live chat
       pages:
         - pagename: Real time data for chat
@@ -215,8 +219,8 @@
     - subcategoryname: "Skills & groups"
       pages:
         - pagename: Set the agent group hierarchy
-        - pagename: Operate business divisions from one account
-        - pagename: Connect visitors to Agents by skills
+        - pagename: Lines of Business (LoB)
+        - pagename: Connect visitors to agents by skills
     - subcategoryname: Permissions
       pages:
         - pagename: Assign permissions
@@ -247,7 +251,13 @@
       pages:
         - pagename: Secure forms for messaging user guide
         - pagename: Secure forms for chat user guide
-    - subcategoryname: SSO unified login
+    - subcategoryname: Login
+      pages:
+        - pagename: SSO unified login
+        - pagename: "Multi-factor authentication"
+          level3:
+          - level3name: Overview
+          - level3name: User manual
     - subcategoryname: Accessibility policy
     - subcategoryname: Audit trail
 
@@ -260,18 +270,26 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
     - subcategoryname: January 2019
-    - subcategoryname: December 2018
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: 2019
       pages:
+        - pagename: July
+          level3:
+            - level3name: Week of July 1st
+        - pagename: June
+          level3:
+            - level3name: Week of June 17th
+            - level3name: Week of June 9th
+            - level3name: Week of June 3rd
         - pagename: May
           level3:
             - level3name: Week of May 27th
@@ -300,12 +318,6 @@
             - level3name: Week of January 28th
             - level3name: Week of January 20th
             - level3name: Week of January 14th
-    - subcategoryname: 2018
-      pages:
-        - pagename: December
-          level3:
-            - level3name: Week of December 17th
-            - level3name: Week of December 2nd
 
 
 - categoryname: Troubleshooting

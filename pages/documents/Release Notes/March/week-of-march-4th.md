@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### \[Messaging connectors\] Secure form support for Facebook Messenger and Apple Business Chat (CX-125, CX-126)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 There is now support for secure forms for the Facebook Messenger and Apple Business Chat connectors. This feature allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
@@ -103,6 +105,7 @@ For more information, please see the following documents:
 
 ### Realtime Dashboard - Overdue Conversations KPI & API
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -133,6 +136,7 @@ For more information, please see the following documents:
 </tr>
 </tbody>
 </table>
+</div>
 
 Addition of new metrics within the Messaging Queue Health API that are exposed within the Realtime Dashboard. This feature is available to all customers.
 
@@ -165,6 +169,7 @@ The definition of the overdue_Conversations metric is the number of conversation
 
 ### Conversation Builder
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -195,6 +200,7 @@ The definition of the overdue_Conversations metric is the number of conversation
 </tr>
 </tbody>
 </table>
+</div>
 
 Brands are rapidly expanding their conversational commerce capabilities, reaching customers through popular messaging services like SMS, Facebook Messenger, Apple Business Chat, WhatsApp and more.
 
@@ -231,6 +237,7 @@ For detailed documentation on the Conversation Builder including an overview, sc
 
 ### \[ABC\] List picker does not send response when there’s no button (CX-150)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -261,5 +268,6 @@ For detailed documentation on the Conversation Builder including an overview, sc
 </tr>
 </tbody>
 </table>
+</div>
 
 When an agent sends list picker type structured content without metadata payload, the response from consumer does not send to agent. This issue has been resolved.

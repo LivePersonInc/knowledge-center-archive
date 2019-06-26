@@ -23,6 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Methods for Messaging Skill Segments (messaging operations API)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -53,6 +54,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 The Messaging Operations API is being enhanced to include operational data on the state of the queue and agent performance at the Skill level.
 
@@ -73,6 +75,7 @@ Added to the existing Messaging Operations API. No additional enablement needed.
 
 ### WhatsApp Business - Multiple number support per account (LE-95291)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -103,6 +106,7 @@ Added to the existing Messaging Operations API. No additional enablement needed.
 </tr>
 </tbody>
 </table>
+</div>
 
 This functionality enables brands to route multiple WhatsApp Business numbers into one LiveEngage account, and enables multiple Lines of Business to be facilitated and managed within the LiveEngage account, using LE's operational tools.
 

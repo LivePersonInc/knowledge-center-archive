@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Audit trail on campaign time frame
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,11 +53,13 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Customers will now be able to track changes made to the campaign time frame in the LiveEngage audit trail.
 
 ### Audit trail on shift scheduler (working hours)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -87,6 +90,7 @@ Customers will now be able to track changes made to the campaign time frame in t
 </tr>
 </tbody>
 </table>
+</div>
 
 Customers can now do the following in the LiveEngage audit trail:
 
@@ -105,6 +109,7 @@ old -> N/A
 
 ### Opacity of the embedded window on Mobile Web (campaigns)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -135,6 +140,7 @@ old -> N/A
 </tr>
 </tbody>
 </table>
+</div>
 
 When opening the engagement window in embedded mode on a mobile browser, the window will be 5% transparent. This ensures that the engagement window was opened on top of the website, and that the consumer was not redirected to another page.
 
@@ -179,6 +185,7 @@ As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers shoul
 
 ### Agent status changes to away involuntarily
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -209,6 +216,7 @@ As of October 23rd 2019 Google Dialogflow V1 will be deprecated. Customers shoul
 </tr>
 </tbody>
 </table>
+</div>
 
 If the ACD setting for chat was configured to “advanced mode” and “agent status changes to **away** if missed accepting the chat,” and then afterwards, the setting was changed to “Auto-accept” mode, the agent state would still change to “away” in some scenarios.
 
@@ -216,6 +224,7 @@ If the ACD setting for chat was configured to “advanced mode” and “agent s
 
 ### Messaging - Automatic Messages - line break is being shown in conversation
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -246,5 +255,6 @@ If the ACD setting for chat was configured to “advanced mode” and “agent s
 </tr>
 </tbody>
 </table>
+</div>
 
 If an automatic message is configured with a break line in it, it displayed as “< br / >” in the agent transcript.
