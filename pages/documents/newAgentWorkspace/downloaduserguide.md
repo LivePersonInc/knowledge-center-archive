@@ -1,5 +1,5 @@
 ---
-pagename: Training Deck
+pagename: Training deck
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
