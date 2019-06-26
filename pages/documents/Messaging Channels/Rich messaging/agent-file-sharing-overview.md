@@ -13,7 +13,7 @@ date: '2019-04-15T08:03:29.000+00:00'
 ---
 ## Introduction
 
-Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **web messaging.** In the future, more file formats will be supported.
+Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **web messaging, Apple Business Chat, and WhatsApp Busines.** In the future, more file formats will be supported.
 
 Agents will now be able to share files with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 
@@ -124,7 +124,7 @@ Bots will have the capability to send files as well. For further details and exa
 ## **Limitations and clarifications**
 
 * Supported file types: JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, PPTx.
-* The capability is currently supported only on web messaging.
+* The capability is currently supported only on web messaging, Apple Business Chat, and WhatsApp Business.
 * File size will be limited to 5MB.
 * Authenticated consumers who receive a file from an agent over the web will see an empty line in the native app if the file was sent without a caption, or only the caption.
 
