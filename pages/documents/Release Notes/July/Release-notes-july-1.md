@@ -141,8 +141,8 @@ The following metrics and attributes are added to a new panel named ‘Agent seg
 
 | Attribute | Definition |
 | --- | --- |
-| Agent Segment start reason | Possible values:New conversationAgent transferSkill transferTaken from QueueTakeoverResume |
-| Agent Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemAgent transferSkill transferBack to QueueTakeover from agent |
+| Agent Segment start reason | Possible values: New conversation, Agent transfer, Skill transfer, Taken from Queue, Takeover, Resume |
+| Agent Segment end reason | Possible values: Closed by agent, Closed by consumer, Closed by system, Agent transfer, Skill transfer, Back to Queue, Takeover from agent |
 
 Please note:
 
