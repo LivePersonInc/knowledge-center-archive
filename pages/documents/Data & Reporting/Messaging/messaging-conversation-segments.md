@@ -1,5 +1,5 @@
 ---
-pagename: 'Messaging conversation segments'
+pagename: Messaging conversation segments
 categoryName: Data & reporting
 subCategoryName: Messaging
 indicator: messaging
@@ -57,9 +57,57 @@ Please note: the following scenarios do not start a new skill-segment:
 
 ## Metrics
 
-| Manager Question | Answer (Metric) | Action |  
-| --- | --- | --- |  
-| How many times were conversations assigned to my skill, to be handled by my team of human or bot agents? | Skill Segments | By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations. This metric will be a more precise version of CCPLH. | | How many times did consumers abandon a conversation assigned to my skill? | Abandoned Segments (Skill)Abandoned Segments Rate (Skill) | Isolate abandonment reasons to the team who’s accountable - when more than one team is handling conversations (e.g. tier 1 and tier 2).Determine a skill driving abandonment and whether it’s tied to wait time. | | How many times did consumers abandon a conversation while waiting in my skill-queue? | Abandoned Segments - In Queue (Skill) | This metric enables you to determine issues arising from the length of your queues - before an agent is assigned. Action is to adjust the SLA per skill. | | How many times did my team try to reach out to a consumer but the consumer never replied? | Segments with Non Responsive Consumers (Skill) | Determine why consumers are leaving conversations. Potentially adjust your auto messages or check if the auto close is too fast. Are consumers are not getting to answer in time from your skill? | | How many times did conversations timeout, closed by my agents, or transferred to another skill, while my agents didn’t respond to the consumer? | Segments with Non Responsive Agents (Skill) | This can showcase situations where consumers are being transferred and other skill not answering - does the process of internal transfer need fixing? | | How many times did my team conduct a dialog with consumers? | Interactive Segments (Skill)Interactive Segments Rate (Skill) | More accurate view of actual number of engagements conducted by agents in this skill. | | How long are conversation owned by my agents? | Avg. Segment Duration (Skill) | Clean view into the time agents spend on the skill’s conversations. | | Skill-Queue Statistics | | How long do consumers wait in my skill-queue for an agent to be assigned? | Wait Time for Agent Assignment - Average- Max- 50th percentile- 90th percentile | Understand how long the average consumer waits in the queue and how long consumers wait before abandoning |
+**Manager Question**
+
+How many times were conversations assigned to my skill, to be handled by my team of human or bot agents?
+
+**Answer (Metric):** Skill Segments
+
+**Action:** By understanding the number of conversations, managers can ensure agents are taking the 	optimal number of conversations. 
+
+This metric will be a more precise version of CCPLH.
+
+**Manager Question:** How many times did consumers abandon a conversation assigned to my skill?
+
+**Answer (Metric):** Abandoned Segments (Skill) / Abandoned Segments Rate (Skill)
+
+How many times did consumers abandon a conversation while waiting in my skill-queue?
+
+**Answer (Metric):** Abandoned Segments - In Queue (Skill)
+
+**Action:**This metric enables you to determine issues arising from the length of your queues - 		before an agent is assigned.  Action is to adjust the SLA per skill.
+
+Manager Question: How many times did my team try to reach out to a consumer but the consumer never replied?
+
+**Answer (Metric):**Segments with Non Responsive Consumers (Skill)
+
+**Action:** Determine why consumers are leaving conversations. Potentially adjust your auto messages or check if the auto close is too fast.  Are consumers are not getting to answer in time from your skill?
+
+Manager question 4: How many times did conversations timeout, closed by my agents, or transferred to another skill, while my agents didn’t respond to the consumer?
+
+**Answer (Metric)** Segments with Non Responsive Agents (Skill)
+
+**Action:** This can showcase situations where consumers are being transferred and other skill not answering - does the process of internal transfer need fixing?
+
+**Manager question:** How many times did my team conduct a dialog with consumers?
+
+**Answer (metric)** Interactive Segments (Skill) / Interactive Segments Rate (Skill)
+
+**Action:** More accurate view of actual number of engagements conducted by agents in this skill.
+
+**Manager question:** How long are conversation owned by my agents?
+
+**Answer (metric)** Avg. Segment Duration (Skill)
+
+**Action:**  Clean view into the time agents spend on the skill’s conversations.
+
+### Skill-Queue Statistics
+
+**Manager question:** How long do consumers wait in my skill-queue for an agent to be assigned?
+
+**Answer (metric)** Wait Time for Agent Assignment  - Average / - Max / - 50th percentile - 90th percentile 
+
+**Action:** Understand how long the average consumer waits in the queue and how long consumers wait before abandoning
 
 ## Attributes
 
@@ -73,14 +121,14 @@ Skill-segment metrics can be sliced and diced by:
   1. Human - segments that included only human agent\\s - If skill-segment includes both human agents and bot\\s (uncommon scenario as the best practice is to have a dedicated skill for each type of agent), the user type will show human
   2. Bot - segments that included only bot\\s
   3. N\\A - No assignment to any agent
+  
 * Skill-Segment start reason - possible values:
   1. New conversation
   2. Agent transfer from another skill
   3. Skill transfer
   4. Resume
   5. Other - conversation was routed to a specific skill (a new conversation or a transferred conversation) but, as there was no agent that accepted it, the conversation was routed again to the default skill defined in the accounts
-
-
+  
 * Skill-Segment end reason - possible values:
   1. Agent transfer to another skill
   2. Skill transfer
@@ -104,7 +152,7 @@ An agent-segment starts when an agent is assigned to a conversation:
 * Resume (segment start time = conversation start time)
 
 {: .notice}  
-Joining \\ reading a conversation does not start a new agent-segment.
+Joining \ reading a conversation does not start a new agent-segment.
 
 An agent-segment ends when the agent is no longer assigned to the conversation -
 
@@ -119,9 +167,7 @@ Please note:
 
 ## Metrics
 
-| Manager Question | Answer (Metric) | Action |  
-| --- | --- | --- |   
-| How many times were conversations assigned to each agent, human or bot? | Agent Segments | By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations. This metric will be a more precise version of CCPLH. | | How many times did consumers abandon a conversation handled by my agents? | Abandoned Segments (Agent)Abandoned Segments Rate (Agent) | Isolate abandonment reasons to each agent accountable - when more than one agent is handling conversations (e.g. tier 1 and tier 2).Determine a specific agent driving abandonment and whether it’s caused by lack of training. | | How many times did an agent try to reach out to a consumer but the consumer never replied? | Segments with Non Responsive Consumers (Agent) | Determine why consumers are leaving conversations. Potentially train your agents to give better service or change the flow of the conversation. | | How many times did conversations timeout, closed or transferred by an agent before providing a response to the consumer? | Segments with Non Responsive Agents (Agent) | This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases? | | How many times did each agent conduct a dialog with consumers? | Interactive Segments (Agent)Interactive Segments Rate (Agent) | More accurate view of actual number of engagements conducted by agents. | | How long are agents participating in conversations? | Avg. Segment Duration (Agent) | This can help to quantify the agents’ activity during conversation. | | How many responses my agents send in an average conversation? | Avg. No. of Agent Responses in Segment (Agent) | | Time to Response Statistics | | How quickly is my team responding to incoming conversations from the moment the conversation is assigned to an agent? | “Avg. Time to Response in Segment” | TTR and TTFR in a segment - provides a clearer picture of the time it takes an agent to take action after being assigned to the conversation | | I have a rather high non-responsive rate by consumers. How long does it take, on average, for my agents to respond to a consumer who was waiting in my skill-queue? | “Avg. Time to First Response in Segment” |
+
 
 ## Attributes
 
