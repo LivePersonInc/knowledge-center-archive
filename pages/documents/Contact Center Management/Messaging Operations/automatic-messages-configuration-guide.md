@@ -7,7 +7,7 @@ subtitle: Provide contextual information to consumers about the conversation
 level3: Getting started
 permalink: contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html
 isTutorial: true
-date: 2019-01-21 12:49:33 +0000
+date: '2019-01-21T12:49:33.000+00:00'
 isNew: false
 
 ---
@@ -51,9 +51,9 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="4"}
 4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
-1. Click **Save**.
+Click **Save**.
 
-Note: The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
+**Note:** The automatic message library can also be reached from the messaging settings in the Engagement studio by clicking ‘Customize Automatic Messages’.
 
 ![](/img/automatic-messages-messaging-6b-1.png)
 
@@ -248,8 +248,38 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.
 * HTML is not supported in auto messages and should not be used. Do not use the following characters in the auto message: < > \\. Using these characters may cause the message not to be sent.
-* All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. The language needs to be set in Houston. When connectors are supported in campaigns for messaging at a later date, all languages will be supported.
+*  All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. See the [Language Support](https://docs.google.com/document/d/1JBWuCr8_9e02mGIuLeW8kdfcyCCLmHm8_3PKmXm6ido/edit#heading=h.rmnrr4onfzgp) section for more info
 * A new profile, related to the auto messages, is added to LiveEngage and appears in the UI. This profile should not be deleted/edited.
+
+## Determining Off-hours
+
+**Option 1: using the contact center’s working hours/off hours settings**
+
+By default, the sending of working hours/off hours auto messages is dependent on the contact center’s working hours/off hours settings. See below on how to set off hours.
+
+**Option 2: By number of logged in agents**
+
+Working hours/off hours can be determined by the number of logged in agents per skill. Meaning that working hours auto messages are sent if there is at least one logged in agent (i.e. an agent with online, away or back soon status) for a specific skill, or off hours auto messages are sent if there are no logged in agents for that skill. For brands who enable this functionality, the LiveEngage contact center setting of working/off hours will not be taken into account in the triggering of auto messages.
+
+This functionality will also enable brands to configure different off hours per skill for auto messages, since the number of logged in agents is checked for the skill the conversation is assigned to, whereas the contact center setting is checked for all skills.
+
+The following auto messages will trigger based on the number of logged in agents if the feature is enabled:
+
+* First time welcome message (working hours)
+* Returning consumer welcome message (working hours)
+* First time off hours welcome message
+* Off hours returning consumer welcome message
+* Off hours message mid conversation
+
+For brands who do not enable this feature, there will be no change in behavior.
+
+This applies for the off hours **auto messages** only; it does not affect any other aspect of LiveEngage.
+
+**Known limitations**
+
+1. If the brand’s contact center is set to 24/7 working hours, do not use the “expected response time” dynamic text in off hours messages since it will not be correct.
+2. When the first agent logs in/the last agent logs out there it may take up to 1 minute for the number of logged in agents to refresh.
+3. This affects auto messages only. The Agent SLA will still be based on the contact center state.
 
 ## Setting the contact center off hours
 
@@ -379,41 +409,35 @@ The minimum available time frame is 15 seconds.
 
 ## Logic of “Consumer non-responsive” message
 
-* When the consumer did not send a message for over x seconds/minutes/hours since last assigned agent OR agent OR agent manager last wrote a message, the auto message is triggered.
-* Agents sending more messages will reset the time.
-* This auto message will trigger if the conversation is currently assigned to an agent.
-* Timer does not reset upon transfer.
+* When the consumer did not send a message for over x seconds/minutes/hours since last assigned agent OR agent OR agent manager last wrote a message, the auto message is triggered
+* When the consumer answers the agent, the timer is stopped. The timer will be reset when the agent sends another message.
+* This auto message will trigger only if the conversation is currently assigned to an agent
+* When a conversation is transferred, the timer is reset and re-counting begins upon first message from the agent after the assignment
+* The consumer non-responsive message is sent once every conversation, since in messaging the consumer can answer in his own time.
 
 {: .notice}
 The minimum available time frame is 15 seconds.
 
 #### Example Scenarios
 
-Timer set for 10 minutes
+**Example Scenarios**
 
-**Scenario 1**
+Please refer to the following examples which demonstrate this change (60 minute timer):
 
-10:00 - Agent sends a message
+**_Scenario 1_**
 
-10:10 - _Consumer non-responsive_ message is triggered
+* 9:55 Consumer sends a message
+* 10:00 Agent sends message #1
+* 10:05 Agent sends message #2
+* 11:00 Consumer non-responsive message should be triggered
 
-**Scenario 2**
+**_Scenario 2_**
 
-10:00 - Agent sends a message
-
-10:05 - Agent transfers conversation / returns conversation to queue
-
-10:10 - Conversation is unassigned; _Consumer non-responsive_ message is triggered
-
-**Scenario 3**
-
-10:00 - Agent sends a message
-
-10:05 - Agent transfers conversation / returns conversation to queue
-
-10:07 - Conversation is assigned to a new agent
-
-10:10 - _Consumer non-responsive_ message is triggered
+* 9:55 Consumer sends a message
+* 10:00 Agent A sends message #1
+* 10:05 Conversation is transferred
+* 10:06 Conversation is assigned to agent B and he sends message #2
+* 11:06 Consumer non-responsive message should be triggered
 
 ## Logic of “Welcome” message following auto close
 
