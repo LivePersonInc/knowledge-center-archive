@@ -122,6 +122,7 @@ The following metrics and attributes are added to a new panel named ‘Skill seg
 ### Agent Segments
 
 The following metrics and attributes are added to a new panel named ‘Agent segment’ under the ‘Agent Data’ sheet:
+
 | Metric | Definition |
 | --- | --- |
 | Agent Segments | The number of times conversations were assigned to an agent.A conversation may be assigned more than once to a given agent. |
@@ -149,3 +150,99 @@ Please note:
 * Messages provided by the Controller Bot (system messages) are omitted from the calculations.
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages
+
+## Add Timezone to Survey dashboard for Live Chat in Report Builder
+
+### Type:  New functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Timezone support is added to the Survey dashboard for Live Chat.  
+Enterprise brands often have a global operation with contact centers in different regions. Each contact center is managed locally and by a global team.
+
+To support both local agent managers in each region and global teams situated in the account’s timezone, Report Builder users will be able to change the time zone of the dashboard to analyze performance in their local time.
+
+Before running a dashboard, the user is presented with a selection of time offsets from the timezone of the defined on the LiveEngage account. This causes the data to be presented in the local time zone of the user.
+
+This new feature is enabled OOTB and is available for all Report Builder enabled customers.
+
+**Please note:** 
+
+* Time offset is only possible for full hours. This means that users that are in time zones that are variations of half hours from GMT (such as certain places in India), will need to choose the full hour before or after. Half hour or quarter hour increments will not be supported.
+* The drop down window displaying the time offsets available for the user to choose from, can only display 30 entries. Since there are 48 variations from GMT, there are two ‘pages’ of the dropdown.
+* To support the time shift capability, the time related attributes have been altered to show an hour level granularity.
+
+  For user with customization permissions, the attributes will now appear with the derived (fx) icon with the naming convention of the previous date/time related attributes. The naming convention of the previous attributes was altered to be “_xxx__old” and moved out of the predefined attribute list for users with customization permissions to access.
+* There should be no impact or change to existing user copies. User copies created prior to this release will not display the offset functionality and therefore will not have the changes to the attributes mentioned in the note above.
+
+![](/img/RB3.3-2.png)
