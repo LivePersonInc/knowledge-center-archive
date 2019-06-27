@@ -64,3 +64,9 @@ The ‘consumer info’ widget displayed consumer attributes to the agents.  Thi
 
 **Default:** agent can view all attributes
 
+### Hide visitor name from agent
+Brands can elect to maintain the consumer name anonymous from agents and replace their name with ‘visitor’ in the agent list.
+
+**Default:** off
+
+
