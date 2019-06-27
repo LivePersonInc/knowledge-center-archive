@@ -1316,6 +1316,7 @@ div#cookie-law {
 
   .newagent {
     width: 650px;
+    margin: unset;
   }
 
   .homeRow {
