@@ -26,6 +26,8 @@ This conversation list is comprehensive, including ongoing, overdue, idle, and c
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Ongoing and overdue conversations cannot be filtered out of the conversation list. 
 
+new-agent-workspace-gif-2.gif
+
 Agents can filter conversations in the list by the following statuses:
 
 * **Ongoing**
@@ -43,8 +45,6 @@ Agents can filter conversations in the list by the following statuses:
 * **Closed**
     * **Definition**: Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. Closed conversations are stored for between 48 hours and 14 days, depending on your contact center’s configuration. 
     * **How to use**: Filter these conversations into the list at the end of your shift, or if you have down time. This will allow you to proactively follow up with conversations or to review that you have taken all the necessary steps to wrap up and document each one. 
-
-![image alt text](img/filters.jpg){:class="newagent"}
 
 ## Your personal data bar
 
