@@ -1314,6 +1314,10 @@ div#cookie-law {
 
 @media screen and (max-width:1440px){
 
+  .newagent {
+    width: 650px;
+  }
+
   .homeRow {
     width: unset;
   }
