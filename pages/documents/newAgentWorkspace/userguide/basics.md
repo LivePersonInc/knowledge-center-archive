@@ -31,8 +31,8 @@ The new conversation list includes ongoing, overdue, idle, and closed conversati
 Agents can filter conversations in the list by the following statuses:
 
 * **Ongoing**
-    * **Definition:** Ongoing conversations are open conversations that are currently active, overdue, or idle.
-    * **How to use**: During a daily shift these conversations appear in your conversation list, telling which you should handle.
+    * **Definition:** Ongoing conversations are open conversations that are currently active.
+    * **How to use**: During a daily shift these conversations appear in your conversation list, telling which you should handle
 
 * **Overdue**
     * **Definition**: Conversations that have not been answered before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). 
