@@ -1,9 +1,9 @@
 ---
-pagename: Introducing the enhanced agent workspace: coming September 2019
+pagename: Introducing the enhanced agent workspace
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Learn more about the updated agent workspace
+subtitle: Coming September 2019!
 level3: ''
 permalink: the-enhanced-agent-workspace.html
 layout: newAgentWorkspaceHomepage
