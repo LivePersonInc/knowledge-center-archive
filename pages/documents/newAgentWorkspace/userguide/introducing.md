@@ -16,7 +16,7 @@ Enhanced by automation and featuring an upgraded design, the agent workspace has
 
 ![image alt text](img/new-agent-workspace-gif-3.gif){:class="newagent"}
 
-The main enhancements to the agent workspace include: 
+## The main enhancements to the agent workspace include: 
 
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease. 
 
