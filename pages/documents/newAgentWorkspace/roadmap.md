@@ -9,4 +9,4 @@ permalink: roadmap.html
 layout: newAgentWorkspace
 ---
 
-Coming soon.
+![alt text](img/new-workspace-roadmap.png)
