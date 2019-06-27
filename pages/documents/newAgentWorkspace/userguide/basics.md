@@ -26,7 +26,7 @@ This conversation list is comprehensive, including ongoing, overdue, idle, and c
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Ongoing and overdue conversations cannot be filtered out of the conversation list. 
 
-![alt text] (img/new-agent-workspace-gif-2.gif)
+![alt text](img/new-agent-workspace-gif-2.gif)
 
 Agents can filter conversations in the list by the following statuses:
 
