@@ -22,6 +22,3 @@
 
 - categoryname: Rollout
   image: admin-settings
-
-- categoryname: Release notes
-  image: release-notes
