@@ -91,6 +91,8 @@ The consumer will receive the file as part of the conversation. When the consume
 
 ![](/img/agent-file-sharing-11.png)
 
+![](/img/agent-file-sharing-18.png)
+
 ## **File storage, retention and encryption**
 
 * Files are hosted by LivePerson.
