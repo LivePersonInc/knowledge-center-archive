@@ -14,6 +14,8 @@ layout: newAgentWorkspace
 
 Enhanced by automation and featuring an upgraded design, the agent workspace has been updated to boost agent efficiency and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for the agent. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
 
+![image alt text](img/new-agent-workspace-gif-3.gif){:class="newagent"}
+
 The main enhancements to the agent workspace include: 
 
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease. 
