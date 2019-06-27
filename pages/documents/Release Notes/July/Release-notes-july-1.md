@@ -428,7 +428,7 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 Brands will be able to utilize the Conversation Builder for bots in various different languages including German and Japanese , allowing the NLU intent analysis as an integration into Conversation Builder.
 
-## Fallback skill per skill
+## Fallback configuration by skill
 
 ### Type: New functionality
 
@@ -471,7 +471,7 @@ Brands will be able to utilize the Conversation Builder for bots in various diff
 
 While assigning conversations to agents, it is possible that certain skills would have no online agents that could receive the conversations. In such cases, brands need to be able to define a secondary fallback skill to which the conversation will be assigned.
 
-Fallback skill per skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
+Fallback configuration by skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
 
 ![](/img/rn-week-of-july-1.png)
 
