@@ -27,6 +27,6 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 **Closed conversation status filter:** Closed conversations can be filtered into the conversation list by status, allowing agents to ensure that all their documentation is in place when wrapping up their shift. 
 
-**Idle conversation status filter:** When a consumer hasn't responded in five minutes or longer, a conversation becomes idle. Agents can filter these conversations out for a more focused conversation list. 
+**Idle conversation status and filter:** When a consumer hasn't responded in five minutes or longer, a conversation is marked with the new idle status. Agents can filter these conversations out for a more focused conversation list. 
 
 **Custom widgets:** The enhanced workspace supports the addition of **up to 10 custom widgets.** This allows brands to supply agents with convenient access to the custom tools necessary for handling messaging conversations. 
