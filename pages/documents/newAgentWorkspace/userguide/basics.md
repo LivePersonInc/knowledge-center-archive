@@ -20,7 +20,7 @@ All conversations that were assigned to you or that you are participating in wil
 
 This conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
-![image alt text](img/agentlist.jpg){:class="newagent"}
+![alt text](img/new-agent-workspace-gif-1.gif){:class="newagent"}
 
 ## Status filters
 
