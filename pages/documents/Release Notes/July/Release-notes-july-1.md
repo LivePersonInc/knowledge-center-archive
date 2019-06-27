@@ -352,6 +352,82 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 * Meta intents are not working for Watson
 
+## Conversation Builder: Language support
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Brands will be able to utilize the Conversation Builder for bots in various different languages including German and Japanese , allowing the NLU intent analysis as an integration into Conversation Builder.
+
 ## Fallback skill per skill
 
 ### Type: New functionality
@@ -412,7 +488,7 @@ Configuring a fallback skill per a specific skill is then made available through
 
 ## \[ABC\]\[WhatsApp\] Add support for agent to share photos and documents with consumer
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">

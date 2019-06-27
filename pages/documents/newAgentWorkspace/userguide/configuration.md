@@ -43,6 +43,7 @@ In the workspace, agents can use the filter in their conversation list to view o
 **Min:** 1 day
 
 **Max:** 14 days
+<br>
 
 ### Time format
 Determine the format of the time that is displayed to agents within the workspace and within conversations.
@@ -50,12 +51,14 @@ Determine the format of the time that is displayed to agents within the workspac
 **Default:** 12 hour clock (e.g. 08:59pm)
 
 **Option:** 24 hour clock (e.g.  = 20:59)
+<br>
 
 ### Disable emojis
 Brands can elect to remove the option for agents to send emojis during a conversation. 
 
 **Default:** emojis are enabled 
 
+<br>
 ### Hide unauthenticated consumer attributes
 The ‘consumer info’ widget displayed consumer attributes to the agents.  This setting enables brands to hide any unauthenticated attributes from the agents. 
 
