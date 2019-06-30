@@ -20,13 +20,13 @@ The new dynamic conversation list is sorted by SLA, or response time. Conversati
 
 The conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
-![alt text](img/new-agent-workspace-gif-1.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
 ## Conversation status and filters
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. 
 
-![alt text](img/new-agent-workspace-gif-2.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
 Agents can filter conversations in the list by the following statuses:
 
