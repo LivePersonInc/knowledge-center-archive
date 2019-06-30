@@ -9,7 +9,7 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-messages.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 12:22:36 +0000
+date: '2019-01-23T12:22:36.000+00:00'
 
 ---
 Automatic messages are messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. For example:
@@ -107,6 +107,10 @@ These messages appear during the conversation to provide visitors contextual inf
 | This message is displayed when the chat is transferred to a different agent due to a problem connecting to the assigned agent. | Engagement re-queued by system | There is a problem connecting with {name}. Please wait while your chat is transferred to another agent. | {name} |
 | This messages is displayed when an agent accepts the chat. | Agent accepts the engagement | You are now chatting with {name}. | {name} |
 | This message is displayed when the chat has been disconnected. | Engagement disconnected | Sorry, our chat session has ended unexpectedly. Come chat with us again for further assistance. |  |
+
+{: .notice}
+In AC site setting, we have "messaging.brand.shift.delay.epoch.seconds", which can be -1 if the brand is online or some value which indicates when the brand will be online. Estimated time to response is calculated based on the shiftDelay value.
+
 
 ### Non-responsive messages
 
