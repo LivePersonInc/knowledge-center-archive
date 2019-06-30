@@ -109,7 +109,7 @@ These messages appear during the conversation to provide visitors contextual inf
 | This message is displayed when the chat has been disconnected. | Engagement disconnected | Sorry, our chat session has ended unexpectedly. Come chat with us again for further assistance. |  |
 
 {: .notice}
-In AC site setting, we have "messaging.brand.shift.delay.epoch.seconds", which can be -1 if the brand is online or some value which indicates when the brand will be online. Estimated time to response is calculated based on the shiftDelay value.
+In AC site setting, the "messaging.brand.shift.delay.epoch.seconds" can be -1 if the brand is online or another value that indicates when the brand will be online. Estimated time to response is calculated based on the shiftDelay value.
 
 
 ### Non-responsive messages
