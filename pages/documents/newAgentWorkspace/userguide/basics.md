@@ -34,7 +34,7 @@ The new conversation list includes ongoing, overdue, idle, and closed conversati
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
-Agents can filter conversations in the list by the following statuses:
+You can filter conversations in the list by the following statuses:
 
 * **Ongoing**
     * **Definition:** Ongoing conversations are open conversations that are currently active. During a daily shift these conversations appear in your conversation list, telling which you should handle based on the SLA. 
@@ -68,6 +68,6 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 **ACTIONABLE:** number of conversations that are waiting to be assigned to an agent in the queue and have an immediate action (e.g. reply to a waiting customer)
 
-**IN QUEUE:** overall number of conversations in the queue, including actionable and not actionable. A not actionable conversation is one that is still open but awaiting a consumer reply. Only the actionable conversations are routed to agents
+**IN QUEUE:** overall number of conversations in the queue, including actionable and not actionable. A not actionable conversation is one that is still open but awaiting a consumer reply. Only the actionable conversations are routed to agents.
 
 **CSAT:** displays the customer satisfaction score based on the Post Conversation Surveys that were completed in the last 12 hours.
