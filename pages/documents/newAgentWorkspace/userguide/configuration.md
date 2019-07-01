@@ -58,7 +58,6 @@ Brands can elect to remove the option for agents to send emojis during a convers
 
 **Default:** emojis are enabled 
 
-<br>
 ### Hide unauthenticated consumer attributes
 The ‘consumer info’ widget displayed consumer attributes to the agents.  This setting enables brands to hide any unauthenticated attributes from the agents. 
 

@@ -16,27 +16,25 @@ As an agent, your workspace is a centralized location for handling all of your c
 
 ## Dynamic conversation list
 
-All conversations that were assigned to you or that you are participating in will appear in your workspace. The new dynamic conversation list is sorted by SLA, using automation to stay continually updated and prioritize the most urgent conversations. The list is automatically sorted after every agent action or incoming conversation.This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining which conversation to prioritize. 
+The new dynamic conversation list is sorted by SLA, or response time. Conversations with the shortest SLA are the most urgent, and are therefore sorted to the top of the list. The list updates automatically after every agent action or incoming conversation, ensuring that the most important conversations are always prioritized. This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining who to help next. 
 
-This conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
+The conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
-![alt text](img/new-agent-workspace-gif-1.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
-## Status filters
+## Conversation status and filters
 
-The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Ongoing and overdue conversations cannot be filtered out of the conversation list. 
+The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. 
 
-![alt text](img/new-agent-workspace-gif-2.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
 Agents can filter conversations in the list by the following statuses:
 
 * **Ongoing**
-    * **Definition:** Ongoing conversations are open conversations that are currently active.
-    * **How to use**: During a daily shift these conversations appear in your conversation list, telling which you should handle
+    * **Definition:** Ongoing conversations are open conversations that are currently active. During a daily shift these conversations appear in your conversation list, telling which you should handle based on the SLA. 
 
 * **Overdue**
-    * **Definition**: Conversations that have not been answered before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). 
-    * **How to use**: These conversations are visible during your shift to ensure that the consumers are helped and your KPIs are being met.
+    * **Definition**: These are conversations that were not answerd before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). These conversations are visible during your shift to ensure that the consumers are helped and your KPIs are being met.
 
 * **Idle**
     * **Definition**: These are conversations in which the consumer hasn’t replied for 5 minutes or longer, they are defined as inactive. 

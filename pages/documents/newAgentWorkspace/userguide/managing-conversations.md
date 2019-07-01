@@ -24,7 +24,7 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
 
-![alt text](img/new-agent-workspace-gif-1.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
@@ -46,7 +46,7 @@ There are several tools in place to help you access the information you’ll nee
 
 * **Conversation summary**: This dedicated widget enables agents to write notes and comments about the conversation. It has been enhanced to support the entering of multiple notes by several agents, allowing you to see a log of comments for context. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
-![alt text](img/new-agent-workspace-gif-3.gif){:class="newagent"}
+![alt text](img/New Agent work space GIF3.gif){:class="newagent"}
 
 * **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way agents can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM. 
 

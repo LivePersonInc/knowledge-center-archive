@@ -7,10 +7,10 @@ subtitle: 'Manage expectations and keep consumers informed about expected wait t
 level3: ''
 permalink: contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html
 isTutorial: false
-date: 2019-01-17 10:28:55 +0000
+date: '2019-01-17T10:28:55.000+00:00'
 isNew: false
 redirect_from:
-  - auto-close.html
+- auto-close.html
 
 ---
 To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time. Auto close provides a seamless experience for consumers; they will not receive a post conversation survey, nor see a separator within the conversation thread.
@@ -29,11 +29,14 @@ Having such a capability will give brands a higher level of flexibility to deter
 
 **Notes:**
 
-* Brands can configure auto close for any time period between 25 minutes and 90 days; the default setting is 90 days.
+* Brands can configure auto close for any time period between 25 minutes and 90 days; the default setting is 90 days. 
+* Auto close process runs in 25 minute intervals. This means that auto close will apply to a given conversation anytime between the configured time and the configured time + 25min.
 * A conversation will only auto close if it is pending a consumer response; for conversations pending an agent response, auto close will not apply.
-* By default a conversation where the agent has set a manual response time will not be auto closed. This logic can be disabled in the backend by your LivePerson account team.
+* When a conversation is sent back to the queue, the auto close inactivity timer will reset and if the conversation is pending a consumer response the conversation will auto close.
+* By default a conversation where the agent has set a manual response time will not be auto closed. This logic can be altered in the backend by your LivePerson account team so that a conversation set with a manual response time will auto close only after the manual response time expires _and_ an agent sent at least one line of conversation after the manual response time expired.
 * Auto close is scheduled to run at 25 minute intervals, meaning that inactive conversations will be automatically closed up to 25 minutes after their inactivity threshold was reached. For example, if the configured period of inactivity is 2 hours and a conversation was last active at 1pm, the conversation will be auto closed between 3 and 3:25pm.
 * Auto close is supported on web messaging and on mobile from SDK 2.1 and above.
+* A transferred conversation is marked as 'actionable' and therefore auto close will not apply. 
 
 ## Configuration
 
