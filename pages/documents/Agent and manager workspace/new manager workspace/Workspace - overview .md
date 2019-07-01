@@ -38,9 +38,13 @@ Agent managers will have real time visibility into their KPIs and aggregated per
 
 ## Configuration
 
-To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
+To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default. 
 
 ![](img/newworkspacepermissions.png)
+
+### New agent workspace
+
+Here you can also control the permissions for the new agent workspace. The permission is currently **“Off”** by default. 
 
 ## Filters
 
