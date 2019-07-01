@@ -60,7 +60,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 **OPEN:** number of current open conversations
 
-**PENDING:** number of conversations pending agent response
+**PENDING:** number of conversations pending an agent response
 
 **OVERDUE:** number of conversations that exceeded the target response time
 
