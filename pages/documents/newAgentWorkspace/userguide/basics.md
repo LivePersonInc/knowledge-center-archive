@@ -22,6 +22,12 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
+### My Connections
+The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly. 
+
+### All Connectons 
+The All Connections list includes all of the conversations you have handled historically. It can be used to follow up on previous conversations. 
+
 ## Conversation status and filters
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. 
