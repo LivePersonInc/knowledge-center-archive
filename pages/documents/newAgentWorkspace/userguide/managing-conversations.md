@@ -14,7 +14,7 @@ layout: newAgentWorkspace
 
 ## Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your username in the top right corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
 
 ### Warm up: staggered incoming conversations at the beginning of your shift
 
