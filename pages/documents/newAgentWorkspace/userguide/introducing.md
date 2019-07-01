@@ -30,3 +30,5 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 **Idle conversation status and filter:** When a consumer hasn't responded in five minutes or longer, a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list. 
 
 **Custom widgets:** The enhanced workspace supports the addition of **up to 10 custom widgets.** This allows brands to supply agents with convenient access to the custom tools necessary for handling messaging conversations. 
+
+**Agent survey:** The agent survey, which was previously available only for chat, allows brands to collect feedback from agents after their conversations are complete. This information can then be used to optimize messaging operations. 
