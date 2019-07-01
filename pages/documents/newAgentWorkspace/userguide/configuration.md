@@ -17,13 +17,13 @@ The agent workspace is tailored to the needs of messaging agents and was designe
 There are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
 {: .notice}
-**Please note:** If you have set up these configurations for the existing agent worksapce, you do not need to set them again - they will automatically apply.
+**Please note:** If you have set up these configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
 
 ## Configuration from your LivePerson workspace
 
 ### Auto accept
 
-Determine if incoming conversations will automatically enter an agents workspace or if they have to press ’accept’ button to receive them.
+Determine if incoming conversations will automatically enter an agent's workspace or if they have to press ’accept’ button to receive them.
 
 Set up: 
 1. Login to LivePerson as an admin and access the Night Vision settings by clicking on the Night Vision icon to the top right of the screen.
@@ -36,7 +36,7 @@ Set up:
 Contact your LivePerson representative to customize the following parameters per your requirements.
 
 ### Timeframe for closed conversations 
-In the workspace, agents can use the filter in their conversation list to view only ‘closed’ conversations.  This setting will determine the time frame to display the closed conversations, or how far back to display conversations.  
+In the workspace, agents can use the filter in their conversation list to view only ‘closed’ conversations. This setting will determine the time frame to display the closed conversations, or how far back to display conversations.  
 
 **Default:** 2 days
 
@@ -59,7 +59,7 @@ Brands can elect to remove the option for agents to send emojis during a convers
 **Default:** emojis are enabled 
 
 ### Hide unauthenticated consumer attributes
-The ‘consumer info’ widget displayed consumer attributes to the agents.  This setting enables brands to hide any unauthenticated attributes from the agents. 
+The ‘consumer info’ widget displayed consumer attributes to the agents. This setting enables brands to hide any unauthenticated attributes from the agents. 
 
 **Default:** agent can view all attributes
 
