@@ -132,7 +132,10 @@ The list will include following columns:
 
 #### Navigating to the conversation
 
-Clicking on the consumer name will open the conversation window. Only open conversations ("in-queue", “assigned” statuses) will be clickable.
+Clicking on the consumer name will open the conversation window. Only open conversations ("in-queue", “assigned” statuses) will be clickable. Once in the conversation view, you will see the option to join the conversation. If you choose to join the conversation it will be moved to your My Connections list. 
+
+{: .notice} 
+**Please note:** If the new agent workspace is not toggled on, when you select a conversation you will be redirected to the All Connections list in the old UI. 
 
 ![](img/conversationswidget.png)
 
