@@ -56,8 +56,11 @@ The automatic message library can also be reached from the chat settings in the 
 1. On the **Edit** **Automatic Messages** page, click the “+” button below the message description next to the default set. A skill selection floating window is displayed.
 2. Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
 3. Select a skill tab (for example Billing or Tech support, as shown in the illustration above). The skill’s related fields will appear. Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used.
-4. Enter the relevant text to the text field. Note: you can dynamic text (see below).
+4. Enter the relevant text to the text field. Note: you can use dynamic text (see below).
 5. Click **Save**. Note: you need to save your changes for each skill separately.
+
+{: .notice}
+When transfering a chat to a different agent, the skill-specific message will only be shown if the target agent has the skill of the chat. Otherwise, the default message will be shown.
 
 ![](/img/automatic-messages-chat-7b.png)
 
