@@ -7,7 +7,7 @@ subtitle: " Here’s what you need to know about the surveys available in LivePe
 level3: ''
 permalink: contact-center-management-live-chat-operations-surveys-with-live-chat.html
 isTutorial: false
-date: 2019-01-21 11:55:32 +0000
+date: '2019-01-21T11:55:32.000+00:00'
 isNew: false
 
 ---
@@ -29,7 +29,7 @@ Offline surveys are presented to visitors when no agents are available to chat, 
 
 ## Agent survey
 
-The agent survey is an important tool that allows you to gather data and insights from your agents about their conversations with consumers. Gathering data from the agent's perspective helps you determine and analyze the nature of the chat and understand its outcome. .
+The agent survey is an important tool that allows you to gather data and insights from your agents about their conversations with consumers. Gathering data from the agent's perspective helps you determine and analyze the nature of the chat and understand its outcome.
 
 ## Best practices for survey design
 

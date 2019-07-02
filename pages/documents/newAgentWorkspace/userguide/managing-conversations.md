@@ -14,7 +14,7 @@ layout: newAgentWorkspace
 
 ## Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your username in the top right corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
 
 ### Warm up: staggered incoming conversations at the beginning of your shift
 
@@ -44,11 +44,11 @@ Conversations that reach your workplace have already undergone detailed analysis
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
-* **Conversation summary**: This dedicated widget enables agents to write notes and comments about the conversation. It has been enhanced to support the entering of multiple notes by several agents, allowing you to see a log of comments for context. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
+* **Conversation summary**: This dedicated widget enables you to write notes and comments after finishing a conversation. It has been enhanced to support the entering of multiple notes by several agents, allowing you to see a log of comments for context. Since the connection may be ongoing, these notes will help you quickly catch up on the conversation and keep other agents in the loop should it be assigned to them in the future.
 
 ![alt text](img/New Agent work space GIF3.gif){:class="newagent"}
 
-* **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way agents can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM. 
+* **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way you can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM. 
 
 ![image alt text](img/convohistory.jpg){:class="newagent"}
 
@@ -100,14 +100,14 @@ The nature of messaging conversations is that they are ongoing and can be resume
 
 The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have ‘options’, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed. As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window. It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate.
 
-At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your conversation list. This will allow you to review your conversation summaries and ensure that your conversations were properly documented. Closed conversations are stored for between 48 hours up to 14 days, depending on your contact center's configuration. 
+At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversation summaries and ensure that your conversations were properly documented. Closed conversations are stored in the My Connections list for between 48 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list. 
 
 
 ### Surveys (coming September) 
 
-**Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, the agent or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
+**Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, by you or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
 
-**Agent survey:** The agent survey allows brands to gather data and insights from their agents about their conversations with consumers. Gathering data from the agent's perspective helps them to determine and analyze the nature of conversations and understand their outcomes.
+**Agent survey:** The agent survey, which was previously available only for chat, allows brands to gather data and insights from their agents about their conversations with consumers. Gathering data from your perspective helps them to determine and analyze the nature of conversations and understand their outcomes. Once collected, this information can be used to recognize issues and optimize messaging operations.  
 
 ### Auto Close for inactive conversations
 

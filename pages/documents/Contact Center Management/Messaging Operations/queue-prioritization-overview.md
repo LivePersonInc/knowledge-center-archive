@@ -8,7 +8,7 @@ subtitle: 'Learn how LivePerson has developed queue prioritization specifically 
 level3: Getting started
 permalink: contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html
 isTutorial: true
-date: 2019-01-16T08:25:55.000+00:00
+date: '2019-01-16T08:25:55.000+00:00'
 isNew: false
 
 ---
@@ -50,6 +50,10 @@ Define a business rule that assigns higher priority to conversations that were t
 **Prioritize conversations that were escalated by a bot**
 
 Define a business rule that assigns higher priority to conversations that were transferred from a Bot skill enabling your human agents to quickly bring back the conversation on its course.
+
+**Prioritize conversations based on consumer authenticated attributes**
+
+Tailor queue prioritization business rules based on authenticated consumer attributes. This way, you can define that customers with high account balances or those marked as VIP’s receive a velocity factor that helps them advance faster in the queue - reducing the response time for these consumers.
 
 ## ![](/img/queue-prior-overview-2.png)
 
