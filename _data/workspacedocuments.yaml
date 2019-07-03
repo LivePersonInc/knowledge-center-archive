@@ -17,12 +17,18 @@
     - subcategoryname: Introducing the new manager workspace
     - subcategoryname: Use Cases
     - subcategoryname: User guide
+    - subcategoryname: Using all connections
+    - subcategoryname: What's new in all connections
 
 - categoryname: Admins & Campaign Managers
   image: agent-manager
+  subcategories:
+    - subcategoryname: New icons
 
 - categoryname: LiveChat Agents & Managers
   image: getting-started
+  subcategories:
+    - subcategoryname: Find the new status button
 
 - categoryname: Consumer Experience
   image: getting-started
