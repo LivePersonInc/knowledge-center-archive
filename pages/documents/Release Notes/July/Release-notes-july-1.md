@@ -104,20 +104,20 @@ The following metrics and attributes are added to a new panel named ‘Skill seg
 
 | Metric | Definition |
 | --- | --- |
-| Skill Segments | The number of times conversations were assigned to a skill.Measured for conversations that were opened to the skill or transferred to it.A conversation may be assigned more than once to a given skill. |
+| Skill Segments | The number of times conversations were assigned to a skill. Measured for conversations that were opened to the skill or transferred to it. A conversation may be assigned more than once to a given skill. |
 | Abandoned Segments (Skill) | The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. |
-| Abandoned Segments Rate (Skill) | The percentage of abandoned segments out of the total segments assigned to the skill.Formula: Abandoned Segments (Skill) / Skill Segments |
+| Abandoned Segments Rate (Skill) | The percentage of abandoned segments out of the total segments assigned to the skill. Formula: Abandoned Segments (Skill) / Skill Segments |
 | Abandoned Segments - In Queue (Skill) | The number of conversations closed by a consumer which included no agent message since no agent was assigned. Measured during the last skill-segment of the conversation, and is unaffected by the agent activity from previous skill-segments. |
 | Segments with Non Responsive Consumers (Skill) | The number of skill-segments which ended in a transfer to another skill or closed with no response from the consumer to an agent’s message. |
 | Segments with Non Responsive Agents (Skill) | The number of skill-segments which ended in a transfer to another skill or closed by agent/system with no message from an agent. |
-| Interactive Segments (Skill) | The number of skill-segments with at least one response from a consumer to a skilled-agent’s message.Measured from the first message sent by an agent in a new skill-segment. |
-| Interactive Segments Rate (Skill) | The percentage of interactive segments out of all the segments assigned to the skill.Formula: Interactive Segments (Skill) / Skill Segments |
+| Interactive Segments (Skill) | The number of skill-segments with at least one response from a consumer to a skilled-agent’s message. Measured from the first message sent by an agent in a new skill-segment. |
+| Interactive Segments Rate (Skill) | The percentage of interactive segments out of all the segments assigned to the skill. Formula: Interactive Segments (Skill) / Skill Segments |
 | Avg. Segment Duration (Skill) | Average duration of skill-segments. Measured from the time the conversation was assigned to the skill until it was closed or transferred to another skill. |
 
 | Attribute | Definition |
 | --- | --- |
-| Skill Segment start reason | Possible values:New conversationSkill transferAgent transfer from another skillResume |
-| Skill Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemSkill transferAgent transfer to another skill |
+| Skill Segment start reason | Possible values: New conversation, Skill transfer, Agent transfer from another skill, Resume |
+| Skill Segment end reason | Possible values: Closed by agent, Closed by consumer, Closed by system, Skill transfer, Agent transfer to another skill |
 
 ### Agent Segments
 
@@ -141,8 +141,8 @@ The following metrics and attributes are added to a new panel named ‘Agent seg
 
 | Attribute | Definition |
 | --- | --- |
-| Agent Segment start reason | Possible values:New conversationAgent transferSkill transferTaken from QueueTakeoverResume |
-| Agent Segment end reason | Possible values:Closed by agentClosed by consumerClosed by systemAgent transferSkill transferBack to QueueTakeover from agent |
+| Agent Segment start reason | Possible values: New conversation, Agent transfer, Skill transfer, Taken from Queue, Takeover, Resume |
+| Agent Segment end reason | Possible values: Closed by agent, Closed by consumer, Closed by system, Agent transfer, Skill transfer, Back to Queue, Takeover from agent |
 
 Please note:
 
@@ -236,7 +236,7 @@ Before running a dashboard, the user is presented with a selection of time offse
 
 This new feature is enabled OOTB and is available for all Report Builder enabled customers.
 
-**Please note:** 
+**Please note:**
 
 * Time offset is only possible for full hours. This means that users that are in time zones that are variations of half hours from GMT (such as certain places in India), will need to choose the full hour before or after. Half hour or quarter hour increments will not be supported.
 * The drop down window displaying the time offsets available for the user to choose from, can only display 30 entries. Since there are 48 variations from GMT, there are two ‘pages’ of the dropdown.
@@ -247,9 +247,9 @@ This new feature is enabled OOTB and is available for all Report Builder enabled
 
 ![](/img/RB3.3-2.png)
 
-## Third Party NLU support 
+## Third Party NLU support
 
-### Type: New feature
+### Type: New functionality
 
 <div class="tablecontainer">
 
@@ -341,8 +341,6 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 **3rd Party NLU limitations**
 
 * Third Party NLU Domain - Entity length should not exceed 64 characters. (Watson limitation)
-
-
 * Each domain can only support one language and it is available in the settings page.
 
 **Fire API-CB limitations:**
@@ -353,3 +351,190 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 **Please note:**
 
 * Meta intents are not working for Watson
+
+## Conversation Builder: Language support
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Brands will be able to utilize the Conversation Builder for bots in various different languages including German and Japanese , allowing the NLU intent analysis as an integration into Conversation Builder.
+
+## Fallback configuration by skill
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+While assigning conversations to agents, it is possible that certain skills would have no online agents that could receive the conversations. In such cases, brands need to be able to define a secondary fallback skill to which the conversation will be assigned.
+
+Fallback configuration by skill adds a new section under the skill settings in LiveEngage that enables brands to define the skill to which conversation will be routed if there are no online agents on the skill or if all agents are in an away status.
+
+![](/img/rn-week-of-july-1.png)
+
+**Configuration**
+
+LP Account manager to enable the feature - “_Messaging.FallbackSkillPerSkill_”
+
+Configuring a fallback skill per a specific skill is then made available through the Skills settings screen in LiveEngage.
+
+**Dependencies**
+
+* UMS 3.21
+* AC_users 5.2
+
+## \[ABC\]\[WhatsApp\] Add support for agent to share photos and documents with consumer
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+This feature enables agents to share photos and documents with consumers via Apple Business Chat and WhatsApp Business. Files will be shared from local file dialog.
+
+The following file types are supported:
+
+* PDF
+* DOCX
+* PPTX
+* XLSX
+* JPG,GIF,JPEG,PNG
+
+All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in photo sharing scope ([view here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-agent-file-sharing-overview.html)).

@@ -3,7 +3,7 @@ pagename: Introducing the enhanced agent workspace
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Learn more about the updated agent workspace
+subtitle: Coming September 2019!
 level3: ''
 permalink: the-enhanced-agent-workspace.html
 layout: newAgentWorkspaceHomepage
@@ -46,6 +46,3 @@ Agents can now scroll up to view the entire conversation history directly within
 
 Multiple notes by multiple agents can now be added to the conversation summary widget. This allows the assigned agent to view a log of comments and quickly get up to speed.
 
-### Reduce screen switching with more custom widgets
-
-The enhanced workspace enables you to create more custom widgets for your agents (up to 10). The less screen switching your agents do, the more effective they can be - custom widgets incorporate all the tools they may need directly into their workspace.

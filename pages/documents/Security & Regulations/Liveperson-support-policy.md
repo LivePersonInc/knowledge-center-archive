@@ -1,11 +1,11 @@
 ---
 pagename: LivePerson support policy
 categoryName: Security & regulations
-subCategoryName: ''
+subCategoryName: Security
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: security-regulations-liveperson-support-policy.html
+permalink: security-regulations-security-liveperson-support-policy.html
 isTutorial: false
 isNew: false
 date: '2019-04-01T10:50:38.000+00:00'

@@ -21,7 +21,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: New functionality
 
-
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -439,7 +438,7 @@ Brands can choose from the following options in the “Read Indication” dropdo
 
 ![](/img/Screen Shot 2019-06-13 at 1.09.28 PM.png)
 
-## \[ABC\] ApplePay Enhancement Widget
+## \[ABC\] Apple Pay Enhancement Flow
 
 ### Type: Enhancement
 
@@ -488,6 +487,9 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 * If the payment fails, brands will be able to expose the failed response via the Agent Widget SDK and present the error response to the agent while allowing the agent to help the consumer to perform the payment successfully.
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
+
 ## Facebook Handover Protocol
 
 ### Type: New functionality
@@ -529,12 +531,15 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 </table>
 </div>
 
-Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible to simultaneously use a 3rd party bot, outside of LiveEngage, for handling automated responses, and use LiveEngage for customer service with human agents.
+Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible for a Page to simultaneously use one Facebook app to build a 3rd party bot, outside of LiveEngage, for handling automated responses, and use another Facebook app (LiveEngage) for customer service with human agents.
 
-* By default, all messages are sent to the Primary Receiver app.
+* By default, all messages are sent to the Primary Receiver app
 * When control of the conversation is passed to another, the Facebook Messenger Platform will send messages from the conversation to it instead.
 * Only one app may control the conversation at a time.
-* All apps that do not have control of the conversation may continue to listen to the conversation by subscribing to the standby webhook event.
+* All apps that do not have control of the conversation will continue to listen to the conversation by subscribing to the standby webhook event.
+
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
 
 ## WhatsApp Business source
 
@@ -1200,15 +1205,13 @@ Intermittently when conversations get transferred or returned to queue, routing 
 
 ### Type: New feature
 
-Mobile Messaging SDK v3.9 introduces a feature for agents within LiveEngage to share photos or files with the consumers.    
+Mobile Messaging SDK v3.9 introduces a feature for agents within LiveEngage to share photos or files with the consumers.
 
 Agents can share:
 
-- **Photos:** Reference photos or photos of any product to visually guide consumers with product awareness, steps on how to use the product, or review comments of a product. The agent can also share photos in a resolved conversation to resume the conversation with the consumer.  Consumers can tap on the photo to view it full screen or share it through the default app on their device.   
-
-- **Files:** Agents can also share files to provide consumers with information such as mortgage documents, product catalog, or transaction details as requested by consumers. They can also share files in a resolved conversation to resume the conversation with the consumer. Consumers can download files through the picker application to a location on their device (internal or external).
+* **Photos:** Reference photos or photos of any product to visually guide consumers with product awareness, steps on how to use the product, or review comments of a product. The agent can also share photos in a resolved conversation to resume the conversation with the consumer.  Consumers can tap on the photo to view it full screen or share it through the default app on their device.
+* **Files:** Agents can also share files to provide consumers with information such as mortgage documents, product catalog, or transaction details as requested by consumers. They can also share files in a resolved conversation to resume the conversation with the consumer. Consumers can download files through the picker application to a location on their device (internal or external).
 
 **Note:** The Android SDK supports opening any file types other than images through the picker application. The consumer can either long click on the thumbnail or open the file through picker application to share and save the file.  The iOS SDK supports previewing all the supported file types on the device as per the iOS operating system by double-clicking on the thumbnail image.
-
 
 When the agent shares any supported file type from the LE, if the consumer isn't within the conversation view, they get a notification from the customer app only if the push notification is enabled. Otherwise, when the consumer returns to the conversation screen, a thumbnail for the photo or file appears in the conversation window.

@@ -9,7 +9,7 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-automatic-messages.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 12:22:36 +0000
+date: '2019-01-23T12:22:36.000+00:00'
 
 ---
 Automatic messages are messages that are presented automatically in the Engagement Window during a conversation to provide a contextual information to consumers about the status of the conversation. For example:
@@ -56,8 +56,11 @@ The automatic message library can also be reached from the chat settings in the 
 1. On the **Edit** **Automatic Messages** page, click the “+” button below the message description next to the default set. A skill selection floating window is displayed.
 2. Select the skill(s) this message will be customized for and press “Done”. A new tab will be added for each skill selected.
 3. Select a skill tab (for example Billing or Tech support, as shown in the illustration above). The skill’s related fields will appear. Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used.
-4. Enter the relevant text to the text field. Note: you can dynamic text (see below).
+4. Enter the relevant text to the text field. Note: you can use dynamic text (see below).
 5. Click **Save**. Note: you need to save your changes for each skill separately.
+
+{: .notice}
+When transfering a chat to a different agent, the skill-specific message will only be shown if the target agent has the skill of the chat. Otherwise, the default message will be shown.
 
 ![](/img/automatic-messages-chat-7b.png)
 
@@ -107,6 +110,10 @@ These messages appear during the conversation to provide visitors contextual inf
 | This message is displayed when the chat is transferred to a different agent due to a problem connecting to the assigned agent. | Engagement re-queued by system | There is a problem connecting with {name}. Please wait while your chat is transferred to another agent. | {name} |
 | This messages is displayed when an agent accepts the chat. | Agent accepts the engagement | You are now chatting with {name}. | {name} |
 | This message is displayed when the chat has been disconnected. | Engagement disconnected | Sorry, our chat session has ended unexpectedly. Come chat with us again for further assistance. |  |
+
+{: .notice}
+In AC site setting, the "messaging.brand.shift.delay.epoch.seconds" can be -1 if the brand is online or another value that indicates when the brand will be online. Estimated time to response is calculated based on the shiftDelay value.
+
 
 ### Non-responsive messages
 
