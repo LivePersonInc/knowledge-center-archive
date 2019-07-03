@@ -11,7 +11,7 @@ isTutorial: false
 isNew: true
 
 ---
-LivePerson’s open platform new initiative, offers “Functions” - a Function as a Service (FaaS) platform that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
+LivePerson’s open platform new initiative, offers “[Functions](https://faas.liveperson.net)” - a Function as a Service (FaaS) platform that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
 
 ### Rapidly build, test and deploy new conversational experiences
 
