@@ -18,7 +18,7 @@ The LiveEngage platform offers a messaging solution that you can enhance by:
 * Integrating LiveEngage with your native app
 * Customizing LiveEngage reports or creating new reports
 * Building or integrating workspace widgets using our [various APIs and SDKs](https://developers.liveperson.com/index.html)
-* Developing custom behaviors within the LiveEngage platform through [Function as a Service (FaaS)](https://developers.liveperson.com/function-as-a-service-overview.html)
+* Developing custom behaviors within the LiveEngage platform through LivePerson's FaaS platform [Functions](https://developers.liveperson.com/function-as-a-service-overview.html)
 
 Our APIs configure and manipulate LiveEngage features and capabilities. To use these APIs, you must make sure to configure your LiveEngage account to access these features. For example, if you want to use the Agent Messaging SDK to connect a bot, then your account must support bot users. It's best to contact your account team or LivePerson Support to check that the prerequisite features are enabled for your account. For more information and detailed documentation, visit our dedicated [Developers' Community](https://developers.liveperson.com/index.html).
 
