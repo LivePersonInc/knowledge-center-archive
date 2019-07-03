@@ -23,3 +23,9 @@
 
 - categoryname: LiveChat Agents & Managers
   image: getting-started
+
+- categoryname: Consumer Experience
+  image: getting-started
+  subcategories:
+    - subcategoryname: New web messaging window template
+    - subcategoryname: Configuring the new window
