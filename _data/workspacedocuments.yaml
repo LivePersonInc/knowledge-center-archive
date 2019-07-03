@@ -2,7 +2,7 @@
   image: web
 
 - categoryname: Messaging Agents
-  image: user-guide
+  image: messaging-agents
   subcategories:
     - subcategoryname: The enhanced agent workspace
     - subcategoryname: User guide
@@ -12,7 +12,7 @@
     - subcategoryname: Rollout
 
 - categoryname: Messaging Managers
-  image: user-guide
+  image: messaging-managers
   subcategories:
     - subcategoryname: Introducing the new manager workspace
     - subcategoryname: Use Cases
@@ -21,17 +21,17 @@
     - subcategoryname: What's new in all connections
 
 - categoryname: Admins & Campaign Managers
-  image: agent-manager
+  image: admins-campaigns
   subcategories:
     - subcategoryname: New icons
 
 - categoryname: LiveChat Agents & Managers
-  image: getting-started
+  image: agents-managers
   subcategories:
     - subcategoryname: Find the new status button
 
 - categoryname: Consumer Experience
-  image: getting-started
+  image: consumer-experience
   subcategories:
     - subcategoryname: New web messaging window template
     - subcategoryname: Configuring the new window
