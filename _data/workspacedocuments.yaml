@@ -1,24 +1,25 @@
-- categoryname: The enhanced agent workspace
+- categoryname: New Experiences
   image: web
 
-- categoryname: User guide
+- categoryname: Messaging Agents
   image: user-guide
   subcategories:
-    - subcategoryname: Summary of enhancements
-    - subcategoryname: Workspace basics
-    - subcategoryname: Managing messaging conversations
-    - subcategoryname: Taking breaks & ending your shift
-    - subcategoryname: Configuration
-    - subcategoryname: FAQs
+    - subcategoryname: The enhanced agent workspace
+    - subcategoryname: User guide
+    - subcategoryname: Training Deck
+    - subcategoryname: Tutorial
+    - subcategoryname: Roadmap
+    - subcategoryname: Rollout
 
-- categoryname: Training Deck
+- categoryname: Messaging Managers
+  image: user-guide
+  subcategories:
+    - subcategoryname: Introducing the new manager workspace
+    - subcategoryname: Use Cases
+    - subcategoryname: User guide
+
+- categoryname: Admins & Campaign Managers
   image: agent-manager
 
-- categoryname: Tutorial
+- categoryname: LiveChat Agents & Managers
   image: getting-started
-
-- categoryname: Roadmap
-  image: whats-new
-
-- categoryname: Rollout
-  image: admin-settings
