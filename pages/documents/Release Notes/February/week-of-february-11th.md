@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### WhatsApp Business: Adding the consumer name in the agent workspace (LE-97122)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 WhatsApp now supports passing the consumer's profile name (if the user permits sharing it in their app's privacy settings), allowing brands that are using the WhatsApp Business connector to review the name in the open connections list, in the consumer info widget view in the agent workspace, as well as at the top of the agent's messaging conversation window.
 
@@ -74,6 +76,7 @@ The connector will expose the consumer’s name (as registered by the users in t
 
 ### Secure form (PCI) support for WhatsApp Business and Google RCS (94882) (CX-73, CX-74)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -104,6 +107,7 @@ The connector will expose the consumer’s name (as registered by the users in t
 </tr>
 </tbody>
 </table>
+</div>
 
 There is now support for [secure forms](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html) for the WhatsApp Business and Google RCS connectors. This allows brands to perform identification and authorization, pass payment details, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
@@ -160,6 +164,7 @@ For more information, please see the [secure form configuration guide](security-
 
 ### Auto close per skill
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -190,6 +195,7 @@ For more information, please see the [secure form configuration guide](security-
 </tr>
 </tbody>
 </table>
+</div>
 
 Today, brands use a single time interval definition to determine how long after a conversation becomes inactive it should be closed. This single definition doesn’t take into account the fact that different skills have a different conversation pace and therefore should have different time intervals for auto close. Having such a capability will give brands a higher level of flexibility to determine when a conversation should be closed and avoid scenarios where conversations get closed too soon. With auto close per skill, brands are able to set a different auto close time period parameter per skill, and thereby improve the consumer experience as well as their operational parameters.
 
@@ -199,6 +205,7 @@ Today, brands use a single time interval definition to determine how long after 
 
 ### Post Conversational Survey - Added search capability
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -229,6 +236,7 @@ Today, brands use a single time interval definition to determine how long after 
 </tr>
 </tbody>
 </table>
+</div>
 
 Enable brands to gain new insight from conversations in which the post conversation survey was configured by adding a new filtering capability to the All Connections tab in LiveEngage.
 
@@ -246,6 +254,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 
 ### Recommended Actions widget with Maven
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -276,6 +285,7 @@ For Text based channels such as SMS and ABC the new filter can display only conv
 </tr>
 </tbody>
 </table>
+</div>
 
 Agent Assist is a widget within the LiveEngage UI that provides suggestions for relevant automations (bot users) that the conversation can be transferred to. This feature provides a single button for agents to transfer to suggested bot and provide feedback on the suggestion. Suggestions are provided for each incoming consumer message.
 
@@ -288,6 +298,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 
 ### Step up
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -318,6 +329,7 @@ Setup and configuration is currently not open to brands, must be done by LP inte
 </tr>
 </tbody>
 </table>
+</div>
 
 This feature is to support the step up process in the agent workspace (LE UI). When an unauthenticated messaging conversation is stepped up, the agent workspace will refresh the conversation in the UI, so that the authenticated information about the conversation and the consumer will be available for the agent.
 
@@ -329,6 +341,7 @@ Refreshing the conversation will create a new ‘orb’ for it, and will place i
 
 ### Unselectable element on customized overlay engagement (AE-1676)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -359,6 +372,7 @@ Refreshing the conversation will create a new ‘orb’ for it, and will place i
 </tr>
 </tbody>
 </table>
+</div>
 
 When creating a customized overlay engagement in the engagement studio,
 
@@ -366,6 +380,7 @@ dragging an element to the top left corner (for example, a text field) makes the
 
 ### UI Auto Messages - The dynamic text for 'Agent Nickname' displays wrong name (AE-1866)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -396,6 +411,7 @@ dragging an element to the top left corner (for example, a text field) makes the
 </tr>
 </tbody>
 </table>
+</div>
 
 When setting the dynamic text for the “Agent Nickname” in Auto Messages for messaging, the dynamic text in the drop down menu actually states “Agent Name”.
 

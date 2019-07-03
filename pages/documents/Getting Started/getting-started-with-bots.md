@@ -9,7 +9,7 @@ level3: ''
 permalink: getting-started-getting-started-with-bots.html
 isTutorial: false
 isNew: false
-date: 2019-02-11 12:56:04 +0000
+date: '2019-02-11T12:56:04.000+00:00'
 
 ---
 ## The benefits of bots in LivePerson
@@ -67,7 +67,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 **Connection:** Brands need to connect the bot to LivePerson using our bot connectors. Follow the guides on specific bot connectors here:
 
-* [Google dialogue flow](https://developers.liveperson.com/bot-connectors-google-dialog-flow.html)
+* [Google dialogue flow](https://developers.liveperson.com/bot-connectors-google-dialogflow.html)
 * [IBM Watson assistant](https://developers.liveperson.com/bot-connectors-ibm-watson-assistant.html)
 * [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
 * Custom bot ([Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html))

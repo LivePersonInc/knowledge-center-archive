@@ -21,6 +21,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: New functionality
 
+
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -462,7 +463,7 @@ Added the ability for Rollover Agents for a given account to have access to spec
 
 The API now allows sending costume capping configuration in the request body, also on specific conversation flow (search by conversation id).
 
-## Messaging API - Post Conversation Survey (PCS) not filtering correctly by NPS 
+## Messaging API - Post Conversation Survey (PCS) not filtering correctly by NPS
 
 ### Type: Bug Fix
 
@@ -474,7 +475,7 @@ There was missing indication that it requires to filter by child filters if the 
 
 NPS filter returned surveys with invalid answers when the search range included “0”. This bug is fixed.
 
-## AC-Campaign - unable to read delta of Engagement 
+## AC-Campaign - unable to read delta of Engagement
 
 ### Type: Bug Fix
 

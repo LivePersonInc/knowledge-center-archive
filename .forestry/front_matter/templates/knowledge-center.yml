@@ -66,6 +66,7 @@ fields:
     - '2019'
     - Manager tools for live chat
     - Login & Password
+    - Login
     - Agent workspace
     - Messaging
     - Live Chat
@@ -135,23 +136,28 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- pages/documents/developer-tools-overview.md
-- pages/documents/Release Notes/May/week-of-may-20th.md
-- pages/documents/Release Notes/April/Week of April 29th.md
+- pages/documents/Release Notes/April/week-of-april-8th.md
+- pages/documents/Release Notes/July/Release-notes-july-1.md
+- pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md
 - pages/documents/Release Notes/April/week-of-april-22.md
 - pages/documents/Release Notes/May/week-of-may-27th.md
-- pages/documents/Release Notes/May/Week-of-May-13th.md
-- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- pages/documents/Release Notes/June/Release-notes--week-of-june-9th.md
+- pages/documents/Release Notes/June/Week-of-june-17th.md
+- pages/documents/Release Notes/June/week-of-june-3rd.md
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
-- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
-- pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
-- pages/documents/Troubleshooting/Har-files-web-requests.md
-- pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
-- pages/documents/Release Notes/April/week-of-april-8th.md
-- pages/documents/Security & Regulations/Historic-data-masking.md
-- pages/documents/What's New/Whats-new-may-2019.md
-- pages/documents/Release Notes/May/Week-of-May-6th.md
-- pages/documents/Messaging Channels/SMS/sms-best-practices.md
-- pages/documents/Messaging Channels/SMS/enhancing-the-sms-experience-with-twilio.md
-- pages/documents/What's New/What's New April 2019.md
+- pages/documents/Release Notes/April/Week of April 29th.md
+- pages/documents/developer-tools-overview.md
+- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- pages/documents/Release Notes/May/Week-of-May-13th.md
+- pages/documents/Release Notes/May/week-of-may-20th.md
 - pages/documents/Release Notes/April/week-of-april-15th.md
+- pages/documents/What's New/What's New April 2019.md
+- pages/documents/Messaging Channels/SMS/enhancing-the-sms-experience-with-twilio.md
+- pages/documents/Messaging Channels/SMS/sms-best-practices.md
+- pages/documents/Release Notes/May/Week-of-May-6th.md
+- pages/documents/What's New/Whats-new-may-2019.md
+- pages/documents/Security & Regulations/Historic-data-masking.md
+- pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
+- pages/documents/Troubleshooting/Har-files-web-requests.md
+- pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
+- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md

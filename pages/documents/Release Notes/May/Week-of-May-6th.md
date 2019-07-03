@@ -21,69 +21,40 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### FaaS accessible to customers
 
+<div class="tablecontainer">
 <table class="releasenotes">
-
 <thead>
-
 <tr class="categoryrow">
-
 <th>Web Messaging</th>
-
 <th>Mobile App Messaging</th>
-
 <th>Twilio</th>
-
 <th>Facebook Messenger</th>
-
 <th>ABC</th>
-
 <th>Line</th>
-
 <th>Google RCS</th>
-
 <th>Google My Business</th>
-
 <th>WhatsApp Business</th>
-
 <th>CM</th>
-
 <th>Chat</th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>N/A</td>
-
 <td>Yes</td>
-
 </tr>
-
 </tbody>
-
 </table>
+</div>
 
 Function as a Service (FaaS) is a LivePerson feature which enables brands to develop custom behaviors within the LiveEngage platform, to better tailor the system to their specific needs. By offering these capabilities, FaaS enables developers to write a simple function, deploy it to LivePerson's infrastructure and make it available to their LivePerson account in minutes. This allows you to create custom logic inside our conversational platform
 
@@ -105,6 +76,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 
 ### FaaS Secret Storage
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -137,6 +109,7 @@ AC Feature FaaS.FaaS needs to be enabled for the account.
 </tr>
 </tbody>
 </table>
+</div>
 
 The FaaS Secrets Storage allows you to centrally store, access and distribute secrets across your lambdas. Thereby, lambdas can use available access tokens, certificates and encryption keys to establish a connection to external systems.
 
@@ -151,6 +124,7 @@ Secrets can be maintained via the **Settings** tab as a key/value storage. Each 
 
 Secure forms are now supported on desktop versions of WhatsApp and Facebook Messenger.
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -183,6 +157,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 </tr>
 </tbody>
 </table>
+</div>
 
 **Screenshots**
 
@@ -190,6 +165,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 
 ### \[Apple Business Chat\] Added support for augmented reality (AR) file (CX-260)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -222,6 +198,7 @@ Secure forms are now supported on desktop versions of WhatsApp and Facebook Mess
 </tr>
 </tbody>
 </table>
+</div>
 
 LivePerson now supports Apple’s augmented reality (AR) file which allows agents to send augmented reality (AR) file types to consumers via a link. This ability allows agents to deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world. Currently, agents can send AR files up to 10MB.
 
@@ -239,6 +216,7 @@ AR Mode:
 
 ### \[Apple Business Chat\] Enhanced Secure Forms via rich link (CX-327)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -271,6 +249,7 @@ AR Mode:
 </tr>
 </tbody>
 </table>
+</div>
 
 Currently, once a secure form is sent by the agent to the consumer, the consumer has to click twice in order to open the form. In order to improve the consumer experience, secure forms will be shown as rich links. The link will include the secure form name and will require only one tap to be opened.
 
@@ -288,6 +267,7 @@ Improved experience with rich link:
 
 ### Connectors vanity URL support for Secure Forms (CX-183)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -320,6 +300,7 @@ Improved experience with rich link:
 </tr>
 </tbody>
 </table>
+</div>
 
 Currently, the secure form link includes a domain owned by LivePerson. Consumers might not trust a domain that is different than the brand they are communicating with and therefore might avoid using it. Using a vanity URL solution, the secure forms links will be sent with the brand domain/certificate instead of a LivePerson domain.
 

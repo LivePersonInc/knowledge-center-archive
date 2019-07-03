@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Auto close per skill (AE-1358)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Enable the auto close delay per skill feature to allow brands a higher level of flexibility in order to  determine when a conversation should close. This will avoid scenarios where conversations get closed too soon and takes into account the fact that different skills have different conversation paces. With auto close per skill, brands are able to set a different auto close time period parameter per skill and thereby improve the consumer experience as well as their operational parameters.
 

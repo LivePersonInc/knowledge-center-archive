@@ -1,5 +1,5 @@
 ---
-pagename: Enhanced agent workspace roadmap
+pagename: Roadmap
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
@@ -9,4 +9,4 @@ permalink: roadmap.html
 layout: newAgentWorkspace
 ---
 
-Coming soon.
+![alt text](img/new-workspace-roadmap.png)

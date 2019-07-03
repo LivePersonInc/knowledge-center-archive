@@ -3,7 +3,7 @@ pagename: Google My Business
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: 'Tap into Google''s network to build relationships and develop more prospects '
+subtitle: Tap into Google's network to build relationships and develop more prospects
 level3: ''
 permalink: messaging-channels-google-my-business.html
 isTutorial: true

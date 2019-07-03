@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Reporting for Smart Capacity (LE-95785)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -85,6 +86,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 
 </table>
+</div>
 
 **Available to all customers?** No (for Report Builder-enabled customers with CSO)
 
@@ -239,6 +241,7 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 
 ### FaaS - MSG Post conversation survey Invocation
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -302,6 +305,7 @@ An updated copy of the Advanced Messaging Performance Dashboard may be requested
 </tbody>
 
 </table>
+</div>
 
 Brands are able to invoke functions following a Post Messaging Survey. Invocation will be possible at the start or upon completion of a survey. Brands can react to the content of the survey in real time, like for example, to trigger alerts in a call center dashboard.
 
@@ -319,6 +323,7 @@ Post Conversation Survey needs to be deployed
 
 ### AC-Campaign - Interaction-history API (LE99600)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 
 <thead>
@@ -382,6 +387,7 @@ Post Conversation Survey needs to be deployed
 </tbody>
 
 </table>
+</div>
 
 In interaction-history api the ac-client for fetching campaign gets all the relevant information of the campaign.
 

@@ -21,6 +21,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Type: enhancement
 
+
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -53,6 +55,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+
+</div>
 
 **Multiple selection control at the section level**
 <br/>
@@ -142,6 +146,8 @@ For brands that choose to enable the multi-selection option, a new feature is no
 
 ### Type: new functionality
 
+<div class="tablecontainer">
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -174,6 +180,8 @@ For brands that choose to enable the multi-selection option, a new feature is no
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
 The agent and consumer file sharing capability has been expanded for document sharing (in the previous phase only photos could be shared).
 
@@ -195,6 +203,8 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 
 ### Type: enhancement
 
+
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -227,6 +237,7 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 </tr>
 </tbody>
 </table>
+</div>
 
 The iframe sandbox attribute used in the agent widgets enforces restrictions on content hosted in the iframe to protect the LiveEngage application from several malicious actions. LiveEngage has set a number of sandbox flags to relax these restrictions and allow required functionalities.
 
@@ -241,6 +252,7 @@ Brands who sign the security waiver will be able to configure the sandbox attrib
 
 ### Type: enhancement
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -273,6 +285,7 @@ Brands who sign the security waiver will be able to configure the sandbox attrib
 </tr>
 </tbody>
 </table>
+</div>
 
 We added an additional style for the minimize window icon. Campaign managers and admin users are able to choose the icon to minimize the window. This is configurable via the engagement window studio under the “title bar” section. This feature is available for desktop only.
 
@@ -294,6 +307,7 @@ Chevron icon:
 
 ### Type: bug fix
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -326,6 +340,7 @@ Chevron icon:
 </tr>
 </tbody>
 </table>
+</div>
 
 When adding a header image with Alt text within the engagement window studio configuration, Alt text appears when the visitor hoovers over the header image. However, when you delete “Alt text” within the engagement window studio, “Alt text” still appears on the visitor side when the visitor hoovers over the header image. Alt text should no longer appear when deleted and saved in the engagement window studio.
 
@@ -333,6 +348,7 @@ When adding a header image with Alt text within the engagement window studio con
 
 ### Type: new functionality
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -365,6 +381,7 @@ When adding a header image with Alt text within the engagement window studio con
 </tr>
 </tbody>
 </table>
+</div>
 
 To improve notification to brands when task failures occur, a new feature is now available to allow for an email to be sent.
 
@@ -381,6 +398,7 @@ To improve notification to brands when task failures occur, a new feature is now
 
 ### Type: new functionality
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -413,6 +431,7 @@ To improve notification to brands when task failures occur, a new feature is now
 </tr>
 </tbody>
 </table>
+</div>
 
 All users of Data Transporter may now login via Single Sign-on instead of using their regular username and password. This provides accounts with agent SSO enabled to also utilize the Data Transporter. In addition, non-agent SSO users can take advantage of the simultaneous login feature this provides when using the SSO option.
 

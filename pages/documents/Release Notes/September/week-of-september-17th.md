@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Working Hours Management
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,6 +53,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Working hours management is an automatic off-hours management process. Brands now have the option to configure the working hours at the account level and the individual skill level.
 
@@ -81,6 +83,7 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 
 ### Campaign Scheduling
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -111,6 +114,7 @@ The configuration of Special Occasions allows brands to set specific dates in wh
 </tr>
 </tbody>
 </table>
+</div>
 
 Until now, LiveEngage’s campaign timeframe management has only supported the option to define the campaign’s start date and end date, with no option to change the active hours per each day of the week.
 
@@ -129,6 +133,7 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 
 ### Unified Window: Configure availability check when window opens (LE-90428)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -159,6 +164,7 @@ Campaign scheduling gives brands maximum flexibility with the option to control 
 </tr>
 </tbody>
 </table>
+</div>
 
 In order to ensure an optimal experience for consumers when clicking on engagement buttons, the window performs an additional availability check. This availability check is performed on the main skill defined for the engagement, even if the engagement has a pre-chat survey with a routing question. Due to this behavior, some consumers cannot connect with the requested skill due to lack of availability of the main skill.
 
@@ -169,6 +175,7 @@ With this new configuration, brands can decide whether the window should continu
 
 ### Secure Form (PCI) confirmation screen will show only for 3 seconds (LE-93676)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -199,6 +206,7 @@ With this new configuration, brands can decide whether the window should continu
 </tr>
 </tbody>
 </table>
+</div>
 
 Users who have successfully submitted a Secure Form are presented with a confirmation screen. This screen will display until the user closes it by clicking on the “X” on the widget corner.
 
@@ -208,6 +216,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Unauthenticated web messaging alongside authenticated
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -238,6 +247,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </tr>
 </tbody>
 </table>
+</div>
 
 1. Support logout on Single Page Application (LE-93123) - When implementing our service on a Single Page Application, the brand is requested to use newPage(document.location.href) after login and logout.
    With this new feature, newPage will replicate the experience of the web of actual navigation between authenticated and unauthenticated pages.
@@ -247,6 +257,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Photo Sharing in Web Messaging
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -277,6 +288,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </tr>
 </tbody>
 </table>
+</div>
 
 1. Preview image before sending (LE-87380, LE-87381) - After selecting an image to send or taking an image with the device’s camera, the user can preview the image before sending to the agent, to ensure that this is the correct image.
 2. Add caption to image (LE-87382) - In the image preview, the user can add a caption to the image, which will be displayed in the conversation on the same bubble of the image.
@@ -288,6 +300,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 
 ### Routing bot doesn’t respond to transfer action (LE-93567)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -318,6 +331,7 @@ On mobile, the confirmation (as the whole secure form) covers the conversation w
 </tr>
 </tbody>
 </table>
+</div>
 
 If a consumer has a bad connection and clicks on an action on a card, the event is not sent from the client and the bot ignores the action (even if a text is published).
 
@@ -325,6 +339,7 @@ To resolve this bug, a retry mechanism was added to the card’s action events, 
 
 ### Engagement doesn’t show when browser blocks 3rd party cookies and Cross Domain is enabled (LE-93572)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -355,11 +370,13 @@ To resolve this bug, a retry mechanism was added to the card’s action events, 
 </tr>
 </tbody>
 </table>
+</div>
 
 When the browser blocks 3rd party cookies and the brand has enabled the cross domain feature, engagements aren’t displayed. This bug has been resolved.
 
 ### Structured Content in Chat doesn’t send metadata (LE-93177)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -390,5 +407,6 @@ When the browser blocks 3rd party cookies and the brand has enabled the cross do
 </tr>
 </tbody>
 </table>
+</div>
 
 Structured Content in Chat did not send the metadata as expected by the backend service. This bug has been resolved.

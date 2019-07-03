@@ -23,6 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Report Builder: Time zone support (90133)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -53,6 +54,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 Enterprise brands often have a global operation with contact centers in different regions. Each contact center is managed locally and by a global team.
 
@@ -77,6 +79,7 @@ Users that do not require any change in view from the account default time zone 
 
 ### Queue health metrics by chat center (Operational Realtime API)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -107,6 +110,7 @@ Users that do not require any change in view from the account default time zone 
 </tr>
 </tbody>
 </table>
+</div>
 
 An additional parameter has been added to the Queue Health method in the Operational Realtime API to allow retrieval of data per chat center.
 
@@ -136,6 +140,7 @@ The chat center IDs can be retrieved using the [Skills API](https://developers.l
 
 ### Report Builder: Enhanced Field Details tab (68392)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -166,6 +171,7 @@ The chat center IDs can be retrieved using the [Skills API](https://developers.l
 </tr>
 </tbody>
 </table>
+</div>
 
 The Field Details tab, included in each report in Report Builder has been redesigned.
 
@@ -175,6 +181,7 @@ The new tab contains a list of all the available attributes and metrics in the r
 
 ### Report Builder: Answer ratio not shown correctly for modified questions in Messaging Performance in Report Builder (96886)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -205,6 +212,7 @@ The new tab contains a list of all the available attributes and metrics in the r
 </tr>
 </tbody>
 </table>
+</div>
 
 When a question in the post conversation survey is modified, the ‘answer ratio’ metrics show incorrect values.
 
@@ -217,6 +225,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 
 ### Report Builder: Brand Level Data tab shows no data when predefined Messaging Performance Dashboard is loaded (93773)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -247,6 +256,7 @@ The metrics have been fixed now to show the correct ratio. The metrics appear in
 </tr>
 </tbody>
 </table>
+</div>
 
 For brands using only a single source type, the default view of the ‘Brand Level Data’ sheet was empty. This is now fixed is data is visible for all accounts.
 
@@ -254,6 +264,7 @@ For brands using only a single source type, the default view of the ‘Brand Lev
 
 ### Report Builder: Agent activity report incorrect filtering by skill (94844)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -284,6 +295,7 @@ For brands using only a single source type, the default view of the ‘Brand Lev
 </tr>
 </tbody>
 </table>
+</div>
 
 In the agent activity dashboard, ‘skill’ was part of the default filter panel, however, users are not able to filter by it. This attribute has been removed from the dashboards as it showed incorrect values (there is no direct relation between agent and skill in this dashboard).
 
@@ -291,6 +303,7 @@ To analyze the contact center’s performance by skill - please use Skill Activi
 
 ### Report Builder: Deleted agent’s groups appear in the filter but the ‘group active’ filter does not work with it (93707)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -321,6 +334,7 @@ To analyze the contact center’s performance by skill - please use Skill Activi
 </tr>
 </tbody>
 </table>
+</div>
 
 In the Agent Activity dashboard, when filtering to see only active groups (Group Active Indicator=Y), the list of groups in the filter panel will now be filtered to show only active groups.
 

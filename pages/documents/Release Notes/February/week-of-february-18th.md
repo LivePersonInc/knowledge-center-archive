@@ -22,6 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ### Messaging interactions API: New intent section in the response and intent filters
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -52,11 +53,13 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tr>
 </tbody>
 </table>
+</div>
 
 When accessing the API with "intents" keyword on “ContentToRetrieve” Parameter, the list of conversations will now be retrieved with the addition of 'intents' section, as a data visualization tool. Intent related filters will also be available to filter specific conversations.
 
 ### Back-end chat: Adding new FaaS permissions (LE-98895)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -87,6 +90,7 @@ When accessing the API with "intents" keyword on “ContentToRetrieve” Paramet
 </tr>
 </tbody>
 </table>
+</div>
 
 The new permissions added are:
 
@@ -96,6 +100,7 @@ The new permissions added are:
 
 ### Edit Rights in bot integration permission (LE-98301)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -126,11 +131,13 @@ The new permissions added are:
 </tr>
 </tbody>
 </table>
+</div>
 
 This permission will allow brands to choose who has access to the service. ie. admins, agent managers, campaign managers.
 
 ### WhatsApp: sharing contacts during a conversation (CX-85)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -161,6 +168,7 @@ This permission will allow brands to choose who has access to the service. ie. a
 </tr>
 </tbody>
 </table>
+</div>
 
 Consumers can now share a contact (from their contacts list) with a business in a WhatsApp conversation, allowing the agent to view the contact information and perform actions on that contact (save as an emergency contact in the CRM, etc).
 
@@ -181,6 +189,7 @@ Agent will receive contact sharing info as text:
 
 ### WhatsApp: sharing location during a conversation (CX-86)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -211,6 +220,7 @@ Agent will receive contact sharing info as text:
 </tr>
 </tbody>
 </table>
+</div>
 
 Consumers can now share a static location with a business on a WhatsApp conversation, allowing the agent/bot to view where they are currently located/a location the consumer wants to go to or is interested in.
 
@@ -244,6 +254,7 @@ Agent will receive location sharing as text:
 
 ### Google RCS: Change the default media height in Card elements to "TALL" (CX-18)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -274,6 +285,7 @@ Agent will receive location sharing as text:
 </tr>
 </tbody>
 </table>
+</div>
 
 For Google RCS Business Messaging, the default media height in card elements has changed from "MEDIUM" to "TALL."
 
@@ -295,6 +307,7 @@ Now, the patterns are updated properly. The solution proposed is to implement th
 
 ### WhatsApp: Agent sending links to consumer causes an unexpected behavior (CX-21)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -325,6 +338,7 @@ Now, the patterns are updated properly. The solution proposed is to implement th
 </tr>
 </tbody>
 </table>
+</div>
 
 If an agent attempts to send certain files via links to a consumer, it causes certain unexpected behavior, like redirecting to another link causing an infinite loop.
 
@@ -332,6 +346,7 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 
 ### WhatsApp: Bad URLs on container health check (CX-114)
 
+<div class="tablecontainer">
 <table class="releasenotes">
 <thead>
 <tr class="categoryrow">
@@ -362,6 +377,7 @@ If an agent attempts to send certain files via links to a consumer, it causes ce
 </tr>
 </tbody>
 </table>
+</div>
 
 The URL pattern was not constructed properly with the location (brand’s phone number). This caused timeouts which caused message delays issue in WhatsApp connector.
 
