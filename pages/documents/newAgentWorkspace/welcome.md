@@ -1,5 +1,5 @@
 ---
-pagename: Welcome to the enhanced agent workspace
+pagename: Introducing the enhanced agent workspace
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
