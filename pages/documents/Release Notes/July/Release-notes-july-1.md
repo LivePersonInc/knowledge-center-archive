@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-## Messaging Conversation Segments
+## Messaging Conversation Segments (available soon)
 
 ### Type: New functionality
 
@@ -151,7 +151,7 @@ Please note:
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages
 
-## Add Timezone to Survey dashboard for Live Chat in Report Builder
+## Add Timezone to Survey dashboard for Live Chat in Report Builder (available soon)
 
 ### Type:  New functionality
 
