@@ -25,8 +25,8 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 ### My Connections
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly. 
 
-### All Connectons 
-While the My Connections list only stores conversations that were recently handled (the length depends on your contact center's configuration), the All Connections list includes all of the conversations you have handled historically. It can be filtered and used to find previous conversations that require a follow up. 
+### All Connections 
+While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all of the conversations you have handled historically. It can be filtered and used to find previous conversations that require a follow up. 
 
 ## Conversation status and filters
 
