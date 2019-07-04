@@ -538,3 +538,21 @@ The following file types are supported:
 * JPG,GIF,JPEG,PNG
 
 All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in photo sharing scope ([view here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-agent-file-sharing-overview.html)).
+
+## \[ABC\] Embedded secure form
+
+Brands can improve the secure form consumer experience by embedding the form directly in the message thread rather than receiving it as a URL that opens in a new browser. The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image URL, image subtitle and image title.
+
+**Dependencies:**
+
+* iMessage App (extension)
+* ABC SDK embedded and configured for secure forms
+* LPABCSDK 1.1.0 downloaded and embedded into their app/extension
+
+**Limitations:** 
+
+* If image url is not provided within the structured JSON schema, the layout view will be an empty frame.
+
+**Screenshots**
+
+**Image1: Embedded form within conversation thread**
