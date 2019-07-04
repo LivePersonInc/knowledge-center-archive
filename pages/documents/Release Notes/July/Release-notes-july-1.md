@@ -588,7 +588,7 @@ Brands can improve the secure form consumer experience by embedding the form dir
 
 **Limitations:**
 
-* If image url is not provided within the structured JSON schema, the layout view will be an empty frame.
+* If image URL is not provided within the structured JSON schema, the layout view will be an empty frame.
 
 {: .notice}
 **Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
