@@ -581,16 +581,22 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 Brands can improve the secure form consumer experience by embedding the form directly in the message thread rather than receiving it as a URL that opens in a new browser. The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image URL, image subtitle and image title.
 
 **Dependencies:**
+
 * iMessage App (extension)
 * ABC SDK embedded and configured for secure forms
 * LPABCSDK 1.1.0 downloaded and embedded into their app/extension
 
-**Limitations:** 
+**Limitations:**
+
 * If image url is not provided within the structured JSON schema, the layout view will be an empty frame.
 
-{: .notice} 
-**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
 
 **Screenshots**
 
 **Image1: Embedded form within conversation thread**
+
+![](/img/rn-week-of-july-1-3.png)
+
+![](/img/rn-week-of-july-1-2.png)
