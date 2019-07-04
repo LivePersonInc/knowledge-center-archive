@@ -541,6 +541,8 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 
 ## \[ABC\] Embedded secure form
 
+### Type: New functionality
+
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
