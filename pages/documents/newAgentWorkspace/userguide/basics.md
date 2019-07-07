@@ -39,6 +39,7 @@ You can filter conversations in the list by status:
 ![alt text](img/Screen Shot 2019-07-07 at 3.21.57 PM.png){:class="newagent"}
 
 | Status        | Icon    |  Description        | Use    |
+| ------------- |-------------| ------------- |-------------| 
 | Ongoing | ![alt text](img/ongoing-conversation-status.png) |Ongoing conversations are open conversations that are currently active.|These conversations are in the list by default and **cannot** be filtered out.|
 | Overdue |![alt text](img/overdue-conversation-status.png) |Conversations that were not answered before the SLA has expired. |These conversations are in the list by default and **cannot** be filtered out.|
 | Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied for 5 minutes or longer, defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
