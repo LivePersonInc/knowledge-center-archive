@@ -1,11 +1,11 @@
 ---
-pagename: Enhanced agent workspace tutorial
+pagename: Tutorial
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
 subtitle: Learn more about the new Agent Workspace
 level3: ''
-permalink: tutorial.html
+permalink: messaging-agents-tutorial.html
 layout: newAgentWorkspace
 ---
 

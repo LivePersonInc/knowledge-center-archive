@@ -5,7 +5,7 @@ subCategoryName: New Agent Workspace
 indicator: both
 subtitle: Learn more about the enhanced agent workspace
 level3: ''
-permalink: training-deck.html
+permalink: messaging-agents-training-deck.html
 layout: newAgentWorkspace
 ---
 

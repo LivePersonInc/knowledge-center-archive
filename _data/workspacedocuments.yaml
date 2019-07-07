@@ -1,10 +1,8 @@
-- categoryname: New Experiences
-  image: web
-
 - categoryname: Messaging Agents
   image: messaging-agents
   subcategories:
     - subcategoryname: The enhanced agent workspace
+    - subcategoryname: Summary of enhancements
     - subcategoryname: User guide
     - subcategoryname: Training Deck
     - subcategoryname: Tutorial
