@@ -28,6 +28,8 @@ The My Connections list includes all of the recent conversations that were assig
 ### All Connections 
 While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all of the conversations you have handled historically. It can be filtered and used to find previous conversations that require a follow up. 
 
+![alt text](img/new-agent-workspace-all-connections.png){:class="newagent"}
+
 ## Conversation status and filters
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. 
