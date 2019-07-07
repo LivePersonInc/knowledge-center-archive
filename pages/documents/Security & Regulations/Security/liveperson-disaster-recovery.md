@@ -76,7 +76,7 @@ Beyond the ongoing system monitoring done in the DR sites, we implemented an end
 
 ## Recovery Times
 
-LivePerson recovery time objective (RTO) it 2 hours and recovery point objective (RPO) is 24 hours.
+LivePerson recovery time objective (RTO) is 2 hours and recovery point objective (RPO) is 24 hours.
 
 ## Additional information
 
