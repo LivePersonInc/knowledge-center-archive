@@ -78,7 +78,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks. 
 
-Open the hot keys menu by holding down the control and tilde keys (CTRL + ~).
+Open the hotkeys menu by holding down the control and tilde keys (CTRL + ~).
 On UK keyboards, hold down the control and apostrophe keys (CTRL + '). 
 
 Select an action by pressing the applicable letter from the table below.
@@ -96,4 +96,4 @@ Select an action by pressing the applicable letter from the table below.
 | CLOSE conversation  | X | 
 
 {: .notice}
-**Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor.
+**Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hotkeys are only available when you are in a conversation with a visitor.
