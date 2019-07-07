@@ -34,9 +34,9 @@ While the My Connections list only stores conversations that were recently handl
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. 
 
-![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
+You can filter conversations in the list by status:
 
-You can filter conversations in the list by the following statuses:
+![alt text](img/Screen Shot 2019-07-07 at 3.21.57 PM.png){:class="newagent"}
 
 **Ongoing**
 * **Definition:** Ongoing conversations are open conversations that are currently active. During a daily shift these conversations appear in your conversation list, telling which you should handle based on the SLA. 
@@ -51,6 +51,8 @@ You can filter conversations in the list by the following statuses:
 **Closed**
 * **Definition**: Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. Closed conversations are stored for between 48 hours and 14 days, depending on your contact center’s configuration. 
 * **How to use**: Filter these conversations into the list at the end of your shift, or if you have down time. This will allow you to proactively follow up with conversations or to review that you have taken all the necessary steps to wrap up and document each one. 
+
+![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
 ## Your personal data bar
 
