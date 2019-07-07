@@ -12,9 +12,9 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-## Workspace basics
-
 As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+
+## Workspace basics
 
 ### Dynamic conversation list
 
@@ -27,30 +27,25 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 #### My Connections
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
-#### All Connectons
-The All Connections list includes all of the conversations you have handled historically. It can be used to follow up on previous conversations.
+#### All Connections
+While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all of the conversations you have handled historically. It can be filtered and used to find previous conversations that require a follow up.
+
+![alt text](img/new-agent-workspace-all-connections.png){:class="newagent"}
 
 ### Conversation status and filters
 
 The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list.
 
+You can filter conversations in the list by status:
+
+| Status        | Icon    |  Description        | Use    |
+| ------------- |-------------| ------------- |-------------|
+| Ongoing | ![alt text](img/ongoing-conversation-status.png) |Ongoing conversations are open conversations that are currently active.|These conversations are in the list by default and **cannot** be filtered out.|
+| Overdue |![alt text](img/overdue-conversation-status.png) |Conversations that were not answered before the SLA has expired. |These conversations are in the list by default and **cannot** be filtered out.|
+| Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied for 5 minutes or longer, defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
+| Closed |![alt text](img/closed-conversation-status.png) |Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. |These conversations are filterable. Filter them **into the list** at the end of your shift, or if you have down time to review your documentation.|
+
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
-
-You can filter conversations in the list by the following statuses:
-
-* **Ongoing**
-    * **Definition:** Ongoing conversations are open conversations that are currently active. During a daily shift these conversations appear in your conversation list, telling which you should handle based on the SLA.
-
-* **Overdue**
-    * **Definition**: These are conversations that were not answerd before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). These conversations are visible during your shift to ensure that the consumers are helped and your KPIs are being met.
-
-* **Idle**
-    * **Definition**: These are conversations in which the consumer hasn’t replied for 5 minutes or longer, they are defined as inactive.
-    * **How to use**: Filter these conversations OUT in order to have a more succinct and organized list of conversations that require urgent action. When the consumer responds they will be filtered back into the list.
-
-* **Closed**
-    * **Definition**: Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. Closed conversations are stored for between 48 hours and 14 days, depending on your contact center’s configuration.
-    * **How to use**: Filter these conversations into the list at the end of your shift, or if you have down time. This will allow you to proactively follow up with conversations or to review that you have taken all the necessary steps to wrap up and document each one.
 
 ### Your personal data bar
 
@@ -74,7 +69,30 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 **CSAT:** displays the customer satisfaction score based on the Post Conversation Surveys that were completed in the last 12 hours.
 
-## Configuration
+### Shortcuts & hotkeys
+
+To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
+
+Open the hotkeys menu by holding down the control and tilde keys (CTRL + ~).
+On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
+
+Select an action by pressing the applicable letter from the table below.
+
+
+| ACTION        | HOTKEY    |
+| ------------- |-------------|
+| LOGOUT of the agent workspace  | L |
+| ACCEPT a new incoming conversation  | A  |
+| LIST VIEW: open the my connection list | V |
+| STATUS: toggle your status between Online, Back Soon and Away  | S |
+| HIDE conversation from your current view  | H |
+| Return conversation to QUEUE  | Q   |
+| TRANSFER conversation to another skill | T |
+| CLOSE conversation  | X |
+
+{: .notice}
+**Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hotkeys are only available when you are in a conversation with a visitor.
+
 
 The agent workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
 
@@ -82,6 +100,8 @@ There are a few configurations that brands can elect to control for the agent ex
 
 {: .notice}
 **Please note:** If you have set up these configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
+
+## Configuration
 
 ### Configuration from your LivePerson workspace
 
@@ -178,8 +198,6 @@ There are several tools in place to help you access the information you’ll nee
 
 ![image alt text](img/consumerinfo.jpg){:class="newagent"}
 
-* **Custom widgets**: Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. The enhanced workspace allows brands to add up to 10 custom widgets, giving you convenient access to all your tools.
-
 ### Replying to consumers
 
 #### Predefined Content
@@ -251,99 +269,3 @@ For conversations that are awaiting a consumer response, the auto close mechanis
 * Determine which conversations you want to continue servicing the next day, let the customers know, and manually set the SLA for the next day
 * For conversations that should continue immediately - return them to the queue so that another agent will be able to answer the consumer (you can leave notes to help your colleagues in the summary section)
 * Filter closed conversations into the list to review the conversations you handled during the shift and ensure that everything has been documented properly
-
-## FAQs
-
-### Taking breaks and ending your shift
-
-#### I want to go on my break in 10 minutes. What should I tell my customers? And, do I need to do anything with my manual SLA?
-
-If there is a very active conversation, you can tell the customer you are taking a break. You can give them the option to wait, or to be transferred to another agent.
-
-Note: due to the SLA and general demand, transferring to another agent may include a longer wait time for the customer before he is served.
-
-#### What should I do once I have set a manual SLA?
-
-Once this has been met, you should return to default.
-
-#### I want to go on a lunch break, which is a 45-minute break. Should I tell my customers?
-
-For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent. It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
-
-### Managing messaging conversations
-
-#### It feels like my active conversations are more than I should have. Should I change my status to away?
-
-Please do not change your status to away. This will confuse the system that is working very hard to ensure that you are not overloaded.
-
-Messaging is designed to have you handle multiple conversations at once. There is a smart algorithm working in the background to try and ensure that you are not overloaded. You’ll have a mixture of active and inactive conversations.
-
-It can feel like you are taking on too many conversations at one time, especially because it is new. It is normal to have a large amount of conversations throughout the day, and this will take some getting used to. You should go on away for lunch and breaks only, not to control the queue.
-
-#### What do I do if I get a conversation in my queue that my colleague handled yesterday? Do I transfer it to them?
-
-No, please do not transfer the conversation. We want to avoid transferring as much as possible. The only case where this is considered within the same skill is if the customer specifically asks for the previous agent. Even then, this needs to be for a very good reason.  Always offer to help instead. In most cases, you should have the messaging history of that customer.
-
-The system will automatically do its best to route the conversation to the last agent who dealt with it, but if they are not available, due to shift patterns or load percentage, then the system has decided that you have the better capacity to handle this conversation.
-
-#### What should I do if a customer tells me that they’ll come back in a few hours? Should I change my manual SLA?
-
-Once you have responded to the customer (the conversation is then no longer pending), you should hide the conversation. It will become inactive and will reactivate when the customer returns and responds. Feel free to ask the customer to respond when they are ready so that the conversation becomes active again.
-
-#### When should I return a customer to the queue?
-
-Your brand should decide with your LivePerson representative when this is best for them. Some brands decide that this should be the case at the end of your working day. This is so that your customer can continue to get the help they may need after you have finished your shift. If you fall ill, or are not scheduled to be in the next shift, someone else can help your customer complete their query. Please speak to your team manager for more information.
-
-#### Should I ask the customer to ping me when they’re back and ready, or should I be chasing them?
-
-You should always ask the customer to ‘ping’ you when they’re back, so that the conversation is shown as active on your system. However, if it has been a while since you have expected to hear from your customer, then it may be worth checking if they still need help.
-
-#### What should I do if I don’t hear from my customer in a few hours?
-
-You should check if the customer is still available or wanting to talk. If not, after a reasonable amount of time has passed, you can close the conversation. The customer can always open the conversation again easily, and you should make this clear in your closing predefined content.
-
-#### What should I do if a customer wants to speak to the manager?
-
-We suggest that you transfer to your team manager. This way, it removes the conversation from your list so that you can speak to a new customer instead.
-
-### Closing and transferring conversations
-
-#### When is it ‘safe’ to close a messaging conversation?
-
-When a customer confirms a resolution, or when you have waited the appropriate amount of time after checking if they are still present.
-
-Remember, they can always restart the conversation. You won’t always have a customer confirm a resolution, and you may have customers who call in and complete the query with another channel. If you have an unresponsive customer over a certain period of time, the system will close this for you.
-
-#### Do we close a conversation if the customer comes back in over 12 hours?
-
-You can allow this conversation to become inactive. If you plan to pick up the conversation the next day (and you will be on shift in time for their response) then this can stay in your list. If you will not be available, you should reassign the conversation at the end of your day.
-
-#### Can I transfer a chat to another messaging department?
-
-There are other skills available on messaging. Speak to your team manager to understand when and to which skills you should transfer a customer.
-
-#### We’ve been asked to respond to the first customer within a minute. How can I do that when I have so many conversations?
-
-Messaging is designed to allow you to multitask. You should be able to click the new conversation, send the first response which is a hot-key, and return to your current message. It will take some time to get used to prioritizing and multitasking.
-
-#### Is there a predefined response that explains that the customer is being transferred to a new team?
-
-If not, we can draw one up for you. Speak to your Team Manager if you feel that there are any missing predefined responses. Or, if you feel like the language can be slightly changed to make it more user friendly.
-
-#### What should I fill out in the conversation summary, and should I fill this out every time?
-
-Yes, a conversation summary should be filled out every time.  A summary should include information that stood out about the chat, a quick summary would be really useful for the next person who deals with this customer again. It saves them from having to read the whole transcript. Keep the summary short and concise.
-
-#### Should I ask customers to fill in feedback at the end of a conversation?
-
-The system will automatically send out the exit survey. Sometimes it is good for the customer to know that a survey will be popping up as it may also encourage them to fill it out. Most of the time, it is good to let the customer know.
-
-### Miscellaneous
-
-#### When I login, I get lots of messaging conversations straight away. Is that normal?
-
-This can be normal, depending on the time that you start a shift. If there are a lot of customers in the queue from the night before, you may be busy from when you first login.
-
-#### What will the visitor see once I set a new SLA?
-
-For Facebook and SMS, the customer does not get any notifications. However, if the customer is using your app, they will get a notification of the SLA response time. Make sure you are only changing the SLA if you need to.
