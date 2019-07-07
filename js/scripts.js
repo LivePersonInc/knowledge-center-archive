@@ -50,7 +50,7 @@ function navigateContent(url) {
 				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2');
-			$('#mysidebar .activeitem').removeClass('activeitem');
+			$('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
@@ -209,7 +209,7 @@ function sideBarClick () {
 		if ($(this).hasClass("activeitem")) {
 			$(this).removeClass("activeitem");
 		} else {
-			$(".categorylist a").removeClass("activeitem");
+			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
 	});
