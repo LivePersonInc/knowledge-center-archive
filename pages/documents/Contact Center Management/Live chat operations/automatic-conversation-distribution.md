@@ -39,7 +39,7 @@ The Agent Load Ratio for each of them is:
 
 As you can see, Agent B has a lower Agent Load Ratio, so the ACD will route the next incoming chat to Agent B.
 
-If both agents have the same load ratio, the chat is routed to the agent with the longest idle time. Idle time is determined by the time elapsed since the agent received the last chat. Note: Agent states do not impact their place in queue, so, for example, if the agent next in queue to accept a chat moved to 'Away' status and then back to 'Online', the change of state will not reset the agent's idle time and the chat will not skip that agent.
+If both agents have the same load ratio, the chat is routed to the agent with the longest idle time. Idle time is determined by the time elapsed since the agent received the last chat. Note: Agent states do not impact their place in queue, so, for example, if the agent next in queue to accept a chat moved to 'Away' status and then back to 'Online', the change of state will not reset the agent's idle time.
 
 For information on the routing of messaging conversations, please refer to the [Routing logic for messaging](contact-center-management-messaging-operations-routing-logic-overview.html) documentation.
 
