@@ -215,6 +215,7 @@ h4 {
 }
 
 .h1 {
+  width: 60%;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
