@@ -1,50 +1,27 @@
 ---
-pagename: New agent manager workspace overview
+pagename: User guide
 categoryName: Agent & manager workspace
-subCategoryName: ''
+subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: Oversee all messaging conversations captured in one place
+subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-new-agent-workspace-overview.html
+permalink: messaging-managers-user-guide.html
 isTutorial: false
-date: '2019-05-12T11:55:32.000+00:00'
+date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+layout: newAgentWorkspace
 ---
-<div class="important">LivePerson's new agent manager workspace is currently available only to <strong>Early Adopters</strong>. If you'd like to become one and have the new workspace enabled for you, please contact your account team</div>
 
-## Introduction
-
-LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. This new dashboard will boost the agent manager or team manager performance by:
-
-* Offering a quick and comprehensive view of the ‘state of your shift’ in real time
-* Adding the ability to view trends for major KPIs in real time
-* Giving you the ability to drill down and understand causes for tracked metrics
-* Helping you react to situations in real time and prevent growing issues
-
-managers will also be able to actively supervise key metrics like:
-
-* Queue length and wait times
-* CSAT levels
-* Agent utilization and efficiency
-
-**Real time means faster resolution and more efficient problem solving**
-
-The new manager workspace provides real-time information on the state of the shift, displaying key metrics needed to ensure daily KPIs are met. Managers can quickly spot trends such as increased queue length, underperforming agents or spikes to specific skill traffic. By understanding trends and shifts in real time, managers are able to take corrective actions and reduce the impact of problems as well as eliminate additional issues.
-
-**Data visibility helps to meet goals**
-
-Agent managers will have real time visibility into their KPIs and aggregated performance, increasing the likelihood of meeting your daily goals. For example, a manager can catch an increase wait time for a particular agent that is affecting the team’s performance and fix it on the spot. Similarly, a sudden drop in CSAT can be identified and handled immediately instead of waiting for next day or next weeks’s analysis.
 
 ## Configuration
 
-To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default. 
+To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
 
 ![](img/newworkspacepermissions.png)
 
 ### New agent workspace
 
-Here you can also control the permissions for the new agent workspace. The permission is currently **“Off”** by default. 
+Here you can also control the permissions for the new agent workspace. The permission is currently **“Off”** by default.
 
 ## Filters
 
@@ -132,10 +109,10 @@ The list will include following columns:
 
 #### Navigating to the conversation
 
-Clicking on the consumer name will open the conversation window. Only open conversations ("in-queue", “assigned” statuses) will be clickable. Once in the conversation view, you will see the option to join the conversation. If you choose to join the conversation it will be moved to your My Connections list. 
+Clicking on the consumer name will open the conversation window. Only open conversations ("in-queue", “assigned” statuses) will be clickable. Once in the conversation view, you will see the option to join the conversation. If you choose to join the conversation it will be moved to your My Connections list.
 
-{: .notice} 
-**Please note:** If the new agent workspace is not toggled on, when you select a conversation you will be redirected to the All Connections list in the old UI. 
+{: .notice}
+**Please note:** If the new agent workspace is not toggled on, when you select a conversation you will be redirected to the All Connections list in the old UI.
 
 ![](img/conversationswidget.png)
 
