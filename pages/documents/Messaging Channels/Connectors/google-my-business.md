@@ -7,7 +7,7 @@ subtitle: Tap into Google's network to build relationships and develop more pros
 level3: ''
 permalink: messaging-channels-google-my-business.html
 isTutorial: true
-date: 2019-01-20 12:52:49 +0000
+date: '2019-01-20T12:52:49.000+00:00'
 isNew: false
 
 ---
@@ -60,3 +60,6 @@ The Google My Business connector enables consumers to message your brand via SMS
 4. Enable the Activate Google My Business Source toggle.
 5. Enter the relevant Google My Business ID to subscribe the account to.
 6. Once selected, click **Done**.
+
+{: .notice}
+**Please note:** This is a deprecated solution. To learn more about the next iteration, please [click here.](https://knowledge.liveperson.com/messaging-channels-google-business-messaging.html)
