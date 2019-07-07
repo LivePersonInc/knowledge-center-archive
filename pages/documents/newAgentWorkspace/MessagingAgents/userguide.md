@@ -12,9 +12,9 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
-
 ## Workspace basics
+
+As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
 ### Dynamic conversation list
 
@@ -92,14 +92,6 @@ Select an action by pressing the applicable letter from the table below.
 
 {: .notice}
 **Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hotkeys are only available when you are in a conversation with a visitor.
-
-
-The agent workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
-
-There are a few configurations that brands can elect to control for the agent experience as outlined below.  
-
-{: .notice}
-**Please note:** If you have set up these configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
 
 ## Managing messaging conversations
 
@@ -191,7 +183,6 @@ The conversations can be marked as resolved or closed, either by the consumer or
 
 At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversation summaries and ensure that your conversations were properly documented. Closed conversations are stored in the My Connections list for between 48 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list.
 
-
 #### Surveys (coming September)
 
 **Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, by you or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
@@ -220,6 +211,13 @@ For conversations that are awaiting a consumer response, the auto close mechanis
 * Filter closed conversations into the list to review the conversations you handled during the shift and ensure that everything has been documented properly.
 
 ## Configuration
+
+The agent workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
+
+There are a few configurations that brands can elect to control for the agent experience as outlined below.  
+
+{: .notice}
+**Please note:** If you have set up these configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
 
 ### Configuration from your LivePerson workspace
 
