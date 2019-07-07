@@ -73,3 +73,27 @@ The data bar in your workspace will represent the queue data that is relevant on
 **IN QUEUE:** overall number of conversations in the queue, including actionable and not actionable. A not actionable conversation is one that is still open but awaiting a consumer reply. Only the actionable conversations are routed to agents.
 
 **CSAT:** displays the customer satisfaction score based on the Post Conversation Surveys that were completed in the last 12 hours.
+
+## Shortcuts & hotkeys
+
+To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks. 
+
+Open the hot keys menu by holding down the control and tilde keys (CTRL + ~).
+On UK keyboards, hold down the control and apostrophe keys (CTRL + '). 
+
+Select an action by pressing the applicable letter from the table below.
+
+
+| ACTION        | HOTKEY    | 
+| ------------- |-------------| 
+| LOGOUT of the agent workspace  | L | 
+| ACCEPT a new incoming conversation  | A  | 
+| LIST VIEW: open the my connection list | V | 
+| STATUS: toggle your status between Online, Back Soon and Away  | S | 
+| HIDE conversation from your current view  | H | 
+| Return conversation to QUEUE  | Q   | 
+| TRANSFER conversation to another skill | T | 
+| CLOSE conversation  | X | 
+
+{: .notice}
+**Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor.
