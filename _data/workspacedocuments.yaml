@@ -1,34 +1,34 @@
-- categoryname: Messaging Agents
+- categoryname: Messaging agents
   image: messaging-agents
   subcategories:
     - subcategoryname: The enhanced agent workspace
     - subcategoryname: Summary of enhancements
     - subcategoryname: User guide
-    - subcategoryname: Training Deck
+    - subcategoryname: Training deck
     - subcategoryname: Tutorial
     - subcategoryname: Roadmap
     - subcategoryname: Rollout
 
-- categoryname: Messaging Managers
+- categoryname: Messaging managers
   image: messaging-managers
   subcategories:
     - subcategoryname: Introducing the new manager workspace
-    - subcategoryname: Use Cases
+    - subcategoryname: Use cases
     - subcategoryname: User guide
     - subcategoryname: Using all connections
     - subcategoryname: What's new in all connections
 
-- categoryname: Admins & Campaign Managers
+- categoryname: Admins & campaign managers
   image: admins-campaigns
   subcategories:
     - subcategoryname: New icons
 
-- categoryname: LiveChat Agents & Managers
+- categoryname: Live chat agents & managers
   image: agents-managers
   subcategories:
     - subcategoryname: Find the new status button
 
-- categoryname: Consumer Experience
+- categoryname: Consumer experience
   image: consumer-experience
   subcategories:
     - subcategoryname: New web messaging window template
