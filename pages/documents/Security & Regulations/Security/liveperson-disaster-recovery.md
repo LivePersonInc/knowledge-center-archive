@@ -8,7 +8,7 @@ level3: ''
 permalink: security-regulations-liveperson-disaster-recovery.html
 isTutorial: false
 isNew: false
-date: 2019-01-31 08:38:33 +0000
+date: '2019-01-31T08:38:33.000+00:00'
 
 ---
 LivePerson maintains a full-scale, one-to-one ratio, disaster recovery facility, which guarantees a consistent service performance and minimal data loss in the event of a regional disaster.
@@ -38,7 +38,7 @@ For each scenario, LivePerson identifies the critical components and dependencie
 
 ## Failover decision and recovery window
 
-LivePerson’s escalation policy determines that after a data center becomes non-operational, a senior management decision is required in order to failover to the disaster recovery site. Once a decision is made, it can take up to 30 2 hours minutes for the disaster recovery site to be fully operational and start serving customers.
+LivePerson’s escalation policy determines that after a data center becomes non-operational, a senior management decision is required in order to failover to the disaster recovery site. Once a decision is made, it can take up to 30 minutes for the disaster recovery site to be fully operational and start serving customers.
 
 ## Disaster recovery process
 
