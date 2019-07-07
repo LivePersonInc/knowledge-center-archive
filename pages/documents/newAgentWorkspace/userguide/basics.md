@@ -36,28 +36,12 @@ The new conversation list includes ongoing, overdue, idle, and closed conversati
 
 You can filter conversations in the list by status:
 
-![alt text](img/Screen Shot 2019-07-07 at 3.21.57 PM.png){:class="newagent"}
-
 | Status        | Icon    |  Description        | Use    |
 | ------------- |-------------| ------------- |-------------| 
 | Ongoing | ![alt text](img/ongoing-conversation-status.png) |Ongoing conversations are open conversations that are currently active.|These conversations are in the list by default and **cannot** be filtered out.|
 | Overdue |![alt text](img/overdue-conversation-status.png) |Conversations that were not answered before the SLA has expired. |These conversations are in the list by default and **cannot** be filtered out.|
 | Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied for 5 minutes or longer, defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
 | Closed |![alt text](img/closed-conversation-status.png) |Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. |These conversations are filterable. Filter them **into the list** at the end of your shift, or if you have down time to review your documentation.|
-
-**Ongoing**
-* **Definition:** Ongoing conversations are open conversations that are currently active. During a daily shift these conversations appear in your conversation list, telling which you should handle based on the SLA. 
-
-**Overdue**
-* **Definition**: These are conversations that were not answerd before the SLA has expired. Each brand can define how quickly they want to commit to a reply (SLA). These conversations are visible during your shift to ensure that the consumers are helped and your KPIs are being met.
-
-**Idle**
-* **Definition**: These are conversations in which the consumer hasn’t replied for 5 minutes or longer, they are defined as inactive. 
-* **How to use**: Filter these conversations OUT in order to have a more succinct and organized list of conversations that require urgent action. When the consumer responds they will be filtered back into the list. 
-
-**Closed**
-* **Definition**: Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. Closed conversations are stored for between 48 hours and 14 days, depending on your contact center’s configuration. 
-* **How to use**: Filter these conversations into the list at the end of your shift, or if you have down time. This will allow you to proactively follow up with conversations or to review that you have taken all the necessary steps to wrap up and document each one. 
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
