@@ -21,45 +21,38 @@ The manager workspace provides you with the ability to assess the shift status a
 
 Keep agents focused by tracking the in queue metrics and identifying the cause of a spike. 
 
+![alt text](img/new-manager-workspace-use-case-2.png)
 
 If you notice that the “In queue” metric has become too high, you can take action by filtering to see “Away” agents and identify agents that are not on schedule. 
 
+![alt text](img/new-manager-workspace-use-case-3.png)
 
-
-
+![alt text](img/new-manager-workspace-use-case-4.png)
 
 Choose an action such as “ask them to adhere to schedule” to resolve the spike in queue length and keep agents on target. 
-
-
-
-
 
 ## 2. Monitor closed conversations
 
 Ensure operations are running smoothly and keep an eye on the number of closed conversations with the activity summary at the top right. 
 
-
-
+![alt text](img/new-manager-workspace-use-case-5.png)
 
 If the number of closed conversations appears too low, you can locate agents with a high number of assigned conversations but with a low number of active conversations.
 
-
-
+![alt text](img/new-manager-workspace-use-case-7.png)
 
 You can then review the agent’s inactive conversations and confirm whether they should have been closed.
 
-
-
-
-
-
-
+![alt text](img/new-manager-workspace-use-case-8.png)
 
 ## 3. Maintain a high CSAT through real-time monitoring
 
 Oversee and address customer satisfaction issues by monitoring the score in real time in the activity summary. 
 
-If the CSAT score is low, you can identify the issue by using the filters to sort conversations by CSAT. 
+![alt text](img/new-manager-workspace-use-case-9.png)
 
+If the CSAT score is low, you can identify the issue by using the filters to sort conversations by CSAT. 
+![alt text](img/new-manager-workspace-use-case-10.png)
 
 You can then review the conversations with low CSAT scores to determine what went wrong and discuss it with the agent. 
+![alt text](img/new-manager-workspace-use-case-11.png)
