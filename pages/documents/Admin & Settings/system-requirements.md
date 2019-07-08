@@ -137,7 +137,7 @@ The real-time experience is affected by several applications competing for upstr
 
 ## Citrix requirements
 
-_Live person recommends hosting up to 30 Agent users per Citrix server with following specification:_
+LivePerson recommends hosting up to 30 Agent users per Citrix server with following specification:
 
 * Hosted VMWare
 * Internal network 10 GB
@@ -146,16 +146,16 @@ _Live person recommends hosting up to 30 Agent users per Citrix server with foll
 * 16 GB memory
 * 256 Video Card Memory
 * Windows server 2012 R2
-* Xenapp 7.15 
+* Xenapp 7.15
 
-Upon the above set up the below describes the resource consumption fro each profile:_
+Upon the above set up the below describes the resource consumption for each profile:
 
 * CPU for Agent Manager role - minimum of 4500 ghz per user
 * CPU for each Agent role - minimum of 800 ghz per user
 * CPU wise - 1 Manager = 5 agents
 * Steady set up can be 1 Manager with 10 Agents
 
-CPU resources should be calculated according to above parameters. 
+CPU resources should be calculated according to above parameters.
 
 ## New device certification process
 
