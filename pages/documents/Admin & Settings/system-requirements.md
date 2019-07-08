@@ -9,7 +9,7 @@ level3: ''
 permalink: admin-settings-system-requirements.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 13:20:27 +0000
+date: '2019-01-28T13:20:27.000+00:00'
 
 ---
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
@@ -87,7 +87,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | --- | --- | --- | --- |
 | Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
 | Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* | 11x&#42; , Edge&#42; |
+| Internet Explorer | 11x* | 11x* | 11x* , Edge* |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
 
@@ -137,12 +137,25 @@ The real-time experience is affected by several applications competing for upstr
 
 ## Citrix requirements
 
-LivePerson recommends hosting up to 30 users per server, with the following specifications:
+_Live person recommends hosting up to 30 Agent users per Citrix server with following specification:_
 
-* CPU: 4 Cores
-* Memory: 16 GB RAM
-* Xenapp Server 6.5 and above
-* Operating system: Windows Server 2008 R2
+* _Hosted VMWare_
+* _Internal network 10 GB_
+* _Network to WAN 200/200 (Up/Down)_
+* _6 VCPU (2.2 ghz minimum)_
+* _16 GB memory_
+* _256 Video Card Memory_ 
+* _Windows server 2012 R2_ 
+* _Xenapp 7.15 _
+
+ Upon the above set up the below describes the resource consumption fro each profile:_
+
+* _CPU for Agent Manager role - minimum of 4500 ghz per user_
+* _CPU for each Agent role - minimum of 800 ghz per user_
+* _CPU wise - 1 Manager = 5 agents_
+* _Steady set up can be 1 Manager with 10 Agents._
+
+ CPU resources should be calculated according to above params._
 
 ## New device certification process
 
