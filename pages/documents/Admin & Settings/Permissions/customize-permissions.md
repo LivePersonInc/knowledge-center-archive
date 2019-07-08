@@ -90,7 +90,7 @@ A **profile** is a set of **permissions**, derived from a LiveEngage role. **Pro
 
 The tables below list the permissions that can be configured per role, along with their definitions and default state.
 
-### **Role: Agent**
+### Role: Agent
 
 The following core permissions are included with the agent role and cannot be disabled:
 
@@ -118,7 +118,7 @@ The following core permissions are included with the agent role and cannot be di
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Update consumer profile via API | Enables agent to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Agent manager**
+### Role: Agent manager
 
 The following core permissions are included with the agent manager role and cannot be disabled:
 
@@ -154,7 +154,7 @@ The following core permissions are included with the agent manager role and cann
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an agent manager to configure the shift status | On |
 | Update consumer profile via API | Enables agent manager to use the Consumer Profile API to make edits to a consumer’s profile | Off |
 
-### **Role: Campaign manager**
+### Role: Campaign manager
 
 The following core permissions are included with the campaign manager role and cannot be disabled:
 
@@ -187,7 +187,7 @@ The following core permissions are included with the campaign manager role and c
 | View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 
-### **Role: Admin**
+### Role: Admin
 
 The following core permissions are included with the Admin role and cannot be disabled:
 
@@ -219,11 +219,11 @@ The following core permissions are included with the Admin role and cannot be di
 
 See screenshots below for list of permissions for the following roles:
 
-### Agent 
+### Agent
 
 ![](/img/Agent.png)
 
-## Admin
+### Admin
 
 ![](/img/Admin.png)
 
