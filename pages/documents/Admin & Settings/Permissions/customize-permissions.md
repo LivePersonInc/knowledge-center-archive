@@ -217,7 +217,9 @@ The following core permissions are included with the Admin role and cannot be di
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an admin to configure the shift status | On |
 
-See screenshots below for list of permissions for the following roles:
+## Visuals
+
+See screenshots below as examples of permissions for the different roles:
 
 ### Agent
 
