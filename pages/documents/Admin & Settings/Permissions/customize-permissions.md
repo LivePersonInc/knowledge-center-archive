@@ -8,7 +8,7 @@ level3: ''
 permalink: admin-settings-permissions-customize-permissions.html
 isTutorial: false
 isNew: false
-date: 2019-01-23 12:20:28 +0000
+date: '2019-01-23T12:20:28.000+00:00'
 
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
@@ -22,17 +22,17 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 
 ![](/img/permissions1 (1)-1.png)
 
-## **Customized profiles**
+## Customized profiles
 
 Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, LiveEngage creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
 
 In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the Appendix.
 
-## **Multiple user roles**
+## Multiple user roles
 
 To ensure small and medium-sized businesses also have flexibility within their user management capabilities, users can now be assigned more than one role. For example, a manager who also takes chats can be assigned both ‘agent manager’ and ‘agent’ roles and a campaign manager who also manages users and takes care of account administration can be assigned both ‘campaign manager’ and ‘admin’ roles.
 
-## **More control for agent managers**
+## More control for agent managers
 
 To further empower agent managers, there will be an additional option to grant this role limited user management permissions, including:
 
@@ -53,9 +53,7 @@ Profiles and users can only be configured by admins and agent managers with spec
 5. To return the profile to the default permissions set, click **restore defaults**.
 6. **Save** the profile.
 
-![](/img/permissions2 (1).png)
-
-### **To create a user and assign a profile:**
+### To create a user and assign a profile:
 
 1\. On the **users** list, click **add user** at the bottom of the page.
 
@@ -84,7 +82,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 ![](/img/permissions3 (2).png)
 
-## **Definitions, permission and default states**
+## Definitions, permission and default states
 
 A **role** defines the scope of the user’s work. Each **role** encompasses a _unique_ set of permissions. **Roles** cannot be created or edited.
 
@@ -218,3 +216,21 @@ The following core permissions are included with the Admin role and cannot be di
 | View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an admin to configure the shift status | On |
+
+See screenshots below for list of permissions for the following roles:
+
+### Agent 
+
+![](/img/Agent.png)
+
+## Admin
+
+![](/img/Admin.png)
+
+### Campaign Manager
+
+![](/img/Campaign Manager - part 1.png)
+
+### Agent Manager
+
+![](/img/Agent Manager - part 1 (1).png)
