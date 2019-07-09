@@ -12,6 +12,8 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
+![](/img/03_VimeoThumbnail_Mai19 (1).jpg)
+
 ## The new LiveEngage App
 
 The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
