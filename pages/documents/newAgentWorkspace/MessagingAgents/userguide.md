@@ -110,9 +110,6 @@ Select an action by pressing the applicable letter from the table below.
 | CLOSE conversation  | X |
 | Respond to next conversation (NEW)  | N |
 
-{: .notice}
-**Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hotkeys are only available when you are in a conversation with a visitor.
-
 ## Managing messaging conversations
 
 ### Beginning your shift
