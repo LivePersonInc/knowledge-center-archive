@@ -3,7 +3,7 @@ pagename: July 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include the LiveEngage App and Sinch Connector
+subtitle: Top features include the LiveEngage App and Sinch Connector for SMS
 level3: ''
 permalink: whats-new-july-2019
 isTutorial: false
