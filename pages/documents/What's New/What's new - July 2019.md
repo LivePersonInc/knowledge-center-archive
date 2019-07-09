@@ -64,19 +64,13 @@ When assigning conversations to agents, it is possible that certain skills will 
 
 ## Integration with FaaS from Conversation Builder
 
-You will have access to FaaS from within Conversation Builder, helping you to deploy custom code through FAAS and mashup APIs
-
-FaaS provides you with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
+You will have access to FaaS from within Conversation Builder, helping you to deploy custom code through FAAS and mashup APIs. FaaS provides you with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
 
 ## Scheduled Function Execution
 
 Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance.Until now, functions could only be triggered by the occurrence of defined LE event. The invocation can be defined by point in time or a recurrence such as every 3 hours.
 
-## Automatic disambiguation of intents in conversation flow
-
-In conversation flow, a consumer sends a message and a bot understands user intent and prepares response. Sometimes, when a bot is trying to determine consumer intent, the text matches with more than one intent with similar confidence levels. In this situation, Automatic Disambiguation of intents allows bots to offer a clarification question to the consumer to clarify which intent is the best match, steering the conversation flow down the right path.
-
-## Sunset of BI reporting
+## Migrating all BI accounts to the Report Builder
 
 Please note, in August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
 
