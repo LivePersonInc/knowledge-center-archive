@@ -20,7 +20,7 @@ The App expands opportunities for messaging scenarios, for example, in stores, r
 
 {: .sidebyside}
 
-![](/img/LEApp2.png)
+![](/img/LEApp2.png)![](/img/IPAD1.png)
 
 ## Sinch Connector for SMS
 
