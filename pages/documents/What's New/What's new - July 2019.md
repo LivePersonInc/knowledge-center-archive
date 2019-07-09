@@ -18,8 +18,9 @@ The LiveEngage App is an iOS application for iPads & iPhones that allows agents 
 
 The App expands opportunities for messaging scenarios, for example, in stores, retail reps can leverage their down time by messaging with customers not in store giving them the power to increase sales. The app enables agents to close conversations, return them back to queue, use predefined content, receive push notifications, and lots more! The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact shaia@liveperson.com.
 
-{: .sidebyside}  
-![](/img/LE App1.png)
+{: .sidebyside}
+
+![](/img/LEApp2.png)
 
 ## Sinch Connector for SMS
 
