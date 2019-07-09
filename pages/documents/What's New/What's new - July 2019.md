@@ -22,19 +22,6 @@ The App expands opportunities for messaging scenarios, for example, in stores, r
 
 In the coming weeks we’ll be introducing the SMS connector to the Sinch gateway which gives you an alternative to the current SMS Twilio and CM connectors. This is great as it allows you to converse with consumers using the SMS application in iOS or Android and manage these conversations at scale using our LivePerson platform.
 
-## Enhanced default engagement window & invitation
-
-LiveEngage’s default engagement window and default invitation inviting consumers to message or chat will be enhanced to provide an improved consumer experience and customization options. LiveEngage’s default engagement window for both chat and web messaging will be enhanced to include:
-
-* Larger window size
-* New bubble style
-* New visual read indicator (web messaging only)
-* New minimize window icon
-* New header image
-* New bubble style for the invitation
-
-You will receive the enhanced window and invitation as default in the engagement and window settings. The ocean theme will still be available in the engagement window gallery in case you still wants to use it as the default / starting point for new / existing engagements. For more information, click [here.](https://knowledge.liveperson.com/release-notes-2019-june-week-of-june-17th.html#new-style-for-agent-and-consumer-bubbles)
-
 ## Enhanced engagement templates
 
 The engagement templates (invitation) have been enhanced to improve flexibility of customization and branding.
