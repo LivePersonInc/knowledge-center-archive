@@ -36,9 +36,7 @@ The new templates will be available for both chat and web messaging. The new tem
 {: .notice}  
 New customers will receive these templates by default. Existing customer will receive the new enhanced template only once they create a new engagement. You can always go to setting and change it for existing engagements, if you'd like to as the old template will still available.
 
-{: .sidebyside}
-
-![](/img/EngTemp1-1.png)
+![](/img/Message us1.png)
 
 ## LUIS bot connector
 
