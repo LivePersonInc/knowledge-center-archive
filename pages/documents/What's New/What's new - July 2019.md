@@ -33,7 +33,7 @@ LiveEngage’s default engagement window and default invitation inviting consume
 * New header image
 * New bubble style for the invitation
 
-You will receive the enhanced window and invitation as default in the engagement and window settings. The ocean theme will still be available in the engagement window gallery in case you still wants to use it as the default / starting point for new / existing engagements.
+You will receive the enhanced window and invitation as default in the engagement and window settings. The ocean theme will still be available in the engagement window gallery in case you still wants to use it as the default / starting point for new / existing engagements. For more information, click [here.](https://knowledge.liveperson.com/release-notes-2019-june-week-of-june-17th.html#new-style-for-agent-and-consumer-bubbles)
 
 ## Enhanced engagement templates
 
