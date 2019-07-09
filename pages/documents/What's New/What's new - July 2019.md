@@ -48,11 +48,13 @@ You will soon be able to easily onboard and manage bots and automations created 
 
 The bot status dashboard allows you to monitor the technical and operational activity of third-party bots. You can monitor bot KPIs such as transferred conversations and errors, and track metrics over time to identify issues in the bot flows. You also have the option to export the data and view logs related to the bots operational activity
 
-All bots are managed via the Bot Connectors. For more information on Bot Connectors, [click](https://knowledge.liveperson.com/ai-bots-automation-how-bots-work-with-liveperson.html)
+All bots are managed via the Bot Connectors. For more information on Bot Connectors, [click here](https://knowledge.liveperson.com/ai-bots-automation-how-bots-work-with-liveperson.html)
+
+![](/img/Bot connectors dashboard.png)
 
 ## Fallback configuration per skill
 
-When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefor a fallback skill needs to be assigned. This capability will soon be offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
+When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefor a fallback skill needs to be assigned. This capability will soon be offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up. For more information, see [release notes](https://knowledge.liveperson.com/release-notes-2019-july-week-of-july-1st.html#fallback-configuration-by-skill)
 
 ## Integration with FaaS from Conversation Builder
 
