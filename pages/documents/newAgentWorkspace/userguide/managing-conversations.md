@@ -102,8 +102,7 @@ The conversations can be marked as resolved or closed, either by the consumer or
 
 At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversation summaries and ensure that your conversations were properly documented. Closed conversations are stored in the My Connections list for between 48 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list. 
 
-
-![image alt text](img/closed-conversations-filter.gif){:class="newagent"}
+![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 
 ### Surveys
 
