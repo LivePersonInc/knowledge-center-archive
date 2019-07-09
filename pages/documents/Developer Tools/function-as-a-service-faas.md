@@ -1,12 +1,12 @@
 ---
-pagename: Function as a Service (FaaS)
+pagename: LivePerson Functions
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: FaaS enables brands to quickly and easily customize how the LivePerson platform
   behaves.
 level3: ''
-permalink: developer-tools-function-as-a-service-(faas).html
+permalink: developer-tools-liveperson-functions.html
 isTutorial: false
 isNew: true
 

@@ -265,7 +265,7 @@
   image: developer-tools
   subcategories:
     - subcategoryname: Open platform
-    - subcategoryname: Function as a Service (FaaS)
+    - subcategoryname: LivePerson Functions
 
 - categoryname: "What's new"
   image: whats-new
