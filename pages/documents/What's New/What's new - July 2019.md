@@ -18,7 +18,7 @@ The LiveEngage App is an iOS application for iPads & iPhones that allows agents 
 
 The App expands opportunities for messaging scenarios, for example, in stores, retail reps can leverage their down time by messaging with customers not in store giving them the power to increase sales. The app enables agents to close conversations, return them back to queue, use predefined content, receive push notifications, and lots more! The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact shaia@liveperson.com.
 
-## Sinch Connector
+## Sinch Connector for SMS
 
 In the coming weeks we’ll be introducing the SMS connector to the Sinch gateway which gives you an alternative to the current SMS Twilio and CM connectors. This is great as it allows you to converse with consumers using the SMS application in iOS or Android and manage these conversations at scale using our LivePerson platform.
 
@@ -74,4 +74,6 @@ Functions will no longer be tied to the occurrence of a specific account event, 
 
 Please note, in August, LivePerson will sunset the BI reporting tool, migrating all accounts to our new reporting platform, Report Builder.
 
-Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. For an overview of Report Builder, please [click here.](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html)
+Report Builder is a new and improved version of LiveEngage BI dashboards. With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Report Builder includes more powerful capabilities than those available in LiveEngage BI. Watch our two minute video to learn about the Report Builder.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/344251526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
