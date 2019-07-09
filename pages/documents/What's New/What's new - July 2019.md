@@ -70,7 +70,7 @@ Functions will no longer be tied to the occurrence of a specific account event, 
 
 ## Automatic disambiguation of intents in conversation flow
 
-In conversation flow, a consumer sends a messages and a bot understands user intent and prepares response. Sometimes, when a bot is trying to determine consumer intent, the text matches with more than one intent with similar confidence levels. In this situation, Automatic Disambiguation of intents allows bots to offer a clarification question to the consumer to clarify which intent is the best match, steering the conversation flow down the right path.
+In conversation flow, a consumer sends a message and a bot understands user intent and prepares response. Sometimes, when a bot is trying to determine consumer intent, the text matches with more than one intent with similar confidence levels. In this situation, Automatic Disambiguation of intents allows bots to offer a clarification question to the consumer to clarify which intent is the best match, steering the conversation flow down the right path.
 
 ## Sunset of BI reporting
 
