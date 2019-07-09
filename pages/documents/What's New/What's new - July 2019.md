@@ -18,15 +18,19 @@ The LiveEngage App is an iOS application for iPads & iPhones that allows agents 
 
 The App expands opportunities for messaging scenarios, for example, in stores, retail reps can leverage their down time by messaging with customers not in store giving them the power to increase sales. The app enables agents to close conversations, return them back to queue, use predefined content, receive push notifications, and lots more! The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact shaia@liveperson.com.
 
-![](/img/Screen Shot 2019-07-09 at 10.44.24 AM.png)
-
 ## Sinch Connector
 
 In the coming weeks we’ll be introducing the SMS connector to the Sinch gateway which gives you an alternative to the current SMS Twilio and CM connectors. This is great as it allows you to converse with consumers using the SMS application in iOS or Android and manage these conversations at scale using our LivePerson platform.
 
-## LUIS Bot and Bot status dashboard
+## **LUIS Bot Connector**
 
-You will soon be able to easily onboard and manage bots and automations created using Microsoft LUIS. A LUIS bot can be on-boarded and controlled without needing to use any of LivePerson’s APIs for integration and can be accessed from the Bot Connectors section under the Automation Module. We will also have a bot status dashboard which allows you to monitor the technical and operational activity of third-party bots. You can monitor bot KPIs such as transferred conversations and errors, and track metrics over time to identify issues in the bot flows.
+You will soon be able to easily onboard and manage bots and automations created using Microsoft LUIS. A LUIS bot can be on-boarded and controlled without needing to use any of LivePerson’s APIs for integration and can be accessed from the Bot Connectors section under the Automation Module.
+
+## **Bot status dashboard for bot connectors**
+
+The bot status dashboard allows you to monitor the technical and operational activity of third-party bots. You can monitor bot KPIs such as transferred conversations and errors, and track metrics over time to identify issues in the bot flows. You also have the option to export the data and view logs related to the bots operational activity
+
+All bots are managed via the Bot Connectors. For more information on Bot Connectors, [click](https://knowledge.liveperson.com/ai-bots-automation-how-bots-work-with-liveperson.html)
 
 ## Fallback configuration per skill
 
@@ -47,7 +51,7 @@ You will receive the enhanced window and invitation as default in the engagement
 
 ## Enhanced engagement templates
 
-The engagement templates (invitation) have been enhanced to improve flexibility of customization and branding. 
+The engagement templates (invitation) have been enhanced to improve flexibility of customization and branding.
 
 The two new buttons will be added to the engagement gallery:
 
