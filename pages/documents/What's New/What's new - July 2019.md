@@ -28,22 +28,6 @@ The App expands opportunities for messaging scenarios, for example, in stores, r
 
 In the coming weeks we’ll be introducing the SMS connector to the Sinch gateway which gives you an alternative to the current SMS Twilio and CM connectors. This is great as it allows you to converse with consumers using the SMS application in iOS or Android and manage these conversations at scale using our LivePerson platform.
 
-## Enhanced engagement templates
-
-The engagement templates (invitation) have been enhanced to improve flexibility of customization and branding.
-
-The two new buttons will be added to the engagement gallery:
-
-* Small round bubble only (no text)
-* Rectangle with bubble and editable text (today the templates include only “Live Chat” text which is not editable)
-
-The new templates will be available for both chat and web messaging. The new templates can be customized via the studio to fit your brand’s webpage look and feel
-
-{: .notice}  
-New customers will receive these templates by default. Existing customer will receive the new enhanced template only once they create a new engagement. You can always go to setting and change it for existing engagements, if you'd like to as the old template will still available.
-
-![](/img/Message us1.png)
-
 ## LUIS bot connector
 
 You will soon be able to easily onboard and manage bots and automations created using Microsoft LUIS. A LUIS bot can be on-boarded and controlled without needing to use any of LivePerson’s APIs for integration and can be accessed from the Bot Connectors section under the Automation Module.
