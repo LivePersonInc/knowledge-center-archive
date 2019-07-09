@@ -9,6 +9,8 @@ level3: ''
 permalink: developer-tools-liveperson-functions.html
 isTutorial: false
 isNew: true
+redirect_from:
+  - developer-tools-function-as-a-service-(faas).html
 
 ---
 LivePerson’s open platform new initiative, offers Function as a Service (FaaS) - a service that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
