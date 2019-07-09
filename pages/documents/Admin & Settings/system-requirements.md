@@ -143,7 +143,7 @@ LivePerson recommends hosting up to 30 Agent users per Citrix server with follow
 * Internal network 10 GB
 * Network to WAN 200/200 (Up/Down)
 * 6 VCPU (2.2 ghz minimum)
-* 16 GB memory
+* Memory 16 GB
 * 256 Video Card Memory
 * Windows server 2012 R2
 * Xenapp 7.15
