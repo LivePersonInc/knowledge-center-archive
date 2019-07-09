@@ -35,7 +35,7 @@ The new templates will be available for both chat and web messaging. The new tem
 
 {: .sidebyside}
 
-![](/img/EngTemp1.png)    ![](/img/EngTemp2.png)
+![](/img/EngTemp1-1.png)![](/img/EngTemp2-1.png)
 
 ## LUIS bot connector
 
