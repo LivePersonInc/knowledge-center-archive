@@ -57,7 +57,7 @@ You will have access to FaaS from within Conversation Builder, helping you to de
 
 ## Scheduled Function Execution
 
-Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance.Until now, functions could only be triggered by the occurrence of defined LE event. The invocation can be defined by point in time or a recurrence such as every 3 hours.
+Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance. Until now, functions could only be triggered by the occurrence of defined LiveEngage event. The invocation can be defined by point in time or a recurrence such as every 3 hours. More details coming soon.
 
 ## Migrating all BI accounts to the Report Builder
 
