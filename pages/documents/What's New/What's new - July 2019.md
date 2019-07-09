@@ -22,20 +22,6 @@ The App expands opportunities for messaging scenarios, for example, in stores, r
 
 In the coming weeks we’ll be introducing the SMS connector to the Sinch gateway which gives you an alternative to the current SMS Twilio and CM connectors. This is great as it allows you to converse with consumers using the SMS application in iOS or Android and manage these conversations at scale using our LivePerson platform.
 
-## **LUIS Bot Connector**
-
-You will soon be able to easily onboard and manage bots and automations created using Microsoft LUIS. A LUIS bot can be on-boarded and controlled without needing to use any of LivePerson’s APIs for integration and can be accessed from the Bot Connectors section under the Automation Module.
-
-## **Bot status dashboard for bot connectors**
-
-The bot status dashboard allows you to monitor the technical and operational activity of third-party bots. You can monitor bot KPIs such as transferred conversations and errors, and track metrics over time to identify issues in the bot flows. You also have the option to export the data and view logs related to the bots operational activity
-
-All bots are managed via the Bot Connectors. For more information on Bot Connectors, [click](https://knowledge.liveperson.com/ai-bots-automation-how-bots-work-with-liveperson.html)
-
-## Fallback configuration per skill
-
-When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefor a fallback skill needs to be assigned. This capability will soon be offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
-
 ## Enhanced default engagement window & invitation
 
 LiveEngage’s default engagement window and default invitation inviting consumers to message or chat will be enhanced to provide an improved consumer experience and customization options. LiveEngage’s default engagement window for both chat and web messaging will be enhanced to include:
@@ -56,11 +42,25 @@ The engagement templates (invitation) have been enhanced to improve flexibility 
 The two new buttons will be added to the engagement gallery:
 
 * Small round bubble only (no text)
-* Rectangle with bubble and editable text “Message us” (today the templates include only “Live Chat” text which is not editable)
+* Rectangle with bubble and editable text (today the templates include only “Live Chat” text which is not editable)
 
-The new templates will be available for both chat and web messaging
+The new templates will be available for both chat and web messaging. The new templates can be customized via the studio
 
-The new templates can be customized via the studio
+![](/img/EngTemp1.png)    ![](/img/EngTemp2.png)
+
+## LUIS bot connector
+
+You will soon be able to easily onboard and manage bots and automations created using Microsoft LUIS. A LUIS bot can be on-boarded and controlled without needing to use any of LivePerson’s APIs for integration and can be accessed from the Bot Connectors section under the Automation Module.
+
+## Bot status dashboard for bot connectors
+
+The bot status dashboard allows you to monitor the technical and operational activity of third-party bots. You can monitor bot KPIs such as transferred conversations and errors, and track metrics over time to identify issues in the bot flows. You also have the option to export the data and view logs related to the bots operational activity
+
+All bots are managed via the Bot Connectors. For more information on Bot Connectors, [click](https://knowledge.liveperson.com/ai-bots-automation-how-bots-work-with-liveperson.html)
+
+## Fallback configuration per skill
+
+When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefor a fallback skill needs to be assigned. This capability will soon be offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
 
 ## Integration with FaaS from Conversation Builder
 
@@ -68,7 +68,7 @@ You will have access to FaaS from within Conversation Builder, helping you to de
 
 FaaS provides you with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
 
-## \[FaaS\] Scheduled Function Execution
+## Scheduled Function Execution
 
 Functions will no longer be tied to the occurrence of a specific account event, such as conversation state changes or external invocations, but will be time-bound and set to run in advance.Until now, functions could only be triggered by the occurrence of defined LE event. The invocation can be defined by point in time or a recurrence such as every 3 hours.
 
