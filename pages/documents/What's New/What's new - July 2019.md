@@ -31,11 +31,14 @@ The two new buttons will be added to the engagement gallery:
 * Small round bubble only (no text)
 * Rectangle with bubble and editable text (today the templates include only “Live Chat” text which is not editable)
 
-The new templates will be available for both chat and web messaging. The new templates can be customized via the studio.
+The new templates will be available for both chat and web messaging. The new templates can be customized via the studio to fit your brand’s webpage look and feel
+
+{: .notice}  
+New customers will receive these templates by default. Existing customer will receive the new enhanced template only once they create a new engagement. You can always go to setting and change it for existing engagements, if you'd like to as the old template will still available.
 
 {: .sidebyside}
 
-![](/img/EngTemp1-1.png)![](/img/EngTemp2-1.png)
+![](/img/EngTemp1-1.png)
 
 ## LUIS bot connector
 
