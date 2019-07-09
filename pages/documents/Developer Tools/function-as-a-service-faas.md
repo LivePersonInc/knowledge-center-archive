@@ -1,14 +1,16 @@
 ---
-pagename: Functions
+pagename: LivePerson Functions
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
 subtitle: LivePerson Functions enables brands to quickly and easily customize how the LivePerson platform
   behaves.
 level3: ''
-permalink: developer-tools-function-as-a-service-(faas).html
+permalink: developer-tools-liveperson-functions.html
 isTutorial: false
 isNew: true
+redirect_from:
+  - developer-tools-function-as-a-service-(faas).html
 
 ---
 LivePerson’s open platform new initiative, offers “[Functions](https://faas.liveperson.net)” - a Function as a Service (FaaS) platform that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:

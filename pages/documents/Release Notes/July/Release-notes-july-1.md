@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-## Messaging Conversation Segments
+## Messaging Conversation Segments (available soon)
 
 ### Type: New functionality
 
@@ -151,7 +151,7 @@ Please note:
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages
 
-## Add Timezone to Survey dashboard for Live Chat in Report Builder
+## Add Timezone to Survey dashboard for Live Chat in Report Builder (available soon)
 
 ### Type:  New functionality
 
@@ -538,3 +538,67 @@ The following file types are supported:
 * JPG,GIF,JPEG,PNG
 
 All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in photo sharing scope ([view here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-agent-file-sharing-overview.html)).
+
+## \[ABC\] Embedded secure form
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Brands can improve the secure form consumer experience by embedding the form directly in the message thread rather than receiving it as a URL that opens in a new browser. The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image URL, image subtitle and image title.
+
+**Dependencies:**
+
+* iMessage App (extension)
+* ABC SDK embedded and configured for secure forms
+* LPABCSDK 1.1.0 downloaded and embedded into their app/extension
+
+**Limitations:**
+
+* If image URL is not provided within the structured JSON schema, the layout view will be an empty frame.
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
+
+**Screenshots**
+
+**Image1: Embedded form within conversation thread**
+
+![](/img/rn-week-of-july-1-3.png)
+
+![](/img/rn-week-of-july-1-2.png)

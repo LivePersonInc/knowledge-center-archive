@@ -79,10 +79,27 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 
-On the Facebook connector page, under **Add a Facebook external user**, simply select the Facebook External User profile you have just created and click **Done**.![](/img/facebook-messenger-3.png)
+To create a new Agent Manager user, specifically for this purpose:
+
+1. On the Users page on LiveEngage, click **Add use**r.
+2. Fill in the user details, ensuring that the following parameters are included:
+   * Login name: connector
+   * Email: [connector@lp.com](mailto:connector@lp.com)
+   * Nickname: FB External User (or naming convention of your choice)
+   * Name: FB External User (or naming convention of your choice) **Note:** Text entered in this field will display as the name in the conversation thread.
+3. Password: A12345678
+4. Assign to profile: Agent Manager
+5. Click **Save**.
+
+On the Facebook connector page, under **Add a Facebook external user**, simply select the Facebook External User profile you have just created and click **Done**.
+
+{: .important}
+**Note:** Please make sure **NOT** to select an actual agent user taking conversations here. Make sure to select the agent manager user (Facebook external user) you just created dedicated just to this purpose.
+
+![](/img/facebook-messenger-3.png)
 
 {: .notice}
-**Note:** To route visitors from your campaign to a speciifc skill, please contact your LivePerson representative.
+**Note:** To route visitors from your campaign to a specific skill, please contact your LivePerson representative.
 
 ## Facebook Handover Protocol
 
@@ -93,5 +110,5 @@ Facebook Handover Protocol enables two or more apps to participate in a conversa
 * Only one app may control the conversation at a time.
 * All apps that do not have control of the conversation will continue to listen to the conversation by subscribing to the standby webhook event.
 
-{: .notice} 
+{: .notice}
 **Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.

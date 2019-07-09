@@ -1378,6 +1378,7 @@ div#cookie-law {
 
   .subcategoryitem a {
     font-size: 12px;
+    line-height: normal;
   }
 
   #feedback {
