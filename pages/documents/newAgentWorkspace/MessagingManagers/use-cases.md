@@ -12,7 +12,7 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-The new agent workspace was designed to increase managers’ impact on their agents and overall shift performance. It provides a centralized location within LiveEngage to give you the visibility and actionable insights needed to achieve your KPIs. 
+The new manager workspace was designed to increase managers’ impact on their agents and overall shift performance. It provides a centralized location within LiveEngage to give you the visibility and actionable insights needed to achieve your KPIs. 
 
 The manager workspace gives you the ability to assess the shift status at a higher level and identify queue health issues at a glance. Additional details per agent and per conversation allow for further analysis and tracking.
 
