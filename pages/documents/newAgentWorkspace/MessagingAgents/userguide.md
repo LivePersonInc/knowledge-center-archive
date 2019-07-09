@@ -104,12 +104,11 @@ Select an action by pressing the applicable letter from the table below.
 | ------------- |-------------|
 | LOGOUT of the agent workspace  | L |
 | ACCEPT a new incoming conversation  | A  |
-| LIST VIEW: open the my connection list | V |
 | STATUS: toggle your status between Online, Back Soon and Away  | S |
-| HIDE conversation from your current view  | H |
 | Return conversation to QUEUE  | Q   |
 | TRANSFER conversation to another skill | T |
 | CLOSE conversation  | X |
+| Respond to next conversation (NEW)  | N |
 
 {: .notice}
 **Note:** The END ENGAGEMENT and TRANSFER ENGAGEMENT hotkeys are only available when you are in a conversation with a visitor.
