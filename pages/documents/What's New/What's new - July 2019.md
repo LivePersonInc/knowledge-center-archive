@@ -3,7 +3,7 @@ pagename: July 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include the LiveEngage App and Sinch Connector
+subtitle: Top features include the LiveEngage App and Sinch Connector for SMS
 level3: ''
 permalink: whats-new-july-2019
 isTutorial: false
@@ -44,7 +44,9 @@ The two new buttons will be added to the engagement gallery:
 * Small round bubble only (no text)
 * Rectangle with bubble and editable text (today the templates include only “Live Chat” text which is not editable)
 
-The new templates will be available for both chat and web messaging. The new templates can be customized via the studio
+The new templates will be available for both chat and web messaging. The new templates can be customized via the studio.
+
+{: .sidebyside}
 
 ![](/img/EngTemp1.png)    ![](/img/EngTemp2.png)
 
