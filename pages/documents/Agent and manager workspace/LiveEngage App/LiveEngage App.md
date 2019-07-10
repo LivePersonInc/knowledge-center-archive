@@ -354,3 +354,26 @@ When new messages are received, a badge counting the number of new messages appe
   
   
 Logout (iPad and iPhone) 
+
+### Return conversation to queue when logging out
+
+When a user is trying to log out of the app, if he has open conversations assigned to him, an alert message will be prompted.
+
+User can choose between three options:
+
+1. Automatically return all his assigned open conversations back to queue and logout
+2. Logging out without returning the conversation back to queue
+3. Cancel - the user will not be logged out and return to previous screen
+
+![](/img/Agent logout.png)
+
+## Manager Flow
+
+### The Agent Manager Capabilities
+
+### {: .important}  
+All of the functionality for agent users apply to agent manager as well
+
+In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
+
+Below describes the additional set of features available only for users with manager role:
