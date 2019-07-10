@@ -325,13 +325,12 @@ _Customer ID:_ showing the name (or phone number) of the consumer who sent the n
 
 As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the LiveEngage icon. **The app badge does not sum the number of new conversation waiting**. 
 
+{: .notice}  
+Enabling the push notifications is done by your LivePerson account team.
+
 When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
 
-Known limitation: the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
-
-{: .notice}  
-  
-Enabling the push notifications is done by your LivePerson account team.
+**Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
 
 ![](/img/Consumer push notification-1.png)
 
