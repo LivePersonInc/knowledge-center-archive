@@ -1,100 +1,117 @@
 ---
-pagename: New experiences for all LiveEngage users - coming September 2019
+pagename: New Experiences
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Coming September 2019!
+subtitle: for all LiveEngage users - coming September 2019
 level3: ''
 permalink: new-experiences.html
 layout: newAgentWorkspaceHomepage
 ---
 
-
-![](img/NAW_Paper.jpg){:class="newagent"}
-
-## Tailored to maximize efficiency for large-scale messaging
-
-As part of the new experiences, both agents and agent managers will receive tools that will help boost their performance in managing messaging conversations.  
-
-## New sleek and modern UI
-
-The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.
+<div id="homepageRow">
+<div class="homepageBox">
+  <span class="homepageBoxTitle">Tailored to maximize efficiency for large-scale messaging</span>
+  <span class="homepageBoxText">As part of the new experiences, both agents and agent managers will receive tools that will help boost their performance in managing messaging conversations.</span>
+</div>
+<div class="homepageBox">
+  <span class="homepageBoxTitle">New sleek and modern UI</span>
+  <span class="homepageBoxText">The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.</span>
+</div>
+</div>
 
 ## Quick summary: new experiences by role
 
-### For messaging agents: enhanced workspace
-
-Agents serving consumers on asynchronous messaging are receiving new tools to help them better manage conversations and be more effective throughout their day.
-
+<div class="contentRow">
+<div class="contentTitle"><img class="titleimage" src="img/enhanced-workspace.svg" /><h3>For messaging agents: enhanced workspace</h3></div>
+<span class="contentRowText">Agents serving consumers on asynchronous messaging are receiving new tools to help them better manage conversations and be more effective throughout their day.
+<br>
+<br>
 Several exciting new features including automated decision making and a new conversation status will make a huge impact on their time to answer, time to reply and conversations per hour metrics.
+<br>
+<br>
+<b>Available</b>: September 16th (brands are encouraged to rollout by November)
+<br>
+<br>
+<b>Default</b>: OFF - enable manually in permissions (LivePerson CSMs will support brands with their rollout)
+<br>
+<br>
+<h4>What you need to do:</h4>
+<ul>
+  <li>Work with your CSM to define a date for rollout</li>
+  <li>Review the training materials provided</li>
+  <li>Schedule a training with your agents to prepare them</li>
+  <li>Determine which agents will move to the enhanced workspace</li>
+  <li>Update the relevant permissions to turn on the enhanced workspace</li>
+</ul>
+<h4>Seamless rollout:</h4>
+<ul>
+  <li>No new or additional costs</li>
+  <li>The enhanced workspace includes all functionality available in the agent workspace</li>
+  <li>No migration, integrations, development or setup required</li>
+  <li>All existing configurations apply</li>
+  <li>Backwards compatible for all custom widgets</li>
+  <li>Permission-based, enables brands to control which agents will be exposed and when</li>
+</ul>
+</span>
+</div>
 
-**Available**: September 16th (brands are encouraged to rollout by November)
-
-**Default**: OFF - enable manually in permissions (LivePerson CSMs will support brands with their rollout)
-
-**What you need to do**:
-
-* Work with your CSM to define a date for rollout
-
-* Review the training materials provided
-
-* Schedule a training with your agents to prepare them
-
-* Determine which agents will move to the enhanced workspace
-
-* Update the relevant permissions to turn on the enhanced workspace
-
-**Seamless rollout**:
-
-* No new or additional costs
-
-* The enhanced workspace includes all functionality available in the agent workspace
-
-* No migration, integrations, development or setup required
-
-* All existing configurations apply
-
-* Backwards compatible for all custom widgets
-
-* Permission-based, enables brands to control which agents will be exposed and when
-
-### For messaging managers: brand new workspace!
-
-The new manager workspace is tailored to the needs of messaging managers and will increase managers’ impact on their agents and overall shift performance.
-
+<div class="contentRow secondRow">
+<div class="contentTitle"><img class="titleimage" src="img/brand-new.svg" /><h3>For messaging managers: brand new workspace!</h3></div>
+<span class="contentRowText">The new manager workspace is tailored to the needs of messaging managers and will increase managers’ impact on their agents and overall shift performance.
+<br>
+<br>
 The new workspace provides a centralized place within LiveEngage that gives managers visibility and actionable insights to achieve their KPIs.
+<br>
+<br>
+<b>Available</b>: September 16th
+<br>
+<br>
+<b>Default</b>: ON for all users with agent manager role
+<br>
+<br>
+<b>Rollout</b>:
 
-**Available**: September 16th
+<ul>
+<li>No new or additional costs</li>
 
-**Default**: ON for all users with agent manager role
+<li>All users with agent manager role will automatically see the new workspace in September</li>
 
-**Rollout**:
+<li>Best practice: enable the enhanced agent workspace (in permissions) for all managers who will use the new manager workspace</li>
 
-* No new or additional costs
+<li>Permission-based, enabling brands to control turning the workshop off to select users</li>
+</ul>
+</span>
+</div>
 
-* All users with agent manager role will automatically see the new workspace in September
-
-* Best practice: enable the enhanced agent workspace (in permissions) for all managers who will use the new manager workspace
-
-* Permission-based, enabling brands to control turning the workshop off to select users
-
-### For admins & campaign managers: new navigation
+<div class="contentRow">
+<div class="contentTitle"><img class="titleimage" src="img/new-nav.svg" /><h3>For admins & campaign managers: new navigation</h3></div>
+<span class="contentRowText">
 
 In the near future, all admin and campaign manager tools will also adopt the enhanced UI. For the initial September rollout, the only change will be to the navigation bar.
-
+<br>
+<br>
 All admins and campaign managers will enjoy the existing tools and functionality with no changes.
-
+<br>
+<br>
 New design for the navigation bar will introduce new icons.
-
+<br>
+<br>
 New icon and new location to access ‘night vision’ and ‘user menu’
-
-**Available**: September 16th
-
+<br>
+<br>
+<b>Available</b>: September 16th
+<br>
+<br>
 There will not be an option to revert the new navigation. It will appear by default to all users.
+</span>
+</div>
 
-### For all live chat users
+<div class="contentRow secondRow">
+<div class="contentTitle"><img class="titleimage" src="img/all-live-chat.svg" /><h3>For all live chat users</h3></div>
+<span class="contentRowText">
 
-For brands that have not yet upgraded to asynchronous messaging, the effect of the new experiences will be nominal.  
+For brands that have not yet upgraded to asynchronous messaging, the effect of the new experiences will be nominal.
 
 All live chat users will continue to use the same tools and workspaces.
 
@@ -104,8 +121,10 @@ New design for the navigation bar will introduce new icons.
 
 New icon and new location to access the ‘‘user menu’ where agents change their online and away statuses.
 
-* For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts.
+For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts.
 
-**Available**: September 16th
+<b>Available</b>: September 16th
 
 There will not be an option to revert the new navigation.  It will appear by default to all users.
+</span>
+</div>
