@@ -13,7 +13,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #2D3162;
+  background: url(./new-experiences.jpg) no-repeat;
+  background-size: cover;
   margin-top: 55px;
 }
 
@@ -38,6 +39,8 @@
 #homepageRow {
   display: flex;
   margin-left: 50px;
+  margin-bottom: 60px;
+  margin-top: 45px;
 }
 
 .homepageBox {
@@ -118,5 +121,5 @@ h3 {
 }
 
 .tighter {
-  width: 50%;
+  width: 70%;
 }
