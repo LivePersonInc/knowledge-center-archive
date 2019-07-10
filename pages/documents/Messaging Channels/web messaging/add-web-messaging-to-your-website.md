@@ -52,7 +52,7 @@ When deciding on the right idle time, the brand should consider the SLA of the a
 Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side. Your LivePerson Account Team will help you with setting the right idle timeframe from your needs. Learn more about setting timeframes in [Smart Capacity skill settings](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
 
 {: .notice}  
-**The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team**. 
+**The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team**.
 
 ## 4. Sales & conversion tracking
 
@@ -180,11 +180,7 @@ To optimize your web experience, tag of all your web pages:
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
 2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
 
-   <meta name="viewport" content="width=device-width,
-
-   initial-scale=1.0,
-
-   minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+`<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="notice">
 <b>Note:</b>
