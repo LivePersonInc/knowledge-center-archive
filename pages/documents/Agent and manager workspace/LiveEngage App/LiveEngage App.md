@@ -19,11 +19,9 @@ The App expands opportunities for messaging scenarios. For example, in store ret
 
 ## ![](/img/LEApp2.png)![](/img/ipad3.png)
 
-## How to login
+## How to login (Ipad & Iphone)
 
-### Ipad & Iphone
-
-#### Login fields
+### Login fields
 
 * _Account no_: the account ID
 * _Username_: usually the agent’s email
@@ -33,12 +31,12 @@ The App expands opportunities for messaging scenarios. For example, in store ret
 
 Changing / retrieving lost password will be carried out by an admin on LiveEngage web.
 
-#### “Remember me” toggle
+### “Remember me” toggle
 
 * _ON_ (default): Upon logout, it remembers the account number and email address.
 * _OFF_: leaves fields empty upon logout.
 
-####  Log in button
+###  Log in button
 
 * The Log in button is enabled once all fields are completed.
 * Tapping the button performs a log in to the app.
@@ -46,25 +44,23 @@ Changing / retrieving lost password will be carried out by an admin on LiveEngag
 {: .notice}  
 SSO login will be included in a future phase of the app.
 
-#### App version
+### App version
 
 Long tap on the app version allow user to send logs
 
 ![](/img/loginipad.png)
 
-#### Log in screen errors 
+### Log in screen errors 
 
 In case of credentials error / server error, an alert is presented.
 
 ![](/img/fail login pop-up.png)
 
-#### No network
+### No network
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
 
-## Drawer menu 
-
-### iPad & iphone
+## Drawer menu (iPad & iphone)
 
 After user login, the app opens and immediately display to the drawer menu.
 
@@ -110,12 +106,11 @@ Long tap on the app version allow user to send logs
 {: .important}  
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from LiveEngage’s database.
 
-## ![](/img/drawer menu ipad.png)  
-Agent flow
+![](/img/drawer menu ipad.png)  
 
-### iPad
+## Agent flow (iPad & iphone)
 
-#### Empty state
+### Empty state
 
 The first time the agent logs in to the app it appears to be in an empty state. This is because the the agent has no assigned conversations and no new conversation ringing. All agent’s conversations were ended (either manually or automatically).
 
@@ -123,22 +118,22 @@ Agents can open the drawer menu by tapping their picture on the top left corner.
 
 ![](/img/Agent empty state.png)
 
-#### New ring alert
+### New ring alert
 
 New conversation ringing (ACD manual accept mode only)
 
-#### Accepting the conversation
+### Accepting the conversation
 
 Tapping the "accept" button assigns the conversation to the agent and opens the conversation. Tapping accept opens only 1 conversation at a time, even if there are multiple conversations ringing for the agent.
 
-#### Ignoring the conversation
+### Ignoring the conversation
 
 An agent can ignore ringing conversations. After a preset time (the default is 1m), the conversation will move to the next available agent (as decided by LivePerson’s agent availability algorithm).
 
 {: .notice}  
 The app filters out conversations with unassigned skills. Unassigned skill conversations will not be received in the agent app.
 
-#### Conversation top bar
+### Conversation top bar
 
 **_Consumer avatar_:** From sources such as SMS, the consumer avatar doesn’t appear, therefore a generic avatar is used for aesthetic reasons. If the source supports a consumer avatar, such as Facebook, the consumer avatar is shown.
 
@@ -146,7 +141,7 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 
 **_Action menu_:** tapping the action menu icon reveals the actions that can be carried out in the context of the conversation. See more info on “Main screen - action” slide.
 
-#### Conversation list entry
+### Conversation list entry
 
 **_Consumer avatar_:** From sources such as SMS, the consumer avatar doesn’t appear, therefore a generic avatar is used for aesthetic reasons. If the source supports a consumer avatar, such as Facebook, the consumer avatar is shown.
 
@@ -156,43 +151,41 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 
 The list entry also display conversation response time indication (see connections list slide)
 
-#### Conversation message
+### Conversation message
 
 Every conversation starts with a new message, originating from the consumer.
 
 ![](/img/Conversation accepted App.png)
 
-## Messaging the consumer
+## Messaging the consumer (iPad & Iphone)
 
-### iPad & Iphone
-
-#### Text field
+### Text field
 
 When the agent writes several lines or uses the ‘return’ key, the text field expands according to the text size.
 
-#### Send icon
+### Send icon
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-#### ![](/img/Agent keyboard open.png)  
+![](/img/Agent keyboard open.png)  
 Conversation message: consumer side
 
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
 
 Below the consumer bubble there is time stamp
 
-#### Conversation message: agent side
+### Conversation message: agent side
 
 Agent side conversation messages appear with a white background.   
 Below the agent bubble there is indication for the agent name and a time stamp
 
 In addition there is a message status icon “v” indication: sent, delivered and read. (similar to the whatsApp indications)
 
-#### Auto messages/system messages
+### Auto messages/system messages
 
 Automatic messages or system messages display in a grey color without a bubble centered in the screen
 
-#### Conversation history
+### Conversation history
 
 When agent accept new conversation he sees the new message arrive. In addition, if there are previous conversation history the last appear as well
 
