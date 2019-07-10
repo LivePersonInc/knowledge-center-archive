@@ -59,7 +59,7 @@ In case of credentials error / server error, an alert is presented.
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
 
-## Drawer menu (iPad & iphone)
+## Drawer menu 
 
 After user login, the app opens and immediately display to the drawer menu.
 
@@ -77,12 +77,12 @@ The agent nickname is the text entered in the name field on LiveEngage Web → U
 
 This is used for login identification.
 
-### Agent state (online)
+### Agent state: online
 
 While the agent is in the Online state, new conversations can ring. There is no consumer-facing indication that the agent is in the Online state.  
 The agent default status is set according to LiveEngage settings
 
-### Agent state: Away
+### Agent state: away
 
 While the agent is in the "away" state, agents will not be eligible to receive new conversations. Accepted conversations will still show new messages (including Push notifications). There is no consumer-facing indication that the agent is in the Away state.
 
@@ -107,7 +107,7 @@ Upon signing out, all local database information for that agent is deleted. When
 
 ![](/img/drawer menu ipad.png)
 
-## Agent flow (iPad & iphone)
+## Agent flow 
 
 ### Empty state
 
@@ -136,7 +136,7 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 
 **_Consumer avatar_:** From sources such as SMS, the consumer avatar doesn’t appear, therefore a generic avatar is used for aesthetic reasons. If the source supports a consumer avatar, such as Facebook, the consumer avatar is shown.
 
-\**_Predefined content icon: _**tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
+**Predefined content icon:** tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
 
 **_Action menu_:** tapping the action menu icon reveals the actions that can be carried out in the context of the conversation. See more info on “Main screen - action” slide.
 
@@ -156,7 +156,7 @@ Every conversation starts with a new message, originating from the consumer.
 
 ![](/img/Conversation accepted App.png)
 
-## Messaging the consumer (iPad & Iphone)
+## Messaging the consumer 
 
 ### Text field
 
@@ -166,7 +166,7 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](/img/Agent keyboard open.png)  
+### ![](/img/Agent keyboard open.png)  
 Conversation message: consumer side
 
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
@@ -190,7 +190,7 @@ When agent accept new conversation he sees the new message arrive. In addition, 
 
 The agent can scroll up to reveal the history additional closed messaging conversations with the consumer.
 
-## Agent action menu (iPad & iphone)
+## Agent action menu 
 
 ### Send back to queue
 
@@ -254,11 +254,11 @@ When sending URL to a consumer, it is published to the consumer with a preview o
 
 The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easier identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
-**The list is sorted by ascending response time (SLA) afterwards conversation pending consumer are display according to the last modified conversation (at the top)**
+The list is sorted in according to the response time (SLA) if there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent. (top to bottom)
 
 **The list dynamic behavior and transition**
 
-When the conversation status changes, e.g. when agent response to conversation is overdue, the position of the conversation changes accordingly. **The reposition is followed with a proper transition????**
+When the conversation status changes, e.g. when an agent responds to an overdue conversation, the position of the conversation in the queue changes accordingly. 
 
 {: .notice}  
 Agents can only view open conversations. In future phases it may include closed conversations, based on the relevant use case.
@@ -323,11 +323,14 @@ _Customer ID:_ showing the name (or phone number) of the consumer who sent the n
 
 ### App icon badge
 
-As for new messages, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the Messaging app icon. **The app badge does not sum the number of new conversation waiting**. When at least one new message is received when the app is in the background, an unread message badge appears on the Messaging app icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
+As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the LiveEngage icon. **The app badge does not sum the number of new conversation waiting**. 
 
-**Known limitation: the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)**
+When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
+
+Known limitation: the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
 
 {: .notice}  
+  
 Enabling the push notifications is done by your LivePerson account team.
 
 ![](/img/Consumer push notification-1.png)
