@@ -340,7 +340,7 @@ When at least one new message is received when the app is in the background, an 
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-_Customer ID:_ showing the name (or phone number) of the consumer sending the message.
+**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -355,7 +355,7 @@ When new messages are received, a badge counting the number of new messages appe
 ## ![](/img/Agent inapp notifications.png)  
   
   
-Logout (iPad and iPhone) 
+Logout 
 
 ### Return conversation to queue when logging out
 
@@ -373,7 +373,7 @@ User can choose between three options:
 
 ### The Agent Manager Capabilities
 
-### {: .important}  
+{: .important}  
 All of the functionality for agent users apply to agent manager as well
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
@@ -438,20 +438,15 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 ## ![](/img/Filter panel-1.png)  
 The status filter
 
-From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
-
-This is a single selection filter.
-
-**When tapping one of the status items, the list on left filter on the fly**
-
-Tap again to deselect the item
-
-To filter by additional parameters, user can tap the back button to return to the main filter screen
-
-To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
+* From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
+* This is a single selection filter.
+* When tapping one of the status items will filter the connections list accordingly. 
+* Tap again to remove the filter.
+* To filter by additional parameters, users can tap the back button to return to the main filter screen.
+* To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
 ## ![](/img/Status filter.png)  
-Mobile experts (Agent) filter
+Mobile experts (Agents filter)
 
 * From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.   
   Users can select more than one agent.
@@ -464,9 +459,11 @@ After selection agent, the user can view all the selected agents under the “se
 
 ### Search agents
 
-* Users can use the search bar easily find a specific agent under the all and selected tab .
-* Select / Clear all   
-  User can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all
+* Users can use the search bar easily find a specific agent under the all and selected tab 
+
+### Select / Clear all 
+
+User can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all
 
 {: .notice}  
 The list of agents available are according the agent in the manager agent group
