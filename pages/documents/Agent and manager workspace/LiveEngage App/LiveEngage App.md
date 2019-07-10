@@ -377,3 +377,60 @@ All of the functionality for agent users apply to agent manager as well
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
 
 Below describes the additional set of features available only for users with manager role:
+
+## The manager connections view - My tab
+
+### My/All tabs
+
+When a user with a manager role logs in to the app, the connections list display two tabs: My/All.
+
+Under the my tab, managers can view open conversation assigned to him or conversations that he is joined to
+
+### Assigned agent name
+
+In each conversation entry, there is an indication of the assigned agent
+
+### Join conversation icon
+
+**There is a “join” icon for conversation the manager is joined to**
+
+### The ‘All’ tab connections list
+
+In the ‘All’ tab, managers can view:
+
+* Open conversations assigned to the agent he is managing (in his agent group)
+* Open conversations in queue - manager can view conversations in queue (not assigned to any agent). The manager can only view in queue conversations assigned to a skill which at least one of the agents are assigned to
+* Close conversation - manager can view closed conversation that were assigned to agents he manage.
+
+The list displays closed conversations from the past 14 days (from conversation start date)
+
+The list order is similar to the logic explained for the agents list order (see above). Closed conversations are displayed at the bottom and sorted according to the closing date (recently closed at the top).
+
+{: .notice}  
+The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
+
+![](/img/Manager all tab-1.png)
+
+### In queue conversation indication 
+
+### For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
+
+### Closed conversation indication
+
+There is an icon indication for conversation which are closed
+
+### "All’ tab filters
+
+In the ‘All’ tab there is ability to filter the list according to status, agents and skill
+
+### The filter main panel
+
+When tapping the filter icon, a filter panel slides in from the right side.
+
+From this panel, use can select multiple ways to filter the “all” connections list
+
+Tapping each of the filters: status, mobile experts, skills; drill down to the relevant filter selection.
+
+To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
+
+![](/img/Filter panel-1.png)
