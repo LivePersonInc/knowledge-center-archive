@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: Agent-manager-workspace-liveengage-app-userguide.html
+permalink: Agent-manager-workspace-liveengage-app-liveengage-app-user-guide.html
 isTutorial: false
 isNew: false
 
@@ -328,7 +328,7 @@ As for new conversation, when there is a new conversation while the app is in th
 {: .notice}  
 Enabling the push notifications is done by your LivePerson account team.
 
-When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
+When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. The number sums the unread message in the app. When entering the app the counter is reset.
 
 **Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
 
