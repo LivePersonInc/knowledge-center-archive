@@ -9,4 +9,4 @@ permalink: messaging-agents-training-deck.html
 layout: newAgentWorkspace
 ---
 
-Coming soon.
+Click here to <a href="/resources/enhanced-agent-workspace.pptx" download>download</a> the training deck for existing agents. In the future, there will also be a training deck for new agents learning to use the enhanced workspace.
