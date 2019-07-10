@@ -269,3 +269,88 @@ Conversations pending an agent response have response time indications on right 
 
 {: . notice}**  
 **The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
+
+## Bulk back to queue
+
+### Multi-selection mode
+
+Users can return multiple conversations back to queue at once. By tapping and holding on the conversation area or by tapping the consumer avatar the list switches to multi-selection mode. Users can continue tapping each conversation to select/deselect it.
+
+To exit and abort multi-selection mode user can tap the ‘cancel’ button at the top bar
+
+### Bottom action bar
+
+User can select “Mark all” to select all conversation. Once all conversation are marked the button changes to “Clear all”
+
+To return selected conversation back to queue, user can tap to “Return to queue” button.
+
+### Returning back to queue process
+
+When returning multiple conversation back to queue, a progress bar pop-up will appear.
+
+{: . notice}  
+Only open and assigned conversation will be returned to the queue.
+
+If some of the open conversations were not successfully returned to queue, a proper message will be prompted and these conversation will remain selected/
+
+If all conversation were successfully return to queue they will disappear from the agent list.
+
+This is relevant for agent managers who can view closed and in queue conversations (see in [manager flow section]() )
+
+## ![](/img/bulk back to queue.png)  
+Searching the list
+
+### Search bar
+
+Using the search bar, the agent can search for a consumer’s name (or phone number in the SMS source) to reach a conversation quickly. Clearing the search bar (using Cancel or ‘x’) shows the full conversation list.
+
+### Search results list
+
+The conversation list is filtered in real-time with relevant conversation entries that fit the searched name or number. As the conversation list shows only open conversations, the search is valid for these.
+
+## Notifications
+
+### Push notifications
+
+When the agent moves the app to the background, new conversation are received as push notifications. Each push include a generic message that a new conversation is waiting to be accepted. 
+
+Each push notification includes:  
+_Customer ID:_ showing the name (or phone number) of the consumer who sent the new message.
+
+**_Message excerpt:_** a short excerpt of the new message.
+
+**_Tapping the notification_**: opens the app and focuses on the relevant conversation’s last message.
+
+### App icon badge
+
+As for new messages, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the Messaging app icon. **The app badge does not sum the number of new conversation waiting**. When at least one new message is received when the app is in the background, an unread message badge appears on the Messaging app icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
+
+**Known limitation: the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)**
+
+{: .notice}  
+Enabling the push notifications is done by your LivePerson account team.
+
+![](/img/Consumer push notification-1.png)
+
+## In app notifications
+
+### In-app notification for new messages
+
+While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
+
+_Customer ID:_ showing the name (or phone number) of the consumer sending the message.
+
+**_Message excerpt:_** a short excerpt of the new message.
+
+**_Tapping the notification_:** opens the conversation, focusing on the last message.
+
+In-app notifications replace each other, so in case of simultaneous notifications, the last sent message is shown.
+
+### New message badge
+
+When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
+
+## ![](/img/Agent inapp notifications.png)  
+  
+  
+Logout (iPad and iPhone) 
