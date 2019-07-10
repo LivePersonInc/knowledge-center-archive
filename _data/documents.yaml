@@ -157,7 +157,7 @@
         - pagename: Predefined content best practices
     - subcategoryname: LiveEngage app
       pages:
-        - pagename: LiveEngage App user guide
+        - pagename: LiveEngage app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
