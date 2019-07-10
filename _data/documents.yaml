@@ -156,6 +156,7 @@
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
     - subcategoryname: LiveEngage app
+      pages:
         - pagename: LiveEngage App user guide
 - categoryname: "Data & reporting"
   image: data-reporting
