@@ -433,4 +433,38 @@ Tapping each of the filters: status, mobile experts, skills; drill down to the r
 
 To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
 
-![](/img/Filter panel-1.png)
+## ![](/img/Filter panel-1.png)  
+The status filter
+
+From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
+
+This is a single selection filter.
+
+**When tapping one of the status items, the list on left filter on the fly**
+
+Tap again to deselect the item
+
+To filter by additional parameters, user can tap the back button to return to the main filter screen
+
+To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
+
+## ![](/img/Status filter.png)  
+Mobile experts (Agent) filter
+
+* From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.   
+  Users can select more than one agent.
+* When tapping one of the agent name the list on the left filtered on the fly
+* Tap again to deselect the item
+
+### All/Selected tabs
+
+After selection agent, the user can view all the selected agents under the “selected tab” or see all available agents (included selected) under the “All” tab
+
+### Search agents
+
+* Users can use the search bar easily find a specific agent under the all and selected tab .
+* Select / Clear all   
+  User can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all
+
+{: .notice}  
+The list of agents available are according the agent in the manager agent group
