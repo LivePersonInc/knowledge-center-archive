@@ -59,7 +59,7 @@ In case of credentials error / server error, an alert is presented.
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
 
-## Drawer menu 
+## Drawer menu
 
 After user login, the app opens and immediately display to the drawer menu.
 
@@ -77,12 +77,12 @@ The agent nickname is the text entered in the name field on LiveEngage Web → U
 
 This is used for login identification.
 
-### Agent state (online)
+### Agent state: online
 
 While the agent is in the Online state, new conversations can ring. There is no consumer-facing indication that the agent is in the Online state.  
 The agent default status is set according to LiveEngage settings
 
-### Agent state: Away
+### Agent state: away
 
 While the agent is in the "away" state, agents will not be eligible to receive new conversations. Accepted conversations will still show new messages (including Push notifications). There is no consumer-facing indication that the agent is in the Away state.
 
@@ -107,7 +107,7 @@ Upon signing out, all local database information for that agent is deleted. When
 
 ![](/img/drawer menu ipad.png)
 
-## Agent flow 
+## Agent flow
 
 ### Empty state
 
@@ -136,7 +136,7 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 
 **_Consumer avatar_:** From sources such as SMS, the consumer avatar doesn’t appear, therefore a generic avatar is used for aesthetic reasons. If the source supports a consumer avatar, such as Facebook, the consumer avatar is shown.
 
-\**_Predefined content icon: _**tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
+**Predefined content icon:** tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
 
 **_Action menu_:** tapping the action menu icon reveals the actions that can be carried out in the context of the conversation. See more info on “Main screen - action” slide.
 
@@ -156,7 +156,7 @@ Every conversation starts with a new message, originating from the consumer.
 
 ![](/img/Conversation accepted App.png)
 
-## Messaging the consumer 
+## Messaging the consumer
 
 ### Text field
 
@@ -166,7 +166,8 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](/img/Agent keyboard open.png)  
+### ![](/img/Agent keyboard open.png)
+
 Conversation message: consumer side
 
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
@@ -190,7 +191,7 @@ When agent accept new conversation he sees the new message arrive. In addition, 
 
 The agent can scroll up to reveal the history additional closed messaging conversations with the consumer.
 
-## Agent action menu (iPad & iphone)
+## Agent action menu
 
 ### Send back to queue
 
@@ -254,11 +255,11 @@ When sending URL to a consumer, it is published to the consumer with a preview o
 
 The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easier identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
-**The list is sorted by ascending response time (SLA) afterwards conversation pending consumer are display according to the last modified conversation (at the top)**
+The list is sorted in according to the response time (SLA) if there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent. (top to bottom)
 
 **The list dynamic behavior and transition**
 
-When the conversation status changes, e.g. when agent response to conversation is overdue, the position of the conversation changes accordingly. **The reposition is followed with a proper transition????**
+When the conversation status changes, e.g. when an agent responds to an overdue conversation, the position of the conversation in the queue changes accordingly.
 
 {: .notice}  
 Agents can only view open conversations. In future phases it may include closed conversations, based on the relevant use case.
@@ -324,12 +325,14 @@ _Customer ID:_ showing the name (or phone number) of the consumer who sent the n
 
 ### App icon badge
 
-As for new messages, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the Messaging app icon. **The app badge does not sum the number of new conversation waiting**. When at least one new message is received when the app is in the background, an unread message badge appears on the Messaging app icon. T**he number sums the unread message in the app.** When entering the app the counter is reset.
-
-**Known limitation: the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)**
+As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the LiveEngage icon. **The app badge does not sum the number of new conversation waiting**.
 
 {: .notice}  
 Enabling the push notifications is done by your LivePerson account team.
+
+When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. The number sums the unread message in the app. When entering the app the counter is reset.
+
+**Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
 
 ![](/img/Consumer push notification-1.png)
 
@@ -339,7 +342,7 @@ Enabling the push notifications is done by your LivePerson account team.
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-_Customer ID:_ showing the name (or phone number) of the consumer sending the message.
+\**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -351,9 +354,15 @@ In-app notifications replace each other, so in case of simultaneous notification
 
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
-## ![](/img/Agent inapp notifications.png)
+## ![](/img/Agent inapp notifications.png)  
+
 
 Logout (iPad and iPhone)
+=======
+## ![](/img/Agent inapp notifications.png)
+
+Logout
+>>>>>>> 3a501b4ba98acd520405724ab99475ff9492f075
 
 ### Return conversation to queue when logging out
 
@@ -371,8 +380,7 @@ User can choose between three options:
 
 ### The Agent Manager Capabilities
 
-### {: .important}
-
+{: .important}  
 All of the functionality for agent users apply to agent manager as well
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
@@ -442,13 +450,14 @@ From the status filter, users can filter conversation by their statuses: Open, O
 
 This is a single selection filter.
 
-**When tapping one of the status items, the list on left filter on the fly**
+The status filter
 
-Tap again to deselect the item
-
-To filter by additional parameters, user can tap the back button to return to the main filter screen
-
-To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
+* From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
+* This is a single selection filter.
+* When tapping one of the status items will filter the connections list accordingly.
+* Tap again to remove the filter.
+* To filter by additional parameters, users can tap the back button to return to the main filter screen.
+* To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
 ## ![](/img/Status filter.png)
 
@@ -464,6 +473,88 @@ Mobile experts (Agent) filter
 After selection agent, the user can view all the selected agents under the “selected tab” or see all available agents (included selected) under the “All” tab
 
 ### Search agents
+
+
+![](/img/agnet filter.png)
+
+## The skills filter
+
+* From the skill filter, users can filter conversations according to their assigned skills
+* This is a multiple selection filter and therefore users can select more than one skill.
+* When tapping one of the agent name the list on the left filtered on the fly
+* Tap again to deselect the item
+
+### Select/Clear all
+
+Users can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all.  
+{: .notice}  
+The list of skill available are according to the skill assigned to the agents that the manager managed
+
+## ![](/img/Skill filter.png)  
+Multi-selection filter
+
+From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.  
+
+A preview of the selected filters in each criteria are displayed in th right side of the list
+
+### Clear all   
+
+Users can easily clear all selected filters and return to the default view by tapping the “clear button on the filter panel header.
+
+![](/img/Multiselected filters.png)
+
+## Managers actions
+
+### Join/leave conversations
+
+### User with manager role, can join conversations which are assigned to one of his agents or in the  conversations queue**  
+
+**The join button is available from the action menu or in bottom bar**
+
+After joining a conversation users can send messages
+
+The join conversation button in the menu is changed to “Leave conversation”  when the conversation has been joined by the manager
+
+### Send back to queue   
+Managers can return conversation back to queue (one by one or in bulk ) without needing to join conversations
+
+{: .notice}  
+Through this process, the manager can automatically be joined to the conversation, return the conversation back to queue and leave the conversion at any time.
+
+### End conversation
+
+Managers can only end conversation assigned to him or to conversations that he joined
+
+As mentioned before, once a manager joins conversation it will also be available in the “My” tab.
+
+### Closed conversations
+
+Managers can view closed conversation from the “All” tab
+
+The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
+
+### ![](/img/Manager actions.png)  
+No conversation state
+
+This happens:
+
+* the first time the manager logs into the app.
+* The agent has no assigned conversations
+* All agent’s conversations were ended (either manually or automatically).
+
+In this state the “cactus” image will be display on right panel with the label “Conversations list is empty”under it.
+
+### No selection state
+
+**This happens:**
+
+* After login to the app and the agent has assigned conversations
+* The agent returned conversation back to queue
+* The agent closed conversation
+
+When an agent manager is focused on a conversation in one tab (e.g. all tab) and then goes to the next tab (e.g. my tab) and the conversation is not available under the tab list.
+
+In this state the “cactus” image will be display on right panel with the label “Please select a conversation” under it
 
 * Users can use the search bar easily find a specific agent under the all and selected tab .
 * Select / Clear all  
