@@ -49,11 +49,26 @@
   margin-right: 36px;
 }
 
+.homepageBoxTitle {
+  font-family: "Roboto";
+  font-size: 32px;
+  color: #38436b;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.homepageBoxText {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #1d1e1d;
+  line-height: 1.57;
+}
+
 h2 {
   font-family: "Roboto";
   font-size: 30px;
   color: #f6720d;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 
 .contentTitle {
@@ -86,6 +101,8 @@ h3 {
 
 .contentRowText {
   color: #fff;
+  display: block;
+  width: 70%;
 }
 
 .secondRow h3 {
@@ -94,4 +111,12 @@ h3 {
 
 .secondRow .contentRowText {
   color: #272727;
+}
+
+.imageleft {
+  margin-left: 50px;
+}
+
+.tighter {
+  width: 50%;
 }

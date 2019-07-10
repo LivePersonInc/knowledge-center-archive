@@ -16,9 +16,11 @@ layout: newAgentWorkspaceHomepage
 </div>
 <div class="homepageBox">
   <span class="homepageBoxTitle">New sleek and modern UI</span>
-  <span class="homepageBoxText">The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.</span>
+  <span class="homepageBoxText tighter">The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.</span>
 </div>
 </div>
+
+<img class="newagent imageleft" src="img/NAW_Paper.jpg" />
 
 ## Quick summary: new experiences by role
 
@@ -112,19 +114,26 @@ There will not be an option to revert the new navigation. It will appear by defa
 <span class="contentRowText">
 
 For brands that have not yet upgraded to asynchronous messaging, the effect of the new experiences will be nominal.
-
+<br>
+<br>
 All live chat users will continue to use the same tools and workspaces.
-
+<br>
+<br>
 The only change is the new navigation that will appear to all users.
-
+<br>
+<br>
 New design for the navigation bar will introduce new icons.
-
+<br>
+<br>
 New icon and new location to access the ‘‘user menu’ where agents change their online and away statuses.
-
+<br>
+<br>
 For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts.
-
+<br>
+<br>
 <b>Available</b>: September 16th
-
+<br>
+<br>
 There will not be an option to revert the new navigation.  It will appear by default to all users.
 </span>
 </div>
