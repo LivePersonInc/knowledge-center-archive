@@ -17,4 +17,6 @@ All admin and campaign manager tools will adopt the enhanced UI in the near futu
 {: .notice} 
 **Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
 
-[alt text](img/admin-camapaign-manager-1.png)
+![alt text](img/admin-camapaign-manager-1.png){:class="newagent"}
+
+![alt text](img/admin-camapaign-manager-2.png){:class="newagent"}
