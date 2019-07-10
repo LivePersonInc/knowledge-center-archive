@@ -59,7 +59,7 @@ In case of credentials error / server error, an alert is presented.
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
 
-## Drawer menu (iPad & iphone)
+## Drawer menu 
 
 After user login, the app opens and immediately display to the drawer menu.
 
@@ -107,7 +107,7 @@ Upon signing out, all local database information for that agent is deleted. When
 
 ![](/img/drawer menu ipad.png)
 
-## Agent flow (iPad & iphone)
+## Agent flow 
 
 ### Empty state
 
@@ -156,7 +156,7 @@ Every conversation starts with a new message, originating from the consumer.
 
 ![](/img/Conversation accepted App.png)
 
-## Messaging the consumer (iPad & Iphone)
+## Messaging the consumer 
 
 ### Text field
 
@@ -240,11 +240,11 @@ By default, quick replies messages do not show up the offered replies suggested 
 
 Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side
 
-### ![](/img/SC_QR_app.png)  
+### ![](/img/SC_QR_app.png)
+
 Link preview
 
 When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link
-
 
 ![](/img/link preview app.png)
 
@@ -268,7 +268,7 @@ Agents can only view open conversations. In future phases it may include closed 
 Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
 
 {: . notice}**  
-**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
+\**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
 
 ## Bulk back to queue
 
@@ -297,7 +297,8 @@ If all conversation were successfully return to queue they will disappear from t
 
 This is relevant for agent managers who can view closed and in queue conversations (see in [manager flow section]() )
 
-## ![](/img/bulk back to queue.png)  
+## ![](/img/bulk back to queue.png)
+
 Searching the list
 
 ### Search bar
@@ -350,8 +351,7 @@ In-app notifications replace each other, so in case of simultaneous notification
 
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
-## ![](/img/Agent inapp notifications.png)  
-
+## ![](/img/Agent inapp notifications.png)
 
 Logout (iPad and iPhone)
 
@@ -371,7 +371,8 @@ User can choose between three options:
 
 ### The Agent Manager Capabilities
 
-### {: .important}  
+### {: .important}
+
 All of the functionality for agent users apply to agent manager as well
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
@@ -433,7 +434,8 @@ Tapping each of the filters: status, mobile experts, skills; drill down to the r
 
 To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
 
-## ![](/img/Filter panel-1.png)  
+## ![](/img/Filter panel-1.png)
+
 The status filter
 
 From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
@@ -448,10 +450,11 @@ To filter by additional parameters, user can tap the back button to return to th
 
 To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
-## ![](/img/Status filter.png)  
+## ![](/img/Status filter.png)
+
 Mobile experts (Agent) filter
 
-* From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.   
+* From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.  
   Users can select more than one agent.
 * When tapping one of the agent name the list on the left filtered on the fly
 * Tap again to deselect the item
@@ -463,7 +466,7 @@ After selection agent, the user can view all the selected agents under the “se
 ### Search agents
 
 * Users can use the search bar easily find a specific agent under the all and selected tab .
-* Select / Clear all   
+* Select / Clear all  
   User can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all
 
 {: .notice}  
