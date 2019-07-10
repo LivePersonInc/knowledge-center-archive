@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: Agent-manager-workspace-liveengage-app-userguide.html
+permalink: agent-manager-workspace-liveengage-app-liveengage-app-user-guide.html
 isTutorial: false
 isNew: false
 
@@ -18,7 +18,7 @@ The App expands opportunities for messaging scenarios. For example, in store ret
 
 ## ![](/img/LEApp2.png)![](/img/ipad3.png)
 
-## How to login 
+## How to login
 
 ### Login fields
 
@@ -223,7 +223,7 @@ There is no option to collapse / expand categories and predefined content is onl
 
 ![](/img/Agent predefinied content-1.png)
 
-## Structured content 
+## Structured content
 
 Users using the app, can view structured content sent by bots or other agents using the LiveEngage web. The card buttons are disabled.
 
@@ -245,7 +245,7 @@ Link preview
 
 When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link
 
-  
+
 ![](/img/link preview app.png)
 
 ## The connections list
@@ -312,7 +312,7 @@ The conversation list is filtered in real-time with relevant conversation entrie
 
 ### Push notifications
 
-When the agent moves the app to the background, new conversation are received as push notifications. Each push include a generic message that a new conversation is waiting to be accepted. 
+When the agent moves the app to the background, new conversation are received as push notifications. Each push include a generic message that a new conversation is waiting to be accepted.
 
 Each push notification includes:  
 _Customer ID:_ showing the name (or phone number) of the consumer who sent the new message.
@@ -351,9 +351,9 @@ In-app notifications replace each other, so in case of simultaneous notification
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
 ## ![](/img/Agent inapp notifications.png)  
-  
-  
-Logout (iPad and iPhone) 
+
+
+Logout (iPad and iPhone)
 
 ### Return conversation to queue when logging out
 
@@ -411,7 +411,7 @@ The app filters out conversations with unassigned skill. Unassigned skill conver
 
 ![](/img/Manager all tab-1.png)
 
-### In queue conversation indication 
+### In queue conversation indication
 
 ### For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
 
