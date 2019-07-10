@@ -8,7 +8,6 @@ level3: ''
 permalink: Agent-manager-workspace-liveengage-app-userguide.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
@@ -27,7 +26,7 @@ The App expands opportunities for messaging scenarios. For example, in store ret
 * _Username_: usually the agent’s email
 * _Password_: a masked field
 
-{: .notice} 
+{: .notice}
 
 Changing / retrieving lost password will be carried out by an admin on LiveEngage web.
 
@@ -36,7 +35,7 @@ Changing / retrieving lost password will be carried out by an admin on LiveEngag
 * _ON_ (default): Upon logout, it remembers the account number and email address.
 * _OFF_: leaves fields empty upon logout.
 
-###  Log in button
+### Log in button
 
 * The Log in button is enabled once all fields are completed.
 * Tapping the button performs a log in to the app.
@@ -50,7 +49,7 @@ Long tap on the app version allow user to send logs
 
 ![](/img/loginipad.png)
 
-### Log in screen errors 
+### Log in screen errors
 
 In case of credentials error / server error, an alert is presented.
 
@@ -106,7 +105,7 @@ Long tap on the app version allow user to send logs
 {: .important}  
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from LiveEngage’s database.
 
-![](/img/drawer menu ipad.png)  
+![](/img/drawer menu ipad.png)
 
 ## Agent flow (iPad & iphone)
 
@@ -137,7 +136,7 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 
 **_Consumer avatar_:** From sources such as SMS, the consumer avatar doesn’t appear, therefore a generic avatar is used for aesthetic reasons. If the source supports a consumer avatar, such as Facebook, the consumer avatar is shown.
 
-**_Predefined content icon: _**tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
+\**_Predefined content icon: _**tapping the icon opens an overlay screen with predefined content items that can easily be shared with the consumer.
 
 **_Action menu_:** tapping the action menu icon reveals the actions that can be carried out in the context of the conversation. See more info on “Main screen - action” slide.
 
@@ -176,7 +175,7 @@ Below the consumer bubble there is time stamp
 
 ### Conversation message: agent side
 
-Agent side conversation messages appear with a white background.   
+Agent side conversation messages appear with a white background.  
 Below the agent bubble there is indication for the agent name and a time stamp
 
 In addition there is a message status icon “v” indication: sent, delivered and read. (similar to the whatsApp indications)
@@ -191,4 +190,54 @@ When agent accept new conversation he sees the new message arrive. In addition, 
 
 The agent can scroll up to reveal the history additional closed messaging conversations with the consumer.
 
-## Agent action menu
+## Agent action menu (iPad & iphone)
+
+### Send back to queue
+
+Tapping the ‘Send back to queue’ action removes the agent assignment from the conversation and sends it back to the skill queue. The position of the conversation in the queue is determined by LivePerson’s algorithm (currently it is positioned at the end of the queue, but enhancements to the algorithm are in progress).
+
+### End conversation
+
+In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from LiveEngage Web. On LiveEngage Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+
+### Inactive conversations
+
+Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact the LivePerson account team to configure this feature.
+
+![](/img/agent action menu app.png)
+
+## Predefined content
+
+### Predefined content panel
+
+The predefined content panel slides out from the top bar by tapping the predefined content icon. The items are divided into categories, with the title of each response listed under the relevant category as set on LiveEngage web.
+
+The categories and items are according to the relevant conversation skill (as set in LiveEngage web)
+
+### Sending Predefined content
+
+Tapping a title populates the message text field with the predefined content. To user can tap the input field to edit the text. Closing the panel can be done via the Close button or tapping anywhere outside the panel
+
+{: .notice}  
+There is no option to collapse / expand categories and predefined content is only available in English (US)
+
+![](/img/Agent predefinied content-1.png)
+
+## Structured content 
+
+Users using the app, can view structured content sent by bots or other agents using the LiveEngage web. The card buttons are disabled.
+
+{: .notice}  
+The app currently support only basic cards. Carousel will be added in next versions
+
+## Quick replies
+
+Users using the app, can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message
+
+### Expand/Collapse Quick replies
+
+By default, quick replies messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons
+
+Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side
+
+![](/img/SC_QR_app.png)
