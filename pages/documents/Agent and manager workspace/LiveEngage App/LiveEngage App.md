@@ -240,4 +240,32 @@ By default, quick replies messages do not show up the offered replies suggested 
 
 Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side
 
-![](/img/SC_QR_app.png)
+### ![](/img/SC_QR_app.png)  
+Link preview
+
+When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link
+
+  
+![](/img/link preview app.png)
+
+## The connections list
+
+### Connection list order
+
+The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easier identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
+
+**The list is sorted by ascending response time (SLA) afterwards conversation pending consumer are display according to the last modified conversation (at the top)**
+
+**The list dynamic behavior and transition**
+
+When the conversation status changes, e.g. when agent response to conversation is overdue, the position of the conversation changes accordingly. **The reposition is followed with a proper transition????**
+
+{: .notice}  
+Agents can only view open conversations. In future phases it may include closed conversations, based on the relevant use case.
+
+### Conversation list indications
+
+Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
+
+{: . notice}**  
+**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
