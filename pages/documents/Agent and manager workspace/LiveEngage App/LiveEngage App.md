@@ -16,7 +16,7 @@ The App expands opportunities for messaging scenarios. For example, in store ret
 
 {: .sidebyside}
 
-## ![](/img/LEApp2.png)![](/img/ipad3.png)
+![](/img/LEApp2.png)![](/img/ipad3.png)
 
 ## How to login
 
@@ -166,7 +166,7 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-### ![](/img/Agent keyboard open.png)
+![](/img/Agent keyboard open.png)
 
 Conversation message: consumer side
 
@@ -241,7 +241,7 @@ By default, quick replies messages do not show up the offered replies suggested 
 
 Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side
 
-### ![](/img/SC_QR_app.png)
+![](/img/SC_QR_app.png)
 
 Link preview
 
@@ -268,8 +268,8 @@ Agents can only view open conversations. In future phases it may include closed 
 
 Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
 
-{: . notice}**  
-\**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
+{: . notice}
+**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list**  
 
 ## Bulk back to queue
 
@@ -298,7 +298,7 @@ If all conversation were successfully return to queue they will disappear from t
 
 This is relevant for agent managers who can view closed and in queue conversations (see in [manager flow section]() )
 
-## ![](/img/bulk back to queue.png)
+![](/img/bulk back to queue.png)
 
 Searching the list
 
@@ -342,7 +342,7 @@ When at least one new message is received when the app is in the background, an 
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-\**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
+**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -354,15 +354,9 @@ In-app notifications replace each other, so in case of simultaneous notification
 
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
-## ![](/img/Agent inapp notifications.png)  
-
-
-Logout (iPad and iPhone)
-=======
-## ![](/img/Agent inapp notifications.png)
+![](/img/Agent inapp notifications.png)  
 
 Logout
->>>>>>> 3a501b4ba98acd520405724ab99475ff9492f075
 
 ### Return conversation to queue when logging out
 
@@ -442,7 +436,7 @@ Tapping each of the filters: status, mobile experts, skills; drill down to the r
 
 To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
 
-## ![](/img/Filter panel-1.png)
+![](/img/Filter panel-1.png)
 
 The status filter
 
@@ -459,7 +453,7 @@ The status filter
 * To filter by additional parameters, users can tap the back button to return to the main filter screen.
 * To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
-## ![](/img/Status filter.png)
+![](/img/Status filter.png)
 
 Mobile experts (Agent) filter
 
@@ -490,7 +484,8 @@ Users can easily deselect all selected agent by tapping the “Clear” button o
 {: .notice}  
 The list of skill available are according to the skill assigned to the agents that the manager managed
 
-## ![](/img/Skill filter.png)  
+![](/img/Skill filter.png)  
+
 Multi-selection filter
 
 From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.  
@@ -533,7 +528,8 @@ Managers can view closed conversation from the “All” tab
 
 The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
 
-### ![](/img/Manager actions.png)  
+![](/img/Manager actions.png)  
+
 No conversation state
 
 This happens:
