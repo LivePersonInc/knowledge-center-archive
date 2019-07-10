@@ -2,14 +2,10 @@
 <li class="categoryfolder">
   <div class="itemdetails">
   <img class="sidebarimage" src="/img/web.svg" />
-  <span><a onclick="linkclick(event,this)" class="normalLink" href="new-experiences.html">New Experiences</a></span>
+  <span><a class="normalLink" href="new-experiences.html">New Experiences</a></span>
 </div>
 </li>
 {% for category in site.data.workspacedocuments %}
-{% if category.categoryname == "New Experiences" %}
-  <li class="categoryfolder">
-    <div class="itemdetails canOpen">
-    <img class="sidebarimage" src="/img/{{ category.image }}.svg" />
 {% if category.categoryname == "Troubleshooting" %}
 <hr class="sidebarhr" />
   <li class="categoryfolder">

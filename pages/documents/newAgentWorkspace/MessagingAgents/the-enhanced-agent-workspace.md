@@ -6,7 +6,7 @@ indicator: both
 subtitle: Coming September 2019!
 level3: ''
 permalink: messaging-agents-the-enhanced-agent-workspace.html
-layout: newAgentWorkspaceHomepage
+layout: newAgentWorkspace
 ---
 
 <div class="homeRow">
