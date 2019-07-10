@@ -16,27 +16,29 @@ The new manager workspace was designed to increase managers’ impact on their a
 
 The manager workspace gives you the ability to assess the shift status at a higher level and identify queue health issues at a glance. Additional details per agent and per conversation allow for further analysis and tracking.
 
+Here are some examples of how you can use the data and tools and available in the new manager workspace to better your messaging operations:
+
 ## 1. Understand and take action on spikes in queue length
 
-Keep agents focused by tracking the in-queue metrics and identifying the cause of a spike. 
+If you notice that the “In queue” metric has become too high, you can use the tools at your disposal to determine the cause. 
 
 ![alt text](img/new-manager-workspace-use-case-2.png){:class="newagent"}
 
-If you notice that the number of conversations in the queue has become too high, you can take action by filtering to see “Away” agents and identify agents that are not on schedule. 
+A good place to look is at your agents’ activity. Use the filter in the agent widget to view which agents are away.
 
 ![alt text](img/new-manager-workspace-use-case-3.png){:class="newagent"}
 
-![alt text](img/new-manager-workspace-use-case-4.png){:class="newagent"}
+Identify agents that are away for longer than expected, which can cause a spike in unanswered conversations. You can then take action by speaking to the agent and addressing the issue. 
 
-Choose an action such as “ask them to adhere to schedule” to resolve the spike in queue length and keep agents on target. 
+![alt text](img/new-manager-workspace-use-case-4.png){:class="newagent"}
 
 ## 2. Monitor closed conversations
 
-Ensure operations are running smoothly and keep an eye on the number of closed conversations with the activity summary at the top right. 
+If the number of closed conversations appears too low, a potential reason could be that agents are not closing their conversations. 
 
 ![alt text](img/new-manager-workspace-use-case-5.png){:class="newagent"}
 
-If the number of closed conversations appears too low, you can locate agents with a high number of assigned conversations but a low number of active conversations.
+You can locate agents with a high number of assigned conversations but with a low number of active conversations by using the agents widget.
 
 ![alt text](img/new-manager-workspace-use-case-7.png){:class="newagent"}
 
@@ -50,7 +52,7 @@ Oversee and address customer satisfaction issues by monitoring the score in real
 
 ![alt text](img/new-manager-workspace-use-case-9.png){:class="newagent"}
 
-If you notice the CSAT score is low, you can identify the issue by using the filters to sort conversations by CSAT. 
+If the CSAT score is low, you can identify the issue by using the filters to sort conversations by CSAT. 
 
 ![alt text](img/new-manager-workspace-use-case-10.png){:class="newagent"}
 
