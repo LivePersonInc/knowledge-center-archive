@@ -28,8 +28,8 @@ The new template includes:
 ## Invitation
 
 {: .sidebyside}
-![alt text](img/new-window-template-3.png)![alt text](img/new-window-template-3.png)
+![alt text](img/new-window-template-3.png){:class="newagent"}![alt text](img/new-window-template-4.png){:class="newagent"}
 
 **Enablement**
 
-Default: OFF - brands must enable manually in campaigns > engagement window studio
+The new web messaging window is off by default. Brands can enable it manually in campaigns > engagement window studio
