@@ -164,9 +164,9 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](/img/Agent keyboard open.png)
+![](/img/Agent keyboard open (1).png)
 
-Conversation message: consumer side
+### Conversation message: consumer side
 
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
 
