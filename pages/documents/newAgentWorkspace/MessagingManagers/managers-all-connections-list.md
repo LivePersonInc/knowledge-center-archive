@@ -14,4 +14,4 @@ layout: newAgentWorkspace
 
 The All Connections list includes all of the conversations your agents have handled historically.
 
-![alt text](img/new-manager-workspace-6.png)
+![alt text](img/new-manager-workspace-6.png){:class="newagent"}
