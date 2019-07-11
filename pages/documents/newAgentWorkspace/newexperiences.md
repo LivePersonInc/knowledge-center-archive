@@ -59,7 +59,7 @@ The new workspace provides a centralized place within LiveEngage that gives mana
 <br>
 <b>Rollout</b>:
 <ul>
-<li> By default, turn <br>on</b> for all messaging users with agent manager role (turn off in permissions)</li> 
+<li> By default, turn <b>on</b> for all messaging users with agent manager role (turn off in permissions)</li> 
 <li>Best practice: enable the enhanced agent workspace (in permissions) for all managers who will use the new manager workspace</li>
 <li>No new or additional costs</li>
 </ul>
@@ -79,7 +79,7 @@ In the near future, all admin and campaign manager tools will also adopt the enh
   <li>All admins and campaign managers will enjoy the existing tools and functionality with no changes </li>
   <li>New design for the navigation bar will introduce new icons </li>
   <li>New icon and new location to access ‘night vision’ and ‘user menu’</li>
-  <li>There will not be an option to revert the new navigation. It will appear by default to all users</lli>
+  <li>There will not be an option to revert the new navigation. It will appear by default to all users</li>
 </ul>
 <br>
 </span>
