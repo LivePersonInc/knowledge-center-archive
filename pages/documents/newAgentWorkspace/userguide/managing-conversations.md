@@ -100,12 +100,13 @@ The conversations can be marked as resolved or closed, either by the consumer or
 
 At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversation summaries and ensure that your conversations were properly documented. Closed conversations are stored in the My Connections list for between 48 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list. 
 
+![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 
-### Surveys (coming September) 
+### Surveys
 
 **Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, by you or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
 
-**Agent survey:** The agent survey, which was previously available only for chat, allows brands to gather data and insights from their agents about their conversations with consumers. Gathering data from your perspective helps them to determine and analyze the nature of conversations and understand their outcomes. Once collected, this information can be used to recognize issues and optimize messaging operations.  
+**Agent survey (date TBD):** The agent survey, which was previously available only for chat, allows brands to gather data and insights from their agents about their conversations with consumers. Gathering data from your perspective helps them to determine and analyze the nature of conversations and understand their outcomes. Once collected, this information can be used to recognize issues and optimize messaging operations.  
 
 ### Auto Close for inactive conversations
 

@@ -215,6 +215,7 @@ h4 {
 }
 
 .h1 {
+  width: 60%;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
@@ -371,7 +372,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 #defaultheader {
-  background-color: #324D8A;
+  background-color: #2d3162;
   position: sticky;
   position: -webkit-sticky;
   top: 0;

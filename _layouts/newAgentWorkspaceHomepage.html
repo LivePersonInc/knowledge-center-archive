@@ -2,6 +2,7 @@
 <head>
     {% include head.html %}
     <link rel="stylesheet" href="{{ "css/default.css" }}">
+    <link rel="stylesheet" href="{{ "css/workspaceHomepage.css" }}">
      <meta name="description" content="LivePerson Knowledge Center">
      <meta name="keywords" content="APIs, SDKs, Mobile development, LiveEngage, Agent workspace, Tag, JSON examples, Click to message, Click to chat, Chat window, Skills, Agent Groups, iOS, Android, Mobile devices, Integrations, Live chat, Agent widget, Reporting, Analytics">
      <meta name="author" content="LivePerson Inc.">
@@ -30,32 +31,11 @@
     {% include newAgentWorkspacesidebar.html %}
   </div>
   <div id="documenttitlecontainer" class="noborder">
-  {% if page.pagename == "Welcome to the new Agent Workspace!" %}
-  <div class="documenttitle">
-    <div class="titlecontainer welcometitle">
-      <div class='h1'>{{ page.pagename }}</div>
-      <div id="subtitle">{{ page.subtitle }}</div>
-</div>
-  </div>
-  {% else %}
-  <div class="documenttitle">
-    <div class="titlecontainer">
-      <div class='h1'>{{ page.pagename }}</div>
-      <div id="indicatorrow">
-        <div id="indicators" class="newAgentHide">
-          {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
-          <div class="indicator chat">Chat</div>
-          {% endif %}
-          {% if page.indicator != null and page.indicator == "both" or page.indicator == "messaging" %}
-          <div class="indicator messaging">Messaging</div>
-          {% endif %}
+  <div class="documentTitle">
+      <span id="newExperiencesTitle">{{ page.pagename }}</span>
+      <span id="newExperiencesSubtitle">{{ page.subtitle }}</span>
     </div>
   </div>
-</div>
-  </div>
-  <!-- <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div> -->
-{% endif %}
-</div>
   <div id="defaultcontent">
   <div id="maincontent">
     <div class="anchorlist newAgentHide">

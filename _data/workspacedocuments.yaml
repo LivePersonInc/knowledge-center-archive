@@ -1,24 +1,35 @@
-- categoryname: The enhanced agent workspace
-  image: web
-
-- categoryname: User guide
-  image: user-guide
+- categoryname: Messaging agents
+  image: messaging-agents
   subcategories:
-    - subcategoryname: Summary of enhancements
-    - subcategoryname: Workspace basics
-    - subcategoryname: Managing messaging conversations
-    - subcategoryname: Taking breaks & ending your shift
-    - subcategoryname: Configuration
+    - subcategoryname: The enhanced agent workspace
+    - subcategoryname: User guide
     - subcategoryname: FAQs
+    - subcategoryname: Configuration
+    - subcategoryname: Training deck
+    - subcategoryname: Tutorial
+    - subcategoryname: Roadmap
+    - subcategoryname: Rollout
 
-- categoryname: Training Deck
-  image: agent-manager
+- categoryname: Messaging managers
+  image: messaging-managers
+  subcategories:
+    - subcategoryname: Introducing the new manager workspace
+    - subcategoryname: Use cases
+    - subcategoryname: User guide
+    - subcategoryname: Using all connections
+    - subcategoryname: What's new in all connections
 
-- categoryname: Tutorial
-  image: getting-started
+- categoryname: Admins & campaign managers
+  image: admins-campaigns
+  subcategories:
+    - subcategoryname: New navigation
 
-- categoryname: Roadmap
-  image: whats-new
+- categoryname: Live chat agents & managers
+  image: agents-managers
+  subcategories:
+    - subcategoryname: New navigation & status button
 
-- categoryname: Rollout
-  image: admin-settings
+- categoryname: Consumer experience
+  image: consumer-experience
+  subcategories:
+    - subcategoryname: The new web messaging window
