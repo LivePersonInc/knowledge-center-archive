@@ -39,13 +39,13 @@ The following filters can be applied to the sections listed above:
 ![](img/timefilter.png)
 
 {:start='2'}
-2\. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
+2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
 
 ![](img/groupfilter.png)
 
 ## Widgets
 
-### _In queue_ widget
+### In queue widget
 
 The "in queue" widget presents the number of conversations currently waiting for agent assignment. The number will only include conversations associated with skills which are assigned to agents in groups the agent manager can view.
 
@@ -54,11 +54,9 @@ The "in queue" widget presents the number of conversations currently waiting for
 * A breakdown of "in-queue" conversations by skill is shown.
 * Conversations assigned to the "UNASSIGNED" skill will also be included in the in queue conversations value.
 
-![](img/inqueue1.png)
+![](img/new-manager-workspace-use-case-1.png)
 
-![](img/inqueue2.png)
-
-### _Metrics_ widget
+### Metrics widget
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
 
@@ -67,9 +65,9 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
 
-![](img/metricswidget.png)
+![](img/new-agent-workspace-1.png)
 
-### _Agents_ widget
+### Agents widget
 
 The agent widget shows all agents under the manager which are currently logged into LiveEngage. Each agent card will show the following information:
 
@@ -80,9 +78,9 @@ The agent widget shows all agents under the manager which are currently logged i
 * **LOAD** - Total weight of the assigned conversations divided by the agent’s configured maximum number of high-intensity conversations. **Note**: This metric is not affected by the time filter.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe. Attributed to the last assigned agent of the conversation.
 
-![](img/agentswidget.png)
+![](img/new-agent-workspace-2.png)
 
-### _Conversations_ widget
+### Conversations widget
 
 #### Population
 
