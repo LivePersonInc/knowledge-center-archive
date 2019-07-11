@@ -20,7 +20,7 @@ layout: newAgentWorkspaceHomepage
 </div>
 </div>
 
-<img class="newagent imageleft" src="img/NAW_Paper.jpg" />
+<img class="bigAgent imageleft" src="img/NAW_Paper.jpg" />
 
 ## Quick summary: new experiences by role
 
