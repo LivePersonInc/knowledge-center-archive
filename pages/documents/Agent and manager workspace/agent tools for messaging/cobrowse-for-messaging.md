@@ -1,5 +1,5 @@
 ---
-pagename: CoBrowse for messaging
+pagename: CoBrowse for web messaging
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
@@ -35,6 +35,9 @@ CoBrowse enables agents to assist visitors with complicated online tasks and pro
 * Following guided online support for troubleshooting items
 * Learning how to set up an account or use online self-service options
 * Following a guided shopping experience which provides store-like assistance online
+
+{: .notice}
+Note that only the **web** variant of messaging can use CoBrowse - other types of messaging are not web based and therefore do not contain any content which can be shared in this way.
 
 ## Security and Privacy
 
