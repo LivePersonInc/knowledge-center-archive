@@ -14,12 +14,12 @@ layout: newAgentWorkspace
 
 For the September rollout, the only change for admin and campaign manager roles will be to the navigation bar, which has been updated with new icons.
 
+{: .notice}
+**Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
+
 ## New navigation
 
 ![alt text](img/new-agent-workspace-screenshot-2.png){:class="newagent"}
-
-{: .notice}
-**Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
 
 ## Icon glossary 
 
