@@ -56,8 +56,6 @@ There are several tools in place to help you access the information you’ll nee
 
 ![image alt text](img/consumerinfo.jpg){:class="newagent"}
 
-* **Custom widgets**: Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. The enhanced workspace allows brands to add up to 10 custom widgets, giving you convenient access to all your tools. 
-
 ## Replying to consumers
 
 ### Predefined Content

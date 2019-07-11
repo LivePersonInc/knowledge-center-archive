@@ -155,7 +155,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-
+    - subcategoryname: LiveEngage app
+      pages:
+        - pagename: LiveEngage app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -265,17 +267,17 @@
   image: developer-tools
   subcategories:
     - subcategoryname: Open platform
-    - subcategoryname: Function as a Service (FaaS)
+    - subcategoryname: LivePerson Functions
 
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
     - subcategoryname: February 2019
-    - subcategoryname: January 2019
 
 - categoryname: Release notes
   image: release-notes
