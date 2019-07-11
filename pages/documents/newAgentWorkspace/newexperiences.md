@@ -96,6 +96,7 @@ The only change is the new navigation that will appear to all users.
 <br>
 <b>Available</b>: September 16th
 <br>
+<br>
 <ul>
   <li>All live chat users will continue to use the same tools and workspaces</li>
   <li>New design for the navigation bar will introduce new icons</li>
