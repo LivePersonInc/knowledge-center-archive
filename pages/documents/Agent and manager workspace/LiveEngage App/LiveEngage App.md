@@ -49,8 +49,6 @@ Long tap on the app version allow user to send logs
 
 In case of credentials error / server error, an alert is presented.
 
-![](/img/fail login pop-up (1).png)
-
 ### No network
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
@@ -109,7 +107,7 @@ Upon signing out, all local database information for that agent is deleted. When
 
 The first time the agent logs in to the app it appears to be in an empty state. This is because the the agent has no assigned conversations and no new conversation ringing. All agent’s conversations were ended (either manually or automatically).
 
-Agents can open the drawer menu by tapping their picture on the top left corner. The small dot represents their current state: green for online, red for away.![](/img/Agent empty state.png)
+Agents can open the drawer menu by tapping their picture on the top left corner. The small dot represents their current state: green for online, red for away.
 
 ### New ring alert
 
@@ -431,7 +429,7 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 
 ![](/img/Status filter (1).png)
 
-### Mobile experts (Agent filter
+### Mobile experts (Agent filter)
 
 * From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.  
   Users can select more than one agent.
@@ -454,8 +452,6 @@ After selection agent, the user can view all the selected agents under the “se
 Users can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all.  
 {: .notice}  
 The list of skills available are according to the skill assigned to the agents that the manager managed.
-
-![](/img/Skill filter (1).png)
 
 ### Multi-selection filter
 
