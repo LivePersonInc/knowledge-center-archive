@@ -109,9 +109,7 @@ Upon signing out, all local database information for that agent is deleted. When
 
 The first time the agent logs in to the app it appears to be in an empty state. This is because the the agent has no assigned conversations and no new conversation ringing. All agent’s conversations were ended (either manually or automatically).
 
-Agents can open the drawer menu by tapping their picture on the top left corner. The small dot represents their current state: green for online, red for away.
-
-![](/img/Agent empty state.png)
+Agents can open the drawer menu by tapping their picture on the top left corner. The small dot represents their current state: green for online, red for away.![](/img/Agent empty state.png)
 
 ### New ring alert
 
@@ -149,8 +147,6 @@ The list entry also display conversation response time indication (see connectio
 ### Conversation message
 
 Every conversation starts with a new message, originating from the consumer.
-
-![](/img/Conversation accepted App.png)
 
 ## Messaging the consumer
 
