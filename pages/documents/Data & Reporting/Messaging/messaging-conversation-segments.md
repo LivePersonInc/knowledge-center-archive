@@ -54,6 +54,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-Queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
+* ![](/img/Messaging_segments1-1.png)
 
 ## Metrics
 
@@ -169,7 +170,7 @@ Please note:
 
 **Answer (Metric):** Agent Segments
 
-**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations. 
+**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations.
 
 This metric will be a more precise version of CCPLH.
 
@@ -189,19 +190,19 @@ This metric will be a more precise version of CCPLH.
 
 **Answer (Metric):** Segments with Non Responsive Agents (Agent)
 
-**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
+\**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
 
-**Manager Question:**How many times did each agent conduct a dialog with consumers?
+\**Manager Question:**How many times did each agent conduct a dialog with consumers?
 
 **Answer (Metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
 
 **Action:** More accurate view of actual number of engagements conducted by agents.
 
-**Manager Question:** How long are agents participating in conversations? 
+**Manager Question:** How long are agents participating in conversations?
 
 **Answer (Metric):** Avg. Segment Duration (Agent)
 
-**Action:**This can help to quantify the agents’ activity during conversation.
+\**Action:**This can help to quantify the agents’ activity during conversation.
 
 **Manager Question:** How many responses my agents send in an average conversation?
 
