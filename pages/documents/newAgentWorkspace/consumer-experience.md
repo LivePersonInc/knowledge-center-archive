@@ -21,5 +21,11 @@ The new template includes:
 
 ## Window
 
+{: .sidebyside} 
+![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)
+
 
 ## Invitation 
+
+{: .sidebyside} 
+![alt text](img/new-window-template-3.png)![alt text](img/new-window-template-3.png)
