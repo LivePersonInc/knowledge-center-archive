@@ -12,7 +12,9 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson in the following weeks - all designed to help you make even more meaningful connections.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/347244478?autoplay=1&loop=1&autopause=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/347244478?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/347244478">LivePerson July 2019 Newsletter</a> from <a href="https://vimeo.com/liveperson">LivePerson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## The new LiveEngage App
 
