@@ -242,3 +242,16 @@ Agent-segment metrics can be sliced and diced by:
 * Messages provided by the Controller Bot (system messages) are omitted from the calculations.
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages.
+
+## Metric definitions
+
+Following are the explanations of the metrics defined per segment (relevant for both agent and skill segments):
+
+### Interactive Segments
+
+The number of segments which included at least one response from the consumer to an agent’s message.
+
+### ![](/img/Mess_segments3.png)  
+Abandoned Segments
+
+The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
