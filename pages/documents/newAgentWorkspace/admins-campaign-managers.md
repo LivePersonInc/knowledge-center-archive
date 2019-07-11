@@ -21,14 +21,14 @@ For the September rollout, the only change for admin and campaign manager roles 
 
 ![alt text](img/new-agent-workspace-screenshot-2.png){:class="newagent"}
 
-## Icon glossary 
+## Icon glossary
 
 | Icon        | Meaning           
 | ------------- |-------------|
-| [alt text](img/connections-regular@2x.png)    | Agent workspace  |
-| [alt text](img/manager-workspace-regular@2x.png)   | Manager workspace      |
-| [alt text](img/visitors-regular@2x.png)  | Visitors     |
-| [alt text](img/automation-regular@2x.png)     | Automation      |
-| [alt text](img/campaigns-regular@2x.png)  | Campaigns     |
-| [alt text](img/users-regular@2x.png)      | Users     |
-| [alt text](img/night-vision-hover@2x.png) | Night vision  |
+| ![alt text](img/connections-regular@2x.png)    | Agent workspace  |
+| ![alt text](img/manager-workspace-regular@2x.png)   | Manager workspace      |
+| ![alt text](img/visitors-regular@2x.png)  | Visitors     |
+| ![alt text](img/automation-regular@2x.png)     | Automation      |
+| ![alt text](img/campaigns-regular@2x.png)  | Campaigns     |
+| ![alt text](img/users-regular@2x.png)      | Users     |
+| ![alt text](img/night-vision-hover@2x.png) | Night vision  |
