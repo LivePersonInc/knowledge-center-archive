@@ -572,6 +572,19 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
+     - featureName: Post conversation survey 
+    channels:
+    - mobileAppMessaging: "Supported"
+    - webMessaging: "Supported"
+    - appleBusinessChat: "Supported"
+    - sms: "Supported"
+    - facebook: "Supported"
+    - whatsapp: "Supported"
+    - googleRCS: "Supported"
+    - line: "Not Supported"
+    - messagingWindowAPI: "Supported"
+    - connectorAPI: "Supported"
+    - weChat: "Not Supported"
 
 - categoryName: Automation
   features:
@@ -589,19 +602,6 @@
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
   - featureName: Routing bot
-    channels:
-    - mobileAppMessaging: "Supported"
-    - webMessaging: "Supported"
-    - appleBusinessChat: "Supported"
-    - sms: "Supported"
-    - facebook: "Supported"
-    - whatsapp: "Supported"
-    - googleRCS: "Supported"
-    - line: "Not Supported"
-    - messagingWindowAPI: "Supported"
-    - connectorAPI: "Supported"
-    - weChat: "Not Supported"
-  - featureName: Post conversation survey bot
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
