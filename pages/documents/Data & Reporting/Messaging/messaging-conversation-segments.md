@@ -257,8 +257,14 @@ The number of segments which included at least one response from the consumer to
 
 The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
 
-![](/img/s88aGKlpKmXlfQr4G5MsjxA.png)
+![](/img/abandoned segments.png)
 
-**Segments with Non Responsive Agents**
+### Segments with Non Responsive Agents
 
 The number of segments which ended in a transfer or closed by agent\\system with no message from an agent.
+
+![](/img/non_responsive_agents.png)
+
+**Segments with Non Responsive Consumers**
+
+The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
