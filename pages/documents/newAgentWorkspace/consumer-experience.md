@@ -29,3 +29,7 @@ The new template includes:
 
 {: .sidebyside} 
 ![alt text](img/new-window-template-3.png)![alt text](img/new-window-template-3.png)
+
+**Enablement**
+
+Default: OFF - brands must enable manually in campaigns > engagement window studio
