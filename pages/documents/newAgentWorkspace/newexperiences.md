@@ -16,7 +16,7 @@ layout: newAgentWorkspaceHomepage
 </div>
 <div class="homepageBox">
   <span class="homepageBoxTitle">New sleek and modern UI</span>
-  <span class="homepageBoxText tighter">The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.</span>
+  <span class="homepageBoxText tighter">LiveEngage’s interface is getting a new look and feel. The updated design will be gradually introduced into our various products.</span>
 </div>
 </div>
 
