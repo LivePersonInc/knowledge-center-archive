@@ -10,9 +10,14 @@ isTutorial: false
 isNew: false
 
 ---
+{: .important}  
+LivePerson's new LiveEngage App is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
+
 The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
 
-The App expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales. The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact your account team. Please note that all functionality discussed in this article applies to both the iPad & iPhone.
+The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.  
+
+Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/AWS+APP.gif)
 
@@ -544,8 +549,10 @@ Please note that the following features are currently not available in the App a
 * Resume conversations
 * Send Structured Content (Quick Replies, Cards & Carousel)
 * View and share photo (consumer to agent)
-* View and share files (agent to consumer)
-* Audio from consumer to agent
-* Post Conversation Survey - Agent visibility only
-* CoBrowse
-* Hyperlinks
+* View and share files (agent to consumer)Audio from consumer to agent
+
+  Post Conversation Survey - Agent visibility only
+
+  CoBrowse
+
+  Hyperlinks
