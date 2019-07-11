@@ -87,11 +87,9 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 
 ### Links
 
-**Feedback:** opens a blank email for users to provide LivePerson with feedback on the app.
-
-**Terms & Conditions:** opens a web page with the app’s terms & conditions (Apple requirement for all apps).
-
-**Privacy policy:** opens a web page with the app’s privacy policy (Apple requirement for all apps).
+* **Feedback:** opens a blank email for users to provide LivePerson with feedback on the app.
+* **Terms & Conditions:** opens a web page with the app’s terms & conditions (Apple requirement for all apps).
+* **Privacy policy:** opens a web page with the app’s privacy policy (Apple requirement for all apps).
 
 ### Log out button
 
@@ -550,9 +548,6 @@ Please note that the following features are currently not available in the App a
 * Send Structured Content (Quick Replies, Cards & Carousel)
 * View and share photo (consumer to agent)
 * View and share files (agent to consumer)Audio from consumer to agent
-
-  Post Conversation Survey - Agent visibility only
-
-  CoBrowse
-
-  Hyperlinks
+* Post Conversation Survey - Agent visibility only
+* CoBrowse
+* Hyperlinks
