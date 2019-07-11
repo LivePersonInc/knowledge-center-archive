@@ -14,4 +14,4 @@ In order to help brands train agents on the new capabilities available in the wo
 This presentation includes an overview of what agents need to know in order to use the enhanced workspace - including comparison between the 'old' and the 'new'.
 
 
-Click here to <a href="/resources/enhanced-agent-workspace.pptx" download>download</a> the training deck.
+Click here to <a href="/resources/enhanced-agent-workspace.pptx" download>download</a> the training deck. (note: the presentation contains gifs that animate only in 'presentation mode')

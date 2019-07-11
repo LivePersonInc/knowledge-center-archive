@@ -1,11 +1,11 @@
 ---
-pagename: New web messaging window template
+pagename: New web messaging window
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
 subtitle: for all LiveEngage users - coming September 2019
 level3: ''
-permalink: consumer-experience-new-web-messaging-window-template.html
+permalink: consumer-experience-new-web-messaging-window.html
 layout: newAgentWorkspaceHomepage
 ---
 
@@ -21,5 +21,15 @@ The new template includes:
 
 ## Window
 
+{: .sidebyside} 
+![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)
+
 
 ## Invitation 
+
+{: .sidebyside} 
+![alt text](img/new-window-template-3.png)![alt text](img/new-window-template-3.png)
+
+**Enablement**
+
+Default: OFF - brands must enable manually in campaigns > engagement window studio
