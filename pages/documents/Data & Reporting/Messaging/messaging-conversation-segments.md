@@ -251,7 +251,10 @@ Following are the explanations of the metrics defined per segment (relevant for 
 
 The number of segments which included at least one response from the consumer to an agent’s message.
 
-### ![](/img/Mess_segments3.png)  
-Abandoned Segments
+### ![](/img/Mess_segments3.png)
+
+### Abandoned Segments
 
 The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
+
+![](/img/s88aGKlpKmXlfQr4G5MsjxA.png)
