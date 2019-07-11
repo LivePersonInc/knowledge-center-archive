@@ -237,13 +237,13 @@ Users using the app, can view quick replies sent by bots or other agents using t
 
 By default, quick replies messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons
 
-Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side
+Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side.
 
-![](/img/SC_QR_app.png)
+![](/img/SC_QR_app (1).png)
 
-Link preview
+### Link preview
 
-When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link
+When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
 ![](/img/link preview app.png)
 
