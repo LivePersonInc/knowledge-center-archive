@@ -17,7 +17,12 @@ For the September rollout, the only change for chat users will be to the navigat
 {: .notice}
 **Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
 
-To access the agent status menu, agents simply need to click on their image in the bottom left corner. 
+## New navigation
 
 ![alt text](img/chat-users-screenshot.png){:class="newagent"}
 
+## Agent status 
+
+To access the agent status menu, agents simply need to click on their image in the bottom left corner. 
+
+![alt text](img/new-agent-workspace-screenshot-1.png){:class="newagent"}
