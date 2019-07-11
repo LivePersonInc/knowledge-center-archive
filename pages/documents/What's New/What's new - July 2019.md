@@ -10,9 +10,11 @@ isTutorial: false
 isNew: false
 
 ---
-Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson in the following weeks - all designed to help you make even more meaningful connections.  
+Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson in the following weeks - all designed to help you make even more meaningful connections.
 
 ![](/img/03_VimeoThumbnail_Mai19 (1).jpg)
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/347244478?autoplay=1&loop=1&autopause=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## The new LiveEngage App
 
@@ -20,9 +22,7 @@ The LiveEngage App is an iOS application for iPads & iPhones that allows agents 
 
 The App expands opportunities for messaging scenarios, for example, in stores, retail reps can leverage their down time by messaging with customers not in store giving them the power to increase sales. The app enables agents to close conversations, return them back to queue, use predefined content, receive push notifications, and lots more! The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact shaia@liveperson.com.
 
-{: .sidebyside}
-
-![](/img/LEApp2.png)![](/img/ipad3.png)
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/AWS+APP.gif)
 
 ## Sinch Connector for SMS
 
