@@ -116,6 +116,8 @@ Select an action by pressing the applicable letter from the table below.
 
 When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
 
+![alt text](img/new-agent-workspace-screenshot-1.png){:class="newagent"}
+
 #### Warm up: staggered incoming conversations at the beginning of your shift
 
 Some contact centers opt to configure the ‘warm up’ function for agents. If this is enabled, the incoming conversations assigned to you at the beginning of your shift will be slower and build gradually. The warm up feature will send you one message at a time with a defined interval between the first few incoming conversations, allowing you to adjust to your shift and get into the flow of your messaging workload.
