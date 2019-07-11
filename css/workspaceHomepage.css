@@ -49,7 +49,8 @@
 }
 
 .homepageBox:first-child {
-  margin-right: 36px;
+  margin-right: 120px;
+  width: 37%;
 }
 
 .homepageBoxTitle {
@@ -125,7 +126,7 @@ h3 {
 }
 
 .bigAgent {
-  width: 83%;
+  width: 78%;
 }
 
 @media screen and (max-width:850px){
@@ -135,5 +136,9 @@ h3 {
 
   .homepageBox:first-child {
       margin-bottom: 35px;
+  }
+
+  #mysidebar {
+    padding-left: 20px;
   }
 }
