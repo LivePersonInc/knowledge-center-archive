@@ -11,7 +11,7 @@ layout: newAgentWorkspaceHomepage
 
 <div id="homepageRow">
 <div class="homepageBox">
-  <span class="homepageBoxTitle">Maximize efficiency for large-scale messaging</span>
+  <span class="homepageBoxTitle">Maximize efficiency with messaging</span>
   <span class="homepageBoxText">As part of the new experiences, both agents and agent managers will receive tools that will help boost their performance in managing messaging conversations.</span>
 </div>
 <div class="homepageBox">
