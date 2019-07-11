@@ -16,7 +16,7 @@ For the September rollout, the only change for admin and campaign manager roles 
 
 ## New navigation
 
-![alt text](img/admin-camapaign-manager-2.png){:class="newagent"}
+![alt text](img/new-agent-workspace-screenshot-2.png){:class="newagent"}
 
 {: .notice}
 **Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
