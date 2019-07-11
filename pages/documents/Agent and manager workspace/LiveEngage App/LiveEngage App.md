@@ -243,8 +243,6 @@ Below the quick reply there is a label indicating whether the quick replies butt
 
 When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
-![](/img/link preview app.png)
-
 ## The connections list
 
 ### Connection list order
