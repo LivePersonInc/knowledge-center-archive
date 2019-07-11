@@ -1,5 +1,5 @@
 ---
-pagename: Use cases
+pagename: Using all connections
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
