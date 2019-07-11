@@ -47,13 +47,11 @@ SSO login will be included in a future phase of the app.
 
 Long tap on the app version allow user to send logs
 
-![](/img/loginipad.png)
-
 ### Log in screen errors
 
 In case of credentials error / server error, an alert is presented.
 
-![](/img/fail login pop-up.png)
+![](/img/fail login pop-up (1).png)
 
 ### No network
 
@@ -105,7 +103,7 @@ Long tap on the app version allow user to send logs
 {: .important}  
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from LiveEngage’s database.
 
-![](/img/drawer menu ipad.png)
+![](/img/drawer menu ipad (1).png)
 
 ## Agent flow
 
@@ -269,7 +267,7 @@ Agents can only view open conversations. In future phases it may include closed 
 Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
 
 {: . notice}
-**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list**  
+**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list**
 
 ## Bulk back to queue
 
@@ -342,7 +340,7 @@ When at least one new message is received when the app is in the background, an 
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
+\**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -354,7 +352,7 @@ In-app notifications replace each other, so in case of simultaneous notification
 
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
-![](/img/Agent inapp notifications.png)  
+![](/img/Agent inapp notifications.png)
 
 Logout
 
@@ -468,7 +466,6 @@ After selection agent, the user can view all the selected agents under the “se
 
 ### Search agents
 
-
 ![](/img/agnet filter.png)
 
 ## The skills filter
@@ -484,15 +481,15 @@ Users can easily deselect all selected agent by tapping the “Clear” button o
 {: .notice}  
 The list of skill available are according to the skill assigned to the agents that the manager managed
 
-![](/img/Skill filter.png)  
+![](/img/Skill filter.png)
 
 Multi-selection filter
 
-From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.  
+From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.
 
 A preview of the selected filters in each criteria are displayed in th right side of the list
 
-### Clear all   
+### Clear all
 
 Users can easily clear all selected filters and return to the default view by tapping the “clear button on the filter panel header.
 
@@ -502,7 +499,7 @@ Users can easily clear all selected filters and return to the default view by ta
 
 ### Join/leave conversations
 
-### User with manager role, can join conversations which are assigned to one of his agents or in the  conversations queue**  
+### User with manager role, can join conversations which are assigned to one of his agents or in the  conversations queue**
 
 **The join button is available from the action menu or in bottom bar**
 
@@ -510,7 +507,8 @@ After joining a conversation users can send messages
 
 The join conversation button in the menu is changed to “Leave conversation”  when the conversation has been joined by the manager
 
-### Send back to queue   
+### Send back to queue
+
 Managers can return conversation back to queue (one by one or in bulk ) without needing to join conversations
 
 {: .notice}  
@@ -528,7 +526,7 @@ Managers can view closed conversation from the “All” tab
 
 The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
 
-![](/img/Manager actions.png)  
+![](/img/Manager actions.png)
 
 No conversation state
 
