@@ -6,7 +6,7 @@ indicator: both
 subtitle: for all LiveEngage users - coming September 2019
 level3: ''
 permalink: consumer-experience-the-new-web-messaging-window.html
-layout: newAgentWorkspaceHomepage
+layout: newAgentWorkspace
 ---
 
 New, modern UI for the engagement window template and invitation bas been added to the engagement window studio, greatly improving the consumer experience.
@@ -21,13 +21,13 @@ The new template includes:
 
 ## Window
 
-{: .sidebyside} 
+{: .sidebyside}
 ![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)
 
 
-## Invitation 
+## Invitation
 
-{: .sidebyside} 
+{: .sidebyside}
 ![alt text](img/new-window-template-3.png)![alt text](img/new-window-template-3.png)
 
 **Enablement**
