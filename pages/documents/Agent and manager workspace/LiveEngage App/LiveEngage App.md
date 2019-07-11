@@ -218,9 +218,7 @@ The categories and items are according to the relevant conversation skill (as se
 Tapping a title populates the message text field with the predefined content. To user can tap the input field to edit the text. Closing the panel can be done via the Close button or tapping anywhere outside the panel
 
 {: .notice}  
-There is no option to collapse / expand categories and predefined content is only available in English (US)
-
-![](/img/Agent predefinied content-1.png)
+There is no option to collapse / expand categories and predefined content is only available in English (US).
 
 ## Structured content
 
@@ -294,11 +292,11 @@ If some of the open conversations were not successfully returned to queue, a pro
 
 If all conversation were successfully return to queue they will disappear from the agent list.
 
-This is relevant for agent managers who can view closed and in queue conversations (see in [manager flow section]() )
+This is relevant for agent managers who can view closed and in queue conversations.
 
-![](/img/bulk back to queue.png)
+![](/img/bulk back to queue (1).png)
 
-Searching the list
+## Searching the list
 
 ### Search bar
 
@@ -330,9 +328,9 @@ Enabling the push notifications is done by your LivePerson account team.
 
 When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. The number sums the unread message in the app. When entering the app the counter is reset.
 
-**Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message)
+**Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message).
 
-![](/img/Consumer push notification-1.png)
+![](/img/Consumer push notification (2).png)
 
 ## In app notifications
 
@@ -352,9 +350,7 @@ In-app notifications replace each other, so in case of simultaneous notification
 
 When new messages are received, a badge counting the number of new messages appears next the relevant conversation list entry. Tapping the list entry clears the badge.
 
-![](/img/Agent inapp notifications.png)
-
-Logout
+## Logout
 
 ### Return conversation to queue when logging out
 
@@ -364,9 +360,7 @@ User can choose between three options:
 
 1. Automatically return all his assigned open conversations back to queue and logout
 2. Logging out without returning the conversation back to queue
-3. Cancel - the user will not be logged out and return to previous screen
-
-![](/img/Agent logout.png)
+3. Cancel - the user will not be logged out and return to previous screen.
 
 ## Manager Flow
 
@@ -410,11 +404,11 @@ The list order is similar to the logic explained for the agents list order (see 
 {: .notice}  
 The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
 
-![](/img/Manager all tab-1.png)
+![](/img/Manager all tab (1).png)
 
 ### In queue conversation indication
 
-### For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
+For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
 
 ### Closed conversation indication
 
@@ -434,15 +428,7 @@ Tapping each of the filters: status, mobile experts, skills; drill down to the r
 
 To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
 
-![](/img/Filter panel-1.png)
-
-The status filter
-
-From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
-
-This is a single selection filter.
-
-The status filter
+## The status filter
 
 * From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
 * This is a single selection filter.
@@ -451,9 +437,9 @@ The status filter
 * To filter by additional parameters, users can tap the back button to return to the main filter screen.
 * To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
 
-![](/img/Status filter.png)
+![](/img/Status filter (1).png)
 
-Mobile experts (Agent) filter
+### Mobile experts (Agent filter
 
 * From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.  
   Users can select more than one agent.
@@ -463,10 +449,6 @@ Mobile experts (Agent) filter
 ### All/Selected tabs
 
 After selection agent, the user can view all the selected agents under the “selected tab” or see all available agents (included selected) under the “All” tab
-
-### Search agents
-
-![](/img/agnet filter.png)
 
 ## The skills filter
 
@@ -479,11 +461,11 @@ After selection agent, the user can view all the selected agents under the “se
 
 Users can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all.  
 {: .notice}  
-The list of skill available are according to the skill assigned to the agents that the manager managed
+The list of skills available are according to the skill assigned to the agents that the manager managed.
 
-![](/img/Skill filter.png)
+![](/img/Skill filter (1).png)
 
-Multi-selection filter
+### Multi-selection filter
 
 From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.
 
@@ -493,15 +475,13 @@ A preview of the selected filters in each criteria are displayed in th right sid
 
 Users can easily clear all selected filters and return to the default view by tapping the “clear button on the filter panel header.
 
-![](/img/Multiselected filters.png)
-
 ## Managers actions
 
 ### Join/leave conversations
 
-### User with manager role, can join conversations which are assigned to one of his agents or in the  conversations queue**
+Users with manager role, can join conversations which are assigned to one of his agents or in the  conversations queue
 
-**The join button is available from the action menu or in bottom bar**
+The join button is available from the action menu or in the bottom bar
 
 After joining a conversation users can send messages
 
@@ -526,13 +506,13 @@ Managers can view closed conversation from the “All” tab
 
 The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
 
-![](/img/Manager actions.png)
+![](/img/Manager actions (1).png)
 
-No conversation state
+### No conversation state
 
-This happens:
+**This happens:**
 
-* the first time the manager logs into the app.
+* The first time the manager logs into the app.
 * The agent has no assigned conversations
 * All agent’s conversations were ended (either manually or automatically).
 
