@@ -16,7 +16,7 @@ layout: newAgentWorkspaceHomepage
 </div>
 <div class="homepageBox">
   <span class="homepageBoxTitle">New sleek and modern UI</span>
-  <span class="homepageBoxText tighter">The LiveEngage platform is getting a facelift, introducing a new look and feel to our interface.  The updated designs will be introduced gradually into our various products - see details by role below for more information on how this initial rollout will affect each user.</span>
+  <span class="homepageBoxText tighter">LiveEngage’s interface is getting a new look and feel. The updated design will be gradually introduced into our various products.</span>
 </div>
 </div>
 
@@ -34,27 +34,15 @@ Several exciting new features including automated decision making and a new conv
 <br>
 <b>Available</b>: September 16th (brands are encouraged to rollout by November)
 <br>
-<br>
-<b>Default</b>: OFF - enable manually in permissions (LivePerson CSMs will support brands with their rollout)
-<br>
-<br>
-<h4>What you need to do:</h4>
-<ul>
-  <li>Work with your CSM to define a date for rollout</li>
-  <li>Review the training materials provided</li>
-  <li>Schedule a training with your agents to prepare them</li>
-  <li>Determine which agents will move to the enhanced workspace</li>
-  <li>Update the relevant permissions to turn on the enhanced workspace</li>
-</ul>
 <h4>Seamless rollout:</h4>
 <ul>
+  <li>By default, turned <b>off</b>, enabling you to control which agents to turn it on to and when (via persmissions)</li>
   <li>No new or additional costs</li>
   <li>The enhanced workspace includes all functionality available in the agent workspace</li>
   <li>No migration, integrations, development or setup required</li>
   <li>All existing configurations apply</li>
   <li>Backwards compatible for all custom widgets</li>
-  <li>Permission-based, enables brands to control which agents will be exposed and when</li>
-</ul>
+ </ul>
 </span>
 </div>
 
@@ -69,19 +57,11 @@ The new workspace provides a centralized place within LiveEngage that gives mana
 <b>Available</b>: September 16th
 <br>
 <br>
-<b>Default</b>: ON for all users with agent manager role
-<br>
-<br>
 <b>Rollout</b>:
-
 <ul>
-<li>No new or additional costs</li>
-
-<li>All users with agent manager role will automatically see the new workspace in September</li>
-
+<li> By default, turn <b>on</b> for all messaging users with agent manager role (turn off in permissions)</li> 
 <li>Best practice: enable the enhanced agent workspace (in permissions) for all managers who will use the new manager workspace</li>
-
-<li>Permission-based, enabling brands to control turning the workshop off to select users</li>
+<li>No new or additional costs</li>
 </ul>
 </span>
 </div>
@@ -93,19 +73,15 @@ The new workspace provides a centralized place within LiveEngage that gives mana
 In the near future, all admin and campaign manager tools will also adopt the enhanced UI. For the initial September rollout, the only change will be to the navigation bar.
 <br>
 <br>
-All admins and campaign managers will enjoy the existing tools and functionality with no changes.
-<br>
-<br>
-New design for the navigation bar will introduce new icons.
-<br>
-<br>
-New icon and new location to access ‘night vision’ and ‘user menu’
-<br>
-<br>
 <b>Available</b>: September 16th
+<br><br>
+<ul>
+  <li>All admins and campaign managers will enjoy the existing tools and functionality with no changes </li>
+  <li>New design for the navigation bar will introduce new icons </li>
+  <li>New icon and new location to access ‘night vision’ and ‘user menu’</li>
+  <li>There will not be an option to revert the new navigation. It will appear by default to all users</li>
+</ul>
 <br>
-<br>
-There will not be an option to revert the new navigation. It will appear by default to all users.
 </span>
 </div>
 
@@ -115,25 +91,21 @@ There will not be an option to revert the new navigation. It will appear by defa
 
 For brands that have not yet upgraded to asynchronous messaging, the effect of the new experiences will be nominal.
 <br>
-<br>
-All live chat users will continue to use the same tools and workspaces.
-<br>
-<br>
 The only change is the new navigation that will appear to all users.
-<br>
-<br>
-New design for the navigation bar will introduce new icons.
-<br>
-<br>
-New icon and new location to access the ‘‘user menu’ where agents change their online and away statuses.
-<br>
-<br>
-For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts.
 <br>
 <br>
 <b>Available</b>: September 16th
 <br>
 <br>
-There will not be an option to revert the new navigation.  It will appear by default to all users.
+<ul>
+  <li>All live chat users will continue to use the same tools and workspaces</li>
+  <li>New design for the navigation bar will introduce new icons</li>
+  <li>New icon and new location to access the ‘‘user menu’ where agents change their online and away statuses</li>
+  <li>There will not be an option to revert the new navigation.  It will appear by default to all users </li>
+</ul>
+<br>
+<b>For brands that have live chat agents accepting messaging conversations as well </b>- please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts.
+<br>
+
 </span>
 </div>
