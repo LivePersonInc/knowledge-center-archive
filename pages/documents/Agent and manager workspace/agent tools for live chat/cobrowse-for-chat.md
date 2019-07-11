@@ -134,12 +134,17 @@ The following CoBrowse elements can also be configured:
 ![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
-5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+5\. By mousing over the top bar, agents are able to switch to full screen mode and view wider websites easily.
+
+![](/img/cobrowse-for-live-chat-11.png)
+
+{:start="6"}
+6\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
 
 ![](/img/cobrowse-for-live-chat-10.png)
 
-{:start="6"}
-6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+{:start="7"}
+7\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
