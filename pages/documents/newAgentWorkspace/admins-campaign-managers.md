@@ -12,13 +12,16 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-All admin and campaign manager tools will adopt the enhanced UI in the near future. For the initial September rollout, the only change will be to the navigation bar, which has been updated with new icons. All admins and campaign managers will continue to enjoy existing tools and functionalities with no changes.
+For the September rollout, the only change for admin and campaign manager roles will be to the navigation bar, which has been updated with new icons.
+
+## New navigation
+
+![alt text](img/admin-camapaign-manager-2.png){:class="newagent"}
 
 {: .notice}
 **Please note:** The enhanced UI will be available from September 16th and will appear by default to all users. There is **not** an option to revert it.  
 
-![alt text](img/admin-camapaign-manager-2.png){:class="newagent"}
-
+## Icon glossary 
 
 | Icon        | Meaning           
 | ------------- |-------------|
