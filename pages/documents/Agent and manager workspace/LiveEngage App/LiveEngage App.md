@@ -524,3 +524,28 @@ In this state the “cactus” image will be display on right panel with the lab
 
 {: .notice}  
 The list of agents available are according the agent in the manager agent group
+
+## Notes
+
+Please note that the following features are currently not available in the App and are only available in the web version:
+
+* Custom Widgets
+* Consumer info widget
+* Engagement history widget
+* Summary widget
+* Transfer to skill
+* Transfer to agent
+* Conversation Status filters
+* Closed conversations in list (agent)
+* Data Bar
+* Manual SLA
+* View structured content carousel
+* Secure forms
+* Resume conversations
+* Send Structured Content (Quick Replies, Cards & Carousel)
+* View and share photo (consumer to agent)
+* View and share files (agent to consumer)
+* Audio from consumer to agent
+* Post Conversation Survey - Agent visibility only
+* CoBrowse
+* Hyperlinks
