@@ -54,7 +54,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-Queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
-* ![](/img/Messaging_segments1-1.png)
+![](/img/Messaging_segments1-1.png)
 
 ## Metrics
 
