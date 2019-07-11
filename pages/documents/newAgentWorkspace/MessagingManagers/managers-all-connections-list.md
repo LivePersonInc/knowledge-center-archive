@@ -11,3 +11,7 @@ date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
 ---
+
+The All Connections list includes all of the conversations your agents have handled historically.
+
+![alt text](img/new-manager-workspace-6.png)
