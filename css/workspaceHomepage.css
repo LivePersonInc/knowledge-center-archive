@@ -125,5 +125,15 @@ h3 {
 }
 
 .bigAgent {
-  width: 1150px;
+  width: 83%;
+}
+
+@media screen and (max-width:850px){
+  .homepageRow {
+    flex-wrap: wrap;
+  }
+
+  .homepageBox:first-child {
+      margin-bottom: 35px;
+  }
 }

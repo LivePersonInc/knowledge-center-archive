@@ -572,7 +572,7 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Supported"
-     - featureName: Post conversation survey 
+  - featureName: Post conversation survey 
     channels:
     - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
