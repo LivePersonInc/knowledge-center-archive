@@ -3,8 +3,8 @@
   subcategories:
     - subcategoryname: The enhanced agent workspace
     - subcategoryname: User guide
-    - subcategoryname: Configuration
     - subcategoryname: FAQs
+    - subcategoryname: Configuration
     - subcategoryname: Training deck
     - subcategoryname: Tutorial
     - subcategoryname: Roadmap
@@ -22,15 +22,15 @@
 - categoryname: Admins & campaign managers
   image: admins-campaigns
   subcategories:
-    - subcategoryname: New icons
+    - subcategoryname: New navigation
 
 - categoryname: Live chat agents & managers
   image: agents-managers
   subcategories:
-    - subcategoryname: Find the new status button
+    - subcategoryname: New navigation & status button
 
 - categoryname: Consumer experience
   image: consumer-experience
   subcategories:
-    - subcategoryname: New web messaging window template
+    - subcategoryname: The new web messaging window
     - subcategoryname: Configuring the new window

@@ -52,17 +52,6 @@ module Jekyll
       # Stop if we could't parse with HTML
       return content unless doc
 
-      doc.css('img').each do |img|
-
-        attributes.each do |attr, value|
-
-          if attr.downcase == 'alt'
-            next unless img.get_attribute('alt') !~ /.*/
-          end
-          img.set_attribute(attr, value)
-        end
-      end
-
       doc.css('a').each do |a|
 
         attributes.each do |attr, value|
