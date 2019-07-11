@@ -1,11 +1,11 @@
 ---
-pagename: New web messaging window template
+pagename: New web messaging window
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
 subtitle: for all LiveEngage users - coming September 2019
 level3: ''
-permalink: consumer-experience-new-web-messaging-window-template.html
+permalink: consumer-experience-new-web-messaging-window.html
 layout: newAgentWorkspaceHomepage
 ---
 
