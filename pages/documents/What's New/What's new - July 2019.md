@@ -12,8 +12,6 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson in the following weeks - all designed to help you make even more meaningful connections.
 
-![](/img/03_VimeoThumbnail_Mai19 (1).jpg)
-
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/347244478?autoplay=1&loop=1&autopause=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## The new LiveEngage App
