@@ -54,7 +54,7 @@ The "in queue" widget presents the number of conversations currently waiting for
 * A breakdown of "in-queue" conversations by skill is shown.
 * Conversations assigned to the "UNASSIGNED" skill will also be included in the in queue conversations value.
 
-![](img/new-manager-workspace-use-case-1.png)
+![](img/new-manager-workspace-use-case-1.png){:class="newagent"}
 
 ### Metrics widget
 
@@ -65,7 +65,7 @@ The metrics widget provides a high level "health check" of your group’s real-t
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
 
-![](img/new-agent-workspace-1.png)
+![](img/new-agent-workspace-1.png){:class="newagent"}
 
 ### Agents widget
 
@@ -78,7 +78,7 @@ The agent widget shows all agents under the manager which are currently logged i
 * **LOAD** - Total weight of the assigned conversations divided by the agent’s configured maximum number of high-intensity conversations. **Note**: This metric is not affected by the time filter.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe. Attributed to the last assigned agent of the conversation.
 
-![](img/new-agent-workspace-2.png)
+![](img/new-agent-workspace-2.png){:class="newagent"}
 
 ### Conversations widget
 
