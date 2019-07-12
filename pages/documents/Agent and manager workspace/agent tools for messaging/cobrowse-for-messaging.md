@@ -1,5 +1,5 @@
 ---
-pagename: CoBrowse for web messaging
+pagename: CoBrowse for messaging
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
@@ -11,9 +11,9 @@ isNew: false
 date: 2019-01-30 14:28:09 +0000
 
 ---
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
+With CoBrowse, agents and visitors browse a brand's website together. Each can see a virtual mouse cursor of the other, along with illustrations of where they are typing. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors. To focus the visitor, the agent can animate elements on the visitor screen by:
+To focus the visitor, the agent can also animate elements on the visitor screen by:
 
 * Double clicking on the element will display a yellow circle around the cursor.
 * Ctrl + left mouse - will animate the element with a wiggle effect.

@@ -16,7 +16,9 @@ date: 2019-01-30 14:43:16 +0000
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238900340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors. To focus the visitor, the agent can animate elements on the visitor screen by:
+With CoBrowse, agents and visitors browse a brand's website together. Each can see a virtual mouse cursor of the other, along with illustrations of where they are typing. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
+
+To focus the visitor, the agent can also animate elements on the visitor screen by:
 
 * Double clicking on the element will display a yellow circle around the cursor.
 * Ctrl + Left mouse - will animate the element with a wiggle effect.
