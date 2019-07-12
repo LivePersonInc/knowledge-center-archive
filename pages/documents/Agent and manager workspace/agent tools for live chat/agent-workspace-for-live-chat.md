@@ -178,8 +178,9 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 ![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
-2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+1. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, password fields are automatically masked. Other fields such as credit card numbers can also be configured as masked.
+
+1. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the agent workspace
 

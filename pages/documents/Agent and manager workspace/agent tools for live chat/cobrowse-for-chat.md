@@ -141,7 +141,7 @@ The following CoBrowse elements can also be configured:
 ![](/img/cobrowse-for-live-chat-11.png)
 
 {:start="6"}
-6\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+6\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, password fields are automatically masked. Other fields such as credit card numbers can also be configured as masked.
 
 ![](/img/cobrowse-for-live-chat-10.png)
 
