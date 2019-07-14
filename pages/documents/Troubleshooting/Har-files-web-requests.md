@@ -79,14 +79,14 @@ Microsoft's[ Using Windows Internet Explorer Developer Tools Network Capture](ht
 
 ## Generating a HAR File from Safari
 
-Safari comes with its own[ Safari Web Development Tools](https://developer.apple.com/technologies/safari/developer-tools.html).
+Safari comes with its own [Safari Web Development Tools](https://support.apple.com/en-il/guide/safari-developer/dev073038698/mac).
 
 ## Recording web traffic with Fiddler
 
 {: .notice}  
 Fiddler is not part of LivePerson's product set. Although we recommend using it, LivePerson does not provide support for Fiddler.
 
-### Instructions: 
+### Instructions:
 
 The two main steps required to record web traffic with Fiddler are:
 

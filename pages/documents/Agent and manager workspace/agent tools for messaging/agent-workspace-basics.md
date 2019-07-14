@@ -30,7 +30,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 * **Unassigned** - Conversations in the queue that are not yet assigned an agent, this figure will provide visibility into upcoming workloads
 * **Overdue** - Number of conversations that have passed the SLA deadline for reply
 * **Soon to be overdue** - Number of conversations that are within 5 min of surpassing the SLA deadline
-* **CSAT** - Average [CSAT](http://oavrxoiy0ht8aq.instant.forestry.io/contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat) assigned to you from all the conversations conducted in the current shift
+* **CSAT** - Average [CSAT](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat) assigned to you from all the conversations conducted in the current shift
 
 ## Beginning your shift
 
