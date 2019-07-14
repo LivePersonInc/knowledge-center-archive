@@ -49,7 +49,7 @@ function navigateContent(url) {
 				$('#defaultwrapper').removeClass('botwrapper');
 				$('#resetcontainer').css('display', 'none');
 			}
-			anchors.add('h2');
+			anchors.add('h2, h3');
 			$('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();

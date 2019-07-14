@@ -24,6 +24,15 @@ layout: newAgentWorkspaceHomepage
 
 ## Quick summary: new experiences by role
 
+<div id="newxAnchors">
+  <ul id="newxAnchorsList">
+    <li class="newxAnchor"><a data-scroll href="#for-messaging-agents-enhanced-workspace">For messaging agents: enhanced workspace</a></li>
+    <li class="newxAnchor"><a data-scroll href="#for-messaging-managers-brand-new-workspace">For messaging managers: brand new workspace!</a></li>
+    <li class="newxAnchor"><a data-scroll href="#for-admins-campaign-managers-new-navigation">For admins & campaign managers: new navigation</a></li>
+    <li class="newxAnchor"><a data-scroll href="#for-all-live-chat-users">For all live chat users</a></li>
+  </ul>
+</div>
+
 <div class="contentRow">
 <div class="contentTitle"><img class="titleimage" src="img/enhanced-workspace.svg" /><h3>For messaging agents: enhanced workspace</h3></div>
 <span class="contentRowText">Agents serving consumers on asynchronous messaging are receiving new tools to help them better manage conversations and be more effective throughout their day.
@@ -59,7 +68,7 @@ The new workspace provides a centralized place within LiveEngage that gives mana
 <br>
 <b>Rollout</b>:
 <ul>
-<li> By default, turn <b>on</b> for all messaging users with agent manager role (turn off in permissions)</li> 
+<li> By default, turn <b>on</b> for all messaging users with agent manager role (turn off in permissions)</li>
 <li>Best practice: enable the enhanced agent workspace (in permissions) for all managers who will use the new manager workspace</li>
 <li>No new or additional costs</li>
 </ul>
