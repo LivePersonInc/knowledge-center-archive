@@ -27,8 +27,8 @@ The new template includes:
 
 ## Invitation
 
-{: .sidebyside}
-![alt text](img/new-window-template-3.png){:class="newagent"}![alt text](img/new-window-template-4.png){:class="newagent"}
+{: .smallersidebyside}
+![alt text](img/new-messaging-invitation-1.png){:class="newagent"}![alt text](img/new-messaging-invitation-1.png)
 
 ## Enablement
 

@@ -1311,6 +1311,17 @@ div#cookie-law {
   display: none !important;
 }
 
+.smallersidebyside {
+  display: flex;
+}
+
+.smallersidebyside img {
+  width: 10%;
+  height: 30%;
+  margin: unset;
+  margin-right: 40px;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
