@@ -426,7 +426,7 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 Brands will be able to utilize the Conversation Builder for bots in various different languages including German and Japanese , allowing the NLU intent analysis as an integration into Conversation Builder.
 
-## Fallback configuration by skill
+## Fallback configuration by skill (coming soon)
 
 ### Type: New functionality
 
