@@ -178,6 +178,8 @@ such as Agent-level and Hour of Day
 
 **Questions answered:**  What does my program’s end-to-end conversation flow look like in terms of data points? Are there any areas of the conversation that are adversely impacting consumer experience?
 
+## Performance metrics
+
 | Metric Name | Metric formula | Definition |
 
 | --- | --- | --- |
@@ -193,3 +195,47 @@ such as Agent-level and Hour of Day
 | RCR 1 Day | REPEAT 1 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement also indicates conversations that are closed prematurely, although these conversations are not being reopened as urgently as 1 Hour Repeats. |
 
 | RCR 3 Day | REPEAT 3 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement indicates the threshold at which a reopened conversation is still considered unresolved. |
+
+## Automation contents
+
+### Bot Impact | Weekly
+
+**Analysis objective:** Illustrate the impact of automation on Efficiency and Experience KPIs over time.
+
+**Questions answered:** Are my current bot implementations increasing Efficiency while keeping constant or improving Customer Experience measures?
+
+### Bot Impact | daily
+
+**Analysis objective:** Investigate questions from Weekly Bot Impact by drilling down to the daily level.
+
+**Questions answered:** Are my current bot implementations increasing Efficiency while keeping constant or improving Customer Experience measures?
+
+### AB test
+
+**Analysis objective:** Compare Primary KPIs for different date ranges (pre-bot and post-bot) and user types (bots and humans).
+
+**Questions answered:** How do I use Test and Learn methodology with bots?
+
+### Routing bot
+
+**Analysis objective:** Provide insight into each step of a Routing Bot conversation, and show break-points where consumers leave the conversation either volunatarily or involuntarily.
+
+**Questions answered:** How does Conversation Flow change when a Routing Bot is involved?
+
+### Task bot
+
+**Analysis objective:** Task Bots can serve many different purposes, so this visualization supports the comparison of Bots and Humans in terms of both Efficiency and Experience metrics.
+
+**Questions answered:** What is the difference in performance between Bots and Humans for Task Bots?
+
+### Bot Comparison by Date
+
+**Analysis objective:** View success criteria over time for either all bots at once or one particular bot.
+
+**Questions answered:** How are my Bot KPIs trending over time?
+
+### Bot Comparison by Bot
+
+**Analysis objective:**  Compare bots within a program to ensure each bot is accomplishing its intended goal.
+
+**Questions answered:**  Are any of my current Bots performing better than others in any area?
