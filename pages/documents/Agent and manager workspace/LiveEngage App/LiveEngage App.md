@@ -15,7 +15,7 @@ LivePerson's new LiveEngage App is currently available only to **Early Adopters.
 
 The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
 
-The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.  
+The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
@@ -60,7 +60,7 @@ In case there is no network available, an alert is prompted at the top of the sc
 
 ## Drawer menu
 
-After user login, the app opens and immediately display to the drawer menu.
+After the user login, the app opens and immediately and displays to the drawer menu.
 
 The draw menu consists of:
 
@@ -163,26 +163,20 @@ Tapping the send icon adds the text to the conversation and sends it to the cons
 
 ### Conversation message: consumer side
 
-Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
-
-Below the consumer bubble there is time stamp
+Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp. 
 
 ### Conversation message: agent side
 
 Agent side conversation messages appear with a white background.  
-Below the agent bubble there is indication for the agent name and a time stamp
-
-In addition there is a message status icon “v” indication: sent, delivered and read. (similar to the whatsApp indications)
+Below the agent bubble there is an indication for the agent name and a time stamp. In addition there is a message status icon “v” indication: sent, delivered and read (similar to the whatsApp indications).
 
 ### Auto messages/system messages
 
-Automatic messages or system messages display in a grey color without a bubble centered in the screen
+Automatic messages or system messages display in a grey color without a bubble centered in the screen.
 
 ### Conversation history
 
-When agent accept new conversation he sees the new message arrive. In addition, if there are previous conversation history the last appear as well
-
-The agent can scroll up to reveal the history additional closed messaging conversations with the consumer.
+When an agent accepts new conversations, he sees the new message arrive. In addition, if there are previous conversations in the history the last conversations will appear as well. The agent is able to scroll up to reveal the history of additional closed messaging conversations with the consumer.
 
 ## Agent action menu
 
