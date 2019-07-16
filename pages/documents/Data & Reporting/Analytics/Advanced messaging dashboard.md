@@ -367,19 +367,3 @@ Unique number of Consumer IDs in a given 24 hour period where one of the followi
 * A message was sent by either an agent or a consumer within that 24 hour period for the configured timezone.
 * A conversation was opened by any means other than sending a message. This occurs in some SMS and non-LivePerson bot conversations where an interaction is facilitated by a third party.
 
-## Usage metrics
-
-| Metric Name | Metric formula | Definition |
-| --- | --- | --- |
-| Total DAR |  \[1_Bot_Only_DAR\]+\[2_Human_Only_DAR\]+\[3_Consumer_Only_DAR\]+\[4_Human_Bot_DAR\]+\[5_Bot_Consumer_DAR\]_\[6_Human_Consumer_DAR\]+\[7_Human_Bot_Consumer_DAR\]_
-| Sum of all below DAR components. Each component represents 1 DAR per consumer on a given day. |
-| Bot Only DAR | Sum(Case((((Bot_Message>0)And(Agent_M_sage=0))And(Consumer_Message=0)),1,0)){\~+}|_Bot sends at least 1 message, Human Agent and Consumer send 0messages|
-| Human Only DAR| Sum(Case((((Bot_Message=0)And(Agent_Message>0))And(Consumer_Message=0)),1,0)){\~+}|
-|Human Agent sends at least 1 message, Bot and Consumer send 0 messages |
-|Consumer Only DAR | Sum(Case((((Bot_Message=0)And(Agent_Message=0))And(Consumer_Message>0)),1,0)){\~+}|
-|Consumer sends at least 1 message, Bot and Human Agent send 0 messages|
-|Human Bot DAR |Sum(Case((((Bot_Message>0)And(Agent_Message>0))And(Consumer_Message=0)),1,0)){\~+}|
-|Human Agent sends at least 1 message, Bot sends at least 1 message, Consumer sends 0 messages|
-|Bot Consumer DAR| Sum(Case((((Bot_Message>0)And(Agent_Message=0))And(Consumer_Message>0)),1,0)){\~+}|Bot sends at least 1 messa_e, Consumer sends at east 1 message, HumanAgent sends 0 messages_|
-|Human Consumer DAR| Sum(Case((((Bot_Message=0)And(Agent_Message>0))And(Consumer_Message>0)),1,0)){\~+}|Human Agent sends a _least 1 message, Consumer sends at least 1_message, Bot sends 0 messages|
-|Human Bot Consumer DAR |Sum(Case((((Bot_Message>0)A_d(Agent_Mesage>0))And(Consumer_Message>0)),1,0)){\~+}_|Human Agent sends at _east 1 message, Consumer sends at least 1_message, Bot sends at least 1 message|
