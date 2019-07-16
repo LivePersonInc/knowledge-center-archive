@@ -275,9 +275,9 @@ When returning multiple conversation back to queue, a progress bar pop-up will a
 {: . notice}  
 Only open and assigned conversation will be returned to the queue.
 
-If some of the open conversations were not successfully returned to queue, a proper message will be prompted and these conversation will remain selected/
+If some of the open conversations were not successfully returned to queue, a proper message will be prompted and these conversations will remain selected.
 
-If all conversation were successfully return to queue they will disappear from the agent list.
+If all conversations were successfully returned to queue, they will disappear from the agent list.
 
 This is relevant for agent managers who can view closed and in queue conversations.
 
