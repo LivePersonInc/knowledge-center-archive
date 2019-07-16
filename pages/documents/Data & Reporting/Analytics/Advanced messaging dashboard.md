@@ -9,7 +9,6 @@ level3: ''
 permalink: data-reporting-analytics-advanced-messaging-dashboard-user-guide.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## Key Components of the Dashboard
@@ -275,3 +274,35 @@ Do any of the above metrics differ based on day of week or operating hours?
 | Transfer From Skill = NONE | n/a | Skill was transferred from the queue and did not have a previous skill assigned. |
 
 | Transfer To Skill = NONE | n/a | Skill was transferred to the queue.|
+
+## Agent effectiveness - contents
+
+### Efficiency 
+
+**Analysis objective:** Show how effectively the brand is managing the balance between Demand (Conversations) and Supply (Labor).
+
+**Questions answered:**  How are my primary and secondary efficiency KPIs trending over time?
+
+### Experience
+
+**Analysis objective:** Demonstrate how program operations impact the consumer Experience.
+
+**Questions answered:**   How are my Operations impacting consumer experience?
+
+### Magic Quadrant 
+
+**Analysis objective:** Group and Agent-level visualization of the relationship between Efficiency (CCPLH) and Experience (MCS).
+
+**Questions answered:**  Where do my current Agents/Groups stand on the curve between MCS and CCPLH?
+
+### Agent Analysis
+
+**Analysis objective:** Detailed Agent-level analysis showing how Primary KPIs (CCPLH and MCS) are impacted by other agent behaviors such as response times and availability.
+
+**Questions answered:**   Who are my top agents in terms of Efficiency andExperience? Are those agents engaging in positive behaviors across the Operations spectrum?  Which agents should I use for coaching opportunities?
+
+### Weekly Detail
+
+**Analysis objective:** Use this tab to keep a weekly pulse on overall operations performance and measure the weekly impact of your Group and Agent-level coaching initiatives.
+
+**Questions answered:**   What is the program impact of recent Operations changes on program KPIs?
