@@ -325,7 +325,7 @@ When at least one new message is received when the app is in the background, an 
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-\**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
+**Customer ID:**  showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -354,7 +354,7 @@ User can choose between three options:
 ### The Agent Manager Capabilities
 
 {: .important}  
-All of the functionality for agent users apply to agent manager as well
+All of the functionality for agent users apply to agent manager as well.
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
 
@@ -374,7 +374,7 @@ In each conversation entry, there is an indication of the assigned agent
 
 ### Join conversation icon
 
-**There is a “join” icon for conversation the manager is joined to**
+There is a “join” icon for the conversation that the manager is joined to
 
 ### The ‘All’ tab connections list
 
