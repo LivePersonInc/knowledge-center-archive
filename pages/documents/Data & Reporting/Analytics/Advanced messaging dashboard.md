@@ -347,142 +347,110 @@ Do any of the above metrics differ based on day of week or operating hours?
 
 | --- | --- | --- |
 
-Resolution Rate (Based on
+| Resolution Rate (Based on 0-3 Day RCR) | REPEAT 0-3 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID DID NOT OPEN a subsequent conversation within 3 days. This is LivePerson's standard measure of a resolved conversation. |
 
-0-3 Day RCR)
+| RCR Based 4-30 Day Adoption Rate | REPEAT 4-30 DAYS / CLOSED | CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation after 3 days and within 30 days. This is LivePerson's standard measure of consumers returning for new cases, and thus adopting messaging.NOTE - this metric in its current state serves as a directional proxy for channel adoption, but it is still not an official adoption figure since it only covers a 30 day period. If you compare this number to voice, be sure to compare like-for-like time periods. | 
 
-REPEAT 0-3 DAYS / CLOSED
+| Adjusted CCPLH (RCR and Load) | (\[CLOSED CONVERSATIONS PER LOGIN HOUR\]*\[ RESOLUTION RATE\])/\[AGENT LOAD\] | Closed Conversations Per Login Hour only tells one piece of the agent efficiency story. | This metric adjusts CCPLH for case resolution and agent capacity.
 
-CONVERSATIONS
+| Est. Login Hours Spent on Unresolved | REPEAT 0-3 DAYS / ACTUAL CCPLH Holding CCPLH constant, this is the estimated agent time spent on taking repeat conversations within 3 days due to cases not being resolved in the initial conversation. | 
 
-Percentage of Closed Conversations where the same ConsumerID DID NOT OPEN a
+| Agent or Consumer Close Rate | AGENT CLOSE RATE + CONSUMER CLOSE RATE | The Agent and Consumer Close Rates are consolidated into one metric in this analysis, because the primary focus is on the relationship between SYSTEM CLOSE RATE and RCR
 
-subsequent conversation within 3 days. This is LivePerson's standard measure of a
+| RCR 1 HOUR REPEAT 1 HR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely and are UNRESOLVED. |
 
-resolved conversation.
+| RCR 1 DAY | REPEAT 1 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement also indicates conversations that are UNRESOLVED, although these conversations are not being reopened as urgently as 1 Hour Repeats. |
 
-RCR Based 4-30 Day
+| RCR 3 DAY | REPEAT 3 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement indicates the threshold at which a reopened conversation is still considered UNRESOLVED. |
 
-Adoption Rate
+| RCR 7 DAY | REPEAT 7 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 3 days and 7 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED. |
 
-REPEAT 4-30 DAYS / CLOSED
+| RCR 14 DAY | REPEAT 14 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 7 days and 14 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED. |
 
-CONVERSATIONS
+| RCR 30 DAY | REPEAT 30 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 14 days and 30 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED. |
 
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+## Capacity contents
 
-conversation after 3 days and within 30 days. This is LivePerson's standard measure of
+### Agent Load | Day of Week and Hour
 
-consumers returning for new cases, and thus adopting messaging.
+**Analysis objective:** Introduction to using Agent Load and Active Rate (Active Load) as a measure of how busy agents are. This particular analysis highlights how Capacity metrics impact consumer experience (TTFR, MCS).
 
-\**NOTE - this metric in its current state serves as a directional proxy for channel adoption,
+**Questions answered:** How busy are my agents?  Of the conversations filling my agents’ queues, what percentage are actually active conversations requiring agent attention?
 
-but it is still not an official adoption figure since it only covers a 30 day period. If you
+### Agent Load | Group and Agent
 
-compare this number to voice, be sure to compare like-for-like time periods.
+**Analysis objective:**  Drill further into Agent Load by evaluating at the Group and Agent levels. Click anywhere on the bar graphs to filter the "Agent Load by Date" graph below.
 
-Adjusted CCPLH (RCR and
+**Questions answered:** How busy are my agents?  Of the conversations filling my agents’ queues, what percentage are actually active conversations requiring agent attention?
 
-Load)
+### Agent Load Trend | Date
 
-(\[CLOSED CONVERSATIONS PER
+**Analysis objective:**  Monitor overall Agent Load and Active Rate over time to measure incremental improvements due to capacity setting changes.
 
-LOGIN HOUR\]*\[ RESOLUTION
+**Questions answered:** How have changes in capacity settings impacted Agent Load?
 
-RATE\])/\[AGENT LOAD\]
+### Demand, Supply, and Load Heat Map
 
-Closed Conversations Per Login Hour only tells one piece of the agent efficiency story.
+**Analysis objective:**  Show relationship between Demand (Opened Conversations), Supply (Login Hours), Agent Load, and Active Rate by day of week and hour. This highlights potential areas of opportunity in staffing.
 
-This metric adjusts CCPLH for case resolution and agent capacity.
+**Questions answered:** How well are Login Hours paired with Opened Conversations at each interval?  How do Demand and Supply impact Agent Load and Active Rate?
 
-Est. Login Hours Spent on
+## Capacity metrics
 
-Unresolved
+| Metric Name | Metric formula | Definition |
 
-REPEAT 0-3 DAYS / ACTUAL CCPLH Holding CCPLH constant, this is the estimated agent time spent on taking repeat
+| --- | --- | --- |
 
-conversations within 3 days due to cases not being resolved in the initial conversation.
+| Agent Load | AVG. FILLED MESSAGING SLOTS / MAX SLOTS | The percentage (%) of the agent’s maximum capacity that is occupied by messaging conversations the agent is assigned to. |
 
-Agent or Consumer Close
+| Active Rate | ACTIVE CONVERSATIONS / ASSIGNED CONVERSATIONS | The percentage (%) of conversations assigned to agents which are active (occupy a full messaging slot). |
 
-Rate
+| TTFR | REPEAT 3 DAYS / CLOSED CONVERSATIONS | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Day of Week and Hour panel). |
 
-AGENT CLOSE RATE + CONSUMER
+## Usage contents
 
-CLOSE RATE
+### Daily Active Relationship (DAR) Summary
 
-The Agent and Consumer Close Rates are consolidated into one metric in this analysis,
+**Analysis objective:** Ongoing report showing Daily Active Relationships (DARs), as well as the methodology behind the calculation.
 
-because the primary focus is on the relationship between SYSTEM CLOSE RATE and
+**Questions Answered:** How am I tracking toward my monthly billing criteria?
 
-RCR
+{: .notice}  
+Advanced Messaging Dashboard represents LivePerson’s standard methodology for billing Daily Active Relationships, and does not take any custom billing scenarios into account.
 
-Explore
+**LivePerson Standard DAR Methodology**
 
-Resolution | Metrics to Know (Continued)
+Unique number of Consumer IDs in a given 24 hour period where one of the following occurred:
 
-Metric Name Metric Formula Definition
+* A message was sent by either an agent or a consumer within that 24 hour period for the configured timezone.
+* A conversation was opened by any means other than sending a message. This occurs in some SMS and non-LivePerson bot conversations where an interaction is facilitated by a third party.
 
-RCR 1 HOUR REPEAT 1 HR / CLOSED
+## Usage metrics
 
-CONVERSATIONS
+| Metric Name | Metric formula | Definition |
 
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+| --- | --- | --- |
 
-conversation within 1 hour. This measurement is a prime indicator of conversations that are closed
+| Total DAR |  \[1_Bot_Only_DAR\]+\[2_Human_Only_DAR\]+\[3_Consumer_Only_DAR\]+\[4_Human_Bot_DAR\]+\[5_Bot_Consumer_DAR\]_\[6_Human_Consumer_DAR\]+\[7_Human_Bot_Consumer_DAR\]_
 
-prematurely and are UNRESOLVED.
+| Sum of all below DAR components. Each component represents 1 DAR per consumer on a given day. |
 
-RCR 1 DAY REPEAT 1 DAY / CLOSED
+| Bot Only DAR | Sum(Case((((Bot_Message>0)And(Agent_M_sage=0))And(Consumer_Message=0)),1,0)){\~+}|_Bot sends at least 1 message, Human Agent and Consumer send 0messages|
 
-CONVERSATIONS
+| Human Only DAR| Sum(Case((((Bot_Message=0)And(Agent_Message>0))And(Consumer_Message=0)),1,0)){\~+}|
 
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+|Human Agent sends at least 1 message, Bot and Consumer send 0 messages |
 
-conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR
+|Consumer Only DAR | Sum(Case((((Bot_Message=0)And(Agent_Message=0))And(Consumer_Message>0)),1,0)){\~+}|
 
-1 Hour (for example) is not included. This measurement also indicates conversations that are
+|Consumer sends at least 1 message, Bot and Human Agent send 0 messages|
 
-UNRESOLVED, although these conversations are not being reopened as urgently as 1 Hour Repeats.
+|Human Bot DAR |Sum(Case((((Bot_Message>0)And(Agent_Message>0))And(Consumer_Message=0)),1,0)){\~+}|
 
-RCR 3 DAY REPEAT 3 DAYS / CLOSED
+|Human Agent sends at least 1 message, Bot sends at least 1 message, Consumer sends 0 messages|
 
-CONVERSATIONS
+|Bot Consumer DAR| Sum(Case((((Bot_Message>0)And(Agent_Message=0))And(Consumer_Message>0)),1,0)){\~+}|Bot sends at least 1 messa_e, Consumer sends at east 1 message, HumanAgent sends 0 messages_|
 
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+|Human Consumer DAR| Sum(Case((((Bot_Message=0)And(Agent_Message>0))And(Consumer_Message>0)),1,0)){\~+}|Human Agent sends a _least 1 message, Consumer sends at least 1_message, Bot sends 0 messages|
 
-conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning
-
-RCR 1 Hour (for example) is not included. This measurement indicates the threshold at which a
-
-reopened conversation is still considered UNRESOLVED.
-
-RCR 7 DAY REPEAT 7 DAYS / CLOSED
-
-CONVERSATIONS
-
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
-
-conversation between 3 days and 7 days. This RCR measurement is mutually exclusive, meaning
-
-RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
-
-RCR 14 DAY REPEAT 14 DAYS / CLOSED
-
-CONVERSATIONS
-
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
-
-conversation between 7 days and 14 days. This RCR measurement is mutually exclusive, meaning
-
-RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
-
-RCR 30 DAY REPEAT 30 DAYS / CLOSED
-
-CONVERSATIONS
-
-Percentage of Closed Conversations where the same ConsumerID opened a subsequent
-
-conversation between 14 days and 30 days. This RCR measurement is mutually exclusive, meaning
-
-RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
+|Human Bot Consumer DAR |Sum(Case((((Bot_Message>0)A_d(Agent_Mesage>0))And(Consumer_Message>0)),1,0)){\~+}_|Human Agent sends at _east 1 message, Consumer sends at least 1_message, Bot sends at least 1 message|
