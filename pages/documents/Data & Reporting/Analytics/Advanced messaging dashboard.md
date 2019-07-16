@@ -13,11 +13,11 @@ isNew: false
 ---
 ## Key Components of the Dashboard
 
-Monitor - summary analyses clearly highlight Primary Messaging KPI trends over time to show successes and opportunities for improvement.
+### Monitor 
+Clearly highlight Primary Messaging KPI trends over time to show successes and opportunities for improvement.
 
-Diagnose - Detailed reporting allows the user to drill into segments of a program to pinpoint issues and
-
-track improvement.
+### Diagnose 
+Detailed reporting allows the user to drill into segments of a program to pinpoint issues and track improvement.
 
 ### Test and Learn
 
