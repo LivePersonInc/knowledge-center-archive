@@ -212,8 +212,10 @@
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
-    - subcategoryname: Data Transporter user guide
-
+    - subcategoryname: Analytics
+      pages:
+        - pagename: "Advanced messaging dashboard user guide"
+        - pagename: "Data Transporter user guide"        
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
