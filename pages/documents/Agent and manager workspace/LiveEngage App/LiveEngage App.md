@@ -190,7 +190,7 @@ In case the conversation is no longer relevant and is not needed for future refe
 
 ### Inactive conversations
 
-Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact the LivePerson account team to configure this feature.
+Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
 ![](/img/agent action menu app.png)
 
@@ -204,43 +204,43 @@ The categories and items are according to the relevant conversation skill (as se
 
 ### Sending Predefined content
 
-Tapping a title populates the message text field with the predefined content. To user can tap the input field to edit the text. Closing the panel can be done via the Close button or tapping anywhere outside the panel
+Tapping a title populates the message text field with the predefined content. The user can tap the input field to edit the text. Closing the panel can be done via the "close" button or by tapping anywhere outside the panel
 
 {: .notice}  
 There is no option to collapse / expand categories and predefined content is only available in English (US).
 
 ## Structured content
 
-Users using the app, can view structured content sent by bots or other agents using the LiveEngage web. The card buttons are disabled.
+Users of the app can view structured content sent by bots or other agents using the LiveEngage web however, the card buttons are disabled.
 
 {: .notice}  
-The app currently support only basic cards. Carousel will be added in next versions
+The app currently support only basic cards. Carousel will be added in the next version of the app.
 
 ## Quick replies
 
-Users using the app, can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message
+Users of the app can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message.
 
 ### Expand/Collapse Quick replies
 
-By default, quick replies messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons
+By default, quick reply messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons.
 
-Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side.
+Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for the consumer side.
 
 ![](/img/SC_QR_app (1).png)
 
 ### Link preview
 
-When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
+When sending a URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
 ## The connections list
 
 ### Connection list order
 
-The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easier identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
+The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
-The list is sorted in according to the response time (SLA) if there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent. (top to bottom)
+The list is sorted according to the response time (SLA). If there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent  (top to bottom).
 
-**The list dynamic behavior and transition**
+### The dynamic list behavior and transition
 
 When the conversation status changes, e.g. when an agent responds to an overdue conversation, the position of the conversation in the queue changes accordingly.
 
@@ -249,10 +249,10 @@ Agents can only view open conversations. In future phases it may include closed 
 
 ### Conversation list indications
 
-Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
+Conversations pending an agent response have response time indications on right side. In the case where a conversation is overdue (at the top according to sorting logic), a red bell icon is displayed
 
 {: . notice}
-**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list**
+The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
 
 ## Bulk back to queue
 
@@ -260,13 +260,13 @@ Conversations pending an agent response have response time indications on right 
 
 Users can return multiple conversations back to queue at once. By tapping and holding on the conversation area or by tapping the consumer avatar the list switches to multi-selection mode. Users can continue tapping each conversation to select/deselect it.
 
-To exit and abort multi-selection mode user can tap the ‘cancel’ button at the top bar
+To exit and abort multi-selection mode, users can tap the ‘cancel’ button on the top bar.
 
 ### Bottom action bar
 
 User can select “Mark all” to select all conversation. Once all conversation are marked the button changes to “Clear all”
 
-To return selected conversation back to queue, user can tap to “Return to queue” button.
+To return selected conversation back to queue, users can tap to “Return to queue” button.
 
 ### Returning back to queue process
 
