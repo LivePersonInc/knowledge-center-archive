@@ -72,51 +72,35 @@ Analysis (+ Link to Analysis Detail) Questions Answered
 
 ### Usage
 
-* How am I tracking toward my monthly billing criteria?
+How am I tracking toward my monthly billing criteria?
 
-How to use Tabs and Panels
+## How to use Tabs and Panels
 
-Tabs
+### Tabs
 
-● Correspond to an analysis (Automation, Agent Effectiveness, etc.)
+* Correspond to an analysis (Automation, Agent Effectiveness, etc.)
+* Contain their own set of filters, meaning you have to set filters each time you switch tabs
+* Typically contain between 3-8 Panels (see below)
 
-● Contain their own set of filters, meaning you have to set filters each time you switch tabs
+### Panels
 
-● Typically contain between 3-8 Panels (see below)
+* Correspond to individual components within an analysis
+* Maintain the filters that are set at the tab level, meaning filters do not need to be reset when navigating between panels
+* May also contain filters within the visualization, allowing you to further drill down on the data that has been selected at the Tab level.
 
-Panels
+## How to use Filters within Tabs and Panels
 
-● Correspond to individual components within an analysis
+### Filters
 
-● Maintain the filters that are set at the tab level, meaning filters do not need to be reset when
+**Tab Level**
 
-navigating between panels
+*  Apply to all Panels within a Tab
+* Default to past 28 days, all Skills, all Groups, and all User Types
 
-● May also contain filters within the visualization, allowing you to further drill down on the data that has
+**Visualization Level**
 
-been selected at the Tab level.
-
-How to use Filters within Tabs and Panels
-
-Filters
-
-● Tab Level
-
-○ Apply to all Panels within a Tab
-
-○ Default to past 28 days, all Skills, all
-
-Groups, and all User Types
-
-● Visualization Level
-
-○ Apply only to the Panel that contains the
-
-Filter
-
-○ Allow you to drill into very detailed data,
-
-such as Agent-level and Hour of Day
+* Apply only to the Panel that contains theFilter
+* Allow you to drill into very detailed data, such as Agent-level and Hour of Day
 
 ## Performance contents
 
