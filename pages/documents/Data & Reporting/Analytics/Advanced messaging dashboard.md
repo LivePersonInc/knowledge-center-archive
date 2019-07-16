@@ -273,7 +273,7 @@ Do any of the above metrics differ based on day of week or operating hours?
 
 **Questions answered:**   What is the program impact of recent Operations changes on program KPIs?
 
-## Agent effectiveness - contents
+## Agent effectiveness - metrics
 
 | Metric Name | Metric formula | Definition |
 | --- | --- | --- |
