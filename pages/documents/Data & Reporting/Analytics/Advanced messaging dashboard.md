@@ -72,12 +72,12 @@ Advanced Messaging Dashboard 3.0 contains 7 core analysis segments:
 
 Analysis (+ Link to Analysis Detail) Questions Answered
 
-### Performance 
+### Performance
 
 * How healthy are my primary Messaging KPIs in relation to LivePerson best practices?
 * How are those KPIs influenced by the end-to-end conversation flow?
 
-### Automation 
+### Automation
 
 * Are my current bot implementations increasing Efficiency while keeping constant or
 
@@ -85,16 +85,14 @@ Analysis (+ Link to Analysis Detail) Questions Answered
 
 ### Transfer
 
-*  Which Skills are conversations being sent from and to?
+* Which Skills are conversations being sent from and to?
 * Are there any breakpoints causing consumers to drop from the Transfer queue?
 
-  ### Agent Effectiveness 
-
-
+  ### Agent Effectiveness
 * How well are my operational Messaging KPIs performing over time?
 * What are my coaching opportunities?
 
-### Resolution 
+### Resolution
 
 * How much labor am I spending on repeat conversations due to unresolved cases?
 * Are my Auto-close settings causing premature closures?
@@ -106,7 +104,7 @@ Analysis (+ Link to Analysis Detail) Questions Answered
 
   conversations requiring agent attention?
 
-### Usage 
+### Usage
 
 * How am I tracking toward my monthly billing criteria?
 
@@ -156,19 +154,19 @@ such as Agent-level and Hour of Day
 
 ## Performance contents
 
-### Numbers 
+### Numbers
 
 **Analysis objective:** Outline the key high-level success metrics any Messaging program should be looking to drive at the Brand-level.
 
 **Questions answered:** How healthy are my primary Messaging KPIs in relation to LivePerson best practices?
 
-### Program Summary | Weekly 
+### Program Summary | Weekly
 
 **Analysis objective:** Show week-over-week improvements in Primary KPIs across the brand's messaging deployment.
 
 **Questions answered:** How are my primary and secondary Messaging KPIs trending on a weekly basis?
 
-### Program Summary | Daily 
+### Program Summary | Daily
 
 **Analysis objective:** Investigate questions from Weekly Program Summary by drilling down to the daily level.
 
@@ -179,3 +177,19 @@ such as Agent-level and Hour of Day
 **Analysis objective:** Demonstrate how changes in Supporting KPIs throughout a conversation influence Primary KPIs in the Program Summary.
 
 **Questions answered:**  What does my program’s end-to-end conversation flow look like in terms of data points? Are there any areas of the conversation that are adversely impacting consumer experience?
+
+| Metric Name | Metric formula | Definition |
+
+| --- | --- | --- |
+
+| Closed Conversations Per Login Hour (CCPLH) | CLOSED CONVERSATIONS / LOGIN HOURS | Efficiency measure of how many conversations were completed (closed) per hour of agent time spent logged in. |
+
+| Resolution Rate (Based on 0-3 Day RCR) | REPEAT 0-3 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID DID NOT OPEN a subsequent conversation within 3 days. This is LivePerson's standard measure of a resolved conversation. |
+
+| Agent Participation Rate | (CLOSED CONVERSATIONS - ABANDONED CONVERSATIONS) / CLOSED CONVERSATIONS| Percentage of Closed Conversations where the AGENT sent at least one message. This is the inverse of Abandon Rate. |
+
+| RCR 1 Hour | REPEAT 1 HOUR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely. |
+
+| RCR 1 Day | REPEAT 1 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement also indicates conversations that are closed prematurely, although these conversations are not being reopened as urgently as 1 Hour Repeats. |
+
+| RCR 3 Day | REPEAT 3 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement indicates the threshold at which a reopened conversation is still considered unresolved. |
