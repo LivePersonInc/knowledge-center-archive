@@ -185,7 +185,7 @@ How am I tracking toward my monthly billing criteria?
 | Human Resolution Success Rate | (1 - (TRANSFERS / HANDLED CONVERSATIONS)) * (1 - REPEAT 0-3 DAYS) | Successful closures (1-Transfer Rate) completed by Humans after Routing, multiplied by the Resolution Rate (1 - REPEAT 0-3 DAYS). This is a leading indicator of the accuracy of the Routing Bot, as well as the ability of Human Agents to fully resolve cases.|
 | Time Spent with Bot vs Human (Mins) | AVG. CONVERSATION DURATION where USER TYPE = "Human" / "Bot" / "Unassigned"| Breakdown of Avg Conversation Duration spent with the Bot, Unassigned, and with a Human. |
 | Est. Consumer Responses Sent Per Conversation | (TOTAL NO. OF AGENT RESPONSES / HANDLED CONVERSATIONS) - 1 | We measure Responses sent by the Bot or Agent as a proxy for the number of Consumer actions taken to navigate through the Routing Bot. For example, if a Bot sends 5 Responses per Conversation, this implies that the Consumer has had to respond 4 times.|
-| Bot Routing Success Rate | TRANSFERS / HANDLED CONVERSATIONS Successful transfers (routes) completed by Routing Bot. |
+| Bot Routing Success Rate | TRANSFERS / HANDLED CONVERSATIONS | Successful transfers (routes) completed by Routing Bot. |
 | Close Rate | 1 - BOT ROUTING SUCCESS RATE | Percentage of Closed Conversations that were closed while with the Routing Bot. Ideally this metric will be very low. |
 | In Queue Abandon Rate | IN QUEUE ABANDONS / CONVERSATIONS IN QUEUE | Percentage of Conversations In Queue that are abandoned before being assigned.
 | Assignment Rate | ASSIGNED CONVERSATIONS / CONVERSATIONS IN QUEUE | Percentage of Conversations In Queue that are assigned. |
