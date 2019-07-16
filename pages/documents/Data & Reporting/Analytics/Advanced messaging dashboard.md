@@ -306,3 +306,183 @@ Do any of the above metrics differ based on day of week or operating hours?
 **Analysis objective:** Use this tab to keep a weekly pulse on overall operations performance and measure the weekly impact of your Group and Agent-level coaching initiatives.
 
 **Questions answered:**   What is the program impact of recent Operations changes on program KPIs?
+
+## Agent effectiveness - contents
+
+| Metric Name | Metric formula | Definition |
+
+| --- | --- | --- |
+
+| Adjusted CCPLH (RCR and Load) | (\[CLOSED CONVERSATIONS PER LOGIN HOUR\]*\[ RESOLUTION RATE\])/\[AGENT LOAD\] | Closed Conversations Per Login Hour only tells one piece of the agent efficiency story. This metric adjusts CCPLH for case resolution and agent capacity. |
+
+| ART and ART During Agent Shift | n/a | Same as the AVG RESPONSE MINS BY AGENT DURING SHIFT metric (name shortened to fit on graph on Experience panel and grids on Agent Analysis and Weekly Detail panels). |
+
+| ART Consumer | n/a | same as the AVG. CONSUMER RESPONSE MINS metric (name shortened to fit on graph on Experience panel). | 
+
+| TTFR and TTFR (Assign+Transfer) | n/a | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Experience panel and grids on Agent Analysis and Weekly Detail panels). | 
+
+| Top Agent |  Case(((\[N-TILE CCPLH\]>=4)And(\[N-TILE MCS\]>=4)), 1, 0) {N=5} | Identifies top 20% of performers in terms of CCPLH and MCS. These two metrics were chosen because they are universal indicators of efficiency and experience across all agents. |
+
+| RCR 1 Hour | REPEAT 1 HOUR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely. | 
+
+| Agent Participation Rate | (CLOSED CONVERSATIONS - ABANDONED CONVERSATIONS) / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the AGENT sent at least one message. This is the inverse of Abandon Rate. | 
+
+## Resolution contents
+
+### Repeat Contact Impact
+
+**Analysis objective:** While closing conversations is key to maintaining efficiency, it means nothing if consumer issues are not resolved. Here we introduce RCR and Agent Load into the Efficiency calculation, as well as demonstrate the amount of labor being spent on unresolved conversations.
+
+**Questions answered:**  How much labor am I spending on repeat conversations due to unresolved conversations? Which Skills/Groups have the highest RCR?
+
+### RCR | Date
+
+**Analysis objective:**  Provide a deeper dive into each component of RCR and show the implication of consumers returning within certain timeframes.
+
+**Questions answered:** Are my Auto-close settings causing premature closures?
+
+## Resolution metrics
+
+| Metric Name | Metric formula | Definition |
+
+| --- | --- | --- |
+
+Resolution Rate (Based on
+
+0-3 Day RCR)
+
+REPEAT 0-3 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID DID NOT OPEN a
+
+subsequent conversation within 3 days. This is LivePerson's standard measure of a
+
+resolved conversation.
+
+RCR Based 4-30 Day
+
+Adoption Rate
+
+REPEAT 4-30 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation after 3 days and within 30 days. This is LivePerson's standard measure of
+
+consumers returning for new cases, and thus adopting messaging.
+
+\**NOTE - this metric in its current state serves as a directional proxy for channel adoption,
+
+but it is still not an official adoption figure since it only covers a 30 day period. If you
+
+compare this number to voice, be sure to compare like-for-like time periods.
+
+Adjusted CCPLH (RCR and
+
+Load)
+
+(\[CLOSED CONVERSATIONS PER
+
+LOGIN HOUR\]*\[ RESOLUTION
+
+RATE\])/\[AGENT LOAD\]
+
+Closed Conversations Per Login Hour only tells one piece of the agent efficiency story.
+
+This metric adjusts CCPLH for case resolution and agent capacity.
+
+Est. Login Hours Spent on
+
+Unresolved
+
+REPEAT 0-3 DAYS / ACTUAL CCPLH Holding CCPLH constant, this is the estimated agent time spent on taking repeat
+
+conversations within 3 days due to cases not being resolved in the initial conversation.
+
+Agent or Consumer Close
+
+Rate
+
+AGENT CLOSE RATE + CONSUMER
+
+CLOSE RATE
+
+The Agent and Consumer Close Rates are consolidated into one metric in this analysis,
+
+because the primary focus is on the relationship between SYSTEM CLOSE RATE and
+
+RCR
+
+Explore
+
+Resolution | Metrics to Know (Continued)
+
+Metric Name Metric Formula Definition
+
+RCR 1 HOUR REPEAT 1 HR / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation within 1 hour. This measurement is a prime indicator of conversations that are closed
+
+prematurely and are UNRESOLVED.
+
+RCR 1 DAY REPEAT 1 DAY / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR
+
+1 Hour (for example) is not included. This measurement also indicates conversations that are
+
+UNRESOLVED, although these conversations are not being reopened as urgently as 1 Hour Repeats.
+
+RCR 3 DAY REPEAT 3 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation between 1 day and 3 days. This RCR measurement is mutually exclusive, meaning
+
+RCR 1 Hour (for example) is not included. This measurement indicates the threshold at which a
+
+reopened conversation is still considered UNRESOLVED.
+
+RCR 7 DAY REPEAT 7 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation between 3 days and 7 days. This RCR measurement is mutually exclusive, meaning
+
+RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
+
+RCR 14 DAY REPEAT 14 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation between 7 days and 14 days. This RCR measurement is mutually exclusive, meaning
+
+RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
+
+RCR 30 DAY REPEAT 30 DAYS / CLOSED
+
+CONVERSATIONS
+
+Percentage of Closed Conversations where the same ConsumerID opened a subsequent
+
+conversation between 14 days and 30 days. This RCR measurement is mutually exclusive, meaning
+
+RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED.
