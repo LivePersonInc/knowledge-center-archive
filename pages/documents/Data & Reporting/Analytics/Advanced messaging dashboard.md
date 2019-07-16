@@ -20,35 +20,13 @@ Diagnose - Detailed reporting allows the user to drill into segments of a progra
 
 track improvement.
 
-Test and Learn
+### Test and Learn
 
-One key objective of Advanced Messaging Dashboard 3.0 is to provide a platform to seamlessly
+One key objective of Advanced Messaging Dashboard 3.0 is to provide a platform to seamlessly benchmark current performance, adjust program levers, and track incremental improvement. This applies to account configuration, automation, and program operations.
 
-benchmark current performance, adjust program levers, and track incremental improvement. This applies
+### Support
 
-to account configuration, automation, and program operations.
-
-Overview
-
-Support
-
-● Advanced Messaging Dashboard will ultimately be supported by LPSupport.
-
-● For now, leverage #report_builder Slack channel for questions.
-
-Edit Privileges and Best Practices for Account Teams
-
-● This dashboard is a collaborative effort. Therefore, we welcome your ideas and encourage you to
-
-use it as a platform to innovate upon.
-
-● However, please be advised that analyses are carefully curated to tell a specific story. Any
-
-customization on top of that analysis carries a risk of changing the narrative of the analysis.
-
-● Please note that customizations will not be supported by LPSupport nor #report_builder at this time.
-
-● If you do customize, please Save-As and give the file a different name.
+ Any customization on top of that analysis carries a risk of changing the narrative of the analysis. Please note that customizations will not be supported by LPSupport. If you do customize, please Save-As and give the file a different name.
 
 ## How to enable
 
