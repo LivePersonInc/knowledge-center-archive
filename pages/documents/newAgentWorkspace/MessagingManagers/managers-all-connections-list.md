@@ -12,15 +12,11 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-The All Connections tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
+The All Connections tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. Transcripts are available in near real-time, so managers can track and analyze conversations.  including for survey answers to open questions. All Connections allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance. 
 
 ![alt text](img/new-manager-workspace-6.png){:class="newagent"}
 
-All Connections allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
-Advanced filtering and search capabilities lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness
-* Transcripts are available in near real-time, so managers can track and analyze conversations on-the-go
-* Instant insight into the consumer’s voice helps you quickly identify the topics that need addressing
 
 ## Definitions
 All Connections includes the following information:
