@@ -1,11 +1,11 @@
 ---
-pagename: Week of July 22
+pagename: Week of July 22nd
 categoryName: Release notes
 subCategoryName: 2019
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: release-notes-2019-week-of-july-22.html
+permalink: release-notes-2019-week-of-july-22nd.html
 isTutorial: false
 isNew: false
 
