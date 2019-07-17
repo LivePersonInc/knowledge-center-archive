@@ -103,7 +103,7 @@ Please see the [developers community](https://developers.liveperson.com/livepers
 
 ## LiveEngage Apps QuickLaunch Menu in LE UI
 
-### Type: New functionality 
+### Type: New functionality
 
 A ‘waffle’ button which is exposed over LiveEngage interfaces and offers direct links for LiveEngage Applications and exposing customers to more applications from LivePerson.
 
@@ -117,7 +117,7 @@ The QuickLaunch waffle will be visible in LE-UI if the account has at least one 
 
 For more information on LiveEngage applications, please [click here](https://developers.liveperson.com/liveengage-applications-what-is-a-liveengage-application.html).
 
-**How to enable** 
+**How to enable**
 
 QuickLaunch menu is available by default for all accounts.
 
@@ -173,12 +173,12 @@ Brands now have the ability to duplicate the ocean theme engagement window, in o
 **Screenshots**
 
 **Image 1: create an engagement window by duplicating from Ocean theme**
-  
+
 ![](/img/week-of-july-22-3.png)
 
 **Image 2: Ocean theme duplicated![](/img/week-of-july-22-4.png)**
 
-## Large window preview 
+## Large window preview
 
 ### Type: New functionality
 
@@ -227,12 +227,11 @@ In the engagement window studio, once the user selects the large embedded window
 
 ![](/img/week-of-july-22-5.png)
 
-  
 **Image 2: Text shows the large window size will not be reflected in the preview**
 
 ![](/img/week-of-july-22-6.png)
 
-## Making a new window with logo alt text breaks window on visitor side 
+## Making a new window with logo alt text breaks window on visitor side
 
 ### Type: Bug fix
 
@@ -273,7 +272,7 @@ In the engagement window studio, once the user selects the large embedded window
 </table>
 </div>
 
-When making a new window with logo alt text, the window loads with broken styling. This has been resolved. 
+When making a new window with logo alt text, the window loads with broken styling. This has been resolved.
 
 ## When the ACD mode is ON - agent status does not change to away
 
@@ -316,10 +315,10 @@ When making a new window with logo alt text, the window loads with broken stylin
 </table>
 </div>
 
-A bug was found for Chat customers using the ACD (Automatic Conversation Distribution) in “Advanced mode” (manual accept).
+A bug was found for chat customers using the ACD (Automatic Conversation Distribution) in “Advanced mode” (manual accept).
 
 When choosing the option of automatically changing the status of an agent to away in case of missing a chat, It has been discovered that once a chat is missed (agent is online but did not accept incoming chat) - the agent remains online instead of changing to the Away state. The bug has been fixed in this version.
-  
+
 **Screenshots**
 
 ![](/img/week-of-july-22-7.png)
