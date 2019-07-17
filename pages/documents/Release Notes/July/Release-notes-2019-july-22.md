@@ -322,3 +322,194 @@ When choosing the option of automatically changing the status of an agent to awa
 **Screenshots**
 
 ![](/img/week-of-july-22-7.png)
+
+## Bot Dashboard
+
+### New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The Bot dashboard will help brands monitor the technical and operational activity of their third party bots. Brands will be able to see key operational metrics such as, ongoing conversations, transferred conversations, errors, uptime and more.
+
+This dashboard will provide the ability to track these metrics over time and thereby identify issues, follow the bots improvement over time and identify when its encountering an issue. There will also be an option to export the data as well as view logs related to the bots operational.
+
+**Screenshots**
+
+![](https://lh4.googleusercontent.com/gZn6QSWh71V_jpLiXwxh0oP8QQu8TOK78utm9zdf37uX7FIgxYH-nhvpu84ApCS3dTjOBPT0uua2GF6BgEbjDLefGSI46ntdWdm9E3sb4eZN0Rx7zp-FRRhBTxO99L8yWniQRcZS =534x261)
+
+## Add login name to the Assign Agent wizard step to support multiple bots with the same nickname
+
+### **Type:** new feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+  
+When creating a new Bot Connection, the admin must create a new agent and choose an existing Bot User Agent under which the Bot will operate. To avoid confusion with naming conventions in the account, we have added the Bots Login name to the wizard to help differentiate between existing users in the account.
+
+**Screenshots**
+
+![](https://lh6.googleusercontent.com/p53xZVGCctgwe-t5faj_TOzlxhkxwyhmz6mELCj9zcd0RownKBCo75m6jbShL8YQEEpPqOOMB5MF3HbBICIFQBdxt9uWv2IN0YbaWMvGRL-rgd1UpXsHaM0ek-K0mS84oK1DRtuv =555x335)
+
+## Add support for native Watson rich content
+
+### **Type:** new feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Watson has its own syntax for using rich content. Until now the Bot connectors has only supported the native LivePerson Rich Content, now LivePerson Bot Connectors can take the out of the box structure of the Watson Rich Content and translate it to the expected UMS structure to work within the LivePerson framework.
+
+## Bot sent double queries to AI-Vendor if conversation was transferred or closed
+
+### Type**:** Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The bot sends double queries to AI-Vendor if conversation gets transferred or closed
+
+The happened because of two issues:
+
+First: we subscribe multiple time to a messaging conversation. Because of this, we get the events for a conversation multiple times.
+
+Second: If we perform a transfer action, the id of the event is not saved, meaning, the event will get double processed.
+
+When a bot sends a transfer action event directly after writing the first message the conversation was then transferred, but the transfer event id was not saved, meaning the event got double processed, however because the conversation was already disconnected from the messaging connector, it had no impact on UMS, only impact on sending doubled queries.
