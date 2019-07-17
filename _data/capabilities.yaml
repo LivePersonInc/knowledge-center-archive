@@ -464,19 +464,19 @@
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
     - weChat: "Not Supported"
-  - featureName: Agent surveys
+  - featureName: Agent survey
     channels:
-    - mobileAppMessaging: "Not Supported"
-    - webMessaging: "Not Supported"
-    - appleBusinessChat: "Not Supported"
-    - sms: "Not Supported"
-    - facebook: "Not Supported"
-    - whatsapp: "Not Supported"
-    - googleRCS: "Not Supported"
-    - line: "Not Supported"
-    - messagingWindowAPI: "Not Supported"
-    - connectorAPI: "Not Supported"
-    - weChat: "Not Supported"
+    - mobileAppMessaging: "Coming Q3"
+    - webMessaging: "Coming Q3"
+    - appleBusinessChat: "Coming Q3"
+    - sms: "Coming Q3"
+    - facebook: "Coming Q3"
+    - whatsapp: "Coming Q3"
+    - googleRCS: "Coming Q3"
+    - line: "Coming Q3"
+    - messagingWindowAPI: "Coming Q3"
+    - connectorAPI: "Coming Q3"
+    - weChat: "Coming Q3"
   - featureName: LiveDeflect support
     tooltip: 'Brand initiated conversation.'
     channels:
@@ -522,7 +522,7 @@
     tooltip: 'Channel natively supports a way to verify that the consumer is "trusted."'
     channels:
     - mobileAppMessaging: "Supported"
-    - webMessaging: "Not Supported"
+    - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "Not Supported"
     - facebook: "Not Supported"
