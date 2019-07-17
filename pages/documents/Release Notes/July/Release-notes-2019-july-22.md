@@ -11,3 +11,101 @@ isNew: false
 published: false
 
 ---
+These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
+### FaaS Scheduler
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Type:** Enhancement
+
+**Available to all customers?** Y
+
+**Description**
+
+To give brands the option to call their functions on a regular basis, we developed time-based scheduling for LivePerson Functions. Similar to Cron on Unix systems, we allow to define recurring invocations via Cron expression for functions that are not connected to any events (functions that are connected to events don't need scheduling, since they are invoked whenever the event is fired).
+
+**How to enable**
+
+* [See official documentation](https://developers.liveperson.com/liveperson-functions-scheduled-invocations.html)
+
+**Dependencies**
+
+None
+
+**Screenshots**
