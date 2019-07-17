@@ -97,10 +97,84 @@ To give brands the option to call their functions on a regular basis, we develop
 
 Please see the [developers community](https://developers.liveperson.com/liveperson-functions-scheduled-invocations.html) for details on how to enable the FaaS Scheduler
 
-**Dependencies**
-
-None
-
 **Screenshots**
 
 ![](/img/FaaS Scheduler 1.png)
+
+## LiveEngage Apps QuickLaunch Menu in LE UI
+
+### Type: New functionality 
+
+A ‘waffle’ button which is exposed over LiveEngage interfaces and offers direct links for LiveEngage Applications and exposing customers to more applications from LivePerson.
+
+As part of the expending of LiveEngage Applications as the main solution for integrations over LiveEngage, we would like to be able to offer LiveEngage Applications accessibility in a central, obvious and dedicated place over LiveEngage interfaces in such a way that each LiveEngage user will be able to launch LiveEngage Applications that are a part of his packages in a quick, simple and seamless (over LiveEngage SSO) way and with the best possible UX.
+
+The QuickLaunch waffle will be visible in LE-UI if the account has at least one installed LiveEngage Application with the following conditions:
+
+1. It is installed and enabled
+2. It has QuickLaunch capabilities
+3. It has the same set of profiles that the current LE-User has
+
+For more information on LiveEngage applications, please [click here](https://developers.liveperson.com/liveengage-applications-what-is-a-liveengage-application.html).
+
+**How to enable** 
+
+QuickLaunch menu is available by default for all accounts.
+
+**Screenshots**
+
+![](/img/week-of-july-22-1.png)
+
+![](/img/week-of-july-22-2.png)
+
+## Ability to duplicate the Ocean theme
+
+### Type: New functionality
+
+Brands now have the ability to duplicate the ocean theme engagement window, in order to use it as a starting point for creating a new window. In the engagement window library, users can now select the ocean theme and via the action dropdown list, select the duplicate option. This option is similar and in addition to the existing capability of “Add new.”
+
+**Screenshots**
+
+**Image 1: create an engagement window by duplicating from Ocean theme**
+
+  
+![](/img/week-of-july-22-3.png)
+
+**Image 2: Ocean theme duplicated![](/img/week-of-july-22-4.png)**
+
+## Large window preview 
+
+### Type: New functionality
+
+In the engagement window studio, once the user selects the large embedded window size, a disclaimer text will be displayed to indicate the large window size will not be reflected in the preview.
+
+**Screenshots**
+
+**Image 1: Selecting large embedded window**
+
+![](/img/week-of-july-22-5.png)
+
+  
+**Image 2: Text shows the large window size will not be reflected in the preview**
+
+![](/img/week-of-july-22-6.png)
+
+## Making a new window with logo alt text breaks window on visitor side 
+
+### Type: Bug fix
+
+When making a new window with logo alt text, the window loads with broken styling. This has been resolved. 
+
+##   
+When the ACD mode is ON - agent status does not change to away
+
+### Type: Bug fix
+
+A bug was found for Chat customers using the ACD (Automatic Conversation Distribution) in “Advanced mode” (manual accept).
+
+When choosing the option of automatically changing the status of an agent to away in case of missing a chat, It has been discovered that once a chat is missed (agent is online but did not accept incoming chat) - the agent remains online instead of changing to the Away state. The bug has been fixed in this version.
+
+  
+**Screenshots**
+
+![](/img/week-of-july-22-7.png)
