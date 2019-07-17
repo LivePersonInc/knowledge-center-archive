@@ -136,6 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/July/Release-notes-2019-july-22.md
 - pages/documents/Agent and manager workspace/LiveEngage App/LiveEngage App.md
 - pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
 - pages/documents/What's New/What's new - July 2019.md
