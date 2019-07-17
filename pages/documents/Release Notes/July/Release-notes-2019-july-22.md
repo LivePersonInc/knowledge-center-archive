@@ -370,7 +370,7 @@ This dashboard will provide the ability to track these metrics over time and the
 
 **Screenshots**
 
-![](https://lh4.googleusercontent.com/gZn6QSWh71V_jpLiXwxh0oP8QQu8TOK78utm9zdf37uX7FIgxYH-nhvpu84ApCS3dTjOBPT0uua2GF6BgEbjDLefGSI46ntdWdm9E3sb4eZN0Rx7zp-FRRhBTxO99L8yWniQRcZS =534x261)
+![](/img/bot dashboard.png)
 
 ## Add login name to the Assign Agent wizard step to support multiple bots with the same nickname
 
@@ -413,12 +413,7 @@ This dashboard will provide the ability to track these metrics over time and the
 </table>
 </div>
 
-  
 When creating a new Bot Connection, the admin must create a new agent and choose an existing Bot User Agent under which the Bot will operate. To avoid confusion with naming conventions in the account, we have added the Bots Login name to the wizard to help differentiate between existing users in the account.
-
-**Screenshots**
-
-![](https://lh6.googleusercontent.com/p53xZVGCctgwe-t5faj_TOzlxhkxwyhmz6mELCj9zcd0RownKBCo75m6jbShL8YQEEpPqOOMB5MF3HbBICIFQBdxt9uWv2IN0YbaWMvGRL-rgd1UpXsHaM0ek-K0mS84oK1DRtuv =555x335)
 
 ## Add support for native Watson rich content
 
@@ -465,7 +460,7 @@ Watson has its own syntax for using rich content. Until now the Bot connectors h
 
 ## Bot sent double queries to AI-Vendor if conversation was transferred or closed
 
-### Type**:** Bug fix
+### Type: Bug fix
 
 <div class="tablecontainer">
 <table class="releasenotes">
