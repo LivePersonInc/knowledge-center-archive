@@ -20,14 +20,15 @@ There are a few configurations that brands can elect to control for the agent ex
 
 Messaging agents can access the enhanced agent workspace starting on September 16th, but it is off by default and must be enabled in permissions. 
 
-To do so, managers must select the relevant agent under the profiles tab in the users module. Then under permissions they need to toggle on 'Use enhanced agent workspace."
+To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced agent workspace" and save the changes. This will give all users that have been assigned this profile access to the enhanced workspace. 
 
 ![alt text](img/new-agent-workspace-10.png)
 
-{: .notice}
-**Please note:** If you have set up the below configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
 
 ## Configuration from your LivePerson workspace
+
+{: .notice}
+**Please note:** If you have set up the below configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
 
 ### Auto accept
 
