@@ -318,12 +318,6 @@
             - level3name: Week of February 18th
             - level3name: Week of February 11th
             - level3name: Week of February 4th
-        - pagename: January
-          level3:
-            - level3name: Week of January 28th
-            - level3name: Week of January 20th
-            - level3name: Week of January 14th
-
 
 - categoryname: Troubleshooting
   image: Troubleshooting
