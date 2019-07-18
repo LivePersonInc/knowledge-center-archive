@@ -96,7 +96,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 To give brands the option to call their functions on a regular basis, we developed time-based scheduling for LivePerson Functions. Similar to Cron on Unix systems, we allow you to define recurring invocations via Cron expression for functions that are not connected to any events (functions that are connected to events don't need scheduling, since they are invoked whenever the event is fired). This feature is available to all customers.
 
-Please see the [developers community](https://developers.liveperson.com/liveperson-functions-scheduled-invocations.html) for details on how to enable the FaaS Scheduler
+Please see the [developers community](https://developers.liveperson.com/liveperson-functions-scheduled-invocations.html) for details on how to enable the FaaS Scheduler.
 
 **Screenshots**
 
