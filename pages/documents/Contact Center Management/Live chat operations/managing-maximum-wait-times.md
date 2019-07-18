@@ -8,8 +8,8 @@ level3: ''
 permalink: contact-center-management-live-chat-operations-managing-maximum-wait-times.html
 isTutorial: false
 date: '2019-01-21T09:51:22.000+00:00'
-
 ---
+
 When you first configure a skill in LivePerson, you select the maximum wait time after which engagements will not be displayed to visitors. This is to ensure that visitors do not click an engagement and end up waiting for a long time to be answered by an agent.
 
 **How to Use ‘Ignore Max Wait Time’**
@@ -25,4 +25,4 @@ Sometimes, you wish to override this setting for a particular engagement, and al
 By ignoring max wait time, you allow the engagement to display regardless of wait time.
 
 {: .notice}
-**Please note:** For chat engagements with "no skill", the default maximum wait time is 120 seconds. This is not configurable. 
+**Please note:** For chat engagements with "no skill", the default maximum wait time is 120 seconds. This is not configurable.
