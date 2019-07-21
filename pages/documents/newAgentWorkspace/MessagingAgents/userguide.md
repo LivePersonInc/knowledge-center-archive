@@ -68,6 +68,9 @@ You can filter conversations in the list by status:
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
+{: .notice} 
+**Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist. 
+
 ### Your personal data bar
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
