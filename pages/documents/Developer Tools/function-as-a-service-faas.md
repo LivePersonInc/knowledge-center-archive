@@ -35,6 +35,9 @@ Since all functions are saved within the LivePerson cloud, brands do not have to
 
 ## What is LivePerson Functions?
 
+{: .notice}
+For more in-depth, technical documentation about working with LivePerson Functions, please see our [Developers' Community](https://developers.liveperson.com/liveperson-functions-overview.html).
+
 Functions allows brands to write their own custom behavior - through code - that is triggered by events. **Events,** include external innovations and internal LivePerson platform events, such as the start of a conversation, keyword recognition, off-hours detection and even custom bot events.
 
 Brands can deploy the code as a **function** and have the custom behavior become a part of their conversational commerce platform. A **function** is the canvas, where brands can put in the code they want, to ultimately invoke a desired action or outcome.
