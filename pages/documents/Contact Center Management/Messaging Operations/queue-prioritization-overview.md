@@ -12,7 +12,8 @@ date: '2019-01-16T08:25:55.000+00:00'
 isNew: false
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="[https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0](https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0")" width="750" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
+<p><a href="[https://vimeo.com/348009128](https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0")">Queue Prioritization</a> from <a href="[https://vimeo.com/liveperson](https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0")">LivePerson</a> on <a href="[https://vimeo.com](https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0")">Vimeo</a>.</p>
 
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance.
 
