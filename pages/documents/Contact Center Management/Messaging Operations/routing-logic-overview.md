@@ -72,6 +72,8 @@ Fallback skill configuration is particularly useful when different skills in the
 * Skill “General_Care” is available 24/7 and is configured as a fallback skill.
 * During “VIP_Care_English” off hours (7pm until 9am and weekends) no agents are logged in with that skill. New conversations will be assigned to the “General_Care” skill (fallback) and will be routed to available agents instead of waiting in the “VIP_Care_English” skill’s queue.
 
+Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’.
+
 ## **Transfer to skill**
 
 Even after a conversation has been assigned to an agent, the agent still has the ability to transfer the conversation to a different skill that is better suited to handle the consumer's inquiry.
