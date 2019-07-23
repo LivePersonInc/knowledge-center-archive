@@ -121,9 +121,9 @@ The agent selection process is based on parameters outside those around the agen
   * The messaging history between the agent and the consumer
 * Return to queue - if an agent manually returns a conversation to the queue, the system will try to re-route it to a different available agent.
 
-## Service level agreement & queue prioritization
+## Service level agreement (SLA) & queue prioritization
 
-The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA and based on the [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) configuration. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA and based on the [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) configuration. The response time SLA is the time within which brands are committed to responding to their consumers to ensure that queue time is minimized and consumers receive a timely response. When utilizing queue Prioritization with parameters the SLA is only one parameter within the queue prioritization formula. (for all other parameters, please see queue prioritization overview).  Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
