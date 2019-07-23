@@ -8,7 +8,7 @@ subtitle: The routing engine selects the most appropriate agent to handle an inc
 level3: ''
 permalink: contact-center-management-messaging-operations-routing-logic-overview.html
 isTutorial: false
-date: 2019-01-16 15:08:11 +0000
+date: '2019-01-16T15:08:11.000+00:00'
 
 ---
 ## Routing logic for messaging conversations
@@ -16,7 +16,6 @@ date: 2019-01-16 15:08:11 +0000
 When a consumer is ready to start a messaging conversation with your brand, it’s important to direct them to the agent that will best serve their needs. To facilitate this, the messaging routing engine works behind the scenes to select the most appropriate agent to handle an incoming conversation from a consumer. The engine relies on a few fundamental principles:
 
 * Chooses agent best equipped with the right skills to address the consumer's inquiry
-* Minimizes customer wait time
 * Optimizes use of the agent’s capacity
 * Maintains consumer satisfaction and building an ongoing relationship
 
@@ -29,7 +28,7 @@ When agents are not available to handle new conversations, conversations will wa
 
 ## **Skill selection**
 
-In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process[ ](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)is the first method used by the routing engine to direct the conversation to the right agent.
+In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process is the first method used by the routing engine to direct the conversation to the right agent.
 
 Using skill selection, an incoming conversation is routed exclusively to an available agent with the conversation’s assigned skill. If no skill is assigned to a conversation, and no default skill has been configured, the conversation will be routed to any available agent in the contact center. In this instance, the most appropriate agent will be chosen based on the Agent Selection process, as set out below.
 
@@ -53,21 +52,19 @@ The following engagement attributes are currently supported for skill selection:
 
 Once a conversation is initiated, the routing engine will receive a skill notification based on the consumer profile identified during the authentication process. The system will then route the conversation to an appropriate agent assigned to that skill.
 
-## **Default skill**
+## Default skill
 
 It is possible to configure a default skill which will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
 
-In the example below, if a consumer has the engagement attributes customer type = VIP and company branch = US, the conversation will be routed to the VIP_Care_English skill. If the consumer has the engagement attribute company branch = PR, then it will be routed to the General_Care_Spanish skill. If the consumer does not have any engagement attributes that meet a mapping rule, then it will be routed to the default skill, which in this case is General_Care.
+## Routing to a fallback skill
 
-![](/img/RL 1.png)
-
-## **Offline routing to a fallback skill**
-
-By default, when no agents are available to accept an incoming conversation, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
+By default, when no agents are connected to LiveEngage to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
 
 To help avoid this situation, it is possible to configure a fallback skill. This enables incoming conversations to be deferred to a second ‘fallback’ skill when there are no online agents with the conversation’s assigned skill.
 
-This method can only be used when there are agents online with the fallback skill; if no agents for this skill are online, the conversation will remain in the queue for the assigned skill.
+It is possible to define a single fallback skill for the entire account or define a fallback skill that would be relevant for a specific skill. for example, sales....
+
+Having the conversation rerouted to a fallback skill can only occur when there are agents online and has the fallback skill assigned to them. If no agents for this skill are online, the conversation will remain in the queue for the original assigned skill.
 
 Fallback skill configuration is particularly useful when different skills in the contact center have different working hours. For example:
 
