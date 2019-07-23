@@ -32,3 +32,4 @@ build:
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: starefossen/ruby-node:latest
   mount_path: "/usr/src/app"
+  working_dir: "/usr/src/app"
