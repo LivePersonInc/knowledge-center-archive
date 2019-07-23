@@ -1,1 +1,42 @@
-<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="#5879da"><path d="m23.3 19.2c0-.1-.1-.3-.1-.3h-9.6c-.1.3-.4.2-.4.2h-2.4s-.3 0-.4-.2h-9.5s-.1.2-.1.3v.4c0 .1 0 .1.1.1.1.2.4.3.7.3h20.9c.3 0 .6-.1.7-.3 0 0 .1-.1.1-.1v-.4c0 .1 0 .1 0 0z"/><path d="m21.3 5.2h-18.6c-.2 0-.4.2-.4.4v12.5h19.3v-12.5c.1-.2 0-.4-.3-.4zm-9.3.4c.1 0 .2.1.2.2s-.1.2-.2.2-.2-.1-.2-.2.1-.2.2-.2zm8.8 11.6h-17.5v-10.9h17.5z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#5879DA;}
+	.st3{fill:none;stroke:#5879DA;stroke-linecap:round;}
+	.st4{display:inline;fill:#141414;}
+	.st5{display:inline;fill:none;stroke:#5879DA;}
+	.st6{display:inline;fill:none;stroke:#5879DA;stroke-linecap:round;}
+	.st7{fill:#5879DA;}
+</style>
+<g id="Layer_1" class="st0">
+	<g class="st1">
+		<circle class="st2" cx="12" cy="12" r="11.5"/>
+		<path class="st3" d="M12,4.5V12 M19.5,12H12"/>
+	</g>
+	<g>
+		<path class="st4" d="M23.5,18.7c0-0.1-0.1-0.3-0.1-0.3h-9.6c-0.1,0.3-0.4,0.2-0.4,0.2h-2.4c0,0-0.3,0-0.4-0.2H1.1
+			c0,0-0.1,0.2-0.1,0.3c0,0,0,0,0,0v0.4c0,0.1,0,0.1,0.1,0.1c0.1,0.2,0.4,0.3,0.7,0.3h20.9c0.3,0,0.6-0.1,0.7-0.3
+			c0,0,0.1-0.1,0.1-0.1L23.5,18.7C23.5,18.7,23.5,18.7,23.5,18.7z"/>
+		<path class="st4" d="M21.6,5.2H3c-0.2,0-0.4,0.2-0.4,0.4v12.5l0,0h0h19.3h0l0,0V5.6C22,5.4,21.8,5.2,21.6,5.2z M12.3,5.6
+			c0.1,0,0.2,0.1,0.2,0.2c0,0.1-0.1,0.2-0.2,0.2C12.1,6.1,12,6,12,5.8C12,5.7,12.1,5.6,12.3,5.6z M21,17.2H3.5V6.3H21V17.2z"/>
+	</g>
+</g>
+<g id="Layer_1_copy">
+	<g class="st0">
+		<circle class="st5" cx="12" cy="12" r="11.5"/>
+		<path class="st6" d="M12,4.5V12 M19.5,12H12"/>
+	</g>
+	<g>
+		<path class="st7" d="M23.3,19.2c0-0.1-0.1-0.3-0.1-0.3h-9.6c-0.1,0.3-0.4,0.2-0.4,0.2h-2.4c0,0-0.3,0-0.4-0.2H0.9
+			c0,0-0.1,0.2-0.1,0.3c0,0,0,0,0,0v0.4c0,0.1,0,0.1,0.1,0.1c0.1,0.2,0.4,0.3,0.7,0.3h20.9c0.3,0,0.6-0.1,0.7-0.3
+			c0,0,0.1-0.1,0.1-0.1L23.3,19.2C23.3,19.3,23.3,19.3,23.3,19.2z"/>
+		<path class="st7" d="M21.3,5.2H2.7c-0.2,0-0.4,0.2-0.4,0.4v12.5l0,0h0h19.3h0l0,0V5.6C21.7,5.4,21.6,5.2,21.3,5.2z M12,5.6
+			c0.1,0,0.2,0.1,0.2,0.2c0,0.1-0.1,0.2-0.2,0.2c-0.1,0-0.2-0.1-0.2-0.2C11.8,5.7,11.9,5.6,12,5.6z M20.8,17.2H3.3V6.3h17.5V17.2z"
+			/>
+	</g>
+</g>
+</svg>
