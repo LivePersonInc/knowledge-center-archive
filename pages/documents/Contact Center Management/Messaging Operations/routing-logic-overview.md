@@ -72,9 +72,9 @@ Fallback skill configuration is particularly useful when different skills in the
 * Skill “General_Care” is available 24/7 and is configured as a fallback skill.
 * During “VIP_Care_English” off hours (7pm until 9am and weekends) no agents are logged in with that skill. New conversations will be assigned to the “General_Care” skill (fallback) and will be routed to available agents instead of waiting in the “VIP_Care_English” skill’s queue.
 
-Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’.
+Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’. Please see fallback configuration per skill user guide.
 
-## **Transfer to skill**
+## Transfer to skill
 
 Even after a conversation has been assigned to an agent, the agent still has the ability to transfer the conversation to a different skill that is better suited to handle the consumer's inquiry.
 
@@ -82,7 +82,7 @@ In this case, the conversation will be rerouted to an available agent with the s
 
 ![](/img/RL 2.png)
 
-## **Agent selection**
+## Agent selection
 
 Following the skill selection process, the routing engine will initiate the agent selection process. This involves identifying all available agents with the relevant skill to handle the conversation, and selecting, from those available, the most suitable agent to handle the incoming conversation.
 
@@ -109,7 +109,7 @@ _Maximum number of conversations per agent - Agent level:_
 
 ![](/img/RL 5.png)
 
-### **Agent selection preferences**
+### Agent selection preferences
 
 The agent selection process is based on parameters outside those around the agent’s skill and availability. This is to ensure the optimal utilization of the agent’s capacity and even distribution of the workload, as well as maintaining high levels of customer satisfaction.
 
@@ -121,9 +121,9 @@ The agent selection process is based on parameters outside those around the agen
   * The messaging history between the agent and the consumer
 * Return to queue - if an agent manually returns a conversation to the queue, the system will try to re-route it to a different available agent.
 
-## **Queue priority**
+## Service level agreement & queue prioritization
 
-The routing engine [prioritizes conversations](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA and based on the [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) configuration. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
