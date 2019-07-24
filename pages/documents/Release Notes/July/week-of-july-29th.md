@@ -1,7 +1,7 @@
 ---
 pagename: Week of July 29th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: July
@@ -160,20 +160,15 @@ The upcoming plan is to expose the ‘Launchpad LE-App’ in that link to make i
 
 The SMS connector to the Sinch (formerly referred to as ‘CLX’) gateway gives brands an alternative to the current SMS Twilio and SMS CM connectors. Sinch allows brands to converse with consumers using their SMS application (iOS or Android) and manage those conversations at scale using LiveEngage’s automation platform and operational tools.
 
-**  
-The messaging capabilities that are supported are:**
-
+**The messaging capabilities that are supported are:**
 * Text
   * Agent to consumer
   * Consumer to agent
 * Messages Status:
-
-
-* Delivered indication (agent to consumer) - based on delivery to the Sinch SMS gateway
+	* Delivered indication (agent to consumer) - based on delivery to the Sinch SMS gateway
 
 {: .notice}
-
-**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information.
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## \[Sinch\] Sinch SMS connector - Conversation Attributes
 
@@ -194,7 +189,7 @@ This functionality allows for mapping of Sinch SMS gateway information and passi
 
 Enables brands to configure skill routing per the brand’s Sinch business phone number, in order to allow for routing rules to different skills based on the brand’s various lines of business.
 
-**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information.
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## \[Sinch\] SMS Connector - Reporting on SMS source in LiveEngage
 
@@ -226,7 +221,6 @@ The post conversation survey is now supported for the Sinch SMS connector, givin
 **Survey Experience in SMS:**
 
 LiveEngage automatically translates rich surveys into textual surveys for the SMS channel. Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill). Current channels supported are Apple Business Chat, Facebook Messenger and now SMS. When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
-
 
 For more information on the PCS and how it is configured please refer [here](/ai-bots-automation-post-conversation-survey-bot.html).
 
