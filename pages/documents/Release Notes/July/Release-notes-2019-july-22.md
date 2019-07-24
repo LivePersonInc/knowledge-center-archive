@@ -1,7 +1,7 @@
 ---
 pagename: Week of July 22nd
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: July
@@ -9,7 +9,8 @@ permalink: release-notes-2019-july-week-of-july-22nd.html
 isTutorial: false
 isNew: false
 redirect_from:
-  - release-notes-2019-week-of-july-22nd.html
+- release-notes-2019-week-of-july-22nd.html
+
 ---
 These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
