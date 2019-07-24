@@ -89,3 +89,5 @@ The bot dashboard will help brands monitor the technical and operational activit
 This dashboard will provide the ability to track these metrics over time and thereby identify issues, follow the bots improvement over time and identify when its encountering an issue. There will also be an option to export the data as well as view logs related to the bots operational.
 
 ![](/img/bot dashboard1.png)
+
+For more information please visit the [developers community](https://developers.liveperson.com/bot-connectors-getting-started.html)
