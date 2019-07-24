@@ -32,3 +32,4 @@ build:
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6-node10
   mount_path: "/opt/buildhome/repo"
+  working_dir: "/opt/buildhome/repo"
