@@ -66,9 +66,11 @@ We have added the option to configure a control group of any integer between 0% 
 **Screenshots**
 
 Control group - site level, before the change:  
+
 ![](/img/week-of-july-29-1.png)
 
 Control group - campaign level, before the change:  
+
 ![](/img/week-of-july-29-2.png)
 
 After the change:
@@ -154,7 +156,7 @@ The upcoming plan is to expose the ‘Launchpad LE-App’ in that link to make i
 
 ## \[Sinch\] Sinch SMS connector - messaging capabilities
 
-### Type: New functionality 
+### Type: New functionality
 
 The SMS connector to the Sinch (formerly referred to as ‘CLX’) gateway gives brands an alternative to the current SMS Twilio and SMS CM connectors. Sinch allows brands to converse with consumers using their SMS application (iOS or Android) and manage those conversations at scale using LiveEngage’s automation platform and operational tools.
 
@@ -169,13 +171,13 @@ The messaging capabilities that are supported are:**
 
 * Delivered indication (agent to consumer) - based on delivery to the Sinch SMS gateway
 
-{: .notice} 
+{: .notice}
 
-**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information. 
+**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## \[Sinch\] Sinch SMS connector - Conversation Attributes
 
-### Type: New functionality 
+### Type: New functionality
 
 This functionality allows for mapping of Sinch SMS gateway information and passing it to LiveEngage Engagement Attributes:
 
@@ -184,19 +186,19 @@ This functionality allows for mapping of Sinch SMS gateway information and passi
   The brand’s Sinch business phone number will be mapped to the “Customer Info” - "Company branch" engagement attribute, and will be visible in real time to the agent, the agent widget SDK, or the agent SDK, as well as in historic conversations.
 * **Consumer Phone Number Engagement Attributes** - LiveEngage will collect the consumer’s phone number and pass it as an engagement attribute to the agent workspace and reporting. The consumer’s phone number will be mapped to the "Consumer info" - "Consumer name" engagement attribute, and will be visible in real time to the agent, the agent widget SDK or the agent SDK, as well as in historic conversations.
 
-**Enablement:** This feature is automatically enabled. 
+**Enablement:** This feature is automatically enabled.
 
 ## \[Sinch\] Sinch SMS Connector - Skill Routing
 
-### Type: New functionality 
+### Type: New functionality
 
 Enables brands to configure skill routing per the brand’s Sinch business phone number, in order to allow for routing rules to different skills based on the brand’s various lines of business.
 
-**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information. 
+**Please note**_:_ This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## \[Sinch\] SMS Connector - Reporting on SMS source in LiveEngage
 
-### Type: New functionality 
+### Type: New functionality
 
 Brands using the Sinch SMS Messaging connector on LiveEngage will be able to view the channel source as “SMS” on:
 
@@ -205,11 +207,11 @@ Brands using the Sinch SMS Messaging connector on LiveEngage will be able to vie
   * All Connections - Consumer Info widget
 * Reporting platform - report builder
 
-**Enablement:** This feature is automatically enabled. 
+**Enablement:** This feature is automatically enabled.
 
 ## \[Sinch\] Sinch SMS Connector - Post Conversation Survey
 
-### Type: New functionality 
+### Type: New functionality
 
 The post conversation survey is now supported for the Sinch SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
@@ -225,12 +227,12 @@ The post conversation survey is now supported for the Sinch SMS connector, givin
 
 LiveEngage automatically translates rich surveys into textual surveys for the SMS channel. Brands can configure one survey and apply it for all channels or they can configure separate surveys per channel (each channel should have a separate skill). Current channels supported are Apple Business Chat, Facebook Messenger and now SMS. When configuring the survey in the Bot Studio, the brand must configure the ‘fallback text’ on every rich element, this way they can customize the experience for textual channels.
 
-  
-For more information on the PCS and how it is configured please refer [here](/ai-bots-automation-post-conversation-survey-bot.html). 
+
+For more information on the PCS and how it is configured please refer [here](/ai-bots-automation-post-conversation-survey-bot.html).
 
 ## \[Sinch\] Sinch SMS Connector - Secure Forms support
 
-### Type: New functionality 
+### Type: New functionality
 
 Secure forms are now enabled for the Sinch SMS connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI compliant environment.
 
@@ -238,8 +240,8 @@ For more information on secure forms and how they are configured, please refer [
 
 ## \[Sinch\] Sinch SMS Connector - Auto Messaging support
 
-### Type: New functionality 
+### Type: New functionality
 
 Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability.
 
-For more information on automatic messages and how they are configured, please refer [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html). 
+For more information on automatic messages and how they are configured, please refer [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
