@@ -8,7 +8,6 @@ level3: July
 permalink: release-notes-2019-july-week-of-july-29th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -237,4 +236,10 @@ Secure forms are now enabled for the Sinch SMS connector. Secure forms allow bra
 
 For more information on secure forms and how they are configured, please refer [here](/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html).
 
-\[Sinch\] Sinch SMS Connector - Auto Messaging support
+## \[Sinch\] Sinch SMS Connector - Auto Messaging support
+
+### Type: New functionality 
+
+Automatic Messages (AKA System Messages) are predefined messages about events that occur in the conversation and are sent to the consumer as the events occur. Their purpose is to gain the consumer’s trust in the messaging channel by setting expectations and giving the consumer visibility over the agent’s availability.
+
+For more information on automatic messages and how they are configured, please refer [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html). 
