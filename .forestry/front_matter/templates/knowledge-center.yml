@@ -136,6 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/July/week-of-july-29th.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
