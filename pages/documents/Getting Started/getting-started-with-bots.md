@@ -81,3 +81,11 @@ Once your bot is hosted, running, and connected in the Conversation Manager, the
 ## Step 4: Monitor and report bot performance
 
 LivePerson includes a comprehensive set of management and reporting capabilities that can be used to manage both LivePerson bots or any third-party bots alongside agents. Managers can manage bots the same as human agents, in a real-time dashboard with flexible and detailed reports that helps evaluate success.
+
+## Bot dashboard
+
+The bot dashboard will help brands monitor the technical and operational activity of their third party bot. Brands will be able to see key operational metrics such as, ongoing conversations, transferred conversations, errors, uptime and more.
+
+This dashboard will provide the ability to track these metrics over time and thereby identify issues, follow the bots improvement over time and identify when its encountering an issue. There will also be an option to export the data as well as view logs related to the bots operational.
+
+![](/img/bot dashboard1.png)
