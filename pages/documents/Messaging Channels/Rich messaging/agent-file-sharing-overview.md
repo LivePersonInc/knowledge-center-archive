@@ -102,7 +102,7 @@ The consumer will receive the file as part of the conversation. When the consume
 * Files are encrypted at rest.
 
 {: .notice}
-**Please note:** This solution is not PCI compliant certified.
+**Please note:** This solution is not PCI compliance certified.
 
 ## **Photo resizing**
 
