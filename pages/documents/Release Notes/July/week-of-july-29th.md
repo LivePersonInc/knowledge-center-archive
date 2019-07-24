@@ -20,7 +20,44 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## \[LE UI\] Control group settings - Support additional control group sizes
 
-### Type: New functionality 
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 LiveEngage supports the option to define a control group - a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign, in order to evaluate the effectiveness and performance of campaigns (and your account as a whole).  
 Up until today, LiveEngage supported the following increments: 0%, 5%, 10%, 15%, 20%, and 25% per account or per campaign.
@@ -31,7 +68,8 @@ We have added the option to configure a control group of any integer between 0% 
 
 Control group - site level, before the change:  
 ![](/img/week-of-july-29-1.png)  
-Control group - campaign level, before the change:   
+
+Control group - campaign level, before the change:  
 ![](/img/week-of-july-29-2.png)
 
 After the change:
@@ -44,6 +82,43 @@ After the change:
 
 ### Type: Enhancement
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 When a consumer receives a PCS survey at the end of the conversation and does not answer it or chooses to skip the survey, the agent workspace doesn't reflect the circumstances in which the survey ended. This information is important for Agent Managers to have some reassurance that the survey worked as expected, meaning that it expired after a reasonable amount of time and as configured. Today agent managers need to open a support ticket in order to gain visibility into the circumstances in which the survey ended. With this new enhancement, the separator line at the end of the survey will reflect the circumstances in which the survey ended e.g. survey skipped, ended, timed out, etc.
 
 **Possible PCS close reasons:**
@@ -52,7 +127,7 @@ When a consumer receives a PCS survey at the end of the conversation and does no
 * Survey skipped - the survey was skipped, closed due to unrecognized user input or ended by the consumer.
 * Survey closed - The survey was completed in full.
 
-**Screenshot** 
+**Screenshot**
 
 ![](/img/week-of-july-29-5.png)
 
@@ -69,11 +144,11 @@ When a consumer receives a PCS survey at the end of the conversation and does no
 
 ## Promotion (Launchpad) link in QuickLaunch menu
 
-### Type: Enhancement 
+### Type: Enhancement
 
 Discoverability - exposing a dedicated unique link that will address a promotion page of all LivePerson’s products offerings.
 
 The upcoming plan is to expose the ‘Launchpad LE-App’ in that link to make it discoverable and unique across other apps. The link will be visible once the Launchpad is deployed.
 
-**Screenshots   
+**Screenshots  
 ![](/img/week-of-july-29-6.png)**
