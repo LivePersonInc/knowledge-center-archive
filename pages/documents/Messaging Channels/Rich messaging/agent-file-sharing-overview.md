@@ -101,6 +101,9 @@ The consumer will receive the file as part of the conversation. When the consume
 * GDPR: Files will be deleted from LivePerson’s storage in case of consumer’s right-to-be-forgotten request as described on our developers community: [Personal data deletion API](https://developers.liveperson.com/personal-data-deletion-api-overview.html)
 * Files are encrypted at rest.
 
+{: .notice}
+**Please note:** This solution is not PCI compliant certified.
+
 ## **Photo resizing**
 
 Before uploading a photo, it will be resized so that the longer dimension of the image will be set to 800 pixels.
