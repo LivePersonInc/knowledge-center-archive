@@ -24,6 +24,7 @@ To do so, managers must go to the profiles tab in the users module. Select the n
 
 ![alt text](img/new-agent-workspace-10.png)
 
+In order to gradually transition your agents to the enhanced workspace you will need to create multiple profiles and assign the relevent users to each. Then, you can enable the permissions for the desired profile and the users assigned will be transitioned. 
 
 ## Configuration from your LivePerson workspace
 
