@@ -43,4 +43,4 @@ To access the agent status menu, agents simply need to click on their image in t
 
 ## Blended accounts
 
-For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. It is possible to have agents with separate logins handling both messaging and chat conversations in separate shifts. For more information on blended accounts, please [click here](/messaging-agents-blended-accounts.html). 
+For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. For more information on blended accounts, please [click here](/messaging-agents-blended-accounts.html). 
