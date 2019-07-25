@@ -1,11 +1,11 @@
 ---
-pagename: Blended accounts in the enhanced workspace
+pagename: Messaging and live chat blended accounts
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: messaging-agents-blended-accounts-in-the-enhanced-workspace.html
+permalink: messaging-agents-messaging-and-live-chat-blended-accounts.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
