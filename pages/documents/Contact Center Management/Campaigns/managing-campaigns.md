@@ -37,7 +37,7 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 A control group is a random number of visitors to your website who do not receive any type of engagement from a campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. This data can be seen in select metrics listed in the data bar and data dashboard.
 
-A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. Increasing the percentage means less visitors will be exposed to campaigns, however the data is more statistically accurate. 0% means that the control group feature is switched off.
+A control group can be set per account or per campaign to any integer between 0% to 25%. Increasing the percentage means less visitors will be exposed to campaigns, however the data is more statistically accurate. 0% means that the control group feature is switched off.
 
 **Per account**: Means the selected percentage of control group visitors will not be exposed to any type of engagement from any of the campaigns. This enables you to evaluate the performance of the whole program. This setting is on the Campaigns page. (Default value is 5%).
 
@@ -211,7 +211,7 @@ If the engagement isn’t displaying to a consumer as expected, check the follow
    2. The engagement is saved and/or enabled.
 4. **Your Campaign Targeting Settings:**
    1. Make sure that you belong to the campaign’s target audience.
-   2. Make sure that you are testing from a targeted web page location. 
+   2. Make sure that you are testing from a targeted web page location.
    3. Make sure that you are exhibiting the targeted behavior.
 5. **Overlapping Engagements:** Engagements can not physically overlap each other on the webpage. If you've configured overlapping engagements, the visitor will see only one of them.
 6. **LE Tag:** Verify that the tag is deployed on all your web pages.
