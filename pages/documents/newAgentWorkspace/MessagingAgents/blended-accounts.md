@@ -100,7 +100,7 @@ Some brands elect to have agents taking both live chat and messaging concurrentl
 
 * Same ‘accept’ button for both incoming chats and messages
 
-![image alt text](img/blendedImage_1.png){:class="newagent"}
+![image alt text](img/blended-chat-and-messaging.png){:class="newagent"}
 
 **Agents that work in this mode will NOT be able to utilize the enhanced agent workspace.**
 
