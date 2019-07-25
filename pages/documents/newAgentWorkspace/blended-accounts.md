@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: messaging-agents-blended-accounts.html
+permalink: messaging-agents-blended-accounts-in-the-enhanced-workspace.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
