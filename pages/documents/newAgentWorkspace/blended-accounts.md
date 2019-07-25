@@ -12,8 +12,6 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-## Blended accounts
-
 For brands using LiveEngage, there are currently two conversation types:
 
 * **Live chat**: A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
@@ -32,17 +30,17 @@ When referring to blended accounts, or brands that elect to offer both live chat
 
 The following document describes how the enhanced workspace will affect each of these user types.
 
-### Dedicated agents
+## Dedicated agents
 
 Brands with dedicated agents have two separate groups of agents: one group only for live chat and one group only for messaging. These agents are sometimes referred to as ‘pure messaging agents’ or ‘pure live chat agents’.
 
-### Dedicated messaging agents:
+## Dedicated messaging agents:
 
 Messaging agents that have the enhanced workspace enabled in permissions will only see this workspace. The visitors tab will be available and will display: web visitors, web history and all agents - based on the existing permission set for the agent.  
 
 For more information see the [messaging agents user guide](https://knowledge.liveperson.com/messaging-agents-the-enhanced-agent-workspace.html).
 
-### Dedicated live chat agents
+## Dedicated live chat agents
 
 The new experience for these agents will be the same as live chat agents. There will be no change to the current workspace.
 
@@ -56,11 +54,11 @@ For more information about the changes for live chat agents [refer here](https:/
 
 ![image alt text](img/blendedImage_0.png){:class="newagent"}
 
-### Dedicated agents per shift
+## Dedicated agents per shift
 
 For brands that have agents handling both live chat and messaging conversations - but not at the same time, there are two main setups: agents with two seperate logins (one for chat and one for messaging) or agents with one login and two associated profiles.
 
-### Agents with two logins (1 live chat user, 1 messaging user)
+## Agents with two logins (1 live chat user, 1 messaging user)
 
 For agents that have two separate logins:
 
@@ -68,7 +66,7 @@ For agents that have two separate logins:
 
 * Chat user: No changes to permissions are required.  Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents)
 
-### Agents with one login for live both chat and messaging
+## Agents with one login for live both chat and messaging
 
 For brands that have agents using the same login for both chat and messaging, the following options exist:
 
@@ -90,7 +88,7 @@ For brands that have agents using the same login for both chat and messaging, th
 
 Brands can elect to forgo the benefits of the enhanced workspace and enable agents to continue to work on the existing workspace for both chat and messaging. The end of life for messaging conversations on this workspace will occur in early 2020, at which point the switch to the enhanced workspace for messaging should take place.
 
-### Blended agents within the same shift
+## Blended agents within the same shift
 
 Some brands elect to have agents taking both live chat and messaging concurrently. These agents are receiving both types of conversations in the same workspace:
 
