@@ -31,5 +31,5 @@ build:
     --future --port 8080 --host 0.0.0.0 -d _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6-node10
-  mount_path: "/opt/buildhome/repo"
-  working_dir: "/opt/buildhome/repo"
+  mount_path: "/srv"
+  working_dir: "/srv"
