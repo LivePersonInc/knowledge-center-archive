@@ -116,4 +116,4 @@ The experience for these agents will be the following:
 
 * Same workspace and tabs
 
-![image alt text](img/blendedImage_2.png){:class="newagent"}
+![image alt text](img/blended-just-chat.png){:class="newagent"}
