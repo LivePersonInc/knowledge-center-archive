@@ -33,6 +33,9 @@ We recommend using certified systems for the best possible experience while usin
 
 The tables below list the browsers LivePerson supports for visitors on mobile web assets (smartphones and tablets).
 
+{: .notice}
+For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developers' Community for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
+
 ### Android
 
 |  | v5.X (Lollipop) | v6.X (Marshmallow) | V7.X(Nougat) |
