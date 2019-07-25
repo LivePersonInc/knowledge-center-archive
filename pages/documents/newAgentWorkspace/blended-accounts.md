@@ -1,11 +1,11 @@
 ---
-pagename: Messaging and live chat blended accounts
+pagename: Blended accounts
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: messaging-agents-messaging-and-live-chat-blended-accounts.html
+permalink: messaging-agents-blended-accounts.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
@@ -34,13 +34,13 @@ The following document describes how the enhanced workspace will affect each of 
 
 Brands with dedicated agents have two separate groups of agents: one group only for live chat and one group only for messaging. These agents are sometimes referred to as ‘pure messaging agents’ or ‘pure live chat agents’.
 
-## Dedicated messaging agents:
+### Dedicated messaging agents:
 
 Messaging agents that have the enhanced workspace enabled in permissions will only see this workspace. The visitors tab will be available and will display: web visitors, web history and all agents - based on the existing permission set for the agent.  
 
 For more information see the [messaging agents user guide](https://knowledge.liveperson.com/messaging-agents-the-enhanced-agent-workspace.html).
 
-## Dedicated live chat agents
+### Dedicated live chat agents
 
 The new experience for these agents will be the same as live chat agents. There will be no change to the current workspace.
 
@@ -58,7 +58,7 @@ For more information about the changes for live chat agents [refer here](https:/
 
 For brands that have agents handling both live chat and messaging conversations - but not at the same time, there are two main setups: agents with two seperate logins (one for chat and one for messaging) or agents with one login and two associated profiles.
 
-## Agents with two logins (1 live chat user, 1 messaging user)
+### Agents with two logins (1 live chat user, 1 messaging user)
 
 For agents that have two separate logins:
 
@@ -66,7 +66,7 @@ For agents that have two separate logins:
 
 * Chat user: No changes to permissions are required.  Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents)
 
-## Agents with one login for live both chat and messaging
+### Agents with one login for live both chat and messaging
 
 For brands that have agents using the same login for both chat and messaging, the following options exist:
 
@@ -117,15 +117,3 @@ The experience for these agents will be the following:
 * Same workspace and tabs
 
 ![image alt text](img/blendedImage_2.png){:class="newagent"}
-
-----------
-
-Pure chat:
-
-![image alt text](img/blendedImage_3.png){:class="newagent"}
-
-![image alt text](img/blendedImage_4.png){:class="newagent"}
-
-![image alt text](img/blendedImage_5.png){:class="newagent"}
-
-![image alt text](img/blendedImage_6.png){:class="newagent"}
