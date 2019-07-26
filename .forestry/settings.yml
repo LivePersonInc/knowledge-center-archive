@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _config.yml
-  label: Config
 - type: directory
   path: pages/documents
   label: pages
