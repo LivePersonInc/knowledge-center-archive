@@ -243,6 +243,26 @@ Agent-segment metrics can be sliced and diced by:
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages.
 
+## Understanding the metrics (aggregation levels)
+
+### Aggregation Levels
+
+The segments data can be analyzed from several different aspects. The Performance dashboard offers a view into two of these as described in this article: Skill and Agent. At each level, the metrics included in the dashboard are pre-aggregated to reflect the corresponding aspect.
+
+A suffix has been added to each metric name to allow users to identify the level to which the metric is pre-aggregated. For example: “INTERACTIVE SEGMENTS (SKILL)” and “ABANDONED SEGMENTS (AGENT)”.
+
+Please note: Skill level metrics and agents level metrics **should not be combined** in the same grid as the underlying data is calculated and implemented differently.
+
+* For analyzing skill demand and supply - use the ‘Skill Segment Data’ grid (3rd panel in the ‘Brand Level Data’ in the Performance dashboard for Messaging)
+* For analyzing agent performance and efficiency - use the Agent Segment Data’ grid (4th panel in the ‘Agent Level Data’ in the Performance dashboard for Messaging)
+
+When comparing segment level data with conversation level data, a few considerations should be taken into account:
+
+* Time attribution
+
+  \- Segment level metrics are attributed to the end time of the segment. Conversation level metrics have different time -attribution. For example, ‘Opened Conversations’ is attributed to the opening time of the conversation.
+* A single conversation may include more than one segment for each participating skill\\agent. This happens when the conversation is transferred to another skill and back to the original skill, for example.
+
 ## Metric definitions
 
 Following are the explanations of the metrics defined per segment (relevant for both agent and skill segments):
