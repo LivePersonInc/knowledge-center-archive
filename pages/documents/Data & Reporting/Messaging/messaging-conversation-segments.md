@@ -78,7 +78,7 @@ How many times did consumers abandon a conversation while waiting in my skill-qu
 
 **Action:** This metric enables you to determine issues arising from the length of your queues - 		before an agent is assigned.  Action is to adjust the SLA per skill.
 
-Manager Question: How many times did my team try to reach out to a consumer but the consumer never replied?
+**Manager Question:** How many times did my team try to reach out to a consumer but the consumer never replied?
 
 **Answer (Metric)** Segments with Non Responsive Consumers (Skill)
 
@@ -192,9 +192,9 @@ This metric will be a more precise version of CCPLH.
 
 **Answer (Metric):** Segments with Non Responsive Agents (Agent)
 
-\**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
+**Action:** This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
 
-\**Manager Question:**How many times did each agent conduct a dialog with consumers?
+**Manager Question:** How many times did each agent conduct a dialog with consumers?
 
 **Answer (Metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
 
@@ -204,7 +204,7 @@ This metric will be a more precise version of CCPLH.
 
 **Answer (Metric):** Avg. Segment Duration (Agent)
 
-\**Action:**This can help to quantify the agents’ activity during conversation.
+**Action:** This can help to quantify the agents’ activity during conversation.
 
 **Manager Question:** How many responses my agents send in an average conversation?
 
