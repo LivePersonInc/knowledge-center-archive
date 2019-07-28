@@ -164,7 +164,7 @@ Please note:
 * Joined agent\\reader leaving a conversation does not end an agent-segment.
 * Time in Queue is not ‘owned’ by any agent, therefore is not be part of any agent-segment.
 
-![](/img/Mess_segments2.png)
+![](/img/agent segments new.png)
 
 ## Metrics
 
