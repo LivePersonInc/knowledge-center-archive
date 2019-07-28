@@ -26,7 +26,7 @@ Chat users have the new navigation with updated side bar icons. However, the wor
 
 To access the agent status menu, agents simply need to click on their image in the bottom left corner.
 
-![alt text](img/new-agent-workspace-screenshot-1.png){:class="newagent"}
+![alt text](img/chat-status-menu.png){:class="newagent"}
 
 ## Icon glossary
 

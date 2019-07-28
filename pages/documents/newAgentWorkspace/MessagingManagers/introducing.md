@@ -14,6 +14,8 @@ layout: newAgentWorkspace
 
 <div class="important">LivePerson's new agent manager workspace is currently available only to <strong>Early Adopters</strong>. If you'd like to become one and have the new workspace enabled for you, please contact your account team</div>
 
+![](img/new-manager-workspace-use-case-1.png){:class="newagent"}
+
 LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. This new dashboard will boost the agent manager or team manager performance by:
 
 * Offering a quick and comprehensive view of the ‘state of your shift’ in real time
