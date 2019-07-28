@@ -285,6 +285,6 @@ The number of segments which ended in a transfer or closed by agent\\system with
 
 ![](/img/non_responsive_agents.png)
 
-**Segments with Non Responsive Consumers**
+### Segments with Non Responsive Consumers
 
 The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
