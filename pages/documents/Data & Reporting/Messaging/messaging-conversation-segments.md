@@ -279,7 +279,7 @@ The number of conversations closed by a consumer which included no agent message
 
 ![](/img/abandoned segments.png)
 
-### Segments with Non Responsive Agents
+### Segments with non Responsive Agents
 
 The number of segments which ended in a transfer or closed by agent\\system with no message from an agent.
 
