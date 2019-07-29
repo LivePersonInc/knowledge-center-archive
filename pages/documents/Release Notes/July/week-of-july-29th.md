@@ -65,11 +65,11 @@ We have added the option to configure a control group of any integer between 0% 
 
 **Screenshots**
 
-Control group - site level, before the change:  
+Control group - site level, before the change:
 
 ![](/img/week-of-july-29-1.png)
 
-Control group - campaign level, before the change:  
+Control group - campaign level, before the change:
 
 ![](/img/week-of-july-29-2.png)
 
@@ -143,16 +143,7 @@ When a consumer receives a PCS survey at the end of the conversation and does no
 * LE UI Version Release - 10.10
 * PCS in use
 
-## Promotion (Launchpad) link in QuickLaunch menu
 
-### Type: Enhancement
-
-Discoverability - exposing a dedicated unique link that will address a promotion page of all LivePerson’s products offerings.
-
-The upcoming plan is to expose the ‘Launchpad LE-App’ in that link to make it discoverable and unique across other apps. The link will be visible once the Launchpad is deployed.
-
-**Screenshots** 
-![](/img/week-of-july-29-6.png)
 
 ## \[Sinch\] Sinch SMS connector - messaging capabilities
 
@@ -161,11 +152,12 @@ The upcoming plan is to expose the ‘Launchpad LE-App’ in that link to make i
 The SMS connector to the Sinch (formerly referred to as ‘CLX’) gateway gives brands an alternative to the current SMS Twilio and SMS CM connectors. Sinch allows brands to converse with consumers using their SMS application (iOS or Android) and manage those conversations at scale using LiveEngage’s automation platform and operational tools.
 
 **The messaging capabilities that are supported are:**
+
 * Text
   * Agent to consumer
   * Consumer to agent
 * Messages Status:
-	* Delivered indication (agent to consumer) - based on delivery to the Sinch SMS gateway
+  * Delivered indication (agent to consumer) - based on delivery to the Sinch SMS gateway
 
 {: .notice}
 **Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
@@ -175,13 +167,13 @@ The SMS connector to the Sinch (formerly referred to as ‘CLX’) gateway gives
 ### Type: New functionality
 
 This functionality allows for mapping of Sinch SMS gateway information and passing it to LiveEngage Engagement Attributes:
+
 * **Consumer ID Engagement Attributes** - LiveEngage will manage a unique consumer phone number across the consumer’s conversations for a unified history, agent or bot context, and to allow the brand to map the consumer ID info to CRM systems in order to manage user identity. The consumer phone number will be mapped to the Consumer ID field in the “Consumer Info”, as well as to the “Customer Info” - “Customer ID” engagement attribute, and it will be visible in real time to the agent, the agent widget SDK or the agent SDK, as well as in historic conversations.
-* **Sinch Business phone number** - The identifier for each business as registered in the Sinch gateway, which will be the brand’s registered SMS number. The Sinch business phone number can be applied for skill routing logic.   
+* **Sinch Business phone number** - The identifier for each business as registered in the Sinch gateway, which will be the brand’s registered SMS number. The Sinch business phone number can be applied for skill routing logic.  
   The brand’s Sinch business phone number will be mapped to the “Customer Info” - "Company branch" engagement attribute, and will be visible in real time to the agent, the agent widget SDK, or the agent SDK, as well as in historic conversations.
 * **Consumer Phone Number Engagement Attributes** - LiveEngage will collect the consumer’s phone number and pass it as an engagement attribute to the agent workspace and reporting. The consumer’s phone number will be mapped to the "Consumer info" - "Consumer name" engagement attribute, and will be visible in real time to the agent, the agent widget SDK or the agent SDK, as well as in historic conversations.
 
 **Enablement:** This feature is automatically enabled.
-
 
 ## \[Sinch\] Sinch SMS Connector - Skill Routing
 
@@ -211,6 +203,7 @@ Brands using the Sinch SMS Messaging connector on LiveEngage will be able to vie
 The post conversation survey is now supported for the Sinch SMS connector, giving brands the ability to collect feedback from consumers at the end of a conversation. It is delivered in a conversational experience to drive higher completion rates.
 
 **It contains:**
+
 * Special predefined questions - CSAT, FCR & NPS
 * Custom brand KPIs
 * Free text questions
