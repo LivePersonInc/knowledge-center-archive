@@ -36,6 +36,9 @@ Brands can deflect consumers who are eligible to message via WhatsApp from voice
 
 ### Business Activity Alerts:
 
+{: .sidebyside}
+![](/img/whatsapp-business-overview-1.png)![](/img/whatsapp-business-overview-2.jpg)
+
 Brands can integrate their business systems (CRM, marketing automation, etc.) and share notifications of real-time business actions with consumers on WhatsApp. Brands must send these notifications as a WhatsApp Message Template
 
 **For example:**
