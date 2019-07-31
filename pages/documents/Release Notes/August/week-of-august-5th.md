@@ -537,7 +537,7 @@ For the external window for web messaging the welcome message with quick replies
 
 <td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 </tr>
 
@@ -597,27 +597,27 @@ In conversation flow, a consumer sends a messages and a bot understands user int
 
 <td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 </tr>
 
@@ -677,27 +677,27 @@ FaaS provides brands with even more flexibility to deploy custom code and use th
 
 <td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 </tr>
 
