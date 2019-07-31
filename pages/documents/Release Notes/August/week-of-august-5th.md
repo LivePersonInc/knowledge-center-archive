@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: August
-permalink: release-notes-2019-week-of-august-5th.html
+permalink: release-notes-2019-august-week-of-august-5th.html
 isTutorial: false
 isNew: false
 
