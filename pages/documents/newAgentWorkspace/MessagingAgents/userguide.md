@@ -127,7 +127,11 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ### Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
+The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations. 
+
+![alt text](img/agent-workspace-new-ui-1.png){:class="newagent"}
+
+By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
