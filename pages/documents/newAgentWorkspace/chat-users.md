@@ -20,6 +20,7 @@ For the September rollout, the only change for chat users will be to the navigat
 ## New navigation
 
 Chat users have the new navigation with updated side bar icons. However, the workspace still appears in the original UI with the same tabs they had previously.
+
 ![alt text](img/chat-workspace-view.png){:class="newagent"}
 
 ## Agent status
