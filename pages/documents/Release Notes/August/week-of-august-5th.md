@@ -463,10 +463,10 @@ Large images sent from mobile appear stretched or squished when looking at them 
 
 ### Type: Bug fix
 
-When setting the font to bold for agent bubble it did not apply for chat. This has been resolved. 
+When setting the font to bold for agent bubble it did not apply for chat. This has been resolved.
 
 ## For external window, Welcome message with Quick Replies does not show quick replies after closing conversation
 
 ### Type: Bug fix
 
-For the external window for web messaging the welcome message with quick replies did not show quick replies option on visitor’s conversation window when the conversation was closed by visitors, as it is configured to display on every new conversation. 
+For the external window for web messaging the welcome message with quick replies did not show quick replies option on visitor’s conversation window when the conversation was closed by visitors, as it is configured to display on every new conversation.
