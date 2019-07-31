@@ -79,6 +79,9 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 
 ![](/img/facebook-messenger-4.png)
 
+{:start="8"}
+8. You can test whether the setup was completed successfully or not by sending yourself a message through your Facebook page. If the message shows up in LiveEngage, and you're able to respond as an agent, then everything is working well!
+
 ## Adding an agent manager user to display third party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
