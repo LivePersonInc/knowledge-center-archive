@@ -352,6 +352,74 @@ Image 4: non floating engagement consumer view
 
 ![](/img/week-of-august-5th-17.png)
 
+## Inherited font applied to structured content text elements
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Once the “Inherit font from the webpage” checkbox is checked for the agent bubble font, it will be applied to the following structured content elements that are being sent by agent/bot/info messages to the consumer:
+
+* Card
+* Carousels
+* List
+* Date Picker
+
+**How to enable:**
+
+* Log into [LiveEngage](https://authentication.liveperson.net/)
+* Go to Engagement Window Studio
+* Select the agent bubble
+* Click the “Inherit font from webpage” checkbox
+
+**Limitation:**
+
+* Inherited font for structured content with quick replies will be supported in a future release.
+
+**Screenshots**
+
+Image 1: enable inherit font from webpage feature
+
+![](/img/week-of-august-5th-20.png)  
+Image 2: inherit font for structured content
+
+![](/img/week-of-august-5th-21.png)
+
 ## Google Business Messaging - Onboarding Page
 
 ### Type: New functionality
@@ -391,3 +459,44 @@ Large images sent from mobile appear stretched or squished when looking at them 
 **Screenshot**
 
 ![](/img/week-of-august-5th-22.png)
+
+## Bold font for agent bubble does not work for chat window
+
+### Type: Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
