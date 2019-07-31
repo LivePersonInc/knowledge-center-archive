@@ -1,7 +1,7 @@
 ---
 pagename: Week of August 5th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: August
@@ -18,6 +18,192 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## “Horizon” theme as LiveEngage new default engagement window
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+New “Horizon” theme is added to the Engagement Window Library. The Horizon theme will become the default engagement window, replacing the Ocean theme:
+* New LiveEngage accounts will have Horizon theme as their default window.
+* For existing accounts there will be no impact on existing engagements and windows. The new default will take place only once the campaign manager / admin creates a new window or a new engagement.
+* Existing accounts can proactively change their existing engagements to work with the new Horizon theme, if they wish to.
+* The Ocean theme will still be available in the Engagement Window Library for both new and existing accounts, in case they prefer to use it as is or as their starting point for creating new windows.
+
+Horizon theme comprises of the following features (that are different from the Ocean theme):
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius is bigger
+* Agent and consumer bubble style is set to "three corner rounded"
+* Consumer bubble with visual read indication (relevant only for messaging)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window is closed automatically once consumer ends conversation, or upon submitting the post chat / conversation survey, if applicable.
+
+The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. In order to modify this theme, brands can use the “Add new” option on the Engagement Window Library. Brands can still use the Ocean theme as their starting point by using the Duplicate option from the action menu.
+
+**Screenshots**
+
+Image 1: “Horizon” theme added to the engagement window library
+
+![](/img/week-of-august-5th-1.png)
+
+Image 2: In case you would like to use Ocean theme as the starting point for a new window, go to the action menu and select “Duplicate”
+
+![](/img/week-of-august-5th-2.png)  
+
+Image 3: Horizon theme vs Ocean theme
+
+## New engagement templates to the engagement gallery
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Brands now have the ability to choose 2 new invitation templates from the engagement template gallery. These new invitation templates are added to Type = Conversation, Format = Sticky, Use case = General, Size = 120x28px gallery. The new “message us” invitation template, is now the default invitation for new accounts and for existing ones while creating new engagement. No impact on existing engagement of existing customers.
+
+The previous “Live Chat” template is still available on the gallery, in case customers would like to use it as is or as a starting point for modifications.
+
+The 2 new templates are:
+* A new “Message us” bubble with rounded corners and editable text - this will be the new default, replacing the “Live Chat” invitation.
+* A new round bubble invitation (without text), located by default at the right bottom corner of the webpage.
+
+**Screenshots**
+
+Image 1: new templates added to the engagement template gallery
+
+Image 2: “Message Us” editable engagement text
+
+Image 3: Round bubble without text engagement
+
+Image 4: “Message Us” invitation engagement 
+
+Image 5: “Round Bubble without text” invitation engagement
+
+## New “Message us” engagement template as default engagement
+
+### Type: Enhancement 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The new “Message us” invitation template, is now the default invitation for new accounts and for existing ones while creating new engagement. 
+
+**Screenshots**
+
+Image 1: new “Message Us” template added to the gallery and will be the default
+
+Image 2: “Message Us” invitation engagement 
+
+## New images in window images gallery
+
+### Type: Enhancement 
 
 <div class="tablecontainer">
 <table class="releasenotes">
