@@ -7,7 +7,7 @@ subtitle: Tap into the most popular consumer messaging channel on Earth
 level3: ''
 permalink: messaging-channels-whatsapp-business.html
 isTutorial: true
-date: 2019-01-20 12:34:09 +0000
+date: '2019-01-20T12:34:09.000+00:00'
 isNew: false
 
 ---
@@ -35,8 +35,6 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 Brands can deflect consumers who are eligible to message via WhatsApp from voice call to WhatsApp Business Messaging using IVR deflection. Proactive notifications from IVR systems allow brands to share an alert with the consumer on WhatsApp messenger, guiding them to continue the conversation over WhatsApp. Brands must send invitations as a WhatsApp Message Template.
 
 ### Business Activity Alerts:
-
-![](/img/WhatsApp Proactive notifications Gif -2.gif)
 
 Brands can integrate their business systems (CRM, marketing automation, etc.) and share notifications of real-time business actions with consumers on WhatsApp. Brands must send these notifications as a WhatsApp Message Template
 
