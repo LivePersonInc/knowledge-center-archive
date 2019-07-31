@@ -60,12 +60,14 @@ The timing and scope of these features or functionalities remain at the sole dis
 </div>
 
 New “Horizon” theme is added to the Engagement Window Library. The Horizon theme will become the default engagement window, replacing the Ocean theme:
+
 * New LiveEngage accounts will have Horizon theme as their default window.
 * For existing accounts there will be no impact on existing engagements and windows. The new default will take place only once the campaign manager / admin creates a new window or a new engagement.
 * Existing accounts can proactively change their existing engagements to work with the new Horizon theme, if they wish to.
 * The Ocean theme will still be available in the Engagement Window Library for both new and existing accounts, in case they prefer to use it as is or as their starting point for creating new windows.
 
 Horizon theme comprises of the following features (that are different from the Ocean theme):
+
 * Large window
 * New image at the header
 * Chevron minimize icon
@@ -87,7 +89,7 @@ Image 1: “Horizon” theme added to the engagement window library
 
 Image 2: In case you would like to use Ocean theme as the starting point for a new window, go to the action menu and select “Duplicate”
 
-![](/img/week-of-august-5th-2.png)  
+![](/img/week-of-august-5th-2.png)
 
 Image 3: Horizon theme vs Ocean theme
 
@@ -137,6 +139,7 @@ Brands now have the ability to choose 2 new invitation templates from the engage
 The previous “Live Chat” template is still available on the gallery, in case customers would like to use it as is or as a starting point for modifications.
 
 The 2 new templates are:
+
 * A new “Message us” bubble with rounded corners and editable text - this will be the new default, replacing the “Live Chat” invitation.
 * A new round bubble invitation (without text), located by default at the right bottom corner of the webpage.
 
@@ -148,13 +151,13 @@ Image 2: “Message Us” editable engagement text
 
 Image 3: Round bubble without text engagement
 
-Image 4: “Message Us” invitation engagement 
+Image 4: “Message Us” invitation engagement
 
 Image 5: “Round Bubble without text” invitation engagement
 
 ## New “Message us” engagement template as default engagement
 
-### Type: Enhancement 
+### Type: Enhancement
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -193,17 +196,17 @@ Image 5: “Round Bubble without text” invitation engagement
 </table>
 </div>
 
-The new “Message us” invitation template, is now the default invitation for new accounts and for existing ones while creating new engagement. 
+The new “Message us” invitation template, is now the default invitation for new accounts and for existing ones while creating new engagement.
 
 **Screenshots**
 
 Image 1: new “Message Us” template added to the gallery and will be the default
 
-Image 2: “Message Us” invitation engagement 
+Image 2: “Message Us” invitation engagement
 
 ## New images in window images gallery
 
-### Type: Enhancement 
+### Type: Enhancement
 
 <div class="tablecontainer">
 <table class="releasenotes">
