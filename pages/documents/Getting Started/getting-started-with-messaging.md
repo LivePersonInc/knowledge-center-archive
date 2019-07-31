@@ -18,8 +18,12 @@ To get started, access LivePerson using this link: [https://authentication.livep
 
 To get the most basic version of messaging up and running, brands need to insert a generic ‘message us’ button their website. Getting to the first message is simple and can be done through three steps:
 
-1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear. See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
-2. Create users for the agents that will be taking the conversations. See how to [set up users](admin-settings-create-and-manage-users.html).
+1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear. See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html)
+
+2. The default campaign for your account is set to chat. You'll need to disable it first. Click on Campaigns at the top of the screen, where you'll find the default "Live Chat on your site" campaign. Disable it by clicking on the "Unpublish" button at the right hand side. From there, click the "Add campaign" button and add a basic messaging campaign to your account by following the instructions on screen. You can also read more about campaigns [here](/contact-center-management-campaigns-campaigns-overview.html).
+
+3. Create users for the agents that will be taking the conversations. See how to [set up users](admin-settings-create-and-manage-users.html).
+
 3. Once the code is up and an agent is logged into the system, they can begin to answer incoming conversations.
 
 ![](/img/getting-started-with-messaging-1-2.png)
