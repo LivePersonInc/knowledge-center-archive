@@ -133,7 +133,7 @@ The updated agent workspace uses SLA to prioritize conversations on your behalf,
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
+Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are two ways to accept incoming conversations into your workspace:
 
 * **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
 
