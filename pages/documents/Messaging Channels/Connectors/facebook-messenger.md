@@ -53,6 +53,10 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 ### To onboard the Facebook connector:
 
 1. On the Campaigns page, click on **Data Sources** in the Campaigns footnote.
+
+![](img/data-sources.png)
+
+{:start="2"}
 2. From the Conversation Sources tab, click **Connect** in the Facebook Messenger box.
 
 ![](/img/facebook-messenger-1.png)
