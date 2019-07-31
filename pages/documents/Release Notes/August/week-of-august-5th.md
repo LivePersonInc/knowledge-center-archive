@@ -471,7 +471,7 @@ When setting the font to bold for agent bubble it did not apply for chat. This h
 
 For the external window for web messaging the welcome message with quick replies did not show quick replies option on visitor’s conversation window when the conversation was closed by visitors, as it is configured to display on every new conversation.
 
-## Automatic disambiguation of intents 
+## Automatic disambiguation of intents
 
 ### Type: new feature
 
@@ -517,25 +517,25 @@ For the external window for web messaging the welcome message with quick replies
 
 <td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 <td>No</td>
 
@@ -631,7 +631,7 @@ Brands will have access to FaaS from within Conversation Builder, helping them d
 
 FaaS provides brands with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
 
-## Ability to use 3rd Party NLU for Knowledge Bases 
+## Ability to use 3rd Party NLU for Knowledge Bases
 
 ### Type: enhancement
 
