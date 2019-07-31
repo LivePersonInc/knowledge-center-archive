@@ -629,4 +629,82 @@ In conversation flow, a consumer sends a messages and a bot understands user int
 
 Brands will have access to FaaS from within Conversation Builder, helping them deploy custom code through FaaS and mashup APIs.
 
-FaaS provides brands with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs
+FaaS provides brands with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
+
+## Ability to use 3rd Party NLU for Knowledge Bases 
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Knowledge bases can be configured to use external NLU engines to detect user Intent to match with appropriate answers in the Knowledge Base.
