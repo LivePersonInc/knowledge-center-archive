@@ -150,13 +150,23 @@ The 2 new templates are:
 
 Image 1: new templates added to the engagement template gallery
 
+![](/img/week-of-august-5th-5.png)
+
 Image 2: “Message Us” editable engagement text
+
+![](/img/week-of-august-5th-6.png)
 
 Image 3: Round bubble without text engagement
 
+![](/img/week-of-august-5th-7.png)
+
 Image 4: “Message Us” invitation engagement
 
+![](/img/week-of-august-5th-8.png)
+
 Image 5: “Round Bubble without text” invitation engagement
+
+![](/img/week-of-august-5th-9.png)
 
 ## New “Message us” engagement template as default engagement
 
@@ -205,7 +215,11 @@ The new “Message us” invitation template, is now the default invitation for 
 
 Image 1: new “Message Us” template added to the gallery and will be the default
 
+![](/img/week-of-august-5th-10.png)
+
 Image 2: “Message Us” invitation engagement
+
+![](/img/week-of-august-5th-11.png)
 
 ## New images in window images gallery
 
@@ -254,9 +268,17 @@ Two new out-of-the-box images are added to the engagement window images gallery.
 
 Image 1: new images added to the gallery
 
+![](/img/week-of-august-5th-12.png)
+
+![](/img/week-of-august-5th-12a.png)
+
 Image 2: new image with Horizon theme
 
+![](/img/week-of-august-5th-13a.png)
+
 Image 3: new image with Ocean theme
+
+![](/img/week-of-august-5th-13.png)
 
 ## Ability to set a floating engagement
 
@@ -316,11 +338,19 @@ As part of the engagement gallery, brands have the ability to set the engagement
 
 Image 1: non floating engagement
 
+![](/img/week-of-august-5th-14.png)
+
 Image 2: floating engagement
+
+![](/img/week-of-august-5th-15.png)
 
 Image 3: floating engagement consumer view
 
+![](/img/week-of-august-5th-16.png)
+
 Image 4: non floating engagement consumer view
+
+![](/img/week-of-august-5th-17.png)
 
 ## Google Business Messaging - Onboarding Page
 
@@ -338,6 +368,8 @@ The new connector will guide them through the application process, and they will
 
 **Screenshot**
 
+![](/img/week-of-august-5th-18.png)
+
 ## Twilio SMS Source - Media Error Unknown
 
 ### Type: Bug fix
@@ -348,6 +380,8 @@ Instruction video on Twilio SMS source would not play due to an unknown error. T
 
 Image 1: Twilio SMS source instruction video
 
+![](/img/week-of-august-5th-19.png)
+
 ## Images sent from mobile are stretched or squished in the UI
 
 ### Type: Bug fix
@@ -355,3 +389,5 @@ Image 1: Twilio SMS source instruction video
 Large images sent from mobile appear stretched or squished when looking at them from within the UI. This issue has been resolved.
 
 **Screenshot**
+
+![](/img/week-of-august-5th-22.png)
