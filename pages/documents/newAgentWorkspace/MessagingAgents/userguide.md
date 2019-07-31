@@ -117,7 +117,7 @@ Select an action by pressing the applicable letter from the table below.
 
 ### Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list. You can now see the number of incoming conversations in the top Connection bar. 
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list. 
 
 ![alt text](img/Agent menu open.jpg){:class="newagent"}
 
@@ -129,9 +129,11 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations. 
 
-![alt text](img/agent-workspace-new-ui-1.png){:class="newagent"}
-
 By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
+
+#### Incoming message alerts
+
+You can now see the number of incoming conversations in the top Connection bar. An orange dot will appear on the conversation in the list that has a new incoming message. 
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
