@@ -244,3 +244,109 @@ Image 2: “Message Us” invitation engagement
 </tbody>
 </table>
 </div>
+
+Two new out-of-the-box images are added to the engagement window images gallery. These images apply to both small and large windows as well as desktop and mobile.
+
+**Screenshots**
+
+Image 1: new images added to the gallery
+
+Image 2: new image with Horizon theme
+
+Image 3: new image with Ocean theme
+
+## Ability to set a floating engagement
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+As part of the engagement gallery, brands have the ability to set the engagement position to be floating. This option is disabled by default.
+
+**How to enable:**
+* Log into LiveEngage
+* Go to Engagement studio
+* Go to “Size & Placement” section
+* Check the “Floating Engagement” checkbox
+
+**Limitations:**
+* This option applies to the Sticky engagements only.
+
+**Screenshots** 
+
+Image 1: non floating engagement
+
+Image 2: floating engagement
+
+Image 3: floating engagement consumer view
+
+Image 4: non floating engagement consumer view
+
+## Google Business Messaging - Onboarding Page
+
+### Type: New functionality 
+
+We are adding a Google Business Messaging connector into the self-service Data Source > Conversations Sources area, to accompany WhatsApp, FB Messenger, Twilio, etc.
+
+Messaging clients will now be able to go through a more automated process for submitting their early adopter request to Google, including agreement to terms and policies, and providing brand and contact information. The information will first be verified internally by LivePerson then coordinated with Google for set up if the brand is a fit.
+
+The new connector will guide them through the application process, and they will be able to view their status update from pending to approved to live.
+
+**How to enable:** The Google Business Messaging Conversation Source will be enabled automatically for all messaging clients. 
+
+**Limitations:** The submission of business requirements is the first step in going live with Google Business Messaging. There are still manual configuration steps performed by LivePerson in conjunction with Google to bring brands live on the solution. Please speak with your LivePerson account team for more information. 
+
+**Screenshot**
+
+## Twilio SMS Source - Media Error Unknown
+
+### Type: Bug fix 
+
+Instruction video on Twilio SMS source would not play due to an unknown error. This issue has been resolved. 
+
+**Screenshot**
+
+Image 1: Twilio SMS source instruction video
+
+## Images sent from mobile are stretched or squished in the UI
+
+### Type: Bug fix 
+
+Large images sent from mobile appear stretched or squished when looking at them from within the UI. This issue has been resolved. 
+
+**Screenshot**
