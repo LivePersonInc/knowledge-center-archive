@@ -470,3 +470,83 @@ When setting the font to bold for agent bubble it did not apply for chat. This h
 ### Type: Bug fix
 
 For the external window for web messaging the welcome message with quick replies did not show quick replies option on visitor’s conversation window when the conversation was closed by visitors, as it is configured to display on every new conversation.
+
+## Automatic Disambiguation of intents 
+
+### Type: new feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Users can configure Disambiguation dialog in the Conversation builder which will automatically present intent clarification question and resolve intent to keep conversation on track.
+
+In conversation flow, a consumer sends a messages and a bot understands user intent and prepares response. Sometimes, when a bot is trying to determine consumer intent, the text matches with more than one intent with similar confidence levels. In this situation, Automatic Disambiguation of intents allows bots to offer a clarification question to the consumer to clarify which intent is the best match, steering the conversation flow down the right path.
