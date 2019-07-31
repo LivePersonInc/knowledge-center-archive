@@ -71,6 +71,10 @@ body {
   transition: opacity 0.35s ease;
 }
 
+.noOpacity {
+  opacity: 1;
+}
+
 .caseyCode {
   max-height: 200px;
   overflow-y: auto;
