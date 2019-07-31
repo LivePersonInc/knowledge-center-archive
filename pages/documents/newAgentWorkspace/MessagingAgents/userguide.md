@@ -171,9 +171,11 @@ There are several tools in place to help you access the information you’ll nee
 
 #### Predefined Content
 
-You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
+You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. 
 
 ![image alt text](img/predefinedcontent.png)
+
+Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display. 
 
 #### Rich messaging
 
@@ -191,7 +193,7 @@ While conducting a conversation, there are a few actions you can take:
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation (coming September):** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
+**Transfer conversation (coming September):** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
 
 **Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer.
 
