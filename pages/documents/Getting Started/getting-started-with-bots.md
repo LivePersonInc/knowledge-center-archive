@@ -53,6 +53,9 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
+{: .notice}
+To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the screen that opens.
+
 **Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](ai-bots-automation-conversation-builder-conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
 **Host:** Hosting / running is done automatically by the Conversation Builder.
