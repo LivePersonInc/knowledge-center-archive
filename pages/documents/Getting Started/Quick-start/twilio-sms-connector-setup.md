@@ -1,11 +1,11 @@
 ---
-pagename: Twilio SMS connector setup
-categoryName: Messaging channels
-subCategoryName: SMS
+pagename: Twilio SMS Quick Start
+categoryName: Getting started
+subCategoryName: ''
 indicator: messaging
 subtitle: Easily add and manage SMS numbers to expand the reach of your brand
 level3: ''
-permalink: messaging-channels-sms-twilio-sms-connector-setup.html
+permalink: getting-started-twilio-sms-quick-start.html
 isTutorial: true
 date: 2019-01-17 15:11:38 +0000
 isNew: false

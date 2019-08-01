@@ -13,6 +13,7 @@ redirect_from:
   - setup-authchat.html
 
 ---
+
 To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
 
 {: .notice}  
