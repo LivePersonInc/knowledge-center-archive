@@ -41,9 +41,11 @@ Under Facebook's page settings for messaging, brands can use the following featu
 {: .notice}
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
+To get started right away, see the [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) article. 
+
 ## Set up how conversations start: entry points
 
-**To get started right away, see the** [**Facebook Messenger Quick Start**](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) **article.** Brands and consumers can begin interacting over Facebook Messenger through multiple entry points, here are are some of the ways conversations can start:
+Brands and consumers can begin interacting over Facebook Messenger through multiple entry points, here are are some of the ways conversations can start:
 
 * **Facebook Messenger app:** Consumers can begin conversations by searching for a brand directly within the Facebook Messenger app.
 * **Facebook business page:** Brands can activate messaging capabilities on their Facebook business page, allowing consumers to click and start messaging.
