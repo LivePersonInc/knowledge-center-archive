@@ -15,7 +15,7 @@ redirect_from:
 
 ---
 {: .notice}
-To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the screen that opens.
+To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the left hand side-bar and then clicking on the Conversation Builder icon on the screen which opens.
 
 ### Why brands need bots, automation and empowered agents
 

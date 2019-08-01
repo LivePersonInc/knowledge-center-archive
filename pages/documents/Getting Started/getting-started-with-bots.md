@@ -40,7 +40,7 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Post Conversation Survey | Collects information post-conversation | Measure customer satisfaction | Currently in the Bot Studio (soon to be integrated with the Conversation Builder). Customize the survey including: predefined questions (CSAT, NPS and FCR), custom/free text questions, and logic between the questions. |
 | FAQ | Answers customer questions free-form | Resolve/contain the conversation | Use the conversation builder - using the Knowledge base bot template. |
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
-| Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | IUse the prebuilt sales templates. Shopify & Apple Pay integration included. |
+| Sales | Fulfill orders and complete purchases. | Fulfill orders and complete purchases. | Use the prebuilt sales templates. Shopify & Apple Pay integration included. |
 
 {: .notice}  
 Only applicable if choosing option A - leverage LivePerson’s Conversation Builder with native bots - when implementing automation/bot in step 2 below. Get more  info on the [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) bot.
@@ -54,7 +54,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
 {: .notice}
-To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the screen that opens.
+To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the left hand side-bar and then clicking on the Conversation Builder icon on the screen which opens.
 
 **Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](ai-bots-automation-conversation-builder-conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
