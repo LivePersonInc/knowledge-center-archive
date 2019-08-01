@@ -32,14 +32,21 @@ Facebook Messenger can be configured in LivePerson’s platform in minutes. Bran
 {:start="4"}
 
 1. Under configuration, click **Log in**. **Note:** In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage
-2. **If you are already logged in to Facebook:** A new smaller window pops-up asking if you would like to _"Continue as _________?"_ and you click on _"Continue as _______"_
-3. **If you have Admin rights to a Facebook page:** it will ask you "What Pages do you want to use with LP on Messenger (VA1)?", you select the page(s) and click "Next". **If you are not Admin of a Facebook Page it will skip to the next step**
-4. It will now ask you "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done"
-5. It will tell you _"You’ve now linked LP on Messenger (VA1) to Facebook"_ and give you an _"OK"_ button that will close this smaller window.
-6. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed, You _"Subscribe"_ and click on **Done**.
+
+{: .notice}
+If you are already logged in to Facebook: A new smaller window will pop-up asking if you would like to "Continue as {your name}?". Click on it to proceed.
+
+3. **If you have Admin rights to a Facebook page:** a window will ask you "What Pages do you want to use with LP on Messenger (VA1)?". Select the page(s) you'd like to use Facebook integration on and click "Next". **If you are not Admin of a Facebook Page, this step will be skipped**
+
+4. You will then be prompted with the question: "What is LP on Messenger (VA1) allowed to do?” **If you were not presented with the previous step, options 2 and 3 will be grayed out and it will not allow you to complete the process (step 8).** Click on "Done".
+
+5. You will receive the confirmation message: _"You’ve now linked LP on Messenger (VA1) to Facebook"_. Click on "OK" to close this window.
+
+6. A small pop-up within LiveEngage will appear asking you to Subscribe the Facebook pages that you previously allowed. Subscribe the relevant and click on **Done**.
+
 7. Click on **Done** on the lower right corner.
 
 ![](/img/facebook-messenger-4.png)
 
 {:start="8"}
-8. You can test whether the setup was completed successfully or not by sending yourself a message through your Facebook page. If the message shows up in LiveEngage, and you're able to respond as an agent, then everything is working well!
+8. You can test whether the setup was completed successfully or not by sending yourself a message through your Facebook page. If the message shows up in LiveEngage, and you're able to respond as an agent, then everything is working well! if you encounter an issue, please contact LivePerson support.
