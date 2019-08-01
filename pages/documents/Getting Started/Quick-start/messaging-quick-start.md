@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: Checklist for set up and configuration to get your messaging program running
 level3Name: ''
-permalink: getting-started-quick-start-messaging-quick-start.html
+permalink: getting-started-quick-start-guides-messaging-quick-start.html
 isTutorial: false
 date: 2019-01-14 11:44:06 +0000
 level3: ''
