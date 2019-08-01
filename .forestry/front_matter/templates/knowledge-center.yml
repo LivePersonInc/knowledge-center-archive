@@ -136,7 +136,6 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- pages/documents/Messaging Channels/SMS/enhancing-the-sms-experience-with-twilio.md
 - pages/documents/Release Notes/July/Release-notes-2019-july-22.md
 - pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
 - pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md

@@ -12,12 +12,15 @@ isNew: false
 date: '2019-02-11T12:56:04.000+00:00'
 
 ---
+{: .notice}   
+**To get started right away, see the** [**Bots Quick Start**](getting-started-bots-quick-start.html) **article.**
+
 ## The benefits of bots in LivePerson
 
-Check out our in depth article on: [How bots work in LivePerson](ai-bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
+Brand using chat and messaging services can scale significantly with automation. Enterprises can use bots to enhance digital care and sales processes to deliver high-quality customer interactions. Check out our in depth article on: [How bots work in LivePerson](ai-bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
 
 * **Humans and bots work together in LivePerson**  
-  In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to easily manage and take over conversations when needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
+  In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to manage and take over conversations as needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations. 
 * **Track and monitor bots like any other agent**  
   Bot conversations appear in the agent workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
 * **Set consumer expectations for a better bot experience**
