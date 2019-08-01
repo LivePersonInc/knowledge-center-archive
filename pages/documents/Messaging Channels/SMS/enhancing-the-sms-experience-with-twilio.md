@@ -1,11 +1,11 @@
 ---
-pagename: Enhancing the SMS experience with Twilio
+pagename: SMS with Twilio
 categoryName: Messaging channels
 subCategoryName: SMS
 indicator: messaging
 subtitle: ""
 level3: ""
-permalink: messaging-channels-sms-enhancing-the-sms-experience-with-twilio.html
+permalink: messaging-channels-sms-sms-with-twilio.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 14:31:45 +0300
