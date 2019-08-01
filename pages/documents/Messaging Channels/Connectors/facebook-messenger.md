@@ -19,9 +19,9 @@ redirect_from:
 {: .notice}  
 **To get started right away, see the** [**Facebook Messenger Quick Start**](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) **article.**
 
-With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
+With over a billion messages being sent between people and businesses per month on Facebook Messenger, businesses need tools to manage these interactions at scale. LiveEngage seamlessly integrates into Facebook Messenger, offering brands the opportunity to tap into  consumers on their preferred messaging channel. [Set up is easy](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) and allows your agents to create ongoing connections with valuable customers right away.
 
-## Why use Facebook Messenger to connect with your consumers?
+## Benefits of Facebook Messenger 
 
 * **Meet consumers where they are** — Consumers can continue using one popular app - Facebook Messenger - to connect to friends, families and now businesses.
 * [**Rich Messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Messaging capabilities like quick replies and consumer-to-agent audio messaging provide an enhanced messaging experience with more flexibility.
@@ -29,7 +29,9 @@ With over a billion messages being sent between people and businesses per month 
 * **Simple bot integrations** — Brands can plug their own bots into Facebook Messenger. Bots can then offer service and sales assistance to customers, with seamless transition to a human agent when required.
 * **In-depth reporting** — Track and report on all Facebook Messenger interactions with detailed performance metrics within LivePerson’s platform.
 
-### These can be found in your Facebook page settings, under messaging settings:
+### Supported messaging features
+
+Under Facebook's page settings for messaging, brands can use the following features:
 
 * **Greeting:** sends a response the first time a consumer opens a conversation with your brand on messenger.
 * **Response assistant:** allows you to send custom instant replies to anyone who messages your page.
@@ -39,7 +41,9 @@ With over a billion messages being sent between people and businesses per month 
 {: .notice}
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
-## How conversations start
+To get started right away, see the [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) article. 
+
+## Set up how conversations start: entry points
 
 Brands and consumers can begin interacting over Facebook Messenger through multiple entry points, here are are some of the ways conversations can start:
 
@@ -49,7 +53,7 @@ Brands and consumers can begin interacting over Facebook Messenger through multi
 * **Opting in:** Consumers can opt-in to receive purchase confirmation and updates via Messenger during the checkout process.
 * **Offsite engagements:** Brands can embed a Message us button on ads, emails and other offsite locations.
 
-## Adding an agent manager user to display third party messages
+## Add an agent manager  to display third party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 
@@ -75,7 +79,7 @@ On the Facebook connector page, under **Add a Facebook external user**, simply s
 {: .notice}
 **Note:** To route visitors from your campaign to a specific skill, please contact your LivePerson representative.
 
-## Facebook Handover Protocol
+## Enable Facebook Handover Protocol for human/bot tango
 
 Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible for a Page to simultaneously use one Facebook app to build a 3rd party bot, outside of LiveEngage, for handling automated responses, and use another Facebook app (LiveEngage) for customer service with human agents.
 
@@ -86,3 +90,5 @@ Facebook Handover Protocol enables two or more apps to participate in a conversa
 
 {: .notice}
 **Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
+
+**To get started right away, see the** [**Facebook Messenger Quick Start**](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) **article.**

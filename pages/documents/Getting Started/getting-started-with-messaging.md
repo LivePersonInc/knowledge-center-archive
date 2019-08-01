@@ -7,13 +7,12 @@ subtitle: Checklist for set up and configuration to get your messaging program r
 level3Name: ''
 permalink: getting-started-getting-started-with-messaging.html
 isTutorial: false
-date: 2019-01-14 11:44:06 +0000
+date: '2019-01-14T11:44:06.000+00:00'
 level3: ''
 isNew: false
 
 ---
-
-## Customize your messaging program
+## Managing brand-to-consumer conversations on messaging
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities. To ensure you are getting the most out of messaging, review how to [manage a contact center that messages](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html), and develop and set up your preferences in three areas:
 

@@ -28,7 +28,7 @@
         - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
-        - pagename: Enhancing the SMS experience with Twilio
+        - pagename: Using SMS with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google Business Messaging
@@ -215,7 +215,7 @@
     - subcategoryname: Analytics
       pages:
         - pagename: "Advanced messaging dashboard user guide"
-        - pagename: "Data Transporter user guide"        
+        - pagename: "Data Transporter user guide"
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:

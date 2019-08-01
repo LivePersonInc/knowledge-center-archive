@@ -1,23 +1,28 @@
 ---
-pagename: SMS with Twilio
+pagename: Using SMS with Twilio
 categoryName: Messaging channels
 subCategoryName: SMS
 indicator: messaging
-subtitle: ""
-level3: ""
-permalink: messaging-channels-sms-sms-with-twilio.html
+subtitle: ''
+level3: ''
+permalink: messaging-channels-sms-using-sms-with-twilio.html
 isTutorial: false
 isNew: false
-date: 2019-04-15 14:31:45 +0300
+date: '2019-04-15T11:31:45.000+00:00'
+
 ---
+## Get started right away
 
-## Introduction
+{: .notice}  
+**To get started right away, see the** [**Twilio SMS Quick Start**](getting-started-twilio-sms-quick-start.html) **article.**
 
-This document delves into some of the Twilio functions that will enable your brand to enhance the SMS experience through LiveEngage.
+Learn more about enhancing and customizing Twilio functions to enable your brand to enhance the SMS experience through LiveEngage by reading the article below.
 
 ## Gateway-level enhancements
 
-LiveEngage leverages Twilio SMS as one of its out of the box messaging connectors. Twilio offers a feature called ‘Functions’ which allows your brand to create and run snippets of code on receipt of a message from the consumer. The following sections of this article cover a series of sample use cases on how Twilio functions can be leveraged to enhance the consumer’s messaging experience. All of the code snippets below are examples that are intended as a starting point for you to design and build your own custom functions. Please ensure you test each function thoroughly before rolling it out to your brand’s consumers.
+LiveEngage leverages Twilio SMS as one of its out of the box messaging connectors. Twilio offers a feature called ‘Functions’ which allows your brand to create and run snippets of code on receipt of a message from the consumer. The following sections of this article cover a series of sample use cases on how Twilio functions can be leveraged to enhance the consumer’s messaging experience.
+
+All of the code snippets below are examples that are intended as a starting point for you to design and build your own custom functions. Please ensure you test each function thoroughly before rolling it out to your brand’s consumers.
 
 ## Off-hours messages
 
