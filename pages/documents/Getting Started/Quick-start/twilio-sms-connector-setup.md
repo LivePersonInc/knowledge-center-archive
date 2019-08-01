@@ -27,30 +27,30 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 {:start="3"}
 
-3. Give your number a name by clicking the ‘setup’ button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
+3. Give your number a name by clicking the **setup** button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
 
 5. Configure the request URL, by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming "https://www.twilio.com/user/account/phone-numbers/incoming")
 
 {:start="6"}
-6. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
+6. Click on the **red hyperlinked phone number** you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
 * EMEA accounts: `https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio`
 * North America accounts: `https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio`
 * APAC accounts: `https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio`
 
 {:start="7"}
-7. Navigate to the following page [[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol. Make sure to copy both the Primary Authorization Token and SID, since you will need them for the following steps.
+7. Navigate to the following page [[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the **padlock** symbol. Make sure to copy both the Primary Authorization Token and SID, since you will need them for the following steps.
 
 {:start="8"}
-8. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.  
+8. In LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.  
 
 ![](img/data-sources.png)
 
 
 {:start="8"}
-9. On the conversation sources tab, click on Connect in the Twilio SMS box.
+9. On the conversation sources tab, click on **Connect** in the Twilio SMS box.
 
-10. Click the Activate Twilio SMS Source button to enable the connector.
+10. Click the **Activate Twilio SMS Source** button to enable the connector.
 
 11. Under Twilio account configuration, enter the following details from your Twilio account:
 
@@ -62,13 +62,13 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 {:start="11"}
 
-12. Click Save.
+12. Click **Save**.
 
 13. To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in LiveEngage. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
 
 ## To deactivate the SMS connector:
 
-1. On LiveEngage, on the Campaigns page, click on [Data Sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) in the footnote.
+1. On LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
 
 ![](img/data-sources.png)
 
