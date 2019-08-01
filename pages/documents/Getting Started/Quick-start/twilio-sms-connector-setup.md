@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: Easily add and manage SMS numbers to expand the reach of your brand
 level3: ''
-permalink: getting-started-twilio-sms-quick-start.html
+permalink: getting-started-quick-start-twilio-sms-quick-start.html
 isTutorial: true
 date: 2019-01-17 15:11:38 +0000
 isNew: false

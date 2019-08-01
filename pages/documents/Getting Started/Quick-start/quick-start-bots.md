@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: Tap into the millions of consumers connecting over Facebook using the power
   of LivePerson
 level3: ''
-permalink: getting-started-bots-quick-start.html
+permalink: getting-started-quick-start-bots-quick-start.html
 isTutorial: true
 date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
