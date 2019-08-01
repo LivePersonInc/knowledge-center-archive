@@ -68,6 +68,9 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 1. On LiveEngage, on the Campaigns page, click on [Data Sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) in the footnote.
 
+![](img/data-sources.png)
+
+{:start="2"}
 2. On the conversation sources tab, toggle the SMS connector off to deactivate this connector.
 
 <div class="important">
