@@ -2,6 +2,11 @@
   image: getting-started
   subcategories:
     - subcategoryname: LivePerson's conversational commerce platform
+    - subcategoryname: Quick start guides
+      pages:
+        - pagename: Messaging quick start
+        - pagename: Facebook Messenger quick start
+        - pagename: Twilio SMS quick start
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots

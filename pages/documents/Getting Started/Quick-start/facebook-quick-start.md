@@ -1,5 +1,5 @@
 ---
-pagename: Facebook Messenger Quick Start
+pagename: Facebook Messenger quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging

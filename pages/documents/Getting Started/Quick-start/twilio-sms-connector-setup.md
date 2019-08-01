@@ -1,5 +1,5 @@
 ---
-pagename: Twilio SMS Quick Start
+pagename: Twilio SMS quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
@@ -39,7 +39,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 * APAC accounts: `https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio`
 
 {:start="7"}
-7. Navigate to the following page [[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
+7. Navigate to the following page [[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol. Make sure to copy both the Primary Authorization Token and SID, since you will need them for the following steps.
 
 {:start="8"}
 8. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.  
@@ -50,19 +50,21 @@ For brands, creating a presence on the channels used by their consumers is key t
 {:start="8"}
 9. On the conversation sources tab, click on Connect in the Twilio SMS box.
 
-10. Toggle the Activate Twilio SMS Source to enabled.
+10. Click the Activate Twilio SMS Source button to enable the connector.
 
 11. Under Twilio account configuration, enter the following details from your Twilio account:
 
-* SID
-* Auth Token
-* Phone number
+    * SID
 
-{:start="12"}
+    * Primary Authorization Token
+
+    * Phone number
+
+{:start="11"}
 
 12. Click Save.
 
-13. To test your Twilio integration, simply SMS the number which you configured above and see if it shows up in LiveEngage. If it does, and you are able to reply to it as an agent, the setup was succesful.
+13. To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in LiveEngage. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
 
 ## To deactivate the SMS connector:
 
