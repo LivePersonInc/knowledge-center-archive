@@ -28,6 +28,9 @@ The default campaign for your account is set to chat. You'll need to disable it 
 
 First, give your campaign a goal by clicking the "Add goal" button. You can read more about goals [here](contact-center-management-campaigns-campaign-goals.html). Then, add an engagement by clicking on the "Add engagement" button and selecting "Web" (since we're setting up a web messaging campaign for this example). From there, select your desired engagement and hit "Next" at the bottom right of the screen until the "Done" button is clickable. Once it is, click it. You can also read more about campaigns [here](/contact-center-management-campaigns-campaigns-overview.html).
 
+{: .notice}
+Make sure to create an **unauthenicated** campaign by leaving the "authenticated" toggle off while creating the campaign.
+
 ### Steps 3: Test your connection
 
 Once the code is up, an agent is logged into the system, and a campaign is setup, the button you selected during campaign creation will appear on your website. You click on it to create a test conversation with your account, and begin to answer incoming conversations.
