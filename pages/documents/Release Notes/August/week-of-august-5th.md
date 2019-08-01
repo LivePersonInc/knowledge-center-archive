@@ -5,10 +5,9 @@ subCategoryName: ''
 indicator: both
 subtitle: ''
 level3: August
-permalink: release-notes-2019-week-of-august-5th.html
+permalink: release-notes-2019-august-week-of-august-5th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during August 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -93,6 +92,9 @@ Image 2: In case you would like to use Ocean theme as the starting point for a n
 
 Image 3: Horizon theme vs Ocean theme
 
+{: .sidebyside}
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+
 ## New engagement templates to the engagement gallery
 
 ### Type: Enhancement
@@ -147,13 +149,23 @@ The 2 new templates are:
 
 Image 1: new templates added to the engagement template gallery
 
+![](/img/week-of-august-5th-5.png)
+
 Image 2: “Message Us” editable engagement text
+
+![](/img/week-of-august-5th-6.png)
 
 Image 3: Round bubble without text engagement
 
+![](/img/week-of-august-5th-7.png)
+
 Image 4: “Message Us” invitation engagement
 
+![](/img/week-of-august-5th-8.png)
+
 Image 5: “Round Bubble without text” invitation engagement
+
+![](/img/week-of-august-5th-9.png)
 
 ## New “Message us” engagement template as default engagement
 
@@ -202,7 +214,11 @@ The new “Message us” invitation template, is now the default invitation for 
 
 Image 1: new “Message Us” template added to the gallery and will be the default
 
+![](/img/week-of-august-5th-10.png)
+
 Image 2: “Message Us” invitation engagement
+
+![](/img/week-of-august-5th-11.png)
 
 ## New images in window images gallery
 
@@ -244,3 +260,451 @@ Image 2: “Message Us” invitation engagement
 </tbody>
 </table>
 </div>
+
+Two new out-of-the-box images are added to the engagement window images gallery. These images apply to both small and large windows as well as desktop and mobile.
+
+**Screenshots**
+
+Image 1: new images added to the gallery
+
+![](/img/week-of-august-5th-12.png)
+
+![](/img/week-of-august-5th-12a.png)
+
+Image 2: new image with Horizon theme
+
+![](/img/week-of-august-5th-13a.png)
+
+Image 3: new image with Ocean theme
+
+![](/img/week-of-august-5th-13.png)
+
+## Ability to set a floating engagement
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+As part of the engagement gallery, brands have the ability to set the engagement position to be floating. This option is disabled by default.
+
+**How to enable:**
+
+* Log into LiveEngage
+* Go to Engagement studio
+* Go to “Size & Placement” section
+* Check the “Floating Engagement” checkbox
+
+**Limitations:**
+
+* This option applies to the Sticky engagements only.
+
+**Screenshots**
+
+Image 1: non floating engagement
+
+![](/img/week-of-august-5th-14.png)
+
+Image 2: floating engagement
+
+![](/img/week-of-august-5th-15.png)
+
+Image 3: floating engagement consumer view
+
+![](/img/week-of-august-5th-16.png)
+
+Image 4: non floating engagement consumer view
+
+![](/img/week-of-august-5th-17.png)
+
+## Inherited font applied to structured content text elements
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Once the “Inherit font from the webpage” checkbox is checked for the agent bubble font, it will be applied to the following structured content elements that are being sent by agent/bot/info messages to the consumer:
+
+* Card
+* Carousels
+* List
+* Date Picker
+
+**How to enable:**
+
+* Log into [LiveEngage](https://authentication.liveperson.net/)
+* Go to Engagement Window Studio
+* Select the agent bubble
+* Click the “Inherit font from webpage” checkbox
+
+**Limitation:**
+
+* Inherited font for structured content with quick replies will be supported in a future release.
+
+**Screenshots**
+
+Image 1: enable inherit font from webpage feature
+
+![](/img/week-of-august-5th-20.png)  
+Image 2: inherit font for structured content
+
+![](/img/week-of-august-5th-21.png)
+
+## Google Business Messaging - Onboarding Page
+
+### Type: New functionality
+
+We are adding a Google Business Messaging connector into the self-service Data Source > Conversations Sources area, to accompany WhatsApp, FB Messenger, Twilio, etc.
+
+Messaging clients will now be able to go through a more automated process for submitting their early adopter request to Google, including agreement to terms and policies, and providing brand and contact information. The information will first be verified internally by LivePerson then coordinated with Google for set up if the brand is a fit.
+
+The new connector will guide them through the application process, and they will be able to view their status update from pending to approved to live.
+
+**How to enable:** The Google Business Messaging Conversation Source will be enabled automatically for all messaging clients.
+
+**Limitations:** The submission of business requirements is the first step in going live with Google Business Messaging. There are still manual configuration steps performed by LivePerson in conjunction with Google to bring brands live on the solution. Please speak with your LivePerson account team for more information.
+
+**Screenshot**
+
+![](/img/week-of-august-5th-18.png)
+
+## Twilio SMS Source - Media Error Unknown
+
+### Type: Bug fix
+
+Instruction video on Twilio SMS source would not play due to an unknown error. This issue has been resolved.
+
+**Screenshot**
+
+Image 1: Twilio SMS source instruction video
+
+![](/img/week-of-august-5th-19.png)
+
+## Images sent from mobile are stretched or squished in the UI
+
+### Type: Bug fix
+
+Large images sent from mobile appear stretched or squished when looking at them from within the UI. This issue has been resolved.
+
+**Screenshot**
+
+![](/img/week-of-august-5th-22.png)
+
+## Bold font for agent bubble does not work for chat window
+
+### Type: Bug fix
+
+When setting the font to bold for agent bubble it did not apply for chat. This has been resolved.
+
+## For external window, Welcome message with Quick Replies does not show quick replies after closing conversation
+
+### Type: Bug fix
+
+For the external window for web messaging the welcome message with quick replies did not show quick replies option on visitor’s conversation window when the conversation was closed by visitors, as it is configured to display on every new conversation.
+
+## Automatic disambiguation of intents
+
+### Type: new feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Users can configure Disambiguation dialog in the Conversation builder which will automatically present intent clarification question and resolve intent to keep conversation on track.
+
+In conversation flow, a consumer sends a messages and a bot understands user intent and prepares response. Sometimes, when a bot is trying to determine consumer intent, the text matches with more than one intent with similar confidence levels. In this situation, Automatic Disambiguation of intents allows bots to offer a clarification question to the consumer to clarify which intent is the best match, steering the conversation flow down the right path.
+
+## Integration with FAAS from Conversation Builder
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Brands will have access to FaaS from within Conversation Builder, helping them deploy custom code through FaaS and mashup APIs.
+
+FaaS provides brands with even more flexibility to deploy custom code and use that as part of Conversation Builder dialogs.
+
+## Ability to use 3rd Party NLU for Knowledge Bases
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Knowledge bases can be configured to use external NLU engines to detect user Intent to match with appropriate answers in the Knowledge Base.

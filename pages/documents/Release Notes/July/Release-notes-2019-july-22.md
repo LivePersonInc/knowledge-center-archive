@@ -460,6 +460,14 @@ When creating a new Bot Connection, the admin must create a new agent and choose
 
 Watson has its own syntax for using rich content. Until now the Bot connectors has only supported the native LivePerson Rich Content, now LivePerson Bot Connectors can take the out of the box structure of the Watson Rich Content and translate it to the expected UMS structure to work within the LivePerson framework.
 
+## Mobile SDK 
+
+For the latest mobile SDK release notes for iOS and Android - please visit the developers community. 
+
+[iOS Messaging SDK - Version 3.9.4](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-release-notes.html#ios-messaging-sdk---version-394)
+
+[Android SDK 4.1](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html#environmental-requirements)
+
 ## Bot sent double queries to AI-Vendor if conversation was transferred or closed
 
 ### Type: Bug fix
