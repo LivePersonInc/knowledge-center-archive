@@ -12,9 +12,12 @@ date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
 redirect_from:
 - facebook-connector.html
----
 
+---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+{: .notice}  
+**To get started right away, see the** [**Facebook Messenger Quick Start**](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) **article.**
 
 With over a billion messages being sent between people and businesses per month on Facebook Messenger, it’s time that businesses had a tool to manage these messages at scale. LiveEngage is now seamlessly integrated into Facebook Messenger, offering your brand the opportunity to tap into these consumers on their preferred messaging channel. Set up is easy and allows your agents to create ongoing connections with valuable customers right away.
 
