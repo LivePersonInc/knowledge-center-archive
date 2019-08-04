@@ -19,9 +19,9 @@ redirect_from:
 {: .notice}  
 **To get started right away, see the** [**Facebook Messenger Quick Start**](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) **article.**
 
-With over a billion messages being sent between people and businesses per month on Facebook Messenger, businesses need tools to manage these interactions at scale. LiveEngage seamlessly integrates into Facebook Messenger, offering brands the opportunity to tap into  consumers on their preferred messaging channel. [Set up is easy](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) and allows your agents to create ongoing connections with valuable customers right away.
+With over a billion messages being sent between people and businesses per month on Facebook Messenger, businesses need tools to manage these interactions at scale. LiveEngage seamlessly integrates into Facebook Messenger, offering brands the opportunity to tap into  consumers on their preferred messaging channel. [Set up is easy](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) and allows your agents to create ongoing connections with valuable customers right away.
 
-## Benefits of Facebook Messenger 
+## Benefits of Facebook Messenger
 
 * **Meet consumers where they are** — Consumers can continue using one popular app - Facebook Messenger - to connect to friends, families and now businesses.
 * [**Rich Messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Messaging capabilities like quick replies and consumer-to-agent audio messaging provide an enhanced messaging experience with more flexibility.
@@ -41,7 +41,7 @@ Under Facebook's page settings for messaging, brands can use the following featu
 {: .notice}
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
-To get started right away, see the [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) article. 
+To get started right away, see the [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-facebook-messenger-quick-start.html) article.
 
 ## Set up how conversations start: entry points
 
