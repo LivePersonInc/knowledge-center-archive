@@ -27,7 +27,7 @@ Website administrators or developers need to add the LivePerson tag (piece of co
 The default campaign for your account is set to chat. You'll need to disable it first. Click on **Campaigns** at the top of the screen, where you'll find the default "Live Chat on your site" campaign. Click on the **campaign name** to access its settings, then disable it by clicking on the **Unpublish** button at the top right hand side. From there, click the **Add campaign** button at the bottom left of the screen and add a basic messaging campaign to your account by following the steps below.
 
 {: .notice}
-Make sure to create an **unauthenicated** campaign by leaving the "authenticated" toggle off while creating the campaign.
+For the quickest start, make sure to create an **unauthenicated** campaign by leaving the "authenticated" toggle off while creating the campaign.
 
 First, give your campaign a goal by clicking the **Add goal** button. You can read more about goals [here](contact-center-management-campaigns-campaign-goals.html). Then, add an engagement by clicking on the **Add engagement** button and selecting **Web** (since we're setting up a web messaging campaign for this example). From there, select your desired engagement and hit "Next" at the bottom right of the screen until the **Done** button is clickable. Once it is, click it. **Hit publish campaign at the top right corner to publish your campaign**.
 
@@ -40,4 +40,4 @@ Once the code is up, an agent is logged into the system, and a campaign is setup
 ![](/img/getting-started-with-messaging-1-2.png)
 
 {: .notice}
-The basic set up means there will be no routing - every agent will receive all messages. To learn more about advanced messaging configuration for your account, please see [this document](getting-started-getting-started-with-messaging.html).
+The basic set up means there will be no routing - every agent will receive all messages. To learn more about advanced messaging configuration for your account, please see [this document](getting-started-getting-started-with-messaging.html). You can also check out our other quick start guides, for [Bots](getting-started-quick-start-guides-bots-quick-start.html), [Facebook](getting-started-quick-start-guides-facebook-messenger-quick-start.html) messaging, and [SMS](getting-started-quick-start-guides-twilio-sms-quick-start.html).
