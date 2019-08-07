@@ -63,7 +63,7 @@ Consumers can now share files and images that are bigger than before, improving 
 * Size limit for image types JPG,GIF,JPEG,PNG is increased to 10 MB
 
 **Dependencies:**
-*UMS 3.22
+* UMS 3.22
 
 **Limitation:** File name must start with a letter if size is greater than 10 MB.
 
