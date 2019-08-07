@@ -164,7 +164,7 @@ For example, locale value "en_AU" specifies the language as English and the regi
 
 Image 1: Language SDE added under Personal info
 
-![](/img/week-of-august-12th-2.png)
+![](/img/week-of-august-12th-3.png)
 
 ## Localization Support for Pusher Default Notifications (Back-end messaging)
 
