@@ -67,8 +67,6 @@ Consumers can now share files and images that are bigger than before, improving 
 
 * UMS 3.22
 
-**Limitation:** File name must start with a letter if size is greater than 10 MB.
-
 ## \[ABC\] Support structured content list picker within Post Conversation Survey messages
 
 ### Type: New functionality
@@ -166,7 +164,7 @@ For example, locale value "en_AU" specifies the language as English and the regi
 
 Image 1: Language SDE added under Personal info
 
-![alt text](img/week-of-august-12-1.png)
+![](/img/week-of-august-12th-2.png)
 
 ## Localization Support for Pusher Default Notifications (Back-end messaging)
 
@@ -417,8 +415,8 @@ Expose new rest API for retrieving the count of unread messages of consumer last
 
 </div>
 
-**Available to all customers: No  
-**Three new Answering Service enhancements are included:
+\**Available to all customers: No  
+\**Three new Answering Service enhancements are included:
 
 * CO_MANAGED_BACKUP
 * CO_MANAGED_HYBRID
@@ -430,20 +428,20 @@ This Rollover flow allows the brand's agents a chance to first handle the conver
 
 The AGENTS_NOT_ACCEPTING fact will kick off the RS_AGENTS_NOT_ACCEPTING flow in CM. This flow will check the current state of the conversation in CB (current agent matcher service) -- if AM (the brand), then it will double-check that there is a valid RO configuration defined. If there is, then it will update the conversation handler details to match the RO account. If the conversation is already handled by a RO account, then it will update the conversation handler details back to AM (return the conversation handler to the brand). The updated conversation handler details will be persisted, and if it has changed, then the CONVERSATION_HANDLER_CHANGED fact will be sent to Routing.
 
-Routing will process the CONVERSATION_HANDLER_CHANGED fact and will clean the conversation's cached data (including brand shared data) to reflect that this conversation is now being handled by the new account and will reroute the conversation to its new handler.  
-  
+Routing will process the CONVERSATION_HANDLER_CHANGED fact and will clean the conversation's cached data (including brand shared data) to reflect that this conversation is now being handled by the new account and will reroute the conversation to its new handler.
+
 **CO_MANAGED_HYBRID**
 
-Rollover type which is a combination of CO_MANAGED_SCHEDULE and CO_MANAGED_BACKUP.  
-  
-For a new conversation -- CO_MANAGED_HYBRID will try the brand's agents if they are currently working according to their work days shift data and will immediately rollover if they are off-shift (same behavior as CO_MANAGED_SCHEDULE).  
-  
+Rollover type which is a combination of CO_MANAGED_SCHEDULE and CO_MANAGED_BACKUP.
+
+For a new conversation -- CO_MANAGED_HYBRID will try the brand's agents if they are currently working according to their work days shift data and will immediately rollover if they are off-shift (same behavior as CO_MANAGED_SCHEDULE).
+
 If the brand's rollover site settings provide a valid Rollover configuration with a max number of ring attempts threshold defined and the brand's agents do not accept before that limit is reached, then Routing will fire AgentsNotAccepting. CM will act on that fact and respond with a ConversationHandlerChanged fact for Routing to try the Rollover account. This is the same behavior as CO_MANAGED_BACKUP.
 
 **Conversation Handler Details data now included in Avro events model**
 
-New fields are defined/populated for Conversation Handler Details on LP Avro Events for events which include ConversationDetails.  
-  
+New fields are defined/populated for Conversation Handler Details on LP Avro Events for events which include ConversationDetails.
+
 The new fields include:
 
 1. conversationHandlerAccountId
@@ -451,7 +449,7 @@ The new fields include:
 3. conversationHandlerAgentGroupId
 4. agentMatcherService
 
-## Agent Group Skill Filter For Queued Conversations Notifications 
+## Agent Group Skill Filter For Queued Conversations Notifications
 
 ### Type: New feature
 
@@ -615,7 +613,7 @@ On brand level, the feature flag is “Messaging.AgentMasking”. The regular ex
 
 Please note that, all historical data will be masked by this regular expression if feature is turned, regardless of permission settings.
 
-## File Sharing Data Limit Increased 
+## File Sharing Data Limit Increased
 
 ### Type: New feature
 
@@ -693,13 +691,13 @@ Please note that, all historical data will be masked by this regular expression 
 
 **Available to all customers?** no
 
- File size limits for attachments shared in messages increased to 25 MB in the back-end messaging server. Note that while the server accepts files up to this size, LiveEngage UI may still have the smaller maximum size restriction.
+File size limits for attachments shared in messages increased to 25 MB in the back-end messaging server. Note that while the server accepts files up to this size, LiveEngage UI may still have the smaller maximum size restriction.
 
 ## Custom Error Page (1)
 
 ### Type: Bug Fix
 
- We now show a customer error page rather than the default error page for 404 and related errors. The default page exposed the URL and Jetty version, which is now gone.
+We now show a customer error page rather than the default error page for 404 and related errors. The default page exposed the URL and Jetty version, which is now gone.
 
 ## Custom Error Page (2)
 
@@ -707,7 +705,7 @@ Please note that, all historical data will be masked by this regular expression 
 
 ms.MessagingEventNotification now returns VIEWED as a status code rather than ignoring it.
 
-## Allow Agent Subscription to Already Assigned Conversations 
+## Allow Agent Subscription to Already Assigned Conversations
 
 ### Type: Bug Fix
 
@@ -868,7 +866,7 @@ A new user privilege needs to be created to allow users to view masked data for 
 </div>  
 Permissions are added to support conversation builder's related actions. These permissions include: Create and Edit Bots, View Bots, Export Bots, Import Bots, Delete Bots, Create Release, Accept Release, Create Version, Restore Version, Create and Edit Enterprise Integrations, View Enterprise Integrations, Delete Enterprise Integrations, Create and Edit API Integrations, View API Integrations, Delete API Integrations, Create/Edit Global Functions, View Global Functions, Create/Edit Credentials, Use Credentials, Start a connector, Stop a connector, Create/Edit Domain, Delete Domain, View Domain, Create Edit Intents, View Intents, Delete Intents, Create/Edit Entities, View Entities, Delete Entities, Train Model, Activate Model, Create/Edit Knowledge Base, View Knowledge Base, Delete Knowledge Base, Create/Edit Article, Delete Article, Approve Article, Import Knowledge Base, Export Knowledge Base, View Analytics, Download Analytics, and Purge Data.
 
-## Back-end chat support for NLS JWT 
+## Back-end chat support for NLS JWT
 
 ### Type: Bug fix
 
