@@ -712,3 +712,170 @@ ms.MessagingEventNotification now returns VIEWED as a status code rather than ig
 ### Type: Bug Fix
 
 In the current system, agents are allowed to subscribe to conversations that are assigned to them but they get a notification for conversations that are assigned to them and also one that they are participants of. This is a bug because initial subscription and notification should match. So, this ticket is to allow agents to subscribe to assigned conversations or conversations that they are assigned or participant of.
+
+## View Masked Data Privilege (Back-end chat)
+
+### Type: New Feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+A new user privilege needs to be created to allow users to view masked data for both historical and real-time messaging conversations. When an agent or agent manager has this permission enabled, they will be able to see the masked data with the regular expression that matches the one in _messaging.transcript.agent.masking.regexp_ site setting. The default value for this permission is off, and is displayed in the LiveEngage user interface. The AC feature called _Messaging.AgentMasking_ has to be enabled to apply these permissions.
+
+## Conversation Builder Privileges (back-end chat)
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>  
+Permissions are added to support conversation builder's related actions. These permissions include: Create and Edit Bots, View Bots, Export Bots, Import Bots, Delete Bots, Create Release, Accept Release, Create Version, Restore Version, Create and Edit Enterprise Integrations, View Enterprise Integrations, Delete Enterprise Integrations, Create and Edit API Integrations, View API Integrations, Delete API Integrations, Create/Edit Global Functions, View Global Functions, Create/Edit Credentials, Use Credentials, Start a connector, Stop a connector, Create/Edit Domain, Delete Domain, View Domain, Create Edit Intents, View Intents, Delete Intents, Create/Edit Entities, View Entities, Delete Entities, Train Model, Activate Model, Create/Edit Knowledge Base, View Knowledge Base, Delete Knowledge Base, Create/Edit Article, Delete Article, Approve Article, Import Knowledge Base, Export Knowledge Base, View Analytics, Download Analytics, and Purge Data.
+
+## Back-end chat support for NLS JWT 
+
+### Type: Bug fix
+
+This task is intended to fix a bug when a user authenticates through the new login service (see MFA solution concept). Some services (such as Report Builder), use the old SSO solution that relies on Denver web session. Therefore, we need to allow this flow by creating a session in Denver even though the authentication was actually done in the new login service. This solution has passed security review and it’s secured by JWT signing/verification and user data hashed verification.
+
+## Wrong Time and Timezone Presented in Transcript Email
+
+### Type: Bug Fix
+
+When visitor requests to get transcript by mail, the chat start/end time and timezone are not correct. The timezone appears in GMT instead of the consumer timezone. The expected behavior is for the time zone that should appear to be in the time zone of the visitors, and not GMT. The IP address is used to identify where the visitor's location and to determine which timezone the visitor resides.
