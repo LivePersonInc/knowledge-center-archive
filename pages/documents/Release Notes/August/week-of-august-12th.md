@@ -17,7 +17,7 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## [ABC] Increase file sharing size limit
+## \[ABC\] Increase file sharing size limit
 
 ### Type: Enhancement
 
@@ -59,15 +59,17 @@ The timing and scope of these features or functionalities remain at the sole dis
 </div>
 
 Consumers can now share files and images that are bigger than before, improving the consumer experience and conversation quality:
+
 * Size limit for file types PDF, DOC (X), PPT (X), XLS(X) is increased to 25 MB
 * Size limit for image types JPG,GIF,JPEG,PNG is increased to 10 MB
 
 **Dependencies:**
+
 * UMS 3.22
 
 **Limitation:** File name must start with a letter if size is greater than 10 MB.
 
-## [ABC] Support structured content list picker within Post Conversation Survey messages
+## \[ABC\] Support structured content list picker within Post Conversation Survey messages
 
 ### Type: New functionality
 
@@ -109,12 +111,13 @@ Consumers can now share files and images that are bigger than before, improving 
 </div>
 
 ABC Post Conversation Survey is enhanced to support survey questions with structured content of these types:
+
 * List Picker
 * Date Picker
 
 This is in addition to the support of questions with quick replies option, which is already supported.
 
-## [ABC] Mapping customer’s device locale setting to language engagement attribute
+## \[ABC\] Mapping customer’s device locale setting to language engagement attribute
 
 ### Type: New functionality
 
@@ -164,3 +167,548 @@ For example, locale value "en_AU" specifies the language as English and the regi
 Image 1: Language SDE added under Personal info
 
 ![alt text](img/week-of-august-12-1.png)
+
+## Localization Support for Pusher Default Notifications (Back-end messaging)
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Available to all customers: Yes
+
+In order to support localization for default pusher notifications (standard and rich text), two new site settings have been added:
+
+* messaging.pusher.notification.msg.localised
+* messaging.pusher.rich.content.notification.msg.localised
+
+These new settings are in json and map a message from the locale provided in the conversation context to a message. If these values are not set, behavior will revert back to the previous functionality.
+
+## Get Unread messages count REST Api
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers: Yes**
+
+Expose new rest API for retrieving the count of unread messages of consumer last opened conversation.
+
+* METHOD: GET
+* URL: api/account/{{account}}/messaging/consumer/conversation/unread-messages-count?v=3
+* Headerd
+  * Authorization: JWT
+  * Content-Type: application/json
+  * User-Agent:
+* Response: integer
+
+## Answering Service Enhancements
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers: No  
+**Three new Answering Service enhancements are included:
+
+* CO_MANAGED_BACKUP
+* CO_MANAGED_HYBRID
+* Conversation Handler Details data now included in Avro events model
+
+**CO_MANAGED_BACKUP**
+
+This Rollover flow allows the brand's agents a chance to first handle the conversation. If the agents are not available during a dispatch cycle (not online or otherwise eliminated) and a valid rollover configuration is defined in the brand's site settings, then Routing will quit trying to dispatch the conversation and will issue the AGENTS_NOT_ACCEPTING fact to AMS (CM).
+
+The AGENTS_NOT_ACCEPTING fact will kick off the RS_AGENTS_NOT_ACCEPTING flow in CM. This flow will check the current state of the conversation in CB (current agent matcher service) -- if AM (the brand), then it will double-check that there is a valid RO configuration defined. If there is, then it will update the conversation handler details to match the RO account. If the conversation is already handled by a RO account, then it will update the conversation handler details back to AM (return the conversation handler to the brand). The updated conversation handler details will be persisted, and if it has changed, then the CONVERSATION_HANDLER_CHANGED fact will be sent to Routing.
+
+Routing will process the CONVERSATION_HANDLER_CHANGED fact and will clean the conversation's cached data (including brand shared data) to reflect that this conversation is now being handled by the new account and will reroute the conversation to its new handler.  
+  
+**CO_MANAGED_HYBRID**
+
+Rollover type which is a combination of CO_MANAGED_SCHEDULE and CO_MANAGED_BACKUP.  
+  
+For a new conversation -- CO_MANAGED_HYBRID will try the brand's agents if they are currently working according to their work days shift data and will immediately rollover if they are off-shift (same behavior as CO_MANAGED_SCHEDULE).  
+  
+If the brand's rollover site settings provide a valid Rollover configuration with a max number of ring attempts threshold defined and the brand's agents do not accept before that limit is reached, then Routing will fire AgentsNotAccepting. CM will act on that fact and respond with a ConversationHandlerChanged fact for Routing to try the Rollover account. This is the same behavior as CO_MANAGED_BACKUP.
+
+**Conversation Handler Details data now included in Avro events model**
+
+New fields are defined/populated for Conversation Handler Details on LP Avro Events for events which include ConversationDetails.  
+  
+The new fields include:
+
+1. conversationHandlerAccountId
+2. conversationHandlerSkillId
+3. conversationHandlerAgentGroupId
+4. agentMatcherService
+
+## Agent Group Skill Filter For Queued Conversations Notifications 
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+A group skill based filter has been added on queued conversation notification for Agent-Managers. Agent Managers can only see his own territory groups members skills matched queued conversations. If he is the only one who has the skill, he will not see the matched queued conversations.
+
+## Privileged Data Masking
+
+### Type: New Feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Customers may configure their own regular expression to mask data in messages based on agent permission. Agents now can be grouped into one which has permission to view data not masked and another which will view data masked. A typical scenario is that, all human agents can be configured as no permission to view sensitive data and hence data to them will be masked, while bots can be configured to have permission to view those data in plain text.
+
+This permission can be granted/revoked from LE UI profile management.
+
+The feature flag on UMS is “transcript.data.masking.enabled”. It is turned off by default. As usual, this can be changed in JMX, via jconsole.
+
+On brand level, the feature flag is “Messaging.AgentMasking”. The regular expression is on Site Settings, with name “messaging.transcript.agent.masking.regexp”.
+
+Please note that, all historical data will be masked by this regular expression if feature is turned, regardless of permission settings.
+
+## File Sharing Data Limit Increased 
+
+### Type: New feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers?** no
+
+ File size limits for attachments shared in messages increased to 25 MB in the back-end messaging server. Note that while the server accepts files up to this size, LiveEngage UI may still have the smaller maximum size restriction.
+
+## Custom Error Page (1)
+
+### Type: Bug Fix
+
+ We now show a customer error page rather than the default error page for 404 and related errors. The default page exposed the URL and Jetty version, which is now gone.
+
+## Custom Error Page (2)
+
+### Type: Bug Fix
+
+ms.MessagingEventNotification now returns VIEWED as a status code rather than ignoring it.
+
+## Allow Agent Subscription to Already Assigned Conversations 
+
+### Type: Bug Fix
+
+In the current system, agents are allowed to subscribe to conversations that are assigned to them but they get a notification for conversations that are assigned to them and also one that they are participants of. This is a bug because initial subscription and notification should match. So, this ticket is to allow agents to subscribe to assigned conversations or conversations that they are assigned or participant of.
