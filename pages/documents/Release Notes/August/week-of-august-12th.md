@@ -17,9 +17,9 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-##[ABC] Increase file sharing size limit
+## [ABC] Increase file sharing size limit
 
-###Type: Enhancement
+### Type: Enhancement
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -67,9 +67,9 @@ Consumers can now share files and images that are bigger than before, improving 
 
 **Limitation:** File name must start with a letter if size is greater than 10 MB.
 
-##[ABC] Support structured content list picker within Post Conversation Survey messages
+## [ABC] Support structured content list picker within Post Conversation Survey messages
 
-###Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -108,15 +108,15 @@ Consumers can now share files and images that are bigger than before, improving 
 </table>
 </div>
 
-ABC Post Conversation Survey is enhanced to support survey questions with structured content of these types: 
+ABC Post Conversation Survey is enhanced to support survey questions with structured content of these types:
 * List Picker
 * Date Picker
 
 This is in addition to the support of questions with quick replies option, which is already supported.
 
-##[ABC] Mapping customer’s device locale setting to language engagement attribute
+## [ABC] Mapping customer’s device locale setting to language engagement attribute
 
-###Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -157,8 +157,8 @@ This is in addition to the support of questions with quick replies option, which
 
 ABC “Locale” property, taken from the customer locale setting will be added to the ABC connector and mapped to the language SDE. This value will be presented to the agent as part of the consumer personal info section and can be used for routing, by bot, and for reporting purposes.
 
-For example, locale value "en_AU" specifies the language as English and the region as Australia. This property will be mapped to the language SDE under Personal info. 
- 
+For example, locale value "en_AU" specifies the language as English and the region as Australia. This property will be mapped to the language SDE under Personal info.
+
 **Screenshot**
 
 Image 1: Language SDE added under Personal info
