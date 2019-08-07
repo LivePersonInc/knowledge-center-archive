@@ -17,9 +17,9 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## [ABC] Increase file sharing size limit
+##[ABC] Increase file sharing size limit
 
-### Type: Enhancement
+###Type: Enhancement
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -67,9 +67,9 @@ Consumers can now share files and images that are bigger than before, improving 
 
 **Limitation:** File name must start with a letter if size is greater than 10 MB.
 
-## [ABC] Support structured content list picker within Post Conversation Survey messages
+##[ABC] Support structured content list picker within Post Conversation Survey messages
 
-### Type: New functionality 
+###Type: New functionality 
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -114,9 +114,9 @@ ABC Post Conversation Survey is enhanced to support survey questions with struct
 
 This is in addition to the support of questions with quick replies option, which is already supported.
 
-## [ABC] Mapping customer’s device locale setting to language engagement attribute
+##[ABC] Mapping customer’s device locale setting to language engagement attribute
 
-### Type: New functionality 
+###Type: New functionality 
 
 <div class="tablecontainer">
 <table class="releasenotes">
