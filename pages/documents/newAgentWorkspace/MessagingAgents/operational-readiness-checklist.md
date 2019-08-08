@@ -11,7 +11,7 @@ layout: newAgentWorkspace
 
 To ensure you are fully prepared for the new experiences, we have created a comprehensive checklist with all the steps you need to take. Please check off each item as it is completed to stay organized and make the transition as smooth as possible.
 
-**STEP 1 - Know what’s coming**
+## Step 1 - Know what’s coming**
 
 Since all users of your brand will be getting something new - it is important that are are fully aware of the upcoming changes by role - and how to prepare for them.
 
@@ -33,7 +33,7 @@ Resources available to you:
 
 Note: If you are on live chat only, the changes to the UI are cosmetic only and will not affect your users workflows. The following checklist applies to brands using messaging.
 
-**STEP 2 - Select your 'go-live' dates**
+## Step 2 - Select your 'go-live' dates**
 
 1. Validate go-live date for messaging managers: For messaging managers: the automatic go-live date for everyone is Sept 16th. The new workspace will become the new homepage automatically.
 
@@ -49,38 +49,42 @@ Note: If you are on live chat only, the changes to the UI are cosmetic only and 
 
         2. Determine groups and dates to go-live for all your agents  
 
-**STEP 3 - Get your agents & managers prepared & excited**
+## Step 3 - Get your agents & managers prepared & excited**
 
 Based on your defined go-live dates, you can build hype and excitement within your contact center - so that they tools be smoothly adopted.
 
 Here are some gifs you can use:
 
 <table>
+<thead>
   <tr>
     <td>GIF:</td>
     <td>Video link:</td>
     <td>Downloadable link:</td>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>Reason #1 to get excited about the agent workspace: dynamic list</td>
-    <td>https://vimeo.com/348819347/0473f80a3b </td>
+    <td><a href="https://vimeo.com/348819347/0473f80a3b">https://vimeo.com/348819347/0473f80a3b</a> </td>
     <td><a href="https://knowledge.liveperson.com/img/reason1.gif" download="dynamic-list">Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #2 to get excited about the agent workspace: idle status</td>
-    <td>https://vimeo.com/349404225/17ac3c5f23</td>
+    <td><a href="https://vimeo.com/349404225/17ac3c5f23">https://vimeo.com/349404225/17ac3c5f23</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason2.gif" download="idle-status">Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #3 to get excited about the agent workspace: closed filter</td>
-    <td>https://vimeo.com/351880875/ca4a50e816</td>
+    <td><a href="https://vimeo.com/351880875/ca4a50e816">https://vimeo.com/351880875/ca4a50e816</td>
     <td><a href="https://knowledge.liveperson.com/img/reason3.gif" download="closed-filter">Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #4 to get excited about the agent workspace: history & summary</td>
-    <td>https://vimeo.com/352205037/2e37ebf127</td>
+    <td><a href="https://vimeo.com/352205037/2e37ebf127">https://vimeo.com/352205037/2e37ebf127</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason4.gif" download="history-summary">Download GIF</a></td>
   </tr>
+</tbody>
 </table>
 
 
@@ -90,7 +94,7 @@ Some ideas of how you can use this information:
 
 * Add the videos to your contact center’s display screens
 
-**STEP 4: Schedule training sessions**
+## Step 4: Schedule training sessions**
 
 1. Your CSM will work with you to ensure your trainers or SME’s receive a ‘train the trainer’ session so they are comfortable with all the materials
 
@@ -112,13 +116,13 @@ Some ideas of how you can use this information:
 
 * Manager training video
 
-**Step 3 - TESTING:**
+## Step 5 - TESTING:**
 
 You can test the new manager workspace and enhanced agent workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
 To get early access for testing, please contact your LivePerson account team.
 
-**Step 4 - SET UP:**
+## Step 6 - SET UP:**
 
 1. Schedule go-live date, including any transition groups or waves.
 
@@ -132,6 +136,6 @@ Best practices:
 
 Manage your SLAs. As a best practice, we recommend setting the SLA
 
-**STEP 5: Go-Live :)**
+## Step 7: Go-Live :)**
 
 On the day of go- live, assign agents the profiles with the ‘enhanced agent workspace’ assigned.
