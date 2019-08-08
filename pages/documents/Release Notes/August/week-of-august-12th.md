@@ -322,6 +322,16 @@ In order to support localization for default pusher notifications (standard and 
 
 Expose new rest API for retrieving the count of unread messages of consumer last opened conversation.
 
+This API is available for developers:
+
+* METHOD: GET
+* URL: api/account/{{account}}/messaging/consumer/conversation/unread-messages-count?v=3
+* Headerd
+  * Authorization: JWT
+  * Content-Type: application/json
+  * User-Agent:
+* Response: integer
+
 ## Answering Service Enhancements
 
 ### Type: New feature
