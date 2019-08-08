@@ -9,11 +9,6 @@ permalink: messaging-agents-operational-readiness-checklist.html
 layout: newAgentWorkspace
 ---
 
-![](img/reason1.gif)
-![](img/reason2.gif)
-![](img/reason3.gif)
-![](img/reason4.gif)
-
 To ensure you are fully prepared for the new experiences, we have created a comprehensive checklist with all the steps you need to take. Please check off each item as it is completed to stay organized and make the transition as smooth as possible.
 
 **STEP 1 - Know what’s coming**
