@@ -80,6 +80,7 @@
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
         - pagename: Configuring response times
+        - pagename: Fallback configuration per skill
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
