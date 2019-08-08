@@ -517,7 +517,7 @@ The new fields include:
 
 </div>
 
-A group skill based filter has been added on queued conversation notification for Agent-Managers. Agent Managers can only see his own territory groups members skills matched queued conversations. If he is the only one who has the skill, he will not see the matched queued conversations.
+A group skill based filter has been added on queued conversation notification for Agent-Managers. Agent Managers can only see their own **group members’ skills** and matched queued conversations. If an agent is the the only one who has the specified skill, that agent will not see the matched queued conversations.
 
 ## Privileged Data Masking
 
