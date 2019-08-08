@@ -293,6 +293,7 @@
       pages:
         - pagename: August
           level3:
+            - level3name: Week of August 12th
             - level3name: Week of August 5th
         - pagename: July
           level3:
