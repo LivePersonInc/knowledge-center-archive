@@ -64,22 +64,22 @@ Here are some gifs you can use:
   <tr>
     <td>Reason #1 to get excited about the agent workspace: dynamic list</td>
     <td>https://vimeo.com/348819347/0473f80a3b </td>
-    <td><a href="https://knowledge.liveperson.com/img/reason1.gif">Download GIF</a></td>
+    <td><a href="https://knowledge.liveperson.com/img/reason1.gif" download>Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #2 to get excited about the agent workspace: idle status</td>
     <td>https://vimeo.com/349404225/17ac3c5f23</td>
-    <td><a href="https://knowledge.liveperson.com/img/reason2.gif">Download GIF</a></td>
+    <td><a href="https://knowledge.liveperson.com/img/reason2.gif" download>Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #3 to get excited about the agent workspace: closed filter</td>
     <td>https://vimeo.com/351880875/ca4a50e816</td>
-    <td><a href="https://knowledge.liveperson.com/img/reason3.gif">Download GIF</a></td>
+    <td><a href="https://knowledge.liveperson.com/img/reason3.gif" download>Download GIF</a></td>
   </tr>
   <tr>
     <td>Reason #4 to get excited about the agent workspace: history & summary</td>
     <td>https://vimeo.com/352205037/2e37ebf127</td>
-    <td><a href="https://knowledge.liveperson.com/img/reason4.gif">Download GIF</a></td>
+    <td><a href="https://knowledge.liveperson.com/img/reason4.gif" download>Download GIF</a></td>
   </tr>
 </table>
 
