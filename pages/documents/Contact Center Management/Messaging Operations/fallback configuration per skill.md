@@ -18,7 +18,7 @@ When assigning conversations to agents, it is possible that certain skills will 
 
 The process in which conversations from the queue are assigned to available agents happens approximately every 2 seconds throughout the day. This process routes the skill to which the conversation is assigned and attempts to locate an agent with free capacity that carries that same skill. If no such agent can be found, the routing system would look for a fallback skill to route the conversation to. The requirement from the fallback skill would be that there are agents with that skill that are connected to the LiveEngage.
 
-## Fallback skill paths 
+## Fallback skill paths
 
 ### Can a skill have more than one fallback skill?
 
@@ -35,8 +35,7 @@ If a fallback skill is defined to account, it would still apply to all skills un
 
 ## Set up
 
-{: .notice}**  
-**Please contact your account manager to enable this feature
+Please contact your account manager to enable this feature
 
 Once the feature is enabled, please follow the steps below:
 

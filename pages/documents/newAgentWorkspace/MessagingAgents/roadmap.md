@@ -9,4 +9,4 @@ permalink: messaging-agents-roadmap.html
 layout: newAgentWorkspace
 ---
 
-![alt text](img/new-workspace-roadmap.png)
+![alt text](img/NAW roadmap updated.png)
