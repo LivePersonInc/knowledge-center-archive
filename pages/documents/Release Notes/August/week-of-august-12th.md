@@ -242,14 +242,7 @@ Image 1: Language SDE added under Personal info
 
 </div>
 
-Available to all customers: Yes
-
-In order to support localization for default pusher notifications (standard and rich text), two new site settings have been added:
-
-* messaging.pusher.notification.msg.localised
-* messaging.pusher.rich.content.notification.msg.localised
-
-These new settings are in json and map a message from the locale provided in the conversation context to a message. If these values are not set, behavior will revert back to the previous functionality.
+In order to support localization for default pusher notifications (standard and rich text), two new site settings have been added. These new settings are in json and map a message from the locale provided in the conversation context to a message. If these values are not set, behavior will revert back to the previous functionality.
 
 ## Get Unread messages count REST Api
 
@@ -327,17 +320,7 @@ These new settings are in json and map a message from the locale provided in the
 
 </div>
 
-**Available to all customers: Yes**
-
 Expose new rest API for retrieving the count of unread messages of consumer last opened conversation.
-
-* METHOD: GET
-* URL: api/account/{{account}}/messaging/consumer/conversation/unread-messages-count?v=3
-* Headerd
-  * Authorization: JWT
-  * Content-Type: application/json
-  * User-Agent:
-* Response: integer
 
 ## Answering Service Enhancements
 
@@ -415,8 +398,7 @@ Expose new rest API for retrieving the count of unread messages of consumer last
 
 </div>
 
-\**Available to all customers: No  
-\**Three new Answering Service enhancements are included:
+Three new Answering Service enhancements are included:
 
 * CO_MANAGED_BACKUP
 * CO_MANAGED_HYBRID
