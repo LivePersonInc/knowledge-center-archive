@@ -77,7 +77,7 @@ On the Facebook connector page, under **Add a Facebook external user**, simply s
 ![](/img/facebook-messenger-3.png)
 
 {: .notice}
-**Note:** To route visitors from your campaign to a specific skill, please contact your LivePerson representative.
+**Note:** You can route visitors from your campaign to a maximum of 1 skill. To set up routing for your campaign to a specific skill, please contact your LivePerson representative with your Facebook page ID and the skill you would like it routed to.
 
 ## Enable Facebook Handover Protocol for human/bot tango
 
