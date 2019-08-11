@@ -1,43 +1,45 @@
 ---
-pagename: Messaging quick start
+pagename: Web messaging quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
 subtitle: Checklist for set up and configuration to get your messaging program running
 level3Name: ''
-permalink: getting-started-quick-start-guides-messaging-quick-start.html
+permalink: getting-started-quick-start-guides-web-messaging-quick-start.html
 isTutorial: false
 date: 2019-01-14 11:44:06 +0000
 level3: ''
 isNew: false
+redirect_from:
+  - getting-started-quick-start-guides-messaging-quick-start.html
 ---
 
-To get started, access LivePerson using this link: [https://authentication.liveperson.net/login.html](https://authentication.liveperson.net/login.html)
+Setup web messaging between LiveEngage and your website.
 
-## Get to the first message
+## Step 1: Get your LiveEngage tag
 
-To get the most basic version of messaging up and running, brands need to insert a generic ‘message us’ button their website. Getting to the first message is simple and can be done through three steps:
+To obtain your LiveEngage tag, login to [LiveEngage](https://authentication.liveperson.net/) and pull down the menu under your user name > select LiveEngage tag. Note that this is only available to account Administrators.
 
-### Step 1: Add the LivePerson Tag
+![](/img/LP tag Gif-1.gif)
 
-Website administrators or developers need to add the LivePerson tag (piece of code) to every page of the website where you'd like messaging to appear. To obtain the LivePerson tag for your account, login with admin credentials and pull down the menu under your user name. Then, select LiveEngage tag. Copy paste the code into your website's header. The code should be included as high up in the `<head>` element as possible. For more information on the LiveEngage Tag, [check out this document](getting-started-add-the-liveperson-tag-to-your-website.html).
+## Step 2: Add the LiveEngage Tag to your website
 
-### Step 2: Create a new messaging campaign
+Copy paste the LiveEngage tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
 
-The default campaign for your account is set to chat. You'll need to disable it first. Click on **Campaigns** at the top of the screen, where you'll find the default "Live Chat on your site" campaign. Click on the **campaign name** to access its settings, then disable it by clicking on the **Unpublish** button at the top right hand side. From there, click the **Add campaign** button at the bottom left of the screen and add a basic messaging campaign to your account by following the steps below.
+## Step 3: Setup a new messaging campaign
 
-{: .notice}
-For the quickest start, make sure to create an **unauthenicated** campaign by leaving the "authenticated" toggle off while creating the campaign.
+In LiveEngage, first click on **Campaigns** at the top of the screen. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign. Next, click the **Add campaign** button at the bottom left of the screen. Click **Add goal**, select **Interact with consumers** and click **Done** at the bottom right. You can read more about goals [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaign-goals.html). Click **Add engagement** and select **Web. **Choose any of the available engagement types and then continue clicking **Next** until the **Done** button is available. Click **Done**. Click **Publish** at the top right to publish your campaign. You can read more about campaigns [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaigns-overview.html).
 
-First, give your campaign a goal by clicking the **Add goal** button. You can read more about goals [here](contact-center-management-campaigns-campaign-goals.html). Then, add an engagement by clicking on the **Add engagement** button and selecting **Web** (since we're setting up a web messaging campaign for this example). From there, select your desired engagement and hit "Next" at the bottom right of the screen until the **Done** button is clickable. Once it is, click it. **Hit publish campaign at the top right corner to publish your campaign**.
+## Steps 4: Send and receive web messages
 
-You can also read more about campaigns [here](/contact-center-management-campaigns-campaigns-overview.html).
+Load the website that you inserted your LiveEngage tag into. If you’ve successfully completed Steps 1-3, the engagement button that you selected in Step 3 will appear. Click on the engagement button and send a message. The message will appear in LiveEngage. Clicking "Accept" will allow you to respond.
 
-### Steps 3: Test your connection
+**NOTE**: In this setup, every agent will receive all messages. To learn more about advanced messaging configuration and routing for your account, click here. please see [this document](https://knowledge.liveperson.com/getting-started-getting-started-with-messaging.html).
 
-Once the code is up, an agent is logged into the system, and a campaign is setup, the button you selected during campaign creation will appear on your website. You click on it to create a test conversation with your account, and begin to answer incoming conversations.
+## Additional Resources
 
-![](/img/getting-started-with-messaging-1-2.png)
+* [Conversation Builder Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-bots-quick-start.html)
 
-{: .notice}
-The basic set up means there will be no routing - every agent will receive all messages. To learn more about advanced messaging configuration for your account, please see [this document](getting-started-getting-started-with-messaging.html). You can also check out our other quick start guides, for [Bots](getting-started-quick-start-guides-bots-quick-start.html), [Facebook](getting-started-quick-start-guides-facebook-messenger-quick-start.html) messaging, and [SMS](getting-started-quick-start-guides-twilio-sms-quick-start.html).
+* [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
+
+* [SMS Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)

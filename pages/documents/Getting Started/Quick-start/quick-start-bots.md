@@ -1,42 +1,59 @@
 ---
-pagename: Bots quick start
+pagename: Conversation builder quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
 subtitle: Tap into the millions of consumers connecting over Facebook using the power
   of LivePerson
 level3: ''
-permalink: getting-started-quick-start-guides-bots-quick-start.html
+permalink: getting-started-quick-start-guides-conversation-builder-quick-start.html
 isTutorial: true
 date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
+redirect_from:
+  - getting-started-quick-start-guides-bots-quick-start.html
 ---
-Bots and large-scale automations transform how brands interact with consumers, enabling one-to-one interactions that replace the IVR, websites, and apps with conversations. Bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. To build bots for your LiveEngage account, we'll be using the **Conversation Builder**.
 
-To access the Conversation Builder, click the **Automation tab** at the top of your LiveEngage screen. From there, click on the **Conversation Builder icon** in the left hand side-bar and then click on the **Conversation Builder icon** on the screen which opens.
+Setup a "Hello World" automation using Conversation Builder
 
-Please watch the videos below to get started quickly with building a bot through the Conversation Builder. You can also head on over to the [Developers' Community](https://developers.liveperson.com/conversation-builder-platform-overview.html) to read more about the Conversation Builder and advanced usage.
+## Step 1: Login to Conversation Builder
 
-### Dialogs and Patterns
+To access Conversation Builder, first login to [LiveEngage](https://authentication.liveperson.net/). When logged in, click the **Automation tab** at the top of your screen. Click the **Conversation Builder** icon in the left hand side-bar and then the **Conversation Builder** icon that appears on the screen.
 
-Learn how to get started with some very basic bots. This tutorials explores the concept of dialogs (the different conversation flows a bot can have) as well as patterns, which allow the bot to match user input and respond intelligently! If you prefer a textual guide, check out this [guide](https://developers.liveperson.com/conversation-builder-getting-started-1-dialogs-and-patterns.html).
+## Step 2: Create a New Bot
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321978379" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Click **new automation**, then select the **Basic Automation** template. Give your automation a unique name, a description and leave the Automation Type set to Consumer Facing Automation. Click **Create Automation**.
 
-### Intents and Entities
+## Step 3: First Interaction
 
-In this video, we dive deeper into user input matching and look at the more advanced concepts of intents and entities. Intents allow you to use our powerful Natural Language Understanding (NLU) engine to enable your bot to more accurately match user input while entities help with storing variable-like parameters for quick and easy data access! If you prefer a textual guide, check out this [guide](https://developers.liveperson.com/conversation-builder-getting-started-2-intents.html).
+To start interacting with the Basic Automation, click on the **Preview** icon in the bottom-right of the screen to open the Preview window. Enter "reset" in the Preview window to start a new session. This template includes a Dialog called “Welcome” that matches and responds to simple patterns such as “hello”. Enter “hello” in the Preview window and you will see the response “Hi there! Thanks for coming!”
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321979334" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+## Step 4: Hello World!
 
-### Advanced Interactions
+You will see two small icons to the left of the **Assist** window.  Click on the **Interaction Details** icon.
 
-This video covers more complex bot interactions, allowing you to present the user with multiple choice questions, display rich content messages, images, and more! If you prefer a textual guide, check out this [guide](https://developers.liveperson.com/conversation-builder-getting-started-3-integrations.html).
+![image alt text](img/helloWorld.png)
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321979606" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+In the Interaction Details window, click on **SETTINGS.** To add a new pattern, click **Add New** in the **Patterns** section and enter "aloha." Next, replace the text “Hi there! Thanks for coming!” with “Hello World!” Click on the **Preview** icon again, and start a new session by entering “reset” in the Preview window. Next, enter “aloha” and you will see “Hello World!”
 
-### Integrations
+To extend the automation and connect it to LiveEngage, please refer to the tutorials and guides below.
 
-In this final tutorial video, we'll explore integrations which allow your bot to query external APIs, bringing powerful new options to your conversations. Use integrations to programmatically access catalogs, databases, and other web services to super power your bot responses! If you prefer a textual guide, check out this [guide](https://developers.liveperson.com/conversation-builder-getting-started-3-integrations.html).
+Conversation Builder Tutorials and Guides
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321979952" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+* [Video Tutorials](https://developers.liveperson.com/conversation-builder-getting-started-0-video-tutorials.html)
+
+* [Dialogs and Patterns](https://developers.liveperson.com/conversation-builder-getting-started-1-dialogs-and-patterns.html)
+
+* [Intents](https://developers.liveperson.com/conversation-builder-getting-started-2-intents.html)
+
+* [Integrations](https://developers.liveperson.com/conversation-builder-getting-started-3-integrations.html)
+
+* [Connecting to LiveEngage](https://developers.liveperson.com/conversation-builder-getting-started-4-connect-to-liveengage.html)
+
+## Additional Resources
+
+* [Web Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
+
+* [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
+
+* [SMS Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)
