@@ -41,7 +41,7 @@ AI-Powered Routing gives brands the power to author policies based on intent and
 
 When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information from Liveintent. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
-### How to build a routing policy
+## How to build a routing policy
 
 AI powered routing uses centralized policies to achieve routing to best human agent (direct, skill) or bot, based on intent and/or context attributes such as consumer profile data, operational context (load, predicted wait time, KPI’s) and conversational history.
 
@@ -65,9 +65,9 @@ By combining information from external systems like a CRM, the consumer can be i
 {: .notice}  
 “Route a group of intents (e.g. order enquiry, cancellation, scheduling) to general order skill, unless customer is a VIP, then send them to their Dedicated Advisor”v
 
-## Setting up routing policies
+### Set up routing policies
 
-With full integration into LivePeron’s platform, brands can trigger AI powered routing through one of the following actions:
+With full integration into LivePerson’s platform, brands can trigger AI powered routing through one of the following actions:
 
 1. Adding ‘Maven’ skill to campaigns
 2. Customizing Maven through the AskMaven APIs to be used on greeting bots, websites, or apps. This is best for brands that have a concierge bot, as well as deeper customization needs.
@@ -75,7 +75,7 @@ With full integration into LivePeron’s platform, brands can trigger AI powered
 {: .notice}  
 Maven includes an out-of-the-box bot template that comes pre-wired with greeting intents and API integrations for brands to get up and running quickly.
 
-## Get started in the Maven Workspace
+### Get started in the Maven Workspace
 
 Brands can login and manage how AI is used in their conversational pipeline, as well as create and tweak AI powered routing policies through Maven’s Workspace. The workspace provides a self service experience for brand and contact center leaders to:
 
