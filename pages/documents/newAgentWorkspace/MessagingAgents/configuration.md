@@ -16,6 +16,9 @@ The agent workspace is tailored to the needs of messaging agents and was designe
 
 There are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
+{: .notice} 
+**Please notes:** Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the blended accounts overview. 
+
 ## Enabling the enhanced workspace 
 
 Messaging agents can access the enhanced agent workspace starting on September 16th, but it is off by default and must be enabled in permissions. 
