@@ -120,6 +120,8 @@ Some ideas of how you can use this information:
 
 You can test the new manager workspace and enhanced agent workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
+Best practice: ensure one of your SMEs at least has tested and successfully used the new workspace before rolling out to all agents.
+
 To get early access for testing, please contact your LivePerson account team.
 
 ## Step 6 - SET UP
