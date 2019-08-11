@@ -50,6 +50,44 @@ AI powered routing uses centralized policies to achieve routing to best human ag
 To build a routing policy, brands first set the context by leveraging a combination of different attributes to be used in the routing policy, including:
 
 * User context, such as consumer names and email address
-* Conversational context, such as agent skills or consumer intent from the LiveEngage platform 
+* Conversational context, such as agent skills or consumer intent from the LiveEngage platform
 * Operational context, such as a contact center’s wait time
 * Predefined custom attributes from an external data source, such as a Salesforce CRM database, using [FaaS function](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html), and any custom attribute using Session Store APIs
+
+For example, a brand can use a consumer’s intent in a policy for VIP customers - deriving that value from a Salesforce CRM database using a FaaS function. The policy can then direct certain intents for all VIP customers to a specialized agent skill - while ensuring wait times are not high.
+
+![](/img/ai-powered-routing-2.png)
+
+By combining information from external systems like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using a secure, LivePerson-managed function services.
+
+![](/img/maven-overview-4-1.png)
+
+{: .notice}  
+“Route a group of intents (e.g. order enquiry, cancellation, scheduling) to general order skill, unless customer is a VIP, then send them to their Dedicated Advisor”v
+
+## Setting up routing policies
+
+With full integration into LivePeron’s platform, brands can trigger AI powered routing through one of the following actions:
+
+1. Adding ‘Maven’ skill to campaigns
+2. Customizing Maven through the AskMaven APIs to be used on greeting bots, websites, or apps. This is best for brands that have a concierge bot, as well as deeper customization needs.
+
+{: .notice}  
+Maven includes an out-of-the-box bot template that comes pre-wired with greeting intents and API integrations for brands to get up and running quickly.
+
+## Get started in the Maven Workspace
+
+Brands can login and manage how AI is used in their conversational pipeline, as well as create and tweak AI powered routing policies through Maven’s Workspace. The workspace provides a self service experience for brand and contact center leaders to:
+
+* Author AI-policies for Routing
+* Configure Maven features (ex: Recommended Actions for Agents)
+* Configure developer functions to integrate with CRM
+* Analyze the usage and impact of AI-policies
+
+## Analytics dashboard & Maven Mobile App
+
+Maven’s analytics dashboard and Mobile App provides contextual analytics on the performance of routing policies so brands can manage and optimize its performance on the go.
+
+![](/img/ai-powered-routing-4-1.png)
+
+With Maven, brand and contact center leaders have full visibility over how AI is used in their routing policies, and have the ability to configure integrations and context, and access a performance dashboard to optimize Maven’s AI decision making.
