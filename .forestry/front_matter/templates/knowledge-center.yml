@@ -136,6 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Bots & Automation/ai-powered-routing.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
 - pages/documents/Release Notes/July/Release-notes-2019-july-22.md
