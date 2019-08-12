@@ -45,7 +45,6 @@ Maven [Recommended Actions](https://knowledge.liveperson.com/ai-bots-automation-
 
 Maven analyzes all available automations for the identified intent and recommends the best one in real time to the agent. Recommendations are done by choosing the highest ranked bot or KB article by score, after calibrating the score using a machine learned signal about the historical performance. Agents can opt to manually use the KB article to help user, or join the bot to the conversation, monitor, and remove if needed.
 
-  
 ![](/img/maven-overview-2.png)
 
 ## Context Warehouse
@@ -55,8 +54,6 @@ The context warehouse is a centralized repository of brand, customer, conversati
 1. Inbox System Attributes (e.g. conversation history)
 2. Custom attributes with static data or external system integrations with FaaS
 3. Context session store with APIs to store and retrieve session context and carry them over the conversational journeys.
-
-![](/img/maven-overview-3.png)
 
 ### Common use cases
 
@@ -76,7 +73,7 @@ The power of Maven’s AI Powered Routing comes from its ability to use a variet
 
 ### Common Use cases
 
-* **When** brand suffers an exceptional **event** (storm, incident) **route** to a bot for **intents** related to the outage. For all other intents (e.g. billing) route to human agent pool. 
+* **When** brand suffers an exceptional **event** (storm, incident) **route** to a bot for **intents** related to the outage. For all other intents (e.g. billing) route to human agent pool.
 * **Route** a group of **intents** (e.g. order enquiry, cancellation, scheduling) to general order skill, **unless** customer is a **VIP**, then send them to their **Dedicated Advisor**
 * **For** lost baggage **intent**, return to **same agent** if customer is **returning within a time period**; for **premium-elite** customers route to high priority skill
 
