@@ -67,7 +67,6 @@
      pages:
        - pagename: Maven overview
        - pagename: Recommended Actions
-       - pagename: AI-Powered Routing
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
