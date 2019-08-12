@@ -13,6 +13,8 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
+<iframe style="max-width: 750px;" src="[https://player.vimeo.com/video/](https://player.vimeo.com/video/347244478?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/347244478?autoplay=1&loop=1&title=0&byline=0&portrait=0")352701082?[autoplay=1&loop=1&title=0&byline=0&portrait=0](https://player.vimeo.com/video/347244478?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/347244478?autoplay=1&loop=1&title=0&byline=0&portrait=0")" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## New experiences coming your way!
 
 The enhanced agent workspace, new manager workspace, new navigation - countdown to Sept 16th launch date has begun and we want to make sure you are prepared well in advance of these updates…
@@ -118,7 +120,6 @@ The LINE connector enhancements include:
 
 ## File sharing from Consumer to Agent (in-app messaging SDK for Android)
 
-  
 Enables consumer to agent file sharing to increase consumer satisfaction and address more use cases. For example, you can share a signed document to bank agents for secure verification; Share analysis report (xml, potx) for clarification with the agents.
 
 Files supported include PDF, Docx, Pptx and XLM files to be shared from consumer to agent on Android devices
