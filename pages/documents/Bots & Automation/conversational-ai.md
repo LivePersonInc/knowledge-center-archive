@@ -11,8 +11,6 @@ isTutorial: true
 isNew: false
 
 ---
-[**VIDEO**](https://vimeo.com/351175763/80a0f9d8dc)
-
 Conversational Commerce has opened new channels for customers to interact with brands across all stages of their journey. With the growing number of customer interactions from different messaging apps, innovative companies are looking for ways to efficiently handle high-volumes of messaging conversations -- while delivering a great customer experience.
 
 LivePerson Conversational AI offers an end-to-end orchestration of brand to consumer conversations using LiveIntent for intent detection, Maven’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
@@ -30,7 +28,7 @@ Using LivePerson’s powerful tools, Conversational AI has the ability to:
 
 Conversational AI offers an end-to-end orchestration of brand to consumer conversations using the following AI tools and automations:
 
-### LiveIntent
+### LiveIntent (coming Q4, 2019)
 
 **Automatically identifies consumers intent in real time, through every turn in a conversation**
 
