@@ -61,11 +61,13 @@
 - categoryname: "AI, bots & automation"
   image: bots-automation
   subcategories:
+   - subcategoryname: Conversational AI
     - subcategoryname: How bots work with LivePerson
     - subcategoryname: Maven
       pages:
         - pagename: Maven overview
         - pagename: Recommended Actions
+        - pagename: AI-Powered Routing
     - subcategoryname: Conversation Builder
       pages:
         - pagename: Conversation Builder overview
