@@ -35,7 +35,7 @@ Two new out-of-the-box images have been added to the window images gallery and c
 
 These new images are available for both chat and web messaging. If you want to use the current images, they will still be available in the gallery.
 
-**![](https://lh5.googleusercontent.com/w-ICubX0y-clKErdkZI8EmsyxJozCoq9u1VSwviN3_oNL-4yunnp4uZVrfF6_PuJUw0GYZO1H--a53_78PDsjXrWBlLxQtlf_jKTyDJGJVZ12NQARrK03bB5Jf20dy-0EMsTVMxx =193x211)![](https://lh4.googleusercontent.com/u8kzs3suymMyaXFsLViQxtLN4PYnQRy_-UiuSkstlhFUzxuzFMr5VQw-tTpwkzHF86nMOfEtItjrG5v-HJON20JJ26EAKxvT3Bc9HYxbdjkmZeOe6U5mpv4cDnZ2GZ2GmhxV0M0B =207x211)**
+![](/img/whats new Aug1.png)
 
 ## Enhanced default engagement window & invitation: Horizon theme
 
@@ -52,7 +52,7 @@ You will receive the new window and invitation as default in the engagement and 
 
 The Ocean theme and the previous “Live chat” invitation will still be available in the engagement window gallery and in the engagement template library, in case you still want to use them.
 
-![](https://lh4.googleusercontent.com/aJlDWhzOISnF3XOXZSQiC3lCVXHzddy1mc6wkB4WAhWY0mgcPVDZ9EAQIrDBbeVx2rt2_pBMssyOD1Owug2zwEnwqNvi0Znqk_WhmdSyV5VNplDayoE1az2IMMBSjxsN84BrslRg =183x329)
+![](/img/whats new aug2.png)
 
 ## New engagement templates
 
@@ -60,7 +60,9 @@ Two new engagement templates (invitations) will be added to the engagement templ
 
 Two new sticky invitations will be added including a small round bubble only (no text) and a rectangle with bubble and editable text “Message us”. Please note that this will become the default for new accounts and new engagements).
 
-The new templates will be available for both chat and web messaging and can be customized via the studio
+The new templates will be available for both chat and web messaging and can be customized via the studio.
+
+![](/img/whats new aug3.png)
 
 ## Web message notifications
 
@@ -73,9 +75,9 @@ Two types of notifications will be available for you to choose from:
 
 A brand can use one of them, both or none.
 
-Configuration for both types will be available under the "additional window setting" section of the engagement window studio. Please note that push notifications will be supported only for web messaging and only on supported browsers
+Configuration for both types will be available under the "additional window setting" section of the engagement window studio. Please note that push notifications will be supported only for web messaging and only on supported browsers.
 
-![](https://lh3.googleusercontent.com/UCl34ybgRUZkOtSCmPl-43mcg4aXhId3ZsVJ_k8bpzyTtcXQ0tg1YtMQ-IleWXFOfXQv4_Ltxw4MkPhMOcKyuFR75b4uMsvzM-AujK3VY-76m8vyu82YOkh43FNpMhgD77WdGUkw =202x36)
+![](/img/whats new aug 4.png)
 
 ## Engagement Window Customization API
 
