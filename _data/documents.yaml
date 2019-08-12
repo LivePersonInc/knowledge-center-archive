@@ -282,6 +282,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: August 2019
     - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
