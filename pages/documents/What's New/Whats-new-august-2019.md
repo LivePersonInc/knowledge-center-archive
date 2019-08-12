@@ -3,7 +3,8 @@ pagename: August 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Top features include xxx
+subtitle: Top features include updates to messaging windows, invitations & engagement
+  templates
 level3: ''
 permalink: whats-new-august-2019
 isTutorial: false
