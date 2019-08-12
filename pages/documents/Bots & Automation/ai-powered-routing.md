@@ -1,7 +1,7 @@
 ---
 pagename: 'AI-Powered Routing '
 categoryName: Bots & automation
-subCategoryName: ''
+subCategoryName: Maven'
 indicator: both
 subtitle: Create AI-based routing policies using intent, context and predictive attributes
   to route conversations to the best human agent, bot, or knowledge base content.
