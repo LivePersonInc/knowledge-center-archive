@@ -7,8 +7,8 @@ subtitle: Create AI-based routing policies using intent, context and predictive 
   to route conversations to the best human agent, bot, or knowledge base content.
 level3: ''
 permalink: ai-bots-automation-maven-ai-powered-routing.html
-isTutorial: true
-isNew: true
+isTutorial: false
+isNew: false
 published: false
 
 ---
