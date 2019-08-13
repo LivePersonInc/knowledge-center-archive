@@ -16,7 +16,7 @@ layout: newAgentWorkspace
 
 ![](img/new-manager-workspace-use-case-1.png){:class="newagent"}
 
-The new experiences for managers include three components:
+**The new experience for managers includes three components:**
 
 ## **1. Dedicated manager workspace**
 
