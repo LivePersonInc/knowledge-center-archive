@@ -54,7 +54,8 @@ Displays a list of both opened and closed conversations with sorting and filteri
 
 * **Status** - The current status of a messaging conversation. Each conversation must have one of these three statuses below. 
 
-Icon | Status | Description
+Icon | Status | Description        
+| ------- | ------- | ------- |
 ![alt text](img/manager-workspace-icon-1.png) | In queue | Conversation is waiting in the queue to be assigned to an agent
 ![alt text](img/manager-workspace-icon-2.png) | Assigned | Conversation is currently being handled by an agent
 ![alt text](img/manager-workspace-icon-3.png) | Closed | Conversation closed - in the list view, the close reason will be displayed in brackets (possible values: agent or auto close or consumer)
@@ -63,6 +64,7 @@ Icon | Status | Description
 In addition, a conversation may have the below indications as well.
 
 Icon | Status | Description
+| ------- | ------- | ------- |
 ![alt text](img/manager-workspace-icon-4.png) | First time consumer | Conversation with a consumer who is contacting the brand for the first time via messaging
 ![alt text](img/manager-workspace-icon-5.png) | In survey | Conversation was closed and consumer is currently filling the Post Conversation Survey
 
