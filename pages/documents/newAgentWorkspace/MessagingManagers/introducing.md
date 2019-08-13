@@ -53,7 +53,7 @@ The workspace where agents take and manage their messaging conversations is also
 * **My Connections:** The list of active and current messaging conversations that managers joined.  
 * **All Connections:** Managers use this tab to search for and view previous conversations conducted by all agents they manage.
 
-![alt text](img/all-connections-manager-workspace.png)
+![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
 **3. Visitors tab**
 
