@@ -38,7 +38,11 @@ Agents and managers will be able to view the All Connections tab only if they ha
 
 The list of conversations displayed will vary according to each user’s role and permissions:
 
-![alt text](img/all-connections-table.png)
+|         | Assigned OR closed conversations | In-queue conversations 
+| ------- | ------- | ------- |
+Agents | View conversations which they are currently handling or handled in the past | ---
+Agents with "view other agents conversations" permission | Will be able to view conversations which are handled or were handled in the past by other agents in their agent group | ---
+Agent managers | Will be able to view conversations which are being handled or were handled in the past by agents in the agent groups they mannage | Conversations which are waiting in-queue for skills which are assigned to the agent groups they manage
 
 ## Available views
 
