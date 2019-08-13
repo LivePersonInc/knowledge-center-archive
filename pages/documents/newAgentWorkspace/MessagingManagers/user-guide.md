@@ -17,7 +17,7 @@ layout: newAgentWorkspace
 
 To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
 
-![](img/newworkspacepermissions.png)
+![](img/newworkspacepermissions.png){:class="newagent"}
 
 ### New agent workspace
 
@@ -36,12 +36,12 @@ The following filters can be applied to the sections listed above:
 
 1. **Time filter** - by default, the workspace will show data from the last hour. Users will be able to change the time range to view data from the past X hours. The maximum supported time range is 24 hours.
 
-![](img/timefilter.png)
+![](img/timefilter.png){:class="newagent"}
 
 {:start='2'}
 2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
 
-![](img/groupfilter.png)
+![](img/groupfilter.png){:class="newagent"}
 
 ## Widgets
 
