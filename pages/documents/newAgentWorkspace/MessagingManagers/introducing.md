@@ -16,9 +16,13 @@ layout: newAgentWorkspace
 
 ![](img/new-manager-workspace-use-case-1.png){:class="newagent"}
 
-## Introduction 
+The new experiences for managers include three components:
 
-LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. This new dashboard will boost the agent manager or team manager performance by:
+## **1. Dedicated manager workspace**
+
+LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift.It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
+
+This new dashboard will boost the agent manager or team manager performance by:
 * Offering a quick and comprehensive view of the ‘state of your shift’ in real time
 * Adding the ability to view trends for major KPIs in real time
 * Giving you the ability to drill down and understand causes for tracked metrics
@@ -37,17 +41,7 @@ The new manager workspace provides real-time information on the state of the shi
 
 Agent managers will have real time visibility into their KPIs and aggregated performance, increasing the likelihood of meeting your daily goals. For example, a manager can catch an increase wait time for a particular agent that is affecting the team’s performance and fix it on the spot. Similarly, a sudden drop in CSAT can be identified and handled immediately instead of waiting for next day or next weeks’s analysis.
 
-## New manager workspace tools
-
-The new experiences for managers include three components:
-
-**1. Dedicated manager workspace**
-
-The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift.
-
-The manager workspace was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
-
-**2. Enhanced agent workspace & All Connections list**
+## **2. Enhanced agent workspace & All Connections list**
 
 The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs: 
 * **My Connections:** The list of active and current messaging conversations that managers joined.  
@@ -55,7 +49,7 @@ The workspace where agents take and manage their messaging conversations is also
 
 ![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
-**3. Visitors tab**
+## **3. Visitors tab**
 
 This is the area for all live chat data and conversations.  It includes:
 * **Web visitors:** list of real time visitors to your website (where the LivePerson tag is deployed).  This includes: 
