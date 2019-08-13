@@ -15,9 +15,10 @@
   image: messaging-managers
   subcategories:
     - subcategoryname: Introducing the new manager tools
-    - subcategoryname: Use cases
-    - subcategoryname: User guide
+    - subcategoryname: Manager workspace user guide
     - subcategoryname: All Connections
+    - subcategoryname: Use cases
+
 
 - categoryname: Admins & campaign managers
   image: admins-campaigns
