@@ -48,7 +48,7 @@ Users will be able to view conversations in All Connections in two modes. Each u
 
 Displays a list of both opened and closed conversations with sorting and filtering capabilities. This list includes the full view of available information on each conversation, such as skill, agent name, group, start time and more. 
 
-![alt text](img/all-connections-manager-workspace.png)
+![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
 #### Definitions
 
@@ -93,7 +93,7 @@ This view displays the conversation transcript along with its associated informa
 
 The same list displays on the left with the ability to navigate through the list and read the transcript for each conversation. The list of conversations is the same list that displays in the list view (with only the summary data).
 
-![alt text](img/new-manager-workspace-update-1.png)
+![alt text](img/new-manager-workspace-update-1.png){:class="newagent"}
 
 #### Definitions
 
