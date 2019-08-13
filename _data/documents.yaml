@@ -31,7 +31,6 @@
     - subcategoryname: SMS
       pages:
         - pagename: SMS connector
-        - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
         - pagename: Using SMS with Twilio
