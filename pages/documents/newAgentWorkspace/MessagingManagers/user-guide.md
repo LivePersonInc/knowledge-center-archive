@@ -112,7 +112,7 @@ Clicking on the consumer name will open the conversation window. Only open conve
 {: .notice}
 **Please note:** If the new agent workspace is not toggled on, when you select a conversation you will be redirected to the All Connections list in the old UI.
 
-![](img/conversationswidget.png)
+![](img/conversationswidget.png){:class="newagent"}
 
 #### Filtering the list
 
