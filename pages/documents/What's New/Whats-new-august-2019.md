@@ -90,7 +90,7 @@ The API will include the window UI elements and will support chat and web messag
 
 For brands that already customized their window using their own CSS, it is recommended to switch to the API.
 
-## LE - Apps Quick launch menu
+## LiveEngage Apps Quick launch menu
 
 A personalized & dynamic waffle menu button is being exposed in LE-UI (on both old and new beautification) and present the user with a quick launching option for LiveEngage Applications for an easy usage and extra discoverability.
 
