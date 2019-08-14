@@ -136,6 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- pages/documents/Release Notes/August/release-notes-aug-19th.md
 - pages/documents/What's New/Whats-new-august-2019.md
 - pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
