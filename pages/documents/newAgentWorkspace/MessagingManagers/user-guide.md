@@ -17,7 +17,7 @@ layout: newAgentWorkspace
 
 To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
 
-![](img/newworkspacepermissions.png){:class="newagent"}
+![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
 ### New agent workspace
 
