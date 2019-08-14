@@ -90,6 +90,31 @@ The API will include the window UI elements and will support chat and web messag
 
 For brands that already customized their window using their own CSS, it is recommended to switch to the API.
 
+## LE - Apps Quick launch menu
+
+A personalized & dynamic waffle menu button is being exposed in LE-UI (on both old and new beautification) and present the user with a quick launching option for LiveEngage Applications for an easy usage and extra discoverability.
+
+Once user is clicking an LE-App from the list, it will be opened in a dedicated new browser tab, complete an SSO handshake and open up.
+
+The QuickLaunch menu is Personalized and build in runtime based on the user profile, such that a user will be exposed only for installed LE-Apps that have his user permissions.
+
+For example, an account with only 2 active LE-Apps (MCS-Toolkit & Report Builder)
+
+**An Admin** user will be exposed to both MCS-Toolkit & Report Builder.
+
+**An Agent Manager** will be exposed to Report Builder only.
+
+**An Agent** will not see the QuickLaunch menu button.
+
+### Current List of LE-Apps exposed in QuickLaunch
+
+* Report Builder
+* MCS-ToolKit
+* Realtime Dashboard
+* Functions (FaaS)
+
+  ![](/img/image (6).png)
+
 ### Updates to Messaging Channels
 
 ## Consumers device locale settings (Apple Business Chat)
