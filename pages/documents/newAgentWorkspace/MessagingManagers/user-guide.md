@@ -134,8 +134,7 @@ The list is sortable by "Response time". The list will be sorted by default by â
 * The minimal supported screen resolution is 1024x768.
 * The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
 
-## Known issues (bugs)
-
+## Known issues 
 Following issues are scheduled to be resolved within the next release:
 
 ### General
