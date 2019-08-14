@@ -106,7 +106,7 @@ For example, an account with only 2 active LE-Apps (MCS-Toolkit & Report Builder
 
 **An Agent** will not see the QuickLaunch menu button.
 
-### Current List of LE-Apps exposed in QuickLaunch
+#### Current List of LE-Apps exposed in QuickLaunch
 
 * Report Builder
 * MCS-ToolKit
