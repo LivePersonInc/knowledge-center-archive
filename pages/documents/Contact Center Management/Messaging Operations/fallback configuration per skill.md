@@ -2,7 +2,7 @@
 pagename: Fallback configuration per skill
 categoryName: Contact center management
 subCategoryName: Messaging operations
-indicator: chat
+indicator: messaging
 subtitle: Manage the Fallback skill settings per skill
 level3: ''
 permalink: contact-center-management-messaging-operations-fallback-configuration-per-skill.html
