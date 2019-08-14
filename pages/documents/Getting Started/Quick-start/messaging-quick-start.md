@@ -7,13 +7,13 @@ subtitle: Checklist for set up and configuration to get your messaging program r
 level3Name: ''
 permalink: getting-started-quick-start-guides-web-messaging-quick-start.html
 isTutorial: false
-date: 2019-01-14 11:44:06 +0000
+date: '2019-01-14T11:44:06.000+00:00'
 level3: ''
 isNew: false
 redirect_from:
-  - getting-started-quick-start-guides-messaging-quick-start.html
----
+- getting-started-quick-start-guides-messaging-quick-start.html
 
+---
 Setup web messaging between LiveEngage and your website.
 
 ## Step 1: Get your LiveEngage tag
@@ -24,7 +24,9 @@ To obtain your LiveEngage tag, login to [LiveEngage](https://authentication.live
 
 ## Step 2: Add the LiveEngage Tag to your website
 
-Copy paste the LiveEngage tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
+Copy and paste the LiveEngage tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
+
+**Tip:** You can also test the web messaging experience without adding the LiveEngage tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/).
 
 ## Step 3: Setup a new messaging campaign
 
@@ -39,7 +41,5 @@ Load the website that you inserted your LiveEngage tag into. If you’ve success
 ## Additional Resources
 
 * [Conversation Builder Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-bots-quick-start.html)
-
 * [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
-
 * [SMS Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)
