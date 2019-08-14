@@ -17,7 +17,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 ## Step 1: Get an SMS number from Twilio
 
-Create your own Twilio account [here](https://www.twilio.com/try-twilio), then follow the below stuffs to get a number: 
+Create your own Twilio account [here](https://www.twilio.com/try-twilio), then follow the below stuffs to get a number:
 
 1. **Purchase a Twilio number** to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
@@ -38,13 +38,11 @@ In LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
 
 On the conversation sources tab, click on **Connect** in the Twilio SMS box. Click the **Activate Twilio SMS Source** button to enable the connector. Under Twilio account configuration, enter the following details from your Twilio account:
 
-    * SID
-    
-    * Primary Authorization Token
-    
-    * Phone number
+* SID
+* Primary Authorization Toke 
+* Phone number
 
-Click **Save**.
+Click save. 
 
 ## Step 3: Test your integration
 
