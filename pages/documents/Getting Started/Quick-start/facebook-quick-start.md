@@ -10,14 +10,13 @@ permalink: getting-started-quick-start-guides-facebook-messenger-quick-start.htm
 isTutorial: true
 date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
----
 
+---
 Connect Facebook Messenger to LiveEngage.
 
 ## Requirements:
 
 1. You must have a Facebook Page and admin rights to that page. If you don’t have one, click [here](https://www.facebook.com/pages/creation/).
-
 2. Download the Facebook Messenger App:  [iOS](https://itunes.apple.com/us/app/messenger/id454638411) / [Android](https://play.google.com/store/apps/details?id=com.facebook.orca&hl=en).
 
 ## Step 1: Setup Facebook Messenger as a Data Source
@@ -34,19 +33,17 @@ Enable the **Source activation** toggle, then click **Next.**
 
 ![](/img/facebook-messenger-2.png)
 
-## Step 3: Connect your Facebook page to LiveEngage
+## Step 2: Connect your Facebook page to LiveEngage
 
-Click the Facebook **Log in **button and log in to Facebook. If you are already logged in, a window will pop-up asking if you would like to "Continue as <your name>"? Click to proceed.
+Click the Facebook **Log in** button and log in to Facebook. If you are already logged in, a window will pop-up asking if you would like to "Continue as <your name>"? Click to proceed.
 
 1. A window will ask you "What Pages do you want to use with LP on Messenger (VA1)?". Select the page(s) you'd like to use Facebook integration on and click **Next**.
-
 2. You will then be prompted with the question: "What is LP on Messenger (VA1) allowed to do?" Leave the toggles as is and click **Done.**
-
-3. You will receive the confirmation message: *"You’ve now linked LP on Messenger (VA1) to Facebook"*. Click on **OK** to close this window.
-
+3. You will receive the confirmation message: _"You’ve now linked LP on Messenger (VA1) to Facebook"_. Click on **OK** to close this window.
 4. A small pop-up within LiveEngage will appear asking you to Subscribe. Subscribe the relevant Facebook pages (the same ones you gave permissions to earlier) and click on **Done**.
-
 5. Click on **Done** on the lower right corner.
+
+**Tip:** You do not need to add an Agent Manager to get started.
 
 ![](/img/facebook-messenger-4.png)
 
@@ -57,7 +54,5 @@ You can now test the setup by sending a message from Facebook Messenger App to y
 ## Additional Resources
 
 * [Web Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
-
 * [Conversation Builder Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-bots-quick-start.html)
-
 * [SMS Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)
