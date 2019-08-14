@@ -64,8 +64,11 @@
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Maven
      pages:
-       - pagename: Maven overview
-       - pagename: Recommended Actions
+       - pagename: Overview
+       - pagename: Maven Assist
+       - pagename: Context Warehouse
+       - pagename: AI Powered Routing
+       - pagename: AskMaven
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview

@@ -12,9 +12,10 @@ isNew: false
 date: 2019-03-14T11:31:44.000+00:00
 
 ---
-LivePerson’s [Maven](ai-bots-automation-maven-maven-overview.html) is an AI powered platform that orchestrates conversations involving bots and human agents - the  brain inside LivePerson’s conversational commerce platform.
 
-**Recommended Actions widget** is one of Maven’s capabilities that helps increase agent productivity by recommending the most applicable actions to the agent in real-time. 
+LivePerson’s [Maven](ai-bots-automation-maven-overview.html) is an AI powered platform that orchestrates conversations involving bots and human agents - the  brain inside LivePerson’s conversational commerce platform.
+
+The **Recommended Actions widget** is one of Maven Assist’s capabilities that helps increase agent productivity by recommending the most applicable actions to the agent in real-time. 
 
 ## Key benefits of Recommended Actions
 
@@ -31,7 +32,7 @@ Recommended Actions encourages agents to leverage existing bots and content, and
 
 ### Intent recognition
 
-When a consumer sends a message, [Maven](ai-bots-automation-maven-maven-overview.html) scans the conversation to identify the consumer’s intent.  Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow.
+When a consumer sends a message, [Maven](ai-bots-automation-maven-overview.html) scans the conversation to identify the consumer’s intent.  Intent is understood by leveraging different NLU providers (1st party or 3rd party) built into each bot from their respective platforms: LivePerson’s Conversation Builder, Watson, or DialogFlow.
 
 Maven then analyzes all available bots, knowledge base articles, and other useful actions to discover the best tool that can help the agent with the intent.
 

@@ -12,6 +12,7 @@ isNew: false
 published: false
 
 ---
+
 Typically, building custom routing requires extensive time and work that is both expensive and requires developers time to implement. With LivePerson, Maven’s AI-powered routing enables brands to create customized routing policies that uses AI and machine learning to dynamically route consumers to human or bot skill - solving customer requests as efficiently as possible.
 
 The power of Maven’s AI-Powered Routing comes from its ability to use a variety of attributes in routing policies - including intents, context, and predictive AI models - in order to create highly personalized journeys to optimize care and sales experiences
@@ -39,7 +40,7 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 
 AI-Powered Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information from Liveintent. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
+When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information from Liveintent. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
 ## How to build a routing policy
 

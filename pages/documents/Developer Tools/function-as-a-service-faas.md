@@ -52,7 +52,7 @@ Since Functions allows brands to write custom, the number and variety of use cas
 
 ### **Use case 1: Trigger actions based on specific intents**
 
-If the contact center is able to recognize intent (using [Maven with LiveIntent](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
+If the contact center is able to recognize intent (using [Maven with LiveIntent](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
 
 ![](/img/faas-use-case-agent-retention-offers-1.png)
 
