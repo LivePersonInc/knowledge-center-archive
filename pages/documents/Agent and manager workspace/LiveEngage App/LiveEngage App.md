@@ -1,5 +1,5 @@
 ---
-pagename: LiveEngage Mobile App user guide
+pagename: LiveEngage mobile app user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
