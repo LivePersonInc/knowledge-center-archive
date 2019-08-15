@@ -1,11 +1,11 @@
 ---
-pagename: LiveEngage App user guide
+pagename: LiveEngage Mobile App user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-liveengage-app-liveengage-app-user-guide.html
+permalink: agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
 isTutorial: false
 isNew: false
 
