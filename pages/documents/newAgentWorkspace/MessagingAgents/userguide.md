@@ -183,19 +183,21 @@ There are many tools at your disposal that can be used to foster relationships a
 
 The following types of rich messaging are being supported for the enhanced agent workspace:
 * Structured content cards and carousels
-* Consumer to agent photo sharing (coming September)
-* Consumer to agent audio sharing (coming September)
-* Agent to consumer file sharing (coming September)
+* Consumer to agent photo sharing 
+* Consumer to agent audio sharing 
+* Agent to consumer file sharing 
 
 ### Additional actions
 
-While conducting a conversation, there are a few actions you can take:
+While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
+
+![alt text]{img/agent-workspace-additional-actions.png)
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation (coming September):** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
+**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
 
-**Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer.
+**Resume conversation:** This action reopens a closed conversation in order for you to follow up with a customer.
 
 #### Adjusting the SLA for follow up
 
