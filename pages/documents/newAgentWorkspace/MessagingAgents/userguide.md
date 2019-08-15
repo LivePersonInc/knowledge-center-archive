@@ -185,7 +185,7 @@ The following types of rich messaging are being supported for the enhanced agent
 
 While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
 
-![alt text](img/agent-workspace-additional-actions.png)
+![alt text](img/agent-workspace-additional-actions .png)
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
