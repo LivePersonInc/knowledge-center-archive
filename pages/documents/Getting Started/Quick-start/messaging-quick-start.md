@@ -26,11 +26,12 @@ To obtain your LiveEngage tag, login to [LiveEngage](https://authentication.live
 
 Copy and paste the LiveEngage tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
 
+{: .notice}
 **Tip:** You can also test the web messaging experience without adding the LiveEngage tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/).
 
 ## Step 3: Setup a new messaging campaign
 
-In LiveEngage, first click on **Campaigns** at the top of the screen. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign. Next, click the **Add campaign** button at the bottom left of the screen. Click **Add goal**, select **Interact with consumers** and click **Done** at the bottom right. You can read more about goals [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaign-goals.html). Click **Add engagement** and select **Web. **Choose any of the available engagement types and then continue clicking **Next** until the **Done** button is available. Click **Done**. Click **Publish** at the top right to publish your campaign. You can read more about campaigns [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaigns-overview.html).
+In LiveEngage, first click on **Campaigns** at the top of the screen. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign. Next, click the **Add campaign** button at the bottom left of the screen. Click **Add goal**, select **Interact with consumers** and click **Done** at the bottom right. You can read more about goals [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaign-goals.html). Click **Add engagement** and select **Web.** Choose any of the available engagement types and then continue clicking **Next** until the **Done** button is available. Click **Done**. Click **Publish** at the top right to publish your campaign. You can read more about campaigns [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaigns-overview.html).
 
 ## Steps 4: Send and receive web messages
 

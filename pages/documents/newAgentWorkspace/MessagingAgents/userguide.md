@@ -95,23 +95,17 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
-
-Open the hotkeys menu by holding down the control and tilde keys (CTRL + ~).
-On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
-
-Select an action by pressing the applicable letter from the table below.
-
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below. 
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| LOGOUT of the agent workspace  | L |
-| ACCEPT a new incoming conversation  | A  |
-| STATUS: toggle your status between Online, Back Soon and Away  | S |
-| Return conversation to QUEUE  | Q   |
-| TRANSFER conversation to another skill | T |
-| CLOSE conversation  | X |
-| Respond to next conversation (NEW)  | N |
+| RESPOND to the next conversation (NEW) |  CTRL ` N  |
+| ACCEPT a new incoming conversation| CTRL ` A |
+| TRANSFER conversation to another skill | CTRL  ` T |
+| Return conversation to QUEUE | CTRL  ` Q |
+| CLOSE conversation | CTRL  ` X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
+| LOGOUT of the agent workspace | CTRL  ` L |
 
 ## Managing messaging conversations
 
@@ -183,19 +177,21 @@ There are many tools at your disposal that can be used to foster relationships a
 
 The following types of rich messaging are being supported for the enhanced agent workspace:
 * Structured content cards and carousels
-* Consumer to agent photo sharing (coming September)
-* Consumer to agent audio sharing (coming September)
-* Agent to consumer file sharing (coming September)
+* Consumer to agent photo sharing 
+* Consumer to agent audio sharing 
+* Agent to consumer file sharing 
 
 ### Additional actions
 
-While conducting a conversation, there are a few actions you can take:
+While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
+
+![alt text](img/agent-workspace-additional-actions .png)
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation (coming September):** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
+**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
 
-**Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer.
+**Resume conversation:** This action reopens a closed conversation in order for you to follow up with a customer.
 
 #### Adjusting the SLA for follow up
 

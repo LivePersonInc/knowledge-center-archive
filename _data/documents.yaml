@@ -165,9 +165,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-    - subcategoryname: LiveEngage app
+    - subcategoryname: LiveEngage mobile app
       pages:
-        - pagename: LiveEngage app user guide
+        - pagename: LiveEngage mobile app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
