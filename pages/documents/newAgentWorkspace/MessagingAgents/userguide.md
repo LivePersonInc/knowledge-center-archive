@@ -95,23 +95,17 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
-
-Open the hotkeys menu by holding down the control and tilde keys (CTRL + ~).
-On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
-
-Select an action by pressing the applicable letter from the table below.
-
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below. 
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| LOGOUT of the agent workspace  | L |
-| ACCEPT a new incoming conversation  | A  |
-| STATUS: toggle your status between Online, Back Soon and Away  | S |
-| Return conversation to QUEUE  | Q   |
-| TRANSFER conversation to another skill | T |
-| CLOSE conversation  | X |
-| Respond to next conversation (NEW)  | N |
+| RESPOND to the next conversation (NEW) |  CTRL ` N  |
+| ACCEPT a new incoming conversation| CTRL ` A |
+| TRANSFER conversation to another skill | CTRL  ` T |
+| Return conversation to QUEUE | CTRL  ` Q |
+| CLOSE conversation | CTRL  ` X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
+| LOGOUT of the agent workspace | CTRL  ` L |
 
 ## Managing messaging conversations
 
