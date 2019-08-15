@@ -36,11 +36,11 @@ To access Conversation Builder, first login to [LiveEngage](https://authenticati
 
 Click **new automation**, then select the **Basic Automation** template. Give your automation a unique name, a description and leave the Automation Type set to Consumer Facing Automation. Click **Create Automation**.
 
-## Step 3: First interaction
+## Step 4: First interaction
 
 To start interacting with the Basic Automation, click on the **Preview** icon in the bottom-right of the screen to open the Preview window. Enter "reset" in the Preview window to start a new session. This template includes a Dialog called “Welcome” that matches and responds to simple patterns such as “hello”. Enter “hello” in the Preview window and you will see the response “Hi there! Thanks for coming!”
 
-## Step 4: Hello World!
+## Step 5: Hello World!
 
 You will see two small icons to the left of the **Assist** window.  Click on the **Interaction Details** icon.
 
