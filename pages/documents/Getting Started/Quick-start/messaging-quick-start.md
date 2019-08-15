@@ -26,6 +26,7 @@ To obtain your LiveEngage tag, login to [LiveEngage](https://authentication.live
 
 Copy and paste the LiveEngage tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
 
+{: .notice} 
 **Tip:** You can also test the web messaging experience without adding the LiveEngage tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/).
 
 ## Step 3: Setup a new messaging campaign
