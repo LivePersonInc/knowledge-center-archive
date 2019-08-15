@@ -21,7 +21,7 @@ Using LivePerson’s powerful tools, Conversational AI has the ability to:
 
 * Assess consumer intent and conversation context to predict what might happen next
 * Route dynamically to human agents or bots to solve customer requests quickly
-* [Recommend the next best conversational actions](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html), including to ask clarifying questions, suggest knowledge base answers, route to a particular agent, and join bots built in the [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html) or a third-party
+* [Recommend the next best conversational actions](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html), including asking clarifying questions, suggesting knowledge base answers, routing to a particular agent, and transferring to bots built in the [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html) or in a third-party tool
 * Give brands transparency into every [AI decision](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) so they can control and manage the way AI is used in their conversational pipelines - accelerating customer experience improvements and brand efficiency
 
 ## How Conversational AI Works
@@ -42,13 +42,13 @@ Intents can be built and trained in LivePerson, or uploaded from an existing sys
 
 **Dynamic, personalized routing policies using intent, context and predictive attributes**
 
-[Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) is LivePerson’s AI engine that orchestrates every consumer conversation with a brand to an outcome they both value. Maven works in the background to quickly understand the consumer’s intent, and route to human agents or bots to solve customer requests in the best way possible,
+[Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) is LivePerson’s AI engine that orchestrates every consumer conversation with a brand to an outcome they both value. Maven works in the background to quickly understand the consumer’s intent, and route to human agents or bots to solve customer requests in the best way possible.
 
 Maven’s [AI Powered Routing](ai-bots-automation-maven-ai-powered-routing.html) uses the consumer’s identified intent, and assesses the conversation’s context from various data sources, including: consumer attributes, operational metrics, and enterprise systems to route to the right agent.
 
 ![](/img/conv-ai-2.png)
 
-By combining information from an external system like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using a secure, LivePerson-managed function services.
+By combining information from an external system like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using secure, LivePerson managed function services.
 
 Using Maven’s workspace, brands receive a self-service experience to manage and operate the way that AI is used in their conversational pipelines ensuring they continue to deliver a great customer experience.
 
@@ -56,13 +56,13 @@ Using Maven’s workspace, brands receive a self-service experience to manage an
 
 **Offers the next best action for the agent based on conversation context**
 
-[Maven Assist’s Recommended Actions](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation, in real time to the agent. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signal about the historical performance.
+[Maven Assist’s Recommended Actions](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation in real time. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signals about the historical performance.
 
 * AI-based recommendations for bots that can fulfill customer intent at each turn of the conversation
 * Join bots to conversation, recommended content and knowledge base articles
-* Closed-loop learning to improve recommendations based on agent feedback
+* Closed loop learning to improve recommendations based on agent feedback
 
-Agents can opt to manually use the Knowledge Base article to help user, or join a bot to the conversation, monitor the conversation, and remove the bot if needed.
+Agents can opt to manually use the Knowledge Base article to help the user or join a bot to the conversation where they can monitor the conversation and remove the bot if needed.
 
 ![](/img/conv-ai-3.png)
 
@@ -70,10 +70,10 @@ Agents can opt to manually use the Knowledge Base article to help user, or join 
 
 **Easily design, build and integrate bots and automation flows**
 
-Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrated as third-party bots by using a connector for Waston or Dialogflow. The Conversation Builder is fully integrated into LivePerson’s entire Conversational AI platform, allowing for seamless back and forth escalation with human agents and real-time monitoring by humans. In this way, LivePerson enables both human agents and bots to interchangeably handle consumer interactions to deliver the best consumer experience possible for each conversation.
+Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrated as third-party bots by using a connector for Waston or Dialogflow. The Conversation Builder is fully integrated into LivePerson’s Conversational AI platform, allowing for seamless back and forth escalation with human agents and real-time monitoring by humans. In this way, LivePerson enables both human agents and bots to interchangeably handle consumer interactions to deliver the best consumer experience possible for each conversation.
 
 ![](/img/conv-ai-4.png)
 
-Conversation Builder allows brands to build bots including everything from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems, like Salesforce.
+Conversation Builder allows brands to build bots including everything from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems like Salesforce.
 
-LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. This allows brands to leverage non-technical staff to build, optimize, and improve bots and automated conversation flows - creating bots that are more effective and competent, and drastically speeding up bot development and optimization. The result is bots that are more effective and competent, and drastically speeds up bot development and optimizatio**n.**
+LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. This allows brands to leverage non-technical staff to build, optimize, and improve bots and automated conversation flows - creating bots that are more effective and competent, and drastically speeding up bot development and optimization.
