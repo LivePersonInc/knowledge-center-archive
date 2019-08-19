@@ -5,7 +5,7 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: new-agent-manager-experience.html
+permalink: messaging-managers-new-agent-manager-experience.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
