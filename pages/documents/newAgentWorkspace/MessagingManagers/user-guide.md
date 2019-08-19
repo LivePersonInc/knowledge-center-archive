@@ -158,8 +158,8 @@ Clicking on the consumer name  column will open the conversation window in the [
 In addition to the group and time filters at the top of the dashboard, the list can be filtered by: 
 * **STATUS** - The status of the conversation. Can be either: in-queue, assigned or closed.
 * **AGENT NAME** - Filtering by agent name will retrieve:
- * The conversations the agent is currently assigned to.
- * Closed conversations that the agent was the last to handle. 
+  * The conversations the agent is currently assigned to.
+  * Closed conversations that the agent was the last to handle. 
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 
 ![](img/new-agent-workspace-21.png){:class="newagent"}
