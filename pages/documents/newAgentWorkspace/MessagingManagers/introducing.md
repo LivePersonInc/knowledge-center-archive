@@ -24,12 +24,11 @@ LivePerson is introducing a built-in, specialized workspace dedicated to the suc
 
 This new dashboard will boost the agent manager or team manager performance by:
 * Offering a quick and comprehensive view of the ‘state of your shift’ in real time
-* Adding the ability to view trends for major KPIs in real time
 * Giving you the ability to drill down and understand causes for tracked metrics
 * Helping you react to situations in real time and prevent growing issues
 
 Managers will also be able to actively supervise key metrics like:
-* Queue length and wait times
+* Queue length 
 * CSAT levels
 * Agent utilization and efficiency
 
