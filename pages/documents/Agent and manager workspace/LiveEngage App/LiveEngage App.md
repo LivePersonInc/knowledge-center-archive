@@ -19,7 +19,7 @@ The app expands opportunities for messaging scenarios. For example, in store ret
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
-![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/AWS+APP.gif)
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 
 ## How to login
 
