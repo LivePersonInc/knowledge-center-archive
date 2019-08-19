@@ -26,7 +26,6 @@ Here you can also control the permissions for the enhanced agent workspace. The 
 ## Filters
 
 Users will only be exposed to data related to the groups they manage. For example, an agent manager of the group "Sales" will only be able to view data and metrics which are driven from:
-
 * Conversations which are currently waiting in queue in any of the skills assigned to the agents of the "Sales" group.
 * Conversations which are currently assigned to agents of the "Sales" group.
 
@@ -59,7 +58,6 @@ The "in queue" widget presents the number of conversations currently waiting for
 ## Metrics widget
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
-
 * **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note:** This metric is not affected by the time filter.
 * **LOAD** - The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents. **Note**: This metric is not affected by the time filter.
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
@@ -160,8 +158,8 @@ Clicking on the consumer name  column will open the conversation window in the [
 In addition to the group and time filters at the top of the dashboard, the list can be filtered by: 
 * **STATUS** - The status of the conversation. Can be either: in-queue, assigned or closed.
 * **AGENT NAME** - Filtering by agent name will retrieve:
-  * The conversations the agent is currently assigned to.
-  * Closed conversations that the agent was the last to handle. 
+ * The conversations the agent is currently assigned to.
+ * Closed conversations that the agent was the last to handle. 
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 
 ![](img/new-agent-workspace-21.png){:class="newagent"}
