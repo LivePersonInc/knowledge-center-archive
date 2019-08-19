@@ -27,8 +27,8 @@ Here you can also control the permissions for the enhanced agent workspace. The 
 
 Users will only be exposed to data related to the groups they manage. For example, an agent manager of the group "Sales" will only be able to view data and metrics which are driven from:
 
-* Conversations which are currently waiting in queue in any of the skills assigned to the agents of group "Sales".
-* Conversations which are currently assigned to agents of group "Sales".
+* Conversations which are currently waiting in queue in any of the skills assigned to the agents of the "Sales" group.
+* Conversations which are currently assigned to agents of the "Sales" group.
 
 The above assumes that no filters are enabled and thus represents the default view of the manager workspace.
 
@@ -60,7 +60,7 @@ The "in queue" widget presents the number of conversations currently waiting for
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
 
-* **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note**: This metric is not affected by the time filter.
+* **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note:** This metric is not affected by the time filter.
 * **LOAD** - The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents. **Note**: This metric is not affected by the time filter.
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
@@ -69,15 +69,13 @@ The metrics widget provides a high level "health check" of your group’s real-t
 
 ## Agent widget
 
-The agent widget shows all agents under the manager which are currently connected to LiveEngage (The list of agents which are shown is not affected by the time filter).
-
-The widget will be displayed only in case the user assigned with “View agents list” permission.
+The agent widget shows all agents under the manager which are currently connected to LiveEngage (The list of agents which are shown is not affected by the time filter). The widget will be displayed only in case the user assigned with “View agents list” permission.
 
 The widget supports two views, which can be switched using the icons available on the left top corner of the widget:
 
 ### Card view
 
-This view is useful for managers who monitor a short list of agents and would like to see a more visual manner - or if you’d like an easier way to view information on a specific agent
+This view is useful for managers who monitor a short list of agents and would like to see a more visual manner - or if you’d like an easier way to view information on a specific agent.
 
 ![](img/new-manager-workspace-12.png){:class="newagent"}
 
@@ -166,7 +164,7 @@ In addition to the group and time filters at the top of the dashboard, the list 
  * Closed conversations that the agent was the last to handle. 
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 
-![](img/new-manager-workspace-21.png){:class="newagent"}
+![](img/new-agent-workspace-21.png){:class="newagent"}
 
 #### Sorting
 
@@ -177,9 +175,9 @@ The list is sortable by "Response time". The list will be sorted by default by �
 * The workspace presents messaging agents’ data and messaging metrics. Chat agents and performance are not part of the workspace.
 * The minimal supported screen resolution is 1024x768.
 * The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
- * Account Config -1 minute
- * Conversation widget - 30 sec
- * All other data  - 10 sec	
+  * Account Config -1 minute
+  * Conversation widget - 30 sec
+  * All other data  - 10 sec	
  
 
 
