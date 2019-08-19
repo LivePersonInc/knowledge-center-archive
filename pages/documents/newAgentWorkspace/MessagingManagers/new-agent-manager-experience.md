@@ -21,7 +21,7 @@ This document covers how some of the workflows for managers will look when using
 
 Quick summary of where information can be found once you enable the enhanced agent workspace: 
 
- | For agents | For managers
+Section | For agents | For managers
 --- | --- | ---
 All Connections | Available in the new “connections” module within the agent workspace. | Available in the new “connections” module within the agent workspace.
 Open connections | Agent conversations are managed in My Connections within the agent workspace. Agents with the “view other agents conversations” permission turned on can view them in All Connections. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Connections list for full view. Conversations joined by managers will appear in the My Connections area of the agent workspace. 
