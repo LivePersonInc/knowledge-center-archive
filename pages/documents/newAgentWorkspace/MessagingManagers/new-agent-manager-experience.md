@@ -95,7 +95,7 @@ In the new workspace, managers can select the conversation view to quickly scan 
 
 ### Taking actions on conversations
 
-After you view conversations in All Connections, you have the ability to take several actions.
+After you view conversations in All Connections, you have the ability to take [several actions](/messaging-managers-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
  
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously. 
