@@ -15,13 +15,13 @@ layout: newAgentWorkspace
 
 ## Configuration
 
-To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile called "View agent manager workspace". The permission is currently **“Off”** by default.
+To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default. 
 
 ![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
 ### New agent workspace
 
-Here you can also control the permissions for the new agent workspace. The permission is currently **“Off”** by default.
+Here you can also control the permissions for the enhanced agent workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced agent workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced agent workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation. 
 
 ## Filters
 
@@ -39,7 +39,7 @@ The following filters can be applied to the sections listed above:
 ![](img/timefilter.png){:class="newagent"}
 
 {:start='2'}
-2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing, regardless of what this filter is set to.
+2. **Group filter** - managers will be able to filter the data by a single group or a number of groups. The list will only contain groups and sub-groups the agent manager is managing.
 
 ![](img/groupfilter.png){:class="newagent"}
 
@@ -67,7 +67,17 @@ The metrics widget provides a high level "health check" of your group’s real-t
 
 ![](img/new-agent-workspace-1.png){:class="newagent"}
 
-### Agents widget
+### Agent widget
+
+The agent widget shows all agents under the manager which are currently connected to LiveEngage (The list of agents which are shown is not affected by the time filter).
+
+The widget will be displayed only in case the user assigned with “View agents list” permission.
+
+The widget supports two views, which can be switched using the icons available on the left top corner of the widget:
+
+#### Card view
+
+This view is useful for managers who monitor a short list of agents and would like to see a more visual manner - or if you’d like an easier way to view information on a specific agent
 
 The agent widget shows all agents under the manager which are currently logged into LiveEngage. Each agent card will show the following information:
 
