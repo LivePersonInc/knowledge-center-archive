@@ -110,13 +110,13 @@ Opswat Metadefender File Sanitation
 
 When uploading a file, it will be sent to the Metadefender for file sanitation.
 
-## Prevent Attacks without Relying on Detection with CDR<br/>
+**Prevent Attacks without Relying on Detection with CDR**<br/>
 Most cyber security solutions rely upon detection as their core protective function. MetaDefender deep content disarm and reconstruction does not rely on detection. It assumes all files could be infected and rebuilds their content using a secure and efficient process.  It supports more than 30 file types, and outputs safe and usable files. Deep content disarm and reconstruction (Deep CDR) is extremely effective in preventing targeted attacks, ransomware, and other types of known and unknown malware threats.
 
-## Highest Threat Detection with Multiscanning<br/>
+**Highest Threat Detection with Multiscanning**<br/>
 MetaDefender multiscanning uses multiple anti-malware engines to provide superior detection rates of known and unknown threats and deliver extremely fast malware outbreak prevention. MetaDefender customers can simultaneously leverage the combined threat prevention capabilities of more than 30 anti-malware engines using both signature heuristic scanning and machine learning capabilities.
 
-## Detect Vulnerable Software Before Installation<br/>
+**Detect Vulnerable Software Before Installation**<br/>
 All applications contain vulnerabilities of different degrees of severity that threat actors can exploit. Our file-based vulnerability assessmentof binaries and installers detects known vulnerabilities within files and application vulnerabilities in software programs before they are installed on endpoint devices, including IoT devices. We support vulnerability detection for over 1 million files and over 20,000 applications.
 
 ## **Photo resizing**
