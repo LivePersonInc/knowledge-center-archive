@@ -22,7 +22,7 @@ The “All Connections” tab enables agents and managers to perform two major a
 
 ## Default view 
 
-To access the **All Connections** list directly, first select the **Connections** icon from the left side navigation. The agent workspace will open with an option to click on **All Connections** tab on the top.
+To access the **All Connections** list directly, first select the **Connections** icon from the left side navigation. The agent workspace will open with an option to click on the **All Connections** tab at the top.
 
 By default, the **All Connections** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
 
@@ -132,13 +132,17 @@ Managers who would like to perform actions on conversations , such as texting, t
 
 The join option will be available from the conversation mode (not from the list mode).
 
+![alt text](img/all-connections-4.jpg){:class="newagent"}
+
 When selecting ‘Join’, you have two options:
 1. Take any of the following actions from the current window: 
-  * Return to queue: you will still be joined to the conversation, it will appear in your My Connections list.
-  * Transfer conversation: you will still be joined to the conversation, it will appear in your My Connections list.
-  * Close conversation 
-  * Leave the conversation: use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists. 
+  * **Return to queue:** you will still be joined to the conversation, it will appear in your My Connections list.
+  * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Connections list.
+  * **Close conversation**
+  * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists. 
 2. To participate and message the consumer, click on the My Connections found at the bottom of the screen in ‘to send messages, go to My Connections.’  All the above actions will also be available from this view.
+  
+![alt text](img/all-connections-5.jpg){:class="newagent"}
 
 If you take an action on a conversation (e.g. send back to queue, transfer or take over) that is currently being handled by an agent - they will be notified of the action.  If the agent is inside the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification. 
  
