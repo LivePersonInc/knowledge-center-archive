@@ -26,7 +26,7 @@ To access the **All Connections** list directly, first select the **Connections*
 
 By default, the **All Connections** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
 
-Each user may change the time frame for viewing this list, select a range of up to 3 months from the previous 13 months. All search and sort items will display conversations within this selected timeframe.
+Each user may change the time frame for viewing this list, selecting a range of up to 3 months from the previous 13 months. All search and sort items will display conversations within this selected timeframe.
 
 ## Permissions
 
