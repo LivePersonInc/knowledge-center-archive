@@ -2,6 +2,7 @@
 pagename: Overview
 categoryName: AI, bots & automation
 subCategoryName: Maven
+level3: ''
 indicator: messaging
 subtitle: Maven is LivePerson’s platform for AI-powered conversational orchestration
   & continuous learning
@@ -10,7 +11,8 @@ isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
-
+redirect_from:
+  - ai-bots-automation-maven-maven-overview.html
 ---
 
 ## Maven AI Platform

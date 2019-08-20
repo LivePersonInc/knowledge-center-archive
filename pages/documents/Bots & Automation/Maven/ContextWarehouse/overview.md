@@ -2,6 +2,7 @@
 pagename: Context Warehouse
 categoryName: AI, bots & automation
 subCategoryName: Maven
+level3: ''
 indicator: messaging
 subtitle: Maven is LivePerson’s platform for AI-powered conversational orchestration
   & continuous learning
@@ -14,6 +15,7 @@ published: true
 ---
 
 ## What is Context Warehouse
+
 
 The context warehouse is a centralized repository of context attributes (brand, customer, conversational, session, and custom) that can be used to build customized conversation solutions. 
 
