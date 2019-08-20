@@ -86,11 +86,13 @@ Some browsers are not supported at all due to experience or security reasons.  
 
 ### Android
 
-| SDK version | Libraries |
-| --- | --- |
-| Android SDK 4.1v API 19- API 28 (Excludes AndroidX support) | com.google.android.gms:play-services-maps:16.1.0com.squareup.okhttp3:okhttp:3.9.1 |
-| All releases below SDK 4.1v | Refer to the release notes in the Dev Communitity: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html |
-| Android Q | Need support for AndroidX also. ETA to be planned. |
+Android SDK 4.1v API 19- API 28 (Excludes AndroidX support)  
+com.google.android.gms:play-services-maps:16.1.0
+com.squareup.okhttp3:okhttp:3.9.1 
+
+All releases below SDK 4.1v - Refer to the release notes in the Dev Communitity: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html |
+
+Android Q - Need support for AndroidX also. ETA to be planned
 
 ### iOS
 
