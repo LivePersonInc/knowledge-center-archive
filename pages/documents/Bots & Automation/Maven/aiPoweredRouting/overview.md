@@ -2,6 +2,7 @@
 pagename: AI Powered Routing
 categoryName: AI, bots & automation
 subCategoryName: Maven
+level3: ''
 indicator: messaging
 subtitle: Maven is LivePerson’s platform for AI-powered conversational orchestration
   & continuous learning
@@ -36,7 +37,7 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 
 - **When** a brand suffers an exceptional **event** (storm, incident), route to a bot for **intents** related to the outage. For all other intents (e.g. billing) route to a human agent pool
 - **Route** a group of **intents** (e.g. order enquiry, cancellation, scheduling) to a general order skill unless the customer is a **VIP**, then send them to their **Dedicated Advisor**
-- For lost baggage **intent**, return to the **same agent** if the customer is **returning within a given time period**; for **VIP** customers, route to high priority skill 
+- For lost baggage **intent**, return to the **same agent** if the customer is **returning within a given time period**; for **VIP** customers, route to high priority skill
 
 ## How AI-Powered Routing works
 
