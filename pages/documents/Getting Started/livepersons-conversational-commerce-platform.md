@@ -9,10 +9,10 @@ level3: ''
 permalink: getting-started-livepersons-conversational-commerce-platform.html
 isTutorial: true
 isNew: false
-date: 2019-01-23T13:04:36.000+00:00
+date: '2019-01-23T13:04:36.000+00:00'
 
 ---
-Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations. 
+Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
 
 ## What is conversational commerce
 
@@ -28,7 +28,7 @@ LivePerson’s conversational platform enables brands to message with their cons
 
 Today, customer care is quickly becoming the way brands want to differentiate themselves in the market. Consumers are already conversational, and brands benefit enormously by tapping into this opportunity and making it easy for consumers to communicate with them over messaging and from any device. In fact, Forrester predicted that by 2020, customer care will overtake product and price as the number one way for a business to differentiate itself.
 
-Read [Forrester report: Use Automation, AI and Chatbots to Improve Customer Engagements ](https://liveperson.docsend.com/view/i7c2a2m)to see how AI, automation and chatbots help companies meet high consumer demands while gaining powerful insights on interactions. 
+Read [Forrester report: Use Automation, AI and Chatbots to Improve Customer Engagements ](https://liveperson.docsend.com/view/i7c2a2m)to see how AI, automation and chatbots help companies meet high consumer demands while gaining powerful insights on interactions.
 
 ### Meet consumers needs through their entire journey
 
@@ -80,7 +80,7 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 ### Agent tools to manage conversations at scale
 
-Offering a agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
+Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
 
 ![](/img/conversational-commerce-conversation-manager.png)
 

@@ -10,6 +10,13 @@ isTutorial: false
 isNew: false
 
 ---
+These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+
+**Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
+
+{: .important}  
+The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
 ## Messaging Conversation Segments
 
 ### Type: New functionality
@@ -331,8 +338,6 @@ The intent building and training is generally available for intents in English l
 
 In order to enable this feature for the customers, Super Admin users in Conversation Builder can go to customer accounts and enable the NLU providers; Watson and Google DialogFlow.
 
-![](https://lh3.googleusercontent.com/1_2xJm8sUou672Qd01Xu_7rWfIomCcunD0wsVE5b8TdC1OZzbzthgr-xKwyoTl6VfqXl2LqLNB498HkMoTFCxtWq8itlsFzpg46e45rK8S3YFRu8MGMo-XdTTeO7KohDCK4Q8fVZ =503x372)
-
 **Dependencies**
 
 * Fire API support from Austin team on US, UK and APAC regions
@@ -428,7 +433,7 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 Brands will be able to utilize the Conversation Builder for bots in various different languages including German and Japanese , allowing the NLU intent analysis as an integration into Conversation Builder.
 
-## Fallback configuration by skill
+## Fallback configuration by skill (coming soon)
 
 ### Type: New functionality
 
@@ -538,3 +543,67 @@ The following file types are supported:
 * JPG,GIF,JPEG,PNG
 
 All files types have a file size limitation of 5MB. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in photo sharing scope ([view here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-agent-file-sharing-overview.html)).
+
+## \[ABC\] Embedded secure form
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Brands can improve the secure form consumer experience by embedding the form directly in the message thread rather than receiving it as a URL that opens in a new browser. The secure form bubble can be customized per ABC businessID including: title, subtitle, secondary subtitle, tertiary subtitle, image URL, image subtitle and image title.
+
+**Dependencies:**
+
+* iMessage App (extension)
+* ABC SDK embedded and configured for secure forms
+* LPABCSDK 1.1.0 downloaded and embedded into their app/extension
+
+**Limitations:**
+
+* If image URL is not provided within the structured JSON schema, the layout view will be an empty frame.
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
+
+**Screenshots**
+
+**Image1: Embedded form within conversation thread**
+
+![](/img/rn-week-of-july-1-3.png)
+
+![](/img/rn-week-of-july-1-2.png)

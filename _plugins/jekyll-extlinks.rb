@@ -55,6 +55,7 @@ module Jekyll
       doc.css('a').each do |a|
 
         attributes.each do |attr, value|
+
           if attr.downcase == 'target'
           #check if link is external or a schema. If so, add the target attribute as defined in the config
           next unless a.get_attribute('href') =~ /\Ahttp/i || a.get_attribute('href') =~ /assets\/schema\/.*/
@@ -65,6 +66,7 @@ module Jekyll
           next unless a.get_attribute('href') !~ /assets\/schema\/.*/
           next unless a.get_attribute('href') !~ /assets\/content\/.*/
           next unless a.get_attribute('href') !~ /\Ahttp/i
+          next unless a.get_attribute('href') !~ /resources\/.*/
           end
           a.set_attribute(attr, value)
         end

@@ -1,29 +1,34 @@
 ---
-pagename: Function as a Service (FaaS)
+pagename: LivePerson Functions
 categoryName: Getting started
 subCategoryName: ''
 indicator: both
-subtitle: FaaS enables brands to quickly and easily customize how the LivePerson platform
-  behaves.
+subtitle: LivePerson Functions enables brands to quickly and easily customize how
+  the LivePerson platform behaves.
 level3: ''
-permalink: developer-tools-function-as-a-service-(faas).html
+permalink: developer-tools-liveperson-functions.html
 isTutorial: false
 isNew: true
+redirect_from:
+- developer-tools-function-as-a-service-(faas).html
 
 ---
-LivePerson’s open platform new initiative, offers Function as a Service (FaaS) - a service that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
+{: .notice}
+This page contains an overview of LivePerson Functions and their benefits. For more in-depth, technical documentation about working with LivePerson Functions, please see our [Developers' Community](https://developers.liveperson.com/liveperson-functions-overview.html).
+
+LivePerson’s open platform new initiative, offers “[Functions](https://faas.liveperson.net)” - a Function as a Service (FaaS) platform that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
 
 ### Rapidly build, test and deploy new conversational experiences
 
-Using FaaS, brands can quickly and easily extend LivePerson’s conversational commerce platform by triggering custom code as a reaction to platform events, such as creating alerts or passing data as a reaction to the change in the status of conversation. FaaS doesn’t only make it easier, but allows for a faster time to production for custom code.
+Using Functions, brands can quickly and easily extend LivePerson’s conversational commerce platform by triggering custom code as a reaction to platform events, such as creating alerts or passing data as a reaction to the change in the status of conversation. Functions doesn’t only make it easier, but allows for a faster time to production for custom code.
 
 ### Customize how LivePerson’s platform reacts to specific events
 
-FaaS enables developers to write a simple function, deploy it to LivePerson's infrastructure and go live in a matter of minutes. This resolves the complexity that brands usually encounter when they need to customize a solution to address specific unique business needs.
+Functions enables developers to write a simple function, deploy it to LivePerson's infrastructure and go live in a matter of minutes. This resolves the complexity that brands usually encounter when they need to customize a solution to address specific unique business needs.
 
 ### Optimize functions quickly, with no lag time or lengthy deployment cycles
 
-FaaS does not require brands to spin up a new service, create new APIs, set up and monitor new servers or manage security risks. Rather, FaaS processes a brand’s unique code while monitoring and maintaining the infrastructure, and scaling automatically.
+Functions does not require brands to spin up a new service, create new APIs, set up and monitor new servers or manage security risks. Rather, Functions processes a brand’s unique code while monitoring and maintaining the infrastructure, and scaling automatically.
 
 ### Eliminate the need for storage and code security
 
@@ -31,9 +36,9 @@ Since all functions are saved within the LivePerson cloud, brands do not have to
 
 ![](img/FaaS.gif)
 
-## What is FaaS?
+## How does LivePerson Functions work?
 
-FaaS is a service allows brands to write their own custom behavior - through code - that is triggered by events. **Events,** include external innovations and internal LivePerson platform events, such as the start of a conversation, keyword recognition, off-hours detection and even custom bot events.
+Functions allows brands to write their own custom behavior - through code - that is triggered by events. **Events,** include external innovations and internal LivePerson platform events, such as the start of a conversation, keyword recognition, off-hours detection and even custom bot events.
 
 Brands can deploy the code as a **function** and have the custom behavior become a part of their conversational commerce platform. A **function** is the canvas, where brands can put in the code they want, to ultimately invoke a desired action or outcome.
 
@@ -43,17 +48,17 @@ The full picture of an event invoking a function can be: an account is tailored 
 
 ## Popular use cases
 
-Since FaaS allows brands to write custom, the number and variety of use cases are endless. Here are a few popular, real-life use cases:
+Since Functions allows brands to write custom, the number and variety of use cases are endless. Here are a few popular, real-life use cases:
 
 ### **Use case 1: Trigger actions based on specific intents**
 
-If the contact center is able to recognize intent (using [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
+If the contact center is able to recognize intent (using [Maven with LiveIntent](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
 
 ![](/img/faas-use-case-agent-retention-offers-1.png)
 
-## Use case 2: Customize routing
+### Use case 2: Customize routing
 
-In collaboration with a routing Bot or with Maven, when a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
+In collaboration with a routing Bot or with Maven's AI powered routing, when a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
 
 ![](/img/faas-use-case-routing-1.png)
 
@@ -67,15 +72,17 @@ A function can be developed to automatically send a conversation’s transcript 
 
 ### Use case 4: Integrate with a ticketing system with much greater flexibility
 
-Today, brands can integrate ticketing systems to empower agents with detailed and custom information about the consumers in a conversation. FaaS enables brands to take this integration further with full control over what information is passed and displayed to agents and what actions they can perform in the ticket as part of the conversation. For example, a ticketing integration will empower the agent to see the status of the consumer’s open ticket and take actions like closing or updating the ticket during the conversation with the consumer.
+Today, brands can integrate ticketing systems to empower agents with detailed and custom information about the consumers in a conversation. Functions enables brands to take this integration further with full control over what information is passed and displayed to agents and what actions they can perform in the ticket as part of the conversation. 
+
+For example, LivePerson Functions allows brands to easily integrate data from enterprise systems, like a CRM, through a secure, LivePerson-managed functions service. This will empower agents to see the status of the consumer’s open ticket and take actions like closing or updating the ticket during the conversation with the consumer.
 
 ### Use case 5: Leverage customer information to create alerts or actions
 
 Using the consumer information passed from a CRM integration, a function can be invoked to trigger a notification or action to the call centers. For example, if the consumer information reveals that a VIP consumer is in a conversation, brands can customize an alert to be sent into the call center or to the agent manager. Similar actions can be created, such as to update a dashboard that monitors VIP consumers, send an SMS to the account manager of the VIP consumers, and so on.
 
-## How does FaaS work?
+## How to get started with FaaS
 
-As part of the offering, LivePerson supplies an easy-to-use interface where brands and their developers can select an event to trigger a function. Once an event is selected, developers can either write custom functions or leverage FaaS templates for commonly used functions. Brands can set one or more triggers from events, and then automatically launch functions through LivePerson’s FaaS.
+As part of the offering, LivePerson supplies an easy-to-use interface where brands and their developers can select an event to trigger a function. Once an event is selected, developers can either write custom functions or leverage LivePerson Functions' templates for commonly used functions. Brands can set one or more triggers from events, and then automatically launch functions through Functions.
 
 These functions can be created and deployed in a matter of minutes, allowing brands to rapidly build new conversational experiences, such as: seamless connections to CRM to inform routing decisions, the ability for agents to schedule consumer follow-ups, automatic lookups of outstanding consumer tickets, and more. The simplicity and speed of building new functions also lets developers test and learn without waiting through lengthy deployment cycles.
 
@@ -83,7 +90,11 @@ These functions can be created and deployed in a matter of minutes, allowing bra
 
 LivePerson’s offering includes a secret storage feature that gives brands a self-service way to secure, manage and update confidential consumer data or credentials. Read more about [how the Vault stores secrets](https://developers.liveperson.com/function-as-a-service-developing-with-faas-storing-secrets.html#documenttitlecontainer).
 
-## Benefits of developing with FaaS
+### Scheduled function execution
+
+This feature allows developers to schedule the execution of a function and the invocation of an event in advance - making the functions time bound and able to run in advance.
+
+## Benefits of developing with Functions
 
 **Simpler development**
 

@@ -43,8 +43,6 @@ In order to improve the consumer experience, secure forms will be shown as rich 
 
 Once deployed, secure forms via rich links will become the default behaviour for secure forms in ABC, no configuration is required.
 
-![](https://lh3.googleusercontent.com/vn19g8ZPpJYsdZbaZrtwXiIkb3xCORgSQX1CYzpUt3_oZABhfxYXr3t6o3YQNUn8UttOTDM8iKyHA84wRZ2ZREQKr7usNwfn9m-g_eKKEd5p694fmhKOAMm7Jrpb_j0XDUvMTigj =339x72)
-
 ## File sharing
 
 **(consumer to agent & agent to consumer) - web messaging**

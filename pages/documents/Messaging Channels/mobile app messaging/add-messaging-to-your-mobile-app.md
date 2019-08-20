@@ -14,7 +14,7 @@ redirect_from:
   - liveengage-mobile-sdk.html
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html).
+The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
 
 With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 

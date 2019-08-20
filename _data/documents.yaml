@@ -2,6 +2,12 @@
   image: getting-started
   subcategories:
     - subcategoryname: LivePerson's conversational commerce platform
+    - subcategoryname: Quick start guides
+      pages:
+        - pagename: Web messaging quick start
+        - pagename: Conversation builder quick start
+        - pagename: Facebook Messenger quick start
+        - pagename: Twilio SMS quick start
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -25,10 +31,9 @@
     - subcategoryname: SMS
       pages:
         - pagename: SMS connector
-        - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
-        - pagename: Enhancing the SMS experience with Twilio
+        - pagename: Using SMS with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google Business Messaging
@@ -55,16 +60,20 @@
 - categoryname: "AI, bots & automation"
   image: bots-automation
   subcategories:
-    - subcategoryname: How bots work with LivePerson
-    - subcategoryname: Maven
-      pages:
-        - pagename: Maven overview
-        - pagename: Recommended Actions
-    - subcategoryname: Conversation Builder
-      pages:
-        - pagename: Conversation Builder overview
-        - pagename: Getting started tutorials
-    - subcategoryname: Post conversation survey bot
+   - subcategoryname: Conversational AI
+   - subcategoryname: How bots work with LivePerson
+   - subcategoryname: Maven
+     pages:
+       - pagename: Overview
+       - pagename: Maven Assist
+       - pagename: Context Warehouse
+       - pagename: AI Powered Routing
+       - pagename: AskMaven
+   - subcategoryname: Conversation Builder
+     pages:
+       - pagename: Conversation Builder overview
+       - pagename: Getting started tutorials
+   - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
   image: contact-center
@@ -74,6 +83,7 @@
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
         - pagename: Configuring response times
+        - pagename: Fallback configuration per skill
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
@@ -155,7 +165,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-
+    - subcategoryname: LiveEngage mobile app
+      pages:
+        - pagename: LiveEngage mobile app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -210,8 +222,10 @@
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
-    - subcategoryname: Data Transporter user guide
-
+    - subcategoryname: Analytics
+      pages:
+        - pagename: "Advanced messaging dashboard user guide"
+        - pagename: "Data Transporter user guide"
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
@@ -265,25 +279,32 @@
   image: developer-tools
   subcategories:
     - subcategoryname: Open platform
-    - subcategoryname: Function as a Service (FaaS)
+    - subcategoryname: LivePerson Functions
 
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: August 2019
+    - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
     - subcategoryname: March 2019
-    - subcategoryname: February 2019
-    - subcategoryname: January 2019
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: 2019
       pages:
+        - pagename: August
+          level3:
+            - level3name: Week of August 19th
+            - level3name: Week of August 12th
+            - level3name: Week of August 5th
         - pagename: July
           level3:
+            - level3name: Week of July 29th
+            - level3name: Week of July 22nd
             - level3name: Week of July 1st
         - pagename: June
           level3:
@@ -308,17 +329,6 @@
             - level3name: Week of March 25th
             - level3name: Week of March 11th
             - level3name: Week of March 4th
-        - pagename: February
-          level3:
-            - level3name: Week of February 18th
-            - level3name: Week of February 11th
-            - level3name: Week of February 4th
-        - pagename: January
-          level3:
-            - level3name: Week of January 28th
-            - level3name: Week of January 20th
-            - level3name: Week of January 14th
-
 
 - categoryname: Troubleshooting
   image: Troubleshooting

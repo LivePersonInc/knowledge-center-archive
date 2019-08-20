@@ -19,15 +19,15 @@ When an account administrator creates or modifies an app key, they will be able 
 
 Currently, only the following APIs will be supported:
 
-* [Operational real-time API](https://developers.liveperson.com/essential-resources-getting-started-with-data-apis.html#operational-real-time-api-chat)
-* [Engagement history API](https://developers.liveperson.com/essential-resources-getting-started-with-data-apis.html#engagement-history-api-chat)
+* [Operational real-time API](https://developers.liveperson.com/essential-resources-data-apis.html#operational-real-time-api-chat)
+* [Engagement history API](https://developers.liveperson.com/essential-resources-data-apis.html#engagement-history-api-chat)
 * [Users API](https://developers.liveperson.com/users-api-overview.html#use-cases-for-users-api)
 * [Skills API](https://developers.liveperson.com/skills-api-overview.html#introduction)
 * [Agent groups API](https://developers.liveperson.com/agent-groups-api-overview.html#use-cases-for-the-agent-groups-api)
 * [Profiles API](https://developers.liveperson.com/profiles-api-overview.html#introduction)
 * [LOBs API](https://developers.liveperson.com/lobs-api-overview.html#introduction)
-* [Messaging operations API](https://developers.liveperson.com/essential-resources-getting-started-with-data-apis.html#messaging-operations-api)
-* [Messaging interactions API](https://developers.liveperson.com/essential-resources-getting-started-with-data-apis.html#messaging-interactions-api-messaging-only)
+* [Messaging operations API](https://developers.liveperson.com/essential-resources-data-apis.html#messaging-operations-api)
+* [Messaging interactions API](https://developers.liveperson.com/essential-resources-data-apis.html#messaging-interactions-api-messaging-only)
 
 Additional API support will follow.
 

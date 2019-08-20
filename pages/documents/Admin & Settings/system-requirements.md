@@ -9,9 +9,11 @@ level3: ''
 permalink: admin-settings-system-requirements.html
 isTutorial: false
 isNew: false
-date: 2019-01-28 13:20:27 +0000
+date: '2019-01-28T13:20:27.000+00:00'
 
 ---
+The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
+
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
@@ -32,6 +34,9 @@ We recommend using certified systems for the best possible experience while usin
 ## Visitor side: mobile web requirements
 
 The tables below list the browsers LivePerson supports for visitors on mobile web assets (smartphones and tablets).
+
+{: .notice}
+For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developers' Community for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
 
 ### Android
 
@@ -87,7 +92,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | --- | --- | --- | --- |
 | Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
 | Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* | 11x&#42; , Edge&#42; |
+| Internet Explorer | 11x* | 11x* | 11x* , Edge* |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
 
@@ -137,12 +142,25 @@ The real-time experience is affected by several applications competing for upstr
 
 ## Citrix requirements
 
-LivePerson recommends hosting up to 30 users per server, with the following specifications:
+LivePerson recommends hosting up to 30 Agent users per Citrix server with following specification:
 
-* CPU: 4 Cores
-* Memory: 16 GB RAM
-* Xenapp Server 6.5 and above
-* Operating system: Windows Server 2008 R2
+* Hosted VMWare
+* Internal network 10 GB
+* Network to WAN 200/200 (Up/Down)
+* 6 VCPU (2.2 ghz minimum)
+* Memory 16 GB
+* 256 Video Card Memory
+* Windows server 2012 R2
+* Xenapp 7.15
+
+Upon the above set up the below describes the resource consumption for each profile:
+
+* CPU for Agent Manager role - minimum of 4500 ghz per user
+* CPU for each Agent role - minimum of 800 ghz per user
+* CPU wise - 1 Manager = 5 agents
+* Steady set up can be 1 Manager with 10 Agents
+
+CPU resources should be calculated according to above parameters.
 
 ## New device certification process
 

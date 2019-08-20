@@ -54,6 +54,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-Queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
+  ![](/img/Messaging_segments1-1.png)
 
 ## Metrics
 
@@ -77,7 +78,7 @@ How many times did consumers abandon a conversation while waiting in my skill-qu
 
 **Action:** This metric enables you to determine issues arising from the length of your queues - 		before an agent is assigned.  Action is to adjust the SLA per skill.
 
-Manager Question: How many times did my team try to reach out to a consumer but the consumer never replied?
+**Manager Question:** How many times did my team try to reach out to a consumer but the consumer never replied?
 
 **Answer (Metric)** Segments with Non Responsive Consumers (Skill)
 
@@ -163,13 +164,15 @@ Please note:
 * Joined agent\\reader leaving a conversation does not end an agent-segment.
 * Time in Queue is not ‘owned’ by any agent, therefore is not be part of any agent-segment.
 
+![](/img/agent segments new.png)
+
 ## Metrics
 
 **Manager Question:** How many times were conversations assigned to each agent, human or bot?
 
 **Answer (Metric):** Agent Segments
 
-**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations. 
+**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations.
 
 This metric will be a more precise version of CCPLH.
 
@@ -189,19 +192,19 @@ This metric will be a more precise version of CCPLH.
 
 **Answer (Metric):** Segments with Non Responsive Agents (Agent)
 
-**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
+**Action:** This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
 
-**Manager Question:**How many times did each agent conduct a dialog with consumers?
+**Manager Question:** How many times did each agent conduct a dialog with consumers?
 
 **Answer (Metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
 
 **Action:** More accurate view of actual number of engagements conducted by agents.
 
-**Manager Question:** How long are agents participating in conversations? 
+**Manager Question:** How long are agents participating in conversations?
 
 **Answer (Metric):** Avg. Segment Duration (Agent)
 
-**Action:**This can help to quantify the agents’ activity during conversation.
+**Action:** This can help to quantify the agents’ activity during conversation.
 
 **Manager Question:** How many responses my agents send in an average conversation?
 
@@ -239,3 +242,51 @@ Agent-segment metrics can be sliced and diced by:
 * Messages provided by the Controller Bot (system messages) are omitted from the calculations.
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages.
+
+## Understanding the metrics (aggregation levels)
+
+### Aggregation Levels
+
+The segments data can be analyzed from several different aspects. The Performance dashboard offers a view into two of these as described in this article: Skill and Agent. At each level, the metrics included in the dashboard are pre-aggregated to reflect the corresponding aspect.
+
+A suffix has been added to each metric name to allow users to identify the level to which the metric is pre-aggregated. For example: “INTERACTIVE SEGMENTS (SKILL)” and “ABANDONED SEGMENTS (AGENT)”.
+
+Please note: Skill level metrics and agents level metrics **should not be combined** in the same grid as the underlying data is calculated and implemented differently.
+
+* For analyzing skill demand and supply - use the ‘Skill Segment Data’ grid (3rd panel in the ‘Brand Level Data’ in the Performance dashboard for Messaging)
+* For analyzing agent performance and efficiency - use the Agent Segment Data’ grid (4th panel in the ‘Agent Level Data’ in the Performance dashboard for Messaging)
+
+When comparing segment level data with conversation level data, a few considerations should be taken into account:
+
+* Time attribution
+
+  \- Segment level metrics are attributed to the end time of the segment. Conversation level metrics have different time -attribution. For example, ‘Opened Conversations’ is attributed to the opening time of the conversation.
+* A single conversation may include more than one segment for each participating skill\\agent. This happens when the conversation is transferred to another skill and back to the original skill, for example.
+
+## Metric definitions
+
+Following are the explanations of the metrics defined per segment (relevant for both agent and skill segments):
+
+### Interactive Segments
+
+The number of segments which included at least one response from the consumer to an agent’s message.
+
+### ![](/img/Mess_segments3.png)
+
+### Abandoned Segments
+
+The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
+
+![](/img/abandoned segments.png)
+
+### Segments with non Responsive Agents
+
+The number of segments which ended in a transfer or closed by agent\\system with no message from an agent.
+
+![](/img/non_responsive_agents.png)
+
+### Segments with Non Responsive Consumers
+
+The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
+
+![](/img/ageny segments new2.png)

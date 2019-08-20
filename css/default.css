@@ -26,6 +26,7 @@ p {
 
 p + ul {
   margin-top: -10px;
+  margin-bottom: 35px;
 }
 
 .fadeout {
@@ -215,6 +216,7 @@ h4 {
 }
 
 .h1 {
+  width: 60%;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
@@ -371,7 +373,7 @@ ul.mysidebar.nav > li:first-of-type {
 }
 
 #defaultheader {
-  background-color: #324D8A;
+  background-color: #2d3162;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -1310,6 +1312,17 @@ div#cookie-law {
   display: none !important;
 }
 
+.smallersidebyside {
+  display: flex;
+}
+
+.smallersidebyside img {
+  width: 10%;
+  height: 30%;
+  margin: unset;
+  margin-right: 40px;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
@@ -1378,6 +1391,7 @@ div#cookie-law {
 
   .subcategoryitem a {
     font-size: 12px;
+    line-height: normal;
   }
 
   #feedback {

@@ -12,7 +12,7 @@ date: '2019-01-16T08:25:55.000+00:00'
 isNew: false
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312481307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/348009128?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="750" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Queue prioritization focuses agent resources on the conversations that matter most. It allows brands to efficiently allocate staffing resources and better handle incoming messages by prioritizing conversations in the queue based on importance.
 
@@ -66,24 +66,26 @@ What to expect after enabling this feature?
 * CSAT/ MCS of prioritized customers increase
 * CSAT/MCS of other customers may decrease
 
-  ## Arriving at the desired configuration
+## Arriving at the desired configuration
 
-  **Understand the Queue Prioritization cycle**
+**Understand the Queue Prioritization cycle**
 
-  The Queue Prioritization runs every 2 seconds and prioritizes the conversations in the queue based on the prioritization approach that was drawn for the cycle.
+The Queue Prioritization runs every 2 seconds and prioritizes the conversations in the queue based on the prioritization approach that was drawn for the cycle.
 
-  The prioritization approach is drawn according to a predefined probability defined when configuring the feature.
+The prioritization approach is drawn according to a predefined probability defined when configuring the feature.
 
-  **Derive the configuration**
+**Derive the configuration**
 
-  The Queue Prioritization configuration is built out of a list of rules that are derived from business questions.
+The Queue Prioritization configuration is built out of a list of rules that are derived from business questions.
 
-  Answer the following questions to arrive at the desired configuration:
+Answer the following questions to arrive at the desired configuration:
+
 * What is the percentage of prioritization cycles in which you would like to prioritize based on Conversation Interactiveness?
 * Are there any conversations you would like to assign with higher priority when transferred to or from a specific skill?
 * After how many transfers of a conversation would you like to assign it with higher priority for handling?
 * Would you like to change the prioritization approach based on time of day or queue size?
+* Are there any conversations you would like to assign with higher priority in case the consumers are from a specific customer tier or have specific engagement attributes (customer info or personal info)?
 
-  ## How to configure
+## How to configure
 
-  LivePerson account teams must configure the queue prioritization for their customers.
+LivePerson account teams must configure the queue prioritization for their customers.

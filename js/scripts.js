@@ -49,8 +49,8 @@ function navigateContent(url) {
 				$('#defaultwrapper').removeClass('botwrapper');
 				$('#resetcontainer').css('display', 'none');
 			}
-			anchors.add('h2');
-			$('#mysidebar .activeitem').removeClass('activeitem');
+			anchors.add('h2, h3');
+			$('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
@@ -209,7 +209,7 @@ function sideBarClick () {
 		if ($(this).hasClass("activeitem")) {
 			$(this).removeClass("activeitem");
 		} else {
-			$(".categorylist a").removeClass("activeitem");
+			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
 	});

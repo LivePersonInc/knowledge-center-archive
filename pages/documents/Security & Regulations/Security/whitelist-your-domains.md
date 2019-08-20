@@ -24,11 +24,11 @@ Once the capability is enabled, only the domains in the whitelist will be monito
 
 To achieve this end, admins block domains by adding them to the blacklist, and allow domains by placing them on the whitelist, as shown in the illustration below. Once a domain appears on the blacklist, it is blocked from sending monitoring data (even if it also appears on the whitelist).
 
-To include multiple subdomains, you can use wildcards (*.) at the beginning of the domain name. For example, to include both www.customer.com and subdomain.customer.com use the syntax *.customer.com.
+To include multiple subdomains, you can use wildcards (`*.`) at the beginning of the domain name. For example, to include both `www.customer.com` and `subdomain.customer.com` use the syntax `*.customer.com.`
 
-To include domains and subdomains you should add both domain name and subdomains separately. For example, to include customer.com and www.customer.com and subdomain.customer.com add both customer.com and *.customer.com to the whitelist.
+To include domains and subdomains you should add both domain name and subdomains separately. For example, to include customer.com and www.customer.com and subdomain.customer.com add both customer.com and `*.customer.com` to the whitelist.
 
-It is important to add Liveperson's domains ("_._[_liveperson.net_](http://liveperson.net/)_", "_.[liveperson.com](http://liveperson.com/)", "_._[_lprnd.net_](http://lprnd.net/)_", "_.[lpsnmedia.net](http://lpsnmedia.net/)") to the list of monitored domains, to ensure your service works efficiently.
+It is important to add Liveperson's domains (`.liveperson.net`, `.liveperson.com`, `.lprnd.net`, `.lpsnmedia.net`) to the list of monitored domains, to ensure your service works efficiently.
 
 To enable monitored domains:
 
@@ -36,7 +36,7 @@ On the LiveEngage Tag page, click **Manage Domains**.
 
 ![](/img/whitelist-domains1.png)
 
-Type in the domain names in the relevant fields. Ensure you include the LivePerson domain names: "_._[_liveperson.net_](http://liveperson.net/)_", "_.[liveperson.com](http://liveperson.com/)", "_._[_lprnd.net_](http://lprnd.net/)_" and "_.[lpsnmedia.net](http://lpsnmedia.net/)".
+Type in the domain names in the relevant fields. Ensure you include the LivePerson domain names mentioned above.
 
 ![](/img/whitelist-domains2.png)
 

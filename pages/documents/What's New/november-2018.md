@@ -6,7 +6,7 @@ indicator: both
 subtitle: " Post Conversation Survey bot, connector support of structured content,
   skill segment metrics, Demo app - Connector API"
 level3: ''
-permalink: whats-new-november-2018
+permalink: whats-new-november-2018.html
 isTutorial: true
 isNew: false
 date: 2019-01-23 15:08:51 +0000

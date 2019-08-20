@@ -33,6 +33,6 @@ CSAT- displays the customer satisfaction score, based on surveys that were compl
 
 The agent manager real time dashboard for messaging graphically displays real time and historical data that enables easy evaluation of agent efficiency for messaging conversations.
 
-To access the agent manager dashboard for messaging, click the pull-down button (![](https://lh6.googleusercontent.com/S-zsUwXMK7OdyQzvfvBIouRP2nYM9JyjrmQwHFH1cdVLl6QHessRZvFVwf9Zi2m0N344hzkTF-6tJPQKUkEtWdy0b4SbxI8EK8W-o2v6pWMrdfCzBZXkG5zJgSsWkLsIynmDXQnf =38x17)) above the App Connections list.
+To access the agent manager dashboard for messaging, click the pull-down button above the App Connections list.
 
 ![](/img/Agent-manager-messaging-data-2.png)

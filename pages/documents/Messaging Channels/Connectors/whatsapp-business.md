@@ -7,7 +7,7 @@ subtitle: Tap into the most popular consumer messaging channel on Earth
 level3: ''
 permalink: messaging-channels-whatsapp-business.html
 isTutorial: true
-date: 2019-01-20 12:34:09 +0000
+date: '2019-01-20T12:34:09.000+00:00'
 isNew: false
 
 ---
@@ -36,7 +36,8 @@ Brands can deflect consumers who are eligible to message via WhatsApp from voice
 
 ### Business Activity Alerts:
 
-![](/img/WhatsApp Proactive notifications Gif -2.gif)
+{: .sidebyside}
+![](img/whatsapp-business-overview-1.png) ![](img/whatsapp-business-overview-2.jpg)
 
 Brands can integrate their business systems (CRM, marketing automation, etc.) and share notifications of real-time business actions with consumers on WhatsApp. Brands must send these notifications as a WhatsApp Message Template
 

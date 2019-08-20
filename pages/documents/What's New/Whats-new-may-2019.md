@@ -31,8 +31,6 @@ We have some enhancements to WhatsApp
 
 The agent name will be added in the beginning of the agent message in bold. A consumer can also send a message replying / referring to a previous message. A new indicator will be added to such messages in the agent workspace to acknowledge the agent about that. This feature will need to be enabled.
 
-![](https://lh3.googleusercontent.com/7f_5C5KV5BaqNO6ntyoD_HjyBWfPbQZ7zntm218EP93pdeaApqe6xVC0Um9wj0jIeaXVYnHDPE92gm8RWoWJp6psyFfV67tPXj-VaC2--XHNOTU47o4Wi0xn2R91rjpoL61ete7F =214x348)
-
 ## File sharing - agent to consumer (ABC and WhatsApp)
 
 For ABC and WhatsApp, agents can share files such as PDFs directly within the conversation, enabling additional use cases such as sending and receiving forms or personalized contracts. Files are hosted by LP and stored for 13 months. Supported file types include:
@@ -41,8 +39,6 @@ For ABC and WhatsApp, agents can share files such as PDFs directly within the co
 * DOC(X)
 * XLS(X)
 * PPT(X)
-
-![](https://lh4.googleusercontent.com/dJWn1nI3tWeqPn8Msxk4zMjqcxMRvy_z5_gULzGCt3HPjNmbZXGsUUk4uS8qNRuA2VTGMioY0j68jE9YoAUR8OQxjoUrJq4wKnxPmrp69U9Ea4NKoRPdjJQmwDjBo2TrZsm92EGr =189x268)
 
 ## Queue priority by day of the week
 
@@ -63,7 +59,7 @@ The Business Dashboard for messaging allows you to analyze the consumer journey 
 
 ## Report Builder: Survey Dashboard for messaging
 
-To improve the performance and loading time of the [Performance Dashboard for Messaging ](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html)(Report Builder), the[ Post Conversation Survey](https://knowledge.liveperson.com/ai-bots-automation-post-conversation-survey-bot.html) data will be presented in a new dedicated dashboard called “Survey Dashboard for Messaging” including new visualizations. The Performance Dashboard for Messaging will continue to include results of the predefined questions (CSAT, NPS and FCR) and MCS. The rest of the data about Post Conversation Survey results are moved to the new Survey Dashboard for Messaging.
+To improve the performance and loading time of the [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)(Report Builder), the[ Post Conversation Survey](https://knowledge.liveperson.com/ai-bots-automation-post-conversation-survey-bot.html) data will be presented in a new dedicated dashboard called “Survey Dashboard for Messaging” including new visualizations. The Performance Dashboard for Messaging will continue to include results of the predefined questions (CSAT, NPS and FCR) and MCS. The rest of the data about Post Conversation Survey results are moved to the new Survey Dashboard for Messaging.
 
 ## Conversation segments metrics (by agent/ by skill)
 
