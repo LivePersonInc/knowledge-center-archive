@@ -32,6 +32,15 @@ If you have the manager workspace enabled, but not the new agent workspace, the 
 ## Manager workflows
 The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the agent workspace + All Connections.
 
+We'll cover the following workflows: 
+* [Monitoring agents during a shift: for status and performance](/messaging-managers-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
+* [Monitoring conversations during a shift](/messaging-managers-new-agent-manager-experience.html#monitoring-conversations-during-a-shift)
+* [Viewing a conversation transcript](/messaging-managers-new-agent-manager-experience.html#viewing-a-conversation-transcript)
+* [Opening multiple conversations concurrently](/messaging-managers-new-agent-manager-experience.html#opening-multiple-conversations-concurrently)
+* [Taking actions on conversations](/messaging-managers-new-agent-manager-experience.html#taking-actions-on-conversations)
+* [Searching for specific conversations](/messaging-managers-new-agent-manager-experience.html#searching-for-specific-conversations)
+* [Monitoring Shift KPIs](/messaging-managers-new-agent-manager-experience.html#monitoring-shift-kpis)
+
 ### Monitoring agents during a shift: for status and performance
 The new Agents widget within the workspace provides a quick view and summary of all agents currently in the shift, with the option to filter and sort by various metrics.  
 The agent list can be viewed as:
@@ -82,10 +91,9 @@ Once you click on a conversation to view its transcript, this detailed view will
 
 Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Connections and use only the preview to view the conversation. In the new view of All Connections this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
 
-#### Opening multiple conversations concurrently  
+### Opening multiple conversations concurrently  
 
 Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them.  
-
 In the new workspace, managers can select the conversation view to quickly scan through conversations. 
 
 ![](img/new-agent-manager-experience-2.png){:class="newagent"}
