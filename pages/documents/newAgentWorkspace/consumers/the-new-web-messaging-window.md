@@ -9,7 +9,7 @@ permalink: consumer-experience-the-new-web-messaging-window.html
 layout: newAgentWorkspace
 ---
 
-New, modern UI for the engagement window template and invitation bas been added to the engagement window studio, greatly improving the consumer experience.
+New, modern UI for the engagement window template and invitation has been added to the engagement window studio, greatly improving the consumer experience.
 
 The new template includes:
 * Floating window and invitation
@@ -20,6 +20,8 @@ The new template includes:
 * Minimize window will be to invitation bubble instead of to the title bar
 
 ## Window
+
+![alt text](img/enhanced-engagement-window-consumer-exp.png)
 
 {: .sidebyside}
 ![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)

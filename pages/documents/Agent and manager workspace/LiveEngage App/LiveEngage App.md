@@ -1,25 +1,25 @@
 ---
-pagename: LiveEngage App user guide
+pagename: LiveEngage mobile app user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-liveengage-app-liveengage-app-user-guide.html
+permalink: agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
 isTutorial: false
 isNew: false
 
 ---
 {: .important}  
-LivePerson's new LiveEngage App is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
+LivePerson's new LiveEngage mobile app is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
 
-The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
+The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
 
 The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
-![](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/AWS+APP.gif)
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 
 ## How to login
 
@@ -163,7 +163,7 @@ Tapping the send icon adds the text to the conversation and sends it to the cons
 
 ### Conversation message: consumer side
 
-Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp. 
+Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
 
 ### Conversation message: agent side
 

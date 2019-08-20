@@ -95,31 +95,25 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
-
-Open the hotkeys menu by holding down the control and tilde keys (CTRL + ~).
-On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
-
-Select an action by pressing the applicable letter from the table below.
-
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below. 
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| LOGOUT of the agent workspace  | L |
-| ACCEPT a new incoming conversation  | A  |
-| STATUS: toggle your status between Online, Back Soon and Away  | S |
-| Return conversation to QUEUE  | Q   |
-| TRANSFER conversation to another skill | T |
-| CLOSE conversation  | X |
-| Respond to next conversation (NEW)  | N |
+| RESPOND to the next conversation (NEW) |  CTRL ` N  |
+| ACCEPT a new incoming conversation| CTRL ` A |
+| TRANSFER conversation to another skill | CTRL  ` T |
+| Return conversation to QUEUE | CTRL  ` Q |
+| CLOSE conversation | CTRL  ` X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
+| LOGOUT of the agent workspace | CTRL  ` L |
 
 ## Managing messaging conversations
 
 ### Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list. 
 
-![alt text](img/new-agent-workspace-screenshot-1.png){:class="newagent"}
+![alt text](img/Agent menu open.jpg){:class="newagent"}
 
 #### Warm up: staggered incoming conversations at the beginning of your shift
 
@@ -127,13 +121,19 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ### Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
+The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations. 
+
+By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
+
+#### Incoming message alerts
+
+You can now see the number of incoming conversations in the top Connection bar. An orange dot will appear on the conversation in the list that has a new incoming message. 
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
+Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are two ways to accept incoming conversations into your workspace:
 
 * **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
 
@@ -165,9 +165,11 @@ There are several tools in place to help you access the information you’ll nee
 
 #### Predefined Content
 
-You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. Some predefined answers will have associated hotkeys that will enable you to enter responses even more easily.
+You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. 
 
 ![image alt text](img/predefinedcontent.png)
+
+Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display. 
 
 #### Rich messaging
 
@@ -175,19 +177,21 @@ There are many tools at your disposal that can be used to foster relationships a
 
 The following types of rich messaging are being supported for the enhanced agent workspace:
 * Structured content cards and carousels
-* Consumer to agent photo sharing (coming September)
-* Consumer to agent audio sharing (coming September)
-* Agent to consumer file sharing (coming September)
+* Consumer to agent photo sharing 
+* Consumer to agent audio sharing 
+* Agent to consumer file sharing 
 
 ### Additional actions
 
-While conducting a conversation, there are a few actions you can take:
+While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
+
+![alt text](img/agent-workspace-additional-actions .png)
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation (coming September):** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
+**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
 
-**Resume conversation (coming September):** This action reopens a closed conversation in order for you to follow up with a customer.
+**Resume conversation:** This action reopens a closed conversation in order for you to follow up with a customer.
 
 #### Adjusting the SLA for follow up
 

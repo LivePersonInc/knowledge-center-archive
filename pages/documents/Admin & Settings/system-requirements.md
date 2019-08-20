@@ -12,6 +12,8 @@ isNew: false
 date: '2019-01-28T13:20:27.000+00:00'
 
 ---
+The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
+
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
@@ -32,6 +34,9 @@ We recommend using certified systems for the best possible experience while usin
 ## Visitor side: mobile web requirements
 
 The tables below list the browsers LivePerson supports for visitors on mobile web assets (smartphones and tablets).
+
+{: .notice}
+For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developers' Community for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
 
 ### Android
 

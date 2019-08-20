@@ -14,6 +14,9 @@ redirect_from:
   - bots-automation-conversation-builder-components-knowledge-base.html
 
 ---
+{: .notice}
+To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the left hand side-bar and then clicking on the Conversation Builder icon on the screen which opens.
+
 ### Why brands need bots, automation and empowered agents
 
 Today, conversations and messaging is the most effective way for brands to interact with consumers. Conversational commerce makes it easy for people to ask questions, buy things, and get help using their preferred messaging service. Yet, messaging transforms how brands interact with consumers, creating large volumes of conversations from phone calls, websites to apps and messaging channels.

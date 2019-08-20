@@ -7,11 +7,14 @@ subtitle: Connect with your consumers on their native messaging app
 level3: ''
 permalink: messaging-channels-sms-sms-connector.html
 isTutorial: false
-date: 2019-01-17 14:40:01 +0000
+date: '2019-01-17T14:40:01.000+00:00'
 isNew: false
 
 ---
 The addition of SMS to LivePerson operations creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family.
+
+{: .notice}  
+Brands planning to use Twilio for SMS, can get started right away using the [Twilio SMS Quick Start](getting-started-twilio-sms-quick-start.html) article.
 
 ## Why use SMS to connect with your consumers?
 

@@ -20,7 +20,7 @@ layout: newAgentWorkspaceHomepage
 </div>
 </div>
 
-<img class="bigAgent imageleft" src="img/NAW_Paper.jpg" />
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/352701082?autoplay=0&loop=1&title=0&byline=0&portrait=0" width="750" height="250" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Quick summary: new experiences by role
 

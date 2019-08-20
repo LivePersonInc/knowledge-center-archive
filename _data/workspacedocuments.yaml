@@ -8,15 +8,17 @@
     - subcategoryname: Training deck
     - subcategoryname: Tutorial
     - subcategoryname: Roadmap
-    - subcategoryname: Rollout
+    - subcategoryname: Operational Readiness Checklist
+    - subcategoryname: Blended accounts
 
 - categoryname: Messaging managers
   image: messaging-managers
   subcategories:
-    - subcategoryname: Introducing the new manager workspace
+    - subcategoryname: Introducing the new manager tools
+    - subcategoryname: Manager workspace user guide
+    - subcategoryname: All Connections
     - subcategoryname: Use cases
-    - subcategoryname: User guide
-    - subcategoryname: Using all connections
+    - subcategoryname: New agent manager experience
 
 - categoryname: Admins & campaign managers
   image: admins-campaigns
