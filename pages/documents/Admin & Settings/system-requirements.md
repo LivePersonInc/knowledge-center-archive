@@ -86,13 +86,16 @@ Some browsers are not supported at all due to experience or security reasons.  
 
 ### Android
 
-Android SDK 4.1v API 19- API 28 (Excludes AndroidX support)  
-com.google.android.gms:play-services-maps:16.1.0
-com.squareup.okhttp3:okhttp:3.9.1 
+* Android SDK 4.1v API 19- API 28 (Excludes AndroidX support)  
+  **Libraries:** 
+  1. com.google.android.gms:play-services-maps:16.1.0
+  2. com.squareup.okhttp3:okhttp:3.9.1
 
-All releases below SDK 4.1v - Refer to the release notes in the Dev Communitity: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html |
 
-Android Q - Need support for AndroidX also. ETA to be planned
+* All releases below SDK 4.1v - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
+
+
+* Android Q - Need support for AndroidX also. ETA to be planned
 
 ### iOS
 
@@ -101,7 +104,7 @@ Android Q - Need support for AndroidX also. ETA to be planned
 | 4.2 - X | 5.1.0 | 11 | iOS 11 - 13 |
 | 3.9.3 - 4.1 | 5.0.1 | 10.2.1 | iOS 10 - 12.4 |
 | 3.7.1 - 3.9.2 | 5.0.0 | 10.2.0 | iOS 10 - 12.4 |
-  
+
 Official support for LivePerson iOS SDK version is only for the current Swift version and previous Swift version.
 
 All iOS OS beta releases will be provided approximately 1 month before the actual GA for the purpose of compilation only (no bug fixes or new iOS features supported). Once the GA is released, we will accept requests for new iOS features.
