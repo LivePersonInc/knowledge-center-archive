@@ -2,6 +2,7 @@
 pagename: Overview
 categoryName: AI, bots & automation
 subCategoryName: Maven
+level3: ''
 indicator: messaging
 subtitle: Maven is LivePerson’s platform for AI-powered conversational orchestration
   & continuous learning
@@ -10,7 +11,8 @@ isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
-
+redirect_from:
+  - ai-bots-automation-maven-maven-overview.html
 ---
 
 ## Maven AI Platform
@@ -36,5 +38,7 @@ The Maven Workspace is a self-service, low-code/no-code experience for brands to
 * Manage and use the **Maven [Context warehouse](ai-bots-automation-maven-context-warehouse.html)**, a repository for brand, session, or customer attributes, including the ability to connect to external data sources (CRM [using FaaS](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html)), and use these attributes throughout the customer’s conversation journey or in routing policies.
 * Author dynamic **[AI Powered Routing](ai-bots-automation-maven-ai-powered-routing.html)** policies based on attributes (intent, content, session, or AI based inferences) to route to the right human or bot - unlocking highly personalized consumer journeys.
 * Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
+
+Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
 
 <img width="750px" src="/img/maven-workspace.png">

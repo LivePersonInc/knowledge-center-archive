@@ -68,7 +68,7 @@
        - pagename: Maven Assist
        - pagename: Context Warehouse
        - pagename: AI Powered Routing
-       - pagename: AskMaven
+       - pagename: AskMaven API
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
