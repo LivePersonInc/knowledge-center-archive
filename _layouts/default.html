@@ -36,7 +36,7 @@
       <div class='h1'>{{ page.pagename }}</div>
       <div id="subtitle">{{ page.subtitle }}</div>
       <div id="indicatorrow">
-        <div id="lastmodified">Last modified: {{ page.last_modified_at | date: '%D' }}</div>
+        <div id="lastmodified">Last modified: {% capture lastmod_date %}{% last_modified {{ page.path }} %}{% endcapture %}{{ lastmod_date | date: '%D' }}</div>
         <div id="indicators">
           {% if page.indicator != null and page.indicator == "both" or page.indicator == "chat" %}
           <div class="indicator chat">Chat</div>
