@@ -16,11 +16,11 @@ Conversational commerce makes it easy for people to communicate with brands to a
 
 ## What is conversational commerce
 
-The shift from analog to digital is changing every aspect the way people communicate— from mall shopping to online shopping, hailing taxi cabs to Uber, and now phone calls to messaging. Over 90% of people’s day-to-day conversations happen in digital messaging channels like [SMS](/messaging-channels-sms-sms-connector.html), [Facebook](/messaging-channels-facebook-messenger.html) and [WhatsApp](messaging-channels-whatsapp-business.html). It’s the way people prefer to communicate with friends and family. With messaging as the channel of choice, businesses have started to connected to their consumers where they already are -through messaging.
+The shift from analog to digital is changing every aspect the way people communicate— from mall shopping to online shopping, hailing taxi cabs to Uber, and now phone calls to messaging. Over 90% of people’s day-to-day conversations happen in digital messaging channels like [SMS](/messaging-channels-sms-sms-connector.html), [Facebook](/messaging-channels-facebook-messenger.html) and [WhatsApp](messaging-channels-whatsapp-business.html). It’s the way people prefer to communicate with friends and family. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are -through messaging.
 
 ![](/img/lp-cc-1-1.gif)
 
-The goal of conversational commerce is to create a convenient and personalized digital experience for consumers at scale — answering questions, providing information, and completing transactions directly in the messaging channels people already use everyday. Many of the world largest brands — Adobe, T-Mobile, Citibank, IBM, L'Oreal, Orange and The Home Depot — have embraced conversational commerce and are seeing incredible results: sales increasing by 4x, customer care costs decreasing by close to 50% and customer satisfaction peaking at 95%.
+The goal of conversational commerce is to create a convenient and personalized digital experience for consumers at scale — answering questions, providing information, and completing transactions directly in the messaging channels people already use everyday. Many of the world's largest brands — Adobe, T-Mobile, Citibank, IBM, L'Oreal, Orange and The Home Depot — have embraced conversational commerce and are seeing incredible results: sales increasing by 4x, customer care costs decreasing by close to 50% and customer satisfaction peaking at 95%.
 
 LivePerson’s conversational platform enables brands to message with their consumers on all of the most popular digital channels from a single place, and gives contact centers the administrative power and the automation capabilities needed to [operate messaging at scale](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html).
 
@@ -72,7 +72,7 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 * Industry-specific templates for common workflows and verticals, such a retail, telecommunications and finance. These templates provide a starting point on which to build, customize and integrate with product, billing, CRM and other business systems.
 * Integration with product catalogues, order systems, knowledge bases, and more.
-* The option to leverage pre-existing automation and NLU investments
+* The option to leverage pre-existing automation and NLU investments.
 
 ![](/img/conversational-commerce-conversation-builder-b.png)
 
@@ -80,7 +80,7 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 ### Agent tools to manage conversations at scale
 
-Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
+Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
 
 ![](/img/conversational-commerce-conversation-manager.png)
 
