@@ -195,7 +195,7 @@ To monitor and manage chat agents, use:
 * Web history
 * All agents (note this list will display both chat and messaging agents) 
 
-## Known limitations:
+## Known limitations
 
 The following are known limitations of the new messaging manager experience:
  
