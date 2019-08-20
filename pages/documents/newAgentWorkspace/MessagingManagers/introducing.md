@@ -20,7 +20,7 @@ layout: newAgentWorkspace
 
 ## **1. Dedicated manager workspace**
 
-LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift.It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
+LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
 
 This new dashboard will boost the agent manager or team manager performance by:
 * Offering a quick and comprehensive view of the ‘state of your shift’ in real time

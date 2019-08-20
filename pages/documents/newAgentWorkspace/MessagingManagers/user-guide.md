@@ -58,7 +58,7 @@ The "in queue" widget presents the number of conversations currently waiting for
 ## Metrics widget
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
-* **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note**: This metric is not affected by the time filter.
+* **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note:** This metric is not affected by the time filter.
 * **LOAD** - The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents. **Note**: This metric is not affected by the time filter.
 * **CLOSED** - Number of conversations closed within the selected timeframe by the agent, the system or the consumer.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe.
