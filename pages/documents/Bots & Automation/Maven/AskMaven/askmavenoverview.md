@@ -12,7 +12,7 @@ isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
 redirect_from:
-  - cai-bots-automation-maven-askmaven.html
+  - ai-bots-automation-maven-askmaven.html
 
 ---
 
