@@ -104,6 +104,27 @@ The consumer will receive the file as part of the conversation. When the consume
 {: .notice}
 **Please note:** This solution is not PCI compliance certified.
 
+## **File Sanitation**
+
+Opswat Metadefender CDR -- Content Disarm and Reconstruct
+
+When uploading a file, it will be sent to the Metadefender CDR for file sanitation.
+
+Prevent Attacks without Relying on Detection with CDR
+Most cyber security solutions rely upon detection as their core protective function. MetaDefender deep content disarm and reconstruction does not rely on detection. It assumes all files could be infected and rebuilds their content using a secure and efficient process.  It supports more than 30 file types, and outputs safe and usable files. Deep content disarm and reconstruction (Deep CDR) is extremely effective in preventing targeted attacks, ransomware, and other types of known and unknown malware threats.
+
+Highest Threat Detection with Multiscanning
+MetaDefender multiscanning uses multiple anti-malware engines to provide superior detection rates of known and unknown threats and deliver extremely fast malware outbreak prevention. MetaDefender customers can simultaneously leverage the combined threat prevention capabilities of more than 30 anti-malware engines using both signature heuristic scanning and machine learning capabilities.
+
+Detect Vulnerable Software Before Installation
+All applications contain vulnerabilities of different degrees of severity that threat actors can exploit. Our file-based vulnerability assessmentof binaries and installers detects known vulnerabilities within files and application vulnerabilities in software programs before they are installed on endpoint devices, including IoT devices. We support vulnerability detection for over 1 million files and over 20,000 applications.
+
+Detect Sensitive Data in Files
+MetaDefender proactive data loss prevention (Proactive DLP) can help prevent potential data breaches and regulatory compliance violations by detecting and blocking sensitive data in files and emails, including credit card numbers and social security numbers. MetaDefender DLP supports a wide range of file types, including Microsoft Office and PDF.
+
+MetaDefender Deploys in the Cloud or in Local Environments
+Customers can implement our industry-leading deep content disarm and reconstruction, multiscanning, and file-base vulnerability assessment technology through either our MetaDefender Cloud serviceor by deploying MetaDefender software solutions within their own environment, including air-gapped networks.
+
 ## **Photo resizing**
 
 Before uploading a photo, it will be resized so that the longer dimension of the image will be set to 800 pixels.
