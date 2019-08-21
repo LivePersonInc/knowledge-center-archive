@@ -10,6 +10,7 @@ isTutorial: false
 isNew: false
 date: 2019-01-29 13:42:30 +0000
 ---
+
 At LivePerson, we pride ourselves on providing rapid and efficient support to our customers at all times. While we hope that you will rarely, if ever, encounter any issues on our platform, we want to ensure that the support process is as smooth as possible for you if you do.
 
 To facilitate this, our customers are able to view every one of their support cases in a dedicated tab in the Connection Area, without needing to contact support. This case management tool will allow customers to see a full list of all past and current support cases, including their current status.
