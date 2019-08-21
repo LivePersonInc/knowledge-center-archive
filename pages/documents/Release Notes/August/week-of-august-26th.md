@@ -228,7 +228,52 @@ Image 2: Consumer sees browser notification
 ![](img/week-of-august-26-7.png)
 
 ![](img/week-of-august-26-8.png)
- 
+
+## File sharing - Chat window file sharing
+
+### Type: Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The chat window doesn’t support file/photo sharing. But when a consumer attempts to drag and drop an image, the window gives an indication that it will accept the image, although it’s not really sending the shared image to the agent.
+
+Fix: When a consumer drags and drops a file in a chat window, an indication will be displayed to indicate that file sharing is not supported.
+
 ## Sandboxing the iframe of a custom agent widget blocks PDFs
 
 ### Type: Bug fix
@@ -272,5 +317,47 @@ Image 2: Consumer sees browser notification
 
 As part of adding the flexibility to remove the sandbox attribute from the widget SDK, PDFs should have been allowed to be opened in the widget. This has been resolved.
 
+## [TRANSLATION] "Connection Unavailable" is in English, when the account has been configured for German
 
+### Type: Bug fix 
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When the connection is interrupted while the engagement is displayed, the disconnection message shows “Connection Unavailable” in english even when the account has been configured for German.
+
+Fix: “Connection Unavailable” message shows in the language that the account is configured.
