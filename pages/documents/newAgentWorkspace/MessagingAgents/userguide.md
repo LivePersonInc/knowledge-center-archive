@@ -100,6 +100,7 @@ To save you time - there are seven hotkeys configured on your workspace for some
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
 | RESPOND to the next conversation (NEW) |  CTRL ` N  |
+| COPY as plain text (NEW) | CTRL ` C  |
 | ACCEPT a new incoming conversation| CTRL ` A |
 | TRANSFER conversation to another skill | CTRL  ` T |
 | Return conversation to QUEUE | CTRL  ` Q |
