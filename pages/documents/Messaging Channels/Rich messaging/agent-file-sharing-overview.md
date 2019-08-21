@@ -106,18 +106,19 @@ The consumer will receive the file as part of the conversation. When the consume
 
 ## **File Sanitation**
 
-Opswat Metadefender File Sanitation 
+When uploading a file, it will be sent to a service called "MetaDefender" for sanitation. MetaDefender accomplishes various functions:
 
-When uploading a file, it will be sent to the Metadefender for file sanitation.
+### Prevent Attacks without Relying on Detection
 
-**Prevent Attacks without Relying on Detection with Content Disarm and Reconstruct(CDR)**<br/>
-MetaDefender deep content disarm and reconstruction does not rely on detection. It assumes all files could be infected and rebuilds their content using a secure and efficient process. It guarantees the output of safe and usable files by rebuilding a new file and discarding the original. Deep content disarm and reconstruction (Deep CDR) is extremely effective in preventing targeted attacks, ransomware, and other types of known and unknown malware threats.
+MetaDefender deep content disarm and reconstruction capabilities do not rely on detection. The service assumes all files could be infected and rebuilds their content using a secure and efficient process. It guarantees the output of safe and usable files by rebuilding a new file from scratch and discarding the original. Deep content disarm and reconstruction (Deep CDR) is extremely effective in preventing targeted attacks, ransomware, and other types of known and unknown malware threats.
 
-**Highest Threat Detection with Multiscanning**<br/>
-MetaDefender multiscanning uses multiple anti-malware engines to provide superior detection rates of known and unknown threats and deliver extremely fast malware outbreak prevention. MetaDefender customers can simultaneously leverage the combined threat prevention capabilities to leverage more than 30 anti-malware engines using both signature heuristic scanning and machine learning capabilities.
+### Highest Threat Detection with Multiscanning
 
-**Detect Vulnerable Software Before Installation**<br/>
-All applications contain vulnerabilities of different degrees of severity that threat actors can exploit. Our file-based vulnerability assessmentof binaries and installers detects known vulnerabilities within files and application vulnerabilities in software programs before they are installed on endpoint devices, including IoT devices. Metadefender supports vulnerability detection for over 1 million files and over 20,000 applications.
+MetaDefender multiscanning uses multiple anti-malware engines to provide superior detection rates of known and unknown threats and delivers extremely fast malware outbreak prevention. MetaDefender customers can simultaneously leverage the combined threat prevention capabilities to query more than 30 anti-malware engines using both signature heuristic scanning and machine learning capabilities.
+
+### Detect Vulnerable Software Before Installation
+
+All applications contain vulnerabilities of different degrees of severity that threat actors can exploit. Our file-based vulnerability assessment of binaries and installers detects known vulnerabilities within files and application vulnerabilities in software programs before they are installed on endpoint devices, including IoT devices. MetaDefender supports vulnerability detection for over 1 million files and over 20,000 applications.
 
 ## **Photo resizing**
 
