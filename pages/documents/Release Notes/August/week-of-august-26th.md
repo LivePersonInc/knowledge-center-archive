@@ -43,7 +43,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 <tbody>
 <tr>
 <td>Yes</td>
-<td>No</td>
+<td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
