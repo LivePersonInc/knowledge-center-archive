@@ -7,7 +7,7 @@ subtitle: ''
 level3: ''
 permalink: agent-manager-workspace-workspace-configuration-salesforce-integration-guide.html
 isTutorial: false
-date: 2019-01-22 08:24:13 +0000
+date: '2019-01-22T08:24:13.000+00:00'
 
 ---
 The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage app for Salesforce.
@@ -17,8 +17,8 @@ The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside
 ## **Step #1: Installing the LiveEngage app for Salesforce**
 
 1. Log into Salesforce.
-2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000tela")
-   1. Select "Install for All Users,” click "Install." (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
+2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000AqM7](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000AqM7 "https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000AqM7")
+   * Select "Install for All Users,” click "Install." (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 3. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
 ## **Step #2: Configuring the LiveEngage app in Salesforce**
@@ -451,16 +451,21 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 **Note:** If you ever change the text in the Display Name of a survey question in LiveEngage – you have to update this mapping too, otherwise the mapping will stop working.
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
+
 * **LivePerson SDK Field:** `surveyQuestions.preChat.customizedQuestions[displayName=What is your Account Number?].value`
 * **LivePerson API Field:** `surveys.preChat[displayName=What is your Account Number?].value`
 
 {:start="2"}
+
 1. For a **custom post-chat survey question** with the text “How would you rate us?” use the following:
+
 * **LivePerson SDK Field:** `surveyQuestions.postChat[displayName=How would you rateus?].value`
 * **LivePerson API Field:** `surveys.postChat[displayName=How would you rate us?].value`
 
 {:start="3"}
+
 1. For a **custom agent survey question** with the text “Was the customer satisfied?” use the following:
+
 * **LivePerson SDK Field:** `surveyQuestions.agentSurvey[displayName=Was the customer satisfied?].value`
 * **LivePerson API Field:** `surveys.operator[displayName=Was the customer satisfied?].value`
 
@@ -475,31 +480,42 @@ Each parameter/sub-section is like a property of the upper section, to which you
 These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
 
 1. For a the **Chat Start Time** value:
+
 * **LivePerson SDK Field:** `chatInfo.chatStartTime`
 * **LivePerson API Field:** `info.startTime`
 
 {:start="2"}
+
 1. For a **Customer Type** value:
+
 * **LivePerson SDK Field:** `SDE.customerDetails.type`
 * **LivePerson API Field:** `sdes.events[sdeType=CUSTOMER_INFO].customerInfo.customerInfo.customerType`
 
 {:start="3"}
+
 1. For the **Visitor’s** **Name** value:
+
 * **LivePerson SDK Field:** `SDE.personalInfo.name`
 * **LivePerson API Field:** `sdes.events[sdeType=PERSONAL_INFO\].personalInfo.personalInfo.name`
 
 {:start="4"}
+
 1. For the **Goal Name** value:
+
 * **LivePerson SDK Field:** `campaignInfo.goalName`
 * **LivePerson API Field:** `campaign.goalName`
 
 {:start="5"}
+
 1. For the **Visitor Browser** value:
+
 * **LivePerson SDK Field:** `visitorInfo.browser`
 * **LivePerson API Field:** `visitorInfo.browser`
 
 {:start="6"}
+
 1. For the **Marketing** **Affiliate** value:
+
 * **LivePerson SDK Field:** `SDE.marketingSource.affiliate`
 * **LivePerson API Field:** `sdes.events[sdeType=MARKETING_CAMPAIGN_INFO\].marketingCampaignInfo.marketingCampaignInfo.affiliate`
 
@@ -570,6 +586,7 @@ These are just a few examples meant to demonstrate how to write these “address
 ![](/img/salesforce-integration-guide-12.png)
 
 {:start="2"}
+
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
 
    **Steps for resolving the issue:**
@@ -582,6 +599,7 @@ These are just a few examples meant to demonstrate how to write these “address
 ![](/img/salesforce-integration-guide-13.png)
 
 {:start="3"}
+
 1. **Issue**: Salesforce widget does not load followed by an error message.
 
    **Steps for resolving the problem** (guide the customer to do the following):
@@ -590,9 +608,9 @@ These are just a few examples meant to demonstrate how to write these “address
       1. Create a new ‘modify all’ permission set to the relevant SF object (in this example Opportunities) and assign it to the user who encountered the problem.
 
 {:start="4"}
-4. **Issue**: Salesforce widget does not load followed by an error message.
+4\. **Issue**: Salesforce widget does not load followed by an error message.
 
-	**Observation:** missing Salesforce configuration; skill is not associated with an object.
+    **Observation:** missing Salesforce configuration; skill is not associated with an object.
 
 {:start="5"}
 
@@ -608,4 +626,3 @@ These are just a few examples meant to demonstrate how to write these “address
 2. The SF feature ‘Person accounts’ is not supported: Person accounts is a SF feature which stores information about individual consumers (Account = Contact).
 3. The transcript for converted leads is not accessible.
 4. The widget is not defined as SF Lightning ready.
-
