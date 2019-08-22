@@ -21,14 +21,39 @@ The new template includes:
 
 ## Window
 
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+
+The new Horizon theme features: 
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius bigger
+* Agent and consumer bubble style set to "three corner rounded"
+* Consumer bubble with visual read indication (messaging only)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
+
 {: .sidebyside}
-![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+
+## Engagement 
+
+Two new engagement templates (invitations) have been added to the engagement template library, improving the consumer experience and streamlining customization and branding. 
+
+Message us engagement: 
+
+![](/img/week-of-august-5th-8.png){:class="newagent"}
+
+Rounded bubble engagement:
+
+![](/img/week-of-august-5th-7.png){:class="newagent"}
 
 
-## Invitation
+As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message. 
 
-{: .smallersidebyside}
-![alt text](img/new-messaging-invitation-1.png){:class="newagent"}![alt text](img/new-messaging-invitation-1.png)
+![](/img/week-of-august-5th-16.png){:class="newagent"}
 
 ## Enablement
 
