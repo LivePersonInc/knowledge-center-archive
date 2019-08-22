@@ -36,6 +36,6 @@
     - subcategoryname: The new web messaging window
 
 - categoryname: Conversational AI
-  image: consumer-experience
+  image: bots-automation
   subcategories:
     - subcategoryname: New Conversational AI experience
