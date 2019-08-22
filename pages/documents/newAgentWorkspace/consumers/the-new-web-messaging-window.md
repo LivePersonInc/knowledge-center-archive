@@ -21,8 +21,6 @@ The new template includes:
 
 ## Window
 
-![alt text](img/enhanced-engagement-window-consumer-exp.png)
-
 {: .sidebyside}
 ![alt text](img/new-window-template-2.png)![alt text](img/new-window-template.png)
 
