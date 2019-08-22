@@ -5,7 +5,7 @@ subCategoryName: New Experiences
 indicator: messaging
 subtitle: 'Get acquainted with our new Conversational AI experience'
 level3: ''
-permalink: new-conversational-ai-experience.html
+permalink: conversational-ai-new-conversational-ai-experience.html
 isTutorial: false
 date:
 isNew: false
