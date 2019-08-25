@@ -20,6 +20,8 @@ By clicking on the relevant icon from the left hand sidebar, you will be able to
 
 You'll notice that some of these features have a lock icon besides them. This means that your account has not enabled this specific feature. If you're an administrator of this account, you'll be prompted to message us. Our team will be happy to help you unlock and configure any of these features via the Connection Area, right within your account.
 
+![](img/locked.jpg)
+
 Features and products that are unlocked will be clickable, allowing you to easily navigate to the various product included in our Conversational AI suite. These are:
 
 * **Conversation Builder** - LivePerson's powerful tool for setting up and building bots.
@@ -45,3 +47,5 @@ The Conversation Builder itself is also going under some changes meant to enhanc
 * Our extensive template library will now be displayed as a searchable list. This will allow you to more easily discover our many templates as well as search your own bots.
 
 * The main conversation builder view has changed, enabling you to more easily identify the various elements required to use the Conversation Builder as well as navigate back to the list of bots.
+
+![](img/botList.jpg)
