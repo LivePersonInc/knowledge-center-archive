@@ -2,7 +2,7 @@
 topnav_title: LivePerson Knowledge Center
 site_title: LivePerson Knowledge Center
 company_name: LivePerson
-disqus_shortname: 
+disqus_shortname:
 host: 127.0.0.1
 port: "4000"
 google_analytics: UA-132314885-1
@@ -44,6 +44,11 @@ defaults:
     layout: page
     comments: true
     search: true
+- scope:
+    path: ''
+    type: 'release'
+  values:
+    layout: page
 description: The LivePerson Knowledge Center is the main repository for product knowledge
   and support articles.
 url: https://knowledge.liveperson.com
@@ -52,3 +57,7 @@ Disclaimer: https://www.liveperson.com/policies/disclaimer
 TermsofUse: https://www.liveperson.com/policies/terms-of-use
 APITermsofUse: https://www.liveperson.com/policies/apitou
 PrivacyPolicy: https://www.liveperson.com/policies/privacy
+collections:
+  release:
+    output: true
+    permalink: /release/:name
