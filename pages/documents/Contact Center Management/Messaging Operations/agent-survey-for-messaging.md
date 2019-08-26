@@ -36,6 +36,7 @@ The agent survey library will now be displayed.
 ### Step 3: Define your survey
 
 a. Give your survey a meaningful name
+
 b. Choose the survey timeout 
   * This will control the availability of the survey after the conversation has ended
   * The minimum value is: 0 minutes, this means the survey will close immediately when the conversation ends and your agent will no longer be able to fill it out
