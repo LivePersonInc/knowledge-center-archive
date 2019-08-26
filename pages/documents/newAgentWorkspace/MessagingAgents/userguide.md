@@ -202,6 +202,10 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 ![image alt text](img/sla.jpg){:class="newagent"}
 
+#### CoBrowse
+
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Connections list.**
+
 ## Closing conversations
 
 The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
