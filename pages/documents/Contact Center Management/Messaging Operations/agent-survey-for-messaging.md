@@ -67,9 +67,9 @@ e. Choose your predefined questions -
   * **Engagement Attributes** - Allow your agents to report engagement attributes on behalf of the consumer!
 Choose which Engagement Attribute and which attributes will be available for the agents to submit. You can read more [here](/data-reporting-engagement-attributes-conversation-outcomes.html).
 
-![](img/agent-survey-for-messaging-5.png)
-
 ![](img/agent-survey-for-messaging-6.png)
+
+![](img/agent-survey-for-messaging-5.png)
 
 f. Required questions - Each question can be marked as ‘required’. If marked required, the agent will not be able to submit the survey without answering these questions.
 
