@@ -9,7 +9,7 @@ level3: ''
 permalink: security-regulations-security-configuring-your-firewall.html
 isTutorial: false
 isNew: false
-date: 2019-01-24 09:59:09 +0000
+date: '2019-01-24T09:59:09.000+00:00'
 
 ---
 This article provides the IP ranges and certificate provider configuration which must be whitelisted in your firewall in order to enable the full functionality of the LivePerson Workspace.
@@ -42,6 +42,14 @@ LiveEngage comprises many different services, with new IP ranges added from time
 | IPv6 Range | CIDR Block |
 | --- | --- |
 | 2a03:6400:: -  2a03:6400:ffff:ffff:ffff:ffff:ffff:ffff | 2a03:6400::/32 |
+
+The following IP ranges have been added to the whitelist for bots:
+172.16.0.0 - 172.31.255.255
+10.16.0.0 - 10.31.255.255
+10.32.0.0 - 10.47.255.255
+10.48.0.0 - 10.63.255.255
+10.160.0.0 - 10.175.255.255
+10.176.0.0 - 10.191.255.255
 
 ## Domains
 
