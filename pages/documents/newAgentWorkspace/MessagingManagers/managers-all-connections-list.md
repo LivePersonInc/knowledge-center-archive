@@ -128,23 +128,21 @@ Agents and agent managers can search/filter conversations with the following par
 
 ## Taking actions on conversations (messaging, sending back to queue, transferring, etc)
 
-Managers who would like to perform actions on conversations , such as texting, transferring it to another agent, or closing the conversation, will have to join it first. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). 
-
-The join option will be available from the conversation mode (not from the list mode).
+Managers can now easily join a conversation and perform actions, such as transferring it to another agent or closing the conversation. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). The join option is available from the conversation mode (not from the list mode). Simply click **+ Join Conversation** at the bottom of the transcript, and then you may send a message or take an action. 
 
 ![alt text](img/all-connections-4.jpg){:class="newagent"}
 
-When selecting ‘Join’, you have two options:
-1. Take any of the following actions from the current window: 
+When selecting **Join**, you can:
+1. Begin messaging with the consumer alongside the agent 
+2. Take any of the following actions from the current window: 
   * **Return to queue:** you will still be joined to the conversation, it will appear in your My Connections list.
   * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Connections list.
   * **Close conversation**
   * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists. 
-2. To participate and message the consumer, click on the My Connections found at the bottom of the screen in ‘to send messages, go to My Connections.’  All the above actions will also be available from this view.
   
-![alt text](img/all-connections-5.jpg){:class="newagent"}
+The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Connections list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
 
-If you take an action on a conversation (e.g. send back to queue, transfer or take over) that is currently being handled by an agent - they will be notified of the action.  If the agent is inside the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification. 
+If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification. 
  
 ## Taking over a conversation
 
