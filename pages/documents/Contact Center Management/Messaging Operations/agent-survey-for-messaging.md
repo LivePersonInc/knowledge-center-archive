@@ -69,18 +69,16 @@ Choose which Engagement Attribute and which attributes will be available for the
 
 ![](img/agent-survey-for-messaging-6.png)
 
-![](img/agent-survey-for-messaging-5.png)
+![](img/agent-survey-for-messaging-7.png)
 
 f. Required questions - Each question can be marked as ‘required’. If marked required, the agent will not be able to submit the survey without answering these questions.
 
-![](img/agent-survey-for-messaging-7.png)
+![](img/agent-survey-for-messaging-8.png)
 
 g. Skip questions based on answers (Jump to) - by default, all questions are set as ‘Jump to: Next’. This means that the questions will appear consecutively.
   * Each question can be defined to jump to any questions that comes after it (e.g question #4 can jump to 5,6,7, but cannot jump to question #3).
   * With single choice questions (e.g Dropdown, single-choice), the ‘Jump to’ can be set based on the answers:
   
-![](img/agent-survey-for-messaging-8.png)
-
 ![](img/agent-survey-for-messaging-9.png)
 
   * If the ‘Jump to’ is set to anything other than ‘Next’, the agent will see all questions until the first question with logic, until they answer the logic question.
