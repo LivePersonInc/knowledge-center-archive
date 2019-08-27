@@ -55,7 +55,7 @@ The "in queue" widget presents the number of conversations currently waiting for
 
 ![](img/new-manager-workspace-10.png){:class="newagent"}
 
-## Metrics widget
+## Activity summary 
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
 * **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note:** This metric is not affected by the time filter.
