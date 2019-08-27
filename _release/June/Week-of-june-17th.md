@@ -8,7 +8,7 @@ level3: June
 permalink: release-notes-2019-june-week-of-june-17th.html
 isTutorial: false
 isNew: false
-
+date: 2019-06-17
 ---
 These release notes include new features arriving to LiveEngage during June 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -488,7 +488,7 @@ Currently, brands that are looking to use Apple Pay must have a bot added to the
 * The Apple Pay message response will be exposed to the agent widget SDK only in case the brands will use the payload signing mechanism to secure the data.
 
 {: .notice}
-**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## Facebook Handover Protocol
 
@@ -539,7 +539,7 @@ Facebook Handover Protocol enables two or more apps to participate in a conversa
 * All apps that do not have control of the conversation will continue to listen to the conversation by subscribing to the standby webhook event.
 
 {: .notice}
-**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information.
 
 ## WhatsApp Business source
 

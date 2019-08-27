@@ -7,7 +7,7 @@ level3: October
 permalink: release-notes-2018-october-week-of-october-8th.html
 indicator: both
 isTutorial: false
-
+date: 2018-10-08
 ---
 These release notes include new features arriving to LiveEngage during October 2018. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 

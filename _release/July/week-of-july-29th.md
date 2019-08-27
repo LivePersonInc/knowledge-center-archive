@@ -8,7 +8,7 @@ level3: July
 permalink: release-notes-2019-july-week-of-july-29th.html
 isTutorial: false
 isNew: false
-
+date: 2019-07-29
 ---
 These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 

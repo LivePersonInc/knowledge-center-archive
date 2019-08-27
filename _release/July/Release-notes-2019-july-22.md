@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 redirect_from:
 - release-notes-2019-week-of-july-22nd.html
-
+date: 2019-07-22
 ---
 These release notes include new features arriving to LiveEngage during July 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -460,9 +460,9 @@ When creating a new Bot Connection, the admin must create a new agent and choose
 
 Watson has its own syntax for using rich content. Until now the Bot connectors has only supported the native LivePerson Rich Content, now LivePerson Bot Connectors can take the out of the box structure of the Watson Rich Content and translate it to the expected UMS structure to work within the LivePerson framework.
 
-## Mobile SDK 
+## Mobile SDK
 
-For the latest mobile SDK release notes for iOS and Android - please visit the developers community. 
+For the latest mobile SDK release notes for iOS and Android - please visit the developers community.
 
 [iOS Messaging SDK - Version 3.9.4](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-release-notes.html#ios-messaging-sdk---version-394)
 

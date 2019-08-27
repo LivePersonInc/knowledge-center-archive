@@ -8,7 +8,7 @@ level3: June
 permalink: release-notes-2019-june-week-of-june-9th.html
 isTutorial: false
 isNew: false
-
+date: 2019-06-9
 ---
 These release notes include new features arriving to LiveEngage during June 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -105,7 +105,7 @@ Navigate to the ACCOUNT section in the Data Transporter application, click on th
 
 Must be a Data Transporter customer - contact your account manager
 
-  
+
 **Screenshots**
 
 ## ![](/img/Data transporter RN1.png)  
