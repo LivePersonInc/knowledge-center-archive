@@ -1323,6 +1323,10 @@ div#cookie-law {
   margin-right: 40px;
 }
 
+.tags {
+  display: none;
+}
+
 /* media queries begin, abandon all hope ye who enter here */
 
 @media screen and (max-width:1440px){
