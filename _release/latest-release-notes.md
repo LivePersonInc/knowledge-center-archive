@@ -13,6 +13,8 @@ isNew: false
 {% assign sorted = site.release | sort: 'date' %}
 {% for item in sorted reversed %}
 {% if item.latest == true %}
+{: .notice}
+These release notes are for the {{ item.pagename }}. You can view them at [this]({{ item.url }}) location as well.
 {{ item.content }}
 {% endif %}
 {% endfor %}
