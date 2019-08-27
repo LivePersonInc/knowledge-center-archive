@@ -82,7 +82,7 @@
       pages:
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
-        - pagename: Agent survey for messaging 
+        - pagename: Agent survey for messaging
         - pagename: Configuring response times
         - pagename: Fallback configuration per skill
         - pagename: Automatic messages
@@ -295,6 +295,7 @@
 - categoryname: Release notes
   image: release-notes
   subcategories:
+    - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
         - pagename: August
