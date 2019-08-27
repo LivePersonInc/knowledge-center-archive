@@ -16,6 +16,7 @@ date: 2019-01-01
 {% if forloop.first == true %}
 {: .notice}
 These release notes are for the {{ item.pagename }}. You can view them at [this]({{ item.url }}) location as well.
+
 {{ item.content }}
 {% endif %}
 {% endfor %}
