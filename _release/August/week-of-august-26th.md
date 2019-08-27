@@ -9,7 +9,7 @@ permalink: release-notes-2019-august-week-of-august-26th.html
 isTutorial: false
 isNew: false
 published: true
-layout: page
+latest: true
 ---
 These release notes include new features arriving to LiveEngage during August 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 

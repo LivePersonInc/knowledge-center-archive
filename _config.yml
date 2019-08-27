@@ -2,6 +2,7 @@
 topnav_title: LivePerson Knowledge Center
 site_title: LivePerson Knowledge Center
 company_name: LivePerson
+timezone: America/New_York
 disqus_shortname:
 host: 127.0.0.1
 port: "4000"
