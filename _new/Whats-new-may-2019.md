@@ -9,7 +9,7 @@ level3: ''
 permalink: whats-new-may-2019.html
 isTutorial: false
 isNew: false
-
+date: 2019-05-01
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks- all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 

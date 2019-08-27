@@ -8,7 +8,7 @@ level3: ''
 permalink: whats-new-july-2019
 isTutorial: false
 isNew: false
-
+date: 2019-07-01
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming to LivePerson in the following weeks - all designed to help you make even more meaningful connections.
 

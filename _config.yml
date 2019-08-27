@@ -50,6 +50,11 @@ defaults:
     type: 'release'
   values:
     layout: page
+- scope:
+    path: ''
+    type: 'new'
+  values:
+    layout: page
 description: The LivePerson Knowledge Center is the main repository for product knowledge
   and support articles.
 url: https://knowledge.liveperson.com
@@ -61,4 +66,5 @@ PrivacyPolicy: https://www.liveperson.com/policies/privacy
 collections:
   release:
     output: true
-    permalink: /release/:name
+  new:
+    output: true
