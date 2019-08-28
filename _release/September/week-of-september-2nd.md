@@ -382,3 +382,64 @@ Image 2: consumer sees the survey in progress
 </div>
 
 When a consumer blocks or deletes an official brand, the brands can no longer send messages to this consumer. Therefore, the Line connector will automatically close an open conversation with this consumer, if it exists, to prevent agents from sending messages to the consumer.  In case an agent attempts to send a message to the consumer by resuming the conversation, he will see a NACK notification in the agent workspace. 
+
+## [Bot Connectors] Add FaaS function as a new vendor
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Bot Connectors now support “Custom Integration.” This allows the customer to write a custom vendor connector or bot implementation using LivePerson’s Functions (FaaS). The response to the customer can be customized using FaaS. This is acheived by the bot sending all messages and events it receives to the FaaS services, where they can be manipulated and then sent back to the customer.
+
+**Dependencies:** LivePerson FaaS including customized events and templates
+
+{: .notice} 
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+
+**Screenshots** 
+
+![](img/week-of-september-2nd-17.png)
+
+![](img/week-of-september-2nd-18.png)
+
+## [Bot Connectors] Finish initialization of job before the execution of bot
+
+### Type: Bug fix
+
+If the bot is started via the UI, but is in the start mode and then gets closed/shutdown, the clean up job is performed asynchronously, thus making job processing continue with the login/initialization tasks and executes the bot. However, as the job was deleted and yet not finished, it will be executed and become an orphan. Because of this it can only be removed by deleting the executing pod. This should be avoided at all costs by first finishing up the initialization process before deleting the job.
+
