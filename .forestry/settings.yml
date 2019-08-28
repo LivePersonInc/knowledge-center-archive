@@ -5,6 +5,16 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: _new
+  label: What's New
+  create: all
+  match: "**/*"
+- type: directory
+  path: _release
+  label: Release Notes
+  create: all
+  match: "**/*"
+- type: directory
   path: pages/documents
   label: pages
   create: all
