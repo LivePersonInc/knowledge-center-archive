@@ -58,3 +58,21 @@ The timing and scope of these features or functionalities remain at the sole dis
 </tbody>
 </table>
 </div>
+
+
+With the Line conversational interface, consumers can now share files and images from their device with agents on LiveEngage.
+
+Supported file formats and sizes
+Image types: JPG, GIF, JPEG, PNG up to 10 MB
+Document types: PDF, DOC (X), PPT (X), XLS(X) up to 15 MB
+
+{: .notice} 
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+
+**Screenshots**
+
+Image 1: consumer sends an image to agent
+
+![](img/week-of-september-2nd-1.png)
+
+
