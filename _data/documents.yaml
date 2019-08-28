@@ -285,12 +285,12 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: September 2019
     - subcategoryname: August 2019
     - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
-    - subcategoryname: March 2019
 
 - categoryname: Release notes
   image: release-notes
@@ -298,6 +298,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
+        - pagename: September
+          level3:
+            - level3name: Week of September 2nd
         - pagename: August
           level3:
             - level3name: Week of August 26th
@@ -327,11 +330,6 @@
             - level3name: Week of April 15th
             - level3name: Week of April 8th
             - level3name: Week of April 1st
-        - pagename: March
-          level3:
-            - level3name: Week of March 25th
-            - level3name: Week of March 11th
-            - level3name: Week of March 4th
 
 - categoryname: Troubleshooting
   image: Troubleshooting
