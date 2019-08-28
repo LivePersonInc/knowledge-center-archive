@@ -11,7 +11,7 @@ isNew: false
 published: true
 
 ---
-These release notes include new features arriving to LiveEngage during August 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 **Please contact your LivePerson account team for the exact dates on which you will have access to the features.**
 
