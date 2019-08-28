@@ -18,9 +18,9 @@ These release notes include new features arriving to LiveEngage during August 20
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Agent-group pre filter
+## \[Line\] Consumer to agent image and file sharing support
 
-### Type: Feature
+### Type: New functionality 
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -42,17 +42,17 @@ The timing and scope of these features or functionalities remain at the sole dis
 </thead>
 <tbody>
 <tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 <td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 <td>No</td>
 </tr>
 </tbody>
