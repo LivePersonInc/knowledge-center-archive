@@ -36,7 +36,6 @@
         - pagename: Using SMS with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google Business Messaging
     - subcategoryname: Google My Business
     - subcategoryname: WhatsApp Business
     - subcategoryname: Line connector
