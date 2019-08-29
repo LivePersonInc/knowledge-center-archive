@@ -191,7 +191,7 @@ The Line connector has been enhanced to support the following structured content
   * Text title
   * Text subtitle
   * Image
-* [Carousel template](https://developers.line.biz/en/docs/messaging-api/message-types/#carousel-template) - Horizontally scrollable carousel of generic or button templates that includes a list of up to 10 generic or button cards that each can include:
+* [Carousel template](https://developers.liveperson.com/facebook-messenger-templates-carousel-template.html) - Horizontally scrollable carousel of generic or button templates that includes a list of up to 10 generic or button cards that each can include:
   * Text title
   * Text subtitle
   * Image
