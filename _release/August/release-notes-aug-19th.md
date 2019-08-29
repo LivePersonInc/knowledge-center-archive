@@ -1,7 +1,7 @@
 ---
 pagename: Week of August 19th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: "2019"
 indicator: both
 subtitle: ''
 level3: August
@@ -9,6 +9,7 @@ permalink: release-notes-2019-august-week-of-august-19th.html
 isTutorial: false
 isNew: false
 date: 2019-08-19
+
 ---
 These release notes include new features arriving to LiveEngage during August 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -22,75 +23,40 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: Feature
 
 <div class="tablecontainer">
-
 <table class="releasenotes">
-
 <thead>
-
 <tr class="categoryrow">
-
 <th>Web Messaging</th>
-
 <th>Mobile App Messaging</th>
-
 <th>Twilio</th>
-
 <th>Facebook Messenger</th>
-
 <th>ABC</th>
-
 <th>Line</th>
-
 <th>Google RCS</th>
-
 <th>Google My Business</th>
-
 <th>WhatsApp Business</th>
-
 <th>CM</th>
-
 <th>WeChat</th>
-
 <th>Chat</th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>No</td>
-
 </tr>
-
 </tbody>
-
 </table>
-
 </div>
 
 Prefilter the open connections list by agent group, allowing agent managers to only see conversations of agent groups they manage instead of all agents.
