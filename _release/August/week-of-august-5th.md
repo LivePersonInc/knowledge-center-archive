@@ -419,24 +419,6 @@ Image 2: inherit font for structured content
 
 ![](/img/week-of-august-5th-21.png)
 
-## Google Business Messaging - Onboarding Page
-
-### Type: New functionality
-
-We are adding a Google Business Messaging connector into the self-service Data Source > Conversations Sources area, to accompany WhatsApp, FB Messenger, Twilio, etc.
-
-Messaging clients will now be able to go through a more automated process for submitting their early adopter request to Google, including agreement to terms and policies, and providing brand and contact information. The information will first be verified internally by LivePerson then coordinated with Google for set up if the brand is a fit.
-
-The new connector will guide them through the application process, and they will be able to view their status update from pending to approved to live.
-
-**How to enable:** The Google Business Messaging Conversation Source will be enabled automatically for all messaging clients.
-
-**Limitations:** The submission of business requirements is the first step in going live with Google Business Messaging. There are still manual configuration steps performed by LivePerson in conjunction with Google to bring brands live on the solution. Please speak with your LivePerson account team for more information.
-
-**Screenshot**
-
-![](/img/week-of-august-5th-18.png)
-
 ## Twilio SMS Source - Media Error Unknown
 
 ### Type: Bug fix
