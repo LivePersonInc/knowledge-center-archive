@@ -9,6 +9,8 @@ permalink: admin-settings-permissions-customize-permissions.html
 isTutorial: false
 isNew: false
 date: '2019-01-23T12:20:28.000+00:00'
+redirect_from:
+  - working-with-profiles.html
 
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
