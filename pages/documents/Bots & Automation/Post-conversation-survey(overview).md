@@ -33,7 +33,7 @@ Once the consumer finishes answering the questions or upon survey timeout, the s
 * A survey is triggered based on the last skill of the conversation
 * Only conversations with a skill assigned to them will be able to trigger a survey. If a conversation is “unassigned” no survey will be triggered.
 
-### **C**onversation
+### Conversation
 
 * The bot will send the questions one by one as configured by the brand
 * Upon each consumer response, the bot will send the next question based on the logic defined
