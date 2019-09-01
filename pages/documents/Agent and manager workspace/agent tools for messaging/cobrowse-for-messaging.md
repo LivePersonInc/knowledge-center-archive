@@ -8,7 +8,7 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html
 isTutorial: false
 isNew: false
-date: 2019-01-30 14:28:09 +0000
+date: '2019-01-30T14:28:09.000+00:00'
 
 ---
 With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
@@ -45,6 +45,7 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
 * Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy.
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
+* Sessions are not recorded or stored (and there is not currently a workaround). There are plans to add this functionality in the next year. 
 
 ## Configuration
 
