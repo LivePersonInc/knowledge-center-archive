@@ -25,13 +25,11 @@ _To be completed within your brand’s app by a mobile developer:_
 * Implement the new SDK
 * Implement the SDK’s Monitoring APIs
 
-<br/>
 _To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
 * Create new campaigns and engagements
 
-<br/>
 
 For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
@@ -101,7 +99,6 @@ When creating a new campaign, you first need to define the following:
 * [Target audience](contact-center-management-campaigns-target-audience.html)
 * [Time frame](contact-center-management-campaigns-time-frame.html)
 
-<br/>
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
 ### Create a new mobile app engagement
@@ -113,7 +110,6 @@ Once the app is installed on your LiveEngage account and a new campaign has been
 ![](/img/add-messaging-to-your-mobile-app-2.png)
 
 {: .important}
-
 **Important:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
 ### Engagement settings
