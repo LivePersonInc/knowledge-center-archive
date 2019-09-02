@@ -75,7 +75,7 @@ Before you can create engagements for your mobile app, you must first configure 
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
-![](/img/add-messaging-to-your-mobile-app-4.png)
+![](/img/add-messaging-to-your-mobile-app-4.jpg)
 
 {:start="2"}
 
