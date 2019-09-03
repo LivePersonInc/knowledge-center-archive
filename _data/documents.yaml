@@ -238,7 +238,7 @@
     - subcategoryname: Permissions
       pages:
         - pagename: Assign permissions
-        - pagename: Customize permissions
+        - pagename: Profiles
     - subcategoryname: Set the Time Zone
     - subcategoryname: Supported languages
     - subcategoryname: System requirements
