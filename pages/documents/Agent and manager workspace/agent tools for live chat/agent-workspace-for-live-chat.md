@@ -51,7 +51,7 @@ The agent workspace is where agents can simultaneously handle conversations with
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
-![](/img/agent-workspace-for-chat-2.jpg)
+![](/img/agent-workspace-for-chat-2.png)
 
 Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the screen. The in-chat screen is then displayed.
 
@@ -67,7 +67,6 @@ Any user can take a chat from a consumer, providing they have been granted this 
 ## Agent widgets and tools
 
 The Agent Workspace includes several widgets to help agents manage their conversations:
-
 * **Visit info widget**: Indicates who the visitor is, and how they arrived at the website.
 * **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times.
 * **Page navigation widget**: Allows agents to offer assistance to consumers according to their journey on the website.
@@ -105,8 +104,7 @@ The conversation is ended and the visitor receives a message in the chat window 
 At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of [predefined content ](agent-manager-workspace-workspace-configuration-predefined-content-overview)saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
 
 You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
-
-![](/img/agent-workspace-for-chat-5.png)  
+  
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
 * **Closing:** Thank you for visiting. Please contact us any time.
@@ -131,7 +129,7 @@ Select an action by pressing the applicable letter:
 * RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
 
 {: .notice}
-The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
+The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor.
 
 ### Send a link
 
@@ -178,8 +176,8 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 ![](/img/agent-workspace-for-chat-8.png)
 
 {:start="4"}
-2\. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
-3\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
+3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
 ## Clearing chats from the agent workspace
 
