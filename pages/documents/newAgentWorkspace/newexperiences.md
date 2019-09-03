@@ -9,16 +9,34 @@ permalink: new-experiences.html
 layout: newAgentWorkspaceHomepage
 ---
 
-<div id="homepageRow">
-<div class="homepageBox">
-  <span class="homepageBoxTitle">Maximize efficiency with messaging</span>
-  <span class="homepageBoxText">As part of the new experience, both agents and agent managers will receive tools to help boost their performance in managing messaging conversations at scale.</span>
+<div class="homeTopText">
+<span class="homepageSubtitle">As we embark on a new journey of redesigning our LiveEngage product, by Sept 16th, all brands using LivePerson will begin seeing this exciting new UI</span>. The first thing you’ll notice is the new navigation bar displaying to all users.  
+
+<div class="notice">
+For the first time, in order to help you prepare for this UI change, we are publishing a release schedule. You will receive the new navigation bar on:
+<br>
+<br>
+<b>Sunday September 15th between 2:30am EST and 6:30am EST</b>
+<br>
+----- OR -----
+<br>
+<b>Sunday September 15th between 8:00am EST and 12:00am EST</b>
+<br>
+<br>
+<em>For your exact time window, please check your email from LivePerson or contact your account team.</em>
 </div>
-<div class="homepageBox">
-  <span class="homepageBoxTitle">New sleek and modern UI</span>
-  <span class="homepageBoxText tighter">LiveEngage’s interface is getting a new look and feel. The updated design will be gradually introduced into our various products.</span>
+
+In addition to the navigation changes - if you are using messaging, you have the option to also use two exciting tools, designed for outstanding messaging operations:
+
+<ul>
+<li><a href="https://knowledge.liveperson.com/messaging-agents-the-enhanced-agent-workspace.html">Enhanced agent workspace</a></li>
+<li><a href="https://knowledge.liveperson.com/messaging-managers-introducing-the-new-manager-tools.html">New manager workspace</a></li>
+</ul>
 </div>
-</div>
+
+[insert gif]
+
+For more details, please watch this 2 minute video:
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/352701082?autoplay=0&loop=1&title=0&byline=0&portrait=0" width="750" height="250" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 

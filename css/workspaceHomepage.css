@@ -3,7 +3,8 @@
 }
 
 #post-content {
-    width: 100%
+    width: 100%;
+    margin-left: 50px;
 }
 
 .documentTitle {
@@ -34,6 +35,15 @@
     font-size: 26px;
     color: #fff;
     opacity: .85
+}
+
+.homepageSubtitle {
+  font-weight: bold;
+  color: #5879DA;
+}
+
+.homeTopText {
+  width: 70%;
 }
 
 #homepageRow {
@@ -72,7 +82,6 @@ h2 {
     font-family: "Roboto";
     font-size: 30px;
     color: #f6720d;
-    margin-left: 50px
 }
 
 .contentTitle {
@@ -95,7 +104,8 @@ h3 {
     background-color: #38436b;
     padding-left: 120px;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    margin-left: -50px;
 }
 
 .secondRow {
@@ -133,6 +143,7 @@ h3 {
   padding-top: 20px;
   padding-bottom: 15px;
   background-color: #f8f8f8;
+  margin-left: -50px;
 }
 
 #newxAnchorsList {
