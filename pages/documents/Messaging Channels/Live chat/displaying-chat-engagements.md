@@ -30,7 +30,6 @@ There are three states for a chat engagement: Online, Busy and Offline. Each sta
 With button refresh, brands have the ability to refresh the state of the engagement at configurable intervals, ensuring the engagement on the page accurately reflects the availability of the agents. The default setting for this feature is disabled. When enabled, the default setting is 120 seconds. Brands can configure the engagement to refresh at the following interval settings: 30, 60, 90, 120, 150, 180, 240 and 300 seconds.
 
 **Note:**
-
 1. Refresh engagement is not available for proactive/offsite/messaging engagements.
 2. The refresh process will never remove engagements from a page. It will only change its state, e.g., offline to online and vice versa.
 3. As this feature is constantly checking the availability of the engagement, when the availability changes, this could cause the engagement to flicker.
@@ -116,10 +115,10 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 1. Create a Campaign and fill in the campaign details (name, target audience and timeframe).
 2. Click **Add engagement**. From the menu, **select** **“Offsite”** engagement source:
 
-   ![](/img/displaying-chat-engagements-2.png)
+![](/img/displaying-chat-engagements-2.png)
 
 {:start="3"}
-3\. The engagement settings page will open.
+3. The engagement settings page will open.
 
 ![](/img/displaying-chat-engagements-3.png)
 
