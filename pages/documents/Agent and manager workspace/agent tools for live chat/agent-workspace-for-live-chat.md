@@ -51,7 +51,7 @@ The agent workspace is where agents can simultaneously handle conversations with
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
-![](/img/agent-workspace-for-chat-2.jpg)
+![](/img/agent-workspace-for-chat-2.png)
 
 Accept the chat by clicking **ACCEPT** on the bottom left-hand corner of the screen. The in-chat screen is then displayed.
 
@@ -67,7 +67,6 @@ Any user can take a chat from a consumer, providing they have been granted this 
 ## Agent widgets and tools
 
 The Agent Workspace includes several widgets to help agents manage their conversations:
-
 * **Visit info widget**: Indicates who the visitor is, and how they arrived at the website.
 * **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times.
 * **Page navigation widget**: Allows agents to offer assistance to consumers according to their journey on the website.
