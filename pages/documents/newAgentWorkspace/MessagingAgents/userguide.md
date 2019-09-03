@@ -31,8 +31,6 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 **Idle conversation status and filter:** When a consumer hasn't responded in five minutes or longer, a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
 
-**Agent survey:** The agent survey, which was previously available only for chat, allows brands to collect feedback from agents after their conversations are complete. This information can then be used to optimize messaging operations.
-
 ## Workspace basics
 
 As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
