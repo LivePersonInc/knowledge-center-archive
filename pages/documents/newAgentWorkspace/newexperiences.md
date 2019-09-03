@@ -26,6 +26,11 @@ For the first time, in order to help you prepare for this UI change, we are publ
 <em>For your exact time window, please check your email from LivePerson or contact your account team.</em>
 </div>
 
+
+
+<img src="img/nawNavigation.gif"/>
+<br>
+<br>
 In addition to the navigation changes - if you are using messaging, you have the option to also use two exciting tools, designed for outstanding messaging operations:
 
 <ul>
@@ -33,8 +38,6 @@ In addition to the navigation changes - if you are using messaging, you have the
 <li><a href="https://knowledge.liveperson.com/messaging-managers-introducing-the-new-manager-tools.html">New manager workspace</a></li>
 </ul>
 </div>
-
-[insert gif]
 
 For more details, please watch this 2 minute video:
 

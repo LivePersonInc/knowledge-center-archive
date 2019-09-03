@@ -157,10 +157,6 @@ h3 {
   text-decoration: none;
 }
 
-#post-content iframe {
-  margin-left: 50px;
-}
-
 @media screen and (max-width: 850px) {
     .homepageRow {
         flex-wrap:wrap
