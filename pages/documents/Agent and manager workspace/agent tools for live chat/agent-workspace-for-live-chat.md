@@ -130,7 +130,7 @@ Select an action by pressing the applicable letter:
 * RESPOND TO NEXT (N): navigate to the visitor who has been waiting the longest for a response from the agent
 
 {: .notice}
-The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor._
+The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are available only when you are chatting with a visitor.
 
 ### Send a link
 
