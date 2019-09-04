@@ -109,7 +109,13 @@ This enhancement is available to all Messaging customers.
 
 Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](https://knowledge.liveperson.com/messaging-agents-blended-accounts.html).
 
-Agent Survey is currently not supported. It will be added in Q1 2020
+Agent Survey is currently not supported. It will be added in Q1 2020.
+
+For more information please visit [Enhanced Agent Workspace - New Experiences](https://knowledge.liveperson.com/new-experiences.html)
+
+**Screenshots**
+
+![](/img/new-agent-workspace-5-1.jpg)
 
 ## Manager workspace
 
@@ -300,7 +306,7 @@ In addition, the agent status menu can now be found in the bottom left of the si
 
 Logout operation from LiveEngage is now available in the agent status menu.
 
-## Connection Panel beautification
+## Connection panel beautification
 
 ### Type: enhancement
 
@@ -568,7 +574,7 @@ This feature is available to all customers. It is already available for Chat and
 
 **How to enable**
 
-LP Account manager to enable the feature - “Messaging.Static_Load_Balancing”
+ Contact your LivePerson account manager to enable
 
 Configuring a load balancing per a specific skill is then made available through the Skills settings screen in LiveEngage. The account must have at least 2 agent groups in order for the feature to become visible in the UI.
 
