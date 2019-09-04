@@ -173,7 +173,7 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 
 1. Once the consumer accepts, the CoBrowse session opens on the agent side and both cursors are displayed and labeled, as shown below.
 
-![](/img/agent-workspace-for-chat-8.png)
+![](/img/agent-workspace-for-chat-8.jpg)
 
 {:start="4"}
 2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, credit card and password fields are automatically masked.
