@@ -1530,7 +1530,7 @@ div#cookie-law {
   }
 
   #defaultcontent {
-    grid-column: 1 / span 7;
+    grid-column: 1 / span 7 !important;
     margin-left: 20px;
   }
 

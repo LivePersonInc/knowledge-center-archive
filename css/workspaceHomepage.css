@@ -174,3 +174,13 @@ h3 {
         padding-left: 20px
     }
 }
+
+@media screen and (max-width: 450px) {
+  .smallerGif {
+    width: 300px;
+  }
+
+  #documenttitlecontainer {
+    display: none;
+  }
+}

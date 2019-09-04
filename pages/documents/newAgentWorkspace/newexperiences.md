@@ -22,7 +22,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 <br>
 ----- OR -----
 <br>
-<b>Sunday September 15th between 8:00am EST and 12:00am EST</b>
+<b>Sunday September 15th between 8:00am EST and 12:00pm EST</b>
 <br>
 <br>
 <em>For your exact time window, please check your email from LivePerson or contact your account team.</em>
@@ -30,7 +30,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 
 
-<img src="img/nawNavigation.gif"/>
+<img class="smallerGif" src="img/nawNavigation.gif"/>
 <br>
 <br>
 In addition to the navigation changes - if you are using messaging, you have the option to also use two exciting tools, designed for outstanding messaging operations:
