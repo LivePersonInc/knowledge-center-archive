@@ -103,7 +103,7 @@ This enhancement is available to all Messaging customers.
 
 **How to enable**
 
-[External - Configuration guide](https://knowledge.liveperson.com/messaging-agents-configuration.html)
+[Configuration guide](https://knowledge.liveperson.com/messaging-agents-configuration.html)
 
 **Limitations**
 
