@@ -38,6 +38,6 @@ Admins and campaign managers have the new navigation with updated side bar icons
 
 Launchpad is a post-login administrator hub that presents users and admins with quick access to all of the services in the LivePerson ecosystem. From Launchpad, admins will be able to quickly access all their favorite LivePerson tools from one place, plus discover and learn more about tools they’re not using yet.
 
-In late September, we’ll be kicking off an Early Adopters program for the Launchpad.
+In late September, we’ll be kicking off an Early Adopters program for the Launchpad. Please contact Eran Naot if you need more information. 
 
 ![](/img/launchpad.png)
