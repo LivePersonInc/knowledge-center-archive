@@ -170,12 +170,8 @@ The list is sortable by "Response time". The list will be sorted by default by â
 
 ## Limitations
 
-* The workspace presents messaging agentsâ€™ data and messaging metrics. Chat agents and performance are not part of the workspace.
-* The minimal supported screen resolution is 1024x768.
 * The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
-  * Account Config -1 minute
-  * Conversation widget - 30 sec
-  * All other data  - 10 sec	
+
  
 
 
