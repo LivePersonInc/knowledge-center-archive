@@ -1,5 +1,5 @@
 ---
-pagename: Week of Sept 9th
+pagename: Week of September 9th
 categoryName: Release notes
 subCategoryName: '2019'
 indicator: both
