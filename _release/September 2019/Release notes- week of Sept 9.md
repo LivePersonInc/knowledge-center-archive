@@ -112,6 +112,103 @@ Brands with blended accounts, or those that offer both live chat and messaging, 
 
 Agent Survey is currently not supported. Will be added in Q1 2020
 
+## Redirect Administrator to Launchpad if installed
+
+### Type: new feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Available to all customers?** Available to Admin Role users on accounts that take part in the Early adopters program.
+
+Launchpad is the new landing page for account administrators after sign in.
+
+With Launchpad, account administrators can access all products such as applications, tools and websites of the LivePerson ecosystem. The Launchpad will display products as clickable tiles. Once an administrator clicks on a product tile, the product itself opens in a new browser tab. The goal of the Launchpad is to support easy product access, visibility and discoverability of the extensive capabilities that administrators have in the LivePerson ecosystem.
+
+**Dependencies**
+
+* LE UI 11.0
+* Participation in EA program
+
+**Limitations**
+
+* In this version, admins will see all services without differentiation of services that are/aren't enabled on the account.
+* Admins will not be able to enable services that are not enabled from the Launchpad
+* Services Owners are responsible for the navigation experience if a user attempting to access their service does not have the service enabled on the account.
+
+**Screenshots**
+
+![](/img/redirect admin to launchpad.png)
+
 ## Static load balancing per skill for messaging
 
 ### Type: new feature
