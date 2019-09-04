@@ -214,6 +214,93 @@ Managers will also be able to actively supervise key metrics like:
 
 ![](/img/ManagerWorkspace.png)
 
+## Navigation bar and data bar Beautification
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Admins and campaign managers have the new navigation with updated side bar icons. 
+
+Each tab is represented by a new icon, as follows:
+
+![](/img/Screen Shot 2019-09-04 at 9.00.12 PM.png)  
+In addition, the agent status menu can now be found in the bottom left of the sidebar (previously appeared on the top right corner of the screen).
+
+![](/img/side by.png)
+
+Logout operation from LiveEngage is now available in the agent status menu.
+
 ## Beautification - Connection Panel
 
 ### Type: enhancement
