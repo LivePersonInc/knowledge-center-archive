@@ -214,7 +214,7 @@ Managers will also be able to actively supervise key metrics like:
 
 ![](/img/ManagerWorkspace.png)
 
-## Navigation bar and data bar Beautification
+## Navigation bar and data bar beautification
 
 ### Type: enhancement
 
@@ -288,10 +288,10 @@ Managers will also be able to actively supervise key metrics like:
 
 </table>
 
-</div>
+</div>  
+![](/img/new-agent-workspace-screenshot-2 (1).png)
 
-Admins and campaign managers have the new navigation with updated side bar icons. 
-
+The navigation bar is now located on the left side of the screen.  
 Each tab is represented by a new icon, as follows:
 
 ![](/img/Screen Shot 2019-09-04 at 9.00.12 PM.png)  
@@ -301,7 +301,7 @@ In addition, the agent status menu can now be found in the bottom left of the si
 
 Logout operation from LiveEngage is now available in the agent status menu.
 
-## Beautification - Connection Panel
+## Connection Panel beautification
 
 ### Type: enhancement
 
