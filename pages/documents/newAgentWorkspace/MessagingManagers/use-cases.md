@@ -40,11 +40,13 @@ If the number of closed conversations appears too low, a potential reason could 
 
 You can locate agents with a high number of assigned conversations but with a low number of active conversations by using the agents widget.
 
-![alt text](img/new-manager-workspace-use-case-7.png){:class="newagent"}
+![alt text](img/new-manager-workspace-use-case-6.png){:class="newagent"}
 
 You can then review the agent’s inactive conversations and determine whether they should have been closed.
 
-![alt text](img/new-manager-workspace-use-case-8.png){:class="newagent"}
+![alt text](img/new-manager-workspace-use-case-7.png){:class="newagent"}
+
+![alt text](img/new-manager-workspace-use-case-7a.png){:class="newagent"}
 
 ## 3. Maintain a high CSAT through real-time monitoring
 
