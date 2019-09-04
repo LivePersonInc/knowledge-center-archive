@@ -18,6 +18,100 @@ These release notes include new features arriving to LiveEngage during September
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Enhanced agent workspace for Messaging
+
+### Type: enhancement 
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
+
+For details, see full [user guide.](https://knowledge.liveperson.com/messaging-agents-user-guide.html)
+
+See [Enhanced Agent Workspace - New Experiences](https://knowledge.liveperson.com/new-experiences.html) for more details
+
+This enhancement is available to all Messaging customers.
+
+**How to enable**
+
+[External - Configuration guide](https://knowledge.liveperson.com/messaging-agents-configuration.html)
+
+**Limitations**
+
+Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](https://knowledge.liveperson.com/messaging-agents-blended-accounts.html).
+
+Agent Survey is currently not supported. Will be added in Q1 2020
+
 ## Static load balancing per skill for messaging
 
 ### Type: new feature
