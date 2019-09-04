@@ -20,7 +20,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## Enhanced agent workspace for Messaging
 
-### Type: enhancement 
+### Type: enhancement
 
 <div class="tablecontainer">
 
@@ -110,7 +110,198 @@ This enhancement is available to all Messaging customers.
 
 Brands with blended accounts, or those that offer both live chat and messaging, may need to make adjustments to their operations. For more information, please consult the [blended accounts overview](https://knowledge.liveperson.com/messaging-agents-blended-accounts.html).
 
-Agent Survey is currently not supported. Will be added in Q1 2020
+Agent Survey is currently not supported. It will be added in Q1 2020
+
+## Manager workspace
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+The manager workspaces is a new built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
+
+This new dashboard will boost the agent manager or team manager performance by:
+
+* Offering a quick and comprehensive view of the ‘state of your shift’ in real time
+* Giving you the ability to drill down and understand causes for tracked metrics
+* Helping you react to situations in real time and prevent growing issues
+
+Managers will also be able to actively supervise key metrics like:
+
+* Queue length
+* CSAT levels
+* Agent utilization and efficiency
+
+  For detailed explanations regarding configuration options, data presented and use cases, please visit our knowledge center:
+
+[Introduction](https://knowledge.liveperson.com/messaging-managers-introducing-the-new-manager-tools.html#1-dedicated-manager-workspace)
+
+[User guide](https://knowledge.liveperson.com/messaging-managers-manager-workspace-user-guide.html)
+
+[Use cases](https://knowledge.liveperson.com/messaging-managers-use-cases.html)
+
+**Screenshots**
+
+![](/img/ManagerWorkspace.png)
+
+## Beautification - Connection Panel
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+The Connection Panel provides support to users in LiveEngage and has been updated to match the new design for LiveEngage. With the Connection Panel users can quickly link to the Knowledge Center, which provides a rich, up-to-date library of product documentation and customer support content. The Connection Panel also offers the ability to create tickets and track tickets with support, as well as access to live chat with technical support and sales. This enhancement is available to all customers.
+
+**Dependencies**
+
+* LE UI 11.0
+* Participation in EA program
+
+**Screenshots**
+
+{: .sidebyside}
+
+![](/img/CA1.png)![](/img/CA2.png)
 
 ## Redirect Administrator to Launchpad if installed
 
@@ -304,6 +495,6 @@ Configuring a load balancing per a specific skill is then made available through
 {: .notice}  
 This feature cannot be defined to work for both Messaging and Chat load balancing per a single skill.
 
-**Screenshot** 
+**Screenshot**
 
 ![](/img/skill load balancing.png)
