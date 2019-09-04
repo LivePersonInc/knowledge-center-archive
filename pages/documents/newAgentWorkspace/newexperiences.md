@@ -7,6 +7,8 @@ subtitle: for all LiveEngage users - coming September 2019
 level3: ''
 permalink: new-experiences.html
 layout: newAgentWorkspaceHomepage
+redirect_from:
+  - agent-manager-workspace-manager-tools-for-messaging-new-agent-workspace-overview.html
 ---
 
 <div class="homeTopText">
