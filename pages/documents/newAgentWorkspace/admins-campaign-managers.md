@@ -32,3 +32,9 @@ Admins and campaign managers have the new navigation with updated side bar icons
 | ![alt text](img/campaigns-regular@2x.png)  | Campaigns     |
 | ![alt text](img/users-regular@2x.png)      | Users     |
 | ![alt text](img/night-vision-hover@2x.png) | Night vision  |
+
+##Launchpad
+Launchpad is a post-login administrator hub that presents users and admins with quick access to all of the services in the LivePerson ecosystem. From Launchpad, admins will be able to quickly access all their favorite LivePerson tools from one place, plus discover and learn more about tools they’re not using yet. 
+
+In late September, we’ll be kicking off an Early Adopters program for the Launchpad.
+
