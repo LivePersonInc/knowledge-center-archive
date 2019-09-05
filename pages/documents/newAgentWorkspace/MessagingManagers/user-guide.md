@@ -10,7 +10,7 @@ isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
-redirect-from:
+redirect_from:
  - messaging-managers-user-guide.html
 ---
 
