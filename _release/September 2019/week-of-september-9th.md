@@ -642,7 +642,7 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 <td>Yes</td>
 
-<td>No/td>
+<td>No</td>
 
 <td>No</td>
 
