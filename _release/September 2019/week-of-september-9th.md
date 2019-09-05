@@ -8,8 +8,8 @@ level3: September
 permalink: release-notes-2019-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
-date: '2019-09-09'
-
+published: true
+date: 2019-09-03
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -679,7 +679,7 @@ Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us
 Currently, two features are supported by mTLS :
 
 * WebHooks
-* Consumer Authentication 
+* Consumer Authentication
 
 The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
 

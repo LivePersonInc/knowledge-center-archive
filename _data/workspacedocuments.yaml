@@ -39,3 +39,8 @@
   image: bots-automation
   subcategories:
     - subcategoryname: New Conversational AI experience
+
+- categoryname: Report builder
+  image: bots-automation
+  subcategories:
+    - subcategoryname: Introducing the enhanced Report Builder
