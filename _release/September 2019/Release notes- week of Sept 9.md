@@ -8,7 +8,8 @@ level3: September
 permalink: release-notes-2019-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
-date: 2019-09-09
+date: '2019-09-09'
+
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -675,7 +676,7 @@ Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us
 
 **Which services and features are currently supported over mTLS?**
 
-Currently, 2 features are supported by mTLS :
+Currently, two features are supported by mTLS :
 
 * WebHooks
 * Consumer Authentication (OAuth2.0 Code Flow).
@@ -684,4 +685,4 @@ The first integration over MTLS Gateway with Verizon has already been completed 
 
 After developing and exposing the new mTLS service, we can proceed with our plans to make this service accessible by providing a new dedicated Self-Service UI for MTLS management, including creating and downloading the CSR, uploading the certificate and mapping of URLs.
 
-For more information on MTLS please visit our confluence page: [https://globaldocs.liveperson.com/display/COR/MTLS](https://globaldocs.liveperson.com/display/COR/MTLS "https://globaldocs.liveperson.com/display/COR/MTLS")
+For more information on MTLS please visit our [confluence page](https://globaldocs.liveperson.com/display/COR/MTLS)

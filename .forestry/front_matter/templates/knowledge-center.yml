@@ -137,7 +137,6 @@ fields:
     homepage
 pages:
 - _release/September 2019/Release notes- week of Sept 9.md
-- _release/September/week-of-september-2nd.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
