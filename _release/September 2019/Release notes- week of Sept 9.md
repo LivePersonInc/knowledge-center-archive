@@ -8,7 +8,7 @@ level3: September
 permalink: release-notes-2019-september-week-of-september-9th.html
 isTutorial: false
 isNew: false
-
+date: 2019-09-09
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 

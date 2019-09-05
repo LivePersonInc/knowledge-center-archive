@@ -1,7 +1,7 @@
 ---
 pagename: Week of September 2nd
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: '2019'
 indicator: both
 subtitle: ''
 level3: September
@@ -9,7 +9,7 @@ permalink: release-notes-2019-september-week-of-september-2nd.html
 isTutorial: false
 isNew: false
 published: true
-
+date: 2019-09-02
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -20,7 +20,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 ## \[Line\] Consumer to agent image and file sharing support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -65,8 +65,8 @@ Supported file formats and sizes:
   * Image types: JPG, GIF, JPEG, PNG up to 10 MB
   * Document types: PDF, DOC (X), PPT (X), XLS(X) up to 15 MB
 
-{: .notice} 
-**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
 
 **Screenshots**
 
@@ -80,7 +80,7 @@ Image 2: agent sees the image consumer sends
 
 ## \[Line\] Inform consumers of unsupported messages
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -126,15 +126,15 @@ There are 3 types of notification messages that brands have the ability to confi
   * Supported image types: JPG,GIF,JPEG,PNG
   * Supported document types: PDF, DOC (X), PPT (X), XLS(X)
   * The default notification message for this is: “Sorry! Unfortunately we are unable to send this file type”
-* **File size limit** - consumer will get this message when trying to share files or images that exceed the file size limit 
+* **File size limit** - consumer will get this message when trying to share files or images that exceed the file size limit
   * Supported image size: up to 10 MB
   * Suported document size: up to 15 MB
   * The default notification message for this is: “Sorry! Unfortunately we are unable to send this file due to file size limit”
 * **Unsupported message type** - consumer will get this message when trying to send any other message types that are supported by Line but not by LiveEngage (i.e: sharing location or when file sharing is off)
   * The default notification message for this is: “Sorry! Unfortunately we are unable to send this type of message”
 
-{: .notice} 
-**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
 
 **Screenshots**
 
@@ -142,9 +142,9 @@ Image 1: configure how consumer sees the unsupported messages
 
 ![](img/week-of-september-2nd-3.png)
 
-## \[Line\] Structured content support 
+## \[Line\] Structured content support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -185,7 +185,7 @@ Image 1: configure how consumer sees the unsupported messages
 
 LiveEngage Structured Content is the framework for building conversational UI using various objects and elements such as: cards, lists, carousels, quick replies and more. LiveEngage messaging connectors support for the framework is intended to provide a rich conversational experience across all the LiveEngage messaging channels.
 
-The Line connector has been enhanced to support the following structured content templates: 
+The Line connector has been enhanced to support the following structured content templates:
 * [Quick Reply template](https://developers.liveperson.com/facebook-messenger-templates-quick-replies-template.html) - Provides a way for consumers to submit a response to a question/statement by selecting from a set of buttons that each contain a title text and/or emoji. The buttons appear at the bottom of the screen, and will be published as text in the conversation thread upon consumer selection.
 * [Generic template](https://developers.liveperson.com/facebook-messenger-templates-generic-template.html) - Simple structured card message that includes at least 1 button element and up to 3 buttons with either links or publish text actions:
   * Text title
@@ -199,19 +199,19 @@ The Line connector has been enhanced to support the following structured content
 
 Brands will be able to share these templates through structured content basic elements while using the structured content JSON properties.
 
-{: .notice} 
-**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
 
-**Limitations:** 
+**Limitations:**
 * For carousel structured content, number of items must be the same on each card.
 * For quick replies template, only text button is supported.
 * For quick replies template, up to 13 buttons with text title and publish text click action are allowed.
 
-**Screenshots** 
+**Screenshots**
 
 Image 1: consumer sees quick replies option
 
-{: .sidebyside} 
+{: .sidebyside}
 ![](img/week-of-september-2nd-4.png)![](img/week-of-september-2nd-5.png)
 
 Image 2: agent sees quick replies structured content
@@ -224,7 +224,7 @@ Image 3: agent sends generic card template
 
 Image 4: consumer sees the card template and clicks on "more details"
 
-{: .sidebyside} 
+{: .sidebyside}
 ![](img/week-of-september-2nd-8.png)![](img/week-of-september-2nd-9.png)
 
 Image 5: agent sends structured content with carousel template
@@ -233,14 +233,14 @@ Image 5: agent sends structured content with carousel template
 
 ![](img/week-of-september-2nd-11.png)
 
-Image 6: consumer sees structured content carousel template, clicks on "order now" then clicks "more details" 
+Image 6: consumer sees structured content carousel template, clicks on "order now" then clicks "more details"
 
-{: .sidebyside} 
+{: .sidebyside}
 ![](img/week-of-september-2nd-12.png)![](img/week-of-september-2nd-13.png)![](img/week-of-september-2nd-14.png)
 
 ## \[Line\] Secure forms support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -281,11 +281,11 @@ Image 6: consumer sees structured content carousel template, clicks on "order no
 
 Secure forms are now enabled for the Line connector. Secure forms allow brands to perform identification and authorization, and pass payment details to process payments, share PII information to generate leads, or to perform a registration process during a conversation in a PCI-compliant environment.
 
-For more details on secure forms and how they are configured, please [read here](/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html). 
+For more details on secure forms and how they are configured, please [read here](/security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html).
 
 ## \[Line\] Post Conversation Survey support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -328,7 +328,7 @@ The Line connector has been enhanced to support the Post Conversation Survey (PC
 
 The survey can be closed in a number of different scenarios: Survey completed, survey timeout or survey skipped. Each outcome is tracked and reported on as part of the Report Builder to allow brands to fully analyze the results.
 
-For more details on PCS and how it is configured, please [read here](/ai-bots-automation-post-conversation-survey-bot.html). 
+For more details on PCS and how it is configured, please [read here](/ai-bots-automation-post-conversation-survey-bot.html).
 
 **Screenshots**
 
@@ -342,7 +342,7 @@ Image 2: consumer sees the survey in progress
 
 ## \[Line\] Unfollow event support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -381,11 +381,11 @@ Image 2: consumer sees the survey in progress
 </table>
 </div>
 
-When a consumer blocks or deletes an official brand, the brands can no longer send messages to this consumer. Therefore, the Line connector will automatically close an open conversation with this consumer, if it exists, to prevent agents from sending messages to the consumer.  In case an agent attempts to send a message to the consumer by resuming the conversation, he will see a NACK notification in the agent workspace. 
+When a consumer blocks or deletes an official brand, the brands can no longer send messages to this consumer. Therefore, the Line connector will automatically close an open conversation with this consumer, if it exists, to prevent agents from sending messages to the consumer.  In case an agent attempts to send a message to the consumer by resuming the conversation, he will see a NACK notification in the agent workspace.
 
 ## [Bot Connectors] Add FaaS function as a new vendor
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -428,10 +428,10 @@ Bot Connectors now support “Custom Integration.” This allows the customer to
 
 **Dependencies:** LivePerson FaaS including customized events and templates
 
-{: .notice} 
-**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative.
 
-**Screenshots** 
+**Screenshots**
 
 ![](img/week-of-september-2nd-17.png)
 
@@ -442,4 +442,3 @@ Bot Connectors now support “Custom Integration.” This allows the customer to
 ### Type: Bug fix
 
 If the bot is started via the UI, but is in the start mode and then gets closed/shutdown, the clean up job is performed asynchronously, thus making job processing continue with the login/initialization tasks and executes the bot. However, as the job was deleted and yet not finished, it will be executed and become an orphan. Because of this it can only be removed by deleting the executing pod. This should be avoided at all costs by first finishing up the initialization process before deleting the job.
-
