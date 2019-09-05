@@ -574,7 +574,7 @@ This feature is available to all customers. It is already available for Chat and
 
 **How to enable**
 
- Contact your LivePerson account manager to enable
+Contact your LivePerson account manager to enable
 
 Configuring a load balancing per a specific skill is then made available through the Skills settings screen in LiveEngage. The account must have at least 2 agent groups in order for the feature to become visible in the UI.
 
@@ -589,4 +589,4 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 **Screenshot**
 
-![](/img/skill load balancing.png)
+![](/img/Staticload1.png)
