@@ -668,18 +668,18 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 </div>
 
-MTLS is a more secured TLS connection, allowing services to use mutual authentication (Back and Forth). The mTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
+MTLS is a more secured TLS connection, allowing services to use mutual authentication (Back and Forth). The MTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
 
 The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc'.
 
-Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LE.
+Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LiveEngage.
 
-**Which services and features are currently supported over mTLS?**
+**Which services and features are currently supported over MTLS?**
 
 Currently, two features are supported by mTLS :
 
 * WebHooks
-* Consumer Authentication (OAuth2.0 Code Flow).
+* Consumer Authentication (Code Flow).
 
 The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
 
