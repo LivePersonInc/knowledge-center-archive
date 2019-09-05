@@ -115,7 +115,7 @@ For more information please visit [Enhanced Agent Workspace - New Experiences](h
 
 **Screenshots**
 
-![](/img/new-agent-workspace-5-1.jpg)
+![](img/new-agent-workspace-5-1.jpg)
 
 ## Manager workspace
 
@@ -299,10 +299,10 @@ Managers will also be able to actively supervise key metrics like:
 The navigation bar is now located on the left side of the screen.  
 Each tab is represented by a new icon, as follows:
 
-![](/img/Screen Shot 2019-09-04 at 9.00.12 PM.png)  
+![](/img/icons-side-bar.png)  
 In addition, the agent status menu can now be found in the bottom left of the sidebar (previously appeared on the top right corner of the screen).
 
-![](/img/side by.png)
+![](/img/side-by.png)
 
 Logout operation from LiveEngage is now available in the agent status menu.
 
