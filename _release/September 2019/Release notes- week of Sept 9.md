@@ -679,7 +679,7 @@ Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us
 Currently, two features are supported by mTLS :
 
 * WebHooks
-* Consumer Authentication (Code Flow).
+* Consumer Authentication 
 
 The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
 
