@@ -590,3 +590,98 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 **Screenshot**
 
 ![](/img/Staticload1.png)
+
+## MTLS Gateway with integration to Webhooks
+
+### Type: new feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+MTLS is a more secured TLS connection, allowing services to use mutual authentication (Back and Forth). The mTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
+
+The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc'.
+
+Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LE.
+
+**Which services and features are currently supported over mTLS?**
+
+Currently, 2 features are supported by mTLS :
+
+* WebHooks
+* Consumer Authentication (OAuth2.0 Code Flow).
+
+The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
+
+After developing and exposing the new mTLS service, we can proceed with our plans to make this service accessible by providing a new dedicated Self-Service UI for MTLS management, including creating and downloading the CSR, uploading the certificate and mapping of URLs.
+
+For more information on MTLS please visit our confluence page: [https://globaldocs.liveperson.com/display/COR/MTLS](https://globaldocs.liveperson.com/display/COR/MTLS "https://globaldocs.liveperson.com/display/COR/MTLS")
