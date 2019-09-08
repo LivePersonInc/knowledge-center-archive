@@ -1,7 +1,7 @@
 ---
 pagename: What's new in all connections
 categoryName: Agent & manager workspace
-subCategoryName: Agent tools for messaging
+subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''

@@ -1,7 +1,7 @@
 ---
 pagename: Introducing the new manager tools
 categoryName: Agent & manager workspace
-subCategoryName: Agent tools for messaging
+subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
@@ -28,7 +28,7 @@ This new dashboard will boost the agent manager or team manager performance by:
 * Helping you react to situations in real time and prevent growing issues
 
 Managers will also be able to actively supervise key metrics like:
-* Queue length 
+* Queue length
 * CSAT levels
 * Agent utilization and efficiency
 
@@ -42,7 +42,7 @@ Agent managers will have real time visibility into their KPIs and aggregated per
 
 ## **2. Enhanced agent workspace & All Connections list**
 
-The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs: 
+The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs:
 * **My Connections:** The list of active and current messaging conversations that managers joined.  
 * **All Connections:** Managers use this tab to search for and view previous conversations conducted by all agents they manage.
 
@@ -51,7 +51,7 @@ The workspace where agents take and manage their messaging conversations is also
 ## **3. Visitors tab**
 
 This is the area for all live chat data and conversations.  It includes:
-* **Web visitors:** list of real time visitors to your website (where the LivePerson tag is deployed).  This includes: 
+* **Web visitors:** list of real time visitors to your website (where the LivePerson tag is deployed).  This includes:
   * Visitors before they begin a conversation (brands who deployed the tag on their website for web messaging - will see the real time visitors on this tab as well)
   * Live chat conversations
 * **Web history:** archive of closed live chat conversations

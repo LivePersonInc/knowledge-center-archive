@@ -1,9 +1,9 @@
 ---
 pagename: Tutorial
 categoryName: Agent & manager workspace
-subCategoryName: Agent tools for messaging
+subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 
+subtitle:
 level3: ''
 permalink: messaging-managers-tutorial.html
 isTutorial: false

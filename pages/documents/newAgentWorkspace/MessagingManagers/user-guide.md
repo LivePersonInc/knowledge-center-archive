@@ -1,7 +1,7 @@
 ---
 pagename: Manager workspace user guide
 categoryName: Agent & manager workspace
-subCategoryName: Agent tools for messaging
+subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
@@ -17,13 +17,13 @@ redirect_from:
 
 ## Configuration
 
-To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default. 
+To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
 
 ![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
 ### New agent workspace
 
-Here you can also control the permissions for the enhanced agent workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced agent workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced agent workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation. 
+Here you can also control the permissions for the enhanced agent workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced agent workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced agent workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
 
 ## Filters
 
@@ -57,7 +57,7 @@ The "in queue" widget presents the number of conversations currently waiting for
 
 ![](img/new-manager-workspace-10.png){:class="newagent"}
 
-## Activity summary 
+## Activity summary
 
 The metrics widget provides a high level "health check" of your group’s real-time performance. The following metrics available:
 * **ASSIGNED** - The number of open conversations currently assigned to logged in agents**. **Note:** This metric is not affected by the time filter.
@@ -79,23 +79,23 @@ This view is useful for managers who monitor a short list of agents and would li
 
 ![](img/new-manager-workspace-12.png){:class="newagent"}
 
-### List view 
+### List view
 
-This view is helpful for managers who have a large number of agents and need a list to quickly view and sort.  The list view is also very helpful when comparing metrics between agents. 
+This view is helpful for managers who have a large number of agents and need a list to quickly view and sort.  The list view is also very helpful when comparing metrics between agents.
 
 ![](img/new-manager-workspace-14.png){:class="newagent"}
 
 #### Definitions
 
 * **AGENT GROUP** - The group the agent is assigned to.
-* **SKILLS** - The skills assigned to the agent. 
+* **SKILLS** - The skills assigned to the agent.
 * **STATE** - The status of the agent: online, back soon or away. The away reason will be shown as well, if it exists. **Note:** This metric is not affected by the time filter.
 * **STATE DURATION** - Time since the agent last changed their state. **Note**: This metric is not affected by the time filter.
 * **ONLINE RATE** - The percentage of time the agent has spent in the Online state out of their total logged in time over the selected timeframe. **Note:** This metric is not affected by the time filter.
 * **ASSIGNED** - The number of open conversations being handled by the agent. **Note:** This metric is not affected by the time filter.
 * **ACTIVE** - Number of conversations at full intensity. **Note:** This metric is not affected by the time filter.
-* **MAX.OPEN** - The configured maximum number of high intensity conversations. 
-* **CLOSED** -  Number of conversations closed by the agent within the selected timeframe OR number of conversations closed by the consumer or the system within the selected timeframe while the agent is the assignee. 
+* **MAX.OPEN** - The configured maximum number of high intensity conversations.
+* **CLOSED** -  Number of conversations closed by the agent within the selected timeframe OR number of conversations closed by the consumer or the system within the selected timeframe while the agent is the assignee.
 * **LOAD** - Total weight of the assigned conversations divided by the agent’s configured maximum number of high intensity conversations. **Note:** This metric is not affected by the time filter.
 * **CSAT** - The percentage of questions which were answered with 4 or 5 (top two boxes) out of the total responses submitted by consumers to a CSAT question within the selected timeframe. Attributed to the last assigned agent of the conversation.
 
@@ -118,7 +118,7 @@ The following screenshot demonstrates the filter showing only ‘away’ agents:
 
 #### Sorting
 
-The table can be sorted by: State, Assigned, Active, Max.open and load columns. 
+The table can be sorted by: State, Assigned, Active, Max.open and load columns.
 
 ### Conversations widget
 
@@ -140,7 +140,7 @@ The list will include following columns:
 * **AGENT NAME** - The name of the agent currently assigned to the conversation.
 * **AGENT GROUP** - The group of the agent which is currently assigned to the conversation.
 * **SKILL** - The current skill of the conversation.
-* **CONSUMER** - The consumer name appears based on the available information from the messaging channel. For authenticated messaging, if the name of the consumer is known, it will appear here. For messaging channels where the name is unknown it will appear as ‘visitor’. Clicking on the consumer name will open the conversation window. 
+* **CONSUMER** - The consumer name appears based on the available information from the messaging channel. For authenticated messaging, if the name of the consumer is known, it will appear here. For messaging channels where the name is unknown it will appear as ‘visitor’. Clicking on the consumer name will open the conversation window.
 * **RESPONSE TIME** - The duration of time remaining until a response is required.
 * **START TIME** - The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer.
 * **MCS** - Meaningful Connection Score.
@@ -149,7 +149,7 @@ The list will include following columns:
 
 #### Navigating to the conversation
 
-Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/messaging-managers-all-connections.html#2-conversation-view) of the ‘All connections’ list. 
+Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/messaging-managers-all-connections.html#2-conversation-view) of the ‘All connections’ list.
 
 ![](img/new-manager-workspace-18.png){:class="newagent"}
 
@@ -157,11 +157,11 @@ Clicking on the consumer name  column will open the conversation window in the [
 
 #### Filters
 
-In addition to the group and time filters at the top of the dashboard, the list can be filtered by: 
+In addition to the group and time filters at the top of the dashboard, the list can be filtered by:
 * **STATUS** - The status of the conversation. Can be either: in-queue, assigned or closed.
 * **AGENT NAME** - Filtering by agent name will retrieve:
   * The conversations the agent is currently assigned to.
-  * Closed conversations that the agent was the last to handle. 
+  * Closed conversations that the agent was the last to handle.
 * **SKILL** - Retrieves conversations which are currently assigned with the filtered skill.
 
 ![](img/new-agent-workspace-21.png){:class="newagent"}
@@ -173,8 +173,3 @@ The list is sortable by "Response time". The list will be sorted by default by �
 ## Limitations
 
 * The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
-
- 
-
-
-
