@@ -9,7 +9,8 @@ permalink: getting-started-quick-start-guides-twilio-sms-quick-start.html
 isTutorial: true
 date: '2019-01-17T15:11:38.000+00:00'
 isNew: false
-
+redirect_from:
+  - messaging-channels-sms-twilio-sms-connector-setup.html 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919599" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -39,10 +40,10 @@ In LiveEngage, on the Campaigns page, click on **Data Sources** in the footnote.
 On the conversation sources tab, click on **Connect** in the Twilio SMS box. Click the **Activate Twilio SMS Source** button to enable the connector. Under Twilio account configuration, enter the following details from your Twilio account:
 
 * SID
-* Primary Authorization Toke 
+* Primary Authorization Toke
 * Phone number
 
-Click save. 
+Click save.
 
 ## Step 3: Test your integration
 
