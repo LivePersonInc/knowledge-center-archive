@@ -9,7 +9,8 @@ permalink: messaging-channels-sms-using-sms-with-twilio.html
 isTutorial: false
 isNew: false
 date: '2019-04-15T11:31:45.000+00:00'
-
+redirect_from:
+  - messaging-channels-sms-twilio-sms-connector-setup.html 
 ---
 ## Get started right away
 
