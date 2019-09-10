@@ -1,3 +1,7 @@
+p img {
+  margin: unset !important;
+}
+
 #defaultcontent {
     grid-column: 3 / span 6
 }
@@ -21,6 +25,11 @@
     background: url(./new-experiences.jpg) no-repeat;
     background-size: cover;
     margin-top: 45px
+}
+
+.newxTitle {
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 #documenttitlecontainer {
