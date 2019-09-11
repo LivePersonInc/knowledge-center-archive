@@ -39,10 +39,9 @@ As an agent, your workspace is a centralized location for handling all of your c
 
 The new dynamic conversation list is sorted by SLA, or response time. Conversations with the shortest SLA are the most urgent, and are therefore sorted to the top of the list. The list updates automatically after every agent action or incoming conversation, ensuring that the most important conversations are always prioritized. This allows you to efficiently work through the conversation list by always focusing your attention on the conversation at the top of the list, rather than manually determining who to help next.
 
-The conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Each conversation is assigned a color and a random icon to help you distinguish between consumers in the list.  
-Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
+The conversation list is comprehensive, including ongoing, overdue, idle, and closed conversations that are filterable by status. Each conversation is assigned a color and a random icon to help you distinguish between consumers in the list. Clicking on each conversation will allow you to read the transcript, browse different widgets and start engaging with your customers. If you choose to click on a consumer’s name, it will open up the entire conversation and you can begin messaging.
 
-![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
+![alt text](img/new-agent-workspace-5.png){:class="newagent"}
 
 #### My Connections
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
