@@ -17,6 +17,8 @@ redirect_from:
 
 ## Maven AI Platform
 
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353328389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Conversational Commerce has unlocked new channels for consumers to interact with brands on their terms. Consumer demand for messaging presents a challenge for brands to effectively handle high volumes of messaging conversations while simultaneously delivering personalized and effective service to every consumer.
 
 LivePerson’s Maven AI offers brands tools to enable efficient and personalized customer journeys at scale, while allowing brands control and transparency over how AI is used in their business.
