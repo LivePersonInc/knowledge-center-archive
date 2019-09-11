@@ -51,8 +51,13 @@ If you have permissions to view the All Connections tab, it can be used to searc
 
 All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript. 
 
+List mode: 
 
-![alt text](img/new-agent-workspace-all-connections.png){:class="newagent"}
+![alt text](img/new-agent-workspace-all-connections-list-view.png){:class="newagent"}
+
+Conversation mode: 
+
+![alt text](img/new-agent-workspace-all-connections-conversation-view.png){:class="newagent"}
 
 ### Conversation status and filters
 
