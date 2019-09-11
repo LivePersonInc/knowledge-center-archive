@@ -80,23 +80,29 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 ### Agent tools to manage conversations at scale
 
-Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
+Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. 
 
 ![](img/all-connections-6.png){:class="newagent"}
 
+[Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
+
 The Conversation Manager enables brands to connect to popular messaging services and voice assistants, along with a brand's own apps, website, and phone systems. It also integrates the myriad backend systems necessary to fulfill customer intentions, like order status updates or reservation changes.
 
-## 3. Conversation Intelligence
+![](img/new-agent-workspace.png)
+
+## 3. LiveIntent
 
 ### Real-time intent detection, analytics and reporting
 
-Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
+LiveIntent enables brands to automatically identify and record customer intent through every turn in a conversation in real time. LiveIntent analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent. It then provides a set of dashboards and reporting with actionable intelligence where brands can accesses intent-level data, and understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language.
 
-![](/img/conversational-commerce-intelligence-d.png)
+![](/img/conversational-commerce-platform-conversation-intelligence.png)
+
+The LiveIntent dashboard enables brands to optimize operations intent by intent and to build a data driven automation program.
 
 ## 4. Maven
 
-### The underlying AI engine
+### AI tools for routing and recommending actions to agents
 
 Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
 
