@@ -53,7 +53,7 @@ While the My Connections list only stores conversations that were recently handl
 
 ### Conversation status and filters
 
-The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list.
+The new conversation list includes ongoing, overdue, idle, and closed conversations. By default, ongoing, overdue and idle conversations are filtered on. Conversations with the idle or closed status can be filtered in or out of the list. Ongoing and overdue conversations **cannot** be filtered out of the conversation list. You will see at the top of the list a count of how many conversations with each status are currently in your workspace.
 
 You can filter conversations in the list by status:
 
@@ -122,11 +122,11 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations. 
 
-By default, the list will have ongoing, overdue, and idle conversations filtered on. You can filter idle and closed conversations out to keep your list concise and stay focused on the most urgent conversations.
+You should always answer the conversation at the top of the list. You can also scroll manually through the list if you need to answer another conversation. When you receive incoming conversations, they will automatically be sorted into your conversation list in the order that you should answer them, based on their SLA. Also, after you respond to a conversation it will be resorted and prioritized accordingly
 
 #### Incoming message alerts
 
-You can now see the number of incoming conversations in the top Connection bar. An orange dot will appear on the conversation in the list that has a new incoming message. 
+You can now see the number of incoming conversations in the navigation bar. A notification will appear on the Connections icon indicating the number of conversations with incoming messages, and an orange dot will appear on the conversation in the list that has a new incoming message. 
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
