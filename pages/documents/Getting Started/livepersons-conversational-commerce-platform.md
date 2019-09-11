@@ -38,7 +38,7 @@ LivePerson’s conversational commerce platform smartly brings together the myri
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
-![](/img/lp-conversational-commerce-overview-b.png)
+![](/img/lp-conv-platform-overview.png)
 
 ## Automation is the key to scalability
 
