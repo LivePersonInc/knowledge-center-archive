@@ -11,7 +11,7 @@ isTutorial: true
 isNew: false
 published: true
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353759335/18b118aeca" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353759335" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 Conversational Commerce has opened new channels for customers to interact with brands across all stages of their journey. With the growing number of customer interactions from different messaging apps, innovative companies are looking for ways to efficiently handle high-volumes of messaging conversations -- while delivering a great customer experience.
