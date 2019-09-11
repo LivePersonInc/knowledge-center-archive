@@ -18,7 +18,7 @@ layout: newAgentWorkspace
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
 
 
-![alt text](/img/new-agent-workspace-5.jpg){:class="newagent"}
+![alt text](/img/new-agent-workspace-5.png){:class="newagent"}
 
 ## What’s new?
 
