@@ -48,7 +48,10 @@ Clicking on each conversation will allow you to read the transcript, browse diff
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
 #### All Connections
-While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all your conversations that began in the last 13 months. It can be filtered and used to find previous conversations that require a follow up.
+If you have permissions to view the All Connections tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for. 
+
+All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript. 
+
 
 ![alt text](img/new-agent-workspace-all-connections.png){:class="newagent"}
 
