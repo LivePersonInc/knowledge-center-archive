@@ -33,7 +33,7 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 ## Workspace basics
 
-As an agent, your workspace is a centralized location for handling all of your conversations. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+As an agent, your workspace is a centralized location for handling all of your conversations. When you login to LiveEngage your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
 ### Dynamic conversation list
 
@@ -47,7 +47,7 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
 #### All Connections
-While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all of the conversations you have handled historically. It can be filtered and used to find previous conversations that require a follow up.
+While the My Connections list only stores conversations that were recently handled (the length of time depends on your contact center's configuration), the All Connections list includes all your conversations that began in the last 13 months. It can be filtered and used to find previous conversations that require a follow up.
 
 ![alt text](img/new-agent-workspace-all-connections.png){:class="newagent"}
 
