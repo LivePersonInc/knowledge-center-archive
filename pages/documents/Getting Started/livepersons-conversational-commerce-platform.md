@@ -38,7 +38,7 @@ LivePerson’s conversational commerce platform smartly brings together the myri
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
-![](/img/lp-cc-2b-1.png)
+![](/img/lp-conversational-commerce-overview-b.png)
 
 ## Automation is the key to scalability
 
@@ -56,7 +56,7 @@ Automation and AI underpins LivePerson’s conversational commerce. Bots and AI 
 
 The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - Maven.
 
-![](/img/lp-cc-4b-1.png)
+![](/img/lp-conversational-commerce-overview-b.png)
 
 These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered conversational commerce platform consists of:
 
@@ -80,32 +80,24 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 ### Agent tools to manage conversations at scale
 
-Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. 
+Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
 
 ![](img/all-connections-6.png){:class="newagent"}
 
-[Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
-
 The Conversation Manager enables brands to connect to popular messaging services and voice assistants, along with a brand's own apps, website, and phone systems. It also integrates the myriad backend systems necessary to fulfill customer intentions, like order status updates or reservation changes.
 
-![](img/new-agent-workspace.png)
-
-## 3. LiveIntent
+## 3. Conversation Intelligence
 
 ### Real-time intent detection, analytics and reporting
 
-LiveIntent enables brands to automatically identify and record customer intent through every turn in a conversation in real time. LiveIntent analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent. It then provides a set of dashboards and reporting with actionable intelligence where brands can accesses intent-level data, and understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language.
+Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
 
-![](/img/conversational-commerce-platform-conversation-intelligence.png)
-
-The LiveIntent dashboard enables brands to optimize operations intent by intent and to build a data driven automation program.
+![](/img/conversational-commerce-intelligence-d.png)
 
 ## 4. Maven
 
-### AI tools for routing and recommending actions to agents
+### The underlying AI engine
 
-Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers including routing conversations with AI-powered routing.
-
-![](img/lp-conversational-commerce-maven.png)
+Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
 
 Continuously learning from the agents interacting with it, Maven's [Recommended Actions](ai-bots-automation-conversation-builder-recommended-actions-with-maven.html) capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome. By incorporating automations mid-conversation, Recommended Actions also frees up agent capacity to handle other messages, making agents significantly more efficient.
