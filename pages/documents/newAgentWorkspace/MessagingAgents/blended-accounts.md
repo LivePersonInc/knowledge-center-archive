@@ -90,15 +90,21 @@ Brands can elect to forgo the benefits of the enhanced workspace and enable agen
 
 ## Blended agents within the same shift
 
-Some brands elect to have agents taking both live chat and messaging concurrently. These agents are receiving both types of conversations in the same workspace:
+Some brands have agents who respond to both live chat and messaging concurrently. These agents will receive both types of conversations in different workspaces:
 
-* Web visitors: lists all active live chats
+* Messaging conversations: Will arrive to the “Agent Workspace for messaging” module
+   * My Connections: The My Connections list includes all of the recent conversations that were assigned to you, including          conversations that were recently closed. 
+   * All Connections: The All Connections list includes all of the conversations you have handled historically
 
-* Open connections: lists their open messaging conversations
+
+* Live Chat conversations: Will arrive to the “Agent Workspace for chat” module
+   * Web visitors: lists all active live chats
+
 
 * Lists are combined on the bottom orbs bubbles (both chat and messaging) - most agents click on the bubbles to answer
 
 * Same ‘accept’ button for both incoming chats and messages
+
 
 ![image alt text](img/blended-chat-and-messaging.png){:class="newagent"}
 
