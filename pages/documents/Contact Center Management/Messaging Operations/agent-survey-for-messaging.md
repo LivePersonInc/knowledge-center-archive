@@ -16,6 +16,9 @@ isNew: false
 
 LiveEngage enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
 
+{: .notice}
+**Please note:** The agent survey for messaging is **not** currently available for the enhanced agent workspace. 
+
 ## Configuring the agent survey
 
 {: .notice}
