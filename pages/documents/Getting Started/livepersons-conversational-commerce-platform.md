@@ -82,7 +82,7 @@ Brands can leverage the Conversation Builder’s pre-built templates as automati
 
 Offering an agent and manager [workspace](agent-manager-workspace-agent-tools-for-messaging-workspace-basics.html) for contact centers to monitor and support messaging conversations, the Conversation Manager is the only platform that allows a bot and human agent to “tango” to manage the same conversation. [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html), [Meaningful Connection Score (MCS)](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), and other proprietary LivePerson features, along with world-class routing, [metrics and KPIs](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html) gives brands the power to manage messaging conversations at scale.
 
-![](/img/conversational-commerce-conversation-manager.png)
+![](/img/all-connections-6.png)
 
 The Conversation Manager enables brands to connect to popular messaging services and voice assistants, along with a brand's own apps, website, and phone systems. It also integrates the myriad backend systems necessary to fulfill customer intentions, like order status updates or reservation changes.
 
