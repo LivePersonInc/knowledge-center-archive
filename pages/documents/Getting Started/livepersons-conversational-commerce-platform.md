@@ -104,6 +104,8 @@ The LiveIntent dashboard enables brands to optimize operations intent by intent 
 
 ### AI tools for routing and recommending actions to agents
 
-Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
+Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers including routing conversations with AI-powered routing.
+
+![](img/lp-conversational-commerce-maven.png)
 
 Continuously learning from the agents interacting with it, Maven's [Recommended Actions](ai-bots-automation-conversation-builder-recommended-actions-with-maven.html) capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome. By incorporating automations mid-conversation, Recommended Actions also frees up agent capacity to handle other messages, making agents significantly more efficient.
