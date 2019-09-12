@@ -18,13 +18,11 @@ Messaging load distribution is a routing capability that allows brands to define
 
 To ensure the optimal division of workload between agents sharing the same skill, conversation volumes can be spread between agent groups.
 
-This allocation method, especially useful for large enterprises that utilize 'agent groups' for separate departments, subcontractor vendors or call centers, ensures that the volume of chats is automatically distributed, preventing long wait times.
+This allocation method, especially useful for large enterprises that utilize 'agent groups' for separate departments, subcontractor vendors or call centers, ensures that the volume of conversations is automatically distributed.
 
-For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 50% of the workload and Agent Group B, representing another vendor, can be set to receive the remaining 50%.
+For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 40% of the workload and Agent group B & C, representing two other vendors, can be set to receive 30% each.
 
 ![](/img/load-balancing.png)
-
-In case either Agent Group becomes unavailable (i.e. the maximum wait time for the Skill is exceeded) due to understaffing or other issues, the workload can be set to be distributed to the other Agent Group.
 
 ### To enable advanced workload distribution:
 
