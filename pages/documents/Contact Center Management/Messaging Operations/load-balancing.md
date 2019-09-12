@@ -43,8 +43,6 @@ Advanced workload distribution needs to be activated through your LivePerson Acc
 
 ## Balance of workload between agent groups
 
-In the event of a particularly high flow of chats to one or more agent group, the traffic can be set to transfer, or ‘cascade’, to other specified agent groups.
-
 For example, consumers normally directed to an agent group speaking their native language can be sent to another language group if the first becomes overloaded. Agent Group A is the primary group assigned to handle the Sales Spanish language Skill. Should this group become unavailable, chats can be set to cascade to Agent Group B - the secondary group assigned to handle that Skill.
 
 ![](/img/workload-distribution-between-agent-groups-4b.png)
