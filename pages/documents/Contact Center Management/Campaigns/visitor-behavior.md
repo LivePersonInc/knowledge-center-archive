@@ -34,7 +34,6 @@ Here is a list of the currently available conditions:
 ### 1. Flow:
 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
-
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
@@ -151,15 +150,13 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
-
-![](/img/visitor-behavior-9.gif)
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 {:start="5"}
-5\. After saving the flow, it will appear in the flows list.
-6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7\. Click to save visitor behavior.
+5. After saving the flow, it will appear in the flows list.
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
@@ -185,17 +182,15 @@ To set up an Engagement for Visitor Back Flow:
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
 
-![](/img/visitor-behavior-8.gif)
+![](/img/visitor-behavior-8.png)
 
 {:start="5"}
-
 1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 2. Click Flow.
 
-![](/img/visitor-behavior-9.gif)
+![](/img/visitor-behavior-9.png)
 
 {:start="7"}
-
 1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
 3. Save the changes and publish the campaign.
