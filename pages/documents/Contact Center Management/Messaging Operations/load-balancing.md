@@ -1,12 +1,12 @@
 ---
-pagename: Load balancing
+pagename: Static load balancing
 categoryName: Contact center management
 subCategoryName: Messaging operations
-indicator: chat
+indicator: messaging
 subtitle: Manage load balance efficiently between agent groups using LivePerson's
   Advanced Workload Distribution
 level3: ''
-permalink: contact-center-management-messaging-operations-load-balancing.html
+permalink: contact-center-management-messaging-operations-static-load-balancing.html
 isTutorial: false
 isNew: false
 
