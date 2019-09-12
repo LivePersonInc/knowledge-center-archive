@@ -65,7 +65,7 @@ You can define multiple shifts for a single day of the week by doing the followi
 2. Save the page.
 3. The new scheduling item will now appear in the schedule library. Click it in order to choose it for your current campaign.
 
-   ![](/img/time-frame-4.png)
+![](/img/time-frame-4.png)
 
 {:start="4"}
 4. Click **done.**
