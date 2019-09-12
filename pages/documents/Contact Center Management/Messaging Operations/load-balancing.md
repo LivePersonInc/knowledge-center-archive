@@ -41,23 +41,20 @@ Advanced workload distribution needs to be activated through your LivePerson Acc
 
 ![](/img/loadbalancing2.png)
 
-## Balance of workload between agent groups
-
-For example, consumers normally directed to an agent group speaking their native language can be sent to another language group if the first becomes overloaded. Agent Group A is the primary group assigned to handle the Sales Spanish language Skill. Should this group become unavailable, chats can be set to cascade to Agent Group B - the secondary group assigned to handle that Skill.
-
-![](/img/workload-distribution-between-agent-groups-4b.png)
-
-In a similar way, should internal agent teams become too busy, consumers can then be directed to external vendors. The percentage allocation per group will determine the exact workload distribution between them.
-
-![](/img/workload-distribution-between-agent-groups-5b.png)
-
-**To cascade workload to backup groups:**
-
-1. In the Advanced Workload Distribution section, click **+Add secondary groups**.
-2. To cascade the workload between the secondary agent group(s), **select a group** from the dropdown menu and allocate a percentage to that group.
-3. To add another agent group, click **+Add agent group** and complete the allocation.
-
-   Note: ensure the total % allocated to all groups adds up to 100%.
-4. Click **Save**.
-
 ![](/img/loadbalancing3.png)
+
+## How it works
+
+**Step 1:** A Conversation starts on skill A. It has no allocated group.
+
+**Step 2:** A group is allocated to the conversation based on the skill configuration. For example:
+
+Group 1 = 60%
+
+Group 2 = 40%
+
+**Step 3:** Only agents from the allocated group can get assigned to the conversation
+
+**Step 4:** The conversation will maintain its group assignment until it is closed or transferred outside the group
+
+{: .notice}
