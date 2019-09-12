@@ -85,3 +85,11 @@ Using the Report Builder the brand is able to view the overall opened conversati
 * View the percentage of the messages that were assigned to a group of agents and their overall volume out of the total volume 
 
 \* A conversation will be attributed to an agent group when an agent accepts the conversation.
+
+**Will the static load balancing affect the Queue Prioritization feature?**
+
+The Queue Prioritization feature will continue to function in a similar way as it did before using Load Balancing. Top conversations will be assigned to agents from the allocated group only.
+
+**Can we move conversations from one group to another in case of a contact center strike for example?**
+
+Yes, by using the fallback configuration per skill your brand will be able to redirect conversations to a skill that would change the group allocation. Then you will be able to transfer the conversations back to the original skill and have the load balancing avoid a specific contact center.
