@@ -27,7 +27,7 @@ To get the most basic version of chat up and running, brands need to insert a ge
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
-![](/img/chat-with-new-nav.jpg)
+![](/img/chat-workspace.jpg)
 
 {: .notice}
 The basic set up means there will be no routing - every agent will receive all messages

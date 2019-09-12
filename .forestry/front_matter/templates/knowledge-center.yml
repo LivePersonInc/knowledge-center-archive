@@ -136,16 +136,16 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- _release/September 2019/Release notes- week of Sept 9.md
+- pages/documents/Contact Center Management/Messaging Operations/load-balancing.md
+- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
+- pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
-- pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
 - pages/documents/Agent and manager workspace/LiveEngage App/LiveEngage App.md
 - pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md
 - pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
-- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
 - pages/documents/developer-tools-overview.md
 - pages/documents/Messaging Channels/SMS/sms-best-practices.md
