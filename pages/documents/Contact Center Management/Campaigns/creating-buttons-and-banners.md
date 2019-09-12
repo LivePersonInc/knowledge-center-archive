@@ -51,6 +51,24 @@ Sticky buttons stay in the same place relative to the screen, so even when the u
 
 ![](/img/creating-buttons-and-banners-3.png)
 
+Two new sticky engagement invitations were added to the engagement template library to improve consumer experience an to ease customization and branding.
+
+The new invitations are: 
+* Small round bubble only (no text)
+* Rectangle with bubble and editable text “Message us” (this is now the default for new accounts and new engagements)
+
+Message us engagement: 
+
+![](/img/week-of-august-5th-8.png){:class="newagent"}
+
+Rounded bubble engagement:
+
+![](/img/week-of-august-5th-7.png){:class="newagent"}
+
+As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message. 
+
+![](/img/week-of-august-5th-16.png){:class="newagent"}
+
 ### Slide-out engagements
 
 A slide-out engagement is very similar to a sticky engagement, except for the way it appears on the page. It is configured in two parts: a small sticky engagement is displayed first. When clicked, a larger banner slides out from the side of the screen. This engagement is useful when you want to draw consumers in with an engagement and then offer them more detailed information in the banner.
