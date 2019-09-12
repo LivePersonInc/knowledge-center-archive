@@ -9,7 +9,6 @@ level3: ''
 permalink: contact-center-management-messaging-operations-load-balancing.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 Messaging load distribution is a routing capability that allows brands to define how would the messaging load gets distributed between different agent groups. This kind of capability is a necessity for brands that outsource their messaging operations and must meet clear contractual obligations and maintain control over which vendor handles which percentage of the total brand messaging traffic. The feature allows the brand to define that a specific agent group is correlated with a specific vendor with a pre-assigned percentage and define, per skill, the way that the load will be distributed between the agent groups.
