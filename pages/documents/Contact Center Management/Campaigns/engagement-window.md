@@ -26,7 +26,6 @@ To provide a consistent experience across devices, you can design identical enga
 ![](/img/engagement-window-1.png)
 
 {:start="2"}
-
 1. Hover over an existing window design and click **Edit** or click **Add new** to design a new window. Once you have designed the window it will be added to your Engagement window library for future use.
 2. After clicking **Add new,** the Engagement window studio opens.
 
@@ -105,8 +104,6 @@ You can fully customize the chat window to suit your brand by changing the color
 
 ![](/img/engagement-window-7.png)
 
-![](/img/engagement-window-8.png)
-
 ### To add and edit surveys:
 
 Click the **Views** drop-down menu to view the list of surveys. Then do one or more of the following:
@@ -167,7 +164,7 @@ In order to define the agent’s picture in the selected engagement window, foll
 
 {:start="3"}
 
-1. In the engagement window category, find the agent picture row
+1. In the look and feel dropdown find the agent picture row
 2. In the value column, select **Yes** from the dropdown menu in order to enable agent picture for the selected engagement window
 3. Click **Save**
 
