@@ -23,7 +23,7 @@ Connect Facebook Messenger to LiveEngage.
 
 Login to [LiveEngage](https://authentication.liveperson.net/) and click the **Campaigns** tab at the top of your screen. Click on **Data Sources** in the Campaigns footnote.
 
-![](img/data-sources.png)
+![](img/data-sources.png){:class="newagent"}
 
 Click **Connect** in the Facebook Messenger tile.
 
