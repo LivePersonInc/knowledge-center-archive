@@ -3,7 +3,8 @@ pagename: Load balancing
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: chat
-subtitle: ''
+subtitle: Manage workloads efficiently between agent groups using LivePerson's Advanced
+  Workload Distribution
 level3: ''
 permalink: contact-center-management-messaging-operations-load-balancing.html
 isTutorial: false
