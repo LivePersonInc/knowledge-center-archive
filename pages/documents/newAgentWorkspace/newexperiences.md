@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 <div class="homeTopText">
-<span class="homepageSubtitle">As we embark on a new journey of redesigning our LiveEngage product, by Sept 16th, all brands using LivePerson will begin seeing this exciting new UI</span>. The first thing you’ll notice is the new navigation bar displaying to all users.  
+<span class="homepageSubtitle">As we embark on a new journey of redesigning our LiveEngage product, by Sept 16th, all brands using LivePerson will begin seeing an exciting new UI</span>. The first thing you’ll notice is the new navigation bar displaying to all users.  
 
 <div class="notice">
 For the first time, in order to help you prepare for this UI change, we are publishing a release schedule. You will receive the new navigation bar on:
@@ -51,11 +51,11 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 ## Managers of messaging conversations: new workspace & new home page
 
-* **Who will get this**: Users who have ‘agent manager’ role + manage asynchronous messaging agents
+* **Who will get this**: Users who have the ‘agent manager’ role + manage asynchronous messaging agents
 
 * **What do I have to do to see this?** Nothing. This will be available as the home page for managers who  log in after the above date.
 
-* **Can I control who sees this?** Yes.  In user management > profiles, you can turn off the ‘view agent manager workspace’ permission.
+* **Can I control who sees this?** Yes.  In user management > profiles, you can turn off the 'view agent manager workspace' permission.
 
 * **What it will look like after the above date**:
 
@@ -68,9 +68,9 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 ## Agents of messaging conversations: enhanced workspace
 
-* **Who will get this**: Users who have ‘agent’ role + conduct asynchronous messaging
+* **Who will get this**: Users who have the ‘agent’ role + conduct asynchronous messaging
 
-* **What do I have to do to see this?** Turn the enhanced workspace to ON in  user management > profiles > ‘use enhanced agent workspace’.<br> (Note: no agent will see this workspace until you turn it on for them)
+* **What do I have to do to see this?** Turn the enhanced workspace to ON in  user management > profiles > 'use enhanced agent workspace'.<br> (Note: no agent will see this workspace until you turn it on for them)
 
 * **What it will look like after you enable the permission**:
 

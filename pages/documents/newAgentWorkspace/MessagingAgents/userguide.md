@@ -47,15 +47,15 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
 #### All Connections
-If you have permissions to view the All Connections tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for. 
+If you have permissions to view the All Connections tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
 
-All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript. 
+All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
 
-List mode: 
+**List mode**:
 
 ![alt text](img/new-agent-workspace-all-connections-list-view.png){:class="newagent"}
 
-Conversation mode: 
+**Conversation mode**:
 
 ![alt text](img/new-agent-workspace-all-connections-conversation-view.png){:class="newagent"}
 
@@ -74,8 +74,8 @@ You can filter conversations in the list by status:
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
-{: .notice} 
-**Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist. 
+{: .notice}
+**Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist.
 
 ### Your personal data bar
 
@@ -101,24 +101,24 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below. 
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below.
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| MOVE to the next conversation (NEW) |  CTRL ` M  |
-| COPY as plain text (NEW) | CTRL ` C  |
-| ACCEPT a new incoming conversation| CTRL ` A |
-| TRANSFER conversation to another skill | CTRL  ` E |
-| Return conversation to QUEUE | CTRL  ` Q |
-| CLOSE conversation | CTRL  ` X |
-| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
-| LOGOUT of the agent workspace | CTRL  ` L |
+| MOVE to the next conversation (NEW) |  CTRL + ` + M  |
+| COPY as plain text (NEW) | CTRL + ` + C  |
+| ACCEPT a new incoming conversation| CTRL + ` + A |
+| TRANSFER conversation to another skill | CTRL + ` + E |
+| Return conversation to QUEUE | CTRL + ` + Q |
+| CLOSE conversation | CTRL + ` + X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL + ` + S |
+| LOGOUT of the agent workspace | CTRL + ` + L |
 
 ## Managing messaging conversations
 
 ### Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list. 
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
 
 ![alt text](img/Agent menu open.png){:class="newagent"}
 
@@ -128,13 +128,13 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ### Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations. 
+The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations.
 
 You should always answer the conversation at the top of the list. You can also scroll manually through the list if you need to answer another conversation. When you receive incoming conversations, they will automatically be sorted into your conversation list in the order that you should answer them, based on their SLA. Also, after you respond to a conversation it will be resorted and prioritized accordingly
 
 #### Incoming message alerts
 
-You can now see the number of incoming conversations in the navigation bar. A notification will appear on the Connections icon indicating the number of conversations with incoming messages, and an orange dot will appear on the conversation in the list that has a new incoming message. 
+You can now see the number of incoming conversations in the navigation bar. A notification will appear on the Connections icon indicating the number of conversations with incoming messages, and an orange dot will appear on the conversation in the list that has a new incoming message.
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
@@ -172,11 +172,11 @@ There are several tools in place to help you access the information you’ll nee
 
 #### Predefined Content
 
-You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses. 
+You can reply by using free text, but we recommend using predefined content. Your contact center manager would have created a set of quick answers to the most common inquiries that you can easily enter into the conversation. By choosing predefined content templates, you can lower your average response time by saving time that would have been spent typing out responses.
 
 ![image alt text](img/predefinedcontent.png)
 
-Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display. 
+Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display.
 
 #### Rich messaging
 
@@ -184,13 +184,13 @@ There are many tools at your disposal that can be used to foster relationships a
 
 The following types of rich messaging are being supported for the enhanced agent workspace:
 * Structured content cards and carousels
-* Consumer to agent photo sharing 
-* Consumer to agent audio sharing 
-* Agent to consumer file sharing 
+* Consumer to agent photo sharing
+* Consumer to agent audio sharing
+* Agent to consumer file sharing
 
 ### Additional actions
 
-While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
+While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts.
 
 ![alt text](img/agent-workspace-additional-actions.png)
 
@@ -210,7 +210,7 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 #### CoBrowse
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Connections list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html). 
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Connections list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
 
 ## Closing conversations
 
@@ -222,7 +222,7 @@ At the end of your shift or during downtime you can use the status filter to fil
 
 ![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 
-### Surveys 
+### Surveys
 
 **Post Conversation Survey:** Upon the closing of a conversation (whether done by the customer, by you or automatically) the Post Conversation Survey will be triggered to the customer (as defined by your brand). This survey is comprised of CSAT, NPS or other custom questions. The CSAT scores calculated for your performance in the KPI bar are derived from results calculated from the Post Conversation Survey.
 
@@ -248,5 +248,4 @@ For conversations that are awaiting a consumer response, the auto close mechanis
 * Determine which conversations you want to continue servicing the next day, let the customers know, and manually set the SLA for the next day
 * For conversations that should continue immediately - return them to the queue so that another agent will be able to answer the consumer (you can leave notes to help your colleagues in the summary section)
 * Filter closed conversations into the list to review the conversations you handled during the shift and ensure that everything has been documented properly.
-* If you filtered out the idle conversations, be sure to filter them back into the list and return them to the queue before you wrap up your shift, otherwise they will remain assigned to you and go unanswered until your next login. 
-
+* If you filtered out the idle conversations, be sure to filter them back into the list and return them to the queue before you wrap up your shift, otherwise they will remain assigned to you and go unanswered until your next login.
