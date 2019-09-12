@@ -5,7 +5,9 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-hiring-agents-for-messaging-success.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-manager-workspace-for-messaging-hiring-agents-for-messaging-success.html
+redirect_from:
+  - agent-manager-workspace-manager-tools-for-messaging-hiring-agents-for-messaging-success.html
 isTutorial: false
 isNew: false
 date: 2019-04-15 12:17:36 +0000
@@ -118,9 +120,9 @@ The following is an example of a candidate interview guide to be modified as app
 
 ### Technology literacy
 
-{:start="9"} 
-9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications? 
-10. What do you use the internet for? Tell me about your experiences looking for information on the net. 
+{:start="9"}
+9. Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
+10. What do you use the internet for? Tell me about your experiences looking for information on the net.
 11. What is e-commerce? Have you ever used it? Give examples. 12. Have you ever used on-line chat? Describe how and your opinion of the tool you used.
 
 ### Competitive team environment

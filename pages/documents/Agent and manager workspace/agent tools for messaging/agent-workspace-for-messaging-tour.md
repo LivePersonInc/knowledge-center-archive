@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-agent-workspace-for-messaging-tour.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html
 isTutorial: false
 date: 2019-01-21 09:21:27 +0000
 isNew: false

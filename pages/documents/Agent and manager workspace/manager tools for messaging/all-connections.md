@@ -5,7 +5,9 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-manager-workspace-for-messaging-the-messaging-agents-list.html
+redirect_from:
+  - agent-manager-workspace-manager-tools-for-messaging-all-connections.html
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false

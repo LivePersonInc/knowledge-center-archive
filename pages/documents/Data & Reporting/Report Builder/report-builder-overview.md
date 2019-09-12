@@ -63,9 +63,9 @@ The selection of predefined dashboards includes:
 6. [Performance dashboard for messaging](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)* - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
 7. [Survey dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)* - Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
 
-Key: 
+Key:
 
-'* - available dashboards for chat and messaging 
+'* - available dashboards for chat and messaging
 
 \** - only available for chat
 
@@ -92,3 +92,34 @@ LivePerson is continuously working on enhancing the Report Builder. In 2018/2019
   2. Skill Activity Grid - Daily & Monthly
   3. Survey Activity Grid - Daily & Monthly
   4. Goal Tracker Grid
+
+### Exporting to PDF
+
+Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
+layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
+
+![](img/export-to-pdf.png)
+
+### PDF scheduling
+
+New scheduling to a PDF file format will soon be available. In addition, setting the scheduling to PDF format can be done within the dashboard. Go to the file menu and select ‘Schedule Delivery to email’.
+
+![](img/pdf-scheduling.png)
+
+### Personalized view
+
+Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.
+
+To create and save a personal view go to the file menu, select ‘Create Personal View’ and change the name to a meaningful name.
+
+To run a personal view, after launching the Report Builder , select ‘My Subscriptions’ where you will see all your personal view subscriptions
+In the personal view subscriptions area, click the name of the personal view to run or edit it.
+
+For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
+
+![](img/personalized-view.png)
+
+{: .notice}
+These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Report Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
+
+![](img/pallete.png)

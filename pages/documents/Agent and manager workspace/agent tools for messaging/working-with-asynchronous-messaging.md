@@ -6,7 +6,9 @@ indicator: messaging
 subtitle: Agents using messaging to make sales or provide service have the full suite
   of LivePerson tools at their disposal to be successful
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-working-with-asynchronous-messaging.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-working-with-asynchronous-messaging.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-working-with-asynchronous-messaging.html
 isTutorial: false
 date: 2019-01-21 09:13:27 +0000
 

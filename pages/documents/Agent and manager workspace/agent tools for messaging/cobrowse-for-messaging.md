@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: Offer an enhanced, visual consumer experience for messaging
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-cobrowse-for-messaging.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html
 isTutorial: false
 isNew: false
 date: '2019-01-30T14:28:09.000+00:00'
@@ -45,7 +47,7 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
 * Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy.
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
-* Sessions are not recorded or stored (and there is not currently a workaround). There are plans to add this functionality in the next year. 
+* Sessions are not recorded or stored (and there is not currently a workaround). There are plans to add this functionality in the next year.
 
 ## Configuration
 

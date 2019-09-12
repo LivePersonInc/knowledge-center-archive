@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-icons-for-messaging.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-agent-workspace-icons-for-messaging.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-agent-workspace-icons-for-messaging.html
 isTutorial: false
 date: 2019-01-21 11:18:27 +0000
 isNew: false
@@ -15,7 +17,7 @@ isNew: false
 
 The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
 
-  
+
 ![](/img/agent-workspace-icons-messaging-1.png)
 
 | Icon | Meaning |
@@ -37,7 +39,7 @@ The all connections list displays every one of your brand’s messaging conversa
 
 The open connections tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.
 
-  
+
 ![](/img/agent-workspace-icons-messaging-2b.png)
 
 | Icon | Meaning |

@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-understanding-agent-performance.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
 isTutorial: false
 date: 2019-01-21 11:05:20 +0000
 isNew: false
