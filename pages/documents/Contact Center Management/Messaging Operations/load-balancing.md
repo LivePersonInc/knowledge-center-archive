@@ -3,8 +3,8 @@ pagename: Load balancing
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: chat
-subtitle: Manage workloads efficiently between agent groups using LivePerson's Advanced
-  Workload Distribution
+subtitle: Manage load balance efficiently between agent groups using LivePerson's
+  Advanced Workload Distribution
 level3: ''
 permalink: contact-center-management-messaging-operations-load-balancing.html
 isTutorial: false
@@ -12,9 +12,7 @@ isNew: false
 published: false
 
 ---
-A priority of any a contact center is to provide a rapid and personalized service at all times. Even when, for example, a brand's billing page goes down, or they are hit by hectic holiday volumes. By effectively distributing conversation traffic between agent groups, LivePerson ensures a brand's consumers will always be answered as quickly and as efficiently as possible - which can be particularly challenging for brands working with large numbers of agent groups, or with groups spread across different locations.
-
-The LivePerson load balancing feature automatically distributes the incoming workload, defined by skill, between agent groups according to a pre-assigned percentage. In addition, brands are now able to define their own cascading policy; indicating what the workload allocation should be in cases where an agent group has limited or no availability.
+Messaging load distribution is a routing capability that allows brands to define how would the messaging load gets distributed between different agent groups. This kind of capability is a necessity for brands that outsource their messaging operations and must meet clear contractual obligations and maintain control over which vendor handles which percentage of the total brand messaging traffic. The feature allows the brand to define that a specific agent group is correlated with a specific vendor with a pre-assigned percentage and define, per skill, the way that the load will be distributed between the agent groups.
 
 ## Distribution of workload between agent groups
 
