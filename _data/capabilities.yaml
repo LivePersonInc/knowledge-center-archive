@@ -51,7 +51,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "N/A in Channel"
   - featureName: Delivered indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -64,7 +64,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "N/A in Channel"
   - featureName: Delivered indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -74,10 +74,10 @@
     - facebook: "Supported"
     - whatsapp: "Supported"
     - googleRCS: "Supported"
-    - line: "N/A in Channel"
+    - line: "Supported"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "Supported"
   - featureName: In-thread new messages notification
     channels:
     - mobileAppMessaging: "Supported"
@@ -89,8 +89,8 @@
     - googleRCS: "Supported"
     - line: "Supported"
     - messagingWindowAPI: "N/A in Channel"
-    - connectorAPI: "N/A in Channel"
-    - weChat: "Not Supported"
+    - connectorAPI: "Supported"
+    - weChat: "N/A in Channel"
   - featureName: Hyperlinked regular expressions
     tooltip: 'For auto-linking of phone numbers, dates, url, etc.'
     channels:
