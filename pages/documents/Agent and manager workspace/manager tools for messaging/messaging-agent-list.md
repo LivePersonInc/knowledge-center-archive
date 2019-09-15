@@ -5,7 +5,7 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-manager-workspace-for-messaging-all-connections.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-the-messaging-agents-list.html
 isTutorial: false
 date: 2019-01-21 11:35:54 +0000
 redirect_from:
