@@ -188,6 +188,10 @@ The following types of rich messaging are being supported for the enhanced agent
 * Consumer to agent audio sharing 
 * Agent to consumer file sharing 
 
+#### Recommended Actions 
+
+Recommended Actions use LivePerson's Maven AI to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Recommended Actions, which were previously available in a separate widget, will now be available inline in your messaging conversations to improve usability and engagement. Recommended actions include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article. 
+
 ### Additional actions
 
 While conducting a conversation, there are a few actions you can take. Click on the three white dots that appear in the top right of the conversation view. Here you will see a menu of actions with their corresponding shortcuts. 
