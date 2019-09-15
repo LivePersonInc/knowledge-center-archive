@@ -46,7 +46,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="3"}
 3\. Select a message to edit. The Edit Automatic Message page is displayed.
 
-![](/img/automatic-messages-messaging-4b.png)
+![](/img/automatic-messages.png)
 
 {:start="4"}
 4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
