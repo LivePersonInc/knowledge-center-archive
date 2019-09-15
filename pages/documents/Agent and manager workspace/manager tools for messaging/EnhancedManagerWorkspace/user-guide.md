@@ -106,7 +106,7 @@ In addition to the time and group filter available in the top right corner of th
 
 * **STATE** - Clicking on each status button will filter the agents widget to show only agents in this status. In addition, managers will be able to view how many agents are at each one of the states.
 
-![](img/new-manager-workspace-15.png){:class="newagent"}
+![](img/new-manager-workspace-15.png)
 
 The following screenshot demonstrates the filter showing only ‘away’ agents:
 
