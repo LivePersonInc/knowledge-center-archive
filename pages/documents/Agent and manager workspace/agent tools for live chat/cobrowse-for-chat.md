@@ -79,12 +79,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 ![](/img/cobrowse-for-live-chat-2.png)
 
 {:start="2"}
-2\. Click Agent Workspace Configuration.
-
-![](/img/cobrowse-for-live-chat-3.png)
-
-{:start="3"}
-3\. Click Edit next to the CoBrowse configuration.
+2. Click Edit next to the CoBrowse configuration.
 
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
 * Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
@@ -104,42 +99,31 @@ The following CoBrowse elements can also be configured:
 {: .important}
 **Note:** Special characters in selectors must be escaped with a '\\' e.g. #id\\@123
 
-![](/img/cobrowse-for-messaging-4.png)
+![](/img/cobrowse-for-live-chat-3.png)
 
-{:start="4"}
-4\. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
+{:start="3"}
+3. Set the required CoBrowse configuration and click Save. When agents click the CoBrowse button within the chat, they will now see the relevant CoBrowse options based on the configurations you have made.
 
 ![](/img/cobrowse-chat-6.png)
 
 ## Initiating CoBrowse
 
 1. From the chat window, click the CoBrowse icon.
-
-![](/img/cobrowse-for-live-chat-7.png)
-
-{:start="2"}
-2\. Choose the session type:
-
+2. Choose the session type:
 * CoBrowse - View Only enables you to view the visitor’s screen only.
 * CoBrowse - Shared gives you full control over the current browser tab.
-
-{:start="3"}
-3\. The visitor receives a notification asking them to accept the CoBrowse session.
+3. The visitor receives a notification asking them to accept the CoBrowse session.
 
 ![](/img/cobrowse-for-live-chat-8.png)
 
 {:start="4"}
-4\. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
+4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](/img/cobrowse-for-live-chat-9.png)
+![](/img/cobrowse-for-live-chat-9.jpg)
 
 {:start="5"}
-5\. On the visitor or **consumer side**, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
-
-![](/img/cobrowse-for-live-chat-10.png)
-
-{:start="6"}
-6\. The visitor can close the session at any time by clicking the X at the top of the orange frame.
+5. On the visitor or **consumer side**, when the CoBrowse session begins, a frame is displayed around the browser tab, indicating an active session. While CoBrowsing, credit card and password fields are automatically masked.
+6. The visitor can close the session at any time by clicking the X at the top of the frame.
 
 To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
 
