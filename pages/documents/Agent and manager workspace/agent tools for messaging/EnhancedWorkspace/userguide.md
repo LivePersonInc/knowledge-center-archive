@@ -105,14 +105,14 @@ To save you time - there are seven hotkeys configured on your workspace for some
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| MOVE to the next conversation (NEW) |  CTRL ` M  |
-| COPY as plain text (NEW) | CTRL ` C  |
-| ACCEPT a new incoming conversation| CTRL ` A |
-| TRANSFER conversation to another skill | CTRL  ` E |
-| Return conversation to QUEUE | CTRL  ` Q |
-| CLOSE conversation | CTRL  ` X |
-| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
-| LOGOUT of the agent workspace | CTRL  ` L |
+| MOVE to the next conversation (NEW) |  CTRL + ` + M  |
+| COPY as plain text (NEW) | CTRL + ` + C  |
+| ACCEPT a new incoming conversation| CTRL + ` + A |
+| TRANSFER conversation to another skill | CTRL + ` + E |
+| Return conversation to QUEUE | CTRL + ` + Q |
+| CLOSE conversation | CTRL + ` + X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL + ` + S |
+| LOGOUT of the agent workspace | CTRL + ` + L |
 
 ## Managing messaging conversations
 
