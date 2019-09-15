@@ -1,7 +1,7 @@
 ---
 pagename: Week of May 20th
 categoryName: Release notes
-subCategoryName: 2019
+subCategoryName: "2019"
 indicator: messaging
 subtitle: ''
 level3: May
@@ -9,6 +9,7 @@ permalink: release-notes-2019-may-week-of-may-20th.html
 isTutorial: false
 isNew: false
 date: 2019-05-20
+
 ---
 These release notes include new features arriving to LiveEngage during May 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -20,7 +21,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## \[ABC\] Enhance List Picker multi selection option
 
 ### Type: enhancement
-
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -203,7 +203,6 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 
 ### Type: enhancement
 
-
 <div class="tablecontainer">
 <table class="releasenotes">
 <thead>
@@ -245,7 +244,6 @@ Brands who sign the security waiver will be able to configure the sandbox attrib
 
 **Dependencies:**
 
-* Brands who want to remove the sandbox attribute, will have to sign a security waiver
 * site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
 
 ## New minimize window icon (CX-286)
