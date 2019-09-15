@@ -67,7 +67,7 @@ Click **Save**.
 
 1. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
 
-![](/img/automatic-messages-messaging-8b.png)
+![](/img/automatic-messages-messaging-8b.png) 
 
 {:start="2"}
 2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
@@ -285,7 +285,7 @@ This applies for the off hours **auto messages** only; it does not affect any ot
 
 1. Click the downward arrow next to the user name and click "Shift Scheduler"
 
-![](/img/automatic-messages-messaging-17b.png)
+![](/img/Agent menu open.png)
 
 2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
 
