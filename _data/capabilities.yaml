@@ -12,7 +12,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "N/A in Channel"
   - featureName: Typing indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
@@ -25,7 +25,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "N/A in Channel"
   - featureName: Read indication - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"
@@ -38,7 +38,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Supported"
     - connectorAPI: "Supported"
-    - weChat: "Not Supported"
+    - weChat: "N/A in Channel"
   - featureName: Read indication - agent to consumer
     channels:
     - mobileAppMessaging: "Supported"
