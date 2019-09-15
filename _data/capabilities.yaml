@@ -477,7 +477,7 @@
     - messagingWindowAPI: "Coming Q3"
     - connectorAPI: "Coming Q3"
     - weChat: "Coming Q3"
-  - featureName: LiveDeflect support
+  - featureName: SmartConnect support
     tooltip: 'Brand initiated conversation.'
     channels:
     - mobileAppMessaging: "Not Supported"
