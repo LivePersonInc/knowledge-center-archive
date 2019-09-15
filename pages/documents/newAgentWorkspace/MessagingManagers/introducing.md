@@ -12,8 +12,6 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-<div class="important">LivePerson's new agent manager workspace is currently available only to <strong>Early Adopters</strong>. If you'd like to become one and have the new workspace enabled for you, please contact your account team</div>
-
 ![](img/all-connections-6.png){:class="newagent"}
 
 **The new experience for managers includes three components:**
