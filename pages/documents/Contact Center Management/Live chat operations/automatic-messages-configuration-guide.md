@@ -29,12 +29,12 @@ LivePerson has a default set of messages configured at the account level. Messag
 1. Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
-![](/img/automatic-messages-chat-3b.png)
+![](/img/automatic-messages-library.png)
 
 {:start="3"}
 3\.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
-![](/img/automatic-messages-chat-4b.png)
+![](/img/automatic-messages-livechat-edit.png)
 
 {:start="4"}
 4\.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
@@ -49,7 +49,7 @@ The automatic message library can also be reached from the chat settings in the 
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click **Save**.
 
-![](/img/automatic-messages-chat-5b.png)
+![](/img/automatic-messages-languages.png)
 
 ### To customize messages for a specific skill
 

@@ -80,7 +80,7 @@ Even after a conversation has been assigned to an agent, the agent still has the
 
 In this case, the conversation will be rerouted to an available agent with the selected skill or wait in the select skill’s queue if there are no available agents.
 
-![](/img/transfer-skill-routing-1.png)
+![](/img/transfer-skill-routing-3.png)
 
 ## Agent selection
 

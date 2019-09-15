@@ -2,7 +2,7 @@
 pagename: Introducing the enhanced agent workspace
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
-indicator: both
+indicator: messaging
 
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html

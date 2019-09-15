@@ -65,7 +65,7 @@ For example, if the contact center is offline from 8pm until 8am, and the defaul
 
 The shift status is accessible from the drop down menu which opens from the top right of the screen in LivePerson.
 
-![](/img/config-response-times-5.png)
+![](/img/Agent menu open.png)
 
 **How to configure response times**
 
@@ -91,4 +91,4 @@ Note: Auto close for messaging conversations can also be configured here. For fu
    * Changes in configuration will only apply to new conversations or after the conversation has been transferred to a different skill.
    * For conversations which are are not assigned to a skill, the account level configuration will be applied.
 
-![](/img/config-response-times-7.png)
+![](/img/messaging-response-time-settings.png)

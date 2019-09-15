@@ -176,7 +176,7 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 4. The Skill page will be displayed, and a summary of the Schedule/Special Occasion item details will be presented on the screen for you to review.
 5. Click “Save” in order to save the skill with it’s new working hours changes.
 
-![](/img/shift-scheduler-CG-8b.png)
+![](/img/working-hours.png)
 
 ## Workdays & special occasions using APIs
 

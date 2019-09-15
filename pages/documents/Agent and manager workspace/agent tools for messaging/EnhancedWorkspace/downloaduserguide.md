@@ -2,7 +2,7 @@
 pagename: Training deck
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
-indicator: both
+indicator: messaging
 subtitle: Learn more about the enhanced agent workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html

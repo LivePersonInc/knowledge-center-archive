@@ -57,4 +57,4 @@ Click “Save”.
 
 An agent transferred a conversation to skill A and all the agents on skill A are marked as “Away”. Under the configuration of skill A in LiveEngage the “Route to fallback skill when agents are in away status” is checked and the fallback is defined as skill B. re-route the conversation to skill B, assuming there are online agents with skill B”, if not, the conversation remains assigned with skill A.
 
-![](/img/fallback config per skill.png)
+![](/img/Fallback config per skill.png)

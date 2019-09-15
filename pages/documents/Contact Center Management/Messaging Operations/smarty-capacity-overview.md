@@ -109,7 +109,7 @@ To maximize agent capacity and ensure conversation routing is as rapid and effic
 
 **Auto-accept** means a new messaging conversation will open automatically, without the agent needing to accept it. Instead of lighting up the ‘waiting’ indicator at the bottom of the screen, the message will immediately appear as a new conversation in the agent workspace. Auto-accept does not disrupt the agent’s current conversation; new messages will wait in the conversation bar until the agent clicks on them.
 
-![](/img/smart-capacity-overview-5b.png)
+![](/img/auto-accept.png)
 
 ## Smart Capacity per skill
 
