@@ -105,14 +105,14 @@ To save you time - there are seven hotkeys configured on your workspace for some
 
 | ACTION        | HOTKEY    |
 | ------------- |-------------|
-| MOVE to the next conversation (NEW) |  CTRL ` M  |
-| COPY as plain text (NEW) | CTRL ` C  |
-| ACCEPT a new incoming conversation| CTRL ` A |
-| TRANSFER conversation to another skill | CTRL  ` E |
-| Return conversation to QUEUE | CTRL  ` Q |
-| CLOSE conversation | CTRL  ` X |
-| STATUS: toggle your status between Online, Back Soon and Away | CTRL  ` S |
-| LOGOUT of the agent workspace | CTRL  ` L |
+| MOVE to the next conversation (NEW) |  CTRL + ` + M  |
+| COPY as plain text (NEW) | CTRL + ` + C  |
+| ACCEPT a new incoming conversation| CTRL + ` + A |
+| TRANSFER conversation to another skill | CTRL + ` + E |
+| Return conversation to QUEUE | CTRL + ` + Q |
+| CLOSE conversation | CTRL + ` + X |
+| STATUS: toggle your status between Online, Back Soon and Away | CTRL + ` + S |
+| LOGOUT of the agent workspace | CTRL + ` + L |
 
 ## Managing messaging conversations
 
@@ -187,6 +187,10 @@ The following types of rich messaging are being supported for the enhanced agent
 * Consumer to agent photo sharing 
 * Consumer to agent audio sharing 
 * Agent to consumer file sharing 
+
+#### Recommended Actions 
+
+Recommended Actions use LivePerson's Maven AI to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Recommended Actions, which were previously available in a separate widget, will now be available inline in your messaging conversations to improve usability and engagement. Recommended actions include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article. 
 
 ### Additional actions
 

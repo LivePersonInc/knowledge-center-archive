@@ -92,6 +92,8 @@ Conversations that are not completed but are inactive may clutter up the agent w
 
 ### Agent workspace
 
+![](/img/agent-workspace.png)
+
 The agent workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the agent workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the agent workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more by seeing a video to [get acquainted with the agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html).
 
 ## Measuring messaging with the right KPIs

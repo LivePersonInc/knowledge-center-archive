@@ -80,7 +80,7 @@ Even after a conversation has been assigned to an agent, the agent still has the
 
 In this case, the conversation will be rerouted to an available agent with the selected skill or wait in the select skill’s queue if there are no available agents.
 
-![](/img/RL 2.png)
+![](/img/transfer-skill-routing-1.png)
 
 ## Agent selection
 
@@ -95,7 +95,7 @@ An agent is considered available to receive an incoming conversation, when the f
 * The agent is logged in and ‘online’.  
   No new incoming conversations will be routed to an agent whose state is set to ‘away’ or ‘back soon’.
 
-![](/img/RL 3.png)
+![](/img/Agent menu open.png)
 
 * The agent has enough capacity to receive an incoming conversation.  
   LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
@@ -107,7 +107,7 @@ _Default maximum number of conversations per agent - Account level:_
 
 _Maximum number of conversations per agent - Agent level:_
 
-![](/img/RL 5.png)
+![](/img/max-number-routing-logic.png)
 
 ### Agent selection preferences
 
@@ -127,7 +127,7 @@ The routing engine prioritizes conversations that are waiting to be assigned to 
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
-![](/img/RL 6.png)
+![](/img/response-time.png)
 
 **Routing flow**
 

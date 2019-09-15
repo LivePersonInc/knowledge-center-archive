@@ -36,6 +36,25 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-2.png)
 
+#### Horizon theme
+
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+
+The new Horizon theme features: 
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius bigger
+* Agent and consumer bubble style set to "three corner rounded"
+* Consumer bubble with visual read indication (messaging only)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
+
+{: .sidebyside}
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+
 ### Using the Engagement window studio, you can:
 
 * Customize the look and feel of engagement windows
