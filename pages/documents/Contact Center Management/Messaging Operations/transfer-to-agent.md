@@ -189,7 +189,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 
 ### Configuration steps summary
 
-1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team.
+1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team as the Transfer_To_Agent' must be enabled (in Houston - AC Features).
 2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ](contact-center-management-messaging-operations-transfer-to-agent.html#fallback-to-skill)section.
 3. Define who can perform the transfer-to-agent operation as described in the [Permissions](contact-center-management-messaging-operations-transfer-to-agent.html#permissions) section.
 4. Define consumer experience as described in the [Auto Messages](contact-center-management-messaging-operations-transfer-to-agent.html#auto-messages) section.
