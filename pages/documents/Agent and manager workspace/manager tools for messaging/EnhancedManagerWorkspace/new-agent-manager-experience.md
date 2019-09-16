@@ -96,8 +96,7 @@ Up until today, when a manager viewed a conversation, it would open the conversa
 
 ### Opening multiple conversations concurrently  
 
-Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them.  
-In the new workspace, managers can select the conversation view to quickly scan through conversations.
+Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them. In the new workspace, managers can select the conversation view to quickly scan through conversations.
 
 ![](img/new-agent-manager-experience-2.png){:class="newagent"}
 
