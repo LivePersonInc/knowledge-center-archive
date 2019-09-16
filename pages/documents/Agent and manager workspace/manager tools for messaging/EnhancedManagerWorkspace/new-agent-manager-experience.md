@@ -120,7 +120,7 @@ Once you click on + join conversation, the menu icon will appear on the top of t
 
 You can click on ‘to send messages go to my connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
-![](img/new-agent-manager-experience-3.png){:class="newagent"}
+![](img/new-agent-manager-experience-3.png)
 
 ### Searching for specific conversations
 
