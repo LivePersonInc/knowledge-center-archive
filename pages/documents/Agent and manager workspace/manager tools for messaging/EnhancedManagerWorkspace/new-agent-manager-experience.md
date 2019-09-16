@@ -91,6 +91,9 @@ Once you click on a conversation to view its transcript, this detailed view will
 
 Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Connections and use only the preview to view the conversation. In the new view of All Connections this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
 
+{: .notice} 
+**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced agent workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced agent workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Connections list as was done previously. 
+
 ### Opening multiple conversations concurrently  
 
 Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them.  
