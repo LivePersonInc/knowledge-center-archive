@@ -51,7 +51,7 @@
     - LINE: "N/A in Channel"
     - WeChat: "N/A in Channel"
     - MessagingWindowAPI: "Supported"
-    - ConnectorAPI: "Supported
+    - ConnectorAPI: "Supported"
   - featureName: Delivered indication - consumer to agent
     channels:
     - MobileAppMessaging: "Supported"
