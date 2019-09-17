@@ -8,7 +8,7 @@ subtitle: The routing engine selects the most appropriate agent to handle an inc
 level3: ''
 permalink: contact-center-management-messaging-operations-routing-logic-overview.html
 isTutorial: false
-date: 2019-01-16 15:08:11 +0000
+date: '2019-01-16T15:08:11.000+00:00'
 
 ---
 ## Routing logic for messaging conversations
@@ -16,7 +16,6 @@ date: 2019-01-16 15:08:11 +0000
 When a consumer is ready to start a messaging conversation with your brand, it’s important to direct them to the agent that will best serve their needs. To facilitate this, the messaging routing engine works behind the scenes to select the most appropriate agent to handle an incoming conversation from a consumer. The engine relies on a few fundamental principles:
 
 * Chooses agent best equipped with the right skills to address the consumer's inquiry
-* Minimizes customer wait time
 * Optimizes use of the agent’s capacity
 * Maintains consumer satisfaction and building an ongoing relationship
 
@@ -29,7 +28,7 @@ When agents are not available to handle new conversations, conversations will wa
 
 ## **Skill selection**
 
-In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process[ ](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html)is the first method used by the routing engine to direct the conversation to the right agent.
+In order to ensure consumers are routed to the most appropriate agent to handle their inquiry, incoming conversations can be assigned to different skills. The skill selection process is the first method used by the routing engine to direct the conversation to the right agent.
 
 Using skill selection, an incoming conversation is routed exclusively to an available agent with the conversation’s assigned skill. If no skill is assigned to a conversation, and no default skill has been configured, the conversation will be routed to any available agent in the contact center. In this instance, the most appropriate agent will be chosen based on the Agent Selection process, as set out below.
 
@@ -53,21 +52,19 @@ The following engagement attributes are currently supported for skill selection:
 
 Once a conversation is initiated, the routing engine will receive a skill notification based on the consumer profile identified during the authentication process. The system will then route the conversation to an appropriate agent assigned to that skill.
 
-## **Default skill**
+## Default skill
 
 It is possible to configure a default skill which will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
 
-In the example below, if a consumer has the engagement attributes customer type = VIP and company branch = US, the conversation will be routed to the VIP_Care_English skill. If the consumer has the engagement attribute company branch = PR, then it will be routed to the General_Care_Spanish skill. If the consumer does not have any engagement attributes that meet a mapping rule, then it will be routed to the default skill, which in this case is General_Care.
+## Routing to a fallback skill
 
-![](/img/RL 1.png)
-
-## **Offline routing to a fallback skill**
-
-By default, when no agents are available to accept an incoming conversation, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
+By default, when no agents are connected to LiveEngage to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
 
 To help avoid this situation, it is possible to configure a fallback skill. This enables incoming conversations to be deferred to a second ‘fallback’ skill when there are no online agents with the conversation’s assigned skill.
 
-This method can only be used when there are agents online with the fallback skill; if no agents for this skill are online, the conversation will remain in the queue for the assigned skill.
+It is possible to define a single fallback skill for the entire account or define a fallback skill that would be relevant for a specific skill. For example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
+
+Having the conversation rerouted to a fallback skill can only occur when there are agents online and has the fallback skill assigned to them. If no agents for this skill are online, the conversation will remain in the queue for the original assigned skill.
 
 Fallback skill configuration is particularly useful when different skills in the contact center have different working hours. For example:
 
@@ -75,17 +72,17 @@ Fallback skill configuration is particularly useful when different skills in the
 * Skill “General_Care” is available 24/7 and is configured as a fallback skill.
 * During “VIP_Care_English” off hours (7pm until 9am and weekends) no agents are logged in with that skill. New conversations will be assigned to the “General_Care” skill (fallback) and will be routed to available agents instead of waiting in the “VIP_Care_English” skill’s queue.
 
-Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’.
+Note: Fallback logic only applies to new incoming conversations until they are first assigned to an agent. It does not apply after the agent selects 'back to queue' or ‘transfer to skill’. Please see fallback configuration per skill user guide.
 
-## **Transfer to skill**
+## Transfer to skill
 
 Even after a conversation has been assigned to an agent, the agent still has the ability to transfer the conversation to a different skill that is better suited to handle the consumer's inquiry.
 
 In this case, the conversation will be rerouted to an available agent with the selected skill or wait in the select skill’s queue if there are no available agents.
 
-![](/img/RL 2.png)
+![](/img/transfer-skill-routing-3.png)
 
-## **Agent selection**
+## Agent selection
 
 Following the skill selection process, the routing engine will initiate the agent selection process. This involves identifying all available agents with the relevant skill to handle the conversation, and selecting, from those available, the most suitable agent to handle the incoming conversation.
 
@@ -98,7 +95,7 @@ An agent is considered available to receive an incoming conversation, when the f
 * The agent is logged in and ‘online’.  
   No new incoming conversations will be routed to an agent whose state is set to ‘away’ or ‘back soon’.
 
-![](/img/RL 3.png)
+![](/img/Agent menu open.png)
 
 * The agent has enough capacity to receive an incoming conversation.  
   LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
@@ -110,9 +107,9 @@ _Default maximum number of conversations per agent - Account level:_
 
 _Maximum number of conversations per agent - Agent level:_
 
-![](/img/RL 5.png)
+![](/img/max-number-routing-logic.png)
 
-### **Agent selection preferences**
+### Agent selection preferences
 
 The agent selection process is based on parameters outside those around the agent’s skill and availability. This is to ensure the optimal utilization of the agent’s capacity and even distribution of the workload, as well as maintaining high levels of customer satisfaction.
 
@@ -124,13 +121,13 @@ The agent selection process is based on parameters outside those around the agen
   * The messaging history between the agent and the consumer
 * Return to queue - if an agent manually returns a conversation to the queue, the system will try to re-route it to a different available agent.
 
-## **Queue priority**
+## Service level agreement (SLA) & queue prioritization
 
-The routing engine [prioritizes conversations](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) that are waiting to be assigned to an agent according to their response time/SLA. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
+The routing engine prioritizes conversations that are waiting to be assigned to an agent according to their response time/SLA and based on the [queue prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html) configuration. The response time SLA is the time within which brands are committed to responding to their consumers to ensure that queue time is minimized and consumers receive a timely response. When utilizing queue Prioritization with parameters the SLA is only one parameter within the queue prioritization formula. (for all other parameters, please see queue prioritization overview).  Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
-![](/img/RL 6.png)
+![](/img/response-time.png)
 
 **Routing flow**
 

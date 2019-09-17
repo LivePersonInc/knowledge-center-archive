@@ -1,14 +1,16 @@
 ---
-pagename: Customize permissions
+pagename: 'Profiles '
 categoryName: Admin & settings
 subCategoryName: Permissions
 indicator: both
 subtitle: Customize user permissions with profiles
 level3: ''
-permalink: admin-settings-permissions-customize-permissions.html
+permalink: admin-settings-permissions-profiles.html
 isTutorial: false
 isNew: false
 date: '2019-01-23T12:20:28.000+00:00'
+redirect_from:
+- working-with-profiles.html
 
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
@@ -20,7 +22,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 * Campaign manager
 * Admin
 
-![](/img/permissions1 (1)-1.png)
+![](img/Edit-Profile.png)
 
 ## Customized profiles
 
@@ -74,13 +76,9 @@ Profiles and users can only be configured by admins and agent managers with spec
 
 * Select a skill from the menu by clicking the **skills** field and selecting an existing skill, or
 * Create a new skill by typing in the name of the skill in the **skills** field
-
+6\. Set a password. Click **save**.
 {: .notice}  
 Agents who are not assigned to skills can only accept chats originated by engagements that are not assigned to skills.
-
-6\. Set a password. Click **save**.
-
-![](/img/permissions3 (2).png)
 
 ## Definitions, permission and default states
 

@@ -116,10 +116,7 @@ In order to avoid compromising the integrity of your data, LiveEngage allows you
 
 1. By checking “Count goals reached only once per visit” under Count Goals, goals will fire only once per session (per visit). If your page is meant to allow visitors to perform a variety of actions (such as lead and purchase, purchase twice, etc,) then you may wish to leave the checkbox unchecked in order to count what seems to be duplicated events but in reality are not.
 
-![](/img/campaign-goals-7.png)
-
 {:start="2"}
-
 1. By using engagement attributes you can assign a unique ID to the different goal types; Purchase (Order ID), Leads (Lead ID), and Service activities (the combination of Service ID, Topic and Status). When the system recognizes an event with a unique ID as having already been collected in a particular session, metadata, which signals a duplication, is added to the event. This allows the system to filter all duplicates from reports and conversions are counted only once. This kind of deduplicating is enabled by default and cannot be disabled.
 
 {: .notice}

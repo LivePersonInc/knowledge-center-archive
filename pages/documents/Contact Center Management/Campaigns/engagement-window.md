@@ -26,7 +26,6 @@ To provide a consistent experience across devices, you can design identical enga
 ![](/img/engagement-window-1.png)
 
 {:start="2"}
-
 1. Hover over an existing window design and click **Edit** or click **Add new** to design a new window. Once you have designed the window it will be added to your Engagement window library for future use.
 2. After clicking **Add new,** the Engagement window studio opens.
 
@@ -36,6 +35,25 @@ To provide a consistent experience across devices, you can design identical enga
 The **Engagement window studio** allows you to customize the look and feel of both desktop and mobile windows**.** Any change you perform to the design of the desktop window takes effect in the mobile window as well.
 
 ![](/img/engagement-window-2.png)
+
+#### Horizon theme
+
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+
+The new Horizon theme features: 
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius bigger
+* Agent and consumer bubble style set to "three corner rounded"
+* Consumer bubble with visual read indication (messaging only)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
+
+{: .sidebyside}
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
 
 ### Using the Engagement window studio, you can:
 
@@ -105,8 +123,6 @@ You can fully customize the chat window to suit your brand by changing the color
 
 ![](/img/engagement-window-7.png)
 
-![](/img/engagement-window-8.png)
-
 ### To add and edit surveys:
 
 Click the **Views** drop-down menu to view the list of surveys. Then do one or more of the following:
@@ -167,7 +183,7 @@ In order to define the agent’s picture in the selected engagement window, foll
 
 {:start="3"}
 
-1. In the engagement window category, find the agent picture row
+1. In the look and feel dropdown find the agent picture row
 2. In the value column, select **Yes** from the dropdown menu in order to enable agent picture for the selected engagement window
 3. Click **Save**
 

@@ -6,7 +6,9 @@ indicator: messaging
 subtitle: 'Learn the tools in place to help agents receive, reply, and access important
   information during messaging '
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-managing-messaging-conversations.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html
 isTutorial: false
 date: 2019-01-21 09:41:06 +0000
 isNew: false

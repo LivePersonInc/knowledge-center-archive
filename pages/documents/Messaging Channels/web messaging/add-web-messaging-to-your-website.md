@@ -24,7 +24,7 @@ _(should be completed by contact center manager, project manager or program mana
 
 1. Do you want one messaging button available on all pages of your website?
 2. Is there a dedicated place on your website that you’d like the button to display?
-3. Will you offer messaging only to specific audience? How will you target this audience?
+3. Will you offer messaging only to a specific audience? How will you target this audience?
 4. What skills will be answering your messaging? How will you do the routing? Based on the location of the app? The type of customer?
 5. Are you offering service transactions? Will you need to authenticate the conversations?
 6. Will you utilize messaging for sales? Specific campaigns? Do you expect to track  the conversations made over messaging?
@@ -43,13 +43,13 @@ Engagement attributes help brands to **collect more in-depth information about v
 
 ## 3. Review conversation history length (for unauthenticated messaging)
 
-When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of conversations can continue.
+When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of the conversation can continue.
 
 While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
 
 When deciding on the right idle time, the brand should consider the SLA of the agents when responding to consumers, so the conversation stays active enough to leave enough time for agents to respond. The idle time should be longer than SLA.
 
-Brands can configure the maximum time a conversation can stay idle, during which period of time the consumer can return to the thread and see the previous conversations. Once the defined idle time has passed, and the token expires, when the same consumer starts a conversation, a new token will be generated and a new conversation thread will start. The previous thread cannot be accessed from the consumer side. Your LivePerson Account Team will help you with setting the right idle timeframe from your needs. Learn more about setting timeframes in [Smart Capacity skill settings](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
+Brands can configure the maximum time a conversation can stay idle, during which the consumer can return to the thread and see the previous conversation. Once the defined idle time has passed, the token expires. When the same consumer starts a conversation, a new token will be generated and a new conversation will start. The previous conversation cannot be accessed from the consumer side. Your LivePerson Account Team will help you with setting the right idle timeframe for your needs. Learn more about setting timeframes in [Smart Capacity skill settings](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
 
 {: .notice}  
 **The default idle time is 30 days. To configure a different idle time please contact your LivePerson Account Team**.
@@ -58,15 +58,15 @@ Brands can configure the maximum time a conversation can stay idle, during which
 
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
-1. **Define your currency**: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
-2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
+1. **Define your currency**: You can define what currency you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
+2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
 ## 5. Creating a campaign
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
-To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
+To create a new campaign, click “**Add campaign**” at the bottom of the campaigns page.
 
 When creating a campaign, you first need to define the following:
 
@@ -78,25 +78,25 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 ## 6. Designing the buttons & window
 
-You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
+You can now begin creating banners or buttons to add to your website. These elements are created in the **engagement studio**, where an engagement wizard will guide you through the process.
 
-**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
+**To add a new web engagement to your campaign**, click “**Add engagement**” and select **Web** as the engagement source. This will open the template gallery within the engagement wizard. There are six stages for creating a web engagement: **Gallery, Settings, Studio, Window, Entry Point and Behavior.**
 
 ![](/img/add-web-messaging-to-your-website-1.png)
 
-### Template gallery
+### Engagement Template gallery
 
-The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
+The Engagement template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
 
 ### Engagement settings
 
-From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
+From the Engagement settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
 
 ![](/img/add-web-messaging-to-your-website-2.png)
 
 #### Conversation channel
 
-Select if you want the engagement to lead to a messaging conversation or to a simple link. From the **conversation type** drop down, select **messaging**.
+Select if you want the engagement to lead to a messaging conversation. From the **Conversation type** drop down, select **Messaging**.
 
 #### Authentication
 
@@ -109,9 +109,9 @@ You can select one of these security methods for your conversation:
 
 Under [routing](contact-center-management-messaging-operations-routing-logic-overview.html), you may select the skill that your engagement should be assigned to. To route to all skills, select ‘**All skills**’ (default), to select a specific skill, select the ‘**Specific skill**’ option and choose from the dropdown menu.
 
-#### Window presentation
+#### Conversation window opens as
 
-Select the mode in which the messaging window will be presented to the consumer, either embedded in the page or as a separate browser window.
+Select how the messaging window will be presented to the consumer, either embedded in the page or in a separate browser window.
 
 #### Language
 
@@ -119,17 +119,17 @@ The engagement language selected in this step will only affect items in the agen
 
 ### Engagement studio
 
-The engagement studio page is where you **design your button or banner to suit the look and feel of your website**. By clicking on your engagement you can adjust the text, style and design of the engagement, and add additional buttons, images and text. To learn more about designing engagements, [click here](contact-center-management-campaigns-creating-buttons-and-banners.html).
+The engagement studio page is where you can **modify your button or banner to suit the look and feel of your website**. By clicking on your button or banner you can adjust the text, style and design. You can modify the size and placement, the background, and add elements. You can also preview your elements before publishing your camapign. To learn more about designing engagements, [click here](contact-center-management-campaigns-creating-buttons-and-banners.html).
 
-### Conversation window
+### Engagement window library
 
-The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. Once your settings are complete, click **next**. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
+The engagement window studio allows you to customize the messaging conversation window to match your site. You can click on different parts of the window to change their design, and add additional elements. Once your settings are complete, click **Next**. For more information on the conversation window design, [click here](/contact-center-management-campaigns-engagement-window.html).
 
-### Entry point
+### Entry point library
 
-You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. When you are finished defining your entry point, click **next**. For further information on creating a new entry point, please [refer here](contact-center-management-campaigns-entry-point.html).
+You will now reach the entry point library. An entry point is the section within your website where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point. When you are finished defining your entry point, click **Next**. For further information on creating a new entry point, please [refer here](contact-center-management-campaigns-entry-point.html).
 
-### Visitor behavior
+### Visitor behavior library
 
 Decide when to display engagements according to your consumers’ behavior by selecting the behavior conditions you wish to impose on the target audience. For further information on creating a new behavior, please refer to the [visitor behavior documentation](contact-center-management-campaigns-visitor-behavior.html).
 
@@ -137,7 +137,7 @@ When selecting the condition, look for a globe icon next to the word “**Suppor
 
 ## 7. Publishing your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
+Your new web engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
 
 ## Displaying your engagements
 
@@ -145,11 +145,11 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 
 #### Test click rates through control groups
 
-In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign.The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on [control groups](contact-center-management-campaigns-campaign-settings.html#control-groups), click here.
+In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on control groups [click here](contact-center-management-campaigns-campaign-settings.html#control-groups).
 
 #### Display multiple engagements on the same page
 
-Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html#top).
+Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases, LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html#top).
 
 #### Fine tune proactive engagements
 
@@ -157,7 +157,7 @@ Proactive engagements offer a rich, hard to miss experience for consumers and ar
 
 **Number of displays**
 
-This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
+This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two, three or unlimited times; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
 
 **Invite after decline**
 
@@ -178,13 +178,13 @@ To enhance your visitors’ messaging experience on mobile, use the embedded eng
 To optimize your web experience, tag of all your web pages:
 
 1. Ensure that your website conforms to HTML standards (e.g. one header and one body per page).
-2. (Recommended) Add the viewport meta tag (as shown below) to the page code.
+2. Add the viewport meta tag (as shown below) to the page code. (Recommended)
 
 `<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>`
 
 <div class="notice">
 <b>Note:</b>
 <ul> If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
-<li>Manual ettr</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
+<li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
 </ul>
 </div>

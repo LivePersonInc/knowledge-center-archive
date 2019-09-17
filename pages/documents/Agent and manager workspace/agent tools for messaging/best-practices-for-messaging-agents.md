@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-best-practices-for-messaging-agents.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-best-practices-for-messaging-agents.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-best-practices-for-messaging-agents.html
 isTutorial: false
 isNew: false
 date: 2019-01-23T15:06:03.000+00:00

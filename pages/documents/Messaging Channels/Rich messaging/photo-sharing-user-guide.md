@@ -36,7 +36,6 @@ Photo sharing empowers consumers to share images with agents to explain complex 
 ## Consumer side: sending a photo
 
 Consumers can share photos from two sources:
-
 1. Take a photo using the device’s camera and share it
 2. Share a photo from their device’s Photo Library
 
@@ -47,7 +46,6 @@ Once a photo was uploaded, it will be flattened as to remove any potential malwa
 ## Agent side: receiving a photo
 
 The agent has the following capabilities:
-
 1. View a shared photo in the conversation as a thumbnail or full page.
 2. View a shared photo in the engagement history and also for closed conversations.
 
@@ -58,7 +56,6 @@ The agent has the following capabilities:
 From the conversation window, consumer clicks on the camera icon to open the Photo Sharing capability.
 
 Two sharing options are presented to the consumer:
-
 1. Take a photo using the device’s camera and share it
 2. Share a photo from the Photo Library
 
@@ -97,7 +94,9 @@ On desktops, after clicking on “Send image”, the user will be presented with
 
 On Mac:
 
-![](/img/photosharinf16 (1).png)On Windows:
+![](/img/photosharinf16 (1).png)
+
+On Windows:
 
 ![](/img/photosharing17 (1).png)
 
@@ -161,7 +160,6 @@ When the agent receives the shared photo, it appears as a thumbnail in the conve
 ### Behavior
 
 Photo size reduction:
-
 * Thumbnail: 30KB
 * Preview: 3MB
 * Photo preview screen is basic.

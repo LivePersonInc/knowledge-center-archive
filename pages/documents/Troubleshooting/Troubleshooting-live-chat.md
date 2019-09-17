@@ -112,7 +112,7 @@ The user has two different LiveEngage accounts. On one of the accounts the user 
 
 ## Why aren’t visitor names displayed in the Web Visitors and Web History list?
 
-![](/img/troubleshooting-web-visitors-list.png)
+![](/img/chat-with-new-nav.jpg)
 
 ### Cause:
 

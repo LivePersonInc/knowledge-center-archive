@@ -34,16 +34,15 @@ Here is a list of the currently available conditions:
 ### 1. Flow:
 
 Identify consumers based on a predefined browsing pattern within your website or mobile. The flow, which is a series of at least two steps taken by the consumer, can be defined in two ways:
-
 * Web engagements can be defined by page (URL/title) or by the section on your webpage (engagement attributes)
 * Mobile engagements can be defined by sections (engagement attributes) only
 
-<br/>
+{: .notice}
 **Note:** The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced).
 
 Within a flow, it is possible to mark whether each step is required or not. If a step is not required, this allows the flow to have multiple routes. Engagements can be triggered when a consumer either abandons or revisits a defined flow. When a consumer abandons a flow, they do not complete all the steps of the flow (and navigate elsewhere on the site), when they revisit a flow, they go back one or more steps in the defined flow (backflow). You can find further information on targeting according to flow below.
 
-### 2. Time on Entry Point:
+### 2. Time on entry point:
 
 Target consumers who have spent more than the defined time in selected entry point(s) during a single session. An entry point is a location on your website (defined by a page URL or title, or a page section) or a section within your mobile app (defined by engagement attribute).
 
@@ -51,19 +50,19 @@ To define an entry point behavior, you can select from your existing entry point
 
 **Note:** this behavior is currently only supported for web engagements.
 
-### 3. Visited Entry Point:
+### 3. Visited entry point:
 
 Target and/or exclude consumers from selected entry points on the website or within the mobile app. To define an entry point (see above) behavior, you can select from your existing entry points (or add a new one); when a consumer lands on this entry point(s), they will be eligible to view an engagement. It is also possible to configure multiple rules for entry points visited; the consumer will only be eligible to view an engagement once they have met all of the rule criteria.
 
 ![](/img/visitor-behavior-1.png)
 
-### 4. About to Abandon:
+### 4. About to abandon:
 
 Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
 
 **Note:** this behavior is currently only supported for web engagements.
 
-### 5. Cart Value:
+### 5. Cart value:
 
 Target consumers according to the value of their shopping cart. Visitors can be targeted by their cart value in three ways:
 
@@ -75,13 +74,13 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 
 Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
-### 6. Products in Cart:
+### 6. Products in cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
 Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
 
-### 7. Viewed Product:
+### 7. Viewed product:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they view a particular product. The product can be defined by name, unique product identifier / stock keeping unit (SKU), category name and product price range. You can also exclude engagements from appearing when they view these products.
 
@@ -89,7 +88,7 @@ In order to target consumers who are interested in a specific product or type of
 
 Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
 
-### 8. Visitor Error:
+### 8. Visitor error:
 
 Target consumers who experience specific errors during their time on your site or mobile app. The error can be defined by a specific error message (and from which instance the consumer encounters the error e.g. first, or second) or by error code. You can also exclude engagements from appearing when they encounter a specific error(s).
 
@@ -97,7 +96,7 @@ Target consumers who experience specific errors during their time on your site o
 
 Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
 
-### 9. Engaged in Session:
+### 9. Engaged in session:
 
 Target consumers who interacted with engagements according to their status:
 
@@ -111,7 +110,7 @@ You can also exclude engagements from appearing based on one or more of the abov
 
 ![](/img/visitor-behavior-5.png)
 
-### 10. Service Activity:
+### 10. Service activity:
 
 Target consumers by their service journey topics. A service journey is a series of key actions taken by a consumer when using your website or mobile app. A service journey, such as ordering a checkbook or software usage, can be measured using a service activity engagement attribute. In order to define the service activity behavior, enter the service topic name e.g. order checkbook, and define the status of the topic from the following:
 
@@ -151,15 +150,13 @@ Flows can be defined either using sections (for all engagement sources) or indiv
 ![](/img/visitor-behavior-6.png)
 
 {:start="3"}
-3\. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
-4\. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
-
-![](/img/visitor-behavior-9.gif)
+3. In order to add a new flow, open the Flow dropdown menu and select Add new flow.
+4. Define your new flow by “Page (URL/title)” or by “Section (engagement attributes),” add your required parameters and click save.
 
 {:start="5"}
-5\. After saving the flow, it will appear in the flows list.
-6\. Choose the desired visitor behavior from the list (Abandoned or Back flow):
-7\. Click to save visitor behavior.
+5. After saving the flow, it will appear in the flows list.
+6. Choose the desired visitor behavior from the list (Abandoned or Back flow):
+7. Click to save visitor behavior.
 
 {: .important}
 **Note:** If you edit the behavior, the change will be applied to any other engagements that use this behavior.
@@ -185,17 +182,15 @@ To set up an Engagement for Visitor Back Flow:
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
 
-![](/img/visitor-behavior-8.gif)
+![](/img/visitor-behavior-8.png)
 
 {:start="5"}
-
 1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
 2. Click Flow.
 
-![](/img/visitor-behavior-9.gif)
+![](/img/visitor-behavior-9.png)
 
 {:start="7"}
-
 1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
 2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
 3. Save the changes and publish the campaign.
@@ -206,7 +201,7 @@ To set up an Engagement for Visitor Back Flow:
 When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
 </div>
 
-## Visitor Behavior Conditions
+## Visitor behavior conditions
 
 Some of the targeting conditions only support web engagements. You can refer to the full list of supported conditions below to see which conditions are supported in mobile and which are not.
 

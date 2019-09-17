@@ -3,7 +3,7 @@ pagename: Surveys with live chat
 categoryName: Contact center management
 subCategoryName: Live chat operations
 indicator: chat
-subtitle: " Here’s what you need to know about the surveys available in LivePerson"
+subtitle: 
 level3: ''
 permalink: contact-center-management-live-chat-operations-surveys-with-live-chat.html
 isTutorial: false

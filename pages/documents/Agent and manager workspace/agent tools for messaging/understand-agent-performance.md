@@ -5,7 +5,9 @@ subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
+permalink: agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-understanding-agent-performance.html
+redirect_from:
+  - agent-manager-workspace-agent-tools-for-messaging-understanding-agent-performance.html
 isTutorial: false
 date: 2019-01-21 11:05:20 +0000
 isNew: false
@@ -31,7 +33,7 @@ The data bar in the agent workspace represents the real-time tracking of your cu
 
 **IN QUEUE:** overall number of conversations in the queue, including actionable and not actionable.  A not actionable conversation is one that is still open but awaiting a consumer reply. Only the actionable conversations are routed to agents
 
-**CSAT:** displays the [customer satisfaction score](http://oavrxoiy0ht8aq.instant.forestry.io/contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat), based on the post conversation surveys that were completed in the last 12 hours.
+**CSAT:** displays the [customer satisfaction score](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html#2-customer-satisfaction-score-csat), based on the post conversation surveys that were completed in the last 12 hours.
 
 ## Searching for previous conversations
 

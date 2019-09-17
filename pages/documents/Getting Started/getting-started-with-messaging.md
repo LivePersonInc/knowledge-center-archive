@@ -7,27 +7,12 @@ subtitle: Checklist for set up and configuration to get your messaging program r
 level3Name: ''
 permalink: getting-started-getting-started-with-messaging.html
 isTutorial: false
-date: 2019-01-14 11:44:06 +0000
+date: '2019-01-14T11:44:06.000+00:00'
 level3: ''
 isNew: false
 
 ---
-To get started, access LivePerson using this link: [https://authentication.liveperson.net/login.html](https://authentication.liveperson.net/login.html)
-
-## Get to the first message
-
-To get the most basic version of messaging up and running, brands need to insert a generic ‘message us’ button their website. Getting to the first message is simple and can be done through three steps:
-
-1. Website administrators or developers need to add the [LivePerson tag](getting-started-add-the-liveperson-tag-to-your-website.html) (piece of code) to every page of the website where you'd like messaging to appear. See instructions on how to [insert the code](getting-started-add-the-liveperson-tag-to-your-website.html).
-2. Create users for the agents that will be taking the conversations. See how to [set up users](admin-settings-create-and-manage-users.html).
-3. Once the code is up and an agent is logged into the system, they can begin to answer incoming conversations.
-
-![](/img/getting-started-with-messaging-1-2.png)
-
-{: .notice}
-The basic set up means there will be no routing - every agent will receive all messages
-
-## Customize your messaging program
+## Managing brand-to-consumer conversations on messaging
 
 LivePerson is the most advanced platform for any size organization, offering a slew of customization capabilities. To ensure you are getting the most out of messaging, review how to [manage a contact center that messages](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html), and develop and set up your preferences in three areas:
 
@@ -103,7 +88,7 @@ Additional instructions for designing customer experience elements such as [bann
 1. **Predefined answers**: create or import a database of [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
 2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
 
-![](/img/getting-started-with-messaging-2-2.png)
+![](/img/agent-workspace.png)
 
 {:start="3"}
 3\. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.

@@ -14,7 +14,7 @@ redirect_from:
   - liveengage-mobile-sdk.html
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html).
+The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
 
 With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
@@ -25,13 +25,11 @@ _To be completed within your brand’s app by a mobile developer:_
 * Implement the new SDK
 * Implement the SDK’s Monitoring APIs
 
-<br/>
 _To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
 * Create new campaigns and engagements
 
-<br/>
 
 For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
@@ -77,7 +75,7 @@ Before you can create engagements for your mobile app, you must first configure 
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
-![](/img/add-messaging-to-your-mobile-app-4.png)
+![](/img/add-messaging-to-your-mobile-app-4.jpg)
 
 {:start="2"}
 
@@ -101,7 +99,6 @@ When creating a new campaign, you first need to define the following:
 * [Target audience](contact-center-management-campaigns-target-audience.html)
 * [Time frame](contact-center-management-campaigns-time-frame.html)
 
-<br/>
 Click on each of these links for a more in-depth explanation. Once these items have been defined, you can begin creating your mobile engagement.
 
 ### Create a new mobile app engagement
@@ -113,7 +110,6 @@ Once the app is installed on your LiveEngage account and a new campaign has been
 ![](/img/add-messaging-to-your-mobile-app-2.png)
 
 {: .important}
-
 **Important:** When creating web engagements, brands configure the appearance of the engagement within the engagement studio. **However,** **when creating mobile engagements, this step does not take place in LivePerson’s platform, but within the brand’s mobile app**.
 
 ### Engagement settings

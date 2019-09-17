@@ -90,8 +90,8 @@ In order to enable the feature via AC features and site settings, please contact
 
 For information on implementation, [click here](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#implementation-guide)
 
-{: .notice}**  
-**For Live Chat you cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
+{: .notice}
+**Please note:** For Live Chat you cannot customize the branding of the structured content bubble in the web window view. Cards may be branded using the JSON schema only.
 
 ## Helpful links
 

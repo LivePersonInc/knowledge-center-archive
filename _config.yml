@@ -1,81 +1,70 @@
+---
 topnav_title: LivePerson Knowledge Center
-# this appears on the top navigation bar next to the home button
-
 site_title: LivePerson Knowledge Center
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
 company_name: LivePerson
-# this appears in the footer
-
+timezone: America/New_York
 disqus_shortname:
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
-
 host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
+port: "4000"
 google_analytics: UA-132314885-1
-
-
 extlinks:
-  attributes: {target: _blank, onclick: "linkclick(event, this)"}
-#This tells the extlinks plugin which attribute to add to links
-
+  attributes:
+    target: _blank
+    onclick: linkclick(event, this)
 plugins:
-  - jekyll-last-modified-at
-
-
+- jekyll-last-modified-at
 algolia:
-  application_id: "51CECYVH5R"
-  index_name: "knowledge_BASE"
+  application_id: 51CECYVH5R
+  index_name: knowledge_BASE
   settings: false
-#values for the Algolia plugin
-
-
-github: [metadata]
-#needed so that Github APIs don't throw a fit
-
+github:
+- metadata
 exclude:
-  - .idea/
-  - .gitignore
-# these are the files and directories that jekyll will exclude from the build
-
+- vendor/bundle
+- ".idea/"
+- ".gitignore"
+- node_modules
+- gulpfile.js
 highlighter: rouge
-# library used for syntax highlighting
-
 markdown: kramdown
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
- smart_quotes: ["apos", "apos", "quot", "quot"]
-
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  smart_quotes:
+  - apos
+  - apos
+  - quot
+  - quot
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-
-description: "The LivePerson Knowledge Center is the main repository for product knowledge and support articles."
-# the description is used in the feed.xml file
-
-
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    comments: true
+    search: true
+- scope:
+    path: ''
+    type: 'release'
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: 'new'
+  values:
+    layout: page
+description: The LivePerson Knowledge Center is the main repository for product knowledge
+  and support articles.
 url: https://knowledge.liveperson.com
-# needed for sitemap.xml file only
-
-
-Copyright: "https://www.liveperson.com/policies/copyright"
-Disclaimer: "https://www.liveperson.com/policies/disclaimer"
-TermsofUse: "https://www.liveperson.com/policies/terms-of-use"
-APITermsofUse: "https://www.liveperson.com/policies/apitou"
-PrivacyPolicy: "https://www.liveperson.com/policies/privacy"
-#footer links
+Copyright: https://www.liveperson.com/policies/copyright
+Disclaimer: https://www.liveperson.com/policies/disclaimer
+TermsofUse: https://www.liveperson.com/policies/terms-of-use
+APITermsofUse: https://www.liveperson.com/policies/apitou
+PrivacyPolicy: https://www.liveperson.com/policies/privacy
+collections:
+  release:
+    output: true
+  new:
+    output: true

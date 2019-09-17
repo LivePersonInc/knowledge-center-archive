@@ -2,6 +2,12 @@
   image: getting-started
   subcategories:
     - subcategoryname: LivePerson's conversational commerce platform
+    - subcategoryname: Quick start guides
+      pages:
+        - pagename: Web messaging quick start
+        - pagename: Conversation builder quick start
+        - pagename: Facebook Messenger quick start
+        - pagename: Twilio SMS quick start
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -25,13 +31,11 @@
     - subcategoryname: SMS
       pages:
         - pagename: SMS connector
-        - pagename: Twilio SMS connector setup
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
-        - pagename: Enhancing the SMS experience with Twilio
+        - pagename: Using SMS with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google Business Messaging
     - subcategoryname: Google My Business
     - subcategoryname: WhatsApp Business
     - subcategoryname: Line connector
@@ -55,16 +59,20 @@
 - categoryname: "AI, bots & automation"
   image: bots-automation
   subcategories:
-    - subcategoryname: How bots work with LivePerson
-    - subcategoryname: Maven
-      pages:
-        - pagename: Maven overview
-        - pagename: Recommended Actions
-    - subcategoryname: Conversation Builder
-      pages:
-        - pagename: Conversation Builder overview
-        - pagename: Getting started tutorials
-    - subcategoryname: Post conversation survey bot
+   - subcategoryname: Conversational AI
+   - subcategoryname: How bots work with LivePerson
+   - subcategoryname: Maven
+     pages:
+       - pagename: Overview
+       - pagename: Maven Assist
+       - pagename: Context Warehouse
+       - pagename: AI Powered Routing
+       - pagename: AskMaven API
+   - subcategoryname: Conversation Builder
+     pages:
+       - pagename: Conversation Builder overview
+       - pagename: Getting started tutorials
+   - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
   image: contact-center
@@ -73,7 +81,9 @@
       pages:
         - pagename: Managing a contact center that messages
         - pagename: Routing logic overview
+        - pagename: Agent survey for messaging
         - pagename: Configuring response times
+        - pagename: Fallback configuration per skill
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
@@ -124,20 +134,43 @@
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
-        - pagename: Working with asynchronous messaging
-        - pagename: Agent workspace for messaging tour
-        - pagename: Workspace basics
-        - pagename: Managing messaging conversations
-        - pagename: Taking breaks & ending your shift
-        - pagename: Understanding agent performance
-        - pagename: CoBrowse for messaging
-        - pagename: Best practices for messaging agents
-        - pagename: Agent workspace icons for messaging
+        - pagename: Enhanced agent workspace for messaging
+          level3:
+            - level3name: The enhanced agent workspace
+            - level3name: User guide
+            - level3name: FAQs
+            - level3name: Configuration
+            - level3name: Training deck
+            - level3name: Tutorial
+            - level3name: Blended accounts
+        - pagename: Agent workspace for messaging
+          level3:
+            - level3name: Working with asynchronous messaging
+            - level3name: Agent workspace for messaging tour
+            - level3name: Workspace basics
+            - level3name: Managing messaging conversations
+            - level3name: Taking breaks & ending your shift
+            - level3name: Understanding agent performance
+            - level3name: CoBrowse for messaging
+            - level3name: Best practices for messaging agents
+            - level3name: Agent workspace icons for messaging
+
     - subcategoryname: Manager tools for messaging
       pages:
-        - pagename: The messaging agents list
-        - pagename: All connections
+        - pagename: New manager workspace for messaging
+          level3:
+            - level3name: Introducing the new manager tools
+            - level3name: Enhanced manager workspace user guide
+            - level3name: All Connections
+            - level3name: Use cases
+            - level3name: New agent manager experience
+            - level3name: Tutorial
+        - pagename: Other manager tools for messaging
+          level3:
+            - level3name: The messaging agents list
+            - level3name: All connections
         - pagename: Hiring agents for messaging success
+
     - subcategoryname: Agent tools for live chat
       pages:
         - pagename: Agent workspace for live chat
@@ -155,9 +188,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-    - subcategoryname: LiveEngage app
+    - subcategoryname: LiveEngage mobile app
       pages:
-        - pagename: LiveEngage app user guide
+        - pagename: LiveEngage mobile app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -212,8 +245,10 @@
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
-    - subcategoryname: Data Transporter user guide
-
+    - subcategoryname: Analytics
+      pages:
+        - pagename: "Advanced messaging dashboard user guide"
+        - pagename: "Data Transporter user guide"
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
@@ -226,7 +261,7 @@
     - subcategoryname: Permissions
       pages:
         - pagename: Assign permissions
-        - pagename: Customize permissions
+        - pagename: Profiles
     - subcategoryname: Set the Time Zone
     - subcategoryname: Supported languages
     - subcategoryname: System requirements
@@ -272,20 +307,33 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: September 2019
+    - subcategoryname: August 2019
     - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
     - subcategoryname: April 2019
-    - subcategoryname: March 2019
-    - subcategoryname: February 2019
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
+    - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
+        - pagename: September
+          level3:
+            - level3name: Week of September 9th
+            - level3name: Week of September 2nd
+        - pagename: August
+          level3:
+            - level3name: Week of August 26th
+            - level3name: Week of August 19th
+            - level3name: Week of August 12th
+            - level3name: Week of August 5th
         - pagename: July
           level3:
+            - level3name: Week of July 29th
+            - level3name: Week of July 22nd
             - level3name: Week of July 1st
         - pagename: June
           level3:
@@ -305,22 +353,6 @@
             - level3name: Week of April 15th
             - level3name: Week of April 8th
             - level3name: Week of April 1st
-        - pagename: March
-          level3:
-            - level3name: Week of March 25th
-            - level3name: Week of March 11th
-            - level3name: Week of March 4th
-        - pagename: February
-          level3:
-            - level3name: Week of February 18th
-            - level3name: Week of February 11th
-            - level3name: Week of February 4th
-        - pagename: January
-          level3:
-            - level3name: Week of January 28th
-            - level3name: Week of January 20th
-            - level3name: Week of January 14th
-
 
 - categoryname: Troubleshooting
   image: Troubleshooting

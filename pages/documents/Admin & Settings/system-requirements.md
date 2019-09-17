@@ -12,6 +12,8 @@ isNew: false
 date: '2019-01-28T13:20:27.000+00:00'
 
 ---
+The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
+
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
@@ -32,6 +34,9 @@ We recommend using certified systems for the best possible experience while usin
 ## Visitor side: mobile web requirements
 
 The tables below list the browsers LivePerson supports for visitors on mobile web assets (smartphones and tablets).
+
+{: .notice}
+For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developers' Community for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
 
 ### Android
 
@@ -76,6 +81,35 @@ Some browsers are not supported at all due to experience or security reasons.  
 
 * Internet Explorer 7, 8, 9 and 10
 * Line browsers
+
+## Visitor side: Mobile SDK Requirements
+
+### Android
+
+* Android SDK 4.1v API 19- API 28 (Excludes AndroidX support)  
+  **Libraries:** 
+  1. com.google.android.gms:play-services-maps:16.1.0
+  2. com.squareup.okhttp3:okhttp:3.9.1
+
+
+* All releases below SDK 4.1v - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
+
+
+* Android Q - Need support for AndroidX also. ETA to be planned
+
+### iOS
+
+| SDK version | Swift | Xcode Version | iOS Version |
+| --- | --- | --- | --- |
+| 4.2 - X | 5.1.0 | 11 | iOS 11 - 13 |
+| 3.9.3 - 4.1 | 5.0.1 | 10.2.1 | iOS 10 - 12.4 |
+| 3.7.1 - 3.9.2 | 5.0.0 | 10.2.0 | iOS 10 - 12.4 |
+
+Official support for LivePerson iOS SDK version is only for the current Swift version and previous Swift version.
+
+All iOS OS beta releases will be provided approximately 1 month before the actual GA for the purpose of compilation only (no bug fixes or new iOS features supported). Once the GA is released, we will accept requests for new iOS features.
+
+Currently, we only support Cocoapods dependency manager, frameworks are also available in binary format. Excludes official support for Carthage and Swift package manager.
 
 ## LivePerson workspace requirements
 

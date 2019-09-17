@@ -14,7 +14,6 @@ const searchInstance = autocomplete(
       name: 'kb', /* class aa-dataset-kb */
       templates: {
         suggestion: function(suggestion) {
-          console.log(suggestion);
           let value = suggestion.pagename;
           let content = suggestion.content;
           let link = suggestion.permalink;
@@ -29,7 +28,7 @@ const searchInstance = autocomplete(
           if (suggestion._highlightResult.permalink) {
             suggestion._highlightResult.permalink.value;
           }
-          if (titletext == "Welcome! | LivePerson Knowledge Center") {
+          if ((titletext == "Welcome! | LivePerson Knowledge Center") || (titletext == "New Experiences | LivePerson Knowledge Center") ) {
             return (
               '<span class="searchtitlecontainer">' + '<a class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
             )

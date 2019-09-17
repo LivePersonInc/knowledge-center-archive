@@ -1,18 +1,25 @@
 ---
-pagename: LiveEngage App user guide
+pagename: LiveEngage mobile app user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-liveengage-app-liveengage-app-user-guide.html
+permalink: agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
 isTutorial: false
 isNew: false
 
 ---
-The LiveEngage App is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
+{: .important}  
+LivePerson's new LiveEngage mobile app is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
 
-The App expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales. The app will soon be available for download in the app store for early adopters so if you are interested in using the app, please contact your account team. Please note that all functionality discussed in this article applies to both the iPad & iPhone.
+The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
+
+The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
+
+Please note that all functionality discussed in this article applies to both the iPad & iPhone.
+
+![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 
 ## How to login
 
@@ -47,15 +54,13 @@ Long tap on the app version allow user to send logs
 
 In case of credentials error / server error, an alert is presented.
 
-![](/img/fail login pop-up (1).png)
-
 ### No network
 
 In case there is no network available, an alert is prompted at the top of the screen. The alert will dismiss as soon as the network signal is restored
 
 ## Drawer menu
 
-After user login, the app opens and immediately display to the drawer menu.
+After the user login, the app opens and immediately and displays to the drawer menu.
 
 The draw menu consists of:
 
@@ -82,11 +87,9 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 
 ### Links
 
-**Feedback:** opens a blank email for users to provide LivePerson with feedback on the app.
-
-**Terms & Conditions:** opens a web page with the app’s terms & conditions (Apple requirement for all apps).
-
-**Privacy policy:** opens a web page with the app’s privacy policy (Apple requirement for all apps).
+* **Feedback:** opens a blank email for users to provide LivePerson with feedback on the app.
+* **Terms & Conditions:** opens a web page with the app’s terms & conditions (Apple requirement for all apps).
+* **Privacy policy:** opens a web page with the app’s privacy policy (Apple requirement for all apps).
 
 ### Log out button
 
@@ -108,8 +111,6 @@ Upon signing out, all local database information for that agent is deleted. When
 The first time the agent logs in to the app it appears to be in an empty state. This is because the the agent has no assigned conversations and no new conversation ringing. All agent’s conversations were ended (either manually or automatically).
 
 Agents can open the drawer menu by tapping their picture on the top left corner. The small dot represents their current state: green for online, red for away.
-
-![](/img/Agent empty state.png)
 
 ### New ring alert
 
@@ -148,8 +149,6 @@ The list entry also display conversation response time indication (see connectio
 
 Every conversation starts with a new message, originating from the consumer.
 
-![](/img/Conversation accepted App.png)
-
 ## Messaging the consumer
 
 ### Text field
@@ -164,26 +163,20 @@ Tapping the send icon adds the text to the conversation and sends it to the cons
 
 ### Conversation message: consumer side
 
-Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent.
-
-Below the consumer bubble there is time stamp
+Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
 
 ### Conversation message: agent side
 
 Agent side conversation messages appear with a white background.  
-Below the agent bubble there is indication for the agent name and a time stamp
-
-In addition there is a message status icon “v” indication: sent, delivered and read. (similar to the whatsApp indications)
+Below the agent bubble there is an indication for the agent name and a time stamp. In addition there is a message status icon “v” indication: sent, delivered and read (similar to the whatsApp indications).
 
 ### Auto messages/system messages
 
-Automatic messages or system messages display in a grey color without a bubble centered in the screen
+Automatic messages or system messages display in a grey color without a bubble centered in the screen.
 
 ### Conversation history
 
-When agent accept new conversation he sees the new message arrive. In addition, if there are previous conversation history the last appear as well
-
-The agent can scroll up to reveal the history additional closed messaging conversations with the consumer.
+When an agent accepts new conversations, he sees the new message arrive. In addition, if there are previous conversations in the history the last conversations will appear as well. The agent is able to scroll up to reveal the history of additional closed messaging conversations with the consumer.
 
 ## Agent action menu
 
@@ -197,7 +190,7 @@ In case the conversation is no longer relevant and is not needed for future refe
 
 ### Inactive conversations
 
-Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact the LivePerson account team to configure this feature.
+Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
 ![](/img/agent action menu app.png)
 
@@ -211,43 +204,43 @@ The categories and items are according to the relevant conversation skill (as se
 
 ### Sending Predefined content
 
-Tapping a title populates the message text field with the predefined content. To user can tap the input field to edit the text. Closing the panel can be done via the Close button or tapping anywhere outside the panel
+Tapping a title populates the message text field with the predefined content. The user can tap the input field to edit the text. Closing the panel can be done via the "close" button or by tapping anywhere outside the panel
 
 {: .notice}  
 There is no option to collapse / expand categories and predefined content is only available in English (US).
 
 ## Structured content
 
-Users using the app, can view structured content sent by bots or other agents using the LiveEngage web. The card buttons are disabled.
+Users of the app can view structured content sent by bots or other agents using the LiveEngage web however, the card buttons are disabled.
 
 {: .notice}  
-The app currently support only basic cards. Carousel will be added in next versions
+The app currently support only basic cards. Carousel will be added in the next version of the app.
 
 ## Quick replies
 
-Users using the app, can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message
+Users of the app can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message.
 
 ### Expand/Collapse Quick replies
 
-By default, quick replies messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons
+By default, quick reply messages do not show up the offered replies suggested for the consumer. A quick reply button is available to left of the message. User can tap the button to expand/collapse the quick replies buttons.
 
-Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for at the consumer side.
+Below the quick reply there is a label indicating whether the quick replies buttons are visible or not for the consumer side.
 
 ![](/img/SC_QR_app (1).png)
 
 ### Link preview
 
-When sending URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
+When sending a URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
 ## The connections list
 
 ### Connection list order
 
-The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easier identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
+The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
-The list is sorted in according to the response time (SLA) if there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent. (top to bottom)
+The list is sorted according to the response time (SLA). If there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent  (top to bottom).
 
-**The list dynamic behavior and transition**
+### The dynamic list behavior and transition
 
 When the conversation status changes, e.g. when an agent responds to an overdue conversation, the position of the conversation in the queue changes accordingly.
 
@@ -256,10 +249,10 @@ Agents can only view open conversations. In future phases it may include closed 
 
 ### Conversation list indications
 
-Conversations pending an agent response have response time indications on right side. In case the conversation is overdue (at the top according to sorting logic) a red bell icon is displayed
+Conversations pending an agent response have response time indications on right side. In the case where a conversation is overdue (at the top according to sorting logic), a red bell icon is displayed
 
 {: . notice}
-**The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list**
+The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list
 
 ## Bulk back to queue
 
@@ -267,13 +260,13 @@ Conversations pending an agent response have response time indications on right 
 
 Users can return multiple conversations back to queue at once. By tapping and holding on the conversation area or by tapping the consumer avatar the list switches to multi-selection mode. Users can continue tapping each conversation to select/deselect it.
 
-To exit and abort multi-selection mode user can tap the ‘cancel’ button at the top bar
+To exit and abort multi-selection mode, users can tap the ‘cancel’ button on the top bar.
 
 ### Bottom action bar
 
 User can select “Mark all” to select all conversation. Once all conversation are marked the button changes to “Clear all”
 
-To return selected conversation back to queue, user can tap to “Return to queue” button.
+To return selected conversation back to queue, users can tap to “Return to queue” button.
 
 ### Returning back to queue process
 
@@ -282,9 +275,9 @@ When returning multiple conversation back to queue, a progress bar pop-up will a
 {: . notice}  
 Only open and assigned conversation will be returned to the queue.
 
-If some of the open conversations were not successfully returned to queue, a proper message will be prompted and these conversation will remain selected/
+If some of the open conversations were not successfully returned to queue, a proper message will be prompted and these conversations will remain selected.
 
-If all conversation were successfully return to queue they will disappear from the agent list.
+If all conversations were successfully returned to queue, they will disappear from the agent list.
 
 This is relevant for agent managers who can view closed and in queue conversations.
 
@@ -332,7 +325,7 @@ When at least one new message is received when the app is in the background, an 
 
 While responding to one consumer, an agent may receive a new message from another. The in-app notification includes:
 
-\**_Customer ID: _**showing the name (or phone number) of the consumer sending the message.
+**Customer ID:**  showing the name (or phone number) of the consumer sending the message.
 
 **_Message excerpt:_** a short excerpt of the new message.
 
@@ -361,7 +354,7 @@ User can choose between three options:
 ### The Agent Manager Capabilities
 
 {: .important}  
-All of the functionality for agent users apply to agent manager as well
+All of the functionality for agent users apply to agent manager as well.
 
 In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
 
@@ -381,7 +374,7 @@ In each conversation entry, there is an indication of the assigned agent
 
 ### Join conversation icon
 
-**There is a “join” icon for conversation the manager is joined to**
+There is a “join” icon for the conversation that the manager is joined to
 
 ### The ‘All’ tab connections list
 
@@ -433,7 +426,7 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 
 ![](/img/Status filter (1).png)
 
-### Mobile experts (Agent filter
+### Mobile experts (Agent filter)
 
 * From the mobile experts filter, users can filter conversations according to the assigned agent (sorted by abc). This is multiple selection filter.  
   Users can select more than one agent.
@@ -456,8 +449,6 @@ After selection agent, the user can view all the selected agents under the “se
 Users can easily deselect all selected agent by tapping the “Clear” button on the filter header. When no agent is selected the “clear” button changes to “All” and act as select all.  
 {: .notice}  
 The list of skills available are according to the skill assigned to the agents that the manager managed.
-
-![](/img/Skill filter (1).png)
 
 ### Multi-selection filter
 
@@ -530,3 +521,27 @@ In this state the “cactus” image will be display on right panel with the lab
 
 {: .notice}  
 The list of agents available are according the agent in the manager agent group
+
+## Notes
+
+Please note that the following features are currently not available in the App and are only available in the web version:
+
+* Custom Widgets
+* Consumer info widget
+* Engagement history widget
+* Summary widget
+* Transfer to skill
+* Transfer to agent
+* Conversation Status filters
+* Closed conversations in list (agent)
+* Data Bar
+* Manual SLA
+* View structured content carousel
+* Secure forms
+* Resume conversations
+* Send Structured Content (Quick Replies, Cards & Carousel)
+* View and share photo (consumer to agent)
+* View and share files (agent to consumer)Audio from consumer to agent
+* Post Conversation Survey - Agent visibility only
+* CoBrowse
+* Hyperlinks

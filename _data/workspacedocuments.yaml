@@ -1,24 +1,47 @@
-- categoryname: The enhanced agent workspace
-  image: web
-
-- categoryname: User guide
-  image: user-guide
+- categoryname: Messaging agents
+  image: messaging-agents
   subcategories:
-    - subcategoryname: Summary of enhancements
-    - subcategoryname: Workspace basics
-    - subcategoryname: Managing messaging conversations
-    - subcategoryname: Taking breaks & ending your shift
-    - subcategoryname: Configuration
+    - subcategoryname: The enhanced agent workspace
+    - subcategoryname: User guide
     - subcategoryname: FAQs
+    - subcategoryname: Configuration
+    - subcategoryname: Training deck
+    - subcategoryname: Tutorial
+    - subcategoryname: Roadmap
+    - subcategoryname: Operational Readiness Checklist
+    - subcategoryname: Blended accounts
 
-- categoryname: Training Deck
-  image: agent-manager
+- categoryname: Messaging managers
+  image: messaging-managers
+  subcategories:
+    - subcategoryname: Introducing the new manager tools
+    - subcategoryname: Manager workspace user guide
+    - subcategoryname: All Connections
+    - subcategoryname: Use cases
+    - subcategoryname: New agent manager experience
+    - subcategoryname: Tutorial
 
-- categoryname: Tutorial
-  image: getting-started
+- categoryname: Admins & campaign managers
+  image: admins-campaigns
+  subcategories:
+    - subcategoryname: New navigation
 
-- categoryname: Roadmap
-  image: whats-new
+- categoryname: Live chat agents & managers
+  image: agents-managers
+  subcategories:
+    - subcategoryname: New navigation & status button
 
-- categoryname: Rollout
-  image: admin-settings
+- categoryname: Consumer experience
+  image: consumer-experience
+  subcategories:
+    - subcategoryname: The new web messaging window
+
+- categoryname: Conversational AI
+  image: bots-automation
+  subcategories:
+    - subcategoryname: New Conversational AI experience
+
+- categoryname: Report builder
+  image: report-builder
+  subcategories:
+    - subcategoryname: Introducing the enhanced Report Builder

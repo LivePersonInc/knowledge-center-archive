@@ -1,10 +1,16 @@
 <ul id="mysidebar">
+<li class="categoryfolder">
+  <div class="itemdetails">
+  <img class="sidebarimage" src="/img/web.svg" />
+  <span><a class="normalLink" href="new-experiences.html">New Experiences</a></span>
+</div>
+</li>
 {% for category in site.data.workspacedocuments %}
-{% if category.categoryname == "User guide" %}
+{% if category.categoryname == "Troubleshooting" %}
 <hr class="sidebarhr" />
   <li class="categoryfolder">
     <div class="itemdetails canOpen">
-    <img class="sidebarimage" src="/img/user-guide.svg" />
+    <img class="sidebarimage" src="/img/{{ category.image }}.svg" />
     <span>{{ category.categoryname }}</span>
   </div>
   <ul class="categorylist getsOpened">
@@ -26,13 +32,21 @@
         <ul class="pagesfolder getsOpened">
           {% for level3 in page.level3 %}
           <li class="level3item">
+            {% if page.pagename == "New Experiences" %}
+            <span><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", ""  }}.html">{{ level3.level3name }}</span></a>
+            {% else %}
             <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", ""  }}.html">{{ level3.level3name }}</span></a>
+            {% endif %}
           </li>
           {% endfor %}
           </ul>
           </li>
           {% else %}
+          {% if page.pagename == "New Experiences" %}
+            <li class="pageitem nobuttons"><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+            {% else %}
           <li class="pageitem nobuttons"><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+          {% endif %}
           {% endif %}
           {% endfor %}
           </ul>
@@ -40,7 +54,11 @@
           {% else %}
         <li class="subcategoryitem">
           <div class="sidebarbuttoncontainer">
+            {% if page.pagename == "New Experiences" %}
+            <a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+            {% else %}
             <a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+            {% endif %}
           </div>
         <ul class="subcategoryfolder getsOpened">
         </ul>
@@ -75,13 +93,21 @@
         <ul class="pagesfolder getsOpened">
           {% for level3 in page.level3 %}
           <li class="level3item">
+            {% if page.pagename == "New Experiences" %}
+            <span><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", ""  }}.html">{{ level3.level3name }}</span></a>
+            {% else %}
             <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", ""  }}.html">{{ level3.level3name }}</span></a>
+            {% endif %}
           </li>
           {% endfor %}
           </ul>
           </li>
           {% else %}
+          {% if page.pagename == "New Experiences" %}
+          <li class="pageitem nobuttons"><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+          {% else %}
           <li class="pageitem nobuttons"><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+          {% endif %}
           {% endif %}
           {% endfor %}
           </ul>
@@ -89,7 +115,11 @@
           {% else %}
         <li class="subcategoryitem">
           <div class="sidebarbuttoncontainer">
+            {% if page.pagename == "New Experiences" %}
+            <a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+            {% else %}
             <a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+            {% endif %}
           </div>
         <ul class="subcategoryfolder getsOpened">
         </ul>
@@ -98,7 +128,7 @@
         {% endfor %}
         </ul>
         </li>
-        {% elsif category.categoryname == "User Guide" %}
+        {% else %}
         <li class="categoryfolder">
           <div class="itemdetails canOpen">
           <img class="sidebarimage" src="/img/{{ category.image }}.svg" />
@@ -123,13 +153,21 @@
               <ul class="pagesfolder getsOpened">
                 {% for level3 in page.level3 %}
                 <li class="level3item">
+                  {% if page.pagename == "New Experiences" %}
+                    <span><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ level3.level3name }}</span></a>
+                    {% else %}
                   <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ level3.level3name }}</span></a>
+                  {% endif %}
                 </li>
                 {% endfor %}
                 </ul>
                 </li>
                 {% else %}
+                {% if page.pagename == "New Experiences" %}
+                  <li class="pageitem nobuttons"><a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+                  {% else %}
                 <li class="pageitem nobuttons"><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
                 </ul>
@@ -137,55 +175,11 @@
                 {% else %}
               <li class="subcategoryitem">
                 <div class="sidebarbuttoncontainer">
+                  {% if page.pagename == "New Experiences" %}
+                    <a href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+                    {% else %}
                   <a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
-                </div>
-              <ul class="subcategoryfolder getsOpened">
-              </ul>
-              </li>
-              {% endif %}
-              {% endfor %}
-              </ul>
-              </li>
-        {% else %}
-        <li class="categoryfolder">
-          <div class="itemdetails canOpen">
-          <img class="sidebarimage" src="/img/{{ category.image }}.svg" />
-          <a class="normalLink" onclick="linkclick(event,this)" href="/{{ category.categoryname | slugify: "raw" }}.html">{{ category.categoryname }}</a>
-        </div>
-        <ul class="categorylist getsOpened">
-        {% for subcategory in category.subcategories %}
-        {% if subcategory.pages %}
-        <li class="subcategoryitem">
-          <div class="sidebarbuttoncontainer canOpen">
-            <button class="sidebarbutton"><span></span><span></span></button>
-            <span>{{ subcategory.subcategoryname }}</span>
-        </div>
-          <ul class="subcategoryfolder getsOpened">
-            {% for page in subcategory.pages %}
-            {% if page.level3 %}
-            <li class="pageitem">
-              <div class="sidebarbuttoncontainer canOpen">
-                <button class="sidebarbutton"><span></span><span></span></button>
-                <span>{{ page.pagename }}</span>
-              </div>
-              <ul class="pagesfolder getsOpened">
-                {% for level3 in page.level3 %}
-                <li class="level3item">
-                  <span><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | append: '-'| append: level3.level3name | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ level3.level3name }}</span></a>
-                </li>
-                {% endfor %}
-                </ul>
-                </li>
-                {% else %}
-                <li class="pageitem nobuttons"><a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | append: '-' | append: page.pagename | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ page.pagename }}</li></a>
-                {% endif %}
-                {% endfor %}
-                </ul>
-                </li>
-                {% else %}
-              <li class="subcategoryitem">
-                <div class="sidebarbuttoncontainer">
-                  <a onclick="linkclick(event,this)" href="/{{ category.categoryname | append: '-' | append: subcategory.subcategoryname | slugify: "raw" | replace: "'", "" | replace: "&", "" | replace: "--", "-" | replace: ",", "" }}.html">{{ subcategory.subcategoryname }}</a>
+                  {% endif %}
                 </div>
               <ul class="subcategoryfolder getsOpened">
               </ul>

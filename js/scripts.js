@@ -49,8 +49,8 @@ function navigateContent(url) {
 				$('#defaultwrapper').removeClass('botwrapper');
 				$('#resetcontainer').css('display', 'none');
 			}
-			anchors.add('h2');
-			$('#mysidebar .activeitem').removeClass('activeitem');
+			anchors.add('h2, h3');
+			$('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
@@ -178,13 +178,16 @@ function sideBarClick () {
 		var hasExpanded = $(this).data("expanded") == "true";
 		var nextGetsOpened = $(this).nextAll(".getsOpened");
 		var childCanOpen = nextGetsOpened.find(".canOpen");
+		var childOfSubcategory = $(this).parent().hasClass('.subcategoryitem');
 		if (event.originalEvent === undefined) {
 			$(this).nextAll(".getsOpened").show();
 			$(this).addClass("activeitem")
 			$(this).data("expanded", "true");
 		} else {
 		if (hasExpanded) {
-			$(this).removeClass("activeitem");
+			if (!childOfSubcategory) {
+					$(this).removeClass("activeitem");
+			}
 			childCanOpen.removeClass("activeitem");
 			$(this).data("expanded", "false");
 			nextGetsOpened.slideUp(500);
@@ -209,7 +212,7 @@ function sideBarClick () {
 		if ($(this).hasClass("activeitem")) {
 			$(this).removeClass("activeitem");
 		} else {
-			$(".categorylist a").removeClass("activeitem");
+			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
 	});

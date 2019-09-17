@@ -5,7 +5,9 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-all-connections.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-all-connections.html
+redirect_from:
+  - agent-manager-workspace-manager-tools-for-messaging-all-connections.html
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false
@@ -66,6 +68,6 @@ Agents on the other hand are able to view only the conversations for which they 
 <div class="notice">
 <b>Note:</b>
 <ul>
-<li>Engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other. (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order).</li>
+<li>Engagement attributes comprised of numbers that are separated by dashes can be searched for, but only consecutive digits can be searched for. For example, if the phone number engagement attribute is "123-456-7890", the user can search for the entire number, or a consecutive part of it like "123" or "456" or "7890". However, they cannot search for "789".</li> <li>While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</li> <li>In order to search for a phrase by keywords in the transcripts, summary or engagement attributes, the user must place quotation marks at the beginning and end of the phrase. This will make sure that the search will run according to all specified terms in that phrase and in the same position relative to each other. (For example: “[tester@liveperson.com](mailto:tester@liveperson.com),” will search for the words “tester” and “liveperson.com”  in that order).</li>
 </ul>
 </div>

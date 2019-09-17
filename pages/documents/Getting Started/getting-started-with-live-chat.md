@@ -13,6 +13,7 @@ redirect_from:
   - setup-authchat.html
 
 ---
+
 To get started, access LivePerson using this link: [https://va-a.authentication.liveperson.net/login.html](https://va-a.authentication.liveperson.net/login.html "https://va-a.authentication.liveperson.net/login.html")
 
 {: .notice}  
@@ -26,7 +27,7 @@ To get the most basic version of chat up and running, brands need to insert a ge
 2. Create users for the agents that will be taking the conversations.  See how to [set up users](admin-settings-create-and-manage-users.html).
 3. Once the code is up and an agent is logged into the system, all agents must set their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
-![](/img/getting-started-with-chat-1b.png)
+![](/img/chat-workspace.jpg)
 
 {: .notice}
 The basic set up means there will be no routing - every agent will receive all messages
