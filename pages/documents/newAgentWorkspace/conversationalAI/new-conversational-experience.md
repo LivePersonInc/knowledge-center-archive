@@ -40,53 +40,74 @@ Features and products that are unlocked will be clickable, allowing you to easil
 
 * **Third-Party Bots** - Integrate bots created on a platform other than the Conversation Builder with LiveEngage.
 
-## Conversation Builder
+## Updated UI inside of apps
+
+The below Conversational AI apps have been updated with new top nav bars and new tabular organization.
+
+Each top nav bar features, on the left, a back button to more easily go back one screen. User Settings and Subscriptions buttons on the right. In addition, some views inside of apps will contain other menu items in this top nav bar.
+
+### Conversation Builder
 
 The Conversation Builder itself is also going under some changes meant to enhance the user experience:
 
-* When you enter Conversation Builder, your list of bots will now be in a tabular format.
-
-* A new top navigation bar has been added to Conversation Builder. On the left, you can click the back button to go back one screen. On the right, you will see the User Settings and Subscriptions buttons. When inside a bot, you will see the Dialogs, Integrations, Global Functions, and Visualize buttons as well.
+* When you enter Conversation Builder, your list of bots will now be in a tabular format. On the top right, you will see the new location for the "Add Bot" button.
 
 <img style="width:750px" src="img/beaut_cb_1.png">
+
+* When inside a bot, the top nav bar will show the Dialogs, Integrations, Global Functions, and Visualize buttons.
 
 <img style="width:750px" src="img/beaut_cb_2.png">
 
 
-## Intent Builder
+### Intent Builder
 
 * When you enter Intent Builder, your list of intent domains will now be in a tabular format.
 
-* A new top navigation bar has been added to Intent Builder. On the left, you can click the back button to go back one screen. On the right, you will see the User Settings and Subscriptions buttons. When inside an intent domain, you will see Intents Domains, and Versions buttons as well.
-
 <img style="width:750px" src="img/beaut_ib_1.png">
+
+* When inside an intent domain, the top nav bar will show Intents, Entities, and Versions buttons as well.
+
+* When inside an intent domain, some important icons have been moved from the right to the bottom right:
+
+    * Debug, Train, Domain Settings
 
 <img style="width:750px" src="img/beaut_ib_2.png">
 
 
-## Knowledge Base
+### Knowledge Base
 
 * When you enter Knowledge Base, your list of knowledge bases will now be in a tabular format.
 
-* A new top navigation bar has been added to Knowledge Base. On the left, you can click the back button to go back one screen. On the right, you will see the User Settings and Subscriptions buttons.
-
 <img style="width:750px" src="img/beaut_kb_1.png">
 
-## Bot Analytics
+* When you are inside of a Knowledge Base, some important icons have been moved from the right to the bottom right:
 
-* When you enter Bot Analytics, your list of bots will now be in a tabular format.
+    * Chat, Tags, Categories, Test User Input, Knowledge Base Menu, Intents Analytics
 
-* A new top navigation bar has been added to Bot Analytics. On the left, you can click the back button to go back one screen. On the right, you will see the User Settings and Subscriptions buttons. When inside a specific bot's analytics, you will see Overview, Conversations, Intents, Escalations and more buttons as well.
+<img style="width:750px" src="img/beaut_kb_2.png">
+
+
+### Bot Analytics
+
+* When you enter Bot Analytics, the table of bots has been updated.
 
 <img style="width:750px" src="img/beaut_ba_1.png">
+
+* When inside a specific bot's analytics, the top nav bar will show Overview, Conversations, Intents, Escalations and more buttons as well.
 
 <img style="width:750px" src="img/beaut_ba_2.png">
 
 
-## Bot Accounts
+### Bot Accounts
 
 * When you enter Bot Accounts, your list of user accounts will now be in a tabular format.
 
-* A new top navigation bar has been added to Bot Accounts. On the left, you can click the back button to go back one screen. On the right, you will see the User Settings and Subscriptions buttons. When inside a specific Organization, you will see Edit Account, Users, and Credentials buttons as well.
+* When inside a specific Organization, the top nav bar will show Edit Account, Users, and Credentials buttons as well.
 
 <img style="width:750px" src="img/beaut_bac_1.png">
+
+### Bot Status
+
+* When inside the Bot Status dashboard, the top nav bar will display on the right side Bot Agents, Jobs, and Servers buttons as well.
+
+<img style="width:750px" src="img/beaut_bs_1.png">
