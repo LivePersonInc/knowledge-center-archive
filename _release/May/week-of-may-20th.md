@@ -240,8 +240,6 @@ All files types have a file size limitation of 5MB. The file sharing flow, funct
 
 The iframe sandbox attribute used in the agent widgets enforces restrictions on content hosted in the iframe to protect the LiveEngage application from several malicious actions. LiveEngage has set a number of sandbox flags to relax these restrictions and allow required functionalities.
 
-Brands who sign the security waiver will be able to configure the sandbox attribute, giving them more flexibility to customize the Agent Widget SDK.
-
 **Dependencies:**
 
 * site setting: ‘disable.custom.widget.iframe.sandbox’ off by default
