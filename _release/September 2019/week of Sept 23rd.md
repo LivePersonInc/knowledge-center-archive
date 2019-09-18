@@ -102,6 +102,8 @@ From the conversation action menu, user can select the new “Transfer conversat
 The “Transfer conversation” dialog box displays all the relevant skill that the conversation can be transferred to (the login is defined in the LiveEngage platform).   
 To transfer the conversation, user needs to select the required skill and then tap on the transfer button.
 
+![](/img/week-of-sept23-1-1.png)
+
 ### Viewing photos sent by consumer
 
 The LE mobile app now supports viewing photos sent by the consumer.   
@@ -112,6 +114,11 @@ Tapping on the image will open it in full view mode
 
 Users can now send photos from the LiveEngage mobile app to the consumers. If the conversation source (Connector) supports receiving photos from agent an “camera” button will be available in the input area bar. User can share photos from the device photo library or take photos using the device camera. 
 
+{: .notice}**  
+**In this version, the agent photo sharing is not support for apple business chat
+
+![](/img/week-of-sept23-3-1.png)
+
 ### Push notification enhancements
 
 Up until now, there was a limitation that for a period of one minute after the app moves to the background, push notifications were not sent. In the new version, the push notification will start working as soon as the app is moved to the background.
@@ -119,3 +126,15 @@ Up until now, there was a limitation that for a period of one minute after the a
 ### Session expired indication
 
 If for some reason the LiveEngage mobile app session expired (e.g. the same user login to the LiveEngage web) an indication will presented in the app and the app will be logged out
+
+## Mobile SDK 
+
+The latest Mobile SDK release notes can be found in the Developers Community:
+
+iOS:  
+  
+[https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-latest-release-notes.html](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-latest-release-notes.html "https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-latest-release-notes.html")
+
+Android:  
+  
+[https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html "https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html")
