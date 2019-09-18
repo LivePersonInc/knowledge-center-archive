@@ -114,8 +114,8 @@ Tapping on the image will open it in full view mode
 
 Users can now send photos from the LiveEngage mobile app to the consumers. If the conversation source (Connector) supports receiving photos from agent an “camera” button will be available in the input area bar. User can share photos from the device photo library or take photos using the device camera. 
 
-{: .notice}**  
-**In this version, the agent photo sharing is not support for apple business chat
+{: .notice}  
+In this version, the agent photo sharing is not support for apple business chat
 
 ![](/img/week-of-sept23-3-1.png)
 
