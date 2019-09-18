@@ -17,7 +17,7 @@ These release notes include new features arriving to LiveEngage during September
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## LiveEngage Mobile App Version 2.3.0 now available in the apple app-store
+## LiveEngage Mobile App Version 2.3.0 will soon be available in the apple app-store
 
 ### Type: New functionality
 
