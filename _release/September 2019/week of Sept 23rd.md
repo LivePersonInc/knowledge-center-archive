@@ -102,7 +102,7 @@ From the conversation action menu, user can select the new “Transfer conversat
 The “Transfer conversation” dialog box displays all the relevant skill that the conversation can be transferred to (the login is defined in the LiveEngage platform).   
 To transfer the conversation, user needs to select the required skill and then tap on the transfer button.
 
-![](/img/week-of-sept23-1-1.png)
+![](/img/week-of-sept23-1.png)
 
 ### Viewing photos sent by consumer
 
@@ -117,7 +117,7 @@ Users can now send photos from the LiveEngage mobile app to the consumers. If th
 {: .notice}  
 In this version, the agent photo sharing is not support for apple business chat
 
-![](/img/week-of-sept23-3-1.png)
+![](/img/week-of-sept23-1.png)
 
 ### Push notification enhancements
 
