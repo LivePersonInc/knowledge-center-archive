@@ -588,6 +588,10 @@ Configuring a load balancing per a specific skill is then made available through
 {: .notice}  
 This feature cannot be defined to work for both Messaging and Chat load balancing per a single skill.
 
+**Limitations**
+* When an agent resumes a conversation, it will be handled by that agent. However, if the agent transfers the conversation it could be transferred to a group that is different from the resuming agent’s group. There is a planned fix for this in the next release (UMS 3.23).
+* The report for load balancing in the Report Builder currently has a bug calculating the total number of closed conversations per group, the data  is not showing as expected. For a workaround, please contact Itamar Chazanovitz. There is a planned fix for this in the next Report Builder release (October 19th). 
+
 **Screenshot**
 
 ![](/img/Staticload1.png)
