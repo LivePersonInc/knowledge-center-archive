@@ -143,3 +143,13 @@ The users lists can be exported as a zipped file containing individual CSV files
 
 {: .notice}  
 Only UTF 8 encoding is supported. We therefore recommend using Google spreadsheet, numbers, or OpenOffice to open the exported file if they include non-Latin characters.
+
+## Automatically log out users after inactivity
+
+On the bottom of the Users view, you will find a number of account-wide settings.
+
+<img style="width:750px" src="img/userAutoLogout.png">
+
+See the setting "Users will be automatically logged out after inactivity of: ___"
+
+Change this to your desired amount of time.
