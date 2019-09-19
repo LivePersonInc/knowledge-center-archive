@@ -8,7 +8,8 @@ level3: ''
 permalink: release-notes-2019-september-week-of-september-23rd.html
 isTutorial: false
 isNew: false
-
+published: true
+date: 2019-09-19
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -556,7 +557,7 @@ In the engagement window, the following French localization message alerts are i
 * Read = Lecture
 * Delivered = Délivré
 
-**Fix:** 
+**Fix:**
 
 The following French localization message alerts have been corrected:
 
