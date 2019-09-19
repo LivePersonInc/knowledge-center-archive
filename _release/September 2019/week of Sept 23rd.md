@@ -23,75 +23,40 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: New functionality
 
 <div class="tablecontainer">
-
 <table class="releasenotes">
-
 <thead>
-
 <tr class="categoryrow">
-
 <th>Web Messaging</th>
-
 <th>Mobile App Messaging</th>
-
 <th>Twilio</th>
-
 <th>Facebook Messenger</th>
-
 <th>ABC</th>
-
 <th>Line</th>
-
 <th>Google RCS</th>
-
 <th>Google My Business</th>
-
 <th>WhatsApp Business</th>
-
 <th>CM</th>
-
 <th>WeChat</th>
-
 <th>Chat</th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>Yes</td>
-
 <td>No</td>
-
 </tr>
-
 </tbody>
-
 </table>
-
 </div>
 
 The new LE mobile app version include the following new features:
@@ -171,7 +136,11 @@ When an engagement window is configured with a welcome message, the welcome mess
 
 Before: 
 
+![](img/week-of-september-22-1.png)
+
 After: 
+
+![](img/week-of-september-22-2.png)
 
 ## "Show history for closed conversations" creates a fictitious load on the msghist service and console errors
 
