@@ -18,7 +18,7 @@ These release notes include new features arriving to LiveEngage during September
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## LiveEngage Mobile App Version 2.3.0 will soon be available in the apple app-store
+## LiveEngage Mobile App Version 2.3.0 will soon be available in the Apple app-store
 
 ### Type: New functionality
 
@@ -81,7 +81,7 @@ Tapping on the image will open it in full view mode
 Users can now send photos from the LiveEngage mobile app to the consumers. If the conversation source (Connector) supports receiving photos from agent an “camera” button will be available in the input area bar. User can share photos from the device photo library or take photos using the device camera.
 
 {: .notice}  
-In this version, the agent photo sharing is not support for apple business chat
+In this version, agent photo sharing is not supported for Apple Business Chat.
 
 ![](/img/week-of-sept23-1.png)
 
