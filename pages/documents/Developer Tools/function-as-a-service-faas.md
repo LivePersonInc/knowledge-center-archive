@@ -12,7 +12,6 @@ isNew: true
 redirect_from:
 - developer-tools-function-as-a-service-(faas).html
 ---
-
 {: .notice}
 This page contains an overview of LivePerson Functions and their benefits. For more in-depth, technical documentation about working with LivePerson Functions, please see our [Developers' Community](https://developers.liveperson.com/liveperson-functions-overview.html).
 
