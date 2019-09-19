@@ -53,22 +53,12 @@ The following considerations should be taken into account when using Report Buil
 
 LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
-The selection of predefined dashboards includes:
-
-1. [Agent Activity](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html)* - focused on agent productivity, utilization, and performance.
-2. [Skill Activity](data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html)** - learn about the queues consumers are entering to reach an agent.
-3. [Goal Tracker](data-reporting-live-chat-chat-dashboards-goal-tracker-report.html)* - list of every in-session and cross-session conversion that was achieved.
-4. [Business dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html)* - a daily view into campaign funnel performance.
-5. [Operational & Staffing](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html)** - the relationship between agent activity and campaign performance, offers a robust set of combined KPIs linked together by skills.
-6. [Performance dashboard for messaging](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)* - Innovative view into the contact center operation, including unique KPI’s to help run a Messaging business.
-7. [Survey dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)* - Capture consumer feedback, including responses in pre-chat and post-chat surveys, such as CSAT and NPS.
-
 The data currently available in the predefined dashboards are as follows:
 
 **Messaging & Live Chat dashboards:**
 
-* [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents 
-* [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion 
+* [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
+* [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
 
 For Messaging only:
 
@@ -78,10 +68,10 @@ For Messaging only:
 
 **Chat only dashboards:**
 
-* [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand 
-* [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys 
-* [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills 
-* Business dashboard for LiveChat: Includes information about campaigns and engagements performance. 
+* [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
+* [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
+* [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
+* Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
 
 ## Scheduling
 
