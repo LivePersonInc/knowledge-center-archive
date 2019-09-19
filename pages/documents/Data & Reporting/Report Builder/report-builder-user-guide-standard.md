@@ -54,9 +54,22 @@ The LiveEngage Report Builder provides a robust reporting platform with powerful
 
 If you wish to enrich the predefined dashboards, and customize them to their needs are requested to approach their LivePerson account manager.
 
-please see [here](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) for a list of all the dashboards available
+The data currently available in the predefined dashboards are as follows:
 
-{: .notice}   
+* **Messaging & Live Chat dashboards:**
+  * [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
+  * [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
+* For Messaging only:
+  * [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
+  * Survey dashboard for Messaging: Includes information about responses to surveys
+  * [Business dashboard for Messaging:](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* **Chat only dashboards:**
+  * [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
+  * [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
+  * [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
+  * Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
+
+{: .notice}  
 The data included in Report Builder is constantly evolving.
 
 ## Metrics glossary
