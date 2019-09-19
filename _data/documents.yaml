@@ -84,6 +84,7 @@
         - pagename: Agent survey for messaging
         - pagename: Configuring response times
         - pagename: Fallback configuration per skill
+        - pagename: Static load balancing
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
