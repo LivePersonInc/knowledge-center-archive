@@ -8,8 +8,8 @@ level3: ''
 permalink: release-notes-2019-september-week-of-september-23rd.html
 isTutorial: false
 isNew: false
-published: true
-date: 2019-09-19
+date: '2019-09-19'
+
 ---
 These release notes include new features arriving to LiveEngage during September 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -82,8 +82,6 @@ Users can now send photos from the LiveEngage mobile app to the consumers. If th
 
 {: .notice}  
 In this version, agent photo sharing is not supported for Apple Business Chat.
-
-![](/img/week-of-sept23-1.png)
 
 ### Push notification enhancements
 
