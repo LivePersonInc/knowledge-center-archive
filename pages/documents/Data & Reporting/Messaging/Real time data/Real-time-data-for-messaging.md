@@ -34,5 +34,3 @@ As an agent manager, you want to have an overall picture of how your agents are 
 The agent manager real time dashboard for messaging graphically displays real time and historical data that enables easy evaluation of agent efficiency for messaging conversations.
 
 To access the agent manager dashboard for messaging, click the pull-down button above the App Connections list.
-
-![](/img/all-connections-6.png)
