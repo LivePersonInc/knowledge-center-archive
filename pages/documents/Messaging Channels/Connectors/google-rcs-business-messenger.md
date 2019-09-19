@@ -39,6 +39,9 @@ Google RCS Business Messaging is built on top of the RCS standard, providing an 
 * **No integration** — Google RCS Business Messenger is enabled inside of Android Messages, Google’s default SMS app.
 * **Verification** — Businesses get a checkmark on their profile to show that they are verified, and their full brand name will be displayed.
 * **Custom branding** — Brands can customize the look and feel of the messaging interface to suit their business.
+* **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
+* **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
+* **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey.
 
 ## How conversations start
 
