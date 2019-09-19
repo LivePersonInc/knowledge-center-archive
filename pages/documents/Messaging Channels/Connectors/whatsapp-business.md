@@ -25,11 +25,17 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 ## Why use WhatsApp to connect with your consumers?
 
 * **Consumer-preferred channel** — With 1.5 billion users globally, WhatsApp is the most popular messaging app in the world.
+
 * [**Rich messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich messaging capabilities like audio, file, image sharing, rich links, location sharing, automatic messages, and read receipts provide an enhanced messaging experience with more flexibility.
-* **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and an officail business account designation to provide your consumers with confidence that they are messaging with the right brand.
+
+* **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and an official business account designation to provide your consumers with confidence that they are messaging with the right brand.
+
 * **Free and easy to use** — WhatsApp is free to use and works on Wi-Fi or cellular data for added accessibility.
+
 * **Enhanced security** — End-to-end encryption provides an additional layer of security, giving consumers added peace of mind.
+
 * **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
+
 * **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey.
 
 ## How conversations start
