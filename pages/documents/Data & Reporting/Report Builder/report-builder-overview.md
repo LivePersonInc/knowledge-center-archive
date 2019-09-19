@@ -60,7 +60,7 @@ The data currently available in the predefined dashboards are as follows:
 * [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
 * [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
 
-For Messaging only:
+**For Messaging only:**
 
 * [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
 * Survey dashboard for Messaging: Includes information about responses to surveys
