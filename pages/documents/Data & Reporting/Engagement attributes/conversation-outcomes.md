@@ -8,7 +8,7 @@ subtitle: 'Conversation outcomes allows agents to add insight about the conversa
 level3: ''
 permalink: data-reporting-engagement-attributes-conversation-outcomes.html
 isTutorial: false
-date: 2019-01-20 09:22:45 +0000
+date: '2019-01-20T09:22:45.000+00:00'
 
 ---
 LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.  
@@ -42,22 +42,21 @@ To enable this feature:
 
 ![](/img/conversation-outcomes1.png)
 
-{:start="2"}
-2. In the footnote, click Data Sources. The Data Sources page is displayed.
+{:start="2"} 2. In the footnote, click Data Sources. The Data Sources page is displayed. Click the tab called Integrations where your Connectors and Engagement Attributes will be displayed.
 
 ![](/img/conversation-outcomes2.png)
 
 {:start="3"}
-3. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
-4. Click submit by agent.
+3\. In the Data Sources page, next to the relevant engagement attributes category, click configure. In the example below, eCommerce info is selected.
+4\. Click submit by agent.
 
 ![](/img/conversation-outcomes3.png)
 
 {:start="5"}
-5. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
-6. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
-7. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
-8. Click save.
+5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
+6\. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
+7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
+8\. Click save.
 
 ## Using conversation outcomes
 
