@@ -7,7 +7,7 @@ subtitle: 'User guide for users with read only access '
 level3: ''
 permalink: data-reporting-report-builder-report-builder-user-guide-(standard).html
 isTutorial: false
-date: 2019-01-10 09:10:56 +0000
+date: '2019-01-10T09:10:56.000+00:00'
 
 ---
 ## Accessing Report Builder
@@ -64,7 +64,8 @@ The data currently available in the predefined dashboards are as follows:
 * [**Operational & staffing dashboard:**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) Includes information about skill performance and skill demand.
 * [**Survey activity dashboard**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html)**:** Includes information about responses to surveys in Live chat.
 
-{: .notice} The data included in Report Builder is constantly evolving.
+{: .notice}   
+The data included in Report Builder is constantly evolving.
 
 ## Metrics glossary
 
