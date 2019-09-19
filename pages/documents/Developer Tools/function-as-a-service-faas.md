@@ -11,8 +11,8 @@ isTutorial: false
 isNew: true
 redirect_from:
 - developer-tools-function-as-a-service-(faas).html
-
 ---
+
 {: .notice}
 This page contains an overview of LivePerson Functions and their benefits. For more in-depth, technical documentation about working with LivePerson Functions, please see our [Developers' Community](https://developers.liveperson.com/liveperson-functions-overview.html).
 
@@ -72,7 +72,7 @@ A function can be developed to automatically send a conversation’s transcript 
 
 ### Use case 4: Integrate with a ticketing system with much greater flexibility
 
-Today, brands can integrate ticketing systems to empower agents with detailed and custom information about the consumers in a conversation. Functions enables brands to take this integration further with full control over what information is passed and displayed to agents and what actions they can perform in the ticket as part of the conversation. 
+Today, brands can integrate ticketing systems to empower agents with detailed and custom information about the consumers in a conversation. Functions enables brands to take this integration further with full control over what information is passed and displayed to agents and what actions they can perform in the ticket as part of the conversation.
 
 For example, LivePerson Functions allows brands to easily integrate data from enterprise systems, like a CRM, through a secure, LivePerson-managed functions service. This will empower agents to see the status of the consumer’s open ticket and take actions like closing or updating the ticket during the conversation with the consumer.
 
