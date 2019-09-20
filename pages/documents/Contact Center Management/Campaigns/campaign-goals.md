@@ -12,33 +12,34 @@ date: 2019-01-27 08:23:25 +0000
 redirect_from:
   - about-goals.html
 ---
-Each campaign within LiveEngage has a campaign goal, which signifies what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can re-use it in future campaigns.
+Each campaign within LiveEngage has a campaign goal, which describes what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can reuse it in future campaigns.
 
-The first step in building your campaign is to decide on one of the possible LiveEngage goals that represents your business goal, for example, _complete a service journey_, _generate leads_, or _sell a product or service_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
+The first step in building your campaign is to decide on one of the possible LiveEngage goals that represents your business goal, for example, _sell product/service_, _Generate leads_, or _Increase page views_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
 
 ![](/img/campaign-goals-1.png)
 
-The list of your campaigns appears on the **Campaigns tab**, and includes a data bar, and the details of your campaigns.
+Your campaigns are available from the **Manage campaigns and engagements** button. The Campaigns page includes a data bar, and the details of your campaigns.
 
 ## How to set a goal
 
-1. From the Campaign page, click Add goal to access the Goal Library.
+1. From the Campaigns page, select an existing campaign or click the "+ Add campaign" button.
+2. Edit the existing Campaign goal for an existing campaign or select "+ Add Goal" for a new campaign.
 
-{:start="2"}
-2. To configure a new goal, click Add new. The different types of goals are available on the next screen.
+{:start="3"}
+2. To create a new goal, click "Add new". The different types of goals are available on the next screen.
 
 ![](/img/campaign-goals-2.png)
 
-{:start="3"}
+{:start="4"}
 3. Once a goal has been created, it will appear in the Goal Library and can be reused in this and future campaigns.
 
 ![](/img/campaign-goals-3.png)
 
-## What kind of goals can I choose from?
+## What type of goals can I choose from?
 
-There are five goal types to choose from: **generate leads, sell product/service, service activity complete, increase page views** and **other** (which enables you to define your own goal type). Let’s look at sample use cases for three of these goals:
+There are five goal types to choose from: **Sell product/service, Generate leads, Service activity complete, Increase page views** and **other** (which enables you to define your own goal type). Let’s look at sample use cases for three of these goals:
 
-### 1. Sell product/service goal
+### 1. Sell product/service goal type
 
 **Use case:** Max’s Diamond Jewelry
 
@@ -47,7 +48,7 @@ Max is the owner of an online chain of stores that sells diamond jewelry. His bu
 Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
 
 {: .notice}
-**Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the e-commerce category.
+**Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “Configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
 
 ![](/img/campaign-goals-4.png)
 
@@ -60,10 +61,10 @@ A LiveEngage transaction is the way which the system reports the exchange of mon
 1. In the Goal Library, add a new sales goal, e.g., “Sell product/service” and give it an appropriate name, such as _Electronics Sales._
 2. Select Transaction as the indicator.
 3. You can set the goal for transactions to **any value**, to indicate that any transaction will be measured as a success. If you are only interested in measuring transactions above a given value, select the second option, **More than**, and type in your value.
-4. If you haven’t yet configured tracking, you’ll see the message, “We haven't received transaction information data in the last 24 hours.” Click the **Configure tracking** button to do so now. You can also configure the Transaction attribute under Engagement Attributes in the eCommerce category..
+4. If you haven’t yet configured tracking, you’ll see the message, “We haven't received transaction information data in the last 24 hours.” Click the **Configure tracking** button to do so now. You can also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
 5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to LiveEngage (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
 
-Now, LiveEngage will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes]().
+LiveEngage will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes]().
 
 In the goal indicator settings, Max set his goal as **more than 10,000**, and clicked **save**.
 
@@ -80,17 +81,17 @@ Max can now create engagements that he believes will target his high spenders. O
 
 Julia manages the Great Bank mobile app and she is setting up a campaign that will measure the number of times users complete the online journey required to apply for a gold credit card. Each time an app user successfully completes this journey, the conversion will display +1 in the data bar.
 
-Julia chooses a goal type that reflects the user journey in the app: **Service activity complete.** She names the goal, adds a short description and selects the particular topic that reflects the activity that she wants the user to complete: **apply for a gold card**. She then clicks **Save**. Now, every time that an app user completes the activity of applying for a gold card, the conversion will display +1 on the data bar.
+Julia chooses a goal type that reflects the user journey in the app: **Service activity complete.** She names the goal, optionally adds a description and selects the particular topic that reflects the activity that she wants the user to complete: **Apply for a gold card**. She then clicks **Save**. Now, every time that an app user completes the activity of applying for a gold card, the conversion will display +1 on the data bar.
 
 #### Set multiple statuses for service goals
 
 The visitor journey for any given service activity, or topic, usually consists of multiple stages. To be able to define more than one stage as a success, your developer will map each of the stages in your customer’s journey to the statuses defined in LiveEngage. Then, once the stages are mapped to statuses, you can decide which one or more of the statuses is considered a success, or a conversion.
 
-For example, when a customer applies for a loan, the stages of applying for a loan (the topic) will be assigned statuses such as, in progress, not approved, missing details, pending or resolved. You can select more than one of the statuses and define each one as a success within the process, e.g., pending and resolved.
+For example, when a customer applies for a loan, the stages of applying for a loan (the topic) will be assigned statuses such as, In progress, Not approved, Missing details, etc. You can select more than one of the statuses and define each one as a success within the process, e.g., pending and resolved.
 
 Furthermore, you can define multiple statuses for more than one topic simultaneously. This gives you more flexibility in determining how to define a successful visitor journey.
 
-Each of the boxes relates to one status; Status #1, etc. Within each status box, a topic, or topics, have been selected. Once one of the topics reaches one of its selected status(es), the goal is considered reached. Here’s an example:
+Each of the boxes relates to one status; Status #1, etc. Within each status box, a topic, or topics, have been selected. Once one of the topics reaches one of its selected status(es), the goal is considered reached.
 
 ### 3. Generate leads goal
 
@@ -120,7 +121,7 @@ In order to avoid compromising the integrity of your data, LiveEngage allows you
 1. By using engagement attributes you can assign a unique ID to the different goal types; Purchase (Order ID), Leads (Lead ID), and Service activities (the combination of Service ID, Topic and Status). When the system recognizes an event with a unique ID as having already been collected in a particular session, metadata, which signals a duplication, is added to the event. This allows the system to filter all duplicates from reports and conversions are counted only once. This kind of deduplicating is enabled by default and cannot be disabled.
 
 {: .notice}
-**Note:** For the particular goal _Interact with Visitors_, engagements in the same session will be counted multiple times yet be counted as one “Goal reached”. For example, a visitor might chat multiple times within one session, yet it will be counted as only one “Goal reached”. You will then see in your reports more engagements  than “Goals reached”.
+**Note:** For the particular goal _Interact with Visitors_, engagements in the same session will be counted multiple times yet be counted as one “Goal reached”. For example, a visitor might chat multiple times within one session, yet it will be counted as only one “Goal reached”. You will then see in your reports more engagements than “Goals reached”.
 
 ## Goal Conditions
 
