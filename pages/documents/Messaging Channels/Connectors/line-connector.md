@@ -21,7 +21,7 @@ LiveEngage is now seamlessly integrated into Line, offering your brand the oppor
 * **Line application available for every smartphone** — The Line app is accessible to every one of your customers, whether they’re using iOS or Android.
 * **Be where your consumers need you** — By adding a QR code to an invoice, email or advert, brands can allow consumers to initiate a conversation with an agent via Line.
 * **Easy bot integrations** — Bots can offer service and sales assistance to customers directly through Line, with seamless transition to a human agent available as and when required.
-* **Enriched messaging experience** — Our Sticker web application, combined with a specialized widget in the agent workspace, mean agents can create a friendly and familiar atmosphere in the conversation by sending and receiving stickers.
+* **Rich Messaging capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
 
   ![](/img/Image-1 (1).jpg)
 
