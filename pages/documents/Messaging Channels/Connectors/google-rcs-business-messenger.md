@@ -42,7 +42,7 @@ Google RCS Business Messaging is built on top of the RCS standard, providing an 
 
 ## How conversations start
 
-### IVR deflection
+### Voice to Message 
 
 ![](/img/rcs connector 2-1.gif)
 
