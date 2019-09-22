@@ -28,6 +28,9 @@ With over a billion messages being sent between people and businesses per month 
 * **Enhanced indicators** — Read receipts and typing indicators tell the consumer when agent is actively answering. The agent also benefits from knowing when the consumer receives the message.
 * **Simple bot integrations** — Brands can plug their own bots into Facebook Messenger. Bots can then offer service and sales assistance to customers, with seamless transition to a human agent when required.
 * **In-depth reporting** — Track and report on all Facebook Messenger interactions with detailed performance metrics within LivePerson’s platform.
+* **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
+* **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
+* **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey.
 
 ### Supported messaging features
 
