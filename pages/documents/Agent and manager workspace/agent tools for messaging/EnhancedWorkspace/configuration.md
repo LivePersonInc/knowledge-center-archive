@@ -44,6 +44,79 @@ Set up:
 
 ![alt text](img/new-workspace-configuration.png)
 
+## Set consumer profile for unauthenticated flows 
+
+The **enhanced agent workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Connections and All Connections lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
+
+The enhanced agent workspace supports the two following improvements to assist agents in distinguishing between unauthenticated conversations in the agent workspace:
+
+### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
+
+* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), LiveEngage will automatically populate the visitor name’s in the My Connections/All Connections lists as well as the conversation header.
+* The population will be done only once the **agent clicks the conversation** and opens it.
+
+**Screenshots**
+
+Fig 1: The consumer’s personal info displayed in the consumer info widget
+
+![](img/set-consumer-profile-1.png)
+
+Fig 2: The visitor name is automatically populated in the connections list and in the conversation header
+
+![](img/set-consumer-profile-2.png)
+
+### Manually rename ‘Visitor’ for unauthenticated conversations
+
+The agent has the ability to manually rename the visitor’s first and last name (for unauthenticated conversations only).
+
+1. When focusing on a conversation (via the My Connections/All Connections), go the visitor name above the conversation area. 
+2. Hovering over the visitor’s name, an “Edit consumer name” button will be displayed:
+
+![](img/set-consumer-profile-4.png)
+
+{:start="3"}
+3. Clicking the “Edit consumer name” button will open a new dialog window, with the option to set the consumer’s first and last name. Fill in the details and click “Set”
+
+![](img/set-consumer-profile-5.png)
+
+{:start="4"}
+4. The screen will focus on the conversation again. The new name will be displayed in the conversation title and in the conversation list:
+
+![](img/set-consumer-profile-6.png)
+
+### Enablement
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information please contact your LivePerson representative for more information. 
+
+On your LiveEngage account, take the following steps:
+
+1. Go to any existing agent/agent manager profiles, or create a new profile, and turn the following permissions on: **Update consumer profile via API**
+
+![](img/set-consumer-profile-3.png)
+
+{:start="2"}
+2. Save the profile.
+3. All agents assigned with this profile will now enjoy the improvements of unauthenticated conversations. If an agent is already logged in during the time the changes take effect, they will not see them until the next time they log in. 
+
+### Q&A
+
+**Q:** What happens if the conversation has been transferred to a different agent or returned to the queue? 
+**A:** In case the visitor name has automatically populated be the personal info engagement attribute, or manually renamed by the agent, it will also appear with the new name after returning it to queue or transferring the conversation.
+
+**Q:** What happens if the personal info engagement attribute has been reported and populated, and the agent renames the visitor manually?
+**A:** The manual rename takes precedence over the automatic visitor name population so that the name set by the agent is the one displayed.
+
+**Q:** Will the consumer get a notification indicating that his name has been changed by the agent?
+**A:** No - the changes are visible for LiveEngage users only and are not visible for consumers.
+
+**Q:** Will these capabilities be supported in the old workspace as well?
+**A:** No, the enhancements are supported for the enhanced agent workspace only.
+
+**Q:** When the visitor name is automatically or manually updated, will this affect both the My Connections” and All Connections lists? 
+**A:** Yes. Even if the change has been done on one list (e.g My Connections) it will affect the other list (All Connections), and vice versa.
+
+
 ## Additional custom configuration options
 
 Contact your LivePerson representative to customize the following parameters per your requirements.
