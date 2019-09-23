@@ -15,24 +15,24 @@ By defining a target audience for your campaign, you can ensure that the campaig
 
 ## Configuring your target audience
 
-Within the **target audience library**, you can select a predefined target audience or define the attributes of consumers you want to target with this campaign. Predictive algorithms within LiveEngage will then target the most valuable consumers within your target audience. For example, consumers from a certain geographic location who typed specific search terms to get to your website.
+Within the **Target audience library**, you can select a predefined target audience or define the attributes of consumers you want to target with this campaign. Predictive algorithms within LiveEngage will then target the most valuable consumers within your target audience. For example, consumers from a certain geographic location who typed specific search terms to get to your website.
 
 To learn how to collect information about your visitors, let’s look at an example that targets “Platinum” customers. To start, you must tell LiveEngage what types of customers you have.
 
-1. From the Campaign tab, select a campaign and access the **target audience library**. Click **add new**.
-2. From the add new target audience page:
-   * Select a name for your target audience and add a description.
-   * Click **customer info** from the condition list, to add the condition box.
-   * Select **customer type**.
-   * Type in a unique name, e.g., Platinum. Press enter and **done** to allow the system to add the new type to your list. Once you add “Platinum” it will be included in your customer type list.
-   * To edit your customer types, click **manage**.
-   * To add additional types, click **manage**, scroll down and then click **add type**.
+1. From the Campaign tab, select a campaign and edit the Target audience to reach the **Target audience library**. Click **Add new**.
+2. From the Add new target audience page:
+   * Select a name for your target audience and optionally add a description.
+   * Click **Customer info** from the condition list, to add the condition box.
+   * Select **Customer type**.
+   * Type in a unique name, e.g., Platinum. Press enter and **Done** to allow the system to add the new type to your list. Once you add “Platinum” it will be included in your customer type list.
+   * To edit your customer types, click **Manage**.
+   * To add additional types, click **Manage**, scroll down and then click **Add type**.
 3. Next, configure LiveEngage to collect the data. If you haven’t configured tracking yet, you’ll see a message that reads, “We haven't received customer info data in the last 24 hours.” You can click the Configure tracking button or you can configure tracking under Data Sources > Engagement Attributes > Visitor Information category.
 4. The same process can be implemented for customer status. Examples of customer status might be “migrated” or “inactive.”
 
 <div class="important"> <b>Important:</b> <ul> <li>If the data appears on the page, LiveEngage can extract it without code. Many web pages don’t display the data and therefore you may need to use code for this Engagement Attribute.</li> <li>The data on the page must match the name of the target audience list items exactly (they are case insensitive). For example, if you define the customer types “Gold” and “Silver,” you cannot target a visitor by flagging data named “Gold Plus.”</li> </ul> </div>
 
-Now, LiveEngage will track your customers according to their status and type, allowing you to offer each customer an appropriate chat experience. Decide when to display engagements by selecting the conditions you wish to impose on the target audience. Here is a list of the currently available conditions:
+LiveEngage will track your customers according to their status and type, allowing you to offer each customer an appropriate messaging or chat experience. Decide when to display engagements by selecting the conditions you wish to use for the target audience. Here is a list of the currently available conditions:
 
 1. **External referral:** Target consumers who arrived at your website from other web pages.The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
 
@@ -48,13 +48,13 @@ Now, LiveEngage will track your customers according to their status and type, al
 ![](/img/target-audience-2.png)
 
 {:start="4"}
-4. **Platform:** Target consumers browsing from specific devices. It is possible to select from the following devices:
+4. **Platform:** Target consumers browsing from specific device types. It is possible to select from the following device types:
 * Desktop/Laptop
 * Mobile tablet
 * Mobile smartphone
 
 {:start="5"}
-5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source.  whether a marketing channel, affiliate, or external campaign. If you want to specify an originating channel, you can select from the following options:
+5. **Marketing source:** Target or exclude consumers arriving from a specific marketing source. You can select Originating Channel, Affiliate, or External Campaign. If you specify an Originating Channel, you can select from the following options:
 * Direct
 * Display
 * Email
@@ -63,7 +63,7 @@ Now, LiveEngage will track your customers according to their status and type, al
 * Search
 * Social
 
-  To target consumers arriving from an affiliate or external campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
+  To target consumers arriving from an Affiliate or External Campaign, you can manually enter the sources (multiple sources can be entered in this section and if the consumer originates from any of them this condition will be applicable).
 
   Marketing source is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---marketingcampaigninfo-marketing-source) in the Engagement Attributes guide on the Developer Community.
 
@@ -79,9 +79,9 @@ Now, LiveEngage will track your customers according to their status and type, al
 **Note:** This attribute is currently only supported for web engagements.
 
 {:start="8"}
-8. **Customer info:** Target or exclude your consumers by their type (e.g. VIP, Platinum), or life cycle status (e.g. migrated, inactive).
-* To add a customer status, click on the text box and type the status name e.g. VIP. A dropdown command will appear ‘+ Add VIP’ - clicking this will add the status to the list of options. You can enter up to 110 statuses.
-* To add a customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add inactive’ - clicking this will add the type to the list of options. You can enter up to 110 types.
+8. **Customer info:** Target or exclude your consumers by their Customer type (e.g. VIP, Platinum), or Customer status (e.g. migrated, inactive).
+* To add a Customer status, click on the text box and type the Customer status name e.g. VIP. A dropdown command will appear ‘+ Add "VIP"’ - clicking this will add the Customer status to the list of options. You can enter up to 110 Customer statuses.
+* To add a Customer type, click on the text box and type the status name e.g. inactive. A dropdown command will appear ‘+ Add "inactive"’ - clicking this will add the Customer type to the list of options. You can enter up to 110 Customer types.
 * Clicking ‘Manage’ will open the full list of options you have added; from here you can edit and delete the entries.
 
   Once you have added the types and statuses, you can configure this target audience by selecting from the added options in the dropdown menu.
@@ -89,7 +89,7 @@ Now, LiveEngage will track your customers according to their status and type, al
   Customer info is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {: .notice}
-**Note:** You will need to decide if you wish to target by customer type or by customer status - it is not possible to target both parameters.
+**Note:** You will need to decide if you wish to target by Customer type or by Customer status - it is not possible to target both parameters.
 
 {:start="9"}
 9. **Consumer age:** Target or exclude your consumers based on their age. You can enter a specific age or a target age range.
