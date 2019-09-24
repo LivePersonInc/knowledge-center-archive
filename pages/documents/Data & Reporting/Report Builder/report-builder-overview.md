@@ -32,13 +32,15 @@ Brands with a customer success offering can request customized dashboards with s
 
 As an offline business intelligence decision support tool, the Report Builder is updated periodically with recent activity that took place on your LiveEngage account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Report Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
 
-**Please note:** Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
+Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
 
 The three farms, and their time zones, are as follows:
 
 * Z1 = Virginia, North America. The time zone for the Virginia farm is EST.
 * Z2 = UK. The time zone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
 * Z3 = Sydney, Australia. The time zone for the Sydney farm is AEST.
+
+Please note: Certain metrics available in Report Builder may update retroactively. These metrics are either part of the “Funnel” (available in the Business Activity and Operational & Staffing predefined dashboards), or specific to Messaging (available in the Messaging Performance predefined dashboard). These metrics are updated for full visit sessions to the website, or closed messaging conversations. The description of such metrics include an explicit indication respectively. For more information, please see [metric glossary](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html).
 
 ## Evolution of LiveEngage BI
 
