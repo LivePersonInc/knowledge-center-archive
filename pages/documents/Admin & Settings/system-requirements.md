@@ -84,17 +84,21 @@ Some browsers are not supported at all due to experience or security reasons.  
 
 ## Visitor side: Mobile SDK Requirements
 
+The official support of the LP Mobile SDK version is for the latest version only at any given point of time. This is applicable for both iOS and Android SDK versions.
+
+The support for new OS releases from Apple and Google (iOS and Android OS) for the LP SDK would be within max 6-8 weeks from the date of GA availability of the OS. Beta SDK release of the newer OS beta will be available before 2-4 weeks of the GA availability for the customers to try their hands on and report any early issues.
+
+### Latest releases
+
+Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html
+
 ### Android
 
-* Android SDK 4.1v API 19- API 28 (Excludes AndroidX support)  
-  **Libraries:** 
+* Android SDK 4.1v \[Includes support for API 19- API 28 (Excludes AndroidX support)  
+  **Libraries:**
   1. com.google.android.gms:play-services-maps:16.1.0
   2. com.squareup.okhttp3:okhttp:3.9.1
-
-
 * All releases below SDK 4.1v - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
-
-
 * Android Q - Need support for AndroidX also. ETA to be planned
 
 ### iOS
