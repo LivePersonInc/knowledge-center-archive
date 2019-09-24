@@ -29,9 +29,9 @@ Content banners can also be used to redirect visitors to your community page, to
 
 ## What are my options?
 
-Browse the engagement template gallery and check out the formats: **embedded**, **sticky**, **overlay**, **toaster**, **slide-out** and **peeling corner** banners and buttons.
+Browse the engagement template gallery and check out the formats: **Sticky**, **Embedded**, **Overlay**, **Toaster**, **Slide-out** and **Peeling corner** banners and buttons.
 
-### Available Use-Case Designs
+### Available Use Case Designs
 
 Feel free to use the ready-made templates or to customize them to match the look and feel of your brand. The different-sized templates provide additional designs, so check them out too.
 
@@ -77,9 +77,9 @@ A slide-out engagement is very similar to a sticky engagement, except for the wa
 
 ### Proactive engagements
 
-Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including **overlay**, **toaster** and **peeling corner**.
+Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including **Overlay**, **Toaster** and **Peeling corner**.
 
-Overlay banners appear on top of page content. They’re ideal for messages you don’t want your visitors to miss - like important notifications or messaging/chat invites.
+**Overlay banners** appear on top of page content. They’re ideal for messages you don’t want your visitors to miss - like important notifications or messaging/chat invites.
 
 ![](/img/creating-buttons-and-banners-4.jpg)
 
@@ -97,7 +97,7 @@ A **peeling corner banner** acts as a teaser triangle that expands when users pe
 
 ### Number of displays
 
-This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited, which is the default setting. You can also choose to select different settings for conversation and content engagements.
+This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two, three times, or unlimited, which is the default setting. You can also select different settings for conversation and content engagements.
 
 ### Invite after decline
 
@@ -110,7 +110,7 @@ By default, after declining a proactive content engagement, other content engage
 
 ## Previewing your engagement
 
-Once you’ve selected the buttons and banners for your engagement, you can see how each of them looks by clicking **preview** in the engagement studio.
+Once you’ve selected the buttons and banners for your engagement, you can see how each of them looks by clicking **Preview** in the engagement studio.
 
 ![](/img/creating-buttons-and-banners-6.png)
 
@@ -128,16 +128,16 @@ As web engagements can be accessed from desktop or mobile devices, when creating
 
 ## Creating accessible engagements
 
-LiveEngage visitors experience meets disability accessibility requirements and follows stringent industry standards, including ADA and WCAG 2.0 AA compliance. This applies to the engagement window, engagements and surveys for both the desktop and mobile web (iOS and Android).
+The LiveEngage visitor experience meets disability accessibility requirements and follows stringent industry standards, including ADA and WCAG 2.0 AA compliance. This applies to the engagement window, engagements and surveys for both the desktop and mobile web (iOS and Android).
 
-**The following features are supported out-of-the-box for all the engagements:**
+**The following features are supported out-of-the-box for all engagement types:**
 
 * Engagements are fully keyboard operable. You can navigate to the engagement using the tab key and “click it” using **Enter** or **Space**.
 * On mobile web, you can use **gestures** for navigating to and operating an engagement.
 * Engagements are announced by and can be operated using screen readers.
 
 {: .important}
-**Note:** All engagement types are accessible on desktop, and all engagement types are accessible on mobile web (iOS and Android) except for the toaster engagement. It is recommended to use different types of engagements for mobile web and desktop.
+**Note:** All engagement types are accessible on desktop. All engagement types are accessible on mobile web (iOS and Android) except for the toaster engagement. It is recommended to use different types of engagements for mobile web and desktop.
 
 **To create an accessible engagement:**
 
@@ -191,8 +191,9 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 **To create an HTML engagement in LiveEngage:**
 
  1. Create or edit a campaign **(Campaigns tab > Add campaign or click an existing campaign).** The campaign edit window opens.
- 2. Click **Add engagement.** The LiveEngage Engagement window studio opens.
- 3. Select **Overlay** or **Embed** from the Format list.
+ 2. Click **Add engagement** 
+ 3. Select **Web** as the engagement source. The LiveEngage Engagement window studio opens.
+ 3. Select **Embedded** or **Overlay** from the Format list.
  4. Select **Chat** or **Content** from the Type list.
  5. Click the **HTML engagement** template and click **Next**.
  6. Enter your **HTML code** in the HTML code box.
@@ -200,10 +201,10 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
     1. Place the cursor in the code at the point where you would like the action to be triggered (to add the onclick event).
     2. Select the desired action from the **Add action** list (refer to the table below for the full list of actions). The action code is added to your HTML code.
  8. Set the **position** of your engagement:
-    1. For an **embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
-    2. For an **overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
+    1. For an **Embedded** engagement, enter the **id** of a **div** on your page where you want to display the engagement.
+    2. For an **Overlay** engagement, go to the **Size & Placement** menu and select an out of the box option or a custom position.
  9. In the settings menu, select the chat and engagement settings.
-10. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign logic.
+10. Click **Next** or **Done**. The engagement is saved and exposed to visitors on your website based on the engagement’s campaign settings.
 
 <div class="notice">
 <b>Note:</b>
