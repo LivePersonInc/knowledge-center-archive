@@ -11,6 +11,9 @@ isNew: false
 
 ---
 
+{: .important} 
+**Please note:** This feature is currently in beta mode. For more information, please contact your LivePerson representative. 
+
 ## Introduction
 
 The Voice & Video Calls for Web Messaging solution allows brands to conduct voice or video calls with consumers from within a web messaging conversation. The feature is integrated into the LiveEngage Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements and its configuration options. 
