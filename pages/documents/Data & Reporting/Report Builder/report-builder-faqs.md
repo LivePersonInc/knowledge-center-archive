@@ -150,8 +150,12 @@ The date filter of the goal tracker is applied to the engagement start time. The
 
 ## Handling of 3rd party defects
 
-### What 3rd party tools do LivePerson use and support in Reporting?
+### What 3rd party tool does the Report Builder use and what is it's support policy?
 
 The builder is based on a 3rd party tool by Microstrategy, named Microstrategy Desktop - Web Client. LivePerson is entitled to and will escalate newly discovered defects with the tool to Microstrategy. LivePerson does not commit to resolution of defects found within the Microstrategy platform, however, is committed to deploying fixes made available by Microstrategy to improve the stability and availability of the builder for LivePerson’s customers.
+
+### What are the reporting tool browser requirements?
+
+To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
 
 To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
