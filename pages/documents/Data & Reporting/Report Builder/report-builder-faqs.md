@@ -138,7 +138,7 @@ Report Builder funnel metrics that are included in the above explanation are ava
 
 ## Goal Tracker
 
-### How cab one capture cross-session conversions when running the dashboard?
+### How can one capture cross-session conversions when running the dashboard?
 
 The date filter of the goal tracker is applied to the engagement start time. Therefore, a cross-session conversion will be logged under the date on which the chat started. The following example aims to clarify on the expected behavior:
 
