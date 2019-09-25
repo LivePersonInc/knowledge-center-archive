@@ -794,6 +794,51 @@ The following elements are now translated:
 * Window header texts
 * Go back to the previous page or log in to continue your conversation
 
+## Unable to turn off authentication when creating off-site engagements
+
+### Type: Bug fix 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When configuring off-site engagement on accounts that do not have un_authmessaging web messaging enabled the UI automatically configures it to authenticated web messaging and the option to un-auth is grayed out. If unauthenticated messaging is not enabled, the option to create off-site engagements for messaging should not show.
+
+
+
 ## Cannot edit customized engagement window besides the default theme
 
 ### Type: Bug fix 
