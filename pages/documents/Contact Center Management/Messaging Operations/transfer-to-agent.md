@@ -117,7 +117,7 @@ The default setting will be set to **two hours.** The configuration is set for *
 
 ### Skill level configuration
 
-![](/img/transfer-agent-8.png)
+![](/img/transfer-agent-8A.png)
 
 ## Destination agent experience
 
