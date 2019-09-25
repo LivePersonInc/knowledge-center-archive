@@ -1,5 +1,5 @@
 ---
-pagename: CoBrowse for messaging
+pagename: 'Voice and video calls overview '
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
@@ -10,7 +10,6 @@ isTutorial: false
 isNew: false
 
 ---
-
 {: .important} 
 **Please note:** This feature is currently in beta mode. For more information, please contact your LivePerson representative. 
 
@@ -112,4 +111,3 @@ HTTPS is required by default for communication between browser clients with thel
 
 1. Voice and Video calls are only supported on Web Messaging - not live chat. For in-app messaging, please use the LivePerson Voice & Video SDK ([Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-voice-and-video-for-android-sdk-beta-overview.html), [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-voice-and-video-for-ios-sdk-beta-overview.html))
 2. Voice and Video calls can only be initiated on supported browsers and operating systems, see requirements section. Once enabled, the invitation buttons on the agent side are shown on all conversations, not only web messaging conversations. If the channel (e.g WhatsApp or SMS) does not support voice and video calls, no invitation is shown on the consumer side.
-
