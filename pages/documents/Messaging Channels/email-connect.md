@@ -2,7 +2,7 @@
 pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
-indicator: chat
+indicator: messaging
 subtitle: Email Connect allows you to better manage emails alongside other messaging
   channels using the powerful tools of LiveEngage
 level3: ''
