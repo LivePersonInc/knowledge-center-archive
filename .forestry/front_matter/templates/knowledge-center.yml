@@ -136,6 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- _release/September 2019/Release-notes-sept-30th.md
 - pages/documents/Messaging Channels/EmailConnect.md
 - _release/September 2019/week of Sept 23rd.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
