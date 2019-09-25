@@ -59,4 +59,39 @@ Email Connect is quickly developing to expand our capability and increase the be
 Start using Email Connect today - you can set this up on your own and be up and running in minutes.
 
 {: .notice}  
-Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soonTh
+**Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon. 
+
+### Step 1: Connect your email in LiveEngage 
+
+Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
+
+![](img/email-connect-1.png)
+
+Click **Email Connect**. The Email Connect setup screen will automatically open in a separate browser tab.
+
+![](img/email-connect-2.png)
+
+### Step 2: Provide your email credentials to setup your email
+
+Follow the instructions on the screen to save your email configuration details.
+
+![](img/email-connect-3.png)
+
+### Step 3: Start receiving and responding to emails in LiveEngage
+
+You can test your setup by sending an email from your email account to the email address you connected in LiveEngage. When the message shows up in LiveEngage, you can respond as an agent and see the response in the sender’s email account.
+
+### Step 4: Setup for file attachments (optional)
+
+[Sign up here](https://docs.google.com/forms/d/1p48Be_gJMjWzZLcBQTO-cvomuGcjTI4rRxx88Y-wyoU/edit) to request LivePerson to turn on file attachments. Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
+
+Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration: 
+
+* Select the 'Profiles' tab from the Users module 
+
+![](img/email-connect-4.png)
+
+* Turn on the following settings for Agent and Agent Manager Profiles:
+
+![](img/email-connect-5.png)
+
