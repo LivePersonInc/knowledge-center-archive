@@ -231,6 +231,51 @@ Please contact your LivePerson account team
 As part of the Static Load Balancing feature, a conversation’s allocated group field, used to route conversations to specific agent groups, will be set based on the resuming agent group ID.   
 The above action would take place only if the Load Balancing feature is enabled by your LivePerson account team.
 
+## [WhatsApp] Location sharing - Convert latitude and longitude params to Google Maps link
+
+### Type: New functionality  
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Currently when a WhatsApp consumer shares a location while in a conversation with a brand, the agent will receive the latitude and longitude parameters within the conversation thread (as text fields). In order to actually review the location (address) sent by the consumer, the agent needs to place the coordinates within a map service, which is an additional long and unnecessary step.
+
+When a consumer shares his address/location with the agent, the agent will receive a structured content map that contains a text with instructions, a clickable map image that when clicked by an agent will open up Google maps to the shared location, and Name and Address info if it was a shared location/address. Name and Address info will not be available if the consumer shares their current location.This feature will allow agents to quickly view the location shared by the consumer with a click.
+
 ## Smart Connect IVR self service via data source and campaign
 
 ### Type: Enhancement 
