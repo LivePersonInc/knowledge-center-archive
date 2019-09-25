@@ -11,7 +11,7 @@ isTutorial: false
 isNew: false
 
 ---
-Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCS. In addition, email on average has the lowest CSAT of any other channel.
+Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCR. In addition, email on average has the lowest CSAT of any other channel.
 
 Email Connect by LivePerson helps make email communications between brands and consumers more efficient for brands- while providing a better experience for consumers.
 
@@ -23,13 +23,13 @@ Email Connect utilizes the powerful features available with other LiveEngage mes
 
 ### Increase agent efficiency through a better email management tool
 
- Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
+Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
 
-### Single interface for all messaging 
+### Single interface for all messaging
 
 Agents handle emails in the same easy to use LiveEngage interface they use for all other messaging conversations, meaning the same set of agents can support email while they simultaneously support other messaging channels.
 
-### Use bots and automations for emails 
+### Use bots and automations for emails
 
 Email Connect is fully compatible with LivePerson powered bots and AI, allowing brands to create email auto-responses or AI powered responses based on the content of emails.
 
@@ -37,11 +37,11 @@ Email Connect is fully compatible with LivePerson powered bots and AI, allowing 
 
 Email Connect has access to the same predefined content tools that are available across other messaging channels. Agents can drop in predefined email text to provide polish to every email response.
 
-### Rich messaging capabilities 
+### Rich messaging capabilities
 
- Send and receive email attachments using Email Connect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “Email Connect Setup” below.
+Send and receive email attachments using Email Connect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “Email Connect Setup” below.
 
-### Easy setup & onboarding 
+### Easy setup & onboarding
 
 Brands can set-up Email Connect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
 
@@ -58,9 +58,9 @@ Email Connect is quickly developing to expand our capability and increase the be
 Start using Email Connect today - you can set this up on your own and be up and running in minutes.
 
 {: .notice}  
-**Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon. 
+**Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
 
-### Step 1: Connect your email in LiveEngage 
+### Step 1: Connect your email in LiveEngage
 
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
 
@@ -84,9 +84,9 @@ You can test your setup by sending an email from your email account to the email
 
 [Sign up here](https://docs.google.com/forms/d/1p48Be_gJMjWzZLcBQTO-cvomuGcjTI4rRxx88Y-wyoU/edit) to request LivePerson to turn on file attachments. Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
 
-Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration: 
+Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
-* Select the 'Profiles' tab from the Users module 
+* Select the 'Profiles' tab from the Users module
 
 ![](img/email-connect-4.png)
 
