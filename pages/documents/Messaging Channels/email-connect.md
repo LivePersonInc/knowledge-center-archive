@@ -6,7 +6,7 @@ indicator: chat
 subtitle: Email Connect allows you to better manage emails alongside other messaging
   channels using the powerful tools of LiveEngage
 level3: ''
-permalink: Messaging-channels-email-connect.html
+permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
 
