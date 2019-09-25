@@ -11,7 +11,7 @@ isTutorial: false
 isNew: false
 
 ---
-WECHAT serves 1 billion monthly active users, mostly in China, making it one of the world's most powerful apps. To be effective in the competitive Chinese market brands must be accessible on WeChat. The WeChat Business connector enables brands to use LiveEngage as their messaging platform to manage official WeChat Business accounts at scale.
+WeChat serves 1 billion monthly active users, mostly in China, making it one of the world's most powerful apps. To be effective in the competitive Chinese market brands must be accessible on WeChat. The WeChat Business connector enables brands to use LiveEngage as their messaging platform to manage official WeChat Business accounts at scale.
 
 ## Why use WeChat Business to connect with your consumers?
 
