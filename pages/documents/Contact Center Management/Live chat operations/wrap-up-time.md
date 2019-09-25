@@ -16,7 +16,7 @@ Once a [chat is ended,](contact-center-management-live-chat-operations-understan
 
 Wrap up time is disabled by default. Once enabled, the default time allocated is 60 seconds; this can be configured by the brand. The time can be configured either at the account or at the skill level.
 
-![](/img/wrap-up-time-chats-2b.png)
+![](/img/wrap-up-time-1.png)
 
 ### **How to enable wrap-up for chat**
 
@@ -37,8 +37,6 @@ This value is for display only, it will be the value shown in the skill level by
 2. Edit any skill that requires a wrap-up time different to the default value.
 3. Enter the wrap-up time value. Note by default the value shown is the one set in night vision.
 4. Click **Save**.
-
-   ![](/img/wrap-up-time-chats-3b.jpg)
 
 **Notes:**
 
