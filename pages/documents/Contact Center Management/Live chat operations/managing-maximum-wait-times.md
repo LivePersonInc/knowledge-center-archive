@@ -16,11 +16,11 @@ When you first configure a skill in LivePerson, you select the maximum wait time
 
 The Ignore Max Wait Time configuration is in the drop-down Online menu within the Engagement Studio.
 
-![](/img/max-wait-time-1.png)
+![](/img/max-wait-times-1.png)
 
 Sometimes, you wish to override this setting for a particular engagement, and allow the engagement to display regardless of the length of time that visitors will have to wait. LivePerson allows you to decide to override the max wait time setting that you've configured in your Skills settings.
 
-![](/img/max-wait-time-2.png)
+![](/img/max-wait-times-2.png)
 
 By ignoring max wait time, you allow the engagement to display regardless of wait time.
 
