@@ -697,9 +697,9 @@ Image 2: Text from consumer side
 
 ![](img/week-of-september-30th-22.png)
 
-## Unable to turn off authentication when creating off-site engagements
+## Example text dimmed in text box for the engagement window
 
-### Bug fix
+### Type: Enhancement 
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -721,7 +721,7 @@ Image 2: Text from consumer side
 </thead>
 <tbody>
 <tr>
-<td>No</td>
+<td>Yes</td>
 <td>No</td>
 <td>No</td>
 <td>No</td>
@@ -738,11 +738,65 @@ Image 2: Text from consumer side
 </table>
 </div>
 
-When configuring off-site engagement on accounts that do not have un_authmessaging web messaging enabled (AC Features Messaging.Un_Auth_Messaging disabled), the UI automatically configures it to authenticated web messaging and the option to un-auth is grayed out. If unauthenticated messaging is not enabled, the option to create off-site engagements for messaging should not show.
+The example text in the text box has been dimmed to 30% opacity and the font size has been aligned to the running text (1em) - to make it easier for the consumer to understand the hint purpose and to better differentiate between the consumer’s actual text vs the example text.
+
+**Screenshots** 
+
+Before and after the example text was dimmed
+
+{: .sidebyside}
+![](img/week-of-september-30th-23.png)![](img/week-of-september-30th-24.png)
+
+## Translation added to elements of the engagement window
+
+### Type: Enhancement 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Translation is added to certain elements of the engagement window for all supported languages. 
+
+The following elements are now translated:
+* Window header texts
+* Go back to the previous page or log in to continue your conversation
 
 ## Cannot edit customized engagement window besides the default theme
 
-### Bug fix 
+### Type: Bug fix 
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -781,6 +835,88 @@ When configuring off-site engagement on accounts that do not have un_authmessagi
 </table>
 </div>
 
-Some brands are not able to edit their customized engagement window beside from the default themes. When clicking on one of the customized engagement windows to edit, the engagement window studio loads with error. Brands should now be able to edit any engagement window.
+## Refresh engagements when external window conversation closes
 
+### Type: Bug fix 
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When a conversation with an external engagement window is closed, the engagements are not refreshed. This issue has been resolved. 
+
+## Agent profile picture is missing
+
+### Type: Bug fix 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When an agent sends a structured content carousel placed inside a structured content card, the agent’s profile picture does not show up within the engagement window. This issue has been resolved. 
