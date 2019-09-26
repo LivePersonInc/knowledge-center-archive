@@ -1060,14 +1060,230 @@ A change was made to the Agent Skill Filtering to allow users who are labeled as
 
 ### Type: Bug Fix
 
-Available to all customers? yes
-
-Description: LPA users were not present in Account Configuration (AC). Agent group filters which depend on data from AC thus did not apply to LPA users in the LiveEngage (LE) UI. This was resolved by adding LPA users to AC, allowing them to subscribe to groups and filter conversations in the LE UI.
+LPA users were not present in Account Configuration (AC). Agent group filters which depend on data from AC thus did not apply to LPA users in the LiveEngage (LE) UI. This was resolved by adding LPA users to AC, allowing them to subscribe to groups and filter conversations in the LE UI.
 
 ## Ac users are deleted when delta arrived on callback 
 
 ### Type: Bug Fix
 
-Available to all customers? yes
+When receiving a missing response from AC on delta calls we cleared the skills on the users, which led to an edge case of conversations that had no available agents by mistake and were routed to skill -1.
 
-Description: When receiving a missing response from AC on delta calls we cleared the skills on the users, which led to an edge case of conversations that had no available agents by mistake and were routed to skill -1 .
+## Update Privileges List for IVR Data Source
+### Type: enhancement 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Includes new privileges from the vault key repository for the Interactive Voice Response (IVR) data source.  
+ 
+## Add Address to PersonalInfo Authenticated SDE
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+This enhancement adds the following elements to the authenticated PersonalInfo SDE contact list structure:
+Country
+Region
+Zip Code
+ 
+While country, region, and zip code have historically been a part of this SDE, the support was not available in the back-end chat system to make the fields available for consumption.  This ticket makes those data elements available to the agent via the LiveEngage UI as well as to applications that use this data either via Kafka or Hadoop.
+ 
+One important note about this feature is that it required an update to the PersonalInfoEvent AVRO data model transformer (the software that converts SDEs from an internal Denver format to the standard AVRO format.  The previous version of that transformer is not forward compatible with the new elements, which means that parsing of the contact list with the new elements with systems using the old transformer will fail to parse the entire contact list structure, including existing fields such as email address and phone number, and these fields will show blank in any application that reads the event from kafka or hadoop.  It’s important to note that, while the data is not visible in applications using the old transformer, the data is still present and will become visible when the AVRO data model version is updated.  LiveEngage is not impacted by this.
+ 
+Since this feature requires coordination with consuming applications, it is turned off by default behind a feature flag. 
+ 
+## Updates for new Faas Chat Events - InQueue, Start and End Chat 
+### Type: Enhancement
+
+Back-end chat supports the new Faas Chat events (InQueue, Start and End Chat).
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+## Add Vehicle Domains 
+### Type: New feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Adds CSDS domains for use by the Vehicle API and its consumers.
+
+## Add SocialConnect Domains 
+### Type: new feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Adds CSDS domains for use by SocialConnect
+
