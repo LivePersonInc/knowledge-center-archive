@@ -57,8 +57,6 @@ The icon will be visible only to users with the appropriate permission.
 
 If the channel from which the conversation was initiated does not support receiving files, the icon will be greyed out and will not be clickable. In this phase, the icon will be visible only in web messaging conversations.
 
-![](/img/agent-file-sharing-5.png)
-
 Clicking on the attachment icon will open the agent local file browser dialog:
 
 ![](/img/agent-file-sharing-6.png)
