@@ -18,6 +18,59 @@ These release notes include new features arriving to LiveEngage during September
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Email Connect
+### type: New feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+With Email Connect, brands can easily manage email conversations alongside conversations in other messaging channels such as Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails. Email Connect includes the powerful features available within LiveEngage including support for bots powered by Maven, predefined content, reporting and smart capacity. Email Connect (more features coming soon to Email Connect). 
+
+**Key benefits of Email Connect** 
+Increase agent efficiency — Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of maintaining and toggling to a separate platform for handling consumer emails.
+
+Easy setup — You can start using Email Connect in a matter of minutes by simply supplying your email credentials during our secure setup. No tagging required.
+
+Simple bot integrations — Brands can add bots into Email Connect, offering assistance and instant responses to customer emails. 
+
+Rich Messaging capabilities — Send and receive attachments using Email Connect, from product images to requests for PDF receipts. 
+
+For more information on Email Connect and how to set it up [click here](https://knowledge.liveperson.com/messaging-channels-email-connect.html)
+
 
 ## [WhatsApp] Location sharing - Convert latitude and longitude params to Google Maps link
 
@@ -77,7 +130,6 @@ Image 1: consumer shares location
 Image 2: agent sees the location consumer shared
 
 ![](img/week-of-september-30th-28.png)
-
 
 ## Smart Connect IVR self service via data source and campaign
 
@@ -813,6 +865,102 @@ When a conversation with an external engagement window is closed, the engagement
 </div>
 
 When an agent sends a structured content carousel placed inside a structured content card, the agent’s profile picture does not show up within the engagement window. This issue has been resolved. 
+
+## Third Party Bot Connectors: Support export Bot metrics data from the Dashboard menu 
+### Enhancement 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+This feature enables the user to export raw data from the menu of Bot Status Dashboard. User has now the ability to export data it in JSON and the MS Excel format.
+
+![](img/botconnectorsRN30.10a.png)
+
+## Support of Watson Version 2 vendor added
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Watson version 2 is now available as an additional vendor that can be used by Bot Connectors.  
+![](img/botconnectorsRN30.09b.png)
+![](img/botconnectorsRN30.09c.png)
+
+## Fixing test connection feature in Bot Connectors
+### Type: Bug fix
+For testing connection for IBM Watson, a property of sending an input text was not defined. This issue has now been fixed.
+
+## Fixing export metric failure response state 
+### Type: Bug fix
+Whenever an error occured in exporting metric, the request state was always sent as 'Bad Request". This should not be the case if the error doesn’t correspond to the conditions of Bad Request and rather another issue. This has now been resolved.
 
 ## Auto close reset
 
