@@ -274,7 +274,22 @@ The above action would take place only if the Load Balancing feature is enabled 
 
 Currently when a WhatsApp consumer shares a location while in a conversation with a brand, the agent will receive the latitude and longitude parameters within the conversation thread (as text fields). In order to actually review the location (address) sent by the consumer, the agent needs to place the coordinates within a map service, which is an additional long and unnecessary step.
 
-When a consumer shares his address/location with the agent, the agent will receive a structured content map that contains a text with instructions, a clickable map image that when clicked by an agent will open up Google maps to the shared location, and Name and Address info if it was a shared location/address. Name and Address info will not be available if the consumer shares their current location.This feature will allow agents to quickly view the location shared by the consumer with a click.
+With the new location sharing enhancement, when a consumer shares his address/location with the agent, the agent will receive a structured content Map element to allow agents to quickly view the location shared by the consumer with a click. The new map element will contains a text with instructions, a clickable map image that when clicked by an agent will open up Google Maps to the shared location, and the location name and address info. 
+
+{: .notice} 
+**Please note:** When sharing the current location on WA, only a clickable map will be available, but the address and name of the location will not be mentioned in text. 
+
+**Screenshots** 
+
+Image 1: consumer shares location
+
+{: .sidebyside}
+![](img/week-of-september-30th-25.png)![](img/week-of-september-30th-26.png)![](img/week-of-september-30th-27.png)
+
+Image 2: agent sees the location consumer shared
+
+![](img/week-of-september-30th-28.png)
+
 
 ## Smart Connect IVR self service via data source and campaign
 
