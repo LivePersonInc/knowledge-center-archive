@@ -125,7 +125,7 @@ With the new location sharing enhancement, when a consumer shares his address/lo
 Image 1: consumer shares location
 
 {: .sidebyside}
-![](img/week-of-september-30th-25.png)![](img/week-of-september-30th-26.png)![](img/week-of-september-30th-27.png)
+![](img/week-of-september-30th-26.png)![](img/week-of-september-30th-27.png)
 
 Image 2: agent sees the location consumer shared
 
