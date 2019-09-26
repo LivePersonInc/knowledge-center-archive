@@ -19,7 +19,7 @@ These release notes include new features arriving to LiveEngage during September
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
 ## Email Connect
-### type: New feature
+### Type: New feature
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -61,6 +61,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 With Email Connect, brands can easily manage email conversations alongside conversations in other messaging channels such as Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails. Email Connect includes the powerful features available within LiveEngage including support for bots powered by Maven, predefined content, reporting and smart capacity. Email Connect (more features coming soon to Email Connect). 
 
 **Key benefits of Email Connect** 
+
 Increase agent efficiency — Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of maintaining and toggling to a separate platform for handling consumer emails.
 
 Easy setup — You can start using Email Connect in a matter of minutes by simply supplying your email credentials during our secure setup. No tagging required.
@@ -70,7 +71,6 @@ Simple bot integrations — Brands can add bots into Email Connect, offering ass
 Rich Messaging capabilities — Send and receive attachments using Email Connect, from product images to requests for PDF receipts. 
 
 For more information on Email Connect and how to set it up [click here](https://knowledge.liveperson.com/messaging-channels-email-connect.html)
-
 
 ## [WhatsApp] Location sharing - Convert latitude and longitude params to Google Maps link
 
@@ -736,8 +736,6 @@ The following elements are now translated:
 </div>
 
 When configuring off-site engagement on accounts that do not have un_authmessaging web messaging enabled the UI automatically configures it to authenticated web messaging and the option to un-auth is grayed out. If unauthenticated messaging is not enabled, the option to create off-site engagements for messaging should not show.
-
-
 
 ## Cannot edit customized engagement window besides the default theme
 
