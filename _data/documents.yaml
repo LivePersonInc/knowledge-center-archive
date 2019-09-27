@@ -33,8 +33,7 @@
         - pagename: SMS connector
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
-        - pagename: Using SMS with Twilio
-    - subcategoryname: Email Connect 
+        - pagename: Using SMS with Twilio 
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
