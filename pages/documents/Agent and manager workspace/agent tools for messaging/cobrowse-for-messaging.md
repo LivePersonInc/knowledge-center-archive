@@ -52,10 +52,34 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
 * Sessions are not recorded or stored.
 
+## How CoBrowse works
+
+CoBrowse technology has an enhanced level of security in comparison to traditional screen sharing and desktop sharing. This is because in desktop sharing, at least one of the participants downloads a software or plug-in for sharing a video screen of the entire screen or desktop applications. In contrast, CoBrowse is restricted to sharing only the website that the consumer is currently chatting on.
+
+**The basic CoBrowse process is described in the image below:**
+
+![](/img/cobrowse-for-live-chat-1.png)
+
+The agent sends an invite to the consumer in the Embedded Engagement Window. If the consumer accepts, the CoBrowse session starts on the same webpage as the consumer was on when they initiated the conversation.
+
+The CoBrowse service not only shares the webpage view with the agent, but it also monitors the consumer’s actions, for example: mouse movements, mouse clicks, form field input, etc. The consumer’s actions are displayed in the agent’s browser. If the agent selects “Interactive Mode”, the agent’s actions such as mouse clicks are replicated in the consumer’s browser. If the agent selects “View-only mode”, the agent can highlight elements on the page, but not fill in forms or navigate to actively assist the consumer.
+
+### The CoBrowse process for agents & consumers
+
+| Consumer | Agent |
+| --- | --- |
+| The consumer starts a conversation with the agent. | The agent invites the consumer to share a live view of the web page (CoBrowse). |
+| The consumer receives an invite and accepts. The CoBrowse session is started on the visitor side. | A new CoBrowse widget opens in the Agent Workspace. |
+| The webpage is transmitted to the agent’s browser. | The webpage from the visitor’s browser is displayed in the Agent Workspace. |
+| All actions, e.g. mouse movements, mouse clicks, and form input, are monitored and transmitted to the connected browser. | The actions are displayed in the agent’s browser. |
+| In interactive mode, all agent actions are displayed in the consumer’s browser. | If the agent performs actions in Interactive Mode, these are transmitted to the consumer’s browser. |
+| In view-only mode, agent mouse movements and highlights are displayed in the consumer’s browser. | In view-only mode, only mouse movements and highlighting actions are transmitted to the consumer’s browser. |
+
+
 ## Configuration
 By default, CoBrowse for Web Messaging is not enabled in your LiveEngage account. Please contact your LivePerson account manager to have this feature enabled for you.
 
-Additional CoBrowse configuration is available in [nightvision](cobrowse-for-chat.html#configuration).
+Additional CoBrowse configuration is available in [nightvision](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html#configuration).
 
 ## Initiating CoBrowse
 
