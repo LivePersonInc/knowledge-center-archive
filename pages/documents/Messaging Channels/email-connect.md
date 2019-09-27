@@ -3,12 +3,12 @@ pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Email Connect allows you to better manage emails alongside other messaging
-  channels using the powerful tools of LiveEngage
+subtitle: Email Connect allows you to better manage emails alongside other messaging channels using the powerful tools of LiveEngage
 level3: ''
 permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
+isPublished: false
 
 ---
 Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCR. In addition, email on average has the lowest CSAT of any other channel.
