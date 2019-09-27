@@ -8,8 +8,9 @@ level3: ''
 permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
-published: false
+published: true
 ---
+
 Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCR. In addition, email on average has the lowest CSAT of any other channel.
 
 Email Connect by LivePerson helps make email communications between brands and consumers more efficient for brands- while providing a better experience for consumers.
@@ -54,7 +55,9 @@ Email Connect is quickly developing to expand our capability and increase the be
 
 ## Email Connect set up
 
-Start using Email Connect today - you can set this up on your own and be up and running in minutes.
+To start using Email Connect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
+
+<!--Start using Email Connect today - you can set this up on your own and be up and running in minutes.-->
 
 {: .notice}  
 **Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
