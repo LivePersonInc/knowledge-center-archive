@@ -20,7 +20,7 @@ With CoBrowse, agents and visitors browse a brand's website together. Each can s
 
 To focus the visitor, the agent can also animate elements on the visitor screen by:
 
-* Double clicking on the element will display a yellow circle around the cursor.
+* Clicking on an element will display a yellow circle around the cursor.
 * Ctrl + Left mouse - will animate the element with a wiggle effect.
 
 ## Why use CoBrowse?
@@ -48,6 +48,7 @@ CoBrowse was designed with strict security controls to protect the privacy of bo
 * The visitor cannot access the agent’s local system or web applications opened in other browser tabs or windows.
 * Agents have the option to choose between “shared” mode and “view only” mode. “Shared” mode enables the full collaborative experience, whereas “view only” mode offers a higher level of customer privacy.
 * Form fields and widgets can be masked, in which case the data is not transmitted to the server or the agent browser.
+* Sessions are not recorded or stored.
 
 ## How CoBrowse works
 
@@ -84,7 +85,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 2. Click Edit next to the CoBrowse configuration.
 
 * Enable CoBrowse for all agents: agents can control whether they initiate CoBrowse sessions with the visitors during chat.
-* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors.
+* Define the level of control your agents can have over CoBrowse: configure the CoBrowse mode enabled for agents: View only, Shared, or both. This determines which CoBrowse options are available for agents to offer visitors. This can also be configured per Agent group using [Agent Profiles and Permissions](admin-settings-permissions-profiles.html).
 
 ![](/img/cobrowse-for-live-chat-4.png)
 
@@ -136,12 +137,10 @@ The following CoBrowse elements can also be configured:
 {:start="7"}
 7. The visitor can close the session at any time by clicking the X at the top of the frame.
 
-To enable the CoBrowse feature in your LiveEngage account, please contact LivePerson support.
-
 <div class="notice">
 <b>Note:</b>
 <ul>
-<li>CoBrowse is only available to customers with the embedded engagement window.</li> <li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li>
+<li>CoBrowse is only available to customers with the embedded engagement window.</li> <li>Fullscreen mode is not supported in IE11</li> <li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li>
 </ul>
 </div>
 
@@ -180,7 +179,7 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 | Co-Scrolling | The visitor and the agent see the same parts of a web page. | Yes | Yes |
 | Co-Highlighting on Page | The visitor and the agent see each other’s virtual mouse pointer and can highlight elements of a web page. | Yes | Yes |
 | Co-Highlighting on Text Elements | The visitor and the agent can highlight text elements. | Yes | Yes |
-| Co-Navigation | The visitor and the agent browse on the same web pages together. | Yes | No |
+| Co-Navigation | The agent can navigate to other web pages. | Yes | No |
 | Co-Form filling | The visitor and the agent fill out forms together. | Yes | No |
 
 ## Prerequisites & technical requirements
@@ -201,19 +200,17 @@ The following table lists the prerequisites and technical requirements necessary
 * Your website must adhere to HTML, CSS and JavaScript standards
 * HTML framesets must not be used
 * iFrames must originate from the same domain. This relates to Same Origin Policy (SOP)
-* iFrames from different domains cannot be synchronized from the consumer to the agent
-* Not all third-party iFrames, for example Facebook and Google tracking are relevant to the agent, and are therefore not displayed
-* In the situation that the iFrames originate from different subdomains, you can adopt SOP relaxation techniques. This requires you to modify both pages and set the document.domain to the same domain
+  * iFrames from different domains cannot be synchronized from the consumer to the agent
+  * Not all third-party iFrames, for example Facebook and Google tracking are relevant to the agent, and are therefore not displayed
+  * In the situation that the iFrames originate from different subdomains, you can adopt SOP relaxation techniques. This requires you to modify both pages and set the document.domain to the same domain
 * Embedded HTML objects and their content, for example an external image in a Canvas element, must originate from the same domain
 * Embedded HTML objects, for example Scalable Vector Graphics (SVG), which have been encoded by the web application, may not be visible to the agent
 * All resources, for example CSS, images and fonts, can be reloaded multiple times without restrictions:
-  * Example 1: Loading resources is not bound to cookie or other session identifiers
-  * Example 2: Loading resources is not bound to “Http Basic Authentication”
+  * Loading resources is not bound to cookie or other session identifiers
+  * Loading resources is not bound to “Http Basic Authentication”
 * Agents and consumers must use a web browser that is listed in the [LivePerson System Requirements](admin-settings-system-requirements.html)
 * CoBrowse is only supported on regular (not private / incognito) windows
 * For the consumer, the session is active only in the browser tab where it was started. If the consumer switches to another browser tab with the same (or another) website opened, they will no longer be active in the CoBrowse session
-* The agent and the consumer must be in a chat conversation before the agent can send a CoBrowse invite
-* An agent can conduct no more than one CoBrowse session at a time
 * If the CoBrowse session is not ended by either the consumer or the agent pressing the ‘session end’ button, the agent will not be able send a new CoBrowse invite
 * The consumer must not navigate at the same time as accepting an invite
 * The consumer must not close the browser tab or navigate to an untagged page during a CoBrowse session
@@ -244,5 +241,6 @@ The following table lists the prerequisites and technical requirements necessary
 
 * The recommended upstream bandwidth requirements is 1500 kbit/s
 * Large rendered websites > 2 MB (DOM tree) can lead to a significant delay until the website is fully visible to the agent (waiting time 15 sec. or more to view the page)
+* If your website is continuously changing elements of the DOM tree, this can lead to delays when synchronizing the state between vistior and agent
 * Your website should make sparse use of background animations (animations without user interaction)
 * The real-time experience is affected by several applications competing for upstream bandwidth on the consumer’s system
