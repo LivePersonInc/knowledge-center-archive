@@ -13,7 +13,7 @@ isNew: false
 date: '2019-01-30T14:28:09.000+00:00'
 
 ---
-With CoBrowse, agents and visitors browse a brand's website together. Each can see a virtual mouse cursor of the other, along with illustrations of where they are typing. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
+With CoBrowse, agents and visitors browse a brand's website together. Each can see a virtual mouse cursor of the other, along with illustrations of where they are typing and clicking. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
 
 To focus the visitor, the agent can also animate elements on the visitor screen by:
 
@@ -110,7 +110,7 @@ Additional CoBrowse configuration is available in [nightvision](agent-manager-wo
 <div class="notice">
 <b>Note:</b>
 <ul>
-<li>CoBrowse is only available to customers with the embedded engagement window.</li> <li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>Once an agent sends a CoBrowse invitation, the agent cannot cancel it. The invitation will only be cancelled if it times out or is rejected by the visitor.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li>
+<li>An agent can run one session of CoBrowse at a time and can send only one invitation at a time.</li> <li>CoBrowse differs from desktop sharing in that the agent’s virtual mouse pointer is shown over the same element, but may not be shown at the same exact position due to different screen resolutions.</li>
 </ul>
 </div>
 
