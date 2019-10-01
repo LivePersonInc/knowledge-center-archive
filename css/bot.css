@@ -109,7 +109,7 @@ body {
   transition: opacity 0.35s ease;
 }
 
-.lp-json-pollock {
+#caseyContainer .lp-json-pollock {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
@@ -133,7 +133,7 @@ body {
   margin-top: 0;
 }
 
-.lp-json-pollock-layout {
+#caseyContainer .lp-json-pollock-layout {
   display: flex;
   max-width: unset !important;
   border: none;
@@ -143,7 +143,7 @@ body {
   order: 1;
 }
 
-.lp-json-pollock-element-button {
+#caseyContainer .lp-json-pollock-element-button {
   display: flex;
   border-top: 0 !important;
   width: 70% !important;
@@ -159,7 +159,7 @@ body {
   transition: opacity 0.35s ease;
 }
 
-.lp-json-pollock-element-button:hover {
+#caseyContainer .lp-json-pollock-element-button:hover {
   background-color: #334b94;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 
-.lp-json-pollock-element-text {
+#caseyContainer .lp-json-pollock-element-text {
   background: #465684;
   border: none !important;
   border-radius: 10px 10px 10px 0;
@@ -181,7 +181,7 @@ body {
   margin-bottom: 5px;
 }
 
-.lp-json-pollock .lp-json-pollock-element-button button {
+#caseyContainer .lp-json-pollock .lp-json-pollock-element-button button {
   padding: 0 !important;
   margin-bottom: 0 !important;
   font-size: 17px;
@@ -190,7 +190,7 @@ body {
   cursor: pointer;
 }
 
-.lp-json-pollock .lp-json-pollock-element-button button:focus {
+#caseyContainer .lp-json-pollock .lp-json-pollock-element-button button:focus {
   outline: none;
   background: transparent;
 }
@@ -199,11 +199,11 @@ body {
   display: none;
 }
 
-.lp-json-pollock-layout-carousel {
+#caseyContainer .lp-json-pollock-layout-carousel {
   display: flex !important;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-layout {
+#caseyContainer .lp-json-pollock-layout-carousel .lp-json-pollock-layout {
   display: flex !important;
   flex-direction: column;
   flex: 1;
@@ -211,7 +211,7 @@ body {
   margin-right: 10px !important;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-button {
+#caseyContainer .lp-json-pollock-layout-carousel .lp-json-pollock-element-button {
   margin-right: 22px;
   padding: 15px 16px 14px 16px !important;
   display: flex;
@@ -220,11 +220,11 @@ body {
   margin-top: 3px;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-button button {
+#caseyContainer .lp-json-pollock-layout-carousel .lp-json-pollock-element-button button {
   align-self: center;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-text {
+#caseyContainer .lp-json-pollock-layout-carousel .lp-json-pollock-element-text {
   text-align: left;
   margin-bottom: 0;
   border-radius: 0;
@@ -234,19 +234,19 @@ body {
   display: flex;
 }
 
-.lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
+#caseyContainer .lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
   font-size: 15px !important;
   font-weight: 500;
   margin-bottom: 1px;
   min-height: 62px;
 }
 
-.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
+#caseyContainer .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper > .lp-json-pollock-layout-carousel-arrow {
   background-image: url(https://s3-eu-west-1.amazonaws.com/ce-sr/CA/right-arrow.png) !important;
   z-index: 0;
 }
 
-.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-element-text {
+#caseyContainer .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-element-text {
   padding: 10px 16px 5px 16px !important;
   width: 85%;
   max-width: 85%;
@@ -802,7 +802,7 @@ body {
     justify-content: center;
   }
 
-  .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper {
+  #caseyContainer .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper {
     width: 90%;
   }
 
