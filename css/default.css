@@ -1213,10 +1213,6 @@ w-div a:last-child {
   margin-bottom: 30px;
 }
 
-.LPMimage {
-  left: 15px !important;
-}
-
 div#cookie-law {
   display: flex;
   position: fixed;
