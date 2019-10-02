@@ -12,6 +12,12 @@ isNew: false
 date: '2019-01-28T13:20:27.000+00:00'
 
 ---
+The official support of the LP Mobile SDK version is for the latest version only at any given point of time. This is applicable for both iOS and Android SDK versions.
+
+The support for new OS releases from Apple and Google (iOS and Android OS) for the LP SDK would be within max 6-8 weeks from the date of GA availability of the OS for 2019. Beta SDK release of the newer OS beta will be available before 3-4 weeks of the GA availability for the customers to try their hands on and report any early issues.
+
+We have a plan to reduce the release of LP SDK with new OS support to under 2 weeks in future starting Jan 2020.
+
 The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
 
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
