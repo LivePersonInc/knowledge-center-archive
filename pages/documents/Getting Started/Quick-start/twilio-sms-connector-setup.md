@@ -24,12 +24,12 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
    **Note:** You can also use a Twilio test number if you don't want to purchase a number yet. However, you must select a number with SMS capabilities.
 2. **Name your number** by clicking the **setup** button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
-3. **Configure the request URL** by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming "https://www.twilio.com/user/account/phone-numbers/incoming")
+3. **Configure the request URL** by navigating to the following page: https://www.twilio.com/user/account/phone-numbers/incoming
 4. **Add your location to the number** by clicking on the **red hyperlinked phone number** you have just purchased, and add the relevant link for your location with your account number inserted, as below:
-   * EMEA accounts: `[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio "https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio")`
-   * North America accounts: `[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio "https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio")`
-   * APAC accounts: `[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio "https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio")`
-5. **Configure authorization** by navigating to the following page \[[https://www.twilio.com/user/account/settings](https://www.twilio.com/user/account/settings "https://www.twilio.com/user/account/settings")\] to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the **padlock** symbol. Make sure to copy both the Primary Authorization Token and SID, since you will need them for the following steps.
+   * EMEA accounts: **https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
+   * North America accounts: **https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
+   * APAC accounts: **https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
+5. **Configure authorization** by navigating to the [following page](https://www.twilio.com/user/account/settings) to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the **padlock** symbol. Make sure to copy both the Primary Authorization Token and SID, since you will need them for the following steps.
 
 ## Step 2: Connect Twilio to LiveEngage
 
