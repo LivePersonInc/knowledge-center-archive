@@ -10,7 +10,7 @@ isTutorial: true
 date: '2019-01-17T15:11:38.000+00:00'
 isNew: false
 redirect_from:
-  - messaging-channels-sms-twilio-sms-connector-setup.html 
+  - messaging-channels-sms-twilio-sms-connector-setup.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919599" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -18,7 +18,7 @@ For brands, creating a presence on the channels used by their consumers is key t
 
 ## Step 1: Get an SMS number from Twilio
 
-Create your own Twilio account [here](https://www.twilio.com/try-twilio), then follow the below stuffs to get a number:
+Create your own Twilio account [here](https://www.twilio.com/try-twilio), then follow the below steps to get a number:
 
 1. **Purchase a Twilio number** to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
