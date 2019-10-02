@@ -88,6 +88,8 @@ The official support of the LP Mobile SDK version is for the latest version only
 
 The support for new OS releases from Apple and Google (iOS and Android OS) for the LP SDK would be within max 6-8 weeks from the date of GA availability of the OS. Beta SDK release of the newer OS beta will be available before 2-4 weeks of the GA availability for the customers to try their hands on and report any early issues.
 
+We have a plan to reduce the release of LP SDK with new OS support to under 2 weeks in future starting Jan 2020.
+
 ### Latest releases
 
 Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-latest-release-notes.html
