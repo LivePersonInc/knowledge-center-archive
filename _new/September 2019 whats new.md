@@ -3,7 +3,7 @@ pagename: September 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: 'Top features include updates to '
+subtitle: Top features include agent survey, static load balancing and more
 level3: ''
 permalink: whats-new-september-2019.html
 isTutorial: false
