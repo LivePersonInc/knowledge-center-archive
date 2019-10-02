@@ -40,4 +40,7 @@ The agent survey is an important tool that allows you to gather data and insight
 * Limit pre-chat surveys in sales scenarios so you don’t lose a consumer on the way to check-out.
 * Use the same creative design in the surveys that you have used for the chat window.
 
+{: .notice}
+Agent managers are not able to view Pre-Chat Survey & Offline Survey completion rate in the Survey Dashboard for Live Chat and it cannot be filtered by agent groups.
+
 Surveys can be created and edited in the Engagement window. For guidance on setting up a survey, refer to our [Engagement window documentation](contact-center-management-campaigns-engagement-window.html).

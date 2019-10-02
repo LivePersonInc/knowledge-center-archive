@@ -136,6 +136,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
+- _new/September 2019 whats new.md
+- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
 - _release/September 2019/Release-notes-sept-30th.md
 - _release/September 2019/week of Sept 23rd.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
@@ -145,7 +147,6 @@ pages:
 - pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
 - pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
-- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
 - pages/documents/Agent and manager workspace/LiveEngage App/LiveEngage App.md
 - pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md
 - pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md

@@ -158,4 +158,3 @@ The builder is based on a 3rd party tool by Microstrategy, named Microstrategy D
 
 To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
 
-To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
