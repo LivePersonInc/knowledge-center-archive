@@ -151,9 +151,7 @@ In addition to the styling options within the window configuration, you can make
 Available customizations:
 
 * **Agent picture** - make the conversation more personal by configuring the agent’s picture to display in the engagement window
-* **Rounded or square window corners for window** - control the exact radius of the window corners to produce a rounded or square effect
-
-![](/img/engagement-window-13.gif)
+* **Rounded or square window corners** - control the exact radius of the window corners to produce a rounded or square effect
 
 ### Agent picture configuration
 
@@ -170,7 +168,7 @@ Available customizations:
 {: .important}
 **Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
 
-### Defining agent picture appearance in the engagement window
+#### Defining agent picture appearance in the engagement window
 
 Agent picture is defined individually per window. If you are using the same window in different engagements/campaigns, visitors will see the agent’s picture in both of them.
 
@@ -194,7 +192,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 {: .notice}
 **Note:** In the case that the agent picture is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.
 
-### Configuring a default picture
+#### Configuring a default picture
 
 In order to define a default picture to be displayed when no agent picture is defined, follow these steps:
 
@@ -209,8 +207,31 @@ In order to define a default picture to be displayed when no agent picture is de
 
 Visitors will now see the configured default picture beside each line sent by the agent with no configured personal picture.
 
-### Limitations
+#### Limitations
 
 * **Join conversation:** If a second agent joins the conversation for whom a default picture URL is defined, the visitor sees the default picture next to second agent’s lines.
 * **Because each window is configured separately, take into account the following:**
   In the case that different default pictures are defined in different engagement windows, when an agent transfers the conversation to an agent that has no assigned picture, the default picture displayed is the default picture defined for the conversation’s original engagement window. This is relevant to accounts using separate engagement windows for different departments.
+
+### Rounded or square window corners
+
+![](/img/engagement-window-13.gif)
+
+Brands have the ability to set the radius of the top and bottom corners of the engagement window. The additional setting “Engagement window bottom corners” has been added to the “Additional window setting” section of the engagement window studio. The radius must be set in numbers, with or without px. Format example: 0px 0px 5px 5px. The limit will be 20px. An invalid format notification message will be displayed if the number is entered beyond the limit number.
+
+By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop. 
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Open additional window settings”
+* Click on “Look and feel” section to expand
+* Enter values for “Engagement window top corners” or “Engagement window bottom corners 
+* Click on “Save”
+
+**Screenshots**
+
+![](img/week-of-september-30th-4.png)
+
+![](img/week-of-september-30th-5.png)
+
