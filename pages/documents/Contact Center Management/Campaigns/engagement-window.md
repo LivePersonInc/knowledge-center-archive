@@ -36,25 +36,6 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-2.png)
 
-#### Horizon theme
-
-A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
-
-The new Horizon theme features: 
-* Large window
-* New image at the header
-* Chevron minimize icon
-* Top bar icon is set to "round bubble outline"
-* Top window corners radius bigger
-* Agent and consumer bubble style set to "three corner rounded"
-* Consumer bubble with visual read indication (messaging only)
-* Consumer bubble border is blue
-* Text area is light gray
-* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
-
-{: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
-
 ### Using the Engagement window studio, you can:
 
 * Customize the look and feel of engagement windows
@@ -89,6 +70,27 @@ You can fully customize the chat window to suit your brand by changing the color
 ![](/img/engagement-window-5.png)
 
 <div class="notice"> <b>Note: The background color is the same as the chat window background</b> <ul> <li>Text is the same color and font as the Automatic Messages or can be customized individually in the Engagement Window Studio </li> <li> Buttons have the same look and feel of the title bar</li> </ul> </div>
+
+### Horizon theme
+
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+
+The new Horizon theme features: 
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius bigger
+* Agent and consumer bubble style set to "three corner rounded"
+* Consumer bubble with visual read indication (messaging only)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
+
+{: .sidebyside}
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+
+To learn more about configuring these new features, [click here](release-notes-2019-august-week-of-august-5th.html).
 
 ### To add a header to the window:
 
@@ -138,6 +140,30 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 <li>The background color is the same as the chat window background.</li> <li>Text is the same color and font as the Automatic Messages.</li> <li>Buttons inherit the look and feel of the title bar.</li>
 </ul>
 </div>
+
+### Set the embedded window as floating
+
+Brands have the ability to set the embedded window as floating. Once this configuration is enabled, the position of the window will be 20px from the bottom and 20px from the right. This feature is disabled by default.
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Look and feel customization” button
+* Enable by clicking on “Floating engagement” checkbox
+* Click on “Save”
+
+**Limitations**
+* This setting will impact only the desktop embedded window.
+
+**Screenshots** 
+
+Image 1: configure floating engagement window in engagement window studio
+
+![](img/week-of-september-30th-6.png)
+
+Image 2: floating engagement window consumer view
+
+![](img/week-of-september-30th-7.png)
 
 ## Advanced window configuration and customization
 
