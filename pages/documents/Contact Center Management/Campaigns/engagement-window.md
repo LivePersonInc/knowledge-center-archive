@@ -206,9 +206,7 @@ If the top menu option is selected, the menu icon will replace the X icon (close
 **Limitations**
 * The top menu position is available for web messaging only and will not be visible in the engagement studio if the window is set for chat.
 
-**Screenshots**
-
-Configure the location of the menu for the engagement windowL
+Configure the location of the menu for the engagement window:
 
 ![](img/week-of-september-30th-10.png)
 
