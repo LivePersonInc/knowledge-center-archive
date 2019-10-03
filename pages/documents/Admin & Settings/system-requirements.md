@@ -117,6 +117,7 @@ Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-fo
 | 3.9.3 - 4.1 | 5.0.1 | 10.2.1 | iOS 10 - 12.4 |
 | 3.7.1 - 3.9.2 | 5.0.0 | 10.2.0 | iOS 10 - 12.4 |
 
+Official support for the iOS version for the latest SDK will be n, n-1 and n-2 as shown in the table above.
 Official support for LivePerson iOS SDK version is only for the current Swift version and previous Swift version.
 
 All iOS OS beta releases will be provided approximately 1 month before the actual GA for the purpose of compilation only (no bug fixes or new iOS features supported). Once the GA is released, we will accept requests for new iOS features.
