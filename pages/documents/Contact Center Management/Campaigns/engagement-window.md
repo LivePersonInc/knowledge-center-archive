@@ -153,17 +153,101 @@ Brands have the ability to set the embedded window as floating. Once this config
 * Click on “Save”
 
 **Limitations**
-* This setting will impact only the desktop embedded window.
+* This setting will impact only the desktop embedded window. 
 
-**Screenshots** 
-
-Image 1: configure floating engagement window in engagement window studio
+Configure floating engagement window in engagement window studio:
 
 ![](img/week-of-september-30th-6.png)
 
-Image 2: floating engagement window consumer view
+Floating engagement window consumer view:
 
 ![](img/week-of-september-30th-7.png)
+
+### Emoji support
+
+Brands have the ability to configure whether to provide consumers the ability to add emojis to their conversation while using the engagement window on their desktop. This feature is disabled by default.
+
+**Limiations**
+* This feature is available for desktop only.
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Text area” section
+* Enable by clicking on “Emoji icon” checkbox
+* Click on “Save”
+
+Enable emoji icon in the text area:
+
+![](img/week-of-september-30th-8.png)
+
+Consumer view: adding emojis from desktop web messaging or chat window
+
+![](img/week-of-september-30th-9.png)
+
+### Consumer actions menu location
+
+Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows. 
+
+There are 2 options to set the location of the menu:
+* At the bottom left side of the window (current location and default for Ocean and Horizon themes)
+* Top right of the window, instead of the X icon
+
+If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
+
+**Enablement** 
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Add elements” icon
+* Click on “Menu position and elements”
+* Under “Menu position and elements” section, select the position of the window
+* Click Save
+
+**Limitations**
+* The top menu position is available for web messaging only and will not be visible in the engagement studio if the window is set for chat.
+
+**Screenshots**
+
+Configure the location of the menu for the engagement windowL
+
+![](img/week-of-september-30th-10.png)
+
+Configure menu to be at the bottom of the engagement window:
+
+![](img/week-of-september-30th-11.png)
+
+Configure menu to be at the top of the engagement window:
+
+![](img/week-of-september-30th-12.png)
+
+Consumer side top menu:
+
+{: .sidebyside}
+![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
+
+Consumer side bottom menu: 
+
+{: .sidebyside}
+![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
+
+### Add attachment icon to actions menu
+
+When the menu is configured to be at the top for web messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
+
+**Enablement** 
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Text area”
+* Enable by clicking on “Attachment icon” checkbox
+* Click on “Save”
+
+Enabled attachment icon in the text area:
+
+![](img/week-of-september-30th-17.png)
+
+Enabled attachment icon on consumer side:
+
+![](img/week-of-september-30th-19.png)
 
 ## Advanced window configuration and customization
 
@@ -254,8 +338,6 @@ By default the corner settings will be 0 0 0px 0px , which means that the corner
 * Click on “Look and feel” section to expand
 * Enter values for “Engagement window top corners” or “Engagement window bottom corners 
 * Click on “Save”
-
-**Screenshots**
 
 ![](img/week-of-september-30th-4.png)
 
