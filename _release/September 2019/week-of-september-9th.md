@@ -674,6 +674,4 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 MTLS is a more secured TLS connection, allowing services to use mutual authentication (Back and Forth). The MTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
 
-The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc'.
-
-Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LiveEngage.
+The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc. Integrating the mTLS Gateway to the existing WebHooks notifications allows us to send WebHooks notifications from LiveEngage.
