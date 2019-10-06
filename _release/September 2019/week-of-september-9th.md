@@ -677,16 +677,3 @@ MTLS is a more secured TLS connection, allowing services to use mutual authentic
 The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc'.
 
 Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LiveEngage.
-
-**Which services and features are currently supported over MTLS?**
-
-Currently, two features are supported by mTLS :
-
-* WebHooks
-* Consumer Authentication
-
-The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
-
-After developing and exposing the new mTLS service, we can proceed with our plans to make this service accessible by providing a new dedicated Self-Service UI for MTLS management, including creating and downloading the CSR, uploading the certificate and mapping of URLs.
-
-For more information on MTLS please visit our [confluence page](https://globaldocs.liveperson.com/display/COR/MTLS)
