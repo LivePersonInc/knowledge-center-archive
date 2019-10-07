@@ -63,7 +63,7 @@ The Conversation Builder itself is also going under some changes meant to enhanc
 
 * When you enter Intent Builder, your list of intent domains will now be in a tabular format.
 
-<img style="width:750px" src="img/beaut_ib_1.png">
+<img style="width:750px" src="img/liveintent-domains1.png">
 
 * When inside an intent domain, the top nav bar will show Intents, Entities, and Versions buttons as well.
 
@@ -71,7 +71,7 @@ The Conversation Builder itself is also going under some changes meant to enhanc
 
     * Debug, Train, Domain Settings
 
-<img style="width:750px" src="img/beaut_ib_2.png">
+<img style="width:750px" src="img/liveintent-domains2.png">
 
 
 ### Knowledge Base
