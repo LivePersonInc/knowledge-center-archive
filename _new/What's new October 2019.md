@@ -18,8 +18,6 @@ Here is a round-up of the latest features, enhancements and enablements that are
 
 LivePerson already has built-in integration to all the popular messaging channels such as Whatsapp and SMS. In the coming weeks, we’re introducing two new, major channels: email and social media.
 
-![](img/elana oct.jpg)
-
 ## Social Connect
 
 Social Connect will enable you to channel private and public messages from Twitter and Facebook directly into LiveEngage - allowing you to manage these conversations alongside all other channels. Any brand with a social media presence can use SocialConnect, saving the additional cost of licensing another social monitoring software.
