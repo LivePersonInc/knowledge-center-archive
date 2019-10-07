@@ -12,9 +12,6 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
-<iframe src="[https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0](https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0")" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
-<p><a href="[https://vimeo.com/364766378](https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0")">LivePerson October 2019 Newsletter</a> from <a href="[https://vimeo.com/liveperson](https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0")">LivePerson</a> on <a href="[https://vimeo.com](https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0 "https://player.vimeo.com/video/364766378?autoplay=1&loop=1&title=0&byline=0&portrait=0")">Vimeo</a>.</p>
-
 ### Connectors
 
 LivePerson already has built-in integration to all the popular messaging channels such as Whatsapp and SMS. In the coming weeks, we’re introducing two new, major channels: email and social media.
