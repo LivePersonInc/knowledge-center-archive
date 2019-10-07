@@ -29,8 +29,6 @@ Social Connect will enable you to channel private and public messages from Twitt
 
 EmailConnect is our second new channel that will also be available in the coming weeks to enable you to receive and respond to emails alongside other messaging channels - all while using the powerful tools of LiveEngage. Email Connect is a Self serve onboarding experience and all you need to do is configure an email address. For more information please see the [Knowledge Center](https://knowledge.liveperson.com/messaging-channels-email-connect.html).
 
-![](https://lh3.googleusercontent.com/SkSDMOLjHzrEp5HKnlnHxY_G-G34XSq0a1gfWnHAqwMHXBWwdQXV2Sll0cxNEO8Yoe4lelqKL7JK2dVuR7m4Bhlb515pEJMEZOGu0tDMLfblvyZ2WAotJKB2grrBpQpSaX0Fgjz0 =500.423x280)
-
 ## Store and Entry Point information - Google My Business
 
 The Google my Business connector has been enhanced to include the store information (ID, name and address) as well as the consumer entry point, to enhance consumer experience with more accurate routing.
@@ -53,8 +51,6 @@ Our whatsApp connected has been enhanced to allow for a better consumer experien
 ## Engagement window updates
 
 Brands using both chat and messaging can set the engagement window to the new floating style- which also supports emojis. For those using messaging, the menu has a new look & feel and is now located at the top of the window.
-
-![](https://lh3.googleusercontent.com/zzDZeeThxzHMRn3D71j1kUs9RQY5z82dwp8735lzSvuAk4ZEQVVs_A5iWU_RCiKXgssLanGrGUexj5jTjrAlZz93uVQNGMEp3IZnxBix2Ji6vouQhdsKbbU1ykgN4W66kxB2j9W5 =236.3163x359.065)
 
 ### AI, Bots and Automation
 
