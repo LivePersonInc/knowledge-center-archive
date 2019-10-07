@@ -145,6 +145,7 @@
             - level3name: Training deck
             - level3name: Tutorial
             - level3name: Blended accounts
+            - level3name:  Conversational Commands
         - pagename: Agent workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
