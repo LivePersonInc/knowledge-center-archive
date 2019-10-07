@@ -24,7 +24,7 @@ published: true
     <th>Facebook</th>
     <th>WhatsApp</th>
     <th>Google RCS</th>
-    <th>Line</th>
+    <th>LINE</th>
     <th>Messaging Window API</th>
     <th>Connector API</th>
   </tr>
