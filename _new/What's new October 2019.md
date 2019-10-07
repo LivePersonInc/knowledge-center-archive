@@ -12,19 +12,25 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
+![](img/elana oct.jpg)
+
 ### Connectors
 
 LivePerson already has built-in integration to all the popular messaging channels such as Whatsapp and SMS. In the coming weeks, we’re introducing two new, major channels: email and social media.
+
+![](img/elana oct.jpg)
 
 ## Social Connect
 
 Social Connect will enable you to channel private and public messages from Twitter and Facebook directly into LiveEngage - allowing you to manage these conversations alongside all other channels. Any brand with a social media presence can use SocialConnect, saving the additional cost of licensing another social monitoring software.
 
-![](https://lh3.googleusercontent.com/QrP914iVmRuchdcAfQBFbApNotJg4K6SP8Vi5nrYIA-uF4fh2UM6qOyRJRTSq2gCZILTy8UIsB4I8cSJIke35kX33UazDO0aE8DXF6NrGRsyujII5bgVagrwwm4eZfKrTAxbvQyf =571x392)
+![](img/SocialConnect1.jpg)
 
 ## Email Connect
 
 EmailConnect is our second new channel that will also be available in the coming weeks to enable you to receive and respond to emails alongside other messaging channels - all while using the powerful tools of LiveEngage. Email Connect is a Self serve onboarding experience and all you need to do is configure an email address. For more information please see the [Knowledge Center](https://knowledge.liveperson.com/messaging-channels-email-connect.html).
+
+![](img/emailConnectWhatsnew.jpg)
 
 ## Store and Entry Point information - Google My Business
 
@@ -84,8 +90,6 @@ You can connect Third Party Bots by the supported vendors directly into LiveEnga
 You can connect bots to LiveEngage created and managed by: Amazon Lex, MS Bot Framework, Google DialogFlow, IBM Watson, or any additional Bot vendor using the custom connector. The connector wizard is a simple 4-step flow that defines the agent user under which the bot will operate in LiveEngage.
 
 The 3rd Party Bot platform also allows for simple management and tracking of the bots activity from the Bot Dashboard, and gives real-time data on the bots operational performance.
-
-![](https://lh4.googleusercontent.com/OTjavTSK5IpVw1X7vsNqFHORrKfaLg6tQyXrDLPbBc5_OGjf3vt99Chpm0rytBz0OlrlyptQR_NmYz78WVTGPlB5fO3fVUcFFGAaXZoZ-mP97cWmnqTnSyS3U9pAqhnqIHeHMV1T =500x281)
 
 ## Pre/Post/Error hooks to invoke Functions
 
