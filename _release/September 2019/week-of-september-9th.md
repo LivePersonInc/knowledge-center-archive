@@ -672,21 +672,13 @@ This feature cannot be defined to work for both Messaging and Chat load balancin
 
 </div>
 
-MTLS is a more secured TLS connection, allowing services to use mutual authentication (Back and Forth). The MTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
+mTLS is a more secure TLS connection, allowing services to use mutual authentication (Back and Forth). The mTLS gateway is our way to provide a more secure connection, aligned to industry standards while keeping the existing stability and responsiveness we are used to.
 
-The MTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP). Using this Self-Serve API is allowing our customers to use this service easily, including uploading the certificate, Update and delete the certificate, Create the mapping per URL, etc'.
+The mTLS Gateway is also a service for managing certificate over supported LiveEngage Apps (WebHooks and IDP for now, with more to come). Using this Self-Serve API is allowing our customers to use this service easily, including uploading, Updating and deleting the certificate, Create the mapping per URL and more. Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LiveEngage.
 
-Integrating the mTLS Gateway to the existing WebHooks notifications, allowing us to send WebHooks notifications from LiveEngage.
-
-**Which services and features are currently supported over MTLS?**
-
-Currently, two features are supported by mTLS :
-
+**Which services and features are currently supported over mTLS?**
+Currently, 2 features are supported by mTLS:
 * WebHooks
-* Consumer Authentication
+* Consumer Authentication (OAuth2.0 Code Flow)
 
-The first integration over MTLS Gateway with Verizon has already been completed allowing them to use MTLS for WebHooks from now on.
-
-After developing and exposing the new mTLS service, we can proceed with our plans to make this service accessible by providing a new dedicated Self-Service UI for MTLS management, including creating and downloading the CSR, uploading the certificate and mapping of URLs.
-
-For more information on MTLS please visit our [confluence page](https://globaldocs.liveperson.com/display/COR/MTLS)
+After developing and exposing the new mTLS service, we can now proceed with our plans to make the mTLS service accessible, by providing a new dedicated Self-Service UI for mTLS management, including creating and downloading the CSR, uploading the certificate and mapping of URLs.

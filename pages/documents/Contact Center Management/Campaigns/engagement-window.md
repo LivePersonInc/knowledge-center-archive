@@ -36,25 +36,6 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-2.png)
 
-#### Horizon theme
-
-A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
-
-The new Horizon theme features: 
-* Large window
-* New image at the header
-* Chevron minimize icon
-* Top bar icon is set to "round bubble outline"
-* Top window corners radius bigger
-* Agent and consumer bubble style set to "three corner rounded"
-* Consumer bubble with visual read indication (messaging only)
-* Consumer bubble border is blue
-* Text area is light gray
-* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
-
-{: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
-
 ### Using the Engagement window studio, you can:
 
 * Customize the look and feel of engagement windows
@@ -89,6 +70,27 @@ You can fully customize the chat window to suit your brand by changing the color
 ![](/img/engagement-window-5.png)
 
 <div class="notice"> <b>Note: The background color is the same as the chat window background</b> <ul> <li>Text is the same color and font as the Automatic Messages or can be customized individually in the Engagement Window Studio </li> <li> Buttons have the same look and feel of the title bar</li> </ul> </div>
+
+### Horizon theme
+
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+
+The new Horizon theme features: 
+* Large window
+* New image at the header
+* Chevron minimize icon
+* Top bar icon is set to "round bubble outline"
+* Top window corners radius bigger
+* Agent and consumer bubble style set to "three corner rounded"
+* Consumer bubble with visual read indication (messaging only)
+* Consumer bubble border is blue
+* Text area is light gray
+* Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
+
+{: .sidebyside}
+![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+
+To learn more about configuring these new features, [click here](release-notes-2019-august-week-of-august-5th.html).
 
 ### To add a header to the window:
 
@@ -139,6 +141,112 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 </ul>
 </div>
 
+### Set the embedded window as floating
+
+Brands have the ability to set the embedded window as floating. Once this configuration is enabled, the position of the window will be 20px from the bottom and 20px from the right. This feature is disabled by default.
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Look and feel customization” button
+* Enable by clicking on “Floating engagement” checkbox
+* Click on “Save”
+
+**Limitations**
+* This setting will impact only the desktop embedded window. 
+
+Configure floating engagement window in engagement window studio:
+
+![](img/week-of-september-30th-6.png)
+
+Floating engagement window consumer view:
+
+![](img/week-of-september-30th-7.png)
+
+### Emoji support
+
+Brands have the ability to configure whether to provide consumers the ability to add emojis to their conversation while using the engagement window on their desktop. This feature is disabled by default.
+
+**Limiations**
+* This feature is available for desktop only.
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Text area” section
+* Enable by clicking on “Emoji icon” checkbox
+* Click on “Save”
+
+Enable emoji icon in the text area:
+
+![](img/week-of-september-30th-8.png)
+
+Consumer view: adding emojis from desktop web messaging or chat window
+
+![](img/week-of-september-30th-9.png)
+
+### Consumer actions menu location
+
+Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows. 
+
+There are 2 options to set the location of the menu:
+* At the bottom left side of the window (current location and default for Ocean and Horizon themes)
+* Top right of the window, instead of the X icon
+
+If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
+
+**Enablement** 
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Add elements” icon
+* Click on “Menu position and elements”
+* Under “Menu position and elements” section, select the position of the window
+* Click Save
+
+**Limitations**
+* The top menu position is available for web messaging only and will not be visible in the engagement studio if the window is set for chat.
+
+Configure the location of the menu for the engagement window:
+
+![](img/week-of-september-30th-10.png)
+
+Configure menu to be at the bottom of the engagement window:
+
+![](img/week-of-september-30th-11.png)
+
+Configure menu to be at the top of the engagement window:
+
+![](img/week-of-september-30th-12.png)
+
+Consumer side top menu:
+
+{: .sidebyside}
+![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
+
+Consumer side bottom menu: 
+
+{: .sidebyside}
+![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
+
+### Add attachment icon to actions menu
+
+When the menu is configured to be at the top for web messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
+
+**Enablement** 
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Text area”
+* Enable by clicking on “Attachment icon” checkbox
+* Click on “Save”
+
+Enabled attachment icon in the text area:
+
+![](img/week-of-september-30th-17.png)
+
+Enabled attachment icon on consumer side:
+
+![](img/week-of-september-30th-19.png)
+
 ## Advanced window configuration and customization
 
 In addition to the styling options within the window configuration, you can make the following advanced configurations:
@@ -151,9 +259,7 @@ In addition to the styling options within the window configuration, you can make
 Available customizations:
 
 * **Agent picture** - make the conversation more personal by configuring the agent’s picture to display in the engagement window
-* **Rounded or square window corners for window** - control the exact radius of the window corners to produce a rounded or square effect
-
-![](/img/engagement-window-13.gif)
+* **Rounded or square window corners** - control the exact radius of the window corners to produce a rounded or square effect
 
 ### Agent picture configuration
 
@@ -170,7 +276,7 @@ Available customizations:
 {: .important}
 **Note:** URL must be in “https” format, with recommended size of 200x200 pixels (up to 0.5MB), supported formats are PNG, JPG, and GIF
 
-### Defining agent picture appearance in the engagement window
+#### Defining agent picture appearance in the engagement window
 
 Agent picture is defined individually per window. If you are using the same window in different engagements/campaigns, visitors will see the agent’s picture in both of them.
 
@@ -194,7 +300,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 {: .notice}
 **Note:** In the case that the agent picture is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.
 
-### Configuring a default picture
+#### Configuring a default picture
 
 In order to define a default picture to be displayed when no agent picture is defined, follow these steps:
 
@@ -209,8 +315,29 @@ In order to define a default picture to be displayed when no agent picture is de
 
 Visitors will now see the configured default picture beside each line sent by the agent with no configured personal picture.
 
-### Limitations
+#### Limitations
 
 * **Join conversation:** If a second agent joins the conversation for whom a default picture URL is defined, the visitor sees the default picture next to second agent’s lines.
 * **Because each window is configured separately, take into account the following:**
   In the case that different default pictures are defined in different engagement windows, when an agent transfers the conversation to an agent that has no assigned picture, the default picture displayed is the default picture defined for the conversation’s original engagement window. This is relevant to accounts using separate engagement windows for different departments.
+
+### Rounded or square window corners
+
+![](/img/engagement-window-13.gif)
+
+Brands have the ability to set the radius of the top and bottom corners of the engagement window. The additional setting “Engagement window bottom corners” has been added to the “Additional window setting” section of the engagement window studio. The radius must be set in numbers, with or without px. Format example: 0px 0px 5px 5px. The limit will be 20px. An invalid format notification message will be displayed if the number is entered beyond the limit number.
+
+By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop. 
+
+**Enablement**
+* Log into LiveEngage
+* Go to Engagement window studio
+* Click on “Open additional window settings”
+* Click on “Look and feel” section to expand
+* Enter values for “Engagement window top corners” or “Engagement window bottom corners 
+* Click on “Save”
+
+![](img/week-of-september-30th-4.png)
+
+![](img/week-of-september-30th-5.png)
+

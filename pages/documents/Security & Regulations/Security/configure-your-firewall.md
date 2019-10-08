@@ -52,6 +52,17 @@ The following IP ranges have been added to the whitelist for bots:
 * 10.160.0.0 - 10.175.255.255
 * 10.176.0.0 - 10.191.255.255
 
+Third-Party Bot Integrations in particular will be served from the following IPs:
+
+| Region | Gateway Name | Gateway IP |
+| --- | --- | --- |
+| N.Virginia | gw1.mgmt.fs.liveperson.com | 34.193.104.2 |
+| N.Virginia | gw2.mgmt.fs.liveperson.com | 52.6.58.86 |
+| Ireland | gw1.emea.fs.liveperson.com | 52.30.229.238 |
+| Ireland | gw2.emea.fs.liveperson.com | 54.72.49.55 |
+| Sydney | gw1.apac.fs.liveperson.com | 52.63.172.179 |
+| Sydney | gw2.apac.fs.liveperson.com | 13.210.123.189 |
+
 ## Domains
 
 Liveperson owns these second level domains:

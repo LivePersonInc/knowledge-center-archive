@@ -10,6 +10,7 @@
     - subcategoryname: Roadmap
     - subcategoryname: Operational Readiness Checklist
     - subcategoryname: Blended accounts
+    - subcategoryname: Conversational Commands
 
 - categoryname: Messaging managers
   image: messaging-managers
