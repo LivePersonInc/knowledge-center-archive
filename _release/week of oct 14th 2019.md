@@ -256,7 +256,7 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 ### Screenshot
 
-!\[\](img/SocialConnect_agentworkspace.png)
+!\[\](img/SocialConnect_agentworkspace.jpg)
 
 ## New Data Analytics Report for Agent Survey
 
