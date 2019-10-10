@@ -1,11 +1,11 @@
 ---
-pagename: Week of October 17th
+pagename: Week of October 14th
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: release-notes-2019-october-week-of-october17th.html
+permalink: release-notes-2019-october-week-of-october14th.html
 isTutorial: false
 isNew: false
 
@@ -256,7 +256,7 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 ### Screenshot
 
-![](img/SocialConnect_agentworkspace.jpg)
+!\[\](img/SocialConnect_agentworkspace.png)
 
 ## New Data Analytics Report for Agent Survey 
 
