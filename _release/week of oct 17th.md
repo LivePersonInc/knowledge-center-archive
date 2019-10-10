@@ -179,9 +179,9 @@ For more information on LiveIntent and how to set up please [click here](https:/
 
 <tr>
 
-<td>Yes</td>
+<td>No</td>
 
-<td>Yes</td>
+<td>No</td>
 
 <td>No</td>
 
@@ -261,6 +261,78 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 ## New Data Analytics Report for Agent Survey 
 
 ### Type: new functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
 
 **Available to all customers?** Only brands that have the agent survey enabled.
 
