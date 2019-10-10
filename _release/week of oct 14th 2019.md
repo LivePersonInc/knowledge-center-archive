@@ -129,7 +129,7 @@ Be the first to harness the power of machine learning and start leading an inten
 **Data-driven automations**
 Dynamically route your consumers to the right bot or human agent and refine dialogue flows with proven conversations to optimize bots.
 
-For more information on LiveIntent and how to set up please [click here](https://developers.liveperson.com/liveintent-overview.html#getting-started) or visit the dedicated LiveIntent [website](https://www.liveperson.com/products/liveintent/) to learn more
+For more information on LiveIntent and how to set up please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html)
 
 ### Screenshots
 
@@ -258,7 +258,7 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 !\[\](img/SocialConnect_agentworkspace.png)
 
-## New Data Analytics Report for Agent Survey 
+## New Data Analytics Report for Agent Survey
 
 ### Type: new functionality
 
