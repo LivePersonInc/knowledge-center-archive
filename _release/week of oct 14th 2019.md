@@ -1,11 +1,11 @@
 ---
-pagename: Week of October 17th
+pagename: Week of October 14th
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: release-notes-2019-october-week-of-october17th.html
+permalink: release-notes-2019-october-week-of-october14th.html
 isTutorial: false
 isNew: false
 
@@ -179,9 +179,9 @@ For more information on LiveIntent and how to set up please [click here](https:/
 
 <tr>
 
-<td>Yes</td>
+<td>No</td>
 
-<td>Yes</td>
+<td>No</td>
 
 <td>No</td>
 
@@ -220,7 +220,7 @@ Relevant to the following channels:
 * Twitter Public
 * Twitter Direct Messages
 
-### Key features of SocialConnect
+### Key features of Social Connect
 
 * **Unified platform**
 
@@ -256,9 +256,83 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 ### Screenshot
 
-![](img/SocialConnect_agentworkspace.jpg)
+!\[\](img/SocialConnect_agentworkspace.png)
 
 ## New Data Analytics Report for Agent Survey 
+
+### Type: new functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
 
 **Available to all customers?** Only brands that have the agent survey enabled.
 
@@ -281,3 +355,13 @@ Account managers are required to submit a FreshDesk request through the “Analy
 
 1. Brand requesting report should include Account ID
 2. Include email address for each recipient or email distribution (preferred)
+
+## Web experiences
+
+### Type: Bug fix
+
+**Available to all customers?** Yes
+
+If the site setting ‘messaging.agent.photo.size’ was changed from the default 800px to a larger value, the consumer side would still downscale the image to 800px causing the image on the agent side to appear blurry.
+
+This has now been fixed and consumer side will now take into consideration the value of ‘messaging.agent.photo.size’ so that the image is uploaded in the correct size.
