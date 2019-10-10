@@ -6,7 +6,7 @@ indicator: messaging
 subtitle: LiveIntent provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: Bots-automation-liveintent.html
+permalink: Bots-automation-liveIntent.html
 isTutorial: false
 isNew: false
 
