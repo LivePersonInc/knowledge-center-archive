@@ -73,7 +73,8 @@
      pages:
        - pagename: Conversation Builder overview
        - pagename: Getting started tutorials
-   - subcategoryname: Post conversation survey bot
+  - subcategoryname: LiveIntent
+  - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
   image: contact-center
