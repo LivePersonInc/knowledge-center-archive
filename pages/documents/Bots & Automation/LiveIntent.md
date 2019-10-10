@@ -1,17 +1,16 @@
 ---
-pagename: LiveIntent
+pagename: The power of an intent-driven contact center
 categoryName: Bots & automation
 subCategoryName: ''
 indicator: messaging
-subtitle: LiveIntent provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs
+subtitle: LiveIntent provides real-time intent identification to help businesses optimize
+  operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-liveintent.html
+permalink: ai-bots-automation-the-power-of-an-intent-driven-contact-center.html
 isTutorial: false
 isNew: false
 
 ---
-## The Power of an Intent-driven Contact Center
-
 ### Technology around NLU and data science is opening the doors for brands to manage their contact centers more efficiently by better understanding consumer needs through intent.
 
 Until today, brands were forced to hardcode consumer needs by categorizing them by choices they’ve made from a drop-down menu, and then matching their input to agent skills or pre-defined journeys. Yet, within agent skills there is a vast array of different inquiries, each with its own nuance. Even with the best reporting, analytics, and website trafficking across a brand’s web, IVR and apps, brands are still left guessing what their consumers want.
