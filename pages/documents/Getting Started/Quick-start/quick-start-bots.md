@@ -3,8 +3,7 @@ pagename: Conversation builder quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
-subtitle: Tap into the millions of consumers connecting over Facebook using the power
-  of LivePerson
+subtitle: Use this tutorial to quickly get started with bot building
 level3: ''
 permalink: getting-started-quick-start-guides-conversation-builder-quick-start.html
 isTutorial: true
@@ -14,43 +13,67 @@ redirect_from:
 - getting-started-quick-start-guides-bots-quick-start.html
 
 ---
-Setup a "Hello World" automation using Conversation Builder
+Create a bot using Conversation Builder.
 
-## Step 1: Add Conversation Builder permissions to administrators
+## Step 1: Add Conversation Builder permissions to the Administrator profile
 
-Once logged into LiveEngage, click on the ‘Users’ tab at the top of your screen. Then select ‘Profiles’ and then ‘Administrators’. Enable the following permissions:
+1. Log in to [LiveEngage](https://authentication.liveperson.net/).
+2. On the left sidebar, click the <img style="width:30px" src="img/icon_users.png"> icon. This displays the **Users** tab.
+3. Click the **Profiles** tab, and then click the “Administrator” profile name.
+4. On the Edit Profile page that appears, enable the following Conversation Builder permissions:
+  - Conversation Builder: Administrator
+  - Conversation Builder: Content User
+  - Conversation Builder: Business User
+  - Conversation Builder: Bot Status Access
+  - Conversation Builder: Bot Builder
+5. Click **Save**, and then click **OK** in the confirmation dialog that appears.
+6. In the lower-left corner, click the <img style="width:30px" src="img/icon_person.png"> icon, and then select **Logout** to log out of LiveEngage. Then log in again to “pick up” the new permissions.
 
-* Admin in Conversation Builder
-* Content User in Conversation Builder
-* Business User in Conversation Builder
-* Operations in Conversation Builder
-* Bot Builder in Conversation Builder
+## Step 2: Access Conversation Builder
 
-Click Save.
+1. In LiveEngage, on the left sidebar, click the <img style="width:30px" src="img/icon_cb.png"> icon.
+2. In the Conversational AI dashboard, click **Conversation Builder**.
 
-## Step 2: Login to Conversation Builder
+## Step 3: Create a bot
 
-To access Conversation Builder, first login to [LiveEngage](https://authentication.liveperson.net/). When logged in, click the **Automation tab** at the top of your screen. Click the **Conversation Builder** icon in the left hand side-bar and then the **Conversation Builder** icon that appears on the screen.
+1. Click **New Bot** in the upper-right corner.
+2. Select the **Basic Bot** template.
+3. In the dialog that appears:
+  - **Name**: Enter a unique name.
+  - **Description**: Enter a meaningful description.
+  - **Bot Type**: Leave this set to “Consumer Facing Bot.”
+4. Click **Create Bot**. Since you selected the Basic Bot template, by default this creates a bot with a “Welcome” dialog that matches and responds to simple forms (patterns) of “hello”.
+5. Preview the bot:
+    1. Click the <img style="width:30px" src="img/icon_preview.png"> icon in the lower-right corner of the screen to open the Preview window.
+    2. Enter “hello.” You will see the response, “Hi there! Thanks for coming!”
 
-## Step 3: Create a new bot
+**Congratulations!** You’ve just created your first bot!
 
-Click **new automation**, then select the **Basic Automation** template. Give your automation a unique name, a description and leave the Automation Type set to Consumer Facing Automation. Click **Create Automation**.
+## Step 4: Optional step
 
-## Step 4: First interaction
+Want to try your hand at changing the bot?
 
-To start interacting with the Basic Automation, click on the **Preview** icon in the bottom-right of the screen to open the Preview window. Enter "reset" in the Preview window to start a new session. This template includes a Dialog called “Welcome” that matches and responds to simple patterns such as “hello”. Enter “hello” in the Preview window and you will see the response “Hi there! Thanks for coming!”
+**Add a new pattern**
+1. Note the two, small icons to the left of the **Assist** window.
+2. Click the **Interaction Details** icon.
 
-## Step 5: Hello World!
+    <img class="fancyimage" style="width:950px" src="img/cb_window.png">
 
-You will see two small icons to the left of the **Assist** window.  Click on the **Interaction Details** icon.
+3. In the Interaction Details window, click **Settings**.
+4. In the Patterns section, click **Add New**.
+5. Enter "aloha," and press Enter. Click **Save**.
 
-![image alt text](img/helloWorld.png)
+<br>
+**Preview the bot again**
 
-In the Interaction Details window, click on **SETTINGS.** To add a new pattern, click **Add New** in the **Patterns** section and enter "aloha." Next, replace the text “Hi there! Thanks for coming!” with “Hello World!” Click on the **Preview** icon again, and start a new session by entering “reset” in the Preview window. Next, enter “aloha” and you will see “Hello World!”
+1. Open the Preview window like you did before, and start a new session by entering “reset” in the window. You’ll need to start a new session to “pick up” the change you just made.
+2. Enter “aloha.” You will see that the bot responds to this new greeting with the same response as before.
 
-To extend the automation and connect it to LiveEngage, please refer to the tutorials and guides below.
+To learn how to extend the bot and connect it to LiveEngage, complete the tutorials listed below.
 
-Conversation Builder Tutorials and Guides
+## Conversation Builder tutorials
+
+Dive deeper with these, more in-depth tutorials:
 
 * [Video Tutorials](https://developers.liveperson.com/conversation-builder-getting-started-0-video-tutorials.html)
 * [Dialogs and Patterns](https://developers.liveperson.com/conversation-builder-getting-started-1-dialogs-and-patterns.html)
