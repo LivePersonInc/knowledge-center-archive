@@ -3,10 +3,9 @@ pagename: LiveIntent
 categoryName: Bots & automation
 subCategoryName: ''
 indicator: messaging
-subtitle: LiveIntent provides real-time intent identification to help businesses optimize
-  operations and enable data-driven automation programs
+subtitle: LiveIntent provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs
 level3: ''
-permalink: Bots-automation-liveIntent.html
+permalink: ai-bots-automation-liveintent.html
 isTutorial: false
 isNew: false
 
