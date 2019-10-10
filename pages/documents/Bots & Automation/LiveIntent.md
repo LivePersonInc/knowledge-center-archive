@@ -9,7 +9,6 @@ level3: ''
 permalink: Bots-automation-liveintent.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 ## The Power of an Intent-driven Contact Center
@@ -22,8 +21,8 @@ Conversational commerce, when brands enable consumers to ask questions, purchase
 
 ## What is intent in a contact center?
 
-Whenever a customer is initiating a conversation with a brand, whether it be with a bot or human agent, the customer comes with an intent and the ultimate goal of the customer is to fulfill this intent. A customer intent can be defined as a customers desire to change their state/ relationship with a brand.  
-  
+Whenever a customer is initiating a conversation with a brand, whether it be with a bot or human agent, the customer comes with an intent and the ultimate goal of the customer is to fulfill this intent. A customer intent can be defined as a customers desire to change their state/ relationship with a brand.
+
 The ability to accurately identify intent and provide the relevant service for the intent is at the forefront of building an efficient contact center. Through the combination of machine learning and human intelligence, LivePerson is building intent recognition and analysis tools to help brands identity and manage consumer needs. Using consumer intent as a driving force, brands can better track what is happening in a contact center and make fast progress in improving operations and automating customer interactions.
 
 ## Benefits of an intent-driven contact center
@@ -55,7 +54,7 @@ Intents defined by the brand are visible in real-time and are available across a
 
   \- Routing the most effective agent for a given intent
 
-  \- Pinpointing effective handling strategies for training quickly 
+  \- Pinpointing effective handling strategies for training quickly
 
   \- Creating new capabilities for incentivizing agent behavior across many intents
 * Evaluate every change in the contact center in to make data-driven decisions by intent
@@ -88,7 +87,7 @@ LivePerson provides intent management out-of-the-box, which are intents that the
 
 ## LiveIntent Dashboard
 
-![](https://lh6.googleusercontent.com/g9k6zANLgsMQgZ3_0gt_x6VT49XA8jDtPl5Im32Q2tvY_H0z0zrfZ3gmQFEvvDqax__d4CKRiSXjqEH5EfIxA_kwRfBncle4oTe36Zh1Xy4zjv5O52tHC-HKsmbhYO99WApCBnPT =418x372)
+!\[\](img/liveintent_dashboard-section-1.png)
 
 LiveIntent dashboard enables Brands to automatically identify and take action on customer intent through every turn in a conversation.
 
