@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: chat
 subtitle: ''
 level3: ''
-permalink: release-notes-2019-october-week-of-october14th.html
+permalink: release-notes-2019-october-week-of-october-14th.html
 isTutorial: false
 isNew: false
 
