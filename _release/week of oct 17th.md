@@ -220,7 +220,7 @@ Relevant to the following channels:
 * Twitter Public
 * Twitter Direct Messages
 
-### Key features of SocialConnect
+### Key features of Social Connect
 
 * **Unified platform**
 
@@ -260,6 +260,8 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 ## New Data Analytics Report for Agent Survey 
 
+### Type: new functionality
+
 **Available to all customers?** Only brands that have the agent survey enabled.
 
 The Agent Survey Report provides brands who have enabled the survey to report on data at the survey, question and agent skill level. The report provides detailed insight into the following on a daily and monthly basis:
@@ -281,3 +283,13 @@ Account managers are required to submit a FreshDesk request through the “Analy
 
 1. Brand requesting report should include Account ID
 2. Include email address for each recipient or email distribution (preferred)
+
+## Web experiences
+
+### Type: Bug fix
+
+**Available to all customers?** Yes
+
+If the site setting ‘messaging.agent.photo.size’ was changed from the default 800px to a larger value, the consumer side would still downscale the image to 800px causing the image on the agent side to appear blurry.
+
+This has now been fixed and consumer side will now take into consideration the value of ‘messaging.agent.photo.size’ so that the image is uploaded in the correct size.
