@@ -138,3 +138,4 @@ Dynamically route your consumers to the right bot or human agent and refine dial
 For more information on LiveIntent and how to set up please [click here](https://developers.liveperson.com/liveintent-overview.html#getting-started) or visit the dedicated LiveIntent [website](https://www.liveperson.com/products/liveintent/) to learn more
 
 ### Screenshots
+![](img/liveintent_dashboard-section-1.png)
