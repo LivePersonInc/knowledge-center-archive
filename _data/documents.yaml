@@ -329,7 +329,7 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
-       - pagename: October
+        - pagename: October
           level3:
             - level3name: Week of October 14th
         - pagename: September
