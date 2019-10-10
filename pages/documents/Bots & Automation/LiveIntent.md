@@ -97,17 +97,15 @@ All this clustering is done automatically, based on user transcripts and user to
 
 The combination of machine learning and human intelligence to better understand and track what is happening in your contact center and to make fast progress in automating customer interactions.
 
-For a greater understanding of the dashboard and how to use it, please see the LiveIntent user guide in the [Developers Community.]()
+For a greater understanding of the dashboard and how to use it, please see the [Developers Community.](https://developers.liveperson.com/liveintent-overview.html#getting-started)
 
 ## Where can you find intent management in LivePerson?
 
 **Intent Builder** can be found under Conversational AI, allowing brands to create your own intents and entities organized by domain.
 
-![](https://lh6.googleusercontent.com/QbXn2N5HgAEw9jgGG5neMWJfTUp-2BbBcJvKQn_k6f1HFd8YYFaAIC-ZNKR1sa6XZJChrC0IYToG1krGeMAvOaB29EqjXnR4XRAg6LRaruyA092A9C4SUWsDpK4Ajer2QDM88tLm =500x206)
-
 **LiveIntent** integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LiveIntent**, it will also appear under the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
 
-![](https://lh3.googleusercontent.com/YZeNohSjULwgBuF-_6BUI6AJ6Zcg0kbg9R6klgy6sHBLUG3JmoPWN_dOPXKcX391TvQSAQyJQqnyi--_GRJgA6dwR-G-HuuQYONz5Z7zQJg46SvcwpTrBzJnu7Iq6yjzEGtBc5AJ =624x328)
+!\[\](img/BotsAutomation_LiveIntent.png)
 
 LiveIntent powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from LiveIntent to power next generation analytics, orchestrate conversations with Maven, and build effective automations with Conversation Builder.
 
