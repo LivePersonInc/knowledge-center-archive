@@ -95,7 +95,7 @@ All this clustering is done automatically, based on user transcripts and user to
 
 The combination of machine learning and human intelligence to better understand and track what is happening in your contact center and to make fast progress in automating customer interactions.
 
-For a greater understanding of the dashboard and how to use it, please see the [Developers Community.](https://developers.liveperson.com/liveintent-overview.html#getting-started)
+For a greater understanding of the LiveIntent - please visit its [dedicated website.](https://www.liveperson.com/products/liveintent/)
 
 ## Where can you find intent management in LivePerson?
 
