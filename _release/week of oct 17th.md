@@ -179,13 +179,13 @@ For more information on LiveIntent and how to set up please [click here](https:/
 
 <tr>
 
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
+<td>Yes</td>
 
 <td>Yes</td>
+
+<td>No</td>
+
+<td>No</td>
 
 <td>No</td>
 
