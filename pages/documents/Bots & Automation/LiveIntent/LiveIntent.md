@@ -1,12 +1,12 @@
 ---
 pagename: The power of an intent-driven contact center
 categoryName: Bots & automation
-subCategoryName: ''
+subCategoryName: LiveIntent
 indicator: messaging
 subtitle: LiveIntent provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-the-power-of-an-intent-driven-contact-center.html
+permalink: ai-bots-automation-liveintent-the-power-of-an-intent-driven-contact-center.html
 isTutorial: false
 isNew: false
 
@@ -50,11 +50,11 @@ Intents defined by the brand are visible in real-time and are available across a
 * Drive automation strategy by exposing the costs, benefits, and risks of automation, intent by intent
 * Improve the quality and efficiency of the agent experience by:
 
-  \- Routing the most effective agent for a given intent
+  - Routing the most effective agent for a given intent
 
-  \- Pinpointing effective handling strategies for training quickly
+  - Pinpointing effective handling strategies for training quickly
 
-  \- Creating new capabilities for incentivizing agent behavior across many intents
+  - Creating new capabilities for incentivizing agent behavior across many intents
 * Evaluate every change in the contact center in to make data-driven decisions by intent
 
 ## Use cases
@@ -85,7 +85,7 @@ LivePerson provides intent management out-of-the-box, which are intents that the
 
 ## LiveIntent Dashboard
 
-!\[\](img/liveintent_dashboard-section-1.png)
+![](img/liveintent_dashboard-section-1.png)
 
 LiveIntent dashboard enables Brands to automatically identify and take action on customer intent through every turn in a conversation.
 
@@ -103,7 +103,7 @@ For a greater understanding of the LiveIntent - please visit its [dedicated webs
 
 **LiveIntent** integrates seamlessly with Intent Builder to provide a powerful unified system for intent modeling and management. When a brand subscribes to **LiveIntent**, it will also appear under the Conversational AI tab, giving brands the ability to augment the capabilities of their LivePerson reports, tools, and services.
 
-!\[\](img/BotsAutomation_LiveIntent.png)
+![](img/BotsAutomation_LiveIntent.png)
 
 LiveIntent powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from LiveIntent to power next generation analytics, orchestrate conversations with Maven, and build effective automations with Conversation Builder.
 

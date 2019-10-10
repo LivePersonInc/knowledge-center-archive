@@ -73,7 +73,11 @@
      pages:
        - pagename: Conversation Builder overview
        - pagename: Getting started tutorials
-   - subcategoryname: The power of an intent-driven contact center
+   - subcategoryname: LiveIntent
+     pages:
+       - pagename: The power of an intent-driven contact center
+       - pagename: Overview
+       - pagename: Dashboard
    - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
