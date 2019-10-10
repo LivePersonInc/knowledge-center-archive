@@ -14,11 +14,11 @@ isNew: false
 
 ## Introduction
 
-LivePerson's [Conversational AI](conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](liveintent-dashboard.html) intents in real-time.
+LivePerson's [Conversational AI](https://developers.liveperson.com/conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](ai-bots-automation-liveintent-dashboard.html) intents in real-time.
 
 <img class="fancyimage" style="width:750px" src="img/liveintent_dashboard-section-1.png">
 
-LiveIntent leverages the [NLU engine](conversational-ai-platform-natural-language-understanding-nlu-engines.html) of your choice to analyze and track the performance of your intent libraries created in [Intent Builder](intent-builder-overview.html).
+LiveIntent leverages the [NLU engine](https://developers.liveperson.com/conversational-ai-platform-natural-language-understanding-nlu-engines.html) of your choice to analyze and track the performance of your intent libraries created in [Intent Builder](https://developers.liveperson.com/intent-builder-overview.html).
 
 ## Example Use Cases
 
@@ -82,15 +82,15 @@ To get started with starter packs, please contact your account representative.
 
 ### Manual Setup
 
-If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](intent-builder-overview.html) to create a domain, intents, [enable liveintent](intent-builder-overview.html#liveintent), and add training phrases.
+If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable liveintent](https://developers.liveperson.com/intent-builder-overview.html#liveintent), and add training phrases.
 
-If you have **intents in an external system**, you can [import](intent-builder-overview.html#adding-a-domain) those into Intent Builder to get started quickly.
+If you have **intents in an external system**, you can [import](https://developers.liveperson.com/intent-builder-overview.html#adding-a-domain) those into Intent Builder to get started quickly.
 
-If you have **intents in Intent Builder** already, [see here](intent-builder-overview.html#liveintent) for how to enable them in LiveIntent.
+If you have **intents in Intent Builder** already, [see here](https://developers.liveperson.com/intent-builder-overview.html#liveintent) for how to enable them in LiveIntent.
 
 ## Using LiveIntent
 
-When you have intents and they are enabled for LiveIntent, you can view your data in the [LiveIntent dashboard](liveintent-dashboard.html).
+When you have intents and they are enabled for LiveIntent, you can view your data in the [LiveIntent dashboard](https://developers.liveperson.com/liveintent-dashboard.html).
 <!--
 See [LiveIntent Best Practices](liveintent-best-practices.html) for some common usage flows and best practices.
 -->
