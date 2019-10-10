@@ -93,3 +93,55 @@ The timing and scope of these features or functionalities remain at the sole dis
 </table>
 
 </div>
+
+LivePerson’s LiveIntent uses AI to examine consumer conversations, identify intents in real-time, and deliver actionable insights for brands to quickly optimize messaging and automation operations.
+
+### Key features of LiveIntent
+
+* **Bots and human agents intent detection**
+
+  Real-time intent recognition for both bots and human-handled conversations.
+* **Unified platform**
+
+  With direct integration to LivePerson’s LiveEngage, customers can use a unified tool for self-service intent building and analytics.
+* **Self-service tools**
+
+  Self-service tools like intent builder, LiveIntent dashboard that brands can use to build and analyze intents where data can be used to inform automations in Conversation Builder, routing in Maven AI and business decisions in real-time.
+* **Holistic dashboard**
+
+  LiveIntent Dashboard helps contact center managers and business decision makers analyze and optimize messaging operations for improved customer interactions.
+* **Implementation**
+
+  Access to professional services (ETS) for starter packs and modeling.
+* **Starter packs for common verticals**
+
+  We’ve identified the top intents for FinServe, Telco, and E-commerce and we provide brand-specific training data for key high-impact intents. More to come!
+* **API**
+
+  Brands will have the ability to query LiveIntent classification data from public messaging interactions API.
+
+### Key benefits for brands
+
+### Real-time analytics
+
+Make smart business decisions backed by data and understand valuable consumer intents.
+
+### Optimize operations intent by intent. 
+
+You can optimize operational processes and respond to customers with a strategic approach in real- time.
+
+### Ease of use
+
+LivePerson LiveIntent has full integration with Maven AI and Conversation Builder that includes all the tools you need to create personalized customer journeys.
+
+### Machine learning
+
+Be the first to harness the power of machine learning and start leading an intent-driven business to transform your brand.
+
+### Data-driven automations
+
+Dynamically route your consumers to the right bot or human agent and refine dialogue flows with proven conversations to optimize bots.
+
+For more information on LiveIntent and how to set up please [click here](https://developers.liveperson.com/liveintent-overview.html#getting-started) or visit the dedicated LiveIntent [website](https://www.liveperson.com/products/liveintent/) to learn more
+
+### Screenshots
