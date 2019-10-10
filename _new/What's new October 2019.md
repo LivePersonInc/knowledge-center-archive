@@ -12,7 +12,7 @@ isNew: false
 ---
 Here is a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections. Please see release notes section for exact release dates of all the features below.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/364766378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>364766378
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/364766378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Connectors
 
@@ -77,7 +77,7 @@ LivePerson consumers access Conversation Builder using LiveEngage’s SSO. Yet, 
 
 Once the agent connector is deployed, users can debug the connectors quickly, without having to manually fetch and enter user IDs.
 
-## Conversation Builder - Enhanced LivePerson NLU 
+## Conversation Builder - Enhanced LivePerson NLU
 
 We are introducing a scalable, improved Natural Language Understanding (NLU) engine with better accuracy for intent detection allows you to take big steps towards becoming truly intent driven businesses.
 
