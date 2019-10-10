@@ -257,3 +257,27 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 ### Screenshot
 
 ![](img/SocialConnect_agentworkspace.jpg)
+
+## New Data Analytics Report for Agent Survey 
+
+**Available to all customers?** Only brands that have the agent survey enabled.
+
+The Agent Survey Report provides brands who have enabled the survey to report on data at the survey, question and agent skill level. The report provides detailed insight into the following on a daily and monthly basis:
+
+* Answer Distribution Survey Level
+* Answer Distribution at the Agent Skill level
+* Survey Level / Closure Rates and Reasons
+* Question Level
+* Question Level Agent Skill
+
+**Metrics include:**
+
+* Answer Counts & Ratios
+* Closed Survey Counts and Rates
+
+### How to request the new report:
+
+Account managers are required to submit a FreshDesk request through the “Analytics and Insights” icon on the hub:
+
+1. Brand requesting report should include Account ID
+2. Include email address for each recipient or email distribution (preferred)
