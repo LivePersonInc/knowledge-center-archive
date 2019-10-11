@@ -49,7 +49,7 @@ Create a bot using Conversation Builder.
 
 **Congratulations!** You’ve just created your first bot!
 
-## Step 4: Optional step
+## Step 4: Dive Deeper (Optional)
 
 Want to try your hand at changing the bot?
 
@@ -73,13 +73,13 @@ To learn how to extend the bot and connect it to LiveEngage, complete the tutori
 
 ## Conversation Builder tutorials
 
-Dive deeper with these, more in-depth tutorials:
+Want to learn more? Check out these, more in-depth tutorials:
 
 * [Video Tutorials](https://developers.liveperson.com/conversation-builder-getting-started-0-video-tutorials.html)
 * [Dialogs and Patterns](https://developers.liveperson.com/conversation-builder-getting-started-1-dialogs-and-patterns.html)
 * [Intents](https://developers.liveperson.com/conversation-builder-getting-started-2-intents.html)
 * [Integrations](https://developers.liveperson.com/conversation-builder-getting-started-3-integrations.html)
-* [Connecting to LiveEngage](https://developers.liveperson.com/conversation-builder-getting-started-4-connect-to-liveengage.html)
+* [Connect to LiveEngage](https://developers.liveperson.com/conversation-builder-getting-started-4-connect-to-liveengage.html)
 
 ## Additional resources
 
