@@ -33,7 +33,7 @@
         - pagename: SMS connector
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
-        - pagename: Using SMS with Twilio 
+        - pagename: Using SMS with Twilio
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
@@ -73,6 +73,11 @@
      pages:
        - pagename: Conversation Builder overview
        - pagename: Getting started tutorials
+   - subcategoryname: LiveIntent
+     pages:
+       - pagename: The power of an intent-driven contact center
+       - pagename: Overview
+       - pagename: Dashboard
    - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
@@ -155,7 +160,7 @@
             - level3name: Taking breaks & ending your shift
             - level3name: Understanding agent performance
             - level3name: CoBrowse for messaging
-            - level3name: Voice and video calls overview            
+            - level3name: Voice and video calls overview
             - level3name: Best practices for messaging agents
             - level3name: Agent workspace icons for messaging
 
@@ -316,7 +321,7 @@
     - subcategoryname: July 2019
     - subcategoryname: June 2019
     - subcategoryname: May 2019
-    
+
 
 - categoryname: Release notes
   image: release-notes
@@ -324,6 +329,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
+        - pagename: October
+          level3:
+            - level3name: Week of October 14th
         - pagename: September
           level3:
             - level3name: Week of September 30th

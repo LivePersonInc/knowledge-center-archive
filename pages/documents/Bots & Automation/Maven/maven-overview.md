@@ -41,6 +41,4 @@ The Maven Workspace is a self-service, low-code/no-code experience for brands to
 * Author dynamic **[AI Powered Routing](ai-bots-automation-maven-ai-powered-routing.html)** policies based on attributes (intent, content, session, or AI based inferences) to route to the right human or bot - unlocking highly personalized consumer journeys.
 * Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
 
-Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
-
 <img width="750px" src="/img/maven-workspace.png">
