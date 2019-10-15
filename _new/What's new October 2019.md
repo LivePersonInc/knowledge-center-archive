@@ -71,7 +71,7 @@ Intent starter packs will be introduced for Financial Services, Telco, and E-com
 
 For more information on LiveIntent please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html).
 
-![](img/liveintent_dashboard_home.png)
+![](img/liveintent_dashboard-section-1.png)
 
 ## Conversation Builder Self Service Enhancements
 
