@@ -28,7 +28,7 @@ Social Connect will enable you to channel private and public messages from Twitt
 
 EmailConnect is our second new channel that will also be available in the coming weeks to enable you to receive and respond to emails alongside other messaging channels - all while using the powerful tools of LiveEngage. Email Connect is a Self serve onboarding experience and all you need to do is configure an email address. For more information please see the [Knowledge Center](https://knowledge.liveperson.com/messaging-channels-email-connect.html).
 
-![](img/emailConnectWhatsnew.png)
+![](img/EmailConnectWhatsnew.png)
 
 ## Store and Entry Point information - Google My Business
 
