@@ -302,23 +302,23 @@ With SocialConnect, brands can gain operations efficiencies by consolidating the
 
 <td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 <td>No</td>
 
