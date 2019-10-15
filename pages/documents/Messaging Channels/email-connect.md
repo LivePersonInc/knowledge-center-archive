@@ -3,17 +3,17 @@ pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Email Connect allows you to better manage emails alongside other messaging channels using the powerful tools of LiveEngage
+subtitle: Email Connect allows you to better manage emails alongside other messaging
+  channels using the powerful tools of LiveEngage
 level3: ''
 permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
-published: true
+
 ---
+Get more out of email with LivePerson's Email Connect, a single platform to manage email and all customer communications.
 
-Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCR. In addition, email on average has the lowest CSAT of any other channel.
-
-Email Connect by LivePerson helps make email communications between brands and consumers more efficient for brands- while providing a better experience for consumers.
+With Email Connect, brands can now manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels. 
 
 With Email Connect, brands can now easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
