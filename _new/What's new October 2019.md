@@ -71,6 +71,8 @@ Intent starter packs will be introduced for Financial Services, Telco, and E-com
 
 For more information on LiveIntent please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html).
 
+![](img/liveintent_dashboard_home.png)
+
 ## Conversation Builder Self Service Enhancements
 
 LivePerson consumers access Conversation Builder using LiveEngage’s SSO. Yet, customers still have to manually enter account information and manually fetch (bot) user IDs, to create agent connector. This gives a disjointed user experience. The Self Service enhancements have streamlined the process to automatically fetch account information, so bot developers can deploy bots faster.
