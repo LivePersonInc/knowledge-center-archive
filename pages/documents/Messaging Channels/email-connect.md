@@ -11,7 +11,7 @@ isTutorial: false
 isNew: false
 
 ---
-Get more out of email with LivePerson's Email Connect, a single platform to manage email and all customer communications.
+Get more out of email with LivePerson's Email Connect, a single platform to manage email and all customer communications. 
 
 With Email Connect, brands can now manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels. 
 
