@@ -90,7 +90,7 @@ If you have **intents in Intent Builder** already, [see here](https://developers
 
 ## Using LiveIntent
 
-When you have intents and they are enabled for LiveIntent, you can view your data in the [LiveIntent dashboard](https://developers.liveperson.com/liveintent-dashboard.html).
+When you have intents and they are enabled for LiveIntent, you can view your data in the [LiveIntent dashboard](ai-bots-automation-liveintent-dashboard.html).
 <!--
 See [LiveIntent Best Practices](liveintent-best-practices.html) for some common usage flows and best practices.
 -->
