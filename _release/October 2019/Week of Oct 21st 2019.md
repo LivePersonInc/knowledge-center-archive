@@ -116,7 +116,7 @@ There are 3 types of notification messages that brands have the ability to confi
 
 To enable please contact your LivePerson account team.
 
-## \[WhatsApp\] Busy message customization is not working 
+## \[WhatsApp\] Busy message customization was not working 
 
 ### Type: Bug fix
 
