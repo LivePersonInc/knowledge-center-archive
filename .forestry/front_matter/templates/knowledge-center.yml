@@ -136,8 +136,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- _release/week of oct 14th 2019.md
 - _release/October 2019/Week of Oct 21st 2019.md
+- _release/week of oct 14th 2019.md
 - _new/What's new October 2019.md
 - _new/September 2019 whats new.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md

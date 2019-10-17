@@ -116,7 +116,7 @@ There are 3 types of notification messages that brands have the ability to confi
 
 To enable please contact your LivePerson account team.
 
-## \[WhatsApp\] Busy message customization was not working 
+## \[WhatsApp\] Busy message customization was not working
 
 ### Type: Bug fix
 
@@ -193,3 +193,87 @@ To enable please contact your LivePerson account team.
 </div>
 
 Customized busy message that was configured per WhatsApp number will be sent to consumer. If there is no value configured, then the default will be “Your message was aborted as you currently hold another conversation on a different skill channel”.
+
+## Support Function Pre, Post and Error Hooks 
+
+### Type: New functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+**Error-Hook:** Allows to connect a Function, which gets invoked by every error the bot occurs. The invocation payload contains conversation and error specific data.
+
+**Pre-Hook:** Allows to connect a Function, which gets invoked before a customer message is sent to the vendor, containing all data the vendor would get. With this, it’s possible to modify and expand the data which the vendor receives.
+
+**Post-Hook**: Allows to connect a Function, which gets invoked after the vendor sent a response, containing all data the vendor sent. With this, it’s possible to modify and expand the data which the customer receives.
+
+**Screenshots**
