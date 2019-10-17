@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2019-october-week-of-october-21st.html
 isTutorial: false
 isNew: false
-
+date: 2019-10-21
 ---
 These release notes include new features arriving to LiveEngage during October 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -194,7 +194,7 @@ To enable please contact your LivePerson account team.
 
 Customized busy message that was configured per WhatsApp number will be sent to consumer. If there is no value configured, then the default will be “Your message was aborted as you currently hold another conversation on a different skill channel”.
 
-## Support Function Pre, Post and Error Hooks 
+## Support Function Pre, Post and Error Hooks
 
 ### Type: New functionality
 
@@ -278,9 +278,9 @@ Customized busy message that was configured per WhatsApp number will be sent to 
 
 **Screenshots**
 
-!\[\](img/Pre_Post_Error_Hooks1.png)
+![](img/Pre_Post_Error_Hooks1.png)
 
-## Support sending LiveEngage Attributes as Context 
+## Support sending LiveEngage Attributes as Context
 
 ### Type: New functionality
 
@@ -436,7 +436,7 @@ Sending of [LiveEngage Attribute](https://developers.liveperson.com/engagement-a
 
 The word 'Run time' was written incorrectly in the conversation metrics. It should be replaced with 'Runtime' rather than "run time" in Conversation Metric.
 
-!\[\](img/Run_time_fix.png)
+![](img/Run_time_fix.png)
 
 ## Bot action menu in status dashboard fix
 
@@ -516,7 +516,7 @@ The word 'Run time' was written incorrectly in the conversation metrics. It shou
 
 The design of the menu popover, consisting of 'Edit' and 'Delete' options in the Bot Status Dashboard, is not consistent with the design of the popover seen on the bot listing page. This has now been corrected.
 
-!\[\](img/Bot_Connectors_fix2.png)
+![](img/Bot_Connectors_fix2.png)
 
 ## Tooltip design fix
 
@@ -596,4 +596,4 @@ The design of the menu popover, consisting of 'Edit' and 'Delete' options in the
 
 The tooltip design was showing vertical lines while hovering over the status icon on the Bot Dashboard. This error has now been fixed.
 
-!\[\](img/Bot_Connectors_fix3.png)
+![](img/Bot_Connectors_fix3.png)
