@@ -277,3 +277,161 @@ Customized busy message that was configured per WhatsApp number will be sent to 
 **Post-Hook**: Allows to connect a Function, which gets invoked after the vendor sent a response, containing all data the vendor sent. With this, it’s possible to modify and expand the data which the customer receives.
 
 **Screenshots**
+
+!\[\](img/Pre_Post_Error_Hooks1.png)
+
+## Support sending LiveEngage Attributes as Context 
+
+### Type: New functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Sending of [LiveEngage Attribute](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html) is supported and the LiveEngage attributes are collected **only** at the start of a conversation and passed along with every message.
+
+## Conversation Metric fix
+
+### Type: Bug fix
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+The word 'Run time' was written incorrectly in the conversation metrics. It should be replaced with 'Runtime' rather than "run time" in Conversation Metric.
