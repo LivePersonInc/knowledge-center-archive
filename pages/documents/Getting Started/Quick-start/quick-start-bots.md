@@ -37,13 +37,15 @@ Create a bot using Conversation Builder.
 ## Step 3: Create a bot
 
 1. Click **New Bot** in the upper-right corner.
-2. Select the **Basic Bot** template.
+2. Select the **Custom Bot** template.
 3. In the dialog that appears:
   - **Name**: Enter a unique name.
   - **Description**: Enter a meaningful description.
   - **Bot Type**: Leave this set to “Consumer Facing Bot.”
-4. Click **Create Bot**. Since you selected the Basic Bot template, by default this creates a bot with a “Welcome” dialog that matches and responds to simple forms (patterns) of “hello”.
-5. Preview the bot:
+  - **Bot Language**: Select a language.
+4. Click **Create Bot**. Since you selected the Custom Bot template, by default this creates a bot with a “Welcome” dialog that matches and responds to simple forms (patterns) of “hello.” The bot also has a Fallback dialog with some fallback text.
+5. Click the Welcome and Fallback tabs in the lower-left corner to open and examine both dialogs.
+6. Preview the bot:
     1. Click the <img style="width:30px" src="img/icon_preview.png"> icon in the lower-right corner of the screen to open the Preview window.
     2. Enter “hello.” You will see the response, “Hi there! Thanks for coming!”
 
@@ -54,15 +56,19 @@ Create a bot using Conversation Builder.
 Want to try your hand at changing the bot?
 
 **Add a new pattern**
-1. Note the two, small icons to the left of the **Assist** window.
-2. Click the **Interaction Details** icon.
+1. If the Welcome dialog isn't already open, click the Welcome tab in the lower-left corner to open it.
+2. Select the first tile **(1)**, and then click the **Interaction Details** icon **(2)** beside it to open its Interaction Details window.
 
-    <img class="fancyimage" style="width:950px" src="img/cb_window.png">
+    <img style="width:600px" src="img/cb_window1.png">
 
 3. In the Interaction Details window, click **Settings**.
-4. In the Patterns section, click **Add New**.
-5. Enter "aloha," and press Enter. Click **Save**.
+4. In the Patterns section, click **Add New**.    
+5. Enter "aloha," and press Enter.
 
+     <img style="width:400px" src="img/cb_window2.png">
+
+6. Click **Save**.
+ 
 <br>
 **Preview the bot again**
 
