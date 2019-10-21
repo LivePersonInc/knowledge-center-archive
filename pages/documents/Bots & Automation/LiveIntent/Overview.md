@@ -74,6 +74,8 @@ The company is able to greatly reduce the volume of agent conversations related 
 
 ## Getting Started
 
+To enable LiveIntent on your account, please contact your LivePerson account representative. 
+
 ### Starter Pack Quick Start
 
 If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LiveIntent offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.
