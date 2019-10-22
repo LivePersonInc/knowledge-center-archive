@@ -136,26 +136,26 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- _release/October 2019/Week of Oct 21st 2019.md
-- _release/week of oct 14th 2019.md
-- _new/What's new October 2019.md
-- _new/September 2019 whats new.md
-- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- pages/documents/developer-tools-overview.md
+- pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
+- pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
+- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
+- pages/documents/Contact Center Management/Messaging Operations/load-balancing.md
 - _release/September 2019/Release-notes-sept-30th.md
-- _release/September 2019/week of Sept 23rd.md
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
-- pages/documents/Contact Center Management/Campaigns/outbound-campaigns.md
-- pages/documents/Contact Center Management/Messaging Operations/load-balancing.md
-- pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
-- pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
+- pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Agent and manager workspace/LiveEngage App/LiveEngage App.md
-- pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md
-- pages/documents/Data & Reporting/Analytics/Advanced messaging dashboard.md
-- pages/documents/Security & Regulations/Liveperson-support-policy.md
-- pages/documents/developer-tools-overview.md
-- pages/documents/Messaging Channels/SMS/sms-best-practices.md
-- pages/documents/Security & Regulations/Historic-data-masking.md
-- pages/documents/Troubleshooting/Har-files-web-requests.md
+- _release/week of oct 14th 2019.md
+- _new/September 2019 whats new.md
+- pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- _release/September 2019/week of Sept 23rd.md
+- _new/What's new October 2019.md
+- _release/October 2019/Week of Oct 21st 2019.md
 - pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
+- pages/documents/Troubleshooting/Har-files-web-requests.md
+- pages/documents/Security & Regulations/Historic-data-masking.md
+- pages/documents/Messaging Channels/SMS/sms-best-practices.md
+- pages/documents/Security & Regulations/Liveperson-support-policy.md
+- pages/documents/Data & Reporting/Messaging/messaging-conversation-segments.md

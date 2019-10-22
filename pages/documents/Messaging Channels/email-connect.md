@@ -3,19 +3,17 @@ pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Email Connect allows you to better manage emails alongside other messaging
-  channels using the powerful tools of LiveEngage
+subtitle: Get more out of email with LivePerson's Email Connect, a single platform
+  to manage email and all customer communications
 level3: ''
 permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
 
 ---
-Get more out of email with LivePerson's Email Connect, a single platform to manage email and all customer communications. 
+With Email Connect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
-With Email Connect, brands can now manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels. 
-
-With Email Connect, brands can now easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
+Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
 Email Connect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and smart capacity.
 
