@@ -111,13 +111,13 @@ After you view conversations in All Connections, you have the ability to take [s
 
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
-* **Takeover the conversation:** Once you've joined the conversation, you may remove the conversation from the current agent and become the primary owner of the conversation. 
-* **Resume conversation:** Restart a closed conversation as the primary agent.
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
-* Transfer the conversation
-* Send conversation back to queue
-* Close the conversation
+* **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
+* **Resume the conversation** 
+* **Transfer the conversation**
+* **Send conversation back to queue**
+* **Close the conversation**
 
 You can click on ‘to send messages go to my connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
