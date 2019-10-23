@@ -44,6 +44,10 @@ Under Facebook's page settings for messaging, brands can use the following featu
 {: .notice}
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
+{: .notice}
+**Note:** If you subscribe your page to LiveEngage before creating a button onthe Facebook page, it will not work even if you unsubscribe and try to subscribe again. So please first create a page with a buttonand then connect it to LiveEngage in order for it to work properly.
+
+
 To get started right away, see the [Facebook Messenger Quick Start](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) article.
 
 ## Set up how conversations start: entry points
