@@ -54,8 +54,6 @@ Group 2 = 40%
 
 **Step 4:** The conversation will maintain its group assignment until it is closed or transferred outside the group
 
-{: .notice}
-
 ## FAQs
 
 **Does the feature consider agent group or online state?**
