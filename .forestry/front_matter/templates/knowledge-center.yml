@@ -145,12 +145,13 @@ pages:
 - pages/documents/Contact Center Management/Messaging Operations/fallback configuration
   per skill.md
 - pages/documents/Bots & Automation/ai-powered-routing.md
-- pages/documents/Bots & Automation/conversational-ai.md
 - pages/documents/Agent and manager workspace/LiveEngage App/LiveEngage App.md
 - _release/week of oct 14th 2019.md
 - _new/September 2019 whats new.md
 - pages/documents/Messaging Channels/Rich messaging/agent-file-sharing-overview.md
+- _release/October 2019/week of October 28th.md
 - _release/September 2019/week of Sept 23rd.md
+- pages/documents/Bots & Automation/conversational-ai.md
 - _new/What's new October 2019.md
 - _release/October 2019/Week of Oct 21st 2019.md
 - pages/documents/Troubleshooting/Support/generate-har-files-analyze-web-requests.md
