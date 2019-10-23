@@ -2,7 +2,7 @@
 pagename: Week of October 28th
 categoryName: Getting started
 subCategoryName: Web messaging
-indicator: chat
+indicator: both
 subtitle: ''
 level3: ''
 permalink: release-notes-2019-october-week-of-october-28th.html
@@ -67,7 +67,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 <td>No</td>
 
-<td>No</td>
+<td>Yes</td>
 
 <td>No</td>
 
