@@ -172,6 +172,33 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 **Maven Concierge Bot**
 * Conversation Builder’s concierge bot template pre-built with intents and AskMaven integration
 
+### LiveIntent Features
+**Intent builder**
+* Self-service intent building using Conversation Builder NLU
+* Self-service intent building using third-party NLU service (i.e. DialogFlow, Watson)
+* Self-service intent building using starter packs for a supported verticals (for brands with no existing intent modeling) - *coming soon*
+
+**Real-time intent detection**
+* Intent identification for human agent conversations (messaging only) & bots* (*with intents defined in Intent Builder) 
+
+**Analytics dashboard**
+* LiveIntent dashboard integrated with Conversation Builder
+* Topline metrics & messages with intent
+* Intent volume & confidence
+* Intent time series
+* Intent list with details
+* Conversation quality by intent
+* Conversation viewer with drill down
+
+**Professional services**
+* LiveIntent professional services for intent modeling starter packs and advanced custom taxonomy
+
+**Raw data**
+* Message level LiveIntent classification data available via public API
+
+
+
+
 
 
 
