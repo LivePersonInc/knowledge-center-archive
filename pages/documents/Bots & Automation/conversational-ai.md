@@ -108,5 +108,99 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Function as a Service (FaaS) support
 * Authentication methods (e.g, OAuth 2.0, Basic Auth, mTLS, Tokens)
 
+**Content Management** 
+* Search based Knowledge Base 
+* Ability to use different NLU engines for training Knowledge Base
+* Both English and non-English languages are supported. For non-English languages, external NLU engines are recommended
+
+**NLU** 
+* CB native NLU - intent detection (text based)
+* CB native NLU - entity detection
+* CB native NLU - slot fill
+* External NLU engine support for IBM Watson 
+* External NLU engine support for Google Dialogflow and Watson
+
+**User Personas** 
+* Developer user persona
+* Non-technical user persona
+
+**Developer Experience** 
+* APIs for intent detection
+* APIs for Knowledge Base query lookup
+* APIs for bot analytics
+
+**Bot Analytics** 
+* Measure bot performance using different reports:
+  - Messages,  Conversations, Users, sessions
+  - Intent match, unmatch reports
+  - Custom event reports
+  
+**Language Support** 
+* LivePerson NLU supports: English & Spanish
+* IBW Watson supports: Arabic, Chinese, Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, and Swedish.
+* Google Dialogflow supports: Cantonese, Chinese, Danish, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, and Ukranian. See all languages.
+
+**Deployment options** 
+* LivePerson Private Cloud
+* AWS Public Cloud
+* Customer Private Cloud
+
+### Maven AI Features
+**Maven Workspace**
+* Self-service experience to configure Maven features 
+* Analytics for Maven features (e.g. availability, usage)
+
+**Maven Assist**
+* Recommended Actions - uses NLU to match intent and recommend a bot to join the conversation. 
+* Recommended Actions - uses NLU to match an intent to recommend knowledge base articles. 
+* Integration of bots from LivePerson’s Conversation Builder, DialogFlow, and Watson.
+
+**AI Powered Routing**
+* Create intent- and context-based (e.g., consumer profile data, wait time) routing policies. 
+* Apply actions - route/transfer to human agent, skill or bot.
+* JSON-based, low code authoring 
+
+**Context Warehouse**
+* API access to inbox system attributes (e.g., user, conversation & operational context).
+* Create custom attributes with static data (e.g. list of emails)
+* Create custom attributes with Functions as a Service variables (e.g, CRM integrations via FaaS)
+* Carry over custom context through conversational journey
+
+**AskMaven APIs**
+* REST API to Maven that exposes next action  to concierge bot/LOB app for routing decisions
+
+**Maven Concierge Bot**
+* Conversation Builder’s concierge bot template pre-built with intents and AskMaven integration
+
+### LiveIntent Features
+**Intent builder**
+* Self-service intent building using Conversation Builder NLU
+* Self-service intent building using third-party NLU service (i.e. DialogFlow, Watson)
+* Self-service intent building using starter packs for a supported verticals (for brands with no existing intent modeling) - *coming soon*
+
+**Real-time intent detection**
+* Intent identification for human agent conversations (messaging only) & bots* (*with intents defined in Intent Builder) 
+
+**Analytics dashboard**
+* LiveIntent dashboard integrated with Conversation Builder
+* Topline metrics & messages with intent
+* Intent volume & confidence
+* Intent time series
+* Intent list with details
+* Conversation quality by intent
+* Conversation viewer with drill down
+
+**Professional services**
+* LiveIntent professional services for intent modeling starter packs and advanced custom taxonomy
+
+**Raw data**
+* Message level LiveIntent classification data available via public API
+
+
+
+
+
+
+
 
 
