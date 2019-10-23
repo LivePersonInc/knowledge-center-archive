@@ -80,3 +80,33 @@ Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.l
 Conversation Builder allows brands to build bots including everything from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels and everyday systems like Salesforce.
 
 LivePerson built the Conversation Builder as a dialogue-based tool for creating automations and bots at scale. This allows brands to leverage non-technical staff to build, optimize, and improve bots and automated conversation flows - creating bots that are more effective and competent, and drastically speeding up bot development and optimization.
+
+## Conversational AI Feature List
+### Conversation Builder Features
+**Dialog Management** 
+
+* Dialog management - no code
+* Dialog management - code based
+* Automatic context switching
+* Slot filling
+* Disambiguation
+* Bot templates provide a way to quickly generate different dialogs
+
+**Coding** 
+
+* Custom bot implementations can use javascript code to write logic
+* Ability to inject code at every step of the interaction and also for processing user responses
+
+**Channels** 
+
+* Channels - ABC, RCS, WhatsApp, Facebook, SMS, Web. *bots support all channels supported by LivePerson*
+* IVR Support
+
+**API Integrations** 
+
+* API Integrations for connection to your REST APIs, CRM, Billing, Inventory or other business systems
+* Function as a Service (FaaS) support
+* Authentication methods (e.g, OAuth 2.0, Basic Auth, mTLS, Tokens)
+
+
+
