@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2019-october-week-of-october-28th.html
 isTutorial: false
 isNew: false
-date: 2019-10-28
+date: '2019-10-28'
 
 ---
 These release notes include new features arriving to LiveEngage during October 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -126,9 +126,6 @@ Relevant to the following channels:
 * **Send and receive images**
 
   Agents can view the images that consumers send through social channels, and respond to conversations with images as well.
-* **Self-service tools**
-
-  Self-service tools like intent builder, LiveIntent dashboard that brands can use to build and analyze intents where data can be used to inform automations in Conversation Builder, routing in Maven AI and business decisions in real-time.
 * **Implementation**
 
   Access to professional services (ETS) for implementation.
