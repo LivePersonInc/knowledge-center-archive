@@ -110,7 +110,8 @@ After you view conversations in All Connections, you have the ability to take [s
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
 
-{: .notice} **Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
+{: .notice} 
+**Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
 * **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
