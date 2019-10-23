@@ -21,8 +21,6 @@ This allocation method, especially useful for large enterprises that utilize 'ag
 
 For example, if you have external vendors with prior contractual obligations, you can set the workload to be allocated to each vendor with a predefined percentage. Agent Group A, representing an external vendor, can be set to receive 40% of the workload and Agent group B & C, representing two other vendors, can be set to receive 30% each.
 
-![](/img/load-balancing.png)
-
 ### To enable advanced workload distribution:
 
 {: .notice}
@@ -38,9 +36,9 @@ Advanced workload distribution needs to be activated through your LivePerson Acc
    Note: ensure the total % allocated to all groups adds up to 100%.
 6. Click **Save**.
 
-![](/img/loadbalancing2.png)
+!\[\](img/loadbalacing2.png)
 
-![](/img/loadbalancing3.png)
+!\[\](img/loadbalacing3.png)
 
 ## How it works
 
@@ -66,9 +64,9 @@ The agent online state doesn’t go into the consideration before the load balan
 
 **What happens if a conversation is sent back to the queue?**
 
-The conversation would maintain its group assignment. 
+The conversation would maintain its group assignment.
 
-**What happens if a conversation is transferred to a skill after the load balancing already took place?** 
+**What happens if a conversation is transferred to a skill after the load balancing already took place?**
 
 After a group assignment takes place, transfers maintain the group assignment when transferred to skills that didn’t receive any specific load balancing configuration. If the conversation is transferred to a skill that has a load balancing configuration in which the existing allocated group is not present, a new load balancing process will assign it with a new group allocation.
 
@@ -81,7 +79,7 @@ When transferring to a skill that has a load balancing definition that doesn’t
 Using the Report Builder the brand is able to view the overall opened conversations of a brand by agent group and by skill per agent group. This will enable the creation of the following:
 
 * View a breakdown of the messaging volume per agent group.
-* View the percentage of the messages that were assigned to a group of agents and their overall volume out of the total volume 
+* View the percentage of the messages that were assigned to a group of agents and their overall volume out of the total volume
 
 \* A conversation will be attributed to an agent group when an agent accepts the conversation.
 
