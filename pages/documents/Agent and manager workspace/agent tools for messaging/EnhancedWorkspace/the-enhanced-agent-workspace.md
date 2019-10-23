@@ -1,14 +1,12 @@
 ---
 pagename: Introducing the enhanced agent workspace
 categoryName: Agent & manager workspace
-subCategoryName: New Agent Workspace
+subCategoryName: ''
 indicator: messaging
-
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html
 
 ---
-
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging.
 
 ![alt text](/img/new-agent-workspace-5.png){:class="newagent"}
@@ -25,7 +23,7 @@ The new dynamic conversation list with built-in automation sorts conversations b
 
 ### Reduced noise and increased agent focus
 
-With asynchronous messaging, the conversation list for agents can sometimes become long while agents are awaiting consumer replies. By filtering out the ‘idle’ conversations, or those that do not require immediate attention, agents can easily tackle a shorter, more focused conversation list.  
+With asynchronous messaging, the conversation list for agents can sometimes become long while agents are awaiting consumer replies. By filtering out the ‘idle’ conversations, or those that do not require immediate attention, agents can easily tackle a shorter, more focused conversation list.
 
 ### Faster shift wrap up with a quick view of closed conversations
 
@@ -38,3 +36,7 @@ Agents can now scroll up to view the entire conversation history directly within
 ### Quickly catch up on previous contact with the same consumer
 
 Multiple notes by multiple agents can now be added to the conversation summary widget. This allows the assigned agent to view a log of comments and quickly get up to speed.
+
+### Enhanced customization of agent workspace (coming soon)
+
+Starting this November, each agent will be able to select whether they want to work on a dark or light UI for their workspace.
