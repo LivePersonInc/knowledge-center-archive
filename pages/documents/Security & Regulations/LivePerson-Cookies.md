@@ -5,7 +5,7 @@ pagename: LivePerson Cookies
 subtitle: LivePerson uses information stored in cookies to maintain session data and
   to identify returning visitors
 permalink: security-regulations-liveperson-cookies.html
-date: 2019-03-12 11:24:55 +0000
+date: '2019-03-12T11:24:55.000+00:00'
 subCategoryName: ''
 level3: ''
 isTutorial: false
@@ -209,3 +209,5 @@ LPit Used by LivePerson to allow the system to optimize its service. It is set w
 Disabling or blocking this cookie does not prevent chat from working.
 
 **Cookie type:** Session
+
+For more detailed information on Cookies, please visit the [Developers Community](https://developers.liveperson.com/cookies-and-liveengage-overview.html)
