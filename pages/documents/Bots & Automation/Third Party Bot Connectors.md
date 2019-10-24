@@ -20,7 +20,7 @@ LivePerson allows for external Bot Vendors and Bot builders to be enabled and ma
 
 Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or leverage LivePerson Functions with the Custom Integrations Option.
 
-Each connector provides the functionality to:
+Each connector provides the functionality to
 
 * send/receive text messages
 * send [structured content](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)
@@ -28,7 +28,7 @@ Each connector provides the functionality to:
 * change Time To Response for a messaging conversation
 * close a conversation
 
-Some connectors may provide more or less functionality depending on the specifics of the product to which it is connecting. You have the option to send the bot consumer information that the bot will be able to leverage as part of its logic during the conversation. If you need to connect an external bot that does not have a pre-built connector, see [this article](https://developers.liveperson.com/third-party-bots-custom-integration.html) for instructions.
+Some connectors may provide more or less functionality depending on the specifics of the product to which it is connecting. You have the option to send the bot consumer information that the bot will be able to leverage as part of its logic during the conversation. If you need to connect an external bot that does not have a pre-built connector, see [this document](https://developers.liveperson.com/third-party-bots-custom-integration.html) for instructions.
 
 Each bot has a [dashboard](https://developers.liveperson.com/third-party-bots-bot-status-dashboard.html) so you can monitor its activity in real-time along with some key operational metrics (see below).
 
@@ -59,19 +59,19 @@ To connect to a third party bot with the custom integration, you will need to wr
 
 Whenever a message is sent from the consumer into LE, the custom connector takes that message and triggers the function you develop to link to your Bot provider and sends the message.
 
-### Steps for custom integration
+### **Steps for custom integration**
 
-##### Step 1 - Create a function
+#### Step 1 - Create a function
 
 From the Bot onboarding wizard, chose to create a new Function. This will take you to the LivePerson Functions interface.
 
 ##### ![](https://lh4.googleusercontent.com/RitnMg8sR_MZOqRZT7J1FWCmByW4gWUa-9bvBdtv51ae8ZE8eMLIDTrx-mFDnswBif2DZtI3kZoyzRtNdabtfYzVEmQKTYelMJc1oz8sGsr6_2AwjygBOH7ffPseH1pmonYYwaRu =471x312)
 
-##### Step 2 - Edit the Function
+#### Step 2 - Edit the Function
 
 Adjust the default Function code from the function template, according to your needs. Here you will need to code into the function the connecting parameters to your Bot vendor (Vendor URL, credentials/secrets). Please see this document for more information on [developing functions](https://developers.liveperson.com/liveperson-functions-development-overview.html).
 
-##### Step 3 - Deploy the function
+#### Step 3 - Deploy the function
 
 After completing the code, deploy the function to our functions cloud and have the integration ready to work with your bot in a matter of seconds.
 
