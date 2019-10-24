@@ -62,6 +62,7 @@
   subcategories:
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
+   - subcategoryname: Third Party Bot Connectors
    - subcategoryname: Maven
      pages:
        - pagename: Overview
