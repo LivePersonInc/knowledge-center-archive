@@ -48,7 +48,7 @@ There are four steps to onboarding a bot.
 
 For more information and detailed steps of how to onboard - please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
-![](img/add_new_bot.png)
+![](img/bot_status_select.png)
 
 ## Custom integration
 
@@ -84,7 +84,6 @@ To track the efficiency of the bot, the dashboard features an overview for the n
 
 The dashboard can be accessed by clicking on the bot's name.
 
-![](img/bot_status_online_state.png)
 ![](img/bot_status_metrics.png)
 
 ## Limitations
