@@ -51,7 +51,7 @@ Email Connect is quickly developing to expand our capability and increase the be
 * **File attachments settings —** Admins will be able to turn on or off the ability to support attachments from email setup.
 * **Multiple email addresses —** Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
-## Email Connect set up
+## Email Connect Setup
 
 To start using Email Connect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
 
@@ -59,6 +59,9 @@ To start using Email Connect, please sign up [here](https://docs.google.com/form
 
 {: .notice}  
 **Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
+
+{: .important}  
+To setup Email Connect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
 ### Step 1: Connect your email in LiveEngage
 
