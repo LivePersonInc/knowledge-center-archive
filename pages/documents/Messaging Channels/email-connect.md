@@ -60,6 +60,9 @@ To start using Email Connect, please sign up [here](https://docs.google.com/form
 {: .notice}  
 **Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
 
+{: .important}  
+To setup Email Connect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
+
 ### Step 1: Connect your email in LiveEngage
 
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
