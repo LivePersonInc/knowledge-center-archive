@@ -8,7 +8,8 @@ level3: ''
 permalink: release-notes-2019-october-week-of-october-28th.html
 isTutorial: false
 isNew: false
-date: 2019-10-23
+date: '2019-10-23'
+
 ---
 These release notes include new features arriving to LiveEngage during October 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -17,7 +18,7 @@ These release notes include new features arriving to LiveEngage during October 2
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Social Connect
+## SocialConnect
 
 ### Type: New functionality
 
@@ -102,7 +103,7 @@ Relevant to the following channels:
 * Twitter Public
 * Twitter Direct Messages
 
-### Key features of Social Connect
+### Key features of SocialConnect
 
 * **Unified platform**
 
@@ -129,8 +130,8 @@ Relevant to the following channels:
 
   Access to professional services (ETS) for implementation.
 
-### Benefits of Social Connect
+### Benefits of SocialConnect
 
-With SocialConnect, brands can gain operations efficiencies by consolidating their digital customer care into a single tool, LiveEngage. SocialConnect expands LiveEngage to the most popular social media channels, enabling brands to respond to customers on messaging and social channels. It also reduces operational overhead by simplifying training, and shift management. Finally, Social Connect applies the power of LiveEngage reporting, analytics, automations and artificial intelligence to brand’s social care.
+With SocialConnect, brands can gain operations efficiencies by consolidating their digital customer care into a single tool, LiveEngage. SocialConnect expands LiveEngage to the most popular social media channels, enabling brands to respond to customers on messaging and social channels. It also reduces operational overhead by simplifying training, and shift management. Finally, SocialConnect applies the power of LiveEngage reporting, analytics, automations and artificial intelligence to brand’s social care.
 
 ![](/img/Social_Connect_Twitter.png)
