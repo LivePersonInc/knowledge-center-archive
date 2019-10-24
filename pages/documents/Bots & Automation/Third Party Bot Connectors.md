@@ -64,7 +64,7 @@ Whenever a message is sent from the consumer into LE, the custom connector takes
 
 From the Bot onboarding wizard, chose to create a new Function. This will take you to the LivePerson Functions interface.
 
-##### ![](https://lh4.googleusercontent.com/RitnMg8sR_MZOqRZT7J1FWCmByW4gWUa-9bvBdtv51ae8ZE8eMLIDTrx-mFDnswBif2DZtI3kZoyzRtNdabtfYzVEmQKTYelMJc1oz8sGsr6_2AwjygBOH7ffPseH1pmonYYwaRu =471x312)
+![](img/chat_settings.png)
 
 #### Step 2 - Edit the Function
 
@@ -84,9 +84,8 @@ To track the efficiency of the bot, the dashboard features an overview for the n
 
 The dashboard can be accessed by clicking on the bot's name.
 
-![](https://lh3.googleusercontent.com/4pol3_YYTS_ord7A-9OLkFx1pZISiWEQavS5RRPDMOrbsji81oAHFtmuU-xuCDWBEz479puzPAJzdRRV-EkpoYtolnNVIVmY1ayA0FxUxwl3JvLO1B41bCnTwbgQfkNUba7oPozH =624x283)
-
-![](https://lh6.googleusercontent.com/1J13L5IpziKsMRAxEa01GEKjvluckREMjSUu1jCmnCnUY05b_NLJ3Yk4fnbssWMvbNPFczW12LbRFb0oBbL9OySgMc36zr7m_MD895HKJ9wKIE3KN1fCrK2pHhqFmcD_pxNPjScO =624x256)
+![](img/bot_status_online_state.png)
+![](img/bot_status_metrics.png)
 
 ## Limitations
 
