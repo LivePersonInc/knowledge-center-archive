@@ -48,7 +48,7 @@ There are four steps to onboarding a bot.
 
 For more information and detailed steps of how to onboard - please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
-![](https://lh3.googleusercontent.com/welRyk441eAO8Vxgc3i0AUClPnBZL1wLu6fFtuIU208ZJNmzDwwPxHHct9lmVKqxSl9PzIgQnFRlOOIbHqyW32JAxdjOdWSQrYXpdczF2DjPjciTLxxsXnSJWflRhvsOIMpGkHNx =624x280)
+![](img/add_new_bot.png)
 
 ## Custom integration
 
