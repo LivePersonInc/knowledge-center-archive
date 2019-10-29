@@ -39,4 +39,4 @@ Multiple notes by multiple agents can now be added to the conversation summary w
 
 ### Enhanced customization of agent workspace (coming soon)
 
-Starting this November, each agent will be able to select whether they want to work on a dark or light UI for their workspace.
+Starting this November, each agent will be able to select whether they want to work on a dark or light UI for their workspace. It's purely up to the user to decide which mode they prefer. 
