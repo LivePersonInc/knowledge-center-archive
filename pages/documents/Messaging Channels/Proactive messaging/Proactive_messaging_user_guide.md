@@ -15,7 +15,7 @@ LivePersons proactive messaging tool allows brands to engage in 2-way conversati
 {: .notice}  
 Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
 
-## Login and Access Control
+## Login and access
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
 
 ![](img/Proactive_userguide1.png)
