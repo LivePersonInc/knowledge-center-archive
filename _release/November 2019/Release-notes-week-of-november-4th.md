@@ -295,6 +295,57 @@ After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom
 
 ![](img/RB4_8.png)
 
+## [LINE] Add support for agent to share photos with consumer
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+This feature enables agents to share photos with consumers. The image files will be shared from the local file dialog.
+
+The following file types are supported:
+* JPG
+* GIF
+* JPEG
+* PNG
+
+All files types have a file size limitation of 5MB. Agents will get an error if the file is not within this supported list. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in the [photo sharing overview](messaging-channels-rich-messaging-agent-file-sharing-overview.html).
+
 ## [Unauthenticated Engagement Attributes] Change default to True
 
 ### Type: Enhancement 
