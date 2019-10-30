@@ -13,7 +13,7 @@ isNew: false
 LivePersons proactive messaging tool allows brands to engage in 2-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a tango of both. This enables brands to increase their ability to connect with a targeted consumer base; higher probability of achieving goals; richer personalized consumer experience, while utilizing LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 {: .notice}  
-This is an early adopter program. If you would like to be part of the early adopters program, please fill in this form.
+This is an early adopter program. If you would like to be part of the early adopters program, please complete [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
 
 ## Login and Access Control
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
