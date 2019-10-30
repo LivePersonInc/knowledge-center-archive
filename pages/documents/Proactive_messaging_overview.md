@@ -8,7 +8,6 @@ level3: ''
 permalink: messaging-channels-proactive-messaging-proactive-messaging-overview.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 {: .notice}  
@@ -53,4 +52,4 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 
 Please see the Proactive Messaging [user guide](https://docs.google.com/document/d/1VyVniK_M5fEPyDHPasZnWi5V78JuCz3Bv8JiMqr2esE/edit) for more information.
 
-**![](https://lh4.googleusercontent.com/pT3ZZdzwlXV46vZKVb53jHIjGJQm-EM0xVRUa8LP37g1S9LePRUPvMJQ9zOr1khDzuPo0Ef0rNjli2j8whfJogSPYwq5fz4pldatZCdSJKZiWqWS80o8syHd1FJsixE0Pd8steSv =485x248)**
+!\[\](img/Proactive_launch_pad.png)
