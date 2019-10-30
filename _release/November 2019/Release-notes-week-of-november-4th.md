@@ -295,7 +295,7 @@ After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom
 
 ![](img/RB4_8.png)
 
-## [LINE] Add support for agent to share photos with consumer
+## [LINE] Agent to consumer photo sharing support 
 
 ### Type: New functionality 
 
@@ -336,7 +336,7 @@ After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom
 </table>
 </div>
 
-This feature enables agents to share photos with consumers. The image files will be shared from the local file dialog.
+This feature enables agents to share photos with consumers in LINE conversations. The image files will be shared from the local file dialog.
 
 The following file types are supported:
 * JPG
