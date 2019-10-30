@@ -8,7 +8,6 @@ level3: ''
 permalink: release-notes-2019-november-week-of-november-4th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during November 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -116,15 +115,15 @@ With LivePerson’s Proactive Messaging, brands can now send consumers outbound 
 
 ### Getting started
 
-* To get started, you need a LiveEngage account. 
-* If you are already a LiveEngage user, you will need to follow our onboarding process. 
-* The onboarding process consists of getting started with SMS [(see link)](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html) or WhatsApp ([see link](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)). 
+* To get started, you need a LiveEngage account.
+* If you are already a LiveEngage user, you will need to follow our onboarding process.
+* The onboarding process consists of getting started with SMS [(see link)](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html) or WhatsApp ([see link](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)).
 * Contact your LivePerson account team by accessing [this form](https://forms.gle/wDBkzsCtT4CCQMFR9) to get your account configured.
 * Once onboarded, navigate to Proactive Messaging app from the Quick Launch within LiveEngage.
 * This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
 
 ### Screenshots
 
-![](https://lh4.googleusercontent.com/LWlmziizZrtz2AUgFwbVR4xUK1hJEu_RgPnk54pGq_mkr5jbN0JfAzHHWAfg9cjBMfWHXsSl70-lK0XS0a-tD9kgMErEXzaFkw7phcWTuBZqnzIVEkVRTMqu8vBGeQSwZj3IivmC =624x416)
+!\[\](img/Proactive_Messaging.png)
 
 For more information, please see the user guide.
