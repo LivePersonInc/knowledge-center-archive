@@ -130,7 +130,7 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 * Once onboarded, navigate to Proactive Messaging app from the Quick Launch within LiveEngage.
 * This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
 
-### Screenshots
+**Screenshots**
 
 ![](img/Proactive_Messaging.png)
 
@@ -222,24 +222,24 @@ With the new infrastructure upgrade, there are some changes in terminology which
 
 ### Enhancements include: 
 
-### Accessing the Report Builder 
+#### Accessing the Report Builder 
 
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
 ![](img/RB4_1.png)
 
-### New look and feel with a modern and bright color scheme
+#### New look and feel with a modern and bright color scheme
 
 All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme ( see screenshot below).  
 ![](img/RB4_2.png)
 
-### Navigation
+#### Navigation
 
 Dossier navigation has been moved from the bottom of the dashboard to the top as well as having headings for each panel inside the sheet for effective navigation.
 
 ![](img/RB4_3.png)
 
-### KPI widget
+#### KPI widget
 
 New KPI Widget which will provide a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
@@ -250,11 +250,11 @@ New KPI Widget which will provide a quick visual snapshot of the current value o
 3. Trend Graph- shows the trend for the filtered date range.
 4. Tooltips when hovering over the trend graph to see the date and value
 
-### View only users experience
+#### View only users experience
 
 Clear presentation for users with ‘view only’ permission, the filter panel has moved from left to the right to allow the data to be in the main focus area.
 
-### Additional data visualizations
+#### Additional data visualizations
 
 New visualization types for creating custom dossiers (histogram, waterfall chart, box plot)
 
@@ -262,7 +262,7 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 
 ### New functionality includes:
 
-### Exporting to PDF
+#### Exporting to PDF
 
 Export dossiers to a formatted PDF file, including visualizations and advanced formatting options:
 
@@ -271,7 +271,7 @@ Export dossiers to a formatted PDF file, including visualizations and advanced f
 
 ![](img/RB4_6.png)
 
-### Personalized view
+#### Personalized view
 
 Users can now save their own custom personal view of the dashboard. A personal view is a lightweight copy of a dashboard, and includes every change that was made to the dashboard including filtering the report period time frame and offset selector. It can be used to save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dashboard.
 
