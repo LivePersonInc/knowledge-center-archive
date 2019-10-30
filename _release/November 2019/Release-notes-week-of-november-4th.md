@@ -8,7 +8,6 @@ level3: ''
 permalink: release-notes-2019-november-week-of-november-4th.html
 isTutorial: false
 isNew: false
-published: false
 
 ---
 These release notes include new features arriving to LiveEngage during November 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
@@ -284,4 +283,4 @@ If there is a need to update existing user copies of the dashboard to the new co
 
 After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
-!\[\](img/RB4_8.png).png
+!\[\](img/RB4_8.png)
