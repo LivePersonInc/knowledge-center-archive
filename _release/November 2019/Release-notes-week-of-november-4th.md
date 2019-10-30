@@ -112,9 +112,13 @@ Don’t make your consumers call and wait on hold to get support or information.
 
 LiveEngage is the industry’s leading conversation management platform. It offers a single place to manage inbound and outbound messages from every channel, and layers in powerful chatbots for better consumer experiences and lower operational costs. LiveEngage connects to back-end systems like CRMs, so that brands can easily manage marketing, sales, and customer care KPIs for proactive campaigns while getting a complete view of the entire consumer journey.
 
-#### Understand context for better customer experience
+### Proactive messaging capabilities
+
+* Create targeted outbound campaigns and route consumer responses into the LivePerson agent workspace, where conversations can be handled by humans, automation (using our built-in Conversation Builder) or a tango of both.
 * When a brand’s agent or a bot receives a response from a consumer for a proactive message, they also receive the context of what the consumer is responding to.
-* Direct consumers to the most appropriate agent pool or automations that can help the consumer in the most efficient manner possible.
+* Ability to personalize an outbound message per recipient
+* Ability to create WhatsApp message templates that can be used for Proactive outbound campaign and submit to Facebook for approval in a self-service manner
+* Data and reporting on conversations and operational statistics are available as part of LivePerson’s advanced reporting platform.
 * Measure the consumer’s satisfaction with the proactive conversations which will provide them a direct signal about the effectiveness of the brand’s proactive strategy.
 
 ### Getting started
