@@ -330,6 +330,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2019
       pages:
+        - pagename: November
+          level3:
+            - level3name: Week of November 4th
         - pagename: October
           level3:
             - level3name: Week of October 28th
@@ -363,13 +366,7 @@
             - level3name: Week of May 20th
             - level3name: Week of May 13th
             - level3name: Week of May 6th
-        - pagename: April
-          level3:
-            - level3name: Week of April 29th
-            - level3name: Week of April 22nd
-            - level3name: Week of April 15th
-            - level3name: Week of April 8th
-            - level3name: Week of April 1st
+
 
 - categoryname: Troubleshooting
   image: Troubleshooting
