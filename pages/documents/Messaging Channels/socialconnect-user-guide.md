@@ -47,7 +47,6 @@ The transcript view will be modified to show a “public” or “private” sig
   * Facebook - Facebook Messenger conversations sent to the brand’s account
   * Twitter - Twitter Direct Messages sent to the brand's account
   
-{: .sidebyside}
 ![](img/socialconnect-user-guide-3.png)![](img/socialconnect-user-guide-4.png)
 
 ![](img/socialconnect-user-guide-5.png)
