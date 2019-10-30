@@ -287,4 +287,4 @@ If there is a need to update existing user copies of the dashboard to the new co
 
 After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
-!\[\](img/RB4_8.png)
+![](img/RB4_8.png)
