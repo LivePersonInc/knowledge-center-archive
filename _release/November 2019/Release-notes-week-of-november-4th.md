@@ -378,14 +378,6 @@ In the agent textbox agents now have the option to navigate up and down within t
 
 ![](img/week-of-november-4th-1.png) 
 
-## [Agent widget SDK] ‘Claims’ key is not populated with data
-
-### Type: Bug fix 
-
-The Agent Widget SDK holds the following key: claimsAndAuthType
-
-The claims key should be populated with data on the consumer side, but in several use cases the key was not populated and remained empty in the enhanced agent workspace. This bug is now fixed and the key is populated with the correct data.
-
 ## [Enhanced agent workspace] Display CSAT in the consumer info widget 
 
 ### Type: Bug fix 
@@ -409,6 +401,14 @@ Image 1: No scroll option in structured content preview window
 Image 2: After fix 
 
 ![](img/week-of-november-4th-4.png) 
+
+## [Agent widget SDK] ‘Claims’ key is not populated with data
+
+### Type: Bug fix 
+
+The Agent Widget SDK holds the following key: claimsAndAuthType
+
+The claims key should be populated with data on the consumer side, but in several use cases the key was not populated and remained empty in the enhanced agent workspace. This bug is now fixed and the key is populated with the correct data.
 
 ## [Post Conversation Survey] Color and button display improvements 
 
