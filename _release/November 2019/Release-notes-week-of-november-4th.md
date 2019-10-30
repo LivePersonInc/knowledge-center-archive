@@ -344,7 +344,7 @@ The following file types are supported:
 * JPEG
 * PNG
 
-All files types have a file size limitation of 5MB. Agents will get an error if the file is not within this supported list. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described in the [photo sharing overview](messaging-channels-rich-messaging-agent-file-sharing-overview.html).
+All files types have a file size limitation of 5MB. Agents will get an error if the file is not within this supported list. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described [here](messaging-channels-rich-messaging-agent-file-sharing-overview.html).
 
 ## [Unauthenticated Engagement Attributes] Change default to True
 
