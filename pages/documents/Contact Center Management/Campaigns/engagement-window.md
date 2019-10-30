@@ -75,7 +75,7 @@ You can fully customize the chat window to suit your brand by changing the color
 
 A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
 
-The new Horizon theme features: 
+The new Horizon theme features:
 * Large window
 * New image at the header
 * Chevron minimize icon
@@ -88,7 +88,7 @@ The new Horizon theme features:
 * Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
 
 {: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+<img src="/img/week-of-august-5th-3.png" title="Horizon theme"><img src="/img/week-of-august-5th-4.png" title="Ocean theme">
 
 To learn more about configuring these new features, [click here](release-notes-2019-august-week-of-august-5th.html).
 
@@ -153,7 +153,7 @@ Brands have the ability to set the embedded window as floating. Once this config
 * Click on “Save”
 
 **Limitations**
-* This setting will impact only the desktop embedded window. 
+* This setting will impact only the desktop embedded window.
 
 Configure floating engagement window in engagement window studio:
 
@@ -187,7 +187,7 @@ Consumer view: adding emojis from desktop web messaging or chat window
 
 ### Consumer actions menu location
 
-Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows. 
+Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows.
 
 There are 2 options to set the location of the menu:
 * At the bottom left side of the window (current location and default for Ocean and Horizon themes)
@@ -195,7 +195,7 @@ There are 2 options to set the location of the menu:
 
 If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
 
-**Enablement** 
+**Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Add elements” icon
@@ -223,7 +223,7 @@ Consumer side top menu:
 {: .sidebyside}
 ![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
 
-Consumer side bottom menu: 
+Consumer side bottom menu:
 
 {: .sidebyside}
 ![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
@@ -232,7 +232,7 @@ Consumer side bottom menu:
 
 When the menu is configured to be at the top for web messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
 
-**Enablement** 
+**Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Text area”
@@ -327,17 +327,16 @@ Visitors will now see the configured default picture beside each line sent by th
 
 Brands have the ability to set the radius of the top and bottom corners of the engagement window. The additional setting “Engagement window bottom corners” has been added to the “Additional window setting” section of the engagement window studio. The radius must be set in numbers, with or without px. Format example: 0px 0px 5px 5px. The limit will be 20px. An invalid format notification message will be displayed if the number is entered beyond the limit number.
 
-By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop. 
+By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop.
 
 **Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Open additional window settings”
 * Click on “Look and feel” section to expand
-* Enter values for “Engagement window top corners” or “Engagement window bottom corners 
+* Enter values for “Engagement window top corners” or “Engagement window bottom corners
 * Click on “Save”
 
 ![](img/week-of-september-30th-4.png)
 
 ![](img/week-of-september-30th-5.png)
-
