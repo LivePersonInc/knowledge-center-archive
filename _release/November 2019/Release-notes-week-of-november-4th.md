@@ -378,7 +378,7 @@ The Agent Widget SDK holds the following key: claimsAndAuthType
 
 The claims key should be populated with data on the consumer side, but in several use cases the key was not populated and remained empty in the enhanced agent workspace. This bug is now fixed and the key is populated with the correct data.
 
-[Enhanced agent workspace] Display CSAT in the consumer info widget 
+## [Enhanced agent workspace] Display CSAT in the consumer info widget 
 
 ### Type: Bug fix 
 
