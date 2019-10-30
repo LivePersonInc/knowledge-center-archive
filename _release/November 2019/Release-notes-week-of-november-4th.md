@@ -283,6 +283,8 @@ For example, you can create a view on the Agent Activity Dashboard for the last 
 {: .notice}  
 These changes will only impact the predefined dashboards. User copies of previous predefined dashboards will not be impacted automatically.
 
+### How to update the exisiting custom dashboard to the new look & feel
+
 If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Report Builder:
 
 After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
