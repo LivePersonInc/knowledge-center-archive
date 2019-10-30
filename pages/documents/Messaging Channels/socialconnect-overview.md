@@ -10,11 +10,10 @@ isTutorial: false
 isNew: false
 ---
 
-SocialConnect extends LivePerson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social media.
-
 ![](img/socialconnect.gif)
 
-SocialConnect enables brands to interact with consumers over Twitter and Facebook through LiveEngage. For each new channel, conversations can take place both in public (Twitter Tweet that mention the brand and Facebook Page posts and comments), in private (Twitter DMs and Facebook Messenger), or a mix of public and private message in the same conversation.  
+In the emerging world of social media, it’s becoming increasingly costly and difficult for brands to manage their customer engagement at scale. SocialConnect extends LivePerson’s conversational commerce platform into the world of social media making it easier for brands to interact with consumers over Twitter and Facebook through a single platform, LiveEngage.  
+For each new channel, conversations can take place both in public (Twitter Tweet that mention the brand and Facebook Page posts and comments), in private (Twitter DMs and Facebook Messenger), or a mix of public and private message in the same conversation.  
 
 This new functionality is built on top of the LiveEngage platform so all existing messaging functionality will work out of the box.  In addition to enabling new communication channels, SocialConnect will add:
 * A new agent widget (Social Widget) to provide additional context and functionality

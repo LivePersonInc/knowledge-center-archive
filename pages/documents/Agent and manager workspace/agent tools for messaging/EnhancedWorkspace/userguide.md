@@ -77,6 +77,10 @@ You can filter conversations in the list by status:
 {: .notice} 
 **Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist. 
 
+### Light theme
+
+Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu. 
+
 ### Your personal data bar
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the agent workspace represents the real-time tracking of your current workload and shift.

@@ -10,8 +10,6 @@ isTutorial: false
 isNew: false
 
 ---
-![](https://lh4.googleusercontent.com/2aqWZqjNFY3jqcnYNna1JtTLn-ZHSSpleyLmUvYd_ZqZt9yDygAlc0VKiM5ypdDCIRhml7kxkrpShklcTXmM_QJXvFgtfiKZAMy7T_-87TKBQ5ylUxmbzbf_g2PRfwNtA1AjwXYB =148x24)
-
 LivePersons proactive messaging tool allows brands to engage in 2-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a tango of both. This enables brands to increase their ability to connect with a targeted consumer base; higher probability of achieving goals; richer personalized consumer experience, while utilizing LiveEngage capabilities.
 
 {: .notice}  
@@ -21,7 +19,6 @@ This is an early adopter program. If you would like to be part of the early adop
 SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 ## Login and Access Control
-
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
 
 ![](img/Proactive_userguide1.png)
@@ -75,12 +72,12 @@ To create a new proactive campaign, users can click on New Campaign on the landi
 Users can search for the skill in the dropdown. If the skill does not appear, please contact your LivePerson account team to have it added. In the future, all skills will be displayed.
 
 * **Message content - SMS**
-
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
+
 * **Messaging content - WhatsApp**
-  * The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
-  * WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
-  * Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please see section on “Creating WhatsApp message template” below for more information.
+* The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
+* WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
+* Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please see section on “Creating WhatsApp message template” below for more information.
 
 ### Step 2 - Define Recipients
 
@@ -104,35 +101,28 @@ Users can define recipients by two different methods, uploading the list of reci
 When uploading a .csv file with a list of recipient, if there are any errors, changes will need to be made in the .csv file and re-uploaded. It is not possible to make a manual change inside the tool.
 
 ### **Examples**:
-
-SMS example
-
-* Typing in 2 recipients would be:
-
+#### SMS
+Typing in 2 recipients would be:
 12223334444
-
 12223334445
 
-* Uploading a .csv file with two recipients would look like this:
-
+Uploading a .csv file with two recipients would look like this:
 ![](img/Proactive_userguide4.png)
 
-* WhatsApp example “Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
-  * Typing in 2 recipients would be:
-
+#### WhatsApp example 
+“Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
+Typing in 2 recipients would be:
 12223334444, Nancy, 9999
-
 12223334445, Bob, 8888
 
-* Uploading a .csv file with two recipients would look like this:
-
+Uploading a .csv file with two recipients would look like this:
 ![](img/Proactive_userguide5.png)
-!\[\](img/Proactive_userguide6.png)
+![](img/Proactive_userguide6.png)
 
 ### Step 3 - Schedule Campaign
 
-* Once the campaign has been created, it can be sent.
-* In the future, users will have the capability to:
+Once the campaign has been created, it can be sent out.
+In the future, users will have the capability to:
   * Schedule a proactive campaign at a future date
   * Specify the send rate i.e. 1 message per second
   * Guardrails will be available to specify the time and days of the week messages can be sent in. Messages will not be sent outside of the specified hours/times. This is to ensure brands can follow compliance for when they can reach out to the consumers.
@@ -140,7 +130,6 @@ SMS example
 ### Step 4 - Preview & Launch
 
 ![](img/Proactive_userguide7.png)
-
 * The final step is to review the details of the campaign before publishing, including the skill routing, the opt out text, the message content and the recipients.
 * Users must check the box which states that they are responsible for collecting opt-in consent from consumers before reaching out to them and legally abide by the TCPA and GDPR compliance laws.
 
@@ -148,19 +137,21 @@ SMS example
 
 Whether users select SMS or WhatsApp, they can customize the message content per recipient.
 
-* Via .csv upload: For SMS
-
+### Via .csv upload: 
+**For SMS  
 ![](img/Proactive_userguide8.png)
+
 * For WhatsApp message template with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
 
 ![](img/Proactive_userguide9.png)
 
-* Via typing in directly: SMS
+### Via typing in directly: 
+**For SMS:
 
 12223334444, Hi Jane your subscription is about the expire …
 12223334445, Hi Bob, your subscription is about to expire ...
 
-* For WhatsApp message template with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
+**For WhatsApp message template with two variables:
 
 12223334444, Jane, 9999…
 12223334445, Bob, 8888
@@ -170,15 +161,14 @@ Whether users select SMS or WhatsApp, they can customize the message content per
 * Skills need to be set up first in the LiveEngage Platform in order for them to be available in the Proactive Messaging tool. For more information on skills please click [here](https://knowledge.liveperson.com/admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html).
 * Once a new skill has been created, please reach out to your CSM and have them add this skill to the API.
 * Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool.
+* The context of the initial outbound message will be visible to the agent in an agent widget when the consumer responds.
 
 {: .notice}  
 In the future, Proactive Messaging will be automatically populated with pre existing skills from within LiveEngage.
 
-* The context of the initial outbound message will be visible to the agent in an agent widget when the consumer responds.
-
 ## Reporting
 
-* There is an analytics section built into the tool. Users can access this by clicking on the "analytics" tab on the top right of the screen. These metrics are aggregated for the entire brand/siteID. See Analytics section above <link>.
+There is an analytics section built into the tool. Users can access this by clicking on the "analytics" tab on the top right of the screen. These metrics are aggregated for the entire brand/siteID. See Analytics section above <link>.
 
 {: .notice}  
 Reporting will soon be enabled per proactive campaign via Report Builder.
@@ -205,8 +195,8 @@ Coming soon, the context of the outbound message will be part of the conversatio
 
 * Opt In - This is managed by the brand entirely.
 * Opt-out - SMS opt out is handled through Twilio pre-built opt out standards, and WhatsApp opt out is supported through the "block" in-built function. In future, we will have a LivePerson owned opt out feature.
-  * For Twilio opt out, please refer to this [article](https://support.twilio.com/hc/en-us/articles/223134027-Twilio-support-for-opt-out-keywords-SMS-STOP-filtering-).
-  * For WhatsApp opt out, please refer to this [article](https://faq.whatsapp.com/en/android/21080506/).
+* For Twilio opt out, please refer to this [article](https://support.twilio.com/hc/en-us/articles/223134027-Twilio-support-for-opt-out-keywords-SMS-STOP-filtering-).
+* For WhatsApp opt out, please refer to this [article](https://faq.whatsapp.com/en/android/21080506/).
 
 ## Limitations
 
