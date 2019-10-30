@@ -100,15 +100,19 @@ With LivePerson’s Proactive Messaging, brands can now send consumers outbound 
 
 ### Benefits of using Proactive
 
-* Create conversations, not spam (Marketing)
+#### Create conversations, not spam (Marketing)
 
-  Consumers overwhelmingly prefer messaging conversations to phone or email, and consumers that engage in messaging conversations are 3x more likely to make a purchase than those who don’t. Our two-way Proactive Messaging platform makes it easy to engage consumers with targeted campaigns, then respond to questions and sales inquiries in the same convenient conversation.
-* Deliver better care at lower costs (Customer Care)
+Consumers overwhelmingly prefer messaging conversations to phone or email, and consumers that engage in messaging conversations are 3x more likely to make a purchase than those who don’t. Our two-way Proactive Messaging platform makes it easy to engage consumers with targeted campaigns, then respond to questions and sales inquiries in the same convenient conversation.
 
-  Don’t make your consumers call and wait on hold to get support or information. Use Proactive Messaging to start conversations on topics like account updates or service outages to reduce inbound call and email volume and increase consumer satisfaction.
-* (One platform for every channel and conversation Single Platform)
+#### Deliver better care at lower costs (Customer Care)
 
-  LiveEngage is the industry’s leading conversation management platform. It offers a single place to manage inbound and outbound messages from every channel, and layers in powerful chatbots for better consumer experiences and lower operational costs. LiveEngage connects to back-end systems like CRMs, so that brands can easily manage marketing, sales, and customer care KPIs for proactive campaigns while getting a complete view of the entire consumer journey.
+Don’t make your consumers call and wait on hold to get support or information. Use Proactive Messaging to start conversations on topics like account updates or service outages to reduce inbound call and email volume and increase consumer satisfaction.
+
+#### One platform for every channel and conversation Single Platform)
+
+LiveEngage is the industry’s leading conversation management platform. It offers a single place to manage inbound and outbound messages from every channel, and layers in powerful chatbots for better consumer experiences and lower operational costs. LiveEngage connects to back-end systems like CRMs, so that brands can easily manage marketing, sales, and customer care KPIs for proactive campaigns while getting a complete view of the entire consumer journey.
+
+#### Understand context for better customer experience
 * When a brand’s agent or a bot receives a response from a consumer for a proactive message, they also receive the context of what the consumer is responding to.
 * Direct consumers to the most appropriate agent pool or automations that can help the consumer in the most efficient manner possible.
 * Measure the consumer’s satisfaction with the proactive conversations which will provide them a direct signal about the effectiveness of the brand’s proactive strategy.
@@ -124,7 +128,7 @@ With LivePerson’s Proactive Messaging, brands can now send consumers outbound 
 
 ### Screenshots
 
-!\[\](img/Proactive_Messaging.png)
+![](img/Proactive_Messaging.png)
 
 For more information, please see the user guide.
 
@@ -218,24 +222,24 @@ With the new infrastructure upgrade, there are some changes in terminology which
 
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
-!\[\](img/RB4_1.png)
+![](img/RB4_1.png)
 
 ### New look and feel with a modern and bright color scheme
 
 All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme ( see screenshot below).  
-!\[\](img/RB4_2.png)
+![](img/RB4_2.png)
 
 ### Navigation
 
 Dossier navigation has been moved from the bottom of the dashboard to the top as well as having headings for each panel inside the sheet for effective navigation.
 
-!\[\](img/RB4_3.png)
+![](img/RB4_3.png)
 
 ### KPI widget
 
 New KPI Widget which will provide a quick visual snapshot of the current value of a KPI and how that KPI has changed over time.
 
-!\[\](img/RB4_4.png)
+![](img/RB4_4.png)
 
 1. Previous date value data
 2. Trend Indicator ( X%) - shows the trend between Previous date and current. The color will be green to reflect an improvement in KPI and red for a negative change.
@@ -250,7 +254,7 @@ Clear presentation for users with ‘view only’ permission, the filter panel h
 
 New visualization types for creating custom dossiers (histogram, waterfall chart, box plot)
 
-!\[\](img/RB4_5.png)
+![](img/RB4_5.png)
 
 ### New functionality includes:
 
@@ -261,7 +265,7 @@ Export dossiers to a formatted PDF file, including visualizations and advanced f
 1. layout ( Automatic, Portrait, Landscape)
 2. Advanced mode to export the visualizations individually on separate pages to include all data. 
 
-!\[\](img/RB4_6.png)
+![](img/RB4_6.png)
 
 ### Personalized view
 
@@ -274,10 +278,10 @@ In the Personal View Subscriptions area, click the name of the personal view to 
 
 For example, you can create a view on the Agent Activity Dashboard for the last 30 days filtered for internal employees only and another view of the offshore team for the last 120 days.
 
-!\[\](img/RB4_7.png)
+![](img/RB4_7.png)
 
-{: .notice}**  
-**These changes will only impact the predefined dashboards. User copies of previous predefined dashboards will not be impacted automatically.
+{: .notice}  
+These changes will only impact the predefined dashboards. User copies of previous predefined dashboards will not be impacted automatically.
 
 If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Report Builder:
 
