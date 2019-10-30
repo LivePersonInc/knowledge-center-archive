@@ -381,7 +381,7 @@ Image 2: consumer sees the survey in progress
 </table>
 </div>
 
-When a consumer blocks or deletes an official brand, the brands can no longer send messages to this consumer. Therefore, the Line connector will automatically close an open conversation with this consumer, if it exists, to prevent agents from sending messages to the consumer.  In case an agent attempts to send a message to the consumer by resuming the conversation, he will see a NACK notification in the agent workspace.
+When a consumer blocks or deletes an official brand, the brands can no longer send messages to this consumer. Therefore, the Line connector will automatically close an open conversation with this consumer, if it exists, to prevent agents from sending messages to the consumer.  In case an agent attempts to send a message to the consumer by resuming the conversation, he will see an error message in the agent workspace.
 
 ## [Bot Connectors] Add FaaS function as a new vendor
 
