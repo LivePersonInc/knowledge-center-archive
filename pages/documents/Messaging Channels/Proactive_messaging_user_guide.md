@@ -30,12 +30,9 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
 * After logging into the Proactive Messaging tool, users will be routed to the landing page by default.
 * Users will see a list of the most recent proactive campaigns. This includes campaigns created by all users who have access to the tool. Within the list, users can see the campaign details such as campaign title, messaging channel i.e. SMS or WhatsApp, the number of recipients the message was sent out to, the launch date and the status of whether it was successfully delivered or failed.
 * The landing page also shows high level metrics including:
-
-a) Success rate - Percentage of total sent messages that are successfully delivered to the selected messaging gateway. In the future, this will represent those delivered to the consumer.
-
-b) Response rate - Percentage of the number of messages that get response over the total number of messages successfully delivered to the messaging gateway.
-
-c) Opt-outs - The number of consumers who opted out from receiving messages over the total number of consumers who received the Proactive outbound messages.
+ * Success rate - Percentage of total sent messages that are successfully delivered to the selected messaging gateway. In the    future, this will represent those delivered to the consumer.
+ * Response rate - Percentage of the number of messages that get response over the total number of messages successfully          delivered to the messaging gateway.
+ * Opt-outs - The number of consumers who opted out from receiving messages over the total number of consumers who received      the Proactive outbound messages.
 
 ### Analytics page
 
@@ -66,13 +63,13 @@ To create a new proactive campaign, users can click on New Campaign on the landi
 {: .notice}  
 Users can search for the skill in the dropdown. If the skill does not appear, please contact your LivePerson account team to have it added. In the future, all skills will be displayed.
 
-* **Message content - SMS**
+* **Message content - SMS** 
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
 
-* **Messaging content - WhatsApp**
-* The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
-* WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
-* Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please see section on “Creating WhatsApp message template” below for more information.
+* **Messaging content - WhatsApp** 
+The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
+ - WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp      message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
+- Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please    see section on “Creating WhatsApp message template” below for more information.
 
 ### Step 2 - Define Recipients
 ![](img/Proactive_userguide6.png)
@@ -97,13 +94,10 @@ Users can define recipients by two different methods, uploading the list of reci
 When uploading a .csv file with a list of recipient, if there are any errors, changes will need to be made in the .csv file and re-uploaded. It is not possible to make a manual change inside the tool.
 
 ### **Examples**:
-#### SMS
+#### SMS example
 Typing in 2 recipients would be:
 12223334444
 12223334445
-
-Uploading a .csv file with two recipients would look like this:
-![](img/Proactive_userguide4.png)
 
 #### WhatsApp example 
 “Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
