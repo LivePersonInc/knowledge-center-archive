@@ -76,6 +76,7 @@ The content of the outbound message for SMS can be typed in by users. For SMS, 4
 
 ### Step 2 - Define Recipients
 ![](img/Proactive_userguide6.png)
+
 Users can define recipients by two different methods, uploading the list of recipients via .csv file or typing in the recipient phone numbers and possible message content (if the user would like to have a different message per phone number).
 
 #### Requirements:
@@ -132,23 +133,20 @@ In the future, users will have the capability to:
 Whether users select SMS or WhatsApp, they can customize the message content per recipient.
 
 ### Via .csv upload: 
-**For SMS  
+#### For SMS:
 ![](img/Proactive_userguide8.png)
 
-**For WhatsApp
-
+#### For WhatsApp:
 WhatsApp message template with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
 
 ![](img/Proactive_userguide9.png)
 
 ### Via typing in directly: 
-**For SMS:
-
+For SMS:
 12223334444, Hi Jane your subscription is about the expire …
 12223334445, Hi Bob, your subscription is about to expire ...
 
-**For WhatsApp message template with two variables:
-
+For WhatsApp message template with two variables:
 12223334444, Jane, 9999…
 12223334445, Bob, 8888
 
@@ -172,12 +170,10 @@ Reporting will soon be enabled per proactive campaign via Report Builder.
 ## Downloading Reports
 
 * On the landing page, an ellipsis next to +New Campaign can be found that will allow users to download the details of all campaigns created from the date of the particular account/siteID.
-
-![](img/Proactive_userguide10.png)
-
 * If the user clicks on a proactive campaign to view the details, there is also an ellipsis to download the detailed list of all recipients and messages in that campaign.
 
-![](img/Proactive_userguide11.png)
+{: .sidebyside}
+![](img/Proactive_userguide10.png)![](img/Proactive_userguide11.png)
 
 ## Receiving incoming messages
 
