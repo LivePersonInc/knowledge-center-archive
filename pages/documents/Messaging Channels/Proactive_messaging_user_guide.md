@@ -10,8 +10,6 @@ isTutorial: false
 isNew: false
 
 ---
-![](https://lh4.googleusercontent.com/2aqWZqjNFY3jqcnYNna1JtTLn-ZHSSpleyLmUvYd_ZqZt9yDygAlc0VKiM5ypdDCIRhml7kxkrpShklcTXmM_QJXvFgtfiKZAMy7T_-87TKBQ5ylUxmbzbf_g2PRfwNtA1AjwXYB =148x24)
-
 LivePersons proactive messaging tool allows brands to engage in 2-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a tango of both. This enables brands to increase their ability to connect with a targeted consumer base; higher probability of achieving goals; richer personalized consumer experience, while utilizing LiveEngage capabilities.
 
 {: .notice}  
@@ -108,13 +106,10 @@ When uploading a .csv file with a list of recipient, if there are any errors, ch
 SMS example
 
 * Typing in 2 recipients would be:
-
 12223334444
-
 12223334445
 
 * Uploading a .csv file with two recipients would look like this:
-
 ![](img/Proactive_userguide4.png)
 
 * WhatsApp example “Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
