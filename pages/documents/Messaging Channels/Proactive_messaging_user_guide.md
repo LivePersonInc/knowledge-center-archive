@@ -25,22 +25,22 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
 ## Navigation
 
 ### Landing page
-
-![](img/Proactive_messaging.png)
+![](img/Proactive_Messaging.png)
 
 * After logging into the Proactive Messaging tool, users will be routed to the landing page by default.
 * Users will see a list of the most recent proactive campaigns. This includes campaigns created by all users who have access to the tool. Within the list, users can see the campaign details such as campaign title, messaging channel i.e. SMS or WhatsApp, the number of recipients the message was sent out to, the launch date and the status of whether it was successfully delivered or failed.
 * The landing page also shows high level metrics including:
 
-  **a) Success rate -** Percentage of total sent messages that are successfully delivered to the selected messaging gateway. In the future, this will represent those delivered to the consumer.
+a) Success rate - Percentage of total sent messages that are successfully delivered to the selected messaging gateway. In the future, this will represent those delivered to the consumer.
 
-  **b) Response rate** - Percentage of the number of messages that get response over the total number of messages successfully delivered to the messaging gateway.
+b) Response rate - Percentage of the number of messages that get response over the total number of messages successfully delivered to the messaging gateway.
 
-  **c) Opt-outs** - The number of consumers who opted out from receiving messages over the total number of consumers who received the Proactive outbound messages.
+c) Opt-outs - The number of consumers who opted out from receiving messages over the total number of consumers who received the Proactive outbound messages.
 
 ### Analytics page
 
-* From the navigation bar, users have the option to click on Analytics tab to access the reporting metrics for Proactive Messaging. The current metrics are aggregated data at the brand level and not per campaign level. Please note, metrics per campaign level will be coming soon.
+* From the navigation bar, users have the option to click on Analytics tab to access the reporting metrics for Proactive Messaging. The current metrics are aggregated data at the brand level and not per campaign level. 
+Please note, metrics per campaign level will be coming soon.
 * The data can be filtered on this page by date by selecting a date range from MM/DD/YYYY to MM/DD/YYYY or by selecting some Quick range such as Today, This Week, This Month, Last 30/60/90 days, or Year to date.
 * There are a number of metrics available:
   * **Success rate** - Percentage of the number of messages successfully delivered to the messaging gateway over the total number of messages sent. Soon, this will be updated to be the percentage of the number of messages successfully delivered to the consumer over the total number of messages sent.
