@@ -346,6 +346,14 @@ The following file types are supported:
 
 All files types have a file size limitation of 5MB. Agents will get an error if the file is not within this supported list. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described [here](messaging-channels-rich-messaging-agent-file-sharing-overview.html).
 
+Image 1: Agent shares images with consumer
+
+![](img/week-of-november-4th-7.png)
+
+Image 2: Consumer sees the file agent shares
+
+![](img/week-of-november-4th-8.png)
+
 ## [Unauthenticated Engagement Attributes] Change default to True
 
 ### Type: Enhancement 
