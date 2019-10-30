@@ -24,7 +24,7 @@ SMS and WhatsApp are the two supported channels with more coming in the near fut
 
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
 
-!\[\](img/Proactive_userguide1.png)
+![](img/Proactive_userguide1.png)
 
 Proactive Messaging supports role-based access. Currently, only users with Campaign Manager or Administrator user profile can access the tool. All other users (those with only Agent or Agent Manager user profile) will not see the tool in the Quick Launch menu.
 
@@ -32,7 +32,7 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
 
 ### Landing page
 
-!\[\](img/Proactive_messaging.png)
+![](img/Proactive_messaging.png)
 
 * After logging into the Proactive Messaging tool, users will be routed to the landing page by default.
 * Users will see a list of the most recent proactive campaigns. This includes campaigns created by all users who have access to the tool. Within the list, users can see the campaign details such as campaign title, messaging channel i.e. SMS or WhatsApp, the number of recipients the message was sent out to, the launch date and the status of whether it was successfully delivered or failed.
@@ -57,7 +57,7 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
   * **Response Status -** This chart shows the total number of messages delivered, the number of messages delivered that got a response and the number of messages delivered that did not get a response.
   * **Messages Sent -** This chart shows the number of messages sent (success vs failed) per month/day and the number of responses per month/day. Message Sent chart reflects the data either on a daily basis when filter is for 2 or more days or hour basis when data is displayed for 1 day.
 
-  !\[\](img/Proactive_userguide2.png)
+![](img/Proactive_userguide2.png)
 
 ## Create a new proactive campaign
 
@@ -65,18 +65,18 @@ To create a new proactive campaign, users can click on New Campaign on the landi
 
 ### Step 1 - Compose Message
 
-!\[\](img/Proactive_userguide3.png)
+![](img/Proactive_userguide3.png)
 
 * **Campaign Name** - Users need to define the campaign name. Choosing a good name for the campaign can be helpful for the agents who get assigned to the conversation once a consumer responds. For example, a campaign named “Subscription renewal for all North America users with licenses expired by 12/31/29019” will be helpful to the agents who receives the consumer response and differentiate it with other outbound campaign.
 * **Channel** - Select the channel in which the outbound message should be sent on. Currently, there are three options. SMS with Twilio, WhatsApp or Prioritized. Prioritized is the step down capability from WhatsApp to SMS. This means that a message will initially be sent to the consumer via WhatsApp channel. If the consumer’s phone number isn’t eligible on WhatsApp, then the message will attempt to send via SMS text instead.
 * **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside LiveEngage. Currently, not all LiveEngage skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
 
-{: . notice}  
+{: .notice}  
 Users can search for the skill in the dropdown. If the skill does not appear, please contact your LivePerson account team to have it added. In the future, all skills will be displayed.
 
 * **Message content - SMS**
 
-  The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
+The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
 * **Messaging content - WhatsApp**
   * The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
   * WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
@@ -103,7 +103,7 @@ Users can define recipients by two different methods, uploading the list of reci
 {: .notice}  
 When uploading a .csv file with a list of recipient, if there are any errors, changes will need to be made in the .csv file and re-uploaded. It is not possible to make a manual change inside the tool.
 
-**Examples**:
+### **Examples**:
 
 SMS example
 
@@ -115,9 +115,8 @@ SMS example
 
 * Uploading a .csv file with two recipients would look like this:
 
-!\[\](img/Proactive_userguide4.png)
+![](img/Proactive_userguide4.png)
 
-* ![](https://lh6.googleusercontent.com/5Ge5TzYDNbEiIYgNQSO0JZrVLUxxB47yMjEoidhs6kZMbo-_7wnPZMLVn5YigXj9QQ0Q1s58WcghaLKtXcAmh4bFElLiTow7dv96362Inuh-g9nL-kvl2xCU06ZKjvlr1FVwmOA2 =178x110)
 * WhatsApp example “Hello {{1}}, your credit card ending in {{2}} is about to expire. Reply back to chat with an agent to help you update this info”
   * Typing in 2 recipients would be:
 
@@ -127,13 +126,8 @@ SMS example
 
 * Uploading a .csv file with two recipients would look like this:
 
-!\[\](img/Proactive_userguide5.png)
-
-![](https://lh5.googleusercontent.com/x-9--BlVrDO7GOrB3-bfLpjjMC8LGpCQj7MxQ9RQyu0TknUifAm_18l3KzodvezKqtyLUHJ6TFhldEDb1831DCsYHE6oeyXLQ-KT840XEQ6hXktdZrEb7-uJcCH6dGwBoBdzwGg8 =291x117)
-
+![](img/Proactive_userguide5.png)
 !\[\](img/Proactive_userguide6.png)
-
-![](https://lh6.googleusercontent.com/AbjBCSXfPP1Wdpj7BMA7nXi4ZDLImbfVIWpWcAlTE2cQN3YjcVix9uq2MxvlTRW81aW9vFTDqV6WYz-lu7N2fKVw9wvze1h8C-Kh0lngMEU913pXGpinCN18dJNeWFW1PP66kk1a =720x327)
 
 ### Step 3 - Schedule Campaign
 
@@ -145,9 +139,7 @@ SMS example
 
 ### Step 4 - Preview & Launch
 
-!\[\](img/Proactive_userguide7.png)
-
-![](https://lh3.googleusercontent.com/KNIdwIZhbwk86PUvfnXW4M3V2fifyLItZMTqb06oc3ua8MbksjjnZ-x2cAt-fQ-i49FWtBRBCvW1Tlv1YlY7sYmXuCG4b-RB8HTX2rnp5EbfMZmOc4tf1_CbPCC0ctOXDQyntmFN =720x441)
+![](img/Proactive_userguide7.png)
 
 * The final step is to review the details of the campaign before publishing, including the skill routing, the opt out text, the message content and the recipients.
 * Users must check the box which states that they are responsible for collecting opt-in consent from consumers before reaching out to them and legally abide by the TCPA and GDPR compliance laws.
@@ -156,28 +148,21 @@ SMS example
 
 Whether users select SMS or WhatsApp, they can customize the message content per recipient.
 
-* Via .csv upload
-  * For SMS
+* Via .csv upload: For SMS
 
-  !\[\](img/Proactive_userguide8.png)
-  * ![](https://lh6.googleusercontent.com/l61tq7zQ_1KI0ZHmZ2JAOuiWfn8GhRJr4-51tWYnA5ExZEIY1l_t9CiTECmBEW9rxhXFMXci42EycSi-kr4fboYAMXAElQ6m6zRVG4ANc2BC6-TgwOjvvT10vXXarykiWlRyF1Ni =589x96)
+![](img/Proactive_userguide8.png)
 * For WhatsApp message template with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
 
-!\[\](img/Proactive_userguide9.png)
+![](img/Proactive_userguide9.png)
 
-![](https://lh4.googleusercontent.com/0v6_MsCUPnOTRfHG9GDGdRfwuv4Ta2dAigS2nscVkc0b4lj2wSAsI5wIarqQHolS2tzRESqR8iFkE2L-YZSMtbi9LTuTfUQQQGBpIsvkO-BaUbQanA-TcbxPbVpbaXCZlpsJyn3M =307x101)
-
-* Via typing in directly
-  * SMS
+* Via typing in directly: SMS
 
 12223334444, Hi Jane your subscription is about the expire …
-
 12223334445, Hi Bob, your subscription is about to expire ...
 
 * For WhatsApp message template with two variables “Hello {{1}}, your credit card ending in {{2}} is about to expire. Would you like some help with renewal?”
 
 12223334444, Jane, 9999…
-
 12223334445, Bob, 8888
 
 ## Skill Routing
@@ -195,18 +180,18 @@ In the future, Proactive Messaging will be automatically populated with pre exis
 
 * There is an analytics section built into the tool. Users can access this by clicking on the "analytics" tab on the top right of the screen. These metrics are aggregated for the entire brand/siteID. See Analytics section above <link>.
 
-{: . notice}  
-Soon Reporting will be enabled per proactive campaign via Report Builder.
+{: .notice}  
+Reporting will soon be enabled per proactive campaign via Report Builder.
 
 ## Downloading Reports
 
 * On the landing page, an ellipsis next to +New Campaign can be found that will allow users to download the details of all campaigns created from the date of the particular account/siteID.
 
-!\[\](img/Proactive_userguide10.png)
+![](img/Proactive_userguide10.png)
 
 * If the user clicks on a proactive campaign to view the details, there is also an ellipsis to download the detailed list of all recipients and messages in that campaign.
 
-!\[\](img/Proactive_userguide11.png)
+![](img/Proactive_userguide11.png)
 
 ## Receiving incoming messages
 
@@ -228,8 +213,7 @@ Coming soon, the context of the outbound message will be part of the conversatio
 Proactive Messaging is currently launched in early adopters and will continue to be enhanced. In the meantime, the following are the currently known limitations:
 
 1. Number of lines entered into the text area is limited to 100 lines.
-
-   If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
+If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
 2. The CSV file is limited today to 1000 recipients. This will be increased soon to 200k.
 3. When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To stop receiving messages just reply STOP’.
 4. For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. When the message is over 140 characters, it will go out over 2 messages.
@@ -237,9 +221,7 @@ Proactive Messaging is currently launched in early adopters and will continue to
 ## FAQs
 
 **If I have a LiveEngage account, can I automatically access Proactive Messaging?**
-
 No, today we require brands to onboard first before they can start using Proactive Messaging. It is a powerful tool and only authorized users should have access to it. Once onboarded, only users with Campaign Manager or Admin user profile can access this tool from LiveEngage’s Quick Launch.
 
 **Can anyone access Proactive Messaging?**
-
 Proactive Messaging is accessed directly within LiveEngage from the quick launch menu. This option will only appear to users with Campaign Manager or Admin user profile.
