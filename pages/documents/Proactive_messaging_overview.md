@@ -1,7 +1,7 @@
 ---
 pagename: Proactive messaging overview
-categoryName: Getting started
-subCategoryName: Web messaging
+categoryName: Messaging channels
+subCategoryName: ''
 indicator: messaging
 subtitle: Go from 1-way SMS to rich 2-way conversational experiences
 level3: ''
