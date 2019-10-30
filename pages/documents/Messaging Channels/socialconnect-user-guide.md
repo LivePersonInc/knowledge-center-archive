@@ -46,9 +46,9 @@ The transcript view will be modified to show a “public” or “private” sig
 * Private (Facebook and Twitter)
   * Facebook - Facebook Messenger conversations sent to the brand’s account
   * Twitter - Twitter Direct Messages sent to the brand's account
-
-![](img/socialconnect-user-guide-3.png)
-![](img/socialconnect-user-guide-4.png)
+  
+{: .sidebyside}
+![](img/socialconnect-user-guide-3.png)![](img/socialconnect-user-guide-4.png)
 
 ![](img/socialconnect-user-guide-5.png)
 
@@ -68,7 +68,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Time Zone
   * Gender
 
-![](img/socialconnect-user-guide-7.png)
+![](img/socialconnect-user-guide-7.png) 
 
 * Twitter 
   * Account Name
