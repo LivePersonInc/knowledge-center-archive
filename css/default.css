@@ -1454,6 +1454,12 @@ div#cookie-law {
   }
 }
 
+@media screen and (max-width: 1260px) {
+  #post-content {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   #logocontainer {
     margin-right: 0;
