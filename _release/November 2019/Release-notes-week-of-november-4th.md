@@ -17,7 +17,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Proactive Messaging (early access product)
+## Proactive Messaging (early access)
 
 ### Type: New functionality
 
