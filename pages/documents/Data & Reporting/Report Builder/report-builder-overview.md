@@ -77,22 +77,12 @@ The data currently available in the predefined dashboards are as follows:
 * [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
 * Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
 
-## Scheduling
-
-LivePerson administrators can schedule reports to run at set times on a recurring basis within saved report parameters, and can be delivered to the requested email inbox.
-
 ### Exporting to PDF
 
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
 layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/export-to-pdf.png)
-
-### PDF scheduling
-
-New scheduling to a PDF file format will soon be available. In addition, setting the scheduling to PDF format can be done within the dashboard. Go to the file menu and select ‘Schedule Delivery to email’.
-
-![](img/pdf-scheduling.png)
 
 ### Personalized view
 
