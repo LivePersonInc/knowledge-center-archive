@@ -75,7 +75,7 @@ Image 2 - agent activity grid (panel 2)
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
-![](/img/agent-activity-dashboard3.pngAgent_Activity_Grid.jpg
+![](/img/Agent_Activity_Grid.jpg)
 Image 3 - Agent performance (panel 3)
 
 **Rows (attributes):** AGENT
