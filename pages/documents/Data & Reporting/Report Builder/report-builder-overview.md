@@ -81,26 +81,6 @@ The data currently available in the predefined dashboards are as follows:
 
 LivePerson administrators can schedule reports to run at set times on a recurring basis within saved report parameters, and can be delivered to the requested email inbox.
 
-## Latest updates to Report Builder
-
-LivePerson is continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report Builder:
-
-* A new set of metrics have been added to the Messaging Performance Predefined Dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
-* The messaging performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
-* Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the Messaging Performance Dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the Post Conversation Survey bot.
-* The data refresh rate has been enhanced to every eight hours.
-* Agent load KPIs are added to the Predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
-* New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
-* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: skill activity and messaging performance.
-* The field details tab has been redesigned and contains a list of all the available attributes and metrics.
-* The response time metrics in the Messaging Performance dashboard will be enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
-* LivePerson is offering predefined documents intended for easy download and subscriptions. The content of these documents replace the grids that are available in the Operational BI. The following reports will be created as standalone documents:
-  1. Agent Activity Grid - Daily & Monthly
-  2. Skill Activity Grid - Daily & Monthly
-  3. Survey Activity Grid - Daily & Monthly
-  4. Goal Tracker Grid
-
 ### Exporting to PDF
 
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
