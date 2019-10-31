@@ -14,6 +14,11 @@ isNew: false
 The Report Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.
 
 ## What’s new
+### New look and feel
+
+All predefined dossiers have been enriched to include new data visualizations with a bright & modern color scheme.
+
+![](img/new-look-and-feel.png)
 
 ### Terminology
 
@@ -29,12 +34,6 @@ With the new Infrastructure upgrade there are some changes in terminology which 
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
 ![](img/access.png)
-
-### New look and feel
-
-All predefined dossiers have been enriched to include new data visualizations with a bright & modern color scheme.
-
-![](img/new-look-and-feel.png)
 
 ### Navigation
 Dossier navigation has been moved from the bottom of the dashboard to the top. There are also new headings for each panel inside the sheet for effective use.
