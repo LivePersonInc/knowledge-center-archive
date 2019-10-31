@@ -14,7 +14,7 @@ isNew: false
 The addition of SMS to LivePerson operations creates another gateway for messaging between brands and consumers. Brands can tap into the wide pool of consumers who prefer to use SMS as a form of communication and want to text with brands just like they would their friends and family.
 
 {: .notice}  
-Brands planning to use Twilio for SMS, can get started right away using the [Twilio SMS Quick Start](getting-started-twilio-sms-quick-start.html) article.
+Brands planning to use Twilio for SMS, can get started right away using the [Twilio SMS Quick Start](getting-started-quick-start-guides-twilio-sms-quick-start.html) article.
 
 ## Why use SMS to connect with your consumers?
 
