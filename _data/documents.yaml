@@ -242,7 +242,8 @@
         - pagename: Using the MCS toolkit
     - subcategoryname: Report Builder
       pages:
-        - pagename: Report Builder Overview
+        - pagename: Report Builder overview
+        - pagename: Introducing the enhanced Report Builder
         - pagename: "Report Builder user guide (standard)"
         - pagename: "Report Builder user guide (customization)"
         - pagename: Report Builder FAQs
