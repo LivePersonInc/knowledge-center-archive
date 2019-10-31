@@ -156,5 +156,5 @@ The builder is based on a 3rd party tool by Microstrategy, named Microstrategy D
 
 ### What are the reporting tool browser requirements?
 
-To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
+To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://env-132731.customer.cloud.microstrategy.com/MicroStrategyLibrary/app/0F79F3C611E92F02184F0080EF9511BB/DD9A640145118E77CC948A9410AC6539/K53--K46)
 
