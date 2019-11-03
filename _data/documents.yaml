@@ -45,7 +45,10 @@
       pages:
         - pagename: Add live chat to your website
         - pagename: Displaying chat engagements
-    - subcategoryname: Messaging channels capabilities comparison
+    - subcategoryname: Proactive messaging 
+      pages:
+        - pagename: Proactive messaging overview 
+        - pagename: Proactive messaging user guide 
     - subcategoryname: Rich messaging
       pages:
         - pagename: Rich messaging overview
@@ -56,6 +59,7 @@
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
         - pagename: Engagement window widgets
+    - subcategoryname: Messaging channels capabilities comparison
 
 - categoryname: "AI, bots & automation"
   image: bots-automation
@@ -238,7 +242,8 @@
         - pagename: Using the MCS toolkit
     - subcategoryname: Report Builder
       pages:
-        - pagename: Report Builder Overview
+        - pagename: Report Builder overview
+        - pagename: Introducing the enhanced Report Builder
         - pagename: "Report Builder user guide (standard)"
         - pagename: "Report Builder user guide (customization)"
         - pagename: Report Builder FAQs

@@ -13,9 +13,9 @@ isNew: false
 LivePersons proactive messaging tool allows brands to engage in 2-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a tango of both. This enables brands to increase their ability to connect with a targeted consumer base; higher probability of achieving goals; richer personalized consumer experience, while utilizing LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 {: .notice}  
-This is an early adopter program. If you would like to be part of the early adopters program, please complete [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
+Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
 
-## Login and Access Control
+## Login and access
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
 
 ![](img/Proactive_userguide1.png)
@@ -35,6 +35,7 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
  * Opt-outs - The number of consumers who opted out from receiving messages over the total number of consumers who received      the Proactive outbound messages.
 
 ### Analytics page
+![](img/Proactive_userguide2.png)
 
 * From the navigation bar, users have the option to click on Analytics tab to access the reporting metrics for Proactive Messaging. The current metrics are aggregated data at the brand level and not per campaign level. 
 Please note, metrics per campaign level will be coming soon.
@@ -45,8 +46,6 @@ Please note, metrics per campaign level will be coming soon.
   * **Delivery Status** - This chart shows the total number of messages sent, the number of messages successfully delivered to the messaging gateway i.e. SMS-Twilio or WhatsApp and the number of messages failed to get delivered.
   * **Response Status -** This chart shows the total number of messages delivered, the number of messages delivered that got a response and the number of messages delivered that did not get a response.
   * **Messages Sent -** This chart shows the number of messages sent (success vs failed) per month/day and the number of responses per month/day. Message Sent chart reflects the data either on a daily basis when filter is for 2 or more days or hour basis when data is displayed for 1 day.
-
-![](img/Proactive_userguide2.png)
 
 ## Create a new proactive campaign
 

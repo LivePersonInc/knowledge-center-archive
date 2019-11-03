@@ -14,7 +14,7 @@ date: '2019-04-15T11:31:45.000+00:00'
 ## Get started right away
 
 {: .notice}  
-**To get started right away, see the** [**Twilio SMS Quick Start**](getting-started-twilio-sms-quick-start.html) **article.**
+**To get started right away, see the** [**Twilio SMS Quick Start**](getting-started-quick-start-guides-twilio-sms-quick-start.html) **article.**
 
 Learn more about enhancing and customizing Twilio functions to enable your brand to enhance the SMS experience through LiveEngage by reading the article below.
 

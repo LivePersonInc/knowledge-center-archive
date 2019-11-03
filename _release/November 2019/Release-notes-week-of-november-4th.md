@@ -134,7 +134,7 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 
 ![](img/Proactive_Messaging.png)
 
-For more information, please see the user guide.
+For more information, please see the [user guide](messaging-channels-proactive-messaging-proactive-messaging-user-guide.html).
 
 ## Report Builder upgrade
 

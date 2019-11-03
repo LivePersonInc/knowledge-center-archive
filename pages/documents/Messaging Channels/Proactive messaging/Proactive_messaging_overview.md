@@ -10,14 +10,17 @@ isTutorial: false
 isNew: false
 
 ---
-{: .notice}  
-Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
 
 Business SMS is an effective communication tool, but until now has only been one-way. Many brands effectively utilize proactive messaging to send account service or sales related information. However, this communication is one-way, leading to several missed opportunities in customer replies.
 
 With LivePerson’s Proactive Messaging, brands can now send consumers outbound messages on channels like SMS, WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, fewer calls and operational costs, and rich messaging experiences that increase consumer satisfaction.
 
 This new capability enables brands to build relationships and engage with their consumers by giving them the ability to both respond to consumers who reach out and also proactively share value-added information with their consumers, when applicable. Brands can leverage LiveEngage to generate leads for their conversational commerce scenarios by sharing important and timely information such as reminders about bill payments, subscriptions renewal, feedback requests, new deals, or updates on product availability.
+
+{: .notice}  
+Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
+
+![](img/Proactive_Messaging)
 
 ## Benefits of using Proactive Messaging
 
@@ -50,6 +53,7 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 4. Once onboarded, navigate to Proactive Messaging app from the Quick Launch within LiveEngage.
 5. This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
 
-Please see the Proactive Messaging [user guide](https://docs.google.com/document/d/1VyVniK_M5fEPyDHPasZnWi5V78JuCz3Bv8JiMqr2esE/edit) for more information.
+![](img/Proactive_launch_pad.png)
 
-!\[\](img/Proactive_launch_pad.png)
+Please see the Proactive Messaging [user guide](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)
+

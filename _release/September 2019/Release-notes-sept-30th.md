@@ -429,7 +429,7 @@ Image 2: Consumer view: adding emojis from desktop web messaging or chat window
 </table>
 </div>
 
-This feature allows brands the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows.
+This feature allows brands the ability to set the consumer actions menu location and elements within the web messaging window.
 
 There are 2 options to set the location of the menu:
 * At the bottom left side of the window (current location and default for Ocean and Horizon themes)
