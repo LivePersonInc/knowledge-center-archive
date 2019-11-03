@@ -50,12 +50,11 @@ function navigateContent(url) {
 				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2, h3');
-			$('#mysidebar div.activeitem').removeClass('activeitem');
+			// $('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
 			searchHighlight();
-			sideBarCollapse();
 			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
@@ -73,7 +72,6 @@ function navigateContent(url) {
 			} else {
 				$('#defaultfooter').addClass('botfooter');
 			}
-			//make sure the window recognizes this and adds it to the history queue for back and refresh actions
 			window.history.pushState({
 				url: url
 			}, '', url);
@@ -120,6 +118,7 @@ function linkload() {
 		url: url
 	}, '', url);
 };
+sideBarCollapse();
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {
 	var state = e.originalEvent.state;
