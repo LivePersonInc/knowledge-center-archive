@@ -12,6 +12,10 @@ isTutorial: false
 isNew: false
 
 ---
+
+{: .notice}
+For an in-depth and technical overview of Cookie types and properties, please see [this article](https://developers.liveperson.com/cookies-and-liveengage-overview.html) in the Developers' Community.
+
 A cookie is a small piece of data sent from a website and stored in the visitors' web browser. It helps the website to remember information about a visit; so when a visitor browses the same website in the future, the data stored in the cookie is sent back to the website by the browser.
 
 LivePerson uses information stored in cookies to maintain session data and to identify returning visitors by saving LivePerson-specific data such as visitor ID and last chat date. It is important to note that the cookies do not contain any private customer data, or any data that can be accessible or useful outside of LivePerson.
