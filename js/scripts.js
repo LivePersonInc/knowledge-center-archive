@@ -77,10 +77,6 @@ function navigateContent(url) {
 			}, '', url);
 		})
 		.fail(function () {
-			url = window.location.href;
-			window.history.pushState({
-				url: url
-			}, '', url);
 			window.location = "https://knowledge.liveperson.com/404.html";
 		});
 	};
