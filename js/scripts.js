@@ -98,6 +98,9 @@ function linkclick(event, that) {
 	let url = $(that).attr('href');
 	// call the navigateContent function and pass that url to it
 	navigateContent(url);
+	window.history.pushState({
+		url: url
+	}, '', url);
 	// $(".pageitem a").removeClass("activeitem");
 	// $(that).addClass("activeitem");
 }
