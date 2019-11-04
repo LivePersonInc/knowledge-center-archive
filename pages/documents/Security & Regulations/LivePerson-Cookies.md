@@ -5,13 +5,17 @@ pagename: LivePerson Cookies
 subtitle: LivePerson uses information stored in cookies to maintain session data and
   to identify returning visitors
 permalink: security-regulations-liveperson-cookies.html
-date: 2019-03-12 11:24:55 +0000
+date: '2019-03-12T11:24:55.000+00:00'
 subCategoryName: ''
 level3: ''
 isTutorial: false
 isNew: false
 
 ---
+
+{: .notice}
+For an in-depth and technical overview of Cookie types and properties, please see [this article](https://developers.liveperson.com/cookies-and-liveengage-overview.html) in the Developers' Community.
+
 A cookie is a small piece of data sent from a website and stored in the visitors' web browser. It helps the website to remember information about a visit; so when a visitor browses the same website in the future, the data stored in the cookie is sent back to the website by the browser.
 
 LivePerson uses information stored in cookies to maintain session data and to identify returning visitors by saving LivePerson-specific data such as visitor ID and last chat date. It is important to note that the cookies do not contain any private customer data, or any data that can be accessible or useful outside of LivePerson.
@@ -209,3 +213,5 @@ LPit Used by LivePerson to allow the system to optimize its service. It is set w
 Disabling or blocking this cookie does not prevent chat from working.
 
 **Cookie type:** Session
+
+For more detailed information on Cookies, please visit the [Developers Community](https://developers.liveperson.com/cookies-and-liveengage-overview.html)

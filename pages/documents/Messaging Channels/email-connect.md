@@ -3,19 +3,17 @@ pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Email Connect allows you to better manage emails alongside other messaging channels using the powerful tools of LiveEngage
+subtitle: Get more out of email with LivePerson's Email Connect, a single platform
+  to manage email and all customer communications
 level3: ''
 permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
-published: true
+
 ---
+With Email Connect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
-Today, 246 billion emails are sent every day. However, emails are extremely costly for brands as they represent high handle time and low FCR. In addition, email on average has the lowest CSAT of any other channel.
-
-Email Connect by LivePerson helps make email communications between brands and consumers more efficient for brands- while providing a better experience for consumers.
-
-With Email Connect, brands can now easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
+Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
 Email Connect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and smart capacity.
 
@@ -53,7 +51,7 @@ Email Connect is quickly developing to expand our capability and increase the be
 * **File attachments settings —** Admins will be able to turn on or off the ability to support attachments from email setup.
 * **Multiple email addresses —** Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
-## Email Connect set up
+## Email Connect Setup
 
 To start using Email Connect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
 
@@ -61,6 +59,9 @@ To start using Email Connect, please sign up [here](https://docs.google.com/form
 
 {: .notice}  
 **Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
+
+{: .important}  
+To setup Email Connect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
 ### Step 1: Connect your email in LiveEngage
 

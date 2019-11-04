@@ -116,8 +116,6 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 
 LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
-![](/img/customization-user-guide3.png)
-
 ### Customize a predefined dashboard
 
 1. Open any dashboard from the ‘LE predefined dashboards’ folder.
