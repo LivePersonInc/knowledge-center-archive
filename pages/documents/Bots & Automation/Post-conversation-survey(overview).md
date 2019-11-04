@@ -285,10 +285,6 @@ Make sure that the conversation ends with a skill that is mapped to the survey y
 
 In order for the changes you make in the Bot Studio to take effect you need to publish the changes. Make sure that your survey is published by pressing the "Publish" button in the Survey Editor screen and start a new conversation for it to take effect.
 
-### Q: I elevated my LPA user to have Admin permissions, but I keep getting an error when trying to add the bot.
-
-Please contact the LivePerson NOC and ask to move your LPA to the “LPA Product” group or to add the “view messaging survey” & “edit messaging survey” permissions to your existing LPA group.
-
 ### Q: I created a bot that was assigned with the “Survey bot” profile using the LiveEngage user creation UI. Why can’t I add it in the Bot Studio?
 
 The survey bot user is added automatically by the Bot Studio when you press “Add survey bot” in the Bot Studio UI. This means that the Admin doesn’t need to create a bot user before going to the Bot Studio. To resolve the issue, delete any bot user that was assigned with the “Survey bot” profile and try to add the bot again using the Bot Studio.
