@@ -1,12 +1,12 @@
 ---
-pagename: LivePerson Functions
+pagename: Overview
 categoryName: Getting started
-subCategoryName: ''
+subCategoryName: LivePerson Functions
 indicator: both
 subtitle: LivePerson Functions enables brands to quickly and easily customize how
   the LivePerson platform behaves.
 level3: ''
-permalink: developer-tools-liveperson-functions.html
+permalink: developer-tools-liveperson-functions-overview.html
 isTutorial: false
 isNew: true
 redirect_from:
