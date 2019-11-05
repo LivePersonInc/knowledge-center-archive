@@ -128,7 +128,7 @@ Agents and agent managers can search/filter conversations with the following par
 
 ## Taking actions on conversations (messaging, sending back to queue, transferring, etc)
 
-Managers can now easily join a conversation and perform actions, such as transferring it to another agent or closing the conversation. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). The join option is available from the conversation mode (not from the list mode). Simply click **+ Join Conversation** at the bottom of the transcript, and then you may send a message or take an action.
+Managers can now easily join a conversation and perform actions, such as transferring it to another agent or closing the conversation. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). The join option is available from the conversation mode (not from the list mode). Simply click **+ Join Conversation** at the bottom of the transcript, and **then you may send a message or take an action.**
 
 ![alt text](img/all-connections-4.jpg){:class="newagent"}
 
@@ -151,6 +151,9 @@ Managers with the “Takeover conversation” permission will be able to takeove
 The “Takeover” option is available in the conversation menu, if the user has permissions for this action. Once the user has chosen the “Takeover” option, he will be navigated to the My Connections tab, focused on that conversation.
 
 If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Connections list without notification.
+
+{: .notice}
+**Please note:** In the new manager workspace you must first **join** a conversation before you can use the takeover action. 
 
 ## Resuming a conversation
 

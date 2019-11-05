@@ -1334,12 +1334,14 @@ div#cookie-law {
 
 /* media queries begin, abandon all hope ye who enter here */
 
-@media screen and (max-width:1440px){
-
+@media screen and (max-width: 1680px) {
   .newagent {
     width: 650px;
     margin: unset;
   }
+}
+
+@media screen and (max-width:1440px){
 
   .homeRow {
     width: unset;
@@ -1449,6 +1451,12 @@ div#cookie-law {
 @media screen and (max-width: 1610px) {
   .algolia-autocomplete {
     flex: 3;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  #post-content {
+    width: 80%;
   }
 }
 

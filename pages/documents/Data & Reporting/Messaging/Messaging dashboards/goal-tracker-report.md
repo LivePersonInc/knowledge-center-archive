@@ -25,7 +25,7 @@ This dashboard also entails hour offset capabilities allowing users to show the 
 
 The following panel will be presented when accessing the goal tracker predefined dashboard. It provides an overview of all goals reached (including conversions), by skill and by agent, and a list of all goals reached events within the selected timeframe.
 
-![](/img/Goal-tracker-report2.png)
+![](/img/Agent_goal_tracker_report.jpg)
 
 _Image 1- Agent goals tracker report main panel_
 

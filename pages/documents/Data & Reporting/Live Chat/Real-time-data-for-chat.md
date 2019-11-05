@@ -19,7 +19,7 @@ The data bar default view presents aggregated data from all skills (queues) on t
 
 The agent data bar enables agents to monitor their own performance data in real time. The agent data bar is displayed above the web visitors list.
 
-![](/img/agent-chat-data-bar1.png)
+![](/img/chat-real-time-data-bar.jpg)
 
 As an agent, you have goals to meet, such as achieving a specific customer satisfaction rate or a certain number of engagements per hour.
 

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var url = window.location.href;
+	let url = window.location.href;
 	sideBarClick ();
 	sideBarCollapse ();
 	//initialize smooth scroll
@@ -28,7 +28,7 @@ $(document).ready(function () {
 });
 
 function navigateContent(url) {
-	console.log('run');
+	console.log(url);
 	//call ajax with the target url
 	$.ajax(url)
 		.done(function (content) {
@@ -50,12 +50,11 @@ function navigateContent(url) {
 				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2, h3');
-			$('#mysidebar div.activeitem').removeClass('activeitem');
+			// $('#mysidebar div.activeitem').removeClass('activeitem');
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
 			searchHighlight();
-			sideBarCollapse();
 			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
@@ -73,10 +72,12 @@ function navigateContent(url) {
 			} else {
 				$('#defaultfooter').addClass('botfooter');
 			}
+			window.history.pushState({
+				url: url
+			}, '', url);
 		})
 		.fail(function () {
-			url = "/404.html";
-			navigateContent(url);
+			window.location = "https://knowledge.liveperson.com/404.html";
 		});
 	};
 
@@ -90,10 +91,9 @@ function linkclick(event, that) {
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
 	//grab the url to which the link is pointing
-	var url = $(that).attr('href');
+	let url = $(that).attr('href');
 	// call the navigateContent function and pass that url to it
 	navigateContent(url);
-	//make sure the window recognizes this and adds it to the history queue for back and refresh actions
 	window.history.pushState({
 		url: url
 	}, '', url);
@@ -117,6 +117,7 @@ function linkload() {
 		url: url
 	}, '', url);
 };
+sideBarCollapse();
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {
 	var state = e.originalEvent.state;
