@@ -1041,4 +1041,6 @@ The engagement window size is inconsistent when users start a messaging conversa
 
 ## Text box not visible on iPad Chrome 
 
+### Type: Bug fix 
+
 The text area in the engagement window is hidden underneath the keyboard on iPad Chrome. It won’t appear even when scrolling up/down. This bug has been resolved. 
