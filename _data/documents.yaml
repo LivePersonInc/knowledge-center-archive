@@ -340,6 +340,7 @@
       pages:
         - pagename: November
           level3:
+            - level3name: Week of November 11th
             - level3name: Week of November 4th
         - pagename: October
           level3:
