@@ -1032,3 +1032,13 @@ Customers working with Internet Explorer 11 browser and using custom widget, mos
 The root cause of this issue is due to bug on IE11 browser memory management, which does not release memory itself on every iframe removal from the DOM.
 
 The fix included memory management on both IE11 and Edge browsers - before removing the iframe from the DOM, we first redirect the iframe to a blank page, and only then removing the iframe. Following the fix, there has been a major reduction in the memory usage for these browsers.
+
+## [Engagement Window] Inconsistent sizing of engagement window
+
+### Type: Bug fix 
+
+The engagement window size is inconsistent when users start a messaging conversation, then leave or navigate away from the page and back again. This means that if the engagement window is configured as large and the consumer opens another tab or minimizes the conversation and reopens it, the size will go back to small. This has been resolved. 
+
+## Text box not visible on iPad Chrome 
+
+The text area in the engagement window is hidden underneath the keyboard on iPad Chrome. It won’t appear even when scrolling up/down. This bug has been resolved. 
