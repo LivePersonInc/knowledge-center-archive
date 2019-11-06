@@ -17,6 +17,177 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Additional roles based on granular permissions within Conversation Builder
+
+### Type: New functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+{: .notice}  
+This feature is dependent upon users using LiveEngage v11.2
+
+As part of the Conversation Builder, LivePerson have moved to a more granular permissions model. As a result, the following new roles have been added:
+
+* **Bot Builder Lite**: This role is intended for the less technical bot builder. It’s just like the existing Bot Builder role except a user with this “lite” role can’t export or import bots, nor can they create and work with integrations or credentials.
+* **API Developer**: This is a technical but limited, add-on role. A user with this role can only create and work with integrations.
+* **API Credentials Manager**: This is a technical but limited, add-on role. A user with this role can only create and work with credentials.
+* **Import/Export Manager**: An add-on role. A user with this role can only export and import bots and knowledge bases.
+
+{: .notice}  
+API Developer, API Credentials Manager & Import/Export Manager are "_add-on"_ roles. They are intended to be assigned in conjunction with the Bot Builder Lite role as per users requirements.
+
+## File upload support in the Conversation Builder
+
+### Type: enhancement
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+When a consumer is having a conversation with a bot, it is sometimes necessary for a  consumer to upload a file to get quicker time resolution. For example, if the bot supports account creation, you might need the consumer to upload their driver’s license/ID and proof of a good credit score.
+
+LivePerson has added support for the upload of files by consumers. There is a new "file upload interaction type" which can be used in dialogs.
+
+!\[\](img/Conversation_Builder_RN_Nov11.png)
+
 ## Messaging History API: Messaging agent survey
 
 ### Type: New functionality
