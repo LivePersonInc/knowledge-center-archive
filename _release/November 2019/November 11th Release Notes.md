@@ -93,3 +93,27 @@ The timing and scope of these features or functionalities remain at the sole dis
 </table>
 
 </div>
+
+Update Messaging (conversation) History API to support the following:
+
+* Ability to filter conversations that are pending agent survey
+* Ability to view the survey filled in for every conversation and update if needed (in conversation view mode)
+* Ability to search conversations based on agent survey Q&As:
+  * Search based on question name and question ID
+  * Search based on keywords in question
+  * Search based on keywords in an answer
+  * Search based on SDEs
+
+We added new types to contentToRetrieve: previouslySubmittedAgentSurveys and latestAgentSurvey (not part of the default contentToRetrieve).
+
+For schema changes, please see the dev community.
+
+## Thumbnail masking 
+
+### Enhancement
+
+Given a site setting, mask the thumbnail of an image sent during the conversation, only for closed conversation. The replacing value for the thumbnail should be provided in the site settings: messaging.file.sharing.preview.masking.text with an encoded string that will represent the replacement for the thumbnail.
+
+If this input will be invalid, then the UI will present the following image:
+
+![](https://lh4.googleusercontent.com/CKeKZG6pnNr2witgdWGPi-_u8PaG2ld5gjGwE9FqwZHEDl6W6CrvmEkinuvxXAYMFXv9rBDhLyQqKe8YNDJM7bV5dJ4EBUph-1NGSCzMyUkgDt3f38BoMPCd1y_19Z7p2ZqwkxNb =415x105)
