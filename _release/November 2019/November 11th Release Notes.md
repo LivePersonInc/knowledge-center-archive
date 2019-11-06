@@ -186,7 +186,7 @@ When a consumer is having a conversation with a bot, it is sometimes necessary f
 
 LivePerson has added support for the upload of files by consumers. There is a new "file upload interaction type" which can be used in dialogs.
 
-!\[\](img/Conversation_Builder_RN_Nov11.png)
+![](img/Conversation_Builder_RN_Nov11.png)
 
 ## Messaging History API: Messaging agent survey
 
@@ -284,7 +284,7 @@ Given a site setting, mask the thumbnail of an image sent during the conversatio
 
 If this input will be invalid, then the UI will present the following image:
 
-!\[\](img/Thumbnail_masking_RN.png)
+![](img/Thumbnail_masking_RN.png)
 
 ## Data access: add profile ID 
 
