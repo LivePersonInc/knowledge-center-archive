@@ -106,9 +106,9 @@ Update Messaging (conversation) History API to support the following:
 
 We added new types to contentToRetrieve: previouslySubmittedAgentSurveys and latestAgentSurvey (not part of the default contentToRetrieve).
 
-For schema changes, please see the dev community.
+For schema changes, please see the developers community.
 
-## Thumbnail masking 
+## Thumbnail masking
 
 ### Enhancement
 
@@ -116,4 +116,4 @@ Given a site setting, mask the thumbnail of an image sent during the conversatio
 
 If this input will be invalid, then the UI will present the following image:
 
-![](https://lh4.googleusercontent.com/CKeKZG6pnNr2witgdWGPi-_u8PaG2ld5gjGwE9FqwZHEDl6W6CrvmEkinuvxXAYMFXv9rBDhLyQqKe8YNDJM7bV5dJ4EBUph-1NGSCzMyUkgDt3f38BoMPCd1y_19Z7p2ZqwkxNb =415x105)
+!\[\](img/Thumbnail_masking_RN.png)
