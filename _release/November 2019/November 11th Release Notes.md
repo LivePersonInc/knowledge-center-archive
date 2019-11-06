@@ -62,29 +62,29 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 <tr>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
-<td>No</td>
+<td>Yes</td>
 
 </tr>
 
