@@ -849,3 +849,186 @@ For customers using the old agent workspace, the latest update to the Chrome bro
 Image 1: Duplicate spacing before the fix
 
 ![](img/week-of-november-11th-26.png)
+
+## [Enhanced agent workspace] Option to view Predefined Content item titles only 
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+In the enhanced agent workspace each user is able to control whether the predefined content widget displays the text and title for each piece of content, or to hide the content text and display the titles only. 
+If the user chooses the “Titles only” display option, hovering each item will display the text content on a tooltip for assistance. The configuration is enabled per agent only and does not affect entire account.
+
+**Screenshots**
+
+Image 1: The predefined content default state - titles with text for each item
+
+![](img/week-of-november-11th-27.png)
+
+Image 2: New menu with the option to choose “Show titles only”
+
+![](img/week-of-november-11th-28.png)
+
+Image 3: Displayed “Titles only” in the widget
+
+![](img/week-of-november-11th-29.png)
+
+## [Enhanced agent workspace] Unselect conversation action
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The enhanced agent workspace now features the option to “Unselect” a conversation:
+When a user is focused on a specific conversation and would like to hide it, a new option has been added to the conversation action menu: “Unselect conversation”. When this option is selected it will hide the conversation from the user’s screen (but will not remove it from the My Connections list). 
+
+If, however, the user filtered out some of the statuses (e.g idle/closed conversations are filtered out) and the user chooses “Unselect” for a conversation with one of these statuses, it will also not be displayed at the list anymore (until the user filters this status back in). This functionality is supported for the My Connections list only.
+
+**Screenshots**
+
+Image 1: new “Unselect conversation” option in the conversation action menu
+
+![](img/week-of-november-11th-30.png)
+
+Image 2: the conversation is unselected, and the workspace is not focused on any conversation
+
+![](img/week-of-november-11th-31.png)
+
+## [Enhanced agent workspace] Display summary notes for previous conversations
+
+### Type: Enhancement 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+In the enhanced workspace, past conversations are displayed above the current conversation in the transcript. We have now added the ability to see previous conversation summaries as written by previous agents who participated in the conversation (one or more). Whenever the agent views previous conversations, he will now be able to go over previous conversation summaries as well to get clarity on customer inquiries.
+
+**Screenshots**
+
+Image 1: Previous conversation is expanded and conversation summary is displayed
+
+![](img/week-of-november-11th-32.png)
+
+## [PCI forms] Special characters appear in gibberish
+
+### Type: Bug fix
+
+For some languages that contains special characters (e.g - Russian), when a secure form is being sent to the consumer, the special characters were not displayed correctly in both the enhanced agent workspace, as well as on the consumer side. This bug has been fixed and special characters now display as expected.
+
+Before the fix: random characters are being displayed in the agent workspace
+
+![](img/week-of-november-11th-33.png)
+
+## Custom widgets memory leak on Internet Explorer 11
+
+### Type: Bug fix
+
+Customers working with Internet Explorer 11 browser and using custom widget, mostly heavy loading widgets, experience a memory leak on the browser. This behavior only reproduced on IE11 and did not happen in any other browsers.
+
+The root cause of this issue is due to bug on IE11 browser memory management, which does not release memory itself on every iframe removal from the DOM.
+
+The fix included memory management on both IE11 and Edge browsers - before removing the iframe from the DOM, we first redirect the iframe to a blank page, and only then removing the iframe. Following the fix, there has been a major reduction in the memory usage for these browsers.
