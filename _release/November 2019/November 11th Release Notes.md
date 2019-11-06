@@ -106,8 +106,6 @@ Update Messaging (conversation) History API to support the following:
 
 We added new types to contentToRetrieve: previouslySubmittedAgentSurveys and latestAgentSurvey (not part of the default contentToRetrieve).
 
-For schema changes, please see the developers community.
-
 ## Thumbnail masking
 
 ### Enhancement
@@ -117,3 +115,9 @@ Given a site setting, mask the thumbnail of an image sent during the conversatio
 If this input will be invalid, then the UI will present the following image:
 
 !\[\](img/Thumbnail_masking_RN.png)
+
+## Data access: add profile ID 
+
+Add the profile ID of the agent in the time of the login in the 'Agent Activity' resource of the data access API. This API is based on the event RepSessionEvent produced by Denver.
+
+The API signature has not changed, but the data structure of the JSON in the returned files has changed.
