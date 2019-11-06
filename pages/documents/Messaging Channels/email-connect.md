@@ -1,27 +1,27 @@
 ---
-pagename: Email Connect
+pagename: EmailConnect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Get more out of email with LivePerson's Email Connect, a single platform
+subtitle: Get more out of email with LivePerson's EmailConnect, a single platform
   to manage email and all customer communications
 level3: ''
-permalink: messaging-channels-email-connect.html
+permalink: messaging-channels-emailconnect.html
 isTutorial: false
 isNew: false
 
 ---
-With Email Connect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
+With EmailConnect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
 Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
-Email Connect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and smart capacity.
+EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and smart capacity.
 
-## Why brands should use Email Connect
+## Why brands should use EmailConnect
 
 ### Increase agent efficiency through a better email management tool
 
-Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
+EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
 
 ### Single interface for all messaging
 
@@ -29,7 +29,7 @@ Agents handle emails in the same easy to use LiveEngage interface they use for a
 
 ### Use bots and automations for emails
 
-Email Connect is fully compatible with LivePerson powered bots and AI, allowing brands to create email auto-responses or AI powered responses based on the content of emails.
+EmailConnect is fully compatible with LivePerson powered bots and AI, allowing brands to create email auto-responses or AI powered responses based on the content of emails.
 
 ### Simple email replies using predefined content
 
@@ -37,31 +37,31 @@ Email Connect has access to the same predefined content tools that are available
 
 ### Rich messaging capabilities
 
-Send and receive email attachments using Email Connect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “Email Connect Setup” below.
+Send and receive email attachments using EmailConnect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “EmailConnect Setup” below.
 
 ### Easy setup & onboarding
 
-Brands can set-up Email Connect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
+Brands can set-up EmailConnect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
 
 ## Coming Soon
 
-Email Connect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
+EmailConnect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
 
 * **Custom templates for email replies —** Brands will be able to add custom html headers and footers to their outbound emails in the Email Connect Setup page.
 * **File attachments settings —** Admins will be able to turn on or off the ability to support attachments from email setup.
 * **Multiple email addresses —** Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
-## Email Connect Setup
+## EmailConnect Setup
 
-To start using Email Connect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
+To start using EmailConnect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
 
-<!--Start using Email Connect today - you can set this up on your own and be up and running in minutes.-->
+<!--Start using EmailConnect today - you can set this up on your own and be up and running in minutes.-->
 
 {: .notice}  
-**Please note:** Email Connect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
+**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
 
 {: .important}  
-To setup Email Connect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
+To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
 ### Step 1: Connect your email in LiveEngage
 
@@ -69,7 +69,7 @@ Login to LiveEngage and click LiveEngage Applications menu at the bottom left of
 
 ![](img/email-connect-1.png)
 
-Click **Email Connect**. The Email Connect setup screen will automatically open in a separate browser tab.
+Click **EmailConnect**. The Email Connect setup screen will automatically open in a separate browser tab.
 
 ![](img/email-connect-2.png)
 

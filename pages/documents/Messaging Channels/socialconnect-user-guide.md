@@ -15,14 +15,11 @@ isNew: false
 Follow the steps below to get started with SocialConnect: 
 
 1. After clicking on the SocialConnect button in the QuickLaunch menu, admins will be taken to the SocialConnect sign up page, which includes a “Sign Up” button. 
-
-![](img/socialconnect-user-guide-1.png)
-
-{:start="2"}
-2. After selecting “Sign Up,” the admin is taken to the “Thank You” Screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
+2. After selecting “Sign Up,” the admin is taken to the “Thank You” screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
 3. The LP Support agent will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect.
 
-![](img/socialconnect-user-guide-2.png)
+{: .sidebyside}
+![](img/SocialConnect-user-guide-1.png)![](img/socialconnect-user-guide-2.png)
 
 ## LiveEngage agent experience 
 
@@ -46,12 +43,11 @@ The transcript view will be modified to show a “public” or “private” sig
 * Private (Facebook and Twitter)
   * Facebook - Facebook Messenger conversations sent to the brand’s account
   * Twitter - Twitter Direct Messages sent to the brand's account
-  
+
+{: .sidebyside}  
 ![](img/socialconnect-user-guide-3.png)![](img/socialconnect-user-guide-4.png)
 
 ![](img/socialconnect-user-guide-5.png)
-
-![](img/socialconnect-user-guide-6.png)
 
 ## Social widget 
 
@@ -67,8 +63,6 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Time Zone
   * Gender
 
-![](img/socialconnect-user-guide-7.png) 
-
 * Twitter 
   * Account Name
   * Registration Name
@@ -80,8 +74,9 @@ The Consumer Profile provides agents with the user’s channel-specific social n
   * Number of Followers
   * Number of accounts following
   * Biography
-  
-![](img/socialconnect-user-guide-8.png)
+
+{: .sidebyside}  
+![](img/socialconnect-user-guide-7.png) ![](img/socialconnect-user-guide-8.png)
 
 ### Send image
 
@@ -92,8 +87,6 @@ The “Send Image” button provides agents the ability to send media files (ima
   * Agents can upload a media file from their desktop by Drag and Drop method or Browse Files
   * Add Media Tool will display a preview of the media file that will be sent to the consumer
   * Agents can “Cancel” to close the Add Media tool or “Send Image” to send the image to the consumer in the conversation.
-
-![](img/socialconnect-user-guide-9.png)
 
 ![](img/socialconnect-user-guide-10.png)
 
@@ -114,8 +107,6 @@ Facebook:
 * URL Format: http://m.me/<PAGE_NAME>
   * Page Name = the name of the brand’s page
 
-![](img/socialconnect-user-guide-13.png)
-
 ![](img/socialconnect-user-guide-14.png)
 
 ### Private/Public Switch
@@ -128,15 +119,11 @@ The Public/Private Switch provides agents with context for the last message rece
     * Private - respond to the last message received through Messenger
     * Private Response - respond to a consumer that sent a public message through Messenger
     
-![](img/socialconnect-user-guide-15.png)
-
   * Twitter 
     * Public - respond to the last public tweet
     * Private - respond to the last message received through Direct Messages (DM)
     
-![](img/socialconnect-user-guide-16.png)
-
-### Character Counter 
+### Character counter 
 
 The Character Counter provides agents with the ability to validate the number of characters in a message they are crafting.
 * Messages crafted in the Transcript that hit the channel character limit provide a “message not sent” error to the agent
@@ -151,10 +138,6 @@ The Character Counter provides agents with the ability to validate the number of
   * Public Post - 63,206 characters
   * Public Comment - 5,000 characters
   * Messenger - 640 characters per message
-  
-![](img/socialconnect-user-guide-17.png)
-
-![](img/socialconnect-user-guide-18.png)
 
 ### View Media 
 
@@ -173,8 +156,6 @@ For Authenticated LiveEngage Users, SocialConnect is discoverable via the QuickL
 * Clicking on the SocialConnect button in QuickLaunch will take users to the Authenticated User Marketing Page, which includes a “Sign Up” button. 
 * After selecting “Sign Up,” the admin is taken to the “Thank You” Screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
 * The LP Support Agent will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect.
-
-![](img/socialconnect-user-guide-20.png)
 
 ![](img/socialconnect-user-guide-21.png)
 
