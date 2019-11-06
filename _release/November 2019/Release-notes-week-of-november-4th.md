@@ -1,14 +1,14 @@
 ---
 pagename: Week of November 4th
 categoryName: Release notes
-subCategoryName: 
+subCategoryName:
 indicator: both
 subtitle: ''
 level3: ''
 permalink: release-notes-2019-november-week-of-november-4th.html
 isTutorial: false
 isNew: false
-
+date: 2019-11-04
 ---
 These release notes include new features arriving to LiveEngage during November 2019. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
@@ -220,9 +220,9 @@ With the new infrastructure upgrade, there are some changes in terminology which
 * Sheet ⇒ Chapter
 * Panel ⇒ Page
 
-### Enhancements include: 
+### Enhancements include:
 
-#### Accessing the Report Builder 
+#### Accessing the Report Builder
 
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
@@ -267,7 +267,7 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 Export dossiers to a formatted PDF file, including visualizations and advanced formatting options:
 
 1. layout ( Automatic, Portrait, Landscape)
-2. Advanced mode to export the visualizations individually on separate pages to include all data. 
+2. Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/RB4_6.png)
 
@@ -295,9 +295,9 @@ After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom
 
 ![](img/RB4_8.png)
 
-## [LINE] Agent to consumer photo sharing support 
+## [LINE] Agent to consumer photo sharing support
 
-### Type: New functionality 
+### Type: New functionality
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -356,63 +356,63 @@ Image 2: Consumer sees the file agent shares
 
 ## [Unauthenticated Engagement Attributes] Change default to True
 
-### Type: Enhancement 
+### Type: Enhancement
 
-Whenever an unauthenticated engagement attribute is being reported per consumer, LiveEngage has the ability to hide or display the attribute in the agent workspace. 
+Whenever an unauthenticated engagement attribute is being reported per consumer, LiveEngage has the ability to hide or display the attribute in the agent workspace.
 
 The decision whether to hide or display the attribute is determined per site, according to a dedicated site setting. Previously, the site setting default was set to false, meaning that unauthenticated engagement attributes were hidden from agents, unless this has been changed manually per site.
 
-We’ve changed the site setting to be true by default, meaning that there is no need to perform any additional action for agents to be able to view unauthenticated attributes which have been reported on a consumer. 
+We’ve changed the site setting to be true by default, meaning that there is no need to perform any additional action for agents to be able to view unauthenticated attributes which have been reported on a consumer.
 
-{: .notice} 
+{: .notice}
 **Please note:** Customers who wish to hide the unauthenticated engagement attribute data from agents in the agent workspace will still be able to do that by contacting their LivePerson representative.
 
 **Limitations**
 * This change is only applicable for customers who haven't changed the site setting value manually in the past. For these customers, the value will remain as it is.
 
-## [Enhanced agent workspace] Keyboard navigation in agent textbox 
+## [Enhanced agent workspace] Keyboard navigation in agent textbox
 
-### Type: Enhancement 
+### Type: Enhancement
 
 In the agent textbox agents now have the option to navigate up and down within the input field using their keyboard only. This means if the agent wrote more than one line of text, they will be able to press the ‘DOWN’ key to go to the second/third/fourth lines, or use the “UP” key to go to the lines above.
 
-![](img/week-of-november-4th-1.png) 
+![](img/week-of-november-4th-1.png)
 
-## [Enhanced agent workspace] Display CSAT in the consumer info widget 
+## [Enhanced agent workspace] Display CSAT in the consumer info widget
 
-### Type: Bug fix 
+### Type: Bug fix
 
-Previously in the enhanced agent workspace, the CSAT value for previous conversations was displayed above the transcript area, in the previous conversations section only. However, the CSAT value was not being displayed in the consumer info widget as well. This has been fixed - the CSAT value is now displayed in the consumer info widget as well as above the transcript. 
+Previously in the enhanced agent workspace, the CSAT value for previous conversations was displayed above the transcript area, in the previous conversations section only. However, the CSAT value was not being displayed in the consumer info widget as well. This has been fixed - the CSAT value is now displayed in the consumer info widget as well as above the transcript.
 
-![](img/week-of-november-4th-2.png) 
+![](img/week-of-november-4th-2.png)
 
 ## [Enhanced agent workspace] Scroll option missing in structured content preview
 
-### Type: Bug fix 
+### Type: Bug fix
 
 Previously in the enhanced agent workspace, when an agent sent a long structured content message the preview window displayed without a scrolling option on small screens (14-inch laptop screens). Agents could not scroll up or down to check the content before sending it to consumers. This bug has been fixed and a scrolling option is now available in the preview window for all screen sizes.
 
-**Screenshots** 
+**Screenshots**
 
 Image 1: No scroll option in structured content preview window
 
-![](img/week-of-november-4th-3.png) 
+![](img/week-of-november-4th-3.png)
 
-Image 2: After fix 
+Image 2: After fix
 
-![](img/week-of-november-4th-4.png) 
+![](img/week-of-november-4th-4.png)
 
 ## [Agent widget SDK] ‘Claims’ key is not populated with data
 
-### Type: Bug fix 
+### Type: Bug fix
 
 The Agent Widget SDK holds the following key: claimsAndAuthType
 
 The claims key should be populated with data on the consumer side, but in several use cases the key was not populated and remained empty in the enhanced agent workspace. This bug is now fixed and the key is populated with the correct data.
 
-## [Post Conversation Survey] Color and button display improvements 
+## [Post Conversation Survey] Color and button display improvements
 
-### Type: Bug fix 
+### Type: Bug fix
 
 Previously in the Bot Studio when a user edited the text or colors in a Post Conversation Survey it affected the display in the agent workspace as well as the engagement window. It has been discovered that some of the colors were not generating properly in the agent workspace as well as in the consumer window.
 
@@ -420,15 +420,14 @@ For example:
 
 1. When using a color fill for the headline in a text, on display for the user/agent only the SPAN adopts the color and not the whole div (full box area).
 
-![](img/week-of-november-4th-5.png) 
+![](img/week-of-november-4th-5.png)
 
 {:start="2"}
 2. Button outlines are not showing at all, buttons are showing as one full box without outlines to distinguish one button from another.
 
-![](img/week-of-november-4th-6.png) 
+![](img/week-of-november-4th-6.png)
 
 {:start="3"}
 3. Text going down a line and breaking words.
 
 All of the above issues have been fixed and display as expected now in both the agent workspace and engagement window.
-
