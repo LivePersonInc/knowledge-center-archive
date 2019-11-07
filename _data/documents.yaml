@@ -38,17 +38,17 @@
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
     - subcategoryname: WhatsApp Business
-    - subcategoryname: Email Connect
+    - subcategoryname: EmailConnect
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
         - pagename: Displaying chat engagements
-    - subcategoryname: Proactive messaging 
+    - subcategoryname: Proactive messaging
       pages:
-        - pagename: Proactive messaging overview 
-        - pagename: Proactive messaging user guide 
+        - pagename: Proactive messaging overview
+        - pagename: Proactive messaging user guide
     - subcategoryname: Rich messaging
       pages:
         - pagename: Rich messaging overview
@@ -317,6 +317,9 @@
   subcategories:
     - subcategoryname: Open platform
     - subcategoryname: LivePerson Functions
+      pages:
+        - pagename: Overview
+        - pagename: Terms of Use
 
 - categoryname: "What's new"
   image: whats-new
@@ -337,6 +340,7 @@
       pages:
         - pagename: November
           level3:
+            - level3name: Week of November 11th
             - level3name: Week of November 4th
         - pagename: October
           level3:
