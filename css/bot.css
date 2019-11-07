@@ -3,8 +3,14 @@ body {
 }
 
 .botwrapper {
-  background: #16134a;
+  background: rgb(5,25,55);
+  background: linear-gradient(150deg, rgba(5,25,55,1) 0%, rgba(9,9,121,1) 50%, rgba(1,123,141,1) 100%);
   grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px !important;
+}
+
+.botwrapper #defaultheader {
+  box-shadow: 445px 2rem 5rem -0.5rem #18124b;
+  z-index: 10;
 }
 
 .botwrapper #defaultsidebar {
@@ -15,11 +21,6 @@ body {
   font-weight: bold;
   color: black;
 }
-
-.botwrapper #defaultheader {
-  box-shadow: 445px 1rem 5rem -0.5rem #18124b;
-}
-
 
 .botTitle {
   display: none !important;
@@ -45,7 +46,7 @@ body {
 
 .lpc_desktop.lpc_message-area {
     padding: 0 20px 4px !important;
-    background: #16134a !important
+    background: transparent !important
 }
 
 .lpc_desktop.lpc_window_minimized {
@@ -59,14 +60,15 @@ body {
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
     width: 30% !important;
-    min-height: 66vh !important;
+    min-height: 77vh !important;
     border: none!important;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2) !important;
     overflow: hidden;
     position: absolute !important;
-    top: 15vh;
+    top: 7.2vh;
     right: 25% !important;
     bottom: 60vh !important;
+    z-index: 1 !important;
 }
 
 .lpc_desktop.lpc_maximized-header,
@@ -206,7 +208,7 @@ body {
 }
 
 .lpc_desktop.lpc_layout {
-    background: #16134a !important;
+    background: transparent !important;
 }
 
 .lpc_desktop.lpc_maximied-header {
@@ -332,7 +334,6 @@ body {
 }
 
 .lpc_desktop.lpc_message_agent {
-    background: #465684 !important;
     border: none !important;
     padding: 10px 16px 14px 16px !important;
     border-radius: 10px 10px 10px 0 !important;
@@ -416,7 +417,7 @@ body {
 
 .lpc_desktop.lpc_message_visitor {
     border: none !important;
-    background-color: transparent !important;
+    background-color:transparent !important;
     /* padding: 10px 20px 10px 20px !important; */
     border-radius: 10px 10px 0 10px !important;
     border: solid 2px #b1b5bc !important;
@@ -459,7 +460,6 @@ body {
     min-height: 50px !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     border: solid 2px #84a3ea !important;
-    width: 70% !important;
     margin-left: 30px;
     border-radius: 4px;
     color: #5f6368 !important;
@@ -510,7 +510,7 @@ body {
 
 /* needed so that the background is blue all around */
 .lp_desktop #lpChat > .lp_maximized .lp_main.lpc_body {
-    background: #16134a !important;
+    background: transparent !important;
 }
 
 /* needed to effectively remove box-shadow and give the box round corners */
@@ -557,4 +557,9 @@ body {
 /* needed to make the placeholder follow the color */
 .lp-window-root .lp_input_area .lp_expandable_textarea::placeholder {
   color: #5f6368 !important;
+}
+
+/* needed so that lpc-layout works */
+#lpChat .lp_transcript_widget {
+background: transparent !important;
 }
