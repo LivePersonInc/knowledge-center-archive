@@ -412,7 +412,7 @@ body {
 .lpc_desktop.lpc_message_visitor {
     border: none !important;
     background-color: transparent !important;
-    adding: 10px 20px 10px 20px !important;
+    /* padding: 10px 20px 10px 20px !important; */
     border-radius: 10px 10px 0 10px !important;
     border: solid 2px #b1b5bc !important;
 }
@@ -544,4 +544,9 @@ body {
 
 .lp_bottom_area {
   border-radius: 4px !important;
+}
+
+/* needed to make the placeholder follow the color */
+.lp-window-root .lp_input_area .lp_expandable_textarea::placeholder {
+  color: #5f6368 !important;
 }
