@@ -3,7 +3,7 @@ pagename: Proactive messaging overview
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Go from 1-way SMS to rich 2-way conversational experiences
+subtitle: Transition from one-way SMS to rich two-way conversational experiences
 level3: ''
 permalink: messaging-channels-proactive-messaging-proactive-messaging-overview.html
 isTutorial: false
