@@ -34,11 +34,13 @@ body {
   display: none !important;
 }
 
-.lp_desktop .lp-window-root>.lp_maximized>.lp_main.lpc_body {
-    background: #16134a !important;
-}
+
 .lpc_desktop.lpc_window_maximized {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.lpc_layout {
+    padding-bottom: 0 !important;
 }
 
 .lpc_desktop.lpc_message-area {
@@ -56,7 +58,7 @@ body {
 
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
-    width: 45% !important;
+    width: 35% !important;
     min-height: 66vh !important;
     border: none!important;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2) !important;
@@ -198,7 +200,7 @@ body {
 
 .lpc_desktop.lpc_window_maximized {
     height: 650px !important;
-    border-radius: 6px !important;
+    border-radius: 0 !important;
     margin-bottom: 0 !important;
     max-height: calc(100% - 15px) !important;
 }
@@ -451,7 +453,11 @@ body {
 .lpc_desktop.lpc_composer {
     height: 50px !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
-    border-top: none !important;
+    border: solid 2px #84a3ea !important;
+    width: 70% !important;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #5f6368 !important;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
@@ -468,7 +474,7 @@ body {
 
 .lpc_desktop.lpc_composer__text-area::placeholder {
     font-style: normal !important;
-    color: #d6d6d6 !important;
+    color: #5f6368 !important;
 }
 
 .lpc_desktop.lpc_composer__menu-button {
@@ -493,4 +499,49 @@ body {
     background-position: 0 4px;
     background-size: 18px;
     height: 30px !important;
+}
+
+/* these need to be fixed */
+
+/* needed so that the background is blue all around */
+.lp_desktop #lpChat > .lp_maximized .lp_main.lpc_body {
+    background: #16134a !important;
+}
+
+/* needed to effectively remove box-shadow and give the box round corners */
+
+.lp_desktop #lpChat .lpmx {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0 !important;
+}
+
+/* needed to style scrollbar, no alternate class found */
+.lp_location_center::-webkit-scrollbar-track {
+	background-color: #fff;
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  border-radius: 15px;
+}
+
+.lp_location_center::-webkit-scrollbar{
+  width: 15px;
+  height: 10px;
+	background-color: #84a3ea;
+  border-radius: 15px;
+}
+
+.lp_location_center::-webkit-scrollbar-thumb {
+	background-color: #84a3ea;
+  border-radius: 15px;
+}
+
+/* needed to override border-top */
+
+.lp_desktop #lpChat > .lp_maximized .lp_main .lp_main_area .lp_location_bottom {
+  border: solid 2px #84a3ea !important;
+}
+
+/* no alternative class found */
+
+.lp_bottom_area {
+  border-radius: 4px !important;
 }
