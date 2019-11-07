@@ -61,29 +61,29 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 <tr>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
-<td>No</td>
+<td>NA</td>
 
 </tr>
 
@@ -96,7 +96,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 {: .notice}  
 This feature is dependent upon users using LiveEngage v11.2
 
-As part of the Conversation Builder, LivePerson have moved to a more granular permissions model. As a result, the following new roles have been added:
+In order to provide granular controls in Conversation Builder, the following new permissions were added to LiveEngage:
 
 * **Bot Builder Lite**: This role is intended for the less technical bot builder. It’s just like the existing Bot Builder role except a user with this “lite” role can’t export or import bots, nor can they create and work with integrations or credentials.
 * **API Developer**: This is a technical but limited, add-on role. A user with this role can only create and work with integrations.
@@ -131,16 +131,16 @@ API Developer, API Credentials Manager & Import/Export Manager are "_add-on"_ ro
 <tbody>
 <tr>
 <td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 <td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 <td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
+<td>No</td>
+<td>No</td>
 <td>No</td>
 </tr>
 </tbody>
