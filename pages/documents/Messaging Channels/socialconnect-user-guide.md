@@ -18,7 +18,7 @@ Follow the steps below to get started with SocialConnect:
 2. After selecting “Sign Up,” the admin is taken to the “Thank You” screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
 3. The LP Support agent will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect.
 
-![](img/SocialConnect-user-guide-1.png)
+![](img/SocialConnect_launchpad.png)
 
 ## LiveEngage agent experience 
 
