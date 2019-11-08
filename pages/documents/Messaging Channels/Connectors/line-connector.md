@@ -31,6 +31,3 @@ By adding a QR code to an invoice, email or advertisement, brands can allow cons
 
 ![](/img/line connector 2-1.png)
 
-<div class="important">
-
-<b>Note:</b> Due to a LINE limitation, the LINE connector is only available for accounts in APAC.</div>
