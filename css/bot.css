@@ -8,6 +8,10 @@ body {
   grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px !important;
 }
 
+#resetcontainer {
+  display: none;
+}
+
 .botwrapper #defaultheader {
   box-shadow: 445px 2rem 5rem -0.5rem #18124b;
   z-index: 10;
