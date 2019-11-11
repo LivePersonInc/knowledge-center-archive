@@ -40,14 +40,18 @@ The following items are generally **not supported:**
 * Alterations or revisions to the LivePerson code by the customer.
 * Continued support of issues for which LivePerson has provided a solution that has not been implemented by the customer, or for which data requested from the customer has not been provided.
 * Writing or debugging custom applications without following LivePerson integration guidelines.
-* Dashboards and derived metrics/attributes created by the customer in LiveEngage [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
+* Dashboards and derived metrics/attributes created by the customer in the [Report Builder](data-reporting-report-builder-report-builder-overview.html).
 * Third party services, products or technology. Please let us know if you have questions about a third party tool and we will endeavor to help obtain additional information for you.
 
 ## Engagement channels
 
-Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to Customer’s mobile application etc).
+LivePerson Support provides 24x7 chatsupport. Chat is accessible from the LiveEngage Connection Area.
 
-Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays.
+## Severity definitions and service levels
+Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is
+assigned a severity level and is tracked according to the following service levels. Upon request, Customer will promptly
+provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the
+investigation of all support issues (e.g., test account information, user ID's, access to Customer’s mobile application etc.).Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays. 
 
 * Severity
 * Level
