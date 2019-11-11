@@ -5,7 +5,7 @@ var search = document.getElementById('aa-search-input');
 const searchInstance = autocomplete(
   '#aa-search-input',
   {
-    debug: false
+    debug: true
   },
   [
     {
@@ -34,7 +34,7 @@ const searchInstance = autocomplete(
             )
           } else {
           return (
-            '<span class="searchtitlecontainer">' + '<a  onclick="linkclick(event, this)" class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
+            '<a onclick="linkclick(event, this)" class="searchtitle" href="' + link +'"> <span class="searchtitlecontainer">' + value + '</span></a>' + '<br />' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
           )
           }
         },
@@ -70,8 +70,11 @@ searchInstance.on({
     footer.classList.add('overlayvisible');
 },
   'autocomplete:selected': function (event, suggestion, dataset, context) {
-    var target = suggestion.url;
+    var target = suggestion.permalink;
     navigateContent(target);
+    window.history.pushState({
+      url: target
+    }, '', target);
 },
   'autocomplete:updated': function () {
     if (this.value != '') {

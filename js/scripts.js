@@ -14,7 +14,6 @@ $(document).ready(function () {
 	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
-	searchHighlight();
 	$(document).ready(function () {
 	scrollToHash();
 	if(checkCookie(window.cookieName) != window.cookieValue){
@@ -51,10 +50,10 @@ function navigateContent(url) {
 			}
 			anchors.add('h2, h3');
 			// $('#mysidebar div.activeitem').removeClass('activeitem');
+			sideBarCollapse ();
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
-			searchHighlight();
 			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
@@ -117,7 +116,6 @@ function linkload() {
 		url: url
 	}, '', url);
 };
-sideBarCollapse();
 //handle back/forward and refresh events
 $(window).on('popstate', function (e) {
 	var state = e.originalEvent.state;
@@ -359,20 +357,6 @@ function capabilitiesSearch() {
 		});
 	};
 };
-
-function searchHighlight() {
-	//grab the filter element from local storage. We define this element in the inline script on the default page.
-	var toHighlight = localStorage.getItem('filter');
-	//if the element has been created
-	if (toHighlight) {
-		//find its content within the page and apply the highlight class
-		$('#defaultcontent').highlight(toHighlight, {
-			className: 'searchHighlight'
-		});
-	};
-	//set the filter element to empty so that filtering doesn't "carry over" to future navigation
-	localStorage.setItem('filter', '');
-}
 
 //on scroll
 $(window).scroll(function() {
