@@ -34,7 +34,7 @@ const searchInstance = autocomplete(
             )
           } else {
           return (
-            '<a onclick="linkclick(event, this)" class="searchtitle" href="' + link +'"> <span class="searchtitlecontainer">' + value + '</span></a>' + '<br />' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
+            '<a class="searchtitle" href="' + link +'"> <span class="searchtitlecontainer">' + value + '</span></a>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
           )
           }
         },
@@ -70,11 +70,7 @@ searchInstance.on({
     footer.classList.add('overlayvisible');
 },
   'autocomplete:selected': function (event, suggestion, dataset, context) {
-    var target = suggestion.permalink;
-    navigateContent(target);
-    window.history.pushState({
-      url: target
-    }, '', target);
+    window.location = suggestion.permalink;
 },
   'autocomplete:updated': function () {
     if (this.value != '') {

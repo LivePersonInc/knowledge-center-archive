@@ -222,6 +222,8 @@ function sideBarCollapse () {
 	var modifiedURL = '/' + url.split('/').reverse()[0].replace(/\#.*/, '');
 	var currentPage = $('a[href="' + modifiedURL + '"]');
 	var currentPageOpener = currentPage.parents().children(".canOpen");
+	$(".categoryfolder a").removeClass("activeitem");
+	$(this).addClass('itemdetails');
 	currentPage = currentPage.addClass("activeitem");
 	currentPageOpener = currentPageOpener.trigger("click");
 }
