@@ -44,17 +44,17 @@ The following items are generally **not supported:**
 
 ### Engagement channels
 
-LivePerson Support provides 24x7 chat support. Chat is accessible from the LiveEngage Connection Area.
+LivePerson Support provides 24x7 chat support. Chat is accessible from the LiveEngage Connection Area. Please contact our chat support for issues of any severity level.
 
 ### Severity definitions and service levels
 
 Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to customer’s mobile application etc.). Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays. 
 
-Severity level | Contact method | Description | Response time | Periodic updates | Preliminary root cause analysis
---- | --- |:--- | --- | --- | ---
-1 | Chat | LivePerson Products/Services are unavailable or severely degraded and have a significant impact on the customer's business functions and practices. A workaround is not available. Security incidents (availability of service due to DOS/DDOS attack, suspected/actual data compromise) are included in this severity level. | 1 hour | 2 hours | 3 business days
-2 | Chat | LivePerson Products/Services are available but degraded and the impact on customer's business functions and practices is moderate. A workaround may be available. | 3 hours | 1 business day | Not applicable
-3 | Chat | System performance issues or bugs affecting some but not all users/website visitors. Short term workaround is available, but not scalable. | 3 business days | 3 business days | Not applicable
+Severity level | Description | Response time | Periodic updates | Preliminary root cause analysis
+--- |:--- | --- | --- | ---
+1 | LivePerson Products/Services are unavailable or severely degraded and have a significant impact on the customer's business functions and practices. A workaround is not available. Security incidents (availability of service due to DOS/DDOS attack, suspected/actual data compromise) are included in this severity level. | 1 hour | 2 hours | 3 business days
+2 | LivePerson Products/Services are available but degraded and the impact on customer's business functions and practices is moderate. A workaround may be available. | 3 hours | 1 business day | Not applicable
+3 | System performance issues or bugs affecting some but not all users/website visitors. Short term workaround is available, but not scalable. | 3 business days | 3 business days | Not applicable
 
 **Please note:**
 * **Response time** is a verbal response (including phone), or written response, or electronic response (via the LivePerson Service Status Dashboard or via chat) from LivePerson to customers regarding an issue with LivePerson products.
