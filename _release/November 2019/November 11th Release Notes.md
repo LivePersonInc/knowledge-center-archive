@@ -271,6 +271,8 @@ Several new scripting functions have been added for managing the Context Session
 
 **Help:** "i" help icons in interactions are now available in dialog boxes as well as beside important and/or troublesome fields. Click the icon to read its context-sensitive help information. In some cases, these also link you directly to the documentation site for details.
 
+![](img/Usability_enhancementCB.png)
+
 ## File upload support in the Conversation Builder
 
 ### Type: Enhancement
