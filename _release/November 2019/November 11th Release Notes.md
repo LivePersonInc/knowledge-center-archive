@@ -240,6 +240,7 @@ Update Messaging (conversation) History API to support the following:
   * Search based on SDEs
 
 We added new types to contentToRetrieve: previouslySubmittedAgentSurveys and latestAgentSurvey (not part of the default contentToRetrieve).
+For more information please see the [developers community](https://developers.liveperson.com/messaging-interactions-api-methods-conversations.html)
 
 ## Thumbnail masking
 
