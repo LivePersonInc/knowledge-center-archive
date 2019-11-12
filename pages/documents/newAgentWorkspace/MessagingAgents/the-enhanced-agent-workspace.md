@@ -45,6 +45,6 @@ Agents can now scroll up to view the entire conversation history directly within
 
 Multiple notes by multiple agents can now be added to the conversation summary widget. This allows the assigned agent to view a log of comments and quickly get up to speed.
 
-### Enhanced customization of agent workspace (coming soon)
+### Enhanced customization of agent workspace 
 
-Starting this November, each agent will be able to select whether they want to work on a dark or light UI for their workspace.
+Each user is now able to select whether they want to work in dark or light mode for their workspace.
