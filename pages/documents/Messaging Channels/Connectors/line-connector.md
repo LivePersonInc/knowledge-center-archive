@@ -24,6 +24,26 @@ LiveEngage is now seamlessly integrated into LINE, offering your brand the oppor
 * **Rich Messaging capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
 
   ![](/img/Image-1 (1).jpg)
+  
+### Agent to consumer photo sharing
+
+This feature enables agents to share photos with consumers in LINE conversations. The image files will be shared from the local file dialog.
+
+The following file types are supported:
+* JPG
+* GIF
+* JPEG
+* PNG
+
+All files types have a file size limitation of 5MB. Agents will get an error if the file is not within this supported list. The file sharing flow, functionality, capabilities and limitations, remain similar to definitions described [here](messaging-channels-rich-messaging-agent-file-sharing-overview.html).
+
+Image 1: Agent shares images with consumer
+
+![](img/week-of-november-4th-7.png)
+
+Image 2: Consumer sees the file agent shares
+
+![](img/week-of-november-4th-8.png)
 
 ## How conversations start
 
