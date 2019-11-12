@@ -189,7 +189,7 @@ Several new scripting functions have been added for managing the Context Session
 
 ## Usability enhancements for the Conversation Builder
 
-## Type: enhancement
+### Type: enhancement
 
 <div class="tablecontainer">
 
