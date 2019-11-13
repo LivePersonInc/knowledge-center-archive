@@ -257,15 +257,7 @@ The LivePerson account team will enable this automatically for all customers aft
 
 Previously the number of characters available to clients in the quickReply field of the Post Conversation Survey to 5000. This has been expanded to 15000 characters.
 
-## Fixed Validation when creating Avro Event with incorrect PhoneType SDE (async-messaging)
-
-### Type: Bug fix
-
-If the PhoneType field in a client’s Structured Data Element is not a number ( e.g. “HOME” instead of “1”), the back end messaging server fails to parse it to the numeric value, eventually resulting in a rejection of the SetUserProfile request. This usually manifests itself as the user name being shown as “Visitor” in the All Connections page.
-
- This has now been fixed enhancing the PhoneType parsing so the SetUserProfile request will not be rejected.
-
-## Fixes in WorkShiftManagement - for incorrect ETTR calculations 
+## Fix in WorkShiftManagement - for incorrect ETTR calculations 
 
 ### Type: Bug fix
 
@@ -279,17 +271,17 @@ On some occasions when a request to transfer a conversation to a skill was valid
 
 Additional validation have been added to prevent it from attempting the re-route under those conditions.
 
-## AgentRequestConversation allocated group field is set to an allocated groupId of previous consumer's conversation
+## Stuck conversations fix
 
 ### Type: Bug fix
 
 Previously, agents that requested conversations had their group become the conversation’s allocatedGroup. This resulted in stuck conversations in certain circumstances, if the conversation was requested by a manager who then attempted to transfer it to another agent. This has now been fixed
 
-## Fix TenantIsolationException of rollover brand in getUserProfile.
+## Fix TenantIsolationException of rollover brand in getUserProfile
 
 ### Type: Bug fix
 
-Agents of rollover feature brands couldn’t perform getUserProfile on consumers mapped to the main brand due to tenant isolation restrictions. Tenant Isolation validation has been  modified to allow this case.
+Agents of rollover feature brands couldn’t perform getUserProfile on consumers mapped to the main brand due to tenant isolation restrictions. Tenant isolation validation has been  modified to allow this case.
 
 ## Keys for Connectors Outbound API for chat
 
