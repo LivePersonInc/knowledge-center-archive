@@ -136,7 +136,7 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- _release/November 2019/November 11th Release Notes.md
+- _release/November 2019/Week-of-november-18th.md
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
 - _release/November 2019/Release-notes-week-of-november-4th.md
 - pages/documents/Bots & Automation/conversational-ai.md
