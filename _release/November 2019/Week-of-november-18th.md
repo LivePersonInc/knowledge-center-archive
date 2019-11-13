@@ -556,6 +556,80 @@ When agents log in with automatic away, the away times are not calculated proper
 
 ## Static load balancing - configure skill by parent groups
 
+### Type: new functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
 {: .notice}  
 Available to messaging customers only
 
@@ -577,16 +651,81 @@ Resumed conversations will retain the resuming agent group and not the parent gr
 
 ### Queue prioritization - Priority based on messaging source
 
-**Type:**
+### Type: new functionality
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
 
 Enables brands to capitalize on high converting channels or specific campaigns sent by channels by assigning extra velocity to conversations based on the messaging source the conversation is coming from. For example, brands can look at the data on incoming messaged from whatsApp and decide that WhatsApp has higher conversion rates that other messaging channels and therefor, assign extra priority to conversations coming in from WhatsApp.
 
 {: .notice}**  
 **This feature needs to be configured by LivePerson account team
-
-  
-Bug Fixes
-
-### Validate Ring is in state ringing on ring accept business logic (AE-6414)
-
-Bug: After leader jump, Sky’s bot that subscribed to the same routing task notification got the same ring several times - accepted and changed skills. We added validation on the ring, to verify it is still in valid state to accept.
