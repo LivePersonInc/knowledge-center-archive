@@ -598,29 +598,29 @@ When agents log in with automatic away, the away times are not calculated proper
 
 <tr>
 
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
+<td>Yes</td>
 
 <td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
 
 </tr>
 
@@ -640,10 +640,6 @@ For example, Load balance between:
 * Contact center 1 - 30%
 * Contact center 2 - 30%
 * Contact center 3 - 60%
-
-!\[\](img/)
-
-![](https://lh5.googleusercontent.com/ea1jje4CaQ5V5x9vGGiXGIUA8XLgEEmsojVwBx3vLA0xUqwGXQVcHzra7b8MP8CFsrnjaMEoQgf35AKe6VA1xIatFjNgqwfzclJEyvgs87uG3hNkmr0T5QXZebdW5ecdI8v5Akgg =456x266)
 
 **{: .important}**
 
@@ -693,29 +689,29 @@ Resumed conversations will retain the resuming agent group and not the parent gr
 
 <tr>
 
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
-
-<td>No</td>
+<td>Yes</td>
 
 <td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>No</td>
 
 </tr>
 
