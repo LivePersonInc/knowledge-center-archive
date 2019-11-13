@@ -17,7 +17,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Enable Rollover for Back end messaging
+## Enable Rollover for back end messaging
 
 ### Type: New functionality
 
@@ -283,8 +283,6 @@ Additional validation have been added to prevent it from attempting the re-route
 
 ### Type: Bug fix
 
-**Available to all customers:** Yes
-
 Previously, agents that requested conversations had their group become the conversation’s allocatedGroup. This resulted in stuck conversations in certain circumstances, if the conversation was requested by a manager who then attempted to transfer it to another agent. This has now been fixed
 
 ## Fix TenantIsolationException of rollover brand in getUserProfile.
@@ -376,9 +374,9 @@ Includes new API privileges for the Connectors Outbound API for:
 * Messaging Connector Outbound Write External
 * Messaging Connector Outbound Read External
 
-## Partial Data Masking: Leave the Last 4 Digits Unmasked
+## Partial data masking - last 4 digits unmasked
 
-### Type: Feature
+### Type: new functionality 
 
 <div class="tablecontainer">
 
@@ -450,8 +448,7 @@ Includes new API privileges for the Connectors Outbound API for:
 
 </table>
 
-</div>
-
+</div>  
 Some customers would like to have the ability to leave the last 4 digits/characters of masked data unmasked. We recently implemented mandatory credit card data masking, but at least one customer will not accept this without the ability to leave the last 4 digits unmasked for audit-ability.
 
 ## Privileges for AppManagement
