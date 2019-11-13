@@ -283,7 +283,7 @@ Previously, agents that requested conversations had their group become the conve
 
 Agents of rollover feature brands couldn’t perform getUserProfile on consumers mapped to the main brand due to tenant isolation restrictions. Tenant isolation validation has been  modified to allow this case.
 
-## Keys for Connectors Outbound API for chat
+## Keys for connectors outbound API for chat
 
 ### Type: Feature
 
@@ -327,29 +327,29 @@ Agents of rollover feature brands couldn’t perform getUserProfile on consumers
 
 <tr>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>No</td>
 
-<td>NA</td>
+<td>Yes</td>
 
 </tr>
 
@@ -528,7 +528,6 @@ Includes new user privileges for App Management for:
 
 ### Type: Bug Fix
 
-  
 During logins, the authorization header, which contains the JWT, passed the max limit of header size in back-end chat server. This caused 400 error responses that fail due to GateKeeper being unable to process the request.
 
 ## "Visitor Name" displayed as "You" in the payload of FaaS chat events 
