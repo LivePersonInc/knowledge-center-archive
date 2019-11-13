@@ -476,7 +476,6 @@ body {
     min-height: 50px !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     border: solid 2px #84a3ea !important;
-    margin-left: 30px;
     border-radius: 4px;
     color: #5f6368 !important;
 }
@@ -546,6 +545,10 @@ body {
   color: #fff !important;
   padding: 10px 16px 14px 16px !important;
   margin-bottom: 5px !important;
+}
+
+.lpc_survey-area {
+  display: flex;
 }
 
 /* these need to be fixed */
@@ -645,4 +648,10 @@ background: transparent !important;
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-button button:hover {
   background-color: #4a61a9 !important;
+}
+
+/* needed to affect padding on main view */
+
+.lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent.lp_chat_line_wrapper {
+  padding: 0px 20px 4px 6px !important;
 }
