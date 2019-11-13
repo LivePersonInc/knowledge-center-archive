@@ -98,7 +98,7 @@ This functionality allows brands to let a dedicated 3rd party Contact Center han
 {: .notice}  
 This feature is enabled on a per brand basis by the LivePerson account team 
 
-## Agents will see all conversations that they are a participants in
+## Agents will see all conversations of which they are participants
 
 ### Type: Enhancement
 
