@@ -292,3 +292,301 @@ Previously, agents that requested conversations had their group become the conve
 ### Type: Bug fix
 
 Agents of rollover feature brands couldn’t perform getUserProfile on consumers mapped to the main brand due to tenant isolation restrictions. Tenant Isolation validation has been  modified to allow this case.
+
+## Keys for Connectors Outbound API for chat
+
+### Type: Feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+<td>NA</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Includes new API privileges for the Connectors Outbound API for:
+
+* Messaging Connector Outbound Write Internal
+* Messaging Connector Outbound Read Internal
+* Messaging Connector Outbound Write External
+* Messaging Connector Outbound Read External
+
+## Partial Data Masking: Leave the Last 4 Digits Unmasked
+
+### Type: Feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Some customers would like to have the ability to leave the last 4 digits/characters of masked data unmasked. We recently implemented mandatory credit card data masking, but at least one customer will not accept this without the ability to leave the last 4 digits unmasked for audit-ability.
+
+## Privileges for AppManagement
+
+### Type: Feature
+
+<div class="tablecontainer">
+
+<table class="releasenotes">
+
+<thead>
+
+<tr class="categoryrow">
+
+<th>Web Messaging</th>
+
+<th>Mobile App Messaging</th>
+
+<th>Twilio</th>
+
+<th>Facebook Messenger</th>
+
+<th>ABC</th>
+
+<th>Line</th>
+
+<th>Google RCS</th>
+
+<th>Google My Business</th>
+
+<th>WhatsApp Business</th>
+
+<th>CM</th>
+
+<th>WeChat</th>
+
+<th>Chat</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+Includes new user privileges for App Management for:
+
+* LiveEngage App Management full access
+* LiveEngage App Management read access
+
+## Long JWTs Cause 400 Errors in GateKeeper
+
+### Type: Bug Fix
+
+  
+During logins, the authorization header, which contains the JWT, passed the max limit of header size in back-end chat server. This caused 400 error responses that fail due to GateKeeper being unable to process the request.
+
+## "Visitor Name" displayed as "You" in the payload of FaaS chat events 
+
+### Type: Bug Fix
+
+When the FaaS chat events are dispatched from back-end chat server, the value of 'visitorName' is 'You' when the chat payload is seen using JSON.JSON.stringify(chat) in the chat events on LivePerson FaaS functions.
+
+## Auto away logins should dispatch the right away reason ID 
+
+### Type: Bug Fix
+
+When agents log in with automatic away, the away times are not calculated properly due to missing away reason IDs. This is due to events that are dispatched during agent logins that happen within milliseconds of each other. All events should have an away reason ID that are dispatched from back-end chat server during logins.
+
+## Static load balancing - configure skill by parent groups
+
+{: .notice}  
+Available to messaging customers only
+
+Brands will now be able to configure the load balancing by parent groups (aka contact centers) and not only by child groups, greatly simplifying the configuration process.
+
+For example, Load balance between:
+
+* Contact center 1 - 30%
+* Contact center 2 - 30%
+* Contact center 3 - 60%
+
+!\[\](img/)
+
+![](https://lh5.googleusercontent.com/ea1jje4CaQ5V5x9vGGiXGIUA8XLgEEmsojVwBx3vLA0xUqwGXQVcHzra7b8MP8CFsrnjaMEoQgf35AKe6VA1xIatFjNgqwfzclJEyvgs87uG3hNkmr0T5QXZebdW5ecdI8v5Akgg =456x266)
+
+**{: .important}**
+
+Resumed conversations will retain the resuming agent group and not the parent group ID. The next version of back-end messaging server will address this issue and make sure that resumed conversations will be allocated to the parent group if needed.
+
+### Queue prioritization - Priority based on messaging source
+
+**Type:**
+
+Enables brands to capitalize on high converting channels or specific campaigns sent by channels by assigning extra velocity to conversations based on the messaging source the conversation is coming from. For example, brands can look at the data on incoming messaged from whatsApp and decide that WhatsApp has higher conversion rates that other messaging channels and therefor, assign extra priority to conversations coming in from WhatsApp.
+
+{: .notice}**  
+**This feature needs to be configured by LivePerson account team
+
+  
+Bug Fixes
+
+### Validate Ring is in state ringing on ring accept business logic (AE-6414)
+
+Bug: After leader jump, Sky’s bot that subscribed to the same routing task notification got the same ring several times - accepted and changed skills. We added validation on the ring, to verify it is still in valid state to accept.
