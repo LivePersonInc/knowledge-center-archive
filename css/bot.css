@@ -595,17 +595,19 @@ body {
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_main_area .lp_location_bottom {
   border: solid 2px #84a3ea !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* no alternative class found */
 
 .lp_bottom_area {
   border-radius: 4px !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* needed to make the placeholder follow the color */
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_main_area .lp_location_bottom .lp_input_area textarea::placeholder {
-  color: #5f6368 !important;
+  color: #090979 !important;
 }
 
 /* needed so that lpc-layout works */
@@ -654,4 +656,17 @@ background: transparent !important;
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent.lp_chat_line_wrapper {
   padding: 0px 20px 4px 6px !important;
+}
+
+/* needed for avatar size */
+
+.lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent.lp_chat_line_wrapper.agent_avatar_display .agent_avatar {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/* needed for top message of SC menus */
+
+.lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text span {
+  color: #fff !important;
 }
