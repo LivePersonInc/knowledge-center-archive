@@ -18,7 +18,7 @@ LivePerson’s Quick launch menu provides users with a quick and easy way to lau
 
 ![](img/quick-launch-menu-1.png)
 
-## Quick launch overview
+## Overview
 
 LivePerson’s open platform allows developers to add apps to LivePerson’s platform. In order for brands to easily launch and use these apps, the developer can add it to the Quick launch menu. The Quick launch menu is a waffle button containing a list of roles and profile-based predefined apps, which expose direct access to LivePerson Application web interfaces from within the UI and other LE-Apps in the future. 
 
