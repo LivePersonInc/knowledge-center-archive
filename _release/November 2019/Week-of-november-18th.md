@@ -633,7 +633,7 @@ For example, Load balance between:
 
 Resumed conversations will retain the resuming agent group and not the parent group ID. The next version of back-end messaging server will address this issue and make sure that resumed conversations will be allocated to the parent group if needed.
 
-### Queue prioritization - Priority based on messaging source
+## Queue prioritization - Priority based on messaging source
 
 ### Type: new functionality
 
