@@ -20,7 +20,7 @@ For web messaging and live chat engagements, the engagement window hosts the con
 * [Customize the look and feel of the conversation window](/contact-center-management-campaigns-engagement-window.html#customize-the-look-and-feel)
 * [Add a window header](/contact-center-management-campaigns-engagement-window.html#to-add-a-header-to-the-window), [configure a picture of your agent](/contact-center-management-campaigns-engagement-window.html#agent-picture-configuration), or [add another image to the window](/contact-center-management-campaigns-engagement-window.html#to-add-an-image-to-the-window)
 * [Add and edit surveys](/contact-center-management-campaigns-engagement-window.html#to-add-and-edit-surveys)
-* [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#emoji-support)
+* [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#consumer-actions-menu-location)
 * [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
 * and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
 
