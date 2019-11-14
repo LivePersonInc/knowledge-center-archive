@@ -12,3 +12,6 @@ isNew: false
 published: false
 
 ---
+Watch this two minute video for a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections.
+
+![](img/Whats_new-november_2019_1).png
