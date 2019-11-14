@@ -3,9 +3,9 @@ pagename: SocialConnect overview
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: 
+subtitle:
 level3: ''
-permalink: messaging-channels-socialconnect-overview.html
+permalink: messaging-channels-socialconnect-socialconnect-overview.html
 isTutorial: false
 isNew: false
 

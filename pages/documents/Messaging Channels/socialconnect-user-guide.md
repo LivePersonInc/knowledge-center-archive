@@ -3,15 +3,15 @@ pagename: SocialConnect user guide
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: 
+subtitle:
 level3: ''
-permalink: messaging-channels-socialconnect-user-guide.html
+permalink: messaging-channels-socialconnect-socialconnect-user-guide.html
 isTutorial: false
 isNew: false
 
 ---
 SocialConnect extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social.
-Please follow instructions below on how set up Social Connect. 
+Please follow instructions below on how set up Social Connect.
 
 ## Getting started
 
