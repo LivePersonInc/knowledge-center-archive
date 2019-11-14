@@ -13,13 +13,13 @@ isNew: false
 ---
 Watch this two minute video for a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to help you make even more meaningful connections.
 
-![](img/Nov_whats_new1).jpg
+![](img/Nov_whats_new1.jpg)
 
 ## Light mode
 
 A few months ago, LivePerson’s agent and manager workspaces received a major facelift with a new, sleek and modern UI. These workspaces are now available in a dark or light theme and each user can choose which mode they prefer to work with. It is simple to switch on just click on the avatar and switch to light mode!
 
-![](img/Nov_whats_new_lightmode.gif
+![](img/Nov_whats_new_lightmode.gif)
 
 ## Report Builder upgrade
 
@@ -34,10 +34,10 @@ Messages timestamp and bubble grouping capabilities improve the consumer experie
 
 This configuration will include a dropdown list with two options; an arrow (which is the current send icon) and a new paper plane.
 
-![](img/Nov_whats_new4).png
+![](img/Nov_whats_new4.png)
 
 ## Web messaging: Enhanced Horizon theme
 
 The enhanced horizon theme gives consumers a new sleek experience. It has been updated to include: a floating window with rounded corners at the bottom, emoji icon for desktop, a menu at the top (for web messaging only) & attachment icon (for web messaging only).
 
-![](img/Nov_whats_new5).png
+![](img/Nov_whats_new5.png)
