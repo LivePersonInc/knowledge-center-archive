@@ -173,11 +173,11 @@ For Non-Authenticated LiveEngage Users, SocialConnect is discoverable via URL
 
 ### LiveEngage configuration
 
-SocialConnect will be enabled by a Customer Success Manager or a LivePerson support agent.
+SocialConnect will be enabled by your LivePerspm account team.
 
 ### SocialConnect Configuration
 
-Configuration of the SocialConnect product is done via the SocialConnect Home, a self-service Web UI that leverages LiveEngage Global Applications for user authentication and linking LiveEngage accounts to SocialConnect. Brands can connect and configure Social media accounts they would like  to receive public/private messages from.
+Configuration of SocialConnect is managed via the SocialConnect Home, a self-service Web UI that leverages LiveEngage Global Applications for user authentication and linking LiveEngage accounts to SocialConnect. Brands can connect and configure Social media accounts they would like  to receive public/private messages from.
 
 * SocialConnect Home is only available to LiveEngage administrators
 * Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
