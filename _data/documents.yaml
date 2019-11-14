@@ -38,6 +38,10 @@
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
     - subcategoryname: WhatsApp Business
+    - subcategoryname: SocialConnect
+      pages:
+        - pagename: SocialConnect overview
+        - pagename: SocialConnect user guide
     - subcategoryname: EmailConnect
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
