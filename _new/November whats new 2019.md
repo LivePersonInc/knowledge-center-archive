@@ -19,7 +19,7 @@ Watch this two minute video for a round-up of the latest features, enhancements 
 
 A few months ago, LivePerson’s agent and manager workspaces received a major facelift with a new, sleek and modern UI. These workspaces are now available in a dark or light theme and each user can choose which mode they prefer to work with. It is simple to switch on just click on the avatar and switch to light mode!
 
-!\[\](img/New_light_mode_whats_new_nov_2.gif
+![](img/New_light_mode_whats_new_nov_2.gif
 
 ## Report Builder upgrade
 
@@ -28,7 +28,7 @@ The Report Builder infrastructure has been upgraded to the latest MicroStrategy 
 {: .important}  
 As a reminder, for those still using BI, LivePerson will sunset the BI reporting tool at the end of December, migrating all accounts to our new reporting platform, _Report Builder. For more information please visit the Knowledge Center_
 
-!\[\](img/report_builder_whats_new_nov_3.gif
+![](img/report_builder_whats_new_nov_3.gif
 
 ## Window enhancements
 
