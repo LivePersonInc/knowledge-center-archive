@@ -10,17 +10,16 @@ isTutorial: false
 isNew: false
 
 ---
+SocialConnect extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social.
+Please follow instructions below on how set up Social Connect. 
+
 ## Getting started
 
-Follow the steps below to get started with SocialConnect:
-
-1. After clicking on the SocialConnect button in the QuickLaunch menu, admins will be taken to the SocialConnect sign up page, which includes a “Sign Up” button.
-2. After selecting “Sign Up,” the admin is taken to the “Thank You” screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
-3. The LP Support agent will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect.
+Social connect can be accessed via the quick launch menu
 
 ![](img/SocialConnect_launchpad.png)
 
-## LiveEngage agent experience
+## Agent experience
 
 Contact center agents will interact with customers as they typically would in LiveEngage with any other messaging channel. Additionally, social specific capabilities will be available via the SocialConnect agent widget.
 
@@ -124,7 +123,7 @@ The Public/Private Switch provides agents with context for the last message rece
 
 ### Character counter
 
-The Character Counter provides agents with the ability to validate the number of characters in a message they are crafting.
+The character counter provides agents with the ability to validate the number of characters in a message they are crafting.
 
 * Messages crafted in the Transcript that hit the channel character limit provide a “message not sent” error to the agent
 * Agents select the menu navigation at the bottom right of the Social Widget
@@ -139,9 +138,9 @@ The Character Counter provides agents with the ability to validate the number of
   * Public Comment - 5,000 characters
   * Messenger - 640 characters per message
 
-### View Media
+### View media
 
-View Media provides agents the ability to view all images, gifs and videos received from the consumer in the Social Widget. The View Media tool will allow agents to view images larger, gif animations, and play videos that have been sent by consumers. The agent transcript will display images, and the first image from a gif, but not the animations, to view these animations agents will utilize “View Media.”
+View media provides agents the ability to view all images, gifs and videos received from the consumer in the Social Widget. The View Media tool will allow agents to view images larger, gif animations, and play videos that have been sent by consumers. The agent transcript will display images, and the first image from a gif, but not the animations, to view these animations agents will utilize “View Media.”
 
 * Agents select the menu navigation at the bottom right of the Social Widget
 * After selecting “View Media” from the menu, the agent is taken to the View Media Tool
@@ -149,37 +148,12 @@ View Media provides agents the ability to view all images, gifs and videos recei
 
 ![](img/socialconnect-user-guide-19.png)
 
-## Discoverability
-
-SocialConnect will be discoverable for three different personas, authenticated LiveEngage users (users that are logged into LiveEngage), unauthenticated LiveEngage users (users that are not logged into LiveEngage), and non-LiveEngage customers.
-
-For Authenticated LiveEngage Users, SocialConnect is discoverable via the QuickLaunch feature.
-
-* Clicking on the SocialConnect button in QuickLaunch will take users to the Authenticated User Marketing Page, which includes a “Sign Up” button.
-* After selecting “Sign Up,” the admin is taken to the “Thank You” Screen where a messaging window is available to speak to a LivePerson representative, or wait for your client partner to contact you.
-* The LivePerson account team will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect.
-  
-![](img/socialconnect-landingpage.png)
-
-For Non-Authenticated LiveEngage Users, SocialConnect is discoverable via URL
-
-* Non-Authenticated LiveEngage Users will discover SocialConnect through marketing channels such as email, which will contain the URL to the marketing page
-* On the marketing page, unauthenticated LiveEngage users will input their LiveEngage account number, then select “Proceed to LiveEngage Login”
-* After selecting “Proceed to LiveEngage Login” the user is taken to the LiveEngage login screen
-* After completing the LiveEngage login, the admin is taken to the “Thank You” screen where a messaging window will connect a LivePerson Support agent to the customer
-* The LivePerson Support agent will complete the manual backend setup steps for the admin, then provide a URL to SocialConnect Home for the admin to complete the configuration of SocialConnect
-
 ## Configuration
 
-### LiveEngage configuration
+SocialConnect will be enabled by your LivePerson account team.
+Brands can connect and configure Social media accounts they would like to receive public/private messages from.
 
-SocialConnect will be enabled by your LivePerspm account team.
-
-### SocialConnect Configuration
-
-Configuration of SocialConnect is managed via the SocialConnect Home, a self-service Web UI that leverages LiveEngage Global Applications for user authentication and linking LiveEngage accounts to SocialConnect. Brands can connect and configure Social media accounts they would like  to receive public/private messages from.
-
-* SocialConnect Home is only available to LiveEngage administrators
+* SocialConnect home is only available to LiveEngage administrators
 * Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
 * Facebook
   * Admins log into Facebook utilizing the Facebook account with admin access to the brand page
@@ -207,20 +181,11 @@ Configuration of SocialConnect is managed via the SocialConnect Home, a self-ser
 
 ![](img/socialconnect-user-guide-26.png)
 
-### Analytics
-
-SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Report Builder, should operate with SocialConnect as expected.
-
 ### Routing
 
 SocialConnect will support basic routing of a social media channel (e.g. Facebook or Twitter) to a single Skill. Each channel will map to a separate skill.
 
 More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the SocialConnect product.
 
-### Automation
-
-SocialConnect will initially enable automations that support text messaging, and only for private conversations. In the future SocialConnect can be expanded to support structured content messages as well as be enabled for Public automations. As expected, routing and CSAT bots can be enabled via professional services.
-
-### API
-
-SocialConnect will neither introduce nor modify any customer facing APIs.
+{: .notice}
+SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Report Builder, should operate with SocialConnect as expected.
