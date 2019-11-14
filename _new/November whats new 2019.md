@@ -75,4 +75,4 @@ The Network Manager enables a single LiveEngageaccount (the main provider accoun
 
 ## Lead Service
 
-Brands can configure lead topics and collection, validation, and delivery of lead information to email addresses and/or API endpoints based on lead topic assigned.  Lead specifications validate the information needed to create a new lead or opportunity in a brand's CRM.  Lead topics can be used to route types of leads to different CRM and/or email address endpoints as needed.
+Lead services allows brands to configure lead topics as well as collect, validate, and deliver lead information to email addresses and/or API endpoints based on lead topic assigned.  Lead specifications validate the information needed to create a new lead or opportunity in a brand's CRM.  Lead topics can be used to route certain types of leads to different CRM and/or email address endpoints as needed.

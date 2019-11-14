@@ -24,7 +24,7 @@ For web messaging and live chat engagements, the engagement window hosts the con
 * [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
 * and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
 
-## The Engagement window studio
+## Engagement window studio basics
 
 To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a conversation window once and use it across any number of engagements.
 
