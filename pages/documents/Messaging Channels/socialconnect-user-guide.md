@@ -173,8 +173,6 @@ Brands can connect and configure Social media accounts they would like to receiv
 
 ![](img/socialconnect-user-guide-22.png)
 
-![](img/socialconnect-user-guide-23.png)
-
 ![](img/socialconnect-user-guide-24.png)
 
 ![](img/socialconnect-user-guide-25.png)
