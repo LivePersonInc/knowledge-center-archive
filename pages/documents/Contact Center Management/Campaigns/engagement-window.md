@@ -22,8 +22,7 @@ For web messaging and live chat engagements, the engagement window hosts the con
 * [Add and edit surveys](/contact-center-management-campaigns-engagement-window.html#to-add-and-edit-surveys)
 * [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#emoji-support)
 * [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
-
-and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
+* and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
 
 ## The Engagement window studio
 
