@@ -420,12 +420,19 @@ function scrollToHash () {
 	setTimeout(function () {
 		if (window.location.hash && window.location.hash != "#top") {
 		var hash = window.location.hash;
-		console.log(hash);
-		window.location.hash = "";
-		window.location.hash = hash;
 		var linkScroll = $('a[href*="' + hash + '"]');
-		var linkOffset = $(linkScroll).offset().top - 370;
-		window.scrollTo(0, linkOffset);
+		if (linkScroll.length > 1) {
+			var linkOffset = $(linkScroll[1]).offset().top;
+		} else {
+			var linkOffset = $(linkScroll).offset().top;
+		}
+		$("body, html").animate(
+			{
+				scrollTop: linkOffset,
+			},
+			1000,
+			"swing"
+		);
 		}
 	}, 1000);
 }
