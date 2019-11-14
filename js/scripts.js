@@ -57,8 +57,10 @@ function navigateContent(url) {
 			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
-			//jump to top when page loads
+			//jump to top when page loads if no hash
+			if (!window.location.hash) {
 			window.scrollTo(0, 0);
+			}
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#defaultsidebar').slideUp(400);
 				$('#defaultsidebar').data('expanded', 'false');
@@ -420,19 +422,12 @@ function scrollToHash () {
 	setTimeout(function () {
 		if (window.location.hash && window.location.hash != "#top") {
 		var hash = window.location.hash;
+		console.log(hash);
+		window.location.hash = "";
+		window.location.hash = hash;
 		var linkScroll = $('a[href*="' + hash + '"]');
-		if (linkScroll.length > 1) {
-			var linkOffset = $(linkScroll[1]).offset().top;
-		} else {
-			var linkOffset = $(linkScroll).offset().top;
-		}
-		$("body, html").animate(
-			{
-				scrollTop: linkOffset,
-			},
-			1000,
-			"swing"
-		);
+		var linkOffset = $(linkScroll).offset().top - 370;
+		window.scrollTo(0, linkOffset);
 		}
 	}, 1000);
 }
