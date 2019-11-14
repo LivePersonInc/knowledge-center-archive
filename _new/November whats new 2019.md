@@ -19,7 +19,7 @@ Watch this two minute video for a round-up of the latest features, enhancements 
 
 A few months ago, LiveEngage received a major facelift with a new, dark and modern UI. This month, the UI is now available in a light theme in addition to the dark theme. Each user can choose which theme they prefer to use across the product. To choose a theme,  just click on the avatar and select the mode you want to use.
 
-![](img/Nov_whats_new_lightmode.gif)
+![](img/New light mode.gif)
 
 ## Report Builder upgrade
 
