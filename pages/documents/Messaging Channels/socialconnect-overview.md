@@ -56,4 +56,4 @@ Agents will be able to respond with:
 * Private DMs
 * Supported message types: text, text with link to initiate a DM conversation (Public only), images, and GIFs
 
-For more information on SocialConnect and how to get started, please see the [user guide](https://knowledge.liveperson.com/messaging-channels-socialconnect-user-guide.html)
+For more information on SocialConnect and how to get started, please see the [user guide](https://knowledge.liveperson.com/messaging-channels-socialconnect-socialconnect-user-guide.html)

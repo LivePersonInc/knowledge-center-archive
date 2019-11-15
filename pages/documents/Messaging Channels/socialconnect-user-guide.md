@@ -1,5 +1,7 @@
 ---
 pagename: SocialConnect user guide
+redirect:
+  - messaging-channels-socialconnect-user-guide.html
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
