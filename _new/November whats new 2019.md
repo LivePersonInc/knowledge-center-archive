@@ -13,7 +13,8 @@ isNew: false
 ---
 Watch this two minute video for a round-up of the latest features, enhancements and enablements that are coming in the following weeks - all designed to make messaging your brand’s most efficient channel. 
 
-![](img/Nov_whats_new1.jpg)
+<iframe src="https://player.vimeo.com/video/373105392?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/373105392">LivePerson November 2019 Newsletter</a> from <a href="https://vimeo.com/liveperson">LivePerson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Light theme across LiveEngage UI
 
