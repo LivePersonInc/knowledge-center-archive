@@ -26,9 +26,9 @@ published: true
     <th>WhatsApp</th>
     <th>Google RCS</th>
     <th>LINE</th>
-    <th>WeChat</th>
     <th>Messaging Window API</th>
     <th>Connector API</th>
+    <th>WeChat</th>
   </tr>
   </thead>
   <tbody>
@@ -43,9 +43,9 @@ published: true
         <td><img class="tableIcon" src="img/whatsapp.svg" /></td>
         <td><img class="tableIcon" src="img/google-rsc.svg" /></td>
         <td><img class="tableIcon" src="img/line.svg" /></td>
-        <td><img class="tableIcon" src="img/WeChat-logo.png" /></td>
         <td><img class="tableIcon" src="img/messaging-window-api.svg" /></td>
         <td><img class="tableIcon" src="img/connector-api.svg" /></td>
+        <td><img class="tableIcon" src="img/WeChat-logo.png" /></td>
       </tr>
       {% for feature in category.features %}
       <tr>
