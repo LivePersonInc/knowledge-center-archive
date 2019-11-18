@@ -747,8 +747,7 @@ For example, Load balance between:
 * Contact center 2 - 30%
 * Contact center 3 - 60%
 
-**{: .important}**
-
+{: .important}
 Resumed conversations will retain the resuming agent group and not the parent group ID. The next version of back-end messaging server will address this issue and make sure that resumed conversations will be allocated to the parent group if needed.
 
 ## Queue prioritization - Priority based on messaging source
@@ -829,5 +828,5 @@ Resumed conversations will retain the resuming agent group and not the parent gr
 
 Enables brands to capitalize on high converting channels or specific campaigns sent by channels by assigning extra velocity to conversations based on the messaging source the conversation is coming from. For example, brands can look at the data on incoming messaged from whatsApp and decide that WhatsApp has higher conversion rates that other messaging channels and therefor, assign extra priority to conversations coming in from WhatsApp.
 
-{: .notice}**  
-**This feature needs to be configured by LivePerson account team
+{: .notice}  
+This feature needs to be configured by LivePerson account team
