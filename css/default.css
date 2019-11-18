@@ -1231,10 +1231,11 @@ div#cookie-law {
   width: 100%;
   margin-bottom: 0;
   flex: 1;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 30px;
   align-items: center;
   min-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #cookie-law > p > span:nth-child(1) {
@@ -1259,6 +1260,7 @@ div#cookie-law {
   align-items: center;
   justify-content: center;
   margin-right: 100px;
+  margin-left: 20px;
   min-width: 130px;
   height: 38px;
 }
