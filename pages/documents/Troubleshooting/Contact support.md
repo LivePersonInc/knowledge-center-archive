@@ -11,13 +11,11 @@ isNew: false
 published: false
 
 ---
-Intro...
+LivePerson strives to provide the best in class support experience by connecting to customers needs and utilizing the most innovative engagement channels by LivePerson as well as automation initiatives.
 
-choose your fave method - different channels
+LivePerson provides 24/7 live messaging support with immediate response, just choose your preferred method to contact us!
 
 ## Messaging with Support
-
-LivePerson provides 24/7 live messaging support with immediate response.
 
 This channel is specifically useful for high priority issues that requires immediate attention. Messaging is available to everyone and is highly recommended
 
