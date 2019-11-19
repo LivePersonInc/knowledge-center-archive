@@ -14,8 +14,6 @@ date: 2019-01-31 08:52:22 +0000
 
 LivePerson’s Quick launch menu provides users with a quick and easy way to launch applications from within the platform using the new waffle menu button that has been added to the UI.
 
-**Quick launch icon:**
-
 ![](img/quick-launch-menu-1.png)
 
 ## Overview
@@ -28,19 +26,9 @@ LivePerson’s open platform allows developers to add apps to LivePerson’s pla
 
 Navigation between LivePerson’s applications has never been easier. If a user is already logged in, LE-Apps use standard SSO protocol to open in a new tab, preventing the need to log-in again, while LivePerson’s platform stays open in its own tab.
 
-![](img/quick-launch-menu-4.png)
-
 ### Allow users to see and launch only the apps that are available to them based on their role and profile
 
 Each user will be exposed only to the relevant LE-Apps for them, based on their role and profile. Once the developer decides which role can use this LE-App, the Quick launch menu presents the app only for users with the relevant roles and profiles. This means that users within the same brand will see different apps based on their role.
-
-**Agent Quick launch:**
-
-![](img/quick-launch-menu-2.png)
-
-**Campaign manager Quick launch:**
-
-![](img/quick-launch-menu-3.png)
 
 ## Enablement
 
