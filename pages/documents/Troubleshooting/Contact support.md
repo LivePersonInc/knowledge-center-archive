@@ -11,22 +11,21 @@ isNew: false
 published: false
 
 ---
-
 Intro...
 
-choose your fave method
+choose your fave method - different channels
 
 ## Messaging with Support
 
 LivePerson provides 24/7 live messaging support with immediate response.
 
-This channel is highly recommended in general and specifically for high priority issue that requires our immediate attention
+This channel is specifically useful for high priority issues that requires immediate attention. Messaging is available to everyone and is highly recommended
 
-Whom: Everyone
-
-How:
+### How to message with Support
 
 1. Log into the LiveEngage.
 2. Expand the Connection Area by clicking the three 3 vertical dots on the right of the browser.
 3. Click on (1)'Contact Liveperson'
-4. Start chatting
+4. Start messaging
+
+!\[\](img/Contact_support1.png)
