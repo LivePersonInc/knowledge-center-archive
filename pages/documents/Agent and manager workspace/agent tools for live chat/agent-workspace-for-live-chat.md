@@ -15,7 +15,9 @@ date: 2019-01-21 12:19:13 +0000
 The agent workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
 
 1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](getting-started-getting-started-with-live-chat.html)
+
 2. Create users for the agents that will be taking the conversations. To learn how to set up users, [click here](getting-started-getting-started-with-live-chat.html).
+
 3. Once the code is up and an agent is logged into the system, they must put their status to ‘online’. Doing so will automatically enable the chat button on the website to begin accepting incoming chats.
 
 ## The visitors list
@@ -104,7 +106,7 @@ The conversation is ended and the visitor receives a message in the chat window 
 At any given time in your shift as an agent, you are expected to handle multiple chats in a competent and efficient manner. By using predefined content in your chats, you can relieve some of the pressure on yourself, achieve your goals, and maintain your high standards. The use of [predefined content ](agent-manager-workspace-workspace-configuration-predefined-content-overview)saves time, and can ensure consistent, error-free responses and a professional “tone of voice”.
 
 You can access the predefined phrases while you are chatting and, rather than retyping repeatedly, you can select the relevant, ready-made response. The predefined responses are organized into categories, such as Greeting, Conversational, Closing and additional categories that your managers create based on your business needs. Managers can also assign Hotkeys (shortcuts) to the most useful predefined responses, and you can save time and energy by using them.
-  
+
 While you are chatting, you can quickly navigate through the categories and select the relevant response. Here are some examples of categorized predefined responses:
 
 * **Closing:** Thank you for visiting. Please contact us any time.
