@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+    name: Lint Markdown
+    runs-on: macOS-latest
+
+    steps:
+      - name: Setup Ruby for use with actions
+        uses: actions/setup-ruby@v1.0.0
+      - name: install jekyll
+        run: gem install jekyll
+      - name: install rake
+        run: gem install rake
+      - name: install proofer
+        run: gem install html-proofer
+      - name: build site
+        run: jekyll build
+      - name: proof links
+        run: htmlproofer

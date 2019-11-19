@@ -90,3 +90,12 @@ Please make sure that the Certificate Revocation Lists (CRL) and the Online Cert
 * http://ocsp.comodoca.com
 * http://ocsp.usertrust.com
 * http://ocsp.geotrust.com
+
+## Vanity URL
+
+Vanity URL enables customers to ensure that external visitors to their website view their own brand domain signed certificate in place of the LivePerson domain. 
+
+Vanity URL offers a secure and consistent online experience. Visitors are kept within the chosen Vanity URL domain name at all stages of their session, building trust and credibility.
+
+{: .notice}  
+Any vanity URL domains must be listed as it will prevent the functionality of LiveEngage for end users.
