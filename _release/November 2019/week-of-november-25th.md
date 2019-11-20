@@ -70,9 +70,9 @@ The agent survey for messaging was enhanced with the following new capabilities:
 
 **Screenshots** 
 
-![](img/week-of-november-25th-1)
+![](img/week-of-november-25th-1.png)
 
-![](img/week-of-november-25th-2)
+![](img/week-of-november-25th-2.png)
 
 ## Light and dark theme support for Users module
 
@@ -84,11 +84,11 @@ The new light and dark themes are now supported in the Users section of LiveEnga
 
 Dark theme:
 
-![](img/week-of-november-25th-3)
+![](img/week-of-november-25th-3.png)
 
 Light theme: 
 
-![](img/week-of-november-25th-4)
+![](img/week-of-november-25th-4.png)
 
 ## Ability to remove the engagement window border
 
@@ -147,13 +147,13 @@ By default the configuration is set to “Yes”, which means that the window wi
 
 Image 1: Configure engagement window border
 
-![](img/week-of-november-25th-5)
+![](img/week-of-november-25th-5.png)
 
 Image 2: Engagement window with border vs without border
 
-![](img/week-of-november-25th-6)
+![](img/week-of-november-25th-6.png)
 
-![](img/week-of-november-25th-7)
+![](img/week-of-november-25th-7.png)
 
 ## Ability to configure the engagement window shadow 
 
@@ -215,15 +215,15 @@ This entry will apply to the embedded window for normal and maximized states (wi
 
 Image 1: Configure engagement window shadow
 
-![](img/week-of-november-25th-8)
+![](img/week-of-november-25th-8.png)
 
 Image 2: Engagement window with shadow
 
-![](img/week-of-november-25th-9)
+![](img/week-of-november-25th-9.png)
 
 Image 3: Engagement window without shadow
 
-![](img/week-of-november-25th-10)
+![](img/week-of-november-25th-10.png)
 
 ## Horizon theme enhancements
 
@@ -280,9 +280,9 @@ The following features are now included by default for any new engagement window
 
 All new features as default: 
 
-![](img/week-of-november-25th-11)
+![](img/week-of-november-25th-11.png)
 
-![](img/week-of-november-25th-12)
+![](img/week-of-november-25th-12.png)
 
 ## Improve the engagement window text area focus
 
@@ -337,7 +337,7 @@ The new design includes the following changes when the text area is in focus:
 
 **Screenshots** 
 
-![](img/week-of-november-25th-13)
+![](img/week-of-november-25th-13.png)
 
 ## File sharing attachment not working
 
@@ -390,10 +390,10 @@ Consumer to agent file sharing is not working on mobile iOS 13 and Safari deskto
 
 Image 1: Consumer shares file on mobile iOS 13
 
-![](img/week-of-november-25th-14)
+![](img/week-of-november-25th-14.jpeg)
 
-![](img/week-of-november-25th-15)
+![](img/week-of-november-25th-15.jpeg)
 
 Image 2: Consumer shares file on mobile iOS 13 - agent side
 
-![](img/week-of-november-25th-16)
+![](img/week-of-november-25th-16.png)
