@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: How to contact support
 level3: ''
-permalink: Troubleshooting-contact-support.html
+permalink: troubleshooting-contact-support.html
 isTutorial: false
 isNew: false
 
@@ -25,7 +25,7 @@ This channel is specifically useful for high priority issues that requires immed
 3. Click on (1)'Contact Liveperson'
 4. Start messaging
 
-!\[\](img/Contact_support1.png)
+![](img/Contact_support1.png)
 
 ## Create a SalesForce case
 
@@ -38,4 +38,4 @@ Only Agent Managers and Administrators can open a SalesForce case
    of the browser.
 3. Click on (1)'Technical support cases' > (2)'Create new case’
 
-!\[\](img/Contact_support2.png)
+![](img/Contact_support2.png)
