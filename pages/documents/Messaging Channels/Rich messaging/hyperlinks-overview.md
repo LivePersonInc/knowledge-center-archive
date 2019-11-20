@@ -1,5 +1,5 @@
 ---
-pagename: Proactive messaging overview
+pagename: Hyperlinks overview
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
