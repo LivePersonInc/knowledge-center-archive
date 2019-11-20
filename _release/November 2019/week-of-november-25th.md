@@ -1,5 +1,5 @@
 ---
-pagename: Week of November 18th
+pagename: Week of November 25th
 categoryName: Release notes
 subCategoryName: Web messaging
 indicator: both
@@ -898,7 +898,7 @@ For more information please refer [here](/ai-bots-automation-post-conversation-s
 
 ![](img/week-of-november-25th-25.png)
 
-## Hyperlink support for messaging 
+## [Enhanced agent workspace] Hyperlink support for messaging 
 
 ### Type: New functionality 
 
