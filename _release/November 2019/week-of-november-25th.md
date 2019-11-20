@@ -283,3 +283,117 @@ All new features as default:
 ![](img/week-of-november-25th-11)
 
 ![](img/week-of-november-25th-12)
+
+## Improve the engagement window text area focus
+
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+In order to improve the look and feel of the engagement window, once the consumer focuses on the text area in the engagement window, they will now see a blue border appear. 
+
+The new design includes the following changes when the text area is in focus:
+* Cursor is in the text area field
+* Top border color is #00085EF
+* Text area covers the entire area including the buttons
+* Text area turns 10% lighter
+
+**Please note:** This change will be applied automatically to all engagement windows for both new and existing accounts.
+
+**Screenshots** 
+
+![](img/week-of-november-25th-13)
+
+## File sharing attachment not working
+
+### Type: Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Consumer to agent file sharing is not working on mobile iOS 13 and Safari desktop version 13. When visitors try to share files with an agent, they see an error indicating there was an issue sending it. This was caused by the thumbnail size for the file being too big and eventually dropped the websocket connection. 
+
+**Fix:** In order to circumvent this issue, the thumbnail image is replaced with the generic “Click to View” image. This generic thumbnail image will be used for all supported file types that visitors share with agents. The thumbnail will be presented for both the agent and the consumer.
+
+**Please note:** This is only for the Safari version. All other browsers remain the same.
+
+**Screenshots**
+
+Image 1: Consumer shares file on mobile iOS 13
+
+![](img/week-of-november-25th-14)
+
+![](img/week-of-november-25th-15)
+
+Image 2: Consumer shares file on mobile iOS 13 - agent side
+
+![](img/week-of-november-25th-16)
