@@ -105,7 +105,7 @@ Agent Effectiveness reports are available for all email conversations to brand a
 
 Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Report Builder.
 
-!\[\](img/EmailConnect_Reporting1.png)
+![](img/EmailConnect_Reporting1.png)
 
 ### Step 2: Open Advanced Messaging Dashboard
 
