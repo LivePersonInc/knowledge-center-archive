@@ -18,328 +18,6 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Support for sending multiple messages with Microsoft Bot connector
-### Type: New functionality
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-This feature enhances the Microsoft Bot Framework connector in sending multiple messages from MS Bot Framework to our connector within one activity. This bypasses the limitation that our connector only checks the first activity that is sent in response to a customer message. The messages can be one of the following: Rich Content, Pause, Text.
-
-## Support for encoded metadata with all the vendors 
-### Type: New feature
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-LiveEngage Messaging provides a new metadata input type (“encodedMetadata”) for passing a base64 encoded metadata on a conversation. The new metadata input type is in addition to the existing conversation metadata input field and is available as of UMS 3.15 version. This enhancement is now supported by Third-Party bots as well with all the vendors (Dialogflow V2, Watson V1 and V2, Amazon Lex, FaaS and Microsoft Bot Framework).
-
-##  Bot Wizard  breadcrumbs clickable allowing easy navigation 
-### Type: Enhancement
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Previously, the breadcrumbs of the four configurations step of Bot wizard were not clickable. The only way to navigate from each step was with the buttons below it; back and next. With this enhancement, the user can directly jump back to any step, to check the configuration.
-Jumping forward is only blocked in case a step is not completed (empty mandatory fields) but jumping back is still possible by clicking on the breadcrumbs.
-
-![](img/bot_connectors_RN2.13_1.png)
-
-## Viewing of the configuration of a running bot 
-### Type: Enhancement
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Previously, if a user wanted to see the configuration of a bot then it was only possible if the bot was offline. This enhancement in our system allows the user to see the bot configuration in read-only mode even if the bot is running. This option can be accessed from the menu in the listing page of bots.
-
-![](img/bot_connectors_RN2.13_2.png)
-
-## Deprecate Dialogflow
-### Type: Change
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Support for Dialogflow V1 has been removed from our connector. The user will no longer be able to create or start a Dialogflow V1 bot.
-
-## Watson SDK update to 5.0
-### Type: Change
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Watson introduced a new SDK with enhancement on all over the library for Assistant. The library has been updated to conform with the new breaking changes and standards of the new SDK.
-
-## Fix inactive visitor timeout behaviour on chat
-### Type: Bug fix
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-With this bugfix for an inactive chat, the system will not only send the warning message but also the closing message will be shown and the chat will be closed as defined in the chatbot configuration. 
-
-## Bot dashboard or listing doesn’t show the updated state
-### Type: Bug fix
-
-If the bot is running correctly, even after the interruption, this state is not reflected in the bot status dashboard or listing.
-
-## Watson V2 session expires after 5 minutes causing escalations if user response is delayed
-### Type: Bug fix
-
-Watson session expires after 5 minutes. This means if a consumer sends a message after that time, it will be escalated due to an error. 
-
-## Fixing issues during conversation context creation for messaging
-### Type: Bug fix
-
-Sometimes the bot is not responding to the welcome message on messaging.
-Looking into the logs filtered on the convId from the E2E logs  we noticed the following error:
-"Could not create conversation context"
-It looks like this happens to a lot of conversations because campaignInfo is undefined in the conversationDetails and when creating the conversationContext this is not expected.
-This will be caught and the context is created based on the history API data.
-
-## Cannot start/stop bots from dashboard
-### Type: Bug fix
-Since white-theme release, the start/stop buttons in the dashboard don’t work anymore. This fix removed that problem.
-
 ## Enhancements to the agent survey for messaging
 ### Type: Enhancement
 
@@ -1053,3 +731,325 @@ The new shortcuts are as follows:
 **Screenshots**
 
 ![](img/week-of-november-25th-30.png)
+
+## Support for sending multiple messages with Microsoft Bot connector
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+This feature enhances the Microsoft Bot Framework connector in sending multiple messages from MS Bot Framework to our connector within one activity. This bypasses the limitation that our connector only checks the first activity that is sent in response to a customer message. The messages can be one of the following: Rich Content, Pause, Text.
+
+## Support for encoded metadata with all the vendors 
+### Type: New feature
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+LiveEngage Messaging provides a new metadata input type (“encodedMetadata”) for passing a base64 encoded metadata on a conversation. The new metadata input type is in addition to the existing conversation metadata input field and is available as of UMS 3.15 version. This enhancement is now supported by Third-Party bots as well with all the vendors (Dialogflow V2, Watson V1 and V2, Amazon Lex, FaaS and Microsoft Bot Framework).
+
+##  Bot Wizard  breadcrumbs clickable allowing easy navigation 
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Previously, the breadcrumbs of the four configurations step of Bot wizard were not clickable. The only way to navigate from each step was with the buttons below it; back and next. With this enhancement, the user can directly jump back to any step, to check the configuration.
+Jumping forward is only blocked in case a step is not completed (empty mandatory fields) but jumping back is still possible by clicking on the breadcrumbs.
+
+![](img/bot_connectors_RN2.13_1.png)
+
+## Viewing of the configuration of a running bot 
+### Type: Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Previously, if a user wanted to see the configuration of a bot then it was only possible if the bot was offline. This enhancement in our system allows the user to see the bot configuration in read-only mode even if the bot is running. This option can be accessed from the menu in the listing page of bots.
+
+![](img/Bot_connectors_RN2.13_2.png)
+
+## Deprecate Dialogflow
+### Type: Change
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Support for Dialogflow V1 has been removed from our connector. The user will no longer be able to create or start a Dialogflow V1 bot.
+
+## Watson SDK update to 5.0
+### Type: Change
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Watson introduced a new SDK with enhancement on all over the library for Assistant. The library has been updated to conform with the new breaking changes and standards of the new SDK.
+
+## Fix inactive visitor timeout behaviour on chat
+### Type: Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+With this bugfix for an inactive chat, the system will not only send the warning message but also the closing message will be shown and the chat will be closed as defined in the chatbot configuration. 
+
+## Bot dashboard or listing doesn’t show the updated state
+### Type: Bug fix
+
+If the bot is running correctly, even after the interruption, this state is not reflected in the bot status dashboard or listing.
+
+## Watson V2 session expires after 5 minutes causing escalations if user response is delayed
+### Type: Bug fix
+
+Watson session expires after 5 minutes. This means if a consumer sends a message after that time, it will be escalated due to an error. 
+
+## Fixing issues during conversation context creation for messaging
+### Type: Bug fix
+
+Sometimes the bot is not responding to the welcome message on messaging.
+Looking into the logs filtered on the convId from the E2E logs  we noticed the following error:
+"Could not create conversation context"
+It looks like this happens to a lot of conversations because campaignInfo is undefined in the conversationDetails and when creating the conversationContext this is not expected.
+This will be caught and the context is created based on the history API data.
+
+## Cannot start/stop bots from dashboard
+### Type: Bug fix
+Since white-theme release, the start/stop buttons in the dashboard don’t work anymore. This fix removed that problem.
