@@ -93,6 +93,24 @@ Log into [LiveEngage](https://authentication.liveperson.net) account as Administ
 
 ![](img/email-connect-4.png)
 
-* Turn on the following settings for Agent and Agent Manager Profiles:
+Turn on the following settings for Agent and Agent Manager Profiles:
 
 ![](img/email-connect-5.png)
+
+## Reporting
+
+Agent Effectiveness reports are available for all email conversations to brand administrators and agent manager.
+
+### Step 1: Open Report Builder
+
+Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Report Builder.
+
+!\[\](img/EmailConnect_Reporting1.png)
+
+### Step 2: Open Advanced Messaging Dashboard
+
+Click on RunDashboard at the bottom left on the page
+
+![](https://lh6.googleusercontent.com/CDMHQxkh3nDMnNP6aALP_2ilmD5k0B-GNFEKZ7Ok0ICFhI2i_y5q5ppLs6VG2YxlEcBaIQmj-KYkhjWMAoloqwO6Prc42L9TD16FSDduy52_9dDauEySQH6U7kSkOiXgYOeaLTIq =624x317)
+
+Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
