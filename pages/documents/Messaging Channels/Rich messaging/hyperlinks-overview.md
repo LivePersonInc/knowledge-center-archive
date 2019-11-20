@@ -31,3 +31,36 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 
 ![](hyperlinks-overview-4.png)
 
+## Enablement 
+
+To enable hyperlink support for your account, please contact your LivePerson representative.
+
+## Use cases 
+
+### Sending links through Predefined Content 
+
+To add links to Predefined Content, use the HTML tag for hyperlinks. 
+
+For example: 
+![](hyperlinks-overview-5.png)
+
+Generally HTML elements can be integrated into Predefined Content entries. Chat and messaging visitors will receive the content with the HTML formatting.
+
+### Sending Hyperlinks through bots and automatic messages
+
+Hyperlinks for messaging are implemented using markdown language.
+
+In order to add hyperlinks to bots (such as Post Conversation Survey bot or other bots using  the Conversation Builder) and automatic messages with hyperlinks, you should use the following markdown language syntax: #md#[LINK](LINK_TEXT)#/md#
+
+For example:
+#md#[http://liveperson.com](Liveperson website)#/md#
+In runtime, the link will be displayed to the consumer as a clickable link. 
+
+## Supported sources
+
+**For now, the only supported source is web messaging, including mobile web messaging.** For consumers using mobile app messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
+
+## Limitations
+
+When working with hyperlinks, you should consider the following limitation: 
+* Since consumers may start conversations from web messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers. 
