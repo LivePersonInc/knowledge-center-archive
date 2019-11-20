@@ -397,3 +397,204 @@ Image 1: Consumer shares file on mobile iOS 13
 Image 2: Consumer shares file on mobile iOS 13 - agent side
 
 ![](img/week-of-november-25th-16.png)
+
+## [PCS] New email transcript questions as part of the template  
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Two new questions were added at the end of the Post Conversation Survey template:
+* **Email transcript question:** The text question “Would you like us to email you a transcript of this conversation?” with quick replies ‘Yes’ or ‘No’. Once the consumer selects the “Yes” option he will be prompted with the second question. The “No” option will lead the consumer to the end of the survey.
+* **Email address question:** The text question: “Please provide your email”. Once the consumer types his email address the bot checks whether the email address is valid. For more information please refer to the “Response to unrecognized user email” section.
+
+![](img/week-of-november-25th-21.png)
+
+## [PCS] New email transcript predefined brick 
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+A new email transcript brick was added to the predefined brick list for the Post Conversation Survey. The brick includes an email address question. This is the text question: “Please provide your email”. Once the consumer types his email address the bot checks whether the email address is valid. For more information please refer to the “Response to unrecognized user email” section.
+
+![](img/week-of-november-25th-22.png)
+
+## [PCS] New “Response to unrecognized user email” settings
+
+### Type: New functionality 
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Once the survey includes an email transcript question that was selected either from the survey template or from the predefined bricks, it is required to configure the email transcript response.
+The survey settings have a new section for “Response to unrecognized user email” settings under
+“Bot message to unrecognized user email”
+
+The new settings include: 
+* Bot message to unrecognized user email. The default message is “Please provide a valid email address”
+* Skip survey automatically after X unrecognized user email. The default is set to 2.
+* Closing message due to unrecognized email. The default message is “The email address is not valid. The survey will now close. Sorry for the inconvenience”
+* Please provide sender email address. This email is a must in case you have an email transcript question in your survey. 
+* Please provide sender name. This will be presented in the email as the sender’s name. Sender name must be provided in case the survey includes an email transcript question.
+
+{: .notice} 
+**Note:** For help configuring email settings please contact your LivePerson representative. 
+
+![](img/week-of-november-25th-23.png)
+
+## Email conversation transcript 
+
+### Type: New functionality
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+If the Post Conversation Survey includes an email transcript question and the consumer provided a valid email address, an email with the conversation transcript will be sent to them.
+The email will be sent from the email address that was set as part of the survey settings and the sender name will be based on the survey settings as well. The transcript will include text only.
+
+**Limitations:** Rich content messages, such as structure content and files, are not supported at this stage and will be presented as “Rich content was shared by agent/you”.
+
+For more information please refer [here](/ai-bots-automation-post-conversation-survey-bot.html).
+
+![](img/week-of-november-25th-24.png)
+
+![](img/week-of-november-25th-25.png)
