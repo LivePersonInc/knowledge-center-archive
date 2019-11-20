@@ -398,6 +398,47 @@ Image 2: Consumer shares file on mobile iOS 13 - agent side
 
 ![](img/week-of-november-25th-16.png)
 
+## [Manager workspace] New wait time in queue metric
+
+### Type: New functionality  
+
+In order to have better visibility of the status of the queues, a new “Wait time” metric has been added to the “Queue summary” widget. The metric is available on a skill level (queue) breakdown. 
+
+The metric displays the **90% percentile of the consumers wait time for an agent assignment.** This means that 90% of consumers are currently waiting for an agent assignment for this amount of time or less. The metric is not impacted by the time frame filter, as it is showing the current status of the queue.  
+
+![](img/week-of-november-25th-17.png)
+
+## [Manager workspace] New overdue metric 
+
+### Type: New functionality  
+
+The new overdue metric has been added in the following two locations of the manager workspace: 
+* **Queue summary:** This metric displays the number of conversations *assigned to agents* of the groups you manage, which exceeded the target response time.
+* **Activity summary:** This metric displays the number of conversations *waiting in queue*, which exceeded the target response time.
+
+![](img/week-of-november-25th-18.png)
+
+## [Manager workspace] Filter by specific hour 
+
+### Type: New functionality  
+
+Until now, users have been able to change the time range of the manager workspace to view data from the past X hours (maximum supported time range is 24 hours).
+
+With this version, users will also be able to filter the workspace from a specific hour in time, in a range between midnight and the current time. This is most useful for brands wishing to monitor the workspace from the beginning of the business day or the shift. 
+
+![](img/week-of-november-25th-19.png)
+
+## Navigation from enhanced agent workspace to the manager workspace 
+
+### Type: New functionality 
+
+When a user drills down to read the transcript of a specific conversations from the “Conversations widget” in the manager workspace, the user is navigated to the enhanced agent workspace. Today, in order to navigate back to the conversation list, the user has to click on the manager workspace icon in the navigation bar. With this version, in order to make the flow more clear, a new “Back to manager workspace” button has been added to easily help you navigate back to the manager workspace.
+
+{: .notice}  
+**Please note:** This functionality is available only to agent managers who are using both the new manager workspace and the enhanced agent workspace.
+
+![](img/week-of-november-25th-20.png)
+
 ## [PCS] New email transcript questions as part of the template  
 
 ### Type: New functionality 
