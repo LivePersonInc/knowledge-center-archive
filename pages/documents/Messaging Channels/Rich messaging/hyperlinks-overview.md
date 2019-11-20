@@ -11,7 +11,7 @@ isNew: false
 
 ---
 
-{:. notice} 
+{: .notice} 
 **Please note:** This capability is only available for the enhanced agent workspace. 
 
 ## Introduction
