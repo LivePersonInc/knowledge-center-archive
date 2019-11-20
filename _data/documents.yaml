@@ -60,6 +60,7 @@
         - pagename: Agent file sharing overview
         - pagename: Audio messaging user guide
         - pagename: Quick replies user guide
+        - pagename: Hyperlinks overview
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
         - pagename: Engagement window widgets
@@ -393,15 +394,15 @@
         - pagename: Set up and management
         - pagename: Consumer Experience
         - pagename: Agent tools
-    - subcategoryname: Live Chat
+    - subcategoryname: Live chat
     - subcategoryname: Bots
-    - subcategoryname: 'Data & Reporting'
+    - subcategoryname: 'Data & reporting'
     - subcategoryname: Case management support
     - subcategoryname: HAR files web requests and web traffic
 
 - categoryname: FAQs
   image: faqs
   subcategories:
-    - subcategoryname: 'Data & Reporting'
+    - subcategoryname: 'Data & reporting'
     - subcategoryname: 'Surveys & window'
     - subcategoryname: Agent tools
