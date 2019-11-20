@@ -190,7 +190,6 @@ Jumping forward is only blocked in case a step is not completed (empty mandatory
 Previously, if a user wanted to see the configuration of a bot then it was only possible if the bot was offline. This enhancement in our system allows the user to see the bot configuration in read-only mode even if the bot is running. This option can be accessed from the menu in the listing page of bots.
 
 ![](img/bot_connectors_RN2.13_2.png)
-![](img/bot_connectors_RN2.13_3.png)
 
 ## Deprecate Dialogflow
 ### Type: Change
@@ -275,6 +274,71 @@ Support for Dialogflow V1 has been removed from our connector. The user will no 
 </div>
 
 Watson introduced a new SDK with enhancement on all over the library for Assistant. The library has been updated to conform with the new breaking changes and standards of the new SDK.
+
+## Fix inactive visitor timeout behaviour on chat
+### Type: Bug fix
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+With this bugfix for an inactive chat, the system will not only send the warning message but also the closing message will be shown and the chat will be closed as defined in the chatbot configuration. 
+
+## Bot dashboard or listing doesn’t show the updated state
+### Type: Bug fix
+
+If the bot is running correctly, even after the interruption, this state is not reflected in the bot status dashboard or listing.
+
+## Watson V2 session expires after 5 minutes causing escalations if user response is delayed
+### Type: Bug fix
+
+Watson session expires after 5 minutes. This means if a consumer sends a message after that time, it will be escalated due to an error. 
+
+## Fixing issues during conversation context creation for messaging
+### Type: Bug fix
+
+Sometimes the bot is not responding to the welcome message on messaging.
+Looking into the logs filtered on the convId from the E2E logs  we noticed the following error:
+"Could not create conversation context"
+It looks like this happens to a lot of conversations because campaignInfo is undefined in the conversationDetails and when creating the conversationContext this is not expected.
+This will be caught and the context is created based on the history API data.
+
+## Cannot start/stop bots from dashboard
+### Type: Bug fix
+Since white-theme release, the start/stop buttons in the dashboard don’t work anymore. This fix removed that problem.
 
 ## Enhancements to the agent survey for messaging
 ### Type: Enhancement
