@@ -278,6 +278,8 @@ The following features are now included by default for any new engagement window
 
 **Screenshots**
 
+All new features as default: 
+
 ![](img/week-of-november-25th-11)
 
 ![](img/week-of-november-25th-12)
