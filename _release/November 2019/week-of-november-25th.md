@@ -967,6 +967,8 @@ The consumer experience will be identical, and the hyperlink will be displayed a
  * The hyperlink button will not be displayed for conversations originating from unsupported sources.
  * Since consumers may start conversations from web messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers. 
 
+For more information [click here](https://knowledge.liveperson.com/messaging-channels-rich-messaging-hyperlinks-overview.html).
+
 ## [Enhanced agent workspace] Updated keyboard shortcuts 
 
 In the enhanced agent workspace, some of the agent shortcuts were not working properly for some browsers on specific operating systems. We found that some of the shortcut combinations (e.g. users working with Internet Explorer on Windows) were already in use by the browser or by the operating system. Therefore, we changed the shortcut combinations so that they will be supported for all browsers, in all operating systems.
