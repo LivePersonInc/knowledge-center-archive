@@ -1,5 +1,5 @@
 ---
-pagename: Contacting Support
+pagename: Contact Support
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
