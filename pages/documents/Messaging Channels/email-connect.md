@@ -109,8 +109,8 @@ Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEnga
 
 ### Step 2: Open Advanced Messaging Dashboard
 
-Click on RunDashboard at the bottom left on the page
+Click on RunDashboard at the bottom left on the page. Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
 
-![](https://lh6.googleusercontent.com/CDMHQxkh3nDMnNP6aALP_2ilmD5k0B-GNFEKZ7Ok0ICFhI2i_y5q5ppLs6VG2YxlEcBaIQmj-KYkhjWMAoloqwO6Prc42L9TD16FSDduy52_9dDauEySQH6U7kSkOiXgYOeaLTIq =624x317)
+## Security
 
-Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
+Email Connect reads emails from the brand’s email account using the IMAP protocol, and sends emails from that same account using an SMTP protocol. All credentials used within the IMAP and SMTP protocols are stored securely using encryption.
