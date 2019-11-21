@@ -389,6 +389,7 @@
   image: Troubleshooting
   subcategories:
     - subcategoryname: Contact Support
+    - subcategoryname: Status page
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
