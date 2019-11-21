@@ -27,14 +27,14 @@ This channel is specifically useful for high priority issues that requires immed
 
 ![](img/Contact_support1.png)
 
-## Create a SalesForce case
+## Open a ticket
 
 {: .notice}
 This only applies to eligible customers as part of their CSO package.
 
-Only Agent Managers and Administrators can open a SalesForce case. 
+Only Agent Managers and Administrators can open a ticket. 
 
-### How to open a SalesForce case
+### How to open a ticket
 
 1. Log into the LiveEngage.
 2. Expand the Connection Area by clicking the three 3 vertical dots on the right   
@@ -42,22 +42,6 @@ Only Agent Managers and Administrators can open a SalesForce case.
 3. Click on Technical support cases (case icon) and then click on 'create new case'.
 
 ![](img/Contact_support2.png)
-
-## Service status page
-The status page is a communication tool that helps us inform our customers about outages and scheduled maintenance. It is located in the LiveEngage platform. 
-You can view the status page by clicking on the agent avatar and then click on the service status dashboard.
-
-![](img/Service_status_page_contact_support.png)
-
-## Service status page dashboard
-The status page dashboard is easy to use and shows the current status of each service. At the bottom of the dashboard there is a glossary showing the various statuses. In the case of a ‘Service interruption’ for example, you can click on the exclamation mark to view the full details of the incident. 
-
-![](img/service_status_dashboard.png)
-
-Once you enter the status page, there will be a full view of the current statuses and future maintenance activities. 
-If you would like to receive an SMS with progress of the case, click on Subscribe. 
-
-![](img/service_incident.png)
 
 {: .important}
 Before contacting Support, check out the Troubleshooting section of the knowledge center as it may have the answer to your question.
