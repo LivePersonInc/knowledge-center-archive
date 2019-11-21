@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-LivePerson strives to provide the best in class support experience by connecting to customers needs and utilizing the most innovative engagement channels by LivePerson as well as automation initiatives.
+LivePerson strives to provide the best in class support and provide technical assistance to remove any obstacles in our customer's production environment, ensuring their business is running smoothly.
 
 LivePerson provides 24/7 live messaging support with immediate response, just choose your preferred method to contact us!
 
@@ -29,12 +29,12 @@ This channel is specifically useful for high priority issues that requires immed
 
 ## Create a SalesForce case
 
-Only Agent Managers and Administrators can open a SalesForce case
+Only Agent Managers and Administrators can open a SalesForce case.
 
 ### How to open a SalesForce case
 
 1. Log into the LiveEngage.
-2. Expand the Connection Area by clicking the three 3 vertical dots on the right   
+2. Expand the Connection Area by clicking the three 3 vertical dots on the right  
    of the browser.
 3. Click on (1)'Technical support cases' > (2)'Create new case’
 

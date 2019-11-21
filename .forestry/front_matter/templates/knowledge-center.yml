@@ -136,8 +136,8 @@ fields:
   description: Is this a new feature? If on, the featured will be displayed on the
     homepage
 pages:
-- _release/November 2019/Week-of-november-18th.md
 - pages/documents/Troubleshooting/Contact support.md
+- _release/November 2019/Week-of-november-18th.md
 - _new/November whats new 2019.md
 - pages/documents/Agent and manager workspace/manager tools for messaging/hiring-agents-for-messaging-success.md
 - pages/documents/Security & Regulations/Liveperson-support-policy.md
