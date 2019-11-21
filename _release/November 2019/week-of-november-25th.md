@@ -337,7 +337,11 @@ The new design includes the following changes when the text area is in focus:
 
 **Screenshots** 
 
+Image 1: Look and feel of text area when in focus before and after
+
 ![](img/week-of-november-25th-13.png)
+
+![](img/week-of-november-25th-13a.png)
 
 ## File sharing attachment not working
 
@@ -397,6 +401,12 @@ Image 1: Consumer shares file on mobile iOS 13
 Image 2: Consumer shares file on mobile iOS 13 - agent side
 
 ![](img/week-of-november-25th-16.png)
+
+## Secure form displays with incorrect header and blank screen after conversation is closed
+
+### Type: Bug fix 
+
+If a visitor has filled out a secure form and submitted it to the agent, and then closes the conversation window, reopens the window and clicks on the secure form link in the conversation history, the form will open in a slide out window but the panel will appear bank. This issue has been resolved.
 
 ## [Manager workspace] New wait time in queue metric
 
