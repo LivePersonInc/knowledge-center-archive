@@ -3,7 +3,7 @@ pagename: Status page
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: chat
-subtitle: All incidents can be monitored via the LivePerson status page
+subtitle: Keep up to date with the LivePerson status page
 level3: ''
 permalink: troubleshooting-status-page.html
 isTutorial: false
