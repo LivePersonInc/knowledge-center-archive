@@ -58,3 +58,6 @@ Once you enter the status page, there will be a full view of the current statuse
 If you would like to receive an SMS with progress of the case, click on Subscribe. 
 
 ![](img/service_incident.png)
+
+{: .important}
+Before contacting Support, check out the Troubleshooting section of the knowledge center as it may have the answer to your question.
