@@ -388,7 +388,7 @@
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
-    - subcategoryname: Contact Support
+    - subcategoryname: How to contact Support
     - subcategoryname: Status page
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace
