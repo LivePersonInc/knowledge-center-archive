@@ -388,6 +388,7 @@
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
+    - subcategoryname: Contact Support
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
