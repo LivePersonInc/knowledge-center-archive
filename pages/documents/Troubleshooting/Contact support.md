@@ -22,7 +22,7 @@ This channel is specifically useful for high priority issues that requires immed
 
 1. Log into the LiveEngage.
 2. Expand the Connection Area by clicking the three 3 vertical dots on the right of the browser.
-3. Click on (1)'Contact Liveperson'
+3. Click on the message icon to contact Liveperson
 4. Start messaging
 
 ![](img/Contact_support1.png)
