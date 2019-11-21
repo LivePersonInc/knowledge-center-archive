@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-LivePerson provides 24/7 live messaging support with immediate response. All incidents can be monitored via the LivePerson status page
+LivePerson provides 24/7 live messaging support with immediate response. 
 
 ## Service status page
 
@@ -27,7 +27,6 @@ The status page dashboard is easy to use and shows the current status of each se
 ![](img/service_status_dashboard.png)
 
 Once you enter the status page, there will be a full view of the current statuses and future maintenance activities.
-
 If you would like to receive an SMS with progress of the case, click on Subscribe.
 
 ![](img/service_incident.png)
