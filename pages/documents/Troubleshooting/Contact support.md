@@ -1,11 +1,11 @@
 ---
-pagename: Contact Support
+pagename: How to contact Support
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
 subtitle: How to contact support
 level3: ''
-permalink: troubleshooting-contact-support.html
+permalink: troubleshooting-how-to-contact-support.html
 isTutorial: false
 isNew: false
 
