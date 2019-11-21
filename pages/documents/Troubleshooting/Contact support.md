@@ -54,6 +54,7 @@ The status page dashboard is easy to use and shows the current status of each se
 
 ![](img/service_status_dashboard.png)
 
-Once you enter the status page you can have a full view of the current status and future maintenance activities. If you would like to receive an SMS with profress of the incident, click on Subscribe. 
+Once you enter the status page, there will be a full view of the current statuses and future maintenance activities. 
+If you would like to receive an SMS with progress of the case, click on Subscribe. 
 
 ![](img/service_incident.png)
