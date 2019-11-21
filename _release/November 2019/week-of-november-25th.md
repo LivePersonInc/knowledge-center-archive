@@ -422,9 +422,11 @@ The metric displays the **90% percentile of the consumers wait time for an agent
 
 ### Type: New functionality  
 
-The new overdue metric has been added in the following two locations of the manager workspace: 
+The overdue metric allows managers to closely monitor the number of overdue conversations during the shift and take action when needed. It has been added in two locations: 
 * **Queue summary:** This metric displays the number of conversations *assigned to agents* of the groups you manage, which exceeded the target response time.
 * **Activity summary:** This metric displays the number of conversations *waiting in queue*, which exceeded the target response time.
+
+The overdue metric is impacted by the relevant filters.
 
 ![](img/week-of-november-25th-18.png)
 
