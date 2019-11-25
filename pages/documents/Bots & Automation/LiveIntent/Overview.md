@@ -90,6 +90,9 @@ If you have **intents in an external system**, you can [import](https://develope
 
 If you have **intents in Intent Builder** already, [see here](https://developers.liveperson.com/intent-builder-overview.html#liveintent) for how to enable them in LiveIntent.
 
+{: .notice}
+Please see [this guide](https://developers.liveperson.com/intent-builder-liveintent-tips.html) for Tips on using Intent Builder with LiveIntent
+
 ## Using LiveIntent
 
 When you have intents and they are enabled for LiveIntent, you can view your data in the [LiveIntent dashboard](ai-bots-automation-liveintent-dashboard.html).

@@ -31,7 +31,7 @@ Using LivePerson’s powerful tools, Conversational AI has the ability to:
 
 Conversational AI offers an end-to-end orchestration of brand to consumer conversations using the following AI tools and automations:
 
-### LiveIntent (coming Q4, 2019)
+### LiveIntent 
 
 **Automatically identifies consumers intent in real time, through every turn in a conversation**
 

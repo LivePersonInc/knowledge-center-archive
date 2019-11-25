@@ -69,13 +69,10 @@ New visualization types for creating custom dossiers (histogram, waterfall chart
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
 layout ( Automatic, Portalit, Landscape)
 Advanced mode to export the visualizations individually on separate pages to include all data.
+{: .notice}
+Export pdf is limited to 100 pages only
 
 ![](img/export-to-pdf.png)
-
-### PDF scheduling
-New scheduling to a PDF file format will soon be available. In addition, setting the scheduling to PDF format can be done within the dashboard. Go to the file menu and select ‘Schedule Delivery to email’.
-
-![](img/pdf-scheduling.png)
 
 ### Personalized view
 Users can now save their own customized personal view of the dossier. A personal view is a lightweight copy of a dossier and includes every change that was made to the dossier including filtering the report period time frame and the offset selector. This updates will save time when choosing data to analyze and it allows you to define different views on the same dashboard without having to re select the filters on the dossier.

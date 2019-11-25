@@ -37,6 +37,14 @@ For chat, maximum wait time is defined as the length of time from the moment tha
 {: .notice}  
 You can also create a new skill within each user profile. See section [assigning skills to users](admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html#assigning-skills-to-users).
 
+## How to delete a skill
+1. From the users page, click on the skills tab to view the skills list.
+2. Check the box next to the skill that you wish to delete.
+3. Click on the Action menue on the top right of the screen.
+4. Click Delete.
+
+![](/img/delete_skill.png)
+
 ## Skills transfer list
 
 Creating a transfer list per skill helps brands to define, for each skill, a list of other skills that the conversation can be transferred to.

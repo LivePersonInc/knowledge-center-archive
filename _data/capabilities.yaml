@@ -249,7 +249,7 @@
     - facebook: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Not Supported"
-    - line: "Not Supported"
+    - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"

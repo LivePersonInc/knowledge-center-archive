@@ -15,9 +15,18 @@ redirect_from:
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
 
-## The Engagement window studio
+### Using the Engagement window studio, you can:
 
-To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a chat window once and use it across any number of engagements.
+* [Customize the look and feel of the conversation window](/contact-center-management-campaigns-engagement-window.html#customize-the-look-and-feel)
+* [Add a window header](/contact-center-management-campaigns-engagement-window.html#to-add-a-header-to-the-window), [configure a picture of your agent](/contact-center-management-campaigns-engagement-window.html#agent-picture-configuration), or [add another image to the window](/contact-center-management-campaigns-engagement-window.html#to-add-an-image-to-the-window)
+* [Add and edit surveys](/contact-center-management-campaigns-engagement-window.html#to-add-and-edit-surveys)
+* [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#to-add-additional-functionality-to-your-window)
+* [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
+* and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
+
+## Engagement window studio basics
+
+To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a conversation window once and use it across any number of engagements.
 
 ### To access the Engagement window studio:
 
@@ -36,13 +45,6 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-2.png)
 
-### Using the Engagement window studio, you can:
-
-* Customize the look and feel of engagement windows
-* Add a window header, a picture of your agent, or another image
-* Add surveys
-* Add action buttons, e.g, to request an email of the chat transcript
-
 ### To edit the window name and description:
 
 1. Click the window name (in this example, Support)
@@ -59,9 +61,9 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-4.png)
 
-### To customize chat window elements:
+### To customize conversation window elements:
 
-You can fully customize the chat window to suit your brand by changing the colors, fonts, visitor bubble, agent bubble, system messages, info line and chat window background. Select each of the window elements and follow the steps below:
+You can fully customize the conversation window to suit your brand by changing the colors, fonts, visitor bubble, agent bubble, system messages, info line and window background. Select each of the window elements and follow the steps below:
 
 1. Click on an element
 2. From the properties window, customize the element according to your brand

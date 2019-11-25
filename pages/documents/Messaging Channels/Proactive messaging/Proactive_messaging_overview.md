@@ -3,19 +3,20 @@ pagename: Proactive messaging overview
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Go from 1-way SMS to rich 2-way conversational experiences
+subtitle: Transition from one-way SMS to rich two-way conversational experiences
 level3: ''
 permalink: messaging-channels-proactive-messaging-proactive-messaging-overview.html
 isTutorial: false
 isNew: false
 
 ---
+Proactive Messaging is an effective communication tool used widely today to send bulk or personalised messages relating to consumer for sales or service information. As this is a one-way communication tool, brands have to have a call to action that directs consumers away from the channel - usually to visit the website or to call the brand. This drives call volume and web visits that often cause friction, and means that our brands are missing opportunities to respond to direct replies.
 
-Business SMS is an effective communication tool, but until now has only been one-way. Many brands effectively utilize proactive messaging to send account service or sales related information. However, this communication is one-way, leading to several missed opportunities in customer replies.
+With LivePerson’s Proactive Messaging, brands can now send consumers outbound messages on SMS, or richer channels like WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, fewer calls and lower operational costs, and rich messaging experiences that increase consumer satisfaction.
 
-With LivePerson’s Proactive Messaging, brands can now send consumers outbound messages on channels like SMS, WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, fewer calls and operational costs, and rich messaging experiences that increase consumer satisfaction.
-
-This new capability enables brands to build relationships and engage with their consumers by giving them the ability to both respond to consumers who reach out and also proactively share value-added information with their consumers, when applicable. Brands can leverage LiveEngage to generate leads for their conversational commerce scenarios by sharing important and timely information such as reminders about bill payments, subscriptions renewal, feedback requests, new deals, or updates on product availability.
+Using your own outbound tool and our proactive API OR utilising the easy to use LivePerson Proactive Too, you can build relationships and engage with consumers by giving them the ability to both respond to consumers who reach out and also proactively share value-added information with their consumers.  
+Brands can leverage LiveEngage to generate leads for their conversational commerce scenarios by sharing important and timely information such as reminders about bill payments, subscriptions renewal, feedback requests, new deals, or updates on product availability.  
+Respond to your consumers with agents, automation or a mix of both.
 
 {: .notice}  
 Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
@@ -39,11 +40,13 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 ## Proactive messaging capabilities
 
 * Create targeted outbound campaigns and route consumer responses into the LivePerson agent workspace, where conversations can be handled by humans, automation (using our built-in Conversation Builder) or a tango of both.
-* When a brand’s agent or a bot receives a response from a consumer for a proactive message, they also receive the context of what the consumer is responding to.
-* Ability to personalize an outbound message per recipient
-* Ability to create WhatsApp message templates that can be used for Proactive outbound campaign and submit to Facebook for approval in a self-service manner
+* When a brand’s agent or a bot receives a response from a consumer for a proactive message, they also receive the context of what the consumer is responding to. Amend to: When a consumer responds, the agent or bot who receives the response message will also have context of the outbound message that was sent to the customer for a more streamlined experience.
+* Ability to personalize an outbound message per recipient Amend to: Create personalised and targeted campaigns by using variables - each recipient can have personalised content
+* Ability to create WhatsApp message templates that can be used for Proactive outbound campaign and submit to Facebook for approval in a self-service manner. Amend to: If using WhatsApp, apply for approval from Facebook for your outbound templates directly from the tool
 * Data and reporting on conversations and operational statistics are available as part of LivePerson’s advanced reporting platform.
-* Measure the consumer’s satisfaction with the proactive conversations which will provide them a direct signal about the effectiveness of the brand’s proactive strategy.
+* Measure the consumer’s satisfaction with the proactive conversations which will provide them a direct signal about the effectiveness of the brand’s proactive strategy. Amend to: Survey your customers in channel post conversation to understand CSAT/NPS or first contact resolution.
+* Simple and easy to use: create personalised and targeted campaigns with a few clicks
+* Reach out to your consumer in the richest possible channel: our fallback feature will ensure any customers who don't have your chosen rich channel will still receive the message in SMS.
 
 ## Prerequisites to setting up Proactive Messaging
 
@@ -56,4 +59,3 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 ![](img/Proactive_launch_pad.png)
 
 Please see the Proactive Messaging [user guide](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)
-
