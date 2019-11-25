@@ -5,7 +5,7 @@ subCategoryName: Campaigns
 indicator: messaging
 subtitle: Broadcast SMS campaigns using CM SMS numbers
 level3: ''
-permalink: contact-center-management-campaigns-outbound-campaigns-for-CM.html
+permalink: contact-center-management-campaigns-outbound-campaigns-for-cm.html
 isTutorial: false
 isNew: false
 date: 2019-04-03 08:39:38 +0000
