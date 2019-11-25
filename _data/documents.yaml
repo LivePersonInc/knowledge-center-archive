@@ -144,7 +144,7 @@
         - pagename: Managing campaigns
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
-        - pagename: Outbound campaigns
+        - pagename: Outbound campaigns for CM
 
 - categoryname: "Agent & manager workspace"
   image: agent-manager
