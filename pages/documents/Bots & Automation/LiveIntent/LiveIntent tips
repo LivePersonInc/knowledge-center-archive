@@ -1,11 +1,13 @@
-pagename: LiveIntent Tips
-redirect_from:
-Keywords:
-sitesection: Documents
-categoryname: "LiveIntent"
-documentname: LiveIntent tips
+pagename: LiveIntent tips
+categoryName: Bots & automation
+subCategoryName: LiveIntent
+indicator: messaging
+subtitle: Tips and best practises for improving intents to help businesses optimize
+  operations and enable data-driven automation programs
+level3: ''
 permalink: ai-bots-automation-liveintent-liveintent-tips.html
-indicator: both
+isTutorial: false
+isNew: false
 ---
 
 Below are instructions for adding and improving intents and training utterances for [LiveIntent](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html) via the Intent Builder interface. Intents and training utterances for Starter Packs and Custom Intent Modeling are produced via processes outside Intent Builder but are ultimately input into Intent Builder via the same interface.
