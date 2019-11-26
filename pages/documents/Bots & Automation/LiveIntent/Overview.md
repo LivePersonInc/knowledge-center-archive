@@ -91,7 +91,7 @@ If you have **intents in an external system**, you can [import](https://develope
 If you have **intents in Intent Builder** already, [see here](https://developers.liveperson.com/intent-builder-overview.html#liveintent) for how to enable them in LiveIntent.
 
 {: .notice}
-Please see [this guide](https://developers.liveperson.com/intent-builder-liveintent-tips.html) for Tips on using Intent Builder with LiveIntent
+Please see [this guide](https://knowledge.liveperson.com/ai-bots-automation-liveintent-liveintent-tips.html) for tips on using Intent Builder with LiveIntent
 
 ## Using LiveIntent
 
