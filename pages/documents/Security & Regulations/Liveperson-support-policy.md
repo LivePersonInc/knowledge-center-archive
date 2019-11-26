@@ -61,7 +61,7 @@ Severity level | Description | Response time | Periodic updates | Preliminary ro
 * **Periodic updates** are displayed on the LivePerson Service Status Dashboard.
 * **Preliminary Root Cause Analysis** is LivePerson's preliminary investigation into the root cause of an incident that occurred on our platform or products. The document describes the information available to LivePerson at the time the document is written.
 * **Final Root Cause Analysis** LivePerson will continue to investigate the incident and deliver a final document that outlines the preventative measures implemented by LivePerson as soon as commercially feasible based on the nature and complexity of the incident.
-* **Enhanced Service Levels (SLAs)** are available if the Customer purchased a Customer Success Package (for an additional fee). For details,[click here](https://www.liveperson.com/services/cso-terms-and-conditions).
+* **Enhanced Service Levels (SLAs)**  Quickest resolution & response time, available for customers who purchased ‘Enhanced Support packages’ (for additional fee). For details [click here](https://www.liveperson.com/sites/default/files/pdfs/docs/LP-Enhanced-Support-Packages.pdf).
 
 ## Service-related updates
 
