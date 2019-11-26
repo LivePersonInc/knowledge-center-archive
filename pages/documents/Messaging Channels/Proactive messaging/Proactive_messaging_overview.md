@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-Proactive Messaging is an effective communication tool used widely today to send bulk or personalised messages relating to consumer for sales or service information. As this is a one-way communication tool, brands have to have a call to action that directs consumers away from the channel - usually to visit the website or to call the brand. This drives call volume and web visits that often cause friction, and means that our brands are missing opportunities to respond to direct replies.
+Proactive campaigns is an effective communication tool used widely today to send bulk or personalised messages relating to consumers for sales or service information. Today, this is a one-way communication tool, brands have to have a call to action that directs consumers away from the channel - usually to visit the website or to call the brand. This drives call volume and web visits that often cause friction, and means that our brands are missing opportunities to respond to direct replies.
 
 With LivePerson’s Proactive Messaging, brands can now send consumers outbound messages on SMS, or richer channels like WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls, Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. This results in higher conversion rates, fewer calls and lower operational costs, and rich messaging experiences that increase consumer satisfaction.
 
