@@ -169,7 +169,7 @@ Floating engagement window consumer view:
 
 Brands have the ability to configure whether to provide consumers the ability to add emojis to their conversation while using the engagement window on their desktop. This feature is disabled by default.
 
-**Limiations**
+**Limitations**
 * This feature is available for desktop only.
 
 **Enablement**
