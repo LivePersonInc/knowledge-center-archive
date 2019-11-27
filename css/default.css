@@ -569,11 +569,7 @@ ul.mysidebar.nav > li:first-of-type {
   cursor: default;
   height: 15px;
   align-self: center;
-  margin-left: 13px;
-}
-
-.indicator:nth-child(3) {
-  margin-left: 10px;
+  margin-right: 13px;
 }
 
 /*CSS for specific styling of Chat Indicator*/
