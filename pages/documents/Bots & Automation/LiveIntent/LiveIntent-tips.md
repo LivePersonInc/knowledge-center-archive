@@ -51,7 +51,7 @@ After identifying a few patterns, see if you can group messages under a label. I
 
 There are two ways to classify messages:
 
-* Option 1: Read the messages directly from the [Conversation Details dashboard](https://knowledge.liveperson.com/ai-bots-automation-liveintent-dashboard.html#conversation-details) on LiveIntent. You may want to take notes to record your patterns.
+* Option 1: Read the messages directly from the [Conversation details dashboard](https://knowledge.liveperson.com/ai-bots-automation-liveintent-dashboard.html#conversation-details) on LiveIntent. You may want to take notes to record your patterns.
 
     <img  class="fancyimage" style="width:750px" src="img/liveintent_tips_image_0.png">
 
@@ -62,7 +62,7 @@ There are two ways to classify messages:
     <img  class="fancyimage" style="width:750px" src="img/liveintent_tips_image_1.png">
 
 
-Here’s a sample spreadsheet of the messages extracted from the LiveIntent dashboard. They are all initially labeled as "undefined." Manually go through each message and change the label to the name of your intent.
+See below a sample spreadsheet of the messages extracted from the LiveIntent dashboard. They are all initially labeled as "undefined." Manually go through each message and change the label to the name of your intent.
 
 <img  class="fancyimage" style="width:750px" src="img/liveintent_tips_image_2.png">
 
@@ -111,7 +111,7 @@ This is how your data will look if you export it to evaluate your model.
 
 <img  class="fancyimage" style="width:750px" src="img/liveintent_tips_image_3.png">
 
-Here are some steps you can take to evaluate how well your model is doing.
+Here are some steps you can take to evaluate how well your model is doing:
 
 1. Check that labeled messages are correct. Any mislabeled message can be added as a training utterance to the correct intent.
 
