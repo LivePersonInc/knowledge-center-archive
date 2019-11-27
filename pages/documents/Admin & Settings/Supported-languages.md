@@ -79,6 +79,9 @@ The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 * Romanian
 * Spanish
 * Turkish
+* Indonesian
+* Vietnamese
+* Russian
 
 ## Languages supported in CoBrowse
 
