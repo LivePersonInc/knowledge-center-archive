@@ -352,9 +352,9 @@ body {
 }
 
 .lpc_desktop.lpc_card__button {
-  width: 70% !important;
   margin-bottom: 5px;
   margin-right: 20px;
+  margin-top: 3px;
   padding: 10px 20px 10px 20px;
   background-color: #4a61a9;
   border-top: 0 !important;
@@ -537,18 +537,70 @@ body {
 .lpc_desktop.lpc_card__text {
   background-color: #0363ad !important;
   border: none !important;
-  border-radius: 10px 10px 10px 0 !important;
-  width: auto !important;
-  max-width: 70% !important;
+  border-radius: 0 !important;
+  width: 100% !important;
   font-family: "Roboto", "Open Sans", Helvetica !important;
   font-size: 17px !important;
   color: #fff !important;
   padding: 10px 16px 14px 16px !important;
-  margin-bottom: 5px !important;
+  min-height: 47px;
 }
 
 .lpc_survey-area {
   display: flex;
+}
+
+
+.lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-element-text {
+  padding: 10px 16px 5px 16px !important;
+  border-radius: 0;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-text:first-child {
+  font-size: 15px !important;
+  font-weight: 500;
+  margin-bottom: 1px;
+  min-height: 62px;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-text {
+  text-align: left;
+  margin-bottom: 0;
+  border-radius: 0;
+  flex: 5;
+  font-size: 14px !important;
+  width: 85%;
+  display: flex;
+}
+
+.lp-json-pollock-element-text {
+  background: #465684 !important;
+  border: none !important;
+  border-radius: 10px 10px 10px 0;
+  width: auto;
+  font-family: "Roboto", "Open Sans", Helvetica;
+  font-size: 17px !important;
+  color: #fff !important;
+  padding: 10px 16px 14px 16px !important;
+  margin-bottom: 5px;
+}
+
+.lp-json-pollock-layout-carousel .lp-json-pollock-element-button button {
+  align-self: center;
+}
+
+
+.lp-json-pollock .lp-json-pollock-element-button button {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 17px;
+  font-family: "Roboto", "Open Sans", Helvetica;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.lpc_rich_content_grouped {
+  width: 180px !important;
 }
 
 /* these need to be fixed */
@@ -669,4 +721,10 @@ background: transparent !important;
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text span {
   color: #fff !important;
+}
+
+/* card radius */
+
+.lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout {
+  border-radius: 0 !important;
 }
