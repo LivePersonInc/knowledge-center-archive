@@ -295,7 +295,6 @@
       pages:
         - pagename: Account security recommendations
         - pagename: Validate identity of consumers during conversations
-        - pagename: LivePerson support policy
         - pagename: IP masking
         - pagename: Configuring your firewall
         - pagename: IP address blocking
@@ -303,6 +302,7 @@
         - pagename: Whitelist your domains for LP monitoring
         - pagename: Historic data masking
     - subcategoryname: LivePerson disaster recovery
+    - subcategoryname: LivePerson support policy
     - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
     - subcategoryname: Secure forms
