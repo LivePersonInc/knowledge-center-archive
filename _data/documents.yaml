@@ -281,8 +281,8 @@
         - pagename: Connect visitors to agents by skills
     - subcategoryname: Permissions
       pages:
-        - pagename: Assign permissions
-        - pagename: Profiles
+       - pagename: Profiles
+       - pagename: Restricted LPA access
     - subcategoryname: Set the time zone
     - subcategoryname: Supported languages
     - subcategoryname: System requirements
