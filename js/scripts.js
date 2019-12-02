@@ -256,7 +256,7 @@ function mobileHamburger() {
 function searchFunction() {
 	var $title = $('.h1').text();
 	//only run if on the relevant pages
-	if ($title.indexOf('Business Reporting Metrics') > -1) {
+	if ($title.indexOf('Reporting metrics') > -1) {
 		// Declare variables
 		var input, filter, table, tr, td, i;
 		input = document.getElementById("metricsSearch");
@@ -312,7 +312,7 @@ function searchFunction() {
 			//if this is the report builder page
 			if ($(".metricstable").is("#datametricstable")) {
 				//timeout is important because the table is so large and if it tries to load in parallel to the function, it stalls.
-				setTimeout(reportDisplay, 300);
+				setTimeout(reportDisplay, 1000);
 			} else {
 				metricsDisplay();
 			}

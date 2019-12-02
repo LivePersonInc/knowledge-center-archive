@@ -26,6 +26,7 @@ More information on the Live Chat dashboards can be found [here](https://knowled
 The table below outlines all of the data metrics available in the Report Builder, with their definition and location within the different dashboards.
 
 <div id="metrics">
+<input id="metricsSearch" placeholder="Search by Metric or Dashboard" />
 <table class="metricstable" id="datametricstable">
   <thead>
     <tr>
