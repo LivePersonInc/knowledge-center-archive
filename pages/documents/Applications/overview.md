@@ -28,7 +28,6 @@ A **private application** is an application which a certain customer can develop
 
 Your account comes pre-configured with a certain amount of global applications which LivePerson have decided to pre-install on all accounts. However, there are other types of global applications that have not been pre-installed on your account but which are available to install by contacting your LivePerson account team.
 
-
 ### Managing applications
 
 A new dedicated dashboard where you can manage LivePerson applications has been added to LiveEngage. This new dashboard allows administrators to manage all LivePerson applications on their account. In addition, this dashboard also allows the installation of new private applications, providing an easy to use UI for uploading and configuring new applications.
@@ -38,3 +37,7 @@ For more information on how to use the new Applications dashboard, please refer 
 ### Building a private Application
 
 In order to build and install a private application, you will need to create and upload a JSON schema. More information on this schema and other considerations when building a private application can be found in the Developers' Community.
+
+### Installing a private application
+
+The Applications Dashboard allows you to install private application which you have built. Please see our user guide for more information on how to install private applications.
