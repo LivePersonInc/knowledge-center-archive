@@ -95,7 +95,8 @@
 <script type="text/javascript">
 function startEngagement (event) {
   event.preventDefault();
-  lpTag.taglets.rendererStub.click(1508963650);
+  var clicked = lpTag.taglets.rendererStub.click(1508963650);
+  console.log(clicked);
 }
 
 function botClick () {
