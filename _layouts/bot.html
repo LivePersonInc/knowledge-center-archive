@@ -51,7 +51,7 @@
   </div>
   <!-- <div class="suggestbutton"><a href="{{ page.path | replace: 'pages' , 'https://github.com/EdenKupe/knowledge-center/edit/master/pages' }}" target="_blank"><i class="far fa-edit"></i><span>Suggest changes</span></a></div> -->
 </div>
-  <div id="defaultcontent">
+  <div id="defaultcontent" onclick="startEngagement(event)">
   <div id="maincontent" class="botcontent">
     <div class="anchorlist botAnchors">
       <span class="anchortitle">Jump to</span>
@@ -93,11 +93,16 @@
   })(window, document, '_gscq','script','//widgets.getsitecontrol.com/176473/script.js');
 </script>
 <script type="text/javascript">
-function startEngagement () {
+function startEngagement (event) {
+  event.preventDefault();
   lpTag.taglets.rendererStub.click(1508963650);
 }
 
-startEngagement();
+function botClick () {
+  $('#defaultcontent').trigger('click');
+}
+
+setTimeout(botClick, 2000);
 </script>
 </body>
 </html>

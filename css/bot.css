@@ -2,6 +2,10 @@ body {
   overflow-y: scroll;
 }
 
+.LPMoverlay {
+  visibility: hidden;
+}
+
 .botwrapper {
   background: rgb(5,25,55);
   background: linear-gradient(150deg, rgba(5,25,55,1) 0%, rgba(9,9,121,1) 50%, rgba(1,123,141,1) 100%);
@@ -505,7 +509,7 @@ body {
     top: 14px !important;
 }
 
-.lpc_desktop.lpc_composer button::focus {
+.lpc_desktop.lpc_composer button:focus {
     outline: none !important;
 }
 
