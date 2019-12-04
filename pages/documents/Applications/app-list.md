@@ -1,11 +1,11 @@
 ---
-pagename: 'LivePerson applications list'
+pagename: 'Global applications list'
 categoryName: LivePerson Applications
 subCategoryName: ''
 indicator: both
 subtitle:
 level3: ''
-permalink: liveperson-applications-overview.html
+permalink: liveperson-applications-global-applications-list.html
 isTutorial: false
 isNew: false
 ---

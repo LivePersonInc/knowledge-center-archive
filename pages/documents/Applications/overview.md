@@ -22,7 +22,7 @@ LivePerson Applications enhance the use of LiveEngage and the entire LivePerson 
 
 ### Global vs. private Applications
 
-A **global application** is an application which is published in the Applications Marketplace by a developer and will be available for all LivePerson customers to install and manage within the Applications dashboard. These applications are installed by LivePerson.
+A **global application** is an application which is published in the Applications Marketplace by a developer and will be available for all LivePerson customers to install and manage within the Applications dashboard. These applications are installed by LivePerson. [A list of global applications can be found here](liveperson-applications-global-applications-list.html).
 
 A **private application** is an application which a certain customer can develop, test and use on their accounts. These applications won’t be published in the Marketplace and thus will be available only for the brand which developed them. Private applications can be developed and uploaded for use without needing to contact LivePerson directly, simply by following a pre-determined schema.
 
