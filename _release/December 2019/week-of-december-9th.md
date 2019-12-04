@@ -124,8 +124,7 @@ This feature works in tandem with the LiveEngage Apps feature. The Restrict Acce
 {: .notice}
 With this feature enabled, Campaign Managers will not see any data in the Realtime Dashboard.
 
-## Agent status is not updated correctly in case of backend failure 
-**(Hotfixes for LEUI 1.3)**
+## Agent status not updated correctly in case of backend failure 
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -165,12 +164,12 @@ With this feature enabled, Campaign Managers will not see any data in the Realti
 </table>
 </div>
 
-Whenever agent changes their status on LiveEngage, sometimes the new status chosen by the agent is only updated in the LiveEngage UI, although it was not actually changed in the backend (due to connectivity issues, for example).
-This causes a discrepancy between the status displayed to the agent, and the actual status reported to the backend server. It may also affect the reporting, since the brand is expecting to see X total hours of online/away, while the numbers are actually different.
+Whenever agent changes their status within LiveEngage, sometimes the new status chosen by the agent was only updated in the LiveEngage UI and this change was not reflected in the backend (due to connectivity issues).
+This caused a discrepancy between the status displayed to the agent and the actual status reported to the backend server. It may also have affected the reporting.
+
 This bug has been fixed, and now whenever there are connectivity issues/backend issues, LiveEngage UI will be updated with the new agent status (according to the actual status saved in the server).
 
-## Reject conversations when the agent is NOT in online state 
-**(Hotfixes for LEUI 1.3)**
+## Reject conversations when agent not online  
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -211,11 +210,12 @@ This bug has been fixed, and now whenever there are connectivity issues/backend 
 </div>
 
 Whenever an agent changes status on LiveEngage from Online to Away/Back soon, LiveEngage UI displayed the newly updated status to the agent, without validating that all of the backend systems are aware of the status change.
-For this reason, Messaging accounts could experience a discrepancy between the status displayed to the user on LiveEngage (e.g - Agent displayed as Away), while in realtime, the agent kept getting incoming messaging conversations (since the internal backend server consider the agent to be Online).
-This bug has been fixed, and now whenever the agent changes status through LiveEngage system to Away/Back soon, any incoming Messaging conversation will be rejected.
+
+For this reason, messaging accounts could experience a discrepancy between the status displayed to the user on LiveEngage (e.g - Agent displayed as Away), while in realtime, the agent kept getting incoming messaging conversations (since the internal backend server considered the agent to be Online).
+
+This bug has been fixed, and now whenever the agent changes status through LiveEngage to Away/Back soon, any incoming Messaging conversation will be rejected.
 
 ## Online agents are not getting new incoming messaging conversations 
-**(Hotfixes for LEUI 1.3)**
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -255,10 +255,9 @@ This bug has been fixed, and now whenever the agent changes status through LiveE
 </table>
 </div>
 
-Messaging customers may sometimes experience a situation where agents are Online, there are conversations in queue, but the agents are not getting any new incoming rings. This bug has been fixed.
+Messaging customers sometimes experienced a situation where agents were Online and there were conversations in queue, but the agents were not getting any new incoming rings. This bug has now been fixed.
 
-## Fix for memory leak with Custom Widgets on old agent workspace causes system crash 
-**(Hotfixes for LEUI 1.3)**
+## Fix for memory leak with Custom Widgets on old agent workspace caused system crash 
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -298,12 +297,11 @@ Messaging customers may sometimes experience a situation where agents are Online
 </table>
 </div>
 
-A previous fix made on the New agent workspace version 1.8 for Memory leak with Custom Widgets IE-11 on, caused LiveEngage old workspace to crash, whenever the user clicked “Hide conversation”.
-The bug has been fixed, and agents can hide conversations without experiencing any issues in the old agent workspace.
+A fix was made on the new agent workspace for memory leak with Custom Widgets working with Internet Explorer 11. It caused the LiveEngage old workspace to crash whenever the user clicked “Hide conversation”.
+The bug has now been fixed, and agents can hide conversations without experiencing any issues in the old agent workspace.
 
-## SDE's structure discrepancy between old Agent Workspace and new workspace 
-**(Hotfixes for NAW 11.8)**
-### Type:Bug fix
+## Engagement attribute's structure discrepancy between old agent workspace and new workspace 
+### Type: Bug fix
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -342,8 +340,8 @@ The bug has been fixed, and agents can hide conversations without experiencing a
 </table>
 </div>
 
-For customers using custom widgets, and reporting Engagement Attributes, we found out the following engagement attributed structure is different in old workspace vs. the new workspace.
-The following field names has been changed:
+For customers using custom widgets, and reporting engagement attributes, it was found that the following engagement attributes structure were different in old workspace vs. the new workspace.
+The following field names have been changed:
 “customerStatus": was 'status'
 "customerType": was 'type'
-This bug has been fixed, and the fields names are now identical to the old workspace names.
+This bug has been fixed, and the field names are now identical to the old workspace names.
