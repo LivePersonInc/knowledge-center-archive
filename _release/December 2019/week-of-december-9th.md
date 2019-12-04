@@ -124,7 +124,7 @@ This feature works in tandem with the LiveEngage Apps feature. The Restrict Acce
 {: .notice}
 With this feature enabled, Campaign Managers will not see any data in the Realtime Dashboard.
 
-## Agent status is not updated correctly in case of backend failure (Hotfixes for LEUI 11.3)
+## Agent status is not updated correctly in case of backend failure (Hotfixes for LEUI 1.3)
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -168,7 +168,7 @@ Whenever agent changes their status on LiveEngage, sometimes the new status chos
 This causes a discrepancy between the status displayed to the agent, and the actual status reported to the backend server. It may also affect the reporting, since the brand is expecting to see X total hours of online/away, while the numbers are actually different.
 This bug has been fixed, and now whenever there are connectivity issues/backend issues, LiveEngage UI will be updated with the new agent status (according to the actual status saved in the server).
 
-## Reject conversations when the agent is NOT in online state (Hotfixes for LEUI 11.3)
+## Reject conversations when the agent is NOT in online state (Hotfixes for LEUI 1.3)
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -212,7 +212,7 @@ Whenever an agent changes status on LiveEngage from Online to Away/Back soon, Li
 For this reason, Messaging accounts could experience a discrepancy between the status displayed to the user on LiveEngage (e.g - Agent displayed as Away), while in realtime, the agent kept getting incoming messaging conversations (since the internal backend server consider the agent to be Online).
 This bug has been fixed, and now whenever the agent changes status through LiveEngage system to Away/Back soon, any incoming Messaging conversation will be rejected.
 
-## Online agents are not getting new incoming messaging conversations (Hotfixes for LEUI 11.3)
+## Online agents are not getting new incoming messaging conversations (Hotfixes for LEUI 1.3)
 ### Type:Bug fix
 
 <div class="tablecontainer">
@@ -254,7 +254,7 @@ This bug has been fixed, and now whenever the agent changes status through LiveE
 
 Messaging customers may sometimes experience a situation where agents are Online, there are conversations in queue, but the agents are not getting any new incoming rings. This bug has been fixed.
 
-## Fix for memory leak with Custom Widgets on old agent workspace causes system crash (Hotfixes for LEUI 11.3)
+## Fix for memory leak with Custom Widgets on old agent workspace causes system crash (Hotfixes for LEUI 1.3)
 ### Type:Bug fix
 
 <div class="tablecontainer">
