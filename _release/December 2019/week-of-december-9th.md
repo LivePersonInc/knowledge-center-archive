@@ -67,7 +67,9 @@ Additionally, enabling this feature will also restrict data views for agent mana
 
 **How to enable**
 Please contact your account manager.
+
 This feature works in tandem with the LiveEngage Apps feature. The Restrict Access by Profile feature will restrict login to MCS Toolkit based on the profiles in enabled for MCS Toolkit in LE Apps. A self-serve UI for managing app permissions will be available soon, but in the meantime, these permissions can be managed by your account team.
+
 {: .notice}
 With this feature enabled, Campaign Managers will not see any data in the MCS Toolkit.
 
