@@ -12,7 +12,7 @@ isNew: false
 
 The Applications dashboard is where you can manage and configure your applications. This dashboard is visible and accessible only to account administrators. It is accessed from the left hand menu in LiveEngage, by clicking on the "puzzle piece" icon.
 
-[screenshot]
+![](img/appsUI2.jpg)
 
 The default view shows you all of your global applications, both pre-installed applications (which are installed on all accounts by LivePerson) and applications that were specifically installed for your account. Pre-installed applications are clearly labelled as such and cannot be uninstalled by you. By clicking on the "Private applications" tab at the top left of your screen you can access your account's private applications.
 
