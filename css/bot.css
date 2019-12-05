@@ -2,9 +2,9 @@ body {
   overflow-y: scroll;
 }
 
-.LPMoverlay {
+/* .LPMoverlay {
   visibility: hidden;
-}
+} */
 
 .botwrapper {
   background: rgb(5,25,55);
