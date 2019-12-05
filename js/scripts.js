@@ -94,7 +94,8 @@ function linkclick(event, that) {
     } else if (!event.isTrigger) {
         console.log('clickrun');
         let url = $(that).attr('href');
-        if (window.location.href === 'http://localhost:4000/' || 'http://localhost:4000/index.html') {
+        if (window.location.href === 'https://knowledge.liveperson.com.staging-vdt2zeq-znm3eqs6brhzq.us.platform.sh/' || window.location.href === 'https://knowledge.liveperson.com.staging-vdt2zeq-znm3eqs6brhzq.us.platform.sh/index.html' ) {
+            console.log('homepage');
             window.location = url
         } else {
             //prevent the link from actually navigating to the url
