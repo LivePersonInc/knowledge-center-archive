@@ -26,8 +26,6 @@ In general, it is possible to create any command that can be invoked in the cont
 
 Agents can create cases in SalesForce or any other CRM while conversing with the customer by typing “/createCase Customer experiences outages”. These cases allow support agents to deliver a better service experience by quickly addressing the consumer’s issue.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/377548526/c059c76548" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ### Send transcript via email
 
 Agents can send the content of the current conversation transcript via email (i.e. to the agent manager) by typing “/sendTranscriptTo myAgentManager@brand.com”. This improves communication between agents and managers and also helps the manager to keep track of issues in the communications between brands and consumers. By using this functionality, agents decide which conversations are of interest for the agent manager, reducing noise in the agent manager’s inbox.
