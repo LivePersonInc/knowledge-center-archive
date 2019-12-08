@@ -26,11 +26,7 @@ In general, it is possible to create any command that can be invoked in the cont
 
 Agents can create cases in SalesForce or any other CRM while conversing with the customer by typing “/createCase Customer experiences outages”. These cases allow support agents to deliver a better service experience by quickly addressing the consumer’s issue.
 
-![](img/conversational-commands-1.png)
-
-![](img/conversational-commands-2.png)
-
-![](img/conversational-commands-3.png)
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/377548526/c059c76548" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Send transcript via email
 
