@@ -20,7 +20,7 @@ These applications provide many benefits by allowing account administrators to s
 
 A new dedicated dashboard where you can manage LivePerson applications has been added to LiveEngage. This new dashboard allows administrators to manage all LivePerson applications on their account. In addition, this dashboard also allows the installation of new private applications, providing an easy to use UI for uploading and configuring new applications.
 
-For more information on how to use the new Applications dashboard, please refer to the user guide.
+For more information on how to use the new Applications dashboard, [please refer to the user guide](liveperson-applications-user-guide.html).
 
 ![](img/appsUI2.jpg)
 
