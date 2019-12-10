@@ -3,7 +3,7 @@ pagename: Operational readiness checklist
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Learn more about the new agent workspace
+subtitle: Learn more about the enhanced agent workspace
 level3: ''
 permalink: messaging-agents-operational-readiness-checklist.html
 layout: newAgentWorkspace
@@ -19,7 +19,7 @@ Resources available to you:
 
 1. Direct communications from your CSM
 
-2. This website, that includes:
+2. [This website](https://knowledge.liveperson.com/new-experiences.html), which includes:
 
     1. What’s new for messaging agents
 
@@ -29,7 +29,7 @@ Resources available to you:
 
     4. What’s new for live chat users
 
-    5. For brands using both live chat and messaging
+    5. Information for brands using both live chat and messaging
 
 Note: If you are on live chat only, the changes to the UI are cosmetic only and will not affect your users workflows. The following checklist applies to brands using messaging.
 
@@ -108,19 +108,17 @@ Some ideas of how you can use this information:
 
 **Training resources available to you:**
 
-* Agent training deck
+* [Agent training deck](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html)
 
-* Agent training video
+* [Agent training video](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html)
 
-* Manager training deck
-
-* Manager training video
+* [Manager training video](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-tutorial.html)
 
 ## Step 5 - Testing
 
 You can test the new manager workspace and enhanced agent workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
-Best practice: ensure one of your SMEs at least has tested and successfully used the new workspace before rolling out to all agents.
+**Best practice:** ensure one of your SMEs at least has tested and successfully used the new workspace before rolling out to all agents.
 
 To get early access for testing, please contact your LivePerson account team.
 
