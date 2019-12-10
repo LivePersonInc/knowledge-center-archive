@@ -108,13 +108,11 @@ Some ideas of how you can use this information:
 
 **Training resources available to you:**
 
-* Agent training deck
+* [Agent training deck](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html)
 
-* Agent training video
+* [Agent training video](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html)
 
-* Manager training deck
-
-* Manager training video
+* [Manager training video](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-tutorial.html)
 
 ## Step 5 - Testing
 
