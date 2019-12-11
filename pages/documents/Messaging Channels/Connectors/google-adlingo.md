@@ -25,4 +25,31 @@ AdLingo is a collaborative offering between Google and LivePerson for conversati
 * **Converse** - Each conversation generate valuable insights by illuminating customer pain points and preferences.
 * **Convert** - Close the funnel faster by delivering all the information your customer needs to choose a product or service.
 
+## How conversations start
+
+A digital advertisement will be displayed to a consumer via the Google Display & Video 360 platform (part of the Google Marketing Platform). This ad will have a call to action within the creative to entice a consumer to click on it. When clicked, the consumer will be able to converse with the brand via LivePerson. The conversation will render within the ad itself for the consumer.
+
 <iframe style="max-width: 750px;" src="https://www.youtube.com/watch?v=z3Zj1NgA4_c&feature=youtu.be" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Setup
+
+{: .notice} 
+**Please note:** AdLingo is currently available using chat APIs. Support for messaging APIs is planned for 2020.
+
+Ad campaign checklist:
+* Campaign budget
+* Time frame
+* Goal of the ad campaign
+* Targeted audience
+
+Creative checklist: 
+* Ad background image
+* Chat call to action text
+* Brand logo
+* Ad redirect URL
+* Brand privacy policy
+* Branding color palette hex values
+
+## How do I get started? 
+
+Reach out to your LivePerson account representative to express interest in AdLingo. Your account rep will engage LivePerson’s Google Solutions team to begin the initial conversation and scope the deployment.
