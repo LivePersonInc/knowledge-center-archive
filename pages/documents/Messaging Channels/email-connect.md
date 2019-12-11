@@ -91,7 +91,8 @@ Click **EmailConnect**. The Email Connect setup screen will automatically open i
 ### Step 2: Provide your email credentials to setup your email
 
 **Prerequisites to setting up your email**
-Email account settings: Email address must be configured as below:
+
+Email address must be configured as below:
 - IMAP must be enabled.
 - Multi factor authentication must be disabled. “Less secure apps” must be enabled for Gmail accounts. 
 - Standard IMAP settings: IMAP, port 993, SSL enabled.
@@ -138,7 +139,8 @@ This custom text will be used as auto-response to consumer email when the same c
 ## Configure Email Header and Footer (Optional)
 
 **Prerequisities to setting up HTML header and footer**
-HTML Header And Footer Guidelines: Please see the table at the bottom of the article for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup.
+
+Please see the table at the bottom of the article for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup.
 
 ### Step 7: Download example HTML header and footer
 Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Template.html, EmailConnect_Footer_Template.html.
