@@ -68,6 +68,19 @@ To setup EmailConnect, your account must have Messaging and [Liveperson Function
 
 ### Step 1: Connect your email in LiveEngage
 
+There are two ways to launch EmailConnect:
+
+#### Option 1 Email Connect Setup via DataSources. 
+Login to LiveEngage and click the Campaigns icon located on the left navigation bar. Click on Data Sources in the Campaigns footnote.
+
+![](img/email-connect-0.png)
+
+Click the Connect button in the Email Connect tile. The Email Connect setup screen will open automatically in a separate browser tab.
+
+![](img/email-connect-1a.png)
+
+#### Option 2 Email Connect Setup via LiveEngage Applications
+
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
 
 ![](img/email-connect-1.png)
@@ -78,17 +91,33 @@ Click **EmailConnect**. The Email Connect setup screen will automatically open i
 
 ### Step 2: Provide your email credentials to setup your email
 
+**Prerequisites to setting up your email**
+Email account settings: Email address must be configured as below:
+- IMAP must be enabled.
+- Multi factor authentication must be disabled. “Less secure apps” must be enabled for Gmail accounts. 
+- Standard IMAP settings: IMAP, port 993, SSL enabled.
+- Standard SMTP settings: SMTP, port 587, SSL disabled.
+
 Follow the instructions on the screen to save your email configuration details.
 
 ![](img/email-connect-3.png)
 
-### Step 3: Start receiving and responding to emails in LiveEngage
+### Step 3: Save email configuration and skill settings
+Click Test Connection and then click Save 
+
+![](img/email-connect-step-3.png)
+
+### Step 4 Start receiving and responding to emails in LiveEngage
 
 You can test your setup by sending an email from your email account to the email address you connected in LiveEngage. When the message shows up in LiveEngage, you can respond as an agent and see the response in the sender’s email account.
 
-### Step 4: Setup for file attachments (optional)
+{: .notice}
+EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take upto 10 minutes for brand to see the first email in LiveEngage. 
 
-[Sign up here](https://docs.google.com/forms/d/1p48Be_gJMjWzZLcBQTO-cvomuGcjTI4rRxx88Y-wyoU/edit) to request LivePerson to turn on file attachments. Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
+### Step 5: Setup for file attachments (optional)
+Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
+
+[Sign up here](https://docs.google.com/forms/d/1p48Be_gJMjWzZLcBQTO-cvomuGcjTI4rRxx88Y-wyoU/edit) to request LivePerson to turn on file attachments. Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage. 
 
 Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
@@ -100,20 +129,69 @@ Turn on the following settings for Agent and Agent Manager Profiles:
 
 ![](img/email-connect-5.png)
 
+## Configure Auto-Response Text 
+
+### Step 6 Add custom text in your preferred language
+This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000. 
+
+![](img/email-connect-step-6.png)
+
+## Configure Email Header and Footer (Optional)
+
+**Prerequisities to setting up HTML header and footer**
+HTML Header And Footer Guidelines: Please see the table at the bottom of the article for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup.
+
+### Step 7: Download example HTML header and footer
+Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Template.html, EmailConnect_Footer_Template.html.
+
+![](img/email-connect-step-7.png)
+
+### Step 8: Upload HTML header
+
+Before uploading a header, it's possible to download LivePerson's example header and modify it. 
+
+![](img/email-connect-step-8.png)
+
+### Step 9: Upload HTML footer
+
+Before uploading a footer, it's possible to download LivePerson's example footer and modify it. 
+
+![](img/email-connect-step-9.png)
+
+### Step 10: Save Email Header and Footer 
+Re-enter the password for your email, click Test Connection and click Save. 
+
+![](img/email-connect-step-10.png)
+
 ## Reporting
 
 Agent Effectiveness reports are available for all email conversations to brand administrators and agent manager.
 
-### Step 1: Open Report Builder
+### Step 11: Open Report Builder
 
 Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Report Builder.
 
 ![](img/EmailConnect_Reporting1.png)
 
-### Step 2: Open Advanced Messaging Dashboard
+### Step 12: Open Advanced Messaging Dashboard
 
 Click on RunDashboard at the bottom left on the page. Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
 
 ## Security
 
 Email Connect reads emails from the brand’s email account using the IMAP protocol, and sends emails from that same account using an SMTP protocol. All credentials used within the IMAP and SMTP protocols are stored securely using encryption.
+
+|Elements|Attributes|Notes|
+|-----|-----|-----|
+|html|n\a|Required, top-most element|
+| body | bgcolor, width, style| Required, placed within the html element|
+| table | align, bgcolor, cellpadding, cellspacing, border, height, width, style, color, class| Required, placed within the html element| Useful for creating a table in HTML that most email clients honor| 
+| tr | n\a | Used to define a row in a table |
+| td | style| Used to define a column in a table|
+| b | n\a | bold|
+| i | n\a | italic|
+| center | n\a | centers text in HTML|
+| div | style | creates a division of section within HTML|
+| a | href, target | creates an anchor tag for HTML links|
+| img| src, width, height, alt, border | Creates an image within HTML (usually placed within an <a> tag|
+| font| face | specifies the font family | 
