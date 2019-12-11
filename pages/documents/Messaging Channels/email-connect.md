@@ -177,15 +177,13 @@ Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEnga
 
 Click on RunDashboard at the bottom left on the page. Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
 
-## Security
-
-Email Connect reads emails from the brand’s email account using the IMAP protocol, and sends emails from that same account using an SMTP protocol. All credentials used within the IMAP and SMTP protocols are stored securely using encryption.
+## Attributes and elements allowed as part of HTML
 
 |Elements|Attributes|Notes|
 |-----|-----|-----|
 |html|n\a|Required, top-most element|
 | body | bgcolor, width, style| Required, placed within the html element|
-| table | align, bgcolor, cellpadding, cellspacing, border, height, width, style, color, class| Required, placed within the html element| Useful for creating a table in HTML that most email clients honor| 
+| table | align, bgcolor, cellpadding, cellspacing, border, height, width, style, color, class| Useful for creating a table in HTML that most email clients honor| 
 | tr | n\a | Used to define a row in a table |
 | td | style| Used to define a column in a table|
 | b | n\a | bold|
