@@ -134,7 +134,7 @@ Turn on the following settings for Agent and Agent Manager Profiles:
 ### Step 6 Add custom text in your preferred language
 This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000. 
 
-![](img/email-connect-step-6.png)
+![](img/Email-connect-step-6.png)
 
 ## Configure Email Header and Footer (Optional)
 
@@ -144,13 +144,13 @@ HTML Header And Footer Guidelines: Please see the table at the bottom of the art
 ### Step 7: Download example HTML header and footer
 Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Template.html, EmailConnect_Footer_Template.html.
 
-![](img/email-connect-step-7.png)
+![](img/Email-connect-step-7.png)
 
 ### Step 8: Upload HTML header
 
 Before uploading a header, it's possible to download LivePerson's example header and modify it. 
 
-![](img/email-connect-step-8.png)
+![](img/Email-connect-step-8.png)
 
 ### Step 9: Upload HTML footer
 
