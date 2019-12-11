@@ -104,7 +104,7 @@ Follow the instructions on the screen to save your email configuration details.
 ### Step 3: Save email configuration and skill settings
 Click Test Connection and then click Save 
 
-![](img/email-connect-step-3.png)
+![](img/Email-connect-step-3.png)
 
 ### Step 4 Start receiving and responding to emails in LiveEngage
 
