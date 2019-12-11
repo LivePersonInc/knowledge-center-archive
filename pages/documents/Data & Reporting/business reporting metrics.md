@@ -2,7 +2,7 @@
 pagename: Reporting metrics
 categoryName: Data & reporting
 subCategoryName: ''
-indicator: messaging
+indicator: both
 subtitle:
 level3: ''
 permalink: data-reporting-reporting-metrics.html
