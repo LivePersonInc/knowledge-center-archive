@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: both
 subtitle: ''
 level3: ''
-permalink: release-notes-2019-december-week-of-december-9th.html
+permalink: release-notes-2019-december-week-of-december-16th.html
 isTutorial: false
 isNew: false
 date: '2019-12-11'
@@ -99,7 +99,7 @@ This is how the HTML header and footer will render and be presented to the consu
 
 For more information on EmailConnect, please click [here](messaging-channels-emailconnect.html) 
 
-## Creation of the Skills using the Wizard  [Bot Connectors 2.14]
+## Creation of the Skills using the Wizard [Bot Connectors 2.14]
 ### Type: New functionality 
 
 <div class="tablecontainer">
@@ -394,3 +394,6 @@ It was found that If you stop bots which are in the "Delayed" state, you are una
 
 If a user asks for a transfer to an agent in the Chat conversation, after the conversation was  transferred to the agent, it was closing automatically or was closing due to the failure of the transfer. This issue has now been fixed.
  
+## [Facebook Messenger] Unable to link Facebook page in platform UI due to long page name 
+
+### Type: Enhancement [ac-connectors  2.17]   
