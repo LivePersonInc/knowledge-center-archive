@@ -479,3 +479,306 @@ Brands were unable to onboard a Facebook page with a long page name using LiveEn
 </div>
 
 Brands were unable to onboard their Facebook page using LiveEngage self-serve. Clicking on the Login button wasn’t opening the login page. This issue has been resolved. 
+
+## [Web experiences] Bold font for agent bubble does not work for chat window 
+
+### Type: Bug fix [lpUnifiedWindow 9.25]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When the agent bubble font is set to bold in the engagement window studio and an agent sends structured content or copies and pastes the message into the text area of the agent workspace before sending, the bolded font is not reflected in the engagement window for chat. This issue has been resolved. 
+
+## [Web expereinces] Vertical scroll issue in conversation history for Chrome/Firefox
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Occasionally when the conversation history loads in the engagement window, the vertical scroll bar jumps to different positions in Chrome and Firefox when it’s supposed to be at the bottom of the engagement window. This issue has been resolved. 
+
+## [Web expereinces] cleanCCPatterns taglet needs to run a Luhn check on suspected credit card numbers
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+As part of the security process, credit card numbers detected in any message are to be masked. However, there are instances where long strings of numbers are being incorrectly identified as credit card numbers and are masked. Some actual credit card numbers are not masked when they are followed with the word “expiry” without a space in between.
+
+**Fix:** In addition to running the check against the updated regex, the taglet is also running a Luhn check to ensure that masking is happening on legitimate credit card numbers.
+
+## [Web expereinces] Welcome message displays again after reconnect
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When a visitor is in an active conversation within an engagement window that has a welcome message set to display for every new conversation, the welcome message displays every time the visitor disconnects (either by losing connection or turning off their Wi-Fi) and then reconnects again. This issue has been resolved. 
+
+## [Web expereinces] Chat engagement window fails to load after post chat survey is completed
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When a visitor opens another chat window after closing out of a previous conversation with a  post chat survey, the chat window does not load. This issue has been resolved. 
+
+## [Web expereinces] Visitor widget taglet configuration doesn’t work for just unauthenticated web messaging
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The Visitor Widget (Engagement Window Widget SDK) is not visible when only unauthenticated web messaging is set. This issue has been resolved. 
+
+## [Web expereinces] Missing windowClosed event for chat
+
+### Type: Bug fix [Ac-engagement-window 1.12]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+When visitors close out the chat engagement window by ending the conversation, the windowClosed event is not sent. This issue has been resolved. 
