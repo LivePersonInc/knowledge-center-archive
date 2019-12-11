@@ -16,7 +16,7 @@ isNew: false
 
 AdLingo is a collaborative offering between Google and LivePerson for conversational advertisements. The solution utilizes the Google Display Network for targeting and placement of display ads, and LivePerson’s platform to initiate conversations, provide automation, and drive conversions.
 
-![](img/google-adlingo-1)
+![](img/google-adlingo-1.png)
 
 ## Why use AdLingo to connect with your consumers? 
 
