@@ -73,7 +73,7 @@ To add custom auto-response text follow the steps outlined here. <Anchor to step
  Auto-Response Text >
 
 {: .notice}
-HTML Header And Footer Guidelines: Please see the table below for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup. 
+Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup. 
 
 Below is a list of approved HTML elements and attributes. 
 
