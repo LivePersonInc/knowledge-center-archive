@@ -51,7 +51,6 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 EmailConnect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
 
 * **Custom templates for email replies —** Brands will be able to add custom html headers and footers to their outbound emails in the Email Connect Setup page.
-* **File attachments settings —** Admins will be able to turn on or off the ability to support attachments from email setup.
 * **Multiple email addresses —** Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
 ## EmailConnect Setup
@@ -73,7 +72,7 @@ There are two ways to launch EmailConnect:
 #### Option 1 Email Connect Setup via DataSources. 
 Login to LiveEngage and click the Campaigns icon located on the left navigation bar. Click on Data Sources in the Campaigns footnote.
 
-![](img/email-connect-0.png)
+![](img/Email-connect-0.png)
 
 Click the Connect button in the Email Connect tile. The Email Connect setup screen will open automatically in a separate browser tab.
 
