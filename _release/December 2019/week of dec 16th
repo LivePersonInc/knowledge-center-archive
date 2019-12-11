@@ -92,6 +92,10 @@ Below is a list of approved HTML elements and attributes.
 | img| src, width, height, alt, border | Creates an image within HTML (usually placed within an <a> tag|
 | font| face | specifies the font family | 
 
+#### Example of Consumer Email with LivePerson Template
+
+This is how the HTML header and footer will render and be presented to the consumer when you use the downloaded header and footer template.  
+
 For more information on EmailConnect, please click [here](messaging-channels-emailconnect.html) 
 
 ## Creation of the Skills using the Wizard  [Bot Connectors 2.14]
