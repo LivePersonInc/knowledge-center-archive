@@ -99,8 +99,8 @@ This is how the HTML header and footer will render and be presented to the consu
 
 For more information on EmailConnect, please click [here](messaging-channels-emailconnect.html) 
 
-## Creation of the Skills using the Wizard [Bot Connectors 2.14]
-### Type: New functionality 
+## Creation of the Skills using the Wizard 
+### Type: New functionality (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -142,8 +142,8 @@ For more information on EmailConnect, please click [here](messaging-channels-ema
 This feature allows the creation of the skill inside the bot wizard. 
 ![](img/RNDec16_1.png)
 
-## Delay Message support for All AI vendors [Bot Connectors 2.14]
-### Type: Enhancement
+## Delay Message support for All AI vendors 
+### Type: Enhancement (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -184,8 +184,8 @@ This feature allows the creation of the skill inside the bot wizard.
 
 With the inclusion of this feature, the LivePerson platform will support the delay message feature to all our vendors including Amazon Kes, FaaS, Dialogue flow and Micrososft Bot Framework.
 
-## Vanity URL support in the CORS check [Bot Connectors 2.14]
-### Type: Enhancement
+## Vanity URL support in the CORS check 
+### Type: Enhancement (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -226,8 +226,9 @@ With the inclusion of this feature, the LivePerson platform will support the del
 
 All customers with branded URLs will be able to use the Third-Party Bots. Their configurations need to be present in the LiveEngage k8 environment in order to make use of this feature.
 
-## Error on saving agent information after the change in picture URL [Bot Connectors 2.14]
-### Type: Bug fix
+## Error on saving agent information after the change in picture URL 
+
+### Type: Bug fix (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -268,8 +269,8 @@ All customers with branded URLs will be able to use the Third-Party Bots. Their 
 
 While creating/updating a bot through Third-Party wizard, when a user types display picture URL field and delete the content later again, this caused the problem in saving the bot configuration. This fix will allow the user to edit the image and save the configuration without any problem.
 
-## Bot stops in delayed state [Bot Connectors 2.14]
-### Type: Bug fix
+## Bot stops in delayed state 
+### Type: Bug fix (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -310,8 +311,8 @@ While creating/updating a bot through Third-Party wizard, when a user types disp
 
 It was found that If you stop bots which are in the "Delayed" state, you are unable to start the bot again as it never seems to be stopped. This bugfix will fix this issue and will allow the user to start or stop the bot.
 
-## Fix sending encodedMetadata to back-end messaging server [Bot Connectors 2.14]
-### Type: Bug fix
+## Fix sending encodedMetadata to back-end messaging server
+### Type: Bug fix (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -352,8 +353,9 @@ It was found that If you stop bots which are in the "Delayed" state, you are una
 
  Previously it was found that the encodedMetadata value was not sent to the back-end messaging server. This bugfix will remove the failure of sending encodedMetadata to the UMS server.
  
-##  Failure of Chat Transfer to Agent [Bot Connectors 2.14]
-### Type: Bug fix
+##  Failure of Chat Transfer to Agent
+
+### Type: Bug fix (Bot Connectors 2.14)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -396,7 +398,7 @@ If a user asks for a transfer to an agent in the Chat conversation, after the co
  
 ## [Facebook Messenger] Unable to link Facebook page in platform UI due to long page name 
 
-### Type: Bug fix [ac-connectors  2.17]   
+### Type: Bug fix (ac-connectors  2.17) 
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -439,7 +441,7 @@ Brands were unable to onboard a Facebook page with a long page name using LiveEn
 
 ## [Facebook Messenger] Self-serve login button for Facebook not working
 
-### Type: Bug fix [ac-connectors  2.17]   
+### Type: Bug fix (ac-connectors  2.17)   
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -482,7 +484,7 @@ Brands were unable to onboard their Facebook page using LiveEngage self-serve. C
 
 ## [Web experiences] Bold font for agent bubble does not work for chat window 
 
-### Type: Bug fix [lpUnifiedWindow 9.25]
+### Type: Bug fix (lpUnifiedWindow 9.25)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -525,7 +527,7 @@ When the agent bubble font is set to bold in the engagement window studio and an
 
 ## [Web expereinces] Vertical scroll issue in conversation history for Chrome/Firefox
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -568,7 +570,7 @@ Occasionally when the conversation history loads in the engagement window, the v
 
 ## [Web expereinces] cleanCCPatterns taglet needs to run a Luhn check on suspected credit card numbers
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -613,7 +615,7 @@ As part of the security process, credit card numbers detected in any message are
 
 ## [Web expereinces] Welcome message displays again after reconnect
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -656,7 +658,7 @@ When a visitor is in an active conversation within an engagement window that has
 
 ## [Web expereinces] Chat engagement window fails to load after post chat survey is completed
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -699,7 +701,7 @@ When a visitor opens another chat window after closing out of a previous convers
 
 ## [Web expereinces] Visitor widget taglet configuration doesn’t work for just unauthenticated web messaging
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
@@ -742,7 +744,7 @@ The Visitor Widget (Engagement Window Widget SDK) is not visible when only unaut
 
 ## [Web expereinces] Missing windowClosed event for chat
 
-### Type: Bug fix [Ac-engagement-window 1.12]
+### Type: Bug fix (Ac-engagement-window 1.12)
 
 <div class="tablecontainer">
 <table class="releasenotes">
