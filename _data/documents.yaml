@@ -332,14 +332,13 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: December 2019
     - subcategoryname: November 2019
     - subcategoryname: October 2019
     - subcategoryname: September 2019
     - subcategoryname: August 2019
     - subcategoryname: July 2019
     - subcategoryname: June 2019
-    - subcategoryname: May 2019
-
 
 - categoryname: Release notes
   image: release-notes
