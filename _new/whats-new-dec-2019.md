@@ -49,7 +49,7 @@ For more information on the Conversation Builder click [here](ai-bots-automation
 ## The enhanced agent workspace
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Enhancements include: A new look & feel, new dynamic conversation list with built-in automation sorts conversations by the response time, quick and simple filters (e.g. filter by idle conversations), full history of the conversation within the same window rather than needing to navigate to a dedicated history widget and finally, each user is now able to select whether they want to work in dark or light mode for their workspace. For more information on the enhanced agent workspace, click [here](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html)
 
-![](img/New light mode.gif)
+![](img/New light mode2.gif)
 
 ## New Managers workspace
 LivePerson have introduced a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
