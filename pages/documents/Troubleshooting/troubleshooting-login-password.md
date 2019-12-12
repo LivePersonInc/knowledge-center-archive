@@ -11,6 +11,9 @@ isNew: false
 date: 2019-02-26 12:34:43 +0000
 
 ---
+
+To reset your password, please [click here](https://authentication.liveperson.net/forgotMyPassword.html). If you encounter any issues with resetting your password, please see the frequently asked questions below.
+
 ## Why am I getting a “process failed” error when I try to reset my password?
 
 If your user is disabled, you will get a “Process failed” error when trying to reset your password. Before you can reset your password, your user must be re-enabled.
