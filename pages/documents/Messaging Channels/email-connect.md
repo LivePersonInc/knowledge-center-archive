@@ -55,10 +55,6 @@ EmailConnect is quickly developing to expand our capability and increase the ben
 
 ## EmailConnect Setup
 
-To start using EmailConnect, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSet6aDz6a3pS5gFoA9mtslwfasfP8TEUsZuJQe0isDlQbx1IQ/viewform).
-
-<!--Start using EmailConnect today - you can set this up on your own and be up and running in minutes.-->
-
 {: .notice}  
 **Please note:** EmailConnect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
 
@@ -67,16 +63,17 @@ To setup EmailConnect, your account must have Messaging and [Liveperson Function
 
 ### Step 1: Connect your email in LiveEngage
 
-There are two ways to launch EmailConnect:
+There are two ways to launch EmailConnect set up page:
 
 #### Option 1 Email Connect Setup via DataSources. 
 Login to LiveEngage and click the Campaigns icon located on the left navigation bar. Click on Data Sources in the Campaigns footnote.
 
 ![](img/Email-connect-0.png)
+![](img/email-connect-1a.png)
 
 Click the Connect button in the Email Connect tile. The Email Connect setup screen will open automatically in a separate browser tab.
 
-![](img/email-connect-1a.png)
+![](img/email-connect-2.png)
 
 #### Option 2 Email Connect Setup via LiveEngage Applications
 
@@ -117,7 +114,10 @@ EmailConnect service will wait for 10 minutes before start polling emails from B
 ### Step 5: Setup for file attachments (optional)
 Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
 
-[Sign up here](https://docs.google.com/forms/d/1p48Be_gJMjWzZLcBQTO-cvomuGcjTI4rRxx88Y-wyoU/edit) to request LivePerson to turn on file attachments. Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage. 
+{: .notice}
+To enable file attachments, please contact your LivePerson account team. 
+
+Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage. 
 
 Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
@@ -140,22 +140,24 @@ This custom text will be used as auto-response to consumer email when the same c
 
 **Prerequisities to setting up HTML header and footer**
 
-Please see the table at the bottom of the article for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup.
+Please see the [table](messaging-channels-emailconnect.html#attributes-and-elements-allowed-as-part-ofhtml) at the bottom of the article for a list of allowed HTML elements and attributes. Every header and footer provided to Email Connect during the onboarding process is subjected to a security check. Deviating from this list could yield HTML that might be rejected by the Email Connect Setup.
 
 ### Step 7: Download example HTML header and footer
+
+Click on Download HTML example which will download .Zip file containing 3
 Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Template.html, EmailConnect_Footer_Template.html.
 
 ![](img/Email-connect-step-7.png)
 
 ### Step 8: Upload HTML header
 
-Before uploading a header, it's possible to download LivePerson's example header and modify it. 
+Click Upload and select your custom .html header file. 
 
 ![](img/Email-connect-step-8.png)
 
 ### Step 9: Upload HTML footer
 
-Before uploading a footer, it's possible to download LivePerson's example footer and modify it. 
+Click Upload and select your custom .html footer file. 
 
 ![](img/email-connect-step-9.png)
 
@@ -177,6 +179,10 @@ Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEnga
 ### Step 12: Open Advanced Messaging Dashboard
 
 Click on RunDashboard at the bottom left on the page. Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
+
+{: .sidebyside}
+![](img/email-connect-step-12_1.png)
+![](img/email-connect-step-12_2.png)
 
 ## Attributes and elements allowed as part of HTML
 
