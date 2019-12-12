@@ -23,31 +23,31 @@ Watch this two minute video for the **Best of 2019**
 ### New AI tools 
 
 ## AI-Powered Routing
-Maven’s AI Powered Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (e.g. predicted wait times) and conversation history. For more information on AI-Powered Routing click [here](ai-bots-automation-maven-ai-powered-routing.html)
+Maven’s AI Powered Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (e.g. predicted wait times) and conversation history. For more information on AI-Powered Routing click [here](ai-bots-automation-maven-ai-powered-routing.html).
 
 ![](img/whats_new_dec_1.png)
 
 ## Maven assist
 Maven is LivePerson’s platform for AI-powered conversational orchestration & continuous learning. Maven Recommended Actions is part of Maven Assist, a suite of features that improves productivity for agents and humans. Recommended Actions is a capability of Maven Assist that suggests the next best action to agents in real time, based on consumer’s intent.
-For more information on Maven Assist, click [here](ai-bots-automation-maven-maven-assist.html)
+For more information on Maven Assist, click [here](ai-bots-automation-maven-maven-assist.html).
 
 ![](img/whats_new_dec_2.png)
 
 ## LiveIntent
-LiveIntent provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs. It’s a one-stop hub for discovering, tracking, and maintaining intents in real-time. LiveIntent leverages the NLU engine of your choice to analyze and track the performance of your intent libraries created in the Intent Builder. For more information on LiveIntent, click [here](ai-bots-automation-liveintent-overview.html)
+LiveIntent provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs. It’s a one-stop hub for discovering, tracking, and maintaining intents in real-time. LiveIntent leverages the NLU engine of your choice to analyze and track the performance of your intent libraries created in the Intent Builder. For more information on LiveIntent, click [here](ai-bots-automation-liveintent-overview.html).
 
 ![](img/whats_new_dec_3.png)
 
 ## The Conversation Builder
 Conversation Builder allows brands to build bots including everything from creating intents and building dialogues, to back-end integrations that connect to all consumer messaging channels.  Through Conversation Builder - you can build a bot once and it will work on any of your selected conversation channels - e.g. SMS, Facebook Messenger, etc. 
-For more information on the Conversation Builder click [here](ai-bots-automation-conversation-builder-conversation-builder-overview.html)
+For more information on the Conversation Builder click [here](ai-bots-automation-conversation-builder-conversation-builder-overview.html).
 
 ![](img/whats_new_dec_4.jpg)
 
 ## New experiences including...
 
 ## The enhanced agent workspace
-The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Enhancements include: A new look & feel, new dynamic conversation list with built-in automation sorts conversations by the response time, quick and simple filters (e.g. filter by idle conversations), full history of the conversation within the same window rather than needing to navigate to a dedicated history widget and finally, each user is now able to select whether they want to work in dark or light mode for their workspace. For more information on the enhanced agent workspace, click [here](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html)
+The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Enhancements include: A new look & feel, new dynamic conversation list with built-in automation sorts conversations by the response time, quick and simple filters (e.g. filter by idle conversations), full history of the conversation within the same window rather than needing to navigate to a dedicated history widget and finally, each user is now able to select whether they want to work in dark or light mode for their workspace. For more information on the enhanced agent workspace, click [here](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html).
 
 ![](img/New light mode2.gif)
 
@@ -63,24 +63,24 @@ Managers will also be able to actively supervise key metrics such as:
 * Queue length
 * CSAT levels
 * Agent utilization and efficiency
-For more information on the new managers workspace, click [here](agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html)
+For more information on the new managers workspace, click [here](agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html).
 
 ![](img/whats_new_dec_6.png)
 
 ### More channels, more ways to connect 
 
 ## SocialConnect
-SocialConnect extends LivePerson’s conversational commerce platform into the world of social media making it easier for brands to interact with consumers over Twitter and Facebook through a single platform, LiveEngage. For more information on Social Connect, click [here](messaging-channels-socialconnect-socialconnect-overview.html)
+SocialConnect extends LivePerson’s conversational commerce platform into the world of social media making it easier for brands to interact with consumers over Twitter and Facebook through a single platform, LiveEngage. For more information on Social Connect, click [here](messaging-channels-socialconnect-socialconnect-overview.html).
 
 ![](img/socialconnect.gif)
 
 ## EmailConnect
-EmailConnect enables brand agents to get more out of email. It enables brand agents to receive and respond to emails through LiveEngage. EmailConnect also allows brands to convert consumers from email to more effective messaging channels with higher response and conversion rates such as WhatsApp & SMS. For more information on EmailConnect click [here](messaging-channels-emailconnect.html)
+EmailConnect enables brand agents to get more out of email. It enables brand agents to receive and respond to emails through LiveEngage. EmailConnect also allows brands to convert consumers from email to more effective messaging channels with higher response and conversion rates such as WhatsApp & SMS. For more information on EmailConnect click [here](messaging-channels-emailconnect.html).
 
 ![](img/whats_new_dec_8.png)
 
 ## Proactive Messaging
-With Proactive Messaging, brands can now send consumers outbound messages on SMS, or richer channels like WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls. Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. For more information on Proactive Messaging, click [here](messaging-channels-proactive-messaging-proactive-messaging-overview.html)
+With Proactive Messaging, brands can now send consumers outbound messages on SMS, or richer channels like WhatsApp to initiate high value marketing and customer care conversations. Instead of relying on low conversion emails, or one-way messages that drive consumers to web pages or phone calls. Proactive Messaging allows consumers to respond to marketing campaigns and customer care alerts within the same conversation. For more information on Proactive Messaging, click [here](messaging-channels-proactive-messaging-proactive-messaging-overview.html).
 
 ![](img/whats_new_dec_9.png)
 
@@ -93,14 +93,14 @@ Updates to the web messaging window include the following:
 The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
 
 The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
-For more information on how to download the app and get started, click [here](agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html)
+For more information on how to download the app and get started, click [here](agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html).
 
 ![](img/AWS APP.gif)
 
 ### In addition… new features coming out this December
 
 ## Queue priority for conversation returned to queue
-Conversations being placed back into queue (though they have already waited to receive an agent assignment) can be automatically assigned higher priority and reach the top of queue faster, improving consumer experience by ensuring no consumer needs to wait longer just because their conversation was returned to queue. For more information on queue prioritization, click [here](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html)
+Conversations being placed back into queue (though they have already waited to receive an agent assignment) can be automatically assigned higher priority and reach the top of queue faster, improving consumer experience by ensuring no consumer needs to wait longer just because their conversation was returned to queue. For more information on queue prioritization, click [here](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html).
 
 ## Personalize the predefined content widget display in the Agent Workspace 
 In the new agent workspace, the predefined content widget now enables each user to decide whether to display each content titles + text, or to hide the content text and display the titles only. 
