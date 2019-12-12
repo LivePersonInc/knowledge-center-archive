@@ -11,7 +11,7 @@ isNew: false
 
 ---
 
-Wishing all our customers a Merry Christmas and a Happy New Year! 
+Wishing all our customers Happy Holidays! 
 
 Holiday season is upon us! Whilst we start to slow down for Christmas and get ready for the new year, we wanted to reflect on 2019 and take you through all the highlights.
 This year was a huge year for LivePerson as we made groundbreaking steps in embedding AI in to our conversational platform.
