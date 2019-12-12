@@ -4,7 +4,6 @@ categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Best of 2019
-  and more
 level3: ''
 permalink: whats-new-december-2019.html
 isTutorial: false
