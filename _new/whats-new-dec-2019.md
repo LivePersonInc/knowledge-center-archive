@@ -19,8 +19,8 @@ This year was a huge year for LivePerson as we made groundbreaking steps in embe
 
 Watch this two minute video for the **Best of 2019**    
 
-### This year we introduced…
-## New AI tools 
+## This year we introduced…
+### New AI tools 
 
 ## AI-Powered Routing
 Maven’s AI Powered Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (e.g. predicted wait times) and conversation history. For more information on AI-Powered Routing click [here](ai-bots-automation-maven-ai-powered-routing.html)
@@ -44,12 +44,12 @@ For more information on the Conversation Builder click [here](ai-bots-automation
 
 ![](img/whats_new_dec_4.jpg)
 
-### New experiences
+## New experiences including...
 
 ## The enhanced agent workspace
 The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It was designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Enhancements include: A new look & feel, new dynamic conversation list with built-in automation sorts conversations by the response time, quick and simple filters (e.g. filter by idle conversations), full history of the conversation within the same window rather than needing to navigate to a dedicated history widget and finally, each user is now able to select whether they want to work in dark or light mode for their workspace. For more information on the enhanced agent workspace, click [here](agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html)
 
-![](img/whats_new_dec_5.gif)
+![](img/New light mode.gif)
 
 ## New Managers workspace
 LivePerson have introduced a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
@@ -95,7 +95,7 @@ The LiveEngage mobile app is an iOS application for iPads & iPhones that allows 
 The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
 For more information on how to download the app and get started, click [here](agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html)
 
-![](img/whats_new_dec_11.gif)
+![](img/AWS APP.gif)
 
 ### In addition… new features coming out this December
 
