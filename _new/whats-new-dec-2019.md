@@ -11,12 +11,9 @@ isNew: false
 
 ---
 
-Wishing all our customers Happy Holidays! 
+Holiday season is upon us! Whilst we start to slow down for Christmas and get ready for the new year, we wanted to reflect on 2019 and take you through all the highlights. This year was a huge year for LivePerson as we made groundbreaking steps in embedding AI in to our conversational platform.
 
-Holiday season is upon us! Whilst we start to slow down for Christmas and get ready for the new year, we wanted to reflect on 2019 and take you through all the highlights.
-This year was a huge year for LivePerson as we made groundbreaking steps in embedding AI in to our conversational platform.
-
-Watch this two minute video for the **Best of 2019**   
+Watch this two minute video for the Best of 2019   
 <iframe src="https://player.vimeo.com/video/378995230?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## This year we introduced…
