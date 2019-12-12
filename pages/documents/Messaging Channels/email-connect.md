@@ -50,8 +50,9 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 
 EmailConnect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
 
-* **Custom templates for email replies —** Brands will be able to add custom html headers and footers to their outbound emails in the Email Connect Setup page.
-* **Multiple email addresses —** Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
+* **Multiple email addresses** — Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions. 
+
+* **Email Deflection** — With each email response, consumer is given an opportunity to switch from email to brands preferred messaging channels - WhatsApp and SMS.
 
 ## EmailConnect Setup
 
