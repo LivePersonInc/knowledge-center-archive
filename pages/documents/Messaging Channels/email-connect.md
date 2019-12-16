@@ -179,11 +179,13 @@ Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEnga
 
 ### Step 12: Open Advanced Messaging Dashboard
 
-Click on RunDashboard at the bottom left on the page. Open Agent Effectiveness Agent Analysis Report tab and select Email in the Source filter in the left panel.
+![](img/step12-emailconnect1.png)
+Click on RunDashboard at the bottom left on the page. 
 
-{: .sidebyside}
-![](img/email-connect-step-12_1.png)
-![](img/email-connect-step-12_2.png)
+![](img/step12-emailconnect2.png)
+Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Source filter in the left panel. 
+
+![](img/step12-emailconnect3.png)
 
 ## Attributes and elements allowed as part of HTML
 
