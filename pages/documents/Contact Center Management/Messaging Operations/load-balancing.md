@@ -52,7 +52,7 @@ Group 2 = 40%
 
 **Step 3:** Only agents from the allocated group can get assigned to the conversation
 
-**Step 4:** The conversation will maintain its group assignment until it is closed or transferred outside the group
+**Step 4:** The conversation will maintain its group assignment until it is closed or transferred to a skill that was configured with a load balance configuration that does not hold a current assigned group.
 
 ## FAQs
 
