@@ -36,9 +36,9 @@ Advanced workload distribution needs to be activated through your LivePerson Acc
    Note: ensure the total % allocated to all groups adds up to 100%.
 6. Click **Save**.
 
-!\[\](img/loadbalacing2.png)
+![](img/loadbalancing2.png)
 
-!\[\](img/loadbalacing3.png)
+![](img/loadbalacing3.png)
 
 ## How it works
 
