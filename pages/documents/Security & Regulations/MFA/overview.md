@@ -14,7 +14,7 @@ date:
 ---
 ## Overview
 
-Brand’s can leverage LivePerson’s Multi-factor Authentication capability to provide an additional layer of security for their agents’ (that’s also includes others LE-Users such as admins etc...) login flows.
+Brands can leverage LivePerson’s Multi-factor Authentication capability to provide an additional layer of security for their agents’ (that also includes others LE-Users such as admins etc...) login flows.
 
 The agent’s Multi-factor Authentication feature is a best practice enhancement for agent login flow that adds an extra layer of protection on top of username and password as a prerequisite for each login attempt.
 
