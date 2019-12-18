@@ -42,3 +42,6 @@ The Maven Workspace is a self-service, low-code/no-code experience for brands to
 * Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
 
 <img width="750px" src="/img/maven-workspace.png">
+
+## Maven Permissions
+The LiveEngage Administrator Profile inherits all Maven administrator permissions, excluding AI Powered Routing and AskMaven. The ability to use Maven is indicated in the Conversational AI menu by the absence of a lock designation on the icon.
