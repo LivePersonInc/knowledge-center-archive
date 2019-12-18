@@ -139,8 +139,8 @@ MCS is now available in Spanish. For every Spanish conversation the brands will 
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
-<td>Yes</td>
 <td>N/A</td>
+<td>Yes</td>
 <td>Yes</td>
 </tr>
 </tbody>
@@ -187,8 +187,8 @@ Please note that each FaaS user-session will have an exclusive sandbox for debug
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
-<td>Yes</td>
 <td>N/A</td>
+<td>Yes</td>
 <td>Yes</td>
 </tr>
 </tbody>
