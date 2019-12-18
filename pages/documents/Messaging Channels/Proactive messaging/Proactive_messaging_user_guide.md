@@ -17,6 +17,9 @@ Proactive messaging enables brands to increase their ability to connect with a t
 {: .notice}  
 Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
 
+## Permissions
+The LiveEngage administrator and campaign manager profile inherit Proactive administrator permissions, once the account has been enabled by a LivePerson Admin (assuming the brand has Twilio and Whatsapp).
+
 ## Login and access
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
 
