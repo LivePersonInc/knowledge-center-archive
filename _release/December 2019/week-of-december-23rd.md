@@ -106,6 +106,8 @@ This feature enables brands to assign extra velocity to conversations that were 
 
 MCS is now available in Spanish. For every Spanish conversation the brands will now be able to get an MCS score. 
 
+![](img/week-of-december-23rd-1.png)
+
 ## FaaS Debugger 
 
 ### Type: New functionality (FaaS 1.14)
