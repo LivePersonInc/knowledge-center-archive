@@ -76,6 +76,17 @@ The company is able to greatly reduce the volume of agent conversations related 
 
 To enable LiveIntent on your account, please contact your LivePerson account representative. 
 
+### Permissions 
+LiveIntent inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, LiveIntent also requires Conversation Builder permissions to be turned ON in  LE Administrator Profile, if not already done so.
+ 
+Access to LiveIntent dashboard is currently granted to the following roles:
+* CB_VIEW_ANALYTICS
+* BOT_BUILDER_ADMIN
+* BOT_BUILDER_BOTS
+* BOT_BUILDER_CONTENT_USER
+* BOT_BUILDER_BUSINESS_USER
+* LPA
+
 ### Starter Pack Quick Start
 
 If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LiveIntent offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.
