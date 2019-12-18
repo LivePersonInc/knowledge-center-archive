@@ -61,11 +61,11 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 This feature enables brands to assign extra velocity to conversations that were sent back to queue by an agent. For example, assign extra priority to conversations that arrived to an agent just before he left for his lunch.
 
-{. :notice} Please note: This feature requires enablement. Please contact your LivePerson representative for more information. 
+{: .notice} **Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
 
 ## MCS in Spanish 
 
-### Type: New functionality 
+### Type: New functionality (MCS 2.0.1.60)
 
 <div class="tablecontainer">
 <table class="releasenotes">
