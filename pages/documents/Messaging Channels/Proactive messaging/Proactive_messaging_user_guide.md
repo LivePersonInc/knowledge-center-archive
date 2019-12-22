@@ -44,8 +44,12 @@ Proactive Messaging supports role-based access. Currently, only users with Campa
 
 * From the navigation bar, users have the option to click on Analytics tab to access the reporting metrics for Proactive Messaging. The current metrics are aggregated data at the brand level and not per campaign level. 
 Please note, metrics per campaign level will be coming soon.
-* The data can be filtered on this page by date by selecting a date range from MM/DD/YYYY to MM/DD/YYYY or by selecting some Quick range such as Today, This Week, This Month, Last 30/60/90 days, or Year to date.
-* There are a number of metrics available:
+* The data can be filtered on this page by date by:
+  * Date range from MM/DD/YYYY to MM/DD/YYYY
+  * Quick date range, select: Today, This Week, This Month, Last 30/60/90 days, or Year to date
+  * Skills - by default all skills are select but you can also select a single or a set of skills. When data is filtered to the full date range for the brand i.e. from the day they onboard to current date
+
+* These are the metrics available:
   * **Success rate** - Percentage of the number of messages successfully delivered to the messaging gateway over the total number of messages sent. Soon, this will be updated to be the percentage of the number of messages successfully delivered to the consumer over the total number of messages sent.
   * **Response rate -** Percentage of the number of messages that get response over the total number of messages successfully delivered to the messaging gateway.
   * **Delivery Status** - This chart shows the total number of messages sent, the number of messages successfully delivered to the messaging gateway i.e. SMS-Twilio or WhatsApp and the number of messages failed to get delivered.
@@ -61,7 +65,14 @@ To create a new proactive campaign, users can click on New Campaign on the landi
 ![](img/Proactive_userguide3.png)
 
 * **Campaign Name** - Users need to define the campaign name. Choosing a good name for the campaign can be helpful for the agents who get assigned to the conversation once a consumer responds. For example, a campaign named “Subscription renewal for all North America users with licenses expired by 12/31/29019” will be helpful to the agents who receives the consumer response and differentiate it with other outbound campaign.
-* **Channel** - Select the channel in which the outbound message should be sent on. Currently, there are three options. SMS with Twilio, WhatsApp or Prioritized. Prioritized is the step down capability from WhatsApp to SMS. This means that a message will initially be sent to the consumer via WhatsApp channel. If the consumer’s phone number isn’t eligible on WhatsApp, then the message will attempt to send via SMS text instead.
+
+* **Channel** - Select the channel in which the outbound message should be sent on. Currently, there are three options.
+  * SMS: SMS with Twilio Gateway
+  * WhatsApp: WhatsApp or Prioritized
+  * Prioritized: Prioritized is the step down capability from WhatsApp to SMS. This means that a message will initially be sent to the consumer via WhatsApp channel. If the consumer’s phone number isn’t eligible on WhatsApp, then the message will attempt to send via SMS text instead.
+
+From number - Select the number you would like to send the outbound message from. If you onboard more than one number to the messaging channel, the
+  
 * **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside LiveEngage. Currently, not all LiveEngage skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
 
 {: .notice}  
