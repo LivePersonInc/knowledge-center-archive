@@ -125,6 +125,8 @@ Uploading a .csv file with two recipients would look like this:
 ![](img/Proactive_userguide5.png)
 
 ### Step 3 - Schedule Campaign
+![](img/Proactive_userguide6A.png)
+
 * Launch Date - Select the date that you want the campaign to start, meaning the messages will be sent out. Current, it is default to Start now but in the future, we will enable brands to be able to start a Proactive campaign at a future date. 
 * Sending Window - Select the time window when you would like your recipients to receive the message based on their time zone, determined by the country code and area code of their phone numbers. The default values for sending window is set to 8am-9pm. When the recipients are not within this send window, the messages will be queued and when this send window opens up for the recipient, Proactive will send that message out. For example, a Proactive campaign was scheduled at 6pm PST to send an outbound message to a recipient phone number in EST time zone. Since the current time would be 9pm EST, the message won’t be sent to this recipient until the next day at 8am. 
 * Send Rate - Current the default send rate is 1 message per second. In the future, we will look into increasing this rate.
