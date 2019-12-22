@@ -200,7 +200,7 @@ Coming soon, the context of the outbound message will be part of the conversatio
 
 ## Limitations
 
-Proactive Messaging is currently launched in early adopters and will continue to be enhanced. In the meantime, the following are the currently known limitations:
+The following are the known limitations for Proactive Messaging:
 
 1. Number of lines entered into the text area is limited to 100 lines.
 If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
