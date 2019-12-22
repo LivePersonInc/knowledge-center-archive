@@ -70,8 +70,8 @@ To create a new proactive campaign, users can click on New Campaign on the landi
   * SMS: SMS with Twilio Gateway
   * WhatsApp: WhatsApp or Prioritized
   * Prioritized: Prioritized is the step down capability from WhatsApp to SMS. This means that a message will initially be sent to the consumer via WhatsApp channel. If the consumer’s phone number isn’t eligible on WhatsApp, then the message will attempt to send via SMS text instead.
-
-From number - Select the number you would like to send the outbound message from. If you onboard more than one number to the messaging channel, the
+  
+* **From number**  - Select the number you would like to send the outbound message from. If the brand onboards more than one number to the channel i.e. Twilio-SMS or WhatsApp, this is where they can select the number they would like to use.
   
 * **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside LiveEngage. Currently, not all LiveEngage skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
 
@@ -82,7 +82,8 @@ Users can search for the skill in the dropdown. If the skill does not appear, pl
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
 
 * **Messaging content - WhatsApp** 
-The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
+- WhatsApp requires that every outbound message sent via WhatsApp channel must use a WhatsApp message template approved by WhatsApp. Messages cannot be sent for outbound 
+- The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
  - WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp      message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
 - Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please    see section on “Creating WhatsApp message template” below for more information.
 
@@ -110,7 +111,7 @@ When uploading a .csv file with a list of recipient, if there are any errors, ch
 
 ### **Examples**:
 #### SMS example
-Typing in 2 recipients would be:
+Typing in 2 recipient phone numbers  phone numbers with the two variables specified in the WhatsApp message templat look like:
 12223334444
 12223334445
 
@@ -124,12 +125,10 @@ Uploading a .csv file with two recipients would look like this:
 ![](img/Proactive_userguide5.png)
 
 ### Step 3 - Schedule Campaign
-
-Once the campaign has been created, it can be sent out.
-In the future, users will have the capability to:
-  * Schedule a proactive campaign at a future date
-  * Specify the send rate i.e. 1 message per second
-  * Guardrails will be available to specify the time and days of the week messages can be sent in. Messages will not be sent outside of the specified hours/times. This is to ensure brands can follow compliance for when they can reach out to the consumers.
+* Launch Date - Select the date that you want the campaign to start, meaning the messages will be sent out. Current, it is default to Start now but in the future, we will enable brands to be able to start a Proactive campaign at a future date. 
+* Sending Window - Select the time window when you would like your recipients to receive the message based on their time zone, determined by the country code and area code of their phone numbers. The default values for sending window is set to 8am-9pm. When the recipients are not within this send window, the messages will be queued and when this send window opens up for the recipient, Proactive will send that message out. For example, a Proactive campaign was scheduled at 6pm PST to send an outbound message to a recipient phone number in EST time zone. Since the current time would be 9pm EST, the message won’t be sent to this recipient until the next day at 8am. 
+* Send Rate - Current the default send rate is 1 message per second. In the future, we will look into increasing this rate.
+ 
 
 ### Step 4 - Preview & Launch
 
