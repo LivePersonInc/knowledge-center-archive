@@ -24,7 +24,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 We’ve added a feature flag (disabled by default) that will enable a conversation alert to be sent to all available agents of the conversation’s skill at once for a given account.
 
-{: .notice} **Please note:** This feature requires enablement. For more information please contact your LivePerson representative. 
+{: .notice}  
+**Please note:** This feature requires enablement. For more information please contact your LivePerson representative. 
 
 ## Sending messages to agents fails if any agent is offline (AE-6874) 
 ### Type: Bug fix (Agent Matching 4.1.0)
