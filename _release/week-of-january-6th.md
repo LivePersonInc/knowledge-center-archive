@@ -45,7 +45,7 @@ The experience is now improved, and whenever a user changes their status in the 
 
 Loader on top of the user icon with the grey status indicator:
 
-![](img/week-of-january-6th-1)
+![](img/week-of-january-6th-1.png)
 
 ## Quick launch menu redesign (beautification)
 ### Type: Enhancement (UI 11.4)
@@ -56,9 +56,9 @@ It includes:
 a) New look and feel in both (dark and light) themes, with a basic view of up to 9 apps with a “show more” button to expand the menu to show ALL apps
 b) Newly designed icons for all applications in the menu
 
-![](img/week-of-january-6th-2)
+![](img/week-of-january-6th-2.png)
 
-![](img/week-of-january-6th-3)
+![](img/week-of-january-6th-3.png)
 
 ## [Connection panel] Allow customers to specify the severity of support cases
 ### Type: Enhancement (UI 11.4)
@@ -72,4 +72,4 @@ The customer can choose between the following severity ratings:
 
 This field will be used by the Support team for prioritizing the list of open cases to be handled. 
 
-![](img/week-of-january-6th-4)
+![](img/week-of-january-6th-4.png)
