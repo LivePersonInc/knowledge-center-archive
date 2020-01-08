@@ -160,3 +160,34 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 **Limitations:**
 * Since consumers may start conversations from web messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers. 
 
+## Application dashboard
+
+### Type: Enhancement (Application dashboard 1.0)
+
+The Applications management module is a new module that will change the way our customers are exposed to, manage and use applications from LivePerson. The Application dashboard gives brands and partners the ability to manage all LivePerson applications on a **self-serve** basis, while also exposing them to applications that developers have created by presenting them with information about the application, as an overview of the app and screenshots from the app.
+
+The motivation for enabling administrators to self-serve configure an application is obvious, we would like our customers to be able to manage their applications easily and in a self-service way. By using the dashboard, an admin can enable or disable the app, decide which profiles can use this app, change its name and icon, and decide if the app should be launched from the Quick launch menu or not.
+
+The Application dashboard includes two main tabs:
+* **Global applications:** All of the installed and preinstalled applications from LivePerson (or from 3rd party companies in the future) which are exposed to all brands.
+* **Private applications:** Applications that were created by the brand and are available only to the brand.
+
+Each application, Global or Private, will include 2-3 internal tabs named General, Information, and Configuration (if available):
+* **General:** This tab is for the admin to configure the app’s name, icon, profiles and more.
+* **Information:** This tab is where the admin can read the overview of the application and see screenshots and videos.
+* **Configuration:** This tab is an iframe provided by the app owners and allowing the admin to configure the application in order for it to work.
+
+**Limitations**
+* This new module is available only for admin users. 
+
+Application dashboard - Global applications tab:
+
+![](img/week-of-january-13th-10.png)
+
+General tab: 
+
+![](img/week-of-january-13th-11.png)
+
+Information tab: 
+
+![](img/week-of-january-13th-12.png)
