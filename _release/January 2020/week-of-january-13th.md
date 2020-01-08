@@ -191,3 +191,29 @@ General tab:
 Information tab: 
 
 ![](img/week-of-january-13th-12.png)
+
+## Disconnections cause web messaging window to lose prompt when closing
+
+### Type: Bug fix (Web experiences 10.0)
+
+When a consumer ends a conversation, the engagement prompts a confirmation message to ensure the consumer really wishes to close out the conversation. However, if the consumer’s connection is disconnected long enough and reconnects again, and the consumer ends the conversation, the engagement window fails to prompt the confirmation message and closes out the conversation. A fix and resolution has been applied to prevent this bug going forward. The confirmation message will now prompt the consumer when the consumer wishes to end the conversation.
+
+## Inconsistency in file sharing caption between agent and consumer
+
+### Type: Bug fix (Web experiences 10.0)
+
+In web messaging, when an agent is sharing a supported file with a consumer that has a caption that contains the text “? <<>”, the agent workspace transcript displays with the caption as “?” and removes all cross scripting characters while the consumer sees the original caption the agent shares. This issue has been resolved and the caption is now the same both in the agent workspace and engagement window.
+
+## Minimize button not accessible when keyboard selected using Safari on iPhone
+
+### Type: Bug fix (Web experiences 10.0)
+
+When a consumer using Safari on an iPhone has the keyboard selected they are unable to access the top menu of the engagement window even when scrolling all the way up. This bug has been resolved. 
+
+## [Email Transcript] Conversation started at timestamp is not reflective of the consumer’s timezone
+
+### Type: Bug fix (Web experiences 10.0)
+
+When the consumer requests an email transcript of the conversation within the engagement window, the “Conversation started at” timestamp in the email is not reflective of the consumer’s timezone. It always defaults to Eastern time zone. The “Conversation started at” now shows the date and time zone the consumer is in. 
+
+
