@@ -56,7 +56,7 @@ In order to improve the overall performance of the enhanced agent workspace, we 
 
 The All Connections list code has been refactored and written from the beginning, so it will be more efficient and easier to maintain. In order to improve the All Connections list performance, during the refactor we reduced the number of subscriptions to UMS (by eliminating unnecessary calls).
 
-## Do not reset auto close for reader only participants
+## [Enhanced agent workspace]Do not reset auto close for reader only participants
 
 ### Type: Bug fix (NAW 1.9)
 
