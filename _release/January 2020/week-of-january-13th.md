@@ -115,6 +115,8 @@ When a user opens the filter in the All Connections list, then drills down to th
 
 Within the predefined content widget, hotkeys are being cut off in the middle if the content title is too long. This bug has been resolved.
 
+![](img/week-of-january-13th-5.png)
+
 ## [Enhanced agent workspace] Managers can't open images when previewing from All Connections 
 
 ### Type: Bug fix (NAW 1.9)
@@ -126,3 +128,35 @@ Managers viewing conversations from the All Connections list couldn’t view an 
 ### Type: Bug fix (NAW 1.9)
 
 Managers viewing conversations from the All Connections list sometimes couldn’t see the last message of the conversation. This bug has been resolved. 
+
+## [Enhanced agent workspace] Hyperlink support in messaging
+
+### Type: Bug fix (NAW 1.8)
+
+{: .notice} 
+**Please note** For now, this feature is only supported for messaging, including mobile web messaging. For consumers using mobile app messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
+
+Users using the enhanced agent workspace have the ability to share hyperlinks with consumers during a messaging conversation. In order to do so, a hyperlink button has been added above the agent input area, allowing agents to define the link text and URL:
+
+![](img/week-of-january-13th-6.png)
+
+After filling in the data and pressing OK, the agent will be able to share the hyperlink with the consumer, as part of the general message.
+
+Within the agent input area, the hyperlink will appear in blue and underlined, to indicate that it is a hyperlink and the agent will be able to edit it as long as the message was not sent yet. 
+
+![](img/week-of-january-13th-7.png)
+
+After sending the message to the consumer, the link will appear underlined as well in the transcript area. The link will be clickable for the agent via the agent workspace:
+
+![](img/week-of-january-13th-8.png)
+
+The consumer experience will be identical, and the hyperlink will be displayed as a clickable text within the conversation window:
+
+![](img/week-of-january-13th-9.png)
+
+{: .notice}  
+**Please note:** This feature requires enablement. For more information please contact your LivePerson representative. 
+
+**Limitations:**
+* Since consumers may start conversations from web messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers. 
+
