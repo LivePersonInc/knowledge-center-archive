@@ -56,7 +56,7 @@ In order to improve the overall performance of the enhanced agent workspace, we 
 
 The All Connections list code has been refactored and written from the beginning, so it will be more efficient and easier to maintain. In order to improve the All Connections list performance, during the refactor we reduced the number of subscriptions to UMS (by eliminating unnecessary calls).
 
-## [Enhanced agent workspace]Do not reset auto close for reader only participants
+## [Enhanced agent workspace] Do not reset auto close for reader only participants
 
 ### Type: Bug fix (NAW 1.9)
 
@@ -66,7 +66,8 @@ Whenever an agent or manager clicked on a conversation which they are not partic
 
 **Please note:** This fix was applied automatically and does not require enablement. Customers who wish to keep the current behavior, and reset the auto close timer whenever the transcript is being read by another user may contact their LivePerson representative.
 
-{: .notice} **Note:** When this is changed it will affect **both** the old and enhanced agent workspace behaviors. 
+{: .notice}
+**Note:** When this is changed it will affect **both** the old and enhanced agent workspace behaviors. 
 
 ## [Enhanced agent workspace] Unrelated characters added to agent messages
 
@@ -134,7 +135,7 @@ Managers viewing conversations from the All Connections list sometimes couldn’
 ### Type: Bug fix (NAW 1.8)
 
 {: .notice} 
-**Please note** For now, this feature is only supported for messaging, including mobile web messaging. For consumers using mobile app messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
+**Please note:** For now, this feature is only supported for messaging, including mobile web messaging. For consumers using mobile app messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
 
 Users using the enhanced agent workspace have the ability to share hyperlinks with consumers during a messaging conversation. In order to do so, a hyperlink button has been added above the agent input area, allowing agents to define the link text and URL:
 
