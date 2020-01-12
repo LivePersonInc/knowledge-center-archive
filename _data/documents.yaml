@@ -344,6 +344,12 @@
   image: release-notes
   subcategories:
     - subcategoryname: Latest Release Notes
+    - subcategoryname: 2020
+      pages:
+        - pagename: January
+          level3:
+            - level3name: Week of January 13th
+            - level3name: Week of January 6th
     - subcategoryname: 2019
       pages:
         - pagename: December
