@@ -178,9 +178,6 @@ Each application, Global or Private, will include 2-3 internal tabs named Genera
 * **Information:** This tab is where the admin can read the overview of the application and see screenshots and videos.
 * **Configuration:** This tab is an iframe provided by the app owners and allowing the admin to configure the application in order for it to work.
 
-**Limitations**
-* This new module is available only for admin users. 
-
 Application dashboard - Global applications tab:
 
 ![](img/week-of-january-13th-10.png)
@@ -192,6 +189,11 @@ General tab:
 Information tab: 
 
 ![](img/week-of-january-13th-12.png)
+
+**Limitations**
+The new module is available for admins and can be turned on for campaign managers by toggling on the Manage applications permission in the user profile:
+
+![](img/week-of-january-13th-13.png)
 
 ## Disconnections cause web messaging window to lose prompt when closing
 
