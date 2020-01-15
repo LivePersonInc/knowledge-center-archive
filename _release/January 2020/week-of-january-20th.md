@@ -23,7 +23,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: New functionality 
 It’s now mandatory to state the business impact of the reported issue when creating a new case.
 
-![](img/Release-notes-week-of-january-20-1.png)
+![](img/Release-notes-week-of-january-20.png)
 
 ## [Connection Panel Service] Support excel file extensions in case file uploads
 
