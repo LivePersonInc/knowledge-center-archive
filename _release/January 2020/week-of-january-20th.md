@@ -18,19 +18,19 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## [Connection Panel] Connection Panel in LEUI 11.4 New Drop Down
+## [Connection Panel] New drop down when creating a case in LEUI 11.4 
 
 ### Type: New functionality 
 It’s now mandatory to state the business impact of the reported issue when creating a new case.
 
 ![](img/Release-notes-week-of-january-20-1.png)
 
-## [Connection Panel Service] Cases File Upload - Support excel file extensions
+## [Connection Panel Service] Support excel file extensions in case file uploads
 
 ### Bug fix
 It is now possible to upload xlsx and xls files to support cases.
 
-## [Connection Panel Service] Cases File Upload - Support files up to 5 MB 
+## [Connection Panel Service] Support files up to 5 MB in cases file uploads
 It is now possible to upload files of sizes up to 5 MB. That is the limit that LivePerson officially supports and shows in the UI. Prior to this bug fix, the web layer blocked some of these files.
 
 ## [Automation Integration] Ability to create user type 'Bot'
