@@ -149,7 +149,7 @@ If the survey has no required questions, a ‘Dismiss’ button will appear.
   * If the conversation is transferred to the same skill, the next agent will have the ability to fill out  the survey.
   * If the conversation is transferred to another skill, the next agent will have or not have a survey widget per the configuration of the new skill
 
-### Transffering a conversation (back to queue, to an agent, to agent in a different skill)
+### Transfering a conversation (back to queue, to an agent, to agent in a different skill)
 
   * If the survey has required questions and the agent did not submit the survey, the agent will be prompted with a warning that they have a pending survey. If they choose to still transfer the conversation, they will no longer be able to fill out the survey.
 

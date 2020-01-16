@@ -103,7 +103,7 @@ The consumer will receive the file as part of the conversation. When the consume
 
 ## **File Sanitation**
 
-When uploading a file, it will be sent to a service called "MetaDefender" for sanitation. MetaDefender accomplishes various functions:
+When uploading or when receiving a file, it will be processed by a service called "MetaDefender" for sanitation. MetaDefender accomplishes various functions:
 
 ### Prevent Attacks without Relying on Detection
 

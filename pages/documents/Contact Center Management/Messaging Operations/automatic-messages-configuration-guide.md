@@ -80,7 +80,7 @@ Note: if there is no text input for that message, the tab will appear with dashe
 
 Some of the messages can be customized to include dynamic text. Dynamic text changes based on the current characteristics of the Agent, such as the Agent’s name. The available options are:
 
-**Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes.
+**Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes. The logic is based off of the Expected Wait Time and will show the expected response time based on the SLA as well as other parameters. For example, if the account is in “out of hours” mode at the moment, it will take the relevant SLA (say, 2 hours) and add that to the time when the account is back online.
 
 **Agent name** - The nickname of the current operator {agentNickname}.
 

@@ -66,16 +66,17 @@ The data currently available in the predefined dashboards are as follows:
 
 **For Messaging only:**
 
-* [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
-* Survey dashboard for Messaging: Includes information about responses to surveys
-* [Business dashboard for Messaging:](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
+* [**Performance Dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html) Includes operational and business data about messaging conversations.
+* [**Survey dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
+Includes information about responses to surveys
+* [**Business dashboard for Messaging**](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
 
 **Chat only dashboards:**
 
 * [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
 * [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
 * [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
-* Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
+* [**Business dashboard for LiveChat**](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-business-dashboard-and-grid-for-live-chat.html) Includes information about campaigns and engagements performance.
 
 ### Exporting to PDF
 

@@ -29,7 +29,7 @@ LiveEngage comprises many different services, with new IP ranges added from time
 
 | IPv4 Range | CIDR Block |
 | --- | --- |
-| 43.251.40.0 - 43.252.43.255 | 43.251.40.0/22 |
+| 43.251.40.0 - 43.251.43.255 | 43.251.40.0/22 |
 | 103.42.132.0 - 103.42.135.255 | 103.42.132.0/22 |
 | 162.252.72.0 - 162.252.75.255 | 162.252.72.0/22 |
 | 162.252.76.0 - 162.252.79.255 | 162.252.76.0/22 |
@@ -90,3 +90,12 @@ Please make sure that the Certificate Revocation Lists (CRL) and the Online Cert
 * http://ocsp.comodoca.com
 * http://ocsp.usertrust.com
 * http://ocsp.geotrust.com
+
+## Vanity URL
+
+Vanity URL enables customers to ensure that external visitors to their website view their own brand domain signed certificate in place of the LivePerson domain.
+
+Vanity URL offers a secure and consistent online experience. Visitors are kept within the chosen Vanity URL domain name at all stages of their session, building trust and credibility.
+
+{: .notice}  
+Any vanity URL domains must be listed as it will prevent the functionality of LiveEngage for end users.

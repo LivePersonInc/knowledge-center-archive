@@ -350,20 +350,3 @@ Do any of the above metrics differ based on day of week or operating hours?
 | Active Rate | ACTIVE CONVERSATIONS / ASSIGNED CONVERSATIONS | The percentage (%) of conversations assigned to agents which are active (occupy a full messaging slot). |
 | TTFR | REPEAT 3 DAYS / CLOSED CONVERSATIONS | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Day of Week and Hour panel). |
 
-## Usage contents
-
-### Daily Active Relationship (DAR) Summary
-
-**Analysis objective:** Ongoing report showing Daily Active Relationships (DARs), as well as the methodology behind the calculation.
-
-**Questions Answered:** How am I tracking toward my monthly billing criteria?
-
-{: .notice}  
-Advanced Messaging Dashboard represents LivePerson’s standard methodology for billing Daily Active Relationships, and does not take any custom billing scenarios into account.
-
-**LivePerson Standard DAR Methodology**
-
-Unique number of Consumer IDs in a given 24 hour period where one of the following occurred:
-
-* A message was sent by either an agent or a consumer within that 24 hour period for the configured timezone.
-* A conversation was opened by any means other than sending a message. This occurs in some SMS and non-LivePerson bot conversations where an interaction is facilitated by a third party.

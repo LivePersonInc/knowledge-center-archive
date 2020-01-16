@@ -107,18 +107,21 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ### Shortcuts & hotkeys
 
-To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below.
+To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, press the corresponding keys below.
 
-| ACTION        | HOTKEY    |
-| ------------- |-------------|
-| MOVE to the next conversation (NEW) |  CTRL + ` + M  |
-| COPY as plain text (NEW) | CTRL + ` + C  |
-| ACCEPT a new incoming conversation| CTRL + ` + A |
-| TRANSFER conversation to another skill | CTRL + ` + E |
-| Return conversation to QUEUE | CTRL + ` + Q |
-| CLOSE conversation | CTRL + ` + X |
-| STATUS: toggle your status between Online, Back Soon and Away | CTRL + ` + S |
-| LOGOUT of the agent workspace | CTRL + ` + L |
+| ACTION | HOT KEY |
+| --- | --- |
+| Move to next conversation| Alt + Shift + M |
+| Deselect conversation | Alt + Shift + U |
+| Copy as plain text | Alt + Shift + Y |
+| Return to queue | Alt + Shift + Q |
+| Transfer conversation | Alt + Shift + R |
+| Close conversation | Alt + Shift + W |
+| Accept conversation | Alt + Shift + N |
+| Takeover conversation | Alt + Shift + O |
+| Leave conversation | Alt + Shift + I |
+| Logout from LiveEngage | Alt + Shift + L |
+| Change status | Alt + Shift + S |
 
 ## Managing messaging conversations
 

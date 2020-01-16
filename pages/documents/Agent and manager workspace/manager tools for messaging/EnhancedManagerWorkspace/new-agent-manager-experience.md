@@ -33,13 +33,13 @@ If you have the manager workspace enabled, but not the new agent workspace, the 
 The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the agent workspace + All Connections.
 
 We'll cover the following workflows:
-* [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
-* [Monitoring conversations during a shift](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-conversations-during-a-shift)
-* [Viewing a conversation transcript](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#viewing-a-conversation-transcript)
-* [Opening multiple conversations concurrently](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#opening-multiple-conversations-concurrently)
-* [Taking actions on conversations](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#taking-actions-on-conversations)
-* [Searching for specific conversations](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#searching-for-specific-conversations)
-* [Monitoring Shift KPIs](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-shift-kpis)
+* [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
+* [Monitoring conversations during a shift](agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-conversations-during-a-shift)
+* [Viewing a conversation transcript](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#viewing-a-conversation-transcript)
+* [Opening multiple conversations concurrently](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#opening-multiple-conversations-concurrently)
+* [Taking actions on conversations](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#taking-actions-on-conversations)
+* [Searching for specific conversations](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#searching-for-specific-conversations)
+* [Monitoring Shift KPIs](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-shift-kpis)
 
 ### Monitoring agents during a shift: for status and performance
 The new Agents widget within the workspace provides a quick view and summary of all agents currently in the shift, with the option to filter and sort by various metrics.  

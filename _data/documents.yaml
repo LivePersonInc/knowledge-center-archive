@@ -37,7 +37,12 @@
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
+    - subcategoryname: Google AdLingo
     - subcategoryname: WhatsApp Business
+    - subcategoryname: SocialConnect
+      pages:
+        - pagename: SocialConnect overview
+        - pagename: SocialConnect user guide
     - subcategoryname: EmailConnect
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
@@ -56,6 +61,7 @@
         - pagename: Agent file sharing overview
         - pagename: Audio messaging user guide
         - pagename: Quick replies user guide
+        - pagename: Hyperlinks overview
         - pagename: Structured content for messaging user guide
         - pagename: Structured content for chat user guide
         - pagename: Engagement window widgets
@@ -83,6 +89,7 @@
        - pagename: The power of an intent-driven contact center
        - pagename: Overview
        - pagename: Dashboard
+       - pagename: LiveIntent tips
    - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
@@ -139,7 +146,7 @@
         - pagename: Managing campaigns
         - pagename: Campaign settings
         - pagename: Campaign dashboard and data bar
-        - pagename: Outbound campaigns
+        - pagename: Outbound campaigns for CM
 
 - categoryname: "Agent & manager workspace"
   image: agent-manager
@@ -155,7 +162,8 @@
             - level3name: Training deck
             - level3name: Tutorial
             - level3name: Blended accounts
-            - level3name:  Conversational Commands
+            - level3name: Conversational Commands
+            - level3name: Quick launch menu
         - pagename: Agent workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
@@ -274,9 +282,9 @@
         - pagename: Connect visitors to agents by skills
     - subcategoryname: Permissions
       pages:
-        - pagename: Assign permissions
-        - pagename: Profiles
-    - subcategoryname: Set the Time Zone
+       - pagename: Profiles
+       - pagename: Restricted LPA access
+    - subcategoryname: Set the time zone
     - subcategoryname: Supported languages
     - subcategoryname: System requirements
 
@@ -288,7 +296,6 @@
       pages:
         - pagename: Account security recommendations
         - pagename: Validate identity of consumers during conversations
-        - pagename: LivePerson support policy
         - pagename: IP masking
         - pagename: Configuring your firewall
         - pagename: IP address blocking
@@ -296,6 +303,7 @@
         - pagename: Whitelist your domains for LP monitoring
         - pagename: Historic data masking
     - subcategoryname: LivePerson disaster recovery
+    - subcategoryname: LivePerson support policy
     - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
     - subcategoryname: Secure forms
@@ -324,27 +332,40 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: December 2019
+    - subcategoryname: November 2019
     - subcategoryname: October 2019
     - subcategoryname: September 2019
     - subcategoryname: August 2019
     - subcategoryname: July 2019
     - subcategoryname: June 2019
-    - subcategoryname: May 2019
-
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: Latest Release Notes
+    - subcategoryname: 2020
+      pages:
+        - pagename: January
+          level3:
+            - level3name: Week of January 13th
+            - level3name: Week of January 6th
     - subcategoryname: 2019
       pages:
+        - pagename: December
+          level3:
+            - level3name: Week of December 23rd
+            - level3name: Week of December 16th
+            - level3name: Week of December 9th
+            - level3name: Week of December 2nd
         - pagename: November
           level3:
+            - level3name: Week of November 25th
+            - level3name: Week of November 18th
             - level3name: Week of November 11th
             - level3name: Week of November 4th
         - pagename: October
           level3:
-            - level3name: Week of October 28th
             - level3name: Week of October 21st
             - level3name: Week of October 14th
         - pagename: September
@@ -364,22 +385,13 @@
             - level3name: Week of July 29th
             - level3name: Week of July 22nd
             - level3name: Week of July 1st
-        - pagename: June
-          level3:
-            - level3name: Week of June 17th
-            - level3name: Week of June 9th
-            - level3name: Week of June 3rd
-        - pagename: May
-          level3:
-            - level3name: Week of May 27th
-            - level3name: Week of May 20th
-            - level3name: Week of May 13th
-            - level3name: Week of May 6th
 
 
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
+    - subcategoryname: How to contact Support
+    - subcategoryname: Status page
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
@@ -387,15 +399,15 @@
         - pagename: Set up and management
         - pagename: Consumer Experience
         - pagename: Agent tools
-    - subcategoryname: Live Chat
+    - subcategoryname: Live chat
     - subcategoryname: Bots
-    - subcategoryname: 'Data & Reporting'
+    - subcategoryname: 'Data & reporting'
     - subcategoryname: Case management support
     - subcategoryname: HAR files web requests and web traffic
 
 - categoryname: FAQs
   image: faqs
   subcategories:
-    - subcategoryname: 'Data & Reporting'
+    - subcategoryname: 'Data & reporting'
     - subcategoryname: 'Surveys & window'
     - subcategoryname: Agent tools
