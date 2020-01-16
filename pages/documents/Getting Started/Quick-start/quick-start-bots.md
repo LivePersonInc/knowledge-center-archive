@@ -28,7 +28,6 @@ Create a bot using Conversation Builder.
 3. In the dialog that appears:
   - **Name**: Enter a unique name.
   - **Description**: Enter a meaningful description.
-  - **Bot Type**: Leave this set to “Consumer Facing Bot.”
   - **Bot Language**: Select a language.
 4. Click **Create Bot**. Since you selected the Custom Bot template, by default this creates a bot with a “Welcome” dialog that matches and responds to simple forms (patterns) of “hello.” The bot also has a Fallback dialog with some fallback text.
 5. Click the **Welcome** and **Fallback** tabs in the lower-left corner to open and examine both dialogs.
@@ -44,7 +43,7 @@ Want to try your hand at changing the bot?
 
 **Add a new pattern**
 1. If the Welcome dialog isn't already open, click the Welcome tab in the lower-left corner to open it.
-2. Select the first tile **(1)**, and then click the **Interaction Details** icon **(2)** beside it to open its Interaction Details window.
+2. Select the first interaction **(1)**, and then click the **Interaction Details** icon **(2)** beside it to open its Interaction Details window.
 
     <img style="width:600px" src="img/cb_window1.png">
 
