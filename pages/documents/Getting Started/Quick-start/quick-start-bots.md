@@ -15,26 +15,13 @@ redirect_from:
 ---
 Create a bot using Conversation Builder.
 
-## Step 1: Add Conversation Builder permissions to the Administrator profile
+## Step 1: Log in and access Conversation Builder
 
 1. Log in to [LiveEngage](https://authentication.liveperson.net/).
-2. On the left sidebar, click the <img style="width:30px" src="img/icon_users.png"> icon. This displays the **Users** tab.
-3. Click the **Profiles** tab, and then click the “Administrator” profile name.
-4. On the Edit Profile page that appears, enable the following Conversation Builder permissions:
-  - Conversation Builder: Administrator
-  - Conversation Builder: Content User
-  - Conversation Builder: Business User
-  - Conversation Builder: Bot Status Access
-  - Conversation Builder: Bot Builder
-5. Click **Save**, and then click **OK** in the confirmation dialog that appears.
-6. In the lower-left corner, click the <img style="width:30px" src="img/icon_person.png"> icon, and then select **Logout** to log out of LiveEngage. Then log in again to “pick up” the new permissions.
+2. On the left sidebar, click the <img style="width:30px" src="img/icon_cb.png"> icon.
+3. In the Conversational AI dashboard, click **Conversation Builder**.
 
-## Step 2: Access Conversation Builder
-
-1. In LiveEngage, on the left sidebar, click the <img style="width:30px" src="img/icon_cb.png"> icon.
-2. In the Conversational AI dashboard, click **Conversation Builder**.
-
-## Step 3: Create a bot
+## Step 2: Create a bot
 
 1. Click **New Bot** in the upper-right corner.
 2. Select the **Custom Bot** template.
@@ -51,7 +38,7 @@ Create a bot using Conversation Builder.
 
 **Congratulations!** You’ve just created your first bot!
 
-## Step 4: Dive Deeper (Optional)
+## Step 3: Dive deeper (optional)
 
 Want to try your hand at changing the bot?
 
