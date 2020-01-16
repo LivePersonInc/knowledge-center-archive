@@ -33,13 +33,13 @@ If you have the manager workspace enabled, but not the new agent workspace, the 
 The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the agent workspace + All Connections.
 
 We'll cover the following workflows:
-* [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
-* [Monitoring conversations during a shift](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-conversations-during-a-shift)
-* [Viewing a conversation transcript](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#viewing-a-conversation-transcript)
-* [Opening multiple conversations concurrently](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#opening-multiple-conversations-concurrently)
-* [Taking actions on conversations](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#taking-actions-on-conversations)
-* [Searching for specific conversations](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#searching-for-specific-conversations)
-* [Monitoring Shift KPIs](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-shift-kpis)
+* [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
+* [Monitoring conversations during a shift](agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-conversations-during-a-shift)
+* [Viewing a conversation transcript](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#viewing-a-conversation-transcript)
+* [Opening multiple conversations concurrently](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#opening-multiple-conversations-concurrently)
+* [Taking actions on conversations](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#taking-actions-on-conversations)
+* [Searching for specific conversations](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#searching-for-specific-conversations)
+* [Monitoring Shift KPIs](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-shift-kpis)
 
 ### Monitoring agents during a shift: for status and performance
 The new Agents widget within the workspace provides a quick view and summary of all agents currently in the shift, with the option to filter and sort by various metrics.  
@@ -105,19 +105,22 @@ Until today, managers used the orbs on the bottom of the screen to open multiple
 
 ### Taking actions on conversations
 
-After you view conversations in All Connections, you have the ability to take [several actions](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
+After you view conversations in All Connections, you have the ability to take [several actions](/messaging-managers-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
 
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
-* **Takeover the conversation:** Remove the conversation from the current agent and become the primary owner of the conversation.
-* **Resume conversation:** Restart a closed conversation as the primary agent.
+
+{: .notice} 
+**Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
-* Transfer the conversation
-* Send conversation back to queue
-* Close the conversation
+* **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
+* **Resume the conversation** 
+* **Transfer the conversation**
+* **Send conversation back to queue**
+* **Close the conversation**
 
-You can click on ‘to send messages go to my connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
+You can click on ‘to send messages go to My Connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
 ![](img/new-agent-manager-experience-3.png)
 

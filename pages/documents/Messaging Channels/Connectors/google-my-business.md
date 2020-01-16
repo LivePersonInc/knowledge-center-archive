@@ -40,7 +40,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 <div class="important">
 <b>Note:</b>
 <ul>
-<li>Due to a Google limitation, the Google My Business connector is only available to accounts in the US & Canada.</li> <li>The character limit for messages sent by consumers on the Google My Business channel is 5000.</li>
+<li>The character limit for messages sent by consumers on the Google My Business channel is 5000.</li>
 </ul>
 </div>
 

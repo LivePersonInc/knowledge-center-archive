@@ -214,6 +214,10 @@ The following core permissions are included with the Admin role and cannot be di
 | View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
 | Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
 | Configure shift status | For brands who have enabled the Messaging feature, this permission allows an admin to configure the shift status | On |
+| FaaS Invocation | Allows to invoke LivePerson Functions (FaaS) | On |
+| FaaS Admin | Allows to administrate LivePerson Functions (FaaS) Settings | On |
+| FaaS Developer | Allows to develop LivePerson Functions (FaaS)| On |
+
 
 ## Visuals
 

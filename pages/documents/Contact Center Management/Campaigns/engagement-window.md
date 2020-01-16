@@ -15,9 +15,18 @@ redirect_from:
 ---
 For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
 
-## The Engagement window studio
+### Using the Engagement window studio, you can:
 
-To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a chat window once and use it across any number of engagements.
+* [Customize the look and feel of the conversation window](/contact-center-management-campaigns-engagement-window.html#customize-the-look-and-feel)
+* [Add a window header](/contact-center-management-campaigns-engagement-window.html#to-add-a-header-to-the-window), [configure a picture of your agent](/contact-center-management-campaigns-engagement-window.html#agent-picture-configuration), or [add another image to the window](/contact-center-management-campaigns-engagement-window.html#to-add-an-image-to-the-window)
+* [Add and edit surveys](/contact-center-management-campaigns-engagement-window.html#to-add-and-edit-surveys)
+* [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#to-add-additional-functionality-to-your-window)
+* [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
+* and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
+
+## Engagement window studio basics
+
+To provide a consistent experience across devices, you can design identical engagement windows for both desktop and mobile versions of the platform. Using the **Engagement window studio**, you can design a conversation window once and use it across any number of engagements.
 
 ### To access the Engagement window studio:
 
@@ -36,13 +45,6 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-2.png)
 
-### Using the Engagement window studio, you can:
-
-* Customize the look and feel of engagement windows
-* Add a window header, a picture of your agent, or another image
-* Add surveys
-* Add action buttons, e.g, to request an email of the chat transcript
-
 ### To edit the window name and description:
 
 1. Click the window name (in this example, Support)
@@ -59,9 +61,9 @@ The **Engagement window studio** allows you to customize the look and feel of bo
 
 ![](/img/engagement-window-4.png)
 
-### To customize chat window elements:
+### To customize conversation window elements:
 
-You can fully customize the chat window to suit your brand by changing the colors, fonts, visitor bubble, agent bubble, system messages, info line and chat window background. Select each of the window elements and follow the steps below:
+You can fully customize the conversation window to suit your brand by changing the colors, fonts, visitor bubble, agent bubble, system messages, info line and window background. Select each of the window elements and follow the steps below:
 
 1. Click on an element
 2. From the properties window, customize the element according to your brand
@@ -75,7 +77,7 @@ You can fully customize the chat window to suit your brand by changing the color
 
 A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
 
-The new Horizon theme features: 
+The new Horizon theme features:
 * Large window
 * New image at the header
 * Chevron minimize icon
@@ -88,7 +90,7 @@ The new Horizon theme features:
 * Window closes automatically once consumer ends conversation, or upon submitting the post chat/conversation survey
 
 {: .sidebyside}
-![](/img/week-of-august-5th-3.png)![](/img/week-of-august-5th-4.png)
+<img src="/img/week-of-august-5th-3.png" title="Horizon theme"><img src="/img/week-of-august-5th-4.png" title="Ocean theme">
 
 To learn more about configuring these new features, [click here](release-notes-2019-august-week-of-august-5th.html).
 
@@ -153,7 +155,7 @@ Brands have the ability to set the embedded window as floating. Once this config
 * Click on “Save”
 
 **Limitations**
-* This setting will impact only the desktop embedded window. 
+* This setting will impact only the desktop embedded window.
 
 Configure floating engagement window in engagement window studio:
 
@@ -167,7 +169,7 @@ Floating engagement window consumer view:
 
 Brands have the ability to configure whether to provide consumers the ability to add emojis to their conversation while using the engagement window on their desktop. This feature is disabled by default.
 
-**Limiations**
+**Limitations**
 * This feature is available for desktop only.
 
 **Enablement**
@@ -187,7 +189,7 @@ Consumer view: adding emojis from desktop web messaging or chat window
 
 ### Consumer actions menu location
 
-Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows. 
+Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows.
 
 There are 2 options to set the location of the menu:
 * At the bottom left side of the window (current location and default for Ocean and Horizon themes)
@@ -195,7 +197,7 @@ There are 2 options to set the location of the menu:
 
 If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
 
-**Enablement** 
+**Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Add elements” icon
@@ -223,7 +225,7 @@ Consumer side top menu:
 {: .sidebyside}
 ![](img/week-of-september-30th-13.png)![](img/week-of-september-30th-14.png)
 
-Consumer side bottom menu: 
+Consumer side bottom menu:
 
 {: .sidebyside}
 ![](img/week-of-september-30th-15.png)![](img/week-of-september-30th-16.png)
@@ -232,7 +234,7 @@ Consumer side bottom menu:
 
 When the menu is configured to be at the top for web messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
 
-**Enablement** 
+**Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Text area”
@@ -327,17 +329,16 @@ Visitors will now see the configured default picture beside each line sent by th
 
 Brands have the ability to set the radius of the top and bottom corners of the engagement window. The additional setting “Engagement window bottom corners” has been added to the “Additional window setting” section of the engagement window studio. The radius must be set in numbers, with or without px. Format example: 0px 0px 5px 5px. The limit will be 20px. An invalid format notification message will be displayed if the number is entered beyond the limit number.
 
-By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop. 
+By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop.
 
 **Enablement**
 * Log into LiveEngage
 * Go to Engagement window studio
 * Click on “Open additional window settings”
 * Click on “Look and feel” section to expand
-* Enter values for “Engagement window top corners” or “Engagement window bottom corners 
+* Enter values for “Engagement window top corners” or “Engagement window bottom corners
 * Click on “Save”
 
 ![](img/week-of-september-30th-4.png)
 
 ![](img/week-of-september-30th-5.png)
-

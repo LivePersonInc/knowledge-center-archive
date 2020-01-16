@@ -11,6 +11,7 @@ date: '2019-01-17T15:11:38.000+00:00'
 isNew: false
 redirect_from:
   - messaging-channels-sms-twilio-sms-connector-setup.html
+  - getting-started-twilio-sms-quick-start.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919599" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

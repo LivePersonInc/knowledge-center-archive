@@ -1,20 +1,24 @@
 ---
-pagename: Assign permissions
+pagename: Restricted LPA access
 categoryName: Admin & settings
 subCategoryName: Permissions
 indicator: both
-subtitle: Define the permissions for LivePerson Administrators (LPA) users which gives
-  access to all customer accounts
+subtitle: Define the permissions for LivePerson Administrators (LPA) users
 level3: ''
-permalink: admin-settings-permissions-assign-permissions.html
+permalink: admin-settings-permissions-restricted-lpa-access.html
 isTutorial: false
 isNew: false
 date: 2019-01-23 12:01:13 +0000
 redirect_from:
   - lpa-permissions-assignment.html
   - working-with-profiles.html
+  - admin-settings-permissions-assign-permissions.html
 
 ---
+For brands that require the approval of access to each individual to their account (for example due to regulatory requirements), an option to restrict LPA user access is available by request.  Under this option, the control of administrative access moves from LivePerson to your brand by enabling you to manually approve specific LivePerson employees for access. This option also enables brands to control the permissions assigned to these users, as well as control if and when to revoke all access.
+
+Note:  this option limits LivePerson’s ability to provide technical support and will affect our ability to meet SLAs for support turnaround time, as special requests will have to be made an approved to troubleshoot and analyze issues.  
+
 Brands wanting to configure specific permissions for LPA users on their account have the ability to create customized profiles within each user role (agent, agent manager, campaign manager and admin). Permissions can be enabled or disabled within each profile as required, to create a custom profile suitable for the LPA user.
 
 Once enabled, these profile(s) will automatically be assigned to LPA users upon log-in, meaning they will then only be able to perform actions within the permission settings assigned to them by the brand.

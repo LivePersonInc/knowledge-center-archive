@@ -104,7 +104,7 @@ windowKit.onAgentRichContentEvent(function(content) {
 //when the agent changes states
 windowKit.onAgentChatState(function(state) {
   //if the agent is typing
-  let agentHasTyped
+  let agentHasTyped;
   if (state == "COMPOSING" && agentFirstText == true && !agentHasTyped) {
     $("#typing").css("display", "flex");
     agentHasTyped = true;

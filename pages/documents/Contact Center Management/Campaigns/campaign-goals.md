@@ -64,7 +64,7 @@ A LiveEngage transaction is the way which the system reports the exchange of mon
 4. If you haven’t yet configured tracking, you’ll see the message, “We haven't received transaction information data in the last 24 hours.” Click the **Configure tracking** button to do so now. You can also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
 5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to LiveEngage (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
 
-LiveEngage will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes]().
+LiveEngage will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes](https://knowledge.liveperson.com/data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html).
 
 In the goal indicator settings, Max set his goal as **more than 10,000**, and clicked **save**.
 

@@ -9,7 +9,8 @@ permalink: data-reporting-engagement-attributes-setting-up-engagement-attributes
 isTutorial: false
 date: 2019-01-17T12:12:28.000+00:00
 isNew: false
-
+redirect_from:
+- how-to-embed.html
 ---
 LivePerson provides out-of-the-box basic information about your visitors, for example, the visitor’s geolocation, the amount of time they spent on a page, and which pages they viewed.
 

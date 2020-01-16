@@ -80,4 +80,4 @@ LivePerson recovery time objective (RTO) is 2 hours and recovery point objective
 
 ## Additional information
 
-Further data center wide failure scenarios and mitigation procedures are discussed in LivePerson Business Continuity Plan (BCP) documentation.
+Further data center wide failure scenarios and mitigation procedures are discussed in LivePerson Business Continuity Plan (BCP) documentation.  Please contact your LivePerson representative for access to this document. 

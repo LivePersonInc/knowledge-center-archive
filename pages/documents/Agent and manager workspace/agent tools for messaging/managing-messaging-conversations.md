@@ -152,22 +152,18 @@ The CSAT scores calculated for your performance in the KPI bar are derived from 
 
 To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
 
-Open the hot keys menu by holding down the control and tilde keys (CTRL + \~).
+Select an action by pressing the applicable keys below: 
 
-On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
-
-Select an action by pressing the applicable letter.
-
-| ACTION | HOT   KEY |
+| ACTION | HOT KEY |
 | --- | --- |
-| LOGOUT of the agent   workspace | L |
-| ACCEPT a new incoming   conversation | A |
-| LIST VIEW: open the my   connection list | V |
-| STATUS: toggle your   status between Online, Back Soon and Away | S |
-| HIDE conversation from   your current view | H |
-| Return conversation to QUEUE | Q |
-| TRANSFER conversation   to another skill | T |
-| CLOSE conversation | X |
-
-{: .notice}
-_The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
+| Move to next conversation| Alt + Shift + M |
+| Deselect conversation | Alt + Shift + U |
+| Copy as plain text | Alt + Shift + Y |
+| Return to queue | Alt + Shift + Q |
+| Transfer conversation | Alt + Shift + R |
+| Close conversarsation | Alt + Shift + W |
+| Accept conversation | Alt + Shift + N |
+| Takeover conversation | Alt + Shift + O |
+| Leave conversation | Alt + Shift + I |
+| Logout from LiveEngage | Alt + Shift + L |
+| Change status | Alt + Shift + S |

@@ -40,20 +40,25 @@ Brands can choose their prioritization strategy, not only by the time of the day
 ## Queue prioritization use cases
 
 **Handle the night queue after handling the morning peak**
-
 When the queue size is big, for example during the mornings hours, handle fresh conversations of users that contacted the center once the shift started, rather than handling the conversations that stacked up during the night. Once the morning peak is over, handle the consumers that approached the brand during the night.
 
 **Prioritize conversations that were transferred to a retention skill**
-
 Define a business rule that assigns higher priority to conversations that were transferred to a retention skill.
 
 **Prioritize conversations that were escalated by a bot**
-
 Define a business rule that assigns higher priority to conversations that were transferred from a bot skill enabling your human agents to quickly bring back the conversation on its course.
 
 **Prioritize conversations based on consumer authenticated attributes**
-
 Tailor queue prioritization business rules based on authenticated consumer attributes. This way, you can define that customers with high account balances or those marked as VIP’s receive a velocity factor that helps them advance faster in the queue - reducing the response time for these consumers.
+
+**Prioritize conversations based on skills**
+Brands can prioritize conversations based on the skills hierarchy. This means if there is a skill which is considered to be of high priority, e.g. a sales skill, it can be defined as high priority and ensured that those conversations are handled first. 
+
+**Prioritize conversations based on incoming messaging source**
+Brands can prioritize queues based on the messaging source of the incoming conversation. For example, if WhatsApp conversations have been identified as having higher conversion rates, brands can decide to prioritize WhatsApp conversations in the queue.
+
+**Prioritize conversations that were previously sent back to queue**
+Conversations being placed back into queue (though they have already waited to receive an agent assignment) can be automatically assigned higher priority and reach the top of queue faster, improving consumer experience by ensuring no consumer needs to wait longer just because their conversation was returned to queue.
 
 ## ![](/img/queue-prior-overview-2.png)
 
