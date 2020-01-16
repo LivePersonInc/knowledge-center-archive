@@ -43,6 +43,11 @@ body {
   display: none !important;
 }
 
+.lp-window-root .lp_main .lp_main_area {
+  bottom: 15px !important;
+  left: 15px !important;
+  right: 15px !important;
+}
 
 .lpc_desktop.lpc_window_maximized {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2) !important;
@@ -317,6 +322,8 @@ body {
 }
 .lpc_desktop.lpc_message-area__timestamp {
     margin-top: 10px !important;
+    opacity: 0.5;
+    margin-left: 20px !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
@@ -347,7 +354,7 @@ body {
 
 .lpc_desktop.lpc_message_agent {
     border: none !important;
-    padding: 10px 16px 10px 16px !important;
+    padding: 16px 16px 16px 16px !important;
     border-radius: 10px 10px 10px 0 !important;
 }
 
@@ -373,6 +380,7 @@ body {
     color: #fff !important;
     font-family: "Roboto", "Open Sans", Helvetica !important;
     font-size: 17px !important;
+    line-height: 21px !important;
 }
 
 .lpc_desktop.lpc_message__text_agent strong,
@@ -484,8 +492,9 @@ body {
     color: #5f6368 !important;
 }
 
-.lpc_desktop.lpc_composer:focus {
-  box-shadow: 0px 0px 14px 1px #5f6368;
+.lpc_desktop.lpc_composer:focus-within {
+  box-shadow: 0px 0px 14px 1px rgba(76,91,203, 0.7) !important;
+  /* border: solid 2px #ddeeffdb !important; */
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
@@ -494,6 +503,8 @@ body {
 
 .lpc_desktop.lpc_composer__text-area {
     font-size: 14px !important;
+    color: #090C43 !important;
+    margin-left: -20px;
 }
 
 .lpc_desktop.lpc_composer__text-area:focus {
@@ -502,11 +513,12 @@ body {
 
 .lpc_desktop.lpc_composer__text-area::placeholder {
     font-style: normal !important;
-    color: #5f6368 !important;
+    color: #2B2D38 !important;
 }
 
 .lpc_desktop.lpc_composer__menu-button {
     top: 14px !important;
+    display: none;
 }
 
 .lpc_desktop.lpc_composer button:focus {
@@ -612,6 +624,7 @@ body {
 /* needed so that the background is blue all around */
 .lp_desktop #lpChat > .lp_maximized .lp_main.lpc_body {
     background: transparent !important;
+    /* padding-left: 0px !important; */
 }
 
 /* needed to effectively remove box-shadow and give the box round corners */
@@ -650,8 +663,19 @@ body {
 /* needed to override border-top */
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_main_area .lp_location_bottom {
-  border: solid 2px #84a3ea !important;
-  background-color: rgba(255, 255, 255, 0.6) !important;
+  border: solid 2px #4C5BCB !important;
+  /* background-color: #4c6ea5 !important; */
+  /* box-shadow: 0px 0px 14px 1px #84a3ea !important; */
+  border-radius: 6px;
+  /* margin-top: 40px; */
+  /* opacity: 0.5; */
+  width: 67%;
+  margin-left: 41px;
+  background-color: #1c32a0 !important;
+}
+
+.lp-window-root .lp_main .lp_main_area .lp_location_bottom .lp_emoji_button {
+  display: none !important;
 }
 
 /* no alternative class found */
@@ -663,7 +687,7 @@ body {
 
 /* needed to make the placeholder follow the color */
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_main_area .lp_location_bottom .lp_input_area textarea::placeholder {
-  color: #090979 !important;
+  color: #2B2D38!important;
 }
 
 /* needed so that lpc-layout works */
@@ -711,7 +735,7 @@ background: transparent !important;
 /* needed to affect padding on main view */
 
 .lp_desktop #lpChat > .lp_maximized .lp_main .lp_agent.lp_chat_line_wrapper {
-  padding: 0px 20px 4px 6px !important;
+  padding: 0px 20px 8px 6px !important;
 }
 
 /* needed for avatar size */
