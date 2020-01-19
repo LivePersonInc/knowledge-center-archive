@@ -10,3 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
+**Happy New Year!**
+LivePerson is kick off 2020 with a number of important updates and exciting new features.
+Watch this two minute video for the upcoming features for the weeks ahead.
+![](img/Whats-new-jan-2020-1.png)
