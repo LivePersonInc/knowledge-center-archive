@@ -11,6 +11,7 @@ isNew: false
 
 ---
 **Happy New Year!**
+
 LivePerson is kicking off 2020 with a number of important updates and exciting new features.
 Watch this two minute video for the upcoming features for the weeks ahead.
 ![](img/Whats-new-jan-2020-1.jpg)
@@ -68,3 +69,49 @@ We're making it easier to navigate between the enhanced agent workspace for mess
 
 {: .notice}
 Applies only to messaging agent managers who are using both the new manager workspace and the enhanced agent workspace
+
+### Enhanced Agent Workspace for Messaging
+## Personalize the predefined content widget display [enhanced agent workspace for messgaing]
+In the enhanced workspace for messaging - each agent will be able to personalize how they'd like to view their predefined content widget and in how much detail. The predefined content widget enables each user to decide whether to display each content as titles &  text, or to hide the content text and display the titles only. If the user chooses the “Titles only” display, hovering each item will display it’s content on a tooltip for assistance. 
+
+{: . notice}
+The configuration is enabled per agent only and does not affect the entire account.
+
+## Deselect conversation [enhanced agent workspace for messgaing]
+Increase efficiency and user experience in the enhanced agent workspace for messaging by enabling agents to work in a mode where they are not focused on a particular conversation.  This work mode enables a clear the workspace, or focus on other tasks. Just click on the  action menu and choose “Unselect conversation”.
+When choosing this option, the conversation will disappear from the user’s screen and will only be visible from the “My connections” list). 
+
+## Display summary notes to previous conversations [enhanced agent workspace for messgaing]
+Agents will receive a more holistic picture of previous conversations with a consumer through the addition of summary notes to the conversation history and notes. 
+In the new workspace, previous conversations are displayed above the current conversation.
+We now are added the ability to see previous conversations summary as written by previous agents who participated in the conversation (one or more). 
+
+## New applications dashboard
+The new Applications dashboard gives brands and partners the ability to manage all LivePerson applications on a self-serve basis. It also exposes them to applications that developers have created by presenting them with information about the application, such as an overview of the app and screenshots from the app. By using the dashboard, an admin can enable or disable the app, decide which user profiles can use this app, change its name and icon, and decide if the app should be launched from the Quick launch menu. Read the internal release notes for
+more info.
+
+## New structured content template “Multiple select checkbox”
+The Multiple select checkbox template enables humans or automated agents (bots) to share a list of items, while allowing the consumer to select multiple items and reply back with their selection. 
+The template increases use cases brands can serve on messaging and allows brands to more efficiently receive input from customers for complex questions. 
+For consumer; they will be able to select their choices and click on the action button to submit. Once submitted, the consumer's selections will be sent as a message on behalf of the consumer, appearing in the conversation transcript.
+
+{: . notice}
+The consumer selections will be displayed as plain text, with a comma separator between each selection.
+
+If you are using a bot to send the structured content template, the consumer selection will be published as part of the conversation metadata. Using Messaging Agent SDK, bots can access conversation metadata and analyze the consumer selections.
+
+For agents, the consumer selections will be displayed as a consumer message in the agent workspace as part of the conversation transcript.
+
+## Hyperlinks for Messaging
+When messaging, users will be able to share hyperlinks with consumers as part of the general message. Within the agent input area, a new button will appear that enables agents to add the URL link and title to be displayed while sending to the consumer. 
+
+## Post conversation survey in the Conversation Builder
+Customers can use Conversation Builder for all their bot needs, including surveys as the Post Conversation Survey is now in the Conversation Builder platform.
+Brands can now ask their customers to fill a brief survey at the end of a conversation and collect feedback in a single flow. The collected data provides valuable insights about the customer experience. For more information on the Conversation Builder, click here. For more information on the Post Conversation Survey, click here.
+
+
+
+
+
+
+
