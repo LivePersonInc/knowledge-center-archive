@@ -35,7 +35,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
 
-   ![](/img/middle phone-2.png)
+![](/img/middle phone-2.png)
 
 <div class="important">
 <b>Note:</b>
@@ -43,6 +43,8 @@ The Google My Business connector enables consumers to message your brand via SMS
 <li>The character limit for messages sent by consumers on the Google My Business channel is 5000.</li>
 </ul>
 </div>
+
+### Consumer to agent image sharing 
 
 Brands have the ability to enable image sharing from consumers to agents, while allowing consumers to use the Google Business Messaging conversational interface to share images from their device with agents. 
 
