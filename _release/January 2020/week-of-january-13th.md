@@ -165,6 +165,9 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 
 ### Type: Enhancement (Application dashboard 1.0)
 
+{: .notice} 
+**Note:** Please this feature will be available only starting January 28th.
+
 The Applications management module is a new module that will change the way our customers are exposed to, manage and use applications from LivePerson. The Application dashboard gives brands and partners the ability to manage all LivePerson applications on a **self-serve** basis, while also exposing them to applications that developers have created by presenting them with information about the application, as an overview of the app and screenshots from the app.
 
 The motivation for enabling administrators to self-serve configure an application is obvious, we would like our customers to be able to manage their applications easily and in a self-service way. By using the dashboard, an admin can enable or disable the app, decide which profiles can use this app, change its name and icon, and decide if the app should be launched from the Quick launch menu or not.
