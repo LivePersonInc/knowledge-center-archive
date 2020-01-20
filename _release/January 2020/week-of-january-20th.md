@@ -1,5 +1,5 @@
 ---
-pagename: Week of January 13th
+pagename: Week of January 20th
 categoryName: Release notes
 subCategoryName: Web messaging
 indicator: both
