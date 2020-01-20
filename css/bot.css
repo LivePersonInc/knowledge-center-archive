@@ -8,7 +8,7 @@ body {
 
 .botwrapper {
   background: rgb(5,25,55);
-  background: linear-gradient(150deg, rgba(5,25,55,1) 0%, rgba(9,9,121,1) 50%, rgba(1,123,141,1) 100%);
+  background: linear-gradient(0deg, rgba(2, 108, 148, 1) 0%, rgba(9,9,121,1) 50%, rgba(5,25,55,1) 100%);
   grid-template-columns: 2.5fr 0.5fr 0.5fr 5fr 3fr 1fr 100px !important;
 }
 
