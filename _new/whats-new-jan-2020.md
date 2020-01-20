@@ -22,6 +22,7 @@ For a comprehensive tutorial of the New Manager Workspace check out this [video.
 Here’s the latest updates to the manager workspace:
 
 ## Global Skill Filter [New Manager workspace]
+
 We’re making it easier for managers to make data driven decisions by allowing them to easily filter the entire workspace by specific skills. Until now, the skill filter was available per widget (e.g. by queue summary, agents and conversation widget). 
 When filtering by skill, the agent’s widget will retrieve the list of agents which are assigned to the selected skills.  The metrics associated will not be filtered according to the skill, but for all of the agent’s activity.
 For example, if an agent is assigned multiple skills, the metrics will reflect all of their conversations and not just the filtered skill. The filter is available on the top right corner of the page.
