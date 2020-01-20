@@ -18,15 +18,12 @@ Watch this two minute video for the upcoming features for the weeks ahead.
 Recently, LivePerson launched the New Manager Workspace and the Enhanced Agent Workspace for messaging. We’ve made some important updates to these workspaces based on great feedback from our users.
 
 ### New Manager Workspace
-For a comprehensive tutorial of the New Manager Workspace check out this [video](https://vimeo.com/358055055/d830be4007) 
-
+For a comprehensive tutorial of the New Manager Workspace check out this [video.](https://vimeo.com/358055055/d830be4007) 
 Here’s the latest updates to the manager workspace:
-
 ## Global Skill Filter [New Manager workspace]
 We’re making it easier for managers to make data driven decisions by allowing them to easily filter the entire workspace by specific skills. Until now, the skill filter was available per widget (e.g. by queue summary, agents and conversation widget). 
 When filtering by skill, the agent’s widget will retrieve the list of agents which are assigned to the selected skills.  The metrics associated will not be filtered according to the skill, but for all of the agent’s activity.
 For example, if an agent is assigned multiple skills, the metrics will reflect all of their conversations and not just the filtered skill. The filter is available on the top right corner of the page.
-
 {: .notice}
 This filter will be automatically enabled for any user that is using the new manager workspace.
 
@@ -48,7 +45,7 @@ This will automatically be enabled for any user that enabled the new manager wor
 ## Wait time metric [New Manager workspace]
 A new metric, “Wait time” has been added to the “Queue summary” widget. The metric is shown by skill breakdown.  The metric displays the 90th percentile of the consumers wait time for an agent assignment which means that 90% of consumers are currently waiting for an agent assignment X amount of time or less. 
 
-{: .note}
+{: .notice}
 Automatically enabled for any user that enabled the new manager workspace.
 
 ![](img/Jan2020_whats_new_4.png)
@@ -64,7 +61,6 @@ Automatically enabled for any user that enabled the new manager workspace.
 ![](img/Jan2020_whats_new_5.png)
 
 ## Filter by specific hour [New Manager workspace]
-
 Ability to set and monitor operations performance from specific hours, such as the beginning of a shift or the beginning of a business day.
 Until now, users have only been able to change the time range of the manager workspace to view data from the past X hours (maximum supported time range being 24 hours).
 
@@ -73,7 +69,6 @@ With new ‘filter by specific hour’, users can filter the workspace from a sp
 ![](img/Jan2020_whats_new_6.png)
 
 ## Seamless Navigation from agent to manager workspace 
-
 We're making it easier to navigate between the enhanced agent workspace for messaging and the new manager workspace. When a user drills down to read a transcript of a specific conversation from the “Conversations widget” in the manager workspace, users are navigated to the enhanced agent workspace. In order to navigate back to the conversation list, users will be able to simply click the new “Back to Manager workspace” button.
 
 {: .notice}
@@ -82,13 +77,13 @@ This feature applies only to messaging agent managers who are using both the new
 ![](img/Jan2020_whats_new_7.png)
 
 ### Enhanced Agent Workspace for Messaging
-For a comprehensive tutorial of the New Agent Workspace, check out this [video](https://vimeo.com/357193087/7d6d59ca85) 
-Here’s the latest updates to the enhanced agent workspace for messaging:
+For a comprehensive tutorial of the New Agent Workspace, check out this [video.](https://vimeo.com/357193087/7d6d59ca85) 
 
+Here’s the latest updates to the enhanced agent workspace for messaging:
 ## Personalize the predefined content widget display [agent workspace]
 In the enhanced workspace for messaging - each agent will be able to personalize how they'd like to view their predefined content widget and in how much detail. The predefined content widget enables each user to decide whether to display each content as titles &  text, or to hide the content text and display the titles only. If the user chooses the “Titles only” display, hovering each item will display it’s content on a tooltip for assistance. 
 
-{: . notice}
+{: .notice}
 The configuration is enabled per agent only and does not affect the entire account.
 
 [](img/Jan2020_whats_new_8.png)
@@ -107,7 +102,6 @@ We now are added the ability to see previous conversations summary as written by
 
 ### Application Framework
 We’re making some updates to how our customers can access LivePerson apps.
-
 ## New applications dashboard
 The new Applications dashboard coming soon gives brands and partners the ability to manage all LivePerson applications on a self-serve basis. It also exposes them to applications that developers have created by presenting them with information about the application, such as an overview of the app and screenshots from the app. By using the dashboard, an admin can enable or disable the app, decide which user profiles can use this app, change its name and icon, and decide if the app should be launched from the Quick launch menu. Read the internal release notes for
 more info.
@@ -120,13 +114,11 @@ A new security measure has been introduced and defines which type of roles and p
 [](img/Jan2020_whats_new_12.png)
 
 ## Quicklaunch menu redesign
-
 Quicklaunch redesign is more scalable and intuitive to users trying to find the right app by expanding the window and giving the menu a fresh look & feel.
 
 [](img/Jan2020_whats_new_13.png)
 
-This month we’re also making some updates to the Consumer Experience for Web Messaging
-
+### In the coming weeks we’re also making some updates to the Consumer Experience for Web Messaging.
 ## New structured content template “Multiple select checkbox”
 The Multiple select checkbox template enables humans or automated agents (bots) to share a list of items, while allowing the consumer to select multiple items and reply back with their selection. 
 The template increases use cases brands can serve on messaging and allows brands to more efficiently receive input from customers for complex questions. 
