@@ -12,7 +12,7 @@ isNew: false
 ---
 **Happy New Year!** 
 LivePerson is kicking off 2020 with a number of important updates and exciting new features.
-Watch this two minute video for the upcoming features for the weeks ahead.
+Watch this two minute video for the upcoming features for the weeks ahead...
 <iframe src="https://player.vimeo.com/video/385805928?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Recently, LivePerson launched the New Manager Workspace and the Enhanced Agent Workspace for messaging. We’ve made some important updates to these workspaces based on great feedback from our users.
