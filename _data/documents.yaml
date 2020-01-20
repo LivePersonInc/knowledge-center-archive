@@ -332,6 +332,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: January 2020
     - subcategoryname: December 2019
     - subcategoryname: November 2019
     - subcategoryname: October 2019
