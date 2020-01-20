@@ -161,9 +161,9 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 **Limitations:**
 * Since consumers may start conversations from web messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers. 
 
-## Application dashboard
+## Applications dashboard
 
-### Type: Enhancement (Application dashboard 1.0)
+### Type: New functionality (Application dashboard 1.0)
 
 {: .notice} 
 **Note:** Please this feature will be available only starting January 28th.
