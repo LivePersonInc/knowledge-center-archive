@@ -50,7 +50,7 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 
 EmailConnect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
 
-* **Multiple email addresses** — Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions. 
+* **Multiple email addresses** — Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
 * **Email Deflection** — With each email response, consumer is given an opportunity to switch from email to brands preferred messaging channels - WhatsApp and SMS.
 
@@ -66,8 +66,8 @@ To setup EmailConnect, your account must have Messaging and [Liveperson Function
 
 There are two ways to launch EmailConnect set up page:
 
-#### Option 1 Email Connect Setup via DataSources. 
-Login to LiveEngage and click the Campaigns icon located on the left navigation bar. Click on Data Sources in the Campaigns footnote.
+#### Option 1 Email Connect Setup via DataSources.
+Login to LiveEngage and click the Campaigns icon located in the left navigation bar. Click on Data Sources in the Campaigns footnote.
 
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)
@@ -92,7 +92,7 @@ Click **EmailConnect**. The Email Connect setup screen will automatically open i
 
 Email address must be configured as below:
 - IMAP must be enabled.
-- Multi factor authentication must be disabled. “Less secure apps” must be enabled for Gmail accounts. 
+- Multi factor authentication must be disabled. “Less secure apps” must be enabled for Gmail accounts.
 - Standard IMAP settings: IMAP, port 993, SSL enabled.
 - Standard SMTP settings: SMTP, port 587, SSL disabled.
 
@@ -101,7 +101,7 @@ Follow the instructions on the screen to save your email configuration details.
 ![](img/email-connect-3.png)
 
 ### Step 3: Save email configuration and skill settings
-Click Test Connection and then click Save 
+Click Test Connection and then click Save
 
 ![](img/Email-connect-step-3.png)
 
@@ -110,15 +110,15 @@ Click Test Connection and then click Save
 You can test your setup by sending an email from your email account to the email address you connected in LiveEngage. When the message shows up in LiveEngage, you can respond as an agent and see the response in the sender’s email account.
 
 {: .notice}
-EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take upto 10 minutes for brand to see the first email in LiveEngage. 
+EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take upto 10 minutes for brand to see the first email in LiveEngage.
 
 ### Step 5: Setup for file attachments (optional)
 Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
 
 {: .notice}
-To enable file attachments, please contact your LivePerson account team. 
+To enable file attachments, please contact your LivePerson account team.
 
-Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage. 
+Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
 
 Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
@@ -130,10 +130,10 @@ Turn on the following settings for Agent and Agent Manager Profiles:
 
 ![](img/email-connect-5.png)
 
-## Configure Auto-Response Text 
+## Configure Auto-Response Text
 
 ### Step 6 Add custom text in your preferred language
-This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000. 
+This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000.
 
 ![](img/Email-connect-step-6.png)
 
@@ -152,18 +152,18 @@ Files: READ ME - How to create header and footer.pdf, EmailConnect_Header_Templa
 
 ### Step 8: Upload HTML header
 
-Click Upload and select your custom .html header file. 
+Click Upload and select your custom .html header file.
 
 ![](img/Email-connect-step-8.png)
 
 ### Step 9: Upload HTML footer
 
-Click Upload and select your custom .html footer file. 
+Click Upload and select your custom .html footer file.
 
 ![](img/email-connect-step-9.png)
 
-### Step 10: Save Email Header and Footer 
-Re-enter the password for your email, click Test Connection and click Save. 
+### Step 10: Save Email Header and Footer
+Re-enter the password for your email, click Test Connection and click Save.
 
 ![](img/email-connect-step-10.png)
 
@@ -180,10 +180,10 @@ Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEnga
 ### Step 12: Open Advanced Messaging Dashboard
 
 ![](img/step12-emailconnect1.png)
-Click on RunDashboard at the bottom left on the page. 
+Click on RunDashboard at the bottom left on the page.
 
 ![](img/step12-emailconnect2.png)
-Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Source filter in the left panel. 
+Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Source filter in the left panel.
 
 ![](img/step12-emailconnect3.png)
 
@@ -193,7 +193,7 @@ Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Sour
 |-----|-----|-----|
 |html|n\a|Required, top-most element|
 | body | bgcolor, width, style| Required, placed within the html element|
-| table | align, bgcolor, cellpadding, cellspacing, border, height, width, style, color, class| Useful for creating a table in HTML that most email clients honor| 
+| table | align, bgcolor, cellpadding, cellspacing, border, height, width, style, color, class| Useful for creating a table in HTML that most email clients honor|
 | tr | n\a | Used to define a row in a table |
 | td | style| Used to define a column in a table|
 | b | n\a | bold|
@@ -202,4 +202,4 @@ Open Agent Effectiveness| Agent Analysis Report tab and select Email in the Sour
 | div | style | creates a division of section within HTML|
 | a | href, target | creates an anchor tag for HTML links|
 | img| src, width, height, alt, border | Creates an image within HTML (usually placed within an <a> tag|
-| font| face | specifies the font family | 
+| font| face | specifies the font family |
