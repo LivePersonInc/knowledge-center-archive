@@ -61,9 +61,10 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 This feature enables brands to assign extra velocity to conversations that were sent back to queue by an agent. For example, assign extra priority to conversations that arrived to an agent just before he left for his lunch.
 
-{: .notice} **Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
+{: .notice}
+**Please note:** This feature requires enablement. Please contact your LivePerson representative for more information. 
 
-## MCS in Spanish 
+## MCS in Spanish
 
 ### Type: New functionality (MCS 2.0.1.60)
 
@@ -104,11 +105,11 @@ This feature enables brands to assign extra velocity to conversations that were 
 </table>
 </div>
 
-MCS is now available in Spanish. For every Spanish conversation, brands will now be able to get an MCS score. 
+MCS is now available in Spanish. For every Spanish conversation, brands will now be able to get an MCS score.
 
 ![](img/week-of-december-23rd-1.png)
 
-## FaaS Debugger 
+## FaaS Debugger
 
 ### Type: New functionality (FaaS 1.14)
 
@@ -200,4 +201,3 @@ Please note that each FaaS user-session will have an exclusive sandbox for debug
 So far FaaS ensured that your function is always running, even if it has not been invoked for the past weeks. In order to save server capacity we introduced the scale to zero feature for FaaS, Functions that have not been invoked for the past 72 hours, will be automatically stopped and warmed up on-demand during first invocation. This currently comes with a cost of 8 sec. warm-up time. In case this warm-up time is currently not acceptable, a scheduled job can be maintained to trigger an invocation within 72 hours. Please note that scheduled invocations are triggered without any input-data.
 
 **Note:** Warm-up time will be reduced in future to be around 1 - 1.5 sec and Sleep-Mode will start after a few minutes.
-
