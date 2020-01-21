@@ -59,7 +59,7 @@
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
       </ul>
     </div>
-    {{ content | extlinks }}
+    <div class="botEngagement"></div>
   </div>
   </div>
   <div id="resetcontainer"><span>Start over</span></div>
@@ -93,17 +93,14 @@
   })(window, document, '_gscq','script','//widgets.getsitecontrol.com/176473/script.js');
 </script>
 <script type="text/javascript">
-// function startEngagement (event) {
-//   event.preventDefault();
-//   var clicked = lpTag.taglets.rendererStub.click(1508963650);
-//   console.log(clicked);
-// }
-//
-// function botClick () {
-//   $('#defaultcontent').trigger('click');
-// }
-//
-// setTimeout(botClick, 2000);
+  function startEngagement () {
+    setTimeout(function() {
+      var clicked = lpTag.taglets.rendererStub.click(1508963650);
+      console.log(clicked);
+    }, 3000)
+  };
+
+  startEngagement();
 </script>
 </body>
 </html>

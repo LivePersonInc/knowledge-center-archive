@@ -25,7 +25,6 @@ $(document).ready(function() {
     if (url.indexOf('casey') > -1) {
         $('#defaultfooter').addClass('botfooter');
     }
-
 });
 
 function navigateContent(url) {
