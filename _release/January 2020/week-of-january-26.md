@@ -53,7 +53,7 @@ Now the code relies on a set of hardcoded/hidden privileges, to identify Adminis
 It was allowed before this fix to subscribe to ExConversationNotifications using SendAPI (ConnectorAPI), which didn’t produce any notifications ( due to the sendAPI HTTP nature ), but created the subscription, which was never deleted from the subscriptions map. 
 This issue has now been resolved.
 
-## Add @NotNull to required fields to provide the proper request validation [API - UMS 32.5] 
+## Add @NotNull to required fields to provide the proper request validation [UMS 32.5] 
 ### Type: Bug fix
 
 Due to the wrong implementation customer sent to UMS requests without `message` field.
