@@ -78,7 +78,7 @@ Before beginning your analysis using the available predefined dashboards, we hig
 
 The glossary contains a full list of metrics available through report builder. Metrics that do not appear in the predefined dashboards can be added by a LivePerson member to the account specific dashboards upon request. Please reach out to your account manager or customer success manager for information about gaining access to additional metrics.
 
-Click [here](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) to access the Report Builder Data Metrics
+Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Report Builder Data Metrics
 
 ## Field details sheet
 
