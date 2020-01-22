@@ -22,7 +22,8 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## Proactive Messaging available to all [Proactive Messaging] 
 ### Type: Enhancement
 Proactive messaging is no longer is early access mode and will be available to all our customers.
-For more information on Proactive Messaging please see the [overview document] https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-overview.html and the [userguide]https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html
+For more information on Proactive Messaging please see the [overview document](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-overview.html)
+ and the [userguide.](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-user-guide.html)
 
 ## Markdown hyperlinks [UMS 3.25] 
 ### Type: Enhancement
