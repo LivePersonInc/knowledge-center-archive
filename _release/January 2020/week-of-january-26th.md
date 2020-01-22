@@ -24,7 +24,10 @@ The timing and scope of these features or functionalities remain at the sole dis
 Proactive messaging is no longer is early access mode and will be available to all our customers by default.
 For more information on Proactive Messaging please see the [overview document.](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-overview.html)
 
+**Self-service onboarding** -  Proactive messaging available to all our customers
+ 
 **Self-service onboarding** -  A simpler, self-service onboarding option is available to brands at this point and will be the new route for brands to onboard to Proactive Messaging. 
+
 Updates to Proactive messaging onboarding include:
 - Reliable routing using LiveEngage Engagement in the backend
 - First outbound message is now part of the conversation transcript instead of a widget
@@ -32,16 +35,17 @@ Updates to Proactive messaging onboarding include:
 - Full set of approved WhatsApp message template when scheduling a proactive campaign (no longer need to manually on-board new message template)
 - Ability to choose what number to send the outbound message from for both SMS and WhatsApp (no more manual hard-code configuration to set the send from number)
  
-**Scheduling guardrails** -  To help brands to stay in compliance, we ensure that the tool only sends outbound messages to recipients within the compliance timeframe based on the recipient's time zone. This is determined based on their phone number's country code and area code. Brands can customize this time window to their preference but the default time window is 8am-9pm. For example, a proactive campaign starts at 8pm PST sending outbound message to recipient in New York City, EST time zone. Our tool will smartly determine that it is outside of the allowed send window for the recipient, put the message in the queue with Scheduled status, then attempt to send the message the next day at 8am EST for the recipient.
+**Scheduling guardrails** - To help brands to stay in compliance, LivePerson ensure that the tool only sends outbound messages to recipients within the compliance timeframe based on the recipient's time zone. This is determined based on their phone number's country code and area code. Brands can customize this time window to their preference but the default time window is 8am-9pm. For example, a proactive campaign starts at 8pm PST sending outbound message to recipient in New York City, EST time zone. Our tool will smartly determine that it is outside of the allowed send window for the recipient, put the message in the queue with Scheduled status, then attempt to send the message the next day at 8am EST for the recipient.
  
-**Generic opt-out service for Proactive Messaging** - if a consumer opts out in SMS for a particular brand, we will ensure no future outbound message will be sent to that consumer unless they re-opt-in. We ensure to honor this including in the case where brands have multiple siteIDs and phone numbers. 
+**Generic opt-out service for Proactive Messaging** - If a consumer opts out in SMS for a particular brand, LivePerson will ensure no future outbound message will be sent to that consumer unless they re-opt-in even in cases where brands have multiple siteIDs and phone numbers. 
 Once a consumer opts out from a brand's phone number or siteIDs, they are considered opted out for all of the brand's phone number and siteIDs. 
  
-**GDPR** - We are fully GDPR compliant. If a consumer requests to be forgotten, we will honor it per LivePerson's standard. 
+**GDPR** - LivePerson are fully GDPR compliant. If a consumer requests to be forgotten, it will be honored per LivePerson's standard. 
  
-**Support multi-regions** - We are on AWS US-West and are adding an instance in EMEA as we speak. We will be adding another instance in APAC in January (currently there is no customer in APAC). 
-
+**Support multi-regions** - LivePerson are on AWS US-West and are adding an instance in EMEA. LivePerson will be adding another instance in APAC shortly (currently there is no customer in APAC). 
+ 
 **LPA access** - This enables LivePerson to to troubleshoot issues for brands using LivePerson Account elevated access to the tool. 
+
 
 ## Markdown hyperlinks 
 ### Type: Enhancement [UMS 3.25] 
