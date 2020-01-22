@@ -60,3 +60,9 @@ This issue has now been resolved.
 Due to the wrong implementation customer sent to UMS requests without `message` field.
 Now such requests are rejected on the validation step due to the new restriction added, making this field a mandatory one.
 
+## [UI hotfix] Visit info widget fields are overlapping
+### Type: Bug fix (LE UI 11.4)
+
+A bug has been discovered in the “Visit info” widget for users of live chat and the old agent workspace. It appears that sometimes, some of the widget fields and titles are overlapping. This bug has been resolved.
+
+![](img/week-of-january-26th-hotfix.png)
