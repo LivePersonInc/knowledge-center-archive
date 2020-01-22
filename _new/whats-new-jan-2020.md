@@ -141,9 +141,12 @@ When messaging, users will be able to share hyperlinks with consumers as part of
 
 [](img/Jan2020_whats_new_15.png)
 
-## Post conversation survey in the Conversation Builder
+## Post conversation survey in the Conversation Builder (currently in early access)
 Customers can use Conversation Builder for all their bot needs, including surveys as the Post Conversation Survey is now in the Conversation Builder platform.
 Brands can now ask their customers to fill a brief survey at the end of a conversation and collect feedback in a single flow. The collected data provides valuable insights about the customer experience.
+
+{: .notice}
+If you would like to take part of the early access program, please contact your account team.  
 
 [](img/Jan2020_whats_new_16.png)
 

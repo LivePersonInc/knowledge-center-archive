@@ -14,9 +14,6 @@ LivePersons proactive messaging tool allows brands to engage in two-way conversa
 
 Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all the LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
-{: .notice}  
-Proactive Messaging is currently available as part of an early adopter program. To join this program, please fill out [this form](https://forms.gle/wDBkzsCtT4CCQMFR9).
-
 ## Permissions
 The LiveEngage administrator and campaign manager profile inherit Proactive administrator permissions, once the account has been enabled by a LivePerson Admin (assuming the brand has Twilio and Whatsapp).
 
