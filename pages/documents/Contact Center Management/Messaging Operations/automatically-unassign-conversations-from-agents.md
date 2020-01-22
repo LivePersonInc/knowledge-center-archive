@@ -13,12 +13,12 @@ isNew: false
 
 ## Introduction
 
-The “automatic agent unassign” feature enables LivePerson to automatically unassign a conversation from an unresponsive agent after a consumer message (pending agent response), and send the conversation back to the queue. Through various use cases, the assigned agent could have been interrupted or simply went offline during a conversation with a consumer. The auto agent unassign feature can be configured to move this conversation to another available agent to ensure the highest level of conversational quality for our consumers.
+The “automatic agent unassign” feature enables you to automatically unassign a conversation from an unresponsive agent after a consumer message (pending agent response), and send the conversation back to the queue. Through various use cases, the assigned agent could have been interrupted or simply went offline during a conversation with a consumer. The auto agent unassign feature can be configured to move this conversation to another available agent to ensure the highest level of conversational quality for our consumers.
      
 This feature can be set up for agents in 3 different states: 
-* Agent is Online, and unresponsive
+* Agent is online, and unresponsive
 * Agent has gone offline
-* Agent is set to an Away state
+* Agent is set to the 'away' state
 
 ## Why use agent unassign?
 
