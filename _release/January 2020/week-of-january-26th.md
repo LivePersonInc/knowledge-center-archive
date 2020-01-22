@@ -71,12 +71,11 @@ Now UMS returns the proper 400 response.
 Some agents stopped seeing conversations in LE UI. It appeared that they’ve removed from these agents the privilege, which UMS considered to be an indicator of an Administrator or Campaign Manager, which shouldn’t see conversations at all. 
 Now the code relies on a set of hardcoded/hidden privileges, to identify Administrator and Campaign Manager.
 
-## Block SubscribeExConversations from the SendAPI Connector API [UMS 3.25]
+## Block SubscribeExConversations from the SendAPI Connector API
 ### Type: Bug fix [UMS 3.25]
-It was allowed before this fix to subscribe to ExConversationNotifications using SendAPI (ConnectorAPI), which didn’t produce any notifications ( due to the sendAPI HTTP nature ), but created the subscription, which was never deleted from the subscriptions map. 
-This issue has now been resolved.
+Before this fix, you could subscribe to ExConversationNotifications using SendAPI (ConnectorAPI), which didn’t produce any notifications (due to the sendAPI HTTP nature). It did however, create the subscription which was never deleted from the subscriptions map. This issue has now been resolved.
 
-## Add @NotNull to required fields to provide the proper request validation [UMS 32.5] 
+## Add @NotNull to required fields to provide the proper request validation 
 ### Type: Bug fix [UMS 3.25]
 
 Due to the wrong implementation customer sent to UMS requests without `message` field.
