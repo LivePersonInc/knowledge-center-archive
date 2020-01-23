@@ -274,6 +274,7 @@
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
       pages:
@@ -339,7 +340,7 @@
     - subcategoryname: September 2019
     - subcategoryname: August 2019
     - subcategoryname: July 2019
-   
+
 - categoryname: Release notes
   image: release-notes
   subcategories:

@@ -14,7 +14,7 @@ With multi-factor authentication, brands can protect their account by asking age
 
 This advanced feature complies with the [Time-based One-time password algorithm](https://tools.ietf.org/html/rfc6238) (TOTP), making sure your login service is up to the most strict security protocols in the industry.
 
-For more information on enabling, configuring, and using MFA, [please see the user manual](/security-regulations-login-multi-factor-authentication-user-manual.html).
+For more information on configuring and using MFA, [please see the user manual](/security-regulations-login-multi-factor-authentication-user-manual.html). For assistance with enabling MFA, please contact your account team or LivePerson support.
 
 ## Mutual Transit Layer Security (mTLS)
 
