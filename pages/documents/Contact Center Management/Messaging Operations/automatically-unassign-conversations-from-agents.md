@@ -13,13 +13,13 @@ isNew: false
 
 ## Introduction
 
-The “automatic agent unassign” feature enables you to automatically unassign a conversation from an unresponsive agent after an unasnwered consumer message, and send the conversation back to the queue. This prevents consumers from waiting a long period of time for an unresponsive agent to reply, and reroutes them to an available agent for a better, more cohesive consumer experience. 
+The “automatic agent unassign” feature enables you to automatically unassign a conversation from an unresponsive agent after an unasnwered consumer message in order to provide a better, more cohesive consumer experience. This feature prevents consumers from waiting a long period of time for an unresponsive agent to reply by rerouting the consumer back to the queue for an available agent to answer. 
 
 ## Why use agent unassign?
 
 * Maintain better SLA’s for agent performance & consumer satisfaction
 * Save customers from abandonment
-* Allows any conversation that has gone unanswered at end of shift be moved to a new agent 
+* Move any conversation that has gone unanswered at end of shift to a new agent 
 
 ## How it works
 
@@ -39,8 +39,6 @@ This feature can be set up for agents in 3 different states:
 {:start="2"}
 2. 60 seconds has passed since the consumer message, and the assigned agent is defined as an unresponsive agent. The platform auto unassigned the agent from the conversation and returned it to the queue for an available agent to pick up. 
 
-![](img/automatically-unassign-2.png)
-
 ![](img/automatically-unassign-3.png)
 
 ## Consumer experience
@@ -49,6 +47,6 @@ The consumer has a seamless experience when one agent is unassigned from the con
 
 ![](img/automatically-unassign-4.png)
 
-## Account Setup
+## Setup
 
 This feature requires enablement. For more information, please contact your LivePerson representative. 
