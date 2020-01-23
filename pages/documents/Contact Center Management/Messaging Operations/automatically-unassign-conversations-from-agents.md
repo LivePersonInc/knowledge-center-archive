@@ -13,7 +13,7 @@ isNew: false
 
 ## Introduction
 
-The “automatic agent unassign” feature enables you to automatically unassign a conversation from an unresponsive agent after an unasnwered consumer message in order to provide a better, more cohesive consumer experience. This feature prevents consumers from waiting a long period of time for an unresponsive agent to reply by rerouting the consumer back to the queue for an available agent to answer. 
+The agent unassign feature enables you to automatically unassign a conversation from an unresponsive agent after an unasnwered consumer message in order to provide a better, more cohesive consumer experience. This feature prevents consumers from waiting a long period of time for an unresponsive agent to reply by rerouting the consumer back to the queue for an available agent to answer. 
 
 ## Why use agent unassign?
 
