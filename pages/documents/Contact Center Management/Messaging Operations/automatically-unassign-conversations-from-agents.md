@@ -26,7 +26,7 @@ The agent unassign feature enables you to automatically unassign a conversation 
 Through various use cases, an assigned agent could have been interrupted or simply went offline unexpextedly during a conversation with a consumer. The auto unassign feature can be configured to move this conversation to another available agent to ensure the highest level of conversational quality for consumers.
 
 This feature can be set up for agents in 3 different states: 
-* Agent is online, and unresponsive
+* Agent is online and unresponsive
 * Agent has gone offline
 * Agent is set to the 'away' state
 
