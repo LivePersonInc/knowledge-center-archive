@@ -21,7 +21,7 @@ Connect Facebook Messenger to LiveEngage.
 
 ## Step 1: Setup Facebook Messenger as a Data Source
 
-Login to [LiveEngage](https://authentication.liveperson.net/) and click the **Campaigns** tab at the top of your screen. Click on **Data Sources** in the Campaigns footnote.
+Login to [LiveEngage](https://authentication.liveperson.net/) and click on the **Campaigns** tab located in the left navigation bar. Click on **Data Sources** in the Campaigns footnote.
 
 ![](img/data-sources.png)
 
