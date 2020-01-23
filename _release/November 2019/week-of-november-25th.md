@@ -662,7 +662,7 @@ The new shortcuts are as follows:
 * Copy as plain text: Alt + Shift + Y
 * Return to queue: Alt + Shift + Q
 * Transfer conversation: Alt + Shift + R
-* Close conversarsation: Alt + Shift + W
+* Close conversation: Alt + Shift + W
 * Accept conversation: Alt + Shift + N
 * Takeover conversation: Alt + Shift + O
 * Leave conversation: Alt + Shift + I

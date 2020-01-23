@@ -348,6 +348,7 @@
       pages:
         - pagename: January
           level3:
+            - level3name: Week of January 26th
             - level3name: Week of January 20th
             - level3name: Week of January 13th
             - level3name: Week of January 6th
