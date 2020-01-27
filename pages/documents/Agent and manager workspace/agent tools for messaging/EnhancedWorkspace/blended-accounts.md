@@ -36,15 +36,15 @@ Brands with dedicated agents have two separate groups of agents: one group only 
 
 ### Dedicated messaging agents:
 
-Messaging agents that have the enhanced workspace enabled in permissions will only see this workspace. The visitors tab will be available and will display: web visitors, web history and all agents - based on the existing permission set for the agent.  
+Only messaging agents that have the enhanced workspace enabled in permissions will see the enhanced agent workspace module. The visitors module will be available and will display: web visitors, web history and all agents - based on the existing permission set for the agent.
 
 For more information see the [messaging agents user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html).
 
 ### Dedicated live chat agents
 
-The new experience for these agents will be the same as live chat agents. There will be no change to the current workspace.
+The experience for live chat agents remains the same. There is no change to the current workspace.
 
-The new experiences will only include:
+The experience will include:
 
 1. Updated navigation bar with new icons
 
