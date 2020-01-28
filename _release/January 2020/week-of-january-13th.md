@@ -166,7 +166,7 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 ### Type: New functionality (Application dashboard 1.0)
 
 {: .notice} 
-**Note:** Please note this feature has been delayed until early February.
+**Note:** Please note this feature has been delayed.
 
 The Applications management module is a new module that will change the way our customers are exposed to, manage and use applications from LivePerson. The Application dashboard gives brands and partners the ability to manage all LivePerson applications on a **self-serve** basis, while also exposing them to applications that developers have created by presenting them with information about the application, as an overview of the app and screenshots from the app.
 
