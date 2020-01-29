@@ -49,6 +49,43 @@ For more information please click [here](https://knowledge.liveperson.com/messag
 ## Goal Tracker for Messaging (Report Builder)
 ### Type: Enhancement [RB 4.2]
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 The new ‘Goal tracker report for Messaging’ will now allow brands to measure the conversions for all agents participating in the consumer journey based on the cross-session window configuration in the account. This helps brands better attribute conversions to all the agents who were assigned to the conversation, as well as the ability to increase accountability and motivation. 
 
 The new report will show data at the Brand, Agent and Skills level, alongside compelling data such as: assigned time and number of sent agent messages. This allows brands to make better decisions regarding the contribution of each agent to the achieved goal.
