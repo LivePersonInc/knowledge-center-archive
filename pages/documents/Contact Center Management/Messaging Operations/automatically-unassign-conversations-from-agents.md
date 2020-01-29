@@ -13,29 +13,31 @@ isNew: false
 
 ## Introduction
 
-The “automatic agent unassign” feature enables you to automatically unassign a conversation from an unresponsive agent after a consumer message (pending agent response), and send the conversation back to the queue. Through various use cases, the assigned agent could have been interrupted or simply went offline during a conversation with a consumer. The auto agent unassign feature can be configured to move this conversation to another available agent to ensure the highest level of conversational quality for our consumers.
-     
-This feature can be set up for agents in 3 different states: 
-* Agent is online, and unresponsive
-* Agent has gone offline
-* Agent is set to the 'away' state
+The agent unassign feature enables you to automatically unassign a conversation from an unresponsive agent after an unasnwered consumer message in order to provide a better, more cohesive consumer experience. This feature prevents consumers from waiting a long period of time for an unresponsive agent to reply by rerouting the consumer back to the queue for an available agent to answer. 
 
 ## Why use agent unassign?
 
 * Maintain better SLA’s for agent performance & consumer satisfaction
-*  to save a customer from abandonment
-* Protects any conversation that has gone unanswering at end of shift be moved to an agent who can then pick up the conversation
+* Save customers from abandonment
+* Move any conversation that has gone unanswered at end of shift to a new agent 
 
-## Agent experience
+## How it works
 
-1. Agent has an active conversation with the consumer. Consumer has sent the last message in the conversation when they asked what time the dealership opened on Saturday.
+Through various use cases, an assigned agent could have been interrupted or simply went offline unexpextedly during a conversation with a consumer. The auto unassign feature can be configured to move this conversation to another available agent to ensure the highest level of conversational quality for consumers.
+
+This feature can be set up for agents in 3 different states: 
+* Agent is online and unresponsive
+* Agent has gone offline
+* Agent is set to the 'away' state
+
+**Example:**
+
+1. Agent has an active conversation with the consumer. Consumer has sent the last message in the conversation and is awaiting the agent response.
 
 ![](img/automatically-unassign-1.png)
 
 {:start="2"}
-2. The assigned agent at this point has stepped away from their desk to be defined as an unresponsive agent. 60 seconds has now passed since the consumer message, and the platform auto unassigned the agent from the conversation and returned it to the queue. 
-
-![](img/automatically-unassign-2.png)
+2. 60 seconds has passed since the consumer message, and the assigned agent is defined as an unresponsive agent. The platform auto unassigned the agent from the conversation and returned it to the queue for an available agent to pick up. 
 
 ![](img/automatically-unassign-3.png)
 
@@ -45,6 +47,6 @@ The consumer has a seamless experience when one agent is unassigned from the con
 
 ![](img/automatically-unassign-4.png)
 
-## Account Setup
+## Setup
 
 This feature requires enablement. For more information, please contact your LivePerson representative. 

@@ -166,7 +166,7 @@ The consumer experience will be identical, and the hyperlink will be displayed a
 ### Type: New functionality (Application dashboard 1.0)
 
 {: .notice} 
-**Note:** Please note this feature has been delayed until early February.
+**Note:** Please note this feature has been delayed.
 
 The Applications management module is a new module that will change the way our customers are exposed to, manage and use applications from LivePerson. The Application dashboard gives brands and partners the ability to manage all LivePerson applications on a **self-serve** basis, while also exposing them to applications that developers have created by presenting them with information about the application, as an overview of the app and screenshots from the app.
 
@@ -197,6 +197,37 @@ Information tab:
 The new module is available for admins and can be turned on for campaign managers by toggling on the Manage applications permission in the user profile:
 
 ![](img/week-of-january-13th-13.png)
+
+## Multiple selections in structured content
+
+### Type: Enhancement (Web experiences 10.0)
+
+A new “multiple select checkbox” is now supported for structured content in the engagement window. This new structure content enables human or automated agents to share a list of items while allowing the consumer to select multiple items and reply back with the selection. The options are presented as a vertical list of checkboxes. The consumer has the ability to select as many options as they wish. Once done, the consumer presses on the submit button to submit their selections. 
+
+The consumer selection will be displayed as plain text, with a comma separator between each selection both in the engagement window and the agent workspace. 
+
+In order to prevent the consumer from re-using the checkbox and re-submitting his selection, the Multiple select checkbox will be removed from the transcript and only its header will be displayed (similar to the Quick Replies template).
+
+The “Multiple select checkbox” template includes the following elements:
+* Header - Simple plain text message and emojis. 
+* Body - Checkbox items as simple plain text and emojis. Each checkbox item will include the checkbox text and a tooltip.
+* Submit Button - The submit button will trigger a ‘publish text’ action and metadata once clicked that sends the user’s selections to the agent.
+* Optional action button - Provide the consumer with alternatives to the checkbox list. Once clicked, it triggers a ‘publish text’ action and metadata, and the checkbox list selection will be ignored.
+
+The maximum number of items in the checkbox list is 256. The maximum number of characters for the header and checkbox items is 5000. A submit button is required. One additional non-submit button can be added as an option. 
+
+**Bot experience:** The consumer selection will be published as part of the conversation metadata. Using the Messaging Agent SDK, the bot can receive the conversation metadata and analyze the consumer selections.
+
+**Current limitations:** 
+* This feature is not available for the enhanced agent workspace
+* It is supported for web messaging only
+
+**Screenshots**
+
+![](img/structured-content-multi-select.png)
+
+{: .notice}
+**Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
 
 ## Disconnections cause web messaging window to lose prompt when closing
 

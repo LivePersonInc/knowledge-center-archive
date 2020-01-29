@@ -105,7 +105,8 @@ We now are added the ability to see previous conversations summary as written by
 
 ### Application Framework
 We’re making some updates to how our customers can access LivePerson apps.
-## New applications dashboard
+
+## New applications dashboard (this feature has been delayed)
 The new Applications dashboard coming soon gives brands and partners the ability to manage all LivePerson applications on a self-serve basis. It also exposes them to applications that developers have created by presenting them with information about the application, such as an overview of the app and screenshots from the app. By using the dashboard, an admin can enable or disable the app, decide which user profiles can use this app, change its name and icon, and decide if the app should be launched from the Quick launch menu. Read the internal release notes for
 more info.
 

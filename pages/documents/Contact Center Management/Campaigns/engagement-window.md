@@ -336,7 +336,7 @@ By default the corner settings will be 0 0 0px 0px , which means that the corner
 * Go to Engagement window studio
 * Click on “Open additional window settings”
 * Click on “Look and feel” section to expand
-* Enter values for “Engagement window top corners” or “Engagement window bottom corners
+* Enter values for “Engagement window top corners” or “Engagement window bottom corners"
 * Click on “Save”
 
 ![](img/week-of-september-30th-4.png)
