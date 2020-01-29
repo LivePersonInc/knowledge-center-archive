@@ -348,6 +348,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:
+        - pagename: February
+          level3:
+            - level3name: Week of February 3rd        
         - pagename: January
           level3:
             - level3name: Week of January 26th
@@ -384,12 +387,6 @@
             - level3name: Week of August 19th
             - level3name: Week of August 12th
             - level3name: Week of August 5th
-        - pagename: July
-          level3:
-            - level3name: Week of July 29th
-            - level3name: Week of July 22nd
-            - level3name: Week of July 1st
-
 
 - categoryname: Troubleshooting
   image: Troubleshooting
