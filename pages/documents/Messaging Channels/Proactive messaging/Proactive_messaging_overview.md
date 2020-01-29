@@ -44,10 +44,9 @@ LiveEngage is the industry’s leading conversation management platform. It offe
 ## Prerequisites to setting up Proactive Messaging
 
 1. You need a LiveEngage account to get started.
-2. If you are already a LiveEngage user, you will need to follow our onboarding process. The onboarding process consists of getting started with SMS [(see link)](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html) or Whatsapp (add link)
-3. Contact your LivePerson account team by accessing [this form](https://forms.gle/wDBkzsCtT4CCQMFR9) to get your account configured
-4. Once onboarded, navigate to Proactive Messaging app from the Quick Launch within LiveEngage.
-5. This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
+2. If you are already a LiveEngage user, you will need to follow our onboarding process. The onboarding process consists of getting started with SMS [(see link)](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html) or WhatsApp.
+3. Access via quick launch, once user accesses proactive messaging, click on contact us (pop up), where you will be granted access by granted access by your LP account team.
+4. Once onboarded, navigate to Proactive Messaging app from the Quick Launch within LiveEngage. This will open Proactive Messaging in a new tab, from there you can start creating proactive campaigns by clicking on ‘New campaign’ option.
 
 ![](img/Proactive_launch_pad.png)
 
