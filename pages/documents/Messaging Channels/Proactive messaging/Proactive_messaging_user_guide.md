@@ -15,10 +15,10 @@ LivePersons proactive messaging tool allows brands to engage in two-way conversa
 Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all the LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 ## Permissions
-Only LiveEngage administratora and campaign manager profiles have acess to Proactive messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and Whatsapp).
+Only LiveEngage administrators and campaign manager profiles have acess to Proactive messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and Whatsapp).
 
 ## Login and access
-Brands can access the Proactive Messaging tool from within LiveEngage via the Quick App Launch.
+Brands can access the Proactive Messaging tool from within LiveEngage via the Quick Launch.
 
 ![](img/Proactive_userguide1.png)
 
@@ -192,10 +192,7 @@ Coming soon, the context of the outbound message will be part of the conversatio
 
 ## Opt Out/In
 
-* Opt In - This is managed by the brand entirely.
-* Opt-out - SMS opt out is handled through Twilio pre-built opt out standards, and WhatsApp opt out is supported through the "block" in-built function. In future, we will have a LivePerson owned opt out feature.
-* For Twilio opt out, please refer to this [article](https://support.twilio.com/hc/en-us/articles/223134027-Twilio-support-for-opt-out-keywords-SMS-STOP-filtering-).
-* For WhatsApp opt out, please refer to this [article](https://faq.whatsapp.com/en/android/21080506/).
+Generic opt-out service for Proactive Messaging - if a consumer opts out of SMS for a particular brand, we will ensure no future outbound message will be sent to that consumer from any phone number that is associated with that brand (managed by LivePerson) unless the customer re-opts-in. 
 
 ## Limitations
 
