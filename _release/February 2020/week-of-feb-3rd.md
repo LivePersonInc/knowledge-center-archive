@@ -45,3 +45,10 @@ Proactive messaging was previously in early access but is now available to all o
 **Support multi-regions** - Proactive is built on Amazon AWS on three regions US-West, EMEA and APAC. 
  
 For more information please click [here](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-overview.html)
+
+## Goal Tracker for Messaging (Report Builder)
+### Type: Enhancement [RB 4.2]
+
+The new ‘Goal tracker report for Messaging’ will now allow brands to measure the conversions for all agents participating in the consumer journey based on the cross-session window configuration in the account. This helps brands better attribute conversions to all the agents who were assigned to the conversation, as well as the ability to increase accountability and motivation. 
+
+The new report will show data at the Brand, Agent and Skills level, alongside compelling data such as: assigned time and number of sent agent messages. This allows brands to make better decisions regarding the contribution of each agent to the achieved goal.
