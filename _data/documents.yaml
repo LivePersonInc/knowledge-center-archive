@@ -347,10 +347,7 @@
   subcategories:
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
-      pages:
-        - pagename: February
-          level3:
-            - level3name: Week of February 3rd        
+      pages:      
         - pagename: January
           level3:
             - level3name: Week of January 26th
