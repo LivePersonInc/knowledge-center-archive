@@ -24,7 +24,7 @@ When referring to blended accounts, or brands that elect to offer both live chat
 
 * [Dedicated agents](#dedicated-agents) - Completely separate agents for messaging and for live chat, sharing  the same account. Each agent has an individual login.
 
-* [Dedicated agents per shift/time period 2 seperate logins (one for chat and one for messaging)](#dedicated-agents-per-shift)  - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period ( not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
+* [Dedicated agents per shift/time period 2 separate logins (one for chat and one for messaging)](#dedicated-agents-per-shift)  - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period ( not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
 
 * [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login. 
 
@@ -55,7 +55,7 @@ For more information about the changes for live chat agents [refer here](https:/
 
 ![image alt text](img/blendedImage_0.png){:class="newagent"}
 
-## Dedicated agents per shift (2 seperate logins)
+## Dedicated agents per shift (2 separate logins)
 
 For brands that have agents handling both live chat and messaging conversations - but not at the same time, there are two main setups: agents with two separate logins (one for chat and one for messaging).
 
@@ -68,7 +68,7 @@ For agents that have two separate logins:
 * Chat user: No changes to permissions are required. Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents).
 
 {: .notice}
-This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 seperate reports. 
+This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 separate reports. 
 
 ## Blended agents within the same shift
 
