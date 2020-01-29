@@ -222,6 +222,10 @@ The maximum number of items in the checkbox list is 256. The maximum number of c
 * This feature is not available for the enhanced agent workspace
 * It is supported for web messaging only
 
+**Screenshots**
+
+![](img/structured-content-multi-select.png)
+
 {: .notice}
 **Please note:** This feature requires enablement. For more information, please contact your LivePerson representative. 
 
