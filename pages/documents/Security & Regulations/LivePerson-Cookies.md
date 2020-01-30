@@ -30,7 +30,7 @@ The following lists the cookie solution types offered by LivePerson:
 
 All browsing and chatting cookies will be set with the LivePerson domain. Some will be set as session cookies and others as persistent cookies in order to identify repeat visitors.
 
-\- If the browser does not support third- party cookies, it will fall back to the **first- party persistent cookie**.
+\- If the browser does not support third- party cookies, it will fall back to the **first-party persistent cookie**.
 
 \- As a result of the fall back to **first-party persistent cookies**, additional visitors may be monitored.
 
@@ -53,7 +53,7 @@ Secure cookies with **first-party cookie** solution types are not supported.
 
 ### First-party persistent
 
-Browsing cookies under your website domain will be set by LivePerson as persistent cookies, so that browsing history is available. If a visitor chats, the LivePerson chat window will set a persistent first party cookie.
+Browsing cookies under your website domain will be set by LivePerson as persistent cookies, so that browsing history is available. If a visitor chats, the LivePerson chat window will set a persistent first-party cookie.
 
 {: .notice}  
 Secure cookies with **first-party cookie** solution types are not supported.
