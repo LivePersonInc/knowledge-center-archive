@@ -36,6 +36,6 @@ It is now possible to upload files of sizes up to 5 MB. That is the limit that L
 ## [Automation Integration] Ability to create user type 'Bot'
 ### Enhancement
 
-All accounts now have the default ability to create a user-type ‘Bot’. A bot type user can be used by the Conversation Builder and Third Party Bots in order to handle conversations in the account. Before this change, accounts that wanted to to define a bot user needed to reach out to their LP account team or LivePerson support in order to enable this feature.  
+All accounts now have the default ability to create a user-type ‘Bot’. A bot type user can be used by the Conversation Builder and third-party bots in order to handle conversations in the account. Before this change, accounts that wanted to to define a bot user needed to reach out to their LP account team or LivePerson support in order to enable this feature.  
  
 ![](img/Release-notes-week-of-january-20-2.png)
