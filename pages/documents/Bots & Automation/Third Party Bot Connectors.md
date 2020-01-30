@@ -76,7 +76,7 @@ After completing the code, deploy the function to our functions cloud and have t
 
 For more detailed information, please visit the [developers community](https://developers.liveperson.com/third-party-bots-custom-integration.html)
 
-## third-party bot status dashboard
+## Third-party bot status dashboard
 
 The bot status dashboard provides a detailed overview for the most important bot KPIs. It features a chronological history of different bot state events, such as online time and interruptions. The dashboard also provides a calculated uptime for the bot.
 
