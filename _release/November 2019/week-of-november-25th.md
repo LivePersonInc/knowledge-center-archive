@@ -755,7 +755,7 @@ This feature enhances the Microsoft Bot Framework connector in sending multiple 
 </table>
 </div>
 
-LiveEngage Messaging provides a new metadata input type (“encodedMetadata”) for passing a base64 encoded metadata on a conversation. The new metadata input type is in addition to the existing conversation metadata input field and is available as of UMS 3.15 version. This enhancement is now supported by Third-Party bots as well with all the vendors (Dialogflow V2, Watson V1 and V2, Amazon Lex, FaaS and Microsoft Bot Framework).
+LiveEngage Messaging provides a new metadata input type (“encodedMetadata”) for passing a base64 encoded metadata on a conversation. The new metadata input type is in addition to the existing conversation metadata input field and is available as of UMS 3.15 version. This enhancement is now supported by third-party bots as well with all the vendors (Dialogflow V2, Watson V1 and V2, Amazon Lex, FaaS and Microsoft Bot Framework).
 
 ##  Bot Wizard  breadcrumbs clickable allowing easy navigation 
 ### Type: Enhancement
