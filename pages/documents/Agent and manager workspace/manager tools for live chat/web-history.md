@@ -66,6 +66,6 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 </ul>
 </div>
 
-The **Engagement History API** is available for you to search, filter and keep copies of chat transcripts and related data to later perform further analyzes using third party tools (DWH, CRM systems, etc.). The API enables the development of tailored dashboards, displaying information such as the reasons for chats ending, what time of day most chats occur, chat duration across different devices and so on. The Engagement History API is based on the RESTful architecture, where data is fetched via HTTPS requests; all information is secured using OAuth1.0.
+The **Engagement History API** is available for you to search, filter and keep copies of chat transcripts and related data to later perform further analyzes using third-party tools (DWH, CRM systems, etc.). The API enables the development of tailored dashboards, displaying information such as the reasons for chats ending, what time of day most chats occur, chat duration across different devices and so on. The Engagement History API is based on the RESTful architecture, where data is fetched via HTTPS requests; all information is secured using OAuth1.0.
 
 It is also possible to export the Engagement History to Excel, and there filter the data by various parameters.

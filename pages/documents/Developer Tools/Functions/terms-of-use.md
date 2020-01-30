@@ -19,9 +19,9 @@ These additional terms govern your use of LivePerson Functions and supplement yo
 
 **Billing/Pricing:** Customer may use LivePerson Functions free of charge for up to 150,000 invocations per month. Use beyond this limit will incur charges.  If you exceed the cap, we may in our reasonable discretion allow continued use of LivePerson Functions while we negotiate in good faith, but we reserve the right to suspend or terminate use until a mutually agreed Order Form is signed.
 
-**Third Party Services.** LP Functions helps you connect to third party services, such as:
+**third-party Services.** LP Functions helps you connect to third-party services, such as:
 
-* Third party service providers, like a CRM system;
+* third-party service providers, like a CRM system;
 
 * Bot platform providers;
 
@@ -29,8 +29,8 @@ These additional terms govern your use of LivePerson Functions and supplement yo
 
 * Customer’s internal systems and databases.
 
-By connecting any of these services into LivePerson Functions: (a) you authorize LivePerson to send and receive data with Customer’s third party providers and internal systems and databases for product interoperation; (b) your agreement with any third party provider covers the third party provider’s use of data, including messaging data, deletion of data, and any hosting, support, security and other commitments to Customer related to the third party tool; and (c) LivePerson is not liable for third party acts, omissions, services, applications, technology, policies or procedures, including those related to Customer or a third party provider.
+By connecting any of these services into LivePerson Functions: (a) you authorize LivePerson to send and receive data with Customer’s third-party providers and internal systems and databases for product interoperation; (b) your agreement with any third-party provider covers the third-party provider’s use of data, including messaging data, deletion of data, and any hosting, support, security and other commitments to Customer related to the third-party tool; and (c) LivePerson is not liable for third-party acts, omissions, services, applications, technology, policies or procedures, including those related to Customer or a third-party provider.
 
 **Storage of secrets/usage.** While LivePerson products are built with strong security features designed to protect client data, LivePerson Functions is not intended for the storage of consumer personal data or other categories of sensitive data. We have a dedicated environment where you can encrypt and store personal and sensitive data. You may not store consumer personal data or sensitive data in LivePerson Functions.  If you do so, it is at your own risk and we are not responsible for that data or any losses you may incur.
 
-**Intellectual Property:** Using LivePerson Functions does not give you ownership rights in any LivePerson service or code.  You are solely responsible for any code, functionality or integrations built using LivePerson Functions, including deployment, testing, support and not violating any third party intellectual property rights.   
+**Intellectual Property:** Using LivePerson Functions does not give you ownership rights in any LivePerson service or code.  You are solely responsible for any code, functionality or integrations built using LivePerson Functions, including deployment, testing, support and not violating any third-party intellectual property rights.   

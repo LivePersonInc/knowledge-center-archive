@@ -13,8 +13,8 @@ date: '2019-04-01T10:50:38.000+00:00'
 ---
 The LivePerson Customer Support Policy is designed to provide assistance with maximizing the value of your LivePerson products. LivePerson Customer Support provides 24x7 coverage via chat and e-mail, as well as a wealth of self-service resources in the Knowledge Center. This document outlines LivePerson's support features, processes, and procedures for engaging with the LivePerson Customer Support team.
 
-This policy does not cover third party services, products or technology, which are subject to the support commitments
-offered by the applicable third party provider
+This policy does not cover third-party services, products or technology, which are subject to the support commitments
+offered by the applicable third-party provider
 
 ## Definitions
 
@@ -32,7 +32,7 @@ offered by the applicable third party provider
 
 ## Scope of support
 
-LivePerson will deliver customer support via its global support team, subject matter experts and certified third party partners for optimal response times and technical expertise. LivePerson’s Support is provided to help you resolve issues that arise when using LivePerson Products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson Customer Support team. **All issues and inquiries should be reported through the LivePerson Customer Support channels.**
+LivePerson will deliver customer support via its global support team, subject matter experts and certified third-party partners for optimal response times and technical expertise. LivePerson’s Support is provided to help you resolve issues that arise when using LivePerson Products. During the troubleshooting and resolution process, customers are expected to fulfill reasonable tasks, based on the recommendations of the LivePerson Customer Support team. **All issues and inquiries should be reported through the LivePerson Customer Support channels.**
 
 The following items are generally **not supported:**
 * Features for which LivePerson has declared “end of support.”
@@ -40,7 +40,7 @@ The following items are generally **not supported:**
 * Continued support of issues for which LivePerson has provided a solution that has not been implemented by the customer, or for which data requested from the customer has not been provided.
 * Writing or debugging custom applications without following LivePerson integration guidelines.
 * Dashboards and derived metrics/attributes created by the customer in the [Report Builder](data-reporting-report-builder-report-builder-overview.html).
-* Third party services, products or technology. Please let us know if you have questions about a third party tool and we will endeavor to help obtain additional information for you.
+* third-party services, products or technology. Please let us know if you have questions about a third-party tool and we will endeavor to help obtain additional information for you.
 
 ### Engagement channels
 

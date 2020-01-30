@@ -80,7 +80,7 @@ LivePerson supports secure cookies, but require the Monitor Tag to be deployed u
 
 LivePerson is unable to support the HttpOnly attribute because it does not operate through JavaScript, which facilitates the Monitor Tag to collect cookies.
 
-### Third Party Cookies - Default
+### third-party Cookies - Default
 
 By default, LivePerson uses third-party session and visitor cookies in order to save visitor's tracking information. This is due to the fact that while visitors are browsing your site, the LivePerson cookies are set by the LivePerson domain and not by your website domain.
 

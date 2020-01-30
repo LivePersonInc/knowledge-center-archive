@@ -59,7 +59,7 @@ Brands and consumers can begin interacting over Facebook Messenger through multi
 * **Opting in:** Consumers can opt-in to receive purchase confirmation and updates via Messenger during the checkout process.
 * **Offsite engagements:** Brands can embed a Message us button on ads, emails and other offsite locations.
 
-## Add an agent manager  to display third party messages
+## Add an agent manager  to display third-party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 

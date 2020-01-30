@@ -188,7 +188,7 @@ The following table lists the prerequisites and technical requirements necessary
 * The consumer must not navigate at the same time as accepting an invite
 * The consumer must not close the browser tab or navigate to an untagged page during a CoBrowse session
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
-* Third party cookies must be enabled
+* third-party cookies must be enabled
 
 <div class="notice">
 <b>Note:</b>

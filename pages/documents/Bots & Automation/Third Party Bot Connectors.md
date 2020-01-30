@@ -1,5 +1,5 @@
 ---
-pagename: Third Party Bot Connectors
+pagename: third-party Bot Connectors
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: both
@@ -44,7 +44,7 @@ There are four steps to onboarding a bot.
    3. [Dialogflow V2](https://developers.liveperson.com/bot-connectors-google-dialogflow-version-2.html)
    4. [Amazon Lex](https://developers.liveperson.com/bot-connectors-amazon-lex.html)
    5. [Microsoft Bot Framework](https://developers.liveperson.com/bot-connectors-microsoft-bot-framework.html)
-   6. [Custom Third Party Bots](https://developers.liveperson.com/bot-connectors-custom-third-party-bots.html)
+   6. [Custom third-party Bots](https://developers.liveperson.com/bot-connectors-custom-third-party-bots.html)
 
 For more information and detailed steps of how to onboard - please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
@@ -54,7 +54,7 @@ For more information and detailed steps of how to onboard - please visit the [de
 
 Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to LiveEngage. In order to achieve this, you will need to implement a LivePerson Functions **Custom Integration**.
 
-To connect to a third party bot with the custom integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
+To connect to a third-party bot with the custom integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
 
 Whenever a message is sent from the consumer into LE, the custom connector takes that message and triggers the function you develop to link to your Bot provider and sends the message.
 
@@ -76,7 +76,7 @@ After completing the code, deploy the function to our functions cloud and have t
 
 For more detailed information, please visit the [developers community](https://developers.liveperson.com/third-party-bots-custom-integration.html)
 
-## Third party bot status dashboard
+## third-party bot status dashboard
 
 The bot status dashboard provides a detailed overview for the most important bot KPIs. It features a chronological history of different bot state events, such as online time and interruptions. The dashboard also provides a calculated uptime for the bot.
 
@@ -89,6 +89,6 @@ The dashboard can be accessed by clicking on the bot's name.
 ## Limitations
 
 * Currently the connectors only support text input from the customer.
-* The Third Party Bot connectors support only Liveperson’ [rich content](https://developers.liveperson.com/getting-started-with-rich-messaging-rich-messaging-channel-capabilities.html) structure.
+* The third-party Bot connectors support only Liveperson’ [rich content](https://developers.liveperson.com/getting-started-with-rich-messaging-rich-messaging-channel-capabilities.html) structure.
 
 For more information, please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#limitations)
