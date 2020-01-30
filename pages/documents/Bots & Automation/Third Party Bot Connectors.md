@@ -1,5 +1,5 @@
 ---
-pagename: third-party Bot Connectors
+pagename: Third-party Bot Connectors
 categoryName: Getting started
 subCategoryName: Web messaging
 indicator: both
