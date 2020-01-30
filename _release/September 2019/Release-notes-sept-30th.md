@@ -864,7 +864,7 @@ When a conversation with an external engagement window is closed, the engagement
 
 When an agent sends a structured content carousel placed inside a structured content card, the agent’s profile picture does not show up within the engagement window. This issue has been resolved.
 
-## Third Party Bot Connectors: Support export Bot metrics data from the Dashboard menu
+## Third-party Bot Connectors: Support export Bot metrics data from the Dashboard menu
 ### Enhancement
 
 <div class="tablecontainer">
