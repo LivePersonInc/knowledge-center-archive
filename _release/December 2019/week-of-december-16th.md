@@ -224,7 +224,7 @@ With the inclusion of this feature, the LivePerson platform will support the del
 </table>
 </div>
 
-All customers with branded URLs will be able to use the Third-Party Bots. Their configurations need to be present in the LiveEngage k8 environment in order to make use of this feature.
+All customers with branded URLs will be able to use the third-party bots. Their configurations need to be present in the LiveEngage k8 environment in order to make use of this feature.
 
 ## Error on saving agent information after the change in picture URL 
 
