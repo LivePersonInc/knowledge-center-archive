@@ -57,13 +57,13 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 ### Windows
 
-|  | Windows 7 | Windows 8.1 | Windows 10 |
-| --- | --- | --- | --- |
+|  | Windows 8.1 | Windows 10 |
+| --- | --- | --- |
 | Chrome |  | Latest available version (N)* , Version N-1 |  |
 | Mozilla Firefox |  | Latest available version (N)* , Version N-1 |  |
-| Internet Explorer | 11x* | 11x* | 11x* |
-| Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
-| Safari |  | Not supported |  |
+| Internet Explorer | 11x* | 11x* |
+| Microsoft Edge | N/A | Latest available version (N)* , Version N-1 |
+| Safari | Not supported |  |
 
 ### Mac
 
@@ -125,13 +125,13 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 
 ### Windows
 
-|  | Windows 7 | Windows 8.1 | Windows 10 |
-| --- | --- | --- | --- |
-| Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
-| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* | 11x* , Edge* |
-| Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
-| Safari | Not supported | Not supported | Not supported |
+|  | Windows 8.1 | Windows 10 |
+| --- | --- | --- |
+| Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
+| Internet Explorer | 11x* | 11x* , Edge* |
+| Microsoft Edge | Not supported | Latest available version (N)* |
+| Safari | Not supported | Not supported |
 
 ### Mac
 
