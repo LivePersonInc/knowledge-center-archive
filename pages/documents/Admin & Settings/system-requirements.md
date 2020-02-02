@@ -59,8 +59,8 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 |  | Windows 8.1 | Windows 10 |
 | --- | --- | --- |
-| Chrome |  | Latest available version (N)* , Version N-1 |  |
-| Mozilla Firefox |  | Latest available version (N)* , Version N-1 |  |
+| Chrome |  | Latest available version (N)* , Version N-1 |
+| Mozilla Firefox |  | Latest available version (N)* , Version N-1 |
 | Internet Explorer | 11x* | 11x* |
 | Microsoft Edge | N/A | Latest available version (N)* , Version N-1 |
 | Safari | Not supported |  |
