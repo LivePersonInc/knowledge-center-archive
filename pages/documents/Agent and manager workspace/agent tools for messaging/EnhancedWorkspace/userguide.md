@@ -21,7 +21,6 @@ Enhanced by automation and featuring an upgraded design, the agent workspace has
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease.
 
 **Recommendation of next conversation to answer:** Dynamic conversation list features built-in automation that tells you which conversation to answer next, removing the need for decision making that can be time consuming and prone to human error.
-New idle status filter: The addition of the new ‘idle’ status filter allows you to determine which conversations have been pending a consumer response for over five minutes.
 
 **Enhanced conversation summary:** The conversation summary widget has been enhanced to support the entering of multiple notes by several agents. When handling conversations that have been transferred and owned by several agents, this will allow you to see a log of comments for context.
 
@@ -29,7 +28,7 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 **Closed conversation status filter:** Closed conversations can be filtered into the conversation list by status, allowing agents to ensure that all their documentation is in place when wrapping up their shift.
 
-**Idle conversation status and filter:** When a consumer hasn't responded in five minutes or longer, a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
+**Idle conversation status and filter:** When a consumer hasn't responded within a certain time period (automatically determined by Smart Capactiy settings), a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
 
 ## Workspace basics
 
@@ -69,7 +68,7 @@ You can filter conversations in the list by status:
 | ------------- |-------------| ------------- |-------------|
 | Ongoing | ![alt text](img/ongoing-conversation-status.png) |Ongoing conversations are open conversations that are currently active.|These conversations are in the list by default and **cannot** be filtered out.|
 | Overdue |![alt text](img/overdue-conversation-status.png) |Conversations that were not answered before the SLA has expired. |These conversations are in the list by default and **cannot** be filtered out.|
-| Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied for 5 minutes or longer, defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
+| Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied within a certain amount of time (based on Smart Capacity settings), defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
 | Closed |![alt text](img/closed-conversation-status.png) |Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. |These conversations are filterable. Filter them **into the list** at the end of your shift, or if you have down time to review your documentation.|
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
