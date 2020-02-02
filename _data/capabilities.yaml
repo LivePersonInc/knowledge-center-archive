@@ -255,7 +255,7 @@
     - weChat: "Not Supported"
   - featureName: File sharing - consumer to agent
     channels:
-    - mobileAppMessaging: "Not Supported"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
@@ -268,7 +268,7 @@
     - weChat: "Supported"
   - featureName: File sharing - agent to consumer
     channels:
-    - mobileAppMessaging: "Not Supported"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
