@@ -148,11 +148,11 @@ You can now see the number of incoming conversations in the navigation bar. A no
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are two ways to accept incoming conversations into your workspace:
+Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are three ways to accept incoming conversations into your workspace:
 
 * **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
-
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your conversation list, sorted by SLA. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned. 
 
 **Auto accept:**
 ![image alt text](img/autoaccept.jpg){:class="newagent"}
@@ -208,7 +208,9 @@ While conducting a conversation, there are a few actions you can take. Click on 
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
+**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or agent. Once you do this, the conversation will move out of your workspace and enter the relevant queue. The conversation will advance in the queue according to the queue policy defined on the account. By default, this conversation will be handled by the queue like any other conversation, with no weighting or preference given to it. Transferred conversations are marked as actionable by default, this can be configured. 
+
+**Back to queue:** You can send a conversation back to the queue where it will be redirected to another online agent. Conversations being placed back into the queue can be automatically assigned higher priority and reach the top of the queue faster. A queue prioritization rule can be defined so that conversations that are sent back to the queue will receive priority for handling, pushing them to the top of the queue using a velocity factor.
 
 **Resume conversation:** This action reopens a closed conversation in order for you to follow up with a customer.
 
