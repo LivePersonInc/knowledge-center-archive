@@ -44,7 +44,7 @@ Cookies with this setting are sent only on same-site requests or top-level navig
 Until now, cookies without the SameSite attribute were treated as SameSite=None (meaning cross-domain), and are now being  treated as SameSite=Lax
 
 2. **Reject insecure SameSite=None cookies**
-When set, cookies without the SameSite attribute or with SameSite = None need to be Secure. Secure in this context means that all browser requests must follow the HTTPS protocol. Cookies that do not adhere to this requirement are rejected. All websites should use HTTPS to meet this requirement.
+Cookies will need to explicitly declare 'SameSite=None; Secure' to be allowed cross domain. Secure is it's own flag and needs to be specified. Even if the requests are only done via HTTPS, if the cookies doesn't specify the Secure flag - it will be blocked if it's SameSite=None.
 
 {: .notice}
 These flags can be turned on optionally at the moment - but once this change rolls out they will be on by default (and can't be turned back off)
