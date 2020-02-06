@@ -72,10 +72,11 @@ This means that in 3 out of 4 cases, cookies are not even used for storage. In t
 ![](img/SameSite_Cookies80_1.png)
 
 ## Conclusion
-The Chrome SameSite changes will not affect the functionality of either the monitoring tag, or the secure storage mechanism of the unified window.
+The Chrome SameSite changes will not affect the functionality of either the monitoring tag, or the secure storage mechanism of the unified window. It is, however, advisable to set cookies created for monitoring with SameSite=None; Secure
 
 This is because in both cases, LivePerson is only dealing with 1st party cookies. The Chrome functionality’s purpose is to lock down the current usage of insecure 3rd party cookies.
 
 The only remaining consideration is our alignment to the standard that Google is imposing. LivePerson & their Brands are at no increased risk compared to today if LivePerson chooses not to align to this standard. To remove the browser Warnings, the SameSite attribute is expected to be added to relevant services shortly after the Chrome features are rolled out, once the farm freeze has been lifted.
+
 
 
