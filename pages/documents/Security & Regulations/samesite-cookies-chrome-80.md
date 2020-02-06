@@ -33,12 +33,21 @@ Cookies with this setting can be accessed only when visiting the domain on which
 ### Lax
 Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like HTTP GET. Therefore, this option would be used if the cookie can be used by third-parties, but with an added security benefit that protects users from being victimized by CSRF attacks.
 
+### None
+"None" are used for cross-domain requests.
+
 ## Feature Flag Effects
 1. **Cookies default to SameSite=Lax**
    When set, all cookies that don’t specify the SameSite attribute will automatically be forced to use SameSite = Lax.
 
+{: .notice}
+Until now, cookies without the SameSite attribute were treated as SameSite=None (meaning cross-domain), and are now being  treated as SameSite=Lax
+
 2. **Reject insecure SameSite=None cookies**
 When set, cookies without the SameSite attribute or with SameSite = None need to be Secure. Secure in this context means that all browser requests must follow the HTTPS protocol. Cookies that do not adhere to this requirement are rejected. All websites should use HTTPS to meet this requirement.
+
+{: .notice}
+These flags can be turned on optionally at the moment - but once this change rolls out they will be on by default (and can't be turned back off)
 
 ## Monitoring (SMT)
 1. The first feature ensures that Cookies that do not explicitly set the SameSite attribute are given a “Lax” setting by default.
