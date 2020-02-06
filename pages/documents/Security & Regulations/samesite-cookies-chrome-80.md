@@ -12,7 +12,7 @@ isNew: false
 
 ---
 ## Context
-Cookies are one of the methods available for adding persistent state to websites. Over the years their capabilities have grown and evolved. Browsers (Specifically Chrome) are changing their behavior to enforce more privacy-preserving defaults and this will be enforced as part of Chrome 80. 
+Cookies are one of the methods available for adding persistent state to websites. Over the years their capabilities have grown and evolved. Browsers (specifically Chrome) are changing their behavior to enforce more privacy-preserving defaults and this will be enforced as part of Chrome 80. 
 
 {: .notice}
 The Chrome SameSite changes will not affect the functionality of either the monitoring tag, or the secure storage mechanism of the unified window.
