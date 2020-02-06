@@ -306,6 +306,7 @@
         - pagename: Historic data masking
     - subcategoryname: LivePerson disaster recovery
     - subcategoryname: LivePerson support policy
+    - subcategoryname: SameSite Cookies Chrome 80
     - subcategoryname: LivePerson Cookies
     - subcategoryname: HIPAA compliance
     - subcategoryname: Secure forms
