@@ -69,8 +69,6 @@ In short, the Unified Window implements an iframe to a static LivePerson domain 
 
 This means that in 3 out of 4 cases, cookies are not even used for storage. In the last case the cookies are first party, and set in the scope of the iframe to the LivePerson domain.
 
-![](img/SameSite_Cookies80_1.png)
-
 ## Conclusion
 The Chrome SameSite changes will not affect the functionality of either the monitoring tag, or the secure storage mechanism of the unified window. It is, however, advisable to set cookies created for monitoring with SameSite=None; Secure
 
