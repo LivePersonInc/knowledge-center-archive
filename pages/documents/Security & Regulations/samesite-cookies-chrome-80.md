@@ -50,14 +50,14 @@ Cookies will need to explicitly declare 'SameSite=None; Secure' to be allowed cr
 These flags can be turned on optionally at the moment - but once this change rolls out they will be on by default (and can't be turned back off)
 
 ## Monitoring (SMT)
-1. The first feature ensures that Cookies that do not explicitly set the SameSite attribute are given a “Lax” setting by default.
+The first feature ensures that Cookies that do not explicitly set the SameSite attribute are given a “Lax” setting by default.
 
 ![](img/SameSite_Cookies80_1.png)
 
 As described above, this means that this cookie can only be used for same site requests, or for GET cross site requests.
 These cookies are only ever used by SMT and only ever by the LP domain. There are no restrictions on same site usage, hence no issues with functionality.
 
-2. The second feature ensures that Cookies without SameSite attribute sent are only communicated in HTTPS.
+The second feature ensures that Cookies without SameSite attribute sent are only communicated in HTTPS.
 ![](img/SameSite_Cookies80_2.png)
 
 LivePerson enforces HTTPS on the monitoring APIs, which means that there is no impact with this setting either, as the Cookie is never set over HTTP.
