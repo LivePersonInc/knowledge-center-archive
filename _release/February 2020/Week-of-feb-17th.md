@@ -74,4 +74,4 @@ New settings will be added to LiveEngage UI to enable brands to choose the attri
 The UI is not deployed yet, in order to change the setting to ‘All’  please contact the Live Person account team.
 
 ### Screenshots
-![](img/new_goal_tracker_messaging_1)
+![](img/new_goal_tracker_messaging_1.png)
