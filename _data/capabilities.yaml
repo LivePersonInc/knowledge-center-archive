@@ -281,7 +281,7 @@
     - weChat: "Not Supported"
   - featureName: Voice/video calls
     channels:
-    - mobileAppMessaging: "Supported"
+    - mobileAppMessaging: "N/A in Channel"
     - webMessaging: "Supported"
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
