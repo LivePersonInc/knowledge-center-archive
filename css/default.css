@@ -1445,17 +1445,24 @@ div#cookie-law {
   #post-content {
     width: 80%;
   }
-}
 
-@media screen and (max-width: 1024px) {
-  #logocontainer {
-    margin-right: 0;
+  p img {
+    width: 500px;
   }
 }
 
 @media screen and (max-width: 1040px) {
   .anchorlist {
     display: none;
+  }
+
+  #mysidebar {
+    padding-left: 10px;
+  }
+
+  #logocontainer {
+    margin-left: 10px;
+    margin-right: 0;
   }
 }
 
@@ -1465,9 +1472,13 @@ div#cookie-law {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
   p img {
     width: 100%;
+  }
+
+  .sidebarHidden {
+    display: none !important;
   }
 
   .newagent {
@@ -1501,6 +1512,10 @@ div#cookie-law {
     width: 80%;
   }
 
+  .casey {
+    display: none;
+  }
+
   #defaultsidebar {
     display: none;
     grid-column: unset;
@@ -1513,7 +1528,7 @@ div#cookie-law {
     padding-top: 20px;
     position: absolute;
     top: 80px;
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: #fff;
     box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.07);
