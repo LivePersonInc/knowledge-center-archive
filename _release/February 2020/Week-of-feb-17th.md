@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2020-february-week-of-febuary-3rd.html
 isTutorial: false
 isNew: false
-date: '2020-01-29'
+date: '2020-02-12'
 
 ---
 
