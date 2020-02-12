@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: both
 subtitle: ''
 level3: ''
-permalink: release-notes-2020-february-week-of-febuary-17th.html
+permalink: release-notes-2020-february-week-of-february-17th.html
 isTutorial: false
 isNew: false
 date: '2020-02-12'
