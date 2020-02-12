@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Goal tracker for messaging  
+## Goals tracker for messaging  
 
 ### Type: New functionality [RB 4.2]
 
@@ -64,7 +64,7 @@ The new ‘Goals tracker for Messaging’ dashboard will now allow brands to mea
 
 The new report will show data at the Brand, Agent and Skills level, alongside compelling data such as: assigned time and number of sent agent messages. This allows brands to make better decisions regarding the contribution of each agent to the achieved goal.
 
-Please note: 
+**Please note:** 
 The existing ‘Goals Tracker Report’ will be renamed to ‘Goals Tracker for Live Chat’ and will include messaging data only for the next 6 months. It can be used for settings of First/Last agent only.
 The Dashboard will show data only for sources that supports campaign in LiveEngage ( Web messaging and in app messaging)
 
