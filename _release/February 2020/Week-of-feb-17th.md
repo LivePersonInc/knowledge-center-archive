@@ -175,10 +175,10 @@ It was discovered that if the consumer info widget is disabled on a LiveEngage a
 Custom widgets not loading properly if the consumer info widget is disabled:
 ![](img/week-of-february-17th-6.png)
 
-## New line represented as </br> gets ignored
+## New line represented as `<br>` gets ignored
 ### Type: Bug fix (NAW 1.10)
 
-When the agent input area contains a new combination of line characters, explicitly <br>, the <br> combination would send as plain text, rather than actually break the line. This issue has been fixed, and now agent typing <br> within the input area will see a new line appear, when sending the message to the consumer.
+When the agent input area contains a new combination of line characters, explicitly `<br>`, the `<br>` combination would send as plain text, rather than actually break the line. This issue has been fixed, and now agent typing `<br>` within the input area will see a new line appear, when sending the message to the consumer.
 
 ## Cancel and close buttons not responding
 ### Type: Bug fix (NAW 1.10)
