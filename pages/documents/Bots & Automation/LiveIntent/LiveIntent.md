@@ -83,20 +83,6 @@ Intents defined by the brand are visible in real-time and are available across a
 
 LivePerson provides intent management out-of-the-box, which are intents that the platform comes with preconfigured to help you detect, monitor and manage conversations. LivePerson also developed new tools to enable brands to investigate and discover their own intents that have specific meaning to them. These intents can be seeds for new chatbots or to/hone in on a specific customer problem like a network outage that you want to continuously monitor. After all, intent is one of the most important touch points between customers, agents and bots.
 
-## LiveIntent Dashboard
-
-![](img/liveintent_dashboard-section-1.png)
-
-LiveIntent dashboard enables Brands to automatically identify and take action on customer intent through every turn in a conversation.
-
-We developed a deep-learning model that allows us to group messages by intent. Each point in the plot represents an utterance with an intent in it. What matters most in the grouping. Grouping of intents about understanding international channels and validating what we happen with international travel for the telephone bills. The model has learned to connect these intents by keywords.
-
-All this clustering is done automatically, based on user transcripts and user to agent conversations - not experts involved in cleaning these intents and conversation in any way. However we can add human experts to sharpen the intent analyzer.
-
-The combination of machine learning and human intelligence to better understand and track what is happening in your contact center and to make fast progress in automating customer interactions.
-
-For a greater understanding of the LiveIntent - please visit its [dedicated website.](https://www.liveperson.com/products/liveintent/)
-
 ## Where can you find intent management in LivePerson?
 
 **Intent Builder** can be found under Conversational AI, allowing brands to create your own intents and entities organized by domain.
