@@ -25,7 +25,7 @@ This dashboard also entails hour offset capabilities allowing users to show the 
 
 The following page will be presented when accessing the goal tracker for messaging predefined dashboard. It provides an overview of all conversions by skill and by date for the selected selected timeframe.
 
-![](img/goaltracker_messaging_new_1)
+![](img/goaltracker_messaging_new_1.png)
 
 The page present the following visualizations:
 1. Conversion by skill - pie chart
@@ -41,7 +41,7 @@ Another click on the selected filter will unselect the skill and reset the filte
 ## Page2: Conversion tracking 
 
 The page provides an overview of all conversions by skill, by agent, by assignment duration for the selected timeframe.
-![](img/goaltracker_messaging_new_2)
+![](img/goaltracker_messaging_new_2.png)
 
 This page presents the following visualizations:
 1. Conversion by skill  and assignment durations
@@ -55,7 +55,7 @@ Another click on the selected filter will unselect the skill and reset the filte
 
 ## Page3: Agent Conversation tracking grid
 
-![](img/goaltracker_messaging_new_3)
+![](img/goaltracker_messaging_new_3.png)
 
 ## Retrieving cross session conversion / goal by date
 
@@ -68,38 +68,35 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 - To ensure this cross session conversion is included in a goal tracker report, the campaign manager needs to set the date filter in the goal tracker to go back at least as far as June 1st.
 
 ## Metrics
-| Metric | Definition | 
-| --- | --- | 
-| CONVERSIONS | An Indication (1/0) whether the goal was reported as success.|
-| LEAD VALUES | The Lead value extracted from the LEAD SDE sent by the brand to LE. |
-| TRANSACTION VALUES | The Total Transaction value extracted from the Transaction SDE sent by the brand to LE. |  
-|AGENT MESSAGES|The number of messages sent by the agent in the conversation.|
-| AGENT RESPONSES  | The number of responses given by the agent to a consumer. A response is a set of consecutive messages sent from a participant following a message sent from the another participant in the same conversation.  | 
-| TIME ASSIGNED | The time the agent participated in the conversation (measured only for the time the agent was assigned to the conversation).|
+* **CONVERSIONS** - An Indication (1/0) whether the goal was reported as success.
+* **LEAD VALUES** - The Lead value extracted from the LEAD SDE sent by the brand to LE. 
+* **TRANSACTION VALUES** - The Total Transaction value extracted from the Transaction SDE sent by the brand to LE.  
+* **AGENT MESSAGES** - The number of messages sent by the agent in the conversation.
+* **AGENT RESPONSES** - The number of responses given by the agent to a consumer. A response is a set of consecutive messages sent from a participant following a message sent from the another participant in the same conversation. 
+* **TIME ASSIGNED** - The time the agent participated in the conversation (measured only for the time the agent was assigned to the conversation).
 
 ## Attributes
-
-**AGENT ASSIGNMENT TIME** - The time the agent was assigned to or joined the conversation
-**AGENT SEGMENT END REASON**  - The reason the agent-segment ended. Possible values: Agent Transfer - conversation was transferred to another agent, Skill Transfer - conversation was transferred to another skill, Back to Queue - conversation was returned back to queue, Takeover from agent - the conversation was taken over by a manager, Closed by agentconsumersystem - onversation was closed.
-**AGENT SEGMENT START REASON**  - The reason the agent-segment started. Possible values: Agent Transfer - conversation was transferred from another agent, Skill Transfer - conversation was transferred from another skill, Taken from Queue - conversation was taken from queue, Takeover - the conversation was taken over by the manager, Resume - conversation was resumed.
-**CAMPAIGN NAME** - The name of the campaign which was displayed to the visitor.
-**CURRENCY** - The value’s currency code. Applicable only to monetary goals.
-**ENGAGEMENT NAME** - The name of the engagement.
-**GOAL EVENT TYPE** - The type of the event which triggered the goal reached. Includes: Goal Achieved, Purchase Event, and Lead Event
-**GOAL NAME** - The name of the goal that was reached.
-**GOAL TIMESTAMP** - The timestamp of the goal that was reached.
-**GOAL TYPE** - The type of the goal reached. Includes: Generate Leads, Sell Product/Service, and Service Activity Complete
-**GROUP** - The group the agent belongs to. This attribute maintains history.
-**SERVICE ACTIVITY STATUS** - Engagement attribute - service activity status.
-**SKILL** - The agent's skill.
-**SOURCE** - Represents a specific instance of the end-point (software) from which the conversation was initiated. Supported values differ according to the software supported by the account (for example, Web, Mobile Apps, Skype Connector etc.)
-**TOPIC** - Engagement Attribute - topic (Lead).
-**USER TYPE** - Configured as part of the user details in LiveEngage. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
-**WEEK**- The date of the first day of the week (starting on Sunday)
-**HOUR** - Hour format: MM/DD/YYYY HH:MM:SS AMPM
-**BRAND EVENT ID** - The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.
-**CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Engagement History view. For Messaging: LE >> All Connections >> Conversation Info >> ID
-**CONVERSATION OPEN TIME** - Conversation Open Time
+- **AGENT ASSIGNMENT TIME** - The time the agent was assigned to or joined the conversation.
+- **AGENT SEGMENT END REASON**  - The reason the agent-segment ended. Possible values: Agent Transfer - conversation was transferred to another agent, Skill Transfer - conversation was transferred to another skill, Back to Queue - conversation was returned back to queue, Takeover from agent - the conversation was taken over by a manager, Closed by agentconsumersystem - onversation was closed.
+- **AGENT SEGMENT START REASON**  - The reason the agent-segment started. Possible values: Agent Transfer - conversation was transferred from another agent, Skill Transfer - conversation was transferred from another skill, Taken from Queue - conversation was taken from queue, Takeover - the conversation was taken over by the manager, Resume - conversation was resumed.
+- **CAMPAIGN NAME** - The name of the campaign which was displayed to the visitor.
+- **CURRENCY** - The value’s currency code. Applicable only to monetary goals.
+- **ENGAGEMENT NAME** - The name of the engagement.
+- **GOAL EVENT TYPE** - The type of the event which triggered the goal reached. Includes: Goal Achieved, Purchase Event, and Lead Event
+- **GOAL NAME** - The name of the goal that was reached.
+- **GOAL TIMESTAMP** - The timestamp of the goal that was reached.
+- **GOAL TYPE** - The type of the goal reached. Includes: Generate Leads, Sell Product/Service, and Service Activity Complete
+- **GROUP** - The group the agent belongs to. This attribute maintains history.
+- **SERVICE ACTIVITY STATUS** - Engagement attribute - service activity status.
+- **SKILL** - The agent's skill.
+- **SOURCE** - Represents a specific instance of the end-point (software) from which the conversation was initiated. Supported values differ according to the software supported by the account (for example, Web, Mobile Apps, Skype Connector etc.)
+- **TOPIC** - Engagement Attribute - topic (Lead).
+- **USER TYPE** - Configured as part of the user details in LiveEngage. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
+- **WEEK**- The date of the first day of the week (starting on Sunday)
+- **HOUR** - Hour format: MM/DD/YYYY HH:MM:SS AMPM
+- **BRAND EVENT ID** - The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.
+- **CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Engagement History view. For Messaging: LE >> All Connections >> Conversation Info >> ID
+- **CONVERSATION OPEN TIME** - Conversation Open Time
 
 ## Conversions
 In case the attribution is set to All, and it includes all agent types:
