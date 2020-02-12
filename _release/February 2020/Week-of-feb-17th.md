@@ -73,5 +73,149 @@ The new Dashboard is enabled OOTB.
 New settings will be added to LiveEngage UI to enable brands to choose the attribution model for messaging (First, Last, All). The window for consideration is the same cross session window defined in Live Engage UI.
 The UI is not deployed yet, in order to change the setting to ‘All’  please contact the Live Person account team.
 
-### Screenshots
+**Screenshots**
 ![](img/new_goal_tracker_messaging_1.png)
+
+## Agent survey support for enhanced agent workspace 
+### Type: New functionality (NAW 1.10)
+
+Agent surveys prompt agents to record information about the conversation, update the sales lead status, and more after a conversation is complete. The information gathered can be used to optimize brand operations, improve campaigns, train agents, get additional information about conversions, reduce the need to transfer, etc. 
+Currently, brands use the agent survey via the old messaging workspace to categorize, qualify and collect more information about the conversation. The agent survey feature is now added to the enhanced agent workspace as well, to provide similar benefits.
+
+The following capabilities are supported while using the agent survey:
+* The survey will appear as a new widget in the agent workspace
+* Each conversation can have multiple surveys submitted
+* Agents can submit engagement attributes (e.g agent on behalf for messaging)
+* Custom reports can be developed upon request by the Analytics team
+
+To enable: Please see the [Agent survey for messaging article](contact-center-management-messaging-operations-agent-survey-for-messaging.html) in the Knowledge Center
+
+**Limitations:**
+* Reporting in the Report Builder will be available in March
+
+**Screenshots:** 
+![](img/week-of-february-17th-1.png)
+
+## Set idle time automatically according to smart suggestions 
+### Type: Enhancement (NAW 1.10)
+
+With the enhanced agent workspace launch, we introduced a new conversation status: “Idle”, which has been defined as “Consumer has not responded for over 5 minutes”. With this version release, the idle time has been aligned with the Smart Capacity settings automatically. 
+
+This will affect all accounts working with the enhanced agent workspace, in the following way:
+
+**Brands using [Smart Capacity per skill](contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html):**
+* Will now see that the idle time will be set for each conversation separately, according to the conversation’s skill.
+* For example: account that set smart capacity per skill as follows: 
+  * Sales: 6 minutes
+  * Customer care: 4 minutes 
+* For conversations assigned to the Sales skill, the conversation will be displayed as “Idle” after 6 minutes, whereas for conversation assigned to Customer Care skill, the conversation will be displayed as “Idle” after 4 minutes.
+* If the conversation is not assigned to any skill - it will be displayed as “idle” according to the account’s Smart Capacity settings.
+
+**All other brands:**
+  * Idle time will now be set according to the default [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) settings (per account) - which is set to 3 minutes for all accounts by default.
+
+**Screenshots:** 
+
+Conversations with the idle status: 
+![](img/week-of-february-17th-2.png)
+
+## Transfer to skill - Add indication for number of online agents 
+### Type: Enhancement (NAW 1.10)
+
+Whenever an agent transfers a conversation to skill, a new indication will now appear next to each skill on the list, indicating how many online agents are on that skill.  This will assist in preventing agents from transferring conversations into skill with no online agents, and reduce situations of bad consumer experience.
+
+**Screenshots:** 
+
+![](img/week-of-february-17th-3.png)
+
+## Display conversation source in My Connections list
+### Type: Enhancement (NAW 1.10)
+
+The My Connections list has been enhanced to include an indication of the conversation source for each conversation on the list. The conversations source icon is displayed to the right of the consumer name. For consumers with long names, an ellipsis will be used to truncate the name, and the conversation source will be displayed as well.
+
+{: .notice}
+**Please note:** The conversation sources will be displayed to all LiveEngage accounts by default. Accounts that wish to hide the conversation source should contact their LP representative.
+
+**Screenshots:** 
+
+![](img/week-of-february-17th-4.png)
+
+## System crashes when working with Internet Explorer 11
+### Type: Bug fix (NAW 1.10)
+
+Brands working with the enhanced agent workspace on top of the latest version of Internet Explorer 11 may experience performance issues. In some cases, the browser may stop responding and crash unexpectedly. After deeper investigation the root cause has been found and fixed. 
+
+## All Connections table only exposes users from main group
+### Type: Bug fix (NAW 1.10)
+
+A new bug has been discovered in the All Connections table filter: 
+When using filter dropdown by agent names, the dropdown list only displayed agents assigned to the main group, and not to the current user’s groups. This bug has been fixed, and the filter now displays all agent names which are associated with the current logged in agent groups.
+
+**Screenshots:** 
+
+![](img/week-of-february-17th-5.png)
+
+## Custom widgets infinite loader
+### Type: Bug fix (NAW 1.10)
+
+A bug has been discovered in the enhanced agent workspace for brands who disabled the customer info widget while using custom widgets. It appears that when working with this configuration, the custom widget would have been loaded for a long period of time. Sometimes, an infinite loader would be displayed and the widget could not be loaded at all. This bug has been fixed.  
+
+## Agents could not join conversation
+### Type: Bug fix (NAW 1.10)
+
+In some edge cases, when the brand had lots of open and closed conversations (above 1000), agents could not join conversations. The user could still read the conversation transcript, however when pressing the “Join conversation”, they got an error message that the operation could not be completed. The bug has been fixed.
+
+## When Consumer Info widget is disabled, custom widgets won’t load 
+### Type: Bug fix (NAW 1.10)
+
+It was discovered that if the consumer info widget is disabled on a LiveEngage account, custom widgets configured on the account will not be loaded (an infinite loader is displayed and the widget can’t load). If the consumer info widget was enabled on the account, this issue was not reproduced. The issue has been fixed and custom widgets are now loaded and displayed properly.
+
+**Screenshots:** 
+
+Custom widgets not loading properly if the consumer info widget is disabled:
+![](img/week-of-february-17th-6.png)
+
+## New line represented as </br> gets ignored
+### Type: Bug fix (NAW 1.10)
+
+When the agent input area contains a new combination of line characters, explicitly <br>, the <br> combination would send as plain text, rather than actually break the line. This issue has been fixed, and now agent typing <br> within the input area will see a new line appear, when sending the message to the consumer.
+
+## Cancel and close buttons not responding
+### Type: Bug fix (NAW 1.10)
+
+When a logged in user attempts to change his status within LiveEngage while the server is down, an error message appears on the screen alerting that the operation cannot be completed at the moment. However, when the user was trying to click the ‘Cancel’ or “Close” buttons on the screen, nothing happened - the buttons were unresponsive. The bug has been fixed. 
+
+## White space displayed on a video card on Internet Explorer 11
+### Type: Bug fix (NAW 1.10)
+
+Customers working on Internet Explorer 11, sending video cards to consumers - a white space has been displayed within the video card, displayed on the agent workspace side. This bug only occurs on Internet Explorer 11, and not on any other browser. The bug has been fixed.
+
+**Screenshots** 
+
+![](img/week-of-february-17th-7.png)
+
+## Agents cannot copy and paste any text in summary on Internet Explorer 11
+### Type: Bug fix (NAW 1.10)
+
+In the enhanced agent workspace, agents have been unable to copy/paste text into the agent summary, it allows them only to type rather than copy/paste. This bug has been resolved. 
+
+## Users unable to use shift to create upper case letters
+### Type: Bug fix (NAW 1.10)
+
+Users of the enhanced agent workspace were unable to type upper case letters intermittently by clicking shift+the letter. Reported letters with this issue: Q, W, R, Y, U, I, O, S, L, N, M. This issue has been resolved and users are now able to normally type upper case letters using the shift key. 
+
+## Consumer name not updating
+### Type: Bug fix (NAW 1.10)
+
+In the new agent workspace, if the consumer name is being updated during a messaging conversation, the updated name was not displayed automatically in the conversation list and conversation title, but only after a page refresh.
+
+The updated consumer name was reflected correctly in the consumer info widget, but didn't get updated on top of the conversation window. The bug has been fixed, and the consumer name is now automatically updated in all areas of the enhanced agent workspace.
+
+## Multiple lines of predefined content present as one line
+### Type: Bug fix (NAW 1.10)
+
+When a user is creating predefined content and configures sentences to appear on a separate line, the predefined content instead displays on one line. This issue has been resolved and the content will now display as configured. 
+
+**Screenshots** 
+
+![](img/week-of-february-17th-8.png)
