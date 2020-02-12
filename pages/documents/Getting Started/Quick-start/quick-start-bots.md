@@ -13,12 +13,13 @@ redirect_from:
 - getting-started-quick-start-guides-bots-quick-start.html
 
 ---
+
 Create a bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
 1. Log in to [LiveEngage](https://authentication.liveperson.net/).
-2. On the left sidebar, click the <img style="width:30px" src="img/icon_cb.png"> icon.
+2. On the left sidebar, click the bot icon.
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
 ## Step 2: Create a bot
@@ -55,7 +56,6 @@ Want to try your hand at changing the bot?
 
 6. Click **Save**.
  
-<br>
 **Preview the bot again**
 
 1. Open the Preview window like you did before, and start a new session by entering “reset” in the window. You’ll need to start a new session to “pick up” the change you just made.
