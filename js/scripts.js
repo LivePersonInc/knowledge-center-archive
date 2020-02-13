@@ -216,6 +216,7 @@ function sideBarClick () {
 			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
+		$('.hamburger').trigger("click");
 	});
 };
 
@@ -240,14 +241,19 @@ function mobileHamburger() {
 		var hasExpanded = $(sidebar).data("expanded") == "true";
 		if (hasExpanded) {
 			//if clicked, slide up and set data to unclicked.
-			$(sidebar).slideUp(400);
 			$(sidebar).data("expanded", "false");
 			$('#defaultcontent').removeClass('fadeout');
+			$(sidebar).slideUp(400, function () {
+				$(this).addClass('sidebarHidden');
+				$(sidebar).slideDown(400);
+			});
 		} else {
 			//if unclicked, slide down and set data to clicked.
-			$(sidebar).slideDown(400);
+			$(sidebar).removeClass('sidebarHidden');
+			$(sidebar).slideDown(400, function () {
+				$('#defaultcontent').addClass('fadeout');
+			});
 			$(sidebar).data("expanded", "true");
-			$('#defaultcontent').addClass('fadeout');
 		}
 	});
 }
