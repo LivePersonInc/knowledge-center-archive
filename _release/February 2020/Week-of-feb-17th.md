@@ -76,6 +76,50 @@ The UI is not deployed yet, in order to change the setting to ‘All’  please 
 **Screenshots**
 ![](img/new_goal_tracker_messaging_1.png)
 
+## Messaging Performance Grids
+### Type: enhancement [RB 4.2]
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Messaging Performance grids based on Messaging Performance Dashboard will be available also in Excel export format, for the Brand and Agent in daily and monthly level aggregations to allow easy subscription to the data.
+1. Performance Messaging Agent Grid - Daily / Monthly
+2. Performance Messaging Brand Grid - Daily / Monthly
+
 ## Agent survey support for enhanced agent workspace 
 ### Type: New functionality (NAW 1.10)
 
