@@ -30,7 +30,7 @@ p + ul {
 }
 
 .fadeout {
-  opacity: 0.3;
+  opacity: 1;
 }
 
 #post-content ul li {
