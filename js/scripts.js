@@ -216,7 +216,7 @@ function sideBarClick () {
 			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
-		$('.hamburger').trigger("click");
+// 		$('.hamburger').trigger("click");
 	});
 };
 
