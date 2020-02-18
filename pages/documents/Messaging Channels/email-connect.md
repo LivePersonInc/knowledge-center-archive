@@ -46,14 +46,6 @@ Send and receive email attachments using EmailConnect making emailing a more vis
 
 Brands can set-up EmailConnect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
 
-## Coming Soon
-
-EmailConnect is quickly developing to expand our capability and increase the benefits to brands. Upcoming capabilities will include:
-
-* **Multiple email addresses** — Brands will be able to add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
-
-* **Email Deflection** — With each email response, consumer is given an opportunity to switch from email to brands preferred messaging channels - WhatsApp and SMS.
-
 ## EmailConnect Setup
 
 {: .notice}  
