@@ -224,6 +224,23 @@ Custom widgets not loading properly if the consumer info widget is disabled:
 
 When the agent input area contains a new combination of line characters, explicitly `<br>`, the `<br>` combination would send as plain text, rather than actually break the line. This issue has been fixed, and now agent typing `<br>` within the input area will see a new line appear, when sending the message to the consumer.
 
+## Orphan notification on a new message
+### Type: Bug fix (NAW 1.10)
+
+Whenever a consumer sends a new message during a messaging conversation, an unread notification badge appears on top of the “Agent workspace for Messaging” module, which counts the number of conversations with at least 1 unread message. An additional icon is displayed in the My Connections list, for every conversation with at least 1 unread message in it.
+
+![](img/week-of-february-17th-9.png)
+
+In scenarios when consumers sent a new message, then immediately closed the conversation (but the agent did not read the consumer message yet), the unread notification counter on the agent workspace module used to count this message as unread, while the unread notification icon in the My Connections list has not been displayed for closed conversations. 
+
+This caused a discrepancy between the two notification icons: agents saw an unread notification on top of the agent workspace module, but could not find the conversation it originated from.
+
+![](img/week-of-february-17th-10.png)
+
+This bug has been fixed, and the unread notification icons are now displayed both on the module, and in the My Connections list, on top of the closed conversation line.
+
+![](img/week-of-february-17th-11.png)
+
 ## Cancel and close buttons not responding
 ### Type: Bug fix (NAW 1.10)
 
