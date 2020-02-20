@@ -216,7 +216,9 @@ function sideBarClick () {
 			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
-// 		$('.hamburger').trigger("click");
+		if ($('.mobileheader').css('display') == 'flex') {
+			$('.hamburger').trigger("click");
+		}
 	});
 };
 
@@ -240,7 +242,7 @@ function mobileHamburger() {
 		$hamburger.toggleClass('is-active');
 		var hasExpanded = $(sidebar).data("expanded") == "true";
 		if (hasExpanded) {
-			//if clicked, slide up and set data to unclicked.
+			//if clicked, slide up and set data to unclicked but then "slide down" in case the window gets resized.
 			$(sidebar).data("expanded", "false");
 			$('#defaultcontent').removeClass('fadeout');
 			$(sidebar).slideUp(400, function () {
