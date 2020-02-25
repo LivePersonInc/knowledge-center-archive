@@ -66,7 +66,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Safari | Not supported |  |
 
 {: .notice}  
-**Please note:** Windows 7 is not longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
@@ -137,7 +137,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | Safari | Not supported | Not supported |
 
 {: .notice}  
-**Please note:** Windows 7 is not longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
