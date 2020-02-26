@@ -22,3 +22,5 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## [Webhooks retry mechanism] - Long time resiliency against unhealthy client endpoints
 ### New functionality 
 An endpoint, to which webhooks sends events, might fail to respond because of multiple reasons. For example, the endpoint may experience connectivity issues, it may be down for temporary maintenance etc. For short term failures lasting less than 2.5 minutes, there is a retry mechanism. For longer down times, a new retry mechanism is introduced which lasts up to 3 days.
+
+To enable, please contact your LivePerson account team.
