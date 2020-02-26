@@ -57,13 +57,13 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 ### Windows
 
-|  | Windows 8.1 | Windows 10 |
-| --- | --- | --- |
-| Chrome |  | Latest available version (N)* , Version N-1 |
-| Mozilla Firefox |  | Latest available version (N)* , Version N-1 |
-| Internet Explorer | 11x* | 11x* |
-| Microsoft Edge | N/A | Latest available version (N)* , Version N-1 |
-| Safari | Not supported |  |
+|  | Windows 7 | Windows 8.1 | Windows 10 |
+| --- | --- | --- | --- |
+| Chrome |  | Latest available version (N)* , Version N-1 |  |
+| Mozilla Firefox |  | Latest available version (N)* , Version N-1 |  |
+| Internet Explorer | 11x* | 11x* | 11x* |
+| Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
+| Safari |  | Not supported |  |
 
 {: .notice}  
 **Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
@@ -73,14 +73,17 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 |  | OS X 10.10 | OS X 10.11 | macOS Sierra |
 | --- | --- | --- | --- |
 | Safari | Safari 8 | Safari 9 | Safari 10, Safari 11* |
-| Chrome |  | Latest available version (N)* ,  Version N-1 |  |
-| Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
+| Chrome |  | Latest available version (N)* ,  Version N-1 |  |
+| Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
+
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ## Visitor side: unsupported browsers
 
 We do not support incognito / private browsing in any browser.
 
-Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, LiveEngage will not display any chat buttons or invitations, for example on:
+Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, LiveEngage will not display any chat buttons or invitations, for example on:
 
 * Internet Explorer 7, 8, 9 and 10
 * Line browsers
@@ -128,13 +131,13 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 
 ### Windows
 
-|  | Windows 8.1 | Windows 10 |
-| --- | --- | --- |
-| Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
-| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
-| Internet Explorer | 11x* | 11x* , Edge* |
-| Microsoft Edge | Not supported | Latest available version (N)* |
-| Safari | Not supported | Not supported |
+|  | Windows 7 | Windows 8.1 | Windows 10 |
+| --- | --- | --- | --- |
+| Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
+| Internet Explorer | 11x* | 11x* | 11x* , Edge* |
+| Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
+| Safari | Not supported | Not supported | Not supported |
 
 {: .notice}  
 **Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
@@ -144,23 +147,23 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 |  | OS X 10.8 | OS X 10.9 | OS X 10.10 |
 | --- | --- | --- | --- |
 | Safari | 6x | 7x* | 8x* |
-| Chrome | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 |
-| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
+| Chrome | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
 
 ## Desktop notifications
 
 LiveEngage desktop notifications do not support the following browsers:
 
-* Internet Explorer 11x
+* Internet Explorer 11x
 
 ## Reporting
 
 LiveEngage BI Dashboards do not support the following browsers:
 
-* Internet Explorer 11x
+* Internet Explorer 11x
 * Microsoft Edge
 
-While these browsers do support LiveEngage they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
+While these browsers do support LiveEngage they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
 
 ## Bandwidth requirements
 
