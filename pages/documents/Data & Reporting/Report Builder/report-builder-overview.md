@@ -28,6 +28,11 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
+## Predefined dashboads
+LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+
+See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
+
 ## Freshness of data
 
 As an offline business intelligence decision support tool, the Report Builder is updated periodically with recent activity that took place on your LiveEngage account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Report Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
