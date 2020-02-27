@@ -140,7 +140,7 @@ To enable: Please see the [Agent survey for messaging article](contact-center-ma
 **Screenshots:** 
 ![](img/week-of-february-17th-1.png)
 
-## Set idle time automatically according to smart suggestions 
+## Set idle time automatically according to Smart Capacity 
 ### Type: Enhancement (NAW 1.10)
 
 With the enhanced agent workspace launch, we introduced a new conversation status: “Idle”, which has been defined as “Consumer has not responded for over 5 minutes”. With this version release, the idle time has been aligned with the Smart Capacity settings automatically. 
