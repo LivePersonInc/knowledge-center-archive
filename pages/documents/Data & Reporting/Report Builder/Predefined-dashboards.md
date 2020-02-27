@@ -7,7 +7,7 @@ subtitle: Report Builder predefined dashboards for messaging and chat
 level3: ''
 permalink: data-reporting-report-builder-predefined-dashboards.html
 isTutorial: false
-date: '2020-02-26
+date: '2020-02-26'
 ---
 
 ## Predefined dashboards
