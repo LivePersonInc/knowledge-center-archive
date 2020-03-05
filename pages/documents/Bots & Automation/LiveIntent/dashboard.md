@@ -1,5 +1,5 @@
 ---
-pagename: dashboard
+pagename: Dashboard
 categoryName: Bots & automation
 subCategoryName: Intent Analyzer
 indicator: messaging
