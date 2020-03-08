@@ -66,7 +66,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Safari |  | Not supported |  |
 
 {: .notice}  
-**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. . As a result, LivePerson no longer tests its various products on Windows 7 and we will not support the Windows 7 operating system moving forward. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7 and we will not support the Windows 7 operating system moving forward. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
