@@ -66,7 +66,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Safari |  | Not supported |  |
 
 {: .notice}  
-**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7 and we will not support the Windows 7 operating system moving forward. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
@@ -75,9 +75,6 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Safari | Safari 8 | Safari 9 | Safari 10, Safari 11* |
 | Chrome |  | Latest available version (N)* ,  Version N-1 |  |
 | Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
-
-{: .notice}  
-**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ## Visitor side: unsupported browsers
 
@@ -140,7 +137,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | Safari | Not supported | Not supported | Not supported |
 
 {: .notice}  
-**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
