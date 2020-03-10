@@ -16,7 +16,7 @@ redirect_from: ai-bots-automation-liveintent-overview.html
 
 LivePerson's [Conversational AI](https://developers.liveperson.com/conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](ai-bots-automation-liveintent-dashboard.html) intents in real-time.
 
-<img class="fancyimage" style="width:750px" src="img/liveintent_dashboard-section-1.png">
+<img class="fancyimage" style="width:750px" src="img/intentanalyzer_dashboard-section-1.png">
 
 Intent Analyzer leverages the [NLU engine](https://developers.liveperson.com/conversational-ai-platform-natural-language-understanding-nlu-engines.html) of your choice to analyze and track the performance of your intent libraries created in [Intent Builder](https://developers.liveperson.com/intent-builder-overview.html).
 
