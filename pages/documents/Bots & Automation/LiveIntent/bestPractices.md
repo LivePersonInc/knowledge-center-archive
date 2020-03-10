@@ -14,13 +14,13 @@ indicator: messaging
 
 ### Discover customer issues in real time
 
-Use the [Time and Filter settings](ai-bots-automation-liveintent-dashboard.html#filters) to track for negative MCS and CSAT intents in real-time.
+Use the [Time and Filter settings](ai-bots-automation-intent-analyzer-dashboard.html#filters) to track for negative MCS and CSAT intents in real-time.
 
 HOW TO
 
 ### Use search to discover new intents
 
-Intent Analyzer is designed to track the intents that you create in Intent Builder. However, through the use of the [Search](ai-bots-automation-liveintent-dashboard.html#search) bar, you can use Intent Analyzer to discover intenful statements in conversations that you are not currently tracking.
+Intent Analyzer is designed to track the intents that you create in Intent Builder. However, through the use of the [Search](ai-bots-automation-intent-analyzer-dashboard.html#search) bar, you can use Intent Analyzer to discover intenful statements in conversations that you are not currently tracking.
 
 HOW TO
 
@@ -30,11 +30,11 @@ When you've uncovered the intentful statements that seem meaningful
 
 You may notice that some intents in Intent Analyzer have poor confidence scores. You can improve this by adding more/better training phrases in Intent Builder.
 
-Intent Analyzer can help you determine good training phrases in the [Conversation Viewer](ai-bots-automation-liveintent-dashboard.html#agent-conversations-and-transcripts).
+Intent Analyzer can help you determine good training phrases in the [Conversation Viewer](ai-bots-automation-intent-analyzer-dashboard.html#agent-conversations-and-transcripts).
 
 ### Improve customer experiences
 
-The Intent Analyzer dashboard can show you not just the volume of intents, but also the [quality of conversations](ai-bots-automation-liveintent-dashboard.html#intents-with-lowest-mcs) with intents.
+The Intent Analyzer dashboard can show you not just the volume of intents, but also the [quality of conversations](ai-bots-automation-intent-analyzer-dashboard.html#intents-with-lowest-mcs) with intents.
 
 Of course there can be many reasons why a conversation has low MCS. Perhaps the nature of the intent is negative, eg. "outage".
 

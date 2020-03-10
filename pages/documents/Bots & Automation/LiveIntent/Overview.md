@@ -14,7 +14,7 @@ redirect_from: ai-bots-automation-liveintent-overview.html
 
 ## Introduction
 
-LivePerson's [Conversational AI](https://developers.liveperson.com/conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](ai-bots-automation-liveintent-dashboard.html) intents in real-time.
+LivePerson's [Conversational AI](https://developers.liveperson.com/conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](ai-bots-automation-intent-analyzer-dashboard.html) intents in real-time.
 
 <img class="fancyimage" style="width:750px" src="img/intentanalyzer_dashboard-section-1.png">
 
@@ -95,18 +95,18 @@ To get started with starter packs, please contact your account representative.
 
 ### Manual Setup
 
-If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable Intent Analyzer](https://developers.liveperson.com/intent-builder-overview.html#liveintent), and add training phrases.
+If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable Intent Analyzer](https://developers.liveperson.com/intent-builder-overview.html#intent-analyzer), and add training phrases.
 
 If you have **intents in an external system**, you can [import](https://developers.liveperson.com/intent-builder-overview.html#adding-a-domain) those into Intent Builder to get started quickly.
 
-If you have **intents in Intent Builder** already, [see here](https://developers.liveperson.com/intent-builder-overview.html#liveintent) for how to enable them in Intent Analyzer.
+If you have **intents in Intent Builder** already, [see here](https://developers.liveperson.com/intent-builder-overview.html#intent-analyzer) for how to enable them in Intent Analyzer.
 
 {: .notice}
-Please see [this guide](https://knowledge.liveperson.com/ai-bots-automation-liveintent-liveintent-tips.html) for tips on using Intent Builder with Intent Analyzer.
+Please see [this guide](https://knowledge.liveperson.com/ai-bots-automation-intent-analyzer-intent-analyzer-tips.html) for tips on using Intent Builder with Intent Analyzer.
 
 ## Using Intent Analyzer
 
-When you have intents and they are enabled for Intent Analyzer, you can view your data in the [Intent Analyzer dashboard](ai-bots-automation-liveintent-dashboard.html).
+When you have intents and they are enabled for Intent Analyzer, you can view your data in the [Intent Analyzer dashboard](ai-bots-automation-intent-analyzer-dashboard.html).
 <!--
-See [Intent Analyzer Best Practices](liveintent-best-practices.html) for some common usage flows and best practices.
+See [Intent Analyzer Best Practices](intent-analyzer-best-practices.html) for some common usage flows and best practices.
 -->
