@@ -28,7 +28,7 @@ Intent Analyzer leverages the [NLU engine](https://developers.liveperson.com/con
 
 An Airline doesn’t have a real-time way to understand customer contacts by intent.
 
-#### How LiveIntent Helps
+#### How Intent Analyzer Helps
 
 The analyst uses Intent Analyzer to discover, define, and enable the following high impact intents
 
@@ -46,7 +46,7 @@ The analyst enables detailed real-time insight into the problem by defining inte
 #### Challenge
 There is influx in account cancellations related to the policy changes
 
-#### How LiveIntent Helps
+#### How Intent Analyzer Helps
 
 The Agent Manager uses the Intent Analyzer dashboard to explore conversations with the intent “Cancel my account.”
 

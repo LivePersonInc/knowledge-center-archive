@@ -34,7 +34,7 @@ Features and products that are unlocked will be clickable, allowing you to easil
 
 * **Bot Analytics** - in-depth analytics on your bots' performance, including conversion rates and number of interactions.
 
-* **LiveIntent** - setup real-time intent detection and browse detailed intent dashboards.
+* **Intent Analyzer** - setup real-time intent detection and browse detailed intent dashboards.
 
 * **Maven** - configure Maven's AI engine to orchestrate all conversations and automations.
 

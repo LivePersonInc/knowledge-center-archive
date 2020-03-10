@@ -3,7 +3,7 @@ pagename: Dashboard
 categoryName: Bots & automation
 subCategoryName: Intent Analyzer
 indicator: messaging
-subtitle: LIntent Analyzer provides real-time intent identification to help businesses optimize
+subtitle: Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
 permalink: ai-bots-automation-intent-analyzer-dashboard.html
