@@ -16,6 +16,10 @@ redirect_from:
   - offline-site-survey.html
   - offsite-digital-advertising.html
   - offsite-other.html
+  - offsite-social-media.html
+  - offsite-print.html
+  - offsite-tv.html
+  - call-deflection-using.html
 ---
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
 
