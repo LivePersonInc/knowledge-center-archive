@@ -14,6 +14,7 @@ redirect_from:
   - disable-offsite-engagement.html
   - unpublish-offsite-campaign.html
   - offline-site-survey.html
+  - offsite-digital-advertising.html
 ---
 Once you’ve created your engagements you can easily manage them within LiveEngage. The following functionalities make it possible to control your engagement’s behavior.
 
