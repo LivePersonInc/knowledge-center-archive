@@ -19,8 +19,7 @@ Only LiveEngage administrators and campaign manager profiles have acess to Proac
 
 ## Login and access
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick Launch.
-
-![](img/Proactive_userguide1.png)
+![](img/PM_userguide1.png)
 
 Proactive Messaging supports role-based access. Currently, only users with Campaign Manager or Administrator user profile can access the tool. All other users (those with only Agent or Agent Manager user profile) will not see the tool in the Quick Launch menu.
 
