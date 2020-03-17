@@ -79,10 +79,15 @@ Users can search for the skill in the dropdown. If the skill does not appear, pl
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
 
 * **Messaging content - WhatsApp** 
-- WhatsApp requires that every outbound message sent via WhatsApp channel must use a WhatsApp message template approved by WhatsApp. Messages cannot be sent for outbound 
-- The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
- - WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp      message template with variable(s), make sure to replicate the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’
-- Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please    see section on “Creating WhatsApp message template” below for more information.
+  
+WhatsApp requires that every outbound message sent via WhatsApp channel must use a WhatsApp message template approved by WhatsApp. Messages cannot be sent for outbound. 
+
+The content of the outbound message on WhatsApp channel must be approved by WhatsApp first. Users will need to create an outbound message template (MTM), submit to WhatsApp. Once approved, then LivePerson will onboard the message templates users would like to use in Proactive Messaging tool.
+
+{: .notice }
+WhatsApp message template may contain one or more variables. They have a format of {{1}}. After selecting a WhatsApp message template with variable(s), make sure to replace the variable(s) with an actual content i.e. ‘Hello {{1}}’ with ‘Hello Jane Doe’.
+
+Users can create a WhatsApp message template and submit it to WhatsApp for approval via Proactive Messaging tool. Please    see section on “Creating WhatsApp message template” below for more information.
 
 ### Step 2 - Define Recipients
 ![](img/Proactive_userguide6.png)
