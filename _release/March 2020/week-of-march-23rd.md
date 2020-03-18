@@ -89,6 +89,7 @@ Bot collaboration is designed to simplify your automation model and make it more
 ![](img/CBMarch2.png)
 
 ## [Conversation Builder] Agent Transfer interactions
+### Enhancement
 
 Conversation Builder introduces a new Agent Transfer interaction. This is useful when you want to transfer a conversation from a bot to a live agent or from a bot in one bot group to a bot in a different group.
 
@@ -104,4 +105,53 @@ Regardless of which transfer approach is used, ya new Transfer Bot Context check
 
 The Transfer Bot Context check box supports manual, bot-to-bot transfers only. If you check this, when the conversation is transferred from one bot to another, the matched intent or user message is automatically sent from the sender bot to the receiver bot. This lets the receiver bot know the appropriate dialog to start after the transfer enabling a smooth transition.
 
-[](img/CBMarch5.png)
+![](img/CBMarch5.png)
+
+## [Conversation Builder] - Auto escalation
+### Enhancement
+
+A new Auto Escalation dialog type has been introduced with the purpose of freeing the consumer from being stuck within a question. This can happen when the bot doesn't recognize the consumer's input. Because the bot can't determine the next step that should happen, the fallback response is sent, and the consumer is returned to the place where the failure occurred. The fallback response is repeated after each unrecognizable input, resulting in a stuck conversation. 
+
+![](img/CBMarch6.png)
+
+The Auto Escalation dialog solves this problem by offering the consumer the option of being transferred to a live agent (or another bot). The number of times that the fallback response should be sent within a question can be ocnfigured. Once that threshold is reached, the Auto Escalation dialog is triggered automatically.
+
+![](img/CBMarch7.png)
+
+## Conversation Builder - URL shortening
+### Enhancement
+
+Conversation Builder has added a new shorten URLs bot setting, which you can use to enable the shortening of all URLs for a bot.
+
+As an example, if URL shortening is enabled, a URL like this...
+	
+http://www.myexample.com/folder1/folder2/veryverylongstringhere.html
+
+...is shortened to this:
+	
+	http://{abbreviate domain}/{unique code}
+
+If you enable URL shortening, it’s applied to all URLs (for websites, images, etc.) in all types of interactions. The default value is Disabled (Off).
+
+The shortened domain that’s used varies by region and might need to be whitelisted (e.g in channels like Facebook). The domain to whitelist appears below the setting. For more information on whitelisting, see the Conversation Builder documentation in the [Developers’ Community](https://developers.liveperson.com/liveperson-functions-development-whitelisting-domains.html)
+
+![](img/CBMarch8.png)
+
+{: .notice}
+To support backwards compatibility, button interactions use URL shortening even though the new Shorten URLs setting is set initially to off. To disable URL shortening for buttons, enable the setting, save the change, disable the setting, and then save the change again. From this point forward, button interactions will respect the value of the setting and work like all other interactions.
+
+## Conversation Builder - Granular permissions
+### Enhancement
+Two new granular permissions have been added:
+1. Release Creator - Users with this permission can only create and delete versions, and create releases.
+2. Release Acceptor - Users with this permission can only create versions and accept releases (i.e.upgrade bots).
+These permissions are add-on permissions, not stand-alone permissions. 
+Use these with the Bot Builder and/or Bot Builder Lite permissions as you require.
+
+{: .notice}
+The Bot Builder and Bot Builder Lite permissions can only view versions and releases. You’ll need to add on the new permissions above in order to grant bot developers the ability to create and manage versions and releases. (Administrators continue to have full privileges.)
+
+
+
+
+
