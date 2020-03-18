@@ -68,10 +68,6 @@ The RCR has several KPIs, according to the predefined buckets (RCR 1 hour, RCR 1
 
 ## [Conversation Builder] Bot Groups
 ### Enhancement 
-Conversation Builder - Bot groups
-
-{: .notice}
-This feature is available to all Conversatiob Builder enabled customers - Exact delivery dates might vary, and, therefore, brands might not have immediate access to all features on the date of publication. Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
 Conversation Builder has introduced the concept of “bot groups.” With this feature, customers can organize a set of bots into a bot group. This provides better management and collaboration between bots. For example, a banking customer can group its Checking bots and Saving bots into respective groups. The bots are organized and displayed under their respective groups providing more efficiency and better accessibiilty. A bot developer from the Checking business division doesn’t have to search through tens of bots to find the specific bot - it can be quickly accessed from the Checking group.
 
