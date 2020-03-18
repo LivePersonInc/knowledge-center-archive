@@ -19,8 +19,7 @@ Only LiveEngage administrators and campaign manager profiles have acess to Proac
 
 ## Login and access
 Brands can access the Proactive Messaging tool from within LiveEngage via the Quick Launch.
-
-![](img/Proactive_userguide1.png)
+![](img/PM_userguide1.png)
 
 Proactive Messaging supports role-based access. Currently, only users with Campaign Manager or Administrator user profile can access the tool. All other users (those with only Agent or Agent Manager user profile) will not see the tool in the Quick Launch menu.
 
@@ -72,8 +71,8 @@ To create a new proactive campaign, users can click on New Campaign on the landi
   
 * **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside LiveEngage. Currently, not all LiveEngage skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
 
-{: .notice}  
-Users can search for the skill in the dropdown. If the skill does not appear, please contact your LivePerson account team to have it added. In the future, all skills will be displayed.
+{: .notice}
+Users can search for the skill in the dropdown. If the brand is onboarded to Proactive 2.0 then all the LiveEngage skills should appear in the drop down. If the skill is not listed, it is likely that you are using Proactive 1.0 and you should contact your LivePerson account team to have it added manually.
 
 * **Message content - SMS** 
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
@@ -164,13 +163,11 @@ For WhatsApp message template with two variables:
 
 ## Skill Routing
 
-* Skills need to be set up first in the LiveEngage Platform in order for them to be available in the Proactive Messaging tool. For more information on skills please click [here](https://knowledge.liveperson.com/admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html).
-* Once a new skill has been created, please reach out to your CSM and have them add this skill to the API.
-* Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool.
-* The context of the initial outbound message will be visible to the agent in an agent widget when the consumer responds.
+Skills need to be set up first in the LiveEngage Platform in order for them to be available in the Proactive Messaging tool. For more information on skills please click [here](https://knowledge.liveperson.com/admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html).
 
-{: .notice}  
-In the future, Proactive Messaging will be automatically populated with pre existing skills from within LiveEngage.
+Proactive Messaging 2.0 will automatically show existing skills from LiveEngage. The context of the initial outbound message will be part of the conversation transcript when the consumer responds. 
+
+For Proactive 1.0, any skills you’d like to show on Proactive tool must be manually added. Please reach out to your account team and get the skill added. Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool. On Proactive 1.0, the context of the initial outbound message will show up in the SmartConnect widget. 
 
 ## Reporting
 
@@ -190,10 +187,7 @@ Reporting will soon be enabled per proactive campaign via Report Builder.
 ## Receiving incoming messages
 
 * When a consumer responds to an outbound message created from Proactive Messaging tool, a conversation is created within LiveEngage and is routed to an available agent with the assigned specific skill to which the Proactive campaign was created.
-* The context of the initial outbound message will be visible to the agent through an agent widget.
-
-{: .notice}  
-Coming soon, the context of the outbound message will be part of the conversation transcript.
+* The context of the initial outbound message will be visible to the agent as part of the conversation transcript if the brand is onboarded to Proactive 2.0. If the brand is on Proactive 1.0, the initial outbound message is visible through an agent widget.
 
 ## Opt Out/In
 
@@ -205,7 +199,7 @@ The following are the known limitations for Proactive Messaging:
 
 1. Number of lines entered into the text area is limited to 100 lines.
 If you choose to manually enter phone numbers rather than use a .csv file upload, there is a limit of 100 numbers that can be added. We suggest using a .csv file upload rather than manually typing out numbers for larger call list volumes.
-2. The CSV file is limited today to 1000 recipients. This will be increased soon to 200k.
+2.The CSV file is limited today to 1000 recipients. This will be increased soon to 100,000 recipients. 
 3. When Prioritized is selected as a channel, there is no opt-out text sent for SMS. For example, if brand configures WhatsApp as primary channel and SMS as fallback channel, when brand detects a consumer isn’t eligible for WhatsApp, we will attempt to send the same message to SMS channel, however there is no opt-out text included in the SMS text messaging being sent i.e. ‘To stop receiving messages just reply STOP’.
 4. For SMS, there is a limit of 140 characters for the message content. This is to ensure your outbound message is sent in a single text instead of being split into two different text messages. When the message is over 140 characters, it will go out over 2 messages.
 
