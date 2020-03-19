@@ -45,7 +45,7 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 
 AI-Powered Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Liveintent. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
+When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
 Brands can build and manage policies using the Maven workspace:
 

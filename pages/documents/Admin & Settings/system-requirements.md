@@ -76,6 +76,10 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Chrome |  | Latest available version (N)* ,  Version N-1 |  |
 | Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
 
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).ביר
+
+
 ## Visitor side: unsupported browsers
 
 We do not support incognito / private browsing in any browser.
