@@ -95,7 +95,7 @@ With the addition of this new interaction type, there are two ways to implement 
 
 There is no difference between the two approaches when it comes to performance. However, the use of the Agent Transfer interaction is a simpler, more convenient approach because it specifies all necessary information in the interaction itself. If the Agent Transfer interaction is used, a supporting integration does not need to be created.
 
-Regardless of which transfer approach is used, ya new Transfer Bot Context check box will appear.
+Regardless of which transfer approach is used, a new Transfer Bot Context check box will appear.
  
 ![](img/CBMarch4.png)
 
