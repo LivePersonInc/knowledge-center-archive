@@ -28,6 +28,11 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
+## Predefined dashboads
+LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+
+See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
+
 ## Freshness of data
 
 As an offline business intelligence decision support tool, the Report Builder is updated periodically with recent activity that took place on your LiveEngage account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Report Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
@@ -52,31 +57,6 @@ The following considerations should be taken into account when using Report Buil
 
 1. Unlike the Agent Manager BI dashboards, Report Builder presents data in the account’s time zone.
 2. Scheduling is performed by LivePerson administrators.
-
-## Predefined dashboards
-
-LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
-
-The data currently available in the predefined dashboards are as follows:
-
-**Messaging & Live Chat dashboards:**
-
-* [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
-* [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
-
-**For Messaging only:**
-
-* [**Performance Dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html) Includes operational and business data about messaging conversations.
-* [**Survey dashboard for Messaging**](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
-Includes information about responses to surveys
-* [**Business dashboard for Messaging**](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
-
-**Chat only dashboards:**
-
-* [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
-* [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
-* [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
-* [**Business dashboard for LiveChat**](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-business-dashboard-and-grid-for-live-chat.html) Includes information about campaigns and engagements performance.
 
 ### Exporting to PDF
 

@@ -65,6 +65,9 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
 | Safari |  | Not supported |  |
 
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+
 ### Mac
 
 |  | OS X 10.10 | OS X 10.11 | macOS Sierra |
@@ -75,6 +78,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 {: .notice}  
 **Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).ביר
+
 
 ## Visitor side: unsupported browsers
 
@@ -135,6 +139,9 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 | Internet Explorer | 11x* | 11x* | 11x* , Edge* |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
+
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
