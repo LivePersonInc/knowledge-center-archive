@@ -38,7 +38,7 @@ Agents can use the app to complete basic conversation with consumers including:
 - Managers can join conversations to actively participate.
 
 ## Non Supported Capabilities
-{: .notice}
+
 Please note that the following features are currently not available in the App and are only available in the web version:
 - Custom Widgets
 - Consumer info widget
