@@ -21,6 +21,32 @@ Android is not currently available at this time. It will be available in the nea
 
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 
+## Current iOS App status
+The current iOS app supports version IOS12 and up.
+
+## Supported Capabilities
+The app supports both iPhone and iPad and is optimized for their screen sizes. 
+Agents can use the app to complete basic conversation with consumers including: 
+- accepting new conversations when they are online
+- manage the list of conversations
+- transfer to another skill or to a specific agent 
+- close conversations 
+- return conversation to the queue
+- use predefined content and share images whilst in a coversation 
+- use of secure forms 
+- Agent managers can review conversations of their team, and filter by status or specific agent. 
+- Managers can join conversations to actively participate.
+
+## Non Supported Capabilities
+{: .notice}
+Please note that the following features are currently not available in the App and are only available in the web version:
+- Custom Widgets
+- Consumer info widget
+- Engagement history widget
+
+## Provisioning 
+This app is available in the App store, just search “Liveengage” to find it. Brands can download it today and any agent can use their regular credentials to login.  
+
 ## How to login
 
 ### Login fields
