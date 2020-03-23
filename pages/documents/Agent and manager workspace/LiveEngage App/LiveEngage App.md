@@ -27,13 +27,13 @@ The current iOS app supports version IOS12 and up.
 ## Supported Capabilities
 The app supports both iPhone and iPad and is optimized for their screen sizes. 
 Agents can use the app to complete basic conversation with consumers including: 
-- accepting new conversations when they are online
-- manage the list of conversations
-- transfer to another skill or to a specific agent 
-- close conversations 
-- return conversation to the queue
-- use predefined content and share images whilst in a coversation 
-- use of secure forms 
+- Accepting new conversations when they are online
+- Manage the list of conversations
+- Transfer to another skill or to a specific agent 
+- Close conversations 
+- Return conversation to the queue
+- Use predefined content and share images whilst in a coversation 
+- Use of secure forms 
 - Agent managers can review conversations of their team, and filter by status or specific agent. 
 - Managers can join conversations to actively participate.
 
