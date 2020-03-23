@@ -10,9 +10,6 @@ isTutorial: false
 isNew: false
 
 ---
-{: .important}  
-LivePerson's new LiveEngage mobile app is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
-
 The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
 
 The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
