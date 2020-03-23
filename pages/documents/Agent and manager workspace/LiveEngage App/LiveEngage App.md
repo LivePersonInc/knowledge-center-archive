@@ -10,11 +10,14 @@ isTutorial: false
 isNew: false
 
 ---
-The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
+The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers. 
 
-The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
+In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
+
+{: .notice}
+Android is not currently available at this time. It will be available in the near future.
 
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 
