@@ -5,7 +5,7 @@
     - subcategoryname: Quick start guides
       pages:
         - pagename: Web messaging quick start
-        - pagename: Conversation builder quick start
+        - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
     - subcategoryname: Getting started with messaging
