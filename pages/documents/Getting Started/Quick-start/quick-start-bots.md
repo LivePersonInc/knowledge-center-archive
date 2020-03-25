@@ -52,7 +52,8 @@ Create a "Hello World" bot using Conversation Builder.
 
      <img style="width:400px" src="img/cb_window2.png">
 
-6. Click **Save**.
+6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
+7. Click **Save**.
  
 ### Preview the bot again
 
