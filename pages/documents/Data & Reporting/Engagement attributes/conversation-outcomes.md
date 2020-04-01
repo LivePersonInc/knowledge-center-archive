@@ -11,7 +11,9 @@ isTutorial: false
 date: '2019-01-20T09:22:45.000+00:00'
 
 ---
-LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place. The tools include:
+LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.
+ 
+The tools include:
 
 **Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.
 
