@@ -16,7 +16,7 @@ published: true
 
 Conversational Commerce has opened new channels for customers to interact with brands across all stages of their journey. With the growing number of customer interactions from different messaging apps, innovative companies are looking for ways to efficiently handle high-volumes of messaging conversations -- while delivering a great customer experience.
 
-LivePerson Conversational AI offers an end-to-end orchestration of brand to consumer conversations using LiveIntent for intent detection, Maven’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
+LivePerson Conversational AI offers an end-to-end orchestration of brand to consumer conversations using Intent Analyzer for intent detection, Maven’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
 
 ## Key capabilities
 
@@ -31,11 +31,11 @@ Using LivePerson’s powerful tools, Conversational AI has the ability to:
 
 Conversational AI offers an end-to-end orchestration of brand to consumer conversations using the following AI tools and automations:
 
-### LiveIntent 
+### Intent Analyzer 
 
 **Automatically identifies consumers intent in real time, through every turn in a conversation**
 
-LiveIntent automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. Maven takes intent data and combines information from different data sources to identify the best intent match.
+Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. Maven takes intent data and combines information from different data sources to identify the best intent match.
 
 Intents can be built and trained in LivePerson, or uploaded from an existing system or other NLU engine. Brands can create intent dashboards to optimize operations, intent by intent, and build a data driven automation program.
 
@@ -173,7 +173,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 **Maven Concierge Bot**
 * Conversation Builder’s concierge bot template pre-built with intents and AskMaven integration
 
-### LiveIntent Features
+### Intent Analyzer Features
 **Intent builder**
 * Self-service intent building using Conversation Builder NLU
 * Self-service intent building using third-party NLU service (i.e. DialogFlow, Watson)
@@ -183,7 +183,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Intent identification for human agent conversations (messaging only) & bots* (*with intents defined in Intent Builder) 
 
 **Analytics dashboard**
-* LiveIntent dashboard integrated with Conversation Builder
+* Intent Analyzer dashboard integrated with Conversation Builder
 * Topline metrics & messages with intent
 * Intent volume & confidence
 * Intent time series
@@ -192,7 +192,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Conversation viewer with drill down
 
 **Professional services**
-* LiveIntent professional services for intent modeling starter packs and advanced custom taxonomy
+* Intent Analyzer professional services for intent modeling starter packs and advanced custom taxonomy
 
 **Raw data**
-* Message level LiveIntent classification data available via public API
+* Message level Intent Analyzer classification data available via public API

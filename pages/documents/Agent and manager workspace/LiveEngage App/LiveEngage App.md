@@ -10,16 +10,42 @@ isTutorial: false
 isNew: false
 
 ---
-{: .important}  
-LivePerson's new LiveEngage mobile app is currently available only to **Early Adopters.** The app will soon be available for download in the app store for early adopters so if you are interested, please contact your account team.
+The LivePerson Agent app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers. 
 
-The LiveEngage mobile app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go.
-
-The app expands opportunities for messaging scenarios. For example, in store retail reps can leverage their down time by messaging with customers not in store utilizing retail reps as agents and giving them the power to increase sales.
+In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
+{: .notice}
+While support for Android is not currently available at this time, it is in development and will be available on Android in the very near future.
+
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
+
+## Current iOS App status
+The current iOS app supports version IOS12 and up.
+
+## Supported Capabilities
+The app supports both iPhone and iPad and is optimized for their screen sizes. 
+Agents can use the app to complete basic conversation with consumers including: 
+- Accepting new conversations when they are online
+- Manage the list of conversations
+- Transfer to another skill or to a specific agent 
+- Close conversations 
+- Return conversation to the queue
+- Use predefined content and share images whilst in a coversation 
+- Use of secure forms 
+- Agent managers can review conversations of their team, and filter by status or specific agent. 
+- Managers can join conversations to actively participate.
+
+## Non Supported Capabilities
+
+Please note that the following features are currently not available in the App and are only available in the web version:
+- Custom Widgets
+- Consumer info widget
+- Engagement history widget
+
+## Provisioning 
+This app is available in the App store, just search “Liveengage” to find it. Brands can download it today and any agent can use their regular credentials to login.  
 
 ## How to login
 
@@ -530,17 +556,14 @@ Please note that the following features are currently not available in the App a
 * Consumer info widget
 * Engagement history widget
 * Summary widget
-* Transfer to skill
 * Transfer to agent
 * Conversation Status filters
 * Closed conversations in list (agent)
 * Data Bar
 * Manual SLA
 * View structured content carousel
-* Secure forms
 * Resume conversations
 * Send Structured Content (Quick Replies, Cards & Carousel)
-* View and share photo (consumer to agent)
 * View and share files (agent to consumer)Audio from consumer to agent
 * Post Conversation Survey - Agent visibility only
 * CoBrowse

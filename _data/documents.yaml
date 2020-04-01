@@ -5,9 +5,10 @@
     - subcategoryname: Quick start guides
       pages:
         - pagename: Web messaging quick start
-        - pagename: Conversation builder quick start
+        - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
+        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -84,12 +85,12 @@
      pages:
        - pagename: Conversation Builder overview
        - pagename: Getting started tutorials
-   - subcategoryname: LiveIntent
+   - subcategoryname: Intent Analyzer
      pages:
        - pagename: The power of an intent-driven contact center
        - pagename: Overview
        - pagename: Dashboard
-       - pagename: LiveIntent tips
+       - pagename: Intent Analyzer tips
    - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
@@ -255,6 +256,7 @@
         - pagename: Introducing the enhanced Report Builder
         - pagename: "Report Builder user guide (standard)"
         - pagename: "Report Builder user guide (customization)"
+        - pagename: Predefined dashboards
         - pagename: Report Builder FAQs
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
@@ -349,6 +351,13 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:  
+        - pagename: April
+          level3:
+            - level3name: Week of April 1st
+        - pagename: March
+          level3:
+            - level3name: Week of March 23rd
+            - level3name: Week of March 2nd
         - pagename: February
           level3:
             - level3name: Week of February 24th

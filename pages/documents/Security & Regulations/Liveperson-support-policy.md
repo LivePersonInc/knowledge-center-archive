@@ -2,7 +2,7 @@
 pagename: LivePerson support policy
 categoryName: Security & regulations
 subCategoryName: Security
-indicator: chat
+indicator: both
 subtitle: ''
 level3: ''
 permalink: security-regulations-liveperson-support-policy.html

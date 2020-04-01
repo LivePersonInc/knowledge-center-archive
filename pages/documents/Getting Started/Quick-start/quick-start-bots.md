@@ -1,9 +1,9 @@
 ---
-pagename: Conversation builder quick start
+pagename: Conversation Builder quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
-subtitle: Use this tutorial to quickly get started with bot building
+subtitle: Use this quick start guide to build your first bot
 level3: ''
 permalink: getting-started-quick-start-guides-conversation-builder-quick-start.html
 isTutorial: true
@@ -14,7 +14,7 @@ redirect_from:
 
 ---
 
-Create a bot using Conversation Builder.
+Create a "Hello World" bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
@@ -22,7 +22,7 @@ Create a bot using Conversation Builder.
 2. On the left sidebar, click the bot icon.
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
-## Step 2: Create a bot
+## Step 2: Create a "Hello World" bot
 
 1. Click **New Bot** in the upper-right corner.
 2. Select the **Custom Bot** template.
@@ -38,11 +38,9 @@ Create a bot using Conversation Builder.
 
 **Congratulations!** You’ve just created your first bot!
 
-## Step 3: Dive deeper (optional)
+## Step 3: Customize the interaction
 
-Want to try your hand at changing the bot?
-
-**Add a new pattern**
+### Add a new pattern
 1. If the Welcome dialog isn't already open, click the Welcome tab in the lower-left corner to open it.
 2. Select the first interaction **(1)**, and then click the **Interaction Details** icon **(2)** beside it to open its Interaction Details window.
 
@@ -54,27 +52,30 @@ Want to try your hand at changing the bot?
 
      <img style="width:400px" src="img/cb_window2.png">
 
-6. Click **Save**.
+6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
+7. Click **Save**.
  
-**Preview the bot again**
+### Preview the bot again
 
-1. Open the Preview window like you did before, and start a new session by entering “reset” in the window. You’ll need to start a new session to “pick up” the change you just made.
+1. Open the Preview window like you did before, and start a new session by entering “reset” in the window.
 2. Enter “aloha.” You will see that the bot responds to this new greeting with the same response as before.
 
 To learn how to extend the bot and connect it to LiveEngage, complete the tutorials listed below.
 
-## Conversation Builder tutorials
+## Step 4: Expand the capabilities of your bot
 
-Want to learn more? Check out these, more in-depth tutorials:
+* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to LiveEngage, and learn how to transfer a bot conversation to a live agent.
 
-* [Video Tutorials](https://developers.liveperson.com/conversation-builder-getting-started-0-video-tutorials.html)
-* [Dialogs and Patterns](https://developers.liveperson.com/conversation-builder-getting-started-1-dialogs-and-patterns.html)
-* [Intents](https://developers.liveperson.com/conversation-builder-getting-started-2-intents.html)
-* [Integrations](https://developers.liveperson.com/conversation-builder-getting-started-3-integrations.html)
-* [Connect to LiveEngage](https://developers.liveperson.com/conversation-builder-getting-started-4-connect-to-liveengage.html)
+* **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases including Routing, FAQ, Lead Generation and Order Status.
 
-## Additional resources
+* **[Intent Builder](https://developers.liveperson.com/intent-builder-overview.html)**: Learn about intents, how to build new ones and how to incorporate them into your bot.
 
-* [Web Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
-* [Facebook Messenger Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
-* [SMS Messaging Quick Start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)
+* **[Bot Analytics](https://developers.liveperson.com/bot-analytics-overview.html)**: Visualize and tune the performance of your bot with usage and intent matching metrics.
+
+* **[Video tutorials](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)**: Learn about basic bot building concepts in a set of four videos.
+
+## Additional quick start guides
+
+* [Web messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
+* [Facebook Messenger quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
+* [SMS messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)

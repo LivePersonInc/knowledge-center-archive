@@ -125,6 +125,7 @@ This panel presents a deep dive into missed opportunity as it pertains to actual
 ![](/img/OP-SD-live-chat-staffing-summary.jpg)
 
 **Visualizations:**
+
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) |
 | --- | --- | --- |
 | Missed Opportunity Weekly (Stacked Combo Bar & Line Chart) | CHAT EXPOSED (SKILL)/ MISSED EXPOSED (SKILL) / EXPOSED RATE (SKILL) | DATE |

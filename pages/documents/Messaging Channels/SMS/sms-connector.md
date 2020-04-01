@@ -35,7 +35,7 @@ Brands planning to use Twilio for SMS, can get started right away using the [Twi
 
 ## Setting up the SMS connector
 
-Our self-serve setup for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place. For guidance on setting up the Twilio SMS connector for your brand, [click here](getting-started-quick-start-guides-twilio-sms-quick-start.html).
+Our self-serve setup for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place. To generate a Twilio SMS number directly throgh LivePerson's platform, [click here](generate-a-twilio-sms-number-with-liveperson.html). For guidance on setting up the Twilio SMS connector for your brand, [click here](getting-started-quick-start-guides-twilio-sms-quick-start.html).
 
 It's always important to ensure that your SMS operations meet local regulations and guidelines. For more information on compliance, read our best practices for complying with text messaging regulations [here](messaging-channels-sms-complying-with-sms-regulations.html).
 
