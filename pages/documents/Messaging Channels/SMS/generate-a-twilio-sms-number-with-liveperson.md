@@ -5,7 +5,7 @@ subCategoryName: SMS
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: generate-a-twilio-sms-number-with-liveperson.html
+permalink: messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.html
 isTutorial: false
 isNew: false
 date:
