@@ -66,7 +66,7 @@ This feature will provide support to allow a configured Rollover account to see 
 ### Type: Bug fix (Messaging History API 1.0.0.14)
 Use the correct data event to show the correct OS version
 
-## lastAgent details were incorrect following a Takeover 
+## lastAgent details were incorrect following a takeover 
 ### Type: Bug fix (Messaging History API 1.0.0.14)
 Messaging Interaction API: the ‘info’ fields related to the last assigned agent (latestAgentID, latestAgentFullName, latestAgentNickname etc.) do not update to the actual most recent agent following a “Takeover”.
 Takeover is noted as part of the transfer list but doesn’t impact the ‘info’ section of the API. 
