@@ -65,8 +65,11 @@ The add group button will be enabled once you select a parent group from the lis
 ### To add a new group:
 
 1. On the Users tab go to the Agent Group list.
+
 2. Select the parent group from the list.
+
 3. Click add group or click the action menu, and then click add.
+
 4. Fill in group details:
    * Type a group name
    * Type the name of the user(s) you want to assign as a manager(s)
