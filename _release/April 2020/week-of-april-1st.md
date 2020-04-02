@@ -64,6 +64,8 @@ LINE supports the sending of metadata with structured content in their app. If t
 * Metadata is fired as postback event
 * Agent sees metadata in LE transcript as feedback
 
+![](img/week-of-april-6th-1.png)
+
 **Enablement:** This feature is automatically enabled for all customers.
 
 ## [Enhanced agent workspace] Consumer info widget: Bot escalation summary 
@@ -71,10 +73,9 @@ LINE supports the sending of metadata with structured content in their app. If t
 
 The enhanced agent workspace now supports a new section within the consumer info widget: Bot escalation. This section displays all intents that were identified by bots during the messaging conversation, helping the agent take over the conversation, enhance the effectiveness and improve the experience of the conversation escalation. 
 Brands are able to send contextual information to the agent during bot transfers to provide the agent with the evaluated intent, confidence score, as well as a text summary. 
+In order to spare users from having to reset the workspace filters with each login, the global filter setting at logout will be retained upon login. The filters which are retained are only the global filters (available at the top right corner of the workspace): timeframe, group and skill filters. The filter settings are kept on the local storage of specific computer and browser per LiveEngage user.
 
 **Enablement:** Brands with any intent bots configured on their account will be exposed to this new section automatically. No additional configuration is required.
-
-![](img/week-of-april-1st-1.png)
 
 ![](img/week-of-april-1st-2.png)
 
