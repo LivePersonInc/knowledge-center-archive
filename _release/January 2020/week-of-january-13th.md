@@ -181,10 +181,6 @@ Each application, Global or Private, will include 2-3 internal tabs named Genera
 * **Information:** This tab is where the admin can read the overview of the application and see screenshots and videos.
 * **Configuration:** This tab is an iframe provided by the app owners and allowing the admin to configure the application in order for it to work.
 
-Application dashboard - Global applications tab:
-
-![](img/week-of-january-13th-10.png)
-
 General tab: 
 
 ![](img/week-of-january-13th-11.png)
