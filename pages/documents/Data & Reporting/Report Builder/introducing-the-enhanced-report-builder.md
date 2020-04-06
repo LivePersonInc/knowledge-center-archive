@@ -33,8 +33,6 @@ With the new Infrastructure upgrade there are some changes in terminology which 
 ### Access
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
-![](img/access.png)
-
 ### Navigation
 Dossier navigation has been moved from the bottom of the dashboard to the top. There are also new headings for each panel inside the sheet for effective use.
 
