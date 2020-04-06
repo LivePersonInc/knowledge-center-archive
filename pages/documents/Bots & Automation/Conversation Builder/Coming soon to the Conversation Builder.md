@@ -17,8 +17,8 @@ Our customers using the Conversation Builder have provided great feedback, speci
 
 LivePerson is redesigning the Dialog Editor within the Conversation Builder based on this feedback. Here’s an overview of the major changes coming soon in an upcoming release. These changes will simplify bot building & drastically increase a bot builder’s efficiency. They bring with them two key benefits:
 
-A scalable user interface that lets you easily manage a large number of dialogs
-A self-guided interface that lets you easily create rules, without the need for coding
+1. A scalable user interface that lets you easily manage a large number of dialogs
+2. A self-guided interface that lets you easily create rules, without the need for coding
 
 ## Backwards compatibility
 
