@@ -3,7 +3,7 @@ pagename: October 2019
 categoryName: What's new
 subCategoryName: ''
 indicator: chat
-subtitle: Top features include Social Connect, Email Connect, LiveIntent and more
+subtitle: Top features include Social Connect, Email Connect, Intent Analyzer and more
 level3: ''
 permalink: whats-new-october-2019.html
 isTutorial: false
@@ -55,21 +55,21 @@ Brands using both chat and messaging can set the engagement window to the new fl
 
 ### AI, Bots and Automation
 
-## LiveIntent
+## Intent Analyzer
 
-LiveIntent will provide real-time intent detection that helps you quickly and automatically identify high-impact intents to make more data-driven decisions.
+Intent Analyzer will provide real-time intent detection that helps you quickly and automatically identify high-impact intents to make more data-driven decisions.
 
-The benefits of LiveIntent are as follows:
+The benefits of Intent Analyzer are as follows:
 
 * **Real-time analytics**: Make smart business decisions backed by data and understand valuable consumer intents.
 * **Optimize operations intent by intent:** You can optimize operational processes and respond to customers with a strategic approach in real- time.
-* **Ease of use:** LiveIntent has full integration with Maven AI and Conversation Builder that includes all the tools you need to create personalized customer journeys.
+* **Ease of use:** Intent Analyzer has full integration with Maven AI and Conversation Builder that includes all the tools you need to create personalized customer journeys.
 * **Machine learning:** Be the first to harness the power of machine learning and start leading an intent-driven business to transform your brand.
 * **Data-driven automations:** Dynamically route your consumers to the right bot or human agent and refine dialogue flows with proven conversations to optimize bots.
 
 Intent starter packs will be introduced for Financial Services, Telco, and E-commerce brands to help you get up and running quickly while allowing you to add your brand-specific training data.
 
-For more information on LiveIntent please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html).
+For more information on Intent Analyzer please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html).
 
 ![](img/liveintent_dashboard-section-1.png)
 

@@ -30,8 +30,8 @@ For more information on Maven Assist, click [here](ai-bots-automation-maven-mave
 
 ![](img/whats_new_dec_2.png)
 
-## LiveIntent
-LiveIntent provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs. It’s a one-stop hub for discovering, tracking, and maintaining intents in real-time. LiveIntent leverages the NLU engine of your choice to analyze and track the performance of your intent libraries created in the Intent Builder. For more information on LiveIntent, click [here](ai-bots-automation-liveintent-overview.html).
+## Intent Analyzer
+Intent Analyzer provides real-time intent identification to help businesses optimize operations and enable data-driven automation programs. It’s a one-stop hub for discovering, tracking, and maintaining intents in real-time. Intent Analyzer leverages the NLU engine of your choice to analyze and track the performance of your intent libraries created in the Intent Builder. For more information on Intent Analyzer, click [here](ai-bots-automation-liveintent-overview.html).
 
 ![](img/whats_new_dec_3.png)
 
