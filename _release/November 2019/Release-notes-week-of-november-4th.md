@@ -226,8 +226,6 @@ With the new infrastructure upgrade, there are some changes in terminology which
 
 The report builder can be accessed through the quick launch menu which is located on the bottom left of the navigation panel.
 
-![](img/Quick_launch_man_workspace1.png)
-
 #### New look and feel with a modern and bright color scheme
 
 All Predefined dossiers have been enriched to include new data visualizations with a bright color-theme ( see screenshot below).  
