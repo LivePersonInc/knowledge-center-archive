@@ -85,6 +85,7 @@
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
+       - pagename: Coming soon to the Conversation Builder
        - pagename: Getting started tutorials
    - subcategoryname: Intent Analyzer
      pages:
