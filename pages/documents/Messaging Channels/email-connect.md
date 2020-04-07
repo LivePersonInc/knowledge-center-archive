@@ -69,6 +69,12 @@ Click the Connect button in the Email Connect tile. The Email Connect setup scre
 ![](img/email-connect-2.png)
 
 Click Add Email at the upper right of your screen.
+![](img/EmailConnect_new_UI1.png)
+
+### Step 2: Provide your email and skill details
+Follow the instructions to save your email and skill configurations. See details in the following section.
+
+[](img/Email_Connect_new_UI2.png)
 
 #### Option 2 Email Connect Setup via LiveEngage Applications
 
