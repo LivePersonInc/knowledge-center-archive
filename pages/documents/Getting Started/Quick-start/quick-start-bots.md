@@ -52,7 +52,8 @@ Create a "Hello World" bot using Conversation Builder.
 
      <img style="width:400px" src="img/cb_window2.png">
 
-6. Click **Save**.
+6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
+7. Click **Save**.
  
 ### Preview the bot again
 
@@ -71,7 +72,7 @@ To learn how to extend the bot and connect it to LiveEngage, complete the tutori
 
 * **[Bot Analytics](https://developers.liveperson.com/bot-analytics-overview.html)**: Visualize and tune the performance of your bot with usage and intent matching metrics.
 
-* **[Video tutorials](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Learn about basic bot building concepts in a set of four videos.
+* **[Video tutorials](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)**: Learn about basic bot building concepts in a set of four videos.
 
 ## Additional quick start guides
 

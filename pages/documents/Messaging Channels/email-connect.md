@@ -68,6 +68,8 @@ Click the Connect button in the Email Connect tile. The Email Connect setup scre
 
 ![](img/email-connect-2.png)
 
+Click Add Email at the upper right of your screen.
+
 #### Option 2 Email Connect Setup via LiveEngage Applications
 
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
@@ -158,6 +160,9 @@ Click Upload and select your custom .html footer file.
 Re-enter the password for your email, click Test Connection and click Save.
 
 ![](img/email-connect-step-10.png)
+
+## Multiple email addresses
+Brands can add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
 ## Reporting
 

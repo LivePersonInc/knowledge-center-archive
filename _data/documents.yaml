@@ -8,6 +8,7 @@
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
+        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -34,6 +35,7 @@
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
         - pagename: Using SMS with Twilio
+        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
@@ -83,6 +85,7 @@
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
+       - pagename: Coming soon to the Conversation Builder
        - pagename: Getting started tutorials
    - subcategoryname: Intent Analyzer
      pages:
@@ -337,12 +340,6 @@
   image: whats-new
   subcategories:
     - subcategoryname: January 2020
-    - subcategoryname: December 2019
-    - subcategoryname: November 2019
-    - subcategoryname: October 2019
-    - subcategoryname: September 2019
-    - subcategoryname: August 2019
-    - subcategoryname: July 2019
 
 - categoryname: Release notes
   image: release-notes
@@ -353,6 +350,7 @@
         - pagename: April
           level3:
             - level3name: Week of April 1st
+            - level3name: Week of April 6th
         - pagename: March
           level3:
             - level3name: Week of March 23rd
@@ -382,23 +380,7 @@
             - level3name: Week of November 18th
             - level3name: Week of November 11th
             - level3name: Week of November 4th
-        - pagename: October
-          level3:
-            - level3name: Week of October 21st
-            - level3name: Week of October 14th
-        - pagename: September
-          level3:
-            - level3name: Week of September 30th
-            - level3name: Week of September 23rd
-            - level3name: Week of September 9th
-            - level3name: Week of September 2nd
-        - pagename: August
-          level3:
-            - level3name: Week of August 26th
-            - level3name: Week of August 19th
-            - level3name: Week of August 12th
-            - level3name: Week of August 5th
-
+       
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
