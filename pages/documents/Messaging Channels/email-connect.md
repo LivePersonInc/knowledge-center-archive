@@ -68,6 +68,8 @@ Click the Connect button in the Email Connect tile. The Email Connect setup scre
 
 ![](img/email-connect-2.png)
 
+Click Add Email at the upper right of your screen.
+
 #### Option 2 Email Connect Setup via LiveEngage Applications
 
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
