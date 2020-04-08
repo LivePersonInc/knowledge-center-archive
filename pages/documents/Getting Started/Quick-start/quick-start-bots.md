@@ -98,7 +98,7 @@ In this step, you create a user agent for the bot. The user agent will have an a
     * **Email**: Enter any value, such as your own email address.
     * **Nickname**: Enter any value, e.g., "Bot User."
     * **Name**: Enter any value, e.g., "Bot User."
-    * **Choose login method**: Select "API key," and then, for Api key, select "Generate API key" from the dropdown list. This fills in the keys automatically. If you don't see the "API key" option, contact your LivePerson representative to enable this for you.
+    * **Choose login method**: Select "API key," and then, for **Api key**, select "Generate API key" from the dropdown list. This fills in the keys automatically. If you don't see the "API key" option, contact your LivePerson representative to enable this for you.
     * **Assignment**: Click this field, and select "Agent" from the list that appears.
     * **Max no. live chats**: Select "Unlimited."
     * **Skills**: Click this field, and select "BotSkill" from the list that appears. This is the default bot skill. **Do NOT add additional skills.**
