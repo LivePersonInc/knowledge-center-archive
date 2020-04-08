@@ -165,22 +165,23 @@ Next, you use Conversation Builder to connect your bot to the bot agent you just
 
 1. In a browser, navigate to [this test page](https://vx-lp.github.io/v2/lpwm/).
 
-    <img style="width:600px" src="img/cb_test_page.png">
+    <img style="width:700px" src="img/cb_test_page.png">
 
 2. Enter your account number and username (just your first name will do fine), and then click **Update**.
 3. Click the Messaging call to action.
 
+    <img style="width:700px" src="img/cb_call_to_action.png">
+
     This connects you with the bot in the BotSkill skill.
 
-4. In the Messaging window, enter a message to test the bot, and press Enter.
+4. Test the bot. In the Messaging window, enter a greeting (such as "aloha"), and press Enter.
 
-
-
+    <img style="width:300px" src="img/cb_bot_conversation.png">
 
 
 ## Step 5: Expand the capabilities of your bot
 
-* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to LiveEngage, and learn how to transfer a bot conversation to a live agent.
+* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Learn how to transfer a bot conversation to a live agent.
 
 * **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases including Routing, FAQ, Lead Generation and Order Status.
 
