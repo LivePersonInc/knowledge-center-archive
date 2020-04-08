@@ -54,10 +54,6 @@ Following the step up feature, Messaging History API did not show authenticated 
 ### Type: New Functionality (Messaging History API 1.0.0.14)
 Messaging History API will show the navigation history of a consumer in the last 48 hours (from the time the conversation is queried).
 
-## Private messages 
-### Type: New Functionality (Messaging History API 1.0.0.14)
-Private messages should be part of the transcript displayed to the agent / manager but shouldn’t appear in the transcript displayed to the consumer.
-
 ## Rollover  
 ### Type: New Functionality (Messaging History API 1.0.0.14)
 This feature will provide support to allow a configured Rollover account to see all active conversations from multiple Brand accounts in the Manager Workspace, and also allow Agents to see All Connections historical conversations.  
