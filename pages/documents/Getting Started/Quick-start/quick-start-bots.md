@@ -62,9 +62,126 @@ Create a "Hello World" bot using Conversation Builder.
 
 To learn how to extend the bot and connect it to LiveEngage, complete the tutorials listed below.
 
-## Step 4: Expand the capabilities of your bot
+## Step 4: Connect your bot to LiveEngage
 
-* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to LiveEngage, and learn how to transfer a bot conversation to a live agent.
+### Create the skill and user agent
+
+In this step, you create a user agent for the bot. The user agent will have an assigned skill, which you'll create first.
+
+1. Click the **Manage users and skills** icon on the left toolbar.
+
+    <img style="width:200px" src="img/cb_users_skills_icon.png">
+
+2. Click the **Skills** tab, and then click **Add skill** at the bottom of the page.
+
+    <img style="width:600px" src="img/cb_skills_tab.png">
+
+3. On the Add Skill page, specify the following:
+
+    * **Name**: Enter "BotSkill."
+    * **Description**: Enter "Bot skill."
+
+4. Click **Save**.
+
+    The BotSkill skill will be the default skill connected to the bot agent.
+    
+    Next, you create a user agent for the bot.
+
+5. Click the **Users** tab, and then click the **Add user** button at the bottom of the page.
+
+    <img style="width:600px" src="img/cb_users_tab.png">
+
+6. On the Add User page, specify the following:
+
+    * **User type**: Set this to "Bot." If you don't see this field, contact your LivePerson representative to enable this for you.
+    * **Login name**: Enter any value, e.g., "myBotUser."
+    * **Email**: Enter any value, such as your own email address.
+    * **Nickname**: Enter any value, e.g., "Bot User."
+    * **Name**: Enter any value, e.g., "Bot User."
+    * **Choose login method**: Select "API key," and then, for Api key, select "Generate API key" from the dropdown list. This fills in the keys automatically. If you don't see the "API key" option, contact your LivePerson representative to enable this for you.
+    * **Assignment**: Click this field, and select "Agent" from the list that appears.
+    * **Max no. live chats**: Select "Unlimited."
+    * **Skills**: Click this field, and select "BotSkill" from the list that appears. This is the default bot skill. **Do NOT add additional skills.**
+
+    <img style="width:400px" src="img/cb_assignment.png">
+
+7. Click **Save**.
+
+### Assign the bot skill to an engagement
+
+You will test the connection with a standard Messaging engagement, so now you create a campaign and an engagement that routes to the new BotSkill skill.
+
+1. Click the **Manage campaigns and engagements** icon on the left toolbar.
+
+    <img style="width:400px" src="img/cb_campaigns_icon.png">
+
+2. Click the **Add campaign** button at the bottom of the page.
+
+    <img style="width:600px" src="img/cb_campaigns_tab.png">
+
+3. On the page that appears, specify the following:
+
+    * **Campaign name**: Enter "My Bot Test."
+    * **Campaign goal**: Click **+ Add goal**, select "Interact with consumers" on the page that appears, and click **Done**.
+    * **Engagement**: Click **+ Add engagement**. For the engagement source, select "Web." In the gallery that appears next, select a messaging template, and click **Next**. In the Engagement Settings that appear next, select "Messaging" for the **Conversation type**. For **Routing**, select "Specific skill," and then select the "BotSkill" skill.
+
+    <img style="width:400px" src="img/cb_engagement_settings.png">
+
+4. Click **Next**.
+5. In the Engagement Studio, click **Next**.
+6. In the Engagement Window Library, click **Done**.
+
+    <img style="width:800px" src="img/cb_campaign.png">
+
+7. Click **Publish** in the upper-right corner, and then click **Publish** again to confirm the action.
+
+### Deploy the bot to LiveEngage
+
+Next, you use Conversation Builder to connect your bot to the bot agent you just created and get the connection running in the Demo environment.
+
+1. Return to Conversation Builder by clicking the **Manage conversation AI and bots** icon on the toolbar on the left.
+
+    <img style="width:300px" src="img/cb_cb_icon.png">
+
+2. Open your Hello Word bot.
+3. Click **Agent Connectors** on the menu bar in the upper-right corner.
+4. Click **New Bot Connector** in the upper-right corner, just under the menu bar.
+5. In the Add Agent Connector dialog box, specify the following based on the bot user you created.
+
+    * **Agent User ID**: Select “myBotUser.” This is the login name you used for the user agent.
+    * **Role**: Select "Agent."
+    * **Conversation Type**: Select "Messaging."
+    * **Deploy to**: Select "Demo." The Demo environment is a testing environment.
+
+6. Click **Save**.
+
+    <img style="width:800px" src="img/cb_agent_connector_1.png">
+
+7. Click the **Start** button to start the agent connector. This fully deploys the bot. It might take a few minutes for the connection to be established.
+
+    <img style="width:800px" src="img/cb_agent_connector_2.png">
+
+### Test your bot
+
+1. In a browser, navigate to [this test page](https://vx-lp.github.io/v2/lpwm/).
+
+    <img style="width:700px" src="img/cb_test_page.png">
+
+2. Enter your account number and username (just your first name will do fine), and then click **Update**.
+3. Click the Messaging call to action.
+
+    <img style="width:700px" src="img/cb_call_to_action.png">
+
+    This connects you with the bot in the BotSkill skill.
+
+4. Test the bot. In the Messaging window, enter a greeting (such as "aloha"), and press Enter.
+
+    <img style="width:300px" src="img/cb_bot_conversation.png">
+
+
+## Step 5: Expand the capabilities of your bot
+
+* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Learn how to transfer a bot conversation to a live agent.
 
 * **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases including Routing, FAQ, Lead Generation and Order Status.
 
