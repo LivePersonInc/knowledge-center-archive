@@ -32,7 +32,7 @@ Brands can now use UI based tools to setup Static and FaaS attributes in Context
 The New UI also simplifies connecting to Live Person Functions, as all available functions are now automatically available in a drop down. 
 
 Create Static Attributes:
-!(img/RNMaven2.png)
+![](img/RNMaven2.png)
 
 Create FaaS attributes. Integration with LivePerson Functions to show available functions in a drop down. 
 ![](img/RNMaven3.png)
