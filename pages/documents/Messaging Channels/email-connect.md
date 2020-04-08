@@ -48,9 +48,6 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 
 ## EmailConnect Setup
 
-{: .notice}  
-**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
-
 {: .important}  
 To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
@@ -64,21 +61,20 @@ Login to LiveEngage and click the Campaigns icon located in the left navigation 
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)
 
-Click the Connect button in the Email Connect tile. The Email Connect setup screen will open automatically in a separate browser tab.
+Click the Connect button in the Email Connect tile. 
 
 ![](img/email-connect-2.png)
 
 Click Add Email at the upper right of your screen.
+![](img/EmailConnect_new_UI1.png)
 
 #### Option 2 Email Connect Setup via LiveEngage Applications
 
 Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
 
-![](img/email-connect-1.png)
+Click **EmailConnect**. 
 
-Click **EmailConnect**. The Email Connect setup screen will automatically open in a separate browser tab.
-
-![](img/email-connect-2.png)
+![](img/EmailConnect_new_UI1.png)
 
 ### Step 2: Provide your email credentials to setup your email
 
@@ -92,12 +88,12 @@ Email address must be configured as below:
 
 Follow the instructions on the screen to save your email configuration details.
 
-![](img/email-connect-3.png)
+![](img/EmailConnect_new_UI2.png)
+![](img/EmailConnect_new_UI3.png)
+![](img/EmailConnect_new_UI4.png)
 
 ### Step 3: Save email configuration and skill settings
-Click Test Connection and then click Save
-
-![](img/Email-connect-step-3.png)
+Click Test Connection and then click Save.
 
 ### Step 4 Start receiving and responding to emails in LiveEngage
 
