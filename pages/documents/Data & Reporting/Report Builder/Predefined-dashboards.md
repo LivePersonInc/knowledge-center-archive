@@ -34,3 +34,14 @@ Includes information about responses to surveys
 * [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
 * [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
 * [**Business dashboard for LiveChat**](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-business-dashboard-and-grid-for-live-chat.html) Includes information about campaigns and engagements performance.
+
+The Report Builder also includes a set of predefined grids:
+* Agent Activity Grid ( Daily, Monthly)
+* Business Activity Grid -( Daily, Monthly)
+* Goals Tracker Grid ( Daily, Monthly)
+* Performance Messaging Agent Grid - ( Daily, Monthly)
+* Performance Messaging Brand Grid - ( Daily, Monthly)
+* Skill Activity Grid- ( Daily, Monthly)
+* Survey Activity - ( Daily, Monthly)
+
+![](img/RB_grids.png)
