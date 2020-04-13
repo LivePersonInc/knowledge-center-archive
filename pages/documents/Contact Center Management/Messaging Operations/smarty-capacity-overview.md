@@ -12,6 +12,7 @@ date: 2019-01-17 11:53:17 +0000
 isNew: false
 redirect_from:
 - change-queue-options.html
+- contact-center-management-messaging-operations-smart-capacity-overview.html
 
 ---
 ## How messaging impacts a conversation's lifecycle
