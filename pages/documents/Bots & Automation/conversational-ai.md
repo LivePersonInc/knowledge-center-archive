@@ -39,7 +39,7 @@ Intent Analyzer automatically analyzes customer messages sent to human agents as
 
 Intents can be built and trained in LivePerson, or uploaded from an existing system or other NLU engine. Brands can create intent dashboards to optimize operations, intent by intent, and build a data driven automation program.
 
-![](/img/conv-ai-1.jpg)
+![](/img/conv-ai-1.png)
 
 ### AI Powered Routing by Maven
 
