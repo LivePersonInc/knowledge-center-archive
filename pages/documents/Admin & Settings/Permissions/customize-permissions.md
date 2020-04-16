@@ -142,9 +142,9 @@ The following core permissions are included with the agent manager role and cann
 | Edit Skills | Create, edit or delete Skills | Off |
 | Export users | Export the list of Agent or Agent Manager users in their groups or sub-groups; this will also export the list of skills, profiles and the groups and sub-groups managed by the Agent Managers | Off |
 | Set manual SLA | Allows agent managers to manually configure the response time in a conversation | On |
-| View reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows agent managers to customize reports | Off |
-| Share reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows reports to be shared with other users on the account | Off |
+| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
+| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows agent managers to customize reports | Off |
+| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
 | View reports in Operational BI | View reports in the Operational BI dashboard | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |
 | Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
@@ -176,9 +176,9 @@ The following core permissions are included with the campaign manager role and c
 | Edit conversation source | Configure consumer entry points to engage with your brand | On |
 | Edit skills | Edit skills and configure default survey for skill change | On |
 | Configure authentication server | For brands who have enabled the authentication conversation feature, this permission allows users to configure the authentication server | On |
-| View reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows campaign managers to customize reports | Off |
-| Share reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows reports to be shared with other users on the account | Off |
+| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
+| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows campaign managers to customize reports | Off |
+| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
 | View reports in Operational BI | View reports in the Operational BI dashboard | Off |
 | View reports in Campaign BI | View reports in the Campaign BI dashboard | On |
 | View Connection Area content | View relevant content from the Connection Area per journey | On |

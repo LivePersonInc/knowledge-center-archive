@@ -70,5 +70,5 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 
 ## Reporting & metrics
 
-* Metric calculation per campaign type, campaign, engagement, entry point and source is available in the Report Builder
+* Metric calculation per campaign type, campaign, engagement, entry point and source is available in the Analytics Builder
 * To add the broadcast event to the reports, please contact your LivePerson account team

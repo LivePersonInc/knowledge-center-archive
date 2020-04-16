@@ -50,9 +50,9 @@ To filter by agent group in web history, click on the filter icon in the agent g
 
 To filter by agent group in all connections, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
-## Viewing engagements over time using the Report Builder dashboards
+## Viewing engagements over time using the Analytics Builder dashboards
 
-Using the agent manager [Report Builder dashboards](data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
+Using the agent manager [Analytics Builder dashboards](data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
 
 In some cases, when agent managers are also configured to take conversations, they may impact the group statistics. For example, the agent manager status is usually **away** and will be “online” only when they are needed to take conversations. This might impact the group’s utilization KPIs. If you wish to include or exclude manager activities from the report, check/uncheck the 'is manager indicator' checkbox.
 

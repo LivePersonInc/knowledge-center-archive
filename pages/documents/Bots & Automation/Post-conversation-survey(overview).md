@@ -66,7 +66,7 @@ The survey will be closed in a number of different scenarios:
 * Survey timeout
 * Survey skipped
 
-Each outcome is tracked and reported on as part of the Report Builder to enable brands full analysis of the results.
+Each outcome is tracked and reported on as part of the Analytics Builder to enable brands full analysis of the results.
 
 The brand can configure a closing message that will be sent to the consumer for each of the above survey scenarios.
 
@@ -156,7 +156,7 @@ You can set phrases that will allow the consumer to skip the survey. If the cons
 
 ### Survey timeout
 
-To set the survey timeout, set the aamount of time under "Survey timeout". Enter the amount of time the survey will remain active before it is closed and a closing message is displayed.
+To set the survey timeout, set the amount of time under "Survey timeout". Enter the amount of time the survey will remain active before it is closed and a closing message is displayed.
 
 The survey timeout is calculated from the moment the survey starts until it reaches the timeout.
 
@@ -224,7 +224,7 @@ Once enabled, make sure to fill in the desired text in the Text Fallback Tab. Th
 
 ![](/img/post-conversation-survey-user-guide10.png)
 
-The messaging performance dashboard in Report Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
+The messaging performance dashboard in Analytics Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the LiveEngage Bot Studio.
 
 The new sheet contains an additional set of metrics and attributes which support the following analysis:
 

@@ -91,8 +91,8 @@ Once you click on a conversation to view its transcript, this detailed view will
 
 Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Connections and use only the preview to view the conversation. In the new view of All Connections this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
 
-{: .notice} 
-**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced agent workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced agent workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Connections list as was done previously. 
+{: .notice}
+**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced agent workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced agent workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Connections list as was done previously.
 
 ### Opening multiple conversations concurrently  
 
@@ -110,12 +110,12 @@ After you view conversations in All Connections, you have the ability to take [s
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
 
-{: .notice} 
-**Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
+{: .notice}
+**Please note:** In the new manager workspace you must first join a conversation before taking actions on it.
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
 * **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
-* **Resume the conversation** 
+* **Resume the conversation**
 * **Transfer the conversation**
 * **Send conversation back to queue**
 * **Close the conversation**
@@ -181,7 +181,7 @@ Some managers are using the information available in the drop down dashboard:
 
 The new manager workspace offers much greater detail on the shift and will replace this dashboard. A couple of items from the dashboard will be discontinued:
 * **Closed conversations graph** - This graph not be available in the new workspace, only the total number of closed conversations. Users can view the [Real Time Dashboard](/data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) for these details.
-* **CSAT distribution** - This information will be available in the new workspace. The [Report Builder](/data-reporting-report-builder-report-builder-overview.html) is available with detailed CSAT reporting for further analysis as needed.
+* **CSAT distribution** - This information will be available in the new workspace. The [Analytics Builder](/data-reporting-report-builder-report-builder-overview.html) is available with detailed CSAT reporting for further analysis as needed.
 
 ## Managing both chat & messaging agents
 
@@ -220,4 +220,4 @@ The following filters will no longer be available:
 Next to the agent name, there was an indication of how many unread messages they had in that conversation. This indicator will not be available in the new workspace.
 
 **List of conversations agents are joined into**
-Through the existing Open Connections list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new  conversation widget will only display the conversations that the agent is assigned to.   
+Through the existing Open Connections list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new conversation widget will only display the conversations that the agent is assigned to.   

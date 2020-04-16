@@ -66,8 +66,8 @@ There are a few question types you can choose from:
 
 {:start="5"}
 5. Choose your predefined questions -
-  * **Conversation topic** - you can define your own topics. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Report Builder (Coming November)
-  * **Conversation outcome** - you can define your own outcomes. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Report Builder (Coming November)
+  * **Conversation topic** - you can define your own topics. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Analytics Builder (Coming November)
+  * **Conversation outcome** - you can define your own outcomes. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Analytics Builder.
   * **Engagement Attributes** - Allow your agents to report engagement attributes on behalf of the consumer!
 Choose which Engagement Attribute and which attributes will be available for the agents to submit. You can read more [here](/data-reporting-engagement-attributes-conversation-outcomes.html).
 

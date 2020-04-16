@@ -101,9 +101,9 @@ The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 * Spanish
 * Turkish
 
-## Languages supported in Report Builder
+## Languages supported in Analytics Builder
 
-The [Report Builder](data-reporting-report-builder-report-builder-overview.html) supports the English language only.
+The [Analytics Builder](data-reporting-report-builder-report-builder-overview.html) supports the English language only.
 
 
 ## Languages supported by MCS

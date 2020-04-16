@@ -48,6 +48,6 @@ Within the LivePerson platform, each [campaign](contact-center-management-campai
 3. Hover over the campaign time frame and click edit.
 4. At the bottom of the page, select a time zone and click save. The campaign is now saved with the updated setting.
 
-## Report Builder time zone
+## Analytics Builder time zone
 
-The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in[ Report Builder](data-reporting-report-builder-report-builder-overview.html) on the next load. In addition, in the operational dashboards, users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset, allowing the users to analyze performance in their local time.
+The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in[ Analytics Builder](data-reporting-report-builder-report-builder-overview.html) on the next load. In addition, in the operational dashboards, users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset, allowing the users to analyze performance in their local time.
