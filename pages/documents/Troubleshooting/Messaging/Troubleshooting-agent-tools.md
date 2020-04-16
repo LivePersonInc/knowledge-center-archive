@@ -118,7 +118,7 @@ Do not exceed the supported length of messages, as detailed below:
 
 ### Cause:
 
-When running the Messaging Performance Dashboard in Report Builder, the ONLINE metric presents 0 time for Messaging only agents.
+When running the Messaging Performance Dashboard in the Analytics Builder, the ONLINE metric presents 0 time for Messaging only agents.
 
 Messaging Agents must have Chat concurrency set (greater than 0) in order for the system to populate this metric's value. For Messaging Agents with Chat concurrency 0 (no chats), Online Time displays as 0.
 

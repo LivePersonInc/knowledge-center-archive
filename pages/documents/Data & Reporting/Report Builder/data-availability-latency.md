@@ -1,7 +1,7 @@
 ---
 pagename: Data availability and latency
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Analytics Builder
 indicator: both
 subtitle: An overview in to data availability and latency within Analytics Builder
 level3: ''
@@ -9,7 +9,7 @@ permalink: data-reporting-report-builder-data-availability-latency.html
 isTutorial: false
 date: 2019-01-17 09:37:53 +0000
 isNew: false
-
+redirect_from: data-reporting-report-builder-data-availability-latency.html
 ---
 ## Data stored and updated in Analytics Builder
 

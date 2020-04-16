@@ -11,13 +11,13 @@ isNew: false
 date: 2019-02-26 12:03:37 +0000
 
 ---
-## Missing Excel export button in Report Builder and cannot export dashboards
+## Missing Excel export button in Analytics Builder and cannot export dashboards
 
 ### Cause:
 
 The user does not see the visualization headers that contain the Export options menu (at the top right corner).
 
-For users who do not have “Edit” access in Report Builder, the visualization headers are hidden and these users cannot change the header settings.
+For users who do not have “Edit” access in Analytics Builder, the visualization headers are hidden and these users cannot change the header settings.
 
 {: .notice}  
 Only custom dashboards saved in the My Reports or My Account folder have hidden headers. In predefined dashboards the visualization headers are always set to visible.
@@ -26,21 +26,21 @@ Only custom dashboards saved in the My Reports or My Account folder have hidden 
 
 Set visualization headers to visible as follows:
 
-1. Log in to the account with an LPA user or any user that has Edit access in Report Builder.
+1. Log in to the account with an LPA user or any user that has Edit access in Analytics Builder.
 2. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
 3. Set visualization headers to visible as follows:  
    a. Check the box next to **Show title bar** in order to unhide the header.  
-   b. Log in to the account with an LPA user or any user that has **Edit** access in Report Builder.  
+   b. Log in to the account with an LPA user or any user that has **Edit** access in Analytics Builder.  
    c. Select the visualization with the hidden header and navigate to the **Properties** panel (on the left, interchanging with the Filters panel).
 4. Save a copy of the dashboard. Now the Export option will be visible.
 
-## In the Report Builder, the Total No. of Conversations Handled are not adding up
+## In the Analytics Builder, the Total No. of Conversations Handled are not adding up
 
 The totals that are displayed on the Messaging Performance dashboard (highlighted in red in image below) are not the same as the totals reported in the exported Excel file.
 
 For example, the total NO. OF CONVERSATIONS HANDLED reported in the Excel file is higher than the total NO. OF CONVERSATIONS HANDLED (for the same time period) reported on the Messaging Performance dashboard.
 
-**Report Builder report**
+**Analytics Builder report**
 
 ![](/img/troubleshooting-Reporting1-2.png)
 
@@ -69,9 +69,9 @@ This is expected behavior.
 3. Add the sum of the values in the two “transfer” metrics to the value of the NO. OF CONVERSATIONS HANDLED metric on the Messaging Performance Dashboard.
 4. The result should equal the total number in the Excel report.
 
-## Why aren’t Report Builder dashboard filters working?
+## Why aren’t Analytics Builder dashboard filters working?
 
-When you set/change filters on the Report Builder dashboards, there is no noticeable impact to the dashboard data.
+When you set/change filters on the Analytics Builder dashboards, there is no noticeable impact to the dashboard data.
 
 ### Cause:
 
@@ -79,7 +79,7 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 
 ### Solution:
 
-1. If you are a LiveEngage Administrator or a user with Report Builder “Edit” access, click the Refresh button at the top of the dashboard.
+1. If you are a LiveEngage Administrator or a user with Analytics Builder “Edit” access, click the Refresh button at the top of the dashboard.
 2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
 3. Run the dashboard again to refresh the data.
 
@@ -124,5 +124,5 @@ Web History contains the transaction details of orders that took place in the sa
 
 ### Solution
 
-* Use BI reports or Report Builder for reporting and tracking SALES (conversions).
+* Use BI reports or Analytics Builder for reporting and tracking SALES (conversions).
 * Do not use Web History to track conversions – it is not designed for this purpose.

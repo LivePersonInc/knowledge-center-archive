@@ -1,14 +1,15 @@
 ---
 pagename: Introducing the enhanced Analytics Builder
-categoryName: Report Builder
+categoryName: Analytics Builder
 subCategoryName:
 indicator: both
 subtitle: ''
 level3: ''
-permalink: data-reporting-report-builder-introducing-the-enhanced-report-builder.html
+permalink: data-reporting-analytics-builder-introducing-the-enhanced-analytics-builder.html
 isTutorial: false
 date:
 isNew: false
+redirect_from:data-reporting-report-builder-introducing-the-enhanced-report-builder.html
 ---
 
 The Analytics Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.

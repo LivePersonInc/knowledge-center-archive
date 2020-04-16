@@ -1,23 +1,23 @@
 ---
-pagename: Report Builder FAQs
+pagename: Analytics Builder FAQs
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Analytics Builder
 indicator: both
-subtitle: All the questions you want answered about the Report Builder
+subtitle: All the questions you want answered about the Analytics Builder
 level3: ''
-permalink: data-reporting-report-builder-report-builder-faqs.html
+permalink: data-reporting-analytics-builder-analytics-builder-faqs.html
 isTutorial: false
 date: '2019-01-16T13:47:26.000+00:00'
 isNew: false
-
+redirect_from: data-reporting-report-builder-report-builder-faqs.html
 ---
-### How can I access Report Builder?
+### How can I access Analytics Builder?
 
-Report Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Report Builder icon on the left of the screen.
+Analytics Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Analytics Builder icon on the left of the screen.
 
 ### Can I create my own reports?
 
-LiveEngage Report Builder offers users to [create custom dashboards](data-reporting-report-builder-report-builder-user-guide-(customization).html) that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Report Builder.
+LiveEngage Analytics Builder offers users to [create custom dashboards](data-reporting-report-builder-report-builder-user-guide-(customization).html) that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Analytics Builder.
 
 ### What reporting data is available?
 
@@ -32,13 +32,13 @@ The data currently available in LiveEngage predefined dashboards is detailed bel
 * [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html): Includes information about skill performance and skill demand.
 * [Survey activity dashboard:](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys presented  in Live Chat.
 
-### With regard to data storage, where are the Report Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
+### With regard to data storage, where are the Analytics Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
 
-Report Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers.
+Analytics Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers.
 
-### Is the information stored on Report Builder encrypted?
+### Is the information stored on Analytics Builder encrypted?
 
-The same security measures applied to all other LivePerson products and servers also apply to Report Builder, including encryption.
+The same security measures applied to all other LivePerson products and servers also apply to Analytics Builder, including encryption.
 
 ## Performance
 
@@ -48,11 +48,11 @@ There might be a caching issue with the browser. Please try to clear the cache o
 
 ### Data discrepancies
 
-### Why do I see different values for metrics in the Report Builder and the BI Dashboards?
+### Why do I see different values for metrics in the Analytics Builder and the BI Dashboards?
 
-Make sure the filters are the same in the Report Builder and the BI. As default, the agent manager BI filter includes agent managers’ data, but doesn’t include inactive agent groups & agents (under INCLUDE section).
+Make sure the filters are the same in the Analytics Builder and the BI. As default, the agent manager BI filter includes agent managers’ data, but doesn’t include inactive agent groups & agents (under INCLUDE section).
 
-In Report Builder, the flexibility is higher and there are at least 3 different indicators:
+In Analytics Builder, the flexibility is higher and there are at least 3 different indicators:
 
 * ACTIVE GROUP IND
 * ACTIVE AGENT IND
@@ -60,13 +60,13 @@ In Report Builder, the flexibility is higher and there are at least 3 different 
 
 The default values are the same as in the BI, but when customizing a report and adding a new sheet - make sure to add these indicators to the filter panels and set the the same values as in the BI.
 
-**Timezone for data display:** It is important to note that the Agent Manager BI displays data in the user’s local timezone, while the Report Builder dashboards and Campaign BI utilize the account’s timezone. For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
+**Timezone for data display:** It is important to note that the Agent Manager BI displays data in the user’s local timezone, while the Analytics Builder dashboards and Campaign BI utilize the account’s timezone. For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
 
 ## Usability
 
 ### Can I move a dashboard I’ve created from one folder to another, or into a new folder?
 
-You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Report Builder User Guide](data-reporting-report-builder-report-builder-user-guide-(standard).html) for additional information about working with folders.
+You may only create a copy of the dashboard and select in which folder to save it. Please refer to the [Analytics Builder User Guide](data-reporting-report-builder-report-builder-user-guide-(standard).html) for additional information about working with folders.
 
 ### After deleting a campaign in LE, how can I remove the campaign from list of campaign in the filter?
 
@@ -109,14 +109,14 @@ The “last campaign” attribution in relevant to content banners alone. In thi
 
 The conversion will be counted as an Indirect conversion towards the Service campaign. The condition in question is: does the goal that was reached match the goal associated with campaign the visitor engaged in? In this example, the answer is NO. The goal achieved was a sales goal, while the goal configured on the campaign the visitor engaged through is a service goal. Therefore, the campaign the visitor engaged through will be attributed with an indirect conversion.
 
-### Why is the campaign BI showing lower numbers for funnel metrics than those presented by Report Builder?
+### Why is the campaign BI showing lower numbers for funnel metrics than those presented by Analytics Builder?
 
-Funnel metrics, such as prospects and exposures, may show higher numbers in report builder predefined dashboards, for the same filtered timeframe.
+Funnel metrics, such as prospects and exposures, may show higher numbers in Analytics Builder predefined dashboards, for the same filtered timeframe.
 
 The different originates from the methodology funnel metrics are computed:
 
 * LiveEngage campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
-* Report Builder uses only the Visit session start time
+* Analytics Builder uses only the Visit session start time
 
 #### Example
 
@@ -130,11 +130,11 @@ The different originates from the methodology funnel metrics are computed:
 |  | Prospects | Exposed | Accepted Offers |
 | --- | --- | --- | --- |
 | Campaign BI | 1 | 0 | 0 |
-| Report Builder | 1 | 1 | 1 |
+| Analytics Builder | 1 | 1 | 1 |
 
-The Campaign BI validates that both visit start time and the event time were recorded during 20-Feb, while Report Builder only requires the visit start time to be recorded during 20-Feb.
+The Campaign BI validates that both visit start time and the event time were recorded during 20-Feb, while Analytics Builder only requires the visit start time to be recorded during 20-Feb.
 
-Report Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Report Builder metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) for the full list of available metrics.
+Analytics Builder funnel metrics that are included in the above explanation are available through the “Exposures” and “Viewed and Accepted Offers” datasets. Please refer to the [Analytics Builder metrics](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) for the full list of available metrics.
 
 ## Goal Tracker
 
@@ -150,11 +150,10 @@ The date filter of the goal tracker is applied to the engagement start time. The
 
 ## Handling of 3rd party defects
 
-### What 3rd party tool does the Report Builder use and what is it's support policy?
+### What 3rd party tool does the Analytics Builder use and what is it's support policy?
 
 The builder is based on a 3rd party tool by Microstrategy, named Microstrategy Desktop - Web Client. LivePerson is entitled to and will escalate newly discovered defects with the tool to Microstrategy. LivePerson does not commit to resolution of defects found within the Microstrategy platform, however, is committed to deploying fixes made available by Microstrategy to improve the stability and availability of the builder for LivePerson’s customers.
 
 ### What are the reporting tool browser requirements?
 
 To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://env-132731.customer.cloud.microstrategy.com/MicroStrategyLibrary/app/0F79F3C611E92F02184F0080EF9511BB/DD9A640145118E77CC948A9410AC6539/K53--K46)
-

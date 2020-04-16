@@ -188,4 +188,4 @@ SocialConnect will support basic routing of a social media channel (e.g. Faceboo
 More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the SocialConnect product.
 
 {: .notice}
-SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Report Builder, should operate with SocialConnect as expected.
+SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Analytics Builder, should operate with SocialConnect as expected.

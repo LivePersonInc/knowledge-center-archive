@@ -163,9 +163,9 @@ Re-enter the password for your email, click Test Connection and click Save.
 
 Agent Effectiveness reports are available for all email conversations to brand administrators and agent manager.
 
-### Step 11: Open Report Builder
+### Step 11: Open the Analytics Builder
 
-Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Report Builder.
+Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Analytics Builder.
 
 ![](img/EmailConnect_Reporting1.png)
 

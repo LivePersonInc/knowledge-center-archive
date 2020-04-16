@@ -1,24 +1,24 @@
 ---
 pagename: User Guide (standard)
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Analytics Builder
 indicator: both
 subtitle: 'User guide for users with read only access '
 level3: ''
-permalink: data-reporting-report-builder-report-builder-user-guide-(standard).html
+permalink: data-reporting-analytics-builder-analytics-builder-user-guide-(standard).html
 isTutorial: false
 date: '2019-01-10T09:10:56.000+00:00'
-
+redirect_from: data-reporting-report-builder-report-builder-user-guide-(standard).html
 ---
-## Accessing Report Builder
+## Accessing Analytics Builder
 
-Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
+Brands can access Analytics Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
-To access the Report Builder:
+To access the Analytics Builder:
 
 1. Log into LiveEngage using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon.
-3. Click the Report Builder icon on the left of the screen. A new tab is opened.
+3. Click the Analytics Builder icon on the left of the screen. A new tab is opened.
 4. Click **shared reports**. Two folders are displayed:
    * **LE predefined dashboards**: All available predefined LiveEngage dashboards.
    * **My account**: Reports that have been designed specifically for your account.
@@ -29,7 +29,7 @@ To access the Report Builder:
 
 ## Data view restrictions
 
-Report Builder filters data by agent groups, meaning that agent group managers can see data from their own group(s) and subgroups only.
+Analytics Builder filters data by agent groups, meaning that agent group managers can see data from their own group(s) and subgroups only.
 
 Where there is data that cannot be pre-filtered by agent group, there are also restrictions by role:
 
@@ -38,9 +38,9 @@ Where there is data that cannot be pre-filtered by agent group, there are also r
 * No restrictions apply for campaign managers.
 * Agent managers required to view business data available on the business activity dashboard will need to be assigned the role of campaign manager as well.
 
-## Report Builder folders
+## Analytics Builder folders
 
-Dashboards in Report Builder are saved in folders. The available folders are as follows:
+Dashboards in Analytics Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports -** dashboards saved here are visible to all the users in the account.
 * **Predefined dashboards**: All available predefined dashboards.
@@ -50,22 +50,22 @@ Dashboards in Report Builder are saved in folders. The available folders are as 
 
 ## LiveEngage predefined dashboards
 
-The LiveEngage Report Builder provides a robust reporting platform with powerful DIY features allowing brands to create their own business-intelligent dashboards. LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The LiveEngage Analytics Builder provides a robust reporting platform with powerful DIY features allowing brands to create their own business-intelligent dashboards. LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Analytics Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 If you wish to enrich the predefined dashboards, and customize them to their needs are requested to approach their LivePerson account manager.
 
 The data currently available in the predefined dashboards can be found [here](https://knowledge.liveperson.com/data-reporting-report-builder-predefined-dashboards.html)
 
 {: .notice}  
-The data included in Report Builder is constantly evolving.
+The data included in the Analytics Builder is constantly evolving.
 
 ## Metrics glossary
 
 Before beginning your analysis using the available predefined dashboards, we highly recommend opening the glossary listing all metrics with their corresponding formulas and descriptions.
 
-The glossary contains a full list of metrics available through report builder. Metrics that do not appear in the predefined dashboards can be added by a LivePerson member to the account specific dashboards upon request. Please reach out to your account manager or customer success manager for information about gaining access to additional metrics.
+The glossary contains a full list of metrics available through Analytics Builder. Metrics that do not appear in the predefined dashboards can be added by a LivePerson member to the account specific dashboards upon request. Please reach out to your account manager or customer success manager for information about gaining access to additional metrics.
 
-Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Report Builder Data Metrics
+Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Analytics Builder Data Metrics
 
 ## Field details sheet
 
@@ -73,7 +73,7 @@ Every predefined dashboard includes a sheet titled “field details.” This she
 
 ### **Viewing reports**
 
-Each report in Report Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
+Each report in the Analytics Builder includes dashboard view(s) and field details. You can change between views by using the tabs at the bottom of the screen.
 
 **To run a report:** Click on the dashboard you wish to open.
 
@@ -97,7 +97,7 @@ When running the dashboards below another prompt will be shown - “hour offset 
 * [Performance dashboard for messaging](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)
 * [Survey dashboard for Messaging & Live Chat](data-reporting-messaging-chat-dashboards-survey-dashboard-for-live-chat.html)
 * [Skill dashboard for Live Chat](data-reporting-messaging-chat-dashboards-survey-skill-dashboard-for-live-chat.html)
-  
+
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
 

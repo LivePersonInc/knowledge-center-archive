@@ -1,13 +1,14 @@
 ---
 pagename: Predefined dashboards
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Analytics Builder
 indicator: both
-subtitle: Report Builder predefined dashboards for messaging and chat
+subtitle: Analytics Builder predefined dashboards for messaging and chat
 level3: ''
-permalink: data-reporting-report-builder-predefined-dashboards.html
+permalink: data-reporting-analytics-builder-predefined-dashboards.html
 isTutorial: false
 date: '2020-02-26'
+redirect_from: data-reporting-report-builder-predefined-dashboards.html
 ---
 
 ## Predefined dashboards
