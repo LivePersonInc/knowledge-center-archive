@@ -17,9 +17,9 @@ In situations where multiple skills\\agents are assigned to each conversation, m
 
 LivePerson introduces a new segmentation model to measure each individual skill\\agent performance and present accurate KPIs per skill\\agent.
 
-The new metrics are added to the Report Builder for historical data analysis and are also available for real time data extraction:
+The new metrics are added to the Analytics Builder for historical data analysis and are also available for real time data extraction:
 
-* Report Builder - included in the Performance dashboard for Messaging
+* Analytics Builder - included in the Performance dashboard for Messaging
 * Messaging Operations API - in the following methods:
 
 1. [Messaging Skill Segment](https://developers.liveperson.com/messaging-operations-api-methods-messaging-skill-segment.html)

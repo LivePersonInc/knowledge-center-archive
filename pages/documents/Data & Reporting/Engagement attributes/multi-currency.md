@@ -11,7 +11,7 @@ date: 2019-01-17 13:47:37 +0000
 isNew: false
 
 ---
-Brands providing a service to consumers in more than one country must often handle bookings and revenues in multiple currencies. In order to accurately track the amount of each currency being generated, LiveEngage can record each currency transaction and provides a full breakdown of the currency data available in Report Builder.
+Brands providing a service to consumers in more than one country must often handle bookings and revenues in multiple currencies. In order to accurately track the amount of each currency being generated, LiveEngage can record each currency transaction and provides a full breakdown of the currency data available in Analytics Builder.
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -23,7 +23,7 @@ LiveEngage multi currency offers brands the ability to report a “currency” a
 * Customer info: Balance
 * Lead: Value
 
-Brands reporting the above engagement attributes using currency will now be able to see a full breakdown of these currencies in LiveEngage Report Builder. The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage.
+Brands reporting the above engagement attributes using currency will now be able to see a full breakdown of these currencies in LiveEngage Analytics Builder. The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage.
 
 ## Reporting
 
@@ -31,7 +31,7 @@ When reporting on revenue and transactions, LiveEngage checks whether an account
 
 ![](/img/multi-currency1.png)
 
-A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
+A partial breakdown by currency can be found in the [Agent Goal Tracker](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) report (available in the Agent Manager BI), while a complete breakdown of currencies can be found in the [Analytics Builder.](data-reporting-report-builder-report-builder-overview.html)
 
 ![](/img/Multi-currency2.png)
 

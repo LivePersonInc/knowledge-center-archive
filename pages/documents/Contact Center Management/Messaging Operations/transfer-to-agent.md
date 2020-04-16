@@ -159,7 +159,7 @@ No dynamic texts are currently available when transfer to agent was used.
 
 ## **Reporting**
 
-In order to analyze “transfer-to-agent” operation, you may refer to the Report Builder.
+In order to analyze “transfer-to-agent” operation, you may refer to the Analytics Builder.
 
 On “Messaging Advanced Dashboard”> “Agent Messaging Activity” dataset the following metrics are available for use:
 

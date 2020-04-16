@@ -74,7 +74,7 @@ When transferring to a skill that has a load balancing definition that doesn’t
 
 **How will the reporting work for this feature ?**
 
-Using the Report Builder the brand is able to view the overall opened conversations of a brand by agent group and by skill per agent group. This will enable the creation of the following:
+Using the Analytics Builder the brand is able to view the overall opened conversations of a brand by agent group and by skill per agent group. This will enable the creation of the following:
 
 * View a breakdown of the messaging volume per agent group.
 * View the percentage of the messages that were assigned to a group of agents and their overall volume out of the total volume

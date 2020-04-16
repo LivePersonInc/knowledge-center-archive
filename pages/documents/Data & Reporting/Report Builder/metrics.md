@@ -3,14 +3,14 @@ pagename: Metrics
 categoryName: Reporting & Data
 subCategoryName: Report Builder
 indicator: both
-subtitle: " A comprehensive search of all the Metrics related to the Report Builder"
+subtitle: " A comprehensive search of all the Metrics related to the Analytics Builder"
 level3: ''
 permalink: Reporting-&-data-report-builder-metrics
 isTutorial: false
 date: 2019-01-09 12:53:18 +0000
 
 ---
-The table below outlines all of the data metrics available in the Report Builder, with their definition and location within the different dashboards. More information on the Report Builder can be found [here](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html).
+The table below outlines all of the data metrics available in the Analytics Builder, with their definition and location within the different dashboards. More information on the Analytics Builder can be found [here](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-overview.html).
 
 <div id="metrics">
 <input id="metricsSearch" placeholder="Search by Metric or Dashboard" />

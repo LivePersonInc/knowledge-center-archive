@@ -52,7 +52,7 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 
 ## Engagement attributes in goal tracker
 
-The following metrics and attributes may be added to the predefined dashboard visualizations by an LPA user who has edit permissions in Report Builder.
+The following metrics and attributes may be added to the predefined dashboard visualizations by an LPA user who has edit permissions in Analytics Builder.
 
 The goal tracker is currently unique in the sense that it captures engagement attributes sent to LivePerson from the brand’s website. The data source feeding the goal tracker includes all events indicating that a campaign goal was achieved. Each event contains relevant meta data per goal type. The following is a categorized list of goal types and their corresponding attributes that are included in the meta data:
 
@@ -70,6 +70,6 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ## Metrics:
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
+For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
 
 ![](/img/General-Data-metrics-table.png)

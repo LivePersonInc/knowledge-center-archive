@@ -11,11 +11,11 @@ isTutorial: false
 ---
 LiveEngage uses a large amount of metrics to provide insightful and detailed reporting.
 
-The Report Builder offers brands ready-made dashboards reflecting historic data drawn from their LiveEngage account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data-driven decisions. All the data metrics available in the Report Builder, with their definition and location within the different dashboards can be found in the table below.
+The Analytics Builder offers brands ready-made dashboards reflecting historic data drawn from their LiveEngage account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data-driven decisions. All the data metrics available in the Analytics Builder, with their definition and location within the different dashboards can be found in the table below.
 
 We also have real-time data to give you an overall picture of how your contract center is performing at any given time. For all the data API's please see our [Developers Community.](https://developers.liveperson.com/essential-resources-api-data-metrics.html)
 
-More information on the Report Builder can be found [here](data-reporting-report-builder-report-builder-overview.html).
+More information on the Analytics Builder can be found [here](data-reporting-report-builder-report-builder-overview.html).
 
 More information on the Messaging dashboards can be found [here](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html).
 
@@ -23,7 +23,7 @@ More information on the Live Chat dashboards can be found [here](https://knowled
 
 ### Metrics list
 
-The table below outlines all of the data metrics available in the Report Builder, with their definition and location within the different dashboards.
+The table below outlines all of the data metrics available in the Analytics Builder, with their definition and location within the different dashboards.
 
 <div id="metrics">
 <input id="metricsSearch" placeholder="Search by Metric or Dashboard" />

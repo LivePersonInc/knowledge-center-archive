@@ -107,13 +107,13 @@ The aggregated MCS is calculated by: %Positives - %Negatives.
 
 For example, a brand wants to evaluate an agent’s MCS from five conversations they have handled. The MCSs were: -60, -20, -5, 0 and 50. There are three negative conversations, comprising 60% of the conversations, one neutral which is 20% and one positive which is 20%. Hence this agent’s MCS is -40 (20%-60%).
 
-All of these entities can be tracked through Report Builder, where brands can analyze MCS by agent group, skill, line of business or other variables.
+All of these entities can be tracked through Analytics Builder, where brands can analyze MCS by agent group, skill, line of business or other variables.
 
-## MCS in Report Builder
+## MCS in the Analytics Builder
 
-The Report Builder allows brands to build their own reports based on account data available in LiveEngage. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
+The Analytics Builder allows brands to build their own reports based on account data available in LiveEngage. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
 
-MCSs for messaging conversations are available in Report Builder for brands to further track and analyze data around consumer sentiment.
+MCSs for messaging conversations are available in the Analytics Builder for brands to further track and analyze data around consumer sentiment.
 
 ![](/img/meaningful-connection-score-(MCS)-overview5.png)
 
