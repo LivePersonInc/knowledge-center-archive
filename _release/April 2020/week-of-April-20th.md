@@ -165,5 +165,3 @@ The additional KPIs are provided by agents\ skills\ brand.
 </div>
 
 Adding another option for subscription, week days only ( Mon - Fri) and enhancing the list of schedules to start with the region first to allow easy selection of the relevant required subscription option.
-
-![](img/RB4.4_3_April20.png
