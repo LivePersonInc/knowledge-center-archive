@@ -76,15 +76,15 @@ In fact, the average messaging conversation takes 128 minutes. An agent can have
 
 Since messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply, LivePerson has created the following tools to help manage ongoing conversation:
 
-### Smart Capacity
+### Dynamic Capacity
 
-Based on three optimization points - conversation queue, agent matching, and agent capacity - [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Smart Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
+Based on three optimization points - conversation queue, agent matching, and agent capacity - [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Dynamic Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
 
-Smart Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
+Dynamic Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
 
 **How does it work?**
 
-LivePerson’s proprietary Smart Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction. Read more about Smart Capacity here.
+LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction. 
 
 ### Autoclose - the agent ‘pause’
 

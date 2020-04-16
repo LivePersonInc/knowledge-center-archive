@@ -26,13 +26,13 @@ For contact centers, these characteristics present the following questions:
 
 To help answer the questions and differences raised by asynchronous messaging, LivePerson has various ‘behind the scenes’ tools and capabilities that help agents manage their messaging conversations effectively.
 
-### Smart Capacity: the dynamic concurrency method
+### Dynamic Capacity: the dynamic concurrency method
 
 Agents who have worked on live chat are accustomed to having a set number of conversations they can handle concurrently. This is straightforward for chat conversations, as they have a distinct end time. However, since messaging conversations can span a longer period and the end time is not always predictable, the old concurrency model no longer applies.
 
-[Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) takes into account which conversations are active and inactive. For example, if a consumer has not answered your message for 10 minutes, they are likely to answer at a later time, so the conversation is marked ‘inactive’ in the meantime. Smart Capacity knows to automatically mark conversations as inactive and manage your workload dynamically.
+[Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) takes into account which conversations are active and inactive. For example, if a consumer has not answered your message for 10 minutes, they are likely to answer at a later time, so the conversation is marked ‘inactive’ in the meantime. Dynamic Capacity knows to automatically mark conversations as inactive and manage your workload dynamically.
 
-To learn more about smart capacity, watch this video:
+To learn more about Dynamic Capacity, watch this video:
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/241513074" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

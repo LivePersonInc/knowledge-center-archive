@@ -43,7 +43,7 @@ With pre-integrated bot and AI support, brands can create their own bots or appl
 LivePerson gives brands access to in-depth reporting and metrics that messaging channels don’t supply. With the ability to measure operational efficiency, agent performance, business outcomes, and more directly from within the platform, they can better monitor and optimize operations.
 
 **Practical features help you manage messaging at scale:**
-With built-in features like [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) and [Queue Prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), as well as asynchronous reporting tools and dashboards, LivePerson’s platform makes it possible for contact centers to run messaging operations smoothly.
+With built-in features like [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) and [Queue Prioritization](contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html), as well as asynchronous reporting tools and dashboards, LivePerson’s platform makes it possible for contact centers to run messaging operations smoothly.
 
 ## Messaging operations at scale
 

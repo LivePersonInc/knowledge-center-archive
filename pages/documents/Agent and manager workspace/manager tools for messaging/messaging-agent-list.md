@@ -36,7 +36,7 @@ The list is available in the Visitors tab alongside the [All Agents List](agent-
 * **Maximum number of open conversations -** the configured maximum number of high intensity conversations
 * **Load** **-** the total weight of the assigned conversations divided by the agent’s maximum number of messaging conversations (which can be configured on the user page)
 
-  **note:** The weight of each conversation is determined using the Smart Capacity capability. For more information, refer to our [Smart Capacity documentation](contact-center-management-messaging-operations-smart-capacity-overview.html).
+  **note:** The weight of each conversation is determined using the Dynamic Capacity capability. For more information, refer to our [Dynamic Capacity documentation](contact-center-management-messaging-operations-smart-capacity-overview.html).
 * **Closed** **-** number of conversations owned by the agent that were resolved in the last 12 hours (closed automatically, or by the agent or consumer)
 
 ## Filter and search
