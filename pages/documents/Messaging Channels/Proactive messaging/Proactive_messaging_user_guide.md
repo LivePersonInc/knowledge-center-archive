@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-LivePersons proactive messaging tool allows brands to engage in two-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a mix of both.
+LivePersons Proactive Messaging tool allows brands to engage in two-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a mix of both.
 
 Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all the LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
@@ -167,7 +167,7 @@ Skills need to be set up first in the LiveEngage Platform in order for them to b
 
 Proactive Messaging 2.0 will automatically show existing skills from LiveEngage. The context of the initial outbound message will be part of the conversation transcript when the consumer responds.
 
-For Proactive 1.0, any skills you’d like to show on Proactive tool must be manually added. Please reach out to your account team and get the skill added. Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool. On Proactive 1.0, the context of the initial outbound message will show up in the SmartConnect widget.
+For Proactive 1.0, any skills you’d like to show on Proactive tool must be manually added. Please reach out to your account team and get the skill added. Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool. On Proactive 1.0, the context of the initial outbound message will show up in the Voice-to-messaging widget.
 
 ## Reporting
 

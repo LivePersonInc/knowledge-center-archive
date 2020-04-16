@@ -28,7 +28,7 @@ In addition to responding to consumers needs and expectations, brands who make e
 * **Increase sales opportunities**
   * Forges an **ongoing connection** with consumers and prospects, increasing the customer lifetime value.
   * Drives conversions using **rich media** (images, voice, video, carousels, etc.)
-  * Supports **proactive messaging**, opening the gateway to new sale and marketing uses cases as brands are able to reach out to targeted groups
+  * Supports **Proactive Messaging**, opening the gateway to new sale and marketing uses cases as brands are able to reach out to targeted groups
 * **Automate operations** - Use bots to qualify site visitors, identify which sales rep they should speak to by skill, route the conversation, and even book a meeting.
 * **Control over queue prioritization** - Consumers do not need to wait by the phone or screen with messaging, giving brands more flexibility to choose which conversations should be handled first based on importance or other businesses needs.
 * **Expand accessibility with multi-channel** - Extend messaging directly over SMS, Facebook, Line, Web, Google My Business, WhatsApp and Apple Business Chat, and manage all communications in a single platform.
@@ -84,7 +84,7 @@ Dynamic Capacity splits conversations into active and inactive conversations to 
 
 **How does it work?**
 
-LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction. 
+LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction.
 
 ### Autoclose - the agent ‘pause’
 
