@@ -213,9 +213,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-    - subcategoryname: LiveEngage mobile app
+    - subcategoryname: Agent app
       pages:
-        - pagename: LiveEngage mobile app user guide
+        - pagename: Agent app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
