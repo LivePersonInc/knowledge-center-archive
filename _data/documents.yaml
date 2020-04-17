@@ -8,7 +8,6 @@
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
-        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -214,9 +213,9 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-    - subcategoryname: LiveEngage mobile app
+    - subcategoryname: Agent app
       pages:
-        - pagename: LiveEngage mobile app user guide
+        - pagename: Agent app user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -352,6 +351,7 @@
             - level3name: Week of April 1st
             - level3name: Week of April 6th
             - level3name: Week of April 13th
+            - level3name: Week of April 20th
         - pagename: March
           level3:
             - level3name: Week of March 23rd
