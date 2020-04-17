@@ -30,10 +30,11 @@ Create a "Hello World" bot using Conversation Builder.
   - **Name**: Enter a unique name.
   - **Description**: Enter a meaningful description.
   - **Bot Language**: Select a language.
+  - **Bot Group**: Leave this unset.
 4. Click **Create Bot**. Since you selected the Custom Bot template, by default this creates a bot with a “Welcome” dialog that matches and responds to simple forms (patterns) of “hello.” The bot also has a Fallback dialog with some fallback text.
-5. Click the **Welcome** and **Fallback** tabs in the lower-left corner to open and examine both dialogs.
+5. In the Dialogs panel on the left, click **1 Welcome** and **2 Fallback** to open and examine both dialogs.
 6. Preview the bot:
-    1. Click the <img style="width:30px" src="img/icon_preview.png"> icon in the lower-right corner of the screen to open the Preview window.
+    1. Click **Preview** in the upper-right corner of the screen to open the Preview window.
     2. Enter “hello.” You will see the response, “Hi there! Thanks for coming!”
 
 **Congratulations!** You’ve just created your first bot!
@@ -41,26 +42,26 @@ Create a "Hello World" bot using Conversation Builder.
 ## Step 3: Customize the interaction
 
 ### Add a new pattern
-1. If the Welcome dialog isn't already open, click the Welcome tab in the lower-left corner to open it.
-2. Select the first interaction **(1)**, and then click the **Interaction Details** icon **(2)** beside it to open its Interaction Details window.
+1. If the Welcome dialog isn't already open, open it by clicking **1 Welcome** in the Dialogs panel on the left.
+2. Select the first interaction (a User Says interaction), and click the 3-dot icon in the upper-right corner of the tile.
 
     <img style="width:600px" src="img/cb_window1.png">
 
-3. In the Interaction Details window, click **Settings**.
-4. In the Patterns section, click **Add New**.    
-5. Enter "aloha," and press Enter.
+3. Select **Settings** from the menu.
+4. Under **Patterns**, click in the field, enter "aloha," and press Enter.
 
-     <img style="width:400px" src="img/cb_window2.png">
+    <img style="width:400px" src="img/cb_window2.png">
 
+5. Click **Save**.
 6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
-7. Click **Save**.
+7. Click the interaction's 3-dot icon, and select **Save**.
+
+    <img style="width:400px" src="img/cb_window3.png">
  
 ### Preview the bot again
 
 1. Open the Preview window like you did before, and start a new session by entering “reset” in the window.
-2. Enter “aloha.” You will see that the bot responds to this new greeting with the same response as before.
-
-To learn how to extend the bot and connect it to LiveEngage, complete the tutorials listed below.
+2. Enter “aloha.” You will see that the bot responds to this new greeting with "Hello World!"
 
 ## Step 4: Connect your bot to LiveEngage
 
@@ -144,8 +145,8 @@ Next, you use Conversation Builder to connect your bot to the bot agent you just
     <img style="width:300px" src="img/cb_cb_icon.png">
 
 2. Open your Hello Word bot.
-3. Click **Agent Connectors** on the menu bar in the upper-right corner.
-4. Click **New Bot Connector** in the upper-right corner, just under the menu bar.
+3. Click **Agent Connectors** on the menu bar in the upper-left corner.
+4. Click **Add Agent Connector** in the upper-right corner.
 5. In the Add Agent Connector dialog box, specify the following based on the bot user you created.
 
     * **Agent User ID**: Select “myBotUser.” This is the login name you used for the user agent.
