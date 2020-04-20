@@ -12,6 +12,7 @@ isNew: false
 redirect_from:
   - messaging-agents-the-enhanced-agent-workspace.html
   - new-experiences.html
+  - messaging-agents-roadmap.html
   
 ---
 
