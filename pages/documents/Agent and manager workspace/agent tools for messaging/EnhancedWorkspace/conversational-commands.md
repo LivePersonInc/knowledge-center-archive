@@ -9,7 +9,9 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-work
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-agents-conversational-commands.html
+  
 ---
 
 ## Introduction
