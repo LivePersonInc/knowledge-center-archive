@@ -6,7 +6,9 @@ indicator: messaging
 subtitle: Learn more about the new Agent Workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html
-
+redirect_from:
+  - messaging-agents-tutorial.html
+  
 ---
 
 Check out the video below for a comprehensive tutorial of the New Agent Workspace. You can also [view the video directly at this link](https://vimeo.com/357193087/7d6d59ca85).
