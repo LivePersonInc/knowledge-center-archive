@@ -9,7 +9,8 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-works
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-managers-all-connections.html
 ---
 
 The All Connections tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Connections allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
