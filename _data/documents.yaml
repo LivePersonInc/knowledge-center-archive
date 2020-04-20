@@ -74,13 +74,13 @@
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Third Party Bot Connectors
-   - subcategoryname: Maven
+   - subcategoryname: Conversation Orchestrator
      pages:
        - pagename: Overview
-       - pagename: Maven Assist
+       - pagename: Agent Assist
        - pagename: Context Warehouse
-       - pagename: AI Powered Routing
-       - pagename: AskMaven API
+       - pagename: Dynamic Routing
+       - pagename: Recommendation API
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
@@ -250,17 +250,17 @@
         - pagename: "Meaningful Connection Score (MCS) Overview"
         - pagename: Accessing the toolkit
         - pagename: Using the MCS toolkit
-    - subcategoryname: Report Builder
+    - subcategoryname: Analytics Builder
       pages:
-        - pagename: Report Builder overview
-        - pagename: Introducing the enhanced Report Builder
-        - pagename: "Report Builder user guide (standard)"
-        - pagename: "Report Builder user guide (customization)"
+        - pagename: Analytics Builder overview
+        - pagename: Introducing the enhanced Analytics Builder
+        - pagename: "Analytics Builder user guide (standard)"
+        - pagename: "Analytics Builder user guide (customization)"
         - pagename: Predefined dashboards
-        - pagename: Report Builder FAQs
+        - pagename: Analytics Builder FAQs
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
-        - pagename: Moving from BI to Report Builder
+        - pagename: Moving from BI to Analytics Builder
     - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
@@ -350,7 +350,7 @@
   subcategories:
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
-      pages:  
+      pages:
         - pagename: April
           level3:
             - level3name: Week of April 1st
