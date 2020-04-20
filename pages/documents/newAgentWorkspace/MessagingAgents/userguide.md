@@ -79,7 +79,7 @@ You can filter conversations in the list by status:
 
 ### Light theme
 
-Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu. 
+Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
 
 ![](img/New light mode (1).gif)
 
@@ -197,9 +197,9 @@ The following types of rich messaging are being supported for the enhanced agent
 * Consumer to agent audio sharing
 * Agent to consumer file sharing
 
-#### Recommended Actions 
+#### Agent Assist
 
-Recommended Actions use LivePerson's Maven AI to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Recommended Actions, which were previously available in a separate widget, will now be available inline in your messaging conversations to improve usability and engagement. Recommended actions include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article. 
+Agent Assist uses LivePerson's Conversation Orchestrator to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Agent Assist displays these recommendations inline in your messaging conversations to improve usability and engagement. Some of the actions of Agent Assist include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article.
 
 ### Additional actions
 

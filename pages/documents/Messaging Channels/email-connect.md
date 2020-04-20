@@ -18,7 +18,7 @@ With EmailConnect, brands can manage, analyze and respond to emails from the sam
 
 Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
-EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and Dynamic Capacity.
+EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
 
 ## Why brands should use EmailConnect
 

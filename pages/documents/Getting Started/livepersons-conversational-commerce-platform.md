@@ -52,7 +52,7 @@ Automation and AI underpins LivePerson’s conversational commerce. Bots and AI 
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312966468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the AI engine - Maven.
+The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the the Conversation Orchestrator.
 
 ![](/img/lp-conversational-commerce-overview-b.png){:class="newagent"}
 
@@ -90,10 +90,8 @@ The Conversation Manager enables brands to connect to popular messaging services
 
 Conversation Intelligence provides a set of dashboards and reporting with actionable intelligence. The Conversation Intelligence accesses intent-level data, allowing brands to understand the true voice of the customer — their direct discussions with a brand, spoken in their own natural language — in their reports.
 
-## 4. Maven
+## 4. Conversation Orchestrator
 
-### The underlying AI engine
+The Conversation Orchestrator is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. The Conversation Orchestrator understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
 
-Maven is the continuously-learning AI engine that is behind LivePerson AI-based products. It is used to create, manage, and capture information from conversations with consumers. Maven understands the conversational intent and, based on deep-learning techniques, is able to self-discover the best methods to optimize interactions between brands and consumers.
-
-Continuously learning from the agents interacting with it, Maven's [Recommended Actions](ai-bots-automation-conversation-builder-recommended-actions-with-maven.html) capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome. By incorporating automations mid-conversation, Recommended Actions also frees up agent capacity to handle other messages, making agents significantly more efficient.
+Continuously learning from the agents interacting with it, Conversation Orchestrator's [Agent Assist](ai-bots-automation-conversation-builder-recommended-actions-with-maven.html) capability looks at each conversational turn and recommends to the agent the next action for the best possible conversational outcome. By incorporating automations mid-conversation, Agent Assist also frees up agent capacity to handle other messages, making agents significantly more efficient.

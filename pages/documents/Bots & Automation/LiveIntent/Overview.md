@@ -66,7 +66,7 @@ The Bot Builder wants to use automation to help with influx of messages related 
 
 The Bot Builder reviews the Intent Analyzer dashboard and notices that the “can’t find discount code” intent is, both, a high volume intent and is easily automatable.
 
-She creates a bot in Conversation Builder for handling these requests and creates an intent-based routing rule in Maven that automatically directs customers to the bot.
+She creates a bot in Conversation Builder for handling these requests and creates an intent-based routing rule in the Conversation Orchestrator that automatically directs customers to the bot.
 
 #### Outcome
 
