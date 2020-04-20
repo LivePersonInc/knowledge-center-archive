@@ -6,7 +6,9 @@ indicator: both
 subtitle: Learn more about the new agent workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-operational-readiness-checklist.html
-
+redirect_from:
+    - messaging-agents-operational-readiness-checklist.html
+    
 ---
 
 To ensure you are fully prepared for the new experiences, we have created a comprehensive checklist with all the steps you need to take. Please check off each item as it is completed to stay organized and make the transition as smooth as possible.
