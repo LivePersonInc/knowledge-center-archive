@@ -142,7 +142,7 @@ The list will include following columns:
 * **CONSUMER** - The consumer name appears based on the available information from the messaging channel. For authenticated messaging, if the name of the consumer is known, it will appear here. For messaging channels where the name is unknown it will appear as ‘visitor’. Clicking on the consumer name will open the conversation window.
 * **RESPONSE TIME** - The duration of time remaining until a response is required.
 * **START TIME** - The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer.
-* **MCS** - Meaningful Connection Score.
+* **MCS** - Meaningful Conversation Score.
 * **CSAT** - Customer satisfaction rated from 1 to 5, as submitted by the customer within the survey.
 * **NPS** - Customer Net Promoter Score rate from 0 to 10, as submitted by the customer within the survey.
 

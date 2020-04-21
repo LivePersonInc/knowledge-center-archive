@@ -50,7 +50,7 @@ All Conversations offers advanced filtering and search capabilities enabling you
 * Skill
 * Start time
 * Status (open and closed)
-* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
+* [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

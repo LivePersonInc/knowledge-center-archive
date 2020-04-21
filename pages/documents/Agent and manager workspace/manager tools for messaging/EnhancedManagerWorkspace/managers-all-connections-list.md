@@ -77,7 +77,7 @@ Icon | Status | Description
 * **Skill** - The skill assigned to the conversation.
 * **Agent name** - The name of the agent currently assigned to the conversation.  For conversations that were also handled by other agents (e.g. in a case of a transfer), the additional agents will be displayed as well.
 * **Agent group** - The agent group that the agent(s) assigned to the conversation belong to.
-* **MCS** - The [Meaningful Connection Score](/data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) displays the real-time positive or negative sentiment of the consumer based on natural language understanding.
+* **MCS** - The [Meaningful Conversation Score](/data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) displays the real-time positive or negative sentiment of the consumer based on natural language understanding.
 * **Start time** - The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer.
 * **Last message time** - The time the last message was sent, by either the agent or consumer, in the conversation. In addition, hovering over the column presents the last message text.
 * **Duration** - The time frame between when the consumer started the conversation until it was closed by either the consumer or the agent. For active conversations the duration displayed here represents the time from the start of the conversation until the moment this data is viewed.
@@ -118,7 +118,7 @@ Agents and agent managers can search/filter conversations with the following par
 * Skill
 * Start time
 * Status (open and closed)
-* Meaningful Connection Score (MCS)
+* Meaningful Conversation Score (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

@@ -63,7 +63,7 @@ Some contact centers opt to configure the ‘Warm up’ function for agents. If 
 * **Skill -** The skill assigned to the conversation
 * **Agent name -** The name of the agent(s) assigned to the conversation. Due to the continuous nature of messaging conversations, it is likely that more than one agent will have been active in a conversation with the consumer over time,
 * **Agent group -** The Agent Group that the agent(s) assigned to the conversation belongs to
-* **MCS -** The [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), available for English language text analysis
+* **MCS -** The [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html), available for English language text analysis
 * **Start Time -** The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer
 * **Last message time -** The time the last message was sent, by either the agent or consumer, in the conversation
 * **Duration -** The time frame between when the consumer started the conversation until it was ended by either the consumer or the agent. For active conversations, the duration displayed represents the time from the start of the conversation until the moment the data is viewed.
@@ -89,7 +89,7 @@ Agents and agent managers can search/filter conversations with the following par
 * Skill
 * Start time
 * Status (open or closed)
-* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
+* [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

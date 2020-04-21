@@ -31,7 +31,7 @@ The All Conversations list displays every one of your brand’s messaging conver
 | <img src="img/wsicons/urgent.png" /> | This icon in the status column indicates that a conversation requires urgent attention. |
 | <img src="img/wsicons/response time.png" /> | The response time column tells the agent the SLA, or the amount of time remaining until a response is required. |
 | <img src="img/wsicons/skill.png" /> | The skill column tells the agent which skill is assigned to the conversation. |
-| <img src="img/wsicons/MCS.png" /> | The MSC column tells the agent what the Meaningful Connection Score is for each conversation. |
+| <img src="img/wsicons/MCS.png" /> | The MSC column tells the agent what the Meaningful Conversation Score is for each conversation. |
 | <img src="img/wsicons/green smiley.png" /> | A green smiley face in the MSC column indicates a positive score (based on natural language understanding of real time consumer sentiment) |
 | <img src="img/wsicons/red smiley.png" /> | A red frowny face in the MSC column indicates a negative score. |
 
