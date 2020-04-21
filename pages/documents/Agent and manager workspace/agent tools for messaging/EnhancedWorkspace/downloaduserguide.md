@@ -6,7 +6,9 @@ indicator: messaging
 subtitle: Learn more about the enhanced agent workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html
-
+redirect_from:
+  - messaging-agents-training-deck.html
+  
 ---
 
 In order to help brands train agents on the new capabilities available in the workspace, the following training power point presentation is available.

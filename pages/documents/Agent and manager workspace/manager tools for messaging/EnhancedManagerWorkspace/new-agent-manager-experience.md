@@ -9,7 +9,9 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-works
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-managers-new-agent-manager-experience.html
+  
 ---
 
 For messaging managers that are using the new manager workspace, it is also recommended to use the enhanced agent workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
