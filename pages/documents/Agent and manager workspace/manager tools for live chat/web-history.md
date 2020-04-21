@@ -24,7 +24,7 @@ The web history is one of the most powerful analytics tools LivePerson has to of
 The web history includes the following information:
 
 * **Start** - The time when the visitor was first connected to the agent (displayed in the visitor’s local time).
-* **MCS** - The Meaningful Connection Score, available for English language analysis.
+* **MCS** - The Meaningful Conversation Score, available for English language analysis.
 * **Visitor name** - The visitor’s name as provided in the pre-chat survey.
 * **Skill** - The skill assigned to the engagement.
 * **Agent name** - The name of the agent who handled the chat.
@@ -51,7 +51,7 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 
 ![](/img/web-history-2.png)
 
-**Meaningful Connection Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Connection Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
+**Meaningful Conversation Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Conversation Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
 
 ![](/img/web-history-3.png)
 

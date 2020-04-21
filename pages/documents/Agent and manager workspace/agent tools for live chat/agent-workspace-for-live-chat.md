@@ -30,7 +30,7 @@ The Web Visitors list displays all visitors currently on your website, along wit
 
 You can sort the visitors according to any of the following parameters:
 
-* Meaningful Connection Score
+* Meaningful Conversation Score
 * Country
 * Skill
 * Agent nickname

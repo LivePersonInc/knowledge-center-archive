@@ -102,7 +102,7 @@ When in messaging mode, the current section displays metrics on open conversatio
 * _TTFR FROM FIRST ASSIGN_: Average time to first agent response after first conversation assignment (estimated from sample of OPEN conversations, exc. bots)*
 * _WAIT TIME_: The difference between TTFR and TTFR FROM FIRST ASSIGN*
 * __TIME TO FIRST ASSIGN*__: Average time to first agent assignment from conversation start (estimated from sample of OPEN conversations, exc. bots)
-* **MCS**: the average meaningful connection score of the conversations.
+* **MCS**: the average Meaningful Conversation Score of the conversations.
 * **MCS - Positive**: the number of conversations with positive MCS
 * **MCS - Negative**: the number of conversations with negative MCS
 
@@ -148,7 +148,7 @@ The metrics available in this section all relate to closed conversations only:
 * **First response time**: see definition from Current KPI section
 * **First assignment time:** see definition from Current KPI section
 * *_Wait time:__ see definition from Current KPI section_
-* **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
+* **MCS**: the Meaningful Conversation Score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
 **Note:** Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide).
 
