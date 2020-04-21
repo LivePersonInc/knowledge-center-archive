@@ -88,7 +88,7 @@ The following diagram outlines how funnel metrics are calculated for Messaging E
 
 ### Counting “sessions” from the Mobile App
 
-The LiveEngage platform manages consumer activity through “sessions”. A visitor (aka “consumer”) session on a website begins when the visitor enters a webpage monitored by LiveEngage Tag. In most cases, a session ends when the visitor navigates out of the website or closes the browser completely.
+The LiveEngage platform manages consumer activity through “sessions”. A visitor (aka “consumer”) session on a website begins when the visitor enters a webpage monitored by the web tag. In most cases, a session ends when the visitor navigates out of the website or closes the browser completely.
 
 Throughout the session, funnel events are transmitted to LiveEngage from the tag present on the web pages.  
 Similar to the activity on the website, LiveEngage will initiate a session when the mobile app requests a Campaign and Engagement in order to start the in-app conversational experience. This will result in an increase in the SESSIONS metric.

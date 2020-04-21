@@ -22,7 +22,7 @@ As outlined in the ‘behind the scenes’ section , conversations that reach yo
 
 * **Auto-accept mode**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
-* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned. 
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
 
 ## Understanding the context & history
 
@@ -61,7 +61,7 @@ While conducting a conversation, there are a few actions you can take:
 
 ## Adjusting the SLA for follow up
 
-Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your [All Connections](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) list.
+Every time a consumer sends a message, the SLA, or your expected time to reply resets. For example, if you are expected to respond within 1 minute, each time a consumer answers a message the one minute will start over and the conversation will be prioritized automatically and adjusted appropriately in your [All Conversations](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) list.
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
@@ -110,7 +110,7 @@ The CSAT scores calculated for your performance in the KPI bar are derived from 
 
 To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
 
-Select an action by pressing the applicable keys below: 
+Select an action by pressing the applicable keys below:
 
 | ACTION | HOT KEY |
 | --- | --- |
@@ -119,9 +119,9 @@ Select an action by pressing the applicable keys below:
 | Copy as plain text | Alt + Shift + Y |
 | Return to queue | Alt + Shift + Q |
 | Transfer conversation | Alt + Shift + R |
-| Close conversarsation | Alt + Shift + W |
+| Close conversation | Alt + Shift + W |
 | Accept conversation | Alt + Shift + N |
 | Takeover conversation | Alt + Shift + O |
 | Leave conversation | Alt + Shift + I |
-| Logout from LiveEngage | Alt + Shift + L |
+| Logout from Conversational Cloud | Alt + Shift + L |
 | Change status | Alt + Shift + S |

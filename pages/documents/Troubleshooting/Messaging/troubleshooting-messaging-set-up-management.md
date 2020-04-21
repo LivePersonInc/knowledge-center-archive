@@ -60,7 +60,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 
 ### Cause
 
-* A CSAT survey is not displayed if the conversation is not associated with an agent (indicated in All Connections by Agent Name = N/A) when it is closed.
+* A CSAT survey is not displayed if the conversation is not associated with an agent (indicated in All Conversations by Agent Name = N/A) when it is closed.
 * This can happen if an Agent Manager joins a conversation that is not assigned to an agent (it is in queue) and then closes the conversation without interacting with the consumer.
 * It can also happen when an Agent Manager joins a conversation that is not assigned to an agent (it is in queue), the Agent manager interacts with the consumer, and then closes the conversation.
 

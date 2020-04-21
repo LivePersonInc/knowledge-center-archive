@@ -46,10 +46,10 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 #### My Connections
 The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
-#### All Connections
-If you have permissions to view the All Connections tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
+#### All Conversations
+If you have permissions to view the All Conversations tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
 
-All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
+All Conversations can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
 
 **List mode**:
 
@@ -120,7 +120,7 @@ To save you time - there are seven hotkeys configured on your workspace for some
 | Accept conversation | Alt + Shift + N |
 | Takeover conversation | Alt + Shift + O |
 | Leave conversation | Alt + Shift + I |
-| Logout from LiveEngage | Alt + Shift + L |
+| Logout from Conversational Cloud | Alt + Shift + L |
 | Change status | Alt + Shift + S |
 
 ## Managing messaging conversations
@@ -231,7 +231,7 @@ The nature of messaging conversations is that they are ongoing and can be resume
 
 The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have options, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed. As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window. It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate.
 
-At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Connections list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list.
+At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Connections list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Conversations list.
 
 ![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 

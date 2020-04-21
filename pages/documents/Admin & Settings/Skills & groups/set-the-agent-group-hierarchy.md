@@ -42,13 +42,13 @@ Initially all agents are members of the main agent group. Once an agent is moved
 
 ## Viewing conversation transcripts
 
-In the [web history](agent-manager-workspace-manager-tools-for-live-chat-web-history.html) and [all connections tabs](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
+In the [web history](agent-manager-workspace-manager-tools-for-live-chat-web-history.html) and [All Conversations tabs](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
 
 ![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
 To filter by agent group in web history, click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
-To filter by agent group in all connections, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
+To filter by agent group in All Conversations, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
 ## Viewing engagements over time using the Analytics Builder dashboards
 

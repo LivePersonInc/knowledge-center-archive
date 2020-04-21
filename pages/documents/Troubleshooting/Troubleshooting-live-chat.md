@@ -33,7 +33,7 @@ When agents initiate **CoBrowse for Voice** session and visitors enter the requi
 * By default, the question type is rendered according to the OS preference and LiveEngage doesn’t contain an option to change the default view.
 * The reason the view is different on emulators than on actual devices is that emulators simulate the OS only and not the device hardware (or potential impacts/faults of the hardware on the OS).
 
-### Solution: 
+### Solution:
 
 This is expected behavior.
 
@@ -54,7 +54,7 @@ The URLs of the two pages the visitor moved between belong to **different domain
 
 ### Solution:
 
-The brand should enable monitored domains/cross domains on their account ( (from the LiveEngage Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
+The brand should enable monitored domains/cross domains on their account ( (from the Web Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
 
 ## Chat tab is displayed incorrectly on iPhones using Safari
 
@@ -141,11 +141,11 @@ The is expected behavior.
 
 It is recommended to use the Overlay content in these cases.
 
-## Why aren’t chats transferring? 
+## Why aren’t chats transferring?
 
 When a chat is transferred, the chat returned back to the original skill/agent rather than remaining in the destination queue.
 
-### Cause: 
+### Cause:
 
 Transfer-to-agent returns chats to the origin after about 4 minutes, if no other agent has taken the chat. However, transfer-to-skill does not return to the origin.
 

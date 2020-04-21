@@ -31,11 +31,11 @@ _(should be completed by contact center manager, project manager or program mana
 
 ## 2. Add code & conversion tracking to your website
 
-### LiveEngage tag
+### Web Tag
 
 If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
 
-If you’re adding web messaging for the first time, you’ll need to grab the LiveEngage tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
+If you’re adding web messaging for the first time, you’ll need to grab the web tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
 
 ### Engagement attributes
 

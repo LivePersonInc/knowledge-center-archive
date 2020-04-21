@@ -80,7 +80,7 @@ For brands that have agents using the same login for both chat and messaging, th
 
 * The enhanced messaging workspace will appear and become the default home page.
 
-* The visitors module will have only the tabs dedicated to live chat: ‘web visitors’, ‘web history’ and ‘all agents’ (the ‘open connections’, ‘all connections’ and ‘messaging agents’ tabs will disappear from their chat workspace)
+* The visitors module will have only the tabs dedicated to live chat: ‘web visitors’, ‘web history’ and ‘all agents’ (the ‘open conversations', ‘all conversations' and ‘messaging agents’ tabs will disappear from their chat workspace)
 
 * These agents will have two workspaces and will have to use the appropriate one for the shift they are taking.
 
@@ -90,7 +90,7 @@ Brands can elect to forgo the benefits of the enhanced workspace and enable agen
 
 ## Blended agents within the same shift
 
-Some brands elect to have agents taking both live chat and messaging concurrently. 
+Some brands elect to have agents taking both live chat and messaging concurrently.
 
 **Agents that work in this mode will NOT be able to utilize the enhanced agent workspace.**
 

@@ -109,7 +109,7 @@ The following core permissions are included with the agent role and cannot be di
 | Initiate voice conversation | Invite consumer to join a voice conversation | On |
 | Initiate live video | Invite consumer to join a live video session | On |
 | Handle messaging conversations | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations | On |
-| Handle messaging conversations and access All Connections List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
+| Handle messaging conversations and access All Conversations List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
 | Set manual SLA | Allows agents to manually configure the response time in a conversation | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |
 | Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
@@ -130,7 +130,7 @@ The following core permissions are included with the agent manager role and cann
 | Join Agents' conversations | Join a conversation handled by any Agent within their Group(s) or Sub-group(s) | On |
 | View Agents' conversations | View conversations handled by Agents within their Group(s) or Sub-group(s) | On |
 | View Engagement History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
-| View All Connections List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
+| View All Conversations List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
 | View Agent List | View full list of Agents within their Group | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
 | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
@@ -197,7 +197,7 @@ The following core permissions are included with the Admin role and cannot be di
 * View detailed information on the performance of all your account’s Campaigns in the campaign manager BI dashboard
 * Ability to configure the authentication server
 * Ability to configure monitored domains
-* View the LiveEngage tag page
+* View the web tag page
 
 | Admin permissions | Permission definitions | Default State (role) |
 | --- | --- | --- |

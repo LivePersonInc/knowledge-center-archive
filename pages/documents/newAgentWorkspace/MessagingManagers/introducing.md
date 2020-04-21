@@ -38,11 +38,11 @@ The new manager workspace provides real-time information on the state of the shi
 
 Agent managers will have real time visibility into their KPIs and aggregated performance, increasing the likelihood of meeting your daily goals. For example, a manager can catch an increase wait time for a particular agent that is affecting the team’s performance and fix it on the spot. Similarly, a sudden drop in CSAT can be identified and handled immediately instead of waiting for next day or next weeks’s analysis.
 
-## **2. Enhanced agent workspace & All Connections list**
+## **2. Enhanced agent workspace & All Conversations list**
 
 The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs:
 * **My Connections:** The list of active and current messaging conversations that managers joined.  
-* **All Connections:** Managers use this tab to search for and view previous conversations conducted by all agents they manage.
+* **All Conversations:** Managers use this tab to search for and view previous conversations conducted by all agents they manage.
 
 ![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
@@ -56,4 +56,4 @@ This is the area for all live chat data and conversations.  It includes:
 * **All agents:** list of live chat and messaging agents currently in shift
 
 {: .notice}
-**Note:** In the existing workspace, this area includes three additional tabs for messaging (Open Connections, All Connections and Messaging Agents) which will cease to display as they are replaced with the new workspaces.
+**Note:** In the existing workspace, this area includes three additional tabs for messaging (Open Conversations, All Conversations and Messaging Agents) which will cease to display as they are replaced with the new workspaces.

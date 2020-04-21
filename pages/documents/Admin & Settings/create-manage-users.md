@@ -86,7 +86,7 @@ When duplicating a user, the administrator will still need to complete the follo
 {: .notice}  
 Before deleting a user, we recommend first ensuring that the agent doesn't own any open conversations (if so, these conversations should be transferred to the queue) and that they are not logged in.
 
-Once a user has been deleted, it will still be possible to view their conversations in the conversations list (Open Connections, All Connections and Web History).
+Once a user has been deleted, it will still be possible to view their conversations in the conversations list (Open Conversations, All Conversations and Web History).
 
 ## Bulk user operations
 

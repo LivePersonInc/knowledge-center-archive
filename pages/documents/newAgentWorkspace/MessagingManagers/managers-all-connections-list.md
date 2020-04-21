@@ -12,27 +12,27 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-The All Connections tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Connections allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
+The All Conversations tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Conversations allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
 ![alt text](img/new-manager-workspace-6.png){:class="newagent"}
 
-The “All Connections” tab enables agents and managers to perform two major actions:
-  1. **View and search conversations:** All Connections enables users to search through both open and closed conversations that began in the past 13 months with advanced search and filter capabilities.
+The “All Conversations tab enables agents and managers to perform two major actions:
+  1. **View and search conversations:** All Conversations enables users to search through both open and closed conversations that began in the past 13 months with advanced search and filter capabilities.
   2. **Take actions on conversations:** Managers (or agents with permissions) can perform actions on conversations in real time, such as joining a conversation, transferring it to another skill, closing the conversation and more.
 
 ## Default view
 
-To access the **All Connections** list directly, first select the **Connections** icon from the left side navigation. The agent workspace will open with an option to click on the **All Connections** tab at the top.
+To access the **All Conversations** list directly, first select the **Connections** icon from the left side navigation. The agent workspace will open with an option to click on the **All Conversations** tab at the top.
 
-By default, the **All Connections** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
+By default, the **All Conversations** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
 
 Each user may change the time frame for viewing this list, selecting a range of up to 3 months from the previous 13 months. All search and sort items will display conversations within this selected timeframe.
 
 ## Permissions
 
-Agents and managers will be able to view the All Connections tab only if they have the appropriate permissions turned on (on by default):
-* For managers -  “View all connections list” permission.
-* For agents - “Handle messaging conversations and access all connections list” permission.
+Agents and managers will be able to view the All Conversations tab only if they have the appropriate permissions turned on (on by default):
+* For managers -  “View all conversations list” permission.
+* For agents - “Handle messaging conversations and access all conversations list” permission.
 
 ## Conversations displayed per user
 
@@ -46,7 +46,7 @@ Agent managers | Will be able to view conversations which are being handled or w
 
 ## Available views
 
-Users will be able to view conversations in All Connections in two modes. Each user can select their desired view mode from the icons found in the top right of the list.
+Users will be able to view conversations in All Conversations in two modes. Each user can select their desired view mode from the icons found in the top right of the list.
 
 ### 1. List view
 
@@ -110,7 +110,7 @@ The same list displays on the left with the ability to navigate through the list
 
 ## Search and filter
 
-Agents and agent managers can search/filter conversations with the following parameters (note that the results will display according to the time frame selected in the header of the All Connections tab):
+Agents and agent managers can search/filter conversations with the following parameters (note that the results will display according to the time frame selected in the header of the All Conversations tab):
 * Keywords from transcripts
 * Duration of conversation
 * Agent
@@ -140,7 +140,7 @@ When selecting **Join**, you can:
   * **Close conversation**
   * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists.
 
-The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Connections list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
+The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Conversations list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
 
 If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification.
 

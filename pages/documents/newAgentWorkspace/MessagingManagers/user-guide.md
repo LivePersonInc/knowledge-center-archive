@@ -147,7 +147,7 @@ The list will include following columns:
 
 #### Navigating to the conversation
 
-Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/messaging-managers-all-connections.html#2-conversation-view) of the ‘All connections’ list.
+Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/messaging-managers-all-connections.html#2-conversation-view) of the ‘All Conversations' list.
 
 ![](img/new-manager-workspace-18.png){:class="newagent"}
 

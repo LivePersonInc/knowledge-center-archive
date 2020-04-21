@@ -37,11 +37,11 @@ The data bar in the agent workspace represents the real-time tracking of your cu
 
 ## Searching for previous conversations
 
-You can always search for any previous conversations you’ve had with consumers through the [All Connections](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) tab.
+You can always search for any previous conversations you’ve had with consumers through the [All Conversations](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) tab.
 
 ![](/img/understanding-agent-performance-1-1.png)
 
-All Connections offers advanced filtering and search capabilities enabling you to search by:
+All Conversations offers advanced filtering and search capabilities enabling you to search by:
 
 * Keywords from transcripts
 * Duration of conversation

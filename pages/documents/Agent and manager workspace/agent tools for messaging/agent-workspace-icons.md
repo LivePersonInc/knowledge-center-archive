@@ -13,9 +13,9 @@ date: 2019-01-21 11:18:27 +0000
 isNew: false
 
 ---
-## All connections list
+## All Conversations list
 
-The all connections list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
+The All Conversations list displays every one of your brand’s messaging conversations, showing both open and closed conversations for all agents.
 
 
 ![](/img/agent-workspace-icons-messaging-1.png)
@@ -26,7 +26,7 @@ The all connections list displays every one of your brand’s messaging conversa
 | <img src="img/wsicons/bell.png" /> | The bell icon in the status column indicates that an open conversation is overdue. |
 | <img src="img/wsicons/number 1.png" /> | The green #1 icon in the status column indicates that this is the agent’s first conversation with the consumer. |
 | <img src="img/wsicons/bluecheck.png" /> | The blue checkmark in the status column indicates that the consumer is authenticated. |
-| <img src="img/wsicons/arrows.png" /> | This icon in the all connections list indicates that a conversation is open. |
+| <img src="img/wsicons/arrows.png" /> | This icon in the All Conversations list indicates that a conversation is open. |
 | <img src="img/wsicons/orange check.png" /> | This icon in the status column indicates that the conversation was closed by the agent. |
 | <img src="img/wsicons/urgent.png" /> | This icon in the status column indicates that a conversation requires urgent attention. |
 | <img src="img/wsicons/response time.png" /> | The response time column tells the agent the SLA, or the amount of time remaining until a response is required. |
@@ -61,7 +61,7 @@ The open connections tab shows all of the conversations assigned to the agent th
 | <img src="img/wsicons/bell.png" /> | The bell icon indicates that an open conversation is overdue. |
 | <img src="img/wsicons/number 1.png" /> | The green #1 icon indicates that it is the first conversation with the visitor. |
 | <img src="img/wsicons/bluecheck.png" /> | The blue checkmark indicates that a customer is authenticated. |
-| <img src="img/wsicons/orange people.png" /> | The people icon on the open connections/all connections lists indicates that the conversation is in the agent’s queue. |
+| <img src="img/wsicons/orange people.png" /> | The people icon on the open conversations/all conversations lists indicates that the conversation is in the agent’s queue. |
 | <img src="img/wsicons/gray smiley.png" /> | The smiley icon in the bottom left of the chat window allows the agent to send emojis. |
 | <img src="img/wsicons/two check marks.png" /> | Two grey check marks next to a message indicate that it was delivered to the consumer. |
 | <img src="img/wsicons/accept.png" /> | When auto-accept is turned off, this icon will appear at the bottom of the screen when the agent has an incoming conversation. |

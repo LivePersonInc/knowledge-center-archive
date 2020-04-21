@@ -28,7 +28,7 @@ For example, if a conversation has been idle for ten days, it can be automatical
 
 ## Auto-close per skill
 
-In some cases, different skills have a different conversation pace and therefore should have different time intervals to auto close. With auto close per skill, you can choose to create a custom configuration for a specific skill that will be different from the account-level configuration. 
+In some cases, different skills have a different conversation pace and therefore should have different time intervals to auto close. With auto close per skill, you can choose to create a custom configuration for a specific skill that will be different from the account-level configuration.
 
 This higher level of flexibility to determine when a conversation should close and helps prevent scenarios where conversations get closed too early or late. Configuring auto close  per skill thereby can improve the consumer experience as well as the brand's operational parameters.
 
@@ -46,10 +46,10 @@ This higher level of flexibility to determine when a conversation should close a
 ## Configuration
 
 1. Click the Users tab at the top of the screen
-2. Select the Skills tab 
+2. Select the Skills tab
 3. Select the skill that you would like to configure
 4. Scroll down to the auto close section and select custom settings
-5. Set the auto close timer you wish to use 
+5. Set the auto close timer you wish to use
 6. Click **Save**.
 
 ## Limitations
@@ -59,4 +59,4 @@ This higher level of flexibility to determine when a conversation should close a
 3. **Auto close frequency:** Auto close process runs in 25 minute intervals. This means that auto close will apply to a given conversation anytime between the "configured time" and the "configured time" + 25 min.
 4. **Joining as “reader” resets the auto close timer:** The auto close timer is reset when an agent manager opens a conversation to view it in full screen or from the Open Connections list.
    * This is currently a technical limitation since the auto close timer is reset with every metadata change of the conversation. An agent manager joining as a “reader” triggers a change in the conversation participant’s metadata.
-   * There is a potential workaround: The timer is not reset when opening the transcript widget view from the "All Connections" list.
+   * There is a potential workaround: The timer is not reset when opening the transcript widget view from the "All Conversations" list.

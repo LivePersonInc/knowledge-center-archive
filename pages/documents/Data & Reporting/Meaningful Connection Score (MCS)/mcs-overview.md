@@ -64,9 +64,9 @@ The dynamic changes to the MCS can be tracked in the web messaging API.
 
 ### 1. Real time alerts
 
-Real-time alerts on live engagements, displayed on the All Connections list and Web Visitors list, allow difficult interactions to be identified as they happen, enabling timely intervention to rectify the situation. Agents exposed to their ongoing MCS in real time can adjust their current conversations in order to increase their scores.
+Real-time alerts on live engagements, displayed on the All Conversations list and Web Visitors list, allow difficult interactions to be identified as they happen, enabling timely intervention to rectify the situation. Agents exposed to their ongoing MCS in real time can adjust their current conversations in order to increase their scores.
 
-For messaging conversations, the MCS score and alerts (smileys) are displayed in a dedicated column on the All Connections page. The MCS alerts are indicated with a frown like face for scores < -33 and a smiley face for scores > 33.
+For messaging conversations, the MCS score and alerts (smileys) are displayed in a dedicated column on the All Conversations page. The MCS alerts are indicated with a frown like face for scores < -33 and a smiley face for scores > 33.
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
@@ -82,7 +82,7 @@ MCS Toolkit allows brands to identify training opportunities for agents and agen
 
 ![](/img/meaningful-connection-score-(MCS)-overview4.png)
 
-MCS can be viewed in the All Connections list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
+MCS can be viewed in the All Conversations list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
 
 All MCS data is available via the [Engagement History API](https://developers.liveperson.com/data-engagement-history-overview.html) for chat and the [Messaging Interactions API](https://developers.liveperson.com/data-messaging-interactions-overview.html) for messaging.
 
