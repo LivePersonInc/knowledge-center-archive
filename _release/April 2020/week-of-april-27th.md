@@ -36,7 +36,7 @@ A conversation is transferred to skill A.
 There are no agents defined with Skill A.
 The conversation could flow in one of the below methods:
 Flow onwards to a fallback skill, if one was defined per the account or the specific skill.
-Stay on skill A until an agent is assigned with the skill (since there was no fallback skill defined)
+Stay on skill A until an agent is assigned with the skill (since there was no fallback skill defined).
 
 {: .notice}
 To configure, please contact your LivePerson account team.
