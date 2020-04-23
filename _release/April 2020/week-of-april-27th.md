@@ -25,18 +25,17 @@ The timing and scope of these features or functionalities remain at the sole dis
 {: .notice}
 Available to messaging customers only
 
-This enhancement focuses on preventing conversation transferred to a skill, on which there are no agents assigned, from reaching the “unassigned skill” (-1). Such conversations will now be able to first go through the Fallback per skill flow. The main reason for enabling this enhancement would be that by definition the unassigned skill is a skill that may route conversations to any online agent. 
-
-While having an unassigned skill is good for accounts that were not yet well defined, routing to the unassigned skill for well-defined accounts, especially ones with fallback skills defined, leads to disorder and unexpected assignment of conversations to agents. With this enhancement, we are allowing brands to have conversations that are transferred to skills on which there are no assigned agents to either stay on the skill or to flow to a fallback skill, if one is defined. 
-
-This signals a potential behavioral change in the system when this feature is enabled since conversations could potentially stay on a certain skill instead of flowing to the unassigned skill.
+This enhancement focuses on preventing conversation transferred to a skill, on which there are no agents assigned, from reaching the “unassigned skill” (-1). Such conversations will now be able to first go through the Fallback per skill flow. The main reason for enabling this enhancement would be that by definition the unassigned skill is a skill that may route conversations to any online agent. While having an unassigned skill is good for accounts that were not yet well defined, routing to the unassigned skill for well-defined accounts, especially ones with fallback skills defined, leads to disorder and unexpected assignment of conversations to agents. With this enhancement, we are allowing brands to have conversations that are transferred to skills on which there are no assigned agents to either stay on the skill or to flow to a fallback skill, if one is defined. 
+This signals two behavioral changes in the system:
+* If no fallback skill is defined to the account or per skill, when this feature is enabled conversations could potentially stay on a certain skill instead of flowing to the unassigned skill.
+* If a fallback skill is defined to the account or per skill, conversations transferred to a skill with no assigned agents will flow to the fallback skill instead of the unassigned skill.
 
 Example:
 A conversation is transferred to skill A. 
 There are no agents defined with Skill A.
 The conversation could flow in one of the below methods:
-Flow onwards to a fallback skill, if one was defined per the account or the specific skill.
-Stay on skill A until an agent is assigned with the skill (since there was no fallback skill defined).
+* Flow onwards to a fallback skill, if one was defined per the account or the specific skill.
+* Stay on skill A until an agent is assigned with the skill (since there was no fallback skill defined)
 
 {: .notice}
 To configure, please contact your LivePerson account team.
