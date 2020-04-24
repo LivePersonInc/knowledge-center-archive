@@ -21,16 +21,9 @@ LiveEngage Report Builder offers users to [create custom dashboards](data-report
 
 ### What reporting data is available?
 
-The data currently available in LiveEngage predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
+The data currently available is in the LiveEngage predefined dashboards. Data in My Account is dependent on your individual account settings.
 
-* [Agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents.
-* [Skill activity dashboard:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
-* [Goals Tracker:](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) Includes information about each conversion.
-* [Messaging Performance Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html): Includes business and operational data about messaging conversations.
-* [Business Activity Dashboard:](data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance.
-* [Business Activity Grids](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) are also available in Excel export format, in daily and monthly level aggregations.
-* [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html): Includes information about skill performance and skill demand.
-* [Survey activity dashboard:](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys presented  in Live Chat.
+See Predefined dashboards [here](https://knowledge.liveperson.com/data-reporting-report-builder-predefined-dashboards.html)
 
 ### With regard to data storage, where are the Report Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
 
@@ -156,5 +149,5 @@ The builder is based on a 3rd party tool by Microstrategy, named Microstrategy D
 
 ### What are the reporting tool browser requirements?
 
-To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://microstrategyhelp.atlassian.net/wiki/spaces/README104/pages/38305888/MicroStrategy+10.4+System+Requirements#MicroStrategy10.4SystemRequirements-Web_ClientMicroStrategyWebclient).
+To ensure your browser and export software are supported for using the builder, review the [Microstrategy Desktop - Web Client system requirements website](https://env-132731.customer.cloud.microstrategy.com/MicroStrategyLibrary/app/0F79F3C611E92F02184F0080EF9511BB/DD9A640145118E77CC948A9410AC6539/K53--K46)
 

@@ -17,7 +17,7 @@ These release notes include new features arriving to LiveEngage during October 2
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## LiveIntent
+## Intent Analyzer
 
 ### Type: New functionality
 
@@ -93,24 +93,24 @@ The timing and scope of these features or functionalities remain at the sole dis
 
 </div>
 
-LivePerson’s LiveIntent uses AI to examine consumer conversations, identify intents in real-time, and deliver actionable insights for brands to quickly optimize messaging and automation operations.
+LivePerson’s Intent Analyzer uses AI to examine consumer conversations, identify intents in real-time, and deliver actionable insights for brands to quickly optimize messaging and automation operations.
 
-### Key features of LiveIntent
+### Key features of Intent Analyzer
 
 * **Bots and human agents intent detection**
   Real-time intent recognition for both bots and human-handled conversations.
 * **Unified platform**
   With direct integration to LivePerson’s LiveEngage, customers can use a unified tool for self-service intent building and analytics.
 * **Self-service tools**
-  Self-service tools like intent builder, LiveIntent dashboard that brands can use to build and analyze intents where data can be used to inform automations in Conversation Builder, routing in Maven AI and business decisions in real-time.
+  Self-service tools like intent builder, Intent Analyzer dashboard that brands can use to build and analyze intents where data can be used to inform automations in Conversation Builder, routing in Maven AI and business decisions in real-time.
 * **Holistic dashboard**
-  LiveIntent Dashboard helps contact center managers and business decision makers analyze and optimize messaging operations for improved customer interactions.
+  The Intent Analyzer Dashboard helps contact center managers and business decision makers analyze and optimize messaging operations for improved customer interactions.
 * **Implementation**
   Access to professional services (ETS) for starter packs and modeling.
 * **Starter packs for common verticals**
   We’ve identified the top intents for FinServe, Telco, and E-commerce and we provide brand-specific training data for key high-impact intents. More to come!
 * **API**
-  Brands will have the ability to query LiveIntent classification data from public messaging interactions API.
+  Brands will have the ability to query Intent Analyzer classification data from public messaging interactions API.
 
 ### Key benefits for brands
 
@@ -121,7 +121,7 @@ Make smart business decisions backed by data and understand valuable consumer in
 You can optimize operational processes and respond to customers with a strategic approach in real- time.
 
 **Ease of use**
-LivePerson LiveIntent has full integration with Maven AI and Conversation Builder that includes all the tools you need to create personalized customer journeys.
+LivePerson Intent Analyzer has full integration with Maven AI and Conversation Builder that includes all the tools you need to create personalized customer journeys.
 
 **Machine learning**
 Be the first to harness the power of machine learning and start leading an intent-driven business to transform your brand.
@@ -129,7 +129,7 @@ Be the first to harness the power of machine learning and start leading an inten
 **Data-driven automations**
 Dynamically route your consumers to the right bot or human agent and refine dialogue flows with proven conversations to optimize bots.
 
-For more information on LiveIntent and how to set up please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html)
+For more information on Intent Analyzer and how to set up please [click here](https://knowledge.liveperson.com/ai-bots-automation-liveintent-overview.html)
 
 ### Screenshots
 

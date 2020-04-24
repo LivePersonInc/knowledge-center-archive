@@ -107,15 +107,17 @@ Until today, managers used the orbs on the bottom of the screen to open multiple
 
 After you view conversations in All Connections, you have the ability to take [several actions](/messaging-managers-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
 
+{: .notice} **Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
+
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
-* **Takeover the conversation:** Remove the conversation from the current agent and become the primary owner of the conversation.
-* **Resume conversation:** Restart a closed conversation as the primary agent.
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
-* Transfer the conversation
-* Send conversation back to queue
-* Close the conversation
+* **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
+* **Resume the conversation** 
+* **Transfer the conversation**
+* **Send conversation back to queue**
+* **Close the conversation**
 
 You can click on ‘to send messages go to my connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
 

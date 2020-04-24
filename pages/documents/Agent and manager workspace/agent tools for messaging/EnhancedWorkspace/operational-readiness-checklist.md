@@ -6,7 +6,9 @@ indicator: both
 subtitle: Learn more about the new agent workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-operational-readiness-checklist.html
-
+redirect_from:
+    - messaging-agents-operational-readiness-checklist.html
+    
 ---
 
 To ensure you are fully prepared for the new experiences, we have created a comprehensive checklist with all the steps you need to take. Please check off each item as it is completed to stay organized and make the transition as smooth as possible.
@@ -108,15 +110,13 @@ Some ideas of how you can use this information:
 
 **Training resources available to you:**
 
-* Agent training deck
+* [Agent training deck](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html)
 
-* Agent training video
+* [Agent training video](/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html)
 
-* Manager training deck
+* [Manager training video](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-tutorial.html)
 
-* Manager training video
-
-## Step 5 - TESTING
+## Step 5 - Testing
 
 You can test the new manager workspace and enhanced agent workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
@@ -124,7 +124,7 @@ Best practice: ensure one of your SMEs at least has tested and successfully used
 
 To get early access for testing, please contact your LivePerson account team.
 
-## Step 6 - SET UP
+## Step 6 - Set up 
 
 1. Schedule go-live date, including any transition groups or waves.
 

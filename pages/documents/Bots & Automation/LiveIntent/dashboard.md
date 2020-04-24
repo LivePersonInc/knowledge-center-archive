@@ -1,18 +1,18 @@
 ---
-pagename: Overview
+pagename: Dashboard
 categoryName: Bots & automation
-subCategoryName: LiveIntent
+subCategoryName: Intent Analyzer
 indicator: messaging
-subtitle: LiveIntent provides real-time intent identification to help businesses optimize
+subtitle: Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-liveintent-dashboard.html
+permalink: ai-bots-automation-intent-analyzer-dashboard.html
 isTutorial: false
 isNew: false
-
+redirect_from: ai-bots-automation-liveintent-dashboard.html
 ---
 
-This document will explain all of the various aspects of the LiveIntent dashboard.
+This document will explain all of the various aspects of the Intent Analyzer dashboard.
 
 All tables in the dashboards can be sorted by clicking on any of the headers.
 
@@ -22,7 +22,7 @@ The autorefresh setting allows you to set how often the dashboard refreshes. Set
 
 ## Search
 
-The search bar will limit data to only its results across all dashboards and views of LiveIntent.
+The search bar will limit data to only its results across all dashboards and views of Intent Analyzer.
 
 You are able to search for keywords in messages or metadata like conversation IDs.
 
@@ -33,7 +33,7 @@ Example:
 
 ## Filters
 
-The filter options will limit data across all dashboards and views of LiveIntent.
+The filter options will limit data across all dashboards and views of Intent Analyzer.
 
 ### Add Filter
 
@@ -55,13 +55,13 @@ Quick Select will provide you with the most common time ranges.
 
 Relative gives you a rolling window of time.
 
-Absolute lets you use LiveIntent as historical reporting.
+Absolute lets you use Intent Analyzer as historical reporting.
 
 ## Intent Trends
 
 The Intent trends view gives a high level view of which intents are happening in your contact center
 
-<img class="fancyimage" style="width:750px" src="img/liveintent_dashboard-section-1.png">
+<img class="fancyimage" style="width:750px" src="img/intentanalyzer_dashboard-section-1.png">
 
 ### Topline Metrics
 
@@ -92,7 +92,7 @@ Tabular view of all data above, not limited to top or lowest 5 intents.
 
 The converation details view is where you go to dig in to explore the messages and conversations with intent
 
-<img class="fancyimage" style="width:750px" src="img/liveintent_conversation-overview.png">
+<img class="fancyimage" style="width:750px" src="img/intentanalyzer_conversation-overview.png">
 
 ### Topline Metrics
 

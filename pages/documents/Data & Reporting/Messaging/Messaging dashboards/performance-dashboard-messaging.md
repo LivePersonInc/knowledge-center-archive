@@ -25,7 +25,7 @@ The following panel will be presented when accessing the messaging performance p
 
 _Agent performance summary_
 
-![](/img/Messaging-performance-dashboard1.png)
+![](/img/Performance-Dashboard-messaging-summary.jpg)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) |
 | --- | --- | --- |
@@ -62,9 +62,7 @@ _Agent performance summary_
 
 The following panel provides an analysis of the consumer demand and agent response. The data is aggregated by day of the week. Selecting a specific day in the week dynamically filters the top data bar high level metrics.
 
-_Consumer and agent response activity (panel 2)_
-
-![](/img/Messaging-performance-dashboard2.png)
+![](/img/Performance-Dashboard-messaging-activity-breakdown.jpg)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -98,7 +96,7 @@ The following panel provides an exportable grid which includes agent related act
 
 _Agent level data export grid (panel 3)_
 
-![](/img/Messaging-performance-dashboard3-1.png)
+![](/img/Performance-Dashboard-messaging-brand-level-data-data-export.jpg)
 
 **Rows (attributes):** DATE, GROUP, AGENT, SKILL
 
@@ -124,7 +122,7 @@ The main panel provides an executive view of the messaging program performance. 
 
 _Brand messaging summary main panel_
 
-![](/img/Messaging-performance-dashboard4.png)
+![](/img/RB_Brand_Level_Data1.png)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |
@@ -174,7 +172,7 @@ Export the following grid to create custom visualizations and generate calculati
 
 Brand level data export (panel 2)
 
-![](/img/Messaging-performance-dashboard5.png)
+![](/img/Performance-Dashboard-messaging-brand-level-data-export.jpg)
 
 **Rows (attributes):** DATE, SKILL
 
@@ -229,6 +227,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ## Metrics
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the[ Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
-
-![](/img/General-Data-metrics-table.png)
+For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)

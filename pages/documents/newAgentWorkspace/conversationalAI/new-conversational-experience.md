@@ -34,7 +34,7 @@ Features and products that are unlocked will be clickable, allowing you to easil
 
 * **Bot Analytics** - in-depth analytics on your bots' performance, including conversion rates and number of interactions.
 
-* **LiveIntent** - setup real-time intent detection and browse detailed intent dashboards.
+* **Intent Analyzer** - setup real-time intent detection and browse detailed intent dashboards.
 
 * **Maven** - configure Maven's AI engine to orchestrate all conversations and automations.
 
@@ -63,7 +63,7 @@ The Conversation Builder itself is also going under some changes meant to enhanc
 
 * When you enter Intent Builder, your list of intent domains will now be in a tabular format.
 
-<img style="width:750px" src="img/liveintent-domains1.png">
+<img style="width:750px" src="img/intentanalyzer-domains1.png">
 
 * When inside an intent domain, the top nav bar will show Intents, Entities, and Versions buttons as well.
 
@@ -71,7 +71,7 @@ The Conversation Builder itself is also going under some changes meant to enhanc
 
     * Debug, Train, Domain Settings
 
-<img style="width:750px" src="img/liveintent-domains2.png">
+<img style="width:750px" src="img/intentanalyzer-domains2.png">
 
 
 ### Knowledge Base

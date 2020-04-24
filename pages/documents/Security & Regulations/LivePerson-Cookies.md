@@ -5,13 +5,17 @@ pagename: LivePerson Cookies
 subtitle: LivePerson uses information stored in cookies to maintain session data and
   to identify returning visitors
 permalink: security-regulations-liveperson-cookies.html
-date: 2019-03-12 11:24:55 +0000
+date: '2019-03-12T11:24:55.000+00:00'
 subCategoryName: ''
 level3: ''
 isTutorial: false
 isNew: false
 
 ---
+
+{: .notice}
+For an in-depth and technical overview of Cookie types and properties, please see [this article](https://developers.liveperson.com/cookies-and-liveengage-overview.html) in the Developers' Community.
+
 A cookie is a small piece of data sent from a website and stored in the visitors' web browser. It helps the website to remember information about a visit; so when a visitor browses the same website in the future, the data stored in the cookie is sent back to the website by the browser.
 
 LivePerson uses information stored in cookies to maintain session data and to identify returning visitors by saving LivePerson-specific data such as visitor ID and last chat date. It is important to note that the cookies do not contain any private customer data, or any data that can be accessible or useful outside of LivePerson.
@@ -26,7 +30,7 @@ The following lists the cookie solution types offered by LivePerson:
 
 All browsing and chatting cookies will be set with the LivePerson domain. Some will be set as session cookies and others as persistent cookies in order to identify repeat visitors.
 
-\- If the browser does not support third- party cookies, it will fall back to the **first- party persistent cookie**.
+\- If the browser does not support third- party cookies, it will fall back to the **first-party persistent cookie**.
 
 \- As a result of the fall back to **first-party persistent cookies**, additional visitors may be monitored.
 
@@ -49,7 +53,7 @@ Secure cookies with **first-party cookie** solution types are not supported.
 
 ### First-party persistent
 
-Browsing cookies under your website domain will be set by LivePerson as persistent cookies, so that browsing history is available. If a visitor chats, the LivePerson chat window will set a persistent first party cookie.
+Browsing cookies under your website domain will be set by LivePerson as persistent cookies, so that browsing history is available. If a visitor chats, the LivePerson chat window will set a persistent first-party cookie.
 
 {: .notice}  
 Secure cookies with **first-party cookie** solution types are not supported.
@@ -76,7 +80,7 @@ LivePerson supports secure cookies, but require the Monitor Tag to be deployed u
 
 LivePerson is unable to support the HttpOnly attribute because it does not operate through JavaScript, which facilitates the Monitor Tag to collect cookies.
 
-### Third Party Cookies - Default
+### third-party Cookies - Default
 
 By default, LivePerson uses third-party session and visitor cookies in order to save visitor's tracking information. This is due to the fact that while visitors are browsing your site, the LivePerson cookies are set by the LivePerson domain and not by your website domain.
 
@@ -209,3 +213,5 @@ LPit Used by LivePerson to allow the system to optimize its service. It is set w
 Disabling or blocking this cookie does not prevent chat from working.
 
 **Cookie type:** Session
+
+For more detailed information on Cookies, please visit the [Developers Community](https://developers.liveperson.com/cookies-and-liveengage-overview.html)

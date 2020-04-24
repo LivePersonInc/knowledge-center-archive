@@ -28,6 +28,11 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
+## Predefined dashboads
+LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+
+See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
+
 ## Freshness of data
 
 As an offline business intelligence decision support tool, the Report Builder is updated periodically with recent activity that took place on your LiveEngage account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Report Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
@@ -53,66 +58,12 @@ The following considerations should be taken into account when using Report Buil
 1. Unlike the Agent Manager BI dashboards, Report Builder presents data in the account’s time zone.
 2. Scheduling is performed by LivePerson administrators.
 
-## Predefined dashboards
-
-LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
-
-The data currently available in the predefined dashboards are as follows:
-
-**Messaging & Live Chat dashboards:**
-
-* [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
-* [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
-
-**For Messaging only:**
-
-* [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
-* Survey dashboard for Messaging: Includes information about responses to surveys
-* [Business dashboard for Messaging:](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
-
-**Chat only dashboards:**
-
-* [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
-* [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
-* [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
-* Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
-
-## Scheduling
-
-LivePerson administrators can schedule reports to run at set times on a recurring basis within saved report parameters, and can be delivered to the requested email inbox.
-
-## Latest updates to Report Builder
-
-LivePerson is continuously working on enhancing the Report Builder. In 2018/2019, the following enhancements and new features have been added to Report Builder:
-
-* A new set of metrics have been added to the Messaging Performance Predefined Dashboard to help analyze human agent performance and takeovers by agents (bots or humans).
-* The messaging performance dashboard has been enriched with a set of attributes which can be used to filter the operational metrics by campaigns and engagements.
-* Messaging queue length metrics including actionable and non actionable unassigned conversations have been added to the Messaging Performance Dashboard to enable comparison between skill queues.
-* A new tab has been added to the messaging dashboard, “Survey Data Export” sheet which contains data collected by the Post Conversation Survey bot.
-* The data refresh rate has been enhanced to every eight hours.
-* Agent load KPIs are added to the Predefined Messaging Performance Dashboard to reflect how smart capacity functions. These KPIs give agent managers a view of how productive their agents have been.
-* New conversion metrics have been added to the Messaging Performance Dashboard to allow analysis of sales results together with messaging operations data.
-* User can change the time zone of a dashboard to analyze performance in their local time. This capability has been added to two predefined dashboards: skill activity and messaging performance.
-* The field details tab has been redesigned and contains a list of all the available attributes and metrics.
-* The response time metrics in the Messaging Performance dashboard will be enriched to provide a detailed view of the consumers experience (i.e., how much time consumers are waiting for a response?), and a more accurate measurement for the responsiveness of the agents (i.e., how long it takes an agent to respond from the point the conversation is assigned to him?).
-* LivePerson is offering predefined documents intended for easy download and subscriptions. The content of these documents replace the grids that are available in the Operational BI. The following reports will be created as standalone documents:
-  1. Agent Activity Grid - Daily & Monthly
-  2. Skill Activity Grid - Daily & Monthly
-  3. Survey Activity Grid - Daily & Monthly
-  4. Goal Tracker Grid
-
 ### Exporting to PDF
 
 Users are able to export dossiers to a formatted PDF file, including visualizations and advanced formatting options such as:
 layout ( Automatic, Portalit, Landscape). Advanced mode to export the visualizations individually on separate pages to include all data.
 
 ![](img/export-to-pdf.png)
-
-### PDF scheduling
-
-New scheduling to a PDF file format will soon be available. In addition, setting the scheduling to PDF format can be done within the dashboard. Go to the file menu and select ‘Schedule Delivery to email’.
-
-![](img/pdf-scheduling.png)
 
 ### Personalized view
 
@@ -128,6 +79,9 @@ For example, you can create a view on the Agent Activity Dashboard for the last 
 ![](img/personalized-view.png)
 
 {: .notice}
-These changes will only impact the predefined dossiers. User copies of previous predefined  dossiers will not be impacted automatically. If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Report Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
+These changes will only impact the predefined dossiers. User copies of previous predefined dossiers will not be impacted automatically.
+
+### How to change customized dashboard to the updated look & feel
+If there is a need to update existing user copies of the dashboard to the new color palette, this can be done manually in the Report Builder. After opening the required dossier, go to ‘Format’ Menu and choose ‘Custom Pallets’ -> LivePerson Palette and then save the changes.
 
 ![](img/pallete.png)

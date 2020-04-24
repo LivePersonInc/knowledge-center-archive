@@ -131,76 +131,6 @@ Image 2: agent sees the location consumer shared
 
 ![](img/week-of-september-30th-28.png)
 
-## Smart Connect IVR self service via data source and campaign
-
-### Type: Enhancement
-
-<div class="tablecontainer">
-<table class="releasenotes">
-<thead>
-<tr class="categoryrow">
-<th>Web Messaging</th>
-<th>Mobile App Messaging</th>
-<th>Twilio</th>
-<th>Facebook Messenger</th>
-<th>ABC</th>
-<th>Line</th>
-<th>Google RCS</th>
-<th>Google My Business</th>
-<th>WhatsApp Business</th>
-<th>CM</th>
-<th>WeChat</th>
-<th>Chat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-SmartConnect is a feature that enables deflecting phone calls from a brand’s IVR system into LivePerson messaging. This enhancement adds support for SmartConnect campaigns and engagements.  
-
-Until now, LivePerson professional services had to set up Smart Connect for our brands.
-This release enables our brands to set up Smart Connect themselves, using data sources and by creating campaigns - enabling quicker onboarding and time to set up.
-
-{: .notice}
-**Please note:** This feature requires enablement. Please speak to your LivePerson representative for more information.
-
-**Limitations**
-* Currently the service default values are configured on the account level. In future releases this will be enhanced to an engagement configuration level.
-* Currently the visitor info display Mobile App instead IVR as source. This will be enhanced in future releases.
-
-**Screenshots**
-
-In the data sources menu, a new option for ‘IVR’ will be added:
-
-![](img/week-of-september-30th-1.png)
-
-When selecting to turn on the IVR source, brands are able to configure the IVR via the following screen:
-
-![](img/week-of-september-30th-2.png)
-
-Once the data source is configured, brands will create a campaign engagement to complete the deflection process.
-To do so, create an engagement within the campaign with the following configuration:
-* Data source: IVR
-* Entry point: IVR service
-
-![](img/week-of-september-30th-3.png)
-
 ## Ability to set the bottom corners of the engagement window as rounded
 
 ### Type: Enhancement
@@ -429,7 +359,7 @@ Image 2: Consumer view: adding emojis from desktop web messaging or chat window
 </table>
 </div>
 
-This feature allows brands the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows.
+This feature allows brands the ability to set the consumer actions menu location and elements within the web messaging window.
 
 There are 2 options to set the location of the menu:
 * At the bottom left side of the window (current location and default for Ocean and Horizon themes)
@@ -864,7 +794,7 @@ When a conversation with an external engagement window is closed, the engagement
 
 When an agent sends a structured content carousel placed inside a structured content card, the agent’s profile picture does not show up within the engagement window. This issue has been resolved.
 
-## Third Party Bot Connectors: Support export Bot metrics data from the Dashboard menu
+## Third-party Bot Connectors: Support export Bot metrics data from the Dashboard menu
 ### Enhancement
 
 <div class="tablecontainer">

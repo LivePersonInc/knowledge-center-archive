@@ -44,6 +44,9 @@ Under Facebook's page settings for messaging, brands can use the following featu
 {: .notice}
 **Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
 
+{: .notice}
+**Note:** Subscribing your page to LiveEngage before creating a button on the Facebook page is not possible. Please create a Facebook page with a button first and then connect it to LiveEngage.
+
 To get started right away, see the [Facebook Messenger Quick Start](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) article.
 
 ## Set up how conversations start: entry points
@@ -56,7 +59,7 @@ Brands and consumers can begin interacting over Facebook Messenger through multi
 * **Opting in:** Consumers can opt-in to receive purchase confirmation and updates via Messenger during the checkout process.
 * **Offsite engagements:** Brands can embed a Message us button on ads, emails and other offsite locations.
 
-## Add an agent manager  to display third party messages
+## Add an agent manager  to display third-party messages
 
 In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 

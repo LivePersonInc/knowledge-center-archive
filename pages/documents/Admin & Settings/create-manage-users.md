@@ -28,7 +28,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
 5. Under assignment, select the profile(s) that apply to the user. Up to four profiles can be selected, but only one from within each role.
 
-![](/img/ create-manage-users3.png)
+![](/img/create-manage-users3.png)
 
 ### For users with an agent profile you’ll need to define additional settings:
 

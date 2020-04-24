@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var url = window.location.href;
+	let url = window.location.href;
 	sideBarClick ();
 	sideBarCollapse ();
 	//initialize smooth scroll
@@ -14,7 +14,6 @@ $(document).ready(function () {
 	}, 2000)
 	capabilitiesSearch();
 	searchFunction();
-	searchHighlight();
 	$(document).ready(function () {
 	scrollToHash();
 	if(checkCookie(window.cookieName) != window.cookieValue){
@@ -28,7 +27,7 @@ $(document).ready(function () {
 });
 
 function navigateContent(url) {
-	console.log('run');
+	console.log(url);
 	//call ajax with the target url
 	$.ajax(url)
 		.done(function (content) {
@@ -50,17 +49,18 @@ function navigateContent(url) {
 				$('#resetcontainer').css('display', 'none');
 			}
 			anchors.add('h2, h3');
-			$('#mysidebar div.activeitem').removeClass('activeitem');
+			// $('#mysidebar div.activeitem').removeClass('activeitem');
+			sideBarCollapse ();
 			populateAnchors();
 			capabilitiesSearch();
 			searchFunction();
-			searchHighlight();
-			sideBarCollapse();
 			replaceTitle();
 			//call smoothscrolling on all anchors
 			var scroll = new SmoothScroll('a', {offset: 140});
-			//jump to top when page loads
+			//jump to top when page loads if no hash
+			if (!window.location.hash) {
 			window.scrollTo(0, 0);
+			}
 			if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 				$('#defaultsidebar').slideUp(400);
 				$('#defaultsidebar').data('expanded', 'false');
@@ -73,10 +73,12 @@ function navigateContent(url) {
 			} else {
 				$('#defaultfooter').addClass('botfooter');
 			}
+			window.history.pushState({
+				url: url
+			}, '', url);
 		})
 		.fail(function () {
-			url = "/404.html";
-			navigateContent(url);
+			window.location = "https://knowledge.liveperson.com/404.html";
 		});
 	};
 
@@ -90,10 +92,9 @@ function linkclick(event, that) {
 	//prevent the link from actually navigating to the url
 	event.preventDefault();
 	//grab the url to which the link is pointing
-	var url = $(that).attr('href');
+	let url = $(that).attr('href');
 	// call the navigateContent function and pass that url to it
 	navigateContent(url);
-	//make sure the window recognizes this and adds it to the history queue for back and refresh actions
 	window.history.pushState({
 		url: url
 	}, '', url);
@@ -215,6 +216,9 @@ function sideBarClick () {
 			$(".categoryfolder a").removeClass("activeitem");
 			$(this).addClass("activeitem");
 		}
+		if ($('.mobileheader').css('display') == 'flex') {
+			$('.hamburger').trigger("click");
+		}
 	});
 };
 
@@ -223,6 +227,8 @@ function sideBarCollapse () {
 	var modifiedURL = '/' + url.split('/').reverse()[0].replace(/\#.*/, '');
 	var currentPage = $('a[href="' + modifiedURL + '"]');
 	var currentPageOpener = currentPage.parents().children(".canOpen");
+	$(".categoryfolder a").removeClass("activeitem");
+	$(this).addClass('itemdetails');
 	currentPage = currentPage.addClass("activeitem");
 	currentPageOpener = currentPageOpener.trigger("click");
 }
@@ -236,15 +242,20 @@ function mobileHamburger() {
 		$hamburger.toggleClass('is-active');
 		var hasExpanded = $(sidebar).data("expanded") == "true";
 		if (hasExpanded) {
-			//if clicked, slide up and set data to unclicked.
-			$(sidebar).slideUp(400);
+			//if clicked, slide up and set data to unclicked but then "slide down" in case the window gets resized.
 			$(sidebar).data("expanded", "false");
 			$('#defaultcontent').removeClass('fadeout');
+			$(sidebar).slideUp(400, function () {
+				$(this).addClass('sidebarHidden');
+				$(sidebar).slideDown(400);
+			});
 		} else {
 			//if unclicked, slide down and set data to clicked.
-			$(sidebar).slideDown(400);
+			$(sidebar).removeClass('sidebarHidden');
+			$(sidebar).slideDown(400, function () {
+				$('#defaultcontent').addClass('fadeout');
+			});
 			$(sidebar).data("expanded", "true");
-			$('#defaultcontent').addClass('fadeout');
 		}
 	});
 }
@@ -253,7 +264,7 @@ function mobileHamburger() {
 function searchFunction() {
 	var $title = $('.h1').text();
 	//only run if on the relevant pages
-	if ($title.indexOf('Business Reporting Metrics') > -1) {
+	if ($title.indexOf('Reporting metrics') > -1) {
 		// Declare variables
 		var input, filter, table, tr, td, i;
 		input = document.getElementById("metricsSearch");
@@ -309,7 +320,7 @@ function searchFunction() {
 			//if this is the report builder page
 			if ($(".metricstable").is("#datametricstable")) {
 				//timeout is important because the table is so large and if it tries to load in parallel to the function, it stalls.
-				setTimeout(reportDisplay, 300);
+				setTimeout(reportDisplay, 1000);
 			} else {
 				metricsDisplay();
 			}
@@ -358,20 +369,6 @@ function capabilitiesSearch() {
 		});
 	};
 };
-
-function searchHighlight() {
-	//grab the filter element from local storage. We define this element in the inline script on the default page.
-	var toHighlight = localStorage.getItem('filter');
-	//if the element has been created
-	if (toHighlight) {
-		//find its content within the page and apply the highlight class
-		$('#defaultcontent').highlight(toHighlight, {
-			className: 'searchHighlight'
-		});
-	};
-	//set the filter element to empty so that filtering doesn't "carry over" to future navigation
-	localStorage.setItem('filter', '');
-}
 
 //on scroll
 $(window).scroll(function() {

@@ -77,8 +77,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 
 ## Configuration
-By default, CoBrowse for Web Messaging is not enabled in your LiveEngage account. Please contact your LivePerson account manager to have this feature enabled for you.
-
+CoBrowse for Web Messaging is enabled by default.
 Additional CoBrowse configuration is available in [nightvision](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html#configuration).
 
 ## Initiating CoBrowse
@@ -188,7 +187,7 @@ The following table lists the prerequisites and technical requirements necessary
 * The consumer must not navigate at the same time as accepting an invite
 * The consumer must not close the browser tab or navigate to an untagged page during a CoBrowse session
 * The agent must not close the browser tab (or navigate to an untagged page in interactive mode)
-* Third party cookies must be enabled
+* third-party cookies must be enabled
 
 <div class="notice">
 <b>Note:</b>

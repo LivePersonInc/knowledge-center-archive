@@ -78,6 +78,15 @@
   transition: opacity .10s ease-in-out;
 }
 
+.algolia-autocomplete .aa-suggestions {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.releaseNotesContainer {
+  order: 2;
+}
+
 .algolia-autocomplete .aa-suggestion {
   padding: 20px 0 20px 15px;
 }

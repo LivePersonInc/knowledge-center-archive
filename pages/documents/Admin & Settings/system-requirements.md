@@ -12,12 +12,6 @@ isNew: false
 date: '2019-01-28T13:20:27.000+00:00'
 
 ---
-The official support of the LP Mobile SDK version is for the latest version only at any given point of time. This is applicable for both iOS and Android SDK versions.
-
-The support for new OS releases from Apple and Google (iOS and Android OS) for the LP SDK would be within max 6-8 weeks from the date of GA availability of the OS for 2019. Beta SDK release of the newer OS beta will be available before 3-4 weeks of the GA availability for the customers to try their hands on and report any early issues.
-
-We have a plan to reduce the release of LP SDK with new OS support to under 2 weeks in future starting Jan 2020.
-
 The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
 
 For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
@@ -71,19 +65,26 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Microsoft Edge | N/A | N/A | Latest available version (N)* , Version N-1 |
 | Safari |  | Not supported |  |
 
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+
 ### Mac
 
 |  | OS X 10.10 | OS X 10.11 | macOS Sierra |
 | --- | --- | --- | --- |
 | Safari | Safari 8 | Safari 9 | Safari 10, Safari 11* |
-| Chrome |  | Latest available version (N)* ,  Version N-1 |  |
-| Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
+| Chrome |  | Latest available version (N)* ,  Version N-1 |  |
+| Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
+
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+
 
 ## Visitor side: unsupported browsers
 
 We do not support incognito / private browsing in any browser.
 
-Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, LiveEngage will not display any chat buttons or invitations, for example on:
+Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, LiveEngage will not display any chat buttons or invitations, for example on:
 
 * Internet Explorer 7, 8, 9 and 10
 * Line browsers
@@ -94,7 +95,8 @@ The official support of the LP Mobile SDK version is for the latest version only
 
 The support for new OS releases from Apple and Google (iOS and Android OS) for the LP SDK would be within max 6-8 weeks from the date of GA availability of the OS. Beta SDK release of the newer OS beta will be available before 2-4 weeks of the GA availability for the customers to try their hands on and report any early issues.
 
-We have  a plan to  reduce the release of LP SDK with new OS support to under 2 weeks in future starting Jan 2020.
+{:.important}
+**Notice: Signup Flow has been deprecated** as of June 2019. All customers are advised to move to Auth Code, Implicit Auth, or Unauth flows to continue using the SDK without issues.
 
 ### Latest releases
 
@@ -133,33 +135,36 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 |  | Windows 7 | Windows 8.1 | Windows 10 |
 | --- | --- | --- | --- |
 | Chrome | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 | Latest available version (N)* , Version N-1 |
-| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
 | Internet Explorer | 11x* | 11x* | 11x* , Edge* |
 | Microsoft Edge | Not supported | Not supported | Latest available version (N)* |
 | Safari | Not supported | Not supported | Not supported |
+
+{: .notice}  
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. As a result, LivePerson no longer tests its various products on Windows 7. This means that we don't plan on fixing any Windows 7 specific issues that may arise but our products will still work on the operating system. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 ### Mac
 
 |  | OS X 10.8 | OS X 10.9 | OS X 10.10 |
 | --- | --- | --- | --- |
 | Safari | 6x | 7x* | 8x* |
-| Chrome | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 |
-| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
+| Chrome | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 | Latest available version (N)* ,  Version N-1 |
+| Mozilla Firefox | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) | Latest available version (N)* ,  Version N-1, ESR (N and N-1) |
 
 ## Desktop notifications
 
 LiveEngage desktop notifications do not support the following browsers:
 
-* Internet Explorer 11x
+* Internet Explorer 11x
 
 ## Reporting
 
 LiveEngage BI Dashboards do not support the following browsers:
 
-* Internet Explorer 11x
+* Internet Explorer 11x
 * Microsoft Edge
 
-While these browsers do support LiveEngage they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
+While these browsers do support LiveEngage they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
 
 ## Bandwidth requirements
 

@@ -254,7 +254,7 @@ This new feature is enabled OOTB and is available for all Report Builder enabled
 
 ![](/img/RB3.3-2.png)
 
-## Third Party NLU support
+## Third-party NLU support
 
 ### Type: New functionality
 
@@ -345,7 +345,7 @@ In order to enable this feature for the customers, Super Admin users in Conversa
 
 **3rd Party NLU limitations**
 
-* Third Party NLU Domain - Entity length should not exceed 64 characters. (Watson limitation)
+* Third-party NLU Domain - Entity length should not exceed 64 characters. (Watson limitation)
 * Each domain can only support one language and it is available in the settings page.
 
 **Fire API-CB limitations:**

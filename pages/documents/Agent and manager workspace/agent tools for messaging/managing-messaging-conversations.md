@@ -20,8 +20,9 @@ Once you start handling conversations, you should move down the conversation lis
 
 As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
 
-* **Auto accept**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
-* **Manual accept**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Auto-accept mode**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
+* **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned. 
 
 ## Understanding the context & history
 
@@ -84,49 +85,6 @@ Refer to guidelines from your manager as to what tools are available to you. For
 
 For cases when you can better assist the consumer by viewing their screen, you can start a CoBrowse session with them. This will enable you to view their browser, move their mouse, highlight areas of their screen to provide better service. If you have the appropriate permissions, you can also take over the mouse and fill in forms on their behalf. [Click here](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) to learn more about CoBrowse.
 
-### Use audio or video messaging (for mobile app messaging only)
-
-If your brand is offering customers messaging from within your mobile app, you may have the option to advance the messaging conversation to digital voice call or video conference. There are three options to make your mobile messaging conversations more interactive: **screen sharing mode (CoApp)**, **digital voice** or **digital video**.
-
-All three options are triggered from within the messaging conversation window:
-
-![](/img/managing-messaging-conversations-4.png)
-
-**App screen sharing**
-
-This option enables you to view your customers app and help them navigate it and fill in forms or the shopping cart.
-
-{: .notice}
-When you initiate a screen sharing session, the audio will automatically be connected to enable you and the customer to talk through the actions (as typing in the messaging window concurrently is not a good customer experience).
-
-When they accept the invitation, it will be clear that you are sharing their screen. When you initiative a screen sharing session, the consumer will see the following invite:
-
-![](/img/managing-messaging-conversations-5.png)
-
-**Digital voice calls**
-
-Sometimes conversations can be resolved more easily with a quick voice call. You can invite your customers to speak with you directly.
-
-{: .notice}
-Ensure you have the proper audio and headphones connected before suggesting this. In addition, you should be prepared to speak on the phone and not be engaged in other distracting conversations.
-
-When you invite a customer to a call, they’ll see an incoming call screen:
-
-![](/img/managing-messaging-conversations-6.png)
-
-Connected call screen:
-
-![](/img/managing-messaging-conversations-7.png)
-
-**Digital video**
-
-If you are providing service or sales where a quicker resolution can be found by seeing the consumer's environment, a quick video call can be conducted.
-
-{: .notice}
-This is permission-based and depends on your contact center and services offered. If you are using video, ensure you have the proper equipment and grooming.
-
-![](/img/managing-messaging-conversations-8.png)
-
 ## Closing conversations
 
 The nature of messaging conversations is that they are ongoing and can be resumed at anytime. However, in order to manage agent work streams and ensure consumer requests have been fulfilled, conversations can be marked as ‘closed.’ A closed conversation can be reopened again - either by the consumer or by the agent - with the entire history kept intact.
@@ -152,22 +110,18 @@ The CSAT scores calculated for your performance in the KPI bar are derived from 
 
 To save you time - there are eight hotkeys configured on your workspace for some of the most common tasks.
 
-Open the hot keys menu by holding down the control and tilde keys (CTRL + \~).
+Select an action by pressing the applicable keys below: 
 
-On UK keyboards, hold down the control and apostrophe keys (CTRL + ').
-
-Select an action by pressing the applicable letter.
-
-| ACTION | HOT   KEY |
+| ACTION | HOT KEY |
 | --- | --- |
-| LOGOUT of the agent   workspace | L |
-| ACCEPT a new incoming   conversation | A |
-| LIST VIEW: open the my   connection list | V |
-| STATUS: toggle your   status between Online, Back Soon and Away | S |
-| HIDE conversation from   your current view | H |
-| Return conversation to QUEUE | Q |
-| TRANSFER conversation   to another skill | T |
-| CLOSE conversation | X |
-
-{: .notice}
-_The END ENGAGEMENT and TRANSFER ENGAGEMENT hot keys are only available when you are in a conversation with a visitor._
+| Move to next conversation| Alt + Shift + M |
+| Deselect conversation | Alt + Shift + U |
+| Copy as plain text | Alt + Shift + Y |
+| Return to queue | Alt + Shift + Q |
+| Transfer conversation | Alt + Shift + R |
+| Close conversarsation | Alt + Shift + W |
+| Accept conversation | Alt + Shift + N |
+| Takeover conversation | Alt + Shift + O |
+| Leave conversation | Alt + Shift + I |
+| Logout from LiveEngage | Alt + Shift + L |
+| Change status | Alt + Shift + S |

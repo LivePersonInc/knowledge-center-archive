@@ -27,6 +27,8 @@ An audit trail is available for the following elements:
 * [Post Conversation Survey](ai-bots-automation-post-conversation-survey-bot.html)
 * [Campaign scheduling](contact-center-management-campaigns-time-frame.html)
 * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
+* [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) and content categories
+* [Agent survey for messaging](contact-center-management-messaging-operations-agent-survey-for-messaging.html)
 
 Audit data related to user logins to the LiveEngage system is not available.
 

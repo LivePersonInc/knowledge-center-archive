@@ -17,8 +17,6 @@ redirect_from:
 
 ## Maven AI Platform
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353328389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 Conversational Commerce has unlocked new channels for consumers to interact with brands on their terms. Consumer demand for messaging presents a challenge for brands to effectively handle high volumes of messaging conversations while simultaneously delivering personalized and effective service to every consumer.
 
 LivePerson’s Maven AI offers brands tools to enable efficient and personalized customer journeys at scale, while allowing brands control and transparency over how AI is used in their business.
@@ -42,3 +40,6 @@ The Maven Workspace is a self-service, low-code/no-code experience for brands to
 * Access developer features such as **[AskMaven](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate Maven AI orchestration into their decision processes.
 
 <img width="750px" src="/img/maven-workspace.png">
+
+## Maven Permissions
+The LiveEngage Administrator Profile inherits all Maven administrator permissions, excluding AI Powered Routing and AskMaven. The ability to use Maven is indicated in the Conversational AI menu by the absence of a lock designation on the icon.

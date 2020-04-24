@@ -24,7 +24,7 @@ This dashboard includes operational metrics used to analyze agent activity and p
 
 The following default panel will be presented when accessing the agent activity predefined dashboard. It provides an overview of the performance of all agents active on the account.
 
-![](/img/agent-activity-dashboard 1.png)
+![](/img/Agent_Activity_agent_activity_dashboard.jpg)
 Image 1 - Agent activity dashboard main panel
 
 **Visualizations:**
@@ -43,7 +43,7 @@ Image 1 - Agent activity dashboard main panel
 
 The following grid view presents information available on a daily basis which can be exported to excel for further manipulation of the data, primarily by agent groups and day of the week.
 
-![](/img/agent-activity-dashboard2.png)
+![](/img/Agent_Activity_Grid.jpg)
 
 Image 2 - agent activity grid (panel 2)
 
@@ -75,8 +75,7 @@ Image 2 - agent activity grid (panel 2)
 
 The following grid view presents agent performance metrics for the entire duration of the time selected in the date filter available on the dashboard. The grid data may be exported to excel to manipulate the data further, such as by grouping the agents into custom groups based on their performance.
 
-![](/img/agent-activity-dashboard3.png)
-
+![](/img/Agent_Activity_Grid.jpg)
 Image 3 - Agent performance (panel 3)
 
 **Rows (attributes):** AGENT
@@ -97,6 +96,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ## Metrics
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard in the [Developers Community](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer).
-
-![](/img/General-Data-metrics-table.png)
+For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)

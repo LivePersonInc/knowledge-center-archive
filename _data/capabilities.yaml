@@ -249,13 +249,13 @@
     - facebook: "Not Supported"
     - whatsapp: "Supported"
     - googleRCS: "Not Supported"
-    - line: "Not Supported"
+    - line: "Supported"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
     - weChat: "Not Supported"
   - featureName: File sharing - consumer to agent
     channels:
-    - mobileAppMessaging: "Not Supported"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
@@ -268,7 +268,7 @@
     - weChat: "Supported"
   - featureName: File sharing - agent to consumer
     channels:
-    - mobileAppMessaging: "Not Supported"
+    - mobileAppMessaging: "Supported"
     - webMessaging: "Supported"
     - appleBusinessChat: "Supported"
     - sms: "N/A in Channel"
@@ -281,7 +281,7 @@
     - weChat: "Not Supported"
   - featureName: Voice/video calls
     channels:
-    - mobileAppMessaging: "Supported"
+    - mobileAppMessaging: "N/A in Channel"
     - webMessaging: "Supported"
     - appleBusinessChat: "N/A in Channel"
     - sms: "N/A in Channel"
@@ -291,7 +291,7 @@
     - line: "N/A in Channel"
     - messagingWindowAPI: "Not Supported"
     - connectorAPI: "Not Supported"
-    - weChat: "N/A in Channel"
+    - weChat: "Not Supported"
   - featureName: GIF - consumer to agent
     channels:
     - mobileAppMessaging: "Supported"

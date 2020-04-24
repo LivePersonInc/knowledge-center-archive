@@ -91,7 +91,7 @@ LivePerson includes a comprehensive set of management and reporting capabilities
 
 ## Bot dashboard
 
-The bot dashboard will help brands monitor the technical and operational activity of their third party bot. Brands will be able to see key operational metrics such as, ongoing conversations, transferred conversations, errors, uptime and more.
+The bot dashboard will help brands monitor the technical and operational activity of their third-party bot. Brands will be able to see key operational metrics such as, ongoing conversations, transferred conversations, errors, uptime and more.
 
 This dashboard will provide the ability to track these metrics over time and thereby identify issues, follow the bots improvement over time and identify when its encountering an issue. There will also be an option to export the data as well as view logs related to the bots operational.
 

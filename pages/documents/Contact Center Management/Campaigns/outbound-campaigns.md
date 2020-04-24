@@ -1,11 +1,11 @@
 ---
-pagename: 'Outbound campaigns '
+pagename: 'Outbound campaigns for CM '
 categoryName: Contact center management
 subCategoryName: Campaigns
 indicator: messaging
-subtitle: Broadcast SMS campaigns using 3rd party integration
+subtitle: Broadcast SMS campaigns using CM SMS numbers
 level3: ''
-permalink: contact-center-management-campaigns-outbound-campaigns.html
+permalink: contact-center-management-campaigns-outbound-campaigns-for-cm.html
 isTutorial: false
 isNew: false
 date: 2019-04-03 08:39:38 +0000

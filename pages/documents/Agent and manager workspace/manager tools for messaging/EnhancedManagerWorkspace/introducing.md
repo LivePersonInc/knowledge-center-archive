@@ -9,7 +9,9 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-works
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+ - messaging-managers-introducing-the-new-manager-tools.html
+ 
 ---
 
 ![](img/all-connections-6.png){:class="newagent"}

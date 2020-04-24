@@ -25,7 +25,7 @@ This dashboard includes operational metrics used to analyze agent activity and p
 
 The following panel will be presented when accessing the operational & staffing predefined dashboard. It provides an overview of demand analysis. The dashboard aggregates data by the chosen skills to show chat funnel metrics and present visualizations of the funnel in two levels; comparing prospects the exposures and the showing the requested chat funnel to connected chats.
 
-![](/img/operational-staffing-dashboard1.png)
+![](/img/OP_SD_livechat_demand.jpg)
 
 **Top data bar (grid)**
 
@@ -52,7 +52,7 @@ The following panel will be presented when accessing the operational & staffing 
 
 The following panel will be presented when accessing the operational & staffing predefined dashboard. It provides an overview of the demand analysis. The dashboard aggregates data to the campaign and engagement level and shows the funnel metrics in a grid view as well as through a day by day trend view (bar chart)
 
-![](/img/operational-staffing-dashboard2.png)
+![](/img/OP_SD_ livechat_Demand_proccesing.jpg)
 
 **Left data table (grid) “Campaign”**
 
@@ -86,7 +86,7 @@ Visualizations:
 
 This panel presents a summary of the staffing related metrics as they pertain to the consumer and agent experience. Users see the queue times aggregated by the chosen skill as well as the skill’s abandonment rate and derived missed opportunities. The survey funnel is also represented in this summary to complete the consumer’s experience.
 
-![](/img/operational-staffing-dashboard3.png)
+![](/img/OP-SD-live-chat-staffing-summary.jpg)
 
 **Top data table (grid) “Operational KPIs”**
 
@@ -122,9 +122,10 @@ This panel presents a summary of the staffing related metrics as they pertain to
 
 This panel presents a deep dive into missed opportunity as it pertains to actual staffing. It highlights the times of day where staffing impacts the potential for increasing expose of chat buttons to consumers. This helps brands optimize their operation to fit the demand in increase targeting in relation to the staffing.
 
-![](/img/operational-staffing-dashboard4.png)
+![](/img/OP-SD-live-chat-staffing-summary.jpg)
 
 **Visualizations:**
+
 | Graph Name (Type) | Vertical / Angle (Metrics) | Horizontal / Color (Attributes) |
 | --- | --- | --- |
 | Missed Opportunity Weekly (Stacked Combo Bar & Line Chart) | CHAT EXPOSED (SKILL)/ MISSED EXPOSED (SKILL) / EXPOSED RATE (SKILL) | DATE |

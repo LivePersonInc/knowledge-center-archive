@@ -19,6 +19,7 @@ const searchInstance = autocomplete(
           let link = suggestion.permalink;
           let title = $('title');
           let titletext = title.text();
+          let category = suggestion.categoryName;
           if (suggestion._highlightResult.pagename) {
             value = suggestion._highlightResult.pagename.value;
           }
@@ -29,12 +30,18 @@ const searchInstance = autocomplete(
             suggestion._highlightResult.permalink.value;
           }
           if ((titletext == "Welcome! | LivePerson Knowledge Center") || (titletext == "New Experiences | LivePerson Knowledge Center") ) {
+            setTimeout(function() {
+              if ((category == "Release notes") || (category == "What's new") ) {
+                var suggestionElement = $('a[href="' + link + '"]:first');
+                suggestionElement.parents('.aa-suggestion').addClass('releaseNotesContainer');
+              }
+            }, 500);  
             return (
-              '<span class="searchtitlecontainer">' + '<a class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
-            )
+                '<span class="searchtitlecontainer">' + '<a class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
+              );
           } else {
           return (
-            '<span class="searchtitlecontainer">' + '<a  onclick="linkclick(event, this)" class="searchtitle" href="' + link +'">' + value + '</a> </span>' + '<br />' + '<a onclick="linkclick(event, this)" class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
+            '<a class="searchtitle" href="' + link +'"> <span class="searchtitlecontainer">' + value + '</span></a>' + '<br />' + '<a class="searchlinktext" href="' + link +'">' + '<span class="searchcontentcontainer">' + content + '</span> </a> '
           )
           }
         },
@@ -70,8 +77,7 @@ searchInstance.on({
     footer.classList.add('overlayvisible');
 },
   'autocomplete:selected': function (event, suggestion, dataset, context) {
-    var target = suggestion.url;
-    navigateContent(target);
+    window.location = suggestion.permalink;
 },
   'autocomplete:updated': function () {
     if (this.value != '') {

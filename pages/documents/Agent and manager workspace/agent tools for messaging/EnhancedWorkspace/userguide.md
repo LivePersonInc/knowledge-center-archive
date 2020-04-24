@@ -9,7 +9,8 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-work
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-agents-user-guide.html
 ---
 
 ## Summary of enhancements
@@ -21,7 +22,6 @@ Enhanced by automation and featuring an upgraded design, the agent workspace has
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease.
 
 **Recommendation of next conversation to answer:** Dynamic conversation list features built-in automation that tells you which conversation to answer next, removing the need for decision making that can be time consuming and prone to human error.
-New idle status filter: The addition of the new ‘idle’ status filter allows you to determine which conversations have been pending a consumer response for over five minutes.
 
 **Enhanced conversation summary:** The conversation summary widget has been enhanced to support the entering of multiple notes by several agents. When handling conversations that have been transferred and owned by several agents, this will allow you to see a log of comments for context.
 
@@ -29,7 +29,7 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 **Closed conversation status filter:** Closed conversations can be filtered into the conversation list by status, allowing agents to ensure that all their documentation is in place when wrapping up their shift.
 
-**Idle conversation status and filter:** When a consumer hasn't responded in five minutes or longer, a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
+**Idle conversation status and filter:** When a consumer hasn't responded within a certain time period (automatically determined by Smart Capactiy settings), a conversation is marked with the new idle status. You can filter these conversations out for a more focused conversation list.
 
 ## Workspace basics
 
@@ -69,13 +69,19 @@ You can filter conversations in the list by status:
 | ------------- |-------------| ------------- |-------------|
 | Ongoing | ![alt text](img/ongoing-conversation-status.png) |Ongoing conversations are open conversations that are currently active.|These conversations are in the list by default and **cannot** be filtered out.|
 | Overdue |![alt text](img/overdue-conversation-status.png) |Conversations that were not answered before the SLA has expired. |These conversations are in the list by default and **cannot** be filtered out.|
-| Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied for 5 minutes or longer, defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
+| Idle |![alt text](img/idle-conversation-status.png) |Conversations in which the consumer hasn’t replied within a certain amount of time (based on Smart Capacity settings), defined as inactive.|These conversations are filterable. Filter them **out of the list** for a more succinct list of conversations that require urgent action.|
 | Closed |![alt text](img/closed-conversation-status.png) |Conversations that have been marked as ‘closed’ by you, by consumers, or have been automatically closed by the system due to timeout. |These conversations are filterable. Filter them **into the list** at the end of your shift, or if you have down time to review your documentation.|
 
 ![alt text](img/New Agent work space GIF2.gif){:class="newagent"}
 
 {: .notice} 
 **Please note:** The 'urgent' and '1st time consumer' statuses from the previous workspace no longer exist. 
+
+### Light theme
+
+Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu. 
+
+![](img/New light mode (1).gif)
 
 ### Your personal data bar
 
@@ -103,16 +109,19 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 To save you time - there are seven hotkeys configured on your workspace for some of the most common tasks. To use a shortcut, hold the control (ctrl) and backtick (`) keys along with the corresponding letter below. 
 
-| ACTION        | HOTKEY    |
-| ------------- |-------------|
-| MOVE to the next conversation (NEW) |  CTRL + ` + M  |
-| COPY as plain text (NEW) | CTRL + ` + C  |
-| ACCEPT a new incoming conversation| CTRL + ` + A |
-| TRANSFER conversation to another skill | CTRL + ` + E |
-| Return conversation to QUEUE | CTRL + ` + Q |
-| CLOSE conversation | CTRL + ` + X |
-| STATUS: toggle your status between Online, Back Soon and Away | CTRL + ` + S |
-| LOGOUT of the agent workspace | CTRL + ` + L |
+| ACTION | HOT KEY |
+| --- | --- |
+| Move to next conversation| Alt + Shift + M |
+| Deselect conversation | Alt + Shift + U |
+| Copy as plain text | Alt + Shift + Y |
+| Return to queue | Alt + Shift + Q |
+| Transfer conversation | Alt + Shift + R |
+| Close conversation | Alt + Shift + W |
+| Accept conversation | Alt + Shift + N |
+| Takeover conversation | Alt + Shift + O |
+| Leave conversation | Alt + Shift + I |
+| Logout from LiveEngage | Alt + Shift + L |
+| Change status | Alt + Shift + S |
 
 ## Managing messaging conversations
 
@@ -140,11 +149,11 @@ You can now see the number of incoming conversations in the navigation bar. A no
 
 Once you start handling conversations, you should work through the conversation list from top to bottom. Once you handle a customer, more customers can come in, and when you finish the conversation you will be taken to the next conversation in the list.
 
-Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are two ways to accept incoming conversations into your workspace:
+Conversations that reach your workplace have already undergone detailed analysis and prioritization. Based on the configurations selected by your contact center manager, there are three ways to accept incoming conversations into your workspace:
 
 * **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
-
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your conversation list, sorted by SLA. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned. 
 
 **Auto accept:**
 ![image alt text](img/autoaccept.jpg){:class="newagent"}
@@ -200,7 +209,9 @@ While conducting a conversation, there are a few actions you can take. Click on 
 
 **Copy as plain text:** This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 
-**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or status. Once you do this, the conversation will move out of your workspace and enter the relevant queue.
+**Transfer conversation:** Select a skill or agent status to transfer your conversation to. Use the search bar to find the relevant skill or agent. Once you do this, the conversation will move out of your workspace and enter the relevant queue. The conversation will advance in the queue according to the queue policy defined on the account. By default, this conversation will be handled by the queue like any other conversation, with no weighting or preference given to it. Transferred conversations are marked as actionable by default, meaning that they will not be auto-closed by the system until they have reached an agent. 
+
+**Back to queue:** You can send a conversation back to the queue where it will be redirected to another online agent. A queue prioritization rule can be defined so that conversations that are sent back to the queue will receive priority for handling, pushing them to the top of the queue using a velocity factor. Sending a conversation back to the queue does not affect it's actionability, so the conversation may be auto-closed if it is inactive. 
 
 **Resume conversation:** This action reopens a closed conversation in order for you to follow up with a customer.
 

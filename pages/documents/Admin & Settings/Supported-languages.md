@@ -64,7 +64,7 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
 
 ## Languages supported in the LivePerson workspace
 
-The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) supports the following 13 languages:
+The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) supports the following languages:
 
 * English (US)
 * Chinese (Simplified)
@@ -79,10 +79,13 @@ The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 * Romanian
 * Spanish
 * Turkish
+* Indonesian
+* Vietnamese
+* Russian
 
 ## Languages supported in CoBrowse
 
-[CoBrowse](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) supports the following 13 languages in the Agent Workspace and on the visitor side:
+[CoBrowse](agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html) supports the following languages in the Agent Workspace and on the visitor side:
 
 * English (US)
 * Chinese (Simplified)
@@ -101,3 +104,7 @@ The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 ## Languages supported in Report Builder
 
 The [Report Builder](data-reporting-report-builder-report-builder-overview.html) supports the English language only.
+
+
+## Languages supported by MCS
+[MCS](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) is available in: The MCS is available in English, French, Italian, Japanese, German and Spanish.

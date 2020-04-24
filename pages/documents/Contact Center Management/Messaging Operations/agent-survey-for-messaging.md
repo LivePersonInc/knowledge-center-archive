@@ -16,9 +16,6 @@ isNew: false
 
 LiveEngage enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
 
-{: .notice}
-**Please note:** The agent survey for messaging is **not** currently available for the enhanced agent workspace. 
-
 ## Configuring the agent survey
 
 {: .notice}
@@ -149,7 +146,7 @@ If the survey has no required questions, a ‘Dismiss’ button will appear.
   * If the conversation is transferred to the same skill, the next agent will have the ability to fill out  the survey.
   * If the conversation is transferred to another skill, the next agent will have or not have a survey widget per the configuration of the new skill
 
-### Transffering a conversation (back to queue, to an agent, to agent in a different skill)
+### Transfering a conversation (back to queue, to an agent, to agent in a different skill)
 
   * If the survey has required questions and the agent did not submit the survey, the agent will be prompted with a warning that they have a pending survey. If they choose to still transfer the conversation, they will no longer be able to fill out the survey.
 
@@ -196,4 +193,4 @@ All agents assigned to a conversation will be able to submit the agent survey if
 
 ## Reporting
 
-Agent survey reporting in the Report Builder is coming in November. In the meantime, you can reach out to your LivePerson account team and ask the Analytics team to create custom reports on your account for the agent survey for messaging.
+Agent survey reporting in the Report Builder is coming soon. In the meantime, you can reach out to your LivePerson account team and ask the Analytics team to create custom reports on your account for the agent survey for messaging.

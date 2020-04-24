@@ -54,20 +54,7 @@ The LiveEngage Report Builder provides a robust reporting platform with powerful
 
 If you wish to enrich the predefined dashboards, and customize them to their needs are requested to approach their LivePerson account manager.
 
-The data currently available in the predefined dashboards are as follows:
-
-* **Messaging & Live Chat dashboards:**
-  * [**Agent activity dashboard**](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents
-  * [**Goals tracker dashboard**](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html): Includes information about each conversion
-* For Messaging only:
-  * [Performance Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) Includes operational and business data about messaging conversations.
-  * Survey dashboard for Messaging: Includes information about responses to surveys
-  * [Business dashboard for Messaging:](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance. Business Activity Grids are also available in Excel export formats, in daily and monthly level aggregations.
-* **Chat only dashboards:**
-  * [**Operational & staffing dashboard**](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html) **for Live Chat:** Includes information about skill performance and skill demand
-  * [**Survey dashboard for LiveChat:**](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys
-  * [**Skill dashboard** for Live Chat](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills
-  * Business dashboard for LiveChat: Includes information about campaigns and engagements performance.
+The data currently available in the predefined dashboards can be found [here](https://knowledge.liveperson.com/data-reporting-report-builder-predefined-dashboards.html)
 
 {: .notice}  
 The data included in Report Builder is constantly evolving.
@@ -78,7 +65,7 @@ Before beginning your analysis using the available predefined dashboards, we hig
 
 The glossary contains a full list of metrics available through report builder. Metrics that do not appear in the predefined dashboards can be added by a LivePerson member to the account specific dashboards upon request. Please reach out to your account manager or customer success manager for information about gaining access to additional metrics.
 
-Click [here](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html) to access the Report Builder Data Metrics
+Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Report Builder Data Metrics
 
 ## Field details sheet
 
@@ -103,7 +90,14 @@ In the selector, you may choose from one of the following time-frame options:
 
 ### **Hour offset selector**
 
-When running the [agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html) or the [goal tracker dashboard](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html), another prompt will be shown - “hour offset selector.” This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
+When running the dashboards below another prompt will be shown - “hour offset selector.” This prompt presents a selection of time offsets from the default timezone of the account. Using this allows you to present the data in the dashboard in your local time zone (in case it is different from the account's).
+
+* [agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html)
+* [goal tracker dashboard](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html),
+* [Performance dashboard for messaging](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)
+* [Survey dashboard for Messaging & Live Chat](data-reporting-messaging-chat-dashboards-survey-dashboard-for-live-chat.html)
+* [Skill dashboard for Live Chat](data-reporting-messaging-chat-dashboards-survey-skill-dashboard-for-live-chat.html)
+  
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
 
@@ -111,7 +105,7 @@ If you do not require any change in view from the account default time zone sett
 
 Data is displayed in a graphical format and/or in grid view. The data is presented to all users according to their LiveEngage account-level time zone, even if their user-level time zone has been configured differently.
 
-![](/img/User-guide6.png)
+![](/img/Business_Dashboard_for_Livechat_Campaign.jpg)
 
 Hover over any report with your mouse to view an explanation of what the report displays. You can customize how the data is displayed by choosing your own color scheme.
 
@@ -127,13 +121,9 @@ To filter a report:
    Please note:
    * Data will only display for dates chosen within the timeframe selected when you first ran the report.
    * You can select specific dates using the calendar option, or you can select dynamic date to select a timeframe relative to today’s date.
-
-     ![](/img/User-guide-4.png)
 3. Click **OK**.
 4. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
 5. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
-
-![](/img/User-guide5.png)
 
 **How-to video:** [**Filtering**](https://bcove.video/2wwcWD6)
 

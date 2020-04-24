@@ -11,7 +11,6 @@ isNew: false
 date: '2019-04-15T08:03:29.000+00:00'
 
 ---
-## Introduction
 
 Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **web messaging, Apple Business Chat, and WhatsApp Busines.** In the future, more file formats will be supported.
 
@@ -104,7 +103,7 @@ The consumer will receive the file as part of the conversation. When the consume
 
 ## **File Sanitation**
 
-When uploading a file, it will be sent to a service called "MetaDefender" for sanitation. MetaDefender accomplishes various functions:
+When uploading or when receiving a file, it will be processed by a service called "MetaDefender" for sanitation. MetaDefender accomplishes various functions:
 
 ### Prevent Attacks without Relying on Detection
 

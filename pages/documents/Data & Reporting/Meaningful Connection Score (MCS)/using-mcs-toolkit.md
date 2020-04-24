@@ -142,3 +142,7 @@ In addition, to find data for a specific conversation, users can search by conve
 
 {: .notice}  
 When filters are selected, the page will load data according to the filters. When filters are then added or removed, users must click the refresh button in order to pull additional data.
+
+## Languages
+Currently, MCS is available in the following languages: English, Spanish, Japanese and Italian 
+

@@ -267,7 +267,7 @@ Today brands are using push notifications and SMS campaigns to their customers f
 * Routing to bot
 * Reporting
 
-For more information on outbound campaigns and how they are configured, [click here](https://knowledge.liveperson.com/contact-center-management-campaigns-outbound-campaigns.html#configuration). 
+For more information on outbound campaigns and how they are configured, [click here](https://knowledge.liveperson.com/contact-center-management-campaigns-outbound-campaigns.html#configuration).
 
 ### \[WhatsApp\] New messages status indications (CX-118)
 
@@ -838,7 +838,7 @@ There’s an unnecessary space below the header image on the engagement window. 
 </table>
 </div>
 
-When third party cookies are blocked (disabled) in latest version of Chrome and Edge, the secure storage fails to instantiate because it doesn't have access to localStorage or sessionStorage causes the engagement window to not show.
+When third-party cookies are blocked (disabled) in latest version of Chrome and Edge, the secure storage fails to instantiate because it doesn't have access to localStorage or sessionStorage causes the engagement window to not show.
 
 **Fix:** When the consumer clicks on the engagement, it will open up as an external window.
 
