@@ -17,8 +17,6 @@ Please see the reporting [tutorial](https://vimeo.com/311200786/08a7eff0a9)
 
 The Survey dashboard for messaging contains 2 chapters: the post conversation survey and the Agent survey.
 
-![](img/Survey_messaging1.png)
-
 ## Post conversation survey
 
 The Post Conversation Survey Chapter includes five pages enabling different analyzes both at the results level - consumers feedback, and the survey activity level - understanding how many surveys were closed and what was the outcome (partially completed or timed out, for example).
@@ -84,17 +82,17 @@ The sheet contains five pages in a single sheet
 * Last two pages - analyze survey performance (how is the bot performing?)
 * The data is presented in grid views for easy export
 
-#### Main page: predefined survey KPIs
+### Main page: predefined survey KPIs
 
 The main page provides a daily summary of survey results with focus on the pre calculated metrics: CSAT, NPS, and FCR. This main view is pre-aggregated by skill and agent, supporting an in depth review of each individual's performance, as reported by consumers.z
 
 To add custom metrics for predefined questions, see _creating custom metrics section at the end of this article_
 
-#### Page 2: answers distribution (brand)
+### Page 2: answers distribution (brand)
 
 The brand level answers distribution includes aggregated count of responses submitted by consumers to each question and for each configured answer option. The results are presented at the brand level, split by configured survey. Leveraging these results, you are able to analyze, for example, how many consumers answered with the value “4” vs. how many answered “5” for a chosen CSAT question.
 
-##### Skipping a question vs. skipping the entire survey
+#### Skipping a question vs. skipping the entire survey
 
 Should you choose to configure a “skip” answer-option for the question, the answer “skip” along with the number of times consumers chose this option, will appear in the report next to the corresponding question.
 
@@ -104,18 +102,18 @@ It is important to note​ that a consumer may elect to skip the entire survey a
 
 Each question includes an additional bucketed answer, supplementing the configured answer-options. This bucket is called “unrecognized by bot”. Each time the bot did not find a match between the consumer’s response to a given question and any of the configured answer-options, the report will count this consumer’s response in the unrecognized by bot bucket. It is important to note that the default filter of “is answer recognized by bot” is set to “yes”, thereby, excluding all unrecognized answers from the report. You may change the filter settings to “no” or to “all” in order to evaluate consumer responses unrecognized by the bot as one of the valid answer options configured in the survey.
 
-#### Page 3: answers distribution (agent and skill)
+### Page 3: answers distribution (agent and skill)
 
 Similar to the brand level answers distribution, this page lists every configured question and answer-option, including a count of times consumers responded to each option.
 
-#### Page 4: survey level analysis
+### Page 4: survey level analysis
 
 Use this page to analyze the response rates and outcomes of each survey flow configured on your account. Answer questions such as, how long does it take my consumers to complete a survey, or how many consumers let the survey timeout before completing the flow and answering all the intended questions?
 
 {: .notice}  
 The values in the skill filter apply to the skill which triggered the survey (configured in the survey bot as the triggering skill).
 
-#### Page 5: question level analysis
+### Page 5: question level analysis
 
 Use this page to analyze the response rates and time it takes consumers to answer each question individually. Identify opportunities to optimize the question text or change the order of presentation in the survey flow. Correlate the results in this page with the survey level page to identify questions which are presented multiple time to consumers in comparison to the number of surveys closed for each configured survey flow.
 
@@ -132,9 +130,9 @@ Question fallback text is presented in the report for questions which include a 
 
 **Pre-aggregated metrics (agent and skill)**: to view results at agent or skill levels, both the ‘agent’ and ‘skill’ attributes must be added to the grid.
 
-### New attributes / filters
+## New attributes / filters
 
-#### Survey attributes
+### Survey attributes
 
 * **Survey active indicator** - Is the Survey flow configured with a skill (in use)
 * **Survey deleted indicator** - Was the Survey flow deleted?
@@ -142,7 +140,7 @@ Question fallback text is presented in the report for questions which include a 
 * **Survey description**- The description of the survey, configured in the Bot Studio.
 * **Survey outcome** - The outcome of the survey as reported by the Survey bot.
 
-#### List of Survey outcome supported values
+### List of Survey outcome supported values
 
 * **“Ignored”** when the consumer was offered a survey but didn’t respond
 * **“Completed”** when the survey reached the end of the configured flow
@@ -155,7 +153,7 @@ Question fallback text is presented in the report for questions which include a 
 * **“Closed by system”**
 * **“Error in survey flow”** when unexpected errors occur, such as invalid structured content, non-whitelisted images.
 
-#### Question attributes
+### Question attributes
 
 * **Question name** - The name of the question, configured in the Bot Studio (this is not the question text which is presented in the Question Fallback Text attribute).
 * **Question type** - The type of the question, configured in the Bot Studio. Supported values include: CSAT, NPS, FCR and Custom Questions.
@@ -164,31 +162,31 @@ Question fallback text is presented in the report for questions which include a 
 * **Question fallback text** - The text presented to the consumer in case the end-point does not support structured content (such as SMS).
 * **Question format** - The format of the question. Supports the values: “Open” and “Single Selection”. When the Survey flow supports additional format (such as multiple choice), the support values will be adjusted accordingly.
 
-#### Answers attribute
+### Answers attribute
 
 * **Answer** - The answers configured in the Bot Studio for each question.
 * **Answer value** - Hidden attribute (available only to Edit-Access users)
 * **Is answer recognized by bot** - Was the response provided by the consumer recognized as a one of the configured answers for a specific question? Use this attribute to include or exclude the “unrecognized by bot” answer type. Default filter: “Yes” only.
 
-### New metrics
+## New metrics
 
-#### Survey metrics
+### Survey metrics
 
 * **Closed survey** - The number of survey dialogs which were closed. A closed dialog is one that none of the participants can send messages in.
 * **Closed survey rate** - The percentage (%) of survey instances closed with a specific outcome. Supported by the “Survey Outcome” attribute (filter).
   \* Presents 100% when not filtered / split by outcome.
 * **Avg. duration of survey availability** - The average time a survey is available to the consumer. During this time, the consumer may respond to presented questions. This is measured from the time the survey is offered until the time the survey is closed. Attributed to the Date/Hour during which the survey was offered (not close time of the survey). Format: \[h\]:mm:ss
 
-#### Questions metrics
+### Questions metrics
 
 * **Offered question** - The number of times a question was offered to a consumer by the bot. A question is considered offered when it is sent by the bot to the consumer in a survey dialog. Depending on the survey flow, a question may be offered more than once to a consumer (cycli flows, retries, etc.).
 * **Answered question** - The number of questions presented to the consumer by the bot and were responded by the consumer with a valid (configured) answer (recognized by the bot as a valid answer). Used to compare with the metric “Offered Question”. When a question is offered multiple times but answered with a valid response less times, there may be an issue with the question text (behavioral or technical).
 * **Answer rate** (offered question) Formula: \[Answered Question\] / \[Offered Question\]. The percentage (%) of questions answered with a valid response by the consumer out of the total questions offered to the consumer by the bot.
 * **Avg. time to respond to survey question** - The time on average taken by the consumer to respond to a question. Measured from the time the Bot presented a question, to the time the consumer submitted a response to that question (recognized or unrecognized by the Bot). This is attributed to the time the question was offered (not response time).
 
-  If no response was given to the question, the metric will be associated with an empty cell in the dashboard (Null). Format: \[h\]:mm:ss
+If no response was given to the question, the metric will be associated with an empty cell in the dashboard (Null). Format: \[h\]:mm:ss
 
-#### Answers metrics
+### Answers metrics
 
 * **CSAT (brand) CSAT (agent and skill)** - The percentage of answers “4” or “5” (top two boxes) out of the total responses submitted by consumers to a predefined CSAT question type. Invalid answers, unrecognized by the bot, are excluded from the formula.
 * **FCR (brand) FCR (agent and skill)** - The percentage of answers “Yes” out of the total responses submitted by consumers to a predefined FCR question type.
@@ -196,19 +194,19 @@ Question fallback text is presented in the report for questions which include a 
 * **Answer count (brand) & answer count (agent and skill)** - The number of times consumers responded with a valid answer, recognized by the bot as a pre-configured answer. Additional buckets include: “Skipped” for questions with configured Skip option and “Unrecognized by bot” for counting how many invalid answers were submitted for a question. This is attributed to the time the survey was offered (not close time).
 * **Answer ratio (brand) and answer ratio (agent and skill)-** The percentage (%) of times consumers chose a specific valid answer out of all the configured answers on a specific question. This may be adjusted to include unrecognized answers by the bot with the filter “Is answer recognized by bot“.
 
-### Customized survey answers
+## Customized survey answers
 
-#### Custom calculation for predefined questions (CSAT, NPS, FCR)
+### Custom calculation for predefined questions (CSAT, NPS, FCR)
 
 When using a predefined brick for CSAT, NPS, FCR, you have the option of changing the calculation for the score and defining your own metric, using the submitted answers.
 
 Below is an example for creating a custom formula for CSAT, instead of the precalculated ‘CSAT (Agent & Skill)’ metric. You can use the same syntax and modify it to your needs (use it for the other questions (NPS,PCS) or using a different arithmetic calculation).
 
-#### Custom metric for CSAT calculation
+### Custom metric for CSAT calculation
 
 In order to recalculate the CSAT score, 3 metrics need to be created (see formulas below). The last metric is the one that should be used in grids and visualization (the first two metrics are only for the calculation purposes).
 
-##### Steps for creating a custom metric:
+### Steps for creating a custom metric:
 
 1. On the DASHBOARD DATASETS page at the left side of the screen, right click on ‘survey answers (agent and skill)’ and select ‘create metric.’
 
@@ -225,18 +223,18 @@ In order to recalculate the CSAT score, 3 metrics need to be created (see formul
 
 ![](/img/survey3.jpg)
 
-#### Formulas:
+## Formulas:
 
-##### CSAT_Answer_Count:
+### CSAT_Answer_Count:
 
 * Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
 * Formula: NullToZero(Sum(Case((\[QUESTION TYPE\]@ID=1), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
-  ##### CSAT_Answer_Count 4_5:
+### CSAT_Answer_Count 4_5:
 * Metric definition: number of times an answer was submitted for Question type=1 (CSAT)
 * Formula: NullToZero(Sum(Case(((\[QUESTION TYPE\]@ID=1)And((\[ANSWER VALUE\]@ID=4)Or(\[ANSWER VALUE\]@ID=5))), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
 
-  ##### New_CSAT:
+### New_CSAT:
 * Metric definition: the ratio of times answer 4 and 5 where submitted
 * Formula: \[CSAT_Answer_Count 4_5\]/CSAT_Answer_Count
 
@@ -246,7 +244,7 @@ When using custom bricks in the Post Conversation Survey, you have an option to 
 
 Below is an example for creating a custom metric for any type of question with configured answers. The final formula will provide the rate of answers to a specific question (based on the answer’s text) out of the total answers to that question. Follow the steps detailed above, in the predefined questions section, for creating the metrics - this time with the formulas listed below. You can use the formulas syntax and modify it to your needs.
 
-#### Retrieving question IDs
+### Retrieving question IDs
 
 The IDs of the survey’s questions are mapped between Bot Studio and Report Builder.
 
@@ -258,17 +256,19 @@ To In the retrieve the Question ID, head over to Bot Studio and click on the 3 d
 
 1. Total_submitted_answers
 
-   a. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
+a. Metric definition: number of times any answer was submitted for a specific Question ID (in this example: 52d95264-87d4-453a-bbe0-7b9c12c72bb8)
 
-   b. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+b. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8"), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+
 2. Total_submissions_of_specific_answer
-   1. Metric definition: number of times a specific answer was submitted for a specific Question
-      1. Answers: Answer’s text contains the words ‘Extremely’ and ‘Satisfied’
-      2. Question ID: 52d95264-87d4-453a-bbe0-7b9c12c72bb8
-   2. Formula: NullToZero(Sum(Case(((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8")And(ANSWER@DESCLike"%Extremely%Satisfied%")), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+   Metric definition: number of times a specific answer was submitted for a specific Question
+   Answers: Answer’s text contains the words ‘Extremely’ and ‘Satisfied’
+   Question ID: 52d95264-87d4-453a-bbe0-7b9c12c72bb8
+   Formula: NullToZero(Sum(Case(((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9c12c72bb8")And(ANSWER@DESCLike"%Extremely%Satisfied%")), \[ANSWER COUNT (Agent and Skill)\], ZeroToNull(0))){\~+})
+
 3. Answer’s rate
-   1. Metric definition: number of times a specific answer was submitted out of the total answers of a specific Question
-   2. Formula: \[Total_submissions_of_specific_answer\]/\[Total_submitted_answers\]
+   Metric definition: number of times a specific answer was submitted out of the total answers of a specific Question
+   Formula: \[Total_submissions_of_specific_answer\]/\[Total_submitted_answers\]
 
 ## Exporting data for survey answers calculations
 
@@ -284,9 +284,9 @@ Report Builder offers the option to export the survey results data into a MS Exc
 6. On the ‘survey data export’ tab, create a new page by clicking the ‘+’ sign at the bottom right corner of the tab
 7. Drag into the visualization the following metrics and attributes:
 
-   ![](/img/messaging-survey-dashboard5.png)
+![](/img/messaging-survey-dashboard5.png)
 
-   **Attributes:**
+**Attributes:**
    * Date
    * Skill
    * Agent
@@ -374,36 +374,35 @@ The sheet contains five Pages in a single sheet
 * Answer Distribution ( Brand) 
 * Answer Distribution( Agent and Skill) - Answer distribution by Agent and Skill
 
-#### Main Page: Agent Survey summary 
+### Main Page: Agent Survey summary 
 
 The main page provides an analysis of the overall survey activity, focused on Survey Outcome.
 
 ![](img/Survey_messaging2.png)
 
-#### Page 2: Survey Funnel - Weekly & Daily Survey completion analysis grid.
+### Page 2: Survey Funnel - Weekly & Daily Survey completion analysis grid.
 ![](img/Survey_messaging3.png)
 
-#### Page 3: Survey Funnel - Daily Survey Completion analysis by Survey Outcome
+### Page 3: Survey Funnel - Daily Survey Completion analysis by Survey Outcome
 ![](img/Survey_messaging4.png)
 
-#### Page 4: Answer Distribution ( Brand)
-
+### Page 4: Answer Distribution ( Brand)
 This page lists every configured question and answer-option, including a count of times an answer was selected.
 ![](img/Survey_messaging5.png)
 
-#### Page 5: Answer Distribution( Agent and Skill) - 
+### Page 5: Answer Distribution( Agent and Skill) - 
 This page lists every configured question and answer-option, including a count of times an answer was selected by skill and agent.
 ![](img/Survey_messaging6.png)
 
 {: .notice}  
 If a conversation had 2 agents submitting surveys, The report will show both of them. If an agent submitted more than one survey to the same conversation and skill, the last submitted survey results will be counted.
 
-#### Page 6: Predefined Question Answer Distribution (Brand)
+### Page 6: Predefined Question Answer Distribution (Brand)
 ![](img/Survey_messaging7.png)
 
-### Agent Survey metrics
+## Agent Survey metrics
 
-#### Survey Funnel Metrics
+### Survey Funnel Metrics
 
 * **OFFERED AGENT SURVEYS** - All surveys that were presented to the Agent, no matter how it ended (dismissed, timeouts, submitted ,transferred).
 * **SUBMITTED SURVEYS** - All Survey forms that were submitted (partial or complete), submission will be counted as one per conversation even if submitted more than once.
@@ -415,7 +414,7 @@ If a conversation had 2 agents submitting surveys, The report will show both of 
 * **DISMISSED SURVEYS** - The number of survey forms dismissed by an agent. This is only applicable if the survey has non-required questions.
 * **SUBMISSION RATE** - The percentage (%) of submitted survey forms ( partial or complete) out of the number of opened survey forms
 
-#### Survey Answers Metrics
+### Survey Answers Metrics
 
 * **AGENT SURVEY ANSWER COUNT (Agent Skill)** - The number of times an Agent provided answers to questions. Calculated at the Agent and Skill level
 * **AGENT SURVEY ANSWER COUNT (Brand)** - The number of times an Agent provided answers to 
@@ -425,10 +424,9 @@ questions. Calculated at the Brand level.
 * **AGENT SURVEY CLOSED SURVEY** - The number of survey forms that were closed (1.Submitted - The agent submitted the survey at least once. 2. Partially submitted - Only some of the answers were completed and the survey was submitted by the agent, 3. Time Out - Agent did not complete any answers and there was a time out by the system. The agent did not submit the survey AND did not click the Dismiss Button . 4. Conversation transferred - Agent performed transfer to skill option which closes the survey and opens a new one, no matter what the previous Agent did, 5. Dismissed - The agent pressed the dismiss button, in a non-mandatory survey).
 * **AGENT SURVEY CLOSED SURVEY RATE** - The percentage (%) of survey forms closed with a specific outcome. Supported by the Survey Outcome attribute (filter).
 
+## New attributes / filters
 
-### New attributes / filters
-
-#### Survey attributes
+### Survey attributes
 
 * **SURVEY TYPE** - Type of survey form. Values include: Post-Chat, Agent Survey.
 * **PREDEFINED QUESTION NAME** - Agent Survey Predefined question ( Conversation topic, conversation outcome, engagement attributes).
