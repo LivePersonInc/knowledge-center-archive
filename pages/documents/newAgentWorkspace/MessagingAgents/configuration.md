@@ -89,7 +89,7 @@ The agent has the ability to manually rename the visitor’s first and last name
 {: .notice}
 **Please note:** This feature requires enablement. For more information please contact your LivePerson representative for more information.
 
-On your LiveEngage account, take the following steps:
+On your LivePerson Conversational Cloud account, take the following steps:
 
 1. Go to any existing agent/agent manager profiles, or create a new profile, and turn the following permissions on: **Update consumer profile via API**
 

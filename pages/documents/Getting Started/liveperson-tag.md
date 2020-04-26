@@ -29,7 +29,7 @@ The default functionality offered by dynamically-loaded taglets is described bel
 
 **Notes:**
 
-* Taglets are small programs, managed by LivePerson, that are used to add functionality to a brand's website. The specific taglets brought to the page on your website depend on your LivePerson account and the LiveEngage version in use.
+* Taglets are small programs, managed by LivePerson, that are used to add functionality to a brand's website. The specific taglets brought to the page on your website depend on your LivePerson Conversational Cloud account and the version in use.
 * Taglets contain the minimum code needed to start the applications
 * Code is loaded dynamically afterwards, based on user actions
 

@@ -15,7 +15,7 @@ redirect_from: data-reporting-report-builder-report-builder-overview.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/344251526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The Analytics Builder offers brands ready-made dashboards reflecting a wealth of data drawn from their LiveEngage account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in the Analytics Builder.
+The Analytics Builder offers brands ready-made dashboards reflecting a wealth of data drawn from their account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. Up to 4 months of data can be displayed at any one time (the months do not have to be consecutive), selected from up to 13 months of data available in the Analytics Builder.
 
 Brands with a customer success offering can request customized dashboards with self-defined KPIs and visualizations tailored to their business needs. Access to the Analytics Builder offers the opportunity to view all your prepared dashboards, run or filter them according to your requirements, and export data to excel or PDF.
 
@@ -36,9 +36,9 @@ See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.
 
 ## Freshness of data
 
-As an offline business intelligence decision support tool, the Analytics Builder is updated periodically with recent activity that took place on your LiveEngage account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Analytics Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
+As an offline business intelligence decision support tool, the Analytics Builder is updated periodically with recent activity that took place on your LivePerson Conversational Cloud account. The data refresh process takes place three times a day. The first update runs every morning before 8 AM in the account timezone (according to the data center in which the account is stored), and includes data accumulated up to midnight the same day. For example, on Wednesday at 8 AM, Analytics Builder will show data updated to the Tuesday at 11:59 PM. The following updates run every 8 hours and these updates include data accumulated from up to 6 hours before the start time of this process.
 
-Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
+Every LivePerson Conversational Cloud account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: [https://z1.le.liveperson.net/a/19935036/](https://z1.le.liveperson.net/a/19935036/)
 
 The three farms, and their time zones, are as follows:
 

@@ -22,7 +22,7 @@ As outlined in the ‘behind the scenes’ section , conversations that reach yo
 
 * **Auto-accept mode**: This means conversations will automatically enter your list without any action on your end, and your My Conversations list will automatically update with new conversations. This is a more popular configuration for call centers.
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Conversations list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
-* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into the Conversational Cloud.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
 
 ## Understanding the context & history
 

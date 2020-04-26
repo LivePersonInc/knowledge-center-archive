@@ -14,7 +14,7 @@ redirect_from:
 ---
 Each campaign within the Campaign Builder has a goal, which describes what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can reuse it in future campaigns.
 
-The first step in building your campaign is to decide on one of the possible LiveEngage goals that represents your business goal, for example, _sell product/service_, _Generate leads_, or _Increase page views_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
+The first step in building your campaign is to decide on one of the possible goals that represents your business goal, for example, _sell product/service_, _Generate leads_, or _Increase page views_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
 
 ![](/img/campaign-goals-1.png)
 
@@ -45,7 +45,7 @@ There are five goal types to choose from: **Sell product/service, Generate leads
 
 Max is the owner of an online chain of stores that sells diamond jewelry. His business goal before the holidays is to sell the high-margin pieces (those that sell for over $10,000) that don’t move well during the slack season.
 
-Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, LiveEngage will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
+Max selects a Sales goal from the Goal Library. He sets the Sell Product / Service goal to transactions over 10,000. In this way, he can measure the success of this campaign. Every time a sale over 10,000 is made, the Conversational Cloud will display +1 in Conversions. Max will then know if the strategy of his campaign is effective. Max receives a message that the transaction information data has been tracked over the past 24 hours, so he is good to go.
 
 {: .notice}
 **Note**: If Max had not yet configured tracking, he would have seen the message, “We haven't received transaction information data in the last 24 hours.” In that case, he would have clicked the “Configure tracking” button. He could also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
@@ -54,7 +54,7 @@ Max selects a Sales goal from the Goal Library. He sets the Sell Product / Servi
 
 #### Transaction information as an indicator
 
-A LiveEngage transaction is the way which the system reports the exchange of money for goods or services. Transactions in LiveEngage can be used as an indicator for a certain goal. For example, if the goal of a campaign is to sell a product or a service, then an approved transaction event verifies the attainment of the goal and each transaction that takes place increases the Goal KPI by 1. For this reason, the transaction data should be collected only for approved transactions. For example, if a user is buying a product, the transaction event should fire on the thank-you page, and not when he clicks to purchase.
+A Conversational Cloud transaction is the way which the system reports the exchange of money for goods or services. Transactions in the Conversational Cloud can be used as an indicator for a certain goal. For example, if the goal of a campaign is to sell a product or a service, then an approved transaction event verifies the attainment of the goal and each transaction that takes place increases the Goal KPI by 1. For this reason, the transaction data should be collected only for approved transactions. For example, if a user is buying a product, the transaction event should fire on the thank-you page, and not when he clicks to purchase.
 
 #### How to define a transaction:
 
@@ -62,9 +62,9 @@ A LiveEngage transaction is the way which the system reports the exchange of mon
 2. Select Transaction as the indicator.
 3. You can set the goal for transactions to **any value**, to indicate that any transaction will be measured as a success. If you are only interested in measuring transactions above a given value, select the second option, **More than**, and type in your value.
 4. If you haven’t yet configured tracking, you’ll see the message, “We haven't received transaction information data in the last 24 hours.” Click the **Configure tracking** button to do so now. You can also configure the Transaction attribute under Engagement Attributes in the eCommerce category.
-5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to LiveEngage (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
+5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to the Conversational Cloud (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
 
-LiveEngage will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes](https://knowledge.liveperson.com/data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html).
+The Conversational Cloud will measure success based on the users who performed a transaction, and allow you to see the monetary value that each campaign is driving. Read more about this in [Engagement Attributes](https://knowledge.liveperson.com/data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html).
 
 In the goal indicator settings, Max set his goal as **more than 10,000**, and clicked **save**.
 
@@ -85,7 +85,7 @@ Julia chooses a goal type that reflects the user journey in the app: **Service a
 
 #### Set multiple statuses for service goals
 
-The visitor journey for any given service activity, or topic, usually consists of multiple stages. To be able to define more than one stage as a success, your developer will map each of the stages in your customer’s journey to the statuses defined in LiveEngage. Then, once the stages are mapped to statuses, you can decide which one or more of the statuses is considered a success, or a conversion.
+The visitor journey for any given service activity, or topic, usually consists of multiple stages. To be able to define more than one stage as a success, your developer will map each of the stages in your customer’s journey to the statuses defined in the Conversational Cloud. Then, once the stages are mapped to statuses, you can decide which one or more of the statuses is considered a success, or a conversion.
 
 For example, when a customer applies for a loan, the stages of applying for a loan (the topic) will be assigned statuses such as, In progress, Not approved, Missing details, etc. You can select more than one of the statuses and define each one as a success within the process, e.g., pending and resolved.
 
@@ -106,14 +106,14 @@ There are additional types of goals that you can customize and use to measure th
 * The _Increase page views_ goal counts the number of pages (that you determine) that the consumer browsed as a success.
 * _Other_ is a fallback option counts landing on the URL of your choice as a success.
 
-Consider what your short-term business goals are, and translate them to LiveEngage goals. Track the success of your campaigns and tweak your engagements to consistently improve your conversion rates by using appropriate goals.
+Consider what your short-term business goals are, and translate them to the Conversational Cloud goals. Track the success of your campaigns and tweak your engagements to consistently improve your conversion rates by using appropriate goals.
 
 {: .important}
 **Note:** On the page for each Goal, a checkbox can be found at the bottom of the page to ‘Count goals’. Checking this box will mean that the goals will only be counted once per visit. For Messaging engagements, the goal can only be counted at the same session, due to the ongoing nature of messaging conversations. For customers visiting the site in different sessions, the goal will be reevaluated.
 
 ## Duplicate goals
 
-In order to avoid compromising the integrity of your data, LiveEngage allows you to eliminate duplicate goals in one of two ways: by using goal indicators such as URL and page views (1), or through engagement attributes (2).
+In order to avoid compromising the integrity of your data, the Conversational Cloud allows you to eliminate duplicate goals in one of two ways: by using goal indicators such as URL and page views (1), or through engagement attributes (2).
 
 1. By checking “Count goals reached only once per visit” under Count Goals, goals will fire only once per session (per visit). If your page is meant to allow visitors to perform a variety of actions (such as lead and purchase, purchase twice, etc,) then you may wish to leave the checkbox unchecked in order to count what seems to be duplicated events but in reality are not.
 

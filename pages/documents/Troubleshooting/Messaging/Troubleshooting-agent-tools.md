@@ -27,7 +27,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 2. Check whether there are network connectivity errors on the agent side:
    * Open the Developer Tools > Network tab in the agent’s browser and check for failed requests (displayed in red in the Developer tool).
    * If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
-3. Check the status of your LivePerson account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
+3. Check the status of your LivePerson Conversational Cloud account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
 
 ## Agents assigned to the Sales skill are not receiving messages (agents assigned to other skills are receiving messages)
 
@@ -66,7 +66,7 @@ The system doesn't check if a change was ever done to an agent’s max. number o
 
 ### Solution:
 
-* A LiveEngage account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
+* A LivePerson Conversational Cloud account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
 * If some users are still being assigned more than 10 conversations, check the settings for that user.
 
 ## When I transfer messages, some of them return to me with an unassigned skill

@@ -17,7 +17,7 @@ Operational data is stored for 13 months, while Business (funnel) data is availa
 
 Reports are refreshed throughout the day, every eight hours. The first data update takes place every morning, between 07:00 to 08:00 in the timezone of the data center timezone* from which your account is operated. After each update, the reports display the data collected up to 6 hours earlier.
 
-\*Every LiveEngage account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: https://z1.le.liveperson.net/a/9999999/#wa!webagent. The three data centers, and their timezones, are as follows:
+\*Every LivePerson Conversational Cloud account sits on one of our three farms. Your account’s farm is indicated in the account URL, for example: https://z1.le.liveperson.net/a/9999999/#wa!webagent. The three data centers, and their timezones, are as follows:
 
 * Z1 = Virginia, North America. The timezone for the Virginia farm is EST.
 * Z2 = UK. The timezone for the UK farm is GMT (or GMT+1 during Daylight Saving Time).
@@ -25,7 +25,7 @@ Reports are refreshed throughout the day, every eight hours. The first data upda
 
 ## Changing the data’s timezone in Analytics Builder
 
-The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in Analytics Builder on the next load. In addition, in the [Agent Activity Dashboard ](data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html)and the [Goal Tracker Dashboard**,**](data-reporting-live-chat-chat-dashboards-goal-tracker-report.html) users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
+The data is shown according to the LivePerson Conversational Cloud account-level time zone configuration. When changing the account-level timezone, the change will take place in Analytics Builder on the next load. In addition, in the [Agent Activity Dashboard ](data-reporting-live-chat-chat-dashboards-agent-activity-dashboard.html)and the [Goal Tracker Dashboard**,**](data-reporting-live-chat-chat-dashboards-goal-tracker-report.html) users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
 
 ## Changing settings and reflected changes
 

@@ -16,13 +16,13 @@ Time zone settings play a key role in the accurate compilation and generation of
 
 ## Agent manager / operational reports
 
-Operational data (including the web agent and agent manager [real time data bars and dashboards](data-reporting-messaging-real-time-data-real-time-data-for-messaging.html ), and agent manager BI dashboards are presented according to the user's local time zone setting. This setting cannot be changed in LiveEngage.
+Operational data (including the web agent and agent manager [real time data bars and dashboards](data-reporting-messaging-real-time-data-real-time-data-for-messaging.html ), and agent manager BI dashboards are presented according to the user's local time zone setting. This setting cannot be changed in the Conversational Cloud.
 
 ## Campaign manager reports
 
 * [Campaign related data](contact-center-management-campaigns-campaign-dashboard-and-data-bar.html) (including campaign and campaign manager BI dashboards) are presented to users according to their LivePerson user level time zone.
-* By default, the LivePerson user-level time zone is synced to the associated LivePerson account’s time zone. Users can change their user-level time zone in order to view campaign-related data in a different time zone.
-* When the LivePerson account time zone is modified, all time zones of users who have never changed their user level setting are synced to the new account-wide time zone.
+* By default, the LivePerson user-level time zone is synced to the associated account’s time zone. Users can change their user-level time zone in order to view campaign-related data in a different time zone.
+* When the account time zone is modified, all time zones of users who have never changed their user level setting are synced to the new account-wide time zone.
 
 ## Campaign time zone
 
@@ -50,4 +50,4 @@ Within the LivePerson platform, each [campaign](contact-center-management-campai
 
 ## Analytics Builder time zone
 
-The data is shown according to the LiveEngage account-level time zone configuration. When changing the account-level timezone, the change will take place in[ Analytics Builder](data-reporting-report-builder-report-builder-overview.html) on the next load. In addition, in the operational dashboards, users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset, allowing the users to analyze performance in their local time.
+The data is shown according to the account-level time zone configuration. When changing the account-level timezone, the change will take place in[ Analytics Builder](data-reporting-report-builder-report-builder-overview.html) on the next load. In addition, in the operational dashboards, users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset, allowing the users to analyze performance in their local time.

@@ -16,7 +16,7 @@ redirect_from:
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
 
-To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four LiveEngage roles:
+To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four roles:
 
 * Agent
 * Agent manager
@@ -27,7 +27,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 
 ## Customized profiles
 
-Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, LiveEngage creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
+Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, the Conversational Cloud creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
 
 In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the Appendix.
 
@@ -85,7 +85,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 A **role** defines the scope of the user’s work. Each **role** encompasses a _unique_ set of permissions. **Roles** cannot be created or edited.
 
-A **profile** is a set of **permissions**, derived from a LiveEngage role. **Profiles** can be created and edited.
+A **profile** is a set of **permissions**, derived from a Conversational Cloud role. **Profiles** can be created and edited.
 
 The tables below list the permissions that can be configured per role, along with their definitions and default state.
 
@@ -170,8 +170,8 @@ The following core permissions are included with the campaign manager role and c
 | Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
 | Configure automatic messages | Add and edit Automatic Messages in the Agent Workspace | On |
 | Configure engagement attributes | Add and edit Engagement Attributes used in campaigns | On |
-| Import and export predefined content | Import and export Predefined Content to and from LiveEngage | On |
-| Export predefined content | Export Predefined Content from LiveEngage | On |
+| Import and export predefined content | Import and export Predefined Content to and from Conversational Cloud | On |
+| Export predefined content | Export Predefined Content from Conversational Cloud | On |
 | View API keys | For brands who have enabled the API key management feature, this permission allows viewing of API keys used by the brand | On |
 | Edit conversation source | Configure consumer entry points to engage with your brand | On |
 | Edit skills | Edit skills and configure default survey for skill change | On |
@@ -207,7 +207,7 @@ The following core permissions are included with the Admin role and cannot be di
 | Agent Groups administration | Create, edit, restructure or delete Agent Groups | On |
 | API key administration | For brands who have enabled the API key management feature, this permission allows Administrators to create, manage and integrate API keys | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| Line of Business administration | For brands who have enabled the Line of Business feature, this permission allows Administrators to create, edit and delete individual Lines of Business within their LiveEngage account | On |
+| Line of Business administration | For brands who have enabled the Line of Business feature, this permission allows Administrators to create, edit and delete individual Lines of Business within their LivePerson Conversational Cloud account | On |
 | View account billing details | Access to billing details and online invoices | On |
 | View and export audit trail | For brands with the audit trail feature enabled, this permission allows admins to view and export audit trail data | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |

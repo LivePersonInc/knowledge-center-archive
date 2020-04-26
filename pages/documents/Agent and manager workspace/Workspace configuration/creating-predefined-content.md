@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the Campaign Builder. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
+When you first open the Conversational Cloud, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the Campaign Builder. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
 
 ## To add a new item to your predefined content library:
 

@@ -15,7 +15,7 @@ date: 2019-01-27 11:50:19 +0000
 
 Navigating to [http://liveengage.liveperson.net/](http://liveengage.liveperson.net/ "http://liveengage.liveperson.net/") and enter login credentials:
 
-* LivePerson Account number
+* LivePerson account number
 * Email
 * Password
 
@@ -119,7 +119,7 @@ b. Click a box to return to an ongoing conversation.
 
 ## Where can I see the list of all consumers who are connected via the LiveEngage Messaging App (not just My Conversations)?
 
-a. Immediately after login, on the first window displayed - the App Connections list on the VISITORS tab. Once you’ve navigated away from the App Connections list, you can return to it as follows: b. On the VISITORS tab, click App Connections. The list of all consumers connected to your LiveEngage account via messaging is displayed. c. From inside the conversation window, click the small three stripes (lower left side).
+a. Immediately after login, on the first window displayed - the App Connections list on the VISITORS tab. Once you’ve navigated away from the App Connections list, you can return to it as follows: b. On the VISITORS tab, click App Connections. The list of all consumers connected to your LivePerson Conversational Cloud account via messaging is displayed. c. From inside the conversation window, click the small three stripes (lower left side).
 
 ## How do I transfer a connection?
 
@@ -148,4 +148,4 @@ On the Conversation History tab, click an engagement to see its summary.
 
 ## Why don’t I see any agents in the agents list?
 
-Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your LiveEngage account administrator.
+Users with Agent permissions cannot see the list online agents. Only users with Agent Manager or Administrator permissions can see this list. If you access to the list of online Agents, please contact your account administrator.

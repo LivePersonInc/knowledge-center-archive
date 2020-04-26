@@ -77,7 +77,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 **To configure CoBrowse through Night Vision:**
 
-1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
+1. In the Conversational Cloud, navigate to the visitors tab and click the Night Vision (configuration) icon.
 
 ![](/img/cobrowse-for-live-chat-2.png)
 
@@ -184,7 +184,7 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 
 ## Prerequisites & technical requirements
 
-### For LiveEngage
+### For the Conversational Cloud
 
 The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on LiveEngage 2.0.
 

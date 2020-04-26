@@ -94,7 +94,7 @@ A setting that is configurable in the Mac OS X.
 
 ### Cause:
 
-The ACD setting of the agent’s LiveEngage account is manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
+The ACD setting of the agent’s LivePerson Conversational Cloud account is manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
 
 ### Solution:
 

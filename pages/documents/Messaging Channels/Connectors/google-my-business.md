@@ -71,9 +71,9 @@ Image 2: Agent sees the image in their workspace
 
 ### How to set up the connector:
 
-1. Identify the Google My Business ID number you would like to connect to LivePerson (it’s possible to connect multiple IDs to your LiveEngage account). If you can't find your ID please contact your Google representative
-2. Once you obtained your Google Business ID, contact your LivePerson account team so they can activate the ID on your LiveEngage account.
-3. Start managing messages on LiveEngage from your Google My Business accounts.
+1. Identify the Google My Business ID number you would like to connect to LivePerson (it’s possible to connect multiple IDs to your account). If you can't find your ID please contact your Google representative
+2. Once you obtained your Google Business ID, contact your LivePerson account team so they can activate the ID on your LivePerson Conversational Cloud account.
+3. Start managing messages on the Conversational Cloud from your Google My Business accounts.
 
 ### How to onboard the connector:
 

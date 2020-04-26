@@ -12,9 +12,9 @@ isNew: false
 redirect-from:
   - working-with-agent-groups.html
 ---
-Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in LiveEngage, we’ve created the "agent groups" capability.
+Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in the Conversational Cloud, we’ve created the "agent groups" capability.
 
-LiveEngage includes a default group, called the "main group" that consists of all the users in LiveEngage configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
+The Conversational Cloud includes a default group, called the "main group" that consists of all the users in the Conversational Cloud configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
 
 Groups can be divided into "subgroups." Any group that has subgroups is considered a parent group and the Main Group is always the highest parent group in the hierarchy.
 

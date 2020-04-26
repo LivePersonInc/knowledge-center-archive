@@ -190,7 +190,7 @@ This process is recommended in order to streamline the agent’s work and can be
 * **Clear continuously:** The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
 * **Clear upon accumulation:** The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
-All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the agent workspace without releasing them.
+All chats will automatically clear once the agent logs out of the Conversational Cloud (by clicking the logout button). Any chats that have ended will appear in the Web History even if the agent closed the agent workspace without releasing them.
 
 The number of accumulated chats can be seen in the bottom right corner of the page in the closed image. The number indicates how many chats were closed but not yet released. The following image shows that 1 chat has not yet been released.
 

@@ -26,7 +26,7 @@ LivePerson’s Conversation Orchestrator offers brands tools to enable efficient
 
 Conversation Orchestrator, part of LivePerson’s [Conversational AI](ai-bots-automation-conversational-ai.html), empowers brands to create highly personalized conversational experiences for their customers. Conversation Orchestrator provides the following key values to brands:
 
-* **Faster human responses**: Accelerate human agents responses in the contact center with Agent Assist that recommends next actions. 
+* **Faster human responses**: Accelerate human agents responses in the contact center with Agent Assist that recommends next actions.
 * **Go handsfree with AI**: Centralized AI policy experience that evolves with your business, and allows you to use all information to make decisions using the Context Warehouse
 * **Connect to an AI ecosystem**: Use Recommendation API from an application or bot, or go faster with inbox predictions and models
 * **Drive continuous improvements** using Conversation Orchestrator learning improves predictions and outcomes with more usage.
@@ -45,4 +45,4 @@ The Conversation Orchestrator Workspace is a self-service, low-code/no-code expe
 <img width="750px" src="/img/maven-workspace.png">
 
 ## Conversation Orchestrator Permissions
-The LiveEngage Administrator Profile inherits all Conversation Orchestrator administrator permissions, excluding Dynamic Routing and Recommendation API. The ability to use Conversation Orchestrator is indicated in the Conversational AI menu by the absence of a lock designation on the icon.
+The Conversational Cloud Administrator Profile inherits all Conversation Orchestrator administrator permissions, excluding Dynamic Routing and Recommendation API. The ability to use Conversation Orchestrator is indicated in the Conversational AI menu by the absence of a lock designation on the icon.

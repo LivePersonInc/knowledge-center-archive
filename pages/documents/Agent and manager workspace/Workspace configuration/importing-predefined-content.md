@@ -19,7 +19,7 @@ In order to import content successfully and avoid import errors, simply follow t
 ## Exporting and editing the file
 
 1. Go to the **Predefined content library**
-2. **Export your current .CSV file from LiveEngage and work on this file      as your template**
+2. **Export your current .CSV file from the Conversational Cloud and work on this file      as your template**
 3. Edit content and translations to the CSV file. We recommend Google Spreadsheet, Numbers, or OpenOffice for this purpose. **UTF 8 encoding** only is supported
 4. While editing the document, keep the following guidelines in mind:
    * **If you wish to modify an existing entry:** Do not change the item ID if you wish to keep any of the existing content, as if the ID is changed it will be added it as a new line.
@@ -53,11 +53,11 @@ In order to import content successfully and avoid import errors, simply follow t
 2. Locate your CSV file, and then click the **Open/Choose** button.
 3. Click the **Import** button at the bottom of the page.  
    The import process will only perform actions on rows that have been      changed, as follows:
-   * In case the item ID cell was left empty or an unsupported format was entered -> **ERROR** will display on LiveEngage system.
-   * In case the item ID already existed in the file and an additional attribute in the row is changed -> This predefined content will be **UPDATED** on LiveEngage.
-   * In case the item ID already existed in the file and no other attribute in this row is changed -> This predefined content will remain as it is on LiveEngage (**no operation** will be carried out).
-   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as a new predefined content on LiveEngage.
-   * In case one item ID is deleted from the file -> The item will be **DELETED** from LiveEngage as well.
+   * In case the item ID cell was left empty or an unsupported format was entered -> **ERROR** will display on the Conversational Cloud system.
+   * In case the item ID already existed in the file and an additional attribute in the row is changed -> This predefined content will be **UPDATED** on the Conversational Cloud.
+   * In case the item ID already existed in the file and no other attribute in this row is changed -> This predefined content will remain as it is on the Conversational Cloud (**no operation** will be carried out).
+   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as a new predefined content on the Conversational Cloud.
+   * In case one item ID is deleted from the file -> The item will be **DELETED** from the Conversational Cloud as well.
 4. While in progress, you can click the **Run in Background** button to continue working in the system. An icon will be added to the top bar and will notify you when the upload is complete. Pressing the notification will take you back to the import related page.
 5. A CSV file with your current items will be automatically downloaded as a      backup.
 6. If your CSV file was successfully uploaded, you will get a notification that      the process was successful and the Predefined content list will display      the updated content.

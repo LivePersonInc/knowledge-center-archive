@@ -77,7 +77,7 @@ Customers who keep the workaround ON will have the following experience (in most
 
 ### Limitations for both API and UI
 
-The maximum length for a special occasion with shift status set to OFF is 30 days. This limitation applies when using the Working hours functionality both via the API and via the LiveEngage workspace.
+The maximum length for a special occasion with shift status set to OFF is 30 days. This limitation applies when using the Working hours functionality both via the API and via the Agent Workspace.
 
 ## Best practices
 
@@ -91,7 +91,7 @@ In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and 
 
 In the example above: If the agent manager manually changed to off hours in the middle of a conversation, the ETTR displayed to consumers will be according to the off hours configuration.
 
-**Q:** Does the actual availability of agents on a LiveEngage account impact the working hours? If an agent is online in a skill during "off hours", what happens?
+**Q:** Does the actual availability of agents on a LivePerson Conversational Cloud account impact the working hours? If an agent is online in a skill during "off hours", what happens?
 
 **A:** The agent’s availability does not affect the working hours. As stated above, the ETTR is affected by the configuration only and not according to the number of logged in agents.  
 In the example above: If it’s currently the off hours and an online agent answers a messaging conversation, the consumer will still get the ETTR as if the account is currently off.

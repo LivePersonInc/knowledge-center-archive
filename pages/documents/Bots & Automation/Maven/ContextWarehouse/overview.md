@@ -31,7 +31,7 @@ Conversation Orchestrator provides three types of Context Attributes:
 
 Context warehouse attributes can be used in several ways:
 
-1. Save conversation session state info in LiveEngage (e.g. agent notes), and retrieve them later in a different conversation session.
+1. Save conversation session state info in the Conversational Cloud (e.g. agent notes), and retrieve them later in a different conversation session.
 2. Save contextual attributes in concierge bot (e.g. intents) and carry over context to another bot or human skill.
 3. Use intents and entities from a bot, and use them in conjunction with system inbox attributes, or custom static or FaaS to create complex routing policies. See [Dynamic Routing](https://developers.liveperson.com/maven-ai-powered-routing-overview.html) to learn more about how to create such policies.
 

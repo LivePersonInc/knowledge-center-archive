@@ -13,7 +13,7 @@ date: 2019-04-15 12:17:36 +0000
 ---
 ## Introduction
 
-LiveEngage equips agents with the best tools possible to create meaningful connections with consumers. The workspace is designed to drive efficiency and, at the same time, is conducive to longer term, more personalized conversations.
+The Agent Workspace equips agents with the best tools possible to create meaningful connections with consumers. The workspace is designed to drive efficiency and, at the same time, is conducive to longer term, more personalized conversations.
 
 ## Hiring considerations
 
@@ -22,7 +22,7 @@ Messaging agents should possess the following traits:
 * **Written communication skills:** Agents must have the ability to communicate online in a conversational manner that promotes dialogue and establishes rapport. Agents must avoid poor grammar, misstatements or lengthy explanation. Online writing necessitates that agents have an aptitude for knowing when to apply the “do’s and don’ts” of online communication. (LivePerson can help in this area by providing your agents with training in our “SURA” methodology).
 * **Typing skills:** The ability to type at a reasonable pace, 38-40 words a minute (WPM). Interestingly, messaging allows for more time flexibility than traditional chat, so typing speed is less important. For comparison, 65-75 WPM is often preferred for chat agents.
 * **Multi-tasking:** Agents need to be able to simultaneously provide product information, use sales and service engagement skills, and efficiently use traditional sales and service resources, such as marketing collateral or CRM systems.
-* **Technology comfort and know-how:** Agents must be adept at using LiveEngage, other technology and automation tools.
+* **Technology comfort and know-how:** Agents must be adept at using the Agent Workspace, other technology and automation tools.
 * **App, Web-Site, SMS and Facebook Portal (if applicable) savvy:** Consumers who accept an engagement will have high expectations of the agent’s knowledge. Agents should maintain a high level of familiarity with the digital property the consumer is using
 * **Analytical and judgment skills:** Agents need to “read between the lines." Visitors don’t necessarily have good writing skills and agents may have to interpret what the visitor is really asking by responding with a clarifying question or statement.
 * **Proven sales ability:** Even if the agent is service focused, the ability to encourage the consumer to take action is beneficial.
@@ -36,7 +36,7 @@ LivePerson recommends screening for agents that demonstrate the traits above, wh
 
 Recommended adaptations to the current hiring and screening process include:
 
-1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage messaging.
+1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for messaging.
 2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using Web Messaging, Hangouts, Facebook Messenger or similar. Look for:
    1. Ability to interpret your questions through the messaging medium
    2. Crisp, clear, understandable responses
@@ -83,7 +83,7 @@ Unlike other forms of communication, messaging grants both you and the consumer 
 ### Agents tasks
 
 * Establish and nurture prospect relationships to satisfy service inquiries, or to sell products and services.
-* Consistently use LiveEngage and other systems to keep accurate records of all completed and scheduled consumer activity.
+* Consistently use the Agent Workspace and other systems to keep accurate records of all completed and scheduled consumer activity.
 * Make every effort to use effective lead qualification skills to improve personal performance.
 * Strive to meet and exceed assigned performance goals (individual).
 * Coordinate, as needed, with other service/sales personnel to ensure the most expeditious completion of the service/sales process.

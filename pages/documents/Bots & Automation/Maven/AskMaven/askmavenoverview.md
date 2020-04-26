@@ -33,7 +33,7 @@ A typical use case for using the Recommendation API is to get a routing decision
 
 1. A brand's concierge bot (for example a bot built in Conversation Builder or Google Dialogflow) handles branded greetings, dialogs, and intents.
 2. It then calls the Recommendation API which evaluates all the policies setup in Dynamic Routing and then returns the next best best action.
-3. The concierge bot then uses the action (for example route to a skill), to transfer the conversation to that skill in LiveEngage.
+3. The concierge bot then uses the action (for example route to a skill), to transfer the conversation to that skill in the Conversational Cloud.
 4. This is often used in conjunction with the Context Session Store to pass custom attributes to use in a policy (for example intents). To learn more about how to use the Context Session Store [please see documentation](https://developers.liveperson.com/maven-context-warehouse-context-session-store.html).
 
 

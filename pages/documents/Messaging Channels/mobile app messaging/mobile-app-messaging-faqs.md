@@ -39,7 +39,7 @@ isNew: false
 
 ### Q: What’s the difference between Brand ID and App ID?
 
-**A:** The Brand ID is the LiveEngage account number. The App ID is the ID of a specific app. This information is defined in the Data Sources area within the LiveEngage UI. Both parameters are needed while implementing the SDK. Make sure to use the correct parameter when asked.
+**A:** The Brand ID is the LivePerson Conversational Cloud account number. The App ID is the ID of a specific app. This information is defined in the Data Sources area within the LiveEngage UI. Both parameters are needed while implementing the SDK. Make sure to use the correct parameter when asked.
 
 ### Q: Can the SDK integrate into the app’s push notifications?
 

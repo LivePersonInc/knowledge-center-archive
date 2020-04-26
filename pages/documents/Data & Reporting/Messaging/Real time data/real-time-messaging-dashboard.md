@@ -70,7 +70,7 @@ There are three methods to login to the real time dashboard:
 1. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
 {: .notice}  
-If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
+If Agent SSO is enabled on your LivePerson Conversational Cloud account, you must login to LiveEngage first (with Agent SSO) before following the steps above
 
 ### Agent SSO method (not recommended):
 

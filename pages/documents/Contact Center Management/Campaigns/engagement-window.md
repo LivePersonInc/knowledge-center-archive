@@ -148,7 +148,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 Brands have the ability to set the embedded window as floating. Once this configuration is enabled, the position of the window will be 20px from the bottom and 20px from the right. This feature is disabled by default.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Look and feel customization” button
 * Enable by clicking on “Floating engagement” checkbox
@@ -173,7 +173,7 @@ Brands have the ability to configure whether to provide consumers the ability to
 * This feature is available for desktop only.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Text area” section
 * Enable by clicking on “Emoji icon” checkbox
@@ -198,7 +198,7 @@ There are 2 options to set the location of the menu:
 If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Add elements” icon
 * Click on “Menu position and elements”
@@ -235,7 +235,7 @@ Consumer side bottom menu:
 When the menu is configured to be at the top for Web Messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Text area”
 * Enable by clicking on “Attachment icon” checkbox
@@ -265,7 +265,7 @@ Available customizations:
 
 ### Agent picture configuration
 
-1. In LiveEngage, go to the Users tab
+1. In the Conversational Cloud, go to the Users tab
 2. Click on the row with the relevant agent’s name to edit their information
 3. In the “Picture URL” field, add the URL of the agent’s personal picture
 
@@ -332,7 +332,7 @@ Brands have the ability to set the radius of the top and bottom corners of the e
 By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Open additional window settings”
 * Click on “Look and feel” section to expand

@@ -103,11 +103,11 @@ You set up the authentication server on Campaign Builder > Data Sources > Authen
 
 A campaign manager/admin user is unable to delete or manage predefined content categories. When the user tries to do so, they get the error “You do not have permission to perform the requested action.”
 
-The user has two different LiveEngage accounts. On one of the accounts the user doesn’t have the Configure Predefined Content permission.
+The user has two different LivePerson accounts. On one of the accounts the user doesn’t have the Configure Predefined Content permission.
 
 ### Solution:
 
-1. Log in to the LiveEngage account where the user needs more permissions.
+1. Log in to the LivePerson account where the user needs more permissions.
 2. Go to the Users tab and change the user’s profile to one that has the Configure Predefined Content option.
 
 ## Why aren’t visitor names displayed in the Web Visitors and Web History list?

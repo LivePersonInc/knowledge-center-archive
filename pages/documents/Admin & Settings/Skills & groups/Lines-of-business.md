@@ -114,4 +114,4 @@ The following entities can be assigned to LOBs:
 * Predefined content (multiple LOBs per predefined content)
 * Campaigns (one LOB per campaign)
 
-Once a user assigned to a specific LOB logs in to LiveEngage, the relevant tables will be pre filtered according to his assigned LOBs.
+Once a user assigned to a specific LOB logs in to the Conversational Cloud, the relevant tables will be pre filtered according to his assigned LOBs.

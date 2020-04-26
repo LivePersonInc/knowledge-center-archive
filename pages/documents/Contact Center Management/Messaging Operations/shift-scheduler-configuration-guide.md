@@ -71,7 +71,7 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
 **(Needed for both API + UI)**
 
 1. Configure [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html) on your account:
-   * To enable Automatic Messages on your LiveEngage account, please contact your LivePerson account team.
+   * To enable Automatic Messages on your LivePerson Conversational Cloud account, please contact your LivePerson account team.
 2. Mobile App (SDK) customers:
    * Use SDK versions 2.8 or higher.
    * The TTR toaster is no longer supported, even if it’s still enabled. Therefore, it is recommended to turn the TTR toaster message off.
@@ -103,7 +103,7 @@ Scheduling items or special occasion items can be created through the Schedule o
 
 ### Creating a new workday item
 
-1. Access the Scheduling library on your LiveEngage account.
+1. Access the Scheduling library on your LivePerson Conversational Cloud account.
 2. Click “Add new”
 3. Fill in the Schedule item name, description (optional) and timezone
 4. Define the hours of operation for each day of the week.
@@ -131,7 +131,7 @@ You may also define multiple shifts per single day of the week. Simply click the
 ### **Creating a new special occasion item**
 
 {:start="8"}
-8. Access the Special Occasion library on your LiveEngage account.
+8. Access the Special Occasion library on your LivePerson Conversational Cloud account.
 
 9. Click “Add new”
 
@@ -204,7 +204,7 @@ Refer to [Skills API - Appendix](https://developers.liveperson.com/administratio
 
 In order to generate App Keys to access the API, follow the following steps:
 
-1. Log in to your LiveEngage account.
+1. Log in to your LivePerson Conversational Cloud account.
 2. Go to Campaign Builder → Campaign Footnote → Data sources
 3. Go to API tab → Add new API key
 4. Under Administration, choose the Working Hours API  

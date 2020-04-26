@@ -76,7 +76,7 @@ The embedded engagement window layout is as follows (described from top to botto
 
 ## Surveys
 
-Surveys are utilized to get information or feedback from visitors before or after a chat. They are configured by the customer in the LiveEngage Workspace. The questions in the surveys and their wording are at the discretion of the customer. Best practice is to keep surveys short, and to use clear and simple language.
+Surveys are utilized to get information or feedback from visitors before or after a chat. They are configured by the customer in the Agent Workspace. The questions in the surveys and their wording are at the discretion of the customer. Best practice is to keep surveys short, and to use clear and simple language.
 
 The embedded engagement window supports the following survey types:
 

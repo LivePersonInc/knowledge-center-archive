@@ -11,7 +11,7 @@ isNew: false
 date: 2019-04-03 08:39:38 +0000
 
 ---
-Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in LiveEngage. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
+Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in the Conversational Cloud. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
 
 **The first supported provider is CM Telecom**, and in the future additional providers will be supported.
 

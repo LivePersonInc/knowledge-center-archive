@@ -16,7 +16,7 @@ The Data Transporter application connects you with LiveEngage report exports fro
 
 Data Transporter allows you to:
 
-* Connect to multiple LiveEngage account API data sources
+* Connect to multiple LivePerson Conversational Cloud account API data sources
 * Choose from a rich catalogue of raw data or formatted report exports
 * Schedule exports from each LiveEngage data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
@@ -102,7 +102,7 @@ Upon first use, please use the ALERTS notifications to navigate to each relevant
 
 1. Choose a timezone - this setting will ensure all scheduled reports and times will appear relative to your selected timezone
 2. Setup encryption - for security reasons, Data Transporter encrypts all reports before transmission to your selected destination - as such, encryption must be activated by generating a Public/Private key-pair (or bring your own) - see encryption section
-3. Setup LiveEngage - to get started, make sure you have authorised at least 1 LiveEngage account source - you can retrieve an API key from the LiveEngage console (speak to your account manager, or visit the connection panel if you’re not sure how)
+3. Setup LiveEngage - to get started, make sure you have authorised at least 1 LivePerson Conversational Cloud account source - you can retrieve an API key from the LiveEngage console (speak to your account manager, or visit the connection panel if you’re not sure how)
 
 ## Encryption
 

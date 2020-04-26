@@ -17,7 +17,7 @@ redirect_from:
 ---
 ## Choosing your engagement type
 
-LiveEngage offers a large variety of engagement types and formats, so how can you know which engagement type and format to choose?
+The Conversational Cloud offers a large variety of engagement types and formats, so how can you know which engagement type and format to choose?
 
 To determine which type of web engagement is appropriate, ask yourself a few questions: first of all, determine whether you want to offer a conversation engagement or a content banner. Conversation invitations provide your website visitors with an opportunity to engage with your agents in real time, while content banners are most useful when you want to make your users various offers that do not require real-time handling.
 
@@ -93,7 +93,7 @@ A **peeling corner banner** acts as a teaser triangle that expands when users pe
 
 ## Engagement Settings
 
-**To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:**
+**To ensure the experience is both engaging and non-intrusive, the Conversational Cloud offers the following settings:**
 
 ### Number of displays
 
@@ -128,7 +128,7 @@ As web engagements can be accessed from desktop or mobile devices, when creating
 
 ## Creating accessible engagements
 
-The LiveEngage visitor experience meets disability accessibility requirements and follows stringent industry standards, including ADA and WCAG 2.0 AA compliance. This applies to the engagement window, engagements and surveys for both the desktop and mobile web (iOS and Android).
+The Conversational Cloud visitor experience meets disability accessibility requirements and follows stringent industry standards, including ADA and WCAG 2.0 AA compliance. This applies to the engagement window, engagements and surveys for both the desktop and mobile web (iOS and Android).
 
 **The following features are supported out-of-the-box for all engagement types:**
 
@@ -174,25 +174,25 @@ For more information on accessibility requirements, refer to the [Web Content Ac
 
 ## Customizing Engagements Using HTML Code
 
-LiveEngage provides you with an HTML engagement type that gives you granular control over the look, feel and behavior of your engagements. By implementing your own HTML code, you can design your engagements according to your needs.
+The Conversational Cloud provides you with an HTML engagement type that gives you granular control over the look, feel and behavior of your engagements. By implementing your own HTML code, you can design your engagements according to your needs.
 
 ### Prepare Your HTML Engagement Code
 
 **When writing HTML code for your engagements, take into consideration the following:**
 
 * **Supported HTML Code:** HTML code that includes scripts is not supported.
-* **Test Your Code:** It is recommended that you test your HTML code before using it in LiveEngage. If your code depends on resources on your website, such as CSS, you should test it on your website first. If it is not dependent on resources on your website, you can use online code editors such as [https://jsfiddle.net/.](https://jsfiddle.net/. "https://jsfiddle.net/.")
+* **Test Your Code:** It is recommended that you test your HTML code before using it in the Conversational Cloud. If your code depends on resources on your website, such as CSS, you should test it on your website first. If it is not dependent on resources on your website, you can use online code editors such as [https://jsfiddle.net/.](https://jsfiddle.net/. "https://jsfiddle.net/.")
 * **Accessibility:** Verify that your code is compliant with the Web Content Accessibility Guidelines.
 
-## Set up an HTML Engagement in LiveEngage
+## Set up an HTML Engagement in the Conversational Cloud
 
-Once you’ve prepared HTML code for your engagement, set up your engagement in LiveEngage.
+Once you’ve prepared HTML code for your engagement, set up your engagement in the Conversational Cloud.
 
-**To create an HTML engagement in LiveEngage:**
+**To create an HTML engagement in the Conversational Cloud:**
 
  1. Create or edit a campaign **(Campaign Builder > Add campaign or click an existing campaign).** The campaign edit window opens.
  2. Click **Add engagement**
- 3. Select **Web** as the engagement source. The LiveEngage Engagement window studio opens.
+ 3. Select **Web** as the engagement source. The Engagement window studio opens.
  3. Select **Embedded** or **Overlay** from the Format list.
  4. Select **Chat** or **Content** from the Type list.
  5. Click the **HTML engagement** template and click **Next**.
@@ -210,13 +210,13 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 <b>Note:</b>
 <ul>
 <li>The out of the box options are calculated based on the HTML size. It’s recommended that you specify a size in each of your visual HTML tags and verify that the size matches the size of tag’s visual area. For example, if you are using a <b>div</b> in your code, its size will not necessarily match the size of its content. You can try using <i>display:inline-block</i> to force the HTML size to match size of its content.</li>
-<li>When you click <b>Next</b> or <b>Done</b>, LiveEngage checks whether the HTML code contains any security-vulnerable elements, to ensure that your code can be displayed safely on your website. If unsupported elements are found, you will not be able to save the engagement.</li>
+<li>When you click <b>Next</b> or <b>Done</b>, the Conversational Cloud checks whether the HTML code contains any security-vulnerable elements, to ensure that your code can be displayed safely on your website. If unsupported elements are found, you will not be able to save the engagement.</li>
 </ul>
 </div>
 
 ## Supported Actions
 
-| Action | Supported Formats | Description | LiveEngage Code |
+| Action | Supported Formats | Description | the Conversational Cloud Code |
 | --- | --- | --- | --- |
 | Click | Overlay and embedded | Adds a click action to content engagements. | data-LP-event = "click" |
 | Click to chat | Overlay and embedded | Adds a click action to content engagements. When clicked opens a chat window. | data-LP-event = "click" |

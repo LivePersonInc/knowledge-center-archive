@@ -87,7 +87,7 @@ For brands that have configured additional away state reasons, the _State Durati
 
 ## **Reporting**
 
-LiveEngage [Analytics Builder](data-reporting-report-builder-report-builder-overview.html) provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
+The Conversational Cloud [Analytics Builder](data-reporting-report-builder-report-builder-overview.html) provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
 
 ## **Agent Activity Predefined Dashboard**
 

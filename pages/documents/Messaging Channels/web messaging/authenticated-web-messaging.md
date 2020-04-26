@@ -68,7 +68,7 @@ Additional documentation about authenticated interactions with OAuth 2.0 is avai
 
 ## **Configure Authentication Flow**
 
-The following parameters are defined in the your LivePerson account:
+The following parameters are defined in the your LivePerson Conversational Cloud account:
 
 * Implicit or Code Flow (additional information can be found in the How It Works section in the [Authenticated Interactions document](https://developers.liveperson.com/guides-authentication-howitworks.html))
 * OAuth 2.0 Authentication Endpoint (when a separate browser window is used)

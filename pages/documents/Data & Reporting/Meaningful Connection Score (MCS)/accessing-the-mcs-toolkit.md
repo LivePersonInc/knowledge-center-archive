@@ -54,4 +54,4 @@ In order to access the MCS toolkit via Agent SSO:
 * Benchmark agents and agent groups against each other, using MCS distribution to compare performance, recognizing weaknesses and strengths in the performance of agents or agent groups.
 * Leverage data to inform performance reviews and coaching sessions with individual agents or groups, and use examples of the highest and lowest ranked conversations for valuable training cases.
 * Drill down to a specific conversation under investigation and jump directly to the point in the conversation where the MCS was negatively affected.
-* Perform custom offline analysis by exporting messaging interaction or engagement history API data direct to a CSV file via the the MCS toolkit data tables.
+* Perform custom offline analysis by exporting messaging interaction or Engagement History API data direct to a CSV file via the the MCS toolkit data tables.

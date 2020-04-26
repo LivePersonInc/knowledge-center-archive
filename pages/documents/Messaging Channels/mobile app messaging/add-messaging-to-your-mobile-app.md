@@ -82,7 +82,7 @@ Before you can create engagements for your mobile app, you must first configure 
 1. Edit the mobile app source details
    1. Enter the name of your app (the default is mobile app) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
-2. Click “**Create.**” The mobile app will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
+2. Click “**Create.**” The mobile app will now be installed on your LivePerson Conversational Cloud account. On the same page, a new “App key” will be created, under the “Authentication details” section:
 3. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
 
 ![](/img/add-messaging-to-your-mobile-app-1.png)
@@ -103,7 +103,7 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 ### Create a new mobile app engagement
 
-Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
+Once the app is installed on your LivePerson Conversational Cloud account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
 **To create a new engagement, click** “**Add engagement**” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the Campaign Builder. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 

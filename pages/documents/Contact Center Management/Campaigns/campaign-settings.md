@@ -45,13 +45,13 @@ By default, after declining a proactive content engagement, other content engage
 
 This setting allows you to define the default currency for your account. This value will be used should you choose not to report the currency of transactions or other monetary values such as cart value and customer balance. The data is then displayed in related reports.
 
-The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
+The full list of currencies supported by the ISO-4217 currencies standard is available on the Conversational Cloud. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
 
 ![](/img/campaign-settings-3.png)
 
 ## **Cross session period**
 
-It’s important for campaign managers to be able to identify which engagement made a visitor convert: was it due to a chat or content engagement? Was the engagement in the current session or a previous one? LiveEngage uses a cross session period and an attribution model (see below) to assess this.
+It’s important for campaign managers to be able to identify which engagement made a visitor convert: was it due to a chat or content engagement? Was the engagement in the current session or a previous one? The Conversational Cloud uses a cross session period and an attribution model (see below) to assess this.
 
 The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. This setting allows you to track consumers who return and convert within a certain number of days (0, 1, 7, 14 or 31) from their first exposure to the campaign. If they do so, the conversion will be credited to a campaign or agent in the Conversational Cloud.
 

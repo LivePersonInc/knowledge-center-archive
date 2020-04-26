@@ -224,9 +224,9 @@ Inactive conversations can be closed automatically using the Auto-close feature.
 
 ### Predefined content panel
 
-The predefined content panel slides out from the top bar by tapping the predefined content icon. The items are divided into categories, with the title of each response listed under the relevant category as set on LiveEngage web.
+The predefined content panel slides out from the top bar by tapping the predefined content icon. The items are divided into categories, with the title of each response listed under the relevant category as set on Conversational Cloud web.
 
-The categories and items are according to the relevant conversation skill (as set in LiveEngage web)
+The categories and items are according to the relevant conversation skill (as set in Conversational Cloud web)
 
 ### Sending Predefined content
 
@@ -237,14 +237,14 @@ There is no option to collapse / expand categories and predefined content is onl
 
 ## Structured content
 
-Users of the app can view structured content sent by bots or other agents using the LiveEngage web however, the card buttons are disabled.
+Users of the app can view structured content sent by bots or other agents using the Conversational Cloud web however, the card buttons are disabled.
 
 {: .notice}  
 The app currently support only basic cards. Carousel will be added in the next version of the app.
 
 ## Quick replies
 
-Users of the app can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message.
+Users of the app can view quick replies sent by bots or other agents using the Conversational Cloud web. QR message bubbles display with a QR button to left of the message.
 
 ### Expand/Collapse Quick replies
 
@@ -334,12 +334,12 @@ _Customer ID:_ showing the name (or phone number) of the consumer who sent the n
 
 ### App icon badge
 
-As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the LiveEngage icon. **The app badge does not sum the number of new conversation waiting**.
+As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the Conversational Cloud icon. **The app badge does not sum the number of new conversation waiting**.
 
 {: .notice}  
 Enabling the push notifications is done by your LivePerson account team.
 
-When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. The number sums the unread message in the app. When entering the app the counter is reset.
+When at least one new message is received when the app is in the background, an unread message badge appears on the Conversational Cloud icon. The number sums the unread message in the app. When entering the app the counter is reset.
 
 **Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message).
 
@@ -382,7 +382,7 @@ User can choose between three options:
 {: .important}  
 All of the functionality for agent users apply to agent manager as well.
 
-In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
+In order for a manager to be able to receive new conversation, he needs to be defined in the Conversational Cloud web with an agent role.
 
 Below describes the additional set of features available only for users with manager role:
 
@@ -480,7 +480,7 @@ The list of skills available are according to the skill assigned to the agents t
 
 From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.
 
-A preview of the selected filters in each criteria are displayed in th right side of the list
+A preview of the selected filters in each criteria are displayed in the right side of the list
 
 ### Clear all
 

@@ -40,7 +40,7 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 
 Dynamic Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-When a conversation comes into LiveEngage, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information from Intent Analyzer. It then uses Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
+When a conversation comes into the Agent Workspace, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information from Intent Analyzer. It then uses Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
 ## How to build a routing policy
 
@@ -51,7 +51,7 @@ Dynamic Routing uses centralized policies to achieve routing to best human agent
 To build a routing policy, brands first set the context by leveraging a combination of different attributes to be used in the routing policy, including:
 
 * User context, such as consumer names and email address
-* Conversational context, such as agent skills or consumer intent from the LiveEngage platform
+* Conversational context, such as agent skills or consumer intent from the platform
 * Operational context, such as a contact center’s wait time
 * Predefined custom attributes from an external data source, such as a Salesforce CRM database, using [FaaS function](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html), and any custom attribute using Session Store APIs
 

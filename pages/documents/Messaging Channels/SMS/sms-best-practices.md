@@ -17,11 +17,11 @@ Brands in North America will need to purchase short-codes instead of regular lon
 
 ## Friendly names / vanity short codes
 
-Friendly names such as _'1(800) New Home_' and vanity short codes such as '_Realty_' are not ideal for SMS since most handsets do not display the 10-digit keypad when setting the recipient of a text message. Instead, the consumer sees a regular keyboard so it best to use and advertize regular format numbers.
+Friendly names such as _'1(800) New Home_' and vanity short codes such as '_Realty_' are not ideal for SMS since most handsets do not display the 10-digit keypad when setting the recipient of a text message. Instead, the consumer sees a regular keyboard so it best to use and advertise regular format numbers.
 
 ## Re-purposing existing numbers
 
-It is possible to take an existing 1(800) number or other business number and 'port' the SMS capabilities across to Twilio so that it can be connected to your LiveEngage account. However, we recommend that you first look at your telephony reports and logs for that number and determine the following:
+It is possible to take an existing 1(800) number or other business number and 'port' the SMS capabilities across to Twilio so that it can be connected to your LivePerson Conversational Cloud account. However, we recommend that you first look at your telephony reports and logs for that number and determine the following:
 
 1. Are text messages are already being sent to this number?
 2. What are the types of messages being sent?

@@ -32,7 +32,7 @@ Enhanced by automation and featuring an upgraded design, the agent workspace has
 
 ## Workspace basics
 
-As an agent, your workspace is a centralized location for handling all of your conversations. When you login to LiveEngage your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+As an agent, your workspace is a centralized location for handling all of your conversations. When you login to the Conversational Cloud your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
 ### Dynamic conversation list
 
@@ -119,7 +119,7 @@ To save you time - there are seven hotkeys configured on your workspace for some
 | Accept conversation | Alt + Shift + N |
 | Takeover conversation | Alt + Shift + O |
 | Leave conversation | Alt + Shift + I |
-| Logout from LiveEngage | Alt + Shift + L |
+| Logout from Conversational Cloud | Alt + Shift + L |
 | Change status | Alt + Shift + S |
 
 ## Managing messaging conversations
@@ -152,7 +152,7 @@ Conversations that reach your workplace have already undergone detailed analysis
 
 * **Auto accept**: This means conversations will automatically enter your list and be sorted without any action on your end, and your conversation list will automatically update when a new conversation is added. This is a more popular configuration for call centers.
 * **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your conversation list, sorted by SLA. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
-* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
+* **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into the Conversational Cloud.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
 
 **Auto accept:**
 ![image alt text](img/autoaccept.jpg){:class="newagent"}

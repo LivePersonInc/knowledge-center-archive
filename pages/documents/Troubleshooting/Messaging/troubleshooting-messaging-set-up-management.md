@@ -126,7 +126,7 @@ If the SMS messages that are not received or are partially received have been se
 1. Check whether those numbers support SMS messages (see [Twilio international phone number availability and their capabilities](https://support.twilio.com/hc/en-us/articles/223183068-Twilio-international-phone-number-availability-and-their-capabilities)).
 2. If your local Twilio numbers do not support SMS,and your mobile numbers do, use mobile lines instead.
 
-## A LiveEngage account’s Facebook messages are no longer being routed to LiveEngage.
+## A LivePerson Conversational Cloud account’s Facebook messages are no longer being routed to the the Agent Workspace .
 
 ### Cause:
 
@@ -149,7 +149,7 @@ Conditions:
 ### Cause
 
 1. The customer disabled automatic messages for a period of time, either in the past or currently.
-2. The agent manager set the LiveEngage account’s Off hours in the Shift status to the wrong time period.
+2. The agent manager set the account’s Off hours in the Shift status to the wrong time period.
 
    {: .notice}  
    Off hours are set according to the timezone of the browser you’re in when you set Off hours – not according to the account’s timezone.

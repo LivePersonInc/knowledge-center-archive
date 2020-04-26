@@ -28,7 +28,7 @@ offered by the applicable third-party provider
 
 **Resolution:** An issue is considered resolved when the customer's service needs have been met.
 
-**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson accounts and maintenance activity updates. The Service Status Dashboard is accessible to LivePerson customers at [http://status.liveperson.com](http://status.liveperson.com)
+**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson Conversational Cloud accounts and maintenance activity updates. The Service Status Dashboard is accessible to LivePerson customers at [http://status.liveperson.com](http://status.liveperson.com)
 
 ## Scope of support
 

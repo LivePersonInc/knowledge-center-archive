@@ -19,7 +19,7 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 
 {: .notice}
 **Please note:** The WhatsApp Business Connector to LiveEngage can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product should start the registration process by following one of these two paths:
-1. In their LiveEngage Account, go to Campaign Builder-->Data Sources-->WhatsApp
+1. In their LivePerson Conversational Cloud account, go to Campaign Builder-->Data Sources-->WhatsApp
 2. Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-5HZT4FKQqB8Wjyauw9g128glGmJcoREfX4HACCPr0vKrHw/viewform">WhatsApp Registration and Setup Form</a>
 
 ## Why use WhatsApp to connect with your consumers?

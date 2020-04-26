@@ -45,7 +45,7 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 
 Dynamic Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-When a conversation comes into LiveEngage, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Conversation Orchestrator’s Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
+When a conversation comes into the Agent Workspace, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Conversation Orchestrator’s Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
 Brands can build and manage policies using the Conversation Orchestrator workspace:
 

@@ -205,8 +205,8 @@ If you choose to manually enter phone numbers rather than use a .csv file upload
 
 ## FAQs
 
-**If I have a LiveEngage account, can I automatically access Proactive Messaging?**
-No, today we require brands to onboard first before they can start using Proactive Messaging. It is a powerful tool and only authorized users should have access to it. Once onboarded, only users with Campaign Manager or Admin user profile can access this tool from LiveEngage’s Quick Launch.
+**If I have a LivePerson Conversational Cloud account, can I automatically access Proactive Messaging?**
+No, today we require brands to onboard first before they can start using Proactive Messaging. It is a powerful tool and only authorized users should have access to it. Once onboarded, only users with Campaign Manager or Admin user profile can access this tool from the Quick Launch.
 
 **Can anyone access Proactive Messaging?**
 Proactive Messaging is accessed directly within LiveEngage from the quick launch menu. This option will only appear to users with Campaign Manager or Admin user profile.

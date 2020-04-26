@@ -59,7 +59,7 @@ On mobile devices that have a front and backward facing camera, an additional bu
 **LiveEngage**
 * The feature can only be used within Web Messaging conversations. Chat is not supported.
 * The Engagement Window must be deployed in the embedded state.
-* By default, voice & video is not enabled in your LiveEngage account. Please contact your LivePerson account manager to have this feature enabled for you.
+* By default, voice & video is not enabled in your LivePerson Conversational Cloud account. Please contact your LivePerson account manager to have this feature enabled for you.
 
 **User (Agent/Consumer):**
 * The Agent must use Chrome, Firefox or Safari.

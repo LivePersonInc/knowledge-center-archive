@@ -18,7 +18,7 @@ Agents will now be able to share files with consumers in order to answer questio
 
 ## Enabling the feature
 
-To enable “Agent file sharing” capability on your LiveEngage account, please contact your LivePerson account team.
+To enable “Agent file sharing” capability on your LivePerson Conversational Cloud account, please contact your LivePerson account team.
 
 ## Night Vision setting
 

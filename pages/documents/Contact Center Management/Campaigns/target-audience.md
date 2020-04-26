@@ -15,9 +15,9 @@ By defining a target audience for your campaign, you can ensure that the campaig
 
 ## Configuring your target audience
 
-Within the **Target audience library**, you can select a predefined target audience or define the attributes of consumers you want to target with this campaign. Predictive algorithms within LiveEngage will then target the most valuable consumers within your target audience. For example, consumers from a certain geographic location who typed specific search terms to get to your website.
+Within the **Target audience library**, you can select a predefined target audience or define the attributes of consumers you want to target with this campaign. Predictive algorithms within the Conversational Cloud will then target the most valuable consumers within your target audience. For example, consumers from a certain geographic location who typed specific search terms to get to your website.
 
-To learn how to collect information about your visitors, let’s look at an example that targets “Platinum” customers. To start, you must tell LiveEngage what types of customers you have.
+To learn how to collect information about your visitors, let’s look at an example that targets “Platinum” customers. To start, you must tell the Conversational Cloud what types of customers you have.
 
 1. From the Campaign Builder, select a campaign and edit the Target audience to reach the **Target audience library**. Click **Add new**.
 2. From the Add new target audience page:
@@ -27,12 +27,12 @@ To learn how to collect information about your visitors, let’s look at an exam
    * Type in a unique name, e.g., Platinum. Press enter and **Done** to allow the system to add the new type to your list. Once you add “Platinum” it will be included in your customer type list.
    * To edit your customer types, click **Manage**.
    * To add additional types, click **Manage**, scroll down and then click **Add type**.
-3. Next, configure LiveEngage to collect the data. If you haven’t configured tracking yet, you’ll see a message that reads, “We haven't received customer info data in the last 24 hours.” You can click the Configure tracking button or you can configure tracking under Data Sources > Engagement Attributes > Visitor Information category.
+3. Next, configure the Conversational Cloud to collect the data. If you haven’t configured tracking yet, you’ll see a message that reads, “We haven't received customer info data in the last 24 hours.” You can click the Configure tracking button or you can configure tracking under Data Sources > Engagement Attributes > Visitor Information category.
 4. The same process can be implemented for customer status. Examples of customer status might be “migrated” or “inactive.”
 
-<div class="important"> <b>Important:</b> <ul> <li>If the data appears on the page, LiveEngage can extract it without code. Many web pages don’t display the data and therefore you may need to use code for this Engagement Attribute.</li> <li>The data on the page must match the name of the target audience list items exactly (they are case insensitive). For example, if you define the customer types “Gold” and “Silver,” you cannot target a visitor by flagging data named “Gold Plus.”</li> </ul> </div>
+<div class="important"> <b>Important:</b> <ul> <li>If the data appears on the page, the Conversational Cloud can extract it without code. Many web pages don’t display the data and therefore you may need to use code for this Engagement Attribute.</li> <li>The data on the page must match the name of the target audience list items exactly (they are case insensitive). For example, if you define the customer types “Gold” and “Silver,” you cannot target a visitor by flagging data named “Gold Plus.”</li> </ul> </div>
 
-LiveEngage will track your customers according to their status and type, allowing you to offer each customer an appropriate messaging or chat experience. Decide when to display engagements by selecting the conditions you wish to use for the target audience. Here is a list of the currently available conditions:
+The Conversational Cloud will track your customers according to their status and type, allowing you to offer each customer an appropriate messaging or chat experience. Decide when to display engagements by selecting the conditions you wish to use for the target audience. Here is a list of the currently available conditions:
 
 1. **External referral:** Target consumers who arrived at your website from other web pages.The definition of a page can be an exact URL or a URL containing a specific word or a regular expression (advanced). It is possible to add multiple rules for external referral; if a consumer is arriving from any one of these URLs then this condition will be applicable.
 
@@ -144,7 +144,7 @@ Customer ID is reported via the Customer Info Engagement Attribute, for more inf
 
 ## Target consumers by keyword
 
-To target consumers that searched for the keywords in Google Search, manually configure the ValueTrack in each ad to send LiveEngage the keywords under the query string parameter name “keyword”. Make sure to use only “keyword” as the parameter name.
+To target consumers that searched for the keywords in Google Search, manually configure the ValueTrack in each ad to send the keywords under the query string parameter name “keyword”. Make sure to use only “keyword” as the parameter name.
 
 1. Log into your Google AdWords account.
 2. For each ad in your ad groups, insert the destination URL and add the ValueTrack for keywords. (For additional help, go to Google AdWords Forum and read about Track clicks with ValueTrack.)
@@ -158,7 +158,7 @@ Now you can extract keywords from your Google campaigns manually or you can impo
 1. Under Data Sources click Connect Analytics. You’ll get a message that you’ve successfully connected.
 2. On the Add new target audience screen, select Search keywords. You’ll get a message saying “We've successfully retrieved data from your Google AdWords account.”
 3. To import a campaign from Google AdWords, select the relevant profile from the drop-down menu.
-4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by LiveEngage.
+4. Select a campaign and click Import. All the keywords from all the ads in that campaign are then imported to the system, and consumers who search for one of these keywords will be targeted by the Conversational Cloud.
 
 ![](/img/target-audience-8.png)
 

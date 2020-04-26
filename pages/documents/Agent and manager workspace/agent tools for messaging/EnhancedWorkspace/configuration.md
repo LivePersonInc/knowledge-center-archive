@@ -52,7 +52,7 @@ The enhanced agent workspace supports the two following improvements to assist a
 
 ### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
 
-* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), LiveEngage will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
+* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), the Agent Workspace will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
 * The population will be done only once the **agent clicks the conversation** and opens it.
 
 **Screenshots**
@@ -89,7 +89,7 @@ The agent has the ability to manually rename the visitor’s first and last name
 {: .notice}
 **Please note:** This feature requires enablement. For more information please contact your LivePerson representative for more information.
 
-On your LiveEngage account, take the following steps:
+On your LivePerson Conversational Cloud account, take the following steps:
 
 1. Go to any existing agent/agent manager profiles, or create a new profile, and turn the following permissions on: **Update consumer profile via API**
 
@@ -108,7 +108,7 @@ On your LiveEngage account, take the following steps:
 **A:** The manual rename takes precedence over the automatic visitor name population so that the name set by the agent is the one displayed.
 
 **Q:** Will the consumer get a notification indicating that his name has been changed by the agent?
-**A:** No - the changes are visible for LiveEngage users only and are not visible for consumers.
+**A:** No - the changes are visible for Conversational Cloud users only and are not visible for consumers.
 
 **Q:** Will these capabilities be supported in the old workspace as well?
 **A:** No, the enhancements are supported for the enhanced agent workspace only.
