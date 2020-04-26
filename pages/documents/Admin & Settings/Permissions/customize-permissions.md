@@ -129,11 +129,11 @@ The following core permissions are included with the agent manager role and cann
 | --- | --- | --- |
 | Join Agents' conversations | Join a conversation handled by any Agent within their Group(s) or Sub-group(s) | On |
 | View Agents' conversations | View conversations handled by Agents within their Group(s) or Sub-group(s) | On |
-| View Engagement History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
+| View Conversation History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
 | View All Conversations List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
 | View Agent List | View full list of Agents within their Group | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
+| View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
 | Edit Agent users | Create, edit or delete users with an Agent role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent Manager users | Create, edit or delete users with an Agent Manager role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent profile | Create, edit or delete Agent role profiles | Off |
@@ -158,7 +158,7 @@ The following core permissions are included with the agent manager role and cann
 The following core permissions are included with the campaign manager role and cannot be disabled:
 
 * Ability for Campaign Manager to change their name, password, regional settings and so on
-* View all Campaigns in the Campaigns tab
+* View all Campaigns in the Campaign Builder
 * View all visitors in the Agent Workspace
 * View a snapshot of the performance of all your account’s Campaigns in the Campaigns Dashboard
 * View detailed information on the performance of all your account’s Campaigns in the Campaign Manager BI dashboard
@@ -169,7 +169,7 @@ The following core permissions are included with the campaign manager role and c
 | Publish campaigns | Control the publishing of campaigns | On |
 | Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
 | Configure automatic messages | Add and edit Automatic Messages in the Agent Workspace | On |
-| Configure engagement attributes | Add and edit Engagement Attributes used in Campaigns | On |
+| Configure engagement attributes | Add and edit Engagement Attributes used in campaigns | On |
 | Import and export predefined content | Import and export Predefined Content to and from LiveEngage | On |
 | Export predefined content | Export Predefined Content from LiveEngage | On |
 | View API keys | For brands who have enabled the API key management feature, this permission allows viewing of API keys used by the brand | On |
@@ -191,10 +191,10 @@ The following core permissions are included with the campaign manager role and c
 The following core permissions are included with the Admin role and cannot be disabled:
 
 * Ability to change their name, password, regional settings and so on
-* View all campaigns in the campaigns tab
+* View all campaigns in the Campaign Builder
 * View all visitors in the agent workspace
 * View a snapshot of the performance of all your account’s campaigns in the campaigns dashboard
-* View detailed information on the performance of all your account’s Campaigns in the campaign manager BI dashboard
+* View detailed information on the performance of all your account’s campaigns in the campaign manager BI dashboard
 * Ability to configure the authentication server
 * Ability to configure monitored domains
 * View the web tag page

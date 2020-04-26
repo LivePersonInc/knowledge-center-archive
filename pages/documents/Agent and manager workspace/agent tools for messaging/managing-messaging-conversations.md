@@ -20,15 +20,15 @@ Once you start handling conversations, you should move down the conversation lis
 
 As outlined in the ‘behind the scenes’ section , conversations that reach your workplace have already undergone detailed analysis and prioritization. Each incoming conversation is relevant and fresh for you to answer. Based on the configurations selected by you contact center manager, there are two ways to accept incoming conversations into your workspace:
 
-* **Auto-accept mode**: This means conversations will automatically enter your list without any action on your end, and your My Connections list will automatically update with new conversations. This is a more popular configuration for call centers.
-* **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Connections list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
+* **Auto-accept mode**: This means conversations will automatically enter your list without any action on your end, and your My Conversations list will automatically update with new conversations. This is a more popular configuration for call centers.
+* **Advanced mode**: For this option, incoming messages will ‘ring’ in your workspace and you’ll have to manually click to open and move this conversation to your My Conversations list. If you do not click to accept an incoming conversation and other agents are available, it will circle and ring to other available agents.
 * **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into LiveEngage.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
 
 ## Understanding the context & history
 
 There are several tools in place to help you access the information you’ll need to provide excellent service and understand your consumers and their intent.
 
-* **Conversation history:** For repeat customers, any previous messaging history will display in the Engagement History widget.
+* **Conversation History:** For repeat customers, any previous messaging history will display in the Conversation History widget.
 * **Consumer Info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 * **Bot transfers**: If the conversation began with a bot before it was transferred to you, you will be able to see this in a dedicated section called “bot conversation recap.” You’ll be able to see the escalation reason, the intents identified by the bot and of course the conversation transcript.
 * **Custom widgets** - Look at relevant widgets your brand may have built. You may also have customized widgets for your brand that should be used such as CRM integrations or any other customized widgets. Learn more about custom widgets here.
@@ -53,7 +53,7 @@ While conducting a conversation, there are a few actions you can take:
 
 **Transfer Conversation:** Select a skill to transfer your conversation to. Use the search bar to find the relevant skill. Once you do this, the conversation will move out of your workspace and enter that skill’s queue.
 
-**Hide conversation**: If you have an inactive conversation that doesn’t require your attention, this option allows you to hide the conversation window and send the conversation back to open connections.
+**Hide conversation**: If you have an inactive conversation that doesn’t require your attention, this option allows you to hide the conversation window and send the conversation back to Open Conversations.
 
 **Copy as plain text**: This action opens a window that includes that text of the conversation that can be copied to anywhere you need, such as into a CRM record.
 

@@ -58,7 +58,7 @@ The more recent the message, the greater the effect it will have on the total sc
 
 Some negative impact of a score remains regardless of the time that has passed, i.e. if negative emotion has been detected, it will linger through the entire conversation to some extent.
 
-The dynamic changes to the MCS can be tracked in the web messaging API.
+The dynamic changes to the MCS can be tracked in the Web Messaging API.
 
 ## MCS applications
 

@@ -24,7 +24,7 @@ Quick summary of where information can be found once you enable the enhanced age
 Section | For agents | For managers
 --- | --- | ---
 All Conversations | Available in the new “connections” module within the agent workspace. | Available in the new “connections” module within the agent workspace.
-Open connections | Agent conversations are managed in My Connections within the agent workspace. Agents with the “view other agents conversations” permission turned on can view them in All Conversations. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Conversations list for full view. Conversations joined by managers will appear in the My Connections area of the agent workspace.
+Open Conversations | Agent conversations are managed in My Conversations within the agent workspace. Agents with the “view other agents conversations” permission turned on can view them in All Conversations. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Conversations list for full view. Conversations joined by managers will appear in the My Conversations area of the agent workspace.
 Messaging agents | Will not be viewable to agents | Available in new manager workspace Agents widget
 
 If you have the manager workspace enabled, but not the new agent workspace, the tabs described in the table above will remain in the Visitors module.
@@ -66,7 +66,7 @@ The conversation widget displays:
 * Conversations that were closed in the past 24 hours (configurable from 1-24 hours). Closed conversations enable you to drill down on the metrics you see in the activity summary - for example, if monitoring the number of closed conversations or the CSAT - you can have a quick view or drill down into the conversations driving those metrics.
 
 ***Transitioning from the existing experience:***
-Until now, managers were monitoring conversations using the Open Connections list.
+Until now, managers were monitoring conversations using the Open Conversations list.
 
 ### Viewing a conversation transcript
 The Conversation widget in the workspace was designed for skimming through lists of conversations. If you’d like to read any conversation as it happens in real time, you can do so by clicking on the consumer name in this list.
@@ -81,11 +81,11 @@ To go back to view additional conversations - you have two options:
 
 #### Viewing conversation transcripts in real time
 
-**Existing view:** In the Open Connections tab, managers can scroll through active conversations and view the transcripts updating in real time.
+**Existing view:** In the Open Conversations tab, managers can scroll through active conversations and view the transcripts updating in real time.
 
 **New view:** The conversations displayed in the conversation widget within the new manager workspace as well as the conversations displayed in the All Conversations list are in near-real time.  
 
-Once you click on a conversation to view its transcript, this detailed view will appear in real time. If you have been assigned a conversation, or joined a conversation it will appear in your personal My Connections list, which also displays conversations in real time.
+Once you click on a conversation to view its transcript, this detailed view will appear in real time. If you have been assigned a conversation, or joined a conversation it will appear in your personal My Conversations list, which also displays conversations in real time.
 
 #### Opening transcripts without affecting the auto-close time
 
@@ -119,7 +119,7 @@ Once you click on + join conversation, the menu icon will appear on the top of t
 * **Send conversation back to queue**
 * **Close the conversation**
 
-You can click on ‘to send messages go to my connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
+You can click on ‘to send messages go to My Conversations list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
 ![](img/new-agent-manager-experience-3.png)
 
@@ -139,9 +139,9 @@ You can search for a conversation by its ID directly in this filter box, or sear
 
 ![](img/new-agent-manager-experience-5.png){:class="newagent"}
 
-#### Searching for open connections over 30 days old
+#### Searching for Open Conversations over 30 days old
 
-**Until now:** The Open Connections list included all open conversations, without time restrictions. However, it only displayed up to 1000 conversations.
+**Until now:** The Open Conversations list included all open conversations, without time restrictions. However, it only displayed up to 1000 conversations.
 
 **New view:** The new conversation widget in the manager workspace displays conversations that were opened in the past 30 days. Managers can filter and search for all open conversations in All Conversations list.
 
@@ -219,4 +219,4 @@ The following filters will no longer be available:
 Next to the agent name, there was an indication of how many unread messages they had in that conversation. This indicator will not be available in the new workspace.
 
 **List of conversations agents are joined into**
-Through the existing Open Connections list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new  conversation widget will only display the conversations that the agent is assigned to.   
+Through the existing Open Conversations list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new  conversation widget will only display the conversations that the agent is assigned to.   

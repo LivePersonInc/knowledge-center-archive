@@ -27,7 +27,7 @@ The following global entities can be shared across the account and its LoBs:
 
 In addition, the following dashboards and reports will now reflect LoBs:
 
-* Engagement History
+* Conversation History
 * Campaigns databar and dashboard
 * CM BI dashboard
 * Goal Tracker report
@@ -48,7 +48,7 @@ In addition, the following dashboards and reports will now reflect LoBs:
 
 ## To assign a campaign to a Line of Business:
 
-1. In the Campaigns tab, click Add Campaign.
+1. In the Campaign Builder, click Add Campaign.
 2. Select from the LoBs available in the drop-down menu.
 
 {: .notice}
@@ -68,7 +68,7 @@ In addition, the following dashboards and reports will now reflect LoBs:
 
 Unassigned Campaigns are those that were created before LoBs were introduced. It is possible to retrospectively assign a LoB to these Campaigns, in order to include them in reporting and analytics for specific LoBs.
 
-1. In the Campaigns tab, click on the Campaign you wish to assign.
+1. In the Campaign Builder, click on the Campaign you wish to assign.
 2. Under the option to ‘Assign to a line of business’, select a LoB from the drop-down menu.
 
    {: .notice}
@@ -90,7 +90,7 @@ The Campaigns dashboard and BI dashboard can display data at an account level or
 
 ## To filter Campaigns by LoB:
 
-1. In the Campaigns tab, click the filter button on the Line of Business column.
+1. In the Campaign Builder, click the filter button on the Line of Business column.
 2. From the drop-down menu, select the LoB you wish to filter by.
 3. Click **Filter**.
 4. The page will now display the Campaigns assigned to the LoB you selected; the dashboard will reflect the data for these Campaigns.

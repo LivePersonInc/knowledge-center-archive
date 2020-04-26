@@ -37,7 +37,7 @@ By default, after declining a proactive content engagement, other content engage
 
 To create a proactive campaign, follow these steps:
 
- 1. Click on the _Campaigns tab_ in the top banner of your dashboard, followed by the _Add Campaign_ button in the bottom left corner.
+ 1. Click on the _Campaign Builder_ in the sidebar, followed by the _Add Campaign_ button in the bottom left corner.
  2. Give the Campaign a relevant name, such as ‘First time visitors’ or ‘Post-purchase support’.
  3. To set your Campaign Goal - how you will measure the success of your campaign - click _Add Goal_ and then _Add New_.
  4. Give your Goal a name, such as ‘Generate Leads’, then select the Goal Type and indicator, which should define what activity will be counted as successful towards this goal. Click _Save_ in the bottom right corner, and then _Done_ on the next page.

@@ -34,7 +34,7 @@ When a quick reply chip is tapped, the items are dismissed.
 
 The agent can see the quick replies group at all times, even if it is no longer visible to the consumer.
 
-Quick replies are available on our mobile app and web messaging channels, as well as the Facebook connector.
+Quick replies are available on our mobile app and Web Messaging channels, as well as the Facebook connector.
 
 ## Use cases
 
@@ -129,6 +129,6 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 
 ## Notes
 
-* The configured quick replies responses available in the agent workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (web messaging and in-app messaging, as well as Facebook).
+* The configured quick replies responses available in the agent workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (Web Messaging and App Messaging, as well as Facebook).
 * When an agent sends a quick replies message to a consumer, it will trigger a push notification. The push notification will show the Agent’s message which preceded the Quick Replies bundle.
 * You can show between one and twenty-four chips within a quick replies bundle.

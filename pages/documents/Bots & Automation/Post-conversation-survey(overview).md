@@ -88,11 +88,11 @@ Ensure with your account manager that post conversation survey has been provisio
 * Android - enable_structured_content
 * Structured content needs to be enabled by your LivePerson Account Manager in addition to the above configuration by the client inside the SDK.
 
-### For web messaging:
+### For Web Messaging:
 
 Structured content needs to be enabled by your LivePerson Account Manager. No further configuration is needed on the client side.
 
-Post conversation survey bot is available on all messaging channels including web messaging, in-app messaging, Twilio SMS, Facebook and LINE.
+Post conversation survey bot is available on all messaging channels including Web Messaging, App Messaging, Twilio SMS, Facebook and LINE.
 
 ## How to create a survey using the Bot Studio
 
@@ -249,7 +249,7 @@ The text and quick replies brick has two main design aspects that can be control
 
 For survey questions that include a text bubble, for example a text and quick replies brick, the text bubble will inherit its design from the overall window look and feel which you have already customized for your LiveEngage account.
 
-For web messaging, this window customization is controlled through the LiveEngage UI in the campaigns, window gallery.
+For Web Messaging, this window customization is controlled through the Conversational Cloud UI in Campaign Builder, window gallery.
 
 For mobile app messaging, the window customization is conducted via parameters within the SDK.
 
@@ -257,7 +257,7 @@ For more details on this please click the “Learn more” link located at the b
 
 ## The new PCS vs the old CSAT survey
 
-On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
+On channels such as Web Messaging and App Messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
 * If both PCS and old CSAT are enabled, PCS gets the priority and the old CSAT question won’t be displayed.
 * If the conversation ends on a device that doesn’t support PCS (for example an app running SDK v3.2 or lower) then the old CSAT question may appear, assuming it was configured to appear.

@@ -51,7 +51,7 @@ For brands who do not report the “currency” attribute using engagement attri
 
 ## How to change your default currency
 
-1. In the campaigns footnote, next to default currency, **click edit.**
+1. In the Campaign Builder footnote, next to default currency, **click edit.**
 2. Find the default currency you wish to use on the account.
 3. Click **select**.
 

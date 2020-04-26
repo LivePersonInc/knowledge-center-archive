@@ -95,7 +95,7 @@ If your authentication server returns a message stating that the request is not 
 
 ### Solution:
 
-You set up the authentication server on Campaigns page > Data Sources > Authentication Server > Edit.
+You set up the authentication server on Campaign Builder > Data Sources > Authentication Server > Edit.
 
 ## Why isn’t our campaign manager/admin user able to delete predefined content?
 

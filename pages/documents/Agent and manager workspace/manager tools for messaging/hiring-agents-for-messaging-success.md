@@ -37,7 +37,7 @@ LivePerson recommends screening for agents that demonstrate the traits above, wh
 Recommended adaptations to the current hiring and screening process include:
 
 1. Writing a job description that defines the specific on-the-job tasks/functions, and the quality and productivity objectives you’ve set for LiveEngage messaging.
-2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using web messaging, Hangouts, Facebook Messenger or similar. Look for:
+2. Screening applicants online by asking applicants to respond via email initially. Then, determine how effective and comfortable the applicant is using messaging conducting the initial “interview” using Web Messaging, Hangouts, Facebook Messenger or similar. Look for:
    1. Ability to interpret your questions through the messaging medium
    2. Crisp, clear, understandable responses
    3. Grammar, punctuation, and spelling

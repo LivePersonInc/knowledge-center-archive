@@ -80,7 +80,7 @@ Each funnel metric is assigned to a distinct level, which indicates the consumer
 
 The business funnel is open to engagements from all sources, including those originating from the Mobile app. The primary difference between tracking the funnel from a website (for Web Messaging) and from a Mobile app is the automated manner in which the funnel metrics are populated.
 
-The LivePerson monitoring code present on your website pages automatically transmits to LiveEngage each step in the consumer’s journey. This translates into metrics included in the Business Activity dashboard. In order to integrate consumer journeys taking place in the mobile app into Campaign Funnel metrics, the use of an SDK is required (read more on how to integrate your app with LiveEngage Campaigns).
+The LivePerson monitoring code present on your website pages automatically transmits to LiveEngage each step in the consumer’s journey. This translates into metrics included in the Business Activity dashboard. In order to integrate consumer journeys taking place in the mobile app into Campaign Funnel metrics, the use of an SDK is required (read more on how to integrate your app with Campaigns).
 
 The following diagram outlines how funnel metrics are calculated for Messaging Engagements which do not originate from a monitored web source:
 
@@ -272,7 +272,7 @@ Business activity engagement analysis
 
 ### Entry point panel
 
-The Entry Point is a section on your website or mobile app. On each entry point, setup in a LiveEngage Campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
+The Entry Point is a section on your website or mobile app. On each entry point, setup in a  Campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
 
 Use the Business Activity by Entry Point to analyze the traffic on each website section or mobile app section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
 

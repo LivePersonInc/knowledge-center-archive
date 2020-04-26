@@ -73,7 +73,7 @@ The Agent Workspace includes several widgets to help agents manage their convers
 * **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times.
 * **Page navigation widget**: Allows agents to offer assistance to consumers according to their journey on the website.
 * **Agent survey widget**: Allows agents to provide Agent Managers with input about the conversation and its outcome.
-* **Engagement History widget**: Allows agents to read transcripts from previous chats with the visitor and provide better service by understanding their chat history.
+* **Conversation History widget**: Allows agents to read transcripts from previous chats with the visitor and provide better service by understanding their chat history.
 
 Agents also have access to the following tools during their conversations with consumers:
 

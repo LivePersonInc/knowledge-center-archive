@@ -36,7 +36,7 @@ The data bar in your workspace will represent the queue data that is relevant on
 
 ## Beginning your shift
 
-When you start your shift, you should change your status to "Online" in order to start receiving messages. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them in your Open Connections tab.
+When you start your shift, you should change your status to "Online" in order to start receiving messages. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them in your Open Conversations tab.
 
 Make sure you have all your tools ready at hand, your CRM integrations are logged in and working, and any external systems being used.
 

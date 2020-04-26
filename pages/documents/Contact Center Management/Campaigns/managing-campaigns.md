@@ -13,7 +13,7 @@ redirect_from:
 - using-control-groups.html
 
 ---
-You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with LivePerson can be managed within the platform.
+You can create many different campaigns on your account, each with as many different buttons, or engagements as you need. All of the campaigns and engagements you create with the Conversational Cloud can be managed within the Campaign Builder.
 
 ## Multiple campaigns and priorities
 
@@ -21,7 +21,7 @@ When running multiple campaigns, it is good practice to have campaigns cover a p
 
 ### Setting campaign priority
 
-From the campaigns page, you can set your campaigns to different priorities (high, medium, or low), by selecting from the options under the priority column. If multiple engagements target a user simultaneously, and in order to ensure that users still have a chance to be exposed to all engagements, the platform will choose which engagement to display according to the following logic:
+From the Campaign Builder, you can set your campaigns to different priorities (high, medium, or low), by selecting from the options under the priority column. If multiple engagements target a user simultaneously, and in order to ensure that users still have a chance to be exposed to all engagements, the platform will choose which engagement to display according to the following logic:
 
 * The probability that engagements belonging to **High Priority** campaigns will be displayed is **70%**
 * The probability that engagements belonging to **Medium Priority** campaigns will be displayed is **20%**
@@ -39,7 +39,7 @@ A control group is a random number of visitors to your website who do not receiv
 
 A control group can be set per account or per campaign to any integer between 0% to 25%. Increasing the percentage means less visitors will be exposed to campaigns, however the data is more statistically accurate. 0% means that the control group feature is switched off.
 
-**Per account**: Means the selected percentage of control group visitors will not be exposed to any type of engagement from any of the campaigns. This enables you to evaluate the performance of the whole program. This setting is on the Campaigns page. (Default value is 5%).
+**Per account**: Means the selected percentage of control group visitors will not be exposed to any type of engagement from any of the campaigns. This enables you to evaluate the performance of the whole program. This setting is in the Campaign Builder. (Default value is 5%).
 
 **Per campaign:** Means the selected percentage of control group visitors will not be exposed to any type of engagement from the specified campaign, but may be exposed to another campaigns’ engagements. This enables you to evaluate the performance of specific campaigns. This setting is on the campaign summary page. (Default value is 10%).
 
@@ -66,7 +66,7 @@ Busy state is available for all engagements except overlay, offsite and messagin
 
 ### Configuration
 
-1. Go to the **Campaigns** page and select an existing Campaign.
+1. Go to the **Campaign Builder** page and select an existing Campaign.
 2. Click **Add Engagement**.
 3. Choose a creative in the **Engagement template gallery** and click **Next**.
 4. In the **Engagement Studio**, click ‘Online’ in the top left corner, and a menu with configurations for the three chat states will drop down.

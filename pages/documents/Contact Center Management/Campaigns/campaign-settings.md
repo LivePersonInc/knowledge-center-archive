@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-29 12:29:01 +0000
 
 ---
-The campaign footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
+The Campaign Builder footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
 
 ![](/img/campaign-settings-1.png)
 
@@ -21,7 +21,7 @@ LiveEngage data sources make it possible for you to collect valuable information
 
 ## **Control groups**
 
-A control group is a random number of visitors to your website who are not exposed to any type of engagement from a LiveEngage campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
+A control group is a random number of visitors to your website who are not exposed to any type of engagement from a campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
 
 The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, [refer here](contact-center-management-campaigns-managing-campaigns.html#measuring-success-using-control-groups).
 
@@ -53,7 +53,7 @@ The full list of currencies supported by the ISO-4217 currencies standard is ava
 
 It’s important for campaign managers to be able to identify which engagement made a visitor convert: was it due to a chat or content engagement? Was the engagement in the current session or a previous one? LiveEngage uses a cross session period and an attribution model (see below) to assess this.
 
-The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. This setting allows you to track consumers who return and convert within a certain number of days (0, 1, 7, 14 or 31) from their first exposure to the campaign. If they do so, the conversion will be credited to a campaign or agent in LiveEngage.
+The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. This setting allows you to track consumers who return and convert within a certain number of days (0, 1, 7, 14 or 31) from their first exposure to the campaign. If they do so, the conversion will be credited to a campaign or agent in the Conversational Cloud.
 
 ## **Conversion attribution model**
 

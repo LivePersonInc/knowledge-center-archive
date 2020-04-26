@@ -12,18 +12,18 @@ date: 2019-01-27 08:23:25 +0000
 redirect_from:
   - about-goals.html
 ---
-Each campaign within LiveEngage has a campaign goal, which describes what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can reuse it in future campaigns.
+Each campaign within the Campaign Builder has a goal, which describes what the campaign hopes to achieve. By selecting a goal, you can track the performance of your campaigns and understand their value to your business. Once you create a goal it will be added to the goals library and you can reuse it in future campaigns.
 
 The first step in building your campaign is to decide on one of the possible LiveEngage goals that represents your business goal, for example, _sell product/service_, _Generate leads_, or _Increase page views_. Choose from a variety of customizable goals that can be used as criteria for success. LivePerson will track and display each of the goals reached as conversions on the data bar.
 
 ![](/img/campaign-goals-1.png)
 
-Your campaigns are available from the **Manage campaigns and engagements** button. The Campaigns page includes a data bar, and the details of your campaigns.
+Your campaigns are available from the Campaign Builder icon in the sidebar. The Campaign Builder includes a data bar, and the details of your campaigns.
 
 ## How to set a goal
 
-1. From the Campaigns page, select an existing campaign or click the "+ Add campaign" button.
-2. Edit the existing Campaign goal for an existing campaign or select "+ Add Goal" for a new campaign.
+1. From the Campaign Builder, select an existing campaign or click the "+ Add campaign" button.
+2. Edit the existing campaign goal for an existing campaign or select "+ Add Goal" for a new campaign.
 
 {:start="3"}
 2. To create a new goal, click "Add new". The different types of goals are available on the next screen.

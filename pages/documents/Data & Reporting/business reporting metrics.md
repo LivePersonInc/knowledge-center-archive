@@ -11,7 +11,7 @@ isTutorial: false
 ---
 LiveEngage uses a large amount of metrics to provide insightful and detailed reporting.
 
-The Analytics Builder offers brands ready-made dashboards reflecting historic data drawn from their LiveEngage account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through LiveEngage campaigns and enact data-driven decisions. All the data metrics available in the Analytics Builder, with their definition and location within the different dashboards can be found in the table below.
+The Analytics Builder offers brands ready-made dashboards reflecting historic data drawn from their LiveEngage account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. All the data metrics available in the Analytics Builder, with their definition and location within the different dashboards can be found in the table below.
 
 We also have real-time data to give you an overall picture of how your contract center is performing at any given time. For all the data API's please see our [Developers Community.](https://developers.liveperson.com/essential-resources-api-data-metrics.html)
 

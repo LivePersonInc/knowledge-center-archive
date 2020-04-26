@@ -12,7 +12,7 @@ date: '2019-01-20T09:22:45.000+00:00'
 
 ---
 LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.
- 
+
 The tools include:
 
 **Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.
@@ -39,7 +39,7 @@ You will need to enable this feature for each of the engagement attributes you w
 
 To enable this feature:
 
-1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page.
+1. Log into LivePerson, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 
 ![](/img/conversation-outcomes1.png)
 

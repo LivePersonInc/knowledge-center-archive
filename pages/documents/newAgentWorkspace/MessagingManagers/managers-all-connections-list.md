@@ -1,15 +1,17 @@
 ---
-pagename: All Connections
+pagename: All Conversations
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the agent workspace '
 level3: ''
-permalink: messaging-managers-all-connections.html
+permalink: messaging-managers-all-conversations.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
+redirect_from:
+  - messaging-managers-all-connections.html
 ---
 
 The All Conversations tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Conversations allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
@@ -135,26 +137,26 @@ Managers can now easily join a conversation and perform actions, such as transfe
 When selecting **Join**, you can:
 1. Begin messaging with the consumer alongside the agent
 2. Take any of the following actions from the current window:
-  * **Return to queue:** you will still be joined to the conversation, it will appear in your My Connections list.
-  * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Connections list.
+  * **Return to queue:** you will still be joined to the conversation, it will appear in your My Conversations list.
+  * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Conversations list.
   * **Close conversation**
-  * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists.
+  * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Conversations list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists.
 
 The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Conversations list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
 
-If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification.
+If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Conversations list without notification.
 
 ## Taking over a conversation
 
 Managers with the “Takeover conversation” permission will be able to takeover conversations which are currently assigned to agents. The user who is taking over the conversation will become the new assignee of the conversation and the previous assignee is removed from the conversation.
 
-The “Takeover” option is available in the conversation menu, if the user has permissions for this action. Once the user has chosen the “Takeover” option, he will be navigated to the My Connections tab, focused on that conversation.
+The “Takeover” option is available in the conversation menu, if the user has permissions for this action. Once the user has chosen the “Takeover” option, he will be navigated to the My Conversations tab, focused on that conversation.
 
-If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Connections list without notification.
+If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Conversations list without notification.
 
 ## Resuming a conversation
 
 In many use cases, agents and managers need to send messages to consumers after the conversation with them has already been closed.
 
 In order to do so, a ‘Resume’ option will be available from the conversation mode .
-When selecting ‘Resume’, a new conversation will be started with the consumer and users will be navigated to the My Connections list, focused on the conversation.
+When selecting ‘Resume’, a new conversation will be started with the consumer and users will be navigated to the My Conversations list, focused on the conversation.

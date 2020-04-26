@@ -41,7 +41,7 @@ Agent managers will have real time visibility into their KPIs and aggregated per
 ## **2. Enhanced agent workspace & All Conversations list**
 
 The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs:
-* **My Connections:** The list of active and current messaging conversations that managers joined.  
+* **My Conversations:** The list of active and current messaging conversations that managers joined.  
 * **All Conversations:** Managers use this tab to search for and view previous conversations conducted by all agents they manage.
 
 ![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
@@ -50,7 +50,7 @@ The workspace where agents take and manage their messaging conversations is also
 
 This is the area for all live chat data and conversations.  It includes:
 * **Web visitors:** list of real time visitors to your website (where the LivePerson tag is deployed).  This includes:
-  * Visitors before they begin a conversation (brands who deployed the tag on their website for web messaging - will see the real time visitors on this tab as well)
+  * Visitors before they begin a conversation (brands who deployed the tag on their website for Web Messaging - will see the real time visitors on this tab as well)
   * Live chat conversations
 * **Web history:** archive of closed live chat conversations
 * **All agents:** list of live chat and messaging agents currently in shift

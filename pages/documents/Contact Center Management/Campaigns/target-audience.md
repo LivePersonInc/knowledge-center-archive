@@ -19,7 +19,7 @@ Within the **Target audience library**, you can select a predefined target audie
 
 To learn how to collect information about your visitors, let’s look at an example that targets “Platinum” customers. To start, you must tell LiveEngage what types of customers you have.
 
-1. From the Campaign tab, select a campaign and edit the Target audience to reach the **Target audience library**. Click **Add new**.
+1. From the Campaign Builder, select a campaign and edit the Target audience to reach the **Target audience library**. Click **Add new**.
 2. From the Add new target audience page:
    * Select a name for your target audience and optionally add a description.
    * Click **Customer info** from the condition list, to add the condition box.
@@ -105,7 +105,7 @@ LiveEngage will track your customers according to their status and type, allowin
 
 {:start="11"}
 11. **Company size:** Target or exclude consumers by their company size. Enter the minimum and/or maximum number of employees to define the range you would like to target.
-    
+
     Company size is an Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/engagement-attributes-types-of-engagement-attributes.html#visitor-info) in the Engagement Attributes guide on the Developer Community.
 
 {:start="12"}

@@ -44,7 +44,7 @@ Within the LivePerson platform, each [campaign](contact-center-management-campai
 ### To modify a campaign’s time zone:
 
 1. Log in to LivePerson as a user with campaign manager or admin permissions.
-2. In the campaigns tab, select a campaign to edit.
+2. In the Campaign Builder, select a campaign to edit.
 3. Hover over the campaign time frame and click edit.
 4. At the bottom of the page, select a time zone and click save. The campaign is now saved with the updated setting.
 

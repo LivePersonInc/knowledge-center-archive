@@ -102,7 +102,7 @@ Users are assigned skills by selecting a skill that you have already created, or
 
 ### To assign a skill to an engagement:
 
-Assign skills to engagements in the engagement studio, in the campaigns area.
+Assign skills to engagements in the engagement studio, in the Campaign Builder.
 
 1. Open a campaign by clicking on it.
 2. Click on the engagement to which you want to assign a skill.

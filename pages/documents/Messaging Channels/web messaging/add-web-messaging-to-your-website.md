@@ -1,5 +1,5 @@
 ---
-pagename: Add web messaging to your website
+pagename: Add Web Messaging to your website
 categoryName: Messaging channels
 subCategoryName: Web messaging
 indicator: messaging
@@ -33,17 +33,17 @@ _(should be completed by contact center manager, project manager or program mana
 
 ### Web Tag
 
-If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to web messaging as well - no additional action is needed.
+If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to Web Messaging as well - no additional action is needed.
 
-If you’re adding web messaging for the first time, you’ll need to grab the web tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
+If you’re adding Web Messaging for the first time, you’ll need to grab the web tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
 
 ### Engagement attributes
 
 Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developers Community](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
-## 3. Review conversation history length (for unauthenticated messaging)
+## 3. Review Conversation History length (for unauthenticated messaging)
 
-When a consumer starts an unauthenticated web messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of the conversation can continue.
+When a consumer starts an unauthenticated Web Messaging conversation, a random token is generated, representing the identity of the consumer. As long as this token is valid, the thread of the conversation can continue.
 
 While the engagement window is open, the token is automatically refreshed. Once the engagement window is closed, either by ending the conversation or by closing the tab of the website (or the entire browser), the conversation becomes idle.
 
@@ -56,7 +56,7 @@ Brands can configure the maximum time a conversation can stay idle, during which
 
 ## 4. Sales & conversion tracking
 
-If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
+If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found in the Campaign Builder footnote).
 
 1. **Define your currency**: You can define what currency you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
 2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
@@ -64,9 +64,9 @@ If you are planning to create messaging campaigns tailored for tracking sales an
 
 ## 5. Creating a campaign
 
-Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
+Before you can start creating your buttons or banners, you need to set up your campaign. In the Conversational Cloud, **engagements can be added to either new or existing campaigns** via the Campaign Builder.
 
-To create a new campaign, click “**Add campaign**” at the bottom of the campaigns page.
+To create a new campaign, click “**Add campaign**” at the bottom of the Campaign Builder.
 
 When creating a campaign, you first need to define the following:
 
@@ -145,7 +145,7 @@ Your new web engagement is now complete. From the **Campaign Summary page**, you
 
 #### Test click rates through control groups
 
-In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from a LiveEngage campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on control groups [click here](contact-center-management-campaigns-campaign-settings.html#control-groups).
+In order to evaluate the effectiveness and performance of campaigns (and your account as a whole), a control group needs to be set up. A control group is a random number of visitors to your website who do not receive any type of engagement from campaign. The activity of these visitors in the control group, for example, sales purchased and defined goals reached, is then compared to the activity of visitors who were exposed to campaigns. The difference between the control and exposed groups provides information on the effectiveness of your campaign. For more information on control groups [click here](contact-center-management-campaigns-campaign-settings.html#control-groups).
 
 #### Display multiple engagements on the same page
 

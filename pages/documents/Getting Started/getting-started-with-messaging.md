@@ -45,7 +45,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 
 Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately using [messaging connectors](messaging-channels-messaging-connectors-overview.html), once you have configured all relevant channels, LivePerson's settings and bots automatically apply. See our [messaging channels capabilities matrix](messaging-channels-messaging-channels-capabilities-comparison.html), or drill down on specific connectors.
 
-* [Web messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
+* [Web Messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
 * [Mobile app messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
 * [SMS](messaging-channels-sms-sms-connector.html) (Twilio, Google My Business)
 * [Facebook](messaging-channels-facebook-messenger.html)
@@ -72,7 +72,7 @@ See the [messaging channels capabilities comparison matrix](messaging-channels-m
 
 1. **Add bots**: Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
 2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’). Customize the text of [automatic messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) to match your brand's look and feels guide.
-3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
+3. **Surveys**: there are two surveys you can set up for Web Messaging: one before a conversation starts and one when a resolution has been achieved.
    * [Routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook) give pre conversation surveys that greet consumers and ask questions to determine what skill (or  bot) the conversation should be routed to.
    * [Post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) - when a conversation is closed or resolved, a survey can be sent out to consumers asking them questions, such as customer satisfaction questions.
 

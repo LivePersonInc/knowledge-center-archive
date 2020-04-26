@@ -36,7 +36,7 @@ The LivePerson messaging solution allows brands to send messages in a variety of
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-conversation surveys based on a collection of cards.
 
-Structured content is available on our mobile-app messaging, web messaging and supported web messaging connectors. It is also available for web chat - for further information on configuring structured content for chat, please refer to the [documentation](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html).
+Structured content is available on our mobile-app messaging, Web Messaging and supported Web Messaging connectors. It is also available for web chat - for further information on configuring structured content for chat, please refer to the [documentation](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html).
 
 ## Capability highlights
 
@@ -105,7 +105,7 @@ In order to enable the structured content via AC features and site settings, ple
 * We recommend that brands use our JSON script validator [JSON Pollock](https://livepersoninc.github.io/json-pollock/editor/) in order to format the strings correctly before use. This validator, hosted on Github, can be shared with brands for this use.
 * Plan your data model:
   1. When creating your data model, recommended best practice is to include a card ID in the metadata of each card. The metadata, ExternalID, can be passed in the header of each sent message. These IDs should 	be recorded in an external CMS. This is currently only possible when a bot is sending the structured 	content, it is not yet supported on the Agent Widget SDK.
-  2. Define the metadata ExternalID that will be returned to LiveEngage when an element in the structured content is clicked. This is important for reporting on consumer interaction with the structured content element, as well as for bot activity. 
+  2. Define the metadata ExternalID that will be returned to LiveEngage when an element in the structured content is clicked. This is important for reporting on consumer interaction with the structured content element, as well as for bot activity.
   3. Integrate your data model to benefit from full and detailed reporting, enabling you to assess the impact of structured content usage.
 
 {: .notice}  
@@ -113,7 +113,7 @@ For detailed reporting on consumer interactions with structured content on your 
 
 ## Notes
 
-* The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (web messaging and in-app messaging, as well as web chat).
+* The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (Web Messaging and in-app messaging, as well as web chat).
 * The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
 * When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification.

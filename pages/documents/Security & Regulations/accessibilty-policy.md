@@ -46,7 +46,7 @@ LiveEngage has been awarded an official accessibility stamp in the following env
 
 The embedded engagement window offers a rich, seamless experience that enables brands to drive an overall better customer experience as well as earn customer loyalty. Agents are able to chat with visitors, share various content (including Secure Forms) and display them in an expanded media area located within the visitor's window.
 
-Please note throughout this document, when referring to the Engagement window, this applies for both online chat and web messaging.
+Please note throughout this document, when referring to the Engagement window, this applies for both online chat and Web Messaging.
 
 ### Embedded engagement window layout
 

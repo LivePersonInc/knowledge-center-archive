@@ -1,5 +1,5 @@
 ---
-pagename: Web messaging quick start
+pagename: Web Messaging quick start
 categoryName: Getting started
 subCategoryName: ''
 indicator: messaging
@@ -14,7 +14,7 @@ redirect_from:
 - getting-started-quick-start-guides-messaging-quick-start.html
 
 ---
-Setup web messaging between LiveEngage and your website.
+Setup Web Messaging between Conversational Cloud and your website.
 
 ## Step 1: Get the Web Tag
 
@@ -27,11 +27,11 @@ To obtain your Web Tag, login to [LiveEngage](https://authentication.liveperson.
 Copy and paste the tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
 
 {: .notice}
-**Tip:** You can also test the web messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/) and inputing your account number.
+**Tip:** You can also test the Web Messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/) and inputing your account number.
 
 ## Step 3: Set up a new messaging campaign
 
-In LiveEngage, first click on the **Campaigns** tab located in the left navigation bar. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign.
+In LiveEngage, first click on the **Campaign Builder** tab located in the left navigation bar. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign.
 
 Next, click the **Add campaign** button at the bottom left of the screen. Click **Add goal**, select **Interact with consumers** and click **Done** at the bottom right. You can read more about goals [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaign-goals.html).
 

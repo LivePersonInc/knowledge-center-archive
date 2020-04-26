@@ -46,7 +46,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 
 #### Cause:
 
-When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
+When you change the Default max number of conversations per agent (in the Campaign Builder footnote), the system does the following:
 
 1. Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
 2. The system does not change the max. number of conversations value for users whose value is different than the current Default maximum number of conversations per agent before the change.
@@ -137,7 +137,7 @@ They check the settings for the users who are still being assigned more than 10 
 
 In our logs we found that two weeks earlier the Admin user had changed the max no. messaging conversations value from 20 to 15 for the affected users.
 
-When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
+When you change the Default max number of conversations per agent (in the Campaign Builder footnote), the system does the following:
 
 Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
 

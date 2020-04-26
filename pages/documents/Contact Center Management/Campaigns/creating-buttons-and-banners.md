@@ -53,11 +53,11 @@ Sticky buttons stay in the same place relative to the screen, so even when the u
 
 Two new sticky engagement invitations were added to the engagement template library to improve consumer experience an to ease customization and branding.
 
-The new invitations are: 
+The new invitations are:
 * Small round bubble only (no text)
 * Rectangle with bubble and editable text “Message us” (this is now the default for new accounts and new engagements)
 
-Message us engagement: 
+Message us engagement:
 
 ![](/img/week-of-august-5th-8.png){:class="newagent"}
 
@@ -65,7 +65,7 @@ Rounded bubble engagement:
 
 ![](/img/week-of-august-5th-7.png){:class="newagent"}
 
-As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message. 
+As part of the engagement gallery, brands now have the ability to create floating engagements to invite the consumer to message.
 
 ![](/img/week-of-august-5th-16.png){:class="newagent"}
 
@@ -190,8 +190,8 @@ Once you’ve prepared HTML code for your engagement, set up your engagement in 
 
 **To create an HTML engagement in LiveEngage:**
 
- 1. Create or edit a campaign **(Campaigns tab > Add campaign or click an existing campaign).** The campaign edit window opens.
- 2. Click **Add engagement** 
+ 1. Create or edit a campaign **(Campaign Builder > Add campaign or click an existing campaign).** The campaign edit window opens.
+ 2. Click **Add engagement**
  3. Select **Web** as the engagement source. The LiveEngage Engagement window studio opens.
  3. Select **Embedded** or **Overlay** from the Format list.
  4. Select **Chat** or **Content** from the Type list.

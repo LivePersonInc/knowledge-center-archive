@@ -178,7 +178,7 @@ To manage such scenarios, you can set LiveEngage to trigger an engagement (Overl
 To set up an Engagement for Visitor Back Flow:
 
 1. Log in to LiveEngage as a Campaign Manager user or Admin user.
-2. Go to the Campaigns tab.
+2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
 

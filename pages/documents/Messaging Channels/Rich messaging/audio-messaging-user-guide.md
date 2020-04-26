@@ -50,7 +50,7 @@ Audio messaging is ideal for consumers who would prefer to send a voice recordin
   * Conversation window preview popup (Spectator)
 * Know what is the message length as soon as it arrives (without having to play it)
 * Navigate through the audio message
-* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections
+* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Conversations
 
 ![](/img/audiom3 (1).png)
 

@@ -57,7 +57,7 @@ Sections can be used for both web and mobile app engagements. Since website loca
 
 ### Configuration
 
-1. Go to the campaigns page, and click **Data Sources** in the footnote.
+1. Go to the Campaign Builder, and click **Data Sources** in the footnote.
 
 ![](/img/entry-point-2.png)
 

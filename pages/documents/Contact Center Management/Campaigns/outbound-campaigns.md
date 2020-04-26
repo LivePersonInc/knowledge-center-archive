@@ -34,7 +34,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 {:start="3"}
 1. Define a new campaign in the 3rd party platform you are using (CM Telecom)
 2. Log into LivePerson’s platform
-3. Navigate to the ‘Campaigns’ tab and then the ‘Outbound’ tab, click ‘add campaign’
+3. Navigate to the Campaign Builder and then the ‘Outbound’ tab, click ‘add campaign’
 
 ![](/img/outbound-campaigns-2.png)
 

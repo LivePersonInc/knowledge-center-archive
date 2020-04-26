@@ -16,7 +16,7 @@ date: 2019-02-25 13:14:06 +0000
 ### Cause:
 
 1. In the agent work space in LiveEngage audio notification is muted.
-2. The agent’s browser is not set to “Play Sounds in Webpages”. 
+2. The agent’s browser is not set to “Play Sounds in Webpages”.
 
 ### Solution:
 
@@ -49,7 +49,7 @@ Assign the agents one of the skills configured for Visitor Journey leads.
 
 **To edit the Visitor Journey** **engagement attribute:**
 
-1. Log into **LiveEngage**, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
+1. Log into the **Conversational Cloud**, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Data Sources**. The Data Sources page is displayed.
 3. On the Data Sources page next to Visitor Journey click **Configure**.
 4. On the Visitor Journey page under Lead, select **Submit By Agent**.
@@ -84,7 +84,7 @@ Update agent browser version. For a list of supported browsers, see system requi
 
 A setting that is configurable in the Mac OS X.
 
-### Solution: 
+### Solution:
 
 1. Click the **Apple** menu at the top-left of the screen and select **System Preferences**.
 2. Click the **General preferences** pane (first one at the top).

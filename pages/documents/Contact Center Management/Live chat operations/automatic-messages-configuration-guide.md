@@ -26,7 +26,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 ### To customize an automatic message
 
-1. Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
+1. Log into LiveEngage, and then click on the **Campaign Builder** tab. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
 ![](/img/automatic-messages-library.png)

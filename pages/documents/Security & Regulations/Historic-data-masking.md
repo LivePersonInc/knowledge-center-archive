@@ -15,7 +15,7 @@ When a customer or agent passes sensitive details during a messaging conversatio
 
 ![](/img/Historic-data-masking.png)
 
-To facilitate this layer of security, sensitive data (such as credit card or social security numbers) is replaced with predefined masking characters before being stored in the LiveEngage conversation history database (data is not masked in real time).  
+To facilitate this layer of security, sensitive data (such as credit card or social security numbers) is replaced with predefined masking characters before being stored in the LiveEngage Conversation History database (data is not masked in real time).  
 The data is masked based on predefined RegEx patterns and presented as masked throughout the historical data elements, widgets, and APIs, as soon as the conversation is closed.
 
 Sensitive historical data masking is enabled by default for all Messaging accounts and used an out-of-the-box RegEx pattern for masking credit card patterns.  

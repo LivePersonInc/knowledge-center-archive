@@ -44,7 +44,7 @@ If you are planning to create campaigns tailored for tracking sales and conversi
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
-To create a new one, simply click **Add campaign** at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
+To create a new one, simply click **Add campaign** at the bottom of the Campaign Builder, or select an existing campaign to add your engagement to.
 
 When creating a campaign, you first need to define the following:
 

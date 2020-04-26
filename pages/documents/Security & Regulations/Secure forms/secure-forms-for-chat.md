@@ -160,11 +160,11 @@ The following permissions related to secure forms need to be enabled for an acco
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
 {: .notice}  
-The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the engagement history.
+The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the conversation history.
 
 | Role | Permission | Permission definition | Default State (role) |
 | --- | --- | --- | --- |
-| Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
+| Agent Manager | View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
 
 To verify that permissions are enabled:
 

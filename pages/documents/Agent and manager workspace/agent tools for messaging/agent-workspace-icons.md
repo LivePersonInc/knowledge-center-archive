@@ -35,9 +35,9 @@ The All Conversations list displays every one of your brand’s messaging conver
 | <img src="img/wsicons/green smiley.png" /> | A green smiley face in the MSC column indicates a positive score (based on natural language understanding of real time consumer sentiment) |
 | <img src="img/wsicons/red smiley.png" /> | A red frowny face in the MSC column indicates a negative score. |
 
-## Open Connections
+## Open Conversations
 
-The open connections tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.
+The Open Conversations tab shows all of the conversations assigned to the agent that are currently open and not yet resolved.
 
 
 ![](/img/agent-workspace-icons-messaging-2b.png)
@@ -68,5 +68,5 @@ The open connections tab shows all of the conversations assigned to the agent th
 | <img src="img/wsicons/toolbox.png" /> | The toolbox icon opens the consumer info widget. |
 | <img src="img/wsicons/predefined content.png" /> | This icon opens the predefined content widget. |
 | <img src="img/wsicons/conversation summary.png" /> | This icon opens the conversation summary widget. |
-| <img src="img/wsicons/history.png" /> | This icon opens the engagement history widget. |
+| <img src="img/wsicons/history.png" /> | This icon opens the Conversation History widget. |
 | <img src="img/wsicons/refresh.png" /> | This icon can be pressed to refresh any widget. |

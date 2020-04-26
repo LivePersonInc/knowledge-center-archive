@@ -43,7 +43,7 @@ See more in the [structured content user guide.](messaging-channels-rich-messagi
 
 Quick replies allows you to create short instant replies that consumers can select with a simple tap. As these answers are pre-formatted, not only is it quicker for the consumer and more intuitive for the agent, it even enables bots to seamlessly handle conversations.
 
-Currently available for mobile app, web messaging, and Facebook Messenger.
+Currently available for mobile app, Web Messaging, and Facebook Messenger.
 
 For more information on quick replies including configuration and set up, please refer to our [quick replies user guide](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 

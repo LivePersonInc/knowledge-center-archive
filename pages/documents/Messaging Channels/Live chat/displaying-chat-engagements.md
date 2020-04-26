@@ -158,7 +158,7 @@ Offsite engagements allow you to increase sales and create new leads by engaging
 
 Once you’ve finished creating your engagement, follow these steps to publish it:
 
-1. From the Campaign page, copy the engagement URL.
+1. From the Campaign Builder page, copy the engagement URL.
 2. Choose how and where you want to publish the URL. You can:
    * Create a shortened URL and publish the link. You can use a website such as \[https://bitly.com\] shorten the links
    * Create a QR code. Use one of the QR code generator services such as [qrcode-monkey.](http://www.qrcode-monkey.com/)
@@ -188,7 +188,7 @@ If and when you re-enable your engagement, consumers will be directed to the URL
 
 ## How to set up inactive engagement behavior
 
-1. From the Campaigns page footnote, click **inactive engagements**.
+1. From the CCampaign Builder footnote, click **inactive engagements**.
 
 ![](/img/displaying-chat-engagements-5.png)
 

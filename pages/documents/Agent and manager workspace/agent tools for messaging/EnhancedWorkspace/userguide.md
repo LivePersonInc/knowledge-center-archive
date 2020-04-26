@@ -42,8 +42,8 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 
 ![alt text](img/new-agent-workspace-5.png){:class="newagent"}
 
-#### My Connections
-The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
+#### My Conversations
+The My Conversations list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Conversations list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
 #### All Conversations
 If you have permissions to view the All Conversations tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
@@ -126,7 +126,7 @@ To save you time - there are seven hotkeys configured on your workspace for some
 
 ### Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Conversations list.
 
 ![alt text](img/Agent menu open.png){:class="newagent"}
 
@@ -142,7 +142,7 @@ You should always answer the conversation at the top of the list. You can also s
 
 #### Incoming message alerts
 
-You can now see the number of incoming conversations in the navigation bar. A notification will appear on the Connections icon indicating the number of conversations with incoming messages, and an orange dot will appear on the conversation in the list that has a new incoming message.
+You can now see the number of incoming conversations in the navigation bar. A notification will appear on the Agent Workspace icon indicating the number of conversations with incoming messages, and an orange dot will appear on the conversation in the list that has a new incoming message.
 
 ![alt text](img/New Agent work space GIF1.gif){:class="newagent"}
 
@@ -224,7 +224,7 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 #### CoBrowse
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Connections list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Conversations list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
 
 ## Closing conversations
 
@@ -232,7 +232,7 @@ The nature of messaging conversations is that they are ongoing and can be resume
 
 The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have options, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed. As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window. It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate.
 
-At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Connections list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Conversations list.
+At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Conversations. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Conversations list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Conversations list.
 
 ![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 

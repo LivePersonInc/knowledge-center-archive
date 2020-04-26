@@ -36,7 +36,7 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-chat surveys based on a collection of cards.
 
-Structured content is available on our web-chat channel. It is also available for web messaging and in-app messaging.
+Structured content is available on our web-chat channel. It is also available for Web Messaging and App Messaging.
 
 ## Capability highlights
 

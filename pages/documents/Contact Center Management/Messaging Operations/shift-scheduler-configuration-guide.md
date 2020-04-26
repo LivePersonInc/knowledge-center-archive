@@ -205,7 +205,7 @@ Refer to [Skills API - Appendix](https://developers.liveperson.com/administratio
 In order to generate App Keys to access the API, follow the following steps:
 
 1. Log in to your LiveEngage account.
-2. Go to Campaigns → Campaign Footnote → Data sources
+2. Go to Campaign Builder → Campaign Footnote → Data sources
 3. Go to API tab → Add new API key
 4. Under Administration, choose the Working Hours API  
    Then, simply choose the permission needed out of:

@@ -12,7 +12,7 @@ isNew: false
 
 ---
 
-For brands using LiveEngage, there are currently two conversation types: 
+For brands using LiveEngage, there are currently two conversation types:
 
 **Live chat:** A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
 
@@ -26,7 +26,7 @@ When referring to blended accounts, or brands that elect to offer both live chat
 
 * [Dedicated agents per shift/time period 2 separate logins (one for chat and one for messaging)](#dedicated-agents-per-shift)  - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period (not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
 
-* [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login. 
+* [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login.
 
 The following article describes how the enhanced workspace will affect each of these user types.
 
@@ -68,13 +68,13 @@ For agents that have two separate logins:
 * Chat user: No changes to permissions are required. Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents).
 
 {: .notice}
-This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 separate reports. 
+This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 separate reports.
 
 ## Blended agents within the same shift
 
 Some brands elect to have agents taking both live chat and messaging concurrently. These agents are receiving both types of conversations in two separate workspace:
 Agent workspace for chat - for all chat conversations
-Enhanced agent workspace for messaging - for all messaging conversations 
+Enhanced agent workspace - for all messaging conversations
 
 The icons on the side bar will display notifications for incoming messages per workspace.
 ![](img/blended_accounts_same_shift.png)

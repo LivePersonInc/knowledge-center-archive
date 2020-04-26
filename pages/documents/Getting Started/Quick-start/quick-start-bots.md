@@ -54,7 +54,7 @@ Create a "Hello World" bot using Conversation Builder.
 
 6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
 7. Click **Save**.
- 
+
 ### Preview the bot again
 
 1. Open the Preview window like you did before, and start a new session by entering “reset” in the window.
@@ -76,6 +76,6 @@ To learn how to extend the bot and connect it to LiveEngage, complete the tutori
 
 ## Additional quick start guides
 
-* [Web messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
+* [Web Messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
 * [Facebook Messenger quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
 * [SMS messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)

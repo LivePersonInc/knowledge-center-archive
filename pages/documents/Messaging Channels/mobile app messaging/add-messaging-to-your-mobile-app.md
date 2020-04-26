@@ -14,7 +14,7 @@ redirect_from:
   - liveengage-mobile-sdk.html
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
+The following article describes the steps you need to take in order to add Web Messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
 
 With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
@@ -71,7 +71,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 
 _(completed by contact center manager, project manager or program manager)_
 
-Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the campaigns area, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the campaign footnote, and follow these instructions:
+Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the Campaign Builder, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the Campaign Builder footnote, and follow these instructions:
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
@@ -89,9 +89,9 @@ Before you can create engagements for your mobile app, you must first configure 
 
 ## 4. Create a campaign
 
-In LiveEngage, engagements can be added to either new or existing campaigns.
+In the Conversational Cloud, engagements can be added to either new or existing campaigns via the Campaign Builder.
 
-**As a best practice we recommend creating new, separate campaigns for Mobile App engagements**, in order to avoid misleading reporting for existing campaigns. To do so, simply click “**Add campaign**” at the bottom of the campaigns page.
+**As a best practice we recommend creating new, separate campaigns for Mobile App engagements**, in order to avoid misleading reporting for existing campaigns. To do so, simply click “**Add campaign**” at the bottom of the Campaign Builder.
 
 When creating a new campaign, you first need to define the following:
 
@@ -105,7 +105,7 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To create a new engagement, click** “**Add engagemen**t” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the campaign wizard. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
+**To create a new engagement, click** “**Add engagement**” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the Campaign Builder. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 
 ![](/img/add-messaging-to-your-mobile-app-2.png)
 

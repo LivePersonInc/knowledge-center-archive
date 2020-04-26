@@ -32,7 +32,7 @@ Agents can use the app to complete basic conversation with consumers including:
 - Transfer to another skill or to a specific agent
 - Close conversations
 - Return conversation to the queue
-- Use predefined content and share images whilst in a coversation
+- Use predefined content and share images whilst in a conversation
 - Use of secure forms
 - Agent managers can review conversations of their team, and filter by status or specific agent.
 - Managers can join conversations to actively participate.
@@ -42,7 +42,7 @@ Agents can use the app to complete basic conversation with consumers including:
 Please note that the following features are currently not available in the App and are only available in the web version:
 - Custom Widgets
 - Consumer info widget
-- Engagement history widget
+- Conversation History widget
 
 ## Provisioning
 This app is available in the App store, just search “Liveengage” to find it. Brands can download it today and any agent can use their regular credentials to login.  
@@ -258,9 +258,9 @@ Below the quick reply there is a label indicating whether the quick replies butt
 
 When sending a URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
-## The connections list
+## The conversation list
 
-### Connection list order
+### Conversation list order
 
 The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
@@ -435,7 +435,7 @@ In the ‘All’ tab there is ability to filter the list according to status, ag
 
 When tapping the filter icon, a filter panel slides in from the right side.
 
-From this panel, use can select multiple ways to filter the “all” connections list
+From this panel, use can select multiple ways to filter the All Conversations list
 
 Tapping each of the filters: status, mobile experts, skills; drill down to the relevant filter selection.
 
@@ -554,7 +554,7 @@ Please note that the following features are currently not available in the App a
 
 * Custom Widgets
 * Consumer info widget
-* Engagement history widget
+* Conversation History widget
 * Summary widget
 * Transfer to agent
 * Conversation Status filters

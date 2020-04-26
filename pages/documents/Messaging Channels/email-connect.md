@@ -16,7 +16,7 @@ redirect_from:
 
 With EmailConnect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
-Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
+Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web Messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
 EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
 
@@ -59,7 +59,7 @@ To setup EmailConnect, your account must have Messaging and [Liveperson Function
 There are two ways to launch EmailConnect set up page:
 
 #### Option 1 Email Connect Setup via DataSources.
-Login to LiveEngage and click the Campaigns icon located in the left navigation bar. Click on Data Sources in the Campaigns footnote.
+Login to LiveEngage and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
 
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)

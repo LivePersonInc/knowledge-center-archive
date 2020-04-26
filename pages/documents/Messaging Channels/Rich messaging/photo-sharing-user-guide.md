@@ -47,7 +47,7 @@ Once a photo was uploaded, it will be flattened as to remove any potential malwa
 
 The agent has the following capabilities:
 1. View a shared photo in the conversation as a thumbnail or full page.
-2. View a shared photo in the engagement history and also for closed conversations.
+2. View a shared photo in the Conversation History and also for closed conversations.
 
 ## Photo sharing flows (mobile-app)
 

@@ -25,7 +25,7 @@ Auto messages are triggered upon specific events that are detected by the system
 * the conversation is transferred to another agent
 * the time to respond is updated
 
-When the auto messages are sent, they are displayed to the consumer and the agent within the conversation transcript, as well as in the conversation history both for the consumer and in LiveEngage. Auto messages do not affect to whom the conversation is pending, nor the time to respond.
+When the auto messages are sent, they are displayed to the consumer and the agent within the conversation transcript, as well as in the Conversation History both for the consumer and in LiveEngage. Auto messages do not affect to whom the conversation is pending, nor the time to respond.
 
 ## Configuration
 
@@ -40,7 +40,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 
 ### To customize an automatic message:
 
-1. Click on the **Campaigns tab**. The footnote is displayed at the bottom of the page.
+1. Click on the **Campaign Builder**. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 {:start="3"}
@@ -115,7 +115,7 @@ Brands can set a different timer per skill.
 
 ## Editing the look and feel of auto messages
 
-For web messaging, the font and font color can be edited in the window studio in LivePerson. Click the auto message text to open the configuration dialog.
+For Web Messaging, the font and font color can be edited in the window studio in LivePerson. Click the auto message text to open the configuration dialog.
 
 ![](/img/automatic-messages-messaging-11b.png)
 
@@ -243,7 +243,7 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 
 ## Limitations
 
-* Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on web messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
+* Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on Web Messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
 * There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.

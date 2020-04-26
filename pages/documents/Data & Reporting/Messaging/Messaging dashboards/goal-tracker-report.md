@@ -95,7 +95,7 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 - **WEEK**- The date of the first day of the week (starting on Sunday)
 - **HOUR** - Hour format: MM/DD/YYYY HH:MM:SS AMPM
 - **BRAND EVENT ID** - The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.
-- **CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Engagement History view. For Messaging: LE >> All Conversations >> Conversation Info >> ID
+- **CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Conversation History view. For Messaging: LE >> All Conversations >> Conversation Info >> ID
 - **CONVERSATION OPEN TIME** - Conversation Open Time
 
 ## Conversions

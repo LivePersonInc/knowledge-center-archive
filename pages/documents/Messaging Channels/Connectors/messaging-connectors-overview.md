@@ -59,7 +59,7 @@ With built-in features like [Dynamic Capacity](contact-center-management-messagi
 
 **Agent messaging tools** - Agents are empowered to handle interactions with a [range of tools](agent-manager-workspace-agent-tools-for-messaging-managing-messaging-conversations.html) that both complement and enhance messaging operations, such as being able to proactively open a conversation, configure auto-accept for new messages and set conversations to auto-close after a configured time period.
 
-**Centralized conversation history and reporting** - Connector conversations are included in the [All Conversations list](agent-manager-workspace-manager-tools-for-messaging-all-connections.html), meaning transcripts can be filtered and analyzed, and reporting and metrics easily evaluated. This makes it simple to report on all messaging channels together and compare results.
+**Centralized Conversation History and reporting** - Connector conversations are included in the [All Conversations list](agent-manager-workspace-manager-tools-for-messaging-all-connections.html), meaning transcripts can be filtered and analyzed, and reporting and metrics easily evaluated. This makes it simple to report on all messaging channels together and compare results.
 
 ### LivePerson provides reports that allow the brand to measure:
 

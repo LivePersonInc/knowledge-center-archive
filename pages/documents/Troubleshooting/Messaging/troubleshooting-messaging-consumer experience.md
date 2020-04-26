@@ -100,7 +100,7 @@ How the New Message Mechanism Works
 
 The conversation had been ongoing for a very long time and consisted of more than 1000 conversation events.
 
-* Each time a consumer goes back into an existing conversation, LiveEngage fetches all the conversation history and events from the time the conversation began and attempts to display all the messages to the consumer.
+* Each time a consumer goes back into an existing conversation, LiveEngage fetches all the Conversation History and events from the time the conversation began and attempts to display all the messages to the consumer.
 * The LiveEngage process can fetch a maximum of 1000 conversation events. If there are more than 1000 events, the process randomly fetches and displays messages from the conversation. (The messages exist in the LiveEngage database but cannot all be retrieved by the consumer side’s end point)
 * An average conversation consists of 17 messages. Therefore this issue is very rare and only likely to occur when a conversation has been ongoing for a long time.
 
@@ -111,13 +111,13 @@ The conversation had been ongoing for a very long time and consisted of more tha
 
 **Best Practice:** Once an agent resolves a specific topic for the customer, they should make sure the conversation is closed.
 
-## Consumer’s web messaging window is stuck
+## Consumer’s Web Messaging window is stuck
 
 #### Cause:
 
 The brand was sending the customerId SDE with a value from an unauthenticated page and therefor experienced the following issues:
 
-1. A visitor has a web messaging window open on an authenticated web page.
+1. A visitor has a Web Messaging window open on an authenticated web page.
 2. In the middle of the conversation (without closing the messaging window), the visitor logs out and is taken to the logout page (an unauthenticated page).
 3. The engagement window opens on the logout page but a spinning circle displays in the window indefinitely.
 

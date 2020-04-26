@@ -44,20 +44,20 @@ The Google My Business connector enables consumers to message your brand via SMS
 </ul>
 </div>
 
-### Consumer to agent image sharing 
+### Consumer to agent image sharing
 
-Brands have the ability to enable image sharing from consumers to agents, while allowing consumers to use the Google Business Messaging conversational interface to share images from their device with agents. 
+Brands have the ability to enable image sharing from consumers to agents, while allowing consumers to use the Google Business Messaging conversational interface to share images from their device with agents.
 
 Supported file formats and sizes:
-* Image types: JPG, GIF, JPEG, PNG 
+* Image types: JPG, GIF, JPEG, PNG
 * Size: up to 10 MB
- 
+
 If the consumer sends an image that is not supported or image size is beyond the supported size, the agent will receive the image as a URL. If the file sharing has not been enabled, the consumer will see this message: “Sorry! Unfortunately files cannot be sent via Google.”
 
 {: .notice}
 **Please note:** This feature requires enablement. For more information please contact your LivePerson representative.
 
-**Screenshots** 
+**Screenshots**
 
 Image 1: Consumer sends an image to agent
 
@@ -78,7 +78,7 @@ Image 2: Agent sees the image in their workspace
 ### How to onboard the connector:
 
 1. In order to enable click to message on your Google My Business ID, contact your LivePerson representative - they will ensure it is activated for you.
-2. Once activated, on the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote.
+2. Once activated, in the Campaign Builder in the Conversational Cloud, click on **Data Sources** in the footnote.
 3. From the Conversation Sources tab, click **Connect** in the Google My Business box.
 4. Enable the Activate Google My Business Source toggle.
 5. Enter the relevant Google My Business ID to subscribe the account to.

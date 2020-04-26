@@ -46,13 +46,13 @@ Set up:
 
 ## Set consumer profile for unauthenticated flows
 
-The **enhanced agent workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Connections and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
+The **enhanced agent workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Conversations and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
 
 The enhanced agent workspace supports the two following improvements to assist agents in distinguishing between unauthenticated conversations in the agent workspace:
 
 ### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
 
-* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), LiveEngage will automatically populate the visitor name’s in the My Connections/All Conversations lists as well as the conversation header.
+* If the brand has any additional information about the consumer, and the **personal info engagement attribute** has been reported on the page (for example, by using a Concierge Bot at the beginning of an unauthenticated conversation), LiveEngage will automatically populate the visitor name’s in the My Conversations/All Conversations lists as well as the conversation header.
 * The population will be done only once the **agent clicks the conversation** and opens it.
 
 **Screenshots**
@@ -61,7 +61,7 @@ Fig 1: The consumer’s personal info displayed in the consumer info widget
 
 ![](img/set-consumer-profile-1.png)
 
-Fig 2: The visitor name is automatically populated in the connections list and in the conversation header
+Fig 2: The visitor name is automatically populated in the conversation list and in the conversation header
 
 ![](img/set-consumer-profile-2.png)
 
@@ -69,7 +69,7 @@ Fig 2: The visitor name is automatically populated in the connections list and i
 
 The agent has the ability to manually rename the visitor’s first and last name (for unauthenticated conversations only).
 
-1. When focusing on a conversation (via the My Connections/All Conversations), go the visitor name above the conversation area.
+1. When focusing on a conversation (via the My Conversations/All Conversations), go the visitor name above the conversation area.
 2. Hovering over the visitor’s name, an “Edit consumer name” button will be displayed:
 
 ![](img/set-consumer-profile-4.png)
@@ -113,8 +113,8 @@ On your LiveEngage account, take the following steps:
 **Q:** Will these capabilities be supported in the old workspace as well?
 **A:** No, the enhancements are supported for the enhanced agent workspace only.
 
-**Q:** When the visitor name is automatically or manually updated, will this affect both the My Connections” and All Conversations lists?
-**A:** Yes. Even if the change has been done on one list (e.g My Connections) it will affect the other list (All Conversations), and vice versa.
+**Q:** When the visitor name is automatically or manually updated, will this affect both the My Conversations and All Conversations lists?
+**A:** Yes. Even if the change has been done on one list (e.g My Conversations) it will affect the other list (All Conversations), and vice versa.
 
 
 ## Additional custom configuration options

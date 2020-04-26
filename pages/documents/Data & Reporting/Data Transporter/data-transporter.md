@@ -133,7 +133,7 @@ To extract report data from LiveEngage, Transporter requires that you configure 
 
 When configuring API keys from the LiveEngage Console, ensure the following APIs are checked after key creation:
 
-* Data: Data Access API, Engagement History / Messaging Interactions, Operational Realtime / Messaging Operations
+* Data: Data Access API, Conversation History / Messaging Interactions, Operational Realtime / Messaging Operations
 * Administration: Users, Skills, Agent Groups
 
 ### Data Transporter Authorization
@@ -157,7 +157,7 @@ From the REPORTS section, select a report from the available catalogue. You can 
 Messaging and Chat reports are broken down into the following categories:
 
 1. **Business Reports**: these are reports that have been formatted in some way to be more immediately useful for business use-cases, such as for import into Excel or other reporting tools that accept flat-file structures
-2. **Historical Data Integration**: these are reports based on Engagement History / Messaging Interactions and provide a raw feed of the source data (in JSON format)
+2. **Historical Data Integration**: these are reports based on Conversation History / Messaging Interactions and provide a raw feed of the source data (in JSON format)
 3. **Real-time Data Integration**: these are reports based on the Operational Realtime / Messaging Operations APIs and provide a raw feed of the source data (in JSON format)
 
 Admin type reports can provide a recurrent list of Skills, Agents and Agent Groups.
