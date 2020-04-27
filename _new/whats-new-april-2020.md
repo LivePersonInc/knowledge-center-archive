@@ -93,8 +93,6 @@ Brands will have a choice to enable the MTLS flow for new and existing bots. The
 ## Structured Content - Multiple selection checkbox
 A multiple selection checkbox for structured content, for the agent workspace gives agents the ability to suggest multiple options for consumers to select in a structural way.
 
-![](img/whatsnew_april20_3.png)
-
 ## “All Conversations” View for Rollover Accounts
 Rollover accounts are typically answering conversations from multiple LiveEnhage accounts.  The UI now better supports displaying these historical conversations to the agent in the Agent Workspace, as well as gives an Agent Manager a real-time view of all conversations ongoing with their agent pool. 
 
