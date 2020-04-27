@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-Here’s the latest features, enhancements and enablements that are coming in the following weeks.
+Here’s the latest features, enhancements and enablements that are coming in the following weeks:
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/410243448?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Agent App available on Android 
@@ -36,7 +36,7 @@ EmailConnect does not support legacy chat conversations
 
 For more information on Email Connect, please visit the [Knowledge Center.](https://knowledge.liveperson.com/messaging-channels-emailconnect.html)
 
-## AI and Automation updates
+### AI and Automation updates
 As COVID-19 disrupts workplaces around the globe, LivePerson has jumped on the opportunity to roll out new initiatives that help brands handle the unprecedented increase in overall call volume, sudden labor shortages, and work-from-home transformations.
 
 ## Prebuilt bot templates for COVID-19 FAQs
@@ -89,7 +89,7 @@ The Public APIs for the 3rd Party Bot connector will allow brands to build autom
 Brands can choose to use LivePerson MTLS with the bot connectors and enhance the security of the connection between LP and the Bot vendor with a signed certificate specific to the brand. 
 Brands will have a choice to enable the MTLS flow for new and existing bots. The brand can provide LivePerson with a generated certificate that will be hosted in our secret storage system. If this flow is enabled, the connector will confirm the signing of the certificate using LPs MTLS service before providing content to the configured endpoint.
 
-### Messaging
+### Messaging updates
 ## Structured Content - Multiple selection checkbox
 A multiple selection checkbox for structured content, for the agent workspace gives agents the ability to suggest multiple options for consumers to select in a structural way.
 
