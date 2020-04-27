@@ -74,12 +74,16 @@ Bot developers can create and activate Net Promoter Score (NPS), Customer Satisf
 
 Note: Bot Studio will continue to offer this feature, but we recommend all the new surveys to be created in Conversation Builder
 
+![](img/whatsnew_april20_1.png)
+
 ## Support private messages for bot connectors
 Bots integrated via the 3rd Party Bot Platform will be able to send private messages into the conversation so that other agents can see a message from the Bot without the consumer seeing. This provides the ability to pass customized data from the bot to the agent, such as ‘escalation summary details’, accumulated data from other integrations with the bot vendor.
 Using a predefined syntax, the bots will send private message actions to the LiveEngage 3rd-party bot platform that will publish the private messages into the conversation for other agents to read.  
 
 ## 3rd Party Bot platform -  Public API
 The Public APIs for the 3rd Party Bot connector will allow brands to build automations where the bot pro-actively takes actions on conversations instead of only reacting to customer messages. This means that for example, brands can design bots to send messages that are timed to consumer inactivity time.
+
+![](img/whatsnew_april20_2.png)
 
 ## Support MTLS for Bot connectors
 Brands can choose to use LivePerson MTLS with the bot connectors and enhance the security of the connection between LP and the Bot vendor with a signed certificate specific to the brand. 
@@ -89,10 +93,12 @@ Brands will have a choice to enable the MTLS flow for new and existing bots. The
 ## Structured Content - Multiple selection checkbox
 A multiple selection checkbox for structured content, for the agent workspace gives agents the ability to suggest multiple options for consumers to select in a structural way.
 
+![](img/whatsnew_april20_3.png)
+
 ## “All Conversations” View for Rollover Accounts
 Rollover accounts are typically answering conversations from multiple LiveEnhage accounts.  The UI now better supports displaying these historical conversations to the agent in the Agent Workspace, as well as gives an Agent Manager a real-time view of all conversations ongoing with their agent pool. 
 
-
+![](img/whatsnew_april20_4.png)
 
 ## New Manager Workspace
 For a comprehensive tutorial of the New Manager Workspace check out this [video.](https://vimeo.com/358055055/d830be4007)
@@ -108,6 +114,7 @@ The filter is available on the top right corner of the page.
 {: .notice}
 This filter will be automatically enabled for any user that is using the new manager workspace.
 
+![](img/whatsnew_april20_5.png)
 
 ## Global filter setting at logout retained upon login 
 In order to spare managers from resetting their workspace filter preferences each time they log in, the global filter settings will be saved automatically. The filters that are retained are only the global filters (available at the top right corner of the workspace) including: timeframe, group and skill filters. 
@@ -121,6 +128,6 @@ The “active” metric which was available until today only on the list view of
 {: .notice}
 Automatically enabled for any user that enabled the new manager workspace.
 
-
+![](img/whatsnew_april20_6.png)
 
 
