@@ -36,7 +36,7 @@ EmailConnect does not support legacy chat conversations
 
 For more information on Email Connect, click [here.](https://knowledge.liveperson.com/messaging-channels-emailconnect.html)
 
-### AI and Automation updates
+## AI and Automation updates
 As COVID-19 disrupts workplaces around the globe, LivePerson has rolled out new initiatives that help brands handle the unprecedented increase in overall call volume, sudden labor shortages, and work-from-home transformations.
 
 ## Rapid Response Bot Packages
@@ -87,7 +87,7 @@ The Public APIs for the 3rd Party Bot connector will allow brands to build autom
 Brands can choose to use LivePerson MTLS with the bot connectors and enhance the security of the connection between LivePerson and Bots vendors with a signed certificate specific to the brand. 
 Brands will have a choice to enable the MTLS flow for new and existing bots. The brand can provide LivePerson with a generated certificate that will be hosted in our secret storage system. If this flow is enabled, the connector will confirm the signing of the certificate using LivePersons MTLS service before providing content to the configured endpoint.
 
-### Messaging updates
+## Messaging updates
 ## Structured Content - Multiple selection checkbox
 A multiple selection checkbox for structured content, gives agents the ability to suggest multiple options for consumers to select in a structural way.
 
