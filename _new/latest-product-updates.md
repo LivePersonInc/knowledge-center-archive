@@ -1,11 +1,11 @@
 ---
-pagename: April 2020
+pagename: Latest whats new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Highlights include Agent app available on Android, Dialog Editor 2.0 & more
+subtitle: Highlights include Agent App available on Android, Dialog Editor 2.0 & more
 level3: ''
-permalink: whats-new-april-2020.html
+permalink: latest-whats-new.html
 isTutorial: false
 isNew: false
 
