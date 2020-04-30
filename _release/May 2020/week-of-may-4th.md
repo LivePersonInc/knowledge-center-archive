@@ -62,3 +62,11 @@ The timing and scope of these features or functionalities remain at the sole dis
 WhatsApp conversation source will lead to a new and more streamlined onboarding form.The current WhatsApp conversation source includes a short form, after which the WhatsApp Solution Team reaches out to the client to fill out another form to provide more info.
 The new solution will consolidate the two forms into one, having the client provide all the required set up info (and agreeing to the Terms Of Service) in a single page.
 The page will be external to the LivePerson product, is managed by the WhatsApp Solution Team, and feeds directly into Salesforce.
+
+## Internal IP Revealed in Messaging History
+### Type: Bug fix (Messaging History API)
+LivePerson's internal IP addresses are exposed in the Messaging History API. After this fix, the IP addresses will be masked. There is an option to disable this masking is site settings. To disable, please contact your account team. 
+
+## Specific Conversation Searching with Rollover Account
+### Type: Bug fix (Messaging History API) 
+Messaging history does not return specific conversation searching with Rollover account ID. This has now been fixed. 
