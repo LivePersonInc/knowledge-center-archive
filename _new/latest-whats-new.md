@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle: Highlights include Agent App available on Android, Dialog Editor 2.0 & more
 level3: ''
-permalink: latest-whats-new.html
+permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 
