@@ -18,9 +18,6 @@ The Agent app offers messaging capabilities to help agents that are working from
 
 Agents can use the app to accept new conversations, transfer conversations to another skill, close conversations or return them to the queue. Agents can also leverage predefined content,  share images and use secure forms.
 
-{: .notice}
-This feature only supports version iOS12 and up.
-
 For more information on the Agent App, click [here](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html)
 
 ## EmailConnect - multiple email addresses
