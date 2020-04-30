@@ -77,7 +77,7 @@ The company is able to greatly reduce the volume of agent conversations related 
 To enable Intent Analyzer on your account, please contact your LivePerson account representative.
 
 ### Permissions
-Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, Intent Analyzer also requires Conversation Builder permissions to be turned ON in  LE Administrator Profile, if not already done so.
+Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
 
 Access to Intent Analyzer dashboard is currently granted to the following roles:
 * CB_VIEW_ANALYTICS

@@ -18,7 +18,7 @@ Create a "Hello World" bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
-1. Log in to [LiveEngage](https://authentication.liveperson.net/).
+1. Log in to the [Conversational Cloud](https://authentication.liveperson.net/).
 2. On the left sidebar, click the bot icon.
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
@@ -60,7 +60,7 @@ Create a "Hello World" bot using Conversation Builder.
 1. Open the Preview window like you did before, and start a new session by entering “reset” in the window.
 2. Enter “aloha.” You will see that the bot responds to this new greeting with the same response as before.
 
-To learn how to extend the bot and connect it to LiveEngage, complete the tutorials listed below.
+To learn how to extend the bot and connect it to the Conversational Cloud, complete the tutorials listed below.
 
 ## Step 4: Expand the capabilities of your bot
 
@@ -78,4 +78,4 @@ To learn how to extend the bot and connect it to LiveEngage, complete the tutori
 
 * [Web Messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-messaging-quick-start.html)
 * [Facebook Messenger quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-facebook-messenger-quick-start.html)
-* [SMS messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)
+* [SMS Messaging quick start](https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html)

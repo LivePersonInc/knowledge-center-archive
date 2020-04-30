@@ -151,7 +151,7 @@ Brands will be able to configure the message sent to consumers once they were tr
 No dynamic texts are currently available when transfer to agent was used.
 
 {: .notice}
-**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR).
+**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in the Agent Workspace to agents will be based on the skill Time To Response (TTR).
 
 ![](/img/transfer-agent-10.png)
 
@@ -199,7 +199,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 ### Limitations:
 
 * The destination agent list refresh time will be up to 40 seconds at most. During this time changes in agent status or skill will not be reflected.
-* Destination agents list size limitation in LiveEngage will show up to 5000 agents.
+* Destination agents list size limitation will show up to 5000 agents.
 * Offline agents (logged out) are agents who were connected at least once in the past 3 weeks.
 * Agent will not be able to transfer to another agent or manager that is currently participating in the conversation. For example agent cannot transfer the conversation to his manager if she is currently joined to the conversation.
 * Suggested (destination) agent will not be able to join a conversation that had been transferred to them.

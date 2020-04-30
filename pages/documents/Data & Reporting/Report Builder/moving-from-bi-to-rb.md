@@ -3,28 +3,29 @@ pagename: Moving from BI to Analytics Builder
 categoryName: Data & reporting
 subCategoryName: Analytics Builder
 indicator: both
-subtitle: 'Analytics Builder is a new and improved version of LiveEngage BI dashboards '
+subtitle: 'Analytics Builder is a new and improved version of LivePerson BI dashboards '
 level3: ''
 permalink: data-reporting-analytics-builder-moving-from-bi-to-analytics-builder.html
 isTutorial: false
 date: '2019-01-17T09:52:11.000+00:00'
 isNew: false
-redirect_from:data-reporting-report-builder-moving-from-bi-to-report-builder.html
+redirect_from:
+  - data-reporting-report-builder-moving-from-bi-to-report-builder.html
 ---
-Analytics Builder is a new and improved version of LiveEngage BI dashboards.  
-With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Analytics Builder goes beyond the capabilities available in LE BI.
+Analytics Builder is a new and improved version of the Conversational Cloud BI dashboards.  
+With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Analytics Builder goes beyond the capabilities available in BI.
 
 ## Getting started
 
-Brands can access Analytics Builder through the LiveEngage UI, from the Messaging Real-time Dashboard, Queue Health Dashboard, and Campaign Dashboard.
+Brands can access Analytics Builder through the Conversational Cloud UI, from the Messaging Real-time Dashboard, Queue Health Dashboard, and Campaign Dashboard.
 
 To access Analytics Builder:
 
-1. Log into LiveEngage using your campaign manager or agent manager credentials.
+1. Log into the Conversational Cloud using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon.
 3. Click the Analytics Builder icon on the left of the screen. A new tab is opened.
 4. Click **shared reports**. Two folders are displayed:
-   * **LE predefined dashboards**: All available predefined LiveEngage dashboards.
+   * **LE predefined dashboards**: All available predefined Conversational Cloud dashboards.
    * **My account**: Reports that have been designed specifically for your account.
 5. Click on a folder to view the available reports inside.
 
@@ -48,7 +49,7 @@ Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 ### Agent activity
 
-1. Go to: shared reports > LE predefined dashboards > agent activity dashboard
+1. Go to: shared reports > predefined dashboards > agent activity dashboard
 2. Choose your selectors:
    1. Time frame selector - the time frame included in the report
    2. Hour offset selector - the timezone in which the data is presented
@@ -57,7 +58,7 @@ Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 ### Agent goal tracker
 
-1. Go to: Shared reports > LE predefined dashboards > Goal tracker dashboard
+1. Go to: Shared reports > predefined dashboards > Goal tracker dashboard
 2. Choose your selectors:
 
 * Time frame selector - the time frame included in the report
@@ -65,14 +66,14 @@ Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 ### Survey activity
 
-1. Go to: Shared reports > LE predefined dashboards > Survey activity dashboard
+1. Go to: Shared reports > predefined dashboards > Survey activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. **DASHBOARD**: Survey activity dashboard - 1st tab (default tab)
 4. **GRID**: Survey activity grid - 2nd tab (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
 ### Engagement activity
 
-1. Go to: Shared reports > LE predefined dashboards > Skill activity dashboard
+1. Go to: Shared reports > predefined dashboards > Skill activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. **DASHBOARD**: Skill activity dashboard - 1st panel (default panel)
 4. **GRID**: Skill activity grid - 2nd panel (move between panel by selecting the 2nd blue dot at the bottom of the dashboard)
@@ -85,28 +86,28 @@ Campaign BI dashboards are available through ‘CAMPAIGNS’ tab.
 
 ### Campaign dashboard
 
-1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
+1. Go to: Shared Reports > predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 
 ### Site level grid - daily
 
-1. Go to: Shared Reports > LE predefined dashboards > Predefined grids > Business Activity Grid - Daily
+1. Go to: Shared Reports > predefined dashboards > Predefined grids > Business Activity Grid - Daily
 2. Selectors screen: Select the time frame for the report
 
 ### Site level grid - monthly
 
-1. Go to: Shared Reports > LE predefined dashboards > Predefined grids > Business Activity Grid - Monthly
+1. Go to: Shared Reports > predefined dashboards > Predefined grids > Business Activity Grid - Monthly
 2. Selectors screen: Select the time frame for the report
 
 ### Campaign level grid
 
-1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
+1. Go to: Shared Reports > predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. Campaign - 3rd panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
 ### Engagement level grid
 
-1. Go to: Shared Reports > LE predefined dashboards > business activity dashboard
+1. Go to: Shared Reports > predefined dashboards > business activity dashboard
 2. Selectors screen: Select the time frame for the report
 3. Engagement- 4th panel (move between panel by clicking on the blue dots at the bottom of the dashboard)
 
@@ -116,7 +117,7 @@ Campaign BI dashboards are available through ‘CAMPAIGNS’ tab.
 
 The agent manager BI displays data in the user’s local timezone, while the Analytics Builder dashboards and campaign BI utilize the account level time zone configuration.
 
-When changing the account-level timezone, the change will take place in Analytics Builder on the next load. In addition, in the agent activity dashboard​ and the goal tracker dashboard, ​users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. The data in RB is shown according to LiveEngage’s account-level time zone configuration. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
+When changing the account-level timezone, the change will take place in Analytics Builder on the next load. In addition, in the agent activity dashboard​ and the goal tracker dashboard, ​users are able to change the time in which data is presented by selecting a time offset. This allows the users to analyze performance in their local time. The data in RB is shown according to the Conversational Cloud account-level time zone configuration. In operational dashboards users are able to change the time in which the data is presented by selecting a time offset. This allows the users to analyze performance in their local time.
 
 ### Data refresh
 

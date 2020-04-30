@@ -35,7 +35,7 @@ Each bot has a [dashboard](https://developers.liveperson.com/third-party-bots-bo
 
 There are four steps to onboarding a bot.
 
-1. assign / create a bot agent in LE under which that bot operates
+1. Assign / create a bot agent in the Conversational Cloud under which that bot operates
 2. Choose the conversation type ( chat or messaging)
 3. Error handling - define fallback messages and skills to which the conversation will be routed if the bot becomes unavailable during the conversation.
 4. Connect to the bot vendor:

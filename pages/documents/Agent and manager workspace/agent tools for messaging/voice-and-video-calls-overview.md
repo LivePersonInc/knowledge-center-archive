@@ -15,7 +15,7 @@ isNew: false
 
 ## Introduction
 
-The Voice & Video Calls for Web Messaging solution allows brands to conduct voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the LiveEngage Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements and its configuration options.
+The Voice & Video Calls for Web Messaging solution allows brands to conduct voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements and its configuration options.
 
 ## Why use voice and video calls?
 
@@ -56,7 +56,7 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 ## Requirements
 
-**LiveEngage**
+**Conversational Cloud**
 * The feature can only be used within Web Messaging conversations. Chat is not supported.
 * The Engagement Window must be deployed in the embedded state.
 * By default, voice & video is not enabled in your LivePerson Conversational Cloud account. Please contact your LivePerson account manager to have this feature enabled for you.

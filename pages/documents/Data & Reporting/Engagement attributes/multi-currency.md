@@ -15,7 +15,7 @@ Brands providing a service to consumers in more than one country must often hand
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-LiveEngage multi currency offers brands the ability to report a “currency” attribute for the following value-related engagement attributes for live chat conversations:
+Multi currency offers brands the ability to report a “currency” attribute for the following value-related engagement attributes for live chat conversations:
 
 * Cart update: Cart total
 * Transaction: Order total
@@ -23,11 +23,11 @@ LiveEngage multi currency offers brands the ability to report a “currency” a
 * Customer info: Balance
 * Lead: Value
 
-Brands reporting the above engagement attributes using currency will now be able to see a full breakdown of these currencies in LiveEngage Analytics Builder. The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage.
+Brands reporting the above engagement attributes using currency will now be able to see a full breakdown of these currencies in the Conversational Cloud Analytics Builder. The full list of currencies supported by the ISO-4217 currencies standard is available on the Conversational Cloud.
 
 ## Reporting
 
-When reporting on revenue and transactions, LiveEngage checks whether an account used single currency or multiple currencies during the timeframe defined by the report. As multiple currencies cannot be summarized, the Data Bar and Dashboard widgets display data for the account’s default currency only. However, the multi currency icon will display when multiple currencies were recorded.
+When reporting on revenue and transactions, the Conversational Cloud checks whether an account used single currency or multiple currencies during the timeframe defined by the report. As multiple currencies cannot be summarized, the Data Bar and Dashboard widgets display data for the account’s default currency only. However, the multi currency icon will display when multiple currencies were recorded.
 
 ![](/img/multi-currency1.png)
 

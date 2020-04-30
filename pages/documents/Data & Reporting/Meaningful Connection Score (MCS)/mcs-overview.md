@@ -111,7 +111,7 @@ All of these entities can be tracked through Analytics Builder, where brands can
 
 ## MCS in the Analytics Builder
 
-The Analytics Builder allows brands to build their own reports based on account data available in LiveEngage. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
+The Analytics Builder allows brands to build their own reports based on account data available in the Conversational Cloud. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
 
 MCSs for messaging conversations are available in the Analytics Builder for brands to further track and analyze data around consumer sentiment.
 

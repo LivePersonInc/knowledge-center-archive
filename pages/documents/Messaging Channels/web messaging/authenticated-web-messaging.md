@@ -244,10 +244,10 @@ To enable, please contact your LivePerson representative.
 
 ## Limitations and Tips
 
-1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), LiveEngage will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
+1. If the brand sends the “customerId” engagement attribute (part of the ctmrinfo), the Conversational Cloud will consider them to be an authenticated user. Therefore, unauthenticated engagements will not be shown.
 2. If a user crosses between authenticated and unauthenticated pages within a single session, in some cases the wrong engagements may be displayed. This might cause the the user to click the wrong engagement and receive an error message saying “You are no longer logged in.”
 3. If the agent resumes the conversation when the consumer returns to the page, then the user will see the normal engagement for a new conversation rather than the minimized version of the window, which indicates that there are unread messages.
-4. If a separate browser window is required (e.g. if the browser blocks 3rd party cookies), when the user returns to the brand’s website and there is an open conversation, LE will attempt to open the previous conversation in a separate window, which will be blocked by the browser.
+4. If a separate browser window is required (e.g. if the browser blocks 3rd party cookies), when the user returns to the brand’s website and there is an open conversation, the workspace will attempt to open the previous conversation in a separate window, which will be blocked by the browser.
 5. If the JWT expires or if the consumer cleared their history, the agent will not be made aware and will still be able to answer or resume the conversation.
 6. When the user has an open authenticated conversation and then moves to an unauthenticated page, an error message will be shown, indicating to the user that the conversation can be resumed on the authenticated page.
 7. When the unauth page replaces the auth page (navigation on the same tab), the error message will show until the user clicks on “X”. When the user navigates back to the authenticated page, the window will show in the minimized mode.

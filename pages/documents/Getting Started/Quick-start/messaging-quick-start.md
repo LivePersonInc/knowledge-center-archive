@@ -18,7 +18,7 @@ Setup Web Messaging between Conversational Cloud and your website.
 
 ## Step 1: Get the Web Tag
 
-To obtain your Web Tag, login to [LiveEngage](https://authentication.liveperson.net/) and click on your avatar in the lower left corner, selecting "Web Tag" from the pop-up menu. Note that this is only available to account Administrators.
+To obtain your Web Tag, login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on your avatar in the lower left corner, selecting "Web Tag" from the pop-up menu. Note that this is only available to account Administrators.
 
 ![](/img/LP tag Gif-1.gif)
 
@@ -31,7 +31,7 @@ Copy and paste the tag into your website's `<head>` section. The tag should be i
 
 ## Step 3: Set up a new messaging campaign
 
-In LiveEngage, first click on the **Campaign Builder** tab located in the left navigation bar. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign.
+In the Conversational Cloud, first click on the **Campaign Builder** tab located in the left navigation bar. Select the default campaign ("Live Chat on your site") and click **Unpublish** to disable this campaign.
 
 Next, click the **Add campaign** button at the bottom left of the screen. Click **Add goal**, select **Interact with consumers** and click **Done** at the bottom right. You can read more about goals [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaign-goals.html).
 
@@ -39,7 +39,7 @@ Click **Add engagement** and select **Web.** Choose any of the available engagem
 
 ## Steps 4: Send and receive web messages
 
-Load the website that you inserted your Web Tag into. If you’ve successfully completed Steps 1-3, the engagement button that you selected in Step 3 will appear. Click on the engagement button and send a message. The message will appear in LiveEngage. Clicking "Accept" will allow you to respond.
+Load the website that you inserted your Web Tag into. If you’ve successfully completed Steps 1-3, the engagement button that you selected in Step 3 will appear. Click on the engagement button and send a message. The message will appear in the Conversational Cloud. Clicking "Accept" will allow you to respond.
 
 {: .notice}
 **NOTE**: In this setup, every agent will receive all messages. To learn more about advanced messaging configuration and routing for your account, click here. Please see [this document](https://knowledge.liveperson.com/getting-started-getting-started-with-messaging.html).

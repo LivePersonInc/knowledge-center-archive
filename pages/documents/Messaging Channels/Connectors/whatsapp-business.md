@@ -18,7 +18,7 @@ redirect_from:
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
 
 {: .notice}
-**Please note:** The WhatsApp Business Connector to LiveEngage can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product should start the registration process by following one of these two paths:
+**Please note:** The WhatsApp Business Connector for the Conversational Cloud can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product should start the registration process by following one of these two paths:
 1. In their LivePerson Conversational Cloud account, go to Campaign Builder-->Data Sources-->WhatsApp
 2. Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-5HZT4FKQqB8Wjyauw9g128glGmJcoREfX4HACCPr0vKrHw/viewform">WhatsApp Registration and Setup Form</a>
 

@@ -40,9 +40,9 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
    * APAC (Asia Pacific) accounts: **https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
 
-## Step 2: Connect Twilio to LiveEngage
+## Step 2: Connect Twilio to the Conversational Cloud
 
-In LiveEngage, in the Campaign Builder (which you can access from the left sidebar), click on **Data Sources** in the footnote.
+In the Conversational Cloud, in the Campaign Builder (which you can access from the left sidebar), click on **Data Sources** in the footnote.
 
 ![](img/data-sources.png)
 
@@ -56,7 +56,7 @@ Click Done.
 
 ## Step 3: Test your integration
 
-To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in LiveEngage. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
+To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in the Conversational Cloud. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
 
 ## Additional Resources
 

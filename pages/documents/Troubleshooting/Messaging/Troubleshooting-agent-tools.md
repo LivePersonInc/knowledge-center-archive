@@ -23,7 +23,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 
 ### Solution:
 
-1. Have the agent refresh their LiveEngage console.
+1. Have the agent refresh their Agent Workspace console.
 2. Check whether there are network connectivity errors on the agent side:
    * Open the Developer Tools > Network tab in the agent’s browser and check for failed requests (displayed in red in the Developer tool).
    * If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
@@ -75,7 +75,7 @@ The system doesn't check if a change was ever done to an agent’s max. number o
 
 * This is done to prevent agents from accidentally sending consumers to a queue where they'll be stuck forever.
 * The messages were transferred to a skill that had no agents assigned to it.
-* When a conversation is transferred to a skill with no agents assigned to it, LiveEngage changes the conversation's skill to Unassigned and returns it to the original agent.
+* When a conversation is transferred to a skill with no agents assigned to it, the Conversational Cloud changes the conversation's skill to Unassigned and returns it to the original agent.
 
 ### Solution:
 
@@ -129,7 +129,7 @@ Messaging Agents must have Chat concurrency set (greater than 0) in order for th
 
 ## Agent concurrency isn’t changing to “Default max number of conversations per agent”
 
-A LiveEngage customer changes the maximum number of conversations for all their agents to 10 by changing the value of default max number of conversations per agent from 20 to 10.  But they notice that some users are still being assigned more than 10 conversations.
+A Conversational Cloud customer changes the maximum number of conversations for all their agents to 10 by changing the value of default max number of conversations per agent from 20 to 10.  But they notice that some users are still being assigned more than 10 conversations.
 
 They check the settings for the users who are still being assigned more than 10 conversations and find that the value of their max no. messaging conversations (on the Edit user window) is 15. Why didn’t their setting change to 10?
 

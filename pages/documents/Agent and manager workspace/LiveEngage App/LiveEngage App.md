@@ -1,14 +1,16 @@
 ---
-pagename: LiveEngage agent app user guide
+pagename: Agent app user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-liveengage-agent-app-liveengage-agent-app-user-guide.html
+permalink: agent-manager-workspace-agent-app-agent-app-user-guide.html
 isTutorial: false
 isNew: false
-redirect_from:agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
+redirect_from:
+  - agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
+  - agent-manager-workspace-liveengage-agent-app-liveengage-agent-app-user-guide.html
 ---
 The LivePerson agent app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers.
 
@@ -45,7 +47,7 @@ Please note that the following features are currently not available in the App a
 - Conversation History widget
 
 ## Provisioning
-This app is available in the App store, just search “Liveengage” to find it. Brands can download it today and any agent can use their regular credentials to login.  
+This app is available in the App store, just search "Conversational Cloud" to find it. Brands can download it today and any agent can use their regular credentials to login.  
 
 ## How to login
 
@@ -57,7 +59,7 @@ This app is available in the App store, just search “Liveengage” to find it.
 
 {: .notice}
 
-Changing / retrieving lost password will be carried out by an admin on LiveEngage web.
+Changing / retrieving lost password will be carried out by an admin on Conversational Cloud web.
 
 ### “Remember me” toggle
 
@@ -92,20 +94,20 @@ The draw menu consists of:
 
 ### Agent picture
 
-Set on LiveEngage Web → Users tab → specific user.
+Set on Conversational Cloud Web → Users tab → specific user.
 
 This is used for login identification.
 
 ### Agent name
 
-The agent nickname is the text entered in the name field on LiveEngage Web → Users tab → specific user.
+The agent nickname is the text entered in the name field on Conversational Cloud  Web → Users tab → specific user.
 
 This is used for login identification.
 
 ### Agent state: online
 
 While the agent is in the Online state, new conversations can ring. There is no consumer-facing indication that the agent is in the Online state.  
-The agent default status is set according to LiveEngage settings
+The agent default status is set according to Conversational Cloud settings
 
 ### Agent state: away
 
@@ -126,7 +128,7 @@ The log out process will explained in a separate slide
 Long tap on the app version allow user to send logs
 
 {: .important}  
-Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from LiveEngage’s database.
+Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the Conversational Cloud's database.
 
 ![](/img/drawer menu ipad (1).png)
 
@@ -212,7 +214,7 @@ Tapping the ‘Send back to queue’ action removes the agent assignment from th
 
 ### End conversation
 
-In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from LiveEngage Web. On LiveEngage Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from Conversational Cloud Web. On Conversational Cloud Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
 
 ### Inactive conversations
 

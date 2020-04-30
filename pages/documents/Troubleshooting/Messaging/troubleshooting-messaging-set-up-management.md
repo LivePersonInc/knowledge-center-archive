@@ -22,7 +22,7 @@ date: 2019-02-26 13:16:26 +0000
   * No conversation 'metadata' was updated (transfer to different skill, return to queue, user spectates, agent manager joins, agent adds conversation summary, etc.).
   * SLA was not set manually for the conversation
 
-LiveEngage logs showed that the specific agent had been “visiting” the conversations from time to time as an agent (spectating or opening conversations from the list of conversations) and this was resetting the AutoClose timer.
+The Conversational Cloud logs showed that the specific agent had been “visiting” the conversations from time to time as an agent (spectating or opening conversations from the list of conversations) and this was resetting the AutoClose timer.
 
 ### Solution:
 
@@ -34,7 +34,7 @@ For more information, see [auto close for messaging conversations](contact-cente
 ### Cause
 
 1. The agent transferred the conversation to a different skill and no agents assigned to that skill have been available since the transfer.
-2. The agent returned the conversation to the queue and then logged out of LiveEngage. No other messaging agents have been available since the conversation was returned to queue.
+2. The agent returned the conversation to the queue and then logged out of the Conversational Cloud. No other messaging agents have been available since the conversation was returned to queue.
 
 ### Solution:
 
@@ -66,7 +66,7 @@ The SLA in messaging is designed to correspond to the account's Response time co
 
 ### Solution:
 
-* The CSAT survey is presented to a consumer (assuming that CSAT survey is configured) when either the LiveEngage agent or the consumer closes the conversation.
+* The CSAT survey is presented to a consumer (assuming that CSAT survey is configured) when either the Conversational Cloud agent or the consumer closes the conversation.
 * The CSAT survey is displayed regardless of the assigned agent's state (Online, Back, Away).
 * The CSAT survey is displayed regardless of whether the conversation was interactive (message sent from both the agent and the consumer) or not.
 
@@ -103,19 +103,19 @@ For example, the content item mentioned above could be named How may I help? (ch
 
 ### Cause:
 
-The consumer answered the CSAT question with text and not just a number (for example: “5 superb person”). In the LiveEngage SMS interface, CSAT answers should be numeric only (even though the UI does not prevent a consumer from entering text). It is a known issue that answers containing text create new SMS conversations.
+The consumer answered the CSAT question with text and not just a number (for example: “5 superb person”). In the Conversational Cloud SMS interface, CSAT answers should be numeric only (even though the UI does not prevent a consumer from entering text). It is a known issue that answers containing text create new SMS conversations.
 
 ### Solution:
 
-This is a known limitation of the LiveEngage SMS interface.
+This is a known limitation of the Conversational Cloud SMS interface.
 
-## Why aren’t we receiving SMS messages in LiveEngage from some of our clients?
+## Why aren’t we receiving SMS messages in the Agent Workspace from some of our clients?
 
 ### Cause:
 
 Not all LOCAL Twilio numbers (depends on country) support sending SMS messages. The ability of consumers to send SMS messages via these numbers will be partial at best.
 
-Therefore if there are multiple Twilio 30008 errors (or similar) and it looks like a large chunk of SMS messages don't come into LE form Twilio, chances are the issue is with the type of the phone number.
+Therefore if there are multiple Twilio 30008 errors (or similar) and it looks like a large chunk of SMS messages don't come into the Agent Workspace from Twilio, chances are the issue is with the type of the phone number.
 
 This can be confirmed by opening a case with Twilio.
 
@@ -134,14 +134,14 @@ If the following conditions are met then there could be a bug with Facebook.
 
 Conditions:
 
-* If Facebook messages were coming into the account previously but are no longer being routed to LiveEngage.
+* If Facebook messages were coming into the account previously but are no longer being routed to the Conversational Cloud.
 * The account has not made any changes to their configuration.
 * LivePerson Support verified that the account’s messaging gateway configuration and page tokens are valid.
 * Support is able to log into the account with the messaging gateway user.
 
 ### Solution:
 
-* LivePerson Support unsubscribed and resubscribed the account’s mobile application to the Liveperson Facebook connector and routing began working again immediately.
+* LivePerson Support unsubscribed and resubscribed the account’s mobile application to the LivePerson Facebook connector and routing began working again immediately.
 * LivePerson reported this to Facebook.
 
 ## Why aren’t automatic offline messages triggering during “off shift” hours?

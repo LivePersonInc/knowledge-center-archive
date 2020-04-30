@@ -226,7 +226,7 @@ Included in this panel is an engagement formats selector, allowing the filtering
 
 ### Entry point panel
 
-The Entry Point is a section on your website. On each entry point, setup in a campaign, consumers are targeted and engaged. As your LiveEngage implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
+The Entry Point is a section on your website. On each entry point, setup in a campaign, consumers are targeted and engaged. As your Conversational Cloud implementation grows, consumers arriving to an Entry Point may be targeted by several campaigns, effectively competing with each other towards the same or even different business goals.
 
 Use the Business Activity by Entry Point to analyze the traffic on each website section. Are your campaigns covering all the visit sessions to this entry point? Are prospects being offered an engagement. Take the opportunity to optimize your targeting and engage with enough and the right consumers.
 

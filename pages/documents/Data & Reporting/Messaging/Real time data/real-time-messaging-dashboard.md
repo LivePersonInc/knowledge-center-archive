@@ -38,24 +38,24 @@ Brands wanting to see the status of their contact center in real time can now ta
 ## Limitations
 
 * Internet explorer and edge browsers are not supported
-* Data presented in real time dashboard is refreshed at a minimum of every 60 seconds from the time of login and may vary slightly from what is presented in LiveEngage due refresh rate differences
+* Data presented in real time dashboard is refreshed at a minimum of every 60 seconds from the time of login and may vary slightly from what is presented in the Conversational Cloud due refresh rate differences
 * Opening real time dashboard in multiple browser tabs is not supported
 
 ## How to access the real time dashboard
 
 There are three methods to login to the real time dashboard:
 
-1. Regular login (via LiveEngage username/password)
-2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
+1. Regular login (via Conversational Cloud username/password)
+2. Simultaneous Login (via LivePerson SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
 ### Regular login method:
 
-1\. Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
+1\. Any valid Conversational Cloud user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
 
 2\. Before login, select the dashboard type: Messaging or Chat
 
-3\. Login via regular method will terminate any existing LiveEngage sessions
+3\. Login via regular method will terminate any existing Conversational Cloud sessions
 
 ### Simultaneous login method
 
@@ -65,12 +65,12 @@ There are three methods to login to the real time dashboard:
 
 3\. Enter your account number and select the dashboard mode
 
-4\. You will be redirected to a LiveEngage login page and can continue to login as normal
+4\. You will be redirected to a Conversational Cloud login page and can continue to login as normal
 
 1. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
 {: .notice}  
-If Agent SSO is enabled on your LivePerson Conversational Cloud account, you must login to LiveEngage first (with Agent SSO) before following the steps above
+If Agent SSO is enabled on your LivePerson Conversational Cloud account, you must login to the Conversational Cloud first (with Agent SSO) before following the steps above
 
 ### Agent SSO method (not recommended):
 

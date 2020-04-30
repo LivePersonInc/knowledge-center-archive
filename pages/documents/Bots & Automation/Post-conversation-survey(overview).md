@@ -224,7 +224,7 @@ Once enabled, make sure to fill in the desired text in the Text Fallback Tab. Th
 
 ![](/img/post-conversation-survey-user-guide10.png)
 
-The messaging performance dashboard in Analytics Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the LiveEngage Bot Studio.
+The messaging performance dashboard in Analytics Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the Bot Studio.
 
 The new sheet contains an additional set of metrics and attributes which support the following analysis:
 

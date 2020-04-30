@@ -17,7 +17,7 @@ The Campaign Builder footnote includes account level settings that allow you to 
 
 ## **Data sources**
 
-LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) to read more about data sources.
+ Data sources in the Conversational Cloud make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) to read more about data sources.
 
 ## **Control groups**
 
@@ -27,7 +27,7 @@ The value represents the percentage of visitors who will not be exposed to any e
 
 ## Proactive engagement behavior
 
-Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
+Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, the Conversational Cloud offers the following settings:
 
 ### Number of displays
 

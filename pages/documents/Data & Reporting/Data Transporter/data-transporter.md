@@ -12,13 +12,13 @@ date: '2019-03-27T11:28:04.000+00:00'
 redirect_from:
   - data-reporting-data-transporter-user-guide.html
 ---
-The Data Transporter application connects you with LiveEngage report exports from the suite of LiveEngage Data APIs, enabling users to benefit from the power and agility of the LiveEngage open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
+The Data Transporter application connects you with the Conversational Cloud report exports from the suite of LivePerson Data APIs, enabling users to benefit from the power and agility of the Conversational Cloud open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
 
 Data Transporter allows you to:
 
 * Connect to multiple LivePerson Conversational Cloud account API data sources
 * Choose from a rich catalogue of raw data or formatted report exports
-* Schedule exports from each LiveEngage data source
+* Schedule exports from each data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
 
 ![](/img/data-transporter1.png)
@@ -29,7 +29,7 @@ Data Transporter allows you to:
 * Login to Data Transporter requires:
 
 1. Feature access by request (see your account manager)
-2. A valid LiveEngage username and password (Admins only)
+2. A valid Conversational Cloud username and password (Admins only)
 3. Two-factor authentication with an authenticator application
 
 * Amount of scheduled tasks are limited per account
@@ -48,12 +48,12 @@ Once your account is enabled, you can begin by logging into the Alpha environmen
 
 1\. Enter your Account Number (click Sign in)
 
-2\. Then enter your LE User credentials
+2\. Then enter your LivePerson User credentials
 
-* LiveEngage Username
-* LiveEngage Password
+* Conversational Cloud Username
+* Conversational Cloud Password
 
-Note that logging into Data Transporter will terminate any existing LiveEngage sessions - however, you can login to LiveEngage after logging into Transporter without disrupting your Transporter session.
+Note that logging into Data Transporter will terminate any existing Conversational Cloud sessions - however, you can login to the Conversational Cloud after logging into Transporter without disrupting your Transporter session.
 
 ### Two-factor Authentication
 
@@ -90,9 +90,9 @@ HISTORY: view or download completed reports from your destinations
 
 REPORTS: view and select available business or integration type reports
 
-LIVEENGAGE: setup your LiveEngage source authorisation
+CONVERSATIONAL CLOUD: setup your Conversational Cloud source authorization
 
-SFTP/AMAZON/GOOGLE: setup your report destination authorisation
+SFTP/AMAZON/GOOGLE: setup your report destination authorization
 
 ACCOUNT: configure your timezone and set your encryption keys
 
@@ -102,7 +102,7 @@ Upon first use, please use the ALERTS notifications to navigate to each relevant
 
 1. Choose a timezone - this setting will ensure all scheduled reports and times will appear relative to your selected timezone
 2. Setup encryption - for security reasons, Data Transporter encrypts all reports before transmission to your selected destination - as such, encryption must be activated by generating a Public/Private key-pair (or bring your own) - see encryption section
-3. Setup LiveEngage - to get started, make sure you have authorised at least 1 LivePerson Conversational Cloud account source - you can retrieve an API key from the LiveEngage console (speak to your account manager, or visit the connection panel if you’re not sure how)
+3. Setup the Conversational Cloud - to get started, make sure you have authorized at least 1 LivePerson Conversational Cloud account source - you can retrieve an API key from the LivePerson console (speak to your account manager, or visit the connection panel if you’re not sure how)
 
 ## Encryption
 
@@ -125,22 +125,22 @@ Once your keys are generated, your Public Key will be saved to your account, and
 
 ![](/img/data-transporter4.png)
 
-## Connecting to LiveEngage
+## Connecting to the Conversational Cloud
 
 ### API Key Setup
 
-To extract report data from LiveEngage, Transporter requires that you configure a set of API keys from the LiveEngage console and enter them into Transporter in the LIVEENGAGE section.
+To extract report data from the Conversational Cloud, Transporter requires that you configure a set of API keys from the LivePerson console and enter them into Transporter in the Conversational Cloud section.
 
-When configuring API keys from the LiveEngage Console, ensure the following APIs are checked after key creation:
+When configuring API keys from the LivePerson Console, ensure the following APIs are checked after key creation:
 
 * Data: Data Access API, Conversation History / Messaging Interactions, Operational Realtime / Messaging Operations
 * Administration: Users, Skills, Agent Groups
 
 ### Data Transporter Authorization
 
-Once you have created your keys, enter them into Transporter via the LIVEENGAGE section and click create. Your API keys will be encrypted and stored securely.
+Once you have created your keys, enter them into Transporter via the CONVERSATIONAL CLOUD section and click create. Your API keys will be encrypted and stored securely.
 
-After verifying your keys are valid, you will see the LiveEngage setting appear in the table below - it is now ready for use as your source when you configure your first report.
+After verifying your keys are valid, you will see the Conversational Cloud setting appear in the table below - it is now ready for use as your source when you configure your first report.
 
 ![](/img/data-transporter5.png)
 
@@ -184,7 +184,7 @@ After selecting a report, you will need to configure the following report option
   * For interval, also choose the time frequency to run _(timeframe will include the same amount of time as the time frequency selected)_
 * Delay: in some cases, API source data may be delayed in its completeness - where data completeness is strictly important, choose an option to delay the report from executing. For example, you may select:
   * Daily at 12:00am with a delay of 6 hours: In this case, your report will run at 6am each day and include the data from 12:00am to 11:59pm of the previous day
-* LiveEngage: the LiveEngage data source
+* Conversational Cloud: the data source
 * Destination: See below
 
 For some reports, you may also have the option to select additional report parameters - if this option exists, it will be presented to you on the report creation screen.

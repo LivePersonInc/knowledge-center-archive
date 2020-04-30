@@ -14,7 +14,7 @@ isNew: false
 
 ## Introduction
 
-LiveEngage enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
+The Conversational Cloud enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
 
 ## Configuring the agent survey
 
@@ -41,7 +41,7 @@ The agent survey library will now be displayed.
   * This will control the availability of the survey after the conversation has ended
   * The minimum value is: 0 minutes, this means the survey will close immediately when the conversation ends and your agent will no longer be able to fill it out
   * The maximum value is: 72 hours (3 days)
-  * LiveEngage will automatically close the survey upon timeout.
+  * The Conversational Cloud will automatically close the survey upon timeout.
 
 ![](img/agent-survey-for-messaging-3.png)
 

@@ -10,11 +10,11 @@ isTutorial: false
 isNew: false
 
 ---
-LivePerson provides 24/7 live messaging support with immediate response. 
+LivePerson provides 24/7 live messaging support with immediate response.
 
 ## Service status page
 
-The status page is a communication tool that helps us inform our customers about outages and scheduled maintenance. It is located in the LiveEngage platform.
+The status page is a communication tool that helps us inform our customers about outages and scheduled maintenance. It is located in the Conversational Cloud platform.
 
 You can view the status page by clicking on the agent avatar and then click on the service status dashboard.
 

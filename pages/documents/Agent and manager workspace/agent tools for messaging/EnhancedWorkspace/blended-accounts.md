@@ -12,13 +12,13 @@ isNew: false
 
 ---
 
-For brands using LiveEngage, there are currently two conversation types:
+For brands using the Conversational Cloud, there are currently two conversation types:
 
 **Live chat:** A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
 
-**Messaging:** Continuous, ongoing conversations that can be answered asynchronously. Both the consumer and the agent can resume the conversation after it has ended.
+**Web Messaging:** Continuous, ongoing conversations that can be answered asynchronously. Both the consumer and the agent can resume the conversation after it has ended.
 
-**Note:** LivePerson’s best practice and recommendation is to offer messaging only. We believe messaging is the best solution for both brands and consumers - this belief is reflected in our investment of new tools for messaging.
+**Note:** LivePerson’s best practice and recommendation is to offer Web Messaging only. We believe messaging is the best solution for both brands and consumers - this belief is reflected in our investment of new tools for messaging.
 
 When referring to blended accounts, or brands that elect to offer both live chat and messaging, agents may work in three modes:
 

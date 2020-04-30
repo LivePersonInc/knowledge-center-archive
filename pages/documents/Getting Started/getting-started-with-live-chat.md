@@ -17,7 +17,7 @@ redirect_from:
 To get started, access LivePerson using this link: [https://authentication.liveperson.net/](https://authentication.liveperson.net/")
 
 {: .notice}  
-LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using LiveEngage, brands can start [messaging](getting-started-quick-start-guides-web-messaging-quick-start.html) very quickly with minimal set up using our out of the box connectors.
+LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using the Conversational Cloud, brands can start [messaging](getting-started-quick-start-guides-web-messaging-quick-start.html) very quickly with minimal set up using our out of the box connectors.
 
 ## Get to the first live chat message
 

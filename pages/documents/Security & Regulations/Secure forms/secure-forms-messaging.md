@@ -38,7 +38,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
 
    LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
-## When to use the LiveEngage secure form
+## When to use the Conversational Cloud secure form
 
 Some of the most common use cases for the secure form include:
 
@@ -49,9 +49,9 @@ Some of the most common use cases for the secure form include:
 
 ## PCI-DSS compliance
 
-The LiveEngage secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
+The Conversational Cloud secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
-Following the completion of an onsite assessment, the LiveEngage secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
+Following the completion of an onsite assessment, the Conversational Cloud secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
 
 ## How it works
 
@@ -401,7 +401,7 @@ When using secure forms, bear in mind:
 * Agent workstations utilized for viewing secure forms are in scope of PCI-DSS certification.
 * LivePerson Conversational Cloud account password and login policy must be enabled and configured according to PCI-DSS requirements (see account setup above).
 * Invitations, alerts and consumer texts are customizable on both In-App Messaging SDKs.
-* Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
+* Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on the Conversational Cloud, if not it will default to English).
 * The following time limitations apply:
   1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until it loads, the secure form will expire. This can occur as the result of a bad network connection or server failure. The 5 minute variable is configurable.
   2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.

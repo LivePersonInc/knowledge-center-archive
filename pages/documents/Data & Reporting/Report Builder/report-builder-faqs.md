@@ -13,15 +13,15 @@ redirect_from: data-reporting-report-builder-report-builder-faqs.html
 ---
 ### How can I access Analytics Builder?
 
-Analytics Builder can be accessed through the LiveEngage UI. From any of the dashboards, click the Analytics Builder icon on the left of the screen.
+Analytics Builder can be accessed through the Conversational Cloud UI. From any of the dashboards, click the Analytics Builder icon on the left of the screen.
 
 ### Can I create my own reports?
 
-LiveEngage Analytics Builder offers users to [create custom dashboards](data-reporting-report-builder-report-builder-user-guide-(customization).html) that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Analytics Builder.
+The Conversational Cloud Analytics Builder offers users to [create custom dashboards](data-reporting-report-builder-report-builder-user-guide-(customization).html) that can best fit their business needs. To create your own custom dashboards, please contact your LivePerson Account Manager or Customer Success Manager for additional information on how to obtain Edit Access to Analytics Builder.
 
 ### What reporting data is available?
 
-The data currently available in LiveEngage predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
+The data currently available in Conversational Cloud predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
 
 * [Agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents.
 * [Skill activity dashboard:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
@@ -34,7 +34,7 @@ The data currently available in LiveEngage predefined dashboards is detailed bel
 
 ### With regard to data storage, where are the Analytics Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
 
-Analytics Builder data is all stored internally - on the same LivePerson servers as the rest of LiveEngage, in the same LivePerson data centers.
+Analytics Builder data is all stored internally - on the same LivePerson servers as the rest of the Conversational Cloud, in the same LivePerson data centers.
 
 ### Is the information stored on Analytics Builder encrypted?
 
@@ -42,7 +42,7 @@ The same security measures applied to all other LivePerson products and servers 
 
 ## Performance
 
-### Why is the ‘LiveEngage predefined dashboards’ folder empty (no dashboards appear)?
+### Why is the 'predefined dashboards’ folder empty (no dashboards appear)?
 
 There might be a caching issue with the browser. Please try to clear the cache on the browser, close and reopen the browser and login again.
 
@@ -60,7 +60,7 @@ In Analytics Builder, the flexibility is higher and there are at least 3 differe
 
 The default values are the same as in the BI, but when customizing a report and adding a new sheet - make sure to add these indicators to the filter panels and set the the same values as in the BI.
 
-**Timezone for data display:** It is important to note that the Agent Manager BI displays data in the user’s local timezone, while the Analytics Builder dashboards and Campaign BI utilize the account’s timezone. For any other question\\issue not listed above, please contact LivePerson Technical Support through your LiveEngage Connection Area.
+**Timezone for data display:** It is important to note that the Agent Manager BI displays data in the user’s local timezone, while the Analytics Builder dashboards and Campaign BI utilize the account’s timezone. For any other question\\issue not listed above, please contact LivePerson Technical Support through the Connection Area.
 
 ## Usability
 
@@ -115,7 +115,7 @@ Funnel metrics, such as prospects and exposures, may show higher numbers in Anal
 
 The different originates from the methodology funnel metrics are computed:
 
-* LiveEngage campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
+* The Conversational Cloud campaign BI uses both the Visit session start time and the event time to match between the date/time filter and the metric results
 * Analytics Builder uses only the Visit session start time
 
 #### Example

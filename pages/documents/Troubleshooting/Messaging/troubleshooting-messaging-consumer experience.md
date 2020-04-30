@@ -100,8 +100,8 @@ How the New Message Mechanism Works
 
 The conversation had been ongoing for a very long time and consisted of more than 1000 conversation events.
 
-* Each time a consumer goes back into an existing conversation, LiveEngage fetches all the Conversation History and events from the time the conversation began and attempts to display all the messages to the consumer.
-* The LiveEngage process can fetch a maximum of 1000 conversation events. If there are more than 1000 events, the process randomly fetches and displays messages from the conversation. (The messages exist in the LiveEngage database but cannot all be retrieved by the consumer side’s end point)
+* Each time a consumer goes back into an existing conversation, the Conversational Cloud fetches all the Conversation History and events from the time the conversation began and attempts to display all the messages to the consumer.
+* The Conversational Cloud process can fetch a maximum of 1000 conversation events. If there are more than 1000 events, the process randomly fetches and displays messages from the conversation. (The messages exist in the Conversational Cloud database but cannot all be retrieved by the consumer side’s end point)
 * An average conversation consists of 17 messages. Therefore this issue is very rare and only likely to occur when a conversation has been ongoing for a long time.
 
 ### Solution:

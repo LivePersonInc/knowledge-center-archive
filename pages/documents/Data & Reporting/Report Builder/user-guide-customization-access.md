@@ -13,7 +13,7 @@ redirect_from: data-reporting-report-builder-report-builder-user-guide-(customiz
 ---
 ## Getting started
 
-Brands can access the Analytics Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
+Brands can access the Analytics Builder through the Conversational Cloud UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
 {: .notice}  
 [Customizing dashboards](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-user-guide-(customization).html) through the feature rich builder, requires a certain skill set and needed knowledge. To best equip our users with the necessary knowledge.
@@ -22,7 +22,7 @@ It is important to note that LivePerson Support does not troubleshoot custom das
 
 ### How to access the Analytics Builder
 
-1. Log into LiveEngage using your campaign manager or agent manager credentials.
+1. Log into the Conversational Cloud using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon
 3. Click the Analytics Builder icon on the left of the screen. A new tab will open.
 
@@ -65,7 +65,7 @@ Where there are data that cannot be pre-filtered by agent group, there are also 
 Dashboards in Analytics Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports** - dashboards saved here are visible to all the users in the account.
-  * **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
+  * **LE predefined dashboards**: All available predefined LivePerson dashboards. See details below.
   * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
   * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
@@ -114,7 +114,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Analytics Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The Conversational Cloud comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Analytics Builder from the Conversational Cloud data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ### Customize a predefined dashboard
 
@@ -128,7 +128,7 @@ LiveEngage comes with a set of [predefined dashboards](data-reporting-messaging-
 
 ### Saving changes
 
-Idle time thresholds are enforced in Analytics Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Analytics Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
+Idle time thresholds are enforced in Analytics Builder, and aligned with the Conversational Cloud platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Analytics Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
 
 ### Share a custom dashboard
 

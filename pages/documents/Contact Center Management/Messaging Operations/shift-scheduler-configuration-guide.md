@@ -24,7 +24,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
 ## Terminology
 
-* **SLA** = Service Level Agreement. The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
+* **SLA** = Service Level Agreement. The response time configured within the Agent Workspace to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill.
 
   ![](/img/shift-scheduler-CG-1.png)
 * **TTR** = Time To Response. This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
@@ -50,7 +50,7 @@ You may choose from each of the methods above according to your brand’s needs.
       * Define the next shift start date
       * Define the next shift start time
       * Consumers will get auto messages with expected time to response equal to the time until next shift time + the conversation SLA.
-      * LiveEngage will automatically set to “Online” again on the next shift date and time.
+      * The Conversational Cloud will automatically set to “Online” again on the next shift date and time.
    3. Save the page.
 
 ## Automatic scheduler
@@ -61,7 +61,7 @@ The configuration of scheduled [Workdays](https://developers.liveperson.com/work
 
 The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
-The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.  
+The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the Conversational Cloud UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.  
 **Note**: Special occasions do not modify hours of operation defined by Workdays, but instead override them.
 
 **See limitations, clarifications and best practices for** [**working hours management**](contact-center-management-messaging-operations-working-hours-management-best-practices.html)**.**
@@ -79,11 +79,11 @@ The configuration of [Special Occasions](https://developers.liveperson.com/accou
    Contact your account team to disable it.
 4. Customize Automatic Messages on your account.
 
-## Workdays & special occasions in LiveEngage
+## Workdays & special occasions in the Conversational Cloud
 
 ### Accessing schedule/special occasion libraries
 
-Scheduling items or special occasion items can be created through the Schedule or Special Occasion libraries within LiveEngage. You may access the library in 2 ways:
+Scheduling items or special occasion items can be created through the Schedule or Special Occasion libraries within the Conversational Cloud. You may access the library in 2 ways:
 
 ### Via the Account Shift Scheduler page:
 
@@ -97,7 +97,7 @@ Scheduling items or special occasion items can be created through the Schedule o
 2. Scroll down to the “Working hours” section.
 3. Under the “Working days and hours” section, choose the “Custom settings” radio button.  
    Click the “Set days and hours” button in order to access the Schedule library (see image)
-4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library. The Schedule library / Special Occasions library will now be displayed on your LiveEngage screen:
+4. Under the “Special occasions” section, choose the “Custom settings” radio button. Click the “Set special occasions” button to access the Special Occasion library. The Schedule library / Special Occasions library will now be displayed on your screen:
 
 ![](/img/shift-scheduler-CG-6b.png)
 
@@ -221,7 +221,7 @@ In order to generate App Keys to access the API, follow the following steps:
 {:start="5"}
 5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
-For additional info on creating API keys - [LiveEngage APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
+For additional info on creating API keys - [LivePerson APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
 
 ## Profiles and permissions
 

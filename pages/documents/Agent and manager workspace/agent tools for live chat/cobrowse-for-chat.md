@@ -186,7 +186,7 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 
 ### For the Conversational Cloud
 
-The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on LiveEngage 2.0.
+The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on Conversational Cloud 2.0.
 
 * The Embedded Engagement Window must be deployed in the popped in state
 * Web Tag must be deployed. For more information, see [Web Tag](getting-started-add-the-liveperson-tag-to-your-website.html)

@@ -23,6 +23,6 @@ For example, if the goal of a [campaign](contact-center-management-campaigns-cam
    {: .notice}  
    Targeting will occur for each transaction that fits within the desired range or value, without distinguishing between currencies.
 4. If you haven’t yet configured tracking, you’ll see the message, “We haven't received transaction information data in the last 24 hours.” Click the **configure tracking** button. You can also configure the transaction attribute under **engagement attributes** in the eCommerce category.
-5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to LiveEngage (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
+5. Choose **EMBED CODE** if you want to embed code in order to report on transactions to the Conversational Cloud (recommended) or choose **EXTRACT DATA** if you just want to extract the data from the page.
 
 Once configured, you will be able to measure success based on the consumers who performed a transaction, and allow you to see the monetary value that each campaign is driving.

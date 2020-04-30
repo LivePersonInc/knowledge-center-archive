@@ -18,17 +18,17 @@ With EmailConnect, brands can manage, analyze and respond to emails from the sam
 
 Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web Messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
-EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
+EmailConnect utilizes the powerful features available with other messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
 
 ## Why brands should use EmailConnect
 
 ### Increase agent efficiency through a better email management tool
 
-EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
+EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within the Conversational Cloud instead of using a separate platform for handling consumer emails.
 
 ### Single interface for all messaging
 
-Agents handle emails in the same easy to use LiveEngage interface they use for all other messaging conversations, meaning the same set of agents can support email while they simultaneously support other messaging channels.
+Agents handle emails in the same easy-to-use Conversational Cloud interface they use for all other messaging conversations, meaning the same set of agents can support email while they simultaneously support other messaging channels.
 
 ### Use bots and automations for emails
 
@@ -49,17 +49,17 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 ## EmailConnect Setup
 
 {: .notice}  
-**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in LiveEngage. More features coming soon.
+**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in the Conversational Cloud. More features coming soon.
 
 {: .important}  
 To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
-### Step 1: Connect your email in LiveEngage
+### Step 1: Connect your email in the Conversational Cloud
 
 There are two ways to launch EmailConnect set up page:
 
-#### Option 1 Email Connect Setup via DataSources.
-Login to LiveEngage and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
+#### Option 1 Email Connect Setup via Data Sources.
+Login to the Conversational Cloud and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
 
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)

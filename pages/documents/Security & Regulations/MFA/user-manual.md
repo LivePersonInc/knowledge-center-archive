@@ -11,7 +11,7 @@ isNew: false
 date:
 ---
 
-Multi-factor authentication is an additional step of verification which take place by a code which provided on the individual personal device (smartphone) on a dedicated authenticator app and being entered by him on the second login step (right after entering his credentials) in LiveEngage login process.
+Multi-factor authentication is an additional step of verification which take place by a code which provided on the individual personal device (smartphone) on a dedicated authenticator app and being entered by him on the second login step (right after entering his credentials) in the Conversational Cloud login process.
 
 ## Glossary
 
@@ -19,13 +19,13 @@ Multi-factor authentication is an additional step of verification which take pla
 
 * OTP/Token - one-time password (or one-time key)
 
-* Time-based One-time Password (TOTP) - this is the supported password algorithm used by LiveEngage's MFA
+* Time-based One-time Password (TOTP) - this is the supported password algorithm used by the Conversational Cloud's MFA
 
 * Authenticator apps - Apps (usually for personal devices) which generate MFA codes (OTP)
 
 ## Flow
 
-When a LiveEngage user logs in from LivePerson’s login page (after providing their correct login credentials), the user will be presented with the multi-factor authentication flow. This flow includes the following steps:
+When a Conversational Cloud user logs in from LivePerson’s login page (after providing their correct login credentials), the user will be presented with the multi-factor authentication flow. This flow includes the following steps:
 
 ### Step 1 - Configuring multi-factor authentication (first time login)
 
@@ -35,13 +35,13 @@ A user goes which through the MFA flow for the first time, will see the followin
 
 ### Step 2 - Retrieve code
 
-Now the user should use one of the authenticator mobile apps listed above and scan the QR code. After scanning, the authenticator app displays a six-digit code that you can enter in LiveEngage (see next step).
+Now the user should use one of the authenticator mobile apps listed above and scan the QR code. After scanning, the authenticator app displays a six-digit code that you can enter in the Conversational Cloud (see next step).
 
 ![](/img/OTK Code.png)
 
 ### Step 3 - Submit code
 
-LiveEngage will provide the user with an input area where they should submit the six-digit code they received from the authenticator app and submit. This page will be presented to an agent on every login attempt right after they submit their login credentials (login name & password).
+The Conversational Cloud will provide the user with an input area where they should submit the six-digit code they received from the authenticator app and submit. This page will be presented to an agent on every login attempt right after they submit their login credentials (login name & password).
 
 ![](/img/Submit OTK.png)
 

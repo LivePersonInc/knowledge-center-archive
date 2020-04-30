@@ -58,7 +58,7 @@ It is possible to configure a default skill which will be used in case no skill 
 
 ## Routing to a fallback skill
 
-By default, when no agents are connected to LiveEngage to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
+By default, when no agents are connected to Agent Workspace to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
 
 To help avoid this situation, it is possible to configure a fallback skill. This enables incoming conversations to be deferred to a second ‘fallback’ skill when there are no online agents with the conversation’s assigned skill.
 
@@ -98,7 +98,7 @@ An agent is considered available to receive an incoming conversation, when the f
 ![](/img/Agent menu open.png)
 
 * The agent has enough capacity to receive an incoming conversation.  
-  LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
+  The Agent Workspace supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
   1. **Dynamic Capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Dynamic Capacity’ article](contact-center-management-messaging-operations-smart-capacity-overview.html) for further information.
   2. **Maximum concurrent conversations** - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
 

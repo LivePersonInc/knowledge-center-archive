@@ -12,15 +12,15 @@ redirect_from: data-reporting-report-builder-report-builder-user-guide-(standard
 ---
 ## Accessing Analytics Builder
 
-Brands can access Analytics Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
+Brands can access Analytics Builder through the Conversational Cloud UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
 To access the Analytics Builder:
 
-1. Log into LiveEngage using your campaign manager or agent manager credentials.
+1. Log into the Conversational Cloud using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon.
 3. Click the Analytics Builder icon on the left of the screen. A new tab is opened.
 4. Click **shared reports**. Two folders are displayed:
-   * **LE predefined dashboards**: All available predefined LiveEngage dashboards.
+   * **LE predefined dashboards**: All available predefined LivePerson dashboards.
    * **My account**: Reports that have been designed specifically for your account.
    * **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package.
 5. Click on a folder to view the available reports inside.
@@ -48,9 +48,9 @@ Dashboards in Analytics Builder are saved in folders. The available folders are 
 * **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
-## LiveEngage predefined dashboards
+## LivePerson predefined dashboards
 
-The LiveEngage Analytics Builder provides a robust reporting platform with powerful DIY features allowing brands to create their own business-intelligent dashboards. LiveEngage comes with a set of predefined dashboards which offer ready made reports for account data flowing into Analytics Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The Conversational Cloud Analytics Builder provides a robust reporting platform with powerful DIY features allowing brands to create their own business-intelligent dashboards. The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports for account data flowing into Analytics Builder from the Conversational Cloud data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 If you wish to enrich the predefined dashboards, and customize them to their needs are requested to approach their LivePerson account manager.
 

@@ -91,11 +91,11 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 - **SKILL** - The agent's skill.
 - **SOURCE** - Represents a specific instance of the end-point (software) from which the conversation was initiated. Supported values differ according to the software supported by the account (for example, Web, Mobile Apps, Skype Connector etc.)
 - **TOPIC** - Engagement Attribute - topic (Lead).
-- **USER TYPE** - Configured as part of the user details in LiveEngage. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
+- **USER TYPE** - Configured as part of the user details in the Conversational Cloud. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
 - **WEEK**- The date of the first day of the week (starting on Sunday)
 - **HOUR** - Hour format: MM/DD/YYYY HH:MM:SS AMPM
 - **BRAND EVENT ID** - The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.
-- **CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Conversation History view. For Messaging: LE >> All Conversations >> Conversation Info >> ID
+- **CONVERSATION** - The messaging conversation ID, mapped to the Conversation History view. For Messaging: Agent Workspace >> All Conversations >> Conversation Info >> ID
 - **CONVERSATION OPEN TIME** - Conversation Open Time
 
 ## Conversions

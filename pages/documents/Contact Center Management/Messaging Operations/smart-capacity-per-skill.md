@@ -65,4 +65,4 @@ In order to come up with the most relevant Dynamic Capacity values for a specifi
 
 ## Tracking in real time
 
-The effect of Dynamic Capacity can be seen under the “Messaging Agents” tab in LiveEngage under the agent load.
+The effect of Dynamic Capacity can be seen under the “Messaging Agents” tab in the Conversational Cloud under the agent load.

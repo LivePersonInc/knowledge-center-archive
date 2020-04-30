@@ -21,14 +21,14 @@ This capability includes an architecture based on the SAML protocol, a standard 
 
 Figure 1: Architecture based on SAML Assertion
 
-Prerequisites for LiveEngage:
+Prerequisites for the Conversational Cloud:
 
 * SAML-enabled IdP server
 * Valid X.509 certificate
 
 ## Configuration
 
-Customers wishing to authenticate agents to LiveEngage based on the SSO Unified Login feature need to complete the following:
+Customers wishing to authenticate agents to the Conversational Cloud based on the SSO Unified Login feature need to complete the following:
 
 ### Configuration on LivePerson’s Environment
 
@@ -38,22 +38,22 @@ The customer needs to provide LivePerson with their X.509 certificate that inclu
 
 The customer needs to provide LivePerson with the following three parameters:
 
-* **Login page**:  A login page to IDP when trying to access LiveEngage without prior authentication to customer IDP.
-* **Logout page**:  A URL that the user will be redirected to when logging out of LiveEngage.
-* **Redirect Page Upon Login Error**: A URL that the user will be redirected to when the login to LiveEngage fails.
+* **Login page**:  A login page to IDP when trying to access the Conversational Cloud without prior authentication to customer IDP.
+* **Logout page**:  A URL that the user will be redirected to when logging out of the Conversational Cloud.
+* **Redirect Page Upon Login Error**: A URL that the user will be redirected to when the login to the Conversational Cloud fails.
 
 ### Configuration on the customer’s environment
 
-* Create a SAML assertion with dynamic variables: siteId and loginName. The SAML assertion must be sent to LiveEngage every time a user (admin or agent) wishes to log in.
+* Create a SAML assertion with dynamic variables: siteId and loginName. The SAML assertion must be sent to the Conversational Cloud every time a user (admin or agent) wishes to log in.
 
   {: .notice}  
   If it is not possible to send the siteID, LivePerson can adapt the configuration.
 
   If it is not possible to send the loginName, LivePerson can accept the nameId field instead.
 
-* Provision the users in the customer’s User Management System to map to those of LiveEngage. For new users created in the Customer's User Management system, the customer will need to manually create them in LiveEngage (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
+* Provision the users in the customer’s User Management System to map to those of the Conversational Cloud. For new users created in the Customer's User Management system, the customer will need to manually create them in the Conversational Cloud (or automate the process via the [Users API](https://developers.liveperson.com/administration-users-overview.html) and create the linkage in the Customer's User Management system.
 
-* **Use this consumer URL for connecting to LiveEngage**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
+* **Use this consumer URL for connecting to the Conversational Cloud**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=liveEngage&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
 
 * **Use this consumer URL for connecting to the MCS toolkit**: https://&lt;LPDomain&gt;/hc/s-&lt;YourAccountNumber&gt;/web/m-LP/samlAssertionMembersArea/home.jsp?lpservice=mcs&servicepath=a%2F\~\~accountid\~\~%2F%23%2C\~\~ssokey\~\~
 

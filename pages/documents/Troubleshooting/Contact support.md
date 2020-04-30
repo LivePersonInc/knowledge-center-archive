@@ -20,9 +20,9 @@ This channel is specifically useful for high priority issues that requires immed
 
 ### How to message with Support
 
-1. Log into the LiveEngage.
+1. Log into the Conversational Cloud.
 2. Expand the Connection Area by clicking the three 3 vertical dots on the right of the browser.
-3. Click on the message icon to contact Liveperson
+3. Click on the message icon to contact LivePerson
 4. Start messaging
 
 ![](img/Contact_support1.png)
@@ -32,11 +32,11 @@ This channel is specifically useful for high priority issues that requires immed
 {: .notice}
 This only applies to eligible customers as part of their CSO package.
 
-Only Agent Managers and Administrators can open a ticket. 
+Only Agent Managers and Administrators can open a ticket.
 
 ### How to open a ticket
 
-1. Log into the LiveEngage.
+1. Log into the Conversational Cloud.
 2. Expand the Connection Area by clicking the three 3 vertical dots on the right   
    of the browser.
 3. Click on Technical support cases (case icon) and then click on 'create new case'.

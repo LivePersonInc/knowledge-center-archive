@@ -153,7 +153,7 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 
 ## Desktop notifications
 
-LiveEngage desktop notifications do not support the following browsers:
+Conversational Cloud desktop notifications do not support the following browsers:
 
 * Internet Explorer 11x
 

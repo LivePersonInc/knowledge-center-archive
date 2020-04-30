@@ -33,7 +33,7 @@ To create a new entry point, simply name the entry point and copy its URL into t
 
 ## Map your site categories using code
 
-You’ve just finished creating an engagement for one of the categories on your website or mobile app. For example, cameras category on your website. You want the engagement to display on all the pages in the camera category. One option is to use a URL define where the engagement should display. However this means that you will need to manually add each camera-related page URL into LiveEngage.
+You’ve just finished creating an engagement for one of the categories on your website or mobile app. For example, cameras category on your website. You want the engagement to display on all the pages in the camera category. One option is to use a URL define where the engagement should display. However this means that you will need to manually add each camera-related page URL into the Conversational Cloud.
 
 To save you time, it is also possible to add a tag, or section, to your page code. These sections can also be defined when creating engagements for mobile app. A section associates a category name (camera, in our example) to the page; any new or existing page on your website or within your app that you tag with the camera section will display the engagement automatically. A page can be represented by one or more tags – for example, you can tag camera or camera and DSLR - giving you greater flexibility in targeting your engagement, which in turn makes your campaign more effective.
 

@@ -29,8 +29,8 @@ Brands with a customer success offering can request customized dashboards with s
 * Combine existing KPIs to create new ways of measuring success through custom dashboards and visualizations
 * Schedule reports in order to receive regular updates by email
 
-## Predefined dashboads
-LiveEngage comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+## Predefined dashboards
+The Conversational Cloud comes with a set of predefined dashboards which offer ready made reports. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 See [Predefined dashboards](data-reporting-report-builder-predefined-dashboards.html)
 
@@ -48,11 +48,11 @@ The three farms, and their time zones, are as follows:
 
 Please note: Certain metrics available in Analytics Builder may update retroactively. These metrics are either part of the “Funnel” (available in the Business Activity and Operational & Staffing predefined dashboards), or specific to Messaging (available in the Messaging Performance predefined dashboard). These metrics are updated for full visit sessions to the website, or closed messaging conversations. The description of such metrics include an explicit indication respectively. For more information, please see [metric glossary](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html).
 
-## Evolution of LiveEngage BI
+## Evolution of LivePerson BI
 
-Analytics Builder is a new and improved version of LiveEngage BI dashboards (which remains fully accessible to LiveEngage users).
+Analytics Builder is a new and improved version of LivePerson BI dashboards (which remains fully accessible to Conversational Cloud users).
 
-With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Analytics Builder goes beyond the capabilities available in LE BI.
+With superior performance, an additional layer of messaging KPIs, and the ability to tailor dashboards to specific business needs, the Analytics Builder goes beyond the capabilities available in BI.
 
 The following considerations should be taken into account when using the Analytics Builder:
 

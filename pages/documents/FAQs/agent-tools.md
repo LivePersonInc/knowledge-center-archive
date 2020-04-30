@@ -97,7 +97,7 @@ The logic behind this is to [give priority to conversations](contact-center-mana
 
 ## What do I do when my shift ends?
 
-Re-queue each of your ongoing conversations and then log out of LiveEngage, as follows:
+Re-queue each of your ongoing conversations and then log out of the Conversational Cloud, as follows:
 
 a. Change your status to Away.
 
@@ -105,19 +105,19 @@ b. Inform the consumer who is in a conversation with you (listed on the My Conve
 
 c. Click the small arrow (top right of the conversation window) and choose Return to queue.
 
-d. Log out of LiveEngage.
+d. Log out of the Conversational Cloud.
 
 ## How can I access a new conversation?
 
-LiveEngage indicates that a consumer has sent a message by making a ringing sound, and displaying a flashing connection box at the bottom left of the VISITORS tab. Click the flashing box to connect with the consumer. A conversation window opens where you can type messages to the consumer and read messages that they send.
+The Conversational Cloud indicates that a consumer has sent a message by making a ringing sound, and displaying a flashing connection box at the bottom left of the VISITORS tab. Click the flashing box to connect with the consumer. A conversation window opens where you can type messages to the consumer and read messages that they send.
 
 How can I access my ongoing conversations?
 
-a. Click the VISITORS tab (top left corner of LiveEngage). Your ongoing conversations are displayed as small connection boxes at the bottom of the window.
+a. Click the VISITORS tab (from the left sidebar of the Conversational Cloud). Your ongoing conversations are displayed as small connection boxes at the bottom of the window.
 
 b. Click a box to return to an ongoing conversation.
 
-## Where can I see the list of all consumers who are connected via the LiveEngage Messaging App (not just My Conversations)?
+## Where can I see the list of all consumers who are connected via the Messaging App (not just My Conversations)?
 
 a. Immediately after login, on the first window displayed - the App Connections list on the VISITORS tab. Once you’ve navigated away from the App Connections list, you can return to it as follows: b. On the VISITORS tab, click App Connections. The list of all consumers connected to your LivePerson Conversational Cloud account via messaging is displayed. c. From inside the conversation window, click the small three stripes (lower left side).
 
