@@ -30,7 +30,7 @@ An audit trail is available for the following elements:
 * [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) and content categories
 * [Agent survey for messaging](contact-center-management-messaging-operations-agent-survey-for-messaging.html)
 
-Audit data related to user logins to the LiveEngage system is not available.
+Audit data related to user logins to the Conversational Cloud system is not available.
 
 ### Audit trail table
 

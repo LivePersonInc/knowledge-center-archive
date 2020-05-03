@@ -46,7 +46,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
 Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately using [messaging connectors](messaging-channels-messaging-connectors-overview.html), once you have configured all relevant channels, LivePerson's settings and bots automatically apply. See our [messaging channels capabilities matrix](messaging-channels-messaging-channels-capabilities-comparison.html), or drill down on specific connectors.
 
 * [Web Messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
-* [Mobile app messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
+* [App Messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
 * [SMS](messaging-channels-sms-sms-connector.html) (Twilio, Google My Business)
 * [Facebook](messaging-channels-facebook-messenger.html)
 * [Apple Business Chat](messaging-channels-messaging-connectors-overview.html)

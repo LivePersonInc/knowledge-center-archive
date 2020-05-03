@@ -13,7 +13,7 @@ date: 2019-02-26 10:10:05 +0000
 ---
 ## Bot not responding to first message of conversation (for customer bots created with Node Agent SDK)
 
-When a consumer initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in LiveEngage without responding.
+When a consumer initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in the Conversational Cloud without responding.
 
 When the consumer initiates the conversation we get the ExConversationChangeNotification but we do not get the messagingEventNotification that should follow. We use the messagingEventNotification to respond to the conversation.
 
@@ -49,7 +49,7 @@ Developers should add a retry mechanism to their Bot. The mechanism should take 
 
 Why is the system disabling these two bots and not the other two which are connecting with the same code?
 
-### Cause: 
+### Cause:
 
 * The bot user exceeded the allowed login attempts.
 * Each account has a login policy that determines after how many login attempts a user will be disabled. The bot user in this case had exceeded the number of login attempts allowed by his account, causing his user profile to be disabled.
@@ -82,7 +82,7 @@ Starting a conversation consists of two separate, unlinked, requests (both sent 
 
 In the issue described above, the request to open a conversation was sent, and, in addition, one or more of the following occurred:
 
-* The first consumer message did not reach the LiveEngage system.
+* The first consumer message did not reach the Conversational Cloud system.
 * The consumer may have received an automatic message before sending his first message (open conversation default).
 * Due to Bot speed, the Bot sent the first message before the consumer message was fully processed and displayed (a matter of milliseconds).
 
@@ -92,19 +92,19 @@ The system is working properly.
 
 ## Why is our bot agent receiving empty messages from consumers?
 
-The bot’s engagement window opens but it is empty and consumers see a warning icon (red triangle) next to the messages that failed. 
+The bot’s engagement window opens but it is empty and consumers see a warning icon (red triangle) next to the messages that failed.
 
 ### Cause:
 
-1. Network problems on consumer side. This can occur at any point in the conversation when the consumer tries to send a message. The message doesn’t not reach the LiveEngage system and the result is an empty conversation window on the agent side.
-2. The consumer, who was messaging via the SMS connector, sent images in the message but the LiveEngage SMS connector does not support images. Therefore the consumer side failed to send the images and the bot agent received an empty message.
+1. Network problems on consumer side. This can occur at any point in the conversation when the consumer tries to send a message. The message doesn’t not reach the Conversational Cloud system and the result is an empty conversation window on the agent side.
+2. The consumer, who was messaging via the SMS connector, sent images in the message but the Conversational Cloud SMS connector does not support images. Therefore the consumer side failed to send the images and the bot agent received an empty message.
 3. The bot is configured to reply to a consumer only after receiving the consumer’s first message.
-4. The consumer typed too long a message (over 5000 characters). Therefore the consumer side failed to send the message content to the LiveEngage server and the bot received an empty message.
+4. The consumer typed too long a message (over 5000 characters). Therefore the consumer side failed to send the message content to the Conversational Cloud server and the bot received an empty message.
 
 ### Solution:
 
 1. Check network on consumer side
-2. Ensure images are supported 
+2. Ensure images are supported
 3. Check configuration settings of the bot
 4. Ensure messages are less than 5000 characters
 

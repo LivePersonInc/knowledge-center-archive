@@ -44,7 +44,7 @@ The following items are generally **not supported:**
 
 ### Engagement channels
 
-LivePerson Support provides 24x7 chat support. Chat is accessible from the LiveEngage Connection Area. Please contact our chat support for issues of any severity level.
+LivePerson Support provides 24x7 chat support. Chat is accessible from the Connection Area. Please contact our chat support for issues of any severity level.
 
 ### Severity definitions and service levels
 
@@ -72,7 +72,7 @@ LivePerson maintains an **Emergency Contact** distribution list of customers for
 
 **Please note:**
 * LivePerson Customer Support requires each customer to provide an email address of at least one emergency contact, in case we need to contact you.
-* It is the responsibility of the customer to notify LivePerson Customer Support of all changesto their emergency contact(s). LivePerson strongly recommends that the customer establish a single global email address (distribution list) for emergency contacts.
+* It is the responsibility of the customer to notify LivePerson Customer Support of all changes to their emergency contact(s). LivePerson strongly recommends that the customer establish a single global email address (distribution list) for emergency contacts.
 * We recommend adding support@liveperson.com to your organizational mail server’s safe senders list to ensure that you receive e-mails from us
 
 ## Maintenance activities

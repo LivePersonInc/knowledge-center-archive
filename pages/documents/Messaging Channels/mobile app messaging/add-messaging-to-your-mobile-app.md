@@ -14,9 +14,9 @@ redirect_from:
   - liveengage-mobile-sdk.html
 
 ---
-The following article describes the steps you need to take in order to add Web Messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
+The following article describes the steps you need to take in order to add Web Messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
 
-With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
+With campaigns for App Messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
 ### Mobile app engagements require the following steps to configure:
 
@@ -25,13 +25,13 @@ _To be completed within your brand’s app by a mobile developer:_
 * Implement the new SDK
 * Implement the SDK’s Monitoring APIs
 
-_To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
+_To be completed within the Conversational Cloud by campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
 * Create new campaigns and engagements
 
 
-For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
+For an overview of campaigns in the Conversational Cloud and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
 ## 1. Planning and thought starters
 
@@ -71,7 +71,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 
 _(completed by contact center manager, project manager or program manager)_
 
-Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the Campaign Builder, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the Campaign Builder footnote, and follow these instructions:
+Before you can create engagements for your mobile app, you must first configure the mobile app data source in the Conversational Cloud. To do this, go to the Campaign Builder, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the Campaign Builder footnote, and follow these instructions:
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
@@ -83,7 +83,7 @@ Before you can create engagements for your mobile app, you must first configure 
    1. Enter the name of your app (the default is mobile app) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
 2. Click “**Create.**” The mobile app will now be installed on your LivePerson Conversational Cloud account. On the same page, a new “App key” will be created, under the “Authentication details” section:
-3. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
+3. To disable App Messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no App Messaging conversations will be directed to the Conversational Cloud .
 
 ![](/img/add-messaging-to-your-mobile-app-1.png)
 
@@ -120,7 +120,7 @@ On this page, you can define **authentication**, **routing** and **language** se
 
 #### Authentication
 
-Mobile app messaging engagements are currently for **authenticated conversations only.** You will see that [authentication](messaging-channels-web-messaging-authenticated-web-messaging.html) is toggled on by default.
+App Messaging engagements are currently for **authenticated conversations only.** You will see that [authentication](messaging-channels-web-messaging-authenticated-web-messaging.html) is toggled on by default.
 
 #### Routing
 
@@ -140,7 +140,7 @@ Once your settings are complete, click **next**.
 
 You will now reach the entry point library. An [entry point](contact-center-management-campaigns-entry-point.html) is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
-**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
+**Note:** By default only the relevant entry points for App Messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only App Messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
 
 When you are finished defining your entry point, click **next**.
 

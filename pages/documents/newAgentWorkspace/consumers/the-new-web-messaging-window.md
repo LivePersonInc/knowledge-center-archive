@@ -3,7 +3,7 @@ pagename: The new Web Messaging window
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: for all LiveEngage users - coming September 2019
+subtitle: for all Conversational Cloud users - coming September 2019
 level3: ''
 permalink: consumer-experience-the-new-web-messaging-window.html
 layout: newAgentWorkspace

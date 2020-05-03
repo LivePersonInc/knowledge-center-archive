@@ -1,5 +1,5 @@
 ---
-pagename: Proactive engagements for web messaging
+pagename: Proactive engagements for Web Messaging
 categoryName: Messaging channels
 subCategoryName: Web messaging
 indicator: messaging
@@ -19,7 +19,7 @@ A proactive engagement campaign, which targets customers based on a certain set 
 
 ## Proactive engagement behavior
 
-Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
+Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, the Conversational Cloud offers the following settings:
 
 ### Number of displays
 
@@ -43,7 +43,7 @@ To create a proactive campaign, follow these steps:
  4. Give your Goal a name, such as ‘Generate Leads’, then select the Goal Type and indicator, which should define what activity will be counted as successful towards this goal. Click _Save_ in the bottom right corner, and then _Done_ on the next page.
  5. Next adjust your Campaign Audience and Campaign Timeframe, selecting the most appropriate parameters to meet your goal.
  6. To add an engagement, click the _Add Engagement_ button on your main campaign page.
- 7. You can use this page to customize your engagement by format, use case, style and size - you can even design your own button and tailor it to your brand. For a proactive campaign, we recommend using a sticky, toaster or slide-out format (LiveEngage offers a number of other effective campaign types to meet your needs - see the selection below). Click _Next_.
+ 7. You can use this page to customize your engagement by format, use case, style and size - you can even design your own button and tailor it to your brand. For a proactive campaign, we recommend using a sticky, toaster or slide-out format (the Conversational Cloud offers a number of other effective campaign types to meet your needs - see the selection below). Click _Next_.
  8. In the Engagement Studio you can customize different aspects of the Engagement, adding your own branded design if preferred. Click _Save_.
  9. The Window Studio is next, giving you the chance to personalize your conversation window branding and configure surveys. Give your window a name and click _Save_.
 10. In the Location Library, you can choose where you would like your button to appear - as this is a proactive campaign, choose the page most appropriate for your engagement. Click _Next_.

@@ -21,7 +21,7 @@ The Agent icons are not aligned with first line of messages on consumer iOS devi
 
 This is expected behavior.
 
-## Mobile app messaging: Number of unread messages isn’t displayed
+## App Messaging: Number of unread messages isn’t displayed
 
 ### Cause
 
@@ -57,7 +57,7 @@ If the focus is on items above the 'X unread messages' label, or the label was r
 
 ![](/img/troubleshooting-consumer-experience2.png)
 
-## Mobile app messaging: link preview not working on Android
+## App Messaging: link preview not working on Android
 
 ### Cause:
 
@@ -69,7 +69,7 @@ Always include the the **http:// prefix** in URLs that you send when messaging.
 
 ![](/img/troubleshooting-consumer-experience3.png)
 
-## Mobile app messaging: double click doesn’t scroll to last message
+## App Messaging: double click doesn’t scroll to last message
 
 ### Cause:
 

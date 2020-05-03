@@ -22,7 +22,7 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 
 * **Extra secure interaction:** The secure form dedicates a "secure tunnel" within the standard chat for exchanging Personal Identifiable Information (PII), Cardholder Data (CHD), and other sensitive identity validation data like answers to verification questions and PINs. Agents continue to operate in the same Agent Workspace environment as data is sent from the visitor to the agent in a safe, PCI compliant interaction.
 * **No storage of sensitive data in chat transcripts:** Data processed by the secure form is not stored as part of the standard chat transcripts and cannot be retrieved through the application after the chat session has ended. The data is securely stored in its tokenized form in a dedicated database.
-* **Off the record questions (CVV):** The LiveEngage secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
+* **Off the record questions (CVV):** The the Conversational Cloud secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
 
 ## European security standards
 
@@ -51,7 +51,7 @@ Some of the most common use cases for the secure form include:
 
 The LivePerson secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
-Following the completion of an onsite assessment, the LiveEngage secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
+Following the completion of an onsite assessment, the Conversational Cloud secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
 
 ## How it works
 

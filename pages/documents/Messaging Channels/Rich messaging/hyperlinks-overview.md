@@ -61,7 +61,7 @@ In runtime, the link will be displayed to the consumer as a clickable link.
 
 ## Supported sources
 
-**For now, the only supported source is Web Messaging, including mobile Web Messaging.** For consumers using mobile app messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
+**For now, the only supported source is Web Messaging, including mobile Web Messaging.** For consumers using App Messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
 
 ## Limitations
 

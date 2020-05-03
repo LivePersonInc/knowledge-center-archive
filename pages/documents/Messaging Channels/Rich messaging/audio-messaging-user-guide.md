@@ -62,11 +62,11 @@ Audio messaging is ideal for consumers who would prefer to send a voice recordin
 * To delete the recording prior to sending it, the consumer presses the trashcan icon
 * Once sent, the consumer can listen to the recording by pressing the play icon
 
-## LiveEngage messaging connectors
+## Messaging connectors
 
 Audio messaging is now available for the Apple Business Chat and Facebook Messenger connectors.
 
-LiveEngage will support the following audio messages flow:
+The Conversational Cloud will support the following audio messages flow:
 
 * A consumer on ABC or FBM records and sends an audio message to an agent on LE
 * An agent receives an audio type message and can play the message the consumer has recorded on the agent workspace

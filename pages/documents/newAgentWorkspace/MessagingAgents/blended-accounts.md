@@ -12,7 +12,7 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-For brands using LiveEngage, there are currently two conversation types:
+For brands using the Conversational Cloud, there are currently two conversation types:
 
 * **Live chat**: A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
 

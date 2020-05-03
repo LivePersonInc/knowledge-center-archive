@@ -18,7 +18,7 @@ Create a "Hello World" bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
-1. Log in to the [Conversational Cloud](https://authentication.liveperson.net/).
+1. Log into the [Conversational Cloud](https://authentication.liveperson.net/).
 2. On the left sidebar, click the bot icon.
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
@@ -64,7 +64,7 @@ To learn how to extend the bot and connect it to the Conversational Cloud, compl
 
 ## Step 4: Expand the capabilities of your bot
 
-* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to LiveEngage, and learn how to transfer a bot conversation to a live agent.
+* **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to the Conversational Cloud, and learn how to transfer a bot conversation to a live agent.
 
 * **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases including Routing, FAQ, Lead Generation and Order Status.
 

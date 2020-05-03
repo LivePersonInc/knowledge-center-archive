@@ -17,7 +17,7 @@ Millions of brands are already using Google My Business to engage with consumers
 
 ## Why use Google My Business to connect with your consumers?
 
-* **Free and easy to set up** — With Google My Business there’s no need purchase numbers from external SMS gateways. Google provides a free virtual number and LiveEngage provides the platform.
+* **Free and easy to set up** — With Google My Business there’s no need purchase numbers from external SMS gateways. Google provides a free virtual number and LivePerson provides the platform.
 * **Access to millions of consumers** — Internet users search Google 3.5 billion times per day. Harness the power of your Google presence and put messaging at the fingertips of online consumers.
 * **Proactive notifications** — Brands can initiate conversations with consumers by sending proactive push notifications.
 * **Greater consumer accessibility** — Brands can capitalize on their existing Google My Business presence, without needing to purchase or add any additional resources.
@@ -32,7 +32,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 
 1. Brand adds a “Message Us” button to their Google My Business listing, using Google virtual numbers provided directly by Google’s gateway.
 2. Consumer searches for the business on Google and taps the button.
-3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
+3. All Google My Business messages are subsequently be routed into the Conversational Cloud platform, allowing the brand’s agents to respond directly from the agent workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
 
 ![](/img/middle phone-2.png)

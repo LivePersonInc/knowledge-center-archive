@@ -79,7 +79,7 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 
 ### Solution:
 
-1. If you are a LiveEngage Administrator or a user with Analytics Builder “Edit” access, click the Refresh button at the top of the dashboard.
+1. If you are an Administrator or a user with Analytics Builder “Edit” access, click the Refresh button at the top of the dashboard.
 2. If you are not any of the above, click File > Re-prompt. The time frame selector displays again.
 3. Run the dashboard again to refresh the data.
 
@@ -89,13 +89,13 @@ The dashboard is not refreshing due to a caching mechanism managed by the user�
 
 When we export chat transcripts to a CSV file, the customer IDs are displayed in scientific format. Then we convert the IDs back to decimal format. But the converted ID does not match the original ID.
 
-For example, one of our customer’s IDs is 5121079781289563. In the export file it is displalyed as 5.12108E+15, and when we convert it back to decimal, it comes out as 5121079781289560.
+For example, one of our customer’s IDs is 5121079781289563. In the export file it is displayed as 5.12108E+15, and when we convert it back to decimal, it comes out as 5121079781289560.
 
 This is an MS Excel limitation. Excel displays numbers containing 15 or more digits in scientific format even though it has saved them in decimal format.
 
 When you open the CSV file as a text file, you can see the Customer ID in decimal format and it is correct and matches the original ID.
 
-LiveEngage does not convert these long numbers to text before the Chat Transcript Export because the CSV files may be used by some LiveEngage customers with other applications, parsers, or macros and not just with MS Excel.
+The Conversational Cloud does not convert these long numbers to text before the Chat Transcript Export because the CSV files may be used by some customers with other applications, parsers, or macros and not just with MS Excel.
 
 ### Solution
 

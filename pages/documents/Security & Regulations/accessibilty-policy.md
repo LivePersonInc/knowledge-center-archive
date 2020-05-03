@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-24 12:47:14 +0000
 
 ---
-LivePerson is a leading provider of mobile and online messaging, facilitating a meaningful connection between brands and consumers. LiveEngage, the Company's enterprise-class, cloud-based platform, allows consumers to stop wasting time on hold with impersonal 1-800 numbers, and instead directly message their favorite brands, just as they do with friends and family. More than 18,000 businesses, including Adobe, Citibank, EE, HSBC, IBM, Orbitz, PNC, Home Depot, and Disney rely on the unparalleled intelligence, security and scalability of LiveEngage to reduce costs, increase lifetime value and create meaningful connections with consumers.
+LivePerson is a leading provider of mobile and online messaging, facilitating a meaningful connection between brands and consumers. The Conversational Cloud, the company's enterprise-class, cloud-based platform, allows consumers to stop wasting time on hold with impersonal 1-800 numbers, and instead directly message their favorite brands, just as they do with friends and family. More than 18,000 businesses, including Adobe, Citibank, EE, HSBC, IBM, Orbitz, PNC, Home Depot, and Disney rely on the unparalleled intelligence, security and scalability of the Conversational Cloud to reduce costs, increase lifetime value and create meaningful connections with consumers.
 
 LivePerson's goal is to deliver higher value through higher quality products and services that meet the information, reporting, and analysis needs of all demographics of customers, including users with disabilities.
 
@@ -24,7 +24,7 @@ We strive to meet the guidelines for compliance with the most current legislatur
 
 The regulations in the US and other countries, such as the UK and Canada, require adhering to the Web Content Accessibility guidelines (WCAG (v2.0), Levels A and AA developed by w3.org, particularly.
 
-In order to incorporate these guidelines, we work with the international accessibility consulting organization - “Deque Systems”. Deque Systems have completed a thorough assessment of LiveEngage accessibility, and have subsequently awarded LivePerson the official accessibility stamp. The assessment included working closely with people with disabilities who reviewed and operated our products. This practice enables us to implement, first-hand, the beneficial suggestions made by impaired individuals who understand our product.
+In order to incorporate these guidelines, we work with the international accessibility consulting organization - “Deque Systems”. Deque Systems have completed a thorough assessment of the Conversational Cloud accessibility, and have subsequently awarded LivePerson the official accessibility stamp. The assessment included working closely with people with disabilities who reviewed and operated our products. This practice enables us to implement, first-hand, the beneficial suggestions made by impaired individuals who understand our product.
 
 View LivePerson’s [certification of conformance](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
 
@@ -36,7 +36,7 @@ LivePerson's services are designed to work with assistive technologies, such as 
 
 Making messaging and chat accessible proved to be challenging due to its dynamic content. For example, with live chat, there are constant incoming and outgoing messages, and the visitor needs to be aware of the new information coming in while still having access to previously exchanged information. To remedy this, ARIA live regions have been implemented for detection of new incoming and outgoing messages.
 
-LiveEngage has been awarded an official accessibility stamp in the following environments:
+The Conversational Cloud has been awarded an official accessibility stamp in the following environments:
 
 * **Desktop:** Windows 10, Firefox browser, NVDA screen reader
 * **IOS:** iOS 11, Safari browser, VoiceOver screen reader
@@ -110,7 +110,7 @@ The secure form is opened in a widget in the engagement window. On desktop it op
 
 _Figure 4: Secure form widget_
 
-For more information about the secure form, see[ ](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/LiveEngage+Secure+Form+External.pdf)[LiveEngage Secure Form.](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html)
+For more information about the secure form, see[ ](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/security/LiveEngage+Secure+Form+External.pdf)[the Conversational Cloud Secure Form.](security-regulations-secure-forms-secure-forms-for-messaging-user-guide.html)
 
 ## ID&V
 
@@ -124,7 +124,7 @@ The agent can invite the consumer to a co-browse session directly from their wor
 
 ## Scope of visitor experience accessibility
 
-The LiveEngage visitor experience was created with people with disabilities in mind. LivePerson is committed to making its embedded engagement window and engagements increasingly accessible over time. The scope of the accessibility support includes:
+The Conversational Cloud visitor experience was created with people with disabilities in mind. LivePerson is committed to making its embedded engagement window and engagements increasingly accessible over time. The scope of the accessibility support includes:
 
 * Engagements
 * The embedded engagement window in embedded mode (embedded on the page)

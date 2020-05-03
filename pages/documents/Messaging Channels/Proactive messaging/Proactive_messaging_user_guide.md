@@ -12,13 +12,14 @@ isNew: false
 ---
 LivePersons Proactive Messaging tool allows brands to engage in two-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson agent workspace, where conversations can be handled by humans, automation, or a mix of both.
 
-Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all the LiveEngage capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
+Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 ## Permissions
-Only LiveEngage administrators and campaign manager profiles have acess to Proactive messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and Whatsapp).
+Only the Conversational Cloud administrators and campaign manager profiles have access to Proactive messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and WhatsApp).
 
 ## Login and access
-Brands can access the Proactive Messaging tool from within LiveEngage via the Quick Launch.
+Brands can access the Proactive Messaging tool from within the Conversational Cloud via the Quick Launch menu.
+
 ![](img/PM_userguide1.png)
 
 Proactive Messaging supports role-based access. Currently, only users with Campaign Manager or Administrator user profile can access the tool. All other users (those with only Agent or Agent Manager user profile) will not see the tool in the Quick Launch menu.
@@ -67,12 +68,12 @@ To create a new proactive campaign, users can click on New Campaign on the landi
   * WhatsApp: WhatsApp or Prioritized
   * Prioritized: Prioritized is the step down capability from WhatsApp to SMS. This means that a message will initially be sent to the consumer via WhatsApp channel. If the consumer’s phone number isn’t eligible on WhatsApp, then the message will attempt to send via SMS text instead.
 
-* **From number**  - Select the number you would like to send the outbound message from. If the brand onboards more than one number to the channel i.e. Twilio-SMS or WhatsApp, this is where they can select the number they would like to use.
+* **From number**  - Select the number you would like to send the outbound message from. If the brand onboards more than one number to the channel i.e. Twilio SMS or WhatsApp, this is where they can select the number they would like to use.
 
-* **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside LiveEngage. Currently, not all LiveEngage skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
+* **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside the Conversational Cloud. Currently, not all skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
 
 {: .notice}
-Users can search for the skill in the dropdown. If the brand is onboarded to Proactive 2.0 then all the LiveEngage skills should appear in the drop down. If the skill is not listed, it is likely that you are using Proactive 1.0 and you should contact your LivePerson account team to have it added manually.
+Users can search for the skill in the dropdown. If the brand is onboarded to Proactive 2.0 then all the Conversational Cloud skills should appear in the drop down. If the skill is not listed, it is likely that you are using Proactive 1.0 and you should contact your LivePerson account team to have it added manually.
 
 * **Message content - SMS**
 The content of the outbound message for SMS can be typed in by users. For SMS, 42 characters are reserved by default for the opt-out text, which is required. This helps ensure that consumers who receive the outbound message have instructions on how to opt-out from receiving any future outbound messages if they choose to.
@@ -112,7 +113,7 @@ When uploading a .csv file with a list of recipient, if there are any errors, ch
 
 ### **Examples**:
 #### SMS example
-Typing in 2 recipient phone numbers  phone numbers with the two variables specified in the WhatsApp message templat look like:
+Typing in 2 recipient phone numbers  phone numbers with the two variables specified in the WhatsApp message template look like:
 12223334444
 12223334445
 
@@ -163,9 +164,9 @@ For WhatsApp message template with two variables:
 
 ## Skill Routing
 
-Skills need to be set up first in the LiveEngage Platform in order for them to be available in the Proactive Messaging tool. For more information on skills please click [here](https://knowledge.liveperson.com/admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html).
+Skills need to be set up first in the the Conversational Cloud in order for them to be available in the Proactive Messaging tool. For more information on skills please click [here](https://knowledge.liveperson.com/admin-settings-skills-groups-connect-visitors-to-agents-by-skills.html).
 
-Proactive Messaging 2.0 will automatically show existing skills from LiveEngage. The context of the initial outbound message will be part of the conversation transcript when the consumer responds.
+Proactive Messaging 2.0 will automatically show existing skills from the Conversational Cloud. The context of the initial outbound message will be part of the conversation transcript when the consumer responds.
 
 For Proactive 1.0, any skills you’d like to show on Proactive tool must be manually added. Please reach out to your account team and get the skill added. Once the skill is available to use, it will show up in the "skill" dropdown list on the proactive tool. On Proactive 1.0, the context of the initial outbound message will show up in the Voice-to-messaging widget.
 
@@ -186,7 +187,7 @@ Reporting will soon be enabled per proactive campaign via the Analytics Builder.
 
 ## Receiving incoming messages
 
-* When a consumer responds to an outbound message created from Proactive Messaging tool, a conversation is created within LiveEngage and is routed to an available agent with the assigned specific skill to which the Proactive campaign was created.
+* When a consumer responds to an outbound message created from Proactive Messaging tool, a conversation is created within the Conversational Cloud and is routed to an available agent with the assigned specific skill to which the Proactive campaign was created.
 * The context of the initial outbound message will be visible to the agent as part of the conversation transcript if the brand is onboarded to Proactive 2.0. If the brand is on Proactive 1.0, the initial outbound message is visible through an agent widget.
 
 ## Opt Out/In
@@ -209,4 +210,4 @@ If you choose to manually enter phone numbers rather than use a .csv file upload
 No, today we require brands to onboard first before they can start using Proactive Messaging. It is a powerful tool and only authorized users should have access to it. Once onboarded, only users with Campaign Manager or Admin user profile can access this tool from the Quick Launch.
 
 **Can anyone access Proactive Messaging?**
-Proactive Messaging is accessed directly within LiveEngage from the quick launch menu. This option will only appear to users with Campaign Manager or Admin user profile.
+Proactive Messaging is accessed directly within the Conversational Cloud from the quick launch menu. This option will only appear to users with Campaign Manager or Admin user profile.

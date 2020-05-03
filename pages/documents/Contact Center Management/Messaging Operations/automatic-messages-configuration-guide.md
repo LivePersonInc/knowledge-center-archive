@@ -25,7 +25,7 @@ Auto messages are triggered upon specific events that are detected by the system
 * the conversation is transferred to another agent
 * the time to respond is updated
 
-When the auto messages are sent, they are displayed to the consumer and the agent within the conversation transcript, as well as in the Conversation History both for the consumer and in LiveEngage. Auto messages do not affect to whom the conversation is pending, nor the time to respond.
+When the auto messages are sent, they are displayed to the consumer and the agent within the conversation transcript, as well as in the Conversation History both for the consumer and in the Agent Workspace. Auto messages do not affect to whom the conversation is pending, nor the time to respond.
 
 ## Configuration
 

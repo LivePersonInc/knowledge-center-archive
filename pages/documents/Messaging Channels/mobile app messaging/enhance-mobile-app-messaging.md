@@ -1,10 +1,9 @@
 ---
-pagename: 'Mobile app messaging capabilities '
+pagename: 'Mobile App Messaging capabilities '
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
-subtitle: Introduce rich messaging and shortcuts for an improved mobile app messaging
-  experience
+subtitle: Introduce rich messaging and shortcuts for an improved App Messaging experience
 level3: ''
 permalink: messaging-channels-mobile-app-messaging-mobile-app-messaging-capabilities.html
 isTutorial: true
@@ -30,7 +29,7 @@ Allow consumers to create a continuous connection with your brand through a fami
 * Deliver a personal touch by displaying the send icon used by the consumer’s operating system (such as the paper plane or arrow) on your message ‘send’ button and customize it to match your brand colors.
 * Show previews of URLs shared by the agent or consumer in the consumer’s conversation thread to give them a better understanding of your product or service.
 * Configure the removal of the resolved divider in a conversation thread to create the feel of one ongoing, undisrupted conversation.
-* Use the callback provided by LiveEngage whenever a consumer clicks on an agent picture to gain greater insight into consumer activity. You can also trigger additional information, such as the agent’s profile or a menu bar, to open in response to the consumer’s click.
+* Use the callback provided by the Conversational Cloud whenever a consumer clicks on an agent picture to gain greater insight into consumer activity. You can also trigger additional information, such as the agent’s profile or a menu bar, to open in response to the consumer’s click.
 * Configure your own regular expressions that will create hyperlinks within the conversation to other channels (URLs, emails and phone numbers), directing consumers to engage with your brand on more levels.
 * Make the conversation between agent and consumer more personal by sending emojis.
 * Attract consumers to your app by using push notifications to indicate when messages are waiting in-app.
@@ -51,7 +50,7 @@ Clearly communicated system messages regarding response time create a better ser
 
 ![](/img/mobile-app-messaging-capabilities-1.gif)
 
-For mobile app messaging, you can offer the following structured content items:
+For App Messaging, you can offer the following structured content items:
 
 * Cards (use to display links with an image such as 'learn more about our new programs)
 * Carousels (use to display product catalogue or several options)

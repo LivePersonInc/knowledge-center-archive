@@ -13,7 +13,7 @@ date: 2019-01-24 13:48:11 +0000
 ---
 Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Messaging is the key to driving more actions directly within in your messaging conversation.
 
-The LiveEngage messaging solution allows brands to send messages to customers in a variety of ways and formats making conversations more flexible - able to handle new and varying types of interactions. This enriches the consumer experience and gets your brand on board with conversational commerce.
+The Conversational Cloud messaging solution allows brands to send messages to customers in a variety of ways and formats making conversations more flexible - able to handle new and varying types of interactions. This enriches the consumer experience and gets your brand on board with conversational commerce.
 
 **Rich messaging includes:**
 

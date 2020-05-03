@@ -24,7 +24,7 @@ Conversions are reflected in your reports and are calculated based on the date o
 
 ## Recommendations
 
-* Choose longer conversion periods if your visitors are likely to take their time before making a decision. For example, consumers usually take more time when buying expensive products or services. In this case, set the time frame to the maximum (31 days), so you can attribute the purchase (conversion) to the chat or web messaging conversation or content that took place at the beginning of the time period.
+* Choose longer conversion periods if your visitors are likely to take their time before making a decision. For example, consumers usually take more time when buying expensive products or services. In this case, set the time frame to the maximum (31 days), so you can attribute the purchase (conversion) to the chat or Web Messaging conversation or content that took place at the beginning of the time period.
 * Choose shorter conversion periods if your visitors are likely to make a purchase quickly. For example, visitors are more likely to purchase flowers the same day they search for them.
 
 ![](/img/attribution-model1.png)

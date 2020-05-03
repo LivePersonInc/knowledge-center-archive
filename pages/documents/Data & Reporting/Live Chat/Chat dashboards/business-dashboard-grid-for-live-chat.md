@@ -213,7 +213,7 @@ Columns (Metrics):
 
 ### Engagement panel
 
-Included in this panel is an engagement formats selector, allowing the filtering of all data presented in this panel by the format as set up in the engagement entity in the LiveEngage campaign module.
+Included in this panel is an engagement formats selector, allowing the filtering of all data presented in this panel by the format as set up in the engagement entity in the Conversational Cloud campaign module.
 
 #### Supported formats include:
 

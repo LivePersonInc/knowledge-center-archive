@@ -69,7 +69,7 @@ The metrics widget provides a high level "health check" of your group’s real-t
 
 ## Agent widget
 
-The agent widget shows all agents under the manager which are currently connected to LiveEngage (The list of agents which are shown is not affected by the time filter). The widget will be displayed only in case the user assigned with “View agents list” permission.
+The agent widget shows all agents under the manager which are currently connected to the Conversational Cloud (The list of agents which are shown is not affected by the time filter). The widget will be displayed only in case the user assigned with “View agents list” permission.
 
 The widget supports two views, which can be switched using the icons available on the left top corner of the widget:
 
@@ -170,4 +170,4 @@ The list is sortable by "Response time". The list will be sorted by default by �
 
 ## Limitations
 
-* The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
+* The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in the Conversational Cloud due to refresh-rate differences.

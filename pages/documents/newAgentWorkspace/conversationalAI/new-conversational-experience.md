@@ -38,7 +38,7 @@ Features and products that are unlocked will be clickable, allowing you to easil
 
 * **Conversation Orchestrator** - configure Conversation Orchestrator's AI engine to orchestrate all conversations and automations.
 
-* **Third-Party Bots** - Integrate bots created on a platform other than the Conversation Builder with LiveEngage.
+* **Third-Party Bots** - Integrate bots created on a platform other than the Conversation Builder with the Conversational Cloud.
 
 ## Updated UI inside of apps
 

@@ -14,7 +14,7 @@ redirect_from:
 - how-to-mark.html
 
 ---
-Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
+Brands can better target their consumers by adding engagements to their website that invite consumers to start messaging. By creating and managing these buttons and banners through LivePerson’s platform, they can choose what users to target based on engagement attributes or entry points and route them to a desired skill. For an overview of campaigns in the Conversational Cloud and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
 ## 1. Planning & thought starters
 
@@ -33,7 +33,7 @@ _(should be completed by contact center manager, project manager or program mana
 
 ### Web Tag
 
-If you are already using LiveEngage for chat, the original code snippet you implemented on your website will apply to Web Messaging as well - no additional action is needed.
+If you are already using the Conversational Cloud for chat, the original code snippet you implemented on your website will apply to Web Messaging as well - no additional action is needed.
 
 If you’re adding Web Messaging for the first time, you’ll need to grab the web tag and ask a developer to incorporate it into every page of your website. For more information how to do this, [click here](getting-started-add-the-liveperson-tag-to-your-website.html).
 
@@ -149,11 +149,11 @@ In order to evaluate the effectiveness and performance of campaigns (and your ac
 
 #### Display multiple engagements on the same page
 
-Consumers may be targeted by more than one engagement on the same page, at the same time, although LiveEngage may not necessarily display all the engagements to the consumer. In such cases, LiveEngage uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html#top).
+Consumers may be targeted by more than one engagement on the same page, at the same time, although the Conversational Cloud may not necessarily display all the engagements to the consumer. In such cases, the Conversational Cloud uses a decision mechanism to determine the engagements that will be displayed, taking the following factors into consideration: **campaign priority, web engagement zones and agent status**. To learn more about running campaigns with multiple engagements, [click here](contact-center-management-campaigns-managing-campaigns.html#top).
 
 #### Fine tune proactive engagements
 
-Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
+Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, the Conversational Cloud offers the following settings:
 
 **Number of displays**
 
@@ -169,7 +169,7 @@ By default, after declining a proactive content engagement, other content engage
 
 #### Display engagements based on a scheduler (using shift scheduler)
 
-LiveEngage enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, [click here](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
+The Conversational Cloud enables you to define your account’s working hours, in order to set the most accurate expected response time for your consumers during a messaging conversation. You have the option of setting working hours manually, or using the automatic scheduler. For more information on configuring the shift scheduler, [click here](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html).
 
 ### Optimize the mobile experience
 

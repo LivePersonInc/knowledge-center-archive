@@ -15,7 +15,7 @@ redirect_from:
 ---
 To use the LivePerson's web live chat or Web Messaging, you must first place the Conversational Cloud Web Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
 
-The Web Tag consists of a small, lightweight piece of code that opens the door for the built-in functionalities of the web live chat and web messaging communication channels. The tag loads asynchronously, so it will not affect initial page loading time.
+The Web Tag consists of a small, lightweight piece of code that opens the door for the built-in functionalities of the web live chat and Web Messaging communication channels. The tag loads asynchronously, so it will not affect initial page loading time.
 
 The Web Tag should be embedded in each page of your website. If it is not, conversations can end without warning as visitors browse to different pages and targeted invites may not trigger.
 

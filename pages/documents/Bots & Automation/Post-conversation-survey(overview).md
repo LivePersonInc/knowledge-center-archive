@@ -251,7 +251,7 @@ For survey questions that include a text bubble, for example a text and quick re
 
 For Web Messaging, this window customization is controlled through the Conversational Cloud UI in Campaign Builder, window gallery.
 
-For mobile app messaging, the window customization is conducted via parameters within the SDK.
+For App Messaging, the window customization is conducted via parameters within the SDK.
 
 For more details on this please click the “Learn more” link located at the bottom of the design tab.
 

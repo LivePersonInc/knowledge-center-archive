@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-29 13:02:52 +0000
 
 ---
-Campaigns for chat allow brands to easily create and manage digital engagements, targeting customers based on engagement attributes or entry points and routing them to a desired skill. These buttons or banners can then be placed on your website to offer chat to your visitors. For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
+Campaigns for chat allow brands to easily create and manage digital engagements, targeting customers based on engagement attributes or entry points and routing them to a desired skill. These buttons or banners can then be placed on your website to offer chat to your visitors. For an overview of campaigns in the Conversational Cloud and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
 ## 1. Planning and thought starters
 
@@ -42,7 +42,7 @@ If you are planning to create campaigns tailored for tracking sales and conversi
 
 ## 3. Creating a campaign
 
-Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
+Before you can start creating your buttons or banners, you need to set up your campaign. In the Conversational Cloud, **engagements can be added to either new or existing campaigns**.
 
 To create a new one, simply click **Add campaign** at the bottom of the Campaign Builder, or select an existing campaign to add your engagement to.
 

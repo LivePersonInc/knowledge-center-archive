@@ -68,9 +68,9 @@ Click the Connect button in the Email Connect tile. The Email Connect setup scre
 
 ![](img/email-connect-2.png)
 
-#### Option 2 Email Connect Setup via LiveEngage Applications
+#### Option 2 Email Connect Setup via Conversational Cloud Applications
 
-Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
+Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen.
 
 ![](img/email-connect-1.png)
 
@@ -97,12 +97,12 @@ Click Test Connection and then click Save
 
 ![](img/Email-connect-step-3.png)
 
-### Step 4 Start receiving and responding to emails in LiveEngage
+### Step 4 Start receiving and responding to emails in the Conversational Cloud
 
-You can test your setup by sending an email from your email account to the email address you connected in LiveEngage. When the message shows up in LiveEngage, you can respond as an agent and see the response in the sender’s email account.
+You can test your setup by sending an email from your email account to the email address you connected in the Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the sender’s email account.
 
 {: .notice}
-EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take upto 10 minutes for brand to see the first email in LiveEngage.
+EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take up to 10 minutes for brand to see the first email in the Conversational Cloud.
 
 ### Step 5: Setup for file attachments (optional)
 Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
@@ -110,9 +110,9 @@ Email Connect uses Agent and Consumer File Sharing feature and supports these fi
 {: .notice}
 To enable file attachments, please contact your LivePerson account team.
 
-Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
+Once you have received a response that this step is complete, you will need to change the following settings in the Conversational Cloud.
 
-Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
+Log into the [Conversational Cloud](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
 * Select the 'Profiles' tab from the Users module
 
@@ -125,7 +125,7 @@ Turn on the following settings for Agent and Agent Manager Profiles:
 ## Configure Auto-Response Text
 
 ### Step 6 Add custom text in your preferred language
-This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000.
+This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in the Conversational Cloud. You can use any language of your choice. Maximum number of characters limit is 1000.
 
 ![](img/Email-connect-step-6.png)
 
@@ -165,7 +165,7 @@ Agent Effectiveness reports are available for all email conversations to brand a
 
 ### Step 11: Open the Analytics Builder
 
-Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Analytics Builder.
+Login to [the Conversational Cloud](https://authentication.liveperson.net/) and click Conversational Cloud Applications menu at the bottom left of your screen. Click on Analytics Builder.
 
 ![](img/EmailConnect_Reporting1.png)
 

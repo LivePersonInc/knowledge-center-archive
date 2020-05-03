@@ -30,7 +30,7 @@ When agents initiate **CoBrowse for Voice** session and visitors enter the requi
 
 ### Cause:
 
-* By default, the question type is rendered according to the OS preference and LiveEngage doesn’t contain an option to change the default view.
+* By default, the question type is rendered according to the OS preference and the Conversational Cloud doesn’t contain an option to change the default view.
 * The reason the view is different on emulators than on actual devices is that emulators simulate the OS only and not the device hardware (or potential impacts/faults of the hardware on the OS).
 
 ### Solution:
@@ -91,7 +91,7 @@ Change Campaign time frame > Operation hours to All hours. Do not set Operation 
 
 Authenticated chat engagements send a request to your authentication server. The authentication server verifies the request, and the chat process begins to load.
 
-If your authentication server returns a message stating that the request is not accepted/authenticated, LiveEngage displays an offline survey to the visitor.
+If your authentication server returns a message stating that the request is not accepted/authenticated, the Conversational Cloud displays an offline survey to the visitor.
 
 ### Solution:
 
@@ -129,7 +129,7 @@ Set up pre-chat surveys with name fields for engagements if you want to record/d
 
 When we build toaster engagements with the Design Your Own option in the Engagement studio the images appear correctly, with the X/Close button appearing within the Toaster itself.
 
-However, when we preview the toaster within LiveEngage or view it on our website the X does not appear within the image; instead it appears outside the image, on the right-hand side of the window.
+However, when we preview the toaster within the Conversational Cloud or view it on our website the X does not appear within the image; instead it appears outside the image, on the right-hand side of the window.
 
 ### Cause:
 

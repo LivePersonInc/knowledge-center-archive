@@ -13,7 +13,7 @@ date: '2019-01-24T12:23:19.000+00:00'
 ---
 The single sign-on (SSO) unified login feature enables LivePerson agents and site administrators to [authenticate]( https://developers.liveperson.com/mobile-sdk-and-web-authentication-introduction.html) once, in their own environment, and then to seamlessly access the LivePerson platform while already authenticated.
 
-This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation- a regulation which requires multi-factor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multi-factor authentication with its selected provider, and leverage that authentication when accessing LiveEngage.
+This feature allows for frictionless management of LivePerson agents, as well as providing the support required for financial services that are subject to OCC regulation- a regulation which requires multi-factor authentication for agents. These customers can leverage the SSO unified login feature to comply with the regulation by implementing an internal multi-factor authentication with its selected provider, and leverage that authentication when accessing the Conversational Cloud.
 
 This capability includes an architecture based on the SAML protocol, a standard protocol for implementing and supporting Single Sign-On. This architecture ensures both scalability as well as the highest level of security.
 

@@ -15,7 +15,7 @@ date: 2019-02-25 13:14:06 +0000
 
 ### Cause:
 
-1. In the agent work space in LiveEngage audio notification is muted.
+1. The Agent Workspace in the Conversational Cloud audio notification is muted.
 2. The agent’s browser is not set to “Play Sounds in Webpages”.
 
 ### Solution:
@@ -131,4 +131,4 @@ A user on the account who has permissions to modify user settings, should change
 1. Go to the Users tab.
 2. Click the Agent Manager user in the list. The Edit user window opens.
 3. In the Manage groups field select the group you want the agent manager to manage.
-4. Click Save. After logging out of LiveEngage and then logging in again, the agent manager will see both groups in the Web History.
+4. Click Save. After logging out of the Conversational Cloud and then logging in again, the agent manager will see both groups in the Web History.

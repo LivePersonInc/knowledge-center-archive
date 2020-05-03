@@ -33,7 +33,7 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 ## Workspace basics
 
-As an agent, your workspace is a centralized location for handling all of your conversations. When you login to LiveEngage your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+As an agent, your workspace is a centralized location for handling all of your conversations. When you login to the Conversational Cloud your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
 ### Dynamic conversation list
 

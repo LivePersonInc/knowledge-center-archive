@@ -1,5 +1,5 @@
 ---
-pagename: Mobile app messaging FAQs
+pagename: Mobile App Messaging FAQs
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
@@ -13,9 +13,9 @@ isNew: false
 ---
 ## Configuring Messaging
 
-### Q: How is LiveEngage messaging deployed on my app?
+### Q: How is Conversational Cloud messaging deployed on my app?
 
-**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with LiveEngage in the background and facilitates a continuous conversation, in which agents are using the LiveEngage web interface to interact with consumers. The documentation can be found in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
+**A:** The app owner integrates an SDK and uses its APIs to interface with the app. This creates a seamless and integrated experience for end-users. The SDK communicates with the Conversational Cloud in the background and facilitates a continuous conversation, in which agents are using the the Conversational Cloud web interface to interact with consumers. The documentation can be found in our [Developers' Community](https://developers.liveperson.com/products-channels-inapp-messaging.html).
 
 ### Q: Is there a test environment to explore the set-up before implementing the program?
 
@@ -39,7 +39,7 @@ isNew: false
 
 ### Q: What’s the difference between Brand ID and App ID?
 
-**A:** The Brand ID is the LivePerson Conversational Cloud account number. The App ID is the ID of a specific app. This information is defined in the Data Sources area within the LiveEngage UI. Both parameters are needed while implementing the SDK. Make sure to use the correct parameter when asked.
+**A:** The Brand ID is the LivePerson Conversational Cloud account number. The App ID is the ID of a specific app. This information is defined in the Data Sources area within the Conversational Cloud UI. Both parameters are needed while implementing the SDK. Make sure to use the correct parameter when asked.
 
 ### Q: Can the SDK integrate into the app’s push notifications?
 
@@ -50,7 +50,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: How does the SDK ensure that sensitive information is transmitted to consumers securely?
 
-**A:** Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the LiveEngage messaging SDK was designed with the strictest security measures.
+**A:** Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the Conversational Cloud messaging SDK was designed with the strictest security measures.
 
 ### Q: Does the consumer have to initiate the first conversation?
 
@@ -62,7 +62,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: What visitor information can LivePerson messaging track?
 
-**A:** Starting with our In-app Messaging SDK v3.1 (March 2018), brands can use LivePerson’s Monitoring API. This API allows brands to report events related to consumers actions in the brand’s app. These reporting events will feed into the campaigns to allow you to control messaging behaviors in the app directly from the LiveEngage UI.
+**A:** Starting with our In-app Messaging SDK v3.1 (March 2018), brands can use LivePerson’s Monitoring API. This API allows brands to report events related to consumers actions in the brand’s app. These reporting events will feed into the campaigns to allow you to control messaging behaviors in the app directly from the Conversational Cloud UI.
 
 ### Q: Can a consumer initiate a conversation if they have not been authenticated?
 
@@ -84,7 +84,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: How does the communication work?
 
-**A:** Brands customize and deploy LiveEngage messaging SDK within their app and choose where to add the CTA. When consumers initiate a conversation, they are notified exactly when an agent will respond. Consumers can initiate a conversation anytime. For authenticated customers, LiveEngage oAuth2 services verify the consumer’s identity and securely pass Personally Identifiable Information (PII) to LiveEngage. Agents receive messages directly through the LiveEngage Agent Workspace and launch a connection from there.
+**A:** Brands customize and deploy the Conversational Cloud messaging SDK within their app and choose where to add the CTA. When consumers initiate a conversation, they are notified exactly when an agent will respond. Consumers can initiate a conversation anytime. For authenticated customers, oAuth2 services verify the consumer’s identity and securely pass Personally Identifiable Information (PII) to the Conversational Cloud. Agents receive messages directly through the Agent Workspace and launch a connection from there.
 
 ### Q: Can brands control the circumstances in which the messaging button is available for consumers based on active open conversations in queue?
 
@@ -98,15 +98,15 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: Do agents need to install software on their computers?
 
-**A:** No installation or plug-ins are required as the LiveEngage Platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to LiveEngage [System Requirements](admin-settings-system-requirements.html).
+**A:** No installation or plug-ins are required as the Conversational Cloud Platform is HTML/JavaScript-based. For more information and on system requirements and supported browsers, refer to the [System Requirements](admin-settings-system-requirements.html).
 
 ### Q: What reports are available?
 
-**A:** Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
+**A:** Real-time data is available in the Conversational Cloud, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
 
 ### Q: What aspects of customer history are tracked?
 
-**A:** LiveEngage tracks all customer conversation transcripts. Tracked information includes the customer’s name, device type and source origin (Facebook, app, web). In the case that the customer has passed along any personal data (such as their email or phone number), that information is displayed as well. CSAT score is included and appended directly to the relevant conversation. In the API that will be available in a beta phase by the end of Aug you will be able to retrieve the conversations with all the above customer data.
+**A:** The Conversational Cloud tracks all customer conversation transcripts. Tracked information includes the customer’s name, device type and source origin (Facebook, app, web). In the case that the customer has passed along any personal data (such as their email or phone number), that information is displayed as well. CSAT score is included and appended directly to the relevant conversation. In the API that will be available in a beta phase by the end of Aug you will be able to retrieve the conversations with all the above customer data.
 
 ### Q: Can agents take messaging conversations and live chats at the same time?
 
@@ -114,11 +114,11 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: Can agents mark conversations as “Resolved” if a consumer doesn't respond in a certain amount of time?
 
-**A:** Yes. Current practice is to manually resolve the conversation at a set period of time determined by contact center policies. The Auto close feature of LiveEngage enables brands to determine the exact length of time with no customer response that will trigger an automatic closing of a conversation.
+**A:** Yes. Current practice is to manually resolve the conversation at a set period of time determined by contact center policies. The Auto close feature of the Conversational Cloud enables brands to determine the exact length of time with no customer response that will trigger an automatic closing of a conversation.
 
 ### Q: Is the communication secure?
 
-**A:** Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the LiveEngage messaging SDK was designed with the strictest security measures.
+**A:** Security is an integral part of the software development processes at LivePerson. To protect the privacy of both consumers and the brand, the Conversational Cloud messaging SDK was designed with the strictest security measures.
 
 **The following features are implemented as part of the solution:**
 
@@ -137,11 +137,11 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: Will LivePerson server downtime affect app function?
 
-**A:** LiveEngage application server downtime will have no effect on the experience of the consumers on your app or website.
+**A:** The Conversational Cloud application server downtime will have no effect on the experience of the consumers on your app or website.
 
 ### Q: What are the supported operating systems and browsers?
 
-**A:** Refer to [LiveEngage System Requirements](admin-settings-system-requirements.html) for information on supported operating systems and browsers.
+**A:** Refer to the [System Requirements](admin-settings-system-requirements.html) for information on supported operating systems and browsers.
 
 ### Q: Where is LivePerson hosted?
 

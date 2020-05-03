@@ -23,7 +23,7 @@ Social connect can be accessed via the quick launch menu
 
 ## Agent experience
 
-Contact center agents will interact with customers as they typically would in LiveEngage with any other messaging channel. Additionally, social specific capabilities will be available via the SocialConnect agent widget.
+Contact center agents will interact with customers as they typically would in the Conversational Cloud with any other messaging channel. Additionally, social specific capabilities will be available via the SocialConnect agent widget.
 
 ## Agent workspace transcript
 
@@ -76,7 +76,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
 
 ### Send image
 
-The “Send Image” button provides agents the ability to send media files (images and gifs) to consumers publicly or privately through the Social Widget. These media files can be located in a URL or on the agent’s desktop, and sent through LiveEngage to the consumer. This capability is configurable by an admin in the SocialConnect Home.
+The “Send Image” button provides agents the ability to send media files (images and gifs) to consumers publicly or privately through the Social Widget. These media files can be located in a URL or on the agent’s desktop, and sent through the Conversational Cloud to the consumer. This capability is configurable by an admin in the SocialConnect Home.
 
 * Agents Select the “Add Image” Button located on the bottom of the Social Widget
 * Agents are taken to the Add Media tool
@@ -155,7 +155,7 @@ View media provides agents the ability to view all images, gifs and videos recei
 SocialConnect will be enabled by your LivePerson account team.
 Brands can connect and configure Social media accounts they would like to receive public/private messages from.
 
-* SocialConnect home is only available to LiveEngage administrators
+* SocialConnect home is only available to administrators
 * Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
 * Facebook
   * Admins log into Facebook utilizing the Facebook account with admin access to the brand page
@@ -188,4 +188,4 @@ SocialConnect will support basic routing of a social media channel (e.g. Faceboo
 More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the SocialConnect product.
 
 {: .notice}
-SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Analytics Builder, should operate with SocialConnect as expected.
+SocialConnect will not add any additional metrics or capabilities to the Conversational Cloud reporting facilities. All existing facilities, such as the Analytics Builder, should operate with SocialConnect as expected.

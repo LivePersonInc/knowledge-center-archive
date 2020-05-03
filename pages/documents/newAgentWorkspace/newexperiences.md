@@ -3,7 +3,7 @@ pagename: New Experiences
 categoryName: Agent & manager workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: for all LiveEngage users - coming September 2019
+subtitle: for all users - coming September 2019
 level3: ''
 permalink: new-experiences.html
 layout: newAgentWorkspaceHomepage
@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 <div class="homeTopText">
-<span class="homepageSubtitle">As we embark on a new journey of redesigning our LiveEngage product, by Sept 16th, all brands using LivePerson will begin seeing an exciting new UI</span>. The first thing you’ll notice is the new navigation bar displaying to all users.  
+<span class="homepageSubtitle">As we embark on a new journey of redesigning our Conversational Cloud product, by Sept 16th, all brands using LivePerson will begin seeing an exciting new UI</span>. The first thing you’ll notice is the new navigation bar displaying to all users.  
 
 <div class="notice">
 For the first time, in order to help you prepare for this UI change, we are publishing a release schedule. You will receive the new navigation bar on:
@@ -39,9 +39,9 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 ## Navigation bar: moving to left, new icons, new color
 
-* **Who will get this**: **ALL** users of LiveEngage
+* **Who will get this**: **ALL** users of the Conversational Cloud
 
-* **What do I have to do to see this?** Nothing. This will be available to all users of LiveEngage automatically.
+* **What do I have to do to see this?** Nothing. This will be available to all users of the Conversational Cloud automatically.
 
 * **Can I control who sees this?** No.  The navigation bar will appear to all users
 
