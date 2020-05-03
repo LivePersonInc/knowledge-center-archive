@@ -347,6 +347,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:  
+       - pagename: May
+          level3:
+            - level3name: Week of May 4th
         - pagename: April
           level3:
             - level3name: Week of April 1st
