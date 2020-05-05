@@ -1,5 +1,5 @@
 ---
-pagename: Latest whats new
+pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
@@ -10,16 +10,13 @@ isTutorial: false
 isNew: false
 
 ---
-Here’s the latest features, enhancements and enablements that are coming in the following weeks:
+Here are the latest features, enhancements and enablements that are coming in the following weeks:
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/410243448?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Agent App available on Android 
+## Agent App available soon on Android 
 The Agent app offers messaging capabilities to help agents that are working from home to continue to provide services to their consumers, and support brands’ transition to work-from-home operations. This app currently runs on iIOS, and will now be made available on Android too.
 
 Agents can use the app to accept new conversations, transfer conversations to another skill, close conversations or return them to the queue. Agents can also leverage predefined content,  share images and use secure forms.
-
-{: .notice}
-This feature only supports version iOS12 and up.
 
 For more information on the Agent App, click [here](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html)
 
