@@ -499,7 +499,7 @@
     analysisType: Agent Status
     Channel: Messaging,Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric's value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Agent Activity
     filteredBy: Agent, Group
 - metricitem:
@@ -579,7 +579,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'The number of conversations during which an agent did not respond to a consumer message. Conversations in which the Agent is the first to message (resume) can''t be marked as abandoned, even if the consumer did not respond to an agent message.'
+    Description: The number of conversations during which an agent did not respond to a consumer message. Conversations in which the Agent is the first to message (resume) can''t be marked as abandoned, even if the consumer did not respond to an agent message.
     Dashboard: Business Activity for Messaging
     filteredBy: Date, Initial Device, Goal Type, Group , Source Type
 - metricitem:
@@ -1035,7 +1035,7 @@
     analysisType: Agent Status
     Channel: Messaging
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Business Activity for Messaging
     filteredBy: Date, Initial Device, Goal Type, Group , Source Type
 - metricitem:
@@ -2411,7 +2411,7 @@
     analysisType: Agent Status
     Channel: Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Business for Live Chat
     filteredBy: Agent, Group
 - metricitem:
@@ -3915,7 +3915,7 @@
     analysisType: Agent Status
     Channel: Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Operational & Staffing for Live Chat
     filteredBy: Agent, Group
 - metricitem:
@@ -4331,7 +4331,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: 'Average number of responses provided by consumers to an agent''s message during an agent-segment'
+    Description: Average number of responses provided by consumers to an agent''s message during an agent-segment
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -4467,7 +4467,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric''s calculation.'
+    Description: The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric''s calculation.
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)
 - metricitem:
@@ -4795,7 +4795,7 @@
     analysisType: Agent Status
     Channel: Messaging
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric's value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group
 - metricitem:
@@ -5043,7 +5043,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: 'The number of closed conversations which included no consumer response to an agent''s message. Measured during the last agent-segment of the conversation.'
+    Description: The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -5107,7 +5107,7 @@
     analysisType: Agent Productivity
     Channel: Messaging
     formulaOptional: 
-    Description: 'The number of times another agent (user) takesover conversations from a given agent.Used to analyse how many time conversations were taken over FROM a bot or human agent (example- How many conversations were takenover from ''Concierge-Bot'' agent/user?).'
+    Description: The number of times another agent (user) takesover conversations from a given agent.Used to analyse how many time conversations were taken over FROM a bot or human agent (example- How many conversations were takenover from 'Concierge-Bot' agent/user?).'
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)
 - metricitem:
@@ -5123,7 +5123,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'Number of responses provided by consumers to an agent''s message. This KPI is assigned to skill (not agent).'
+    Description: Number of responses provided by consumers to an agent's message. This KPI is assigned to skill (not agent).
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Skill, Engagement, Campaign, LoB, End-Point (Source Type)
 - metricitem:
@@ -6268,7 +6268,7 @@
     analysisType: Agent Status
     Channel: Messaging,Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Agent Activity
     filteredBy: Agent, Group
 - metricitem:
@@ -6348,7 +6348,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'The number of conversations during which an agent did not respond to a consumer message. Conversations in which the Agent is the first to message (resume) can''t be marked as abandoned, even if the consumer did not respond to an agent message.'
+    Description: The number of conversations during which an agent did not respond to a consumer message. Conversations in which the Agent is the first to message (resume) can''t be marked as abandoned, even if the consumer did not respond to an agent message.
     Dashboard: Business Activity for Messaging
     filteredBy: Date, Initial Device, Goal Type, Group , Source Type
 - metricitem:
@@ -6804,7 +6804,7 @@
     analysisType: Agent Status
     Channel: Messaging
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Business Activity for Messaging
     filteredBy: Date, Initial Device, Goal Type, Group , Source Type
 - metricitem:
@@ -8180,7 +8180,7 @@
     analysisType: Agent Status
     Channel: Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Business for Live Chat
     filteredBy: Agent, Group
 - metricitem:
@@ -9684,7 +9684,7 @@
     analysisType: Agent Status
     Channel: Chat
     formulaOptional: 
-    Description: 'Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.'
+    Description: Cumulative time ([h]:mm) in Online state. Note! Messaging Agents must have a configured Chat concurrency (greater than 0) in order for the system to populate this metric''s value. Messaging agents with a Chat concurrency of 0 appear with 0 online time.
     Dashboard: Operational & Staffing for Live Chat
     filteredBy: Agent, Group
 - metricitem:
@@ -10100,7 +10100,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: 'Average number of responses provided by consumers to an agent''s message during an agent-segment'
+    Description: Average number of responses provided by consumers to an agent''s message during an agent-segment
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -10236,7 +10236,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric''s calculation.'
+    Description: The time on average a consumer waits for a response from the first human agent assigned to the conversation.If a bot was the first assigned agent, the responses from the bot are omitted from this metric''s calculation.
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)
 - metricitem:
