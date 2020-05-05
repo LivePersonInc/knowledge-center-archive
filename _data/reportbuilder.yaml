@@ -4331,7 +4331,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: Average number of responses provided by consumers to an agent''s message during an agent-segment
+    Description: Average number of responses provided by consumers to an agent's message during an agent-segment
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -10100,7 +10100,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: Average number of responses provided by consumers to an agent''s message during an agent-segment
+    Description: Average number of responses provided by consumers to an agent's message during an agent-segment
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -10812,7 +10812,7 @@
     analysisType: Agent Segments
     Channel: Messaging
     formulaOptional: <null>
-    Description: 'The number of closed conversations which included no consumer response to an agent''s message. Measured during the last agent-segment of the conversation.'
+    Description: 'The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.'
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Agent, Group, Skill, User Type, Agent Segment Start Reason, Agent Segment End Reason, Engagement, Campaign, End-Point (Source type), Source, Consumer Device
 - metricitem:
@@ -10892,7 +10892,7 @@
     analysisType: Consumer Experience
     Channel: Messaging
     formulaOptional: 
-    Description: 'Number of responses provided by consumers to an agent''s message. This KPI is assigned to skill (not agent).'
+    Description: 'Number of responses provided by consumers to an agent's message. This KPI is assigned to skill (not agent).'
     Dashboard: Performance Dashboard for Messaging
     filteredBy: Skill, Engagement, Campaign, LoB, End-Point (Source Type)
 - metricitem:
