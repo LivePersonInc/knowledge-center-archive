@@ -207,7 +207,7 @@ To monitor and manage chat agents, use:
 The following are known limitations of the new messaging manager experience:
 
 **Unassigned skills**
-When a conversation has no skill - it is labeled as ‘unassigned skill.’ Conversations that have an ‘unassigned’ skill and are in the queue will not display in the All Connections list or in the Conversation widget.  The only users that can see these conversations are managers who are not assigned to any groups. Unassigned skill conversations will be added to the above mentioned lists in Q4 2019.
+By default, when a conversation has no skill - it is labeled as ‘unassigned skill.’ Conversations that have an ‘unassigned’ skill and are in the queue will not display in the All Connections list or in the Conversation widget. The only users that can see these conversations are managers who are not assigned to any groups. Unassigned skill conversations will be added to the above-mentioned lists in Q4 2020.
 
 **Urgent conversations**
 In the past, consumers were able to mark a conversation as ‘urgent’ and an urgent icon would display to the agents. This capability is no longer supported.
