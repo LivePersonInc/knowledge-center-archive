@@ -29,11 +29,6 @@ If a user creates or updates an existing bot, the used Bot Vendor (Watson, Dialo
 
 In the Bot creation wizard, the customer could click on test connection if creating a Faas bot without the prior selection of a Faas function for the bot. This is fixed now, the user needs to explicitly select a faas function prior testing the connection.
 
-## Disable cross account requests INT-1119
-### Type: Bug fix (Bot Connectors 2.17)
-
-In the current version (2.16) an attacker could access bot metrics from other customers. This exploit is now fixed by explicitly checking if the botId matches the provided accountId.
-
 ## Strip down xss from payload 
 ### Type: Bug fix (Bot Connectors 2.17)
 
