@@ -43,3 +43,40 @@ We want to ensure that all our product names reflect their capability for easy n
 | Agent Workspace for messaging | Agent Workspace |
 | Report Builder| Analytics Builder
 | SmartConnect| Connect to Messaging|
+
+## Discover & Understand with the Intent Manager
+The Discover and Understand section of our product highlights how LivePerson’s Conversational Cloud enables brands to understand the most popular consumer intentions, analyze how well the intents are being fulfilled, and identify intents that can be easily automated.
+
+### New name
+**Intent Manager**
+- Intent Analyzer
+- Intent Builder
+
+The overarching Intent Manager product is the place that receives intents and provides a unified view of them all for easy analysis - fulfilling the Discover aspect of the Conversational Cloud. Using it’s Intent Builder and Intent Manager capabilities, brands can better understand consumer intentions, by automatically building and classifying intents. In the UI, the Intent Analyzer is the place to go:
+
+[insert image]
+
+## Design & Scale with Conversation Builder, Manager and Orchestrator 
+The Conversation Builder, Conversation Manager, and Conversation Orchestrator are the products that enable brands to build and manage AI-powered chatbots that work together with human experts to generate leads, drive sales, offer support, and build loyalty with brands.
+
+| OLD NAME | NEW NAME | 
+| --- | --- | 
+| Maven | Conversation Orchestrator |
+| Maven Assist - Bots| Agent Assist | 
+| AI Powered Routing | Dynamic Routing | 
+
+While the names Conversation Builder, Conversation Manager, and Context Warehouse are not changing, Maven and the Maven Workspace is now the Conversation Orchestrator. 
+
+Conversation Orchestrator name signifies how this product connects to backend systems to help them work together seamlessly - such as Agent Assist, Dynamic Routing, Conversation Orchestrator APIs and more. From there, the Conversation Orchestrator collects intent, context (backend), and predictive attributes to help route customers to the most optimal bot, human agent, or relevant information. Brands can then design automations that fulfill specific intents, and scale by supervising automations with human agents and supporting agents through recommendations of  relevant information from a Knowledge Base, or suggesting a bot to join.
+
+![](img/product-renaming3.png)
+
+## Measure & Improve with Conversation Analytics
+The Conversation Analytics products enable brands to closely monitor marketing, sales, and customer care KPIs to optimize conversational operations - all in real time. 
+
+| OLD NAME | NEW NAME | 
+| --- | --- | 
+| Conversation Intelligence | Conversation Analytics |
+| Meaningful Connection Score | Meaningful Conversation Score | 
+
+
