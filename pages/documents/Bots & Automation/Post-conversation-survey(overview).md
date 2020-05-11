@@ -14,7 +14,11 @@ redirect_from:
   - using-forms.html
   - bots-automation-post-conversation-survey.html
 ---
-The post conversation survey bot (PCS) gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
+
+{: .important}
+Post-Conversation Survey (PCS) functionality is now supported by Conversation Builder. No new enhancements will be done to the Bot Studio version of PCS, described on this page. LivePerson recommends that customers use Conversation Builder to [build post-conversation surveys](https://developers.liveperson.com/conversation-builder-bots-survey-bots.html). To learn more, please contact your LivePerson account manager.
+
+The post-conversation survey bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
 ## Survey flow
 
