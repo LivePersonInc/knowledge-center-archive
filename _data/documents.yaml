@@ -278,6 +278,7 @@
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Product renaming overview
     - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
@@ -350,6 +351,7 @@
         - pagename: May
           level3:
             - level3name: Week of May 4th
+            - level3name: Week of May 11th
         - pagename: April
           level3:
             - level3name: Week of April 1st
@@ -384,8 +386,7 @@
           level3:
             - level3name: Week of November 25th
             - level3name: Week of November 18th
-            - level3name: Week of November 11th
-            - level3name: Week of November 4th
+
        
 - categoryname: Troubleshooting
   image: Troubleshooting
