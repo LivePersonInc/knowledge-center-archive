@@ -54,7 +54,7 @@ The Discover and Understand section of our product highlights how LivePerson’s
 
 The overarching Intent Manager product is the place that receives intents and provides a unified view of them all for easy analysis - fulfilling the Discover aspect of the Conversational Cloud. Using it’s Intent Builder and Intent Manager capabilities, brands can better understand consumer intentions, by automatically building and classifying intents. In the UI, the Intent Analyzer is the place to go:
 
-![](img/product-renaming2.jpg)
+![](img/product-renaming2.png)
 
 ## Design & Scale with Conversation Builder, Manager and Orchestrator 
 The Conversation Builder, Conversation Manager, and Conversation Orchestrator are the products that enable brands to build and manage AI-powered chatbots that work together with human experts to generate leads, drive sales, offer support, and build loyalty with brands.
