@@ -1,7 +1,7 @@
 ---
 pagename: Set up and management
 categoryName: Troubleshooting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: messaging
 subtitle: Troubleshooting for all questions relating to set up and management
 level3: ''

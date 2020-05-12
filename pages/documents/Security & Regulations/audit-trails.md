@@ -1,7 +1,7 @@
 ---
 pagename: Audit trail
 categoryName: Security & regulations
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''

@@ -1,7 +1,7 @@
 ---
 pagename: Authenticated Web Messaging
 categoryName: Messaging channels
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: messaging
 subtitle: ''
 level3: ''

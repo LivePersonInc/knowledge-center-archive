@@ -1,7 +1,7 @@
 ---
 pagename: Using the MCS Toolkit
 categoryName: Data & reporting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Analysis of performance at the account level, agent level, conversation
   level, and even message by message

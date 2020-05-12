@@ -1,7 +1,7 @@
 ---
 pagename: Agent tools
 categoryName: Troubleshooting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Troubleshooting on questions relating to agent tools
 level3: ''

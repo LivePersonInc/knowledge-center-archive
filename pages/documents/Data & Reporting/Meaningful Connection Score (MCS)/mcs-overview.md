@@ -1,7 +1,7 @@
 ---
 pagename: Meaningful Conversation Score (MCS) overview
 categoryName: Data & reporting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Measure the quality of your brand’s connection with every consumer over
   time

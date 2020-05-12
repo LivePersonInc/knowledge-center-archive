@@ -1,7 +1,7 @@
 ---
 pagename: Third-party Bot Connectors
 categoryName: Getting started
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: LivePerson allows for external Bot Vendors and Bot builders to be enabled
   and managed through the Conversational Cloud just like a normal human agent

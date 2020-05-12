@@ -1,7 +1,7 @@
 ---
 pagename: Consumer experience
 categoryName: Troubleshooting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: chat
 subtitle: Troubleshooting for questions relating to the consumer experience
 level3: ''

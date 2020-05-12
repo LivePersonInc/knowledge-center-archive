@@ -1,7 +1,7 @@
 ---
 pagename: Add Web Messaging to your website
 categoryName: Messaging channels
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: messaging
 subtitle: Buttons and banners on your website make it possible to engage consumers
   over messaging

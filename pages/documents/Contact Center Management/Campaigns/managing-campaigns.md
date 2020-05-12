@@ -167,7 +167,7 @@ An engagement zone is a defined area on a web page where engagements can be disp
 
 ### Agent status
 
-When more than one engagement qualifies to display in the same zone at the same time, the platform generally displays an online chat engagement. If agents are not available, the platform generally displays a content engagement. If no content engagements are configured, an offline chat engagement will be displayed. Web messaging engagements will be displayed regardless of the agent status.
+When more than one engagement qualifies to display in the same zone at the same time, the platform generally displays an online chat engagement. If agents are not available, the platform generally displays a content engagement. If no content engagements are configured, an offline chat engagement will be displayed. Web Messaging engagements will be displayed regardless of the agent status.
 
 ### Additional Rules
 

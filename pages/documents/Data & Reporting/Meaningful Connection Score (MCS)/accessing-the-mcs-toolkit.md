@@ -1,7 +1,7 @@
 ---
 pagename: Accessing the MCS toolkit
 categoryName: Data & reporting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Instructions on how to access the MCS toolkit
 level3: ''
