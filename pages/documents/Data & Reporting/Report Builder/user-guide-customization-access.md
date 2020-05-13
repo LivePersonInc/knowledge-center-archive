@@ -67,7 +67,7 @@ Dashboards in Analytics Builder are saved in folders. The available folders are 
 * **Shared reports** - dashboards saved here are visible to all the users in the account.
   * **LE predefined dashboards**: All available predefined LivePerson dashboards. See details below.
   * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-  * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
+  * **Analytics reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ### Creating and managing sub folders
@@ -540,4 +540,5 @@ Users are advised to recreate their dashboards every so often in order to get th
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
 * **Time based derived metrics** - It is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-{: .important} **Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Analytics Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+{: .important} 
+**Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Analytics Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
