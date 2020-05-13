@@ -90,6 +90,8 @@ In the future the following functionality will added:
 - Network effect support
 - Automotive specific feature support
 
+![](img/Agent-App-Android-RN.png
+
 {: .notice}
 The new Agent App will be released initially for Android in 4 steps in Q2 and Q3. In Q4 it will be released for IOS and replace the existing IOS Agent App.
 
