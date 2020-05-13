@@ -12,7 +12,7 @@ date: '2019-01-21T13:15:27.000+00:00'
 isNew: false
 
 ---
-The Business dashboard for messaging provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel for messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brands website, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
+The business dashboard for messaging provides a daily snapshot of campaign performance, allowing brands to analyze the campaign funnel for messaging engagements. Using this dashboard, you can identify opportunities to grow your reach and boost service availability by extracting actionable conclusions based on the consumer’s journey through the brands website, and other engagement sources. This dashboard reflects consumer demand as well as how successfully the campaign was set up on the account. You can utilize this dashboard to optimize your campaign targeting and engagement routing.
 
 Brands are able to view messaging data at the Brand, Line of Business, Campaign, Engagement and Entry Point levels for funnel metrics.
 
