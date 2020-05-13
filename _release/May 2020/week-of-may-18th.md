@@ -266,3 +266,6 @@ Add address (country, region, zipCode) has been added to the personal informatio
 - Fix OS version field 
 These issue has now been resolved. 
 
+## Double Account Rollover
+### Type: Enhancement (UMS 3.25)
+Ability to rollover conversations from a Brand to another Answering Service, then to another Answering service that might be used as backup.  This feature is highly valuable for Brands that have centralized answering services, that need back-up answering service provided by LivePerson or another vendor.
