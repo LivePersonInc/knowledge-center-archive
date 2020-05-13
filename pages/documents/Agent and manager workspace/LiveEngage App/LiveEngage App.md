@@ -1,5 +1,5 @@
 ---
-pagename: IOS user guide
+pagename: iOS user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
