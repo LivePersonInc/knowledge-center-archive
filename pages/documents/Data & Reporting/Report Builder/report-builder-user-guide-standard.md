@@ -22,7 +22,7 @@ To access the Analytics Builder:
 4. Click **shared reports**. Two folders are displayed:
    * **LE predefined dashboards**: All available predefined LivePerson dashboards.
    * **My account**: Reports that have been designed specifically for your account.
-   * **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package.
+   * **Analytics reporting**: Customized dashboards created by LP for brands with a customization package.
 5. Click on a folder to view the available reports inside.
 
 **How to video:** [**Getting started**](https://bcove.video/2vj2Sid)
