@@ -105,8 +105,8 @@
         - pagename: Configuring response times
         - pagename: Fallback configuration per skill
         - pagename: Static load balancing
-        - pagename: Automatic messages
         - pagename: Private Messages overview
+        - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
             - level3name: Automatic messages configuration
