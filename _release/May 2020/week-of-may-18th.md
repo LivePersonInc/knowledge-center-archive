@@ -269,3 +269,57 @@ These issue has now been resolved.
 ## Double Account Rollover
 ### Type: Enhancement (UMS 3.25)
 Ability to rollover conversations from a Brand to another Answering Service, then to another Answering service that might be used as backup.  This feature is highly valuable for Brands that have centralized answering services, that need back-up answering service provided by LivePerson or another vendor.
+
+## Updated UI for CoBrowse for Voice agents
+### Type: Enhancement (CoBrowse 3.15)
+
+The user interface of the CoBrowse for Voice agent console was updated to align with the beautified UI and dark theme. 
+
+![](img/week-of-may-18th-1.png)
+
+## Voice/Video Calls: Camera no longer required 
+### Type: Enhancement (CoBrowse 3.15)
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+In the event that an agent and consumer are chatting, and the agent does not have a camera connected, video calls will still start with voice in both directions and consumer-to-agent video only. 
+
+## Voice/Video Calls failed to resume
+### Type: Bug fix (CoBrowse 3.15)
+
+When navigating to a different page during a video or voice call, the call did not resume after the new page was loaded. This bug has been resolved. 
