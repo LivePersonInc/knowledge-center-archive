@@ -22,7 +22,42 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## Post conversation survey bots
 ### Type: New functionality (Conversation Builder)
 
-This feature is available for all channels and for all customers (not chat)
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 {: .notice}
 Before using this feature, it must be enabled in Conversation Builder by LivePerson. Contact your LivePerson account representative to have this configuration change made.
@@ -33,6 +68,7 @@ In this release, Conversation Builder introduces survey bots, which you can crea
 - e-text questions
 
 Use a survey bot to measure bot/agent and skill performance and to identify opportunities to improve on your quality targets.
+![](img/RN-May18-1.png)
 
 Please note:
 - To use survey bots created in Conversation Builder, you must log into Conversation Builder via single sign-on through the Conversational Cloud (previously known as LiveEngage). This feature isn't supported on the AWS platform where you log into Conversation Builder directly.
@@ -41,6 +77,43 @@ Please note:
 
 ## Language support
 ### Type: Enhancement (Conversation Builder)
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 In this release, we’ve enhanced the language support for simple and complex bots:
 
