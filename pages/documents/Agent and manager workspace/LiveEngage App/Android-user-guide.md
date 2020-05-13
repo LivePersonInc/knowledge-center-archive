@@ -15,6 +15,8 @@ The LivePerson Agent app is an Android application that allows agents and agent 
 
 In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
+![](img/V1-Android-agent-app-1.png)
+
 ## Current Android Agent App status
 The current Android app supports version 8 and up.
 
@@ -90,6 +92,8 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 ### Log out button
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the LivePerson database.
 
+![](img/V1-Android-agent-app-2.png)
+
 ## Agent flow
 ### Empty state
 The first time the agent logs in to the app it appears to be in an empty state. This is because the agent has no assigned conversations and no new conversation ringing. All agent’s conversations were ended (either manually or automatically).
@@ -97,6 +101,8 @@ Agents can open the drawer menu by tapping their picture on the top left corner.
 
 ### New ring alert
 New conversation ringing (ACD manual accept mode only)
+
+![](img/V1-Android-agent-app-3.png)
 
 ### Accepting the conversation
 Tapping the "accept" button assigns the conversation to the agent and opens the conversation. Tapping accept opens only 1 conversation at a time, even if there are multiple conversations ringing for the agent.
@@ -129,6 +135,8 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 ### Send icon
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
+![](img/V1-Android-agent-app-4.png)
+
 ### Conversation message: consumer side
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
 
@@ -152,6 +160,8 @@ In case the conversation is no longer relevant and is not needed for future refe
 ### Inactive conversations
 Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
 
+![](img/V1-Android-agent-app-5.png)
+
 ## The connections list
 ### Connection list order
 The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
@@ -174,6 +184,8 @@ Each push notification includes:
 - Customer ID: showing the name (or phone number) of the consumer who sent the new message.
 - Message excerpt: a short excerpt of the new message.
 - Tapping the notification: opens the app and focuses on the relevant conversation’s last message.
+
+![](img/V1-Android-agent-app-6.png)
 
 ## Logout
 ### Return conversation to queue when logging out
@@ -213,6 +225,8 @@ The list order is similar to the logic explained for the agents list order (see 
 {: .notice}
 The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
 
+![](img/V1-Android-agent-app-7.png)
+
 ### In queue conversation indication
 For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
 
@@ -235,6 +249,8 @@ To close the panel, the user can tap the “back” button or tap anywhere outsi
 - Tap again to remove the filter.
 - To filter by additional parameters, users can tap the back button to return to the main filter screen.
 - To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
+
+![](img/V1-Android-agent-app-8.png)
 
 ## Managers actions
 ### Join/leave conversations
