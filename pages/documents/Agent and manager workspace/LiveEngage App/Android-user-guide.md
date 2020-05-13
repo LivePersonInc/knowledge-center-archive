@@ -117,3 +117,165 @@ The app filters out conversations with unassigned skills. Unassigned skill conve
 **Consumer ID:** The key information indicator for the consumer. The ID usually contains the consumer’s name. When using SMS, the consumer ID is their phone number.
 
 **Last message excerpt:** Displays the last conversation message excerpt.
+The list entry also display conversation response time indication (see connections list slide)
+
+### Conversation message
+Every conversation starts with a new message, originating from the consumer.
+
+## Messaging the consumer
+### Text field
+When the agent writes several lines or uses the ‘return’ key, the text field expands according to the text size.
+
+### Send icon
+Tapping the send icon adds the text to the conversation and sends it to the consumer.
+
+### Conversation message: consumer side
+Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
+
+### Conversation message: agent side
+Agent side conversation messages appear with a white background.
+Below the agent bubble there is an indication for the agent name and a time stamp. In addition there is a message status icon “v” indication: sent, delivered and read (similar to the whatsApp indications).
+
+### Auto messages/system messages
+Automatic messages or system messages display in a white color without a bubble centered in the screen.
+
+### Conversation history
+When an agent accepts new conversations, he sees the new message arrive. In addition, if there are previous conversations in the history the last conversations will appear as well. The agent is able to scroll up to reveal the history of additional closed messaging conversations with the consumer.
+
+## Agent action menu
+### Send back to queue
+Tapping the ‘Send back to queue’ action removes the agent assignment from the conversation and sends it back to the skill queue. The position of the conversation in the queue is determined by LivePerson’s algorithm (currently it is positioned at the end of the queue, but enhancements to the algorithm are in progress).
+
+### End conversation
+In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from LiveEngage Web. On LiveEngage Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+
+### Inactive conversations
+Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
+
+## The connections list
+### Connection list order
+The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
+The list is sorted according to the response time (SLA). If there is no response time because the conversation is pending a consumer response, then the list is sorted according to last modified conversation by the agent (top to bottom).
+
+### The dynamic list behavior and transition
+When the conversation status changes, e.g. when an agent responds to an overdue conversation, the position of the conversation in the queue changes accordingly.
+
+{: .notice}
+Agents can see closed conversations for 1 day under the 'My' tab and can search for closed conversation up to 90 days under the 'All' tab.
+
+### Conversation list indications
+Conversations pending an agent response have response time indications on right side. In the case where a conversation is overdue (at the top according to sorting logic), a red bell icon is displayed
+The app filters out conversations with unassigned skills. Unassigned skill conversations will not be displayed in the connections list.
+
+## Notifications
+### Push notifications
+When the agent moves the app to the background, new conversation are received as push notifications. Each push include a generic message that a new conversation is waiting to be accepted.
+Each push notification includes:
+- Customer ID: showing the name (or phone number) of the consumer who sent the new message.
+- Message excerpt: a short excerpt of the new message.
+- Tapping the notification: opens the app and focuses on the relevant conversation’s last message.
+
+## Logout
+### Return conversation to queue when logging out
+When a user is trying to log out of the app, if he has open conversations assigned to him, an alert message will be prompted.
+User can choose between three options:
+- Automatically return all his assigned open conversations back to queue and logout
+- Logging out without returning the conversation back to queue
+- Cancel - the user will not be logged out and return to previous screen.
+
+## Manager Flow
+### The Agent Manager Capabilities
+
+{: . noitce}
+All of the functionality for agent users apply to agent manager as well.
+
+In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
+Below describes the additional set of features available only for users with manager role:
+### The manager connections view - My/All tabs
+When a user with a manager role logs in to the app, the connections list display two tabs: My/All.
+Under the my tab, managers can view open conversation assigned to him or conversations that he is joined to.
+
+### Assigned agent name
+In each conversation entry, there is an indication of the assigned agent
+
+### Join conversation icon
+There is a “join” icon for the conversation that the manager is joined to
+
+### The ‘All’ tab connections list
+In the ‘All’ tab, managers can view:
+- Open conversations assigned to the agent he is managing (in his agent group)
+- Open conversations in queue - manager can view conversations in queue (not assigned to any agent). The manager can only view in queue conversations assigned to a skill which at least one of the agents are assigned to
+- Close conversation - manager can view closed conversations that were assigned to agents he manages.
+
+The list displays closed conversations from the past 14 days (from conversation start date).
+The list order is similar to the logic explained for the agents list order (see above). Closed conversations are displayed at the bottom and sorted according to the closing date (recently closed at the top).
+
+{: .notice}
+The app filters out conversations with unassigned skill. Unassigned skill conversation will not be visible in the my/all tab list.
+
+### In queue conversation indication
+For conversations which are in queue, the agent name field is labelled as ‘Unassigned’
+
+### Closed conversation indication
+There is an icon indication for conversation which are closed
+
+### "All’ tab filters
+In the ‘All’ tab there is ability to filter the list according to status, agents and skill
+
+### The filter main panel
+When tapping the filter icon, a filter panel slides in from the right side.
+From this panel, use can select multiple ways to filter the “all” connections list
+Tapping each of the filters: status, mobile experts, skills; drill down to the relevant filter selection.
+To close the panel, the user can tap the “back” button or tap anywhere outside the filter panel.
+
+### The status filter
+- From the status filter, users can filter conversation by their statuses: Open, Open & Unassigned or Closed.
+- This is a single selection filter.
+- When tapping one of the status items will filter the connections list accordingly.
+- Tap again to remove the filter.
+- To filter by additional parameters, users can tap the back button to return to the main filter screen.
+- To apply the current filter and close the filter panel, users can tap anywhere outside the filter panel.
+
+## Managers actions
+### Join/leave conversations
+Users with manager role, can join conversations which are assigned to one of his agents or in the conversations queue
+The join button is available from the action menu in the upper right corner (3 dots).
+After joining a conversation users can send messages.
+The join conversation button in the menu is changed to “Leave conversation” when the conversation has been joined by the manager
+
+### Send back to queue
+Managers can return conversation back to queue without needing to join conversations.
+
+### End conversation
+Managers can only end conversation assigned to him or to conversations that he joined
+As mentioned before, once a manager joins conversation it will also be available in the “My” tab.
+
+### Closed conversations
+Managers can view closed conversation from the “All” tab.
+The are no available actions for closed conversations (there is ability to resume conversation from the app). Once the conversation has been closed, the text area is replaced with a “Conversation is closed” banner.
+
+### No conversation state
+This happens:
+- The first time the manager logs into the app.
+- The agent has no assigned conversations
+- All agent’s conversations were ended (either manually or automatically).
+
+In this state a white image will be display on right panel with the label “Conversations list is empty”under it.
+
+### No selection state
+This happens:
+- After login to the app and the agent has assigned conversations
+- The agent returned conversation back to queue
+- The agent closed conversation
+
+When an agent manager is focused on a conversation in one tab (e.g. all tab) and then goes to the next tab (e.g. my tab) and the conversation is not available under the tab list.
+In this state the “cactus” image will be display on right panel with the label “Please select a conversation” under it
+
+The list of agents available are according the agent in the manager agent group.
+
+
+
+
+
+
+
