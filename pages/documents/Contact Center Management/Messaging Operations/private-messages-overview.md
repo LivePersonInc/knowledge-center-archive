@@ -5,7 +5,7 @@ subCategoryName: Messaging operations
 indicator: messaging
 subtitle: 
 level3: 
-permalink: contact-center-management-messaging-operations-private-messages-overview.html
+permalink: contact-center-management-messaging-operations-private-messfages-overview.html
 isTutorial: true
 date: 2019-01-20 10:39:44 +0000
 
@@ -25,10 +25,10 @@ Private messages will not affect the conversation’s SLA, intensity (active/ina
 
 To disable this feature, please contact your LivePerson representative. 
 
-## Availability
-Please note: this feature will be available to customers in phases, beginning rollout on Sunday, May 17th. Please contact your LivePerson representative for more details. 
+{: .notice}
+**Please note** this feature will be available to customers in phases, beginning rollout on Sunday, May 17th. Please contact your LivePerson representative for more details. 
 
-## Limitations
+**Limitations**
 * Private messages are not available to bot agents at the moment, only to human agents.
 * Private messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
  
