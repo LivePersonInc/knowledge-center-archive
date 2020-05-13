@@ -93,6 +93,8 @@ In the future the following functionality will added:
 {: .notice}
 The new Agent App will be released initially for Android in 4 steps in Q2 and Q3. In Q4 it will be released for IOS and replace the existing IOS Agent App.
 
+For more information on the Agent App Android Version, please see the Android [user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-android-user-guide.html)
+
 ## Post conversation survey bots
 ### Type: New functionality (Conversation Builder)
 
