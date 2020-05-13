@@ -323,3 +323,47 @@ In the event that an agent and consumer are chatting, and the agent does not hav
 ### Type: Bug fix (CoBrowse 3.15)
 
 When navigating to a different page during a video or voice call, the call did not resume after the new page was loaded. This bug has been resolved. 
+
+## FaaS CLI
+### Type: Enhancement (FaaS V1.17)
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>N/A</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+FaaS CLI is LivePerson Functions’ very own command line interface. It allows you to create, deploy and manage Functions as well as debug them without the need to login into the FaaS UI. If you work with FaaS on a daily basis you can expect many quality of life improvements such as being able to use your own development tools (e.g. visual studio), easily share code across different accounts or managing the versioning of your function using popular tools such as git. 
+
+
