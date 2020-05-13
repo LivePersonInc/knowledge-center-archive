@@ -126,4 +126,58 @@ These are bots that use some measure of NLU for intent matching. When you create
 {: .notice}
 When you create a complex bot and set the bot’s language, take care to select the language of the domain that will be associated with the bot. Otherwise, errors will occur during NLU processing.
 
+## Proactive 2.0 API
+### Type: New functionality (Proactive Messaging)
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Proactive Messaging enables brands to send outbound messages to consumers and when consumers respond creating 2-way conversations in Conversation Cloud platform (previously named LiveEngage). Proactive Messaging v2.0 API is the latest API release with a high send rate (up to 10 messages/account/second), rate limiting, support for guardrails and integrates with LE campaign and engagement for conversation routing. Proactive Messaging v2.0 API is currently available to all customers for WhatApp channel.
+
+#### How to enable
+Fill out this request to get onboarded to Proactive first.
+Create 2 new bot users in Conversational Cloud (previously known as LiveEngage). LivePerson account team can do this on behalf of the brand using elevated LivePerson credentials. Please make sure the bot users have Campaign Manager roles & privileges. 
+Provide LivePerson Proactive team with the user key and secret of the 2 bots created in step #2. We will coordinate this with you after you fill out the details in step 1. 
+LivePerson will provide brands the client ID and secrets which will be used to create an app jwt for authentication. 
+
+### Limitations
+- This API doesn’t support SMS in this release. This will come in a later release.
+- This API doesn’t support multiple send-from numbers yet. This will come in a later release. 
+- This API doesn’t support passing basic context such as customer information, shopper id, or any information brands want to pass along to help the agents to have more context when there is a response to an outbound message. 
+- This API doesn’t support sending messages on WhatsApp with fall back on SMS.
+
 
