@@ -135,7 +135,7 @@ When the agent writes several lines or uses the ‘return’ key, the text field
 ### Send icon
 Tapping the send icon adds the text to the conversation and sends it to the consumer.
 
-![](img/V1-Android-agent-app-4.png)
+![](img/V1-Android-agent-app-4a.png)
 
 ### Conversation message: consumer side
 Consumer side conversation messages appear with a color background. Every conversation is color-coded for easy identification by the agent. Below the consumer bubble there is time stamp.
