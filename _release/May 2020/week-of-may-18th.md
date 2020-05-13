@@ -95,6 +95,26 @@ The new Agent App will be released initially for Android in 4 steps in Q2 and Q3
 
 For more information on the Agent App Android Version, please see the Android [user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-android-user-guide.html)
 
+## COVID-related Rapid Response Automation Templates
+### Type: New feature
+
+Due to COVID-19, many customers are experiencing high volumes of intents. Customers need turnkey solutions to deploy quickly. This initiative is to create automation solutions for our customers and get them up and running quickly.
+What are the bot packages?
+
+There are two bot packages, Basic and Plus, that are focused on handling a brand’s top volume intents:
+- Basic: Routing bot with FAQs
+- Plus: Routing bot with FAQs and data collection (to give agents data that they need to close the conversation quickly)
+
+To deploy quickly, we're customizing these packages for certain verticals:
+- Airlines
+- Travel
+- Telco
+- Financial Services
+- Utilities
+- Insurance
+- General
+For more information on how to get started and access these packages, please contact your LivePerson account team.
+
 ## Post conversation survey bots
 ### Type: New functionality (Conversation Builder)
 
