@@ -19,6 +19,80 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Agent App - Android version 1
+### Type:New feature (Agent App)
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+The new mobile Agent App on Android offers agents working from home or on-the-go basic messaging capabilities, so they can continue to serve customers with efficiency. Agents can use the app to complete conversations with consumers including:  Accept new conversations when agent is online, manage the list of conversations, transfer to another skill, close conversation or return them to the queue.
+
+Other functionalities included in this version:
+- Receive message (text) from consumer
+- Send message (text) from consumer
+- Change agent status (Online, back soon, away)
+- End conversation
+- Push Notifications
+- French Language
+- Show open and closed conversations
+- Return to queue
+- Transfer conversation to skill or agent
+- Manager view
+- Authenticated Messaging
+- Limited WhatsApp functionality
+
+#### How to enable
+Search for LivePerson Agent App in the Google playstore & Download the app 
+
+Please note: 
+In the future the following functionality will added:
+- Live video calls
+- Tablet version
+- Photos, videos & file sharing
+- Structured content
+- Secure forms
+- Multi send back to queue
+- Consumer info
+- SSO
+- Network effect support
+- Automotive specific feature support
+
+{: .notice}
+The new Agent App will be released initially for Android in 4 steps in Q2 and Q3. In Q4 it will be released for IOS and replace the existing IOS Agent App.
+
 ## Post conversation survey bots
 ### Type: New functionality (Conversation Builder)
 
@@ -180,4 +254,13 @@ LivePerson will provide brands the client ID and secrets which will be used to c
 - This API doesn’t support passing basic context such as customer information, shopper id, or any information brands want to pass along to help the agents to have more context when there is a response to an outbound message. 
 - This API doesn’t support sending messages on WhatsApp with fall back on SMS.
 
+## Personal info attributes in Engagement History API 
+### Type: New functionality (Messaging History API)
+Add address (country, region, zipCode) has been added to the personal information in messaging responses.
+
+## Bug fixes for Messaging History API
+- In the Agent Survey, there was a mismatch between questions with the corresponding answers. 
+- Incorrect campaign info presented for chat session 
+- Fix OS version field 
+These issue has now been resolved. 
 
