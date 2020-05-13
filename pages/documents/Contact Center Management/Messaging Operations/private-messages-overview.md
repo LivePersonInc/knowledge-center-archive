@@ -26,7 +26,7 @@ Private messages will not affect the conversation’s SLA, intensity (active/ina
 To disable this feature, please contact your LivePerson representative. 
 
 {: .notice}
-**Please note** this feature will be available to customers in phases, beginning rollout on Sunday, May 17th. Please contact your LivePerson representative for more details. 
+**Please note:** This feature will be available to customers in phases, beginning rollout on Sunday, May 17th. Please contact your LivePerson representative for more details. 
 
 **Limitations**
 * Private messages are not available to bot agents at the moment, only to human agents.
