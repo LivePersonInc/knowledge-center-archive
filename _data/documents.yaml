@@ -215,7 +215,7 @@
         - pagename: Predefined content best practices
     - subcategoryname: Agent app
       pages:
-        - pagename: IOS user guide
+        - pagename: iOS user guide
         - pagename: Android user guide
 - categoryname: "Data & reporting"
   image: data-reporting
