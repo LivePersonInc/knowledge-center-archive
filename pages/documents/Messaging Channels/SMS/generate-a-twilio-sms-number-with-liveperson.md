@@ -5,14 +5,14 @@ subCategoryName: SMS
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: generate-a-twilio-sms-number-with-liveperson.html
+permalink: messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.html
 isTutorial: false
 isNew: false
 date:
 
 ---
 
-Brands now have the option to provision a US, Canadian, or Carribean Nations Twilio number in LivePerson's platform. This is a great option for small-to-medium businesses who do not already have numbers through Twilio.
+Brands now have the option to provision a US, Canadian, or Caribbean Nations Twilio number in LivePerson's platform. This is a great option for small-to-medium businesses who do not already have numbers through Twilio.
 
 ## Account Setup
 
