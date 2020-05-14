@@ -8,8 +8,6 @@ level3: ''
 permalink: data-reporting-analytics-builder-analytics-builder-overview.html
 isTutorial: false
 date: '2019-01-09T12:35:11.000+00:00'
-redirect_from:
-- report-builder.html
 redirect_from: data-reporting-report-builder-report-builder-overview.html
 
 ---
