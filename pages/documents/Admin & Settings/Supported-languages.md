@@ -103,8 +103,7 @@ The [Agent Workspace](agent-manager-workspace-agent-tools-for-messaging-agent-wo
 
 ## Languages supported in Analytics Builder
 
-The [Analytics Builder](data-reporting-report-builder-report-builder-overview.html) supports the English language only.
-
+The [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) supports the English language only.
 
 ## Languages supported by MCS
 [MCS](data-reporting-meaningful-conversation-score-(mcs)-meaningful-conversation-score-(mcs)-overview.html) is available in: English, Spanish, Italian and Japanese.
