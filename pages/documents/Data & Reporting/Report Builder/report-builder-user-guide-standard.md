@@ -22,7 +22,7 @@ To access the Analytics Builder:
 4. Click **shared reports**. Two folders are displayed:
    * **LE predefined dashboards**: All available predefined LivePerson dashboards.
    * **My account**: Reports that have been designed specifically for your account.
-   * **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package.
+   * **Analytics reporting**: Customized dashboards created by LP for brands with a customization package.
 5. Click on a folder to view the available reports inside.
 
 **How to video:** [**Getting started**](https://bcove.video/2vj2Sid)
@@ -45,7 +45,7 @@ Dashboards in Analytics Builder are saved in folders. The available folders are 
 * **Shared reports -** dashboards saved here are visible to all the users in the account.
 * **Predefined dashboards**: All available predefined dashboards.
 * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-* **Analytics RB reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
+* **Analytics reporting**: Customized dashboards created by LP for brands with a customization package. All users eligible for receiving these customized reports will have view access to the folder and its dashboards.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ## LivePerson predefined dashboards
@@ -65,7 +65,7 @@ Before beginning your analysis using the available predefined dashboards, we hig
 
 The glossary contains a full list of metrics available through Analytics Builder. Metrics that do not appear in the predefined dashboards can be added by a LivePerson member to the account specific dashboards upon request. Please reach out to your account manager or customer success manager for information about gaining access to additional metrics.
 
-Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Analytics Builder Data Metrics
+Click [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html) to access the Analytics Builder Data Metrics.
 
 ## Field details sheet
 

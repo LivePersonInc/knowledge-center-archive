@@ -245,9 +245,9 @@
             - level3name: "Operational & staffing dashboard"
             - level3name: Skills dashboard for live chat
         - pagename: "How to export 100,000 chats into a dashboard"
-    - subcategoryname: "Meaningful Connection Score (MCS)"
+    - subcategoryname: Meaningful Conversation Score (MCS)
       pages:
-        - pagename: "Meaningful Connection Score (MCS) Overview"
+        - pagename: Meaningful Conversation Score (MCS) Overview
         - pagename: Accessing the toolkit
         - pagename: Using the MCS toolkit
     - subcategoryname: Analytics Builder

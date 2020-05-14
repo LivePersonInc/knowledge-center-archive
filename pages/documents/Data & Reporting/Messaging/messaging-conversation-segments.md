@@ -48,11 +48,11 @@ A skill-segment ends when:
 * a conversation closes while assigned to the skill
 
 {: .notice}  
-System messages (Controller Bot) - are ignored in the calculation of skill-segments
+System messages (controller bot) - are ignored in the calculation of skill-segments
 
 Please note: the following scenarios do not start a new skill-segment:
 
-* Back-to-Queue - returning a conversation to the same skill-queue
+* Back-to-queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
   ![](/img/Messaging_segments1-1.png)
 
@@ -62,7 +62,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 How many times were conversations assigned to my skill, to be handled by my team of human or bot agents?
 
-**Answer (Metric):** Skill Segments
+**Answer (metric):** Skill Segments
 
 **Action:** By understanding the number of conversations, managers can ensure agents are taking the 	optimal number of conversations.
 
@@ -70,23 +70,23 @@ This metric will be a more precise version of CCPLH.
 
 **Manager Question:** How many times did consumers abandon a conversation assigned to my skill?
 
-**Answer (Metric):** Abandoned Segments (Skill) / Abandoned Segments Rate (Skill)
+**Answer (metric):** Abandoned Segments (Skill) / Abandoned Segments Rate (Skill)
 
 How many times did consumers abandon a conversation while waiting in my skill-queue?
 
-**Answer (Metric):** Abandoned Segments - In Queue (Skill)
+**Answer (metric):** Abandoned Segments - In Queue (Skill)
 
 **Action:** This metric enables you to determine issues arising from the length of your queues - 		before an agent is assigned.  Action is to adjust the SLA per skill.
 
 **Manager Question:** How many times did my team try to reach out to a consumer but the consumer never replied?
 
-**Answer (Metric)** Segments with Non Responsive Consumers (Skill)
+**Answer (metric)** Segments with Non Responsive Consumers (Skill)
 
 **Action:** Determine why consumers are leaving conversations. Potentially adjust your auto messages or check if the auto close is too fast.  Are consumers are not getting to answer in time from your skill?
 
 **Manager Question**: How many times did conversations timeout, closed by my agents, or transferred to another skill, while my agents didn’t respond to the consumer?
 
-**Answer (Metric)** Segments with Non Responsive Agents (Skill)
+**Answer (metric)** Segments with Non Responsive Agents (Skill)
 
 **Action:** This can showcase situations where consumers are being transferred and other skill not answering - does the process of internal transfer need fixing?
 
@@ -170,7 +170,7 @@ Please note:
 
 **Manager Question:** How many times were conversations assigned to each agent, human or bot?
 
-**Answer (Metric):** Agent Segments
+**Answer (metric):** Agent Segments
 
 **Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations.
 
@@ -178,37 +178,37 @@ This metric will be a more precise version of CCPLH.
 
 **Manager question:** How many times did consumers abandon a conversation handled by my agents?
 
-**Answer (Metric):** Abandoned Segments (Agent) , Abandoned Segments Rate (Agent)
+**Answer (metric):** Abandoned Segments (Agent) , Abandoned Segments Rate (Agent)
 
 **Action:** Isolate abandonment reasons to each agent accountable - when more than one agent is handling conversations (e.g. tier 1 and tier 2). Determine a specific agent driving abandonment and whether it’s caused by lack of training.
 
 **Manager Question:** How many times did an agent try to reach out to a consumer but the consumer never replied?
 
-**Answer (Metric):** Segments with Non Responsive Consumers (Agent)
+**Answer (metric):** Segments with Non Responsive Consumers (Agent)
 
 **Action:** Determine why consumers are leaving conversations. Potentially train your agents to give better service or change the flow of the conversation.
 
 **Manager Question:** How many times did conversations timeout, closed or transferred by an agent before providing a response to the consumer?
 
-**Answer (Metric):** Segments with Non Responsive Agents (Agent)
+**Answer (metric):** Segments with Non Responsive Agents (Agent)
 
 **Action:** This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
 
 **Manager Question:** How many times did each agent conduct a dialog with consumers?
 
-**Answer (Metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
+**Answer (metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
 
 **Action:** More accurate view of actual number of engagements conducted by agents.
 
 **Manager Question:** How long are agents participating in conversations?
 
-**Answer (Metric):** Avg. Segment Duration (Agent)
+**Answer (metric):** Avg. Segment Duration (Agent)
 
 **Action:** This can help to quantify the agents’ activity during conversation.
 
 **Manager Question:** How many responses my agents send in an average conversation?
 
-**Answer (Metric):** Avg. No. of Agent Responses in Segment (Agent)
+**Answer (metric):** Avg. No. of Agent Responses in Segment (Agent)
 
 ## Attributes
 
@@ -288,5 +288,3 @@ The number of segments which ended in a transfer or closed by agent\\system with
 ### Segments with Non Responsive Consumers
 
 The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
-
-![](/img/ageny segments new2.png)

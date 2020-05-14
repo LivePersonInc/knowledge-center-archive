@@ -13,4 +13,4 @@ Please visit [this link](https://liveperson.elasticlearning.online) for training
 
 The training tutorials are part of the LivePerson Institute documentation which offers in-depth training and certification courses for professionals who manage messaging programs using the Conversational Cloud. To access these trainings, it is necessary to log in but the log in is extremely basic and simple and is just to monitor usage of the tutorials.
 
-Simply sign in by providing your email address and creating a password and get access to all training materials
+Simply sign in by providing your email address and creating a password and get access to all training materials.

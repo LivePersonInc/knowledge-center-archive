@@ -70,6 +70,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ## Metrics:
 
-For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the [Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
-
-![](/img/General-Data-metrics-table.png)
+For all metrics available within this dashboard please search the Analytics Builder Data Metrics table by the name of the dashboard [here.](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
