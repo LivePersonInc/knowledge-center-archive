@@ -1,17 +1,18 @@
 ---
 pagename: Add messaging to your mobile app
 categoryName: Messaging channels
-subCategoryName: Mobile app messaging
+subCategoryName: App Messaging
 indicator: messaging
 subtitle: 'With mobile engagements, consumers can easily start messaging conversations
   directly from your mobile app '
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
+permalink: messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html
 isTutorial: false
 date: 2019-01-20 13:01:29 +0000
 isNew: false
 redirect_from:
   - liveengage-mobile-sdk.html
+  - messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
 
 ---
 The following article describes the steps you need to take in order to add Web Messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
@@ -53,10 +54,10 @@ _(completed by mobile developers)_
 
 ### Add messaging to your SDK
 
-Work with your developers to build the App Messaging SDK into your app. For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developers Community:
+Work with your developers to build the App Messaging SDK into your app. For information on adding the App Messaging SDK, please refer to the documentation on the Developers Community:
 
-* [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
-* [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
+* [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
+* [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
 
 ### Engagement attributes
 

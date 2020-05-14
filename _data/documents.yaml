@@ -22,11 +22,11 @@
         - pagename: Add Web Messaging to your website
         - pagename: Authenticated Web Messaging
         - pagename: Proactive engagements for Web Messaging
-    - subcategoryname: "Mobile app messaging"
+    - subcategoryname: App Messaging
       pages:
         - pagename: Add messaging to your mobile app
-        - pagename: Mobile app messaging FAQs
-        - pagename: Mobile app messaging capabilities
+        - pagename: App Messaging FAQs
+        - pagename: App Messaging capabilities
     - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:

@@ -1,16 +1,17 @@
 ---
 pagename: 'App Messaging capabilities '
 categoryName: Messaging channels
-subCategoryName: Mobile app messaging
+subCategoryName: App Messaging
 indicator: messaging
 subtitle: Introduce Rich Conversations and shortcuts for an improved App Messaging experience
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-app-messaging-capabilities.html
+permalink: messaging-channels-app-messaging-app-messaging-capabilities.html
 isTutorial: true
 date: 2019-01-17 13:12:13 +0000
 isNew: false
 redirect_from:
   - messaging-channels-mobile-app-messaging-mobile-app-messaging-capabilities.html
+  - messaging-channels-mobile-app-messaging-app-messaging-capabilities.html
 
 ---
 

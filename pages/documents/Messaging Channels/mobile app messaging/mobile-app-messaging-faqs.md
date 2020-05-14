@@ -1,16 +1,17 @@
 ---
 pagename: App Messaging FAQs
 categoryName: Messaging channels
-subCategoryName: Mobile app messaging
+subCategoryName: App Messaging
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-app-messaging-faqs.html
+permalink: messaging-channels-app-messaging-app-messaging-faqs.html
 isTutorial: false
 date: 2019-01-17 12:48:01 +0000
 isNew: false
 redirect_from:
   - messaging-channels-mobile-app-messaging-mobile-app-messaging-faqs.html
+  - messaging-channels-mobile-app-messaging-app-messaging-faqs.html
 ---
 ## Configuring Messaging
 
