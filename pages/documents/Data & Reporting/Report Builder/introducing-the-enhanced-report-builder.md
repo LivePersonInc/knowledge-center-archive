@@ -9,7 +9,8 @@ permalink: data-reporting-analytics-builder-introducing-the-enhanced-analytics-b
 isTutorial: false
 date:
 isNew: false
-redirect_from:data-reporting-report-builder-introducing-the-enhanced-report-builder.html
+redirect_from:
+  - data-reporting-report-builder-introducing-the-enhanced-report-builder.html
 ---
 
 The Analytics Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.
