@@ -1,7 +1,7 @@
 ---
 pagename: 'Agent file sharing overview '
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: ''
 level3: ''

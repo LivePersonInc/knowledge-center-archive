@@ -1,21 +1,22 @@
 ---
-pagename: Rich messaging overview
+pagename: Rich Conversations overview
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: both
-subtitle: Enhancing the customer’s messaging experience through rich messaging
+subtitle: Enhancing the customer’s messaging experience through Rich Conversations
 level3: ''
-permalink: messaging-channels-rich-messaging-rich-messaging-overview.html
+permalink: messaging-channels-rich-messaging-rich-conversations-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:48:11 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-rich-messaging-overview.html
 ---
-Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Messaging is the key to driving more actions directly within in your messaging conversation.
+Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Conversations is the key to driving more actions directly within in your messaging conversation.
 
 The Conversational Cloud messaging solution allows brands to send messages to customers in a variety of ways and formats making conversations more flexible - able to handle new and varying types of interactions. This enriches the consumer experience and gets your brand on board with conversational commerce.
 
-**Rich messaging includes:**
+**Rich Conversations includes:**
 
 * [Structured content cards](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html#why-use-structured-content)
 * [Structured content carousel](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#carousel)

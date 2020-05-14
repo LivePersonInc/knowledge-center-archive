@@ -8,7 +8,6 @@
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
-        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Getting started with messaging
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
@@ -35,6 +34,7 @@
         - pagename: Complying with SMS regulations
         - pagename: SMS best practices
         - pagename: Using SMS with Twilio
+        - pagename: Generate a Twilio SMS number with LivePerson
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
@@ -55,9 +55,9 @@
       pages:
         - pagename: Proactive messaging overview
         - pagename: Proactive messaging user guide
-    - subcategoryname: Rich messaging
+    - subcategoryname: Rich Conversations
       pages:
-        - pagename: Rich messaging overview
+        - pagename: Rich Conversations overview
         - pagename: Photo sharing user guide
         - pagename: Agent file sharing overview
         - pagename: Audio messaging user guide
@@ -155,9 +155,9 @@
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
-        - pagename: Enhanced agent workspace for messaging
+        - pagename: Enhanced Agent Workspace for messaging
           level3:
-            - level3name: The enhanced agent workspace
+            - level3name: The enhanced Agent Workspace
             - level3name: User guide
             - level3name: FAQs
             - level3name: Configuration
@@ -166,10 +166,10 @@
             - level3name: Blended accounts
             - level3name: Conversational Commands
             - level3name: Quick launch menu
-        - pagename: Agent workspace for messaging
+        - pagename: Agent Workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
-            - level3name: Agent workspace for messaging tour
+            - level3name: Agent Workspace for messaging tour
             - level3name: Workspace basics
             - level3name: Managing messaging conversations
             - level3name: Taking breaks & ending your shift
@@ -177,14 +177,14 @@
             - level3name: CoBrowse for messaging
             - level3name: Voice and video calls overview
             - level3name: Best practices for messaging agents
-            - level3name: Agent workspace icons for messaging
+            - level3name: Agent Workspace icons for messaging
 
     - subcategoryname: Manager tools for messaging
       pages:
-        - pagename: New manager workspace for messaging
+        - pagename: New Manager Workspace for messaging
           level3:
             - level3name: Introducing the new manager tools
-            - level3name: Enhanced manager workspace user guide
+            - level3name: Enhanced Manager Workspace user guide
             - level3name: All Conversations
             - level3name: Use cases
             - level3name: New agent manager experience

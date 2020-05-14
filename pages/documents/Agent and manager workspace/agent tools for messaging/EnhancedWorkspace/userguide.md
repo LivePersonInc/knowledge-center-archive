@@ -184,13 +184,13 @@ You can reply by using free text, but we recommend using predefined content. You
 
 ![image alt text](img/predefinedcontent.png)
 
-Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display.
+Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevant options will display.
 
-#### Rich messaging
+#### Rich Conversations
 
-There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich messaging enhances the consumer experience by providing a richer, more engaging channel of communication.
+There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich Conversation capabilities enhances the consumer experience by providing a richer, more engaging channel of communication.
 
-The following types of rich messaging are being supported for the enhanced Agent Workspace:
+The following types of Rich Conversations are being supported for the enhanced Agent Workspace:
 * Structured content cards and carousels
 * Consumer to agent photo sharing
 * Consumer to agent audio sharing

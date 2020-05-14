@@ -1,7 +1,7 @@
 ---
 pagename: 'Quick replies user guide '
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: Quick replies are a group actionable items that appear as part of the conversation,
   making it easier to have automated conversations with consumers.

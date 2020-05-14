@@ -67,19 +67,19 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 ![](/img/managing-messaging-conversations-3.png)
 
-## Use Rich Messaging to make your conversations more engaging
+## Use Rich Conversations to make your conversations more engaging
 
-There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich Messaging enhances the the consumer experience by providing a richer, more engaging channel of communication.
+There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich Conversations enhance the the consumer experience by providing a richer, more engaging channel of communication.
 
 ### Emojis
 
 Both you and the consumers can utilize emojis within the conversation. While consumers have the full array of emojis available, the ones at the agents disposal are more selective. The emojis available to you are ones that can be construed as professional and relevant to business conversations. Please refer to your brand guidelines and language to determine which emojis are appropriate and how often and when to use them.
 
-### Rich Messaging
+### Rich Conversations
 
-For most channels, Rich Messaging such as carousels and quick replies are available. Based on your contact center set up, you may have custom widgets are your disposal that enable you to send product catalogues, images or other rich content.
+For most channels, Rich Conversation capabilities such as carousels and quick replies are available. Based on your contact center set up, you may have custom widgets are your disposal that enable you to send product catalogues, images or other rich content.
 
-Refer to guidelines from your manager as to what tools are available to you. For a reference list of the Rich Messaging capabilities that are available by messaging channel, [click here](messaging-channels-messaging-channels-capabilities-comparison.html).
+Refer to guidelines from your manager as to what tools are available to you. For a reference list of the Rich Conversation capabilities that are available by messaging channel, [click here](messaging-channels-messaging-channels-capabilities-comparison.html).
 
 ### View the customer’s screen using CoBrowse
 

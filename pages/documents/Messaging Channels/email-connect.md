@@ -38,7 +38,7 @@ EmailConnect is fully compatible with LivePerson powered bots and AI, allowing b
 
 Email Connect has access to the same predefined content tools that are available across other messaging channels. Agents can drop in predefined email text to provide polish to every email response.
 
-### Rich messaging capabilities
+### Rich Conversation capabilities
 
 Send and receive email attachments using EmailConnect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “EmailConnect Setup” below.
 

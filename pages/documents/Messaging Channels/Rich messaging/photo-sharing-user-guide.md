@@ -1,7 +1,7 @@
 ---
 pagename: Photo sharing user guide
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: With photo sharing, consumers can send a photo to an agent to help the consumer
   and agent communicate more clearly and effectively.

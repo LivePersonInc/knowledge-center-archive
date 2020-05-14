@@ -3,7 +3,7 @@ pagename: 'App Messaging capabilities '
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
-subtitle: Introduce rich messaging and shortcuts for an improved App Messaging experience
+subtitle: Introduce Rich Conversations and shortcuts for an improved App Messaging experience
 level3: ''
 permalink: messaging-channels-mobile-app-messaging-app-messaging-capabilities.html
 isTutorial: true
@@ -46,9 +46,9 @@ Clearly communicated system messages regarding response time create a better ser
 * Keep consumers informed at all times with a longer response time calculated for offline hours.
 * Display read notifications, message timestamps and ‘agent is typing’ status to ensure consumers are always aware of agent activity during a conversation
 
-## Using rich messaging
+## Using Rich Conversations
 
-[Rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
+[Rich Conversations](messaging-channels-rich-messaging-rich-messaging-overview.html) will open more uses cases to serve over messaging, save time and offer a much stronger customer experience.
 
 ![](/img/mobile-app-messaging-capabilities-1.gif)
 

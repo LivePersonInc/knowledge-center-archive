@@ -21,7 +21,7 @@ The Conversational Cloud is now seamlessly integrated into LINE, offering your b
 * **LINE application available for every smartphone** — The LINE app is accessible to every one of your customers, whether they’re using iOS or Android.
 * **Be where your consumers need you** — By adding a QR code to an invoice, email or advert, brands can allow consumers to initiate a conversation with an agent via LINE.
 * **Easy bot integrations** — Bots can offer service and sales assistance to customers directly through LINE, with seamless transition to a human agent available as and when required.
-* **Rich Messaging capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
+* **Rich Conversation capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
 
   ![](/img/Image-1 (1).jpg)
 

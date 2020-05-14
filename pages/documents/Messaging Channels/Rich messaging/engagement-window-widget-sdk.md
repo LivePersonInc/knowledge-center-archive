@@ -1,7 +1,7 @@
 ---
 pagename: Engagement window widgets
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: both
 subtitle: intelligently share product information & rich media during a conversation
   with the visitor in a dedicated area on the engagement window

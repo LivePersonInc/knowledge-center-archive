@@ -22,7 +22,7 @@ Brands planning to use Twilio for SMS, can get started right away using the [Twi
 * **Lower costs** — There is no custom development and conversations cost less than a phone call.
 * **Easy setup** — Onboarding can be accomplished rapidly as no tagging or coding is required and the Conversational Cloud connects SMS texts directly to your operations, routing each customer to the best agent available.
 * **No download required** — Because consumers already have SMS on their mobiles, no new customer interface or download is needed.
-* **Rich Messaging capabilities** — Rich Messaging capabilities like image sharing provide an enhanced messaging experience with more flexibility.
+* **Rich Conversation capabilities** — Rich Conversation capabilities like image sharing provide an enhanced messaging experience with more flexibility.
 
 ## How conversations start
 

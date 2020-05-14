@@ -1,7 +1,7 @@
 ---
 pagename: Audio messaging user guide
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: Audio messaging allows consumers to send audio messages to brands
 level3: ''
