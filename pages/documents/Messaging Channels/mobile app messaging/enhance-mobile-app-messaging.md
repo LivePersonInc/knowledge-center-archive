@@ -1,20 +1,22 @@
 ---
-pagename: 'Mobile App Messaging capabilities '
+pagename: 'App Messaging capabilities '
 categoryName: Messaging channels
 subCategoryName: Mobile app messaging
 indicator: messaging
 subtitle: Introduce rich messaging and shortcuts for an improved App Messaging experience
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-mobile-app-messaging-capabilities.html
+permalink: messaging-channels-mobile-app-messaging-app-messaging-capabilities.html
 isTutorial: true
 date: 2019-01-17 13:12:13 +0000
 isNew: false
+redirect_from:
+  - messaging-channels-mobile-app-messaging-mobile-app-messaging-capabilities.html
 
 ---
 
-The LivePerson in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their app. The SDK is customizable, with all the capabilities your consumers expect from a messaging app.
+The LivePerson App Messaging SDK allows brands to build a full-scale consumer messaging experience within their app. The SDK is customizable, with all the capabilities your consumers expect from a messaging app.
 
-By facilitating rich conversations with beyond-text capabilities, our SDK enables you to enhance the in-app messaging experience for your consumers with a full range of features.
+By facilitating rich conversations with beyond-text capabilities, our SDK enables you to enhance the App Messaging experience for your consumers with a full range of features.
 
 
 ## Mobile messaging basics

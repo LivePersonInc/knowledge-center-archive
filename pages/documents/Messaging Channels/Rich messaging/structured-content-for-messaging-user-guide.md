@@ -113,7 +113,7 @@ For detailed reporting on consumer interactions with structured content on your 
 
 ## Notes
 
-* The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (Web Messaging and in-app messaging, as well as web chat).
+* The configured structured content responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which structured content is supported (Web Messaging and App Messaging, as well as web chat).
 * The host server of the images you wish to share in your structured content must be whitelisted in order for the structured content to send.
 * Structured content is supported on Facebook and Apple Business Chat,  SMS will be supported in the future.
 * When an agent sends a structured content message to a consumer, it will trigger a push notification. Brands are able to configure the content of the push notification.

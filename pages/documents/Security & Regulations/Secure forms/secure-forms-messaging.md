@@ -67,7 +67,7 @@ _LivePerson secure form within a mobile-app messaging conversation_
 
 ## Fully accessible visitor experience
 
-The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both iOS and Android in-app messaging and includes:
+The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both iOS and Android App Messaging and includes:
 
 * Screen reader support: secure forms can be filled out using screen readers for visually impaired visitors.
 * Keyboard operable: secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.

@@ -53,7 +53,7 @@ _(completed by mobile developers)_
 
 ### Add messaging to your SDK
 
-Work with your developers to build the in-app messaging SDK into your app. For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developers Community:
+Work with your developers to build the App Messaging SDK into your app. For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developers Community:
 
 * [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
 * [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)

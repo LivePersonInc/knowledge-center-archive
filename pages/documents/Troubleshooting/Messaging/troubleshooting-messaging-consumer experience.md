@@ -25,7 +25,7 @@ This is expected behavior.
 
 ### Cause
 
-The red badge containing the number of unread messages doesn’t always display to in-app messaging consumers using Android devices..
+The red badge containing the number of unread messages doesn’t always display to App Messaging consumers using Android devices..
 
 Let’s say you’re a consumer using your Android phone to message with a LivePerson agent and you do the following:
 

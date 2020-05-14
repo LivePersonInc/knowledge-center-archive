@@ -119,7 +119,7 @@ For Web Messaging, the font and font color can be edited in the window studio in
 
 ![](/img/automatic-messages-messaging-11b.png)
 
-or in-app messaging this can be configured in the SDK. Disabling an automatic message Each automatic message can be disabled, either for all skills, or per skill. To disable an automatic message
+or App Messaging this can be configured in the SDK. Disabling an automatic message Each automatic message can be disabled, either for all skills, or per skill. To disable an automatic message
 
 1. Go to the Edit Automatic Message window
 2. Change the Active toggle from enabled to disabled
@@ -243,7 +243,7 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 
 ## Limitations
 
-* Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on Web Messaging, nor editable per skill in in-app messaging). This will be supported in later phases.
+* Conversation closed messages (displayed when the agent/consumer closes the conversation) are out of the scope of phase 1. Existing messages are displayed instead and are not editable on Web Messaging, nor editable per skill in App Messaging). This will be supported in later phases.
 * There is a known limitation in LivePerson that any conversations that start during working hours will still be defined as working hours even if mid conversation it is now off-hours (and vice versa). Auto messages works around this and will show the correct Time to Response (TTR) to the consumer. On the agent side however, the agent will see the wrong TTR (e.g. working hour TTR when it’s off hours).
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.

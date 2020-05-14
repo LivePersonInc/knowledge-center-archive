@@ -109,5 +109,5 @@ HTTPS is required by default for communication between browser clients with the 
 
 ## Limitations
 
-1. Voice and Video calls are only supported on Web Messaging - not live chat. For in-app messaging, please use the LivePerson Voice & Video SDK ([Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-voice-and-video-for-android-sdk-beta-overview.html), [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-voice-and-video-for-ios-sdk-beta-overview.html))
+1. Voice and Video calls are only supported on Web Messaging - not live chat. For App Messaging, please use the LivePerson Voice & Video SDK ([Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-voice-and-video-for-android-sdk-beta-overview.html), [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-voice-and-video-for-ios-sdk-beta-overview.html))
 2. Voice and Video calls can only be initiated on supported browsers and operating systems, see requirements section. Once enabled, the invitation buttons on the agent side are shown on all conversations, not only Web Messaging conversations. If the channel (e.g WhatsApp or SMS) does not support voice and video calls, no invitation is shown on the consumer side.
