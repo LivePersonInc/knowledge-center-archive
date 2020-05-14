@@ -116,7 +116,7 @@ Some ideas of how you can use this information:
 
 ## Step 5 - Testing
 
-You can test the new manager workspace and enhanced Agent Workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
+You can test the new Manager Workspace and enhanced Agent Workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
 Best practice: ensure one of your SMEs at least has tested and successfully used the new workspace before rolling out to all agents.
 
@@ -130,7 +130,7 @@ To get early access for testing, please contact your LivePerson account team.
 
 Best practices:
 
-**For blended accounts:** Because the enhanced agent and new manager workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html).
+**For blended accounts:** Because the enhanced agent and new Manager Workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html).
 
 **Implement auto accept.** Contact centers can choose whether to have conversations automatically assigned to agents or to have agents manually accept conversations that ring in their workspace. We recommend using auto accept as a best practice, because it helps to maximize agent capacity and ensure that conversation routing is as rapid and efficient as possible. To learn more about how conversations are distributed and accepted, [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution.html#accepting-a-conversation).
 

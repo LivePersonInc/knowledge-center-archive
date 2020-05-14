@@ -16,9 +16,9 @@ layout: newAgentWorkspace
 
 **The new experience for managers includes three components:**
 
-## **1. Dedicated manager workspace**
+## **1. Dedicated Manager Workspace**
 
-LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. The manager workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
+LivePerson is introducing a built-in, specialized workspace dedicated to the success of agent managers. The Manager Workspace is the new landing page for messaging agent managers that provides a centralized location for the data and agent information needed to manage a shift. It was designed for messaging only. It includes only messaging data and messaging agents' performance (chat data, agents and KPI’s are not included).
 
 This new dashboard will boost the agent manager or team manager performance by:
 * Offering a quick and comprehensive view of the ‘state of your shift’ in real time
@@ -32,7 +32,7 @@ Managers will also be able to actively supervise key metrics like:
 
 **Real time means faster resolution and more efficient problem solving**
 
-The new manager workspace provides real-time information on the state of the shift, displaying key metrics needed to ensure daily KPIs are met. Managers can quickly spot trends such as increased queue length, underperforming agents or spikes to specific skill traffic. By understanding trends and shifts in real time, managers are able to take corrective actions and reduce the impact of problems as well as eliminate additional issues.
+The new Manager Workspace provides real-time information on the state of the shift, displaying key metrics needed to ensure daily KPIs are met. Managers can quickly spot trends such as increased queue length, underperforming agents or spikes to specific skill traffic. By understanding trends and shifts in real time, managers are able to take corrective actions and reduce the impact of problems as well as eliminate additional issues.
 
 **Data visibility helps to meet goals**
 

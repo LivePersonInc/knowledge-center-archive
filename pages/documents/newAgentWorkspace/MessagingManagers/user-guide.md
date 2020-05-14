@@ -17,13 +17,13 @@ redirect_from:
 
 ## Configuration
 
-To enable the manager workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
+To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent Manager Workspace”. The permission is “On”  by default.
 
 ![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
 ### New Agent Workspace
 
-Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
+Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new Manager Workspace. Please note that if the new Manager Workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
 
 ## Filters
 
@@ -31,7 +31,7 @@ Users will only be exposed to data related to the groups they manage. For exampl
 * Conversations which are currently waiting in queue in any of the skills assigned to the agents of the "Sales" group.
 * Conversations which are currently assigned to agents of the "Sales" group.
 
-The above assumes that no filters are enabled and thus represents the default view of the manager workspace.
+The above assumes that no filters are enabled and thus represents the default view of the Manager Workspace.
 
 The following filters can be applied to the sections listed above:
 

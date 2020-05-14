@@ -55,7 +55,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 * **What do I have to do to see this?** Nothing. This will be available as the home page for managers who  log in after the above date.
 
-* **Can I control who sees this?** Yes.  In user management > profiles, you can turn off the 'view agent manager workspace' permission.
+* **Can I control who sees this?** Yes.  In user management > profiles, you can turn off the 'view agent Manager Workspace' permission.
 
 * **What it will look like after the above date**:
 

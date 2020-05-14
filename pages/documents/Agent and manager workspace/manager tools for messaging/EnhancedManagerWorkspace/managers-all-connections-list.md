@@ -154,7 +154,7 @@ The “Takeover” option is available in the conversation menu, if the user has
 If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Conversations list without notification.
 
 {: .notice}
-**Please note:** In the new manager workspace you must first **join** a conversation before you can use the takeover action.
+**Please note:** In the new Manager Workspace you must first **join** a conversation before you can use the takeover action.
 
 ## Resuming a conversation
 
