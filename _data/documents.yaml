@@ -197,7 +197,7 @@
 
     - subcategoryname: Agent tools for live chat
       pages:
-        - pagename: Agent workspace for live chat
+        - pagename: Agent Workspace for live chat
         - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:

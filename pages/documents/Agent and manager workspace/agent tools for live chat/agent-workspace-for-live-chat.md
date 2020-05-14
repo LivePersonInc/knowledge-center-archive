@@ -1,5 +1,5 @@
 ---
-pagename: Agent workspace for live chat
+pagename: Agent Workspace for live chat
 categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
