@@ -107,4 +107,4 @@ The [Analytics Builder](data-reporting-report-builder-report-builder-overview.ht
 
 
 ## Languages supported by MCS
-[MCS](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) is available in: English, Spanish, Italian and Japanese.
+[MCS](data-reporting-meaningful-conversation-score-(mcs)-meaningful-conversation-score-(mcs)-overview.html) is available in: English, Spanish, Italian and Japanese.
