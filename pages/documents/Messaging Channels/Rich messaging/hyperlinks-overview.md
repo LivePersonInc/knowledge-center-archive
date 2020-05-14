@@ -1,14 +1,15 @@
 ---
 pagename: Hyperlinks overview
 categoryName: Messaging channels
-subCategoryName: ''
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle:
 level3: ''
-permalink: messaging-channels-rich-messaging-hyperlinks-overview.html
+permalink: messaging-channels-rich-conversations-hyperlinks-overview.html
 isTutorial: false
 isNew: false
-
+redirect_from:
+  - messaging-channels-rich-messaging-hyperlinks-overview.html
 ---
 
 {: .notice}

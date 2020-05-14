@@ -6,11 +6,12 @@ indicator: messaging
 subtitle: With photo sharing, consumers can send a photo to an agent to help the consumer
   and agent communicate more clearly and effectively.
 level3: ''
-permalink: messaging-channels-rich-messaging-photo-sharing-user-guide.html
+permalink: messaging-channels-rich-conversations-photo-sharing-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 07:47:02 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-photo-sharing-user-guide.html
 ---
 Photo sharing makes messaging a more visual experience, increasing communication efficiency and reducing time to resolution.
 

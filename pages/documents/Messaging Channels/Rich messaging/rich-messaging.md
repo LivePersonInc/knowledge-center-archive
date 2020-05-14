@@ -5,11 +5,12 @@ subCategoryName: Rich Conversations
 indicator: both
 subtitle: Enhancing the customer’s messaging experience through Rich Conversations
 level3: ''
-permalink: messaging-channels-rich-messaging-rich-conversations-overview.html
+permalink: messaging-channels-rich-conversations-rich-conversations-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:48:11 +0000
 redirect_from:
+  - messaging-channels-rich-messaging-rich-conversations-overview.html
   - messaging-channels-rich-messaging-rich-messaging-overview.html
 ---
 Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Conversations is the key to driving more actions directly within in your messaging conversation.

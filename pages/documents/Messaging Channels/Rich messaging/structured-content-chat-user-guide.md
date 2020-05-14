@@ -6,11 +6,12 @@ indicator: chat
 subtitle: Agents are able to send structured content cards including text, images,
   maps and buttons, to enhance the conversation with the consumer
 level3: ''
-permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
+permalink: messaging-channels-rich-conversations-structured-content-for-chat-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:08:32 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
 ---
 ## Why chat needs structured content?
 

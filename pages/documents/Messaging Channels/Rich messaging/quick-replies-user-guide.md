@@ -6,11 +6,12 @@ indicator: messaging
 subtitle: Quick replies are a group actionable items that appear as part of the conversation,
   making it easier to have automated conversations with consumers.
 level3: ''
-permalink: messaging-channels-rich-messaging-quick-replies-user-guide.html
+permalink: messaging-channels-rich-conversations-quick-replies-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 12:16:26 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-quick-replies-user-guide.html
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
 
