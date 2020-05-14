@@ -1,6 +1,6 @@
 ---
 pagename: Tutorial
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle:

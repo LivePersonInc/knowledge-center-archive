@@ -1,6 +1,6 @@
 ---
 pagename: Managing messaging conversations
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Learn the tools in place to help agents receive, reply, and access important

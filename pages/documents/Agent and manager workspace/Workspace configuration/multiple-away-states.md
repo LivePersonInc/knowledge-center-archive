@@ -1,6 +1,6 @@
 ---
 pagename: Multiple away states
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: Gain deeper insight into how agents spend their time

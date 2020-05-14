@@ -1,6 +1,6 @@
 ---
 pagename: Training deck
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: New Agent Workspace
 indicator: messaging
 subtitle: Learn more about the enhanced Agent Workspace

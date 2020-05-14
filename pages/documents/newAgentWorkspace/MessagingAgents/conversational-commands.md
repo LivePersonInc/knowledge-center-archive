@@ -1,6 +1,6 @@
 ---
 pagename: Conversational Commands
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: 'Conversational Commands is a tool that empowers agents to trigger automated actions using text commands'

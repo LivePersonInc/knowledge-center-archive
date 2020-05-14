@@ -1,6 +1,6 @@
 ---
 pagename: CoBrowse for live chat
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: Give consumers an enhanced customer service experience using CoBrowse video

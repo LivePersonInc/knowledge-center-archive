@@ -1,6 +1,6 @@
 ---
 pagename: Agent app user guide
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''

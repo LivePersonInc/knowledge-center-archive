@@ -1,6 +1,6 @@
 ---
 pagename: Working with asynchronous messaging
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: Agents using messaging to make sales or provide service have the full suite

@@ -1,6 +1,6 @@
 ---
 pagename: Agent workspace for live chat
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: 'Manage chat conversations efficiently '

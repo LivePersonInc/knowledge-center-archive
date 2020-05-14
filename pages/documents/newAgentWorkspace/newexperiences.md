@@ -1,6 +1,6 @@
 ---
 pagename: New Experiences
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: New Agent Workspace
 indicator: both
 subtitle: for all users - coming September 2019

@@ -13,7 +13,7 @@ redirect_from:
   - messaging-channels-rich-messaging-agent-file-sharing-overview.html
 ---
 
-Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **Web Messaging**, Apple Business Chat, and WhatsApp BusinesS.** In the future, more file formats will be supported.
+Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **Web Messaging, Apple Business Chat, and WhatsApp Business.** In the future, more file formats will be supported.
 
 Agents will now be able to share files with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 

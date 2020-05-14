@@ -150,7 +150,7 @@
         - pagename: Campaign dashboard and data bar
         - pagename: Outbound campaigns for CM
 
-- categoryname: "Agent & manager workspace"
+- categoryname: "Agent & Manager Workspace"
   image: agent-manager
   subcategories:
     - subcategoryname: Agent tools for messaging

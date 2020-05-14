@@ -1,6 +1,6 @@
 ---
 pagename: Adding your own widgets
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: Provide access to external systems by adding customized widgets to the agent

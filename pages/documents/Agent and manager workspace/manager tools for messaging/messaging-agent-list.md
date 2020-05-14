@@ -1,6 +1,6 @@
 ---
 pagename: The messaging agents list
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: ''

@@ -1,6 +1,6 @@
 ---
 pagename: Agent workspace for messaging tour
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''

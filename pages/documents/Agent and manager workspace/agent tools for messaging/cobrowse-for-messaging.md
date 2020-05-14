@@ -1,6 +1,6 @@
 ---
 pagename: CoBrowse for messaging
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: Offer an enhanced, visual consumer experience for messaging

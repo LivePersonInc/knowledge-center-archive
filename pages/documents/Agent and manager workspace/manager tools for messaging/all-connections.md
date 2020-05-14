@@ -1,6 +1,6 @@
 ---
 pagename: All Conversations
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place

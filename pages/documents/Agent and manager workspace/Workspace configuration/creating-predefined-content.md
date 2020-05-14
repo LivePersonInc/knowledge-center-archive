@@ -1,6 +1,6 @@
 ---
 pagename: Creating Predefined Content
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: ''

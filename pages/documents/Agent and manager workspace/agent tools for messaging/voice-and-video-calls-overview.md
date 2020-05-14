@@ -1,6 +1,6 @@
 ---
 pagename: 'Voice and video calls overview '
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle:

@@ -1,6 +1,6 @@
 ---
 pagename: The new Web Messaging window
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: New Agent Workspace
 indicator: both
 subtitle: for all Conversational Cloud users - coming September 2019

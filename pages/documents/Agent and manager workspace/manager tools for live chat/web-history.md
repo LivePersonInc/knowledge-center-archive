@@ -1,6 +1,6 @@
 ---
 pagename: Web history
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Manager tools for live chat
 indicator: chat
 subtitle: View and search through all closed chats

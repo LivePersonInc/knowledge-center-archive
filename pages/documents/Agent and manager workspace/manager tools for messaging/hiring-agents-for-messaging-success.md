@@ -1,6 +1,6 @@
 ---
 pagename: Hiring agents for messaging success
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: ''

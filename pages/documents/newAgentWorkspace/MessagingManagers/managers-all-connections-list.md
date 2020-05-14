@@ -1,6 +1,6 @@
 ---
 pagename: All Conversations
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
 subtitle: 'Get acquainted with the Agent Workspace '
