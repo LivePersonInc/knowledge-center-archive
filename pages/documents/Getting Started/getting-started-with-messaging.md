@@ -39,7 +39,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * **Groups/LOB** - [set up groups or lines of business ](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
    * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone** - [set up the time zone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
-   * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
+   * **Languages** - [setup the language](admin-settings-supported-languages.html) for Agent Workspace.
 
 ## Step 3: Connect to your channels of choice
 
@@ -86,7 +86,7 @@ Additional instructions for designing customer experience elements such as [bann
 ## Step 5: Define the agent experience
 
 1. **Predefined answers**: create or import a database of [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
-2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
+2. **Custom agent tools**: within the [Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
 
 ![](/img/agent-workspace.png)
 
@@ -118,4 +118,4 @@ Additional instructions for designing customer experience elements such as [bann
 
 3\. **Response time**: determine the SLA or how quickly each skill should respond to incoming messages by [configuring response times](contact-center-management-messaging-operations-configuring-response-times.html).  These metrics help route conversations and manage agents queues, including in reporting.
 
-4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear agent workspaces as well as focus resources on active conversations.
+4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear Agent Workspaces as well as focus resources on active conversations.

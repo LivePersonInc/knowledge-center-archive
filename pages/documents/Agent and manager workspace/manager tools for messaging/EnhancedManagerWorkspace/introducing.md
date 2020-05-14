@@ -3,7 +3,7 @@ pagename: Introducing the new manager tools
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html
 isTutorial: false
@@ -38,7 +38,7 @@ The new manager workspace provides real-time information on the state of the shi
 
 Agent managers will have real time visibility into their KPIs and aggregated performance, increasing the likelihood of meeting your daily goals. For example, a manager can catch an increase wait time for a particular agent that is affecting the team’s performance and fix it on the spot. Similarly, a sudden drop in CSAT can be identified and handled immediately instead of waiting for next day or next weeks’s analysis.
 
-## **2. Enhanced agent workspace & All Conversations list**
+## **2. Enhanced Agent Workspace & All Conversations list**
 
 The workspace where agents take and manage their messaging conversations is also used by managers.  This workspace includes two tabs:
 * **My Conversations:** The list of active and current messaging conversations that managers joined.  

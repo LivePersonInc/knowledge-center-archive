@@ -3,7 +3,7 @@ pagename: Enhanced manager workspace user guide
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-enhanced-manager-workspace-user-guide.html
 isTutorial: false
@@ -22,9 +22,9 @@ To enable the manager workspace on your LivePerson Conversational Cloud account,
 
 ![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
-### New agent workspace
+### New Agent Workspace
 
-Here you can also control the permissions for the enhanced agent workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced agent workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced agent workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
+Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
 
 ## Filters
 

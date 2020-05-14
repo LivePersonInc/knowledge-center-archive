@@ -14,7 +14,7 @@ Use automatic messages to manage consumer expectations as they await an agent re
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312480396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The messages appear to the consumer in the engagement window and to the agent in their agent workspace. For example, when a visitor is connected to an agent, the following message is displayed to the visitor: “Thank you for messaging us. An agent should reply shortly.”
+The messages appear to the consumer in the engagement window and to the agent in their Agent Workspace. For example, when a visitor is connected to an agent, the following message is displayed to the visitor: “Thank you for messaging us. An agent should reply shortly.”
 
 Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
 

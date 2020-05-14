@@ -55,13 +55,13 @@ To enable this feature:
 
 {:start="5"}
 5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
-6\. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
-7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
+6\. Select the engagement attribute properties that will be displayed to the agent in the Agent Workspace by clicking add field to widget. You must select at least one property.
+7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the Agent Workspace.
 8\. Click save.
 
 ## Using conversation outcomes
 
-Once enabled, a new widget called conversation summary is displayed to the relevant agent(s) in the agent workspace during the conversation.
+Once enabled, a new widget called conversation summary is displayed to the relevant agent(s) in the Agent Workspace during the conversation.
 
 {: .notice}  
 This widget will only be available if either conversation outcomes or agent survey is enabled.

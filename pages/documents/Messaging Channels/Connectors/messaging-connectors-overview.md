@@ -33,8 +33,8 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 
 ## Why manage conversations with LivePerson?
 
-**Fully-equipped agent workspace:**
-The [agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) is a centralized platform equipped with innovative tools and resources such as predefined content, CRM integrations, and other capabilities to help agents effectively answer and manage conversations from different channels.
+**Fully-equipped Agent Workspace:**
+The [Agent Workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) is a centralized platform equipped with innovative tools and resources such as predefined content, CRM integrations, and other capabilities to help agents effectively answer and manage conversations from different channels.
 
 **Bots that you can use and apply to all channels:**
 With pre-integrated bot and AI support, brands can create their own bots or apply previously configured bots and manage them all from within the platform. Bots created within LivePerson’s platform will work on any messaging channel the brand has adopted, and will automatically adjust to suit the capabilities of each channel.

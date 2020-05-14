@@ -3,7 +3,7 @@ pagename: All Conversations
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-conversations.html
 isTutorial: false
@@ -23,7 +23,7 @@ The “All Conversations tab enables agents and managers to perform two major ac
 
 ## Default view
 
-To access the **All Conversations** list directly, first select the **agent workspace** icon from the left side navigation. The agent workspace will open with an option to click on the **All Conversations** tab at the top.
+To access the **All Conversations** list directly, first select the **Agent Workspace** icon from the left side navigation. The Agent Workspace will open with an option to click on the **All Conversations** tab at the top.
 
 By default, the **All Conversations** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
 

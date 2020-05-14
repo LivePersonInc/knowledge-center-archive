@@ -3,7 +3,7 @@ pagename: Blended accounts
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: messaging-agents-blended-accounts.html
 isTutorial: false
@@ -62,7 +62,7 @@ For brands that have agents handling both live chat and messaging conversations 
 
 For agents that have two separate logins:
 
-* Messaging user: Enable the ‘use the enhanced agent workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
+* Messaging user: Enable the ‘use the enhanced Agent Workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
 
 * Chat user: No changes to permissions are required.  Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents)
 
@@ -92,7 +92,7 @@ Brands can elect to forgo the benefits of the enhanced workspace and enable agen
 
 Some brands elect to have agents taking both live chat and messaging concurrently.
 
-**Agents that work in this mode will NOT be able to utilize the enhanced agent workspace.**
+**Agents that work in this mode will NOT be able to utilize the enhanced Agent Workspace.**
 
 To use the enhanced workspace you must create a different login for these agents and follow the instructions as above.
 

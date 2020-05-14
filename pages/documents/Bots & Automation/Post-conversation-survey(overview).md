@@ -180,7 +180,7 @@ Once the survey contains no warnings, click on "Publish" in the header bar to ha
 
 ## Step 6 - Trigger the survey
 
-In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace will show the caption - “Survey in progress”
+In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the Agent Workspace will show the caption - “Survey in progress”
 
 ![](/img/post-conversation-survey-user-guide6-2.png)
 

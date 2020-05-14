@@ -35,7 +35,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 2) [Managers workspace for messaging](https://knowledge.liveperson.com/new-experiences.html#managers-of-messaging-conversations-new-workspace--new-home-page)
 
-3) [Enhanced agent workspace](https://knowledge.liveperson.com/new-experiences.html#agents-of-messaging-conversations-enhanced-workspace)
+3) [Enhanced Agent Workspace](https://knowledge.liveperson.com/new-experiences.html#agents-of-messaging-conversations-enhanced-workspace)
 
 ## Navigation bar: moving to left, new icons, new color
 
@@ -70,7 +70,7 @@ For the first time, in order to help you prepare for this UI change, we are publ
 
 * **Who will get this**: Users who have the ‘agent’ role + conduct asynchronous messaging
 
-* **What do I have to do to see this?** Turn the enhanced workspace to ON in  user management > profiles > 'use enhanced agent workspace'.<br> (Note: no agent will see this workspace until you turn it on for them)
+* **What do I have to do to see this?** Turn the enhanced workspace to ON in  user management > profiles > 'use enhanced Agent Workspace'.<br> (Note: no agent will see this workspace until you turn it on for them)
 
 * **What it will look like after you enable the permission**:
 

@@ -192,7 +192,7 @@ The following core permissions are included with the Admin role and cannot be di
 
 * Ability to change their name, password, regional settings and so on
 * View all campaigns in the Campaign Builder
-* View all visitors in the agent workspace
+* View all visitors in the Agent Workspace
 * View a snapshot of the performance of all your account’s campaigns in the campaigns dashboard
 * View detailed information on the performance of all your account’s campaigns in the campaign manager BI dashboard
 * Ability to configure the authentication server

@@ -74,7 +74,7 @@ For chat conversations, the MCS score and smileys are displayed in dedicated col
 
 ![](/img/meaningful-connection-score-(MCS)-overview3.png)
 
-The image above shows the chat agent workspace
+The image above shows the chat Agent Workspace
 
 ### 2. Training opportunities
 

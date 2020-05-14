@@ -69,7 +69,7 @@ Audio messaging is now available for the Apple Business Chat and Facebook Messen
 The Conversational Cloud will support the following audio messages flow:
 
 * A consumer on ABC or FBM records and sends an audio message to an agent on LE
-* An agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
+* An agent receives an audio type message and can play the message the consumer has recorded on the Agent Workspace
 * An agent can play and replay audio messages sent by consumers for open and closed conversations (the agent cannot record audio messages)
 * A consumer can replay his own audio messages (speaker only) - as supported on each channel
 

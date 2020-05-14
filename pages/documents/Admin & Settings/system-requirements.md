@@ -170,7 +170,7 @@ While these browsers do support Conversational Cloud they do not support, and wi
 
 ### LivePerson workspace
 
-* Initial download speed: approximately 6MB GZIPPED for complete agent workspace download (includes scripts, html, CSS and images).
+* Initial download speed: approximately 6MB GZIPPED for complete Agent Workspace download (includes scripts, html, CSS and images).
 * Average rate per CCP per second: 10-15KB for data.
 * Max rate per CCP per second: 1.2MB - 1.5M.
 * Browser resource requirements: Typical agent activities with max 3 concurrent chats, client resource requirements can be summarized as:

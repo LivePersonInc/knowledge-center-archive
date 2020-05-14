@@ -1,5 +1,5 @@
 ---
-pagename: Introducing the enhanced agent workspace
+pagename: Introducing the enhanced Agent Workspace
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
@@ -37,6 +37,6 @@ Agents can now scroll up to view the entire conversation history directly within
 
 Multiple notes by multiple agents can now be added to the conversation summary widget. This allows the assigned agent to view a log of comments and quickly get up to speed.
 
-### Enhanced customization of agent workspace 
+### Enhanced customization of Agent Workspace 
 
 Each user is now able to select whether they want to work in dark or light mode for their workspace.

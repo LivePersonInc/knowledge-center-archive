@@ -3,7 +3,7 @@ pagename: User guide
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-user-guide.html
 isTutorial: false
@@ -14,9 +14,9 @@ isNew: false
 
 ## Summary of enhancements
 
-Enhanced by automation and featuring an upgraded design, the agent workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
+Enhanced by automation and featuring an upgraded design, the Agent Workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
 
-**Main enhancements to the agent workspace include:**
+**Main enhancements to the Agent Workspace include:**
 
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease.
 
@@ -84,7 +84,7 @@ Agents can now enjoy a lighter and cleaner looking interface with the option to 
 
 ### Your personal data bar
 
-As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
+As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the Agent Workspace represents the real-time tracking of your current workload and shift.
 
 ![image alt text](img/databar.jpg){:class="newagent"}
 
@@ -136,7 +136,7 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ### Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations.
+The updated Agent Workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations.
 
 You should always answer the conversation at the top of the list. You can also scroll manually through the list if you need to answer another conversation. When you receive incoming conversations, they will automatically be sorted into your conversation list in the order that you should answer them, based on their SLA. Also, after you respond to a conversation it will be resorted and prioritized accordingly
 
@@ -190,7 +190,7 @@ Some predefined answers have associated hotkeys that will enable you to enter re
 
 There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich messaging enhances the consumer experience by providing a richer, more engaging channel of communication.
 
-The following types of rich messaging are being supported for the enhanced agent workspace:
+The following types of rich messaging are being supported for the enhanced Agent Workspace:
 * Structured content cards and carousels
 * Consumer to agent photo sharing
 * Consumer to agent audio sharing
@@ -224,7 +224,7 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 #### CoBrowse
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Conversations list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced Agent Workspace, this capability is currently available **only for the My Conversations list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
 
 ## Closing conversations
 

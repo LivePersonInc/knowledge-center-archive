@@ -3,7 +3,7 @@ pagename: Configuration
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-configuration.html
 isTutorial: false
@@ -12,7 +12,7 @@ isNew: false
 
 ---
 
-The agent workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
+The Agent Workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  
 
 There are a few configurations that brands can elect to control for the agent experience as outlined below.  
 
@@ -21,9 +21,9 @@ There are a few configurations that brands can elect to control for the agent ex
 
 ## Enabling the enhanced workspace
 
-Messaging agents can access the enhanced agent workspace starting on September 16th, but it is off by default and must be enabled in permissions.
+Messaging agents can access the enhanced Agent Workspace starting on September 16th, but it is off by default and must be enabled in permissions.
 
-To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced agent workspace" and save the changes. This will give all users that have been assigned this profile access to the enhanced workspace.
+To do so, managers must go to the profiles tab in the users module. Select the name of the relevant profile, then under permissions toggle on 'Use enhanced Agent Workspace" and save the changes. This will give all users that have been assigned this profile access to the enhanced workspace.
 
 ![alt text](img/new-agent-workspace-10.png)
 
@@ -32,7 +32,7 @@ In order to gradually transition your agents to the enhanced workspace you will 
 ## Configuration from your LivePerson workspace
 
 {: .notice}
-**Please note:** If you have set up the below configurations for the existing agent workspace, you do not need to set them again - they will automatically apply.
+**Please note:** If you have set up the below configurations for the existing Agent Workspace, you do not need to set them again - they will automatically apply.
 
 ### Auto accept
 
@@ -46,9 +46,9 @@ Set up:
 
 ## Set consumer profile for unauthenticated flows
 
-The **enhanced agent workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Conversations and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
+The **enhanced Agent Workspace** has been improved to support additional use cases for unauthenticated conversation flows. Up until now, whenever an unauthenticated conversation was initiated, the visitor displayed as “Visitor” in the My Conversations and All Conversations lists. In cases of multiple unauthenticated conversations, agents were confused since they had no ability to distinguish between conversations.
 
-The enhanced agent workspace supports the two following improvements to assist agents in distinguishing between unauthenticated conversations in the agent workspace:
+The enhanced Agent Workspace supports the two following improvements to assist agents in distinguishing between unauthenticated conversations in the Agent Workspace:
 
 ### Automatically rename ‘Visitor’, when “Personal info” engagement attribute has been reported
 
@@ -111,7 +111,7 @@ On your LivePerson Conversational Cloud account, take the following steps:
 **A:** No - the changes are visible for Conversational Cloud users only and are not visible for consumers.
 
 **Q:** Will these capabilities be supported in the old workspace as well?
-**A:** No, the enhancements are supported for the enhanced agent workspace only.
+**A:** No, the enhancements are supported for the enhanced Agent Workspace only.
 
 **Q:** When the visitor name is automatically or manually updated, will this affect both the My Conversations and All Conversations lists?
 **A:** Yes. Even if the change has been done on one list (e.g My Conversations) it will affect the other list (All Conversations), and vice versa.

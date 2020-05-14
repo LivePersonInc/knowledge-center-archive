@@ -4,7 +4,7 @@
     - subcategoryname: LivePerson's conversational commerce platform
     - subcategoryname: Quick start guides
       pages:
-        - pagename: Web messaging quick start
+        - pagename: Web Messaging quick start
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
@@ -18,11 +18,11 @@
 - categoryname: Messaging channels
   image: messaging-channels
   subcategories:
-    - subcategoryname: Web messaging
+    - subcategoryname: Web Messaging
       pages:
-        - pagename: Add web messaging to your website
-        - pagename: Authenticated web messaging
-        - pagename: Proactive engagements for web messaging
+        - pagename: Add Web Messaging to your website
+        - pagename: Authenticated Web Messaging
+        - pagename: Proactive engagements for Web Messaging
     - subcategoryname: "Mobile app messaging"
       pages:
         - pagename: Add messaging to your mobile app

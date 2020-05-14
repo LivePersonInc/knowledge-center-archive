@@ -12,11 +12,11 @@ isNew: false
 ---
 
 {: .notice}
-**Please note:** This capability is only available for the enhanced agent workspace.
+**Please note:** This capability is only available for the enhanced Agent Workspace.
 
 ## Introduction
 
-Users using the enhanced agent workspace have the ability to share hyperlinks with consumers during a messaging conversation. In order to do so, a hyperlink button has been added above the agent input area, allowing agents to define the link text and URL:
+Users using the enhanced Agent Workspace have the ability to share hyperlinks with consumers during a messaging conversation. In order to do so, a hyperlink button has been added above the agent input area, allowing agents to define the link text and URL:
 
 ![](img/hyperlinks-overview-1.png)
 
@@ -26,7 +26,7 @@ Within the agent input area, the hyperlink will appear in blue and underlined, t
 
 ![](img/hyperlinks-overview-2.png)
 
-After sending the message to the consumer, the link will appear underlined as well in the transcript area. The link will be clickable for the agent via the agent workspace:
+After sending the message to the consumer, the link will appear underlined as well in the transcript area. The link will be clickable for the agent via the Agent Workspace:
 
 ![](img/hyperlinks-overview-3.png)
 

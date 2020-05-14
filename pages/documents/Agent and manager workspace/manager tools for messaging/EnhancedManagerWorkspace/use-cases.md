@@ -3,7 +3,7 @@ pagename: Use cases
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-use-cases.html
 isTutorial: false

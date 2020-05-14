@@ -14,7 +14,7 @@ redirect_from:
 - getting-started-quick-start-guides-messaging-quick-start.html
 
 ---
-Setup Web Messaging between Conversational Cloud and your website.
+Set up Web Messaging between the Conversational Cloud and your website.
 
 ## Step 1: Get the Web Tag
 
@@ -37,7 +37,7 @@ Next, click the **Add campaign** button at the bottom left of the screen. Click 
 
 Click **Add engagement** and select **Web.** Choose any of the available engagement types and then continue clicking **Next** until the **Done** button is available. Click **Done**. Click **Publish** at the top right to publish your campaign. You can read more about campaigns [here](https://knowledge.liveperson.com/contact-center-management-campaigns-campaigns-overview.html).
 
-## Steps 4: Send and receive web messages
+## Steps 4: Send and receive Web Messages
 
 Load the website that you inserted your Web Tag into. If you’ve successfully completed Steps 1-3, the engagement button that you selected in Step 3 will appear. Click on the engagement button and send a message. The message will appear in the Conversational Cloud. Clicking "Accept" will allow you to respond.
 

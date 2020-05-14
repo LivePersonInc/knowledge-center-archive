@@ -115,7 +115,7 @@ Select how the messaging window will be presented to the consumer, either embedd
 
 #### Language
 
-The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
+The engagement language selected in this step will only affect items in the Agent Workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
 ### Engagement studio
 

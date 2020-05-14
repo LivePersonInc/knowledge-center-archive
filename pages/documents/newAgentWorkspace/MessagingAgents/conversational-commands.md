@@ -14,9 +14,9 @@ isNew: false
 
 ## Introduction
 
-Conversational Commands is an innovative tool that allows agents to efficiently use [LivePerson Functions](developer-tools-liveperson-functions.html) within the context of the conversation. Agents are able to use a bank of preconfigured, account-specific commands to enrich the conversation with integrated functions that will help them interact efficiently with the consumer. A brand can create custom functions that are tied to agent commands, thereby automating frequently-used actions for the agents to save them time on a daily basis. An agent types a command in the text editor of the agent workspace, and the function is triggered to perform the task.
+Conversational Commands is an innovative tool that allows agents to efficiently use [LivePerson Functions](developer-tools-liveperson-functions.html) within the context of the conversation. Agents are able to use a bank of preconfigured, account-specific commands to enrich the conversation with integrated functions that will help them interact efficiently with the consumer. A brand can create custom functions that are tied to agent commands, thereby automating frequently-used actions for the agents to save them time on a daily basis. An agent types a command in the text editor of the Agent Workspace, and the function is triggered to perform the task.
 
-With Conversational Commands, the automated function is simply triggered by the agent without them losing focus and jumping from screen to screen. The automation can both perform the task on the backend, as well as communicate with the agent in the agent workspace. The response of a Conversational Command is private and won’t be shown to the consumer.
+With Conversational Commands, the automated function is simply triggered by the agent without them losing focus and jumping from screen to screen. The automation can both perform the task on the backend, as well as communicate with the agent in the Agent Workspace. The response of a Conversational Command is private and won’t be shown to the consumer.
 
 ## Use Cases
 

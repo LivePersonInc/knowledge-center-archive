@@ -3,7 +3,7 @@ pagename: What's new in All Conversations
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: messaging-managers-whats-new-in-all-conversations.html
 isTutorial: false

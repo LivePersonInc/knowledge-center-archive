@@ -22,7 +22,7 @@ Brand using chat and messaging services can scale significantly with automation.
 * **Humans and bots work together in LivePerson**  
   In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to manage and take over conversations as needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
 * **Track and monitor bots like any other agent**  
-  Bot conversations appear in the agent workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
+  Bot conversations appear in the Agent Workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
 * **Set consumer expectations for a better bot experience**
   In the conversation window, the consumer sees either an agent or a bot as the agent icon in order to manage consumer expectations. This agent icon is updated to a bot icon and automatically switched to the agent icon
 

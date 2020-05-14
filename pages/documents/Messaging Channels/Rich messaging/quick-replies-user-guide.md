@@ -129,6 +129,6 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 
 ## Notes
 
-* The configured quick replies responses available in the agent workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (Web Messaging and App Messaging, as well as Facebook).
+* The configured quick replies responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (Web Messaging and App Messaging, as well as Facebook).
 * When an agent sends a quick replies message to a consumer, it will trigger a push notification. The push notification will show the Agent’s message which preceded the Quick Replies bundle.
 * You can show between one and twenty-four chips within a quick replies bundle.

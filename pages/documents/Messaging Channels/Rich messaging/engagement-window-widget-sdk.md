@@ -25,7 +25,7 @@ The engagement window widget SDK allows brands to intelligently share product in
 
 The SDK, which requires some development by LivePerson, offers advanced capabilities for integrating applications into the engagement window, allowing two-way communication between LivePerson and external applications. By reading conversation lines, it can trigger intelligent and tailored content to be pushed to the window, which appears as an Iframe off the main conversation window (or as an overlay on mobile). Consumers will receive notifications, in both pop-out and minimized modes, when new content is available to view.
 
-The SDK can also be integrated with the agent workspace widget SDK, allowing rich media to be shared between the consumer and the agent. Using unique session IDs, an external platform facilitates a direct connection between the two SDKs, providing a seamless widget integration framework.
+The SDK can also be integrated with the Agent Workspace widget SDK, allowing rich media to be shared between the consumer and the agent. Using unique session IDs, an external platform facilitates a direct connection between the two SDKs, providing a seamless widget integration framework.
 
 {: .notice}  
 The SDK requires technical deployment by LivePerson professional services.

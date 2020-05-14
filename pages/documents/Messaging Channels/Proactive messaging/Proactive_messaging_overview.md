@@ -32,7 +32,7 @@ The Conversational Cloud is the industry’s leading conversation management pla
 
 ## Proactive messaging capabilities
 
-* Create targeted outbound campaigns and route consumer responses into the LivePerson agent workspace, where conversations can be handled by humans, automation (using our built-in Conversation Builder) or a tango of both.
+* Create targeted outbound campaigns and route consumer responses into the LivePerson Agent Workspace, where conversations can be handled by humans, automation (using our built-in Conversation Builder) or a tango of both.
 * When a consumer responds, the agent or bot who receives the response message will also have context of the outbound message that was sent to the customer for a more streamlined experience.
 * Create personalised and targeted campaigns by using variables - each recipient can have personalized content
 * If using WhatsApp, apply for approval from Facebook for your outbound templates directly from the tool

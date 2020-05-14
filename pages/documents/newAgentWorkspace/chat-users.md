@@ -3,7 +3,7 @@ pagename: 'New navigation & status button'
 categoryName: Agent & manager workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: live-chat-agents-managers-new-navigation-status-button.html
 isTutorial: false

@@ -58,7 +58,7 @@ Generally HTML elements can be integrated into Predefined Content entries. Chat 
 
 ## How do I enable/disable audio notification in MS Internet Explorer?
 
-The agent workspace is pre-configured to play sounds for different activities such as incoming messages for agents.  To turn these sounds on and off, each agent has to adjust their computer settings with the following steps:
+The Agent Workspace is pre-configured to play sounds for different activities such as incoming messages for agents.  To turn these sounds on and off, each agent has to adjust their computer settings with the following steps:
 
 1. Open control panel: the easiest way to open the control panel is to click on “Start” and then click on “Control Panel.”
 2. Open the internet options: use the search box to find the “Internet Options” section of the Control Panel.

@@ -3,7 +3,7 @@ pagename: New agent manager experience
 categoryName: Agent & manager workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html
 isTutorial: false
@@ -12,25 +12,25 @@ isNew: false
 
 ---
 
-For messaging managers that are using the new manager workspace, it is also recommended to use the enhanced agent workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
+For messaging managers that are using the new manager workspace, it is also recommended to use the enhanced Agent Workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
 
-This document covers how some of the workflows for managers will look when using a **combination of the new manager workspace and enhanced agent workspace.**
+This document covers how some of the workflows for managers will look when using a **combination of the new manager workspace and enhanced Agent Workspace.**
 
 {: .notice}
-**Please note:** For managers that do not turn on the enhanced agent workspace, the manager workspace will be as an add-on only and there will be no effect on their existing workflows.
+**Please note:** For managers that do not turn on the enhanced Agent Workspace, the manager workspace will be as an add-on only and there will be no effect on their existing workflows.
 
-Quick summary of where information can be found once you enable the enhanced agent workspace:
+Quick summary of where information can be found once you enable the enhanced Agent Workspace:
 
 Section | For agents | For managers
 --- | --- | ---
-All Conversations | Available in the new “connections” module within the agent workspace. | Available in the new “connections” module within the agent workspace.
-Open Conversations | Agent conversations are managed in My Conversations within the agent workspace. Agents with the “view other agents conversations” permission turned on can view them in All Conversations. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Conversations list for full view. Conversations joined by managers will appear in the My Conversations area of the agent workspace.
+All Conversations | Available in the new “connections” module within the Agent Workspace. | Available in the new “connections” module within the Agent Workspace.
+Open Conversations | Agent conversations are managed in My Conversations within the Agent Workspace. Agents with the “view other agents conversations” permission turned on can view them in All Conversations. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Conversations list for full view. Conversations joined by managers will appear in the My Conversations area of the Agent Workspace.
 Messaging agents | Will not be viewable to agents | Available in new manager workspace Agents widget
 
-If you have the manager workspace enabled, but not the new agent workspace, the tabs described in the table above will remain in the Visitors module.
+If you have the manager workspace enabled, but not the new Agent Workspace, the tabs described in the table above will remain in the Visitors module.
 
 ## Manager workflows
-The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the agent workspace + All Conversations.
+The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the Agent Workspace + All Conversations.
 
 We'll cover the following workflows:
 * [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
@@ -71,7 +71,7 @@ Until now, managers were monitoring conversations using the Open Conversations l
 ### Viewing a conversation transcript
 The Conversation widget in the workspace was designed for skimming through lists of conversations. If you’d like to read any conversation as it happens in real time, you can do so by clicking on the consumer name in this list.
 
-Once you click on a visitors name, the All Conversations list within the agent workspace will open, automatically displaying the selected conversation:
+Once you click on a visitors name, the All Conversations list within the Agent Workspace will open, automatically displaying the selected conversation:
 
 To go back to view additional conversations - you have two options:
 1. Click the ‘list view’ on the right corner to see the full list (remove filters to view complete list)
@@ -92,7 +92,7 @@ Once you click on a conversation to view its transcript, this detailed view will
 Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Conversations and use only the preview to view the conversation. In the new view of All Conversations this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
 
 {: .notice}
-**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced agent workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced agent workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Conversations list as was done previously.
+**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced Agent Workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced Agent Workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Conversations list as was done previously.
 
 ### Opening multiple conversations concurrently  
 
@@ -126,7 +126,7 @@ You can click on ‘to send messages go to My Conversations list and it will aut
 
 ### Searching for specific conversations
 
-To search for a specific conversation, start by navigating to the All Conversations area within the agent workspace.  
+To search for a specific conversation, start by navigating to the All Conversations area within the Agent Workspace.  
 
 The timeframe for the search now appears on top of the list and you can start filtering based on time. **Note:** You can search for conversations that began within the past 13 months.
 
@@ -187,13 +187,13 @@ The new manager workspace offers much greater detail on the shift and will repla
 
 For accounts that serve both chat and messaging, some managers may oversee both live chat as well as messaging agents.
 
-The new agent workspace and the All Conversations area cover ONLY messaging conversations.
+The new Agent Workspace and the All Conversations area cover ONLY messaging conversations.
 
 The existing tools for monitoring live chat: Web Visitors, Web History and All Agents will remain as they are. Blended managers will have therefore two sets of tools and will use both. All tools will be available in the same account.
 
 To monitor and manage messaging agents, use:
 * New manager workspace
-* Enhanced agent workspace & All Conversations list
+* Enhanced Agent Workspace & All Conversations list
 
 To monitor and manage chat agents, use:
 * Web visitors

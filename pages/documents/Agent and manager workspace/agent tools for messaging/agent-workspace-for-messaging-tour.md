@@ -13,6 +13,6 @@ date: 2019-01-21 09:21:27 +0000
 isNew: false
 
 ---
-Watch this tutorial to learn about the messaging agent workspace
+Watch this tutorial to learn about the messaging Agent Workspace
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/274932469" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -55,11 +55,11 @@ Following the completion of an onsite assessment, the Conversational Cloud secur
 
 ## How it works
 
-An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
+An agent can send a secure form from the[ Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
 
 ![](/img/Secure-forms-chat1.png)
 
-_Figure 1 Secure form within the agent workspace_
+_Figure 1 Secure form within the Agent Workspace_
 
 The visitor then fills out and submits the secure form back to the agent. The receiving agent is the only one able to view the information sent by the visitor.
 

@@ -42,7 +42,7 @@ Under Facebook's page settings for messaging, brands can use the following featu
 * **Offline response:** lets customers know you are offline but will respond soon e.g. _Hi, we’re away right now but we’ll get back to you shortly_.
 
 {: .notice}
-**Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
+**Note:** The messages above will display in the Agent Workspace. Just like messages sent by agents, they have a character limit of 640.
 
 {: .notice}
 **Note:** Subscribing your page to the Conversational Cloud before creating a button on the Facebook page is not possible. Please create a Facebook page with a button first and then connect it to the Conversational Cloud.
@@ -61,7 +61,7 @@ Brands and consumers can begin interacting over Facebook Messenger through multi
 
 ## Add an agent manager  to display third-party messages
 
-In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
+In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the Agent Workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 
 To create a new Agent Manager user, specifically for this purpose:
 
