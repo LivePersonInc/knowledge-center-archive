@@ -10,7 +10,7 @@ permalink: data-reporting-meaningful-conversation-score-(mcs)-meaningful-convers
 isTutorial: false
 date: '2019-01-22T09:35:20.000+00:00'
 isNew: false
-redirect from: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
+redirect_from: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
 ---
 Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the coversations that take place between brands and consumers.
 
