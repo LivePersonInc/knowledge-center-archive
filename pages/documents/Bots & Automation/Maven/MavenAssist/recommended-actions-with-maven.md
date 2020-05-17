@@ -1,17 +1,17 @@
 ---
-pagename: 'Agent Assist recommends next action
+pagename: 'Agent Assist recommends next action'
 categoryName: Bots & automation
 subCategoryName: ''
 level3: ''
 indicator: both
-subtitle: A continuously-learning platform that orchestrates all conversational interactions
-  to recommend the best outcomes
+subtitle: A continuously-learning platform that orchestrates all conversational interactions to recommend the best outcomes
 level3: Getting started
 permalink: ai-bots-automation-agent-assist-recommends-next-action.html
 isTutorial: false
 isNew: false
 date: 2019-03-14T11:31:44.000+00:00
-redirect_from: ai-bots-automation-maven-recommended-actions.html
+redirect_from: 
+  - ai-bots-automation-maven-recommended-actions.html
 ---
 
 LivePerson’s [Conversation Orchestrator](ai-bots-automation-maven-overview.html) is an AI powered platform that orchestrates conversations involving bots and human agents - the  brain inside LivePerson’s conversational commerce platform.

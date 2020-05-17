@@ -10,7 +10,8 @@ permalink: contact-center-management-messaging-operations-dynamic-capacity-dynam
 isTutorial: false
 date: 2019-01-17 12:39:54 +0000
 isNew: false
-redirect_from:contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html
+redirect_from:
+  - contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html
 ---
 ## Overview
 

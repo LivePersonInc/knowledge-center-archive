@@ -9,7 +9,8 @@ permalink: contact-center-management-messaging-operations-dynamic-capacity-capac
 isTutorial: false
 isNew: false
 date: 2019-03-18 08:31:11 +0000
-redirect_from:contact-center-management-messaging-operations-smart-capacity-capacity-management-for-manual-sla.html
+redirect_from:
+    - contact-center-management-messaging-operations-smart-capacity-capacity-management-for-manual-sla.html
 ---
 Today conversations that are set with a long manual SLA maintain a capacity of 1 (active) until the "time to inactive" defined by [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) had passed. Only then the weight of the conversation would go down to its inactive weight. While it makes sense in cases where short manual SLAs are set, in cases where long manual SLAs are set - this behavior blocks the agent capacity until the conversation reaches its inactive state. This behavior translates into agent wasted capacity of about 2-4 min, depending on the Brands Dynamic Capacity configuration. Lowering the weight of the conversation whenever a long manual SLA is set enables agents to take on additional conversations without waiting for conversations to become inactive and by that, optimize the agent conversation load. With this in mind, it is important to have a minimum time setting that defines that if the set SLA is higher than a certain amount of time, lower the conversation weight immediately, otherwise, keep it as is it is today where the standard Dynamic Capacity logic applies to the conversation.
 
