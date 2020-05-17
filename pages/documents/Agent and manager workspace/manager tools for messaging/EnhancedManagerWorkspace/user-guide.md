@@ -18,7 +18,7 @@ redirect_from:
 
 ## Configuration
 
-To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent Manager Workspace”. The permission is “On”  by default.
+To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
 
 ![](img/new-manager-workspace-permissions.png){:class="newagent"}
 
