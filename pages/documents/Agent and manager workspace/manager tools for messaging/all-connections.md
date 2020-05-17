@@ -5,12 +5,13 @@ subCategoryName: Manager tools for messaging
 indicator: messaging
 subtitle: Oversee all messaging conversations captured in one place
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-all-connections.html
-redirect_from:
-  - agent-manager-workspace-manager-tools-for-messaging-all-connections.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-all-conversations.html
 isTutorial: false
 date: 2019-01-21 11:55:32 +0000
 isNew: false
+redirect_from:
+  - agent-manager-workspace-manager-tools-for-messaging-all-connections.html
+- agent-manager-workspace-manager-tools-for-messaging-other-manager-tools-for-messaging-all-connections.html
 ---
 The All Conversations tab displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page. This area is a useful tool for managers to search through closed conversations, including for survey answers to open questions.
 
