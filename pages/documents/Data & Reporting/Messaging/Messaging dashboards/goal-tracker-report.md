@@ -1,17 +1,15 @@
 ---
-pagename: Goal tracker for messaging
+pagename: Goal tracker report
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: Messaging
+indicator: both
 subtitle: This dashboard includes raw data for every goal reached in any of the selected
   account’s campaigns
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-for-messaging.html
+permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 isTutorial: false
 date: 2019-01-21 13:20:07 +0000
 isNew: false
-redirect_from:
-  - data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 
 ---
 The goal tracker for messaging dashboard allows brands to attribute a conversion to any of the agents who handled a consumers conversation during the window time-frame the brand considers valid for attribution. In order to take the first step in this direction, a report shall be provided to instill visibility into all agents whom which the consumer engaged with during the “Cross-Session Window” configured on the account.
