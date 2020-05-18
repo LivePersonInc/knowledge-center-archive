@@ -401,7 +401,7 @@
     - subcategoryname: Messaging
       pages:
         - pagename: Set up and management
-        - pagename: Consumer Experience
+        - pagename: Consumer experience
         - pagename: Agent tools
     - subcategoryname: Live chat
     - subcategoryname: Bots
