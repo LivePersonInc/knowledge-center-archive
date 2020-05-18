@@ -28,7 +28,7 @@ For example, if a conversation has been idle for ten days, it can be automatical
 
 ## Auto-close per skill
 
-In some cases, different skills have a different conversation pace and therefore should have different time intervals to auto close. With auto close per skill, you can choose to create a custom configuration for a specific skill that will be different from the account-level configuration. 
+In some cases, different skills have a different conversation pace and therefore should have different time intervals to auto close. With auto close per skill, you can choose to create a custom configuration for a specific skill that will be different from the account-level configuration.
 
 This higher level of flexibility to determine when a conversation should close and helps prevent scenarios where conversations get closed too early or late. Configuring auto close  per skill thereby can improve the consumer experience as well as the brand's operational parameters.
 
@@ -40,16 +40,16 @@ This higher level of flexibility to determine when a conversation should close a
 * A conversation will only auto close if it is pending a consumer response, for conversations pending an agent response (e.g. actionable conversations), auto close will not apply.
 * When a conversation is sent back to the queue, the auto close timer will reset and if the conversation is pending a consumer response the conversation will auto close upon expiration of the timer.
 * By default a conversation where the agent has set a manual response time (manual SLA) will not be auto closed. This logic can be altered in the backend by your LivePerson account team so that a conversation set with a manual response time will auto close only after the manual response time expires _and_ an agent sent at least one line of conversation after the manual response time expired.
-* Auto close is supported on web messaging and on mobile from SDK 2.1 and above.
+* Auto close is supported on Web Messaging and on mobile from SDK 2.1 and above.
 * A transferred conversation is marked as 'actionable' and therefore auto close does not apply.
 
 ## Configuration
 
 1. Click the Users tab at the top of the screen
-2. Select the Skills tab 
+2. Select the Skills tab
 3. Select the skill that you would like to configure
 4. Scroll down to the auto close section and select custom settings
-5. Set the auto close timer you wish to use 
+5. Set the auto close timer you wish to use
 6. Click **Save**.
 
 ## Limitations
@@ -57,6 +57,6 @@ This higher level of flexibility to determine when a conversation should close a
 1. **No ability to turn off auto close feature**: The messaging backend servers have a system protection mechanism that closes conversations after 90 days of inactivity in order to control the load on the server. Due to this, auto close is enabled for all accounts with a default value of 90 days which is also the maximum allowed configuration.
 2. **SDK backward compatibility**: Elimination of the post conversation survey and close message on mobile app is supported only from SDK version 2.1 and above. Consumers messaging from an app implementing an older SDK will see the survey and a close message “Conversation resolved by you” (depending on SDK configuration) following auto close.
 3. **Auto close frequency:** Auto close process runs in 25 minute intervals. This means that auto close will apply to a given conversation anytime between the "configured time" and the "configured time" + 25 min.
-4. **Joining as “reader” resets the auto close timer:** The auto close timer is reset when an agent manager opens a conversation to view it in full screen or from the Open Connections list.
+4. **Joining as “reader” resets the auto close timer:** The auto close timer is reset when an agent manager opens a conversation to view it in full screen or from the Open Conversations list.
    * This is currently a technical limitation since the auto close timer is reset with every metadata change of the conversation. An agent manager joining as a “reader” triggers a change in the conversation participant’s metadata.
-   * There is a potential workaround: The timer is not reset when opening the transcript widget view from the "All Connections" list.
+   * There is a potential workaround: The timer is not reset when opening the transcript widget view from the "All Conversations" list.

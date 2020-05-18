@@ -20,7 +20,7 @@ A target audience can also be created with the inclusion of specific IP addresse
 
 To exclude/include an IP address(es):
 
-1. In the campaign tab, click **add campaign**.
+1. In the Campaign Builder, click **add campaign**.
 2. Give your campaign a name and add a goal.
 3. Under **target audience**, click edit.
 4. In target audience library, click **add new**.

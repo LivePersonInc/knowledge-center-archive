@@ -11,13 +11,19 @@ isTutorial: false
 date: '2019-01-15T13:14:02.000+00:00'
 
 ---
-The Survey Dashboard for messaging provides results for all available surveys for messaging; the Post Conversation Survey and the Agent survey.
+This dashboard will be coming soon to the Analytics Builder. It will provide results for all available surveys for messaging namely the Post Conversation Survey.
+
+The [post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) enables brands to both collect feedback and measure their success from the consumers after conversations have taken place.The survey is delivered in a conversational experience to drive higher completion rates and provide consumers with the best experience possible.
+
+Brands can customize the survey to their needs, including predefined questions (CSAT, NPS and FCR), custom questions and free text, as well as the ability to determine the logic between the questions.
+
+The results of the surveys can be analyzed in real time using the [messaging interactions API ](https://developers.liveperson.com/messaging-interactions-api-overview.html)or by historical data in [Analytics Builder.](data-reporting-report-builder-report-builder-overview.html)
+
+## Analytics Builder
 
 Please see the reporting [tutorial](https://vimeo.com/311200786/08a7eff0a9)
 
-The Survey dashboard for messaging contains 2 chapters: the post conversation survey and the Agent survey.
-
-## Post conversation survey
+The predefined messaging performance dashboard has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the Bot Studio.
 
 The Post Conversation Survey Chapter includes five pages enabling different analyzes both at the results level - consumers feedback, and the survey activity level - understanding how many surveys were closed and what was the outcome (partially completed or timed out, for example).
 
@@ -35,13 +41,13 @@ The“survey data export” sheet contains an additional set of daily aggregated
 4. Survey activity and performance, allowing the response rate to be monitored
 5. Question level performance, allowing the average time to respond to be monitored
 
-In addition to the default grid views, Report Builder users with customization privileges  can add an hourly view of survey information in the same dashboard. The optional set of metrics which be added to the dashboard by LPA and users with customization privileges include:
+In addition to the default grid views, Analytics Builder users with customization privileges  can add an hourly view of survey information in the same dashboard. The optional set of metrics which be added to the dashboard by LPA and users with customization privileges include:
 
 1. Predefined KPIs at the brand level
 2. Use “answer value” attribute to derive calculations over predefined questions. For example, create “NPS promoters” or “VSAT” metrics.
 3. Create an hourly level analysis (the default analysis is at daily granularity)
 
-For more information about customization privileges to the Report Builder, please contact your LivePerson account manager or customer success manager.
+For more information about customization privileges to the Analytics Builder, please contact your LivePerson account manager or customer success manager.
 
 ### Aggregation levels
 
@@ -121,9 +127,9 @@ Question fallback text is presented in the report for questions which include a 
 
 ### Limitations
 
-1. Report Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
+1. Analytics Builder will only reflect data of surveys configured in the Bot Studio. (External bots are not supported at this time).
 2. Chat survey data is entirely separate from messaging survey data. Chat survey data can be accessed via the existing predefined dashboards (agent activity, survey activity, skill activity, and ops & staffing), while the messaging survey data appears only in the messaging performance predefined dashboard.
-3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Report Builder but replaced with blank spaces.
+3. Emojis configured anywhere in the survey properties (name, question name, answer text, etc.) will not be presented in Analytics Builder but replaced with blank spaces.
 4. Free text questions can not be analyzed.
 
 ## Custom reports
@@ -236,7 +242,7 @@ Below is an example for creating a custom metric for any type of question with c
 
 ### Retrieving question IDs
 
-The IDs of the survey’s questions are mapped between Bot Studio and Report Builder.
+The IDs of the survey’s questions are mapped between Bot Studio and Analytics Builder.
 
 To In the retrieve the Question ID, head over to Bot Studio and click on the 3 dots next to the question name. Copy the ID and use it in the following formulas.
 
@@ -262,7 +268,7 @@ b. Formula: NullToZero(Sum(Case((\[QUESTION ID\]@ID="52d95264-87d4-453a-bbe0-7b9
 
 ### Exporting data for survey answers calculations
 
-Report Builder offers the option to export the survey results data into a MS Excel file. You can use this option to create your own calculations using Excel.
+Analytics Builder offers the option to export the survey results data into a MS Excel file. You can use this option to create your own calculations using Excel.
 
 **Steps for exporting a grid:**
 
@@ -293,7 +299,7 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ### Metrics
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
+For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard in the[ Developers Community.](https://developers.liveperson.com/essential-resources-report-builder-data-metrics.html#documenttitlecontainer)
 
 ![](/img/General-Data-metrics-table.png)
 

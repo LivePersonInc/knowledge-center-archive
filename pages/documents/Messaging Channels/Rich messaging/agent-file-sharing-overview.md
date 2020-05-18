@@ -1,24 +1,25 @@
 ---
 pagename: 'Agent file sharing overview '
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: messaging-channels-rich-messaging-agent-file-sharing-overview.html
+permalink: messaging-channels-rich-conversations-agent-file-sharing-overview.html
 isTutorial: false
 isNew: false
 date: '2019-04-15T08:03:29.000+00:00'
-
+redirect_from:
+  - messaging-channels-rich-messaging-agent-file-sharing-overview.html
 ---
 
-Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **web messaging, Apple Business Chat, and WhatsApp Busines.** In the future, more file formats will be supported.
+Agent file sharing enables agents and bots to share files with consumers. At this phase, **photos and certain file types** can be shared via **Web Messaging, Apple Business Chat, and WhatsApp Business.** In the future, more file formats will be supported.
 
 Agents will now be able to share files with consumers in order to answer questions that can be better explained using images. For example, a screenshot for tech support or a product photo for sales use cases.
 
 ## Enabling the feature
 
-To enable “Agent file sharing” capability on your LiveEngage account, please contact your LivePerson account team.
+To enable “Agent file sharing” capability on your LivePerson Conversational Cloud account, please contact your LivePerson account team.
 
 ## Night Vision setting
 
@@ -54,7 +55,7 @@ A new attachment icon has been added above the agent’s input message area:
 
 The icon will be visible only to users with the appropriate permission.
 
-If the channel from which the conversation was initiated does not support receiving files, the icon will be greyed out and will not be clickable. In this phase, the icon will be visible only in web messaging conversations.
+If the channel from which the conversation was initiated does not support receiving files, the icon will be greyed out and will not be clickable. In this phase, the icon will be visible only in Web Messaging conversations.
 
 Clicking on the attachment icon will open the agent local file browser dialog:
 
@@ -142,7 +143,7 @@ Bots will have the capability to send files as well. For further details and exa
 ## **Limitations and clarifications**
 
 * Supported file types: JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, PPTx.
-* The capability is currently supported only on web messaging, Apple Business Chat, and WhatsApp Business.
+* The capability is currently supported only on Web Messaging, Apple Business Chat, and WhatsApp Business.
 * File size will be limited to 5MB.
 * Authenticated consumers who receive a file from an agent over the web will see an empty line in the native app if the file was sent without a caption, or only the caption.
 

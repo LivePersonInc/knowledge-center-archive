@@ -18,7 +18,7 @@ This configuration allows you to define several campaigns, each with its own tim
 ## Accessing the time frame page
 
 1. From the campaigns list, select a specific campaign.
-2. On the campaign page, hover over the **Campaign time frame** and click **Edit.**
+2. In the Campaign Builder, hover over the **Campaign time frame** and click **Edit.**
 
 ![](/img/time-frame-2.png)
 
@@ -93,7 +93,7 @@ You may choose from:
 {:start="6"}
 6. Save the page.
 7. The new special occasion item will now appear in the Special Occasion library. Select this special occasion in order to choose it for your current campaign.
-8. Click **Done**. 
+8. Click **Done**.
 9. The Campaign time frame page will be presented again. Under “Special occasions”, a summary of the chosen special occasion will appear.
 
 ## Saving the campaign with new settings

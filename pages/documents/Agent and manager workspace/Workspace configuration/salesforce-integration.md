@@ -1,6 +1,6 @@
 ---
 pagename: Salesforce integration guide
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: ''
@@ -10,26 +10,26 @@ isTutorial: false
 date: '2019-01-22T08:24:13.000+00:00'
 
 ---
-The LiveEngage Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the LiveEngage app for Salesforce.
+The Conversational Cloud Salesforce Widget will allow SFDC information to be viewed inside the platform, as well as enabling records to be created and chat/messaging transcripts to be attached to them. In addition, the app will include back-end setup that will allow the SFDC admin to customize the default settings for their organization. This guide sets out the steps to install, configure, and start working with the Conversational Cloud app for Salesforce.
 
 **Please note:** The information in this guide refers to both chat and messaging, unless otherwise indicated.
 
-## **Step #1: Installing the LiveEngage app for Salesforce**
+## **Step #1: Installing the Conversational Cloud app for Salesforce**
 
 1. Log into Salesforce.
 2. Go to the following URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000AqfJ
    * Select "Install for All Users,” click "Install." (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 3. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third-party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 
-## **Step #2: Configuring the LiveEngage app in Salesforce**
+## **Step #2: Configuring the Conversational Cloud app in Salesforce**
 
 This step will guide you through the activation & configuration of the app in Salesforce.
 
-### **Navigating to the LiveEngage application in Salesforce**
+### **Navigating to the Conversational Cloud application in Salesforce**
 
-1. Now that you have installed the LiveEngage app in your Salesforce org, you will want to set it up.
+1. Now that you have installed the Conversational Cloud app in your Salesforce org, you will want to set it up.
 2. Login to Salesforce – click on the application menu in the top right of your screen.
-3. Make sure you have the LiveEngage application selected.
+3. Make sure you have the Conversational Cloud application selected.
 
 ### **Verifying Clickjack setting is disabled for required Visualforce Pages**
 
@@ -52,8 +52,8 @@ The first three check-boxes can have any value (true/false), however, the 4th �
 {:start="2"}
 
 1. “Step 1: Account Information” – Enter the relevant Account ID.
-2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LiveEngage account.
-   1. Go to “Campaigns” Tab and search for the link “Data Sources.”
+2. “Step 2: Oath Key Setup” – For this part you will need your App Keys from your LivePerson Conversational Cloud account.
+   1. Go to the Campaign Builder and search for the link “Data Sources.”
    2. Go to “API” Tab and click “Manage” and then “New.”
    3. Fill in the App Name: “SFDC Integration,” Developer:“LivePerson” and then make sure to select the following APIs on the list: “Data” > “Engagement 		History” and “Administrations” > “Skills” and click “Save.”
    4. Back to Salesforce: Enter the 4 strings you got into the matching fields on our activation page: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
@@ -77,10 +77,10 @@ This section sets out the Salesforce objects for which we would like the widget 
 
 ### **Skills settings**
 
-1. The LiveEngage Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
+1. The Skills are used within the Salesforce Widget. In this section, you will define which Salesforce Objects will be available to each Skill in the Salesforce Widget.
 
 {: .notice}
-**Note:** You must have skills in your LiveEngage account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
+**Note:** You must have skills in your LivePerson Conversational Cloud account for this package to work. If you don’t have any skills configured, please create a default one before continuing forward.
 
 {:start="2"}
 
@@ -88,10 +88,10 @@ This section sets out the Salesforce objects for which we would like the widget 
 2. Select from a list of Available Skills by selecting on relevant “Available Skills”, click the “Add” button to move to the “Selected Skills” side or “Remove” to remove them.
 3. In order to configure the skills further and define which objects each skill can view (along with other Skill-specific definitions), click on the “Configure Skills” link under “Advanced Settings.”
 4. The full list of the ‘Selected skills’ will be shown (The skills you selected from the previous screen).
-5. In order to customize the SFDC widget based on LE Skills, Click “Edit” next to one of the ‘selected skills’:
+5. In order to customize the SFDC widget based on Skills, Click “Edit” next to one of the ‘selected skills’:
    1. Select which objects the relevant Skill can work with in the SFDC widget.
    2. Select the default widget screen: either a Search 	Type or New Record page. The default and recommended option is “**People Search**” – the “People Search” shows the agent all the Accounts, Contacts & Leads that answer the search criteria, structured in a convenient tree format.
-   3. If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LiveEngage SDK search values.
+   3. If you select a search option as the default page, you can select the relevant search values that should be retrieved. For example, if the default screen selected is “Search Contact” and the selected Search Value is “Pre-Chat Survey Visitor Email”, then once the widget is loading, it will search for any SFDC Contact record which holds an email address matching to the email address filled by the visitor as part of the pre-chat survey. The available values for search represent the list of available LivePerson SDK search values.
 
 {: .notice}
 As a best practice, we recommend to use the search option, since that allows the agent to verify if the record he’s about to create already exists before creating it.
@@ -123,7 +123,7 @@ In order to add a Custom Object to the list of “Available Objects,” you will
 
 ### **Field mapping**
 
-These settings allow you to choose which fields of each object will be available. These fields will be available to the agent whenever he views, create or edit records. You may also map LiveEngage values to those fields, so they can pre-populate when creating a new record in the widget.
+These settings allow you to choose which fields of each object will be available. These fields will be available to the agent whenever he views, create or edit records. You may also map Conversational Cloud values to those fields, so they can pre-populate when creating a new record in the widget.
 
 * Click “Add Field Mapping” to get started.
 * Fill out the following fields to complete your field mapping:
@@ -161,20 +161,20 @@ In this section you can define the search filters for the Widget Search Screen. 
 ### **Account settings**
 
 1. Scroll down to the “Account Settings” section of your page.
-2. Click on the “Allow Account Creation” checkbox if you permit your LiveEngage users to create a new Account from the LiveEngage SFDC widget (this is only on top of existing restrictions on their profiles).
+2. Click on the “Allow Account Creation” checkbox if you permit your Conversational Cloud users to create a new Account from the Conversational Cloud SFDC widget (this is only on top of existing restrictions on their profiles).
 3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Account object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
 ### **Contact settings**
 
 1. Scroll down to the “Contact Settings” section of your page.
-2. Click on the “Allow Contact Creation” checkbox if you permit your LiveEngage users to create new Contacts from the LiveEngage SFDC widget.
+2. Click on the “Allow Contact Creation” checkbox if you permit your Conversational Cloud users to create new Contacts from the Conversational Cloud SFDC widget.
 3. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Contact object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
 ### **Lead settings**
 
 1. Scroll down to the “Lead Settings” section of your page.
 2. Ensure that the “Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Lead assignment rules in your org, then checking this checkbox will uphold those rules when a Lead record is created from within the platform.
-3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in LiveEngage. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
+3. Ensure that the “User Edit Use Lead Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Lead Assignment Rules but want to give your Conversational Cloud users the ability to decide whether or not they should be upheld when creating a new record in the Conversational Cloud. This is on a case by case basis. Checking this checkbox will add a checkbox to the Conversational Cloud SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules.
 4. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Lead object (see the above “Enabled Object Settings” section for further explanation on this screen).
 
 ### **Case settings**
@@ -183,7 +183,7 @@ In this section you can define the search filters for the Widget Search Screen. 
 2. Ensure that the “Case Account is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require an Account name to be populated when creating a Case record from within the widget).
 3. Ensure that the “Case Contact is Mandatory” checkbox is checked/unchecked according to your need. **Note:** Checking this checkbox will require a Contact name to be populated when creating a Case record from within the widget)
 4. Ensure that the “Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** If you have configured Case assignment rules in your org, then checking this checkbox will uphold those rules when a Case record is created from the widget)
-5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your LiveEngage users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the LiveEngage SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
+5. Ensure that the “User Edit Use Case Assignment Rules” checkbox is checked/unchecked according to your need. **Note:** Check this checkbox if you want to enable Case Assignment Rules but want to give your Conversational Cloud users the ability to decide whether or not they should be upheld when creating a new record in the platform. This is on a case by case basis. Checking this checkbox will add a checkbox to the Conversational Cloud SFDC Widget interface, indicating whether or not they would like the new record to be assigned using existing sharing rules).
 6. Click on ‘Configure Field Mapping, Related Lists, and Search Filters’ to configure all of settings for the Case object
 
    (see the above “Enabled Object Settings” section for further explanation on this screen). **Note:** The Account and Contact lookup fields have to be included in the Field Mapping list if you want the Cases you create using the widget to be attached to them.
@@ -213,7 +213,7 @@ In this section you can define the search filters for the Widget Search Screen. 
 
 ### **Overview**
 
-In addition to the widget integration which creates chat transcript records when the chat/messaging conversation starts, an extra offline sync process was built into this package to sync between Salesforce and LiveEngage Servers.
+In addition to the widget integration which creates chat transcript records when the chat/messaging conversation starts, an extra offline sync process was built into this package to sync between Salesforce and Conversational Cloud Servers.
 
 This process is used to preserve data integrity and to make sure the chat/messaging conversation transcript information saved in Salesforce is full, accurate and up to date.
 
@@ -222,9 +222,9 @@ This process is used to preserve data integrity and to make sure the chat/messag
 1. **Periodic sync** - captures and update information of the last 6 hours, every 3 hours (8 times a day in total).
 2. **Daily sync** - captures information from the last 48 hours (In order to keep with LivePerson’s Data SLA of up to 24 hours for full data).
 3. **Manual sync** - allows the admin to choose a past period of time to manually sync into Salesforce (Due to various reasons: server issues, agent wasn’t logged in, errors etc...).
-4. **“Sync Chat” button on the chat transcript record** - allows on-demand sync with LE servers for a specific chat transcript record.
+4. **“Sync Chat” button on the chat transcript record** - allows on-demand sync with LivePerson servers for a specific chat transcript record.
 
-   **Note:** These sync processes are one sided, from LiveEngage to Salesforce only, no information is transferred from Salesforce to LiveEngage.
+   **Note:** These sync processes are one sided, from the Conversational Cloud to Salesforce only, no information is transferred from Salesforce to the Conversational Cloud.
 
 ### **Schedule a periodic sync job**
 
@@ -264,7 +264,7 @@ The “Event Log” includes information about any sync errors that may have occ
 
 ### **Configuring the widget**
 
-Now that you’ve configured your LiveEngage App in Salesforce, it’s time to go back to LiveEngage and configure the widget within the platform.
+Now that you’ve configured your app in Salesforce, it’s time to go back to the Conversational Cloud and configure the widget within the platform.
 
 1. Click on ‘Night Vision’ icon at the top of the page
 2. Click on ‘Agent Workspace Configuration’
@@ -301,12 +301,12 @@ Below is an overview of the widget capabilities, in this section, we will cover 
 * Creating a case
 * Creating a Custom Object record
 
-### **Introducing the LiveEngage SFDC widget**
+### **Introducing the Conversational Cloud SFDC widget**
 
 * Following the above configuration, you may start working with the new widget.
-* Accept a chat/messaging conversation, click on the SF widget and you will be able to view and create any SF record directly from LiveEngage.
+* Accept a chat/messaging conversation, click on the SF widget and you will be able to view and create any SF record directly from the Conversational Cloud.
 
-### **Creating an account from LiveEngage**
+### **Creating an account from the Conversational Cloud**
 
 1. In case you want to create a new Account record, click the “Actions” button on the Default Search Page.
 2. Select “New Account”
@@ -395,17 +395,17 @@ This will save the ‘Custom Object’ record in SF and link the existing chat/m
 
 ### **Objective**
 
-Now that we created records from LiveEngage, you may view all our Chat Transcripts from Salesforce as well, as well as create reports for them.
+Now that we created records from the Conversational Cloud, you may view all our Chat Transcripts from Salesforce as well, as well as create reports for them.
 
 ### **Looking at your chat transcripts**
 
 1. Login to Salesforce – click on the application menu in the top right of your screen.
-2. Make sure you have the “LiveEngage” application selected (or any other app in which you’ve included the tab).
+2. Make sure you have the the "Conversational Cloud" application selected (or any other app in which you’ve included the tab).
 3. Click on the “Chat Transcripts” tab.
 4. Select one of the recently synced chat transcripts by clicking on the “Chat Transcript Name” under the Recent Chat Transcript list.
 5. There you have it – depending on your chat transcript settings, you will see a number of fields populated.
 
-In case you are using both chat and messaging within your LiveEngage, the field ‘LivePerson SDK API Type’ identifies the specific type of the record (e.g. chat or messaging).
+In case you are using both chat and messaging within the Conversational Cloud, the field ‘LivePerson SDK API Type’ identifies the specific type of the record (e.g. chat or messaging).
 
 ![](/img/salesforce-integration-guide-10.png)
 
@@ -417,22 +417,22 @@ In case you are using both chat and messaging within your LiveEngage, the field 
 4. Customize your report to fit your needs
 5. If you are missing fields or want to include more fields from the related objects within your report, you can create your own Report Type in Salesforce and include all the fields you want/need.
 
-## **Appendix #1: How to map your own LiveEngage fields**
+## **Appendix #1: How to map your own Conversational Cloud fields**
 
 ### **Objective**
 
 {: .important}
 **Note:** This section is very technical, please assist your AM/CVM/TAM or our Technical Support in case of a problem or if you’re not sure about any step.
 
-Using each object’s Field Mapping, you can choose to map LiveEngage fields/parameters to Salesforce Fields, both for Pre-Population of new record forms, or for saving information to the chat transcript record itself.
+Using each object’s Field Mapping, you can choose to map the Conversational Cloud fields/parameters to Salesforce Fields, both for Pre-Population of new record forms, or for saving information to the chat transcript record itself.
 
-When adding a Field Mapping, you can choose to use one of LiveEngage predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the pre-chat survey custom questions, post-chat survey questions, agent survey or different engagement attributes.
+When adding a Field Mapping, you can choose to use one of the Conversational Cloud predefined parameters, or you can choose “Other” for when you want to map custom parameters of yours like the pre-chat survey custom questions, post-chat survey questions, agent survey or different engagement attributes.
 
 To use “Other,” you need to manually populate two fields: one is the address of your parameter in our LivePerson SDK Field (The API used on the widget/client side of our package) and one is our LivePerson API Field (The API used on the back-end sync process of our package).
 
 The equivalent fields needed for messaging are ‘LivePerson Msg SDK Field’ and ‘LivePerson Msg API Field’.
 
-The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LiveEngage Account, or in our Developer Community:
+The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LivePerson Conversational Cloud account, or in our Developer Community:
 
 **Agent Widget SDK Public Data Model** -  
 [https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
@@ -448,7 +448,7 @@ The complete structure of the data in the “Agent Widget SDK,” “Engagement 
 To get one of the standard out-of-the-box pre-chat survey questions the access is easy using the list of predefined values, but you need “Other” for any custom questions you have on that type of survey or others, the address you’ll build will use the Display Name of the question. Below are a few examples.
 
 {: .notice}
-**Note:** If you ever change the text in the Display Name of a survey question in LiveEngage – you have to update this mapping too, otherwise the mapping will stop working.
+**Note:** If you ever change the text in the Display Name of a survey question in the Conversational Cloud – you have to update this mapping too, otherwise the mapping will stop working.
 
 1. For a **custom pre-chat survey question** with the text “What is your Account Number?” use the following:
 
@@ -471,13 +471,13 @@ To get one of the standard out-of-the-box pre-chat survey questions the access i
 
 ### **Engagement attributes (Customer Details, Personal Info, Marketing Source, etc.) and more**
 
-LiveEngage has a wide (and constantly growing) list of parameters for different uses, which our customers can use for to transfer information about the visitor and his journey on their website, and into LiveEngage.
+The Conversational Cloud has a wide (and constantly growing) list of parameters for different uses, which our customers can use for to transfer information about the visitor and his journey on their website, and into the Conversational Cloud.
 
 Those fields are arranged in a hierarchical structure described on both Agent Widget SDK and Engagement History API documents (there are slight differences in those structures but most of the content is similar).
 
 Each parameter/sub-section is like a property of the upper section, to which you can refer by a dot (“.”). For example, if you want to get your account ID from the main info section, you can use “info.accountId” on the Engagement History API or “chatInfo.accountId” on the Agent Widget SDK. Some of those are actually arrays of objects, which you can either turn to by a locator “\[1\]” search in by their properties.
 
-These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other LiveEngage parameters are available to you on the predefined list.
+These are just a few examples meant to demonstrate how to write these “addresses”, but rest assured, all of these, along with more than 55 (!) other Conversational Cloud parameters are available to you on the predefined list.
 
 1. For a the **Chat Start Time** value:
 
@@ -525,7 +525,7 @@ These are just a few examples meant to demonstrate how to write these “address
 
 **Q:** Why does the Salesforce Widget not load and the agent only gets a blank screen?
 
-**A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as LiveEngage (the same browser and not in incognito mode).
+**A:** The agent has to be logged in to Salesforce in order for the widget to load. Make sure the agent logs into Salesforce on the same browser session as the Conversational Cloud (the same browser and not in incognito mode).
 
 **Q:** Why are the Configuration Settings grayed out?
 
@@ -547,13 +547,13 @@ These are just a few examples meant to demonstrate how to write these “address
 
 **A:** Please verify the following:
 
-* Your LiveEngage Account has at least one Skill and the campaign you’re using directs to a Skill.
+* Your LivePerson Conversational Cloud account has at least one Skill and the campaign you’re using directs to a Skill.
 * Your chat/messaging conversation is assigned to a Skill (easily check using the “Visitor Info” widget to verify that).
 * Your chat/messaging conversation Skill is one of “Enabled Skills” for the widget (check the “Customization Settings” tab in Salesforce)
 
 **Q:** I don’t see any Skills in my “Available Skills” list. Why?
 
-**A:** Verify you created Skills on your LiveEngage Account. If you’re sure you have Skills available but don’t see them, turn to your LivePerson Support or Account Manager to make sure your LiveEngage Account is on AC Users.
+**A:** Verify you created Skills on your LivePerson Conversational Cloud account. If you’re sure you have Skills available but don’t see them, turn to your LivePerson Support or Account Manager to make sure your account is on AC Users.
 
 **Q:** Why don’t I see any of my Salesforce Custom Objects on the “Available Objects” list?
 
@@ -590,7 +590,7 @@ These are just a few examples meant to demonstrate how to write these “address
 1. **Issue**: “Waiting to initialize session” appears in the Salesforce widget, and the widget doesn’t load.
 
    **Steps for resolving the issue:**
-   1. Make sure that there is a skill already defined in the LE account. If there is no skill, create one. There should be at least one skill configured.
+   1. Make sure that there is a skill already defined in the LivePerson account. If there is no skill, create one. There should be at least one skill configured.
    2. Assign the skill to the engagement via one of the following methods:
       1. Via the engagement studio: Campaign engagement studio
       2. Create a pre-chat survey question with a routing based question. (Only valid for the chat engagements)

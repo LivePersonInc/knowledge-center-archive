@@ -1,24 +1,25 @@
 ---
-pagename: 'Smart Capacity per skill '
+pagename: 'Dynamic Capacity per skill '
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: Manage the Smart Capacity settings per skill to better control the time
+subtitle: Manage the Dynamic Capacity settings per skill to better control the time
   it takes a conversation to become inactive
-level3: Smart Capacity
-permalink: contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html
+level3: Dynamic Capacity
+permalink: contact-center-management-messaging-operations-dynamic-capacity-dynamic-capacity-per-skill.html
 isTutorial: false
 date: 2019-01-17 12:39:54 +0000
 isNew: false
-
+redirect_from:
+  - contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html
 ---
 ## Overview
 
-The [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) feature enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize the Smart Capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
+The [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) feature enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize the Dynamic Capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
 
 ## Calculating the agent load
 
-The Smart Capacity setting revolves around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain weight in the agents overall capacity to handle conversations simultaneously.
+The Dynamic Capacity setting revolves around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain weight in the agents overall capacity to handle conversations simultaneously.
 
 A **non-actionable conversation** (one that waits for the consumer to act upon) is considered an inactive conversation, and as such, it can take up less weight in the agent’s overall capacity to allow the agent to handle additional conversations.
 
@@ -42,7 +43,7 @@ Next, the “Agent Load” is calculated based on the agent’s “Max conversat
 
 ![](/img/SC-per-skill-2.png)
 
-This is the same formula as it is with the Smart Capacity feature, if the _Agent load_ is nearing the _Max conversations_ setting, the agent may not be able to receive additional conversations.
+This is the same formula as it is with the Dynamic Capacity feature, if the _Agent load_ is nearing the _Max conversations_ setting, the agent may not be able to receive additional conversations.
 
 ### Example:
 
@@ -57,12 +58,12 @@ The agent can now have:
 * Three active conversations with a total weight of 3
 * Ten inactive conversations with a total weight of 1
 
-If the agent has multiple skills assigned to it, Smart Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill smart capacity settings. **Please note:** the max conversations setting defines the hard limit for the number of conversations an agent can handle.
+If the agent has multiple skills assigned to it, Dynamic Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill Dynamic Capacity settings. **Please note:** the max conversations setting defines the hard limit for the number of conversations an agent can handle.
 
-## Smart Capacity recommended values
+## Dynamic Capacity recommended values
 
-In order to come up with the most relevant smart capacity values for a specific brand, an analysis can be carried out by LivePerson’s Analytics and Data Science teams. They will generate a list of recommended Smart Capacity values per the brands' skills based on an analysis of the consumer response times to messages from agents, per skill. Please contact your LivePerson account team to set up Smart Capacity Per Skill.
+In order to come up with the most relevant Dynamic Capacity values for a specific brand, an analysis can be carried out by LivePerson’s Analytics and Data Science teams. They will generate a list of recommended Dynamic Capacity values per the brands' skills based on an analysis of the consumer response times to messages from agents, per skill. Please contact your LivePerson account team to set up Dynamic Capacity Per Skill.
 
 ## Tracking in real time
 
-The effect of Smart Capacity can be seen under the “Messaging Agents” tab in LiveEngage under the agent load.
+The effect of Dynamic Capacity can be seen under the “Messaging Agents” tab in the Conversational Cloud under the agent load.

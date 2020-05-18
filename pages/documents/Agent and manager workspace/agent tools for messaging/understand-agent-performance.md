@@ -1,6 +1,6 @@
 ---
 pagename: 'Understanding agent performance '
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
 subtitle: ''
@@ -17,7 +17,7 @@ isNew: false
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately.  This will help you keep track of your performance as well as expected workload.
 
-The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
+The data bar in the Agent Workspace represents the real-time tracking of your current workload and shift.
 
 ![](/img/understanding-agent-performance-1b.png)
 
@@ -37,11 +37,11 @@ The data bar in the agent workspace represents the real-time tracking of your cu
 
 ## Searching for previous conversations
 
-You can always search for any previous conversations you’ve had with consumers through the [All Connections](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) tab.
+You can always search for any previous conversations you’ve had with consumers through the [All Conversations](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) tab.
 
 ![](/img/understanding-agent-performance-1-1.png)
 
-All Connections offers advanced filtering and search capabilities enabling you to search by:
+All Conversations offers advanced filtering and search capabilities enabling you to search by:
 
 * Keywords from transcripts
 * Duration of conversation
@@ -50,7 +50,7 @@ All Connections offers advanced filtering and search capabilities enabling you t
 * Skill
 * Start time
 * Status (open and closed)
-* [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
+* [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords

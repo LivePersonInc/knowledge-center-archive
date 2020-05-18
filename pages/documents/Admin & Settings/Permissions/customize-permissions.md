@@ -16,7 +16,7 @@ redirect_from:
 ---
 At LivePerson we recognize that every brand is unique and employs an individual approach to managing their users.
 
-To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four LiveEngage roles:
+To ensure that complex organizations have the flexibility to tailor user roles to the distinct way they run their business, the permissions feature within LivePerson provides brands with the opportunity to fully customize each of the four roles:
 
 * Agent
 * Agent manager
@@ -27,7 +27,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 
 ## Customized profiles
 
-Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, LiveEngage creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
+Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, the Conversational Cloud creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
 
 In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the tables below within each role (agent, agent manager, campaign manager & admins).
 
@@ -85,7 +85,7 @@ Agents who are not assigned to skills can only accept chats originated by engage
 
 A **role** defines the scope of the user’s work. Each **role** encompasses a _unique_ set of permissions. **Roles** cannot be created or edited.
 
-A **profile** is a set of **permissions**, derived from a LiveEngage role. **Profiles** can be created and edited.
+A **profile** is a set of **permissions**, derived from a Conversational Cloud role. **Profiles** can be created and edited.
 
 The tables below list the permissions that can be configured per role, along with their definitions and default state.
 
@@ -109,7 +109,7 @@ The following core permissions are included with the agent role and cannot be di
 | Initiate voice conversation | Invite consumer to join a voice conversation | On |
 | Initiate live video | Invite consumer to join a live video session | On |
 | Handle messaging conversations | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations | On |
-| Handle messaging conversations and access All Connections List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
+| Handle messaging conversations and access All Conversations List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
 | Set manual SLA | Allows agents to manually configure the response time in a conversation | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |
 | Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
@@ -129,11 +129,11 @@ The following core permissions are included with the agent manager role and cann
 | --- | --- | --- |
 | Join Agents' conversations | Join a conversation handled by any Agent within their Group(s) or Sub-group(s) | On |
 | View Agents' conversations | View conversations handled by Agents within their Group(s) or Sub-group(s) | On |
-| View Engagement History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
-| View All Connections List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
+| View Conversation History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
+| View All Conversations List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
 | View Agent List | View full list of Agents within their Group | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
+| View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
 | Edit Agent users | Create, edit or delete users with an Agent role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent Manager users | Create, edit or delete users with an Agent Manager role within their Group(s) or Sub-group(s) | Off |
 | Edit Agent profile | Create, edit or delete Agent role profiles | Off |
@@ -142,9 +142,9 @@ The following core permissions are included with the agent manager role and cann
 | Edit Skills | Create, edit or delete Skills | Off |
 | Export users | Export the list of Agent or Agent Manager users in their groups or sub-groups; this will also export the list of skills, profiles and the groups and sub-groups managed by the Agent Managers | Off |
 | Set manual SLA | Allows agent managers to manually configure the response time in a conversation | On |
-| View reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows agent managers to customize reports | Off |
-| Share reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows reports to be shared with other users on the account | Off |
+| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
+| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows agent managers to customize reports | Off |
+| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
 | View reports in Operational BI | View reports in the Operational BI dashboard | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |
 | Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
@@ -158,7 +158,7 @@ The following core permissions are included with the agent manager role and cann
 The following core permissions are included with the campaign manager role and cannot be disabled:
 
 * Ability for Campaign Manager to change their name, password, regional settings and so on
-* View all Campaigns in the Campaigns tab
+* View all Campaigns in the Campaign Builder
 * View all visitors in the Agent Workspace
 * View a snapshot of the performance of all your account’s Campaigns in the Campaigns Dashboard
 * View detailed information on the performance of all your account’s Campaigns in the Campaign Manager BI dashboard
@@ -169,16 +169,16 @@ The following core permissions are included with the campaign manager role and c
 | Publish campaigns | Control the publishing of campaigns | On |
 | Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
 | Configure automatic messages | Add and edit Automatic Messages in the Agent Workspace | On |
-| Configure engagement attributes | Add and edit Engagement Attributes used in Campaigns | On |
-| Import and export predefined content | Import and export Predefined Content to and from LiveEngage | On |
-| Export predefined content | Export Predefined Content from LiveEngage | On |
+| Configure engagement attributes | Add and edit Engagement Attributes used in campaigns | On |
+| Import and export predefined content | Import and export Predefined Content to and from Conversational Cloud | On |
+| Export predefined content | Export Predefined Content from Conversational Cloud | On |
 | View API keys | For brands who have enabled the API key management feature, this permission allows viewing of API keys used by the brand | On |
 | Edit conversation source | Configure consumer entry points to engage with your brand | On |
 | Edit skills | Edit skills and configure default survey for skill change | On |
 | Configure authentication server | For brands who have enabled the authentication conversation feature, this permission allows users to configure the authentication server | On |
-| View reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows campaign managers to customize reports | Off |
-| Share reports in Report Builder | For brands who have enabled the Report Builder feature, this permission allows reports to be shared with other users on the account | Off |
+| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
+| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows campaign managers to customize reports | Off |
+| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
 | View reports in Operational BI | View reports in the Operational BI dashboard | Off |
 | View reports in Campaign BI | View reports in the Campaign BI dashboard | On |
 | View Connection Area content | View relevant content from the Connection Area per journey | On |
@@ -191,13 +191,13 @@ The following core permissions are included with the campaign manager role and c
 The following core permissions are included with the Admin role and cannot be disabled:
 
 * Ability to change their name, password, regional settings and so on
-* View all campaigns in the campaigns tab
-* View all visitors in the agent workspace
+* View all campaigns in the Campaign Builder
+* View all visitors in the Agent Workspace
 * View a snapshot of the performance of all your account’s campaigns in the campaigns dashboard
-* View detailed information on the performance of all your account’s Campaigns in the campaign manager BI dashboard
+* View detailed information on the performance of all your account’s campaigns in the campaign manager BI dashboard
 * Ability to configure the authentication server
 * Ability to configure monitored domains
-* View the LiveEngage tag page
+* View the web tag page
 
 | Admin permissions | Permission definitions | Default State (role) |
 | --- | --- | --- |
@@ -207,7 +207,7 @@ The following core permissions are included with the Admin role and cannot be di
 | Agent Groups administration | Create, edit, restructure or delete Agent Groups | On |
 | API key administration | For brands who have enabled the API key management feature, this permission allows Administrators to create, manage and integrate API keys | On |
 | Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| Line of Business administration | For brands who have enabled the Line of Business feature, this permission allows Administrators to create, edit and delete individual Lines of Business within their LiveEngage account | On |
+| Line of Business administration | For brands who have enabled the Line of Business feature, this permission allows Administrators to create, edit and delete individual Lines of Business within their LivePerson Conversational Cloud account | On |
 | View account billing details | Access to billing details and online invoices | On |
 | View and export audit trail | For brands with the audit trail feature enabled, this permission allows admins to view and export audit trail data | On |
 | View Connection Area | View relevant content from the Connection Area per journey | On |

@@ -18,7 +18,7 @@ Bots and large-scale automations transform how brands interact with consumers, e
 
 ## Humans and bots work together in LivePerson
 
-In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same agent workspace. This enables conversations to be easily passed between bot and human agents.
+In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same Agent Workspace. This enables conversations to be easily passed between bot and human agents.
 
 Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better.
 

@@ -1,7 +1,7 @@
 ---
 pagename: Using the MCS Toolkit
 categoryName: Data & reporting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Analysis of performance at the account level, agent level, conversation
   level, and even message by message
@@ -65,7 +65,7 @@ The conversations page displays all conversations according to the applied filte
 
 * **Start** - The time the visitor first started a conversation with the agent (displayed in the MCS Toolkit user’s local time), or the time the agent resumed the conversation with the consumer (start and end times are also provided by UTC time via the CSV export function).
 * **Duration (mins)** - The time frame between when the consumer started the conversation until it was ended by either the consumer or the agent.
-* **MC**S - The Meaningful Connection Score. For further information on how the MCS is calculated, refer to the [Meaningful Connection Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)overview.
+* **MCS - The Meaningful Conversation Score. For further information on how the MCS is calculated, refer to the [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)overview.
 * **MCS trend** - An indication of how the consumer sentiment changed from the beginning to the end of the conversation - for example, if a conversation began at -50 MCS, but ended at 100 MCS, the trend is +150 and indicates a strong improvement in consumer sentiment and the perception of the brand.
 * **CSAT (messaging conversations only)** - The customer satisfaction score, calculated from post-conversation survey data, reflects the consumers’ rating of a brand’s engagement with them.
 * **Agent** - The name of the latest agent assigned to the conversation. Due to the continuous nature of messaging conversations, it is likely that more than one agent had been active in conversation with the consumer over time. The full list of participants in the conversation can be viewed by clicking on the conversation, or via the CSV export function.
@@ -144,5 +144,4 @@ In addition, to find data for a specific conversation, users can search by conve
 When filters are selected, the page will load data according to the filters. When filters are then added or removed, users must click the refresh button in order to pull additional data.
 
 ## Languages
-Currently, MCS is available in the following languages: English, Spanish, Japanese and Italian 
-
+Currently, MCS is available in the following languages: English, Spanish, Japanese and Italian

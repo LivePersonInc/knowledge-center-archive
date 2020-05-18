@@ -1,7 +1,7 @@
 ---
 pagename: Audit trail
 categoryName: Security & regulations
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: " Track all user changes for regulatory or troubleshooting purposes"
 level3: ''
@@ -30,7 +30,7 @@ An audit trail is available for the following elements:
 * [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) and content categories
 * [Agent survey for messaging](contact-center-management-messaging-operations-agent-survey-for-messaging.html)
 
-Audit data related to user logins to the LiveEngage system is not available.
+Audit data related to user logins to the Conversational Cloud system is not available.
 
 ### Audit trail table
 
@@ -47,7 +47,7 @@ The following values are recorded in the audit trail:
 
 ### Audit trail permission
 
-The audit trail can be accessed by clicking on the account settings menu to the top right of the LiveEngage workspace.
+The audit trail can be accessed by clicking on the account settings menu to the top right of the Agent Workspace.
 
 ![](/img/audit2.png)
 

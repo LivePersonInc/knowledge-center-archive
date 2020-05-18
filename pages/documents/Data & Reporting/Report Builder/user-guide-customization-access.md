@@ -1,40 +1,40 @@
 ---
-pagename: Report Builder user guide (customization)
+pagename: Analytics Builder user guide (customization)
 categoryName: Data & reporting
-subCategoryName: Report Builder
+subCategoryName: Analytics Builder
 indicator: both
 subtitle: 'This user guide sets out detailed instructions for building your own dashboards,
   creating filters and visualizations and more '
 level3: ''
-permalink: data-reporting-report-builder-report-builder-user-guide-(customization).html
+permalink: data-reporting-analytics-builder-analytics-builder-user-guide-(customization).html
 isTutorial: false
 date: '2019-01-16T11:37:29.000+00:00'
-
+redirect_from: data-reporting-report-builder-report-builder-user-guide-(customization).html
 ---
 ## Getting started
 
-Brands can access Report Builder through the LiveEngage UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
+Brands can access the Analytics Builder through the Conversational Cloud UI, from the messaging real time dashboard, queue health dashboard, and campaign dashboard.
 
 {: .notice}  
 [Customizing dashboards](https://knowledge.liveperson.com/data-reporting-report-builder-report-builder-user-guide-(customization).html) through the feature rich builder, requires a certain skill set and needed knowledge. To best equip our users with the necessary knowledge.
 
 It is important to note that LivePerson Support does not troubleshoot custom dashboards created by users; only dashboards stored within the Predefined Dashboards folder are maintained and supported by LivePerson Technical Support.
 
-### How to access the Report Builder
+### How to access the Analytics Builder
 
-1. Log into LiveEngage using your campaign manager or agent manager credentials.
+1. Log into the Conversational Cloud using your campaign manager or agent manager credentials.
 2. Open the dashboard by clicking the drag down icon
-3. Click the Report Builder icon on the left of the screen. A new tab will open.
+3. Click the Analytics Builder icon on the left of the screen. A new tab will open.
 
 **How-to video:** [**Getting started**](https://bcove.video/2vj2Sid)
 
 ## Permissions
 
-In order for agent managers and campaign managers to be able to view, customize or share reports in Report Builder, the following permissions need to be enabled in their user profile:
+In order for agent managers and campaign managers to be able to view, customize or share reports in Analytics Builder, the following permissions need to be enabled in their user profile:
 
-* View reports in Report Builder - allows viewing of all reports
-* Customize reports in Report Builder - allows users to customize reports and save them within the 'My Reports' folder.
-* Share reports in Report Builder - allows users to share reports with other account users by saving them in the my account folder
+* View reports in Analytics Builder - allows viewing of all reports
+* Customize reports in Analytics Builder - allows users to customize reports and save them within the 'My Reports' folder.
+* Share reports in Analytics Builder - allows users to share reports with other account users by saving them in the my account folder
 
   {: .notice}  
   These permissions are disabled for both agent manager and campaign manager roles by default.
@@ -43,15 +43,15 @@ In order for agent managers and campaign managers to be able to view, customize 
 
 1. In the users tab, click on the profiles page.
 2. Click on the ‘agent manager’ or ‘campaign manager’ profile. The edit profile page will open.
-3. Under permissions, scroll down to the Report Builder permissions listed above and enable the permissions you wish the user to have.
+3. Under permissions, scroll down to the Analytics Builder permissions listed above and enable the permissions you wish the user to have.
 4. Click **Save**.
 
    {: .notice}  
-   If you would like to enable one or more of the Report Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
+   If you would like to enable one or more of the Analytics Builder permissions for some users, but not for others, this can be achieved by creating a new custom profile within either the agent manager or campaign manager role. For further information, refer to the [Customize user profiles documentation](admin-settings-permissions-customize-permissions.html).
 
 ## Data view restrictions
 
-Report Builder filters data by agent groups, meaning that agent group managers can see data from their own group(s) and subgroups only.
+Analytics Builder filters data by agent groups, meaning that agent group managers can see data from their own group(s) and subgroups only.
 
 Where there are data that cannot be pre-filtered by agent group, there are also restrictions by role:
 
@@ -60,23 +60,23 @@ Where there are data that cannot be pre-filtered by agent group, there are also 
 * No restrictions apply for campaign managers.
 * Agent managers required to view business data available on the Business Activity Dashboard will need to be assigned the role of campaign manager as well.
 
-## Report Builder folders
+## Analytics Builder folders
 
-Dashboards in Report Builder are saved in folders. The available folders are as follows:
+Dashboards in Analytics Builder are saved in folders. The available folders are as follows:
 
 * **Shared reports** - dashboards saved here are visible to all the users in the account.
-  * **LE predefined dashboards**: All available predefined LiveEngage dashboards. See details below.
+  * **LE predefined dashboards**: All available predefined LivePerson dashboards. See details below.
   * **My account**: Reports that have been designed specifically for your account, created by you, other users in the account or by the LP account team.
-  * **Analytics RB reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
+  * **Analytics reporting**: Customized reports created by LP for accounts with a CSO (Customer Support Offering) package. The folder will be visible and accessible as read-only for accounts eligible of a CSO package.
 * **My reports -** dashboards saved here are visible only to the user who created the dashboard.
 
 ### Creating and managing sub folders
 
-In the **my account** and **my reports folders**, users may create sub-folders to organize copies of existing dashboards. Each sub-folder can contain any number of saved dashboard. While any user with access to Report Builder may view sub folders and their content, managing sub-folders is only available to users with the permission to Customize Reports.
+In the **my account** and **my reports folders**, users may create sub-folders to organize copies of existing dashboards. Each sub-folder can contain any number of saved dashboard. While any user with access to Analytics Builder may view sub folders and their content, managing sub-folders is only available to users with the permission to Customize Reports.
 
 Creating a folder under “my account” or “my reports” folders
 
-1. Access Report Builder and navigate to one of the above mentioned folders
+1. Access Analytics Builder and navigate to one of the above mentioned folders
 2. Right-click an existing dashboard and from the drop-down menu, select “New” and then “folder”
 3. Once the name is chosen and submitted, the icon for the new folder will appear on screen
 
@@ -114,7 +114,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-LiveEngage comes with a set of [predefined dashboards](https://knowledge.liveperson.com/data-reporting-report-builder-predefined-dashboards.html) which offer ready-made reports for account data flowing into Report Builder from the LiveEngage data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The Conversational Cloud comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Analytics Builder from the Conversational Cloud data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ### Customize a predefined dashboard
 
@@ -128,7 +128,7 @@ LiveEngage comes with a set of [predefined dashboards](https://knowledge.liveper
 
 ### Saving changes
 
-Idle time thresholds are enforced in Report Builder, and aligned with the LiveEngage platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Report Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
+Idle time thresholds are enforced in Analytics Builder, and aligned with the Conversational Cloud platform setup. These thresholds in place protect your account. Please make sure to save your dashboard so editions will not be lost. Analytics Builder does not offer an auto-save function at this time, and it is recommended to save your work after every bulk of changes.
 
 ### Share a custom dashboard
 
@@ -540,4 +540,5 @@ Users are advised to recreate their dashboards every so often in order to get th
 * **Formulas:** Functions which parse values stored in Attributes are known to impact processing time. Similarly, adding “distinct” counting to built in functions would also have a relatively higher impact to the processing and load time of any dashboard.
 * **Time based derived metrics** - It is recommended to use the “Custom” formatting and change the prefix of the ‘hour” attribute from “h” to “\[h\]”. Example: \[h\]:mm
 
-{: .important} **Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Report Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.
+{: .important} 
+**Disclaimer:** LivePerson will support standard reports that are provided by LivePerson as part of the Analytics Builder product. Please note that we will not provide support for these custom reports. LivePerson is not liable for any loss or damage to data that may result from the use or performance of any custom reports.

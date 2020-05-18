@@ -39,7 +39,7 @@ The Agent Load Ratio for each of them is:
 
 As you can see, Agent B has a lower Agent Load Ratio, so the ACD will route the next incoming chat to Agent B.
 
-If both agents have the same load ratio, the chat is routed to the agent with the longest idle time. Idle time is determined by the time elapsed since the agent received the last chat. 
+If both agents have the same load ratio, the chat is routed to the agent with the longest idle time. Idle time is determined by the time elapsed since the agent received the last chat.
 
 {: .notice}  
 Agent states do not impact their place in queue, so, for example, if the agent next in queue to accept a chat moved to 'Away' status and then back to 'Online', the change of state will not reset the agent's idle time.
@@ -66,7 +66,7 @@ The * indicator is for a new conversation in auto accept mode that has not yet b
 
 ## How to configure ACD
 
-ACD settings can be configured  in the LiveEngage Night Vision overlay, for chat and also for messaging if enabled on the account. Settings are configured once for all the agents and skills in the account:
+ACD settings can be configured in the Night Vision overlay, for chat and also for messaging if enabled on the account. Settings are configured once for all the agents and skills in the account:
 
 1. Click the Night Vision button at the top of the screen.
 2. Click Edit.

@@ -37,7 +37,7 @@ The * indicator is for a new conversation in auto accept mode that has not yet b
 
 ## How to Configure ACD
 
-ACD settings can be configured  in the LiveEngage Night Vision overlay, if enabled on the account. Settings are configured once for all the agents and skills in the account:
+ACD settings can be configured in the Night Vision overlay, if enabled on the account. Settings are configured once for all the agents and skills in the account:
 
 1. Click the Night Vision button at the top of the screen.
 2. Click Edit.

@@ -11,11 +11,10 @@ date: 2019-01-22 13:58:55 +0000
 isNew: false
 redirect-from:
   - working-with-agent-groups.html
-
 ---
-Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in LiveEngage, we’ve created the "agent groups" capability.
+Businesses are often divided into groups that reflect their organization and hierarchy. A connection center can be thought of as group: in which sub-groups of agents are each responsible for a different area of support. To help you mirror your connection center structure in the Conversational Cloud, we’ve created the "agent groups" capability.
 
-LiveEngage includes a default group, called the "main group" that consists of all the users in LiveEngage configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
+The Conversational Cloud includes a default group, called the "main group" that consists of all the users in the Conversational Cloud configured as agents and subgroups. The Main Group can’t be moved or deleted. It is the top-level group in the hierarchy and is also considered the parent group.
 
 Groups can be divided into "subgroups." Any group that has subgroups is considered a parent group and the Main Group is always the highest parent group in the hierarchy.
 
@@ -43,17 +42,17 @@ Initially all agents are members of the main agent group. Once an agent is moved
 
 ## Viewing conversation transcripts
 
-In the [web history](agent-manager-workspace-manager-tools-for-live-chat-web-history.html) and [all connections tabs](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
+In the [web history](agent-manager-workspace-manager-tools-for-live-chat-web-history.html) and [All Conversations tabs](agent-manager-workspace-manager-tools-for-messaging-all-connections.html) you can view conversations handled by agents assigned to your groups or subgroups. You can search, sort and copy their conversation transcripts. Reading conversation transcripts is a good way to review what’s happening in your connection center; once you identify problem areas, you can take corrective actions.
 
 ![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
 
 To filter by agent group in web history, click on the filter icon in the agent group column header, and select the agent group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
-To filter by agent group in all connections, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
+To filter by agent group in All Conversations, click on the filter icon next to the search bar on the right side of the page. In the dropdown list next to Agent Groups, select the Agent Group(s) you want to filter by. Click filter. The page will now refresh to show data only from the agent group(s) selected.
 
-## Viewing engagements over time using the Report Builder dashboards
+## Viewing engagements over time using the Analytics Builder dashboards
 
-Using the agent manager [Report Builder dashboards](data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
+Using the agent manager [Analytics Builder dashboards](data-reporting-report-builder-report-builder-overview.html#predefined-dashboards) you can monitor, track and improve connection center performance. The dashboard displays KPIs related to agents assigned to your groups and subgroups.
 
 In some cases, when agent managers are also configured to take conversations, they may impact the group statistics. For example, the agent manager status is usually **away** and will be “online” only when they are needed to take conversations. This might impact the group’s utilization KPIs. If you wish to include or exclude manager activities from the report, check/uncheck the 'is manager indicator' checkbox.
 
@@ -66,8 +65,11 @@ The add group button will be enabled once you select a parent group from the lis
 ### To add a new group:
 
 1. On the Users tab go to the Agent Group list.
+
 2. Select the parent group from the list.
+
 3. Click add group or click the action menu, and then click add.
+
 4. Fill in group details:
    * Type a group name
    * Type the name of the user(s) you want to assign as a manager(s)

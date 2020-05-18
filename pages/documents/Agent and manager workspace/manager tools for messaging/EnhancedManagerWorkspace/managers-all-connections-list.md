@@ -1,39 +1,39 @@
 ---
-pagename: All Connections
-categoryName: Agent & manager workspace
+pagename: All Conversations
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-connections.html
+permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-conversations.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 redirect_from:
-  - messaging-managers-all-connections.html
+  - agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-all-connections.html
 ---
 
-The All Connections tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Connections allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
+The All Conversations tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Conversations allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
 ![alt text](img/new-manager-workspace-6.png){:class="newagent"}
 
-The “All Connections” tab enables agents and managers to perform two major actions:
-  1. **View and search conversations:** All Connections enables users to search through both open and closed conversations that began in the past 13 months with advanced search and filter capabilities.
+The “All Conversations tab enables agents and managers to perform two major actions:
+  1. **View and search conversations:** All Conversations enables users to search through both open and closed conversations that began in the past 13 months with advanced search and filter capabilities.
   2. **Take actions on conversations:** Managers (or agents with permissions) can perform actions on conversations in real time, such as joining a conversation, transferring it to another skill, closing the conversation and more.
 
 ## Default view
 
-To access the **All Connections** list directly, first select the **Connections** icon from the left side navigation. The agent workspace will open with an option to click on the **All Connections** tab at the top.
+To access the **All Conversations** list directly, first select the **Agent Workspace** icon from the left side navigation. The Agent Workspace will open with an option to click on the **All Conversations** tab at the top.
 
-By default, the **All Connections** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
+By default, the **All Conversations** list displays conversations that began in the past week. The list is sorted by the conversation’s start time, so that conversations which were recently opened will appear at the top of the list.
 
 Each user may change the time frame for viewing this list, selecting a range of up to 3 months from the previous 13 months. All search and sort items will display conversations within this selected timeframe.
 
 ## Permissions
 
-Agents and managers will be able to view the All Connections tab only if they have the appropriate permissions turned on (on by default):
-* For managers -  “View all connections list” permission.
-* For agents - “Handle messaging conversations and access all connections list” permission.
+Agents and managers will be able to view the All Conversations tab only if they have the appropriate permissions turned on (on by default):
+* For managers -  “View all conversations” permission.
+* For agents - “Handle messaging conversations and access all conversations list” permission.
 
 ## Conversations displayed per user
 
@@ -43,11 +43,11 @@ The list of conversations displayed will vary according to each user’s role an
 | ------- | ------- | ------- |
 Agents | View conversations which they are currently handling or handled in the past | ---
 Agents with "view other agents conversations" permission | Will be able to view conversations which are handled or were handled in the past by other agents in their agent group | ---
-Agent managers | Will be able to view conversations which are being handled or were handled in the past by agents in the agent groups they mannage | Conversations which are waiting in-queue for skills which are assigned to the agent groups they manage
+Agent managers | Will be able to view conversations which are being handled or were handled in the past by agents in the agent groups they manage | Conversations which are waiting in-queue for skills which are assigned to the agent groups they manage
 
 ## Available views
 
-Users will be able to view conversations in All Connections in two modes. Each user can select their desired view mode from the icons found in the top right of the list.
+Users will be able to view conversations in All Conversations in two modes. Each user can select their desired view mode from the icons found in the top right of the list.
 
 ### 1. List view
 
@@ -78,7 +78,7 @@ Icon | Status | Description
 * **Skill** - The skill assigned to the conversation.
 * **Agent name** - The name of the agent currently assigned to the conversation.  For conversations that were also handled by other agents (e.g. in a case of a transfer), the additional agents will be displayed as well.
 * **Agent group** - The agent group that the agent(s) assigned to the conversation belong to.
-* **MCS** - The [Meaningful Connection Score](/data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) displays the real-time positive or negative sentiment of the consumer based on natural language understanding.
+* **MCS** - The [Meaningful Conversation Score](/data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) displays the real-time positive or negative sentiment of the consumer based on natural language understanding.
 * **Start time** - The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer.
 * **Last message time** - The time the last message was sent, by either the agent or consumer, in the conversation. In addition, hovering over the column presents the last message text.
 * **Duration** - The time frame between when the consumer started the conversation until it was closed by either the consumer or the agent. For active conversations the duration displayed here represents the time from the start of the conversation until the moment this data is viewed.
@@ -111,7 +111,7 @@ The same list displays on the left with the ability to navigate through the list
 
 ## Search and filter
 
-Agents and agent managers can search/filter conversations with the following parameters (note that the results will display according to the time frame selected in the header of the All Connections tab):
+Agents and agent managers can search/filter conversations with the following parameters (note that the results will display according to the time frame selected in the header of the All Conversations tab):
 * Keywords from transcripts
 * Duration of conversation
 * Agent
@@ -119,7 +119,7 @@ Agents and agent managers can search/filter conversations with the following par
 * Skill
 * Start time
 * Status (open and closed)
-* Meaningful Connection Score (MCS)
+* Meaningful Conversation Score (MCS)
 * Conversation ID
 * CSAT
 * Summary keywords
@@ -136,29 +136,29 @@ Managers can now easily join a conversation and perform actions, such as transfe
 When selecting **Join**, you can:
 1. Begin messaging with the consumer alongside the agent
 2. Take any of the following actions from the current window:
-  * **Return to queue:** you will still be joined to the conversation, it will appear in your My Connections list.
-  * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Connections list.
+  * **Return to queue:** you will still be joined to the conversation, it will appear in your My Conversations list.
+  * **Transfer conversation:** you will still be joined to the conversation, it will appear in your My Conversations list.
   * **Close conversation**
-  * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Connections list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists.
+  * **Leave the conversation:** use this action in order to stop being an active participant and remove it from your My Conversations list. This action is helpful if you joined a conversation that you do not want to take action on OR for a conversation that you’ve transferred or returned to queue and you’d like to remove from your lists.
 
-The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Connections list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
+The new enhancements make it possible for agents to easily perform actions for an agent who is unavailable. Once you are in the conversation mode, simply filter the All Conversations list to the left by the desired agent. Once the agent has been selected, you will see only their conversations. You can now use the **+ Join Conversation** option and the actions menu to take the desired action.  
 
-If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Connections list without notification.
+If you take an action on a conversation (e.g. send back to queue, transfer or takeover) that is currently being handled by an agent - they will be notified of the action. If the agent is in the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent doesn’t have the conversation open it will disappear from their My Conversations list without notification.
 
 ## Taking over a conversation
 
 Managers with the “Takeover conversation” permission will be able to takeover conversations which are currently assigned to agents. The user who is taking over the conversation will become the new assignee of the conversation and the previous assignee is removed from the conversation.
 
-The “Takeover” option is available in the conversation menu, if the user has permissions for this action. Once the user has chosen the “Takeover” option, he will be navigated to the My Connections tab, focused on that conversation.
+The “Takeover” option is available in the conversation menu, if the user has permissions for this action. Once the user has chosen the “Takeover” option, he will be navigated to the My Conversations tab, focused on that conversation.
 
-If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Connections list without notification.
+If you takeover a conversation that is currently being handled by an agent - they will be notified of the action.  If the agent is in focus on the conversation, a pop up will appear on their screen to let them know that they are no longer assigned to this conversation. If the agent is not in focus on the conversation, the conversation will disappear from their My Conversations list without notification.
 
 {: .notice}
-**Please note:** In the new manager workspace you must first **join** a conversation before you can use the takeover action. 
+**Please note:** In the new Manager Workspace you must first **join** a conversation before you can use the takeover action.
 
 ## Resuming a conversation
 
 In many use cases, agents and managers need to send messages to consumers after the conversation with them has already been closed.
 
 In order to do so, a ‘Resume’ option will be available from the conversation mode .
-When selecting ‘Resume’, a new conversation will be started with the consumer and users will be navigated to the My Connections list, focused on the conversation.
+When selecting ‘Resume’, a new conversation will be started with the consumer and users will be navigated to the My Conversations list, focused on the conversation.

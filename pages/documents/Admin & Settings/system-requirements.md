@@ -12,9 +12,9 @@ isNew: false
 date: '2019-01-28T13:20:27.000+00:00'
 
 ---
-The LiveEngage platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
+The Conversational Cloud platform aims to provide the best engagement experiences for consumers and brands. To do so, LivePerson constantly advances its technology and always uses the most up-to-date innovative tools which enable the rich engagement experiences we wish to provide our customers.
 
-For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of LiveEngage.
+For the best LivePerson experience, customers are required to use one of the certified operating systems and browser versions listed below. Using the latest browsers ensures better encryption, privacy support by default, and access to the full functionality of the Conversational Cloud.
 
 LivePerson is constantly expanding its matrix of supported operating systems and browser versions.
 
@@ -26,10 +26,10 @@ We have two primary levels of support for the items listed in the tables below:
 
 **Supported:** Items marked with an asterisk ( * ) meet the minimum requirements, with no known issues. Any new bugs will be evaluated and resolved on a case by case basis.
 
-**Certified:** Unmarked items have been tested thoroughly by LivePerson. We are committed to resolving any bugs or issues based on the SLAs defined across LiveEngage.
+**Certified:** Unmarked items have been tested thoroughly by LivePerson. We are committed to resolving any bugs or issues based on the SLAs defined across the Conversational Cloud.
 
 {: .notice}  
-We recommend using certified systems for the best possible experience while using LiveEngage.
+We recommend using certified systems for the best possible experience while using the Conversational Cloud.
 
 ## Visitor side: mobile web requirements
 
@@ -84,7 +84,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 
 We do not support incognito / private browsing in any browser.
 
-Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, LiveEngage will not display any chat buttons or invitations, for example on:
+Some browsers are not supported at all due to experience or security reasons.  When consumers arrive to your website from certain browsers, the Conversational Cloud will not display any chat buttons or invitations, for example on:
 
 * Internet Explorer 7, 8, 9 and 10
 * Line browsers
@@ -128,7 +128,7 @@ Currently, we only support Cocoapods dependency manager, frameworks are also ava
 
 ## LivePerson workspace requirements
 
-The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the LiveEngage workspace.
+The tables below list the browsers that Agents, Agent Managers, Admins, and Campaign Managers can use when accessing the workspace.
 
 ### Windows
 
@@ -153,24 +153,24 @@ The tables below list the browsers that Agents, Agent Managers, Admins, and Camp
 
 ## Desktop notifications
 
-LiveEngage desktop notifications do not support the following browsers:
+Conversational Cloud desktop notifications do not support the following browsers:
 
 * Internet Explorer 11x
 
 ## Reporting
 
-LiveEngage BI Dashboards do not support the following browsers:
+Conversational Cloud BI Dashboards do not support the following browsers:
 
 * Internet Explorer 11x
 * Microsoft Edge
 
-While these browsers do support LiveEngage they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
+While these browsers do support Conversational Cloud they do not support, and will not support, the BI dashboard. Users accessing the BI dashboards using these browsers may experience unexpected behaviors, such as missing scroll bars. The data in the dashboards may seem incomplete or missing when reviewing it without using scroll bars. To overcome this and see the full data, users can use the keyboard arrows.
 
 ## Bandwidth requirements
 
 ### LivePerson workspace
 
-* Initial download speed: approximately 6MB GZIPPED for complete agent workspace download (includes scripts, html, CSS and images).
+* Initial download speed: approximately 6MB GZIPPED for complete Agent Workspace download (includes scripts, html, CSS and images).
 * Average rate per CCP per second: 10-15KB for data.
 * Max rate per CCP per second: 1.2MB - 1.5M.
 * Browser resource requirements: Typical agent activities with max 3 concurrent chats, client resource requirements can be summarized as:

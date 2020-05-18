@@ -33,7 +33,7 @@ Read more about it in [understanding the reason a chat ends](contact-center-mana
 
 ## How do I change the email address for scheduled reports?
 
-Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Report Builder [scheduled reports](data-reporting-report-builder-report-builder-overview.html#scheduling).
+Unfortunately, there is no way to change the email in the LivePerson interface. If you’d like to change the email where you receive Analytics Builder [scheduled reports](data-reporting-report-builder-report-builder-overview.html#scheduling).
 
 ## How do I retrieve data that has been masked?
 
@@ -46,12 +46,12 @@ For example: If “1234” is masked it will be replaced with “****”
 ![](/img/reporting-data-faqs-2.png)  
 Deleted user data is stored in LivePerson and visible for **13 months following deletion**.
 
-Deleted agents are displayed with a '(deleted)' indicator in the Open Connections, All Connections, Web History lists, and the engagement history widget.
+Deleted agents are displayed with a '(deleted)' indicator in the Open Conversations, All Conversations, Web History lists, and the Conversation History widget.
 
 {: .notice}
 Before deleting a user, ensure that the agent doesn’t own any open conversations (if so, these conversations should be transferred to the queue) and that the user is logged out of LivePerson.
 
-Filter by deleted agents is available in the Open Connections, All Connections, and web history lists.
+Filter by deleted agents is available in the Open Conversations, All Conversations, and web history lists.
 
 In the visitor conversation window, the name of the deleted agent will be displayed in the window header (with no indication that they have been deleted).
 

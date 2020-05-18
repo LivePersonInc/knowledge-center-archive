@@ -17,7 +17,7 @@ redirect_from:
 To get started, access LivePerson using this link: [https://authentication.liveperson.net/](https://authentication.liveperson.net/")
 
 {: .notice}  
-LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using LiveEngage, brands can start [messaging](getting-started-quick-start-guides-web-messaging-quick-start.html) very quickly with minimal set up using our out of the box connectors.
+LivePerson recommends using messaging over chat as messaging allows customers to interact with brands at their own time and convenience. Using the Conversational Cloud, brands can start [messaging](getting-started-quick-start-guides-web-messaging-quick-start.html) very quickly with minimal set up using our out of the box connectors.
 
 ## Get to the first live chat message
 
@@ -61,7 +61,7 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * **Groups/LOB** - [set up groups or lines of business ](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
    * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone** - [set up the time zone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
-   * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
+   * **Languages** - [setup the language](admin-settings-supported-languages.html) for Agent Workspace.
 
 ## Step 3: Design the customer experience
 
@@ -72,9 +72,9 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * [Surveys](contact-center-management-live-chat-operations-surveys-with-live-chat.html)
    * Proactive invitations
 
-Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in campaigns.
+Read more about [creating buttons and banners](contact-center-management-campaigns-creating-buttons-and-banners.html) in the Campaign Builder.
 
-1. **Rich Messaging**: enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
+1. **Rich Conversations**: Enhancing the conversational experience is crucial to helping brands handle an array of inquiries and actions over live chat. Beyond the regular text, LivePerson enables brands to set up the following [Rich Conversations](messaging-channels-rich-messaging-rich-messaging-overview.html) and [structured  content](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * Photo sharing (consumer to agent)
    * Structured content (cards, carousels, lists)
 2. **Add bots**:  automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
@@ -83,7 +83,7 @@ Read more about [creating buttons and banners](contact-center-management-campaig
 ## Step 4: Define the agent experience
 
 1. **Predefined answers**: create or import a database of [predefined content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
-2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [**widgets**](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
+2. **Custom agent tools**: within the [Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [**widgets**](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
 3. **Multiple away states**: by default, your agents can be ‘online’ and available to take messages, ‘busy’, or ‘away’. These [away states](agent-manager-workspace-workspace-configuration-multiple-away-states.html) affect the flow of incoming conversations, and are customizable to give better granularity in reporting agent times - e.g. create an away state for training.
 4. **Configure CoBrowse**: For high touch conversations, agents can connect to customers screens and conduct a [CoBrowse session](agent-manager-workspace-agent-tools-for-live-chat-cobrowse-for-live-chat.html).  Administrators can define which agents have this capability.
 5. **Agent guide**: Agent training should include your business processes as well as best practices for conducting conversations. LivePerson has developed an expertise in agent training that substantially increases performance.  To learn more, ask account team for specialized training and the LivePerson University.

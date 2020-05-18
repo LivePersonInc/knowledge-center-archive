@@ -66,7 +66,7 @@ The Bot Builder wants to use automation to help with influx of messages related 
 
 The Bot Builder reviews the Intent Analyzer dashboard and notices that the “can’t find discount code” intent is, both, a high volume intent and is easily automatable.
 
-She creates a bot in Conversation Builder for handling these requests and creates an intent-based routing rule in Maven that automatically directs customers to the bot.
+She creates a bot in Conversation Builder for handling these requests and creates an intent-based routing rule in the Conversation Orchestrator that automatically directs customers to the bot.
 
 #### Outcome
 
@@ -77,7 +77,7 @@ The company is able to greatly reduce the volume of agent conversations related 
 To enable Intent Analyzer on your account, please contact your LivePerson account representative.
 
 ### Permissions
-Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, Intent Analyzer also requires Conversation Builder permissions to be turned ON in  LE Administrator Profile, if not already done so.
+Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
 
 Access to Intent Analyzer dashboard is currently granted to the following roles:
 * CB_VIEW_ANALYTICS

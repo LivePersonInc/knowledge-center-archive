@@ -22,7 +22,7 @@ It’s also possible for brands to create profiles - customized permissions sets
 1. On the users list, click add user at the bottom of the page.
 2. Type in the user’s details.
    * The login name can be entered in English, numbers or special characters only. Once entered, the login name cannot be changed.
-   * The name as it appears in LiveEngage.
+   * The name as it appears in the Conversational Cloud.
    * The nickname is the name that will be displayed to the visitors in the chat.
 3. Set a password with a minimum of eight (8) characters. Click save.
 4. To set a change password prompt to appear when the user next logs in, toggle the password prompt to on.
@@ -86,7 +86,7 @@ When duplicating a user, the administrator will still need to complete the follo
 {: .notice}  
 Before deleting a user, we recommend first ensuring that the agent doesn't own any open conversations (if so, these conversations should be transferred to the queue) and that they are not logged in.
 
-Once a user has been deleted, it will still be possible to view their conversations in the conversations list (Open Connections, All Connections and Web History).
+Once a user has been deleted, it will still be possible to view their conversations in the conversations list (Open Conversations, All Conversations and Web History).
 
 ## Bulk user operations
 
@@ -124,7 +124,7 @@ In the following example, the term “agent” was input to the search box and a
 
 ## Change password on next login
 
-Safeguarding the privacy of user passwords is an important part of maintaining the security of LiveEngage accounts. When editing a user, account administrators can set a prompt to appear for the user to change their password when they next log in. In this way, if the admin has set a default password for a new user, or has reset the password on a user’s account, they can ensure that the user will have to change the password to one of their own choosing when they next log in.
+Safeguarding the privacy of user passwords is an important part of maintaining the security of LivePerson Conversational Cloud accounts. When editing a user, account administrators can set a prompt to appear for the user to change their password when they next log in. In this way, if the admin has set a default password for a new user, or has reset the password on a user’s account, they can ensure that the user will have to change the password to one of their own choosing when they next log in.
 
 ## Export users
 

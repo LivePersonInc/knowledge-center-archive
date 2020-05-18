@@ -17,7 +17,7 @@ Millions of brands are already using Google My Business to engage with consumers
 
 ## Why use Google My Business to connect with your consumers?
 
-* **Free and easy to set up** — With Google My Business there’s no need purchase numbers from external SMS gateways. Google provides a free virtual number and LiveEngage provides the platform.
+* **Free and easy to set up** — With Google My Business there’s no need purchase numbers from external SMS gateways. Google provides a free virtual number and LivePerson provides the platform.
 * **Access to millions of consumers** — Internet users search Google 3.5 billion times per day. Harness the power of your Google presence and put messaging at the fingertips of online consumers.
 * **Proactive notifications** — Brands can initiate conversations with consumers by sending proactive push notifications.
 * **Greater consumer accessibility** — Brands can capitalize on their existing Google My Business presence, without needing to purchase or add any additional resources.
@@ -32,7 +32,7 @@ The Google My Business connector enables consumers to message your brand via SMS
 
 1. Brand adds a “Message Us” button to their Google My Business listing, using Google virtual numbers provided directly by Google’s gateway.
 2. Consumer searches for the business on Google and taps the button.
-3. All Google My Business messages are subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the agent workspace.
+3. All Google My Business messages are subsequently be routed into the Conversational Cloud platform, allowing the brand’s agents to respond directly from the Agent Workspace.
 4. The consumer’s native SMS app opens and the consumer can actively begin messaging with brand.
 
 ![](/img/middle phone-2.png)
@@ -44,20 +44,20 @@ The Google My Business connector enables consumers to message your brand via SMS
 </ul>
 </div>
 
-### Consumer to agent image sharing 
+### Consumer to agent image sharing
 
-Brands have the ability to enable image sharing from consumers to agents, while allowing consumers to use the Google Business Messaging conversational interface to share images from their device with agents. 
+Brands have the ability to enable image sharing from consumers to agents, while allowing consumers to use the Google Business Messaging conversational interface to share images from their device with agents.
 
 Supported file formats and sizes:
-* Image types: JPG, GIF, JPEG, PNG 
+* Image types: JPG, GIF, JPEG, PNG
 * Size: up to 10 MB
- 
+
 If the consumer sends an image that is not supported or image size is beyond the supported size, the agent will receive the image as a URL. If the file sharing has not been enabled, the consumer will see this message: “Sorry! Unfortunately files cannot be sent via Google.”
 
 {: .notice}
 **Please note:** This feature requires enablement. For more information please contact your LivePerson representative.
 
-**Screenshots** 
+**Screenshots**
 
 Image 1: Consumer sends an image to agent
 
@@ -71,14 +71,14 @@ Image 2: Agent sees the image in their workspace
 
 ### How to set up the connector:
 
-1. Identify the Google My Business ID number you would like to connect to LivePerson (it’s possible to connect multiple IDs to your LiveEngage account). If you can't find your ID please contact your Google representative
-2. Once you obtained your Google Business ID, contact your LivePerson account team so they can activate the ID on your LiveEngage account.
-3. Start managing messages on LiveEngage from your Google My Business accounts.
+1. Identify the Google My Business ID number you would like to connect to LivePerson (it’s possible to connect multiple IDs to your account). If you can't find your ID please contact your Google representative
+2. Once you obtained your Google Business ID, contact your LivePerson account team so they can activate the ID on your LivePerson Conversational Cloud account.
+3. Start managing messages on the Conversational Cloud from your Google My Business accounts.
 
 ### How to onboard the connector:
 
 1. In order to enable click to message on your Google My Business ID, contact your LivePerson representative - they will ensure it is activated for you.
-2. Once activated, on the Campaigns page on LiveEngage, click on **Data Sources** in the Campaigns footnote.
+2. Once activated, in the Campaign Builder in the Conversational Cloud, click on **Data Sources** in the footnote.
 3. From the Conversation Sources tab, click **Connect** in the Google My Business box.
 4. Enable the Activate Google My Business Source toggle.
 5. Enter the relevant Google My Business ID to subscribe the account to.

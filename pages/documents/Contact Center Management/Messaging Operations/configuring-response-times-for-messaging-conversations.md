@@ -24,7 +24,7 @@ Response times can be configured at the account level and by skill for three typ
 * First time - When it is the very first time the consumer has initiated a conversation with the brand. A first-time consumer will get the first time response time throughout their first conversation with the brand and not only on the first message.
 
 {: .notice}
-Urgent capabilities are available for web and in-app messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
+Urgent capabilities are available for web and App Messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
 
 ![](/img/config-response-time-1.png)
 

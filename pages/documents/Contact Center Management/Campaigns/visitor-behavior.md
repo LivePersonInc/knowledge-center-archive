@@ -25,7 +25,7 @@ Consumers who show intent to purchase higher-value products or services are know
 
 ## How can you target these users?
 
-LiveEngage allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
+The Conversational Cloud allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
 
 Decide when to display engagements by selecting conditions that will be applied to your users’ behavior.
 
@@ -58,7 +58,7 @@ Target and/or exclude consumers from selected entry points on the website or wit
 
 ### 4. About to abandon:
 
-Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
+Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, the Conversational Cloud knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
 
 **Note:** this behavior is currently only supported for web engagements.
 
@@ -173,12 +173,12 @@ If the visitor does not complete the desired flow, the visitor exhibits what we 
     Shopping Cart page > CheckOut page > Shopping Cart page
 
 <br/>
-To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
+To manage such scenarios, you can set the Conversational Cloud to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an engagement.
 
 To set up an Engagement for Visitor Back Flow:
 
-1. Log in to LiveEngage as a Campaign Manager user or Admin user.
-2. Go to the Campaigns tab.
+1. Log in to the Conversational Cloud as a Campaign Manager or Admin user.
+2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
 
@@ -198,7 +198,7 @@ To set up an Engagement for Visitor Back Flow:
 <div class="important"> <b>Note:</b> If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
 <br />
 <br />
-When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
+When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and the Conversational Cloud does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, the Conversational Cloud will not trigger the engagement because the flow was already completed.
 </div>
 
 ## Visitor behavior conditions

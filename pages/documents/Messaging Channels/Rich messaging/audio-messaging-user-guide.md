@@ -1,15 +1,16 @@
 ---
 pagename: Audio messaging user guide
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: Audio messaging allows consumers to send audio messages to brands
 level3: ''
-permalink: messaging-channels-rich-messaging-audio-messaging-user-guide.html
+permalink: messaging-channels-rich-conversations-audio-messaging-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 11:54:10 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-audio-messaging-user-guide.html
 ---
 Audio messaging allows consumers to send audio messages to brands. The audio is one way, from the consumer to the agent. The agent can listen to the message and reply in a text. Audio messaging provides an enriched conversation experience.
 
@@ -50,7 +51,7 @@ Audio messaging is ideal for consumers who would prefer to send a voice recordin
   * Conversation window preview popup (Spectator)
 * Know what is the message length as soon as it arrives (without having to play it)
 * Navigate through the audio message
-* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Connections
+* Get an indication “Audio Message” when hovering above the ‘LAST MESSAGE TIME’ column in the All/Open Conversations
 
 ![](/img/audiom3 (1).png)
 
@@ -62,14 +63,14 @@ Audio messaging is ideal for consumers who would prefer to send a voice recordin
 * To delete the recording prior to sending it, the consumer presses the trashcan icon
 * Once sent, the consumer can listen to the recording by pressing the play icon
 
-## LiveEngage messaging connectors
+## Messaging connectors
 
 Audio messaging is now available for the Apple Business Chat and Facebook Messenger connectors.
 
-LiveEngage will support the following audio messages flow:
+The Conversational Cloud will support the following audio messages flow:
 
 * A consumer on ABC or FBM records and sends an audio message to an agent on LE
-* An agent receives an audio type message and can play the message the consumer has recorded on the agent workspace
+* An agent receives an audio type message and can play the message the consumer has recorded on the Agent Workspace
 * An agent can play and replay audio messages sent by consumers for open and closed conversations (the agent cannot record audio messages)
 * A consumer can replay his own audio messages (speaker only) - as supported on each channel
 

@@ -1,10 +1,10 @@
 ---
 pagename: Third-party Bot Connectors
 categoryName: Getting started
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: LivePerson allows for external Bot Vendors and Bot builders to be enabled
-  and managed through LiveEngage just like a normal human agent
+  and managed through the Conversational Cloud just like a normal human agent
 level3: ''
 permalink: ai-bots-automation-third-party-bot-connectors.html
 isTutorial: false
@@ -15,7 +15,7 @@ isNew: false
 
 Bots can have a dramatic impact on contact center operations, helping brands to free up valuable agent time and reducing customer care costs by using bots to handle mundane and monotonous tasks allowing human agents the time to focus on more complex conversations.
 
-LivePerson allows for external Bot Vendors and Bot builders to be enabled and managed through LiveEngage just like a normal human agent.
+LivePerson allows for external Bot Vendors and Bot builders to be enabled and managed through the Conversational Cloud just like a normal human agent.
 
 Using Third-Party Bots Connectors, brands can provision and enable Bots from IBM Watson, Google Dialogflow, Amazon Lex, Microsoft Bot Framework or leverage LivePerson Functions with the Custom Integrations Option.
 
@@ -35,7 +35,7 @@ Each bot has a [dashboard](https://developers.liveperson.com/third-party-bots-bo
 
 There are four steps to onboarding a bot.
 
-1. assign / create a bot agent in LE under which that bot operates
+1. Assign / create a bot agent in the Conversational Cloud under which that bot operates
 2. Choose the conversation type ( chat or messaging)
 3. Error handling - define fallback messages and skills to which the conversation will be routed if the bot becomes unavailable during the conversation.
 4. Connect to the bot vendor:
@@ -52,7 +52,7 @@ For more information and detailed steps of how to onboard - please visit the [de
 
 ## Custom integration
 
-Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to LiveEngage. In order to achieve this, you will need to implement a LivePerson Functions **Custom Integration**.
+Instead of a vendor, like IBM Watson for example, LivePerson Functions allows you to write your own custom bot and connect it to the Conversational Cloud. In order to achieve this, you will need to implement a LivePerson Functions **Custom Integration**.
 
 To connect to a third-party bot with the custom integration, you will need to write code using Node.JS from LivePerson’s Functions platform.
 

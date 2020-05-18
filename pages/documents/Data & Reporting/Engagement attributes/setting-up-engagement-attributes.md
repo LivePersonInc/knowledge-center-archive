@@ -21,7 +21,7 @@ Information collected using engagement attributes can be used to achieve the fol
 * Create specific and advanced targeting of visitors
 * Route consumers more accurately to the most appropriate skill/agent to handle their query
 * Empower agents with relevant information during conversations with consumers
-* Receive a comprehensive view of visitor engagement history
+* Receive a comprehensive view of visitor conversation history
 * Measure and track campaign goals
 
 For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developers' Community.
@@ -32,7 +32,7 @@ Verifying the implementation of the engagement attributes values can be done via
 
 ### Validation via LivePerson interface
 
-1. From the campaigns footnote, click data sources.
+1. From the Campaign Builder footnote, click data sources.
 2. On the integrations tab, scroll down to the engagement attributes section.
 3. Click the configure button for the data category you wish to check.
 4. If the engagement attribute you are checking has been reported on during the last 24 hours, then the data indicator (a green checkmark) will be displayed - for example, the "cart update" attribute in the image below has been reported on during the last 24 hours and therefore has a green checkmark next to it.
@@ -50,4 +50,4 @@ If the engagement attribute has not been reported on, a grey ‘i’ symbol will
 ![](/img/ea3.png)
 
 {: .notice}
-**Note:** To start using Engagement Attributes for web messaging, this functionality needs to be enabled. Please contact your LivePerson account team for more information.
+**Note:** To start using Engagement Attributes for Web Messaging, this functionality needs to be enabled. Please contact your LivePerson account team for more information.

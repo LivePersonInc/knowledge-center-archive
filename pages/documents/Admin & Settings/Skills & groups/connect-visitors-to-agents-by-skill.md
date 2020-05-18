@@ -84,7 +84,7 @@ The following survey types are supported:
 {: .notice}  
 In order to configure the default surveys for skill change, campaign managers must have the ‘edit skills’ permission enabled. For further information, refer to the [assign permissions.](admin-settings-permissions-assign-permissions.html)
 
-Default survey data is reported on the relevant skill (after the change). The survey answers are visible in [Report Builder.](data-reporting-report-builder-report-builder-overview.html)
+Default survey data is reported on the relevant skill (after the change). The survey answers are visible in [Analytics Builder.](data-reporting-report-builder-report-builder-overview.html)
 
 ## Assigning skills to users
 
@@ -102,7 +102,7 @@ Users are assigned skills by selecting a skill that you have already created, or
 
 ### To assign a skill to an engagement:
 
-Assign skills to engagements in the engagement studio, in the campaigns area.
+Assign skills to engagements in the engagement studio, in the Campaign Builder.
 
 1. Open a campaign by clicking on it.
 2. Click on the engagement to which you want to assign a skill.

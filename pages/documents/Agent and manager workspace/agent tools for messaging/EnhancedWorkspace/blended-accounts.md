@@ -1,9 +1,9 @@
 ---
 pagename: Blended accounts
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-blended-accounts.html
 isTutorial: false
@@ -14,13 +14,13 @@ redirect_from:
 
 ---
 
-For brands using LiveEngage, there are currently two conversation types: 
+For brands using the Conversational Cloud, there are currently two conversation types:
 
 **Live chat:** A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
 
-**Messaging:** Continuous, ongoing conversations that can be answered asynchronously. Both the consumer and the agent can resume the conversation after it has ended.
+**Web Messaging:** Continuous, ongoing conversations that can be answered asynchronously. Both the consumer and the agent can resume the conversation after it has ended.
 
-**Note:** LivePerson’s best practice and recommendation is to offer messaging only. We believe messaging is the best solution for both brands and consumers - this belief is reflected in our investment of new tools for messaging.
+**Note:** LivePerson’s best practice and recommendation is to offer Web Messaging only. We believe messaging is the best solution for both brands and consumers - this belief is reflected in our investment of new tools for messaging.
 
 When referring to blended accounts, or brands that elect to offer both live chat and messaging, agents may work in three modes:
 
@@ -28,7 +28,7 @@ When referring to blended accounts, or brands that elect to offer both live chat
 
 * [Dedicated agents per shift/time period 2 separate logins (one for chat and one for messaging)](#dedicated-agents-per-shift)  - Agents that are capable of handling both live chats and messaging, but focus only on one channel per shift/dedicated time period (not handling chat and messaging conversations simultaneously). Typically these agents will have two separate logins for chat and messaging.
 
-* [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login. 
+* [Blended agents within a single shift](#blended-agents-within-the-same-shift) - Agents handling both live chat and messaging conversations simultaneously within a single shift, with a single login.
 
 The following article describes how the enhanced workspace will affect each of these user types.
 
@@ -41,7 +41,7 @@ This method is recommended by LivePerson as best practice for blended accounts.
 
 ### Dedicated messaging agents:
 
-Only messaging agents that have the enhanced workspace enabled in permissions will see the enhanced agent workspace module. The agent workspace for chat will be available and will display: web visitors, web history and agents - based on the existing permission set for the agent.  
+Only messaging agents that have the enhanced workspace enabled in permissions will see the enhanced Agent Workspace module. The Agent Workspace for chat will be available and will display: web visitors, web history and agents - based on the existing permission set for the agent.  
 
 For more information see the [messaging agents user guide](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html).
 
@@ -65,18 +65,18 @@ For brands that have agents handling both live chat and messaging conversations 
 
 For agents that have two separate logins:
 
-* Messaging user: Enable the ‘use the enhanced agent workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
+* Messaging user: Enable the ‘use the enhanced Agent Workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
 
 * Chat user: No changes to permissions are required. Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents).
 
 {: .notice}
-This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 separate reports. 
+This mode of operations is not best practice, we recommended working with fully dedicated agents. If you elect to work with agents with 2 logins, please note the performance and metrics of these agents will appear on 2 separate reports.
 
 ## Blended agents within the same shift
 
 Some brands elect to have agents taking both live chat and messaging concurrently. These agents are receiving both types of conversations in two separate workspace:
 Agent workspace for chat - for all chat conversations
-Enhanced agent workspace for messaging - for all messaging conversations 
+Enhanced Agent Workspace - for all messaging conversations
 
 The icons on the side bar will display notifications for incoming messages per workspace.
 ![](img/blended_accounts_same_shift.png)

@@ -33,15 +33,15 @@ To create a new entry point, simply name the entry point and copy its URL into t
 
 ## Map your site categories using code
 
-You’ve just finished creating an engagement for one of the categories on your website or mobile app. For example, cameras category on your website. You want the engagement to display on all the pages in the camera category. One option is to use a URL define where the engagement should display. However this means that you will need to manually add each camera-related page URL into LiveEngage.
+You’ve just finished creating an engagement for one of the categories on your website or mobile app. For example, cameras category on your website. You want the engagement to display on all the pages in the camera category. One option is to use a URL define where the engagement should display. However this means that you will need to manually add each camera-related page URL into the Conversational Cloud.
 
 To save you time, it is also possible to add a tag, or section, to your page code. These sections can also be defined when creating engagements for mobile app. A section associates a category name (camera, in our example) to the page; any new or existing page on your website or within your app that you tag with the camera section will display the engagement automatically. A page can be represented by one or more tags – for example, you can tag camera or camera and DSLR - giving you greater flexibility in targeting your engagement, which in turn makes your campaign more effective.
 
-In the LiveEngage UI, adding the tag using quotes (e.g, “camera DSLR”) will ensure that the engagement is displayed on all pages with this exact tag (camera DSLR). Adding the tag without quotes (e.g. camera) will mean the engagement is displayed on all pages with a tag containing that text (e.g. camera, camera DSLR, waterproof camera etc).
+In the Conversational Cloud UI, adding the tag using quotes (e.g, “camera DSLR”) will ensure that the engagement is displayed on all pages with this exact tag (camera DSLR). Adding the tag without quotes (e.g. camera) will mean the engagement is displayed on all pages with a tag containing that text (e.g. camera, camera DSLR, waterproof camera etc).
 
 ## Section engagement attributes
 
-Sections can be used for both web and mobile app engagements. Since website locations in LiveEngage are based (by default), on URLs, sections will be particularly valuable for web engagements when:
+Sections can be used for both web and mobile app engagements. Since website locations in the Conversational Cloud are based (by default), on URLs, sections will be particularly valuable for web engagements when:
 
 1. You make frequent changes to your website and it’s hard to keep track of the pages in each category.
 2. Your URLs are not readable. For example: the URL “www.urlexample.uk/articles/aaa/bbb.html” doesn’t indicate the location of the visitor on your website.
@@ -57,7 +57,7 @@ Sections can be used for both web and mobile app engagements. Since website loca
 
 ### Configuration
 
-1. Go to the campaigns page, and click **Data Sources** in the footnote.
+1. Go to the Campaign Builder, and click **Data Sources** in the footnote.
 
 ![](/img/entry-point-2.png)
 

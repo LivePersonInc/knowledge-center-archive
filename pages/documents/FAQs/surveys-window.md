@@ -27,7 +27,7 @@ The browsers supported by LivePerson have built-in spell checking. When the brow
 
 ## What is the maximum message length a consumer/agent can send?
 
-* For web messaging or mobile app messaging the limit is: 2,000 characters for agent or consumer messages.
+* For Web Messaging or App Messaging the limit is: 2,000 characters for agent or consumer messages.
 * For SMS: 1600 characters for agent or consumer messages.
 * For Facebook Messenger: 640 characters  for an agent message and 5000 characters for a Facebook user message.
 
@@ -55,12 +55,12 @@ Offline surveys are enabled by default for each engagement. You can disable offl
 ### To disable an offline survey:
 
 1. Log in to LivePerson as a campaign manager.
-2. Go to the **Campaigns** list.
+2. Go to the Campaign Builder.
 3. Select the Campaign containing the engagement you want to modify.
 4. Click **Action > Edit** to edit the campaign.
 5. Click **Edit** to the right of the engagement you want to modify.
 
-     
+
    ![](/img/faqs-surveys-windows-1-1.png)
    {:start="6"}
 6. On the Engagement settings window click **Next**. The Engagement studio opens

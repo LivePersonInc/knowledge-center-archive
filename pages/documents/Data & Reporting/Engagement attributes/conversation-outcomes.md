@@ -12,7 +12,7 @@ date: '2019-01-20T09:22:45.000+00:00'
 
 ---
 LivePerson provides your agents with tools to submit information about a conversation, either while the conversation is still in progress, or after it ends. Using conversation outcomes, agents can add insight about the conversation or information about conversions or resolutions that took place.
- 
+
 The tools include:
 
 **Agent survey:** Using the agent survey, agents can provide their input to help you analyze the nature of your chats and their outcomes.
@@ -39,7 +39,7 @@ You will need to enable this feature for each of the engagement attributes you w
 
 To enable this feature:
 
-1. Log into LivePerson, and then click on the campaigns tab. The footnote is displayed at the bottom of the page.
+1. Log into LivePerson, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 
 ![](/img/conversation-outcomes1.png)
 
@@ -55,13 +55,13 @@ To enable this feature:
 
 {:start="5"}
 5\. Select the skill(s) for which you want this feature to be available. For example, your transaction engagement attributes may not be relevant for your customer support agents.
-6\. Select the engagement attribute properties that will be displayed to the agent in the agent workspace by clicking add field to widget. You must select at least one property.
-7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the agent workspace.
+6\. Select the engagement attribute properties that will be displayed to the agent in the Agent Workspace by clicking add field to widget. You must select at least one property.
+7\. For each of the selected properties, enter a display name. This name will be displayed to the agent in the Agent Workspace.
 8\. Click save.
 
 ## Using conversation outcomes
 
-Once enabled, a new widget called conversation summary is displayed to the relevant agent(s) in the agent workspace during the conversation.
+Once enabled, a new widget called conversation summary is displayed to the relevant agent(s) in the Agent Workspace during the conversation.
 
 {: .notice}  
 This widget will only be available if either conversation outcomes or agent survey is enabled.

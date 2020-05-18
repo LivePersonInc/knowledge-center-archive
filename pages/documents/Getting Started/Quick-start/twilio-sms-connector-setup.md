@@ -18,7 +18,7 @@ redirect_from:
 
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self-serve on-boarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
-Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio. 
+Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio.
 
 ## Step 1: Get an SMS number from Twilio
 
@@ -28,7 +28,7 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
 2. Click **Get a Trial Number** and follow the instructions on-screen.
 
-3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process. 
+3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process.
 
 4. **Configure the request URL** by navigating to the following page: https://www.twilio.com/user/account/phone-numbers/incoming
 
@@ -40,9 +40,9 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
    * APAC (Asia Pacific) accounts: **https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
 
-## Step 2: Connect Twilio to LiveEngage
+## Step 2: Connect Twilio to the Conversational Cloud
 
-In LiveEngage, on the Campaigns tab (which you can access from the left sidebar), click on **Data Sources** in the footnote.
+In the Conversational Cloud, in the Campaign Builder (which you can access from the left sidebar), click on **Data Sources** in the footnote.
 
 ![](img/data-sources.png)
 
@@ -56,7 +56,7 @@ Click Done.
 
 ## Step 3: Test your integration
 
-To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in LiveEngage. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
+To test your Twilio integration, simply send an SMS to the number which you configured above and see if it shows up in the Conversational Cloud. If it does, and you are able to reply to it as an agent, the setup was successful. If not, please contact LivePerson support for more assistance.
 
 ## Additional Resources
 

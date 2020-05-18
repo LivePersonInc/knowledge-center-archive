@@ -1,16 +1,17 @@
 ---
 pagename: 'Quick replies user guide '
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: Quick replies are a group actionable items that appear as part of the conversation,
   making it easier to have automated conversations with consumers.
 level3: ''
-permalink: messaging-channels-rich-messaging-quick-replies-user-guide.html
+permalink: messaging-channels-rich-conversations-quick-replies-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 12:16:26 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-quick-replies-user-guide.html
 ---
 The LivePerson messaging solution allows brands to enrich the conversions with their consumers using quick replies.
 
@@ -22,9 +23,9 @@ Quick replies are a group of actionable items (chips) that appear as part of the
 
 It creates an easier, faster way for consumer to respond to messages. For bot interactions, quick replies provide a direction for the conversation and help set expectations as to what the bot can do.
 
-Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the LiveEngage Routing Bot will quickly and accurately route them to the most appropriate agent.
+Quick replies also enable more accurate routing based on consumer intent; consumers can choose from a range of potential intents and then the Routing Bot will quickly and accurately route them to the most appropriate agent.
 
-LiveEngage enables sending 1-24 quick reply chips per message. Each chip can have:
+The Conversational Cloud enables sending 1-24 quick reply chips per message. Each chip can have:
 
 * **Title:** up to 25 characters (use ellipsis)
 * **Click operation:** with actions and metadata
@@ -34,7 +35,7 @@ When a quick reply chip is tapped, the items are dismissed.
 
 The agent can see the quick replies group at all times, even if it is no longer visible to the consumer.
 
-Quick replies are available on our mobile app and web messaging channels, as well as the Facebook connector.
+Quick replies are available on our mobile app and Web Messaging channels, as well as the Facebook connector.
 
 ## Use cases
 
@@ -129,6 +130,6 @@ The JSON schema and dictionary can be found in the [Developers’ Community](htt
 
 ## Notes
 
-* The configured quick replies responses available in the agent workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (web messaging and in-app messaging, as well as Facebook).
+* The configured quick replies responses available in the Agent Workspace can be sent by the agent to a consumer using any channel on which quick replies are supported (Web Messaging and App Messaging, as well as Facebook).
 * When an agent sends a quick replies message to a consumer, it will trigger a push notification. The push notification will show the Agent’s message which preceded the Quick Replies bundle.
 * You can show between one and twenty-four chips within a quick replies bundle.

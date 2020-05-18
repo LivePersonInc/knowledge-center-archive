@@ -1,21 +1,23 @@
 ---
-pagename: Rich messaging overview
+pagename: Rich Conversations overview
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: both
-subtitle: Enhancing the customer’s messaging experience through rich messaging
+subtitle: Enhancing the customer’s messaging experience through Rich Conversations
 level3: ''
-permalink: messaging-channels-rich-messaging-rich-messaging-overview.html
+permalink: messaging-channels-rich-conversations-rich-conversations-overview.html
 isTutorial: false
 isNew: false
 date: 2019-01-24 13:48:11 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-rich-conversations-overview.html
+  - messaging-channels-rich-messaging-rich-messaging-overview.html
 ---
-Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Messaging is the key to driving more actions directly within in your messaging conversation.
+Conversational commerce lets people message anytime with businesses without having to call or search a website. Rich Conversation capabilities are the key to driving more actions directly within in your messaging conversation.
 
-The LiveEngage messaging solution allows brands to send messages to customers in a variety of ways and formats making conversations more flexible - able to handle new and varying types of interactions. This enriches the consumer experience and gets your brand on board with conversational commerce.
+The Conversational Cloud messaging solution allows brands to send messages to customers in a variety of ways and formats making conversations more flexible - able to handle new and varying types of interactions. This enriches the consumer experience and gets your brand on board with conversational commerce.
 
-**Rich messaging includes:**
+**Rich Conversation capabilities include:**
 
 * [Structured content cards](messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html#why-use-structured-content)
 * [Structured content carousel](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html#carousel)
@@ -43,7 +45,7 @@ See more in the [structured content user guide.](messaging-channels-rich-messagi
 
 Quick replies allows you to create short instant replies that consumers can select with a simple tap. As these answers are pre-formatted, not only is it quicker for the consumer and more intuitive for the agent, it even enables bots to seamlessly handle conversations.
 
-Currently available for mobile app, web messaging, and Facebook Messenger.
+Currently available for App Messaging, Web Messaging, and Facebook Messenger.
 
 For more information on quick replies including configuration and set up, please refer to our [quick replies user guide](messaging-channels-rich-messaging-quick-replies-user-guide.html)
 

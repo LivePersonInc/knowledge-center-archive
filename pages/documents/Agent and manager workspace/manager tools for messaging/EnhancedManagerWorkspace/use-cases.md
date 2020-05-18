@@ -1,9 +1,9 @@
 ---
 pagename: Use cases
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-use-cases.html
 isTutorial: false
@@ -14,11 +14,11 @@ redirect_from:
   
 ---
 
-The new manager workspace was designed to increase managers’ impact on their agents and overall shift performance. It provides a centralized location within LiveEngage to give you the visibility and actionable insights needed to achieve your KPIs.
+The new Manager Workspace was designed to increase managers’ impact on their agents and overall shift performance. It provides a centralized location within the Conversational Cloud to give you the visibility and actionable insights needed to achieve your KPIs.
 
-The manager workspace gives you the ability to assess the shift status at a higher level and identify queue health issues at a glance. Additional details per agent and per conversation allow for further analysis and tracking.
+The Manager Workspace gives you the ability to assess the shift status at a higher level and identify queue health issues at a glance. Additional details per agent and per conversation allow for further analysis and tracking.
 
-Here are some examples of how you can use the data and tools available in the new manager workspace to improve your messaging operations:
+Here are some examples of how you can use the data and tools available in the new Manager Workspace to improve your messaging operations:
 
 ## 1. Understand and take action on spikes in queue length
 

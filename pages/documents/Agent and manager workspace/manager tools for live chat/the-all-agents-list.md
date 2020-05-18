@@ -1,7 +1,7 @@
 ---
 pagename: 'The all agents list '
-categoryName: Agent & manager workspace
-subCategoryName: Web messaging
+categoryName: Agent & Manager Workspace
+subCategoryName: Web Messaging
 indicator: chat
 subtitle: Track your agents’ status in real time
 level3: ''
