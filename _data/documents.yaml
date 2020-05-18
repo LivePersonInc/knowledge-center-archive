@@ -120,8 +120,8 @@
         - pagename: Auto close for messaging conversations
         - pagename: Smart Capacity
           level3:
-            - level3name: Smart Capacity overview
-            - level3name: Smart Capacity per skill
+            - level3name: Dynamic Capacity overview
+            - level3name: Dynamic Capacity per skill
             - level3name: Capacity management for manual SLA
         - pagename: Preparing agents to start a shift
         - pagename: Shift scheduler configuration guide
