@@ -8,7 +8,8 @@ level3: ''
 permalink: data-reporting-analytics-builder-analytics-builder-overview.html
 isTutorial: false
 date: '2019-01-09T12:35:11.000+00:00'
-redirect_from: data-reporting-report-builder-report-builder-overview.html
+redirect_from:
+  - data-reporting-report-builder-report-builder-overview.html
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/344251526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
