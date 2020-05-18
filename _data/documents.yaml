@@ -118,7 +118,7 @@
         - pagename: Transfer to agent
         - pagename: Automatically unassign conversations from agents
         - pagename: Auto close for messaging conversations
-        - pagename: Smart Capacity
+        - pagename: Dynamic Capacity
           level3:
             - level3name: Dynamic Capacity overview
             - level3name: Dynamic Capacity per skill
