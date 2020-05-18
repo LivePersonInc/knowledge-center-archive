@@ -15,11 +15,11 @@ redirect_from:
 ---
 ## Overview
 
-The [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) feature enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize the Dynamic Capacity settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
+Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) enables brands to better manage their messaging operations by controlling the weight an active and inactive conversation takes up in the overall agent capacity. Brands can now customize Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can also define the weight that an inactive conversation would take up in the agent capacity once the conversation becomes inactive.
 
 ## Calculating the agent load
 
-The Dynamic Capacity setting revolves around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain weight in the agents overall capacity to handle conversations simultaneously.
+Dynamic Capacity's settings revolve around the state of the conversation. An **actionable conversation** (one that is waiting for the agent to act upon) is also considered an active conversation, and as such, it takes up a certain weight in the agents overall capacity to handle conversations simultaneously.
 
 A **non-actionable conversation** (one that waits for the consumer to act upon) is considered an inactive conversation, and as such, it can take up less weight in the agent’s overall capacity to allow the agent to handle additional conversations.
 
@@ -58,7 +58,7 @@ The agent can now have:
 * Three active conversations with a total weight of 3
 * Ten inactive conversations with a total weight of 1
 
-If the agent has multiple skills assigned to it, Dynamic Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill Dynamic Capacity settings. **Please note:** the max conversations setting defines the hard limit for the number of conversations an agent can handle.
+If the agent has multiple skills assigned to it, Dynamic Capacity will look at the skill on which the conversation is assigned and will calculate the conversation weight based on the skill's Dynamic Capacity settings. **Please note:** the max conversations setting defines the hard limit for the number of conversations an agent can handle.
 
 ## Dynamic Capacity recommended values
 
