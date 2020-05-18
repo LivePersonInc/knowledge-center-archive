@@ -122,7 +122,7 @@ The main panel provides an executive view of the messaging program performance. 
 
 _Brand messaging summary main panel_
 
-![](/img/Performance-Dashboard-messaging-summary.jpg)
+![](/img/RB_Brand_Level_Data1.png)
 
 | Graph name (type) | Vertical / angle (metrics) | Horizontal / color (attributes) | Additional functions |
 | --- | --- | --- | --- |

@@ -9,7 +9,8 @@ permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-work
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-agents-configuration.html
 ---
 
 The Agent Workspace is tailored to the needs of messaging agents and was designed using feedback and requests from hundreds of messaging agents. It is developed for an easy plug-and-play approach and requires little to no configuration.  

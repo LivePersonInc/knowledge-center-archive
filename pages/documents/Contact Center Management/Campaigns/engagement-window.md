@@ -10,8 +10,8 @@ isTutorial: false
 isNew: false
 date: '2019-01-28T13:19:13.000+00:00'
 redirect_from:
-- customized-chat-windows.html
-
+  - customized-chat-windows.html
+  - consumer-experience-the-new-web-messaging-window.html
 ---
 For Web Messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
 

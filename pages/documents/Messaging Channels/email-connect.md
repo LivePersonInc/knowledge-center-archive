@@ -64,7 +64,7 @@ Login to the Conversational Cloud and click the Campaign Builder icon located in
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)
 
-Click the Connect button in the Email Connect tile. The Email Connect setup screen will open automatically in a separate browser tab.
+Click the Connect button in the Email Connect tile. 
 
 ![](img/email-connect-2.png)
 
@@ -72,11 +72,9 @@ Click the Connect button in the Email Connect tile. The Email Connect setup scre
 
 Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen.
 
-![](img/email-connect-1.png)
+Click **EmailConnect**. 
 
-Click **EmailConnect**. The Email Connect setup screen will automatically open in a separate browser tab.
-
-![](img/email-connect-2.png)
+![](img/EmailConnect_new_UI1.png)
 
 ### Step 2: Provide your email credentials to setup your email
 
@@ -90,12 +88,12 @@ Email address must be configured as below:
 
 Follow the instructions on the screen to save your email configuration details.
 
-![](img/email-connect-3.png)
+![](img/EmailConnect_new_UI2.png)
+![](img/EmailConnect_new_UI3.png)
+![](img/EmailConnect_new_UI4.png)
 
 ### Step 3: Save email configuration and skill settings
-Click Test Connection and then click Save
-
-![](img/Email-connect-step-3.png)
+Click Test Connection and then click Save.
 
 ### Step 4 Start receiving and responding to emails in the Conversational Cloud
 
@@ -158,6 +156,9 @@ Click Upload and select your custom .html footer file.
 Re-enter the password for your email, click Test Connection and click Save.
 
 ![](img/email-connect-step-10.png)
+
+## Multiple email addresses
+Brands can add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
 ## Reporting
 

@@ -18,8 +18,6 @@ In addition to allowing reps to work remotely, the app also expands opportunitie
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
-{: .notice}
-While support for Android is not currently available at this time, it is in development and will be available on Android in the very near future.
 
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 

@@ -9,7 +9,8 @@ permalink: messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.h
 isTutorial: false
 isNew: false
 date:
-
+redirect_from:
+- generate-a-twilio-sms-number-with-liveperson.html
 ---
 
 Brands now have the option to provision a US, Canadian, or Caribbean Nations Twilio number in LivePerson's platform. This is a great option for small-to-medium businesses who do not already have numbers through Twilio.

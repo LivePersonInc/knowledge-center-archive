@@ -119,7 +119,7 @@ MCSs for messaging conversations are available in the Analytics Builder for bran
 
 ## More about MCS
 
-* The MCS is available in English, French, Italian, Japanese, German and soon in Spanish too.
+* MCS is available in English, French, Italian, Japanese, German and Spanish.
 
 In summary, MCS can be:
 

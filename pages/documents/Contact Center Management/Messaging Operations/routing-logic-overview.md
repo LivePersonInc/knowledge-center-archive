@@ -54,7 +54,9 @@ Once a conversation is initiated, the routing engine will receive a skill notifi
 
 ## Default skill
 
-It is possible to configure a default skill which will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
+It is possible to configure a default skill that will be used in case no skill mapping rulesIt is possible to configure a default skill that will be used in case no skill mapping rules matched the consumer’s profile during the authentication process.
+
+(suggested addition) Note: by default, in case no agent will be assigned to the default skill, the conversation will be routed to “unassigned skill”. For more information, refer to the “Unassigned skill” article.
 
 ## Routing to a fallback skill
 
@@ -87,6 +89,17 @@ In this case, the conversation will be rerouted to an available agent with the s
 Following the skill selection process, the routing engine will initiate the agent selection process. This involves identifying all available agents with the relevant skill to handle the conversation, and selecting, from those available, the most suitable agent to handle the incoming conversation.
 
 The agent’s suitability is determined using a set of parameters as set out below. Once the most appropriate agent is identified, the engine will route the incoming conversation to that agent.
+
+## Unassigned skill
+In some cases, a conversation is routed to a skill with no assigned agents (e.g. since the skill has been removed from all of the agents in the system). By default, this conversation would be deferred to the “unassigned skill” (-1). As a result, it may be routed to any available agent. This default behavior may be changed, so these conversations will either remain on the originally assigned skill or will be transferred to the configured fallback skill if one was defined.
+
+As an example, consider a conversation which is transferred to skill “Sales", which no agents in the system are assigned to. By default, the conversation would be routed to “unassigned skill”. However, in case the default behavior has been changed, the conversation could be routed in one of the below methods:
+
+1. If no fallback skill has been defined for the account or for the skill “Sales” - it will remain on skill “Sales” until an agent is assigned with this skill.
+2. If a fallback skill was defined for the account or for the skill “Sales” - it will be routed to the fallback skill.
+
+To make change the unassigned skill default behaviour, please contact your LivePerson account team.
+
 
 ### **Agent availability**
 

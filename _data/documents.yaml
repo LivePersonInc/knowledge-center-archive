@@ -84,6 +84,7 @@
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
+       - pagename: Coming soon to the Conversation Builder
        - pagename: Getting started tutorials
    - subcategoryname: Intent Analyzer
      pages:
@@ -104,6 +105,7 @@
         - pagename: Configuring response times
         - pagename: Fallback configuration per skill
         - pagename: Static load balancing
+        - pagename: Private Messages overview
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
@@ -212,9 +214,10 @@
         - pagename: Creating Predefined Content
         - pagename: Importing predefined content
         - pagename: Predefined content best practices
-    - subcategoryname: LiveEngage mobile app
+    - subcategoryname: Agent app
       pages:
-        - pagename: LiveEngage mobile app user guide
+        - pagename: iOS user guide
+        - pagename: Android user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -277,6 +280,7 @@
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Product renaming overview
     - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
@@ -337,24 +341,27 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: Latest what's new
     - subcategoryname: January 2020
-    - subcategoryname: December 2019
-    - subcategoryname: November 2019
-    - subcategoryname: October 2019
-    - subcategoryname: September 2019
-    - subcategoryname: August 2019
-    - subcategoryname: July 2019
 
 - categoryname: Release notes
   image: release-notes
   subcategories:
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
-      pages:
+      pages:  
+        - pagename: May
+          level3:
+            - level3name: Week of May 4th
+            - level3name: Week of May 11th
+            - level3name: Week of May 18th
         - pagename: April
           level3:
             - level3name: Week of April 1st
             - level3name: Week of April 6th
+            - level3name: Week of April 13th
+            - level3name: Week of April 20th
+            - level3name: Week of April 27th 
         - pagename: March
           level3:
             - level3name: Week of March 23rd
@@ -382,25 +389,8 @@
           level3:
             - level3name: Week of November 25th
             - level3name: Week of November 18th
-            - level3name: Week of November 11th
-            - level3name: Week of November 4th
-        - pagename: October
-          level3:
-            - level3name: Week of October 21st
-            - level3name: Week of October 14th
-        - pagename: September
-          level3:
-            - level3name: Week of September 30th
-            - level3name: Week of September 23rd
-            - level3name: Week of September 9th
-            - level3name: Week of September 2nd
-        - pagename: August
-          level3:
-            - level3name: Week of August 26th
-            - level3name: Week of August 19th
-            - level3name: Week of August 12th
-            - level3name: Week of August 5th
 
+       
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:
@@ -411,7 +401,7 @@
     - subcategoryname: Messaging
       pages:
         - pagename: Set up and management
-        - pagename: Consumer Experience
+        - pagename: Consumer experience
         - pagename: Agent tools
     - subcategoryname: Live chat
     - subcategoryname: Bots

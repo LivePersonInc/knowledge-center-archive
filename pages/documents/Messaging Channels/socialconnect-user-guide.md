@@ -19,7 +19,7 @@ Please follow instructions below on how set up Social Connect.
 
 Social connect can be accessed via the quick launch menu
 
-![](img/SocialConnect_launchpad.png)
+![](img/Quick_launch_man_workspace1.png)
 
 ## Agent experience
 

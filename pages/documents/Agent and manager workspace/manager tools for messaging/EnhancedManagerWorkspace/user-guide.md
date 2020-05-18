@@ -13,6 +13,7 @@ isNew: false
 redirect_from:
  - agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-user-guide.html
  - agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html
+ - messaging-managers-manager-workspace-user-guide.html
 ---
 
 
