@@ -20,7 +20,7 @@ he Insights Dashboard is organised into ‘Tabs’ containing ‘widgets’ whic
 ### Overview Tab
 This tab displays the summary statistics associated with your data, such as Number Of Records (i.e. No. of Conversations)
 You can click on any visualisation to drill into a particular Day, Device Type, Skill etc
-You can also select a range of items (e.g., Days) on any bar graph by pressing the left mouse button down and dragging across bars
+You can also select a range of items (e.g., Days) on any bar graph by pressing the left mouse button down and dragging across bars.
 
 The Overview Tab - Example Widgets seen in Overviews
 
@@ -74,13 +74,11 @@ Example Visualisations - Browser & Device Types, Topics
 ![](img/inisght_8.png)
 
 ### Data Tab
-This tab displays all data contained in the datastreams (databases) upon which the Dashboard is based
-This tab allows you to search within any data dimension (field) and see the record results either within each taxonomy / machine learning model and across all dimensions
-
-Data Text Box - here you can select the datastream you want to look at
-Search by - clicking in this box brings up a list of fields to search
-Magnifying Glass - Type in your search term here to see data filtered by search text
-Tabs below the search fields show all models / taxonomies. The ALL tab shows the values for all original fields as well as all fields from all models / taxonomies.
+* This tab displays all data contained in the datastreams (databases) upon which the Dashboard is based.
+* This tab allows you to search within any data dimension (field) and see the record results either within each taxonomy / machine learning model and across all dimensions.
+* Data Text Box - here you can select the datastream you want to look at. Search by clicking in the box which brings up a list of fields to search. 
+* Magnifying Glass - Type in your search term here to see data filtered by search text
+* Tabs below the search fields show all models / taxonomies. The ALL tab shows the values for all original fields as well as all fields from all models / taxonomies.
 
 ‘Balance’ search results, searching by Customer Verbatim and choosing Customer NLU Model
 Results show previews of conversations.
@@ -95,7 +93,7 @@ Results show associated Taxonomy Labels of conversations.
 ## Key Components of the Dashboard:
 ## Widgets
 Each tab contains a selection of widgets - visualisations of data dimensions in the form of tables, lists or charts
-Clicking on the menu bar in the top right of any widget brings up a menu to Edit, Copy, Filter, Export or Remove the Widget  
+Clicking on the menu bar in the top right of any widget brings up a menu to Edit, Copy, Filter, Export or Remove the Widget.
 
 Please note: If you are designated as a ‘view only’ user, you can add filters and rearrange the views.  However, any changes made to the dashboard will be erased once you exit out of the dashboard. The administrator of the dashboard controls your permissions.
 
