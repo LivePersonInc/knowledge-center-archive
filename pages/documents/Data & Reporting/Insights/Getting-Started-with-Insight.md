@@ -35,4 +35,4 @@ Notifications: shows details of changes made in dashboards
 
 To get started, click on the Dashboard tab to start creating a dashboard or to view existing dashboards shared with you. 
 
-!(img/insights_1.png)
+![](img/insights_1.png)
