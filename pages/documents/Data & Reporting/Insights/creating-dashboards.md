@@ -50,7 +50,7 @@ Deploying a Taxonomy:
 Click [here](data-reporting-insights-insights-user-guide.html) to learn how to navigate an Insights dashboard. 
 
 ## How to copy an existing dashboard
-1.To make a new copy of an existing dashboard, open the dashboard you want to copy
+1. To make a new copy of an existing dashboard, open the dashboard you want to copy
 2. On the top left corner, choose “Save As”
 3. Give the new dashboard a different name and now a copy of the dashboard has been created. 
 Note: only you can see the new dashboard. If you want other users to view it, then you need to share it. To learn how to create a new widget, click here. 
