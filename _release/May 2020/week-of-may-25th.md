@@ -25,7 +25,7 @@ The Bot Connector system is designed to respond to incoming messaging by the con
 
 ![](img/RN_may25_1.png)
 
-## Private Messages (INT-635) 
+## Private Messages 
 ### Type: New feature (Bot Connectors 2.18)
 This feature will enable customers to leverage the UMS Private Text feature thus allowing customers to send Private Text messages via all supported AI vendors in third-party bots. Private text messages are only visible to the agent and manager in Agent Workspace and end users will not be able to see those messages.
 
