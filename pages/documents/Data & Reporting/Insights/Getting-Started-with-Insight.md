@@ -38,8 +38,8 @@ To get started, click on the Dashboard tab to start creating a dashboard or to v
 ![](img/insights_1.png)
 
 ## Glossary
-| Term | Definition | 
-|--- | --- | 
+| Term | Definition |
+| ------------- | ------------- |
 | Bigram | A pair of grammatically related words found in the text |
 | Buzzwords | Pairs of related words found in the text |
 | Consumer Intent | The customer’s goal for his/her interaction with the brand|
@@ -59,5 +59,5 @@ Conversion|
 | Taxonomy | Topics categorized by – hierarchical list of industry-specific conversation topics, curated by human analysts|
 | Unstructured Data Data type including text and geolocational (place)|
 | Verbatim | Conversation text that may be grouped by speaker (customer, agent, bot) or source|
-| Widget | Individual data visualizations on an Insights dashboard|
+| Widget | Individual data visualizations on an Insights dashboard |
 
