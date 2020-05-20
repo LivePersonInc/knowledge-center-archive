@@ -7,7 +7,7 @@ subtitle: Widgets are visualisations of data dimensions in the form of tables, l
 level3: ''
 permalink: data-reporting-insights-creating-new-widgets.html
 isTutorial: false
-date: '2020-05-19
+date: '2020-05-19'
 
 ---
 ## What is A Widget?

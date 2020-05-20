@@ -7,7 +7,7 @@ subtitle: Accessing and getting started with Insights
 level3: ''
 permalink: data-reporting-insights-getting-started-with-insights.html
 isTutorial: false
-date: '2020-05-19
+date: '2020-05-19'
 
 ---
 
