@@ -99,14 +99,14 @@ A bug was discovered within the enhanced Agent Workspace existing markdown parse
 
 A new bug has been found in the enhanced Agent Workspace when an agent is sending an image during a conversation. When the agent opens the image in the transcript area, there is no zoom button for the zoom in. It is causing the page to be corrupted and messed up. This bug has been fixed and the image now fits within the width and height of the gallery.
 
-![](img/week-of-may-25th-7.png
+![](img/week-of-may-25th-7.png)
 
 ## [Enhanced Agent Workspace] Transcript scroll behavior enhancement
 ### Type: Bug fix (NAW 1.13)
 
 A bug has been discovered within the Enhanced Agent Workspace transcript area with the scroll’s behavior when the agent is scrolling up. The behavior was causing the script to scroll down automatically all the way, whenever a new message arrived, causing the agent not to be able to read the message he was scrolling up for. This bug has been fixed and the scroll is now working as expected.
 
-![](img/week-of-may-25th-8.png
+![](img/week-of-may-25th-8.png)
 
 ## [Enhanced Agent Workspace] Predefined Content - Widget is not updated when switching between conversations
 ### Type: Bug fix (NAW 1.13)
@@ -118,7 +118,7 @@ A bug has been discovered within the Enhanced Agent Workspace predefined content
 
 A bug has been discovered within the enhanced Agent Workspace in the All Connections list. This bug caused the agent to see the Web Visitors Dashboard arrow after switching to chat and going back to the enhanced Agent Workspace. The arrow would appear for no reason. This bug has been fixed.
 
-![](img/week-of-may-25th-9.png
+![](img/week-of-may-25th-9.png)
 
 ## [Enhanced Agent Workspace] Hyperlink behavior broken
 ### Type: Bug fix (NAW 1.13)
@@ -150,7 +150,7 @@ A bug has been discovered within the enhanced Agent Workspace where hyperlink ma
 
 A bug has been discovered within the enhanced Agent Workspace when in light mode. In the transcript area, the text color for the unread message notification area is black like the background. This is causing the message not to appear. This bug has been fixed.
 
-![](img/week-of-may-25th-10.png
+![](img/week-of-may-25th-10.png)
 
 ## [Enhanced Agent Workspace] Step up conversation is not populating the SDE
 ### Type: Bug fix (NAW 1.13)
