@@ -19,6 +19,23 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Developers Center Redesign
+### Enhancement
+
+LivePerson are redesigning and rebranding the existing Developers Community. It will soon be known as the Developers Center and has been revamped with a new welcome page and a Getting Started section. Together these changes will enable new users to get started on our platform quicker and help both new and existing users to find content more intuitively.
+
+To access the site please go to https://developers.liveperson.com/.
+
+The welcome page contains content that helps you learn about the key products and services offered by LivePerson.
+
+The Getting Started page contains a new video explaining the product, links to quick start guides and how to guides. Together, these enable users to get started with the LivePerson platform quickly.
+
+The new search experience provides a contextual “preview”. This displays the sentences that contain the keyword being searched and allows you to have more information before making a selection. This will deliver an overall improved search experience.
+
+LivePerson will continue to enhance the Developers Center to ensure the best user experience for our developers. 
+
+![](img/Dev_Center_Redesign.png)
+
 ## Greeting for accepted transferred messaging conversations 
 ### Type: New feature (Bot Connectors 2.18)
 The Bot Connector system is designed to respond to incoming messaging by the consumer, once the bot is engaged in the conversation. Enabling the Welcome Messages settings, allows Brands to compose an initial message that the bot can send out that is not in direct response to the consumers messages. This allows for the bot to connect to a conversation and send out an initial message without waiting for the consumer to send a message after the bot first joins the conversation.
