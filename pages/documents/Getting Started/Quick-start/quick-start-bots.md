@@ -62,7 +62,7 @@ Create a "Hello World" bot using Conversation Builder.
 
 To learn how to extend the bot and connect it to the Conversational Cloud, complete the tutorials listed below.
 
-## Step 4: Expand the capabilities of your bot
+## Step 4: Connect your bot to LiveEngage
 
 * **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Connect your bot to the Conversational Cloud, and learn how to transfer a bot conversation to a live agent.
 

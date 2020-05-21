@@ -6,7 +6,7 @@ level3: ''
 indicator: messaging
 subtitle: Conversation Orchestrator is LivePerson’s platform for Dynamic Routing conversational orchestration
   & continuous learning
-permalink: ai-bots-automation-conversation-orchestrator-Recommendation-api.html
+permalink: ai-bots-automation-conversation-orchestrator-recommendation-api.html
 isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'

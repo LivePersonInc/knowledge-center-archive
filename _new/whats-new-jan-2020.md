@@ -113,7 +113,7 @@ more info.
 [](img/Jan2020_whats_new_11.png)
 
 ## Access to applications - additional security measure
-A new security measure has been introduced and defines which type of roles and profiles can access which applications. Some users may have to approach their account administrator to request access to applications. We defined access permissions to the following applications for admins only (by default): MCS Toolkit, Realtime Dashboard, Liveintent, Data Transporter, Maven Workspace, Functions (FaaS), CoBrowse for Voice. 
+A new security measure has been introduced and defines which type of roles and profiles can access which applications. Some users may have to approach their account administrator to request access to applications. We defined access permissions to the following applications for admins only (by default): MCS Toolkit, Realtime Dashboard, Intent Analyzer, Data Transporter, Maven Workspace, Functions (FaaS), CoBrowse for Voice. 
 
 [](img/Jan2020_whats_new_12.png)
 

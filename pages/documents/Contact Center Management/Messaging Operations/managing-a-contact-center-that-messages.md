@@ -19,8 +19,6 @@ Messaging is now the preferred mode of communication for both sales and care use
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/302277356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## How messaging benefits a contact center
 
 In addition to responding to consumers needs and expectations, brands who make embrace messaging as a channel of communication reap benefits that include:
@@ -50,7 +48,7 @@ Since messaging is intuitive to consumers and easily accessible on an array of c
 
 ### Routing
 
-LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
+LivePerson's [ Dynamic Routing engine](ai-bots-automation-conversation-orchestrator-dynamic-routing.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
 
 ![](/img/managing-cc-that-messages.png)
 
@@ -78,7 +76,7 @@ Since messaging conversations can span over a few hours, or even a few days, and
 
 ### Dynamic Capacity
 
-Based on three optimization points - conversation queue, agent matching, and agent capacity - [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Dynamic Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
+Based on three optimization points - conversation queue, agent matching, and agent capacity - [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Dynamic Capacity offers an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
 
 Dynamic Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
 

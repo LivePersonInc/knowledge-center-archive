@@ -45,5 +45,35 @@ The “Active” metric, which was previously available only on the list view of
 
 If a conversation was transferred between different groups (the transferring agent group and the destination agent groups were different), and the workspace was filtered by the group of the transferring agent, the conversation would have been retrieved in the conversation widget, although it is currently not handled by the transferring group. This issue is now resolved, so that the filter retrieves only the conversations of the group which is **currently handling** the conversation.  
 
+## Support step up SDEs
+### Type: New Functionality (Messaging History API 1.0.0.14)
+
+Following the step up feature, Messaging History API did not show authenticated SDEs for step up conversations. In this new release, authenticated SDEs will be presented in the UI.
+
+## Web navigation History - real time flow
+### Type: New Functionality (Messaging History API 1.0.0.14)
+Messaging History API will show the navigation history of a consumer in the last 48 hours (from the time the conversation is queried).
+
+## Rollover  
+### Type: New Functionality (Messaging History API 1.0.0.14)
+This feature will provide support to allow a configured Rollover account to see all active conversations from multiple Brand accounts in the Manager Workspace, and also allow Agents to see All Connections historical conversations.  
+
+## OS version should be taken from a new field
+### Type: Bug fix (Messaging History API 1.0.0.14)
+Use the correct data event to show the correct OS version
+
+## lastAgent details were incorrect following a takeover 
+### Type: Bug fix (Messaging History API 1.0.0.14)
+Messaging Interaction API: the ‘info’ fields related to the last assigned agent (latestAgentID, latestAgentFullName, latestAgentNickname etc.) do not update to the actual most recent agent following a “Takeover”.
+Takeover is noted as part of the transfer list but doesn’t impact the ‘info’ section of the API. 
+
+## Agent Survey for Messaging 
+### Type: Bug fix (Messaging History API 1.0.0.14)
+Last Submitted shows timeout even though submitted 
+
+## Return version parameter in subsequent call 
+### Type: Bug fix (Messaging History API 1.0.0.14)
+
+Add the version parameter to the subsequent call
 
 

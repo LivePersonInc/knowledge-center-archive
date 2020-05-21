@@ -10,7 +10,8 @@ isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
-redirect_from:report-builder-introducing-the-enhanced-report-builder.html
+redirect_from:
+    - report-builder-introducing-the-enhanced-report-builder.html
 ---
 
 The Analytics Builder infrastructure has been upgraded to the latest MicroStrategy (MSTR) version in order to benefit from the performance, scalability and enhanced secure platform.

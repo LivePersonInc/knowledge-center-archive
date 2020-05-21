@@ -9,7 +9,9 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-works
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-managers-use-cases.html
+  
 ---
 
 The new Manager Workspace was designed to increase managers’ impact on their agents and overall shift performance. It provides a centralized location within the Conversational Cloud to give you the visibility and actionable insights needed to achieve your KPIs.

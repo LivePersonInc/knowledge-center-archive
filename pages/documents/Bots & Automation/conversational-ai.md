@@ -10,6 +10,8 @@ permalink: ai-bots-automation-conversational-ai.html
 isTutorial: true
 isNew: false
 published: true
+redirect_from:
+  - conversational-ai-new-conversational-ai-experience.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353759335" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -39,7 +41,7 @@ Intent Analyzer automatically analyzes customer messages sent to human agents as
 
 Intents can be built and trained in LivePerson, or uploaded from an existing system or other NLU engine. Brands can create intent dashboards to optimize operations, intent by intent, and build a data driven automation program.
 
-![](/img/conv-ai-1.jpg)
+![](/img/conv-ai-1.png)
 
 ### Dynamic Routing by Conversation Orchestrator
 

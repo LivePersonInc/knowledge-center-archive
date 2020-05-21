@@ -12,9 +12,9 @@ isNew: false
 date: '2019-01-23T13:04:36.000+00:00'
 
 ---
-Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational commerce platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
+Conversational commerce makes it easy for people to communicate with brands to ask questions, buy things, and get help using their preferred messaging service. LivePerson brings to the table a first-to-market AI-powered conversational platform that uniquely works with brands to better engage consumers across all messaging channels, and scale to any number of conversations.
 
-## What is conversational commerce
+## What is conversational commerce?
 
 The shift from analog to digital is changing every aspect the way people communicate— from mall shopping to online shopping, hailing taxi cabs to Uber, and now phone calls to messaging. Over 90% of people’s day-to-day conversations happen in digital messaging channels like [SMS](/messaging-channels-sms-sms-connector.html), [Facebook](/messaging-channels-facebook-messenger.html) and [WhatsApp](messaging-channels-whatsapp-business.html). It’s the way people prefer to communicate with friends and family. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are -through messaging.
 
@@ -22,7 +22,7 @@ The shift from analog to digital is changing every aspect the way people communi
 
 The goal of conversational commerce is to create a convenient and personalized digital experience for consumers at scale — answering questions, providing information, and completing transactions directly in the messaging channels people already use everyday. Many of the world's largest brands — Adobe, T-Mobile, Citibank, IBM, L'Oreal, Orange and The Home Depot — have embraced conversational commerce and are seeing incredible results: sales increasing by 4x, customer care costs decreasing by close to 50% and customer satisfaction peaking at 95%.
 
-LivePerson’s conversational platform enables brands to message with their consumers on all of the most popular digital channels from a single place, and gives contact centers the administrative power and the automation capabilities needed to [operate messaging at scale](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html).
+LivePerson’s Conversational Cloud platform enables brands to message with their consumers on all of the most popular digital channels from a single place, and gives contact centers the administrative power and the automation capabilities needed to [operate messaging at scale](contact-center-management-messaging-operations-managing-a-contact-center-that-messages.html).
 
 ### Conversational as the new competitive advantage
 
@@ -34,7 +34,7 @@ Read [Forrester report: Use Automation, AI and Chatbots to Improve Customer Enga
 
 From the ability to market, discover and reach new audiences over messaging, to supporting loyalty, upselling and customer care, conversational commerce is crucial throughout the customer journey.
 
-LivePerson’s conversational commerce platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities.
+LivePerson’s Conversational Cloud platform smartly brings together the myriad consumer messaging endpoints (Facebook Messenger, Alexa, Apple Business Chat, Google RCS and more) backend systems, automations, and agents necessary to make customer care happen.  It allows consumers to reach brands through messaging and combines human agents, bots and AI to automate day-to-day customer care operations and sales opportunities.
 
 With this continuous customer journey, brands are able to give consumers hyper-personalized interactions using the data to know what consumers want and to predict what they need next.
 
@@ -46,17 +46,17 @@ These characteristics raise fundamental questions to contact centers: How to sca
 
 Most contact centers today are only equipped for chat-like interactions that are session based and have organized their operations and measurements around this model. In order to succeed with messaging, LivePerson has developed new tools and capabilities that focus on automation to scale conversations, leveraging machine learning and AI. Automation enables brands to  adopt messaging and still run at massive scale, enabling radical productivity in the contact center by combining the power of machine learning and AI with the insight and experience of brand employees.
 
-## How our conversational platform works
+## How our Conversational Cloud platform works
 
-Automation and AI underpins LivePerson’s conversational commerce. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
+Automation and AI underpins the Conversational Cloud. Bots and AI are at the forefront of messaging’s always-on experience and are supported by a unique mesh of humans and AI working together to build, manage and optimize conversational interactions at scale.
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312966468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson provides a comprehensive end-to-end conversational platform that includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the the Conversation Orchestrator.
+The crux of the LivePerson platform begins with the consumer endpoints on the far left and integrations to business systems and other technologies (Including third-party NLU engines) on the far right. LivePerson end-to-end Conversational Cloud  includes the ability to: build bots, manage agents and conversations, analyze performance, and converse with consumers at scale using the the Conversation Orchestrator.
 
 ![](/img/lp-conversational-commerce-overview-b.png){:class="newagent"}
 
-These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered conversational commerce platform consists of:
+These new powerful solutions can be leveraged on our open platform - that is NLU agnostic- keeping partners as an important part of the ecosystem. LivePerson’s AI-powered Conversational Cloud platform consists of:
 
 ## 1. Conversation Builder
 

@@ -57,9 +57,7 @@ It includes:
 a) New look and feel in both (dark and light) themes, with a basic view of up to 9 apps with a “show more” button to expand the menu to show ALL apps
 b) Newly designed icons for all applications in the menu
 
-![](img/week-of-january-6th-2.png)
-
-![](img/week-of-january-6th-3.png)
+![](img/Quick_launch_man_workspace1.png)
 
 ## [Connection panel] Allow customers to specify the severity of support cases
 ### Type: Enhancement (UI 11.4)

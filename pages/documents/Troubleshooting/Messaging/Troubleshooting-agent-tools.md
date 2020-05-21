@@ -141,7 +141,7 @@ When you change the Default max number of conversations per agent (in the Campai
 
 Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
 
-The system does not change the max. number of conversations value for users whose value is different than the current  Default maximum number of conversations per agent before the change.
+The system does not change the max. number of conversations value for users whose value is different than the current  default maximum number of conversations per agent before the change.
 
 ### Solution:
 
