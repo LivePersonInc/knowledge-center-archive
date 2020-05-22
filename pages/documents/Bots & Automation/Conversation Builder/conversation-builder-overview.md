@@ -15,7 +15,7 @@ redirect_from:
 
 ---
 {: .notice}
-To access Conversation Builder, click the **Manage conversational AI and bots** icon on the left side of the LiveEngage screen. Then, in the Conversational AI dashboard that appears, click **Conversation Builder**.
+To access Conversation Builder, click the **Manage conversational AI and bots** icon on the left side of the Conversational Cloud screen. Then, in the Conversational AI dashboard that appears, click **Conversation Builder**.
 
 ### Why brands need bots, automation and empowered agents
 
@@ -29,7 +29,7 @@ Once a brand embraces messaging, they need a way to scale their contact center o
 
 Conversation Builder allows brands to build bots that connect to all consumer messaging channels and everyday systems, like Salesforce. Conversation Builder provides brands with an easy-to-use bot builder that allows non-technical staff, often the people who best understand a brand’s voice, to create, optimize and visualize bots.
 
-<img style="width:1000px" src="img/cb_botWorkspace.png">
+<img style="width:900px" src="img/cb_botWorkspace.png">
 
 _Conversation Builder (dialog-based bot building)_
 
@@ -39,7 +39,7 @@ LivePerson built Conversation Builder as a dialog-based tool for creating bots a
 
 ### **A one-stop shop to build and visualize bots**
 
-Bots can require complex development with heavy reliance on developers and involved integrations. Conversation Builder  uniquely lets brand build and visualize dialog flows in a single UI. As a dialog is created, the “NLU Assist” capability provides guidance by automatically identifying consumer intents and making suggestions.
+Bots can require complex development with heavy reliance on developers and involved integrations. Conversation Builder  uniquely lets brand build and visualize dialog flows in a single UI. As a dialog is created, the “Assist” capability can be used to easily search for and associate an intent with the dialog.
 
 ### **Connect to messaging channels & business systems with full integration**
 
@@ -60,13 +60,13 @@ Brands don’t need to start from scratch to build bots. Conversation Builder ha
 * Intents associated with the use case
 * Conversational dialogs with appropriate interactions for the respective channels or end points (e.g., Web, Apple Business Chat, SMS)
 * API integrations with industry-leading services (e.g., Shopify, Salesforce, Timetrade, Hybris) and brand-specific services
-*  Integration with product catalogs, order systems, knowledge bases, and more.
-* The option to leverage pre-existing automation and NLU investments including DialogFlow, Watson, Lex and other NLU providers.
+*  Integration with product catalogs, order systems, knowledge bases, and more
+* The option to leverage pre-existing automation and NLU investments including DialogFlow, Watson, Lex and other NLU providers
 
 {: .notice}
-For example, a brand can use a prebuilt retail template from the template library, edit the script to customize it according to their brand lingo, and immediately integrate to Shopify or connect their product catalog.
+For example, a brand can use a pre-built retail template from the template library, edit the script to customize it according to their brand lingo, and immediately integrate to Shopify or connect their product catalog.
 
-![](/img/conversation-builder-btest.jpg)
+<img style="width:700px" src="img/conversation-builder-btest.png">
 
 ## How Conversation Builder works
 
