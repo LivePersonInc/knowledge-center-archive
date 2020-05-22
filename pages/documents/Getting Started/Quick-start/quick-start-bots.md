@@ -18,8 +18,8 @@ Create a "Hello World" bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
-1. Log in to [LiveEngage](https://authentication.liveperson.net/).
-2. On the left sidebar, click the bot icon.
+1. Log in to [Conversational Cloud](https://authentication.liveperson.net/).
+2. On the left sidebar, click the bot icon ("Manage conversational AI and bots").
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
 ## Step 2: Create a "Hello World" bot
@@ -35,7 +35,7 @@ Create a "Hello World" bot using Conversation Builder.
 5. In the Dialogs panel on the left, click **1 Welcome** and **2 Fallback** to open and examine both dialogs.
 6. Preview the bot:
     1. Click **Preview** in the upper-right corner of the screen to open the Preview window.
-    2. Enter “hello.” You will see the response, “Hi there! Thanks for coming!”
+    2. Enter “hello” and press **Send**. You will see the response, “Hi there! Thanks for coming!”
 
 **Congratulations!** You’ve just created your first bot!
 
@@ -43,35 +43,32 @@ Create a "Hello World" bot using Conversation Builder.
 
 ### Add a new pattern
 1. If the Welcome dialog isn't already open, open it by clicking **1 Welcome** in the Dialogs panel on the left.
-2. Select the first interaction (a User Says interaction), and click the 3-dot icon in the upper-right corner of the tile.
+2. Select the first interaction (a Dialog Starter interaction), and click the pattern that's displayed directly on the tile.
 
     <img style="width:600px" src="img/cb_window1.png">
 
-3. Select **Settings** from the menu.
-4. Under **Patterns**, click in the field, enter "aloha," and press Enter.
+3. In the **Interaction Settings** dialog, under **Patterns**, enter "aloha," and press Enter.
 
-    <img style="width:400px" src="img/cb_window2.png">
+    <img style="width:600px" src="img/cb_window2.png">
 
 5. Click **Save**.
 6. Select the second interaction, and change the text statement from "Hi there!" to "Hello World!"
-7. Click the interaction's 3-dot icon, and select **Save**.
+7. Click the interaction's **Save** button.
 
-    <img style="width:400px" src="img/cb_window3.png">
+    <img style="width:600px" src="img/cb_window3.png">
  
 ### Preview the bot again
 
-1. Open the Preview window like you did before, and start a new session by entering “reset” in the window.
+1. Open the Preview window like you did before, and start a new session by clicking **Reset Session** in the upper-right corner.
 2. Enter “aloha.” You will see that the bot responds to this new greeting with "Hello World!"
 
-## Step 4: Connect your bot to LiveEngage
+## Step 4: Connect your bot to Conversational Cloud
 
 ### Create the skill and user agent
 
 In this step, you create a user agent for the bot. The user agent will have an assigned skill, which you'll create first.
 
-1. Click the **Manage users and skills** icon on the left toolbar.
-
-    <img style="width:200px" src="img/cb_users_skills_icon.png">
+1. On the left sidebar in Conversational Cloud, click the user icon ("Manage users and skills").
 
 2. Click the **Skills** tab, and then click **Add skill** at the bottom of the page.
 
