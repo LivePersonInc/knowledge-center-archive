@@ -35,6 +35,6 @@ This video covers more complex bot [interactions](https://developers.liveperson.
 
 ## Integrations
 
-In this final tutorial video, we explore [integrations](https://developers.liveperson.com/conversation-builder-integrations-integration-basics.html), which allow a bot to query external APIs, bringing powerful new options to conversations. Use integrations to programmatically access catalogs, databases, and other web services to super power your bot responses!
+In this final tutorial video, we explore [integrations](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#integrations-tutorial), which allow a bot to query external APIs, bringing powerful new options to conversations. Use integrations to programmatically access catalogs, databases, and other web services to super power your bot responses!
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321979952" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
