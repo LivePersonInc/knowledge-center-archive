@@ -220,5 +220,9 @@ If you see a lock next to the download icon, this means you have not entered and
 
 ## Limitations
 
-1. Files sent to Amazon, Google, or SFTP will be encrypted - it is up to the user to decrypt these files with their Private Key (there are many options to decrypt using PGP/GPG software)
-2. Each account is limited by a maximum number of tasks - speak to your account manager to discuss task limitation options
+1. All delivered files will be encrypted - it is up to the user to decrypt these files with their Private Key (there are many options to decrypt using PGP/GPG software; see ENCRYPTION section of this guide)
+2. Each account is limited by a maximum number of tasks - speak to your account manager to discuss task limitation options.
+3. From time to time, new LP APIs or new features in existing LP APIs become available - these new APIs or features may not be immediately available via Data Transporter.  Contact us to request enhancements.
+4. Some non-standard text characters (long-hyphen, back-tick, etc) may not be correctly decoded with UTF-8 resulting in, for example, results such as â€" instead of long-hyphen –
+5. Reports from the Data Transporter catalogue cannot be modified other than the options revealed during Task configuration.  Reports are designed to provide as much of the data available as possible for brands to then disseminate appropriately.  Feature requests are regularly considered and incorporated into future versions of existing reports, or new reports entirely.
+6. Brands that select the “latest“ version of any given report agree that the report may change from time-to-time with either enhancements or fixes.
