@@ -22,15 +22,15 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## Developers Center Redesign
 ### Enhancement
 
-LivePerson are redesigning and rebranding the existing Developers Community. It will soon be known as the Developers Center and has been revamped with a new welcome page and a Getting Started section. Together these changes will enable new users to get started on our platform quicker and help both new and existing users to find content more intuitively.
+The LivePerson Developers site will receive a new look & feel enabling a better experience for new and existing users to find content more intuitively.
 
 To access the site please go to https://developers.liveperson.com/.
 
-The welcome page contains content that helps you learn about the key products and services offered by LivePerson.
+The Welcome page contains content that helps you learn about the key products and services offered by LivePerson.
 
-The Getting Started page contains a new video explaining the product, links to quick start guides and how to guides. Together, these enable users to get started with the LivePerson platform quickly.
+The Getting Started page takes you through the first steps of creating and setting up an account and helps you get familiar with LivePerson API’s so you can build & customize your own solutions.
 
-The new search experience provides a contextual “preview”. This displays the sentences that contain the keyword being searched and allows you to have more information before making a selection. This will deliver an overall improved search experience.
+The search experience provides a contextual “preview”. This displays the sentences that contain the keyword being searched and allows you to have more information before making a selection. 
 
 LivePerson will continue to enhance the Developers Center to ensure the best user experience for our developers. 
 
