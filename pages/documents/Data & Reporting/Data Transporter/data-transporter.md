@@ -144,7 +144,7 @@ In the future, additional reports will be added - have an idea for a report? [Le
 
 ### Report Catalogue
 
-For detailed information about the report data sources, visitor our [Developer Community](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
+For detailed information about the report data sources, visitor our [Dev Center](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
 
 ![](/img/data-transporter7.png)
 
@@ -160,7 +160,7 @@ After selecting a report, you will need to configure the following report option
   * For interval, also choose the time frequency to run _(timeframe will include the same amount of time as the time frequency selected)_
 * Delay: in some cases, API source data may be delayed in its completeness - where data completeness is strictly important, choose an option to delay the report from executing. For example, you may select:
   * Daily at 12:00am with a delay of 6 hours: In this case, your report will run at 6am each day and include the data from 12:00am to 11:59pm of the previous day
-* LiveEngage: the LiveEngage data source
+* Conversational Cloud: the Conversational Cloud data source 
 * Destination: See below
 
 For some reports, you may also have the option to select additional report parameters - if this option exists, it will be presented to you on the report creation screen.
@@ -170,7 +170,7 @@ After all options are completed, you can click Create task to save the task - it
 ### Task Destinations
 
 1. **LP Cloud** - secure storage on LP servers (provided for you)
-2. **SFTP** - securely deliver to your own SFTP server (you provide restricted user/pass)
+2. **SFTP** - securely deliver to your own SFTP server (you provide restricted username/password or username/SSH Key)
 3. **Amazon** - AWS S3 bucket storage (you provide IAM keys)
 4. **Google** - Google Cloud Storage (you provide IAM keys)
 
@@ -180,13 +180,13 @@ This option allows you to securely save files to your own SFTP server having pro
 
 ### LP Cloud
 
-This option allows you to securely save files to our existing LP servers - to retrieve files saved here, you must login to Transporter and download the completed reports from the HISTORY section - files saved to this destination will automatically be removed after 15 days.
+This option allows you to securely save files to our existing LP servers - to retrieve files saved here, you must login to Transporter and download the completed reports from the HISTORY section - files saved to this destination will automatically be removed after 28 days.
 
 ### Amazon / Google
 
 Securely upload files to your AWS S3 or Google Cloud Storage bucket -
 
-**_Important:_** _for these destinations, when providing your authorization credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorization keys._
+**_Important:_** _ for these destinations, when providing your authorisation credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorisation keys.
 
 ### Editing Report Tasks
 
@@ -199,6 +199,9 @@ The interface will show that you are currently editing the task - update any of 
 * Disable the task using the toggle switch
 * Select many tasks and disable or delete them
 * Find that tasks history via the history icon
+
+![](/img/data-transporter7a.png)
+
 
 ## Task History
 
@@ -213,6 +216,7 @@ The HISTORY is also the location where you can find and retrieve reports deliver
 {: .notice}  
 If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
 
+![](/img/data-transporter8a.png)
 
 ## Limitations
 
