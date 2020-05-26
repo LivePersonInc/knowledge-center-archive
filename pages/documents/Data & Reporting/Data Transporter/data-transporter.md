@@ -12,13 +12,13 @@ date: '2019-03-27T11:28:04.000+00:00'
 redirect_from:
   - data-reporting-data-transporter-user-guide.html
 ---
-The Data Transporter application connects you with LiveEngage report exports from the suite of LiveEngage Data APIs, enabling users to benefit from the power and agility of the LiveEngage open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
+The Data Transporter application connects you with Conversational Cloud report exports from the suite of Conversational Cloud Data APIs, enabling users to benefit from the power and agility of the Conversational Cloud open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
 
 Data Transporter allows you to:
 
-* Connect to multiple LiveEngage account API data sources
+* Connect to multiple Conversational Cloud account API data sources
 * Choose from a rich catalogue of raw data or formatted report exports
-* Schedule exports from each LiveEngage data source
+* Schedule exports from each Conversational Cloud data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
 
 ![](/img/datatransporter1.png)
@@ -43,7 +43,7 @@ Once your account is enabled, you can begin by logging in via https://transporte
 * Enter Username
 * Enter Password
 
-3\. Multi-factor authentication is disabled by default; please see the configuration guide to enable.
+3\. Multi-factor authentication is disabled by default; please see the [configuration guide]https://knowledge.liveperson.com/security-regulations-login-multi-factor-authentication-user-manual.html to enable.
 
 ## Getting Started in Data Transporter
 
@@ -63,7 +63,7 @@ HISTORY: view or download completed reports from your destinations
 
 REPORTS: view and select available business or integration type reports
 
-CONVERSATIONAL CLOUD: setup your LiveEngage source authorisation
+CONVERSATIONAL CLOUD: setup your source authorisation
 
 SFTP/AMAZON/GOOGLE: setup your report destination authorisation
 
@@ -97,12 +97,11 @@ Once your keys are generated, your Public Key will be saved to your account, and
   * GPG Tools / GPG Suite (Mac OSX) (free)
   * GPG4Win (Windows) (free)
 
-## Connecting to LiveEngage
+## Connecting to the Conversation Cloud
 
 ### API Key Setup
 
-To extract report data from LiveEngage, Transporter requires that you configure a set of API keys from the LiveEngage console and enter them into Transporter in the Conversational Cloud section.
-
+To extract report data from Conversational Cloud, Transporter requires that you configure a set of API keys from the Conversational Cloud console and enter them into Transporter in the CONVERSATIONAL CLOUD section.
 When configuring API keys from the Conversational Cloud Console, ensure the following APIs are checked after key creation:
 
 * Data: Data Access API, Engagement History / Messaging Interactions, Operational Realtime / Messaging Operations
@@ -110,9 +109,9 @@ When configuring API keys from the Conversational Cloud Console, ensure the foll
 
 ### Data Transporter Authorization
 
-Once you have created your keys, enter them into Transporter via the Conversational Cloud section and click create. Your API keys will be encrypted and stored securely.
+Once you have created your keys, enter them into Transporter via the Conversational Cloud section and click create.  Your API keys will be encrypted and stored securely.
 
-After verifying your keys are valid, you will see the LiveEngage setting appear in the table below - it is now ready for use as your source when you configure your first report.
+After verifying your keys are valid, you will see the Conversational Cloud setting appear in the table below - it is now ready for use as your source when you configure your first report.
 
 ![](/img/data-transporter5.png)
 
@@ -201,7 +200,6 @@ The interface will show that you are currently editing the task - update any of 
 * Find that tasks history via the history icon
 
 ![](/img/data-transporter7a.png)
-
 
 ## Task History
 
