@@ -12,12 +12,23 @@ date: '2020-05-27'
 
 ---
 
-These release notes include new features arriving to LiveEngage during May 2020. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
+These release notes include new features arriving to LiveEngage during June 2020. Exact delivery dates may vary, and brands may therefore not have immediate access to all features on the date of publication.
 
 Please contact your LivePerson account team for the exact dates on which you will have access to the features.
 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
+## Conversation Builder - An enhanced Dialog Editor
+### Type: Enhancement 
+
+Conversation Builder is introducing a redesigned Dialog Editor based on customer feedback. The changes to the Dialog Editor will make it faster and easier to build bots by introducing:
+
+* A scalable user interface for easily managing a large number of dialogs
+* A self-guided interface for creating “custom rules” (formerly known as Response Match & Action sets) without coding
+
+All of the changes are backwards compatible. When we release the redesigned user interface, you won’t need to make any changes to port your existing implementations.
+For more information, check out [this article](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-coming-soon-to-the-conversation-builder.html) that highlights the key changes.
 
 ## Data Transporter available to all
 ### Enhancement
