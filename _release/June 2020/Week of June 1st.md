@@ -5,7 +5,7 @@ subCategoryName: Web messaging
 indicator: both
 subtitle: ''
 level3: ''
-permalink: release-notes-2020-may-week-of-june-1st.html
+permalink: release-notes-2020-june-week-of-june-1st.html
 isTutorial: false
 isNew: false
 date: '2020-05-27'
@@ -22,6 +22,43 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## Conversation Builder - An enhanced Dialog Editor
 ### Type: Enhancement 
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 Conversation Builder is introducing a redesigned Dialog Editor based on customer feedback. The changes to the Dialog Editor will make it faster and easier to build bots by introducing:
 
 * A scalable user interface for easily managing a large number of dialogs
@@ -30,8 +67,46 @@ Conversation Builder is introducing a redesigned Dialog Editor based on customer
 All of the changes are backwards compatible. When we release the redesigned user interface, you won’t need to make any changes to port your existing implementations.
 For more information, check out [this article](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-coming-soon-to-the-conversation-builder.html) that highlights the key changes.
 
+
 ## Data Transporter available to all
 ### Enhancement
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Data Transporter is now generally available and with this release comes some new features and enhancements, including:
 
@@ -55,6 +130,8 @@ Messaging Interactions reports 11101, 11201 and Engagement History reports 21201
 Messaging Interactions reports 11202, 11203, 11204 and Engagement History reports 21202 have a limit of 10,000 interactions per file - tasks that exceed 10,000 interactions will be split into files by 10,000
   
 For more information on the Data Transporter, please see the [user guide](https://knowledge.liveperson.com/data-reporting-analytics-data-transporter-user-guide.html)
+
+![](img/datatransporter1.png)
 
 ## Public APIs 
 ### Type: New feature
