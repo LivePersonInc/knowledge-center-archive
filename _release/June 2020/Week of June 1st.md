@@ -115,19 +115,15 @@ Data Transporter is now generally available and with this release comes some new
 **Beautification:** new dark and light theme aligned to all Conversational Cloud services (change theme in the ACCOUNT page)
 SFTP via SSH Key: SFTP delivery now supports transmission using SSH Key authentication - setup via SFTP page and check the “Enable SSH Authentication” option.
 
-**Messaging Content:** new content to retrieve options are now available for the Messaging Interactions (raw) report (ID 11101)
+**Messaging Content:** new content to retrieve options are now available for the Messaging Interactions (raw) report (ID 11101).
 
-**Multi-factor auth:** MFA is now disabled by default - to enable multi-factor authentication, visit the official guide
+**Multi-factor auth:** MFA is now disabled by default - to enable multi-factor authentication, visit the official guide.
 
 #### How to enable
-Enabled by default for all Data Transporter customers
+Enabled by default for all Data Transporter customers.
 
 #### Dependencies
-Must be a Data Transporter customer - contact your account manager for details and pricing
-
-#### Limitations
-Messaging Interactions reports 11101, 11201 and Engagement History reports 21201 have a limit of 20,000 interactions per file - tasks that exceed 20,000 interactions will be split into files by 20,000
-Messaging Interactions reports 11202, 11203, 11204 and Engagement History reports 21202 have a limit of 10,000 interactions per file - tasks that exceed 10,000 interactions will be split into files by 10,000
+Must be a Data Transporter customer - contact your account manager for details and pricing.
   
 For more information on the Data Transporter, please see the [user guide](https://knowledge.liveperson.com/data-reporting-analytics-data-transporter-user-guide.html)
 
