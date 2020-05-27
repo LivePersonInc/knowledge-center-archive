@@ -130,7 +130,7 @@ For more information on the Data Transporter, please see the [user guide](https:
 ![](img/datatransporter1.png)
 
 ## Public APIs 
-### Type: New feature
+### Type: New feature (Bot Connectors 2.19)
 
 Public APIs on our connector will allow brands to build automations where the bot pro-actively takes commands on conversations instead of just reacting to customer messages. This feature will allow users to send following commands to an ongoing conversation:
 - Send messages of all supported types like Text, Structured/Rich Content etc
