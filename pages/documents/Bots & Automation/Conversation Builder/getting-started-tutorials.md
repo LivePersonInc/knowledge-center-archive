@@ -17,7 +17,7 @@ For in-depth information on the topics covered in these tutorial videos, check o
 
 ## Dialogs and Patterns
 
-Learn how to get started with some very basic bots. This tutorials explores the concept of [dialogs](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#dialogs--patterns-tutorial) (the different conversation flows a bot can have) and [patterns](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#dialogs--patterns-tutorial), which allow the bot to match user input and respond intelligently!
+Learn how to get started with some very basic bots. This tutorial explores the concept of [dialogs](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#dialogs--patterns-tutorial) (the different conversation flows a bot can have) and [patterns](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#dialogs--patterns-tutorial), which allow the bot to match user input and respond intelligently!
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321978379" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
