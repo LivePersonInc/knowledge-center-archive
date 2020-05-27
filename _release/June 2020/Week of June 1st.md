@@ -124,6 +124,11 @@ Enabled by default for all Data Transporter customers.
 
 #### Dependencies
 Must be a Data Transporter customer - contact your account manager for details and pricing.
+
+#### Limitations
+Messaging Interactions reports inc. Conversations flat file and Conversations raw output and Engagement History reports inc. Chats flat file and Chats raw output, all have a limit of 20,000 interactions per file - tasks that exceed 20,000 interactions will be split into files by 20,000
+
+Messaging Interactions reports inc. Messages flat file, Engagement attributes flat file, Survey flat file, and Engagement History reports inc. Transcript flat files, all have a limit of 10,000 interactions per file - tasks that exceed 10,000 interactions will be split into files by 10,000.
   
 For more information on the Data Transporter, please see the [user guide](https://knowledge.liveperson.com/data-reporting-analytics-data-transporter-user-guide.html)
 
