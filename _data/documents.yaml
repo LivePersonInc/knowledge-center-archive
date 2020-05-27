@@ -342,6 +342,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: April what's new
     - subcategoryname: January 2020
 
 - categoryname: Release notes
@@ -350,6 +351,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:  
+        - pagename: June
+          level3:
+            - level3name: Week of June 1st
         - pagename: May
           level3:
             - level3name: Week of May 4th
