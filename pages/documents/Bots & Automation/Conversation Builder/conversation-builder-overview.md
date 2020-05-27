@@ -15,7 +15,7 @@ redirect_from:
 
 ---
 {: .notice}
-To access Conversation Builder, click the **Manage conversational AI and bots** icon on the left side of the Conversational Cloud screen. Then, in the Conversational AI dashboard that appears, click **Conversation Builder**.
+To access Conversation Builder, click the **Manage conversational AI and bots** icon on the left side of the LiveEngage screen. Then, in the Conversational AI dashboard that appears, click **Conversation Builder**.
 
 ### Why brands need bots, automation and empowered agents
 
