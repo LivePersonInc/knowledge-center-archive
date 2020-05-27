@@ -18,7 +18,7 @@ Create a "Hello World" bot using Conversation Builder.
 
 ## Step 1: Log in and access Conversation Builder
 
-1. Log in to [Conversational Cloud](https://authentication.liveperson.net/).
+1. Log into [LiveEngage](https://authentication.liveperson.net/).
 2. On the left sidebar, click the bot icon ("Manage conversational AI and bots").
 3. In the Conversational AI dashboard, click **Conversation Builder**.
 
@@ -62,13 +62,13 @@ Create a "Hello World" bot using Conversation Builder.
 1. Open the Preview window like you did before, and start a new session by clicking **Reset Session** in the upper-right corner.
 2. Enter “aloha.” You will see that the bot responds to this new greeting with "Hello World!"
 
-## Step 4: Connect your bot to Conversational Cloud
+## Step 4: Connect your bot to LiveEngage
 
 ### Create the skill and user agent
 
 In this step, you create a user agent for the bot. The user agent will have an assigned skill, which you'll create first.
 
-1. On the left sidebar in Conversational Cloud, click the user icon ("Manage users and skills").
+1. On the left sidebar in LiveEngage, click the user icon ("Manage users and skills").
 
 2. Click the **Skills** tab, and then click **Add skill** at the bottom of the page.
 
@@ -181,7 +181,7 @@ Next, you use Conversation Builder to connect your bot to the bot agent you just
 
 * **[Extended Getting Started tutorial](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)**: Expand the capabilities of your bot using intents and integrations. Learn how to transfer a bot conversation to a live agent.
 
-* **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases including Routing, FAQ, Lead Generation and Order Status.
+* **[Bot templates](https://developers.liveperson.com/conversation-builder-bot-templates-overview.html)**: Reference bots for common use cases, such as Routing, FAQ, Lead Generation and Order Status.
 
 * **[Intent Builder](https://developers.liveperson.com/intent-builder-overview.html)**: Learn about intents, how to build new ones and how to incorporate them into your bot.
 
