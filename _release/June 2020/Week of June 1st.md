@@ -23,10 +23,14 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Enhancement
 
 Data Transporter is now generally available and with this release comes some new features and enhancements, including:
+
 **General Availability status** the beta status has lifted and beta agreement removed from the login flow.
+
 **Beautification:** new dark and light theme aligned to all Conversational Cloud services (change theme in the ACCOUNT page)
-SFTP via SSH Key: SFTP delivery now supports transmission using SSH Key authentication - setup via SFTP page and check the “Enable SSH Authentication” option
+SFTP via SSH Key: SFTP delivery now supports transmission using SSH Key authentication - setup via SFTP page and check the “Enable SSH Authentication” option.
+
 **Messaging Content:** new content to retrieve options are now available for the Messaging Interactions (raw) report (ID 11101)
+
 **Multi-factor auth:** MFA is now disabled by default - to enable multi-factor authentication, visit the official guide
 
 #### How to enable
