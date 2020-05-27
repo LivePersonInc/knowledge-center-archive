@@ -44,3 +44,13 @@ Messaging Interactions reports 11101, 11201 and Engagement History reports 21201
 Messaging Interactions reports 11202, 11203, 11204 and Engagement History reports 21202 have a limit of 10,000 interactions per file - tasks that exceed 10,000 interactions will be split into files by 10,000
   
 For more information on the Data Transporter, please see the [user guide](https://knowledge.liveperson.com/data-reporting-analytics-data-transporter-user-guide.html)
+
+## Public APIs 
+### Type: New feature
+
+Public APIs on our connector will allow brands to build automations where the bot pro-actively takes commands on conversations instead of just reacting to customer messages. This feature will allow users to send following commands to an ongoing conversation:
+- Send messages of all supported types like Text, Structured/Rich Content etc
+- Transfer a conversation to a skill 
+- Close the conversation
+- Set time to response indicator (only supported for the messaging conversations)
+- Set the valid sdes for a given and valid conversation (only supported for the messaging conversations)
