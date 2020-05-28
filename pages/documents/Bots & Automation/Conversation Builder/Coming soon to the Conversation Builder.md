@@ -52,7 +52,7 @@ After:
 
 NLU Assist will now be called Assist. It will remain right where you’ve always found it (just to the right of the selected interaction), but we’re enhancing its functionality to make it easier for you to find the best intent to associate with the dialog starter.
 
-Currently, the sample text that you enter directly onto the dialog starter tile is used by NLU Assist to suggest an intent to associate. Coming soon, you no longer have to provide this sample text, and no suggestion will be offered. Instead, you’ll be able to use the Assist window to explicitly search for the intent you want to associate. Since often the suggestion that’s offered is one of several that can match, performing an explicit search for the desired intent ensures that you can select the best one from all available choices.
+Currently, the sample user message that you enter directly onto the dialog starter tile is used by Assist to suggest an intent to associate. Coming soon, you no longer enter this message on the tile. Instead, you’ll be able to explicitly perform a search to find the intent. Simply enter a user message or a training phrase in the Search box that's provided, and Assist will return a list of suggested, available intents.
 
 Before:
 <img style="width:900px" src="img/CSCB20.png">
