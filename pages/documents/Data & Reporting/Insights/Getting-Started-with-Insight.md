@@ -38,26 +38,23 @@ To get started, click on the Dashboard tab to start creating a dashboard or to v
 ![](img/insights_1.png)
 
 ## Glossary
-| Term | Definition |
-| ------------- | ------------- |
-| Bigram | A pair of grammatically related words found in the text |
-| Buzzwords | Pairs of related words found in the text |
-| Consumer Intent | The customer’s goal for his/her interaction with the brand|
-Consumer Journey |The set of experiences a customer has when interacting with a brand
-Conversion|
-| Sale or other brand-defined consumer event (lead generated,
-| CSAT | Customer Satisfaction – a survey score based on question(s) defined by the brand| 
-| Data Stream | Set of transcript data, packaged quarterly or monthly|
-| Emerging Trends | Topics identified by Insights Natural Language Understanding engine.  The widget may also include date trends for the topics| 
-| ETL | Export, Transform and Load – the process Insights uses to make copies of transcripts, format them and store them in the Insights database |
-| KPI Key Performance Indicators – metrics identified by a brand as important business drivers| 
-| NLU | Natural Language Understanding – Insights underlying technology used to review your chats or messages to identify conversation topics | 
-| NPS Net Promoter Score – a loyalty measurement designed to identify consumer loyalty.  It compares the percentage of customers who are considered Promoters (high survey scores) with those considered Detractors (low survey scores)| 
-| Semantic Topic| A small set of word pairs (bigrams) that frequently occur together. |
-| Sentiment |  Tone, as identified by Insights Natural Language Understanding engine. |
-| Sparkline | A graphical depiction of the volume of mentions of the word pair over time|
-| Taxonomy | Topics categorized by – hierarchical list of industry-specific conversation topics, curated by human analysts|
-| Unstructured Data Data type including text and geolocational (place)|
-| Verbatim | Conversation text that may be grouped by speaker (customer, agent, bot) or source|
-| Widget | Individual data visualizations on an Insights dashboard |
+* Bigram -  A pair of grammatically related words found in the text 
+* Buzzwords - Pairs of related words found in the text 
+* Consumer Intent - The customer’s goal for his/her interaction with the brand
+Consumer Journey - The set of experiences a customer has when interacting with a brand
+Conversion Sale or other brand - defined consumer event (lead generated,
+* CSAT - Customer Satisfaction – a survey score based on question(s) defined by the brand 
+* Data Stream - Set of transcript data, packaged quarterly or monthly
+* Emerging Trends - Topics identified by Insights Natural Language Understanding engine.  The widget may also include date trends for the topics 
+* ETL - Export, Transform and Load – the process Insights uses to make copies of transcripts, format them and store them in the Insights database 
+* KPI Key Performance Indicators – metrics identified by a brand as important business drivers 
+* NLU - Natural Language Understanding – Insights underlying technology used to review your chats or messages to identify conversation topics  
+* NPS Net Promoter Score – a loyalty measurement designed to identify consumer loyalty.  It compares the percentage of customers who are considered Promoters (high survey scores) with those considered Detractors (low survey scores) 
+* Semantic Topic -  A small set of word pairs (bigrams) that frequently occur together. 
+* Sentiment - Tone, as identified by Insights Natural Language Understanding engine. 
+* Sparkline - A graphical depiction of the volume of mentions of the word pair over time
+* Taxonomy -  Topics categorized by – hierarchical list of industry-specific conversation topics, curated by human analysts 
+* Unstructured Data Data type including text and geolocational (place)
+* Verbatim - Conversation text that may be grouped by speaker (customer, agent, bot) or source
+* Widget - Individual data visualizations on an Insights dashboard 
 
