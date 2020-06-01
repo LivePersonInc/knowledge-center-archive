@@ -71,7 +71,7 @@ A new additional tooltip was added to the enhanced Agent Workspace, for the last
 ## [Enhanced Agent Workspace] Remove history from transcript per skill 
 ### Type: Enhancement (NAW 1.13)
 
-A new request has been added by one of our customers, allowing them to remove the history from the transcript in the enhanced Agent Workspace transcript area, per skill. This will allow this brand to control the conversations this skill can see due to regulation requests. 
+An update has been made allowing users to remove the history from the transcript in the enhanced Agent Workspace transcript area, per skill. This will allow brands to control the conversations this skill can see due to regulation requests. 
 
 ## [Enhanced Agent Workspace] Bot Escalation Summary widget view fix 
 ### Type: Bug fix (NAW 1.13)
