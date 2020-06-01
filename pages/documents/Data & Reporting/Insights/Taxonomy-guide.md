@@ -13,9 +13,9 @@ date: '2020-06-01'
 
 ## Taxonomy overview
 Taxonomies are used to group and organize the topics in your transcript data. Once these groups are created in Insights, you can leverage their organizational structure to filter and create different views of your dashboard. These topic views will allow you to track your conversational data over time, and also to answer ad hoc questions that may arise in your business. 
-There are two main types of data in your Insights program, structured (grouping conversations based upon the structured data associated with them) and unstructured (grouping conversations based upon what is discussed in them) . 
-Creating a taxonomy
+There are two main types of data in your Insights program, structured (grouping conversations based upon the structured data associated with them) and unstructured (grouping conversations based upon what is discussed in them). 
 
+## Creating a taxonomy
 Note: You may find it helpful to first run an NLU ( also known as machine learning is designed to automatically analyze large textual datasets and discover topics and themes.)  model against the verbatim type that you wish to create a taxonomy for. This will allow you to understand the types of words and phrases that appear in the verbatim before actually modeling. It is helpful in terms of identifying areas that you may want to focus your attention in creating taxonomy categories. 
 
 1. Go to the advanced menu and click on taxonomies.
@@ -92,44 +92,49 @@ Run. This option allows you to run your rules against a sample of actual data.
 - Click next
 ![](img/Taxonomy-insights-11.png)
 - Choose text field. This will either be customer or agent verbatim and then choose it as text field. 
+![](img/Taxonomy-insights-12.png)
 - Click the “text” option, and it will show up to the right as an Assigned Field
+![](img/Taxonomy-insights-13.png)
 - Any sentences that match the rules from the sample drawn will show up on the next screen. The results are a sample. 
+![](img/Taxonomy-insights-14.png)
 
 ## Deploying a taxonomy to a dashboard
 Up to this point, you have created a taxonomy, but have not yet applied it to a dashboard. 
 In order to apply it to a dashboard, you will have to open a dashboard that contains the stream you want to classify against. 
-- Click on the data stack icon on the left-hand side of your dashboard and then the 3 dots 
+- Click on the data stack icon on the left-hand side of your dashboard and then the 3 dots.
 - Click on Edit
 - Select Deploy New Model 
+![](img/Taxonomy-insights-15.png)
 
 ## Choose Taxonomy Analysis
-
-Choose the field from the left hand side that you want to process rules against, and select it as your text field. You will need to choose either agent, customer or bot verbatim.  Click next.
+- Choose the field from the left hand side that you want to process rules against, and select it as your text field. You will need to choose either agent, customer or bot verbatim.  Click next.
+![](img/Taxonomy-insights-16.png)
 Click the blue + button to select the taxonomy  to use:
+![](img/Taxonomy-insights-17.png)
+- Select  taxonomy from this list and click apply
+- Name taxonomy and click submit
+- Once model starts processing, it will say “1 model processing”
 
-Select  taxonomy from this list and click apply
-Name taxonomy and click submit
-
-Once model starts processing, it will say “1 model processing”
-
-Making incremental changes to your taxonomies
+## Making incremental changes to your taxonomies
 If a model was already deployed, but incremental changes need to be made, you can do so by opening your taxonomy from the advanced menu and making your changes. There are two ways to reprocess a taxonomy:
-Method 1:  Once you have made your changes and click save, you will be shown this pop up menu, which shows all of the analyses that the taxonomy was used in, it is a good rule of thumb to reprocess against all data streams that you are currently using regularly. Once you select reprocess and the system queues up the reprocess function, you will see the green check. 
+### Method 1:
+Once you have made your changes and click save, you will be shown this pop up menu, which shows all of the analyses that the taxonomy was used in, it is a good rule of thumb to reprocess against all data streams that you are currently using regularly. Once you select reprocess and the system queues up the reprocess function, you will see the green check. 
+![](img/Taxonomy-insights-18.png)
 
-### Method 2: Go to the dashboard you want to implement change. On the left side you will see an orange pencil. Orange pencil means that a model needs to be reprocessed
- 
-Click on the orange pencil and find the model that needs to be reprocessed and click “Reprocess”
+### Method 2: 
+- Go to the dashboard you want to implement change. On the left side you will see an orange pencil. Orange pencil means that a model needs to be reprocessed.
+- Click on the orange pencil and find the model that needs to be reprocessed and click “Reprocess”
+![](img/Taxonomy-insights-19.png)
+- Click “Reprocess” again
+**Best practice:** close the dashboard and come back later to check if it is done. Time will vary by the size of the project. 
 
-Click “Reprocess” again
-Best practice: close the dashboard and come back later to check if it is done. Time will vary by the size of the project. 
-
-How to edit a taxonomy whilst having the Unsupervised NLU Model open:
+## How to edit a taxonomy whilst having the Unsupervised NLU Model open:
 It is helpful to use Unsupervised NLU model to tune your models. The word cloud in NLU can show common word themes that either customer, agent or bot uses. 
-Go to the top left side and choose Tools
-Choose Taxonomy
-
-You will see a list of taxonomies that either you created or it was shared with you
-
-Select the taxonomy to edit 
-You can now see the dashboard and taxonomy side by side. You can filter in your dashboard and edit taxonomy at the same time. By looking at the word cloud, it can show some of the themes that you would want to add. You can either edit an existing node or add a new node in the model. 
-
+- Go to the top left side and choose Tools
+- Choose Taxonomy
+![](img/Taxonomy-insights-20.png)
+- You will see a list of taxonomies that either you created or it was shared with you
+![](img/Taxonomy-insights-21.png)
+- Select the taxonomy to edit 
+- You can now see the dashboard and taxonomy side by side. You can filter in your dashboard and edit taxonomy at the same time. By looking at the word cloud, it can show some of the themes that you would want to add. You can either edit an existing node or add a new node in the model. 
+![](img/Taxonomy-insights-22.png)
