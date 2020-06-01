@@ -59,7 +59,7 @@ Conversion Sale or other brand - defined consumer event (lead generated,
 * Widget - Individual data visualizations on an Insights dashboard 
 
 ## Use Case Examples
-### What are the top ConversationTopics?
+### What are the top Conversation Topics?
 1. Navigate to the Consumer tab on the dashboard
 2. Locate the Customer Topics Widget 
 3. This widget shows all Customer Chat topics, number and proportion of records and associated metrics (e.g. CSAT)
