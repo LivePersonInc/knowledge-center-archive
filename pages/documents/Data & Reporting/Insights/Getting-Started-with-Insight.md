@@ -58,3 +58,37 @@ Conversion Sale or other brand - defined consumer event (lead generated,
 * Verbatim - Conversation text that may be grouped by speaker (customer, agent, bot) or source
 * Widget - Individual data visualizations on an Insights dashboard 
 
+## Use Case Examples
+### What are the top ConversationTopics?
+1. Navigate to the Consumer tab on the dashboard
+2. Locate the Customer Topics Widget 
+3. This widget shows all Customer Chat topics, number and proportion of records and associated metrics (e.g. CSAT)
+4. Clicking on the sort arrows next to proportion of records allows you to view the list in descending order, showing the Topics in order of volume
+
+![](img/insights-usecase-1.png)
+
+### Which topics don’t perform as well as others?
+1. Repeat the above process to view the Top Topics
+2. Click on the Overview tab to find your Average metric scores (e.g., CSAT)
+3. Within the Customer Topics widget within the Consumer Tab, you can view which Top Topics have scores above / below the average
+4. In the example below we can see that Fees, Making Payments and Login Issues all perform less well than the average CSAT Score (4.36)
+![](img/insights-usecase-2.png)
+
+### Who are the top and bottom performing agents?
+
+1. Repeat the above process to find your Average metric scores (eg CSAT)
+2. Navigate to the Agent Tab on the dashboard
+3. Within the Agents widget within the Agent Tab, you can view which Agents have scores above / below the average
+4. In the example below you can see that Chris T (4.671) has the highest average CSAT score, whilst Mark B (4.277) is the only agent in the Top 10 with a CSAT score below average (4.36)
+![](img/insights-usecase-3.png)
+5. By filtering on specific topics (by clicking on a topic in the Consumer Topic widget as above) you can further drill down into the types of conversations that are resulting in higher or lower Agent CSAT scores
+6. To see Conversation Examples, look at the chat examples widget. Click on example boxes to reveal the full transcript
+
+### How to filter by bot and view topics that the bot is handling
+1. Apply a BOT Filter to the dashboard by selecting the relevant Agent(s) or Skill(s) according to your brand
+a) To Select an individual Agent, click the agent name on the Agent Widget
+![](img/insights-usecase-4.png)
+b) To Select an individual Skill, click the Skill name on the Skill Widget
+![](img/insights-usecase-5.png)
+c) To Select multiple Agents (e.g. Angela and Anita) or Skills in a filter, refer to the Filter guide [here](data-reporting-insights-filtering.html)
+2. Follow the above processes to identify the top topics and which topics are performing better than others.
