@@ -92,3 +92,73 @@ b) To Select an individual Skill, click the Skill name on the Skill Widget
 ![](img/insights-usecase-5.png)
 c) To Select multiple Agents (e.g. Angela and Anita) or Skills in a filter, refer to the Filter guide [here](data-reporting-insights-filtering.html)
 2. Follow the above processes to identify the top topics and which topics are performing better than others.
+
+### Where are chats/messages initiated from? 
+Using Insights, we have the ability to identify the page a conversation started from for chat or web messaging. 
+
+1. Open dashboard
+2. Most dashboards will have a tab called “Website”. If that tab exists, select it
+![](img/usecases-insights-part2-1.png)
+
+If the tab does not exist, you can create a widget to show where chats are initiated from by: 
+- Click on the + sign on the bottom right corner
+- On the left side there will be a list of attributes and select “start_url” (for chats) and “conversationstartpage” (for web messaging)
+- If you want volume, volume % and any metric you will need to select number of records, proportion of records and any metrics (ie. CSAT, NPS, FCR, duration_min) respectively 
+
+3. The widget will list all the URLs where chats were initiated from 
+Note: the system will only select the first 200 URLs by default
+- If you are looking for more than 200 results then click on the “+” on the bottom right corner and on the bottom page there is a box called “Amount Shown”. You can change the Amount Shown to more or less than 200. Best practice is to show only 200 because the numbers of records for each site does decrease significantly after that.
+- if you increase the amount too much i.e. 500, it will slow down the system because it has to pull many more results. 
+![](img/usecases-insights-part2-2.png)
+![](img/usecases-insights-part2-3.png)
+
+**Start URL/Conversationstartpage:** URL where chats were started
+**Number of records:** number of chats or conversations that were initiated from the URL
+**Proportion of records:** percentage of chats or conversations that were initiated from a specific URL
+**CSAT or any metric:** score customer gave during exit survey
+
+### What did customers chat/message about from a specific URL?
+Looking at the start URL widget, select any URL for analysis by clicking on it. That filter will then apply to the whole dashboard.
+
+Within the customer tab, there are two ways to understand what the customer chatted/messaged about: Unsupervised Machine learning which shows customers’ trends and if the program has one created for the data set then also a customized taxonomy 
+
+#### Customer Machine Learning:
+![](img/usecases-insights-part2-4.png)
+![](img/usecases-insights-part2-5.png)
+
+In the example above, customers mention direct deposit in 527 chats followed by money market in 504 chats. You can filter any of the words in the word cloud or list; that filter will apply across all tabs and widgets.  Machine Learning shows the most commonly paired words that customers use and also an indicator of emerging trends. 
+
+#### Customized Model:
+![](img/usecases-insights-part2-6.png)
+
+To identify pain points, you can look for the chat topics that were below CSAT average or conversations that lasted longer than average. For example, if your overall CSAT average was 4.2 then you can look for topics that were below 4.2; if your average chat duration was 15 minutes then focus on chats that were more than 15 minutes to understand why those topics are lasting so long. 
+
+{: .notice}
+When sorting CSAT, please keep in mind the volume; CSAT might be very high but volume might be low so best practice is to focus on top 20 conversation/chat topics. 
+
+To see chat/conversation examples, look for the conversation example widget. Each box is a conversation/chat and you can see the full conversation by clicking on it. The pop up will have all the structure data and also the full transcript.
+
+![](img/usecases-insights-part2-7.png)
+
+
+### What are the chat/message topics by device type?
+In most dashboards there is an overview tab, and in the tab there is a widget that breaks out device type 
+![](img/usecases-insights-part2-8.png)
+![](img/usecases-insights-part2-9.png)
+
+If the tab does not exist, you can create the widget to show where conversations are initiated from by: 
+- Click on the + sign on the bottom right corner
+- On the left side there will be a list of attributes and select “device_family”
+- If you want volume, volume % and any metric you will need to select number of records, proportion of records and any metric (ie. CSAT, NPS, FCR, duration_min) respectively 
+- First click  on device you want for analysis and the filter will be applied across the whole dashboards and all the widgets
+- Under the “Customer” tab, you will find the Unsupervised Machine Learning and customized Taxonomy. Both views will represent what customers chatted about during a conversation. 
+
+#### Customer Machine Learning:
+![](img/usecases-insights-part2-10.png)
+
+#### Taxonomy: 
+![](img/usecases-insights-part2-11.png)
+
+To perform another device analysis, go to the bottom of the page and hover over device_type and click on x to remove the filter. Go back to the device widget and select another option.
+
+![](img/usecases-insights-part2-12.png)
