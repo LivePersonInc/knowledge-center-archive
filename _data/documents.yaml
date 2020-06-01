@@ -277,6 +277,17 @@
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"
+    - subcategoryname: Insights
+      pages:
+        - pagename: Getting started with Insights
+        - pagename: Insights user guide
+        - pagename: Creating dashboards
+        - pagename: Creating new widgets
+        - pagename: Filtering
+        - pagename: Grouping attributes
+        - pagename: Unsupervised NLU Model
+        - pagename: Taxonomy guide
+        - pagename: Insights FAQs
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
