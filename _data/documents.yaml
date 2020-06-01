@@ -341,7 +341,6 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
-    - subcategoryname: Latest what's new
     - subcategoryname: April what's new
     - subcategoryname: January 2020
 
