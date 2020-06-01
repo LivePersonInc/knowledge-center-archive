@@ -137,7 +137,7 @@ You will test the connection with a standard Messaging engagement, so now you cr
 
 Next, you use Conversation Builder to connect your bot to the bot agent you just created and get the connection running in the Demo environment.
 
-1. Return to Conversation Builder by clicking the **Manage conversation AI and bots** icon on the toolbar on the left.
+1. Return to Conversation Builder by clicking the **Manage conversational AI and bots** icon on the toolbar on the left.
 
     <img style="width:300px" src="img/cb_cb_icon.png">
 
