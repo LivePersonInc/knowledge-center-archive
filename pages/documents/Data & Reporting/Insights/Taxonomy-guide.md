@@ -1,5 +1,5 @@
 ---
-pagename: Taxonomy Guide
+pagename: Taxonomy guide
 categoryName: Data & reporting
 subCategoryName: Insights
 indicator: both
