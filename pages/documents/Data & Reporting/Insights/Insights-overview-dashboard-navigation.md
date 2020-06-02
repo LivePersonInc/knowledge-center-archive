@@ -98,7 +98,7 @@ Clicking on the menu bar in the top right of any widget brings up a menu to Edit
 Please note: If you are designated as a ‘view only’ user, you can add filters and rearrange the views.  However, any changes made to the dashboard will be erased once you exit out of the dashboard. The administrator of the dashboard controls your permissions.
 
 Widget with Open Menu
-![](img/insights--_11.png)
+![](img/insights_11.png)
 
 ### Copying Widgets
 Click Copy from the menu in the top right corner of a widget. Right click anywhere within any tab of the dashboard to paste the copied widget.
