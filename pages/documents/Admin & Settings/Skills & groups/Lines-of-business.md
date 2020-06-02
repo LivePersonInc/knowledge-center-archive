@@ -23,7 +23,7 @@ The following global entities can be shared across the account and its LoBs:
 * Skills
 * Campaign libraries
 * Engagement attributes
-* Predefined content and automatic messages
+* Predefined content and Automatic Messages
 
 In addition, the following dashboards and reports will now reflect LoBs:
 

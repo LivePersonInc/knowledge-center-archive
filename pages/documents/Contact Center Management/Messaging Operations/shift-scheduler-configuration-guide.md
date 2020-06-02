@@ -28,7 +28,7 @@ You may choose from each of the methods above according to your brand’s needs.
 
   ![](/img/shift-scheduler-CG-1.png)
 * **TTR** = Time To Response. This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
-* **ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the automatic messages mechanism.  
+* **ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the Automatic Messages mechanism.  
   ETTR = TTR + SLA.
 
   **For example:**
@@ -61,7 +61,7 @@ The configuration of scheduled [Workdays](https://developers.liveperson.com/work
 
 The expected time to respond is also available for the agent, so it is clear to him when the consumer is expecting his reply.
 
-The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the Conversational Cloud UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.  
+The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the Conversational Cloud UI, for example, working hours during public holidays. The expected behavior on the visitor side as far as Automatic Messages and time to response is exactly the same as Workdays.  
 **Note**: Special occasions do not modify hours of operation defined by Workdays, but instead override them.
 
 **See limitations, clarifications and best practices for** [**working hours management**](contact-center-management-messaging-operations-working-hours-management-best-practices.html)**.**

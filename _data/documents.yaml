@@ -51,10 +51,10 @@
       pages:
         - pagename: Add live chat to your website
         - pagename: Displaying chat engagements
-    - subcategoryname: Proactive messaging
+    - subcategoryname: Proactive Messaging
       pages:
-        - pagename: Proactive messaging overview
-        - pagename: Proactive messaging user guide
+        - pagename: Proactive Messaging overview
+        - pagename: Proactive Messaging user guide
     - subcategoryname: Rich Conversations
       pages:
         - pagename: Rich Conversations overview
@@ -106,10 +106,10 @@
         - pagename: Fallback configuration per skill
         - pagename: Static load balancing
         - pagename: Private Messages overview
-        - pagename: Automatic messages
+        - pagename: Automatic Messages
           level3:
-            - level3name: Automatic messages overview
-            - level3name: Automatic messages configuration
+            - level3name: Automatic Messages overview
+            - level3name: Automatic Messages configuration
             - level3name: Automatic Conversation Distribution
         - pagename: Queue management
           level3:
@@ -349,7 +349,7 @@
   subcategories:
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
-      pages:  
+      pages:
         - pagename: May
           level3:
             - level3name: Week of May 4th
@@ -361,7 +361,7 @@
             - level3name: Week of April 6th
             - level3name: Week of April 13th
             - level3name: Week of April 20th
-            - level3name: Week of April 27th 
+            - level3name: Week of April 27th
         - pagename: March
           level3:
             - level3name: Week of March 23rd
@@ -390,7 +390,7 @@
             - level3name: Week of November 25th
             - level3name: Week of November 18th
 
-       
+
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:

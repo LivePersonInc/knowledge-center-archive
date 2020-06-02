@@ -71,7 +71,7 @@ See the [messaging channels capabilities comparison matrix](messaging-channels-m
 {:start="2"}
 
 1. **Add bots**: Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
-2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’). Customize the text of [automatic messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) to match your brand's look and feels guide.
+2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’). Customize the text of [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) to match your brand's look and feels guide.
 3. **Surveys**: there are two surveys you can set up for Web Messaging: one before a conversation starts and one when a resolution has been achieved.
    * [Routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook) give pre conversation surveys that greet consumers and ask questions to determine what skill (or  bot) the conversation should be routed to.
    * [Post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) - when a conversation is closed or resolved, a survey can be sent out to consumers asking them questions, such as customer satisfaction questions.
@@ -104,7 +104,7 @@ Additional instructions for designing customer experience elements such as [bann
 ## Step 6: Manage the operational elements
 
 1. **Routing**: [routing conversations](contact-center-management-messaging-operations-routing-logic-overview.html) are configured based on a variety of smart factors brands can control. Brands can also leverage LivePerson's [routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook).
-2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
+2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, Automatic Messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
    * [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html) - set up and shifts worked per skill using
    * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 

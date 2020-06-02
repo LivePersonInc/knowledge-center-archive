@@ -148,7 +148,7 @@ Conditions:
 
 ### Cause
 
-1. The customer disabled automatic messages for a period of time, either in the past or currently.
+1. The customer disabled Automatic Messages for a period of time, either in the past or currently.
 2. The agent manager set the account’s Off hours in the Shift status to the wrong time period.
 
    {: .notice}  
@@ -156,5 +156,5 @@ Conditions:
 
 ### Solution
 
-1. Ensure that automatic messages are not disabled
+1. Ensure that Automatic Messages are not disabled
 2. For more information about shift settings, see [configuring response times for messaging conversations](contact-center-management-messaging-operations-configuring-response-times.html)

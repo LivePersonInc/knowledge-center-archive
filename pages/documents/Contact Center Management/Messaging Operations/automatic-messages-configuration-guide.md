@@ -34,7 +34,7 @@ Automatic messages require enablement. Please contact your LivePerson account te
 {: .notice}
 When auto messages are enabled, they are all enabled by default and all have the default text. It is advised to review them immediately and modify them to suit your brand needs.
 
-## Customizing automatic messages
+## Customizing Automatic Messages
 
 LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
 
@@ -143,9 +143,9 @@ If you wish to disable the message for some skills but not for others, select th
 * If the brand is using an SDK with version earlier than 2.8, or if the consumer did not update his app to the latest version, the existing SLA toaster will appear on the consumer side.
 * Language of the conversation is determined at the beginning of the conversation. E.g. if the agent starts a conversation on web, with a French engagements, and continues the conversation in-app when the phone’s language is English, the auto messages will appear in French.
 
-## Supported automatic messages
+## Supported Automatic Messages
 
-The following list sets out the default automatic messages for messaging in LivePerson. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
+The following list sets out the default Automatic Messages for messaging in LivePerson. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
 
 ### New conversations
 
@@ -228,7 +228,7 @@ To ensure account level KPIs are not deviated from by system activity, the follo
 
 ## Best practices
 
-* It is recommended to keep automatic messages short for better readability
+* It is recommended to keep Automatic Messages short for better readability
 * When messaging on channels such as SMS, Google and Facebook, LivePerson cannot control the look and feel of the messages, and auto messages will appear as agent messages. There are 2 options to solve this:
 * Create a dedicated skill for these channels and add a prefix for these messages such as “This is an automatic message:”
 * Add wording to the message that will make it clear (e.g. “Info: <auto message>”)

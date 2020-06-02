@@ -1,5 +1,5 @@
 ---
-pagename: Proactive messaging overview
+pagename: Proactive Messaging overview
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
@@ -30,7 +30,7 @@ Don’t make your consumers call and wait on hold to get support or information.
 
 The Conversational Cloud is the industry’s leading conversation management platform. It offers a single place to manage inbound and outbound messages from every channel, and layers in powerful chatbots for better consumer experiences and lower operational costs. The Conversational Cloud connects to back-end systems like CRMs, so that brands can easily manage marketing, sales, and customer care KPIs for proactive campaigns while getting a complete view of the entire consumer journey.
 
-## Proactive messaging capabilities
+## Proactive Messaging capabilities
 
 * Create targeted outbound campaigns and route consumer responses into the LivePerson Agent Workspace, where conversations can be handled by humans, automation (using our built-in Conversation Builder) or a tango of both.
 * When a consumer responds, the agent or bot who receives the response message will also have context of the outbound message that was sent to the customer for a more streamlined experience.

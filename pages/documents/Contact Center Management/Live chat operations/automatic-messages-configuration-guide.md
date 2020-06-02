@@ -20,7 +20,7 @@ Automatic messages are messages that are presented automatically in the Engageme
 
 ![](/img/automatic-messages-chat-1b.png)
 
-## Configuration: Customize automatic messages for chat
+## Configuration: Customize Automatic Messages for chat
 
 LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
 
@@ -88,9 +88,9 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 
 ![](/img/automatic-messages-chat-9b.png)
 
-## Available automatic messages for chat
+## Available Automatic Messages for chat
 
-The following list sets out the default automatic messages in the Conversational Cloud, divided into 3 groups: system messages, non-responsive messages and on-hold messages. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
+The following list sets out the default Automatic Messages in the Conversational Cloud, divided into 3 groups: system messages, non-responsive messages and on-hold messages. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
 
 ### System messages
 
@@ -127,7 +127,7 @@ When the consumer does not respond for a specified amount of time, two messages 
 
 ### On-hold messages
 
-Three default automatic messages are displayed to consumers when the agent does not respond for a specified amount of time. These ‘on-hold’ messages are selected randomly while ensuring that the consumer will never receive the same message more than twice in a row. The **Timeout** is the number of seconds that the consumer will wait for an agent’s reply before the first on-hold message is sent.
+Three default Automatic Messages are displayed to consumers when the agent does not respond for a specified amount of time. These ‘on-hold’ messages are selected randomly while ensuring that the consumer will never receive the same message more than twice in a row. The **Timeout** is the number of seconds that the consumer will wait for an agent’s reply before the first on-hold message is sent.
 
 | Message name in the Agent Workspace | Default text | Available dynamic text | Timeout | Can be disabled? |
 | --- | --- | --- | --- | --- |

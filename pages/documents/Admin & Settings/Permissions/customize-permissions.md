@@ -168,7 +168,7 @@ The following core permissions are included with the campaign manager role and c
 | Edit campaigns | Create and modify campaigns | On |
 | Publish campaigns | Control the publishing of campaigns | On |
 | Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
-| Configure automatic messages | Add and edit Automatic Messages in the Agent Workspace | On |
+| Configure Automatic Messages | Add and edit Automatic Messages in the Agent Workspace | On |
 | Configure engagement attributes | Add and edit Engagement Attributes used in campaigns | On |
 | Import and export predefined content | Import and export Predefined Content to and from Conversational Cloud | On |
 | Export predefined content | Export Predefined Content from Conversational Cloud | On |

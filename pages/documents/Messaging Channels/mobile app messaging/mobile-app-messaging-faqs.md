@@ -60,7 +60,7 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: Are automated messages available?
 
-**A:** Yes. Brands can configure automatic messages that display to consumers during a conversation based on different triggers and actions.  For more info, [refer here.](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html)
+**A:** Yes. Brands can configure Automatic Messages that display to consumers during a conversation based on different triggers and actions.  For more info, [refer here.](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html)
 
 ### Q: What visitor information can LivePerson messaging track?
 

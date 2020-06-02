@@ -1,7 +1,7 @@
 ---
-pagename: Proactive messaging user guide
+pagename: Proactive Messaging user guide
 categoryName: Messaging channels
-subCategoryName: Proactive messaging
+subCategoryName: Proactive Messaging
 indicator: messaging
 subtitle: ''
 level3: ''
@@ -12,10 +12,10 @@ isNew: false
 ---
 LivePersons Proactive Messaging tool allows brands to engage in two-way conversations with their consumers by creating targeted outbound campaigns using rich channels. Consumer responses are routed into the LivePerson Agent Workspace, where conversations can be handled by humans, automation, or a mix of both.
 
-Proactive messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
+Proactive Messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
 ## Permissions
-Only the Conversational Cloud administrators and campaign manager profiles have access to Proactive messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and WhatsApp).
+Only the Conversational Cloud administrators and campaign manager profiles have access to Proactive Messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and WhatsApp).
 
 ## Login and access
 Brands can access the Proactive Messaging tool from within the Conversational Cloud via the Quick Launch menu.
@@ -70,7 +70,7 @@ To create a new proactive campaign, users can click on New Campaign on the landi
 
 * **From number**  - Select the number you would like to send the outbound message from. If the brand onboards more than one number to the channel i.e. Twilio SMS or WhatsApp, this is where they can select the number they would like to use.
 
-* **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside the Conversational Cloud. Currently, not all skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive messaging when setting up will appear will appear
+* **Route to skill** - Select the skill which the consumer responses should be routed to. These are skills created inside the Conversational Cloud. Currently, not all skills will appear here. Only the skills that brands have specifically requested to be onboarded for Proactive Messaging when setting up will appear will appear
 
 {: .notice}
 Users can search for the skill in the dropdown. If the brand is onboarded to Proactive 2.0 then all the Conversational Cloud skills should appear in the drop down. If the skill is not listed, it is likely that you are using Proactive 1.0 and you should contact your LivePerson account team to have it added manually.

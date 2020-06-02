@@ -26,7 +26,7 @@ WhatsApp is popular in 104 countries around the world, making it an excellent ch
 
 * **Consumer-preferred channel** — With 1.5 billion users globally, WhatsApp is the most popular messaging app in the world.
 
-* [**Rich Conversations**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Conversation capabilities like audio, file and image sharing, rich links, location and contact sharing, automatic messages, and read receipts provide an enhanced messaging experience with more flexibility.
+* [**Rich Conversations**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Conversation capabilities like audio, file and image sharing, rich links, location and contact sharing, Automatic Messages, and read receipts provide an enhanced messaging experience with more flexibility.
 
 * **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and an official business account designation to provide your consumers with confidence that they are messaging with the right brand.
 
