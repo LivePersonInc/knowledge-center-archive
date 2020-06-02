@@ -12,65 +12,38 @@ date: '2019-03-27T11:28:04.000+00:00'
 redirect_from:
   - data-reporting-data-transporter-user-guide.html
 ---
-The Data Transporter application connects you with the Conversational Cloud report exports from the suite of LivePerson Data APIs, enabling users to benefit from the power and agility of the Conversational Cloud open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
+The Data Transporter application connects you with Conversational Cloud report exports from the suite of Conversational Cloud Data APIs, enabling users to benefit from the power and agility of the Conversational Cloud open platform without the need to develop on top of our API based sources. Brands can now integrate with internal systems and reporting tools on recurrent schedules with greater ease and speed.
 
 Data Transporter allows you to:
 
-* Connect to multiple LivePerson Conversational Cloud account API data sources
+* Connect to multiple Conversational Cloud account API data sources
 * Choose from a rich catalogue of raw data or formatted report exports
-* Schedule exports from each data source
+* Schedule exports from each Conversational Cloud data source
 * Securely deliver your exports to: LP Cloud, Amazon S3, Google Cloud, and SFTP
 
-![](/img/data-transporter1.png)
+![](/img/datatransporter1.png)
 
 **Notes:**
 
-* Data Transporter is currently a Beta feature - users must agree to our Data Application Beta terms of use upon login
-* Login to Data Transporter requires:
-
-1. Feature access by request (see your account manager)
-2. A valid Conversational Cloud username and password (Admins only)
-3. Two-factor authentication with an authenticator application
-
+* Login to Data Transporter requires feature access by request (see your account manager for pricing)
 * Amount of scheduled tasks are limited per account
-* Single sign-on not currently supported
-
-{: .notice}  
-Be aware that some elements and usability may change as we finalize this feature. Customers must agree to the terms of use after login.
 
 ## How to access Data Transporter
 
 Access to Data Transporter is strictly by request - speak to your account manager to discuss pricing and enablement.
 
-Once your account is enabled, you can begin by logging into the Alpha environment via [https://transporter.liveperson.net](https://transporter.liveperson.net "https://transporter.liveperson.net")
+Once your account is enabled, you can begin by logging in via https://transporter.liveperson.net/login 
 
 ### Login Page
 
 1\. Enter your Account Number (click Sign in)
 
-2\. Then enter your LivePerson User credentials
+2\. You will be taken to the Conversational Cloud login screen
 
-* Conversational Cloud Username
-* Conversational Cloud Password
+* Enter Username
+* Enter Password
 
-Note that logging into Data Transporter will terminate any existing Conversational Cloud sessions - however, you can login to the Conversational Cloud after logging into Transporter without disrupting your Transporter session.
-
-### Two-factor Authentication
-
-For security reasons and to protect your data privacy, Data Transporter also requires mandatory login verification via Two-factor Authentication
-
-![](/img/data-transporter2.png)
-
-If this is the first time you are logging in, you will need to enroll - simply download an Authenticator application, such as:
-
-\- Google Authenticator
-
-* Authy
-* 1Password
-* LastPass Authenticator
-* Okta
-
-Once you have scanned your unique QR code with your device, enter the 6 digit verification code to continue. On subsequent logins, you will be prompted to enter a new 6 digit code as shown on your devices Authenticator Application - _do not lose your 2FA token._
+3\. Multi-factor authentication is disabled by default; please see the [configuration guide]https://knowledge.liveperson.com/security-regulations-login-multi-factor-authentication-user-manual.html to enable.
 
 ## Getting Started in Data Transporter
 
@@ -78,7 +51,7 @@ Once you have scanned your unique QR code with your device, enter the 6 digit ve
 
 ## Task Manager
 
-The TASKS page will show each task you have configured in Transporter - if this is your first time logging in, no tasks will have yet been configured.
+The TASKS page will show each task you have configured in Data Transporter - if this is your first time logging in, no tasks will have yet been configured.
 
 On the left-hand side is the navigation and alerts menu.
 
@@ -90,9 +63,9 @@ HISTORY: view or download completed reports from your destinations
 
 REPORTS: view and select available business or integration type reports
 
-CONVERSATIONAL CLOUD: setup your Conversational Cloud source authorization
+CONVERSATIONAL CLOUD: setup your source authorisation
 
-SFTP/AMAZON/GOOGLE: setup your report destination authorization
+SFTP/AMAZON/GOOGLE: setup your report destination authorisation
 
 ACCOUNT: configure your timezone and set your encryption keys
 
@@ -102,18 +75,19 @@ Upon first use, please use the ALERTS notifications to navigate to each relevant
 
 1. Choose a timezone - this setting will ensure all scheduled reports and times will appear relative to your selected timezone
 2. Setup encryption - for security reasons, Data Transporter encrypts all reports before transmission to your selected destination - as such, encryption must be activated by generating a Public/Private key-pair (or bring your own) - see encryption section
-3. Setup the Conversational Cloud - to get started, make sure you have authorized at least 1 LivePerson Conversational Cloud account source - you can retrieve an API key from the LivePerson console (speak to your account manager, or visit the connection panel if you’re not sure how)
+3. Setup Conversational Cloud - to get started, make sure you have authorised at least 1 account data source via secure API keys - you can retrieve an API key from the Conversational Cloud console [Campaigns >> Data Sources] (speak to your account manager, or visit the connection panel if you’re not sure how)
 
 ## Encryption
 
-For security and data protection, all reports shall be encrypted - Data Transporter supports PGP/GPG based encryption which conforms to the OpenPGP standard.
-
-To get started with Encryption, you must first generate a Public and Private key-pair (PGP based) via the ACCOUNT section in Transporter - alternatively, if you have your own Public and Private keys (PGP based), you can provide these instead.
-
-Once your keys are generated, your Public Key will be saved to your account, and you will be prompted to securely store your Private Key and Passphrase (these will not be saved)
+For security and data protection, all reports are encrypted - Data Transporter supports PGP/GPG based encryption which conforms to the OpenPGP standard.
+To get started with Encryption, you must first generate a Public and Private key-pair (PGP based) via the ACCOUNT section in Transporter and then in the ENCRYPTION tab - alternatively, if you have your own Public (PGP based), you can provide this instead.
+To generate a Public Key and Private Key pair, please enter a Passphrase and click Generate New Keys
+Once your keys are generated, your Public Key will be saved to your account, and you will be prompted to securely store your Private Key and Passphrase (these will not be saved).
 
 {: .notice}  
-**_Important:_** _if you do not save your Private Key and/or Passphrase offline, you will not be able to decrypt your completed reports - use GPG Suite or GPG4Win_
+**_Important:_** if you do not save your Private Key and/or Passphrase offline, you will not be able to decrypt your completed reports - use GPG Suite or GPG4Win
+
+![](/img/data-transporter3a.png)
 
 **Notes about Encryption:**
 
@@ -123,22 +97,19 @@ Once your keys are generated, your Public Key will be saved to your account, and
   * GPG Tools / GPG Suite (Mac OSX) (free)
   * GPG4Win (Windows) (free)
 
-![](/img/data-transporter4.png)
-
-## Connecting to the Conversational Cloud
+## Connecting to the Conversation Cloud
 
 ### API Key Setup
 
-To extract report data from the Conversational Cloud, Transporter requires that you configure a set of API keys from the LivePerson console and enter them into Transporter in the Conversational Cloud section.
+To extract report data from Conversational Cloud, Transporter requires that you configure a set of API keys from the Conversational Cloud console and enter them into Transporter in the CONVERSATIONAL CLOUD section.
+When configuring API keys from the Conversational Cloud Console, ensure the following APIs are checked after key creation:
 
-When configuring API keys from the LivePerson Console, ensure the following APIs are checked after key creation:
-
-* Data: Data Access API, Conversation History / Messaging Interactions, Operational Realtime / Messaging Operations
+* Data: Data Access API, Engagement History / Messaging Interactions, Operational Realtime / Messaging Operations
 * Administration: Users, Skills, Agent Groups
 
 ### Data Transporter Authorization
 
-Once you have created your keys, enter them into Transporter via the CONVERSATIONAL CLOUD section and click create. Your API keys will be encrypted and stored securely.
+Once you have created your keys, enter them into Transporter via the Conversational Cloud section and click create.  Your API keys will be encrypted and stored securely.
 
 After verifying your keys are valid, you will see the Conversational Cloud setting appear in the table below - it is now ready for use as your source when you configure your first report.
 
@@ -148,17 +119,21 @@ After verifying your keys are valid, you will see the Conversational Cloud setti
 
 ### Available Reports
 
-From the REPORTS section, select a report from the available catalogue. You can choose from:
+From the REPORTS section, select a report from the available catalogue.  You can choose from:
 
-1. Messaging Reports
-2. Chat Reports
-3. Admin Reports
+   1. Messaging Reports
+   2. Chat Reports
+   3. Admin Reports
 
 Messaging and Chat reports are broken down into the following categories:
 
-1. **Business Reports**: these are reports that have been formatted in some way to be more immediately useful for business use-cases, such as for import into Excel or other reporting tools that accept flat-file structures
-2. **Historical Data Integration**: these are reports based on Conversation History / Messaging Interactions and provide a raw feed of the source data (in JSON format)
-3. **Real-time Data Integration**: these are reports based on the Operational Realtime / Messaging Operations APIs and provide a raw feed of the source data (in JSON format)
+HISTORICAL BUSINESS REPORTS: these are reports that have been formatted to be more immediately useful for business use-cases, such as for import into Excel or other reporting tools that accept flat-file structures
+
+HISTORICAL RAW DATA: these are reports based on Engagement History / Messaging Interactions APIs and provide a raw feed of the source data (in JSON format)
+
+WORKFORCE MANAGEMENT BUSINESS REPORTS: these are workforce management oriented reports that have been formatted for simple ingestion into business WFM tools
+
+WORKFORCE MANAGEMENT RAW DATA: these are reports based on the Operational Realtime / Messaging Operations APIs and provide a raw feed of the source data (in JSON format)
 
 Admin type reports can provide a recurrent list of Skills, Agents and Agent Groups.
 
@@ -168,7 +143,7 @@ In the future, additional reports will be added - have an idea for a report? [Le
 
 ### Report Catalogue
 
-For detailed information about the report data sources, visitor our [Developer Community](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
+For detailed information about the report data sources, visitor our [Dev Center](https://developers.liveperson.com) - the following reports are available via Data Transporter out of the box:
 
 ![](/img/data-transporter7.png)
 
@@ -184,7 +159,7 @@ After selecting a report, you will need to configure the following report option
   * For interval, also choose the time frequency to run _(timeframe will include the same amount of time as the time frequency selected)_
 * Delay: in some cases, API source data may be delayed in its completeness - where data completeness is strictly important, choose an option to delay the report from executing. For example, you may select:
   * Daily at 12:00am with a delay of 6 hours: In this case, your report will run at 6am each day and include the data from 12:00am to 11:59pm of the previous day
-* Conversational Cloud: the data source
+* Conversational Cloud: the Conversational Cloud data source 
 * Destination: See below
 
 For some reports, you may also have the option to select additional report parameters - if this option exists, it will be presented to you on the report creation screen.
@@ -194,7 +169,7 @@ After all options are completed, you can click Create task to save the task - it
 ### Task Destinations
 
 1. **LP Cloud** - secure storage on LP servers (provided for you)
-2. **SFTP** - securely deliver to your own SFTP server (you provide restricted user/pass)
+2. **SFTP** - securely deliver to your own SFTP server (you provide restricted username/password or username/SSH Key)
 3. **Amazon** - AWS S3 bucket storage (you provide IAM keys)
 4. **Google** - Google Cloud Storage (you provide IAM keys)
 
@@ -204,13 +179,13 @@ This option allows you to securely save files to your own SFTP server having pro
 
 ### LP Cloud
 
-This option allows you to securely save files to our existing LP servers - to retrieve files saved here, you must login to Transporter and download the completed reports from the HISTORY section - files saved to this destination will automatically be removed after 15 days.
+This option allows you to securely save files to our existing LP servers - to retrieve files saved here, you must login to Transporter and download the completed reports from the HISTORY section - files saved to this destination will automatically be removed after 28 days.
 
 ### Amazon / Google
 
 Securely upload files to your AWS S3 or Google Cloud Storage bucket -
 
-**_Important:_** _for these destinations, when providing your authorization credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorization keys._
+**_Important:_** _ for these destinations, when providing your authorisation credentials in the relevant section of Transporter, LivePerson strongly recommends to use IAM (Identity & Access Management) based authorisation keys.
 
 ### Editing Report Tasks
 
@@ -223,6 +198,8 @@ The interface will show that you are currently editing the task - update any of 
 * Disable the task using the toggle switch
 * Select many tasks and disable or delete them
 * Find that tasks history via the history icon
+
+![](/img/data-transporter7a.png)
 
 ## Task History
 
@@ -237,8 +214,13 @@ The HISTORY is also the location where you can find and retrieve reports deliver
 {: .notice}  
 If you see a lock next to the download icon, this means you have not entered and verified your Private Key during this browsing session. Whilst your Private Key is not needed to download the encrypted file, if it is not provided, then after download, the file will not be decrypted and you will need to decrypt it yourself.
 
+![](/img/data-transporter8a.png)
 
 ## Limitations
 
-1. Files sent to Amazon, Google, or SFTP will be encrypted - it is up to the user to decrypt these files with their Private Key (there are many options to decrypt using PGP/GPG software)
-2. Each account is limited by a maximum number of tasks - speak to your account manager to discuss task limitation options
+1. All delivered files will be encrypted - it is up to the user to decrypt these files with their Private Key (there are many options to decrypt using PGP/GPG software; see ENCRYPTION section of this guide)
+2. Each account is limited by a maximum number of tasks - speak to your account manager to discuss task limitation options.
+3. From time to time, new LP APIs or new features in existing LP APIs become available - these new APIs or features may not be immediately available via Data Transporter.  Contact us to request enhancements.
+4. Some non-standard text characters (long-hyphen, back-tick, etc) may not be correctly decoded with UTF-8 resulting in, for example, results such as â€" instead of long-hyphen –
+5. Reports from the Data Transporter catalogue cannot be modified other than the options revealed during Task configuration.  Reports are designed to provide as much of the data available as possible for brands to then disseminate appropriately.  Feature requests are regularly considered and incorporated into future versions of existing reports, or new reports entirely.
+6. Brands that select the “latest“ version of any given report agree that the report may change from time-to-time with either enhancements or fixes.
