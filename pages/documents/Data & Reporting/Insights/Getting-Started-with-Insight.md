@@ -24,13 +24,13 @@ When you log in, you will see several tabs on the right:
 - Dashboard: shows all the dashboards that you created or dashboards that have been shared with you
 - Data Streams: raw data file; you will only see them if they been shared with you
 
-Advanced: 
+**Advanced:** 
 - Taxonomies - you will see all the taxonomies you created and the ones shared with you
 - Sentiment - you can tune the sentiment score for words
 - Stopwords - you can add words that you want to discard from machine learning word cloud
 - Chinese tokens - Provide a set of chinese words that you want the system to process together as one word
 
-Groups: you can create groups if you want to a particular set of users to have only certain access
+**Groups:** you can create groups if you want to a particular set of users to have only certain access
 Notifications: shows details of changes made in dashboards 
 
 To get started, click on the Dashboard tab to start creating a dashboard or to view existing dashboards shared with you. 
@@ -68,10 +68,12 @@ Conversion Sale or other brand - defined consumer event (lead generated,
 ![](img/insights-usecase-1.png)
 
 ### Which topics don’t perform as well as others?
+
 1. Repeat the above process to view the Top Topics
 2. Click on the Overview tab to find your Average metric scores (e.g., CSAT)
 3. Within the Customer Topics widget within the Consumer Tab, you can view which Top Topics have scores above / below the average
 4. In the example below we can see that Fees, Making Payments and Login Issues all perform less well than the average CSAT Score (4.36)
+
 ![](img/insights-usecase-2.png)
 
 ### Who are the top and bottom performing agents?
@@ -85,15 +87,16 @@ Conversion Sale or other brand - defined consumer event (lead generated,
 6. To see Conversation Examples, look at the chat examples widget. Click on example boxes to reveal the full transcript
 
 ### How to filter by bot and view topics that the bot is handling
-1. Apply a BOT Filter to the dashboard by selecting the relevant Agent(s) or Skill(s) according to your brand
-a) To Select an individual Agent, click the agent name on the Agent Widget
+Apply a BOT Filter to the dashboard by selecting the relevant Agent(s) or Skill(s) according to your brand
+ - To Select an individual Agent, click the agent name on the Agent Widget
 ![](img/insights-usecase-4.png)
-b) To Select an individual Skill, click the Skill name on the Skill Widget
+ - To Select an individual Skill, click the Skill name on the Skill Widget
 ![](img/insights-usecase-5.png)
-c) To Select multiple Agents (e.g. Angela and Anita) or Skills in a filter, refer to the Filter guide [here](data-reporting-insights-filtering.html)
-2. Follow the above processes to identify the top topics and which topics are performing better than others.
+ - To Select multiple Agents (e.g. Angela and Anita) or Skills in a filter, refer to the Filter guide [here](data-reporting-insights-filtering.html)
+Follow the above processes to identify the top topics and which topics are performing better than others.
 
 ### Where are chats/messages initiated from? 
+
 Using Insights, we have the ability to identify the page a conversation started from for chat or web messaging. 
 
 1. Open dashboard
@@ -139,7 +142,6 @@ When sorting CSAT, please keep in mind the volume; CSAT might be very high but v
 To see chat/conversation examples, look for the conversation example widget. Each box is a conversation/chat and you can see the full conversation by clicking on it. The pop up will have all the structure data and also the full transcript.
 
 ![](img/usecases-insights-part2-7.png)
-
 
 ### What are the chat/message topics by device type?
 In most dashboards there is an overview tab, and in the tab there is a widget that breaks out device type 
