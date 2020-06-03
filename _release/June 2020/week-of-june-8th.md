@@ -124,3 +124,23 @@ Revenue achieved after exposure, where exposure and purchase event occur in the 
 
 Business dashboard for Messaging was showing incorrect revenue values (for example Total revenue after engagement) and data was not consistent (ir decreased) for the same dates when running a couple days later. This issue has now been resolved.
 
+## New field in API - Add nickname field to getUserProfile/setUserProfile API
+### Type: Enhancement (UMS 3.26)
+
+Possibility to populate the nick name when setting up User Profile. 
+This is available without any configuration. You need to add the nickname field to setUserProfile payload in order to submit the data.
+
+## Send push notification about the secure form submission
+### Type: Enhancement (UMS 3.26)
+
+This enhancement is relevant to those who are using the Agent App and enables agents to receive push notification when a consumer submits a secure form. To configure, please contact your LivePerson account team.
+
+## Allow AgentManager to transfer / close conversation without joining.
+### Type: Enhancement (UMS 3.26)
+This feature allows agents with privilege of AGENT_JOIN_AS_MANAGER (privilege Id #13) to do actions without joining conversation such as transfer conversation or close conversation   
+How to configure: Feature flag needs to be turned on. Please contact your account manager for more details.
+
+## Rollover - allow to agent from rollover account to Query Messages
+### Type: Enhancement (UMS 3.26)
+Allows the agent from the rollover account to get a transcript of the conversation from the owner’s account. 
+This is availabe for customers for whom rollover is enabled for the Brand.
