@@ -149,4 +149,53 @@ This is availabe for customers for whom rollover is enabled for the Brand.
 ### Type: New feature (Denver 5.16)
 
 This update includes the EngagementId and ChatId in the payload of the Chat Post Survey invocation that is made to FaaS.
- 
+
+## GBM, RCS, and LINE Conversation Sources
+### Type: Enhancement (LE UI 11.9)
+
+New conversation sources were added for LINE and RCS (Rich Communication Services) with a link to their respective onboarding forms. Existing conversation sources like WhatsApp Business and GBM (Google Business Messaging) were updated so that they link to their own onboarding forms. This will allow a better and more streamlined onboarding experience for all these solutions.
+
+![](img/week-of-june-8th-1.png)
+
+![](img/week-of-june-8th-2.png)
+
+## Load balancing for messaging - Redistribute the load to connected agent groups
+### Type: Enhancement (LE UI 11.9) 
+
+Messaging Advanced load distribution is a routing capability that allows brands to define how the messaging load gets distributed between different agent groups. This kind of capability is a necessity for brands that outsource their messaging operations and must meet clear contractual obligations as to which vendor handles which percentage of the total brand messaging traffic. It allows the brand to define that a specific agent group is correlated with a specific vendor and define, per skill, the way that the load will be distributed between the agent groups.
+
+This phase of the feature looks to address cases where the contact center is offline. The new enhancement is able to automatically apply a new load balancing scheme which is based on the skill load balancing configuration as well as the current online state of the rest of the defined agent groups. The new load balancing will reroute both incoming conversations as well as conversations that are already in the queue and were not yet assigned to a human agent, to the rest of the online contact centers.
+
+In order to prevent contact center attribution issues, conversations that were already assigned to a human agent within one contact center will not get redistributed to other contact centers within the span of a single conversation. Such conversations will remain assigned to the contact center that handled them first.
+
+Example:
+* Skill A is defined to load balance with the percentages:
+ * Contact center 1 - 50% of the load
+ * Contact center 2 - 30% of the load
+ * Contact center 3 - 20% of the load
+* Contact center 1 goes offline at 8 PM while contact centers 2 and 3 go offline an hour later (different time zones)
+* At 8PM the new incoming conversations as well as conversations that were waiting for contact center 1 and were not yet assigned to a human agent to be distributed to contact centers 2 and 3 based on the respective ratios:
+ * Contact center 1 - offline
+ * Contact center 2 - 30/50 = 60% of the load
+ * Contact center 3 - 20/50 = 40% of the load
+* Once contact center 1 reopens the load will automatically rebalance again
+
+{: .notice}
+This feature has backend dependencies. Please contact your LivePerson representative for more information. 
+
+**How to enable**
+A checkbox was added to the Advanced load distribution section in LiveEngage under the skill settings. Once the “Redistribute load when agents are not connected” checkbox is marked, the new enhancement is effective.
+
+![](img/week-of-june-8th-3.png)
+
+## Disable authentication within the Connection Panel
+### Type: Bug fix (LE UI 11.9) 
+
+A bug has been found within the Connection panel after an upgrade to the latest UI version, we added the option for users to be authenticated when using the feedback bot, which caused a bug. The bug caused the Connection Panel authentication to stop working for some accounts/users. This means that the accounts can't open new conversations from the connection panel. The bug has been fixed and we reverted the changes, so the feedback bot will only be unauthenticated again when we are able to implement a better solution.
+
+## Distorted info tooltip icon under Edit skill
+### Type: Bug fix (LE UI 11.9) 
+
+A visual bug was found and fixed where an info tooltip icon got distorted when working in dark mode. This bug has been resolved. 
+
+![](img/week-of-june-8th-4.png)
