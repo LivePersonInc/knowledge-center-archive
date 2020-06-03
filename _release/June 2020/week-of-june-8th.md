@@ -144,3 +144,9 @@ How to configure: Feature flag needs to be turned on. Please contact your accoun
 ### Type: Enhancement (UMS 3.26)
 Allows the agent from the rollover account to get a transcript of the conversation from the owner’s account. 
 This is availabe for customers for whom rollover is enabled for the Brand.
+
+## FaaS Chat Post Survey: Include Engagement ID/ChatId in payload 
+### Type: New feature (Denver 5.16)
+
+This update includes the EngagementId and ChatId in the payload of the Chat Post Survey invocation that is made to FaaS.
+ 
