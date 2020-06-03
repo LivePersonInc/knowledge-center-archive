@@ -19,6 +19,22 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Private Messages for messaging
+### Type: New functionality 
+
+A new capability is now supported in the enhanced Agent Workspace for messaging - the ability to send private messages to all conversation participants, except for the consumer. This capability will enable managers to guide agents during active conversations, while agents will be able to ask managers for directions and clarifications.
+Private messages will not affect the conversation’s SLA, intensity (active/inactive status), and it will not reset the auto-close timer. This feature is enabled by default. 
+
+**Limitations**
+* Private messages are not available to bot agents at the moment, only to human agents.
+* Private messages will not show a notification to the agent near the module icon, or on top of the conversation line in the My Connections panel (unlike regular messages).
+
+Image 1: A new private message action is available within the action menu
+![](img/week-of-june-8th-5.png)
+
+Image 2: A private message displayed within the conversation area, with a “PRIVATE” badge.
+![](img/week-of-june-8th-6.png)
+
 ## Analyze Web Sales conversions with Control Group and Self Service group. 
 ### Type: Enhancement (Report Builder 4.5)
 
