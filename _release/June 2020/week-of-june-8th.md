@@ -35,7 +35,7 @@ Image 1: A new private message action is available within the action menu
 Image 2: A private message displayed within the conversation area, with a “PRIVATE” badge.
 ![](img/week-of-june-8th-6.png)
 
-## Analyze Web Sales conversions with Control Group and Self Service group. 
+## Analyze Web Sales conversions with Control Group and Self Service group
 ### Type: Enhancement (Report Builder 4.5)
 
 <div class="tablecontainer">
