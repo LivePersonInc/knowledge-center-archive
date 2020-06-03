@@ -168,16 +168,16 @@ This phase of the feature looks to address cases where the contact center is off
 
 In order to prevent contact center attribution issues, conversations that were already assigned to a human agent within one contact center will not get redistributed to other contact centers within the span of a single conversation. Such conversations will remain assigned to the contact center that handled them first.
 
-Example:
+**Example:**
 * Skill A is defined to load balance with the percentages:
- * Contact center 1 - 50% of the load
- * Contact center 2 - 30% of the load
- * Contact center 3 - 20% of the load
+  * Contact center 1 - 50% of the load
+  * Contact center 2 - 30% of the load
+  * Contact center 3 - 20% of the load
 * Contact center 1 goes offline at 8 PM while contact centers 2 and 3 go offline an hour later (different time zones)
 * At 8PM the new incoming conversations as well as conversations that were waiting for contact center 1 and were not yet assigned to a human agent to be distributed to contact centers 2 and 3 based on the respective ratios:
- * Contact center 1 - offline
- * Contact center 2 - 30/50 = 60% of the load
- * Contact center 3 - 20/50 = 40% of the load
+  * Contact center 1 - offline
+  * Contact center 2 - 30/50 = 60% of the load
+  * Contact center 3 - 20/50 = 40% of the load
 * Once contact center 1 reopens the load will automatically rebalance again
 
 {: .notice}
