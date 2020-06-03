@@ -199,7 +199,7 @@ In order to prevent contact center attribution issues, conversations that were a
 {: .notice}
 This feature has backend dependencies. Please contact your LivePerson representative for more information. 
 
-**How to enable**
+**How to enable:**
 A checkbox was added to the Advanced load distribution section in LiveEngage under the skill settings. Once the “Redistribute load when agents are not connected” checkbox is marked, the new enhancement is effective.
 
 ![](img/week-of-june-8th-3.png)
