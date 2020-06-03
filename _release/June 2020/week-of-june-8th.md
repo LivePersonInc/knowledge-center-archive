@@ -171,16 +171,12 @@ This update includes the EngagementId and ChatId in the payload of the Chat Post
 ### Type: Enhancements (UMS 3.27)
 
 **Metrics & visualizations:** various metrics and visualization tools that describe information relative to performance and status of the rate-limiting mechanism within the back-end messaging server are avaialable.
+
 **Feature flags:** Shadow mode available (where rate-limiting activity is being recorded, but not actively enforced) and enforcement mode (where rate-limiting activity is being both recorded and enforced). Includes feature flags to disable the old rate limiting library.
+
 **Updated Response Code:** Includes a response code change when encountering too many requests from 503 to 429, which more accurately describes the nature of the error response.
+
 **Configuration server integration:** Includes functionality within the back-end messaging code that communicates with the standalone configuration server and maps configurations retrieved to rate-limiting behaviors.
- 
-## Improvements to UMS 3.27
-### Type: Enhancement
-Imrpovements include: 
-- It's possible to send GenerateReadOTK and GenerateWriteOTK requests using SendAPI. 
-- Change configuration to limit the number of concurrent consumer connections for any UMS Brand.
-- The current configuration for number of concurrent consumer connections allowed is too high at 20K, Reducing it to 8K, to avoid connection problems. 
 
 ## GBM, RCS, and LINE Conversation Sources
 ### Type: Enhancement (LE UI 11.9)
