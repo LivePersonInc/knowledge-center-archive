@@ -277,6 +277,17 @@
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"
+    - subcategoryname: Insights
+      pages:
+        - pagename: Getting started with Insights
+        - pagename: Insights user guide
+        - pagename: Creating dashboards
+        - pagename: Creating new widgets
+        - pagename: Filtering
+        - pagename: Grouping attributes
+        - pagename: Unsupervised NLU Model
+        - pagename: Taxonomy guide
+        - pagename: Insights FAQs
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
@@ -341,7 +352,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
-    - subcategoryname: Latest what's new
+    - subcategoryname: April what's new
     - subcategoryname: January 2020
 
 - categoryname: Release notes
@@ -350,11 +361,16 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:  
+        - pagename: June
+          level3:
+            - level3name: Week of June 1st
+            - level3name: Week of June 8th
         - pagename: May
           level3:
             - level3name: Week of May 4th
             - level3name: Week of May 11th
             - level3name: Week of May 18th
+            - level3name: Week of May 25th
         - pagename: April
           level3:
             - level3name: Week of April 1st
