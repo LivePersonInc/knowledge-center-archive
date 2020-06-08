@@ -9,7 +9,9 @@ permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-works
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
-
+redirect_from:
+  - messaging-managers-new-agent-manager-experience.html
+  
 ---
 
 For messaging managers that are using the new manager workspace, it is also recommended to use the enhanced agent workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
@@ -205,7 +207,7 @@ To monitor and manage chat agents, use:
 The following are known limitations of the new messaging manager experience:
 
 **Unassigned skills**
-When a conversation has no skill - it is labeled as ‘unassigned skill.’ Conversations that have an ‘unassigned’ skill and are in the queue will not display in the All Connections list or in the Conversation widget.  The only users that can see these conversations are managers who are not assigned to any groups. Unassigned skill conversations will be added to the above mentioned lists in Q4 2019.
+By default, when a conversation has no skill - it is labeled as ‘unassigned skill.’ Conversations that have an ‘unassigned’ skill and are in the queue will not display in the All Connections list or in the Conversation widget. The only users that can see these conversations are managers who are not assigned to any groups. Unassigned skill conversations will be added to the above-mentioned lists in Q4 2020.
 
 **Urgent conversations**
 In the past, consumers were able to mark a conversation as ‘urgent’ and an urgent icon would display to the agents. This capability is no longer supported.

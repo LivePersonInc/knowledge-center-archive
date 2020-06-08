@@ -1,14 +1,15 @@
 ---
-pagename: Agent app user guide
+pagename: iOS user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-app-agent-app-user-guide.html
+permalink: agent-manager-workspace-agent-app-ios-user-guide.html
 isTutorial: false
 isNew: false
 redirect_from: agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
+redirect_from: agent-manager-workspace-agent-app-agent-app-user-guide.html
 
 ---
 The LivePerson Agent app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers. 
@@ -17,8 +18,6 @@ In addition to allowing reps to work remotely, the app also expands opportunitie
 
 Please note that all functionality discussed in this article applies to both the iPad & iPhone.
 
-{: .notice}
-While support for Android is not currently available at this time, it is in development and will be available on Android in the very near future.
 
 ![](https://ce-sr.s3-eu-west-1.amazonaws.com/AWS+APP+(2).gif)
 

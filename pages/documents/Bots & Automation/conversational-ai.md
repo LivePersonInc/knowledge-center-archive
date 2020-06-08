@@ -10,6 +10,8 @@ permalink: ai-bots-automation-conversational-ai.html
 isTutorial: true
 isNew: false
 published: true
+redirect_from:
+  - conversational-ai-new-conversational-ai-experience.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/353759335" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

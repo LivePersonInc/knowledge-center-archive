@@ -77,7 +77,7 @@ The tables below list the browsers LivePerson supports for visitors on desktop w
 | Mozilla Firefox |  | Latest available version (N)* ,  Version N-1 |  |
 
 {: .notice}  
-**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).ביר
+**Please note:** Windows 7 is no longer supported by Microsoft as of January 14, 2020. For more information [click here]( https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 
 ## Visitor side: unsupported browsers
@@ -104,12 +104,12 @@ Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-fo
 
 ### Android
 
-* Android SDK 4.1v \[Includes support for API 19- API 28 (Excludes AndroidX support)  
+* Android SDK v4.4 \[includes support for API 19-28\] (excludes AndroidX support)
+* Android SDK v5.2 \[includes support for API 19-29\] (uses / requires AndroidX)
   **Libraries:**
   1. com.google.android.gms:play-services-maps:16.1.0
   2. com.squareup.okhttp3:okhttp:3.9.1
-* All releases below SDK 4.1v - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
-* Android Q - Need support for AndroidX also. ETA to be planned
+* All releases below SDK v4.4 - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
 
 ### iOS
 

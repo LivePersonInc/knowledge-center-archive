@@ -18,7 +18,7 @@ redirect_from:
 
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self-serve on-boarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
-Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio. 
+Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio. 
 
 ## Step 1: Get an SMS number from Twilio
 

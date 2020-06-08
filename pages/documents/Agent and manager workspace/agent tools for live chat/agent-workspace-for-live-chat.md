@@ -8,7 +8,8 @@ level3: ''
 permalink: agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html
 isTutorial: false
 date: 2019-01-21 12:19:13 +0000
-
+redirect_from:
+  - live-chat-agents-managers-new-navigation-status-button.html
 ---
 ## Login and status
 

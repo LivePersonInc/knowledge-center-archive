@@ -60,6 +60,7 @@ Since every contact center is different, widget reordering allows brands to full
 <li>For changes to the widget order to appear in the workspace while agents are logged in, they will need to refresh the page.</li>
 <li>Any reordering is saved at the account level and is not a site setting.</li>
 <li>New widgets will always be placed in a default location determined by LivePerson. They can subsequently be reordered as needed.</li>
+<li>The user interface will only allow a maximum of 10 custom widgets, for performance and stability purposes. The account will still be able to override this limit using the API, though it is not recommended.</li>
 </ul>
 </div>
 

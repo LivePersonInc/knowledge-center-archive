@@ -27,7 +27,8 @@ The table below outlines all of the data metrics available in the Report Builder
 
 <div id="metrics">
 <input id="metricsSearch" placeholder="Search by Metric or Dashboard" />
-<table class="metricstable" id="datametricstable">
+<div class="tablecontainer containerMetrics" style="transform: rotate(360deg) scaleY(-1); margin-top: 20px;">
+<table class="metricstable" id="datametricstable" style="transform: rotate(360deg) scaleY(-1)">
   <thead>
     <tr>
       <th>Metric</th>
@@ -53,4 +54,5 @@ The table below outlines all of the data metrics available in the Report Builder
   {% endfor %}
 </tbody>
 </table>
+</div>
 </div>

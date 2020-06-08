@@ -14,8 +14,6 @@ date: 2019-01-30 14:43:16 +0000
 ---
 **CoBrowse enables agents to assist visitors with complicated online tasks and processes.** CoBrowse does this by enabling agents and consumers to access and navigate web pages collaboratively, making complex tasks quick and easy to complete. Simple to use and fully personalized, CoBrowse provides secure two-way interactivity, taking the service you provide your consumers to the next level.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238900340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 With CoBrowse, agents and visitors browse a brand's website together. Each can see a virtual mouse cursor of the other, along with illustrations of where they are typing and clicking. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively.
 
 To focus the visitor, the agent can also animate elements on the visitor screen by:

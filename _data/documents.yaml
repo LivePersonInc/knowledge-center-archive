@@ -105,6 +105,7 @@
         - pagename: Configuring response times
         - pagename: Fallback configuration per skill
         - pagename: Static load balancing
+        - pagename: Private Messages overview
         - pagename: Automatic messages
           level3:
             - level3name: Automatic messages overview
@@ -215,7 +216,8 @@
         - pagename: Predefined content best practices
     - subcategoryname: Agent app
       pages:
-        - pagename: Agent app user guide
+        - pagename: iOS user guide
+        - pagename: Android user guide
 - categoryname: "Data & reporting"
   image: data-reporting
   subcategories:
@@ -275,9 +277,21 @@
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"
+    - subcategoryname: Insights
+      pages:
+        - pagename: Getting started with Insights
+        - pagename: Insights user guide
+        - pagename: Creating dashboards
+        - pagename: Creating new widgets
+        - pagename: Filtering
+        - pagename: Grouping attributes
+        - pagename: Unsupervised NLU Model
+        - pagename: Taxonomy guide
+        - pagename: Insights FAQs
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
+    - subcategoryname: Product renaming overview
     - subcategoryname: Advanced security features
     - subcategoryname: Create and manage users
     - subcategoryname: "Skills & groups"
@@ -338,6 +352,7 @@
 - categoryname: "What's new"
   image: whats-new
   subcategories:
+    - subcategoryname: April what's new
     - subcategoryname: January 2020
 
 - categoryname: Release notes
@@ -346,12 +361,23 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:  
+        - pagename: June
+          level3:
+            - level3name: Week of June 1st
+            - level3name: Week of June 8th
+        - pagename: May
+          level3:
+            - level3name: Week of May 4th
+            - level3name: Week of May 11th
+            - level3name: Week of May 18th
+            - level3name: Week of May 25th
         - pagename: April
           level3:
             - level3name: Week of April 1st
             - level3name: Week of April 6th
             - level3name: Week of April 13th
             - level3name: Week of April 20th
+            - level3name: Week of April 27th 
         - pagename: March
           level3:
             - level3name: Week of March 23rd
@@ -379,8 +405,7 @@
           level3:
             - level3name: Week of November 25th
             - level3name: Week of November 18th
-            - level3name: Week of November 11th
-            - level3name: Week of November 4th
+
        
 - categoryname: Troubleshooting
   image: Troubleshooting
@@ -392,7 +417,7 @@
     - subcategoryname: Messaging
       pages:
         - pagename: Set up and management
-        - pagename: Consumer Experience
+        - pagename: Consumer experience
         - pagename: Agent tools
     - subcategoryname: Live chat
     - subcategoryname: Bots

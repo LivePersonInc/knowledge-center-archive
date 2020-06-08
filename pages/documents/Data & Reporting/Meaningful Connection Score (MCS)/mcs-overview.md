@@ -119,7 +119,7 @@ MCSs for messaging conversations are available in Report Builder for brands to f
 
 ## More about MCS
 
-* The MCS is available in English, French, Italian, Japanese, German and soon in Spanish too.
+* MCS is available in English, French, Italian, Japanese, German and Spanish.
 
 In summary, MCS can be:
 

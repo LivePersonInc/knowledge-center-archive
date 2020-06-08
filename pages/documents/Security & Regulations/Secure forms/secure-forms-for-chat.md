@@ -127,7 +127,7 @@ When using secure forms, bear in mind:
 
 ## Setting up secure forms
 
-Secure forms are configured by LivePerson. To enable this feature, please contact LivePerson customer support or your account team. Your LivePerson account team will work with you make the necessary adjustments to your account settings and configurations.
+Secure forms are configured by LivePerson. To enable this feature, please contact LivePerson customer support or your account team. Your LivePerson account team will work with you to make the necessary adjustments to your account settings and configurations.
 
 ### Account setup
 

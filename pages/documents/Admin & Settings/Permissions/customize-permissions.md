@@ -29,7 +29,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 
 Brands are able to create profiles - customized permissions sets within roles. For example, within the Agent role, Senior Agent and Junior Agent profiles can be created, with permission sets enabled or disabled for each profile. For ease and usability, LiveEngage creates a default permission set per role. Brands can customize these sets and also have the option to create new profiles that meet their specific structural business needs.
 
-In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the Appendix.
+In addition to these configurable permission sets, there is a core set of permissions within each role that cannot be disabled. For the full list, refer to the tables below within each role (agent, agent manager, campaign manager & admins).
 
 ## Multiple user roles
 
