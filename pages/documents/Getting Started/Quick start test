@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle:
 level3: ''
-permalink: getting-started-the-liveperson-conversational-cloud-test.html
+permalink: getting-started-quick-start-test.html
 isTutorial: true
 isNew: false
 date: '2019-01-23T13:04:36.000+00:00'
@@ -133,4 +133,3 @@ span.onclick = function() {
 <div class="tags">
 
     </div>
-    
