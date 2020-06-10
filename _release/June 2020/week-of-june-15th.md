@@ -49,4 +49,35 @@ Report builder has been enhanced to use the new SSO infrastructure for enabling 
 
 Following a successful SSO authentication, a GET request is sent to the server with a sensitive token as a parameter (this token creates the Session ID cookie). This token is not one-time-use and can be used again and again within a short time frame of about 1-2 minutes. This has to be manually enabled by LivePerson.
 
+## [Conversational Cloud] Accessibility - A11Y Project
+### Type: Enhancement (NAW 1.14)
 
+LivePerson is working on making brand-facing products accessible according to WCAG 2.1 AA in 2020. This is an ongoing process that will be complete during Q3 and will affect the login pages, the chat workspace, the enhanced Agent Workspace, and more. Within this version, we added the a11y capabilities to various areas within the platform.
+
+![](img/week-of-june-15th-1.png)
+
+## [Enhanced Agent Workspace]  Notification mechanism improvement
+### Type: Enhancement (NAW 1.14)
+
+In the enhanced Agent Workspace, we improved the existing notifications mechanism in two ways: 
+  1. We add a new capability to present notifications for filtered statuses by adding the orange notification icon for both the filter itself and to the left side of the filtered conversations (Please see screenshot below).
+  2.  We are now showing the notification icon even after a refresh and logout and login from the agent. It will allow the user to better understand the existing notifications and act accordingly. 
+
+**Limitations:** Due to a bug with backend dependencies, we are not supporting the notifications for “closed conversations” for now, not in the module notification bubble, the filter icon, or in the conversation preview.
+
+![](img/week-of-june-15th-2.png)
+
+## [Enhanced Agent Workspace] - Agent Workspace Module Widgets
+### Type: Enhancement (NAW 1.14)
+
+An additional module was added to the Enhanced Agent Workspace. The Module Widget is a standalone component that is maintained outside of the enhanced Agent Workspace. It is adding new capability to the enhanced Agent Workspace and has no effect on existing capabilities.
+
+## [Enhanced Agent Workspace] Enhanced Agent Workspace performance fix
+### Type: Enhancement (NAW 1.14)
+
+A new performance fix was added to the enhanced Agent Workspace enabling us to render only relevant components when they change instead of unchanged and irrelevant components.
+
+## [Enhanced Agent Workspace] Improving parser behavior when HTTP(s)/FTP links are sending
+### Type: Bug fix (NAW 1.14)
+
+A bug has been discovered within the enhanced Agent Workspace, which caused Non-HTTP (s)/FTP links to be removed when sending, due to the wrong behavior of the parser. This behavior is now fixed and the bug is now closed.
