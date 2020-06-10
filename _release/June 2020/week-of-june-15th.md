@@ -44,7 +44,7 @@ If you wish to disable, please contact you LivePerson account team.
 ### Type: New functionality (Report Builder 4.6)
 Report builder has been enhanced to use the new SSO infrastructure for enabling multi-factor authentication solutions and OAuth2 SSO to complete the login process.
 
-## Report builder: Sensitive token in URL(SD-860)
+## Report builder: Sensitive token in URL
 ### Type: Bug fix (Report Builder 4.6)
 
 Following a successful SSO authentication, a GET request is sent to the server with a sensitive token as a parameter (this token creates the Session ID cookie). This token is not one-time-use and can be used again and again within a short time frame of about 1-2 minutes. This has to be manually enabled by LivePerson.
