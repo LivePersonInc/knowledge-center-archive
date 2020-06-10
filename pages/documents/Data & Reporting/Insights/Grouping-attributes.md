@@ -75,6 +75,7 @@ Best Practice: Exit out of the dashboard and wait a while before checking the da
 
 ### Method 2: Using Advanced Tab to create stopword list
 1)	Go to Advanced tab
+
 2)	Click on Stopwords
  
 3)	Click on “+” on the bottom right corner
@@ -82,20 +83,22 @@ Best Practice: Exit out of the dashboard and wait a while before checking the da
 4)	Name the group
 
 5)	Click on Add new term to start adding words that need to be trashed
+
 6)	Once done, click save
+
 7) 	Go to the dashboard tab
+
 8) 	Select the dashboard that needs to be analyzed
+
 9) 	Click on the pencil icon on the left side
+
 10)	 Stopwords can be applied against customer or agent machine learning 
 
-
-
 11) 	Choose Add Advanced Options for either customer or agent machine learning
-12) 	Under stopwords category, select Add
 
+12) 	Under stopwords category, select Add
 
 13)	The list created earlier would appear, select the list and then click Apply
  
-
 14)	Click reprocess. Once a word is added to the stopwords and reprocessed, it will no longer show up in the word cloud.
 
