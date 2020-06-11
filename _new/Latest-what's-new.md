@@ -3,7 +3,7 @@ pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Highlights include Rebranding, Data Transporter & more
+subtitle: Highlights include Rebranding to the Conversational Cloud, Developers Center update,  Data Transporter & more
 level3: ''
 permalink: whats-new-latest-whats-new.html
 isTutorial: false
@@ -36,7 +36,7 @@ The survey bot can ask the following:
 
 For more information click [here](https://knowledge.liveperson.com/release-notes-2020-may-week-of-may-18th.html#post-conversation-survey-bots)
 
-## Dev Center
+## Developer Center
 The LivePerson Developers site has received a new look and feel, providing a better experience for new and existing users and enabling them to find content more intuitively.
 
 The Welcome page contains content that helps you learn about the key products and services offered by LivePerson.
