@@ -45,7 +45,7 @@ The Getting Started page takes you through the first steps of creating and setti
 
 The search experience provides a contextual preview. This displays the sentences that contain the keyword being searched and provides users with more information before making a selection.
 
-LivePerson will continue to enhance the  Dev Center to ensure the best user experience for our developers. Check out the Dev Center [here](https://developers.liveperson.com/)
+LivePerson will continue to enhance the  Developer Center to ensure the best user experience for our developers. Check out the Developer Center [here](https://developers.liveperson.com/)
 
 ## Proactive API 2.0
 Proactive Messaging enables brands to proactively send consumers outbound messages on channels such as WhatsApp and respond to consumers who reach out to initiate high-value marketing and customer care conversations. 
