@@ -27,7 +27,7 @@ Brands can now easily mine their conversation data to discover and build new int
 
 In addition to Intent Discovery & Optimization, version 1.3 of Intent Analyzer also improves the information architecture, surfacing new header links for ease of navigation throughout the application, and fixes an issue timezone handling in the date picker
 
-Custom Starter Packs can now be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial initial Intent taxonomy.
+Custom Starter Packs can now be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial Intent taxonomy.
 
 In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
 - Conversation Builder: Administrator
@@ -35,8 +35,7 @@ In order for a brand user to begin reclassifying utterances via the Intent Analy
 - Conversation Builder: Content User
 
 #### How to enable
-Intent Discovery & Optimization is enabled by default for all Intent Analyzer customers.
-If you wish to disable, please contact you LivePerson account team.
+Intent Discovery & Optimization is enabled by default for all Intent Analyzer customers. If you wish to disable, please contact your LivePerson account team.
 
 ![](img/June-15th-RN-1.png)
 
