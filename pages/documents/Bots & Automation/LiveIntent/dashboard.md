@@ -99,13 +99,28 @@ The information architecture has been updated to ease navigation between Intent 
 
 Custom Starter Packs can be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial Intent taxonomy.
 
+### Consumer Experience
+Under Conversation Details in the Intent Analyzer dashboard, users can  go through undefined messages and classify the correct intent or create a new intent.
+
+![](img/Intent-manager-customer-experience1.png)
+
+Brands have the ability to choose to show how many messages they would like to go through (up to 500 messages) to reclassify or create new intents in groups.
+
+![](img/Intent-manager-customer-experience2.png)
+
+To train the model, brands need to update the Intent Builder with the orange button. Once users click the orange button in Intent Analyzer, they will still need to go into Intent Builder to train and activate the model. 
+
+![](img/Intent-manager-customer-experience3.png)
+
+When you create a new intent, a modal will guide you in the creation of the new intent. Currently, you MUST add 20 new utterances for each new intent before you can re-train the domain in Intent Builder.
+
+![](img/Intent-manager-customer-experience4.png)
+
 In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
 
 Conversation Builder: Administrator
 Conversation Builder: Bot Builder
 Conversation Builder: Content User
-
-![](img/June-15th-RN-1.png)
 
 ### Topline Metrics
 
