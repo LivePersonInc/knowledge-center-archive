@@ -90,9 +90,22 @@ Tabular view of all data above, not limited to top or lowest 5 intents.
 
 ## Conversation Details
 
-The converation details view is where you go to dig in to explore the messages and conversations with intent
+The converation details view is where you go to dig in to explore the messages and conversations with intent.
 
-<img class="fancyimage" style="width:750px" src="img/intentanalyzer_conversation-overview.png">
+### Self Service Intent Discovery and Optimization
+The new Self Service Intent Discovery and Optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality.
+
+The information architecture has been updated to ease navigation between Intent Analyzer and Intent Builder. 
+
+Custom Starter Packs can be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial Intent taxonomy.
+
+In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
+
+Conversation Builder: Administrator
+Conversation Builder: Bot Builder
+Conversation Builder: Content User
+
+![](img/June-15th-RN-1.png)
 
 ### Topline Metrics
 
