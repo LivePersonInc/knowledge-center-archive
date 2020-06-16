@@ -99,23 +99,41 @@ The following core permissions are included with the agent role and cannot be di
 
 | Agent permissions | Permission definition | Default State (role) |
 | --- | --- | --- |
-| Join Agents' conversations | Join a conversation handled by another Agent within their Group | Off |
-| View Agents' conversations | View conversations handled by other Agents within their Group | Off |
-| View Agent List | View full list of Agents within their Group | Off |
-| Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
-| Initiate CoBrowse view-only session, with scroll control | Invite consumer to join a CoBrowse session, with the ability to view their screen with scroll control | On |
-| Initiate CoBrowse view-only session | Invite consumer to join a CoBrowse session, with the ability to view their screen | On |
-| Initiate CoBrowse shared control session | Invite consumer to join a CoBrowse session, with the ability to control actions on their screen | On |
-| Initiate voice conversation | Invite consumer to join a voice conversation | On |
-| Initiate live video | Invite consumer to join a live video session | On |
-| Handle messaging conversations | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations | On |
-| Handle messaging conversations and access All Conversations List | For brands who have enabled the Messaging feature, this permission allows an agent to handle messaging conversations and view all resolved conversations handled by agents | On |
-| Set manual SLA | Allows agents to manually configure the response time in a conversation | On |
-| View Connection Area | View relevant content from the Connection Area per journey | On |
-| Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
-| View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
-| Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
-| Update consumer profile via API | Enables agent to use the Consumer Profile API to make edits to a consumer’s profile | Off |
+| Join agents' conversations in group | Join conversations handled by other agents in the group | Off |
+| View agents' conversations in group | View conversations handled by other agents in the group | Off |
+| View list of agents in the group | View list of agents in the group | Off |
+| Initiate CoBrowse view-only session, with scroll control |	Invite consumer to join a CoBrowse session, with the ability to view their screen with scroll control	| On |
+| Initiate CoBrowse view-only session	| Invite consumer to join a CoBrowse session, with the ability to view their screen | On |
+|Initiate CoBrowse shared control session	| Invite consumer to join a CoBrowse session, with the ability to control actions on their screen	| On |
+| View account support cases in Connection Area	| This only applies to eligible customers as part of their CSO package | Off |
+| Message LivePerson support	|Message LivePerson support	| On |
+| Handle messaging conversations and view All Conversations list	| Handle messaging conversations and view all resolved conversations handled by agents |	On |
+| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases |	On |
+| Handle messaging conversations	| Handle messaging conversations | On |
+| Set manual SLA for conversations	| Set manual SLA for conversations |On |
+| Transfer messaging conversations to an agent in "online" or "back soon" states | Transfer messaging conversations to a specific agent in "online" or "back soon" states	| On |
+| Access Conversational AI menu	|  Access Conversational AI menu	| On | 
+| Transfer messaging conversations to an agent in "offline" state	| Transfer messaging conversations to a specific agent in "offline" state	| Off |
+| Transfer messaging conversations to an agent in "away" state	| Transfer messaging conversations to a specific agent in "away" state | Off |
+| Use Third-Party Bots to manage external bot integrations | Use Third-Party Bots to manage external bot integrations | Off |
+| Send files to consumers from local file browser | Additional configuration may be required to enable file sharing; contact your account administrator |	Dependant on account |
+| Send files to consumers from custom widgets| Additional configuration may be required to enable file sharing; contact your account administrator	|	Dependant on account |
+|Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	|	Dependant on account |
+|Conversation Builder: Business User	| Use Bot Analytics to view and download data	|	Dependant on account |
+| Conversation Builder: Bot Status Access	| Use Bots Status to create, deploy, and manage connectors for the entire organization	|	Dependant on account |
+| Conversation Builder: Bot Builder	| Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates, accounts, and users	|	Dependant on account |
+| Use enhanced agent workspace	| This module will be visible in addition to the current Visitors module |	Dependant on account |
+| View all agent surveys for current conversation	| View all agent surveys for current conversation	| Off |
+| Conversation Builder: Bot Builder Lite	| Create and manage bots; no integrations, credentials, or export/import permissions |	Dependant on account |
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases	| Dependant on account |
+| Conversation Builder: API Credentials Manager	| Manage credentials for API and NLU integrations	| Dependant on account |
+| Use secure form in a conversation	| For brands who have enabled the secure forms feature, this permission allows the Agent to use the form in a conversation	| Dependant on account |
+|Initiate voice conversation	| Invite consumer to join a voice conversation	| Dependant on account |
+| Initiate live video conversation	| Invite consumer to join a live video session	| Dependant on account |
+| Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package	| Dependant on account |
+| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Dependant on account |
+| Conversation Builder: Release Creator	| Create and delete versions	| Off |
+| Conversation Builder: Release Acceptor | Create versions and accept releases i.e. upgrade bots | Off |
 
 ### Role: Agent manager
 
@@ -127,31 +145,55 @@ The following core permissions are included with the agent manager role and cann
 
 | Agent Manager permissions | Permission definition | Default State (role) |
 | --- | --- | --- |
-| Join Agents' conversations | Join a conversation handled by any Agent within their Group(s) or Sub-group(s) | On |
-| View Agents' conversations | View conversations handled by Agents within their Group(s) or Sub-group(s) | On |
-| View Conversation History | View all engagements handled by Agents within their Group(s) or Sub-group(s) | On |
-| View All Conversations List | For brands who have enabled the Messaging feature, this permission allows viewing of all resolved conversations handled by Agents | On |
-| View Agent List | View full list of Agents within their Group | On |
-| Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
-| Edit Agent users | Create, edit or delete users with an Agent role within their Group(s) or Sub-group(s) | Off |
-| Edit Agent Manager users | Create, edit or delete users with an Agent Manager role within their Group(s) or Sub-group(s) | Off |
-| Edit Agent profile | Create, edit or delete Agent role profiles | Off |
-| Edit Agent Manager profile | Create, edit or delete Agent Manager role profiles | Off |
-| Agent Groups administration | Create, edit, restructure or delete their Agent Groups or Sub-groups | Off |
-| Edit Skills | Create, edit or delete Skills | Off |
-| Export users | Export the list of Agent or Agent Manager users in their groups or sub-groups; this will also export the list of skills, profiles and the groups and sub-groups managed by the Agent Managers | Off |
-| Set manual SLA | Allows agent managers to manually configure the response time in a conversation | On |
-| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows agent managers to customize reports | Off |
-| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
-| View reports in Operational BI | View reports in the Operational BI dashboard | On |
-| View Connection Area | View relevant content from the Connection Area per journey | On |
-| Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
-| View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
-| Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
-| Configure shift status | For brands who have enabled the Messaging feature, this permission allows an agent manager to configure the shift status | On |
-| Update consumer profile via API | Enables agent manager to use the Consumer Profile API to make edits to a consumer’s profile | Off |
+| Join agents' conversations within group	| Join conversations handled by other agents in their group or sub-group	| On |
+| View agents' conversations within group	| View conversations handled by other agents in their group or sub-group	| On |
+| View Conversation History	| View all conversations handled by agents in their group or sub-group | On |
+| Handle messaging conversations and view | All Conversations list	| Handle messaging conversations and view all resolved conversations handled by agents	| On |
+| Handle messaging conversations	| Handle messaging conversations | Depenant on account |
+| View list of agents in the group	| View list of agents in the group, as well as their login status and real-time KPIs | on |
+| Manage settings in Night Vision overlay	| Change configurations in Night Vision	| on |
+| View secure form responses in Conversation History | See the secure form results in Conversation History, once the form has been submitted and the conversation is closed	| Depenant on account |
+| Manage agent users in group	 | Create, edit or delete users with an agent role in their group(s) or sub-group(s)	| Off |
+| Manage agent manager users in group	 | Create, edit or delete users with an agent manager role in their group(s) or sub-group(s) | Off | 
+| Manage agent profiles in group	| Create, edit or delete agent role profiles |	Off |
+| Manage agent manager profiles in group	| Create, edit or delete agent manager role profiles	| Off |
+| Manage agent groups	| Create, edit, restructure or delete their agent groups or sub-groups |	Off |
+| Manage skills	| Create, edit or delete skills |	Off |
+| Export list of users in group	| Includes agent and agent manager users in group(s) or sub-group(s) as well as the list of skills, profiles, groups, and sub-groups managed by agent managers |	Off |
+| Set manual SLA for conversations	| Set manual SLA for conversations	| On |
+| View all reports in Analytics Builder	| View all reports in Analytics Builder	| Depenant on account |
+| Customize reports in Analytics Builder	| Customize reports in Analytics Builder	| Depenant on account |
+| Share reports in Analytics Builder	| Share reports in Analytics Builder | Depenant on account |
+| View reports in Operational BI | View reports in Operational BI	| On |
+| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases	| On |
+| Message LivePerson support	| Message LivePerson support	| On |
+| View account support cases in Connection Area	| This only applies to eligible customers as part of their CSO package	| Off |
+| Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package	| Depenant on account |
+| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Depenant on account |
+| Define working hours for messaging in Shift Scheduler	| Define working hours for messaging in Shift Scheduler	| On |
+| Request customer data deletion via API	| Request customer data deletion via API	| Off |
+| Assign workdays and special occasions	| Assign workdays and special occasions	| Off |
+| Access Conversational AI menu	| Access Conversational AI menu	| On |
+| Transfer messaging conversations to an agent in "online" or "back soon" states	| Transfer messaging conversations to a specific agent in "online" or "back soon" states	| On |
+| Transfer messaging conversations to an agent in "offline" state | Transfer messaging conversations to a specific agent in "offline" state	| Off |
+| Transfer messaging conversations to an agent in "away" state |	Transfer messaging conversations to a specific agent in "away" state |	On |
+| Use Third-Party Bots to manage external bot integrations	| Use Third-Party Bots to manage external bot integrations | On |
+| Send files to consumers from local file browser |	Additional configuration may be required to enable file sharing; contact your account administrator |	Depenant on account |
+| Send files to consumers from custom widgets | Additional configuration may be required to enable file sharing; contact your account administrator 	Depenant on account |
+| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Depenant on account |
+| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Depenant on account |
+| Conversation Builder: Bot Status Access |	Use Bots Status to create, deploy, and manage connectors for the entire organization| Depenant on account |
+| Conversation Builder: Bot Builder |	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status |	Depenant on account |
+| Use enhanced agent workspace	| This module will be visible in addition to the current Visitors module	| Yes (depending which workspace they are using)|
+| View agent manager workspace |	Track real-time shift management KPIs, view agent lists for groups and subgroups, and view all open and resolved conversations handled by agents |	on |
+| View all agent surveys for current conversation | View all agent surveys for current conversation	| on |
+| Submit messaging agent survey	| Submit messaging agent survey |	off |
+| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer |	Depenant on account |
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots |	Depenant on account | 
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Depenant on account |
+| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite |	Depenant on account |
+| Conversation Builder: Release Creator |	Create and delete versions	| off |
+| Conversation Builder: Release Acceptor | Create versions and accept releases i.e. upgrade bots |	off |
 
 ### Role: Campaign manager
 
