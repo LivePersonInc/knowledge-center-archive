@@ -17,11 +17,16 @@ Users with edit permission will be able to create new dashboards.
 2. Name the dashboard
 
     ![](img/creating_dashboards_insights2.png)
-    a) Tags - Enter tags to categorize dashboards for future use as templates. 
+    a) Tags - Enter tags to categorize dashboards for future use as templates.
+    
     b) Dashboard Image - Upload a logo or other image from your computer, or select from the extensive library of images to represent the dashboard.
+    
     c) Theme - The Light theme is selected by default, with a grey background and white widgets, but you can choose the Dark theme to use a black background and dark grey widgets.
+    
     d) Type - Change the Default value to Template to save the dashboard as a template that others can use.
+    
     e) Description - Provide a description of the dashboard contents.
+    
 3. Select a data stream (note: you will only see data streams that have been shared with you).
 4. After selecting a data stream, you can deploy a Taxonomy Analysis  model
   ![](img/creating_dashboards_insights3.png)
