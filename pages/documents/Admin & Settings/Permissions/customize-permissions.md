@@ -207,26 +207,39 @@ The following core permissions are included with the campaign manager role and c
 
 | Campaign Manager permissions | Permission definition | Default state (role) |
 | --- | --- | --- |
-| Edit campaigns | Create and modify campaigns | On |
-| Publish campaigns | Control the publishing of campaigns | On |
-| Configure predefined content | Add and edit Predefined Content in the Agent Workspace | On |
-| Configure Automatic Messages | Add and edit Automatic Messages in the Agent Workspace | On |
-| Configure engagement attributes | Add and edit Engagement Attributes used in campaigns | On |
-| Import and export predefined content | Import and export Predefined Content to and from Conversational Cloud | On |
-| Export predefined content | Export Predefined Content from Conversational Cloud | On |
-| View API keys | For brands who have enabled the API key management feature, this permission allows viewing of API keys used by the brand | On |
-| Edit conversation source | Configure consumer entry points to engage with your brand | On |
-| Edit skills | Edit skills and configure default survey for skill change | On |
-| Configure authentication server | For brands who have enabled the authentication conversation feature, this permission allows users to configure the authentication server | On |
-| View reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows viewing of all reports | Off |
-| Customize reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows campaign managers to customize reports | Off |
-| Share reports in Analytics Builder | For brands who have enabled the Analytics Builder feature, this permission allows reports to be shared with other users on the account | Off |
-| View reports in Operational BI | View reports in the Operational BI dashboard | Off |
-| View reports in Campaign BI | View reports in the Campaign BI dashboard | On |
-| View Connection Area content | View relevant content from the Connection Area per journey | On |
-| Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
-| View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
-| Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
+| Manage campaigns | Create and edit campaigns | On |
+| Publish campaigns	| Publish campaigns |	On |
+| Manage predefined content	| Add and edit Predefined Content in the Agent Workspace	| On |
+| Manage automatic messages	| Add and edit Automatic Messages in the Agent Workspace |	On |
+| Manage engagement attributes	| Add and edit Engagement Attributes used in Campaign Builder | On |
+| Import/export predefined content to/from Conversational Cloud	| Import/export predefined content to/from Conversational Cloud	| On |
+| Export predefined content from Conversational Cloud	| Export predefined content from Conversational Cloud	| On |
+| View API keys	| View API keys | On |
+| Configure conversation sources	| Configure conversation sources | On |
+| Edit skills and configure default survey for skill change	| Edit skills and configure default survey for skill change	| On |
+| Configure authentication server	| Configure authentication server	| On |
+| View all reports in Analytics Builder | View all reports in Analytics Builder	| Dependant on account |
+| Customize reports in Analytics Builder	| Customize reports in Analytics Builder |	Dependant on account |
+| Share reports in Analytics Builder | Share reports with other account users by saving them in the "My Account" folder	| Dependant on account |
+| View reports in Operational BI |	View reports in Operational BI |	Off |
+| View reports in Campaign BI	| View reports in Campaign BI	| On |
+| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases	| On |
+| Message LivePerson support	| Message LivePerson support	| On |
+| View account support cases in Connection Area	| This only applies to eligible customers as part of their CSO package	| Off |
+| Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package.	| Dependant on account |
+| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Dependant on account| 
+| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Dependant on account |
+| Conversation Builder: Bot Status Access	Use Bots Status to create, deploy, and manage connectors for the entire organization	| Dependant on account |
+| Conversation Builder: Bot Builder	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Dependant on account |
+| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer	| Dependant on account |
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Dependant on account |
+| Conversation Builder: Import/Export Manager | Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Dependant on account |
+| Conversation Builder: API Developer | Users can only create and manage integrations. Can be added to Bot Builder Lite	| Dependant on account |
+| Configure Schedule and Special Occasion library items	| Configure Schedule and Special Occasion library items |	Off | 
+| Access Conversational AI menu	| Access Conversational AI menu | On |
+|  Use Third-Party Bots to manage external bot integrations	| Use Third-Party Bots to manage external bot integrations	| Off | 
+| Conversation Builder: Release Creator |	Create and delete versions	| Off | 
+| Conversation Builder: Release Acceptor |	Create versions and accept releases i.e. upgrade bots	| Off | 
 
 ### Role: Admin
 
@@ -243,23 +256,38 @@ The following core permissions are included with the Admin role and cannot be di
 
 | Admin permissions | Permission definitions | Default State (role) |
 | --- | --- | --- |
-| User administration | Create, edit and delete users and configure their assignments | On |
-| Profile administration | Create, edit and delete profiles (including customizing permissions) | On |
-| Skill administration | Create, edit and delete Skills | On |
-| Agent Groups administration | Create, edit, restructure or delete Agent Groups | On |
-| API key administration | For brands who have enabled the API key management feature, this permission allows Administrators to create, manage and integrate API keys | On |
-| Night Vision (advanced configuration) | Make advanced configurations within Night Vision | On |
-| Line of Business administration | For brands who have enabled the Line of Business feature, this permission allows Administrators to create, edit and delete individual Lines of Business within their LivePerson Conversational Cloud account | On |
-| View account billing details | Access to billing details and online invoices | On |
-| View and export audit trail | For brands with the audit trail feature enabled, this permission allows admins to view and export audit trail data | On |
-| View Connection Area | View relevant content from the Connection Area per journey | On |
-| Contact LivePerson support within Connection Area | Chat with the LivePerson support team | On |
-| View support cases in Connection Area | View open and closed support cases from the Connection Area | Off |
-| Create new support cases in Connection Area | For CSO only - open new case from Connection Area | Off |
-| Configure shift status | For brands who have enabled the Messaging feature, this permission allows an admin to configure the shift status | On |
-| FaaS Invocation | Allows to invoke LivePerson Functions (FaaS) | On |
-| FaaS Admin | Allows to administrate LivePerson Functions (FaaS) Settings | On |
-| FaaS Developer | Allows to develop LivePerson Functions (FaaS)| On |
+| Manage users and roles	| Create, edit, and delete users and their roles	| On |
+| Manage profiles	| Create, edit, and delete profiles, including customizing their permissions | On |
+| Manage skills	| Create, edit, and delete skills	| On |
+| Manage agent groups	| Create, edit, restructure, and delete agent groups	| On |
+| Manage API keys	| Create, manage, and integrate API keys	| On |
+| Manage settings in Night Vision overlay	| Change configurations in Night Vision	| On |
+| Manage Lines of Business | Create, edit, and delete Lines of Business |	On |
+| View account billing details and invoices	| View account billing details and invoices	| On |
+| View support cases in Connection Area	| This only applies to eligible customers as part of their CSO package | Off |
+| View and export audit trail	| View export and audit trail	| On |
+| Message LivePerson support in Connection Area	| Message LivePerson support in Connection Area	 | On |
+| Create new support cases in Connection Area (for CSO only)|	This only applies to eligible customers as part of their CSO package | On |
+| Define working hours in Shift Scheduler	| Define your account's working hours for messaging in Shift Scheduler	| On |
+| Assign workdays and special occasions	| Assign workdays and special occasions	| On |
+Access Conversational AI menu	Access Conversational AI menu	On
+| Use Third-Party Bots to manage external bot integrations	| Use Third-Party Bots to manage external bot integrations	| On |
+| Functions: Invocation	| Invoke lambdas (for external systems) | On |
+| Functions: Administrator	| Manage whitelist and secrets; read-only access to lambdas |	On |
+| Functions: Developer	| Manage lambdas; read-only access to whitelist and secrets	| On |
+| Conversation Builder: Administrator | Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates	| Dependant on account |
+| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics | Dependant on account |
+| Conversation Builder: Business User | Use Bot Analytics to view and download data	| Dependant on account|
+| Conversation Builder: Bot Status  | Access	Use Bots Status to create, deploy, and manage connectors for the entire organization	| Dependant on account |
+| Conversation Builder: Bot Builder	| Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Dependant on account|
+| Manage agent survey questions, timeout, and skills	Manage agent survey questions, timeout, and skills	| On |
+| Conversation Builder: API Credentials | Manager	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer.	| Dependant on account |
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Dependant on account|
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite | Dependant on account |
+| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite	| Dependant on account |
+| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases | Dependant on account |
+|Conversation Builder: Release Creator | Create and delete versions | Off
+|Conversation Builder: Release Acceptor |	Create versions and accept releases i.e. upgrade bots |	Off |
 
 
 ## Visuals
