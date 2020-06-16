@@ -58,6 +58,7 @@ Words can be omitted if they are not important in the word cloud. Only words in 
 ## How do I delete words from the word cloud?
 ### Method 1: Selecting stopwords from topic wheel
 1)	Select Dashboard 
+
 2)	Choose a tab that has machine learning topic wheel
   ![](img/stopwords-insights1.png) 
 3)	Click on the pencil icon on the left side 
