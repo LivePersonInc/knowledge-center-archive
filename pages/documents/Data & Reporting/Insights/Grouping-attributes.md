@@ -21,16 +21,14 @@ Grouping attributes is helpful if the analysis is only for a specific set of dat
 ### Method 1: Creating Group Global Filter
 1.	Open dashboard
 2.	Go to the left side and click on the funnel icon 
-
 3.	Click on “Add Filter” 
- 
-
+   ![](img/grouping-attributes-insights2.png)
 4.	From the drop down list select the attribute for grouping. For example, to group only a specific Agent Group together:
- 
-
+    ![](img/grouping-attributes-insights3.png)
 5.	Under “Selection”, check the agent group boxes and then click “Add Filter” or do a “Keyword Match” and then click on “Add Filter”
- 
+      ![](img/grouping-attributes-insights4.png)
 After the filter is applied, the whole dashboard will reflect the new filter
+ ![](img/grouping-attributes-insights5.png)
 
 ### Method 2: Creating Customized Group
 Why should I customize a group of attributes?
@@ -40,13 +38,17 @@ Customizing groups would be helpful if the analysis is looking for a specific se
 1.	Click on the bottom right corner “+” sign
 
 2.	On the left hand side, there will be a list of attributes that can be grouped. For example, to group only certain campaign names together:
-  
+   ![](img/grouping-attributes-insights6.png)
+   
 3.	Select “campaign name” and then on the arrow beside it, select “Add Group”
-         
+      ![](img/grouping-attributes-insights7.png)
+      
 4.	Select the campaigns to include in the analysis and then click “Group”
- 
+     ![](img/grouping-attributes-insights8.png)
+
 5.	Name the group and “Submit” . Note: repeat step 4 to make additional groups as seen below  
- 
+    ![](img/grouping-attributes-insights9.png)
+
 6.	On the left hand side, the new grouping will appear under “Calculated Fields”. You may use the new calculated field to create a custom group widget. In the current example, to see the custom grouping, go to “calculated fields” and select “Campaign Grouping” and it will show the grouping created earlier. 
 
 ## Stopwords
@@ -57,30 +59,28 @@ Words can be omitted if they are not important in the word cloud. Only words in 
 ### Method 1: Selecting stopwords from topic wheel
 1)	Select Dashboard 
 2)	Choose a tab that has machine learning topic wheel
- 
+  ![](img/stopwords-insights1.png) 
 3)	Click on the pencil icon on the left side 
-
-
+  ![](img/stopwords-insights2.png)
 4)	Click on words that should be trashed. A line will go across words selected
-
-
+  ![](img/stopwords-insights3.png)
 5)	Click Reprocess
-
+ ![](img/stopwords-insights4.png)
+ 
 6)	Name the group
 7)	Hit reprocess. Once a word is added to the stopwords and reprocessed, it will no longer show up in the word cloud. 
 Best Practice: Exit out of the dashboard and wait a while before checking the dashboard again. Processing time depends on how many records the dashboard has. 
  
-
- 
-
 ### Method 2: Using Advanced Tab to create stopword list
 1)	Go to Advanced tab
 
 2)	Click on Stopwords
- 
+  ![](img/stopwords-insights5.png)
+
 3)	Click on “+” on the bottom right corner
 
 4)	Name the group
+  ![](img/stopwords-insights6.png)
 
 5)	Click on Add new term to start adding words that need to be trashed
 
@@ -93,12 +93,13 @@ Best Practice: Exit out of the dashboard and wait a while before checking the da
 9) 	Click on the pencil icon on the left side
 
 10)	 Stopwords can be applied against customer or agent machine learning 
+   ![](img/stopwords-insights7.png)
 
 11) 	Choose Add Advanced Options for either customer or agent machine learning
 
 12) 	Under stopwords category, select Add
-
+    ![](img/stopwords-insights8.png)
 13)	The list created earlier would appear, select the list and then click Apply
- 
+     ![](img/stopwords-insights9.png)
 14)	Click reprocess. Once a word is added to the stopwords and reprocessed, it will no longer show up in the word cloud.
-
+    ![](img/stopwords-insights10.png)
