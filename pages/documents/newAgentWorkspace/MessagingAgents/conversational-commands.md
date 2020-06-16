@@ -36,4 +36,4 @@ Agents can send the content of the current conversation transcript via email (i.
 
 ## Set up
 
-For information on setting up this feature, please see our documentation in the [Developers Community](https://developers.liveperson.com/liveperson-functions-integrations-conversational-commands.html).
+For information on setting up this feature, please see our documentation in the [Developer Center](https://developers.liveperson.com/liveperson-functions-integrations-conversational-commands.html).

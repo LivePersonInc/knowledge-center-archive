@@ -77,4 +77,4 @@ Using inputs and prompts and a point-and-click interface, bots are built based o
 
 By allowing contact center managers, agents and agents managers to create and manage bots, the Conversation Builder helps brands create bots that forge relationships with brands just as they talk to one another, through natural language and dialogue.
 
-See the Developers' Community for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html)  to learn how to get started, set up a user, and get up and running with pre-built bot templates.
+See the Developer Center for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html)  to learn how to get started, set up a user, and get up and running with pre-built bot templates.

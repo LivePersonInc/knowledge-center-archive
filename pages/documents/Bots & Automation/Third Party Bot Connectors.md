@@ -46,7 +46,7 @@ There are four steps to onboarding a bot.
    5. [Microsoft Bot Framework](https://developers.liveperson.com/bot-connectors-microsoft-bot-framework.html)
    6. [Custom third-party Bots](https://developers.liveperson.com/bot-connectors-custom-third-party-bots.html)
 
-For more information and detailed steps of how to onboard - please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
+For more information and detailed steps of how to onboard - please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#provision-a-connector)
 
 ![](img/bot_status_select.png)
 
@@ -74,7 +74,7 @@ Adjust the default Function code from the function template, according to your n
 
 After completing the code, deploy the function to our functions cloud and have the integration ready to work with your bot in a matter of seconds.
 
-For more detailed information, please visit the [developers community](https://developers.liveperson.com/third-party-bots-custom-integration.html)
+For more detailed information, please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-custom-integration.html)
 
 ## Third-party bot status dashboard
 
@@ -91,4 +91,4 @@ The dashboard can be accessed by clicking on the bot's name.
 * Currently the connectors only support text input from the customer.
 * The third-party Bot connectors support only Liveperson’ [rich content](https://developers.liveperson.com/getting-started-with-rich-messaging-rich-messaging-channel-capabilities.html) structure.
 
-For more information, please visit the [developers community](https://developers.liveperson.com/third-party-bots-getting-started.html#limitations)
+For more information, please visit the [Developer Center](https://developers.liveperson.com/third-party-bots-getting-started.html#limitations)

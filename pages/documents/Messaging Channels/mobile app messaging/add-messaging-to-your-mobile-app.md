@@ -54,7 +54,7 @@ _(completed by mobile developers)_
 
 ### Add messaging to your SDK
 
-Work with your developers to build the App Messaging SDK into your app. For information on adding the App Messaging SDK, please refer to the documentation on the Developers Community:
+Work with your developers to build the App Messaging SDK into your app. For information on adding the App Messaging SDK, please refer to the documentation on the Developer Center:
 
 * [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
 * [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
@@ -63,7 +63,7 @@ Work with your developers to build the App Messaging SDK into your app. For info
 
 Determine what information you’ll need to collect and set up your engagement attributes. If you’d like your engagement to target specific customers or pages - or even track your sales and transactions - you’ll need to set up engagement attributes. Engagement attributes help you to collect more in-depth information about your visitors. In order to collect this information from your engagements, you first need to set up your [engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) through the mobile SDK.
 
-By adding monitoring capabilities to your campaign, you can display tailored engagements to the right consumer at the right time. Learn more about the **monitoring API** and **reporting on engagement attributes** by following these links to the Developers Community:
+By adding monitoring capabilities to your campaign, you can display tailored engagements to the right consumer at the right time. Learn more about the **monitoring API** and **reporting on engagement attributes** by following these links to the Developer Center:
 
 * [Monitoring API for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-sdk-apis-monitoring-api.html)
 * [Monitoring API for Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-sdk-apis-monitoring-api.html)
@@ -133,7 +133,7 @@ Under [routing](contact-center-management-messaging-operations-routing-logic-ove
 
 The engagement language selected in this step will only affect items in the Agent Workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
-The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developers Community, for the full string localization keys.
+The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developer Center, for the full string localization keys.
 
 Once your settings are complete, click **next**.
 

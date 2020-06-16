@@ -117,7 +117,7 @@ By attributing the conversation to the customer’s identity, new incoming messa
 
 It is important to note that we will no longer be relying on the ctmrinfo.customerID engagement attribute to indicate whether the user is authenticated or not, it will be used just as a regular engagement attribute. LivePerson monitoring services will be using this new function to identify if the user is authenticated on each page, and is no longer session-based as it was previously.
 
-For more information regarding the Monitoring API, please refer to the [Monitoring API section on the developers community](https://developers.liveperson.com/rt-interactions-monitoring-overview.html).
+For more information regarding the Monitoring API, please refer to the [Monitoring API section on the Developer Center](https://developers.liveperson.com/rt-interactions-monitoring-overview.html).
 
 ## **Authenticated engagement window**
 

@@ -36,7 +36,7 @@ We recommend using certified systems for the best possible experience while usin
 The tables below list the browsers LivePerson supports for visitors on mobile web assets (smartphones and tablets).
 
 {: .notice}
-For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developers' Community for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
+For supported iOS and Android versions of our Mobile Messaging Window SDK, otherwise known as In-App Messaging, please see the respective release notes for the SDK version you are using. these can be found in our Developer Center for [Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html) and [iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-all-release-notes.html).
 
 ### Android
 
@@ -109,7 +109,7 @@ Please refer here: https://developers.liveperson.com/mobile-app-messaging-sdk-fo
   **Libraries:**
   1. com.google.android.gms:play-services-maps:16.1.0
   2. com.squareup.okhttp3:okhttp:3.9.1
-* All releases below SDK v4.4 - Refer to the release notes in the [Dev Community](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
+* All releases below SDK v4.4 - Refer to the release notes in the [Developer Center](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-all-release-notes.html)
 
 ### iOS
 

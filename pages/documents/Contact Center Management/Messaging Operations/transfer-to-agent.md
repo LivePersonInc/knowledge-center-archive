@@ -168,7 +168,7 @@ On “Messaging Advanced Dashboard”> “Agent Messaging Activity” dataset th
 
 ## Implementing transfer to agent bot logic (using APIs)
 
-In some business flows, brands would like to have the ability to transfer a conversation to a specific agent using their own bot logic. For example, returning a new conversation to the pervious agent who handled the consumer. In order to achieve this, brands can use the following APIs, available on our Developers Community:
+In some business flows, brands would like to have the ability to transfer a conversation to a specific agent using their own bot logic. For example, returning a new conversation to the pervious agent who handled the consumer. In order to achieve this, brands can use the following APIs, available on our Developer Center:
 
 **Transfer to agent API call:**
 

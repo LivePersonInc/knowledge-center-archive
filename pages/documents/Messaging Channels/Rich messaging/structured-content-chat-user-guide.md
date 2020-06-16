@@ -41,7 +41,7 @@ Structured content is available on our web-chat channel. It is also available fo
 
 ## Capability highlights
 
-The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Community](https://developers.liveperson.com/structured-content-templates.html).
+The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Center](https://developers.liveperson.com/structured-content-templates.html).
 
 ### Presenting options
 
@@ -75,7 +75,7 @@ Product catalog allows brands to showcase specific products that a brand can pro
 
 ## Enabling structured content
 
-To build structured content for use on web chat, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developers Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
+To build structured content for use on web chat, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
 ### Prerequisites
 
@@ -102,4 +102,4 @@ Structured content taglet - [https://agents-lp.github.io/strcutured-content-widg
 
 Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore](https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore "https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore")
 
-[Structured Content Developer Community](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html)
+[Structured Content Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html)

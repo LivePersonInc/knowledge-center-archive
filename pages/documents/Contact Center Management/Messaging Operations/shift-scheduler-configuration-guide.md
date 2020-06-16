@@ -182,11 +182,11 @@ You may also define multiple shifts per occasion. Simply hover the occasion line
 
 ### Creating a new workday item
 
-See [Workdays API -> Create Workdays Object](https://developers.liveperson.com/account-configuration-workdays-create.html) on the developers community.
+See [Workdays API -> Create Workdays Object](https://developers.liveperson.com/account-configuration-workdays-create.html) on the Developer Center.
 
 ### Creating a new special occasion item
 
-See [Special Occasion API -> Create Special Occasion Object](https://developers.liveperson.com/account-configuration-special-occasions-create.html) on the developers community.
+See [Special Occasion API -> Create Special Occasion Object](https://developers.liveperson.com/account-configuration-special-occasions-create.html) on the Developer Center.
 
 ### Assigning workdays/special occasions per account
 
@@ -221,7 +221,7 @@ In order to generate App Keys to access the API, follow the following steps:
 {:start="5"}
 5. Click Save. The Authentication details will now be displayed. Use it in order to access the API.
 
-For additional info on creating API keys - [LivePerson APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson developers community](https://developers.liveperson.com/).
+For additional info on creating API keys - [LivePerson APIs](https://developers.liveperson.com/workdays-api-overview.html) and SDKs documentation in the [LivePerson Developer Center](https://developers.liveperson.com/).
 
 ## Profiles and permissions
 

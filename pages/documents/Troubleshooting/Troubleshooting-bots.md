@@ -39,7 +39,7 @@ After the restart the Bot didn’t continue to try to respond. This caused the v
 
 ### Solution:
 
-Developers should add a retry mechanism to their Bot. The mechanism should take restarts into account. For details, see [Retry Policy and KeepAlive Best Practices](https://developers.liveperson.com/guides-retry-policy.html) in the LivePerson Developers Community.
+Developers should add a retry mechanism to their Bot. The mechanism should take restarts into account. For details, see [Retry Policy and KeepAlive Best Practices](https://developers.liveperson.com/guides-retry-policy.html) in the LivePerson Developer Center.
 
 ## Why are two out of four of our bot agents being disabled automatically?
 

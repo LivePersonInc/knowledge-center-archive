@@ -89,7 +89,7 @@ The Conversational Cloud will support the following audio messages flow:
 
 * iOS - set **enableAudioSharing** to true
 * Android - set **enable_voice_sharing** to true
-* Additional parameters are configurable on the SDK side. For more information, please refer to the Developer Community ([iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-advanced-audio-ios.html), [Android](https://developers.liveperson.com/consumer-experience-android-sdk-advanced-audio.html))
+* Additional parameters are configurable on the SDK side. For more information, please refer to the Developer Center ([iOS](https://developers.liveperson.com/consumer-experience-ios-sdk-advanced-audio-ios.html), [Android](https://developers.liveperson.com/consumer-experience-android-sdk-advanced-audio.html))
 
 ### Notes
 

@@ -30,7 +30,7 @@ _(completed by contact center manager, project manager or program manager)_
 
 ### Engagement attributes
 
-Engagement attributes help you to collect more in-depth information about your visitors, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to validate your engagement attributes. For more information on individual engagement attributes, you can refer to the [Developers' Community](https://developers.liveperson.com/engagement-attributes-overview.html).
+Engagement attributes help you to collect more in-depth information about your visitors, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to validate your engagement attributes. For more information on individual engagement attributes, you can refer to the [Developer Center](https://developers.liveperson.com/engagement-attributes-overview.html).
 
 ### Set up sales & conversion tracking
 

@@ -46,7 +46,7 @@ You can also create a new skill within each user profile. See section [assigning
 ![](/img/delete_skill.png)
 
 {: .notice}
-You can also delete users in bulk, by using our Skills API. [Please refer to the Developers' Community](https://developers.liveperson.com/skills-api-methods-delete-skills.html) for more information on how to use the API.
+You can also delete users in bulk, by using our Skills API. [Please refer to the Developer Center](https://developers.liveperson.com/skills-api-methods-delete-skills.html) for more information on how to use the API.
 
 ## Skills transfer list
 

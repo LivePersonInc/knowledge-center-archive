@@ -24,7 +24,7 @@ Information collected using engagement attributes can be used to achieve the fol
 * Receive a comprehensive view of visitor conversation history
 * Measure and track campaign goals
 
-For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developers' Community.
+For further information on the individual engagement attributes, please refer to the [documentation](https://developers.liveperson.com/engagement-attributes-overview.html) in our Developer Center.
 
 ## Validating the engagement attributes value
 

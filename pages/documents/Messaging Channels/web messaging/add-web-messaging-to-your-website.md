@@ -39,7 +39,7 @@ If you’re adding Web Messaging for the first time, you’ll need to grab the w
 
 ### Engagement attributes
 
-Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developers Community](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
+Engagement attributes help brands to **collect more in-depth information about visitors**, such as products viewed, errors encountered and more. To collect visitor information from your web engagements, you first need to [configure your engagement attributes](data-reporting-engagement-attributes-setting-up-engagement-attributes.html). For more information on individual engagement attributes, you can refer to the [Developer Center](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html).
 
 ## 3. Review Conversation History length (for unauthenticated messaging)
 

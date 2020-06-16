@@ -18,7 +18,7 @@ Agents often need to access external systems while they are working in the Agent
 
 To ensure your agents are focused on the tools most relevant for them, admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all agents handling any chat.
 
-To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) in the Developers Community.
+To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) in the Developer Center.
 
 ## Organize your widgets to boost agent efficiency
 
@@ -93,4 +93,4 @@ In the same way, consumers can upload content - such as a product’s web page, 
 
 It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the Agent Workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place.
 
-For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html) in the Developers Community**.**
+For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html) in the **Developer Center**.**

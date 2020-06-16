@@ -72,13 +72,13 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 
 ![](/img/visitor-behavior-2.png)
 
-Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
+Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Center.
 
 ### 6. Products in cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
-Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
+Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Center.
 
 ### 7. Viewed product:
 
@@ -86,7 +86,7 @@ In order to target consumers who are interested in a specific product or type of
 
 ![](/img/visitor-behavior-3.png)
 
-Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
+Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Center.
 
 ### 8. Visitor error:
 
@@ -94,7 +94,7 @@ Target consumers who experience specific errors during their time on your site o
 
 ![](/img/visitor-behavior-4.png)
 
-Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Center.
 
 ### 9. Engaged in session:
 
@@ -130,7 +130,7 @@ Target consumers by their service journey topics. A service journey is a series 
 * Resolved
 
 <br/>
-Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
+Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Center.
 
 Once you’ve selected and configured your conditions, LivePerson will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI. Below is an example of how to target based on the user behavior type: flow.
 

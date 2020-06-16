@@ -97,4 +97,4 @@ This dashboard will provide the ability to track these metrics over time and the
 
 ![](/img/bot dashboard1.png)
 
-For more information please visit the [developers community](https://developers.liveperson.com/bot-connectors-getting-started.html)
+For more information please visit the [Developer Center](https://developers.liveperson.com/bot-connectors-getting-started.html)

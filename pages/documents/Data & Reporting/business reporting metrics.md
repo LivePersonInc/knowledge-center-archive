@@ -13,7 +13,7 @@ The Conversational Cloud uses a large amount of metrics to provide insightful an
 
 The Analytics Builder offers brands ready-made dashboards reflecting historic data drawn from their LivePerson Conversational Cloud account activity. These dashboards allow brands to monitor and optimize contact center operations, increase conversions through campaigns and enact data-driven decisions. All the data metrics available in the Analytics Builder, with their definition and location within the different dashboards can be found in the table below.
 
-We also have real-time data to give you an overall picture of how your contract center is performing at any given time. For all the data API's please see our [Developers Community.](https://developers.liveperson.com/essential-resources-api-data-metrics.html)
+We also have real-time data to give you an overall picture of how your contract center is performing at any given time. For all the data API's please see our [Developer Center.](https://developers.liveperson.com/essential-resources-api-data-metrics.html)
 
 More information on the Analytics Builder can be found [here](data-reporting-report-builder-report-builder-overview.html).
 

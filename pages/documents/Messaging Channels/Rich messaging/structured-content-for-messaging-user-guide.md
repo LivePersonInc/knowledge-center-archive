@@ -75,7 +75,7 @@ A carousel allows brands to showcase specific products that a brand can provide 
 
 ## Enabling structured content
 
-To build structured content for use on your messaging channels, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developers Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html)
+To build structured content for use on your messaging channels, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-overview.html)
 
 ## Configuration
 
@@ -96,7 +96,7 @@ In order to enable the structured content via AC features and site settings, ple
 
 ![](/img/structured-content-messaging-1.png)
 
-* **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Community documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
+* **Virtual Agent**: you will need to implement a bot integration using the [Messaging Agent SDK](https://developers.liveperson.com/messaging-agent-sdk-overview.html). For further information, refer to the [Developer Center documentation](https://developers.liveperson.com/rich-messaging-structured-content-overview.html#virtual-agent).
 * Break each of your identified use cases down into the following building elements:
   1. Journey flows - map out the flow for the structured content usage in case of a bot. This determines which cards to send first and the logic for follow-up cards based on consumer responses.
   2. Structured content format: cards, content, actions, UX - what type of structured content should be used? What should the user experience be?
@@ -110,7 +110,7 @@ In order to enable the structured content via AC features and site settings, ple
   3. Integrate your data model to benefit from full and detailed reporting, enabling you to assess the impact of structured content usage.
 
 {: .notice}  
-For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer's Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
+For detailed reporting on consumer interactions with structured content on your messaging channels, please contact your LivePerson account team. All the steps mentioned above are covered in detail on the [Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
 ## Notes
 
@@ -165,4 +165,4 @@ Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-
 
 [Messaging channels capabilities comparison table](messaging-channels-messaging-channels-capabilities-comparison.html)
 
-[Structured Content in the Developers' Community](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)
+[Structured Content in the Developer Center](https://developers.liveperson.com/getting-started-with-rich-messaging-introduction.html)

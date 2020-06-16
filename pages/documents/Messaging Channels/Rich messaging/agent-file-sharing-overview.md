@@ -96,7 +96,7 @@ The consumer will receive the file as part of the conversation. When the consume
 * Files are hosted by LivePerson.
 * Files will undergo sanitation by LivePerson (to check they are not malicious).
 * Files retention is set to 13 months.
-* GDPR: Files will be deleted from LivePerson’s storage in case of consumer’s right-to-be-forgotten request as described on our developers community: [Personal data deletion API](https://developers.liveperson.com/personal-data-deletion-api-overview.html)
+* GDPR: Files will be deleted from LivePerson’s storage in case of consumer’s right-to-be-forgotten request as described on our Developer Center: [Personal data deletion API](https://developers.liveperson.com/personal-data-deletion-api-overview.html)
 * Files are encrypted at rest.
 
 {: .notice}

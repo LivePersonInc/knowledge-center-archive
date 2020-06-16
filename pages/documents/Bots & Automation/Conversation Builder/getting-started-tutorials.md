@@ -11,7 +11,7 @@ date: 2019-03-17 14:03:55 +0000
 
 ---
 
-Here are four tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth on [the Developers' Community](https://developers.liveperson.com/).
+Here are four tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth on [the Developer Center](https://developers.liveperson.com/).
 
 ## Dialogs and Patterns
 

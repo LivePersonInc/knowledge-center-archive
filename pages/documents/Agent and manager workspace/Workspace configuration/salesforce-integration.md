@@ -432,7 +432,7 @@ To use “Other,” you need to manually populate two fields: one is the address
 
 The equivalent fields needed for messaging are ‘LivePerson Msg SDK Field’ and ‘LivePerson Msg API Field’.
 
-The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LivePerson Conversational Cloud account, or in our Developer Community:
+The complete structure of the data in the “Agent Widget SDK,” “Engagement History API,” and “Messaging Interactions API” is described in their own documents which update all the time and you can find through the Connection Panel on your LivePerson Conversational Cloud account, or in our Developer Center:
 
 **Agent Widget SDK Public Data Model** -  
 [https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html](https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html "https://developers.liveperson.com/agent-workspace-widget-sdk-public-model-structure.html")
