@@ -14,10 +14,6 @@ LivePersons Proactive Messaging tool allows brands to engage in two-way conversa
 
 Proactive Messaging enables brands to increase their ability to connect with a targeted consumer base leading to a higher probability of achieving goals. It enables a richer and more personalized consumer experience, while utilizing all Conversational Cloud capabilities. SMS and WhatsApp are the two supported channels with more coming in the near future.
 
-Proactive Messaging can be leveraged using Proactive API or Web Tool. Proactive Messaging v2.0 API is the latest API with a lot of improvements including rate limiting, support for scheduling guardrails, high send rate and integrates with LE campaign and engagement for conversation routing. 
-
-Please see below the instructions for using the Proactive Web Tool. 
-
 ## Permissions
 Only the Conversational Cloud administrators and campaign manager profiles have access to Proactive Messaging once the account has been enabled by the LivePerson account team (assuming the brand has Twilio and WhatsApp).
 

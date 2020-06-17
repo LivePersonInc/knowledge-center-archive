@@ -14,17 +14,11 @@ redirect_from: ai-bots-automation-liveintent-overview.html
 
 ## Introduction
 
-### Discover & understand what consumers want with Intent Manager
-
-The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the Intent Analyzer. 
-
-The Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
-
-The Intent Builder makes it possible for brands to create their own intents and entities organized by domain. 
-
-Intent Manager starter packs are available to accelerate the development of Intent Taxonomy with both vertical specific and universal starter intents to enable our customers to quickly get started with an intent-driven business. Intent starter packs are available for cross verticals such as e-commerce and insurance for purchases and escalations. 
+LivePerson's [Conversational AI](https://developers.liveperson.com/conversational-ai-platform-platform-overview.html) now includes a one-stop hub for discovering, [tracking, and maintaining](ai-bots-automation-intent-analyzer-dashboard.html) intents in real-time.
 
 <img class="fancyimage" style="width:750px" src="img/intentanalyzer_dashboard-section-1.png">
+
+Intent Analyzer leverages the [NLU engine](https://developers.liveperson.com/conversational-ai-platform-natural-language-understanding-nlu-engines.html) of your choice to analyze and track the performance of your intent libraries created in [Intent Builder](https://developers.liveperson.com/intent-builder-overview.html).
 
 ## Example Use Cases
 
