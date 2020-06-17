@@ -13,16 +13,16 @@ redirect_from:
 - generate-a-twilio-sms-number-with-liveperson.html
 ---
 
-Brands now have the option to provision a US, Canadian, or Carribean Nations Twilio number in LivePerson's platform. This is a great option for small-to-medium businesses who do not already have numbers through Twilio.
+Brands now have the option to provision a US, Canadian, or Caribbean Nations Twilio number in LivePerson's platform. This is a great option for small-to-medium businesses who do not already have numbers through Twilio.
 
 ## Account Setup
 
 {: .notice}
 **Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information.
 
-Follow these steps to generate a number: 
+Follow these steps to generate a number:
 
-**Step 1.** Navigate to the Campaigns section of LiveEngage, then click 'Data Sources' in the footnote and choose Twilio SMS. There is a new option on the Twilio SMS Configuration screen that will say “No, I don’t have a Twilio account”. When you choose this option you will be able to choose your preferred area code and Generate Number.
+**Step 1.** Navigate to the Campaign Builder in the Conversational Cloud, then click 'Data Sources' in the footnote and choose Twilio SMS. There is a new option on the Twilio SMS Configuration screen that will say “No, I don’t have a Twilio account”. When you choose this option you will be able to choose your preferred area code and Generate Number.
 
 The area code list is in numerical order and contains the state or province for each area code to help you select a preferential area code.
 

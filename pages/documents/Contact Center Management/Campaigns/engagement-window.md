@@ -13,7 +13,7 @@ redirect_from:
   - customized-chat-windows.html
   - consumer-experience-the-new-web-messaging-window.html
 ---
-For web messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
+For Web Messaging and live chat engagements, the engagement window hosts the conversation. In the engagement window studio, brands can fully customize and tailor the window, with control over every aspect, from fonts and button style to icon colors and positioning.
 
 ### Using the Engagement window studio, you can:
 
@@ -21,8 +21,8 @@ For web messaging and live chat engagements, the engagement window hosts the con
 * [Add a window header](/contact-center-management-campaigns-engagement-window.html#to-add-a-header-to-the-window), [configure a picture of your agent](/contact-center-management-campaigns-engagement-window.html#agent-picture-configuration), or [add another image to the window](/contact-center-management-campaigns-engagement-window.html#to-add-an-image-to-the-window)
 * [Add and edit surveys](/contact-center-management-campaigns-engagement-window.html#to-add-and-edit-surveys)
 * [Customize the consumer actions menu](/contact-center-management-campaigns-engagement-window.html#to-add-additional-functionality-to-your-window)
-* [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support) 
-* and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)! 
+* [Configure emoji support](/contact-center-management-campaigns-engagement-window.html#emoji-support)
+* and [more](/contact-center-management-campaigns-engagement-window.html#advanced-window-configuration-and-customization)!
 
 ## Engagement window studio basics
 
@@ -75,7 +75,7 @@ You can fully customize the conversation window to suit your brand by changing t
 
 ### Horizon theme
 
-A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and web messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
+A new Horizon theme has been added as the default engagement window. The Horizon theme will be the default for both chat and Web Messaging engagements and will impact desktop and mobile experiences. The new theme provides an improved, more modern consumer experience and customization options.
 
 The new Horizon theme features:
 * Large window
@@ -148,7 +148,7 @@ Click the **Views** drop-down menu to view the list of surveys. Then do one or m
 Brands have the ability to set the embedded window as floating. Once this configuration is enabled, the position of the window will be 20px from the bottom and 20px from the right. This feature is disabled by default.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Look and feel customization” button
 * Enable by clicking on “Floating engagement” checkbox
@@ -173,7 +173,7 @@ Brands have the ability to configure whether to provide consumers the ability to
 * This feature is available for desktop only.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Text area” section
 * Enable by clicking on “Emoji icon” checkbox
@@ -183,13 +183,13 @@ Enable emoji icon in the text area:
 
 ![](img/week-of-september-30th-8.png)
 
-Consumer view: adding emojis from desktop web messaging or chat window
+Consumer view: adding emojis from desktop Web Messaging or chat window
 
 ![](img/week-of-september-30th-9.png)
 
 ### Consumer actions menu location
 
-Brands have the ability to set the consumer actions menu location and elements within the web messaging or live chat engagement windows.
+Brands have the ability to set the consumer actions menu location and elements within the Web Messaging or live chat engagement windows.
 
 There are 2 options to set the location of the menu:
 * At the bottom left side of the window (current location and default for Ocean and Horizon themes)
@@ -198,7 +198,7 @@ There are 2 options to set the location of the menu:
 If the top menu option is selected, the menu icon will replace the X icon (close/end icon). If the consumer would like to end the conversation, they can do so by choosing the end conversation option from the menu.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Add elements” icon
 * Click on “Menu position and elements”
@@ -206,7 +206,7 @@ If the top menu option is selected, the menu icon will replace the X icon (close
 * Click Save
 
 **Limitations**
-* The top menu position is available for web messaging only and will not be visible in the engagement studio if the window is set for chat.
+* The top menu position is available for Web Messaging only and will not be visible in the engagement studio if the window is set for chat.
 
 Configure the location of the menu for the engagement window:
 
@@ -232,10 +232,10 @@ Consumer side bottom menu:
 
 ### Add attachment icon to actions menu
 
-When the menu is configured to be at the top for web messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
+When the menu is configured to be at the top for Web Messaging and file sharing is enabled, for the account, the attachment icon is displayed at the consumer text area. Brands have the ability to configure the visibility of the attachment icon within the engagement window. This will be enabled (visible) by default.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Text area”
 * Enable by clicking on “Attachment icon” checkbox
@@ -265,7 +265,7 @@ Available customizations:
 
 ### Agent picture configuration
 
-1. In LiveEngage, go to the Users tab
+1. In the Conversational Cloud, go to the Users tab
 2. Click on the row with the relevant agent’s name to edit their information
 3. In the “Picture URL” field, add the URL of the agent’s personal picture
 
@@ -332,7 +332,7 @@ Brands have the ability to set the radius of the top and bottom corners of the e
 By default the corner settings will be 0 0 0px 0px , which means that the corners are square, as today. This will apply to the embedded window, and the pop out, for both mobile and desktop.
 
 **Enablement**
-* Log into LiveEngage
+* Log into the Conversational Cloud
 * Go to Engagement window studio
 * Click on “Open additional window settings”
 * Click on “Look and feel” section to expand

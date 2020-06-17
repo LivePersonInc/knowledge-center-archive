@@ -1,29 +1,29 @@
 ---
-pagename: SocialConnect user guide
-redirect:
-  - messaging-channels-socialconnect-user-guide.html
+pagename: Social Messaging user guide
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
 subtitle:
 level3: ''
-permalink: messaging-channels-socialconnect-socialconnect-user-guide.html
+permalink: messaging-channels-social-messaging-social-messaging-user-guide.html
 isTutorial: false
 isNew: false
-
+redirect:
+  - messaging-channels-socialconnect-user-guide.html
+  - messaging-channels-socialconnect-socialconnect-user-guide.html
 ---
-SocialConnect extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social.
+Social Messaging extends Liveperson’s industry-leading conversational commerce platform, AI and automation capabilities, and multi-decade expertise in connecting brands with customers, into the world of social.
 Please follow instructions below on how set up Social Connect.
 
 ## Getting started
 
-Social connect can be accessed via the quick launch menu
+Social Messaging can be accessed via the quick launch menu.
 
 ![](img/Quick_launch_man_workspace1.png)
 
 ## Agent experience
 
-Contact center agents will interact with customers as they typically would in LiveEngage with any other messaging channel. Additionally, social specific capabilities will be available via the SocialConnect agent widget.
+Contact center agents will interact with customers as they typically would in the Conversational Cloud with any other messaging channel. Additionally, social specific capabilities will be available via the Social Messaging agent widget.
 
 ## Agent workspace transcript
 
@@ -76,7 +76,7 @@ The Consumer Profile provides agents with the user’s channel-specific social n
 
 ### Send image
 
-The “Send Image” button provides agents the ability to send media files (images and gifs) to consumers publicly or privately through the Social Widget. These media files can be located in a URL or on the agent’s desktop, and sent through LiveEngage to the consumer. This capability is configurable by an admin in the SocialConnect Home.
+The “Send Image” button provides agents the ability to send media files (images and gifs) to consumers publicly or privately through the Social Widget. These media files can be located in a URL or on the agent’s desktop, and sent through the Conversational Cloud to the consumer. This capability is configurable by an admin in the Social Messaging Home.
 
 * Agents Select the “Add Image” Button located on the bottom of the Social Widget
 * Agents are taken to the Add Media tool
@@ -152,26 +152,26 @@ View media provides agents the ability to view all images, gifs and videos recei
 
 ## Configuration
 
-SocialConnect will be enabled by your LivePerson account team.
+Social Messaging will be enabled by your LivePerson account team.
 Brands can connect and configure Social media accounts they would like to receive public/private messages from.
 
-* SocialConnect home is only available to LiveEngage administrators
+* Social Messaging home is only available to administrators
 * Admins can add new accounts by selecting the “Add Account” button, after selection, admins are taken through the Social Channel specific configuration page
 * Facebook
   * Admins log into Facebook utilizing the Facebook account with admin access to the brand page
   * After logging in, a list of Facebook pages that the admin has administrator access to will display
-  * Admins will select the page they would like to connect to SocialConnect
+  * Admins will select the page they would like to connect to Social Messaging
 * Twitter
   * Admins log into Twitter utilizing the brand Twitter account credentials
-  * After logging in, the admin will select “Authorize App” to connect with SocialConnect
+  * After logging in, the admin will select “Authorize App” to connect with Social Messaging
 * From the Accounts Screen admins are presented with a table of key information
   * Account Name
   * Channel
   * Created Date and By
   * Status of Integration
   * Edit
-    * Ability to Unlink Accounts from SocialConnect
-    * Ability to Relink Accounts to SocialConnect
+    * Ability to Unlink Accounts from Social Messaging
+    * Ability to Relink Accounts to Social Messaging
 
 ![](img/socialconnect-user-guide-22.png)
 
@@ -183,9 +183,9 @@ Brands can connect and configure Social media accounts they would like to receiv
 
 ### Routing
 
-SocialConnect will support basic routing of a social media channel (e.g. Facebook or Twitter) to a single Skill. Each channel will map to a separate skill.
+Social Messaging will support basic routing of a social media channel (e.g. Facebook or Twitter) to a single Skill. Each channel will map to a separate skill.
 
-More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the SocialConnect product.
+More complex routing can be supported through professional services (e.g. Automation routing bot). More complex routing and public filtering will not be supported in the initial MVP but will be supported in future phases of the Social Messaging product.
 
 {: .notice}
-SocialConnect will not add any additional metrics or capabilities to the LiveEngage reporting facilities. All existing facilities, such as the Report Builder, should operate with SocialConnect as expected.
+Social Messaging will not add any additional metrics or capabilities to the Conversational Cloud reporting facilities. All existing facilities, such as the Analytics Builder, should operate with Social Messaging as expected.

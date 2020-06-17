@@ -12,7 +12,7 @@ redirect_from:
 - how-to-extract.html
 
 ---
-LiveEngage can extract information about certain attributes that exist on your web pages, such as cart total, marketing channel source, transaction order ID and lead details. We call these “engagement attributes”, and they can be used to improve your customer satisfaction, to customize your engagement experience and to generate reports.
+The Conversational Cloud can extract information about certain attributes that exist on your web pages, such as cart total, marketing channel source, transaction order ID and lead details. We call these “engagement attributes”, and they can be used to improve your customer satisfaction, to customize your engagement experience and to generate reports.
 
 1. Decide what attributes you want to extract.
 2. Find the element that holds the data in your web page source. LivePerson can collect data from html element class, ID or Javascript global variable.

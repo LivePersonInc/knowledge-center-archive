@@ -33,7 +33,7 @@ Messaging is a two-way communication medium, meaning that both parties - the con
 
 ### Text mass marketing
 
-Regulations may prohibit brands from sending mass SMS advertising messages, using autodialers or otherwise, to consumers without their explicit prior written consent. As this is not a feature of the LiveEngage SMS functionality, this document will focus on one-to-one texting.
+Regulations may prohibit brands from sending mass SMS advertising messages, using autodialers or otherwise, to consumers without their explicit prior written consent. As this is not a feature of the Conversational Cloud SMS functionality, this document will focus on one-to-one texting.
 
 ### One-to-one texting
 
@@ -41,14 +41,14 @@ One-to-one texting is a real conversation between two people. Although the major
 
 ## Best practices for texting customers
 
-LiveEngage SMS functionality was created to help brands facilitate one-to-one text conversations. Your team can receive and respond to SMS text messages from customers. Texts are sent and received through the LiveEngage platform, while transcripts are recorded and stored. You can achieve better control and send automatic opt-out messages through creation of custom Predefined Content via the agent workspace.
+The Conversational Cloud SMS functionality was created to help brands facilitate one-to-one text conversations. Your team can receive and respond to SMS text messages from customers. Texts are sent and received through the Conversational Cloud platform, while transcripts are recorded and stored. You can achieve better control and send automatic opt-out messages through creation of custom Predefined Content via the Agent Workspace.
 
 ### Sample scenarios
 
 | Scenario | Possible regulatory issue(s) | Best practice(s) |
 | --- | --- | --- |
 | Follow up a chat lead by texting the person | Without prior written consent, any such text (or call) could violate local regulations. | Collect prior written consent during the chat conversation using Predefined Content (e.g., “Thanks for chatting with us...may we call or text you at the number provided?”). |
-| Replying to a text lead (initiated by a person who typed your textenabled phone number into their phone) by texting the person. | Consent may be implied because the consumer initiated the conversation via text. Nevertheless, your response should be timely and include opt-out instructions. | Common sense says that a person sending you a texted question probably wants to be contacted in turn. Provided your response is timely, includes opt-out instructions, and is not telemarketing in nature, it is not likely to be an issue. |
+| Replying to a text lead (initiated by a person who typed your text-enabled phone number into their phone) by texting the person. | Consent may be implied because the consumer initiated the conversation via text. Nevertheless, your response should be timely and include opt-out instructions. | Common sense says that a person sending you a texted question probably wants to be contacted in turn. Provided your response is timely, includes opt-out instructions, and is not telemarketing in nature, it is not likely to be an issue. |
 | Follow up a text lead (initiated by a person who filled out an online text form) by texting the person. | The online text form should explicitly call out that the consumer is consenting to receive SMS texts and describe the nature of such texts. | Offer customers an opt-out option at the start of the conversation. Ensure that your initial response is timely. |
 | Initiate an outbound text to a person whose mobile phone number was obtained from a marketing list or some other place. | Without prior written consent, any such text (or call) could violate local regulations. This is one of the riskiest scenarios as you don’t really know how or for what purpose the mobile number was gathered. | Do not contact. |
 
@@ -57,7 +57,7 @@ LiveEngage SMS functionality was created to help brands facilitate one-to-one te
 1. **Gather the appropriate written consent wherever you capture phone numbers, from forms to in-person conversations:** Make it part of the process to ask for a customer’s agreement to be contacted via SMS text message. This includes clearly communicating what the customer can expect to receive when providing their number. You can add this to your customer survey(s), or to your Predefined Content which can be sent to the customer during a conversation.
 2. **Add the “message; data rates may apply” disclaimer:** You should add it on consumer-facing calls to action such as the webpage or ad where the customer sees the number or the invitation to text. You want to ensure customers know what to expect even if they text you a question.
 3. **Send an initial confirmation text message with opt-out instructions:** Include opt-out instructions, which can be as simple as “text STOP to cancel,” even if the customer texted you first. Often called a “double opt-in message,” it may be smart to ask the customer for permission to text back and forth with them, even if they texted you first as well.
-4. **Honor the opt-outs:** Where a customer has opted-out, it may be a good idea to make a note of this in the Agent Summary in the agent workspace.
+4. **Honor the opt-outs:** Where a customer has opted-out, it may be a good idea to make a note of this in the Agent Summary in the Agent Workspace.
 
 ### Sample use of predefined content
 

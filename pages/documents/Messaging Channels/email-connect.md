@@ -16,19 +16,19 @@ redirect_from:
 
 With EmailConnect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
-Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
+Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web Messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
-EmailConnect utilizes the powerful features available with other LiveEngage messaging channels, including support for bots powered by Maven, predefined content, reporting and smart capacity.
+EmailConnect utilizes the powerful features available with other messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
 
 ## Why brands should use EmailConnect
 
 ### Increase agent efficiency through a better email management tool
 
-EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within LiveEngage instead of using a separate platform for handling consumer emails.
+EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within the Conversational Cloud instead of using a separate platform for handling consumer emails.
 
 ### Single interface for all messaging
 
-Agents handle emails in the same easy to use LiveEngage interface they use for all other messaging conversations, meaning the same set of agents can support email while they simultaneously support other messaging channels.
+Agents handle emails in the same easy-to-use Conversational Cloud interface they use for all other messaging conversations, meaning the same set of agents can support email while they simultaneously support other messaging channels.
 
 ### Use bots and automations for emails
 
@@ -38,7 +38,7 @@ EmailConnect is fully compatible with LivePerson powered bots and AI, allowing b
 
 Email Connect has access to the same predefined content tools that are available across other messaging channels. Agents can drop in predefined email text to provide polish to every email response.
 
-### Rich messaging capabilities
+### Rich Conversation capabilities
 
 Send and receive email attachments using EmailConnect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “EmailConnect Setup” below.
 
@@ -48,15 +48,18 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 
 ## EmailConnect Setup
 
+{: .notice}  
+**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in the Conversational Cloud. More features coming soon.
+
 {: .important}  
 To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
 
-### Step 1: Connect your email in LiveEngage
+### Step 1: Connect your email in the Conversational Cloud
 
 There are two ways to launch EmailConnect set up page:
 
-#### Option 1 Email Connect Setup via DataSources.
-Login to LiveEngage and click the Campaigns icon located in the left navigation bar. Click on Data Sources in the Campaigns footnote.
+#### Option 1 Email Connect Setup via Data Sources.
+Login to the Conversational Cloud and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
 
 ![](img/Email-connect-0.png)
 ![](img/email-connect-1a.png)
@@ -65,12 +68,9 @@ Click the Connect button in the Email Connect tile.
 
 ![](img/email-connect-2.png)
 
-Click Add Email at the upper right of your screen.
-![](img/EmailConnect_new_UI1.png)
+#### Option 2 Email Connect Setup via Conversational Cloud Applications
 
-#### Option 2 Email Connect Setup via LiveEngage Applications
-
-Login to LiveEngage and click LiveEngage Applications menu at the bottom left of your screen.
+Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen.
 
 Click **EmailConnect**. 
 
@@ -95,12 +95,12 @@ Follow the instructions on the screen to save your email configuration details.
 ### Step 3: Save email configuration and skill settings
 Click Test Connection and then click Save.
 
-### Step 4 Start receiving and responding to emails in LiveEngage
+### Step 4 Start receiving and responding to emails in the Conversational Cloud
 
-You can test your setup by sending an email from your email account to the email address you connected in LiveEngage. When the message shows up in LiveEngage, you can respond as an agent and see the response in the sender’s email account.
+You can test your setup by sending an email from your email account to the email address you connected in the Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the sender’s email account.
 
 {: .notice}
-EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take upto 10 minutes for brand to see the first email in LiveEngage.
+EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take up to 10 minutes for brand to see the first email in the Conversational Cloud.
 
 ### Step 5: Setup for file attachments (optional)
 Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
@@ -108,9 +108,9 @@ Email Connect uses Agent and Consumer File Sharing feature and supports these fi
 {: .notice}
 To enable file attachments, please contact your LivePerson account team.
 
-Once you have received a response that this step is complete, you will need to change the following settings in LiveEngage.
+Once you have received a response that this step is complete, you will need to change the following settings in the Conversational Cloud.
 
-Log into [LiveEngage](https://authentication.liveperson.net) account as Administrator to enable following configuration:
+Log into the [Conversational Cloud](https://authentication.liveperson.net) account as Administrator to enable following configuration:
 
 * Select the 'Profiles' tab from the Users module
 
@@ -123,7 +123,7 @@ Turn on the following settings for Agent and Agent Manager Profiles:
 ## Configure Auto-Response Text
 
 ### Step 6 Add custom text in your preferred language
-This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in LiveEngage. You can use any language of your choice. Maximum number of characters limit is 1000.
+This custom text will be used as auto-response to consumer email when the same consumer has an existing open conversation in the Conversational Cloud. You can use any language of your choice. Maximum number of characters limit is 1000.
 
 ![](img/Email-connect-step-6.png)
 
@@ -164,9 +164,9 @@ Brands can add an unlimited number of email addresses to LiveEngage and even rou
 
 Agent Effectiveness reports are available for all email conversations to brand administrators and agent manager.
 
-### Step 11: Open Report Builder
+### Step 11: Open the Analytics Builder
 
-Login to [LiveEngage](https://authentication.liveperson.net/) and click LiveEngage Applications menu at the bottom left of your screen. Click on Report Builder.
+Login to [the Conversational Cloud](https://authentication.liveperson.net/) and click Conversational Cloud Applications menu at the bottom left of your screen. Click on Analytics Builder.
 
 ![](img/EmailConnect_Reporting1.png)
 

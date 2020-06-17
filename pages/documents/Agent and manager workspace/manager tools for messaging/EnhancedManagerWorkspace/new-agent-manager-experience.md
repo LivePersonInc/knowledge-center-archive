@@ -1,9 +1,9 @@
 ---
 pagename: New agent manager experience
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html
 isTutorial: false
@@ -14,25 +14,25 @@ redirect_from:
   
 ---
 
-For messaging managers that are using the new manager workspace, it is also recommended to use the enhanced agent workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
+For messaging managers that are using the new Manager Workspace, it is also recommended to use the enhanced Agent Workspace. Together, these two workspaces create holistic workflows for messaging managers. Both workspaces can be [configured on or off by permission settings](/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-manager-workspace-user-guide.html).
 
-This document covers how some of the workflows for managers will look when using a **combination of the new manager workspace and enhanced agent workspace.**
+This document covers how some of the workflows for managers will look when using a **combination of the new Manager Workspace and enhanced Agent Workspace.**
 
 {: .notice}
-**Please note:** For managers that do not turn on the enhanced agent workspace, the manager workspace will be as an add-on only and there will be no effect on their existing workflows.
+**Please note:** For managers that do not turn on the enhanced Agent Workspace, the Manager Workspace will be as an add-on only and there will be no effect on their existing workflows.
 
-Quick summary of where information can be found once you enable the enhanced agent workspace:
+Quick summary of where information can be found once you enable the enhanced Agent Workspace:
 
 Section | For agents | For managers
 --- | --- | ---
-All Connections | Available in the new “connections” module within the agent workspace. | Available in the new “connections” module within the agent workspace.
-Open connections | Agent conversations are managed in My Connections within the agent workspace. Agents with the “view other agents conversations” permission turned on can view them in All Connections. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in manager workspace for quick view and All Connections list for full view. Conversations joined by managers will appear in the My Connections area of the agent workspace.
-Messaging agents | Will not be viewable to agents | Available in new manager workspace Agents widget
+All Conversations | Available in the new “connections” module within the Agent Workspace. | Available in the new “connections” module within the Agent Workspace.
+Open Conversations | Agent conversations are managed in My Conversations within the Agent Workspace. Agents with the “view other agents conversations” permission turned on can view them in All Conversations. Without this permission they will not be able to see other agent’s conversations. | Conversation widget in Manager Workspace for quick view and All Conversations list for full view. Conversations joined by managers will appear in the My Conversations area of the Agent Workspace.
+Messaging agents | Will not be viewable to agents | Available in new Manager Workspace Agents widget
 
-If you have the manager workspace enabled, but not the new agent workspace, the tabs described in the table above will remain in the Visitors module.
+If you have the Manager Workspace enabled, but not the new Agent Workspace, the tabs described in the table above will remain in the Visitors module.
 
 ## Manager workflows
-The following describes how agent manager workflows will work across the two main workspaces: the manager workspace and the agent workspace + All Connections.
+The following describes how agent manager workflows will work across the two main workspaces: the Manager Workspace and the Agent Workspace + All Conversations.
 
 We'll cover the following workflows:
 * [Monitoring agents during a shift: for status and performance](/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-new-agent-manager-experience.html#monitoring-agents-during-a-shift-for-status-and-performance)
@@ -53,7 +53,7 @@ For more info, please see the [agent widget metrics](/agent-manager-workspace-ma
 
 ***Transitioning from the existing experience:***
 In the past the agent list was found in the Visitors module > ‘messaging agents’.  
-New capabilities that have been added to the manager workspace:
+New capabilities that have been added to the Manager Workspace:
 * CSAT metric added to the agent list
 * Card view of agent list
 * The % online rate and closed conversation metrics were limited to display 12 hours of data. In the new workspace, the timeframe for these metrics can be defined, up to 24 hours based on the workspace filter.
@@ -61,40 +61,40 @@ New capabilities that have been added to the manager workspace:
 ### Monitoring conversations during a shift
 Managers have many reasons to review the ongoing conversation list during a shift.  These include monitoring SLAs and taking action on conversations that are overdue, monitoring and fixing bot or routing performance, and determining where additional attention is needed.
 
-The new Conversation widget in the manager workspace is designed to empower managers to quickly and efficiently review conversations taking place during their shift.  This list was designed for quick monitoring and is sorted by time to response - so that overdue conversations always appear at the top of the list.
+The new Conversation widget in the Manager Workspace is designed to empower managers to quickly and efficiently review conversations taking place during their shift.  This list was designed for quick monitoring and is sorted by time to response - so that overdue conversations always appear at the top of the list.
 
 The conversation widget displays:
 * All open conversations that began in the last 30 days
 * Conversations that were closed in the past 24 hours (configurable from 1-24 hours). Closed conversations enable you to drill down on the metrics you see in the activity summary - for example, if monitoring the number of closed conversations or the CSAT - you can have a quick view or drill down into the conversations driving those metrics.
 
 ***Transitioning from the existing experience:***
-Until now, managers were monitoring conversations using the Open Connections list.
+Until now, managers were monitoring conversations using the Open Conversations list.
 
 ### Viewing a conversation transcript
 The Conversation widget in the workspace was designed for skimming through lists of conversations. If you’d like to read any conversation as it happens in real time, you can do so by clicking on the consumer name in this list.
 
-Once you click on a visitors name, the All Connections list within the agent workspace will open, automatically displaying the selected conversation:
+Once you click on a visitors name, the All Conversations list within the Agent Workspace will open, automatically displaying the selected conversation:
 
 To go back to view additional conversations - you have two options:
 1. Click the ‘list view’ on the right corner to see the full list (remove filters to view complete list)
-2.  back to the manager workspace using the icon in the left navigation
+2.  back to the Manager Workspace using the icon in the left navigation
 
 ![](img/new-agent-manager-experience-1.png){:class="newagent"}
 
 #### Viewing conversation transcripts in real time
 
-**Existing view:** In the Open Connections tab, managers can scroll through active conversations and view the transcripts updating in real time.
+**Existing view:** In the Open Conversations tab, managers can scroll through active conversations and view the transcripts updating in real time.
 
-**New view:** The conversations displayed in the conversation widget within the new manager workspace as well as the conversations displayed in the All Connections list are in near-real time.  
+**New view:** The conversations displayed in the conversation widget within the new Manager Workspace as well as the conversations displayed in the All Conversations list are in near-real time.  
 
-Once you click on a conversation to view its transcript, this detailed view will appear in real time. If you have been assigned a conversation, or joined a conversation it will appear in your personal My Connections list, which also displays conversations in real time.
+Once you click on a conversation to view its transcript, this detailed view will appear in real time. If you have been assigned a conversation, or joined a conversation it will appear in your personal My Conversations list, which also displays conversations in real time.
 
 #### Opening transcripts without affecting the auto-close time
 
-Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Connections and use only the preview to view the conversation. In the new view of All Connections this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
+Up until today, when a manager viewed a conversation, it would open the conversation and affect the auto-close time. To work around this, managers would go to All Conversations and use only the preview to view the conversation. In the new view of All Conversations this problem has been eliminated. Managers can now freely view and preview conversations without affecting the auto-close time.
 
-{: .notice} 
-**Please note:** The above update only applies to managers using the new manager workspace **with the enhanced agent workspace also enabled**. Drilling down into a conversation from the new manager workspace **without** the enhanced agent workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Connections list as was done previously. 
+{: .notice}
+**Please note:** The above update only applies to managers using the new Manager Workspace **with the enhanced Agent Workspace also enabled**. Drilling down into a conversation from the new Manager Workspace **without** the enhanced Agent Workspace enabled will cause it to reset the auto-close time of the conversation. In order to avoid this, you will need to use the preview functionality from the All Conversations list as was done previously.
 
 ### Opening multiple conversations concurrently  
 
@@ -107,28 +107,28 @@ Until today, managers used the orbs on the bottom of the screen to open multiple
 
 ### Taking actions on conversations
 
-After you view conversations in All Connections, you have the ability to take [several actions](/messaging-managers-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
+After you view conversations in All Conversations, you have the ability to take [several actions](/messaging-managers-all-connections.html#taking-actions-on-conversations-messaging-sending-back-to-queue-transferring-etc).
 
 Once you view the details of a conversation, you have the option to:
 * **Join the conversation:** To join the conversation, click **+ Join conversation** at the bottom of the transcript. This will enable both you and the agent to converse with the consumer simultaneously.
 
-{: .notice} 
-**Please note:** In the new manager workspace you must first join a conversation before taking actions on it. 
+{: .notice}
+**Please note:** In the new Manager Workspace you must first join a conversation before taking actions on it.
 
 Once you click on + join conversation, the menu icon will appear on the top of the conversation you can take the following actions:
 * **Takeover the conversation:** remove the conversation from the current agent and become the primary owner of the conversation
-* **Resume the conversation** 
+* **Resume the conversation**
 * **Transfer the conversation**
 * **Send conversation back to queue**
 * **Close the conversation**
 
-You can click on ‘to send messages go to My Connections’ list and it will automatically open this conversation in the workspace and enable you to start messaging.
+You can click on ‘to send messages go to My Conversations list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
 ![](img/new-agent-manager-experience-3.png)
 
 ### Searching for specific conversations
 
-To search for a specific conversation, start by navigating to the All Connections area within the agent workspace.  
+To search for a specific conversation, start by navigating to the All Conversations area within the Agent Workspace.  
 
 The timeframe for the search now appears on top of the list and you can start filtering based on time. **Note:** You can search for conversations that began within the past 13 months.
 
@@ -142,29 +142,29 @@ You can search for a conversation by its ID directly in this filter box, or sear
 
 ![](img/new-agent-manager-experience-5.png){:class="newagent"}
 
-#### Searching for open connections over 30 days old
+#### Searching for open conversations over 30 days old
 
-**Until now:** The Open Connections list included all open conversations, without time restrictions. However, it only displayed up to 1000 conversations.
+**Until now:** The Open Conversations list included all open conversations, without time restrictions. However, it only displayed up to 1000 conversations.
 
-**New view:** The new conversation widget in the manager workspace displays conversations that were opened in the past 30 days. Managers can filter and search for all open conversations in All Connections list.
+**New view:** The new conversation widget in the Manager Workspace displays conversations that were opened in the past 30 days. Managers can filter and search for all open conversations in All Conversations list.
 
 ### Monitoring Shift KPIs
 
-Before the new manager workspace was introduced, managers relied on the data bar as well as more in-depth dashboards for information. The new manager workspace was tailor-made to provide managers with the data they need in one centralized space.
+Before the new Manager Workspace was introduced, managers relied on the data bar as well as more in-depth dashboards for information. The new Manager Workspace was tailor-made to provide managers with the data they need in one centralized space.
 
 #### KPI Bar
 
 Changes to how managers monitor their KPIs will be:
 * Former data bar will be replaced completely with the new workspace.
 ![](img/new-agent-manager-experience-6.png){:class="newagent"}
-* The former data bar displays data for the entire account, whereas in the manager workspace the data will be relevant only to the groups that are assigned to each manager
+* The former data bar displays data for the entire account, whereas in the Manager Workspace the data will be relevant only to the groups that are assigned to each manager
 * The number of current open conversations will be broken down into two data points:
   * Conversations in queue
   * Assigned conversations
 * The following 4 KPIs will no longer be available:
   * ‘Pending’ (number of conversations where a response is required)
   * ‘Soon to be overdue’ (discontinued thanks to feedback from current users)
-  * ‘Overdue’ (will be added in future phases of the manager workspace)
+  * ‘Overdue’ (will be added in future phases of the Manager Workspace)
   * ‘Actionable’ (discontinued thanks to feedback from users)
 * New data point added:
   * **Load:** The total weight of assigned conversations as a percentage of the maximum concurrent conversations of all agents
@@ -181,21 +181,21 @@ Some managers are using the information available in the drop down dashboard:
 
 ![](img/new-agent-manager-experience-8.png){:class="newagent"}
 
-The new manager workspace offers much greater detail on the shift and will replace this dashboard. A couple of items from the dashboard will be discontinued:
+The new Manager Workspace offers much greater detail on the shift and will replace this dashboard. A couple of items from the dashboard will be discontinued:
 * **Closed conversations graph** - This graph not be available in the new workspace, only the total number of closed conversations. Users can view the [Real Time Dashboard](/data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) for these details.
-* **CSAT distribution** - This information will be available in the new workspace. The [Report Builder](/data-reporting-report-builder-report-builder-overview.html) is available with detailed CSAT reporting for further analysis as needed.
+* **CSAT distribution** - This information will be available in the new workspace. The [Analytics Builder](/data-reporting-report-builder-report-builder-overview.html) is available with detailed CSAT reporting for further analysis as needed.
 
 ## Managing both chat & messaging agents
 
 For accounts that serve both chat and messaging, some managers may oversee both live chat as well as messaging agents.
 
-The new agent workspace and the All Connections area cover ONLY messaging conversations.
+The new Agent Workspace and the All Conversations area cover ONLY messaging conversations.
 
 The existing tools for monitoring live chat: Web Visitors, Web History and All Agents will remain as they are. Blended managers will have therefore two sets of tools and will use both. All tools will be available in the same account.
 
 To monitor and manage messaging agents, use:
-* New manager workspace
-* Enhanced agent workspace & All Connections list
+* New Manager Workspace
+* Enhanced Agent Workspace & All Conversations list
 
 To monitor and manage chat agents, use:
 * Web visitors
@@ -215,11 +215,11 @@ In the past, consumers were able to mark a conversation as ‘urgent’ and an u
 **Discontinued filters and sorting**
 The following filters will no longer be available:
 * Filter by first time consumer (used to be in Open Connections)
-* Filter by overdue conversations. Instead, managers can sort the response time column in both All Connections and in the manager workspace.
+* Filter by overdue conversations. Instead, managers can sort the response time column in both All Conversations and in the Manager Workspace.
 * Sorting open conversations by last message time will no longer be available
 
 **Agent unread messages indication**
 Next to the agent name, there was an indication of how many unread messages they had in that conversation. This indicator will not be available in the new workspace.
 
 **List of conversations agents are joined into**
-Through the existing Open Connections list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new  conversation widget will only display the conversations that the agent is assigned to.   
+Through the existing Open Conversations list, it is possible to filter by agent name and see the conversations an agent is assigned to as well as has been joined into. The new conversation widget will only display the conversations that the agent is assigned to.   

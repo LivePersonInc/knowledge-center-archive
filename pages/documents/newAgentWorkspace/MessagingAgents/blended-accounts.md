@@ -1,9 +1,9 @@
 ---
 pagename: Blended accounts
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: messaging-agents-blended-accounts.html
 isTutorial: false
@@ -12,7 +12,7 @@ isNew: false
 layout: newAgentWorkspace
 ---
 
-For brands using LiveEngage, there are currently two conversation types:
+For brands using the Conversational Cloud, there are currently two conversation types:
 
 * **Live chat**: A single exchange of a live conversation between consumer and agent. Live chats have a clear start and end to a conversation and once a live chat ends, it will not continue. Consumers have the option to start a new live chat with a new agent.
 
@@ -62,7 +62,7 @@ For brands that have agents handling both live chat and messaging conversations 
 
 For agents that have two separate logins:
 
-* Messaging user: Enable the ‘use the enhanced agent workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
+* Messaging user: Enable the ‘use the enhanced Agent Workspace’ permission in the profile of the user. The enhanced workspace will become the default workspace for these agents.
 
 * Chat user: No changes to permissions are required.  Once the user logins in, they will only see the chat workspace with the three relevant chat tabs (web visitors, web history, agents)
 
@@ -80,7 +80,7 @@ For brands that have agents using the same login for both chat and messaging, th
 
 * The enhanced messaging workspace will appear and become the default home page.
 
-* The visitors module will have only the tabs dedicated to live chat: ‘web visitors’, ‘web history’ and ‘all agents’ (the ‘open connections’, ‘all connections’ and ‘messaging agents’ tabs will disappear from their chat workspace)
+* The visitors module will have only the tabs dedicated to live chat: ‘web visitors’, ‘web history’ and ‘all agents’ (the ‘open conversations', ‘all conversations' and ‘messaging agents’ tabs will disappear from their chat workspace)
 
 * These agents will have two workspaces and will have to use the appropriate one for the shift they are taking.
 
@@ -90,9 +90,9 @@ Brands can elect to forgo the benefits of the enhanced workspace and enable agen
 
 ## Blended agents within the same shift
 
-Some brands elect to have agents taking both live chat and messaging concurrently. 
+Some brands elect to have agents taking both live chat and messaging concurrently.
 
-**Agents that work in this mode will NOT be able to utilize the enhanced agent workspace.**
+**Agents that work in this mode will NOT be able to utilize the enhanced Agent Workspace.**
 
 To use the enhanced workspace you must create a different login for these agents and follow the instructions as above.
 

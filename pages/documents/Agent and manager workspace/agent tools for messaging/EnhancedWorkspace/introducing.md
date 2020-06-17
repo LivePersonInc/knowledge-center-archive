@@ -1,9 +1,9 @@
 ---
 pagename: Summary of enhancements
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: user-guide-summary-of-enhancements.html
 isTutorial: false
@@ -17,9 +17,9 @@ redirect_from:
   
 ---
 
-Enhanced by automation and featuring an upgraded design, the agent workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
+Enhanced by automation and featuring an upgraded design, the Agent Workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
 
-## Main enhancements to the agent workspace
+## Main enhancements to the Agent Workspace
 
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease. 
 

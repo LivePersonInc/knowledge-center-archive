@@ -15,7 +15,7 @@ redirect_from:
 
 ---
 {: .notice}
-To access Conversation Builder, click the **Manage conversational AI and bots** icon on the left side of the LiveEngage screen. Then, in the Conversational AI dashboard that appears, click **Conversation Builder**.
+To access the Conversation Builder, click the Conversational AI tab at the top of your Conversational Cloud screen. From there, click on the Conversation Builder icon in the left hand side-bar and then click on the Conversation Builder icon on the screen which opens.
 
 ### Why brands need bots, automation and empowered agents
 
@@ -77,4 +77,4 @@ Using inputs and prompts and a point-and-click interface, bots are built based o
 
 By allowing contact center managers, agents and agents managers to create and manage bots, the Conversation Builder helps brands to create bots that forge relationships with brands just as they talk to one another, through natural language and dialogue.
 
-To get started, see the [Getting Started tutorials](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html) in the Developers' Community.
+See the Developer Center for [tutorials and guides on the Conversation Builder](https://developers.liveperson.com/conversation-builder-platform-overview.html)  to learn how to get started, set up a user, and get up and running with pre-built bot templates.

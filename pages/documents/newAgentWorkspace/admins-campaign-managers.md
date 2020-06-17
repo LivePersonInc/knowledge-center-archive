@@ -1,9 +1,9 @@
 ---
 pagename: New navigation
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: admins-campaign-managers-new-navigation.html
 isTutorial: false
@@ -30,7 +30,7 @@ Admins and campaign managers have the new navigation with updated side bar icons
 | ![alt text](img/manager-workspace-regular@2x.png)| Manager workspace|  
 | ![alt text](img/visitors-regular@2x.png)  | Visitors   |
 | ![alt text](img/automation-regular@2x.png) | Automation|
-| ![alt text](img/campaigns-regular@2x.png)  | Campaigns |
+| ![alt text](img/campaigns-regular@2x.png)  | Campaign Builder |
 | ![alt text](img/users-regular@2x.png)      | Users     |
 | ![alt text](img/night-vision-hover@2x.png) | Night vision  |
 

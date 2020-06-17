@@ -1,10 +1,10 @@
 - categoryname: Getting started
   image: getting-started
   subcategories:
-    - subcategoryname: LivePerson's conversational commerce platform
+    - subcategoryname: The LivePerson Conversational Cloud
     - subcategoryname: Quick start guides
       pages:
-        - pagename: Web messaging quick start
+        - pagename: Web Messaging quick start
         - pagename: Conversation Builder quick start
         - pagename: Facebook Messenger quick start
         - pagename: Twilio SMS quick start
@@ -12,21 +12,22 @@
     - subcategoryname: Getting started with live chat
     - subcategoryname: Getting started with bots
     - subcategoryname: Add the LivePerson tag to your website
+    - subcategoryname: Quick start test
 
 
 - categoryname: Messaging channels
   image: messaging-channels
   subcategories:
-    - subcategoryname: Web messaging
+    - subcategoryname: Web Messaging
       pages:
-        - pagename: Add web messaging to your website
-        - pagename: Authenticated web messaging
-        - pagename: Proactive engagements for web messaging
-    - subcategoryname: "Mobile app messaging"
+        - pagename: Add Web Messaging to your website
+        - pagename: Authenticated Web Messaging
+        - pagename: Proactive engagements for Web Messaging
+    - subcategoryname: App Messaging
       pages:
         - pagename: Add messaging to your mobile app
-        - pagename: Mobile app messaging FAQs
-        - pagename: Mobile app messaging capabilities
+        - pagename: App Messaging FAQs
+        - pagename: App Messaging capabilities
     - subcategoryname: Messaging connectors overview
     - subcategoryname: SMS
       pages:
@@ -51,13 +52,13 @@
       pages:
         - pagename: Add live chat to your website
         - pagename: Displaying chat engagements
-    - subcategoryname: Proactive messaging
+    - subcategoryname: Proactive Messaging
       pages:
-        - pagename: Proactive messaging overview
-        - pagename: Proactive messaging user guide
-    - subcategoryname: Rich messaging
+        - pagename: Proactive Messaging overview
+        - pagename: Proactive Messaging user guide
+    - subcategoryname: Rich Conversations
       pages:
-        - pagename: Rich messaging overview
+        - pagename: Rich Conversations overview
         - pagename: Photo sharing user guide
         - pagename: Agent file sharing overview
         - pagename: Audio messaging user guide
@@ -74,13 +75,13 @@
    - subcategoryname: Conversational AI
    - subcategoryname: How bots work with LivePerson
    - subcategoryname: Third Party Bot Connectors
-   - subcategoryname: Maven
+   - subcategoryname: Conversation Orchestrator
      pages:
        - pagename: Overview
-       - pagename: Maven Assist
+       - pagename: Agent Assist
        - pagename: Context Warehouse
-       - pagename: AI Powered Routing
-       - pagename: AskMaven API
+       - pagename: Dynamic Routing
+       - pagename: Recommendation API
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
@@ -106,10 +107,10 @@
         - pagename: Fallback configuration per skill
         - pagename: Static load balancing
         - pagename: Private Messages overview
-        - pagename: Automatic messages
+        - pagename: Automatic Messages
           level3:
-            - level3name: Automatic messages overview
-            - level3name: Automatic messages configuration
+            - level3name: Automatic Messages overview
+            - level3name: Automatic Messages configuration
             - level3name: Automatic Conversation Distribution
         - pagename: Queue management
           level3:
@@ -118,10 +119,10 @@
         - pagename: Transfer to agent
         - pagename: Automatically unassign conversations from agents
         - pagename: Auto close for messaging conversations
-        - pagename: Smart Capacity
+        - pagename: Dynamic Capacity
           level3:
-            - level3name: Smart Capacity overview
-            - level3name: Smart Capacity per skill
+            - level3name: Dynamic Capacity overview
+            - level3name: Dynamic Capacity per skill
             - level3name: Capacity management for manual SLA
         - pagename: Preparing agents to start a shift
         - pagename: Shift scheduler configuration guide
@@ -152,14 +153,14 @@
         - pagename: Campaign dashboard and data bar
         - pagename: Outbound campaigns for CM
 
-- categoryname: "Agent & manager workspace"
+- categoryname: "Agent & Manager Workspace"
   image: agent-manager
   subcategories:
     - subcategoryname: Agent tools for messaging
       pages:
-        - pagename: Enhanced agent workspace for messaging
+        - pagename: Enhanced Agent Workspace for messaging
           level3:
-            - level3name: The enhanced agent workspace
+            - level3name: The enhanced Agent Workspace
             - level3name: User guide
             - level3name: FAQs
             - level3name: Configuration
@@ -168,10 +169,10 @@
             - level3name: Blended accounts
             - level3name: Conversational Commands
             - level3name: Quick launch menu
-        - pagename: Agent workspace for messaging
+        - pagename: Agent Workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
-            - level3name: Agent workspace for messaging tour
+            - level3name: Agent Workspace for messaging tour
             - level3name: Workspace basics
             - level3name: Managing messaging conversations
             - level3name: Taking breaks & ending your shift
@@ -179,27 +180,27 @@
             - level3name: CoBrowse for messaging
             - level3name: Voice and video calls overview
             - level3name: Best practices for messaging agents
-            - level3name: Agent workspace icons for messaging
+            - level3name: Agent Workspace icons for messaging
 
     - subcategoryname: Manager tools for messaging
       pages:
-        - pagename: New manager workspace for messaging
+        - pagename: New Manager Workspace for messaging
           level3:
             - level3name: Introducing the new manager tools
-            - level3name: Enhanced manager workspace user guide
-            - level3name: All Connections
+            - level3name: Enhanced Manager Workspace user guide
+            - level3name: All Conversations
             - level3name: Use cases
             - level3name: New agent manager experience
             - level3name: Tutorial
         - pagename: Other manager tools for messaging
           level3:
             - level3name: The messaging agents list
-            - level3name: All connections
+            - level3name: All Conversations
         - pagename: Hiring agents for messaging success
 
     - subcategoryname: Agent tools for live chat
       pages:
-        - pagename: Agent workspace for live chat
+        - pagename: Agent Workspace for live chat
         - pagename: CoBrowse for live chat
     - subcategoryname: Manager tools for live chat
       pages:
@@ -248,22 +249,22 @@
             - level3name: "Operational & staffing dashboard"
             - level3name: Skills dashboard for live chat
         - pagename: "How to export 100,000 chats into a dashboard"
-    - subcategoryname: "Meaningful Connection Score (MCS)"
+    - subcategoryname: Meaningful Conversation Score (MCS)
       pages:
-        - pagename: "Meaningful Connection Score (MCS) Overview"
+        - pagename: Meaningful Conversation Score (MCS) Overview
         - pagename: Accessing the toolkit
         - pagename: Using the MCS toolkit
-    - subcategoryname: Report Builder
+    - subcategoryname: Analytics Builder
       pages:
-        - pagename: Report Builder overview
-        - pagename: Introducing the enhanced Report Builder
-        - pagename: "Report Builder user guide (standard)"
-        - pagename: "Report Builder user guide (customization)"
+        - pagename: Analytics Builder overview
+        - pagename: Introducing the enhanced Analytics Builder
+        - pagename: "Analytics Builder user guide (standard)"
+        - pagename: "Analytics Builder user guide (customization)"
         - pagename: Predefined dashboards
-        - pagename: Report Builder FAQs
+        - pagename: Analytics Builder FAQs
         - pagename: "Data availability & latency"
         - pagename: Training tutorials
-        - pagename: Moving from BI to Report Builder
+        - pagename: Moving from BI to Analytics Builder
     - subcategoryname: Engagement attributes
       pages:
         - pagename: "Data sources & engagement attributes overview"
@@ -366,6 +367,7 @@
             - level3name: Week of June 1st
             - level3name: Week of June 8th
             - level3name: Week of June 15th
+      pages:
         - pagename: May
           level3:
             - level3name: Week of May 4th
@@ -378,7 +380,7 @@
             - level3name: Week of April 6th
             - level3name: Week of April 13th
             - level3name: Week of April 20th
-            - level3name: Week of April 27th 
+            - level3name: Week of April 27th
         - pagename: March
           level3:
             - level3name: Week of March 23rd
@@ -407,7 +409,7 @@
             - level3name: Week of November 25th
             - level3name: Week of November 18th
 
-       
+
 - categoryname: Troubleshooting
   image: Troubleshooting
   subcategories:

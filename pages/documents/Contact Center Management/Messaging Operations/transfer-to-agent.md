@@ -125,9 +125,9 @@ Conversations transferred directly to an agent will appear as any other conversa
 
 The only way the target agent will know the conversation has been sent directly to them is by concluding it from reading the transcript (since it will include the transferring agent’s conversation).
 
-## Viewing transferred conversations in the All connections tab
+## Viewing transferred conversations in the All Conversations tab
 
-Conversations which are transferred to a specific agent will reach the queue as normal. Hence, they will appear in the “All connections” tab in the “in queue” state. However, while agent name is “N/A” for regular in-queue conversations, for transfer-to-agent conversations, the agent name column will be populated with the destination agent name. In front of the Agent Name an arrow will appear to indicate that the conversation has been transfered and is waiting in queue for the agent. The Agent Group column will be populated with “N/A.”
+Conversations which are transferred to a specific agent will reach the queue as normal. Hence, they will appear in the “All Conversations" tab in the “in queue” state. However, while agent name is “N/A” for regular in-queue conversations, for transfer-to-agent conversations, the agent name column will be populated with the destination agent name. In front of the Agent Name an arrow will appear to indicate that the conversation has been transferred and is waiting in queue for the agent. The Agent Group column will be populated with “N/A.”
 
 When the agent accepts the conversation, the conversation will appear as any other assigned conversation. If the agent did not accept the conversation and timeout was reached, the conversation will appear as any other conversation in-queue.
 
@@ -151,7 +151,7 @@ Brands will be able to configure the message sent to consumers once they were tr
 No dynamic texts are currently available when transfer to agent was used.
 
 {: .notice}
-**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in LiveEngage to agents will be based on the skill Time To Response (TTR).
+**Note**: the auto message triggered by a transfer to agent operation will not include the “Response time” parameter (since the agent time to respond might be different than the SLA setting for the skill). However, the response time exposed in the Agent Workspace to agents will be based on the skill Time To Response (TTR).
 
 ![](/img/transfer-agent-10.png)
 
@@ -159,7 +159,7 @@ No dynamic texts are currently available when transfer to agent was used.
 
 ## **Reporting**
 
-In order to analyze “transfer-to-agent” operation, you may refer to the Report Builder.
+In order to analyze “transfer-to-agent” operation, you may refer to the Analytics Builder.
 
 On “Messaging Advanced Dashboard”> “Agent Messaging Activity” dataset the following metrics are available for use:
 
@@ -168,7 +168,7 @@ On “Messaging Advanced Dashboard”> “Agent Messaging Activity” dataset th
 
 ## Implementing transfer to agent bot logic (using APIs)
 
-In some business flows, brands would like to have the ability to transfer a conversation to a specific agent using their own bot logic. For example, returning a new conversation to the pervious agent who handled the consumer. In order to achieve this, brands can use the following APIs, available on our Developers Community:
+In some business flows, brands would like to have the ability to transfer a conversation to a specific agent using their own bot logic. For example, returning a new conversation to the pervious agent who handled the consumer. In order to achieve this, brands can use the following APIs, available on our Developer Center:
 
 **Transfer to agent API call:**
 
@@ -189,7 +189,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 
 ### Configuration steps summary
 
-1. To enable “Transfer to agent” capability on your LiveEngage account, please contact your LivePerson account team as the Transfer_To_Agent' must be enabled (in Houston - AC Features).
+1. To enable “Transfer to agent” capability on your LivePerson Conversational Cloud account, please contact your LivePerson account team as the Transfer_To_Agent' must be enabled (in Houston - AC Features).
 2. Define the maximal wait time for agent to accept as described in the [Fallback to skill ](contact-center-management-messaging-operations-transfer-to-agent.html#fallback-to-skill)section.
 3. Define who can perform the transfer-to-agent operation as described in the [Permissions](contact-center-management-messaging-operations-transfer-to-agent.html#permissions) section.
 4. Define consumer experience as described in the [Auto Messages](contact-center-management-messaging-operations-transfer-to-agent.html#auto-messages) section.
@@ -199,7 +199,7 @@ In some business flows, brands would like to have the ability to transfer a conv
 ### Limitations:
 
 * The destination agent list refresh time will be up to 40 seconds at most. During this time changes in agent status or skill will not be reflected.
-* Destination agents list size limitation in LiveEngage will show up to 5000 agents.
+* Destination agents list size limitation will show up to 5000 agents.
 * Offline agents (logged out) are agents who were connected at least once in the past 3 weeks.
 * Agent will not be able to transfer to another agent or manager that is currently participating in the conversation. For example agent cannot transfer the conversation to his manager if she is currently joined to the conversation.
 * Suggested (destination) agent will not be able to join a conversation that had been transferred to them.

@@ -1,7 +1,7 @@
 ---
 pagename: Agent tools
 categoryName: Troubleshooting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
 subtitle: Troubleshooting on questions relating to agent tools
 level3: ''
@@ -23,11 +23,11 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 
 ### Solution:
 
-1. Have the agent refresh their LiveEngage console.
+1. Have the agent refresh their Agent Workspace console.
 2. Check whether there are network connectivity errors on the agent side:
    * Open the Developer Tools > Network tab in the agent’s browser and check for failed requests (displayed in red in the Developer tool).
    * If there are failed requests, save the network traffic as a HAR file and send it to LivePerson Support for further investigation.
-3. Check the status of your LivePerson account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
+3. Check the status of your LivePerson Conversational Cloud account on the [LivePerson Service Status Dashboard](http://status.liveperson.com/).
 
 ## Agents assigned to the Sales skill are not receiving messages (agents assigned to other skills are receiving messages)
 
@@ -46,7 +46,7 @@ By design, agent messages that visitors didn’t receive are displayed in red te
 
 #### Cause:
 
-When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
+When you change the Default max number of conversations per agent (in the Campaign Builder footnote), the system does the following:
 
 1. Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
 2. The system does not change the max. number of conversations value for users whose value is different than the current Default maximum number of conversations per agent before the change.
@@ -66,7 +66,7 @@ The system doesn't check if a change was ever done to an agent’s max. number o
 
 ### Solution:
 
-* A LiveEngage account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
+* A LivePerson Conversational Cloud account changes the maximum number of conversations for all their agents to 10 by changing the value of Default max number of conversations per agent (in the Campaigns footnote) from 20 to 10.
 * If some users are still being assigned more than 10 conversations, check the settings for that user.
 
 ## When I transfer messages, some of them return to me with an unassigned skill
@@ -75,7 +75,7 @@ The system doesn't check if a change was ever done to an agent’s max. number o
 
 * This is done to prevent agents from accidentally sending consumers to a queue where they'll be stuck forever.
 * The messages were transferred to a skill that had no agents assigned to it.
-* When a conversation is transferred to a skill with no agents assigned to it, LiveEngage changes the conversation's skill to Unassigned and returns it to the original agent.
+* When a conversation is transferred to a skill with no agents assigned to it, the Conversational Cloud changes the conversation's skill to Unassigned and returns it to the original agent.
 
 ### Solution:
 
@@ -118,7 +118,7 @@ Do not exceed the supported length of messages, as detailed below:
 
 ### Cause:
 
-When running the Messaging Performance Dashboard in Report Builder, the ONLINE metric presents 0 time for Messaging only agents.
+When running the Messaging Performance Dashboard in the Analytics Builder, the ONLINE metric presents 0 time for Messaging only agents.
 
 Messaging Agents must have Chat concurrency set (greater than 0) in order for the system to populate this metric's value. For Messaging Agents with Chat concurrency 0 (no chats), Online Time displays as 0.
 
@@ -129,7 +129,7 @@ Messaging Agents must have Chat concurrency set (greater than 0) in order for th
 
 ## Agent concurrency isn’t changing to “Default max number of conversations per agent”
 
-A LiveEngage customer changes the maximum number of conversations for all their agents to 10 by changing the value of default max number of conversations per agent from 20 to 10.  But they notice that some users are still being assigned more than 10 conversations.
+A Conversational Cloud customer changes the maximum number of conversations for all their agents to 10 by changing the value of default max number of conversations per agent from 20 to 10.  But they notice that some users are still being assigned more than 10 conversations.
 
 They check the settings for the users who are still being assigned more than 10 conversations and find that the value of their max no. messaging conversations (on the Edit user window) is 15. Why didn’t their setting change to 10?
 
@@ -137,7 +137,7 @@ They check the settings for the users who are still being assigned more than 10 
 
 In our logs we found that two weeks earlier the Admin user had changed the max no. messaging conversations value from 20 to 15 for the affected users.
 
-When you change the Default max number of conversations per agent (in the Campaigns footnote), the system does the following:
+When you change the Default max number of conversations per agent (in the Campaign Builder footnote), the system does the following:
 
 Changes the max. number of conversations value for each user whose value is identical to the Default maximum number of conversations per agent value before the change.
 

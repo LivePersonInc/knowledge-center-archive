@@ -1,9 +1,9 @@
 ---
 pagename: Operational readiness checklist
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: New Agent Workspace
 indicator: both
-subtitle: Learn more about the enhanced agent workspace
+subtitle: Learn more about the enhanced Agent Workspace
 level3: ''
 permalink: messaging-agents-operational-readiness-checklist.html
 layout: newAgentWorkspace
@@ -39,7 +39,7 @@ Note: If you are on live chat only, the changes to the UI are cosmetic only and 
 
     1. You can turn this off for a select group of managers if you wish to roll this out gradually, but ensure you have a date and work plan in the books.
 
-2. Set up a go-live date for messaging agents. The enhanced agent workspace will be turned ‘off’ by default and will only display when you choose.
+2. Set up a go-live date for messaging agents. The enhanced Agent Workspace will be turned ‘off’ by default and will only display when you choose.
 
     2. Determine if you’d like to enable all your agents at the same date?
 
@@ -65,22 +65,22 @@ Here are some gifs you can use:
 </thead>
 <tbody>
   <tr>
-    <td>Reason #1 to get excited about the agent workspace: dynamic list</td>
+    <td>Reason #1 to get excited about the Agent Workspace: dynamic list</td>
     <td><a href="https://vimeo.com/348819347/0473f80a3b">https://vimeo.com/348819347/0473f80a3b</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason1.gif" download="dynamic-list">Download GIF</a></td>
   </tr>
   <tr>
-    <td>Reason #2 to get excited about the agent workspace: idle status</td>
+    <td>Reason #2 to get excited about the Agent Workspace: idle status</td>
     <td><a href="https://vimeo.com/349404225/17ac3c5f23">https://vimeo.com/349404225/17ac3c5f23</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason2.gif" download="idle-status">Download GIF</a></td>
   </tr>
   <tr>
-    <td>Reason #3 to get excited about the agent workspace: closed filter</td>
+    <td>Reason #3 to get excited about the Agent Workspace: closed filter</td>
     <td><a href="https://vimeo.com/351880875/ca4a50e816">https://vimeo.com/351880875/ca4a50e816</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason3.gif" download="closed-filter">Download GIF</a></td>
   </tr>
   <tr>
-    <td>Reason #4 to get excited about the agent workspace: history & summary</td>
+    <td>Reason #4 to get excited about the Agent Workspace: history & summary</td>
     <td><a href="https://vimeo.com/352205037/2e37ebf127">https://vimeo.com/352205037/2e37ebf127</a></td>
     <td><a href="https://knowledge.liveperson.com/img/reason4.gif" download="history-summary">Download GIF</a></td>
   </tr>
@@ -116,7 +116,7 @@ Some ideas of how you can use this information:
 
 ## Step 5 - Testing
 
-You can test the new manager workspace and enhanced agent workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
+You can test the new Manager Workspace and enhanced Agent Workspace by enabling the permissions on your test or sandbox account.  Alternatively, you can create a test user on your production account and only assign the new workspace to them.
 
 **Best practice:** ensure one of your SMEs at least has tested and successfully used the new workspace before rolling out to all agents.
 
@@ -130,7 +130,7 @@ To get early access for testing, please contact your LivePerson account team.
 
 Best practices:
 
-**For blended accounts:** Because the enhanced agent and new manager workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/messaging-agents-blended-accounts.html).
+**For blended accounts:** Because the enhanced agent and new Manager Workspaces are for messaging only, we recommend separating your messaging and live chat operations as a best practice. This means having either dedicated agents who handle only chat or only messaging conversations, or having agents with multiple logins who handle chat and messaging during different shifts. To learn more about working with blended accounts, [click here](https://knowledge.liveperson.com/messaging-agents-blended-accounts.html).
 
 **Implement auto accept.** Contact centers can choose whether to have conversations automatically assigned to agents or to have agents manually accept conversations that ring in their workspace. We recommend using auto accept as a best practice, because it helps to maximize agent capacity and ensure that conversation routing is as rapid and efficient as possible. To learn more about how conversations are distributed and accepted, [click here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-automatic-messages-automatic-conversation-distribution.html#accepting-a-conversation).
 
@@ -138,4 +138,4 @@ Manage your SLAs. As a best practice, we recommend setting the SLA
 
 ## Step 7 - Go-Live :)
 
-On the day of go- live, assign agents the profiles with the ‘enhanced agent workspace’ assigned.
+On the day of go- live, assign agents the profiles with the ‘enhanced Agent Workspace’ assigned.

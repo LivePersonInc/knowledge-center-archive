@@ -18,7 +18,7 @@ redirect_from:
 
 Conversational Commerce has opened new channels for customers to interact with brands across all stages of their journey. With the growing number of customer interactions from different messaging apps, innovative companies are looking for ways to efficiently handle high-volumes of messaging conversations -- while delivering a great customer experience.
 
-LivePerson Conversational AI offers an end-to-end orchestration of brand to consumer conversations using Intent Analyzer for intent detection, Maven’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
+LivePerson Conversational AI offers an end-to-end orchestration of brand to consumer conversations using Intent Analyzer for intent detection, Conversation Orchestrator’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
 
 ## Key capabilities
 
@@ -33,35 +33,35 @@ Using LivePerson’s powerful tools, Conversational AI has the ability to:
 
 Conversational AI offers an end-to-end orchestration of brand to consumer conversations using the following AI tools and automations:
 
-### Intent Analyzer 
+### Intent Analyzer
 
 **Automatically identifies consumers intent in real time, through every turn in a conversation**
 
-Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. Maven takes intent data and combines information from different data sources to identify the best intent match.
+Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. The Conversation Orchestrator takes intent data and combines information from different data sources to identify the best intent match.
 
 Intents can be built and trained in LivePerson, or uploaded from an existing system or other NLU engine. Brands can create intent dashboards to optimize operations, intent by intent, and build a data driven automation program.
 
 ![](/img/conv-ai-1.png)
 
-### AI Powered Routing by Maven
+### Dynamic Routing by Conversation Orchestrator
 
 **Dynamic, personalized routing policies using intent, context and predictive attributes**
 
-[Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) is LivePerson’s AI engine that orchestrates every consumer conversation with a brand to an outcome they both value. Maven works in the background to quickly understand the consumer’s intent, and route to human agents or bots to solve customer requests in the best way possible.
+[Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) is LivePerson’s AI engine that orchestrates every consumer conversation with a brand to an outcome they both value. Conversation Orchestrator works in the background to quickly understand the consumer’s intent, and route to human agents or bots to solve customer requests in the best way possible.
 
-Maven’s [AI Powered Routing](ai-bots-automation-maven-ai-powered-routing.html) uses the consumer’s identified intent, and assesses the conversation’s context from various data sources, including: consumer attributes, operational metrics, and enterprise systems to route to the right agent.
+Conversation Orchestrator’s [Dynamic Routing](ai-bots-automation-maven-ai-powered-routing.html) uses the consumer’s identified intent, and assesses the conversation’s context from various data sources, including: consumer attributes, operational metrics, and enterprise systems to route to the right agent.
 
 ![](/img/conv-ai-2.png)
 
 By combining information from an external system like a CRM, the consumer can be immediately identified by name, location, and other information, such as VIP status. LivePerson Functions allows brands to easily integrate data from external systems, like Salesforce, using secure, LivePerson managed function services.
 
-Using Maven’s workspace, brands receive a self-service experience to manage and operate the way that AI is used in their conversational pipelines ensuring they continue to deliver a great customer experience.
+Using the Conversation Orchestrator’s workspace, brands receive a self-service experience to manage and operate the way that AI is used in their conversational pipelines ensuring they continue to deliver a great customer experience.
 
-### Maven Assist & Recommended Actions
+### Agent Assist
 
 **Offers the next best action for the agent based on conversation context**
 
-[Maven Assist’s Recommended Actions](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation in real time. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signals about the historical performance.
+[Agent Assist’s](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation in real time. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signals about the historical performance.
 
 * AI-based recommendations for bots that can fulfill customer intent at each turn of the conversation
 * Join bots to conversation, recommended content and knowledge base articles
@@ -86,7 +86,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 ## Conversational AI Feature List
 
 ### Conversation Builder Features
-**Dialog Management** 
+**Dialog Management**
 
 * Dialog management - no code
 * Dialog management - code based
@@ -95,73 +95,73 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Disambiguation
 * Bot templates provide a way to quickly generate different dialogs
 
-**Coding** 
+**Coding**
 
 * Custom bot implementations can use javascript code to write logic
 * Ability to inject code at every step of the interaction and also for processing user responses
 
-**Channels** 
+**Channels**
 
 * Channels - ABC, RCS, WhatsApp, Facebook, SMS, Web. *bots support all channels supported by LivePerson*
 * IVR Support
 
-**API Integrations** 
+**API Integrations**
 
 * API Integrations for connection to your REST APIs, CRM, Billing, Inventory or other business systems
 * Function as a Service (FaaS) support
 * Authentication methods (e.g, OAuth 2.0, Basic Auth, mTLS, Tokens)
 
-**Content Management** 
-* Search based Knowledge Base 
+**Content Management**
+* Search based Knowledge Base
 * Ability to use different NLU engines for training Knowledge Base
 * Both English and non-English languages are supported. For non-English languages, external NLU engines are recommended
 
-**NLU** 
+**NLU**
 * CB native NLU - intent detection (text based)
 * CB native NLU - entity detection
 * CB native NLU - slot fill
-* External NLU engine support for IBM Watson 
+* External NLU engine support for IBM Watson
 * External NLU engine support for Google Dialogflow and Watson
 
-**User Personas** 
+**User Personas**
 * Developer user persona
 * Non-technical user persona
 
-**Developer Experience** 
+**Developer Experience**
 * APIs for intent detection
 * APIs for Knowledge Base query lookup
 * APIs for bot analytics
 
-**Bot Analytics** 
+**Bot Analytics**
 * Measure bot performance using different reports:
   - Messages,  Conversations, Users, sessions
   - Intent match, unmatch reports
   - Custom event reports
-  
-**Language Support** 
+
+**Language Support**
 * LivePerson NLU supports: English & Spanish
 * IBW Watson supports: Arabic, Chinese, Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, and Swedish.
 * Google Dialogflow supports: Cantonese, Chinese, Danish, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, and Ukranian. See all languages.
 
-**Deployment options** 
+**Deployment options**
 * LivePerson Private Cloud
 * AWS Public Cloud
 * Customer Private Cloud
 
-### Maven AI Features
-**Maven Workspace**
-* Self-service experience to configure Maven features 
-* Analytics for Maven features (e.g. availability, usage)
+### Conversation Orchestrator Features
+**Conversation Orchestrator Workspace**
+* Self-service experience to configure Conversation Orchestrator features
+* Analytics for Conversation Orchestrator features (e.g. availability, usage)
 
-**Maven Assist**
-* Recommended Actions - uses NLU to match intent and recommend a bot to join the conversation. 
-* Recommended Actions - uses NLU to match an intent to recommend knowledge base articles. 
+**Agent Assist**
+* Uses NLU to match intent and recommend a bot to join the conversation.
+* Uses NLU to match an intent to recommend knowledge base articles.
 * Integration of bots from LivePerson’s Conversation Builder, DialogFlow, and Watson.
 
-**AI Powered Routing**
-* Create intent- and context-based (e.g., consumer profile data, wait time) routing policies. 
+**Dynamic Routing**
+* Create intent- and context-based (e.g., consumer profile data, wait time) routing policies.
 * Apply actions - route/transfer to human agent, skill or bot.
-* JSON-based, low code authoring 
+* JSON-based, low code authoring
 
 **Context Warehouse**
 * API access to inbox system attributes (e.g., user, conversation & operational context).
@@ -169,11 +169,11 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Create custom attributes with Functions as a Service variables (e.g, CRM integrations via FaaS)
 * Carry over custom context through conversational journey
 
-**AskMaven APIs**
-* REST API to Maven that exposes next action  to concierge bot/LOB app for routing decisions
+**Recommendation API **
+* REST API to Conversation Orchestrator that exposes next action to concierge bot/LOB app for routing decisions
 
-**Maven Concierge Bot**
-* Conversation Builder’s concierge bot template pre-built with intents and AskMaven integration
+**Conversation Orchestrator Concierge Bot**
+* Conversation Builder’s concierge bot template pre-built with intents and Recommendation API integration
 
 ### Intent Analyzer Features
 **Intent builder**
@@ -182,7 +182,7 @@ LivePerson built the Conversation Builder as a dialogue-based tool for creating 
 * Self-service intent building using starter packs for a supported verticals (for brands with no existing intent modeling) - *coming soon*
 
 **Real-time intent detection**
-* Intent identification for human agent conversations (messaging only) & bots* (*with intents defined in Intent Builder) 
+* Intent identification for human agent conversations (messaging only) & bots* (*with intents defined in Intent Builder)
 
 **Analytics dashboard**
 * Intent Analyzer dashboard integrated with Conversation Builder

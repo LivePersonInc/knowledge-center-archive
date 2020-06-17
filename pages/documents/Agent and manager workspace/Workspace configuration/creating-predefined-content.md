@@ -1,6 +1,6 @@
 ---
 pagename: Creating Predefined Content
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: ''
@@ -10,16 +10,16 @@ isTutorial: false
 isNew: false
 
 ---
-When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the campaigns tab. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
+When you first open the Conversational Cloud, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the Campaign Builder. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
 
 ## To add a new item to your predefined content library:
 
-1. Open the campaigns area.
+1. Open the Campaign Builder.
 
 ![](/img/creating-predefined-content-1.png)
 
 {:start="2"}
-1. In the campaigns footnote, click **Predefined Content**. The Predefined Content library is displayed.
+1. In the Campaign Builder footnote, click **Predefined Content**. The Predefined Content library is displayed.
 
 ![](/img/creating-predefined-content-2.png)
 
@@ -31,7 +31,7 @@ When you first open LiveEngage, you’ll find ready-made, predefined content in 
 {:start="4"}
 1. Select the language of your predefined response. If the language is not displayed, click the + sign to add a new language.
 2. Enter the title and text for the predefined response. You can also add dynamic text to your predefined response, including skill name, skill description, agent name, agent nickname and agent email.
-3. Select the category for the predefined response. This will affect the category where the response is displayed in the agent workspace.
+3. Select the category for the predefined response. This will affect the category where the response is displayed in the Agent Workspace.
 4. Select the Hot Key combination that agents can use to send the predefined response during a conversation with a consumer.
 5. Ensure that the predefined response is toggled on.
 6. Click **Save**, or click **Save & add another** if you want to add additional items. The predefined response is now displayed in the Predefined Content library.
@@ -39,12 +39,12 @@ When you first open LiveEngage, you’ll find ready-made, predefined content in 
 
 ## To edit an existing predefined content response:
 
-1. Open the campaigns area.
+1. Open the Campaign Builder.
 
 ![](/img/creating-predefined-content-4.png)
 
 {:start="2"}
-1. In the campaigns footnote, click **Predefined Content**. The predefined content library is displayed.
+1. In the Campaign Builder footnote, click **Predefined Content**. The predefined content library is displayed.
 
 ![](/img/creating-predefined-content-5.png)
 

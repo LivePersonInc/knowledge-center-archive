@@ -13,10 +13,10 @@ isNew: false
 ---
 ## Key Components of the Dashboard
 
-### Monitor 
+### Monitor
 Clearly highlight Primary Messaging KPI trends over time to show successes and opportunities for improvement.
 
-### Diagnose 
+### Diagnose
 Detailed reporting allows the user to drill into segments of a program to pinpoint issues and track improvement.
 
 ### Test and Learn
@@ -29,7 +29,7 @@ Any customization on top of that analysis carries a risk of changing the narrati
 
 ## How to enable
 
-How to Enable Advanced Messaging Dashboard 3.0 on Your Account: Reach out to your LivePerson account team and request that Advanced Messaging Dashboard be added. The dashboard will be placed in Report Builder, under Shared Reports > My Account (12345678)
+How to Enable Advanced Messaging Dashboard 3.0 on Your Account: Reach out to your LivePerson account team and request that Advanced Messaging Dashboard be added. The dashboard will be placed in Analytics Builder, under Shared Reports > My Account (12345678)
 
 ## Segments of the dashboard
 Advanced Messaging Dashboard 3.0 contains 7 core analysis segments:
@@ -243,7 +243,7 @@ Do any of the above metrics differ based on day of week or operating hours?
 
 ## Agent effectiveness - contents
 
-### Efficiency 
+### Efficiency
 
 **Analysis objective:** Show how effectively the brand is managing the balance between Demand (Conversations) and Supply (Labor).
 
@@ -255,7 +255,7 @@ Do any of the above metrics differ based on day of week or operating hours?
 
 **Questions answered:**   How are my Operations impacting consumer experience?
 
-### Magic Quadrant 
+### Magic Quadrant
 
 **Analysis objective:** Group and Agent-level visualization of the relationship between Efficiency (CCPLH) and Experience (MCS).
 
@@ -279,11 +279,11 @@ Do any of the above metrics differ based on day of week or operating hours?
 | --- | --- | --- |
 | Adjusted CCPLH (RCR and Load) | (\[CLOSED CONVERSATIONS PER LOGIN HOUR\]*\[ RESOLUTION RATE\])/\[AGENT LOAD\] | Closed Conversations Per Login Hour only tells one piece of the agent efficiency story. This metric adjusts CCPLH for case resolution and agent capacity. |
 | ART and ART During Agent Shift | n/a | Same as the AVG RESPONSE MINS BY AGENT DURING SHIFT metric (name shortened to fit on graph on Experience panel and grids on Agent Analysis and Weekly Detail panels). |
-| ART Consumer | n/a | same as the AVG. CONSUMER RESPONSE MINS metric (name shortened to fit on graph on Experience panel). | 
-| TTFR and TTFR (Assign+Transfer) | n/a | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Experience panel and grids on Agent Analysis and Weekly Detail panels). | 
+| ART Consumer | n/a | same as the AVG. CONSUMER RESPONSE MINS metric (name shortened to fit on graph on Experience panel). |
+| TTFR and TTFR (Assign+Transfer) | n/a | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Experience panel and grids on Agent Analysis and Weekly Detail panels). |
 | Top Agent |  Case(((\[N-TILE CCPLH\]>=4)And(\[N-TILE MCS\]>=4)), 1, 0) {N=5} | Identifies top 20% of performers in terms of CCPLH and MCS. These two metrics were chosen because they are universal indicators of efficiency and experience across all agents. |
-| RCR 1 Hour | REPEAT 1 HOUR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely. | 
-|Agent Participation Rate | (CLOSED CONVERSATIONS - ABANDONED CONVERSATIONS) / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the AGENT sent at least one message. This is the inverse of Abandon Rate. | 
+| RCR 1 Hour | REPEAT 1 HOUR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely. |
+|Agent Participation Rate | (CLOSED CONVERSATIONS - ABANDONED CONVERSATIONS) / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the AGENT sent at least one message. This is the inverse of Abandon Rate. |
 
 ## Resolution contents
 
@@ -305,9 +305,9 @@ Do any of the above metrics differ based on day of week or operating hours?
 | --- | --- | --- |
 | Resolution Rate (Based on 0-3 Day RCR) | REPEAT 0-3 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID DID NOT OPEN a subsequent conversation within 3 days. This is LivePerson's standard measure of a resolved conversation. |
 | RCR Based 4-30 Day Adoption Rate | REPEAT 4-30 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation after 3 days and within 30 days. This is LivePerson's standard measure of consumers returning for new cases, and thus adopting messaging.NOTE - this metric in its current state serves as a directional proxy for channel adoption, but it is still not an official adoption figure since it only covers a 30 day period. If you compare this number to voice, be sure to compare like-for-like time periods.|
-| Adjusted CCPLH (RCR and Load) | (\[CLOSED CONVERSATIONS PER LOGIN HOUR\]*\[ RESOLUTION RATE\])/\[AGENT LOAD\] | Closed Conversations Per Login Hour only tells one piece of the agent efficiency story. This metric adjusts CCPLH for case resolution and agent capacity. 
+| Adjusted CCPLH (RCR and Load) | (\[CLOSED CONVERSATIONS PER LOGIN HOUR\]*\[ RESOLUTION RATE\])/\[AGENT LOAD\] | Closed Conversations Per Login Hour only tells one piece of the agent efficiency story. This metric adjusts CCPLH for case resolution and agent capacity.
 
-| Est. Login Hours Spent on Unresolved | REPEAT 0-3 DAYS / ACTUAL CCPLH | Holding CCPLH constant, this is the estimated agent time spent on taking repeat conversations within 3 days due to cases not being resolved in the initial conversation. | 
+| Est. Login Hours Spent on Unresolved | REPEAT 0-3 DAYS / ACTUAL CCPLH | Holding CCPLH constant, this is the estimated agent time spent on taking repeat conversations within 3 days due to cases not being resolved in the initial conversation. |
 | Agent or Consumer Close Rate | AGENT CLOSE RATE + CONSUMER CLOSE RATE | The Agent and Consumer Close Rates are consolidated into one metric in this analysis, because the primary focus is on the relationship between SYSTEM CLOSE RATE and RCR |
 | RCR 1 HOUR | REPEAT 1 HR / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation within 1 hour. This measurement is a prime indicator of conversations that are closed prematurely and are UNRESOLVED. |
 | RCR 1 DAY | REPEAT 1 DAY / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 1 Hour and 1 day. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. This measurement also indicates conversations that are UNRESOLVED, although these conversations are not being reopened as urgently as 1 Hour Repeats. |
@@ -349,4 +349,3 @@ Do any of the above metrics differ based on day of week or operating hours?
 | Agent Load | AVG. FILLED MESSAGING SLOTS / MAX SLOTS | The percentage (%) of the agent’s maximum capacity that is occupied by messaging conversations the agent is assigned to. |
 | Active Rate | ACTIVE CONVERSATIONS / ASSIGNED CONVERSATIONS | The percentage (%) of conversations assigned to agents which are active (occupy a full messaging slot). |
 | TTFR | REPEAT 3 DAYS / CLOSED CONVERSATIONS | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Day of Week and Hour panel). |
-

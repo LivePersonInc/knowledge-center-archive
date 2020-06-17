@@ -21,7 +21,7 @@ Wrap up time is disabled by default. Once enabled, the default time allocated is
 ### **How to enable wrap-up for chat**
 
 1. Contact your LivePerson account team so they can enable the feature.
-2. In LiveEngage, go to Visitors>Open Connector or Visitors>Web Visitors.
+2. In the Conversational Cloud, go to Visitors>Open Connector or Visitors>Web Visitors.
 3. Click the night vision button.
 4. Under ACD settings > Live Chat:
 5. Enable the “Wrap-up time” toggle button.
@@ -33,7 +33,7 @@ This value is for display only, it will be the value shown in the skill level by
 
 ### **How to configure wrap-up time at the skill level:**
 
-1. In LiveEngage, go to Users >Skills.
+1. In the Conversational Cloud, go to Users >Skills.
 2. Edit any skill that requires a wrap-up time different to the default value.
 3. Enter the wrap-up time value. Note by default the value shown is the one set in night vision.
 4. Click **Save**.
@@ -43,5 +43,5 @@ This value is for display only, it will be the value shown in the skill level by
 1. When enabled, the wrap-up time does not affect reporting, i.e. chat duration does not include the wrap-up time.
 2. An agent can terminate the wrap-up period by submitting an agent survey.
 3. We recommend adjusting the wrap-up time value at the individual skill level, rather than using the admin console or night vision. This is because:
-   * The wrap-up time set in the admin console overrides the [value set for individual skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html). However, this value will not be reflected in the skill level in LiveEngage.
+   * The wrap-up time set in the admin console overrides the [value set for individual skills](admin-settings-skills-groups-set-the-agent-group-hierarchy.html). However, this value will not be reflected in the skill level in the Conversational Cloud.
    * Changing the wrap-up time value in night vision will have no effect on the wrap up time, but the updated value will be displayed in skills that were not set with a specific value.

@@ -18,15 +18,15 @@ redirect_from:
 WhatsApp is popular in 104 countries around the world, making it an excellent channel for brands to adopt. The WhatsApp Business connector allows brands to communicate with consumers using their favorite messaging channel. With LivePerson, brands have access to the premiere enterprise messaging platform for effectively managing WhatsApp conversations at scale.
 
 {: .notice}
-**Please note:** The WhatsApp Business Connector to LiveEngage can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product should start the registration process by following one of these two paths:
-1. In their LiveEngage Account, go to Campaigns-->Data Sources-->WhatsApp
+**Please note:** The WhatsApp Business Connector for the Conversational Cloud can be made available to selected brands that have been approved by WhatsApp to participate in the program. Brands that are interested in the WhatsApp Business product should start the registration process by following one of these two paths:
+1. In their LivePerson Conversational Cloud account, go to Campaign Builder-->Data Sources-->WhatsApp
 2. Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-5HZT4FKQqB8Wjyauw9g128glGmJcoREfX4HACCPr0vKrHw/viewform">WhatsApp Registration and Setup Form</a>
 
 ## Why use WhatsApp to connect with your consumers?
 
 * **Consumer-preferred channel** — With 1.5 billion users globally, WhatsApp is the most popular messaging app in the world.
 
-* [**Rich messaging**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich messaging capabilities like audio, file and image sharing, rich links, location and contact sharing, automatic messages, and read receipts provide an enhanced messaging experience with more flexibility.
+* [**Rich Conversations**](messaging-channels-rich-messaging-rich-messaging-overview.html) **capabilities** — Rich Conversation capabilities like audio, file and image sharing, rich links, location and contact sharing, Automatic Messages, and read receipts provide an enhanced messaging experience with more flexibility.
 
 * **Verified business accounts** — A business profile that’s been verified by WhatsApp receives a green check mark and an official business account designation to provide your consumers with confidence that they are messaging with the right brand.
 

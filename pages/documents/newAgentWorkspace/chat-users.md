@@ -1,9 +1,9 @@
 ---
 pagename: 'New navigation & status button'
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: live-chat-agents-managers-new-navigation-status-button.html
 isTutorial: false
@@ -36,11 +36,11 @@ To access the agent status menu, agents simply need to click on their image in t
 | ![alt text](img/manager-workspace-regular@2x.png)   | Manager workspace      |
 | ![alt text](img/visitors-regular@2x.png)  | Visitors     |
 | ![alt text](img/automation-regular@2x.png)     | Automation      |
-| ![alt text](img/campaigns-regular@2x.png)  | Campaigns     |
+| ![alt text](img/campaigns-regular@2x.png)  | Campaign Builder     |
 | ![alt text](img/users-regular@2x.png)      | Users     |
 | ![alt text](img/night-vision-hover@2x.png) | Night vision  |
 
 
 ## Blended accounts
 
-For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. For more information on blended accounts, please [click here](/messaging-agents-blended-accounts.html). 
+For brands that have live chat agents accepting messaging conversations as well - please note that the workspaces will now be seperate. Agents who handle chat conversations as well as messaging will need to continue working from the existing workspace. For more information on blended accounts, please [click here](/messaging-agents-blended-accounts.html).

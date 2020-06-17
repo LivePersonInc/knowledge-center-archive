@@ -24,12 +24,12 @@ A campaign is a library of your chat or messaging buttons, also known as engagem
 
 ## Why use campaigns?
 
-Campaigns provide a simple, UI-based method for managers and admins to create, edit and maintain buttons for messaging and chat. Campaigns enable you to control everything from the look and feel of the button and the conversation window, to determining when, where and to who they will display. **Campaign managers and admins have permissions to access, create and edit campaigns.**
+The Campaign Builder provides a simple, UI-based method for managers and admins to create, edit and maintain buttons for messaging and chat. Campaigns enable you to control everything from the look and feel of the button and the conversation window, to determining when, where and to who they will display. **Campaign managers and admins have permissions to access, create and edit campaigns.**
 
 ## Campaigns glossary
 
 * **Engagement**: an engagement is the banner or button that launches a conversation. The engagement is comprised of the creative (banner or button), the window, all the settings, and its rules. An engagement also refers to the actual conversation or interaction between a brand and a consumer.
-* **Engagement window**: refers to the pop up window containing the conversation. This window appears when a user clicks on a messaging or chat button. The window contains the conversation and surveys and can be fully customized within the campaigns wizard.
+* **Engagement window**: refers to the pop up window containing the conversation. This window appears when a user clicks on a messaging or chat button. The window contains the conversation and surveys and can be fully customized within the Campaign Builder.
 * **Engagement Attributes**: Engagement attributes are entities or data points that are passed to LivePerson from your website. For example: user name, products purchased, purchase amount, VIP customer, etc.
 * **Entry point**: this is the page or area of your website or app where a messaging or chat button will be displayed.
 
@@ -37,7 +37,7 @@ Campaigns provide a simple, UI-based method for managers and admins to create, e
 
 For added efficiency when creating multiple campaigns, libraries save various elements for reuse within your campaigns and engagements.
 
-### **There are 7 libraries of entities within campaigns:**
+### **There are 7 libraries of entities within the Campaign Builder:**
 
 * Goal Library
 * Target Audience Library

@@ -23,20 +23,20 @@ The expected time to response is also available for the agent, so it is clear to
 
 ### Special occasions
 
-The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the LiveEngage UI. For example: working hours during public holidays. The expected behavior on the visitor side as far as automatic messages and time to response is exactly the same as Workdays.
+The configuration of [Special Occasions](https://developers.liveperson.com/account-configuration-special-occasions-overview.html) allows you to set specific dates in which there is an exception to the hours of operation defined by the Workdays API or through the the Conversational Cloud UI. For example: working hours during public holidays. The expected behavior on the visitor side as far as Automatic Messages and time to response is exactly the same as Workdays.
 
 {: .notice}
 Special occasions do not modify hours of operation defined by Workdays, but instead override them.
 
 ## Terminology
 
-**SLA = Service Level Agreement:** The response time configured within LiveEngage to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill. To enable SLA per skill, please contact your account manager.
+**SLA = Service Level Agreement:** The response time configured within the Conversational Cloud to handle messaging conversations for either all conversations (default), urgent conversations, or first time consumers. The SLA can be set per the account level (default) or be overridden per skill. To enable SLA per skill, please contact your account manager.
 
 ![](/img/working-hours-1.png)
 
 **TTR = Time To Response**: This time is set according to the current shift status (online/off hours). If the shift is currently active, the TTR equals 0. If the shift is currently inactive, the TTR equals the time until the next shift will start.
 
-**ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the automatic messages mechanism. ETTR = TTR + SLA.  **For example:**
+**ETTR** = Expected Time To Response. The expected response time when the consumer will be answered by an agent. The ETTR is displayed to consumers during a messaging conversation via the Automatic Messages mechanism. ETTR = TTR + SLA.  **For example:**
 
 * If the default SLA is 1 hour and the account is currently on an active shift, the ETTR = SLA = 1 hour.
 * If the default SLA is 1 hour and the account is currently offline, and the next shift will begin in 12 hours from now, the ETTR = 12 + 1 = 13 hours.
@@ -48,7 +48,7 @@ Special occasions do not modify hours of operation defined by Workdays, but inst
   This means:
   * If you wish to have a skill without special occasions, for example, you’ll need to set the skill’s special occasions field with a new special occasion item to override the account level configuration. This item should have an empty list of occasions.
   * Same goes for workdays - in order to override a skill’s workdays, you’ll need to set the skill’s workdays field with a new workdays item to override the account level configuration. This item should state the skill’s working hours.
-* Time to respond is presented to the consumer in some of the automatic messages (e.g. welcome message), if the brand decides to add the time to respond dynamic text. If the calculated time to respond is due after the next shift’s end time: _The calculation of the time to respond =  time until the next next shift + (response time per skill - response time per skill that already passed in the current shift)_
+* Time to respond is presented to the consumer in some of the Automatic Messages (e.g. welcome message), if the brand decides to add the time to respond dynamic text. If the calculated time to respond is due after the next shift’s end time: _The calculation of the time to respond =  time until the next next shift + (response time per skill - response time per skill that already passed in the current shift)_
 * Setting multiple shifts or multiple occasions on the same days and hours will result in the following aggregation behavior:
   * Setting up multiple shifts on the same day: Overlapping working hours will be aggregated in runtime. e.g:  2 shifts are configured on Sunday: 10:00-15:00 and 12:00-18:00. The outcome: Sunday working hours are between 10:00-18:00.
   * Setting up multiple occasions on the same day:
@@ -77,7 +77,7 @@ Customers who keep the workaround ON will have the following experience (in most
 
 ### Limitations for both API and UI
 
-The maximum length for a special occasion with shift status set to OFF is 30 days. This limitation applies when using the Working hours functionality both via the API and via the LiveEngage workspace.
+The maximum length for a special occasion with shift status set to OFF is 30 days. This limitation applies when using the Working hours functionality both via the API and via the Agent Workspace.
 
 ## Best practices
 
@@ -91,13 +91,13 @@ In order to create ‘overnight’ shifts (e.g shifts that start at 9:00 pm and 
 
 In the example above: If the agent manager manually changed to off hours in the middle of a conversation, the ETTR displayed to consumers will be according to the off hours configuration.
 
-**Q:** Does the actual availability of agents on a LiveEngage account impact the working hours? If an agent is online in a skill during "off hours", what happens?
+**Q:** Does the actual availability of agents on a LivePerson Conversational Cloud account impact the working hours? If an agent is online in a skill during "off hours", what happens?
 
 **A:** The agent’s availability does not affect the working hours. As stated above, the ETTR is affected by the configuration only and not according to the number of logged in agents.  
 In the example above: If it’s currently the off hours and an online agent answers a messaging conversation, the consumer will still get the ETTR as if the account is currently off.
 
 **Q:** Will the workdays and special occasions configuration affect the campaigns and engagements behavior? Meaning, if my account is currently on off hours, will engagements still be displayed to consumers?
 
-**A:** The Workdays and Special Occasions configuration only affects the TTR messages sent to consumers via the automatic messages mechanism and does not affect the campaign timeframe and when engagements will be offered to consumers.
+**A:** The Workdays and Special Occasions configuration only affects the TTR messages sent to consumers via the Automatic Messages mechanism and does not affect the campaign timeframe and when engagements will be offered to consumers.
 
 Engagements are displayed to consumers based on their related campaign timeframe only. If your campaign timeframe matches the workdays configuration, engagements will not be displayed. However, if you created a campaign available 24/7, it will still be displayed to consumers (even during off hours), and the ETTR messages will be displayed accordingly.

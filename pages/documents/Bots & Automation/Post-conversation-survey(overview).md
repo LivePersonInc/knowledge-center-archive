@@ -70,7 +70,7 @@ The survey will be closed in a number of different scenarios:
 * Survey timeout
 * Survey skipped
 
-Each outcome is tracked and reported on as part of the Report Builder to enable brands full analysis of the results.
+Each outcome is tracked and reported on as part of the Analytics Builder to enable brands full analysis of the results.
 
 The brand can configure a closing message that will be sent to the consumer for each of the above survey scenarios.
 
@@ -92,11 +92,11 @@ Ensure with your account manager that post conversation survey has been provisio
 * Android - enable_structured_content
 * Structured content needs to be enabled by your LivePerson Account Manager in addition to the above configuration by the client inside the SDK.
 
-### For web messaging:
+### For Web Messaging:
 
 Structured content needs to be enabled by your LivePerson Account Manager. No further configuration is needed on the client side.
 
-Post conversation survey bot is available on all messaging channels including web messaging, in-app messaging, Twilio SMS, Facebook and LINE.
+Post conversation survey bot is available on all messaging channels including Web Messaging, App Messaging, Twilio SMS, Facebook and LINE.
 
 ## How to create a survey using the Bot Studio
 
@@ -160,7 +160,7 @@ You can set phrases that will allow the consumer to skip the survey. If the cons
 
 ### Survey timeout
 
-To set the survey timeout, set the aamount of time under "Survey timeout". Enter the amount of time the survey will remain active before it is closed and a closing message is displayed.
+To set the survey timeout, set the amount of time under "Survey timeout". Enter the amount of time the survey will remain active before it is closed and a closing message is displayed.
 
 The survey timeout is calculated from the moment the survey starts until it reaches the timeout.
 
@@ -180,15 +180,15 @@ In the image below there are a few errors that will prevent the survey from bein
 
 Attempting to publish this survey will fail with a Bot Studio error message.
 
-Once the survey contains no warnings, click on "Publish" in the header bar to have the survey loaded to you LiveEngage account. At this point, if the survey is defined as active, it will be live for your users.
+Once the survey contains no warnings, click on "Publish" in the header bar to have the survey loaded to you LivePerson Conversational Cloud account. At this point, if the survey is defined as active, it will be live for your users.
 
 ## Step 6 - Trigger the survey
 
-In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the agent workspace will show the caption - “Survey in progress”
+In order to trigger the survey, start a conversation on the account and skill on which you’ve defined the survey and bring the conversation to an end, either from the consumer or the agent side. Once the conversation closes the survey will be triggered and the Agent Workspace will show the caption - “Survey in progress”
 
 ![](/img/post-conversation-survey-user-guide6-2.png)
 
-While the survey is active the agent won’t be able to write in the conversation. The survey will end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, LiveEngage will close the survey after 48 hours as part of a conversation cleanup process.
+While the survey is active the agent won’t be able to write in the conversation. The survey will end when the consumer finishes entering the survey or when the survey timeout is reached. In cases of an error with the survey flow or the survey bot, the Conversational Cloud will close the survey after 48 hours as part of a conversation cleanup process.
 
 ## Free text responses
 
@@ -218,7 +218,7 @@ Surveys can be configured to run on non-structured content channels such as Appl
 
 When the setting is enabled, every brick within the survey receives a “Text Fallback” field that is sent instead of the structured content whenever the survey is served on a skill associated with a textual channel or a channel that is not compatible with the LivePerson rich content framework.
 
-To enable this setting, click on "Settings" in the header bar. Check the checkbox - “Enable survey for channels that are not compatible with LiveEngage rich content (e.g. SMS).”
+To enable this setting, click on "Settings" in the header bar. Check the checkbox - “Enable survey for channels that are not compatible with rich content (e.g. SMS).”
 
 Once enabled, make sure to fill in the desired text in the Text Fallback Tab. This tab will appear next to the Action and Design tabs of the Settings window once enabled.
 
@@ -228,7 +228,7 @@ Once enabled, make sure to fill in the desired text in the Text Fallback Tab. Th
 
 ![](/img/post-conversation-survey-user-guide10.png)
 
-The messaging performance dashboard in Report Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Report Builder are based on the ones configured in the LiveEngage Bot Studio.
+The messaging performance dashboard in Analytics Builder has been enhanced to include a dedicated “survey data export” sheet containing an in-depth analysis of the new messaging post conversation survey flows. The flows included in Analytics Builder are based on the ones configured in the Bot Studio.
 
 The new sheet contains an additional set of metrics and attributes which support the following analysis:
 
@@ -251,17 +251,17 @@ The text and quick replies brick has two main design aspects that can be control
 
 ![](/img/post-conversation-survey11.png)
 
-For survey questions that include a text bubble, for example a text and quick replies brick, the text bubble will inherit its design from the overall window look and feel which you have already customized for your LiveEngage account.
+For survey questions that include a text bubble, for example a text and quick replies brick, the text bubble will inherit its design from the overall window look and feel which you have already customized for your LivePerson Conversational Cloud account.
 
-For web messaging, this window customization is controlled through the LiveEngage UI in the campaigns, window gallery.
+For Web Messaging, this window customization is controlled through the Conversational Cloud UI in Campaign Builder, window gallery.
 
-For mobile app messaging, the window customization is conducted via parameters within the SDK.
+For App Messaging, the window customization is conducted via parameters within the SDK.
 
 For more details on this please click the “Learn more” link located at the bottom of the design tab.
 
 ## The new PCS vs the old CSAT survey
 
-On channels such as web messaging and In-app messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
+On channels such as Web Messaging and App Messaging there is already an existing survey solution where a single CSAT question can be presented to the consumer when the conversation ends. If a brand chooses to shift from the old CSAT survey to the new post conversation survey, it is possible to keep both types of surveys working simultaneously with the following logic:
 
 * If both PCS and old CSAT are enabled, PCS gets the priority and the old CSAT question won’t be displayed.
 * If the conversation ends on a device that doesn’t support PCS (for example an app running SDK v3.2 or lower) then the old CSAT question may appear, assuming it was configured to appear.
@@ -278,7 +278,7 @@ The help section, which includes tutorials, is made available to you after you c
 Make sure that:
 
 * All actions are populated and make sense. If you chose a ‘Continue sequence’ action for a brick, make sure that there is another brick that follows it in the sequence.
-* If "Enabled survey for channels thaat are not compatible with LiveEngage rich content (e.g. SMS)" is enabled in settings, make sure that the “Text Fallback” Tab has some text defined in it. Without it you won’t be able to publish to AC.
+* If "Enabled survey for channels thaat are not compatible with rich content (e.g. SMS)" is enabled in settings, make sure that the “Text Fallback” Tab has some text defined in it. Without it you won’t be able to publish to AC.
 * Make sure your survey doesn’t contain Unassigned Sequences. Delete them if not needed.
 
 ### Q: I configured the post conversation survey but when the conversation ends I get the old CSAT question survey? Why?
@@ -289,13 +289,13 @@ Make sure that the conversation ends with a skill that is mapped to the survey y
 
 In order for the changes you make in the Bot Studio to take effect you need to publish the changes. Make sure that your survey is published by pressing the "Publish" button in the Survey Editor screen and start a new conversation for it to take effect.
 
-### Q: I created a bot that was assigned with the “Survey bot” profile using the LiveEngage user creation UI. Why can’t I add it in the Bot Studio?
+### Q: I created a bot that was assigned with the “Survey bot” profile using the the Conversational Cloud user creation UI. Why can’t I add it in the Bot Studio?
 
 The survey bot user is added automatically by the Bot Studio when you press “Add survey bot” in the Bot Studio UI. This means that the Admin doesn’t need to create a bot user before going to the Bot Studio. To resolve the issue, delete any bot user that was assigned with the “Survey bot” profile and try to add the bot again using the Bot Studio.
 
-### Q: I added a survey bot using the Bot Studio but I can’t see its user in the LiveEngage UI. Why is that?
+### Q: I added a survey bot using the Bot Studio but I can’t see its user in the the Conversational Cloud UI. Why is that?
 
-When the Bot Studio creates the survey bot user it is created as a system user. This means that the survey bot user doesn’t appear as an agent in LiveEngage.
+When the Bot Studio creates the survey bot user it is created as a system user. This means that the survey bot user doesn’t appear as an agent in the Conversational Cloud.
 
 ### Q: On Facebook, whenever I send out an NPS question in which the skip button was added, the conversation ends abruptly. Why?
 
@@ -303,4 +303,4 @@ Unfortunately, Facebook doesn’t support sending structured content that has mo
 
 ### Q: Something has changed in my survey and I’m not sure who made the change. How can I find this out?
 
-The post conversation survey is tracked by [Audit Trail](security-regulations-audit-trail.html). Go the Audit Trail section within LiveEngage and filter for “post conversation survey”.
+The post conversation survey is tracked by [Audit Trail](security-regulations-audit-trail.html). Go the Audit Trail section within the Conversational Cloud and filter for “post conversation survey”.

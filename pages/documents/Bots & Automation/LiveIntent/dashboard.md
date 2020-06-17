@@ -146,5 +146,5 @@ The transcript data can be useful for determining improvements in training phras
 | Term | Definition |
 | --- | ---- |
 | High Impact Intents | todo |
-| MCS | Meaningful Connection Score |
+| MCS | Meaningful Conversation Score |
 -->

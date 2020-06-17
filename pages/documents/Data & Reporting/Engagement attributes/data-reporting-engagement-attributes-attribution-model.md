@@ -18,13 +18,13 @@ As a campaign manager, you want to identify which engagement made your visitor c
 
 The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. Following the engagement, visitors may require time to decide which product or service is right for them, or may wish to involve others in the purchasing decision.
 
-When the customer returns to your site to complete their goal, if the event occurs within the window of influence (the time you deem as an appropriate period to allow the customer to reflect on your engagement), the conversion will be credited to either a [campaign](contact-center-management-campaigns-campaigns-overview.html) or agent in LivePerson. In the case of a visitor being exposed to a content banner as well as participating in a chat or web messaging conversation, the conversation will always get the credit for the conversion.
+When the customer returns to your site to complete their goal, if the event occurs within the window of influence (the time you deem as an appropriate period to allow the customer to reflect on your engagement), the conversion will be credited to either a [campaign](contact-center-management-campaigns-campaigns-overview.html) or agent in LivePerson. In the case of a visitor being exposed to a content banner as well as participating in a chat or Web Messaging conversation, the conversation will always get the credit for the conversion.
 
 Conversions are reflected in your reports and are calculated based on the date of the interaction that caused them to convert (and not when the visitor actually converted). The conversion period includes all the events that contributed to the conversion during a given time period. The default period is 31 days. You can define the conversion period for up to 31 days before the conversion was made (see instructions below).
 
 ## Recommendations
 
-* Choose longer conversion periods if your visitors are likely to take their time before making a decision. For example, consumers usually take more time when buying expensive products or services. In this case, set the time frame to the maximum (31 days), so you can attribute the purchase (conversion) to the chat or web messaging conversation or content that took place at the beginning of the time period.
+* Choose longer conversion periods if your visitors are likely to take their time before making a decision. For example, consumers usually take more time when buying expensive products or services. In this case, set the time frame to the maximum (31 days), so you can attribute the purchase (conversion) to the chat or Web Messaging conversation or content that took place at the beginning of the time period.
 * Choose shorter conversion periods if your visitors are likely to make a purchase quickly. For example, visitors are more likely to purchase flowers the same day they search for them.
 
 ![](/img/attribution-model1.png)

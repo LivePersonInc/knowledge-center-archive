@@ -39,14 +39,14 @@ In addition to adding the [LivePerson tag](getting-started-add-the-liveperson-ta
    * **Groups/LOB** - [set up groups or lines of business ](admin-settings-skills-groups-set-the-agent-group-hierarchy.html)to reflect how your contact center is organized to reflect in reporting, as well as filter so agents and managers only see relevant conversations and data.
    * **Permissions** - [assign permissions](admin-settings-permissions-assign-permissions.html) or [customize permissions](admin-settings-permissions-customize-permissions.html) based on what actions your users can take in the system.  For example, create a ‘supervisor’ role with permissions to set up and add users.
    * **Timezone** - [set up the time zone](admin-settings-set-the-time-zone.html) of your account for timestamp and reporting purposes.
-   * **Languages** - [setup the language](admin-settings-supported-languages.html) for agent workspace.
+   * **Languages** - [setup the language](admin-settings-supported-languages.html) for Agent Workspace.
 
 ## Step 3: Connect to your channels of choice
 
 Using LivePerson, consumers can begin messaging with your brand from any channel. Although each channel is set up separately using [messaging connectors](messaging-channels-messaging-connectors-overview.html), once you have configured all relevant channels, LivePerson's settings and bots automatically apply. See our [messaging channels capabilities matrix](messaging-channels-messaging-channels-capabilities-comparison.html), or drill down on specific connectors.
 
-* [Web messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
-* [Mobile app messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
+* [Web Messaging on your website](messaging-channels-web-messaging-add-web-messaging-to-your-website.html)
+* [App Messaging](messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html)
 * [SMS](messaging-channels-sms-sms-connector.html) (Twilio, Google My Business)
 * [Facebook](messaging-channels-facebook-messenger.html)
 * [Apple Business Chat](messaging-channels-messaging-connectors-overview.html)
@@ -61,7 +61,7 @@ Through LivePerson, you can serve your consumers through multiple messaging chan
 
 ## Step 4: Design the customer experience
 
-1. **Rich Messaging**: enhancing the conversation is crucial to enable agents to handle more types of inquiries and actions over messaging. Beyond regular text, LivePerson enables brands to set up the following [rich messaging](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
+1. **Rich Conversation**: Enhancing the conversation is crucial to enable agents to handle more types of inquiries and actions over messaging. Beyond regular text, LivePerson enables brands to set up the following [Rich Conversations](messaging-channels-rich-messaging-rich-messaging-overview.html) capabilities:
    * [Photo sharing](messaging-channels-rich-messaging-photo-sharing-user-guide.html) (consumer to agent)
    * [Structured content](messaging-channels-rich-messaging-structured-content-for-messaging-user-guide.html) (cards, carousels, lists)
    * [Quick replies](messaging-channels-rich-messaging-quick-replies-user-guide.html)
@@ -71,8 +71,8 @@ See the [messaging channels capabilities comparison matrix](messaging-channels-m
 {:start="2"}
 
 1. **Add bots**: Automate tasks by greeting consumers with a bot that can immediately answer questions, or route the conversations. Learn how you can easily [create bots](getting-started-getting-started-with-bots.html).
-2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’). Customize the text of [automatic messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) to match your brand's look and feels guide.
-3. **Surveys**: there are two surveys you can set up for web messaging: one before a conversation starts and one when a resolution has been achieved.
+2. **Automatic messages**: these are the messages that are sent by the system to consumers (e.g. ‘an agent will reply shortly’). Customize the text of [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html) to match your brand's look and feels guide.
+3. **Surveys**: there are two surveys you can set up for Web Messaging: one before a conversation starts and one when a resolution has been achieved.
    * [Routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook) give pre conversation surveys that greet consumers and ask questions to determine what skill (or  bot) the conversation should be routed to.
    * [Post conversation survey](ai-bots-automation-post-conversation-survey-bot.html) - when a conversation is closed or resolved, a survey can be sent out to consumers asking them questions, such as customer satisfaction questions.
 
@@ -86,7 +86,7 @@ Additional instructions for designing customer experience elements such as [bann
 ## Step 5: Define the agent experience
 
 1. **Predefined answers**: create or import a database of [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) defined by skill and language that your agents can quickly enter into the conversation, saving valuable time.
-2. **Custom agent tools**: within the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
+2. **Custom agent tools**: within the [Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) there are [widgets](agent-manager-workspace-workspace-configuration-adding-your-own-widgets.html) that contain additional tools, webpages or applications for agents to use during the conversation. For example there is a custom CRM integration widget that pulls up the record of the customer in an active conversation.
 
 ![](/img/agent-workspace.png)
 
@@ -104,7 +104,7 @@ Additional instructions for designing customer experience elements such as [bann
 ## Step 6: Manage the operational elements
 
 1. **Routing**: [routing conversations](contact-center-management-messaging-operations-routing-logic-overview.html) are configured based on a variety of smart factors brands can control. Brands can also leverage LivePerson's [routing bots](getting-started-getting-started-with-bots.html#step-1-create-conversation-playbook).
-2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, automatic messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
+2. **Determine schedules and working hours.**  Brands can schedule the days and times agents and skills will be available, impacting the behavior of buttons as well as the greeting messages. For example, Automatic Messages can say ‘we will answer your question within the next 2 minutes’ during working hours, and ‘we will answer you in the morning’ for conversations that came in over night.
    * [Shift scheduling](contact-center-management-messaging-operations-shift-scheduler-configuration-guide.html) - set up and shifts worked per skill using
    * [Working hours management](contact-center-management-messaging-operations-working-hours-management-best-practices.html)
 
@@ -114,8 +114,8 @@ Additional instructions for designing customer experience elements such as [bann
    Messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply.
 
 {:start="4"}
-2\. **Smart capacity**: LivePerson's proprietary [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) replaces the traditional agent capacity rate, and dynamically fills agent workload with conversations by taking active and inactive states into consideration.
+2\. **Dynamic Capacity**: LivePerson's proprietary [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) replaces the traditional agent capacity rate, and dynamically fills agent workload with conversations by taking active and inactive states into consideration.
 
 3\. **Response time**: determine the SLA or how quickly each skill should respond to incoming messages by [configuring response times](contact-center-management-messaging-operations-configuring-response-times.html).  These metrics help route conversations and manage agents queues, including in reporting.
 
-4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear agent workspaces as well as focus resources on active conversations.
+4\. **Auto close:** for conversation that are inactive, [auto close](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html) lets brands enable and configure the automatic close capability to help to clear Agent Workspaces as well as focus resources on active conversations.
