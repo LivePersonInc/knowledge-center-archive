@@ -67,7 +67,7 @@ Prior to storing data in the storage servers, the Conversational Cloud provides 
 **Data Encryption:** Chat transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. The encryption is based on AES 192bit encryption, and controlled by the application server,not by the storage platforms. If enabled, each Brand is assigned with a unique encryption key, and, additionally, each session is encrypted with a unique key for that session (for example, 2 chat sessions of the same customer will be encrypted with 2 different keys).
 
 This is a sample screenshot of storage with encrypted data
-![](img/protecting-customer-data2.png)
+![](img/protecting-customer-data-2.png)
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.
