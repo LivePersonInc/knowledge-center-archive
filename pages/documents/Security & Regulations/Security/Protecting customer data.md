@@ -54,4 +54,26 @@ The Conversational Cloud platform was designed to allow Brands define which cook
 ## Customized Dedicated URL 
 Brands can use a customized, dedicated (vanity) URL based on their own domain and certificates (for example chat.brand.com). The Conversational Cloud can host the customer issued certificate and associate the customer Site ID as the only Site ID that can be used by this certificate. The combination of Site ID validation with a dedicated URL adds an extra layer of protection that reduces potential risks of cross-account access.
 
+## Data Storage
+Consumer session information and interaction transcripts are stored on LivePerson’s storage servers. The data is collected by the Conversational CLoud platform and then transferred to the LivePerson data storage. The data is logically segregated and can be produced for a single customer without accessing another customer data. 
 
+LivePerson collects data such as: chat and messaging transcripts, information related to the visitor browsing and activity on the tagged website. For detailed information please see [LivePerson’s Privacy Policy](https://www.liveperson.com/policies/privacy#_Toc465674440).
+
+## Masking and Encryption of Data at Rest
+Prior to storing data in the storage servers, the Conversational Cloud provides two additional optional layers of protection for data at rest, for customers opting into the capabilities:
+* Selective Data Masking for transcripts: The Conversational Cloud platform provides customers with an optional ability to identify specific sensitive data patterns and remove them from the transcripts prior to storing the transcript. The masking is based on a RegEx mechanism that identifies the sensitive pattern as configured by the customer, and replaces them with asterisks (*). 
+* Download the data-masking data-sheet by clicking [here](http://base.liveperson.net/hc/s-5296924/cmd/kbresource/kb-96372195744679183/!DOWNLOAD?entryid=346624&attachid=40032) In addition, for messaging transcripts. Common Credit card patterns are masked at rest. Additional server side masking patterns can be added by the customer for messaging transcripts.
+
+**Data Encryption:** Chat transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. The encryption is based on AES 192bit encryption, and controlled by the application server,not by the storage platforms. If enabled, each Brand is assigned with a unique encryption key, and, additionally, each session is encrypted with a unique key for that session (for example, 2 chat sessions of the same customer will be encrypted with 2 different keys).
+
+This is a sample screenshot of storage with encrypted data
+![](img/protecting-customer-data2.png)
+
+## Application Layer     
+Account data can only be accessed through the web-based console or LivePerson API’s.
+In order to improve the security around user access to data, the Conversational Cloud has an extensive user management and access control tool. From a Login Policy through user permissions and IP restriction, all can be managed and fully controlled. Please connect with your account manager to enable that optional control.
+
+The optional IP based restriction access list that is built into the platform ensures that access to data can only originate from trusted IP addresses or ranges, as configured by each customer. This means that even if the data is stored on a shared resource, the access per Site ID can only be established from within the trusted IP ranges. 
+
+Note: As the unique Site ID validation is utilized in each request, the configuration is unique per customer account. One customer’s account policy cannot impact upon another customer’s policy.
+These controls are extensively tested by independent third party security experts on a regular basis as part of the LivePerson security vulnerability assessment and penetration testing processes.
