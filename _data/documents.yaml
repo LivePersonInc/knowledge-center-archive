@@ -314,6 +314,7 @@
     - subcategoryname: Security
       pages:
         - pagename: Account security recommendations
+        - pagename: Protecting customer data      
         - pagename: Validate identity of consumers during conversations
         - pagename: IP masking
         - pagename: Configuring your firewall
