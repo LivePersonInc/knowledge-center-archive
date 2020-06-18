@@ -35,6 +35,9 @@ The diagram below outlines the main components of the Conversational Cloud platf
 
 ![](img/protecting-customer-data1.png)
 
+This image shows the DDoS defense layers
+![](img/protecting-customer-data-4.png)
+
 ## Network and Web Layer 
 In web-based deployments (chat, messaging), the LivePerson web tag is hosted on the Brand website, and loaded by the visitor browser when visiting a tagged page. In an in-app messaging deployment there is no Web Tag involved, only secure web-socket API communication protected with tokens (JWT).
 Each inApp messaging session is identified by a unique Conversational Cloud SiteID + unique token/JWT. 
@@ -46,6 +49,9 @@ Each web-chat session is identified by 3 unique identifiers:
 This ensures all data collected from each session is directed only to the relevant customer account. 
 
 Messaging communication between the visitor and the agent during the engagement session is established over a secure websocket API.  Chat communication is established over TLS 1.2 encrypted HTTPS communication. 
+
+This image shows the sample segregation between customers
+![](img/protecting-customer-data-3.png)
 
 ## Cookie Configuration 
 Similar to other internet based services, visitor sessions are based on cookies. 
