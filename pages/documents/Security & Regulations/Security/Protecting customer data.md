@@ -45,3 +45,13 @@ Each web-chat session is identified by 3 unique identifiers:
 - Unique Session ID
 This ensures all data collected from each session is directed only to the relevant customer account. 
 
+Messaging communication between the visitor and the agent during the engagement session is established over a secure websocket API.  Chat communication is established over TLS 1.2 encrypted HTTPS communication. 
+
+## Cookie Configuration 
+Similar to other internet based services, visitor sessions are based on cookies. 
+The Conversational Cloud platform was designed to allow Brands define which cookie configuration will be utilized as part of its deployment. While the usage of third party cookies is safe and based on the same unique site ID segregation, the ability to use first party cookies provides an additional layer of security, as the cookies are associated with the Brand’s own domain. For additional details, click [here](https://developers.liveperson.com/guides-cookies.html)
+
+## Customized Dedicated URL 
+Brands can use a customized, dedicated (vanity) URL based on their own domain and certificates (for example chat.brand.com). The Conversational Cloud can host the customer issued certificate and associate the customer Site ID as the only Site ID that can be used by this certificate. The combination of Site ID validation with a dedicated URL adds an extra layer of protection that reduces potential risks of cross-account access.
+
+
