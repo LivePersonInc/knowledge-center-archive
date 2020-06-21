@@ -47,7 +47,7 @@ The agent has the ability to initiate the action - such as joining a bot or inse
 
 Conversation Orchestrator's uses Agent Assist to recommend actions as the conversation evolves. For example, the agent can join a bot to the conversation, stay in the conversation or jump in to activity monitor it, as well as remove the bot from the conversation if needed.
 
-![](/img/RA-join-bot-1.png)
+![](/img/Recommended-actions1.png)
 
 ### Optimization with closed-loop training
 
