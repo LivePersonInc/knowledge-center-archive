@@ -62,3 +62,5 @@ In the background, the Conversation Orchestrator is learning from the conversati
 ## Plug in any automation or bot
 
 Build automations or bots using LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrate bots that were created using Dialogflow or Watson. See the [tutorials and guides on the Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html) to learn how to get started.
+
+![](/img/recommended-actions-add-bot.png)
