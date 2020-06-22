@@ -41,10 +41,10 @@
     - subcategoryname: Google My Business
     - subcategoryname: Google AdLingo
     - subcategoryname: WhatsApp Business
-    - subcategoryname: SocialConnect
+    - subcategoryname: Social Messaging
       pages:
-        - pagename: SocialConnect overview
-        - pagename: SocialConnect user guide
+        - pagename: Social Messaging overview
+        - pagename: Social Messaging user guide
     - subcategoryname: EmailConnect
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
