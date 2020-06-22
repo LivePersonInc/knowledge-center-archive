@@ -297,16 +297,16 @@ See screenshots below as examples of permissions for the different roles:
 
 ### Agent
 
-![](/img/Agent.png)
+![](/img/Agent-profile.png)
 
 ### Admin
 
-![](/img/Admin.png)
+![](/img/Administrator-profile.png)
 
 ### Campaign Manager
 
-![](/img/Campaign Manager - part 1.png)
+![](/img/Campaign-manger-profile.png)
 
 ### Agent Manager
 
-![](/img/Agent Manager - part 1 (1).png)
+![](/img/Agent-manager-profile.png)
