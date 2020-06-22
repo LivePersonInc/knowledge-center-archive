@@ -79,7 +79,7 @@
      pages:
        - pagename: Overview
        - pagename: Agent Assist
-       - pagename: Context Warehouse
+       - pagename: Conversation Context Service
        - pagename: Dynamic Routing
        - pagename: Recommendation API
    - subcategoryname: Conversation Builder
