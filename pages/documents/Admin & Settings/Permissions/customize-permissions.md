@@ -230,7 +230,7 @@ The following core permissions are included with the campaign manager role and c
 | Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Off | 
 | Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Off |
 | Conversation Builder: Bot Status Access	| Use Bots Status to create, deploy, and manage connectors for the entire organization | Off |
-| Conversation Builder: Bot Builder	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Off |
+| Conversation Builder: Bot Builder	| Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Off |
 | Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer	| Off|
 | Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Off |
 | Conversation Builder: Import/Export Manager | Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Off |
