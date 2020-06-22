@@ -116,22 +116,22 @@ The following core permissions are included with the agent role and cannot be di
 | Transfer messaging conversations to an agent in "offline" state	| Transfer messaging conversations to a specific agent in "offline" state	| Off |
 | Transfer messaging conversations to an agent in "away" state	| Transfer messaging conversations to a specific agent in "away" state | Off |
 | Use Third-Party Bots to manage external bot integrations | Use Third-Party Bots to manage external bot integrations | Off |
-| Send files to consumers from local file browser | Additional configuration may be required to enable file sharing; contact your account administrator |	Dependant on account |
-| Send files to consumers from custom widgets| Additional configuration may be required to enable file sharing; contact your account administrator	|	Dependant on account |
-|Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	|	Dependant on account |
-|Conversation Builder: Business User	| Use Bot Analytics to view and download data	|	Dependant on account |
-| Conversation Builder: Bot Status Access	| Use Bots Status to create, deploy, and manage connectors for the entire organization	|	Dependant on account |
-| Conversation Builder: Bot Builder	| Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates, accounts, and users	|	Dependant on account |
-| Use enhanced agent workspace	| This module will be visible in addition to the current Visitors module |	Dependant on account |
+| Send files to consumers from local file browser | Additional configuration may be required to enable file sharing; contact your account administrator |	Off |
+| Send files to consumers from custom widgets| Additional configuration may be required to enable file sharing; contact your account administrator	|	Off |
+|Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Off |
+|Conversation Builder: Business User	| Use Bot Analytics to view and download data	|	Off |
+| Conversation Builder: Bot Status Access	| Use Bots Status to create, deploy, and manage connectors for the entire organization	|	Off |
+| Conversation Builder: Bot Builder	| Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates, accounts, and users	|	Off |
+| Use enhanced agent workspace	| This module will be visible in addition to the current Visitors module |	Off |
 | View all agent surveys for current conversation	| View all agent surveys for current conversation	| Off |
-| Conversation Builder: Bot Builder Lite	| Create and manage bots; no integrations, credentials, or export/import permissions |	Dependant on account |
-| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases	| Dependant on account |
-| Conversation Builder: API Credentials Manager	| Manage credentials for API and NLU integrations	| Dependant on account |
-| Use secure form in a conversation	| For brands who have enabled the secure forms feature, this permission allows the Agent to use the form in a conversation	| Dependant on account |
-|Initiate voice conversation	| Invite consumer to join a voice conversation	| Dependant on account |
-| Initiate live video conversation	| Invite consumer to join a live video session	| Dependant on account |
+| Conversation Builder: Bot Builder Lite	| Create and manage bots; no integrations, credentials, or export/import permissions |	Off |
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases	| Off |
+| Conversation Builder: API Credentials Manager	| Manage credentials for API and NLU integrations	| Off |
+| Use secure form in a conversation	| For brands who have enabled the secure forms feature, this permission allows the Agent to use the form in a conversation	| Off |
+| Initiate voice conversation	| Invite consumer to join a voice conversation	| On |
+| Initiate live video conversation	| Invite consumer to join a live video session	| On |
 | Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package	| Dependant on account |
-| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Dependant on account |
+| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Off 
 | Conversation Builder: Release Creator	| Create and delete versions	| Off |
 | Conversation Builder: Release Acceptor | Create versions and accept releases i.e. upgrade bots | Off |
 
