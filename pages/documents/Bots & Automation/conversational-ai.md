@@ -61,7 +61,7 @@ Using the Conversation Orchestrator’s workspace, brands receive a self-service
 
 **Offers the next best action for the agent based on conversation context**
 
-[Agent Assist’s](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation in real time. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signals about the historical performance.
+[Agent Assist](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) analyzes all available automations for the identified intent and recommends the best next action for relevant content or actions, such as having a bot join the conversation in real time. Recommendations are done by choosing the highest ranked bot or knowledge base article by score; scores are based on machine learned signals about the historical performance.
 
 * AI-based recommendations for bots that can fulfill customer intent at each turn of the conversation
 * Join bots to conversation, recommended content and knowledge base articles

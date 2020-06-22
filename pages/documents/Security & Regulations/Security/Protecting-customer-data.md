@@ -33,10 +33,10 @@ LivePerson invests great efforts to ensure that all segregation and security con
 ## Dataflow and Platform Diagram 
 The diagram below outlines the main components of the Conversational Cloud platform, at a high level, as well as the dataflow process for agents and visitors communicating with the Conversational Cloud. The diagram helps provide a better understanding of how security controls are embedded in each layer.
 
-![](img/protecting-customer-data1.png)
+![](img/protecting-customer-data-1.png)
 
 This image shows the DDoS defense layers
-![](img/protecting-customer-data-4.png)
+![](img/protecting-customer-data-4.jpg)
 
 ## Network and Web Layer 
 In web-based deployments (chat, messaging), the LivePerson web tag is hosted on the Brand website, and loaded by the visitor browser when visiting a tagged page. In an in-app messaging deployment there is no Web Tag involved, only secure web-socket API communication protected with tokens (JWT).
@@ -71,9 +71,6 @@ Prior to storing data in the storage servers, the Conversational Cloud provides 
 * Download the data-masking data-sheet by clicking [here](http://base.liveperson.net/hc/s-5296924/cmd/kbresource/kb-96372195744679183/!DOWNLOAD?entryid=346624&attachid=40032) In addition, for messaging transcripts. Common Credit card patterns are masked at rest. Additional server side masking patterns can be added by the customer for messaging transcripts.
 
 **Data Encryption:** Chat transcripts and other session variables can be stored encrypted upon client request on the LivePerson storage servers. The encryption is based on AES 192bit encryption, and controlled by the application server,not by the storage platforms. If enabled, each Brand is assigned with a unique encryption key, and, additionally, each session is encrypted with a unique key for that session (for example, 2 chat sessions of the same customer will be encrypted with 2 different keys).
-
-This is a sample screenshot of storage with encrypted data
-![](img/protecting-customer-data-2.png)
 
 ## Application Layer     
 Account data can only be accessed through the web-based console or LivePerson API’s.
