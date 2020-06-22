@@ -33,7 +33,7 @@ LivePerson invests great efforts to ensure that all segregation and security con
 ## Dataflow and Platform Diagram 
 The diagram below outlines the main components of the Conversational Cloud platform, at a high level, as well as the dataflow process for agents and visitors communicating with the Conversational Cloud. The diagram helps provide a better understanding of how security controls are embedded in each layer.
 
-![](img/protecting-customer-data1.png)
+![](img/protecting-customer-data-1.png)
 
 This image shows the DDoS defense layers
 ![](img/protecting-customer-data-4.jpg)
