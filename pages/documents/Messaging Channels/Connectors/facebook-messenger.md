@@ -14,7 +14,6 @@ redirect_from:
 - facebook-connector.html
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 {: .notice}  
 **To get started right away, see the** [**Facebook Messenger Quick Start**](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) **article.**
