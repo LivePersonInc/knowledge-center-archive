@@ -1,17 +1,20 @@
 ---
-pagename: Context Warehouse
+pagename: Conversation Context Service
 categoryName: AI, bots & automation
 subCategoryName: Conversation Orchestrator
 level3: ''
 indicator: messaging
 subtitle: Conversation Orchestrator is LivePerson’s platform for conversational orchestration
   & continuous learning
-permalink: ai-bots-automation-conversation-orchestrator-context-warehouse.html
+permalink: ai-bots-automation-conversation-orchestrator-conversation-context-service.html
 isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
-redirect_from: ai-bots-automation-maven-context-warehouse.html
+redirect_from:
+  - ai-bots-automation-maven-context-warehouse.html
+  - ai-bots-automation-conversation-orchestrator-context-warehouse.html
+
 ---
 
 ## What is the Conversation Context Service
