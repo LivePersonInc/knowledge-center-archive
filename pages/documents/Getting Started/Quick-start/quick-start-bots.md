@@ -56,19 +56,19 @@ Create a "Hello World" bot using Conversation Builder.
 7. Click the interaction's **Save** button.
 
     <img style="width:600px" src="img/cb_window3.png">
- 
+
 ### Preview the bot again
 
 1. Open the Preview window like you did before, and start a new session by clicking **Reset Session** in the upper-right corner.
 2. Enter “aloha.” You will see that the bot responds to this new greeting with "Hello World!"
 
-## Step 4: Connect your bot to LiveEngage
+## Step 4: Connect your bot to the Conversational Cloud
 
 ### Create the skill and user agent
 
 In this step, you create a user agent for the bot. The user agent will have an assigned skill, which you'll create first.
 
-1. On the left sidebar in LiveEngage, click the user icon ("Manage users and skills").
+1. On the left sidebar in the Conversational Cloud, click the user icon ("Manage users and skills").
 
 2. Click the **Skills** tab, and then click **Add skill** at the bottom of the page.
 
@@ -82,7 +82,7 @@ In this step, you create a user agent for the bot. The user agent will have an a
 4. Click **Save**.
 
     The BotSkill skill will be the default skill connected to the bot agent.
-    
+
     Next, you create a user agent for the bot.
 
 5. Click the **Users** tab, and then click the **Add user** button at the bottom of the page.
@@ -133,7 +133,7 @@ You will test the connection with a standard Messaging engagement, so now you cr
 
 7. Click **Publish** in the upper-right corner, and then click **Publish** again to confirm the action.
 
-### Deploy the bot to LiveEngage
+### Deploy the bot to the Conversational Cloud
 
 Next, you use Conversation Builder to connect your bot to the bot agent you just created and get the connection running in the Demo environment.
 

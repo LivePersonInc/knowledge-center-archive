@@ -18,27 +18,27 @@ For the past several years, LivePerson has helped leading brands become Conversa
 
 As more and more brands make the shift to Conversational, we are updating our product naming architecture to reflect this new way of operating.  LiveEngage is being renamed as the LivePerson Conversational Cloud. Please note that all functionality and user interface remains unchanged.
 
-The Conversational Cloud is channel-agnostic and AI-powered. Brands can use the Conversational Cloud to discover and understand consumer intents, design and scale automations to fulfill those intents, and measure and optimize the effectiveness of conversations. 
+The Conversational Cloud is channel-agnostic and AI-powered. Brands can use the Conversational Cloud to discover and understand consumer intents, design and scale automations to fulfill those intents, and measure and optimize the effectiveness of conversations.
 
 ![](img/product-renaming1.png)
 
 ## Product Architecture that Highlights Capabilities
 We want to ensure that all our product names reflect their capability for easy navigation. LivePerson’s new product architecture includes additional important name changes to our product:
 
-| OLD NAME | NEW NAME | 
-| --- | --- | 
+| OLD NAME | NEW NAME |
+| --- | --- |
 | LiveEngage | Conversational Cloud |
-| Campaigns | Campaign Builder | 
-| Maven | Conversation Orchestrator | 
+| Campaigns | Campaign Builder |
+| Maven | Conversation Orchestrator |
 | Maven Assist - Bots | Agent Assist |
-| AI Powered Routing | Dynamic Routing | 
+| AI Powered Routing | Dynamic Routing |
 | LP Functions | Functions | 
 | LiveEngage Tag | Web Tag |
-| Open Connections | Open Connections | 
-| All Connections | All Conversations | 
+| Open Connections | Open Conversations |
+| All Connections | All Conversations |
 | Conversation Intelligence | Conversation Analytics |
-| Meaningful Connection Score | Meaningful Conversation Score | 
-| SmartCapacity | Dynamic Capacity | 
+| Meaningful Connection Score | Meaningful Conversation Score |
+| SmartCapacity | Dynamic Capacity |
 | Proactive Two-way Messaging | Proactive Messaging |
 | Agent Workspace for messaging | Agent Workspace |
 | Report Builder| Analytics Builder
@@ -56,27 +56,25 @@ The overarching Intent Manager product is the place that receives intents and pr
 
 ![](img/product-renaming2.png)
 
-## Design & Scale with Conversation Builder, Manager and Orchestrator 
+## Design & Scale with Conversation Builder, Manager and Orchestrator
 The Conversation Builder, Conversation Manager, and Conversation Orchestrator are the products that enable brands to build and manage AI-powered chatbots that work together with human experts to generate leads, drive sales, offer support, and build loyalty with brands.
 
-| OLD NAME | NEW NAME | 
-| --- | --- | 
+| OLD NAME | NEW NAME |
+| --- | --- |
 | Maven | Conversation Orchestrator |
-| Maven Assist - Bots| Agent Assist | 
-| AI Powered Routing | Dynamic Routing | 
+| Maven Assist - Bots| Agent Assist |
+| AI Powered Routing | Dynamic Routing |
 
-While the names Conversation Builder, Conversation Manager, and Context Warehouse are not changing, Maven and the Maven Workspace is now the Conversation Orchestrator. 
+While the names Conversation Builder, Conversation Manager, and Context Warehouse are not changing, Maven and the Maven Workspace is now the Conversation Orchestrator.
 
 Conversation Orchestrator name signifies how this product connects to backend systems to help them work together seamlessly - such as Agent Assist, Dynamic Routing, Conversation Orchestrator APIs and more. From there, the Conversation Orchestrator collects intent, context (backend), and predictive attributes to help route customers to the most optimal bot, human agent, or relevant information. Brands can then design automations that fulfill specific intents, and scale by supervising automations with human agents and supporting agents through recommendations of  relevant information from a Knowledge Base, or suggesting a bot to join.
 
 ![](img/product-renaming3.png)
 
 ## Measure & Improve with Conversation Analytics
-The Conversation Analytics products enable brands to closely monitor marketing, sales, and customer care KPIs to optimize conversational operations - all in real time. 
+The Conversation Analytics products enable brands to closely monitor marketing, sales, and customer care KPIs to optimize conversational operations - all in real time.
 
-| OLD NAME | NEW NAME | 
-| --- | --- | 
+| OLD NAME | NEW NAME |
+| --- | --- |
 | Conversation Intelligence | Conversation Analytics |
-| Meaningful Connection Score | Meaningful Conversation Score | 
-
-
+| Meaningful Connection Score | Meaningful Conversation Score |

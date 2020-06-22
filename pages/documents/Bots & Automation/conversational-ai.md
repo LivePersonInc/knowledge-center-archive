@@ -75,7 +75,7 @@ Agents can opt to manually use the Knowledge Base article to help the user or jo
 
 **Easily design, build and integrate bots and automation flows**
 
-Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrated as third-party bots by using a connector for Waston or Dialogflow. The Conversation Builder is fully integrated into LivePerson’s Conversational AI platform, allowing for seamless back and forth escalation with human agents and real-time monitoring by humans. In this way, LivePerson enables both human agents and bots to interchangeably handle consumer interactions to deliver the best consumer experience possible for each conversation.
+Bots can be created in LivePerson’s [Conversation Builder](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-conversation-builder-overview.html), or integrated as third-party bots by using a connector for Watson or Dialogflow. The Conversation Builder is fully integrated into LivePerson’s Conversational AI platform, allowing for seamless back and forth escalation with human agents and real-time monitoring by humans. In this way, LivePerson enables both human agents and bots to interchangeably handle consumer interactions to deliver the best consumer experience possible for each conversation.
 
 ![](/img/conv-ai-4.png)
 
