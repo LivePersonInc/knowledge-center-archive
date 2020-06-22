@@ -35,7 +35,7 @@ Conversation Orchestrator introduces a suite of products, experiences, and devel
 
 The Conversation Orchestrator Workspace is a self-service, low-code/no-code experience for brands to enable or tune Conversation Orchestrator capabilities and features. With the Conversation Orchestrator, brands can:
 
-* Setup [**Agent Assist's**](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) to increase agent productivity by suggesting bots or knowledge base articles based on customer’s intents.
+* Setup [**Agent Assist**](https://knowledge.liveperson.com/ai-bots-automation-maven-maven-assist.html) to increase agent productivity by suggesting bots or knowledge base articles based on customer’s intents.
 * Manage and use the **Conversation Orchestrator [Context warehouse](ai-bots-automation-maven-context-warehouse.html)**, a repository for brand, session, or customer attributes, including the ability to connect to external data sources (CRM [using FaaS](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html)), and use these attributes throughout the customer’s conversation journey or in routing policies.
 * Author dynamic **[Dynamic Routing](ai-bots-automation-maven-ai-powered-routing.html)** policies based on attributes (intent, content, session, or AI based inferences) to route to the right human or bot - unlocking highly personalized consumer journeys.
 * Access developer features such as **[Recommendation API](ai-bots-automation-maven-askmaven.html)** for next action or **Context Session Store** to customize and integrate the Conversation Orchestrator into their decision processes.
