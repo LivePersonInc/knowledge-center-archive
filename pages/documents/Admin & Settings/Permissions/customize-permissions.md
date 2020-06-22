@@ -161,15 +161,15 @@ The following core permissions are included with the agent manager role and cann
 | Manage skills	| Create, edit or delete skills |	Off |
 | Export list of users in group	| Includes agent and agent manager users in group(s) or sub-group(s) as well as the list of skills, profiles, groups, and sub-groups managed by agent managers |	Off |
 | Set manual SLA for conversations	| Set manual SLA for conversations	| On |
-| View all reports in Analytics Builder	| View all reports in Analytics Builder	| Depenant on account |
-| Customize reports in Analytics Builder	| Customize reports in Analytics Builder	| Depenant on account |
-| Share reports in Analytics Builder	| Share reports in Analytics Builder | Depenant on account |
+| View all reports in Analytics Builder	| View all reports in Analytics Builder	| On  |
+| Customize reports in Analytics Builder	| Customize reports in Analytics Builder	| Off |
+| Share reports in Analytics Builder	| Share reports in Analytics Builder | Off |
 | View reports in Operational BI | View reports in Operational BI	| On |
 | View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases	| On |
 | Message LivePerson support	| Message LivePerson support	| On |
 | View account support cases in Connection Area	| This only applies to eligible customers as part of their CSO package	| Off |
 | Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package	| Depenant on account |
-| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Depenant on account |
+| Update consumer profile via API	| Use the Consumer Profile API to make edits to a consumer’s profile	| Off |
 | Define working hours for messaging in Shift Scheduler	| Define working hours for messaging in Shift Scheduler	| On |
 | Request customer data deletion via API	| Request customer data deletion via API	| Off |
 | Assign workdays and special occasions	| Assign workdays and special occasions	| Off |
@@ -179,21 +179,21 @@ The following core permissions are included with the agent manager role and cann
 | Transfer messaging conversations to an agent in "away" state |	Transfer messaging conversations to a specific agent in "away" state |	On |
 | Use Third-Party Bots to manage external bot integrations	| Use Third-Party Bots to manage external bot integrations | On |
 | Send files to consumers from local file browser |	Additional configuration may be required to enable file sharing; contact your account administrator |	Depenant on account |
-| Send files to consumers from custom widgets | Additional configuration may be required to enable file sharing; contact your account administrator 	Depenant on account |
-| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Depenant on account |
-| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Depenant on account |
+| Send files to consumers from custom widgets | Additional configuration may be required to enable file sharing; contact your account administrator |	Off |
+| Conversation Builder: Content User | Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Off |
+| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Off |
 | Conversation Builder: Bot Status Access |	Use Bots Status to create, deploy, and manage connectors for the entire organization| Depenant on account |
-| Conversation Builder: Bot Builder |	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status |	Depenant on account |
+| Conversation Builder: Bot Builder |	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status |	Off |
 | Use enhanced agent workspace	| This module will be visible in addition to the current Visitors module	| Yes (depending which workspace they are using)|
-| View agent manager workspace |	Track real-time shift management KPIs, view agent lists for groups and subgroups, and view all open and resolved conversations handled by agents |	on |
-| View all agent surveys for current conversation | View all agent surveys for current conversation	| on |
-| Submit messaging agent survey	| Submit messaging agent survey |	off |
-| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer |	Depenant on account |
-| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots |	Depenant on account | 
-| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Depenant on account |
-| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite |	Depenant on account |
-| Conversation Builder: Release Creator |	Create and delete versions	| off |
-| Conversation Builder: Release Acceptor | Create versions and accept releases i.e. upgrade bots |	off |
+| View agent manager workspace |	Track real-time shift management KPIs, view agent lists for groups and subgroups, and view all open and resolved conversations handled by agents |	Off |
+| View all agent surveys for current conversation | View all agent surveys for current conversation	| On |
+| Submit messaging agent survey	| Submit messaging agent survey |	Off  |
+| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer |	Off |
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots |	Off | 
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Off |
+| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite |	Off |
+| Conversation Builder: Release Creator |	Create and delete versions	| Off |
+| Conversation Builder: Release Acceptor | Create versions and accept releases i.e. upgrade bots |	Off |
 
 ### Role: Campaign manager
 
@@ -218,23 +218,23 @@ The following core permissions are included with the campaign manager role and c
 | Configure conversation sources	| Configure conversation sources | On |
 | Edit skills and configure default survey for skill change	| Edit skills and configure default survey for skill change	| On |
 | Configure authentication server	| Configure authentication server	| On |
-| View all reports in Analytics Builder | View all reports in Analytics Builder	| Dependant on account |
-| Customize reports in Analytics Builder	| Customize reports in Analytics Builder |	Dependant on account |
-| Share reports in Analytics Builder | Share reports with other account users by saving them in the "My Account" folder	| Dependant on account |
+| View all reports in Analytics Builder | View all reports in Analytics Builder	| On |
+| Customize reports in Analytics Builder	| Customize reports in Analytics Builder |	Off |
+| Share reports in Analytics Builder | Share reports with other account users by saving them in the "My Account" folder	| Off |
 | View reports in Operational BI |	View reports in Operational BI |	Off |
 | View reports in Campaign BI	| View reports in Campaign BI	| On |
 | View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases	| On |
 | Message LivePerson support	| Message LivePerson support	| On |
 | View account support cases in Connection Area	| This only applies to eligible customers as part of their CSO package	| Off |
 | Create new support cases in Connection Area (for CSO only)	| This only applies to eligible customers as part of their CSO package.	| Dependant on account |
-| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Dependant on account| 
-| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Dependant on account |
-| Conversation Builder: Bot Status Access	Use Bots Status to create, deploy, and manage connectors for the entire organization	| Dependant on account |
-| Conversation Builder: Bot Builder	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Dependant on account |
-| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer	| Dependant on account |
-| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Dependant on account |
-| Conversation Builder: Import/Export Manager | Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Dependant on account |
-| Conversation Builder: API Developer | Users can only create and manage integrations. Can be added to Bot Builder Lite	| Dependant on account |
+| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics	| Off | 
+| Conversation Builder: Business User	| Use Bot Analytics to view and download data	| Off |
+| Conversation Builder: Bot Status Access	| Use Bots Status to create, deploy, and manage connectors for the entire organization | Off |
+| Conversation Builder: Bot Builder	Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Off |
+| Conversation Builder: API Credentials Manager |	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer	| Off|
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Off |
+| Conversation Builder: Import/Export Manager | Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite	| Off |
+| Conversation Builder: API Developer | Users can only create and manage integrations. Can be added to Bot Builder Lite	| Off |
 | Configure Schedule and Special Occasion library items	| Configure Schedule and Special Occasion library items |	Off | 
 | Access Conversational AI menu	| Access Conversational AI menu | On |
 |  Use Third-Party Bots to manage external bot integrations	| Use Third-Party Bots to manage external bot integrations	| Off | 
@@ -276,17 +276,17 @@ The following core permissions are included with the Admin role and cannot be di
 | Functions: Invocation	| Invoke lambdas (for external systems) | On |
 | Functions: Administrator	| Manage whitelist and secrets; read-only access to lambdas |	On |
 | Functions: Developer	| Manage lambdas; read-only access to whitelist and secrets	| On |
-| Conversation Builder: Administrator | Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates	| Dependant on account |
-| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics | Dependant on account |
-| Conversation Builder: Business User | Use Bot Analytics to view and download data	| Dependant on account|
-| Conversation Builder: Bot Status  | Access	Use Bots Status to create, deploy, and manage connectors for the entire organization	| Dependant on account |
-| Conversation Builder: Bot Builder	| Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| Dependant on account |
+| Conversation Builder: Administrator | Use all Conversation Builder features with the exceptions of Bot Status and managing bot templates	| On |
+| Conversation Builder: Content User	| Use Knowledge Base, Intent Analyzer, Intent Builder, and Bot Analytics | On |
+| Conversation Builder: Business User | Use Bot Analytics to view and download data	| On |
+| Conversation Builder: Bot Status  | Access	Use Bots Status to create, deploy, and manage connectors for the entire organization	| On |
+| Conversation Builder: Bot Builder	| Similar to Administrator, without the ability to manage users in Conversation Builder or access Bot Status	| On |
 | Manage agent survey questions, timeout, and skills	Manage agent survey questions, timeout, and skills	| On |
-| Conversation Builder: API Credentials | Manager	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer.	| Dependant on account |
-| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Dependant on account|
-| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite | Dependant on account |
-| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite	| Dependant on account |
-| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases | Dependant on account |
+| Conversation Builder: API Credentials | Manager	Users can only manage credentials for API and NLU integrations. Whenever you assign this permission, also assign Bot Builder Lite and API Developer.	| Off |
+| Conversation Builder: Bot Builder Lite	| A lite version of Bot Builder. No ability to create and work with integrations, create and work with credentials, or export and import bots	| Off |
+| Conversation Builder: Import/Export Manager	| Users can only export/import bots and knowledge bases. Can be added to Bot Builder Lite | Off |
+| Conversation Builder: API Developer |	Users can only create and manage integrations. Can be added to Bot Builder Lite	| Off |
+| View Connection Area	| View Connection Area tab. See separate permissions for enabling the user to message LivePerson and/or open support cases | On |
 |Conversation Builder: Release Creator | Create and delete versions | Off |
 |Conversation Builder: Release Acceptor |	Create versions and accept releases i.e. upgrade bots |	Off |
 
