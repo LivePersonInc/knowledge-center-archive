@@ -95,8 +95,9 @@ Run. This option allows you to run your rules against a sample of actual data.
 ![](img/Taxonomy-insights-12.png)
 - Click the “text” option, and it will show up to the right as an Assigned Field
 ![](img/Taxonomy-insights-13.png)
-- Any sentences that match the rules from the sample drawn will show up on the next screen. The results are a sample. 
-![](img/Taxonomy-insights-14.png)
+- Any sentences that match the rules from the sample drawn will show up on the next screen. 
+The results are a sample. 
+ ![](img/Taxonomy-insights-14.png)
 
 ## Deploying a taxonomy to a dashboard
 Up to this point, you have created a taxonomy, but have not yet applied it to a dashboard. 
@@ -132,7 +133,7 @@ Once you have made your changes and click save, you will be shown this pop up me
 It is helpful to use Unsupervised NLU model to tune your models. The word cloud in NLU can show common word themes that either customer, agent or bot uses. 
 - Go to the top left side and choose Tools
 - Choose Taxonomy
-![](img/Taxonomy-insights-20.png)
+ ![](img/Taxonomy-insights-20.png)
 - You will see a list of taxonomies that either you created or it was shared with you
 ![](img/Taxonomy-insights-21.png)
 - Select the taxonomy to edit 
