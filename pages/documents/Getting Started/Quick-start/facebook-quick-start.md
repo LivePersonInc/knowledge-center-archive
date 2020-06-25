@@ -23,7 +23,7 @@ Connect Facebook Messenger to the Conversational Cloud.
 
 Login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on the **Campaign Builder** tab located in the left navigation bar. Click on **Data Sources** in the Campaign Builder footnote.
 
-![](img/data-sources.png)
+![](img/Facebook Messenger quick start-1.png)
 
 Click **Connect** in the Facebook Messenger tile.
 
