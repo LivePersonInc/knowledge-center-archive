@@ -17,11 +17,12 @@ Users with edit permission will be able to create new dashboards.
 2. Name the dashboard
 
     ![](img/creating_dashboards_insights2.png)
-    a) Tags - Enter tags to categorize dashboards for future use as templates.
+   
+   a) Tags - Enter tags to categorize dashboards for future use as templates.
     
-    b) Dashboard Image - Upload a logo or other image from your computer, or select from the extensive library of images to represent the dashboard.
+   b) Dashboard Image - Upload a logo or other image from your computer, or select from the extensive library of images to represent the dashboard.
     
-    c) Theme - The Light theme is selected by default, with a grey background and white widgets, but you can choose the Dark theme to use a black background and dark grey widgets.
+   c) Theme - The Light theme is selected by default, with a grey background and white widgets, but you can choose the Dark theme to use a black background and dark grey widgets.
     
     d) Type - Change the Default value to Template to save the dashboard as a template that others can use.
     
@@ -29,9 +30,12 @@ Users with edit permission will be able to create new dashboards.
     
 3. Select a data stream (note: you will only see data streams that have been shared with you).
 4. After selecting a data stream, you can deploy a Taxonomy Analysis  model
-  ![](img/creating_dashboards_insights3.png)
+ 
+ ![](img/creating_dashboards_insights3.png)
+ 
 5. After clicking on deploy model, you can choose Unsupervised NLU Model or Taxonomy Analysis
-   ![](img/creating_dashboards_insights4.png)
+  
+  ![](img/creating_dashboards_insights4.png)
 
   **N-gram generator** - This analysis goes through the chats/conversations and pulls out buzzwords which are based on their frequency in all of the verbatims. It generates a buzzword word cloud
 
@@ -45,19 +49,27 @@ User Analysis- this is to determine the gender of the user (Insights does not re
    ![](img/creating_dashboards_insights5.png)
 1. Choose Taxonomy Analysis
 2. Choose the type of verbatim (customer, agent, or bot) you would like to analyze from the list on the left side, run this as your text field. Click next.
+
   ![](img/creating_dashboards_insights6.png)
 3. Click the blue + button to select the taxonomy to use:
-   ![](img/creating_dashboards_insights7.png)
+
+![](img/creating_dashboards_insights7.png)
+
 4. Select a taxonomy from this list and click apply
-     ![](img/creating_dashboards_insights8.png)
+
+![](img/creating_dashboards_insights8.png)
+
 5. Name your taxonomy analysis and click submit
-6 Once the model starts processing, you will see a message that says“1 model processing.”  When the model finishes processing, you will see a message that says “1 model up-to-date”.
+
+6. Once the model starts processing, you will see a message that says“1 model processing.”  When the model finishes processing, you will see a message that says “1 model up-to-date”.
 
 ![](img/creating_dashboards_insights9.png)
 
 ### Deploying an Unsupervised NLU Model
 1. Choose Unsupervised NLU Model
-     ![](img/creating_dashboards_insights10.png)
+
+  ![](img/creating_dashboards_insights10.png)
+
 2. Choose the type of verbatim (customer, agent, or bot) you would like to analyze from the list on the left side and then click on the plus sign and choose text
        ![](img/creating_dashboards_insights11.png)
 3. Change the name of the Unsupervised NLU Model to include the type of verbatim you are analyzing and click Submit 
