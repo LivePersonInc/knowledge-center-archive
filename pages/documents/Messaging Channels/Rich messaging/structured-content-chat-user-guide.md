@@ -10,7 +10,8 @@ permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-gu
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:08:32 +0000
-
+redirect_from:
+  - messaging-channels-rich-conversations-structured-content-for-chat-user-guide.html
 ---
 ## Why chat needs structured content?
 
