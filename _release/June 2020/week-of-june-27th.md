@@ -22,7 +22,7 @@ The timing and scope of these features or functionalities remain at the sole dis
 ## Messaging History (Interactions) API  
 ### Type: New functionality (version 1.0.0.25)
 
-#### Support ‘source’ parameter as an optional query parameter [SD-7663] 
+#### Support ‘source’ parameter as an optional query parameter 
 This will add a new dimension for LivePerson metrics in order to improve troubleshooting, traffic control, and getting data-driven decisions. 
 
 ## Messaging History (Interactions) API  
