@@ -8,7 +8,8 @@ level3: ''
 permalink: messaging-channels-rich-messaging-hyperlinks-overview.html
 isTutorial: false
 isNew: false
-
+redirect_from:
+  - messaging-channels-rich-conversations-hyperlinks-overview.html
 ---
 
 {: .notice} 
