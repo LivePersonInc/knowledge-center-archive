@@ -27,7 +27,7 @@ This will add a new dimension for LivePerson metrics in order to improve trouble
 
 ## Messaging History (Interactions) API  
 ### Type: Bug fix (version 1.0.0.25)
-1. Post Conversation Survey with two custom text "NPS alike" questions caused duplications in Message History (conversationSurveys-->surveyData) 
+1. Post Conversation Survey with two custom text "NPS alike" questions caused duplications in Message History (conversationSurveys->surveyData) 
 Fixing duplicate ‘PostSurveyAnswerEvent’ with the same question id and answer id. After the fix the question and answer ids will be unique.
 2. Messaging history API returns the survey answers in incorrect order.
 This fix orders answers by their sequence.
