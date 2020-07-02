@@ -68,7 +68,7 @@ Words can be omitted if they are not important in the word cloud. Only words in 
 5)	Click Reprocess
  ![](img/stopwords-insights4.png)
  
-6)	Name the group
+6)	Name the group <br/>
 7)	Hit reprocess. Once a word is added to the stopwords and reprocessed, it will no longer show up in the word cloud. 
 Best Practice: Exit out of the dashboard and wait a while before checking the dashboard again. Processing time depends on how many records the dashboard has. 
  
@@ -100,7 +100,9 @@ Best Practice: Exit out of the dashboard and wait a while before checking the da
 
 12) 	Under stopwords category, select Add
     ![](img/stopwords-insights8.png)
+
 13)	The list created earlier would appear, select the list and then click Apply
      ![](img/stopwords-insights9.png)
+
 14)	Click reprocess. Once a word is added to the stopwords and reprocessed, it will no longer show up in the word cloud.
     ![](img/stopwords-insights10.png)
