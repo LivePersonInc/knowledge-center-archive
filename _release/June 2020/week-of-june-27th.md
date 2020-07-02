@@ -30,3 +30,11 @@ Fixing duplicate ‘PostSurveyAnswerEvent’ with the same question id and answe
 2. Messaging history API returns the survey answers in incorrect order.
 This fix orders answers by their sequence.
 
+## Support Auto-Close as conversation End invocation
+### Type: Enhancement (FaaS Release v1.18.1)
+With this enhancement, Functions being invoked on Conversation End event, will also be applicable for conversations that have been closed by the Auto-Close functionality configured in the account. Developers will be able to differentiate between the conversation end event types (consumer, agent, auto-close). The Auto-close invocation is denoted as by SYSTEM. 
+
+#### Screenshot:
+payload: 
+closeReason: SYSTEM
+![](img/RN-week-of-June-27th-1.png)
