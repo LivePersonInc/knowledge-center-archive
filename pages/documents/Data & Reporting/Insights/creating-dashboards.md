@@ -12,7 +12,9 @@ date: '2020-05-19'
 ---
 
 Users with edit permission will be able to create new dashboards.
-  ![](img/creating-dashboards-insights1.png)
+
+![](img/creating-dashboards-insights1.png)
+
 1\. From the Home page within the Dashboards section, click the Add button.
 2\. Name the dashboard
 
@@ -35,7 +37,7 @@ Users with edit permission will be able to create new dashboards.
  
 5\. After clicking on deploy model, you can choose Unsupervised NLU Model or Taxonomy Analysis
   
-  ![](img/creating_dashboards_insights4.png)
+    ![](img/creating_dashboards_insights4.png)
 
   **N-gram generator** - This analysis goes through the chats/conversations and pulls out buzzwords which are based on their frequency in all of the verbatims. It generates a buzzword word cloud
 
@@ -46,11 +48,14 @@ Sentiment Analysis - provides an average sentiment score for the entire verbatim
 User Analysis- this is to determine the gender of the user (Insights does not recommend using this analysis for our type of data)
 
 **Deploying a Taxonomy:**
-   ![](img/creating_dashboards_insights5.png)
+ 
+ ![](img/creating_dashboards_insights5.png)
+
 1\. Choose Taxonomy Analysis
 2\. Choose the type of verbatim (customer, agent, or bot) you would like to analyze from the list on the left side, run this as your text field. Click next.
 
   ![](img/creating_dashboards_insights6.png)
+
 3\. Click the blue + button to select the taxonomy to use:
 
 ![](img/creating_dashboards_insights7.png)
@@ -75,7 +80,9 @@ User Analysis- this is to determine the gender of the user (Insights does not re
 3\. Change the name of the Unsupervised NLU Model to include the type of verbatim you are analyzing and click Submit 
 4\. Choose Submit again
 5\. Once the Unsupervised NLU Model starts processing, it will say “1 model processing”
-         ![](img/creating_dashboards_insights12.png)
+
+  ![](img/creating_dashboards_insights12.png)
+
 6\. Once processing is complete, it will say Models up-to-date on the left side 
 
 ![](img/creating_dashboards_insights13.png)
@@ -95,8 +102,11 @@ Note: only you can see the new dashboard. If you want other users to view it, th
 ### Sharing Dashboard with a Group
 Dashboards can be shared with individuals or user groups
 1\. Click on Dashboards to see all the dashboards
+
 2\. Click on the bottom right corner of the dashboard to start sharing
+  
   ![](img/sharing_dashboards_insights_1.png)
+
 3\. The dashboard can be shared with users by searching their e-mail in the search bar. Once an e-mail is added to the account, the user can have different user rights. If a user group is already there, then you can see what type of user right that group can have.
 
 {: .notice}
@@ -107,6 +117,7 @@ Users must set up an account first before they can view dashboards. For the acco
   * Can Edit: can view and modify the dashboard, but cannot share it with others.
   * Can Share: can edit and share the dashboard with others, but cannot remove others’ access.
   * Owner: can edit, share, and add or remove users with less privilege.
+
 5\. Once a user right is selected, click “+” so that group/user has access to the dashboard.
 
 {: .notice}
