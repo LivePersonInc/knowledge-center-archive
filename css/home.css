@@ -101,8 +101,8 @@ body {
 #logocontainer {
   flex: 1;
   display: flex;
-  margin-left: 70px;
-  margin-right: 100px;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 #hometitle {
