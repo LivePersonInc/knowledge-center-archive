@@ -71,8 +71,6 @@ The integration of the Engagement Window Widget SDK and Agent Workspace Widget S
 * Faster responses through collaborative conversations between agent and consumer
 * Flexible integrations with a variety of engagement tools
 
-![](/img/adding-your-own-widgets-5.jpg)
-
 Agents can share a variety of interactive content in the Agent window, such as images, links and forms. This content will immediately be displayed in the consumer’s engagement window, enhancing their conversation experience and their connection with the Agent.
 
 In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service. Moreover, the flexibility of this framework opens the door for integrations with other engagement tools, such as live video connection.
