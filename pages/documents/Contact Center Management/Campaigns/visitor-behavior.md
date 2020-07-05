@@ -19,6 +19,8 @@ For each engagement in your campaign, you can determine if a particular visitor 
 
 The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
+![](/img/visitor-behavior-0.png)
+
 ## Which users should you target?
 
 Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely, with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
@@ -181,19 +183,11 @@ To set up an Engagement for Visitor Back Flow:
 2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
-
-![](/img/visitor-behavior-8.png)
-
-{:start="5"}
-1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
-2. Click Flow.
-
-![](/img/visitor-behavior-9.png)
-
-{:start="7"}
-1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
-2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
-3. Save the changes and publish the campaign.
+5. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+6. Click Flow.
+7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
+8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
+9. Save the changes and publish the campaign.
 
 <div class="important"> <b>Note:</b> If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
 <br />
