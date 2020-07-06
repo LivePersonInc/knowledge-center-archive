@@ -81,7 +81,7 @@ You can filter conversations in the list by status:
 
 Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
 
-![](img/New light mode (1).gif)
+![](img/new-light-mode.png)
 
 ### Your personal data bar
 
@@ -156,10 +156,10 @@ Conversations that reach your workplace have already undergone detailed analysis
 * **Manual mode (Ring All Agents)**: This option means a conversation will ring all online agents simultaneously when an incoming messaging conversation comes into the Conversational Cloud.  Given 2 agents answer at the same time, an indication to a “losing” agent after one was assigned.
 
 **Auto accept:**
-![image alt text](img/autoaccept.jpg){:class="newagent"}
+![image alt text](img/autoaccept.png){:class="newagent"}
 
 **Advanced mode:**
-![image alt text](img/advancedaccept.jpg){:class="newagent"}
+![image alt text](img/advancedaccept.png){:class="newagent"}
 
 ### Understanding the context & history
 
@@ -171,11 +171,11 @@ There are several tools in place to help you access the information you’ll nee
 
 * **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way you can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM.
 
-![image alt text](img/convohistory.jpg){:class="newagent"}
+![image alt text](img/convohistory.png){:class="newagent"}
 
 * **Consumer info**: This widget automatically displays important information about the consumer who is messaging you. This information will include the source channel of the conversation or any custom variables collected by your contact center.
 
-![image alt text](img/consumerinfo.jpg){:class="newagent"}
+![image alt text](img/consumerinfo.png){:class="newagent"}
 
 ### Replying to consumers
 
@@ -221,7 +221,7 @@ Every time a consumer sends a message, the SLA, or your expected time to reply r
 
 As an agent, you are able to control the amount of time you need to reply to consumers manually. For example, if you are chatting with a customer and you need to check the status on their application, you can let the customer know that you’ll get back to them in a couple of hours and then manually adjust the SLA of this conversation. By doing so, it will appear in your queue in the appropriate time and remind you to follow up with the customer.
 
-![image alt text](img/sla.jpg){:class="newagent"}
+![image alt text](img/sla.png){:class="newagent"}
 
 #### CoBrowse
 
