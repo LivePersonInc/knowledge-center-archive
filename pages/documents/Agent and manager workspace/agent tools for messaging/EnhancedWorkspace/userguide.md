@@ -87,7 +87,7 @@ Agents can now enjoy a lighter and cleaner looking interface with the option to 
 
 As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the Agent Workspace represents the real-time tracking of your current workload and shift.
 
-![image alt text](img/databar.jpg){:class="newagent"}
+![image alt text](img/databar.png){:class="newagent"}
 
 The data bar in your workspace will represent the queue data that is relevant only to you and your conversations for the current shift. Here you will see real-time data tracking the following:
 
