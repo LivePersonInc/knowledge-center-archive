@@ -44,7 +44,7 @@ Below are the steps needed in order to reach each of the available reports in th
 
 Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
-![](/img/moving-from-BI-RB1.png)
+![](/img/moving-from-BI-RB1.jpg)
 
 ### Agent activity
 
@@ -81,7 +81,7 @@ Agent manager BI dashboards are available through ‘VISITORS’ tab.
 
 Campaign BI dashboards are available through ‘CAMPAIGNS’ tab.
 
-![](/img/moving-from-BI-RB2.png)
+![](/img/moving-from-BI-RB2.jpg)
 
 ### Campaign dashboard
 
