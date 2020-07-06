@@ -15,7 +15,7 @@ redirect_from:
 
 The All Conversations tab displays every one of your brand’s messaging conversations, both open and closed, that have began in the past 13 months. This area is a useful tool that features advanced filtering and search capabilities, which lead to meaningful analysis on business topics, consumer satisfaction, and operational effectiveness. All Conversations allows agent managers to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance.
 
-![alt text](img/new-manager-workspace-6.png){:class="newagent"}
+![alt text](img/new-manager-workspace-6.png)
 
 The “All Conversations tab enables agents and managers to perform two major actions:
   1. **View and search conversations:** All Conversations enables users to search through both open and closed conversations that began in the past 13 months with advanced search and filter capabilities.
@@ -53,7 +53,7 @@ Users will be able to view conversations in All Conversations in two modes. Each
 
 Displays a list of both opened and closed conversations with sorting and filtering capabilities. This list includes the full view of available information on each conversation, such as skill, agent name, group, start time and more.
 
-![alt text](img/all-connections-manager-workspace.png){:class="newagent"}
+![alt text](img/all-connections-manager-workspace.png)
 
 #### Definitions
 
