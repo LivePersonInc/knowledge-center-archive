@@ -79,7 +79,7 @@ To go back to view additional conversations - you have two options:
 1. Click the ‘list view’ on the right corner to see the full list (remove filters to view complete list)
 2.  back to the Manager Workspace using the icon in the left navigation
 
-![](img/new-agent-manager-experience-1.png)
+![](img/new-agent-manager-experience-1.png){:class="newagent"}
 
 #### Viewing conversation transcripts in real time
 
@@ -100,7 +100,7 @@ Up until today, when a manager viewed a conversation, it would open the conversa
 
 Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them. In the new workspace, managers can select the conversation view to quickly scan through conversations.
 
-![](img/new-agent-manager-experience-2.png)
+![](img/new-agent-manager-experience-2.png){:class="newagent"}
 
 {: .notice}
 **Please note:** Conversations in the new view cannot be pinned.
@@ -124,7 +124,7 @@ Once you click on + join conversation, the menu icon will appear on the top of t
 
 You can click on ‘to send messages go to My Conversations list and it will automatically open this conversation in the workspace and enable you to start messaging.
 
-![](img/new-agent-manager-experience-3.png)
+![](img/new-agent-manager-experience-3.png){:class="newagent"}
 
 ### Searching for specific conversations
 
@@ -179,7 +179,7 @@ As opposed to the previous status data bar, the following new filters are availa
 
 Some managers are using the information available in the drop down dashboard:
 
-![](img/new-agent-manager-experience-8.png)
+![](img/new-agent-manager-experience-8.png){:class="newagent"}
 
 The new Manager Workspace offers much greater detail on the shift and will replace this dashboard. A couple of items from the dashboard will be discontinued:
 * **Closed conversations graph** - This graph not be available in the new workspace, only the total number of closed conversations. Users can view the [Real Time Dashboard](/data-reporting-messaging-real-time-data-real-time-data-for-messaging.html) for these details.
