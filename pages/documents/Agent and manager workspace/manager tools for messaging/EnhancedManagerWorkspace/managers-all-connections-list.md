@@ -100,7 +100,7 @@ This view displays the conversation transcript along with its associated informa
 
 The same list displays on the left with the ability to navigate through the list and read the transcript for each conversation. The list of conversations is the same list that displays in the list view (with only the summary data).
 
-![alt text](img/new-manager-workspace-update-1.png){:class="newagent"}
+![alt text](img/new-manager-workspace-6.png)
 
 #### Definitions
 
@@ -130,8 +130,6 @@ Agents and agent managers can search/filter conversations with the following par
 ## Taking actions on conversations (messaging, sending back to queue, transferring, etc)
 
 Managers can now easily join a conversation and perform actions, such as transferring it to another agent or closing the conversation. Managers can join conversations when they are actively handled by an agent, or if they are still in the queue (unassigned). The join option is available from the conversation mode (not from the list mode). Simply click **+ Join Conversation** at the bottom of the transcript, and **then you may send a message or take an action.**
-
-![alt text](img/all-connections-4.jpg){:class="newagent"}
 
 When selecting **Join**, you can:
 1. Begin messaging with the consumer alongside the agent
