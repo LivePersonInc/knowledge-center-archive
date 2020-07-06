@@ -134,13 +134,13 @@ The timeframe for the search now appears on top of the list and you can start fi
 
 The timeframe filter will remain until you change it and will apply to any subsequent filter or search you conduct.
 
-![](img/new-agent-manager-experience-4.png)
+![](img/new-agent-manager-experience-4.png){:class="newagent"}
 
 Searching for a conversation or a group of conversations by filter can be done within the search box. Once you click on this box, the criteria applied will be searched within the timeframe that you have defined for this list.
 
 You can search for a conversation by its ID directly in this filter box, or search and filter using the same criteria that existed until today.
 
-![](img/new-agent-manager-experience-5.png)
+![](img/new-agent-manager-experience-5.png){:class="newagent"}
 
 #### Searching for open conversations over 30 days old
 
