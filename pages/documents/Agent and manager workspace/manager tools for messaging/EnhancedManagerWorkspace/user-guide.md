@@ -27,6 +27,8 @@ To enable the Manager Workspace on your LivePerson Conversational Cloud account,
 
 Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new Manager Workspace. Please note that if the new Manager Workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
 
+![](img/new-manager-workspace-permissions-2.png)
+
 ## Filters
 
 Users will only be exposed to data related to the groups they manage. For example, an agent manager of the group "Sales" will only be able to view data and metrics which are driven from:
