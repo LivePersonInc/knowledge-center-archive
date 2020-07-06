@@ -29,7 +29,7 @@ While commonly used customer satisfaction measurements, such as customer surveys
 
 MCS does not rely on customers answering surveys, but rather on a deep analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time.
 
-![](/img/meaningful-connection-score-(MCS)-overview1.png)
+![](/imgall-connections-manager-workspace.png)
 
 At the the heart of the solution, validated in collaboration with leading universities, lies specialized NLP machine learning-based technology that is able to adjust its algorithm to fit each brand and/or industry.
 
@@ -70,9 +70,7 @@ For messaging conversations, the MCS score and alerts (smileys) are displayed in
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
-![](/img/meaningful-connection-score-(MCS)-overview2.png)The image above shows the chat web history
-
-![](/img/meaningful-connection-score-(MCS)-overview3.png)
+![](/img/web-history-1.png)
 
 The image above shows the chat Agent Workspace
 
@@ -114,8 +112,6 @@ All of these entities can be tracked through Analytics Builder, where brands can
 The Analytics Builder allows brands to build their own reports based on account data available in the Conversational Cloud. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
 
 MCSs for messaging conversations are available in the Analytics Builder for brands to further track and analyze data around consumer sentiment.
-
-![](/img/meaningful-connection-score-(MCS)-overview5.png)
 
 ## More about MCS
 
