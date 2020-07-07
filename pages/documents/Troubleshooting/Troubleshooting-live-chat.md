@@ -112,7 +112,7 @@ The user has two different LivePerson accounts. On one of the accounts the user 
 
 ## Why aren’t visitor names displayed in the Web Visitors and Web History list?
 
-![](/img/chat-with-new-nav.jpg)
+![](/img/chat-with-new-nav.png)
 
 ### Cause:
 
