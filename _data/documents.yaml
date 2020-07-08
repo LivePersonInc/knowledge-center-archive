@@ -1,7 +1,7 @@
 - categoryname: Getting started
   image: getting-started
   subcategories:
-    - subcategoryname: The LivePerson Conversational Cloud
+    - subcategoryname: LivePerson's conversational commerce platform
     - subcategoryname: Quick start guides
       pages:
         - pagename: Web Messaging quick start
