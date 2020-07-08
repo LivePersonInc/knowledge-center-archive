@@ -1,11 +1,11 @@
 ---
-pagename: Latest what's new
+pagename: June what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights include Rebranding to the Conversational Cloud, Developers Center update,  Data Transporter & more
 level3: ''
-permalink: whats-new-latest-whats-new.html
+permalink: whats-new-june-whats-new.html
 isTutorial: false
 isNew: false
 
