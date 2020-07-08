@@ -3,7 +3,7 @@ pagename: Product renaming overview
 categoryName: Admin & settings
 subCategoryName: ''
 indicator: both
-subtitle: Goodbye LiveEngage, Hello Conversational Cloud
+subtitle: 
 level3: ''
 permalink: admin-settings-product-renaming-overview.html
 isTutorial: false
@@ -13,21 +13,12 @@ redirect_from:
   - change-the-interface.html
 
 ---
-## Hello, Conversational Cloud
-For the past several years, LivePerson has helped leading brands become Conversational. Our platform enables agents and bots to handle inquiries from the most popular messaging channels, giving consumers an easy way to ask questions and make purchases.  
-
-As more and more brands make the shift to Conversational, we are updating our product naming architecture to reflect this new way of operating.  LiveEngage is being renamed as the LivePerson Conversational Cloud. Please note that all functionality and user interface remains unchanged.
-
-The Conversational Cloud is channel-agnostic and AI-powered. Brands can use the Conversational Cloud to discover and understand consumer intents, design and scale automations to fulfill those intents, and measure and optimize the effectiveness of conversations.
-
-![](img/product-renaming1.png)
 
 ## Product Architecture that Highlights Capabilities
 We want to ensure that all our product names reflect their capability for easy navigation. LivePerson’s new product architecture includes additional important name changes to our product:
 
 | OLD NAME | NEW NAME |
 | --- | --- |
-| LiveEngage | Conversational Cloud |
 | Campaigns | Campaign Builder |
 | Maven | Conversation Orchestrator |
 | Maven Assist - Bots | Agent Assist |
@@ -45,14 +36,14 @@ We want to ensure that all our product names reflect their capability for easy n
 | SmartConnect| Connect to Messaging|
 
 ## Discover & Understand with the Intent Manager
-The Discover and Understand section of our product highlights how LivePerson’s Conversational Cloud enables brands to understand the most popular consumer intentions, analyze how well the intents are being fulfilled, and identify intents that can be easily automated.
+The Discover and Understand section of our product highlights how LivePerson’s platform enables brands to understand the most popular consumer intentions, analyze how well the intents are being fulfilled, and identify intents that can be easily automated.
 
 ### New name
 **Intent Manager**
 - Intent Analyzer
 - Intent Builder
 
-The overarching Intent Manager product is the place that receives intents and provides a unified view of them all for easy analysis - fulfilling the Discover aspect of the Conversational Cloud. Using it’s Intent Builder and Intent Manager capabilities, brands can better understand consumer intentions, by automatically building and classifying intents. In the UI, the Intent Analyzer is the place to go:
+The overarching Intent Manager product is the place that receives intents and provides a unified view of them all for easy analysis - fulfilling the Discover aspect of the platform. Using it’s Intent Builder and Intent Manager capabilities, brands can better understand consumer intentions, by automatically building and classifying intents. In the UI, the Intent Analyzer is the place to go:
 
 ![](img/product-renaming2.png)
 
