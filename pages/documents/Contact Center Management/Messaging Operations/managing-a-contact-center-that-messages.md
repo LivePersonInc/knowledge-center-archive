@@ -15,7 +15,7 @@ isNew: false
 ---
 Messaging is now the preferred mode of communication for both sales and care use cases. Over 90% of people’s day-to-day conversations happen in digital messaging channels like SMS, Facebook and WhatsApp. With messaging as the channel of choice, businesses have started to connect to their consumers where they already are - through messaging. This shift traditional voice calls and live chat to messaging is transforming the way brands and consumers communicate.
 
-![](/img/lp-cc-1-1.gif)
+![](/img/Managing-a-contact-center-that-messages-1.png)
 
 While AI and automation enable this transformation to happen at scale, everything from agent best practices, staffing, queuing, routing and KPIs needs to be tailored to messaging operations in order for brands to continue to run their contact centers with efficiency. To accomplish this shift, LivePerson offers a comprehensive, end-to-end conversational platform that gives brands the tools they need to transform into a conversational business.
 
@@ -31,6 +31,8 @@ In addition to responding to consumers needs and expectations, brands who make e
 * **Control over queue prioritization** - Consumers do not need to wait by the phone or screen with messaging, giving brands more flexibility to choose which conversations should be handled first based on importance or other businesses needs.
 * **Expand accessibility with multi-channel** - Extend messaging directly over SMS, Facebook, Line, Web, Google My Business, WhatsApp and Apple Business Chat, and manage all communications in a single platform.
 * **Higher resolutions rates -** Agents have the leeway to consult with a colleague or an external application to compose the _right_ answer, increasing first time resolution rates and customer satisfaction.
+
+![](/img/lp-cc-1-1.gif)
 
 ## Tools to manage a contact center that messages
 
