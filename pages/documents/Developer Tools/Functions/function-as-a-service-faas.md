@@ -54,8 +54,6 @@ Since Functions allows brands to write custom, the number and variety of use cas
 
 If the contact center is able to recognize intent (using [Conversation Orchestrator with Intent Analyzer](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) or another intent analyzer), then a brand can choose to trigger actions from specific intents. For example, if a customer uses the word “outage”, and the brand has identified “outage” as an intent, an action can be triggered to send a proactive alert to the network operation manager. Another popular example is if consumer asks to ‘cancel my subscription’ - the intent of ‘cancel’ is identified and can be customized to automatically display the latest retention offer to the agent.
 
-![](/img/faas-use-case-agent-retention-offers-1.png)
-
 ### Use case 2: Customize routing
 
 In collaboration with a routing Bot or with Conversation Orchestrator's dynamic routing, when a customer starts a conversation, a brand can develop a function to be invoked to make routing decisions based on the customer’s conversation history. For example, a function can be created to pass the conversation to the last agent who handled it, along with a set of fallback decisions in case that agent is unavailable/offline.
