@@ -17,7 +17,7 @@ To help agents manage their active connections list effectively, brands are able
 
 For example, if a conversation has been idle for ten days, it can be automatically closed and moved to the closed conversations list. If the consumer sends a message after this time, it will be treated as a new incoming conversation.
 
-![](/img/response-time-2.png)
+![](/img/auto-close-for-messaging-conversations-1.png)
 
 ## Configuration
 
@@ -32,7 +32,7 @@ In some cases, different skills have a different conversation pace and therefore
 
 This higher level of flexibility to determine when a conversation should close and helps prevent scenarios where conversations get closed too early or late. Configuring auto close  per skill thereby can improve the consumer experience as well as the brand's operational parameters.
 
-![](/img/autoclose-per-skill-2.png)
+![](/img/auto-close-for-messaging-conversations-2.png)
 
 **Notes:**
 
