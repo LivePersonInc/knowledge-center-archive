@@ -65,7 +65,7 @@ For example, if the contact center is offline from 8pm until 8am, and the defaul
 
 The shift status is accessible from the drop down menu which opens from the top right of the screen in LivePerson.
 
-![](/img/Agent menu open.png)
+![](/img/Configuring-response-times-4.png)
 
 **How to configure response times**
 
