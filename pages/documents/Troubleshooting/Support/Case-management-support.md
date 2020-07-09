@@ -24,4 +24,4 @@ The list allows customers to:
 
 By default the permission to view cases is enabled for the account only, although it is possible to define this further by allowing view to management level only or to all users. This can be implemented via the permissions settings; to change settings you should contact your account team or have the account admin contact support.
 
-![](/img/Support case management.png)
+![](/img/Support case management .png)
