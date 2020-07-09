@@ -26,8 +26,6 @@ It is important to note that LivePerson Support does not troubleshoot custom das
 2. Open the dashboard by clicking the drag down icon
 3. Click the Analytics Builder icon on the left of the screen. A new tab will open.
 
-**How-to video:** [**Getting started**](https://bcove.video/2vj2Sid)
-
 ## Permissions
 
 In order for agent managers and campaign managers to be able to view, customize or share reports in Analytics Builder, the following permissions need to be enabled in their user profile:
@@ -114,7 +112,7 @@ A dashboard is an interactive display that you can use to quickly and easily exp
 * Perform manipulations on the data to display only the information you are interested in.
 * Use pre-defined, presentation-quality formatting to quickly display your data in a visually-striking way.
 
-The Conversational Cloud comes with a set of [predefined dashboards](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) which offer ready-made reports for account data flowing into Analytics Builder from the Conversational Cloud data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
+The Conversational Cloud comes with a set of [predefined dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) which offer ready-made reports for account data flowing into Analytics Builder from the Conversational Cloud data platform. These predefined dashboards can be used out of the box, or manipulated to create customized reports which contain unique key performance indicators.
 
 ### Customize a predefined dashboard
 
@@ -123,8 +121,6 @@ The Conversational Cloud comes with a set of [predefined dashboards](data-report
 3. Save a copy of the predefined dashboard under the ‘My Reports’ folder.
 4. Select the ‘**run newly saved dashboard**’ option.
 5. The new dashboard is now created, ready for you to customize.
-
-**How-to video:** [**Creating dashboards**](https://bcove.video/2wtZwaH)
 
 ### Saving changes
 
@@ -183,10 +179,6 @@ It is recommended to use an existing tab with its filters and modify it, rather 
 {: .notice}  
 It is recommended to create new tabs rather than many panels in a single tab
 
-**How-to video:** [**Sheets and Panels**](https://bcove.video/2wIfhug)
-
-**How-to video:** [**Working with datasets**](https://bcove.video/2wwnQJ0)
-
 ## Filters
 
 You can filter the data displayed in a dashboard by selecting from various options in the filters panel. For example, a dashboard displays engagement data for several different agent groups, from 2017 to 2019. You can filter the data in the dashboard to only display data for a specific agent group in 2018.
@@ -195,8 +187,6 @@ There are two types of filters available:
 
 * Attribute filter
 * Metric filter
-
-**How-to video:** [**Filters and dates**](https://bcove.video/2wKACTG)
 
 ### Add an attribute filter to the filters panel
 
@@ -257,8 +247,6 @@ You can choose to show only a subgroup of values in a filter by using a second f
 1. Hover the cursor over the name of the filter, then click the arrow icon. A list of options is displayed.
 2. Point to **select targets**, then select the other filters within the Filter panel to filter by the pre-selected filter.
 
-   **How-to video:** [Using visualizations as filters](https://bcove.video/2wTZrMV)
-
 ### Visualizations
 
 Once the dashboard is ready, you can quickly add visual representations of the data (called visualizations) to the dashboard to make the data easier to interpret.
@@ -267,8 +255,6 @@ Once the dashboard is ready, you can quickly add visual representations of the d
 
 1. Click the ‘Insert Visualization’ icon in the top bar. A new empty visualization is added to the dashboard.
 2. Add metrics and attributes to the visualization by drag-and-drop (to the ‘Editor’ panel or directly to the grid).
-
-   **How-to video:** [Working with graphs and visualizations](https://players.brightcove.net/902047215001/default_default/index.html?videoId=5537228430001)
 
 ### Rearrange the visualizations
 
@@ -320,10 +306,6 @@ Metrics are objects that represent business measures and key performance indicat
    b. ‘Columns’- the attribute’s values will be displayed on the columns of the grid.
 3. Metrics can only be added to the ‘metrics’ to show data.
 
-**How-to video:** [**Creating attributes**](https://bcove.video/2wFwMMr)
-
-**How-to video:** [**Create an Hourly Interval Attribute**](https://bcove.video/2wI4DU8)
-
 ### Remove a metric or attribute from a visualization
 
 1. Click on the metric or attribute. A list of options is displayed.
@@ -356,8 +338,6 @@ Refer to the [Functions Reference](http://www2.microstrategy.com/producthelp/10.
 
 1. Click ‘**validate**’ and make sure the formula is valid.
 2. Name the metric and save it.
-
-**How-to video:** [Creating metrics](https://bcove.video/2vPgq6B)
 
 #### **Recommendations:**
 
@@ -512,8 +492,6 @@ Once you have added an attribute to the grid, you can perform the following step
 6. Add more groups by clicking in the ‘Add a Group’ link.
 7. Once you’ve finished creating the groups, click ‘**Save.**’
 8. You can now use the new attribute instead of the original attribute.
-
-**How-to video:** [**Creating and Managing Groups**](https://bcove.video/2wFK5MK)
 
 ## Recommendations for creating custom dashboards
 
