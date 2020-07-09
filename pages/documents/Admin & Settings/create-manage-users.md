@@ -148,8 +148,6 @@ Only UTF 8 encoding is supported. We therefore recommend using Google spreadshee
 
 On the bottom of the Users view, you will find a number of account-wide settings.
 
-<img style="width:750px" src="img/userAutoLogout.png">
-
 See the setting "Users will be automatically logged out after inactivity of: ___"
 
 Change this to your desired amount of time.
