@@ -11,9 +11,10 @@ isNew: false
 
 ---
 Here are the latest features, enhancements and enablements that are coming in the following weeks:
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/436694998?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Product renaming
-Some of our Products are being renamed on July 12th
+Some of LivePerson's products are being renamed on July 12th
 We want to ensure that all our product names reflect their capability for easy navigation. LivePerson’s new product architecture includes additional important name changes to our product:
 
 For more information on which names are changing, click [here](https://knowledge.liveperson.com.rebranding-bvlnkiy-znm3eqs6brhzq.us.platform.sh/admin-settings-product-renaming-overview.html)
