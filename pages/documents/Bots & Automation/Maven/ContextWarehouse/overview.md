@@ -24,7 +24,7 @@ The Conversation Context Service is a centralized repository of context attribut
 Conversation Orchestrator provides three types of Context Attributes:
 
 1. Inbox System Attributes (e.g. conversation history)
-2. Custom attributes with static data or external system integrations with [Functions](liveperson-functions-overview.html)
+2. Custom attributes with static data or external system integrations with [Functions](https://developers.liveperson.com/liveperson-functions-overview.html)
 3. Context session store with APIs to store and retrieve session context and carry them over the conversational journey
 
 <img class="fancyimage" width="800" src="img/Context Warehouse Diagram.png">
