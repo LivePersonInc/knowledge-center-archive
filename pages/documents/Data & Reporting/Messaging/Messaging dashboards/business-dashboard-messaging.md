@@ -267,7 +267,8 @@ Included in this panel is an engagement formats selector, allowing the filtering
 5. Slide-out
 6. Peeling corner
 
-![](/img/business-activity-dashboard5.png)
+![](/img/Business_Dashboard_for_Livechat_Campaign.jpg)
+
 Business activity engagement analysis
 
 ### Entry point panel
