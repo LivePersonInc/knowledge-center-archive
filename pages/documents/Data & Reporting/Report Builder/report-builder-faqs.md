@@ -24,13 +24,13 @@ The Conversational Cloud Analytics Builder offers users to [create custom dashbo
 The data currently available in Conversational Cloud predefined dashboards is detailed below. Data in My Account is dependent on your individual account settings.
 
 * [Agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html): Includes operational data about agents.
-* [Skill activity dashboard:](data-reporting-live-chat-chat-dashboards-skills-activity-dashboard.html) Includes operational data about skills.
-* [Goals Tracker:](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) Includes information about each conversion.
-* [Messaging Performance Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html): Includes business and operational data about messaging conversations.
-* [Business Activity Dashboard:](data-reporting-messaging-messaging-dashboards-business-activity-dashboard-grid.html) Includes information about campaigns and engagements performance.
-* [Business Activity Grids](data-reporting-live-chat-chat-dashboards-business-activity-dashboard-grid.html) are also available in Excel export format, in daily and monthly level aggregations.
+* [Skill activity dashboard:](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html) Includes operational data about skills.
+* [Goals Tracker:](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-goal-tracker-report.html) Includes information about each conversion.
+* [Messaging Performance Dashboard](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html): Includes business and operational data about messaging conversations.
+* [Business Activity Dashboard:](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-business-dashboard-for-messaging.html) Includes information about campaigns and engagements performance.
+* [Business Activity Grids](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-business-dashboard-and-grid-for-live-chat.html) are also available in Excel export format, in daily and monthly level aggregations.
 * [Operational & Staffing dashboard](data-reporting-live-chat-chat-dashboards-operational-staffing-dashboard.html): Includes information about skill performance and skill demand.
-* [Survey activity dashboard:](data-reporting-live-chat-chat-dashboards-survey-activity-dashboard.html) Includes information about responses to surveys presented  in Live Chat.
+* [Survey activity dashboard:](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html) Includes information about responses to surveys presented  in Live Chat.
 
 ### With regard to data storage, where are the Analytics Builder servers located? In the same LivePerson data centres or in the Microstrategy cloud?
 
