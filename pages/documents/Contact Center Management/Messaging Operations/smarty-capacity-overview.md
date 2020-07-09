@@ -109,8 +109,6 @@ To maximize agent capacity and ensure conversation routing is as rapid and effic
 
 **Auto-accept** means a new messaging conversation will open automatically, without the agent needing to accept it. Instead of lighting up the ‘waiting’ indicator at the bottom of the screen, the message will immediately appear as a new conversation in the Agent Workspace. Auto-accept does not disrupt the agent’s current conversation; new messages will wait in the conversation bar until the agent clicks on them.
 
-![](/img/auto-accept.png)
-
 ## Dynamic Capacity per skill
 
 Dynamic Capacity enables brands to better manage its messaging operation by controlling the weight an active and inactive conversation takes up in the overall agent capacity. With Dynamic Capacity Per Skill, brands can now customize  Dynamic Capacity's settings per skill and thereby achieve a higher level of control on the time it takes a conversation to become inactive. Brands can now also define the weight that an inactive conversation would take up in the agent capacity once conversation becomes inactive. For more information see [Dynamic Capacity per skill](/contact-center-management-messaging-operations-smart-capacity-smart-capacity-per-skill.html).
