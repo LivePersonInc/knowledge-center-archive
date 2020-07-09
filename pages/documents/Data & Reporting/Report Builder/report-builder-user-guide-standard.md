@@ -95,8 +95,8 @@ When running the dashboards below another prompt will be shown - “hour offset 
 * [agent activity dashboard](data-reporting-messaging-messaging-dashboards-agent-activity-dashboard.html)
 * [goal tracker dashboard](data-reporting-messaging-messaging-dashboards-goal-tracker-report.html),
 * [Performance dashboard for messaging](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html)
-* [Survey dashboard for Messaging & Live Chat](data-reporting-messaging-chat-dashboards-survey-dashboard-for-live-chat.html)
-* [Skill dashboard for Live Chat](data-reporting-messaging-chat-dashboards-survey-skill-dashboard-for-live-chat.html)
+* [Survey dashboard for Messaging & Live Chat](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
+* [Skill dashboard for Live Chat](https://knowledge.liveperson.com/data-reporting-live-chat-chat-dashboards-skills-dashboard-for-live-chat.html)
 
 
 If you do not require any change in view from the account default time zone setting, you won’t need to choose anything in the pop-up prompt before running the dashboard (the default offset is TZ+0 which is a zero hour offset from the account default setting).
