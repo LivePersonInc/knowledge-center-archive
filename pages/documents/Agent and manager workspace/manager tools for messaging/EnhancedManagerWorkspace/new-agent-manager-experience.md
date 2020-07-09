@@ -79,7 +79,7 @@ To go back to view additional conversations - you have two options:
 1. Click the ‘list view’ on the right corner to see the full list (remove filters to view complete list)
 2.  back to the Manager Workspace using the icon in the left navigation
 
-![](img/new-agent-manager-experience-1.png){:class="newagent"}
+![](img/new-agent-manager-experience-1.png)
 
 #### Viewing conversation transcripts in real time
 
@@ -100,7 +100,7 @@ Up until today, when a manager viewed a conversation, it would open the conversa
 
 Until today, managers used the orbs on the bottom of the screen to open multiple conversations and had to sift through them. In the new workspace, managers can select the conversation view to quickly scan through conversations.
 
-![](img/new-agent-manager-experience-2.png){:class="newagent"}
+![](img/new-agent-manager-experience-2.png)
 
 {: .notice}
 **Please note:** Conversations in the new view cannot be pinned.
@@ -134,13 +134,13 @@ The timeframe for the search now appears on top of the list and you can start fi
 
 The timeframe filter will remain until you change it and will apply to any subsequent filter or search you conduct.
 
-![](img/new-agent-manager-experience-4.png){:class="newagent"}
+![](img/new-agent-manager-experience-4.png)
 
 Searching for a conversation or a group of conversations by filter can be done within the search box. Once you click on this box, the criteria applied will be searched within the timeframe that you have defined for this list.
 
 You can search for a conversation by its ID directly in this filter box, or search and filter using the same criteria that existed until today.
 
-![](img/new-agent-manager-experience-5.png){:class="newagent"}
+![](img/new-agent-manager-experience-5.png)
 
 #### Searching for open conversations over 30 days old
 
