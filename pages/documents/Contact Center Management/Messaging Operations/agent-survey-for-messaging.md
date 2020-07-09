@@ -87,6 +87,8 @@ Choose which Engagement Attribute and which attributes will be available for the
 
 ![](img/agent-survey-for-messaging-9.png)
 
+![](img/agent-survey-for-messaging-9a.png)
+
   * If the ‘Jump to’ is set to anything other than ‘Next’, the agent will see all questions until the first question with logic, until they answer the logic question.
 
 {:start="8"}
