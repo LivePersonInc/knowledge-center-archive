@@ -30,7 +30,7 @@ For example, a visitor on a brand’s clothing pages may be greeted with “Than
 
 Auto messages can also be disabled for selected skills.
 
-![](/img/automatic-message-overview-1b.png)
+![](/img/automatic-messages-messaging-11b.png)
 
 ## **Multi language support**
 
