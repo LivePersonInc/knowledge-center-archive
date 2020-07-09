@@ -34,7 +34,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="3"}
 3\.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
-![](/img/automatic-messages-livechat-edit.png)
+![](/img/automatic-messages-messaging-11b.png)
 
 {:start="4"}
 4\.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
@@ -49,7 +49,7 @@ The automatic message library can also be reached from the chat settings in the 
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click **Save**.
 
-![](/img/automatic-messages-languages.png)
+![](/img/automatic-messages-messaging-8b.png)
 
 ### To customize messages for a specific skill
 
@@ -62,7 +62,7 @@ The automatic message library can also be reached from the chat settings in the 
 {: .notice}
 When transferring a chat to a different agent, the skill-specific message will only be shown if the target agent has the skill of the chat. Otherwise, the default message will be shown.
 
-![](/img/automatic-messages-chat-7b.png)
+![](/img/automatic-messages-messaging-1b.png)
 
 ## Adding dynamic text to messages
 
@@ -75,8 +75,6 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 * _Place in queue_: The visitor's numerical rank in the "waiting to chat" queue {PlaceInQ}.
 * _Agent name_: The nickname of the current operator {name}.
 * _Email address_: The visitor’s email address {email}.
-
-![](/img/automatic-messages-chat-8b.png)
 
 ### To add dynamic text to an automatic message
 
