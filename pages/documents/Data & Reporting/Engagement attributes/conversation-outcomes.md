@@ -75,5 +75,3 @@ The conversation summary widget includes the following sections:
 If no engagement attributes are enabled, the conversation outcomes section is not displayed.
 
 To report on a business activity or conversation outcome, the agent should enter the data in the relevant engagement attribute properties and click submit. The data reported by the agent can then be used to track conversions / goals. Information can be submitted up to half an hour after the chat is closed.
-
-![](/img/conversation-outcomes4.png)
