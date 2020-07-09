@@ -114,8 +114,6 @@ To train the model, brands need to update the Intent Builder with the orange but
 
 When you create a new intent, a modal will guide you in the creation of the new intent. Currently, you MUST add 20 new utterances for each new intent before you can re-train the domain in Intent Builder.
 
-![](img/Intent-manager-customer-experience4.png)
-
 In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
 
 Conversation Builder: Administrator
@@ -132,7 +130,7 @@ All messages with intent that match your filters.
 
 Only shows up to 500 items.
 
-Clicking on the Conversation ID, filters the dashboard via the [search bar](#search) to just that conversation. For example, see [agent conversations](#agent-conversations-and-transcripts) will be filtered to just that one.
+Clicking on the Conversation ID, filters the dashboard via the [search bar](#search) to just that conversation. For example, see agent conversations will be filtered to just that one.
 
 ### Agent Conversations and Transcripts
 
