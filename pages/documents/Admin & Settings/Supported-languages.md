@@ -64,7 +64,7 @@ The embedded [engagement window](contact-center-management-campaigns-engagement-
 
 ## Languages supported in the LivePerson workspace
 
-The [Agent Workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html) supports the following languages:
+The [Agent Workspace](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-the-enhanced-agent-workspace.html) supports the following languages:
 
 * English (US)
 * Chinese (Simplified)
