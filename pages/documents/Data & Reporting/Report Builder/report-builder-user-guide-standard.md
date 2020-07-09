@@ -25,8 +25,6 @@ To access the Analytics Builder:
    * **Analytics reporting**: Customized dashboards created by LP for brands with a customization package.
 5. Click on a folder to view the available reports inside.
 
-**How to video:** [**Getting started**](https://bcove.video/2vj2Sid)
-
 ## Data view restrictions
 
 Analytics Builder filters data by agent groups, meaning that agent group managers can see data from their own group(s) and subgroups only.
@@ -124,8 +122,6 @@ To filter a report:
 3. Click **OK**.
 4. Under each parameter, for example Agent, use the checkmarks to select the data you would like to be displayed.
 5. At the top left of the screen, click **Apply.** The data will now be displayed according to your preferences.
-
-**How-to video:** [**Filtering**](https://bcove.video/2wwcWD6)
 
 ## Exporting reports
 
