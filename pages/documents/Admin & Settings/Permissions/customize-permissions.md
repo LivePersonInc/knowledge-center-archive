@@ -23,7 +23,7 @@ To ensure that complex organizations have the flexibility to tailor user roles t
 * Campaign manager
 * Admin
 
-![](img/Edit-Profile.png)
+![](img/Agent-manager-profile.png)
 
 ## Customized profiles
 
