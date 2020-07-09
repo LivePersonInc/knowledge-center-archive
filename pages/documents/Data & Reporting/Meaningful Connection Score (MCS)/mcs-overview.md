@@ -29,7 +29,7 @@ While commonly used customer satisfaction measurements, such as customer surveys
 
 MCS does not rely on customers answering surveys, but rather on a deep analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time.
 
-![](/imgall-connections-manager-workspace.png)
+![](/img/all-connections-manager-workspace.png)
 
 At the the heart of the solution, validated in collaboration with leading universities, lies specialized NLP machine learning-based technology that is able to adjust its algorithm to fit each brand and/or industry.
 
