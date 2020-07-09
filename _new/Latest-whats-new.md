@@ -13,14 +13,14 @@ isNew: false
 Here are the latest features, enhancements and enablements that are coming in the following weeks:
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/436694998?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Product renaming
+## Product Renaming
 Some of LivePerson's products are being renamed on July 12th
 We want to ensure that all our product names reflect their capability for easy navigation. LivePerson’s new product architecture includes additional important name changes to our product:
 
 For more information on which names are changing, click [here](https://knowledge.liveperson.com.rebranding-bvlnkiy-znm3eqs6brhzq.us.platform.sh/admin-settings-product-renaming-overview.html)
 
 ## Intent Discovery and Optimization
-The Intent Discovery and Optimization feature will enable brands to quickly uncover patterns in their existing data, better discover high impact intents, and automatically develop training phrases to train their machine learning models. It creates a tight integration between Intent Analyzer and Intent Builder making it easy for users to annotate incorrectly classified messages so that models can be improved and new intent classes can be created. For more information, click here 
+The intent discovery and optimization feature will enable brands to quickly uncover patterns in their existing data, better discover high impact intents, and automatically develop training phrases to train their machine learning models. It creates a tight integration between Intent Analyzer and Intent Builder making it easy for users to annotate incorrectly classified messages so that models can be improved and new intent classes can be created. For more information, click here 
 
 ## Starter Pack Enhancements (taxonomy)
 LivePerson are adding coverage for existing starter packs and new starter packs. Starting with FinServ + Cross Vertical Intents followed by adding Cross Vertical intents to Telco, Airlines and Insurance Suppliers. To get started, please contact you LivePerson account team.
@@ -36,7 +36,7 @@ The intent detection is based on machine learning classifications. Hence, false 
 
 ![](img/whats-new-july3.png)
 
-## Groups hierarchy filter
+## Groups Hierarchy Filter
 The global group filter available in the top right corner of the workspace has been modified to support:
 
 1.Visualization of the groups hierarchy in your account. The groups list, which was displayed as a flat list up until today, will now be viewed as a hierarchy tree of the groups. As before, managers will only be able to view the groups they manage , including their sub-groups.
@@ -45,14 +45,14 @@ The global group filter available in the top right corner of the workspace has b
 
 ![](img/whats-new-july1.png)
 
-## Response time metrics
+## Response Time Metrics
 New response time- related metrics will be added to the “Activity summary” widget, allowing managers to better track consumer experience and agent performance in real-time, on the group and skill level. Four response-time related metrics will be introduced:
 - Avg. wait time to first human response 
 - Avg. time to first response from the time of first assignment - The average time it takes a human agent to respond to the first message from a consumer, from the time the agent was assigned to the conversation. Measured from the first human agent message sent in a new conversation.
 - Avg.wait time to human response
 - Avg.time to response from assignment - The average time it takes a human agent to send a message to the consumer from the time the agent was assigned to the conversation.
 
-## Self serve metrics configuration
+## Self Serve Metrics Configuration
 This new capability allows brands to configure, per widget, which metrics will be displayed in the workspace. For example, brands that are not tracking the CSAT metric will now be able to remove it from their view.
 Please note: The configuration definition will impact the entire account and therefore impacts the view of all users of the manager workspace.
 
@@ -65,7 +65,7 @@ Agents using the enhanced agent workspace were not able to view the “messaging
 The Conversational Cloud Engagement Window and Engagement Invitations will be validated by WCAG 2.1 AA standards, and then certified for compliance.
 Agent & Agent Managers will be able to use accessibility features on both themes (Dark & Light): Updates include a screen reader, keyboard navigation, focus outline, accessible color contrast, adjusted font size and more.
 
-## Analytics Builder updates
+## Analytics Builder Updates
 The Survey Messaging dashboard will be enhanced to include attribution of messaging survey results to include bots. We also are enabling reporting on Collaboration channels ( such as CoBrowse, Video, Voice) in messaging as well as on PCI Secure Forms in messaging. This means users will have greater visibility & transparency in payments and allows brands to measure return on investment.
 
 ## Key Messaging Metrics API
