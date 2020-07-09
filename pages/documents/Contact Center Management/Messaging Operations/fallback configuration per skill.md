@@ -16,7 +16,7 @@ When assigning conversations to agents, it is possible that certain skills will 
 
 ### When will the conversation get re-routed to a fallback skill?
 
-The process in which conversations from the queue are assigned to available agents happens approximately every 2 seconds throughout the day. This process routes the skill to which the conversation is assigned and attempts to locate an agent with free capacity that carries that same skill. If no such agent can be found, the routing system would look for a fallback skill to route the conversation to. The requirement from the fallback skill would be that there are agents with that skill that are connected to the LiveEngage.
+The process in which conversations from the queue are assigned to available agents happens approximately every 2 seconds throughout the day. This process routes the skill to which the conversation is assigned and attempts to locate an agent with free capacity that carries that same skill. If no such agent can be found, the routing system would look for a fallback skill to route the conversation to. The requirement from the fallback skill would be that there are agents with that skill that are connected to the Conversational Cloud.
 
 ## Fallback skill paths
 
@@ -31,7 +31,7 @@ Each time the conversation assignment process (also known as ACD) runs, it would
 
 ### What about the account-level fallback skill? Is it still in use?
 
-If a fallback skill is defined to account, it would still apply to all skills unless the skill is defined with a custom fallback skill through LiveEngage. Changing the account level fallback skill can only be done by your LivePerson account team.
+If a fallback skill is defined to account, it would still apply to all skills unless the skill is defined with a custom fallback skill through the Conversational Cloud. Changing the account level fallback skill can only be done by your LivePerson account team.
 
 ## Set up
 
@@ -39,9 +39,9 @@ Please contact your account manager to enable this feature
 
 Once the feature is enabled, please follow the steps below:
 
-### Step 1 - Enter the Skills settings in LiveEngage
+### Step 1 - Enter the Skills settings in the Conversational Cloud
 
-Login to LiveEngage as an Admin and head towards the Users tab. Switch to the Skills tab and select the skill you wish to add a fallback skill to.
+Login to the Conversational Cloud as an Admin and head towards the Users tab. Switch to the Skills tab and select the skill you wish to add a fallback skill to.
 
 ### Step 2 - Configure the fallback skill
 
@@ -55,6 +55,6 @@ Click “Save”.
 
 **Example**:
 
-An agent transferred a conversation to skill A and all the agents on skill A are marked as “Away”. Under the configuration of skill A in LiveEngage the “Route to fallback skill when agents are in away status” is checked and the fallback is defined as skill B. re-route the conversation to skill B, assuming there are online agents with skill B”, if not, the conversation remains assigned with skill A.
+An agent transferred a conversation to skill A and all the agents on skill A are marked as “Away”. Under the configuration of skill A in the Conversational Cloud the “Route to fallback skill when agents are in away status” is checked and the fallback is defined as skill B. re-route the conversation to skill B, assuming there are online agents with skill B”, if not, the conversation remains assigned with skill A.
 
 ![](/img/Fallback config per skill.png)

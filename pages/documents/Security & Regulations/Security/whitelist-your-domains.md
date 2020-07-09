@@ -32,7 +32,7 @@ It is important to add Liveperson's domains (`.liveperson.net`, `.liveperson.com
 
 To enable monitored domains:
 
-On the LiveEngage Tag page, click **Manage Domains**.
+On the Web Tag page, click **Manage Domains**.
 
 ![](/img/whitelist-domains1.png)
 

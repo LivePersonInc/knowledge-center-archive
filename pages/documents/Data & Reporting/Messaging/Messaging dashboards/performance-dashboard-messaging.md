@@ -227,4 +227,4 @@ Perform the analysis and customization you need using an offline copy, in excel 
 
 ## Metrics
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
+For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)

@@ -12,13 +12,12 @@ isNew: false
 date: 2019-01-23T13:49:32.000+00:00
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/312512034" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Bots and large-scale automations transform how brands interact with consumers, enabling one-to-one interactions that replace the IVR, websites, and apps with conversations. Bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. Since consumers want to build and maintain relationships with brands just like they talk to their friends and family, through natural language and dialogs, bots and agents are key to operating automation at scale.
 
 ## Humans and bots work together in LivePerson
 
-In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same agent workspace. This enables conversations to be easily passed between bot and human agents.
+In LivePerson, bots can be handled like human agents, able to perform all the tasks a human agent can and measured with the same KPIs in the same Agent Workspace. This enables conversations to be easily passed between bot and human agents.
 
 Agents have the ability to intervene or pick up conversations where needed - what we call the "human and bot tango". LivePerson enables this unique capability with a set of tools that automatically uses agents’ interventions and responses to make the bots better.
 

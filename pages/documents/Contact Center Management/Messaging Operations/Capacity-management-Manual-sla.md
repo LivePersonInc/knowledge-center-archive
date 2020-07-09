@@ -3,20 +3,21 @@ pagename: 'Capacity management for manual SLA '
 categoryName: Contact center management
 subCategoryName: Messaging operations
 indicator: messaging
-subtitle: Smart capacity reacts to manual SLA settings and improves the operation
-level3: Smart Capacity
-permalink: contact-center-management-messaging-operations-smart-capacity-capacity-management-for-manual-sla.html
+subtitle: Dynamic Capacity reacts to manual SLA settings and improves the operation
+level3: Dynamic Capacity
+permalink: contact-center-management-messaging-operations-dynamic-capacity-capacity-management-for-manual-sla.html
 isTutorial: false
 isNew: false
 date: 2019-03-18 08:31:11 +0000
-
+redirect_from:
+    - contact-center-management-messaging-operations-smart-capacity-capacity-management-for-manual-sla.html
 ---
-Today conversations that are set with a long manual SLA maintain a capacity of 1 (active) until the "time to inactive" defined by [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) had passed. Only then the weight of the conversation would go down to its inactive weight. While it makes sense in cases where short manual SLAs are set, in cases where long manual SLAs are set - this behavior blocks the agent capacity until the conversation reaches its inactive state. This behavior translates into agent wasted capacity of about 2-4 min, depending on the brand Smart Capacity configuration. Lowering the weight of the conversation whenever a long manual SLA is set enables agents to take on additional conversations without waiting for conversations to become inactive and by that, optimize the agent conversation load. With this in mind, it is important to have a minimum time setting that defines that if the set SLA is higher than a certain amount of time, lower the conversation weight immediately, otherwise, keep it as is it is today where the standard smart capacity logic applies to the conversation.
+Today conversations that are set with a long manual SLA maintain a capacity of 1 (active) until the "time to inactive" defined by [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html) had passed. Only then the weight of the conversation would go down to its inactive weight. While it makes sense in cases where short manual SLAs are set, in cases where long manual SLAs are set - this behavior blocks the agent capacity until the conversation reaches its inactive state. This behavior translates into agent wasted capacity of about 2-4 min, depending on the Brands Dynamic Capacity configuration. Lowering the weight of the conversation whenever a long manual SLA is set enables agents to take on additional conversations without waiting for conversations to become inactive and by that, optimize the agent conversation load. With this in mind, it is important to have a minimum time setting that defines that if the set SLA is higher than a certain amount of time, lower the conversation weight immediately, otherwise, keep it as is it is today where the standard Dynamic Capacity logic applies to the conversation.
 
 ## How does the feature work?
 
 Whenever an agent sets a manual SLA to a conversation, we check to see if the set SLA is higher than a predefined value. If the value is higher than the configured value, the weight of the conversation would be immediately set to match an inactive conversation weight allowing another conversation to be assigned to the agent.  
-If the set SLA is lower than the configured value, the weight of the conversation will maintain a value of an active conversation until enough time had passed to allow the conversation to be regarded as inactive, per the standard Smart Capacity logic that applies to all conversations.
+If the set SLA is lower than the configured value, the weight of the conversation will maintain a value of an active conversation until enough time had passed to allow the conversation to be regarded as inactive, per the standard Dynamic Capacity logic that applies to all conversations.
 
 ### When will the conversation regain back the weight of an active conversation?
 
@@ -47,7 +48,7 @@ _Note - When a conversation is transferred to a skill or to another agent it wil
 
 ### What happens if the feature is turned on however the manual SLA set is below the threshold?
 
-When the manual SLA is set to a value which is lower than the configured threshold value, the conversation weight will maintain its active weight and would act like any other conversation when it comes to Smart Capacity calculations and the agent load.
+When the manual SLA is set to a value which is lower than the configured threshold value, the conversation weight will maintain its active weight and would act like any other conversation when it comes to Dynamic Capacity calculations and the agent load.
 
 In this case, where the SLA is lower than the configured threshold, the conversation would still be considered for auto close with the same logic as if it was set with an SLA which is higher than the threshold. Meaning, for auto close to be considered, the manual SLA must expire and the agent must write at least one line to the conversation after the SLA expired.
 

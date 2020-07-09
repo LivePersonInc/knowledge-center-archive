@@ -19,13 +19,15 @@ For each engagement in your campaign, you can determine if a particular visitor 
 
 The default option, **All behaviors**, means that the button is displayed at all times and displays immediately when the page is loaded.
 
+![](/img/visitor-behavior-0.png)
+
 ## Which users should you target?
 
 Consumers who show intent to purchase higher-value products or services are known as high-stakes consumers. You don’t want to forfeit any high-stakes consumers because they didn’t get the support they needed to complete a transaction. On the other hand, your agent resources are valuable and it is important to ensure they are utilized wisely, with your high-stakes consumers. So, users who are browsing free or very low-value products will not be targeted for live engagement, whereas users who show intent to carry out a high-value purchase should be engaged with an agent.
 
 ## How can you target these users?
 
-LiveEngage allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
+The Conversational Cloud allows you to accurately pinpoint those consumers that you want to include (or exclude from) your targeting. Let’s look at the different options for targeting particular user behaviors.
 
 Decide when to display engagements by selecting conditions that will be applied to your users’ behavior.
 
@@ -58,7 +60,7 @@ Target and/or exclude consumers from selected entry points on the website or wit
 
 ### 4. About to abandon:
 
-Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, LiveEngage knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
+Engage consumers that are about to abandon your site or app. Based on data from Google Analytics which evaluates when consumers are likely to abandon a webpage, the Conversational Cloud knows when to display an engagement to catch a consumer before they abandon. In order to apply this behavior rule, you must set up the Google Analytics profile.
 
 **Note:** this behavior is currently only supported for web engagements.
 
@@ -72,13 +74,13 @@ Target consumers according to the value of their shopping cart. Visitors can be 
 
 ![](/img/visitor-behavior-2.png)
 
-Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
+Cart value is reported via the Cart Update Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Center.
 
 ### 6. Products in cart:
 
 In order to target consumers who are interested in a specific product or type of product, you can configure an engagement to appear when they add a product(s) to their cart. The product can be defined by name, unique product identifier / stock keeping unit (SKU) or by category name. You can also exclude engagements from appearing when these products are added to the cart.
 
-Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Community.
+Products in Cart is reported via the Cart Update Engagement Attribute, for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---purchase-transaction) in the Engagement Attributes guide on the Developer Center.
 
 ### 7. Viewed product:
 
@@ -86,7 +88,7 @@ In order to target consumers who are interested in a specific product or type of
 
 ![](/img/visitor-behavior-3.png)
 
-Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Community.
+Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Center.
 
 ### 8. Visitor error:
 
@@ -94,7 +96,7 @@ Target consumers who experience specific errors during their time on your site o
 
 ![](/img/visitor-behavior-4.png)
 
-Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Community.
+Visitor Error is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---visitorerror-visitor-error) in the Engagement Attributes guide on the Developer Center.
 
 ### 9. Engaged in session:
 
@@ -130,7 +132,7 @@ Target consumers by their service journey topics. A service journey is a series 
 * Resolved
 
 <br/>
-Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Community.
+Service Activity is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---serviceactivity-service-activity) in the Engagement Attributes guide on the Developer Center.
 
 Once you’ve selected and configured your conditions, LivePerson will track and target the consumers that you most want to engage with. The more information you provide the system, the better your business results will be. Use the Behavior Conditions to improve your targeting and see an immediate boost in your ROI. Below is an example of how to target based on the user behavior type: flow.
 
@@ -173,32 +175,24 @@ If the visitor does not complete the desired flow, the visitor exhibits what we 
     Shopping Cart page > CheckOut page > Shopping Cart page
 
 <br/>
-To manage such scenarios, you can set LiveEngage to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an Engagement.
+To manage such scenarios, you can set the Conversational Cloud to trigger an engagement (Overlay, Sticky Chat Button etc.) whenever the system recognizes Visitor Back Flow by configuring the Visitor Behavior for an engagement.
 
 To set up an Engagement for Visitor Back Flow:
 
-1. Log in to LiveEngage as a Campaign Manager user or Admin user.
-2. Go to the Campaigns tab.
+1. Log in to the Conversational Cloud as a Campaign Manager or Admin user.
+2. Go to the Campaign Builder.
 3. Click the Campaign for which you would like to configure Visitor Backflow Behavior.
 4. Under the engagement that you want to configure, click Visitor Behavior.
-
-![](/img/visitor-behavior-8.png)
-
-{:start="5"}
-1. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
-2. Click Flow.
-
-![](/img/visitor-behavior-9.png)
-
-{:start="7"}
-1. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
-2. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
-3. Save the changes and publish the campaign.
+5. After accessing the Visitor Behavior Library, choose to either to edit a behavior or create a new visitor behavior.
+6. Click Flow.
+7. Notice that the default selection is set to Abandoned. Click it and select Back Flow from the drop down menu.
+8. Click + Add Flow and add the URLs to all the pages that you expect a visitor to browse in the order expected to complete the desired flow.
+9. Save the changes and publish the campaign.
 
 <div class="important"> <b>Note:</b> If you define a flow as follows: Page 1 > Page 2 > Page 3 > Page 4
 <br />
 <br />
-When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and LiveEngage does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, LiveEngage will not trigger the engagement because the flow was already completed.
+When a customer visits each of the pages above in the order shown, ending on Page 4, the visitor has completed the flow and the Conversational Cloud does not trigger the engagement. If after completing the flow above, the customer goes back to Page 3, Page 2 or any other page, the Conversational Cloud will not trigger the engagement because the flow was already completed.
 </div>
 
 ## Visitor behavior conditions

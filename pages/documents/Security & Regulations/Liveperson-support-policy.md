@@ -28,7 +28,7 @@ offered by the applicable third-party provider
 
 **Resolution:** An issue is considered resolved when the customer's service needs have been met.
 
-**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson accounts and maintenance activity updates. The Service Status Dashboard is accessible to LivePerson customers at [http://status.liveperson.com](https://status.liveperson.com)
+**LivePerson Service Status Dashboard:** The web page accessible to LivePerson customers that describes current and past statuses of their LivePerson Conversational Cloud accounts and maintenance activity updates. The Service Status Dashboard is accessible to LivePerson customers at [http://status.liveperson.com](http://status.liveperson.com)
 
 ## Scope of support
 
@@ -39,16 +39,16 @@ The following items are generally **not supported:**
 * Alterations or revisions to the LivePerson code by the customer.
 * Continued support of issues for which LivePerson has provided a solution that has not been implemented by the customer, or for which data requested from the customer has not been provided.
 * Writing or debugging custom applications without following LivePerson integration guidelines.
-* Dashboards and derived metrics/attributes created by the customer in the [Report Builder](data-reporting-report-builder-report-builder-overview.html).
+* Dashboards and derived metrics/attributes created by the customer in the [Analytics Builder](data-reporting-report-builder-report-builder-overview.html).
 * third-party services, products or technology. Please let us know if you have questions about a third-party tool and we will endeavor to help obtain additional information for you.
 
 ### Engagement channels
 
-LivePerson Support provides 24x7 chat support. Chat is accessible from the LiveEngage Connection Area. Please contact our chat support for issues of any severity level.
+LivePerson Support provides 24x7 chat support. Chat is accessible from the Connection Area. Please contact our chat support for issues of any severity level.
 
 ### Severity definitions and service levels
 
-Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to customer’s mobile application etc.). Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays. 
+Each issue that is identified by the LivePerson Network Operations Center or reported by LivePerson customers is assigned a severity level and is tracked according to the following service levels. Upon request, customer will promptly provide LivePerson with full cooperation and all information reasonably requested by LivePerson to facilitate the investigation of all support issues (e.g., test account information, user ID's, access to customer’s mobile application etc.). Customer acknowledges that its inability to provide all requested information by LivePerson may affect the time periods set forth below and LivePerson shall not be in breach of its obligations herein or be responsible for such delays.
 
 Severity level | Description | Response time | Periodic updates | Preliminary root cause analysis
 --- |:--- | --- | --- | ---
@@ -68,23 +68,23 @@ Severity level | Description | Response time | Periodic updates | Preliminary ro
 LivePerson provides service incident notifications and maintenance activity updates on the [LivePerson Service Status
 Dashboard](https://status.liveperson.com).
 
-LivePerson maintains an **Emergency Contact** distribution list of customers for communicating special notifications (such as daylight savings time updates, etc.). Communications regarding these special notifications are provided via email to the customer’s emergency contacts. The customer is required to submit contact information, including an email, of a designated emergency contact, in order to receive such special notifications from LivePerson. 
+LivePerson maintains an **Emergency Contact** distribution list of customers for communicating special notifications (such as daylight savings time updates, etc.). Communications regarding these special notifications are provided via email to the customer’s emergency contacts. The customer is required to submit contact information, including an email, of a designated emergency contact, in order to receive such special notifications from LivePerson.
 
 **Please note:**
 * LivePerson Customer Support requires each customer to provide an email address of at least one emergency contact, in case we need to contact you.
-* It is the responsibility of the customer to notify LivePerson Customer Support of all changesto their emergency contact(s). LivePerson strongly recommends that the customer establish a single global email address (distribution list) for emergency contacts.
+* It is the responsibility of the customer to notify LivePerson Customer Support of all changes to their emergency contact(s). LivePerson strongly recommends that the customer establish a single global email address (distribution list) for emergency contacts.
 * We recommend adding support@liveperson.com to your organizational mail server’s safe senders list to ensure that you receive e-mails from us
 
 ## Maintenance activities
 
-### Scheduled maintenance 
+### Scheduled maintenance
 * LivePerson conducts most of its critical maintenance activities during a predefined maintenance window on Sundays. Most of the activities will not affect your use of the Hosted Services.
-* When maintenance activities will affect your use of the Hosted Services, LivePerson will provide you with up to ten (10) days advance notice on the Service Status Dashboard page for your account. Such maintenance activities will occur during the following Maintenance Window below. 
+* When maintenance activities will affect your use of the Hosted Services, LivePerson will provide you with up to ten (10) days advance notice on the Service Status Dashboard page for your account. Such maintenance activities will occur during the following Maintenance Window below.
 
-Server location and domain | Maintenance windows 
---- | --- 
+Server location and domain | Maintenance windows
+--- | ---
 North America (z1.le.liveperson.net) | Sunday from 3 a.m. to 7 a.m. ET
-Europe (z2.le.liveperson.net) | Sunday from 6 a.m. to 10 a.m. GMT 
+Europe (z2.le.liveperson.net) | Sunday from 6 a.m. to 10 a.m. GMT
 APAC (z3.le.liveperson.net) | Sunday from 9 p.m. to 2 a.m. AEST
 
 ### Unscheduled maintenance  

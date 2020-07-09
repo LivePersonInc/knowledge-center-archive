@@ -11,9 +11,8 @@ date: 2019-01-20 13:11:55 +0000
 isNew: false
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/251149506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-LiveEngage is now seamlessly integrated into LINE, offering your brand the opportunity to tap into the millions of consumers connecting on it. Set up is easy and allows your agents to create ongoing connections with valuable customers right away; to onboard LINE to your account, please contact your LivePerson account team.
+The Conversational Cloud is now seamlessly integrated into LINE, offering your brand the opportunity to tap into the millions of consumers connecting on it. Set up is easy and allows your agents to create ongoing connections with valuable customers right away; to onboard LINE to your account, please contact your LivePerson account team.
 
 ## Why use LINE to connect with your consumers?
 
@@ -21,10 +20,10 @@ LiveEngage is now seamlessly integrated into LINE, offering your brand the oppor
 * **LINE application available for every smartphone** — The LINE app is accessible to every one of your customers, whether they’re using iOS or Android.
 * **Be where your consumers need you** — By adding a QR code to an invoice, email or advert, brands can allow consumers to initiate a conversation with an agent via LINE.
 * **Easy bot integrations** — Bots can offer service and sales assistance to customers directly through LINE, with seamless transition to a human agent available as and when required.
-* **Rich Messaging capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
+* **Rich Conversation capabilities** - High-resolution photos, files, stickers, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
 
   ![](/img/Image-1 (1).jpg)
-  
+
 ### Agent to consumer photo sharing
 
 This feature enables agents to share photos with consumers in LINE conversations. The image files will be shared from the local file dialog.
@@ -50,4 +49,3 @@ Image 2: Consumer sees the file agent shares
 By adding a QR code to an invoice, email or advertisement, brands can allow consumers to initiate a conversation with an agent via LINE right away, ensuring you’re ready to offer support exactly when they need you.
 
 ![](/img/line connector 2-1.png)
-

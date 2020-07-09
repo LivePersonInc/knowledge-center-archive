@@ -1,17 +1,17 @@
 ---
 pagename: Engagement window widgets
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: both
 subtitle: intelligently share product information & rich media during a conversation
   with the visitor in a dedicated area on the engagement window
 level3: ''
-permalink: messaging-channels-rich-messaging-engagement-window-widgets.html
+permalink: messaging-channels-rich-conversations-engagement-window-widgets.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:54:28 +0000
 redirect_from:
-  - messaging-channels-rich-conversations-engagement-window-widgets.html
+  - messaging-channels-rich-messaging-engagement-window-widgets.html
 ---
 The engagement window widget SDK allows brands to intelligently share product information, videos or other rich media during a conversation with the visitor, in a dedicated area on the engagement window.
 
@@ -26,9 +26,13 @@ The engagement window widget SDK allows brands to intelligently share product in
 
 The SDK, which requires some development by LivePerson, offers advanced capabilities for integrating applications into the engagement window, allowing two-way communication between LivePerson and external applications. By reading conversation lines, it can trigger intelligent and tailored content to be pushed to the window, which appears as an Iframe off the main conversation window (or as an overlay on mobile). Consumers will receive notifications, in both pop-out and minimized modes, when new content is available to view.
 
-The SDK can also be integrated with the agent workspace widget SDK, allowing rich media to be shared between the consumer and the agent. Using unique session IDs, an external platform facilitates a direct connection between the two SDKs, providing a seamless widget integration framework.
+The SDK can also be integrated with the Agent Workspace widget SDK, allowing rich media to be shared between the consumer and the agent. Using unique session IDs, an external platform facilitates a direct connection between the two SDKs, providing a seamless widget integration framework.
 
 {: .notice}  
 The SDK requires technical deployment by LivePerson professional services.
 
+<<<<<<< HEAD
+Further information and technical documentation on the engagement window widget SDK can be found in the [Developer Center](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html).
+=======
 Further information and technical documentation on the engagement window widget SDK can be found in the [Developer Community](https://developers.liveperson.com/rt-interactions-window-sdk-overview.html). 
+>>>>>>> master

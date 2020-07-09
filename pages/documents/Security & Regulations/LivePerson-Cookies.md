@@ -14,7 +14,7 @@ isNew: false
 ---
 
 {: .notice}
-For an in-depth and technical overview of Cookie types and properties, please see [this article](https://developers.liveperson.com/cookies-and-liveengage-overview.html) in the Developers' Community.
+For an in-depth and technical overview of Cookie types and properties, please see [this article](https://developers.liveperson.com/cookies-and-liveengage-overview.html) in the Developer Center.
 
 A cookie is a small piece of data sent from a website and stored in the visitors' web browser. It helps the website to remember information about a visit; so when a visitor browses the same website in the future, the data stored in the cookie is sent back to the website by the browser.
 
@@ -214,4 +214,4 @@ Disabling or blocking this cookie does not prevent chat from working.
 
 **Cookie type:** Session
 
-For more detailed information on Cookies, please visit the [Developers Community](https://developers.liveperson.com/cookies-and-liveengage-overview.html)
+For more detailed information on Cookies, please visit the [Developer Center](https://developers.liveperson.com/cookies-and-liveengage-overview.html)

@@ -91,6 +91,6 @@ LivePerson provides intent management out-of-the-box, which are intents that the
 
 <img class="fancyimage" width="750" src="img/BotsAutomation_IntentAnalyzer.png">
 
-Intent Analyzer powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from the Intent Analyzer to power next generation analytics, orchestrate conversations with Maven, and build effective automations with Conversation Builder.
+Intent Analyzer powers enhanced reporting and analytics for your bots and automation. Brands can leverage the consistent flow of data from the Intent Analyzer to power next generation analytics, dynamically route conversations with the Conversation Orchestrator, and build effective automations with Conversation Builder.
 
 At LivePerson, we believe the most powerful customer contact center is delivered when a brand is able to successfully understand their customer's intent, and use this knowledge to continuously improve the consumer experience, operations and efficiency. The next evolution of managing messaging programs within a contact center is through intent.

@@ -11,7 +11,7 @@ isNew: false
 date: 2019-04-02 11:01:50 +0000
 
 ---
-When troubleshooting complex issues, it's sometimes necessary for our support agents to get some additional information from you in order to troubleshoot the issue further. For example, when we receive a report of performance trouble when using LiveEngage there are a lot of different factors that may contribute to the problem. To narrow down the cause of the performance problem, we need more data.
+When troubleshooting complex issues, it's sometimes necessary for our support agents to get some additional information from you in order to troubleshoot the issue further. For example, when we receive a report of performance trouble when using the Conversational Cloud there are a lot of different factors that may contribute to the problem. To narrow down the cause of the performance problem, we need more data.
 
 Google Chrome, in particular, makes it relatively easy to capture all the data we need using what's called a HAR file. For this reason, we may ask you to generate a HAR file to help troubleshoot the trouble you're experiencing. Please see the following directions for how to generate a HAR file.
 

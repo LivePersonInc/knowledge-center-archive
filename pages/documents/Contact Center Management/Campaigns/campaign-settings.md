@@ -11,23 +11,23 @@ isNew: false
 date: 2019-01-29 12:29:01 +0000
 
 ---
-The campaign footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
+The Campaign Builder footnote includes account level settings that allow you to configure the key elements of your campaigns. By doing so, you can enhance the performance of campaigns, and make sure you have the right tracking and measurement in place to accurately measure their success.
 
 ![](/img/campaign-settings-1.png)
 
 ## **Data sources**
 
-LiveEngage data sources make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) to read more about data sources.
+ Data sources in the Conversational Cloud make it possible for you to collect valuable information from multiple sources. By configuring different sources, you can track key actions and their monetary value, as well as gain deeper insights into your visitors' details. [Click here](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) to read more about data sources.
 
 ## **Control groups**
 
-A control group is a random number of visitors to your website who are not exposed to any type of engagement from a LiveEngage campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
+A control group is a random number of visitors to your website who are not exposed to any type of engagement from a campaign. By comparing the activity of these visitors to the activity of visitors who were exposed to campaigns, you can evaluate the effectiveness and performance of campaigns (and your account as a whole).
 
 The value represents the percentage of visitors who will not be exposed to any engagements on your site. A control group can be set per account or per campaign at the following increments: 5%, 10%, 15%, 20%, and 25%. 0% means that the control group feature is switched off. For further information on control groups, [refer here](contact-center-management-campaigns-managing-campaigns.html#measuring-success-using-control-groups).
 
 ## Proactive engagement behavior
 
-Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, LiveEngage offers the following settings:
+Proactive engagements offer a rich, hard to miss experience for consumers and are available in a variety of formats including overlay, toaster and peeling corner. To ensure the experience is both engaging and non-intrusive, the Conversational Cloud offers the following settings:
 
 ### Number of displays
 
@@ -45,15 +45,15 @@ By default, after declining a proactive content engagement, other content engage
 
 This setting allows you to define the default currency for your account. This value will be used should you choose not to report the currency of transactions or other monetary values such as cart value and customer balance. The data is then displayed in related reports.
 
-The full list of currencies supported by the ISO-4217 currencies standard is available on LiveEngage. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
+The full list of currencies supported by the ISO-4217 currencies standard is available on the Conversational Cloud. For further information on tracking multiple currencies, [click here](data-reporting-engagement-attributes-multi-currency.html).
 
 ![](/img/campaign-settings-3.png)
 
 ## **Cross session period**
 
-It’s important for campaign managers to be able to identify which engagement made a visitor convert: was it due to a chat or content engagement? Was the engagement in the current session or a previous one? LiveEngage uses a cross session period and an attribution model (see below) to assess this.
+It’s important for campaign managers to be able to identify which engagement made a visitor convert: was it due to a chat or content engagement? Was the engagement in the current session or a previous one? The Conversational Cloud uses a cross session period and an attribution model (see below) to assess this.
 
-The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. This setting allows you to track consumers who return and convert within a certain number of days (0, 1, 7, 14 or 31) from their first exposure to the campaign. If they do so, the conversion will be credited to a campaign or agent in LiveEngage.
+The cross session period is used to determine the window of influence in which your engagement with the visitor assisted them in completing their journey. This setting allows you to track consumers who return and convert within a certain number of days (0, 1, 7, 14 or 31) from their first exposure to the campaign. If they do so, the conversion will be credited to a campaign or agent in the Conversational Cloud.
 
 ## **Conversion attribution model**
 
@@ -67,7 +67,7 @@ Within the predefined content library, you can add and edit phrases that will he
 
 ## **Automatic messages**
 
-Within the automatic messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html)to learn more about automatic messages.
+Within the Automatic Messages library, you can add and edit messages that will be triggered automatically during a conversation to inform visitors of the conversation status. By providing consumers with a high level of contextual information about the conversation, you can ensure they are kept informed at all times. [Click here ](contact-center-management-messaging-operations-automatic-messages-automatic-messages-overview.html)to learn more about Automatic Messages.
 
 ## **Inactive engagements**
 

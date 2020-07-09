@@ -26,7 +26,7 @@ In addition to responding to consumers needs and expectations, brands who make e
 * **Increase sales opportunities**
   * Forges an **ongoing connection** with consumers and prospects, increasing the customer lifetime value.
   * Drives conversions using **rich media** (images, voice, video, carousels, etc.)
-  * Supports **proactive messaging**, opening the gateway to new sale and marketing uses cases as brands are able to reach out to targeted groups
+  * Supports **Proactive Messaging**, opening the gateway to new sale and marketing uses cases as brands are able to reach out to targeted groups
 * **Automate operations** - Use bots to qualify site visitors, identify which sales rep they should speak to by skill, route the conversation, and even book a meeting.
 * **Control over queue prioritization** - Consumers do not need to wait by the phone or screen with messaging, giving brands more flexibility to choose which conversations should be handled first based on importance or other businesses needs.
 * **Expand accessibility with multi-channel** - Extend messaging directly over SMS, Facebook, Line, Web, Google My Business, WhatsApp and Apple Business Chat, and manage all communications in a single platform.
@@ -48,7 +48,7 @@ Since messaging is intuitive to consumers and easily accessible on an array of c
 
 ### Routing
 
-LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
+LivePerson's [ Dynamic Routing engine](ai-bots-automation-conversation-orchestrator-dynamic-routing.html) deflects inquiries that can be handled without an agent to bots, knowledge center or self-service, and routes the conversations that need a human to a live agent. Decision factors on routing conversation are done based on various smart factors, including agent skill and consumer intent. Brands can manage and customize the routing further by creating a [routing bot](getting-started-getting-started-with-bots.html).
 
 ![](/img/managing-cc-that-messages.png)
 
@@ -74,28 +74,28 @@ In fact, the average messaging conversation takes 128 minutes. An agent can have
 
 Since messaging conversations can span over a few hours, or even a few days, and in many cases become inactive as we’re waiting for a consumer to reply, LivePerson has created the following tools to help manage ongoing conversation:
 
-### Smart Capacity
+### Dynamic Capacity
 
-Based on three optimization points - conversation queue, agent matching, and agent capacity - [Smart Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Smart Capacity functionality is an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
+Based on three optimization points - conversation queue, agent matching, and agent capacity - [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) is able to prioritize and match conversations to bring messaging efficiency to a new level. Dynamic Capacity offers an algorithm that automatically **adjusts agent capacity based on availability rather than concurrency, to give brands the smartest way to manage agent staffing and efficiency.**
 
-Smart Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
+Dynamic Capacity splits conversations into active and inactive conversations to help agents manage concurrent conversations, so as consumers come in and out of the conversations, agents can do the same, allowing agents to reach up to 22 conversations per hour.
 
 **How does it work?**
 
-LivePerson’s proprietary Smart Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction. Read more about Smart Capacity here.
+LivePerson’s proprietary Dynamic Capacity algorithm identifies agent availability not by the number of conversations they are handling (concurrency), but rather by calculating the frequency rate of messages or ‘message intensity’ within each conversation. It then assigns the conversation an appropriate weight to reflect its messaging intensity.This ensures that agent capacity is optimized without impacting customer satisfaction.
 
 ### Autoclose - the agent ‘pause’
 
-Conversations that are not completed but are inactive may clutter up the agent workspace - even though they are inactionable. Using ‘[autoclose](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html)’, LivePerson automatically removes inactive conversations from the agent current workload to a dormant pool. This better focuses agents without ‘hanging up’ on the consumer to maintain a great customer experience.
+Conversations that are not completed but are inactive may clutter up the Agent Workspace - even though they are inactionable. Using ‘[autoclose](contact-center-management-messaging-operations-auto-close-for-messaging-conversations.html)’, LivePerson automatically removes inactive conversations from the agent current workload to a dormant pool. This better focuses agents without ‘hanging up’ on the consumer to maintain a great customer experience.
 
 ### Agent workspace
 
 ![](/img/agent-workspace.png)
 
-The agent workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the agent workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the agent workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more by seeing a video to [get acquainted with the agent workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html).
+The Agent Workspace is a fully equipped, centralized platform equipped with innovative tools and resources, such as predefined content, CRM integrations, and other capabilities. The goal of the Agent Workspace is to help agents effectively answer and manage conversations from different channels, and it is designed to organize important conversations for the agent so they know exactly what to deal with next. Customer agent tools within the Agent Workspace, such as ‘widgets’, contain additional webpages tools or applications that agents can use during the conversation. The most popular custom widget is CRM integration that pulls up the record of the customer in an active conversation.  Learn more by seeing a video to [get acquainted with the Agent Workspace](agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-tour.html).
 
 ## Measuring messaging with the right KPIs
 
 While some KPIs for asynchronous messaging resemble traditional ones for session-based interactions that handle voice calls, live chat, or offline ticketing, messaging cannot be measured the same way. That’s because messaging is asynchronous, with a thread and history that stays in place so agents and consumers to jump back in the conversation at any time. Meaning, messaging does not always a clear start of end to a conversation. To highlight the effectiveness of asynchronous messaging, a supplemental set of messaging-specific KPIs need to be established.
 
-LivePerson has developed a set of proprietary data KPIs, such as [Meaningful Connection Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) - an automated, real-time measurement of customer satisfaction metric that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html).
+LivePerson has developed a set of proprietary data KPIs, such as [Meaningful Conversation Score](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html) - an automated, real-time measurement of customer satisfaction metric that enable brands to track and monitor the performance and success of their messaging programs. Read more about it in [benchmarks to measure the success of messaging](contact-center-management-messaging-operations-benchmarks-to-measure-messaging-success.html).

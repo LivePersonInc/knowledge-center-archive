@@ -13,7 +13,7 @@ redirect_from:
   - ip-restriction.html
 
 ---
-To ensure that App keys cannot be utilized by an unauthorized user outside a brand’s internal network, app keys will only be able to be used via the brand’s valid IP addresses.
+To ensure that app keys cannot be utilized by an unauthorized user outside a brand’s internal network, app keys will only be able to be used via the brand’s valid IP addresses.
 
 When an account administrator creates or modifies an app key, they will be able to assign a list of single IPs or ranges of IPs to a whitelist. If an app key has an IP whitelisting configuration, only requests originating from these IPs will have access to LivePerson servers.
 

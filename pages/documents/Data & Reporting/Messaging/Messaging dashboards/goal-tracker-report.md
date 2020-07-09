@@ -1,17 +1,15 @@
 ---
-pagename: Goal tracker for messaging
+pagename: Goal tracker report
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: Messaging
+indicator: both
 subtitle: This dashboard includes raw data for every goal reached in any of the selected
   account’s campaigns
 level3: Messaging Dashboards
-permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-for-messaging.html
+permalink: data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 isTutorial: false
 date: 2019-01-21 13:20:07 +0000
 isNew: false
-redirect_from:
-  - data-reporting-messaging-messaging-dashboards-goal-tracker-report.html
 
 ---
 The goal tracker for messaging dashboard allows brands to attribute a conversion to any of the agents who handled a consumers conversation during the window time-frame the brand considers valid for attribution. In order to take the first step in this direction, a report shall be provided to instill visibility into all agents whom which the consumer engaged with during the “Cross-Session Window” configured on the account.
@@ -40,7 +38,7 @@ Clicking on one skill on the ‘Conversation by skill’ Pie chart will apply fi
 
 Another click on the selected filter will unselect the skill and reset the filtering.
 
-## Page2: Conversion tracking 
+## Page2: Conversion tracking
 
 The page provides an overview of all conversions by skill, by agent, by assignment duration for the selected timeframe.
 ![](img/goaltracker_messaging_new_2.png)
@@ -71,10 +69,10 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 
 ## Metrics
 * **CONVERSIONS** - An Indication (1/0) whether the goal was reported as success.
-* **LEAD VALUES** - The Lead value extracted from the LEAD SDE sent by the brand to LE. 
+* **LEAD VALUES** - The Lead value extracted from the LEAD SDE sent by the brand to LE.
 * **TRANSACTION VALUES** - The Total Transaction value extracted from the Transaction SDE sent by the brand to LE.  
 * **AGENT MESSAGES** - The number of messages sent by the agent in the conversation.
-* **AGENT RESPONSES** - The number of responses given by the agent to a consumer. A response is a set of consecutive messages sent from a participant following a message sent from the another participant in the same conversation. 
+* **AGENT RESPONSES** - The number of responses given by the agent to a consumer. A response is a set of consecutive messages sent from a participant following a message sent from the another participant in the same conversation.
 * **TIME ASSIGNED** - The time the agent participated in the conversation (measured only for the time the agent was assigned to the conversation).
 
 ## Attributes
@@ -93,11 +91,11 @@ The goal tracker date filter is applied to the engagement start time. A cross se
 - **SKILL** - The agent's skill.
 - **SOURCE** - Represents a specific instance of the end-point (software) from which the conversation was initiated. Supported values differ according to the software supported by the account (for example, Web, Mobile Apps, Skype Connector etc.)
 - **TOPIC** - Engagement Attribute - topic (Lead).
-- **USER TYPE** - Configured as part of the user details in LiveEngage. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
+- **USER TYPE** - Configured as part of the user details in the Conversational Cloud. Supported values: Human, System, Bot, Unassigned (for Conversations that were not assigned to an agent).
 - **WEEK**- The date of the first day of the week (starting on Sunday)
 - **HOUR** - Hour format: MM/DD/YYYY HH:MM:SS AMPM
 - **BRAND EVENT ID** - The ID sent by the brand as part of the engagement attributes to LE. The ID is extracted from orderId in Transaction SDE, serviceId in Service Activity SDE or leadId in Lead SDE.
-- **CONVERSATION** - The messaging conversation ID, mapped to the LiveEngage Engagement History view. For Messaging: LE >> All Connections >> Conversation Info >> ID
+- **CONVERSATION** - The messaging conversation ID, mapped to the Conversation History view. For Messaging: Agent Workspace >> All Conversations >> Conversation Info >> ID
 - **CONVERSATION OPEN TIME** - Conversation Open Time
 
 ## Conversions
@@ -105,11 +103,11 @@ In case the attribution is set to All, and it includes all agent types:
 - Agent level: The conversion will be attributed to all participants, meaning - each agent will have +1 for the Conversions metric, even if the agent was assigned more than once to the conversations with this consumer during the cross session window.
 Conversions: Bot 1, AgentA 1, AgentB 1.  
 
-- Brand level: total conversions for the brand will be counted as the number of goals reached. 
+- Brand level: total conversions for the brand will be counted as the number of goals reached.
 Example: a consumer starts a conversation with a bot and is later transferred to 2 more agents. After the conversation the consumer reaches a goal (purchase of 100$)
 Conversions total 1.   
 
-Transaction Total : 
+Transaction Total :
 - Per agent: total transaction should be shown for all participants in the conversation (same value for each agent)
 Revenue: Bot 100$, AgentA 100$, AgentB 100$.
 - Transaction Value:  the total transaction value will show the same value as each participant.
@@ -117,5 +115,4 @@ Revenue total: 100$.
 
 ## Metrics:
 
-For all metrics available within this dashboard please search the Report Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
-
+For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)

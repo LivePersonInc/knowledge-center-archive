@@ -17,7 +17,7 @@ In LivePerson, there are four types of surveys; the **pre-chat** survey, the **p
 
 ## Pre-chat survey
 
-The pre-chat survey provides agents with information about the visitor prior to the onset of the chat. The details are displayed in the agent workspace allowing them to better understand the needs of the visitor.
+The pre-chat survey provides agents with information about the visitor prior to the onset of the chat. The details are displayed in the Agent Workspace allowing them to better understand the needs of the visitor.
 
 ## Post-chat survey
 

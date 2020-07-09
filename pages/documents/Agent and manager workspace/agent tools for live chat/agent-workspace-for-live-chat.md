@@ -1,6 +1,6 @@
 ---
-pagename: Agent workspace for live chat
-categoryName: Agent & manager workspace
+pagename: Agent Workspace for live chat
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: 'Manage chat conversations efficiently '
@@ -13,7 +13,7 @@ redirect_from:
 ---
 ## Login and status
 
-The agent workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
+The Agent Workspace acts as a centralized location for agents to manage all of their chat conversations simultaneously.In order to begin chatting, you first need to complete the following steps:
 
 1. Your developers or website administrator need to add the LivePerson tag (piece of code) to every page of the website. For instructions on how to get the code, [click here.](getting-started-getting-started-with-live-chat.html)
 
@@ -31,7 +31,7 @@ The Web Visitors list displays all visitors currently on your website, along wit
 
 You can sort the visitors according to any of the following parameters:
 
-* Meaningful Connection Score
+* Meaningful Conversation Score
 * Country
 * Skill
 * Agent nickname
@@ -48,9 +48,9 @@ You can view more detailed information about your visitors, including the follow
 
 To view more detailed information about a visitor, simply click on the visitor’s name.
 
-## Handling chats in the agent workspace
+## Handling chats in the Agent Workspace
 
-The agent workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
+The Agent Workspace is where agents can simultaneously handle conversations with visitors and view information about these visitors in real-time.
 
 Once a visitor initiates a conversation from your website by clicking on the chat button and completing any necessary pre-chat surveys, a notification is displayed on the relevant agent’s desktop.
 
@@ -74,7 +74,7 @@ The Agent Workspace includes several widgets to help agents manage their convers
 * **Predefined content widget**: Offers a library of ready-made responses which help streamline the conversation and improve response times.
 * **Page navigation widget**: Allows agents to offer assistance to consumers according to their journey on the website.
 * **Agent survey widget**: Allows agents to provide Agent Managers with input about the conversation and its outcome.
-* **Engagement History widget**: Allows agents to read transcripts from previous chats with the visitor and provide better service by understanding their chat history.
+* **Conversation History widget**: Allows agents to read transcripts from previous chats with the visitor and provide better service by understanding their chat history.
 
 Agents also have access to the following tools during their conversations with consumers:
 
@@ -122,7 +122,7 @@ There are seven hot keys available in the Agent Workspace. Open the hot keys men
 
 Select an action by pressing the applicable letter:
 
-* LOGOUT (L): to logout of the agent workspace
+* LOGOUT (L): to logout of the Agent Workspace
 * ACCEPT ENGAGEMENT (A): to accept a new incoming chat
 * VISITOR LIST (V): to access the list of your current visitors
 * STATUS (S): to toggle your status between Online, Back Soon and Away
@@ -182,16 +182,16 @@ With CoBrowse, agents and visitors can view each other’s virtual mouse cursors
 2. On the visitor side, when the CoBrowse session begins, an orange frame is displayed around the browser tab, indicating an active session. While using CoBrowse, password fields are automatically masked. Other fields such as credit card numbers can also be configured as masked.
 3. The visitor can close the session at any time by clicking the X at the top of the orange frame.
 
-## Clearing chats from the agent workspace
+## Clearing chats from the Agent Workspace
 
-In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the agent workspace.
+In order to improve agent performance and expedite the transfer of closed chats from the visitors tab to the web history tab, it is recommended that agents regularly clear chats that have ended from the Agent Workspace.
 
 This process is recommended in order to streamline the agent’s work and can be achieved in two ways:
 
 * **Clear continuously:** The agent clears each of their chats once they have finished adding comments and/or submitting the agent survey.
 * **Clear upon accumulation:** The agent periodically clears all the ‘Closed’ chats they have accumulated.
 
-All chats will automatically clear once the agent logs out of LiveEngage (by clicking the Logout button). Any chats that have ended will appear in the Web History even if the agent closed the agent workspace without releasing them.
+All chats will automatically clear once the agent logs out of the Conversational Cloud (by clicking the logout button). Any chats that have ended will appear in the Web History even if the agent closed the Agent Workspace without releasing them.
 
 The number of accumulated chats can be seen in the bottom right corner of the page in the closed image. The number indicates how many chats were closed but not yet released. The following image shows that 1 chat has not yet been released.
 

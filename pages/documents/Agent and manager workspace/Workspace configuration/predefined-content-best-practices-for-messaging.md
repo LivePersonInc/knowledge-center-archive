@@ -1,6 +1,6 @@
 ---
 pagename: Predefined content best practices
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: messaging
 subtitle: ''

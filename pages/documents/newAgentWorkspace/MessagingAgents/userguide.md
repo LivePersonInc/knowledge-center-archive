@@ -1,9 +1,9 @@
 ---
 pagename: User guide
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: messaging-agents-user-guide.html
 isTutorial: false
@@ -14,9 +14,9 @@ layout: newAgentWorkspace
 
 ## Summary of enhancements
 
-Enhanced by automation and featuring an upgraded design, the agent workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
+Enhanced by automation and featuring an upgraded design, the Agent Workspace has been updated to boost your efficiency as an agent and improve the productivity of messaging operations. The new design caters specifically to the unique demands of messaging, featuring self-serve capabilities and utilizing automatic algorithms on the backend to dynamically prioritize conversations for you. This new dynamic list allows agents to work more intuitively, saving precious time and removing the need for guesswork.
 
-**Main enhancements to the agent workspace include:**
+**Main enhancements to the Agent Workspace include:**
 
 **New UI:** The platform’s new look and feel was designed to give agents maximum efficiency in messaging operations. With the conversation list prominently displayed and easy access to all your widgets, you will be able to handle more conversations concurrently with ease.
 
@@ -33,7 +33,7 @@ New idle status filter: The addition of the new ‘idle’ status filter allows 
 
 ## Workspace basics
 
-As an agent, your workspace is a centralized location for handling all of your conversations. When you login to LiveEngage your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
+As an agent, your workspace is a centralized location for handling all of your conversations. When you login to the Conversational Cloud your workspace will open as the default homepage. Below are the main areas and tools you'll be using within the workspace for your daily messaging operations.
 
 ### Dynamic conversation list
 
@@ -43,13 +43,13 @@ The conversation list is comprehensive, including ongoing, overdue, idle, and cl
 
 ![alt text](img/new-agent-workspace-5.png){:class="newagent"}
 
-#### My Connections
-The My Connections list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Connections list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
+#### My Conversations
+The My Conversations list includes all of the recent conversations that were assigned to you, including conversations that were recently closed. You can work through your My Conversations list from the top down, and filter closed conversations into the list at the end of your shift to ensure you documented everything properly.
 
-#### All Connections
-If you have permissions to view the All Connections tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
+#### All Conversations
+If you have permissions to view the All Conversations tab, it can be used to search for closed conversations that started within the past 13 months. You can use the time frame filter as well as the robust search tool found at the top of the page to find what you're looking for.
 
-All Connections can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
+All Conversations can be viewed in either ‘list mode’ or ‘conversation mode’ by selecting either of the icons in the top right corner.  In list mode, you’ll see high-level information about each conversation. When you select a conversation from the list it will open in conversation mode where you can view the full transcript.
 
 **List mode**:
 
@@ -79,13 +79,13 @@ You can filter conversations in the list by status:
 
 ### Light theme
 
-Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu. 
+Agents can now enjoy a lighter and cleaner looking interface with the option to switch the enhanced workspace to light theme. With the new light theme support, each agent will be able to choose whether they prefer to work in the light mode or dark mode theme. This selection can be made by clicking on their avatar in the agent status menu.
 
 ![](img/New light mode (1).gif)
 
 ### Your personal data bar
 
-As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the agent workspace represents the real-time tracking of your current workload and shift.
+As you go about your shift, your own agent data bar will display on the top of your workspace and will update immediately. This will help you keep track of your performance as well as expected workload. The data bar in the Agent Workspace represents the real-time tracking of your current workload and shift.
 
 ![image alt text](img/databar.jpg){:class="newagent"}
 
@@ -120,14 +120,14 @@ To save you time - there are seven hotkeys configured on your workspace for some
 | Accept conversation | Alt + Shift + N |
 | Takeover conversation | Alt + Shift + O |
 | Leave conversation | Alt + Shift + I |
-| Logout from LiveEngage | Alt + Shift + L |
+| Logout from Conversational Cloud | Alt + Shift + L |
 | Change status | Alt + Shift + S |
 
 ## Managing messaging conversations
 
 ### Beginning your shift
 
-When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Connections list.
+When you start your shift, you should change your status to online in order to start receiving messages. To change your status, click on your image in the bottom left corner to open the drop down status menu and select **Online**. Once you do that, conversations from the queue will be assigned to you based on their priority. If there are already existing conversations in your queue, you will see them here, in the My Conversations list.
 
 ![alt text](img/Agent menu open.png){:class="newagent"}
 
@@ -137,7 +137,7 @@ Some contact centers opt to configure the ‘warm up’ function for agents. If 
 
 ### Taking incoming conversations
 
-The updated agent workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations.
+The updated Agent Workspace uses SLA to prioritize conversations on your behalf, allowing you to simply respond to the conversation at the top of the list. When you first enter the conversation list you will first see that there is no conversation selected. Click on the conversation at the top of the list to start handling conversations.
 
 You should always answer the conversation at the top of the list. You can also scroll manually through the list if you need to answer another conversation. When you receive incoming conversations, they will automatically be sorted into your conversation list in the order that you should answer them, based on their SLA. Also, after you respond to a conversation it will be resorted and prioritized accordingly
 
@@ -169,7 +169,7 @@ There are several tools in place to help you access the information you’ll nee
 
 ![alt text](img/New Agent work space GIF3.gif){:class="newagent"}
 
-* **Conversation history**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way you can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM.
+* **Conversation History**: For repeat customers, any previous messaging history will be displayed directly in the conversation transcript. This way you can simply scroll up to review previous conversations, rather than needing to switch screens and navigate to a dedicated widget. The conversation history will be stored within the conversation for up to 13 months, to view history beyond this please check your CRM.
 
 ![image alt text](img/convohistory.jpg){:class="newagent"}
 
@@ -185,21 +185,21 @@ You can reply by using free text, but we recommend using predefined content. You
 
 ![image alt text](img/predefinedcontent.png)
 
-Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevent options will display.
+Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevant options will display.
 
-#### Rich messaging
+#### Rich Conversations
 
-There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich messaging enhances the consumer experience by providing a richer, more engaging channel of communication.
+There are many tools at your disposal that can be used to foster relationships and carry out effective conversations. Rich Conversations enhance the consumer experience by providing a richer, more engaging channel of communication.
 
-The following types of rich messaging are being supported for the enhanced agent workspace:
+The following types of Rich Conversations are being supported for the enhanced Agent Workspace:
 * Structured content cards and carousels
 * Consumer to agent photo sharing
 * Consumer to agent audio sharing
 * Agent to consumer file sharing
 
-#### Recommended Actions 
+#### Agent Assist
 
-Recommended Actions use LivePerson's Maven AI to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Recommended Actions, which were previously available in a separate widget, will now be available inline in your messaging conversations to improve usability and engagement. Recommended actions include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article. 
+Agent Assist uses LivePerson's Conversation Orchestrator to analyze consumer intent and recommend the next best action for you, saving time and improving efficiency. Agent Assist displays these recommendations inline in your messaging conversations to improve usability and engagement. Some of the actions of Agent Assist include suggesting an agent reply, adding a bot to the conversation, or sharing a relevant Knowledge Center article.
 
 ### Additional actions
 
@@ -223,7 +223,7 @@ As an agent, you are able to control the amount of time you need to reply to con
 
 #### CoBrowse
 
-With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced agent workspace, this capability is currently available **only for the My Connections list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
+With CoBrowse, agents and visitors can view each other’s virtual mouse cursors, and simply double-clicking on an element or piece of text in the web page creates an animation effect. This allows brands to address customers’ queries quickly and efficiently by helping them navigate web pages collaboratively. In the enhanced Agent Workspace, this capability is currently available **only for the My Conversations list.** For more information on CoBrowse, [click here](/agent-manager-workspace-agent-tools-for-messaging-cobrowse-for-messaging.html).
 
 ## Closing conversations
 
@@ -231,7 +231,7 @@ The nature of messaging conversations is that they are ongoing and can be resume
 
 The conversations can be marked as resolved or closed, either by the consumer or the agent. Within the conversation window, customers have options, one of which is to select to closed a conversation. For messaging channels such as SMS or Facebook Messenger, where a custom ‘options’ table is not available, customers will not be able to mark conversations as closed. As an agent, you can close a conversation when you know that it has been resolved. Closing a conversation is done via the drop down menu within the conversation window. It is important that you close conversations as soon as you are confident that they are resolved in order to clear your work queue and keep your performance KPIs accurate.
 
-At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Connections. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Connections list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Connections list.
+At the end of your shift or during downtime you can use the status filter to filter closed conversations back into your My Conversations. This will allow you to review your conversations and ensure that they were properly documented. Closed conversations are stored in the My Conversations list for between 24 hours up to 14 days, depending on your contact center's configuration. Conversations that exceed this can be found in the All Conversations list.
 
 ![alt text](img/closed-conversations-filter.gif){:class="newagent"}
 

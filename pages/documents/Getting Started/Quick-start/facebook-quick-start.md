@@ -12,7 +12,7 @@ date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
 ---
 
-Connect Facebook Messenger to LiveEngage.
+Connect Facebook Messenger to the Conversational Cloud.
 
 ## Requirements:
 
@@ -21,9 +21,9 @@ Connect Facebook Messenger to LiveEngage.
 
 ## Step 1: Setup Facebook Messenger as a data source
 
-Login to [LiveEngage](https://authentication.liveperson.net/) and click on the **Campaigns** tab located in the left navigation bar. Click on **Data Sources** in the Campaigns footnote.
+Login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on the **Campaign Builder** tab located in the left navigation bar. Click on **Data Sources** in the Campaign Builder footnote.
 
-![](img/data-sources.png)
+![](img/Facebook Messenger quick start-1.png)
 
 Click **Connect** in the Facebook Messenger tile.
 
@@ -33,14 +33,14 @@ Enable the **Source activation** toggle, then click **Next.**
 
 ![](/img/facebook-messenger-2.png)
 
-## Step 2: Connect your Facebook page to LiveEngage
+## Step 2: Connect your Facebook page to the Conversational Cloud
 
 Click the Facebook **Log in** button and log in to Facebook. If you are already logged in, a window will pop-up asking if you would like to "Continue as `<your name>`"? Click to proceed.
 
 1. A window will ask you "What Pages do you want to use with LP on Messenger (VA1)?". Select the page(s) you'd like to use Facebook integration on and click **Next**.
 2. You will then be prompted with the question: "What is LP on Messenger (VA1) allowed to do?" Leave the toggles as is and click **Done.**
 3. You will receive the confirmation message: _"You’ve now linked LP on Messenger (VA1) to Facebook"_. Click on **OK** to close this window.
-4. A small pop-up within LiveEngage will appear asking you to Subscribe. Subscribe the relevant Facebook pages (the same ones you gave permissions to earlier) and click on **Done**.
+4. A small pop-up within the Conversational Cloud will appear asking you to Subscribe. Subscribe the relevant Facebook pages (the same ones you gave permissions to earlier) and click on **Done**.
 5. Click on **Done** on the lower right corner.
 
 {: .notice}
@@ -50,7 +50,7 @@ Click the Facebook **Log in** button and log in to Facebook. If you are already 
 
 ## Step 3: Send and receive messages from Facebook Messenger
 
-You can now test the setup by sending a message from Facebook Messenger App to your Facebook page. When the message shows up in LiveEngage, you can respond as an agent and see the response in your Facebook Messenger App.
+You can now test the setup by sending a message from Facebook Messenger App to your Facebook page. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in your Facebook Messenger App.
 
 ## Additional resources
 

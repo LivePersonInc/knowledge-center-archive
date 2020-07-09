@@ -1,6 +1,6 @@
 ---
 pagename: Web history
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Manager tools for live chat
 indicator: chat
 subtitle: View and search through all closed chats
@@ -24,7 +24,7 @@ The web history is one of the most powerful analytics tools LivePerson has to of
 The web history includes the following information:
 
 * **Start** - The time when the visitor was first connected to the agent (displayed in the visitor’s local time).
-* **MCS** - The Meaningful Connection Score, available for English language analysis.
+* **MCS** - The Meaningful Conversation Score, available for English language analysis.
 * **Visitor name** - The visitor’s name as provided in the pre-chat survey.
 * **Skill** - The skill assigned to the engagement.
 * **Agent name** - The name of the agent who handled the chat.
@@ -51,7 +51,7 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 
 ![](/img/web-history-2.png)
 
-**Meaningful Connection Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Connection Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
+**Meaningful Conversation Score (MCS) data** - In order for brands to accurately track consumer sentiment during a chat, the exact 3 digit [Meaningful Conversation Score ](data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)value can be seen in the MCS column, alongside the MCS smiley. The MCS value can range between -100 and 100. This column gives Agents and Agent Managers an at-a-glance understanding of the MCS dynamics of each chat.
 
 ![](/img/web-history-3.png)
 
@@ -68,4 +68,4 @@ Encrypted transcripts can also be searched for keywords. It is possible to searc
 
 The **Engagement History API** is available for you to search, filter and keep copies of chat transcripts and related data to later perform further analyzes using third-party tools (DWH, CRM systems, etc.). The API enables the development of tailored dashboards, displaying information such as the reasons for chats ending, what time of day most chats occur, chat duration across different devices and so on. The Engagement History API is based on the RESTful architecture, where data is fetched via HTTPS requests; all information is secured using OAuth1.0.
 
-It is also possible to export the Engagement History to Excel, and there filter the data by various parameters.
+It is also possible to export the Conversation History to Excel, and there filter the data by various parameters.

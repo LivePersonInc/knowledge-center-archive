@@ -15,7 +15,7 @@ redirect_from:
 ---
 The LivePerson [routing engine](contact-center-management-messaging-operations-routing-logic-overview.html) prioritizes conversations that are waiting to be assigned to an agent according to their response time. This is the time that brands are committed to responding to their consumers within, to ensure that queue time is minimized and consumers receive a timely response. Each conversation will wait in their allocated place in the queue until they ring through to the assigned agent.
 
-To help manage consumer expectations around the time they should expect to wait for a response, any new conversation pending a response by the agent is given a pre-configured response time. The response time is displayed to the consumer based on how automatic messages have been configured.
+To help manage consumer expectations around the time they should expect to wait for a response, any new conversation pending a response by the agent is given a pre-configured response time. The response time is displayed to the consumer based on how Automatic Messages have been configured.
 
 Response times can be configured at the account level and by skill for three types of conversations:
 
@@ -24,7 +24,7 @@ Response times can be configured at the account level and by skill for three typ
 * First time - When it is the very first time the consumer has initiated a conversation with the brand. A first-time consumer will get the first time response time throughout their first conversation with the brand and not only on the first message.
 
 {: .notice}
-Urgent capabilities are available for web and in-app messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
+Urgent capabilities are available for web and App Messaging, and not on other messaging channels. Mark as urgent will be available only from the second time a consumer starts a conversation.
 
 ![](/img/config-response-time-1.png)
 

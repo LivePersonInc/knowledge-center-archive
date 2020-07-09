@@ -38,24 +38,24 @@ Brands wanting to see the status of their contact center in real time can now ta
 ## Limitations
 
 * Internet explorer and edge browsers are not supported
-* Data presented in real time dashboard is refreshed at a minimum of every 60 seconds from the time of login and may vary slightly from what is presented in LiveEngage due refresh rate differences
+* Data presented in real time dashboard is refreshed at a minimum of every 60 seconds from the time of login and may vary slightly from what is presented in the Conversational Cloud due refresh rate differences
 * Opening real time dashboard in multiple browser tabs is not supported
 
 ## How to access the real time dashboard
 
 There are three methods to login to the real time dashboard:
 
-1. Regular login (via LiveEngage username/password)
-2. Simultaneous Login (via LiveEngage SSO) (_*available by request_)
+1. Regular login (via Conversational Cloud username/password)
+2. Simultaneous Login (via LivePerson SSO) (_*available by request_)
 3. Agent SSO login (via Agent SSO)
 
 ### Regular login method:
 
-1\. Any valid LiveEngage user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
+1\. Any valid Conversational Cloud user may login at: [https://real time.liveperson.net/login](https://realtime.liveperson.net/login)
 
 2\. Before login, select the dashboard type: Messaging or Chat
 
-3\. Login via regular method will terminate any existing LiveEngage sessions
+3\. Login via regular method will terminate any existing Conversational Cloud sessions
 
 ### Simultaneous login method
 
@@ -65,12 +65,12 @@ There are three methods to login to the real time dashboard:
 
 3\. Enter your account number and select the dashboard mode
 
-4\. You will be redirected to a LiveEngage login page and can continue to login as normal
+4\. You will be redirected to a Conversational Cloud login page and can continue to login as normal
 
 1. You may also bypass step 3 by adding your account number and mode to the URL: [https://real time.liveperson.net/sso?accountId=123&mode=messaging](https://realtime.liveperson.net/sso?accountId=123456&mode=messaging) (replacing “123” with your account number without quotes, and mode with either “messaging” or “chat” without quotes)
 
 {: .notice}  
-If Agent SSO is enabled on your LiveEngage account, you must login to LiveEngage first (with Agent SSO) before following the steps above
+If Agent SSO is enabled on your LivePerson Conversational Cloud account, you must login to the Conversational Cloud first (with Agent SSO) before following the steps above
 
 ### Agent SSO method (not recommended):
 
@@ -102,7 +102,7 @@ When in messaging mode, the current section displays metrics on open conversatio
 * _TTFR FROM FIRST ASSIGN_: Average time to first agent response after first conversation assignment (estimated from sample of OPEN conversations, exc. bots)*
 * _WAIT TIME_: The difference between TTFR and TTFR FROM FIRST ASSIGN*
 * __TIME TO FIRST ASSIGN*__: Average time to first agent assignment from conversation start (estimated from sample of OPEN conversations, exc. bots)
-* **MCS**: the average meaningful connection score of the conversations.
+* **MCS**: the average Meaningful Conversation Score of the conversations.
 * **MCS - Positive**: the number of conversations with positive MCS
 * **MCS - Negative**: the number of conversations with negative MCS
 
@@ -148,7 +148,7 @@ The metrics available in this section all relate to closed conversations only:
 * **First response time**: see definition from Current KPI section
 * **First assignment time:** see definition from Current KPI section
 * *_Wait time:__ see definition from Current KPI section_
-* **MCS**: the meaningful connection score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
+* **MCS**: the Meaningful Conversation Score average of the closed conversations. This metric shows how many conversations had positive or negative MCS
 
 **Note:** Response time related metrics require time to ‘warm-up’ as data is gathered and refreshed every 5 minutes. Once loaded, the result is based on a representative sample, not all conversations. This sample size can be modified via the Menu (see Additional Functions in this guide).
 

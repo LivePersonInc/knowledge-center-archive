@@ -1,9 +1,9 @@
 ---
 pagename: FAQs
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: messaging-agents-faqs.html
 isTutorial: false

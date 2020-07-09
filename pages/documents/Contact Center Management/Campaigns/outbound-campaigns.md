@@ -11,7 +11,7 @@ isNew: false
 date: 2019-04-03 08:39:38 +0000
 
 ---
-Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in LiveEngage. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
+Campaign managers are now able to link SMS campaigns, which will be sent to a specific list of consumers at a scheduled time (using a 3rd party app), to engagements in the Conversational Cloud. This allows for a complete funnel and access to the routing capabilities LivePerson provides.
 
 **The first supported provider is CM Telecom**, and in the future additional providers will be supported.
 
@@ -34,7 +34,7 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 {:start="3"}
 1. Define a new campaign in the 3rd party platform you are using (CM Telecom)
 2. Log into LivePerson’s platform
-3. Navigate to the ‘Campaigns’ tab and then the ‘Outbound’ tab, click ‘add campaign’
+3. Navigate to the Campaign Builder and then the ‘Outbound’ tab, click ‘add campaign’
 
 ![](/img/outbound-campaigns-2.png)
 
@@ -70,5 +70,5 @@ Campaign managers are now able to link SMS campaigns, which will be sent to a sp
 
 ## Reporting & metrics
 
-* Metric calculation per campaign type, campaign, engagement, entry point and source is available in the Report Builder
+* Metric calculation per campaign type, campaign, engagement, entry point and source is available in the Analytics Builder
 * To add the broadcast event to the reports, please contact your LivePerson account team

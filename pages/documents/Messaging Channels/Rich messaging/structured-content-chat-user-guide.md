@@ -1,17 +1,17 @@
 ---
 pagename: Structured content for chat user guide
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: chat
 subtitle: Agents are able to send structured content cards including text, images,
   maps and buttons, to enhance the conversation with the consumer
 level3: ''
-permalink: messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
+permalink: messaging-channels-rich-conversations-structured-content-for-chat-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-28 12:08:32 +0000
 redirect_from:
-  - messaging-channels-rich-conversations-structured-content-for-chat-user-guide.html
+  - messaging-channels-rich-messaging-structured-content-for-chat-user-guide.html
 ---
 ## Why chat needs structured content?
 
@@ -37,11 +37,11 @@ The LivePerson chat solution allows brands to chat with consumers in a variety o
 * Expose a catalog of products to consumers so they can explore different colors, sizes, and styles of a product. They can book and order it right from the catalog card.
 * Enablement to build solutions on top of structured content - Build custom solutions such as pre-chat or post-chat surveys based on a collection of cards.
 
-Structured content is available on our web-chat channel. It is also available for web messaging and in-app messaging.
+Structured content is available on our web-chat channel. It is also available for Web Messaging and App Messaging.
 
 ## Capability highlights
 
-The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Community](https://developers.liveperson.com/structured-content-templates.html).
+The following examples are just a small selection of the huge variety of structured content messages that can be customized to bring rich content to messaging conversations. For a full list of structured content templates, please refer to the [Developer Center](https://developers.liveperson.com/structured-content-templates.html).
 
 ### Presenting options
 
@@ -75,7 +75,7 @@ Product catalog allows brands to showcase specific products that a brand can pro
 
 ## Enabling structured content
 
-To build structured content for use on web chat, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developers Community](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
+To build structured content for use on web chat, we recommend working with your LivePerson team on the steps below. Follow the prerequisites and configuration steps in the [Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-overview.html).
 
 ### Prerequisites
 
@@ -102,4 +102,4 @@ Structured content taglet - [https://agents-lp.github.io/strcutured-content-widg
 
 Example content to JSON Scraper - [https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore](https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore "https://lpgithub.dev.lprnd.net/dtucker/TS-NA-StructuredContentScraperMSStore")
 
-[Structured Content Developer Community](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html)
+[Structured Content Developer Center](https://developers.liveperson.com/rich-messaging-structured-content-complex-layout.html)

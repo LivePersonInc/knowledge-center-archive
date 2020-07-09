@@ -3,7 +3,7 @@ pagename: Agent workspace
 categoryName: Troubleshooting
 subCategoryName: ''
 indicator: both
-subtitle: Troubleshooting for questions relating to the agent workspace
+subtitle: Troubleshooting for questions relating to the Agent Workspace
 level3: ''
 permalink: troubleshooting-agent-workspace.html
 isTutorial: false
@@ -15,8 +15,8 @@ date: 2019-02-25 13:14:06 +0000
 
 ### Cause:
 
-1. In the agent work space in LiveEngage audio notification is muted.
-2. The agent’s browser is not set to “Play Sounds in Webpages”. 
+1. The Agent Workspace in the Conversational Cloud audio notification is muted.
+2. The agent’s browser is not set to “Play Sounds in Webpages”.
 
 ### Solution:
 
@@ -49,7 +49,7 @@ Assign the agents one of the skills configured for Visitor Journey leads.
 
 **To edit the Visitor Journey** **engagement attribute:**
 
-1. Log into **LiveEngage**, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
+1. Log into the **Conversational Cloud**, and then click on the Campaign Builder. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Data Sources**. The Data Sources page is displayed.
 3. On the Data Sources page next to Visitor Journey click **Configure**.
 4. On the Visitor Journey page under Lead, select **Submit By Agent**.
@@ -84,7 +84,7 @@ Update agent browser version. For a list of supported browsers, see system requi
 
 A setting that is configurable in the Mac OS X.
 
-### Solution: 
+### Solution:
 
 1. Click the **Apple** menu at the top-left of the screen and select **System Preferences**.
 2. Click the **General preferences** pane (first one at the top).
@@ -94,7 +94,7 @@ A setting that is configurable in the Mac OS X.
 
 ### Cause:
 
-The ACD setting of the agent’s LiveEngage account is manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
+The ACD setting of the agent’s LivePerson Conversational Cloud account is manual mode. In this mode, incoming chats ring for all agents who are logged in, regardless of their state (Away/Back Soon/Online).
 
 ### Solution:
 
@@ -131,4 +131,4 @@ A user on the account who has permissions to modify user settings, should change
 1. Go to the Users tab.
 2. Click the Agent Manager user in the list. The Edit user window opens.
 3. In the Manage groups field select the group you want the agent manager to manage.
-4. Click Save. After logging out of LiveEngage and then logging in again, the agent manager will see both groups in the Web History.
+4. Click Save. After logging out of the Conversational Cloud and then logging in again, the agent manager will see both groups in the Web History.

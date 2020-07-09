@@ -28,9 +28,3 @@ As an agent manager, you want to have an overall picture of how your agents are 
 **CSAT** - displays the customer satisfaction score, based on surveys that were completed in the last 12 hours. The calculation is (Total number of positive answers) / (Total number of answers). The data is retrieved from LivePerson's [Messaging Operations API](https://developers.liveperson.com/messaging-operations-api-overview.html).
 
 ![](img/realtime_data_bar.png)
-
-## Real time dashboard
-
-The agent manager real time dashboard for messaging graphically displays real time and historical data that enables easy evaluation of agent efficiency for messaging conversations.
-
-To access the agent manager dashboard for messaging, click the pull-down button above the App Connections list.

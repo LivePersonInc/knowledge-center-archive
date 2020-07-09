@@ -1,11 +1,11 @@
 ---
-pagename: Latest what's new
+pagename: June what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights include Rebranding to the Conversational Cloud, Developers Center update,  Data Transporter & more
 level3: ''
-permalink: whats-new-latest-whats-new.html
+permalink: whats-new-june-whats-new.html
 isTutorial: false
 isNew: false
 
@@ -53,7 +53,7 @@ Proactive Messaging enables brands to proactively send consumers outbound messag
 Proactive Messaging can be leveraged using Proactive API or Web Tool. Proactive Messaging v2.0 API is the latest API with a lot of improvements including rate limiting, support for scheduling guardrails, high send rate and integrates with campaigns and engagement for conversation routing.
 
 Improvements include: 
-The first outbound message to be included in the conversation transcript instead of relying on the SmartConnect widget.
+The first outbound message to be included in the conversation transcript instead of relying on the Connect to Messaging widget.
 A safeguard capability that ensures recipients only receive messages within a specific time range based on the timezone which is determined by their phone number.
 Rate limiting enabling more calls to APIs without it impacting the stability of the service.
 

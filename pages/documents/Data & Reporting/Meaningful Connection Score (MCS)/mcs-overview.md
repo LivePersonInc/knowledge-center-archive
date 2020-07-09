@@ -1,20 +1,20 @@
 ---
-pagename: Meaningful Connection Score (MCS) overview
+pagename: Meaningful Conversation Score (MCS) overview
 categoryName: Data & reporting
-subCategoryName: Web messaging
+subCategoryName: Web Messaging
 indicator: both
-subtitle: Measure the quality of your brand’s connection with every consumer over
+subtitle: Measure the quality of your brand’s conversations with every consumer over
   time
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
+permalink: data-reporting-meaningful-conversation-score-(mcs)-meaningful-conversation-score-(mcs)-overview.html
 isTutorial: false
 date: '2019-01-22T09:35:20.000+00:00'
 isNew: false
-
+redirect_from: data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html
 ---
-Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience.
+Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the coversations that take place between brands and consumers.
 
-The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.
+The result is the development of the **Meaningful Conversation Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship, solving a major issue inherent in other customer satisfaction measurements.
 
 ## The problem with traditional customer satisfaction metrics
 
@@ -23,13 +23,13 @@ While commonly used customer satisfaction measurements, such as customer surveys
 * Only a small proportion of consumers submit surveys. They generally have a very **low response rate**
 * The customers most likely to respond to surveys are usually the happiest, meaning the responses are **biased** and can be misleading
 * Actions as a result of survey feedback are taken only retrospectively, **missing real-time feedback**
-* Messaging is an **ongoing relationship**, so measuring sentiment at the end of a session doesn’t accurately reflect the nature of the messaging connection
+* Messaging is an **ongoing relationship**, so measuring sentiment at the end of a session doesn’t accurately reflect the nature of the messaging conversation.
 
 ## Why MCS?
 
 MCS does not rely on customers answering surveys, but rather on a deep analysis of the tone, content, and sentiment of consumer’s actual conversations with the brand in real time.
 
-![](/img/meaningful-connection-score-(MCS)-overview1.png)
+![](/imgall-connections-manager-workspace.png)
 
 At the the heart of the solution, validated in collaboration with leading universities, lies specialized NLP machine learning-based technology that is able to adjust its algorithm to fit each brand and/or industry.
 
@@ -58,23 +58,21 @@ The more recent the message, the greater the effect it will have on the total sc
 
 Some negative impact of a score remains regardless of the time that has passed, i.e. if negative emotion has been detected, it will linger through the entire conversation to some extent.
 
-The dynamic changes to the MCS can be tracked in the web messaging API.
+The dynamic changes to the MCS can be tracked in the Web Messaging API.
 
 ## MCS applications
 
 ### 1. Real time alerts
 
-Real-time alerts on live engagements, displayed on the All Connections list and Web Visitors list, allow difficult interactions to be identified as they happen, enabling timely intervention to rectify the situation. Agents exposed to their ongoing MCS in real time can adjust their current conversations in order to increase their scores.
+Real-time alerts on live engagements, displayed on the All Conversations list and Web Visitors list, allow difficult interactions to be identified as they happen, enabling timely intervention to rectify the situation. Agents exposed to their ongoing MCS in real time can adjust their current conversations in order to increase their scores.
 
-For messaging conversations, the MCS score and alerts (smileys) are displayed in a dedicated column on the All Connections page. The MCS alerts are indicated with a frown like face for scores < -33 and a smiley face for scores > 33.
+For messaging conversations, the MCS score and alerts (smileys) are displayed in a dedicated column on the All Conversations page. The MCS alerts are indicated with a frown like face for scores < -33 and a smiley face for scores > 33.
 
 For chat conversations, the MCS score and smileys are displayed in dedicated columns on the Web History and Web Visitors list, and on the Agent Workspace.
 
-![](/img/meaningful-connection-score-(MCS)-overview2.png)The image above shows the chat web history
+![](/img/web-history-1.png)
 
-![](/img/meaningful-connection-score-(MCS)-overview3.png)
-
-The image above shows the chat agent workspace
+The image above shows the chat Agent Workspace
 
 ### 2. Training opportunities
 
@@ -82,7 +80,7 @@ MCS Toolkit allows brands to identify training opportunities for agents and agen
 
 ![](/img/meaningful-connection-score-(MCS)-overview4.png)
 
-MCS can be viewed in the All Connections list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
+MCS can be viewed in the All Conversations list and Web History, as well as being exported so that brands can later integrate and further analyze the data using third-party tools .
 
 All MCS data is available via the [Engagement History API](https://developers.liveperson.com/data-engagement-history-overview.html) for chat and the [Messaging Interactions API](https://developers.liveperson.com/data-messaging-interactions-overview.html) for messaging.
 
@@ -107,15 +105,13 @@ The aggregated MCS is calculated by: %Positives - %Negatives.
 
 For example, a brand wants to evaluate an agent’s MCS from five conversations they have handled. The MCSs were: -60, -20, -5, 0 and 50. There are three negative conversations, comprising 60% of the conversations, one neutral which is 20% and one positive which is 20%. Hence this agent’s MCS is -40 (20%-60%).
 
-All of these entities can be tracked through Report Builder, where brands can analyze MCS by agent group, skill, line of business or other variables.
+All of these entities can be tracked through Analytics Builder, where brands can analyze MCS by agent group, skill, line of business or other variables.
 
-## MCS in Report Builder
+## MCS in the Analytics Builder
 
-The Report Builder allows brands to build their own reports based on account data available in LiveEngage. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
+The Analytics Builder allows brands to build their own reports based on account data available in the Conversational Cloud. The tool gives brands the ability to understand and analyze the performance of a campaign, as well as measuring the performance of their contact center operations and drilling down into detailed operational metrics.
 
-MCSs for messaging conversations are available in Report Builder for brands to further track and analyze data around consumer sentiment.
-
-![](/img/meaningful-connection-score-(MCS)-overview5.png)
+MCSs for messaging conversations are available in the Analytics Builder for brands to further track and analyze data around consumer sentiment.
 
 ## More about MCS
 

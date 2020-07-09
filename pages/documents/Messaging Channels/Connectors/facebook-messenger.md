@@ -14,17 +14,16 @@ redirect_from:
 - facebook-connector.html
 
 ---
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238902683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 {: .notice}  
 **To get started right away, see the** [**Facebook Messenger Quick Start**](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) **article.**
 
-With over a billion messages being sent between people and businesses per month on Facebook Messenger, businesses need tools to manage these interactions at scale. LiveEngage seamlessly integrates into Facebook Messenger, offering brands the opportunity to tap into  consumers on their preferred messaging channel. [Set up is easy](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) and allows your agents to create ongoing connections with valuable customers right away.
+With over a billion messages being sent between people and businesses per month on Facebook Messenger, businesses need tools to manage these interactions at scale. The Conversational Cloud seamlessly integrates into Facebook Messenger, offering brands the opportunity to tap into  consumers on their preferred messaging channel. [Set up is easy](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) and allows your agents to create ongoing connections with valuable customers right away.
 
 ## Benefits of Facebook Messenger
 
 * **Meet consumers where they are** — Consumers can continue using one popular app - Facebook Messenger - to connect to friends, families and now businesses.
-* **Rich Messaging capabilities** — High-resolution photos, files, content carousels, rich cards, quick replies, GIFs, audio messages and more provide an enriched messaging experience for consumers.
+* **Rich Conversation capabilities** — High-resolution photos, files, content carousels, rich cards, quick replies, GIFs, audio messages and more provide an enriched messaging experience for consumers.
 * **Enhanced indicators** — Read receipts and typing indicators tell the consumer when agent is actively answering. The agent also benefits from knowing when the consumer receives the message.
 * **Simple bot integrations** — Brands can plug their own bots into Facebook Messenger. Bots can then offer service and sales assistance to customers, with seamless transition to a human agent when required.
 * **In-depth reporting** — Track and report on all Facebook Messenger interactions with detailed performance metrics within LivePerson’s platform.
@@ -42,10 +41,10 @@ Under Facebook's page settings for messaging, brands can use the following featu
 * **Offline response:** lets customers know you are offline but will respond soon e.g. _Hi, we’re away right now but we’ll get back to you shortly_.
 
 {: .notice}
-**Note:** The messages above will display in the agent workspace. Just like messages sent by agents, they have a character limit of 640.
+**Note:** The messages above will display in the Agent Workspace. Just like messages sent by agents, they have a character limit of 640.
 
 {: .notice}
-**Note:** Subscribing your page to LiveEngage before creating a button on the Facebook page is not possible. Please create a Facebook page with a button first and then connect it to LiveEngage.
+**Note:** Subscribing your page to the Conversational Cloud before creating a button on the Facebook page is not possible. Please create a Facebook page with a button first and then connect it to the Conversational Cloud.
 
 To get started right away, see the [Facebook Messenger Quick Start](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) article.
 
@@ -61,11 +60,11 @@ Brands and consumers can begin interacting over Facebook Messenger through multi
 
 ## Add an agent manager  to display third-party messages
 
-In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the agent workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
+In order for messages sent directly from your Facebook Messenger inbox (via a Facebook page administrator or automated message) to appear in the Agent Workspace conversation thread, you will need to assign an agent manager user to whom the messages will be attributed.
 
 To create a new Agent Manager user, specifically for this purpose:
 
-1. On the Users page on LiveEngage, click **Add use**r.
+1. On the Users page in the Conversational Cloud, click **Add use**r.
 2. Fill in the user details, ensuring that the following parameters are included:
    * Login name: connector
    * Email: [connector@lp.com](mailto:connector@lp.com)
@@ -85,7 +84,7 @@ On the Facebook connector page, under **Add a Facebook external user**, simply s
 
 ## Enable Facebook Handover Protocol for human/bot tango
 
-Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible for a Page to simultaneously use one Facebook app to build a 3rd party bot, outside of LiveEngage, for handling automated responses, and use another Facebook app (LiveEngage) for customer service with human agents.
+Facebook Handover Protocol enables two or more apps to participate in a conversation by passing control of the conversation between them. This feature makes it possible for a Page to simultaneously use one Facebook app to build a 3rd party bot, outside of the Conversational Cloud, for handling automated responses, and use another Facebook app (Conversational Cloud) for customer service with human agents.
 
 * By default, all messages are sent to the Primary Receiver app
 * When control of the conversation is passed to another, the Facebook Messenger Platform will send messages from the conversation to it instead.

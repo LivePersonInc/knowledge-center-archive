@@ -14,8 +14,6 @@ date: '2019-01-29T08:27:49.000+00:00'
 ---
 LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is especially paramount in correspondence between agents and consumers and requires a heightened level of protection. The LivePerson secure form was specifically designed to provide the additional security layer that enables consumers to be able to, in full confidence, provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
 
-<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/238919406" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Secure form benefits
 
 The LivePerson secure form provides brands with an enhanced engagement experience with the following benefits:
@@ -38,7 +36,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
 
    LivePerson has had European operations for years is compliant with the current European data privacy rules. To learn more, click [here](https://www.privacyshield.gov/participant?id=a2zt00000004og8AAA&status=Active).
 
-## When to use the LiveEngage secure form
+## When to use the Conversational Cloud secure form
 
 Some of the most common use cases for the secure form include:
 
@@ -49,9 +47,9 @@ Some of the most common use cases for the secure form include:
 
 ## PCI-DSS compliance
 
-The LiveEngage secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
+The Conversational Cloud secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
-Following the completion of an onsite assessment, the LiveEngage secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
+Following the completion of an onsite assessment, the Conversational Cloud secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
 
 ## How it works
 
@@ -67,7 +65,7 @@ _LivePerson secure form within a mobile-app messaging conversation_
 
 ## Fully accessible visitor experience
 
-The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both iOS and Android in-app messaging and includes:
+The secure form widget complies with ADA and WCAG 2.0 AA disability accessibility requirements. This applies to both iOS and Android App Messaging and includes:
 
 * Screen reader support: secure forms can be filled out using screen readers for visually impaired visitors.
 * Keyboard operable: secure forms can be operated without the use of a mouse for visitors with motor function and/or visual impairments.
@@ -148,11 +146,11 @@ The following permissions related to secure forms need to be enabled for an acco
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
 {: notice}  
-The following permission for Agent Managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the Engagement History.
+The following permission for Agent Managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the Conversation History.
 
 | Role | Permission | Permission definition | Default State (role) |
 | --- | --- | --- | --- |
-| Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
+| Agent Manager | View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
 
 To verify that permissions are enabled:
 
@@ -301,7 +299,7 @@ The connector’s secure form invitation contains the secure form name and a lin
 
 #### Layout and design
 
-The form layout and design will be the same as the web messaging secure form view.
+The form layout and design will be the same as the Web Messaging secure form view.
 
 The form design and colors will be inherited from the default window design elements, which are:
 
@@ -383,11 +381,11 @@ To ensure secure form data is protected, agent managers cannot view information 
 * Viewed by the consumer
 * Submitted by the consumer
 
-If required, your LivePerson account team can enable a specific feature that will enable your agent managers to see the secure form results in the conversation history, once the form has been submitted and the conversation closed. Information submitted in response to “Off the record” questions will not be displayed as it is saved for the duration of the conversation only.
+If required, your LivePerson account team can enable a specific feature that will enable your agent managers to see the secure form results in the Conversation History, once the form has been submitted and the conversation closed. Information submitted in response to “Off the record” questions will not be displayed as it is saved for the duration of the conversation only.
 
 In order for the agent manager to be able to view the secure form data, they will need to have the following permission enabled:
 
-View Engagement history PCI PII
+View Conversation History PCI PII
 
 For guidance on enabling/disabling permissions, please see [permission settings.](/admin-settings-permissions-customize-permissions.html)
 
@@ -399,9 +397,9 @@ When using secure forms, bear in mind:
 * Submitting CVV (Card Verification Value) or CVC (Code Verification Certificate) data should only be performed in CVV question type or questions that are marked as "Off the Record".
 * Data submitted in the secure form is only retrievable for the duration of the session it was submitted in.
 * Agent workstations utilized for viewing secure forms are in scope of PCI-DSS certification.
-* LivePerson accounts password and login policy must be enabled and configured according to PCI-DSS requirements (see account setup above).
+* LivePerson Conversational Cloud account password and login policy must be enabled and configured according to PCI-DSS requirements (see account setup above).
 * Invitations, alerts and consumer texts are customizable on both In-App Messaging SDKs.
-* Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on LiveEngage, if not it will default to English).
+* Within form web view, the header text, placeholder, errors, submit button and ‘note’ text are displayed according to the language of the device (if the device language is available on the Conversational Cloud, if not it will default to English).
 * The following time limitations apply:
   1. If it takes more than 5 minutes from the moment a consumer clicks to open the secure form until it loads, the secure form will expire. This can occur as the result of a bad network connection or server failure. The 5 minute variable is configurable.
   2. The consumer can submit the secure form up to 30 minutes from the time they first open it. The 30 minute variable is configurable.
