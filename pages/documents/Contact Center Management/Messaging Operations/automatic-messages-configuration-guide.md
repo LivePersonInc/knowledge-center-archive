@@ -44,12 +44,12 @@ LivePerson has a default set of messages configured at the account level. Messag
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed for both Live chat and Messaging; select Messaging.
 
 {:start="3"}
-3\. Select a message to edit. The Edit Automatic Message page is displayed.
+3. Select a message to edit. The Edit Automatic Message page is displayed.
 
 ![](/img/automatic-messages.png)
 
 {:start="4"}
-4\. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
+4. The default automatic message will be displayed in the Text field. The message can be edited as required. Note that you can add dynamic text (see below). This message will be displayed for all skills, unless you add a customization for specific skills (see below).
 
 Click **Save**.
 
@@ -63,11 +63,13 @@ Click **Save**.
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click Save
 
+![](/img/automatic-messages-messaging-8b.png) 
+
 ### To customize messages for a specific skill
 
 1. On the **Edit Automatic Message** page, click the “+” button below the message description, next to the default All Skills button. A skill selection floating window is displayed.
 
-![](/img/automatic-messages-messaging-8b.png)
+![](/img/automatic-messages.png)
 
 {:start="2"}
 2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
@@ -79,6 +81,8 @@ Note: if there is no text input for that message, the tab will appear with dashe
 ## Adding dynamic text to messages
 
 Some of the messages can be customized to include dynamic text. Dynamic text changes based on the current characteristics of the Agent, such as the Agent’s name. The available options are:
+
+![](/img/5_AM Dynamic text2.png)
 
 **Expected response time** - The expected response time or SLA before the consumer will be answered by an agent {expectedResponseTime}. The time can be set in days, hours or minutes. The logic is based off of the Expected Wait Time and will show the expected response time based on the SLA as well as other parameters. For example, if the account is in “out of hours” mode at the moment, it will take the relevant SLA (say, 2 hours) and add that to the time when the account is back online.
 
@@ -116,8 +120,6 @@ Brands can set a different timer per skill.
 ## Editing the look and feel of auto messages
 
 For Web Messaging, the font and font color can be edited in the window studio in LivePerson. Click the auto message text to open the configuration dialog.
-
-![](/img/automatic-messages-messaging-11b.png)
 
 or App Messaging this can be configured in the SDK. Disabling an automatic message Each automatic message can be disabled, either for all skills, or per skill. To disable an automatic message
 
@@ -287,11 +289,11 @@ This applies for the off hours **auto messages** only; it does not affect any ot
 
 ![](/img/Agent menu open.png)
 
-2\. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
+2. The Account Shift Scheduler screen will now be displayed. Choose the “Manual” option.
 
 ![](/img/automatic-messages-messaging-18b.png)
 
-3\. Define your current shift status:
+3. Define your current shift status:
 
 a. Choose “Off hours” when your connection center is inactive (this is used for the SLA calculation):
 
