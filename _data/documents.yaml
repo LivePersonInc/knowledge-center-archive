@@ -171,7 +171,6 @@
         - pagename: Agent Workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
-            - level3name: Agent Workspace for messaging tour
             - level3name: Workspace basics
             - level3name: Managing messaging conversations
             - level3name: Taking breaks & ending your shift
@@ -362,7 +361,10 @@
   subcategories:
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
-      pages:  
+      pages:
+        - pagename: July
+          level3:
+            - level3name: Week of July 13th
         - pagename: June
           level3:
             - level3name: Week of June 1st
