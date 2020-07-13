@@ -46,8 +46,6 @@ Under Facebook's page settings for messaging, brands can use the following featu
 {: .notice}
 **Note:** Subscribing your page to the Conversational Cloud before creating a button on the Facebook page is not possible. Please create a Facebook page with a button first and then connect it to the Conversational Cloud.
 
-To get started right away, see the [Facebook Messenger Quick Start](/getting-started-quick-start-guides-facebook-messenger-quick-start.html) article.
-
 ## Set up how conversations start: entry points
 
 Brands and consumers can begin interacting over Facebook Messenger through multiple entry points, here are are some of the ways conversations can start:
