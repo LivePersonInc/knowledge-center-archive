@@ -164,7 +164,7 @@ Bots will have the capability to send files as well. For further details and exa
 
 ## **Configuration steps summary**
 
-1. [Enable the feature](messaging-channels-rich-messaging-agent-file-sharing.html#enabling-the-feature)
-2. [Enable the "file sharing capability"](messaging-channels-rich-messaging-agent-file-sharing.html#night-vision-setting) on night vision
-3. [Set permissions](messaging-channels-rich-messaging-agent-file-sharing.html#permissions)
-4. Optional: [Changing the image resolution](messaging-channels-rich-messaging-agent-file-sharing.html#photo-resizing)
+1. [Enable the feature](messaging-channels-rich-conversations-agent-file-sharing-overview.html#enabling-the-feature)
+2. [Enable the "file sharing capability"](messaging-channels-rich-conversations-agent-file-sharing-overview.html#using-file-sharing) on night vision
+3. [Set permissions](messaging-channels-rich-conversations-agent-file-sharing-overview.html#permissions)
+4. Optional: [Changing the image resolution](messaging-channels-rich-conversations-agent-file-sharing-overview.html#photo-resizing)
