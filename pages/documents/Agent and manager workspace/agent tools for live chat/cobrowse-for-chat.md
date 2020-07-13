@@ -120,7 +120,7 @@ The following CoBrowse elements can also be configured:
 {:start="4"}
 4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](/img/cobrowse-for-live-chat-9.jpg)
+![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
 5. By mousing over the top bar, agents are able to switch to full screen mode and view wider websites easily.
