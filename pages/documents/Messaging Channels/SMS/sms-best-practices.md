@@ -52,4 +52,4 @@ Business requirements for many brands include the ability to send automated resp
 2. Off-hours notifications
 3. Expectation setting for SLA's (first time consumers), and more.
 
-Although system messages are not yet available as features within the Conversational Cloud, all of the above can be achieved with Twilio functions. Click [here](messaging-channels-sms-enhancing-the-sms-experience-with-twilio.html) to learn more about enhancing SMS with Twilio.
+
