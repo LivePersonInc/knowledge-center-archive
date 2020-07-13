@@ -52,7 +52,7 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 **Please note:** EmailConnect provides brands with the ability to immediately support a single email address in the Conversational Cloud. More features coming soon.
 
 {: .important}  
-To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://knowledge.liveperson.com/developer-tools-liveperson-functions.html) enabled.
+To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://developers.liveperson.com/liveperson-functions-overview.html) enabled.
 
 ### Step 1: Connect your email in the Conversational Cloud
 
