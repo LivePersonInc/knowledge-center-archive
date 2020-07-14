@@ -250,7 +250,7 @@ If the TTR macro is not used the message will be sent even if the TTR is overdue
 * TTR messages can only provide the time period until the expected response and not timestamp (e.g. “An agent will respond in 2 hours”, and not “An Agent will respond at 10:00”). This will be supported in phase 2.
 * TTR messages only display the first 2 time units, not rounded. E.g. if TTR is 1 day 20 hours and 40 minutes, the TTR will be 1 day and 20 hours. This will be supported in a later phase.
 * HTML is not supported in auto messages and should not be used. Do not use the following characters in the auto message: < > \\. Using these characters may cause the message not to be sent.
-*  All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. See the [Language Support](https://docs.google.com/document/d/1JBWuCr8_9e02mGIuLeW8kdfcyCCLmHm8_3PKmXm6ido/edit#heading=h.rmnrr4onfzgp) section for more info
+*  All the connectors (SMS, Facebook, Google My Business, etc.) support only 1 language. 
 * A new profile, related to the auto messages, is added to the Conversational Cloud and appears in the UI. This profile should not be deleted/edited.
 
 ## Determining Off-hours
