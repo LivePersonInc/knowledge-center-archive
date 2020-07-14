@@ -13,6 +13,7 @@ redirect_from:
   - change-queue-options.html
   - contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html
   - contact-center-management-messaging-operations-smart-capacity-smart-capacity-overview.html
+  - contact-center-management-messaging-operations-smart-capacity-overview.html
 ---
 ## How messaging impacts a conversation's lifecycle
 
