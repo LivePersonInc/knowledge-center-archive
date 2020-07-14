@@ -192,7 +192,8 @@ See [Special Occasion API -> Create Special Occasion Object](https://developers.
 
 The **“isDefault”** field determines whether a workdays object is the default for the entire account. Only one object can be set as the default for each account.
 
-{: .notice} if you create a new workdays object with an isDefault key set to true when there's already a special occasions object set as default for the account, LivePerson validation will set the new object created as the default. Refer to [Update workdays.](https://developers.liveperson.com/account-configuration-workdays-create.html)
+{: .notice} 
+**PLease note:** If you create a new workdays object with an isDefault key set to true when there's already a special occasions object set as default for the account, LivePerson validation will set the new object created as the default. Refer to [Update workdays.](https://developers.liveperson.com/account-configuration-workdays-create.html)
 
 ### Assigning workdays/special occasions per skill
 
