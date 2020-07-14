@@ -72,9 +72,8 @@ Click **Save**.
 ![](/img/automatic-messages.png)
 
 {:start="2"}
-2\. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
-
-1. Select a skill tab (for example Escalation or Sales, as shown in the illustration above). The skill’s related fields will appear.
+2. Select the skill(s) this message will be customized for and press “**Done**”. A new tab will be added for each skill selected.
+3. Select a skill tab (for example Escalation or Sales, as shown in the illustration above). The skill’s related fields will appear.
 
 Note: if there is no text input for that message, the tab will appear with dashes, and in the meantime, the default set will be used. 4. Enter the relevant text to the text field. 5. Click Save. Note: you need to save your changes for each skill separately.
 
