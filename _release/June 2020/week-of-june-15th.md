@@ -63,7 +63,10 @@ In the enhanced Agent Workspace, we improved the existing notifications mechanis
 * Indicate new incoming conversations (new rings).
 
 This was achieved in two ways: 
-1. We add a new capability to present notifications for filtered statuses by adding the orange notification icon for both the filter itself and to the left side of the filtered conversations (Please see screenshot below).
+1. We added a new capability to present notifications for filtered out statuses.
+In case of a new notification for a conversation with filtered out status, the orange notification icon will be shown on the filter icon itself and to the left side of this status inside the filter bubble (Please see the screenshot below).
+**Please note:** Users are filtered by default for Overdue and Ongoing conversations. Hence they won't be able to have this type of notifications for these statuses.
+{:start="2"}
 2. We are now showing the notification icon even after a refresh and logout and login from the agent. It will allow the user to better understand the existing notifications and act accordingly. 
 
 **Limitations:** Due to a bug with backend dependencies, we are not supporting the notifications for “closed conversations” for now, not in the module notification bubble, the filter icon, or in the conversation preview.
