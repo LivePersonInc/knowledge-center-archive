@@ -103,7 +103,7 @@ Additional available agent activity metrics can be filtered by each away state r
 
 ## **Messaging Performance Predefined Dashboard**
 
-The pie chart titled “Away” has also been added to the [Messaging Performance Predefined Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) and displays the same data as the Agent Activity Dashboard.
+The pie chart titled “Away” has also been added to the [Messaging Performance Predefined Dashboard](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html) and displays the same data as the Agent Activity Dashboard.
 
 {: .important}
 **Note:** Currently, agent messaging activity metrics cannot be filtered by away states, however they can be viewed alongside the time spent in each away reason, per agent, at the hourly level.
