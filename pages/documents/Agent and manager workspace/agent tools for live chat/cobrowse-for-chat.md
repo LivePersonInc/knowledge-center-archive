@@ -233,7 +233,7 @@ The following table lists the prerequisites and technical requirements necessary
 * The minimum upstream bandwidth requirement is 750 kbit/s. The actual requirement depends on a number of factors, such as the size of the rendered website.
 
 {: .notice}
-**Note:** Non-public web sites (intranet, localhost) are not supported.
+**Note:** Non-public websites (intranet, localhost) are not supported.
 
 ## Performance best practices
 
