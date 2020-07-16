@@ -18,3 +18,17 @@ Please contact your LivePerson account team for the exact dates on which you wil
 
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
+
+## Support Handoff and EndDialog Activity from MS 
+### Type: New feature (Bot Connectors 2.21)
+
+Available to all customers? Y
+
+This feature adds support for the MS activity HANDOFF which will transfer the conversation to the provided skill and also END_CONVERSATION type, which closes the current conversation.
+
+## Add support for OAuth login for Public API
+### Type:  New feature (Bot Connectors 2.21)
+
+Available to all customers? Y
+
+With this feature it is now possible for a customer to login via app key and app secret instead using login name and password. This allows customers with SSO solutions to utilize the Public API via a dedicated Bot Agent.
