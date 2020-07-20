@@ -315,7 +315,7 @@
   analysisType: "Surveys"
   Channel: "Messaging,Chat"
   formulaOptional:
-  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of LiveEngage Campaign setup"
+  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of the Campaign setup"
   Dashboard: "Agent Activity"
   filteredBy: "Agent, Group, Skill"
 - metricitem:
@@ -3587,7 +3587,7 @@
   analysisType: "Surveys"
   Channel: "Chat"
   formulaOptional:
-  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of LiveEngage Campaign setup"
+  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of the Campaign setup"
   Dashboard: "Operational & Staffing for Live Chat"
   filteredBy: "Agent, Group, Skill"
 - metricitem:
@@ -4619,7 +4619,7 @@
   analysisType: "Agent Productivity"
   Channel: "Messaging"
   formulaOptional: "HANDLED CONVERSATIONS / LOGGED IN TIME"
-  Description: "The average number of conversations an agent handled during their time logged into LiveEngage."
+  Description: "The average number of conversations an agent handled during their time logged into Conversational Cloud platform."
   Dashboard: "Performance Dashboard for Messaging"
   filteredBy: "Agent, Group, Skill, Engagement, Campaign, LoB, End-Point (Source Type)"
 - metricitem:
@@ -5331,7 +5331,7 @@
   analysisType: "Surveys"
   Channel: "Chat"
   formulaOptional:
-  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of LiveEngage Campaign setup"
+  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of the Campaign setup"
   Dashboard: "Skill Activity for Live Chat"
   filteredBy: "Agent, Group, Skill"
 - metricitem:
@@ -5475,7 +5475,7 @@
   analysisType: "Surveys"
   Channel: "Chat"
   formulaOptional:
-  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of LiveEngage Campaign setup"
+  Description: "Number of positive answers submitted by consumers to a CSAT post-chat survey question. An answer is considered positive if defined as so in the Post-Chat survey settings of the Engagement Window as part of the Campaign setup"
   Dashboard: "Survey for Live Chat"
   filteredBy: "Agent, Group, Skill"
 - metricitem:
