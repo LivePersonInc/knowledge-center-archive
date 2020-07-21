@@ -28,17 +28,23 @@ In addition, the following dashboards and reports will now reflect LoBs:
 - CM BI dashboard
 - Goal Tracker report
 
+![](img/LOB1.png)
+
 To enable Line of Business:
 
 1. In the Users area, select the Night Vision view.
 2. Select Line of Business and switch the toggle to Enable. Click Save. 
 3. Once the page is refreshed a new tab for Line of Business will appear in the Users area.
 
+![](img/LOB2.png)
+
 To add a Line of Business:
 
 1. In the Users area, on the Line of Business tab, click Add Line of Business.
 2. Give the LoB a name and add a description if required. 
 3. Click Save.
+
+![](img/LOB4.png)
 
 To assign a campaign to a Line of Business:
 
@@ -53,6 +59,8 @@ Please note:
 4. Give the Campaign a name and a description if required.
 5. Each Engagement created under the Campaign will also be assigned to the same LoB.
 6. Click Publish.
+
+![](img/LOB5.png)
 
 ### To assign unassigned Campaigns to a LoB:
 
@@ -77,6 +85,8 @@ Please note:
 - If no filters are added, the page will display all account level data, including both assigned and unassigned Campaigns. 
 3. Click Filter.
 4. The page will now display the Campaigns assigned to the LoB you selected; the dashboard will reflect the data for these Campaigns.
+
+![](img/LOB6.png)
 
 ### To filter entities by LOB:
 On accounts with a large number of entities (such as users, skills, etc.), it can be very easy for users to accidentally edit the wrong entity. The ability to filter entities by LOB means users can only view and edit those entities designated to the LOBs already assigned to them.
