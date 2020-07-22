@@ -163,6 +163,17 @@ The ‘Business Dashboard for Messaging’ was enhanced to include the Consumer 
 ![](img/AB_RNJuly22_2.png)
 ![](img/AB_RNJuly22_3.png)
 
+## Missing subscribers in "Opened Conversations by Subscriber" visualization in Network Manager Dashboard (SD-8999)
+### Type: Bug fix (Analytics Builder 4.7)
+
+Not all subscribers appear in "Opened Conversations by Subscriber" visualization in Network Manager Dashboard
+Enabled OOTB - This bug has now been fixed.
+
+## Performance Dashboard for Messaging shows Incorrect Revenue metrics (SD-9068)
+### Type: Bug fix (Analytics Builder 4.7)
+Performance Dashboard for Messaging shows incorrect revenue values , and data is not consistent (decreased) for the same dates when running a couple days later.
+Enabled OOTB - This bug has now been fixed.
+
 ## MTLS support for WatsonV2 (INT-1102, INT-1104)
 ### New functionality (Bot Connectors 2.22)
 
