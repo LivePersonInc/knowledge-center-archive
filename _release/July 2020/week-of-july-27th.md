@@ -73,3 +73,45 @@ New Metrics:
 | IN SESSION SALES REVENUE | Total revenue achieved, during a messaging conversation, from all transactions which led to a sell product / service goal reached |
 | CROSS SESSION SALES CONVERSION | Number of sell product / service goals reached after a messaging conversation |
 | IN SESSION SALES CONVERSION | Number of sell product / service goals reached during a messaging conversation |
+
+![](img/AB_RNJuly22_1.png)
+
+## Messaging Sales Metrics by Control Group and Self Service Group. 
+### Enhancement (Analytics Builder 4.7)
+
+Available to all customers? Y (Analytics Builder enabled) 
+
+
+The ‘Business Dashboard for Messaging’ was enhanced to allow brands to analyze the converted consumers versus the control group and self served visitors groups.
+
+Self service visitors -  Visitors who were exposed to an invite, but did not have any engagement/messaging conversion  and converted on the web site ( they might clicked on content but they didn't start a messaging conversion)
+Control group visitors -  Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites ( which means they were eligible customers)
+
+Previously,  the dashboard included only Messaging  group metrics for visitors that end up in interactive messaging conversations. In this version we added the following metrics.
+
+#### Self service visitors metrics
+
+| Metric | Description |
+|--------|-------------|
+| TOTAL SELF SERVICE EXPOSED AOV | Average revenue achieved for Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
+|TOTAL SELF SERVICE EXPOSED CONVERSION RATE | Percentage of TOTAL SELF SERVICE EXPOSED CONVERSIONS out of total messaging  exposed. Self service visitors, Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation). |
+|TOTAL SELF SERVICE EXPOSED CONVERSIONS | Total number of conversions achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors , Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation. |
+| TOTAL SELF SERVICE EXPOSED REVENUE | Total revenue achieved after the consumer was exposed to an engagement and did not initiate a messaging conversation with an agent. Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation). |
+| SELF SERVICE EXPOSED CROSS SESSION AOV | Average revenue achieved after exposure out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in different sessions for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation). |
+| SELF SERVICE EXPOSED CROSS SESSION CONVERSIONS | Number of conversions achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation). |
+| SELF SERVICE EXPOSED CROSS SESSION REVENUE | Revenue achieved after an invite exposure occurred in a previous visit to the site for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation). |
+| SELF SERVICE EXPOSED IN SESSION AOV | Average of the revenue achieved after exposures out of the number of purchase transactions completed after exposures, where exposure and purchase event occur in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
+| SELF SERVICE EXPOSED IN SESSION CONVERSIONS | Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
+| SELF SERVICE EXPOSED IN SESSION REVENUE | Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
+
+
+
+
+
+
+
+
+
+
+
+
