@@ -163,6 +163,21 @@ The ‘Business Dashboard for Messaging’ was enhanced to include the Consumer 
 ![](img/AB_RNJuly22_2.png)
 ![](img/AB_RNJuly22_3.png)
 
+## MTLS support for WatsonV2 (INT-1102, INT-1104)
+### New functionality (Bot Connectors 2.22)
+
+For WatsonV2 bots we now support client authentication on custom endpoints. This feature is early access and currently not available in the ui. The API however provides the option to add client authentication data to WatsonV2 bots. This includes
+* Creating client authentications
+* Listing available client authentications on the account
+* Adding the following properties to the bot configuration
+- watsonV2WorkspaceClientAuthId
+- watsonV2TokenEndpointClientAuthId
+
+#### How to enable
+Contact the Automation Integration team and we can help with setting up and testing of a bot with this feature enabled.
+
+#### Limitations
+The feature is only available for WatsonV2 currently. On the authentication endpoint client authentication is only available for token based authentication.
 
 
 
