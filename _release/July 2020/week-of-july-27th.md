@@ -19,4 +19,49 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## 
+## In-Session\Cross-Session Conversions segregation in Performance Dashboard for messaging  
+### Enhancement (Analytics Builder 4.7)
+
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Available to all customers? Y (Analytics Builder enabled) 
+
+The Performance Dashboard For Messaging was enhanced to allow brands to analyze the sales metrics ( Sales Revenue/ Sales AVO and Sales Conversion) by in session and cross session segregation. Before this change, the metrics includes the total of in session and cross session only.
+
+New Metrics:
+
