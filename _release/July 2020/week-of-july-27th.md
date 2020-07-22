@@ -104,7 +104,17 @@ Previously,  the dashboard included only Messaging  group metrics for visitors t
 | SELF SERVICE EXPOSED IN SESSION CONVERSIONS | Number of conversions achieved after an exposure in the same session for Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
 | SELF SERVICE EXPOSED IN SESSION REVENUE | Revenue achieved after exposure, where exposure and purchase event occur in the same session for the Self service visitors - Visitors who were exposed to an invite, but did not have any engagement/messaging conversation and converted on the web site ( they might clicked on content but they didn't start a messaging conversation).|
 
+#### Control Group Visitors Metrics:
 
+| Metric | Description |
+|--------|-------------|
+| CONTROL GROUP IN SESSION AOV | Average order value of conversions from control group visitors during their visitor sessions. Control group visitors, visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
+| CONTROL GROUP IN SESSION CONVERSIONS | Conversions by control group visitors purposely never exposed to messaging conversation invites occurring during a visitor session. Control group visitors , visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
+| CONTROL GROUP IN SESSION REVENUE | Revenue from conversions by control Group visitors purposely never exposed to messaging  invites, occurring during a visitor session. Control group visitors - Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
+| TOTAL CONTROL GROUP AOV | Average order value of in-session and cross-session conversions for Control group visitors - Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
+| TOTAL CONTROL GROUP CONVERSION RATE | Conversion rate of Control group visitors - Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites. |
+| TOTAL CONTROL GROUP CONVERSIONS | Total conversions achieved by visitors in the Control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites. |
+| TOTAL CONTROL GROUP REVENUE | Total revenue achieved by control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
 
 
 
