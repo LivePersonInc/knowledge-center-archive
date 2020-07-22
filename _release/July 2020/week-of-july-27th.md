@@ -179,5 +179,33 @@ Contact the Automation Integration team and we can help with setting up and test
 #### Limitations
 The feature is only available for WatsonV2 currently. On the authentication endpoint client authentication is only available for token based authentication.
 
+## Apple Business Chat Conversation Data Sources
+### New functionality (LE UI 12.1)
+
+A new conversation source was added for Apple Business Chat with a link to its respective onboarding form. This will allow a better and more streamlined onboarding experience for the messaging solutions.
+
+## Network Manager - Display Brand Logo
+### New functionality (LE UI 12.1)
+
+The Network Manager allows an account deemed as a Content Provider to send conversations to multiple Brand/Merchant accounts. In this style of account configuration, the campaign and engagement is configured on the Provider account. This feature will enable the web messaging window to display the brand account to use their personalized logo in the window, offering a more personalized conversation for the associated Brand account. 
+
+**How to enable:**
+* The option to enable this is available when an account has the setup as a Content Provider.  
+* The Engagement Window Studio will display a new option in the Header configuration, offering a checkbox to, “Display Brand Logo in Header”. 
+* Given the selection is Enabled, the system will attempt to fetch the "account.profile.logo.url" from the associated Brand account. 
+* If the system is unable to fetch the "account.profile.logo.url", or if it is not configured on the Brand account, the system should default to the value in the Image URL entry field. 
+* If there is no value in the Image URL field, and the system cannot fetch the "account.profile.logo.url", there will be no Header displayed. 
+
+![](img/week-of-july-27th.png)
+
+## After logging off and logging on the page, Mute setting is now Saved 
+### New functionality (LE UI 12.1)
+
+A new capability was added to the Conversational Cloud, while a user is changing the “Sound ON/OFF” settings. While in the past, after changing the sound to “OFF” (Mute), and then logging off and logging on to the system, this setting was not saved and the sound was “ON” again. After this enhancement, the user can log off and log on and the setting is still saved, allowing the user to keep using his system the way he chose.
+
+## Paste text into Predefined content search leading to infinite scroll
+### New functionality (LE UI 12.1)
+
+A bug has been discovered within the old Agent Workspace, which prevented users from searching Predefined content by pasting text to the search box (as pasting text to the search box led to infinite scroll). This behavior is now fixed and users can search by pasting content to the search box.
 
 
