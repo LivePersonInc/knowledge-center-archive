@@ -116,11 +116,52 @@ Previously,  the dashboard included only Messaging  group metrics for visitors t
 | TOTAL CONTROL GROUP CONVERSIONS | Total conversions achieved by visitors in the Control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites. |
 | TOTAL CONTROL GROUP REVENUE | Total revenue achieved by control group visitors, Visitors who were not exposed to any engagement in their site journey either they were in a control group or prospects who aren't exposed to invites.|
 
+## Adding Consumer OS and Consumer Device.
+### Enhancement (Analytics Builder 4.7)
 
+<div class="tablecontainer">
+<table class="releasenotes">
+<thead>
+<tr class="categoryrow">
+<th>Web Messaging</th>
+<th>Mobile App Messaging</th>
+<th>Twilio</th>
+<th>Facebook Messenger</th>
+<th>ABC</th>
+<th>Line</th>
+<th>Google RCS</th>
+<th>Google My Business</th>
+<th>WhatsApp Business</th>
+<th>CM</th>
+<th>WeChat</th>
+<th>Chat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
 
+Available to all customers? Y (Analytics Builder enabled) 
 
+The ‘Business Dashboard for Messaging’ was enhanced to include the Consumer OS and Consumer Browser descriptions so brands can distinguish between traffic per Consumer OS( IOS, Android) for example.
 
-
+![](img/AB_RNJuly22_2.png)
+![](img/AB_RNJuly22_3.png)
 
 
 
