@@ -195,4 +195,5 @@ All agents assigned to a conversation will be able to submit the agent survey if
 
 ## Reporting
 
-Agent survey reporting in the Analytics Builder is coming soon. In the meantime, you can reach out to your LivePerson account team and ask the Analytics team to create custom reports on your account for the agent survey for messaging.
+Agent survey reporting in the Analytics Builder can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
+
