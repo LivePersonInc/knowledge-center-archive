@@ -28,7 +28,7 @@ LivePerson works hard to ensure that our customers around the world can safely a
 
 1. **Standard 1: PCI-DSS**
 
-   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s Secure Form Widget and Billing system. To view the certificate, click [here](https://securityhub.liveperson.com/support/solutions/articles/5000027697-pci-dss-certificate-).
+   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s Secure Form Widget and Billing system. To view the certificate, click [here](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/security/PCI-DSS-v3_2_1-AOC-SP_LivePerson_2020_Signed.pdf).
 2. **Standard 2: GDPR**
 
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
