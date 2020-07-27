@@ -41,8 +41,6 @@ The platform’s components consist of:
  
  ![](img/lp-conversational-cloud-2.png)
  
- Let’s take a deeper dive into each component of the ecosystem that enables brands to become conversational:
-
 ### Discover & understand what consumers want with Intent Manager
 
 ![](img/lp-conversational-cloud-3.png)
