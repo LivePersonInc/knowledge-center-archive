@@ -27,11 +27,11 @@ We have added this capability following direct feedback from customers who asked
 
 Enter the Service Status Dashboard and click **Subscribe to Updates**
 
-![](img/sp-push-notifications-1.png)
+![](img/sp-push-notifications-1.jpg)
 
 Select your preferred method for push notifications: Email and/or SMS and click **Subscribe**
 
-![](img/sp-push-notifications-2.png)
+![](img/sp-push-notifications-2.jpg)
 
 A confirmation email/SMS will be sent to your inbox or mobile
 
