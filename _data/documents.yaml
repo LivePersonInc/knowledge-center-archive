@@ -419,6 +419,7 @@
   subcategories:
     - subcategoryname: How to contact Support
     - subcategoryname: Status page
+    - subcategoryname: Status Dashboard push notifications
     - subcategoryname: 'Login & password'
     - subcategoryname: Agent workspace
     - subcategoryname: Messaging
