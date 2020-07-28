@@ -34,6 +34,9 @@ If you are using messaging and chat; you will receive both types of conversation
 ### What will happen after Sept 14th, 2020?
 Upon login, all your users will automatically see the enhanced agent workspace for messaging and will be able to use all its tools and functionalities. All conversations and configurations made on your old workspace will be transferred automatically to the enhanced workspace with no interruptions.  
 
+### That date is not good for me?
+If you have a problem with that date and would like an extention, please contact your account manager.
+
 ### What recent improvements have been made to the enhanced workspace?
 The look and feel comes in two colors: dark and light, and each user can select their preference
 New features were introduced, including:
