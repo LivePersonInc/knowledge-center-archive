@@ -168,7 +168,7 @@
             - level3name: Blended accounts
             - level3name: Conversational Commands
             - level3name: Quick launch menu
-            - level3name: Migrating to the enhanced Agent Workspace
+            - level3name: Migrating to enhanced Agent Workspace
         - pagename: Agent Workspace for messaging
           level3:
             - level3name: Working with asynchronous messaging
