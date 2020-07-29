@@ -61,7 +61,16 @@ To configure, please contact your LivePerson account team.
 * Resolve the null fields showing null on UI issue
 * Return 200 and 0 when conversation closed or not exist
 * Encrypt messages with conversation owner ID
-These has now been fixed with no configuration required 
+These has now been fixed with no configuration required.
+
+## Survey Data - Expose 'answerName' and 'isValidAnswer' elements in MIA and EHA API response 
+### Type: New functionality (Engagement History Interactions API 1.0.0.18)
+Exposed new elements in EIA response: 
+answerId - An array of the numerical values of the answers.
+
+## Bug fix for Engagement History Interactions API 1.0.0.18
+Fixed CSV to provide date of birth when age was missing.
+
 
 
 
