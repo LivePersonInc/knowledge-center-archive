@@ -1,5 +1,5 @@
 ---
-pagename: Migrating to the enahnced agent workspace
+pagename: Migrating to the enahnced Agent Workspace
 categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
@@ -12,13 +12,13 @@ date: 2020-07-29
 
 ---
 ## Migrating plan
-In 2019, LivePerson launched the enhanced agent workspace for messaging. On September 14th 2020, we will be retiring the old workspace. After that date, the link to revert back to the old workspace will no longer be available.   
+In 2019, LivePerson launched the enhanced Agent Workspace for messaging. On September 14th 2020, we will be retiring the old workspace. After that date, the link to revert back to the old workspace will no longer be available.   
 
 Many customers have already moved to the new workspace and are benefiting from its enhancements and new functionalities. We’ve updated the new workspace to the WCAG accessibility standards and this workspace simplifies agent operations and dramatically increases efficiency.
 
-## FAQs about migrating customers to the enhanced agent workspace
+## FAQs about migrating customers to the enhanced Agent Workspace
 
-### Q: Does the enhanced workspace have all the same features as the old workspace?
+### Q: Does the enhanced Agent Workspace have all the same features as the old workspace?
 A: Yes. The enhanced agent workspace will include all features that are supported in the old workspace along with new functionalities.
 
 ### Q: What are the benefits of the enhanced workspace?
@@ -29,10 +29,10 @@ A: If you are using only chat, you will not be impacted.
 
 ### Q: What if I am using messaging and chat in the same operation?
 A: This update applies only to messaging customers. 
-If you are using messaging and chat; you will receive both types of conversations in two separate workspaces: 1) Agent workspace for chat, for all chat conversations; and 2) the enhanced agent workspace for messaging, for all messaging conversations. You will easily be able to navigate between the two workspaces and the icons on the side bar will display notifications for incoming messages per workspace. Check out the new experience.
+If you are using messaging and chat; you will receive both types of conversations in two separate workspaces: 1) Agent workspace for chat, for all chat conversations; and 2) the enhanced Agent Workspace for messaging, for all messaging conversations. You will easily be able to navigate between the two workspaces and the icons on the side bar will display notifications for incoming messages per workspace. Check out the new experience.
 
 ### Q: What will happen after Sept 14th, 2020?
-A: Upon login, all your users will automatically see the enhanced agent workspace for messaging and will be able to use all its tools and functionalities. All conversations and configurations made on your old workspace will be transferred automatically to the enhanced workspace with no interruptions.  
+A: Upon login, all your users will automatically see the enhanced Agent Workspace for messaging and will be able to use all its tools and functionalities. All conversations and configurations made on your old workspace will be transferred automatically to the enhanced workspace with no interruptions.  
 
 ### Q: That date is not good for me?
 A: If you have a problem with that date and would like an extention, please contact your account manager.
