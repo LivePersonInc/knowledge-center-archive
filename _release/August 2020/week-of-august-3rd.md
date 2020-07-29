@@ -54,7 +54,7 @@ Bot developers should begin the development work now to update existing implemen
 ![](img/foreverOption.png)
 
 ## Rate Limiting 
-### New feature (UMS 3.28)
+### Type: New feature (UMS 3.28)
 Available to all customers: yes (if feature flag is enabled)
 
 Implement a rate limiter for the agent subtypes i.e. HUMAN, BOT and SYSTEM.
