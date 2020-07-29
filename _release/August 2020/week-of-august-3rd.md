@@ -19,6 +19,29 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## [Enhanced Agent Workspace] All conversations filter enhancement 
+### Enhancement (NAW 1.16)
+
+A couple of enhancements were made for the All Conversations filter of the enhanced Agent Workspace, providing users with an improved filtering experience for the following KPIs:
+* Duration
+* MCS
+* Response time
+
+## [Enhanced Agent Workspace] Conversational command results not displayed for conversations joined via 'All Conversations’ 
+### Bug fix (NAW 1.16)
+
+A bug has been discovered in the All Conversations list of the enhanced Agent Workspace, causing conversational command results to not be displayed for conversations joined via the 'All Conversations’ tab. This bug has been fixed and the function output is now shown for all relevant conversations.
+
+## [Enhanced Agent Workspace]  Conversational command disappears when using the 'Enter' key to execute it
+### Bug fix (NAW 1.16)
+
+A bug has been discovered in the enhanced Agent Workspace, causing the conversational commands to disappear when using the 'Enter' key to execute them. This bug has been fixed and the ‘Enter’ key now works as expected for this use case.
+
+## [Enhanced Agent Workspace] All conversations - Spaces between characters not accepted when searching for a skill filter
+### Bug fix (NAW 1.16)
+
+A bug has been discovered in the All Conversations list filter of the enhanced Agent Workspace, preventing users from searching for skills containing multiple words. This bug has been fixed and space is now an acceptable character in the skill filter search field.
+
 ## Rate Limiting 
 ### New feature (UMS 3.28)
 Available to all customers: yes (if feature flag is enabled)
@@ -40,5 +63,5 @@ To configure, please contact your LivePerson account team.
 * Encrypt messages with conversation owner ID
 These has now been fixed with no configuration required 
 
- 
+
 
