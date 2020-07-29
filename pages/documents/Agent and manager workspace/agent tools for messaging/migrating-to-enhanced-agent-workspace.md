@@ -1,5 +1,5 @@
 ---
-pagename: Migrating to the enhanced Agent Workspace
+pagename: Migrating to the Enhanced Agent Workspace
 categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for messaging
 indicator: messaging
