@@ -155,10 +155,8 @@ You can also temporarily sort on any dimension in a list visualization by clicki
 ### Searching within a Widget
 Clicking on the magnifying glass in the top left of a widget displaying a list visualisation, opens a search bar. Here you can search within a particular field or ‘Any Field’.
 
-Please note that Widgets default to showing the first 200 results. Searching within a widget will only look at these first 200 results. For more detail, refer to the Creating Widgets guide.
-<div style="text-align: left">
+Please note that Widgets default to showing the first 200 results. Searching within a widget will only look at these first 200 results. For more detail, refer to the [Creating Widgets guide.](https://knowledge.liveperson.com/data-reporting-insights-creating-new-widgets.html)
+
 ![](img/insights_23.png)
-
-
 
 
