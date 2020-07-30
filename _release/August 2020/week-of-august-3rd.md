@@ -43,12 +43,13 @@ A bug has been discovered in the enhanced Agent Workspace, causing the conversat
 A bug has been discovered in the All Conversations list filter of the enhanced Agent Workspace, preventing users from searching for skills containing multiple words. This bug has been fixed and space is now an acceptable character in the skill filter search field.
 
 ## Storing permanent variables
-### Type: Enhancement (Conversation Builder 2020_5.0)
-In an upcoming release of the Conversation Builder, LivePerson will be removing the "Forever" option for the duration of a variable or a slot.
+### Type: Enhancement (Conversation Builder)
+In an upcoming release in October of the Conversation Builder, LivePerson will be removing the "Forever" option for the duration of a variable or a slot.
 No change to the Request, Dialog, or Session options will be made.
  
 In addition, in the setBotVariable scripting function, we will likewise deprecate support for a value of “true” for the persistForever argument:
 setBotVariable(name, value, persistForSession, persistForever).
+
 Bot developers should begin the development work now to update existing implementations to use the Context Session Store for storing data long-term. The Context Session Store allows for setting data in Global, User, and Conversation scopes.
 
 ![](img/foreverOption.png)
