@@ -29,12 +29,14 @@ Close conversations
 Return conversation to the queue
 Agent managers can review conversations of their team, and filter by status or specific agent.
 Managers (Admins) can join conversations to actively participate.
+Live Video Calls 
+Predefined Content 
+Photo sharing.
 
 ## Future Capabilities
 In the future the following functionality will added:
-- Live video calls
 - Tablet version
-- Photos, videos & file sharing
+- Videos & file sharing
 - Structured content
 - Secure forms
 - Multi send back to queue
