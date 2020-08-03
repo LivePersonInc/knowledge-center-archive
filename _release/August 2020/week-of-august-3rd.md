@@ -54,20 +54,6 @@ Bot developers should begin the development work now to update existing implemen
 
 ![](img/foreverOption.png)
 
-## Rate Limiting 
-### Type: New feature (UMS 3.28)
-Available to all customers: yes (if feature flag is enabled)
-
-Implement a rate limiter for the agent subtypes i.e. HUMAN, BOT and SYSTEM.
-To configure, please contact your LivePerson account team.
-
-## Throttle APIs based on specific fields
-### Type: New Feature (UMS 3.28)
-Available to all customers: yes (if feature flag is enabled)
-
-Throttle APIs based on fields provided, specifically PublishEvent when type ChatStateEvent is event Composing.
-To configure, please contact your LivePerson account team.
-
 ## Bug fixes for UMS 3.28
 * Fixed the global MaskingContext overriding issue and added logs for UMS data that not be masked when it should be.
 * Resolve the null fields showing null on UI issue
