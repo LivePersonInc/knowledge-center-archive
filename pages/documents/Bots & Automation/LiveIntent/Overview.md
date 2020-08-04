@@ -9,8 +9,9 @@ level3: ''
 permalink: ai-bots-automation-liveperson-intent-analyzer-overview.html
 isTutorial: false
 isNew: false
-redirect_from: ai-bots-automation-liveintent-overview.html
-ai-bots-automation-intent-analyzer-overview.html
+redirect_from: 
+  - ai-bots-automation-liveintent-overview.html
+  - ai-bots-automation-intent-analyzer-overview.html
 ---
 
 ## Introduction
