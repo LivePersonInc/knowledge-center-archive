@@ -1,24 +1,25 @@
 ---
 pagename: Overview
 categoryName: Bots & automation
-subCategoryName: Intent Analyzer
+subCategoryName:LivePerson Intent Analyzer
 indicator: messaging
-subtitle: The Intent Analyzer provides real-time intent identification to help businesses optimize
+subtitle: The LivePerson Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-intent-analyzer-overview.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-overview.html
 isTutorial: false
 isNew: false
 redirect_from: ai-bots-automation-liveintent-overview.html
+ai-bots-automation-intent-analyzer-overview.html
 ---
 
 ## Introduction
 
 ### Discover & understand what consumers want with Intent Manager
 
-The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the Intent Analyzer. 
+The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated. The Intent Manager is made up of the Intent Builder and the LivePerson Intent Analyzer. 
 
-The Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
+The LivePerson Intent Analyzer automatically analyzes customer messages sent to human agents as well as automated bots, instantly identifying and recording customer intent through every turn in the conversation. It integrates seamlessly with the Intent Builder to provide a powerful unified system for intent modeling and management.
 
 The Intent Builder makes it possible for brands to create their own intents and entities organized by domain. 
 
@@ -34,9 +35,9 @@ Intent Manager starter packs are available to accelerate the development of Inte
 
 An Airline doesn’t have a real-time way to understand customer contacts by intent.
 
-#### How Intent Analyzer Helps
+#### How LivePerson's Intent Analyzer Helps
 
-The analyst uses Intent Analyzer to discover, define, and enable the following high impact intents
+The analyst uses LivePerson's Intent Analyzer to discover, define, and enable the following high impact intents
 
 1. Customer doesn’t understand policy changes
 2. Customer can't find their discount code
@@ -52,9 +53,9 @@ The analyst enables detailed real-time insight into the problem by defining inte
 #### Challenge
 There is influx in account cancellations related to the policy changes
 
-#### How Intent Analyzer Helps
+#### How LivePerson's Intent Analyzer Helps
 
-The Agent Manager uses the Intent Analyzer dashboard to explore conversations with the intent “Cancel my account.”
+The Agent Manager uses the LivePerson Intent Analyzer dashboard to explore conversations with the intent “Cancel my account.”
 
 He discovers that some agents are successfully able to redirect the conversation and prevent cancelation by offering a concession. He uses this insight to develop a new policy
 
@@ -68,9 +69,9 @@ The Agent Manager is able to quickly roll out a new training which results in a 
 
 The Bot Builder wants to use automation to help with influx of messages related to a policy change.
 
-#### How Intent Analyzer Helps
+#### How LivePerson's Intent Analyzer Helps
 
-The Bot Builder reviews the Intent Analyzer dashboard and notices that the “can’t find discount code” intent is, both, a high volume intent and is easily automatable.
+The Bot Builder reviews the LivePerson Intent Analyzer dashboard and notices that the “can’t find discount code” intent is, both, a high volume intent and is easily automatable.
 
 She creates a bot in Conversation Builder for handling these requests and creates an intent-based routing rule in the Conversation Orchestrator that automatically directs customers to the bot.
 
@@ -80,12 +81,12 @@ The company is able to greatly reduce the volume of agent conversations related 
 
 ## Getting Started
 
-To enable Intent Analyzer on your account, please contact your LivePerson account representative.
+To enable the LivePerson Intent Analyzer on your account, please contact your LivePerson account representative.
 
 ### Permissions
-Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
+LivePerson's Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, LivePerson's Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
 
-Access to Intent Analyzer dashboard is currently granted to the following roles:
+Access to LivePerson's Intent Analyzer dashboard is currently granted to the following roles:
 * CB_VIEW_ANALYTICS
 * BOT_BUILDER_ADMIN
 * BOT_BUILDER_BOTS
@@ -95,13 +96,13 @@ Access to Intent Analyzer dashboard is currently granted to the following roles:
 
 ### Starter Pack Quick Start
 
-If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.
+If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LivePerson's Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.
 
 To get started with starter packs, please contact your account representative.
 
 ### Manual Setup
 
-If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable Intent Analyzer](https://developers.liveperson.com/intent-builder-overview.html#intent-analyzer), and add training phrases.
+If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable LivePerson's Intent Analyzer](https://developers.liveperson.com/intent-builder-overview.html#intent-analyzer), and add training phrases.
 
 If you have **intents in an external system**, you can [import](https://developers.liveperson.com/intent-builder-overview.html#adding-a-domain) those into Intent Builder to get started quickly.
 
@@ -110,9 +111,9 @@ If you have **intents in Intent Builder** already, [see here](https://developers
 {: .notice}
 Please see [this guide](https://knowledge.liveperson.com/ai-bots-automation-intent-analyzer-intent-analyzer-tips.html) for tips on using Intent Builder with Intent Analyzer.
 
-## Using Intent Analyzer
+## Using LivePerson's Intent Analyzer
 
-When you have intents and they are enabled for Intent Analyzer, you can view your data in the [Intent Analyzer dashboard](ai-bots-automation-intent-analyzer-dashboard.html).
+When you have intents and they are enabled for LivePerson's Intent Analyzer, you can view your data in the [LivePerson's Intent Analyzer dashboard](ai-bots-automation-intent-analyzer-dashboard.html).
 <!--
-See [Intent Analyzer Best Practices](intent-analyzer-best-practices.html) for some common usage flows and best practices.
+See [LivePerson Intent Analyzer Best Practices](intent-analyzer-best-practices.html) for some common usage flows and best practices.
 -->
