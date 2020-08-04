@@ -86,12 +86,12 @@
        - pagename: Conversation Builder overview
        - pagename: The new Dialog Editor
        - pagename: Getting started tutorials
-   - subcategoryname: Intent Analyzer
+   - subcategoryname: LivePerson Intent Analyzer
      pages:
        - pagename: The power of an intent-driven contact center
        - pagename: Overview
        - pagename: Dashboard
-       - pagename: Intent Analyzer tips
+       - pagename: LivePerson Intent Analyzer tips
    - subcategoryname: Post conversation survey bot
 
 - categoryname: Contact center management
