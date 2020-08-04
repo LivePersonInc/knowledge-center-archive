@@ -6,10 +6,12 @@ indicator: messaging
 subtitle: Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-intent-analyzer-dashboard.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-dashboard.html
 isTutorial: false
 isNew: false
-redirect_from: ai-bots-automation-liveintent-dashboard.html
+redirect_from: 
+  - ai-bots-automation-liveintent-dashboard.html
+  - ai-bots-automation-intent-analyzer-dashboard.html
 ---
 
 This document will explain all of the various aspects of the Intent Analyzer dashboard.
