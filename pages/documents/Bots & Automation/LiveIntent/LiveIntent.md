@@ -1,15 +1,16 @@
 ---
 pagename: The power of an intent-driven contact center
 categoryName: Bots & automation
-subCategoryName: Intent Analyzer
+subCategoryName: LivePerson Intent Analyzer
 indicator: messaging
 subtitle: LivePerson's Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-intent-analyzer-the-power-of-an-intent-driven-contact-center.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-the-power-of-an-intent-driven-contact-center.html
 isTutorial: false
 isNew: false
 redirect_from: ai-bots-automation-liveintent-the-power-of-an-intent-driven-contact-center.html
+ai-bots-automation-intent-analyzer-the-power-of-an-intent-driven-contact-center.html 
 ---
 ### Technology around NLU and data science is opening the doors for brands to manage their contact centers more efficiently by better understanding consumer needs through intent.
 
