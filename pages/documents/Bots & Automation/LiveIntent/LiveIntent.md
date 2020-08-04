@@ -9,8 +9,9 @@ level3: ''
 permalink: ai-bots-automation-liveperson-intent-analyzer-the-power-of-an-intent-driven-contact-center.html
 isTutorial: false
 isNew: false
-redirect_from: ai-bots-automation-liveintent-the-power-of-an-intent-driven-contact-center.html
-ai-bots-automation-intent-analyzer-the-power-of-an-intent-driven-contact-center.html 
+redirect_from: 
+  - ai-bots-automation-liveintent-the-power-of-an-intent-driven-contact-center.html
+  - ai-bots-automation-intent-analyzer-the-power-of-an-intent-driven-contact-center.html 
 ---
 ### Technology around NLU and data science is opening the doors for brands to manage their contact centers more efficiently by better understanding consumer needs through intent.
 
