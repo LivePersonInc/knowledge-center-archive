@@ -1,7 +1,7 @@
 ---
 pagename: Overview
 categoryName: Bots & automation
-subCategoryName:LivePerson Intent Analyzer
+subCategoryName: LivePerson Intent Analyzer
 indicator: messaging
 subtitle: The LivePerson Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
