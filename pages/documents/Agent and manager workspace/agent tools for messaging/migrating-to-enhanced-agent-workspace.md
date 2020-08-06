@@ -47,5 +47,5 @@ New features were introduced, including:
 * Hyperlinks 
 * Transfer to skill: Number of online agents indication
 
-
+For more information on the Enhanced Agent Workspace, click [here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-tutorial.html)
 
