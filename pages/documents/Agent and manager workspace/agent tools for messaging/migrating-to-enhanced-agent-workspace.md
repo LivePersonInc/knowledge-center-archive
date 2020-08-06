@@ -22,7 +22,7 @@ Many customers have already moved to the new workspace and are benefiting from i
 A: Yes. The enhanced agent workspace will include all features that are supported in the old workspace along with new functionalities.
 
 ### Q: What are the benefits of the enhanced workspace?
-A: The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It’s designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Specifically, the workspace has a new look and feel, a dynamic conversation list with built-in automation sorts conversations by the response time. It shows a full history of the conversation within the same window, enhanced customization of options and more. Click here for more details.
+A: The enhanced workspace simplifies agent operations to dramatically increase agent focus and efficiency. It’s designed to handle multiple channels of conversation at scale asynchronously, taking into account all of the features that were developed especially for messaging. Specifically, the workspace has a new look and feel, a dynamic conversation list with built-in automation sorts conversations by the response time. It shows a full history of the conversation within the same window, enhanced customization of options and more. Click [here](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-user-guide.html)for more details.
 
 ### Q: Are chat users affected by this change?
 A: If you are using only chat, you will not be impacted.
