@@ -11,6 +11,6 @@ redirect_from:
   
 ---
 
-Check out the video below for a comprehensive tutorial of the enhanced agent workspace. You can also [view the video directly at this link](https://vimeo.com/357193087/7d6d59ca85).
+Check out the video below for a comprehensive tutorial of the enhanced agent workspace. 
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/357193087" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
