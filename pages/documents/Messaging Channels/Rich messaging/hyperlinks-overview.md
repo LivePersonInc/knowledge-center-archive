@@ -34,10 +34,27 @@ After sending the message to the consumer, the link will appear underlined as we
 The consumer experience will be identical, and the hyperlink will be displayed as a clickable text within the conversation window:
 
 ![](img/hyperlinks-overview-4.png)
+![](img/HyperlinksSDK.png)
 
 ## Enablement
 
 To enable hyperlink support for your account, please contact your LivePerson representative.
+
+## Mobile SDK Hyperlink Configuring 
+The Mobile SDK supports changing the link text color as part of the SDK configuration file. These are the attributes elements for Android:
+
+### Android
+Lp_markdown_hyperlink_copy_text_only
+Define the copy content of a link message. Copying the message will copy both message and hyperlink. Only the message will be copied if set to true.
+Type: bool
+Default value: false
+
+Agent_bubble_message_markdown_hyperlink_text_color
+Set the link message text color.
+Type: color
+Default value: @android:color/white
+
+Note: iOS in to be determined shortly
 
 ## Use cases
 
@@ -61,10 +78,6 @@ For example:
 In runtime, the link will be displayed to the consumer as a clickable link.
 
 ## Supported sources
+For now, the only supported source is Web and Mobile App Messaging, including mobile Web Messaging
+For consumers using connectors channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
 
-**For now, the only supported source is Web Messaging, including mobile Web Messaging.** For consumers using App Messaging or other channels, hyperlinks are not supported. The hyperlink button will not be displayed for conversations originating from unsupported sources.
-
-## Limitations
-
-When working with hyperlinks, you should consider the following limitation:
-* Since consumers may start conversations from Web Messaging and continue their messaging interaction from the mobile app, brands should be aware of the fact that links will not be displayed for mobile consumers.
