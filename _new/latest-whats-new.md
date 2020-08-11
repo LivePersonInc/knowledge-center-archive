@@ -52,7 +52,7 @@ View and analyze consumer intents for Web Chat customers
 ## Custom KPI configuration
 Brands can customize the dashboard to utilize the metrics that are most important to them for Intent Analysis. The dashboard can be configured  to utilize alternative post survey conversation data & not just limited to CSAT.
 
-![](img/whats-new-aug2.png)
+![](img/whats-new-aug2020.png)
 
 ## Intent Powered Queue prioritization
 Brands can configure their customer queuing logic to prioritize specified high value intents. For more information on Queue Prioritization, click [here](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html)
@@ -68,7 +68,7 @@ There are two kinds of prebuilt domains:
 2) A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
 Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you normally do. 
 
-![](img/Preview Cross-Vertical.png)
+![](img/Preview-Cross-Vertical.png)
 
 ## Performance Portal
 At the core of the portal is a dashboard and enablement framework that clearly articulates how primary and secondary KPIs influence success  and align to the LivePerson 4E Framework (TM) pillars of Efficiency, Effectiveness, Effort, and Emotion
@@ -101,6 +101,6 @@ Brands will be able to customize the text in the Window Title Bar and provide ap
 Brands can use SDEs (Structured Data Entities) to send custom attributes when initiating a conversation from both unauthenticated and authenticated flows. Provides UI tools in the Workspace that allows brands to use SDEs to build complex routing policies without the need to understand coding.
 
 ### Dynamic Routing Workspace
-Improve UX for large number of attributes and policies
+LivePerson are improving the UX for large number of attributes and policies.
 
 
