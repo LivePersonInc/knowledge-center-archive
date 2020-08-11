@@ -29,14 +29,14 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process.
 
 4. **Configure the request URL** by navigating to the following page: https://www.twilio.com/user/account/phone-numbers/incoming
+   
+5. Navigate to https://www.twilio.com/console/phone-numbers/incoming. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" section. Based on your region, copy the appropriate link below and paste it into the field beneath "A message comes in." Hit Save.
 
-5. **Add your location to the number** by clicking on the **blue hyperlinked phone number** you have just signed up for, and add the relevant link for your location with your account number populated, as below, under the "Messaging" section in Twilio as your webhook. So, for example, if you're based in the US, you would populate the "North America accounts" link with your account number and copy paste it into Twilio.
+  * EMEA (Europe/Middle East/Asia) accounts: **https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
 
-   * EMEA (Europe/Middle East/Asia) accounts: **https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
+  * North America accounts: **https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
 
-   * North America accounts: **https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
-
-   * APAC (Asia Pacific) accounts: **https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
+  * APAC (Asia Pacific) accounts: **https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio**
 
 ## Step 2: Connect Twilio to the Conversational Cloud
 
