@@ -28,6 +28,16 @@ Intent Manager starter packs are available to accelerate the development of Inte
 
 <img class="fancyimage" style="width:750px" src="img/intentanalyzer_dashboard-section-1.png">
 
+## Terminology
+
+| Term | Definition  |  
+|------|-------------|
+| Intent | A customer’s desire to change  something to do with your brand from state A to state B|
+| Domain | Domain is a list of intents and entities, that can be matched to user training phrases (utterances) with an intent-recognition model|
+| Pre-built domain | A pre-built domain is a starting point for you to get going with Intents. The intent-recognition model is filled with predefined intents, that have been trained and activated for your convenience. The model has been developed using aggregated and anonymized data from several brands. While pre-built domains are functional, you will need to customize it for your specific needs to get the best performance.|
+| NLU | NLU stands for Natural Language processing. In this context NLU refers to the customized machine learning algorithms that are trained to understand the intent expressed in your conversations|
+| Training phrases (utterances) | Training phrases are example utterances for each intent in your custom taxonomy. Pre-built domains use generic training phrases to get you started. To improve your model you can replace these generic phrases with examples of real consumer messages from your conversation history.|
+
 ## Example Use Cases
 
 ### Business Analyst
@@ -97,13 +107,15 @@ Access to LivePerson's Intent Analyzer dashboard is currently granted to the fol
 
 ### Starter Pack Quick Start
 
-If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LivePerson's Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.
+If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LivePerson's Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand. 
 
 To get started with starter packs, please contact your account representative.
 
-### Manual Setup
+### Once you're set up - optimize your intent taxonomy using the Intent Discovery and Optimization tools
 
-If you do **not** already have intents created in Intent Builder, but you'd like to set these up **manually**, [follow the steps in Intent Builder](https://developers.liveperson.com/intent-builder-overview.html) to create a domain, intents, [enable LivePerson's Intent Analyzer](https://developers.liveperson.com/intent-builder-overview.html#intent-analyzer), and add training phrases.
+The Intent Discovery and Optimization tools enable you to quickly uncover patterns in your existing data, better discover high impact intents, and automatically develop training phrases to train your machine learning models. It makes it easy for you to annotate incorrectly classified messages so that models can be improved and new intent classes can be created. With these enhancements you can now quickly tune your own Intent taxonomy and deploy new Machine Learning models within minutes, without assistance from LivePerson.
+
+![](img/Intent-discovery.png)
 
 If you have **intents in an external system**, you can [import](https://developers.liveperson.com/intent-builder-overview.html#adding-a-domain) those into Intent Builder to get started quickly.
 
