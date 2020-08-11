@@ -354,6 +354,7 @@
   image: whats-new
   subcategories:
     - subcategoryname: Latest what's new
+    - subcategoryname: July what's new
     - subcategoryname: June what's new
     - subcategoryname: April what's new
 
