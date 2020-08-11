@@ -20,7 +20,7 @@ The Conversational Cloud makes it possible to understand consumer intents in rea
 
 ![](img/whats-new-aug1.gif)
 
-Click the banner above to hear from our CEO Rob LoCassio on the Conversational Cloud.
+Click [here](https://info.liveperson.com/introducing-conversational-cloud?utm_medium=banner&utm_source=in-product&utm_campaign=cc-launch) to hear from our CEO Rob LoCassio on the Conversational Cloud.
 
 ## Agent App Android
 There are a number of features being released this month as part of the Agent App:
