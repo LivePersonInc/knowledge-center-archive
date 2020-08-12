@@ -92,7 +92,11 @@
        - pagename: Overview
        - pagename: Dashboard
        - pagename: LivePerson Intent Analyzer tips
-   - subcategoryname: Post conversation survey bot
+   - subcategoryname: Post-conversation surveys
+     pages:
+       - pagename: Post-Conversation Survey bot
+       - pagename: Migrating from Bot Studio to Conversation Builder
+       - pagename: LEGACY Post-Conversation Survey bot
 
 - categoryname: Contact center management
   image: contact-center

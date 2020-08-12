@@ -1,18 +1,18 @@
 ---
-pagename: Post conversation survey bot
+pagename: LEGACY Post-Conversation Survey bot
 categoryName: Getting started
-subCategoryName: ''
+subCategoryName: Post-conversation surveys
 indicator: messaging
-subtitle: Collect feedback from consumers at the end of a conversation without utilizing
-  the time of a human agent
-level3: ''
-permalink: ai-bots-automation-post-conversation-survey-bot.html
-isTutorial: false
+subtitle: Collect feedback from consumers at the end of a conversation without utilizing the time of a human agent
+level3: Getting started
+permalink: ai-bots-automation-post-conversation-surveys-legacy-post-conversation-survey-bot.html
+isTutorial: true
 isNew: false
-date: 2019-02-18 13:54:54 +0000
+date: 2019-08-12 13:54:54 +0000
 redirect_from:
   - using-forms.html
   - bots-automation-post-conversation-survey.html
+  - ai-bots-automation-post-conversation-survey-bot.html
 ---
 
 {: .important}
