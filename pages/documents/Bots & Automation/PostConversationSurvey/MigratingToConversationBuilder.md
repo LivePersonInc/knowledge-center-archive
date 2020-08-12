@@ -27,6 +27,10 @@ Be aware that bots in Bot Studio and Conversation Builder cannot run side by sid
 {: .important}
 While you're completing steps 1 - 3, you can continue to use Bot Studio. Once you complete step 4, you can no longer use Bot Studio.
 
+## Migration tasks performed in Bot Studio
+
+At runtime, the name of the survey bot agent that is shown to the consumer in the messaging window is drawn from Bot Studio. In Bot Studio, remove this name so that the default name of "Survey Bot" is used instead.
+
 ## Migration tasks performed in Bots Status
 
 You can use the Bots Status application to monitor your post-conversation survey bots and to perform several migration-related tasks:
