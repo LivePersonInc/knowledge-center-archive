@@ -44,7 +44,7 @@ View and analyze consumer intents for Web Chat customers.
 - Pagination issue with Messages with Intent table 
 
 ## Hyperlink Mobile SDK support
-## Type: New functionality (Mobile SDK)
+### Type: New functionality (Mobile SDK)
 
 Users using the enhanced Agent Workspace have the ability to share hyperlinks with consumers during a messaging conversation. Now, they can share it with consumer's that are messaging over the Mobile SDK.
 
@@ -56,29 +56,29 @@ Please note the “Link Preview” will be disabled if Hyperlink in messaging is
 ![](img/MobileSDK-RN-Aug17-1.png)
 
 ## Secure Element Encryption
-## Type: New functionality (Mobile SDK)
+### Type: New functionality (Mobile SDK)
 The SDK now performs all encryption through the system Secure Encryption Element (hardware-backed Android Keystore) on devices running Android 6.0 and higher.
 
 **How to enable**
 To take advantage of the new encryption process on existing installations, each Host App instance should call logout() and then log back in after upgrading to this version of the SDK or later.
 
 ## Optimized the logout process 
-## Type: Bug fix (Mobile SDK)
+### Type: Bug fix (Mobile SDK)
 Logout time has been decreased with this optimization. 
 
 ## Customizable Enter key actions of input keyboard
-## Type: Bug fix (Mobile SDK)
+### Type: Bug fix (Mobile SDK)
 “Enter” key can’t move the cursor to a new line for some input methods (on Samsung keyboard or SwifKey Keyboard -Huawei). To fix it, we provided a new configuration “enable_ime_options_action_send” to set the behavior of the keyboard action key. Brands can choose to set the keyboard “enter” to add a new line or to send a message. 
 
 **How to enable**
 Use the new configuration on SDK “enable_ime_options_action_send”
 
 ## KeyStore exception when initializing the SDK
-## Type: Bug fix (Mobile SDK)
+### Type: Bug fix (Mobile SDK)
 Fixed a bug which would report Keystore Exceptions due to use of an old API on devices running Android P.
 
 ## "sc_buttonElement_text_color" not working, always take "sc_textElement_text_color" (only on SDK 5.3.0)
-## Type: Bug fix (Mobile SDK)
+### Type: Bug fix (Mobile SDK)
 On SDK version 5.1.0, the sc_textElement_text_color" is used for both text element and button element in structured content. The bug was fixed so that the button element will be taken from "sc_buttonElement_text_color".
 
 
