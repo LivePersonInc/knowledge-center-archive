@@ -19,6 +19,30 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
+## Advanced filters in Intent Manager
+### Type: New functionality (Intent Manager v1.4)
+Add multiple filters with advanced AND/OR search criteria. There is also filter options for "includes, excludes, exists and not exists" features.
+
+## New navigation in Intent Manager
+### Type: Enhancement (Intent Manager v1.4)
+Improved menu layout and alignment with Conversational Cloud products
+
+## Semantic search in Intent Manager
+### Type: Enhancement (Intent Manager v1.4)
+Quickly find similar messages through the discovery feature using machine learning
+
+## Chat Support for Intent Manager
+### Type: Enhancement (Intent Manager v1.4)
+View and analyze consumer intents for Web Chat customers.
+
+## Bug fixes
+### Type: Bug fix (Intent Manager v1.4)
+- Improve Google Analytics
+- Max itents counter in tooltip displaying incorrect value
+- Undefined intents showing invalid classification
+- Prevent downloads from chrome browser being blocked
+- Pagination issue with Messages with Intent table 
+
 ## Hyperlink Mobile SDK support
 ## Type: New functionality (Mobile SDK)
 
