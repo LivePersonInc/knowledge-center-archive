@@ -17,12 +17,12 @@ date: '2019-02-11T12:56:04.000+00:00'
 
 ## The benefits of bots in LivePerson
 
-Brand using chat and messaging services can scale significantly with automation. Enterprises can use bots to enhance digital care and sales processes to deliver high-quality customer interactions. Check out our in depth article on: [How bots work in LivePerson](ai-bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
+Brands using chat and messaging services can scale significantly with automation. Enterprise brands can use bots to enhance digital care and sales processes to deliver high-quality customer interactions. Check out our in depth article on: [How bots work in LivePerson](ai-bots-automation-how-bots-work-with-liveperson.html). Here’s a summary of main concepts
 
 * **Humans and bots work together in LivePerson**  
   In LivePerson, bots work alongside human agents. This allows conversations to be seamlessly passed back and forth between human and bot agents, and gives human agents the ability to manage and take over conversations as needed. Similarly agents can assign bots to handle routine tasks, automating common customer service conversations.
 * **Track and monitor bots like any other agent**  
-  Bot conversations appear in the agent workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
+  Bot conversations appear in the Agent Workspace allowing agents and agent managers to monitor bot performance in real time. A bot’s performance is measured in a centralized report like any other agent, against the same KPIs. A detailed and flexible LivePerson reports allow managers to drill down further and optimize bot performance.
 * **Set consumer expectations for a better bot experience**
   In the conversation window, the consumer sees either an agent or a bot as the agent icon in order to manage consumer expectations. This agent icon is updated to a bot icon and automatically switched to the agent icon
 
@@ -39,7 +39,7 @@ Work with your brand’s design experts or the LivePerson Conversation Design ex
 | Bot type | Definition | Goal | How to use with Conversation Builder* |
 | --- | --- | --- | --- |
 | Standard | Collects information with the intention of handing off to an agent. Examples: form fill, FAQs, light data collection, etc. | Automate simple tasks to save agent time | Create your own dialogue from scratch. |
-| Routing | Collects information and routes to a skill in LE. This could include upfront pre-chat survey questions or a welcome message before routing. | Facilitate / automate tasks | The bot serves routing cards (structured content) with buttons. Each button can be assigned with a different action for example ‘transfer conversation to skill X’ or direct consumers to self-serve assets. |
+| Routing | Collects information and routes to a skill in the platform. This could include upfront pre-chat survey questions or a welcome message before routing. | Facilitate / automate tasks | The bot serves routing cards (structured content) with buttons. Each button can be assigned with a different action for example ‘transfer conversation to skill X’ or direct consumers to self-serve assets. |
 | Post Conversation Survey | Collects information post-conversation | Measure customer satisfaction | Currently in the Bot Studio (soon to be integrated with the Conversation Builder). Customize the survey including: predefined questions (CSAT, NPS and FCR), custom/free text questions, and logic between the questions. |
 | FAQ | Answers customer questions free-form | Resolve/contain the conversation | Use the conversation builder - using the Knowledge base bot template. |
 | Transactional | An end-to-end, customer service bot (i.e. order status, bill payment, password reset). Likely include an integration. | Resolve / complete customer journey without need of agent | Add relevant integrations to enable back-end transactions. |
@@ -57,7 +57,7 @@ There are three steps in implementing a bot with LivePerson. You will need to ch
 ### A. Leverage LivePerson’s Conversation Builder with native bots
 
 {: .notice}
-To access the Conversation Builder, click the Automation tab at the top of your LiveEngage screen. From there, click on the Conversation Builder icon in the left hand side-bar and then clicking on the Conversation Builder icon on the screen which opens.
+To access the Conversation Builder, click the Bots and Automation tab on the left side of the Conversational Cloud. From there, click on the Conversation Builder icon in the left hand side-bar and then clicking on the Conversation Builder icon on the screen which opens.
 
 **Method:** The Conversation Builder offers a high-value solution for brands to address a wide variety of automation workflows and use cases in multiple industries. These bots can carry out a variety of automatic tasks and communicate with consumers to help take the load off agents. See the [Conversation Builder](ai-bots-automation-conversation-builder-conversation-builder-overview.html) article to learn how to get started, set up a user, and get up and running with pre-built bot templates.
 
@@ -97,4 +97,4 @@ This dashboard will provide the ability to track these metrics over time and the
 
 ![](/img/bot dashboard1.png)
 
-For more information please visit the [developers community](https://developers.liveperson.com/bot-connectors-getting-started.html)
+For more information please visit the [Developer Center](https://developers.liveperson.com/bot-connectors-getting-started.html)

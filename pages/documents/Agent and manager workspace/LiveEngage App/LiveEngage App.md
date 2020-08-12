@@ -1,18 +1,18 @@
 ---
-pagename: iOS user guide
-categoryName: Agent & manager workspace
+pagename: Agent app user guide
+categoryName: Agent & Manager Workspace
 subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-app-ios-user-guide.html
+permalink: agent-manager-workspace-agent-app-agent-app-user-guide.html
 isTutorial: false
 isNew: false
-redirect_from: agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
-redirect_from: agent-manager-workspace-agent-app-agent-app-user-guide.html
-
+redirect_from:
+  - agent-manager-workspace-liveengage-mobile-app-liveengage-mobile-app-user-guide.html
+  - agent-manager-workspace-liveengage-agent-app-liveengage-agent-app-user-guide.html
 ---
-The LivePerson Agent app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers. 
+The LivePerson agent app is an iOS application for iPads & iPhones that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers.
 
 In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
@@ -25,16 +25,16 @@ Please note that all functionality discussed in this article applies to both the
 The current iOS app supports version IOS12 and up.
 
 ## Supported Capabilities
-The app supports both iPhone and iPad and is optimized for their screen sizes. 
-Agents can use the app to complete basic conversation with consumers including: 
+The app supports both iPhone and iPad and is optimized for their screen sizes.
+Agents can use the app to complete basic conversation with consumers including:
 - Accepting new conversations when they are online
 - Manage the list of conversations
-- Transfer to another skill or to a specific agent 
-- Close conversations 
+- Transfer to another skill or to a specific agent
+- Close conversations
 - Return conversation to the queue
-- Use predefined content and share images whilst in a coversation 
-- Use of secure forms 
-- Agent managers can review conversations of their team, and filter by status or specific agent. 
+- Use predefined content and share images whilst in a conversation
+- Use of secure forms
+- Agent managers can review conversations of their team, and filter by status or specific agent.
 - Managers can join conversations to actively participate.
 
 ## Non Supported Capabilities
@@ -42,10 +42,10 @@ Agents can use the app to complete basic conversation with consumers including:
 Please note that the following features are currently not available in the App and are only available in the web version:
 - Custom Widgets
 - Consumer info widget
-- Engagement history widget
+- Conversation History widget
 
-## Provisioning 
-This app is available in the App store, just search “Liveengage” to find it. Brands can download it today and any agent can use their regular credentials to login.  
+## Provisioning
+This app is available in the App store, just search "Conversational Cloud" to find it. Brands can download it today and any agent can use their regular credentials to login.  
 
 ## How to login
 
@@ -57,7 +57,7 @@ This app is available in the App store, just search “Liveengage” to find it.
 
 {: .notice}
 
-Changing / retrieving lost password will be carried out by an admin on LiveEngage web.
+Changing / retrieving lost password will be carried out by an admin on Conversational Cloud web.
 
 ### “Remember me” toggle
 
@@ -92,20 +92,20 @@ The draw menu consists of:
 
 ### Agent picture
 
-Set on LiveEngage Web → Users tab → specific user.
+Set on Conversational Cloud Web → Users tab → specific user.
 
 This is used for login identification.
 
 ### Agent name
 
-The agent nickname is the text entered in the name field on LiveEngage Web → Users tab → specific user.
+The agent nickname is the text entered in the name field on Conversational Cloud  Web → Users tab → specific user.
 
 This is used for login identification.
 
 ### Agent state: online
 
 While the agent is in the Online state, new conversations can ring. There is no consumer-facing indication that the agent is in the Online state.  
-The agent default status is set according to LiveEngage settings
+The agent default status is set according to Conversational Cloud settings
 
 ### Agent state: away
 
@@ -126,7 +126,7 @@ The log out process will explained in a separate slide
 Long tap on the app version allow user to send logs
 
 {: .important}  
-Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from LiveEngage’s database.
+Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the Conversational Cloud's database.
 
 ![](/img/drawer menu ipad (1).png)
 
@@ -212,7 +212,7 @@ Tapping the ‘Send back to queue’ action removes the agent assignment from th
 
 ### End conversation
 
-In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from LiveEngage Web. On LiveEngage Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from Conversational Cloud Web. On Conversational Cloud Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
 
 ### Inactive conversations
 
@@ -224,9 +224,9 @@ Inactive conversations can be closed automatically using the Auto-close feature.
 
 ### Predefined content panel
 
-The predefined content panel slides out from the top bar by tapping the predefined content icon. The items are divided into categories, with the title of each response listed under the relevant category as set on LiveEngage web.
+The predefined content panel slides out from the top bar by tapping the predefined content icon. The items are divided into categories, with the title of each response listed under the relevant category as set on Conversational Cloud web.
 
-The categories and items are according to the relevant conversation skill (as set in LiveEngage web)
+The categories and items are according to the relevant conversation skill (as set in Conversational Cloud web)
 
 ### Sending Predefined content
 
@@ -237,14 +237,14 @@ There is no option to collapse / expand categories and predefined content is onl
 
 ## Structured content
 
-Users of the app can view structured content sent by bots or other agents using the LiveEngage web however, the card buttons are disabled.
+Users of the app can view structured content sent by bots or other agents using the Conversational Cloud web however, the card buttons are disabled.
 
 {: .notice}  
 The app currently support only basic cards. Carousel will be added in the next version of the app.
 
 ## Quick replies
 
-Users of the app can view quick replies sent by bots or other agents using the LiveEngage web. QR message bubbles display with a QR button to left of the message.
+Users of the app can view quick replies sent by bots or other agents using the Conversational Cloud web. QR message bubbles display with a QR button to left of the message.
 
 ### Expand/Collapse Quick replies
 
@@ -258,9 +258,9 @@ Below the quick reply there is a label indicating whether the quick replies butt
 
 When sending a URL to a consumer, it is published to the consumer with a preview of the website. The preview appears below the original message and link.
 
-## The connections list
+## The conversation list
 
-### Connection list order
+### Conversation list order
 
 The agent usually sees multiple conversations on their conversation list. Every conversation is color-coded for easy identification by the agent. The color-code can be seen on the outer ring of each consumer avatar.
 
@@ -334,12 +334,12 @@ _Customer ID:_ showing the name (or phone number) of the consumer who sent the n
 
 ### App icon badge
 
-As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the LiveEngage icon. **The app badge does not sum the number of new conversation waiting**.
+As for new conversation, when there is a new conversation while the app is in the background, a waiting conversation badge appears on the Conversational Cloud icon. **The app badge does not sum the number of new conversation waiting**.
 
 {: .notice}  
 Enabling the push notifications is done by your LivePerson account team.
 
-When at least one new message is received when the app is in the background, an unread message badge appears on the LiveEngage icon. The number sums the unread message in the app. When entering the app the counter is reset.
+When at least one new message is received when the app is in the background, an unread message badge appears on the Conversational Cloud icon. The number sums the unread message in the app. When entering the app the counter is reset.
 
 **Known limitation:** the app icon badge does not sum the new messages and new conversation notification. It display the badge which is relevant to last notification type (conversation/message).
 
@@ -382,7 +382,7 @@ User can choose between three options:
 {: .important}  
 All of the functionality for agent users apply to agent manager as well.
 
-In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
+In order for a manager to be able to receive new conversation, he needs to be defined in the Conversational Cloud web with an agent role.
 
 Below describes the additional set of features available only for users with manager role:
 
@@ -435,7 +435,7 @@ In the ‘All’ tab there is ability to filter the list according to status, ag
 
 When tapping the filter icon, a filter panel slides in from the right side.
 
-From this panel, use can select multiple ways to filter the “all” connections list
+From this panel, use can select multiple ways to filter the All Conversations list
 
 Tapping each of the filters: status, mobile experts, skills; drill down to the relevant filter selection.
 
@@ -480,7 +480,7 @@ The list of skills available are according to the skill assigned to the agents t
 
 From any filter selection screen, users may return to the main filter screen and continue filtering by additional criteria.
 
-A preview of the selected filters in each criteria are displayed in th right side of the list
+A preview of the selected filters in each criteria are displayed in the right side of the list
 
 ### Clear all
 
@@ -554,7 +554,7 @@ Please note that the following features are currently not available in the App a
 
 * Custom Widgets
 * Consumer info widget
-* Engagement history widget
+* Conversation History widget
 * Summary widget
 * Transfer to agent
 * Conversation Status filters

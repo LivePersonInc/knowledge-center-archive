@@ -15,7 +15,7 @@ IP masking disables [IP address]( security-regulations-security-ip-address-block
 
 To ensure that brands are able to comply with these regulations if required to do so, LivePerson offers brands the ability to mask IP addresses, so they are neither stored nor displayed to the agent. They can however still be used for targeting purposes.
 
-When IP masking is switched on, the visitor’s IP address is not displayed in the agent workspace and is not kept in the database events.
+When IP masking is switched on, the visitor’s IP address is not displayed in the Agent Workspace and is not kept in the database events.
 
 ![](/img/Security_IP_masking1.png)
 

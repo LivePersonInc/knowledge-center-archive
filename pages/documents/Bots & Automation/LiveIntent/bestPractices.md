@@ -1,13 +1,14 @@
 ---
 pagename: Best Practices
-redirect_from:
-  - liveintent-best-practices.html
 Keywords:
 sitesection: Documents
 categoryname: "Conversational AI"
 documentname: IntentAnalyzer
-permalink: intent-analyzer-best-practices.html
+permalink: liveperson-intent-analyzer-best-practices.html
 indicator: messaging
+redirect_from:
+  - liveintent-best-practices.html
+  - intent-analyzer-best-practices.html
 ---
 
 ### Use Skill Filters to ensure the right customer issues are routed correctly

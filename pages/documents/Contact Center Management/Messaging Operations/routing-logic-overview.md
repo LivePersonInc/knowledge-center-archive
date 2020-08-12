@@ -60,7 +60,7 @@ It is possible to configure a default skill that will be used in case no skill m
 
 ## Routing to a fallback skill
 
-By default, when no agents are connected to LiveEngage to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
+By default, when no agents are connected to Agent Workspace to accept an incoming conversation, or agents are in an "away" state, the conversation will wait in the queue for the assigned skilled until an agent becomes available.
 
 To help avoid this situation, it is possible to configure a fallback skill. This enables incoming conversations to be deferred to a second ‘fallback’ skill when there are no online agents with the conversation’s assigned skill.
 
@@ -82,7 +82,7 @@ Even after a conversation has been assigned to an agent, the agent still has the
 
 In this case, the conversation will be rerouted to an available agent with the selected skill or wait in the select skill’s queue if there are no available agents.
 
-![](/img/transfer-skill-routing-3.png)
+![](/img/Routing-logic-1overview-1.png)
 
 ## Agent selection
 
@@ -108,19 +108,19 @@ An agent is considered available to receive an incoming conversation, when the f
 * The agent is logged in and ‘online’.  
   No new incoming conversations will be routed to an agent whose state is set to ‘away’ or ‘back soon’.
 
-![](/img/Agent menu open.png)
+![](/img/Routing-logic-1overview-2.png)
 
 * The agent has enough capacity to receive an incoming conversation.  
-  LiveEngage supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
-  1. **Smart capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Smart Capacity’ article](contact-center-management-messaging-operations-smart-capacity-overview.html) for further information.
+  The Agent Workspace supports two modes of agent capacity management, which determine an agent’s capacity to receive incoming conversations:
+  1. **Dynamic Capacity** - this algorithm identifies agent availability by calculating the frequency rate of messages or ‘message intensity’ within each conversation. This method ensures that the agent’s capacity is adjusted based on their actual availability, rather than concurrency. This method requires configuration by LivePerson Consulting Services - refer to the [‘Dynamic Capacity’ article](contact-center-management-messaging-operations-smart-capacity-overview.html) for further information.
   2. **Maximum concurrent conversations** - this mode configures the threshold of the number of conversations an agent can handle at one time; an agent reaching the threshold will not be routed new conversations. The number of conversation slots can be configured within the Users section at the account level for all agents, as well as at an individual agent level.
 
 _Default maximum number of conversations per agent - Account level:_  
-![](/img/RL 4.png)
+![](/img/Routing-logic-1overview-3.png)
 
 _Maximum number of conversations per agent - Agent level:_
 
-![](/img/max-number-routing-logic.png)
+![](/img/Routing-logic-1overview-4.png)
 
 ### Agent selection preferences
 
@@ -128,7 +128,7 @@ The agent selection process is based on parameters outside those around the agen
 
 * Agent prioritization - when routing an incoming conversation, the system will prioritize all agents eligible to receive the conversation and will route the conversation to the most suitable prioritized agent. Prioritization is based on three key parameters:
   * The agent’s current utilization state:
-    * [Smart capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Smart Capacity’ article for further information.
+    * [Dynamic Capacity](contact-center-management-messaging-operations-smart-capacity-overview.html) - the utilization score is calculated by dividing the combined intensity of the agent’s current assigned conversations by the configured maximum slots per agent - refer to the ‘Dynamic Capacity’ article for further information.
     * Default - The ‘least busy’ agent is preferred - the agent that is currently handling fewer active conversations.
   * The time passed since they last received a new conversation
   * The messaging history between the agent and the consumer
@@ -140,7 +140,7 @@ The routing engine prioritizes conversations that are waiting to be assigned to 
 
 The default response time for incoming conversations is configurable by an administrator at the account level. Different response times can be configured for different types of conversations; for example, first time consumers and consumers who have indicated that their enquiry is urgent can be set to have a shorter response time.
 
-![](/img/response-time.png)
+![](/img/Routing-logic-1overview-5.png)
 
 **Routing flow**
 

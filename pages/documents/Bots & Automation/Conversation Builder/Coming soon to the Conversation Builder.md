@@ -1,14 +1,15 @@
 ---
-pagename: Coming soon to the Conversation Builder
+pagename: The new Dialog Editor
 categoryName: Getting started
 subCategoryName: Conversation Builder
 indicator: messaging
-subtitle: All updates coming soon to the Conversation Builder including the enhanced dialog editor
+subtitle: The Conversation Builder has been enhanced with the enhanced dialog editor
 level3: Getting started
-permalink: ai-bots-automation-conversation-builder-coming-soon-to-the-conversation-builder.html
+permalink: ai-bots-automation-conversation-builder-the-new-dialog-editor.html
 isTutorial: true
 isNew: false
 date: 2020-04-06
+redirect_from: ai-bots-automation-conversation-builder-coming-soon-to-the-conversation-builder.html
 
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/404681489?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

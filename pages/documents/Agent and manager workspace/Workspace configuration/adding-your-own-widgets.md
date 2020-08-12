@@ -1,6 +1,6 @@
 ---
 pagename: Adding your own widgets
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: Provide access to external systems by adding customized widgets to the agent
@@ -13,17 +13,16 @@ date: 2019-01-23 08:32:26 +0000
 redirect_from:
   - webagent-integration.html
   - iframe-integration.html
-
 ---
-Agents often need to access external systems while they are working in the agent workspace, and to do so, they need to open additional tabs or browsers. Now, you can integrate external systems right into the agent workspace, allotting them their own widget next to the standard widgets. Widgets can be set to appear alongside chats associated with a particular skill or skills - agents handling chats assigned only to that skill will be able to view the widget.
+Agents often need to access external systems while they are working in the Agent Workspace, and to do so, they need to open additional tabs or browsers. Now, you can integrate external systems right into the Agent Workspace, allotting them their own widget next to the standard widgets. Widgets can be set to appear alongside chats associated with a particular skill or skills - agents handling chats assigned only to that skill will be able to view the widget.
 
 To ensure your agents are focused on the tools most relevant for them, admins have the option of assigning widgets to one or more skill. The widget will subsequently only appear to agents handling chats associated with that skill. Widgets not assigned to specific skills will still appear to all agents handling any chat.
 
-To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) in the Developers Community.
+To add and integrate new widgets, refer to our [adding widgets documentation](https://developers.liveperson.com/guides-agent-workspace-widget.html) in the Developer Center.
 
 ## Organize your widgets to boost agent efficiency
 
-Placing widgets in the right order within the agent workspace means you can ensure the most useful widgets are the most easily accessible for agents.
+Placing widgets in the right order within the Agent Workspace means you can ensure the most useful widgets are the most easily accessible for agents.
 
 Since every contact center is different, widget reordering allows brands to fully customize the order of the widgets on an account level, for both chat and messaging operations. The account admin can organize widgets through night vision, including hiding core and custom widgets.
 
@@ -72,8 +71,6 @@ The integration of the Engagement Window Widget SDK and Agent Workspace Widget S
 * Faster responses through collaborative conversations between agent and consumer
 * Flexible integrations with a variety of engagement tools
 
-![](/img/adding-your-own-widgets-5.jpg)
-
 Agents can share a variety of interactive content in the Agent window, such as images, links and forms. This content will immediately be displayed in the consumer’s engagement window, enhancing their conversation experience and their connection with the Agent.
 
 In the same way, consumers can upload content - such as a product’s web page, a screenshot of an error message - that will instantly be displayed to the Agent, enabling them to provide a more effective and efficient service. Moreover, the flexibility of this framework opens the door for integrations with other engagement tools, such as live video connection.
@@ -92,6 +89,6 @@ In the same way, consumers can upload content - such as a product’s web page, 
 
 ## Widget notifications
 
-It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the agent workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place.
+It’s important to keep agents informed of activity taking place within widgets while they are handling other tasks. For both chat and messaging operations, the Agent Widget SDK has been enhanced to allow notifications to appear in the Agent Workspace whenever an event occurs in a widget, to ensure agents are alerted as soon as any activity takes place.
 
-For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html) in the Developers Community**.**
+For further information, refer to the [SDK documentation](https://developers.liveperson.com/agent-workspace-sdk-overview.html) in the **Developer Center**.**

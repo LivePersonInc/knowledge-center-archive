@@ -1,6 +1,6 @@
 ---
 pagename: Multiple away states
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Workspace configuration
 indicator: both
 subtitle: Gain deeper insight into how agents spend their time
@@ -87,7 +87,7 @@ For brands that have configured additional away state reasons, the _State Durati
 
 ## **Reporting**
 
-LiveEngage [Report Builder](data-reporting-report-builder-report-builder-overview.html) provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
+The Conversational Cloud [Analytics Builder](data-reporting-report-builder-report-builder-overview.html) provides visibility into the away reasons used by agents during their time logged into the system. Using the following dashboards, it’s possible to analyze the time spent in each away reason:
 
 ## **Agent Activity Predefined Dashboard**
 
@@ -103,7 +103,7 @@ Additional available agent activity metrics can be filtered by each away state r
 
 ## **Messaging Performance Predefined Dashboard**
 
-The pie chart titled “Away” has also been added to the [Messaging Performance Predefined Dashboard](data-reporting-messaging-messaging-dashboards-messaging-performance-dashboard.html) and displays the same data as the Agent Activity Dashboard.
+The pie chart titled “Away” has also been added to the [Messaging Performance Predefined Dashboard](data-reporting-messaging-messaging-dashboards-performance-dashboard-for-messaging.html) and displays the same data as the Agent Activity Dashboard.
 
 {: .important}
 **Note:** Currently, agent messaging activity metrics cannot be filtered by away states, however they can be viewed alongside the time spent in each away reason, per agent, at the hourly level.

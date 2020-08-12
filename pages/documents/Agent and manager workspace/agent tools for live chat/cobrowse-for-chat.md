@@ -1,6 +1,6 @@
 ---
 pagename: CoBrowse for live chat
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent tools for live chat
 indicator: chat
 subtitle: Give consumers an enhanced customer service experience using CoBrowse video
@@ -75,7 +75,7 @@ The CoBrowse service not only shares the webpage view with the agent, but it als
 
 **To configure CoBrowse through Night Vision:**
 
-1. In LiveEngage, navigate to the Visitors tab and click the Night Vision (configuration) icon.
+1. In the Conversational Cloud, navigate to the visitors tab and click the Night Vision (configuration) icon.
 
 ![](/img/cobrowse-for-live-chat-2.png)
 
@@ -120,7 +120,7 @@ The following CoBrowse elements can also be configured:
 {:start="4"}
 4. Once the visitor accepts, the CoBrowse session opens on the **agent side** and both cursors are displayed and labeled as shown in the image below.
 
-![](/img/cobrowse-for-live-chat-9.jpg)
+![](/img/cobrowse-for-live-chat-9.png)
 
 {:start="5"}
 5. By mousing over the top bar, agents are able to switch to full screen mode and view wider websites easily.
@@ -182,13 +182,13 @@ CoBrowse works on tagged pages only. This is to ensure a secure co-browsing sess
 
 ## Prerequisites & technical requirements
 
-### For LiveEngage
+### For the Conversational Cloud
 
-The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on LiveEngage 2.0.
+The following table lists the prerequisites and technical requirements necessary for deploying CoBrowse on Conversational Cloud 2.0.
 
 * The Embedded Engagement Window must be deployed in the popped in state
-* LE Tag must be deployed. For more information, see [LE Tag](getting-started-add-the-liveperson-tag-to-your-website.html)
-* The LE Tag must be placed on every webpage that is visited during the CoBrowse session
+* Web Tag must be deployed. For more information, see [Web Tag](getting-started-add-the-liveperson-tag-to-your-website.html)
+* The Web Tag must be placed on every webpage that is visited during the CoBrowse session
 * The agent must use an operating system and browser that is listed in the [LivePerson System Requirements](admin-settings-system-requirements.html)
 
 ### For brand website
@@ -233,12 +233,12 @@ The following table lists the prerequisites and technical requirements necessary
 * The minimum upstream bandwidth requirement is 750 kbit/s. The actual requirement depends on a number of factors, such as the size of the rendered website.
 
 {: .notice}
-**Note:** Non-public web sites (intranet, localhost) are not supported.
+**Note:** Non-public websites (intranet, localhost) are not supported.
 
 ## Performance best practices
 
 * The recommended upstream bandwidth requirements is 1500 kbit/s
 * Large rendered websites > 2 MB (DOM tree) can lead to a significant delay until the website is fully visible to the agent (waiting time 15 sec. or more to view the page)
-* If your website is continuously changing elements of the DOM tree, this can lead to delays when synchronizing the state between vistior and agent
+* If your website is continuously changing elements of the DOM tree, this can lead to delays when synchronizing the state between visitor and agent
 * Your website should make sparse use of background animations (animations without user interaction)
 * The real-time experience is affected by several applications competing for upstream bandwidth on the consumer’s system

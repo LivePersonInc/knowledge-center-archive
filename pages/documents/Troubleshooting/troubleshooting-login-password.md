@@ -42,7 +42,7 @@ If after submitting the **Forgot password** form, you received the **Request sub
    – If you **cannot validate** your account, please contact another local admin for help.
 5. If you are an admin user of a large account, you can do one of the following:  
    – Reach out to another **local admin** for help enabling your user.  
-   – Contact your LiveEngage **account team** for help.  
+   – Contact your LivePerson **account team** for help.  
    – Contact LivePerson Support and ask them to **open a case** for your account team, requesting that they contact you regarding your login problems. Your account manager will validate your request and help you enable your user.
 
 ## The reset password button in the email doesn’t work; it takes me back to the “forgot password” page.
@@ -59,9 +59,9 @@ Please contact your local system administrator and ask them to add .liveperson.n
 
 For more information on Office 365 ATP Safe Links, your admin can refer to [Office 365 ATP Safe Links](https://docs.microsoft.com/en-us/office365/securitycompliance/atp-safe-links) and set up a custom do-not-rewrite URLs list using Office 365 ATP Safe Links on the Microsoft web site.
 
-## Why can’t I log in to LiveEngage from Chrome?
+## Why can’t I log into the Conversational Cloud from Chrome?
 
-Your Chrome browser may have an unsupported extension installed (e.g. Ghostery) that is known to block cookies and other functionality. You must disable the extension and sign in to LiveEngage.
+Your Chrome browser may have an unsupported extension installed (e.g. Ghostery) that is known to block cookies and other functionality. You must disable the extension and sign in to the Conversational Cloud.
 
 {: .notice}  
 Unsupported extensions can cause issues on all browsers.

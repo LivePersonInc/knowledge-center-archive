@@ -1,15 +1,17 @@
 ---
-pagename: What's new in all connections
-categoryName: Agent & manager workspace
+pagename: What's new in All Conversations
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
-permalink: messaging-managers-whats-new-in-all-connections.html
+permalink: messaging-managers-whats-new-in-all-conversations.html
 isTutorial: false
 date: 2019-01-21 09:24:58 +0000
 isNew: false
 layout: newAgentWorkspace
+redirect_from:
+  - messaging-managers-whats-new-in-all-connections.html
 ---
 
 Coming soon.

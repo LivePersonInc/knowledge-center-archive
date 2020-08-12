@@ -1,9 +1,9 @@
 ---
 pagename: Training deck
-categoryName: Agent & manager workspace
+categoryName: Agent & Manager Workspace
 subCategoryName: New Agent Workspace
 indicator: messaging
-subtitle: Learn more about the enhanced agent workspace
+subtitle: Learn more about the enhanced Agent Workspace
 level3: ''
 permalink: agent-manager-workspace-agent-tools-for-messaging-enhanced-agent-workspace-for-messaging-training-deck.html
 redirect_from:

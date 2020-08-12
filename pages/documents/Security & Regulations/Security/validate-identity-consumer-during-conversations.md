@@ -28,11 +28,11 @@ To ensure extra security, only two characters are required from the visitor, so 
 
 ## How the ID&V solution works
 
-Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the [agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html).
+Described below is the step-by-step flow for agents and visitors. The ID&V solution is conducted via a designated button in the [Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html).
 
 ![](/img/Validate-identity-consumers-during-conversations1.png)
 
-The agent clicks the ID&V button in the agent workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
+The agent clicks the ID&V button in the Agent Workspace, and then completes the required indices and the string referred to, for example, PIN/Password.
 
 {: .notice}  
 The agent must complete all the required fields before the form can be sent to the visitor.

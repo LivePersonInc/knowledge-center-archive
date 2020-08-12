@@ -12,7 +12,7 @@ isNew: false
 date: 2019-01-29 11:36:31 +0000
 
 ---
-LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The LiveEngage secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
+LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As veterans in the field, we understand that security is paramount in correspondence between agents and consumers and requires a heightened level of protection. The Conversational Cloud secure form was specifically designed to provide the additional security layer that enables consumers to be able to provide their sensitive information (such as Cardholder Data /CHD, social security number, and other Personal Identifiable Information/PII) in a highly secure environment.
 
 Secure forms are supported both on desktop and mobile web.
 
@@ -22,7 +22,7 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 
 * **Extra secure interaction:** The secure form dedicates a "secure tunnel" within the standard chat for exchanging Personal Identifiable Information (PII), Cardholder Data (CHD), and other sensitive identity validation data like answers to verification questions and PINs. Agents continue to operate in the same Agent Workspace environment as data is sent from the visitor to the agent in a safe, PCI compliant interaction.
 * **No storage of sensitive data in chat transcripts:** Data processed by the secure form is not stored as part of the standard chat transcripts and cannot be retrieved through the application after the chat session has ended. The data is securely stored in its tokenized form in a dedicated database.
-* **Off the record questions (CVV):** The LiveEngage secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
+* **Off the record questions (CVV):** The the Conversational Cloud secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
 
 ## European security standards
 
@@ -30,7 +30,8 @@ LivePerson works hard to ensure that our customers around the world can safely a
 
 1. **Standard 1: PCI-DSS**
 
-   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s secure form Widget and Billing system. To view the certificate, click[ here.](https://securityhub.liveperson.com/support/solutions/articles/5000027697)
+   LivePerson complies with Payment Card Industry Data Security Standards (PCI DSS) 3.2 for it’s secure form Widget and Billing system. To view the certificate, click[ here.](https://ce-sr.s3-eu-west-1.amazonaws.com/CA/security/PCI-DSS-v3_2_1-AOC-SP_LivePerson_2020_Signed.pdf)
+
 2. **Standard 2: GDPR**
 
    LivePerson has worked to ensure compliance with the EU General Data Protection Regulation (GDPR). Please read more on the LivePerson [website](https://www.liveperson.com/security).
@@ -51,15 +52,15 @@ Some of the most common use cases for the secure form include:
 
 The LivePerson secure form is specifically designed to comply with the strict requirements of the Payment Card Industry Data Security Standards (PCI-DSS). The form was developed under the guidance of a Qualified Security Assessor (QSA) and a dedicated PCI-DSS environment hosts the secure form system components.
 
-Following the completion of an onsite assessment, the LiveEngage secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
+Following the completion of an onsite assessment, the Conversational Cloud secure form environment has been officially certified as compliant with the requirements of a Level 1 Service Provider PCI-DSS (version 3.1). Attestation of Compliance (AOC) can be provided upon request.
 
 ## How it works
 
-An agent can send a secure form from the[ agent workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
+An agent can send a secure form from the[ Agent Workspace](agent-manager-workspace-agent-tools-for-live-chat-agent-workspace-for-live-chat.html) at any time during a chat session by clicking the secure form tab in the [predefined content](/agent-manager-workspace-workspace-configuration-predefined-content-overview.html) widget and selecting a secure form.
 
 ![](/img/Secure-forms-chat1.png)
 
-_Figure 1 Secure form within the agent workspace_
+_Figure 1 Secure form within the Agent Workspace_
 
 The visitor then fills out and submits the secure form back to the agent. The receiving agent is the only one able to view the information sent by the visitor.
 
@@ -160,11 +161,11 @@ The following permissions related to secure forms need to be enabled for an acco
 | Agent | Use secure form within a conversation | For brands who have enabled the secure forms feature, this permission allows the Agent to use the form within a conversation | On |
 
 {: .notice}  
-The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the engagement history.
+The following permission for agent managers also relates to secure forms, but does not need to be enabled unless you wish Agent Managers to be able to view secure form responses in the conversation history.
 
 | Role | Permission | Permission definition | Default State (role) |
 | --- | --- | --- | --- |
-| Agent Manager | View secure form responses in Engagement History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Engagement History | Off |
+| Agent Manager | View secure form responses in Conversation History | For brands who have enabled the secure forms feature, this permission allows the Agent Manager to view all secure form responses in the Conversation History | Off |
 
 To verify that permissions are enabled:
 

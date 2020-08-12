@@ -30,10 +30,10 @@ When agents initiate **CoBrowse for Voice** session and visitors enter the requi
 
 ### Cause:
 
-* By default, the question type is rendered according to the OS preference and LiveEngage doesn’t contain an option to change the default view.
+* By default, the question type is rendered according to the OS preference and the Conversational Cloud doesn’t contain an option to change the default view.
 * The reason the view is different on emulators than on actual devices is that emulators simulate the OS only and not the device hardware (or potential impacts/faults of the hardware on the OS).
 
-### Solution: 
+### Solution:
 
 This is expected behavior.
 
@@ -54,7 +54,7 @@ The URLs of the two pages the visitor moved between belong to **different domain
 
 ### Solution:
 
-The brand should enable monitored domains/cross domains on their account ( (from the LiveEngage Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
+The brand should enable monitored domains/cross domains on their account ( (from the Web Tag page, click **Manage monitored domains** and add domains to the whitelist and blacklist.) For further instructions, see Whitelist Your Domains for LP Monitoring.
 
 ## Chat tab is displayed incorrectly on iPhones using Safari
 
@@ -91,11 +91,11 @@ Change Campaign time frame > Operation hours to All hours. Do not set Operation 
 
 Authenticated chat engagements send a request to your authentication server. The authentication server verifies the request, and the chat process begins to load.
 
-If your authentication server returns a message stating that the request is not accepted/authenticated, LiveEngage displays an offline survey to the visitor.
+If your authentication server returns a message stating that the request is not accepted/authenticated, the Conversational Cloud displays an offline survey to the visitor.
 
 ### Solution:
 
-You set up the authentication server on Campaigns page > Data Sources > Authentication Server > Edit.
+You set up the authentication server on Campaign Builder > Data Sources > Authentication Server > Edit.
 
 ## Why isn’t our campaign manager/admin user able to delete predefined content?
 
@@ -103,16 +103,16 @@ You set up the authentication server on Campaigns page > Data Sources > Authenti
 
 A campaign manager/admin user is unable to delete or manage predefined content categories. When the user tries to do so, they get the error “You do not have permission to perform the requested action.”
 
-The user has two different LiveEngage accounts. On one of the accounts the user doesn’t have the Configure Predefined Content permission.
+The user has two different LivePerson accounts. On one of the accounts the user doesn’t have the Configure Predefined Content permission.
 
 ### Solution:
 
-1. Log in to the LiveEngage account where the user needs more permissions.
+1. Log in to the LivePerson account where the user needs more permissions.
 2. Go to the Users tab and change the user’s profile to one that has the Configure Predefined Content option.
 
 ## Why aren’t visitor names displayed in the Web Visitors and Web History list?
 
-![](/img/chat-with-new-nav.jpg)
+![](/img/chat-with-new-nav.png)
 
 ### Cause:
 
@@ -129,7 +129,7 @@ Set up pre-chat surveys with name fields for engagements if you want to record/d
 
 When we build toaster engagements with the Design Your Own option in the Engagement studio the images appear correctly, with the X/Close button appearing within the Toaster itself.
 
-However, when we preview the toaster within LiveEngage or view it on our website the X does not appear within the image; instead it appears outside the image, on the right-hand side of the window.
+However, when we preview the toaster within the Conversational Cloud or view it on our website the X does not appear within the image; instead it appears outside the image, on the right-hand side of the window.
 
 ### Cause:
 
@@ -141,11 +141,11 @@ The is expected behavior.
 
 It is recommended to use the Overlay content in these cases.
 
-## Why aren’t chats transferring? 
+## Why aren’t chats transferring?
 
 When a chat is transferred, the chat returned back to the original skill/agent rather than remaining in the destination queue.
 
-### Cause: 
+### Cause:
 
 Transfer-to-agent returns chats to the origin after about 4 minutes, if no other agent has taken the chat. However, transfer-to-skill does not return to the origin.
 

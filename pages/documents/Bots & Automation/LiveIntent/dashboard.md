@@ -6,10 +6,12 @@ indicator: messaging
 subtitle: Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-intent-analyzer-dashboard.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-dashboard.html
 isTutorial: false
 isNew: false
-redirect_from: ai-bots-automation-liveintent-dashboard.html
+redirect_from: 
+  - ai-bots-automation-liveintent-dashboard.html
+  - ai-bots-automation-intent-analyzer-dashboard.html
 ---
 
 This document will explain all of the various aspects of the Intent Analyzer dashboard.
@@ -90,9 +92,35 @@ Tabular view of all data above, not limited to top or lowest 5 intents.
 
 ## Conversation Details
 
-The converation details view is where you go to dig in to explore the messages and conversations with intent
+The converation details view is where you go to dig in to explore the messages and conversations with intent.
 
-<img class="fancyimage" style="width:750px" src="img/intentanalyzer_conversation-overview.png">
+### Self Service Intent Discovery and Optimization
+The new Self Service Intent Discovery and Optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality.
+
+The information architecture has been updated to ease navigation between Intent Analyzer and Intent Builder. 
+
+Custom Starter Packs can be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial Intent taxonomy.
+
+### Consumer Experience
+Under Conversation Details in the Intent Analyzer dashboard, users can  go through undefined messages and classify the correct intent or create a new intent.
+
+![](img/Intent-manager-customer-experience1.png)
+
+Brands have the ability to choose to show how many messages they would like to go through (up to 500 messages) to reclassify or create new intents in groups.
+
+![](img/Intent-manager-customer-experience2.png)
+
+To train the model, brands need to update the Intent Builder with the orange button. Once users click the orange button in Intent Analyzer, they will still need to go into Intent Builder to train and activate the model. 
+
+![](img/Intent-manager-customer-experience3.png)
+
+When you create a new intent, a modal will guide you in the creation of the new intent. Currently, you MUST add 20 new utterances for each new intent before you can re-train the domain in Intent Builder.
+
+In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
+
+Conversation Builder: Administrator
+Conversation Builder: Bot Builder
+Conversation Builder: Content User
 
 ### Topline Metrics
 
@@ -104,7 +132,7 @@ All messages with intent that match your filters.
 
 Only shows up to 500 items.
 
-Clicking on the Conversation ID, filters the dashboard via the [search bar](#search) to just that conversation. For example, see [agent conversations](#agent-conversations-and-transcripts) will be filtered to just that one.
+Clicking on the Conversation ID, filters the dashboard via the [search bar](#search) to just that conversation. For example, see agent conversations will be filtered to just that one.
 
 ### Agent Conversations and Transcripts
 
@@ -118,5 +146,5 @@ The transcript data can be useful for determining improvements in training phras
 | Term | Definition |
 | --- | ---- |
 | High Impact Intents | todo |
-| MCS | Meaningful Connection Score |
+| MCS | Meaningful Conversation Score |
 -->

@@ -1,15 +1,17 @@
 ---
-pagename: Intent Analyzer tips
+pagename: LivePerson Intent Analyzer tips
 categoryName: Bots & automation
-subCategoryName: Intent Analyzer
+subCategoryName: LivePerson Intent Analyzer
 indicator: messaging
 subtitle: Tips and best practises for improving intents to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-intent-analyzer-intent-analyzer-tips.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-liveperson-intent-analyzer-tips.html
 isTutorial: false
 isNew: false
-redirect_from: ai-bots-automation-liveintent-liveintent-tips.html
+redirect_from: 
+  - ai-bots-automation-intent-analyzer-intent-analyzer-tips.html
+  - ai-bots-automation-liveintent-liveintent-tips.html
 ---
 
 Below are instructions for adding and improving intents and training utterances for [Intent Analyzer](https://knowledge.liveperson.com/ai-bots-automation-intent-analyzer-overview.html) via the Intent Builder interface. Intents and training utterances for Starter Packs and Custom Intent Modeling are produced via processes outside Intent Builder but are ultimately input into Intent Builder via the same interface.
@@ -54,7 +56,7 @@ There are two ways to classify messages:
 
 * Option 1: Read the messages directly from the [Conversation details dashboard](https://knowledge.liveperson.com/ai-bots-automation-intent-analyzer-dashboard.html#conversation-details) on Intent Analyzer. You may want to take notes to record your patterns.
 
-    <img  class="fancyimage" style="width:750px" src="img/intentanalyzer_tips_image_0.png">
+![](img/Intent-manager-customer-experience1.png)
 
 * Option 2: Export them as a spreadsheet and create a dropdown menu in the intent column to manually label the messages.
 

@@ -3,7 +3,7 @@ pagename: 'SMS best practices '
 categoryName: Messaging channels
 subCategoryName: SMS
 indicator: messaging
-subtitle: Best practices for implementing SMS with LiveEngage
+subtitle: Best practices for implementing SMS with the Conversational Cloud
 level3: ''
 permalink: messaging-channels-sms-sms-best-practices.html
 isTutorial: false
@@ -17,11 +17,11 @@ Brands in North America will need to purchase short-codes instead of regular lon
 
 ## Friendly names / vanity short codes
 
-Friendly names such as _'1(800) New Home_' and vanity short codes such as '_Realty_' are not ideal for SMS since most handsets do not display the 10-digit keypad when setting the recipient of a text message. Instead, the consumer sees a regular keyboard so it best to use and advertize regular format numbers.
+Friendly names such as _'1(800) New Home_' and vanity short codes such as '_Realty_' are not ideal for SMS since most handsets do not display the 10-digit keypad when setting the recipient of a text message. Instead, the consumer sees a regular keyboard so it best to use and advertise regular format numbers.
 
 ## Re-purposing existing numbers
 
-It is possible to take an existing 1(800) number or other business number and 'port' the SMS capabilities across to Twilio so that it can be connected to your LiveEngage account. However, we recommend that you first look at your telephony reports and logs for that number and determine the following:
+It is possible to take an existing 1(800) number or other business number and 'port' the SMS capabilities across to Twilio so that it can be connected to your LivePerson Conversational Cloud account. However, we recommend that you first look at your telephony reports and logs for that number and determine the following:
 
 1. Are text messages are already being sent to this number?
 2. What are the types of messages being sent?
@@ -30,7 +30,7 @@ You should especially do this if these messages are not being answered as many b
 
 ## Different numbers for skill routing
 
-LiveEngage offers the ability to route SMS messages sent to different phone numbers to their own individual skill. Numbers can map one to one (one number routes to one skill) or many to one (many numbers route to one skill). Number to skill routing can be used to deliver the right messages to the right agents but is also key when evaluating the impact and success of different entry-points as it is possible to know how a consumer was targeted by the number that they text.
+The Conversational Cloud offers the ability to route SMS messages sent to different phone numbers to their own individual skill. Numbers can map one to one (one number routes to one skill) or many to one (many numbers route to one skill). Number to skill routing can be used to deliver the right messages to the right agents but is also key when evaluating the impact and success of different entry-points as it is possible to know how a consumer was targeted by the number that they text.
 
 ## Conversation security and consumer authentication
 
@@ -42,7 +42,7 @@ To find out more about ID&V and how you can leverage it to enhance and extend yo
 
 ## Data masking
 
-While the LiveEngage custom ID&V solution provides a means for exchanging such data securely, it doesn't prevent consumers from unintentionally sharing such data in the body of their conversation. The LiveEngage integration with the Twilio framework provides a solution: there are Twilio functions which can be used to mask sensitive data from the conversation.
+While the Conversational Cloud custom ID&V solution provides a means for exchanging such data securely, it doesn't prevent consumers from unintentionally sharing such data in the body of their conversation. The Conversational Cloud integration with the Twilio framework provides a solution: there are Twilio functions which can be used to mask sensitive data from the conversation.
 
 ## System messages
 
@@ -52,4 +52,4 @@ Business requirements for many brands include the ability to send automated resp
 2. Off-hours notifications
 3. Expectation setting for SLA's (first time consumers), and more.
 
-Although system messages are not yet available as features within LiveEngage, all of the above can be achieved with Twilio functions. Click [here](messaging-channels-sms-enhancing-the-sms-experience-with-twilio.html) to learn more about enhancing SMS with Twilio.
+

@@ -1,22 +1,23 @@
 ---
 pagename: Add messaging to your mobile app
 categoryName: Messaging channels
-subCategoryName: Mobile app messaging
+subCategoryName: App Messaging
 indicator: messaging
 subtitle: 'With mobile engagements, consumers can easily start messaging conversations
   directly from your mobile app '
 level3: ''
-permalink: messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
+permalink: messaging-channels-app-messaging-add-messaging-to-your-mobile-app.html
 isTutorial: false
 date: 2019-01-20 13:01:29 +0000
 isNew: false
 redirect_from:
   - liveengage-mobile-sdk.html
+  - messaging-channels-mobile-app-messaging-add-messaging-to-your-mobile-app.html
 
 ---
-The following article describes the steps you need to take in order to add web messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
+The following article describes the steps you need to take in order to add Web Messaging buttons and banners to your mobile app. For additional information on setting up your messaging program as a whole, including agent experience and operations, see [Getting started with messaging](getting-started-getting-started-with-messaging.html). If you're looking to quickly get started with our Native App SDKs, check out the [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html) and the [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html).
 
-With campaigns for mobile app messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
+With campaigns for App Messaging, brands can easily create and manage digital engagements. These buttons or banners can then be placed on your brand’s mobile app, engaging your users and inviting them to message.
 
 ### Mobile app engagements require the following steps to configure:
 
@@ -25,13 +26,13 @@ _To be completed within your brand’s app by a mobile developer:_
 * Implement the new SDK
 * Implement the SDK’s Monitoring APIs
 
-_To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
+_To be completed within the Conversational Cloud by campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
 * Create new campaigns and engagements
 
 
-For an overview of campaigns in LiveEngage and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
+For an overview of campaigns in the Conversational Cloud and their terminology, [click here](contact-center-management-campaigns-campaigns-overview.html).
 
 ## 1. Planning and thought starters
 
@@ -53,16 +54,16 @@ _(completed by mobile developers)_
 
 ### Add messaging to your SDK
 
-Work with your developers to build the in-app messaging SDK into your app. For information on adding the Mobile App Messaging SDK, please refer to the documentation on the Developers Community:
+Work with your developers to build the App Messaging SDK into your app. For information on adding the App Messaging SDK, please refer to the documentation on the Developer Center:
 
-* [Mobile App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
-* [Mobile App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
+* [App Messaging SDK for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-overview.html)
+* [App Messaging SDK for Android ](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-overview.html)
 
 ### Engagement attributes
 
 Determine what information you’ll need to collect and set up your engagement attributes. If you’d like your engagement to target specific customers or pages - or even track your sales and transactions - you’ll need to set up engagement attributes. Engagement attributes help you to collect more in-depth information about your visitors. In order to collect this information from your engagements, you first need to set up your [engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) through the mobile SDK.
 
-By adding monitoring capabilities to your campaign, you can display tailored engagements to the right consumer at the right time. Learn more about the **monitoring API** and **reporting on engagement attributes** by following these links to the Developers Community:
+By adding monitoring capabilities to your campaign, you can display tailored engagements to the right consumer at the right time. Learn more about the **monitoring API** and **reporting on engagement attributes** by following these links to the Developer Center:
 
 * [Monitoring API for iOS](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-sdk-apis-monitoring-api.html)
 * [Monitoring API for Android](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-sdk-apis-monitoring-api.html)
@@ -71,7 +72,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 
 _(completed by contact center manager, project manager or program manager)_
 
-Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the campaigns area, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the campaign footnote, and follow these instructions:
+Before you can create engagements for your mobile app, you must first configure the mobile app data source in the Conversational Cloud. To do this, go to the Campaign Builder, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the Campaign Builder footnote, and follow these instructions:
 
 1. Under “Conversation sources” tab, choose “**Mobile App**” -> Connect.
 
@@ -82,16 +83,16 @@ Before you can create engagements for your mobile app, you must first configure 
 1. Edit the mobile app source details
    1. Enter the name of your app (the default is mobile app) and add a description if you wish.
    2. Add an application icon by entering the URL of the hosted image. The icon should be in .PNG, .JPG or .GIF format, the recommended size is 50x50 pixels (up to 50KB) and the image should be hosted on a https site.
-2. Click “**Create.**” The mobile app will now be installed on your LiveEngage account. On the same page, a new “App key” will be created, under the “Authentication details” section:
-3. To disable mobile app messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no mobile app messaging conversations will be directed to LiveEngage.
+2. Click “**Create.**” The mobile app will now be installed on your LivePerson Conversational Cloud account. On the same page, a new “App key” will be created, under the “Authentication details” section:
+3. To disable App Messaging conversations, from the Edit Mobile App source page, switch the source activation toggle to off. As a result, no App Messaging conversations will be directed to the Conversational Cloud .
 
 ![](/img/add-messaging-to-your-mobile-app-1.png)
 
 ## 4. Create a campaign
 
-In LiveEngage, engagements can be added to either new or existing campaigns.
+In the Conversational Cloud, engagements can be added to either new or existing campaigns via the Campaign Builder.
 
-**As a best practice we recommend creating new, separate campaigns for Mobile App engagements**, in order to avoid misleading reporting for existing campaigns. To do so, simply click “**Add campaign**” at the bottom of the campaigns page.
+**As a best practice we recommend creating new, separate campaigns for Mobile App engagements**, in order to avoid misleading reporting for existing campaigns. To do so, simply click “**Add campaign**” at the bottom of the Campaign Builder.
 
 When creating a new campaign, you first need to define the following:
 
@@ -103,9 +104,9 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 ### Create a new mobile app engagement
 
-Once the app is installed on your LiveEngage account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
+Once the app is installed on your LivePerson Conversational Cloud account and a new campaign has been set up, you can begin creating buttons or banners to engage consumers on your mobile app. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To create a new engagement, click** “**Add engagemen**t” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the campaign wizard. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
+**To create a new engagement, click** “**Add engagement**” under the desired campaign, then select “**Mobile App**” as the data source. This will open the settings page within the Campaign Builder. There are three stages for creating mobile engagements: **settings, entry point and behavior.**
 
 ![](/img/add-messaging-to-your-mobile-app-2.png)
 
@@ -120,7 +121,7 @@ On this page, you can define **authentication**, **routing** and **language** se
 
 #### Authentication
 
-Mobile app messaging engagements are currently for **authenticated conversations only.** You will see that [authentication](messaging-channels-web-messaging-authenticated-web-messaging.html) is toggled on by default.
+App Messaging engagements are currently for **authenticated conversations only.** You will see that [authentication](messaging-channels-web-messaging-authenticated-web-messaging.html) is toggled on by default.
 
 #### Routing
 
@@ -130,9 +131,9 @@ Under [routing](contact-center-management-messaging-operations-routing-logic-ove
 
 #### Language
 
-The engagement language selected in this step will only affect items in the agent workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
+The engagement language selected in this step will only affect items in the Agent Workspace - namely [Automatic Messages](contact-center-management-live-chat-operations-automatic-messages.html) and [Predefined Content](agent-manager-workspace-workspace-configuration-predefined-content-overview.html) - during an active conversation.
 
-The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developers Community, for the full string localization keys.
+The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developer Center, for the full string localization keys.
 
 Once your settings are complete, click **next**.
 
@@ -140,7 +141,7 @@ Once your settings are complete, click **next**.
 
 You will now reach the entry point library. An [entry point](contact-center-management-campaigns-entry-point.html) is the section within your app where the engagement will be displayed. You can choose the engagement entry point from the existing items, or click “**Add new**” to define a new entry point.
 
-**Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
+**Note:** By default only the relevant entry points for App Messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only App Messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
 
 When you are finished defining your entry point, click **next**.
 
@@ -163,7 +164,7 @@ Your new mobile app engagement is now complete. From the **Campaign Summary page
 Once you have added the mobile engagements to your app, remember to follow the getting started with messaging article for additional important steps such as:
 
 * Define your working hours to ensure consumers see the actual reply times
-* Customize automatic messages
+* Customize Automatic Messages
 * Create pre-defined content for your agents
 * Set up a routing bot
 * Set up the [Post Conversation Survey](ai-bots-automation-post-conversation-survey-bot.html)
@@ -178,7 +179,7 @@ Through the platform, you can also set different working hours for different ski
 
 There are various messages that are automatically generated by LivePerson - such as ‘an agent will be right with you,” “your conversation has now ended,” etc. By default, there are messages written for various anticipated scenarios, but you can adjust and customize the language and wording to suit your branding or individual skill.
 
-If you are communicating with your customers in multiple languages, you can also create different sets of automatic messages per languages. Learn how to customize your [automatic messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
+If you are communicating with your customers in multiple languages, you can also create different sets of Automatic Messages per languages. Learn how to customize your [Automatic Messages](contact-center-management-messaging-operations-automatic-messages-automatic-messages-configuration.html).
 
 ### Create predefined answers for your agents
 

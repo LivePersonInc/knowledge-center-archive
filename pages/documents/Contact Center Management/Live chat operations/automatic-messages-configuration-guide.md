@@ -20,13 +20,13 @@ Automatic messages are messages that are presented automatically in the Engageme
 
 ![](/img/automatic-messages-chat-1b.png)
 
-## Configuration: Customize automatic messages for chat
+## Configuration: Customize Automatic Messages for chat
 
 LivePerson has a default set of messages configured at the account level. Messages can be customized for all skills and/or specific skills by the account administrator, agent manager or campaign manager according to your business need.
 
 ### To customize an automatic message
 
-1. Log into LiveEngage, and then click on the **Campaigns** tab. The footnote is displayed at the bottom of the page.
+1. Log into the Conversational Cloud, and then click on the **Campaign Builder** tab. The footnote is displayed at the bottom of the page.
 2. In the footnote, click **Automatic Messages**. The Automatic Messages list is displayed. Click the Live chat tab:
 
 ![](/img/automatic-messages-library.png)
@@ -34,7 +34,7 @@ LivePerson has a default set of messages configured at the account level. Messag
 {:start="3"}
 3\.    Select a message to edit. The **Edit Automatic Message** page is displayed.
 
-![](/img/automatic-messages-livechat-edit.png)
+![](/img/automatic-messages-messaging-11b.png)
 
 {:start="4"}
 4\.    Enter the relevant text to the text field. Note that you can add dynamic text (see below).  
@@ -49,7 +49,7 @@ The automatic message library can also be reached from the chat settings in the 
 2. From the “Available languages” list, select the language(s) you would like to translate your messages into.
 3. Click **Save**.
 
-![](/img/automatic-messages-languages.png)
+![](/img/automatic-messages-messaging-8b.png)
 
 ### To customize messages for a specific skill
 
@@ -60,9 +60,9 @@ The automatic message library can also be reached from the chat settings in the 
 5. Click **Save**. Note: you need to save your changes for each skill separately.
 
 {: .notice}
-When transfering a chat to a different agent, the skill-specific message will only be shown if the target agent has the skill of the chat. Otherwise, the default message will be shown.
+When transferring a chat to a different agent, the skill-specific message will only be shown if the target agent has the skill of the chat. Otherwise, the default message will be shown.
 
-![](/img/automatic-messages-chat-7b.png)
+![](/img/automatic-messages-messaging-1b.png)
 
 ## Adding dynamic text to messages
 
@@ -76,8 +76,6 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 * _Agent name_: The nickname of the current operator {name}.
 * _Email address_: The visitor’s email address {email}.
 
-![](/img/automatic-messages-chat-8b.png)
-
 ### To add dynamic text to an automatic message
 
 1. Go to the Edit automatic message window. (See instructions in **To edit an automatic message**).
@@ -88,15 +86,15 @@ Some of the messages can be customized to include dynamic text. Dynamic text cha
 
 ![](/img/automatic-messages-chat-9b.png)
 
-## Available automatic messages for chat
+## Available Automatic Messages for chat
 
-The following list sets out the default automatic messages in LiveEngage, divided into 3 groups: system messages, non-responsive messages and on-hold messages. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
+The following list sets out the default Automatic Messages in the Conversational Cloud, divided into 3 groups: system messages, non-responsive messages and on-hold messages. The list includes the message properties, such as when they will be displayed and the supported dynamic text.
 
 ### System messages
 
 These messages appear during the conversation to provide visitors contextual information about the conversation.
 
-| When the message is displayed? | Message name in LiveEngage | Default text | Available dynamic text |
+| When the message is displayed? | Message name in the Agent Workspace | Default text | Available dynamic text |
 | --- | --- | --- | --- |
 | This message is displayed when the agent closes/ends the chat. | Engagement disconnected by agent | Thank you for chatting with us. |  |
 | This message is displayed before the chat starts, when the visitor is routed to an agent. | Routing chat to an agent | Thank you for choosing to chat with us. An agent will be with you shortly. | ·       {AvgWaitMinutes}·       {AvgWaitSeconds}·       {QueueLength}·       {PlaceInQ} |
@@ -117,9 +115,9 @@ In AC site setting, the "messaging.brand.shift.delay.epoch.seconds" can be -1 if
 
 ### Non-responsive messages
 
-When the consumer does not respond for a specified amount of time, two messages are displayed sequentially to the visitor. The **Timeout** is the number of seconds that LiveEngage would wait for a response before the first non-responsive message would be sent.
+When the consumer does not respond for a specified amount of time, two messages are displayed sequentially to the visitor. The **Timeout** is the number of seconds that the system would wait for a response before the first non-responsive message would be sent.
 
-| Message name in LiveEngage | Default text | Available dynamic text | Timeout | Can be disabled? |
+| Message name in the Agent Workspace | Default text | Available dynamic text | Timeout | Can be disabled? |
 | --- | --- | --- | --- | --- |
 | Non-responsive Fair Warning | We have not heard from you for some time.  Do you wish to continue to chat? | X | 180 | ✓ |
 | Non-responsive Final Warning | Since we have not heard from you for some time, we will now end this chat. Please contact us again if we can be of further assistance. | X | 180 | ✓ |
@@ -127,9 +125,9 @@ When the consumer does not respond for a specified amount of time, two messages 
 
 ### On-hold messages
 
-Three default automatic messages are displayed to consumers when the agent does not respond for a specified amount of time. These ‘on-hold’ messages are selected randomly while ensuring that the consumer will never receive the same message more than twice in a row. The **Timeout** is the number of seconds that the consumer will wait for an agent’s reply before the first on-hold message is sent.
+Three default Automatic Messages are displayed to consumers when the agent does not respond for a specified amount of time. These ‘on-hold’ messages are selected randomly while ensuring that the consumer will never receive the same message more than twice in a row. The **Timeout** is the number of seconds that the consumer will wait for an agent’s reply before the first on-hold message is sent.
 
-| Message name in LiveEngage | Default text | Available dynamic text | Timeout | Can be disabled? |
+| Message name in the Agent Workspace | Default text | Available dynamic text | Timeout | Can be disabled? |
 | --- | --- | --- | --- | --- |
 | On-hold message #1 | I'll be right with you. | X | 180 | ✓ |
 | On-hold message #2 | Thank you for waiting. I'll be with you in just a moment. | X | 180 | ✓ |

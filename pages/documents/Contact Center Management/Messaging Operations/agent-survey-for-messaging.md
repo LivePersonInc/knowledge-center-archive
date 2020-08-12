@@ -14,7 +14,7 @@ isNew: false
 
 ## Introduction
 
-LiveEngage enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
+The Conversational Cloud enables brands to define agent surveys in order to gather important information on messaging conversations, as well as categorize and analyze them.
 
 ## Configuring the agent survey
 
@@ -41,7 +41,7 @@ The agent survey library will now be displayed.
   * This will control the availability of the survey after the conversation has ended
   * The minimum value is: 0 minutes, this means the survey will close immediately when the conversation ends and your agent will no longer be able to fill it out
   * The maximum value is: 72 hours (3 days)
-  * LiveEngage will automatically close the survey upon timeout.
+  * The Conversational Cloud will automatically close the survey upon timeout.
 
 ![](img/agent-survey-for-messaging-3.png)
 
@@ -66,8 +66,8 @@ There are a few question types you can choose from:
 
 {:start="5"}
 5. Choose your predefined questions -
-  * **Conversation topic** - you can define your own topics. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Report Builder (Coming November)
-  * **Conversation outcome** - you can define your own outcomes. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Report Builder (Coming November)
+  * **Conversation topic** - you can define your own topics. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Analytics Builder (Coming November)
+  * **Conversation outcome** - you can define your own outcomes. The question will appear to the agent as a dropdown question type. In the future this will be reflected in a dedicated dashboard in the Analytics Builder.
   * **Engagement Attributes** - Allow your agents to report engagement attributes on behalf of the consumer!
 Choose which Engagement Attribute and which attributes will be available for the agents to submit. You can read more [here](/data-reporting-engagement-attributes-conversation-outcomes.html).
 
@@ -86,6 +86,8 @@ Choose which Engagement Attribute and which attributes will be available for the
   * With single choice questions (e.g Dropdown, single-choice), the ‘Jump to’ can be set based on the answers:
 
 ![](img/agent-survey-for-messaging-9.png)
+
+![](img/agent-survey-for-messaging-9a.png)
 
   * If the ‘Jump to’ is set to anything other than ‘Next’, the agent will see all questions until the first question with logic, until they answer the logic question.
 
@@ -193,4 +195,5 @@ All agents assigned to a conversation will be able to submit the agent survey if
 
 ## Reporting
 
-Agent survey reporting in the Report Builder is coming soon. In the meantime, you can reach out to your LivePerson account team and ask the Analytics team to create custom reports on your account for the agent survey for messaging.
+Agent survey reporting in the Analytics Builder can be found [here](https://knowledge.liveperson.com/data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html)
+

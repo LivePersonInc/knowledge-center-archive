@@ -1,16 +1,17 @@
 ---
 pagename: Photo sharing user guide
 categoryName: Messaging channels
-subCategoryName: Rich messaging
+subCategoryName: Rich Conversations
 indicator: messaging
 subtitle: With photo sharing, consumers can send a photo to an agent to help the consumer
   and agent communicate more clearly and effectively.
 level3: ''
-permalink: messaging-channels-rich-messaging-photo-sharing-user-guide.html
+permalink: messaging-channels-rich-conversations-photo-sharing-user-guide.html
 isTutorial: false
 isNew: false
 date: 2019-01-27 07:47:02 +0000
-
+redirect_from:
+  - messaging-channels-rich-messaging-photo-sharing-user-guide.html
 ---
 Photo sharing makes messaging a more visual experience, increasing communication efficiency and reducing time to resolution.
 
@@ -47,7 +48,7 @@ Once a photo was uploaded, it will be flattened as to remove any potential malwa
 
 The agent has the following capabilities:
 1. View a shared photo in the conversation as a thumbnail or full page.
-2. View a shared photo in the engagement history and also for closed conversations.
+2. View a shared photo in the Conversation History and also for closed conversations.
 
 ## Photo sharing flows (mobile-app)
 

@@ -20,4 +20,4 @@ LivePerson allows you to analyze which products are viewed by your visitors and 
 2. Click on viewed product condition in the menu and type unique product identifiers for each product. In this example, select targeting by “product category” and type in “women’s fashion.” (This option depends on the data arriving from your viewed product [engagement attribute](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html))
 3. If you haven’t yet configured tracking, do so now, by clicking the configure tracking button. You can also configure the transactions attribute under engagement attributes in the product purchased and viewed category.
 
-LiveEngage will now track visitors who viewed the products that you defined and customize their experience.
+The Conversational Cloud will now track visitors who viewed the products that you defined and customize their experience.

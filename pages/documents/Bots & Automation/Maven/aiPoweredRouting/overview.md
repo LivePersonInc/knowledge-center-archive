@@ -1,28 +1,28 @@
 ---
-pagename: AI Powered Routing
+pagename: Dynamic Routing
 categoryName: AI, bots & automation
-subCategoryName: Maven
+subCategoryName: Conversation Orchestrator
 level3: ''
 indicator: messaging
-subtitle: Maven is LivePerson’s platform for AI-powered conversational orchestration
+subtitle: The Conversation Orchestrator is LivePerson’s platform for dynamic conversational orchestration
   & continuous learning
-permalink: ai-bots-automation-maven-ai-powered-routing.html
+permalink: ai-bots-automation-conversation-orchestrator-dynamic-routing.html
 isTutorial: false
 isNew: false
 date: '2019-03-14T11:31:44.000+00:00'
 published: true
-
+redirect_from: ai-bots-automation-maven-ai-powered-routing.html
 ---
 
-## What is AI Powered Routing
+## What is Dynamic Routing?
 
-Maven’s AI Powered Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (load, predicted wait times, KPIs), and conversation history.
+The Conversation Orchestrator’s Dynamic Routing provides a centralized experience to create dynamic policies to achieve routing to the best human agent, skill, or bot. Routing policies are based on intent and/or context attributes such as consumer profile data, operational context (load, predicted wait times, KPIs), and conversation history.
 
-The power of Maven’s AI Powered Routing comes from its ability to use a variety of attributes in routing policies - including intents, context, and predictive AI models - in order to create highly personalized journeys to optimize care and sales experiences.
+The power of the Conversation Orchestrator’s Dynamic Routing comes from its ability to use a variety of attributes in routing policies - including intents, context, and predictive AI models - in order to create highly personalized journeys to optimize care and sales experiences.
 
 ## Key benefits
 
-With Maven, brands easily build routing policies based on profile information, interaction history, and other contextual data. Maven’s AI-Powered Routing works by combining all available information - such as intent, contexts and predictive AI models - together with a brand’s predefined policies to make the best routing decision for the specific conversation.
+With the Conversation Orchestrator, brands easily build routing policies based on profile information, interaction history, and other contextual data. The Conversation Orchestrator’s Dynamic Routing works by combining all available information - such as intent, contexts and predictive AI models - together with a brand’s predefined policies to make the best routing decision for the specific conversation.
 
 **Benefits include:**
 
@@ -39,13 +39,13 @@ All brands can offer relevant bots and knowledge base articles proactively and a
 - **Route** a group of **intents** (e.g. order enquiry, cancellation, scheduling) to a general order skill unless the customer is a **VIP**, then send them to their **Dedicated Advisor**
 - For lost baggage **intent**, return to the **same agent** if the customer is **returning within a given time period**; for **VIP** customers, route to high priority skill
 
-## How AI-Powered Routing works
+## How Dynamic Routing works
 
-AI-Powered Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
+Dynamic Routing gives brands the power to author policies based on intent and/or context attributes (such as consumer profile data), operational context (load, wait time, KPIs), conversational history, or predicted outcomes (e.g. sales funnel conversion)
 
-When a conversation comes into LiveEngage, [Maven](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Maven’s AI-Powered Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
+When a conversation comes into the Agent Workspace, [Conversation Orchestrator](https://knowledge.liveperson.com/ai-bots-automation-maven-overview.html) works in the background to quickly understand the consumer’s intent, fed from information via Intent Analyzer. It then uses Conversation Orchestrator’s Dynamic Routing to assess the conversation’s context from various data sources and route to the right agent or bot.
 
-Brands can build and manage policies using the Maven workspace:
+Brands can build and manage policies using the Conversation Orchestrator workspace:
 
 <img class="fancyimage" width="750" src="img/intent-context-policies.png">
 

@@ -30,7 +30,7 @@ After h3, lower titles should proceed from there; sub-titles, like this section,
 Inserting images with Forestry is easy. Simply click on the image icon in the Toolbar at the bottom of the editor, upload your image and then insert it.  A few guidelines for images:
 
 * All images should be saved in a high resolution. Resizing will happen on the back-end, when the site is generated.
-* When taking screenshots, we always prefer to capture the complete screen (for example, the complete LiveEngage workspace rather than a snippet of it) and highlighting the relevant areas we’d like the user to pay attention to.
+* When taking screenshots, we always prefer to capture the complete screen (for example, the complete Agent Workspace rather than a snippet of it) and highlighting the relevant areas we’d like the user to pay attention to.
 * Coloring of highlights on screenshots (like arrows or boxes) should be either black, red or blue, depending on the color scheme of the screenshot at hand. Maintain consistent coloring as much as possible in the same article.
 * **You have two choices as far as positioning goes:**
   * If you do nothing, the image will be displayed in the **center** of the document, alone. That means that if you do nothing, you can't display images side by side.

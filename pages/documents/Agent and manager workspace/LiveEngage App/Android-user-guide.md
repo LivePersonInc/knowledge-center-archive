@@ -11,7 +11,7 @@ isNew: false
 
 
 ---
-The LivePerson Agent app is an Android application that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers. 
+The LivePerson Agent app is an Android application that allows agents and agent managers to message with consumers on-the-go. The current app offers simple messaging capabilities and can help agents that are working from home to continue to provide services to their consumers.
 
 In addition to allowing reps to work remotely, the app also expands opportunities for messaging scenarios. For example, in stores, retail reps can leverage their down time by messaging with customers not in store, utilizing retail reps as agents and giving them the power to increase sales.
 
@@ -29,12 +29,14 @@ Close conversations
 Return conversation to the queue
 Agent managers can review conversations of their team, and filter by status or specific agent.
 Managers (Admins) can join conversations to actively participate.
+Live Video Calls 
+Predefined Content 
+Photo sharing.
 
 ## Future Capabilities
 In the future the following functionality will added:
-- Live video calls
 - Tablet version
-- Photos, videos & file sharing
+- Videos & file sharing
 - Structured content
 - Secure forms
 - Multi send back to queue
@@ -53,7 +55,7 @@ Username: usually the agent’s email
 Password: a masked field
 
 {: .notice}
-Changing / retrieving lost password will be carried out by an admin on LiveEngage web.
+Changing / retrieving lost password will be carried out by an admin on the web platform.
 
 ### Log in button
 The Log in button is enabled once all fields are completed.
@@ -78,11 +80,11 @@ The view consists of:
 Set on web version → Users tab → specific user. This is used for login identification.
 When clicking on the agent picture, you will get to settings menu where you can change details such as status etc.
 
-**Agent state: online** 
+**Agent state: online**
 While the agent is in the online state, new conversations can ring. There is no consumer-facing indication that the agent is in the Online state.
 The agent default status is set according to the platform settings.
 
-**Agent state: away** 
+**Agent state: away**
 While the agent is in the "away" state, agents will not be eligible to receive new conversations. Accepted conversations will still show new messages (including Push notifications). There is no consumer-facing indication that the agent is in the Away state.
 
 **Links**
@@ -155,7 +157,7 @@ When an agent accepts new conversations, he sees the new message arrive. In addi
 Tapping the ‘Send back to queue’ action removes the agent assignment from the conversation and sends it back to the skill queue. The position of the conversation in the queue is determined by LivePerson’s algorithm (currently it is positioned at the end of the queue, but enhancements to the algorithm are in progress).
 
 ### End conversation
-In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from LiveEngage Web. On LiveEngage Web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
+In case the conversation is no longer relevant and is not needed for future reference, the agent may end the conversation. This hides the conversation from the list and it can subsequently only be accessed via Agent manager or from web. On web, closed conversations can be reopened when the agent sends a new message. In future phases the list may include closed conversations and the ability to reopen them, based on the relevant use case.
 
 ### Inactive conversations
 Inactive conversations can be closed automatically using the Auto-close feature. This feature closes conversations after a configurable time during which the consumer has been idle. Contact your LivePerson account team to configure this feature.
@@ -201,7 +203,7 @@ User can choose between three options:
 {: . noitce}
 All of the functionality for agent users apply to agent manager as well.
 
-In order for a manager to be able to receive new conversation, he needs to be defined in the LiveEngage web with an agent role.
+In order for a manager to be able to receive new conversation, he needs to be defined in the web platform with an agent role.
 Below describes the additional set of features available only for users with manager role:
 ### The manager connections view - My/All tabs
 When a user with a manager role logs in to the app, the connections list display two tabs: My/All.
@@ -288,10 +290,3 @@ When an agent manager is focused on a conversation in one tab (e.g. all tab) and
 In this state the “cactus” image will be display on right panel with the label “Please select a conversation” under it
 
 The list of agents available are according the agent in the manager agent group.
-
-
-
-
-
-
-

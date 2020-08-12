@@ -1,9 +1,9 @@
 ---
-pagename: Enhanced manager workspace user guide
-categoryName: Agent & manager workspace
+pagename: Enhanced Manager Workspace user guide
+categoryName: Agent & Manager Workspace
 subCategoryName: Agent manager tools for messaging
 indicator: messaging
-subtitle: 'Get acquainted with the agent workspace '
+subtitle: 'Get acquainted with the Agent Workspace '
 level3: ''
 permalink: agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-enhanced-manager-workspace-user-guide.html
 isTutorial: false
@@ -19,13 +19,15 @@ redirect_from:
 
 ## Configuration
 
-To enable the manager workspace on your LiveEngage account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
+To enable the Manager Workspace on your LivePerson Conversational Cloud account, please contact your LivePerson account team. Once the feature is on, a new permission will be added to the agent manager profile: “View agent manager workspace”. The permission is “On”  by default.
 
-![](img/new-manager-workspace-permissions.png){:class="newagent"}
+![](img/new-manager-workspace-permissions.png)
 
-### New agent workspace
+### New Agent Workspace
 
-Here you can also control the permissions for the enhanced agent workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced agent workspace for all managers using the new manager workspace. Please note that if the new manager workspace is enabled but the enhanced agent workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
+Here you can also control the permissions for the enhanced Agent Workspace. The permission is currently **“Off”** by default. We recommend enabling the enhanced Agent Workspace for all managers using the new Manager Workspace. Please note that if the new Manager Workspace is enabled but the enhanced Agent Workspace **has not been enabled**, managers will be redirected to the old workspace after selecitng a conversation.
+
+![](img/new-manager-workspace-permissions-2.png)
 
 ## Filters
 
@@ -33,7 +35,7 @@ Users will only be exposed to data related to the groups they manage. For exampl
 * Conversations which are currently waiting in queue in any of the skills assigned to the agents of the "Sales" group.
 * Conversations which are currently assigned to agents of the "Sales" group.
 
-The above assumes that no filters are enabled and thus represents the default view of the manager workspace.
+The above assumes that no filters are enabled and thus represents the default view of the Manager Workspace.
 
 The following filters can be applied to the sections listed above:
 
@@ -71,7 +73,7 @@ The metrics widget provides a high level "health check" of your group’s real-t
 
 ## Agent widget
 
-The agent widget shows all agents under the manager which are currently connected to LiveEngage (The list of agents which are shown is not affected by the time filter). The widget will be displayed only in case the user assigned with “View agents list” permission.
+The agent widget shows all agents under the manager which are currently connected to the Conversational Cloud (The list of agents which are shown is not affected by the time filter). The widget will be displayed only in case the user assigned with “View agents list” permission.
 
 The widget supports two views, which can be switched using the icons available on the left top corner of the widget:
 
@@ -143,13 +145,13 @@ The list will include following columns:
 * **CONSUMER** - The consumer name appears based on the available information from the messaging channel. For authenticated messaging, if the name of the consumer is known, it will appear here. For messaging channels where the name is unknown it will appear as ‘visitor’. Clicking on the consumer name will open the conversation window.
 * **RESPONSE TIME** - The duration of time remaining until a response is required.
 * **START TIME** - The time the visitor first started a conversation with the agent (displayed in the visitor’s local time), or the time the agent resumed the conversation with the consumer.
-* **MCS** - Meaningful Connection Score.
+* **MCS** - Meaningful Conversation Score.
 * **CSAT** - Customer satisfaction rated from 1 to 5, as submitted by the customer within the survey.
 * **NPS** - Customer Net Promoter Score rate from 0 to 10, as submitted by the customer within the survey.
 
 #### Navigating to the conversation
 
-Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-all-connections.html#2-conversation-view) of the ‘All connections’ list.
+Clicking on the consumer name  column will open the conversation window in the [‘Conversation view’](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-enhanced-manager-workspace-for-messaging-all-connections.html#2-conversation-view) of the ‘All Conversations list.
 
 ![](img/new-manager-workspace-18.png){:class="newagent"}
 
@@ -172,4 +174,4 @@ The list is sortable by "Response time". The list will be sorted by default by �
 
 ## Limitations
 
-* The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in LiveEngage due to refresh-rate differences.
+* The data presented are refreshed at a maximum of every 40 seconds from the time of login and may vary slightly from what is presented in the Agent Workspace due to refresh-rate differences.
