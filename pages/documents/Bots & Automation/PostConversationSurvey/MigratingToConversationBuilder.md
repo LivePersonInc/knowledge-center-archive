@@ -33,7 +33,7 @@ At runtime, the name of the survey bot agent that is shown to the consumer in th
 
 ## Migration tasks performed in Bots Status
 
-You can use the Bots Status application to monitor your post-conversation survey bots and to perform several migration-related tasks:
+Use the Bots Status application to perform several migration-related tasks:
 
 * Migrate to Conversation Builder
 * Refresh the survey bot connector
