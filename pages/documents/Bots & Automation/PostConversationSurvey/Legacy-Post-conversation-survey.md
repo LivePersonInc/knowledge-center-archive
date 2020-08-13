@@ -16,7 +16,7 @@ redirect_from:
 ---
 
 {: .important}
-This topic discusses a legacy solution for post-conversation surveys (PCS) and is made available for the benefit of brands using this solution (creating survey bots in Bot Studio). If you're new to survey bots, please see [this topic](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html) in the Developer Center for information on implementation using Conversation Builder instead.
+This topic discusses a legacy solution for post-conversation surveys (PCS) and is made available for the benefit of brands using this solution (creating survey bots in Bot Studio). If you're new to survey bots, please see [this topic](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html) in the Developer Center for information on how to build survey bots using Conversation Builder.
 
 The post-conversation survey bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
@@ -238,7 +238,7 @@ The new sheet contains an additional set of metrics and attributes which support
 * Survey activity and performance, allowing to monitor the response rates for example
 * Question level performance, allowing to monitor the avg. time to respond for example
 
-In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model to not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html) messaging dashboards for more information.
+In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model to not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html) messaging dashboards for more information.
 
 ## Design
 

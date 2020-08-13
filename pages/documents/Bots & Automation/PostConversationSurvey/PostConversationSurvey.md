@@ -15,41 +15,37 @@ redirect_from:
 
 ## What's a post-conversation survey bot?
  
-A post-conversation survey bot is a bot that is triggered at the end of a conversation with an agent or custom bot. It allows you to obtain feedback from the consumer on the consumer's experience with your brand.
+A post-conversation survey bot is a bot that is triggered at the end of a conversation with an agent or custom bot. You can use it to obtain feedback from the consumer on the consumer's experience with your brand. A survey bot is a great way to measure agent/bot and skill performance and to identify opportunities to improve on your quality targets.
 
 <img style="width:400px" src="img/surveyBot_example.png">
 
-Overall, survey bots are a great way to measure agent/bot and skill performance and to identify opportunities to improve on your quality targets.
-
-Survey bots have special, predefined interactions for capturing standard survey metrics:
+When you build a survey bot in Conversation Builder, you can use special, predefined interactions for capturing standard survey metrics:
 
 * Net Promoter Score (NPS)
 * Customer Satisfaction (CSAT)
 * First Contact Resolution (FCR)
 
-These survey metrics are captured in Conversational Cloud and exposed via the [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) application. You'll find this information in the predefined [Survey Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html), which you can use out-of-the-box or manipulate to create customized reports.
-
-You can also use the bot's standard interactions to ask questions that reflect your brand's key performance indicators and other free-text questions.
+Data on these survey metrics is captured in Conversational Cloud and exposed via the [Analytics Builder](data-reporting-analytics-builder-analytics-builder-overview.html) application. You'll find this information in the predefined [Survey Dashboard for Messaging](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html), which you can use out-of-the-box or manipulate to create customized reports.
   
 {: .important}
 To use survey bots created in Conversation Builder, you must be on the LivePerson platform, i.e., you log into Conversation Builder via single sign-on through Conversational Cloud. This feature isn't supported on the AWS platform where you log into Conversation Builder directly.<br><br>
 Survey bots are supported only in Messaging, not in Live Chat.
 
-## NPS metrics
+## Net Promoter Score (NPS) metrics
  
-Use the predefined Net Promoter Score (NPS) interaction for capturing the consumer's response to a standard NPS question: *Based on your experience today, how likely are you to recommend us to a friend or colleague?* This is a great way to measure the consumer's overall satisfaction with and loyalty to your brand.
+Use the predefined NPS interaction for capturing the consumer's response to a standard NPS question: *Based on your experience today, how likely are you to recommend us to a friend or colleague?* This is a great way to measure the consumer's overall satisfaction with and loyalty to your brand.
 
 <img style="width:600px" src="img/surveyBot_nps.png">
 
-## CSAT metrics
+## Customer Satisfaction (CSAT) metrics
 
-Use the predefined Customer Satisfaction (CSAT) interaction for capturing the consumer's reponse to a standard CSAT question: *How would you rate your satisfaction with the service you received?* Like the NPS interaction, this is great way to measure the consumer's overall satisfaction.
+Use the predefined CSAT interaction for capturing the consumer's reponse to a standard CSAT question: *How would you rate your overall satisfaction with the service you received?* Like the NPS interaction, this is great way to measure the consumer's general level of satisfaction.
  
 <img style="width:600px" src="img/surveyBot_csat.png">
 
-## FCR interaction
+## First Contact Resolution (FCR) metrics
 
-Use the predefined First Contact Resolution (FCR) interaction for capturing the consumer's opinion on whether their inquiry was resolved: *Were you able to resolve your inquiry today?* Feedback on this can help you to measure agent/bot and skill performance and to identify opportunities to improve on your quality targets.
+Use the predefined FCR interaction for capturing the consumer's opinion on whether their inquiry was resolved: *Were you able to resolve your inquiry today?* Feedback on this can help you to measure agent/bot and skill performance.
 
 <img style="width:600px" src="img/surveyBot_fcr.png">
  

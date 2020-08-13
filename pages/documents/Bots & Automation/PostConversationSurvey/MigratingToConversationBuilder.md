@@ -19,17 +19,18 @@ If you're an existing Bot Studio user with survey bots built in Bot Studio, the 
  
 Be aware that bots in Bot Studio and Conversation Builder cannot run side by side. You'll need to manually recreate your existing Bot Studio survey bots in Conversation Builder. LivePerson recommends the following workflow:
  
-1. In Conversation Builder, manually recreate your survey bots. (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
-2. Test the survey bots.
-3. Release the new survey bots to your Production environment.
-4. Use the Bots Status application to migrate your account from Bot Studio to Conversation Builder. For details on this, see farther below.
+1. In Bot Studio, remove the bot agent name from your survey bots, so you can use the default name of "Survey Bot" that's provided by Conversation Builder. See *Migration tasks performed in Bot Studio* below.
+2. In Conversation Builder, manually recreate your survey bots. (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
+3. Test the survey bots.
+4. Release the new survey bots to your Production environment.
+5. Use the Bots Status application to migrate your account from Bot Studio to Conversation Builder. See *Migration tasks performed in Bots Status* below.
  
 {: .important}
-While you're completing steps 1 - 3, you can continue to use Bot Studio. Once you complete step 4, you can no longer use Bot Studio.
+While you're completing steps 1 - 3 above, you can continue to use Bot Studio. Once you complete step 4, you can no longer use Bot Studio.
 
 ## Migration tasks performed in Bot Studio
 
-At runtime, the name of the survey bot agent that is shown to the consumer in the messaging window is drawn from Bot Studio. In Bot Studio, remove this name so that the default name of "Survey Bot" is used instead.
+At runtime, the name of the survey bot agent that's shown to the consumer in the messaging window is drawn from Bot Studio if it set there. Before migrating to Conversation Builder, use Bot Studio to remove this bot agent name. This allows the default name of "Survey Bot" to be used instead.
 
 ## Migration tasks performed in Bots Status
 
@@ -42,7 +43,7 @@ Use the Bots Status application to perform several migration-related tasks:
 As you work in Bots Status, be aware of the following:
  
 * You can identify survey bots by examining the **User Name**. This is always "Survey Connector." In contrast, custom bots display the agent name that's configured in Conversational Cloud.
-* While each survey bot is listed individually in the dashboard, they all share a single agent connector. This means that performing any operation on one survey bot affects all the survey bots.
+* While each survey bot is listed individually in the dashboard, they all share a single agent connector. This means that performing any Bots Status operation on one survey bot affects all the survey bots.
 * Successfully deployed survey bots display "Deployed" beneath the bot name.
  
 <img style="width:1000px" src="img/surveyBot_monitoring1.png">
