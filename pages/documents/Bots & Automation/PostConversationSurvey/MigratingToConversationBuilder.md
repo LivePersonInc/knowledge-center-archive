@@ -50,7 +50,7 @@ As you work in Bots Status, be aware of the following:
  
 ### Migrate to Conversation Builder
  
-If you currently use Bot Studio to trigger surveys, you must *manually switch* to triggering surveys from Conversation Builder. Follow this procedure after you've finished with survey development and testing using Conversation Builder.
+If you currently use Bot Studio to trigger surveys, you must *manually switch* to triggering surveys from Conversation Builder. Follow this procedure after you've finished with survey development and testing using Conversation Builder. This operation deploys the underlying agent connector that's shared by all Conversation Builder survey bots.
  
 **To migrate to Conversation Builder**
  
