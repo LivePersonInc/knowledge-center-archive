@@ -49,11 +49,9 @@ Use the predefined FCR interaction for capturing the consumer's opinion on wheth
 
 <img style="width:600px" src="img/surveyBot_fcr.png">
  
-## Building a survey bot
+## Building a survey bot with Conversation Builder
 
-You use Conversation Builder to create survey bots, which allows you to use the same, familiar tool that use to create custom bots. This makes the process quicker and more efficient.
-
-See [here](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html) in the Developer Center for information on how to build a survey bot using Conversation Builder.
+You [use Conversation Builder to create survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html), which allows you to use the same, familiar tool that use to create custom bots. This makes the process quicker and more efficient.
 
 ## Tips on writing effective survey questions
 

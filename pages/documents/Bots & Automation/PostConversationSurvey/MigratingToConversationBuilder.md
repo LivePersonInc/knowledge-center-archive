@@ -20,13 +20,13 @@ If you're an existing Bot Studio user with survey bots built in Bot Studio, the 
 Be aware that bots in Bot Studio and Conversation Builder cannot run side by side. You'll need to manually recreate your existing Bot Studio survey bots in Conversation Builder. LivePerson recommends the following workflow:
  
 1. In Bot Studio, remove the bot agent name from your survey bots, so you can use the default name of "Survey Bot" that's provided by Conversation Builder. See *Migration tasks performed in Bot Studio* below.
-2. In Conversation Builder, manually recreate your survey bots. (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
+2. In Conversation Builder, manually [recreate your survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html). (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
 3. Test the survey bots.
 4. Release the new survey bots to your Production environment.
 5. Use the Bots Status application to migrate your account from Bot Studio to Conversation Builder. See *Migration tasks performed in Bots Status* below.
  
 {: .important}
-While you're completing steps 1 - 3 above, you can continue to use Bot Studio. Once you complete step 4, you can no longer use Bot Studio.
+While you're completing steps 1 - 4 above, you can continue to use Bot Studio. Once you complete step 5, you can no longer use Bot Studio.
 
 ## Migration tasks performed in Bot Studio
 
