@@ -3,7 +3,7 @@ pagename: Dashboard
 categoryName: Bots & automation
 subCategoryName: Intent Analyzer
 indicator: messaging
-subtitle: Intent Analyzer provides real-time intent identification to help businesses optimize
+subtitle: LivePerson's Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
 permalink: ai-bots-automation-liveperson-intent-analyzer-dashboard.html
@@ -14,7 +14,7 @@ redirect_from:
   - ai-bots-automation-intent-analyzer-dashboard.html
 ---
 
-This document will explain all of the various aspects of the Intent Analyzer dashboard.
+This document will explain all of the various aspects of the LivePerson Intent Analyzer dashboard.
 
 All tables in the dashboards can be sorted by clicking on any of the headers.
 
@@ -24,7 +24,7 @@ The autorefresh setting allows you to set how often the dashboard refreshes. Set
 
 ## Search
 
-The search bar will limit data to only its results across all dashboards and views of Intent Analyzer.
+The search bar will limit data to only its results across all dashboards and views of LivePerson's Intent Analyzer.
 
 You are able to search for keywords in messages or metadata like conversation IDs.
 
@@ -35,7 +35,7 @@ Example:
 
 ## Filters
 
-The filter options will limit data across all dashboards and views of Intent Analyzer.
+The filter options will limit data across all dashboards and views of LivePerson's Intent Analyzer.
 
 ### Add Filter
 
@@ -57,7 +57,7 @@ Quick Select will provide you with the most common time ranges.
 
 Relative gives you a rolling window of time.
 
-Absolute lets you use Intent Analyzer as historical reporting.
+Absolute lets you use LivePerson's Intent Analyzer as historical reporting.
 
 ## Intent Trends
 
@@ -97,12 +97,12 @@ The converation details view is where you go to dig in to explore the messages a
 ### Self Service Intent Discovery and Optimization
 The new Self Service Intent Discovery and Optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality.
 
-The information architecture has been updated to ease navigation between Intent Analyzer and Intent Builder. 
+The information architecture has been updated to ease navigation between LivePerson's Intent Analyzer and Intent Builder. 
 
 Custom Starter Packs can be generated from historical chat transcripts as well as messaging transcripts. A minimum of 200K chat messages is required, but now brands who have recently migrated to messaging can utilize their chat history to automatically build out their own initial Intent taxonomy.
 
 ### Consumer Experience
-Under Conversation Details in the Intent Analyzer dashboard, users can  go through undefined messages and classify the correct intent or create a new intent.
+Under Conversation Details in LivePerson's Intent Analyzer dashboard, users can  go through undefined messages and classify the correct intent or create a new intent.
 
 ![](img/Intent-manager-customer-experience1.png)
 
@@ -110,13 +110,13 @@ Brands have the ability to choose to show how many messages they would like to g
 
 ![](img/Intent-manager-customer-experience2.png)
 
-To train the model, brands need to update the Intent Builder with the orange button. Once users click the orange button in Intent Analyzer, they will still need to go into Intent Builder to train and activate the model. 
+To train the model, brands need to update the Intent Builder with the orange button. Once users click the orange button LivePerson's Intent Analyzer, they will still need to go into Intent Builder to train and activate the model. 
 
 ![](img/Intent-manager-customer-experience3.png)
 
 When you create a new intent, a modal will guide you in the creation of the new intent. Currently, you MUST add 20 new utterances for each new intent before you can re-train the domain in Intent Builder.
 
-In order for a brand user to begin reclassifying utterances via the Intent Analyzer Discovery feature, they must have at least one of the following permissions:
+In order for a brand user to begin reclassifying utterances via LivePerson's Intent Analyzer Discovery feature, they must have at least one of the following permissions:
 
 Conversation Builder: Administrator
 Conversation Builder: Bot Builder
