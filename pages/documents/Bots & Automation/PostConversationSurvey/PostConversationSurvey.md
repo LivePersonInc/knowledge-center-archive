@@ -33,19 +33,19 @@ Survey bots are supported only in Messaging, not in Live Chat.
 
 ## Net Promoter Score (NPS) metrics
  
-Use the predefined NPS interaction for capturing the consumer's response to a standard NPS question: *Based on your experience today, how likely are you to recommend us to a friend or colleague?* This is a great way to measure the consumer's overall satisfaction with and loyalty to your brand.
+Net Promoter Score (NPS) metrics are commonly used to measure the loyalty of a consumer to a brand. PCS bots have a predefined NPS interaction for capturing the consumer's response to a standard NPS question: *Based on your experience today, how likely are you to recommend us to a friend or colleague?* This lets you quickly and easily start measuring NPS over messaging.
 
 <img style="width:600px" src="img/surveyBot_nps.png">
 
 ## Customer Satisfaction (CSAT) metrics
 
-Use the predefined CSAT interaction for capturing the consumer's reponse to a standard CSAT question: *How would you rate your overall satisfaction with the service you received?* Like the NPS interaction, this is great way to measure the consumer's general level of satisfaction.
+Customer Satisfaction (CSAT) metrics are used to measure the frequency at which your brand meets or exceeds consumer expectations. PCS bots have a predefined CSAT interaction for capturing the consumer's response to a standard CSAT question: *How would you rate your overall satisfaction with the service you received?* Like the NPS interaction, this is a great way to quickly start measuring consumer satisfaction.
  
 <img style="width:600px" src="img/surveyBot_csat.png">
 
 ## First Contact Resolution (FCR) metrics
 
-Use the predefined FCR interaction for capturing the consumer's opinion on whether their inquiry was resolved: *Were you able to resolve your inquiry today?* Feedback on this can help you to measure agent/bot and skill performance.
+First Contact Resolution (FCR) metrics are used to measure operational efficiency in resolving consumer issues. PCS bots have a predefined FCR interaction for capturing the consumer's answer as to whether their inquiry was resolved: *Were you able to resolve your inquiry today?* This feedback helps you to measure and improve agent/bot and skill performance.
 
 <img style="width:600px" src="img/surveyBot_fcr.png">
  
@@ -57,6 +57,7 @@ You [use Conversation Builder to create survey bots](https://developers.livepers
 
 When defining survey questions, keep these basic guidelines in mind:
 
+* Less is more! The fewer survey questions you include, the more likely consumers are to complete your survey.
 * Keep the questions simple, clear and specific. 
 * Avoid using jargon and double negatives.
 * Make sure a question asks about only one thing.

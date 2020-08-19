@@ -21,7 +21,7 @@ Be aware that bots in Bot Studio and Conversation Builder cannot run side by sid
  
 1. In Bot Studio, remove the bot agent name from your survey bots, so you can use the default name of "Survey Bot" that's provided by Conversation Builder. See *Migration tasks performed in Bot Studio* below.
 2. In Conversation Builder, manually [recreate your survey bots](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html). (If you're developing in your Production environment, which is not common and not recommended, assign the survey bots to "test" skills that aren't used in a production campaign, so you can test them before assigning production skills to them.) 
-3. Test the survey bots.
+3. Test the survey bots and related reporting.
 4. Release the new survey bots to your Production environment.
 5. Use the Bots Status application to migrate your account from Bot Studio to Conversation Builder. See *Migration tasks performed in Bots Status* below.
  
@@ -37,8 +37,8 @@ At runtime, the name of the survey bot agent that's shown to the consumer in the
 Use the Bots Status application to perform several migration-related tasks:
 
 * Migrate to Conversation Builder
-* Refresh the survey bot connector
-* Roll back to Bot Studio
+* Troubleshooting - Refresh the survey bot connector
+* Troubleshooting - Roll back to Bot Studio
 
 As you work in Bots Status, be aware of the following:
  
@@ -67,7 +67,7 @@ If you currently use Bot Studio to trigger surveys, you must *manually switch* t
  
      <img style="width:1000px" src="img/surveyBot_monitoring5.png">
  
-### Refresh the survey bot connector
+### Troubleshooting - Refresh the survey bot connector
  
 If you've just migrated from Bot Studio to Conversation Builder, but things don't seem to be working, use this procedure as a troubleshooting technique. Refreshing the connector toggles an underlying system setting to put things in sync.
  
@@ -78,7 +78,7 @@ If you've just migrated from Bot Studio to Conversation Builder, but things don'
 3. Select one of the survey bots, and click <img style="width:25px" src="img/icon_ellipsis_vertical.png"> (3-dot icon) beside the bot name.
 4. Select **Refresh Connector**.
  
-### Roll back to Bot Studio
+### Troubleshooting - Roll back to Bot Studio
  
 Rolling back to Bot Studio reverts your account to triggering surveys from Bot Studio instead of Conversation Builder. This undeploys the survey connector in Conversation Builder.
  
