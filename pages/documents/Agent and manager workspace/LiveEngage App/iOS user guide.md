@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-app-agent-ios-user-guide.html
+permalink: agent-manager-workspace-agent-app-ios-user-guide.html
 isTutorial: false
 isNew: false
 redirect_from:
