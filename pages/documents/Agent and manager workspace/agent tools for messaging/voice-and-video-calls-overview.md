@@ -54,7 +54,9 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 ## Configuration
 
-Profiles can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video” permission will allow video calls.
+[Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video conversation” permission will allow video calls.
+
+![](img/voice-and-video-agent-profile-permissions.png)
 
 The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
 * Make every video call start with the agent camera disabled.
