@@ -52,6 +52,25 @@ During an active call, both agent and consumer are able to end the call at any t
 
 On mobile devices that have a front and backward facing camera, an additional button is shown to switch to the other camera.
 
+## Configuration
+
+Profiles can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video” permission will allow video calls.
+
+The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
+* Make every video call start with the agent camera disabled.
+* Make every video call start with the consumer camera disabled.
+* Disable peer to peer connections and force all video and audio data to be relayed via a TURN server.
+* Specify your own STUN and TURN servers which should be used for the WebRTC audio and video streams.
+* Disable voice and/or video calls so that even agent administrators cannot enable it using profiles.
+* Customize all text in the invitation and system messages inside the transcript.
+* Enable integration of a JavaScript tracking library on the consumer side. The choices are:
+  * Google Analytics
+  * Piwik Analytics
+  * Webtrekk Web Analytics
+  * Tealium
+
+For support calls on different devices and networks, additional video relay infrastructure is required to cover scenarios in which a peer to peer connection is not possible. It is recommended to work with the LivePerson support team to verify that your network infrastructure can support peer to peer connections. On the consumer side, this cannot be guaranteed and calls might still require a relay server. For testing purposes, LivePerson will provide such a server. For production deployments, brands can set up their own infrastructure. Your LivePerson representative can assist you with that step and also outline alternatives to hosting your own infrastructure.
+
 ## Requirements
 
 **Conversational Cloud**
@@ -86,25 +105,6 @@ On mobile devices that have a front and backward facing camera, an additional bu
   * 5349 TCP
   * 10,000 - 60,000 UDP
 * Allow relay connections to the configured STUN and TURN servers. Details on the default servers (provided by Twilio) can be found here: https://www.twilio.com/docs/stun-turn/regions.
-
-## Configuration
-
-Profiles can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video” permission will allow video calls.
-
-The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
-* Make every video call start with the agent camera disabled.
-* Make every video call start with the consumer camera disabled.
-* Disable peer to peer connections and force all video and audio data to be relayed via a TURN server.
-* Specify your own STUN and TURN servers which should be used for the WebRTC audio and video streams.
-* Disable voice and/or video calls so that even agent administrators cannot enable it using profiles.
-* Customize all text in the invitation and system messages inside the transcript.
-* Enable integration of a JavaScript tracking library on the consumer side. The choices are:
-  * Google Analytics
-  * Piwik Analytics
-  * Webtrekk Web Analytics
-  * Tealium
-
-For support calls on different devices and networks, additional video relay infrastructure is required to cover scenarios in which a peer to peer connection is not possible. It is recommended to work with the LivePerson support team to verify that your network infrastructure can support peer to peer connections. On the consumer side, this cannot be guaranteed and calls might still require a relay server. For testing purposes, LivePerson will provide such a server. For production deployments, brands can set up their own infrastructure. Your LivePerson representative can assist you with that step and also outline alternatives to hosting your own infrastructure.
 
 ## Security
 
