@@ -66,7 +66,7 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 **Your website:**
 * Your website must use HTTPS. HTTP-only websites are not supported.
-* All website pages must be tagged. This includes the page from where the session is started, and all pages which are visited during navigation.
+* All website pages must be tagged with the LivePerson monitoring tag. This includes the page from where the session is started, and all pages which are visited during navigation.
 * The LivePerson tag must be deployed in the topmost frame of the page.
 * Your website must adhere to HTML, CSS and JavaScript standards
 **Note:** Your website should not overwrite core JavaScript functions, for example window.addEventListener.
@@ -91,7 +91,7 @@ On mobile devices that have a front and backward facing camera, an additional bu
 
 Profiles can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video” permission will allow video calls.
 
-The following advanced configuration options are available. Simply request them from your LIvePerson representative.
+The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
 * Make every video call start with the agent camera disabled.
 * Make every video call start with the consumer camera disabled.
 * Disable peer to peer connections and force all video and audio data to be relayed via a TURN server.
