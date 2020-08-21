@@ -82,7 +82,7 @@ For support calls on different devices and networks, additional video relay infr
 
 **User (Agent/Consumer):**
 * Agent Workspace agents must use Chrome, Firefox, Safari or Edge (Chromium) browsers. Mobile agents on the Agent App can use Android or iOS.
-* On consumer side, Chrome (Desktop/Android), Firefox (Desktop), Safari (Desktop/iOS) and Edge (Chromium, Desktop) are supported. Only the two latest versions of those browsers are supported and have been tested.
+* On consumer side, Chrome (Desktop/Android), Firefox (Desktop), Safari (Desktop/iOS) and Edge (Chromium, Desktop) are supported. Only the two latest versions of those browsers are supported.
 * Agent and consumer must have a microphone and a camera (for calls with video) connected to their device.
 
 **Your website:**
