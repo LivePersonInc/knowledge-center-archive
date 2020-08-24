@@ -42,14 +42,14 @@ To create a new Proactive campaign, click on **New Campaign** on the Proactive M
 
 ![](img/getting-started-with-proactive-3.png)
 
-## Step 3: Schedule your campaign
+### Step 3: Schedule your campaign
 
 ![](img/getting-started-with-proactive-4.png)
 
  * Select the date that you want the messages to be sent out. Currently we only support Start now but in the future, you will be able to select a future date
  * Select the time window when you would like your recipients to receive the message based on their time zone, determined by the country code and area code of their phone numbers (it’s important to note that this is not the time the message will be sent, but rather the time the recipients will receive the message)
 
-## Step 4: Preview and launch
+### Step 4: Preview and launch
 
 ![](img/getting-started-with-proactive-5.png)
 
