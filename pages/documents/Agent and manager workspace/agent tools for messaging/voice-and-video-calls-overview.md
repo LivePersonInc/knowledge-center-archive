@@ -52,6 +52,12 @@ During an active call, both agent and consumer are able to end the call at any t
 
 On mobile devices that have a front and backward facing camera, an additional button is shown to switch to the other camera.
 
+## Demo
+
+Here is a demonstration of a video call with consumer on the left and agent on the right.
+
+![](img/voice-and-video-calls-demo.gif)
+
 ## Configuration
 
 [Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video conversation” permission will allow video calls.
