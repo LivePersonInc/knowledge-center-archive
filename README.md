@@ -24,6 +24,22 @@ All you need to run in consequent builds of the site is `bundle exec jekyll serv
 
 **Note**: changes that alter site navigation or other changes that change the site as a whole might not show up when using `--incremental`. If that occurs, simply "kill" the build and run `bundle exec jekyll serve` without the suffix.
 
+### Testing the site for errors
+
+If you would like to test the validity of this site, you can run one of the following commands:
+
+```rake test_internal_links```
+
+This will output a list of all the broken internal links
+
+```rake test_external_links```
+
+This will output a list of all the broken external links
+
+```rake test_all```
+
+This will output a list of all broken external links, scripts, images, and html accessibility standards
+
 ### Licensing
 
 All usage of the contents, documentation or code found in this repository is subject to the [LivePerson API Terms of Use](https://www.liveperson.com/policies/apitou). Please use the link above to read them carefully before utilizing the site.
