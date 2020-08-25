@@ -79,6 +79,10 @@ The following advanced configuration options are available. Simply ask your Live
 
 For support calls on different devices and networks, additional video relay infrastructure is required to cover scenarios in which a peer to peer connection is not possible. It is recommended to work with the LivePerson support team to verify that your network infrastructure can support peer to peer connections. On the consumer side, this cannot be guaranteed and calls might still require a relay server. For testing purposes, LivePerson will provide such a server. For production deployments, brands can set up their own infrastructure. Your LivePerson representative can assist you with that step and also outline alternatives to hosting your own infrastructure.
 
+## Reporting
+
+Coming soon.
+
 ## Requirements
 
 **Conversational Cloud**
