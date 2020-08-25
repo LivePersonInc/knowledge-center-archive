@@ -18,7 +18,7 @@ LivePerson’s Proactive Messaging feature allows brands to engage in two-way co
 {: .notice}
 **Prerequesites:** SMS and WhatsApp are the two channels that are supported for Proactive Messaging. For free trial accounts, this feature is limited to SMS only. To learn about all the capabilities of Proactive Messaging, see this overview [article](https://knowledge.liveperson.com/messaging-channels-proactive-messaging-proactive-messaging-overview.html). Before enabling Proactive Messaging, users will need to enable the SMS channel and get an SMS number from Twilio. For guidance on this process please see the [Twilio SMS quick start guide](getting-started-quick-start-guides-twilio-sms-quick-start.html). 
 
-## Getting Started
+## Getting started
 
 ### Step 1: Accessing Proactive Messaging 
 
@@ -56,7 +56,7 @@ To create a new Proactive campaign, click on **New Campaign** on the Proactive M
  * Review the details of the campaign before publishing, including the skill routing, the opt out text, the message content and the recipients
  * Users must check the box which states that they are responsible for collecting opt-in consent from consumers before reaching out to them, and legally abide by the TCPA and GDPR compliance laws
 
-## Next Steps
+## Next steps
 
 Congratulations, you have now created your first Proactive outbound campaign. For more detailed information and FAQ, please [click here](messaging-channels-proactive-messaging-proactive-messaging-user-guide.html).
 
