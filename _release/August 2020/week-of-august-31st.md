@@ -31,6 +31,8 @@ The custom CoBrowse integration via the Messaging Window API will receive a new 
 
 The updated developer documentation for CoBrowse can be found [here](https://developers.liveperson.com/messaging-window-api-tutorials-cobrowse.html). And for Voice & Video calls, [here](https://developers.liveperson.com/messaging-window-api-tutorials-voice-and-video-calls.html).
 
+## Mobile SDK 6.0 is now available
+
 ### Environment Requirements for iOS Mobile SDK 6.0
  * iOS Mobile Messaging SDK 6.0.0 is supported on iOS versions 11 through 13. 
  * iOS Mobile Messaging SDK 6.0.0 supports Xcode 12.
