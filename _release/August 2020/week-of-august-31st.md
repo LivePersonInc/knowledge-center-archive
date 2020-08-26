@@ -167,5 +167,136 @@ An issue was resolved where the “failed to connect” banner appears briefly e
 
 An issue was found where the “conversation was resolved” message may not appear under certain SDK branding configurations. This bug has been resolved. 
 
-## [Mobile SDK] Conversation resolved message not appearing
-### Type: Bug fix (iOS SDK 6.0)
+## [Accessibility] WCAG 2.1 AA / Accessibility remediation
+### Type: Enhancement (Web Experiences 10.4)
+
+The Web Experiences team is partnering with Deque, a website accessibility firm, to remediate, validate, and ultimately certify the LivePerson consumer experience as WCAG 2.1 AA compliant. To reach WCAG 2.1 AA compliance, we will be deploying fixes to the consumer experience over the next few months that will incrementally get us to certification.  
+
+Please note that issues that are remediated and validated under WCAG 2.1 AA compliance only apply for the default engagements, window themes, and out-of-the-box features/taglets within the consumer window. Any brands that utilize custom windows, taglets, and engagements, should be reviewed and updated by the customer, or their representative, to meet WCAG 2.1 AA compliance. 
+
+## [Window] Optimize the header logo for screen readers
+### Type: Enhancement (Web Experiences 10.4)
+
+An alt text field has been added to the Engagement Window Studio Header section. Screen readers will read the alt text instead of the Target URL for the logo.
+
+![](img/week-of-august-31-2.png)
+
+## [Window] Optimize keyboard navigation when closing a conversation 
+### Type: Enhancement (Web Experiences 10.4)
+
+When a consumer selects “End conversation”, they can now navigate the “Yes” and “No” buttons using a keyboard.
+
+![](img/week-of-august-31-3.png)
+
+## [Window] Optimize keyboard navigation for emojis in window
+### Type: Enhancement (Web Experiences 10.4)
+
+The emoji list can now be navigated through using a keyboard to find, open, and select an emoji.
+
+![](img/week-of-august-31-4.png)
+
+## [Window] Maintain focus on the message text box
+### Type: Enhancement (Web Experiences 10.4)
+
+Focus will now stay within the messaging text box as new messages come into the conversation, including dynamic messages like structured content. For consumers utilizing screen readers, they will be made aware that new messages are available and can navigate into the message window to interact with the new messages.
+
+## [Window] All messages are being read out when a new message comes in
+### Type: Enhancement (Web Experiences 10.4)
+
+Removed “role=log” so that all previous messages will not be read by screen readers when the consumer has a new message.
+
+## [Rich content] Update to the border and focus indicator for structured content
+### Type: Enhancement (Web Experiences 10.4)
+
+The border around structured content has been closed. With the change above to always keep focus on the message textbox, the border will only show when a consumer clicks or keyboard tabs to the structured content. 
+
+![](img/week-of-august-31-5.png)
+
+Brands can customize the focus indicator border color by adding and changing the following CSS element in the Window Customization API:
+
+![](img/week-of-august-31-6.png)
+
+## [CoBrowse Video] Update keyboard navigation for CoBrowse video elements
+### Type: Enhancement (Web Experiences 10.4)
+
+The tab order was corrected for the banner which says “You are in a video call”. Now it is more intuitive for keyboard users to tab to this banner. This banner behaves like a button. When clicked (by pressing enter or space bar), it unhides (aka maximizes) the ongoing voice/video call.
+
+## [CoBrowse Video] Better handling of views in the Window Widget
+### Type: Bug fix (Web Experiences 10.4)
+
+This bug would very rarely appear after something went wrong with the video call or the invitation, causing parts of the current and previous invitation/call could both be seen partially at the same time within the same slider.
+
+The code which changes the content within the slider window now tracks the current view and ensures that it is always removed before adding a new view to the slider. Better handling of timed events and timeouts was also added to ensure that incorrect views are not displayed.
+
+### Incidents (Web Experiences 10.4)
+
+Performance improvements:
+* Added a new client configuration to reduce the number of requests to UMS for idle conversations.
+
+Improvements to consumer messaging window:
+* Landscape view for iPhone and iPad devices
+* Full screen window on larger iOS devices
+* IE11 browsers on Windows 10 and 8 devices
+* Offline surveys will no longer display when agents are available
+* Real-time data masking now masks whole data pattern that starts with number “1”
+
+Better error handling:
+* Favicon 404 errors
+* Retry icon 404 errors
+
+Rich content:
+* Structured content text will wrap instead of expanding outside of the card borders
+
+Translation updates:
+* Traditional Chineses (HK and Taiwanese Chinese) updated for missing word
+
+## Voice and Video for Web Messaging 
+### Type: New functionality 
+
+Agents handling Web Messaging conversations are now able to invite consumers to a voice and video conversation from a messaging conversation. The consumer's engagement window is expanded to show the video/call invitation. Once the invitation is accepted, the consumer must agree to allow their browser to use the computer’s microphone and camera. Following agreement, the peer-to-peer call takes place via the extended engagement window. The agent sees the consumer via a dedicated voice and video agent window.
+
+Both agent and consumer use their device’s audio and video capabilities like with Zoom or Google Hangouts. Brands can choose if the consumer starts automatically with their camera on or off to protect their privacy. Like with CoBrowse, the use of voice and video consumes an additional credit per conversation. Both consumer and agent have the ability during the call to toggle the camera or microphone, and to end the call. 
+
+**To enable:** 
+The feature will be enabled by default for all brands and all agents. The functionality can be disabled for the account on the backend. It is possible to control agent use via profile permissions, thereby limiting only certain agent groups via profile permissions to use voice and video. By default, all agents have the permissions enabled and will see the initiation buttons over their text box in the Agent Workspace.  
+
+**Dependencies:**
+Only supported browsers can use this feature. If the consumer and/or agent browser is not supporting the needed technology, the initiation button will not appear for the agent. Most shelf browsers are supported (Chrome, Firefox, Safari, Edge [on Chromium]).
+
+**Limitations:**
+
+This feature is only available for Web Messaging. In the future [target Q4] we will also release a clickable link that will launch a browser, thereby allowing support for all other channels.
+
+![](img/voiceandvideodemo720p.gif)
+
+## Context Store integration
+### Type: New functionality (FaaS 1.20)
+
+The integration of the Context Store will allow you to save information permanently between invocations. Leveraging the [Conversation Context Service](https://developers.liveperson.com/conversation-orchestrator-context-warehouse-context-session-store.html), you can retrieve and save values during invocations. These values are not only available to future invocations and other Lambdas, but also in any LP System which integrates the Conversation Context Service. To simplify the use of the integration, you also have ready-made code snippets that can be used for reading, writing, and deleting data from the Context Store.
+
+## [Bot connectors] Conversation errors 
+### Type: Enhancement (Third-party bots 2.24)
+
+To improve the self-service ability of our customers and also improve their bot flows, we created a new tab in the Bot Dashboard, where both messaging and chat customers can view errors that lead to an error escalation by the used bot. 
+
+In V1 it is possible to:
+* View conversation errors
+* Search by convId for a particular error
+
+**Limitations:**
+Conversation errors are limited to max. 2000 errors storage per bot. Any new errors coming in will replace the oldest ones from the storage. Furthermore, existing errors will be removed after 2 days.
+
+## [Bot connectors] Bot Action invocation
+### Type: Enhancement (Third-party bots 2.24)
+
+As an additional functionality, it’s now possible to trigger a function invocation using botActions. This feature is available for both chat and messaging and can be used with all third-party bots.
+
+**Limitations:**
+It’s only possible to send one bot action. So it’s not possible to simultaneously transfer or close a conversation while using FaaS invocation.
+
+## [Bot connectors] ReadOnly mode is not working on the bot Detailed View 
+### Type: Bug fix (Third-party bots 2.24)
+
+The ‘View Bot’ configuration was not visible in the bot’s dashboard. With this fix, the users are now able to access the bot’s configuration when they are in the dashboard.
+
+![](img/week-of-august-31-7.png)
