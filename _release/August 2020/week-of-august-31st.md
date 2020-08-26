@@ -77,7 +77,7 @@ See [Apple’s documentation (https://developer.apple.com/documentation/xcode/di
 
 An SDK enhancement has been added that will prevent a second customer from viewing the chat history of the customer who chatted before them, while optimizing the flow in a way that clears just the necessary set of user information in a quick manner.
 
-## [Mobile SDK] Hyperlink 
+## [Mobile SDK] Hyperlink support
 ### Type: New funcionality (iOS SDK 6.0)
 
 Users using the enhanced Agent Workspace have the ability to share hyperlinks with consumers during a messaging conversation. Now, they can share hyperlinks with consumer's that are messaging over the Mobile SDK as well.
