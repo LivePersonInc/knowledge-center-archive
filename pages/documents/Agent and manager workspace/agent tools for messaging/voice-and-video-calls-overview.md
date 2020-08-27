@@ -10,8 +10,6 @@ isTutorial: false
 isNew: false
 
 ---
-{: .important}
-**Please note:** This feature is currently in beta mode. For more information, please contact your LivePerson representative.
 
 ## Introduction
 
@@ -25,7 +23,7 @@ The Voice & Video Calls for Web Messaging solution allows brands to conduct voic
 * **Efficiency:** Video and voice calls give agents the best tool for achieving first contact resolution and reducing consumer wait time and average hold time.
 * **Flexibility:** Consumers expect to have the flexibility to do all types of communication in one place. Now brands can meet their consumer’s expectations by providing them with messaging and call capability all within one place, achieving the complete digital experience.
 * **Easy to use:** Calls can be initiated with zero setup time or preparation required on modern desktop and mobile browsers.
-* **Secure:** Voice and Video streams are transmitted peer to peer (if possible) and are encrypted end-to-end.
+* **Secure:** Voice and Video streams are encrypted end-to-end for safety and privacy over a direct, peer to peer connection.
 
 ### Use cases
 
@@ -48,27 +46,58 @@ After accepting, the call is initiated and the consumer’s browser will ask for
 
 ![](img/voice-and-video-3.png)
 
-During an active call, both agent and visitor are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the video:
+During an active call, both agent and consumer are able to end the call at any time. Furthermore, each participant is able to mute the microphone or disable the camera:
 
 ![](img/voice-and-video-4.png)
 
 On mobile devices that have a front and backward facing camera, an additional button is shown to switch to the other camera.
 
+## Demo
+
+Here is a demonstration of a video call with consumer on the left and agent on the right.
+
+![](img/voice-and-video-calls-demo.gif)
+
+## Configuration
+
+[Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video conversation” permission will allow video calls.
+
+![](img/voice-and-video-agent-profile-permissions.png)
+
+The following advanced configuration options are available. Simply ask your LivePerson contact or support representative to make the changes in your account's backend configuration console.
+* Make every video call start with the agent camera disabled.
+* Make every video call start with the consumer camera disabled.
+* Disable peer to peer connections and force all video and audio data to be relayed via a TURN server.
+* Specify your own STUN and TURN servers which should be used for the WebRTC audio and video streams.
+* Disable voice and/or video calls so that even agent administrators cannot enable it using profiles.
+* Customize all text in the invitation and system messages inside the transcript.
+* Enable integration of a JavaScript tracking library on the consumer side. The choices are:
+  * Google Analytics
+  * Piwik Analytics
+  * Webtrekk Web Analytics
+  * Tealium
+
+For support calls on different devices and networks, additional video relay infrastructure is required to cover scenarios in which a peer to peer connection is not possible. It is recommended to work with the LivePerson support team to verify that your network infrastructure can support peer to peer connections. On the consumer side, this cannot be guaranteed and calls might still require a relay server. For testing purposes, LivePerson will provide such a server. For production deployments, brands can set up their own infrastructure. Your LivePerson representative can assist you with that step and also outline alternatives to hosting your own infrastructure.
+
+## Reporting
+
+Coming soon.
+
 ## Requirements
 
 **Conversational Cloud**
 * The feature can only be used within Web Messaging conversations. Chat is not supported.
-* The Engagement Window must be deployed in the embedded state.
-* By default, voice & video is not enabled in your LivePerson Conversational Cloud account. Please contact your LivePerson account manager to have this feature enabled for you.
+* The Engagement Window must be deployed in the embedded state. Otherwise, setups using the Messaging Window API can support Voice & Video Calls by following these instructions from the [Developer Center](https://developers.liveperson.com/messaging-window-api-tutorials-voice-and-video-calls.html).
+* Voice & Video Calls are enabled by default in your LivePerson Conversational Cloud account. Please contact your LivePerson account manager to have this feature enabled or disabled for you.
 
 **User (Agent/Consumer):**
-* The Agent must use Chrome, Firefox or Safari.
-* On Visitor side, Chrome (Desktop/Android), Firefox (Desktop) and Safari (Desktop/iOS) are supported. Only the two latest versions of those browsers are supported and have been tested.
-* Agent and Visitor must have a camera and/or microphone connected to their device.
+* Agent Workspace agents must use Chrome, Firefox, Safari or Edge (Chromium) browsers. Mobile agents on the Agent App can use Android or iOS.
+* On consumer side, Chrome (Desktop/Android), Firefox (Desktop), Safari (Desktop/iOS) and Edge (Chromium, Desktop) are supported. Only the two latest versions of those browsers are supported.
+* Agent and consumer must have a microphone and a camera (for calls with video) connected to their device.
 
 **Your website:**
 * Your website must use HTTPS. HTTP-only websites are not supported.
-* All website pages must be tagged. This includes the page from where the session is started, and all pages which are visited during navigation.
+* All website pages must be tagged with the LivePerson monitoring tag. This includes the page from where the session is started, and all pages which are visited during navigation.
 * The LivePerson tag must be deployed in the topmost frame of the page.
 * Your website must adhere to HTML, CSS and JavaScript standards
 **Note:** Your website should not overwrite core JavaScript functions, for example window.addEventListener.
@@ -76,16 +105,18 @@ On mobile devices that have a front and backward facing camera, an additional bu
 **Network:**
 * The video and audio streams are transferred via a peer-to-peer connection between consumer and agent. It is recommended to check that the network on agent side supports WebRTC based peer-to-peer connections (https://test.webrtc.org/).
 * If there is an extremely high network latency or unstable network connection, the call may be dropped.  
-* The agent and the consumer have an available bandwidth of 2,000 kbit/s in downstream and 500 kbit/s in upstream.
+* For calls with both voice and video, the agent and the consumer are recommended to have an available bandwidth of 2,600 kbit/s upstream and downstream. The call will still function with 1,100 kbit/s but the quality will be degraded automatically.
+* For voice only calls, a bandwidth of 600 kbit/s upstream and downstream is sufficient.
 
-## Configuration
-
-{: .notice}
-**Please note:** This feature requires enablement. Please speak to your LivePerson representative for more information.
-
-Once enabled, profiles can be used to allow video and voice calls only for a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, the “Initiate live video” permission will allow video calls.
-
-For support calls on different devices and networks, additional video relay infrastructure is required to cover scenarios in which a peer to peer connection is not possible. It is recommended to work with the LivePerson support team to verify that your network infrastructure can support peer to peer connections. On the consumer side, this cannot be guaranteed and calls might require an additional relay server. For testing purposes, LivePerson will provide such a server. For production deployments, brands can set up their own infrastructure. Your LivePerson representative can assist you with that step and also outline alternatives to hosting your own infrastructure.
+**Firewall:**
+* Firewalls must allow for WebRTC to create both a peer-to-peer connection or a relay connection for the video and audio data. Peer-to-peer because it has the least latency and relay because consumers can have incompatible networks.
+* Allow WebRTC, STUN and TURN traffic on the appropriate ports:
+  * 443
+  * 3478 TCP & UDP
+  * 5004 UDP
+  * 5349 TCP
+  * 10,000 - 60,000 UDP
+* Allow relay connections to the configured STUN and TURN servers. Details on the default servers (provided by Twilio) can be found here: https://www.twilio.com/docs/stun-turn/regions.
 
 ## Security
 
@@ -110,4 +141,5 @@ HTTPS is required by default for communication between browser clients with the 
 ## Limitations
 
 1. Voice and Video calls are only supported on Web Messaging - not live chat.
-2. Voice and Video calls can only be initiated on supported browsers and operating systems, see requirements section. Once enabled, the invitation buttons on the agent side are shown on all conversations, not only web messaging conversations. If the channel (e.g WhatsApp or SMS) does not support voice and video calls, no invitation is shown on the consumer side.
+2. Only the Web Messaging channel is supported. Agents will not be able to send invitations to consumers on other channels (such as WhatsApp, SMS or Facebook).
+3. Invitations can be sent to unsupported browsers, but the call will not start and both agent and consumer will be shown an error message.
