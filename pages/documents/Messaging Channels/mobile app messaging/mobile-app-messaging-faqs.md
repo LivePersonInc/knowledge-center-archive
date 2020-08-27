@@ -32,8 +32,7 @@ redirect_from:
 **A:** The SDK footprint is very low in terms of memory and CPU usage. While the messaging feature is in the foreground, the SDK consumes and processes data (depending on usage) in order to sync with the servers. After leaving the conversation screen, the SDK actively disconnects any redundant networking activity.
 
 ### Q: How does the integration of messaging impact app size?
-
-**A:** Android utilizes approximately 2MB with external required dependencies. iOS utilizes approximately 4MB.
+**A:** For Android, the size of the SDK once installed utilizes approximately 4MB with external required dependencies. For iOS, the size of the SDK once installed utilizes approximately 3.5MB.
 
 ### Q: How much usage data does messaging expend?
 
