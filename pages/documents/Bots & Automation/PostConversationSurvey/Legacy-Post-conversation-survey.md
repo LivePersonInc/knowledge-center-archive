@@ -1,22 +1,22 @@
 ---
-pagename: Post conversation survey bot
+pagename: LEGACY Post-Conversation Survey bot
 categoryName: Getting started
-subCategoryName: ''
+subCategoryName: Post-conversation surveys
 indicator: messaging
-subtitle: Collect feedback from consumers at the end of a conversation without utilizing
-  the time of a human agent
-level3: ''
-permalink: ai-bots-automation-post-conversation-survey-bot.html
-isTutorial: false
+subtitle: Collect feedback from consumers at the end of a conversation without utilizing the time of a human agent
+level3: Getting started
+permalink: ai-bots-automation-post-conversation-surveys-legacy-post-conversation-survey-bot.html
+isTutorial: true
 isNew: false
-date: 2019-02-18 13:54:54 +0000
+date: 2019-08-12 13:54:54 +0000
 redirect_from:
   - using-forms.html
   - bots-automation-post-conversation-survey.html
+  - ai-bots-automation-post-conversation-survey-bot.html
 ---
 
 {: .important}
-Post-Conversation Survey (PCS) functionality is now supported by Conversation Builder. No new enhancements will be done to the Bot Studio version of PCS, described on this page. LivePerson recommends that customers use Conversation Builder to [build post-conversation surveys](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html). To learn more, please contact your LivePerson account manager.
+This topic discusses a legacy solution for post-conversation surveys (PCS) and is made available for the benefit of brands using this solution (creating survey bots in Bot Studio). If you're new to survey bots, please see [this topic](https://developers.liveperson.com/conversation-builder-bots-post-conversation-survey-bots.html) in the Developer Center for information on how to build survey bots using Conversation Builder.
 
 The post-conversation survey bot gives brands the ability to collect feedback from consumers at the end of a conversation, without utilizing the time of a human agent. The bot can ask specialized questions, designed to provide CSAT, FCR and NPS metrics for the brand, questions that reflect a brand’s custom KPIs, or free text questions. This feature is ideal for brands to measure agent and skill performance and identify opportunities to improve on quality targets.
 
@@ -238,7 +238,7 @@ The new sheet contains an additional set of metrics and attributes which support
 * Survey activity and performance, allowing to monitor the response rates for example
 * Question level performance, allowing to monitor the avg. time to respond for example
 
-In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model to not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-messaging-survey-dashboard.html) messaging dashboards for more information.
+In a single messaging conversation followed by the submission of a survey by the consumer, multiple agents and skills may be assigned. To eliminate double counting, and to prepare for our phase 2 development (which expands the attribution model to not just the last agent assigned), the data model has been prepared accordingly. Please see the [post conversation survey](data-reporting-messaging-messaging-dashboards-survey-dashboard-for-messaging.html) messaging dashboards for more information.
 
 ## Design
 
