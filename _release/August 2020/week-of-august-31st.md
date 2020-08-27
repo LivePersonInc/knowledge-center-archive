@@ -35,7 +35,6 @@ The updated developer documentation for CoBrowse can be found [here](https://dev
 
 ### Environment Requirements for iOS Mobile SDK 6.0
  * iOS Mobile Messaging SDK 6.0.0 is supported on iOS versions 11 through 13. 
- * iOS Mobile Messaging SDK 6.0.0 supports Xcode 12.
  * iOS Mobile Messaging SDK 6.0.0 is available on Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15), and Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 
 ## [Mobile SDK] SDK support of XCFramework - new format of packaging frameworks
