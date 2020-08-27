@@ -318,11 +318,19 @@ Structured Content allows brands to send messages to customers in a variety of w
  * Description (maximum 2000 characters)
  * A list of suggested replies and suggested actions (maximum 4)
  
-3. **ich Carousels** - Carousels string together multiple rich cards, allowing users to compare items and react to each individually. Carousels may contain a minimum of two and a maximum of ten rich cards. Rich cards within carousels must conform to general rich card requirements for content and height.
+3. **Rich Carousels** - Carousels string together multiple rich cards, allowing users to compare items and react to each individually. Carousels may contain a minimum of two and a maximum of ten rich cards. Rich cards within carousels must conform to general rich card requirements for content and height.
 
+Quick replies: 
 ![](img/week-of-august-31-8.png)
 
-![](img/week-of-august-31-9.png)
+Image Carousel: 
+![](img/week-of-august-31-12.png)
+
+Rich Carousel: 
+![](img/week-of-august-31-13.png)
+
+Rich Card: 
+![](img/week-of-august-31-14.png)
 
 ## [Google Business Messages] Typing indication for agents
 ### Type: New functionality (GBM 3.23.0)
