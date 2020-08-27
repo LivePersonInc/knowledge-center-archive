@@ -85,6 +85,7 @@ An SDK enhancement has been added that will prevent a second customer from viewi
 Users using the enhanced Agent Workspace have the ability to share hyperlinks with consumers during a messaging conversation. Now, they can share hyperlinks with consumer's that are messaging over the Mobile SDK as well.
 
 **To enable:**
+* Please see the [Knowledge Center overview](messaging-channels-rich-conversations-hyperlinks-overview.html)
 * SDK configuration - New Attributes:
  * markdownHyperlinkFromAgent - Enable or disable hyperlink support. Agent won’t be able to send hyperlink messages if set to false.
   * Type: bool
