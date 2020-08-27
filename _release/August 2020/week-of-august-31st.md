@@ -302,3 +302,38 @@ It’s only possible to send one bot action. So it’s not possible to simultane
 The ‘View Bot’ configuration was not visible in the bot’s dashboard. With this fix, the users are now able to access the bot’s configuration when they are in the dashboard.
 
 ![](img/week-of-august-31-7.png)
+
+## [Google Business Messages] Structured Content support 
+### Type: New functionality (GBM 3.23.0)
+
+Structured Content allows brands to send messages to customers in a variety of ways and formats, making conversations more flexible - able to handle new and varying types of interactions. This feature enriches the consumer experience by allowing the agent to share Quick Replies, Rich Cards and Carousels with the consumer via Google Business Messages.
+
+**GBM Rich Conversation capabilities include:**
+
+1. **Quick Replies** - Quick replies are a group of actionable items (chips) that appear as part of the conversation, making it easier to have an automated conversation with consumers. It creates an easier, faster way for consumers to respond to messages.You can add up to 13 quick replies while having a conversation from agent to consumer.
+
+2. **Rich Cards** - Rich cards allow the agent to send multiple units of information in a single message. Rich cards can contain the following items:.
+ Media (JPG, JPEG, or PNG, maximum 5 MB)
+ * Title (maximum 200 characters)
+ * Description (maximum 2000 characters)
+ * A list of suggested replies and suggested actions (maximum 4)
+ 
+3. **ich Carousels** - Carousels string together multiple rich cards, allowing users to compare items and react to each individually. Carousels may contain a minimum of two and a maximum of ten rich cards. Rich cards within carousels must conform to general rich card requirements for content and height.
+
+![](img/week-of-august-31-8.png)
+
+![](img/week-of-august-31-9.png)
+
+## [Google Business Messages] Typing indication for agents
+### Type: New functionality (GBM 3.23.0)
+
+Agents using Google Business Messages will now have typing indications. Typing events from the users tells the agents that the user is composing a response or that backend automation is processing their question or request. 
+
+![](img/week-of-august-31-10.png)
+
+## [Google Business Messages] User identity (Display Name)
+### Type: New functionality (GBM 3.23.0)
+
+Agents will be able to see the user's display name using the user's locale determined by the device's settings.
+
+![](img/week-of-august-31-11.png)
