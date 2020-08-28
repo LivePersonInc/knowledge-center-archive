@@ -36,6 +36,14 @@
         - pagename: SMS best practices
         - pagename: Using SMS with Twilio
         - pagename: Generate a Twilio SMS number with LivePerson
+    - subcategoryname: Apple Business Chat
+      pages:
+        - pagename: Overview
+        - pagename: Setting Up Apple Business Chat
+        # - pagename: Business Chat Policies and Best Practices
+        # - pagename: Entry Points and Supported Messaging Features
+        # - pagename: Post-Launch Care and Maintenance
+        # - pagename: Troubleshooting
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
     - subcategoryname: Google My Business
