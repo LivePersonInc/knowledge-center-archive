@@ -31,7 +31,7 @@ Click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-inte
 ### Step 1: Accessing the LivePerson Intent Analyzer 
 
 * To access the LivePerson Intent Analyzer, log in to the Conversational Cloud and find it in the Quick launch menu at the bottom right of the screen.
-* Navigate to Intent Analyzer, you’ll be greeted with the intro dashboard. 
+* Navigate to the LivePerson Intent Analyzer, you’ll be greeted with the intro dashboard. 
 
 ![](img/Getting-started-intent-manager-1.png)
 ![](img/Getting-started-intent-manager-2.png)
@@ -39,14 +39,13 @@ Click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-inte
 ### Step 2: Create a domain by selecting a prebuilt domain
 
 There are currently 4 industry-specific domains: Telecommunications, Financial services, Airlines, and Insurance; there is also a generic domain called Cross-vertical. Cross vertical is a good starting point to see how the tool works especially if your business doesn't fit into any of the other categories.
-
+* Press "add" and the pre-built domain will be added to your account. 
+* You’re all now all set with your first domain! 
+Please note that this can be customized later.
 For more information on how to customize the Intent Manager, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-overview.html)
 
-![](img/Getting-started-intent-manager-3.png)
-![](img/Getting-started-intent-manager-4.png)
-
-* Then press "add" and the pre-built domain will be added to your account. 
-* You’re all now all set with your first domain! Please note that this can be customized later.
+![](img/Getting-started-intent3.png)
+![](img/Getting-started-intent4.png)
 
 ### Step 3: Create  ustomer conversation data
 * Click on this link to start mock conversations. Ask some questions that will trigger the intent in your domain. For example: I would like to pay my bill. 
