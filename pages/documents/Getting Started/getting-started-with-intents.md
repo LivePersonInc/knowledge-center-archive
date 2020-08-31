@@ -48,7 +48,7 @@ For more information on how to customize the Intent Manager, click [here](https:
 ![](img/Getting-started-intent4.png)
 
 ### Step 3: Create  customer conversation data
-* Click on this link to start mock conversations. Ask some questions that will trigger the intent in your domain. For example: I would like to pay my bill. 
+* Click on [this link](https://developers.liveperson.com/web-messaging/emulator.html) to start mock conversations. Ask some questions that will trigger the intent in your domain. For example: I would like to pay my bill. 
 * If you have your LivePerson Intent Analyzer dashboard open, you will see the intents classified in real time.
 
 ### Step 4: Get to know the dashboard
