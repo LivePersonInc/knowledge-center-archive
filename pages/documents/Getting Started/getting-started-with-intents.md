@@ -42,8 +42,8 @@ There are currently 4 industry-specific domains: Telecommunications, Financial s
 
 For more information on how to customize the Intent Manager, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-overview.html)
 
-![](img/Getting-started-intent-manager-3.png)
-![](img/Getting-started-intent-manager-4.png)
+![](img/Getting-started-intent3.png)
+![](Getting-started-intent4.png)
 
 * Then press "add" and the pre-built domain will be added to your account. 
 * You’re all now all set with your first domain! Please note that this can be customized later.
