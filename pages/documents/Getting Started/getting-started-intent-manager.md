@@ -29,8 +29,8 @@ Getting started
 To access Intent Analyzer, log in to the Conversational Cloud and find it in the Quick launch menu at the bottom right of the screen.
 Navigate to Intent Analyzer, you’ll be greeted with the intro dashboard
 
-IMAGE1
-IMAGE2
+![](img/Getting-started-intent-manager-1.png)
+![](img/Getting-started-intent-manager-2.png)
 
 ## Step 2 Create a domain by selecting a prebuilt domain
 
@@ -39,8 +39,8 @@ Cross vertical is a good starting point to see how the tool works especially if 
 
 For more information on how to customize the Intent Manager, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-overview.html)
 
-IMAGE3
-IMAGE4
+![](img/Getting-started-intent-manager-3.png)
+![](img/Getting-started-intent-manager-4.png)
 
 Then press "add" and the pre-built domain will be added to your account. 
 You’re all now all set with your first domain! Please note that this can be customized later.
@@ -50,7 +50,7 @@ Click on this link to start mock conversations. Ask some questions that will tri
 If you have your Intent Analyzer dashboard open, you will see the intents classified in real time.
 
 ## Step 4: Get to know the Dashboard
-IMAGE 5
+![](img/Getting-started-intent-manager-5.png)
 
 * HEADERS: All tables in the dashboards can be sorted by clicking on any of the headers.
 AUTO REFRESH: The auto refresh setting allows you to set how often the dashboard refreshes. Setting it to the lowest time of 15 seconds will give you a live view into your intents.
