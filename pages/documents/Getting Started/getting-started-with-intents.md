@@ -28,7 +28,7 @@ Click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-inte
 
 ## Getting started
 
-### Step 1: Accessing the LivePerosn Intent Analyzer 
+### Step 1: Accessing the LivePerson Intent Analyzer 
 
 * To access the LivePerson Intent Analyzer, log in to the Conversational Cloud and find it in the Quick launch menu at the bottom right of the screen.
 * Navigate to Intent Analyzer, you’ll be greeted with the intro dashboard. 
