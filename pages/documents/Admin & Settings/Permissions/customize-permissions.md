@@ -253,6 +253,7 @@ The following core permissions are included with the Admin role and cannot be di
 * Ability to configure the authentication server
 * Ability to configure monitored domains
 * View the web tag page
+* View, Customize and share reports in Analytics Builder.
 
 
 | Admin permissions | Permission definition | Default state (role) |
