@@ -42,8 +42,8 @@ There are currently 4 industry-specific domains: Telecommunications, Financial s
 
 For more information on how to customize the Intent Manager, click [here](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-overview.html)
 
-![](img/Getting-started-intent3.png)
-![](Getting-started-intent4.png)
+![](img/Getting-started-intent-manager-3.png)
+![](img/Getting-started-intent-manager-4.png)
 
 * Then press "add" and the pre-built domain will be added to your account. 
 * You’re all now all set with your first domain! Please note that this can be customized later.
@@ -60,12 +60,12 @@ AUTO REFRESH: The auto refresh setting allows you to set how often the dashboard
 * SEARCH: You are able to search for keywords in messages or metadata like conversation IDs.
 * FILTERS: When you add a filter, you will see many different data points to filter by Skills, Groups, and Agents.
 * TIME RANGE: You have three options to select a time range to filter your intent data.
-* INTENT TRENDS: The iintent trends view gives a high level view of which intents are happening in your contact center including::
-- Topline Metrics
-- Top Intents
-- Intents with Lowest Confidence Score
-- Intents with Lowest MCS
-- KPIs
+* INTENT TRENDS: The iintent trends view gives a high level view of which intents are happening in your contact center including:
+  * Topline Metrics
+  * Top Intents
+  * Intents with Lowest Confidence Score
+  * Intents with Lowest MCS
+  * KPIs
 
 ## Next Steps
 * **Connect to Conversational Cloud:** In order to see conversational data flowing in Intent Manager you will need to connect the LivePerson Conversation Cloud to your website or messaging channels. You can follow the [quick start guide here](https://knowledge.liveperson.com/getting-started-quick-start-guides-web-messaging-quick-start.html) to get started with web-messaging. 
