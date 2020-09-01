@@ -217,6 +217,18 @@ Other invitation statuses include:
 
 When there’s no connectivity, the “fill in form” link will be disabled and greyed out.
 
+Configuration for the form invitation, alerts and error message texts (located in the [string localization keys(https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-string-localization-localization-keys.html)):
+
+| STRING NAME | USED IN |
+|-------------|-----------|
+| secureFormConsumerSubmissionMessage | "I have submitted the '%@' form" | 
+| secureFormErrorMessage | "There was a problem opening this form. Please ask the agent to resend the form." | 
+| secureFormExpiredMessage | "Secure form has expired. Please ask the agent to resend the form." | 
+| secureFormFillFormButtonTitle |"Fill in form"|
+| secureFormSubmittedMessage | "This form has been submitted and cannot be reopened for security reasons."
+| secureFormToFillInMessage | "This is a secure form. You have 30 minutes to fill in the form before it expires."
+| secureFormViewedMessage | "This form has already been viewed. Please ask the agent to resend the form."|
+
 #### Android
 
 This is how the secure form invitation will display to the consumer on the Android mobile-app messaging SDK:
