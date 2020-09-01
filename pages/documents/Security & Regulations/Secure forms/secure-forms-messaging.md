@@ -242,6 +242,21 @@ Other invitation statuses include:
 2. Error - this status message will display if there has been an error in loading the form.
 3. Form submitted - this status message will display if the form has already been submitted and cannot be reopened for security reasons.
 
+Configuration for the form invitation, alerts and error message texts (located in the [string localization keys](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-string-localization-string-values.html)):
+
+| STRING NAME | USED IN | DEFAULT VALUE| 
+|-------------|-----------|-------------|
+| lpmessaging_ui_fill_in_form_text_button | PCI form bubble action button text.| Fill in form | 
+| lpmessaging_ui_pci_leave_dialog_btn_negative | Negative button text of the PCI dialog before leaving unfilled form.| STAY | 
+| lpmessaging_ui_pci_leave_dialog_btn_positive | Positive button text of the PCI dialog before leaving unfilled form.|OK | 
+| lpmessaging_ui_pci_leave_dialog_description | Body message of the PCI dialog before leaving unfilled form.| Once you leave the secure form, you will not be able to access it again. | 
+| lpmessaging_ui_pci_leave_dialog_title | Title of the PCI dialog before leaving unfilled form.| Are you sure? | 
+| lpmessaging_ui_secure_form_consumer_submitted_message| Consumer-Submission bubble confirming form submission| I have submitted the %s form | 
+| lpmessaging_ui_secure_form_error_message | PCI form bubble message - state error | There was a problem opening this form. Please ask the agent to resend the form.|
+|lpmessaging_ui_secure_form_expired_message | PCI form bubble message - state expired | Secure form has expired. Please ask the agent to resend the form.|
+| lpmessaging_ui_secure_form_submitted_message | PCI form bubble message - state submitted | This form has been submitted and cannot be reopened for security reasons.|
+| lpmessaging_ui_secure_form_to_fill_in_message |PCI form bubble message | This is a secure form. Information entered here is protected and cannot be accessed once submitted.|
+
 #### Form web view
 
 Once the consumer has tapped the ”Fill in form” button, a web view overlay is displayed containing the secure form.
