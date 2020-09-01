@@ -219,7 +219,7 @@ When there’s no connectivity, the “fill in form” link will be disabled and
 
 Configuration for the form invitation, alerts and error message texts (located in the [string localization keys(https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-string-localization-localization-keys.html)):
 
-| STRING NAME | USED IN |
+| ATTRIBUTE NAMESTRING | LOCALIZATION |
 |-------------|-----------|
 | secureFormConsumerSubmissionMessage | "I have submitted the '%@' form" | 
 | secureFormErrorMessage | "There was a problem opening this form. Please ask the agent to resend the form." | 
