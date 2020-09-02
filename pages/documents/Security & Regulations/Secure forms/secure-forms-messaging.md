@@ -217,7 +217,7 @@ Other invitation statuses include:
 
 When there’s no connectivity, the “fill in form” link will be disabled and greyed out.
 
-### Configuration for the form invitation, alerts and error message texts (located in the [string localization keys(https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-string-localization-localization-keys.html)):
+### Configuration for the form invitation, alerts and error message texts located in the [string localization keys](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-string-localization-localization-keys.html):
 
 | ATTRIBUTE NAMESTRING | LOCALIZATION |
 |-------------|-----------|
@@ -254,7 +254,7 @@ Other invitation statuses include:
 2. Error - this status message will display if there has been an error in loading the form.
 3. Form submitted - this status message will display if the form has already been submitted and cannot be reopened for security reasons.
 
-### Configuration for the form invitation, alerts and error message texts (located in the [string localization keys](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-string-localization-string-values.html)):
+### Configuration for the form invitation, alerts and error message texts located in the [string localization keys](https://developers.liveperson.com/mobile-app-messaging-sdk-for-android-string-localization-string-values.html):
 
 | STRING NAME | USED IN | DEFAULT VALUE| 
 |-------------|-----------|-------------|
