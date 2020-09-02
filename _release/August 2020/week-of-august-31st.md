@@ -50,14 +50,6 @@ Please see the [quick start guide](https://developers.liveperson.com/mobile-app-
   * Xcode11 and above
   * Swift 5.1 and above
 
-## [Mobile SDK] Supporting Xcode 12 beta version
-### Type: Enhancement (iOS SDK 6.0)
-
-In order to allow brands and their developers to prepare for iOS14 while building and getting ready with their apps for next iOS launch, this version will support compiling the app with Xcode 12 beta version and Swift 5.3.
-
-**To enable:**
-Please see the [quick start guide](https://developers.liveperson.com/mobile-app-messaging-sdk-for-ios-quick-starts-quick-start-6-0-and-up-xcframework-support.html) available in the Developer Center.
-
 ## [Mobile SDK] Historical Data fetch (Masking)
 ### Type: Enhancement (iOS SDK 6.0)
 
