@@ -143,5 +143,33 @@ Only messaging conversations are included within the Performance Optimizer analy
 
 ![](img/Performance-portal-RN.png)
 
+## [Agent App] All updates to the Agent App on Android
+### Type: Enhancements
+
+**Consumer Info**
+When messaging the the consumer, tapping on the consumer's name at the top shows information about the consumer. It also the source of their conversation and their WhatsApp phone number, if applicable. 
+
+![](img/ConsumerInfo.jpg)
+
+**WhatsApp Audio**
+When messaging, if the consumer is connected by WhatsApp and sends an audio message, the application will present the audio with a headphone icon. Clicking the download button will download the message and then it can be played with the Play button. 3 screenshots with WhatsAppAudio1,2,3.
+
+![](img/WhatsAppAudio1.jpg)
+
+**Video calls**
+Video calls within the app is now available on mobile.
+To start a call from a conversation 
+a. Click on the vertical ellipse at the top
+b. Select Start Video Call
+c. The first time a video call is made after app installation you need to accept camera and microphone permissions (two different permission prompts).
+d. After that the workflow is the same as on web, the consumer will need to accept the call and then the video will begin
+
+{: .notice} 
+Video calls are only available for web messaging conversations.
+
+![](img/Android-Agent-AppVideo3.jpg)
+
+
+
 
 
