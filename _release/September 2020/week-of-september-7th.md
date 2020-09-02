@@ -1,11 +1,11 @@
 ---
-pagename: Week of September 6th
+pagename: Week of September 7th
 categoryName: Release notes
 subCategoryName: Web messaging
 indicator: both
 subtitle: ''
 level3: ''
-permalink: release-notes-2020-september-week-of-september-6th.html
+permalink: release-notes-2020-september-week-of-september-7th.html
 isTutorial: false
 isNew: false
 date: '2020-09-01'
