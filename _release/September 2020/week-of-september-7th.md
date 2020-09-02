@@ -122,3 +122,26 @@ Specifying valid dates for an article is useful when you have an article that’
 
 ![](img/kb_validDates.png)
 
+## Performance Portal
+### Type: New Data Analytics Product Dashboard 
+
+{: .notice} 
+**Please note:** This is a paid for product and will only be available upon contract update 
+
+The Performance Portal is a global application within Conversational Cloud that displays data in clear, consolidated views with relevant context such as industry benchmarks, account settings, and metric correlations.   At the core of the portal is a set of interactive dashboards aligned to 4 pillars of measurement: Operations, Automation, Intent, and Funnel.  Each pillar contains a dashboard module and enablement framework that clearly articulates how primary and secondary KPIs influence success and align to the 4E framework. 
+
+The Performance Portal contextualizes data through anonymized brand comparisons, industry benchmarks, segmentations, and KPI targets. Narrative-driven dashboards and data contextualization allow people to diagnose issues in a faster, more intelligent way.  Successes and failures can be generalized and mapped to specific actions, and LivePerson expertise can be injected directly into Analytics views.  The net output of AI and Success Science within the Performance Portal is a simple graphic interface preventing the need for high cognitive skills such as complex information processing, advanced data analysis, and mathematical skills.  This provides users of the Portal not only with results, but with actionable information and recipes for success.
+
+**How to enable**
+Please contact your account team 
+
+**Dependencies**
+The Performance Portal only reflects messaging data. Brands who have not converted to messaging, or have partial messaging conversations will not see their chat data. 
+
+**Limitations**
+Only messaging conversations are included within the Performance Optimizer analytics dashboard. 
+
+![](img/Performance-portal-RN.png)
+
+
+
