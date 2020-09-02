@@ -52,7 +52,7 @@ For ongoing conversations: a conversation is broken into sessions by the google 
 ![](img/week-of-september-6-2.png)
 
 ## [Conversation Builder] Dialog Import
-### Type: New functionality (CB v5.0)
+### Type: New functionality 
 
 {: .notice} 
 **Please note:** This feature is available for all channels supported by the Conversational Cloud platform.
@@ -62,7 +62,7 @@ In the Conversation Builder, you can now import dialogs from one bot to another 
 ![](img/dialogs_import1.png)
 
 ## [Conversation Builder] Permanent variables
-### Type: Enhancement (CB v5.0)
+### Type: Enhancement 
 
 {: .notice} 
 **Please note:** This enhancement will be available to all clients as part of a future release.
@@ -74,7 +74,7 @@ These changes are backwards-compatible and will not adversely affect existing bo
 ![](img/foreverOption_RN.png)
 
 ## [Intent Builder] Pre-built domains
-### Type: New feature (CB v5.0)
+### Type: New feature 
 
 {: .notice} 
 **Please note:** This feature is available for all channels supported by the Conversational Cloud platform.
@@ -92,7 +92,7 @@ For more information, click [here](https://knowledge.liveperson.com/getting-star
 ![](img/Getting-started-intent4.png)
 
 ## [Intent Builder] Regular Expression entities
-### Type: New feature (CB v5.0)
+### Type: New feature 
 
 {: .notice} 
 **Please note:** This feature is available for all channels supported by the Conversational Cloud platform.
@@ -111,7 +111,7 @@ Regular Expression entities are available only in domains using the LivePerson N
 ![](img/Entity_details.png)
 
 ## [Knowledge Base] Valid dates for articles 
-### Type: Enhancement (CB v5.0)
+### Type: Enhancement 
 
 {: .notice} 
 **Please note:** This feature is available for all channels supported by the Conversational Cloud platform
