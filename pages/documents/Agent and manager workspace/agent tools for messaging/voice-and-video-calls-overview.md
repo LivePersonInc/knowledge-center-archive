@@ -13,7 +13,7 @@ isNew: false
 
 ## Introduction
 
-The Voice & Video Calls for Web Messaging solution allows brands to conduct voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements and its configuration options.
+Voice and video Calls for Web Messaging allow brands to conduct via voice or video calls with consumers from within a Web Messaging conversation. The feature is integrated into the Agent Workspace and the Engagement Window and requires no additional software. This document provides an overview of the feature, its requirements, and its configuration options.
 
 ## Why use voice and video calls?
 
@@ -60,7 +60,7 @@ Here is a demonstration of a video call with consumer on the left and agent on t
 
 ## Configuration
 
-[Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/disallow video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. Enabling the “Initiate voice conversation” permission will allow voice calls, and the “Initiate live video conversation” permission will allow video calls.
+Voice and video calls are automatically enabled. [Agent Profiles and Permissions](admin-settings-permissions-profiles.html) can be used to allow/restrict video and voice calls for all agents or only a subset of agents. The permissions are part of the Agent profile. The persmissions that control this feature are the “Initiate voice conversation” permission to allow voice calls, and the “Initiate live video conversation” permission to allow video calls.
 
 ![](img/voice-and-video-agent-profile-permissions.png)
 
