@@ -2,7 +2,7 @@
 pagename: Goal tracker report
 categoryName: Data & reporting
 subCategoryName: Messaging
-indicator: both
+indicator: Messaging
 subtitle: This dashboard includes raw data for every goal reached in any of the selected
   account’s campaigns
 level3: Messaging Dashboards
@@ -116,3 +116,10 @@ Revenue total: 100$.
 ## Metrics:
 
 For all metrics available within this dashboard please search the Analytics Builder Data Metrics by the name of the dashboard [here](https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
+
+## Settings:
+The Goal Tracker Report fro messaging shows data based on the configuration of the Contribution Window (0,1,7,14,31) and the 'Messaging conversion attribution model' : First, Last, All, defined under the Campaign area.
+First- apply to the first Agent assigned to the conversation.
+Last- apply to the last Agent assigned to the conversation, exludinfging the out of the Box PCS Bot.
+All- apply to all agents participating in the Conversation.
+
