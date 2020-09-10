@@ -62,6 +62,23 @@ Up till now, when users scrolled down in the Manager Workspace, the header which
 
 ![](img/week-of-september-14-5.png)
 
+## Facebook Referral param feature
+### Type: Enhancement (v3.23.7) 
+
+The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
+
+http://m.me/<PAGE_NAME>?ref=<REF_PARAM>
+
+Based on the consumer intent, it will enable brands to pass the "ref" parameter into the conversation.This can then be used for routing or shown to an agent as ‘status’ SDE in the consumer info for reference.
+
+**How to enable:**
+The brand must resubscribe to the Facebook page again in order to use this feature.
+
+**Limitations**
+* The referral parameter must be a string that may be up to 2,083 characters in length.
+* The page the app is connected to must be published to receive the referral parameter for all users, except those that have the developer, tester, or admin role for your bot.
+* The referral parameter is supported in the Messenger web client, as well as the Messenger app for iOS and Android version 92.0 and above.
+
 ## Missing notifications in chat workspace when conversation is in focus
 ### Type: Bug fix (LE UI 12.5) 
 
