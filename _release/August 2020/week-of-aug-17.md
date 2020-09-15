@@ -120,7 +120,7 @@ The fix for this bug uses the correct time intervals for both fair and final war
 
 Available to all customers? Yes
 
-The Secure Forms page in Admin Console shows the error when using Thai language in the Form Name. This task is to fix that issue. Keep in mind that this is currently turned on for FAST RETAILING CO., LTD. - APAC Clone Account (80009014). Please talk to the Support team to turn this on fully.
+The Secure Forms page in Admin Console shows the error when using Thai language in the Form Name. This task is to fix that issue. Please talk to the Support team to turn this on fully.
 
 
 
