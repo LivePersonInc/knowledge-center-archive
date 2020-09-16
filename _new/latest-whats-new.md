@@ -1,11 +1,11 @@
 ---
-pagename: Latest what's new
+pagename: August what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights include Intent Powered Queue Prioritization, Dialog Templates & more
 level3: ''
-permalink: whats-new-latest-whats-new.html
+permalink: whats-new-august-whats-new.html
 isTutorial: false
 isNew: false
 
