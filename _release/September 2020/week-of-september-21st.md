@@ -88,7 +88,8 @@ In the agent Activity, the COBROWSE chat metrics were exposed:
 | CHAT COBROWSE DURATION (SEC)  | The total duration of COBROWSE sessions for Chat  |  
 | NO. OF CHAT COBROWSE SESSIONS  | Number of COBROWSE sessions for Chat |  
 
-New metrics for Messaging and StandAlone( CoBrowse for Voice)  were added:
+New metrics for Messaging and StandAlone( CoBrowse for Voice) were added:
+
 | Metric  | Description |  
 |---------|-------------|
 | CHAT COBROWSE DURATION (SEC)  | The total duration of standalone collaboration sessions ( CoBrowse for Voice)  |  
@@ -104,6 +105,7 @@ New metrics for Messaging and StandAlone( CoBrowse for Voice)  were added:
 | CHANNEL | Channel can be: Messaging, Chat, Standalone - mainly for CoBrowse for voice.| 
 
 ### Business Activity for Messaging, Performance for Messaging:
+
 | Metric  | Description |  
 |---------|-------------|
 | MESSAGING COLLABORATION DURATION (SEC)| The total duration of messaging collaboration sessions.|
