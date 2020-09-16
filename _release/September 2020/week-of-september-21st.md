@@ -38,3 +38,37 @@ The Android Mobile Messaging SDK version 5.4.0 uses:
 * Target API version 29
 * Maps SDK "com.google.android.gms:play-services-maps:16.1.0"
 (unchanged from version 5.3.0)
+
+## Auto Logout - Improve logout options
+### Type: New functionality (Android SDK v4.6/5.4)
+
+An SDK enhancement has been added that will prevent a second customer from viewing the chat history of the customer who chatted before them, while optimizing the flow in a way that clears just the necessary set of user information in a quick manner. This new feature adds an additional layer of security to our brand’s while verifying that conversation history and information will only be available to the consumer that was logged in to the app at the time of the conversation. 
+
+
+**Please note - there a branding.xml attribute update:**
+lp_hide_ui_until_auth is removed. Previous conversations will now not be displayed automatically until the consumer's authentication information is validated. 
+
+## Android SDK crash due to empty recycler view object
+### Type: Bug fix (Android SDK v4.6/5.4)
+
+A crash that occurred when onSaveInstanceState method is called in SDK has been fixed. 
+
+## "link_preview_enable_feature" configuration is not working as expected 
+### Type: Bug fix (Android SDK v4.6/5.4)
+
+A bug was discovered that “link_preview_enable_feature” config can’t disable link preview. The configuration now supports enabling and disabling the link preview in the conversation. 
+
+## Failed to reconnect if LP token not expired
+### Type: Bug fix (Android SDK v4.6/5.4)
+
+A bug was discovered that caused Messaging.reconnect() not to work when the ‘token is expired’ flag was set to false. The new flow will include a reconnect method when the token is expired and the flag is not turned on, which means that the reconnect will be performed on any other IDP errors that are not expired JWT. 
+
+## iOS SDK version 6.0.1 is now available 
+
+**Environment Requirements:**
+* The iOS Mobile Messaging SDK version 6.0.1 is supported on iOS versions 11 through 13.
+* XCFramework is supported on CocoaPad versions 1.9.0 and greater.
+
+**Content:**
+* iOS SDK 6.0.1 contains same changes as [v6.0.0](release-notes-2020-august-week-of-august-31st.html)
+* This is an additional version that also compiles on the XCode 12 beta
