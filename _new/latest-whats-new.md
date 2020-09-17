@@ -112,11 +112,13 @@ Different channels offered are:
 - [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
 And more.
 
-![](img/Sept-whats-new-2.png)
+![](img/phones-whats-new.png)
                                                                                                   
 You can now get started with different messaging technologies through our [self-service onboarding](https://z1.le.liveperson.net/a/24002204/#/mng/data/sources) under Campaigns-->Data Sources-->Conversation Sources.
 Simply select the channel that you want to set up and fill out the profile info page.
 Our implementation teams will handle the rest of the setup.
+
+![](img/Datasource-whats-new.png)
 
 ## Facebook Referral parameter
 The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
