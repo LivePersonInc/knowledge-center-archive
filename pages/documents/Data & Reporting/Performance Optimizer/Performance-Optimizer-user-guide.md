@@ -65,7 +65,9 @@ Select the Configuration tab on the upper right corner.
 
 ## Creating a Line of Business 
 1. To create new LOBs, select the edit icon within the “Default LOB (All Data)” box or the “Add a new LOB” button at the bottom left of the Configuration screen.
+
 ![](img/datatransporter1.png)
+
 2. You willEnter the LOB Name 
 - Click Skills. A drop-down menu of ALL current Skills for the Account ID is displayed. Select all Skills that should be included within the LOB. 
 - Click Groups. A drop-down menu of ALL current Groups for the Account ID is displayed. Select all Groups that should be included within the LOB.
