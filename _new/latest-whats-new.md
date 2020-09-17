@@ -60,7 +60,7 @@ Onboarding is quick and effortless!
 Different channels offered are:
 - [WhatsApp Business](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)
 - [Apple Business Chat](https://knowledge.liveperson.com/messaging-channels-apple-business-chat-overview.html)
-- [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-my-business.html)
+- [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-business-messages.html)
 - [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
 
 And more.
