@@ -31,7 +31,9 @@ With the upgrade to the latest version, we recommend auditing your integration t
 
 ## Realtime Dashboard for Messaging - End of life 
 On December 31st 2020, the Realtime Dashboard for Messaging will be deprecated.
-The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html)
+The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. 
+
+Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html)
 
 ![](img/Whats-new-sept-1.png)
 
@@ -41,6 +43,7 @@ Microsoft 365 apps and services will no longer support Internet Explorer 11 (IE 
 For more information, please see the Microsoft announcement [here.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
 
 ## Features being released in the coming weeks
+
 ## Performance Optimizer
 At the core of the Performance Optimizer is a dashboard and enablement framework that clearly articulates how primary and secondary KPIs influence success and align to the LivePerson 4E Framework (TM) pillars of Efficiency, Effectiveness, Effort, and Emotion.
 The Performance Optimizer has anonymized brand comparisons, industry benchmarks, segmentations, and KPI targets.  
