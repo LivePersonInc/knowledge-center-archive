@@ -47,12 +47,12 @@ The Performance Optimizer has anonymized brand comparisons, industry benchmarks,
 A Configuration Engine within the Performance Portal allows brands to define reporting units and save data in relevant segmentations. 
 Narrative-driven dashboards and data contextualization allow people to diagnose issues in a faster, more intelligent way.
 
-![](img/PO-whats-new-sept.gif)
+![](img/PO-whatsnew.gif)
 
 ## Intent Manager 
 In the coming weeks, we have many exciting updates to the Intent Manager.
 
-![](img/Intent-manager-whats-new.gif)
+![](img/Intentmanager-whats-new.gif)
 
 New features will be added to Intent Discovery & Optimization to help brands discover new topics and quickly find diverse training phrases for building new intents. Brands will have the ability to create, save, and manage advanced filters, as well as customize and configure metric widgets to better suit different personas and use cases. 
 
