@@ -78,7 +78,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
   **Note:** Initial setup takes 3 business days, Google enables features every 2 weeks.
 
 {:start="2"}
-1.**Answer Card:** Allow customers to message when they Google your customer service or contact number
+1. **Answer Card:** Allow customers to message when they Google your customer service or contact number
 
 ![](img/google-business-messages-3.png)
 
