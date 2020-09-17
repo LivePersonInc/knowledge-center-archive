@@ -72,20 +72,20 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 
 ![](img/google-business-messages-2.png)
 
-**Overall setup effort:** Low
-**Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
-**Set up:** Complete and [Submit Registration Form](https://www.liveperson.com/gbm-registration-form/cs/), determine preferred entry points and define consumer experience (bot flow, etc.). 
-**Note:** Initial setup takes 3 business days, Google enables features every 2 weeks.
+  **Overall setup effort:** Low
+  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
+  **Set up:** Complete and [Submit Registration Form](https://www.liveperson.com/gbm-registration-form/cs/), determine preferred entry points and define consumer experience (bot flow, etc.). 
+  **Note:** Initial setup takes 3 business days, Google enables features every 2 weeks.
 
 {:start="2"}
-2.**Answer Card:** Allow customers to message when they Google your customer service or contact number
+1.**Answer Card:** Allow customers to message when they Google your customer service or contact number
 
 ![](img/google-business-messages-3.png)
 
-**Overall setup effort:** Low
-**Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
-**Set up:** Complete and [Submit Registration Form](https://www.liveperson.com/gbm-registration-form/cs/), determine preferred entry points and define consumer experience (bot flow, etc.). 
-**Note:** Initial setup takes 3 business days, Google enables features every 2 weeks.
+  **Overall setup effort:** Low
+  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
+  **Set up:** Complete and [Submit Registration Form](https://www.liveperson.com/gbm-registration-form/cs/), determine preferred entry points and define consumer experience (bot flow, etc.). 
+  **Note:** Initial setup takes 3 business days, Google enables features every 2 weeks.
 
 **Website button**
 Brands can now funnel website visitors to GBM conversations by adding a button widget to their website. Android users will be able to easily initiate a conversation.
