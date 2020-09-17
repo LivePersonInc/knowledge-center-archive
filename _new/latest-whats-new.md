@@ -194,6 +194,6 @@ Bots will be able to send the Third-party bot platform a command to trigger a Fa
 Context Intelligence - SDEs available in Context Warehouse and Routing policies
 Brands can use SDEs (Structured Data Entities) to send custom attributes when initiating a conversation from both unauthenticated and authenticated flows. UI tools are provided in the workspace that allow brands to use SDEs to build complex routing policies without the need to understand coding.
 
-## Dynamic Routing Workspace: 
+## Dynamic Routing Workspace
 Improve UX for large number of attributes and policies.
 
