@@ -52,6 +52,27 @@ The feature will be set to ON by default for all users on all accounts, it can b
 
 ![](img/V&V.gif)
 
+## Connectors update
+## Self-service onboarding for WhatsApp Business, Apple Business Chat, Google Business Messages and more 
+
+Onboarding is quick and effortless!
+
+Different channels offered are:
+- [WhatsApp Business](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)
+- [Apple Business Chat](https://knowledge.liveperson.com/messaging-channels-apple-business-chat-overview.html)
+- [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-my-business.html)
+- [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
+
+And more.
+
+![](img/phones-whats-new.png)
+                                                                                                  
+You can now get started with different messaging technologies through our [self-service onboarding](https://z1.le.liveperson.net/a/24002204/#/mng/data/sources) under Campaigns-->Data Sources-->Conversation Sources.
+Simply select the channel that you want to set up and fill out the profile info page.
+Our implementation teams will handle the rest of the setup.
+
+![](img/Datasource-whats-new.png)
+
 ## Agent App updates
 ## Pagination (Android Version)
 In the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.
