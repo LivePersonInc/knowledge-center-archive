@@ -79,7 +79,7 @@ The consumer's engagement window is expanded to show the video/call invitation a
 
 The feature will be set to ON by default for all users on all accounts, it can be disabled by contacting your LivePerson representative. You can also control access to the feature fwdeedrom the profile permissions. For more information, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-voice-and-video-calls-overview.html)
 
-![](img/whats-new-sept-vv.gif)
+![](img/V&V.gif)
 
 ## Agent App updates
 ## Pagination (Android Version)
