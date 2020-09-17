@@ -172,7 +172,7 @@ Outbound Messaging for Apple Business Chat (ABC) enables brands to message their
 ## Multi-Channel Engagements (Web + SMS)
 Multi-Channel Engagements enable brands to allow users to start a Web Messaging or SMS conversation from a desktop or mobile engagement. This includes the ability to create an SMS-only engagement that works on desktop by prompting a user to enter their phone number, and engagements with a textbox that consumers can type directly into.
 
-![](img/whats-new-sept4.gif.png)
+![](img/whats-new-sept4.gif)
 
 ## Window title bar - Allow customizations and WCAG support
 Brands will be able to customize the text in the conversation window title bar. This is a feature enhancement sub-item of WCAG 2.1 Certification efforts.
