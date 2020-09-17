@@ -73,46 +73,6 @@ Our implementation teams will handle the rest of the setup.
 
 ![](img/Datasource-whats-new.png)
 
-## Agent App updates
-## Pagination (Android Version)
-In the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.
-
-## Mobile SDK updates
-There are a number of Mobile SDK updates in the coming release:
-
-## Auto Logout - Improve logout options 
-An SDK enhancement has been added that will prevent a second customer from viewing the chat history of the customer who chatted before them, while optimizing the flow in a way that clears just the necessary set of user information in a quick manner. This new feature adds an additional layer of security to our brands, by verifying that conversation history and information will be available only to the consumer who was logged in to the app at the time of the conversation. This feature is enabled out of the box.
-
-## iOS Mobile SDK 6.0: Support for XCFramework
-The new mobile SDK version launched with XCFramework support. This new framework provides the following advantages:
-1. XCFramework uses Swift Module Interface which lists out all the public APIs of the module in a textual format that behaves like source code. Since they behave like source code, future versions of the Swift Compiler will be able to import the module interfaces created with older versions. This removes the version-lock currently in Swift.
-2. Today, our SDK builds the universal framework for the clients that supports both devices and simulators. Before submitting the app, the clients need to remove x86_64 which is the simulator architecture. The new XCFramework simplifies all this by eliminating the need for building a universal framework. In the process of producing the XCFramework, all the supported architectures caIIn the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n be combined within one XCFramework.
-3. XCFramework packages all dependencies under all target platforms and architectures into one single bundle. More information about XCFramework can be found [here](https://developer.apple.com/videos/play/wwdc2019/416/), and the Xcode help article can be found [here.](https://help.apple.com/xcode/mac/11.4/#/dev51a648b07) 
-
-## iOS Mobile SDK: Xcode 12 beta support - Limited release of SDK 6.0.1 and 5.2.1
-In order to allow our brands and their developers to prepare for iOS14 while building and getting ready with their apps for the next iOS Launch, we released two limited SDK versions that will support compiling the app with Xcode 12 beta version and Swift 5.3.
-
-## Connectors update
-## Self-service onboarding for WhatsApp Business, Apple Business Chat, Google Business Messages and more 
-
-Onboarding is quick and effortless!
-
-Different channels offered are:
-- [WhatsApp Business](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)
-- [Apple Business Chat](https://knowledge.liveperson.com/messaging-channels-apple-business-chat-overview.html)
-- [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-my-business.html)
-- [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
-
-And more.
-
-![](img/phones-whats-new.png)
-                                                                                                  
-You can now get started with different messaging technologies through our [self-service onboarding](https://z1.le.liveperson.net/a/24002204/#/mng/data/sources) under Campaigns-->Data Sources-->Conversation Sources.
-Simply select the channel that you want to set up and fill out the profile info page.
-Our implementation teams will handle the rest of the setup.
-
-![](img/Datasource-whats-new.png)
-
 ## Facebook Referral parameter
 The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
 http://m.me/<PAGE_NAME>?ref=<REF_PARAM>
@@ -142,8 +102,27 @@ When sending outbound messages on Proactive Messaging, brands can select ‘Prio
 When a WhatsApp message template is submitted to WhatsApp for approval, it can be rejected. With this release, we add a column to show the reason for the rejection as provided by WhatsApp. This will give brands insight and enable them to resubmit the template accordingly. 
 In addition, , there can be multiple phone numbers associated with a single WhatsApp Account ID. When a brand creates a WhatsApp message template, it is useful to see what phone numbers are associated with the WhatsApp Account ID they are creating the template with. This enables brands to know if the message template can be used when sending outbound messages.
 
-WhatsApp Media and Interactive templates for Proactive messaging
+## WhatsApp Media and Interactive templates for Proactive messaging
 LivePerson is enhancing the Proactive Messaging template by adding structure and flexibility. Additional content has been added so you can send recipients enriched media, including headers and footers, documents, images, videos etc. 
+
+## Agent App updates
+## Pagination (Android Version)
+In the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.
+
+## Mobile SDK updates
+There are a number of Mobile SDK updates in the coming release:
+
+## Auto Logout - Improve logout options 
+An SDK enhancement has been added that will prevent a second customer from viewing the chat history of the customer who chatted before them, while optimizing the flow in a way that clears just the necessary set of user information in a quick manner. This new feature adds an additional layer of security to our brands, by verifying that conversation history and information will be available only to the consumer who was logged in to the app at the time of the conversation. This feature is enabled out of the box.
+
+## iOS Mobile SDK 6.0: Support for XCFramework
+The new mobile SDK version launched with XCFramework support. This new framework provides the following advantages:
+1. XCFramework uses Swift Module Interface which lists out all the public APIs of the module in a textual format that behaves like source code. Since they behave like source code, future versions of the Swift Compiler will be able to import the module interfaces created with older versions. This removes the version-lock currently in Swift.
+2. Today, our SDK builds the universal framework for the clients that supports both devices and simulators. Before submitting the app, the clients need to remove x86_64 which is the simulator architecture. The new XCFramework simplifies all this by eliminating the need for building a universal framework. In the process of producing the XCFramework, all the supported architectures caIIn the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n be combined within one XCFramework.
+3. XCFramework packages all dependencies under all target platforms and architectures into one single bundle. More information about XCFramework can be found [here](https://developer.apple.com/videos/play/wwdc2019/416/), and the Xcode help article can be found [here.](https://help.apple.com/xcode/mac/11.4/#/dev51a648b07) 
+
+## iOS Mobile SDK: Xcode 12 beta support - Limited release of SDK 6.0.1 and 5.2.1
+In order to allow our brands and their developers to prepare for iOS14 while building and getting ready with their apps for the next iOS Launch, we released two limited SDK versions that will support compiling the app with Xcode 12 beta version and Swift 5.3.
 
 ## Conversation Manager updates
 
