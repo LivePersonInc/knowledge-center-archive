@@ -23,6 +23,7 @@ Performance Optimizer Allows Brands To:
 * Spare the need for data wrangling and prioritization, as well as reducing the cognitive load of performing analysis on the data. 
 
 ![](img/performance-optimizer1.png)
+![](img/PO-whats-new-sept.png)
 
 ## The 4E Framework™
 The Performance Optimizer is built upon the LivePerson 4E Framework™.  This analytic approach serves as the foundation for classifying metrics into specific categories that complement each other and guarantee success.  These categories are built around 2 core behavioral truths:
@@ -78,6 +79,7 @@ Select the Configuration tab on the upper right corner.
 Default trend values are set at the 75th percentile benchmark within the industry vertical. 
 
 ![](img/performance-optimizer8.png)
+
 4. Selecting “Create LOB” displays the newly created LOB within the Configuration Dashboard. 
 
 ![](img/performance-optimizer9.png)
