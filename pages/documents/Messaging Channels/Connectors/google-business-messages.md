@@ -42,7 +42,13 @@ The above statistics represent a tremendous opportunity for brands to offer a me
 * Answer consumer’s questions about pricing, inventory, delivery, and more without wasting your branch’s employees time, allowing them to dedicate their time to customers who are in the store
 
 **Secure**
-* Encryption in Transit
+* Messages sent between users and businesses are encrypted in transit.
+* Google use of customer data is governed by Google’s privacy policy.
+* Google will use user data to do the following: 
+  * Measure performance of business messages
+  * Optimize the positioning of message buttons
+  * Detect and prevent spam and fraud
+  * Protect users & analyse user intent
 
 ## Google Business Messaging and Google RCS, what’s the difference?
 
