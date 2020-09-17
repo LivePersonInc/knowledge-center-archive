@@ -90,6 +90,23 @@ The new mobile SDK version launched with XCFramework support. This new framework
 In order to allow our brands and their developers to prepare for iOS14 while building and getting ready with their apps for the next iOS Launch, we released two limited SDK versions that will support compiling the app with Xcode 12 beta version and Swift 5.3.
 
 ## Connectors update
+## Self-service onboarding for WhatsApp Business, Apple Business Chat, Google Business Messages and more 
+
+Onboarding is quick and effortless!
+
+Different channels offered are:
+- [WhatsApp Business](https://knowledge.liveperson.com/messaging-channels-whatsapp-business.html)
+- [Apple Business Chat](https://knowledge.liveperson.com/messaging-channels-apple-business-chat-overview.html)
+- [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-my-business.html)
+- [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
+And more.
+
+![](img/Sept-whats-new-2.png)
+                                                                                                  
+You can now get started with different messaging technologies through our [self-service onboarding](https://z1.le.liveperson.net/a/24002204/#/mng/data/sources) under Campaigns-->Data Sources-->Conversation Sources.
+Simply select the channel that you want to set up and fill out the profile info page.
+Our implementation teams will handle the rest of the setup.
+
 ## Facebook Referral parameter
 The Messenger platform supports the passing of an arbitrary parameter via these m.me links. This can be used for many purposes, such as tracking different links placed in different channels, or tying a Messenger user to a session or account in an external app. You can even use it to direct the user to specific content or features available within your Messenger experience. An m.me link with an added parameter looks like this:
 http://m.me/<PAGE_NAME>?ref=<REF_PARAM>
