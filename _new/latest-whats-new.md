@@ -33,6 +33,8 @@ With the upgrade to the latest version, we recommend auditing your integration t
 On December 31st 2020, the Realtime Dashboard for Messaging will be deprecated.
 The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html)
 
+![](img/Whats-new-sept-1.png)
+
 ## Internet Explorer 11 -  End of Life
 Microsoft 365 apps and services will no longer support Internet Explorer 11 (IE 11) and will move to support the new Microsoft Edge. By November 30th, 2020, the Microsoft team’s web app will no longer support IE 11. By August 17th, 2021, the remaining Microsoft 365 apps and services will no longer support IE 11. This means customers still using IE11 will have a degraded experience or will be unable to connect to Microsoft 365 apps and services. As such, LivePerson is discontinuing support of IE11 in line with the above dates, as we don’t want our customers to be negatively impacted by this change. Though LivePerson supports Microsoft Edge and FireFox, the recommended browser for messaging workspace is Chrome.
 
@@ -45,8 +47,12 @@ The Performance Optimizer has anonymized brand comparisons, industry benchmarks,
 A Configuration Engine within the Performance Portal allows brands to define reporting units and save data in relevant segmentations. 
 Narrative-driven dashboards and data contextualization allow people to diagnose issues in a faster, more intelligent way.
 
+![](img/PO-whats-new-sept.gif)
+
 ## Intent Manager 
 In the coming weeks, we have many exciting updates to the Intent Manager.
+
+![](img/Intent-manager-whats-new.gif)
 
 New features will be added to Intent Discovery & Optimization to help brands discover new topics and quickly find diverse training phrases for building new intents. Brands will have the ability to create, save, and manage advanced filters, as well as customize and configure metric widgets to better suit different personas and use cases. 
 
@@ -68,7 +74,9 @@ Brands can configure their customer queuing logic to prioritize specified high-v
 ## Voice and Video calling 
 The consumer's engagement window is expanded to show the video/call invitation and once accepted the call takes place via the extended engagement window. The agent sees the consumer via a dedicated voice and video agent window. Both agent and consumer use their device’s audio and video capabilities like with Zoom or Google Hangouts. 
 
-The feature will be set to ON by default for all users on all accounts, it can be disabled by contacting your LivePerson representative. You can also control access to the feature fwdeedrom the profile permissions. For more information, click here
+The feature will be set to ON by default for all users on all accounts, it can be disabled by contacting your LivePerson representative. You can also control access to the feature fwdeedrom the profile permissions. For more information, click [here.](https://knowledge.liveperson.com/agent-manager-workspace-agent-tools-for-messaging-agent-workspace-for-messaging-voice-and-video-calls-overview.html)
+
+![](img/whats-new-sept-vv.gif)
 
 ## Agent App updates
 ## Pagination (Android Version)
@@ -84,7 +92,7 @@ An SDK enhancement has been added that will prevent a second customer from viewi
 The new mobile SDK version launched with XCFramework support. This new framework provides the following advantages:
 1. XCFramework uses Swift Module Interface which lists out all the public APIs of the module in a textual format that behaves like source code. Since they behave like source code, future versions of the Swift Compiler will be able to import the module interfaces created with older versions. This removes the version-lock currently in Swift.
 2. Today, our SDK builds the universal framework for the clients that supports both devices and simulators. Before submitting the app, the clients need to remove x86_64 which is the simulator architecture. The new XCFramework simplifies all this by eliminating the need for building a universal framework. In the process of producing the XCFramework, all the supported architectures caIIn the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n the initial version of the app only the first 50 historic conversations were shown. In the new version when you scroll down it loads more conversations after you reach 50.n be combined within one XCFramework.
-3. XCFramework packages all dependencies under all target platforms and architectures into one single bundle. More information about XCFramework can be found here, and the Xcode help article can be found here. 
+3. XCFramework packages all dependencies under all target platforms and architectures into one single bundle. More information about XCFramework can be found [here](https://developer.apple.com/videos/play/wwdc2019/416/), and the Xcode help article can be found [here.](https://help.apple.com/xcode/mac/11.4/#/dev51a648b07) 
 
 ## iOS Mobile SDK: Xcode 12 beta support - Limited release of SDK 6.0.1 and 5.2.1
 In order to allow our brands and their developers to prepare for iOS14 while building and getting ready with their apps for the next iOS Launch, we released two limited SDK versions that will support compiling the app with Xcode 12 beta version and Swift 5.3.
@@ -184,5 +192,5 @@ Context Intelligence - SDEs available in Context Warehouse and Routing policies
 Brands can use SDEs (Structured Data Entities) to send custom attributes when initiating a conversation from both unauthenticated and authenticated flows. UI tools are provided in the workspace that allow brands to use SDEs to build complex routing policies without the need to understand coding.
 
 ## Dynamic Routing Workspace: 
-Improve UX for large number of attributes and policies
+Improve UX for large number of attributes and policies.
 
