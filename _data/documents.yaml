@@ -291,6 +291,7 @@
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"
+        - pagename: "Performance Optimizer user guide"
     - subcategoryname: Insights
       pages:
         - pagename: Getting started with Insights
