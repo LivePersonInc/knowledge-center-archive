@@ -48,8 +48,6 @@ Once your account is enabled, you can begin by logging in [here]([https://va.per
 3. To access via Quick Launch select the icon located at the bottom of the left toolbar (6 dots).
 4. Select the Performance Optimizer icon located within Quick Launch. 
 
-![](img/performance-optimizer3.png)
-
 ## Getting Started in Performance Optimizer
 ### Performance Optimizer Dashboard 
 
@@ -63,17 +61,20 @@ To fully experience the advantages of the Performance Optimizer, LOBs must be co
 
 Select the Configuration tab on the upper right corner. 
 
-![](img/performance-optimizer6.png)
+![](img/performance-optimizer5.png)
 
 ## Creating a Line of Business 
 1. To create new LOBs, select the edit icon within the “Default LOB (All Data)” box or the “Add a new LOB” button at the bottom left of the Configuration screen.
 
-![](img/performance-optimizer7.png)
+![](img/performance-optimizer6.png)
 
-2. You willEnter the LOB Name 
+2. You will enter the LOB Name 
 - Click Skills. A drop-down menu of ALL current Skills for the Account ID is displayed. Select all Skills that should be included within the LOB. 
 - Click Groups. A drop-down menu of ALL current Groups for the Account ID is displayed. Select all Groups that should be included within the LOB.
 - Select an option to define which metrics should be displayed by industry benchmark or defined number target, or your desired SLA for each metric.
+
+![](img/performance-optimizer7.png)
+
 3. Select the metric that should be measured against the industry benchmark or a brand specific target  value.  By default, the benchmark setting will be configured for all metrics. 
 
 {: .notice}
