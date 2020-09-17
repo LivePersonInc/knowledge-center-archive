@@ -110,6 +110,7 @@ Different channels offered are:
 - [Apple Business Chat](https://knowledge.liveperson.com/messaging-channels-apple-business-chat-overview.html)
 - [Google Business Messages](https://knowledge.liveperson.com/messaging-channels-google-my-business.html)
 - [Google RCS](https://knowledge.liveperson.com/messaging-channels-google-rcs-business-messaging.html)
+
 And more.
 
 ![](img/phones-whats-new.png)
