@@ -48,7 +48,7 @@ The above statistics represent a tremendous opportunity for brands to offer a me
   * Measure performance of business messages
   * Optimize the positioning of message buttons
   * Detect and prevent spam and fraud
-  * Protect users & analyse user intent
+  * Protect users & analyze user intent
 
 ## Google Business Messaging and Google RCS, what’s the difference?
 
