@@ -23,8 +23,7 @@ Performance Optimizer Allows Brands To:
 * Benchmark their performance relative to their industry
 * Spare the need for data wrangling and prioritization, as well as reducing the cognitive load of performing analysis on the data. 
 
-![](img/performance-optimizer1.png)
-![](img/PO-whats-new-sept.png)
+![](img/PO-whatsnew.gif)
 
 ## The 4E Framework™
 The Performance Optimizer is built upon the LivePerson 4E Framework™.  This analytic approach serves as the foundation for classifying metrics into specific categories that complement each other and guarantee success.  These categories are built around 2 core behavioral truths:
