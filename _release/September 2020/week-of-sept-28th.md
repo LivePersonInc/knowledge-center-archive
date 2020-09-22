@@ -32,7 +32,34 @@ To make a dialog available as a template, you define a manifest file that identi
 Once you import a dialog template into a destination bot, it becomes a normal dialog within the bot, and the dialog functions as if you had created it from scratch.
 
 Dialog templates are a great way to:
+* Formalize the import process for a dialog
+* Ensure that other bot developers import all required components supporting a dialog
 
-Formalize the import process for a dialog
-Ensure that other bot developers import all required components supporting a dialog
+![](img/Release-notes-sept-28-1.png)
 
+## Advanced model tester
+### Type: Enhancement [Intent Builder] 
+
+**Channel**
+This feature is available for all channels supported by the Conversational Cloud platform.
+
+If your domain is using the LivePerson NLU v2 engine, there’s now an advanced Model Tester that’s available. The Model Tester is designed to:
+* Provide broad testing coverage for the domain
+* Help you determine if the model is improving or regressing from one version to the next
+
+You define the test set (a set of phrases/consumer utterances that are mapped to expected intents), and then you run the test against a specific model version. By repeating the test with the next model version, and then comparing the reports, you can determine if the model is improving or regressing from one version to another.
+
+## Knowledge Base -  External CMS integration
+### Type: Enhancement [Intent Builder]
+
+**Channel**
+This feature is available for all channels supported by the Conversational Cloud platform.
+
+If you have a CMS with well-curated content that you want to leverage in bot conversations, this release of the Knowledge Base application introduces an exciting change. You can now integrate with any external CMS that has the capability, i.e., an API connector. Notable examples include Salesforce and Zendesk.
+
+Integrating with your CMS means your content creators can continue to create and manage content directly in the CMS, using familiar tools and workflows. The knowledge base itself serves as a connector to the CMS. The knowledge base can be configured with LivePerson AI (recommended) or without LivePerson AI:
+
+**With LivePerson AI:** This configuration uses the power of a Natural Language Understanding (NLU) engine to evaluate the articles against the consumer’s utterance (the intent) and return the highest scoring articles.
+**Without LivePerson AI:** This configuration passes on the consumer utterance (the search query) to the CMS, which uses its own query and answer API to find and return the most appropriate articles.
+
+![](img/RN-week-of-sept-28-2.png)
