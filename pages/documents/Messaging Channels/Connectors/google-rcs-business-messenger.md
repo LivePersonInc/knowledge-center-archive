@@ -13,9 +13,6 @@ isNew: false
 ---
 With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale.
 
-{: .notice}
-**Note:** the Google RSC Business Messenger Connector is currently in beta mode. Brands that are interested in participating should speak to their LivePerson account team.
-
 ## What is RCS?
 
 ![](/img/rcs connector 1-3.gif)
