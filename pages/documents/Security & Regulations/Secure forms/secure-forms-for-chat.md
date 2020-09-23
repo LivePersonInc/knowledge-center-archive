@@ -22,7 +22,7 @@ The LivePerson secure form provides brands with an enhanced engagement experienc
 
 * **Extra secure interaction:** The secure form dedicates a "secure tunnel" within the standard chat for exchanging Personal Identifiable Information (PII), Cardholder Data (CHD), and other sensitive identity validation data like answers to verification questions and PINs. Agents continue to operate in the same Agent Workspace environment as data is sent from the visitor to the agent in a safe, PCI compliant interaction.
 * **No storage of sensitive data in chat transcripts:** Data processed by the secure form is not stored as part of the standard chat transcripts and cannot be retrieved through the application after the chat session has ended. The data is securely stored in its tokenized form in a dedicated database.
-* **Off the record questions (CVV):** The the Conversational Cloud secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
+* **Off the record questions (CVV):** The Conversational Cloud secure form offers the option of "off the record” or CVV verification questions. In both cases, the visitor’s answers are not stored anywhere (not even in tokenized form), and are only available to the agent in real time. This question type can be used for asking the visitor CVV information in a secure PCI compliant manner.
 
 ## European security standards
 
