@@ -357,6 +357,7 @@ Please see the web accessibility conformance statements for the following:
 Please note that this certficate was issued prior to rebranding the platform to the Conversational Cloud.
 
 [Web Messaging Window](https://s3-eu-west-1.amazonaws.com/ce-sr/CA/Admin/Accessibility_ConformanceStatement.pdf)
+[Manager Workspace](https://ce-sr.s3-eu-west-1.amazonaws.com/KC/LivePerson+-+VPAT2.4RevWCAG+2.1-Sept_2020.V2.pdf)
 
 ## Recommended reading
 
