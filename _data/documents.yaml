@@ -47,16 +47,16 @@
         # - pagename: Troubleshooting
     - subcategoryname: Facebook Messenger
     - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google My Business
     - subcategoryname: Google Business Messages
     - subcategoryname: WhatsApp Business
+    - subcategoryname: LINE connector
+    - subcategoryname: WeChat Business
     - subcategoryname: Social Messaging
       pages:
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
     - subcategoryname: EmailConnect
-    - subcategoryname: LINE connector
-    - subcategoryname: WeChat Business
+
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
