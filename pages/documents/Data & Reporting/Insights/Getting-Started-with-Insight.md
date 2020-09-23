@@ -14,7 +14,7 @@ date: '2020-05-19'
 ## Accessing Insights
 Access to Insights is strictly by request - speak to your account manager to discuss pricing and enablement.
 
-Once the account is set up and data has been loaded, please e-mail helpdesk@lp-insights.freshservice.com and provide a list of users (names and emails) who will need access to the tool. Each user will receive an email with instructions to create login access . The email will be ‘Welcome to Advanced Insights’ coming from no-reply@liveperson.net.The link will expire in 24 hours so it is important to set up the account within that time frame. Once the account is set up, save the URL for future access. Note the tool is only compatible with Google Chrome.
+Once the account is set up and data has been loaded, please e-mail insights-lp@liveperson.com and provide a list of users (names and emails) who will need access to the tool. Each user will receive an email with instructions to create login access . The email will be ‘Welcome to Advanced Insights’ coming from no-reply@liveperson.net.The link will expire in 24 hours so it is important to set up the account within that time frame. Once the account is set up, save the URL for future access. Note the tool is only compatible with Google Chrome.
 
 ## Getting Started with Insights
 Insights is a stand alone application and is independent of the LivePerson Conversational Cloud.
