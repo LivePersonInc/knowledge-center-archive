@@ -291,7 +291,6 @@
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"
-        - pagename: "Performance Optimizer user guide"
     - subcategoryname: Insights
       pages:
         - pagename: Getting started with Insights
@@ -303,6 +302,8 @@
         - pagename: Unsupervised NLU Model
         - pagename: Taxonomy guide
         - pagename: Insights FAQs
+    - subcategoryname: Performance Optimizer   
+        - pagename: Performance Optimizer user guide
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
