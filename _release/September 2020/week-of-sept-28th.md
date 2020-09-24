@@ -63,3 +63,5 @@ Integrating with your CMS means your content creators can continue to create and
 **Without LivePerson AI:** This configuration passes on the consumer utterance (the search query) to the CMS, which uses its own query and answer API to find and return the most appropriate articles.
 
 ![](img/RN-week-of-sept-28-2.png)
+
+## Android SDK v5.4 coming soon
