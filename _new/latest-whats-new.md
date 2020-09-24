@@ -10,10 +10,8 @@ isTutorial: false
 isNew: false
 
 ---
-Here are the latest features, enhancements and enablements that are coming in the following weeks:
+Watch this video for planned updates to LivePerson in the coming weeks:
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/458554138?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-Here are the latest features, enhancements and enablements that are coming in the following weeks & months.
 
 ## Performance Optimizer
 At the core of the Performance Optimizer is a dashboard and enablement framework that clearly articulates how primary and secondary KPIs influence success and align to the LivePerson 4E Framework (TM) pillars of Efficiency, Effectiveness, Effort, and Emotion.
