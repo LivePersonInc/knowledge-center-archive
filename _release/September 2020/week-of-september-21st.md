@@ -19,7 +19,7 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## Mobile SDK version 4.6.0 is now available (Android release with support for legacy library - not Android X) 
+## Android mobile SDK version 4.6.0 is now available (Android release with support for legacy library - not Android X) 
 ### Environment Requirements
 
 The Android Mobile Messaging SDK version 4.6.0 uses:
@@ -29,7 +29,7 @@ The Android Mobile Messaging SDK version 4.6.0 uses:
 * Maps SDK "com.google.android.gms:play-services-maps:16.1.0"
 (unchanged from version 4.5.0)
 
-## Mobile SDK version 5.4.0 is now available (variant of Android 4.5 with support for Android 10 and Android X)
+## Android mobile SDK version 5.4.0 is now available (variant of Android 4.5 with support for Android 10 and Android X)
 ### Environment Requirements
 
 The Android Mobile Messaging SDK version 5.4.0 uses:
