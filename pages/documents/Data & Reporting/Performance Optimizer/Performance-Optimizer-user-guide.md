@@ -66,10 +66,12 @@ To fully experience the advantages of the Performance Optimizer, LOBs must be co
 1. To create a new LOB, click the Edit icon within the “Default LOB (All Data)” box or the “Add a new LOB” button at the bottom left of the Configuration screen.
 
 ![](img/performance-optimizer6.png)
+
 {:start="2"}
 2. Enter the required LOB Name. 
 
 ![](img/performance-optimizer7.png)
+
 {:start="3"}
 3. Click Skills to display a drop-down menu of ALL current Skills defined for the Account ID. Select all the Skills that should be included within the LOB. 
 4. Click Groups to display a drop-down menu of ALL current Groups for the Account ID. Select all Groups that should be included within the LOB.
@@ -81,11 +83,13 @@ Or
 {: .notice} 
 * By default, Metric Settings are set to industry benchmarks for all metrics.
 * Default target number values are set at the 75th percentile benchmark within the industry vertical. 
+
 {:start="6"}
 6. Click “Create LOB” to display a summary of the newly created LOBs. 
 
 ![](img/performance-optimizer8.png)
 
+{:start="7"}
 7. Click back to “Dashboard” to view your Performance Optimizer settings with your newly created LOBs. 
 
 ![](img/performance-optimizer9.png)
@@ -141,7 +145,10 @@ Only LOBs selected within the filter criteria will be displayed. The user may ho
 ![](img/performance-optimizer15.png)
 
 ### Account Config Panel
-The Account Config panel displays specific configuration settings that have a potential to drive a brand’s 4E performance. 
+The Account Config panel displays specific configuration settings that have a potential to drive a brand’s 4E performance. For example, the setting for Auto Close Time could potentially affect the Effort measured in conversations. 
+
+Account Configurations include: 
+
 * Auto Close Time 
 * Inactive Time 
 * Smart Capacity Min 
@@ -150,19 +157,20 @@ The Account Config panel displays specific configuration settings that have a po
 ![](img/performance-optimizer16.png)
 
 ### LOB Detail Panel 
-The LOB Detail panel will display all 4E metrics, primary and secondary, starting with efficiency, effectiveness, effort, and emotion. Only LOB filter selections will be displayed. The user has the ability to dynamically view data based on: benchmark, target, and trend through the toggle selections on the upper right hand corner of the panel. The default view is a benchmark. Actual, trend and deviation values are displayed for each metric based on the filtered date range entered by the user.    
+The LOB Detail panel will display all 4E metrics, primary and secondary, starting with efficiency, effectiveness, effort, and emotion. Only LOB filter selections will be displayed. The user can view data about how each LOB is performing with regards to Benchmark (performance against the industry benchmark), Target (target value if set), and Trend (trending upwards or downwards), by toggling these selections in the upper right hand corner of the panel. The default view is Benchmark. Actual, Trend and Deviation values are displayed for each metric based on the filtered date range entered by the user.      
 
 ![](img/performance-optimizer17.png)
 
 ### 4E Summary Panel 
-Using the overall 4E score, the 4E Summary panel enables  users to a calculated overall score by each 4E category. Each 4E score incorporates each primary and secondary 4E metric and weights those metrics based on level of impact.  The score is then calculated to provide a singular score to represent the 4E category.  As seen in the graphic below shows the brand’s efficiency score 55% and the Effectiveness at 17%.  
-Industry benchmarks are displayed in 25% percentile increments and are color-coded: Red indicates the bottom 25th percentile, and green indicates the 75th percentile. The user is able to compare their overall 4E scores against the industry benchmark.  As an example, the brand’s efficiency score of 55% is within the 50-75th percentile of their industry.
+Using the overall 4E score, the 4E Summary panel enables users to view a calculated overall score by each 4E category. Each of the 4E scores incorporate all the primary and secondary 4E metrics for that 4E category, and weights those metrics based on level of impact. The score is then calculated to provide a singular score to represent the 4E category. The graphic below shows the brand’s overall Efficiency score at 55% and its Effectiveness at 17%.  
+Industry benchmarks are displayed in 25% percentile increments and are color-coded: Red indicates the bottom 25th percentile, and green indicates the 75th percentile.The user is able to compare their overall 4E scores against the industry benchmark. As an example, the brand’s efficiency score of 55% is within the 50-75th percentile of their industry.
 
 ![](img/performance-optimizer18a.png)
 
 ### 4E Detail Panel 
-The 4E Detail panel provides a wealth of information for the user to compare each 4E metric, primary and secondary, against industry benchmarks. The user will see their actual 4E performance metric, how their brand has trended compared to the benchmark, as well as the variance of their performance - the gap between what was expected and what happened -against the benchmark. In addition, the user will also see a detailed trend line of the metric performance, as well as a min, max and mean value for their performance. Note: Only LOB filter selections will be displayed.
-The Diagnostics section provides a detailed narrative of the performance of the LOBs. The Performance Optimizer takes into account all of the 4E metrics (primary and secondary) of the actual performance It contextualizes the 4E data and the Account Configuration settings (as displayed within the Account Config panel) to provide a customized recommendation for the brand to improve performance based on the LOB and date range selected. 
+The 4E Detail panel provides a wealth of information for the user to compare each individual 4E metric, primary and secondary, against industry benchmarks. The user will see their actual 4E performance metric (value in white), how their brand has trended compared to the benchmark (small value in green, in this example), as well as the variance of their performance (value in parentheses, the gap between what was expected and what happened) against the benchmark. In addition, the user will also see a detailed trend line of the metric performance, as well as a min, max and mean value for their performance. 
+Note: Only LOB filter selections will be displayed.
+The Diagnostics section provides a detailed narrative of the performance of the LOBs. The Performance Optimizer takes into account all of the 4E metrics (primary and secondary) of the actual performance. It contextualizes the 4E data and the Account Configuration settings (as displayed within the Account Config panel) to provide a customized recommendation for the brand to improve performance based on the LOB and date range selected. 
 
 ![](img/performance-optimizer19a.png)
 
