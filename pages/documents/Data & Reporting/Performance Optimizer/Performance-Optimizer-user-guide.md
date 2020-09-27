@@ -2,7 +2,7 @@
 pagename: Performance Optimizer user guide
 categoryName:  Data & reporting
 subCategoryName: ''
-indicator: both
+indicator: messaging
 subtitle: 'The Performance Optimizer is an analytics product within the Conversational Cloud platform'
 level3: ''
 permalink: data-reporting-performance-optimizer-performance-optimizer-user-guide.html
