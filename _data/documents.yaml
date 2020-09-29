@@ -287,14 +287,14 @@
         - pagename: Multi currency
         - pagename: Identify viewed products
         - pagename: Attribution model
-  - subcategoryname: Performance Optimizer
+    - subcategoryname: Performance Optimizer
       pages: 
         - pagename: "Performance Optimizer user guide"
-  - subcategoryname: Analytics
+    - subcategoryname: Analytics
       pages:
         - pagename: "Advanced messaging dashboard user guide"
         - pagename: "Data Transporter user guide"  
-   - subcategoryname: Insights
+    - subcategoryname: Insights
       pages:
         - pagename: Getting started with Insights
         - pagename: Insights user guide
