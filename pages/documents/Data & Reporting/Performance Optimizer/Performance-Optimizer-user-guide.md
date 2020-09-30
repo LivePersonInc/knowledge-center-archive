@@ -80,7 +80,7 @@ By default, Metric Settings are set to industry benchmarks for all metrics. Defa
 ## Filtering Your Performance Optimizer View 
 The Performance Optimizer can be filtered to display only the most relevant data. These criteria include LOB, Date Range and Granularity View, e.g., Weekly (Monday), Weekly (Sunday) or Monthly. The default filter selections will include all LOBs for the previous 2 weeks, and a monthly view. Up to 13 months of historical data can be accessed. The current date or realtime information is not available within the Performance Optimizer. 
 
-To filter the dashboard:
+**To filter the dashboard:**
 
 1. On the left of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
 2. Click Update. The data will now be displayed according to your preferences.
