@@ -92,8 +92,9 @@ The Performance Optimizer can be filtered to display only the most relevant data
 ## Performance Optimizer Panels 
 ### Executive Summary Panel
 
-The Executive Summary Panel, the first panel represented in the Performance Optimizer, is a holistic LOB view of the conversational operation which allows users to: 
-* Validate the number of LOBs selected through filter functionality. View actual performance for the 4E metrics.
+The Executive Summary Panel is the first panel displayed in the Performance Optimizer. It provides a holistic LOB view of the conversational operation which allows users to: 
+* Validate the number of LOBs selected through filter functionality. 
+* View actual performance for the 4E metrics.
 * View trends for each 4E metric based on filtered date range and previous timeframe as compared to the entered date range. For example, when selecting 06/01/2020-6/31/2020 (31 days), the numerical trends and trend line reflect the 31 days prior to 06/01/2020-06/31/2020: 05/01/2020-05/31/2020.      
 **View trending values such as:**
 
