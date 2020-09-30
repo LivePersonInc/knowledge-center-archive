@@ -17,7 +17,7 @@ The Performance Optimizer is an analytics product within the Conversational Clou
 The Performance Optimizer contextualizes data through anonymized brand comparisons, anonymized industry benchmarks, segmentations, and KPI targets. Narrative-driven dashboards and data contextualization allow managers to diagnose performance opportunities in a faster, more intelligent way. Successes and failures can be generalized or mapped to specific actions, and LivePerson expertise can be presented directly in analytics views.  
 The Performance Optimizer has a simple graphic interface which eliminates the need for high cognitive skills such as complex information processing, advanced data analysis, or mathematical skills. This provides users with accurate results, with actionable information and recipes for success.
 
-**Performance Optimizer Allows Brands To:** 
+**Performance Optimizer allows brands to:** 
 * Map and correlate ~500 operational metrics with a set of essential KPIs that align to the 4E framework. 
 * Leverage AI to automatically assess conversational performance, diagnose and recommend optimization plans.
 * Benchmark their performance relative to their industry.
