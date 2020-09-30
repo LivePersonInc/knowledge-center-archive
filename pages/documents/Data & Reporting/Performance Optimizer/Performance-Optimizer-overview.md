@@ -13,7 +13,7 @@ date: '2019-03-27T11:28:04.000+00:00'
 
 ## Introduction
 
-The Performance Optimizer is an analytics product within the Conversational Cloud platform that converges numerous strategic metrics for different Lines of Business into LivePerson's 4E Framework™ to drive probability and business growth. The Performance Optimizer is LivePerson’s first analytical product geared towards C-Suite executives, Lines of Business, and organizational decision makers. 
+The Performance Optimizer is an analytics product within the Conversational Cloud platform that converges numerous strategic metrics for different Lines of Business into the LivePerson 4E Framework™ to drive probability and business growth. The Performance Optimizer is LivePerson’s first analytical product geared towards C-Suite executives, Lines of Business, and organizational decision makers. 
 The Performance Optimizer contextualizes data through anonymized brand comparisons, anonymized industry benchmarks, segmentations, and KPI targets. Narrative-driven dashboards and data contextualization allow managers to diagnose performance opportunities in a faster, more intelligent way. Successes and failures can be generalized or mapped to specific actions, and LivePerson expertise can be presented directly in analytics views.  
 The Performance Optimizer has a simple graphic interface which eliminates the need for high cognitive skills such as complex information processing, advanced data analysis, or mathematical skills. This provides users with accurate results, with actionable information and recipes for success.
 
@@ -30,6 +30,6 @@ The Performance Optimizer is built upon the LivePerson 4E Framework™.  This an
 * Brands want to resolve consumer intents using minimal labor
 * Consumers will maintain a positive perception of the brand as long as their intents are resolved with minimal friction
 
-LIVEPERSON 4E framework™ correlates these desirable outcomes to conversational metrics. These metrics accurately measure how the conversational operations perform in 4 critical areas organized in a logical sequence: Efficiency, Effectiveness, Effort and Emotion. 
+The LivePerson 4E framework™ correlates these desirable outcomes to conversational metrics. These metrics accurately measure how the conversational operations perform in 4 critical areas organized in a logical sequence: Efficiency, Effectiveness, Effort and Emotion. 
 
-For more information, please see the [user guide](data-reporting-performance-optimizer-performance-optimizer-user-guide.html)
+For more information, please see the [user guide](data-reporting-performance-optimizer-performance-optimizer-user-guide.html).
