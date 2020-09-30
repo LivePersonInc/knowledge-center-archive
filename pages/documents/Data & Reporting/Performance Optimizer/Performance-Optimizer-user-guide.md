@@ -16,7 +16,7 @@ Logging into Performance Optimizer requires feature access by request. (Contact 
 
 Only Admin profiles or pre-configured user profiles may log in. To customize profile authorization, contact your account manager
 
-Once your account is enabled, you can begin by logging in [here]([https://va.performance.liveperson.net/login)
+Once your account is enabled, you can begin by logging in [here](https://va.performance.liveperson.net/login)
 
 **HINT:** You can also log in directly via the Quick Launch menu from Conversational Cloud.
 
