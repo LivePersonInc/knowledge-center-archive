@@ -87,9 +87,11 @@ The Performance Optimizer can be filtered to display only the most relevant data
 ### Executive Summary Panel
 
 The Executive Summary Panel is the first panel displayed in the Performance Optimizer. It provides a holistic LOB view of the conversational operation which allows users to: 
-* Validate the number of LOBs selected through filter functionality. 
-* View actual performance for the 4E metrics.
-* View trends for each 4E metric based on filtered date range and previous timeframe as compared to the entered date range. For example, when selecting 06/01/2020-6/31/2020 (31 days), the numerical trends and trend line reflect the 31 days prior to 06/01/2020-06/31/2020: 05/01/2020-05/31/2020. View trending values such as:
+* **Validate the number of LOBs** selected through filter functionality. 
+* **View actual performance** for the 4E metrics.
+* **View trends** for each 4E metric based on filtered date range and previous timeframe as compared to the entered date range. For example, when selecting 06/01/2020-6/31/2020 (31 days), the numerical trends and trend line reflect the 31 days prior to 06/01/2020-06/31/2020: 05/01/2020-05/31/2020. 
+
+View trending values such as:
   * The first numerical value (in blue) indicates the brand’s actual performance for the date range entered. For example, the graphic below shows the brand’s CCPLH (closed conversations per login hour) at 10.83.  
   * Trend arrows with an upward or downward arrow reflect the date range entered. For example, the arrow reflects the date range of 06/01/2020.
   * The second value in parenthesis displays the deviation of the 1st date range (06/01/2020-06/31/2020) from the previous period (05/01/2020-05/31/2020). 
