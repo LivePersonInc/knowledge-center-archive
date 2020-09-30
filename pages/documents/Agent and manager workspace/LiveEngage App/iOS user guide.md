@@ -45,7 +45,8 @@ Please note that the following features are currently not available in the App a
 - Conversation History widget
 
 ## Provisioning
-This app is available in the App store, just search "Conversational Cloud" to find it. Brands can download it today and any agent can use their regular credentials to login.  
+This app is available on the Apple App Store. Brands can download it today and any agent can use their regular credentials to login.
+https://apps.apple.com/us/app/liveengage/id1279175037
 
 ## How to login
 
