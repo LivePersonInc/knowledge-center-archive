@@ -83,7 +83,7 @@ The Performance Optimizer can be filtered to display only the most relevant data
 
 **To filter the dashboard:**
 
-1. On the left of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
+1. On the left hand side of the screen, select your LOB(s), date range (by calendar selection or manual entry) and granularity preferences.   
 2. Click Update. The data will now be displayed according to your preferences.
 
 
