@@ -55,9 +55,13 @@ To fully experience the advantages of the Performance Optimizer, LOBs must be co
 {:start="3"}
 3. Click Skills to display a drop-down menu of ALL current Skills defined for the Account ID. Select all the Skills that should be included within the LOB. 
 4. Click Groups to display a drop-down menu of ALL current Groups for the Account ID. Select all Groups that should be included within the LOB.
-5. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. For each metric: 
+5. The Metric Targets area lists metrics that are key drivers for the 4 categories of the 4E Framework. 
+For each metric:
+
 * Select Benchmark to compare the brand’s performance with the industry benchmark
+
 Or
+
 * Select Number, and then enter a unique brand-specific target value or SLA. This option will visualize the brand’s performance data in reference to this value. 
 
 {: .notice} 
