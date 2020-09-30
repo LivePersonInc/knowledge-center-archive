@@ -61,8 +61,7 @@ Or
 * Select Number, and then enter a unique brand-specific target value or SLA. This option will visualize the brand’s performance data in reference to this value. 
 
 {: .notice} 
-* By default, Metric Settings are set to industry benchmarks for all metrics.
-* Default target number values are set at the 75th percentile benchmark within the industry vertical. 
+By default, Metric Settings are set to industry benchmarks for all metrics. Default target number values are set at the 75th percentile benchmark within the industry vertical. 
 
 {:start="6"}
 6. Click “Create LOB” to display a summary of the newly created LOBs. 
