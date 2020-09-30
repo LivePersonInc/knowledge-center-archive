@@ -16,6 +16,7 @@ date: '2019-03-27T11:28:04.000+00:00'
 * Only Admin profiles or pre-configured user profiles may log in. To customize profile authorization, contact your account manager
 
 Once your account is enabled, you can begin by logging in [here]([https://va.performance.liveperson.net/login)
+
 **HINT:** You can also log in directly via the Quick Launch menu from Conversational Cloud.
 
 ### Login Page
