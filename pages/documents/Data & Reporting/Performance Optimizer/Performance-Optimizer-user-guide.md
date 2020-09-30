@@ -112,7 +112,7 @@ The Volume panel allows the user to view closed conversations (agent, consumer a
 ![](img/performance-optimizer12.png)
 
 ### Channels 
-The Channels panel provides insight into closed conversation volume (agent, consumer and auto close) by all possible entry points, based upon the date range entered. 
+The Channels panel provides insights into closed conversation volume (agent, consumer and auto close) by all possible entry points, based upon the date range entered. 
 This information can be viewed in two ways:
 * The bar chart displays the distribution across entry points
 * The line chart displays your entry point volume over time by each possible entry point
