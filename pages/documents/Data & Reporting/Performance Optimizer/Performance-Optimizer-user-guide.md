@@ -19,7 +19,7 @@ Only Admin profiles or pre-configured user profiles may log in. To customize pro
 Once your account is enabled, you can begin by logging in [here](https://va.performance.liveperson.net/login).
 
 ### Login Page
-You can also log in directly via the Quick Launch menu from Conversational Cloud.
+Here's where you log in. You can also log in directly via the Quick Launch menu from Conversational Cloud.
 
 ![](img/performance-optimizer2.png)
 
