@@ -11,6 +11,10 @@ isTutorial: false
 isNew: false
 
 ---
+
+## Update on Advanced Messaging Dashboard
+The Advanced Messaging Dashboard was originally built to solve for critical messaging reporting needs that could not be served elsewhere.  All of those reporting needs are now being served by either the Analytics Builder [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) or other reporting tools within LivePerson.  Thus, this dashboard is undergoing a sunset plan, with end-of-life planned in Q1 2021.  Please work with your account team to migrate to the [Predefined Dashboards](https://knowledge.liveperson.com/data-reporting-analytics-builder-predefined-dashboards.html) as soon as possible.
+
 ## Key Components of the Dashboard
 
 ### Monitor
@@ -24,12 +28,11 @@ Detailed reporting allows the user to drill into segments of a program to pinpoi
 One key objective of Advanced Messaging Dashboard 3.0 is to provide a platform to seamlessly benchmark current performance, adjust program levers, and track incremental improvement. This applies to account configuration, automation, and program operations.
 
 ### Support
-
-Any customization on top of that analysis carries a risk of changing the narrative of the analysis. Please note that customizations will not be supported by LPSupport. If you do customize, please Save-As and give the file a different name.
+Any customization on top of that analysis carries a risk of changing the narrative of the analysis. Please note that customizations will not be supported by LPSupport LivePerson. If you do customize, please Save-As and give the file a different name.
 
 ## How to enable
 
-How to Enable Advanced Messaging Dashboard 3.0 on Your Account: Reach out to your LivePerson account team and request that Advanced Messaging Dashboard be added. The dashboard will be placed in Analytics Builder, under Shared Reports > My Account (12345678)
+New versions of Advanced Messaging Dashboard 3.0 are no longer being uploaded, as the data from this dashboard is now available in the Predefined Dashboards in Analytics Builder.
 
 ## Segments of the dashboard
 Advanced Messaging Dashboard 3.0 contains 7 core analysis segments:
@@ -56,15 +59,6 @@ Advanced Messaging Dashboard 3.0 contains 7 core analysis segments:
 
 * How much labor am I spending on repeat conversations due to unresolved cases?
 * Are my Auto-close settings causing premature closures?
-
-### Capacity
-
-* How busy are my agents?
-* Of the conversations filling my agents’ queues, what percentage are actually active conversations requiring agent attention?
-
-### Usage
-
-How am I tracking toward my monthly billing criteria?
 
 ## How to use Tabs and Panels
 
@@ -316,14 +310,6 @@ Do any of the above metrics differ based on day of week or operating hours?
 | RCR 14 DAY | REPEAT 14 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 7 days and 14 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED. |
 | RCR 30 DAY | REPEAT 30 DAYS / CLOSED CONVERSATIONS | Percentage of Closed Conversations where the same ConsumerID opened a subsequent conversation between 14 days and 30 days. This RCR measurement is mutually exclusive, meaning RCR 1 Hour (for example) is not included. These conversations are typically considered RESOLVED. |
 
-## Capacity contents
-
-### Agent Load | Day of Week and Hour
-
-**Analysis objective:** Introduction to using Agent Load and Active Rate (Active Load) as a measure of how busy agents are. This particular analysis highlights how Capacity metrics impact consumer experience (TTFR, MCS).
-
-**Questions answered:** How busy are my agents?  Of the conversations filling my agents’ queues, what percentage are actually active conversations requiring agent attention?
-
 ### Agent Load | Group and Agent
 
 **Analysis objective:**  Drill further into Agent Load by evaluating at the Group and Agent levels. Click anywhere on the bar graphs to filter the "Agent Load by Date" graph below.
@@ -342,10 +328,5 @@ Do any of the above metrics differ based on day of week or operating hours?
 
 **Questions answered:** How well are Login Hours paired with Opened Conversations at each interval?  How do Demand and Supply impact Agent Load and Active Rate?
 
-## Capacity metrics
-
-| Metric Name | Metric formula | Definition |
-| --- | --- | --- |
-| Agent Load | AVG. FILLED MESSAGING SLOTS / MAX SLOTS | The percentage (%) of the agent’s maximum capacity that is occupied by messaging conversations the agent is assigned to. |
-| Active Rate | ACTIVE CONVERSATIONS / ASSIGNED CONVERSATIONS | The percentage (%) of conversations assigned to agents which are active (occupy a full messaging slot). |
-| TTFR | REPEAT 3 DAYS / CLOSED CONVERSATIONS | Same as the AVG. MINS TO FIRST AGENT RESPONSE FROM AGENT ASSIGNMENT INCLUDING TRANSFERS metric (name shortened to fit on graph on Day of Week and Hour panel). |
+## Discontinued Sections of Advanced Messaging Dashboard
+Several sections of the original Advanced Messaging Dashboard were serving reporting needs that have since been filled using more appropriate tools.  Those sections include Capacity, Usage, Automation, and Resolution.  These sections may still be available in customized copies of Advanced Messaging Dashboard, but they are no longer supported by LivePerson Support or Analytics.
