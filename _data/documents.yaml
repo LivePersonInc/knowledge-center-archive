@@ -384,6 +384,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:
+        - pagename: October
+          level3:
+            - level3name: Week of October 5th
         - pagename: September
           level3:
             - level3name: Week of September 7th
