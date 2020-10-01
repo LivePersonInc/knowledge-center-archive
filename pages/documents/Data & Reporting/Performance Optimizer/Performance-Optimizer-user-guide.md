@@ -28,7 +28,7 @@ You can also log in directly via the Quick Launch menu from Conversational Cloud
 3. To access via Quick Launch select the icon located at the bottom of the left toolbar (9 dots).
 4. Select the Performance Optimizer icon.
 
-![](img/Performance Optimizer Changed 3_24.9.20) 
+![](img/Performance Optimizer Changed 3_24.9.20.png) 
 
 ## Getting Started in Performance Optimizer
 ### Performance Optimizer Dashboard 
