@@ -42,8 +42,7 @@ Use the Bots Status application to perform several migration-related tasks:
 
 As you work in Bots Status, be aware of the following:
  
-* You can identify survey bots by examining the **User Name**. This is always "Survey Connector." In contrast, custom bots display the agent name that's configured in Conversational Cloud.
-* While each survey bot is listed individually in the dashboard, they all share a single agent connector. This means that performing any Bots Status operation on one survey bot affects all the survey bots.
+* While each survey bot is listed individually in the dashboard, they all share a single agent connector. This means that performing any Bots Status operation on the agent connector affects all the survey bots.
 * Successfully deployed survey bots display "Deployed" beneath the bot name.
  
 <img style="width:1000px" src="img/surveyBot_monitoring1.png">
@@ -55,15 +54,10 @@ If you currently use Bot Studio to trigger surveys, you must *manually switch* t
 **To migrate to Conversation Builder**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Use the filter controls to display the survey bots for the relevant environment.
-3. Select one of the survey bots, and click <img style="width:25px" src="img/icon_ellipsis_vertical.png"> (3-dot icon) beside the bot name.
-4. Select **Migrate to Conversation Builder**.
+2. Click the **PCS Connector** tab.
+3. Click the 3-dot icon beside the agent connector, and select **Migrate to Conversation Builder**.
  
-    A confirmation message appears to indicate that the account has been migrated to Conversation Builder.
- 
-    <img style="width:1000px" src="img/surveyBot_monitoring4.png">
- 
-    Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
+    A confirmation message appears to indicate that the account has been migrated to Conversation Builder. Subsequently, the page is refreshed. You should see each survey bot listed individually with a "Deployed" indicator.
  
      <img style="width:1000px" src="img/surveyBot_monitoring5.png">
  
@@ -74,9 +68,8 @@ If you've just migrated from Bot Studio to Conversation Builder, but things don'
 **To refresh the survey bot connector**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Use the filter controls to display the survey bots for the relevant environment.
-3. Select one of the survey bots, and click <img style="width:25px" src="img/icon_ellipsis_vertical.png"> (3-dot icon) beside the bot name.
-4. Select **Refresh Connector**.
+2. Click the **PCS Connector** tab.
+3. Click the 3-dot icon beside the agent connector, and select **Refresh Connector**.
  
 ### Troubleshooting - Roll back to Bot Studio
  
@@ -85,14 +78,9 @@ Rolling back to Bot Studio reverts your account to triggering surveys from Bot S
 **To roll back to Bot Studio**
  
 1. Access the Bots Status application as described [here](https://developers.liveperson.com/bots-status-overview.html#access-bots-status) in the Developer Center.
-2. Use the filter controls to display the survey bots for the relevant environment.
-3. Select one of the survey bots, and click <img style="width:25px" src="img/icon_ellipsis_vertical.png"> (3-dot icon) beside the bot name.
-4. Select **Roll back to Bot Studio**.
+2. Click the **PCS Connector** tab.
+3. Click the 3-dot icon beside the agent connector, and select **Roll back to Bot Studio**.
     
-    A confirmation message appears to indicate that the account has been rolled back to Bot Studio.
- 
-    <img style="width:1000px" src="img/surveyBot_monitoring2.png">
- 
-    Subsequently, the page is refreshed. You should see a single, undeployed survey connector.
+    A confirmation message appears to indicate that the account has been rolled back to Bot Studio. Subsequently, the page is refreshed. You should see an undeployed agent connector.
  
      <img style="width:1000px" src="img/surveyBot_monitoring3.png">
