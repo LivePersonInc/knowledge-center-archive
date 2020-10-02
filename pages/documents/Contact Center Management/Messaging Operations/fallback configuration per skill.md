@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefor a fallback skill needs to be assigned. This capability is now offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
+When assigning conversations to agents, it is possible that certain skills will have no online agents that can receive the conversation and therefore a fallback skill needs to be assigned. This capability is now offered on a per skill basis so for example, if the sales team is out for the day, all conversations can be rerouted to the sales backup skill for lead generation and follow up.
 
 ## Rerouted conversations
 

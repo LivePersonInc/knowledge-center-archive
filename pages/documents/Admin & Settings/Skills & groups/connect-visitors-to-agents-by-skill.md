@@ -9,7 +9,7 @@ permalink: admin-settings-skills-groups-connect-visitors-to-agents-by-skills.htm
 isTutorial: false
 isNew: false
 date: 2019-01-23 11:39:47 +0000
-redirect-from:
+redirect_from:
   - working-with-skills.html
 
 ---

@@ -46,7 +46,8 @@ In the future the following functionality will added:
 - Automotive specific feature support
 
 ## Provisioning
-This app is available in the Playstore, just search “Liveengage” and download the Agent App. Brands can download it today and any agent can use their regular credentials to login.
+This app is available on Google Play. Brands can download it today and any agent can use their regular credentials to login.
+https://play.google.com/store/apps/details?id=com.liveperson.LiveEngageMessaging"
 
 ## How to login
 ### Login fields

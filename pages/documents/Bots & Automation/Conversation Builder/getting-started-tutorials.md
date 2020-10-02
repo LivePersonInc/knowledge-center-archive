@@ -11,7 +11,7 @@ date: 2019-03-17 14:03:55 +0000
 
 ---
 
-Here are four tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth on [the Developer Center](https://developers.liveperson.com/).
+Here are six tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth in the [the Developer Center](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)
 
 ## Dialogs and Patterns
 
@@ -33,6 +33,17 @@ This video covers more complex bot [interactions](https://developers.liveperson.
 
 ## Integrations
 
-In this final tutorial video, we explore [integrations](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#integrations-tutorial), which allow a bot to query external APIs, bringing powerful new options to conversations. Use integrations to programmatically access catalogs, databases, and other web services to super power your bot responses!
+In this tutorial video, we explore [integrations](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html#integrations-tutorial), which allow a bot to query external APIs, bringing powerful new options to conversations. Use integrations to programmatically access catalogs, databases, and other web services to super power your bot responses!
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/321979952" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Deploy a bot
+
+In this tutorial video, we will finally deploy our Getting Started bot to a live demonstration page. We will create a ‘bot agent and skill, set up our web messaging engagement window, and connect our bot to our agent. 
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/451127135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Escalate to agent
+In this video, we will demonstrate how to efficiently hand off to a human agent as needed. Despite everything that we can do for our users with automations, there are always going to be tasks that are best handled by a human on the other end of a messaging interaction.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/451534344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

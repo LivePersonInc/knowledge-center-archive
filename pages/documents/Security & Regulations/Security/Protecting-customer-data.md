@@ -27,7 +27,7 @@ The service components are protected with several layers of security, for exampl
 The Conversational Cloud platform is designed with inherent controls that were included in each layer to help prevent cross-account access between different customers. Each customer is provisioned with a unique Coversational Cloud account (site ID), and each request to the LivePerson servers is based on that unique identifier.
 
 The unique customer account provides robust controls for dedicated user management, and dedicated customized security settings to align with each customer’s security policy, as outlined below.
-All Consumer (Web visitors, Mobile Messaging) and agent interactions always go through the Copnversational Cloud platform for control and validation, and to help ensure appropriate segregation and security.
+All Consumer (Web visitors, Mobile Messaging) and agent interactions always go through the Conversational Cloud platform for control and validation, and to help ensure appropriate segregation and security.
 LivePerson invests great efforts to ensure that all segregation and security controls are effective, and function according to the security model design. Independent security vulnerability assessments and penetration tests are performed on a regular basis, with specific test cases and scenarios that focus on the effectiveness of customer segregation controls. 
 
 ## Dataflow and Platform Diagram 

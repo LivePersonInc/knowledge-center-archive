@@ -130,3 +130,11 @@ When you have intents and they are enabled for LivePerson's Intent Analyzer, you
 <!--
 See [LivePerson Intent Analyzer Best Practices](intent-analyzer-best-practices.html) for some common usage flows and best practices.
 -->
+
+## Managing user access
+In order for a user to access Intent Analyzer, they must be assigned a profile that has at least one of the following permissions:
+* Conversation Builder: Administrator OR
+* Conversation Builder: Content User OR
+* Conversation Builder: Business User OR
+* Conversation Builder: Bot Builder
+For more information on permissions, click [here](https://knowledge.liveperson.com/admin-settings-permissions-profiles.html)
