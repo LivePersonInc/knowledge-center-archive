@@ -19,15 +19,13 @@ Messaging connectors make it simple for brands to integrate popular third-party 
 ## LivePerson currently offers connectors for the following messaging channels:
 
 * [Facebook Messenger](messaging-channels-facebook-messenger.html)
-* [Google RCS Business Messenger](messaging-channels-google-rcs-business-messaging.html)
-* [WhatsApp Business](messaging-channels-whatsapp-business.html)
-* [Google My Business](messaging-channels-google-my-business.html)
-* [Line](messaging-channels-line-connector.html)
 * [Twilio SMS](messaging-channels-sms-sms-connector.html)
-* CM SMS*
-* Apple Business Chat*
-
-\*For more information on leveraging these channels contact your LivePerson representative
+* [Apple Business Chat](messaging-channels-apple-business-chat-overview.html)
+* [Google RCS Business Messenger](messaging-channels-google-rcs-business-messaging.html)
+* [Google Business Messages](messaging-channels-google-business-messages.html)
+* [WhatsApp Business](messaging-channels-whatsapp-business.html)
+* [Line](messaging-channels-line-connector.html)
+* [WeChat Busines](messaging-channels-wechat-business.html)
 
 ![](/img/messaging-connectors-overview-1.gif)
 
