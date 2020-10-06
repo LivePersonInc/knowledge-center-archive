@@ -1,4 +1,4 @@
-
+---
 pagename: Google offerings comparison
 categoryName: Messaging channels
 subCategoryName: Google
@@ -9,7 +9,6 @@ permalink: messaging-channels-google-google-offerings-comparison.html
 isTutorial: false
 date: 2019-01-20 12:14:47 +0000
 isNew: false
-
 ---
 
 ## Google Business Messaging and Google RCS, what’s the difference?
