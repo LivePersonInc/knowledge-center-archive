@@ -5,11 +5,12 @@ subCategoryName: Google
 indicator: messaging
 subtitle: Offer an enriched messaging experience with the capabilities of RCS
 level3: ''
-permalink: messaging-channels-google-rcs-business-messaging.html
+permalink: messaging-channels-google-google-rcs-business-messaging.html
 isTutorial: false
 date: 2019-01-20 12:14:47 +0000
 isNew: false
-
+redirect_from:
+  - messaging-channels-google-rcs-business-messaging.html
 ---
 With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale.
 
