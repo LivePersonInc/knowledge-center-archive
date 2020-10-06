@@ -71,7 +71,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 
 1. **Sitelinks:** Offer a messaging option when Google knows that a customer is searching for a brand, deflecting contacts that might go into other, less efficient channels
 
-![](img/google-business-messages-2.png)
+![](img/google-business-messages-11.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -81,7 +81,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 {:start="2"}
 1. **Answer Card:** Allow customers to message when they Google your customer service or contact number
 
-![](img/google-business-messages-3.png)
+![](img/google-business-messages-12.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -102,7 +102,8 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 
 **Push Notifications:** Consumers that leave the app can effortlessly rejoin the conversation whether they receive a push notification inviting them to respond to an agent or they revisit the docked conversation on the homescreen.
 
-![](img/google-business-messages-5.png)
+![](img/google-business-messages-13.png)
+![](img/google-business-messages-14.png)
 
 **Conversation Starter Chips:** When users initiate a conversation they are greeted by a rich experience including the brand’s name and logo, conversation starter message and quick reply chips.
 
@@ -119,6 +120,8 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 ## Setting up Google Business Messages
 
 1. Brand completes & submits [registration form](https://www.liveperson.com/gbm-registration-form/cs/)
-2. LivePerson creates brand’s GBM Agent (logo, hours of operation, bot/human experience, etc.) (24+ hours)
-3. LivePerson sends test url to brand (24+ hours)
+2. LivePerson creates brand’s GBM Agent (logo, hours of operation, bot/human experience, etc.) 
+3. LivePerson sends test URL to brand 
 4. Brand decides launch date
+
+![](img/google-business-messages-15.png)
