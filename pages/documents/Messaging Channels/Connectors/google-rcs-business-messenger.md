@@ -98,7 +98,7 @@ Brands can integrate their business systems (CRM, marketing automation) and shar
 2. LP logs into Google’s RBM Console to create RCS Agent (logo, agent name, privacy policy, etc.) 
 3. LP conducts provisioning in Houston (1 day)
   a. Whitelists phone numbers in RBM console
-4. IVR Deflection/Custom Entry Point configuration https://rbm.lpengage.com/admin# (1 day)
+4. IVR Deflection/Custom Entry Point configuration [https://rbm.lpengage.com/admin#](https://rbm.lpengage.com/admin#) (1 day)
   a. Sends provisioning information to SmartConnect team
   b. SC team conducts testing with both the brand and internal account team
 5. Click verification button in RBM console (1-2 days)
