@@ -5,7 +5,7 @@ subCategoryName: Google
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-google-offerings-comparison.html
+permalink: messaging-channels-google-google-offerings-comparison.html
 isTutorial: false
 date: 2019-01-20 12:14:47 +0000
 isNew: false
