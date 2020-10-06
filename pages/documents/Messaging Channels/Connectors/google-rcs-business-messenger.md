@@ -13,7 +13,7 @@ isNew: false
 ---
 With the Google RCS Business Messaging connector, brands can communicate with consumers using Google’s native messaging app, Android Messages. Combined with the messaging operational and automation tools of LivePerson’s platform, it is easy to manage conversations at scale.
 
-## What is RCS?
+## Google RCS vs. SMS
 
 ![](/img/rcs connector 1-3.gif)
 
@@ -25,11 +25,7 @@ RCS, or Rich Communication Services, is a communication protocol between mobile 
   for many other Android devices
 * RCS enables seamless conversations across multiple mobile carriers and phone manufacturers that support RCS
 
-## What is Google RCS Business Messaging?
-
-Google RCS Business Messaging is built on top of the RCS standard, providing an enhanced messaging experience between brands and consumers. With Google’s RCS Business Messaging, brands can communicate with consumers through Messages, Google’s native messaging app, while using the range of rich media and Rich Conversations capabilities available with RCS.
-
-## Why use Google RCS Business Messenger to connect with your consumers?
+## Benefits of Google RCS 
 
 * **Google’s compatibility API** — Google’s API determines if users are eligible to receive proactive notifications via RCS Business Messaging.
 * **Rich Conversation capabilities** — High-resolution photos, content carousels, rich cards, quick replies, GIFs, audio messaging and more provide an enriched messaging experience for consumers.
@@ -39,6 +35,22 @@ Google RCS Business Messaging is built on top of the RCS standard, providing an 
 * **Secure forms** — Secure forms allow brands to perform identification and authorization, share PII information to generate leads or to perform a registration process during a conversation in a PCI compliant environment.
 * **Auto messages** — Send predefined messages about events that occur automatically in the conversation.
 * **Post Conversation Survey** — Gather feedback from consumers and measure their success across all messaging channels with the Post Conversation Survey.
+
+![](img/google-rcs-1.png)
+![](img/google-rcs-2.png)
+
+## Google Business Messaging and Google RCS, what’s the difference?
+
+|         | GBM: Google Business Messaging | RCS: Rich Communication Services  |
+| ------------- |:-------------:|:-----:|
+| General concept | A set of Messaging entry points controlled by Google | A better and fancier SMS |
+| Other names      | Google My Business  |  RBM, Rich Business Messaging, Google RBM, Plus Message |
+| Entry points | Google Maps, Site Links, Answer Card   |  Voice to Messaging, Proactive Outbound (using SmartConnect API)|
+| Consumer reach   | Google Maps users (67% world wide), Google search engine users (over 90% of smartphone users outside of China) |   Number of supported users varies by country, currently at 5%-15% and growing steadily. |
+| OS required | iOS and Android  | Android only |
+| Software required | Google Maps: iOS and Android, Organic Search and Answer Card: Android Only  | Android Messages or Samsung Messages |
+| Rich functionaity supported | Text and Images (richer functionality is being worked on)  |  Product Carousel, Rich Cards, Rich Media, Quick Replies |
+| Brand development effort required | None (Minor configuration effort is required) | Requires SmartConnect implementation |
 
 ## How conversations start
 
@@ -53,3 +65,46 @@ Brands can deflect consumers from voice call to Google RCS Business Messaging us
 ![](/img/rcs connector 3-1.gif)
 
 Brands can integrate their business systems (CRM, marketing automation) and share notifications of real-time business actions with consumers on Google RCS Business Messaging.
+
+## RCS Carriers
+
+* Argentina: Claro
+* Brazil: Nextel
+* Brazil: Oi
+* Brazil: Tim
+* Canada: Freedom
+* Canada: Rogers
+* Colombia: Claro
+* France: Bouygues
+* France: Free
+* France: Orange
+* Mexico: AT&T
+* Mexico: Movistar
+* Mexico: Telcel
+* United Kingdom: EE
+* United Kingdom: O2
+* United Kingdom: Three
+* United States: Google Fi
+* United States: T-Mobile
+* United States: Sprint
+* United States: US Cellular
+* United States: AT&T
+* United States: C-Spire
+* United States: Verizon
+
+## Setting Up Google RCS
+
+1. Fill out and submit [registration form](https://www.liveperson.com/rcs-registration-form/) (1 Day)
+2. LP logs into Google’s RBM Console to create RCS Agent (logo, agent name, privacy policy, etc.) 
+3. LP conducts provisioning in Houston (1 day)
+  a. Whitelists phone numbers in RBM console
+4. IVR Deflection/Custom Entry Point configuration https://rbm.lpengage.com/admin# (1 day)
+  a. Sends provisioning information to SmartConnect team
+  b. SC team conducts testing with both the brand and internal account team
+5. Click verification button in RBM console (1-2 days)
+  a. Submit form via console that will verify the agent configuration / OBO
+6. Brand approves launch, LP goes into RBM console and selects “Launch” button (3-4 days)
+  a. Submit Launch form via RBM console for Google Approval
+  b. Google QA tests experience -> Opt-out functionality for bot/agent
+
+![](img/google-rcs-3.png)
