@@ -5,11 +5,12 @@ subCategoryName: Google
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-google-business-messages.html
+permalink: messaging-channels-google-google-business-messages.html
 isTutorial: true
 date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
-
+redirect_from:
+  - messaging-channels-google-business-messages.html
 ---
 
 ## Introduction
