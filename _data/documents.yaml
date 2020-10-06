@@ -46,8 +46,10 @@
         # - pagename: Post-Launch Care and Maintenance
         # - pagename: Troubleshooting
     - subcategoryname: Facebook Messenger
-    - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google Business Messages
+    - subcategoryname: Google 
+        - pagename: Google RCS Business Messaging
+        - pagename: Google Business Messages
+        - pagename: Google offerings comparison
     - subcategoryname: WhatsApp Business
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
