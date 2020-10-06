@@ -46,7 +46,8 @@
         # - pagename: Post-Launch Care and Maintenance
         # - pagename: Troubleshooting
     - subcategoryname: Facebook Messenger
-    - subcategoryname: Google 
+    - subcategoryname: Google
+      pages:
         - pagename: Google RCS Business Messaging
         - pagename: Google Business Messages
         - pagename: Google offerings comparison
