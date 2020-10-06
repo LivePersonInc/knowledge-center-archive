@@ -48,7 +48,7 @@ The above statistics represent a tremendous opportunity for brands to offer a me
 ## Google Business Messaging and Google RCS, what’s the difference?
 
 |         | GBM: Google Business Messaging | RCS: Rich Communication Services  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|:-----:|
 | General concept | A set of Messaging entry points controlled by Google | A better and fancier SMS |
 | Other names      | Google My Business  |  RBM, Rich Business Messaging, Google RBM, Plus Message |
 | Entry points | Google Maps, Site Links, Answer Card   |  Voice to Messaging, Proactive Outbound (using SmartConnect API)|
