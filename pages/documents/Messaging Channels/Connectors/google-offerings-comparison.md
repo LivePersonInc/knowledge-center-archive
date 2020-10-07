@@ -1,14 +1,16 @@
 ---
-pagename: Google offerings comparison
+pagename: Distinction between GBM and RCS
 categoryName: Messaging channels
 subCategoryName: Google
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-google-google-offerings-comparison.html
+permalink: messaging-channels-google-distinction-between-gbm-and-rcs.html
 isTutorial: false
 date: 2019-01-20 12:14:47 +0000
 isNew: false
+redirect_from:
+  - messaging-channels-google-google-offerings-comparison.html
 ---
 
 ## Google Business Messaging and Google RCS, what’s the difference?
