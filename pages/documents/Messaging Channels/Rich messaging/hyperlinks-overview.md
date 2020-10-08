@@ -71,10 +71,11 @@ Generally HTML elements can be integrated into Predefined Content entries. Chat 
 
 Hyperlinks for messaging are implemented using markdown language.
 
-In order to add hyperlinks to bots (such as Post Conversation Survey bot or other bots using  the Conversation Builder) and Automatic Messages with hyperlinks, you should use the following markdown language syntax: #md#[Hyperlink_Description](Hyperlink_URL)#/md#
+In order to add hyperlinks to bots (such as Post Conversation Survey bot or other bots using  the Conversation Builder) and Automatic Messages with hyperlinks, you should use the following markdown language syntax: 
+'''#md#[Hyperlink_Description](Hyperlink_URL)#/md#'''
 
 For example:
-#md#[Liveperson Page](https://www.liveperson.com)#/md#
+'''#md#[Liveperson Page](https://www.liveperson.com)#/md#'''
 In runtime, the link will be displayed to the consumer as a clickable link.
 
 ## Supported sources
