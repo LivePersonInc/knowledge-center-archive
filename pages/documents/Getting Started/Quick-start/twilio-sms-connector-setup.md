@@ -36,11 +36,10 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 {:start="4"}
 4. **Configure the request URL** by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming)
    
-5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" subheader. Based on your region, copy the appropriate link below and paste it into the field beneath the **A message comes in** field. Hit Save.
-
-  * EMEA (Europe/Middle East/Asia) accounts: **[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-  * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-  * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
+5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" subheader. Based on your region, copy the appropriate link below and paste it into the field next to the **A message comes in** option. Then hit Save.
+    * EMEA (Europe/Middle East/Asia) accounts: **[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msggw.liveperson.net/api/ACCOUNT#/default/twilio)**
+    * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
+    * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
 
 ![](img/twilio-quick-start-3.png)
 
