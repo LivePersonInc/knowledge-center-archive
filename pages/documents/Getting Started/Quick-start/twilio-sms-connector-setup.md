@@ -26,17 +26,23 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
 2. Click **Get a Trial Number** and follow the instructions on-screen.
 
+![](img/twilio-quick-start-1.png)
+
+{:start="3"}
 3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process.
 
+![](img/twilio-quick-start-2.png)
+
+{:start="4"}
 4. **Configure the request URL** by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming)
    
-5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" section. Based on your region, copy the appropriate link below and paste it into the field beneath "A message comes in." Hit Save.
+5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" subheader. Based on your region, copy the appropriate link below and paste it into the field beneath the **A message comes in** field. Hit Save.
 
   * EMEA (Europe/Middle East/Asia) accounts: **[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-
   * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-
   * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
+
+![](img/twilio-quick-start-3.png)
 
 ## Step 2: Connect Twilio to the Conversational Cloud
 
