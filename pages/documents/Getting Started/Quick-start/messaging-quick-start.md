@@ -17,7 +17,7 @@ redirect_from:
 Set up Web Messaging between the Conversational Cloud and your website.
 
 {: .notice}
-**Tip:** You can also test the Web Messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.com/web-messaging/emulator.html) and inputing your account number.
+**Tip:** You can also test the Web Messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.com/web-messaging/emulator.html) and inputting your account number.
 
 ## Step 1: Get the Web Tag
 
