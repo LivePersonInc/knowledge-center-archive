@@ -5,7 +5,7 @@ subCategoryName: LivePerson Intent Analyzer
 indicator: messaging
 subtitle: Optimize your intent taxonomy using the Intent Discovery and Optimization tools
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize Intents.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html
 isTutorial: false
 isNew: false
 
