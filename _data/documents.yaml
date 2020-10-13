@@ -102,9 +102,9 @@
    - subcategoryname: LivePerson Intent Manager
      pages:
        - pagename: The power of an intent-driven contact center
+       - pagename: Overview       
    - subcategoryname: LivePerson Intent Analyzer
      pages:       
-       - pagename: Overview
        - pagename: Getting started
        - pagename: Create Evaluate and Optimize Intents      
        - pagename: Dashboard
