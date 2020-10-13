@@ -90,3 +90,8 @@ She creates a bot in Conversation Builder for handling these requests and create
 
 The company is able to greatly reduce the volume of agent conversations related to the policy change.
 
+## Next steps
+* For more information on the Intent Analyzer and getting started quickly with intents, click [here.](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
+* For a step by step guide of creating, evaluating and optimizing intents, click [here.](https://knowledge.liveperson.com/ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html)
+* For more information on the Intent Builder, click [here](https://developers.liveperson.com/intent-builder-overview.html)
+
