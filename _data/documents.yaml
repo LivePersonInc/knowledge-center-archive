@@ -106,7 +106,7 @@
      pages:       
        - pagename: Overview
        - pagename: Getting started
-       - pagename: Create Evaluate & Optimize Intents      
+       - pagename: Create Evaluate and Optimize Intents      
        - pagename: Dashboard
    - subcategoryname: Post-conversation surveys
      pages:
