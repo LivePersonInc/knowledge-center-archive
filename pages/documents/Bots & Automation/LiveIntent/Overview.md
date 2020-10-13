@@ -1,17 +1,17 @@
 ---
 pagename: Overview
 categoryName: Bots & automation
-subCategoryName: LivePerson Intent Analyzer
+subCategoryName: LivePerson Intent Manager
 indicator: messaging
-subtitle: The LivePerson Intent Analyzer provides real-time intent identification to help businesses optimize
-  operations and enable data-driven automation programs
+subtitle: The Intent Manager is the suite of tools that allows you to build an intent taxonomy, analyze the most popular consumer intents, optimize how well they are being fulfilled, and discover intents that can or should be automated.
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-overview.html
+permalink: ai-bots-automation-liveperson-intent-manager-overview.html
 isTutorial: false
 isNew: false
 redirect_from: 
   - ai-bots-automation-liveintent-overview.html
   - ai-bots-automation-intent-analyzer-overview.html
+  - ai-bots-automation-liveperson-intent-analyzer-overview.html
 ---
 
 ## Introduction
