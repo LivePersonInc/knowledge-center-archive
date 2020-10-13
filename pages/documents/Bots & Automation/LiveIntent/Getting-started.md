@@ -23,8 +23,9 @@ There are a number of ways to get started and all the steps will be detailed bel
 To get you quickly up and running with intents, LivePerson now provides a set of prebuilt domains that can easily be added to the Intent Builder environment. A “prebuilt domain” is a ready-made, pretrained domain that includes a set of well-defined intents. No prior conversations are needed to get started (unlike the starter pack).
 
 There are two kinds of prebuilt domains:
-1 ) Generic, prebuilt domains for a number of verticals: Telecommunications, Financial Services, Airlines and Insurance.
-2) A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
+
+1. Generic, prebuilt domains for a number of verticals: Telecommunications, Financial Services, Airlines and Insurance.
+2. A cross-vertical, prebuilt domain that is appropriate for all verticals. This includes intents for things like customer account management, customer order management, e-commerce, billing and payment.
 Once you add a prebuilt domain, you can customize it as you see fit. After customization, you’ll need to retrain the domain as you normally do. 
 
 ![](img/Preview-Cross-Vertical.png)
