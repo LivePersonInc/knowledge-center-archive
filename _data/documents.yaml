@@ -108,6 +108,7 @@
        - pagename: Getting started
        - pagename: Create Evaluate and Optimize Intents      
        - pagename: Dashboard
+       - pagename: FAQs   
    - subcategoryname: Post-conversation surveys
      pages:
        - pagename: Post-Conversation Survey bot
