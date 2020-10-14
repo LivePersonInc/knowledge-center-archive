@@ -30,11 +30,14 @@ Once you add a prebuilt domain, you can customize it as you see fit. After custo
 
 ![](img/Preview-Cross-Vertical.png)
 
+For more information, click [here](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
+
 ## Starter Pack Quick Start
 
-If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LivePerson's Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand. 
+If you do **not** already have intents created in Intent Builder, and if you would like to **get up to speed quickly**, LivePerson's Intent Analyzer offers starter packs filled with common intents for various different business verticals. These starter packs leverage your historical transcript data to automatically create a model for your brand.  
 
-To get started with starter packs. Click [here](https://knowledge.liveperson.com/getting-started-getting-started-with-intents.html)
+Starter packs use a highly tuned Machine Learning model to extract brand specific messages from your historical data that can be used as seed training phrases for your custom ML model. Starter packs must be run and implemented by LuvePerson staff.
+To get started with starter packs, please contact your LivePerson account team.
 
 ### Permissions
 LivePerson's Intent Analyzer inherits its permission structure from Conversation Builder, as the primary admin/ configuration work is related to setting up intents and training models in Intent Builder. Therefore, LivePerson's Intent Analyzer also requires Conversation Builder permissions to be turned ON in Administrator Profile, if not already done so.
