@@ -50,6 +50,16 @@ A lookback period is the duration when the consumer response to Proactive outbou
 
 For a single WhatsApp Account ID, there can be multiple phone numbers associated with it. When a brand creates a WhatsApp message template, it is useful to see what phone numbers are associated with the WhatsApp Account ID they are creating the template with. This enables brands to know if the message template can be used when sending outbound messages.
 
+![](img/Proactive-Oct-19-RN-1.png)
+
+## Show Proactive API key and secret
+### Type: Enhancement [Proactive Messaging]
+#### Channels: Twilio, WhatsApp Business
+
+For accounts that have Proactive API enabled, user with administrator privileges will be able to go into Proactive web tool and retrieve the key and secret information under Settings tab. 
+
+![](img/Proactive-Oct-19-RN-2.png)
+
 ## Fix column sort on Proactive campaign list page
 ### Type: Bug fix [Proactive Messaging]
 
