@@ -8,7 +8,7 @@ level3: ''
 permalink: release-notes-2020-october-week-of-october-19th.html
 isTutorial: false
 isNew: false
-date: '2020-10-01'
+date: '2020-10-14'
 
 ---
 
