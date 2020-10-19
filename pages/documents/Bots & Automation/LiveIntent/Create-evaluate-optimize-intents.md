@@ -137,15 +137,15 @@ After creating your intents and adding training utterances on Intent Builder, co
 
 * Now, use the first dropdown menu to select “intents” as your category.
 
-![](IA-Optimize-13.png)
+![](img/IA-Optimize-13.png)
 
 * Then use the second dropdown menu to select which intent you want to filter on.
 
-![](IA-Optimize-14.png)
+![](img/IA-Optimize-14.png)
 
 Once you have an intent filter created, read around 10+ messages in the “Messages with Intent” window and verify that these messages match the current intent you are using as your filter. As you do this please refer to the intent’s definition for guidance (see links to definitions at the end of this document). Make sure to do this for every intent in your taxonomy, and track how many messages are correctly labeled per each intent. If you observe less than 60% correctly labeled messages, please see the “Diagnosis” step below for next steps. For a more accurate assessment of your model, read over a larger number of messages per intent (20+ would be ideal).
 
-![](IA-Optimize-15.png)
+![](img/A-Optimize-15.png)
 
 In the above example 6 messages were correctly labeled as “report general login issues”, while 2 messages were incorrectly labeled as “report general login issues”. This gives you  6/8 correct, simplified to 3/4 or 75% correct.
 
