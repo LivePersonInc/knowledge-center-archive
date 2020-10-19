@@ -1,13 +1,15 @@
 ---
-pagename: Create Evaluate and Optimize Intents
+pagename: Create and Optimize Intents
 categoryName: Bots & automation
 subCategoryName: LivePerson Intent Analyzer
 indicator: messaging
 subtitle: Optimize your intent taxonomy using the Intent Discovery and Optimization tools
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html
+permalink: ai-bots-automation-liveperson-intent-analyzer-create-and-optimize-intents.html
 isTutorial: false
 isNew: false
+redirect_from: 
+  - ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html
 
 ---
 
