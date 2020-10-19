@@ -106,7 +106,7 @@
    - subcategoryname: LivePerson Intent Analyzer
      pages:       
        - pagename: Getting started
-       - pagename: Create Evaluate and Optimize Intents      
+       - pagename: Create and Optimize Intents      
        - pagename: Dashboard
        - pagename: FAQs   
    - subcategoryname: Post-conversation surveys
