@@ -84,12 +84,12 @@ This table provides a summary of the conditions and outcomes of each of the thre
 
 1. Default state - busy state disabled
 
-![](/img/managing-campaigns-3.png)
+![](/img/managing-campaigns-4.png)
 
 {:start="2"}
 2\. Busy state enabled
 
-![](/img/managing-campaigns-4.png)
+![](/img/managing-campaigns-3.png)
 
 {:start="3"}
 3\. Busy state disabled, ignore max wait time enabled

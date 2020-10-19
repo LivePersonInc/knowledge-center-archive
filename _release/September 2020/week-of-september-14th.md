@@ -19,49 +19,6 @@ Please contact your LivePerson account team for the exact dates on which you wil
 {: .important}  
 The timing and scope of these features or functionalities remain at the sole discretion of LivePerson and are subject to change.
 
-## [Manager Workspace] Skills widget 
-### Type: Enhancement (MWS 1.11) 
-
-Today, when tracking the performance of multiple skills, managers are required to manually filter the workspace skill by skill in order to view the data they need. A new skill-level table has been added to the workspace, allowing managers to do this more easily. The table exposes existing metrics as well as new metrics like **"Actionable"** and  **"Wait time for assignment (50%)".**
-
-{: .notice}  
-**Please note:** This feature has backend dependencies. For more information please contact your LivePerson representative. 
-
-#### Who can view the widget?
-A new permission “View skill level metrics in the manager workspace” has been added under the agent manager role.
-The permission is *Off* by default.
-
-![](img/week-of-september-14-1.png)
-
-Once it is turned on for the desired agent manager profiles, the Manager Workspace layout will be changed for the relevant users so that a new “Skills” widget will be visible (currently it is located between the Agent Widget and the Conversation Widget).
-
-![](img/week-of-september-14-2.png)
-
-#### Which metrics are available on the table?
-
-![](img/week-of-september-14-3.png)
-
-Brands can control which metrics will be displayed in the widget via the configuration window (some of the metrics are turned off by default as listed in the above metrics table):
-
-![](img/week-of-september-14-4.png)
-
-#### Which skills will each user see?
-
-The table will hold the list of all skills the user is privileged to, i.e skills assigned to the agents under the groups the user is managing.
-
-#### How will the group filter impact the skills list?
-
-* Metrics which are queue-related (pre agent assignment) will not be impacted by the filter. **For example:** unassigned, actionable, wait time for assignment etc.
-* Metrics which are attributed to agents, will be impacted. **For example:** assigned, response time, online agents etc.
-* Filtering the workspace by group, will NOT impact the list of skills (skills population) retrieved. The skills list is impacted only by the user privileges. 
-
-## [Manager Workspace] Freeze main filters
-### Type: Enhancement (MWS 1.11) 
-
-Up till now, when users scrolled down in the Manager Workspace, the header which contains information such as filters and time frames, disappears. This meant that if a user wanted to take a quick glance at the current filter or needed to make a change, the user would need to scroll back to the top of the screen to complete the task. Freezing the headers (making them “sticky”) enables users to constantly see what is impacting their workspace and be able to make changes more easily. 
-
-![](img/week-of-september-14-5.png)
-
 ## Facebook Referral param feature
 ### Type: Enhancement (v3.23.7) 
 

@@ -16,7 +16,7 @@ redirect_from:
 
 For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. Our self-serve on-boarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
-Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio.
+Brands now have the option to generate a Twilio SMS number directly within LivePerson's platform. For information on doing this, please [click here](messaging-channels-sms-generate-a-twilio-sms-number-with-liveperson.html). Or, follow the below instructions to get a number through Twilio.
 
 ## Step 1: Get an SMS number from Twilio
 
@@ -26,17 +26,22 @@ Create your own Twilio account [here](https://www.twilio.com/try-twilio), then f
 
 2. Click **Get a Trial Number** and follow the instructions on-screen.
 
+![](img/twilio-quick-start-1.png)
+
+{:start="3"}
 3. Make sure to note your Account SID and Auth Token from this page as you will need them later in the process.
 
+![](img/twilio-quick-start-2.png)
+
+{:start="4"}
 4. **Configure the request URL** by navigating to the following page: [https://www.twilio.com/user/account/phone-numbers/incoming](https://www.twilio.com/user/account/phone-numbers/incoming)
    
-5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" section. Based on your region, copy the appropriate link below and paste it into the field beneath "A message comes in." Hit Save.
+5. Select the phone number for which you would like to configure SMS messaging. Scroll down to the "Messaging" subheader. Based on your region, copy the appropriate link below and paste it into the field next to the **A message comes in** option. Then hit Save.
+    * EMEA (Europe/Middle East/Asia) accounts: **[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msggw.liveperson.net/api/ACCOUNT#/default/twilio)**
+    * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
+    * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
 
-  * EMEA (Europe/Middle East/Asia) accounts: **[https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-
-  * North America accounts: **[https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
-
-  * APAC (Asia Pacific) accounts: **[https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio](https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio)**
+![](img/twilio-quick-start-3.png)
 
 ## Step 2: Connect Twilio to the Conversational Cloud
 

@@ -46,8 +46,11 @@
         # - pagename: Post-Launch Care and Maintenance
         # - pagename: Troubleshooting
     - subcategoryname: Facebook Messenger
-    - subcategoryname: Google RCS Business Messaging
-    - subcategoryname: Google Business Messages
+    - subcategoryname: Google
+      pages:
+        - pagename: Google RCS Business Messaging
+        - pagename: Google Business Messages
+        - pagename: Distinction between GBM and RCS
     - subcategoryname: WhatsApp Business
     - subcategoryname: LINE connector
     - subcategoryname: WeChat Business
@@ -96,12 +99,16 @@
        - pagename: Conversation Builder overview
        - pagename: The new Dialog Editor
        - pagename: Getting started tutorials
-   - subcategoryname: LivePerson Intent Analyzer
+   - subcategoryname: LivePerson Intent Manager
      pages:
        - pagename: The power of an intent-driven contact center
-       - pagename: Overview
+       - pagename: Overview       
+   - subcategoryname: LivePerson Intent Analyzer
+     pages:       
+       - pagename: Getting started
+       - pagename: Create Evaluate and Optimize Intents      
        - pagename: Dashboard
-       - pagename: LivePerson Intent Analyzer tips
+       - pagename: FAQs   
    - subcategoryname: Post-conversation surveys
      pages:
        - pagename: Post-Conversation Survey bot
@@ -387,6 +394,7 @@
         - pagename: October
           level3:
             - level3name: Week of October 5th
+            - level3name: Week of October 19th            
         - pagename: September
           level3:
             - level3name: Week of September 7th

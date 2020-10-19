@@ -17,7 +17,7 @@ The Conversational Cloud Salesforce Widget will allow SFDC information to be vie
 ## **Step #1: Installing the Conversational Cloud app for Salesforce**
 
 1. Log into Salesforce.
-2. Go to the following URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000AqfJ
+2. Go to the following URL: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000lIZ4](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1C000000lIZ4)
    * Select "Install for All Users,” click "Install." (When you complete the installation, make sure to limit the app and tabs only to the relevant authorized profiles, so the agents will not be able to modify the app configuration and setup (Admin, Management).
 3. “Approve Third-Party Access” - The App will ask you to install “Remote Site Settings”, mark the checkbox “Yes, grant access to these third-party web sites” and click continue, to allow communication to LivePerson Servers (this is mandatory for the app to work).
 

@@ -6,11 +6,12 @@ indicator: both
 subtitle: Analysis of performance at the account level, agent level, conversation
   level, and even message by message
 level3: ''
-permalink: data-reporting-meaningful-connection-score-(mcs)-using-the-mcs-toolkit.html
+permalink: data-reporting-meaningful-conversation-score-(mcs)-using-the-mcs-toolkit.html
 isTutorial: false
 date: 2019-01-22 13:45:11 +0000
 isNew: false
-
+redirect_from:
+  - data-reporting-meaningful-connection-score-(mcs)-using-the-mcs-toolkit.html
 ---
 
 <div class="important">Please <a href="https://knowledge.liveperson.com/data-reporting-meaningful-connection-score-(mcs)-accessing-the-toolkit.html">see this page</a> for updated information on how to access the MCS Toolkit</div>

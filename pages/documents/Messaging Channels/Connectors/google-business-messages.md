@@ -1,15 +1,16 @@
 ---
 pagename: Google Business Messages
 categoryName: Messaging channels
-subCategoryName: ''
+subCategoryName: Google
 indicator: messaging
 subtitle: 
 level3: ''
-permalink: messaging-channels-google-business-messages.html
+permalink: messaging-channels-google-google-business-messages.html
 isTutorial: true
 date: '2019-01-20T09:10:07.000+00:00'
 isNew: true
-
+redirect_from:
+  - messaging-channels-google-business-messages.html
 ---
 
 ## Introduction
@@ -45,13 +46,6 @@ The above statistics represent a tremendous opportunity for brands to offer a me
 * Google validates a brand during the onboarding process to ensure consumer confidence that they are communicating with an authentic brand.
 * All communications between LivePerson and Google are HTTPS encrypted.
 
-## Google Business Messaging and Google RCS, what’s the difference?
-
-* GBM is accessible via entry points: Location Search via Google Maps and Organic Search via Answer Cards & Sitelinks whereas RCS is a rich alternative to SMS.
-* GBM is inbound only; RCS is outbound only.
-* RCS is accessible only for Android users, GBM’s Location Search is available for both iOS and Android devices, so long as the user has the Google Maps application. (GBM Answer Cards and Sitelinks are only available for Android users).
-* GBM leverages Google’s conversation interface; RCS uses the consumer’s native messaging app.
-
 ## How conversations start
 
 ### Entry Points
@@ -71,7 +65,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 
 1. **Sitelinks:** Offer a messaging option when Google knows that a customer is searching for a brand, deflecting contacts that might go into other, less efficient channels
 
-![](img/google-business-messages-2.png)
+![](img/google-business-messages-11.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -81,7 +75,7 @@ Access Google’s 1 Billion monthly active users any time they search for your b
 {:start="2"}
 1. **Answer Card:** Allow customers to message when they Google your customer service or contact number
 
-![](img/google-business-messages-3.png)
+![](img/google-business-messages-12.png)
 
  *  **Overall setup effort:** Low
  *  **Dependencies:** Android users only (at least version 6.0). Only available in North America currently.
@@ -102,7 +96,8 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 
 **Push Notifications:** Consumers that leave the app can effortlessly rejoin the conversation whether they receive a push notification inviting them to respond to an agent or they revisit the docked conversation on the homescreen.
 
-![](img/google-business-messages-5.png)
+![](img/google-business-messages-13.png)
+![](img/google-business-messages-14.png)
 
 **Conversation Starter Chips:** When users initiate a conversation they are greeted by a rich experience including the brand’s name and logo, conversation starter message and quick reply chips.
 
@@ -119,6 +114,8 @@ Brands can now funnel website visitors to GBM conversations by adding a button w
 ## Setting up Google Business Messages
 
 1. Brand completes & submits [registration form](https://www.liveperson.com/gbm-registration-form/cs/)
-2. LivePerson creates brand’s GBM Agent (logo, hours of operation, bot/human experience, etc.) (24+ hours)
-3. LivePerson sends test url to brand (24+ hours)
+2. LivePerson creates brand’s GBM Agent (logo, hours of operation, bot/human experience, etc.) 
+3. LivePerson sends test URL to brand 
 4. Brand decides launch date
+
+![](img/google-business-messages-15.png)

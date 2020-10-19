@@ -16,6 +16,9 @@ redirect_from:
 ---
 Set up Web Messaging between the Conversational Cloud and your website.
 
+{: .notice}
+**Tip:** You can also test the Web Messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.com/web-messaging/emulator.html) and inputting your account number.
+
 ## Step 1: Get the Web Tag
 
 To obtain your Web Tag, login to the [Conversational Cloud](https://authentication.liveperson.net/) and click on your avatar in the lower left corner, selecting "Web Tag" from the pop-up menu. Note that this is only available to account Administrators.
@@ -25,9 +28,6 @@ To obtain your Web Tag, login to the [Conversational Cloud](https://authenticati
 ## Step 2: Add the Web Tag to your website
 
 Copy and paste the tag into your website's `<head>` section. The tag should be included as high up in the `<head>` section as possible. For more information, click [here](https://knowledge.liveperson.com/getting-started-add-the-liveperson-tag-to-your-website.html).
-
-{: .notice}
-**Tip:** You can also test the Web Messaging experience without adding the Web Tag to your site by using this [tool](https://developers.liveperson.io/web-messaging/) and inputing your account number.
 
 ## Step 3: Set up a new messaging campaign
 
