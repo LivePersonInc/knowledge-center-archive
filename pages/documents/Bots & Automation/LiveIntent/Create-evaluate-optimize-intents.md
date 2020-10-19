@@ -1,16 +1,16 @@
 ---
 pagename: Create and Optimize Intents
 categoryName: Bots & automation
-subCategoryName: LivePerson Intent Analyzer
+subCategoryName: LivePerson Intent Manager
 indicator: messaging
 subtitle: Optimize your intent taxonomy using the Intent Discovery and Optimization tools
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-create-and-optimize-intents.html
+permalink: ai-bots-automation-liveperson-intent-manager-create-and-optimize-intents.html
 isTutorial: false
 isNew: false
 redirect_from: 
   - ai-bots-automation-liveperson-intent-analyzer-create-evaluate-and-optimize-intents.html
-
+  - ai-bots-automation-liveperson-intent-analyzer-create-and-optimize-intents.html
 ---
 
 New Self Service Intent Discovery and Optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality.
