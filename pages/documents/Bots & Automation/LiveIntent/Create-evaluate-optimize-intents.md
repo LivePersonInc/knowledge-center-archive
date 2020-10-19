@@ -15,6 +15,9 @@ redirect_from:
 
 New Self Service Intent Discovery and Optimization features enable brands to tune their Intent taxonomy and deploy improved models within minutes. Brands can now easily mine their conversation data to discover and build new intents from one unified interface. They can also correct misclassified messages and feed those annotations back into their model as new training phrases to improve recognition quality.
 
+{: .notice}
+Please note that LivePerson's Intent Analyzer is part of Intent Manager. 
+
 ## How to enable
 Intent Discovery & Optimization is enabled by default for all Intent Analyzer customers. If you wish to disable, please contact your LivePerson account team.
 
