@@ -1,14 +1,16 @@
 ---
 pagename: Getting Started
 categoryName: Bots & automation
-subCategoryName: LivePerson Intent Analyzer
+subCategoryName: LivePerson Intent Manager
 indicator: messaging
 subtitle: The LivePerson Intent Analyzer provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-getting-started.html
+permalink: ai-bots-automation-liveperson-intent-manager-getting-started.html
 isTutorial: false
 isNew: false
+redirect_from: 
+  - ai-bots-automation-liveperson-intent-analyzer-getting-started.html
 ---
 
 ## Getting Started
