@@ -47,7 +47,7 @@ With built-in features like [Dynamic Capacity](contact-center-management-messagi
 
 ### LivePerson’s platform has the following capabilities for messaging connectors:
 
-**Routing** - LivePerson enables brands to easily identify the intent of the consumer and the reason why they have requested to message. They can route consumers to different skills by channel, or use LivePerson’s built-in [Routing Bot](conversation-builder-routing-bot-tutorial-overview.html) to refine your routing based on consumer intent.
+**Routing** - LivePerson enables brands to easily identify the intent of the consumer, i.e., the reason why they have requested to message. For practice with routing conversations based on intent, complete the in-depth [Conversation Builder tutorial series](https://developers.liveperson.com/tutorials-guides-getting-started-with-bot-building-overview.html).
 
 **Engagement attributes** - [Engagement attributes](https://developers.liveperson.com/messaging-interactions-api-engagement-attributes.html) help brands to collect more in-depth information about visitors, such as products viewed, errors encountered and more. Brands can configure these attributes within the platform to track more details about consumers and better serve their needs.
 
