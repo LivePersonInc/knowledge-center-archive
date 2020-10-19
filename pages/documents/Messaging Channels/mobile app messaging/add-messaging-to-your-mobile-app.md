@@ -196,7 +196,7 @@ As you create campaigns, you can create messages that are specific to that topic
 
 ### Set up a routing bot
 
-The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry. To learn more about the Routing Bot and how it is configured, [click here](conversation-builder-routing-bot-tutorial-overview.html).
+A routing bot can identify the intent of the consumer, i.e., the reason why they have requested to message with you. The bot then routes the consumer to the relevant skill that can handle the inquiry. For practice with routing conversations based on intent, complete the in-depth [Conversation Builder tutorial series](https://developers.liveperson.com/tutorials-guides-getting-started-with-bot-building-overview.html).
 
 ### Set up the Post Conversation Survey
 
