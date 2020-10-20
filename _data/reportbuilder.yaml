@@ -4012,7 +4012,7 @@
   Channel: "Messaging,Chat"
   formulaOptional: "AWAY / LOGGED IN TIME"
   Description: "Percentage (%) of time spent by agents in Away state out of the logged in time"
-  Dashboard: "Agent Activity, Business for Live Chat,Operational & Staffing for Live Chat"
+  Dashboard: "Agent Activity, Business for Live Chat, Operational & Staffing for Live Chat, Business Activity for Messaging, Performance for Messaging"
   filteredBy: "Agent, Group"
 - metricitem:
   Metric: "AWAY NOT ENG. RATE"
@@ -4049,10 +4049,10 @@
 - metricitem:
   Metric: "AWAY"
   analysisType: "Agent Status"
-  Channel: " Messaging,Chat"
+  Channel: "Messaging,Chat"
   formulaOptional: "-"
   Description: "Cumulative time hh:mm in Away state.  Can be viewed and filtered by the away reason attribute."
-  Dashboard: " Agent Activity, Business Activity for Messaging, Performance for Messaging, Business for Live Chat,Operational & Staffing for Live Chat "
+  Dashboard: "Agent Activity, Business Activity for Messaging, Performance for Messaging, Business for Live Chat,Operational & Staffing for Live Chat "
   filteredBy: "Date, Initial Device, Goal Type, Group , Source Type"
 - metricitem:
   Metric: "AVG. WAIT TIME TO FIRST HUMAN AGENT RESPONSE - AFTER TRANSFER"
