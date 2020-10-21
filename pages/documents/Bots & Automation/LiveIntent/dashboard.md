@@ -1,17 +1,18 @@
 ---
 pagename: Dashboard
 categoryName: Bots & automation
-subCategoryName: Intent Analyzer
+subCategoryName: LivePerson Intent Manager
 indicator: messaging
-subtitle: LivePerson's Intent Analyzer provides real-time intent identification to help businesses optimize
+subtitle: LivePerson's Intent manager provides real-time intent identification to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-liveperson-intent-analyzer-dashboard.html
+permalink: ai-bots-automation-liveperson-intent-manager-dashboard.html
 isTutorial: false
 isNew: false
 redirect_from: 
   - ai-bots-automation-liveintent-dashboard.html
   - ai-bots-automation-intent-analyzer-dashboard.html
+  - ai-bots-automation-liveperson-intent-analyzer-dashboard.html
 ---
 
 This document will explain all of the various aspects of the LivePerson Intent Analyzer dashboard.
@@ -34,20 +35,15 @@ Example:
     `"This message" AND "that intent" AND NOT "some other text"`
 
 ## Filters
+Filters provide customers with increased flexibility and the ability to cover more granular use cases including detailed analysis of the bot/human tango. 
+Exclude and compound filter options will make it faster to drill into specific data views and the ability to save filters. Customers can also save filters for ease of use.
 
-The filter options will limit data across all dashboards and views of LivePerson's Intent Analyzer.
+Find a pattern or theme in the messages by going to the Intent Analyzer dashboard and filtering by undefined. First click the “Add Filter” button on the top right of Conversation Details in Intent Analyzer.
 
-### Add Filter
+![](img/IA-Optimize-2.png)
 
-When you add a filter, you will see many different data points to filter by.
-
-Skills, Groups, and Agents allow you to ensure that the right intents are occurring in the right places.
-
-Domains, Meta-Intents, and Intents allow you to hone in on specific intents.
-
-Selecting User Types will allow you to optimize bot-specific or human-only conversations.
-
-MCS, Confidence Score, and CSAT will allow you to specifically dive into performance of intents.
+* Next, in the pop up window select “Intents” as your filter type on the left, and “undefined” from the dropdown on the right.
+![](img/IA-Optimize-3.png)
 
 ### Time Range
 

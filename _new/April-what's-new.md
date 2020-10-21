@@ -18,7 +18,7 @@ The Agent app offers messaging capabilities to help agents that are working from
 
 Agents can use the app to accept new conversations, transfer conversations to another skill, close conversations or return them to the queue. Agents can also leverage predefined content,  share images and use secure forms.
 
-For more information on the Agent App, click [here](https://knowledge.liveperson.com/agent-manager-workspace-agent-app-agent-app-user-guide.html)
+For more information on the Agent App, click [here](agent-manager-workspace-agent-app-android-user-guide.html)
 
 ## EmailConnect - multiple email addresses
 EmailConnect provides the ability for agents to receive and respond to consumer emails within LiveEngage.
