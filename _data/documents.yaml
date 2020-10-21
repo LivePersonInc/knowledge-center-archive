@@ -97,7 +97,6 @@
    - subcategoryname: Conversation Builder
      pages:
        - pagename: Conversation Builder overview
-       - pagename: The new Dialog Editor
        - pagename: Getting started tutorials
    - subcategoryname: LivePerson Intent Manager
      pages:
