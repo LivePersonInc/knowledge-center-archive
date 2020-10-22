@@ -41,7 +41,7 @@ New metrics which have been added are as follows:
 - Average number of consumer messages
 
 ## Intent-Powered Queue prioritization
-Brands can configure their customer queuing logic to prioritize specified high-value intents. For more information on Queue Prioritization, click here.
+Brands can configure their customer queuing logic to prioritize specified high-value intents. For more information on Queue Prioritization, [click here.](https://knowledge.liveperson.com/contact-center-management-messaging-operations-queue-management-queue-prioritization-overview.html)
 
 ## Voice and Video calling 
 The consumer's engagement window is expanded to show the video/call invitation and once accepted the call takes place via the extended engagement window. The agent sees the consumer via a dedicated voice and video agent window. Both agent and consumer use their device’s audio and video capabilities like with Zoom or Google Hangouts. 
