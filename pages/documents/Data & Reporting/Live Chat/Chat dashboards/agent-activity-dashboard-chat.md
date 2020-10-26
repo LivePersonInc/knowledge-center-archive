@@ -29,13 +29,15 @@ To find out which metrics are available for which channel, please refer to [repo
 | --- | --- | --- | 
 | Agent Attributes | Yes | Yes | 
 | Agent Productivity | Yes | Partially | 
-| Agent Status | Yes | Partially, Pure agent statuses metrics such as Online, Logged in are available for messaging as well, Engaged and Labor time are available only for chat. | 
+| Agent Status | Yes | Partially* (see note below) | 
 | Agent Utilization | Yes | No | 
 | Conversions | Yes | No | 
 | Queue Health | Yes | No | 
 | Collaboration | Yes | Yes |
 | Secure Form (PCI)| Yes | Yes |
 | Surveys | Yes | No |
+
+Note: Agent Productivity- This is for pure agent status metrics such as Online, Logged in are available for messaging as well, Engaged and Labor time are available only for chat.
 
 ## Main panel: agent activity dashboard
 
