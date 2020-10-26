@@ -12,13 +12,30 @@ date: 2019-01-21 13:17:48 +0000
 isNew: false
 
 ---
+
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
+Primary datasets: agent activity, conversions, engagements, surveys, Collaboration Channels, PCI forms.
 
-**Primary datasets:** agent activity, conversions, engagements, surveys
+Primary filters: agent, agent group, skill
 
-**Primary filters:** agent, agent group, skill
+Minimum timeframe: hourly
 
-**Minimum timeframe:** hourly
+The dashboard contains metrics which are relevant for chat and messaging agents such as online time and Away reason, and also metrics which are available only for chat or only for messaging. 
+In order to know which metrics available for which channel, please refer the reporting metrics
+
+**Available Channels:**
+
+| DataSets | Chat | Messaging | 
+| --- | --- | --- | 
+| Agent Attributes | Yes | Yes | 
+| Agent Productivity | Yes | Partially | 
+| Agent Status | Yes | Partially, Pure agent statuses metrics such as Online, Logged in are available for messaging as well, Engaged and Labor time are available only for chat. | 
+| Agent Utilization | Yes | No | 
+| Conversions | Yes | No | 
+| Queue Health | Yes | No | 
+| Collaboration | Yes | Yes |
+| Secure Form (PCI)| Yes | Yes |
+| Surveys | Yes | No |
 
 ## Main panel: agent activity dashboard
 
