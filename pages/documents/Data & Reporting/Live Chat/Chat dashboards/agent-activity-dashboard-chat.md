@@ -24,7 +24,17 @@ In order to know which metrics available for which channel, please refer the [re
 
 **Available Channels:**
 
-
+| DataSets | Chat | Messaging | 
+| --- | --- | --- | 
+| Agent Attributes | Yes | Yes | 
+| Agent Productivity | Yes | Partially | 
+| Agent Status | Yes | Partially, Pure agent statuses metrics such as Online, Logged in are available for messaging as well, Engaged and Labor time are available only for chat. | 
+| Agent Utilization | Yes | No | 
+| Conversions | Yes | No | 
+| Queue Health | Yes | No | 
+| Collaboration | Yes | Yes |
+| Secure Form (PCI)| Yes | Yes |
+| Surveys | Yes | No |
 
 ## Main panel: agent activity dashboard
 
