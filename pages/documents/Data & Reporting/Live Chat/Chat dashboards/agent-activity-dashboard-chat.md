@@ -20,7 +20,7 @@ Primary filters: agent, agent group, skill
 Minimum timeframe: hourly
 
 The dashboard contains metrics which are relevant for chat and messaging agents such as online time and Away reason, and also metrics which are available only for chat or only for messaging. 
-In order to know which metrics available for which channel, please refer the [reporting metrics] (https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
+In order to know which metrics available for which channel, please refer the [reporting metrics](data-reporting-reporting-metrics.html)
 
 **Available Channels:**
 
