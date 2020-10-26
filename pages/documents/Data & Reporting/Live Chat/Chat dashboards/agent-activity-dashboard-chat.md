@@ -13,12 +13,18 @@ isNew: false
 
 ---
 This dashboard includes operational metrics used to analyze agent activity and performance. This dashboard also entails hour offset capabilities allowing users to show the data with an offset to match the time zone where they manage their operation.
+Primary datasets: agent activity, conversions, engagements, surveys, Collaboration Channels, PCI forms.
 
-**Primary datasets:** Agent activity, conversions, engagements, surveys
+Primary filters: agent, agent group, skill
 
-**Primary filters:** Agent, agent group, skill
+Minimum timeframe: hourly
 
-**Minimum timeframe:** Hourly
+The dashboard contains metrics which are relevant for chat and messaging agents such as online time and Away reason, and also metrics which are available only for chat or only for messaging. 
+In order to know which metrics available for which channel, please refer the [reporting metrics]https://knowledge.liveperson.com/data-reporting-reporting-metrics.html)
+
+**Available Channels:**
+
+
 
 ## Main panel: agent activity dashboard
 
