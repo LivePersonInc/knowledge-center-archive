@@ -38,7 +38,7 @@ To find out which metrics are available for which channel, please refer to [repo
 | Secure Form (PCI)| Yes | Yes |
 | Surveys | Yes | No |
 
-**Note:** Agent Status: This is for pure agent status metrics such as Online and Logged in - available for Messaging as well. Engaged and Labor time are available only for Chat. 
+***Note:** Agent Status: This is for pure agent status metrics such as Online and Logged in - available for Messaging as well. Engaged and Labor time are available only for Chat. 
 
 ## Main panel: agent activity dashboard
 
