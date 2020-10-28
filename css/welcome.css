@@ -157,7 +157,7 @@ img.card-container {
     }
 
     #free-trial {
-        flex: 0 870px;
+        flex: 0 830px;
     }
 }
 
@@ -167,7 +167,7 @@ img.card-container {
     }
 
     #free-trial {
-        flex: 0 770px;
+        flex: 0 730px;
     }
 }
 
@@ -177,12 +177,12 @@ img.card-container {
     }
 
     #free-trial {
-        flex: 0 710px;
+        flex: 0 670px;
     }
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .homeContent {
         margin-left: 20px !important;
     }
@@ -192,6 +192,6 @@ img.card-container {
     }
 
     #free-trial {
-        flex: 0 610px;
+        flex: 0 570px;
     }
 }
