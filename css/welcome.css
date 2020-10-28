@@ -150,3 +150,9 @@ img.card-container {
     letter-spacing: 0.01em;
     color: white;
 }
+
+@media screen and (max-width: 1200px) {
+    #defaultcontent {
+        margin-left: 20px !important;
+    }
+}
