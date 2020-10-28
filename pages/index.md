@@ -17,13 +17,13 @@ Manage, measure and scale brand-to-consumer messaging conversations with LivePer
       <p class="success-stories-header">Learn more about the LivePerson Conversational Cloud</p>
     </a>
   </div>
-    <a class="welcome-card"  href="https://developers.liveperson.com/register.html"> 
+    <a class="welcome-card"  href="getting-started-getting-started-with-messaging.html"> 
       <img class="container-image" src="img/ic_get_started.svg"/>
-      <h5 class="welcome-title">Get started with your Free Trial account</h5>
+      <h5 class="welcome-title">Get started with messaging</h5>
     </a>
     <a  class="welcome-card"  href="/whats-new-latest-whats-new.html"> 
       <img class="container-image" src="img/ic_Whats_new.svg"/>
-      <h5 class="welcome-title">Check out What’s New at LivePerson</h5>
+      <h5 class="welcome-title">Check out What’s New</h5>
     </a>
       <a  class="welcome-card"  href="/release-notes-latest-release-notes.html"> 
       <img class="container-image" src="img/ic_release notes.svg"/>
@@ -31,11 +31,11 @@ Manage, measure and scale brand-to-consumer messaging conversations with LivePer
     </a>
   <a class="welcome-card" target="_blank" href="https://developers.liveperson.com/"> 
       <img class="container-image" src="img/ic_API_SDK.svg"/>
-      <h5 class="welcome-title">Explore API and SDK documentation in the Developer Center</h5>
+      <h5 class="welcome-title">Explore our Developer Center</h5>
     </a>
     <a  class="welcome-card" target="_blank" href="/troubleshooting-how-to-contact-support.html"> 
       <img class="container-image" src="img/ic_support.svg"/>
-      <h5 class="welcome-title">Get help with FAQs and customer support</h5>
+      <h5 class="welcome-title">Get help from customer support</h5>
     </a>
 </div>
 <div class="free-trial-container">
