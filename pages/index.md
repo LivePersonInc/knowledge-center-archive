@@ -19,7 +19,7 @@ LivePerson's AI-powered Conversational Cloud helps brands build meaningful relat
   </div>
     <a class="welcome-card"  href="getting-started-getting-started-with-messaging.html"> 
       <img class="container-image" src="img/ic_get_started.svg"/>
-      <h5 class="welcome-title">Get started with messaging</h5>
+      <h5 class="welcome-title">Set up messaging</h5>
     </a>
     <a  class="welcome-card"  href="/whats-new-latest-whats-new.html"> 
       <img class="container-image" src="img/ic_Whats_new.svg"/>
@@ -41,7 +41,7 @@ LivePerson's AI-powered Conversational Cloud helps brands build meaningful relat
 <div class="free-trial-container">
 <div id="free-trial">
     <div id="free-trial-content-container">
-      <p class="free-trial-header">Excited? Let’s start your free trial today.</p>
+      <p class="free-trial-header">Let’s start your free trial today.</p>
       <div style="display:flex">
         <p class="free-trial-label"> &#10004; Free 45-day trial</p>
         <p class="free-trial-label">&#10004; No credit card required</p>
