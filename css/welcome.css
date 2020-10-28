@@ -23,7 +23,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    width: 670px;
+    width: 560px;
     flex: 2;
     line-height: 24px;
     letter-spacing: 0.01em;
@@ -151,8 +151,30 @@ img.card-container {
     color: white;
 }
 
+@media screen and (max-width: 1800px) {
+    .welcome-card {
+        flex: 0 430px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .welcome-card {
+        flex: 0 380px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .welcome-card {
+        flex: 0 350px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #defaultcontent {
         margin-left: 20px !important;
+    }
+
+    .welcome-card {
+        flex: 0 300px;
     }
 }
