@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="header-label">
-Manage, measure and scale brand-to-consumer messaging conversations with LivePerson's AI-powered Conversational Cloud
+Manage, measure and scale brand-to-consumer messaging conversations with LivePerson's AI-powered Conversational Cloud. In the Knowledge Center you can find user guides, tutorial videos, frequently asked questions, and more resources to help your brand build conversational solutions. Use the search to explore our documnetation or start by choosing a topic below. 
 </div>
 
 <div class="card-container">
