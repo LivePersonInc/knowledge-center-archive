@@ -1,5 +1,5 @@
 ---
-pagename: Manage. Measure. Scale.
+pagename: Manage, measure, and scale messaging conversations
 permalink: index.html
 layout: homepage
 redirect_from:
