@@ -24,7 +24,6 @@
     <div id="homebuttons">
       <span id="login" class="homebutton"><a target="_blank" href="https://liveengage.liveperson.net">LivePerson login</a></span>
     </div>
-    <a href="https://knowledge.liveperson.com/" class="casey"><img class="caseyPortrait" src="img/open-casey-header.svg" /><span>CASEY</span></a>
   </div>
   <div id="defaultsidebar">
     {% include sidebar.html %}
@@ -32,7 +31,6 @@
   <div style="border-bottom: 0; padding-left: 35px;"id="documenttitlecontainer">
   <div style="margin-top: 30px; margin-bottom: 20px;" class="documenttitle">
     <div class="titlecontainer">
-      <div style="color: #090C43; margin-left: 8px;"class='h1'>{{ page.pagename }}</div>
       <div id="subtitle">{{ page.subtitle }}</div>
       <div id="indicatorrow">
         <!-- <div id="lastmodified">Last modified: {% capture lastmod_date %}{% last_modified {{ page.path }} %}{% endcapture %}{{ lastmod_date | date: '%D' }}</div> -->
@@ -57,6 +55,7 @@
         <li id="jumptotop"><a  class="active" href="#">{{ page.pagename }}</a></li>
       </ul>
     </div>
+    <div style="color: #090C43; margin-left: 8px; margin-bottom: 20px; margin-top: -25px;"class='h1'>{{ page.pagename }}</div>
     {{ content | extlinks }}
   </div>
     <div style="display: none;"id="feedback">
