@@ -22,11 +22,11 @@ Manage, measure and scale brand-to-consumer messaging conversations with LivePer
       <h5 class="welcome-title">Get started with your Free Trial account</h5>
     </a>
     <a  class="welcome-card"  href="/whats-new-latest-whats-new.html"> 
-      <img class="container-image" src="img/ic_release notes.svg"/>
+      <img class="container-image" src="img/ic_Whats_new.svg"/>
       <h5 class="welcome-title">Check out What’s New at LivePerson</h5>
     </a>
       <a  class="welcome-card"  href="/release-notes-latest-release-notes.html"> 
-      <img class="container-image" src="img/ic_Whats_new.svg"/>
+      <img class="container-image" src="img/ic_release notes.svg"/>
       <h5 class="welcome-title">View our latest release notes</h5>
     </a>
   <a class="welcome-card" target="_blank" href="https://developers.liveperson.com/"> 
@@ -54,4 +54,3 @@ Manage, measure and scale brand-to-consumer messaging conversations with LivePer
     </div>
   </div>
 </div>
-
