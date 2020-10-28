@@ -155,9 +155,9 @@ Fixed as part of the update to use the new Chrome user agent recognition method.
 
 We have introduced several UX/UI improvements to the [JSON Pollock playground](https://livepersoninc.github.io/json-pollock/editor/) that makes the playground much cleaner, easier to use, and showcases new action buttons.
 
-![](week-of-november-2nd-1.png)
+![](img/week-of-november-2nd-1.png)
 
-![](week-of-november-2nd-2.png)
+![](img/week-of-november-2nd-2.png)
 
 ## [JSON Pollock Playground] New action buttons 
 ### Type: Enhancement 
@@ -168,33 +168,33 @@ As part of the update, new action buttons allow for developers to build, validat
 
 Implementing a utility from the Connectors team, the Validate action button will validate structured content JSON on selected channels and present any errors from that channel.
 
-![](week-of-november-2nd-3.png)
+![](img/week-of-november-2nd-3.png)
 
 #### Templates 
 
 A set of structured content templates is now available to allow developers to quickly build their JSON objects across multiple channels.
 
-![](week-of-november-2nd-4.png)
+![](img/week-of-november-2nd-4.png)
 
 #### Feedback
 
 A new Feedback button has been added to the action menu. Developers can use this button to provide feedback to the JSON Pollock development team. Note that providing feedback requires being signed into Github. 
 
-![](week-of-november-2nd-5.png)
+![](img/week-of-november-2nd-5.png)
 
 #### Documentation 
 
 The documentation button has moved to the action menu and allows developers to quickly reference the Liveperson Developer pages related to structured content.
 
-![](week-of-november-2nd-6.png)
+![](img/week-of-november-2nd-6.png)
 
 #### GitHub Save / Share
 
 For GitHub users, it is now possible to save and load previous JSON files. This is helpful when sharing files across groups and keeping track of multiple structured content implementations.
 
-![](week-of-november-2nd-7.png)
+![](img/week-of-november-2nd-7.png)
 
-![](week-of-november-2nd-8.png)
+![](img/week-of-november-2nd-8.png)
 
 ## [JSON Pollock Playground] Structured Content updates
 ### Type: Enhancement 
@@ -205,7 +205,7 @@ There are additional updates that have been or will be delivered to structured c
 
 On click, open a window window with the embedded web view from the deeplink
 
-![](week-of-november-2nd-9.png)
+![](img/week-of-november-2nd-9.png)
 
 This functionality is invoked by adding “target”:”slideout” in the click action element. An example is below:
 
