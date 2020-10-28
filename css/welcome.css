@@ -181,8 +181,9 @@ img.card-container {
     }
 }
 
+
 @media screen and (max-width: 1200px) {
-    #defaultcontent {
+    .homeContent {
         margin-left: 20px !important;
     }
 
