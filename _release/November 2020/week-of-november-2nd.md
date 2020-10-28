@@ -118,7 +118,7 @@ When the Video Chat slideout opens, screen readers will read the slideout headin
 ## [Video Chat] More descriptive Minimize / Maximize button labels
 ### Type: Enhancement [Web Experiences 10.5]
 
-Updated Video Chat button labels to be “Minimize Video Chat” and “Maximize Video Chat” so that it is more clear that the consumer is interacting with the Video Chat as opposed to the web messaging window or the browser window. 
+Updated Video Chat button labels to be “Minimize Video Chat” and “Maximize Video Chat” so that it is more clear that the consumer is interacting with the Video Chat as opposed to the Web Messaging window or the browser window. 
 
 ## [Window] Improved announcement for new messages
 ### Type: Bug fix [Web Experiences 10.5]
@@ -149,3 +149,96 @@ Fixed loop that occurred when an authorize function was looking at an empty file
 ### Type: Bug fix [Web Experiences 10.5]
 
 Fixed as part of the update to use the new Chrome user agent recognition method.
+
+## [JSON Pollock Playground] New design
+### Type: Enhancement
+
+We have introduced several UX/UI improvements to the [JSON Pollock playground](https://livepersoninc.github.io/json-pollock/editor/) that makes the playground much cleaner, easier to use, and showcases new action buttons.
+
+![](week-of-november-2nd-1.png)
+
+![](week-of-november-2nd-2.png)
+
+## [JSON Pollock Playground] New action buttons 
+### Type: Enhancement 
+
+As part of the update, new action buttons allow for developers to build, validate, and save/share structured content quickly and easily.
+
+#### Validation by channel (Beta)
+
+Implementing a utility from the Connectors team, the Validate action button will validate structured content JSON on selected channels and present any errors from that channel.
+
+![](week-of-november-2nd-3.png)
+
+#### Templates 
+
+A set of structured content templates is now available to allow developers to quickly build their JSON objects across multiple channels.
+
+![](week-of-november-2nd-4.png)
+
+#### Feedback
+
+A new Feedback button has been added to the action menu. Developers can use this button to provide feedback to the JSON Pollock development team. Note that providing feedback requires being signed into Github. 
+
+![](week-of-november-2nd-5.png)
+
+#### Documentation 
+
+The documentation button has moved to the action menu and allows developers to quickly reference the Liveperson Developer pages related to structured content.
+
+![](week-of-november-2nd-6.png)
+
+#### GitHub Save / Share
+
+For GitHub users, it is now possible to save and load previous JSON files. This is helpful when sharing files across groups and keeping track of multiple structured content implementations.
+
+![](week-of-november-2nd-7.png)
+
+![](week-of-november-2nd-8.png)
+
+## [JSON Pollock Playground] Structured Content updates
+### Type: Enhancement 
+
+There are additional updates that have been or will be delivered to structured content JSON:
+
+#### Invoke window widget within Structured Content
+
+On click, open a window window with the embedded web view from the deeplink
+
+![](week-of-november-2nd-9.png)
+
+This functionality is invoked by adding “target”:”slideout” in the click action element. An example is below:
+
+```
+{
+ "type": "vertical",
+ "elements": [
+   {
+     "type": "text",
+     "text": "product name (Title)",
+     "tooltip": "text tooltip"
+   },
+   {
+     "type": "button",
+     "tooltip": "button tooltip",
+     "title": "Add to cart",
+     "click": {
+       "actions": [
+         {
+           "type": "link",
+           "name": "Add to cart",
+           "uri": "https://example.com",
+           "target": "slideout"
+         }
+       ]
+     }
+   }
+ ]
+}
+```
+**Additional notes:**
+* Clicking on a second deeplink with target:slideout will replace the previous content in the slideout
+* To deeplink to a YouTube video in the slideout, use YouTube’s embed URL
+* It is not required to have the widget SDK taglet enabled to utilize the structured content method of opening the slideout window
+* Customer activity within the slideout is not currently reported to the agent workspace
+* While we have not updated the examples, target:slideout can be used in both JSON Pollock Playground and the Structured Content Widget to test and verify implementation of structured content
