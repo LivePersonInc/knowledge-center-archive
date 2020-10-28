@@ -242,3 +242,18 @@ This functionality is invoked by adding “target”:”slideout” in the click
 * It is not required to have the widget SDK taglet enabled to utilize the structured content method of opening the slideout window
 * Customer activity within the slideout is not currently reported to the agent workspace
 * While we have not updated the examples, target:slideout can be used in both JSON Pollock Playground and the Structured Content Widget to test and verify implementation of structured content
+
+## [Enhanced Agent Workspace] Engagement skill is not displayed for Rollover conversations
+### Type: Bug fix (NAW 1.20)
+
+A bug has been discovered in the enhanced Agent Workspace, causing engagement skills to be missing if a conversation is accepted on a rollover account. This bug has been fixed, and the engagement skill will now be displayed as expected for rollover conversations.
+
+## [Enhanced Agent Workspace] Lead generation topic is not displayed in the Consumer Info widget
+### Type: Bug fix (NAW 1.20)
+
+A bug has been discovered in the enhanced Agent Workspace, causing the Lead generation topics to be missing from the Consumer Info widget for cases when the topic has no value. This bug has been fixed, and the topic will now be displayed as expected.
+
+## [Enhanced Agent Workspace] Bot escalation summary from node agent SDK bot not displayed for agent managers
+### Type: Bug fix (NAW 1.20)
+
+A bug has been discovered in the enhanced Agent Workspace, causing the Bot escalation summary to not be displayed in the transcript of closed conversations for agent managers, in case they weren't joined into these conversations. This bug has been fixed, and the Bot escalation summary will now be displayed in the transcript of closed conversations for agent managers.
