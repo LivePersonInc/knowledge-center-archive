@@ -151,6 +151,11 @@ img.card-container {
     color: white;
 }
 
+.homeContent {
+    margin-top: -30px; 
+    margin-left: -40px;
+}
+
 @media screen and (max-width: 1800px) {
     .welcome-card {
         flex: 0 430px;
