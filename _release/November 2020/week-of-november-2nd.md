@@ -257,3 +257,56 @@ A bug has been discovered in the enhanced Agent Workspace, causing the Lead gene
 ### Type: Bug fix (NAW 1.20)
 
 A bug has been discovered in the enhanced Agent Workspace, causing the Bot escalation summary to not be displayed in the transcript of closed conversations for agent managers, in case they weren't joined into these conversations. This bug has been fixed, and the Bot escalation summary will now be displayed in the transcript of closed conversations for agent managers.
+
+## [Back-end messaging server]  StepUp - Update firstConversation to false if authenticated consumer has conversation history
+### Type: New feature (UMS 4.0)
+
+Currently the firstConversation flag is only updated when a new conversation is created. In the case of an unauthenticated conversation this value is always "true", indicating that the system has no previous record of a conversation with that customer. This feature will update firstConversation to false after step up if an authenticated customer has conversation history.
+
+## [Back-end messaging server]  Rollover - Prioritize skill specified in request over engagement configuration
+### Type: New feature (UMS 4.0)
+
+**Available to all customers:** yes (will be enabled by default with feature to disable)
+This feature will prioritize the incoming ConsumerRequestConversation request’s Skill over the campaign’s Skill. To revert to the old functionality a FF will have to be enabled.
+**How to configure:** Disable by enabling the following feature flags - 
+async-messaging.prioritize-skill-from-campaign  -> ON
+
+## [Back-end messaging server]  Rollover Encryption
+### Type: New feature (UMS 4.0) 
+
+**Available to all customers:** yes (if feature flag is enabled)
+This PR is to address encryption/decryption not working for Rollover use cases since messages/user profile data was encrypted in the context of the connecting user's account ID and rollover conversations involve cross-account access.
+The solution is to inspect request messages and find an appropriate ID in Couchbase to look up the conversation owner's account ID -> always use this account for encryption/decryption.
+
+**How to configure:** Following unleash feature flags should be enabled - 
+async-messaging.encryption-account-lookup-for-rollover-enabled  -> ON
+
+## [Back-end messaging server]  Send PCS only if conversation is ever assigned to a human agent
+### Type: New feature (UMS 4.0) 
+
+**Available to all customers:** yes (if both feature flag and AC feature are enabled)
+This feature will send the PCS only if the conversation is ever assigned to a human agent. It is configurable for accounts using the AC feature.
+To configure, please contact your LivePerson account team.
+
+## [Back-end messaging server]  Return 403 on connection attempt - when async-messaging features if OFF
+### Type: Enhancement (UMS 4.0) 
+
+**Available to all customers:** yes (if feature flag is enabled)
+If Common.Async_Messaging flag is turned off in AC, the 403 will be returned to a user trying to connect. Instead of 503 returned in a previous UMS version. 
+How to configure: Available out of the box.
+ 
+## [Back-end messaging server]  Fixing the decryption issue (removing old cached value on warmup)
+### Type: Bug fix (UMS 4.0) 
+
+**Available to all customers:** yes
+The fix allows to eliminate potential decryption failures that happened previously to some brands after the leader jump due to outdated cache, which is properly refreshed now. 
+
+**How to configure:** Available out of the box. 
+
+## [Back-end messaging server] Fix for the wrong timezone used in shift status API causing wrong shift calculation (especially in APAC region)
+### Type: Bug fix (UMS 4.0) 
+
+**Available to all customers:** yes
+This fix implements the safe mechanism of caching of the timezone, which is fetched from the external server. The probability of the timezone being empty at the moment of shift calculation is reduced almost to zero.
+
+**How to configure:** Available out of the box. 
