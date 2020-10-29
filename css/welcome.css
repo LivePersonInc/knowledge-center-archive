@@ -1,3 +1,8 @@
+.documentHome {
+    border-bottom: 0 !important;
+    padding-left: 35px;
+}
+
 .welcome-card {
     flex: 0 499px;
     padding: 24px;
@@ -122,7 +127,6 @@ img.card-container {
     border-radius: 25px;
     text-align: center;
     padding: 12px;
-
     font-weight: bold;
     color: white;
     border: 1px solid white;
@@ -152,8 +156,13 @@ img.card-container {
 }
 
 .homeContent {
-    margin-top: -30px; 
-    margin-left: -40px;
+    margin-top: -30px !important; 
+    margin-left: -40px !important;
+}
+
+.mainHome {
+    flex-direction: column !important; 
+    width: 80% !important;
 }
 
 @media screen and (max-width: 1800px) {
