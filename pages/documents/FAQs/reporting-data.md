@@ -43,7 +43,6 @@ For example: If “1234” is masked it will be replaced with “****”
 
 ## Where is deleted user data visible, and for how long is it there?
 
-![](/img/reporting-data-faqs-2.png)  
 Deleted user data is stored in LivePerson and visible for **13 months following deletion**.
 
 Deleted agents are displayed with a '(deleted)' indicator in the Open Conversations, All Conversations, Web History lists, and the Conversation History widget.

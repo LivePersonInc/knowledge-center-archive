@@ -387,6 +387,9 @@
     - subcategoryname: Latest Release Notes
     - subcategoryname: 2020
       pages:
+        - pagename: November
+          level3:
+            - level3name: Week of November 2nd     
         - pagename: October
           level3:
             - level3name: Week of October 5th
@@ -414,19 +417,7 @@
             - level3name: Week of June 8th
             - level3name: Week of June 15th
             - level3name: Week of June 29th
-        - pagename: May
-          level3:
-            - level3name: Week of May 4th
-            - level3name: Week of May 11th
-            - level3name: Week of May 18th
-            - level3name: Week of May 25th
-        - pagename: April
-          level3:
-            - level3name: Week of April 1st
-            - level3name: Week of April 6th
-            - level3name: Week of April 13th
-            - level3name: Week of April 20th
-            - level3name: Week of April 27th
+
 
 - categoryname: Troubleshooting
   image: Troubleshooting

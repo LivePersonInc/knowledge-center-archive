@@ -11,7 +11,7 @@ date: 2019-03-17 14:03:55 +0000
 
 ---
 
-Here are six tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth in the [the Developer Center](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)
+Here are tutorials videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building great bots in a few minutes! These topics are also covered in more depth in the [the Developer Center](https://developers.liveperson.com/conversation-builder-tutorials-guides-getting-started.html)
 
 ## Dialogs and Patterns
 
@@ -59,3 +59,27 @@ When working with natural language from our users, it is sometimes necessary to 
 Knowledge base is a great tool to answer questions about a variety of topics specific to your bot's area of expertise. In this tutorial you will learn how the Knowledge Base application in the Conversation Builder platform lets you create and manage knowledge bases and articles, which are then processed by an NLU engine. This allows the bot to leverage intents and entities to recommend the most accurate articles to an inquiring consumer. 
 
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/456479762" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+##  Meta Intent (SmallTalk)
+
+A Meta Intent is a wrapper for a grouping of related intents. Using Meta Intents, we can funnel a variety of intents into a single dialog for processing.  Watch this tutorial to learn more.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/465691767" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Auto Escalation
+
+A Conversational Design best practice is to ensure that every automation includes a way to automatically escalate when a user gets stuck. Conversation Builder provides a special dialog type which takes care of all of this for you without having to write any code. Watch this tutorial to learn more.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/467390622" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Complex conditions
+
+Learn about the Conversation Builder condition editor which provides you with a code-free way of looking at multiple factors in determining what information to display to users.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/468527951" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Bot groups and collaboration
+
+Learn about the new design pattern developed by LivePerson which deviates from the standard single bot approach and breaks up your automation’s functionality between several bots in a group.
+
+<iframe style="max-width: 750px;" src="https://player.vimeo.com/video/470607418" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
