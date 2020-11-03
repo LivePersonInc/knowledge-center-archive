@@ -1,30 +1,30 @@
 ---
-pagename: EmailConnect
+pagename: Email Connect
 categoryName: Messaging channels
 subCategoryName: ''
 indicator: messaging
-subtitle: Get more out of email with LivePerson's EmailConnect, a single platform
+subtitle: Get more out of email with LivePerson's Email Connect, a single platform
   to manage email and all customer communications
 level3: ''
-permalink: messaging-channels-emailconnect.html
+permalink: messaging-channels-email-connect.html
 isTutorial: false
 isNew: false
 redirect_from:
-  - messaging-channels-email-connect.html
+  - messaging-channels-emailconnect.html
 ---
 <iframe style="max-width: 750px;" src="https://player.vimeo.com/video/364067090?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-With EmailConnect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
+With Email Connect, brands can manage, analyze and respond to emails from the same command center that powers conversations on the world’s most popular messaging channels.
 
 Brands can easily manage email conversations alongside conversations in messaging channels like Apple Business Chat, WhatsApp, SMS, Facebook Messenger, Web Messaging and Google RBM, eliminating the need to switch between tools to respond to emails.
 
-EmailConnect utilizes the powerful features available with other messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
+Email Connect utilizes the powerful features available with other messaging channels, including support for bots powered by the Conversation Orchestrator, predefined content, reporting and Dynamic Capacity.
 
-## Why brands should use EmailConnect
+## Why brands should use Email Connect
 
 ### Increase agent efficiency through a better email management tool
 
-EmailConnect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within the Conversational Cloud instead of using a separate platform for handling consumer emails.
+Email Connect increases agent efficiency by unifying operations so that agents can manage all messaging conversations, including email conversations, within the Conversational Cloud instead of using a separate platform for handling consumer emails.
 
 ### Single interface for all messaging
 
@@ -32,7 +32,7 @@ Agents handle emails in the same easy-to-use Conversational Cloud interface they
 
 ### Use bots and automations for emails
 
-EmailConnect is fully compatible with LivePerson powered bots and AI, allowing brands to create email auto-responses or AI powered responses based on the content of emails.
+Email Connect is fully compatible with LivePerson powered bots and AI, allowing brands to create email auto-responses or AI powered responses based on the content of emails.
 
 ### Simple email replies using predefined content
 
@@ -40,23 +40,23 @@ Email Connect has access to the same predefined content tools that are available
 
 ### Rich Conversation capabilities
 
-Send and receive email attachments using EmailConnect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “EmailConnect Setup” below.
+Send and receive email attachments using Email Connect making emailing a more visual experience, increasing communication efficiency and reducing time to resolution. Attachments include images, pdfs and Microsoft Word and Excel documents. This may require feature enablement by LivePerson - see “Email Connect Setup” below.
 
 ### Easy setup & onboarding
 
-Brands can set-up EmailConnect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
+Brands can set-up Email Connect in minutes by connecting to a company email address and uploading simple design elements, such as a header and footer (no tagging is required). Once the email address is set up, test the connection and then begin using Email Connect. Note that passwords are hidden and all your email credentials will be fully encrypted so that only you have access to them.
 
-## EmailConnect Setup
+## Email Connect Setup
 
 {: .notice}  
 **Please note:** Email Connect is not yet compatible with Microsoft Exchange or Office 365 email addresses. This feature is coming soon.
 
 {: .important}  
-To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://developers.liveperson.com/liveperson-functions-overview.html) enabled.
+To setup Email Connect, your account must have Messaging and [Liveperson Functions](https://developers.liveperson.com/liveperson-functions-overview.html) enabled.
 
 ### Step 1: Connect your email in the Conversational Cloud
 
-There are two ways to launch EmailConnect set up page:
+There are two ways to launch Email Connect set up page:
 
 #### Option 1 Email Connect Setup via Data Sources.
 Login to the Conversational Cloud and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
@@ -65,11 +65,9 @@ Click the Connect button in the Email Connect tile.
 
 ![](img/Email-connect-0.png)
 
-![](img/email-connect-2.png)
-
 #### Option 2 Email Connect Setup via Conversational Cloud Applications
 
-Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen. Click **EmailConnect**. 
+Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen. Click **Email Connect**. 
 
 ![](img/email-connect-1.png)
 
@@ -99,7 +97,7 @@ Click Test Connection and then click Save.
 You can test your setup by sending an email from your email account to the email address you connected in the Conversational Cloud. When the message shows up in the Agent Workspace, you can respond as an agent and see the response in the sender’s email account.
 
 {: .notice}
-EmailConnect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take up to 10 minutes for brand to see the first email in the Conversational Cloud.
+Email Connect service will wait for 10 minutes before start polling emails from Brand’s configured email address. It may take up to 10 minutes for brand to see the first email in the Conversational Cloud.
 
 ### Step 5: Setup for file attachments (optional)
 Email Connect uses Agent and Consumer File Sharing feature and supports these file types - JPEG, JPG, PNG, GIF, PDF, DOCx, XLSx, and PPTx.
