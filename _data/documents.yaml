@@ -58,8 +58,7 @@
       pages:
         - pagename: Social Messaging overview
         - pagename: Social Messaging user guide
-    - subcategoryname: EmailConnect
-
+    - subcategoryname: Email Connect
     - subcategoryname: Live chat
       pages:
         - pagename: Add live chat to your website
