@@ -49,7 +49,7 @@ Brands can set-up EmailConnect in minutes by connecting to a company email addre
 ## EmailConnect Setup
 
 {: .notice}  
-**Please note:** EmailConnect provides brands with the ability to immediately support a single email address in the Conversational Cloud. More features coming soon.
+**Please note:** Email Connect is not yet compatible with Microsoft Exchange or Office 365 email addresses. This feature is coming soon.
 
 {: .important}  
 To setup EmailConnect, your account must have Messaging and [Liveperson Functions](https://developers.liveperson.com/liveperson-functions-overview.html) enabled.
@@ -61,18 +61,17 @@ There are two ways to launch EmailConnect set up page:
 #### Option 1 Email Connect Setup via Data Sources.
 Login to the Conversational Cloud and click the Campaign Builder icon located in the left navigation bar. Click on Data Sources in the Campaign Builder footnote.
 
-![](img/Email-connect-0.png)
-![](img/email-connect-1a.png)
-
 Click the Connect button in the Email Connect tile. 
+
+![](img/Email-connect-0.png)
 
 ![](img/email-connect-2.png)
 
 #### Option 2 Email Connect Setup via Conversational Cloud Applications
 
-Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen.
+Login to the Conversational Cloud and click the Quick launch menu at the bottom left of your screen. Click **EmailConnect**. 
 
-Click **EmailConnect**. 
+![](img/email-connect-1.png)
 
 ![](img/EmailConnect_new_UI1.png)
 
