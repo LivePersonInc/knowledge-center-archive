@@ -157,7 +157,7 @@ Re-enter the password for your email, click Test Connection and click Save.
 ![](img/email-connect-step-10.png)
 
 ## Multiple email addresses
-Brands can add an unlimited number of email addresses to LiveEngage and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
+Brands can add an unlimited number of email addresses to Conversational Cloud and even route each email address to a different skill. For example, you can route info@, support@ and sales@ to different skills, allowing specialized bots and agents to handle your email interactions.
 
 ## Reporting
 
