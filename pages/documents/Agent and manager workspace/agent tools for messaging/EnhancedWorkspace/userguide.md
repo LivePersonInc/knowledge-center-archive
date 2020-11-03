@@ -185,6 +185,9 @@ You can reply by using free text, but we recommend using predefined content. You
 
 ![image alt text](img/predefinedcontent.png)
 
+You can use the search text box to search for the desired content. 
+**Please note:** The search results will not include category names.
+
 Some predefined answers have associated hotkeys that will enable you to enter responses even more easily. Now, you can configure your own hotkeys for predefined content. Simply start typing the shortcut into the conversation and all of the relevant options will display.
 
 #### Rich Conversations
