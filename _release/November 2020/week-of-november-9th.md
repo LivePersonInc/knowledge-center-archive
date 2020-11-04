@@ -23,3 +23,6 @@ The timing and scope of these features or functionalities remain at the sole dis
 ### Type: Enhancement [GBM 3.23.0]
 
 Brands are now able to configure multiple GBM agents aka multiple GBM connectors to one single parent account in the Conversational Cloud. This will also allow the brands to open multiple conversations with the same consumer using one Conversational Cloud account.
+
+{: .notice}  
+**Please note:** This feature requires backend enablement. Please contact your LivePerson representative for more information.
