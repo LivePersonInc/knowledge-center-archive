@@ -15,11 +15,11 @@ As we approach the high season, our focus and priority is stability and availabi
 ## Updates this quarter include:
 
 ## Highlights of the Unified Window
-Updates to support new Chrome User Agent method
-WCAG updates to window widget, Video/CoBrowse, rich content, as well as focus and navigation improvements of the main window area and action menu
-Brands can set Quick Replies to “wrap” the window
-Customizable focus indicator border color - can be customized through Window customization API or the CSS customization taglet
-Updated Japanese translation
+* Updates to support new Chrome User Agent method
+* WCAG updates to window widget, Video/CoBrowse, rich content, as well as focus and navigation improvements of the main window area and action menu
+* Brands can set Quick Replies to “wrap” the window
+* Customizable focus indicator border color - can be customized through Window customization API or the CSS customization taglet
+* Updated Japanese translation
 
 LivePerson has additional improvements coming soon including Message history improvements. A consumer's messaging history can be very long and from a long time period, up to 13 months. While we want this history to be available, long histories create problems for screen readers (WCAG) and performance of a new conversation. As such, users will soon be able to collapse the messaging history and allow the consumer to decide if they want to see past interactions. 
 This is a feature enhancement sub-item of WCAG 2.1 Certification efforts.
@@ -78,6 +78,8 @@ The handler account may see an opportunity for rollback to the brand to deepen a
 * Rolldown - proactively roll down a conversation to a Conversation Handler account
 
 To enable, please contact your LivePerson account team.
+
+![](img/Rollover-whats-new-1.png)
 
 ## Proactive Messaging support for Mobile SDK
 The proactive messaging tools allow brands to share outbound messages with their consumer over the most relevant channels for their desired use case and consumer preferences. LivePerson will enrich the available Proactive Messaging channels and add Mobile SDK as an additional channel available on Proactive.
