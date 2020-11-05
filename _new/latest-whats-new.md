@@ -96,7 +96,7 @@ Please note, the date of the Realtime Dashboard deprecation has been moved from 
 
 The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html).
 
-![](img/Whats-new-sept-1.png)
+![](img/Man-workspace-whats-new.png)
 
 ## NodeAgent SDK
 LivePerson empowers external bot vendors and bot builders to build fully customized bots with LivePerson, leveraging the Messaging Agent SDK for node.js.  
