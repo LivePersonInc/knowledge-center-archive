@@ -1,11 +1,11 @@
 ---
-pagename: October what's new
+pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights include The Performance Optimizer which is the newest addition to the Conversational Cloud, Intent Manager updates and more!
 level3: ''
-permalink: whats-new-october-whats-new.html
+permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 
