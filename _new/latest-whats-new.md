@@ -78,3 +78,19 @@ The handler account may see an opportunity for rollback to the brand to deepen a
 * Rolldown - proactively roll down a conversation to a Conversation Handler account
 
 To enable, please contact your LivePerson account team.
+
+## Proactive Messaging support for Mobile SDK
+The proactive messaging tools allow brands to share outbound messages with their consumer over the most relevant channels for their desired use case and consumer preferences. LivePerson will enrich the available Proactive Messaging channels and add Mobile SDK as an additional channel available on Proactive.
+
+## Intent Manager
+New features will be added to Intent Discovery & Optimization to help brands discover new topics and quickly find diverse training phrases for building new intents. Brands will have the ability to create, save, and manage advanced filters, as well as customize and configure metric widgets to better suit different personas and use cases.
+Expanded starter packs will be introduced for intents including initial tests for FinServ + cross vertical intents followed by adding cross vertical intents to Telco, Airlines and Insurance starter packs.
+
+## Announcements
+
+## Realtime Dashboard for Messaging - End of life pushed to March 2021
+
+Please note, the date of the Realtime Dashboard deprecation has been moved from December 2020 to the end of Q1 2021 to provide additional time to allow business monitoring operations to migrate to the new Manager Workspace. 
+
+The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html).
+
