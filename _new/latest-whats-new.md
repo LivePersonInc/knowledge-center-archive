@@ -94,3 +94,21 @@ Please note, the date of the Realtime Dashboard deprecation has been moved from 
 
 The Realtime Dashboard was developed before the new Manager Workspace was introduced. The new Manager Workspace is embedded into the core platform, allowing users to manage their operation seamlessly and in real time, eliminating the need to support the Realtime Dashboard. Note: Chat users will not be affected by this at this time. For more information on the new Manager Workspace, click [here](https://knowledge.liveperson.com/agent-manager-workspace-manager-tools-for-messaging-new-manager-workspace-for-messaging-introducing-the-new-manager-tools.html).
 
+![](img/Whats-new-sept-1.png)
+
+## NodeAgent SDK
+LivePerson empowers external bot vendors and bot builders to build fully customized bots with LivePerson, leveraging the Messaging Agent SDK for node.js.  
+You’ll be pleased to know that we have released a new version of NodeAgent SDK which will improve resilience and stability of your third-party bots. Please upgrade to the new NodeAgent SDK as soon as possible to see these improvements. For the latest SDK version, click [here.](https://github.com/LivePersonInc/node-agent-sdk/releases)
+With the upgrade to the latest version, we recommend auditing your integration to ensure compliance with the best practices around managing connections with LivePerson’s Conversational Cloud. Click [here](https://github.com/LivePersonInc/node-agent-sdk/wiki/NodeAgentSDK-Connection-Best-Practices) for the best practices.
+
+## Internet Explorer 11 -  End of Life
+Microsoft 365 apps and services will no longer support Internet Explorer 11 (IE 11) and will move to support the new Microsoft Edge. By November 30th, 2020, the Microsoft team’s web app will no longer support IE 11. By August 17th, 2021, the remaining Microsoft 365 apps and services will no longer support IE 11. This means customers still using IE11 will have a degraded experience or will be unable to connect to Microsoft 365 apps and services. As such, LivePerson is discontinuing support of IE11 in line with the above dates, as we don’t want our customers to be negatively impacted by this change. Though LivePerson supports Microsoft Edge and FireFox, the recommended browser for messaging workspace is Chrome.
+
+For more information, please see the Microsoft announcement [here.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
+
+## Advanced Messaging Dashboard
+
+The Advanced Messaging Dashboard was originally built for critical messaging reporting needs that could not be served elsewhere. All of those reporting needs are now being served by either the Analytics Builder Predefined Dashboards or other reporting tools within Conversational Cloud. The Advanced Messaging Dashboard is undergoing a sunset plan, end of life is planned for April 30th 2021.  
+
+
+
