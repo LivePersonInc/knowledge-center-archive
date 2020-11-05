@@ -25,7 +25,7 @@ LivePerson has additional improvements coming soon including Message history imp
 This is a feature enhancement sub-item of WCAG 2.1 Certification efforts.
 
 ## Conversation Builder  *New tutorials available*
-Check out the new tutorial videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building bots in minutes.
+Check out the new tutorial videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building bots in minutes. Click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)
 
 ### Topics include: 
 
@@ -52,3 +52,29 @@ Check out the new tutorial videos to help you get started with our Conversation 
 * Complex conditions - Learn about the Conversation Builder condition editor, which provides you with a code-free way of looking at multiple factors in determining what information to display to users.
 
 * Bot groups and collaboration - Learn about the new design pattern which deviates from the standard single bot approach and breaks up your automation’s functionality among several bots in a group.
+
+Click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)
+
+## Rollback Conversations to brand
+Conversation Rollover feature allows a brand/merchant account to roll over conversations to a designated handler account, enabling the handler account(s) to answer conversations on the brand’s behalf. The consumer experience is seamless, to the point the consumer will not know they are not speaking directly with the brand but with an answering service agent. 
+
+Conversation Rollback allows a conversation to be transferred back from the handler agent or bot, to the queue of the brand/merchant account, based on the intent of the consumer. 
+
+The handler account may see an opportunity for rollback to the brand to deepen and personalize the consumer experience based on the consumer’s intent. For example, the handler account has led the customer to make a purchase, but only an agent on the brand account can handle a checkout. Conversation Rollback enables the handler agent to easily send the conversation back to the brand account for a seamless conversational experience.
+
+### Features currently available:
+* Rollover configuration by skill - Owner accounts can configure their Rollover settings differently for each skill on their account
+* Double Account Rollover - multiple layers of Conversation Handlers
+* Rollover Account Dashboard (Analytics Builder)
+* All Connections Support for Handler Accounts
+* Rollback  - Allows for a brand handler account to transfer a conversation back to the Conversation Owner, based on the needs and intent of the consumer
+
+### Features coming soon:
+* Rollback for bots
+* Manager Workspace support for Rollover
+* Rollover to multiple accounts
+* Video Messaging and Co-Browse support
+* Intent Manager integration
+* Rolldown - proactively roll down a conversation to a Conversation Handler account
+
+To enable, please contact your LivePerson account team.
