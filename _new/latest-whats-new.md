@@ -3,7 +3,7 @@ pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
-subtitle: Highlights include Rollback Conversations to brand, Intent Manager updates and announcements
+subtitle: Highlights include Rollback Conversations, Conversation Builder New tutorials and more
 level3: ''
 permalink: whats-new-latest-whats-new.html
 isTutorial: false
@@ -12,7 +12,7 @@ isNew: false
 
 As we approach the high season, our focus and priority is stability and availability of service for our customers.
 
-## Updates this quarter include:
+### Updates this quarter include:
 
 ## Highlights of the Unified Window
 * Updates to support new Chrome User Agent method
@@ -27,7 +27,7 @@ This is a feature enhancement sub-item of WCAG 2.1 Certification efforts.
 ## Conversation Builder  *New tutorials available*
 Check out the new tutorial videos to help you get started with our Conversation Builder. These videos cover the basic concepts and usage of the Conversation Builder, allowing you to get started with building bots in minutes. Click [here](https://knowledge.liveperson.com/ai-bots-automation-conversation-builder-getting-started-tutorials.html)
 
-### Topics include: 
+#### Topics include: 
 
 * Dialogs and patterns - Learn how to get started with some very basic bots, and the concept of dialogs (the different conversation flows a bot can have) and patterns, which allow the bot to match user input and respond intelligently.
 
@@ -62,14 +62,14 @@ Conversation Rollback allows a conversation to be transferred back from the hand
 
 The handler account may see an opportunity for rollback to the brand to deepen and personalize the consumer experience based on the consumer’s intent. For example, the handler account has led the customer to make a purchase, but only an agent on the brand account can handle a checkout. Conversation Rollback enables the handler agent to easily send the conversation back to the brand account for a seamless conversational experience.
 
-### Features currently available:
+#### Features currently available:
 * Rollover configuration by skill - Owner accounts can configure their Rollover settings differently for each skill on their account
 * Double Account Rollover - multiple layers of Conversation Handlers
 * Rollover Account Dashboard (Analytics Builder)
 * All Connections Support for Handler Accounts
 * Rollback  - Allows for a brand handler account to transfer a conversation back to the Conversation Owner, based on the needs and intent of the consumer
 
-### Features coming soon:
+#### Features coming soon:
 * Rollback for bots
 * Manager Workspace support for Rollover
 * Rollover to multiple accounts
@@ -88,7 +88,7 @@ The proactive messaging tools allow brands to share outbound messages with their
 New features will be added to Intent Discovery & Optimization to help brands discover new topics and quickly find diverse training phrases for building new intents. Brands will have the ability to create, save, and manage advanced filters, as well as customize and configure metric widgets to better suit different personas and use cases.
 Expanded starter packs will be introduced for intents including initial tests for FinServ + cross vertical intents followed by adding cross vertical intents to Telco, Airlines and Insurance starter packs.
 
-## Announcements
+### Announcements
 
 ## Realtime Dashboard for Messaging - End of life pushed to March 2021
 
