@@ -1,11 +1,11 @@
 ---
-pagename: November what's new
+pagename: Latest what's new
 categoryName: What's new
 subCategoryName: ''
 indicator: both
 subtitle: Highlights include Rollback Conversations to brand, Intent Manager updates and announcements
 level3: ''
-permalink: whats-new-november-whats-new.html
+permalink: whats-new-latest-whats-new.html
 isTutorial: false
 isNew: false
 ---
