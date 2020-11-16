@@ -36,17 +36,21 @@ Agents can use the app to complete basic conversation with consumers including:
 - Use of secure forms
 - Agent managers can review conversations of their team, and filter by status or specific agent.
 - Managers can join conversations to actively participate.
+- Live Video Calls 
+- Predefined Content 
+- Photo sharing.
 
-## Non Supported Capabilities
+## Future Capabilities
+In the future the following functionality will added:
+- Consumer info
+- SSO
+- Network effect support
+- Automotive specific feature support
 
-Please note that the following features are currently not available in the App and are only available in the web version:
-- Custom Widgets
-- Consumer info widget
-- Conversation History widget
 
 ## Provisioning
-This app is available on the Apple App Store. Brands can download it today and any agent can use their regular credentials to login.
-https://apps.apple.com/us/app/liveengage/id1279175037
+This app is available on the Apple App Store. Brands can download it today and any agent can use their regular credentials to login. 
+https://apps.apple.com/us/app/liveperson-agent-app/id1533849048"
 
 ## How to login
 
