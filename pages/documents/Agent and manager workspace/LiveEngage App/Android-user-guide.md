@@ -35,11 +35,6 @@ Photo sharing.
 
 ## Future Capabilities
 In the future the following functionality will added:
-- Tablet version
-- Videos & file sharing
-- Structured content
-- Secure forms
-- Multi send back to queue
 - Consumer info
 - SSO
 - Network effect support
