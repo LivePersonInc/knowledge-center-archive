@@ -1,5 +1,5 @@
 ---
-pagename: Agent App user guide
+pagename: Agent app user guide
 categoryName: Agent & manager workspace
 subCategoryName: ''
 indicator: messaging
