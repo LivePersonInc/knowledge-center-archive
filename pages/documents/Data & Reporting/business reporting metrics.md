@@ -7,7 +7,7 @@ subtitle:
 level3: ''
 permalink: data-reporting-reporting-metrics.html
 isTutorial: false
-
+layout: reporting-metrics
 ---
 The Conversational Cloud uses a large amount of metrics to provide insightful and detailed reporting.
 
@@ -40,18 +40,7 @@ The table below outlines all of the data metrics available in the Analytics Buil
       <th class="formula">Formula (Optional)</th>
     </tr>
   </thead>
-  <tbody class="list">
-  {% for metricitem in site.data.reportbuilder %}
-    <tr>
-      <td class="metric">{{ metricitem.Metric }}</td>
-      <td class="analysis">{{ metricitem.analysisType }}</td>
-      <td class="channel">{{ metricitem.Channel }}</td>
-      <td class="description">{{ metricitem.Description }}</td>
-      <td class="dashboard">{{ metricitem.Dashboard }}</td>
-      <td class="filtered">{{ metricitem.filteredBy }}</td>
-      <td class="formula">{{ metricitem.formulaOptional }}</td>
-    </tr>
-  {% endfor %}
+  <tbody class="metric-table">
 </tbody>
 </table>
 </div>
