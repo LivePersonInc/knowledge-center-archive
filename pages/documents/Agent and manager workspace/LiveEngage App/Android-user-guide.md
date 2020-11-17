@@ -1,14 +1,14 @@
 ---
 pagename: Agent app user guide
 categoryName: Agent & manager workspace
-subCategoryName: ''
+subCategoryName: Agent app
 indicator: messaging
 subtitle: ''
 level3: ''
-permalink: agent-manager-workspace-agent-app-user-guide.html
+permalink: agent-manager-workspace-agent-app-agent-app-user-guide.html
 isTutorial: false
 isNew: false
-Redirect from:
+redirect_from:
   - agent-manager-workspace-agent-app-android-user-guide.html
 
 ---
