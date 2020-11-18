@@ -53,7 +53,7 @@ Account no: the account ID (Remember toggle can be used to save for future login
 Username: usually the agent’s email
 Password: a masked field
 
-![](img/LoginScreen.png)
+![](img/LoginScreen1.png)
 
 {: .notice}
 Changing / retrieving lost password will be carried out by an admin on the web platform.
@@ -93,7 +93,7 @@ While the agent is in the "away" state, agents will not be eligible to receive n
 ### Log out button
 Upon signing out, all local database information for that agent is deleted. When the agent logs in, all data is restored from the LivePerson database.
 
-![](img/AgentPage.png)
+![](img/AgentPage1.png)
 
 ## Agent flow
 ### Empty state
@@ -167,7 +167,7 @@ Inactive conversations can be closed automatically using the Auto-close feature.
 ### Transfer conversations
 Allow agent to transfer a conversation either to another agent or to any agent within a skill.
 
-![](img/Actions.png)
+![](img/Actions1.png)
 
 ## The connections list
 ### Connection list order
@@ -306,7 +306,7 @@ When opened on a tablet, the app will open in tablet mode. The conversation list
 
 From the conversation list, long tap on any open conversation. A check mark will appear on the right to indicate it has been selected. Tap any additional conversations or tap "Mark all" to select all conversations. Tap "Return to queue" to return these conversations to the queue. Tap the "x" to cancel.
 
-![](img/MultiBackToQueue.png)
+![](img/MultiBackToQueue1.png)
 
 ## Structured Content
 
