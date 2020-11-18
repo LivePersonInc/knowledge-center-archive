@@ -84,9 +84,7 @@ As part of an effort to improve load times for a new conversation, we have added
 
 **Customization:** Brands are able to customize the look and feel of the “Show Previous” button based on the following CSS properties within the Window Customization API:
 
-```.lpc_history-button button {
-}
-```
+![](img/week-of-november-23rd-2.png)
 
 ![](img/week-of-november-23rd-1.png)
 
